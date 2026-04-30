@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Update GitHub Registry badge"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mlocati/docker-php-extension-installer",
+      "status": "candidate-context",
+      "text": "Easily install PHP extensions in Docker containers"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mlocati/docker-php-extension-installer",
+      "status": "candidate-context",
+      "text": "Update GitHub Registry badge"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mlocati/docker-php-extension-installer",
+      "status": "candidate",
+      "text": "Update GitHub Registry badge"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17891,
+      "status": "candidate",
+      "text": "registrar"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17885,
+      "status": "candidate",
+      "text": "item"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17885,
+      "status": "candidate",
+      "text": "point"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17816,
+      "status": "candidate",
+      "text": "account"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17816,
+      "status": "candidate",
+      "text": "entry"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Update GitHub Registry badge",
+  "concept_id": "update-github-registry-badge",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/update-ghcr-badge.yml",
+      "source_repo": "mlocati/docker-php-extension-installer"
+    }
+  ],
+  "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Update GitHub Registry badge",
+      "sense_id": "update-github-registry-badge#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

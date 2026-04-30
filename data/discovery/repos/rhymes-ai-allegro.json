@@ -1,0 +1,81 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "rhymes-ai/Allegro",
+      "target": "cakeyan/presto",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "rhymes-ai/Allegro",
+      "target": "nightsnack/allegro-videosys",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "rhymes-ai/Allegro",
+      "target": "nus-hpc-ai-lab/videosys",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "rhymes-ai/Allegro",
+      "target": "mcg-nju/ema-vfi",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T05:14:57.030568+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 18138
+    },
+    {
+      "path": "requirements.txt",
+      "size": 202
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Allegro is a powerful text-to-video model that generates high-quality videos up to 6 seconds at 15 FPS and 720p resolution from simple text input. ",
+    "fork": false,
+    "full_name": "rhymes-ai/Allegro",
+    "html_url": "https://github.com/rhymes-ai/Allegro",
+    "language": "Python",
+    "pushed_at": "2025-02-07T15:31:36Z",
+    "stargazers_count": 1131,
+    "topics": [],
+    "updated_at": "2026-04-22T07:48:52Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cakeyan/presto",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mcg-nju/ema-vfi",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "nightsnack/allegro-videosys",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "nus-hpc-ai-lab/videosys",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

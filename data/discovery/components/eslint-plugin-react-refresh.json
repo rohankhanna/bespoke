@@ -1,7 +1,7 @@
 {
   "component": "eslint-plugin-react-refresh",
   "first_seen_at": "2026-04-18T09:23:05.253565+00:00",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "sources": [
     {
       "discovered_via": "package-json:devDependencies",
@@ -27,6 +27,16 @@
       "discovered_via": "package-json:devDependencies",
       "source_file": "package.json",
       "source_repo": "chaiNNer-org/chaiNNer"
+    },
+    {
+      "discovered_via": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "a2not/vite-grpc-web"
+    },
+    {
+      "discovered_via": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "apache/apisix-dashboard"
     }
   ]
 }

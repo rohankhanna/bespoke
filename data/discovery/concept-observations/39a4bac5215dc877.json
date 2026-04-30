@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": ":scroll: Historical record of happenings at the Nottingham New Theatre."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "api"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "api"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20044175,
+      "status": "candidate",
+      "text": "genus apis"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20044174,
+      "status": "candidate",
+      "text": "ipv"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20038841,
+      "status": "candidate",
+      "text": "apl"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20035909,
+      "status": "candidate",
+      "text": "gpi"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20014253,
+      "status": "candidate",
+      "text": "ipc"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "api",
+      "sense_id": "api#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "api",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "api",
+  "observation_id": "39a4bac5215dc877",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-30T00:37:16.824464+00:00",
+  "observed_text": "api",
+  "source_context_snippet": "api",
+  "source_file": ".github/workflows/api.yml",
+  "source_repo": "newtheatre/history-project",
+  "source_repo_description": ":scroll: Historical record of happenings at the Nottingham New Theatre."
+}

@@ -1,0 +1,94 @@
+{
+  "aliases": [
+    "deprecated"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "OpenVoiceOS/ovos-tts-plugin-piper",
+      "status": "candidate-context",
+      "text": "[OpenVoiceOS (OVOS)](https://openvoiceos.org) TTS plugin for [piper](https://github.com/rhasspy/piper)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "OpenVoiceOS/ovos-tts-plugin-piper",
+      "status": "candidate",
+      "text": "[OpenVoiceOS (OVOS)](https://openvoiceos.org) TTS plugin for [piper](https://github.com/rhasspy/piper)"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39964583,
+      "status": "candidate",
+      "text": "slighting"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39964503,
+      "status": "candidate",
+      "text": "belittling"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39964423,
+      "status": "candidate",
+      "text": "deprecatory"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39964356,
+      "status": "candidate",
+      "text": "deprecative"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39963354,
+      "status": "candidate",
+      "text": "depreciative"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "deprecated",
+  "concept_id": "deprecated",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "OpenVoiceOS/ovos-tts-plugin-piper"
+    }
+  ],
+  "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "deprecated",
+      "sense_id": "deprecated#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

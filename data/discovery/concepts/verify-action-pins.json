@@ -1,0 +1,124 @@
+{
+  "aliases": [
+    "Verify Action Pins"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "karafka/karafka",
+      "status": "candidate-context",
+      "text": "Ruby and Rails efficient Kafka processing framework"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "karafka/karafka",
+      "status": "candidate-context",
+      "text": "Verify Action Pins"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "karafka/waterdrop",
+      "status": "candidate-context",
+      "text": "Standalone Karafka library for producing Kafka messages"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "karafka/waterdrop",
+      "status": "candidate-context",
+      "text": "Verify Action Pins"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "karafka/karafka",
+      "status": "candidate",
+      "text": "Verify Action Pins"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "karafka/waterdrop",
+      "status": "candidate",
+      "text": "Verify Action Pins"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27793,
+      "status": "candidate",
+      "text": "dead ball"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 23840,
+      "status": "candidate",
+      "text": "determine"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 23777,
+      "status": "candidate",
+      "text": "confirm"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 23777,
+      "status": "candidate",
+      "text": "confirmed"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 23777,
+      "status": "candidate",
+      "text": "confirming"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Verify Action Pins",
+  "concept_id": "verify-action-pins",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/verify-action-pins.yml",
+      "source_repo": "karafka/karafka"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/verify-action-pins.yml",
+      "source_repo": "karafka/waterdrop"
+    }
+  ],
+  "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Verify Action Pins",
+      "sense_id": "verify-action-pins#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Universal model exchange and serialization format for decision tree forests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "macos-wheel-builder"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "macos-wheel-builder"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "macos-wheel-builder",
+      "sense_id": "macos-wheel-builder#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "macos-wheel-builder",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "macos-wheel-builder",
+  "observation_id": "332b65c276fda9eb",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-30T00:37:16.824464+00:00",
+  "observed_text": "macos-wheel-builder",
+  "source_context_snippet": "macos-wheel-builder",
+  "source_file": ".github/workflows/macos-wheel-builder.yml",
+  "source_repo": "dmlc/treelite",
+  "source_repo_description": "Universal model exchange and serialization format for decision tree forests"
+}

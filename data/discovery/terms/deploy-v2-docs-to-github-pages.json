@@ -1,0 +1,12 @@
+{
+  "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/gh_pages_docs_v2.yml",
+      "source_repo": "cloudfoundry/capi-release"
+    }
+  ],
+  "term": "Deploy V2 Docs to GitHub Pages"
+}

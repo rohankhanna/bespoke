@@ -1,0 +1,55 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "KSXGitHub/pacman-repo",
+      "target": "ksxgithub/aur-packages-builder",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "KSXGitHub/pacman-repo",
+      "target": "ksxgithub/cargo-scripts-builder",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "KSXGitHub/pacman-repo",
+      "target": "ksxgithub/personal-pacman-packages",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "KSXGitHub/pacman-repo",
+      "target": "ksxgithub/personal-crates",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "KSXGitHub/pacman-repo",
+      "target": "archlinux",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "KSXGitHub/pacman-repo",
+      "target": "pacman",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "KSXGitHub/pacman-repo",
+      "target": "repository",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-30T00:37:16.824464+00:00",
+  "source_repo": "KSXGitHub/pacman-repo"
+}

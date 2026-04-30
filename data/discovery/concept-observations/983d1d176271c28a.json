@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Next generation testing framework powered by Vite."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Issue Labeled"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Issue Labeled"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 13582,
+      "status": "candidate",
+      "text": "branded"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 13582,
+      "status": "candidate",
+      "text": "label"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 13582,
+      "status": "candidate",
+      "text": "labelled"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 13320,
+      "status": "candidate",
+      "text": "probe"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 13320,
+      "status": "candidate",
+      "text": "probing"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Issue Labeled",
+      "sense_id": "issue-labeled#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "issue-labeled",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "issue-labeled",
+  "observation_id": "983d1d176271c28a",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-30T00:37:16.824464+00:00",
+  "observed_text": "Issue Labeled",
+  "source_context_snippet": "Issue Labeled",
+  "source_file": ".github/workflows/issue-labeled.yml",
+  "source_repo": "vitest-dev/vitest",
+  "source_repo_description": "Next generation testing framework powered by Vite."
+}

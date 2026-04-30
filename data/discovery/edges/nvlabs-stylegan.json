@@ -1,0 +1,27 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "NVlabs/stylegan",
+      "target": "nvlabs/stylegan2-ada-pytorch",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "NVlabs/stylegan",
+      "target": "richzhang/perceptualsimilarity",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "NVlabs/stylegan",
+      "target": "tkarras/progressive_growing_of_gans",
+      "target_type": "repository"
+    }
+  ],
+  "generated_at": "2026-04-30T00:37:16.824464+00:00",
+  "source_repo": "NVlabs/stylegan"
+}

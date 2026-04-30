@@ -1,0 +1,118 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "etcd-cpp-apiv3/etcd-cpp-apiv3",
+      "target": "microsoft/cpprestsdk",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "etcd-cpp-apiv3/etcd-cpp-apiv3",
+      "target": "kelseyhightower/etcd-production-setup",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-deb-package.yml",
+      "source_repo": "etcd-cpp-apiv3/etcd-cpp-apiv3",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-deb-package.yml",
+      "source_repo": "etcd-cpp-apiv3/etcd-cpp-apiv3",
+      "target": "actions/cache@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-deb-package.yml",
+      "source_repo": "etcd-cpp-apiv3/etcd-cpp-apiv3",
+      "target": "mxschmitt/action-tmate@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-deb-package.yml",
+      "source_repo": "etcd-cpp-apiv3/etcd-cpp-apiv3",
+      "target": "actions/upload-artifact@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-deb-package.yml",
+      "source_repo": "etcd-cpp-apiv3/etcd-cpp-apiv3",
+      "target": "Build Deb Package",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-test.yml",
+      "source_repo": "etcd-cpp-apiv3/etcd-cpp-apiv3",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-test.yml",
+      "source_repo": "etcd-cpp-apiv3/etcd-cpp-apiv3",
+      "target": "actions/cache@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-test.yml",
+      "source_repo": "etcd-cpp-apiv3/etcd-cpp-apiv3",
+      "target": "mxschmitt/action-tmate@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-test.yml",
+      "source_repo": "etcd-cpp-apiv3/etcd-cpp-apiv3",
+      "target": "sighingnow/action-tmate@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-test.yml",
+      "source_repo": "etcd-cpp-apiv3/etcd-cpp-apiv3",
+      "target": "Build and Test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/centos-latest.yml",
+      "source_repo": "etcd-cpp-apiv3/etcd-cpp-apiv3",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/centos-latest.yml",
+      "source_repo": "etcd-cpp-apiv3/etcd-cpp-apiv3",
+      "target": "actions/cache@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/centos-latest.yml",
+      "source_repo": "etcd-cpp-apiv3/etcd-cpp-apiv3",
+      "target": "mxschmitt/action-tmate@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/centos-latest.yml",
+      "source_repo": "etcd-cpp-apiv3/etcd-cpp-apiv3",
+      "target": "Build & Test on CentOS Latest",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-30T00:37:16.824464+00:00",
+  "source_repo": "etcd-cpp-apiv3/etcd-cpp-apiv3"
+}

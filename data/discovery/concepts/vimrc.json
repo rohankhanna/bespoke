@@ -55,6 +55,18 @@
       "source_repo": "2KAbhishek/dots2k",
       "status": "candidate-context",
       "text": "<div align = \"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "liuchengxu/vim-better-default",
+      "status": "candidate-context",
+      "text": ":art: Simplify your .vimrc and make the default vim better"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "liuchengxu/vim-better-default",
+      "status": "candidate-context",
+      "text": "vim-better-default"
     }
   ],
   "candidate_glosses": [
@@ -81,6 +93,12 @@
       "source_repo": "2KAbhishek/dots2k",
       "status": "candidate",
       "text": "<div align = \"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "liuchengxu/vim-better-default",
+      "status": "candidate",
+      "text": "vim-better-default"
     }
   ],
   "candidate_related_terms": [],
@@ -112,11 +130,17 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "2KAbhishek/dots2k"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "liuchengxu/vim-better-default"
     }
   ],
   "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

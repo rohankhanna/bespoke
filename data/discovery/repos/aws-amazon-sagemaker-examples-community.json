@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T02:47:01.224468+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3538
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "aws/amazon-sagemaker-examples-community",
+    "html_url": "https://github.com/aws/amazon-sagemaker-examples-community",
+    "language": "Jupyter Notebook",
+    "pushed_at": "2026-04-08T08:37:50Z",
+    "stargazers_count": 45,
+    "topics": [],
+    "updated_at": "2026-03-27T13:26:50Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

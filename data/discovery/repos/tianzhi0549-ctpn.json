@@ -1,0 +1,62 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "Dockerfile",
+      "source_repo": "tianzhi0549/CTPN",
+      "target": "itseez/opencv",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "tianzhi0549/CTPN",
+      "target": "text-detection",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T03:47:50.596515+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2595
+    },
+    {
+      "path": "Dockerfile",
+      "size": 2843
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Detecting Text in Natural Image with Connectionist Text Proposal Network (ECCV'16)",
+    "fork": false,
+    "full_name": "tianzhi0549/CTPN",
+    "html_url": "https://github.com/tianzhi0549/CTPN",
+    "language": "Jupyter Notebook",
+    "pushed_at": "2021-10-15T05:17:41Z",
+    "stargazers_count": 1288,
+    "topics": [
+      "ocr",
+      "text-detection"
+    ],
+    "updated_at": "2026-03-16T05:41:32Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "itseez/opencv",
+      "source_file": "Dockerfile"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "The codes are used for implementing CTPN for scene text detection, described in:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "text-detection"
+    }
+  ]
+}

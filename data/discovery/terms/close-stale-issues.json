@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-17T18:04:43.852571+00:00",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
@@ -536,6 +536,56 @@
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/stale.yml",
       "source_repo": "oclif/core"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/close-stale-issues.yml",
+      "source_repo": "aws-samples/aws-cdk-examples"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/close-stale.yaml",
+      "source_repo": "apache/logging-log4j2"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "ipfs/go-log"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "rescript-lang/rescript"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "oclif/oclif"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "oclif/oclif.github.io"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "oclif/plugin-update"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/close-stale.yml",
+      "source_repo": "kirodotdev/Kiro"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/close-stale-issues.yml",
+      "source_repo": "aws/jsii"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/close_stale_issues.yml",
+      "source_repo": "open-mmlab/OpenPCDet"
     }
   ],
   "term": "Close stale issues"

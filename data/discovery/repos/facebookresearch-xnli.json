@@ -1,0 +1,53 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "facebookresearch/XNLI",
+      "target": "facebookresearch/fasttext",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "facebookresearch/XNLI",
+      "target": "facebookresearch/muse",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T02:45:19.982710+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4546
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "main",
+    "description": "Evaluating Cross-lingual Sentence Representations",
+    "fork": false,
+    "full_name": "facebookresearch/XNLI",
+    "html_url": "https://github.com/facebookresearch/XNLI",
+    "language": null,
+    "pushed_at": "2021-08-30T21:16:02Z",
+    "stargazers_count": 466,
+    "topics": [],
+    "updated_at": "2026-04-13T02:19:12Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "facebookresearch/fasttext",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "facebookresearch/muse",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

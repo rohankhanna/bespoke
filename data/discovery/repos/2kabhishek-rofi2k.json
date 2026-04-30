@@ -1,0 +1,151 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "2KAbhishek/rofi2k",
+      "target": "mange/rofi-emoji",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "2KAbhishek/rofi2k",
+      "target": "svenstaro/rofi-calc",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "2KAbhishek/rofi2k",
+      "target": "2kabhishek/bareminimum",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "2KAbhishek/rofi2k",
+      "target": "eye-candy",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "2KAbhishek/rofi2k",
+      "target": "launcher",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "2KAbhishek/rofi2k",
+      "target": "minimalism",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "2KAbhishek/rofi2k",
+      "target": "rofi",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "2KAbhishek/rofi2k",
+      "target": "theme",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "2KAbhishek/rofi2k",
+      "target": "tiling-wm",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T01:39:58.788521+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4087
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Your Universal Launchpad \ud83d\udef8\ud83d\ude80",
+    "fork": false,
+    "full_name": "2KAbhishek/rofi2k",
+    "html_url": "https://github.com/2KAbhishek/rofi2k",
+    "language": "CSS",
+    "pushed_at": "2024-12-22T19:05:16Z",
+    "stargazers_count": 5,
+    "topics": [
+      "eye-candy",
+      "launcher",
+      "minimalism",
+      "rofi",
+      "theme",
+      "tiling-wm"
+    ],
+    "updated_at": "2026-02-02T18:44:37Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "2kabhishek/bareminimum",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mange/rofi-emoji",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "svenstaro/rofi-calc",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<div align = \"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "eye-candy"
+    },
+    {
+      "context_snippet": "<div align = \"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "launcher"
+    },
+    {
+      "context_snippet": "<div align = \"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "minimalism"
+    },
+    {
+      "context_snippet": "<div align = \"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rofi"
+    },
+    {
+      "context_snippet": "<div align = \"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "theme"
+    },
+    {
+      "context_snippet": "<div align = \"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tiling-wm"
+    }
+  ]
+}

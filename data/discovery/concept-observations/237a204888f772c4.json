@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "FrameBuffer eInker, a small tool & library to print text & images to an eInk Linux framebuffer"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![License](https://img.shields.io/github/license/NiLuJe/FBInk.svg)](/LICENSE) [![Codacy Badge](https://api.codacy.com/project/badge/Grade/0e955c5239c54b10a167bbde1c2d75c1)](https://www.codacy.com/app/NiLuJe/FBInk?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=NiL\u2026"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![License](https://img.shields.io/github/license/NiLuJe/FBInk.svg)](/LICENSE) [![Codacy Badge](https://api.codacy.com/project/badge/Grade/0e955c5239c54b10a167bbde1c2d75c1)](https://www.codacy.com/app/NiLuJe/FBInk?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=NiL\u2026"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10023474,
+      "status": "candidate",
+      "text": "frame buffer"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10023473,
+      "status": "candidate",
+      "text": "buffer"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10023472,
+      "status": "candidate",
+      "text": "video board"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10023471,
+      "status": "candidate",
+      "text": "buffering"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10023470,
+      "status": "candidate",
+      "text": "compositor"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "framebuffer",
+      "sense_id": "framebuffer#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "framebuffer",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "framebuffer",
+  "observation_id": "237a204888f772c4",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T00:37:16.824464+00:00",
+  "observed_text": "framebuffer",
+  "source_context_snippet": "[![License](https://img.shields.io/github/license/NiLuJe/FBInk.svg)](/LICENSE) [![Codacy Badge](https://api.codacy.com/project/badge/Grade/0e955c5239c54b10a167bbde1c2d75c1)](https://www.codacy.com/app/NiLuJe/FBInk?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=NiL\u2026",
+  "source_file": null,
+  "source_repo": "NiLuJe/FBInk",
+  "source_repo_description": "FrameBuffer eInker, a small tool & library to print text & images to an eInk Linux framebuffer"
+}

@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Build Ark Windows Release"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "posit-dev/ark",
+      "status": "candidate-context",
+      "text": "Ark, an R kernel"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "posit-dev/ark",
+      "status": "candidate-context",
+      "text": "\"Build Ark Windows Release\""
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "posit-dev/ark",
+      "status": "candidate",
+      "text": "\"Build Ark Windows Release\""
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27689,
+      "status": "candidate",
+      "text": "celestia"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27628,
+      "status": "candidate",
+      "text": "frame"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27583,
+      "status": "candidate",
+      "text": "arch"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17600,
+      "status": "candidate",
+      "text": "shipway"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17540,
+      "status": "candidate",
+      "text": "arched"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Build Ark Windows Release",
+  "concept_id": "build-ark-windows-release",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/release-windows.yml",
+      "source_repo": "posit-dev/ark"
+    }
+  ],
+  "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Build Ark Windows Release",
+      "sense_id": "build-ark-windows-release#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

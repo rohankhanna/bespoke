@@ -1,0 +1,205 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Shiweiliuiiiiiii/In-Time-Over-Parameterization",
+      "target": "timdettmers/sparse_learning",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Shiweiliuiiiiiii/In-Time-Over-Parameterization",
+      "target": "shiweiliuiiiiiii/set-mlp-one-million-neurons",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Shiweiliuiiiiiii/In-Time-Over-Parameterization",
+      "target": "dcmocanu/sparse-evolutionary-artificial-neural-networks",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Shiweiliuiiiiiii/In-Time-Over-Parameterization",
+      "target": "google-research/rigl",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Shiweiliuiiiiiii/In-Time-Over-Parameterization",
+      "target": "deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Shiweiliuiiiiiii/In-Time-Over-Parameterization",
+      "target": "dynamic-sparse-training",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Shiweiliuiiiiiii/In-Time-Over-Parameterization",
+      "target": "generalization",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Shiweiliuiiiiiii/In-Time-Over-Parameterization",
+      "target": "in-time-over-parameterization",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Shiweiliuiiiiiii/In-Time-Over-Parameterization",
+      "target": "in-time-overparameterization",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Shiweiliuiiiiiii/In-Time-Over-Parameterization",
+      "target": "over-parameterization",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Shiweiliuiiiiiii/In-Time-Over-Parameterization",
+      "target": "overparameterization",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Shiweiliuiiiiiii/In-Time-Over-Parameterization",
+      "target": "sparse-training",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Shiweiliuiiiiiii/In-Time-Over-Parameterization",
+      "target": "sparsity",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T05:15:08.329742+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8764
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "[ICML 2021] \"Do We Actually Need Dense Over-Parameterization? In-Time Over-Parameterization in Sparse Training\" by Shiwei Liu, Lu Yin, Decebal Constantin Mocanu,  Mykola Pechenizkiy",
+    "fork": false,
+    "full_name": "Shiweiliuiiiiiii/In-Time-Over-Parameterization",
+    "html_url": "https://github.com/Shiweiliuiiiiiii/In-Time-Over-Parameterization",
+    "language": "Python",
+    "pushed_at": "2023-11-11T18:45:12Z",
+    "stargazers_count": 45,
+    "topics": [
+      "deep-learning",
+      "dynamic-sparse-training",
+      "generalization",
+      "in-time-over-parameterization",
+      "in-time-overparameterization",
+      "over-parameterization",
+      "overparameterization",
+      "sparse-training",
+      "sparsity"
+    ],
+    "updated_at": "2025-03-28T14:55:32Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dcmocanu/sparse-evolutionary-artificial-neural-networks",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "google-research/rigl",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "shiweiliuiiiiiii/set-mlp-one-million-neurons",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "timdettmers/sparse_learning",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<img src=\"https://github.com/Shiweiliuiiiiiii/In-Time-Over-Parameterization/blob/main/ITOP.png\" width=\"500\" height=\"300\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-learning"
+    },
+    {
+      "context_snippet": "<img src=\"https://github.com/Shiweiliuiiiiiii/In-Time-Over-Parameterization/blob/main/ITOP.png\" width=\"500\" height=\"300\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dynamic-sparse-training"
+    },
+    {
+      "context_snippet": "<img src=\"https://github.com/Shiweiliuiiiiiii/In-Time-Over-Parameterization/blob/main/ITOP.png\" width=\"500\" height=\"300\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "generalization"
+    },
+    {
+      "context_snippet": "<img src=\"https://github.com/Shiweiliuiiiiiii/In-Time-Over-Parameterization/blob/main/ITOP.png\" width=\"500\" height=\"300\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "in-time-over-parameterization"
+    },
+    {
+      "context_snippet": "<img src=\"https://github.com/Shiweiliuiiiiiii/In-Time-Over-Parameterization/blob/main/ITOP.png\" width=\"500\" height=\"300\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "in-time-overparameterization"
+    },
+    {
+      "context_snippet": "<img src=\"https://github.com/Shiweiliuiiiiiii/In-Time-Over-Parameterization/blob/main/ITOP.png\" width=\"500\" height=\"300\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "over-parameterization"
+    },
+    {
+      "context_snippet": "<img src=\"https://github.com/Shiweiliuiiiiiii/In-Time-Over-Parameterization/blob/main/ITOP.png\" width=\"500\" height=\"300\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "overparameterization"
+    },
+    {
+      "context_snippet": "<img src=\"https://github.com/Shiweiliuiiiiiii/In-Time-Over-Parameterization/blob/main/ITOP.png\" width=\"500\" height=\"300\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "sparse-training"
+    },
+    {
+      "context_snippet": "<img src=\"https://github.com/Shiweiliuiiiiiii/In-Time-Over-Parameterization/blob/main/ITOP.png\" width=\"500\" height=\"300\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "sparsity"
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "pull-request-templates"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gorilla/.github",
+      "status": "candidate-context",
+      "text": "The .github repository for the @gorilla organization."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gorilla/.github",
+      "status": "candidate-context",
+      "text": "\ud83e\udd8d\ud83e\udd8d\ud83e\udd8d"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gorilla/.github",
+      "status": "candidate",
+      "text": "\ud83e\udd8d\ud83e\udd8d\ud83e\udd8d"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "pull-request-templates",
+  "concept_id": "pull-request-templates",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "gorilla/.github"
+    }
+  ],
+  "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "pull-request-templates",
+      "sense_id": "pull-request-templates#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

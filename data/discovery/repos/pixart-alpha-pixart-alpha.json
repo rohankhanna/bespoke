@@ -1,0 +1,85 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "PixArt-alpha/PixArt-alpha",
+      "target": "city96/comfyui_extramodels",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "PixArt-alpha/PixArt-alpha",
+      "target": "comfyanonymous/comfyui",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "PixArt-alpha/PixArt-alpha",
+      "target": "luosiallen/latent-consistency-model",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "PixArt-alpha/PixArt-alpha",
+      "target": "opengvlab/controlllm",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T05:14:49.431672+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 33257
+    },
+    {
+      "path": "Dockerfile",
+      "size": 696
+    },
+    {
+      "path": "requirements.txt",
+      "size": 309
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "PixArt-\u03b1: Fast Training of Diffusion Transformer for Photorealistic Text-to-Image Synthesis",
+    "fork": false,
+    "full_name": "PixArt-alpha/PixArt-alpha",
+    "html_url": "https://github.com/PixArt-alpha/PixArt-alpha",
+    "language": "Python",
+    "pushed_at": "2024-10-31T01:20:53Z",
+    "stargazers_count": 3297,
+    "topics": [],
+    "updated_at": "2026-04-30T02:54:15Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "city96/comfyui_extramodels",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "comfyanonymous/comfyui",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "luosiallen/latent-consistency-model",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "opengvlab/controlllm",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

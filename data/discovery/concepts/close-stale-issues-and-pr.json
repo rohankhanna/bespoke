@@ -31,6 +31,18 @@
       "source_repo": "chawyehsu/nvm-windows",
       "status": "candidate-context",
       "text": "'Close stale issues and PR'"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "external-secrets/kubernetes-external-secrets",
+      "status": "candidate-context",
+      "text": "Integrate external secret management systems with Kubernetes"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "external-secrets/kubernetes-external-secrets",
+      "status": "candidate-context",
+      "text": "'Close stale issues and PR'"
     }
   ],
   "candidate_glosses": [
@@ -43,6 +55,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "chawyehsu/nvm-windows",
+      "status": "candidate",
+      "text": "'Close stale issues and PR'"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "external-secrets/kubernetes-external-secrets",
       "status": "candidate",
       "text": "'Close stale issues and PR'"
     }
@@ -142,11 +160,23 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": ".github/workflows/bot.yml",
       "source_repo": "chawyehsu/nvm-windows"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "external-secrets/kubernetes-external-secrets"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/bot.yml",
+      "source_repo": "coreybutler/nvm-windows"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

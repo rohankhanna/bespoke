@@ -118,6 +118,66 @@
       "source_repo": "emacs-lsp/lsp-dart",
       "status": "candidate-context",
       "text": "lsp-dart"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "AcademySoftwareFoundation/openexr",
+      "status": "candidate-context",
+      "text": "The OpenEXR project provides the specification and reference implementation of the EXR file format, the professional-grade image storage format of the motion picture industry."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AcademySoftwareFoundation/openexr",
+      "status": "candidate-context",
+      "text": "Analysis"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "AcademySoftwareFoundation/OpenShadingLanguage",
+      "status": "candidate-context",
+      "text": "Advanced shading language for production GI renderers"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AcademySoftwareFoundation/OpenShadingLanguage",
+      "status": "candidate-context",
+      "text": "Analysis"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "detekt/detekt",
+      "status": "candidate-context",
+      "text": "Static code analysis for Kotlin"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "detekt/detekt",
+      "status": "candidate-context",
+      "text": "[![Join the chat at #detekt on KotlinLang](https://img.shields.io/badge/%23detekt-on_slack-red.svg?logo=slack)](https://kotlinlang.slack.com/archives/C88E12QH4)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ClickHouse/clickhouse-java",
+      "status": "candidate-context",
+      "text": "ClickHouse Java Clients & JDBC Driver"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ClickHouse/clickhouse-java",
+      "status": "candidate-context",
+      "text": "Analysis"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ibireme/yyjson",
+      "status": "candidate-context",
+      "text": "The fastest JSON library in C"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ibireme/yyjson",
+      "status": "candidate-context",
+      "text": "Analysis"
     }
   ],
   "candidate_glosses": [
@@ -174,6 +234,36 @@
       "source_repo": "emacs-lsp/lsp-dart",
       "status": "candidate",
       "text": "lsp-dart"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AcademySoftwareFoundation/openexr",
+      "status": "candidate",
+      "text": "Analysis"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AcademySoftwareFoundation/OpenShadingLanguage",
+      "status": "candidate",
+      "text": "Analysis"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "detekt/detekt",
+      "status": "candidate",
+      "text": "[![Join the chat at #detekt on KotlinLang](https://img.shields.io/badge/%23detekt-on_slack-red.svg?logo=slack)](https://kotlinlang.slack.com/archives/C88E12QH4)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ClickHouse/clickhouse-java",
+      "status": "candidate",
+      "text": "Analysis"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ibireme/yyjson",
+      "status": "candidate",
+      "text": "Analysis"
     }
   ],
   "candidate_related_terms": [
@@ -293,11 +383,41 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "emacs-lsp/lsp-dart"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/analysis_workflow.yml",
+      "source_repo": "AcademySoftwareFoundation/openexr"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/analysis.yml",
+      "source_repo": "AcademySoftwareFoundation/OpenShadingLanguage"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "detekt/detekt"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/analysis.yml",
+      "source_repo": "ClickHouse/clickhouse-java"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/analysis.yml",
+      "source_repo": "ibireme/yyjson"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

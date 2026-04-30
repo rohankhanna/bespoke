@@ -1,0 +1,44 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "GoogleCloudPlatform/elixir-samples",
+      "target": "samples",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T02:55:07.238565+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1276
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "main",
+    "description": "A collection of samples on using Elixir with Google Cloud Platform. ",
+    "fork": false,
+    "full_name": "GoogleCloudPlatform/elixir-samples",
+    "html_url": "https://github.com/GoogleCloudPlatform/elixir-samples",
+    "language": "Elixir",
+    "pushed_at": "2023-02-14T09:33:34Z",
+    "stargazers_count": 295,
+    "topics": [
+      "samples"
+    ],
+    "updated_at": "2026-03-17T18:55:52Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "> Elixir on GCP is a **community-supported project**, meaning there is no official",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "samples"
+    }
+  ]
+}

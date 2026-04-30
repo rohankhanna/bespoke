@@ -1,0 +1,57 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hrsh7th/cmp-cmdline",
+      "target": "hrsh7th/cmp-buffer",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hrsh7th/cmp-cmdline",
+      "target": "nvim-cmp",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T04:07:44.321483+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1124
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "nvim-cmp source for vim's cmdline",
+    "fork": false,
+    "full_name": "hrsh7th/cmp-cmdline",
+    "html_url": "https://github.com/hrsh7th/cmp-cmdline",
+    "language": "Lua",
+    "pushed_at": "2025-05-18T01:04:26Z",
+    "stargazers_count": 621,
+    "topics": [
+      "nvim-cmp"
+    ],
+    "updated_at": "2026-04-24T12:24:51Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "hrsh7th/cmp-buffer",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "nvim-cmp source for vim's cmdline.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nvim-cmp"
+    }
+  ]
+}

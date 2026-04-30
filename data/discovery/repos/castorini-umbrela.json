@@ -1,0 +1,139 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-format.yml"
+    },
+    {
+      "component": "astral-sh/setup-uv@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-format.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-format.yml"
+    },
+    {
+      "component": "astral-sh/setup-uv@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-format.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-format.yml"
+    },
+    {
+      "component": "astral-sh/setup-uv@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-format.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-format.yml"
+    },
+    {
+      "component": "astral-sh/setup-uv@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-format.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-format.yml"
+    },
+    {
+      "component": "astral-sh/setup-uv@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-format.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-format.yml"
+    },
+    {
+      "component": "astral-sh/setup-uv@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-format.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-format.yml"
+    },
+    {
+      "component": "astral-sh/setup-uv@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-format.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-format.yml",
+      "source_repo": "castorini/umbrela",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-format.yml",
+      "source_repo": "castorini/umbrela",
+      "target": "astral-sh/setup-uv@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr-format.yml",
+      "source_repo": "castorini/umbrela",
+      "target": "PR Checks",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T02:00:47.105783+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 12331
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 3634
+    },
+    {
+      "path": "requirements.txt",
+      "size": 363
+    },
+    {
+      "path": ".github/workflows/pr-format.yml",
+      "size": 3546
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "castorini/umbrela",
+    "html_url": "https://github.com/castorini/umbrela",
+    "language": "Python",
+    "pushed_at": "2026-04-18T23:17:08Z",
+    "stargazers_count": 55,
+    "topics": [],
+    "updated_at": "2026-04-29T06:53:05Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "PR Checks",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr-format.yml",
+      "term": "PR Checks"
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "components": [
+    {
+      "component": "kentaro-m/auto-assign-action@eea5ee2e4421078bf163287c05e72d162781b30c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto_assign.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto_assign.yml",
+      "source_repo": "pfnet/pfrl",
+      "target": "kentaro-m/auto-assign-action@eea5ee2e4421078bf163287c05e72d162781b30c",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/auto_assign.yml",
+      "source_repo": "pfnet/pfrl",
+      "target": "Auto Assign",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T04:59:17.401876+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7168
+    },
+    {
+      "path": "requirements.txt",
+      "size": 54
+    },
+    {
+      "path": ".github/workflows/auto_assign.yml",
+      "size": 212
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "PFRL: a PyTorch-based deep reinforcement learning library",
+    "fork": false,
+    "full_name": "pfnet/pfrl",
+    "html_url": "https://github.com/pfnet/pfrl",
+    "language": "Python",
+    "pushed_at": "2026-03-02T04:48:45Z",
+    "stargazers_count": 1269,
+    "topics": [],
+    "updated_at": "2026-04-16T16:59:04Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "'Auto Assign'",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/auto_assign.yml",
+      "term": "Auto Assign"
+    }
+  ]
+}

@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Completion files to clink util"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![Build status](https://github.com/vladimir-kotikov/clink-completions/actions/workflows/code-check.yml/badge.svg?branch=master)](https://github.com/vladimir-kotikov/clink-completions/actions/workflows/code-check.yml)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![Build status](https://github.com/vladimir-kotikov/clink-completions/actions/workflows/code-check.yml/badge.svg?branch=master)](https://github.com/vladimir-kotikov/clink-completions/actions/workflows/code-check.yml)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40043123,
+      "status": "candidate",
+      "text": "tink"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40042904,
+      "status": "candidate",
+      "text": "click"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40042307,
+      "status": "candidate",
+      "text": "tinkle"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40011412,
+      "status": "candidate",
+      "text": "chink"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39957416,
+      "status": "candidate",
+      "text": "gaol"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "clink",
+      "sense_id": "clink#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 16038,
+      "status": "candidate",
+      "text": "gaol"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 14037,
+      "status": "candidate",
+      "text": "tinkle"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 11057,
+      "status": "candidate",
+      "text": "click"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 3044,
+      "status": "candidate",
+      "text": "jail"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 3021,
+      "status": "candidate",
+      "text": "tink"
+    }
+  ],
+  "concept_id": "clink",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "clink",
+  "observation_id": "1771251140b04494",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T00:37:16.824464+00:00",
+  "observed_text": "clink",
+  "source_context_snippet": "[![Build status](https://github.com/vladimir-kotikov/clink-completions/actions/workflows/code-check.yml/badge.svg?branch=master)](https://github.com/vladimir-kotikov/clink-completions/actions/workflows/code-check.yml)",
+  "source_file": null,
+  "source_repo": "vladimir-kotikov/clink-completions",
+  "source_repo_description": "Completion files to clink util"
+}

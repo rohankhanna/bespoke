@@ -55,6 +55,30 @@
       "source_repo": "lambdalisue/vim-glyph-palette",
       "status": "candidate-context",
       "text": "![Support Vim 8.1 or above](https://img.shields.io/badge/support-Vim%208.1%20or%20above-yellowgreen.svg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cointop-sh/colors",
+      "status": "candidate-context",
+      "text": "Cointop colorschemes"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cointop-sh/colors",
+      "status": "candidate-context",
+      "text": "> Standard colorschemes (themes) for [cointop](https://github.com/miguelmota/cointop/)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sharkdp/pastel",
+      "status": "candidate-context",
+      "text": "A command-line tool to generate, analyze, convert and manipulate colors"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sharkdp/pastel",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://img.shields.io/github/actions/workflow/status/sharkdp/pastel/CICD.yml?style=flat-square)](https://github.com/sharkdp/pastel/actions)"
     }
   ],
   "candidate_glosses": [
@@ -81,6 +105,18 @@
       "source_repo": "lambdalisue/vim-glyph-palette",
       "status": "candidate",
       "text": "![Support Vim 8.1 or above](https://img.shields.io/badge/support-Vim%208.1%20or%20above-yellowgreen.svg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cointop-sh/colors",
+      "status": "candidate",
+      "text": "> Standard colorschemes (themes) for [cointop](https://github.com/miguelmota/cointop/)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sharkdp/pastel",
+      "status": "candidate",
+      "text": "[![Build Status](https://img.shields.io/github/actions/workflow/status/sharkdp/pastel/CICD.yml?style=flat-square)](https://github.com/sharkdp/pastel/actions)"
     }
   ],
   "candidate_related_terms": [
@@ -156,11 +192,29 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "lambdalisue/vim-glyph-palette"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "lambdalisue/vim-glyph-palette"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "cointop-sh/colors"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "sharkdp/pastel"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

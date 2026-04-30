@@ -55,6 +55,30 @@
       "source_repo": "OpenGVLab/InternVideo",
       "status": "candidate-context",
       "text": "</div>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Anirudh257/strm",
+      "status": "candidate-context",
+      "text": "[CVPR 2022] Official Pytorch Implementation for \"Spatio-temporal Relation Modeling for Few-shot Action Recognition\". SOTA Results for Few-shot Action Recognition"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Anirudh257/strm",
+      "status": "candidate-context",
+      "text": "[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/spatio-temporal-relation-modeling-for-few/few-shot-action-recognition-on-hmdb51)](https://paperswithcode.com/sota/few-shot-action-recognition-on-hmdb51?p=spatio-temporal-relation-modeling-for-few)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "MVIG-SJTU/AlphAction",
+      "status": "candidate-context",
+      "text": "Spatio-Temporal Action Localization System"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MVIG-SJTU/AlphAction",
+      "status": "candidate-context",
+      "text": "AlphAction aims to detect the actions of multiple persons in videos. It is"
     }
   ],
   "candidate_glosses": [
@@ -81,6 +105,18 @@
       "source_repo": "OpenGVLab/InternVideo",
       "status": "candidate",
       "text": "</div>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Anirudh257/strm",
+      "status": "candidate",
+      "text": "[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/spatio-temporal-relation-modeling-for-few/few-shot-action-recognition-on-hmdb51)](https://paperswithcode.com/sota/few-shot-action-recognition-on-hmdb51?p=spatio-temporal-relation-modeling-for-few)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MVIG-SJTU/AlphAction",
+      "status": "candidate",
+      "text": "AlphAction aims to detect the actions of multiple persons in videos. It is"
     }
   ],
   "candidate_related_terms": [],
@@ -112,11 +148,23 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "OpenGVLab/InternVideo"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "Anirudh257/strm"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "MVIG-SJTU/AlphAction"
     }
   ],
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

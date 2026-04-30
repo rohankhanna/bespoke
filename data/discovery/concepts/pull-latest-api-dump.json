@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Pull Latest API Dump"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JohnnyMorganz/luau-lsp",
+      "status": "candidate-context",
+      "text": "Language Server Implementation for Luau"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JohnnyMorganz/luau-lsp",
+      "status": "candidate-context",
+      "text": "Pull Latest API Dump"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JohnnyMorganz/luau-lsp",
+      "status": "candidate",
+      "text": "Pull Latest API Dump"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31665,
+      "status": "candidate",
+      "text": "pass"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31665,
+      "status": "candidate",
+      "text": "passed"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21682,
+      "status": "candidate",
+      "text": "dock"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21466,
+      "status": "candidate",
+      "text": "trimmed"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21390,
+      "status": "candidate",
+      "text": "clip"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Pull Latest API Dump",
+  "concept_id": "pull-latest-api-dump",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/update-types-dump.yml",
+      "source_repo": "JohnnyMorganz/luau-lsp"
+    }
+  ],
+  "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Pull Latest API Dump",
+      "sense_id": "pull-latest-api-dump#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

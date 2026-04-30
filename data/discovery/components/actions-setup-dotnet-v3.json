@@ -1,7 +1,7 @@
 {
   "component": "actions/setup-dotnet@v3",
   "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -122,6 +122,21 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/docs.yml",
       "source_repo": "awaescher/OllamaSharp"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "artempyanykh/marksman"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "artempyanykh/marksman"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/lint-check-dotnet.yml",
+      "source_repo": "awsdocs/aws-doc-sdk-examples"
     }
   ]
 }

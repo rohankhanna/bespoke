@@ -43,6 +43,18 @@
       "source_repo": "ankane/informers",
       "status": "candidate-context",
       "text": ":fire: Fast [transformer](https://github.com/huggingface/transformers.js) inference for Ruby"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "flairNLP/flair",
+      "status": "candidate-context",
+      "text": "A very simple framework for state-of-the-art Natural Language Processing (NLP)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "flairNLP/flair",
+      "status": "candidate-context",
+      "text": "![alt text](resources/docs/flair_logo_2020_FINAL_day_dpi72.png#gh-light-mode-only)"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +75,12 @@
       "source_repo": "ankane/informers",
       "status": "candidate",
       "text": ":fire: Fast [transformer](https://github.com/huggingface/transformers.js) inference for Ruby"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "flairNLP/flair",
+      "status": "candidate",
+      "text": "![alt text](resources/docs/flair_logo_2020_FINAL_day_dpi72.png#gh-light-mode-only)"
     }
   ],
   "candidate_related_terms": [],
@@ -88,11 +106,17 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "ankane/informers"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "flairNLP/flair"
     }
   ],
   "first_seen_at": "2026-04-21T18:51:25.552552+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

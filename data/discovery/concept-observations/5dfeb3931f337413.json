@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Notes for configuring a reference notebook with Claude Code"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![Claude Code](https://img.shields.io/badge/Claude_Code-Project-8A2BE2?logo=anthropic)](https://claude.ai/code)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![Claude Code](https://img.shields.io/badge/Claude_Code-Project-8A2BE2?logo=anthropic)](https://claude.ai/code)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "claude-code",
+      "sense_id": "claude-code#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "claude-code",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "claude-code",
+  "observation_id": "5dfeb3931f337413",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T00:37:16.824464+00:00",
+  "observed_text": "claude-code",
+  "source_context_snippet": "[![Claude Code](https://img.shields.io/badge/Claude_Code-Project-8A2BE2?logo=anthropic)](https://claude.ai/code)",
+  "source_file": null,
+  "source_repo": "danielrosehill/AI-Developer-Notebook",
+  "source_repo_description": "Notes for configuring a reference notebook with Claude Code"
+}

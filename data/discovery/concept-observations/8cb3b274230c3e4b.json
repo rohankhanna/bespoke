@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Tutorials on Causal Inference and pgmpy"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "We are in the process of updating this repository to act as a course material for causal inference and pgmpy."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "We are in the process of updating this repository to act as a course material for causal inference and pgmpy."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "causal-inference",
+      "sense_id": "causal-inference#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "causal-inference",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "causal-inference",
+  "observation_id": "8cb3b274230c3e4b",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T00:37:16.824464+00:00",
+  "observed_text": "causal-inference",
+  "source_context_snippet": "We are in the process of updating this repository to act as a course material for causal inference and pgmpy.",
+  "source_file": null,
+  "source_repo": "pgmpy/pgmpy_tutorials",
+  "source_repo_description": "Tutorials on Causal Inference and pgmpy"
+}

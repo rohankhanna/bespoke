@@ -1,0 +1,101 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "The tools needed to robotically create/configure/provision a large number of operating systems, for a variety of hypervisors, using packer."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Generic base boxes, providing a variety of operating systems, and available across a number of different virtualized platforms."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Generic base boxes, providing a variety of operating systems, and available across a number of different virtualized platforms."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40013634,
+      "status": "candidate",
+      "text": "upland"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40013342,
+      "status": "candidate",
+      "text": "highland"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30013715,
+      "status": "candidate",
+      "text": "mountainous"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30013362,
+      "status": "candidate",
+      "text": "mountain"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30011151,
+      "status": "candidate",
+      "text": "valley"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "alpine",
+      "sense_id": "alpine#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": null,
+      "status": "candidate",
+      "text": "upland"
+    }
+  ],
+  "concept_id": "alpine",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "alpine",
+  "observation_id": "38998b6c8a525e65",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T00:37:16.824464+00:00",
+  "observed_text": "alpine",
+  "source_context_snippet": "Generic base boxes, providing a variety of operating systems, and available across a number of different virtualized platforms.",
+  "source_file": null,
+  "source_repo": "lavabit/robox",
+  "source_repo_description": "The tools needed to robotically create/configure/provision a large number of operating systems, for a variety of hypervisors, using packer."
+}

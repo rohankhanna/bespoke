@@ -1,7 +1,7 @@
 {
   "component": "actions/setup-go@4a3601121dd01d1626a1e23e37211e3254c1c06c",
   "first_seen_at": "2026-04-18T09:09:30.058377+00:00",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -1547,6 +1547,226 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/ci.yaml",
       "source_repo": "google/pprof"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build_wheels.yml",
+      "source_repo": "caketop/python-starlark-go"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "caketop/python-starlark-go"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/update-starlark.yml",
+      "source_repo": "caketop/python-starlark-go"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/valgrind.yml",
+      "source_repo": "caketop/python-starlark-go"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/custom-test.yml",
+      "source_repo": "sigstore/root-signing-staging"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/golangci-lint.yml",
+      "source_repo": "google/certificate-transparency-go"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/golangci-lint.yml",
+      "source_repo": "google/trillian-examples"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "dominikh/go-tools"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "reviewdog/reviewdog"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/deploy-doghouse.yml",
+      "source_repo": "reviewdog/reviewdog"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/depup.yml",
+      "source_repo": "reviewdog/reviewdog"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/go.yml",
+      "source_repo": "reviewdog/reviewdog"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "reviewdog/reviewdog"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release_test.yml",
+      "source_repo": "reviewdog/reviewdog"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/cd.yml",
+      "source_repo": "MShekow/directory-checksum"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "MShekow/directory-checksum"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/coverage-badge-for-prs.yml",
+      "source_repo": "MShekow/directory-checksum"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release-security-fix.yml",
+      "source_repo": "MShekow/directory-checksum"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "prometheus-community/windows_exporter"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "prometheus-community/windows_exporter"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "grafana/jsonnet-libs"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test-mixins.yml",
+      "source_repo": "grafana/jsonnet-libs"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "scalar/scalar"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build_and_test.yaml",
+      "source_repo": "envoyproxy/ai-gateway"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yaml",
+      "source_repo": "envoyproxy/ai-gateway"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/docker_build_job.yaml",
+      "source_repo": "envoyproxy/ai-gateway"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/precommit_check.yaml",
+      "source_repo": "envoyproxy/ai-gateway"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "sigstore/gitsign"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/e2e.yaml",
+      "source_repo": "sigstore/gitsign"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "sigstore/gitsign"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/validate-release.yml",
+      "source_repo": "sigstore/gitsign"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/verify.yml",
+      "source_repo": "sigstore/gitsign"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/go_test.yml",
+      "source_repo": "transparency-dev/distributor"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/golangci-lint.yml",
+      "source_repo": "transparency-dev/distributor"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/go_test.yml",
+      "source_repo": "transparency-dev/witness"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/golangci-lint.yml",
+      "source_repo": "transparency-dev/witness"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ko_build.yml",
+      "source_repo": "transparency-dev/witness"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "external-secrets/external-secrets"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "external-secrets/external-secrets"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/mixin.yml",
+      "source_repo": "prometheus/alertmanager"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/benchmark.yml",
+      "source_repo": "cloudflare/pint"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "cloudflare/pint"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/compile.yml",
+      "source_repo": "cloudflare/pint"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/examples.yml",
+      "source_repo": "cloudflare/pint"
     }
   ]
 }

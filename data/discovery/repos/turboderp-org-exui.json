@@ -1,0 +1,57 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "turboderp-org/exui",
+      "target": "turboderp/exllamav2",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "turboderp-org/exui",
+      "target": "turboderp/exui",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T03:03:56.332760+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1909
+    },
+    {
+      "path": "requirements.txt",
+      "size": 65
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Web UI for ExLlamaV2",
+    "fork": false,
+    "full_name": "turboderp-org/exui",
+    "html_url": "https://github.com/turboderp-org/exui",
+    "language": "JavaScript",
+    "pushed_at": "2025-02-05T22:50:35Z",
+    "stargazers_count": 511,
+    "topics": [],
+    "updated_at": "2026-03-28T02:54:44Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "turboderp/exllamav2",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "turboderp/exui",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

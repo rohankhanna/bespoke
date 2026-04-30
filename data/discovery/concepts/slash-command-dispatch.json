@@ -43,6 +43,30 @@
       "source_repo": "galaxyproject/tools-iuc",
       "status": "candidate-context",
       "text": "Slash Command Dispatch"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "peter-evans/create-pull-request",
+      "status": "candidate-context",
+      "text": "A GitHub action to create a pull request for changes to your repository in the actions workspace"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "peter-evans/create-pull-request",
+      "status": "candidate-context",
+      "text": "Slash Command Dispatch"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bgruening/galaxytools",
+      "status": "candidate-context",
+      "text": ":microscope::books: Galaxy Tool wrappers"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bgruening/galaxytools",
+      "status": "candidate-context",
+      "text": "Slash Command Dispatch"
     }
   ],
   "candidate_glosses": [
@@ -61,6 +85,18 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "galaxyproject/tools-iuc",
+      "status": "candidate",
+      "text": "Slash Command Dispatch"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "peter-evans/create-pull-request",
+      "status": "candidate",
+      "text": "Slash Command Dispatch"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bgruening/galaxytools",
       "status": "candidate",
       "text": "Slash Command Dispatch"
     }
@@ -124,11 +160,23 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": ".github/workflows/slash.yaml",
       "source_repo": "galaxyproject/tools-iuc"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/slash-command-dispatch.yml",
+      "source_repo": "peter-evans/create-pull-request"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/slash.yaml",
+      "source_repo": "bgruening/galaxytools"
     }
   ],
   "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

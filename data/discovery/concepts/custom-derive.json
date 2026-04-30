@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "custom-derive"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "askama-rs/askama-old",
+      "status": "candidate-context",
+      "text": "The original askama repo, please go to https://github.com/askama-rs/askama"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "askama-rs/askama-old",
+      "status": "candidate-context",
+      "text": "[![Crates.io](https://img.shields.io/crates/v/askama?logo=rust&style=flat-square&logoColor=white \"Crates.io\")](https://crates.io/crates/askama)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "askama-rs/askama-old",
+      "status": "candidate",
+      "text": "[![Crates.io](https://img.shields.io/crates/v/askama?logo=rust&style=flat-square&logoColor=white \"Crates.io\")](https://crates.io/crates/askama)"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "custom-derive",
+  "concept_id": "custom-derive",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "askama-rs/askama-old"
+    }
+  ],
+  "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "custom-derive",
+      "sense_id": "custom-derive#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

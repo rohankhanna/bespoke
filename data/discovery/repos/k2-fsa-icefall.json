@@ -1,0 +1,531 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/aishell.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/aishell.yml"
+    },
+    {
+      "component": "addnab/docker-run-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/aishell.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/audioset.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/audioset.yml"
+    },
+    {
+      "component": "addnab/docker-run-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/audioset.yml"
+    },
+    {
+      "component": "nick-fields/retry@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/audioset.yml"
+    },
+    {
+      "component": "svenstaro/upload-release-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/audioset.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/baker_zh.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/baker_zh.yml"
+    },
+    {
+      "component": "addnab/docker-run-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/baker_zh.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/baker_zh.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/baker_zh.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/baker_zh.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/baker_zh.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/baker_zh.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/baker_zh.yml"
+    },
+    {
+      "component": "svenstaro/upload-release-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/baker_zh.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-cpu-docker.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-cpu-docker.yml"
+    },
+    {
+      "component": "docker/login-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-cpu-docker.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-doc.yml"
+    },
+    {
+      "component": "actions/setup-python@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-doc.yml"
+    },
+    {
+      "component": "peaceiris/actions-gh-pages@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-doc.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-docker-image.yml"
+    },
+    {
+      "component": "jlumbroso/free-disk-space@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-docker-image.yml"
+    },
+    {
+      "component": "docker/login-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-docker-image.yml"
+    },
+    {
+      "component": "docker/build-push-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-docker-image.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ksponspeech.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ksponspeech.yml"
+    },
+    {
+      "component": "actions/cache@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ksponspeech.yml"
+    },
+    {
+      "component": "nick-fields/retry@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ksponspeech.yml"
+    },
+    {
+      "component": "nick-fields/retry@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ksponspeech.yml"
+    },
+    {
+      "component": "svenstaro/upload-release-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ksponspeech.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "k2-fsa/icefall",
+      "target": "k2-fsa/k2",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "k2-fsa/icefall",
+      "target": "k2-fsa/sherpa",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "k2-fsa/icefall",
+      "target": "k2-fsa/sherpa-ncnn",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "k2-fsa/icefall",
+      "target": "k2-fsa/sherpa-onnx",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/aishell.yml",
+      "source_repo": "k2-fsa/icefall",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/aishell.yml",
+      "source_repo": "k2-fsa/icefall",
+      "target": "addnab/docker-run-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/aishell.yml",
+      "source_repo": "k2-fsa/icefall",
+      "target": "aishell",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/audioset.yml",
+      "source_repo": "k2-fsa/icefall",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/audioset.yml",
+      "source_repo": "k2-fsa/icefall",
+      "target": "addnab/docker-run-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/audioset.yml",
+      "source_repo": "k2-fsa/icefall",
+      "target": "nick-fields/retry@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/audioset.yml",
+      "source_repo": "k2-fsa/icefall",
+      "target": "svenstaro/upload-release-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/audioset.yml",
+      "source_repo": "k2-fsa/icefall",
+      "target": "audioset",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/baker_zh.yml",
+      "source_repo": "k2-fsa/icefall",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/baker_zh.yml",
+      "source_repo": "k2-fsa/icefall",
+      "target": "addnab/docker-run-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/baker_zh.yml",
+      "source_repo": "k2-fsa/icefall",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/baker_zh.yml",
+      "source_repo": "k2-fsa/icefall",
+      "target": "svenstaro/upload-release-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-cpu-docker.yml",
+      "source_repo": "k2-fsa/icefall",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-cpu-docker.yml",
+      "source_repo": "k2-fsa/icefall",
+      "target": "docker/login-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-cpu-docker.yml",
+      "source_repo": "k2-fsa/icefall",
+      "target": "build-cpu-docker",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-doc.yml",
+      "source_repo": "k2-fsa/icefall",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-doc.yml",
+      "source_repo": "k2-fsa/icefall",
+      "target": "actions/setup-python@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-doc.yml",
+      "source_repo": "k2-fsa/icefall",
+      "target": "peaceiris/actions-gh-pages@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-doc.yml",
+      "source_repo": "k2-fsa/icefall",
+      "target": "Generate doc",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-docker-image.yml",
+      "source_repo": "k2-fsa/icefall",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-docker-image.yml",
+      "source_repo": "k2-fsa/icefall",
+      "target": "jlumbroso/free-disk-space@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-docker-image.yml",
+      "source_repo": "k2-fsa/icefall",
+      "target": "docker/login-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-docker-image.yml",
+      "source_repo": "k2-fsa/icefall",
+      "target": "docker/build-push-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-docker-image.yml",
+      "source_repo": "k2-fsa/icefall",
+      "target": "Build docker image",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ksponspeech.yml",
+      "source_repo": "k2-fsa/icefall",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ksponspeech.yml",
+      "source_repo": "k2-fsa/icefall",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ksponspeech.yml",
+      "source_repo": "k2-fsa/icefall",
+      "target": "actions/cache@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ksponspeech.yml",
+      "source_repo": "k2-fsa/icefall",
+      "target": "nick-fields/retry@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ksponspeech.yml",
+      "source_repo": "k2-fsa/icefall",
+      "target": "svenstaro/upload-release-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ksponspeech.yml",
+      "source_repo": "k2-fsa/icefall",
+      "target": "ksponspeech",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T03:51:10.222909+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 15952
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 305
+    },
+    {
+      "path": "requirements.txt",
+      "size": 329
+    },
+    {
+      "path": ".github/workflows/aishell.yml",
+      "size": 2070
+    },
+    {
+      "path": ".github/workflows/audioset.yml",
+      "size": 4321
+    },
+    {
+      "path": ".github/workflows/baker_zh.yml",
+      "size": 4677
+    },
+    {
+      "path": ".github/workflows/build-cpu-docker.yml",
+      "size": 2564
+    },
+    {
+      "path": ".github/workflows/build-doc.yml",
+      "size": 2154
+    },
+    {
+      "path": ".github/workflows/build-docker-image.yml",
+      "size": 2761
+    },
+    {
+      "path": ".github/workflows/ksponspeech.yml",
+      "size": 4905
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": null,
+    "fork": false,
+    "full_name": "k2-fsa/icefall",
+    "html_url": "https://github.com/k2-fsa/icefall",
+    "language": "Python",
+    "pushed_at": "2026-04-12T13:17:49Z",
+    "stargazers_count": 1406,
+    "topics": [],
+    "updated_at": "2026-04-29T07:48:57Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "k2-fsa/k2",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "k2-fsa/sherpa",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "k2-fsa/sherpa-ncnn",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "k2-fsa/sherpa-onnx",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "aishell",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/aishell.yml",
+      "term": "aishell"
+    },
+    {
+      "context_snippet": "audioset",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/audioset.yml",
+      "term": "audioset"
+    },
+    {
+      "context_snippet": "build-cpu-docker",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-cpu-docker.yml",
+      "term": "build-cpu-docker"
+    },
+    {
+      "context_snippet": "Generate doc",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-doc.yml",
+      "term": "Generate doc"
+    },
+    {
+      "context_snippet": "Build docker image",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-docker-image.yml",
+      "term": "Build docker image"
+    },
+    {
+      "context_snippet": "ksponspeech",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ksponspeech.yml",
+      "term": "ksponspeech"
+    }
+  ]
+}

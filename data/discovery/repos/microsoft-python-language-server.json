@@ -1,0 +1,86 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "microsoft/python-language-server",
+      "target": "microsoft/ptvs",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/python-language-server",
+      "target": "code-analysis",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/python-language-server",
+      "target": "language-server",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/python-language-server",
+      "target": "language-server-protocol",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T00:38:26.162093+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4704
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "master",
+    "description": "Microsoft Language Server for Python",
+    "fork": false,
+    "full_name": "microsoft/python-language-server",
+    "html_url": "https://github.com/microsoft/python-language-server",
+    "language": "C#",
+    "pushed_at": "2022-02-18T22:02:37Z",
+    "stargazers_count": 922,
+    "topics": [
+      "code-analysis",
+      "language-server",
+      "language-server-protocol",
+      "python"
+    ],
+    "updated_at": "2026-04-28T20:06:43Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "microsoft/ptvs",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Microsoft Python Language Server implements the [Language Server Protocol](https://microsoft.github.io/language-server-protocol/specification).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "code-analysis"
+    },
+    {
+      "context_snippet": "Microsoft Python Language Server implements the [Language Server Protocol](https://microsoft.github.io/language-server-protocol/specification).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "language-server"
+    },
+    {
+      "context_snippet": "Microsoft Python Language Server implements the [Language Server Protocol](https://microsoft.github.io/language-server-protocol/specification).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "language-server-protocol"
+    }
+  ]
+}

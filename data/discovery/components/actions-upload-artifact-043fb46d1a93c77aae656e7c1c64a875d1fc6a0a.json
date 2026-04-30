@@ -1,7 +1,7 @@
 {
   "component": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
   "first_seen_at": "2026-04-17T16:51:41.136432+00:00",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -1532,6 +1532,231 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/scorecards-analysis.yml",
       "source_repo": "apache/commons-jexl"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci_steps.yml",
+      "source_repo": "AcademySoftwareFoundation/openexr"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ossfuzz_workflow.yml",
+      "source_repo": "AcademySoftwareFoundation/openexr"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "eitsupi/arf"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "mthom/scryer-prolog"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build_wheels.yml",
+      "source_repo": "caketop/python-starlark-go"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/custom-test.yml",
+      "source_repo": "sigstore/root-signing-staging"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "theupdateframework/tuf-on-ci"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci_linux_alpine_aarch64_musl.yml",
+      "source_repo": "karafka/rdkafka-ruby"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci_linux_alpine_aarch64_musl_complementary.yml",
+      "source_repo": "karafka/rdkafka-ruby"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci_linux_alpine_x86_64_musl.yml",
+      "source_repo": "karafka/rdkafka-ruby"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci_linux_alpine_x86_64_musl_complementary.yml",
+      "source_repo": "karafka/rdkafka-ruby"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci_linux_debian_x86_64_gnu.yml",
+      "source_repo": "karafka/rdkafka-ruby"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci_linux_debian_x86_64_gnu_complementary.yml",
+      "source_repo": "karafka/rdkafka-ruby"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci_linux_ubuntu_aarch64_gnu.yml",
+      "source_repo": "karafka/rdkafka-ruby"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci_linux_ubuntu_aarch64_gnu_complementary.yml",
+      "source_repo": "karafka/rdkafka-ruby"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "dominikh/go-tools"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/pre-merge.yaml",
+      "source_repo": "detekt/detekt"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "prometheus-community/windows_exporter"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "prometheus-community/windows_exporter"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/collect-source.yml",
+      "source_repo": "open-edge-platform/geti-instant-learn"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yml",
+      "source_repo": "ultrajson/ultrajson"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "scalar/scalar"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release-build.yml",
+      "source_repo": "Kong/insomnia"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release-recurring.yml",
+      "source_repo": "Kong/insomnia"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test-cli.yml",
+      "source_repo": "Kong/insomnia"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test-e2e.yml",
+      "source_repo": "Kong/insomnia"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/gradle.yml",
+      "source_repo": "micronaut-projects/micronaut-langchain4j"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "micronaut-projects/micronaut-langchain4j"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/check_misc.yml",
+      "source_repo": "ruby/ruby"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/docs-workflow.yml",
+      "source_repo": "day8/re-frame"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/continuous-integration-workflow.yml",
+      "source_repo": "day8/re-com"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/cross-version.yml",
+      "source_repo": "junit-team/junit-framework"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ossf-scorecard.yml",
+      "source_repo": "junit-team/junit-framework"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/publish-report.yml",
+      "source_repo": "sigstore/sigstore-conformance"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/scorecard.yml",
+      "source_repo": "transparency-dev/distributor"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/scorecard.yml",
+      "source_repo": "transparency-dev/witness"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "karafka/waterdrop"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/daily.yml",
+      "source_repo": "ImageMagick/ImageMagick"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "ImageMagick/ImageMagick"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/cicd.yaml",
+      "source_repo": "astronomer/dag-factory"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "tox-dev/pipdeptree"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-doc.yml",
+      "source_repo": "plotly/plotly.py"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-package.yml",
+      "source_repo": "plotly/plotly.py"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/check-js-build.yml",
+      "source_repo": "plotly/plotly.py"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test-release.yml",
+      "source_repo": "plotly/plotly.py"
     }
   ]
 }

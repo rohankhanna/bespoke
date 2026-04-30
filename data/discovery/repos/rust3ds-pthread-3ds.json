@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T01:46:59.118365+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 301
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 370
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "PThread implementation for Nintendo 3DS Horizon OS targets. Keep in mind that Horizon OS uses a cooperative, and not preemptive, threading model.",
+    "fork": false,
+    "full_name": "rust3ds/pthread-3ds",
+    "html_url": "https://github.com/rust3ds/pthread-3ds",
+    "language": "Rust",
+    "pushed_at": "2024-05-17T14:47:48Z",
+    "stargazers_count": 14,
+    "topics": [],
+    "updated_at": "2026-04-01T02:40:13Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

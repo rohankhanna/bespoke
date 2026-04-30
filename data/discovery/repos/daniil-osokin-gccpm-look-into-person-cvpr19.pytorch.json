@@ -1,0 +1,215 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Daniil-Osokin/gccpm-look-into-person-cvpr19.pytorch",
+      "target": "marvis/pytorch-mobilenet",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Daniil-Osokin/gccpm-look-into-person-cvpr19.pytorch",
+      "target": "convolutional-pose-machines",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Daniil-Osokin/gccpm-look-into-person-cvpr19.pytorch",
+      "target": "cvpr2019",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Daniil-Osokin/gccpm-look-into-person-cvpr19.pytorch",
+      "target": "deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Daniil-Osokin/gccpm-look-into-person-cvpr19.pytorch",
+      "target": "human-pose",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Daniil-Osokin/gccpm-look-into-person-cvpr19.pytorch",
+      "target": "human-pose-estimation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Daniil-Osokin/gccpm-look-into-person-cvpr19.pytorch",
+      "target": "lightweight",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Daniil-Osokin/gccpm-look-into-person-cvpr19.pytorch",
+      "target": "look-into-person",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Daniil-Osokin/gccpm-look-into-person-cvpr19.pytorch",
+      "target": "openvino",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Daniil-Osokin/gccpm-look-into-person-cvpr19.pytorch",
+      "target": "pose-estimation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Daniil-Osokin/gccpm-look-into-person-cvpr19.pytorch",
+      "target": "pytorch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Daniil-Osokin/gccpm-look-into-person-cvpr19.pytorch",
+      "target": "real-time",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Daniil-Osokin/gccpm-look-into-person-cvpr19.pytorch",
+      "target": "single-person",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T03:49:20.100458+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3450
+    },
+    {
+      "path": "requirements.txt",
+      "size": 88
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Fast and accurate single-person pose estimation, ranked 10th at CVPR'19 LIP challenge. Contains implementation of \"Global Context for Convolutional Pose Machines\" paper.",
+    "fork": false,
+    "full_name": "Daniil-Osokin/gccpm-look-into-person-cvpr19.pytorch",
+    "html_url": "https://github.com/Daniil-Osokin/gccpm-look-into-person-cvpr19.pytorch",
+    "language": "Python",
+    "pushed_at": "2022-06-21T22:13:56Z",
+    "stargazers_count": 169,
+    "topics": [
+      "convolutional-pose-machines",
+      "cvpr2019",
+      "deep-learning",
+      "human-pose",
+      "human-pose-estimation",
+      "lightweight",
+      "look-into-person",
+      "openvino",
+      "pose-estimation",
+      "pytorch",
+      "real-time",
+      "single-person"
+    ],
+    "updated_at": "2026-04-03T07:16:29Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "marvis/pytorch-mobilenet",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "This repository contains training code for the paper [Global Context for Convolutional Pose Machines](https://arxiv.org/pdf/1906.04104.pdf). This work improves [original](https://arxiv.org/pdf/1602.00134.pdf) convolutional pose machine architecture for artculated human pose esti\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "convolutional-pose-machines"
+    },
+    {
+      "context_snippet": "This repository contains training code for the paper [Global Context for Convolutional Pose Machines](https://arxiv.org/pdf/1906.04104.pdf). This work improves [original](https://arxiv.org/pdf/1602.00134.pdf) convolutional pose machine architecture for artculated human pose esti\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cvpr2019"
+    },
+    {
+      "context_snippet": "This repository contains training code for the paper [Global Context for Convolutional Pose Machines](https://arxiv.org/pdf/1906.04104.pdf). This work improves [original](https://arxiv.org/pdf/1602.00134.pdf) convolutional pose machine architecture for artculated human pose esti\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-learning"
+    },
+    {
+      "context_snippet": "This repository contains training code for the paper [Global Context for Convolutional Pose Machines](https://arxiv.org/pdf/1906.04104.pdf). This work improves [original](https://arxiv.org/pdf/1602.00134.pdf) convolutional pose machine architecture for artculated human pose esti\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "human-pose"
+    },
+    {
+      "context_snippet": "This repository contains training code for the paper [Global Context for Convolutional Pose Machines](https://arxiv.org/pdf/1906.04104.pdf). This work improves [original](https://arxiv.org/pdf/1602.00134.pdf) convolutional pose machine architecture for artculated human pose esti\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "human-pose-estimation"
+    },
+    {
+      "context_snippet": "This repository contains training code for the paper [Global Context for Convolutional Pose Machines](https://arxiv.org/pdf/1906.04104.pdf). This work improves [original](https://arxiv.org/pdf/1602.00134.pdf) convolutional pose machine architecture for artculated human pose esti\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "lightweight"
+    },
+    {
+      "context_snippet": "This repository contains training code for the paper [Global Context for Convolutional Pose Machines](https://arxiv.org/pdf/1906.04104.pdf). This work improves [original](https://arxiv.org/pdf/1602.00134.pdf) convolutional pose machine architecture for artculated human pose esti\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "look-into-person"
+    },
+    {
+      "context_snippet": "This repository contains training code for the paper [Global Context for Convolutional Pose Machines](https://arxiv.org/pdf/1906.04104.pdf). This work improves [original](https://arxiv.org/pdf/1602.00134.pdf) convolutional pose machine architecture for artculated human pose esti\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "openvino"
+    },
+    {
+      "context_snippet": "This repository contains training code for the paper [Global Context for Convolutional Pose Machines](https://arxiv.org/pdf/1906.04104.pdf). This work improves [original](https://arxiv.org/pdf/1602.00134.pdf) convolutional pose machine architecture for artculated human pose esti\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pose-estimation"
+    },
+    {
+      "context_snippet": "This repository contains training code for the paper [Global Context for Convolutional Pose Machines](https://arxiv.org/pdf/1906.04104.pdf). This work improves [original](https://arxiv.org/pdf/1602.00134.pdf) convolutional pose machine architecture for artculated human pose esti\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytorch"
+    },
+    {
+      "context_snippet": "This repository contains training code for the paper [Global Context for Convolutional Pose Machines](https://arxiv.org/pdf/1906.04104.pdf). This work improves [original](https://arxiv.org/pdf/1602.00134.pdf) convolutional pose machine architecture for artculated human pose esti\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "real-time"
+    },
+    {
+      "context_snippet": "This repository contains training code for the paper [Global Context for Convolutional Pose Machines](https://arxiv.org/pdf/1906.04104.pdf). This work improves [original](https://arxiv.org/pdf/1602.00134.pdf) convolutional pose machine architecture for artculated human pose esti\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "single-person"
+    }
+  ]
+}

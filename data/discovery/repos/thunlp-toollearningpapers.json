@@ -1,0 +1,77 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "thunlp/ToolLearningPapers",
+      "target": "ftramer/lm_memorization",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "thunlp/ToolLearningPapers",
+      "target": "edward-sun/recite",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "thunlp/ToolLearningPapers",
+      "target": "craftjarvis/mc-planner",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "thunlp/ToolLearningPapers",
+      "target": "ctlllll/llm-toolmaker",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T01:03:53.669109+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 22887
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": null,
+    "fork": false,
+    "full_name": "thunlp/ToolLearningPapers",
+    "html_url": "https://github.com/thunlp/ToolLearningPapers",
+    "language": null,
+    "pushed_at": "2024-07-24T14:03:50Z",
+    "stargazers_count": 920,
+    "topics": [],
+    "updated_at": "2026-04-28T11:57:03Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "craftjarvis/mc-planner",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ctlllll/llm-toolmaker",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "edward-sun/recite",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ftramer/lm_memorization",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

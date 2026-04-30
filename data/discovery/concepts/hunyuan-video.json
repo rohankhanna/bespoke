@@ -31,6 +31,30 @@
       "source_repo": "deepbeepmeep/Wan2GP",
       "status": "candidate-context",
       "text": "-----"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mit-han-lab/radial-attention",
+      "status": "candidate-context",
+      "text": "[NeurIPS 2025] Radial Attention: O(nlogn) Sparse Attention with Energy Decay for Long Video Generation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mit-han-lab/radial-attention",
+      "status": "candidate-context",
+      "text": "**[2025-10-29]** Radial+SageAttention2++ is now supported on RTX-5090 GPU!"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "chengzeyi/ParaAttention",
+      "status": "candidate-context",
+      "text": "https://wavespeed.ai/ Context parallel attention that accelerates DiT model inference with dynamic caching"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chengzeyi/ParaAttention",
+      "status": "candidate-context",
+      "text": "[Blazing Fast FLUX-dev with LoRAs](https://wavespeed.ai/models/wavespeed-ai/flux-dev-lora)"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +69,18 @@
       "source_repo": "deepbeepmeep/Wan2GP",
       "status": "candidate",
       "text": "-----"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mit-han-lab/radial-attention",
+      "status": "candidate",
+      "text": "**[2025-10-29]** Radial+SageAttention2++ is now supported on RTX-5090 GPU!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chengzeyi/ParaAttention",
+      "status": "candidate",
+      "text": "[Blazing Fast FLUX-dev with LoRAs](https://wavespeed.ai/models/wavespeed-ai/flux-dev-lora)"
     }
   ],
   "candidate_related_terms": [],
@@ -64,11 +100,23 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "deepbeepmeep/Wan2GP"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "mit-han-lab/radial-attention"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "chengzeyi/ParaAttention"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

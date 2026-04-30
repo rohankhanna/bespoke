@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Check Firebase AI Responses"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "firebase/firebase-android-sdk",
+      "status": "candidate-context",
+      "text": "Firebase Android SDK"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "firebase/firebase-android-sdk",
+      "status": "candidate-context",
+      "text": "Check Firebase AI Responses"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "firebase/firebase-android-sdk",
+      "status": "candidate",
+      "text": "Check Firebase AI Responses"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 16065,
+      "status": "candidate",
+      "text": "ais"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15187,
+      "status": "candidate",
+      "text": "list"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15065,
+      "status": "candidate",
+      "text": "bot"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15065,
+      "status": "candidate",
+      "text": "complex"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15065,
+      "status": "candidate",
+      "text": "interval"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Check Firebase AI Responses",
+  "concept_id": "check-firebase-ai-responses",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/check-firebaseai-responses.yml",
+      "source_repo": "firebase/firebase-android-sdk"
+    }
+  ],
+  "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Check Firebase AI Responses",
+      "sense_id": "check-firebase-ai-responses#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

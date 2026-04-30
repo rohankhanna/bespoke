@@ -1,0 +1,35 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T00:50:01.885423+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 239
+    },
+    {
+      "path": "Dockerfile",
+      "size": 939
+    },
+    {
+      "path": "requirements.txt",
+      "size": 818
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "This repository contains jupyter notebooks with java kernel for vavr code examples",
+    "fork": false,
+    "full_name": "inspire99/vavr-notebook",
+    "html_url": "https://github.com/inspire99/vavr-notebook",
+    "language": "Jupyter Notebook",
+    "pushed_at": "2022-12-27T15:35:52Z",
+    "stargazers_count": 4,
+    "topics": [],
+    "updated_at": "2024-11-17T21:14:38Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

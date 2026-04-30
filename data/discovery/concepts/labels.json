@@ -76,6 +76,66 @@
       "source_repo": "ipfs/github-mgmt",
       "status": "candidate-context",
       "text": "Labels"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "scientific-python/scientific-python-hugo-theme",
+      "status": "candidate-context",
+      "text": "Scientific Python Web Theme"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "scientific-python/scientific-python-hugo-theme",
+      "status": "candidate-context",
+      "text": "Labels"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ipdxco/github-as-code",
+      "status": "candidate-context",
+      "text": "GitHub Configuration as Code"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ipdxco/github-as-code",
+      "status": "candidate-context",
+      "text": "Labels"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "blooper05/action-rails_best_practices",
+      "status": "candidate-context",
+      "text": "Run rails_best_practices with reviewdog \ud83d\udc36"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "blooper05/action-rails_best_practices",
+      "status": "candidate-context",
+      "text": "labels"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "brunohaf/action-bandit",
+      "status": "candidate-context",
+      "text": "This GitHub Action runs Bandit, a Python security linter, and integrates with reviewdog for inline PR comments. It supports configurable Bandit options (config file, flags, verbose mode) and reviewdog settings (tool name, report level, reporter). It also handles version management with action-bumpr and action-update-semver."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "brunohaf/action-bandit",
+      "status": "candidate-context",
+      "text": "labels"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "fastapi/full-stack-fastapi-template",
+      "status": "candidate-context",
+      "text": "Full stack, modern web application template. Using FastAPI, React, SQLModel, PostgreSQL, Docker, GitHub Actions, automatic HTTPS and more."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fastapi/full-stack-fastapi-template",
+      "status": "candidate-context",
+      "text": "Labels"
     }
   ],
   "candidate_glosses": [
@@ -112,6 +172,36 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "ipfs/github-mgmt",
+      "status": "candidate",
+      "text": "Labels"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "scientific-python/scientific-python-hugo-theme",
+      "status": "candidate",
+      "text": "Labels"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ipdxco/github-as-code",
+      "status": "candidate",
+      "text": "Labels"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "blooper05/action-rails_best_practices",
+      "status": "candidate",
+      "text": "labels"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "brunohaf/action-bandit",
+      "status": "candidate",
+      "text": "labels"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fastapi/full-stack-fastapi-template",
       "status": "candidate",
       "text": "Labels"
     }
@@ -199,11 +289,53 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": ".github/workflows/labels.yml",
       "source_repo": "ipfs/github-mgmt"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/label-check.yaml",
+      "source_repo": "scientific-python/scientific-python-hugo-theme"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/labels.yml",
+      "source_repo": "ipdxco/github-as-code"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/labeler.yml",
+      "source_repo": "fastapi/fastapi"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/labels.yml",
+      "source_repo": "blooper05/action-rails_best_practices"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/labels.yml",
+      "source_repo": "brunohaf/action-bandit"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/labeler.yml",
+      "source_repo": "fastapi/full-stack-fastapi-template"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/labeler.yml",
+      "source_repo": "fastapi/typer"
     }
   ],
   "first_seen_at": "2026-04-19T17:42:30.117329+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

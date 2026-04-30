@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "\ud83e\udd2f  beginners tutorial building a real time counter in Phoenix 1.7.14 + LiveView 1.0 \u26a1\ufe0f Learn the fundamentals from first principals so you can make something amazing! \ud83d\ude80"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<div align=\"center\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "beginner-friendly",
+      "sense_id": "beginner-friendly#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "beginner-friendly",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "beginner-friendly",
+  "observation_id": "bba2c9207b6d5300",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T00:37:16.824464+00:00",
+  "observed_text": "beginner-friendly",
+  "source_context_snippet": "<div align=\"center\">",
+  "source_file": null,
+  "source_repo": "dwyl/phoenix-liveview-counter-tutorial",
+  "source_repo_description": "\ud83e\udd2f  beginners tutorial building a real time counter in Phoenix 1.7.14 + LiveView 1.0 \u26a1\ufe0f Learn the fundamentals from first principals so you can make something amazing! \ud83d\ude80"
+}

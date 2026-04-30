@@ -1,0 +1,100 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "schasse/tmux-jump",
+      "target": "tmux-plugins/tmux-yank",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "schasse/tmux-jump",
+      "target": "ace-jump",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "schasse/tmux-jump",
+      "target": "easymotion",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "schasse/tmux-jump",
+      "target": "tmux",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "schasse/tmux-jump",
+      "target": "vimium",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T01:39:35.232419+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2831
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Vimium/Easymotion like navigation for tmux.",
+    "fork": false,
+    "full_name": "schasse/tmux-jump",
+    "html_url": "https://github.com/schasse/tmux-jump",
+    "language": "Ruby",
+    "pushed_at": "2024-03-30T17:11:05Z",
+    "stargazers_count": 469,
+    "topics": [
+      "ace-jump",
+      "easymotion",
+      "tmux",
+      "tpm",
+      "vimium"
+    ],
+    "updated_at": "2026-04-16T07:08:25Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "tmux-plugins/tmux-yank",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ace-jump"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "easymotion"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tmux"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vimium"
+    }
+  ]
+}

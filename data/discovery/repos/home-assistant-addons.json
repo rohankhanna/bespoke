@@ -1,0 +1,291 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6.0.2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/builder.yml"
+    },
+    {
+      "component": "masesgroup/retrieve-changed-files@v4.0.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/builder.yml"
+    },
+    {
+      "component": "actions/checkout@v6.0.2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/builder.yml"
+    },
+    {
+      "component": "home-assistant/actions/helpers/info@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/builder.yml"
+    },
+    {
+      "component": "docker/login-action@v4.1.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/builder.yml"
+    },
+    {
+      "component": "home-assistant/builder@2026.02.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/builder.yml"
+    },
+    {
+      "component": "actions/checkout@v6.0.2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml"
+    },
+    {
+      "component": "actions/checkout@v6.0.2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml"
+    },
+    {
+      "component": "frenck/action-yamllint@v1.5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml"
+    },
+    {
+      "component": "actions/checkout@v6.0.2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml"
+    },
+    {
+      "component": "ludeeus/action-shellcheck@2.0.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml"
+    },
+    {
+      "component": "actions/github-script@v9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/restrict-task-creation.yml"
+    },
+    {
+      "component": "actions/stale@v10.2.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stale.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/builder.yml",
+      "source_repo": "home-assistant/addons",
+      "target": "actions/checkout@v6.0.2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/builder.yml",
+      "source_repo": "home-assistant/addons",
+      "target": "masesgroup/retrieve-changed-files@v4.0.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/builder.yml",
+      "source_repo": "home-assistant/addons",
+      "target": "home-assistant/actions/helpers/info@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/builder.yml",
+      "source_repo": "home-assistant/addons",
+      "target": "docker/login-action@v4.1.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/builder.yml",
+      "source_repo": "home-assistant/addons",
+      "target": "home-assistant/builder@2026.02.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/builder.yml",
+      "source_repo": "home-assistant/addons",
+      "target": "Build app",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "home-assistant/addons",
+      "target": "actions/checkout@v6.0.2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "home-assistant/addons",
+      "target": "frenck/action-yamllint@v1.5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "home-assistant/addons",
+      "target": "ludeeus/action-shellcheck@2.0.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "home-assistant/addons",
+      "target": "Lint",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/restrict-task-creation.yml",
+      "source_repo": "home-assistant/addons",
+      "target": "actions/github-script@v9",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/restrict-task-creation.yml",
+      "source_repo": "home-assistant/addons",
+      "target": "Restrict task creation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "home-assistant/addons",
+      "target": "actions/stale@v10.2.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "home-assistant/addons",
+      "target": "Stale",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "home-assistant/addons",
+      "target": "automation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "home-assistant/addons",
+      "target": "docker",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "home-assistant/addons",
+      "target": "hacktoberfest",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "home-assistant/addons",
+      "target": "home",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T03:45:16.704813+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3131
+    },
+    {
+      "path": ".github/workflows/builder.yml",
+      "size": 3996
+    },
+    {
+      "path": ".github/workflows/lint.yml",
+      "size": 1668
+    },
+    {
+      "path": ".github/workflows/restrict-task-creation.yml",
+      "size": 2529
+    },
+    {
+      "path": ".github/workflows/stale.yml",
+      "size": 789
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": ":heavy_plus_sign: Docker add-ons for Home Assistant",
+    "fork": false,
+    "full_name": "home-assistant/addons",
+    "html_url": "https://github.com/home-assistant/addons",
+    "language": "Shell",
+    "pushed_at": "2026-04-29T22:53:07Z",
+    "stargazers_count": 2157,
+    "topics": [
+      "automation",
+      "docker",
+      "hacktoberfest",
+      "home",
+      "iot"
+    ],
+    "updated_at": "2026-04-29T18:00:12Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Build app",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/builder.yml",
+      "term": "Build app"
+    },
+    {
+      "context_snippet": "Lint",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint.yml",
+      "term": "Lint"
+    },
+    {
+      "context_snippet": "Restrict task creation",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/restrict-task-creation.yml",
+      "term": "Restrict task creation"
+    },
+    {
+      "context_snippet": "Stale",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/stale.yml",
+      "term": "Stale"
+    },
+    {
+      "context_snippet": "Apps (formerly known as add-ons) for Home Assistant allow you to extend the functionality",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "automation"
+    },
+    {
+      "context_snippet": "Apps (formerly known as add-ons) for Home Assistant allow you to extend the functionality",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "docker"
+    },
+    {
+      "context_snippet": "Apps (formerly known as add-ons) for Home Assistant allow you to extend the functionality",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hacktoberfest"
+    },
+    {
+      "context_snippet": "Apps (formerly known as add-ons) for Home Assistant allow you to extend the functionality",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "home"
+    }
+  ]
+}

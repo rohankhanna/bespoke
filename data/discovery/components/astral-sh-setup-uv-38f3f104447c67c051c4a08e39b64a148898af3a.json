@@ -1,0 +1,17 @@
+{
+  "component": "astral-sh/setup-uv@38f3f104447c67c051c4a08e39b64a148898af3a",
+  "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/compile-protos-check.yml",
+      "source_repo": "skypilot-org/skypilot"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/docker-build.yaml",
+      "source_repo": "skypilot-org/skypilot"
+    }
+  ]
+}

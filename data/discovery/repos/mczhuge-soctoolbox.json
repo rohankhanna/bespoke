@@ -1,0 +1,65 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mczhuge/SOCToolbox",
+      "target": "mczhuge/icon",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mczhuge/SOCToolbox",
+      "target": "lartpang/pysodmetrics",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mczhuge/SOCToolbox",
+      "target": "wuzhe71/scrn",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T03:48:09.702719+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 12122
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Efficient Toolbox to quickly evaluate SOC/SOD/COD benchmark.",
+    "fork": false,
+    "full_name": "mczhuge/SOCToolbox",
+    "html_url": "https://github.com/mczhuge/SOCToolbox",
+    "language": "Python",
+    "pushed_at": "2022-09-15T03:13:37Z",
+    "stargazers_count": 31,
+    "topics": [],
+    "updated_at": "2026-04-09T11:33:52Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "lartpang/pysodmetrics",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mczhuge/icon",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "wuzhe71/scrn",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

@@ -1,0 +1,57 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "GanjinZero/RRHF",
+      "target": "dahoas/reward-modeling",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "GanjinZero/RRHF",
+      "target": "carperai/trlx",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T02:00:35.494403+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 22840
+    },
+    {
+      "path": "requirements.txt",
+      "size": 53
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "[NIPS2023] RRHF & Wombat",
+    "fork": false,
+    "full_name": "GanjinZero/RRHF",
+    "html_url": "https://github.com/GanjinZero/RRHF",
+    "language": "Python",
+    "pushed_at": "2023-09-22T03:26:38Z",
+    "stargazers_count": 808,
+    "topics": [],
+    "updated_at": "2026-03-09T16:38:10Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "carperai/trlx",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dahoas/reward-modeling",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

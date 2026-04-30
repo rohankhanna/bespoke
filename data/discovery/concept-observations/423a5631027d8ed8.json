@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Additions to Go's database/sql for super fast performance and convenience. (fork of gocraft/dbr)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "dbr (fork of gocraft/dbr) provides additions to Go's database/sql for super fast performance and convenience."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "dbr (fork of gocraft/dbr) provides additions to Go's database/sql for super fast performance and convenience."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "query-builder",
+      "sense_id": "query-builder#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "query-builder",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "query-builder",
+  "observation_id": "423a5631027d8ed8",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T00:37:16.824464+00:00",
+  "observed_text": "query-builder",
+  "source_context_snippet": "dbr (fork of gocraft/dbr) provides additions to Go's database/sql for super fast performance and convenience.",
+  "source_file": null,
+  "source_repo": "mailru/dbr",
+  "source_repo_description": "Additions to Go's database/sql for super fast performance and convenience. (fork of gocraft/dbr)"
+}

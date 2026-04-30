@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-18T09:10:17.311509+00:00",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
@@ -161,6 +161,16 @@
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/dependabot-automerge.yml",
       "source_repo": "cheeriojs/cheerio"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/dependabot-merge.yml",
+      "source_repo": "libbpf/blazesym"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/dependabot-auto-merge.yml",
+      "source_repo": "asaaki/opentelemetry-tide"
     }
   ],
   "term": "Dependabot Auto Merge"

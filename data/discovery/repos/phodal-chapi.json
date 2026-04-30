@@ -1,0 +1,282 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cd.yml"
+    },
+    {
+      "component": "actions/setup-java@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cd.yml"
+    },
+    {
+      "component": "gradle/gradle-build-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cd.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-java@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "gradle/gradle-build-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "codecov/codecov-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "phodal/chapi",
+      "target": "modernizing/chapi",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "phodal/chapi",
+      "target": "unit-mesh/choco-builder",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "phodal/chapi",
+      "target": "antlr/grammars-v4",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "phodal/chapi",
+      "target": "shevek/jcpp",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cd.yml",
+      "source_repo": "phodal/chapi",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cd.yml",
+      "source_repo": "phodal/chapi",
+      "target": "actions/setup-java@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cd.yml",
+      "source_repo": "phodal/chapi",
+      "target": "gradle/gradle-build-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cd.yml",
+      "source_repo": "phodal/chapi",
+      "target": "Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "phodal/chapi",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "phodal/chapi",
+      "target": "actions/setup-java@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "phodal/chapi",
+      "target": "gradle/gradle-build-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "phodal/chapi",
+      "target": "codecov/codecov-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "phodal/chapi",
+      "target": "Chapi CI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "phodal/chapi",
+      "target": "meta-analysis",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "phodal/chapi",
+      "target": "meta-data",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "phodal/chapi",
+      "target": "meta-language",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "phodal/chapi",
+      "target": "meta-model",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "phodal/chapi",
+      "target": "meta-programming",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "phodal/chapi",
+      "target": "modeling",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T02:49:07.433388+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 10293
+    },
+    {
+      "path": ".github/workflows/cd.yml",
+      "size": 995
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 643
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "CHAPI (Common Hierarchical Abstract Parser and Information Converter) streamlines code analysis by converting diverse language source code into a unified abstract model, simplifying cross-language development.  Chapi \u662f\u4e00\u4e2a\u901a\u7528\u5c42\u6b21\u62bd\u8c61\u89e3\u6790\u5668\u4e0e\u4fe1\u606f\u8f6c\u6362\u5668\uff0c\u5b83\u53ef\u4ee5\u5c06\u4e0d\u540c\u7f16\u7a0b\u8bed\u8a00\u7684\u6e90\u4ee3\u7801\u8f6c\u6362\u4e3a\u7edf\u4e00\u7684\u5c42\u6b21\u62bd\u8c61\u6a21\u578b\u3002",
+    "fork": false,
+    "full_name": "phodal/chapi",
+    "html_url": "https://github.com/phodal/chapi",
+    "language": "Kotlin",
+    "pushed_at": "2026-01-27T12:20:20Z",
+    "stargazers_count": 314,
+    "topics": [
+      "meta-analysis",
+      "meta-data",
+      "meta-language",
+      "meta-model",
+      "meta-programming",
+      "modeling"
+    ],
+    "updated_at": "2026-04-17T03:09:25Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "antlr/grammars-v4",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "modernizing/chapi",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "shevek/jcpp",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "unit-mesh/choco-builder",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cd.yml",
+      "term": "Release"
+    },
+    {
+      "context_snippet": "Chapi CI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "term": "Chapi CI"
+    },
+    {
+      "context_snippet": "<img src=\"docs/logo.svg\" width=\"100\" height=\"100\" alt=\"Chapi Logo\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "meta-analysis"
+    },
+    {
+      "context_snippet": "<img src=\"docs/logo.svg\" width=\"100\" height=\"100\" alt=\"Chapi Logo\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "meta-data"
+    },
+    {
+      "context_snippet": "<img src=\"docs/logo.svg\" width=\"100\" height=\"100\" alt=\"Chapi Logo\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "meta-language"
+    },
+    {
+      "context_snippet": "<img src=\"docs/logo.svg\" width=\"100\" height=\"100\" alt=\"Chapi Logo\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "meta-model"
+    },
+    {
+      "context_snippet": "<img src=\"docs/logo.svg\" width=\"100\" height=\"100\" alt=\"Chapi Logo\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "meta-programming"
+    },
+    {
+      "context_snippet": "<img src=\"docs/logo.svg\" width=\"100\" height=\"100\" alt=\"Chapi Logo\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "modeling"
+    }
+  ]
+}

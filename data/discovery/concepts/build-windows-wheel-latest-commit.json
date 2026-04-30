@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Build Windows wheel (latest commit)"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "scikit-learn-contrib/hdbscan",
+      "status": "candidate-context",
+      "text": "A high performance implementation of HDBSCAN clustering."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "scikit-learn-contrib/hdbscan",
+      "status": "candidate-context",
+      "text": "Build Windows wheel (latest commit)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "scikit-learn-contrib/hdbscan",
+      "status": "candidate",
+      "text": "Build Windows wheel (latest commit)"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19261,
+      "status": "candidate",
+      "text": "lock"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18348,
+      "status": "candidate",
+      "text": "tile"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18205,
+      "status": "candidate",
+      "text": "aeronautics"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18176,
+      "status": "candidate",
+      "text": "window"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18072,
+      "status": "candidate",
+      "text": "van"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Build Windows wheel (latest commit)",
+  "concept_id": "build-windows-wheel-latest-commit",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/windows-wheel.yml",
+      "source_repo": "scikit-learn-contrib/hdbscan"
+    }
+  ],
+  "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Build Windows wheel (latest commit)",
+      "sense_id": "build-windows-wheel-latest-commit#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

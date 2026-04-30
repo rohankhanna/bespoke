@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-17T16:51:41.136432+00:00",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
@@ -2416,6 +2416,381 @@
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/build.yml",
       "source_repo": "minio/directpv"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "liquidz/iced-nrepl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "xmake-io/xmake"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/build.yaml",
+      "source_repo": "rapidsai/raft"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "lightgbm-org/LightGBM"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/push.yml",
+      "source_repo": "databrickslabs/ucx"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "cachix/git-hooks.nix"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/build.yaml",
+      "source_repo": "numToStr/lemmy-help"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "posit-dev/air"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/reusable-build.yml",
+      "source_repo": "sapphiredev/.github"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "google/gson"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "1set/starlet"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "AssemblyScript/wabt.js"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "OpenBMB/BMTrain"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/build-test.yml",
+      "source_repo": "Farama-Foundation/Shimmy"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/optional-test-bsuite.yml",
+      "source_repo": "Farama-Foundation/Shimmy"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/optional-test-dm-control-multiagent.yml",
+      "source_repo": "Farama-Foundation/Shimmy"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/optional-test-dm-control.yml",
+      "source_repo": "Farama-Foundation/Shimmy"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "whatwg/streams"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/msrv.yml",
+      "source_repo": "carrascomj/dalted"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "hashicorp/nomad"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/actions.yml",
+      "source_repo": "mymarilyn/clickhouse-driver"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "libevent/libevent"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "wjdp/htmltest"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/build.yaml",
+      "source_repo": "cashapp/turbine"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/build.yaml",
+      "source_repo": "operator-framework/operator-registry"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "grafana/jsonnet-libs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "AnonymouX47/term-image"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/python-app.yml",
+      "source_repo": "bigscience-workshop/lm-evaluation-harness"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/docker-build.yaml",
+      "source_repo": "LAION-AI/Open-Assistant"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/checks.yml",
+      "source_repo": "y-lohse/inkjs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "google-deepmind/mujoco"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/pytest.yml",
+      "source_repo": "Farama-Foundation/Minigrid"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/testing.yml",
+      "source_repo": "JohannesBuchner/imagehash"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/build.yaml",
+      "source_repo": "google/seqio"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/build.yaml",
+      "source_repo": "meridianlabs-ai/inspect_harbor"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "baygeldin/tantiny"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/go.yml",
+      "source_repo": "phodal/coca"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "gershnik/wsdd-native"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "qemus/virtiso-whql"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "a-n-t-h-o-n-y/Escape"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/build.yaml",
+      "source_repo": "apache/logging-log4j2"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "ACloudGuru/serverless-plugin-aws-alerts"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "mongodb/node-mongodb-native"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "rrousselGit/flutter_hooks"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "rrousselGit/provider"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "LuchoTurtle/banger-bot"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/erlang.yml",
+      "source_repo": "benoitc/hackney"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/build.yaml",
+      "source_repo": "google-research/t5x"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "ankane/ahoy"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "ankane/faiss-ruby"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "benfred/implicit"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "ankane/onnxruntime-ruby"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "ankane/transformers-ruby"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/build.yaml",
+      "source_repo": "NiLuJe/FBInk"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "cuiziteng/ICCV_MAET"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "expr-lang/expr"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/nodejs.yml",
+      "source_repo": "memoryhole/jjo"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "orhun/kermit"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "bazelbuild/tulsi"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "Justintime50/homebrew-releaser"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "ankane/lightgbm-ruby"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "astro/deadnix"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "codota/tabnine-sublime"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "r-lyeh/Spectral"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "boostorg/beast"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "YACReader/yacreader"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "svenstaro/rofi-calc"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "ClickHouse/clickhouse-java"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/config.yml",
+      "source_repo": "Buuntu/fastapi-react"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "newtheatre/history-project"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "kalaiser/awesome-cdk"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/build.yaml",
+      "source_repo": "google/trax"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/build.yaml",
+      "source_repo": "microsoft/frameworkcontroller"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/build-package.yml",
+      "source_repo": "plotly/plotly.py"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "CarperAI/trlx"
     }
   ],
   "term": "Build"

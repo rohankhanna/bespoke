@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "eccv2022"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mv-lab/swin2sr",
+      "status": "candidate-context",
+      "text": "[ECCV] Swin2SR: SwinV2 Transformer for Compressed Image Super-Resolution and Restoration.  Advances in Image Manipulation (AIM) workshop ECCV 2022. Try it out! over 3.3M runs https://replicate.com/mv-lab/swin2sr"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mv-lab/swin2sr",
+      "status": "candidate-context",
+      "text": "[![arXiv](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)](https://arxiv.org/abs/2209.11345)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mv-lab/swin2sr",
+      "status": "candidate",
+      "text": "[![arXiv](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)](https://arxiv.org/abs/2209.11345)"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "eccv2022",
+  "concept_id": "eccv2022",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "mv-lab/swin2sr"
+    }
+  ],
+  "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "eccv2022",
+      "sense_id": "eccv2022#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

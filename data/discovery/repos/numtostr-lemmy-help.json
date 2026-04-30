@@ -1,0 +1,254 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml"
+    },
+    {
+      "component": "softprops/action-gh-release@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml"
+    },
+    {
+      "component": "KSXGitHub/github-actions-deploy-aur@v2.2.5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr.yaml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "numToStr/lemmy-help",
+      "target": "tjdevries/tree-sitter-lua",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "numToStr/lemmy-help",
+      "target": "echasnovski/mini.nvim",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml",
+      "source_repo": "numToStr/lemmy-help",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml",
+      "source_repo": "numToStr/lemmy-help",
+      "target": "dtolnay/rust-toolchain@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml",
+      "source_repo": "numToStr/lemmy-help",
+      "target": "softprops/action-gh-release@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml",
+      "source_repo": "numToStr/lemmy-help",
+      "target": "KSXGitHub/github-actions-deploy-aur@v2.2.5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yaml",
+      "source_repo": "numToStr/lemmy-help",
+      "target": "build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr.yaml",
+      "source_repo": "numToStr/lemmy-help",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr.yaml",
+      "source_repo": "numToStr/lemmy-help",
+      "target": "dtolnay/rust-toolchain@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "numToStr/lemmy-help",
+      "target": "emmylua",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "numToStr/lemmy-help",
+      "target": "neovim",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "numToStr/lemmy-help",
+      "target": "neovim-plugin",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "numToStr/lemmy-help",
+      "target": "parser",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "numToStr/lemmy-help",
+      "target": "rust",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "numToStr/lemmy-help",
+      "target": "vim-help",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T00:44:57.054422+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3884
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 1161
+    },
+    {
+      "path": ".github/workflows/build.yaml",
+      "size": 6271
+    },
+    {
+      "path": ".github/workflows/pr.yaml",
+      "size": 1163
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Every one needs help, so lemmy-help you! A CLI to generate vim/nvim help doc from emmylua",
+    "fork": false,
+    "full_name": "numToStr/lemmy-help",
+    "html_url": "https://github.com/numToStr/lemmy-help",
+    "language": "Rust",
+    "pushed_at": "2023-11-17T14:15:06Z",
+    "stargazers_count": 157,
+    "topics": [
+      "cli",
+      "emmylua",
+      "lua",
+      "neovim",
+      "neovim-plugin",
+      "parser",
+      "rust",
+      "vim-help"
+    ],
+    "updated_at": "2026-03-09T14:16:29Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "echasnovski/mini.nvim",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "tjdevries/tree-sitter-lua",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yaml",
+      "term": "build"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">\ud83e\udd1d lemmy-help</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "emmylua"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">\ud83e\udd1d lemmy-help</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "neovim"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">\ud83e\udd1d lemmy-help</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "neovim-plugin"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">\ud83e\udd1d lemmy-help</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "parser"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">\ud83e\udd1d lemmy-help</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rust"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">\ud83e\udd1d lemmy-help</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vim-help"
+    }
+  ]
+}

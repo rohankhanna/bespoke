@@ -1,0 +1,101 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Localtunnel implementation in Rust, expose local API to the public."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![localtunnel](https://img.shields.io/crates/v/localtunnel.svg)](https://crates.io/crates/localtunnel)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![localtunnel](https://img.shields.io/crates/v/localtunnel.svg)](https://crates.io/crates/localtunnel)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29831357,
+      "status": "candidate",
+      "text": "electrical relay"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29831356,
+      "status": "candidate",
+      "text": "roadhouse"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29820855,
+      "status": "candidate",
+      "text": "baton"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29794426,
+      "status": "candidate",
+      "text": "conduit"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29764604,
+      "status": "candidate",
+      "text": "relais"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "relay",
+      "sense_id": "relay#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 10,
+      "status": "candidate",
+      "text": "electrical relay"
+    }
+  ],
+  "concept_id": "relay",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "relay",
+  "observation_id": "bf5284b3d7ade867",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T00:37:16.824464+00:00",
+  "observed_text": "relay",
+  "source_context_snippet": "[![localtunnel](https://img.shields.io/crates/v/localtunnel.svg)](https://crates.io/crates/localtunnel)",
+  "source_file": null,
+  "source_repo": "kaichaosun/rlt",
+  "source_repo_description": "Localtunnel implementation in Rust, expose local API to the public."
+}

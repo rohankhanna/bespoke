@@ -175,6 +175,42 @@
       "source_repo": "haya14busa/is.vim",
       "status": "candidate-context",
       "text": "[![Build Status](https://travis-ci.org/haya14busa/is.vim.svg?branch=master)](https://travis-ci.org/haya14busa/is.vim)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kristijanhusak/vim-packager",
+      "status": "candidate-context",
+      "text": "Vim plugin manager that utilizes \"jobs\" and \"pack\" features."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kristijanhusak/vim-packager",
+      "status": "candidate-context",
+      "text": "![preview-gif](https://i.imgur.com/KOTn843.gif)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "OmniSharp/omnisharp-vim",
+      "status": "candidate-context",
+      "text": "Vim omnicompletion (intellisense) and more for C#"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "OmniSharp/omnisharp-vim",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "k-takata/minpac",
+      "status": "candidate-context",
+      "text": "A minimal package manager for Vim 8+ (and Neovim)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "k-takata/minpac",
+      "status": "candidate-context",
+      "text": "[![Build status](https://github.com/k-takata/minpac/workflows/CI/badge.svg)](https://github.com/k-takata/minpac/actions)"
     }
   ],
   "candidate_glosses": [
@@ -261,6 +297,24 @@
       "source_repo": "haya14busa/is.vim",
       "status": "candidate",
       "text": "[![Build Status](https://travis-ci.org/haya14busa/is.vim.svg?branch=master)](https://travis-ci.org/haya14busa/is.vim)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kristijanhusak/vim-packager",
+      "status": "candidate",
+      "text": "![preview-gif](https://i.imgur.com/KOTn843.gif)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "OmniSharp/omnisharp-vim",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "k-takata/minpac",
+      "status": "candidate",
+      "text": "[![Build status](https://github.com/k-takata/minpac/workflows/CI/badge.svg)](https://github.com/k-takata/minpac/actions)"
     }
   ],
   "candidate_related_terms": [],
@@ -412,11 +466,41 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "haya14busa/is.vim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "kristijanhusak/vim-packager"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "preservim/tagbar"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "OmniSharp/omnisharp-vim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "k-takata/minpac"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "dense-analysis/ale"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

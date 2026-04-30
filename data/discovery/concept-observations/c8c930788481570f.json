@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Hermit for Rust."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<img width=\"256\" align=\"right\" src=\"https://github.com/hermit-os/.github/blob/main/logo/hermit-logo.svg\" />"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<img width=\"256\" align=\"right\" src=\"https://github.com/hermit-os/.github/blob/main/logo/hermit-logo.svg\" />"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "osdev",
+      "sense_id": "osdev#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "osdev",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "osdev",
+  "observation_id": "c8c930788481570f",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T00:37:16.824464+00:00",
+  "observed_text": "osdev",
+  "source_context_snippet": "<img width=\"256\" align=\"right\" src=\"https://github.com/hermit-os/.github/blob/main/logo/hermit-logo.svg\" />",
+  "source_file": null,
+  "source_repo": "hermit-os/hermit-rs",
+  "source_repo_description": "Hermit for Rust."
+}

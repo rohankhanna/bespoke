@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Sonatype Vuln Scan"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "micronaut-projects/micronaut-langchain4j",
+      "status": "candidate-context",
+      "text": "Integration between Micronaut and Langchain4j"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "micronaut-projects/micronaut-langchain4j",
+      "status": "candidate-context",
+      "text": "Sonatype Vuln Scan"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "micronaut-projects/micronaut-langchain4j",
+      "status": "candidate",
+      "text": "Sonatype Vuln Scan"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26424,
+      "status": "candidate",
+      "text": "analyse"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26424,
+      "status": "candidate",
+      "text": "analyses"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26424,
+      "status": "candidate",
+      "text": "analysing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26424,
+      "status": "candidate",
+      "text": "analysis"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26424,
+      "status": "candidate",
+      "text": "analytics"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Sonatype Vuln Scan",
+  "concept_id": "sonatype-vuln-scan",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/sonatype.yml",
+      "source_repo": "micronaut-projects/micronaut-langchain4j"
+    }
+  ],
+  "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Sonatype Vuln Scan",
+      "sense_id": "sonatype-vuln-scan#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

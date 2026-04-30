@@ -1,0 +1,160 @@
+{
+  "aliases": [
+    "hint"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Morantron/tmux-fingers",
+      "status": "candidate-context",
+      "text": "copy pasting in terminal with vimium/vimperator like hints."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Morantron/tmux-fingers",
+      "status": "candidate-context",
+      "text": "![tmux-fingers](./logo.svg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pawel-wiejacha/tmux-picker",
+      "status": "candidate-context",
+      "text": "Selecting and copy-pasting in terminal using Vimium-like hint mode."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pawel-wiejacha/tmux-picker",
+      "status": "candidate-context",
+      "text": "**tmux-picker**: Selecting and copy-pasting in terminal using Vimium-like hint mode for tmux."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Morantron/tmux-fingers",
+      "status": "candidate",
+      "text": "![tmux-fingers](./logo.svg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pawel-wiejacha/tmux-picker",
+      "status": "candidate",
+      "text": "**tmux-picker**: Selecting and copy-pasting in terminal using Vimium-like hint mode for tmux."
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39862171,
+      "status": "candidate",
+      "text": "intimation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39861835,
+      "status": "candidate",
+      "text": "suggest"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39861122,
+      "status": "candidate",
+      "text": "suggestion"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39826313,
+      "status": "candidate",
+      "text": "touch"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39822460,
+      "status": "candidate",
+      "text": "trace"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 47070,
+      "status": "candidate",
+      "text": "trace"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 38093,
+      "status": "candidate",
+      "text": "lead"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 34065,
+      "status": "candidate",
+      "text": "touch"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 19048,
+      "status": "candidate",
+      "text": "steer"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 19030,
+      "status": "candidate",
+      "text": "intimation"
+    }
+  ],
+  "canonical_name": "hint",
+  "concept_id": "hint",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "Morantron/tmux-fingers"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "pawel-wiejacha/tmux-picker"
+    }
+  ],
+  "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "hint",
+      "sense_id": "hint#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

@@ -1,0 +1,305 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "softprops/action-gh-release@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "BayesWitnesses/m2cgen",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "BayesWitnesses/m2cgen",
+      "target": "actions/upload-artifact@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "BayesWitnesses/m2cgen",
+      "target": "GitHub Actions",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "BayesWitnesses/m2cgen",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "BayesWitnesses/m2cgen",
+      "target": "softprops/action-gh-release@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "BayesWitnesses/m2cgen",
+      "target": "GitHub Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "BayesWitnesses/m2cgen",
+      "target": "csharp",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "BayesWitnesses/m2cgen",
+      "target": "dartlang",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "BayesWitnesses/m2cgen",
+      "target": "haskell",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "BayesWitnesses/m2cgen",
+      "target": "java",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "BayesWitnesses/m2cgen",
+      "target": "lightgbm",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "BayesWitnesses/m2cgen",
+      "target": "lightning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "BayesWitnesses/m2cgen",
+      "target": "machine-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "BayesWitnesses/m2cgen",
+      "target": "ruby",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "BayesWitnesses/m2cgen",
+      "target": "rust",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "BayesWitnesses/m2cgen",
+      "target": "scikit-learn",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "BayesWitnesses/m2cgen",
+      "target": "statistical-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "BayesWitnesses/m2cgen",
+      "target": "statsmodels",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "BayesWitnesses/m2cgen",
+      "target": "xgboost",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T04:10:54.345481+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9064
+    },
+    {
+      "path": "Dockerfile",
+      "size": 2721
+    },
+    {
+      "path": ".github/workflows/main.yml",
+      "size": 2161
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "size": 890
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Transform ML models into a native code (Java, C, Python, Go, JavaScript, Visual Basic, C#, R, PowerShell, PHP, Dart, Haskell, Ruby, F#, Rust) with zero dependencies",
+    "fork": false,
+    "full_name": "BayesWitnesses/m2cgen",
+    "html_url": "https://github.com/BayesWitnesses/m2cgen",
+    "language": "Python",
+    "pushed_at": "2024-08-03T17:30:36Z",
+    "stargazers_count": 2977,
+    "topics": [
+      "c",
+      "csharp",
+      "dartlang",
+      "go",
+      "haskell",
+      "java",
+      "javascript",
+      "lightgbm",
+      "lightning",
+      "machine-learning",
+      "php",
+      "python",
+      "r",
+      "ruby",
+      "rust",
+      "scikit-learn",
+      "statistical-learning",
+      "statsmodels",
+      "xgboost"
+    ],
+    "updated_at": "2026-04-27T13:50:39Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "GitHub Actions",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/main.yml",
+      "term": "GitHub Actions"
+    },
+    {
+      "context_snippet": "GitHub Release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "term": "GitHub Release"
+    },
+    {
+      "context_snippet": "[![GitHub Actions Status](https://github.com/BayesWitnesses/m2cgen/workflows/GitHub%20Actions/badge.svg?branch=master)](https://github.com/BayesWitnesses/m2cgen/actions)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "csharp"
+    },
+    {
+      "context_snippet": "[![GitHub Actions Status](https://github.com/BayesWitnesses/m2cgen/workflows/GitHub%20Actions/badge.svg?branch=master)](https://github.com/BayesWitnesses/m2cgen/actions)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dartlang"
+    },
+    {
+      "context_snippet": "[![GitHub Actions Status](https://github.com/BayesWitnesses/m2cgen/workflows/GitHub%20Actions/badge.svg?branch=master)](https://github.com/BayesWitnesses/m2cgen/actions)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "haskell"
+    },
+    {
+      "context_snippet": "[![GitHub Actions Status](https://github.com/BayesWitnesses/m2cgen/workflows/GitHub%20Actions/badge.svg?branch=master)](https://github.com/BayesWitnesses/m2cgen/actions)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "java"
+    },
+    {
+      "context_snippet": "[![GitHub Actions Status](https://github.com/BayesWitnesses/m2cgen/workflows/GitHub%20Actions/badge.svg?branch=master)](https://github.com/BayesWitnesses/m2cgen/actions)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "lightgbm"
+    },
+    {
+      "context_snippet": "[![GitHub Actions Status](https://github.com/BayesWitnesses/m2cgen/workflows/GitHub%20Actions/badge.svg?branch=master)](https://github.com/BayesWitnesses/m2cgen/actions)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "lightning"
+    },
+    {
+      "context_snippet": "[![GitHub Actions Status](https://github.com/BayesWitnesses/m2cgen/workflows/GitHub%20Actions/badge.svg?branch=master)](https://github.com/BayesWitnesses/m2cgen/actions)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "machine-learning"
+    },
+    {
+      "context_snippet": "[![GitHub Actions Status](https://github.com/BayesWitnesses/m2cgen/workflows/GitHub%20Actions/badge.svg?branch=master)](https://github.com/BayesWitnesses/m2cgen/actions)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ruby"
+    },
+    {
+      "context_snippet": "[![GitHub Actions Status](https://github.com/BayesWitnesses/m2cgen/workflows/GitHub%20Actions/badge.svg?branch=master)](https://github.com/BayesWitnesses/m2cgen/actions)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rust"
+    },
+    {
+      "context_snippet": "[![GitHub Actions Status](https://github.com/BayesWitnesses/m2cgen/workflows/GitHub%20Actions/badge.svg?branch=master)](https://github.com/BayesWitnesses/m2cgen/actions)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "scikit-learn"
+    },
+    {
+      "context_snippet": "[![GitHub Actions Status](https://github.com/BayesWitnesses/m2cgen/workflows/GitHub%20Actions/badge.svg?branch=master)](https://github.com/BayesWitnesses/m2cgen/actions)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "statistical-learning"
+    },
+    {
+      "context_snippet": "[![GitHub Actions Status](https://github.com/BayesWitnesses/m2cgen/workflows/GitHub%20Actions/badge.svg?branch=master)](https://github.com/BayesWitnesses/m2cgen/actions)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "statsmodels"
+    },
+    {
+      "context_snippet": "[![GitHub Actions Status](https://github.com/BayesWitnesses/m2cgen/workflows/GitHub%20Actions/badge.svg?branch=master)](https://github.com/BayesWitnesses/m2cgen/actions)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "xgboost"
+    }
+  ]
+}

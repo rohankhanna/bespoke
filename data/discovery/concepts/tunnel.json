@@ -31,6 +31,18 @@
       "source_repo": "fasmide/remotemoe",
       "status": "candidate-context",
       "text": "module github.com/fasmide/remotemoe go 1.17 require ( github.com/fasmide/hostkeys v0.0.0-20211023164018-0a66d786b24e github.com/fatih/color v1.16.0 github.com/spf13/cobra v1.8.0 github.com/spf13/pflag v1.0.5 golang.org/x/crypto v0.19.0 golang.org/x/sync v0.6.0 golang.org/x/term \u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "angelobreuer/localtunnel.net",
+      "status": "candidate-context",
+      "text": ".NET implementation of a tunnel client for localtunnel.me."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "angelobreuer/localtunnel.net",
+      "status": "candidate-context",
+      "text": ".NET implementation of a tunnel client for [localtunnel.me](https://theboroer.github.io/localtunnel-www/)."
     }
   ],
   "candidate_glosses": [
@@ -45,6 +57,12 @@
       "source_repo": "fasmide/remotemoe",
       "status": "candidate",
       "text": "module github.com/fasmide/remotemoe go 1.17 require ( github.com/fasmide/hostkeys v0.0.0-20211023164018-0a66d786b24e github.com/fatih/color v1.16.0 github.com/spf13/cobra v1.8.0 github.com/spf13/pflag v1.0.5 golang.org/x/crypto v0.19.0 golang.org/x/sync v0.6.0 golang.org/x/term \u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "angelobreuer/localtunnel.net",
+      "status": "candidate",
+      "text": ".NET implementation of a tunnel client for [localtunnel.me](https://theboroer.github.io/localtunnel-www/)."
     }
   ],
   "candidate_related_terms": [
@@ -108,11 +126,17 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "fasmide/remotemoe"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "angelobreuer/localtunnel.net"
     }
   ],
   "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

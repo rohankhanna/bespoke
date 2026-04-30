@@ -1,7 +1,9 @@
 {
   "aliases": [
     "CodeQL Analysis",
-    "CodeQL analysis"
+    "CodeQL analysis",
+    "codeql-analysis",
+    "Codeql analysis"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -170,6 +172,66 @@
       "source_repo": "aws/aws-sdk-java-v2",
       "status": "candidate-context",
       "text": "\"CodeQL Analysis\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pgmpy/pgmpy",
+      "status": "candidate-context",
+      "text": "Python Toolkit for Causal and Probabilistic Reasoning"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pgmpy/pgmpy",
+      "status": "candidate-context",
+      "text": "CodeQL Analysis"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apache/logging-log4j2",
+      "status": "candidate-context",
+      "text": "Apache Log4j is a versatile, feature-rich, efficient logging API and backend for Java."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/logging-log4j2",
+      "status": "candidate-context",
+      "text": "codeql-analysis"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "open-telemetry/opentelemetry-python-contrib",
+      "status": "candidate-context",
+      "text": "OpenTelemetry instrumentation for Python modules"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "open-telemetry/opentelemetry-python-contrib",
+      "status": "candidate-context",
+      "text": "CodeQL Analysis"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apache/rocketmq",
+      "status": "candidate-context",
+      "text": "Apache RocketMQ is a cloud native messaging and streaming platform, making it simple to build event-driven applications."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/rocketmq",
+      "status": "candidate-context",
+      "text": "CodeQL Analysis"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ImageMagick/ImageMagick",
+      "status": "candidate-context",
+      "text": "ImageMagick is a free, open-source software suite for creating, editing, converting, and displaying images. It supports 200+ formats and offers powerful command-line tools and APIs for automation, scripting, and integration across platforms."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ImageMagick/ImageMagick",
+      "status": "candidate-context",
+      "text": "Codeql analysis"
     }
   ],
   "candidate_glosses": [
@@ -256,6 +318,36 @@
       "source_repo": "aws/aws-sdk-java-v2",
       "status": "candidate",
       "text": "\"CodeQL Analysis\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pgmpy/pgmpy",
+      "status": "candidate",
+      "text": "CodeQL Analysis"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/logging-log4j2",
+      "status": "candidate",
+      "text": "codeql-analysis"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "open-telemetry/opentelemetry-python-contrib",
+      "status": "candidate",
+      "text": "CodeQL Analysis"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/rocketmq",
+      "status": "candidate",
+      "text": "CodeQL Analysis"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ImageMagick/ImageMagick",
+      "status": "candidate",
+      "text": "Codeql analysis"
     }
   ],
   "candidate_related_terms": [
@@ -401,11 +493,41 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": ".github/workflows/codeql.yml",
       "source_repo": "aws/aws-sdk-java-v2"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "pgmpy/pgmpy"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/codeql-analysis.yaml",
+      "source_repo": "apache/logging-log4j2"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "open-telemetry/opentelemetry-python-contrib"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/codeql_analysis.yml",
+      "source_repo": "apache/rocketmq"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "ImageMagick/ImageMagick"
     }
   ],
   "first_seen_at": "2026-04-20T03:16:48.146869+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

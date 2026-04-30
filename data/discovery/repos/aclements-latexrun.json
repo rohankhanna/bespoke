@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T02:54:07.126845+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9348
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A 21st century LaTeX wrapper",
+    "fork": false,
+    "full_name": "aclements/latexrun",
+    "html_url": "https://github.com/aclements/latexrun",
+    "language": "Python",
+    "pushed_at": "2024-04-28T21:02:07Z",
+    "stargazers_count": 632,
+    "topics": [],
+    "updated_at": "2026-04-10T19:23:37Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

@@ -1,0 +1,22 @@
+{
+  "component": "PowerShell/compliance/.github/workflows/ready-to-merge.yml@c8b3ad5819ad7078f3e375519b4f8c6232d1cbdf",
+  "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/linux-ci.yml",
+      "source_repo": "PowerShell/PowerShell"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/macos-ci.yml",
+      "source_repo": "PowerShell/PowerShell"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/windows-ci.yml",
+      "source_repo": "PowerShell/PowerShell"
+    }
+  ]
+}

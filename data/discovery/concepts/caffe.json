@@ -79,6 +79,66 @@
       "source_repo": "CMU-Perceptual-Computing-Lab/openpose",
       "status": "candidate-context",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jolibrain/deepdetect",
+      "status": "candidate-context",
+      "text": "Deep Learning API and Server in C++14 support for PyTorch,TensorRT, Dlib, NCNN, Tensorflow, XGBoost and TSNE"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jolibrain/deepdetect",
+      "status": "candidate-context",
+      "text": "<p align=\"center\"><img src=\"https://www.deepdetect.com/img/icons/menu/sidebar/deepdetect.svg\" alt=\"DeepDetect Logo\" width=\"45%\" /></p>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "PINTO0309/PINTO_model_zoo",
+      "status": "candidate-context",
+      "text": "A repository for storing models that have been inter-converted between various frameworks. Supported frameworks are TensorFlow, PyTorch, ONNX, OpenVINO, TFJS, TFTRT, TensorFlowLite (Float32/16/INT8), EdgeTPU, CoreML."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PINTO0309/PINTO_model_zoo",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "wy1iu/sphereface",
+      "status": "candidate-context",
+      "text": "Implementation for <SphereFace: Deep Hypersphere Embedding for Face Recognition> in CVPR'17."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "wy1iu/sphereface",
+      "status": "candidate-context",
+      "text": "By Weiyang Liu, Yandong Wen, Zhiding Yu, Ming Li, Bhiksha Raj and Le Song"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jolibrain/caffe",
+      "status": "candidate-context",
+      "text": "Caffe: a Fast framework for deep learning. Custom version with built-in sparse inputs, segmentation, object detection, class weights, and custom layers"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jolibrain/caffe",
+      "status": "candidate-context",
+      "text": "This is a slightly modified version of Caffe as used by the [Deep Learning API & server Deepdetect](https://github.com/beniz/deepdetect). The repository is kept up to date with the original Caffe master branch."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "microsoft/MMdnn",
+      "status": "candidate-context",
+      "text": "MMdnn is a set of tools to help users inter-operate among different deep learning frameworks. E.g. model conversion and visualization. Convert models between Caffe, Keras, MXNet, Tensorflow, CNTK, PyTorch Onnx and CoreML."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/MMdnn",
+      "status": "candidate-context",
+      "text": "[![PyPi Version](https://img.shields.io/pypi/v/mmdnn.svg)](https://pypi.org/project/mmdnn/)"
     }
   ],
   "candidate_glosses": [
@@ -117,6 +177,36 @@
       "source_repo": "CMU-Perceptual-Computing-Lab/openpose",
       "status": "candidate",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jolibrain/deepdetect",
+      "status": "candidate",
+      "text": "<p align=\"center\"><img src=\"https://www.deepdetect.com/img/icons/menu/sidebar/deepdetect.svg\" alt=\"DeepDetect Logo\" width=\"45%\" /></p>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PINTO0309/PINTO_model_zoo",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "wy1iu/sphereface",
+      "status": "candidate",
+      "text": "By Weiyang Liu, Yandong Wen, Zhiding Yu, Ming Li, Bhiksha Raj and Le Song"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jolibrain/caffe",
+      "status": "candidate",
+      "text": "This is a slightly modified version of Caffe as used by the [Deep Learning API & server Deepdetect](https://github.com/beniz/deepdetect). The repository is kept up to date with the original Caffe master branch."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/MMdnn",
+      "status": "candidate",
+      "text": "[![PyPi Version](https://img.shields.io/pypi/v/mmdnn.svg)](https://pypi.org/project/mmdnn/)"
     }
   ],
   "candidate_related_terms": [
@@ -196,11 +286,41 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "CMU-Perceptual-Computing-Lab/openpose"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "jolibrain/deepdetect"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "PINTO0309/PINTO_model_zoo"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "wy1iu/sphereface"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "jolibrain/caffe"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "microsoft/MMdnn"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

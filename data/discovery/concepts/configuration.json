@@ -97,6 +97,42 @@
       "source_repo": "psibi/dhall-mode",
       "status": "candidate-context",
       "text": "[![MELPA](https://melpa.org/packages/dhall-mode-badge.svg)](https://melpa.org/#/dhall-mode)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "google/jsonnet",
+      "status": "candidate-context",
+      "text": "Jsonnet - The data templating language"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/jsonnet",
+      "status": "candidate-context",
+      "text": "![master branch build status badge](https://github.com/google/jsonnet/actions/workflows/build_and_test.yml/badge.svg?event=push&branch=master)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cruise-automation/isopod",
+      "status": "candidate-context",
+      "text": "An expressive DSL and framework for Kubernetes configuration without YAML"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cruise-automation/isopod",
+      "status": "candidate-context",
+      "text": "Isopod"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "syl20bnr/spacemacs",
+      "status": "candidate-context",
+      "text": "A community-driven Emacs distribution - The best editor is neither Emacs nor Vim,  it's Emacs *and* Vim!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "syl20bnr/spacemacs",
+      "status": "candidate-context",
+      "text": "<a name=\"top\" id=\"fork-destination-box\"></a>"
     }
   ],
   "candidate_glosses": [
@@ -147,6 +183,24 @@
       "source_repo": "psibi/dhall-mode",
       "status": "candidate",
       "text": "[![MELPA](https://melpa.org/packages/dhall-mode-badge.svg)](https://melpa.org/#/dhall-mode)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/jsonnet",
+      "status": "candidate",
+      "text": "![master branch build status badge](https://github.com/google/jsonnet/actions/workflows/build_and_test.yml/badge.svg?event=push&branch=master)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cruise-automation/isopod",
+      "status": "candidate",
+      "text": "Isopod"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "syl20bnr/spacemacs",
+      "status": "candidate",
+      "text": "<a name=\"top\" id=\"fork-destination-box\"></a>"
     }
   ],
   "candidate_related_terms": [
@@ -267,11 +321,29 @@
       "observed_at": "2026-04-24T12:33:41.350224+00:00",
       "source_file": null,
       "source_repo": "psibi/dhall-mode"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "google/jsonnet"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "cruise-automation/isopod"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "syl20bnr/spacemacs"
     }
   ],
   "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

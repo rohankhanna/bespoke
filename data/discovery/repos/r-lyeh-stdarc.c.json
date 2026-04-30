@@ -1,0 +1,129 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "r-lyeh/stdarc.c",
+      "target": "r-lyeh/stdpack.c",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "r-lyeh/stdarc.c",
+      "target": "jokkebk/junzip",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "r-lyeh/stdarc.c",
+      "target": "archiver",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "r-lyeh/stdarc.c",
+      "target": "gamedev",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "r-lyeh/stdarc.c",
+      "target": "kiss",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "r-lyeh/stdarc.c",
+      "target": "public-domain",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "r-lyeh/stdarc.c",
+      "target": "single-header",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T04:48:30.687731+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 684
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Collection of small public domain file archivers",
+    "fork": false,
+    "full_name": "r-lyeh/stdarc.c",
+    "html_url": "https://github.com/r-lyeh/stdarc.c",
+    "language": "C",
+    "pushed_at": "2023-10-07T22:33:05Z",
+    "stargazers_count": 68,
+    "topics": [
+      "archiver",
+      "gamedev",
+      "kiss",
+      "pak",
+      "public-domain",
+      "single-header",
+      "tar",
+      "vfs",
+      "zip"
+    ],
+    "updated_at": "2026-03-21T10:22:22Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jokkebk/junzip",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "r-lyeh/stdpack.c",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Small file archivers (zip, pak, tar), virtual filesystem (vfs) and dir listing in a single-file header.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "archiver"
+    },
+    {
+      "context_snippet": "Small file archivers (zip, pak, tar), virtual filesystem (vfs) and dir listing in a single-file header.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gamedev"
+    },
+    {
+      "context_snippet": "Small file archivers (zip, pak, tar), virtual filesystem (vfs) and dir listing in a single-file header.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "kiss"
+    },
+    {
+      "context_snippet": "Small file archivers (zip, pak, tar), virtual filesystem (vfs) and dir listing in a single-file header.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "public-domain"
+    },
+    {
+      "context_snippet": "Small file archivers (zip, pak, tar), virtual filesystem (vfs) and dir listing in a single-file header.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "single-header"
+    }
+  ]
+}

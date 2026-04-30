@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Collection of parsers written in JavaScript"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![build status](https://secure.travis-ci.org/CSSLint/parser-lib.svg?branch=master)](https://travis-ci.org/CSSLint/parser-lib)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![build status](https://secure.travis-ci.org/CSSLint/parser-lib.svg?branch=master)](https://travis-ci.org/CSSLint/parser-lib)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "css-syntax",
+      "sense_id": "css-syntax#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "css-syntax",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "css-syntax",
+  "observation_id": "f57773532f858138",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T00:37:16.824464+00:00",
+  "observed_text": "css-syntax",
+  "source_context_snippet": "[![build status](https://secure.travis-ci.org/CSSLint/parser-lib.svg?branch=master)](https://travis-ci.org/CSSLint/parser-lib)",
+  "source_file": null,
+  "source_repo": "CSSLint/parser-lib",
+  "source_repo_description": "Collection of parsers written in JavaScript"
+}

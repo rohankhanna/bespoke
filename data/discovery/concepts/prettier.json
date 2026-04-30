@@ -1,11 +1,14 @@
 {
   "aliases": [
-    "prettier"
+    "prettier",
+    "Prettier"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
     "tool-component",
-    "capability"
+    "capability",
+    "workflow-process",
+    "data-document-artifact"
   ],
   "candidate_definitions": [
     {
@@ -61,6 +64,30 @@
       "source_repo": "belav/csharpier",
       "status": "candidate-context",
       "text": "![CSharpier](./banner.svg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gicentre/prettier-plugin-elm",
+      "status": "candidate-context",
+      "text": "Works on top of elm-format, compatible with Prettier v1, v2 and v3"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gicentre/prettier-plugin-elm",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "octokit/openapi-types.ts",
+      "status": "candidate-context",
+      "text": "Generated TypeScript definitions based on GitHub's OpenAPI spec"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "octokit/openapi-types.ts",
+      "status": "candidate-context",
+      "text": "Prettier"
     }
   ],
   "candidate_glosses": [
@@ -93,6 +120,18 @@
       "source_repo": "belav/csharpier",
       "status": "candidate",
       "text": "![CSharpier](./banner.svg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gicentre/prettier-plugin-elm",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "octokit/openapi-types.ts",
+      "status": "candidate",
+      "text": "Prettier"
     }
   ],
   "candidate_related_terms": [
@@ -166,11 +205,23 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "belav/csharpier"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "gicentre/prettier-plugin-elm"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/prettier.yml",
+      "source_repo": "octokit/openapi-types.ts"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

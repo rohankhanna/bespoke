@@ -67,6 +67,18 @@
       "source_repo": "actix/examples",
       "status": "candidate-context",
       "text": "> Curated examples using the Actix ecosystem."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "canduma/canduma",
+      "status": "candidate-context",
+      "text": "A Rust server with GraphQL API, Diesel, PostgreSQL, session authentication and JWT"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "canduma/canduma",
+      "status": "candidate-context",
+      "text": "[![MIT license](http://img.shields.io/badge/license-MIT-brightgreen.svg)](http://opensource.org/licenses/MIT)"
     }
   ],
   "candidate_glosses": [
@@ -99,6 +111,12 @@
       "source_repo": "actix/examples",
       "status": "candidate",
       "text": "> Curated examples using the Actix ecosystem."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "canduma/canduma",
+      "status": "candidate",
+      "text": "[![MIT license](http://img.shields.io/badge/license-MIT-brightgreen.svg)](http://opensource.org/licenses/MIT)"
     }
   ],
   "candidate_related_terms": [],
@@ -160,11 +178,29 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "apache/casbin-actix-casbin-auth"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "canduma/canduma"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "apache/casbin-rust-actix-casbin"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "apache/casbin-actix-casbin-auth"
     }
   ],
   "first_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

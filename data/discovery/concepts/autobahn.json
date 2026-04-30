@@ -1,11 +1,14 @@
 {
   "aliases": [
-    "Autobahn"
+    "Autobahn",
+    "autobahn"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
     "workflow-process",
-    "data-document-artifact"
+    "data-document-artifact",
+    "tool-component",
+    "capability"
   ],
   "candidate_definitions": [
     {
@@ -31,6 +34,54 @@
       "source_repo": "gobwas/ws",
       "status": "candidate-context",
       "text": "Autobahn"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "crossbario/autobahn-testsuite",
+      "status": "candidate-context",
+      "text": "Autobahn WebSocket protocol testsuite"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "crossbario/autobahn-testsuite",
+      "status": "candidate-context",
+      "text": "WebSocket protocol implementation conformance test suite."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lesismal/nbio",
+      "status": "candidate-context",
+      "text": "Pure Go 1000k+ connections solution, support tls/http1.x/websocket and basically compatible with net/http, with high-performance and low memory cost, non-blocking, event-driven, easy-to-use."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lesismal/nbio",
+      "status": "candidate-context",
+      "text": "Autobahn"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "crossbario/autobahn-python",
+      "status": "candidate-context",
+      "text": "WebSocket and WAMP in Python for Twisted and asyncio"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "crossbario/autobahn-python",
+      "status": "candidate-context",
+      "text": "WebSocket & WAMP for Python on Twisted and asyncio."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "antlabs/quickws",
+      "status": "candidate-context",
+      "text": "\u9ad8\u6027\u80fdwebsocket\u5e93, Callback\u5199\u6cd5\uff0c\u5728\u9ad8\u9891cpu\u4e0a\u6709\u4e0d\u4fd7\u8868\u73b0 https://github.com/antlabs/quickws-example"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "antlabs/quickws",
+      "status": "candidate-context",
+      "text": "Autobahn"
     }
   ],
   "candidate_glosses": [
@@ -43,6 +94,30 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "gobwas/ws",
+      "status": "candidate",
+      "text": "Autobahn"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "crossbario/autobahn-testsuite",
+      "status": "candidate",
+      "text": "WebSocket protocol implementation conformance test suite."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lesismal/nbio",
+      "status": "candidate",
+      "text": "Autobahn"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "crossbario/autobahn-python",
+      "status": "candidate",
+      "text": "WebSocket & WAMP for Python on Twisted and asyncio."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "antlabs/quickws",
       "status": "candidate",
       "text": "Autobahn"
     }
@@ -100,11 +175,35 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": ".github/workflows/autobahn.yml",
       "source_repo": "gobwas/ws"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "crossbario/autobahn-testsuite"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/autobahn.yml",
+      "source_repo": "lesismal/nbio"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "crossbario/autobahn-python"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/autobahn.yml",
+      "source_repo": "antlabs/quickws"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

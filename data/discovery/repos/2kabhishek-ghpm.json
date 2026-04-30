@@ -1,0 +1,86 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "2KAbhishek/ghpm",
+      "target": "github",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "2KAbhishek/ghpm",
+      "target": "project-management",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "2KAbhishek/ghpm",
+      "target": "shell-script",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "2KAbhishek/ghpm",
+      "target": "utility",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T01:39:49.494401+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3134
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "The GitHub Project Manager \ud83d\udc69\u200d\ud83d\udcbb\u2699",
+    "fork": false,
+    "full_name": "2KAbhishek/ghpm",
+    "html_url": "https://github.com/2KAbhishek/ghpm",
+    "language": "Shell",
+    "pushed_at": "2024-12-15T05:56:16Z",
+    "stargazers_count": 30,
+    "topics": [
+      "github",
+      "project-management",
+      "shell-script",
+      "utility"
+    ],
+    "updated_at": "2026-04-12T17:20:54Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "<div align = \"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "github"
+    },
+    {
+      "context_snippet": "<div align = \"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "project-management"
+    },
+    {
+      "context_snippet": "<div align = \"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "shell-script"
+    },
+    {
+      "context_snippet": "<div align = \"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "utility"
+    }
+  ]
+}

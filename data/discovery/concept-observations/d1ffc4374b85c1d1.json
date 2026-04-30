@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Code release for Local Light Field Fusion at SIGGRAPH 2019"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<img src='imgs/output6_120.gif' align=\"right\" height=\"120px\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<img src='imgs/output6_120.gif' align=\"right\" height=\"120px\">"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "view-synthesis",
+      "sense_id": "view-synthesis#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "view-synthesis",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "view-synthesis",
+  "observation_id": "d1ffc4374b85c1d1",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T00:37:16.824464+00:00",
+  "observed_text": "view-synthesis",
+  "source_context_snippet": "<img src='imgs/output6_120.gif' align=\"right\" height=\"120px\">",
+  "source_file": null,
+  "source_repo": "Fyusion/LLFF",
+  "source_repo_description": "Code release for Local Light Field Fusion at SIGGRAPH 2019"
+}

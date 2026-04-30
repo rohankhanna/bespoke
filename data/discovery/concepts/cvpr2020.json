@@ -31,6 +31,42 @@
       "source_repo": "clovaai/stargan-v2",
       "status": "candidate-context",
       "text": "<p align=\"left\"><img width=\"95%\" src=\"assets/teaser.jpg\" /></p>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ChenyunWu/PhraseCutDataset",
+      "status": "candidate-context",
+      "text": "Dataset API for \"PhraseCut: Language-based Image Segmentation in the Wild\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ChenyunWu/PhraseCutDataset",
+      "status": "candidate-context",
+      "text": "<table width=\"100%\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "swz30/CycleISP",
+      "status": "candidate-context",
+      "text": "[CVPR 2020--Oral] CycleISP: Real Image Restoration via Improved Data Synthesis"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "swz30/CycleISP",
+      "status": "candidate-context",
+      "text": "[Syed Waqas Zamir](https://scholar.google.ae/citations?hl=en&user=POoai-QAAAAJ), [Aditya Arora](https://adityac8.github.io/), [Salman Khan](https://salman-h-khan.github.io/), [Munawar Hayat](https://scholar.google.com/citations?user=Mx8MbWYAAAAJ&hl=en), [Fahad Shahbaz Khan](http\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "clovaai/wsolevaluation",
+      "status": "candidate-context",
+      "text": "Evaluating Weakly Supervised Object Localization Methods Right (CVPR 2020)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "clovaai/wsolevaluation",
+      "status": "candidate-context",
+      "text": "[CVPR 2020 paper](https://arxiv.org/abs/2001.07437) | [TPAMI paper](https://arxiv.org/abs/2007.04178)"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +81,24 @@
       "source_repo": "clovaai/stargan-v2",
       "status": "candidate",
       "text": "<p align=\"left\"><img width=\"95%\" src=\"assets/teaser.jpg\" /></p>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ChenyunWu/PhraseCutDataset",
+      "status": "candidate",
+      "text": "<table width=\"100%\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "swz30/CycleISP",
+      "status": "candidate",
+      "text": "[Syed Waqas Zamir](https://scholar.google.ae/citations?hl=en&user=POoai-QAAAAJ), [Aditya Arora](https://adityac8.github.io/), [Salman Khan](https://salman-h-khan.github.io/), [Munawar Hayat](https://scholar.google.com/citations?user=Mx8MbWYAAAAJ&hl=en), [Fahad Shahbaz Khan](http\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "clovaai/wsolevaluation",
+      "status": "candidate",
+      "text": "[CVPR 2020 paper](https://arxiv.org/abs/2001.07437) | [TPAMI paper](https://arxiv.org/abs/2007.04178)"
     }
   ],
   "candidate_related_terms": [],
@@ -64,11 +118,29 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": null,
       "source_repo": "clovaai/stargan-v2"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "ChenyunWu/PhraseCutDataset"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "swz30/CycleISP"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "clovaai/wsolevaluation"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

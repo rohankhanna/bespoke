@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "vscode-theme"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "avelino/monotropic-theme-vscode",
+      "status": "candidate-context",
+      "text": "(Almost) monochromatic light theme for VSCode"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "avelino/monotropic-theme-vscode",
+      "status": "candidate-context",
+      "text": "<a href=\"https://github.com/avelino/monotropic-theme-vscode\"><img align=\"right\" src=\"https://github.com/avelino/monotropic-theme-vscode/raw/main/assets/monotropic.png\" alt=\"monotropic\" title=\"monotropic\" /></a>"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "avelino/monotropic-theme-vscode",
+      "status": "candidate",
+      "text": "<a href=\"https://github.com/avelino/monotropic-theme-vscode\"><img align=\"right\" src=\"https://github.com/avelino/monotropic-theme-vscode/raw/main/assets/monotropic.png\" alt=\"monotropic\" title=\"monotropic\" /></a>"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "vscode-theme",
+  "concept_id": "vscode-theme",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "avelino/monotropic-theme-vscode"
+    }
+  ],
+  "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "vscode-theme",
+      "sense_id": "vscode-theme#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

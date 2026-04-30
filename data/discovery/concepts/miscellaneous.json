@@ -1,0 +1,136 @@
+{
+  "aliases": [
+    "Miscellaneous"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dmlc/xgboost",
+      "status": "candidate-context",
+      "text": "Scalable, Portable and Distributed Gradient Boosting (GBDT, GBRT or GBM) Library,  for Python, R, Java, Scala, C++ and more. Runs on single machine, Hadoop, Spark, Dask, Flink and DataFlow"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dmlc/xgboost",
+      "status": "candidate-context",
+      "text": "Miscellaneous"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dmlc/xgboost",
+      "status": "candidate",
+      "text": "Miscellaneous"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40038908,
+      "status": "candidate",
+      "text": "assorted"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40038835,
+      "status": "candidate",
+      "text": "motley"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40037157,
+      "status": "candidate",
+      "text": "heterogeneous"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40032913,
+      "status": "candidate",
+      "text": "sundry"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40021704,
+      "status": "candidate",
+      "text": "general"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 28032,
+      "status": "candidate",
+      "text": "sundry"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 27049,
+      "status": "candidate",
+      "text": "general"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 18030,
+      "status": "candidate",
+      "text": "assorted"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 10051,
+      "status": "candidate",
+      "text": "heterogeneous"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 3042,
+      "status": "candidate",
+      "text": "mixed"
+    }
+  ],
+  "canonical_name": "Miscellaneous",
+  "concept_id": "miscellaneous",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/misc.yml",
+      "source_repo": "dmlc/xgboost"
+    }
+  ],
+  "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Miscellaneous",
+      "sense_id": "miscellaneous#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

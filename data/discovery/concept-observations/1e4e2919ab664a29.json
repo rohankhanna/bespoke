@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Vulkan ray tracing glTF 2.0 renderer \u2014 RTX path tracer with PBR materials, AI denoising (DLSS, OptiX), and scene editing. NVIDIA open-source sample."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](LICENSE)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](LICENSE)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30012843,
+      "status": "candidate",
+      "text": "processing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29955955,
+      "status": "candidate",
+      "text": "processor"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20020503,
+      "status": "candidate",
+      "text": "rerouter"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20020502,
+      "status": "candidate",
+      "text": "redirector"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20020501,
+      "status": "candidate",
+      "text": "recaster"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "renderer",
+      "sense_id": "renderer#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "renderer",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "renderer",
+  "observation_id": "1e4e2919ab664a29",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T00:37:16.824464+00:00",
+  "observed_text": "renderer",
+  "source_context_snippet": "[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](LICENSE)",
+  "source_file": null,
+  "source_repo": "nvpro-samples/vk_gltf_renderer",
+  "source_repo_description": "Vulkan ray tracing glTF 2.0 renderer \u2014 RTX path tracer with PBR materials, AI denoising (DLSS, OptiX), and scene editing. NVIDIA open-source sample."
+}

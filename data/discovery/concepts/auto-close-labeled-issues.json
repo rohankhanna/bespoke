@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Auto-close labeled issues"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "colinhacks/zod",
+      "status": "candidate-context",
+      "text": "TypeScript-first schema validation with static type inference"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "colinhacks/zod",
+      "status": "candidate-context",
+      "text": "Auto-close labeled issues"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "colinhacks/zod",
+      "status": "candidate",
+      "text": "Auto-close labeled issues"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12189,
+      "status": "candidate",
+      "text": "label"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12189,
+      "status": "candidate",
+      "text": "node"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12147,
+      "status": "candidate",
+      "text": "herbarium"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12147,
+      "status": "candidate",
+      "text": "shorts"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11884,
+      "status": "candidate",
+      "text": "sequence"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Auto-close labeled issues",
+  "concept_id": "auto-close-labeled-issues",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "colinhacks/zod"
+    }
+  ],
+  "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Auto-close labeled issues",
+      "sense_id": "auto-close-labeled-issues#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

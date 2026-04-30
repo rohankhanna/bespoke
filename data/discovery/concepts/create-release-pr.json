@@ -80,6 +80,30 @@
       "source_repo": "apollographql/apollo-ios-dev",
       "status": "candidate-context",
       "text": "\"Create Release PR\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bufbuild/buf",
+      "status": "candidate-context",
+      "text": "The best way of working with Protocol Buffers."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bufbuild/buf",
+      "status": "candidate-context",
+      "text": "Create Release PR"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bufbuild/homebrew-buf",
+      "status": "candidate-context",
+      "text": "Homebrew tap for Buf."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bufbuild/homebrew-buf",
+      "status": "candidate-context",
+      "text": "Create Release PR"
     }
   ],
   "candidate_glosses": [
@@ -118,6 +142,18 @@
       "source_repo": "apollographql/apollo-ios-dev",
       "status": "candidate",
       "text": "\"Create Release PR\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bufbuild/buf",
+      "status": "candidate",
+      "text": "Create Release PR"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bufbuild/homebrew-buf",
+      "status": "candidate",
+      "text": "Create Release PR"
     }
   ],
   "candidate_related_terms": [
@@ -197,11 +233,23 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": ".github/workflows/create-release-pr.yml",
       "source_repo": "apollographql/apollo-ios-dev"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/create-release-pr.yaml",
+      "source_repo": "bufbuild/buf"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/create-release-pr.yaml",
+      "source_repo": "bufbuild/homebrew-buf"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

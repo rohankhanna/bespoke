@@ -1,0 +1,114 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "NVIDIA/gdrcopy",
+      "target": "gpu-memory",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "NVIDIA/gdrcopy",
+      "target": "gpudirect-rdma",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "NVIDIA/gdrcopy",
+      "target": "kernel-mode-driver",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "NVIDIA/gdrcopy",
+      "target": "libraries",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "NVIDIA/gdrcopy",
+      "target": "linux",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "NVIDIA/gdrcopy",
+      "target": "nvidia",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T02:41:09.136884+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 19671
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A fast GPU memory copy library based on NVIDIA GPUDirect RDMA technology",
+    "fork": false,
+    "full_name": "NVIDIA/gdrcopy",
+    "html_url": "https://github.com/NVIDIA/gdrcopy",
+    "language": "C++",
+    "pushed_at": "2026-03-12T16:30:20Z",
+    "stargazers_count": 1373,
+    "topics": [
+      "gpu-memory",
+      "gpudirect-rdma",
+      "kernel-mode-driver",
+      "libraries",
+      "linux",
+      "nvidia"
+    ],
+    "updated_at": "2026-04-27T10:14:06Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "A low-latency GPU memory copy library based on NVIDIA GPUDirect RDMA",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gpu-memory"
+    },
+    {
+      "context_snippet": "A low-latency GPU memory copy library based on NVIDIA GPUDirect RDMA",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gpudirect-rdma"
+    },
+    {
+      "context_snippet": "A low-latency GPU memory copy library based on NVIDIA GPUDirect RDMA",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "kernel-mode-driver"
+    },
+    {
+      "context_snippet": "A low-latency GPU memory copy library based on NVIDIA GPUDirect RDMA",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "libraries"
+    },
+    {
+      "context_snippet": "A low-latency GPU memory copy library based on NVIDIA GPUDirect RDMA",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "linux"
+    },
+    {
+      "context_snippet": "A low-latency GPU memory copy library based on NVIDIA GPUDirect RDMA",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nvidia"
+    }
+  ]
+}

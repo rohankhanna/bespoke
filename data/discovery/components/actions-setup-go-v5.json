@@ -1,7 +1,7 @@
 {
   "component": "actions/setup-go@v5",
   "first_seen_at": "2026-04-17T16:51:41.136432+00:00",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -1717,6 +1717,266 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/systest.yml",
       "source_repo": "spacemeshos/go-spacemesh"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/gm-cron.yaml.disabled",
+      "source_repo": "apache/apisix"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/go.yml",
+      "source_repo": "chaisql/chai"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "tats-u/goldmark-cjk-friendly"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/pr-check.yml",
+      "source_repo": "cloudwego/eino-examples"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "cloudwego/eino-examples"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/pr-check.yml",
+      "source_repo": "cloudwego/eino-ext"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "cloudwego/eino-ext"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/pr-check.yml",
+      "source_repo": "cloudwego/kitex"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "cloudwego/kitex"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build_bsd.yml",
+      "source_repo": "lesismal/nbio"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build_linux.yml",
+      "source_repo": "lesismal/nbio"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build_windows.yml",
+      "source_repo": "lesismal/nbio"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/db.yml",
+      "source_repo": "autokitteh/autokitteh"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/go.yml",
+      "source_repo": "autokitteh/autokitteh"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/manifest.yml",
+      "source_repo": "autokitteh/autokitteh"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/migrations.yml",
+      "source_repo": "autokitteh/autokitteh"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "markbates/goth"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "markbates/goth"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/pr_build.yml",
+      "source_repo": "spiffe/spire-tutorials"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build_and_test.yml",
+      "source_repo": "apache/spark-kubernetes-operator"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/go.yml",
+      "source_repo": "phodal/coca"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "phodal/coca"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-and-publish-release.yml",
+      "source_repo": "opencost/opencost-plugins"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-test.yaml",
+      "source_repo": "opencost/opencost-plugins"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/run-integration-tests.yaml",
+      "source_repo": "opencost/opencost-plugins"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-artifacts.yml",
+      "source_repo": "dstackai/dstack"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/conformance.yaml",
+      "source_repo": "googleapis/google-cloud-node"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/mandatory-conformance.yaml",
+      "source_repo": "googleapis/google-cloud-node"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/conformance.yaml",
+      "source_repo": "googleapis/java-bigtable"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "itchyny/gojo"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "redis/rueidis"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "succinctlabs/sp1-cluster"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "ray-x/navigator.lua"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/publish-to-pypi.yaml",
+      "source_repo": "microsoft/multilspy"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test-workflow.yaml",
+      "source_repo": "microsoft/multilspy"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/workflow.yaml",
+      "source_repo": "proxy-wasm/proxy-wasm-go-sdk"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "cockroachdb/pebble"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/cockroach-go.yaml",
+      "source_repo": "cockroachdb/pebble"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/pr-check.yml",
+      "source_repo": "cloudwego/biz-demo"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "cloudwego/biz-demo"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "cloudwego/kitex-benchmark"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/push-check.yml",
+      "source_repo": "cloudwego/kitex-benchmark"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/pr-check.yml",
+      "source_repo": "cloudwego/netpoll"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "antlabs/pulse"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/go.yml",
+      "source_repo": "antlabs/quickws"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/golang.yml",
+      "source_repo": "ingonyama-zk/icicle-gnark"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/gotest.yml",
+      "source_repo": "trzsz/trzsz-go"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "trzsz/trzsz-go"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/gotest.yml",
+      "source_repo": "trzsz/trzsz-ssh"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "trzsz/trzsz-ssh"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/go.yml",
+      "source_repo": "aliyun/aliyun-cli"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "aliyun/aliyun-cli"
     }
   ]
 }

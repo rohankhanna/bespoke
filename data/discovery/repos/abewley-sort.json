@@ -1,0 +1,81 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "abewley/sort",
+      "target": "rbgirshick/py-faster-rcnn",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "abewley/sort",
+      "target": "nwojke/deep_sort",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "abewley/sort",
+      "target": "google-research/localmot",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "abewley/sort",
+      "target": "google-research/human-scene-transformer",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T01:56:38.599347+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5413
+    },
+    {
+      "path": "requirements.txt",
+      "size": 48
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Simple, online, and realtime tracking of multiple objects in a video sequence.",
+    "fork": false,
+    "full_name": "abewley/sort",
+    "html_url": "https://github.com/abewley/sort",
+    "language": "Python",
+    "pushed_at": "2023-11-28T07:01:46Z",
+    "stargazers_count": 4360,
+    "topics": [],
+    "updated_at": "2026-04-28T04:39:45Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "google-research/human-scene-transformer",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "google-research/localmot",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "nwojke/deep_sort",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "rbgirshick/py-faster-rcnn",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

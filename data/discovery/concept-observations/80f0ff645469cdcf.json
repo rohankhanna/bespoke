@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Website footer badge signalling AI \"friendliness\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "A simple, elegant badge to show that your website welcomes AI crawlers, indexing, and training."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "A simple, elegant badge to show that your website welcomes AI crawlers, indexing, and training."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "frontend-components",
+      "sense_id": "frontend-components#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "frontend-components",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "frontend-components",
+  "observation_id": "80f0ff645469cdcf",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T00:37:16.824464+00:00",
+  "observed_text": "frontend-components",
+  "source_context_snippet": "A simple, elegant badge to show that your website welcomes AI crawlers, indexing, and training.",
+  "source_file": null,
+  "source_repo": "danielrosehill/AI-Friendly-Badge",
+  "source_repo_description": "Website footer badge signalling AI \"friendliness\""
+}

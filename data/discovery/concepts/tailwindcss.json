@@ -121,6 +121,18 @@
       "source_repo": "bradlc/babel-plugin-tailwind-components",
       "status": "candidate-context",
       "text": "> Use [Tailwind](https://tailwindcss.com/) with any CSS-in-JS library"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dwyl/learn-tailwind",
+      "status": "candidate-context",
+      "text": " \ud83c\udf2c\ufe0f Learn Tailwind CSS to craft pixel-perfect web apps/sites in less time! \ud83d\ude0d"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dwyl/learn-tailwind",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -177,6 +189,12 @@
       "source_repo": "bradlc/babel-plugin-tailwind-components",
       "status": "candidate",
       "text": "> Use [Tailwind](https://tailwindcss.com/) with any CSS-in-JS library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dwyl/learn-tailwind",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_related_terms": [],
@@ -262,11 +280,23 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "dwyl/mvp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "dwyl/learn-tailwind"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "dwyl/mvp"
     }
   ],
   "first_seen_at": "2026-04-18T13:15:13.756138+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

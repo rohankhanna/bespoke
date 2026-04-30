@@ -1,0 +1,146 @@
+{
+  "components": [
+    {
+      "component": "semistandard",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "serve",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/cache@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-node@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/cache/restore@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-node@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/cache/restore@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "kleisauke/wasm-vips",
+      "target": "alrra/browser-logos",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "kleisauke/wasm-vips",
+      "target": "semistandard",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "kleisauke/wasm-vips",
+      "target": "serve",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "kleisauke/wasm-vips",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "kleisauke/wasm-vips",
+      "target": "actions/cache@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "kleisauke/wasm-vips",
+      "target": "actions/setup-node@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "kleisauke/wasm-vips",
+      "target": "actions/cache/restore@v5",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-04-30T04:11:26.679905+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5345
+    },
+    {
+      "path": "Dockerfile",
+      "size": 1321
+    },
+    {
+      "path": "package.json",
+      "size": 2113
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 2612
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "libvips for the browser and Node.js, compiled to WebAssembly with Emscripten.",
+    "fork": false,
+    "full_name": "kleisauke/wasm-vips",
+    "html_url": "https://github.com/kleisauke/wasm-vips",
+    "language": "C++",
+    "pushed_at": "2026-04-25T09:12:46Z",
+    "stargazers_count": 861,
+    "topics": [],
+    "updated_at": "2026-04-27T00:28:40Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "alrra/browser-logos",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

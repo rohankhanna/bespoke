@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T04:00:49.271186+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 635
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "OpenJDK 8 \"vanilla\" Linux builds done on Travis CI",
+    "fork": false,
+    "full_name": "ojdkbuild/contrib_jdk8u-ci",
+    "html_url": "https://github.com/ojdkbuild/contrib_jdk8u-ci",
+    "language": null,
+    "pushed_at": "2022-01-28T15:59:46Z",
+    "stargazers_count": 32,
+    "topics": [],
+    "updated_at": "2022-12-26T09:26:12Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

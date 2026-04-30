@@ -115,6 +115,30 @@
       "source_repo": "esp-rs/std-training",
       "status": "candidate-context",
       "text": "Add new issues to project"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rrousselGit/flutter_hooks",
+      "status": "candidate-context",
+      "text": "React hooks for Flutter. Hooks are a new kind of object that manages a Widget life-cycles. They are used to increase code sharing between widgets and as a complete replacement for StatefulWidget."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rrousselGit/flutter_hooks",
+      "status": "candidate-context",
+      "text": "Add new issues to project"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rrousselGit/provider",
+      "status": "candidate-context",
+      "text": "InheritedWidgets, but simple"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rrousselGit/provider",
+      "status": "candidate-context",
+      "text": "Add new issues to project"
     }
   ],
   "candidate_glosses": [
@@ -169,6 +193,18 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "esp-rs/std-training",
+      "status": "candidate",
+      "text": "Add new issues to project"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rrousselGit/flutter_hooks",
+      "status": "candidate",
+      "text": "Add new issues to project"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rrousselGit/provider",
       "status": "candidate",
       "text": "Add new issues to project"
     }
@@ -268,11 +304,23 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": ".github/workflows/issue_handler.yml",
       "source_repo": "esp-rs/std-training"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/project.yml",
+      "source_repo": "rrousselGit/flutter_hooks"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/project.yml",
+      "source_repo": "rrousselGit/provider"
     }
   ],
   "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

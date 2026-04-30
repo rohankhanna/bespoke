@@ -1,0 +1,432 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverage-tests.yml"
+    },
+    {
+      "component": "conda-incubator/setup-miniconda@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverage-tests.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverage-tests.yml"
+    },
+    {
+      "component": "conda-incubator/setup-miniconda@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverage-tests.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverage-tests.yml"
+    },
+    {
+      "component": "conda-incubator/setup-miniconda@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverage-tests.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cpack-builder.yml"
+    },
+    {
+      "component": "conda-incubator/setup-miniconda@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cpack-builder.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux-wheel-builder.yml"
+    },
+    {
+      "component": "conda-incubator/setup-miniconda@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux-wheel-builder.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/macos-wheel-builder.yml"
+    },
+    {
+      "component": "conda-incubator/setup-miniconda@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/macos-wheel-builder.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/misc-tests.yml"
+    },
+    {
+      "component": "conda-incubator/setup-miniconda@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/misc-tests.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/misc-tests.yml"
+    },
+    {
+      "component": "conda-incubator/setup-miniconda@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/misc-tests.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/misc-tests.yml"
+    },
+    {
+      "component": "conda-incubator/setup-miniconda@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/misc-tests.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/misc-tests.yml"
+    },
+    {
+      "component": "conda-incubator/setup-miniconda@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/misc-tests.yml"
+    },
+    {
+      "component": "actions/create-github-app-token@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit-update.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit-update.yml"
+    },
+    {
+      "component": "conda-incubator/setup-miniconda@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit-update.yml"
+    },
+    {
+      "component": "peter-evans/create-pull-request@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit-update.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yml"
+    },
+    {
+      "component": "conda-incubator/setup-miniconda@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/windows-wheel-builder.yml"
+    },
+    {
+      "component": "conda-incubator/setup-miniconda@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/windows-wheel-builder.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverage-tests.yml",
+      "source_repo": "dmlc/treelite",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverage-tests.yml",
+      "source_repo": "dmlc/treelite",
+      "target": "conda-incubator/setup-miniconda@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/coverage-tests.yml",
+      "source_repo": "dmlc/treelite",
+      "target": "coverage-tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cpack-builder.yml",
+      "source_repo": "dmlc/treelite",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cpack-builder.yml",
+      "source_repo": "dmlc/treelite",
+      "target": "conda-incubator/setup-miniconda@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cpack-builder.yml",
+      "source_repo": "dmlc/treelite",
+      "target": "cpack-builder",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux-wheel-builder.yml",
+      "source_repo": "dmlc/treelite",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux-wheel-builder.yml",
+      "source_repo": "dmlc/treelite",
+      "target": "conda-incubator/setup-miniconda@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/linux-wheel-builder.yml",
+      "source_repo": "dmlc/treelite",
+      "target": "linux-wheel-builder",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/macos-wheel-builder.yml",
+      "source_repo": "dmlc/treelite",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/macos-wheel-builder.yml",
+      "source_repo": "dmlc/treelite",
+      "target": "conda-incubator/setup-miniconda@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/macos-wheel-builder.yml",
+      "source_repo": "dmlc/treelite",
+      "target": "macos-wheel-builder",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/misc-tests.yml",
+      "source_repo": "dmlc/treelite",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/misc-tests.yml",
+      "source_repo": "dmlc/treelite",
+      "target": "conda-incubator/setup-miniconda@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/misc-tests.yml",
+      "source_repo": "dmlc/treelite",
+      "target": "misc-tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit-update.yml",
+      "source_repo": "dmlc/treelite",
+      "target": "actions/create-github-app-token@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit-update.yml",
+      "source_repo": "dmlc/treelite",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit-update.yml",
+      "source_repo": "dmlc/treelite",
+      "target": "conda-incubator/setup-miniconda@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit-update.yml",
+      "source_repo": "dmlc/treelite",
+      "target": "peter-evans/create-pull-request@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pre-commit-update.yml",
+      "source_repo": "dmlc/treelite",
+      "target": "pre-commit-update",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yml",
+      "source_repo": "dmlc/treelite",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yml",
+      "source_repo": "dmlc/treelite",
+      "target": "conda-incubator/setup-miniconda@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pre-commit.yml",
+      "source_repo": "dmlc/treelite",
+      "target": "pre-commit",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/windows-wheel-builder.yml",
+      "source_repo": "dmlc/treelite",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/windows-wheel-builder.yml",
+      "source_repo": "dmlc/treelite",
+      "target": "conda-incubator/setup-miniconda@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/windows-wheel-builder.yml",
+      "source_repo": "dmlc/treelite",
+      "target": "windows-wheel-builder",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T04:11:00.936044+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1107
+    },
+    {
+      "path": ".github/workflows/coverage-tests.yml",
+      "size": 2373
+    },
+    {
+      "path": ".github/workflows/cpack-builder.yml",
+      "size": 1204
+    },
+    {
+      "path": ".github/workflows/linux-wheel-builder.yml",
+      "size": 1491
+    },
+    {
+      "path": ".github/workflows/macos-wheel-builder.yml",
+      "size": 1536
+    },
+    {
+      "path": ".github/workflows/misc-tests.yml",
+      "size": 3422
+    },
+    {
+      "path": ".github/workflows/pre-commit-update.yml",
+      "size": 1463
+    },
+    {
+      "path": ".github/workflows/pre-commit.yml",
+      "size": 861
+    },
+    {
+      "path": ".github/workflows/windows-wheel-builder.yml",
+      "size": 1170
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "mainline",
+    "description": "Universal model exchange and serialization format for decision tree forests",
+    "fork": false,
+    "full_name": "dmlc/treelite",
+    "html_url": "https://github.com/dmlc/treelite",
+    "language": "C++",
+    "pushed_at": "2026-04-27T21:03:22Z",
+    "stargazers_count": 814,
+    "topics": [],
+    "updated_at": "2026-04-29T13:11:29Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "coverage-tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/coverage-tests.yml",
+      "term": "coverage-tests"
+    },
+    {
+      "context_snippet": "cpack-builder",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cpack-builder.yml",
+      "term": "cpack-builder"
+    },
+    {
+      "context_snippet": "linux-wheel-builder",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/linux-wheel-builder.yml",
+      "term": "linux-wheel-builder"
+    },
+    {
+      "context_snippet": "macos-wheel-builder",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/macos-wheel-builder.yml",
+      "term": "macos-wheel-builder"
+    },
+    {
+      "context_snippet": "misc-tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/misc-tests.yml",
+      "term": "misc-tests"
+    },
+    {
+      "context_snippet": "pre-commit-update",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pre-commit-update.yml",
+      "term": "pre-commit-update"
+    },
+    {
+      "context_snippet": "pre-commit",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pre-commit.yml",
+      "term": "pre-commit"
+    },
+    {
+      "context_snippet": "windows-wheel-builder",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/windows-wheel-builder.yml",
+      "term": "windows-wheel-builder"
+    }
+  ]
+}

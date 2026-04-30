@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Apache Log4j is a versatile, feature-rich, efficient logging API and backend for Java."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "deploy-site"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "deploy-site"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "deploy-site",
+      "sense_id": "deploy-site#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "deploy-site",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "deploy-site",
+  "observation_id": "83a3ccd55522c0f2",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-30T00:37:16.824464+00:00",
+  "observed_text": "deploy-site",
+  "source_context_snippet": "deploy-site",
+  "source_file": ".github/workflows/deploy-site.yaml",
+  "source_repo": "apache/logging-log4j2",
+  "source_repo_description": "Apache Log4j is a versatile, feature-rich, efficient logging API and backend for Java."
+}

@@ -1,0 +1,112 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "liuchengxu/space-vim-dark",
+      "target": "liuchengxu/space-vim-theme",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "liuchengxu/space-vim-dark",
+      "target": "nashamri/spacemacs-theme",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "liuchengxu/space-vim-dark",
+      "target": "space-vim",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "liuchengxu/space-vim-dark",
+      "target": "space-vim-dark",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "liuchengxu/space-vim-dark",
+      "target": "spacemacs-theme",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "liuchengxu/space-vim-dark",
+      "target": "vim-colors",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T00:38:11.841368+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3349
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": ":purple_heart: A dark colorscheme for space-vim, see space-vim-theme for light background support!",
+    "fork": false,
+    "full_name": "liuchengxu/space-vim-dark",
+    "html_url": "https://github.com/liuchengxu/space-vim-dark",
+    "language": "Vim Script",
+    "pushed_at": "2023-11-04T02:12:37Z",
+    "stargazers_count": 622,
+    "topics": [
+      "space-vim",
+      "space-vim-dark",
+      "spacemacs-theme",
+      "vim",
+      "vim-colors"
+    ],
+    "updated_at": "2026-04-29T15:10:49Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "liuchengxu/space-vim-theme",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "nashamri/spacemacs-theme",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "space-vim-dark",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "space-vim"
+    },
+    {
+      "context_snippet": "space-vim-dark",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "space-vim-dark"
+    },
+    {
+      "context_snippet": "space-vim-dark",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "spacemacs-theme"
+    },
+    {
+      "context_snippet": "space-vim-dark",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vim-colors"
+    }
+  ]
+}

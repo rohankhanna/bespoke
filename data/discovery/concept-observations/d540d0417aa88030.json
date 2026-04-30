@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "copy pasting in terminal with vimium/vimperator like hints."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "![tmux-fingers](./logo.svg)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "![tmux-fingers](./logo.svg)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "keyboard-shortcuts",
+      "sense_id": "keyboard-shortcuts#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "keyboard-shortcuts",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "keyboard-shortcuts",
+  "observation_id": "d540d0417aa88030",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T00:37:16.824464+00:00",
+  "observed_text": "keyboard-shortcuts",
+  "source_context_snippet": "![tmux-fingers](./logo.svg)",
+  "source_file": null,
+  "source_repo": "Morantron/tmux-fingers",
+  "source_repo_description": "copy pasting in terminal with vimium/vimperator like hints."
+}

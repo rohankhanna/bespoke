@@ -1,0 +1,139 @@
+{
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "BMW-InnovationLab/BMW-YOLOv4-Training-Automation",
+      "target": "alexeyab-darknet",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "BMW-InnovationLab/BMW-YOLOv4-Training-Automation",
+      "target": "automation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "BMW-InnovationLab/BMW-YOLOv4-Training-Automation",
+      "target": "computervision",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "BMW-InnovationLab/BMW-YOLOv4-Training-Automation",
+      "target": "darknet",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "BMW-InnovationLab/BMW-YOLOv4-Training-Automation",
+      "target": "deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "BMW-InnovationLab/BMW-YOLOv4-Training-Automation",
+      "target": "deeplearning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "BMW-InnovationLab/BMW-YOLOv4-Training-Automation",
+      "target": "docker",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "BMW-InnovationLab/BMW-YOLOv4-Training-Automation",
+      "target": "monitoring",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "BMW-InnovationLab/BMW-YOLOv4-Training-Automation",
+      "target": "neural-network",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "BMW-InnovationLab/BMW-YOLOv4-Training-Automation",
+      "target": "no-code",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "BMW-InnovationLab/BMW-YOLOv4-Training-Automation",
+      "target": "object-detection",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "BMW-InnovationLab/BMW-YOLOv4-Training-Automation",
+      "target": "objectdetection",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "BMW-InnovationLab/BMW-YOLOv4-Training-Automation",
+      "target": "rest-api",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "BMW-InnovationLab/BMW-YOLOv4-Training-Automation",
+      "target": "tensorboard",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "BMW-InnovationLab/BMW-YOLOv4-Training-Automation",
+      "target": "yolo",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "BMW-InnovationLab/BMW-YOLOv4-Training-Automation",
+      "target": "yolo-gui",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "BMW-InnovationLab/BMW-YOLOv4-Training-Automation",
+      "target": "yolo-tensorboard",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "BMW-InnovationLab/BMW-YOLOv4-Training-Automation",
+      "target": "yolov3",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "BMW-InnovationLab/BMW-YOLOv4-Training-Automation",
+      "target": "yolov4",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-30T00:37:16.824464+00:00",
+  "source_repo": "BMW-InnovationLab/BMW-YOLOv4-Training-Automation"
+}

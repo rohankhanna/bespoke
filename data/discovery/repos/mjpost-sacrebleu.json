@@ -1,0 +1,164 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-build.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-build.yml"
+    },
+    {
+      "component": "chartboost/ruff-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-build.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-publish.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-publish.yml"
+    },
+    {
+      "component": "pypa/gh-action-pypi-publish@release/v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-publish.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mjpost/sacrebleu",
+      "target": "facebookresearch/flores",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mjpost/sacrebleu",
+      "target": "ubc-nlp/toucan",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mjpost/sacrebleu",
+      "target": "jhclark/multeval",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-build.yml",
+      "source_repo": "mjpost/sacrebleu",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-build.yml",
+      "source_repo": "mjpost/sacrebleu",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-build.yml",
+      "source_repo": "mjpost/sacrebleu",
+      "target": "chartboost/ruff-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check-build.yml",
+      "source_repo": "mjpost/sacrebleu",
+      "target": "check-build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-publish.yml",
+      "source_repo": "mjpost/sacrebleu",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-publish.yml",
+      "source_repo": "mjpost/sacrebleu",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-publish.yml",
+      "source_repo": "mjpost/sacrebleu",
+      "target": "pypa/gh-action-pypi-publish@release/v1",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-04-30T01:54:26.179329+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 34229
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 2135
+    },
+    {
+      "path": ".github/workflows/check-build.yml",
+      "size": 1346
+    },
+    {
+      "path": ".github/workflows/python-publish.yml",
+      "size": 1097
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Reference BLEU implementation that auto-downloads test sets and reports a version string to facilitate cross-lab comparisons",
+    "fork": false,
+    "full_name": "mjpost/sacrebleu",
+    "html_url": "https://github.com/mjpost/sacrebleu",
+    "language": "Python",
+    "pushed_at": "2026-01-12T17:22:40Z",
+    "stargazers_count": 1239,
+    "topics": [],
+    "updated_at": "2026-04-28T04:00:06Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "facebookresearch/flores",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jhclark/multeval",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ubc-nlp/toucan",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "check-build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check-build.yml",
+      "term": "check-build"
+    }
+  ]
+}

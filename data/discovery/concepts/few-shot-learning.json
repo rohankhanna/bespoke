@@ -67,6 +67,42 @@
       "source_repo": "ViTAE-Transformer/APTv2",
       "status": "candidate-context",
       "text": "This repo is the official implementation of [\"APTv2: Benchmarking Animal Pose Estimation and Tracking with a Large-scale Dataset and Beyond\"](https://arxiv.org/pdf/2312.15612)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "open-edge-platform/geti-instant-learn",
+      "status": "candidate-context",
+      "text": " A modular framework for few-shot visual segmentation using visual prompting techniques. Enables easy experimentation with different algorithms, backbones (SAM, MobileSAM, DinoV2), and pipeline components for finding and segmenting objects from just a few examples. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "open-edge-platform/geti-instant-learn",
+      "status": "candidate-context",
+      "text": "<!-- markdownlint-disable MD013 MD033 MD041 MD042 -->"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Anirudh257/strm",
+      "status": "candidate-context",
+      "text": "[CVPR 2022] Official Pytorch Implementation for \"Spatio-temporal Relation Modeling for Few-shot Action Recognition\". SOTA Results for Few-shot Action Recognition"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Anirudh257/strm",
+      "status": "candidate-context",
+      "text": "[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/spatio-temporal-relation-modeling-for-few/few-shot-action-recognition-on-hmdb51)](https://paperswithcode.com/sota/few-shot-action-recognition-on-hmdb51?p=spatio-temporal-relation-modeling-for-few)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "reasoning-machines/CoCoGen",
+      "status": "candidate-context",
+      "text": "Language Models of Code are Few-Shot Commonsense Learners (EMNLP 2022)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "reasoning-machines/CoCoGen",
+      "status": "candidate-context",
+      "text": "The official repository for [\"Language Models of Code are Few-Shot Commonsense Learners\"](https://arxiv.org/abs/2210.07128) (Madaan et al., EMNLP'2022)."
     }
   ],
   "candidate_glosses": [
@@ -99,6 +135,24 @@
       "source_repo": "ViTAE-Transformer/APTv2",
       "status": "candidate",
       "text": "This repo is the official implementation of [\"APTv2: Benchmarking Animal Pose Estimation and Tracking with a Large-scale Dataset and Beyond\"](https://arxiv.org/pdf/2312.15612)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "open-edge-platform/geti-instant-learn",
+      "status": "candidate",
+      "text": "<!-- markdownlint-disable MD013 MD033 MD041 MD042 -->"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Anirudh257/strm",
+      "status": "candidate",
+      "text": "[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/spatio-temporal-relation-modeling-for-few/few-shot-action-recognition-on-hmdb51)](https://paperswithcode.com/sota/few-shot-action-recognition-on-hmdb51?p=spatio-temporal-relation-modeling-for-few)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "reasoning-machines/CoCoGen",
+      "status": "candidate",
+      "text": "The official repository for [\"Language Models of Code are Few-Shot Commonsense Learners\"](https://arxiv.org/abs/2210.07128) (Madaan et al., EMNLP'2022)."
     }
   ],
   "candidate_related_terms": [],
@@ -142,11 +196,41 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "ViTAE-Transformer/APTv2"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "open-edge-platform/geti-instant-learn"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "Anirudh257/strm"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "reasoning-machines/pal"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "reasoning-machines/prompt-lib"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "reasoning-machines/CoCoGen"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

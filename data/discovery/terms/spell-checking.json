@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-20T03:16:48.146869+00:00",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
@@ -31,6 +31,16 @@
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/spell_checking.yml",
       "source_repo": "clojure-emacs/cider"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/spell_checking.yml",
+      "source_repo": "nrepl/nrepl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/spelling.yml",
+      "source_repo": "prometheus-community/windows_exporter"
     }
   ],
   "term": "Spell Checking"

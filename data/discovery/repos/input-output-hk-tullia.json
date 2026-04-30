@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T01:42:46.688381+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2368
+    },
+    {
+      "path": "go.mod",
+      "size": 1339
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Standard library and CLI for Cicero",
+    "fork": false,
+    "full_name": "input-output-hk/tullia",
+    "html_url": "https://github.com/input-output-hk/tullia",
+    "language": "Nix",
+    "pushed_at": "2023-05-23T16:26:43Z",
+    "stargazers_count": 10,
+    "topics": [],
+    "updated_at": "2023-08-20T20:24:51Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

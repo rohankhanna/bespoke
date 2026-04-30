@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Deep Learning API and Server in C++14 support for PyTorch,TensorRT, Dlib, NCNN, Tensorflow, XGBoost and TSNE"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<p align=\"center\"><img src=\"https://www.deepdetect.com/img/icons/menu/sidebar/deepdetect.svg\" alt=\"DeepDetect Logo\" width=\"45%\" /></p>"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<p align=\"center\"><img src=\"https://www.deepdetect.com/img/icons/menu/sidebar/deepdetect.svg\" alt=\"DeepDetect Logo\" width=\"45%\" /></p>"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20048481,
+      "status": "candidate",
+      "text": "caffee"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20048480,
+      "status": "candidate",
+      "text": "cappuccino"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20048479,
+      "status": "candidate",
+      "text": "cafe"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20048478,
+      "status": "candidate",
+      "text": "cofe"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20048477,
+      "status": "candidate",
+      "text": "espresso"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "caffe",
+      "sense_id": "caffe#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "caffe",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "caffe",
+  "observation_id": "f05e2654d05eaeb2",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T00:37:16.824464+00:00",
+  "observed_text": "caffe",
+  "source_context_snippet": "<p align=\"center\"><img src=\"https://www.deepdetect.com/img/icons/menu/sidebar/deepdetect.svg\" alt=\"DeepDetect Logo\" width=\"45%\" /></p>",
+  "source_file": null,
+  "source_repo": "jolibrain/deepdetect",
+  "source_repo_description": "Deep Learning API and Server in C++14 support for PyTorch,TensorRT, Dlib, NCNN, Tensorflow, XGBoost and TSNE"
+}

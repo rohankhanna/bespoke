@@ -1,15 +1,125 @@
 {
   "aliases": [
-    "Test install-script"
+    "Test install-script",
+    "test install script"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
     "workflow-process",
     "data-document-artifact"
   ],
-  "candidate_definitions": [],
-  "candidate_glosses": [],
-  "candidate_related_terms": [],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pacstall/pacstall",
+      "status": "candidate-context",
+      "text": "An AUR-inspired package manager for Ubuntu"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pacstall/pacstall",
+      "status": "candidate-context",
+      "text": "test install script"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cargo-bins/cargo-binstall",
+      "status": "candidate-context",
+      "text": "Binary installation for rust projects"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cargo-bins/cargo-binstall",
+      "status": "candidate-context",
+      "text": "Test install-script"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pacstall/pacstall",
+      "status": "candidate",
+      "text": "test install script"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cargo-bins/cargo-binstall",
+      "status": "candidate",
+      "text": "Test install-script"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26808,
+      "status": "candidate",
+      "text": "deploy"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18613,
+      "status": "candidate",
+      "text": "actor"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18613,
+      "status": "candidate",
+      "text": "cursive"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18613,
+      "status": "candidate",
+      "text": "enter"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18613,
+      "status": "candidate",
+      "text": "set"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26424,
+      "status": "candidate",
+      "text": "analyses"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26424,
+      "status": "candidate",
+      "text": "analysing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26424,
+      "status": "candidate",
+      "text": "analysis"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26424,
+      "status": "candidate",
+      "text": "analyzing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26424,
+      "status": "candidate",
+      "text": "ascertain"
+    }
+  ],
   "candidate_synonyms": [],
   "canonical_name": "Test install-script",
   "concept_id": "test-install-script",
@@ -20,12 +130,26 @@
       "observed_at": "2026-04-18T11:32:22.637859+00:00",
       "source_file": ".github/workflows/install-script.yml",
       "source_repo": "cargo-bins/cargo-binstall"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/test-pr.yml",
+      "source_repo": "pacstall/pacstall"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/install-script.yml",
+      "source_repo": "cargo-bins/cargo-binstall"
     }
   ],
   "first_seen_at": "2026-04-18T11:32:22.637859+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-18T11:32:22.637859+00:00",
-  "lexical_providers": [],
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
   "lexical_status": "unresolved",
   "possible_senses": [
     {

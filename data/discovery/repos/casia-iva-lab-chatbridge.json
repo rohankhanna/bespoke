@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "CASIA-IVA-Lab/ChatBridge",
+      "target": "joez17/chatbridge",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T05:15:26.209457+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7024
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": " ChatBridge, an approach to learning a unified multimodal model to interpret, correlate, and reason about various modalities without relying on all combinations of paired data.",
+    "fork": false,
+    "full_name": "CASIA-IVA-Lab/ChatBridge",
+    "html_url": "https://github.com/CASIA-IVA-Lab/ChatBridge",
+    "language": "Python",
+    "pushed_at": "2023-09-04T06:59:30Z",
+    "stargazers_count": 55,
+    "topics": [],
+    "updated_at": "2026-04-15T09:48:38Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "joez17/chatbridge",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

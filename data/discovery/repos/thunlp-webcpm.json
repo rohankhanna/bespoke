@@ -1,0 +1,45 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "thunlp/WebCPM",
+      "target": "openbmb/cpm-live",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T01:03:54.414487+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 13755
+    },
+    {
+      "path": "requirements.txt",
+      "size": 149
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Official codes for ACL 2023 paper \"WebCPM: Interactive Web Search for Chinese Long-form Question Answering\"",
+    "fork": false,
+    "full_name": "thunlp/WebCPM",
+    "html_url": "https://github.com/thunlp/WebCPM",
+    "language": "HTML",
+    "pushed_at": "2023-11-25T06:13:41Z",
+    "stargazers_count": 913,
+    "topics": [],
+    "updated_at": "2026-04-29T06:03:19Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "openbmb/cpm-live",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

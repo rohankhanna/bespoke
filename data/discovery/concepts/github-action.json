@@ -67,6 +67,42 @@
       "source_repo": "koenrh/dnscontrol-action",
       "status": "candidate-context",
       "text": "![](https://github.com/koenrh/dnscontrol-action/workflows/build/badge.svg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "peter-evans/create-pull-request",
+      "status": "candidate-context",
+      "text": "A GitHub action to create a pull request for changes to your repository in the actions workspace"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "peter-evans/create-pull-request",
+      "status": "candidate-context",
+      "text": "[![CI](https://github.com/peter-evans/create-pull-request/workflows/CI/badge.svg)](https://github.com/peter-evans/create-pull-request/actions?query=workflow%3ACI)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Justintime50/homebrew-releaser",
+      "status": "candidate-context",
+      "text": "Release scripts, binaries, and executables directly to Homebrew via GitHub Actions."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Justintime50/homebrew-releaser",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "peter-evans/enable-pull-request-automerge",
+      "status": "candidate-context",
+      "text": "A GitHub action to enable auto-merge on a pull request"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "peter-evans/enable-pull-request-automerge",
+      "status": "candidate-context",
+      "text": "[![CI](https://github.com/peter-evans/enable-pull-request-automerge/workflows/CI/badge.svg)](https://github.com/peter-evans/enable-pull-request-automerge/actions?query=workflow%3ACI)"
     }
   ],
   "candidate_glosses": [
@@ -99,6 +135,24 @@
       "source_repo": "koenrh/dnscontrol-action",
       "status": "candidate",
       "text": "![](https://github.com/koenrh/dnscontrol-action/workflows/build/badge.svg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "peter-evans/create-pull-request",
+      "status": "candidate",
+      "text": "[![CI](https://github.com/peter-evans/create-pull-request/workflows/CI/badge.svg)](https://github.com/peter-evans/create-pull-request/actions?query=workflow%3ACI)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Justintime50/homebrew-releaser",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "peter-evans/enable-pull-request-automerge",
+      "status": "candidate",
+      "text": "[![CI](https://github.com/peter-evans/enable-pull-request-automerge/workflows/CI/badge.svg)](https://github.com/peter-evans/enable-pull-request-automerge/actions?query=workflow%3ACI)"
     }
   ],
   "candidate_related_terms": [],
@@ -136,11 +190,35 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "koenrh/dnscontrol-action"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "peter-evans/create-pull-request"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "benchmark-action/github-action-benchmark"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "Justintime50/homebrew-releaser"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "peter-evans/enable-pull-request-automerge"
     }
   ],
   "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

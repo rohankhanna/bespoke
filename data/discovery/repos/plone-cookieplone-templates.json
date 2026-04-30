@@ -1,0 +1,308 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/changelog.yml"
+    },
+    {
+      "component": "astral-sh/setup-uv@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/changelog.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/setup-node@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "JarvusInnovations/background-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/setup-node@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "JarvusInnovations/background-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/readme-link-check.yml"
+    },
+    {
+      "component": "lycheeverse/lychee-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/readme-link-check.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/report.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-repository.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-template.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/changelog.yml",
+      "source_repo": "plone/cookieplone-templates",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/changelog.yml",
+      "source_repo": "plone/cookieplone-templates",
+      "target": "astral-sh/setup-uv@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/changelog.yml",
+      "source_repo": "plone/cookieplone-templates",
+      "target": "Change log check",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "plone/cookieplone-templates",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "plone/cookieplone-templates",
+      "target": "actions/cache@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "plone/cookieplone-templates",
+      "target": "actions/setup-node@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "plone/cookieplone-templates",
+      "target": "JarvusInnovations/background-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "plone/cookieplone-templates",
+      "target": "Cookieplone Templates: CI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/readme-link-check.yml",
+      "source_repo": "plone/cookieplone-templates",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/readme-link-check.yml",
+      "source_repo": "plone/cookieplone-templates",
+      "target": "lycheeverse/lychee-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/readme-link-check.yml",
+      "source_repo": "plone/cookieplone-templates",
+      "target": "readme-link-check",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/report.yml",
+      "source_repo": "plone/cookieplone-templates",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/report.yml",
+      "source_repo": "plone/cookieplone-templates",
+      "target": "Report key usage",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-repository.yml",
+      "source_repo": "plone/cookieplone-templates",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test-repository.yml",
+      "source_repo": "plone/cookieplone-templates",
+      "target": "Repository settings",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-template.yml",
+      "source_repo": "plone/cookieplone-templates",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test-template.yml",
+      "source_repo": "plone/cookieplone-templates",
+      "target": "Template generation",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T03:50:34.651291+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 10495
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 2147
+    },
+    {
+      "path": ".github/workflows/changelog.yml",
+      "size": 843
+    },
+    {
+      "path": ".github/workflows/main.yml",
+      "size": 12061
+    },
+    {
+      "path": ".github/workflows/readme-link-check.yml",
+      "size": 646
+    },
+    {
+      "path": ".github/workflows/report.yml",
+      "size": 980
+    },
+    {
+      "path": ".github/workflows/test-repository.yml",
+      "size": 1227
+    },
+    {
+      "path": ".github/workflows/test-template.yml",
+      "size": 1467
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Plone templates used with cookieplone",
+    "fork": false,
+    "full_name": "plone/cookieplone-templates",
+    "html_url": "https://github.com/plone/cookieplone-templates",
+    "language": "Python",
+    "pushed_at": "2026-04-27T11:10:47Z",
+    "stargazers_count": 9,
+    "topics": [],
+    "updated_at": "2026-04-08T03:53:58Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Change log check",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/changelog.yml",
+      "term": "Change log check"
+    },
+    {
+      "context_snippet": "\"Cookieplone Templates: CI\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/main.yml",
+      "term": "Cookieplone Templates: CI"
+    },
+    {
+      "context_snippet": "readme-link-check",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/readme-link-check.yml",
+      "term": "readme-link-check"
+    },
+    {
+      "context_snippet": "'Report key usage'",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/report.yml",
+      "term": "Report key usage"
+    },
+    {
+      "context_snippet": "'Repository settings'",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test-repository.yml",
+      "term": "Repository settings"
+    },
+    {
+      "context_snippet": "Template generation",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test-template.yml",
+      "term": "Template generation"
+    }
+  ]
+}

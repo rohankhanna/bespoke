@@ -578,6 +578,102 @@
       "source_repo": "MobileNativeFoundation/rules_xcodeproj",
       "status": "candidate-context",
       "text": "Create Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "arnaud-lb/php-rdkafka",
+      "status": "candidate-context",
+      "text": "Production-ready, stable Kafka client for PHP"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "arnaud-lb/php-rdkafka",
+      "status": "candidate-context",
+      "text": "\"Create release\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "SkyworkAI/vllm",
+      "status": "candidate-context",
+      "text": "A high-throughput and memory-efficient inference and serving engine for LLMs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SkyworkAI/vllm",
+      "status": "candidate-context",
+      "text": "Create Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "avelino/monotropic-theme-vscode",
+      "status": "candidate-context",
+      "text": "(Almost) monochromatic light theme for VSCode"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "avelino/monotropic-theme-vscode",
+      "status": "candidate-context",
+      "text": "Create Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "tree-sitter-grammars/tree-sitter-markdown",
+      "status": "candidate-context",
+      "text": "Markdown grammar for tree-sitter"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tree-sitter-grammars/tree-sitter-markdown",
+      "status": "candidate-context",
+      "text": "Create release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "codota/tabnine-sublime",
+      "status": "candidate-context",
+      "text": "Tabnine Autocomplete AI: JavaScript, Python, TypeScript, PHP, C/C++, HTML/CSS, Go, Java, Ruby, C#, Rust, SQL, Bash, Kotlin, Julia, Lua, OCaml, Perl, Haskell, React"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "codota/tabnine-sublime",
+      "status": "candidate-context",
+      "text": "Create Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "r-lyeh/Spectral",
+      "status": "candidate-context",
+      "text": "ZX Spectrum emulator for Windows, Linux and MacOS."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "r-lyeh/Spectral",
+      "status": "candidate-context",
+      "text": "Create Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "php-rdkafka/php-rdkafka",
+      "status": "candidate-context",
+      "text": "Production-ready, stable Kafka client for PHP"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "php-rdkafka/php-rdkafka",
+      "status": "candidate-context",
+      "text": "\"Create release\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aliyun/aliyun-cli",
+      "status": "candidate-context",
+      "text": "Alibaba Cloud CLI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aliyun/aliyun-cli",
+      "status": "candidate-context",
+      "text": "Create Release"
     }
   ],
   "candidate_glosses": [
@@ -866,6 +962,54 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "MobileNativeFoundation/rules_xcodeproj",
+      "status": "candidate",
+      "text": "Create Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "arnaud-lb/php-rdkafka",
+      "status": "candidate",
+      "text": "\"Create release\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SkyworkAI/vllm",
+      "status": "candidate",
+      "text": "Create Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "avelino/monotropic-theme-vscode",
+      "status": "candidate",
+      "text": "Create Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tree-sitter-grammars/tree-sitter-markdown",
+      "status": "candidate",
+      "text": "Create release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "codota/tabnine-sublime",
+      "status": "candidate",
+      "text": "Create Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "r-lyeh/Spectral",
+      "status": "candidate",
+      "text": "Create Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "php-rdkafka/php-rdkafka",
+      "status": "candidate",
+      "text": "\"Create release\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aliyun/aliyun-cli",
       "status": "candidate",
       "text": "Create Release"
     }
@@ -1295,11 +1439,83 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": ".github/workflows/create-release.yml",
       "source_repo": "MobileNativeFoundation/rules_xcodeproj"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/create-gh-release.yml",
+      "source_repo": "spring-projects/spring-tools"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "arnaud-lb/php-rdkafka"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "SkyworkAI/vllm"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/create_release.yml",
+      "source_repo": "triton-lang/triton"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/create-release.yml",
+      "source_repo": "langflow-ai/langflow"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/create-release.yml",
+      "source_repo": "avelino/monotropic-theme-vscode"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "tree-sitter-grammars/tree-sitter-markdown"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "codota/tabnine-atom"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "codota/tabnine-sublime"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "r-lyeh/Spectral"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "php-rdkafka/php-rdkafka"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "aliyun/aliyun-cli"
     }
   ],
   "first_seen_at": "2026-04-18T11:57:36.597358+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

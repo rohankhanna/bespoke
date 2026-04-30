@@ -1,0 +1,73 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dylanaraps/pywal",
+      "target": "changing-colorschemes",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dylanaraps/pywal",
+      "target": "colorscheme",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dylanaraps/pywal",
+      "target": "terminal-emulators",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T01:01:56.449119+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2121
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "master",
+    "description": "\ud83c\udfa8 Generate and change color-schemes on the fly.",
+    "fork": false,
+    "full_name": "dylanaraps/pywal",
+    "html_url": "https://github.com/dylanaraps/pywal",
+    "language": "Python",
+    "pushed_at": "2024-01-27T15:51:44Z",
+    "stargazers_count": 9066,
+    "topics": [
+      "changing-colorschemes",
+      "colorscheme",
+      "terminal-emulators",
+      "wal"
+    ],
+    "updated_at": "2026-04-29T19:32:00Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "<h3 align=\"center\"><img src=\"https://i.imgur.com/5WgMACe.gif\" width=\"200px\"></h3>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "changing-colorschemes"
+    },
+    {
+      "context_snippet": "<h3 align=\"center\"><img src=\"https://i.imgur.com/5WgMACe.gif\" width=\"200px\"></h3>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "colorscheme"
+    },
+    {
+      "context_snippet": "<h3 align=\"center\"><img src=\"https://i.imgur.com/5WgMACe.gif\" width=\"200px\"></h3>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "terminal-emulators"
+    }
+  ]
+}

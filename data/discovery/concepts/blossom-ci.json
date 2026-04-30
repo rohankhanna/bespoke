@@ -103,6 +103,18 @@
       "source_repo": "ai-dynamo/nixl",
       "status": "candidate-context",
       "text": "Blossom-CI"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "openucx/ucx",
+      "status": "candidate-context",
+      "text": "Unified Communication X  (mailing list - https://elist.ornl.gov/mailman/listinfo/ucx-group)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "openucx/ucx",
+      "status": "candidate-context",
+      "text": "Blossom-CI"
     }
   ],
   "candidate_glosses": [
@@ -151,6 +163,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "ai-dynamo/nixl",
+      "status": "candidate",
+      "text": "Blossom-CI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "openucx/ucx",
       "status": "candidate",
       "text": "Blossom-CI"
     }
@@ -208,11 +226,17 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": ".github/workflows/blossom-ci.yml",
       "source_repo": "ai-dynamo/nixl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/blossom-ci.yml",
+      "source_repo": "openucx/ucx"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

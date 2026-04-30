@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Official container images for .NET"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Update Dependencies Tests"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Update Dependencies Tests"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18405,
+      "status": "candidate",
+      "text": "annal"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18405,
+      "status": "candidate",
+      "text": "bimetallism"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18405,
+      "status": "candidate",
+      "text": "credit"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18405,
+      "status": "candidate",
+      "text": "detail"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18405,
+      "status": "candidate",
+      "text": "hold"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Update Dependencies Tests",
+      "sense_id": "update-dependencies-tests#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "update-dependencies-tests",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "update-dependencies-tests",
+  "observation_id": "ab9bd494ca1e8a22",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-30T00:37:16.824464+00:00",
+  "observed_text": "Update Dependencies Tests",
+  "source_context_snippet": "Update Dependencies Tests",
+  "source_file": ".github/workflows/update-dependencies-tests.yml",
+  "source_repo": "dotnet/dotnet-docker",
+  "source_repo_description": "Official container images for .NET"
+}

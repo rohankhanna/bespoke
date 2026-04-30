@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "VS Code extension for LLM-assisted code/text completion"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Local LLM-assisted text completion, chat with AI and agentic coding extension for VS Code"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Local LLM-assisted text completion, chat with AI and agentic coding extension for VS Code"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "developer-tool",
+      "sense_id": "developer-tool#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "developer-tool",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "developer-tool",
+  "observation_id": "ebd2159e15166233",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T00:37:16.824464+00:00",
+  "observed_text": "developer-tool",
+  "source_context_snippet": "Local LLM-assisted text completion, chat with AI and agentic coding extension for VS Code",
+  "source_file": null,
+  "source_repo": "ggml-org/llama.vscode",
+  "source_repo_description": "VS Code extension for LLM-assisted code/text completion"
+}

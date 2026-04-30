@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T04:05:33.568722+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1051
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Emacs plugin for borkdude/carve",
+    "fork": false,
+    "full_name": "oliyh/carve.el",
+    "html_url": "https://github.com/oliyh/carve.el",
+    "language": "Emacs Lisp",
+    "pushed_at": "2026-04-27T07:11:08Z",
+    "stargazers_count": 10,
+    "topics": [],
+    "updated_at": "2026-04-27T07:11:13Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

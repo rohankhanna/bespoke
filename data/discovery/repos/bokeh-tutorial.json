@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T02:50:52.849466+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2728
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 100
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Notebooks and presentation materials for Bokeh tutorials",
+    "fork": false,
+    "full_name": "bokeh/tutorial",
+    "html_url": "https://github.com/bokeh/tutorial",
+    "language": "Jupyter Notebook",
+    "pushed_at": "2026-03-03T07:55:28Z",
+    "stargazers_count": 46,
+    "topics": [],
+    "updated_at": "2026-03-31T12:30:17Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

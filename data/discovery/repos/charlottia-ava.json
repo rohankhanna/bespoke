@@ -1,0 +1,86 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "charlottia/ava",
+      "target": "spinalhdl/vexriscv",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "charlottia/ava",
+      "target": "amaranth",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "charlottia/ava",
+      "target": "basic",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "charlottia/ava",
+      "target": "qbasic",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T04:50:54.373934+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 599
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "main",
+    "description": "Ava BASIC",
+    "fork": false,
+    "full_name": "charlottia/ava",
+    "html_url": "https://github.com/charlottia/ava",
+    "language": "Zig",
+    "pushed_at": "2025-02-12T03:39:07Z",
+    "stargazers_count": 4,
+    "topics": [
+      "amaranth",
+      "basic",
+      "qbasic",
+      "zig"
+    ],
+    "updated_at": "2025-03-30T00:52:51Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "spinalhdl/vexriscv",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Note: probably done for now.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "amaranth"
+    },
+    {
+      "context_snippet": "Note: probably done for now.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "basic"
+    },
+    {
+      "context_snippet": "Note: probably done for now.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "qbasic"
+    }
+  ]
+}

@@ -1,0 +1,321 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "codecov/codecov-action@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "casperdcl/deploy-pypi@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "casperdcl/push-dir@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "iterative/shtab",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "iterative/shtab",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "iterative/shtab",
+      "target": "codecov/codecov-action@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "iterative/shtab",
+      "target": "casperdcl/deploy-pypi@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "iterative/shtab",
+      "target": "casperdcl/push-dir@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "iterative/shtab",
+      "target": "Test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "iterative/shtab",
+      "target": "argcomplete",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "iterative/shtab",
+      "target": "argopt",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "iterative/shtab",
+      "target": "argparse",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "iterative/shtab",
+      "target": "bash",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "iterative/shtab",
+      "target": "bash-completion",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "iterative/shtab",
+      "target": "completion",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "iterative/shtab",
+      "target": "developer-tools",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "iterative/shtab",
+      "target": "docopt",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "iterative/shtab",
+      "target": "documentation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "iterative/shtab",
+      "target": "hacktoberfest",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "iterative/shtab",
+      "target": "pages",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "iterative/shtab",
+      "target": "pyzshcomplete",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "iterative/shtab",
+      "target": "tab-completion",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "iterative/shtab",
+      "target": "tcsh",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T00:49:55.393773+00:00",
+  "fetched_files": [
+    {
+      "path": "README.rst",
+      "size": 4225
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 4122
+    },
+    {
+      "path": ".github/workflows/test.yml",
+      "size": 2351
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "\u2194\ufe0f Automagic shell tab completion for Python CLI applications",
+    "fork": false,
+    "full_name": "iterative/shtab",
+    "html_url": "https://github.com/iterative/shtab",
+    "language": "Python",
+    "pushed_at": "2026-04-06T18:41:52Z",
+    "stargazers_count": 450,
+    "topics": [
+      "argcomplete",
+      "argopt",
+      "argparse",
+      "bash",
+      "bash-completion",
+      "cli",
+      "completion",
+      "developer-tools",
+      "docopt",
+      "documentation",
+      "hacktoberfest",
+      "pages",
+      "python",
+      "pyzshcomplete",
+      "tab-completion",
+      "tcsh",
+      "zsh"
+    ],
+    "updated_at": "2026-04-22T14:39:40Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "term": "Test"
+    },
+    {
+      "context_snippet": "|Logo|",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "argcomplete"
+    },
+    {
+      "context_snippet": "|Logo|",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "argopt"
+    },
+    {
+      "context_snippet": "|Logo|",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "argparse"
+    },
+    {
+      "context_snippet": "|Logo|",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bash"
+    },
+    {
+      "context_snippet": "|Logo|",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bash-completion"
+    },
+    {
+      "context_snippet": "|Logo|",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "completion"
+    },
+    {
+      "context_snippet": "|Logo|",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "developer-tools"
+    },
+    {
+      "context_snippet": "|Logo|",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "docopt"
+    },
+    {
+      "context_snippet": "|Logo|",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "documentation"
+    },
+    {
+      "context_snippet": "|Logo|",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hacktoberfest"
+    },
+    {
+      "context_snippet": "|Logo|",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pages"
+    },
+    {
+      "context_snippet": "|Logo|",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pyzshcomplete"
+    },
+    {
+      "context_snippet": "|Logo|",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tab-completion"
+    },
+    {
+      "context_snippet": "|Logo|",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tcsh"
+    }
+  ]
+}

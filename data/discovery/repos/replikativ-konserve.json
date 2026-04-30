@@ -1,0 +1,121 @@
+{
+  "components": [
+    {
+      "component": "karma",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "karma-chrome-launcher",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "karma-cljs-test",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "shadow-cljs",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "replikativ/konserve",
+      "target": "karma",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "replikativ/konserve",
+      "target": "karma-chrome-launcher",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "replikativ/konserve",
+      "target": "karma-cljs-test",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "replikativ/konserve",
+      "target": "shadow-cljs",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "replikativ/konserve",
+      "target": "clojure",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "replikativ/konserve",
+      "target": "key-value-store",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "replikativ/konserve",
+      "target": "konserve",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T04:04:17.390215+00:00",
+  "fetched_files": [
+    {
+      "path": "package.json",
+      "size": 262
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A clojuresque key-value/document store protocol with core.async. ",
+    "fork": false,
+    "full_name": "replikativ/konserve",
+    "html_url": "https://github.com/replikativ/konserve",
+    "language": "Clojure",
+    "pushed_at": "2026-04-20T20:39:46Z",
+    "stargazers_count": 318,
+    "topics": [
+      "clojure",
+      "key-value-store",
+      "konserve"
+    ],
+    "updated_at": "2026-04-26T20:08:16Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "CITests \u2014 Testing",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "clojure"
+    },
+    {
+      "context_snippet": "CITests \u2014 Testing",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "key-value-store"
+    },
+    {
+      "context_snippet": "CITests \u2014 Testing",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "konserve"
+    }
+  ]
+}

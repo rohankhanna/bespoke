@@ -98,20 +98,6 @@
   ],
   "edges": [
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "gulpjs/vinyl",
-      "target": "gulpjs/vinyl-fs",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "gulpjs/vinyl",
-      "target": "mcollina/cloneable-readable",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "package-json:dependencies",
       "source_file": "package.json",
       "source_repo": "gulpjs/vinyl",
@@ -245,7 +231,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-23T08:31:35.821865+00:00",
+  "fetched_at": "2026-04-30T04:07:23.039821+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -274,22 +260,11 @@
     "html_url": "https://github.com/gulpjs/vinyl",
     "language": "JavaScript",
     "pushed_at": "2025-05-31T22:56:03Z",
-    "stargazers_count": 1295,
+    "stargazers_count": 1296,
     "topics": [],
-    "updated_at": "2026-04-10T05:45:32Z"
+    "updated_at": "2026-04-27T19:36:31Z"
   },
-  "repo_links": [
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "gulpjs/vinyl-fs",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "mcollina/cloneable-readable",
-      "source_file": "README.md"
-    }
-  ],
+  "repo_links": [],
   "terms": [
     {
       "context_snippet": "dev",

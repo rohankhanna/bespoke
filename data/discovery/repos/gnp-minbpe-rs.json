@@ -1,0 +1,49 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "gnp/minbpe-rs",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-04-30T02:56:30.446356+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1768
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 912
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 375
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Port of Andrej Karpathy's minbpe to Rust",
+    "fork": false,
+    "full_name": "gnp/minbpe-rs",
+    "html_url": "https://github.com/gnp/minbpe-rs",
+    "language": "Rust",
+    "pushed_at": "2024-05-06T00:41:16Z",
+    "stargazers_count": 31,
+    "topics": [],
+    "updated_at": "2026-03-03T07:35:54Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

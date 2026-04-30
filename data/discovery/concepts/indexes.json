@@ -55,6 +55,18 @@
       "source_repo": "asdine/storm",
       "status": "candidate-context",
       "text": "[![Build Status](https://travis-ci.org/asdine/storm.svg)](https://travis-ci.org/asdine/storm)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "danielrosehill/Docs-And-Notes-Index",
+      "status": "candidate-context",
+      "text": "An index to my various documentation projects, both on Github and elsewhere"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "danielrosehill/Docs-And-Notes-Index",
+      "status": "candidate-context",
+      "text": "![Banner](https://res.cloudinary.com/drrvnflqy/image/upload/v1732904202/docs-index_fy8ula.png)"
     }
   ],
   "candidate_glosses": [
@@ -81,6 +93,12 @@
       "source_repo": "asdine/storm",
       "status": "candidate",
       "text": "[![Build Status](https://travis-ci.org/asdine/storm.svg)](https://travis-ci.org/asdine/storm)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "danielrosehill/Docs-And-Notes-Index",
+      "status": "candidate",
+      "text": "![Banner](https://res.cloudinary.com/drrvnflqy/image/upload/v1732904202/docs-index_fy8ula.png)"
     }
   ],
   "candidate_related_terms": [
@@ -148,11 +166,17 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "asdine/storm"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "danielrosehill/Docs-And-Notes-Index"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

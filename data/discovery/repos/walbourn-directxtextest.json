@@ -1,0 +1,44 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "walbourn/directxtextest",
+      "target": "directxtex",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T02:56:36.060492+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 771
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Tests for DirectXTex",
+    "fork": false,
+    "full_name": "walbourn/directxtextest",
+    "html_url": "https://github.com/walbourn/directxtextest",
+    "language": "C++",
+    "pushed_at": "2026-04-20T18:20:06Z",
+    "stargazers_count": 10,
+    "topics": [
+      "directxtex"
+    ],
+    "updated_at": "2026-04-20T18:20:10Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Copyright (c) Microsoft Corporation.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "directxtex"
+    }
+  ]
+}

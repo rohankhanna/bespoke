@@ -247,6 +247,42 @@
       "source_repo": "eosphoros-ai/DB-GPT-Hub",
       "status": "candidate-context",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "haofanwang/Lora-for-Diffusers",
+      "status": "candidate-context",
+      "text": "The most easy-to-understand tutorial for using LoRA (Low-Rank Adaptation) within diffusers framework for AI Generation Researchers\ud83d\udd25"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "haofanwang/Lora-for-Diffusers",
+      "status": "candidate-context",
+      "text": "This repository provides the simplest tutorial code for AIGC researchers to use Lora in just a few lines. Using this handbook, you can easily play with any Lora model from active communities such as [Huggingface](https://huggingface.co/) and [cititai](https://civitai.com/)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dstackai/dstack",
+      "status": "candidate-context",
+      "text": "Vendor-agnostic orchestration for training, inference and agentic workloads across NVIDIA, AMD, TPU, and Tenstorrent on clouds, Kubernetes, and bare metal."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dstackai/dstack",
+      "status": "candidate-context",
+      "text": "<div style=\"text-align: center;\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bghira/SimpleTuner",
+      "status": "candidate-context",
+      "text": "A general fine-tuning kit geared toward image/video/audio diffusion models."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bghira/SimpleTuner",
+      "status": "candidate-context",
+      "text": "> \u2139\ufe0f No data is sent to any third parties except through opt-in flag `report_to`, `push_to_hub`, or webhooks which must be manually configured."
     }
   ],
   "candidate_glosses": [
@@ -369,6 +405,24 @@
       "source_repo": "eosphoros-ai/DB-GPT-Hub",
       "status": "candidate",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "haofanwang/Lora-for-Diffusers",
+      "status": "candidate",
+      "text": "This repository provides the simplest tutorial code for AIGC researchers to use Lora in just a few lines. Using this handbook, you can easily play with any Lora model from active communities such as [Huggingface](https://huggingface.co/) and [cititai](https://civitai.com/)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dstackai/dstack",
+      "status": "candidate",
+      "text": "<div style=\"text-align: center;\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bghira/SimpleTuner",
+      "status": "candidate",
+      "text": "> \u2139\ufe0f No data is sent to any third parties except through opt-in flag `report_to`, `push_to_hub`, or webhooks which must be manually configured."
     }
   ],
   "candidate_related_terms": [
@@ -592,11 +646,53 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "hiyouga/LlamaFactory"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "axolotl-ai-cloud/axolotl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "haofanwang/Lora-for-Diffusers"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "hiyouga/LlamaFactory"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "dstackai/dstack"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "ZhaoJ9014/face.evoLVe"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "run-llama/llama_index"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "bghira/SimpleTuner"
     }
   ],
   "first_seen_at": "2026-04-19T01:08:57.644140+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,227 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kwilczynski/ruby-magic",
+      "target": "c-extension",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kwilczynski/ruby-magic",
+      "target": "content-type",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kwilczynski/ruby-magic",
+      "target": "file-extension",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kwilczynski/ruby-magic",
+      "target": "file-format",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kwilczynski/ruby-magic",
+      "target": "file-magic",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kwilczynski/ruby-magic",
+      "target": "file-type",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kwilczynski/ruby-magic",
+      "target": "file-type-detection",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kwilczynski/ruby-magic",
+      "target": "magic",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kwilczynski/ruby-magic",
+      "target": "mime",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kwilczynski/ruby-magic",
+      "target": "mime-types",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kwilczynski/ruby-magic",
+      "target": "recognition",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kwilczynski/ruby-magic",
+      "target": "ruby",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kwilczynski/ruby-magic",
+      "target": "ruby-gem",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kwilczynski/ruby-magic",
+      "target": "validation",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T05:05:10.807898+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1246
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Simple interface to libmagic for Ruby Programming Language",
+    "fork": false,
+    "full_name": "kwilczynski/ruby-magic",
+    "html_url": "https://github.com/kwilczynski/ruby-magic",
+    "language": "C",
+    "pushed_at": "2025-08-05T10:29:39Z",
+    "stargazers_count": 28,
+    "topics": [
+      "c",
+      "c-extension",
+      "content-type",
+      "file-extension",
+      "file-format",
+      "file-magic",
+      "file-type",
+      "file-type-detection",
+      "magic",
+      "mime",
+      "mime-types",
+      "recognition",
+      "ruby",
+      "ruby-gem",
+      "validation"
+    ],
+    "updated_at": "2025-12-04T05:36:25Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "[![Gem Version](http://badge.fury.io/rb/ruby-magic.svg)](http://badge.fury.io/rb/ruby-magic)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "c-extension"
+    },
+    {
+      "context_snippet": "[![Gem Version](http://badge.fury.io/rb/ruby-magic.svg)](http://badge.fury.io/rb/ruby-magic)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "content-type"
+    },
+    {
+      "context_snippet": "[![Gem Version](http://badge.fury.io/rb/ruby-magic.svg)](http://badge.fury.io/rb/ruby-magic)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "file-extension"
+    },
+    {
+      "context_snippet": "[![Gem Version](http://badge.fury.io/rb/ruby-magic.svg)](http://badge.fury.io/rb/ruby-magic)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "file-format"
+    },
+    {
+      "context_snippet": "[![Gem Version](http://badge.fury.io/rb/ruby-magic.svg)](http://badge.fury.io/rb/ruby-magic)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "file-magic"
+    },
+    {
+      "context_snippet": "[![Gem Version](http://badge.fury.io/rb/ruby-magic.svg)](http://badge.fury.io/rb/ruby-magic)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "file-type"
+    },
+    {
+      "context_snippet": "[![Gem Version](http://badge.fury.io/rb/ruby-magic.svg)](http://badge.fury.io/rb/ruby-magic)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "file-type-detection"
+    },
+    {
+      "context_snippet": "[![Gem Version](http://badge.fury.io/rb/ruby-magic.svg)](http://badge.fury.io/rb/ruby-magic)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "magic"
+    },
+    {
+      "context_snippet": "[![Gem Version](http://badge.fury.io/rb/ruby-magic.svg)](http://badge.fury.io/rb/ruby-magic)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mime"
+    },
+    {
+      "context_snippet": "[![Gem Version](http://badge.fury.io/rb/ruby-magic.svg)](http://badge.fury.io/rb/ruby-magic)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mime-types"
+    },
+    {
+      "context_snippet": "[![Gem Version](http://badge.fury.io/rb/ruby-magic.svg)](http://badge.fury.io/rb/ruby-magic)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "recognition"
+    },
+    {
+      "context_snippet": "[![Gem Version](http://badge.fury.io/rb/ruby-magic.svg)](http://badge.fury.io/rb/ruby-magic)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ruby"
+    },
+    {
+      "context_snippet": "[![Gem Version](http://badge.fury.io/rb/ruby-magic.svg)](http://badge.fury.io/rb/ruby-magic)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ruby-gem"
+    },
+    {
+      "context_snippet": "[![Gem Version](http://badge.fury.io/rb/ruby-magic.svg)](http://badge.fury.io/rb/ruby-magic)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "validation"
+    }
+  ]
+}

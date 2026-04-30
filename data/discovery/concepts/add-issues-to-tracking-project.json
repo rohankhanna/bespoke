@@ -1,0 +1,124 @@
+{
+  "aliases": [
+    "Add issues to tracking project"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nvim-neotest/nvim-nio",
+      "status": "candidate-context",
+      "text": "A library for asynchronous IO in Neovim"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nvim-neotest/nvim-nio",
+      "status": "candidate-context",
+      "text": "Add issues to tracking project"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nvim-neotest/neotest",
+      "status": "candidate-context",
+      "text": "An extensible framework for interacting with tests within NeoVim."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nvim-neotest/neotest",
+      "status": "candidate-context",
+      "text": "Add issues to tracking project"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nvim-neotest/nvim-nio",
+      "status": "candidate",
+      "text": "Add issues to tracking project"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nvim-neotest/neotest",
+      "status": "candidate",
+      "text": "Add issues to tracking project"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28718,
+      "status": "candidate",
+      "text": "pursuit"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28514,
+      "status": "candidate",
+      "text": "supplement"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28419,
+      "status": "candidate",
+      "text": "follow-up"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28398,
+      "status": "candidate",
+      "text": "develop"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28395,
+      "status": "candidate",
+      "text": "tally"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Add issues to tracking project",
+  "concept_id": "add-issues-to-tracking-project",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/issues.yaml",
+      "source_repo": "nvim-neotest/nvim-nio"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/issues.yaml",
+      "source_repo": "nvim-neotest/neotest"
+    }
+  ],
+  "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Add issues to tracking project",
+      "sense_id": "add-issues-to-tracking-project#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

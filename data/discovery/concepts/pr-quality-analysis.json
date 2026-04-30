@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "PR Quality Analysis"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rockerBOO/awesome-neovim",
+      "status": "candidate-context",
+      "text": "Collections of awesome neovim plugins."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rockerBOO/awesome-neovim",
+      "status": "candidate-context",
+      "text": "PR Quality Analysis"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rockerBOO/awesome-neovim",
+      "status": "candidate",
+      "text": "PR Quality Analysis"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31779,
+      "status": "candidate",
+      "text": "vehemence"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26562,
+      "status": "candidate",
+      "text": "assay"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26562,
+      "status": "candidate",
+      "text": "prove"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26407,
+      "status": "candidate",
+      "text": "coverage"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 23779,
+      "status": "candidate",
+      "text": "key"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "PR Quality Analysis",
+  "concept_id": "pr-quality-analysis",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/pr-quality-analysis.yml",
+      "source_repo": "rockerBOO/awesome-neovim"
+    }
+  ],
+  "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "PR Quality Analysis",
+      "sense_id": "pr-quality-analysis#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

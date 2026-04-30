@@ -223,6 +223,42 @@
       "source_repo": "microsoft/DirectXTK",
       "status": "candidate-context",
       "text": "![DirectX Logo](https://raw.githubusercontent.com/wiki/Microsoft/DirectXTK/X_jpg.jpg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ericdallo/hover.el",
+      "status": "candidate-context",
+      "text": "Flutter tool to run hover on emacs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ericdallo/hover.el",
+      "status": "candidate-context",
+      "text": "<img align=\"right\" src=\"https://github.com/go-flutter-desktop/hover/blob/master/assets/app/icon.png\" width=\"64\"/>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "2KAbhishek/awesome2k",
+      "status": "candidate-context",
+      "text": "Awesome Window Management \ud83e\ude9f\ud83d\ude80"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "2KAbhishek/awesome2k",
+      "status": "candidate-context",
+      "text": "<div align = \"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bytebot-ai/bytebot",
+      "status": "candidate-context",
+      "text": "Bytebot is a self-hosted AI desktop agent that automates computer tasks through natural language commands, operating within a containerized Linux desktop environment."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bytebot-ai/bytebot",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -333,6 +369,24 @@
       "source_repo": "microsoft/DirectXTK",
       "status": "candidate",
       "text": "![DirectX Logo](https://raw.githubusercontent.com/wiki/Microsoft/DirectXTK/X_jpg.jpg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ericdallo/hover.el",
+      "status": "candidate",
+      "text": "<img align=\"right\" src=\"https://github.com/go-flutter-desktop/hover/blob/master/assets/app/icon.png\" width=\"64\"/>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "2KAbhishek/awesome2k",
+      "status": "candidate",
+      "text": "<div align = \"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bytebot-ai/bytebot",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -595,11 +649,47 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "microsoft/DirectXTK"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "ericdallo/hover.el"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "2KAbhishek/awesome2k"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "podman-desktop/podman-desktop"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "nwjs/nw.js"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "bytebot-ai/bytebot"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "ChatGPTNextWeb/NextChat"
     }
   ],
   "first_seen_at": "2026-04-19T17:42:30.117329+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

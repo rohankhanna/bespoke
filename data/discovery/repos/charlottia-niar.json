@@ -1,0 +1,166 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/unit-tests.yml"
+    },
+    {
+      "component": "pdm-project/setup-pdm@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/unit-tests.yml"
+    },
+    {
+      "component": "YosysHQ/setup-oss-cad-suite@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/unit-tests.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "charlottia/niar",
+      "target": "kivikakk/zxxrtl",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "charlottia/niar",
+      "target": "kivikakk/sae",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "charlottia/niar",
+      "target": "kivikakk/ili9341spi",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "pyproject.toml",
+      "source_repo": "charlottia/niar",
+      "target": "amaranth-lang/amaranth-boards",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/unit-tests.yml",
+      "source_repo": "charlottia/niar",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/unit-tests.yml",
+      "source_repo": "charlottia/niar",
+      "target": "pdm-project/setup-pdm@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/unit-tests.yml",
+      "source_repo": "charlottia/niar",
+      "target": "YosysHQ/setup-oss-cad-suite@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/unit-tests.yml",
+      "source_repo": "charlottia/niar",
+      "target": "Unit tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "charlottia/niar",
+      "target": "amaranth",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "charlottia/niar",
+      "target": "fpga",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T04:50:59.667171+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 742
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 724
+    },
+    {
+      "path": ".github/workflows/unit-tests.yml",
+      "size": 559
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "main",
+    "description": "A small framework for building projects with Amaranth",
+    "fork": false,
+    "full_name": "charlottia/niar",
+    "html_url": "https://github.com/charlottia/niar",
+    "language": "Python",
+    "pushed_at": "2024-10-21T06:44:45Z",
+    "stargazers_count": 4,
+    "topics": [
+      "amaranth",
+      "fpga",
+      "python"
+    ],
+    "updated_at": "2025-09-24T01:39:19Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "kivikakk/ili9341spi",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "kivikakk/sae",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "kivikakk/zxxrtl",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "amaranth-lang/amaranth-boards",
+      "source_file": "pyproject.toml"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Unit tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/unit-tests.yml",
+      "term": "Unit tests"
+    },
+    {
+      "context_snippet": "A small framework for building projects with [Amaranth]. Provides support for",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "amaranth"
+    },
+    {
+      "context_snippet": "A small framework for building projects with [Amaranth]. Provides support for",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "fpga"
+    }
+  ]
+}

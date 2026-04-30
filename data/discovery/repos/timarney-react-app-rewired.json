@@ -1,0 +1,204 @@
+{
+  "components": [
+    {
+      "component": "semver",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "react-scripts",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "react-scripts",
+      "edge_type": "package-json:peerDependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "timarney/react-app-rewired",
+      "target": "arackaf/customize-cra",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "timarney/react-app-rewired",
+      "target": "andreyco/react-app-rewire-lingui",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "timarney/react-app-rewired",
+      "target": "andriijas/react-app-rewire-less-modules",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "timarney/react-app-rewired",
+      "target": "andriijas/react-app-rewire-vendor-splitting",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "timarney/react-app-rewired",
+      "target": "semver",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "timarney/react-app-rewired",
+      "target": "react-scripts",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:peerDependencies",
+      "source_file": "package.json",
+      "source_repo": "timarney/react-app-rewired",
+      "target": "react-scripts",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "timarney/react-app-rewired",
+      "target": "config",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "timarney/react-app-rewired",
+      "target": "create-react-app",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "timarney/react-app-rewired",
+      "target": "eject",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "timarney/react-app-rewired",
+      "target": "never",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "timarney/react-app-rewired",
+      "target": "react",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "timarney/react-app-rewired",
+      "target": "webpack",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T04:03:39.391244+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 24283
+    },
+    {
+      "path": "package.json",
+      "size": 1130
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Override create-react-app webpack configs without ejecting",
+    "fork": false,
+    "full_name": "timarney/react-app-rewired",
+    "html_url": "https://github.com/timarney/react-app-rewired",
+    "language": "JavaScript",
+    "pushed_at": "2025-02-13T03:23:53Z",
+    "stargazers_count": 9858,
+    "topics": [
+      "config",
+      "create-react-app",
+      "eject",
+      "never",
+      "react",
+      "webpack"
+    ],
+    "updated_at": "2026-04-28T13:40:52Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "andreyco/react-app-rewire-lingui",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "andriijas/react-app-rewire-less-modules",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "andriijas/react-app-rewire-vendor-splitting",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "arackaf/customize-cra",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "> \u2139\ufe0f",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "config"
+    },
+    {
+      "context_snippet": "> \u2139\ufe0f",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "create-react-app"
+    },
+    {
+      "context_snippet": "> \u2139\ufe0f",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "eject"
+    },
+    {
+      "context_snippet": "> \u2139\ufe0f",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "never"
+    },
+    {
+      "context_snippet": "> \u2139\ufe0f",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "react"
+    },
+    {
+      "context_snippet": "> \u2139\ufe0f",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "webpack"
+    }
+  ]
+}

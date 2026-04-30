@@ -463,6 +463,72 @@
       "source_repo": "aileot/vim-foldpeek",
       "status": "candidate-context",
       "text": "vim-foldpeek starts from a partial fork of"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nvim-lualine/lualine.nvim",
+      "status": "candidate-context",
+      "text": "A blazing fast and easy to configure neovim statusline plugin written in pure lua."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nvim-lualine/lualine.nvim",
+      "status": "candidate-context",
+      "text": "<!-- panvimdoc-ignore-start -->"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "onsails/diaglist.nvim",
+      "status": "candidate-context",
+      "text": "Live render workspace diagnostics in quickfix with current buf errors on top, buffer diagnostics in loclist"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "onsails/diaglist.nvim",
+      "status": "candidate-context",
+      "text": "![demo](https://github.com/onsails/diaglist.nvim/raw/gif/demo.gif)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "2KAbhishek/co-author.nvim",
+      "status": "candidate-context",
+      "text": "Quickly add co-authors to commits \ud83d\udcbb\ud83e\ude84"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "2KAbhishek/co-author.nvim",
+      "status": "candidate-context",
+      "text": "<div align = \"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jakewvincent/texmagic.nvim",
+      "status": "candidate-context",
+      "text": "![Banner](assets/images/banner.gif)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lumen-oss/rocks.nvim",
+      "status": "candidate-context",
+      "text": "\ud83c\udf12 Neovim plugin management inspired by Cargo, powered by luarocks"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lumen-oss/rocks.nvim",
+      "status": "candidate-context",
+      "text": "<!-- markdownlint-disable -->"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "2KAbhishek/mac2k",
+      "status": "candidate-context",
+      "text": "Ultimate Dev Setup for Mac OS \ud83d\ude80\ud83c\udf4e"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "2KAbhishek/mac2k",
+      "status": "candidate-context",
+      "text": "<div align = \"center\">"
     }
   ],
   "candidate_glosses": [
@@ -693,6 +759,42 @@
       "source_repo": "aileot/vim-foldpeek",
       "status": "candidate",
       "text": "vim-foldpeek starts from a partial fork of"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nvim-lualine/lualine.nvim",
+      "status": "candidate",
+      "text": "<!-- panvimdoc-ignore-start -->"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "onsails/diaglist.nvim",
+      "status": "candidate",
+      "text": "![demo](https://github.com/onsails/diaglist.nvim/raw/gif/demo.gif)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "2KAbhishek/co-author.nvim",
+      "status": "candidate",
+      "text": "<div align = \"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jakewvincent/texmagic.nvim",
+      "status": "candidate",
+      "text": "![Banner](assets/images/banner.gif)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lumen-oss/rocks.nvim",
+      "status": "candidate",
+      "text": "<!-- markdownlint-disable -->"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "2KAbhishek/mac2k",
+      "status": "candidate",
+      "text": "<div align = \"center\">"
     }
   ],
   "candidate_related_terms": [],
@@ -946,11 +1048,71 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "aileot/vim-foldpeek"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "neovim/nvim-lspconfig"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "nvim-lualine/lualine.nvim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "onsails/diaglist.nvim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "onsails/lspkind.nvim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "2KAbhishek/co-author.nvim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "aileot/vim-foldpeek"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "jakewvincent/texmagic.nvim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "akinsho/bufferline.nvim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "lumen-oss/rocks.nvim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "2KAbhishek/mac2k"
     }
   ],
   "first_seen_at": "2026-04-18T11:56:18.570627+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

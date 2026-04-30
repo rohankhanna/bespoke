@@ -1,0 +1,499 @@
+{
+  "components": [
+    {
+      "component": "useblacksmith/setup-docker-builder@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cd-dgraph-nightly.yml"
+    },
+    {
+      "component": "docker/login-action@v3.5.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cd-dgraph-nightly.yml"
+    },
+    {
+      "component": "useblacksmith/build-push-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cd-dgraph-nightly.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cd-dgraph.yml"
+    },
+    {
+      "component": "actions/setup-go@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cd-dgraph.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cd-dgraph.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cd-dgraph.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cd-dgraph.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cd-dgraph.yml"
+    },
+    {
+      "component": "actions/setup-go@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cd-dgraph.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cd-dgraph.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cd-dgraph.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cd-dgraph.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cd-dgraph.yml"
+    },
+    {
+      "component": "docker/login-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cd-dgraph.yml"
+    },
+    {
+      "component": "actions/download-artifact@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cd-dgraph.yml"
+    },
+    {
+      "component": "actions/download-artifact@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cd-dgraph.yml"
+    },
+    {
+      "component": "actions/download-artifact@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cd-dgraph.yml"
+    },
+    {
+      "component": "actions/download-artifact@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cd-dgraph.yml"
+    },
+    {
+      "component": "actions/download-artifact@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cd-dgraph.yml"
+    },
+    {
+      "component": "actions/download-artifact@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cd-dgraph.yml"
+    },
+    {
+      "component": "softprops/action-gh-release@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cd-dgraph.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-changes.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-dgraph-core-tests.yml"
+    },
+    {
+      "component": "actions/setup-go@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-dgraph-core-tests.yml"
+    },
+    {
+      "component": "trunk-io/analytics-uploader@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-dgraph-core-tests.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-dgraph-fuzz.yml"
+    },
+    {
+      "component": "actions/setup-go@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-dgraph-fuzz.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-dgraph-integration2-tests.yml"
+    },
+    {
+      "component": "actions/setup-go@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-dgraph-integration2-tests.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-dgraph-jepsen-tests.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-dgraph-jepsen-tests.yml"
+    },
+    {
+      "component": "actions/setup-go@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-dgraph-jepsen-tests.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cd-dgraph-nightly.yml",
+      "source_repo": "dgraph-io/dgraph",
+      "target": "useblacksmith/setup-docker-builder@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cd-dgraph-nightly.yml",
+      "source_repo": "dgraph-io/dgraph",
+      "target": "docker/login-action@v3.5.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cd-dgraph-nightly.yml",
+      "source_repo": "dgraph-io/dgraph",
+      "target": "useblacksmith/build-push-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cd-dgraph-nightly.yml",
+      "source_repo": "dgraph-io/dgraph",
+      "target": "Push Docker Image",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cd-dgraph.yml",
+      "source_repo": "dgraph-io/dgraph",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cd-dgraph.yml",
+      "source_repo": "dgraph-io/dgraph",
+      "target": "actions/setup-go@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cd-dgraph.yml",
+      "source_repo": "dgraph-io/dgraph",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cd-dgraph.yml",
+      "source_repo": "dgraph-io/dgraph",
+      "target": "docker/login-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cd-dgraph.yml",
+      "source_repo": "dgraph-io/dgraph",
+      "target": "actions/download-artifact@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cd-dgraph.yml",
+      "source_repo": "dgraph-io/dgraph",
+      "target": "softprops/action-gh-release@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cd-dgraph.yml",
+      "source_repo": "dgraph-io/dgraph",
+      "target": "cd-dgraph",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-changes.yml",
+      "source_repo": "dgraph-io/dgraph",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check-changes.yml",
+      "source_repo": "dgraph-io/dgraph",
+      "target": "Check File Changes",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-dgraph-core-tests.yml",
+      "source_repo": "dgraph-io/dgraph",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-dgraph-core-tests.yml",
+      "source_repo": "dgraph-io/dgraph",
+      "target": "actions/setup-go@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-dgraph-core-tests.yml",
+      "source_repo": "dgraph-io/dgraph",
+      "target": "trunk-io/analytics-uploader@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci-dgraph-core-tests.yml",
+      "source_repo": "dgraph-io/dgraph",
+      "target": "ci-dgraph-core-tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-dgraph-fuzz.yml",
+      "source_repo": "dgraph-io/dgraph",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-dgraph-fuzz.yml",
+      "source_repo": "dgraph-io/dgraph",
+      "target": "actions/setup-go@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci-dgraph-fuzz.yml",
+      "source_repo": "dgraph-io/dgraph",
+      "target": "ci-dgraph-fuzz",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-dgraph-integration2-tests.yml",
+      "source_repo": "dgraph-io/dgraph",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-dgraph-integration2-tests.yml",
+      "source_repo": "dgraph-io/dgraph",
+      "target": "actions/setup-go@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci-dgraph-integration2-tests.yml",
+      "source_repo": "dgraph-io/dgraph",
+      "target": "ci-dgraph-integration2-tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-dgraph-jepsen-tests.yml",
+      "source_repo": "dgraph-io/dgraph",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-dgraph-jepsen-tests.yml",
+      "source_repo": "dgraph-io/dgraph",
+      "target": "actions/setup-go@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci-dgraph-jepsen-tests.yml",
+      "source_repo": "dgraph-io/dgraph",
+      "target": "ci-dgraph-jepsen-tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dgraph-io/dgraph",
+      "target": "database",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dgraph-io/dgraph",
+      "target": "distributed",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dgraph-io/dgraph",
+      "target": "knowledge-graph",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T01:46:13.702350+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7691
+    },
+    {
+      "path": "Dockerfile",
+      "size": 1135
+    },
+    {
+      "path": "go.mod",
+      "size": 7949
+    },
+    {
+      "path": ".github/workflows/cd-dgraph-nightly.yml",
+      "size": 763
+    },
+    {
+      "path": ".github/workflows/cd-dgraph.yml",
+      "size": 15701
+    },
+    {
+      "path": ".github/workflows/check-changes.yml",
+      "size": 2447
+    },
+    {
+      "path": ".github/workflows/ci-dgraph-core-tests.yml",
+      "size": 2211
+    },
+    {
+      "path": ".github/workflows/ci-dgraph-fuzz.yml",
+      "size": 850
+    },
+    {
+      "path": ".github/workflows/ci-dgraph-integration2-tests.yml",
+      "size": 1344
+    },
+    {
+      "path": ".github/workflows/ci-dgraph-jepsen-tests.yml",
+      "size": 1449
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "high-performance graph database for real-time use cases",
+    "fork": false,
+    "full_name": "dgraph-io/dgraph",
+    "html_url": "https://github.com/dgraph-io/dgraph",
+    "language": "Go",
+    "pushed_at": "2026-04-29T22:02:53Z",
+    "stargazers_count": 21667,
+    "topics": [
+      "database",
+      "distributed",
+      "go",
+      "knowledge-graph"
+    ],
+    "updated_at": "2026-04-29T21:56:07Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Push Docker Image",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cd-dgraph-nightly.yml",
+      "term": "Push Docker Image"
+    },
+    {
+      "context_snippet": "cd-dgraph",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cd-dgraph.yml",
+      "term": "cd-dgraph"
+    },
+    {
+      "context_snippet": "Check File Changes",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check-changes.yml",
+      "term": "Check File Changes"
+    },
+    {
+      "context_snippet": "ci-dgraph-core-tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci-dgraph-core-tests.yml",
+      "term": "ci-dgraph-core-tests"
+    },
+    {
+      "context_snippet": "ci-dgraph-fuzz",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci-dgraph-fuzz.yml",
+      "term": "ci-dgraph-fuzz"
+    },
+    {
+      "context_snippet": "ci-dgraph-integration2-tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci-dgraph-integration2-tests.yml",
+      "term": "ci-dgraph-integration2-tests"
+    },
+    {
+      "context_snippet": "ci-dgraph-jepsen-tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci-dgraph-jepsen-tests.yml",
+      "term": "ci-dgraph-jepsen-tests"
+    },
+    {
+      "context_snippet": "<picture>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "database"
+    },
+    {
+      "context_snippet": "<picture>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "distributed"
+    },
+    {
+      "context_snippet": "<picture>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "knowledge-graph"
+    }
+  ]
+}

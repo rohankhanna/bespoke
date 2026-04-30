@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Coca is a toolbox which is design for legacy system refactoring and analysis, includes call graph, concept analysis, api tree, design patterns suggest. Coca \u662f\u4e00\u4e2a\u7528\u4e8e\u7cfb\u7edf\u91cd\u6784\u3001\u7cfb\u7edf\u8fc1\u79fb\u548c\u7cfb\u7edf\u5206\u6790\u7684\u5de5\u5177\u7bb1\u3002\u5b83\u53ef\u4ee5\u5206\u6790\u4ee3\u7801\u4e2d\u7684\u6d4b\u8bd5\u574f\u5473\u9053\u3001\u6a21\u5757\u5316\u5206\u6790\u3001\u884c\u6570\u7edf\u8ba1\u3001\u5206\u6790\u8c03\u7528\u4e0e\u4f9d\u8d56\u3001Git \u5206\u6790\u4ee5\u53ca\u81ea\u52a8\u5316\u91cd\u6784\u7b49\u3002"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/phodal/coca)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/phodal/coca)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19929860,
+      "status": "candidate",
+      "text": "refactorization"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19929859,
+      "status": "candidate",
+      "text": "refactorer"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19929858,
+      "status": "candidate",
+      "text": "reprogramming"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19929857,
+      "status": "candidate",
+      "text": "optimization"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19929856,
+      "status": "candidate",
+      "text": "recompile"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "refactoring",
+      "sense_id": "refactoring#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "refactoring",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "refactoring",
+  "observation_id": "7765e863e38c05ee",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T00:37:16.824464+00:00",
+  "observed_text": "refactoring",
+  "source_context_snippet": "![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/phodal/coca)",
+  "source_file": null,
+  "source_repo": "phodal/coca",
+  "source_repo_description": "Coca is a toolbox which is design for legacy system refactoring and analysis, includes call graph, concept analysis, api tree, design patterns suggest. Coca \u662f\u4e00\u4e2a\u7528\u4e8e\u7cfb\u7edf\u91cd\u6784\u3001\u7cfb\u7edf\u8fc1\u79fb\u548c\u7cfb\u7edf\u5206\u6790\u7684\u5de5\u5177\u7bb1\u3002\u5b83\u53ef\u4ee5\u5206\u6790\u4ee3\u7801\u4e2d\u7684\u6d4b\u8bd5\u574f\u5473\u9053\u3001\u6a21\u5757\u5316\u5206\u6790\u3001\u884c\u6570\u7edf\u8ba1\u3001\u5206\u6790\u8c03\u7528\u4e0e\u4f9d\u8d56\u3001Git \u5206\u6790\u4ee5\u53ca\u81ea\u52a8\u5316\u91cd\u6784\u7b49\u3002"
+}

@@ -1,0 +1,294 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "JohnnyMorganz/stylua-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "rhysd/action-setup-vim@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml"
+    },
+    {
+      "component": "kdheepak/panvimdoc@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml"
+    },
+    {
+      "component": "ad-m/github-push-action@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "2KAbhishek/tdo.nvim",
+      "target": "2kabhishek/tdo",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "2KAbhishek/tdo.nvim",
+      "target": "2kabhishek/pickme.nvim",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "2KAbhishek/tdo.nvim",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "2KAbhishek/tdo.nvim",
+      "target": "JohnnyMorganz/stylua-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "2KAbhishek/tdo.nvim",
+      "target": "rhysd/action-setup-vim@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "2KAbhishek/tdo.nvim",
+      "target": "CI Lint and Test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "2KAbhishek/tdo.nvim",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "2KAbhishek/tdo.nvim",
+      "target": "kdheepak/panvimdoc@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "2KAbhishek/tdo.nvim",
+      "target": "ad-m/github-push-action@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "2KAbhishek/tdo.nvim",
+      "target": "Generate Docs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "2KAbhishek/tdo.nvim",
+      "target": "editor",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "2KAbhishek/tdo.nvim",
+      "target": "journal",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "2KAbhishek/tdo.nvim",
+      "target": "neovim",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "2KAbhishek/tdo.nvim",
+      "target": "neovim-plugin",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "2KAbhishek/tdo.nvim",
+      "target": "note-taking",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "2KAbhishek/tdo.nvim",
+      "target": "notes",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "2KAbhishek/tdo.nvim",
+      "target": "second-brain",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "2KAbhishek/tdo.nvim",
+      "target": "todos",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "2KAbhishek/tdo.nvim",
+      "target": "tools",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T05:00:59.658245+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9346
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 696
+    },
+    {
+      "path": ".github/workflows/docs.yml",
+      "size": 767
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Fast & Simple Notes in Neovim \ud83d\udcc3\ud83d\ude80",
+    "fork": false,
+    "full_name": "2KAbhishek/tdo.nvim",
+    "html_url": "https://github.com/2KAbhishek/tdo.nvim",
+    "language": "Lua",
+    "pushed_at": "2025-11-20T06:13:22Z",
+    "stargazers_count": 98,
+    "topics": [
+      "editor",
+      "journal",
+      "neovim",
+      "neovim-plugin",
+      "note-taking",
+      "notes",
+      "pkm",
+      "second-brain",
+      "todos",
+      "tools"
+    ],
+    "updated_at": "2026-04-26T03:17:59Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "2kabhishek/pickme.nvim",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "2kabhishek/tdo",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "CI Lint and Test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "term": "CI Lint and Test"
+    },
+    {
+      "context_snippet": "Generate Docs",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docs.yml",
+      "term": "Generate Docs"
+    },
+    {
+      "context_snippet": "<div align = \"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "editor"
+    },
+    {
+      "context_snippet": "<div align = \"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "journal"
+    },
+    {
+      "context_snippet": "<div align = \"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "neovim"
+    },
+    {
+      "context_snippet": "<div align = \"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "neovim-plugin"
+    },
+    {
+      "context_snippet": "<div align = \"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "note-taking"
+    },
+    {
+      "context_snippet": "<div align = \"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "notes"
+    },
+    {
+      "context_snippet": "<div align = \"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "second-brain"
+    },
+    {
+      "context_snippet": "<div align = \"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "todos"
+    },
+    {
+      "context_snippet": "<div align = \"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tools"
+    }
+  ]
+}

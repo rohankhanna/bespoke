@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "kobo"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "NiLuJe/FBInk",
+      "status": "candidate-context",
+      "text": "FrameBuffer eInker, a small tool & library to print text & images to an eInk Linux framebuffer"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NiLuJe/FBInk",
+      "status": "candidate-context",
+      "text": "[![License](https://img.shields.io/github/license/NiLuJe/FBInk.svg)](/LICENSE) [![Codacy Badge](https://api.codacy.com/project/badge/Grade/0e955c5239c54b10a167bbde1c2d75c1)](https://www.codacy.com/app/NiLuJe/FBInk?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=NiL\u2026"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NiLuJe/FBInk",
+      "status": "candidate",
+      "text": "[![License](https://img.shields.io/github/license/NiLuJe/FBInk.svg)](/LICENSE) [![Codacy Badge](https://api.codacy.com/project/badge/Grade/0e955c5239c54b10a167bbde1c2d75c1)](https://www.codacy.com/app/NiLuJe/FBInk?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=NiL\u2026"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10029550,
+      "status": "candidate",
+      "text": "kurus"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10029549,
+      "status": "candidate",
+      "text": "thebe"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10029548,
+      "status": "candidate",
+      "text": "paisa"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10029547,
+      "status": "candidate",
+      "text": "chetrum"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10029546,
+      "status": "candidate",
+      "text": "kwanza"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "kobo",
+  "concept_id": "kobo",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "NiLuJe/FBInk"
+    }
+  ],
+  "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "kobo",
+      "sense_id": "kobo#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

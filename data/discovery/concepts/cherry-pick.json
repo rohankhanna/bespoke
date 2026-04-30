@@ -32,6 +32,18 @@
       "source_repo": "argoproj/argo-cd",
       "status": "candidate-context",
       "text": "Cherry Pick"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "NVIDIA/gpu-operator",
+      "status": "candidate-context",
+      "text": "NVIDIA GPU Operator creates, configures, and manages GPUs in Kubernetes"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NVIDIA/gpu-operator",
+      "status": "candidate-context",
+      "text": "Cherry-Pick"
     }
   ],
   "candidate_glosses": [
@@ -46,6 +58,12 @@
       "source_repo": "argoproj/argo-cd",
       "status": "candidate",
       "text": "Cherry Pick"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NVIDIA/gpu-operator",
+      "status": "candidate",
+      "text": "Cherry-Pick"
     }
   ],
   "candidate_related_terms": [
@@ -136,11 +154,17 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": ".github/workflows/cherry-pick.yml",
       "source_repo": "argoproj/argo-cd"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/cherrypick.yml",
+      "source_repo": "NVIDIA/gpu-operator"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

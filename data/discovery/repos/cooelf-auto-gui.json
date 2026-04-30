@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T02:50:12.282940+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3722
+    },
+    {
+      "path": "requirements.txt",
+      "size": 65
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Official implementation for \"You Only Look at Screens: Multimodal Chain-of-Action Agents\" (Findings of ACL 2024)",
+    "fork": false,
+    "full_name": "cooelf/Auto-GUI",
+    "html_url": "https://github.com/cooelf/Auto-GUI",
+    "language": "Python",
+    "pushed_at": "2024-07-16T04:46:04Z",
+    "stargazers_count": 260,
+    "topics": [],
+    "updated_at": "2026-04-22T18:40:28Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

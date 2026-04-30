@@ -1,0 +1,88 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "extism/c-pdk",
+      "target": "extism/cli",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "extism/c-pdk",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "extism/c-pdk",
+      "target": "extism",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "extism/c-pdk",
+      "target": "wasm",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T03:05:38.381348+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 13828
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 771
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Extism Plug-in Development Kit (PDK) for C",
+    "fork": false,
+    "full_name": "extism/c-pdk",
+    "html_url": "https://github.com/extism/c-pdk",
+    "language": "C",
+    "pushed_at": "2024-10-22T17:14:25Z",
+    "stargazers_count": 14,
+    "topics": [
+      "extism",
+      "wasm"
+    ],
+    "updated_at": "2025-12-26T04:55:23Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "extism/cli",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "This project contains a tool that can be used to create [Extism Plug-ins](https://extism.org/docs/concepts/plug-in) in C.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "extism"
+    },
+    {
+      "context_snippet": "This project contains a tool that can be used to create [Extism Plug-ins](https://extism.org/docs/concepts/plug-in) in C.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "wasm"
+    }
+  ]
+}

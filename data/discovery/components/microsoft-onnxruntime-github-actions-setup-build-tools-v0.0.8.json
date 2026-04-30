@@ -1,0 +1,27 @@
+{
+  "component": "microsoft/onnxruntime-github-actions/setup-build-tools@v0.0.8",
+  "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ios-build.yml",
+      "source_repo": "microsoft/onnxruntime-genai"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/linux-cpu-x64-build.yml",
+      "source_repo": "microsoft/onnxruntime-genai"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/linux-cpu-x64-nightly-build.yml",
+      "source_repo": "microsoft/onnxruntime-genai"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/linux-gpu-x64-build.yml",
+      "source_repo": "microsoft/onnxruntime-genai"
+    }
+  ]
+}

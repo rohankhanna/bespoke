@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "CodeQL: the libraries and queries that power security researchers around the world, as well as code scanning in GitHub Advanced Security"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Check overlay annotations"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Check overlay annotations"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20933,
+      "status": "candidate",
+      "text": "break"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14100,
+      "status": "candidate",
+      "text": "annotate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14100,
+      "status": "candidate",
+      "text": "commentate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14100,
+      "status": "candidate",
+      "text": "describe"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 13978,
+      "status": "candidate",
+      "text": "note"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Check overlay annotations",
+      "sense_id": "check-overlay-annotations#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "check-overlay-annotations",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "check-overlay-annotations",
+  "observation_id": "e9c14ae677d5ff82",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-30T00:37:16.824464+00:00",
+  "observed_text": "Check overlay annotations",
+  "source_context_snippet": "Check overlay annotations",
+  "source_file": ".github/workflows/check-overlay-annotations.yml",
+  "source_repo": "github/codeql",
+  "source_repo_description": "CodeQL: the libraries and queries that power security researchers around the world, as well as code scanning in GitHub Advanced Security"
+}

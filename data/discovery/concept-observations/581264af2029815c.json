@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Audit URLs using Lighthouse and test performance with Lighthouse CI."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "LHCI-upload-to-private-server"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "LHCI-upload-to-private-server"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "LHCI-upload-to-private-server",
+      "sense_id": "lhci-upload-to-private-server#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "lhci-upload-to-private-server",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "lhci-upload-to-private-server",
+  "observation_id": "581264af2029815c",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-30T00:37:16.824464+00:00",
+  "observed_text": "LHCI-upload-to-private-server",
+  "source_context_snippet": "LHCI-upload-to-private-server",
+  "source_file": ".github/workflows/LHCI-upload-to-private-server.yml",
+  "source_repo": "treosh/lighthouse-ci-action",
+  "source_repo_description": "Audit URLs using Lighthouse and test performance with Lighthouse CI."
+}

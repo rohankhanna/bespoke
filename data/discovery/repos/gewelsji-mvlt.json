@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T05:15:16.324070+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5389
+    },
+    {
+      "path": "requirements.txt",
+      "size": 87
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Masked Vision-Language Transformer in Fashion",
+    "fork": false,
+    "full_name": "GewelsJI/MVLT",
+    "html_url": "https://github.com/GewelsJI/MVLT",
+    "language": "Python",
+    "pushed_at": "2023-10-16T22:33:40Z",
+    "stargazers_count": 38,
+    "topics": [],
+    "updated_at": "2025-11-28T00:57:40Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

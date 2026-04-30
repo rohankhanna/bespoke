@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Endo is a distributed secure JavaScript sandbox, based on SES"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Test project mutual dependency versions"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Test project mutual dependency versions"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40698,
+      "status": "candidate",
+      "text": "trial"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29941,
+      "status": "candidate",
+      "text": "accountant"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29820,
+      "status": "candidate",
+      "text": "countdown"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28576,
+      "status": "candidate",
+      "text": "grant-in-aid"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28558,
+      "status": "candidate",
+      "text": "accounting"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Test project mutual dependency versions",
+      "sense_id": "test-project-mutual-dependency-versions#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "test-project-mutual-dependency-versions",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "test-project-mutual-dependency-versions",
+  "observation_id": "bc616ecbb72bc24b",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-30T00:37:16.824464+00:00",
+  "observed_text": "Test project mutual dependency versions",
+  "source_context_snippet": "Test project mutual dependency versions",
+  "source_file": ".github/workflows/depcheck.yml",
+  "source_repo": "endojs/endo",
+  "source_repo_description": "Endo is a distributed secure JavaScript sandbox, based on SES"
+}

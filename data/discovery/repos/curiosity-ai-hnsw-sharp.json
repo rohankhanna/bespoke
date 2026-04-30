@@ -1,0 +1,128 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "curiosity-ai/hnsw-sharp",
+      "target": "microsoft/hnsw.net",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "curiosity-ai/hnsw-sharp",
+      "target": "approximate-nearest-neighbor-search",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "curiosity-ai/hnsw-sharp",
+      "target": "csharp",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "curiosity-ai/hnsw-sharp",
+      "target": "dotnet",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "curiosity-ai/hnsw-sharp",
+      "target": "embeddings",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "curiosity-ai/hnsw-sharp",
+      "target": "netcore",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "curiosity-ai/hnsw-sharp",
+      "target": "word2vec",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T03:53:00.849619+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4501
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "C# library for approximate nearest neighbors search using Hierarchical Navigable Small World graphs",
+    "fork": false,
+    "full_name": "curiosity-ai/hnsw-sharp",
+    "html_url": "https://github.com/curiosity-ai/hnsw-sharp",
+    "language": "C#",
+    "pushed_at": "2026-04-05T08:07:25Z",
+    "stargazers_count": 99,
+    "topics": [
+      "ann",
+      "approximate-nearest-neighbor-search",
+      "csharp",
+      "dotnet",
+      "embeddings",
+      "netcore",
+      "word2vec"
+    ],
+    "updated_at": "2026-04-26T11:12:00Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "microsoft/hnsw.net",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[![Build Status](https://dev.azure.com/curiosity-ai/mosaik/_apis/build/status/hnsw-sharp?branchName=master)](https://dev.azure.com/curiosity-ai/mosaik/_build/latest?definitionId=7&branchName=master)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "approximate-nearest-neighbor-search"
+    },
+    {
+      "context_snippet": "[![Build Status](https://dev.azure.com/curiosity-ai/mosaik/_apis/build/status/hnsw-sharp?branchName=master)](https://dev.azure.com/curiosity-ai/mosaik/_build/latest?definitionId=7&branchName=master)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "csharp"
+    },
+    {
+      "context_snippet": "[![Build Status](https://dev.azure.com/curiosity-ai/mosaik/_apis/build/status/hnsw-sharp?branchName=master)](https://dev.azure.com/curiosity-ai/mosaik/_build/latest?definitionId=7&branchName=master)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dotnet"
+    },
+    {
+      "context_snippet": "[![Build Status](https://dev.azure.com/curiosity-ai/mosaik/_apis/build/status/hnsw-sharp?branchName=master)](https://dev.azure.com/curiosity-ai/mosaik/_build/latest?definitionId=7&branchName=master)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "embeddings"
+    },
+    {
+      "context_snippet": "[![Build Status](https://dev.azure.com/curiosity-ai/mosaik/_apis/build/status/hnsw-sharp?branchName=master)](https://dev.azure.com/curiosity-ai/mosaik/_build/latest?definitionId=7&branchName=master)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "netcore"
+    },
+    {
+      "context_snippet": "[![Build Status](https://dev.azure.com/curiosity-ai/mosaik/_apis/build/status/hnsw-sharp?branchName=master)](https://dev.azure.com/curiosity-ai/mosaik/_build/latest?definitionId=7&branchName=master)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "word2vec"
+    }
+  ]
+}

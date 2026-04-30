@@ -97,6 +97,18 @@
       "source_repo": "google-research/scenic",
       "status": "candidate-context",
       "text": "<div style=\"text-align: left\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bytedance/lynx-llm",
+      "status": "candidate-context",
+      "text": "paper: https://arxiv.org/abs/2307.02469 page: https://lynx-llm.github.io/"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bytedance/lynx-llm",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -147,6 +159,12 @@
       "source_repo": "google-research/scenic",
       "status": "candidate",
       "text": "<div style=\"text-align: left\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bytedance/lynx-llm",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -285,11 +303,23 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "google-research/scenic"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "google-deepmind/acme"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "bytedance/lynx-llm"
     }
   ],
   "first_seen_at": "2026-04-18T11:24:14.688152+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

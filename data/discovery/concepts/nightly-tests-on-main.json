@@ -31,6 +31,30 @@
       "source_repo": "gligen/diffusers",
       "status": "candidate-context",
       "text": "Nightly tests on main"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "takuma104/diffusers",
+      "status": "candidate-context",
+      "text": "\ud83e\udd17 Diffusers: State-of-the-art diffusion models for image and audio generation in PyTorch"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "takuma104/diffusers",
+      "status": "candidate-context",
+      "text": "Nightly tests on main"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "HimariO/diffusers-t2i-adapter",
+      "status": "candidate-context",
+      "text": "\ud83e\udd17 Diffusers: State-of-the-art diffusion models for image and audio generation in PyTorch"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "HimariO/diffusers-t2i-adapter",
+      "status": "candidate-context",
+      "text": "Nightly tests on main"
     }
   ],
   "candidate_glosses": [
@@ -43,6 +67,18 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "gligen/diffusers",
+      "status": "candidate",
+      "text": "Nightly tests on main"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "takuma104/diffusers",
+      "status": "candidate",
+      "text": "Nightly tests on main"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "HimariO/diffusers-t2i-adapter",
       "status": "candidate",
       "text": "Nightly tests on main"
     }
@@ -100,11 +136,23 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": ".github/workflows/nightly_tests.yml",
       "source_repo": "gligen/diffusers"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/nightly_tests.yml",
+      "source_repo": "takuma104/diffusers"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/nightly_tests.yml",
+      "source_repo": "HimariO/diffusers-t2i-adapter"
     }
   ],
   "first_seen_at": "2026-04-19T02:42:33.990002+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

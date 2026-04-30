@@ -2,7 +2,7 @@
   "component": "actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020",
   "discovered_via": "manifest-or-workflow",
   "first_seen_at": "2026-04-17T12:50:06.073855+00:00",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "source_repo": "NousResearch/hermes-agent",
   "sources": [
     {
@@ -204,6 +204,46 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/benchmark.yml",
       "source_repo": "base/base"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/benchmark.yml",
+      "source_repo": "web-infra-dev/rslib"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "web-infra-dev/rslint"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/copilot-setup-steps.yml",
+      "source_repo": "web-infra-dev/rslint"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/devbird.yml",
+      "source_repo": "web-infra-dev/rslint"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/cross-platform-builds.yml",
+      "source_repo": "ampproject/amphtml"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/cut-nightly.yml",
+      "source_repo": "ampproject/amphtml"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release-tagger.yml",
+      "source_repo": "ampproject/amphtml"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/agents-publish.yml",
+      "source_repo": "huggingface/huggingface.js"
     }
   ]
 }

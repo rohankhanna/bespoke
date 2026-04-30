@@ -1,0 +1,22 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T04:08:08.557745+00:00",
+  "fetched_files": [],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "sensible.vim: Defaults everyone can agree on",
+    "fork": false,
+    "full_name": "tpope/vim-sensible",
+    "html_url": "https://github.com/tpope/vim-sensible",
+    "language": "Vim Script",
+    "pushed_at": "2024-06-08T16:27:52Z",
+    "stargazers_count": 5293,
+    "topics": [],
+    "updated_at": "2026-04-28T20:52:49Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

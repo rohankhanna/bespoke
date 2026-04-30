@@ -79,6 +79,18 @@
       "source_repo": "JanLikar/cargo-clone",
       "status": "candidate-context",
       "text": "cargo-clone can be used to fetch the source code of a Rust crate from a registry."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rust-cross/cargo-zigbuild",
+      "status": "candidate-context",
+      "text": "Compile Cargo project with zig as linker"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rust-cross/cargo-zigbuild",
+      "status": "candidate-context",
+      "text": "[![CI](https://github.com/rust-cross/cargo-zigbuild/workflows/CI/badge.svg)](https://github.com/rust-cross/cargo-zigbuild/actions?query=workflow%3ACI)"
     }
   ],
   "candidate_glosses": [
@@ -117,6 +129,12 @@
       "source_repo": "JanLikar/cargo-clone",
       "status": "candidate",
       "text": "cargo-clone can be used to fetch the source code of a Rust crate from a registry."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rust-cross/cargo-zigbuild",
+      "status": "candidate",
+      "text": "[![CI](https://github.com/rust-cross/cargo-zigbuild/workflows/CI/badge.svg)](https://github.com/rust-cross/cargo-zigbuild/actions?query=workflow%3ACI)"
     }
   ],
   "candidate_related_terms": [],
@@ -160,11 +178,23 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "JanLikar/cargo-clone"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "crate-ci/cargo-release"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "rust-cross/cargo-zigbuild"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

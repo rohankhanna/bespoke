@@ -1,0 +1,44 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "walbourn/directxtktest",
+      "target": "directxtk",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T02:56:47.406640+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 783
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Tests for DirectX Tool Kit for Direct3D 11",
+    "fork": false,
+    "full_name": "walbourn/directxtktest",
+    "html_url": "https://github.com/walbourn/directxtktest",
+    "language": "C++",
+    "pushed_at": "2026-04-21T05:14:03Z",
+    "stargazers_count": 20,
+    "topics": [
+      "directxtk"
+    ],
+    "updated_at": "2026-04-22T08:13:08Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Copyright (c) Microsoft Corporation.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "directxtk"
+    }
+  ]
+}

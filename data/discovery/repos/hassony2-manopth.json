@@ -1,0 +1,135 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hassony2/manopth",
+      "target": "mattloper/chumpy",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hassony2/manopth",
+      "target": "hassony2/obman",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hassony2/manopth",
+      "target": "hassony2/obman_train",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hassony2/manopth",
+      "target": "mandymo/pytorch_hmr",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hassony2/manopth",
+      "target": "hand",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hassony2/manopth",
+      "target": "layer",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hassony2/manopth",
+      "target": "mano",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hassony2/manopth",
+      "target": "pytorch",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T03:49:39.849841+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5362
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "MANO layer for PyTorch, generating hand meshes as a differentiable layer",
+    "fork": false,
+    "full_name": "hassony2/manopth",
+    "html_url": "https://github.com/hassony2/manopth",
+    "language": "Python",
+    "pushed_at": "2023-04-21T09:43:19Z",
+    "stargazers_count": 688,
+    "topics": [
+      "hand",
+      "layer",
+      "mano",
+      "pytorch"
+    ],
+    "updated_at": "2026-04-15T07:59:56Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "hassony2/obman",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "hassony2/obman_train",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mandymo/pytorch_hmr",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mattloper/chumpy",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Manopth",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hand"
+    },
+    {
+      "context_snippet": "Manopth",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "layer"
+    },
+    {
+      "context_snippet": "Manopth",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mano"
+    },
+    {
+      "context_snippet": "Manopth",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytorch"
+    }
+  ]
+}

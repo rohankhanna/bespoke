@@ -43,6 +43,18 @@
       "source_repo": "thu-ml/SageAttention",
       "status": "candidate-context",
       "text": "<!-- We are continuously updating more features. You could **Star** and **Watch** our repository to stay updated."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "linkedin/Liger-Kernel",
+      "status": "candidate-context",
+      "text": "Efficient Triton Kernels for LLM Training"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "linkedin/Liger-Kernel",
+      "status": "candidate-context",
+      "text": "<a name=\"readme-top\"></a>"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +75,12 @@
       "source_repo": "thu-ml/SageAttention",
       "status": "candidate",
       "text": "<!-- We are continuously updating more features. You could **Star** and **Watch** our repository to stay updated."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "linkedin/Liger-Kernel",
+      "status": "candidate",
+      "text": "<a name=\"readme-top\"></a>"
     }
   ],
   "candidate_related_terms": [
@@ -132,11 +150,17 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "thu-ml/SageAttention"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "linkedin/Liger-Kernel"
     }
   ],
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

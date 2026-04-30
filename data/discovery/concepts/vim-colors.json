@@ -1,0 +1,88 @@
+{
+  "aliases": [
+    "vim-colors"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "liuchengxu/space-vim-dark",
+      "status": "candidate-context",
+      "text": ":purple_heart: A dark colorscheme for space-vim, see space-vim-theme for light background support!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "liuchengxu/space-vim-dark",
+      "status": "candidate-context",
+      "text": "space-vim-dark"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nordtheme/vim",
+      "status": "candidate-context",
+      "text": "An arctic, north-bluish clean and elegant Vim theme."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nordtheme/vim",
+      "status": "candidate-context",
+      "text": "@nordtheme/vim \u2014 An arctic, north-bluish clean and elegant Vim theme"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "liuchengxu/space-vim-dark",
+      "status": "candidate",
+      "text": "space-vim-dark"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nordtheme/vim",
+      "status": "candidate",
+      "text": "@nordtheme/vim \u2014 An arctic, north-bluish clean and elegant Vim theme"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "vim-colors",
+  "concept_id": "vim-colors",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "liuchengxu/space-vim-dark"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "nordtheme/vim"
+    }
+  ],
+  "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "vim-colors",
+      "sense_id": "vim-colors#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

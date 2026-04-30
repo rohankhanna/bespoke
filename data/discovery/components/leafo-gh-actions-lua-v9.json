@@ -1,7 +1,7 @@
 {
   "component": "leafo/gh-actions-lua@v9",
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -17,6 +17,26 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/ci.yml",
       "source_repo": "jgm/lcmark"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/delivery.yml",
+      "source_repo": "m00qek/matcher_combinators.lua"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/integration.yml",
+      "source_repo": "m00qek/matcher_combinators.lua"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/busted.yml",
+      "source_repo": "lunarmodules/luassert"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/lua_ls-typecheck.yml",
+      "source_repo": "pysan3/pathlib.nvim"
     }
   ]
 }

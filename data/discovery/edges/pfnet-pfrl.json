@@ -1,0 +1,20 @@
+{
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto_assign.yml",
+      "source_repo": "pfnet/pfrl",
+      "target": "kentaro-m/auto-assign-action@eea5ee2e4421078bf163287c05e72d162781b30c",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/auto_assign.yml",
+      "source_repo": "pfnet/pfrl",
+      "target": "Auto Assign",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-30T00:37:16.824464+00:00",
+  "source_repo": "pfnet/pfrl"
+}

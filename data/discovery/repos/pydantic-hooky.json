@@ -1,0 +1,157 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "pre-commit/action@v3.0.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "codecov/codecov-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "pydantic/hooky",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "pydantic/hooky",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "pydantic/hooky",
+      "target": "pre-commit/action@v3.0.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "pydantic/hooky",
+      "target": "codecov/codecov-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pydantic/hooky",
+      "target": "code-review",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pydantic/hooky",
+      "target": "pull-requests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pydantic/hooky",
+      "target": "pydantic",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pydantic/hooky",
+      "target": "review",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T03:53:03.369313+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2597
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 1250
+    },
+    {
+      "path": "requirements.txt",
+      "size": 74
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 975
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Productivity tools for popular open source repos, used by pydantic",
+    "fork": false,
+    "full_name": "pydantic/hooky",
+    "html_url": "https://github.com/pydantic/hooky",
+    "language": "Python",
+    "pushed_at": "2023-09-25T10:38:31Z",
+    "stargazers_count": 64,
+    "topics": [
+      "code-review",
+      "pull-requests",
+      "pydantic",
+      "review"
+    ],
+    "updated_at": "2026-03-25T08:58:27Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "[![CI](https://github.com/pydantic/hooky/workflows/CI/badge.svg?event=push)](https://github.com/pydantic/hooky/actions?query=event%3Apush+branch%3Amain+workflow%3ACI)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "code-review"
+    },
+    {
+      "context_snippet": "[![CI](https://github.com/pydantic/hooky/workflows/CI/badge.svg?event=push)](https://github.com/pydantic/hooky/actions?query=event%3Apush+branch%3Amain+workflow%3ACI)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pull-requests"
+    },
+    {
+      "context_snippet": "[![CI](https://github.com/pydantic/hooky/workflows/CI/badge.svg?event=push)](https://github.com/pydantic/hooky/actions?query=event%3Apush+branch%3Amain+workflow%3ACI)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pydantic"
+    },
+    {
+      "context_snippet": "[![CI](https://github.com/pydantic/hooky/workflows/CI/badge.svg?event=push)](https://github.com/pydantic/hooky/actions?query=event%3Apush+branch%3Amain+workflow%3ACI)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "review"
+    }
+  ]
+}

@@ -31,6 +31,18 @@
       "source_repo": "8144225309/superscalar-wallet",
       "status": "candidate-context",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "spacemeshos/smrepl",
+      "status": "candidate-context",
+      "text": "A Spacemesh Terminal wallet app"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "spacemeshos/smrepl",
+      "status": "candidate-context",
+      "text": "July 2022 UPDATE: THIS TOOL (SMREPL) IS *NOT UP-TO-DATE OR COMPATIBLE* WITH OUR LATEST DEVNET."
     }
   ],
   "candidate_glosses": [
@@ -45,6 +57,12 @@
       "source_repo": "8144225309/superscalar-wallet",
       "status": "candidate",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "spacemeshos/smrepl",
+      "status": "candidate",
+      "text": "July 2022 UPDATE: THIS TOOL (SMREPL) IS *NOT UP-TO-DATE OR COMPATIBLE* WITH OUR LATEST DEVNET."
     }
   ],
   "candidate_related_terms": [
@@ -145,11 +163,23 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "safe-fndn/safe-smart-account"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "safe-fndn/safe-smart-account"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "spacemeshos/smrepl"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "vanilla-javascript"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "carrascomj/dalted",
+      "status": "candidate-context",
+      "text": "Image processing web-app for color blindness"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "carrascomj/dalted",
+      "status": "candidate-context",
+      "text": "![alt text](./static/img/logo.svg \"Dalted logo black\")"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "carrascomj/dalted",
+      "status": "candidate",
+      "text": "![alt text](./static/img/logo.svg \"Dalted logo black\")"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "vanilla-javascript",
+  "concept_id": "vanilla-javascript",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "carrascomj/dalted"
+    }
+  ],
+  "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "vanilla-javascript",
+      "sense_id": "vanilla-javascript#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

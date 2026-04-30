@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "pure Go implementation of prediction part for GBRT (Gradient Boosting Regression Trees) models from popular frameworks"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![version](https://img.shields.io/badge/version-0.8.0-yellow.svg)](https://semver.org)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![version](https://img.shields.io/badge/version-0.8.0-yellow.svg)](https://semver.org)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40006236,
+      "status": "candidate",
+      "text": "hike up"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40005757,
+      "status": "candidate",
+      "text": "rise"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40001350,
+      "status": "candidate",
+      "text": "promote"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39995612,
+      "status": "candidate",
+      "text": "advance"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39994494,
+      "status": "candidate",
+      "text": "hike"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "boosting",
+      "sense_id": "boosting#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "boosting",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "boosting",
+  "observation_id": "5623aae0ae8c8a20",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T00:37:16.824464+00:00",
+  "observed_text": "boosting",
+  "source_context_snippet": "[![version](https://img.shields.io/badge/version-0.8.0-yellow.svg)](https://semver.org)",
+  "source_file": null,
+  "source_repo": "dmitryikh/leaves",
+  "source_repo_description": "pure Go implementation of prediction part for GBRT (Gradient Boosting Regression Trees) models from popular frameworks"
+}

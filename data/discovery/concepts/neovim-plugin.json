@@ -727,6 +727,198 @@
       "source_repo": "alexpasmantier/tv.nvim",
       "status": "candidate-context",
       "text": "<div align=\"center\" style=\"color: #abb2bf;font-family: 'Fira Code', monospace;\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kristijanhusak/vim-packager",
+      "status": "candidate-context",
+      "text": "Vim plugin manager that utilizes \"jobs\" and \"pack\" features."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kristijanhusak/vim-packager",
+      "status": "candidate-context",
+      "text": "![preview-gif](https://i.imgur.com/KOTn843.gif)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mfussenegger/nvim-fzy",
+      "status": "candidate-context",
+      "text": "Moved to codeberg - Fuzzy picker & vim.ui.select implementation via fzy for neovim"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mfussenegger/nvim-fzy",
+      "status": "candidate-context",
+      "text": "Development moved to https://codeberg.org/mfussenegger/nvim-fzy"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ray-x/guihua.lua",
+      "status": "candidate-context",
+      "text": "A GUI library for Neovim plugin developers"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ray-x/guihua.lua",
+      "status": "candidate-context",
+      "text": "![guihua](https://github.com/ray-x/files/blob/master/img/guihua/guihua_800.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nvimdev/dashboard-nvim",
+      "status": "candidate-context",
+      "text": "vim dashboard"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nvimdev/dashboard-nvim",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nvim-lualine/lualine.nvim",
+      "status": "candidate-context",
+      "text": "A blazing fast and easy to configure neovim statusline plugin written in pure lua."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nvim-lualine/lualine.nvim",
+      "status": "candidate-context",
+      "text": "<!-- panvimdoc-ignore-start -->"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "numToStr/lemmy-help",
+      "status": "candidate-context",
+      "text": "Every one needs help, so lemmy-help you! A CLI to generate vim/nvim help doc from emmylua"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "numToStr/lemmy-help",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">\ud83e\udd1d lemmy-help</h1>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gregorias/coop.nvim",
+      "status": "candidate-context",
+      "text": "A Neovim plugin for readable concurrency with coroutines."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gregorias/coop.nvim",
+      "status": "candidate-context",
+      "text": "<!-- markdownlint-disable MD013 MD033 MD041 -->"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "2KAbhishek/co-author.nvim",
+      "status": "candidate-context",
+      "text": "Quickly add co-authors to commits \ud83d\udcbb\ud83e\ude84"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "2KAbhishek/co-author.nvim",
+      "status": "candidate-context",
+      "text": "<div align = \"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "2KAbhishek/termim.nvim",
+      "status": "candidate-context",
+      "text": "Neovim Terminal, Improved \ud83e\uddbe\ud83d\udcbb"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "2KAbhishek/termim.nvim",
+      "status": "candidate-context",
+      "text": "<div align = \"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gelguy/wilder.nvim",
+      "status": "candidate-context",
+      "text": "A more adventurous wildmenu"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gelguy/wilder.nvim",
+      "status": "candidate-context",
+      "text": "`wilder.nvim` adds new features and capabilities to `wildmenu`."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ray-x/navigator.lua",
+      "status": "candidate-context",
+      "text": "Code analysis & navigation plugin for Neovim. Navigate codes like a breeze\ud83c\udf90  Exploring LSP and \ud83c\udf32Treesitter symbols a piece of \ud83c\udf70  Take control like a boss \ud83e\udd8d"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ray-x/navigator.lua",
+      "status": "candidate-context",
+      "text": "- Source code analysis and navigate tool"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gregorias/coerce.nvim",
+      "status": "candidate-context",
+      "text": "A Neovim plugin for changing keyword case."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gregorias/coerce.nvim",
+      "status": "candidate-context",
+      "text": "<!-- markdownlint-disable MD013 MD033 MD041 -->"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gregorias/toggle.nvim",
+      "status": "candidate-context",
+      "text": "A Neovim plugin for toggling options."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gregorias/toggle.nvim",
+      "status": "candidate-context",
+      "text": "<!-- markdownlint-disable MD013 MD033 MD041 -->"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lumen-oss/rocks.nvim",
+      "status": "candidate-context",
+      "text": "\ud83c\udf12 Neovim plugin management inspired by Cargo, powered by luarocks"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lumen-oss/rocks.nvim",
+      "status": "candidate-context",
+      "text": "<!-- markdownlint-disable -->"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "folke/neodev.nvim",
+      "status": "candidate-context",
+      "text": "\ud83d\udcbb  Neovim setup for init.lua and plugin development with full signature help, docs and completion for the nvim lua API."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "folke/neodev.nvim",
+      "status": "candidate-context",
+      "text": "> [!WARNING]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "2KAbhishek/tdo.nvim",
+      "status": "candidate-context",
+      "text": "Fast & Simple Notes in Neovim \ud83d\udcc3\ud83d\ude80"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "2KAbhishek/tdo.nvim",
+      "status": "candidate-context",
+      "text": "<div align = \"center\">"
     }
   ],
   "candidate_glosses": [
@@ -1089,6 +1281,102 @@
       "source_repo": "alexpasmantier/tv.nvim",
       "status": "candidate",
       "text": "<div align=\"center\" style=\"color: #abb2bf;font-family: 'Fira Code', monospace;\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kristijanhusak/vim-packager",
+      "status": "candidate",
+      "text": "![preview-gif](https://i.imgur.com/KOTn843.gif)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mfussenegger/nvim-fzy",
+      "status": "candidate",
+      "text": "Development moved to https://codeberg.org/mfussenegger/nvim-fzy"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ray-x/guihua.lua",
+      "status": "candidate",
+      "text": "![guihua](https://github.com/ray-x/files/blob/master/img/guihua/guihua_800.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nvimdev/dashboard-nvim",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nvim-lualine/lualine.nvim",
+      "status": "candidate",
+      "text": "<!-- panvimdoc-ignore-start -->"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "numToStr/lemmy-help",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">\ud83e\udd1d lemmy-help</h1>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gregorias/coop.nvim",
+      "status": "candidate",
+      "text": "<!-- markdownlint-disable MD013 MD033 MD041 -->"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "2KAbhishek/co-author.nvim",
+      "status": "candidate",
+      "text": "<div align = \"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "2KAbhishek/termim.nvim",
+      "status": "candidate",
+      "text": "<div align = \"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gelguy/wilder.nvim",
+      "status": "candidate",
+      "text": "`wilder.nvim` adds new features and capabilities to `wildmenu`."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ray-x/navigator.lua",
+      "status": "candidate",
+      "text": "- Source code analysis and navigate tool"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gregorias/coerce.nvim",
+      "status": "candidate",
+      "text": "<!-- markdownlint-disable MD013 MD033 MD041 -->"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gregorias/toggle.nvim",
+      "status": "candidate",
+      "text": "<!-- markdownlint-disable MD013 MD033 MD041 -->"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lumen-oss/rocks.nvim",
+      "status": "candidate",
+      "text": "<!-- markdownlint-disable -->"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "folke/neodev.nvim",
+      "status": "candidate",
+      "text": "> [!WARNING]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "2KAbhishek/tdo.nvim",
+      "status": "candidate",
+      "text": "<div align = \"center\">"
     }
   ],
   "candidate_related_terms": [],
@@ -1528,11 +1816,137 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "alexpasmantier/tv.nvim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "andersevenrud/cmp-tmux"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "kristijanhusak/vim-packager"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "mfussenegger/nvim-fzy"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "ray-x/guihua.lua"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "nvimdev/dashboard-nvim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "nvim-lualine/lualine.nvim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "nvim-mini/mini.nvim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "numToStr/lemmy-help"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "gregorias/coop.nvim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "dmtrKovalenko/fff"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "2KAbhishek/co-author.nvim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "2KAbhishek/termim.nvim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "gelguy/wilder.nvim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "dense-analysis/ale"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "ray-x/navigator.lua"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "akinsho/bufferline.nvim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "gregorias/coerce.nvim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "gregorias/toggle.nvim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "lumen-oss/rocks.nvim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "folke/neodev.nvim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "2KAbhishek/tdo.nvim"
     }
   ],
   "first_seen_at": "2026-04-18T11:56:18.570627+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

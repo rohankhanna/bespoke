@@ -199,6 +199,66 @@
       "source_repo": "eyalz800/serializer",
       "status": "candidate-context",
       "text": "zpp serializer"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "standard/ts-standard",
+      "status": "candidate-context",
+      "text": "Typescript style guide, linter, and formatter using StandardJS"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "standard/ts-standard",
+      "status": "candidate-context",
+      "text": "[![Tests](https://github.com/standard/ts-standard/workflows/tests/badge.svg?branch=master)](https://github.com/standard/ts-standard/actions?query=workflow%3A%22tests%22)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "whatwg/streams",
+      "status": "candidate-context",
+      "text": "Streams Standard"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "whatwg/streams",
+      "status": "candidate-context",
+      "text": "This repository hosts the [Streams Standard](https://streams.spec.whatwg.org/)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "the-benchmarker/web-frameworks",
+      "status": "candidate-context",
+      "text": "Which is the fastest web framework?"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "the-benchmarker/web-frameworks",
+      "status": "candidate-context",
+      "text": "- `ruby`, all tools are made in `ruby`"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ricardofbarros/linter-js-standard",
+      "status": "candidate-context",
+      "text": "Atom linter plugin for JavaScript, using JavaScript Standard Style"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ricardofbarros/linter-js-standard",
+      "status": "candidate-context",
+      "text": "![apm](https://img.shields.io/apm/v/linter-js-standard.svg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "standard-schema/standard-schema",
+      "status": "candidate-context",
+      "text": "A standard interface for TypeScript schema validation libraries"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "standard-schema/standard-schema",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -297,6 +357,36 @@
       "source_repo": "eyalz800/serializer",
       "status": "candidate",
       "text": "zpp serializer"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "standard/ts-standard",
+      "status": "candidate",
+      "text": "[![Tests](https://github.com/standard/ts-standard/workflows/tests/badge.svg?branch=master)](https://github.com/standard/ts-standard/actions?query=workflow%3A%22tests%22)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "whatwg/streams",
+      "status": "candidate",
+      "text": "This repository hosts the [Streams Standard](https://streams.spec.whatwg.org/)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "the-benchmarker/web-frameworks",
+      "status": "candidate",
+      "text": "- `ruby`, all tools are made in `ruby`"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ricardofbarros/linter-js-standard",
+      "status": "candidate",
+      "text": "![apm](https://img.shields.io/apm/v/linter-js-standard.svg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "standard-schema/standard-schema",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -538,11 +628,53 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "standard/snazzy"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "standard/standard"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "standard/ts-standard"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "standard/snazzy"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "whatwg/streams"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "the-benchmarker/web-frameworks"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "ricardofbarros/linter-js-standard"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "standard-schema/standard-schema"
     }
   ],
   "first_seen_at": "2026-04-20T03:16:48.146869+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

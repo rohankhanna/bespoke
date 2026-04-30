@@ -1,0 +1,72 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cmake-tests.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "nvpro-samples/stb",
+      "target": "nothings/single_file_libs",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cmake-tests.yml",
+      "source_repo": "nvpro-samples/stb",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cmake-tests.yml",
+      "source_repo": "nvpro-samples/stb",
+      "target": "Build Tests",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T03:57:04.119269+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9331
+    },
+    {
+      "path": ".github/workflows/cmake-tests.yml",
+      "size": 2871
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "nv/all-fixes",
+    "description": "stb single-file public domain libraries for C/C++",
+    "fork": true,
+    "full_name": "nvpro-samples/stb",
+    "html_url": "https://github.com/nvpro-samples/stb",
+    "language": "C",
+    "pushed_at": "2026-01-27T04:22:12Z",
+    "stargazers_count": 3,
+    "topics": [],
+    "updated_at": "2026-01-27T04:18:50Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "nothings/single_file_libs",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Build Tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cmake-tests.yml",
+      "term": "Build Tests"
+    }
+  ]
+}

@@ -55,6 +55,42 @@
       "source_repo": "arkworks-rs/spongefish",
       "status": "candidate-context",
       "text": "Sponge FiSh (duplex **sponge** **Fi**at\u2013**Sh**amir) is a permutation-agnostic Fiat\u2013Shamir library that believes in random oracles."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "andrewmilson/ministark",
+      "status": "candidate-context",
+      "text": "\ud83c\udfc3\u200d\u2642\ufe0f\ud83d\udca8 GPU accelerated STARK prover built on @arkworks-rs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "andrewmilson/ministark",
+      "status": "candidate-context",
+      "text": "> **Warning**"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "succinctlabs/sp1-cluster",
+      "status": "candidate-context",
+      "text": "The official multi-GPU proving service implementation for SP1, designed for the cloud and bare metal deployment."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "succinctlabs/sp1-cluster",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "supranational/sppark",
+      "status": "candidate-context",
+      "text": "Zero-knowledge template library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "supranational/sppark",
+      "status": "candidate-context",
+      "text": "sppark (pronounced 'spark') is **S**upranational's **p**erformance **p**rimitives for **ar**guments of **k**nowledge such as SNARKs and STARKs. The library focuses on accelerating the most computationally expensive pieces of zero-knowledge proofs generation such as multi-scalar \u2026"
     }
   ],
   "candidate_glosses": [
@@ -81,6 +117,24 @@
       "source_repo": "arkworks-rs/spongefish",
       "status": "candidate",
       "text": "Sponge FiSh (duplex **sponge** **Fi**at\u2013**Sh**amir) is a permutation-agnostic Fiat\u2013Shamir library that believes in random oracles."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "andrewmilson/ministark",
+      "status": "candidate",
+      "text": "> **Warning**"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "succinctlabs/sp1-cluster",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "supranational/sppark",
+      "status": "candidate",
+      "text": "sppark (pronounced 'spark') is **S**upranational's **p**erformance **p**rimitives for **ar**guments of **k**nowledge such as SNARKs and STARKs. The library focuses on accelerating the most computationally expensive pieces of zero-knowledge proofs generation such as multi-scalar \u2026"
     }
   ],
   "candidate_related_terms": [
@@ -148,11 +202,29 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": null,
       "source_repo": "arkworks-rs/spongefish"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "andrewmilson/ministark"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "succinctlabs/sp1-cluster"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "supranational/sppark"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

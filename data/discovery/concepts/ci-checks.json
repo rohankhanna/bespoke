@@ -51,6 +51,42 @@
       "source_repo": "0xPolygonHermez/pil2-proofman",
       "status": "candidate-context",
       "text": "CI Checks"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "zkcrypto/bls12_381",
+      "status": "candidate-context",
+      "text": "Implementation of the BLS12-381 pairing-friendly elliptic curve group"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "zkcrypto/bls12_381",
+      "status": "candidate-context",
+      "text": "CI checks"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "zkcrypto/ff",
+      "status": "candidate-context",
+      "text": "Traits and utilities for working with finite fields."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "zkcrypto/ff",
+      "status": "candidate-context",
+      "text": "CI checks"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "zkcrypto/group",
+      "status": "candidate-context",
+      "text": "Elliptic curve group traits and utilities."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "zkcrypto/group",
+      "status": "candidate-context",
+      "text": "CI checks"
     }
   ],
   "candidate_glosses": [
@@ -77,6 +113,24 @@
       "source_repo": "0xPolygonHermez/pil2-proofman",
       "status": "candidate",
       "text": "CI Checks"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "zkcrypto/bls12_381",
+      "status": "candidate",
+      "text": "CI checks"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "zkcrypto/ff",
+      "status": "candidate",
+      "text": "CI checks"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "zkcrypto/group",
+      "status": "candidate",
+      "text": "CI checks"
     }
   ],
   "candidate_related_terms": [
@@ -144,11 +198,29 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": ".github/workflows/ci.yaml",
       "source_repo": "0xPolygonHermez/pil2-proofman"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "zkcrypto/bls12_381"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "zkcrypto/ff"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "zkcrypto/group"
     }
   ],
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

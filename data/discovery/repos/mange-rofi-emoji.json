@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Mange/rofi-emoji",
+      "target": "mange/emoji-data",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T05:00:52.452677+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 11406
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Emoji selector plugin for Rofi",
+    "fork": false,
+    "full_name": "Mange/rofi-emoji",
+    "html_url": "https://github.com/Mange/rofi-emoji",
+    "language": "C",
+    "pushed_at": "2025-04-04T21:31:59Z",
+    "stargazers_count": 700,
+    "topics": [],
+    "updated_at": "2026-04-29T01:19:30Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mange/emoji-data",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

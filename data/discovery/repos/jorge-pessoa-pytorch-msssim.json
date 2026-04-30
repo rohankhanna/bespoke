@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "jorge-pessoa/pytorch-msssim",
+      "target": "po-hsun-su/pytorch-ssim.",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T05:13:39.831768+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2531
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "PyTorch differentiable Multi-Scale Structural Similarity (MS-SSIM) loss",
+    "fork": true,
+    "full_name": "jorge-pessoa/pytorch-msssim",
+    "html_url": "https://github.com/jorge-pessoa/pytorch-msssim",
+    "language": "Python",
+    "pushed_at": "2025-08-15T10:24:18Z",
+    "stargazers_count": 464,
+    "topics": [],
+    "updated_at": "2025-11-26T08:02:24Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "po-hsun-su/pytorch-ssim.",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

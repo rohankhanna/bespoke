@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Alternative R Frontend \u2014 a modern R console written in Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<div align=\"center\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39882632,
+      "status": "candidate",
+      "text": "console table"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39882028,
+      "status": "candidate",
+      "text": "cabinet"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39756185,
+      "status": "candidate",
+      "text": "soothe"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39750065,
+      "status": "candidate",
+      "text": "solace"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39749135,
+      "status": "candidate",
+      "text": "comfort"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "console",
+      "sense_id": "console#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 87037,
+      "status": "candidate",
+      "text": "solace"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 24040,
+      "status": "candidate",
+      "text": "comfort"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 18032,
+      "status": "candidate",
+      "text": "soothe"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 8042,
+      "status": "candidate",
+      "text": "cabinet"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 1019,
+      "status": "candidate",
+      "text": "console table"
+    }
+  ],
+  "concept_id": "console",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "console",
+  "observation_id": "73e50526b5c46fb1",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T00:37:16.824464+00:00",
+  "observed_text": "console",
+  "source_context_snippet": "<div align=\"center\">",
+  "source_file": null,
+  "source_repo": "eitsupi/arf",
+  "source_repo_description": "Alternative R Frontend \u2014 a modern R console written in Rust"
+}

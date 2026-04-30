@@ -1,7 +1,7 @@
 {
   "component": "node-addon-api",
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "sources": [
     {
       "discovered_via": "package-json:dependencies",
@@ -97,6 +97,31 @@
       "discovered_via": "package-json:dependencies",
       "source_file": "package.json",
       "source_repo": "tree-sitter/tree-sitter-python"
+    },
+    {
+      "discovered_via": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "tjdevries/tree-sitter-lua"
+    },
+    {
+      "discovered_via": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "tree-sitter-grammars/tree-sitter-markdown"
+    },
+    {
+      "discovered_via": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "tree-sitter/tree-sitter-regex"
+    },
+    {
+      "discovered_via": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "unum-cloud/USearch"
+    },
+    {
+      "discovered_via": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "tree-sitter/tree-sitter-javascript"
     }
   ]
 }

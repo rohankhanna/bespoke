@@ -9,20 +9,6 @@
       "target_type": "repository"
     },
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "bazel-contrib/rules_jvm_external",
-      "target": "google/bazel-common",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "bazel-contrib/rules_jvm_external",
-      "target": "coursier/coursier",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "repo-topic",
       "source_file": null,
       "source_repo": "bazel-contrib/rules_jvm_external",
@@ -37,7 +23,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-29T19:56:28.672298+00:00",
+  "fetched_at": "2026-04-30T05:02:18.357292+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -65,16 +51,6 @@
     {
       "edge_type": "explicit-github-link",
       "full_name": "bazelbuild/rules_jvm_external",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "coursier/coursier",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "google/bazel-common",
       "source_file": "README.md"
     }
   ],

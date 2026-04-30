@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-20T03:16:48.146869+00:00",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "sources": [
     {
       "discovered_via": "repo-topic",
@@ -131,6 +131,31 @@
       "discovered_via": "repo-topic",
       "source_file": null,
       "source_repo": "prometheus/node_exporter"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/org-metrics.yml",
+      "source_repo": "puppetlabs/.github"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "Lightning-AI/torchmetrics"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "GreptimeTeam/greptimedb"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "asaaki/opentelemetry-tide"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "cloudflare/pint"
     }
   ],
   "term": "metrics"

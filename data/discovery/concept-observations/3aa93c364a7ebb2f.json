@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "The tools needed to robotically create/configure/provision a large number of operating systems, for a variety of hypervisors, using packer."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Generic base boxes, providing a variety of operating systems, and available across a number of different virtualized platforms."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Generic base boxes, providing a variety of operating systems, and available across a number of different virtualized platforms."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40002774,
+      "status": "candidate",
+      "text": "vagabond"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40001457,
+      "status": "candidate",
+      "text": "drifter"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39957492,
+      "status": "candidate",
+      "text": "unsettled"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39947382,
+      "status": "candidate",
+      "text": "floating"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39945675,
+      "status": "candidate",
+      "text": "drifting"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "vagrant",
+      "sense_id": "vagrant#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 32035,
+      "status": "candidate",
+      "text": "vagabond"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 18031,
+      "status": "candidate",
+      "text": "unsettled"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 16027,
+      "status": "candidate",
+      "text": "drifter"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 11031,
+      "status": "candidate",
+      "text": "aimless"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 10027,
+      "status": "candidate",
+      "text": "drifting"
+    }
+  ],
+  "concept_id": "vagrant",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "vagrant",
+  "observation_id": "3aa93c364a7ebb2f",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T00:37:16.824464+00:00",
+  "observed_text": "vagrant",
+  "source_context_snippet": "Generic base boxes, providing a variety of operating systems, and available across a number of different virtualized platforms.",
+  "source_file": null,
+  "source_repo": "lavabit/robox",
+  "source_repo_description": "The tools needed to robotically create/configure/provision a large number of operating systems, for a variety of hypervisors, using packer."
+}

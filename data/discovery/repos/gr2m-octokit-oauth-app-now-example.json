@@ -1,0 +1,111 @@
+{
+  "components": [
+    {
+      "component": "@now/node",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@octokit/oauth-app",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/setup-node@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/cache@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "gr2m/octokit-oauth-app-now-example",
+      "target": "@now/node",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "gr2m/octokit-oauth-app-now-example",
+      "target": "@octokit/oauth-app",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "gr2m/octokit-oauth-app-now-example",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "gr2m/octokit-oauth-app-now-example",
+      "target": "actions/setup-node@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "gr2m/octokit-oauth-app-now-example",
+      "target": "actions/cache@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "gr2m/octokit-oauth-app-now-example",
+      "target": "Release",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T05:06:32.566251+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1082
+    },
+    {
+      "path": "package.json",
+      "size": 502
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "size": 847
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Serverless OAuth API using @octokit/oauth-app & now",
+    "fork": false,
+    "full_name": "gr2m/octokit-oauth-app-now-example",
+    "html_url": "https://github.com/gr2m/octokit-oauth-app-now-example",
+    "language": "TypeScript",
+    "pushed_at": "2026-03-21T21:37:40Z",
+    "stargazers_count": 10,
+    "topics": [],
+    "updated_at": "2026-03-21T21:37:44Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "term": "Release"
+    }
+  ]
+}

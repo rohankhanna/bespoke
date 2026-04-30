@@ -1,7 +1,7 @@
 {
   "component": "actions/cache@27d5ce7f107fe9357f9df03efb73ab90386fccae",
   "first_seen_at": "2026-04-18T13:15:13.756138+00:00",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -557,6 +557,156 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/maven.yml",
       "source_repo": "apache/commons-jexl"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/continuous-deployment-workflow.yml",
+      "source_repo": "day8/re-frame-10x"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/continuous-integration-workflow.yml",
+      "source_repo": "day8/re-frame-10x"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/bazel_build.yml",
+      "source_repo": "AcademySoftwareFoundation/openexr"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "astral-sh/ruff"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci_linux_alpine_x86_64_musl.yml",
+      "source_repo": "karafka/rdkafka-ruby"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci_linux_alpine_x86_64_musl_complementary.yml",
+      "source_repo": "karafka/rdkafka-ruby"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci_linux_debian_x86_64_gnu.yml",
+      "source_repo": "karafka/rdkafka-ruby"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci_linux_debian_x86_64_gnu_complementary.yml",
+      "source_repo": "karafka/rdkafka-ruby"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci_linux_ubuntu_aarch64_gnu.yml",
+      "source_repo": "karafka/rdkafka-ruby"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci_linux_ubuntu_aarch64_gnu_complementary.yml",
+      "source_repo": "karafka/rdkafka-ruby"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "grafana/jsonnet-libs"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test-mixins.yml",
+      "source_repo": "grafana/jsonnet-libs"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "scalar/scalar"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/homebrew.yml",
+      "source_repo": "Kong/insomnia"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/publish-snapshot.yml",
+      "source_repo": "micronaut-projects/micronaut-langchain4j"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "vuejs/create-vue"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/continuous-deployment-workflow.yml",
+      "source_repo": "day8/re-frame"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/continuous-integration-workflow.yml",
+      "source_repo": "day8/re-frame"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/docs-workflow.yml",
+      "source_repo": "day8/re-frame"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/continuous-deployment-workflow.yml",
+      "source_repo": "day8/re-com"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/continuous-integration-workflow.yml",
+      "source_repo": "day8/re-com"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/docs-workflow.yml",
+      "source_repo": "day8/re-com"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/continuous-deployment-workflow.yml",
+      "source_repo": "day8/re-frame-debux"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/continuous-integration-workflow.yml",
+      "source_repo": "day8/re-frame-debux"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/beta_js_api.yml",
+      "source_repo": "biomejs/biome"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/audit.yml",
+      "source_repo": "brave-intl/publishers"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "brave-intl/publishers"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "brave-intl/publishers"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "external-secrets/external-secrets"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/cicd.yaml",
+      "source_repo": "astronomer/dag-factory"
     }
   ]
 }

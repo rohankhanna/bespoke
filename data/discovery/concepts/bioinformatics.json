@@ -163,6 +163,30 @@
       "source_repo": "lh3/miniasm",
       "status": "candidate-context",
       "text": "```sh"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Martinsos/edlib",
+      "status": "candidate-context",
+      "text": "Lightweight, super fast C/C++ (& Python) library for sequence alignment using edit (Levenshtein) distance."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Martinsos/edlib",
+      "status": "candidate-context",
+      "text": "Edlib"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Martinsos/opal",
+      "status": "candidate-context",
+      "text": "SIMD C/C++ library for massive optimal sequence alignment (local/SW, infix, overlap, global)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Martinsos/opal",
+      "status": "candidate-context",
+      "text": "*This work has been supported in part by Croatian Science Fundation under the project UIP-11-2013-7353.*"
     }
   ],
   "candidate_glosses": [
@@ -243,6 +267,18 @@
       "source_repo": "lh3/miniasm",
       "status": "candidate",
       "text": "```sh"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Martinsos/edlib",
+      "status": "candidate",
+      "text": "Edlib"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Martinsos/opal",
+      "status": "candidate",
+      "text": "*This work has been supported in part by Croatian Science Fundation under the project UIP-11-2013-7353.*"
     }
   ],
   "candidate_related_terms": [
@@ -370,11 +406,29 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "scverse/rapids-singlecell"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "Martinsos/edlib"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "Martinsos/opal"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "scverse/rapids-singlecell"
     }
   ],
   "first_seen_at": "2026-04-18T13:50:38.061794+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -19,6 +19,30 @@
       "source_repo": "NVIDIA/MinkowskiEngine",
       "status": "candidate-context",
       "text": "[pypi-image]: https://badge.fury.io/py/MinkowskiEngine.svg"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JIA-Lab-research/FocalsConv",
+      "status": "candidate-context",
+      "text": "Focal Sparse Convolutional Networks for 3D Object Detection (CVPR 2022, Oral)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JIA-Lab-research/FocalsConv",
+      "status": "candidate-context",
+      "text": "[![arXiv](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)](https://arxiv.org/abs/2204.12463)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lmxyy/sige",
+      "status": "candidate-context",
+      "text": "[NeurIPS 2022, T-PAMI 2023] Efficient Spatially Sparse Inference for Conditional GANs and Diffusion Models"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lmxyy/sige",
+      "status": "candidate-context",
+      "text": "**[NEW!]** SIGE is accepted by T-PAMI!"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +51,18 @@
       "source_repo": "NVIDIA/MinkowskiEngine",
       "status": "candidate",
       "text": "[pypi-image]: https://badge.fury.io/py/MinkowskiEngine.svg"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JIA-Lab-research/FocalsConv",
+      "status": "candidate",
+      "text": "[![arXiv](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)](https://arxiv.org/abs/2204.12463)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lmxyy/sige",
+      "status": "candidate",
+      "text": "**[NEW!]** SIGE is accepted by T-PAMI!"
     }
   ],
   "candidate_related_terms": [],
@@ -46,11 +82,23 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": null,
       "source_repo": "NVIDIA/MinkowskiEngine"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "JIA-Lab-research/FocalsConv"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "lmxyy/sige"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

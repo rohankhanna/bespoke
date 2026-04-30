@@ -1,0 +1,148 @@
+{
+  "aliases": [
+    "computervision"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "BMW-InnovationLab/BMW-TensorFlow-Training-GUI",
+      "status": "candidate-context",
+      "text": "This repository allows you to get started with a gui based training a State-of-the-art Deep Learning model with little to no configuration needed! NoCode training with TensorFlow has never been so easy."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "BMW-InnovationLab/BMW-TensorFlow-Training-GUI",
+      "status": "candidate-context",
+      "text": "Updated for CUDA 11 and Tensorflow 2!!!"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "BMW-InnovationLab/BMW-YOLOv4-Training-Automation",
+      "status": "candidate-context",
+      "text": "This repository allows you to get started with training a state-of-the-art Deep Learning model with little to no configuration needed!  You provide your labeled dataset or label your dataset using our BMW-LabelTool-Lite and you can start the training right away and monitor it in many different ways like TensorBoard or a custom REST API and GUI. NoCode training with YOLOv4 and YOLOV3 has never been so easy."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "BMW-InnovationLab/BMW-YOLOv4-Training-Automation",
+      "status": "candidate-context",
+      "text": "This repository, based on AlexeyAB's darknet repro, allows you to get started with training a state-of-the-art Deep Learning model with little to no configuration needed! You provide your labeled dataset and you can start the training right away and monitor it in many different \u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "taesungp/contrastive-unpaired-translation",
+      "status": "candidate-context",
+      "text": "Contrastive unpaired image-to-image translation, faster and lighter training than cyclegan (ECCV 2020, in PyTorch)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "taesungp/contrastive-unpaired-translation",
+      "status": "candidate-context",
+      "text": "<br>"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "BMW-InnovationLab/BMW-TensorFlow-Training-GUI",
+      "status": "candidate",
+      "text": "Updated for CUDA 11 and Tensorflow 2!!!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "BMW-InnovationLab/BMW-YOLOv4-Training-Automation",
+      "status": "candidate",
+      "text": "This repository, based on AlexeyAB's darknet repro, allows you to get started with training a state-of-the-art Deep Learning model with little to no configuration needed! You provide your labeled dataset and you can start the training right away and monitor it in many different \u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "taesungp/contrastive-unpaired-translation",
+      "status": "candidate",
+      "text": "<br>"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24999,
+      "status": "candidate",
+      "text": "evans & sutherland"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24998,
+      "status": "candidate",
+      "text": "atari corporation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24997,
+      "status": "candidate",
+      "text": "corona data systems"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24996,
+      "status": "candidate",
+      "text": "s3 graphics"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24995,
+      "status": "candidate",
+      "text": "sirf"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "computervision",
+  "concept_id": "computervision",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "BMW-InnovationLab/BMW-TensorFlow-Training-GUI"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "BMW-InnovationLab/BMW-YOLOv4-Training-Automation"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "taesungp/contrastive-unpaired-translation"
+    }
+  ],
+  "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "computervision",
+      "sense_id": "computervision#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

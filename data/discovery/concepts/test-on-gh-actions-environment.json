@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Test on GH actions environment"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "miurahr/aqtinstall",
+      "status": "candidate-context",
+      "text": "aqt: Another (unofficial) Qt  CLI  Installer on multi-platforms"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "miurahr/aqtinstall",
+      "status": "candidate-context",
+      "text": "Test on GH actions environment"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "miurahr/aqtinstall",
+      "status": "candidate",
+      "text": "Test on GH actions environment"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17574,
+      "status": "candidate",
+      "text": "androgen"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17574,
+      "status": "candidate",
+      "text": "high"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17524,
+      "status": "candidate",
+      "text": "gonadotropin"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 16958,
+      "status": "candidate",
+      "text": "control"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 16939,
+      "status": "candidate",
+      "text": "approach"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Test on GH actions environment",
+  "concept_id": "test-on-gh-actions-environment",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/test-install-qt.yml",
+      "source_repo": "miurahr/aqtinstall"
+    }
+  ],
+  "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Test on GH actions environment",
+      "sense_id": "test-on-gh-actions-environment#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

@@ -325,6 +325,54 @@
       "source_repo": "raspberrypi/documentation",
       "status": "candidate-context",
       "text": "Mark stale issues and pull requests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "detekt/detekt",
+      "status": "candidate-context",
+      "text": "Static code analysis for Kotlin"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "detekt/detekt",
+      "status": "candidate-context",
+      "text": "Mark stale issues and pull requests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "accomplish-ai/accomplish",
+      "status": "candidate-context",
+      "text": "Accomplish\u2122 is the open source Al coworker that lives on your desktop"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "accomplish-ai/accomplish",
+      "status": "candidate-context",
+      "text": "Mark stale issues and pull requests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bazel-contrib/rules_foreign_cc",
+      "status": "candidate-context",
+      "text": "Build rules for interfacing with \"foreign\" (non-Bazel) build systems (CMake, configure-make, GNU Make, boost, ninja, Meson)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bazel-contrib/rules_foreign_cc",
+      "status": "candidate-context",
+      "text": "Mark stale issues and pull requests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "syl20bnr/spacemacs",
+      "status": "candidate-context",
+      "text": "A community-driven Emacs distribution - The best editor is neither Emacs nor Vim,  it's Emacs *and* Vim!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "syl20bnr/spacemacs",
+      "status": "candidate-context",
+      "text": "Mark stale issues and pull requests"
     }
   ],
   "candidate_glosses": [
@@ -487,6 +535,30 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "raspberrypi/documentation",
+      "status": "candidate",
+      "text": "Mark stale issues and pull requests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "detekt/detekt",
+      "status": "candidate",
+      "text": "Mark stale issues and pull requests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "accomplish-ai/accomplish",
+      "status": "candidate",
+      "text": "Mark stale issues and pull requests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bazel-contrib/rules_foreign_cc",
+      "status": "candidate",
+      "text": "Mark stale issues and pull requests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "syl20bnr/spacemacs",
       "status": "candidate",
       "text": "Mark stale issues and pull requests"
     }
@@ -712,11 +784,41 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": ".github/workflows/stale.yml",
       "source_repo": "criteo/mesos-term"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "criteo/mesos-term"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/stale.yaml",
+      "source_repo": "detekt/detekt"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "accomplish-ai/accomplish"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/stale.yaml.disabled",
+      "source_repo": "bazel-contrib/rules_foreign_cc"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "syl20bnr/spacemacs"
     }
   ],
   "first_seen_at": "2026-04-18T18:48:44.679047+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

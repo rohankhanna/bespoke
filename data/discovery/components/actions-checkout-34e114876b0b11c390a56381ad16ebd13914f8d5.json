@@ -2,7 +2,7 @@
   "component": "actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5",
   "discovered_via": "manifest-or-workflow",
   "first_seen_at": "2026-04-17T12:50:06.073855+00:00",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "source_repo": "NousResearch/hermes-agent",
   "sources": [
     {
@@ -619,6 +619,141 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/claude.yml",
       "source_repo": "Skyvern-AI/skyvern"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/agent-docker-publish.yml",
+      "source_repo": "kserve/kserve"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/artexplainer-docker-publish.yml",
+      "source_repo": "kserve/kserve"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/automated-release.yml",
+      "source_repo": "kserve/kserve"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/comment-cherry-pick.yml",
+      "source_repo": "kserve/kserve"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/custom-model-grpc-publish.yml",
+      "source_repo": "kserve/kserve"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/e2e-test-llmisvc.yaml",
+      "source_repo": "kserve/kserve"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/e2e-test-quick-install.yaml",
+      "source_repo": "kserve/kserve"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/benchmark-cli.yml",
+      "source_repo": "web-infra-dev/rslint"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/benchmark-go.yml",
+      "source_repo": "web-infra-dev/rslint"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "web-infra-dev/rslint"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/copilot-setup-steps.yml",
+      "source_repo": "web-infra-dev/rslint"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "ampproject/amphtml"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/cross-platform-builds.yml",
+      "source_repo": "ampproject/amphtml"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/cut-nightly.yml",
+      "source_repo": "ampproject/amphtml"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/dependency-review.yml",
+      "source_repo": "ampproject/amphtml"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release-tagger.yml",
+      "source_repo": "ampproject/amphtml"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/request-validator-rollup.yml",
+      "source_repo": "ampproject/amphtml"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/browser-test.yml",
+      "source_repo": "endojs/endo"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "endojs/endo"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/depcheck.yml",
+      "source_repo": "endojs/endo"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "endojs/endo"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/typedoc-gh-pages.yml",
+      "source_repo": "endojs/endo"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/update-action-pins-major.yml",
+      "source_repo": "endojs/endo"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/update-action-pins.yml",
+      "source_repo": "endojs/endo"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "argoproj-labs/argocd-agent"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/docker-build.yaml",
+      "source_repo": "skypilot-org/skypilot"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/fusermount-server-image.yaml",
+      "source_repo": "skypilot-org/skypilot"
     }
   ]
 }

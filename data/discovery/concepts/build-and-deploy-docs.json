@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Build and Deploy Docs"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mozilla/addons",
+      "status": "candidate-context",
+      "text": "\u2602 Umbrella repository for Mozilla Addons \u2728"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mozilla/addons",
+      "status": "candidate-context",
+      "text": "Build and Deploy Docs"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mozilla/addons",
+      "status": "candidate",
+      "text": "Build and Deploy Docs"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21828,
+      "status": "candidate",
+      "text": "file"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21828,
+      "status": "candidate",
+      "text": "source book"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20743,
+      "status": "candidate",
+      "text": "compile"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20622,
+      "status": "candidate",
+      "text": "festschrift"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20622,
+      "status": "candidate",
+      "text": "news"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Build and Deploy Docs",
+  "concept_id": "build-and-deploy-docs",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "mozilla/addons"
+    }
+  ],
+  "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Build and Deploy Docs",
+      "sense_id": "build-and-deploy-docs#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

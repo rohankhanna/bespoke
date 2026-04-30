@@ -1,0 +1,77 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "dwyl/learn-pre-commit",
+      "target": "observing/pre-commit",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "dwyl/learn-pre-commit",
+      "target": "nelsonic/learn-pre-commit",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "dwyl/learn-pre-commit",
+      "target": "jrans/node-git-hooks",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "dwyl/learn-pre-commit",
+      "target": "sonarsource/sonar-java",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T02:54:22.148179+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7219
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": ":white_check_mark: Pre-commit hooks let you run checks before allowing a commit (e.g. JSLint or check Test Coverage).",
+    "fork": false,
+    "full_name": "dwyl/learn-pre-commit",
+    "html_url": "https://github.com/dwyl/learn-pre-commit",
+    "language": "JavaScript",
+    "pushed_at": "2022-08-01T06:07:50Z",
+    "stargazers_count": 77,
+    "topics": [],
+    "updated_at": "2026-04-29T18:11:22Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jrans/node-git-hooks",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "nelsonic/learn-pre-commit",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "observing/pre-commit",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "sonarsource/sonar-java",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

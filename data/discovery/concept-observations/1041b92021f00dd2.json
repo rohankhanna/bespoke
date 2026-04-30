@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "An official implementation for \"CLIP4Clip: An Empirical Study of CLIP for End to End Video Clip Retrieval\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "(**July 28, 2021**) Add ViT-B/16 with an extra `--pretrained_clip_name`"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "(**July 28, 2021**) Add ViT-B/16 with an extra `--pretrained_clip_name`"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "didemo",
+      "sense_id": "didemo#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "didemo",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "didemo",
+  "observation_id": "1041b92021f00dd2",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T00:37:16.824464+00:00",
+  "observed_text": "didemo",
+  "source_context_snippet": "(**July 28, 2021**) Add ViT-B/16 with an extra `--pretrained_clip_name`",
+  "source_file": null,
+  "source_repo": "ArrowLuo/CLIP4Clip",
+  "source_repo_description": "An official implementation for \"CLIP4Clip: An Empirical Study of CLIP for End to End Video Clip Retrieval\""
+}

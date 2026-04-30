@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Unified Communication X  (mailing list - https://elist.ornl.gov/mailman/listinfo/ucx-group)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<div align=\"center\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10008892,
+      "status": "candidate",
+      "text": "roate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10008891,
+      "status": "candidate",
+      "text": "return on investment"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10008890,
+      "status": "candidate",
+      "text": "rate of return"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10008889,
+      "status": "candidate",
+      "text": "revenue"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10008888,
+      "status": "candidate",
+      "text": "roro"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "roce",
+      "sense_id": "roce#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "roce",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "roce",
+  "observation_id": "995fcfb8ea86ff5b",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T00:37:16.824464+00:00",
+  "observed_text": "roce",
+  "source_context_snippet": "<div align=\"center\">",
+  "source_file": null,
+  "source_repo": "openucx/ucx",
+  "source_repo_description": "Unified Communication X  (mailing list - https://elist.ornl.gov/mailman/listinfo/ucx-group)"
+}

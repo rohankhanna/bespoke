@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T03:04:42.331256+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1671
+    },
+    {
+      "path": "requirements.txt",
+      "size": 2588
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "Cornell-RelaxML/yaqa-quantization",
+    "html_url": "https://github.com/Cornell-RelaxML/yaqa-quantization",
+    "language": "Python",
+    "pushed_at": "2025-06-20T14:03:31Z",
+    "stargazers_count": 75,
+    "topics": [],
+    "updated_at": "2026-04-28T14:15:13Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

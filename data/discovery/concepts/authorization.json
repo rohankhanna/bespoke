@@ -139,6 +139,18 @@
       "source_repo": "apache/casbin-fasthttp-auth",
       "status": "candidate-context",
       "text": "[![Go Version](https://img.shields.io/github/go-mod/go-version/casbin/fasthttp-auth)](https://go.dev/)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "marmotedu/iam",
+      "status": "candidate-context",
+      "text": "\u4f01\u4e1a\u7ea7\u7684 Go \u8bed\u8a00\u5b9e\u6218\u9879\u76ee\uff1a\u8ba4\u8bc1\u548c\u6388\u6743\u7cfb\u7edf\uff08\u5e26\u914d\u5957\u8bfe\u7a0b\uff09"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "marmotedu/iam",
+      "status": "candidate-context",
+      "text": "- \u66f4\u591a\u300c\u4e91\u539f\u751f AI \u5b9e\u6218\u8425\u300d\u9879\u76ee\u89c1\uff1a[\u4e91\u539f\u751f AI \u5b9e\u6218\u8425\u9879\u76ee\u4ecb\u7ecd](https://konglingfei.com/cloudai/intro/%E4%BA%91%E5%8E%9F%E7%94%9F_AI_%E5%AE%9E%E6%88%98%E8%90%A5%E9%A1%B9%E7%9B%AE%E4%BB%8B%E7%BB%8D.html)"
     }
   ],
   "candidate_glosses": [
@@ -207,6 +219,12 @@
       "source_repo": "apache/casbin-fasthttp-auth",
       "status": "candidate",
       "text": "[![Go Version](https://img.shields.io/github/go-mod/go-version/casbin/fasthttp-auth)](https://go.dev/)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "marmotedu/iam",
+      "status": "candidate",
+      "text": "- \u66f4\u591a\u300c\u4e91\u539f\u751f AI \u5b9e\u6218\u8425\u300d\u9879\u76ee\u89c1\uff1a[\u4e91\u539f\u751f AI \u5b9e\u6218\u8425\u9879\u76ee\u4ecb\u7ecd](https://konglingfei.com/cloudai/intro/%E4%BA%91%E5%8E%9F%E7%94%9F_AI_%E5%AE%9E%E6%88%98%E8%90%A5%E9%A1%B9%E7%9B%AE%E4%BB%8B%E7%BB%8D.html)"
     }
   ],
   "candidate_related_terms": [
@@ -465,11 +483,53 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "apache/casbin-rust-actix-casbin"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "apache/casbin-fasthttp-auth"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "marmotedu/iam"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "apache/casbin"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "apache/casbin-rs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "apache/casbin-Casbin.NET"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "apache/casbin-cpp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "apache/casbin-rust-actix-casbin"
     }
   ],
   "first_seen_at": "2026-04-21T18:51:25.552552+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

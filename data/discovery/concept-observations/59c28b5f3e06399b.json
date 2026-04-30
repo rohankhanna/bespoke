@@ -1,0 +1,86 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "\ud83d\udc36 Automated code review tool integrated with any code analysis tools regardless of programming language"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Proto"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Proto"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39808926,
+      "status": "candidate",
+      "text": "early"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29811891,
+      "status": "candidate",
+      "text": "oceanic"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29758156,
+      "status": "candidate",
+      "text": "germanic"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29758099,
+      "status": "candidate",
+      "text": "elamite"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Proto",
+      "sense_id": "proto#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "proto",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "proto",
+  "observation_id": "59c28b5f3e06399b",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-30T00:37:16.824464+00:00",
+  "observed_text": "Proto",
+  "source_context_snippet": "Proto",
+  "source_file": ".github/workflows/rdformat.yml",
+  "source_repo": "reviewdog/reviewdog",
+  "source_repo_description": "\ud83d\udc36 Automated code review tool integrated with any code analysis tools regardless of programming language"
+}

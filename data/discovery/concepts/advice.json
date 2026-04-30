@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "advice"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "amperser/proselint",
+      "status": "candidate-context",
+      "text": "A linter for prose."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "amperser/proselint",
+      "status": "candidate-context",
+      "text": "<img src=\"https://raw.githubusercontent.com/amperser/proselint/main/logo.png\" alt=\"proselint logo\" width=\"200\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "amperser/proselint",
+      "status": "candidate",
+      "text": "<img src=\"https://raw.githubusercontent.com/amperser/proselint/main/logo.png\" alt=\"proselint logo\" width=\"200\">"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30046598,
+      "status": "candidate",
+      "text": "advisory"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30046560,
+      "status": "candidate",
+      "text": "advise"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30046524,
+      "status": "candidate",
+      "text": "adviser"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30046427,
+      "status": "candidate",
+      "text": "advisor"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30046415,
+      "status": "candidate",
+      "text": "aviso"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "advice",
+  "concept_id": "advice",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "amperser/proselint"
+    }
+  ],
+  "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "advice",
+      "sense_id": "advice#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

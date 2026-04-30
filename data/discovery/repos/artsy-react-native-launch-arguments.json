@@ -1,0 +1,148 @@
+{
+  "components": [
+    {
+      "component": "react",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "react-native",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "typescript",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "react",
+      "edge_type": "package-json:peerDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "react-native",
+      "edge_type": "package-json:peerDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "artsy/duchamp/.github/workflows/conventional-commits-check.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run-conventional-commits-check.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "artsy/react-native-launch-arguments",
+      "target": "wix/detox",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "package.json",
+      "source_repo": "artsy/react-native-launch-arguments",
+      "target": "iamolegga/react-native-launch-arguments",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "artsy/react-native-launch-arguments",
+      "target": "react",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "artsy/react-native-launch-arguments",
+      "target": "react-native",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "artsy/react-native-launch-arguments",
+      "target": "typescript",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:peerDependencies",
+      "source_file": "package.json",
+      "source_repo": "artsy/react-native-launch-arguments",
+      "target": "react",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:peerDependencies",
+      "source_file": "package.json",
+      "source_repo": "artsy/react-native-launch-arguments",
+      "target": "react-native",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run-conventional-commits-check.yml",
+      "source_repo": "artsy/react-native-launch-arguments",
+      "target": "artsy/duchamp/.github/workflows/conventional-commits-check.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/run-conventional-commits-check.yml",
+      "source_repo": "artsy/react-native-launch-arguments",
+      "target": "\u2622\ufe0f Conventional Commits Check",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T03:59:03.417096+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3686
+    },
+    {
+      "path": "package.json",
+      "size": 1018
+    },
+    {
+      "path": ".github/workflows/run-conventional-commits-check.yml",
+      "size": 232
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Get launch arguments for testing with Detox, Appium, and Maestro",
+    "fork": true,
+    "full_name": "artsy/react-native-launch-arguments",
+    "html_url": "https://github.com/artsy/react-native-launch-arguments",
+    "language": "Java",
+    "pushed_at": "2026-02-06T17:36:56Z",
+    "stargazers_count": 0,
+    "topics": [],
+    "updated_at": "2026-02-06T17:37:01Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "wix/detox",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "iamolegga/react-native-launch-arguments",
+      "source_file": "package.json"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "\u2622\ufe0f Conventional Commits Check",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/run-conventional-commits-check.yml",
+      "term": "\u2622\ufe0f Conventional Commits Check"
+    }
+  ]
+}

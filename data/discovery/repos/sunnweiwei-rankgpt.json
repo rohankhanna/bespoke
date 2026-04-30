@@ -1,0 +1,90 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sunnweiwei/RankGPT",
+      "target": "chatgpt",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sunnweiwei/RankGPT",
+      "target": "information-retrieval",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sunnweiwei/RankGPT",
+      "target": "large-language-models",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sunnweiwei/RankGPT",
+      "target": "reranking",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T05:16:00.155203+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 13770
+    },
+    {
+      "path": "requirements.txt",
+      "size": 31
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Is ChatGPT Good at Search? LLMs as Re-Ranking Agent [EMNLP 2023 Outstanding Paper Award]",
+    "fork": false,
+    "full_name": "sunnweiwei/RankGPT",
+    "html_url": "https://github.com/sunnweiwei/RankGPT",
+    "language": "Python",
+    "pushed_at": "2024-03-10T08:27:04Z",
+    "stargazers_count": 664,
+    "topics": [
+      "chatgpt",
+      "information-retrieval",
+      "large-language-models",
+      "reranking"
+    ],
+    "updated_at": "2026-04-29T13:49:29Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "[![Generic badge](https://img.shields.io/badge/arXiv-2304.09542-red.svg)](https://arxiv.org/abs/2304.09542)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "chatgpt"
+    },
+    {
+      "context_snippet": "[![Generic badge](https://img.shields.io/badge/arXiv-2304.09542-red.svg)](https://arxiv.org/abs/2304.09542)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "information-retrieval"
+    },
+    {
+      "context_snippet": "[![Generic badge](https://img.shields.io/badge/arXiv-2304.09542-red.svg)](https://arxiv.org/abs/2304.09542)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "large-language-models"
+    },
+    {
+      "context_snippet": "[![Generic badge](https://img.shields.io/badge/arXiv-2304.09542-red.svg)](https://arxiv.org/abs/2304.09542)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "reranking"
+    }
+  ]
+}

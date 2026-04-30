@@ -1,0 +1,241 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/adapter_docs_build.yml"
+    },
+    {
+      "component": "actions/setup-python@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/adapter_docs_build.yml"
+    },
+    {
+      "component": "peaceiris/actions-gh-pages@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/adapter_docs_build.yml"
+    },
+    {
+      "component": "z0al/dependent-issues@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr_dependencies.yml"
+    },
+    {
+      "component": "actions/stale@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stale.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests_torch.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests_torch.yml"
+    },
+    {
+      "component": "actions/cache@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests_torch.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests_torch.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests_torch.yml"
+    },
+    {
+      "component": "actions/cache@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests_torch.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests_torch.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests_torch.yml"
+    },
+    {
+      "component": "actions/cache@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests_torch.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "adapter-hub/adapter-transformers-legacy",
+      "target": "adapter-hub/adapter-transformers",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/adapter_docs_build.yml",
+      "source_repo": "adapter-hub/adapter-transformers-legacy",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/adapter_docs_build.yml",
+      "source_repo": "adapter-hub/adapter-transformers-legacy",
+      "target": "actions/setup-python@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/adapter_docs_build.yml",
+      "source_repo": "adapter-hub/adapter-transformers-legacy",
+      "target": "peaceiris/actions-gh-pages@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/adapter_docs_build.yml",
+      "source_repo": "adapter-hub/adapter-transformers-legacy",
+      "target": "Build Adapter Docs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr_dependencies.yml",
+      "source_repo": "adapter-hub/adapter-transformers-legacy",
+      "target": "z0al/dependent-issues@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr_dependencies.yml",
+      "source_repo": "adapter-hub/adapter-transformers-legacy",
+      "target": "Pull Request Dependencies",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "adapter-hub/adapter-transformers-legacy",
+      "target": "actions/stale@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "adapter-hub/adapter-transformers-legacy",
+      "target": "Stale issues Bot",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests_torch.yml",
+      "source_repo": "adapter-hub/adapter-transformers-legacy",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests_torch.yml",
+      "source_repo": "adapter-hub/adapter-transformers-legacy",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests_torch.yml",
+      "source_repo": "adapter-hub/adapter-transformers-legacy",
+      "target": "actions/cache@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/tests_torch.yml",
+      "source_repo": "adapter-hub/adapter-transformers-legacy",
+      "target": "Tests",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T01:57:01.392269+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7269
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 57
+    },
+    {
+      "path": ".github/workflows/adapter_docs_build.yml",
+      "size": 1103
+    },
+    {
+      "path": ".github/workflows/pr_dependencies.yml",
+      "size": 855
+    },
+    {
+      "path": ".github/workflows/stale.yml",
+      "size": 829
+    },
+    {
+      "path": ".github/workflows/tests_torch.yml",
+      "size": 2271
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "master",
+    "description": "ARCHIVED. Go to https://github.com/adapter-hub/adapters for the latest version.",
+    "fork": false,
+    "full_name": "adapter-hub/adapter-transformers-legacy",
+    "html_url": "https://github.com/adapter-hub/adapter-transformers-legacy",
+    "language": "Python",
+    "pushed_at": "2023-12-16T13:55:40Z",
+    "stargazers_count": 4,
+    "topics": [],
+    "updated_at": "2024-07-06T08:43:56Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "adapter-hub/adapter-transformers",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Build Adapter Docs",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/adapter_docs_build.yml",
+      "term": "Build Adapter Docs"
+    },
+    {
+      "context_snippet": "Pull Request Dependencies",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr_dependencies.yml",
+      "term": "Pull Request Dependencies"
+    },
+    {
+      "context_snippet": "'Stale issues Bot'",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/stale.yml",
+      "term": "Stale issues Bot"
+    },
+    {
+      "context_snippet": "Tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/tests_torch.yml",
+      "term": "Tests"
+    }
+  ]
+}

@@ -67,6 +67,18 @@
       "source_repo": "AppFlowy-IO/AppFlowy",
       "status": "candidate-context",
       "text": "<h1 align=\"center\" style=\"border-bottom: none\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "2KAbhishek/ghpm",
+      "status": "candidate-context",
+      "text": "The GitHub Project Manager \ud83d\udc69\u200d\ud83d\udcbb\u2699"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "2KAbhishek/ghpm",
+      "status": "candidate-context",
+      "text": "<div align = \"center\">"
     }
   ],
   "candidate_glosses": [
@@ -99,6 +111,12 @@
       "source_repo": "AppFlowy-IO/AppFlowy",
       "status": "candidate",
       "text": "<h1 align=\"center\" style=\"border-bottom: none\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "2KAbhishek/ghpm",
+      "status": "candidate",
+      "text": "<div align = \"center\">"
     }
   ],
   "candidate_related_terms": [],
@@ -136,11 +154,17 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": null,
       "source_repo": "AppFlowy-IO/AppFlowy"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "2KAbhishek/ghpm"
     }
   ],
   "first_seen_at": "2026-04-21T18:51:25.552552+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

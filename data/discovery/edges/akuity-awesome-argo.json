@@ -4,28 +4,28 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "akuity/awesome-argo",
-      "target": "argoproj-labs/argo-rollouts-manager",
+      "target": "argoproj-labs/argocd-agent",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "akuity/awesome-argo",
-      "target": "argoproj-labs/argo-workflows-catalog",
+      "target": "argoproj-labs/argocd-autopilot",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "akuity/awesome-argo",
-      "target": "adinhodovic/argo-cd-mixin",
+      "target": "argoproj-labs/argocd-extensions",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "akuity/awesome-argo",
-      "target": "akuity/kargo",
+      "target": "argoproj-labs/argocd-image-updater",
       "target_type": "repository"
     },
     {
@@ -169,6 +169,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-04-24T00:33:56.049672+00:00",
+  "generated_at": "2026-04-30T00:37:16.824464+00:00",
   "source_repo": "akuity/awesome-argo"
 }

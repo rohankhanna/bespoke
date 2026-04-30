@@ -1,0 +1,136 @@
+{
+  "aliases": [
+    "location"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "tidwall/tile38",
+      "status": "candidate-context",
+      "text": "Real-time Geospatial and Geofencing"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tidwall/tile38",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tidwall/tile38",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40006858,
+      "status": "candidate",
+      "text": "position"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40006443,
+      "status": "candidate",
+      "text": "placement"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40005905,
+      "status": "candidate",
+      "text": "positioning"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40003401,
+      "status": "candidate",
+      "text": "localization"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40002740,
+      "status": "candidate",
+      "text": "localisation"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 30067,
+      "status": "candidate",
+      "text": "position"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 9069,
+      "status": "candidate",
+      "text": "fix"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 8047,
+      "status": "candidate",
+      "text": "placement"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 6027,
+      "status": "candidate",
+      "text": "emplacement"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 2018,
+      "status": "candidate",
+      "text": "locating"
+    }
+  ],
+  "canonical_name": "location",
+  "concept_id": "location",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "tidwall/tile38"
+    }
+  ],
+  "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "location",
+      "sense_id": "location#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

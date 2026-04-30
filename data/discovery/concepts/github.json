@@ -499,6 +499,102 @@
       "source_repo": "antfu/changelogithub",
       "status": "candidate-context",
       "text": "[![NPM version](https://img.shields.io/npm/v/changelogithub?color=a1b858&label=)](https://www.npmjs.com/package/changelogithub)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "reviewdog/reviewdog",
+      "status": "candidate-context",
+      "text": "\ud83d\udc36 Automated code review tool integrated with any code analysis tools regardless of programming language"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "reviewdog/reviewdog",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "2KAbhishek/cmtr",
+      "status": "candidate-context",
+      "text": "Quickly commit individual files in git. \u26a1\u2705"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "2KAbhishek/cmtr",
+      "status": "candidate-context",
+      "text": "<div align = \"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "2KAbhishek/ghpm",
+      "status": "candidate-context",
+      "text": "The GitHub Project Manager \ud83d\udc69\u200d\ud83d\udcbb\u2699"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "2KAbhishek/ghpm",
+      "status": "candidate-context",
+      "text": "<div align = \"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "google/triage-party",
+      "status": "candidate-context",
+      "text": "\ud83c\udf89 Triage Party: massively multi-player GitHub triage \ud83c\udf89"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/triage-party",
+      "status": "candidate-context",
+      "text": "`NOTE: This is not an officially supported Google product`"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dwyl/dev-setup",
+      "status": "candidate-context",
+      "text": "\u2708\ufe0f A quick-start guide for new engineers on how to set up their Dev environment"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dwyl/dev-setup",
+      "status": "candidate-context",
+      "text": "\u2708\ufe0f A quick-start guide for new engineers on how to set up their Dev environment"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "conventional-changelog/releaser-tools",
+      "status": "candidate-context",
+      "text": "Create a GitHub/GitLab/etc. release using a project's commit messages and metadata. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "conventional-changelog/releaser-tools",
+      "status": "candidate-context",
+      "text": "> Create a GitHub/GitLab/etc. release using your project's Git metadata."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Justintime50/homebrew-releaser",
+      "status": "candidate-context",
+      "text": "Release scripts, binaries, and executables directly to Homebrew via GitHub Actions."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Justintime50/homebrew-releaser",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "2KAbhishek/mkrepo",
+      "status": "candidate-context",
+      "text": "Ready to go repos from the CLI \u2708\ud83d\udca1"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "2KAbhishek/mkrepo",
+      "status": "candidate-context",
+      "text": "<div align = \"center\">"
     }
   ],
   "candidate_glosses": [
@@ -747,6 +843,54 @@
       "source_repo": "antfu/changelogithub",
       "status": "candidate",
       "text": "[![NPM version](https://img.shields.io/npm/v/changelogithub?color=a1b858&label=)](https://www.npmjs.com/package/changelogithub)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "reviewdog/reviewdog",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "2KAbhishek/cmtr",
+      "status": "candidate",
+      "text": "<div align = \"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "2KAbhishek/ghpm",
+      "status": "candidate",
+      "text": "<div align = \"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/triage-party",
+      "status": "candidate",
+      "text": "`NOTE: This is not an officially supported Google product`"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dwyl/dev-setup",
+      "status": "candidate",
+      "text": "\u2708\ufe0f A quick-start guide for new engineers on how to set up their Dev environment"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "conventional-changelog/releaser-tools",
+      "status": "candidate",
+      "text": "> Create a GitHub/GitLab/etc. release using your project's Git metadata."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Justintime50/homebrew-releaser",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "2KAbhishek/mkrepo",
+      "status": "candidate",
+      "text": "<div align = \"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -1096,11 +1240,77 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "antfu/changelogithub"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "gitleaks/gitleaks-action"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "lambdalisue/vim-gin"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "reviewdog/reviewdog"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "2KAbhishek/cmtr"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "2KAbhishek/ghpm"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "google/triage-party"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "dwyl/dev-setup"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "conventional-changelog/releaser-tools"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "Justintime50/homebrew-releaser"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "danielrosehill/Index"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "2KAbhishek/mkrepo"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

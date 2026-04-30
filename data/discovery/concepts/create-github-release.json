@@ -203,6 +203,90 @@
       "source_repo": "oclif/core",
       "status": "candidate-context",
       "text": "create-github-release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "clojure-emacs/refactor-nrepl",
+      "status": "candidate-context",
+      "text": "nREPL middleware to support refactorings in an editor agnostic way"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "clojure-emacs/refactor-nrepl",
+      "status": "candidate-context",
+      "text": "Create GitHub Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "clojure-emacs/clojure-ts-mode",
+      "status": "candidate-context",
+      "text": "The next generation Clojure major mode for Emacs, powered by TreeSitter"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "clojure-emacs/clojure-ts-mode",
+      "status": "candidate-context",
+      "text": "Create GitHub Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nrepl/nrepl",
+      "status": "candidate-context",
+      "text": "A Clojure network REPL that provides a server and client, along with some common APIs of use to IDEs and other tools that may need to evaluate Clojure code in remote environments."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nrepl/nrepl",
+      "status": "candidate-context",
+      "text": "Create GitHub Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "clojure-emacs/orchard",
+      "status": "candidate-context",
+      "text": "A fertile ground for Clojure tooling"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "clojure-emacs/orchard",
+      "status": "candidate-context",
+      "text": "Create GitHub Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "copilot-emacs/copilot.el",
+      "status": "candidate-context",
+      "text": "An unofficial Copilot plugin for Emacs."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "copilot-emacs/copilot.el",
+      "status": "candidate-context",
+      "text": "Create GitHub Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "oclif/oclif",
+      "status": "candidate-context",
+      "text": "CLI for generating, building, and releasing oclif CLIs. Built by Salesforce."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "oclif/oclif",
+      "status": "candidate-context",
+      "text": "create-github-release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "oclif/plugin-update",
+      "status": "candidate-context",
+      "text": "add autoupdate to your oclif CLI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "oclif/plugin-update",
+      "status": "candidate-context",
+      "text": "create-github-release"
     }
   ],
   "candidate_glosses": [
@@ -299,6 +383,48 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "oclif/core",
+      "status": "candidate",
+      "text": "create-github-release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "clojure-emacs/refactor-nrepl",
+      "status": "candidate",
+      "text": "Create GitHub Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "clojure-emacs/clojure-ts-mode",
+      "status": "candidate",
+      "text": "Create GitHub Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nrepl/nrepl",
+      "status": "candidate",
+      "text": "Create GitHub Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "clojure-emacs/orchard",
+      "status": "candidate",
+      "text": "Create GitHub Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "copilot-emacs/copilot.el",
+      "status": "candidate",
+      "text": "Create GitHub Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "oclif/oclif",
+      "status": "candidate",
+      "text": "create-github-release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "oclif/plugin-update",
       "status": "candidate",
       "text": "create-github-release"
     }
@@ -452,11 +578,53 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": ".github/workflows/create-github-release.yml",
       "source_repo": "oclif/core"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/github_release.yml",
+      "source_repo": "clojure-emacs/refactor-nrepl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/github_release.yml",
+      "source_repo": "clojure-emacs/clojure-ts-mode"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/github-release.yml",
+      "source_repo": "nrepl/nrepl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/github_release.yml",
+      "source_repo": "clojure-emacs/orchard"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "copilot-emacs/copilot.el"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/create-github-release.yml",
+      "source_repo": "oclif/oclif"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/create-github-release.yml",
+      "source_repo": "oclif/plugin-update"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "buffers"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kdheepak/tabline.nvim",
+      "status": "candidate-context",
+      "text": "A \"buffer and tab\" tabline for neovim"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kdheepak/tabline.nvim",
+      "status": "candidate-context",
+      "text": "This plugin is archived. Check out the following instead:"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kdheepak/tabline.nvim",
+      "status": "candidate",
+      "text": "This plugin is archived. Check out the following instead:"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20016720,
+      "status": "candidate",
+      "text": "polisher"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20009223,
+      "status": "candidate",
+      "text": "cushion"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19986089,
+      "status": "candidate",
+      "text": "fender"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19973693,
+      "status": "candidate",
+      "text": "cowcatcher"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19956707,
+      "status": "candidate",
+      "text": "pilot"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "buffers",
+  "concept_id": "buffers",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "kdheepak/tabline.nvim"
+    }
+  ],
+  "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "buffers",
+      "sense_id": "buffers#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

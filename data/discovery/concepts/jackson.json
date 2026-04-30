@@ -19,6 +19,18 @@
       "source_repo": "FasterXML/jackson",
       "status": "candidate-context",
       "text": "<a href=\"CONTRIBUTING.md\" alt=\"Hacktoberfest\"><img src=\"https://badgen.net/badge/hacktoberfest/friendly/pink\" /></a>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "FasterXML/jackson-databind",
+      "status": "candidate-context",
+      "text": "General data-binding package for Jackson: works on streaming API (core) implementation(s)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "FasterXML/jackson-databind",
+      "status": "candidate-context",
+      "text": "This project contains the general-purpose data-binding functionality"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "FasterXML/jackson",
       "status": "candidate",
       "text": "<a href=\"CONTRIBUTING.md\" alt=\"Hacktoberfest\"><img src=\"https://badgen.net/badge/hacktoberfest/friendly/pink\" /></a>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "FasterXML/jackson-databind",
+      "status": "candidate",
+      "text": "This project contains the general-purpose data-binding functionality"
     }
   ],
   "candidate_related_terms": [
@@ -98,11 +116,17 @@
       "observed_at": "2026-04-23T01:09:11.871080+00:00",
       "source_file": null,
       "source_repo": "FasterXML/jackson"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "FasterXML/jackson-databind"
     }
   ],
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

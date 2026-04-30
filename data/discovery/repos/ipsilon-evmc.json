@@ -5,7 +5,7 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "ipsilon/evmc",
-      "target": "ethereum/evmjit",
+      "target": "ethereum/evmone",
       "target_type": "repository"
     },
     {
@@ -86,7 +86,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-29T19:47:50.944837+00:00",
+  "fetched_at": "2026-04-30T04:53:08.658396+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -145,7 +145,7 @@
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "ethereum/evmjit",
+      "full_name": "ethereum/evmone",
       "source_file": "README.md"
     }
   ],

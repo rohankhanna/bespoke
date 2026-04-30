@@ -1,0 +1,163 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "MasterBin-IIAU/AlphaRefine",
+      "target": "daikenan/ltmu",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "MasterBin-IIAU/AlphaRefine",
+      "target": "megviidetection/video_analyst",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "MasterBin-IIAU/AlphaRefine",
+      "target": "huanglianghua/globaltrack",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "MasterBin-IIAU/AlphaRefine",
+      "target": "ilchaejung/rt-mdnet",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "MasterBin-IIAU/AlphaRefine",
+      "target": "alpha-refine",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "MasterBin-IIAU/AlphaRefine",
+      "target": "cvpr2021",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "MasterBin-IIAU/AlphaRefine",
+      "target": "object-tracking",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "MasterBin-IIAU/AlphaRefine",
+      "target": "refinement-module",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "MasterBin-IIAU/AlphaRefine",
+      "target": "vot2020",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "MasterBin-IIAU/AlphaRefine",
+      "target": "winner",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T02:44:46.013677+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6288
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Official implementation for the CVPR2021 paper Alpha-Refine",
+    "fork": false,
+    "full_name": "MasterBin-IIAU/AlphaRefine",
+    "html_url": "https://github.com/MasterBin-IIAU/AlphaRefine",
+    "language": "Python",
+    "pushed_at": "2023-10-03T21:36:42Z",
+    "stargazers_count": 191,
+    "topics": [
+      "alpha-refine",
+      "cvpr2021",
+      "object-tracking",
+      "refinement-module",
+      "vot2020",
+      "winner"
+    ],
+    "updated_at": "2026-03-11T16:29:04Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "daikenan/ltmu",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "huanglianghua/globaltrack",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ilchaejung/rt-mdnet",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "megviidetection/video_analyst",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "This is the official implementation of [Alpha-Refine: Boosting Tracking Performance by Precise Bounding Box Estimation",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "alpha-refine"
+    },
+    {
+      "context_snippet": "This is the official implementation of [Alpha-Refine: Boosting Tracking Performance by Precise Bounding Box Estimation",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cvpr2021"
+    },
+    {
+      "context_snippet": "This is the official implementation of [Alpha-Refine: Boosting Tracking Performance by Precise Bounding Box Estimation",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "object-tracking"
+    },
+    {
+      "context_snippet": "This is the official implementation of [Alpha-Refine: Boosting Tracking Performance by Precise Bounding Box Estimation",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "refinement-module"
+    },
+    {
+      "context_snippet": "This is the official implementation of [Alpha-Refine: Boosting Tracking Performance by Precise Bounding Box Estimation",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vot2020"
+    },
+    {
+      "context_snippet": "This is the official implementation of [Alpha-Refine: Boosting Tracking Performance by Precise Bounding Box Estimation",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "winner"
+    }
+  ]
+}

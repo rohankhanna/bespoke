@@ -1,6 +1,7 @@
 {
   "aliases": [
-    "Gradle Wrapper"
+    "Gradle Wrapper",
+    "gradle-wrapper"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -19,6 +20,18 @@
       "source_repo": "RoaringBitmap/RoaringBitmap",
       "status": "candidate-context",
       "text": "\"Gradle Wrapper\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cashapp/turbine",
+      "status": "candidate-context",
+      "text": "A testing library for kotlinx.coroutines Flow"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cashapp/turbine",
+      "status": "candidate-context",
+      "text": "gradle-wrapper"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +40,12 @@
       "source_repo": "RoaringBitmap/RoaringBitmap",
       "status": "candidate",
       "text": "\"Gradle Wrapper\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cashapp/turbine",
+      "status": "candidate",
+      "text": "gradle-wrapper"
     }
   ],
   "candidate_related_terms": [
@@ -76,11 +95,17 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": ".github/workflows/gradle-wrapper-validation.yml",
       "source_repo": "RoaringBitmap/RoaringBitmap"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/gradle-wrapper.yaml",
+      "source_repo": "cashapp/turbine"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,17 @@
+{
+  "component": "Homebrew/actions/git-user-config@266845213695c3047d210b2e8fbc42ecdaf45802",
+  "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/homebrew.yml",
+      "source_repo": "Kong/insomnia"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release-start.yml",
+      "source_repo": "Kong/insomnia"
+    }
+  ]
+}

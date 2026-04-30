@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-20T03:16:48.146869+00:00",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "sources": [
     {
       "discovered_via": "repo-topic",
@@ -221,6 +221,51 @@
       "discovered_via": "repo-topic",
       "source_file": null,
       "source_repo": "attractivechaos/klib"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "paulocoutinhox/pdfium-lib"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/library.yml",
+      "source_repo": "open-edge-platform/geti-instant-learn"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/library.yml",
+      "source_repo": "open-edge-platform/physical-ai-studio"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "AnonymouX47/term-image"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "Martinsos/edlib"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "apache/logging-log4j2"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "junkblocker/calibre-zaw-source"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "uael/sv"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "web-infra-dev/rslib"
     }
   ],
   "term": "library"

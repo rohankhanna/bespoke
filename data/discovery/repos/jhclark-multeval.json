@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T05:10:40.853924+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 20673
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Easy Bootstrap Resampling and Approximate Randomization for BLEU, METEOR, and TER using Multiple Optimizer Runs. This implements \"Better Hypothesis Testing for Statistical Machine Translation: Controlling for Optimizer Instability\" from ACL 2011.",
+    "fork": false,
+    "full_name": "jhclark/multeval",
+    "html_url": "https://github.com/jhclark/multeval",
+    "language": "Groff",
+    "pushed_at": "2023-02-25T15:03:04Z",
+    "stargazers_count": 205,
+    "topics": [],
+    "updated_at": "2026-04-02T01:40:56Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

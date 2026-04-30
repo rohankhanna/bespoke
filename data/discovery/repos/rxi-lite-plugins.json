@@ -1,0 +1,77 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "rxi/lite-plugins",
+      "target": "liquid600pgm/lintplus",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "rxi/lite-plugins",
+      "target": "dwyl/english-words",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "rxi/lite-plugins",
+      "target": "monolifed/theme16",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "rxi/lite-plugins",
+      "target": "drmargarido/todotreeview",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T00:39:35.476105+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 13181
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Plugins for the lite text editor",
+    "fork": false,
+    "full_name": "rxi/lite-plugins",
+    "html_url": "https://github.com/rxi/lite-plugins",
+    "language": "Lua",
+    "pushed_at": "2024-05-11T12:55:20Z",
+    "stargazers_count": 381,
+    "topics": [],
+    "updated_at": "2026-04-08T18:22:50Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "drmargarido/todotreeview",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dwyl/english-words",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "liquid600pgm/lintplus",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "monolifed/theme16",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

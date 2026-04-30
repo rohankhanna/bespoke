@@ -1,0 +1,139 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "LiheYoung/Depth-Anything",
+      "target": "instantid/instantid",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "LiheYoung/Depth-Anything",
+      "target": "daniel89710/trt-depth-anything",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "LiheYoung/Depth-Anything",
+      "target": "olegchomp/tddepthanything",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "LiheYoung/Depth-Anything",
+      "target": "heyoeyo/muggled_dpt",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "LiheYoung/Depth-Anything",
+      "target": "depth-estimation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "LiheYoung/Depth-Anything",
+      "target": "image-synthesis",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "LiheYoung/Depth-Anything",
+      "target": "metric-depth-estimation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "LiheYoung/Depth-Anything",
+      "target": "monocular-depth-estimation",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T05:13:32.675798+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 14816
+    },
+    {
+      "path": "requirements.txt",
+      "size": 81
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "[CVPR 2024] Depth Anything: Unleashing the Power of Large-Scale Unlabeled Data. Foundation Model for Monocular Depth Estimation",
+    "fork": false,
+    "full_name": "LiheYoung/Depth-Anything",
+    "html_url": "https://github.com/LiheYoung/Depth-Anything",
+    "language": "Python",
+    "pushed_at": "2024-07-17T10:46:05Z",
+    "stargazers_count": 8079,
+    "topics": [
+      "depth-estimation",
+      "image-synthesis",
+      "metric-depth-estimation",
+      "monocular-depth-estimation"
+    ],
+    "updated_at": "2026-04-28T08:46:37Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "daniel89710/trt-depth-anything",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "heyoeyo/muggled_dpt",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "instantid/instantid",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "olegchomp/tddepthanything",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "depth-estimation"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "image-synthesis"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "metric-depth-estimation"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "monocular-depth-estimation"
+    }
+  ]
+}

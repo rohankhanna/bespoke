@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Audit Labels"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "awsdocs/aws-doc-sdk-examples",
+      "status": "candidate-context",
+      "text": "Welcome to the AWS Code Examples Repository.  This repo contains code examples used in the AWS documentation, AWS SDK Developer Guides, and more. For more information, see the Readme.md file below."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "awsdocs/aws-doc-sdk-examples",
+      "status": "candidate-context",
+      "text": "\"Audit Labels\""
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "awsdocs/aws-doc-sdk-examples",
+      "status": "candidate",
+      "text": "\"Audit Labels\""
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10743,
+      "status": "candidate",
+      "text": "aaa"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10743,
+      "status": "candidate",
+      "text": "test"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10742,
+      "status": "candidate",
+      "text": "mark"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10681,
+      "status": "candidate",
+      "text": "radiobiology"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10619,
+      "status": "candidate",
+      "text": "aerophilately"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Audit Labels",
+  "concept_id": "audit-labels",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/label-auditor.yml",
+      "source_repo": "awsdocs/aws-doc-sdk-examples"
+    }
+  ],
+  "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Audit Labels",
+      "sense_id": "audit-labels#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

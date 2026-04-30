@@ -19,6 +19,18 @@
       "source_repo": "cointop-sh/cointop",
       "status": "candidate-context",
       "text": "<h3 align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "microsoft/UniVL",
+      "status": "candidate-context",
+      "text": "An official implementation for \" UniVL: A Unified Video and Language Pre-Training Model for Multimodal Understanding and Generation\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/UniVL",
+      "status": "candidate-context",
+      "text": "The implementation of paper [**UniVL: A Unified Video and Language Pre-Training Model for Multimodal Understanding and Generation**](https://arxiv.org/abs/2002.06353)."
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "cointop-sh/cointop",
       "status": "candidate",
       "text": "<h3 align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/UniVL",
+      "status": "candidate",
+      "text": "The implementation of paper [**UniVL: A Unified Video and Language Pre-Training Model for Multimodal Understanding and Generation**](https://arxiv.org/abs/2002.06353)."
     }
   ],
   "candidate_related_terms": [
@@ -91,11 +109,17 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "cointop-sh/cointop"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "microsoft/UniVL"
     }
   ],
   "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

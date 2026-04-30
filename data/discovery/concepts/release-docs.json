@@ -13,6 +13,18 @@
       "source_repo": "aws-samples/anthropic-on-aws",
       "status": "candidate-context",
       "text": "'Release Docs'"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "alexklibisz/elastiknn",
+      "status": "candidate-context",
+      "text": "Elasticsearch plugin for nearest neighbor search. Store vectors and run similarity search using exact and approximate algorithms."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alexklibisz/elastiknn",
+      "status": "candidate-context",
+      "text": "Release Docs"
     }
   ],
   "candidate_glosses": [
@@ -21,6 +33,12 @@
       "source_repo": "aws-samples/anthropic-on-aws",
       "status": "candidate",
       "text": "'Release Docs'"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alexklibisz/elastiknn",
+      "status": "candidate",
+      "text": "Release Docs"
     }
   ],
   "candidate_related_terms": [
@@ -70,11 +88,17 @@
       "observed_at": "2026-04-19T17:42:30.117329+00:00",
       "source_file": ".github/workflows/docbuild.yml",
       "source_repo": "aws-samples/anthropic-on-aws"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/release-docs.yml",
+      "source_repo": "alexklibisz/elastiknn"
     }
   ],
   "first_seen_at": "2026-04-19T17:42:30.117329+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-19T17:42:30.117329+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

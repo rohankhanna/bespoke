@@ -1,7 +1,7 @@
 {
   "component": "lee-dohm/no-response@9bb0a4b5e6a45046f00353d5de7d90fb8bd773bb",
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -17,6 +17,11 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/no-response.yml",
       "source_repo": "microsoft/vscode-java-test"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/no_response.yml",
+      "source_repo": "lightgbm-org/LightGBM"
     }
   ]
 }

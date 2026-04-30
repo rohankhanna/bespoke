@@ -165,6 +165,18 @@
       "source_repo": "microsoft/vscode-java-test",
       "status": "candidate-context",
       "text": "No Response"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "withfig/fig",
+      "status": "candidate-context",
+      "text": "Public issue tracker for Fig."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "withfig/fig",
+      "status": "candidate-context",
+      "text": "No Response"
     }
   ],
   "candidate_glosses": [
@@ -243,6 +255,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "microsoft/vscode-java-test",
+      "status": "candidate",
+      "text": "No Response"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "withfig/fig",
       "status": "candidate",
       "text": "No Response"
     }
@@ -372,11 +390,17 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": ".github/workflows/no-response.yml",
       "source_repo": "microsoft/vscode-java-test"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/no-response.yml",
+      "source_repo": "withfig/fig"
     }
   ],
   "first_seen_at": "2026-04-18T18:48:44.679047+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

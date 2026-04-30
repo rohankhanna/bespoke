@@ -19,6 +19,30 @@
       "source_repo": "CarlosDerSeher/snapclient",
       "status": "candidate-context",
       "text": "- FLAC, OPUS and PCM decoding currently supported"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "happyleavesaoc/python-snapcast",
+      "status": "candidate-context",
+      "text": "Python API for controlling Snapcast, a multi-room synchronous audio solution."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "happyleavesaoc/python-snapcast",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://travis-ci.org/happyleavesaoc/python-snapcast.svg?branch=master)](https://travis-ci.org/happyleavesaoc/python-snapcast) [![PyPI version](https://badge.fury.io/py/snapcast.svg)](https://badge.fury.io/py/snapcast)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mariolukas/HydraPlay",
+      "status": "candidate-context",
+      "text": "A multiroom audio player setup, based on snapcast and mopidy. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mariolukas/HydraPlay",
+      "status": "candidate-context",
+      "text": "HydraPlay is an easy to use multiroom audio player. HydraPlay provides an integrated web interface to multiple"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +51,18 @@
       "source_repo": "CarlosDerSeher/snapclient",
       "status": "candidate",
       "text": "- FLAC, OPUS and PCM decoding currently supported"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "happyleavesaoc/python-snapcast",
+      "status": "candidate",
+      "text": "[![Build Status](https://travis-ci.org/happyleavesaoc/python-snapcast.svg?branch=master)](https://travis-ci.org/happyleavesaoc/python-snapcast) [![PyPI version](https://badge.fury.io/py/snapcast.svg)](https://badge.fury.io/py/snapcast)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mariolukas/HydraPlay",
+      "status": "candidate",
+      "text": "HydraPlay is an easy to use multiroom audio player. HydraPlay provides an integrated web interface to multiple"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +76,23 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "CarlosDerSeher/snapclient"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "happyleavesaoc/python-snapcast"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "mariolukas/HydraPlay"
     }
   ],
   "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

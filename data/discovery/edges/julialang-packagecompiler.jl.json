@@ -1,0 +1,139 @@
+{
+  "edges": [
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/CompatHelper.yml",
+      "source_repo": "JuliaLang/PackageCompiler.jl",
+      "target": "CompatHelper",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/TagBot.yml",
+      "source_repo": "JuliaLang/PackageCompiler.jl",
+      "target": "JuliaRegistries/TagBot@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/TagBot.yml",
+      "source_repo": "JuliaLang/PackageCompiler.jl",
+      "target": "TagBot",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.nightly.yml",
+      "source_repo": "JuliaLang/PackageCompiler.jl",
+      "target": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.nightly.yml",
+      "source_repo": "JuliaLang/PackageCompiler.jl",
+      "target": "julia-actions/setup-julia@5c9647d97b78a5debe5164e9eec09d653d29bd71",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.nightly.yml",
+      "source_repo": "JuliaLang/PackageCompiler.jl",
+      "target": "julia-actions/cache@d10a6fd8f31b12404a54613ebad242900567f2b9",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.nightly.yml",
+      "source_repo": "JuliaLang/PackageCompiler.jl",
+      "target": "julia-actions/julia-runtest@678da69444cd5f13d7e674a90cb4f534639a14f9",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.nightly.yml",
+      "source_repo": "JuliaLang/PackageCompiler.jl",
+      "target": "julia-actions/julia-processcoverage@03114f09f119417c3242a9fb6e0b722676aedf38",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.nightly.yml",
+      "source_repo": "JuliaLang/PackageCompiler.jl",
+      "target": "codecov/codecov-action@18283e04ce6e62d37312384ff67231eb8fd56d24",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.nightly.yml",
+      "source_repo": "JuliaLang/PackageCompiler.jl",
+      "target": "Nightly CI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "JuliaLang/PackageCompiler.jl",
+      "target": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "JuliaLang/PackageCompiler.jl",
+      "target": "julia-actions/setup-julia@5c9647d97b78a5debe5164e9eec09d653d29bd71",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "JuliaLang/PackageCompiler.jl",
+      "target": "julia-actions/cache@d10a6fd8f31b12404a54613ebad242900567f2b9",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "JuliaLang/PackageCompiler.jl",
+      "target": "julia-actions/julia-runtest@678da69444cd5f13d7e674a90cb4f534639a14f9",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "JuliaLang/PackageCompiler.jl",
+      "target": "julia-actions/julia-processcoverage@03114f09f119417c3242a9fb6e0b722676aedf38",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "JuliaLang/PackageCompiler.jl",
+      "target": "codecov/codecov-action@18283e04ce6e62d37312384ff67231eb8fd56d24",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "JuliaLang/PackageCompiler.jl",
+      "target": "julia-actions/julia-buildpkg@e3eb439fad4f9aba7da2667e7510e4a46ebc46e1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JuliaLang/PackageCompiler.jl",
+      "target": "julia",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JuliaLang/PackageCompiler.jl",
+      "target": "packagecompiler",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-30T00:37:16.824464+00:00",
+  "source_repo": "JuliaLang/PackageCompiler.jl"
+}

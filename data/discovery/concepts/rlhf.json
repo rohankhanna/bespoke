@@ -127,6 +127,30 @@
       "source_repo": "jianzhnie/LLamaTuner",
       "status": "candidate-context",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "LAION-AI/Open-Assistant",
+      "status": "candidate-context",
+      "text": "OpenAssistant is a chat-based assistant that understands tasks, can interact with third-party systems, and retrieve information dynamically to do so."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "LAION-AI/Open-Assistant",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "HarderThenHarder/RLLoggingBoard",
+      "status": "candidate-context",
+      "text": "A visuailzation tool to make deep understaning and easier debugging for RLHF training."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "HarderThenHarder/RLLoggingBoard",
+      "status": "candidate-context",
+      "text": "RL Logging Board \u662f\u4e00\u4e2a\u5c06 Reinforcement Learning from Human Feedback\uff08RLHF\uff09\u7684`\u8bad\u7ec3\u8fc7\u7a0b\u8fdb\u884c\u53ef\u89c6\u5316\u7684\u5de5\u5177`\uff0c\u65e8\u5728\uff1a"
     }
   ],
   "candidate_glosses": [
@@ -189,6 +213,18 @@
       "source_repo": "jianzhnie/LLamaTuner",
       "status": "candidate",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "LAION-AI/Open-Assistant",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "HarderThenHarder/RLLoggingBoard",
+      "status": "candidate",
+      "text": "RL Logging Board \u662f\u4e00\u4e2a\u5c06 Reinforcement Learning from Human Feedback\uff08RLHF\uff09\u7684`\u8bad\u7ec3\u8fc7\u7a0b\u8fdb\u884c\u53ef\u89c6\u5316\u7684\u5de5\u5177`\uff0c\u65e8\u5728\uff1a"
     }
   ],
   "candidate_related_terms": [],
@@ -274,11 +310,29 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "jianzhnie/LLamaTuner"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "LAION-AI/Open-Assistant"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "hiyouga/LlamaFactory"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "HarderThenHarder/RLLoggingBoard"
     }
   ],
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

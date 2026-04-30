@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Language Server Implementation for Luau"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "An implementation of a language server for the [Luau](https://github.com/Roblox/luau) programming language."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "An implementation of a language server for the [Luau](https://github.com/Roblox/luau) programming language."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "language-server",
+      "sense_id": "language-server#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "language-server",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "language-server",
+  "observation_id": "efc447ae12a9258f",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T00:37:16.824464+00:00",
+  "observed_text": "language-server",
+  "source_context_snippet": "An implementation of a language server for the [Luau](https://github.com/Roblox/luau) programming language.",
+  "source_file": null,
+  "source_repo": "JohnnyMorganz/luau-lsp",
+  "source_repo_description": "Language Server Implementation for Luau"
+}

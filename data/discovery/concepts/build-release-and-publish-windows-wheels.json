@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Build Release and Publish windows wheels"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "llvm/torch-mlir-release",
+      "status": "candidate-context",
+      "text": "Automated releases for torch-mlir"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "llvm/torch-mlir-release",
+      "status": "candidate-context",
+      "text": "Build Release and Publish windows wheels"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "llvm/torch-mlir-release",
+      "status": "candidate",
+      "text": "Build Release and Publish windows wheels"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 33528,
+      "status": "candidate",
+      "text": "trail"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26741,
+      "status": "candidate",
+      "text": "tell"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26698,
+      "status": "candidate",
+      "text": "run"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26698,
+      "status": "candidate",
+      "text": "runs"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26655,
+      "status": "candidate",
+      "text": "bring"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Build Release and Publish windows wheels",
+  "concept_id": "build-release-and-publish-windows-wheels",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/buildReleaseAndPublishWindows.yml",
+      "source_repo": "llvm/torch-mlir-release"
+    }
+  ],
+  "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Build Release and Publish windows wheels",
+      "sense_id": "build-release-and-publish-windows-wheels#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

@@ -262,6 +262,42 @@
       "source_repo": "goharbor/harbor",
       "status": "candidate-context",
       "text": "[![CI](https://github.com/goharbor/harbor/actions/workflows/CI.yml/badge.svg)](https://github.com/goharbor/harbor/actions/workflows/CI.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sigstore/helm-sigstore",
+      "status": "candidate-context",
+      "text": "Plugin for Helm to integrate the sigstore ecosystem"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sigstore/helm-sigstore",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://github.com/sigstore/helm-sigstore/workflows/ci/badge.svg?branch=main)](https://github.com/sigstore/helm-sigstore/actions?workflow=ci)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "succinctlabs/sp1-cluster",
+      "status": "candidate-context",
+      "text": "The official multi-GPU proving service implementation for SP1, designed for the cloud and bare metal deployment."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "succinctlabs/sp1-cluster",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apache/apisix-helm-chart",
+      "status": "candidate-context",
+      "text": "Apache APISIX Helm Chart"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/apisix-helm-chart",
+      "status": "candidate-context",
+      "text": "<!--"
     }
   ],
   "candidate_glosses": [
@@ -390,6 +426,24 @@
       "source_repo": "goharbor/harbor",
       "status": "candidate",
       "text": "[![CI](https://github.com/goharbor/harbor/actions/workflows/CI.yml/badge.svg)](https://github.com/goharbor/harbor/actions/workflows/CI.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sigstore/helm-sigstore",
+      "status": "candidate",
+      "text": "[![Build Status](https://github.com/sigstore/helm-sigstore/workflows/ci/badge.svg?branch=main)](https://github.com/sigstore/helm-sigstore/actions?workflow=ci)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "succinctlabs/sp1-cluster",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/apisix-helm-chart",
+      "status": "candidate",
+      "text": "<!--"
     }
   ],
   "candidate_related_terms": [
@@ -571,11 +625,29 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "goharbor/harbor"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "sigstore/helm-sigstore"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "succinctlabs/sp1-cluster"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "apache/apisix-helm-chart"
     }
   ],
   "first_seen_at": "2026-04-18T12:46:59.510459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

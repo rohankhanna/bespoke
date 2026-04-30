@@ -799,6 +799,102 @@
       "source_repo": "jianzhnie/LLamaTuner",
       "status": "candidate-context",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "FuxiaoLiu/LRV-Instruction",
+      "status": "candidate-context",
+      "text": "[ICLR'24] Mitigating Hallucination in Large Multi-Modal Models via Robust Instruction Tuning"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "FuxiaoLiu/LRV-Instruction",
+      "status": "candidate-context",
+      "text": "[Fuxiao Liu](https://fuxiaoliu.github.io/), [Kevin Lin](https://sites.google.com/site/kevinlin311tw/me), [Linjie Li](https://www.microsoft.com/en-us/research/people/linjli/), [Jianfeng Wang](http://jianfengwang.me/), [Yaser Yacoob](https://www.umiacs.umd.edu/people/yaser), [Liju\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "SALT-NLP/LLaVAR",
+      "status": "candidate-context",
+      "text": "Code/Data for the paper: \"LLaVAR: Enhanced Visual Instruction Tuning for Text-Rich Image Understanding\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SALT-NLP/LLaVAR",
+      "status": "candidate-context",
+      "text": "**LLaVAR: Enhanced Visual Instruction Tuning for Text-Rich Image Understanding**"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "OpenGVLab/Multi-Modality-Arena",
+      "status": "candidate-context",
+      "text": "Chatbot Arena meets multi-modality! Multi-Modality Arena allows you to benchmark vision-language models side-by-side while providing images as inputs. Supports MiniGPT-4, LLaMA-Adapter V2, LLaVA, BLIP-2, and many more!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "OpenGVLab/Multi-Modality-Arena",
+      "status": "candidate-context",
+      "text": "<p align=\"center\"><img src=\"./CVLAB/style/img/Opengvlab_LOGO.svg\" width=\"400\"></p>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "LAION-AI/Open-Assistant",
+      "status": "candidate-context",
+      "text": "OpenAssistant is a chat-based assistant that understands tasks, can interact with third-party systems, and retrieve information dynamically to do so."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "LAION-AI/Open-Assistant",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jianzhnie/awesome-instruction-datasets",
+      "status": "candidate-context",
+      "text": "A collection of awesome-prompt-datasets, awesome-instruction-dataset, to train ChatLLM such as chatgpt \u6536\u5f55\u5404\u79cd\u5404\u6837\u7684\u6307\u4ee4\u6570\u636e\u96c6, \u7528\u4e8e\u8bad\u7ec3  ChatLLM \u6a21\u578b\u3002"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jianzhnie/awesome-instruction-datasets",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "microsoft/autogen",
+      "status": "candidate-context",
+      "text": "A programming framework for agentic AI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/autogen",
+      "status": "candidate-context",
+      "text": "<a name=\"readme-top\"></a>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "X-PLUG/mPLUG-Owl",
+      "status": "candidate-context",
+      "text": "mPLUG-Owl: The Powerful Multi-modal Large Language Model  Family"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "X-PLUG/mPLUG-Owl",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sunnweiwei/RankGPT",
+      "status": "candidate-context",
+      "text": "Is ChatGPT Good at Search? LLMs as Re-Ranking Agent [EMNLP 2023 Outstanding Paper Award]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sunnweiwei/RankGPT",
+      "status": "candidate-context",
+      "text": "[![Generic badge](https://img.shields.io/badge/arXiv-2304.09542-red.svg)](https://arxiv.org/abs/2304.09542)"
     }
   ],
   "candidate_glosses": [
@@ -1197,6 +1293,54 @@
       "source_repo": "jianzhnie/LLamaTuner",
       "status": "candidate",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "FuxiaoLiu/LRV-Instruction",
+      "status": "candidate",
+      "text": "[Fuxiao Liu](https://fuxiaoliu.github.io/), [Kevin Lin](https://sites.google.com/site/kevinlin311tw/me), [Linjie Li](https://www.microsoft.com/en-us/research/people/linjli/), [Jianfeng Wang](http://jianfengwang.me/), [Yaser Yacoob](https://www.umiacs.umd.edu/people/yaser), [Liju\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SALT-NLP/LLaVAR",
+      "status": "candidate",
+      "text": "**LLaVAR: Enhanced Visual Instruction Tuning for Text-Rich Image Understanding**"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "OpenGVLab/Multi-Modality-Arena",
+      "status": "candidate",
+      "text": "<p align=\"center\"><img src=\"./CVLAB/style/img/Opengvlab_LOGO.svg\" width=\"400\"></p>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "LAION-AI/Open-Assistant",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jianzhnie/awesome-instruction-datasets",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/autogen",
+      "status": "candidate",
+      "text": "<a name=\"readme-top\"></a>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "X-PLUG/mPLUG-Owl",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sunnweiwei/RankGPT",
+      "status": "candidate",
+      "text": "[![Generic badge](https://img.shields.io/badge/arXiv-2304.09542-red.svg)](https://arxiv.org/abs/2304.09542)"
     }
   ],
   "candidate_related_terms": [],
@@ -2050,11 +2194,137 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "jianzhnie/LLamaTuner"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "OpenBMB/RepoAgent"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "langchain-ai/langchain"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "FuxiaoLiu/LRV-Instruction"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "SALT-NLP/LLaVAR"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "OpenGVLab/Multi-Modality-Arena"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "EvolvingLMMs-Lab/Otter"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "LAION-AI/Open-Assistant"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "OpenHands/OpenHands"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "OpenMOSS/MOSS"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "lobehub/lobe-cli-toolbox"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "ElricLiu/Awesome-One-Click-Deployment"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "langflow-ai/langflow"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "ChatGPTNextWeb/NextChat"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "chatchat-space/Langchain-Chatchat"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "anse-app/chatgpt-demo"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "f/prompts.chat"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "jianzhnie/awesome-instruction-datasets"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "Ai00-X/ai00_server"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "microsoft/autogen"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "X-PLUG/mPLUG-Owl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "sunnweiwei/RankGPT"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

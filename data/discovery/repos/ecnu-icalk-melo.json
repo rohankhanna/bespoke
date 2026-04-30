@@ -1,0 +1,69 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ECNU-ICALK/MELO",
+      "target": "eric-mitchell/mend",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ECNU-ICALK/MELO",
+      "target": "thartvigsen/grace",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ECNU-ICALK/MELO",
+      "target": "bruthyu/melo",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T02:40:04.481743+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5472
+    },
+    {
+      "path": "requirements.txt",
+      "size": 1052
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "[AAAI 2024] MELO: Enhancing Model Editing with Neuron-indexed Dynamic LoRA",
+    "fork": false,
+    "full_name": "ECNU-ICALK/MELO",
+    "html_url": "https://github.com/ECNU-ICALK/MELO",
+    "language": "Python",
+    "pushed_at": "2024-04-09T02:37:15Z",
+    "stargazers_count": 28,
+    "topics": [],
+    "updated_at": "2026-03-16T09:39:59Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "bruthyu/melo",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "eric-mitchell/mend",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "thartvigsen/grace",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

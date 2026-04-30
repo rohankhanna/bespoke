@@ -1,0 +1,12 @@
+{
+  "component": "detomarco/delete-comment@dd37d1026c669ebfb0ffa5d23890010759ff05d5",
+  "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/check-firebaseai-responses.yml",
+      "source_repo": "firebase/firebase-android-sdk"
+    }
+  ]
+}

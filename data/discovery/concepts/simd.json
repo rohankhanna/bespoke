@@ -355,6 +355,30 @@
       "source_repo": "ashvardanian/StringZilla-CLI",
       "status": "candidate-context",
       "text": "![StringZilla CLI banner](https://github.com/ashvardanian/ashvardanian/blob/master/repositories/StringZilla-CLI.png?raw=true)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dmtrKovalenko/zlob",
+      "status": "candidate-context",
+      "text": "100% POSIX and glibc compatible globbing library for C, Zig, and Rust that is faster and supports all the modern globbing formats and gitignore"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dmtrKovalenko/zlob",
+      "status": "candidate-context",
+      "text": "100% POSIX and glibc compatible globbing library for C, Zig, and Rust that is **faster** and supports **all the modern globbing formats** and gitignore"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "unum-cloud/USearch",
+      "status": "candidate-context",
+      "text": "Fast Open-Source Search & Clustering engine \u00d7 for Vectors & Arbitrary Objects \u00d7 in C++, C, Python, JavaScript, Rust, Java, Objective-C, Swift, C#, GoLang, and Wolfram \ud83d\udd0d"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "unum-cloud/USearch",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">USearch</h1>"
     }
   ],
   "candidate_glosses": [
@@ -531,6 +555,18 @@
       "source_repo": "ashvardanian/StringZilla-CLI",
       "status": "candidate",
       "text": "![StringZilla CLI banner](https://github.com/ashvardanian/ashvardanian/blob/master/repositories/StringZilla-CLI.png?raw=true)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dmtrKovalenko/zlob",
+      "status": "candidate",
+      "text": "100% POSIX and glibc compatible globbing library for C, Zig, and Rust that is **faster** and supports **all the modern globbing formats** and gitignore"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "unum-cloud/USearch",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">USearch</h1>"
     }
   ],
   "candidate_related_terms": [
@@ -778,11 +814,41 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "simdjson/simdjson"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "ashvardanian/NumKong"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "ashvardanian/StringZilla-CLI"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "dmtrKovalenko/zlob"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "unum-cloud/USearch"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "simdjson/simdjson"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

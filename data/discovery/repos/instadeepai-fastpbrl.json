@@ -1,0 +1,77 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "instadeepai/fastpbrl",
+      "target": "population-based-training",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "instadeepai/fastpbrl",
+      "target": "reinforcement-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "instadeepai/fastpbrl",
+      "target": "vectorization",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T02:42:34.702694+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6535
+    },
+    {
+      "path": "requirements.txt",
+      "size": 504
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Vectorization techniques for fast population-based training.",
+    "fork": false,
+    "full_name": "instadeepai/fastpbrl",
+    "html_url": "https://github.com/instadeepai/fastpbrl",
+    "language": "Python",
+    "pushed_at": "2026-04-26T00:09:51Z",
+    "stargazers_count": 57,
+    "topics": [
+      "jax",
+      "population-based-training",
+      "reinforcement-learning",
+      "vectorization"
+    ],
+    "updated_at": "2026-01-06T07:44:49Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "[![PyPI Python Version](https://img.shields.io/badge/python-3.8-blue.svg)](https://www.python.org/downloads/release/python-380/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "population-based-training"
+    },
+    {
+      "context_snippet": "[![PyPI Python Version](https://img.shields.io/badge/python-3.8-blue.svg)](https://www.python.org/downloads/release/python-380/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "reinforcement-learning"
+    },
+    {
+      "context_snippet": "[![PyPI Python Version](https://img.shields.io/badge/python-3.8-blue.svg)](https://www.python.org/downloads/release/python-380/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vectorization"
+    }
+  ]
+}

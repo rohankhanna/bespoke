@@ -214,6 +214,54 @@
       "source_repo": "chef/bento",
       "status": "candidate-context",
       "text": "Bento is a project that encapsulates [Packer](https://www.packer.io/) templates for building [Vagrant](https://www.vagrantup.com/) base boxes. A subset of templates are built and published to the [bento org](https://app.vagrantup.com/bento) on Vagrant Cloud. These published boxe\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pacstall/pacstall",
+      "status": "candidate-context",
+      "text": "An AUR-inspired package manager for Ubuntu"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pacstall/pacstall",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lavabit/robox",
+      "status": "candidate-context",
+      "text": "The tools needed to robotically create/configure/provision a large number of operating systems, for a variety of hypervisors, using packer."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lavabit/robox",
+      "status": "candidate-context",
+      "text": "Generic base boxes, providing a variety of operating systems, and available across a number of different virtualized platforms."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pacstall/pacstall-programs",
+      "status": "candidate-context",
+      "text": "Pacstall's official program repository"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pacstall/pacstall-programs",
+      "status": "candidate-context",
+      "text": "This is the default repository of pacscripts which [pacstall](https://github.com/pacstall/pacstall) uses to install software. You can fork this repository and add make your own package repository as long as it follows the basic structure:"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apnadkarni/tcl-cmark",
+      "status": "candidate-context",
+      "text": "Tcl bindings to the cmark-gfm GitHub Flavoured CommonMark/Markdown library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apnadkarni/tcl-cmark",
+      "status": "candidate-context",
+      "text": "Ubuntu"
     }
   ],
   "candidate_glosses": [
@@ -324,6 +372,30 @@
       "source_repo": "chef/bento",
       "status": "candidate",
       "text": "Bento is a project that encapsulates [Packer](https://www.packer.io/) templates for building [Vagrant](https://www.vagrantup.com/) base boxes. A subset of templates are built and published to the [bento org](https://app.vagrantup.com/bento) on Vagrant Cloud. These published boxe\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pacstall/pacstall",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lavabit/robox",
+      "status": "candidate",
+      "text": "Generic base boxes, providing a variety of operating systems, and available across a number of different virtualized platforms."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pacstall/pacstall-programs",
+      "status": "candidate",
+      "text": "This is the default repository of pacscripts which [pacstall](https://github.com/pacstall/pacstall) uses to install software. You can fork this repository and add make your own package repository as long as it follows the basic structure:"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apnadkarni/tcl-cmark",
+      "status": "candidate",
+      "text": "Ubuntu"
     }
   ],
   "candidate_related_terms": [
@@ -475,11 +547,35 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "chef/bento"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "pacstall/pacstall"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "lavabit/robox"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "pacstall/pacstall-programs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/ubuntu.yml",
+      "source_repo": "apnadkarni/tcl-cmark"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

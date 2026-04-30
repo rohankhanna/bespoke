@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Kiro is an agentic IDE that works alongside you from prototype to production."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Duplicate Dispute Handler"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Duplicate Dispute Handler"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18412,
+      "status": "candidate",
+      "text": "mating"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18412,
+      "status": "candidate",
+      "text": "same"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18326,
+      "status": "candidate",
+      "text": "trap"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18250,
+      "status": "candidate",
+      "text": "coat"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18224,
+      "status": "candidate",
+      "text": "refer"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Duplicate Dispute Handler",
+      "sense_id": "duplicate-dispute-handler#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "duplicate-dispute-handler",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "duplicate-dispute-handler",
+  "observation_id": "ce62d5a4007cf0c8",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-30T00:37:16.824464+00:00",
+  "observed_text": "Duplicate Dispute Handler",
+  "source_context_snippet": "Duplicate Dispute Handler",
+  "source_file": ".github/workflows/duplicate-dispute.yml",
+  "source_repo": "kirodotdev/Kiro",
+  "source_repo_description": "Kiro is an agentic IDE that works alongside you from prototype to production."
+}

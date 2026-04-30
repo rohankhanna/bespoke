@@ -1,0 +1,148 @@
+{
+  "aliases": [
+    "learning-by-doing"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gusye1234/nano-graphrag",
+      "status": "candidate-context",
+      "text": "A simple, easy-to-hack GraphRAG implementation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gusye1234/nano-graphrag",
+      "status": "candidate-context",
+      "text": "future>=1.0.0 openai tiktoken networkx graspologic nano-vectordb hnswlib xxhash tenacity dspy-ai neo4j aioboto3"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dwyl/learn-tailwind",
+      "status": "candidate-context",
+      "text": " \ud83c\udf2c\ufe0f Learn Tailwind CSS to craft pixel-perfect web apps/sites in less time! \ud83d\ude0d"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dwyl/learn-tailwind",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dwyl/learn-heroku",
+      "status": "candidate-context",
+      "text": ":checkered_flag: Learn how to deploy your web application to Heroku from scratch step-by-step in 7 minutes!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dwyl/learn-heroku",
+      "status": "candidate-context",
+      "text": "![heroku logo](https://cdn.worldvectorlogo.com/logos/heroku-1.svg)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gusye1234/nano-graphrag",
+      "status": "candidate",
+      "text": "future>=1.0.0 openai tiktoken networkx graspologic nano-vectordb hnswlib xxhash tenacity dspy-ai neo4j aioboto3"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dwyl/learn-tailwind",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dwyl/learn-heroku",
+      "status": "candidate",
+      "text": "![heroku logo](https://cdn.worldvectorlogo.com/logos/heroku-1.svg)"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24999,
+      "status": "candidate",
+      "text": "cognitive apprenticeship"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24998,
+      "status": "candidate",
+      "text": "applied science"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24997,
+      "status": "candidate",
+      "text": "cumulative learning"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24996,
+      "status": "candidate",
+      "text": "practice research"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24995,
+      "status": "candidate",
+      "text": "cost-of-production theory of value"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "learning-by-doing",
+  "concept_id": "learning-by-doing",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "gusye1234/nano-graphrag"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "dwyl/learn-tailwind"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "dwyl/learn-heroku"
+    }
+  ],
+  "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "learning-by-doing",
+      "sense_id": "learning-by-doing#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

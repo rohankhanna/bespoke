@@ -1,0 +1,173 @@
+{
+  "components": [
+    {
+      "component": "actions/stale@v4.1.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/close_stale_issues.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "open-mmlab/OpenPCDet",
+      "target": "traveller59/spconv",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "open-mmlab/OpenPCDet",
+      "target": "isl-org/open3d",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/close_stale_issues.yml",
+      "source_repo": "open-mmlab/OpenPCDet",
+      "target": "actions/stale@v4.1.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/close_stale_issues.yml",
+      "source_repo": "open-mmlab/OpenPCDet",
+      "target": "close stale issues",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "open-mmlab/OpenPCDet",
+      "target": "3d-detection",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "open-mmlab/OpenPCDet",
+      "target": "autonomous-driving",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "open-mmlab/OpenPCDet",
+      "target": "object-detection",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "open-mmlab/OpenPCDet",
+      "target": "point-cloud",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "open-mmlab/OpenPCDet",
+      "target": "pv-rcnn",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "open-mmlab/OpenPCDet",
+      "target": "pytorch",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T05:14:07.691135+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 24185
+    },
+    {
+      "path": "requirements.txt",
+      "size": 129
+    },
+    {
+      "path": ".github/workflows/close_stale_issues.yml",
+      "size": 932
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "OpenPCDet Toolbox for LiDAR-based 3D Object Detection.",
+    "fork": false,
+    "full_name": "open-mmlab/OpenPCDet",
+    "html_url": "https://github.com/open-mmlab/OpenPCDet",
+    "language": "Python",
+    "pushed_at": "2025-10-08T10:56:40Z",
+    "stargazers_count": 5549,
+    "topics": [
+      "3d-detection",
+      "autonomous-driving",
+      "object-detection",
+      "point-cloud",
+      "pv-rcnn",
+      "pytorch"
+    ],
+    "updated_at": "2026-04-29T14:52:26Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "isl-org/open3d",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "traveller59/spconv",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "close stale issues",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/close_stale_issues.yml",
+      "term": "close stale issues"
+    },
+    {
+      "context_snippet": "<img src=\"docs/open_mmlab.png\" align=\"right\" width=\"30%\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "3d-detection"
+    },
+    {
+      "context_snippet": "<img src=\"docs/open_mmlab.png\" align=\"right\" width=\"30%\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "autonomous-driving"
+    },
+    {
+      "context_snippet": "<img src=\"docs/open_mmlab.png\" align=\"right\" width=\"30%\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "object-detection"
+    },
+    {
+      "context_snippet": "<img src=\"docs/open_mmlab.png\" align=\"right\" width=\"30%\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "point-cloud"
+    },
+    {
+      "context_snippet": "<img src=\"docs/open_mmlab.png\" align=\"right\" width=\"30%\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pv-rcnn"
+    },
+    {
+      "context_snippet": "<img src=\"docs/open_mmlab.png\" align=\"right\" width=\"30%\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytorch"
+    }
+  ]
+}

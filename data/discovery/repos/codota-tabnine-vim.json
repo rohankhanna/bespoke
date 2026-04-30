@@ -1,0 +1,227 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "codota/tabnine-vim",
+      "target": "codota/tabnine-nvim",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "codota/tabnine-vim",
+      "target": "tabnine/youcompleteme",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "codota/tabnine-vim",
+      "target": "neoclide/coc-tabnine",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "codota/tabnine-vim",
+      "target": "lumakernel/ddc-tabnine",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "codota/tabnine-vim",
+      "target": "artificial-intelligence",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "codota/tabnine-vim",
+      "target": "autocomplete",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "codota/tabnine-vim",
+      "target": "bash",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "codota/tabnine-vim",
+      "target": "golang",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "codota/tabnine-vim",
+      "target": "gpt-2",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "codota/tabnine-vim",
+      "target": "java",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "codota/tabnine-vim",
+      "target": "ruby",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "codota/tabnine-vim",
+      "target": "rust",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "codota/tabnine-vim",
+      "target": "swift",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "codota/tabnine-vim",
+      "target": "vim-plugin",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T04:12:44.290272+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 10766
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Vim client for TabNine. https://vimawesome.com/plugin/tabnine-vim",
+    "fork": true,
+    "full_name": "codota/tabnine-vim",
+    "html_url": "https://github.com/codota/tabnine-vim",
+    "language": "Python",
+    "pushed_at": "2023-01-01T15:01:07Z",
+    "stargazers_count": 665,
+    "topics": [
+      "artificial-intelligence",
+      "autocomplete",
+      "bash",
+      "c",
+      "cpp",
+      "golang",
+      "gpt-2",
+      "java",
+      "javascript",
+      "lua",
+      "php",
+      "python",
+      "ruby",
+      "rust",
+      "swift",
+      "typescript",
+      "vim",
+      "vim-plugin"
+    ],
+    "updated_at": "2026-04-29T08:47:55Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "codota/tabnine-nvim",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "lumakernel/ddc-tabnine",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "neoclide/coc-tabnine",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "tabnine/youcompleteme",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[twitter-shield]: https://img.shields.io/twitter/follow/Tabnine_?style=social",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "artificial-intelligence"
+    },
+    {
+      "context_snippet": "[twitter-shield]: https://img.shields.io/twitter/follow/Tabnine_?style=social",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "autocomplete"
+    },
+    {
+      "context_snippet": "[twitter-shield]: https://img.shields.io/twitter/follow/Tabnine_?style=social",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bash"
+    },
+    {
+      "context_snippet": "[twitter-shield]: https://img.shields.io/twitter/follow/Tabnine_?style=social",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "golang"
+    },
+    {
+      "context_snippet": "[twitter-shield]: https://img.shields.io/twitter/follow/Tabnine_?style=social",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gpt-2"
+    },
+    {
+      "context_snippet": "[twitter-shield]: https://img.shields.io/twitter/follow/Tabnine_?style=social",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "java"
+    },
+    {
+      "context_snippet": "[twitter-shield]: https://img.shields.io/twitter/follow/Tabnine_?style=social",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ruby"
+    },
+    {
+      "context_snippet": "[twitter-shield]: https://img.shields.io/twitter/follow/Tabnine_?style=social",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rust"
+    },
+    {
+      "context_snippet": "[twitter-shield]: https://img.shields.io/twitter/follow/Tabnine_?style=social",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "swift"
+    },
+    {
+      "context_snippet": "[twitter-shield]: https://img.shields.io/twitter/follow/Tabnine_?style=social",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vim-plugin"
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Code for \"LoFTR: Detector-Free Local Feature Matching with Transformers\", CVPR 2021, T-PAMI 2022"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<br/>"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<br/>"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "3d-vision",
+      "sense_id": "3d-vision#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "3d-vision",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "3d-vision",
+  "observation_id": "0d03790abc8008bf",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T00:37:16.824464+00:00",
+  "observed_text": "3d-vision",
+  "source_context_snippet": "<br/>",
+  "source_file": null,
+  "source_repo": "zju3dv/LoFTR",
+  "source_repo_description": "Code for \"LoFTR: Detector-Free Local Feature Matching with Transformers\", CVPR 2021, T-PAMI 2022"
+}

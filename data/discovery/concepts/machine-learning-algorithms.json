@@ -55,6 +55,30 @@
       "source_repo": "amzn/pecos",
       "status": "candidate-context",
       "text": "[![PyPi Latest Release](https://img.shields.io/pypi/v/libpecos)](https://img.shields.io/pypi/v/libpecos)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "microsoft/nni",
+      "status": "candidate-context",
+      "text": "An open source AutoML toolkit for automate machine learning lifecycle, including feature engineering, neural architecture search, model compression and hyper-parameter tuning."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/nni",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "scikit-learn-contrib/hdbscan",
+      "status": "candidate-context",
+      "text": "A high performance implementation of HDBSCAN clustering."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "scikit-learn-contrib/hdbscan",
+      "status": "candidate-context",
+      "text": ".. image:: https://img.shields.io/pypi/v/hdbscan.svg"
     }
   ],
   "candidate_glosses": [
@@ -81,6 +105,18 @@
       "source_repo": "amzn/pecos",
       "status": "candidate",
       "text": "[![PyPi Latest Release](https://img.shields.io/pypi/v/libpecos)](https://img.shields.io/pypi/v/libpecos)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/nni",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "scikit-learn-contrib/hdbscan",
+      "status": "candidate",
+      "text": ".. image:: https://img.shields.io/pypi/v/hdbscan.svg"
     }
   ],
   "candidate_related_terms": [],
@@ -112,11 +148,23 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "amzn/pecos"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "microsoft/nni"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "scikit-learn-contrib/hdbscan"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

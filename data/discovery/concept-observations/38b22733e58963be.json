@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Official PyTorch implementation of \"VITON-HD: High-Resolution Virtual Try-On via Misalignment-Aware Normalization\" (CVPR 2021)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "**1. [NEW!] PromptDresser (https://github.com/rlawjdghek/PromptDresser) - Arxiv 24.12**<br>"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "**1. [NEW!] PromptDresser (https://github.com/rlawjdghek/PromptDresser) - Arxiv 24.12**<br>"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "viton",
+      "sense_id": "viton#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "viton",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "viton",
+  "observation_id": "38b22733e58963be",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T00:37:16.824464+00:00",
+  "observed_text": "viton",
+  "source_context_snippet": "**1. [NEW!] PromptDresser (https://github.com/rlawjdghek/PromptDresser) - Arxiv 24.12**<br>",
+  "source_file": null,
+  "source_repo": "shadow2496/VITON-HD",
+  "source_repo_description": "Official PyTorch implementation of \"VITON-HD: High-Resolution Virtual Try-On via Misalignment-Aware Normalization\" (CVPR 2021)"
+}

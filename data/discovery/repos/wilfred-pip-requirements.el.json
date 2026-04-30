@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Wilfred/pip-requirements.el",
+      "target": "wuub/requirementstxt",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T05:11:50.389957+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2029
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Major mode for editing pip requirements files",
+    "fork": false,
+    "full_name": "Wilfred/pip-requirements.el",
+    "html_url": "https://github.com/Wilfred/pip-requirements.el",
+    "language": "Emacs Lisp",
+    "pushed_at": "2024-06-21T21:51:04Z",
+    "stargazers_count": 54,
+    "topics": [],
+    "updated_at": "2026-01-05T00:09:54Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "wuub/requirementstxt",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

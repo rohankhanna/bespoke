@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Settings files to be used across the organization."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Set Active Docs"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Set Active Docs"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27075,
+      "status": "candidate",
+      "text": "activated"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26275,
+      "status": "candidate",
+      "text": "activate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26275,
+      "status": "candidate",
+      "text": "motion"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22688,
+      "status": "candidate",
+      "text": "amherst"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22688,
+      "status": "candidate",
+      "text": "zouave"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Set Active Docs",
+      "sense_id": "set-active-docs#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "set-active-docs",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "set-active-docs",
+  "observation_id": "fb47cf90a8d9d5d9",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-30T00:37:16.824464+00:00",
+  "observed_text": "Set Active Docs",
+  "source_context_snippet": "Set Active Docs",
+  "source_file": ".github/workflows/set_active_docs.yml",
+  "source_repo": "praw-dev/.github",
+  "source_repo_description": "Settings files to be used across the organization."
+}

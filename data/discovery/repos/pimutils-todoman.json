@@ -1,0 +1,148 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pimutils/todoman",
+      "target": "caldav",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pimutils/todoman",
+      "target": "icalendar",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pimutils/todoman",
+      "target": "productivity",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pimutils/todoman",
+      "target": "tasks",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pimutils/todoman",
+      "target": "terminal",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pimutils/todoman",
+      "target": "todo",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pimutils/todoman",
+      "target": "vcard",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pimutils/todoman",
+      "target": "vtodo",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T03:00:24.869747+00:00",
+  "fetched_files": [
+    {
+      "path": "README.rst",
+      "size": 1721
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 2462
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "\u2705 Simple, standards-based, command line todo (aka: task) manager.",
+    "fork": false,
+    "full_name": "pimutils/todoman",
+    "html_url": "https://github.com/pimutils/todoman",
+    "language": "Python",
+    "pushed_at": "2026-04-20T14:15:18Z",
+    "stargazers_count": 573,
+    "topics": [
+      "caldav",
+      "icalendar",
+      "pim",
+      "productivity",
+      "python",
+      "tasks",
+      "terminal",
+      "todo",
+      "vcard",
+      "vtodo"
+    ],
+    "updated_at": "2026-04-20T14:15:38Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Todoman",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "caldav"
+    },
+    {
+      "context_snippet": "Todoman",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "icalendar"
+    },
+    {
+      "context_snippet": "Todoman",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "productivity"
+    },
+    {
+      "context_snippet": "Todoman",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tasks"
+    },
+    {
+      "context_snippet": "Todoman",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "terminal"
+    },
+    {
+      "context_snippet": "Todoman",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "todo"
+    },
+    {
+      "context_snippet": "Todoman",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vcard"
+    },
+    {
+      "context_snippet": "Todoman",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vtodo"
+    }
+  ]
+}

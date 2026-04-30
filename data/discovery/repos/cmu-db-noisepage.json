@@ -1,0 +1,62 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cmu-db/noisepage",
+      "target": "database",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cmu-db/noisepage",
+      "target": "dbms",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T04:10:46.518803+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2310
+    },
+    {
+      "path": "Dockerfile",
+      "size": 310
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "master",
+    "description": "Self-Driving Database Management System from Carnegie Mellon University",
+    "fork": false,
+    "full_name": "cmu-db/noisepage",
+    "html_url": "https://github.com/cmu-db/noisepage",
+    "language": "C++",
+    "pushed_at": "2022-11-08T02:06:47Z",
+    "stargazers_count": 1762,
+    "topics": [
+      "database",
+      "dbms"
+    ],
+    "updated_at": "2026-04-13T20:59:03Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "<a href=\"https://noise.page/\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "database"
+    },
+    {
+      "context_snippet": "<a href=\"https://noise.page/\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dbms"
+    }
+  ]
+}

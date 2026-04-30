@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "llama3-chinese"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "CrazyBoyM/llama3-Chinese-chat",
+      "status": "candidate-context",
+      "text": "Llama3\u3001Llama3.1 \u4e2d\u6587\u540e\u8bad\u7ec3\u7248\u4ed3\u5e93 - \u5fae\u8c03\u3001\u9b54\u6539\u7248\u672c\u6709\u8da3\u6743\u91cd & \u8bad\u7ec3\u3001\u63a8\u7406\u3001\u8bc4\u6d4b\u3001\u90e8\u7f72\u6559\u7a0b\u89c6\u9891 & \u6587\u6863\u3002"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "CrazyBoyM/llama3-Chinese-chat",
+      "status": "candidate-context",
+      "text": "[![HF Demo](https://img.shields.io/static/v1?label=Demo&message=OpenBayes%E8%B4%9D%E5%BC%8F%E8%AE%A1%E7%AE%97&color=green)](https://openbayes.com/console/hyperai-tutorials/containers/EzsoQaZB8LA) &ensp;"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "CrazyBoyM/llama3-Chinese-chat",
+      "status": "candidate",
+      "text": "[![HF Demo](https://img.shields.io/static/v1?label=Demo&message=OpenBayes%E8%B4%9D%E5%BC%8F%E8%AE%A1%E7%AE%97&color=green)](https://openbayes.com/console/hyperai-tutorials/containers/EzsoQaZB8LA) &ensp;"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "llama3-chinese",
+  "concept_id": "llama3-chinese",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "CrazyBoyM/llama3-Chinese-chat"
+    }
+  ],
+  "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "llama3-chinese",
+      "sense_id": "llama3-chinese#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

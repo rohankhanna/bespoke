@@ -1,0 +1,129 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/WindowsAppSDK-Samples",
+      "target": "csharp",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/WindowsAppSDK-Samples",
+      "target": "samples",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/WindowsAppSDK-Samples",
+      "target": "window-11",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/WindowsAppSDK-Samples",
+      "target": "windows",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/WindowsAppSDK-Samples",
+      "target": "windows-10",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/WindowsAppSDK-Samples",
+      "target": "windowsappsdk",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/WindowsAppSDK-Samples",
+      "target": "winui",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T01:54:28.746482+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8795
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Feature samples for the Windows App SDK",
+    "fork": false,
+    "full_name": "microsoft/WindowsAppSDK-Samples",
+    "html_url": "https://github.com/microsoft/WindowsAppSDK-Samples",
+    "language": "C++",
+    "pushed_at": "2026-04-24T09:10:47Z",
+    "stargazers_count": 960,
+    "topics": [
+      "cpp",
+      "csharp",
+      "samples",
+      "window-11",
+      "windows",
+      "windows-10",
+      "windowsappsdk",
+      "winui"
+    ],
+    "updated_at": "2026-04-28T04:56:13Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "csharp"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "samples"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "window-11"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "windows"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "windows-10"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "windowsappsdk"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "winui"
+    }
+  ]
+}

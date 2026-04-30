@@ -250,6 +250,30 @@
       "source_repo": "acts-project/acts",
       "status": "candidate-context",
       "text": "Backport"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pylint-dev/pylint",
+      "status": "candidate-context",
+      "text": "It's not just a linter that annoys you!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pylint-dev/pylint",
+      "status": "candidate-context",
+      "text": "Backport"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "open-telemetry/opentelemetry-python-contrib",
+      "status": "candidate-context",
+      "text": "OpenTelemetry instrumentation for Python modules"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "open-telemetry/opentelemetry-python-contrib",
+      "status": "candidate-context",
+      "text": "Backport"
     }
   ],
   "candidate_glosses": [
@@ -370,6 +394,18 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "acts-project/acts",
+      "status": "candidate",
+      "text": "Backport"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pylint-dev/pylint",
+      "status": "candidate",
+      "text": "Backport"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "open-telemetry/opentelemetry-python-contrib",
       "status": "candidate",
       "text": "Backport"
     }
@@ -541,11 +577,23 @@
       "observed_at": "2026-04-24T18:19:44.660705+00:00",
       "source_file": ".github/workflows/backport.yml",
       "source_repo": "acts-project/acts"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/backport.yml",
+      "source_repo": "pylint-dev/pylint"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/backport.yml",
+      "source_repo": "open-telemetry/opentelemetry-python-contrib"
     }
   ],
   "first_seen_at": "2026-04-18T12:07:11.500453+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T18:19:44.660705+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -19,6 +19,18 @@
       "source_repo": "json5/json5",
       "status": "candidate-context",
       "text": "[![Build Status](https://app.travis-ci.com/json5/json5.svg?branch=main)][Build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ibireme/yyjson",
+      "status": "candidate-context",
+      "text": "The fastest JSON library in C"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ibireme/yyjson",
+      "status": "candidate-context",
+      "text": "[![Build](https://img.shields.io/github/actions/workflow/status/ibireme/yyjson/checks.yml?branch=master&style=flat-square)](https://github.com/ibireme/yyjson/actions/workflows/checks.yml)"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "json5/json5",
       "status": "candidate",
       "text": "[![Build Status](https://app.travis-ci.com/json5/json5.svg?branch=main)][Build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ibireme/yyjson",
+      "status": "candidate",
+      "text": "[![Build](https://img.shields.io/github/actions/workflow/status/ibireme/yyjson/checks.yml?branch=master&style=flat-square)](https://github.com/ibireme/yyjson/actions/workflows/checks.yml)"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-24T00:33:56.049672+00:00",
       "source_file": null,
       "source_repo": "json5/json5"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "ibireme/yyjson"
     }
   ],
   "first_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

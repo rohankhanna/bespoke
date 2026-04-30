@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T05:11:53.601709+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6691
+    },
+    {
+      "path": "requirements.txt",
+      "size": 39
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "BiRefNet for AUTOMATIC1111 Stable Diffusion WebUI",
+    "fork": false,
+    "full_name": "dimitribarbot/sd-webui-birefnet",
+    "html_url": "https://github.com/dimitribarbot/sd-webui-birefnet",
+    "language": "Python",
+    "pushed_at": "2025-07-15T07:57:28Z",
+    "stargazers_count": 51,
+    "topics": [],
+    "updated_at": "2026-02-09T23:48:48Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

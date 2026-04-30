@@ -19,6 +19,18 @@
       "source_repo": "tauri-apps/muda",
       "status": "candidate-context",
       "text": "Menu Utilities library for Desktop Applications."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "girishji/autosuggest.vim",
+      "status": "candidate-context",
+      "text": "Autocompletion for Vim's command-line."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "girishji/autosuggest.vim",
+      "status": "candidate-context",
+      "text": "-------------"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "tauri-apps/muda",
       "status": "candidate",
       "text": "Menu Utilities library for Desktop Applications."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "girishji/autosuggest.vim",
+      "status": "candidate",
+      "text": "-------------"
     }
   ],
   "candidate_related_terms": [
@@ -112,11 +130,17 @@
       "observed_at": "2026-04-22T01:04:16.609102+00:00",
       "source_file": null,
       "source_repo": "tauri-apps/muda"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "girishji/autosuggest.vim"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

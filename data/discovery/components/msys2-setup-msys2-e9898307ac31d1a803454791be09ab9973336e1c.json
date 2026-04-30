@@ -1,7 +1,7 @@
 {
   "component": "msys2/setup-msys2@e9898307ac31d1a803454791be09ab9973336e1c",
   "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -22,6 +22,21 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/python-tests.yml",
       "source_repo": "pypa/setuptools-scm"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci_steps.yml",
+      "source_repo": "AcademySoftwareFoundation/openexr"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/daily.yml",
+      "source_repo": "ImageMagick/ImageMagick"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "ImageMagick/ImageMagick"
     }
   ]
 }

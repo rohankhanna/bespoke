@@ -1,0 +1,93 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "cloudfoundry/cf-deployment",
+      "target": "cloudfoundry/bosh-cli",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "cloudfoundry/cf-deployment",
+      "target": "cloudfoundry/bosh-deployment",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "cloudfoundry/cf-deployment",
+      "target": "cloudfoundry/bosh-bootloader",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "cloudfoundry/cf-deployment",
+      "target": "cloudfoundry/bosh-backup-and-restore",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cloudfoundry/cf-deployment",
+      "target": "cff-wg-app-runtime-deployments",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T04:11:11.187439+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 12705
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "The canonical open source deployment manifest for Cloud Foundry",
+    "fork": false,
+    "full_name": "cloudfoundry/cf-deployment",
+    "html_url": "https://github.com/cloudfoundry/cf-deployment",
+    "language": "Go",
+    "pushed_at": "2026-04-29T22:56:39Z",
+    "stargazers_count": 313,
+    "topics": [
+      "cff-wg-app-runtime-deployments"
+    ],
+    "updated_at": "2026-04-27T19:59:13Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cloudfoundry/bosh-backup-and-restore",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cloudfoundry/bosh-bootloader",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cloudfoundry/bosh-cli",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cloudfoundry/bosh-deployment",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "* <a href='#purpose'>Purpose</a>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cff-wg-app-runtime-deployments"
+    }
+  ]
+}

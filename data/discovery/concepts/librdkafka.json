@@ -31,6 +31,30 @@
       "source_repo": "confluentinc/librdkafka",
       "status": "candidate-context",
       "text": "librdkafka - the Apache Kafka\u00ae C/C++ client library"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "karafka/rdkafka-ruby",
+      "status": "candidate-context",
+      "text": "Modern and performant Kafka client library for Ruby based on librdkafka"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "karafka/rdkafka-ruby",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://github.com/karafka/rdkafka-ruby/actions/workflows/ci_linux_ubuntu_x86_64_gnu.yml/badge.svg)](https://github.com/karafka/rdkafka-ruby/actions/workflows/ci_linux_x86_64_gnu.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Blizzard/node-rdkafka",
+      "status": "candidate-context",
+      "text": "Node.js bindings for librdkafka"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Blizzard/node-rdkafka",
+      "status": "candidate-context",
+      "text": "node-rdkafka - Node.js wrapper for Kafka C/C++ library"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +69,18 @@
       "source_repo": "confluentinc/librdkafka",
       "status": "candidate",
       "text": "librdkafka - the Apache Kafka\u00ae C/C++ client library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "karafka/rdkafka-ruby",
+      "status": "candidate",
+      "text": "[![Build Status](https://github.com/karafka/rdkafka-ruby/actions/workflows/ci_linux_ubuntu_x86_64_gnu.yml/badge.svg)](https://github.com/karafka/rdkafka-ruby/actions/workflows/ci_linux_x86_64_gnu.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Blizzard/node-rdkafka",
+      "status": "candidate",
+      "text": "node-rdkafka - Node.js wrapper for Kafka C/C++ library"
     }
   ],
   "candidate_related_terms": [],
@@ -64,11 +100,29 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "confluentinc/librdkafka"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "karafka/rdkafka-ruby"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "Blizzard/node-rdkafka"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "confluentinc/librdkafka"
     }
   ],
   "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

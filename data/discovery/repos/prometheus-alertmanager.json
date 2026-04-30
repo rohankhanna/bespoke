@@ -1,0 +1,559 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-node@53b83947a5a98c8d113130e565377fae1a50d02f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "prometheus/promci-artifacts/save@f9a587dbc0b2c78a0c54f8ad1cde71ea29a4b76f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/upload-artifact@bbbca2ddaa5d8feaa63e36b76fdaad77386f024f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/download-artifact@fa0a91b85d4f404e444e00e005971372dc801d16",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "prometheus/promci/build@42c3c84c865e5c1ab78543b929f7341eb2ef6123",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/download-artifact@fa0a91b85d4f404e444e00e005971372dc801d16",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "prometheus/promci-setup@5af30ba8c199a91d6c04ebdc3c48e630e355f62d",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/container_description.yml"
+    },
+    {
+      "component": "christian-korneck/update-container-description-action@d36005551adeaba9698d8d67a296bd16fa91f8e8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/container_description.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/container_description.yml"
+    },
+    {
+      "component": "christian-korneck/update-container-description-action@d36005551adeaba9698d8d67a296bd16fa91f8e8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/container_description.yml"
+    },
+    {
+      "component": "golang/govulncheck-action@31f7c5463448f83528bd771c2d978d940080c9fd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/govulncheck.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mixin.yml"
+    },
+    {
+      "component": "actions/setup-go@4a3601121dd01d1626a1e23e37211e3254c1c06c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mixin.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "prometheus/promci/build@42c3c84c865e5c1ab78543b929f7341eb2ef6123",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "prometheus/promci/publish_main@42c3c84c865e5c1ab78543b929f7341eb2ef6123",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/download-artifact@fa0a91b85d4f404e444e00e005971372dc801d16",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "prometheus/promci/build@42c3c84c865e5c1ab78543b929f7341eb2ef6123",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "prometheus/promci/publish_release@42c3c84c865e5c1ab78543b929f7341eb2ef6123",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/stale@b5d41d4e1d5dceea10e7104786b73624c18a190f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stale.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "prometheus/alertmanager",
+      "target": "go-swagger/go-swagger",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "prometheus/alertmanager",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "prometheus/alertmanager",
+      "target": "actions/setup-node@53b83947a5a98c8d113130e565377fae1a50d02f",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "prometheus/alertmanager",
+      "target": "prometheus/promci-artifacts/save@f9a587dbc0b2c78a0c54f8ad1cde71ea29a4b76f",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "prometheus/alertmanager",
+      "target": "actions/upload-artifact@bbbca2ddaa5d8feaa63e36b76fdaad77386f024f",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "prometheus/alertmanager",
+      "target": "actions/download-artifact@fa0a91b85d4f404e444e00e005971372dc801d16",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "prometheus/alertmanager",
+      "target": "prometheus/promci/build@42c3c84c865e5c1ab78543b929f7341eb2ef6123",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "prometheus/alertmanager",
+      "target": "prometheus/promci-setup@5af30ba8c199a91d6c04ebdc3c48e630e355f62d",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/container_description.yml",
+      "source_repo": "prometheus/alertmanager",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/container_description.yml",
+      "source_repo": "prometheus/alertmanager",
+      "target": "christian-korneck/update-container-description-action@d36005551adeaba9698d8d67a296bd16fa91f8e8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/container_description.yml",
+      "source_repo": "prometheus/alertmanager",
+      "target": "Push README to Docker Hub",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/govulncheck.yml",
+      "source_repo": "prometheus/alertmanager",
+      "target": "golang/govulncheck-action@31f7c5463448f83528bd771c2d978d940080c9fd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/govulncheck.yml",
+      "source_repo": "prometheus/alertmanager",
+      "target": "govulncheck",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mixin.yml",
+      "source_repo": "prometheus/alertmanager",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mixin.yml",
+      "source_repo": "prometheus/alertmanager",
+      "target": "actions/setup-go@4a3601121dd01d1626a1e23e37211e3254c1c06c",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/mixin.yml",
+      "source_repo": "prometheus/alertmanager",
+      "target": "mixin",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "prometheus/alertmanager",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "prometheus/alertmanager",
+      "target": "prometheus/promci/build@42c3c84c865e5c1ab78543b929f7341eb2ef6123",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "prometheus/alertmanager",
+      "target": "prometheus/promci/publish_main@42c3c84c865e5c1ab78543b929f7341eb2ef6123",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "prometheus/alertmanager",
+      "target": "Publish",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "prometheus/alertmanager",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "prometheus/alertmanager",
+      "target": "actions/download-artifact@fa0a91b85d4f404e444e00e005971372dc801d16",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "prometheus/alertmanager",
+      "target": "prometheus/promci/build@42c3c84c865e5c1ab78543b929f7341eb2ef6123",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "prometheus/alertmanager",
+      "target": "prometheus/promci/publish_release@42c3c84c865e5c1ab78543b929f7341eb2ef6123",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "prometheus/alertmanager",
+      "target": "Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "prometheus/alertmanager",
+      "target": "actions/stale@b5d41d4e1d5dceea10e7104786b73624c18a190f",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "prometheus/alertmanager",
+      "target": "Stale Check",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "prometheus/alertmanager",
+      "target": "alertmanager",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "prometheus/alertmanager",
+      "target": "deduplication",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "prometheus/alertmanager",
+      "target": "email",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "prometheus/alertmanager",
+      "target": "hacktoberfest",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "prometheus/alertmanager",
+      "target": "monitoring",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "prometheus/alertmanager",
+      "target": "notifications",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "prometheus/alertmanager",
+      "target": "opsgenie",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "prometheus/alertmanager",
+      "target": "pagerduty",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "prometheus/alertmanager",
+      "target": "slack",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T05:10:59.528170+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 17345
+    },
+    {
+      "path": "Dockerfile",
+      "size": 833
+    },
+    {
+      "path": "go.mod",
+      "size": 6082
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 2692
+    },
+    {
+      "path": ".github/workflows/container_description.yml",
+      "size": 2461
+    },
+    {
+      "path": ".github/workflows/govulncheck.yml",
+      "size": 371
+    },
+    {
+      "path": ".github/workflows/mixin.yml",
+      "size": 842
+    },
+    {
+      "path": ".github/workflows/publish.yml",
+      "size": 1145
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "size": 1357
+    },
+    {
+      "path": ".github/workflows/stale.yml",
+      "size": 1212
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Prometheus Alertmanager",
+    "fork": false,
+    "full_name": "prometheus/alertmanager",
+    "html_url": "https://github.com/prometheus/alertmanager",
+    "language": "Go",
+    "pushed_at": "2026-04-29T17:32:31Z",
+    "stargazers_count": 8447,
+    "topics": [
+      "alertmanager",
+      "deduplication",
+      "email",
+      "hacktoberfest",
+      "monitoring",
+      "notifications",
+      "opsgenie",
+      "pagerduty",
+      "slack"
+    ],
+    "updated_at": "2026-04-30T01:54:57Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "go-swagger/go-swagger",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Push README to Docker Hub",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/container_description.yml",
+      "term": "Push README to Docker Hub"
+    },
+    {
+      "context_snippet": "govulncheck",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/govulncheck.yml",
+      "term": "govulncheck"
+    },
+    {
+      "context_snippet": "mixin",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/mixin.yml",
+      "term": "mixin"
+    },
+    {
+      "context_snippet": "Publish",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish.yml",
+      "term": "Publish"
+    },
+    {
+      "context_snippet": "Release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "term": "Release"
+    },
+    {
+      "context_snippet": "Stale Check",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/stale.yml",
+      "term": "Stale Check"
+    },
+    {
+      "context_snippet": "[![Docker Repository on Quay](https://quay.io/repository/prometheus/alertmanager/status \"Docker Repository on Quay\")][quay]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "alertmanager"
+    },
+    {
+      "context_snippet": "[![Docker Repository on Quay](https://quay.io/repository/prometheus/alertmanager/status \"Docker Repository on Quay\")][quay]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deduplication"
+    },
+    {
+      "context_snippet": "[![Docker Repository on Quay](https://quay.io/repository/prometheus/alertmanager/status \"Docker Repository on Quay\")][quay]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "email"
+    },
+    {
+      "context_snippet": "[![Docker Repository on Quay](https://quay.io/repository/prometheus/alertmanager/status \"Docker Repository on Quay\")][quay]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hacktoberfest"
+    },
+    {
+      "context_snippet": "[![Docker Repository on Quay](https://quay.io/repository/prometheus/alertmanager/status \"Docker Repository on Quay\")][quay]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "monitoring"
+    },
+    {
+      "context_snippet": "[![Docker Repository on Quay](https://quay.io/repository/prometheus/alertmanager/status \"Docker Repository on Quay\")][quay]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "notifications"
+    },
+    {
+      "context_snippet": "[![Docker Repository on Quay](https://quay.io/repository/prometheus/alertmanager/status \"Docker Repository on Quay\")][quay]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "opsgenie"
+    },
+    {
+      "context_snippet": "[![Docker Repository on Quay](https://quay.io/repository/prometheus/alertmanager/status \"Docker Repository on Quay\")][quay]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pagerduty"
+    },
+    {
+      "context_snippet": "[![Docker Repository on Quay](https://quay.io/repository/prometheus/alertmanager/status \"Docker Repository on Quay\")][quay]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "slack"
+    }
+  ]
+}

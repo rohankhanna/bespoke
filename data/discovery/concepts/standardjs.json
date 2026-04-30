@@ -19,6 +19,18 @@
       "source_repo": "standard/atom-standardjs-snippets",
       "status": "candidate-context",
       "text": "A collection of ES6 [standardjs code style](http://standardjs.com/) snippets for faster JavaScript development in [Atom Editor](https://atom.io/)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "standard/ts-standard",
+      "status": "candidate-context",
+      "text": "Typescript style guide, linter, and formatter using StandardJS"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "standard/ts-standard",
+      "status": "candidate-context",
+      "text": "[![Tests](https://github.com/standard/ts-standard/workflows/tests/badge.svg?branch=master)](https://github.com/standard/ts-standard/actions?query=workflow%3A%22tests%22)"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "standard/atom-standardjs-snippets",
       "status": "candidate",
       "text": "A collection of ES6 [standardjs code style](http://standardjs.com/) snippets for faster JavaScript development in [Atom Editor](https://atom.io/)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "standard/ts-standard",
+      "status": "candidate",
+      "text": "[![Tests](https://github.com/standard/ts-standard/workflows/tests/badge.svg?branch=master)](https://github.com/standard/ts-standard/actions?query=workflow%3A%22tests%22)"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "standard/atom-standardjs-snippets"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "standard/ts-standard"
     }
   ],
   "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

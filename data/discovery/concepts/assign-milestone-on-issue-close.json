@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Assign Milestone on issue close"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apache/beam",
+      "status": "candidate-context",
+      "text": "Apache Beam is a unified programming model for Batch and Streaming data processing."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/beam",
+      "status": "candidate-context",
+      "text": "Assign Milestone on issue close"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/beam",
+      "status": "candidate",
+      "text": "Assign Milestone on issue close"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 44714,
+      "status": "candidate",
+      "text": "give"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 34240,
+      "status": "candidate",
+      "text": "advance"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 34240,
+      "status": "candidate",
+      "text": "advancing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 34166,
+      "status": "candidate",
+      "text": "date"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 34009,
+      "status": "candidate",
+      "text": "turned"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Assign Milestone on issue close",
+  "concept_id": "assign-milestone-on-issue-close",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/assign_milestone.yml",
+      "source_repo": "apache/beam"
+    }
+  ],
+  "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Assign Milestone on issue close",
+      "sense_id": "assign-milestone-on-issue-close#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

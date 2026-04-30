@@ -1,0 +1,88 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Sanster/text_renderer",
+      "target": "oh-my-ocr/text_renderer",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Sanster/text_renderer",
+      "target": "bgshih/crnn",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Sanster/text_renderer",
+      "target": "crnn",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Sanster/text_renderer",
+      "target": "synthtext",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T03:47:46.804420+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3835
+    },
+    {
+      "path": "requirements.txt",
+      "size": 85
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Generate text images for training deep learning ocr model",
+    "fork": false,
+    "full_name": "Sanster/text_renderer",
+    "html_url": "https://github.com/Sanster/text_renderer",
+    "language": "Python",
+    "pushed_at": "2022-01-17T07:58:32Z",
+    "stargazers_count": 1461,
+    "topics": [
+      "crnn",
+      "ocr",
+      "synthtext"
+    ],
+    "updated_at": "2026-04-27T07:30:54Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "bgshih/crnn",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "oh-my-ocr/text_renderer",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Generate text images for training deep learning OCR model (e.g. [CRNN](https://github.com/bgshih/crnn)).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "crnn"
+    },
+    {
+      "context_snippet": "Generate text images for training deep learning OCR model (e.g. [CRNN](https://github.com/bgshih/crnn)).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "synthtext"
+    }
+  ]
+}

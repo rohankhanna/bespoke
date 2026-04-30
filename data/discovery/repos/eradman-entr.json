@@ -1,0 +1,72 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "eradman/entr",
+      "target": "inotify",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "eradman/entr",
+      "target": "kqueue",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "eradman/entr",
+      "target": "test-automation",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T01:45:23.854913+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1588
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Run arbitrary commands when files change",
+    "fork": false,
+    "full_name": "eradman/entr",
+    "html_url": "https://github.com/eradman/entr",
+    "language": "C",
+    "pushed_at": "2026-03-02T21:22:21Z",
+    "stargazers_count": 5554,
+    "topics": [
+      "inotify",
+      "kqueue",
+      "test-automation"
+    ],
+    "updated_at": "2026-04-29T08:46:17Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Event Notify Test Runner",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "inotify"
+    },
+    {
+      "context_snippet": "Event Notify Test Runner",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "kqueue"
+    },
+    {
+      "context_snippet": "Event Notify Test Runner",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "test-automation"
+    }
+  ]
+}

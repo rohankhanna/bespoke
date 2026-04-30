@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T02:04:57.886387+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1119
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "\ud83d\udd0a Repository for our NAACL-HLT 2019 paper: AudioCaps",
+    "fork": false,
+    "full_name": "cdjkim/audiocaps",
+    "html_url": "https://github.com/cdjkim/audiocaps",
+    "language": "Python",
+    "pushed_at": "2025-10-06T00:46:18Z",
+    "stargazers_count": 210,
+    "topics": [],
+    "updated_at": "2026-04-24T08:36:55Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

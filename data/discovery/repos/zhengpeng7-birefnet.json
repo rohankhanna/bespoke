@@ -1,0 +1,181 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ZhengPeng7/BiRefNet",
+      "target": "huggingface/huggingface.js",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ZhengPeng7/BiRefNet",
+      "target": "jizhizili/p3m",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ZhengPeng7/BiRefNet",
+      "target": "camenduru/text-behind-tost",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ZhengPeng7/BiRefNet",
+      "target": "dimitribarbot/sd-webui-birefnet",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ZhengPeng7/BiRefNet",
+      "target": "background-removal",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ZhengPeng7/BiRefNet",
+      "target": "birefnet",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ZhengPeng7/BiRefNet",
+      "target": "camouflaged-object-detection",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ZhengPeng7/BiRefNet",
+      "target": "dichotomous-image-segmentation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ZhengPeng7/BiRefNet",
+      "target": "high-resolution-image-segmentation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ZhengPeng7/BiRefNet",
+      "target": "image-segmentation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ZhengPeng7/BiRefNet",
+      "target": "salient-object-detection",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T01:56:08.684842+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 41038
+    },
+    {
+      "path": "requirements.txt",
+      "size": 155
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "[CAAI AIR'24] Bilateral Reference for High-Resolution Dichotomous Image Segmentation",
+    "fork": false,
+    "full_name": "ZhengPeng7/BiRefNet",
+    "html_url": "https://github.com/ZhengPeng7/BiRefNet",
+    "language": "Python",
+    "pushed_at": "2026-02-27T07:47:55Z",
+    "stargazers_count": 3381,
+    "topics": [
+      "background-removal",
+      "birefnet",
+      "camouflaged-object-detection",
+      "dichotomous-image-segmentation",
+      "high-resolution-image-segmentation",
+      "image-segmentation",
+      "salient-object-detection"
+    ],
+    "updated_at": "2026-04-29T14:35:01Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "camenduru/text-behind-tost",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dimitribarbot/sd-webui-birefnet",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "huggingface/huggingface.js",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jizhizili/p3m",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<h1 align=\"center\">Bilateral Reference for High-Resolution Dichotomous Image Segmentation</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "background-removal"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">Bilateral Reference for High-Resolution Dichotomous Image Segmentation</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "birefnet"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">Bilateral Reference for High-Resolution Dichotomous Image Segmentation</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "camouflaged-object-detection"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">Bilateral Reference for High-Resolution Dichotomous Image Segmentation</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dichotomous-image-segmentation"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">Bilateral Reference for High-Resolution Dichotomous Image Segmentation</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "high-resolution-image-segmentation"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">Bilateral Reference for High-Resolution Dichotomous Image Segmentation</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "image-segmentation"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">Bilateral Reference for High-Resolution Dichotomous Image Segmentation</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "salient-object-detection"
+    }
+  ]
+}

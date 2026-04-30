@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Update Version String in `rocks.nvim` Code"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lumen-oss/rocks.nvim",
+      "status": "candidate-context",
+      "text": "\ud83c\udf12 Neovim plugin management inspired by Cargo, powered by luarocks"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lumen-oss/rocks.nvim",
+      "status": "candidate-context",
+      "text": "Update Version String in `rocks.nvim` Code"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lumen-oss/rocks.nvim",
+      "status": "candidate",
+      "text": "Update Version String in `rocks.nvim` Code"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 43237,
+      "status": "candidate",
+      "text": "define"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 43237,
+      "status": "candidate",
+      "text": "defining"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 32985,
+      "status": "candidate",
+      "text": "defined"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 32974,
+      "status": "candidate",
+      "text": "triplet code"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28240,
+      "status": "candidate",
+      "text": "edition"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Update Version String in `rocks.nvim` Code",
+  "concept_id": "update-version-string-in-rocks.nvim-code",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/version_in_code.yml",
+      "source_repo": "lumen-oss/rocks.nvim"
+    }
+  ],
+  "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Update Version String in `rocks.nvim` Code",
+      "sense_id": "update-version-string-in-rocks.nvim-code#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

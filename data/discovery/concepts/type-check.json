@@ -2,7 +2,8 @@
   "aliases": [
     "Type Check",
     "type-check",
-    "Type check"
+    "Type check",
+    "type check"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -57,6 +58,30 @@
       "source_repo": "marin-community/harbor",
       "status": "candidate-context",
       "text": "Type Check"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "AnonymouX47/term-image",
+      "status": "candidate-context",
+      "text": "Display images in the terminal with python"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AnonymouX47/term-image",
+      "status": "candidate-context",
+      "text": "type check"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "OpenBMB/CPM-Live",
+      "status": "candidate-context",
+      "text": "Live Training for Open-source Big Models"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "OpenBMB/CPM-Live",
+      "status": "candidate-context",
+      "text": "\"type check\""
     }
   ],
   "candidate_glosses": [
@@ -83,6 +108,18 @@
       "source_repo": "marin-community/harbor",
       "status": "candidate",
       "text": "Type Check"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AnonymouX47/term-image",
+      "status": "candidate",
+      "text": "type check"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "OpenBMB/CPM-Live",
+      "status": "candidate",
+      "text": "\"type check\""
     }
   ],
   "candidate_related_terms": [
@@ -185,11 +222,23 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": ".github/workflows/ty.yml",
       "source_repo": "marin-community/harbor"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/type_check.yml",
+      "source_repo": "AnonymouX47/term-image"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/typecheck.yml",
+      "source_repo": "OpenBMB/CPM-Live"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

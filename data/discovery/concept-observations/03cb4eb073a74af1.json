@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Elasticsearch plugin for nearest neighbor search. Store vectors and run similarity search using exact and approximate algorithms."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "\"Delete Old Pre-releases\""
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "\"Delete Old Pre-releases\""
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 16701,
+      "status": "candidate",
+      "text": "censor"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 16661,
+      "status": "candidate",
+      "text": "alt"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 16651,
+      "status": "candidate",
+      "text": "del"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 16651,
+      "status": "candidate",
+      "text": "scratch"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 16651,
+      "status": "candidate",
+      "text": "scratched"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Delete Old Pre-releases",
+      "sense_id": "delete-old-pre-releases#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "delete-old-pre-releases",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "delete-old-pre-releases",
+  "observation_id": "03cb4eb073a74af1",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-30T00:37:16.824464+00:00",
+  "observed_text": "Delete Old Pre-releases",
+  "source_context_snippet": "\"Delete Old Pre-releases\"",
+  "source_file": ".github/workflows/delete-old-pre-releases.yaml",
+  "source_repo": "alexklibisz/elastiknn",
+  "source_repo_description": "Elasticsearch plugin for nearest neighbor search. Store vectors and run similarity search using exact and approximate algorithms."
+}

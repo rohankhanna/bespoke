@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Modern embedded SQL database"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "ChaiSQL is a modern embedded SQL database, written in pure Go, with a PostgreSQL-inspired API."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "ChaiSQL is a modern embedded SQL database, written in pure Go, with a PostgreSQL-inspired API."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "embedded-database",
+      "sense_id": "embedded-database#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "embedded-database",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "embedded-database",
+  "observation_id": "226304af94441fe5",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T00:37:16.824464+00:00",
+  "observed_text": "embedded-database",
+  "source_context_snippet": "ChaiSQL is a modern embedded SQL database, written in pure Go, with a PostgreSQL-inspired API.",
+  "source_file": null,
+  "source_repo": "chaisql/chai",
+  "source_repo_description": "Modern embedded SQL database"
+}

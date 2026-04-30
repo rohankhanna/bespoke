@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Label merged PRs for backport"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dotnet/dotnet-docker",
+      "status": "candidate-context",
+      "text": "Official container images for .NET"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dotnet/dotnet-docker",
+      "status": "candidate-context",
+      "text": "Label merged PRs for backport"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dotnet/dotnet-docker",
+      "status": "candidate",
+      "text": "Label merged PRs for backport"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14311,
+      "status": "candidate",
+      "text": "aux cayes"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14311,
+      "status": "candidate",
+      "text": "image"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14311,
+      "status": "candidate",
+      "text": "plot"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14311,
+      "status": "candidate",
+      "text": "plotted"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14311,
+      "status": "candidate",
+      "text": "plotting"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Label merged PRs for backport",
+  "concept_id": "label-merged-prs-for-backport",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/label-pull-request.yml",
+      "source_repo": "dotnet/dotnet-docker"
+    }
+  ],
+  "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Label merged PRs for backport",
+      "sense_id": "label-merged-prs-for-backport#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

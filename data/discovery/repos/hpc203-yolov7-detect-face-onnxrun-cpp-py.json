@@ -1,0 +1,74 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hpc203/yolov7-detect-face-onnxrun-cpp-py",
+      "target": "face-detection",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hpc203/yolov7-detect-face-onnxrun-cpp-py",
+      "target": "face-landmark-detection",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hpc203/yolov7-detect-face-onnxrun-cpp-py",
+      "target": "yolov7-face",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T05:12:12.553697+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 290
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "\u4f7f\u7528ONNXRuntime\u90e8\u7f72YOLOV7\u4eba\u8138+\u5173\u952e\u70b9\u68c0\u6d4b\uff0c\u5305\u542bC++\u548cPython\u4e24\u4e2a\u7248\u672c\u7684\u7a0b\u5e8f",
+    "fork": false,
+    "full_name": "hpc203/yolov7-detect-face-onnxrun-cpp-py",
+    "html_url": "https://github.com/hpc203/yolov7-detect-face-onnxrun-cpp-py",
+    "language": "C++",
+    "pushed_at": "2022-11-05T05:07:39Z",
+    "stargazers_count": 54,
+    "topics": [
+      "cpp",
+      "face-detection",
+      "face-landmark-detection",
+      "python",
+      "yolov7-face"
+    ],
+    "updated_at": "2026-04-08T09:30:30Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "\u4f7f\u7528ONNXRuntime\u90e8\u7f72YOLOV7\u4eba\u8138+\u5173\u952e\u70b9\u68c0\u6d4b\uff0c\u5305\u542bC++\u548cPython\u4e24\u4e2a\u7248\u672c\u7684\u7a0b\u5e8f",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "face-detection"
+    },
+    {
+      "context_snippet": "\u4f7f\u7528ONNXRuntime\u90e8\u7f72YOLOV7\u4eba\u8138+\u5173\u952e\u70b9\u68c0\u6d4b\uff0c\u5305\u542bC++\u548cPython\u4e24\u4e2a\u7248\u672c\u7684\u7a0b\u5e8f",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "face-landmark-detection"
+    },
+    {
+      "context_snippet": "\u4f7f\u7528ONNXRuntime\u90e8\u7f72YOLOV7\u4eba\u8138+\u5173\u952e\u70b9\u68c0\u6d4b\uff0c\u5305\u542bC++\u548cPython\u4e24\u4e2a\u7248\u672c\u7684\u7a0b\u5e8f",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "yolov7-face"
+    }
+  ]
+}

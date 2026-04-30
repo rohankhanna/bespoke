@@ -1,0 +1,77 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-python@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "MegEngine/Models",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "MegEngine/Models",
+      "target": "actions/setup-python@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "MegEngine/Models",
+      "target": "megengine",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T03:46:33.211289+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1847
+    },
+    {
+      "path": "requirements.txt",
+      "size": 87
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 1142
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "\u91c7\u7528MegEngine\u5b9e\u73b0\u7684\u5404\u79cd\u4e3b\u6d41\u6df1\u5ea6\u5b66\u4e60\u6a21\u578b",
+    "fork": false,
+    "full_name": "MegEngine/Models",
+    "html_url": "https://github.com/MegEngine/Models",
+    "language": "Python",
+    "pushed_at": "2022-12-07T12:52:40Z",
+    "stargazers_count": 306,
+    "topics": [
+      "megengine"
+    ],
+    "updated_at": "2026-04-03T08:58:09Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "![](https://github.com/MegEngine/Models/workflows/CI/badge.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "megengine"
+    }
+  ]
+}

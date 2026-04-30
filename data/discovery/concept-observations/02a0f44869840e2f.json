@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "yoloface\u5927\u793c\u5305  \u4f7f\u7528pytroch\u5b9e\u73b0\u7684\u57fa\u4e8eyolov3\u7684\u8f7b\u91cf\u7ea7\u4eba\u8138\u68c0\u6d4b\uff08\u5305\u542b\u5173\u952e\u70b9\uff09"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "- \u6dfb\u52a0\u5173\u952e\u70b9\u68c0\u6d4b\u5206\u652f\uff0c\u4f7f\u7528wing loss"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "- \u6dfb\u52a0\u5173\u952e\u70b9\u68c0\u6d4b\u5206\u652f\uff0c\u4f7f\u7528wing loss"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "ncnn",
+      "sense_id": "ncnn#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "ncnn",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "ncnn",
+  "observation_id": "02a0f44869840e2f",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T00:37:16.824464+00:00",
+  "observed_text": "ncnn",
+  "source_context_snippet": "- \u6dfb\u52a0\u5173\u952e\u70b9\u68c0\u6d4b\u5206\u652f\uff0c\u4f7f\u7528wing loss",
+  "source_file": null,
+  "source_repo": "DayBreak-u/yolo-face-with-landmark",
+  "source_repo_description": "yoloface\u5927\u793c\u5305  \u4f7f\u7528pytroch\u5b9e\u73b0\u7684\u57fa\u4e8eyolov3\u7684\u8f7b\u91cf\u7ea7\u4eba\u8138\u68c0\u6d4b\uff08\u5305\u542b\u5173\u952e\u70b9\uff09"
+}

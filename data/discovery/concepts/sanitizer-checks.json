@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Sanitizer checks"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "libuv/libuv",
+      "status": "candidate-context",
+      "text": "Cross-platform asynchronous I/O"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "libuv/libuv",
+      "status": "candidate-context",
+      "text": "Sanitizer checks"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "libuv/libuv",
+      "status": "candidate",
+      "text": "Sanitizer checks"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 13044,
+      "status": "candidate",
+      "text": "ozone"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10560,
+      "status": "candidate",
+      "text": "antihypertensive"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10560,
+      "status": "candidate",
+      "text": "antimalarial"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10560,
+      "status": "candidate",
+      "text": "antineoplastic"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10560,
+      "status": "candidate",
+      "text": "deodorant"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Sanitizer checks",
+  "concept_id": "sanitizer-checks",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/sanitizer.yml",
+      "source_repo": "libuv/libuv"
+    }
+  ],
+  "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Sanitizer checks",
+      "sense_id": "sanitizer-checks#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

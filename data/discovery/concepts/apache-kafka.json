@@ -19,6 +19,54 @@
       "source_repo": "confluentinc/librdkafka",
       "status": "candidate-context",
       "text": "librdkafka - the Apache Kafka\u00ae C/C++ client library"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "confluentinc/cp-all-in-one",
+      "status": "candidate-context",
+      "text": "docker-compose.yml files for cp-all-in-one , cp-all-in-one-community, cp-all-in-one-cloud, Apache Kafka Confluent Platform"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "confluentinc/cp-all-in-one",
+      "status": "candidate-context",
+      "text": "![image](images/confluent-logo-300-2.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "karafka/rdkafka-ruby",
+      "status": "candidate-context",
+      "text": "Modern and performant Kafka client library for Ruby based on librdkafka"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "karafka/rdkafka-ruby",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://github.com/karafka/rdkafka-ruby/actions/workflows/ci_linux_ubuntu_x86_64_gnu.yml/badge.svg)](https://github.com/karafka/rdkafka-ruby/actions/workflows/ci_linux_x86_64_gnu.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "karafka/karafka",
+      "status": "candidate-context",
+      "text": "Ruby and Rails efficient Kafka processing framework"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "karafka/karafka",
+      "status": "candidate-context",
+      "text": "![karafka logo](https://karafka.io/assets/misc/logo/karafka_logotype_transparent2.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "karafka/waterdrop",
+      "status": "candidate-context",
+      "text": "Standalone Karafka library for producing Kafka messages"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "karafka/waterdrop",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://github.com/karafka/waterdrop/workflows/ci/badge.svg)](https://github.com/karafka/waterdrop/actions?query=workflow%3Aci)"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +75,30 @@
       "source_repo": "confluentinc/librdkafka",
       "status": "candidate",
       "text": "librdkafka - the Apache Kafka\u00ae C/C++ client library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "confluentinc/cp-all-in-one",
+      "status": "candidate",
+      "text": "![image](images/confluent-logo-300-2.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "karafka/rdkafka-ruby",
+      "status": "candidate",
+      "text": "[![Build Status](https://github.com/karafka/rdkafka-ruby/actions/workflows/ci_linux_ubuntu_x86_64_gnu.yml/badge.svg)](https://github.com/karafka/rdkafka-ruby/actions/workflows/ci_linux_x86_64_gnu.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "karafka/karafka",
+      "status": "candidate",
+      "text": "![karafka logo](https://karafka.io/assets/misc/logo/karafka_logotype_transparent2.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "karafka/waterdrop",
+      "status": "candidate",
+      "text": "[![Build Status](https://github.com/karafka/waterdrop/workflows/ci/badge.svg)](https://github.com/karafka/waterdrop/actions?query=workflow%3Aci)"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +112,41 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "confluentinc/librdkafka"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "confluentinc/cp-all-in-one"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "karafka/rdkafka-ruby"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "karafka/karafka"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "karafka/waterdrop"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "confluentinc/librdkafka"
     }
   ],
   "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

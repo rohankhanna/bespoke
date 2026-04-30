@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Code for \"Neural Controlled Differential Equations for Irregular Time Series\" (Neurips 2020 Spotlight)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<h1 align='center'> Neural Controlled Differential Equations for Irregular Time Series<br>(NeurIPS 2020 Spotlight)<br>"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<h1 align='center'> Neural Controlled Differential Equations for Irregular Time Series<br>(NeurIPS 2020 Spotlight)<br>"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "deep-learning",
+      "sense_id": "deep-learning#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "deep-learning",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "deep-learning",
+  "observation_id": "f9d413e5cd8c86cb",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T00:37:16.824464+00:00",
+  "observed_text": "deep-learning",
+  "source_context_snippet": "<h1 align='center'> Neural Controlled Differential Equations for Irregular Time Series<br>(NeurIPS 2020 Spotlight)<br>",
+  "source_file": null,
+  "source_repo": "patrick-kidger/NeuralCDE",
+  "source_repo_description": "Code for \"Neural Controlled Differential Equations for Irregular Time Series\" (Neurips 2020 Spotlight)"
+}

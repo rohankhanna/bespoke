@@ -1,0 +1,57 @@
+{
+  "components": [
+    {
+      "component": "purcell/setup-emacs@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "Fanael/rainbow-delimiters",
+      "target": "purcell/setup-emacs@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "Fanael/rainbow-delimiters",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-04-30T04:08:38.312140+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3051
+    },
+    {
+      "path": ".github/workflows/test.yml",
+      "size": 503
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Emacs rainbow delimiters mode",
+    "fork": false,
+    "full_name": "Fanael/rainbow-delimiters",
+    "html_url": "https://github.com/Fanael/rainbow-delimiters",
+    "language": "Emacs Lisp",
+    "pushed_at": "2023-08-30T16:00:23Z",
+    "stargazers_count": 747,
+    "topics": [],
+    "updated_at": "2026-04-13T12:17:00Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

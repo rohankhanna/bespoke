@@ -1,0 +1,88 @@
+{
+  "aliases": [
+    "bash-completion"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "iterative/shtab",
+      "status": "candidate-context",
+      "text": "\u2194\ufe0f Automagic shell tab completion for Python CLI applications"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "iterative/shtab",
+      "status": "candidate-context",
+      "text": "|Logo|"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kislyuk/argcomplete",
+      "status": "candidate-context",
+      "text": "Python and tab completion, better together."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kislyuk/argcomplete",
+      "status": "candidate-context",
+      "text": "argcomplete - Bash/zsh tab completion for argparse"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "iterative/shtab",
+      "status": "candidate",
+      "text": "|Logo|"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kislyuk/argcomplete",
+      "status": "candidate",
+      "text": "argcomplete - Bash/zsh tab completion for argparse"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "bash-completion",
+  "concept_id": "bash-completion",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "iterative/shtab"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "kislyuk/argcomplete"
+    }
+  ],
+  "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "bash-completion",
+      "sense_id": "bash-completion#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

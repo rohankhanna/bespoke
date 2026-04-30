@@ -55,6 +55,66 @@
       "source_repo": "neplexlabs/canvacord",
       "status": "candidate-context",
       "text": "[![SWUbanner](https://raw.githubusercontent.com/vshymanskyy/StandWithUkraine/main/banner2-direct.svg)](https://vshymanskyy.github.io/StandWithUkraine)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "GaParmar/clean-fid",
+      "status": "candidate-context",
+      "text": "PyTorch - FID calculation with proper image resizing and quantization steps [CVPR 2022]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "GaParmar/clean-fid",
+      "status": "candidate-context",
+      "text": "<br>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ImageMagick/ImageMagick",
+      "status": "candidate-context",
+      "text": "ImageMagick is a free, open-source software suite for creating, editing, converting, and displaying images. It supports 200+ formats and offers powerful command-line tools and APIs for automation, scripting, and integration across platforms."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ImageMagick/ImageMagick",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://github.com/ImageMagick/ImageMagick/workflows/main/badge.svg)](https://github.com/ImageMagick/ImageMagick/actions)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "taesungp/contrastive-unpaired-translation",
+      "status": "candidate-context",
+      "text": "Contrastive unpaired image-to-image translation, faster and lighter training than cyclegan (ECCV 2020, in PyTorch)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "taesungp/contrastive-unpaired-translation",
+      "status": "candidate-context",
+      "text": "<br>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Ha0Tang/GestureGAN",
+      "status": "candidate-context",
+      "text": "[ACM MM 2018 Oral] GestureGAN for Hand Gesture-to-Gesture Translation in the Wild"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Ha0Tang/GestureGAN",
+      "status": "candidate-context",
+      "text": "[![License CC BY-NC-SA 4.0](https://img.shields.io/badge/license-CC4.0-blue.svg)](https://github.com/Ha0Tang/GestureGAN/blob/master/LICENSE.md)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Ha0Tang/SelectionGAN",
+      "status": "candidate-context",
+      "text": "[CVPR 2019 Oral] Multi-Channel Attention Selection GAN with Cascaded Semantic Guidance for Cross-View Image Translation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Ha0Tang/SelectionGAN",
+      "status": "candidate-context",
+      "text": "![Visitors](https://visitor-badge.glitch.me/badge?page_id=Ha0Tang/SelectionGAN)"
     }
   ],
   "candidate_glosses": [
@@ -81,6 +141,36 @@
       "source_repo": "neplexlabs/canvacord",
       "status": "candidate",
       "text": "[![SWUbanner](https://raw.githubusercontent.com/vshymanskyy/StandWithUkraine/main/banner2-direct.svg)](https://vshymanskyy.github.io/StandWithUkraine)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "GaParmar/clean-fid",
+      "status": "candidate",
+      "text": "<br>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ImageMagick/ImageMagick",
+      "status": "candidate",
+      "text": "[![Build Status](https://github.com/ImageMagick/ImageMagick/workflows/main/badge.svg)](https://github.com/ImageMagick/ImageMagick/actions)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "taesungp/contrastive-unpaired-translation",
+      "status": "candidate",
+      "text": "<br>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Ha0Tang/GestureGAN",
+      "status": "candidate",
+      "text": "[![License CC BY-NC-SA 4.0](https://img.shields.io/badge/license-CC4.0-blue.svg)](https://github.com/Ha0Tang/GestureGAN/blob/master/LICENSE.md)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Ha0Tang/SelectionGAN",
+      "status": "candidate",
+      "text": "![Visitors](https://visitor-badge.glitch.me/badge?page_id=Ha0Tang/SelectionGAN)"
     }
   ],
   "candidate_related_terms": [],
@@ -112,11 +202,41 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": null,
       "source_repo": "neplexlabs/canvacord"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "GaParmar/clean-fid"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "ImageMagick/ImageMagick"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "taesungp/contrastive-unpaired-translation"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "Ha0Tang/GestureGAN"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "Ha0Tang/SelectionGAN"
     }
   ],
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

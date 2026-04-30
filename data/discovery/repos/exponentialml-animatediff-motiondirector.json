@@ -1,0 +1,57 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ExponentialML/AnimateDiff-MotionDirector",
+      "target": "showlab/motiondirector",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ExponentialML/AnimateDiff-MotionDirector",
+      "target": "exponentialml/text-to-video-finetuning",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T03:55:22.561470+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8265
+    },
+    {
+      "path": "requirements.txt",
+      "size": 161
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "MotionDirector Training For AnimateDiff. Train a MotionLoRA and run it on any compatible AnimateDiff UI.",
+    "fork": false,
+    "full_name": "ExponentialML/AnimateDiff-MotionDirector",
+    "html_url": "https://github.com/ExponentialML/AnimateDiff-MotionDirector",
+    "language": "Python",
+    "pushed_at": "2024-08-20T23:17:28Z",
+    "stargazers_count": 308,
+    "topics": [],
+    "updated_at": "2026-04-07T05:10:12Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "exponentialml/text-to-video-finetuning",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "showlab/motiondirector",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

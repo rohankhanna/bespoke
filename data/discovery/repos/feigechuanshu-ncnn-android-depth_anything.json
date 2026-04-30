@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "FeiGeChuanShu/ncnn-android-depth_anything",
+      "target": "liheyoung/depth-anything",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T01:57:57.405858+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1437
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "a Android demo of depth_anything_v1 and depth_anything_v2",
+    "fork": false,
+    "full_name": "FeiGeChuanShu/ncnn-android-depth_anything",
+    "html_url": "https://github.com/FeiGeChuanShu/ncnn-android-depth_anything",
+    "language": "C++",
+    "pushed_at": "2024-06-18T05:56:04Z",
+    "stargazers_count": 70,
+    "topics": [],
+    "updated_at": "2026-04-20T02:48:33Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "liheyoung/depth-anything",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

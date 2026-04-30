@@ -166,6 +166,18 @@
       "source_repo": "NuGet/NuGet.Client",
       "status": "candidate-context",
       "text": "\ufeff![NuGet logo](https://raw.githubusercontent.com/NuGet/Home/dev/meta/resources/nuget.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "arnaud-lb/php-rdkafka",
+      "status": "candidate-context",
+      "text": "Production-ready, stable Kafka client for PHP"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "arnaud-lb/php-rdkafka",
+      "status": "candidate-context",
+      "text": "'Package'"
     }
   ],
   "candidate_glosses": [
@@ -246,6 +258,12 @@
       "source_repo": "NuGet/NuGet.Client",
       "status": "candidate",
       "text": "\ufeff![NuGet logo](https://raw.githubusercontent.com/NuGet/Home/dev/meta/resources/nuget.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "arnaud-lb/php-rdkafka",
+      "status": "candidate",
+      "text": "'Package'"
     }
   ],
   "candidate_related_terms": [
@@ -468,11 +486,29 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": ".github/workflows/package.yml",
       "source_repo": "snapcast/snapcast"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/package.yml",
+      "source_repo": "arnaud-lb/php-rdkafka"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/ci-pkg-install.yml",
+      "source_repo": "Lightning-AI/pytorch-lightning"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "wasm-bindgen/wasm-pack"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

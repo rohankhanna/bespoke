@@ -1,0 +1,136 @@
+{
+  "aliases": [
+    "joint"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "microsoft/UniVL",
+      "status": "candidate-context",
+      "text": "An official implementation for \" UniVL: A Unified Video and Language Pre-Training Model for Multimodal Understanding and Generation\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/UniVL",
+      "status": "candidate-context",
+      "text": "The implementation of paper [**UniVL: A Unified Video and Language Pre-Training Model for Multimodal Understanding and Generation**](https://arxiv.org/abs/2002.06353)."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/UniVL",
+      "status": "candidate",
+      "text": "The implementation of paper [**UniVL: A Unified Video and Language Pre-Training Model for Multimodal Understanding and Generation**](https://arxiv.org/abs/2002.06353)."
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40032966,
+      "status": "candidate",
+      "text": "cooperative"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40031054,
+      "status": "candidate",
+      "text": "associated"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40030915,
+      "status": "candidate",
+      "text": "concerted"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40030205,
+      "status": "candidate",
+      "text": "cosignatory"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40028258,
+      "status": "candidate",
+      "text": "conjoint"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 91043,
+      "status": "candidate",
+      "text": "articulate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 27043,
+      "status": "candidate",
+      "text": "collective"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 16043,
+      "status": "candidate",
+      "text": "juncture"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 15058,
+      "status": "candidate",
+      "text": "stick"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 15057,
+      "status": "candidate",
+      "text": "articulation"
+    }
+  ],
+  "canonical_name": "joint",
+  "concept_id": "joint",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "microsoft/UniVL"
+    }
+  ],
+  "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "joint",
+      "sense_id": "joint#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

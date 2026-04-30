@@ -127,6 +127,42 @@
       "source_repo": "rehypejs/rehype-highlight",
       "status": "candidate-context",
       "text": "rehype-highlight \u2014 rehype plugin to highlight code blocks with lowlight (highlight.js)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sublimehq/Packages",
+      "status": "candidate-context",
+      "text": "Syntax highlighting files shipped with Sublime Text and Sublime Merge"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sublimehq/Packages",
+      "status": "candidate-context",
+      "text": "These packages are developed"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nordtheme/vim",
+      "status": "candidate-context",
+      "text": "An arctic, north-bluish clean and elegant Vim theme."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nordtheme/vim",
+      "status": "candidate-context",
+      "text": "@nordtheme/vim \u2014 An arctic, north-bluish clean and elegant Vim theme"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "raimon49/requirements.txt.vim",
+      "status": "candidate-context",
+      "text": "the Requirements File Format syntax support for Vim"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "raimon49/requirements.txt.vim",
+      "status": "candidate-context",
+      "text": "requirements.txt.vim"
     }
   ],
   "candidate_glosses": [
@@ -189,6 +225,24 @@
       "source_repo": "rehypejs/rehype-highlight",
       "status": "candidate",
       "text": "rehype-highlight \u2014 rehype plugin to highlight code blocks with lowlight (highlight.js)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sublimehq/Packages",
+      "status": "candidate",
+      "text": "These packages are developed"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nordtheme/vim",
+      "status": "candidate",
+      "text": "@nordtheme/vim \u2014 An arctic, north-bluish clean and elegant Vim theme"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "raimon49/requirements.txt.vim",
+      "status": "candidate",
+      "text": "requirements.txt.vim"
     }
   ],
   "candidate_related_terms": [],
@@ -280,11 +334,35 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "rehypejs/rehype-highlight"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "github-linguist/linguist"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "sublimehq/Packages"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "nordtheme/vim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "raimon49/requirements.txt.vim"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

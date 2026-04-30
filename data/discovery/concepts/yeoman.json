@@ -31,6 +31,18 @@
       "source_repo": "yeoman/yo",
       "status": "candidate-context",
       "text": "yo \u2014 CLI tool for running Yeoman generators"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "webextension-toolbox/generator-web-extension",
+      "status": "candidate-context",
+      "text": "Advanced WebExtension generator that creates everything you need to get started with cross-browser web-extension development."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "webextension-toolbox/generator-web-extension",
+      "status": "candidate-context",
+      "text": "[<img align=\"right\" src=\"./assets/icon.svg?sanitize=true\" alt=\"logo\">](https://www.npmjs.com/package/generator-web-extension)"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +57,12 @@
       "source_repo": "yeoman/yo",
       "status": "candidate",
       "text": "yo \u2014 CLI tool for running Yeoman generators"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "webextension-toolbox/generator-web-extension",
+      "status": "candidate",
+      "text": "[<img align=\"right\" src=\"./assets/icon.svg?sanitize=true\" alt=\"logo\">](https://www.npmjs.com/package/generator-web-extension)"
     }
   ],
   "candidate_related_terms": [
@@ -115,11 +133,17 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": null,
       "source_repo": "yeoman/yo"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "webextension-toolbox/generator-web-extension"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

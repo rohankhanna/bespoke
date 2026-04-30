@@ -1,0 +1,170 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "zeromq/jeromq",
+      "target": "dealerrouter",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "zeromq/jeromq",
+      "target": "jeromq",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "zeromq/jeromq",
+      "target": "libzmq",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "zeromq/jeromq",
+      "target": "messaging",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "zeromq/jeromq",
+      "target": "networking",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "zeromq/jeromq",
+      "target": "pubsub",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "zeromq/jeromq",
+      "target": "pushpull",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "zeromq/jeromq",
+      "target": "reqrep",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "zeromq/jeromq",
+      "target": "streaming",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "zeromq/jeromq",
+      "target": "zeromq",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T00:50:13.483946+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4576
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "JeroMQ is a pure Java implementation of the ZeroMQ messaging library, offering high-performance asynchronous messaging for distributed or concurrent applications.",
+    "fork": false,
+    "full_name": "zeromq/jeromq",
+    "html_url": "https://github.com/zeromq/jeromq",
+    "language": "Java",
+    "pushed_at": "2025-11-30T13:59:58Z",
+    "stargazers_count": 2445,
+    "topics": [
+      "dealerrouter",
+      "jeromq",
+      "libzmq",
+      "messaging",
+      "networking",
+      "pubsub",
+      "pushpull",
+      "reqrep",
+      "streaming",
+      "zeromq"
+    ],
+    "updated_at": "2026-04-28T14:39:06Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Pure Java implementation of libzmq (http://zeromq.org).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dealerrouter"
+    },
+    {
+      "context_snippet": "Pure Java implementation of libzmq (http://zeromq.org).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "jeromq"
+    },
+    {
+      "context_snippet": "Pure Java implementation of libzmq (http://zeromq.org).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "libzmq"
+    },
+    {
+      "context_snippet": "Pure Java implementation of libzmq (http://zeromq.org).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "messaging"
+    },
+    {
+      "context_snippet": "Pure Java implementation of libzmq (http://zeromq.org).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "networking"
+    },
+    {
+      "context_snippet": "Pure Java implementation of libzmq (http://zeromq.org).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pubsub"
+    },
+    {
+      "context_snippet": "Pure Java implementation of libzmq (http://zeromq.org).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pushpull"
+    },
+    {
+      "context_snippet": "Pure Java implementation of libzmq (http://zeromq.org).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "reqrep"
+    },
+    {
+      "context_snippet": "Pure Java implementation of libzmq (http://zeromq.org).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "streaming"
+    },
+    {
+      "context_snippet": "Pure Java implementation of libzmq (http://zeromq.org).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "zeromq"
+    }
+  ]
+}

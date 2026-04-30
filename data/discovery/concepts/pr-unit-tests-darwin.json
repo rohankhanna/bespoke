@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "PR unit tests (darwin)"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "GoogleContainerTools/skaffold",
+      "status": "candidate-context",
+      "text": "Easy and Repeatable Kubernetes Development"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "GoogleContainerTools/skaffold",
+      "status": "candidate-context",
+      "text": "PR unit tests (darwin)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "GoogleContainerTools/skaffold",
+      "status": "candidate",
+      "text": "PR unit tests (darwin)"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 25057,
+      "status": "candidate",
+      "text": "key"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 25036,
+      "status": "candidate",
+      "text": "keying"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 25036,
+      "status": "candidate",
+      "text": "keys"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24696,
+      "status": "candidate",
+      "text": "lab"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 23658,
+      "status": "candidate",
+      "text": "spin"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "PR unit tests (darwin)",
+  "concept_id": "pr-unit-tests-darwin",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/unit-tests-darwin.yml",
+      "source_repo": "GoogleContainerTools/skaffold"
+    }
+  ],
+  "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "PR unit tests (darwin)",
+      "sense_id": "pr-unit-tests-darwin#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

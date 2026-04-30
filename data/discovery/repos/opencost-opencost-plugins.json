@@ -1,0 +1,403 @@
+{
+  "components": [
+    {
+      "component": "andymckay/labeler@1.0.4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto_label_issues.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-publish-release.yml"
+    },
+    {
+      "component": "extractions/setup-just@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-publish-release.yml"
+    },
+    {
+      "component": "actions/setup-go@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-publish-release.yml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-publish-release.yml"
+    },
+    {
+      "component": "softprops/action-gh-release@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-publish-release.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-test.yaml"
+    },
+    {
+      "component": "extractions/setup-just@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-test.yaml"
+    },
+    {
+      "component": "actions/setup-go@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-test.yaml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-test.yaml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-test.yaml"
+    },
+    {
+      "component": "actions-ecosystem/action-add-labels@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/label-comments.yml"
+    },
+    {
+      "component": "actions-ecosystem/action-add-labels@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/label-comments.yml"
+    },
+    {
+      "component": "actions-ecosystem/action-remove-labels@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/label-comments.yml"
+    },
+    {
+      "component": "actions-ecosystem/action-remove-labels@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/label-comments.yml"
+    },
+    {
+      "component": "oNaiPs/secrets-to-env-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run-integration-tests.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run-integration-tests.yaml"
+    },
+    {
+      "component": "extractions/setup-just@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run-integration-tests.yaml"
+    },
+    {
+      "component": "actions/setup-go@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run-integration-tests.yaml"
+    },
+    {
+      "component": "slackapi/slack-github-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run-integration-tests.yaml"
+    },
+    {
+      "component": "slackapi/slack-github-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run-integration-tests.yaml"
+    },
+    {
+      "component": "actions/stale@v9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stale.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-manifest.yaml"
+    },
+    {
+      "component": "ad-m/github-push-action@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-manifest.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto_label_issues.yml",
+      "source_repo": "opencost/opencost-plugins",
+      "target": "andymckay/labeler@1.0.4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/auto_label_issues.yml",
+      "source_repo": "opencost/opencost-plugins",
+      "target": "auto-label-new-issues",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-publish-release.yml",
+      "source_repo": "opencost/opencost-plugins",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-publish-release.yml",
+      "source_repo": "opencost/opencost-plugins",
+      "target": "extractions/setup-just@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-publish-release.yml",
+      "source_repo": "opencost/opencost-plugins",
+      "target": "actions/setup-go@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-publish-release.yml",
+      "source_repo": "opencost/opencost-plugins",
+      "target": "actions/cache@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-publish-release.yml",
+      "source_repo": "opencost/opencost-plugins",
+      "target": "softprops/action-gh-release@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-and-publish-release.yml",
+      "source_repo": "opencost/opencost-plugins",
+      "target": "Build and Release Plugins",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-test.yaml",
+      "source_repo": "opencost/opencost-plugins",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-test.yaml",
+      "source_repo": "opencost/opencost-plugins",
+      "target": "extractions/setup-just@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-test.yaml",
+      "source_repo": "opencost/opencost-plugins",
+      "target": "actions/setup-go@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-test.yaml",
+      "source_repo": "opencost/opencost-plugins",
+      "target": "actions/cache@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-test.yaml",
+      "source_repo": "opencost/opencost-plugins",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/label-comments.yml",
+      "source_repo": "opencost/opencost-plugins",
+      "target": "actions-ecosystem/action-add-labels@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/label-comments.yml",
+      "source_repo": "opencost/opencost-plugins",
+      "target": "actions-ecosystem/action-remove-labels@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/label-comments.yml",
+      "source_repo": "opencost/opencost-plugins",
+      "target": "needs-follow-up-label",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run-integration-tests.yaml",
+      "source_repo": "opencost/opencost-plugins",
+      "target": "oNaiPs/secrets-to-env-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run-integration-tests.yaml",
+      "source_repo": "opencost/opencost-plugins",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run-integration-tests.yaml",
+      "source_repo": "opencost/opencost-plugins",
+      "target": "extractions/setup-just@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run-integration-tests.yaml",
+      "source_repo": "opencost/opencost-plugins",
+      "target": "actions/setup-go@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run-integration-tests.yaml",
+      "source_repo": "opencost/opencost-plugins",
+      "target": "slackapi/slack-github-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/run-integration-tests.yaml",
+      "source_repo": "opencost/opencost-plugins",
+      "target": "Run Integration Tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "opencost/opencost-plugins",
+      "target": "actions/stale@v9",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "opencost/opencost-plugins",
+      "target": "Close stale issues and PRs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-manifest.yaml",
+      "source_repo": "opencost/opencost-plugins",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-manifest.yaml",
+      "source_repo": "opencost/opencost-plugins",
+      "target": "ad-m/github-push-action@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/update-manifest.yaml",
+      "source_repo": "opencost/opencost-plugins",
+      "target": "Update Manifest",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T02:53:20.148053+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8081
+    },
+    {
+      "path": ".github/workflows/auto_label_issues.yml",
+      "size": 273
+    },
+    {
+      "path": ".github/workflows/build-and-publish-release.yml",
+      "size": 912
+    },
+    {
+      "path": ".github/workflows/build-test.yaml",
+      "size": 1301
+    },
+    {
+      "path": ".github/workflows/label-comments.yml",
+      "size": 1936
+    },
+    {
+      "path": ".github/workflows/run-integration-tests.yaml",
+      "size": 1828
+    },
+    {
+      "path": ".github/workflows/stale.yml",
+      "size": 975
+    },
+    {
+      "path": ".github/workflows/update-manifest.yaml",
+      "size": 1480
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Plugins for extending OpenCost with new Custom Cost Sources",
+    "fork": false,
+    "full_name": "opencost/opencost-plugins",
+    "html_url": "https://github.com/opencost/opencost-plugins",
+    "language": "Go",
+    "pushed_at": "2025-04-03T14:22:49Z",
+    "stargazers_count": 27,
+    "topics": [],
+    "updated_at": "2025-11-27T19:54:43Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "auto-label-new-issues",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/auto_label_issues.yml",
+      "term": "auto-label-new-issues"
+    },
+    {
+      "context_snippet": "Build and Release Plugins",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-and-publish-release.yml",
+      "term": "Build and Release Plugins"
+    },
+    {
+      "context_snippet": "needs-follow-up-label",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/label-comments.yml",
+      "term": "needs-follow-up-label"
+    },
+    {
+      "context_snippet": "Run Integration Tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/run-integration-tests.yaml",
+      "term": "Run Integration Tests"
+    },
+    {
+      "context_snippet": "'Close stale issues and PRs'",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/stale.yml",
+      "term": "Close stale issues and PRs"
+    },
+    {
+      "context_snippet": "Update Manifest",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/update-manifest.yaml",
+      "term": "Update Manifest"
+    }
+  ]
+}

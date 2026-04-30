@@ -1,0 +1,17 @@
+{
+  "component": "redhat-actions/push-to-registry@5ed88d269cf581ea9ef6dd6806d01562096bee9c",
+  "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/image.yaml",
+      "source_repo": "argoproj-labs/argocd-agent"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "argoproj-labs/argocd-agent"
+    }
+  ]
+}

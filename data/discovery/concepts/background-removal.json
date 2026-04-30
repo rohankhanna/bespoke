@@ -43,6 +43,30 @@
       "source_repo": "xuebinqin/DIS",
       "status": "candidate-context",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ZhengPeng7/BiRefNet",
+      "status": "candidate-context",
+      "text": "[CAAI AIR'24] Bilateral Reference for High-Resolution Dichotomous Image Segmentation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ZhengPeng7/BiRefNet",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">Bilateral Reference for High-Resolution Dichotomous Image Segmentation</h1>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "plemeri/InSPyReNet",
+      "status": "candidate-context",
+      "text": "Official PyTorch implementation of Revisiting Image Pyramid Structure for High Resolution Salient Object Detection (ACCV 2022)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "plemeri/InSPyReNet",
+      "status": "candidate-context",
+      "text": "[![MseeP.ai Security Assessment Badge](https://mseep.net/pr/plemeri-inspyrenet-badge.png)](https://mseep.ai/app/plemeri-inspyrenet)"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +87,18 @@
       "source_repo": "xuebinqin/DIS",
       "status": "candidate",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ZhengPeng7/BiRefNet",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">Bilateral Reference for High-Resolution Dichotomous Image Segmentation</h1>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "plemeri/InSPyReNet",
+      "status": "candidate",
+      "text": "[![MseeP.ai Security Assessment Badge](https://mseep.net/pr/plemeri-inspyrenet-badge.png)](https://mseep.ai/app/plemeri-inspyrenet)"
     }
   ],
   "candidate_related_terms": [],
@@ -88,11 +124,23 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "xuebinqin/DIS"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "ZhengPeng7/BiRefNet"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "plemeri/InSPyReNet"
     }
   ],
   "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

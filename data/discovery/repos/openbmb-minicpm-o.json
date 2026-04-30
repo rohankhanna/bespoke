@@ -1,0 +1,125 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "OpenBMB/MiniCPM-o",
+      "target": "flagos-ai/flaggems",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "OpenBMB/MiniCPM-o",
+      "target": "flagos-ai/flagtree",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "OpenBMB/MiniCPM-o",
+      "target": "flagos-ai/vllm-plugin-fl",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "OpenBMB/MiniCPM-o",
+      "target": "catchthetornado/text-extract-api",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "OpenBMB/MiniCPM-o",
+      "target": "minicpm",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "OpenBMB/MiniCPM-o",
+      "target": "minicpm-v",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "OpenBMB/MiniCPM-o",
+      "target": "multi-modal",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T04:58:59.720112+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 125189
+    },
+    {
+      "path": "requirements.txt",
+      "size": 701
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A Gemini 2.5 Flash Level MLLM for Vision, Speech, and Full-Duplex Multimodal Live Streaming on Your Phone",
+    "fork": false,
+    "full_name": "OpenBMB/MiniCPM-o",
+    "html_url": "https://github.com/OpenBMB/MiniCPM-o",
+    "language": "Python",
+    "pushed_at": "2026-04-27T18:31:08Z",
+    "stargazers_count": 24473,
+    "topics": [
+      "minicpm",
+      "minicpm-v",
+      "multi-modal"
+    ],
+    "updated_at": "2026-04-30T03:15:37Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "catchthetornado/text-extract-api",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "flagos-ai/flaggems",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "flagos-ai/flagtree",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "flagos-ai/vllm-plugin-fl",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "minicpm"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "minicpm-v"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "multi-modal"
+    }
+  ]
+}

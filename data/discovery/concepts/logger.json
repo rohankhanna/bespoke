@@ -31,6 +31,42 @@
       "source_repo": "travis-ci/travis-logs",
       "status": "candidate-context",
       "text": "[![Build Status](https://travis-ci.org/travis-ci/travis-logs.svg?branch=master)](https://travis-ci.org/travis-ci/travis-logs)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apache/logging-log4j2",
+      "status": "candidate-context",
+      "text": "Apache Log4j is a versatile, feature-rich, efficient logging API and backend for Java."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/logging-log4j2",
+      "status": "candidate-context",
+      "text": "{ \"dependencies\": { \"@antora/cli\": \"^3.2.0-alpha.4\", \"@antora/site-generator-default\": \"^3.2.0-alpha.4\", \"@asciidoctor/tabs\": \"^1.0.0-beta.6\", \"asciidoctor-kroki\": \"^0.18.1\", \"fast-xml-parser\": \"^5.0.6\", \"handlebars\": \"^4.7.8\" } }"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "go-logr/zerologr",
+      "status": "candidate-context",
+      "text": "A logr implementation using Zerolog"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "go-logr/zerologr",
+      "status": "candidate-context",
+      "text": "[![Go Reference](https://pkg.go.dev/badge/github.com/go-logr/zerologr.svg)](https://pkg.go.dev/github.com/go-logr/zerologr)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Janspiry/distributed-pytorch-template",
+      "status": "candidate-context",
+      "text": "This is a seed project for distributed PyTorch training, which was built to customize your network quickly"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Janspiry/distributed-pytorch-template",
+      "status": "candidate-context",
+      "text": "This is a seed project for distributed PyTorch training, which was built to customize your network quickly."
     }
   ],
   "candidate_glosses": [
@@ -45,6 +81,24 @@
       "source_repo": "travis-ci/travis-logs",
       "status": "candidate",
       "text": "[![Build Status](https://travis-ci.org/travis-ci/travis-logs.svg?branch=master)](https://travis-ci.org/travis-ci/travis-logs)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/logging-log4j2",
+      "status": "candidate",
+      "text": "{ \"dependencies\": { \"@antora/cli\": \"^3.2.0-alpha.4\", \"@antora/site-generator-default\": \"^3.2.0-alpha.4\", \"@asciidoctor/tabs\": \"^1.0.0-beta.6\", \"asciidoctor-kroki\": \"^0.18.1\", \"fast-xml-parser\": \"^5.0.6\", \"handlebars\": \"^4.7.8\" } }"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "go-logr/zerologr",
+      "status": "candidate",
+      "text": "[![Go Reference](https://pkg.go.dev/badge/github.com/go-logr/zerologr.svg)](https://pkg.go.dev/github.com/go-logr/zerologr)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Janspiry/distributed-pytorch-template",
+      "status": "candidate",
+      "text": "This is a seed project for distributed PyTorch training, which was built to customize your network quickly."
     }
   ],
   "candidate_related_terms": [
@@ -106,11 +160,29 @@
       "observed_at": "2026-04-24T12:33:41.350224+00:00",
       "source_file": null,
       "source_repo": "travis-ci/travis-logs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "apache/logging-log4j2"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "go-logr/zerologr"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "Janspiry/distributed-pytorch-template"
     }
   ],
   "first_seen_at": "2026-04-18T12:46:59.510459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

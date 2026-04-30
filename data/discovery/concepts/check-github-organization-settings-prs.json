@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Check Github Organization Settings PRs"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cloudfoundry/community",
+      "status": "candidate-context",
+      "text": "Governance and contact information for Cloud Foundry"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cloudfoundry/community",
+      "status": "candidate-context",
+      "text": "'Check Github Organization Settings PRs'"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cloudfoundry/community",
+      "status": "candidate",
+      "text": "'Check Github Organization Settings PRs'"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29536,
+      "status": "candidate",
+      "text": "auditing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19335,
+      "status": "candidate",
+      "text": "lay"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19258,
+      "status": "candidate",
+      "text": "adjustment"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19258,
+      "status": "candidate",
+      "text": "set"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19258,
+      "status": "candidate",
+      "text": "values"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Check Github Organization Settings PRs",
+  "concept_id": "check-github-organization-settings-prs",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/org-management-check-prs.yml",
+      "source_repo": "cloudfoundry/community"
+    }
+  ],
+  "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Check Github Organization Settings PRs",
+      "sense_id": "check-github-organization-settings-prs#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

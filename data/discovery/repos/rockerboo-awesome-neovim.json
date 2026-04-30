@@ -1,0 +1,423 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/links.yml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/links.yml"
+    },
+    {
+      "component": "lycheeverse/lychee-action@1d97d84f0bc547f7b25f4c2170d87d810dc2fb2c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/links.yml"
+    },
+    {
+      "component": "peter-evans/create-issue-from-file@e8ef132d6df98ed982188e460ebb3b5d4ef3a9cd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/links.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-compliance-check.yml"
+    },
+    {
+      "component": "actions/github-script@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-compliance-check.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-quality-analysis.yml"
+    },
+    {
+      "component": "actions/github-script@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-quality-analysis.yml"
+    },
+    {
+      "component": "actions/github-script@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-quality-analysis.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-quality-analysis.yml"
+    },
+    {
+      "component": "deepakputhraya/action-pr-title@077bddd7bdabd0d2b1b25ed0754c7e62e184d7ee",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-title.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/typos.yml"
+    },
+    {
+      "component": "crate-ci/typos@b1a1ef3893ff35ade0cfa71523852a49bfd05d19",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/typos.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/typos.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/typos.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "rockerBOO/awesome-neovim",
+      "target": "0xble/dotagent.nvim",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "rockerBOO/awesome-neovim",
+      "target": "0x-ximon/acario.nvim",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "rockerBOO/awesome-neovim",
+      "target": "0styx0/abbreinder.nvim",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "rockerBOO/awesome-neovim",
+      "target": "0xjohnnyboy/scretch.nvim",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/links.yml",
+      "source_repo": "rockerBOO/awesome-neovim",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/links.yml",
+      "source_repo": "rockerBOO/awesome-neovim",
+      "target": "actions/cache@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/links.yml",
+      "source_repo": "rockerBOO/awesome-neovim",
+      "target": "lycheeverse/lychee-action@1d97d84f0bc547f7b25f4c2170d87d810dc2fb2c",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/links.yml",
+      "source_repo": "rockerBOO/awesome-neovim",
+      "target": "peter-evans/create-issue-from-file@e8ef132d6df98ed982188e460ebb3b5d4ef3a9cd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/links.yml",
+      "source_repo": "rockerBOO/awesome-neovim",
+      "target": "Links",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "rockerBOO/awesome-neovim",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "rockerBOO/awesome-neovim",
+      "target": "Lint",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-compliance-check.yml",
+      "source_repo": "rockerBOO/awesome-neovim",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-compliance-check.yml",
+      "source_repo": "rockerBOO/awesome-neovim",
+      "target": "actions/github-script@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr-compliance-check.yml",
+      "source_repo": "rockerBOO/awesome-neovim",
+      "target": "PR Compliance Check",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-quality-analysis.yml",
+      "source_repo": "rockerBOO/awesome-neovim",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-quality-analysis.yml",
+      "source_repo": "rockerBOO/awesome-neovim",
+      "target": "actions/github-script@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-quality-analysis.yml",
+      "source_repo": "rockerBOO/awesome-neovim",
+      "target": "actions/upload-artifact@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr-quality-analysis.yml",
+      "source_repo": "rockerBOO/awesome-neovim",
+      "target": "PR Quality Analysis",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-title.yml",
+      "source_repo": "rockerBOO/awesome-neovim",
+      "target": "deepakputhraya/action-pr-title@077bddd7bdabd0d2b1b25ed0754c7e62e184d7ee",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr-title.yml",
+      "source_repo": "rockerBOO/awesome-neovim",
+      "target": "PR Title",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/typos.yml",
+      "source_repo": "rockerBOO/awesome-neovim",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/typos.yml",
+      "source_repo": "rockerBOO/awesome-neovim",
+      "target": "crate-ci/typos@b1a1ef3893ff35ade0cfa71523852a49bfd05d19",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/typos.yml",
+      "source_repo": "rockerBOO/awesome-neovim",
+      "target": "Typos and Terminology Check",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "rockerBOO/awesome-neovim",
+      "target": "awesome",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "rockerBOO/awesome-neovim",
+      "target": "awesome-list",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "rockerBOO/awesome-neovim",
+      "target": "neovim",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "rockerBOO/awesome-neovim",
+      "target": "neovim-plugins",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "rockerBOO/awesome-neovim",
+      "target": "nvim-lua",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T04:10:00.911180+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 214440
+    },
+    {
+      "path": ".github/workflows/links.yml",
+      "size": 1147
+    },
+    {
+      "path": ".github/workflows/lint.yml",
+      "size": 478
+    },
+    {
+      "path": ".github/workflows/pr-compliance-check.yml",
+      "size": 5981
+    },
+    {
+      "path": ".github/workflows/pr-quality-analysis.yml",
+      "size": 7573
+    },
+    {
+      "path": ".github/workflows/pr-title.yml",
+      "size": 575
+    },
+    {
+      "path": ".github/workflows/typos.yml",
+      "size": 1245
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Collections of awesome neovim plugins.",
+    "fork": false,
+    "full_name": "rockerBOO/awesome-neovim",
+    "html_url": "https://github.com/rockerBOO/awesome-neovim",
+    "language": "Shell",
+    "pushed_at": "2026-04-29T19:34:17Z",
+    "stargazers_count": 20747,
+    "topics": [
+      "awesome",
+      "awesome-list",
+      "neovim",
+      "neovim-plugins",
+      "nvim-lua"
+    ],
+    "updated_at": "2026-04-30T02:47:46Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "0styx0/abbreinder.nvim",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "0x-ximon/acario.nvim",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "0xble/dotagent.nvim",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "0xjohnnyboy/scretch.nvim",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Links",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/links.yml",
+      "term": "Links"
+    },
+    {
+      "context_snippet": "Lint",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint.yml",
+      "term": "Lint"
+    },
+    {
+      "context_snippet": "PR Compliance Check",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr-compliance-check.yml",
+      "term": "PR Compliance Check"
+    },
+    {
+      "context_snippet": "PR Quality Analysis",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr-quality-analysis.yml",
+      "term": "PR Quality Analysis"
+    },
+    {
+      "context_snippet": "PR Title",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr-title.yml",
+      "term": "PR Title"
+    },
+    {
+      "context_snippet": "Typos and Terminology Check",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/typos.yml",
+      "term": "Typos and Terminology Check"
+    },
+    {
+      "context_snippet": "<a href=\"https://neovim.io/\"><img src=\"https://neovim.io/logos/neovim-mark-flat.png\" align=\"right\" width=\"144\"/></a>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "awesome"
+    },
+    {
+      "context_snippet": "<a href=\"https://neovim.io/\"><img src=\"https://neovim.io/logos/neovim-mark-flat.png\" align=\"right\" width=\"144\"/></a>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "awesome-list"
+    },
+    {
+      "context_snippet": "<a href=\"https://neovim.io/\"><img src=\"https://neovim.io/logos/neovim-mark-flat.png\" align=\"right\" width=\"144\"/></a>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "neovim"
+    },
+    {
+      "context_snippet": "<a href=\"https://neovim.io/\"><img src=\"https://neovim.io/logos/neovim-mark-flat.png\" align=\"right\" width=\"144\"/></a>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "neovim-plugins"
+    },
+    {
+      "context_snippet": "<a href=\"https://neovim.io/\"><img src=\"https://neovim.io/logos/neovim-mark-flat.png\" align=\"right\" width=\"144\"/></a>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nvim-lua"
+    }
+  ]
+}

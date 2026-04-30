@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T04:59:16.359009+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6083
+    },
+    {
+      "path": "requirements.txt",
+      "size": 71
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "master",
+    "description": null,
+    "fork": false,
+    "full_name": "chainer/chainerrl-visualizer",
+    "html_url": "https://github.com/chainer/chainerrl-visualizer",
+    "language": "JavaScript",
+    "pushed_at": "2023-01-13T23:12:26Z",
+    "stargazers_count": 54,
+    "topics": [],
+    "updated_at": "2025-12-25T11:25:14Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

@@ -4,28 +4,28 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "fla-org/flash-linear-attention",
-      "target": "berlino/gated_linear_attention",
+      "target": "fla-org/flame",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "fla-org/flash-linear-attention",
-      "target": "corl-team/rebased",
+      "target": "fla-org/flash-bidirectional-linear-attention",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "fla-org/flash-linear-attention",
-      "target": "codefuse-ai/rodimus",
+      "target": "hazyresearch/based",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "fla-org/flash-linear-attention",
-      "target": "awesomeseq/comba-triton",
+      "target": "hanguo97/log-linear-attention",
       "target_type": "repository"
     },
     {
@@ -149,16 +149,30 @@
     },
     {
       "edge_type": "workflow-name",
-      "source_file": ".github/workflows/nvidia-4090.yml",
+      "source_file": ".github/workflows/nvidia-h100.yml",
       "source_repo": "fla-org/flash-linear-attention",
-      "target": "nvidia-4090-ci",
+      "target": "nvidia-h100-ci",
       "target_type": "term"
     },
     {
-      "edge_type": "workflow-name",
-      "source_file": ".github/workflows/nvidia-a100.yml",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
       "source_repo": "fla-org/flash-linear-attention",
-      "target": "nvidia-a100-ci",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "fla-org/flash-linear-attention",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "fla-org/flash-linear-attention",
+      "target": "release",
       "target_type": "term"
     },
     {
@@ -190,6 +204,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-04-24T12:33:41.350224+00:00",
+  "generated_at": "2026-04-30T00:37:16.824464+00:00",
   "source_repo": "fla-org/flash-linear-attention"
 }

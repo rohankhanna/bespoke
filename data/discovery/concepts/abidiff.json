@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "abidiff"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "yhirose/cpp-httplib",
+      "status": "candidate-context",
+      "text": "A C++ header-only HTTP/HTTPS server and client library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "yhirose/cpp-httplib",
+      "status": "candidate-context",
+      "text": "abidiff"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "yhirose/cpp-httplib",
+      "status": "candidate",
+      "text": "abidiff"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "abidiff",
+  "concept_id": "abidiff",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/abidiff.yaml",
+      "source_repo": "yhirose/cpp-httplib"
+    }
+  ],
+  "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "abidiff",
+      "sense_id": "abidiff#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

@@ -115,6 +115,150 @@
       "source_repo": "babashka/sci.configs",
       "status": "candidate-context",
       "text": "A collection of ready to be used SCI configs."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bhauman/rebel-readline",
+      "status": "candidate-context",
+      "text": "Terminal readline library for Clojure dialects"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bhauman/rebel-readline",
+      "status": "candidate-context",
+      "text": "[![Clojars Project](https://img.shields.io/clojars/v/com.bhauman/rebel-readline.svg)](https://clojars.org/com.bhauman/rebel-readline)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "clojure-emacs/inf-clojure",
+      "status": "candidate-context",
+      "text": "Basic interaction with a Clojure subprocess from Emacs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "clojure-emacs/inf-clojure",
+      "status": "candidate-context",
+      "text": "[![Circle CI][circleci-badge]][circleci]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "applied-science/js-interop",
+      "status": "candidate-context",
+      "text": "A JavaScript-interop library for ClojureScript."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "applied-science/js-interop",
+      "status": "candidate-context",
+      "text": "A JavaScript-interop library for ClojureScript."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "borkdude/nbb-action-example",
+      "status": "candidate-context",
+      "text": "An example of writing a Github action with nbb"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "borkdude/nbb-action-example",
+      "status": "candidate-context",
+      "text": "This is an example of how to use [nbb](https://github.com/borkdude/nbb), an"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "day8/re-frame",
+      "status": "candidate-context",
+      "text": "A ClojureScript framework for building user interfaces, leveraging React"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "day8/re-frame",
+      "status": "candidate-context",
+      "text": "<p align=\"center\"><a href=\"https://day8.github.io/re-frame\" target=\"_blank\" rel=\"noopener noreferrer\"><img src=\"docs/images/logo/re-frame-colour.png?raw=true\" alt=\"re-frame logo\"></a></p>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "babashka/scittle",
+      "status": "candidate-context",
+      "text": "Execute Clojure(Script) directly from browser script tags via SCI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "babashka/scittle",
+      "status": "candidate-context",
+      "text": "The [Small Clojure Interpreter](https://github.com/babashka/sci) exposed for usage in script tags."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "BetterThanTomorrow/joyride",
+      "status": "candidate-context",
+      "text": "Making VS Code Hackable like Emacs since 2022"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "BetterThanTomorrow/joyride",
+      "status": "candidate-context",
+      "text": "Modify your VS Code while it is running. The Visual Studio Code API, as well as the APIs of its extensions, are at your command! Joyride makes VS Code scriptable in a very similar way to how how Emacs users can hack their editor."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bhauman/figwheel-main",
+      "status": "candidate-context",
+      "text": "Figwheel Main provides tooling for developing ClojureScript applications"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bhauman/figwheel-main",
+      "status": "candidate-context",
+      "text": "[![Clojars Project](https://img.shields.io/clojars/v/com.bhauman/figwheel-main.svg)](https://clojars.org/com.bhauman/figwheel-main)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "binaryage/cljs-devtools",
+      "status": "candidate-context",
+      "text": "A collection of Chrome DevTools enhancements for ClojureScript developers"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "binaryage/cljs-devtools",
+      "status": "candidate-context",
+      "text": "A collection of Chrome DevTools enhancements for ClojureScript developers"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "day8/re-com",
+      "status": "candidate-context",
+      "text": "A ClojureScript library of reusable components for Reagent"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "day8/re-com",
+      "status": "candidate-context",
+      "text": "<!-- [![CI](https://github.com/day8/re-com/workflows/ci/badge.svg)](https://github.com/day8/re-com/actions?workflow=ci)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "day8/re-frame-debux",
+      "status": "candidate-context",
+      "text": "A fork of debux for tracing re-frame code (for eventual consumption by re-frame-10x)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "day8/re-frame-debux",
+      "status": "candidate-context",
+      "text": "<!-- [![CI](https://github.com/day8/re-frame-debux/workflows/ci/badge.svg)](https://github.com/day8/re-frame-debux/actions?workflow=ci)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sogaiu/tree-sitter-clojure",
+      "status": "candidate-context",
+      "text": "Clojure(Script) grammar for tree-sitter"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sogaiu/tree-sitter-clojure",
+      "status": "candidate-context",
+      "text": "A tree-sitter grammar for Clojure and ClojureScript"
     }
   ],
   "candidate_glosses": [
@@ -171,6 +315,78 @@
       "source_repo": "babashka/sci.configs",
       "status": "candidate",
       "text": "A collection of ready to be used SCI configs."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bhauman/rebel-readline",
+      "status": "candidate",
+      "text": "[![Clojars Project](https://img.shields.io/clojars/v/com.bhauman/rebel-readline.svg)](https://clojars.org/com.bhauman/rebel-readline)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "clojure-emacs/inf-clojure",
+      "status": "candidate",
+      "text": "[![Circle CI][circleci-badge]][circleci]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "applied-science/js-interop",
+      "status": "candidate",
+      "text": "A JavaScript-interop library for ClojureScript."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "borkdude/nbb-action-example",
+      "status": "candidate",
+      "text": "This is an example of how to use [nbb](https://github.com/borkdude/nbb), an"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "day8/re-frame",
+      "status": "candidate",
+      "text": "<p align=\"center\"><a href=\"https://day8.github.io/re-frame\" target=\"_blank\" rel=\"noopener noreferrer\"><img src=\"docs/images/logo/re-frame-colour.png?raw=true\" alt=\"re-frame logo\"></a></p>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "babashka/scittle",
+      "status": "candidate",
+      "text": "The [Small Clojure Interpreter](https://github.com/babashka/sci) exposed for usage in script tags."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "BetterThanTomorrow/joyride",
+      "status": "candidate",
+      "text": "Modify your VS Code while it is running. The Visual Studio Code API, as well as the APIs of its extensions, are at your command! Joyride makes VS Code scriptable in a very similar way to how how Emacs users can hack their editor."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bhauman/figwheel-main",
+      "status": "candidate",
+      "text": "[![Clojars Project](https://img.shields.io/clojars/v/com.bhauman/figwheel-main.svg)](https://clojars.org/com.bhauman/figwheel-main)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "binaryage/cljs-devtools",
+      "status": "candidate",
+      "text": "A collection of Chrome DevTools enhancements for ClojureScript developers"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "day8/re-com",
+      "status": "candidate",
+      "text": "<!-- [![CI](https://github.com/day8/re-com/workflows/ci/badge.svg)](https://github.com/day8/re-com/actions?workflow=ci)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "day8/re-frame-debux",
+      "status": "candidate",
+      "text": "<!-- [![CI](https://github.com/day8/re-frame-debux/workflows/ci/badge.svg)](https://github.com/day8/re-frame-debux/actions?workflow=ci)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sogaiu/tree-sitter-clojure",
+      "status": "candidate",
+      "text": "A tree-sitter grammar for Clojure and ClojureScript"
     }
   ],
   "candidate_related_terms": [],
@@ -238,11 +454,101 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "babashka/sci.configs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "bhauman/rebel-readline"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "clojure-emacs/inf-clojure"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "babashka/sci"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "applied-science/js-interop"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "babashka/nbb"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "borkdude/nbb-action-example"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "day8/re-frame"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "babashka/scittle"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "BetterThanTomorrow/joyride"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "clj-kondo/clj-kondo"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "bhauman/figwheel-main"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "binaryage/cljs-devtools"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "day8/re-com"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "day8/re-frame-debux"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "sogaiu/tree-sitter-clojure"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

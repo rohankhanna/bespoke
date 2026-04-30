@@ -1,0 +1,109 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.rst",
+      "source_repo": "JarnoRFB/incense",
+      "target": "ambv/black",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "Dockerfile",
+      "source_repo": "JarnoRFB/incense",
+      "target": "robbyrussell/oh-my-zsh",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JarnoRFB/incense",
+      "target": "machine-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JarnoRFB/incense",
+      "target": "mongodb",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JarnoRFB/incense",
+      "target": "sacred",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T01:54:22.398863+00:00",
+  "fetched_files": [
+    {
+      "path": "README.rst",
+      "size": 3211
+    },
+    {
+      "path": "Dockerfile",
+      "size": 1795
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 364
+    },
+    {
+      "path": "requirements.txt",
+      "size": 92
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Interactively retrieve data from sacred experiments.",
+    "fork": false,
+    "full_name": "JarnoRFB/incense",
+    "html_url": "https://github.com/JarnoRFB/incense",
+    "language": "Python",
+    "pushed_at": "2026-02-04T10:51:25Z",
+    "stargazers_count": 83,
+    "topics": [
+      "machine-learning",
+      "mongodb",
+      "sacred"
+    ],
+    "updated_at": "2025-10-23T22:12:49Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ambv/black",
+      "source_file": "README.rst"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "robbyrussell/oh-my-zsh",
+      "source_file": "Dockerfile"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": ".. image:: https://mybinder.org/badge_logo.svg",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "machine-learning"
+    },
+    {
+      "context_snippet": ".. image:: https://mybinder.org/badge_logo.svg",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mongodb"
+    },
+    {
+      "context_snippet": ".. image:: https://mybinder.org/badge_logo.svg",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "sacred"
+    }
+  ]
+}

@@ -1,0 +1,227 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "wjun0830/CGDETR",
+      "target": "jayleicn/moment_detr",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "wjun0830/CGDETR",
+      "target": "wjun0830/qd-detr",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "wjun0830/CGDETR",
+      "target": "computer-vision",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "wjun0830/CGDETR",
+      "target": "detection-transformer",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "wjun0830/CGDETR",
+      "target": "detr",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "wjun0830/CGDETR",
+      "target": "highlight-detection",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "wjun0830/CGDETR",
+      "target": "moment-retrieval",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "wjun0830/CGDETR",
+      "target": "multi-modal-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "wjun0830/CGDETR",
+      "target": "pytorch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "wjun0830/CGDETR",
+      "target": "temporal-grounding",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "wjun0830/CGDETR",
+      "target": "text-video-retrieval",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "wjun0830/CGDETR",
+      "target": "video-grounding",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "wjun0830/CGDETR",
+      "target": "video-summarization",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "wjun0830/CGDETR",
+      "target": "video-understanding",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T02:43:14.610538+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9725
+    },
+    {
+      "path": "requirements.txt",
+      "size": 394
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Official pytorch repository for CG-DETR \"Correlation-guided Query-Dependency Calibration in Video Representation Learning for Temporal Grounding\" ",
+    "fork": false,
+    "full_name": "wjun0830/CGDETR",
+    "html_url": "https://github.com/wjun0830/CGDETR",
+    "language": "Python",
+    "pushed_at": "2024-08-21T16:42:52Z",
+    "stargazers_count": 153,
+    "topics": [
+      "computer-vision",
+      "detection-transformer",
+      "detr",
+      "highlight-detection",
+      "moment-retrieval",
+      "multi-modal-learning",
+      "pytorch",
+      "temporal-grounding",
+      "text-video-retrieval",
+      "video-grounding",
+      "video-summarization",
+      "video-understanding"
+    ],
+    "updated_at": "2026-03-14T02:57:48Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jayleicn/moment_detr",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "wjun0830/qd-detr",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Correlation-Guided Query-Dependency Calibration for Video Temporal Grounding",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "computer-vision"
+    },
+    {
+      "context_snippet": "Correlation-Guided Query-Dependency Calibration for Video Temporal Grounding",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "detection-transformer"
+    },
+    {
+      "context_snippet": "Correlation-Guided Query-Dependency Calibration for Video Temporal Grounding",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "detr"
+    },
+    {
+      "context_snippet": "Correlation-Guided Query-Dependency Calibration for Video Temporal Grounding",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "highlight-detection"
+    },
+    {
+      "context_snippet": "Correlation-Guided Query-Dependency Calibration for Video Temporal Grounding",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "moment-retrieval"
+    },
+    {
+      "context_snippet": "Correlation-Guided Query-Dependency Calibration for Video Temporal Grounding",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "multi-modal-learning"
+    },
+    {
+      "context_snippet": "Correlation-Guided Query-Dependency Calibration for Video Temporal Grounding",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytorch"
+    },
+    {
+      "context_snippet": "Correlation-Guided Query-Dependency Calibration for Video Temporal Grounding",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "temporal-grounding"
+    },
+    {
+      "context_snippet": "Correlation-Guided Query-Dependency Calibration for Video Temporal Grounding",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "text-video-retrieval"
+    },
+    {
+      "context_snippet": "Correlation-Guided Query-Dependency Calibration for Video Temporal Grounding",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "video-grounding"
+    },
+    {
+      "context_snippet": "Correlation-Guided Query-Dependency Calibration for Video Temporal Grounding",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "video-summarization"
+    },
+    {
+      "context_snippet": "Correlation-Guided Query-Dependency Calibration for Video Temporal Grounding",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "video-understanding"
+    }
+  ]
+}

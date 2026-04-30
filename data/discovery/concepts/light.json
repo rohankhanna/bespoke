@@ -31,6 +31,18 @@
       "source_repo": "habamax/vim-habamax",
       "status": "candidate-context",
       "text": "********************************************************************************"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "DayBreak-u/yolo-face-with-landmark",
+      "status": "candidate-context",
+      "text": "yoloface\u5927\u793c\u5305  \u4f7f\u7528pytroch\u5b9e\u73b0\u7684\u57fa\u4e8eyolov3\u7684\u8f7b\u91cf\u7ea7\u4eba\u8138\u68c0\u6d4b\uff08\u5305\u542b\u5173\u952e\u70b9\uff09"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DayBreak-u/yolo-face-with-landmark",
+      "status": "candidate-context",
+      "text": "- \u6dfb\u52a0\u5173\u952e\u70b9\u68c0\u6d4b\u5206\u652f\uff0c\u4f7f\u7528wing loss"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +57,12 @@
       "source_repo": "habamax/vim-habamax",
       "status": "candidate",
       "text": "********************************************************************************"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DayBreak-u/yolo-face-with-landmark",
+      "status": "candidate",
+      "text": "- \u6dfb\u52a0\u5173\u952e\u70b9\u68c0\u6d4b\u5206\u652f\uff0c\u4f7f\u7528wing loss"
     }
   ],
   "candidate_related_terms": [
@@ -136,11 +154,17 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "habamax/vim-habamax"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "DayBreak-u/yolo-face-with-landmark"
     }
   ],
   "first_seen_at": "2026-04-18T18:48:44.679047+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

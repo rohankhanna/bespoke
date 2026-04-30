@@ -1,0 +1,108 @@
+{
+  "aliases": [
+    "gnome"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "2KAbhishek/BWnB",
+      "status": "candidate-context",
+      "text": "Black dominant color scheme for various platforms. \ud83d\udda4\ud83d\udc99"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "2KAbhishek/BWnB",
+      "status": "candidate-context",
+      "text": "<div align = \"center\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "2KAbhishek/BWnB",
+      "status": "candidate",
+      "text": "<div align = \"center\">"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39874738,
+      "status": "candidate",
+      "text": "dwarf"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29944450,
+      "status": "candidate",
+      "text": "troll"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29561948,
+      "status": "candidate",
+      "text": "midget"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29449029,
+      "status": "candidate",
+      "text": "rhone"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20016602,
+      "status": "candidate",
+      "text": "apothegm"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": null,
+      "status": "candidate",
+      "text": "dwarf"
+    }
+  ],
+  "canonical_name": "gnome",
+  "concept_id": "gnome",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "2KAbhishek/BWnB"
+    }
+  ],
+  "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "gnome",
+      "sense_id": "gnome#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

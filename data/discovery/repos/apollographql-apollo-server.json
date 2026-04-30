@@ -723,7 +723,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-24T09:01:17.001253+00:00",
+  "fetched_at": "2026-04-30T04:02:02.375215+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -751,8 +751,8 @@
     "full_name": "apollographql/apollo-server",
     "html_url": "https://github.com/apollographql/apollo-server",
     "language": "TypeScript",
-    "pushed_at": "2026-04-24T00:31:25Z",
-    "stargazers_count": 13935,
+    "pushed_at": "2026-04-29T20:45:47Z",
+    "stargazers_count": 13936,
     "topics": [
       "apollographql",
       "express",
@@ -766,7 +766,7 @@
       "resolvers",
       "restify"
     ],
-    "updated_at": "2026-04-21T20:35:46Z"
+    "updated_at": "2026-04-30T00:43:15Z"
   },
   "repo_links": [],
   "terms": [

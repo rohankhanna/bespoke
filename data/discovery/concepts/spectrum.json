@@ -19,6 +19,18 @@
       "source_repo": "adobe/spectrum-web-components",
       "status": "candidate-context",
       "text": "This is the monorepo for Spectrum Web Components (SWC), a library of [web components](https://developer.mozilla.org/en-US/docs/Web/API/Web_components) implementing Adobe's [Spectrum design system](https://spectrum.adobe.com/)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "r-lyeh/Spectral",
+      "status": "candidate-context",
+      "text": "ZX Spectrum emulator for Windows, Linux and MacOS."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "r-lyeh/Spectral",
+      "status": "candidate-context",
+      "text": "Build"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "adobe/spectrum-web-components",
       "status": "candidate",
       "text": "This is the monorepo for Spectrum Web Components (SWC), a library of [web components](https://developer.mozilla.org/en-US/docs/Web/API/Web_components) implementing Adobe's [Spectrum design system](https://spectrum.adobe.com/)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "r-lyeh/Spectral",
+      "status": "candidate",
+      "text": "Build"
     }
   ],
   "candidate_related_terms": [
@@ -76,11 +94,17 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": null,
       "source_repo": "adobe/spectrum-web-components"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "r-lyeh/Spectral"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

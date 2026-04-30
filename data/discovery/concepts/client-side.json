@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "client-side"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "SenseLogic/PENDOWN",
+      "status": "candidate-context",
+      "text": "Text-to-HTML conversion tool for web writers, with integrated styling and tag customization."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SenseLogic/PENDOWN",
+      "status": "candidate-context",
+      "text": "![](https://github.com/senselogic/PENDOWN/blob/master/LOGO/pendown.png)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SenseLogic/PENDOWN",
+      "status": "candidate",
+      "text": "![](https://github.com/senselogic/PENDOWN/blob/master/LOGO/pendown.png)"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30009689,
+      "status": "candidate",
+      "text": "cust"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29971659,
+      "status": "candidate",
+      "text": "customer"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29968881,
+      "status": "candidate",
+      "text": "client"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29965969,
+      "status": "candidate",
+      "text": "front-end"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20024320,
+      "status": "candidate",
+      "text": "customers"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "client-side",
+  "concept_id": "client-side",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "SenseLogic/PENDOWN"
+    }
+  ],
+  "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "client-side",
+      "sense_id": "client-side#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

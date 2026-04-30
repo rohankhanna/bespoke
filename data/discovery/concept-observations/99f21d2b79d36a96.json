@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "The canonical source for Kubernetes Operators that are published on OperatorHub.io and part of the default catalog of the Operator Lifecycle Manager."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Operator index sha sync"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Operator index sha sync"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 23614,
+      "status": "candidate",
+      "text": "ruddy duck"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21681,
+      "status": "candidate",
+      "text": "trap"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21293,
+      "status": "candidate",
+      "text": "blues"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21217,
+      "status": "candidate",
+      "text": "army"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21217,
+      "status": "candidate",
+      "text": "oriflamme"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Operator index sha sync",
+      "sense_id": "operator-index-sha-sync#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "operator-index-sha-sync",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "operator-index-sha-sync",
+  "observation_id": "99f21d2b79d36a96",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-30T00:37:16.824464+00:00",
+  "observed_text": "Operator index sha sync",
+  "source_context_snippet": "Operator index sha sync",
+  "source_file": ".github/workflows/operator_ci_index_sha.yaml",
+  "source_repo": "k8s-operatorhub/community-operators",
+  "source_repo_description": "The canonical source for Kubernetes Operators that are published on OperatorHub.io and part of the default catalog of the Operator Lifecycle Manager."
+}

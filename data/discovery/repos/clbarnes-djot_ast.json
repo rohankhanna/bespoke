@@ -1,0 +1,45 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "clbarnes/djot_ast",
+      "target": "jgm/djot.js",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T00:51:13.048454+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 759
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 265
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "AST for djot light markup",
+    "fork": false,
+    "full_name": "clbarnes/djot_ast",
+    "html_url": "https://github.com/clbarnes/djot_ast",
+    "language": "Rust",
+    "pushed_at": "2024-10-27T22:28:44Z",
+    "stargazers_count": 2,
+    "topics": [],
+    "updated_at": "2026-04-28T23:11:12Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jgm/djot.js",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

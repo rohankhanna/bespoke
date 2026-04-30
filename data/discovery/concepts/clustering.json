@@ -67,6 +67,42 @@
       "source_repo": "ohler55/agoo",
       "status": "candidate-context",
       "text": "[![Build Status](https://img.shields.io/github/actions/workflow/status/ohler55/agoo/CI.yml?logo=github&branch=develop)](https://github.com/ohler55/agoo/actions/workflows/CI.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rapidsai/raft",
+      "status": "candidate-context",
+      "text": "RAFT contains fundamental widely-used algorithms and primitives for machine learning and information retrieval. The algorithms are CUDA-accelerated and form building blocks for more easily writing high performance applications."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rapidsai/raft",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "scikit-learn-contrib/hdbscan",
+      "status": "candidate-context",
+      "text": "A high performance implementation of HDBSCAN clustering."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "scikit-learn-contrib/hdbscan",
+      "status": "candidate-context",
+      "text": ".. image:: https://img.shields.io/pypi/v/hdbscan.svg"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "unum-cloud/USearch",
+      "status": "candidate-context",
+      "text": "Fast Open-Source Search & Clustering engine \u00d7 for Vectors & Arbitrary Objects \u00d7 in C++, C, Python, JavaScript, Rust, Java, Objective-C, Swift, C#, GoLang, and Wolfram \ud83d\udd0d"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "unum-cloud/USearch",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">USearch</h1>"
     }
   ],
   "candidate_glosses": [
@@ -99,6 +135,24 @@
       "source_repo": "ohler55/agoo",
       "status": "candidate",
       "text": "[![Build Status](https://img.shields.io/github/actions/workflow/status/ohler55/agoo/CI.yml?logo=github&branch=develop)](https://github.com/ohler55/agoo/actions/workflows/CI.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rapidsai/raft",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "scikit-learn-contrib/hdbscan",
+      "status": "candidate",
+      "text": ".. image:: https://img.shields.io/pypi/v/hdbscan.svg"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "unum-cloud/USearch",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">USearch</h1>"
     }
   ],
   "candidate_related_terms": [
@@ -178,11 +232,35 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "logpai/Drain3"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "rapidsai/raft"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "scikit-learn-contrib/hdbscan"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "logpai/Drain3"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "unum-cloud/USearch"
     }
   ],
   "first_seen_at": "2026-04-18T18:30:26.389736+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

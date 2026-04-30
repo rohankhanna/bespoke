@@ -175,6 +175,114 @@
       "source_repo": "2KAbhishek/dots2k",
       "status": "candidate-context",
       "text": "<div align = \"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "trzsz/trzsz",
+      "status": "candidate-context",
+      "text": "trzsz is a simple file transfer tools, similar to lrzsz ( rz / sz ), and compatible with tmux."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "trzsz/trzsz",
+      "status": "candidate-context",
+      "text": "[![MIT License](https://img.shields.io/badge/license-MIT-green.svg?style=flat)](https://choosealicense.com/licenses/mit/)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Morantron/tmux-fingers",
+      "status": "candidate-context",
+      "text": "copy pasting in terminal with vimium/vimperator like hints."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Morantron/tmux-fingers",
+      "status": "candidate-context",
+      "text": "![tmux-fingers](./logo.svg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "schasse/tmux-jump",
+      "status": "candidate-context",
+      "text": "Vimium/Easymotion like navigation for tmux."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "schasse/tmux-jump",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "trzsz/trzsz-go",
+      "status": "candidate-context",
+      "text": "trzsz-go is the go version of trzsz, makes all terminals that support local shell to support trzsz ( trz / tsz )."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "trzsz/trzsz-go",
+      "status": "candidate-context",
+      "text": "[![MIT License](https://img.shields.io/badge/license-MIT-green.svg?style=flat)](https://choosealicense.com/licenses/mit/)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "trzsz/trzsz-ssh",
+      "status": "candidate-context",
+      "text": "trzsz-ssh ( tssh ) is an ssh client designed as a drop-in replacement for the openssh client. It aims to provide complete compatibility with openssh, mirroring all its features, while also offering additional useful features. Such as login prompt, batch login, remember password, automated interaction, trzsz, zmodem(rz/sz), udp mode like mosh, etc."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "trzsz/trzsz-ssh",
+      "status": "candidate-context",
+      "text": "[![MIT License](https://img.shields.io/badge/license-MIT-green.svg?style=flat)](https://choosealicense.com/licenses/mit/)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "trzsz/trzsz.js",
+      "status": "candidate-context",
+      "text": "trzsz.js is the js version of trzsz, makes terminal built with electron and webshell to support trzsz ( trz / tsz )."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "trzsz/trzsz.js",
+      "status": "candidate-context",
+      "text": "[![MIT License](https://img.shields.io/badge/license-MIT-green.svg?style=flat)](https://choosealicense.com/licenses/mit/)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "psmux/Tmux-Plugin-Panel",
+      "status": "candidate-context",
+      "text": "A full-fledged TUI plugin manager for tmux \u2014 the modern alternative to TPM. Browse, install, remove, update plugins and themes from a beautiful terminal interface."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "psmux/Tmux-Plugin-Panel",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "tmux-plugins/tmux-yank",
+      "status": "candidate-context",
+      "text": "Tmux plugin for copying to system clipboard. Works on OSX, Linux and Cygwin."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tmux-plugins/tmux-yank",
+      "status": "candidate-context",
+      "text": "[![Build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pawel-wiejacha/tmux-picker",
+      "status": "candidate-context",
+      "text": "Selecting and copy-pasting in terminal using Vimium-like hint mode."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pawel-wiejacha/tmux-picker",
+      "status": "candidate-context",
+      "text": "**tmux-picker**: Selecting and copy-pasting in terminal using Vimium-like hint mode for tmux."
     }
   ],
   "candidate_glosses": [
@@ -261,6 +369,60 @@
       "source_repo": "2KAbhishek/dots2k",
       "status": "candidate",
       "text": "<div align = \"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "trzsz/trzsz",
+      "status": "candidate",
+      "text": "[![MIT License](https://img.shields.io/badge/license-MIT-green.svg?style=flat)](https://choosealicense.com/licenses/mit/)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Morantron/tmux-fingers",
+      "status": "candidate",
+      "text": "![tmux-fingers](./logo.svg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "schasse/tmux-jump",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "trzsz/trzsz-go",
+      "status": "candidate",
+      "text": "[![MIT License](https://img.shields.io/badge/license-MIT-green.svg?style=flat)](https://choosealicense.com/licenses/mit/)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "trzsz/trzsz-ssh",
+      "status": "candidate",
+      "text": "[![MIT License](https://img.shields.io/badge/license-MIT-green.svg?style=flat)](https://choosealicense.com/licenses/mit/)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "trzsz/trzsz.js",
+      "status": "candidate",
+      "text": "[![MIT License](https://img.shields.io/badge/license-MIT-green.svg?style=flat)](https://choosealicense.com/licenses/mit/)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "psmux/Tmux-Plugin-Panel",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tmux-plugins/tmux-yank",
+      "status": "candidate",
+      "text": "[![Build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pawel-wiejacha/tmux-picker",
+      "status": "candidate",
+      "text": "**tmux-picker**: Selecting and copy-pasting in terminal using Vimium-like hint mode for tmux."
     }
   ],
   "candidate_related_terms": [
@@ -406,11 +568,77 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "2KAbhishek/dots2k"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "andersevenrud/cmp-tmux"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "trzsz/trzsz"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "psmux/psmux"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "Morantron/tmux-fingers"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "schasse/tmux-jump"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "trzsz/trzsz-go"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "trzsz/trzsz-ssh"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "trzsz/trzsz.js"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "psmux/Tmux-Plugin-Panel"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "tmux-plugins/tmux-yank"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "pawel-wiejacha/tmux-picker"
     }
   ],
   "first_seen_at": "2026-04-19T17:36:09.281008+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

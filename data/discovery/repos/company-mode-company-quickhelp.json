@@ -1,0 +1,65 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "company-mode/company-quickhelp",
+      "target": "auto-complete/auto-complete",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "company-mode/company-quickhelp",
+      "target": "auto-complete/popup-el",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "company-mode/company-quickhelp",
+      "target": "pitkali/pos-tip",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T00:38:54.320115+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2564
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Documentation popup for Company",
+    "fork": false,
+    "full_name": "company-mode/company-quickhelp",
+    "html_url": "https://github.com/company-mode/company-quickhelp",
+    "language": "Emacs Lisp",
+    "pushed_at": "2023-10-26T17:14:41Z",
+    "stargazers_count": 380,
+    "topics": [],
+    "updated_at": "2026-02-19T08:46:44Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "auto-complete/auto-complete",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "auto-complete/popup-el",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "pitkali/pos-tip",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

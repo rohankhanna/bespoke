@@ -19,6 +19,18 @@
       "source_repo": "jin-s13/xtcocoapi",
       "status": "candidate-context",
       "text": "[2023.10.19] Release xtcocotools v1.14.3. Support python3.7~3.11 on Linux, mac and windows systems."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "endernewton/tf-faster-rcnn",
+      "status": "candidate-context",
+      "text": "Tensorflow Faster RCNN for Object Detection"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "endernewton/tf-faster-rcnn",
+      "status": "candidate-context",
+      "text": "For a good and more up-to-date implementation for faster/mask RCNN with multi-gpu support, please see the example in TensorPack [here](https://github.com/tensorpack/tensorpack/tree/master/examples/FasterRCNN)."
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "jin-s13/xtcocoapi",
       "status": "candidate",
       "text": "[2023.10.19] Release xtcocotools v1.14.3. Support python3.7~3.11 on Linux, mac and windows systems."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "endernewton/tf-faster-rcnn",
+      "status": "candidate",
+      "text": "For a good and more up-to-date implementation for faster/mask RCNN with multi-gpu support, please see the example in TensorPack [here](https://github.com/tensorpack/tensorpack/tree/master/examples/FasterRCNN)."
     }
   ],
   "candidate_related_terms": [
@@ -112,11 +130,17 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "jin-s13/xtcocoapi"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "endernewton/tf-faster-rcnn"
     }
   ],
   "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,71 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "lyuwenyu/RT-DETR",
+      "target": "rt-detrs/rt-detrv4",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lyuwenyu/RT-DETR",
+      "target": "rtdetr",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lyuwenyu/RT-DETR",
+      "target": "rtdetrv2",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T03:47:42.400521+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7966
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "[CVPR 2024] Official RT-DETR (RTDETR paddle pytorch), Real-Time DEtection TRansformer, DETRs Beat YOLOs on Real-time Object Detection. \ud83d\udd25 \ud83d\udd25 \ud83d\udd25 ",
+    "fork": false,
+    "full_name": "lyuwenyu/RT-DETR",
+    "html_url": "https://github.com/lyuwenyu/RT-DETR",
+    "language": "Python",
+    "pushed_at": "2026-03-02T03:35:59Z",
+    "stargazers_count": 5145,
+    "topics": [
+      "rtdetr",
+      "rtdetrv2"
+    ],
+    "updated_at": "2026-04-29T11:16:56Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "rt-detrs/rt-detrv4",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "English | [\u7b80\u4f53\u4e2d\u6587](README_cn.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rtdetr"
+    },
+    {
+      "context_snippet": "English | [\u7b80\u4f53\u4e2d\u6587](README_cn.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rtdetrv2"
+    }
+  ]
+}

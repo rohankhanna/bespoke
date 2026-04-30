@@ -1,0 +1,87 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Tiiiger/bert_score",
+      "target": "google-research/electra",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Tiiiger/bert_score",
+      "target": "pytorch/fairseq",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Tiiiger/bert_score",
+      "target": "machine-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Tiiiger/bert_score",
+      "target": "natural-language-processing",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T02:01:44.254639+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 14654
+    },
+    {
+      "path": "requirements.txt",
+      "size": 165
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "BERT score for text generation",
+    "fork": false,
+    "full_name": "Tiiiger/bert_score",
+    "html_url": "https://github.com/Tiiiger/bert_score",
+    "language": "Jupyter Notebook",
+    "pushed_at": "2024-07-30T09:41:28Z",
+    "stargazers_count": 1891,
+    "topics": [
+      "machine-learning",
+      "natural-language-processing"
+    ],
+    "updated_at": "2026-04-28T10:59:50Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "google-research/electra",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "pytorch/fairseq",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[![made-with-python](https://img.shields.io/badge/Made%20with-Python-red.svg)](#python)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "machine-learning"
+    },
+    {
+      "context_snippet": "[![made-with-python](https://img.shields.io/badge/Made%20with-Python-red.svg)](#python)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "natural-language-processing"
+    }
+  ]
+}

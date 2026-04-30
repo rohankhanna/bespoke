@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T01:43:50.535658+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 10263
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Redis OM Spring Skeleton App",
+    "fork": false,
+    "full_name": "redis-developer/redis-om-spring-skeleton-app",
+    "html_url": "https://github.com/redis-developer/redis-om-spring-skeleton-app",
+    "language": "Java",
+    "pushed_at": "2023-07-27T15:07:20Z",
+    "stargazers_count": 12,
+    "topics": [],
+    "updated_at": "2025-07-22T04:48:09Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

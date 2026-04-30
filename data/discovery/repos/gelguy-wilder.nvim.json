@@ -1,0 +1,122 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "gelguy/wilder.nvim",
+      "target": "nixprime/cpsm",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "gelguy/wilder.nvim",
+      "target": "kyazdani42/nvim-web-devicons",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "gelguy/wilder.nvim",
+      "target": "lambdalisue/nerdfont.vim",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "gelguy/wilder.nvim",
+      "target": "raghur/fruzzy",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gelguy/wilder.nvim",
+      "target": "neovim",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gelguy/wilder.nvim",
+      "target": "neovim-plugin",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gelguy/wilder.nvim",
+      "target": "vim-plugin",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T04:07:43.367490+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 37968
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A more adventurous wildmenu",
+    "fork": false,
+    "full_name": "gelguy/wilder.nvim",
+    "html_url": "https://github.com/gelguy/wilder.nvim",
+    "language": "Vim script",
+    "pushed_at": "2024-07-17T10:48:20Z",
+    "stargazers_count": 1474,
+    "topics": [
+      "neovim",
+      "neovim-plugin",
+      "vim",
+      "vim-plugin"
+    ],
+    "updated_at": "2026-04-27T16:23:04Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "kyazdani42/nvim-web-devicons",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "lambdalisue/nerdfont.vim",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "nixprime/cpsm",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "raghur/fruzzy",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "`wilder.nvim` adds new features and capabilities to `wildmenu`.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "neovim"
+    },
+    {
+      "context_snippet": "`wilder.nvim` adds new features and capabilities to `wildmenu`.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "neovim-plugin"
+    },
+    {
+      "context_snippet": "`wilder.nvim` adds new features and capabilities to `wildmenu`.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vim-plugin"
+    }
+  ]
+}

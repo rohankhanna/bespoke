@@ -175,6 +175,66 @@
       "source_repo": "DOI-USGS/ncdfgeom",
       "status": "candidate-context",
       "text": "R-CMD-check"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nx10/unigd",
+      "status": "candidate-context",
+      "text": "Unified graphics device"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nx10/unigd",
+      "status": "candidate-context",
+      "text": "R-CMD-check"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "r-lib/covr",
+      "status": "candidate-context",
+      "text": "Test coverage reports for R"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "r-lib/covr",
+      "status": "candidate-context",
+      "text": "R-CMD-check"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "plotly/plotly.R",
+      "status": "candidate-context",
+      "text": "An interactive graphing library for R"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "plotly/plotly.R",
+      "status": "candidate-context",
+      "text": "R-CMD-check"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "r-lib/remotes",
+      "status": "candidate-context",
+      "text": "Install R packages from GitHub, GitLab, Bitbucket, git, svn repositories, URLs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "r-lib/remotes",
+      "status": "candidate-context",
+      "text": "R-CMD-check"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dcnorris/precautionary",
+      "status": "candidate-context",
+      "text": "Patient-centered safety diagnostics for oncology dose-escalation trials, examining design safety in light of inter-individual variation in PKPD."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dcnorris/precautionary",
+      "status": "candidate-context",
+      "text": "R-CMD-check"
     }
   ],
   "candidate_glosses": [
@@ -259,6 +319,36 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "DOI-USGS/ncdfgeom",
+      "status": "candidate",
+      "text": "R-CMD-check"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nx10/unigd",
+      "status": "candidate",
+      "text": "R-CMD-check"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "r-lib/covr",
+      "status": "candidate",
+      "text": "R-CMD-check"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "plotly/plotly.R",
+      "status": "candidate",
+      "text": "R-CMD-check"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "r-lib/remotes",
+      "status": "candidate",
+      "text": "R-CMD-check"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dcnorris/precautionary",
       "status": "candidate",
       "text": "R-CMD-check"
     }
@@ -352,11 +442,47 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": ".github/workflows/R-CMD-check.yml",
       "source_repo": "DOI-USGS/ncdfgeom"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/R-CMD-check.yaml",
+      "source_repo": "nx10/unigd"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/R-CMD-check.yml",
+      "source_repo": "appelmar/gdalcubes"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/R-CMD-check.yaml",
+      "source_repo": "r-lib/covr"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/R-CMD-check.yaml",
+      "source_repo": "plotly/plotly.R"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/R-CMD-check.yaml",
+      "source_repo": "r-lib/remotes"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/R-CMD-check.yaml",
+      "source_repo": "dcnorris/precautionary"
     }
   ],
   "first_seen_at": "2026-04-21T18:51:25.552552+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

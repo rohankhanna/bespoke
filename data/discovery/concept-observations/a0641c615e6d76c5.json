@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Command line tool for the Mermaid library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Upload to Percy"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Upload to Percy"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10482,
+      "status": "candidate",
+      "text": "fork"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10482,
+      "status": "candidate",
+      "text": "forking"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10438,
+      "status": "candidate",
+      "text": "passing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10438,
+      "status": "candidate",
+      "text": "sledge"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10423,
+      "status": "candidate",
+      "text": "bere"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Upload to Percy",
+      "sense_id": "upload-to-percy#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "upload-to-percy",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "upload-to-percy",
+  "observation_id": "a0641c615e6d76c5",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-30T00:37:16.824464+00:00",
+  "observed_text": "Upload to Percy",
+  "source_context_snippet": "Upload to Percy",
+  "source_file": ".github/workflows/upload-percy.yml",
+  "source_repo": "mermaid-js/mermaid-cli",
+  "source_repo_description": "Command line tool for the Mermaid library"
+}

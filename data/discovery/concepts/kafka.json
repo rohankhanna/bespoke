@@ -43,6 +43,138 @@
       "source_repo": "confluentinc/librdkafka",
       "status": "candidate-context",
       "text": "librdkafka - the Apache Kafka\u00ae C/C++ client library"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "confluentinc/cp-all-in-one",
+      "status": "candidate-context",
+      "text": "docker-compose.yml files for cp-all-in-one , cp-all-in-one-community, cp-all-in-one-cloud, Apache Kafka Confluent Platform"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "confluentinc/cp-all-in-one",
+      "status": "candidate-context",
+      "text": "![image](images/confluent-logo-300-2.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "confluentinc/cp-demo",
+      "status": "candidate-context",
+      "text": "Confluent Platform Demo including Apache Kafka, ksqlDB, Control Center, Schema Registry, Security, Schema Linking, and Cluster Linking"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "confluentinc/cp-demo",
+      "status": "candidate-context",
+      "text": "[![Try Confluent Cloud - The Data Streaming Platform](https://images.ctfassets.net/8vofjvai1hpv/10bgcSfn5MzmvS4nNqr94J/af43dd2336e3f9e0c0ca4feef4398f6f/confluent-banner-v2.svg)](https://confluent.cloud/signup?utm_source=github&utm_medium=banner&utm_campaign=oss-repos&utm_term=cp\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "confluentinc/demo-scene",
+      "status": "candidate-context",
+      "text": "Scripts and samples to support Confluent Demos, Talks, and Blogs. Not all of the examples in this repository are kept up to date. For automated tutorials and QA'd code, see https://github.com/confluentinc/tutorials/"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "confluentinc/demo-scene",
+      "status": "candidate-context",
+      "text": "[![Try Confluent Cloud - The Data Streaming Platform](https://images.ctfassets.net/8vofjvai1hpv/10bgcSfn5MzmvS4nNqr94J/af43dd2336e3f9e0c0ca4feef4398f6f/confluent-banner-v2.svg)](https://confluent.cloud/signup?utm_source=github&utm_medium=banner&utm_campaign=oss-repos&utm_term=de\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "karafka/rdkafka-ruby",
+      "status": "candidate-context",
+      "text": "Modern and performant Kafka client library for Ruby based on librdkafka"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "karafka/rdkafka-ruby",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://github.com/karafka/rdkafka-ruby/actions/workflows/ci_linux_ubuntu_x86_64_gnu.yml/badge.svg)](https://github.com/karafka/rdkafka-ruby/actions/workflows/ci_linux_x86_64_gnu.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Blizzard/node-rdkafka",
+      "status": "candidate-context",
+      "text": "Node.js bindings for librdkafka"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Blizzard/node-rdkafka",
+      "status": "candidate-context",
+      "text": "node-rdkafka - Node.js wrapper for Kafka C/C++ library"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apache/kafka",
+      "status": "candidate-context",
+      "text": "Apache Kafka - A distributed event streaming platform"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/kafka",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "confluentinc/schema-registry",
+      "status": "candidate-context",
+      "text": "Confluent Schema Registry for Kafka"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "confluentinc/schema-registry",
+      "status": "candidate-context",
+      "text": "Schema Registry"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "karafka/karafka",
+      "status": "candidate-context",
+      "text": "Ruby and Rails efficient Kafka processing framework"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "karafka/karafka",
+      "status": "candidate-context",
+      "text": "![karafka logo](https://karafka.io/assets/misc/logo/karafka_logotype_transparent2.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "karafka/waterdrop",
+      "status": "candidate-context",
+      "text": "Standalone Karafka library for producing Kafka messages"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "karafka/waterdrop",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://github.com/karafka/waterdrop/workflows/ci/badge.svg)](https://github.com/karafka/waterdrop/actions?query=workflow%3Aci)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "zendesk/racecar",
+      "status": "candidate-context",
+      "text": "Racecar: a simple framework for Kafka consumers in Ruby"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "zendesk/racecar",
+      "status": "candidate-context",
+      "text": "Racecar is a friendly and easy-to-approach Kafka consumer framework. It allows you to write small applications that process messages stored in Kafka topics while optionally integrating with your Rails models."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "php-rdkafka/php-rdkafka",
+      "status": "candidate-context",
+      "text": "Production-ready, stable Kafka client for PHP"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "php-rdkafka/php-rdkafka",
+      "status": "candidate-context",
+      "text": "[![Join the chat at https://gitter.im/arnaud-lb/php-rdkafka](https://badges.gitter.im/arnaud-lb/php-rdkafka.svg)](https://gitter.im/arnaud-lb/php-rdkafka?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +195,72 @@
       "source_repo": "confluentinc/librdkafka",
       "status": "candidate",
       "text": "librdkafka - the Apache Kafka\u00ae C/C++ client library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "confluentinc/cp-all-in-one",
+      "status": "candidate",
+      "text": "![image](images/confluent-logo-300-2.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "confluentinc/cp-demo",
+      "status": "candidate",
+      "text": "[![Try Confluent Cloud - The Data Streaming Platform](https://images.ctfassets.net/8vofjvai1hpv/10bgcSfn5MzmvS4nNqr94J/af43dd2336e3f9e0c0ca4feef4398f6f/confluent-banner-v2.svg)](https://confluent.cloud/signup?utm_source=github&utm_medium=banner&utm_campaign=oss-repos&utm_term=cp\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "confluentinc/demo-scene",
+      "status": "candidate",
+      "text": "[![Try Confluent Cloud - The Data Streaming Platform](https://images.ctfassets.net/8vofjvai1hpv/10bgcSfn5MzmvS4nNqr94J/af43dd2336e3f9e0c0ca4feef4398f6f/confluent-banner-v2.svg)](https://confluent.cloud/signup?utm_source=github&utm_medium=banner&utm_campaign=oss-repos&utm_term=de\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "karafka/rdkafka-ruby",
+      "status": "candidate",
+      "text": "[![Build Status](https://github.com/karafka/rdkafka-ruby/actions/workflows/ci_linux_ubuntu_x86_64_gnu.yml/badge.svg)](https://github.com/karafka/rdkafka-ruby/actions/workflows/ci_linux_x86_64_gnu.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Blizzard/node-rdkafka",
+      "status": "candidate",
+      "text": "node-rdkafka - Node.js wrapper for Kafka C/C++ library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/kafka",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "confluentinc/schema-registry",
+      "status": "candidate",
+      "text": "Schema Registry"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "karafka/karafka",
+      "status": "candidate",
+      "text": "![karafka logo](https://karafka.io/assets/misc/logo/karafka_logotype_transparent2.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "karafka/waterdrop",
+      "status": "candidate",
+      "text": "[![Build Status](https://github.com/karafka/waterdrop/workflows/ci/badge.svg)](https://github.com/karafka/waterdrop/actions?query=workflow%3Aci)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "zendesk/racecar",
+      "status": "candidate",
+      "text": "Racecar is a friendly and easy-to-approach Kafka consumer framework. It allows you to write small applications that process messages stored in Kafka topics while optionally integrating with your Rails models."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "php-rdkafka/php-rdkafka",
+      "status": "candidate",
+      "text": "[![Join the chat at https://gitter.im/arnaud-lb/php-rdkafka](https://badges.gitter.im/arnaud-lb/php-rdkafka.svg)](https://gitter.im/arnaud-lb/php-rdkafka?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)"
     }
   ],
   "candidate_related_terms": [
@@ -132,11 +330,83 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "confluentinc/librdkafka"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "confluentinc/cp-all-in-one"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "confluentinc/cp-demo"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "confluentinc/demo-scene"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "karafka/rdkafka-ruby"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "Blizzard/node-rdkafka"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "apache/kafka"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "confluentinc/schema-registry"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "karafka/karafka"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "karafka/waterdrop"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "zendesk/racecar"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "php-rdkafka/php-rdkafka"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "confluentinc/librdkafka"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

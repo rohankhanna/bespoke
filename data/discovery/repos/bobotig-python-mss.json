@@ -1,0 +1,292 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "pypa/gh-action-pypi-publish@release/v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "BoboTiG/python-mss",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "BoboTiG/python-mss",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "BoboTiG/python-mss",
+      "target": "pypa/gh-action-pypi-publish@release/v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "BoboTiG/python-mss",
+      "target": "Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "BoboTiG/python-mss",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "BoboTiG/python-mss",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "BoboTiG/python-mss",
+      "target": "Tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "BoboTiG/python-mss",
+      "target": "cross-platform",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "BoboTiG/python-mss",
+      "target": "ctypes",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "BoboTiG/python-mss",
+      "target": "efficiency",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "BoboTiG/python-mss",
+      "target": "gnu-linux",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "BoboTiG/python-mss",
+      "target": "macos",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "BoboTiG/python-mss",
+      "target": "monitor",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "BoboTiG/python-mss",
+      "target": "python-library",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "BoboTiG/python-mss",
+      "target": "python-mss",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "BoboTiG/python-mss",
+      "target": "screenshot",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "BoboTiG/python-mss",
+      "target": "windows",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T04:00:55.642077+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2391
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 5218
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "size": 848
+    },
+    {
+      "path": ".github/workflows/tests.yml",
+      "size": 2742
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "An ultra fast cross-platform multiple screenshots module in pure Python using ctypes.",
+    "fork": false,
+    "full_name": "BoboTiG/python-mss",
+    "html_url": "https://github.com/BoboTiG/python-mss",
+    "language": "Python",
+    "pushed_at": "2026-04-29T12:57:56Z",
+    "stargazers_count": 1258,
+    "topics": [
+      "cli",
+      "cross-platform",
+      "ctypes",
+      "efficiency",
+      "gnu-linux",
+      "macos",
+      "monitor",
+      "mss",
+      "python",
+      "python-library",
+      "python-mss",
+      "screenshot",
+      "windows"
+    ],
+    "updated_at": "2026-04-29T12:58:01Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "term": "Release"
+    },
+    {
+      "context_snippet": "Tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/tests.yml",
+      "term": "Tests"
+    },
+    {
+      "context_snippet": "[![PyPI version](https://badge.fury.io/py/mss.svg)](https://badge.fury.io/py/mss)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cross-platform"
+    },
+    {
+      "context_snippet": "[![PyPI version](https://badge.fury.io/py/mss.svg)](https://badge.fury.io/py/mss)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ctypes"
+    },
+    {
+      "context_snippet": "[![PyPI version](https://badge.fury.io/py/mss.svg)](https://badge.fury.io/py/mss)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "efficiency"
+    },
+    {
+      "context_snippet": "[![PyPI version](https://badge.fury.io/py/mss.svg)](https://badge.fury.io/py/mss)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gnu-linux"
+    },
+    {
+      "context_snippet": "[![PyPI version](https://badge.fury.io/py/mss.svg)](https://badge.fury.io/py/mss)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "macos"
+    },
+    {
+      "context_snippet": "[![PyPI version](https://badge.fury.io/py/mss.svg)](https://badge.fury.io/py/mss)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "monitor"
+    },
+    {
+      "context_snippet": "[![PyPI version](https://badge.fury.io/py/mss.svg)](https://badge.fury.io/py/mss)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "python-library"
+    },
+    {
+      "context_snippet": "[![PyPI version](https://badge.fury.io/py/mss.svg)](https://badge.fury.io/py/mss)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "python-mss"
+    },
+    {
+      "context_snippet": "[![PyPI version](https://badge.fury.io/py/mss.svg)](https://badge.fury.io/py/mss)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "screenshot"
+    },
+    {
+      "context_snippet": "[![PyPI version](https://badge.fury.io/py/mss.svg)](https://badge.fury.io/py/mss)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "windows"
+    }
+  ]
+}

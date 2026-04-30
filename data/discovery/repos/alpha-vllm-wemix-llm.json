@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Alpha-VLLM/WeMix-LLM",
+      "target": "facebookresearch/llama",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T05:15:20.799933+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3939
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "Alpha-VLLM/WeMix-LLM",
+    "html_url": "https://github.com/Alpha-VLLM/WeMix-LLM",
+    "language": null,
+    "pushed_at": "2023-10-15T16:29:56Z",
+    "stargazers_count": 17,
+    "topics": [],
+    "updated_at": "2024-02-23T05:13:38Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "facebookresearch/llama",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

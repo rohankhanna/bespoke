@@ -33,6 +33,18 @@
       "source_repo": "mrcjkb/vimcats",
       "status": "candidate-context",
       "text": "<h1 align=\"center\">:cat2: vimCATS :book:</h1>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kdheepak/tabline.nvim",
+      "status": "candidate-context",
+      "text": "A \"buffer and tab\" tabline for neovim"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kdheepak/tabline.nvim",
+      "status": "candidate-context",
+      "text": "vimdoc"
     }
   ],
   "candidate_glosses": [
@@ -47,6 +59,12 @@
       "source_repo": "mrcjkb/vimcats",
       "status": "candidate",
       "text": "<h1 align=\"center\">:cat2: vimCATS :book:</h1>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kdheepak/tabline.nvim",
+      "status": "candidate",
+      "text": "vimdoc"
     }
   ],
   "candidate_related_terms": [],
@@ -66,11 +84,17 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "mrcjkb/vimcats"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "kdheepak/tabline.nvim"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,886 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ai-daily-tests.yml"
+    },
+    {
+      "component": "actions/setup-java@be666c2fcd27ec809703dec50e508c2fdc7f6654",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ai-daily-tests.yml"
+    },
+    {
+      "component": "gradle/actions/setup-gradle@0723195856401067f7a2779048b490ace7a47d7c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ai-daily-tests.yml"
+    },
+    {
+      "component": "google-github-actions/auth@7c6bc770dae815cd3e89ee6cdf493a5fab2cc093",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ai-daily-tests.yml"
+    },
+    {
+      "component": "google-github-actions/setup-gcloud@aa5489c8933f4cc7a4f7d45035b3b1440c9c10db",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ai-daily-tests.yml"
+    },
+    {
+      "component": "reactivecircus/android-emulator-runner@62dbb605bba737720e10b196cb4220d374026a6d",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ai-daily-tests.yml"
+    },
+    {
+      "component": "actions/upload-artifact@4cec3d8aa04e39d1a68397de0c4cd6fb9dce8ec1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ai-daily-tests.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/api-information.yml"
+    },
+    {
+      "component": "actions/setup-java@be666c2fcd27ec809703dec50e508c2fdc7f6654",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/api-information.yml"
+    },
+    {
+      "component": "gradle/actions/setup-gradle@0723195856401067f7a2779048b490ace7a47d7c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/api-information.yml"
+    },
+    {
+      "component": "actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/api-information.yml"
+    },
+    {
+      "component": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/app-distribution-gradle-compatibility-tests.yml"
+    },
+    {
+      "component": "actions/setup-java@3a4f6e1af504cf6a31855fa899c6aa5355ba6c12",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/app-distribution-gradle-compatibility-tests.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/app-distribution-gradle-compatibility-tests.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-release-artifacts.yml"
+    },
+    {
+      "component": "actions/setup-java@be666c2fcd27ec809703dec50e508c2fdc7f6654",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-release-artifacts.yml"
+    },
+    {
+      "component": "gradle/actions/setup-gradle@0723195856401067f7a2779048b490ace7a47d7c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-release-artifacts.yml"
+    },
+    {
+      "component": "google-github-actions/auth@7c6bc770dae815cd3e89ee6cdf493a5fab2cc093",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-release-artifacts.yml"
+    },
+    {
+      "component": "google-github-actions/setup-gcloud@aa5489c8933f4cc7a4f7d45035b3b1440c9c10db",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-release-artifacts.yml"
+    },
+    {
+      "component": "actions/upload-artifact@4cec3d8aa04e39d1a68397de0c4cd6fb9dce8ec1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-release-artifacts.yml"
+    },
+    {
+      "component": "actions/upload-artifact@4cec3d8aa04e39d1a68397de0c4cd6fb9dce8ec1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-release-artifacts.yml"
+    },
+    {
+      "component": "actions/upload-artifact@4cec3d8aa04e39d1a68397de0c4cd6fb9dce8ec1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-release-artifacts.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/changelog.yml"
+    },
+    {
+      "component": "ruby/setup-ruby@0481980f17b760ef6bca5e8c55809102a0af1e5a",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/changelog.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-firebaseai-responses.yml"
+    },
+    {
+      "component": "peter-evans/find-comment@3eae4d37986fb5a8592848f6a574fdf654e61f9e",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-firebaseai-responses.yml"
+    },
+    {
+      "component": "peter-evans/create-or-update-comment@71345be0265236311c031f5c7866368bd1eff043",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-firebaseai-responses.yml"
+    },
+    {
+      "component": "detomarco/delete-comment@dd37d1026c669ebfb0ffa5d23890010759ff05d5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-firebaseai-responses.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-head-dependencies.yml"
+    },
+    {
+      "component": "actions/setup-java@be666c2fcd27ec809703dec50e508c2fdc7f6654",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-head-dependencies.yml"
+    },
+    {
+      "component": "gradle/actions/setup-gradle@0723195856401067f7a2779048b490ace7a47d7c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-head-dependencies.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check_format.yml"
+    },
+    {
+      "component": "actions/setup-java@be666c2fcd27ec809703dec50e508c2fdc7f6654",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check_format.yml"
+    },
+    {
+      "component": "gradle/actions/setup-gradle@0723195856401067f7a2779048b490ace7a47d7c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check_format.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_tests.yml"
+    },
+    {
+      "component": "actions/setup-java@be666c2fcd27ec809703dec50e508c2fdc7f6654",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_tests.yml"
+    },
+    {
+      "component": "gradle/actions/setup-gradle@0723195856401067f7a2779048b490ace7a47d7c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_tests.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_tests.yml"
+    },
+    {
+      "component": "actions/setup-java@be666c2fcd27ec809703dec50e508c2fdc7f6654",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_tests.yml"
+    },
+    {
+      "component": "gradle/actions/setup-gradle@0723195856401067f7a2779048b490ace7a47d7c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_tests.yml"
+    },
+    {
+      "component": "actions/upload-artifact@4cec3d8aa04e39d1a68397de0c4cd6fb9dce8ec1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_tests.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_tests.yml"
+    },
+    {
+      "component": "actions/setup-java@be666c2fcd27ec809703dec50e508c2fdc7f6654",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_tests.yml"
+    },
+    {
+      "component": "gradle/actions/setup-gradle@0723195856401067f7a2779048b490ace7a47d7c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_tests.yml"
+    },
+    {
+      "component": "google-github-actions/auth@7c6bc770dae815cd3e89ee6cdf493a5fab2cc093",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_tests.yml"
+    },
+    {
+      "component": "google-github-actions/setup-gcloud@aa5489c8933f4cc7a4f7d45035b3b1440c9c10db",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_tests.yml"
+    },
+    {
+      "component": "actions/download-artifact@95815c38cf2ff2164869cbab79da8d1f422bc89e",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_tests.yml"
+    },
+    {
+      "component": "EnricoMi/publish-unit-test-result-action@170bf24d20d201b842d7a52403b73ed297e6645b",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_tests.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ai-daily-tests.yml",
+      "source_repo": "firebase/firebase-android-sdk",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ai-daily-tests.yml",
+      "source_repo": "firebase/firebase-android-sdk",
+      "target": "actions/setup-java@be666c2fcd27ec809703dec50e508c2fdc7f6654",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ai-daily-tests.yml",
+      "source_repo": "firebase/firebase-android-sdk",
+      "target": "gradle/actions/setup-gradle@0723195856401067f7a2779048b490ace7a47d7c",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ai-daily-tests.yml",
+      "source_repo": "firebase/firebase-android-sdk",
+      "target": "google-github-actions/auth@7c6bc770dae815cd3e89ee6cdf493a5fab2cc093",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ai-daily-tests.yml",
+      "source_repo": "firebase/firebase-android-sdk",
+      "target": "google-github-actions/setup-gcloud@aa5489c8933f4cc7a4f7d45035b3b1440c9c10db",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ai-daily-tests.yml",
+      "source_repo": "firebase/firebase-android-sdk",
+      "target": "reactivecircus/android-emulator-runner@62dbb605bba737720e10b196cb4220d374026a6d",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ai-daily-tests.yml",
+      "source_repo": "firebase/firebase-android-sdk",
+      "target": "actions/upload-artifact@4cec3d8aa04e39d1a68397de0c4cd6fb9dce8ec1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ai-daily-tests.yml",
+      "source_repo": "firebase/firebase-android-sdk",
+      "target": "Firebase AI Daily Tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/api-information.yml",
+      "source_repo": "firebase/firebase-android-sdk",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/api-information.yml",
+      "source_repo": "firebase/firebase-android-sdk",
+      "target": "actions/setup-java@be666c2fcd27ec809703dec50e508c2fdc7f6654",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/api-information.yml",
+      "source_repo": "firebase/firebase-android-sdk",
+      "target": "gradle/actions/setup-gradle@0723195856401067f7a2779048b490ace7a47d7c",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/api-information.yml",
+      "source_repo": "firebase/firebase-android-sdk",
+      "target": "actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/api-information.yml",
+      "source_repo": "firebase/firebase-android-sdk",
+      "target": "API Information",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/app-distribution-gradle-compatibility-tests.yml",
+      "source_repo": "firebase/firebase-android-sdk",
+      "target": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/app-distribution-gradle-compatibility-tests.yml",
+      "source_repo": "firebase/firebase-android-sdk",
+      "target": "actions/setup-java@3a4f6e1af504cf6a31855fa899c6aa5355ba6c12",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/app-distribution-gradle-compatibility-tests.yml",
+      "source_repo": "firebase/firebase-android-sdk",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/app-distribution-gradle-compatibility-tests.yml",
+      "source_repo": "firebase/firebase-android-sdk",
+      "target": "App Distribution Gradle Compatibility Tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-release-artifacts.yml",
+      "source_repo": "firebase/firebase-android-sdk",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-release-artifacts.yml",
+      "source_repo": "firebase/firebase-android-sdk",
+      "target": "actions/setup-java@be666c2fcd27ec809703dec50e508c2fdc7f6654",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-release-artifacts.yml",
+      "source_repo": "firebase/firebase-android-sdk",
+      "target": "gradle/actions/setup-gradle@0723195856401067f7a2779048b490ace7a47d7c",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-release-artifacts.yml",
+      "source_repo": "firebase/firebase-android-sdk",
+      "target": "google-github-actions/auth@7c6bc770dae815cd3e89ee6cdf493a5fab2cc093",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-release-artifacts.yml",
+      "source_repo": "firebase/firebase-android-sdk",
+      "target": "google-github-actions/setup-gcloud@aa5489c8933f4cc7a4f7d45035b3b1440c9c10db",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-release-artifacts.yml",
+      "source_repo": "firebase/firebase-android-sdk",
+      "target": "actions/upload-artifact@4cec3d8aa04e39d1a68397de0c4cd6fb9dce8ec1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-release-artifacts.yml",
+      "source_repo": "firebase/firebase-android-sdk",
+      "target": "Build Release Artifacts",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/changelog.yml",
+      "source_repo": "firebase/firebase-android-sdk",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/changelog.yml",
+      "source_repo": "firebase/firebase-android-sdk",
+      "target": "ruby/setup-ruby@0481980f17b760ef6bca5e8c55809102a0af1e5a",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/changelog.yml",
+      "source_repo": "firebase/firebase-android-sdk",
+      "target": "Verify changelog update",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-firebaseai-responses.yml",
+      "source_repo": "firebase/firebase-android-sdk",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-firebaseai-responses.yml",
+      "source_repo": "firebase/firebase-android-sdk",
+      "target": "peter-evans/find-comment@3eae4d37986fb5a8592848f6a574fdf654e61f9e",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-firebaseai-responses.yml",
+      "source_repo": "firebase/firebase-android-sdk",
+      "target": "peter-evans/create-or-update-comment@71345be0265236311c031f5c7866368bd1eff043",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-firebaseai-responses.yml",
+      "source_repo": "firebase/firebase-android-sdk",
+      "target": "detomarco/delete-comment@dd37d1026c669ebfb0ffa5d23890010759ff05d5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check-firebaseai-responses.yml",
+      "source_repo": "firebase/firebase-android-sdk",
+      "target": "Check Firebase AI Responses",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-head-dependencies.yml",
+      "source_repo": "firebase/firebase-android-sdk",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-head-dependencies.yml",
+      "source_repo": "firebase/firebase-android-sdk",
+      "target": "actions/setup-java@be666c2fcd27ec809703dec50e508c2fdc7f6654",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-head-dependencies.yml",
+      "source_repo": "firebase/firebase-android-sdk",
+      "target": "gradle/actions/setup-gradle@0723195856401067f7a2779048b490ace7a47d7c",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check-head-dependencies.yml",
+      "source_repo": "firebase/firebase-android-sdk",
+      "target": "Check Head Dependencies",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check_format.yml",
+      "source_repo": "firebase/firebase-android-sdk",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check_format.yml",
+      "source_repo": "firebase/firebase-android-sdk",
+      "target": "actions/setup-java@be666c2fcd27ec809703dec50e508c2fdc7f6654",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check_format.yml",
+      "source_repo": "firebase/firebase-android-sdk",
+      "target": "gradle/actions/setup-gradle@0723195856401067f7a2779048b490ace7a47d7c",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check_format.yml",
+      "source_repo": "firebase/firebase-android-sdk",
+      "target": "Check Format",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_tests.yml",
+      "source_repo": "firebase/firebase-android-sdk",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_tests.yml",
+      "source_repo": "firebase/firebase-android-sdk",
+      "target": "actions/setup-java@be666c2fcd27ec809703dec50e508c2fdc7f6654",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_tests.yml",
+      "source_repo": "firebase/firebase-android-sdk",
+      "target": "gradle/actions/setup-gradle@0723195856401067f7a2779048b490ace7a47d7c",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_tests.yml",
+      "source_repo": "firebase/firebase-android-sdk",
+      "target": "actions/upload-artifact@4cec3d8aa04e39d1a68397de0c4cd6fb9dce8ec1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_tests.yml",
+      "source_repo": "firebase/firebase-android-sdk",
+      "target": "google-github-actions/auth@7c6bc770dae815cd3e89ee6cdf493a5fab2cc093",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_tests.yml",
+      "source_repo": "firebase/firebase-android-sdk",
+      "target": "google-github-actions/setup-gcloud@aa5489c8933f4cc7a4f7d45035b3b1440c9c10db",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_tests.yml",
+      "source_repo": "firebase/firebase-android-sdk",
+      "target": "actions/download-artifact@95815c38cf2ff2164869cbab79da8d1f422bc89e",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_tests.yml",
+      "source_repo": "firebase/firebase-android-sdk",
+      "target": "EnricoMi/publish-unit-test-result-action@170bf24d20d201b842d7a52403b73ed297e6645b",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci_tests.yml",
+      "source_repo": "firebase/firebase-android-sdk",
+      "target": "CI Tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "firebase/firebase-android-sdk",
+      "target": "android",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "firebase/firebase-android-sdk",
+      "target": "database-as-a-service",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "firebase/firebase-android-sdk",
+      "target": "firebase",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "firebase/firebase-android-sdk",
+      "target": "firebase-abt",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "firebase/firebase-android-sdk",
+      "target": "firebase-android-sdk",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "firebase/firebase-android-sdk",
+      "target": "firebase-database",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "firebase/firebase-android-sdk",
+      "target": "firebase-firestore",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "firebase/firebase-android-sdk",
+      "target": "firebase-functions",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "firebase/firebase-android-sdk",
+      "target": "firebase-inappmessaging",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "firebase/firebase-android-sdk",
+      "target": "firebase-library",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "firebase/firebase-android-sdk",
+      "target": "firebase-realtime-database",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "firebase/firebase-android-sdk",
+      "target": "firebase-remote-config",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "firebase/firebase-android-sdk",
+      "target": "firebase-storage",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T01:46:46.309206+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8883
+    },
+    {
+      "path": ".github/workflows/ai-daily-tests.yml",
+      "size": 2532
+    },
+    {
+      "path": ".github/workflows/api-information.yml",
+      "size": 1272
+    },
+    {
+      "path": ".github/workflows/app-distribution-gradle-compatibility-tests.yml",
+      "size": 1359
+    },
+    {
+      "path": ".github/workflows/build-release-artifacts.yml",
+      "size": 1996
+    },
+    {
+      "path": ".github/workflows/changelog.yml",
+      "size": 887
+    },
+    {
+      "path": ".github/workflows/check-firebaseai-responses.yml",
+      "size": 1956
+    },
+    {
+      "path": ".github/workflows/check-head-dependencies.yml",
+      "size": 760
+    },
+    {
+      "path": ".github/workflows/check_format.yml",
+      "size": 895
+    },
+    {
+      "path": ".github/workflows/ci_tests.yml",
+      "size": 7615
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Firebase Android SDK",
+    "fork": false,
+    "full_name": "firebase/firebase-android-sdk",
+    "html_url": "https://github.com/firebase/firebase-android-sdk",
+    "language": "Java",
+    "pushed_at": "2026-04-29T21:59:38Z",
+    "stargazers_count": 2505,
+    "topics": [
+      "android",
+      "database-as-a-service",
+      "firebase",
+      "firebase-abt",
+      "firebase-android-sdk",
+      "firebase-database",
+      "firebase-firestore",
+      "firebase-functions",
+      "firebase-inappmessaging",
+      "firebase-library",
+      "firebase-realtime-database",
+      "firebase-remote-config",
+      "firebase-storage"
+    ],
+    "updated_at": "2026-04-29T21:34:52Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Firebase AI Daily Tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ai-daily-tests.yml",
+      "term": "Firebase AI Daily Tests"
+    },
+    {
+      "context_snippet": "API Information",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/api-information.yml",
+      "term": "API Information"
+    },
+    {
+      "context_snippet": "App Distribution Gradle Compatibility Tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/app-distribution-gradle-compatibility-tests.yml",
+      "term": "App Distribution Gradle Compatibility Tests"
+    },
+    {
+      "context_snippet": "Build Release Artifacts",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-release-artifacts.yml",
+      "term": "Build Release Artifacts"
+    },
+    {
+      "context_snippet": "Verify changelog update",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/changelog.yml",
+      "term": "Verify changelog update"
+    },
+    {
+      "context_snippet": "Check Firebase AI Responses",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check-firebaseai-responses.yml",
+      "term": "Check Firebase AI Responses"
+    },
+    {
+      "context_snippet": "Check Head Dependencies",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check-head-dependencies.yml",
+      "term": "Check Head Dependencies"
+    },
+    {
+      "context_snippet": "Check Format",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check_format.yml",
+      "term": "Check Format"
+    },
+    {
+      "context_snippet": "CI Tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci_tests.yml",
+      "term": "CI Tests"
+    },
+    {
+      "context_snippet": "This repository contains the source code for all Android Firebase SDKs except Analytics and Auth.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "android"
+    },
+    {
+      "context_snippet": "This repository contains the source code for all Android Firebase SDKs except Analytics and Auth.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "database-as-a-service"
+    },
+    {
+      "context_snippet": "This repository contains the source code for all Android Firebase SDKs except Analytics and Auth.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "firebase"
+    },
+    {
+      "context_snippet": "This repository contains the source code for all Android Firebase SDKs except Analytics and Auth.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "firebase-abt"
+    },
+    {
+      "context_snippet": "This repository contains the source code for all Android Firebase SDKs except Analytics and Auth.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "firebase-android-sdk"
+    },
+    {
+      "context_snippet": "This repository contains the source code for all Android Firebase SDKs except Analytics and Auth.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "firebase-database"
+    },
+    {
+      "context_snippet": "This repository contains the source code for all Android Firebase SDKs except Analytics and Auth.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "firebase-firestore"
+    },
+    {
+      "context_snippet": "This repository contains the source code for all Android Firebase SDKs except Analytics and Auth.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "firebase-functions"
+    },
+    {
+      "context_snippet": "This repository contains the source code for all Android Firebase SDKs except Analytics and Auth.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "firebase-inappmessaging"
+    },
+    {
+      "context_snippet": "This repository contains the source code for all Android Firebase SDKs except Analytics and Auth.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "firebase-library"
+    },
+    {
+      "context_snippet": "This repository contains the source code for all Android Firebase SDKs except Analytics and Auth.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "firebase-realtime-database"
+    },
+    {
+      "context_snippet": "This repository contains the source code for all Android Firebase SDKs except Analytics and Auth.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "firebase-remote-config"
+    },
+    {
+      "context_snippet": "This repository contains the source code for all Android Firebase SDKs except Analytics and Auth.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "firebase-storage"
+    }
+  ]
+}

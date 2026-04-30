@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "The Superior Lisp Interaction Mode for Emacs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![Build Status](https://github.com/slime/slime/workflows/CI/badge.svg)](https://github.com/slime/slime/actions)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![Build Status](https://github.com/slime/slime/workflows/CI/badge.svg)](https://github.com/slime/slime/actions)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "common-lisp",
+      "sense_id": "common-lisp#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "common-lisp",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "common-lisp",
+  "observation_id": "9843c31abd3d40c0",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T00:37:16.824464+00:00",
+  "observed_text": "common-lisp",
+  "source_context_snippet": "[![Build Status](https://github.com/slime/slime/workflows/CI/badge.svg)](https://github.com/slime/slime/actions)",
+  "source_file": null,
+  "source_repo": "slime/slime",
+  "source_repo_description": "The Superior Lisp Interaction Mode for Emacs"
+}

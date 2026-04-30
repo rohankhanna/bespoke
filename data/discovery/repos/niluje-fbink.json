@@ -1,0 +1,285 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml"
+    },
+    {
+      "component": "actions/upload-artifact@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "github/codeql-action/init@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "github/codeql-action/autobuild@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "github/codeql-action/analyze@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "NiLuJe/FBInk",
+      "target": "niluje/kfmon",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "NiLuJe/FBInk",
+      "target": "koreader/koreader",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "NiLuJe/FBInk",
+      "target": "llandsmeer/inkvt",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "NiLuJe/FBInk",
+      "target": "koreader/koxtoolchain",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml",
+      "source_repo": "NiLuJe/FBInk",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml",
+      "source_repo": "NiLuJe/FBInk",
+      "target": "actions/upload-artifact@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yaml",
+      "source_repo": "NiLuJe/FBInk",
+      "target": "Build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "NiLuJe/FBInk",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "NiLuJe/FBInk",
+      "target": "github/codeql-action/init@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "NiLuJe/FBInk",
+      "target": "github/codeql-action/autobuild@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "NiLuJe/FBInk",
+      "target": "github/codeql-action/analyze@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "NiLuJe/FBInk",
+      "target": "CodeQL",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "NiLuJe/FBInk",
+      "target": "cervantes",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "NiLuJe/FBInk",
+      "target": "eink",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "NiLuJe/FBInk",
+      "target": "framebuffer",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "NiLuJe/FBInk",
+      "target": "kindle",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "NiLuJe/FBInk",
+      "target": "kobo",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "NiLuJe/FBInk",
+      "target": "linux",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "NiLuJe/FBInk",
+      "target": "remarkable",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T03:50:23.190606+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 17715
+    },
+    {
+      "path": ".github/workflows/build.yaml",
+      "size": 691
+    },
+    {
+      "path": ".github/workflows/codeql.yml",
+      "size": 933
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "FrameBuffer eInker, a small tool & library to print text & images to an eInk Linux framebuffer",
+    "fork": false,
+    "full_name": "NiLuJe/FBInk",
+    "html_url": "https://github.com/NiLuJe/FBInk",
+    "language": "C",
+    "pushed_at": "2026-04-07T20:33:58Z",
+    "stargazers_count": 498,
+    "topics": [
+      "c",
+      "cervantes",
+      "eink",
+      "framebuffer",
+      "kindle",
+      "kobo",
+      "linux",
+      "remarkable"
+    ],
+    "updated_at": "2026-04-25T05:37:28Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "koreader/koreader",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "koreader/koxtoolchain",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "llandsmeer/inkvt",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "niluje/kfmon",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yaml",
+      "term": "Build"
+    },
+    {
+      "context_snippet": "\"CodeQL\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql.yml",
+      "term": "CodeQL"
+    },
+    {
+      "context_snippet": "[![License](https://img.shields.io/github/license/NiLuJe/FBInk.svg)](/LICENSE) [![Codacy Badge](https://api.codacy.com/project/badge/Grade/0e955c5239c54b10a167bbde1c2d75c1)](https://www.codacy.com/app/NiLuJe/FBInk?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=NiL\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cervantes"
+    },
+    {
+      "context_snippet": "[![License](https://img.shields.io/github/license/NiLuJe/FBInk.svg)](/LICENSE) [![Codacy Badge](https://api.codacy.com/project/badge/Grade/0e955c5239c54b10a167bbde1c2d75c1)](https://www.codacy.com/app/NiLuJe/FBInk?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=NiL\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "eink"
+    },
+    {
+      "context_snippet": "[![License](https://img.shields.io/github/license/NiLuJe/FBInk.svg)](/LICENSE) [![Codacy Badge](https://api.codacy.com/project/badge/Grade/0e955c5239c54b10a167bbde1c2d75c1)](https://www.codacy.com/app/NiLuJe/FBInk?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=NiL\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "framebuffer"
+    },
+    {
+      "context_snippet": "[![License](https://img.shields.io/github/license/NiLuJe/FBInk.svg)](/LICENSE) [![Codacy Badge](https://api.codacy.com/project/badge/Grade/0e955c5239c54b10a167bbde1c2d75c1)](https://www.codacy.com/app/NiLuJe/FBInk?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=NiL\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "kindle"
+    },
+    {
+      "context_snippet": "[![License](https://img.shields.io/github/license/NiLuJe/FBInk.svg)](/LICENSE) [![Codacy Badge](https://api.codacy.com/project/badge/Grade/0e955c5239c54b10a167bbde1c2d75c1)](https://www.codacy.com/app/NiLuJe/FBInk?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=NiL\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "kobo"
+    },
+    {
+      "context_snippet": "[![License](https://img.shields.io/github/license/NiLuJe/FBInk.svg)](/LICENSE) [![Codacy Badge](https://api.codacy.com/project/badge/Grade/0e955c5239c54b10a167bbde1c2d75c1)](https://www.codacy.com/app/NiLuJe/FBInk?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=NiL\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "linux"
+    },
+    {
+      "context_snippet": "[![License](https://img.shields.io/github/license/NiLuJe/FBInk.svg)](/LICENSE) [![Codacy Badge](https://api.codacy.com/project/badge/Grade/0e955c5239c54b10a167bbde1c2d75c1)](https://www.codacy.com/app/NiLuJe/FBInk?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=NiL\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "remarkable"
+    }
+  ]
+}

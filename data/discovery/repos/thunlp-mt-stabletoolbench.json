@@ -1,0 +1,49 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "THUNLP-MT/StableToolBench",
+      "target": "tool-learning",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T01:03:55.330206+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 23271
+    },
+    {
+      "path": "requirements.txt",
+      "size": 488
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A new tool learning benchmark aiming at well-balanced stability and reality, based on ToolBench.",
+    "fork": false,
+    "full_name": "THUNLP-MT/StableToolBench",
+    "html_url": "https://github.com/THUNLP-MT/StableToolBench",
+    "language": "Python",
+    "pushed_at": "2025-04-15T02:11:08Z",
+    "stargazers_count": 230,
+    "topics": [
+      "llm",
+      "tool-learning"
+    ],
+    "updated_at": "2026-04-26T14:03:38Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "<div align= \"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tool-learning"
+    }
+  ]
+}

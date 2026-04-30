@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Improving your Elm experience since 2019"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Deploy Extension Prerelease"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Deploy Extension Prerelease"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20219,
+      "status": "candidate",
+      "text": "site"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15442,
+      "status": "candidate",
+      "text": "screening"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12198,
+      "status": "candidate",
+      "text": "debut"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12198,
+      "status": "candidate",
+      "text": "followup"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12198,
+      "status": "candidate",
+      "text": "launch"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Deploy Extension Prerelease",
+      "sense_id": "deploy-extension-prerelease#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "deploy-extension-prerelease",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "deploy-extension-prerelease",
+  "observation_id": "0927060b5d052d90",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-30T00:37:16.824464+00:00",
+  "observed_text": "Deploy Extension Prerelease",
+  "source_context_snippet": "Deploy Extension Prerelease",
+  "source_file": ".github/workflows/deploy_extension_prerelease.yaml",
+  "source_repo": "elm-tooling/elm-language-client-vscode",
+  "source_repo_description": "Improving your Elm experience since 2019"
+}

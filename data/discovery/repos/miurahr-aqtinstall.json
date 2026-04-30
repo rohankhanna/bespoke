@@ -1,0 +1,506 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    },
+    {
+      "component": "github/codeql-action/init@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    },
+    {
+      "component": "github/codeql-action/analyze@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-to-pypi.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-to-pypi.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-to-pypi.yml"
+    },
+    {
+      "component": "actions/download-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-to-pypi.yml"
+    },
+    {
+      "component": "pypa/gh-action-pypi-publish@ed0c53931b1dc9bd32cbe73a98c7f6766f8a527e",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-to-pypi.yml"
+    },
+    {
+      "component": "pypa/gh-action-pypi-publish@ed0c53931b1dc9bd32cbe73a98c7f6766f8a527e",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-to-pypi.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run-linter.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run-linter.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run-linter.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run-linter.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-install-qt.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-install-qt.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-install-qt.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/upload-release-artifacts.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/upload-release-artifacts.yml"
+    },
+    {
+      "component": "svenstaro/upload-release-action@6b7fa9f267e90b50a19fef07b3596790bb941741",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/upload-release-artifacts.yml"
+    },
+    {
+      "component": "svenstaro/upload-release-action@6b7fa9f267e90b50a19fef07b3596790bb941741",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/upload-release-artifacts.yml"
+    },
+    {
+      "component": "svenstaro/upload-release-action@6b7fa9f267e90b50a19fef07b3596790bb941741",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/upload-release-artifacts.yml"
+    },
+    {
+      "component": "svenstaro/upload-release-action@6b7fa9f267e90b50a19fef07b3596790bb941741",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/upload-release-artifacts.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.rst",
+      "source_repo": "miurahr/aqtinstall",
+      "target": "jurplel/install-qt-action",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.rst",
+      "source_repo": "miurahr/aqtinstall",
+      "target": "vslotman/docker-aqtinstall",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.rst",
+      "source_repo": "miurahr/aqtinstall",
+      "target": "altendky/pyqt5-tools",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.rst",
+      "source_repo": "miurahr/aqtinstall",
+      "target": "yacreader/yacreader",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check.yml",
+      "source_repo": "miurahr/aqtinstall",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check.yml",
+      "source_repo": "miurahr/aqtinstall",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check.yml",
+      "source_repo": "miurahr/aqtinstall",
+      "target": "Check tox tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "miurahr/aqtinstall",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "miurahr/aqtinstall",
+      "target": "github/codeql-action/init@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "miurahr/aqtinstall",
+      "target": "github/codeql-action/analyze@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "miurahr/aqtinstall",
+      "target": "CodeQL",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-to-pypi.yml",
+      "source_repo": "miurahr/aqtinstall",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-to-pypi.yml",
+      "source_repo": "miurahr/aqtinstall",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-to-pypi.yml",
+      "source_repo": "miurahr/aqtinstall",
+      "target": "actions/upload-artifact@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-to-pypi.yml",
+      "source_repo": "miurahr/aqtinstall",
+      "target": "actions/download-artifact@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-to-pypi.yml",
+      "source_repo": "miurahr/aqtinstall",
+      "target": "pypa/gh-action-pypi-publish@ed0c53931b1dc9bd32cbe73a98c7f6766f8a527e",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run-linter.yml",
+      "source_repo": "miurahr/aqtinstall",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run-linter.yml",
+      "source_repo": "miurahr/aqtinstall",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/run-linter.yml",
+      "source_repo": "miurahr/aqtinstall",
+      "target": "Run linter",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-install-qt.yml",
+      "source_repo": "miurahr/aqtinstall",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-install-qt.yml",
+      "source_repo": "miurahr/aqtinstall",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-install-qt.yml",
+      "source_repo": "miurahr/aqtinstall",
+      "target": "actions/upload-artifact@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test-install-qt.yml",
+      "source_repo": "miurahr/aqtinstall",
+      "target": "Test on GH actions environment",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/upload-release-artifacts.yml",
+      "source_repo": "miurahr/aqtinstall",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/upload-release-artifacts.yml",
+      "source_repo": "miurahr/aqtinstall",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/upload-release-artifacts.yml",
+      "source_repo": "miurahr/aqtinstall",
+      "target": "svenstaro/upload-release-action@6b7fa9f267e90b50a19fef07b3596790bb941741",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/upload-release-artifacts.yml",
+      "source_repo": "miurahr/aqtinstall",
+      "target": "Upload release artifacts",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "miurahr/aqtinstall",
+      "target": "andorid-sdk",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "miurahr/aqtinstall",
+      "target": "installer",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "miurahr/aqtinstall",
+      "target": "linux",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "miurahr/aqtinstall",
+      "target": "mingw",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "miurahr/aqtinstall",
+      "target": "msvc",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "miurahr/aqtinstall",
+      "target": "windows",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T00:57:16.548930+00:00",
+  "fetched_files": [
+    {
+      "path": "README.rst",
+      "size": 8525
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 6043
+    },
+    {
+      "path": ".github/workflows/check.yml",
+      "size": 1870
+    },
+    {
+      "path": ".github/workflows/codeql-analysis.yml",
+      "size": 672
+    },
+    {
+      "path": ".github/workflows/publish-to-pypi.yml",
+      "size": 2508
+    },
+    {
+      "path": ".github/workflows/run-linter.yml",
+      "size": 1009
+    },
+    {
+      "path": ".github/workflows/test-install-qt.yml",
+      "size": 8338
+    },
+    {
+      "path": ".github/workflows/upload-release-artifacts.yml",
+      "size": 4970
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "aqt: Another (unofficial) Qt  CLI  Installer on multi-platforms",
+    "fork": false,
+    "full_name": "miurahr/aqtinstall",
+    "html_url": "https://github.com/miurahr/aqtinstall",
+    "language": "Python",
+    "pushed_at": "2026-04-26T22:52:21Z",
+    "stargazers_count": 1259,
+    "topics": [
+      "andorid-sdk",
+      "installer",
+      "linux",
+      "mingw",
+      "msvc",
+      "osx",
+      "python",
+      "qt",
+      "windows"
+    ],
+    "updated_at": "2026-04-29T15:08:21Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "altendky/pyqt5-tools",
+      "source_file": "README.rst"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jurplel/install-qt-action",
+      "source_file": "README.rst"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "vslotman/docker-aqtinstall",
+      "source_file": "README.rst"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "yacreader/yacreader",
+      "source_file": "README.rst"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Check tox tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check.yml",
+      "term": "Check tox tests"
+    },
+    {
+      "context_snippet": "\"CodeQL\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "term": "CodeQL"
+    },
+    {
+      "context_snippet": "Run linter",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/run-linter.yml",
+      "term": "Run linter"
+    },
+    {
+      "context_snippet": "Test on GH actions environment",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test-install-qt.yml",
+      "term": "Test on GH actions environment"
+    },
+    {
+      "context_snippet": "Upload release artifacts",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/upload-release-artifacts.yml",
+      "term": "Upload release artifacts"
+    },
+    {
+      "context_snippet": "Another Qt installer(aqt)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "andorid-sdk"
+    },
+    {
+      "context_snippet": "Another Qt installer(aqt)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "installer"
+    },
+    {
+      "context_snippet": "Another Qt installer(aqt)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "linux"
+    },
+    {
+      "context_snippet": "Another Qt installer(aqt)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mingw"
+    },
+    {
+      "context_snippet": "Another Qt installer(aqt)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "msvc"
+    },
+    {
+      "context_snippet": "Another Qt installer(aqt)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "windows"
+    }
+  ]
+}

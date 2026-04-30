@@ -43,6 +43,18 @@
       "source_repo": "FlowiseAI/Flowise",
       "status": "candidate-context",
       "text": "<!-- markdownlint-disable MD030 -->"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "autokitteh/autokitteh",
+      "status": "candidate-context",
+      "text": "Durable workflow automation in just a few lines of code"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "autokitteh/autokitteh",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +75,12 @@
       "source_repo": "FlowiseAI/Flowise",
       "status": "candidate",
       "text": "<!-- markdownlint-disable MD030 -->"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "autokitteh/autokitteh",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_related_terms": [],
@@ -94,11 +112,17 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": null,
       "source_repo": "FlowiseAI/Flowise"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "autokitteh/autokitteh"
     }
   ],
   "first_seen_at": "2026-04-19T04:47:57.443742+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

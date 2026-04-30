@@ -1,0 +1,100 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "padreati/rapaio-jupyter-kernel",
+      "target": "java",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "padreati/rapaio-jupyter-kernel",
+      "target": "jshell-repl",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "padreati/rapaio-jupyter-kernel",
+      "target": "jupyter",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "padreati/rapaio-jupyter-kernel",
+      "target": "jupyter-notebook",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "padreati/rapaio-jupyter-kernel",
+      "target": "jupyterlab",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T04:49:48.580889+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4914
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Java jupyter kernel",
+    "fork": false,
+    "full_name": "padreati/rapaio-jupyter-kernel",
+    "html_url": "https://github.com/padreati/rapaio-jupyter-kernel",
+    "language": "Jupyter Notebook",
+    "pushed_at": "2026-02-10T23:17:31Z",
+    "stargazers_count": 76,
+    "topics": [
+      "java",
+      "jshell-repl",
+      "jupyter",
+      "jupyter-notebook",
+      "jupyterlab"
+    ],
+    "updated_at": "2026-04-21T02:35:34Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Jupyter kernel for Java language based on JShell. It implements Jupyter message specification version 5.4, and it requires Java >= 17 (supports up to Java 25 with preview features).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "java"
+    },
+    {
+      "context_snippet": "Jupyter kernel for Java language based on JShell. It implements Jupyter message specification version 5.4, and it requires Java >= 17 (supports up to Java 25 with preview features).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "jshell-repl"
+    },
+    {
+      "context_snippet": "Jupyter kernel for Java language based on JShell. It implements Jupyter message specification version 5.4, and it requires Java >= 17 (supports up to Java 25 with preview features).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "jupyter"
+    },
+    {
+      "context_snippet": "Jupyter kernel for Java language based on JShell. It implements Jupyter message specification version 5.4, and it requires Java >= 17 (supports up to Java 25 with preview features).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "jupyter-notebook"
+    },
+    {
+      "context_snippet": "Jupyter kernel for Java language based on JShell. It implements Jupyter message specification version 5.4, and it requires Java >= 17 (supports up to Java 25 with preview features).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "jupyterlab"
+    }
+  ]
+}

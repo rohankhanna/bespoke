@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A linter for prose."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<img src=\"https://raw.githubusercontent.com/amperser/proselint/main/logo.png\" alt=\"proselint logo\" width=\"200\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<img src=\"https://raw.githubusercontent.com/amperser/proselint/main/logo.png\" alt=\"proselint logo\" width=\"200\">"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30033596,
+      "status": "candidate",
+      "text": "text"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20042967,
+      "status": "candidate",
+      "text": "composition"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20042966,
+      "status": "candidate",
+      "text": "narrative"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20042965,
+      "status": "candidate",
+      "text": "discourse"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20042964,
+      "status": "candidate",
+      "text": "exposition"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "prose",
+      "sense_id": "prose#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "prose",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "prose",
+  "observation_id": "8e4133eb37e48a3e",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T00:37:16.824464+00:00",
+  "observed_text": "prose",
+  "source_context_snippet": "<img src=\"https://raw.githubusercontent.com/amperser/proselint/main/logo.png\" alt=\"proselint logo\" width=\"200\">",
+  "source_file": null,
+  "source_repo": "amperser/proselint",
+  "source_repo_description": "A linter for prose."
+}

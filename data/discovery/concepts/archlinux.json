@@ -1,11 +1,14 @@
 {
   "aliases": [
-    "archlinux"
+    "archlinux",
+    "Archlinux"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
     "tool-component",
-    "capability"
+    "capability",
+    "workflow-process",
+    "data-document-artifact"
   ],
   "candidate_definitions": [
     {
@@ -67,6 +70,30 @@
       "source_repo": "89luca89/distrobox",
       "status": "candidate-context",
       "text": "CI"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "xmake-io/xmake",
+      "status": "candidate-context",
+      "text": "\ud83d\udd25 A cross-platform build utility based on Lua"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "xmake-io/xmake",
+      "status": "candidate-context",
+      "text": "Archlinux"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "KSXGitHub/pacman-repo",
+      "status": "candidate-context",
+      "text": "Repository of Arch Linux packages for my personal use"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "KSXGitHub/pacman-repo",
+      "status": "candidate-context",
+      "text": "Repository of Arch Linux packages for my personal use."
     }
   ],
   "candidate_glosses": [
@@ -99,6 +126,18 @@
       "source_repo": "89luca89/distrobox",
       "status": "candidate",
       "text": "CI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "xmake-io/xmake",
+      "status": "candidate",
+      "text": "Archlinux"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "KSXGitHub/pacman-repo",
+      "status": "candidate",
+      "text": "Repository of Arch Linux packages for my personal use."
     }
   ],
   "candidate_related_terms": [],
@@ -142,11 +181,23 @@
       "observed_at": "2026-04-24T00:33:56.049672+00:00",
       "source_file": null,
       "source_repo": "89luca89/distrobox"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/archlinux.yml",
+      "source_repo": "xmake-io/xmake"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "KSXGitHub/pacman-repo"
     }
   ],
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

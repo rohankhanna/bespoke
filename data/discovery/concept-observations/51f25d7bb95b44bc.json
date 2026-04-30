@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "CodeQL: the libraries and queries that power security researchers around the world, as well as code scanning in GitHub Advanced Security"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "\"Check implicit this warnings\""
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "\"Check implicit this warnings\""
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 34833,
+      "status": "candidate",
+      "text": "reflection"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 33788,
+      "status": "candidate",
+      "text": "understanding"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31471,
+      "status": "candidate",
+      "text": "gale"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28777,
+      "status": "candidate",
+      "text": "approval"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28133,
+      "status": "candidate",
+      "text": "look"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Check implicit this warnings",
+      "sense_id": "check-implicit-this-warnings#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "check-implicit-this-warnings",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "check-implicit-this-warnings",
+  "observation_id": "51f25d7bb95b44bc",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-30T00:37:16.824464+00:00",
+  "observed_text": "Check implicit this warnings",
+  "source_context_snippet": "\"Check implicit this warnings\"",
+  "source_file": ".github/workflows/check-implicit-this.yml",
+  "source_repo": "github/codeql",
+  "source_repo_description": "CodeQL: the libraries and queries that power security researchers around the world, as well as code scanning in GitHub Advanced Security"
+}

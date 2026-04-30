@@ -1,0 +1,53 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mukel/nemotron3.java",
+      "target": "ggerganov/ggml",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mukel/nemotron3.java",
+      "target": "mukel/qwen35.java",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T02:56:31.298852+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3790
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Fast NVIDIA's Nemotron 3 inference in pure Java",
+    "fork": false,
+    "full_name": "mukel/nemotron3.java",
+    "html_url": "https://github.com/mukel/nemotron3.java",
+    "language": "Java",
+    "pushed_at": "2026-04-24T16:39:34Z",
+    "stargazers_count": 0,
+    "topics": [],
+    "updated_at": "2026-04-24T16:39:38Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ggerganov/ggml",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mukel/qwen35.java",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

@@ -58,6 +58,42 @@
       "source_repo": "alexmyczko/fnt",
       "status": "candidate-context",
       "text": "```"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pacstall/pacstall",
+      "status": "candidate-context",
+      "text": "An AUR-inspired package manager for Ubuntu"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pacstall/pacstall",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lavabit/robox",
+      "status": "candidate-context",
+      "text": "The tools needed to robotically create/configure/provision a large number of operating systems, for a variety of hypervisors, using packer."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lavabit/robox",
+      "status": "candidate-context",
+      "text": "Generic base boxes, providing a variety of operating systems, and available across a number of different virtualized platforms."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pacstall/pacstall-programs",
+      "status": "candidate-context",
+      "text": "Pacstall's official program repository"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pacstall/pacstall-programs",
+      "status": "candidate-context",
+      "text": "This is the default repository of pacscripts which [pacstall](https://github.com/pacstall/pacstall) uses to install software. You can fork this repository and add make your own package repository as long as it follows the basic structure:"
     }
   ],
   "candidate_glosses": [
@@ -84,6 +120,24 @@
       "source_repo": "alexmyczko/fnt",
       "status": "candidate",
       "text": "```"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pacstall/pacstall",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lavabit/robox",
+      "status": "candidate",
+      "text": "Generic base boxes, providing a variety of operating systems, and available across a number of different virtualized platforms."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pacstall/pacstall-programs",
+      "status": "candidate",
+      "text": "This is the default repository of pacscripts which [pacstall](https://github.com/pacstall/pacstall) uses to install software. You can fork this repository and add make your own package repository as long as it follows the basic structure:"
     }
   ],
   "candidate_related_terms": [
@@ -150,11 +204,35 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": ".github/workflows/debian.yaml",
       "source_repo": "simdjson/simdjson"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "pacstall/pacstall"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "lavabit/robox"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "pacstall/pacstall-programs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/debian.yaml",
+      "source_repo": "simdjson/simdjson"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

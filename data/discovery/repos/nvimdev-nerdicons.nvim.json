@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T05:00:50.543736+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1414
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "get the nerdfont icons inside neovim ",
+    "fork": false,
+    "full_name": "nvimdev/nerdicons.nvim",
+    "html_url": "https://github.com/nvimdev/nerdicons.nvim",
+    "language": "Lua",
+    "pushed_at": "2025-01-06T06:21:49Z",
+    "stargazers_count": 71,
+    "topics": [],
+    "updated_at": "2026-02-07T09:30:42Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

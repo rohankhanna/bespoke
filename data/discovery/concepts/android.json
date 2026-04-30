@@ -850,6 +850,114 @@
       "source_repo": "apollographql/apollo-kotlin",
       "status": "candidate-context",
       "text": "<header>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "paulocoutinhox/pdfium-lib",
+      "status": "candidate-context",
+      "text": "PDFium - Project to compile PDFium library to multiple platforms."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "paulocoutinhox/pdfium-lib",
+      "status": "candidate-context",
+      "text": "Android"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "firebase/firebase-android-sdk",
+      "status": "candidate-context",
+      "text": "Firebase Android SDK"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "firebase/firebase-android-sdk",
+      "status": "candidate-context",
+      "text": "This repository contains the source code for all Android Firebase SDKs except Analytics and Auth."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "google/glog",
+      "status": "candidate-context",
+      "text": "C++ implementation of the Google logging module"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/glog",
+      "status": "candidate-context",
+      "text": "Android"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nativium/nativium",
+      "status": "candidate-context",
+      "text": "C++ Multiplatform Modular Toolkit Template"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nativium/nativium",
+      "status": "candidate-context",
+      "text": "Android"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "facebook/buck",
+      "status": "candidate-context",
+      "text": "A fast build system that encourages the creation of small, reusable modules over a variety of platforms and languages."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "facebook/buck",
+      "status": "candidate-context",
+      "text": "This repo is dead."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "appium/appium",
+      "status": "candidate-context",
+      "text": "Cross-platform automation framework for all kinds of apps, built on top of the W3C WebDriver protocol"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "appium/appium",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "wasabeef/glide-transformations",
+      "status": "candidate-context",
+      "text": "An Android transformation library providing a variety of image transformations for Glide."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "wasabeef/glide-transformations",
+      "status": "candidate-context",
+      "text": "Glide Transformations"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "btkelly/gnag",
+      "status": "candidate-context",
+      "text": "A Gradle plugin that helps facilitate GitHub PR checking and automatic commenting of violations."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "btkelly/gnag",
+      "status": "candidate-context",
+      "text": "Gnag is a Gradle plugin that helps facilitate GitHub PR checking and automatic commenting of violations for Android projects."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ng-log/ng-log",
+      "status": "candidate-context",
+      "text": "C++ library for application-level logging"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ng-log/ng-log",
+      "status": "candidate-context",
+      "text": "Android"
     }
   ],
   "candidate_glosses": [
@@ -1284,6 +1392,60 @@
       "source_repo": "apollographql/apollo-kotlin",
       "status": "candidate",
       "text": "<header>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "paulocoutinhox/pdfium-lib",
+      "status": "candidate",
+      "text": "Android"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "firebase/firebase-android-sdk",
+      "status": "candidate",
+      "text": "This repository contains the source code for all Android Firebase SDKs except Analytics and Auth."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/glog",
+      "status": "candidate",
+      "text": "Android"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nativium/nativium",
+      "status": "candidate",
+      "text": "Android"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "facebook/buck",
+      "status": "candidate",
+      "text": "This repo is dead."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "appium/appium",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "wasabeef/glide-transformations",
+      "status": "candidate",
+      "text": "Glide Transformations"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "btkelly/gnag",
+      "status": "candidate",
+      "text": "Gnag is a Gradle plugin that helps facilitate GitHub PR checking and automatic commenting of violations for Android projects."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ng-log/ng-log",
+      "status": "candidate",
+      "text": "Android"
     }
   ],
   "candidate_related_terms": [
@@ -1828,11 +1990,83 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "apollographql/apollo-kotlin"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/android.yml",
+      "source_repo": "paulocoutinhox/pdfium-lib"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "microsoft/Microsoft-Performance-Tools-Linux-Android"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "firebase/firebase-android-sdk"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/android.yml",
+      "source_repo": "google/glog"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/android-ci.yml",
+      "source_repo": "react-native-webview/react-native-webview"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "google-ai-edge/mediapipe"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/android.yml",
+      "source_repo": "nativium/nativium"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "facebook/buck"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "appium/appium"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "wasabeef/glide-transformations"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "btkelly/gnag"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/android.yml",
+      "source_repo": "ng-log/ng-log"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

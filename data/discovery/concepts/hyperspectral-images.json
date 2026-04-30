@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "hyperspectral-images"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "caiyuanhao1998/MST",
+      "status": "candidate-context",
+      "text": "A toolbox for spectral compressive imaging reconstruction including MST (CVPR 2022), CST (ECCV 2022), DAUHST (NeurIPS 2022), BiSCI (NeurIPS 2023), HDNet (CVPR 2022), MST++ (CVPRW 2022), etc."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "caiyuanhao1998/MST",
+      "status": "candidate-context",
+      "text": "[![winner](https://img.shields.io/badge/MST++-Winner_of_NTIRE_2022_Spectral_Reconstruction_Challenge-179bd3)](https://github.com/caiyuanhao1998/MST-plus-plus/)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "caiyuanhao1998/MST",
+      "status": "candidate",
+      "text": "[![winner](https://img.shields.io/badge/MST++-Winner_of_NTIRE_2022_Spectral_Reconstruction_Challenge-179bd3)](https://github.com/caiyuanhao1998/MST-plus-plus/)"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "hyperspectral-images",
+  "concept_id": "hyperspectral-images",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "caiyuanhao1998/MST"
+    }
+  ],
+  "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "hyperspectral-images",
+      "sense_id": "hyperspectral-images#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

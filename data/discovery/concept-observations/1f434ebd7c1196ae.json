@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Cross-platform asynchronous I/O"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "![libuv][libuv_banner]"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "![libuv][libuv_banner]"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19330222,
+      "status": "candidate",
+      "text": "yeah"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19088587,
+      "status": "candidate",
+      "text": "yes"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9657270,
+      "status": "candidate",
+      "text": "oviraptor"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9657269,
+      "status": "candidate",
+      "text": "dinosaurs"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9657268,
+      "status": "candidate",
+      "text": "carnivores"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "velociraptors",
+      "sense_id": "velociraptors#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "velociraptors",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "velociraptors",
+  "observation_id": "1f434ebd7c1196ae",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T00:37:16.824464+00:00",
+  "observed_text": "velociraptors",
+  "source_context_snippet": "![libuv][libuv_banner]",
+  "source_file": null,
+  "source_repo": "libuv/libuv",
+  "source_repo_description": "Cross-platform asynchronous I/O"
+}

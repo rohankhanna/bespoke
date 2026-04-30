@@ -382,6 +382,90 @@
       "source_repo": "open-source-parsers/jsoncpp",
       "status": "candidate-context",
       "text": "cmake"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "xmake-io/xmake",
+      "status": "candidate-context",
+      "text": "\ud83d\udd25 A cross-platform build utility based on Lua"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "xmake-io/xmake",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "libsndfile/libsndfile",
+      "status": "candidate-context",
+      "text": "A C library for reading and writing sound files containing sampled audio data."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "libsndfile/libsndfile",
+      "status": "candidate-context",
+      "text": "![C/C++ CI](https://github.com/libsndfile/libsndfile/workflows/C/C++%20CI/badge.svg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jeffdaily/parasail",
+      "status": "candidate-context",
+      "text": "Pairwise Sequence Alignment Library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jeffdaily/parasail",
+      "status": "candidate-context",
+      "text": "CMake"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sheredom/subprocess.h",
+      "status": "candidate-context",
+      "text": "\ud83d\udc1c single header process launching solution for C and C++ "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sheredom/subprocess.h",
+      "status": "candidate-context",
+      "text": "CMake"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "DanielSarmiento04/yolov10cpp",
+      "status": "candidate-context",
+      "text": "Implementation of yolo v10 in c++ std 17 over opencv and onnxruntime"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DanielSarmiento04/yolov10cpp",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">Yolo V10 cpp</h1>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bazel-contrib/rules_foreign_cc",
+      "status": "candidate-context",
+      "text": "Build rules for interfacing with \"foreign\" (non-Bazel) build systems (CMake, configure-make, GNU Make, boost, ninja, Meson)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bazel-contrib/rules_foreign_cc",
+      "status": "candidate-context",
+      "text": "[![Build status](https://badge.buildkite.com/c28afbf846e2077715c753dda1f4b820cdcc46cc6cde16503c.svg?branch=main)](https://buildkite.com/bazel/rules-foreign-cc?branch=main)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "leetal/ios-cmake",
+      "status": "candidate-context",
+      "text": "A CMake toolchain file for iOS/iPadOS, visionOS, macOS, watchOS & tvOS C/C++/Obj-C++ development"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "leetal/ios-cmake",
+      "status": "candidate-context",
+      "text": "A CMake toolchain file for iOS (+ Catalyst), watchOS, tvOS and macOS development with full simulator support and toggleable options!"
     }
   ],
   "candidate_glosses": [
@@ -570,6 +654,48 @@
       "source_repo": "open-source-parsers/jsoncpp",
       "status": "candidate",
       "text": "cmake"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "xmake-io/xmake",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "libsndfile/libsndfile",
+      "status": "candidate",
+      "text": "![C/C++ CI](https://github.com/libsndfile/libsndfile/workflows/C/C++%20CI/badge.svg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jeffdaily/parasail",
+      "status": "candidate",
+      "text": "CMake"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sheredom/subprocess.h",
+      "status": "candidate",
+      "text": "CMake"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DanielSarmiento04/yolov10cpp",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">Yolo V10 cpp</h1>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bazel-contrib/rules_foreign_cc",
+      "status": "candidate",
+      "text": "[![Build status](https://badge.buildkite.com/c28afbf846e2077715c753dda1f4b820cdcc46cc6cde16503c.svg?branch=main)](https://buildkite.com/bazel/rules-foreign-cc?branch=main)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "leetal/ios-cmake",
+      "status": "candidate",
+      "text": "A CMake toolchain file for iOS (+ Catalyst), watchOS, tvOS and macOS development with full simulator support and toggleable options!"
     }
   ],
   "candidate_related_terms": [
@@ -805,11 +931,59 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": ".github/workflows/cmake.yml",
       "source_repo": "open-source-parsers/jsoncpp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "xmake-io/xmake"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/cmake.yml",
+      "source_repo": "edge-classic/EDGE-classic"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "libsndfile/libsndfile"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/cmake.yml",
+      "source_repo": "jeffdaily/parasail"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/cmake.yml",
+      "source_repo": "sheredom/subprocess.h"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "DanielSarmiento04/yolov10cpp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "bazel-contrib/rules_foreign_cc"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "leetal/ios-cmake"
     }
   ],
   "first_seen_at": "2026-04-21T18:51:25.552552+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

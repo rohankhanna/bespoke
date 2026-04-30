@@ -1,0 +1,34 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "rhymes-ai/Allegro",
+      "target": "cakeyan/presto",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "rhymes-ai/Allegro",
+      "target": "nightsnack/allegro-videosys",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "rhymes-ai/Allegro",
+      "target": "nus-hpc-ai-lab/videosys",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "rhymes-ai/Allegro",
+      "target": "mcg-nju/ema-vfi",
+      "target_type": "repository"
+    }
+  ],
+  "generated_at": "2026-04-30T00:37:16.824464+00:00",
+  "source_repo": "rhymes-ai/Allegro"
+}

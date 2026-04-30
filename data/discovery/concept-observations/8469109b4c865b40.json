@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A multiroom audio player setup, based on snapcast and mopidy. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "HydraPlay is an easy to use multiroom audio player. HydraPlay provides an integrated web interface to multiple"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "HydraPlay is an easy to use multiroom audio player. HydraPlay provides an integrated web interface to multiple"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9961819,
+      "status": "candidate",
+      "text": "partition"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9961409,
+      "status": "candidate",
+      "text": "subdivide"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9924280,
+      "status": "candidate",
+      "text": "district"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 51527,
+      "status": "candidate",
+      "text": "geographical zone"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 51526,
+      "status": "candidate",
+      "text": "aires"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "zones",
+      "sense_id": "zones#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "zones",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "zones",
+  "observation_id": "8469109b4c865b40",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T00:37:16.824464+00:00",
+  "observed_text": "zones",
+  "source_context_snippet": "HydraPlay is an easy to use multiroom audio player. HydraPlay provides an integrated web interface to multiple",
+  "source_file": null,
+  "source_repo": "mariolukas/HydraPlay",
+  "source_repo_description": "A multiroom audio player setup, based on snapcast and mopidy. "
+}

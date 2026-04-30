@@ -1,0 +1,100 @@
+{
+  "components": [
+    {
+      "component": "jest",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-vectors.yml"
+    },
+    {
+      "component": "actions/setup-node@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-vectors.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "celo-org/blind-threshold-bls-wasm",
+      "target": "rustwasm/wasm-pack",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "celo-org/blind-threshold-bls-wasm",
+      "target": "jest",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-vectors.yml",
+      "source_repo": "celo-org/blind-threshold-bls-wasm",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-vectors.yml",
+      "source_repo": "celo-org/blind-threshold-bls-wasm",
+      "target": "actions/setup-node@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test-vectors.yml",
+      "source_repo": "celo-org/blind-threshold-bls-wasm",
+      "target": "test-vectors",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T01:42:13.616573+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3362
+    },
+    {
+      "path": "package.json",
+      "size": 1014
+    },
+    {
+      "path": ".github/workflows/test-vectors.yml",
+      "size": 574
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "WASM Bindings for blind bls threshold signature generation and verification",
+    "fork": false,
+    "full_name": "celo-org/blind-threshold-bls-wasm",
+    "html_url": "https://github.com/celo-org/blind-threshold-bls-wasm",
+    "language": "JavaScript",
+    "pushed_at": "2026-04-27T08:32:49Z",
+    "stargazers_count": 9,
+    "topics": [],
+    "updated_at": "2026-04-27T08:32:51Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "rustwasm/wasm-pack",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "test-vectors",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test-vectors.yml",
+      "term": "test-vectors"
+    }
+  ]
+}

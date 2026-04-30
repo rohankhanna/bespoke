@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T04:00:46.713570+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1459
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A Scoop bucket of useful NirSoft utilities",
+    "fork": false,
+    "full_name": "kodybrown/scoop-nirsoft",
+    "html_url": "https://github.com/kodybrown/scoop-nirsoft",
+    "language": "PowerShell",
+    "pushed_at": "2025-02-15T23:36:30Z",
+    "stargazers_count": 150,
+    "topics": [],
+    "updated_at": "2026-04-19T10:26:21Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

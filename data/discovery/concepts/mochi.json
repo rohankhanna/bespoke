@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "mochi"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mit-han-lab/radial-attention",
+      "status": "candidate-context",
+      "text": "[NeurIPS 2025] Radial Attention: O(nlogn) Sparse Attention with Energy Decay for Long Video Generation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mit-han-lab/radial-attention",
+      "status": "candidate-context",
+      "text": "**[2025-10-29]** Radial+SageAttention2++ is now supported on RTX-5090 GPU!"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mit-han-lab/radial-attention",
+      "status": "candidate",
+      "text": "**[2025-10-29]** Radial+SageAttention2++ is now supported on RTX-5090 GPU!"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10016373,
+      "status": "candidate",
+      "text": "kimochi"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10016372,
+      "status": "candidate",
+      "text": "mbunga"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10016371,
+      "status": "candidate",
+      "text": "mpoto"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10016370,
+      "status": "candidate",
+      "text": "matengo"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10016369,
+      "status": "candidate",
+      "text": "machame"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "mochi",
+  "concept_id": "mochi",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "mit-han-lab/radial-attention"
+    }
+  ],
+  "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "mochi",
+      "sense_id": "mochi#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

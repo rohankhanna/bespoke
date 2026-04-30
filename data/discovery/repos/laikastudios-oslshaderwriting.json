@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T04:10:36.082320+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1711
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "2024",
+    "description": "Siggraph 2024 Shader Writing in OSL Course Supplementary Material",
+    "fork": false,
+    "full_name": "LaikaStudios/OSLShaderWriting",
+    "html_url": "https://github.com/LaikaStudios/OSLShaderWriting",
+    "language": "Makefile",
+    "pushed_at": "2024-12-04T16:46:42Z",
+    "stargazers_count": 27,
+    "topics": [],
+    "updated_at": "2026-04-20T08:01:48Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

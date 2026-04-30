@@ -1,11 +1,21 @@
 {
   "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/build_wheels_cuda.yml",
       "source_repo": "JustinLin610/AutoGPTQ"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/build_wheels_cuda.yml",
+      "source_repo": "jllllll/AutoGPTQ"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/build_wheels_cuda.yml",
+      "source_repo": "ChenMnZ/AutoGPTQ-bugfix"
     }
   ],
   "term": "Build AutoGPTQ Wheels with CUDA"

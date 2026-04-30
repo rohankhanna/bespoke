@@ -1,0 +1,432 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/acceptance.yml"
+    },
+    {
+      "component": "astral-sh/setup-uv@5a095e7a2014a4212f075830d4f7277575a9d098",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/acceptance.yml"
+    },
+    {
+      "component": "databrickslabs/sandbox/acceptance@3313d06ce86227537b3f37f5974f7eecb2a8e59a",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/acceptance.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs-release.yml"
+    },
+    {
+      "component": "actions/setup-node@53b83947a5a98c8d113130e565377fae1a50d02f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs-release.yml"
+    },
+    {
+      "component": "actions/upload-pages-artifact@7b1f4a764d45c48632c6b24a0339c27f5614fb0b",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs-release.yml"
+    },
+    {
+      "component": "actions/deploy-pages@d6db90164ac5ed86f2b6aed7e0febac5b3c0c03e",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs-release.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly.yml"
+    },
+    {
+      "component": "astral-sh/setup-uv@5a095e7a2014a4212f075830d4f7277575a9d098",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly.yml"
+    },
+    {
+      "component": "databrickslabs/sandbox/acceptance@3313d06ce86227537b3f37f5974f7eecb2a8e59a",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/no-cheat.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/push.yml"
+    },
+    {
+      "component": "astral-sh/setup-uv@5a095e7a2014a4212f075830d4f7277575a9d098",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/push.yml"
+    },
+    {
+      "component": "codecov/codecov-action@671740ac38dd9b0130fbe1cec585b89eea48d3de",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/push.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/push.yml"
+    },
+    {
+      "component": "astral-sh/setup-uv@5a095e7a2014a4212f075830d4f7277575a9d098",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/push.yml"
+    },
+    {
+      "component": "databricks/setup-cli@8db12393ac48926ab0074f3928f36c7abc441f90",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/push.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/solacc.yml"
+    },
+    {
+      "component": "astral-sh/setup-uv@5a095e7a2014a4212f075830d4f7277575a9d098",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/solacc.yml"
+    },
+    {
+      "component": "actions/upload-artifact@bbbca2ddaa5d8feaa63e36b76fdaad77386f024f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/solacc.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "pyproject.toml",
+      "source_repo": "databrickslabs/ucx",
+      "target": "databricks/ucx",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/acceptance.yml",
+      "source_repo": "databrickslabs/ucx",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/acceptance.yml",
+      "source_repo": "databrickslabs/ucx",
+      "target": "astral-sh/setup-uv@5a095e7a2014a4212f075830d4f7277575a9d098",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/acceptance.yml",
+      "source_repo": "databrickslabs/ucx",
+      "target": "databrickslabs/sandbox/acceptance@3313d06ce86227537b3f37f5974f7eecb2a8e59a",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/acceptance.yml",
+      "source_repo": "databrickslabs/ucx",
+      "target": "acceptance",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs-release.yml",
+      "source_repo": "databrickslabs/ucx",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs-release.yml",
+      "source_repo": "databrickslabs/ucx",
+      "target": "actions/setup-node@53b83947a5a98c8d113130e565377fae1a50d02f",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs-release.yml",
+      "source_repo": "databrickslabs/ucx",
+      "target": "actions/upload-pages-artifact@7b1f4a764d45c48632c6b24a0339c27f5614fb0b",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs-release.yml",
+      "source_repo": "databrickslabs/ucx",
+      "target": "actions/deploy-pages@d6db90164ac5ed86f2b6aed7e0febac5b3c0c03e",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docs-release.yml",
+      "source_repo": "databrickslabs/ucx",
+      "target": "Docs Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly.yml",
+      "source_repo": "databrickslabs/ucx",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly.yml",
+      "source_repo": "databrickslabs/ucx",
+      "target": "astral-sh/setup-uv@5a095e7a2014a4212f075830d4f7277575a9d098",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly.yml",
+      "source_repo": "databrickslabs/ucx",
+      "target": "databrickslabs/sandbox/acceptance@3313d06ce86227537b3f37f5974f7eecb2a8e59a",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/nightly.yml",
+      "source_repo": "databrickslabs/ucx",
+      "target": "nightly",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/no-cheat.yml",
+      "source_repo": "databrickslabs/ucx",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/no-cheat.yml",
+      "source_repo": "databrickslabs/ucx",
+      "target": "no-cheat",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/push.yml",
+      "source_repo": "databrickslabs/ucx",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/push.yml",
+      "source_repo": "databrickslabs/ucx",
+      "target": "astral-sh/setup-uv@5a095e7a2014a4212f075830d4f7277575a9d098",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/push.yml",
+      "source_repo": "databrickslabs/ucx",
+      "target": "codecov/codecov-action@671740ac38dd9b0130fbe1cec585b89eea48d3de",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/push.yml",
+      "source_repo": "databrickslabs/ucx",
+      "target": "databricks/setup-cli@8db12393ac48926ab0074f3928f36c7abc441f90",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/push.yml",
+      "source_repo": "databrickslabs/ucx",
+      "target": "build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/solacc.yml",
+      "source_repo": "databrickslabs/ucx",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/solacc.yml",
+      "source_repo": "databrickslabs/ucx",
+      "target": "astral-sh/setup-uv@5a095e7a2014a4212f075830d4f7277575a9d098",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/solacc.yml",
+      "source_repo": "databrickslabs/ucx",
+      "target": "actions/upload-artifact@bbbca2ddaa5d8feaa63e36b76fdaad77386f024f",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/solacc.yml",
+      "source_repo": "databrickslabs/ucx",
+      "target": "solacc",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "databrickslabs/ucx",
+      "target": "databricks",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "databrickslabs/ucx",
+      "target": "databricks-cli-installable",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "databrickslabs/ucx",
+      "target": "databricks-governance",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "databrickslabs/ucx",
+      "target": "unity-catalog",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T04:11:29.851253+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2276
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 28554
+    },
+    {
+      "path": ".github/workflows/acceptance.yml",
+      "size": 1758
+    },
+    {
+      "path": ".github/workflows/docs-release.yml",
+      "size": 1720
+    },
+    {
+      "path": ".github/workflows/nightly.yml",
+      "size": 1399
+    },
+    {
+      "path": ".github/workflows/no-cheat.yml",
+      "size": 1099
+    },
+    {
+      "path": ".github/workflows/push.yml",
+      "size": 2942
+    },
+    {
+      "path": ".github/workflows/solacc.yml",
+      "size": 1081
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Automated migrations to Unity Catalog",
+    "fork": false,
+    "full_name": "databrickslabs/ucx",
+    "html_url": "https://github.com/databrickslabs/ucx",
+    "language": "Python",
+    "pushed_at": "2026-04-29T21:37:15Z",
+    "stargazers_count": 305,
+    "topics": [
+      "databricks",
+      "databricks-cli-installable",
+      "databricks-governance",
+      "unity-catalog"
+    ],
+    "updated_at": "2026-04-29T16:03:03Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "databricks/ucx",
+      "source_file": "pyproject.toml"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "acceptance",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/acceptance.yml",
+      "term": "acceptance"
+    },
+    {
+      "context_snippet": "Docs Release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docs-release.yml",
+      "term": "Docs Release"
+    },
+    {
+      "context_snippet": "nightly",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/nightly.yml",
+      "term": "nightly"
+    },
+    {
+      "context_snippet": "no-cheat",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/no-cheat.yml",
+      "term": "no-cheat"
+    },
+    {
+      "context_snippet": "build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/push.yml",
+      "term": "build"
+    },
+    {
+      "context_snippet": "solacc",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/solacc.yml",
+      "term": "solacc"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "databricks"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "databricks-cli-installable"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "databricks-governance"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "unity-catalog"
+    }
+  ]
+}

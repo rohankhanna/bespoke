@@ -1,7 +1,7 @@
 {
   "component": "actions/setup-node@a0853c24544627f65ddf259abe73b1d18a591444",
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -47,6 +47,16 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/docs.yaml",
       "source_repo": "langchain4j/langchain4j"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/npm-publish.yml",
+      "source_repo": "Kong/proxy-wasm-assemblyscript-sdk"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/pr.yml",
+      "source_repo": "Kong/proxy-wasm-assemblyscript-sdk"
     }
   ]
 }

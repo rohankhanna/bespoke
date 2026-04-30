@@ -1,0 +1,149 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/jsr.yml"
+    },
+    {
+      "component": "denoland/setup-deno@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/jsr.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "denoland/setup-deno@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "denoland/setup-deno@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/jsr.yml",
+      "source_repo": "vim-fall/deno-fall-custom",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/jsr.yml",
+      "source_repo": "vim-fall/deno-fall-custom",
+      "target": "denoland/setup-deno@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/jsr.yml",
+      "source_repo": "vim-fall/deno-fall-custom",
+      "target": "jsr",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "vim-fall/deno-fall-custom",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "vim-fall/deno-fall-custom",
+      "target": "denoland/setup-deno@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "vim-fall/deno-fall-custom",
+      "target": "actions/cache@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "vim-fall/deno-fall-custom",
+      "target": "Test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "vim-fall/deno-fall-custom",
+      "target": "vim-fall",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T04:07:55.047163+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 804
+    },
+    {
+      "path": ".github/workflows/jsr.yml",
+      "size": 396
+    },
+    {
+      "path": ".github/workflows/test.yml",
+      "size": 1089
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Library to customize Fall, a Vim/Neovim fuzzy finder plugin powered by Denops.",
+    "fork": false,
+    "full_name": "vim-fall/deno-fall-custom",
+    "html_url": "https://github.com/vim-fall/deno-fall-custom",
+    "language": "TypeScript",
+    "pushed_at": "2024-11-17T07:39:23Z",
+    "stargazers_count": 2,
+    "topics": [
+      "vim-fall"
+    ],
+    "updated_at": "2024-11-17T07:36:05Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "jsr",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/jsr.yml",
+      "term": "jsr"
+    },
+    {
+      "context_snippet": "Test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "term": "Test"
+    },
+    {
+      "context_snippet": "[![JSR](https://jsr.io/badges/@vim-fall/custom)](https://jsr.io/@vim-fall/custom)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vim-fall"
+    }
+  ]
+}

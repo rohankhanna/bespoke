@@ -5,6 +5,13 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "confluentinc/librdkafka",
+      "target": "confluentinc/confluent-kafka-dotnet",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "confluentinc/librdkafka",
       "target": "ah-/rdkafka-dotnet",
       "target_type": "repository"
     },
@@ -12,14 +19,7 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "confluentinc/librdkafka",
-      "target": "blizzard/node-rdkafka",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "confluentinc/librdkafka",
-      "target": "arnaud-lb/php-rdkafka",
+      "target": "bookingcom/perl-net-kafka",
       "target_type": "repository"
     },
     {
@@ -86,7 +86,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-29T19:49:16.295394+00:00",
+  "fetched_at": "2026-04-30T04:54:56.660768+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -130,12 +130,12 @@
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "arnaud-lb/php-rdkafka",
+      "full_name": "bookingcom/perl-net-kafka",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "blizzard/node-rdkafka",
+      "full_name": "confluentinc/confluent-kafka-dotnet",
       "source_file": "README.md"
     }
   ],

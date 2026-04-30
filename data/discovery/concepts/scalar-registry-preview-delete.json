@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Scalar Registry Preview Delete"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "scalar/scalar",
+      "status": "candidate-context",
+      "text": "Scalar is an open-source API platform:\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\ud83c\udf10 Modern REST API Client\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\ud83d\udcd6 Beautiful API References\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u2728 1st-Class OpenAPI/Swagger Support"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "scalar/scalar",
+      "status": "candidate-context",
+      "text": "Scalar Registry Preview Delete"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "scalar/scalar",
+      "status": "candidate",
+      "text": "Scalar Registry Preview Delete"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27046,
+      "status": "candidate",
+      "text": "record"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27029,
+      "status": "candidate",
+      "text": "account"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27021,
+      "status": "candidate",
+      "text": "field"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27020,
+      "status": "candidate",
+      "text": "cuts"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26988,
+      "status": "candidate",
+      "text": "index"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Scalar Registry Preview Delete",
+  "concept_id": "scalar-registry-preview-delete",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/scalar-registry-preview-delete.yml",
+      "source_repo": "scalar/scalar"
+    }
+  ],
+  "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Scalar Registry Preview Delete",
+      "sense_id": "scalar-registry-preview-delete#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

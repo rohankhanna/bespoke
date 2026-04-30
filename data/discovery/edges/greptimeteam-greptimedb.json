@@ -1,0 +1,391 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "GreptimeTeam/greptimedb",
+      "target": "greptimeteam/demo-scene",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "GreptimeTeam/greptimedb",
+      "target": "greptimeteam/dashboard",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "GreptimeTeam/greptimedb",
+      "target": "greptimeteam/greptimedb-ingester-cpp",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "GreptimeTeam/greptimedb",
+      "target": "greptimeteam/greptimedb-grafana-datasource",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/apidoc.yml",
+      "source_repo": "GreptimeTeam/greptimedb",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/apidoc.yml",
+      "source_repo": "GreptimeTeam/greptimedb",
+      "target": "arduino/setup-protoc@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/apidoc.yml",
+      "source_repo": "GreptimeTeam/greptimedb",
+      "target": "actions-rust-lang/setup-rust-toolchain@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/apidoc.yml",
+      "source_repo": "GreptimeTeam/greptimedb",
+      "target": "JamesIves/github-pages-deploy-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/apidoc.yml",
+      "source_repo": "GreptimeTeam/greptimedb",
+      "target": "Build API docs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bump-helm-charts-version.yml",
+      "source_repo": "GreptimeTeam/greptimedb",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/bump-helm-charts-version.yml",
+      "source_repo": "GreptimeTeam/greptimedb",
+      "target": "Bump helm charts version",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bump-homebrew-greptime-version.yml",
+      "source_repo": "GreptimeTeam/greptimedb",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/bump-homebrew-greptime-version.yml",
+      "source_repo": "GreptimeTeam/greptimedb",
+      "target": "Bump homebrew greptime version",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-git-deps.yml",
+      "source_repo": "GreptimeTeam/greptimedb",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check-git-deps.yml",
+      "source_repo": "GreptimeTeam/greptimedb",
+      "target": "Check Git Dependencies on Main Branch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dependency-check.yml",
+      "source_repo": "GreptimeTeam/greptimedb",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dependency-check.yml",
+      "source_repo": "GreptimeTeam/greptimedb",
+      "target": "actions-rust-lang/setup-rust-toolchain@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/dependency-check.yml",
+      "source_repo": "GreptimeTeam/greptimedb",
+      "target": "Check Dependencies",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dev-build.yml",
+      "source_repo": "GreptimeTeam/greptimedb",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dev-build.yml",
+      "source_repo": "GreptimeTeam/greptimedb",
+      "target": "slackapi/slack-github-action@v1.23.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/dev-build.yml",
+      "source_repo": "GreptimeTeam/greptimedb",
+      "target": "GreptimeDB Development Build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/develop.yml",
+      "source_repo": "GreptimeTeam/greptimedb",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/develop.yml",
+      "source_repo": "GreptimeTeam/greptimedb",
+      "target": "crate-ci/typos@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/develop.yml",
+      "source_repo": "GreptimeTeam/greptimedb",
+      "target": "korandoru/hawkeye@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/develop.yml",
+      "source_repo": "GreptimeTeam/greptimedb",
+      "target": "arduino/setup-protoc@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/develop.yml",
+      "source_repo": "GreptimeTeam/greptimedb",
+      "target": "actions-rust-lang/setup-rust-toolchain@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/develop.yml",
+      "source_repo": "GreptimeTeam/greptimedb",
+      "target": "Swatinem/rust-cache@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/develop.yml",
+      "source_repo": "GreptimeTeam/greptimedb",
+      "target": "actions/download-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/develop.yml",
+      "source_repo": "GreptimeTeam/greptimedb",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/develop.yml",
+      "source_repo": "GreptimeTeam/greptimedb",
+      "target": "olivernybroe/action-conflict-finder@v4.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/develop.yml",
+      "source_repo": "GreptimeTeam/greptimedb",
+      "target": "rui314/setup-mold@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/develop.yml",
+      "source_repo": "GreptimeTeam/greptimedb",
+      "target": "taiki-e/install-action@nextest",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/develop.yml",
+      "source_repo": "GreptimeTeam/greptimedb",
+      "target": "taiki-e/install-action@cargo-llvm-cov",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/develop.yml",
+      "source_repo": "GreptimeTeam/greptimedb",
+      "target": "codecov/codecov-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docbot.yml",
+      "source_repo": "GreptimeTeam/greptimedb",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docbot.yml",
+      "source_repo": "GreptimeTeam/greptimedb",
+      "target": "Follow Up Docs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "GreptimeTeam/greptimedb",
+      "target": "ai-observability",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "GreptimeTeam/greptimedb",
+      "target": "analytics",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "GreptimeTeam/greptimedb",
+      "target": "cloud-native",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "GreptimeTeam/greptimedb",
+      "target": "database",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "GreptimeTeam/greptimedb",
+      "target": "distributed",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "GreptimeTeam/greptimedb",
+      "target": "greptimedb",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "GreptimeTeam/greptimedb",
+      "target": "llm-monitoring",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "GreptimeTeam/greptimedb",
+      "target": "logs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "GreptimeTeam/greptimedb",
+      "target": "metrics",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "GreptimeTeam/greptimedb",
+      "target": "monitoring",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "GreptimeTeam/greptimedb",
+      "target": "object-storage",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "GreptimeTeam/greptimedb",
+      "target": "observability",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "GreptimeTeam/greptimedb",
+      "target": "observability-database",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "GreptimeTeam/greptimedb",
+      "target": "observability-datalake",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "GreptimeTeam/greptimedb",
+      "target": "opentelemetry",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "GreptimeTeam/greptimedb",
+      "target": "prometheus",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "GreptimeTeam/greptimedb",
+      "target": "promql",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "GreptimeTeam/greptimedb",
+      "target": "rust",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "GreptimeTeam/greptimedb",
+      "target": "traces",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-30T00:37:16.824464+00:00",
+  "source_repo": "GreptimeTeam/greptimedb"
+}

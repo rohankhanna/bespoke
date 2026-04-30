@@ -499,6 +499,90 @@
       "source_repo": "apollographql/apollo-rs",
       "status": "candidate-context",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "RustPython/RustPython",
+      "status": "candidate-context",
+      "text": "A Python Interpreter written in Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "RustPython/RustPython",
+      "status": "candidate-context",
+      "text": "<img src=\"./logo.png\" width=\"125\" height=\"125\" align=\"right\" />"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "alibaba/BladeDISC",
+      "status": "candidate-context",
+      "text": "BladeDISC is an end-to-end DynamIc Shape Compiler project for machine learning workloads."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alibaba/BladeDISC",
+      "status": "candidate-context",
+      "text": "We're always looking for candicates to join dev team. Your're the one we're searching for long:"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "alpa-projects/alpa",
+      "status": "candidate-context",
+      "text": "Training and serving large-scale neural networks with auto parallelization."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alpa-projects/alpa",
+      "status": "candidate-context",
+      "text": "**Note: Alpa is not actively maintained currently. It is available as a research artifact. The core algorithm in Alpa has been merged into XLA, which is still being maintained. https://github.com/openxla/xla/tree/main/xla/hlo/experimental/auto_sharding**"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rescript-lang/rescript",
+      "status": "candidate-context",
+      "text": "ReScript is a robustly typed language that compiles to efficient and human-readable JavaScript."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rescript-lang/rescript",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "elm/compiler",
+      "status": "candidate-context",
+      "text": "Compiler for Elm, a functional language for reliable webapps."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "elm/compiler",
+      "status": "candidate-context",
+      "text": "A delightful language for reliable webapps."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "swc-project/swc",
+      "status": "candidate-context",
+      "text": "Rust-based platform for the Web"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "swc-project/swc",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "erg-lang/erg",
+      "status": "candidate-context",
+      "text": "A statically typed language compatible with Python"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "erg-lang/erg",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -745,6 +829,48 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "apollographql/apollo-rs",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "RustPython/RustPython",
+      "status": "candidate",
+      "text": "<img src=\"./logo.png\" width=\"125\" height=\"125\" align=\"right\" />"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alibaba/BladeDISC",
+      "status": "candidate",
+      "text": "We're always looking for candicates to join dev team. Your're the one we're searching for long:"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alpa-projects/alpa",
+      "status": "candidate",
+      "text": "**Note: Alpa is not actively maintained currently. It is available as a research artifact. The core algorithm in Alpa has been merged into XLA, which is still being maintained. https://github.com/openxla/xla/tree/main/xla/hlo/experimental/auto_sharding**"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rescript-lang/rescript",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "elm/compiler",
+      "status": "candidate",
+      "text": "A delightful language for reliable webapps."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "swc-project/swc",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "erg-lang/erg",
       "status": "candidate",
       "text": "<div align=\"center\">"
     }
@@ -1081,11 +1207,59 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "apollographql/apollo-rs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "RustPython/RustPython"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "vercel/next.js"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "alibaba/BladeDISC"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "alpa-projects/alpa"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "rescript-lang/rescript"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "elm/compiler"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "swc-project/swc"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "erg-lang/erg"
     }
   ],
   "first_seen_at": "2026-04-18T11:24:14.688152+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

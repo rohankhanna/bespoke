@@ -1,0 +1,479 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/setup-go@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check.yml"
+    },
+    {
+      "component": "actions/setup-go@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check.yml"
+    },
+    {
+      "component": "actions/setup-go@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/diff.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/diff.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/diff.yml"
+    },
+    {
+      "component": "google/oss-fuzz/infra/cifuzz/actions/build_fuzzers@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fuzz.yml"
+    },
+    {
+      "component": "google/oss-fuzz/infra/cifuzz/actions/run_fuzzers@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fuzz.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fuzz.yml"
+    },
+    {
+      "component": "github/codeql-action/upload-sarif@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fuzz.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/setup-go@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/setup-go@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/setup-go@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "expr-lang/expr",
+      "target": "antonmedv/golang-expression-evaluation-comparison",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "expr-lang/expr",
+      "target": "akvorado/akvorado",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "expr-lang/expr",
+      "target": "fastschema/fastschema",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "expr-lang/expr",
+      "target": "glassflow/clickhouse-etl",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "expr-lang/expr",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "expr-lang/expr",
+      "target": "actions/setup-go@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "expr-lang/expr",
+      "target": "build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check.yml",
+      "source_repo": "expr-lang/expr",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check.yml",
+      "source_repo": "expr-lang/expr",
+      "target": "actions/setup-go@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check.yml",
+      "source_repo": "expr-lang/expr",
+      "target": "check",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/diff.yml",
+      "source_repo": "expr-lang/expr",
+      "target": "actions/setup-go@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/diff.yml",
+      "source_repo": "expr-lang/expr",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/diff.yml",
+      "source_repo": "expr-lang/expr",
+      "target": "diff",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fuzz.yml",
+      "source_repo": "expr-lang/expr",
+      "target": "google/oss-fuzz/infra/cifuzz/actions/build_fuzzers@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fuzz.yml",
+      "source_repo": "expr-lang/expr",
+      "target": "google/oss-fuzz/infra/cifuzz/actions/run_fuzzers@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fuzz.yml",
+      "source_repo": "expr-lang/expr",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fuzz.yml",
+      "source_repo": "expr-lang/expr",
+      "target": "github/codeql-action/upload-sarif@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/fuzz.yml",
+      "source_repo": "expr-lang/expr",
+      "target": "fuzz",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "expr-lang/expr",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "expr-lang/expr",
+      "target": "actions/setup-go@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "expr-lang/expr",
+      "target": "test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "expr-lang/expr",
+      "target": "bytecode",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "expr-lang/expr",
+      "target": "configuration-language",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "expr-lang/expr",
+      "target": "engine",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "expr-lang/expr",
+      "target": "evaluator",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "expr-lang/expr",
+      "target": "expr",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "expr-lang/expr",
+      "target": "expression",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "expr-lang/expr",
+      "target": "expression-evaluator",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "expr-lang/expr",
+      "target": "expression-language",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "expr-lang/expr",
+      "target": "golang",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "expr-lang/expr",
+      "target": "rule-engine",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T03:57:35.693750+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7818
+    },
+    {
+      "path": "go.mod",
+      "size": 42
+    },
+    {
+      "path": ".github/workflows/build.yml",
+      "size": 511
+    },
+    {
+      "path": ".github/workflows/check.yml",
+      "size": 353
+    },
+    {
+      "path": ".github/workflows/diff.yml",
+      "size": 982
+    },
+    {
+      "path": ".github/workflows/fuzz.yml",
+      "size": 1080
+    },
+    {
+      "path": ".github/workflows/test.yml",
+      "size": 990
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Expression language and expression evaluation for Go",
+    "fork": false,
+    "full_name": "expr-lang/expr",
+    "html_url": "https://github.com/expr-lang/expr",
+    "language": "Go",
+    "pushed_at": "2026-04-12T14:40:16Z",
+    "stargazers_count": 7829,
+    "topics": [
+      "bytecode",
+      "configuration-language",
+      "engine",
+      "evaluator",
+      "expr",
+      "expression",
+      "expression-evaluator",
+      "expression-language",
+      "go",
+      "golang",
+      "rule-engine"
+    ],
+    "updated_at": "2026-04-29T16:24:32Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "akvorado/akvorado",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "antonmedv/golang-expression-evaluation-comparison",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "fastschema/fastschema",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "glassflow/clickhouse-etl",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "term": "build"
+    },
+    {
+      "context_snippet": "check",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check.yml",
+      "term": "check"
+    },
+    {
+      "context_snippet": "diff",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/diff.yml",
+      "term": "diff"
+    },
+    {
+      "context_snippet": "fuzz",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/fuzz.yml",
+      "term": "fuzz"
+    },
+    {
+      "context_snippet": "test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "term": "test"
+    },
+    {
+      "context_snippet": "<h1><a href=\"https://expr-lang.org\"><img src=\"https://expr-lang.org/img/logo.png\" alt=\"Zx logo\" height=\"48\"align=\"right\"></a> Expr</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bytecode"
+    },
+    {
+      "context_snippet": "<h1><a href=\"https://expr-lang.org\"><img src=\"https://expr-lang.org/img/logo.png\" alt=\"Zx logo\" height=\"48\"align=\"right\"></a> Expr</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "configuration-language"
+    },
+    {
+      "context_snippet": "<h1><a href=\"https://expr-lang.org\"><img src=\"https://expr-lang.org/img/logo.png\" alt=\"Zx logo\" height=\"48\"align=\"right\"></a> Expr</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "engine"
+    },
+    {
+      "context_snippet": "<h1><a href=\"https://expr-lang.org\"><img src=\"https://expr-lang.org/img/logo.png\" alt=\"Zx logo\" height=\"48\"align=\"right\"></a> Expr</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "evaluator"
+    },
+    {
+      "context_snippet": "<h1><a href=\"https://expr-lang.org\"><img src=\"https://expr-lang.org/img/logo.png\" alt=\"Zx logo\" height=\"48\"align=\"right\"></a> Expr</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "expr"
+    },
+    {
+      "context_snippet": "<h1><a href=\"https://expr-lang.org\"><img src=\"https://expr-lang.org/img/logo.png\" alt=\"Zx logo\" height=\"48\"align=\"right\"></a> Expr</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "expression"
+    },
+    {
+      "context_snippet": "<h1><a href=\"https://expr-lang.org\"><img src=\"https://expr-lang.org/img/logo.png\" alt=\"Zx logo\" height=\"48\"align=\"right\"></a> Expr</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "expression-evaluator"
+    },
+    {
+      "context_snippet": "<h1><a href=\"https://expr-lang.org\"><img src=\"https://expr-lang.org/img/logo.png\" alt=\"Zx logo\" height=\"48\"align=\"right\"></a> Expr</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "expression-language"
+    },
+    {
+      "context_snippet": "<h1><a href=\"https://expr-lang.org\"><img src=\"https://expr-lang.org/img/logo.png\" alt=\"Zx logo\" height=\"48\"align=\"right\"></a> Expr</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "golang"
+    },
+    {
+      "context_snippet": "<h1><a href=\"https://expr-lang.org\"><img src=\"https://expr-lang.org/img/logo.png\" alt=\"Zx logo\" height=\"48\"align=\"right\"></a> Expr</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rule-engine"
+    }
+  ]
+}

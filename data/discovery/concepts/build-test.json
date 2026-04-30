@@ -419,6 +419,42 @@
       "source_repo": "OffchainLabs/arbitrum-chain-sdk",
       "status": "candidate-context",
       "text": "Build, Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cargo-bins/release-pr",
+      "status": "candidate-context",
+      "text": "GitHub Action to create a release PR using cargo-release \u2014 soft deprecated: try release-plz instead!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cargo-bins/release-pr",
+      "status": "candidate-context",
+      "text": "'build-test'"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Blizzard/node-rdkafka",
+      "status": "candidate-context",
+      "text": "Node.js bindings for librdkafka"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Blizzard/node-rdkafka",
+      "status": "candidate-context",
+      "text": "Build & Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "artempyanykh/marksman",
+      "status": "candidate-context",
+      "text": "Write Markdown with code assist and intelligence in the comfort of your favourite editor."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "artempyanykh/marksman",
+      "status": "candidate-context",
+      "text": "Build & Test"
     }
   ],
   "candidate_glosses": [
@@ -631,6 +667,24 @@
       "source_repo": "OffchainLabs/arbitrum-chain-sdk",
       "status": "candidate",
       "text": "Build, Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cargo-bins/release-pr",
+      "status": "candidate",
+      "text": "'build-test'"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Blizzard/node-rdkafka",
+      "status": "candidate",
+      "text": "Build & Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "artempyanykh/marksman",
+      "status": "candidate",
+      "text": "Build & Test"
     }
   ],
   "candidate_related_terms": [
@@ -1046,11 +1100,65 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": ".github/workflows/build.yml",
       "source_repo": "dwyl/app"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "skim-rs/skim"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "cargo-bins/release-pr"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "Blizzard/node-rdkafka"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/build-test.yml",
+      "source_repo": "winfunc/opcode"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/build-and-test.yml",
+      "source_repo": "facebook/create-react-app"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "dwyl/app"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "artempyanykh/marksman"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/build-test.yaml",
+      "source_repo": "mudler/LocalAI"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "gobackup/gobackup"
     }
   ],
   "first_seen_at": "2026-04-18T10:43:38.551697+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

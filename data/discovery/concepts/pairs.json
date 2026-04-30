@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "pairs"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Fuco1/smartparens",
+      "status": "candidate-context",
+      "text": "Minor mode for Emacs that deals with parens pairs and tries to be smart about it."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Fuco1/smartparens",
+      "status": "candidate-context",
+      "text": "[![Join the chat at https://gitter.im/smartparens/Lobby](https://badges.gitter.im/smartparens/Lobby.svg)](https://gitter.im/smartparens/Lobby?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Fuco1/smartparens",
+      "status": "candidate",
+      "text": "[![Join the chat at https://gitter.im/smartparens/Lobby](https://badges.gitter.im/smartparens/Lobby.svg)](https://gitter.im/smartparens/Lobby?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10050926,
+      "status": "candidate",
+      "text": "pair off"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10045897,
+      "status": "candidate",
+      "text": "twosome"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10044137,
+      "status": "candidate",
+      "text": "dyad"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10041421,
+      "status": "candidate",
+      "text": "duad"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10039432,
+      "status": "candidate",
+      "text": "twain"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "pairs",
+  "concept_id": "pairs",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "Fuco1/smartparens"
+    }
+  ],
+  "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "pairs",
+      "sense_id": "pairs#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

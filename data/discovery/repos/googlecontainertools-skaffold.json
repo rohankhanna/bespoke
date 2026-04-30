@@ -1,0 +1,540 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    },
+    {
+      "component": "actions/cache@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    },
+    {
+      "component": "github/codeql-action/init@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    },
+    {
+      "component": "github/codeql-action/analyze@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration-linux.yml"
+    },
+    {
+      "component": "actions/setup-go@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration-linux.yml"
+    },
+    {
+      "component": "actions/setup-java@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration-linux.yml"
+    },
+    {
+      "component": "actions/cache@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration-linux.yml"
+    },
+    {
+      "component": "actions/setup-go@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linters-checks.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linters-checks.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scorecards.yml"
+    },
+    {
+      "component": "ossf/scorecard-action@v2.4.3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scorecards.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scorecards.yml"
+    },
+    {
+      "component": "github/codeql-action/upload-sarif@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scorecards.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/unit-tests-darwin.yml"
+    },
+    {
+      "component": "actions/setup-go@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/unit-tests-darwin.yml"
+    },
+    {
+      "component": "actions/cache@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/unit-tests-darwin.yml"
+    },
+    {
+      "component": "actions/setup-go@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/unit-tests-linux.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/unit-tests-linux.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/unit-tests-windows.yml"
+    },
+    {
+      "component": "actions/setup-go@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/unit-tests-windows.yml"
+    },
+    {
+      "component": "actions/cache@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/unit-tests-windows.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/verify-examples.yml"
+    },
+    {
+      "component": "actions/setup-go@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/verify-examples.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "go.mod",
+      "source_repo": "GoogleContainerTools/skaffold",
+      "target": "karrick/godirwalk",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "go.mod",
+      "source_repo": "GoogleContainerTools/skaffold",
+      "target": "buildpacks/lifecycle",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "GoogleContainerTools/skaffold",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "GoogleContainerTools/skaffold",
+      "target": "actions/cache@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "GoogleContainerTools/skaffold",
+      "target": "github/codeql-action/init@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "GoogleContainerTools/skaffold",
+      "target": "github/codeql-action/analyze@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "GoogleContainerTools/skaffold",
+      "target": "CodeQL",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration-linux.yml",
+      "source_repo": "GoogleContainerTools/skaffold",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration-linux.yml",
+      "source_repo": "GoogleContainerTools/skaffold",
+      "target": "actions/setup-go@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration-linux.yml",
+      "source_repo": "GoogleContainerTools/skaffold",
+      "target": "actions/setup-java@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration-linux.yml",
+      "source_repo": "GoogleContainerTools/skaffold",
+      "target": "actions/cache@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/integration-linux.yml",
+      "source_repo": "GoogleContainerTools/skaffold",
+      "target": "PR integration tests (linux)",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linters-checks.yml",
+      "source_repo": "GoogleContainerTools/skaffold",
+      "target": "actions/setup-go@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linters-checks.yml",
+      "source_repo": "GoogleContainerTools/skaffold",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/linters-checks.yml",
+      "source_repo": "GoogleContainerTools/skaffold",
+      "target": "PR linters, checks",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scorecards.yml",
+      "source_repo": "GoogleContainerTools/skaffold",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scorecards.yml",
+      "source_repo": "GoogleContainerTools/skaffold",
+      "target": "ossf/scorecard-action@v2.4.3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scorecards.yml",
+      "source_repo": "GoogleContainerTools/skaffold",
+      "target": "actions/upload-artifact@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scorecards.yml",
+      "source_repo": "GoogleContainerTools/skaffold",
+      "target": "github/codeql-action/upload-sarif@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/scorecards.yml",
+      "source_repo": "GoogleContainerTools/skaffold",
+      "target": "Scorecards supply-chain security",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/unit-tests-darwin.yml",
+      "source_repo": "GoogleContainerTools/skaffold",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/unit-tests-darwin.yml",
+      "source_repo": "GoogleContainerTools/skaffold",
+      "target": "actions/setup-go@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/unit-tests-darwin.yml",
+      "source_repo": "GoogleContainerTools/skaffold",
+      "target": "actions/cache@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/unit-tests-darwin.yml",
+      "source_repo": "GoogleContainerTools/skaffold",
+      "target": "PR unit tests (darwin)",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/unit-tests-linux.yml",
+      "source_repo": "GoogleContainerTools/skaffold",
+      "target": "actions/setup-go@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/unit-tests-linux.yml",
+      "source_repo": "GoogleContainerTools/skaffold",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/unit-tests-linux.yml",
+      "source_repo": "GoogleContainerTools/skaffold",
+      "target": "unit tests (linux)",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/unit-tests-windows.yml",
+      "source_repo": "GoogleContainerTools/skaffold",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/unit-tests-windows.yml",
+      "source_repo": "GoogleContainerTools/skaffold",
+      "target": "actions/setup-go@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/unit-tests-windows.yml",
+      "source_repo": "GoogleContainerTools/skaffold",
+      "target": "actions/cache@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/unit-tests-windows.yml",
+      "source_repo": "GoogleContainerTools/skaffold",
+      "target": "PR unit tests (windows)",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/verify-examples.yml",
+      "source_repo": "GoogleContainerTools/skaffold",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/verify-examples.yml",
+      "source_repo": "GoogleContainerTools/skaffold",
+      "target": "actions/setup-go@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/verify-examples.yml",
+      "source_repo": "GoogleContainerTools/skaffold",
+      "target": "Verify examples",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "GoogleContainerTools/skaffold",
+      "target": "containers",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "GoogleContainerTools/skaffold",
+      "target": "developer-tools",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "GoogleContainerTools/skaffold",
+      "target": "docker",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "GoogleContainerTools/skaffold",
+      "target": "kubernetes",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T05:07:58.960049+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4263
+    },
+    {
+      "path": "go.mod",
+      "size": 18975
+    },
+    {
+      "path": ".github/workflows/codeql-analysis.yml",
+      "size": 2220
+    },
+    {
+      "path": ".github/workflows/integration-linux.yml",
+      "size": 6519
+    },
+    {
+      "path": ".github/workflows/linters-checks.yml",
+      "size": 927
+    },
+    {
+      "path": ".github/workflows/scorecards.yml",
+      "size": 1777
+    },
+    {
+      "path": ".github/workflows/unit-tests-darwin.yml",
+      "size": 2068
+    },
+    {
+      "path": ".github/workflows/unit-tests-linux.yml",
+      "size": 1488
+    },
+    {
+      "path": ".github/workflows/unit-tests-windows.yml",
+      "size": 1657
+    },
+    {
+      "path": ".github/workflows/verify-examples.yml",
+      "size": 2831
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Easy and Repeatable Kubernetes Development",
+    "fork": false,
+    "full_name": "GoogleContainerTools/skaffold",
+    "html_url": "https://github.com/GoogleContainerTools/skaffold",
+    "language": "Go",
+    "pushed_at": "2026-04-23T17:36:28Z",
+    "stargazers_count": 15816,
+    "topics": [
+      "containers",
+      "developer-tools",
+      "docker",
+      "kubernetes"
+    ],
+    "updated_at": "2026-04-28T16:00:54Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "buildpacks/lifecycle",
+      "source_file": "go.mod"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "karrick/godirwalk",
+      "source_file": "go.mod"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "\"CodeQL\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "term": "CodeQL"
+    },
+    {
+      "context_snippet": "PR integration tests (linux)",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/integration-linux.yml",
+      "term": "PR integration tests (linux)"
+    },
+    {
+      "context_snippet": "PR linters, checks",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/linters-checks.yml",
+      "term": "PR linters, checks"
+    },
+    {
+      "context_snippet": "Scorecards supply-chain security",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/scorecards.yml",
+      "term": "Scorecards supply-chain security"
+    },
+    {
+      "context_snippet": "PR unit tests (darwin)",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/unit-tests-darwin.yml",
+      "term": "PR unit tests (darwin)"
+    },
+    {
+      "context_snippet": "unit tests (linux)",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/unit-tests-linux.yml",
+      "term": "unit tests (linux)"
+    },
+    {
+      "context_snippet": "PR unit tests (windows)",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/unit-tests-windows.yml",
+      "term": "PR unit tests (windows)"
+    },
+    {
+      "context_snippet": "Verify examples",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/verify-examples.yml",
+      "term": "Verify examples"
+    },
+    {
+      "context_snippet": "<!-- github does not support `width` with markdown images-->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "containers"
+    },
+    {
+      "context_snippet": "<!-- github does not support `width` with markdown images-->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "developer-tools"
+    },
+    {
+      "context_snippet": "<!-- github does not support `width` with markdown images-->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "docker"
+    },
+    {
+      "context_snippet": "<!-- github does not support `width` with markdown images-->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "kubernetes"
+    }
+  ]
+}

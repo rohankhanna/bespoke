@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "cvlab-yonsei/JoEm",
+      "target": "valeoai/zs3",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T01:38:15.764751+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3672
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "An official implementation of \"Exploiting a Joint Embedding Space for Generalized Zero-Shot Semantic Segmentation\" (ICCV 2021) in PyTorch.",
+    "fork": false,
+    "full_name": "cvlab-yonsei/JoEm",
+    "html_url": "https://github.com/cvlab-yonsei/JoEm",
+    "language": "Python",
+    "pushed_at": "2021-08-11T15:42:59Z",
+    "stargazers_count": 44,
+    "topics": [],
+    "updated_at": "2025-10-31T00:59:41Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "valeoai/zs3",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

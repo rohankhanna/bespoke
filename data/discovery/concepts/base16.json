@@ -115,6 +115,42 @@
       "source_repo": "tinted-theming/tinted-xfce4-terminal",
       "status": "candidate-context",
       "text": "**Deprecation Notice**: tinted-xfce4-terminal and all the other Tinted"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "RealFerdinandDeSaussure/base16-builder-python",
+      "status": "candidate-context",
+      "text": "A base16 colorscheme builder for Python"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "RealFerdinandDeSaussure/base16-builder-python",
+      "status": "candidate-context",
+      "text": ".. image:: https://travis-ci.org/InspectorMustache/base16-builder-python.svg?branch=master"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "tinted-theming/tinted-iterm2",
+      "status": "candidate-context",
+      "text": "Base16 for iTerm2"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tinted-theming/tinted-iterm2",
+      "status": "candidate-context",
+      "text": "**Deprecated**: tinted-iterm2 and all the other Tinted Theming"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "tinted-theming/tinted-shell",
+      "status": "candidate-context",
+      "text": "Base16 and Base24 for Shells"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tinted-theming/tinted-shell",
+      "status": "candidate-context",
+      "text": "[![Matrix Chat](https://img.shields.io/matrix/tinted-theming:matrix.org)](https://matrix.to/#/#tinted-theming:matrix.org)"
     }
   ],
   "candidate_glosses": [
@@ -171,6 +207,24 @@
       "source_repo": "tinted-theming/tinted-xfce4-terminal",
       "status": "candidate",
       "text": "**Deprecation Notice**: tinted-xfce4-terminal and all the other Tinted"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "RealFerdinandDeSaussure/base16-builder-python",
+      "status": "candidate",
+      "text": ".. image:: https://travis-ci.org/InspectorMustache/base16-builder-python.svg?branch=master"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tinted-theming/tinted-iterm2",
+      "status": "candidate",
+      "text": "**Deprecated**: tinted-iterm2 and all the other Tinted Theming"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tinted-theming/tinted-shell",
+      "status": "candidate",
+      "text": "[![Matrix Chat](https://img.shields.io/matrix/tinted-theming:matrix.org)](https://matrix.to/#/#tinted-theming:matrix.org)"
     }
   ],
   "candidate_related_terms": [],
@@ -232,11 +286,29 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "tinted-theming/tinted-xfce4-terminal"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "RealFerdinandDeSaussure/base16-builder-python"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "tinted-theming/tinted-iterm2"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "tinted-theming/tinted-shell"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

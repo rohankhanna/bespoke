@@ -1,0 +1,132 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "codefuse-ai/codefuse-evaluation",
+      "target": "codefuse-ai/mftcoder",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "codefuse-ai/codefuse-evaluation",
+      "target": "code-evaluation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "codefuse-ai/codefuse-evaluation",
+      "target": "codecommenteval",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "codefuse-ai/codefuse-evaluation",
+      "target": "codefuse",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "codefuse-ai/codefuse-evaluation",
+      "target": "codetranseval",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "codefuse-ai/codefuse-evaluation",
+      "target": "evaluation-framework",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "codefuse-ai/codefuse-evaluation",
+      "target": "repository-eval",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T02:41:45.652351+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 12511
+    },
+    {
+      "path": "requirements.txt",
+      "size": 779
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Industrial-level evaluation benchmarks for Coding LLMs in the full life-cycle of AI native software developing.\u4f01\u4e1a\u7ea7\u4ee3\u7801\u5927\u6a21\u578b\u8bc4\u6d4b\u4f53\u7cfb,\u6301\u7eed\u5f00\u653e\u4e2d",
+    "fork": false,
+    "full_name": "codefuse-ai/codefuse-evaluation",
+    "html_url": "https://github.com/codefuse-ai/codefuse-evaluation",
+    "language": "Python",
+    "pushed_at": "2025-04-28T02:19:41Z",
+    "stargazers_count": 109,
+    "topics": [
+      "code-evaluation",
+      "codecommenteval",
+      "codefuse",
+      "codetranseval",
+      "evaluation-framework",
+      "lcc",
+      "repository-eval"
+    ],
+    "updated_at": "2026-04-19T15:59:13Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "codefuse-ai/mftcoder",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "code-evaluation"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "codecommenteval"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "codefuse"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "codetranseval"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "evaluation-framework"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "repository-eval"
+    }
+  ]
+}

@@ -31,6 +31,18 @@
       "source_repo": "cuiziteng/Illumination-Adaptive-Transformer",
       "status": "candidate-context",
       "text": "**2023.12.15:** Our new work Aleth-NeRF: Illumination Adaptive NeRF with Concealing Field Assumption has been accepted by **AAAI 2024**, please refer [(here)](https://github.com/cuiziteng/Aleth-NeRF) if you interest in NeRF under low-light~"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cuiziteng/Aleth-NeRF",
+      "status": "candidate-context",
+      "text": "\ud83c\udf15 [AAAI 2024] Aleth-NeRF: Illumination Adaptive NeRF with Concealing Field Assumption (Low-light enhance / Exposure correction + NeRF)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cuiziteng/Aleth-NeRF",
+      "status": "candidate-context",
+      "text": "[Ziteng Cui<sup>1,2</sup>](https://cuiziteng.github.io/),"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +57,12 @@
       "source_repo": "cuiziteng/Illumination-Adaptive-Transformer",
       "status": "candidate",
       "text": "**2023.12.15:** Our new work Aleth-NeRF: Illumination Adaptive NeRF with Concealing Field Assumption has been accepted by **AAAI 2024**, please refer [(here)](https://github.com/cuiziteng/Aleth-NeRF) if you interest in NeRF under low-light~"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cuiziteng/Aleth-NeRF",
+      "status": "candidate",
+      "text": "[Ziteng Cui<sup>1,2</sup>](https://cuiziteng.github.io/),"
     }
   ],
   "candidate_related_terms": [],
@@ -64,11 +82,17 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "cuiziteng/Illumination-Adaptive-Transformer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "cuiziteng/Aleth-NeRF"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

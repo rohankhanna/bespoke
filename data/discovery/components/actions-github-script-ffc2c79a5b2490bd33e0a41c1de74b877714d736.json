@@ -1,0 +1,12 @@
+{
+  "component": "actions/github-script@ffc2c79a5b2490bd33e0a41c1de74b877714d736",
+  "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/dev_cron.yml",
+      "source_repo": "oap-project/oap-mllib"
+    }
+  ]
+}

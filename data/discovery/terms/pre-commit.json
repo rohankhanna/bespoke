@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-18T10:43:38.551697+00:00",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
@@ -451,6 +451,41 @@
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/pre-commit.yml",
       "source_repo": "cobalt-org/cobalt-org.github.io"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "cachix/git-hooks.nix"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/pre-commit.yml",
+      "source_repo": "vipshop/cache-dit"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/pre-commit.yaml",
+      "source_repo": "LAION-AI/Open-Assistant"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/pre-commit.yml",
+      "source_repo": "TorchDR/TorchDR"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/pre-commit.yml",
+      "source_repo": "ModelTC/GenRL"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/pre-commit.yaml",
+      "source_repo": "pallets/flask"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/pre-commit.yml",
+      "source_repo": "dmlc/treelite"
     }
   ],
   "term": "pre-commit"

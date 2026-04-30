@@ -19,6 +19,18 @@
       "source_repo": "yassinedoghri/astro-i18next",
       "status": "candidate-context",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "locize/locize-lastused",
+      "status": "candidate-context",
+      "text": "Using API lastUsed using in node.js, in the browser and for deno."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "locize/locize-lastused",
+      "status": "candidate-context",
+      "text": "[![Actions](https://github.com/locize/locize-lastused/workflows/node/badge.svg)](https://github.com/locize/locize-lastused/actions?query=workflow%3Anode)"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "yassinedoghri/astro-i18next",
       "status": "candidate",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "locize/locize-lastused",
+      "status": "candidate",
+      "text": "[![Actions](https://github.com/locize/locize-lastused/workflows/node/badge.svg)](https://github.com/locize/locize-lastused/actions?query=workflow%3Anode)"
     }
   ],
   "candidate_related_terms": [
@@ -76,11 +94,17 @@
       "observed_at": "2026-04-24T00:33:56.049672+00:00",
       "source_file": null,
       "source_repo": "yassinedoghri/astro-i18next"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "locize/locize-lastused"
     }
   ],
   "first_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

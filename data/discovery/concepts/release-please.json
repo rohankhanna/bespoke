@@ -528,6 +528,30 @@
       "source_repo": "mdn/mdn-http-observatory",
       "status": "candidate-context",
       "text": "release-please"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lumen-oss/rocks.nvim",
+      "status": "candidate-context",
+      "text": "\ud83c\udf12 Neovim plugin management inspired by Cargo, powered by luarocks"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lumen-oss/rocks.nvim",
+      "status": "candidate-context",
+      "text": "Release Please"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pysan3/pathlib.nvim",
+      "status": "candidate-context",
+      "text": "Ultimate solution to path handling in neovim. OS Independent."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pysan3/pathlib.nvim",
+      "status": "candidate-context",
+      "text": "release-please"
     }
   ],
   "candidate_glosses": [
@@ -798,6 +822,18 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "mdn/mdn-http-observatory",
+      "status": "candidate",
+      "text": "release-please"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lumen-oss/rocks.nvim",
+      "status": "candidate",
+      "text": "Release Please"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pysan3/pathlib.nvim",
       "status": "candidate",
       "text": "release-please"
     }
@@ -1261,11 +1297,35 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": ".github/workflows/release-please.yml",
       "source_repo": "mdn/mdn-http-observatory"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/release-please.yml",
+      "source_repo": "a2aproject/a2a-js"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "JakeChampion/fetch"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/release-please.yml",
+      "source_repo": "lumen-oss/rocks.nvim"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/release-please.yml",
+      "source_repo": "pysan3/pathlib.nvim"
     }
   ],
   "first_seen_at": "2026-04-18T11:24:14.688152+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

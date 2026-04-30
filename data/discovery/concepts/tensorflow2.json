@@ -91,6 +91,36 @@
       "source_repo": "osmr/imgclsmob",
       "status": "candidate-context",
       "text": "[![Build Status](https://travis-ci.org/osmr/imgclsmob.svg?branch=master)](https://travis-ci.org/osmr/imgclsmob)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "BMW-InnovationLab/BMW-TensorFlow-Training-GUI",
+      "status": "candidate-context",
+      "text": "This repository allows you to get started with a gui based training a State-of-the-art Deep Learning model with little to no configuration needed! NoCode training with TensorFlow has never been so easy."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "BMW-InnovationLab/BMW-TensorFlow-Training-GUI",
+      "status": "candidate-context",
+      "text": "Updated for CUDA 11 and Tensorflow 2!!!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "CXYCarson/TF_AcBlock",
+      "status": "candidate-context",
+      "text": "This is a re-implementation of the paper: 'ACNet: Strengthening the Kernel Skeletons for Powerful CNN via Asymmetric Convolution Blocks'"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "google-research/human-scene-transformer",
+      "status": "candidate-context",
+      "text": "Human Scene Transformer: A framework for trajectory prediction and wrappers for reframing the JRDB dataset for the prediction task."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google-research/human-scene-transformer",
+      "status": "candidate-context",
+      "text": ":trophy: Winner of the [2023 JRDB Trajectory Prediction Challenge](https://jrdb.erc.monash.edu/leaderboards/trajectory) - [Reproduce](#jrdb-trajectory-prediction-challenge-results) our Result!"
     }
   ],
   "candidate_glosses": [
@@ -135,6 +165,24 @@
       "source_repo": "osmr/imgclsmob",
       "status": "candidate",
       "text": "[![Build Status](https://travis-ci.org/osmr/imgclsmob.svg?branch=master)](https://travis-ci.org/osmr/imgclsmob)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "BMW-InnovationLab/BMW-TensorFlow-Training-GUI",
+      "status": "candidate",
+      "text": "Updated for CUDA 11 and Tensorflow 2!!!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "CXYCarson/TF_AcBlock",
+      "status": "candidate",
+      "text": "This is a re-implementation of the paper: 'ACNet: Strengthening the Kernel Skeletons for Powerful CNN via Asymmetric Convolution Blocks'"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google-research/human-scene-transformer",
+      "status": "candidate",
+      "text": ":trophy: Winner of the [2023 JRDB Trajectory Prediction Challenge](https://jrdb.erc.monash.edu/leaderboards/trajectory) - [Reproduce](#jrdb-trajectory-prediction-challenge-results) our Result!"
     }
   ],
   "candidate_related_terms": [],
@@ -184,11 +232,29 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "osmr/imgclsmob"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "BMW-InnovationLab/BMW-TensorFlow-Training-GUI"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "CXYCarson/TF_AcBlock"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "google-research/human-scene-transformer"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,76 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PKU-YuanGroup/Video-Bench",
+      "target": "benchmark",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PKU-YuanGroup/Video-Bench",
+      "target": "large-language-models",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PKU-YuanGroup/Video-Bench",
+      "target": "toolkit",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T01:59:41.868956+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 13348
+    },
+    {
+      "path": "requirements.txt",
+      "size": 12
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A Comprehensive Benchmark and Toolkit for Evaluating Video-based Large Language Models!",
+    "fork": false,
+    "full_name": "PKU-YuanGroup/Video-Bench",
+    "html_url": "https://github.com/PKU-YuanGroup/Video-Bench",
+    "language": "Python",
+    "pushed_at": "2023-12-31T03:41:41Z",
+    "stargazers_count": 138,
+    "topics": [
+      "benchmark",
+      "large-language-models",
+      "toolkit"
+    ],
+    "updated_at": "2026-03-10T11:01:01Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "benchmark"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "large-language-models"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "toolkit"
+    }
+  ]
+}

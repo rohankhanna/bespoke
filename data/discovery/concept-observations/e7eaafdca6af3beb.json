@@ -1,0 +1,108 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "An official implementation for \" UniVL: A Unified Video and Language Pre-Training Model for Multimodal Understanding and Generation\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "The implementation of paper [**UniVL: A Unified Video and Language Pre-Training Model for Multimodal Understanding and Generation**](https://arxiv.org/abs/2002.06353)."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "The implementation of paper [**UniVL: A Unified Video and Language Pre-Training Model for Multimodal Understanding and Generation**](https://arxiv.org/abs/2002.06353)."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40039706,
+      "status": "candidate",
+      "text": "subtitle"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40010286,
+      "status": "candidate",
+      "text": "legend"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30040550,
+      "status": "candidate",
+      "text": "subheading"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30040534,
+      "status": "candidate",
+      "text": "heading"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30040128,
+      "status": "candidate",
+      "text": "subtitling"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "caption",
+      "sense_id": "caption#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 16050,
+      "status": "candidate",
+      "text": "legend"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 30,
+      "status": "candidate",
+      "text": "subtitle"
+    }
+  ],
+  "concept_id": "caption",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "caption",
+  "observation_id": "e7eaafdca6af3beb",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T00:37:16.824464+00:00",
+  "observed_text": "caption",
+  "source_context_snippet": "The implementation of paper [**UniVL: A Unified Video and Language Pre-Training Model for Multimodal Understanding and Generation**](https://arxiv.org/abs/2002.06353).",
+  "source_file": null,
+  "source_repo": "microsoft/UniVL",
+  "source_repo_description": "An official implementation for \" UniVL: A Unified Video and Language Pre-Training Model for Multimodal Understanding and Generation\""
+}

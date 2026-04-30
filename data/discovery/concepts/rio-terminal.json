@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "rio-terminal"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "raphamorim/rio",
+      "status": "candidate-context",
+      "text": "A hardware-accelerated GPU terminal emulator focusing to run in desktops and browsers."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "raphamorim/rio",
+      "status": "candidate-context",
+      "text": "<!-- LOGO -->"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "raphamorim/rio",
+      "status": "candidate",
+      "text": "<!-- LOGO -->"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "rio-terminal",
+  "concept_id": "rio-terminal",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "raphamorim/rio"
+    }
+  ],
+  "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "rio-terminal",
+      "sense_id": "rio-terminal#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

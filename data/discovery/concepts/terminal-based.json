@@ -55,6 +55,42 @@
       "source_repo": "Rigellute/spotify-tui",
       "status": "candidate-context",
       "text": "![Continuous Integration](https://github.com/Rigellute/spotify-tui/workflows/Continuous%20Integration/badge.svg?branch=master&event=push)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Byron/dua-cli",
+      "status": "candidate-context",
+      "text": "View disk space usage and delete unwanted data, fast."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Byron/dua-cli",
+      "status": "candidate-context",
+      "text": "[![Rust](https://github.com/Byron/dua-cli/workflows/Rust/badge.svg)](https://github.com/byron/dua-cli/actions)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "AnonymouX47/term-image",
+      "status": "candidate-context",
+      "text": "Display images in the terminal with python"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AnonymouX47/term-image",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JuliaLogging/TerminalLoggers.jl",
+      "status": "candidate-context",
+      "text": "Logging sinks and utilites for interactive terminals"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaLogging/TerminalLoggers.jl",
+      "status": "candidate-context",
+      "text": "[![Stable](https://img.shields.io/badge/docs-stable-blue.svg)](https://JuliaLogging.github.io/TerminalLoggers.jl/stable)"
     }
   ],
   "candidate_glosses": [
@@ -81,6 +117,24 @@
       "source_repo": "Rigellute/spotify-tui",
       "status": "candidate",
       "text": "![Continuous Integration](https://github.com/Rigellute/spotify-tui/workflows/Continuous%20Integration/badge.svg?branch=master&event=push)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Byron/dua-cli",
+      "status": "candidate",
+      "text": "[![Rust](https://github.com/Byron/dua-cli/workflows/Rust/badge.svg)](https://github.com/byron/dua-cli/actions)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AnonymouX47/term-image",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaLogging/TerminalLoggers.jl",
+      "status": "candidate",
+      "text": "[![Stable](https://img.shields.io/badge/docs-stable-blue.svg)](https://JuliaLogging.github.io/TerminalLoggers.jl/stable)"
     }
   ],
   "candidate_related_terms": [],
@@ -112,11 +166,29 @@
       "observed_at": "2026-04-24T00:33:56.049672+00:00",
       "source_file": null,
       "source_repo": "Rigellute/spotify-tui"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "Byron/dua-cli"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "AnonymouX47/term-image"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "JuliaLogging/TerminalLoggers.jl"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

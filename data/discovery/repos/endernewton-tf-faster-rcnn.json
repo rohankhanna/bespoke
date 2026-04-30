@@ -1,0 +1,178 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "endernewton/tf-faster-rcnn",
+      "target": "rbgirshick/py-faster-rcnn",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "endernewton/tf-faster-rcnn",
+      "target": "daijifeng001/r-fcn",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "endernewton/tf-faster-rcnn",
+      "target": "endernewton/tensorflow",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "endernewton/tf-faster-rcnn",
+      "target": "pdollar/coco",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "endernewton/tf-faster-rcnn",
+      "target": "coco",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "endernewton/tf-faster-rcnn",
+      "target": "faster-rcnn",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "endernewton/tf-faster-rcnn",
+      "target": "mobilenet",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "endernewton/tf-faster-rcnn",
+      "target": "object-detection",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "endernewton/tf-faster-rcnn",
+      "target": "resnet",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "endernewton/tf-faster-rcnn",
+      "target": "tensorboard",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "endernewton/tf-faster-rcnn",
+      "target": "tensorflow",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T03:55:43.432086+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 16282
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Tensorflow Faster RCNN for Object Detection",
+    "fork": false,
+    "full_name": "endernewton/tf-faster-rcnn",
+    "html_url": "https://github.com/endernewton/tf-faster-rcnn",
+    "language": "Python",
+    "pushed_at": "2021-09-27T10:11:10Z",
+    "stargazers_count": 3661,
+    "topics": [
+      "coco",
+      "faster-rcnn",
+      "mobilenet",
+      "object-detection",
+      "resnet",
+      "tensorboard",
+      "tensorflow",
+      "voc"
+    ],
+    "updated_at": "2026-04-13T05:21:13Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "daijifeng001/r-fcn",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "endernewton/tensorflow",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "pdollar/coco",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "rbgirshick/py-faster-rcnn",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "For a good and more up-to-date implementation for faster/mask RCNN with multi-gpu support, please see the example in TensorPack [here](https://github.com/tensorpack/tensorpack/tree/master/examples/FasterRCNN).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "coco"
+    },
+    {
+      "context_snippet": "For a good and more up-to-date implementation for faster/mask RCNN with multi-gpu support, please see the example in TensorPack [here](https://github.com/tensorpack/tensorpack/tree/master/examples/FasterRCNN).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "faster-rcnn"
+    },
+    {
+      "context_snippet": "For a good and more up-to-date implementation for faster/mask RCNN with multi-gpu support, please see the example in TensorPack [here](https://github.com/tensorpack/tensorpack/tree/master/examples/FasterRCNN).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mobilenet"
+    },
+    {
+      "context_snippet": "For a good and more up-to-date implementation for faster/mask RCNN with multi-gpu support, please see the example in TensorPack [here](https://github.com/tensorpack/tensorpack/tree/master/examples/FasterRCNN).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "object-detection"
+    },
+    {
+      "context_snippet": "For a good and more up-to-date implementation for faster/mask RCNN with multi-gpu support, please see the example in TensorPack [here](https://github.com/tensorpack/tensorpack/tree/master/examples/FasterRCNN).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "resnet"
+    },
+    {
+      "context_snippet": "For a good and more up-to-date implementation for faster/mask RCNN with multi-gpu support, please see the example in TensorPack [here](https://github.com/tensorpack/tensorpack/tree/master/examples/FasterRCNN).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tensorboard"
+    },
+    {
+      "context_snippet": "For a good and more up-to-date implementation for faster/mask RCNN with multi-gpu support, please see the example in TensorPack [here](https://github.com/tensorpack/tensorpack/tree/master/examples/FasterRCNN).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tensorflow"
+    }
+  ]
+}

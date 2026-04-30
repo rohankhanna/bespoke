@@ -1,7 +1,7 @@
 {
   "component": "pre-commit/action@v3.0.1",
   "first_seen_at": "2026-04-18T09:21:02.237042+00:00",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -337,6 +337,66 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/checks.yaml",
       "source_repo": "optuna/optunahub-registry"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/precommit.yml",
+      "source_repo": "microsoft/olive-recipes"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yml",
+      "source_repo": "vipshop/cache-dit"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "praw-dev/.github"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/e2e_ppo_trainer.yml",
+      "source_repo": "Computer-use-agents/dart-gui"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "google-deepmind/mujoco"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/code-checks.yml",
+      "source_repo": "rstudio/pins-python"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/checks.yaml",
+      "source_repo": "optuna/optunahub"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yaml",
+      "source_repo": "ROCm/flash-attention"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yaml",
+      "source_repo": "hao-ai-lab/flash-attention-fp4"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "NVlabs/Sana"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yml",
+      "source_repo": "ag2ai/build-with-ag2"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/formatting.yaml",
+      "source_repo": "bazel-contrib/rules_foreign_cc"
     }
   ]
 }

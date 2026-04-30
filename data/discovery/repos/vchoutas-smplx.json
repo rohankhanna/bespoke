@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T03:49:27.200726+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9645
+    },
+    {
+      "path": "requirements.txt",
+      "size": 50
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "SMPL-X",
+    "fork": false,
+    "full_name": "vchoutas/smplx",
+    "html_url": "https://github.com/vchoutas/smplx",
+    "language": "Python",
+    "pushed_at": "2024-08-12T05:09:47Z",
+    "stargazers_count": 2572,
+    "topics": [],
+    "updated_at": "2026-04-29T07:45:37Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

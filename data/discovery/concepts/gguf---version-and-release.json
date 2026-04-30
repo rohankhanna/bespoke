@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "GGUF - Version and Release"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "huggingface/huggingface.js",
+      "status": "candidate-context",
+      "text": "Use Hugging Face with JavaScript"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "huggingface/huggingface.js",
+      "status": "candidate-context",
+      "text": "GGUF - Version and Release"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "huggingface/huggingface.js",
+      "status": "candidate",
+      "text": "GGUF - Version and Release"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28885,
+      "status": "candidate",
+      "text": "beta"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28085,
+      "status": "candidate",
+      "text": "free"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28085,
+      "status": "candidate",
+      "text": "freeing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28085,
+      "status": "candidate",
+      "text": "linspire"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11685,
+      "status": "candidate",
+      "text": "cut"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "GGUF - Version and Release",
+  "concept_id": "gguf---version-and-release",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/gguf-publish.yml",
+      "source_repo": "huggingface/huggingface.js"
+    }
+  ],
+  "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "GGUF - Version and Release",
+      "sense_id": "gguf---version-and-release#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

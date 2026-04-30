@@ -1168,6 +1168,198 @@
       "source_repo": "base/base",
       "status": "candidate-context",
       "text": "Benchmark"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "KSXGitHub/parallel-disk-usage",
+      "status": "candidate-context",
+      "text": "Highly parallelized, blazing fast directory tree analyzer"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "KSXGitHub/parallel-disk-usage",
+      "status": "candidate-context",
+      "text": "Benchmark"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hermit-os/kernel",
+      "status": "candidate-context",
+      "text": "A Rust-based, lightweight unikernel."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hermit-os/kernel",
+      "status": "candidate-context",
+      "text": "Benchmark"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "the-benchmarker/graphql-benchmarks",
+      "status": "candidate-context",
+      "text": "GraphQL benchmarks using the-benchmarker framework."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "the-benchmarker/graphql-benchmarks",
+      "status": "candidate-context",
+      "text": "It's all about GraphQL server benchmarking across many languages."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "the-benchmarker/web-frameworks",
+      "status": "candidate-context",
+      "text": "Which is the fastest web framework?"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "the-benchmarker/web-frameworks",
+      "status": "candidate-context",
+      "text": "- `ruby`, all tools are made in `ruby`"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "PKU-YuanGroup/Video-Bench",
+      "status": "candidate-context",
+      "text": "A Comprehensive Benchmark and Toolkit for Evaluating Video-based Large Language Models!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PKU-YuanGroup/Video-Bench",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bytedance/UI-TARS-desktop",
+      "status": "candidate-context",
+      "text": "The Open-Source Multimodal AI Agent Stack: Connecting Cutting-Edge AI Models and Agent Infra"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bytedance/UI-TARS-desktop",
+      "status": "candidate-context",
+      "text": "Benchmark"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kurrent-io/KurrentDB-Client-NodeJS",
+      "status": "candidate-context",
+      "text": "KurrentDB NodeJS Client"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kurrent-io/KurrentDB-Client-NodeJS",
+      "status": "candidate-context",
+      "text": "Benchmark"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "yhirose/cpp-httplib",
+      "status": "candidate-context",
+      "text": "A C++ header-only HTTP/HTTPS server and client library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "yhirose/cpp-httplib",
+      "status": "candidate-context",
+      "text": "benchmark"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "swc-project/swc",
+      "status": "candidate-context",
+      "text": "Rust-based platform for the Web"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "swc-project/swc",
+      "status": "candidate-context",
+      "text": "Benchmark"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "optuna/optunahub",
+      "status": "candidate-context",
+      "text": "Python library to use and implement packages in OptunaHub"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "optuna/optunahub",
+      "status": "candidate-context",
+      "text": "OptunaHub: A Platform for Black-Box Optimization"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "optuna/optunahub-web",
+      "status": "candidate-context",
+      "text": "Frontend of OptunaHub Registry"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "optuna/optunahub-web",
+      "status": "candidate-context",
+      "text": "OptunaHub Web"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "google-deepmind/tapnet",
+      "status": "candidate-context",
+      "text": "Tracking Any Point (TAP)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google-deepmind/tapnet",
+      "status": "candidate-context",
+      "text": "[[`TAP-Vid`](https://tapvid.github.io/)] [[`TAPIR`](https://deepmind-tapir.github.io/)] [[`RoboTAP`](https://robotap.github.io/)] [[`Blog Post`](https://deepmind-tapir.github.io/blogpost.html)] [[`BootsTAP`](https://bootstap.github.io/)] [[`TAPVid-3D`](https://tapvid3d.github.io\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JuliaCI/BenchmarkTools.jl",
+      "status": "candidate-context",
+      "text": "A benchmarking framework for the Julia language"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaCI/BenchmarkTools.jl",
+      "status": "candidate-context",
+      "text": "<picture>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "KSXGitHub/parallel-disk-usage-0.20.0-benchmarks",
+      "status": "candidate-context",
+      "text": "Benchmark of Parallel Disk Usage (pdu) v0.20.0 againsts dust, dutree, dua, ncdu, gdu, and du"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "KSXGitHub/parallel-disk-usage-0.20.0-benchmarks",
+      "status": "candidate-context",
+      "text": "* [`pdu`](https://github.com/KSXGitHub/parallel-disk-usage) v0.20.0"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "web-infra-dev/rslib",
+      "status": "candidate-context",
+      "text": "Create JavaScript libraries in a simple and intuitive way."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "web-infra-dev/rslib",
+      "status": "candidate-context",
+      "text": "Benchmark"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "tianyi-lab/HallusionBench",
+      "status": "candidate-context",
+      "text": "[CVPR'24] HallusionBench: You See What You Think? Or You Think What You See? An Image-Context Reasoning Benchmark Challenging for GPT-4V(ision), LLaVA-1.5, and Other Multi-modality Models"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tianyi-lab/HallusionBench",
+      "status": "candidate-context",
+      "text": "You See What You Think? Or You Think What You See? An Image-Context Reasoning Benchmark Challenging for GPT-4V(ision), LLaVA-1.5, and Other Multi-modality Models"
     }
   ],
   "candidate_glosses": [
@@ -1752,6 +1944,102 @@
       "source_repo": "base/base",
       "status": "candidate",
       "text": "Benchmark"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "KSXGitHub/parallel-disk-usage",
+      "status": "candidate",
+      "text": "Benchmark"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hermit-os/kernel",
+      "status": "candidate",
+      "text": "Benchmark"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "the-benchmarker/graphql-benchmarks",
+      "status": "candidate",
+      "text": "It's all about GraphQL server benchmarking across many languages."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "the-benchmarker/web-frameworks",
+      "status": "candidate",
+      "text": "- `ruby`, all tools are made in `ruby`"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PKU-YuanGroup/Video-Bench",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bytedance/UI-TARS-desktop",
+      "status": "candidate",
+      "text": "Benchmark"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kurrent-io/KurrentDB-Client-NodeJS",
+      "status": "candidate",
+      "text": "Benchmark"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "yhirose/cpp-httplib",
+      "status": "candidate",
+      "text": "benchmark"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "swc-project/swc",
+      "status": "candidate",
+      "text": "Benchmark"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "optuna/optunahub",
+      "status": "candidate",
+      "text": "OptunaHub: A Platform for Black-Box Optimization"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "optuna/optunahub-web",
+      "status": "candidate",
+      "text": "OptunaHub Web"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google-deepmind/tapnet",
+      "status": "candidate",
+      "text": "[[`TAP-Vid`](https://tapvid.github.io/)] [[`TAPIR`](https://deepmind-tapir.github.io/)] [[`RoboTAP`](https://robotap.github.io/)] [[`Blog Post`](https://deepmind-tapir.github.io/blogpost.html)] [[`BootsTAP`](https://bootstap.github.io/)] [[`TAPVid-3D`](https://tapvid3d.github.io\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaCI/BenchmarkTools.jl",
+      "status": "candidate",
+      "text": "<picture>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "KSXGitHub/parallel-disk-usage-0.20.0-benchmarks",
+      "status": "candidate",
+      "text": "* [`pdu`](https://github.com/KSXGitHub/parallel-disk-usage) v0.20.0"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "web-infra-dev/rslib",
+      "status": "candidate",
+      "text": "Benchmark"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tianyi-lab/HallusionBench",
+      "status": "candidate",
+      "text": "You See What You Think? Or You Think What You See? An Image-Context Reasoning Benchmark Challenging for GPT-4V(ision), LLaVA-1.5, and Other Multi-modality Models"
     }
   ],
   "candidate_related_terms": [
@@ -2559,11 +2847,155 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": ".github/workflows/benchmark.yml",
       "source_repo": "base/base"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/benchmark.yaml",
+      "source_repo": "KSXGitHub/parallel-disk-usage"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/benchmark.yml",
+      "source_repo": "hermit-os/kernel"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/benchmark.yml",
+      "source_repo": "apache/casbin-cpp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "the-benchmarker/graphql-benchmarks"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "the-benchmarker/web-frameworks"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "PKU-YuanGroup/Video-Bench"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/benchmark.yml",
+      "source_repo": "bytedance/UI-TARS-desktop"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/benchmark.yml",
+      "source_repo": "ultrajson/ultrajson"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "SWE-bench/SWE-bench"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "lnx-search/rewrk"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/benchmark.yml",
+      "source_repo": "kurrent-io/KurrentDB-Client-NodeJS"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/bench.yml.disabled",
+      "source_repo": "ggml-org/llama.cpp"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/test_benchmark.yaml",
+      "source_repo": "yhirose/cpp-httplib"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/bench.yml",
+      "source_repo": "swc-project/swc"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/benchmark.yml",
+      "source_repo": "jina-ai/serve"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "optuna/optunahub"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "optuna/optunahub-web"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "google-deepmind/tapnet"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "JuliaCI/BenchmarkTools.jl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "benchmark-action/github-action-benchmark"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/benchmark.yml",
+      "source_repo": "luau-lang/luau"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "KSXGitHub/parallel-disk-usage-0.20.0-benchmarks"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/benchmark.yml",
+      "source_repo": "web-infra-dev/rslib"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "tianyi-lab/HallusionBench"
     }
   ],
   "first_seen_at": "2026-04-18T11:24:14.688152+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

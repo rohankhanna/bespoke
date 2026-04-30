@@ -415,6 +415,54 @@
       "source_repo": "KhronosGroup/Vulkan-Headers",
       "status": "candidate-context",
       "text": "<!--"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lemonade-sdk/lemonade",
+      "status": "candidate-context",
+      "text": "Lemonade helps users discover and run local AI apps by serving optimized LLMs right from their own GPUs and NPUs. Join our discord: https://discord.gg/5xXzkMu8Zk"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lemonade-sdk/lemonade",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "AaronFeng753/Waifu2x-Extension-GUI",
+      "status": "candidate-context",
+      "text": "Video, Image and GIF upscale/enlarge(Super-Resolution) and Video frame interpolation. Achieved with Waifu2x,  Real-ESRGAN, Real-CUGAN, RTX Video Super Resolution VSR, SRMD, RealSR, Anime4K, RIFE, IFRNet, CAIN, DAIN,  and ACNet."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AaronFeng753/Waifu2x-Extension-GUI",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nvpro-samples/nvpro_core",
+      "status": "candidate-context",
+      "text": "shared source code and resources needed for the samples to run"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nvpro-samples/nvpro_core",
+      "status": "candidate-context",
+      "text": "> [!IMPORTANT]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nvpro-samples/vk_gltf_renderer",
+      "status": "candidate-context",
+      "text": "Vulkan ray tracing glTF 2.0 renderer \u2014 RTX path tracer with PBR materials, AI denoising (DLSS, OptiX), and scene editing. NVIDIA open-source sample."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nvpro-samples/vk_gltf_renderer",
+      "status": "candidate-context",
+      "text": "[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](LICENSE)"
     }
   ],
   "candidate_glosses": [
@@ -621,6 +669,30 @@
       "source_repo": "KhronosGroup/Vulkan-Headers",
       "status": "candidate",
       "text": "<!--"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lemonade-sdk/lemonade",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AaronFeng753/Waifu2x-Extension-GUI",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nvpro-samples/nvpro_core",
+      "status": "candidate",
+      "text": "> [!IMPORTANT]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nvpro-samples/vk_gltf_renderer",
+      "status": "candidate",
+      "text": "[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](LICENSE)"
     }
   ],
   "candidate_related_terms": [
@@ -865,11 +937,35 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "KhronosGroup/Vulkan-Headers"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "lemonade-sdk/lemonade"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "AaronFeng753/Waifu2x-Extension-GUI"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "nvpro-samples/nvpro_core"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "nvpro-samples/vk_gltf_renderer"
     }
   ],
   "first_seen_at": "2026-04-19T01:08:57.644140+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

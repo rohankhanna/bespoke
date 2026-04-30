@@ -84,7 +84,7 @@
   "normalized_form": "sync-external-repos-to-internal-mirrors",
   "observation_id": "14cf1d75016be013",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-04-29T18:37:00.726333+00:00",
+  "observed_at": "2026-04-30T00:37:16.824464+00:00",
   "observed_text": "Sync external repos to internal mirrors",
   "source_context_snippet": "Sync external repos to internal mirrors",
   "source_file": ".github/workflows/sync_repos.yml",

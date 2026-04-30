@@ -1,0 +1,143 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "eddelbuettel/github-actions/r-ci@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "eddelbuettel/littler",
+      "target": "eddelbuettel/rinside",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "eddelbuettel/littler",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "eddelbuettel/littler",
+      "target": "eddelbuettel/github-actions/r-ci@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "eddelbuettel/littler",
+      "target": "cran",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "eddelbuettel/littler",
+      "target": "embedded",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "eddelbuettel/littler",
+      "target": "examples",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "eddelbuettel/littler",
+      "target": "littler",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "eddelbuettel/littler",
+      "target": "r-package",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T04:10:36.943293+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5025
+    },
+    {
+      "path": ".github/workflows/ci.yaml",
+      "size": 656
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A scripting and command-line front-end for GNU R",
+    "fork": false,
+    "full_name": "eddelbuettel/littler",
+    "html_url": "https://github.com/eddelbuettel/littler",
+    "language": "R",
+    "pushed_at": "2026-04-15T13:20:26Z",
+    "stargazers_count": 331,
+    "topics": [
+      "cran",
+      "embedded",
+      "examples",
+      "littler",
+      "r",
+      "r-package"
+    ],
+    "updated_at": "2026-04-23T01:29:08Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "eddelbuettel/rinside",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[![CI](https://github.com/eddelbuettel/littler/workflows/ci/badge.svg)](https://github.com/eddelbuettel/littler/actions?query=workflow%3Aci)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cran"
+    },
+    {
+      "context_snippet": "[![CI](https://github.com/eddelbuettel/littler/workflows/ci/badge.svg)](https://github.com/eddelbuettel/littler/actions?query=workflow%3Aci)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "embedded"
+    },
+    {
+      "context_snippet": "[![CI](https://github.com/eddelbuettel/littler/workflows/ci/badge.svg)](https://github.com/eddelbuettel/littler/actions?query=workflow%3Aci)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "examples"
+    },
+    {
+      "context_snippet": "[![CI](https://github.com/eddelbuettel/littler/workflows/ci/badge.svg)](https://github.com/eddelbuettel/littler/actions?query=workflow%3Aci)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "littler"
+    },
+    {
+      "context_snippet": "[![CI](https://github.com/eddelbuettel/littler/workflows/ci/badge.svg)](https://github.com/eddelbuettel/littler/actions?query=workflow%3Aci)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "r-package"
+    }
+  ]
+}

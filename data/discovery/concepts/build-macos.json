@@ -81,6 +81,30 @@
       "source_repo": "heal-research/operon",
       "status": "candidate-context",
       "text": "build-macos"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "posit-dev/air",
+      "status": "candidate-context",
+      "text": "R formatter and language server"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "posit-dev/air",
+      "status": "candidate-context",
+      "text": "\"Build macOS\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "heal-research/pyoperon",
+      "status": "candidate-context",
+      "text": "Python bindings and scikit-learn interface for the Operon library for symbolic regression."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "heal-research/pyoperon",
+      "status": "candidate-context",
+      "text": "build-macos"
     }
   ],
   "candidate_glosses": [
@@ -117,6 +141,18 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "heal-research/operon",
+      "status": "candidate",
+      "text": "build-macos"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "posit-dev/air",
+      "status": "candidate",
+      "text": "\"Build macOS\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "heal-research/pyoperon",
       "status": "candidate",
       "text": "build-macos"
     }
@@ -288,11 +324,35 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": ".github/workflows/build-macos.yml",
       "source_repo": "heal-research/operon"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/build-mac.yml",
+      "source_repo": "posit-dev/air"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/build-macos.yml",
+      "source_repo": "winfunc/opcode"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/build-macos.yml",
+      "source_repo": "triton-lang/triton"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/build-macos.yml",
+      "source_repo": "heal-research/pyoperon"
     }
   ],
   "first_seen_at": "2026-04-19T17:42:30.117329+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

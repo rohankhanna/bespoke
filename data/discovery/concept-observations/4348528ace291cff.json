@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A toolchain for web projects, aimed to provide functionalities to maintain them. Biome offers formatter and linter, usable via CLI and LSP."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Benchmarks CSS"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Benchmarks CSS"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10600,
+      "status": "candidate",
+      "text": "peritoneum"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10600,
+      "status": "candidate",
+      "text": "pleura"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10495,
+      "status": "candidate",
+      "text": "indicators"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10486,
+      "status": "candidate",
+      "text": "ccs"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10371,
+      "status": "candidate",
+      "text": "abc"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Benchmarks CSS",
+      "sense_id": "benchmarks-css#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "benchmarks-css",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "benchmarks-css",
+  "observation_id": "4348528ace291cff",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-30T00:37:16.824464+00:00",
+  "observed_text": "Benchmarks CSS",
+  "source_context_snippet": "Benchmarks CSS",
+  "source_file": ".github/workflows/benchmark_css.yml",
+  "source_repo": "lionel-/biome",
+  "source_repo_description": "A toolchain for web projects, aimed to provide functionalities to maintain them. Biome offers formatter and linter, usable via CLI and LSP."
+}

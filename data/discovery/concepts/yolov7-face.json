@@ -1,0 +1,112 @@
+{
+  "aliases": [
+    "yolov7-face"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "derronqi/yolov7-face",
+      "status": "candidate-context",
+      "text": "yolov7 face detection with landmark"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "derronqi/yolov7-face",
+      "status": "candidate-context",
+      "text": "**2023.04** [yolov8-face](https://github.com/derronqi/yolov8-face) (\ud83d\udd25\ud83d\udd25\ud83d\udd25\u2191)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "derronqi/yolov8-face",
+      "status": "candidate-context",
+      "text": "yolov8 face detection with landmark"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "derronqi/yolov8-face",
+      "status": "candidate-context",
+      "text": "**2024.04** [ncnn-android-yolov8-face](https://github.com/derronqi/ncnn-android-yolov8-face) (\ud83d\udd25\ud83d\udd25\ud83d\udd25\u2191)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hpc203/yolov7-detect-face-onnxrun-cpp-py",
+      "status": "candidate-context",
+      "text": "\u4f7f\u7528ONNXRuntime\u90e8\u7f72YOLOV7\u4eba\u8138+\u5173\u952e\u70b9\u68c0\u6d4b\uff0c\u5305\u542bC++\u548cPython\u4e24\u4e2a\u7248\u672c\u7684\u7a0b\u5e8f"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hpc203/yolov7-detect-face-onnxrun-cpp-py",
+      "status": "candidate-context",
+      "text": "\u4f7f\u7528ONNXRuntime\u90e8\u7f72YOLOV7\u4eba\u8138+\u5173\u952e\u70b9\u68c0\u6d4b\uff0c\u5305\u542bC++\u548cPython\u4e24\u4e2a\u7248\u672c\u7684\u7a0b\u5e8f"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "derronqi/yolov7-face",
+      "status": "candidate",
+      "text": "**2023.04** [yolov8-face](https://github.com/derronqi/yolov8-face) (\ud83d\udd25\ud83d\udd25\ud83d\udd25\u2191)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "derronqi/yolov8-face",
+      "status": "candidate",
+      "text": "**2024.04** [ncnn-android-yolov8-face](https://github.com/derronqi/ncnn-android-yolov8-face) (\ud83d\udd25\ud83d\udd25\ud83d\udd25\u2191)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hpc203/yolov7-detect-face-onnxrun-cpp-py",
+      "status": "candidate",
+      "text": "\u4f7f\u7528ONNXRuntime\u90e8\u7f72YOLOV7\u4eba\u8138+\u5173\u952e\u70b9\u68c0\u6d4b\uff0c\u5305\u542bC++\u548cPython\u4e24\u4e2a\u7248\u672c\u7684\u7a0b\u5e8f"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "yolov7-face",
+  "concept_id": "yolov7-face",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "derronqi/yolov7-face"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "derronqi/yolov8-face"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "hpc203/yolov7-detect-face-onnxrun-cpp-py"
+    }
+  ],
+  "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "yolov7-face",
+      "sense_id": "yolov7-face#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

@@ -1,0 +1,155 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "bazelbuild/tulsi",
+      "target": "buildbuddy-io/rules_xcodeproj",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "bazelbuild/tulsi",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "bazelbuild/tulsi",
+      "target": "build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bazelbuild/tulsi",
+      "target": "bazel",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bazelbuild/tulsi",
+      "target": "build-tool",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bazelbuild/tulsi",
+      "target": "macos",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bazelbuild/tulsi",
+      "target": "xcode",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bazelbuild/tulsi",
+      "target": "xcode-plugin",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T04:01:55.780430+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 182
+    },
+    {
+      "path": ".github/workflows/build.yml",
+      "size": 1904
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "master",
+    "description": "An Xcode Project Generator For Bazel ",
+    "fork": false,
+    "full_name": "bazelbuild/tulsi",
+    "html_url": "https://github.com/bazelbuild/tulsi",
+    "language": "Swift",
+    "pushed_at": "2023-02-15T17:11:59Z",
+    "stargazers_count": 541,
+    "topics": [
+      "bazel",
+      "build-tool",
+      "ide",
+      "ios",
+      "macos",
+      "xcode",
+      "xcode-plugin"
+    ],
+    "updated_at": "2025-12-19T06:02:27Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "buildbuddy-io/rules_xcodeproj",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "term": "build"
+    },
+    {
+      "context_snippet": "**This repository is no longer maintained.**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bazel"
+    },
+    {
+      "context_snippet": "**This repository is no longer maintained.**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "build-tool"
+    },
+    {
+      "context_snippet": "**This repository is no longer maintained.**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "macos"
+    },
+    {
+      "context_snippet": "**This repository is no longer maintained.**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "xcode"
+    },
+    {
+      "context_snippet": "**This repository is no longer maintained.**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "xcode-plugin"
+    }
+  ]
+}

@@ -1,7 +1,7 @@
 {
   "component": "ncipollo/release-action@v1",
   "first_seen_at": "2026-04-18T18:48:44.679047+00:00",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -337,6 +337,106 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/ci.yml",
       "source_repo": "awaescher/OllamaSharp"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/github_release.yml",
+      "source_repo": "clojure-emacs/refactor-nrepl"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/github_release.yml",
+      "source_repo": "clojure-emacs/clojure-ts-mode"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/github-release.yml",
+      "source_repo": "nrepl/nrepl"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/github_release.yml",
+      "source_repo": "clojure-emacs/orchard"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/auto-release.yml",
+      "source_repo": "clangd/vscode-clangd"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/unstable-release.yml",
+      "source_repo": "clangd/vscode-clangd"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "Byron/dua-cli"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "lovell/sharp-libvips"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/actions.yml",
+      "source_repo": "mymarilyn/clickhouse-driver"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "cashapp/turbine"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "docker/docker-py"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "sebastianbergmann/phpunit"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "just-containers/s6-overlay"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/binaries.yml",
+      "source_repo": "Automattic/harper"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/chrome_plugin.yml",
+      "source_repo": "Automattic/harper"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/vscode_plugin.yml",
+      "source_repo": "Automattic/harper"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "Enter-tainer/typst-preview"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "copilot-emacs/copilot.el"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "itchyny/gojo"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "vmihailenco/taskq"
     }
   ]
 }

@@ -79,6 +79,54 @@
       "source_repo": "dk-liang/Awesome-Visual-Transformer",
       "status": "candidate-context",
       "text": "Collect some Transformer with Computer-Vision (CV) papers."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "IDEA-Research/DN-DETR",
+      "status": "candidate-context",
+      "text": "[CVPR 2022 Oral] Official implementation of DN-DETR"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "IDEA-Research/DN-DETR",
+      "status": "candidate-context",
+      "text": "**DN-DETR**: Accelerate DETR Training by Introducing Query DeNoising"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Atten4Vis/ConditionalDETR",
+      "status": "candidate-context",
+      "text": "This repository is an official implementation of the ICCV 2021 paper \"Conditional DETR for Fast Training Convergence\". (https://arxiv.org/abs/2108.06152)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Atten4Vis/ConditionalDETR",
+      "status": "candidate-context",
+      "text": "This repository is an official implementation of the ICCV 2021 paper \"[Conditional DETR for Fast Training Convergence](https://arxiv.org/abs/2108.06152)\"."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "wjun0830/CGDETR",
+      "status": "candidate-context",
+      "text": "Official pytorch repository for CG-DETR \"Correlation-guided Query-Dependency Calibration in Video Representation Learning for Temporal Grounding\" "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "wjun0830/CGDETR",
+      "status": "candidate-context",
+      "text": "Correlation-Guided Query-Dependency Calibration for Video Temporal Grounding"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "IDEA-Research/DAB-DETR",
+      "status": "candidate-context",
+      "text": "[ICLR 2022] Official implementation of the paper \"DAB-DETR: Dynamic Anchor Boxes are Better Queries for DETR\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "IDEA-Research/DAB-DETR",
+      "status": "candidate-context",
+      "text": "\ufeff# DAB-DETR"
     }
   ],
   "candidate_glosses": [
@@ -117,6 +165,30 @@
       "source_repo": "dk-liang/Awesome-Visual-Transformer",
       "status": "candidate",
       "text": "Collect some Transformer with Computer-Vision (CV) papers."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "IDEA-Research/DN-DETR",
+      "status": "candidate",
+      "text": "**DN-DETR**: Accelerate DETR Training by Introducing Query DeNoising"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Atten4Vis/ConditionalDETR",
+      "status": "candidate",
+      "text": "This repository is an official implementation of the ICCV 2021 paper \"[Conditional DETR for Fast Training Convergence](https://arxiv.org/abs/2108.06152)\"."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "wjun0830/CGDETR",
+      "status": "candidate",
+      "text": "Correlation-Guided Query-Dependency Calibration for Video Temporal Grounding"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "IDEA-Research/DAB-DETR",
+      "status": "candidate",
+      "text": "\ufeff# DAB-DETR"
     }
   ],
   "candidate_related_terms": [
@@ -175,11 +247,35 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "dk-liang/Awesome-Visual-Transformer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "IDEA-Research/DN-DETR"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "Atten4Vis/ConditionalDETR"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "wjun0830/CGDETR"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "IDEA-Research/DAB-DETR"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

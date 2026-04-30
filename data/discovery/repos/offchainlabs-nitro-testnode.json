@@ -1,0 +1,73 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "docker/setup-buildx-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/cache@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "OffchainLabs/nitro-testnode",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "OffchainLabs/nitro-testnode",
+      "target": "docker/setup-buildx-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "OffchainLabs/nitro-testnode",
+      "target": "actions/cache@v3",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-04-30T00:56:03.963779+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3990
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 1780
+    },
+    {
+      "path": ".github/workflows/testnode.bash",
+      "size": 1622
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "release",
+    "description": "A complete environment for nitro-based service including sequencer, batch-poster, validator, and a coordinator.",
+    "fork": false,
+    "full_name": "OffchainLabs/nitro-testnode",
+    "html_url": "https://github.com/OffchainLabs/nitro-testnode",
+    "language": "TypeScript",
+    "pushed_at": "2026-04-29T21:46:26Z",
+    "stargazers_count": 45,
+    "topics": [],
+    "updated_at": "2026-04-20T07:50:26Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

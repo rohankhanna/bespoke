@@ -20,6 +20,18 @@
       "source_repo": "go-rod/rod",
       "status": "candidate-context",
       "text": "Release docker image"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "yhirose/cpp-httplib",
+      "status": "candidate-context",
+      "text": "A C++ header-only HTTP/HTTPS server and client library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "yhirose/cpp-httplib",
+      "status": "candidate-context",
+      "text": "Release Docker Image"
     }
   ],
   "candidate_glosses": [
@@ -28,6 +40,12 @@
       "source_repo": "go-rod/rod",
       "status": "candidate",
       "text": "Release docker image"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "yhirose/cpp-httplib",
+      "status": "candidate",
+      "text": "Release Docker Image"
     }
   ],
   "candidate_related_terms": [
@@ -89,11 +107,17 @@
       "observed_at": "2026-04-24T12:33:41.350224+00:00",
       "source_file": ".github/workflows/docker.yml",
       "source_repo": "go-rod/rod"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/release-docker.yml",
+      "source_repo": "yhirose/cpp-httplib"
     }
   ],
   "first_seen_at": "2026-04-18T11:24:14.688152+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

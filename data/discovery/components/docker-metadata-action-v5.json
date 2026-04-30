@@ -1,7 +1,7 @@
 {
   "component": "docker/metadata-action@v5",
   "first_seen_at": "2026-04-17T16:51:41.136432+00:00",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -577,6 +577,76 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/backend-image-release.yml",
       "source_repo": "kitconcept/volto-light-theme"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/publish-docker.yml",
+      "source_repo": "pacstall/pacstall"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "autokitteh/autokitteh"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-docker-image.yaml",
+      "source_repo": "open-webui/pipelines"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/merge-docker-images.yaml",
+      "source_repo": "open-webui/pipelines"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "rust-cross/cargo-zigbuild"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-container.yml",
+      "source_repo": "lemonade-sdk/lemonade"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-agent.yaml",
+      "source_repo": "bytebot-ai/bytebot"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-desktop.yaml",
+      "source_repo": "bytebot-ai/bytebot"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-ui.yaml",
+      "source_repo": "bytebot-ai/bytebot"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/community-push.yml",
+      "source_repo": "google/tsunami-security-scanner-plugins"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/doyensec-push.yml",
+      "source_repo": "google/tsunami-security-scanner-plugins"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/facebook-push.yml",
+      "source_repo": "google/tsunami-security-scanner-plugins"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "unum-cloud/USearch"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "leejet/stable-diffusion.cpp"
     }
   ]
 }

@@ -1,0 +1,53 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "cvlab-kaist/locotrack",
+      "target": "ku-cvlab/locotrack",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "cvlab-kaist/locotrack",
+      "target": "google-deepmind/tapnet",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T03:56:24.354917+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4052
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Official implementation of \"Local All-Pair Correspondence for Point Tracking\" (ECCV 2024)",
+    "fork": false,
+    "full_name": "cvlab-kaist/locotrack",
+    "html_url": "https://github.com/cvlab-kaist/locotrack",
+    "language": "Python",
+    "pushed_at": "2025-04-16T12:32:32Z",
+    "stargazers_count": 212,
+    "topics": [],
+    "updated_at": "2026-04-27T06:29:30Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "google-deepmind/tapnet",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ku-cvlab/locotrack",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

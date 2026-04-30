@@ -43,6 +43,66 @@
       "source_repo": "sonph/onehalf",
       "status": "candidate-context",
       "text": "[![version tag](https://img.shields.io/github/tag/sonph/onehalf.svg?style=flat-square)](https://github.com/sonph/onehalf/releases)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dylanaraps/pywal",
+      "status": "candidate-context",
+      "text": "\ud83c\udfa8 Generate and change color-schemes on the fly."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dylanaraps/pywal",
+      "status": "candidate-context",
+      "text": "<h3 align=\"center\"><img src=\"https://i.imgur.com/5WgMACe.gif\" width=\"200px\"></h3>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cointop-sh/colors",
+      "status": "candidate-context",
+      "text": "Cointop colorschemes"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cointop-sh/colors",
+      "status": "candidate-context",
+      "text": "> Standard colorschemes (themes) for [cointop](https://github.com/miguelmota/cointop/)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "EdenEast/nightfox.nvim",
+      "status": "candidate-context",
+      "text": "\ud83e\udd8aA highly customizable theme for vim and neovim with support for lsp, treesitter and a variety of plugins."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "EdenEast/nightfox.nvim",
+      "status": "candidate-context",
+      "text": "pandocvim"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nordtheme/vim",
+      "status": "candidate-context",
+      "text": "An arctic, north-bluish clean and elegant Vim theme."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nordtheme/vim",
+      "status": "candidate-context",
+      "text": "@nordtheme/vim \u2014 An arctic, north-bluish clean and elegant Vim theme"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "themix-project/themix-gui",
+      "status": "candidate-context",
+      "text": "Graphical application for generating different color variations of Oomox (Numix-based) theme (GTK2, GTK3, Cinnamon, GNOME, Openbox, Xfwm), Archdroid, Gnome-Color, Numix, Papirus and Suru++ icon themes. Have a hack for HiDPI in gtk2. Its Base16 plugin also allowing a lot of app themes support like Alacritty, Emacs, GTK4, KDE, VIM and many more."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "themix-project/themix-gui",
+      "status": "candidate-context",
+      "text": "Themix GUI designer"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +123,36 @@
       "source_repo": "sonph/onehalf",
       "status": "candidate",
       "text": "[![version tag](https://img.shields.io/github/tag/sonph/onehalf.svg?style=flat-square)](https://github.com/sonph/onehalf/releases)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dylanaraps/pywal",
+      "status": "candidate",
+      "text": "<h3 align=\"center\"><img src=\"https://i.imgur.com/5WgMACe.gif\" width=\"200px\"></h3>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cointop-sh/colors",
+      "status": "candidate",
+      "text": "> Standard colorschemes (themes) for [cointop](https://github.com/miguelmota/cointop/)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "EdenEast/nightfox.nvim",
+      "status": "candidate",
+      "text": "pandocvim"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nordtheme/vim",
+      "status": "candidate",
+      "text": "@nordtheme/vim \u2014 An arctic, north-bluish clean and elegant Vim theme"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "themix-project/themix-gui",
+      "status": "candidate",
+      "text": "Themix GUI designer"
     }
   ],
   "candidate_related_terms": [],
@@ -88,11 +178,41 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "sonph/onehalf"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "dylanaraps/pywal"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "cointop-sh/colors"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "EdenEast/nightfox.nvim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "nordtheme/vim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "themix-project/themix-gui"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

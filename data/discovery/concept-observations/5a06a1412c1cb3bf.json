@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "\u9003\u79bb996"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "> \u5f88\u591a\u4e8b\u60c5\u4f60\u65e0\u6cd5\u6539\u53d8\uff0c\u4f46\u53ef\u4ee5\u9009\u62e9\u79bb\u5f00\u3002"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "> \u5f88\u591a\u4e8b\u60c5\u4f60\u65e0\u6cd5\u6539\u53d8\uff0c\u4f46\u53ef\u4ee5\u9009\u62e9\u79bb\u5f00\u3002"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "996leave",
+      "sense_id": "996leave#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "996leave",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "996leave",
+  "observation_id": "5a06a1412c1cb3bf",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T00:37:16.824464+00:00",
+  "observed_text": "996leave",
+  "source_context_snippet": "> \u5f88\u591a\u4e8b\u60c5\u4f60\u65e0\u6cd5\u6539\u53d8\uff0c\u4f46\u53ef\u4ee5\u9009\u62e9\u79bb\u5f00\u3002",
+  "source_file": null,
+  "source_repo": "623637646/996.Leave",
+  "source_repo_description": "\u9003\u79bb996"
+}

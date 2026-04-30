@@ -1,7 +1,7 @@
 {
   "component": "addnab/docker-run-action@v3",
   "first_seen_at": "2026-04-18T09:10:17.311509+00:00",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -57,6 +57,31 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/docker_image.yml",
       "source_repo": "esp-rs/std-training"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/libnrepl.yml",
+      "source_repo": "nrepl/nrepl"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/aishell.yml",
+      "source_repo": "k2-fsa/icefall"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/audioset.yml",
+      "source_repo": "k2-fsa/icefall"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/baker_zh.yml",
+      "source_repo": "k2-fsa/icefall"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/compilers.yml",
+      "source_repo": "ibireme/yyjson"
     }
   ]
 }

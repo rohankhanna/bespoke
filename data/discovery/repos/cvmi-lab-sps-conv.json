@@ -1,0 +1,57 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "CVMI-Lab/SPS-Conv",
+      "target": "cvmi-lab/slotcon",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "CVMI-Lab/SPS-Conv",
+      "target": "open-mmlab/openpcdet",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T01:58:33.798273+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4549
+    },
+    {
+      "path": "requirements.txt",
+      "size": 108
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "(NeurlPS 2022) Spatial Pruned Sparse Convolution for Efficient 3D Object Detection",
+    "fork": false,
+    "full_name": "CVMI-Lab/SPS-Conv",
+    "html_url": "https://github.com/CVMI-Lab/SPS-Conv",
+    "language": "Python",
+    "pushed_at": "2023-01-06T05:50:08Z",
+    "stargazers_count": 65,
+    "topics": [],
+    "updated_at": "2026-02-21T04:30:57Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cvmi-lab/slotcon",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "open-mmlab/openpcdet",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

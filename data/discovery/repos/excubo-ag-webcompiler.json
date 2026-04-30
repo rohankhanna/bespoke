@@ -1,0 +1,194 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-to-nuget.yml"
+    },
+    {
+      "component": "actions/setup-dotnet@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-to-nuget.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "excubo-ag/WebCompiler",
+      "target": "madskristensen/webcompiler",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "excubo-ag/WebCompiler",
+      "target": "xoofx/nuglify",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "excubo-ag/WebCompiler",
+      "target": "taritsyn/autoprefixerhost",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-to-nuget.yml",
+      "source_repo": "excubo-ag/WebCompiler",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-to-nuget.yml",
+      "source_repo": "excubo-ag/WebCompiler",
+      "target": "actions/setup-dotnet@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deploy-to-nuget.yml",
+      "source_repo": "excubo-ag/WebCompiler",
+      "target": "Deploy nupkg",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "excubo-ag/WebCompiler",
+      "target": "cross-platform",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "excubo-ag/WebCompiler",
+      "target": "dotnet",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "excubo-ag/WebCompiler",
+      "target": "minification",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "excubo-ag/WebCompiler",
+      "target": "sass",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "excubo-ag/WebCompiler",
+      "target": "scss",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "excubo-ag/WebCompiler",
+      "target": "webcompiler",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T02:57:44.052996+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 16521
+    },
+    {
+      "path": ".github/workflows/deploy-to-nuget.yml",
+      "size": 943
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "excubo-ag/WebCompiler",
+    "html_url": "https://github.com/excubo-ag/WebCompiler",
+    "language": "C#",
+    "pushed_at": "2026-01-22T20:43:55Z",
+    "stargazers_count": 166,
+    "topics": [
+      "cross-platform",
+      "dotnet",
+      "js",
+      "minification",
+      "sass",
+      "scss",
+      "webcompiler"
+    ],
+    "updated_at": "2026-04-18T08:00:39Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "madskristensen/webcompiler",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "taritsyn/autoprefixerhost",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "xoofx/nuglify",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Deploy nupkg",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deploy-to-nuget.yml",
+      "term": "Deploy nupkg"
+    },
+    {
+      "context_snippet": "[![Nuget](https://img.shields.io/nuget/v/Excubo.WebCompiler)](https://www.nuget.org/packages/Excubo.WebCompiler/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cross-platform"
+    },
+    {
+      "context_snippet": "[![Nuget](https://img.shields.io/nuget/v/Excubo.WebCompiler)](https://www.nuget.org/packages/Excubo.WebCompiler/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dotnet"
+    },
+    {
+      "context_snippet": "[![Nuget](https://img.shields.io/nuget/v/Excubo.WebCompiler)](https://www.nuget.org/packages/Excubo.WebCompiler/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "minification"
+    },
+    {
+      "context_snippet": "[![Nuget](https://img.shields.io/nuget/v/Excubo.WebCompiler)](https://www.nuget.org/packages/Excubo.WebCompiler/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "sass"
+    },
+    {
+      "context_snippet": "[![Nuget](https://img.shields.io/nuget/v/Excubo.WebCompiler)](https://www.nuget.org/packages/Excubo.WebCompiler/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "scss"
+    },
+    {
+      "context_snippet": "[![Nuget](https://img.shields.io/nuget/v/Excubo.WebCompiler)](https://www.nuget.org/packages/Excubo.WebCompiler/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "webcompiler"
+    }
+  ]
+}

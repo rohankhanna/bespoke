@@ -103,6 +103,18 @@
       "source_repo": "sindresorhus/awesome-nodejs",
       "status": "candidate-context",
       "text": ":zap: Delightful Node.js packages and resources [BECAUSE OF TOO MUCH SPAM AND LOW-QUALITY SUBMISSIONS, SUBMISSIONS ARE PAUSED UNTIL SEPTEMBER]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "matiassingers/awesome-readme",
+      "status": "candidate-context",
+      "text": "A curated list of awesome READMEs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "matiassingers/awesome-readme",
+      "status": "candidate-context",
+      "text": "A curated list of awesome READMEs"
     }
   ],
   "candidate_glosses": [
@@ -153,6 +165,12 @@
       "source_repo": "sindresorhus/awesome-nodejs",
       "status": "candidate",
       "text": ":zap: Delightful Node.js packages and resources [BECAUSE OF TOO MUCH SPAM AND LOW-QUALITY SUBMISSIONS, SUBMISSIONS ARE PAUSED UNTIL SEPTEMBER]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "matiassingers/awesome-readme",
+      "status": "candidate",
+      "text": "A curated list of awesome READMEs"
     }
   ],
   "candidate_related_terms": [
@@ -280,11 +298,17 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "sindresorhus/awesome-nodejs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "matiassingers/awesome-readme"
     }
   ],
   "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

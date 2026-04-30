@@ -1,0 +1,81 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Alpha-VLLM/LLaMA2-Accessory",
+      "target": "cmmmu-benchmark/cmmmu",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Alpha-VLLM/LLaMA2-Accessory",
+      "target": "alpha-vllm/wemix-llm",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Alpha-VLLM/LLaMA2-Accessory",
+      "target": "bigcode-project/starcoder",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Alpha-VLLM/LLaMA2-Accessory",
+      "target": "arielnlee/platypus",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T02:00:08.975525+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 14257
+    },
+    {
+      "path": "requirements.txt",
+      "size": 275
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "An Open-source Toolkit for LLM Development",
+    "fork": false,
+    "full_name": "Alpha-VLLM/LLaMA2-Accessory",
+    "html_url": "https://github.com/Alpha-VLLM/LLaMA2-Accessory",
+    "language": "Python",
+    "pushed_at": "2025-01-13T06:05:22Z",
+    "stargazers_count": 2803,
+    "topics": [],
+    "updated_at": "2026-04-21T14:59:33Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "alpha-vllm/wemix-llm",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "arielnlee/platypus",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "bigcode-project/starcoder",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cmmmu-benchmark/cmmmu",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Plone templates used with cookieplone"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Template generation"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Template generation"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10998,
+      "status": "candidate",
+      "text": "board"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10998,
+      "status": "candidate",
+      "text": "design"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10998,
+      "status": "candidate",
+      "text": "example"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10998,
+      "status": "candidate",
+      "text": "form"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10998,
+      "status": "candidate",
+      "text": "grid"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Template generation",
+      "sense_id": "template-generation#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "template-generation",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "template-generation",
+  "observation_id": "8184c73d30c7a5fb",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-30T00:37:16.824464+00:00",
+  "observed_text": "Template generation",
+  "source_context_snippet": "Template generation",
+  "source_file": ".github/workflows/test-template.yml",
+  "source_repo": "plone/cookieplone-templates",
+  "source_repo_description": "Plone templates used with cookieplone"
+}

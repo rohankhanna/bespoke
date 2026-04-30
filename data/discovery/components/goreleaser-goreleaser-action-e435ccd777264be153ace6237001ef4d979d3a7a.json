@@ -1,7 +1,7 @@
 {
   "component": "goreleaser/goreleaser-action@e435ccd777264be153ace6237001ef4d979d3a7a",
   "first_seen_at": "2026-04-18T11:24:14.688152+00:00",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -42,6 +42,11 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/release.yaml",
       "source_repo": "aquasecurity/trivy-operator"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "sigstore/helm-sigstore"
     }
   ]
 }

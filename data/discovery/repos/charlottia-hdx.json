@@ -1,0 +1,137 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "charlottia/hdx",
+      "target": "amaranth-lang/amaranth",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "charlottia/hdx",
+      "target": "amaranth-lang/amaranth-boards",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "charlottia/hdx",
+      "target": "amaranth-lang/amaranth-stdio",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "charlottia/hdx",
+      "target": "yosyshq/yosys",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "charlottia/hdx",
+      "target": "amaranth-hdl",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "charlottia/hdx",
+      "target": "fpga",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "charlottia/hdx",
+      "target": "nextpnr",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "charlottia/hdx",
+      "target": "yosys",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T04:50:55.958697+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3367
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "main",
+    "description": "HDL development environment on Nix.",
+    "fork": false,
+    "full_name": "charlottia/hdx",
+    "html_url": "https://github.com/charlottia/hdx",
+    "language": "Python",
+    "pushed_at": "2024-10-23T02:10:39Z",
+    "stargazers_count": 26,
+    "topics": [
+      "amaranth-hdl",
+      "fpga",
+      "hdl",
+      "nextpnr",
+      "nix",
+      "yosys"
+    ],
+    "updated_at": "2025-06-11T03:10:54Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "amaranth-lang/amaranth",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "amaranth-lang/amaranth-boards",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "amaranth-lang/amaranth-stdio",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "yosyshq/yosys",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "hdx packages [Amaranth] (+ [`-boards`][amaranth-boards],",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "amaranth-hdl"
+    },
+    {
+      "context_snippet": "hdx packages [Amaranth] (+ [`-boards`][amaranth-boards],",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "fpga"
+    },
+    {
+      "context_snippet": "hdx packages [Amaranth] (+ [`-boards`][amaranth-boards],",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nextpnr"
+    },
+    {
+      "context_snippet": "hdx packages [Amaranth] (+ [`-boards`][amaranth-boards],",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "yosys"
+    }
+  ]
+}

@@ -1,0 +1,177 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "fallenshock/FlowEdit",
+      "target": "logtd/comfyui-fluxtapoz",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "fallenshock/FlowEdit",
+      "target": "lightricks/comfyui-ltxvideo",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "fallenshock/FlowEdit",
+      "target": "kyujinhan/awesome-training-free-wan2.1-editing",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "fallenshock/FlowEdit",
+      "target": "flowalign/flowalign",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "fallenshock/FlowEdit",
+      "target": "diffusion-models",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "fallenshock/FlowEdit",
+      "target": "editing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "fallenshock/FlowEdit",
+      "target": "editing-image",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "fallenshock/FlowEdit",
+      "target": "generative-model",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "fallenshock/FlowEdit",
+      "target": "rectified-flow",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "fallenshock/FlowEdit",
+      "target": "text-guided-image-editing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "fallenshock/FlowEdit",
+      "target": "text-guided-image-manipulation",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T03:56:11.587778+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4612
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Official implementation of the paper: \"FlowEdit: Inversion-Free Text-Based Editing Using Pre-Trained Flow Models\"",
+    "fork": false,
+    "full_name": "fallenshock/FlowEdit",
+    "html_url": "https://github.com/fallenshock/FlowEdit",
+    "language": "Python",
+    "pushed_at": "2026-04-24T10:20:34Z",
+    "stargazers_count": 975,
+    "topics": [
+      "diffusion-models",
+      "editing",
+      "editing-image",
+      "generative-model",
+      "rectified-flow",
+      "text-guided-image-editing",
+      "text-guided-image-manipulation"
+    ],
+    "updated_at": "2026-04-24T10:20:39Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "flowalign/flowalign",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "kyujinhan/awesome-training-free-wan2.1-editing",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "lightricks/comfyui-ltxvideo",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "logtd/comfyui-fluxtapoz",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[![Zero-Shot Image Editing](https://img.shields.io/badge/zero%20shot-image%20editing-Green)]([https://github.com/topics/video-editing](https://github.com/topics/text-guided-image-editing))",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "diffusion-models"
+    },
+    {
+      "context_snippet": "[![Zero-Shot Image Editing](https://img.shields.io/badge/zero%20shot-image%20editing-Green)]([https://github.com/topics/video-editing](https://github.com/topics/text-guided-image-editing))",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "editing"
+    },
+    {
+      "context_snippet": "[![Zero-Shot Image Editing](https://img.shields.io/badge/zero%20shot-image%20editing-Green)]([https://github.com/topics/video-editing](https://github.com/topics/text-guided-image-editing))",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "editing-image"
+    },
+    {
+      "context_snippet": "[![Zero-Shot Image Editing](https://img.shields.io/badge/zero%20shot-image%20editing-Green)]([https://github.com/topics/video-editing](https://github.com/topics/text-guided-image-editing))",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "generative-model"
+    },
+    {
+      "context_snippet": "[![Zero-Shot Image Editing](https://img.shields.io/badge/zero%20shot-image%20editing-Green)]([https://github.com/topics/video-editing](https://github.com/topics/text-guided-image-editing))",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rectified-flow"
+    },
+    {
+      "context_snippet": "[![Zero-Shot Image Editing](https://img.shields.io/badge/zero%20shot-image%20editing-Green)]([https://github.com/topics/video-editing](https://github.com/topics/text-guided-image-editing))",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "text-guided-image-editing"
+    },
+    {
+      "context_snippet": "[![Zero-Shot Image Editing](https://img.shields.io/badge/zero%20shot-image%20editing-Green)]([https://github.com/topics/video-editing](https://github.com/topics/text-guided-image-editing))",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "text-guided-image-manipulation"
+    }
+  ]
+}

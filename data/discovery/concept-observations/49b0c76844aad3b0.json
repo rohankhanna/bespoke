@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Generative AI extensions for onnxruntime"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Clang Format Lint"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Clang Format Lint"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18047,
+      "status": "candidate",
+      "text": "dummy"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10356,
+      "status": "candidate",
+      "text": "clam"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10356,
+      "status": "candidate",
+      "text": "clams"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10165,
+      "status": "candidate",
+      "text": "bang"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10165,
+      "status": "candidate",
+      "text": "rhythm"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Clang Format Lint",
+      "sense_id": "clang-format-lint#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "clang-format-lint",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "clang-format-lint",
+  "observation_id": "49b0c76844aad3b0",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-30T00:37:16.824464+00:00",
+  "observed_text": "Clang Format Lint",
+  "source_context_snippet": "Clang Format Lint",
+  "source_file": ".github/workflows/clang-format-lint.yml",
+  "source_repo": "microsoft/onnxruntime-genai",
+  "source_repo_description": "Generative AI extensions for onnxruntime"
+}

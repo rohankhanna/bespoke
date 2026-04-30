@@ -1,0 +1,128 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "Comfy-Org/publish-node-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Fannovel16/comfyui_controlnet_aux",
+      "target": "comfyanonymous/comfyui",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Fannovel16/comfyui_controlnet_aux",
+      "target": "ltdrdata/comfyui-manager",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Fannovel16/comfyui_controlnet_aux",
+      "target": "wenquanlu/handrefiner",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Fannovel16/comfyui_controlnet_aux",
+      "target": "projectnuwa/dragnuwa",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "Fannovel16/comfyui_controlnet_aux",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "Fannovel16/comfyui_controlnet_aux",
+      "target": "Comfy-Org/publish-node-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "Fannovel16/comfyui_controlnet_aux",
+      "target": "Publish to Comfy registry",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T03:55:23.846345+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 21888
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 655
+    },
+    {
+      "path": "requirements.txt",
+      "size": 268
+    },
+    {
+      "path": ".github/workflows/publish.yml",
+      "size": 649
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "ComfyUI's ControlNet Auxiliary Preprocessors",
+    "fork": false,
+    "full_name": "Fannovel16/comfyui_controlnet_aux",
+    "html_url": "https://github.com/Fannovel16/comfyui_controlnet_aux",
+    "language": "Python",
+    "pushed_at": "2026-04-13T10:45:44Z",
+    "stargazers_count": 3953,
+    "topics": [],
+    "updated_at": "2026-04-29T22:50:42Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "comfyanonymous/comfyui",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ltdrdata/comfyui-manager",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "projectnuwa/dragnuwa",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "wenquanlu/handrefiner",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Publish to Comfy registry",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish.yml",
+      "term": "Publish to Comfy registry"
+    }
+  ]
+}

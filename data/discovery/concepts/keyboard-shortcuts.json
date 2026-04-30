@@ -1,0 +1,88 @@
+{
+  "aliases": [
+    "keyboard-shortcuts"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Morantron/tmux-fingers",
+      "status": "candidate-context",
+      "text": "copy pasting in terminal with vimium/vimperator like hints."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Morantron/tmux-fingers",
+      "status": "candidate-context",
+      "text": "![tmux-fingers](./logo.svg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pawel-wiejacha/tmux-picker",
+      "status": "candidate-context",
+      "text": "Selecting and copy-pasting in terminal using Vimium-like hint mode."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pawel-wiejacha/tmux-picker",
+      "status": "candidate-context",
+      "text": "**tmux-picker**: Selecting and copy-pasting in terminal using Vimium-like hint mode for tmux."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Morantron/tmux-fingers",
+      "status": "candidate",
+      "text": "![tmux-fingers](./logo.svg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pawel-wiejacha/tmux-picker",
+      "status": "candidate",
+      "text": "**tmux-picker**: Selecting and copy-pasting in terminal using Vimium-like hint mode for tmux."
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "keyboard-shortcuts",
+  "concept_id": "keyboard-shortcuts",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "Morantron/tmux-fingers"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "pawel-wiejacha/tmux-picker"
+    }
+  ],
+  "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "keyboard-shortcuts",
+      "sense_id": "keyboard-shortcuts#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

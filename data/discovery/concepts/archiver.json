@@ -31,6 +31,18 @@
       "source_repo": "archiverjs/node-archiver",
       "status": "candidate-context",
       "text": "A streaming interface for archive generation"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "r-lyeh/stdarc.c",
+      "status": "candidate-context",
+      "text": "Collection of small public domain file archivers"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "r-lyeh/stdarc.c",
+      "status": "candidate-context",
+      "text": "Small file archivers (zip, pak, tar), virtual filesystem (vfs) and dir listing in a single-file header."
     }
   ],
   "candidate_glosses": [
@@ -45,6 +57,12 @@
       "source_repo": "archiverjs/node-archiver",
       "status": "candidate",
       "text": "A streaming interface for archive generation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "r-lyeh/stdarc.c",
+      "status": "candidate",
+      "text": "Small file archivers (zip, pak, tar), virtual filesystem (vfs) and dir listing in a single-file header."
     }
   ],
   "candidate_related_terms": [
@@ -100,11 +118,17 @@
       "observed_at": "2026-04-24T12:33:41.350224+00:00",
       "source_file": null,
       "source_repo": "archiverjs/node-archiver"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "r-lyeh/stdarc.c"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,45 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.rst",
+      "source_repo": "gmarull/qtmodern",
+      "target": "spyder-ide/qtpy",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T03:51:32.234578+00:00",
+  "fetched_files": [
+    {
+      "path": "README.rst",
+      "size": 1300
+    },
+    {
+      "path": "requirements.txt",
+      "size": 12
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "master",
+    "description": "PyQt/PySide Widgets Modern User Interface",
+    "fork": false,
+    "full_name": "gmarull/qtmodern",
+    "html_url": "https://github.com/gmarull/qtmodern",
+    "language": "Python",
+    "pushed_at": "2022-03-28T20:26:40Z",
+    "stargazers_count": 791,
+    "topics": [],
+    "updated_at": "2026-04-28T19:53:37Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "spyder-ide/qtpy",
+      "source_file": "README.rst"
+    }
+  ],
+  "terms": []
+}

@@ -1,7 +1,7 @@
 {
   "component": "actions/attest-build-provenance@v4",
   "first_seen_at": "2026-04-18T03:42:01.586113+00:00",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -72,6 +72,21 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/windows-arm-build.yml",
       "source_repo": "vim/vim-win32-installer"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yaml",
+      "source_repo": "KSXGitHub/parallel-disk-usage"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "coursier/coursier"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ko_build.yml",
+      "source_repo": "transparency-dev/witness"
     }
   ]
 }

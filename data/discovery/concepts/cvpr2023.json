@@ -31,6 +31,18 @@
       "source_repo": "IDEA-Research/OSX",
       "status": "candidate-context",
       "text": "[Jing Lin](https://jinglin7.github.io), [Ailing Zeng](https://ailingzeng.site/), [Haoqian Wang](https://www.sigs.tsinghua.edu.cn/whq_en/main.htm), [Lei Zhang](https://www.leizhang.org/), [Yu Li](https://yu-li.github.io/)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JIA-Lab-research/SphereFormer",
+      "status": "candidate-context",
+      "text": "The official implementation for \"Spherical Transformer for LiDAR-based 3D Recognition\" (CVPR 2023)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JIA-Lab-research/SphereFormer",
+      "status": "candidate-context",
+      "text": "[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/spherical-transformer-for-lidar-based-3d/3d-semantic-segmentation-on-semantickitti)](https://paperswithcode.com/sota/3d-semantic-segmentation-on-semantickitti?p=spherical-transformer-for-lidar-based\u2026"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +57,12 @@
       "source_repo": "IDEA-Research/OSX",
       "status": "candidate",
       "text": "[Jing Lin](https://jinglin7.github.io), [Ailing Zeng](https://ailingzeng.site/), [Haoqian Wang](https://www.sigs.tsinghua.edu.cn/whq_en/main.htm), [Lei Zhang](https://www.leizhang.org/), [Yu Li](https://yu-li.github.io/)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JIA-Lab-research/SphereFormer",
+      "status": "candidate",
+      "text": "[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/spherical-transformer-for-lidar-based-3d/3d-semantic-segmentation-on-semantickitti)](https://paperswithcode.com/sota/3d-semantic-segmentation-on-semantickitti?p=spherical-transformer-for-lidar-based\u2026"
     }
   ],
   "candidate_related_terms": [],
@@ -64,11 +82,17 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": null,
       "source_repo": "IDEA-Research/OSX"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "JIA-Lab-research/SphereFormer"
     }
   ],
   "first_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

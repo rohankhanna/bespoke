@@ -103,6 +103,42 @@
       "source_repo": "babashka/nbb",
       "status": "candidate-context",
       "text": "<img src=\"logo/nbb-with-name-green.svg\" width=\"250px\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "1set/starlet",
+      "status": "candidate-context",
+      "text": "\u2728 Yet another Go wrapper for Starlark that simplifies usage, offers data conversion and useful Starlark libraries"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "1set/starlet",
+      "status": "candidate-context",
+      "text": "[![godoc](https://pkg.go.dev/badge/github.com/1set/starlet.svg)](https://pkg.go.dev/github.com/1set/starlet)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sagiegurari/duckscript",
+      "status": "candidate-context",
+      "text": "Simple, extendable and embeddable scripting language."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sagiegurari/duckscript",
+      "status": "candidate-context",
+      "text": "| duckscript | SDK | CLI |"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "starlight-go/starlight",
+      "status": "candidate-context",
+      "text": "a go wrapper for google's starlark embedded python language"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "starlight-go/starlight",
+      "status": "candidate-context",
+      "text": "<p align=\"center\" style=\"font-weight:bold\">!! Starlight is still a WIP !!<p/>"
     }
   ],
   "candidate_glosses": [
@@ -153,6 +189,24 @@
       "source_repo": "babashka/nbb",
       "status": "candidate",
       "text": "<img src=\"logo/nbb-with-name-green.svg\" width=\"250px\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "1set/starlet",
+      "status": "candidate",
+      "text": "[![godoc](https://pkg.go.dev/badge/github.com/1set/starlet.svg)](https://pkg.go.dev/github.com/1set/starlet)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sagiegurari/duckscript",
+      "status": "candidate",
+      "text": "| duckscript | SDK | CLI |"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "starlight-go/starlight",
+      "status": "candidate",
+      "text": "<p align=\"center\" style=\"font-weight:bold\">!! Starlight is still a WIP !!<p/>"
     }
   ],
   "candidate_related_terms": [
@@ -256,11 +310,41 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "babashka/nbb"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "1set/starlet"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "sagiegurari/duckscript"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "babashka/nbb"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "babashka/babashka"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "starlight-go/starlight"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

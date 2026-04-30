@@ -4,28 +4,28 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "ggml-org/llama.cpp",
-      "target": "ggml-org/llama.vscode",
+      "target": "hybridgroup/yzma",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "ggml-org/llama.cpp",
-      "target": "ggml-org/llama.vim",
+      "target": "guinmoon/llmfarm",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "ggml-org/llama.cpp",
-      "target": "go-skynet/go-llama.cpp",
+      "target": "gpustack/gguf-parser-go",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "ggml-org/llama.cpp",
-      "target": "firatkiral/kodibot",
+      "target": "gpustack/gpustack",
       "target_type": "repository"
     },
     {
@@ -246,6 +246,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-04-29T18:37:00.726333+00:00",
+  "generated_at": "2026-04-30T00:37:16.824464+00:00",
   "source_repo": "ggml-org/llama.cpp"
 }

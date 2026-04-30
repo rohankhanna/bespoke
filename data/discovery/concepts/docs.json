@@ -1289,6 +1289,156 @@
       "source_repo": "tsroten/zhon",
       "status": "candidate-context",
       "text": "docs"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "danielrosehill/Docs-And-Notes-Index",
+      "status": "candidate-context",
+      "text": "An index to my various documentation projects, both on Github and elsewhere"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "danielrosehill/Docs-And-Notes-Index",
+      "status": "candidate-context",
+      "text": "![Banner](https://res.cloudinary.com/drrvnflqy/image/upload/v1732904202/docs-index_fy8ula.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sferik/multi_json",
+      "status": "candidate-context",
+      "text": "A generic swappable back-end for JSON handling."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sferik/multi_json",
+      "status": "candidate-context",
+      "text": "docs"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "alpa-projects/alpa",
+      "status": "candidate-context",
+      "text": "Training and serving large-scale neural networks with auto parallelization."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alpa-projects/alpa",
+      "status": "candidate-context",
+      "text": "Docs"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "google-deepmind/dm-haiku",
+      "status": "candidate-context",
+      "text": "JAX-based neural network library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google-deepmind/dm-haiku",
+      "status": "candidate-context",
+      "text": "docs"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mhammond/pywin32",
+      "status": "candidate-context",
+      "text": "Python for Windows (pywin32) Extensions"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mhammond/pywin32",
+      "status": "candidate-context",
+      "text": "docs"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "scalar/scalar",
+      "status": "candidate-context",
+      "text": "Scalar is an open-source API platform:\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\ud83c\udf10 Modern REST API Client\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\ud83d\udcd6 Beautiful API References\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u2728 1st-Class OpenAPI/Swagger Support"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "scalar/scalar",
+      "status": "candidate-context",
+      "text": "[![CI](https://github.com/scalar/scalar/actions/workflows/ci.yml/badge.svg)](https://github.com/scalar/scalar/actions/workflows/ci.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aburns4/textualforesight",
+      "status": "candidate-context",
+      "text": "docs"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "yhirose/cpp-httplib",
+      "status": "candidate-context",
+      "text": "A C++ header-only HTTP/HTTPS server and client library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "yhirose/cpp-httplib",
+      "status": "candidate-context",
+      "text": "docs"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "artsy/README",
+      "status": "candidate-context",
+      "text": ":wave: - The documentation for being an Artsy Engineer"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "artsy/README",
+      "status": "candidate-context",
+      "text": "Welcome to Artsy! If you're a new team member, we're excited to have you! Here are your [onboarding docs](/onboarding#readme)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "microsoft/autogen",
+      "status": "candidate-context",
+      "text": "A programming framework for agentic AI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/autogen",
+      "status": "candidate-context",
+      "text": "Docs"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "day8/re-frame",
+      "status": "candidate-context",
+      "text": "A ClojureScript framework for building user interfaces, leveraging React"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "day8/re-frame",
+      "status": "candidate-context",
+      "text": "docs"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nativium/nativium",
+      "status": "candidate-context",
+      "text": "C++ Multiplatform Modular Toolkit Template"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nativium/nativium",
+      "status": "candidate-context",
+      "text": "Docs"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "erg-lang/erg",
+      "status": "candidate-context",
+      "text": "A statically typed language compatible with Python"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "erg-lang/erg",
+      "status": "candidate-context",
+      "text": "Docs"
     }
   ],
   "candidate_glosses": [
@@ -1933,6 +2083,84 @@
       "source_repo": "tsroten/zhon",
       "status": "candidate",
       "text": "docs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "danielrosehill/Docs-And-Notes-Index",
+      "status": "candidate",
+      "text": "![Banner](https://res.cloudinary.com/drrvnflqy/image/upload/v1732904202/docs-index_fy8ula.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sferik/multi_json",
+      "status": "candidate",
+      "text": "docs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alpa-projects/alpa",
+      "status": "candidate",
+      "text": "Docs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google-deepmind/dm-haiku",
+      "status": "candidate",
+      "text": "docs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mhammond/pywin32",
+      "status": "candidate",
+      "text": "docs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "scalar/scalar",
+      "status": "candidate",
+      "text": "[![CI](https://github.com/scalar/scalar/actions/workflows/ci.yml/badge.svg)](https://github.com/scalar/scalar/actions/workflows/ci.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aburns4/textualforesight",
+      "status": "candidate",
+      "text": "docs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "yhirose/cpp-httplib",
+      "status": "candidate",
+      "text": "docs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "artsy/README",
+      "status": "candidate",
+      "text": "Welcome to Artsy! If you're a new team member, we're excited to have you! Here are your [onboarding docs](/onboarding#readme)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/autogen",
+      "status": "candidate",
+      "text": "Docs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "day8/re-frame",
+      "status": "candidate",
+      "text": "docs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nativium/nativium",
+      "status": "candidate",
+      "text": "Docs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "erg-lang/erg",
+      "status": "candidate",
+      "text": "Docs"
     }
   ],
   "candidate_related_terms": [
@@ -2838,11 +3066,161 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": ".github/workflows/docs.yml",
       "source_repo": "tsroten/zhon"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/panvimdoc.yaml",
+      "source_repo": "dmtrKovalenko/fff"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "psf/black"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "danielrosehill/Docs-And-Notes-Index"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "apache/casbin-casbin.io"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "sferik/multi_json"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "absadiki/pywhispercpp"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/docs.yaml",
+      "source_repo": "meta-pytorch/torchft"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "alpa-projects/alpa"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "google-deepmind/dm-haiku"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "mhammond/pywin32"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "scalar/scalar"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/docs.yaml",
+      "source_repo": "aburns4/textualforesight"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "clayrisser/sphinx-jekyll-builder"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "5sControl/5Scontrol-manual"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "yhirose/cpp-httplib"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "harfbuzz/harfbuzz"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "adamchainz/blacken-docs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/deploy-docs.yml",
+      "source_repo": "invoke-ai/InvokeAI"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "artsy/README"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "microsoft/autogen"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/docs-workflow.yml",
+      "source_repo": "day8/re-frame"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "nativium/nativium"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/docs.yaml",
+      "source_repo": "AstraZeneca/runnable"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "erg-lang/erg"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "sublimelsp/LSP"
     }
   ],
   "first_seen_at": "2026-04-18T11:32:22.637859+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,198 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "confluentinc/schema-registry",
+      "target": "avro",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "confluentinc/schema-registry",
+      "target": "avro-schema",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "confluentinc/schema-registry",
+      "target": "confluent",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "confluentinc/schema-registry",
+      "target": "json",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "confluentinc/schema-registry",
+      "target": "json-schema",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "confluentinc/schema-registry",
+      "target": "kafka",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "confluentinc/schema-registry",
+      "target": "protobuf",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "confluentinc/schema-registry",
+      "target": "protobuf-schema",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "confluentinc/schema-registry",
+      "target": "rest-api",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "confluentinc/schema-registry",
+      "target": "schema",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "confluentinc/schema-registry",
+      "target": "schema-registry",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "confluentinc/schema-registry",
+      "target": "schemas",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T04:54:36.457847+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8048
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Confluent Schema Registry for Kafka",
+    "fork": false,
+    "full_name": "confluentinc/schema-registry",
+    "html_url": "https://github.com/confluentinc/schema-registry",
+    "language": "Java",
+    "pushed_at": "2026-04-30T03:48:09Z",
+    "stargazers_count": 2428,
+    "topics": [
+      "avro",
+      "avro-schema",
+      "confluent",
+      "json",
+      "json-schema",
+      "kafka",
+      "protobuf",
+      "protobuf-schema",
+      "rest-api",
+      "schema",
+      "schema-registry",
+      "schemas"
+    ],
+    "updated_at": "2026-04-29T10:16:43Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Schema Registry",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "avro"
+    },
+    {
+      "context_snippet": "Schema Registry",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "avro-schema"
+    },
+    {
+      "context_snippet": "Schema Registry",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "confluent"
+    },
+    {
+      "context_snippet": "Schema Registry",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "json"
+    },
+    {
+      "context_snippet": "Schema Registry",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "json-schema"
+    },
+    {
+      "context_snippet": "Schema Registry",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "kafka"
+    },
+    {
+      "context_snippet": "Schema Registry",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "protobuf"
+    },
+    {
+      "context_snippet": "Schema Registry",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "protobuf-schema"
+    },
+    {
+      "context_snippet": "Schema Registry",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rest-api"
+    },
+    {
+      "context_snippet": "Schema Registry",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "schema"
+    },
+    {
+      "context_snippet": "Schema Registry",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "schema-registry"
+    },
+    {
+      "context_snippet": "Schema Registry",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "schemas"
+    }
+  ]
+}

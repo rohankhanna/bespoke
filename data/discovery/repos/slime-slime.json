@@ -1,0 +1,99 @@
+{
+  "components": [
+    {
+      "component": "cachix/install-nix-action@v25",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "purcell/setup-emacs@v6.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "slime/slime",
+      "target": "cachix/install-nix-action@v25",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "slime/slime",
+      "target": "purcell/setup-emacs@v6.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "slime/slime",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "slime/slime",
+      "target": "common-lisp",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "slime/slime",
+      "target": "emacs",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T04:08:52.918826+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2335
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 646
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "The Superior Lisp Interaction Mode for Emacs",
+    "fork": false,
+    "full_name": "slime/slime",
+    "html_url": "https://github.com/slime/slime",
+    "language": "Common Lisp",
+    "pushed_at": "2026-04-27T11:45:31Z",
+    "stargazers_count": 2044,
+    "topics": [
+      "common-lisp",
+      "emacs"
+    ],
+    "updated_at": "2026-04-28T15:00:31Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "[![Build Status](https://github.com/slime/slime/workflows/CI/badge.svg)](https://github.com/slime/slime/actions)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "common-lisp"
+    },
+    {
+      "context_snippet": "[![Build Status](https://github.com/slime/slime/workflows/CI/badge.svg)](https://github.com/slime/slime/actions)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "emacs"
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "libvips/build-win64-mxe",
+      "target": "dloebl/cgif",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "libvips/build-win64-mxe",
+      "target": "fribidi/fribidi",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "libvips/build-win64-mxe",
+      "target": "fftw/fftw3",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "libvips/build-win64-mxe",
+      "target": "academysoftwarefoundation/imath",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/oci-publish.yml",
+      "source_repo": "libvips/build-win64-mxe",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/oci-publish.yml",
+      "source_repo": "libvips/build-win64-mxe",
+      "target": "docker/metadata-action@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/oci-publish.yml",
+      "source_repo": "libvips/build-win64-mxe",
+      "target": "docker/login-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/oci-publish.yml",
+      "source_repo": "libvips/build-win64-mxe",
+      "target": "docker/build-push-action@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/oci-publish.yml",
+      "source_repo": "libvips/build-win64-mxe",
+      "target": "Publish OCI image to ghcr.io",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-30T00:37:16.824464+00:00",
+  "source_repo": "libvips/build-win64-mxe"
+}

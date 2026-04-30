@@ -55,6 +55,30 @@
       "source_repo": "swz30/Restormer",
       "status": "candidate-context",
       "text": "[Syed Waqas Zamir](https://scholar.google.ae/citations?hl=en&user=POoai-QAAAAJ), [Aditya Arora](https://adityac8.github.io/), [Salman Khan](https://salman-h-khan.github.io/), [Munawar Hayat](https://scholar.google.com/citations?user=Mx8MbWYAAAAJ&hl=en), [Fahad Shahbaz Khan](http\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Anirudh257/strm",
+      "status": "candidate-context",
+      "text": "[CVPR 2022] Official Pytorch Implementation for \"Spatio-temporal Relation Modeling for Few-shot Action Recognition\". SOTA Results for Few-shot Action Recognition"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Anirudh257/strm",
+      "status": "candidate-context",
+      "text": "[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/spatio-temporal-relation-modeling-for-few/few-shot-action-recognition-on-hmdb51)](https://paperswithcode.com/sota/few-shot-action-recognition-on-hmdb51?p=spatio-temporal-relation-modeling-for-few)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JIA-Lab-research/Stratified-Transformer",
+      "status": "candidate-context",
+      "text": "Stratified Transformer for 3D Point Cloud Segmentation (CVPR 2022)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JIA-Lab-research/Stratified-Transformer",
+      "status": "candidate-context",
+      "text": "*Xin Lai<sup>\\*</sup>, Jianhui Liu<sup>\\*</sup>, Li Jiang, Liwei Wang, Hengshuang Zhao, Shu Liu, Xiaojuan Qi, Jiaya Jia*"
     }
   ],
   "candidate_glosses": [
@@ -81,6 +105,18 @@
       "source_repo": "swz30/Restormer",
       "status": "candidate",
       "text": "[Syed Waqas Zamir](https://scholar.google.ae/citations?hl=en&user=POoai-QAAAAJ), [Aditya Arora](https://adityac8.github.io/), [Salman Khan](https://salman-h-khan.github.io/), [Munawar Hayat](https://scholar.google.com/citations?user=Mx8MbWYAAAAJ&hl=en), [Fahad Shahbaz Khan](http\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Anirudh257/strm",
+      "status": "candidate",
+      "text": "[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/spatio-temporal-relation-modeling-for-few/few-shot-action-recognition-on-hmdb51)](https://paperswithcode.com/sota/few-shot-action-recognition-on-hmdb51?p=spatio-temporal-relation-modeling-for-few)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JIA-Lab-research/Stratified-Transformer",
+      "status": "candidate",
+      "text": "*Xin Lai<sup>\\*</sup>, Jianhui Liu<sup>\\*</sup>, Li Jiang, Liwei Wang, Hengshuang Zhao, Shu Liu, Xiaojuan Qi, Jiaya Jia*"
     }
   ],
   "candidate_related_terms": [],
@@ -112,11 +148,23 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "swz30/Restormer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "Anirudh257/strm"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "JIA-Lab-research/Stratified-Transformer"
     }
   ],
   "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

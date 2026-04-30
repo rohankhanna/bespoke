@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "mailstation"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jcs/msTERM",
+      "status": "candidate-context",
+      "text": "Terminal program for MailStation devices"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jcs/msTERM",
+      "status": "candidate-context",
+      "text": "![https://i.imgur.com/2l9rXK4.jpg](https://i.imgur.com/2l9rXK4.jpg)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jcs/msTERM",
+      "status": "candidate",
+      "text": "![https://i.imgur.com/2l9rXK4.jpg](https://i.imgur.com/2l9rXK4.jpg)"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "mailstation",
+  "concept_id": "mailstation",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "jcs/msTERM"
+    }
+  ],
+  "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "mailstation",
+      "sense_id": "mailstation#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

@@ -1,0 +1,102 @@
+{
+  "components": [
+    {
+      "component": "actions/stale@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stale.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "luau-lang/rfcs",
+      "target": "actions/stale@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "luau-lang/rfcs",
+      "target": "Close stale PRs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "luau-lang/rfcs",
+      "target": "language-design",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "luau-lang/rfcs",
+      "target": "programming-language",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "luau-lang/rfcs",
+      "target": "scripting-language",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T03:59:52.681508+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5431
+    },
+    {
+      "path": ".github/workflows/stale.yml",
+      "size": 354
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "RFCs for Luau evolution",
+    "fork": false,
+    "full_name": "luau-lang/rfcs",
+    "html_url": "https://github.com/luau-lang/rfcs",
+    "language": null,
+    "pushed_at": "2026-04-27T21:11:30Z",
+    "stargazers_count": 103,
+    "topics": [
+      "language-design",
+      "programming-language",
+      "scripting-language"
+    ],
+    "updated_at": "2026-04-28T07:48:40Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "'Close stale PRs'",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/stale.yml",
+      "term": "Close stale PRs"
+    },
+    {
+      "context_snippet": "Background",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "language-design"
+    },
+    {
+      "context_snippet": "Background",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "programming-language"
+    },
+    {
+      "context_snippet": "Background",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "scripting-language"
+    }
+  ]
+}

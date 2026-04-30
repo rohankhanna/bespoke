@@ -1,0 +1,85 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "celo-org/SocialConnect",
+      "target": "celo-org/socialconnect-twitter-server-side",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "celo-org/SocialConnect",
+      "target": "discovery",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "celo-org/SocialConnect",
+      "target": "identity",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "celo-org/SocialConnect",
+      "target": "lookup",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T01:42:15.092807+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 10705
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "main",
+    "description": "Protocol mapping social identifiers to blockchain addresses",
+    "fork": false,
+    "full_name": "celo-org/SocialConnect",
+    "html_url": "https://github.com/celo-org/SocialConnect",
+    "language": null,
+    "pushed_at": "2024-01-02T14:38:24Z",
+    "stargazers_count": 17,
+    "topics": [
+      "discovery",
+      "identity",
+      "lookup"
+    ],
+    "updated_at": "2026-04-11T12:01:02Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "celo-org/socialconnect-twitter-server-side",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "> [!IMPORTANT]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "discovery"
+    },
+    {
+      "context_snippet": "> [!IMPORTANT]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "identity"
+    },
+    {
+      "context_snippet": "> [!IMPORTANT]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "lookup"
+    }
+  ]
+}

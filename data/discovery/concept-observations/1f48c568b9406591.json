@@ -48,7 +48,7 @@
   "normalized_form": "citest-npu",
   "observation_id": "1f48c568b9406591",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-04-24T06:47:13.899148+00:00",
+  "observed_at": "2026-04-30T00:37:16.824464+00:00",
   "observed_text": "citest-npu",
   "source_context_snippet": "citest-npu",
   "source_file": ".github/workflows/citest_npu.yaml",

@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "GraalVM CE binaires built by the GraalVM community"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "This repository hosts [GraalVM Community](https://github.com/oracle/graal/)'s [builds](https://github.com/graalvm/graalvm-ce-builds/releases/) based on OpenJDK."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "This repository hosts [GraalVM Community](https://github.com/oracle/graal/)'s [builds](https://github.com/graalvm/graalvm-ce-builds/releases/) based on OpenJDK."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10051187,
+      "status": "candidate",
+      "text": "frame"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10050865,
+      "status": "candidate",
+      "text": "construct"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10048484,
+      "status": "candidate",
+      "text": "make"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10048410,
+      "status": "candidate",
+      "text": "form"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10048253,
+      "status": "candidate",
+      "text": "build up"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "builds",
+      "sense_id": "builds#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "builds",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "builds",
+  "observation_id": "3f8aa5b10b10c668",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T00:37:16.824464+00:00",
+  "observed_text": "builds",
+  "source_context_snippet": "This repository hosts [GraalVM Community](https://github.com/oracle/graal/)'s [builds](https://github.com/graalvm/graalvm-ce-builds/releases/) based on OpenJDK.",
+  "source_file": null,
+  "source_repo": "graalvm/graalvm-ce-builds",
+  "source_repo_description": "GraalVM CE binaires built by the GraalVM community"
+}

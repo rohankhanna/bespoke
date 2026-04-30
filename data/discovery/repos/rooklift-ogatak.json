@@ -1,0 +1,112 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "rooklift/ogatak",
+      "target": "sabakihq/sabaki",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "rooklift/ogatak",
+      "target": "sanderland/katrain",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "rooklift/ogatak",
+      "target": "kaorahi/lizgoban",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "rooklift/ogatak",
+      "target": "baduk",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "rooklift/ogatak",
+      "target": "katago",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "rooklift/ogatak",
+      "target": "weiqi",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T03:48:44.903002+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2932
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "KataGo analysis GUI and SGF editor",
+    "fork": false,
+    "full_name": "rooklift/ogatak",
+    "html_url": "https://github.com/rooklift/ogatak",
+    "language": "JavaScript",
+    "pushed_at": "2026-04-25T11:30:29Z",
+    "stargazers_count": 134,
+    "topics": [
+      "baduk",
+      "go",
+      "gui",
+      "katago",
+      "sgf",
+      "weiqi"
+    ],
+    "updated_at": "2026-04-29T19:18:52Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "kaorahi/lizgoban",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "sabakihq/sabaki",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "sanderland/katrain",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "![Screenshot](https://user-images.githubusercontent.com/16438795/239653023-369442f4-e35f-4dc7-98f4-5cf7a266c2f9.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "baduk"
+    },
+    {
+      "context_snippet": "![Screenshot](https://user-images.githubusercontent.com/16438795/239653023-369442f4-e35f-4dc7-98f4-5cf7a266c2f9.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "katago"
+    },
+    {
+      "context_snippet": "![Screenshot](https://user-images.githubusercontent.com/16438795/239653023-369442f4-e35f-4dc7-98f4-5cf7a266c2f9.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "weiqi"
+    }
+  ]
+}

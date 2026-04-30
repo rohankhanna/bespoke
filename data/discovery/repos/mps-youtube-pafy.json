@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.rst",
+      "source_repo": "mps-youtube/pafy",
+      "target": "pycon/2014-slides",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T04:01:02.036212+00:00",
+  "fetched_files": [
+    {
+      "path": "README.rst",
+      "size": 8548
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "develop",
+    "description": "Python library to download YouTube content and retrieve metadata",
+    "fork": false,
+    "full_name": "mps-youtube/pafy",
+    "html_url": "https://github.com/mps-youtube/pafy",
+    "language": "Python",
+    "pushed_at": "2024-04-29T15:15:40Z",
+    "stargazers_count": 1413,
+    "topics": [],
+    "updated_at": "2026-03-13T17:23:27Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "pycon/2014-slides",
+      "source_file": "README.rst"
+    }
+  ],
+  "terms": []
+}

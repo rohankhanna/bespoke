@@ -84,7 +84,7 @@
   "normalized_form": "code-quality",
   "observation_id": "87d9cb21870350c7",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_at": "2026-04-30T00:37:16.824464+00:00",
   "observed_text": "Code Quality",
   "source_context_snippet": "Code Quality",
   "source_file": ".github/workflows/code_quality.yml",

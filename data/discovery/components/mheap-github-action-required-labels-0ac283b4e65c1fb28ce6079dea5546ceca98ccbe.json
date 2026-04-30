@@ -1,7 +1,7 @@
 {
   "component": "mheap/github-action-required-labels@0ac283b4e65c1fb28ce6079dea5546ceca98ccbe",
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
-  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -12,6 +12,11 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/checks.yaml",
       "source_repo": "dexidp/dex"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/require-pr-label.yml",
+      "source_repo": "ultrajson/ultrajson"
     }
   ]
 }

@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Staging TUF repository for Sigstore trust root"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "TUF-on-CI repository tests"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "TUF-on-CI repository tests"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10622,
+      "status": "candidate",
+      "text": "bank"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10622,
+      "status": "candidate",
+      "text": "deposition"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10622,
+      "status": "candidate",
+      "text": "revert"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10622,
+      "status": "candidate",
+      "text": "reverting"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10622,
+      "status": "candidate",
+      "text": "safe"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "TUF-on-CI repository tests",
+      "sense_id": "tuf-on-ci-repository-tests#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "tuf-on-ci-repository-tests",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "tuf-on-ci-repository-tests",
+  "observation_id": "d95089ac8b9a0019",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-30T00:37:16.824464+00:00",
+  "observed_text": "TUF-on-CI repository tests",
+  "source_context_snippet": "TUF-on-CI repository tests",
+  "source_file": ".github/workflows/test.yml",
+  "source_repo": "sigstore/root-signing-staging",
+  "source_repo_description": "Staging TUF repository for Sigstore trust root"
+}

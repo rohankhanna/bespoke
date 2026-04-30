@@ -1,0 +1,88 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-review-and-merge.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sync.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-review-and-merge.yml",
+      "source_repo": "project-mirai/mirai-repo-mirror",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/auto-review-and-merge.yml",
+      "source_repo": "project-mirai/mirai-repo-mirror",
+      "target": "Auto Review",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sync.yml",
+      "source_repo": "project-mirai/mirai-repo-mirror",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/sync.yml",
+      "source_repo": "project-mirai/mirai-repo-mirror",
+      "target": "Repo Sync",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T03:48:54.997318+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2431
+    },
+    {
+      "path": ".github/workflows/auto-review-and-merge.yml",
+      "size": 937
+    },
+    {
+      "path": ".github/workflows/sync.yml",
+      "size": 1085
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Mirai Package Index",
+    "fork": false,
+    "full_name": "project-mirai/mirai-repo-mirror",
+    "html_url": "https://github.com/project-mirai/mirai-repo-mirror",
+    "language": "JavaScript",
+    "pushed_at": "2023-11-27T08:40:54Z",
+    "stargazers_count": 26,
+    "topics": [],
+    "updated_at": "2025-12-03T12:19:59Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Auto Review",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/auto-review-and-merge.yml",
+      "term": "Auto Review"
+    },
+    {
+      "context_snippet": "Repo Sync",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/sync.yml",
+      "term": "Repo Sync"
+    }
+  ]
+}

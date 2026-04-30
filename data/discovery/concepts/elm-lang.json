@@ -19,6 +19,30 @@
       "source_repo": "elm-tooling/elm-language-server",
       "status": "candidate-context",
       "text": "![Matrix](https://img.shields.io/matrix/elm-language-server:matrix.org?label=Matrix%20chat&logo=Matrix)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "elm-tooling/elm-language-client-vscode",
+      "status": "candidate-context",
+      "text": "Improving your Elm experience since 2019"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "elm-tooling/elm-language-client-vscode",
+      "status": "candidate-context",
+      "text": "[![Version](https://vsmarketplacebadge.apphb.com/version/Elmtooling.elm-ls-vscode.png)](https://marketplace.visualstudio.com/items?itemName=Elmtooling.elm-ls-vscode)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jfmengels/elm-review",
+      "status": "candidate-context",
+      "text": "Analyzes Elm projects, to help find mistakes before your users find them."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jfmengels/elm-review",
+      "status": "candidate-context",
+      "text": "`elm-review` analyzes [Elm](https://elm-lang.org/) projects, to help find mistakes before your users find them."
     }
   ],
   "candidate_glosses": [
@@ -27,6 +51,18 @@
       "source_repo": "elm-tooling/elm-language-server",
       "status": "candidate",
       "text": "![Matrix](https://img.shields.io/matrix/elm-language-server:matrix.org?label=Matrix%20chat&logo=Matrix)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "elm-tooling/elm-language-client-vscode",
+      "status": "candidate",
+      "text": "[![Version](https://vsmarketplacebadge.apphb.com/version/Elmtooling.elm-ls-vscode.png)](https://marketplace.visualstudio.com/items?itemName=Elmtooling.elm-ls-vscode)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jfmengels/elm-review",
+      "status": "candidate",
+      "text": "`elm-review` analyzes [Elm](https://elm-lang.org/) projects, to help find mistakes before your users find them."
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +76,23 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "elm-tooling/elm-language-server"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "elm-tooling/elm-language-client-vscode"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "jfmengels/elm-review"
     }
   ],
   "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

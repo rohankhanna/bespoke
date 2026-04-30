@@ -1,0 +1,57 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "agentsea/skillpacks",
+      "target": "agentsea/taskara",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "agentsea/skillpacks",
+      "target": "agentsea/threadmem",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T02:50:39.758202+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3549
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 921
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Tune AI agents on tools",
+    "fork": false,
+    "full_name": "agentsea/skillpacks",
+    "html_url": "https://github.com/agentsea/skillpacks",
+    "language": "Python",
+    "pushed_at": "2025-05-29T19:54:40Z",
+    "stargazers_count": 8,
+    "topics": [],
+    "updated_at": "2025-11-11T07:06:57Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "agentsea/taskara",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "agentsea/threadmem",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

@@ -55,6 +55,42 @@
       "source_repo": "BMW-InnovationLab/BMW-Labeltool-Lite",
       "status": "candidate-context",
       "text": "---"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "BMW-InnovationLab/BMW-YOLOv4-Training-Automation",
+      "status": "candidate-context",
+      "text": "This repository allows you to get started with training a state-of-the-art Deep Learning model with little to no configuration needed!  You provide your labeled dataset or label your dataset using our BMW-LabelTool-Lite and you can start the training right away and monitor it in many different ways like TensorBoard or a custom REST API and GUI. NoCode training with YOLOv4 and YOLOV3 has never been so easy."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "BMW-InnovationLab/BMW-YOLOv4-Training-Automation",
+      "status": "candidate-context",
+      "text": "This repository, based on AlexeyAB's darknet repro, allows you to get started with training a state-of-the-art Deep Learning model with little to no configuration needed! You provide your labeled dataset and you can start the training right away and monitor it in many different \u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "WongKinYiu/ScaledYOLOv4",
+      "status": "candidate-context",
+      "text": "Scaled-YOLOv4: Scaling Cross Stage Partial Network"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "WongKinYiu/ScaledYOLOv4",
+      "status": "candidate-context",
+      "text": "This is the implementation of \"[Scaled-YOLOv4: Scaling Cross Stage Partial Network](https://arxiv.org/abs/2011.08036)\" using PyTorch framwork."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "WongKinYiu/yolov7",
+      "status": "candidate-context",
+      "text": "Implementation of paper - YOLOv7: Trainable bag-of-freebies sets new state-of-the-art for real-time object detectors"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "WongKinYiu/yolov7",
+      "status": "candidate-context",
+      "text": "Implementation of paper - [YOLOv7: Trainable bag-of-freebies sets new state-of-the-art for real-time object detectors](https://arxiv.org/abs/2207.02696)"
     }
   ],
   "candidate_glosses": [
@@ -81,6 +117,24 @@
       "source_repo": "BMW-InnovationLab/BMW-Labeltool-Lite",
       "status": "candidate",
       "text": "---"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "BMW-InnovationLab/BMW-YOLOv4-Training-Automation",
+      "status": "candidate",
+      "text": "This repository, based on AlexeyAB's darknet repro, allows you to get started with training a state-of-the-art Deep Learning model with little to no configuration needed! You provide your labeled dataset and you can start the training right away and monitor it in many different \u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "WongKinYiu/ScaledYOLOv4",
+      "status": "candidate",
+      "text": "This is the implementation of \"[Scaled-YOLOv4: Scaling Cross Stage Partial Network](https://arxiv.org/abs/2011.08036)\" using PyTorch framwork."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "WongKinYiu/yolov7",
+      "status": "candidate",
+      "text": "Implementation of paper - [YOLOv7: Trainable bag-of-freebies sets new state-of-the-art for real-time object detectors](https://arxiv.org/abs/2207.02696)"
     }
   ],
   "candidate_related_terms": [],
@@ -112,11 +166,29 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "BMW-InnovationLab/BMW-Labeltool-Lite"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "BMW-InnovationLab/BMW-YOLOv4-Training-Automation"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "WongKinYiu/ScaledYOLOv4"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "WongKinYiu/yolov7"
     }
   ],
   "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

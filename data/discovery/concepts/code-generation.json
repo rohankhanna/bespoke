@@ -202,6 +202,66 @@
       "source_repo": "zai-org/CodeGeeX2",
       "status": "candidate-context",
       "text": "![](resources/codegeex_logo.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "microsoft/monitors4codegen",
+      "status": "candidate-context",
+      "text": "Code and Data artifact for NeurIPS 2023 paper - \"Monitor-Guided Decoding of Code LMs with Static Analysis of Repository Context\". `multispy` is a lsp client library in Python intended to be used to build applications around language servers."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/monitors4codegen",
+      "status": "candidate-context",
+      "text": "Alternative title: Guiding Language Models of Code with Global Context using Monitors"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "salesforce/CodeT5",
+      "status": "candidate-context",
+      "text": "Home of CodeT5: Open Code LLMs for Code Understanding and Generation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "salesforce/CodeT5",
+      "status": "candidate-context",
+      "text": "Official research release for **CodeT5** and **CodeT5+** models for **Code Understanding and Generation** from Salesforce Research, which are introduced by the following papers:"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "reasoning-machines/CoCoGen",
+      "status": "candidate-context",
+      "text": "Language Models of Code are Few-Shot Commonsense Learners (EMNLP 2022)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "reasoning-machines/CoCoGen",
+      "status": "candidate-context",
+      "text": "The official repository for [\"Language Models of Code are Few-Shot Commonsense Learners\"](https://arxiv.org/abs/2210.07128) (Madaan et al., EMNLP'2022)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "zai-org/CodeGeeX",
+      "status": "candidate-context",
+      "text": "CodeGeeX: An Open Multilingual Code Generation Model (KDD 2023)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "zai-org/CodeGeeX",
+      "status": "candidate-context",
+      "text": "<img src=\"resources/logo/codegeex_logo.png\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "microsoft/multilspy",
+      "status": "candidate-context",
+      "text": "multilspy is a lsp client library in Python intended to be used to build applications around language servers."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/multilspy",
+      "status": "candidate-context",
+      "text": "[![PyPI - Version](https://img.shields.io/pypi/v/multilspy)](https://pypi.org/project/multilspy/)"
     }
   ],
   "candidate_glosses": [
@@ -300,6 +360,36 @@
       "source_repo": "zai-org/CodeGeeX2",
       "status": "candidate",
       "text": "![](resources/codegeex_logo.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/monitors4codegen",
+      "status": "candidate",
+      "text": "Alternative title: Guiding Language Models of Code with Global Context using Monitors"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "salesforce/CodeT5",
+      "status": "candidate",
+      "text": "Official research release for **CodeT5** and **CodeT5+** models for **Code Understanding and Generation** from Salesforce Research, which are introduced by the following papers:"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "reasoning-machines/CoCoGen",
+      "status": "candidate",
+      "text": "The official repository for [\"Language Models of Code are Few-Shot Commonsense Learners\"](https://arxiv.org/abs/2210.07128) (Madaan et al., EMNLP'2022)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "zai-org/CodeGeeX",
+      "status": "candidate",
+      "text": "<img src=\"resources/logo/codegeex_logo.png\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/multilspy",
+      "status": "candidate",
+      "text": "[![PyPI - Version](https://img.shields.io/pypi/v/multilspy)](https://pypi.org/project/multilspy/)"
     }
   ],
   "candidate_related_terms": [
@@ -505,11 +595,59 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "xlang-ai/DS-1000"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "microsoft/monitors4codegen"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "modelscope/ms-agent"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "salesforce/CodeT5"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "reasoning-machines/CoCoGen"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "zai-org/CodeGeeX2"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "zai-org/CodeGeeX"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "apollographql/apollo-tooling"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "microsoft/multilspy"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

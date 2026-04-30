@@ -1,7 +1,7 @@
 {
   "component": "actions-ecosystem/action-add-labels@v1",
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -32,6 +32,11 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/label-new-prs.yaml",
       "source_repo": "ansible-collections/kubernetes.core"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/label-comments.yml",
+      "source_repo": "opencost/opencost-plugins"
     }
   ]
 }

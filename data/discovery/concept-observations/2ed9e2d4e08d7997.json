@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A Video embed extension for the goldmark markdown parser."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "goldmark-embed is an extension for the [goldmark][goldmark] library that extends"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "goldmark-embed is an extension for the [goldmark][goldmark] library that extends"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "video-embed",
+      "sense_id": "video-embed#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "video-embed",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "video-embed",
+  "observation_id": "2ed9e2d4e08d7997",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T00:37:16.824464+00:00",
+  "observed_text": "video-embed",
+  "source_context_snippet": "goldmark-embed is an extension for the [goldmark][goldmark] library that extends",
+  "source_file": null,
+  "source_repo": "13rac1/goldmark-embed",
+  "source_repo_description": "A Video embed extension for the goldmark markdown parser."
+}

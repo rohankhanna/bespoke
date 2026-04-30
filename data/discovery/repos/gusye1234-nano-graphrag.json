@@ -1,0 +1,141 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/setup-python@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "andstor/file-existence-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "codecov/codecov-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "gusye1234/nano-graphrag",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "gusye1234/nano-graphrag",
+      "target": "actions/setup-python@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "gusye1234/nano-graphrag",
+      "target": "andstor/file-existence-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "gusye1234/nano-graphrag",
+      "target": "codecov/codecov-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "gusye1234/nano-graphrag",
+      "target": "test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gusye1234/nano-graphrag",
+      "target": "gpt-4o",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gusye1234/nano-graphrag",
+      "target": "graphrag",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gusye1234/nano-graphrag",
+      "target": "learning-by-doing",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T02:04:02.071779+00:00",
+  "fetched_files": [
+    {
+      "path": "requirements.txt",
+      "size": 111
+    },
+    {
+      "path": ".github/workflows/test.yml",
+      "size": 1565
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A simple, easy-to-hack GraphRAG implementation",
+    "fork": false,
+    "full_name": "gusye1234/nano-graphrag",
+    "html_url": "https://github.com/gusye1234/nano-graphrag",
+    "language": "Python",
+    "pushed_at": "2026-01-27T07:50:55Z",
+    "stargazers_count": 3819,
+    "topics": [
+      "gpt",
+      "gpt-4o",
+      "graphrag",
+      "learning-by-doing",
+      "llm",
+      "rag"
+    ],
+    "updated_at": "2026-04-29T12:09:28Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "term": "test"
+    },
+    {
+      "context_snippet": "future>=1.0.0 openai tiktoken networkx graspologic nano-vectordb hnswlib xxhash tenacity dspy-ai neo4j aioboto3",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gpt-4o"
+    },
+    {
+      "context_snippet": "future>=1.0.0 openai tiktoken networkx graspologic nano-vectordb hnswlib xxhash tenacity dspy-ai neo4j aioboto3",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "graphrag"
+    },
+    {
+      "context_snippet": "future>=1.0.0 openai tiktoken networkx graspologic nano-vectordb hnswlib xxhash tenacity dspy-ai neo4j aioboto3",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "learning-by-doing"
+    }
+  ]
+}

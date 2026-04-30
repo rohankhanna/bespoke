@@ -55,6 +55,30 @@
       "source_repo": "Sanster/IOPaint",
       "status": "candidate-context",
       "text": "<h1 align=\"center\">IOPaint</h1>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "parlance-zz/g-diffuser-bot",
+      "status": "candidate-context",
+      "text": "Discord bot and Interface for Stable Diffusion"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "parlance-zz/g-diffuser-bot",
+      "status": "candidate-context",
+      "text": "![https://www.stablecabal.org](https://www.g-diffuser.com/stablecabal.png) https://www.stablecabal.org"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "leejet/stable-diffusion.cpp",
+      "status": "candidate-context",
+      "text": "Diffusion model(SD,Flux,Wan,Qwen Image,Z-Image,...) inference in pure C/C++"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "leejet/stable-diffusion.cpp",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -81,6 +105,18 @@
       "source_repo": "Sanster/IOPaint",
       "status": "candidate",
       "text": "<h1 align=\"center\">IOPaint</h1>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "parlance-zz/g-diffuser-bot",
+      "status": "candidate",
+      "text": "![https://www.stablecabal.org](https://www.g-diffuser.com/stablecabal.png) https://www.stablecabal.org"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "leejet/stable-diffusion.cpp",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_related_terms": [],
@@ -118,11 +154,35 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": null,
       "source_repo": "Sanster/IOPaint"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "Sanster/IOPaint"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "invoke-ai/InvokeAI"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "parlance-zz/g-diffuser-bot"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "leejet/stable-diffusion.cpp"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

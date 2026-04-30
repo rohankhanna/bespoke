@@ -55,6 +55,18 @@
       "source_repo": "hiyouga/vllm",
       "status": "candidate-context",
       "text": "'Close inactive issues and PRs'"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "junit-team/junit-framework",
+      "status": "candidate-context",
+      "text": "\u2705 The programmer-friendly testing framework for Java and the JVM"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "junit-team/junit-framework",
+      "status": "candidate-context",
+      "text": "Close inactive issues and PRs"
     }
   ],
   "candidate_glosses": [
@@ -81,6 +93,12 @@
       "source_repo": "hiyouga/vllm",
       "status": "candidate",
       "text": "'Close inactive issues and PRs'"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "junit-team/junit-framework",
+      "status": "candidate",
+      "text": "Close inactive issues and PRs"
     }
   ],
   "candidate_related_terms": [
@@ -154,11 +172,23 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": ".github/workflows/stale.yml",
       "source_repo": "hiyouga/vllm"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/close_inactive_issues_pr.yml",
+      "source_repo": "NVIDIA/Model-Optimizer"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/close-inactive-issues.yml",
+      "source_repo": "junit-team/junit-framework"
     }
   ],
   "first_seen_at": "2026-04-18T10:43:38.551697+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

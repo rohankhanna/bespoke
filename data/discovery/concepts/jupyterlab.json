@@ -115,6 +115,18 @@
       "source_repo": "b-data/docker-deployment-jupyter",
       "status": "candidate-context",
       "text": "<!-- markdownlint-disable line-length -->"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "padreati/rapaio-jupyter-kernel",
+      "status": "candidate-context",
+      "text": "Java jupyter kernel"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "padreati/rapaio-jupyter-kernel",
+      "status": "candidate-context",
+      "text": "Jupyter kernel for Java language based on JShell. It implements Jupyter message specification version 5.4, and it requires Java >= 17 (supports up to Java 25 with preview features)."
     }
   ],
   "candidate_glosses": [
@@ -171,6 +183,12 @@
       "source_repo": "b-data/docker-deployment-jupyter",
       "status": "candidate",
       "text": "<!-- markdownlint-disable line-length -->"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "padreati/rapaio-jupyter-kernel",
+      "status": "candidate",
+      "text": "Jupyter kernel for Java language based on JShell. It implements Jupyter message specification version 5.4, and it requires Java >= 17 (supports up to Java 25 with preview features)."
     }
   ],
   "candidate_related_terms": [],
@@ -238,11 +256,23 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "b-data/docker-deployment-jupyter"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "jupyterlab/frontends-team-compass"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "padreati/rapaio-jupyter-kernel"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

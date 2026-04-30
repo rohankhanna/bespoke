@@ -1,0 +1,81 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "clcarwin/convert_torch_to_pytorch",
+      "target": "jcjohnson/cnn-benchmarks",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "clcarwin/convert_torch_to_pytorch",
+      "target": "facebookresearch/resnext",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "clcarwin/convert_torch_to_pytorch",
+      "target": "liuzhuang13/densenet",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "clcarwin/convert_torch_to_pytorch",
+      "target": "pytorch",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T03:49:01.512875+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1432
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Convert torch t7 model to pytorch model and source.",
+    "fork": false,
+    "full_name": "clcarwin/convert_torch_to_pytorch",
+    "html_url": "https://github.com/clcarwin/convert_torch_to_pytorch",
+    "language": "Python",
+    "pushed_at": "2023-07-10T23:21:03Z",
+    "stargazers_count": 543,
+    "topics": [
+      "pytorch"
+    ],
+    "updated_at": "2026-03-20T14:05:28Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "facebookresearch/resnext",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jcjohnson/cnn-benchmarks",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "liuzhuang13/densenet",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Convert torch t7 model to pytorch model and source.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytorch"
+    }
+  ]
+}

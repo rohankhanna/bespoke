@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "The simplest and most extensible zkVM. Fast and fully open source from a16z crypto and friends. \u26a1"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Fire Claude Routine"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Fire Claude Routine"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14980,
+      "status": "candidate",
+      "text": "exile"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14445,
+      "status": "candidate",
+      "text": "rains"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14135,
+      "status": "candidate",
+      "text": "gel"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 13537,
+      "status": "candidate",
+      "text": "gene"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 13537,
+      "status": "candidate",
+      "text": "toga"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Fire Claude Routine",
+      "sense_id": "fire-claude-routine#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "fire-claude-routine",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "fire-claude-routine",
+  "observation_id": "b2d0ff9c04e3ec22",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-30T00:37:16.824464+00:00",
+  "observed_text": "Fire Claude Routine",
+  "source_context_snippet": "Fire Claude Routine",
+  "source_file": ".github/workflows/_fire-claude-routine.yml",
+  "source_repo": "a16z/jolt",
+  "source_repo_description": "The simplest and most extensible zkVM. Fast and fully open source from a16z crypto and friends. \u26a1"
+}

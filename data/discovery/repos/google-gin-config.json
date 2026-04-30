@@ -1,0 +1,73 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "google/gin-config",
+      "target": "configuration-management",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "google/gin-config",
+      "target": "tensorflow",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "google/gin-config",
+      "target": "tensorflow-experiments",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T03:02:59.944317+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 15908
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Gin provides a lightweight configuration framework for Python",
+    "fork": false,
+    "full_name": "google/gin-config",
+    "html_url": "https://github.com/google/gin-config",
+    "language": "Python",
+    "pushed_at": "2026-04-22T12:34:21Z",
+    "stargazers_count": 2151,
+    "topics": [
+      "configuration-management",
+      "python",
+      "tensorflow",
+      "tensorflow-experiments"
+    ],
+    "updated_at": "2026-04-25T16:08:25Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "**Authors**: Dan Holtmann-Rice, Sergio Guadarrama, Nathan Silberman",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "configuration-management"
+    },
+    {
+      "context_snippet": "**Authors**: Dan Holtmann-Rice, Sergio Guadarrama, Nathan Silberman",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tensorflow"
+    },
+    {
+      "context_snippet": "**Authors**: Dan Holtmann-Rice, Sergio Guadarrama, Nathan Silberman",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tensorflow-experiments"
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Deep Learning API and Server in C++14 support for PyTorch,TensorRT, Dlib, NCNN, Tensorflow, XGBoost and TSNE"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<p align=\"center\"><img src=\"https://www.deepdetect.com/img/icons/menu/sidebar/deepdetect.svg\" alt=\"DeepDetect Logo\" width=\"45%\" /></p>"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<p align=\"center\"><img src=\"https://www.deepdetect.com/img/icons/menu/sidebar/deepdetect.svg\" alt=\"DeepDetect Logo\" width=\"45%\" /></p>"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "image-classification",
+      "sense_id": "image-classification#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "image-classification",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "image-classification",
+  "observation_id": "2f70a2cba9ec5fe9",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T00:37:16.824464+00:00",
+  "observed_text": "image-classification",
+  "source_context_snippet": "<p align=\"center\"><img src=\"https://www.deepdetect.com/img/icons/menu/sidebar/deepdetect.svg\" alt=\"DeepDetect Logo\" width=\"45%\" /></p>",
+  "source_file": null,
+  "source_repo": "jolibrain/deepdetect",
+  "source_repo_description": "Deep Learning API and Server in C++14 support for PyTorch,TensorRT, Dlib, NCNN, Tensorflow, XGBoost and TSNE"
+}

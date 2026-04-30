@@ -1,0 +1,136 @@
+{
+  "aliases": [
+    "eject"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "timarney/react-app-rewired",
+      "status": "candidate-context",
+      "text": "Override create-react-app webpack configs without ejecting"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "timarney/react-app-rewired",
+      "status": "candidate-context",
+      "text": "> \u2139\ufe0f"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "timarney/react-app-rewired",
+      "status": "candidate",
+      "text": "> \u2139\ufe0f"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40018982,
+      "status": "candidate",
+      "text": "boot out"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40018962,
+      "status": "candidate",
+      "text": "kick out"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40018959,
+      "status": "candidate",
+      "text": "turf out"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40018947,
+      "status": "candidate",
+      "text": "force out"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40018737,
+      "status": "candidate",
+      "text": "chuck out"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 37073,
+      "status": "candidate",
+      "text": "discharge"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 22065,
+      "status": "candidate",
+      "text": "release"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 18032,
+      "status": "candidate",
+      "text": "expel"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 13042,
+      "status": "candidate",
+      "text": "squirt"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 11038,
+      "status": "candidate",
+      "text": "exclude"
+    }
+  ],
+  "canonical_name": "eject",
+  "concept_id": "eject",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "timarney/react-app-rewired"
+    }
+  ],
+  "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "eject",
+      "sense_id": "eject#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

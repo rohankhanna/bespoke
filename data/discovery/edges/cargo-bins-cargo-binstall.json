@@ -8,27 +8,6 @@
       "target_type": "repository"
     },
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "cargo-bins/cargo-binstall",
-      "target": "nabijaczleweli/cargo-update",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "cargo-bins/cargo-binstall",
-      "target": "dustinblackman/cargo-run-bin",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "cargo-bins/cargo-binstall",
-      "target": "cargo-bins/cargo-quickinstall",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/cache-cleanup.yml",
       "source_repo": "cargo-bins/cargo-binstall",
@@ -123,13 +102,6 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/release-cli.yml",
       "source_repo": "cargo-bins/cargo-binstall",
-      "target": "mathieudutour/github-tag-action@v6.2",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/release-cli.yml",
-      "source_repo": "cargo-bins/cargo-binstall",
       "target": "cargo-bins/cargo-binstall@main",
       "target_type": "component"
     },
@@ -152,6 +124,20 @@
       "source_file": ".github/workflows/release-cli.yml",
       "source_repo": "cargo-bins/cargo-binstall",
       "target": "actions/download-artifact@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-cli.yml",
+      "source_repo": "cargo-bins/cargo-binstall",
+      "target": "actions/attest@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-cli.yml",
+      "source_repo": "cargo-bins/cargo-binstall",
+      "target": "mathieudutour/github-tag-action@v6.2",
       "target_type": "component"
     },
     {
@@ -281,6 +267,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-04-18T11:32:22.637859+00:00",
+  "generated_at": "2026-04-30T00:37:16.824464+00:00",
   "source_repo": "cargo-bins/cargo-binstall"
 }

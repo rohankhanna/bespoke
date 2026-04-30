@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "\ud83e\udd16 A Python library for learning and evaluating knowledge graph embeddings "
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Common"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Common"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40020358,
+      "status": "candidate",
+      "text": "mutual"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40019057,
+      "status": "candidate",
+      "text": "standard"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40017751,
+      "status": "candidate",
+      "text": "popular"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40016659,
+      "status": "candidate",
+      "text": "group"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40015639,
+      "status": "candidate",
+      "text": "community"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Common",
+      "sense_id": "common#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 51043,
+      "status": "candidate",
+      "text": "vernacular"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 46076,
+      "status": "candidate",
+      "text": "standard"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 46039,
+      "status": "candidate",
+      "text": "vulgar"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 37040,
+      "status": "candidate",
+      "text": "familiar"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 34048,
+      "status": "candidate",
+      "text": "coarse"
+    }
+  ],
+  "concept_id": "common",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "common",
+  "observation_id": "ec3ca8daf7ae2d60",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-30T00:37:16.824464+00:00",
+  "observed_text": "Common",
+  "source_context_snippet": "Common",
+  "source_file": ".github/workflows/common.yml",
+  "source_repo": "pykeen/pykeen",
+  "source_repo_description": "\ud83e\udd16 A Python library for learning and evaluating knowledge graph embeddings "
+}

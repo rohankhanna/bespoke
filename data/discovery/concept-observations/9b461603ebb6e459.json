@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Structured state space sequence models"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "This repository provides the official implementations and experiments for models related to [S4](https://arxiv.org/abs/2111.00396),"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "This repository provides the official implementations and experiments for models related to [S4](https://arxiv.org/abs/2111.00396),"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "sequence-models",
+      "sense_id": "sequence-models#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "sequence-models",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "sequence-models",
+  "observation_id": "9b461603ebb6e459",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T00:37:16.824464+00:00",
+  "observed_text": "sequence-models",
+  "source_context_snippet": "This repository provides the official implementations and experiments for models related to [S4](https://arxiv.org/abs/2111.00396),",
+  "source_file": null,
+  "source_repo": "state-spaces/s4",
+  "source_repo_description": "Structured state space sequence models"
+}

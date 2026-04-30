@@ -67,6 +67,18 @@
       "source_repo": "ManimCommunity/manim",
       "status": "candidate-context",
       "text": "cffconvert"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "microsoft/nni",
+      "status": "candidate-context",
+      "text": "An open source AutoML toolkit for automate machine learning lifecycle, including feature engineering, neural architecture search, model compression and hyper-parameter tuning."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/nni",
+      "status": "candidate-context",
+      "text": "cffconvert"
     }
   ],
   "candidate_glosses": [
@@ -97,6 +109,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "ManimCommunity/manim",
+      "status": "candidate",
+      "text": "cffconvert"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/nni",
       "status": "candidate",
       "text": "cffconvert"
     }
@@ -136,11 +154,17 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": ".github/workflows/cffconvert.yml",
       "source_repo": "ManimCommunity/manim"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/cffconvert.yml",
+      "source_repo": "microsoft/nni"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

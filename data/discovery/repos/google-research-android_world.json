@@ -1,0 +1,108 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pytest.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pytest.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "google-research/android_world",
+      "target": "amrsa1/android-emulator-image",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "Dockerfile",
+      "source_repo": "google-research/android_world",
+      "target": "amrsa1/android-emulator-image",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pytest.yml",
+      "source_repo": "google-research/android_world",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pytest.yml",
+      "source_repo": "google-research/android_world",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pytest.yml",
+      "source_repo": "google-research/android_world",
+      "target": "Unittests",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T02:50:13.997734+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 10817
+    },
+    {
+      "path": "Dockerfile",
+      "size": 4105
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 1159
+    },
+    {
+      "path": "requirements.txt",
+      "size": 290
+    },
+    {
+      "path": ".github/workflows/pytest.yml",
+      "size": 1427
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "AndroidWorld is an environment and benchmark for autonomous agents",
+    "fork": false,
+    "full_name": "google-research/android_world",
+    "html_url": "https://github.com/google-research/android_world",
+    "language": "Python",
+    "pushed_at": "2026-04-09T09:56:42Z",
+    "stargazers_count": 748,
+    "topics": [],
+    "updated_at": "2026-04-29T13:16:59Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "amrsa1/android-emulator-image",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "amrsa1/android-emulator-image",
+      "source_file": "Dockerfile"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Unittests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pytest.yml",
+      "term": "Unittests"
+    }
+  ]
+}

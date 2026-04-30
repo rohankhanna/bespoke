@@ -1,0 +1,102 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "dimfeld/httptreemux",
+      "target": "julienschmidt/go-http-routing-benchmark",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "dimfeld/httptreemux",
+      "target": "gocraft/web",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dimfeld/httptreemux",
+      "target": "golang",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dimfeld/httptreemux",
+      "target": "http",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dimfeld/httptreemux",
+      "target": "router",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T01:42:36.940122+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 16799
+    },
+    {
+      "path": "go.mod",
+      "size": 49
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "High-speed, flexible tree-based HTTP router for Go.",
+    "fork": false,
+    "full_name": "dimfeld/httptreemux",
+    "html_url": "https://github.com/dimfeld/httptreemux",
+    "language": "Go",
+    "pushed_at": "2024-07-10T19:03:15Z",
+    "stargazers_count": 622,
+    "topics": [
+      "go",
+      "golang",
+      "http",
+      "router"
+    ],
+    "updated_at": "2026-03-06T00:04:12Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "gocraft/web",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "julienschmidt/go-http-routing-benchmark",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "httptreemux [![Build Status](https://travis-ci.org/dimfeld/httptreemux.png?branch=master)](https://travis-ci.org/dimfeld/httptreemux) [![GoDoc](https://godoc.org/github.com/dimfeld/httptreemux?status.svg)](https://godoc.org/github.com/dimfeld/httptreemux)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "golang"
+    },
+    {
+      "context_snippet": "httptreemux [![Build Status](https://travis-ci.org/dimfeld/httptreemux.png?branch=master)](https://travis-ci.org/dimfeld/httptreemux) [![GoDoc](https://godoc.org/github.com/dimfeld/httptreemux?status.svg)](https://godoc.org/github.com/dimfeld/httptreemux)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "http"
+    },
+    {
+      "context_snippet": "httptreemux [![Build Status](https://travis-ci.org/dimfeld/httptreemux.png?branch=master)](https://travis-ci.org/dimfeld/httptreemux) [![GoDoc](https://godoc.org/github.com/dimfeld/httptreemux?status.svg)](https://godoc.org/github.com/dimfeld/httptreemux)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "router"
+    }
+  ]
+}

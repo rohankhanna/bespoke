@@ -1319,6 +1319,282 @@
       "source_repo": "MobileNativeFoundation/rules_xcodeproj",
       "status": "candidate-context",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "miiton/Cica",
+      "status": "candidate-context",
+      "text": "\u30d7\u30ed\u30b0\u30e9\u30df\u30f3\u30b0\u7528\u65e5\u672c\u8a9e\u7b49\u5e45\u30d5\u30a9\u30f3\u30c8 Cica(\u30b7\u30ab)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "miiton/Cica",
+      "status": "candidate-context",
+      "text": "| | |"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "paulocoutinhox/pdfium-lib",
+      "status": "candidate-context",
+      "text": "PDFium - Project to compile PDFium library to multiple platforms."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "paulocoutinhox/pdfium-lib",
+      "status": "candidate-context",
+      "text": "macOS"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aws/amazon-q-developer-cli",
+      "status": "candidate-context",
+      "text": "\u2728 Agentic chat experience in your terminal. Build applications using natural language."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aws/amazon-q-developer-cli",
+      "status": "candidate-context",
+      "text": "> [!IMPORTANT]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "trzsz/trzsz",
+      "status": "candidate-context",
+      "text": "trzsz is a simple file transfer tools, similar to lrzsz ( rz / sz ), and compatible with tmux."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "trzsz/trzsz",
+      "status": "candidate-context",
+      "text": "[![MIT License](https://img.shields.io/badge/license-MIT-green.svg?style=flat)](https://choosealicense.com/licenses/mit/)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ClickHouse/clickhouse-cpp",
+      "status": "candidate-context",
+      "text": "C++ client library for ClickHouse"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ClickHouse/clickhouse-cpp",
+      "status": "candidate-context",
+      "text": "macOS"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "raku-community-modules/Terminal-WCWidth",
+      "status": "candidate-context",
+      "text": "Returns character width on a terminal"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "raku-community-modules/Terminal-WCWidth",
+      "status": "candidate-context",
+      "text": "MacOS"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "google/glog",
+      "status": "candidate-context",
+      "text": "C++ implementation of the Google logging module"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/glog",
+      "status": "candidate-context",
+      "text": "macOS"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gershnik/wsdd-native",
+      "status": "candidate-context",
+      "text": "Make your macOS/Linux/BSD/illumos/HaikuOS machine visible in Network view of Windows Explorer"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gershnik/wsdd-native",
+      "status": "candidate-context",
+      "text": "[![Version][version_badge]][releases]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "AmberSahdev/Open-Interface",
+      "status": "candidate-context",
+      "text": "Control Any Computer Using LLMs."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AmberSahdev/Open-Interface",
+      "status": "candidate-context",
+      "text": "<picture>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bernds/q5Go",
+      "status": "candidate-context",
+      "text": "A tool for Go players: SGF editor, analysis tool, game database and pattern search tool, IGS client"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bernds/q5Go",
+      "status": "candidate-context",
+      "text": "MacOS"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "BoboTiG/python-mss",
+      "status": "candidate-context",
+      "text": "An ultra fast cross-platform multiple screenshots module in pure Python using ctypes."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "BoboTiG/python-mss",
+      "status": "candidate-context",
+      "text": "[![PyPI version](https://badge.fury.io/py/mss.svg)](https://badge.fury.io/py/mss)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bazelbuild/tulsi",
+      "status": "candidate-context",
+      "text": "An Xcode Project Generator For Bazel "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bazelbuild/tulsi",
+      "status": "candidate-context",
+      "text": "**This repository is no longer maintained.**"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "tuist/XcodeProj",
+      "status": "candidate-context",
+      "text": " \ud83d\udcdd Read, update and write your Xcode projects"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tuist/XcodeProj",
+      "status": "candidate-context",
+      "text": "<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "PowerShell/PowerShell",
+      "status": "candidate-context",
+      "text": "PowerShell for every system!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PowerShell/PowerShell",
+      "status": "candidate-context",
+      "text": "Welcome to the PowerShell GitHub Community!"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "watchexec/watchexec",
+      "status": "candidate-context",
+      "text": "Executes commands in response to file modifications"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "watchexec/watchexec",
+      "status": "candidate-context",
+      "text": "[![CI status on main branch](https://github.com/watchexec/watchexec/actions/workflows/tests.yml/badge.svg)](https://github.com/watchexec/watchexec/actions/workflows/tests.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "RcppCore/Rcpp",
+      "status": "candidate-context",
+      "text": "Seamless R and C++ Integration"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "RcppCore/Rcpp",
+      "status": "candidate-context",
+      "text": "macos"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nativium/nativium",
+      "status": "candidate-context",
+      "text": "C++ Multiplatform Modular Toolkit Template"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nativium/nativium",
+      "status": "candidate-context",
+      "text": "macOS"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "leetal/ios-cmake",
+      "status": "candidate-context",
+      "text": "A CMake toolchain file for iOS/iPadOS, visionOS, macOS, watchOS & tvOS C/C++/Obj-C++ development"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "leetal/ios-cmake",
+      "status": "candidate-context",
+      "text": "A CMake toolchain file for iOS (+ Catalyst), watchOS, tvOS and macOS development with full simulator support and toggleable options!"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apnadkarni/tcl-cmark",
+      "status": "candidate-context",
+      "text": "Tcl bindings to the cmark-gfm GitHub Flavoured CommonMark/Markdown library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apnadkarni/tcl-cmark",
+      "status": "candidate-context",
+      "text": "MacOS"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "appium/appium",
+      "status": "candidate-context",
+      "text": "Cross-platform automation framework for all kinds of apps, built on top of the W3C WebDriver protocol"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "appium/appium",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "tmux-plugins/tmux-yank",
+      "status": "candidate-context",
+      "text": "Tmux plugin for copying to system clipboard. Works on OSX, Linux and Cygwin."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tmux-plugins/tmux-yank",
+      "status": "candidate-context",
+      "text": "[![Build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "2KAbhishek/mac2k",
+      "status": "candidate-context",
+      "text": "Ultimate Dev Setup for Mac OS \ud83d\ude80\ud83c\udf4e"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "2KAbhishek/mac2k",
+      "status": "candidate-context",
+      "text": "<div align = \"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ng-log/ng-log",
+      "status": "candidate-context",
+      "text": "C++ library for application-level logging"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ng-log/ng-log",
+      "status": "candidate-context",
+      "text": "macOS"
     }
   ],
   "candidate_glosses": [
@@ -1981,6 +2257,144 @@
       "source_repo": "MobileNativeFoundation/rules_xcodeproj",
       "status": "candidate",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "miiton/Cica",
+      "status": "candidate",
+      "text": "| | |"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "paulocoutinhox/pdfium-lib",
+      "status": "candidate",
+      "text": "macOS"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aws/amazon-q-developer-cli",
+      "status": "candidate",
+      "text": "> [!IMPORTANT]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "trzsz/trzsz",
+      "status": "candidate",
+      "text": "[![MIT License](https://img.shields.io/badge/license-MIT-green.svg?style=flat)](https://choosealicense.com/licenses/mit/)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ClickHouse/clickhouse-cpp",
+      "status": "candidate",
+      "text": "macOS"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "raku-community-modules/Terminal-WCWidth",
+      "status": "candidate",
+      "text": "MacOS"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/glog",
+      "status": "candidate",
+      "text": "macOS"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gershnik/wsdd-native",
+      "status": "candidate",
+      "text": "[![Version][version_badge]][releases]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AmberSahdev/Open-Interface",
+      "status": "candidate",
+      "text": "<picture>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bernds/q5Go",
+      "status": "candidate",
+      "text": "MacOS"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "BoboTiG/python-mss",
+      "status": "candidate",
+      "text": "[![PyPI version](https://badge.fury.io/py/mss.svg)](https://badge.fury.io/py/mss)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bazelbuild/tulsi",
+      "status": "candidate",
+      "text": "**This repository is no longer maintained.**"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tuist/XcodeProj",
+      "status": "candidate",
+      "text": "<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PowerShell/PowerShell",
+      "status": "candidate",
+      "text": "Welcome to the PowerShell GitHub Community!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "watchexec/watchexec",
+      "status": "candidate",
+      "text": "[![CI status on main branch](https://github.com/watchexec/watchexec/actions/workflows/tests.yml/badge.svg)](https://github.com/watchexec/watchexec/actions/workflows/tests.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "RcppCore/Rcpp",
+      "status": "candidate",
+      "text": "macos"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nativium/nativium",
+      "status": "candidate",
+      "text": "macOS"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "leetal/ios-cmake",
+      "status": "candidate",
+      "text": "A CMake toolchain file for iOS (+ Catalyst), watchOS, tvOS and macOS development with full simulator support and toggleable options!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apnadkarni/tcl-cmark",
+      "status": "candidate",
+      "text": "MacOS"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "appium/appium",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tmux-plugins/tmux-yank",
+      "status": "candidate",
+      "text": "[![Build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "2KAbhishek/mac2k",
+      "status": "candidate",
+      "text": "<div align = \"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ng-log/ng-log",
+      "status": "candidate",
+      "text": "macOS"
     }
   ],
   "candidate_related_terms": [
@@ -2846,11 +3260,197 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "MobileNativeFoundation/rules_xcodeproj"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "miiton/Cica"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/macos.yml",
+      "source_repo": "paulocoutinhox/pdfium-lib"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "aws/amazon-q-developer-cli"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "trzsz/trzsz"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/macos.yml",
+      "source_repo": "ClickHouse/clickhouse-cpp"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/macos.yml",
+      "source_repo": "raku-community-modules/Terminal-WCWidth"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/macos.yml",
+      "source_repo": "google/glog"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/macos-ci.yml",
+      "source_repo": "react-native-webview/react-native-webview"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/macos.yml",
+      "source_repo": "astral-sh/python-build-standalone"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "webinstall/webi-installers"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "gershnik/wsdd-native"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "AmberSahdev/Open-Interface"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "preservim/tagbar"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/macos.yml",
+      "source_repo": "bernds/q5Go"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/macos.yml",
+      "source_repo": "harfbuzz/harfbuzz"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "invoke-ai/InvokeAI"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "igor-makarov/xcake"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "BoboTiG/python-mss"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "bazelbuild/tulsi"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "tuist/XcodeProj"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "PowerShell/PowerShell"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "alacritty/alacritty"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "watchexec/watchexec"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/macos.yaml",
+      "source_repo": "RcppCore/Rcpp"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/macos.yml",
+      "source_repo": "nativium/nativium"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "leetal/ios-cmake"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/mac.yml",
+      "source_repo": "apnadkarni/tcl-cmark"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "appium/appium"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "tmux-plugins/tmux-yank"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "2KAbhishek/mac2k"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/macos.yml",
+      "source_repo": "ng-log/ng-log"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

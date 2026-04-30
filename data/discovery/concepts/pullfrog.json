@@ -1,0 +1,88 @@
+{
+  "aliases": [
+    "Pullfrog"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "colinhacks/zod",
+      "status": "candidate-context",
+      "text": "TypeScript-first schema validation with static type inference"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "colinhacks/zod",
+      "status": "candidate-context",
+      "text": "Pullfrog"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "standard-schema/standard-schema",
+      "status": "candidate-context",
+      "text": "A standard interface for TypeScript schema validation libraries"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "standard-schema/standard-schema",
+      "status": "candidate-context",
+      "text": "Pullfrog"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "colinhacks/zod",
+      "status": "candidate",
+      "text": "Pullfrog"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "standard-schema/standard-schema",
+      "status": "candidate",
+      "text": "Pullfrog"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "Pullfrog",
+  "concept_id": "pullfrog",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/pullfrog.yml",
+      "source_repo": "colinhacks/zod"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/pullfrog.yml",
+      "source_repo": "standard-schema/standard-schema"
+    }
+  ],
+  "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Pullfrog",
+      "sense_id": "pullfrog#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

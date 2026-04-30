@@ -1,7 +1,7 @@
 {
   "component": "dtolnay/rust-toolchain@nightly",
   "first_seen_at": "2026-04-18T09:09:30.058377+00:00",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -592,6 +592,61 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/ci.yml",
       "source_repo": "esp-rs/espflash"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "libbpf/blazesym"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test-linux.yml",
+      "source_repo": "posit-dev/ark"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/rust.yml",
+      "source_repo": "aws/amazon-q-developer-cli"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "YaLTeR/wl-clipboard-rs"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/rust.yml",
+      "source_repo": "SeaQL/sea-orm"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/rust.yml",
+      "source_repo": "ggez/ggez"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "georust/wkt"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/curve25519-dalek.yml",
+      "source_repo": "anza-xyz/curve25519-dalek"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ed25519-dalek.yml",
+      "source_repo": "anza-xyz/curve25519-dalek"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/workspace.yml",
+      "source_repo": "anza-xyz/curve25519-dalek"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/x25519-dalek.yml",
+      "source_repo": "anza-xyz/curve25519-dalek"
     }
   ]
 }

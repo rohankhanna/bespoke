@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T04:54:35.675888+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1298
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Utilities and a small framework for building REST services with Jersey, Jackson, and Jetty.",
+    "fork": false,
+    "full_name": "confluentinc/rest-utils",
+    "html_url": "https://github.com/confluentinc/rest-utils",
+    "language": "Java",
+    "pushed_at": "2026-04-30T03:05:46Z",
+    "stargazers_count": 24,
+    "topics": [],
+    "updated_at": "2026-04-15T11:48:23Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

@@ -1,0 +1,239 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codecov.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codecov.yml"
+    },
+    {
+      "component": "codecov/codecov-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codecov.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-mkdocs.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-mkdocs.yml"
+    },
+    {
+      "component": "peaceiris/actions-gh-pages@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-mkdocs.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ruff.yml"
+    },
+    {
+      "component": "astral-sh/ruff-action@v1.1.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ruff.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "crowdcent/numerblox",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "crowdcent/numerblox",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codecov.yml",
+      "source_repo": "crowdcent/numerblox",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codecov.yml",
+      "source_repo": "crowdcent/numerblox",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codecov.yml",
+      "source_repo": "crowdcent/numerblox",
+      "target": "codecov/codecov-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codecov.yml",
+      "source_repo": "crowdcent/numerblox",
+      "target": "Upload coverage to Codecov",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-mkdocs.yml",
+      "source_repo": "crowdcent/numerblox",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-mkdocs.yml",
+      "source_repo": "crowdcent/numerblox",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-mkdocs.yml",
+      "source_repo": "crowdcent/numerblox",
+      "target": "peaceiris/actions-gh-pages@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ruff.yml",
+      "source_repo": "crowdcent/numerblox",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ruff.yml",
+      "source_repo": "crowdcent/numerblox",
+      "target": "astral-sh/ruff-action@v1.1.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ruff.yml",
+      "source_repo": "crowdcent/numerblox",
+      "target": "Ruff",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "crowdcent/numerblox",
+      "target": "data-science",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "crowdcent/numerblox",
+      "target": "mlops",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "crowdcent/numerblox",
+      "target": "numerai",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T04:48:58.418729+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 10755
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 1284
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 1249
+    },
+    {
+      "path": ".github/workflows/codecov.yml",
+      "size": 1101
+    },
+    {
+      "path": ".github/workflows/deploy-mkdocs.yml",
+      "size": 1091
+    },
+    {
+      "path": ".github/workflows/ruff.yml",
+      "size": 171
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Solid Numerai pipelines",
+    "fork": false,
+    "full_name": "crowdcent/numerblox",
+    "html_url": "https://github.com/crowdcent/numerblox",
+    "language": "Python",
+    "pushed_at": "2025-09-11T23:38:19Z",
+    "stargazers_count": 124,
+    "topics": [
+      "data-science",
+      "mlops",
+      "numerai"
+    ],
+    "updated_at": "2026-04-18T03:02:15Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Upload coverage to Codecov",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codecov.yml",
+      "term": "Upload coverage to Codecov"
+    },
+    {
+      "context_snippet": "Ruff",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ruff.yml",
+      "term": "Ruff"
+    },
+    {
+      "context_snippet": "![](https://img.shields.io/pypi/v/numerblox.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "data-science"
+    },
+    {
+      "context_snippet": "![](https://img.shields.io/pypi/v/numerblox.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mlops"
+    },
+    {
+      "context_snippet": "![](https://img.shields.io/pypi/v/numerblox.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "numerai"
+    }
+  ]
+}

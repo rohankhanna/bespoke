@@ -1,0 +1,153 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/github_release.yml"
+    },
+    {
+      "component": "ncipollo/release-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/github_release.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "clojure-emacs/orchard",
+      "target": "slime/slime",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "clojure-emacs/orchard",
+      "target": "technomancy/swank-clojure",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/github_release.yml",
+      "source_repo": "clojure-emacs/orchard",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/github_release.yml",
+      "source_repo": "clojure-emacs/orchard",
+      "target": "ncipollo/release-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/github_release.yml",
+      "source_repo": "clojure-emacs/orchard",
+      "target": "Create GitHub Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "clojure-emacs/orchard",
+      "target": "cider",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "clojure-emacs/orchard",
+      "target": "clojure",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "clojure-emacs/orchard",
+      "target": "orchard",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "clojure-emacs/orchard",
+      "target": "tooling",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T00:39:22.713326+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 10102
+    },
+    {
+      "path": ".github/workflows/github_release.yml",
+      "size": 816
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A fertile ground for Clojure tooling",
+    "fork": false,
+    "full_name": "clojure-emacs/orchard",
+    "html_url": "https://github.com/clojure-emacs/orchard",
+    "language": "Clojure",
+    "pushed_at": "2026-04-29T10:04:05Z",
+    "stargazers_count": 338,
+    "topics": [
+      "cider",
+      "clojure",
+      "orchard",
+      "tooling"
+    ],
+    "updated_at": "2026-04-29T10:03:12Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "slime/slime",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "technomancy/swank-clojure",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Create GitHub Release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/github_release.yml",
+      "term": "Create GitHub Release"
+    },
+    {
+      "context_snippet": "[![CircleCI](https://img.shields.io/circleci/build/github/clojure-emacs/orchard/master.svg)](https://circleci.com/gh/clojure-emacs/orchard/tree/master)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cider"
+    },
+    {
+      "context_snippet": "[![CircleCI](https://img.shields.io/circleci/build/github/clojure-emacs/orchard/master.svg)](https://circleci.com/gh/clojure-emacs/orchard/tree/master)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "clojure"
+    },
+    {
+      "context_snippet": "[![CircleCI](https://img.shields.io/circleci/build/github/clojure-emacs/orchard/master.svg)](https://circleci.com/gh/clojure-emacs/orchard/tree/master)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "orchard"
+    },
+    {
+      "context_snippet": "[![CircleCI](https://img.shields.io/circleci/build/github/clojure-emacs/orchard/master.svg)](https://circleci.com/gh/clojure-emacs/orchard/tree/master)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tooling"
+    }
+  ]
+}

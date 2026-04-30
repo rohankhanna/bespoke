@@ -1,0 +1,164 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "jianzhnie/awesome-instruction-datasets",
+      "target": "allenai/natural-instructions",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "jianzhnie/awesome-instruction-datasets",
+      "target": "anthropics/hh-rlhf",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "jianzhnie/awesome-instruction-datasets",
+      "target": "amazon-science/auto-cot",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "jianzhnie/awesome-instruction-datasets",
+      "target": "akoksal/longform",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jianzhnie/awesome-instruction-datasets",
+      "target": "chatgpt",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jianzhnie/awesome-instruction-datasets",
+      "target": "datasets",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jianzhnie/awesome-instruction-datasets",
+      "target": "instruction",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jianzhnie/awesome-instruction-datasets",
+      "target": "llama",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jianzhnie/awesome-instruction-datasets",
+      "target": "prompts",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jianzhnie/awesome-instruction-datasets",
+      "target": "self-instruct",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T03:45:34.640079+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 58680
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A collection of awesome-prompt-datasets, awesome-instruction-dataset, to train ChatLLM such as chatgpt \u6536\u5f55\u5404\u79cd\u5404\u6837\u7684\u6307\u4ee4\u6570\u636e\u96c6, \u7528\u4e8e\u8bad\u7ec3  ChatLLM \u6a21\u578b\u3002",
+    "fork": false,
+    "full_name": "jianzhnie/awesome-instruction-datasets",
+    "html_url": "https://github.com/jianzhnie/awesome-instruction-datasets",
+    "language": null,
+    "pushed_at": "2024-04-07T02:56:10Z",
+    "stargazers_count": 730,
+    "topics": [
+      "chatgpt",
+      "datasets",
+      "instruction",
+      "llama",
+      "llm",
+      "prompts",
+      "self-instruct"
+    ],
+    "updated_at": "2026-04-12T03:46:30Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "akoksal/longform",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "allenai/natural-instructions",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "amazon-science/auto-cot",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "anthropics/hh-rlhf",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "chatgpt"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "datasets"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "instruction"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "llama"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "prompts"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "self-instruct"
+    }
+  ]
+}

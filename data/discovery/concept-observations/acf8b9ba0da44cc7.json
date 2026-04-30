@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "An official implementation for \"CLIP4Clip: An Empirical Study of CLIP for End to End Video Clip Retrieval\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "(**July 28, 2021**) Add ViT-B/16 with an extra `--pretrained_clip_name`"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "(**July 28, 2021**) Add ViT-B/16 with an extra `--pretrained_clip_name`"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39975252,
+      "status": "candidate",
+      "text": "commanding"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39965792,
+      "status": "candidate",
+      "text": "top-level"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39965764,
+      "status": "candidate",
+      "text": "top-ranking"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39956843,
+      "status": "candidate",
+      "text": "superior"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39949859,
+      "status": "candidate",
+      "text": "senior"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "ranking",
+      "sense_id": "ranking#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 17031,
+      "status": "candidate",
+      "text": "commanding"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 1009,
+      "status": "candidate",
+      "text": "top-ranking"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 19,
+      "status": "candidate",
+      "text": "top-level"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 11,
+      "status": "candidate",
+      "text": "higher-ranking"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": null,
+      "status": "candidate",
+      "text": "superior"
+    }
+  ],
+  "concept_id": "ranking",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "ranking",
+  "observation_id": "acf8b9ba0da44cc7",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T00:37:16.824464+00:00",
+  "observed_text": "ranking",
+  "source_context_snippet": "(**July 28, 2021**) Add ViT-B/16 with an extra `--pretrained_clip_name`",
+  "source_file": null,
+  "source_repo": "ArrowLuo/CLIP4Clip",
+  "source_repo_description": "An official implementation for \"CLIP4Clip: An Empirical Study of CLIP for End to End Video Clip Retrieval\""
+}

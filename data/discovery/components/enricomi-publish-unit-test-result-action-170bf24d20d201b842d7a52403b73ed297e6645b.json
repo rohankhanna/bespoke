@@ -1,0 +1,12 @@
+{
+  "component": "EnricoMi/publish-unit-test-result-action@170bf24d20d201b842d7a52403b73ed297e6645b",
+  "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci_tests.yml",
+      "source_repo": "firebase/firebase-android-sdk"
+    }
+  ]
+}

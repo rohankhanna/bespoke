@@ -1,0 +1,124 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/evaluate.yml"
+    },
+    {
+      "component": "actions/setup-python@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/evaluate.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.rst",
+      "source_repo": "scrapinghub/article-extraction-benchmark",
+      "target": "andythefactory/newspaper4k",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.rst",
+      "source_repo": "scrapinghub/article-extraction-benchmark",
+      "target": "buriy/python-readability",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.rst",
+      "source_repo": "scrapinghub/article-extraction-benchmark",
+      "target": "dragnet-org/dragnet",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.rst",
+      "source_repo": "scrapinghub/article-extraction-benchmark",
+      "target": "alir3z4/html2text",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/evaluate.yml",
+      "source_repo": "scrapinghub/article-extraction-benchmark",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/evaluate.yml",
+      "source_repo": "scrapinghub/article-extraction-benchmark",
+      "target": "actions/setup-python@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/evaluate.yml",
+      "source_repo": "scrapinghub/article-extraction-benchmark",
+      "target": "Evaluate",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T04:01:04.516240+00:00",
+  "fetched_files": [
+    {
+      "path": "README.rst",
+      "size": 12619
+    },
+    {
+      "path": "requirements.txt",
+      "size": 202
+    },
+    {
+      "path": ".github/workflows/evaluate.yml",
+      "size": 633
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Article extraction benchmark: dataset and evaluation scripts",
+    "fork": false,
+    "full_name": "scrapinghub/article-extraction-benchmark",
+    "html_url": "https://github.com/scrapinghub/article-extraction-benchmark",
+    "language": "Python",
+    "pushed_at": "2026-04-23T01:01:42Z",
+    "stargazers_count": 365,
+    "topics": [],
+    "updated_at": "2026-04-24T16:57:30Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "alir3z4/html2text",
+      "source_file": "README.rst"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "andythefactory/newspaper4k",
+      "source_file": "README.rst"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "buriy/python-readability",
+      "source_file": "README.rst"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dragnet-org/dragnet",
+      "source_file": "README.rst"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Evaluate",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/evaluate.yml",
+      "term": "Evaluate"
+    }
+  ]
+}

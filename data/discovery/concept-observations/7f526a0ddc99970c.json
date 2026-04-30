@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "\u2728 Agentic chat experience in your terminal. Build applications using natural language."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Check Merge Conflicts"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Check Merge Conflicts"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18612,
+      "status": "candidate",
+      "text": "arm"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18389,
+      "status": "candidate",
+      "text": "divide"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18389,
+      "status": "candidate",
+      "text": "split"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11016,
+      "status": "candidate",
+      "text": "join"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10894,
+      "status": "candidate",
+      "text": "amalgamation"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Check Merge Conflicts",
+      "sense_id": "check-merge-conflicts#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "check-merge-conflicts",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "check-merge-conflicts",
+  "observation_id": "7f526a0ddc99970c",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-30T00:37:16.824464+00:00",
+  "observed_text": "Check Merge Conflicts",
+  "source_context_snippet": "Check Merge Conflicts",
+  "source_file": ".github/workflows/check-merge-conflicts.yml",
+  "source_repo": "aws/amazon-q-developer-cli",
+  "source_repo_description": "\u2728 Agentic chat experience in your terminal. Build applications using natural language."
+}

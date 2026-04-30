@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "greenscreen"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ecsplendid/rembg-greenscreen",
+      "status": "candidate-context",
+      "text": "Rembg Video Virtual Green Screen Edition"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ecsplendid/rembg-greenscreen",
+      "status": "candidate-context",
+      "text": "Rembg Virtual Greenscreen Edition is a tool to create a green screen matte for videos"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ecsplendid/rembg-greenscreen",
+      "status": "candidate",
+      "text": "Rembg Virtual Greenscreen Edition is a tool to create a green screen matte for videos"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19994988,
+      "status": "candidate",
+      "text": "greyscale"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19994987,
+      "status": "candidate",
+      "text": "greenie"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19994986,
+      "status": "candidate",
+      "text": "greenskin"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19994985,
+      "status": "candidate",
+      "text": "apple green"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19994984,
+      "status": "candidate",
+      "text": "green"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "greenscreen",
+  "concept_id": "greenscreen",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "ecsplendid/rembg-greenscreen"
+    }
+  ],
+  "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "greenscreen",
+      "sense_id": "greenscreen#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "The Vim motion you've always wanted."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Jump to any location on screen by typing two characters."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Jump to any location on screen by typing two characters."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "vim-plugin",
+      "sense_id": "vim-plugin#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "vim-plugin",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "vim-plugin",
+  "observation_id": "828c2d5fce2ee0f4",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T00:37:16.824464+00:00",
+  "observed_text": "vim-plugin",
+  "source_context_snippet": "Jump to any location on screen by typing two characters.",
+  "source_file": null,
+  "source_repo": "girishji/easyjump.vim",
+  "source_repo_description": "The Vim motion you've always wanted."
+}

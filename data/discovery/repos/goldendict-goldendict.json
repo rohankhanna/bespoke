@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T02:44:58.966331+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6037
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A feature-rich dictionary lookup program, supporting multiple dictionary formats (StarDict/Babylon/Lingvo/Dictd) and online dictionaries, featuring perfect article rendering with the complete markup, illustrations and other content retained, and allowing you to type in words without any accents or correct case.",
+    "fork": false,
+    "full_name": "goldendict/goldendict",
+    "html_url": "https://github.com/goldendict/goldendict",
+    "language": "C++",
+    "pushed_at": "2025-10-11T18:29:12Z",
+    "stargazers_count": 6571,
+    "topics": [],
+    "updated_at": "2026-04-28T17:39:57Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

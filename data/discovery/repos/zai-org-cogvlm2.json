@@ -1,0 +1,123 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "zai-org/CogVLM2",
+      "target": "leizhao1234/cogvlm2",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "zai-org/CogVLM2",
+      "target": "thudm/glm-4",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "zai-org/CogVLM2",
+      "target": "xorbitsai/inference",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "zai-org/CogVLM2",
+      "target": "cogvlm",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "zai-org/CogVLM2",
+      "target": "language-model",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "zai-org/CogVLM2",
+      "target": "multi-modal",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "zai-org/CogVLM2",
+      "target": "pretrained-models",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T05:15:40.479631+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 20257
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "GPT4V-level open-source multi-modal model based on Llama3-8B",
+    "fork": false,
+    "full_name": "zai-org/CogVLM2",
+    "html_url": "https://github.com/zai-org/CogVLM2",
+    "language": "Python",
+    "pushed_at": "2025-03-03T03:01:31Z",
+    "stargazers_count": 2438,
+    "topics": [
+      "cogvlm",
+      "language-model",
+      "multi-modal",
+      "pretrained-models"
+    ],
+    "updated_at": "2026-04-30T01:52:02Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "leizhao1234/cogvlm2",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "thudm/glm-4",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "xorbitsai/inference",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[\u4e2d\u6587\u7248README](./README_zh.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cogvlm"
+    },
+    {
+      "context_snippet": "[\u4e2d\u6587\u7248README](./README_zh.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "language-model"
+    },
+    {
+      "context_snippet": "[\u4e2d\u6587\u7248README](./README_zh.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "multi-modal"
+    },
+    {
+      "context_snippet": "[\u4e2d\u6587\u7248README](./README_zh.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pretrained-models"
+    }
+  ]
+}

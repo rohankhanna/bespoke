@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "dhansmair/flamingo-mini",
+      "target": "lucidrains/flamingo-pytorch",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T02:01:35.375164+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 11053
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Implementation of the deepmind Flamingo vision-language model, based on Hugging Face language models and ready for training",
+    "fork": false,
+    "full_name": "dhansmair/flamingo-mini",
+    "html_url": "https://github.com/dhansmair/flamingo-mini",
+    "language": "Python",
+    "pushed_at": "2023-04-27T21:22:12Z",
+    "stargazers_count": 170,
+    "topics": [],
+    "updated_at": "2026-03-31T10:58:18Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "lucidrains/flamingo-pytorch",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

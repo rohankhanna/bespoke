@@ -1,0 +1,72 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Samsung/netcoredbg",
+      "target": "csharp",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Samsung/netcoredbg",
+      "target": "debugger",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Samsung/netcoredbg",
+      "target": "dotnet",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T00:45:28.623284+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 13497
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "NetCoreDbg is a managed code debugger with GDB/MI, VSCode DAP and CLI interfaces for CoreCLR.",
+    "fork": false,
+    "full_name": "Samsung/netcoredbg",
+    "html_url": "https://github.com/Samsung/netcoredbg",
+    "language": "C#",
+    "pushed_at": "2025-12-12T11:36:24Z",
+    "stargazers_count": 1261,
+    "topics": [
+      "csharp",
+      "debugger",
+      "dotnet"
+    ],
+    "updated_at": "2026-04-29T19:20:49Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "The NetCoreDbg debugger implements [GDB/MI](https://sourceware.org/gdb/onlinedocs/gdb/GDB_002fMI.html)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "csharp"
+    },
+    {
+      "context_snippet": "The NetCoreDbg debugger implements [GDB/MI](https://sourceware.org/gdb/onlinedocs/gdb/GDB_002fMI.html)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "debugger"
+    },
+    {
+      "context_snippet": "The NetCoreDbg debugger implements [GDB/MI](https://sourceware.org/gdb/onlinedocs/gdb/GDB_002fMI.html)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dotnet"
+    }
+  ]
+}

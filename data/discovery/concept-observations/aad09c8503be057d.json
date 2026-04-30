@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Make Zotero effective for us LaTeX holdouts"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "automated tests"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "automated tests"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10930,
+      "status": "candidate",
+      "text": "aaa"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10930,
+      "status": "candidate",
+      "text": "automatic"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10930,
+      "status": "candidate",
+      "text": "captcha"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10930,
+      "status": "candidate",
+      "text": "robot"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10884,
+      "status": "candidate",
+      "text": "abm"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "automated tests",
+      "sense_id": "automated-tests#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "automated-tests",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "automated-tests",
+  "observation_id": "aad09c8503be057d",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-30T00:37:16.824464+00:00",
+  "observed_text": "automated tests",
+  "source_context_snippet": "automated tests",
+  "source_file": ".github/workflows/ci.yaml",
+  "source_repo": "retorquere/zotero-better-bibtex",
+  "source_repo_description": "Make Zotero effective for us LaTeX holdouts"
+}

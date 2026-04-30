@@ -84,7 +84,7 @@
   "normalized_form": "lint",
   "observation_id": "6cc8a83a2d19b209",
   "observation_kind": "repo-topic",
-  "observed_at": "2026-04-21T11:24:10.450489+00:00",
+  "observed_at": "2026-04-30T00:37:16.824464+00:00",
   "observed_text": "lint",
   "source_context_snippet": "[![License: MIT OR Apache-2.0](https://img.shields.io/crates/l/clippy.svg)](#license)",
   "source_file": null,

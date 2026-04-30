@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "\ud83c\udf3b fields is a collection of useful field definitions (Custom Ecto Types) that helps you easily define an Ecto Schema with validation, encryption and hashing functions so that you can ship your Elixir/Phoenix App much faster! "
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<div align=\"center\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 36745403,
+      "status": "candidate",
+      "text": "champaign"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 36679639,
+      "status": "candidate",
+      "text": "plain"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 36659140,
+      "status": "candidate",
+      "text": "field of force"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 36655170,
+      "status": "candidate",
+      "text": "force field"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 36643996,
+      "status": "candidate",
+      "text": "battlefield"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "fields",
+      "sense_id": "fields#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "fields",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "fields",
+  "observation_id": "5d64887e8c90e772",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T00:37:16.824464+00:00",
+  "observed_text": "fields",
+  "source_context_snippet": "<div align=\"center\">",
+  "source_file": null,
+  "source_repo": "dwyl/fields",
+  "source_repo_description": "\ud83c\udf3b fields is a collection of useful field definitions (Custom Ecto Types) that helps you easily define an Ecto Schema with validation, encryption and hashing functions so that you can ship your Elixir/Phoenix App much faster! "
+}

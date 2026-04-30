@@ -1,0 +1,122 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Integrate external secret management systems with Kubernetes"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "This project has been [deprecated](https://github.com/external-secrets/kubernetes-external-secrets/issues/864)."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "This project has been [deprecated](https://github.com/external-secrets/kubernetes-external-secrets/issues/864)."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39969392,
+      "status": "candidate",
+      "text": "overleap"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39960062,
+      "status": "candidate",
+      "text": "hurdle"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30044837,
+      "status": "candidate",
+      "text": "bank vault"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30044837,
+      "status": "candidate",
+      "text": "burial vault"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30044694,
+      "status": "candidate",
+      "text": "roof"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "vault",
+      "sense_id": "vault#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 2023,
+      "status": "candidate",
+      "text": "overleap"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 2012,
+      "status": "candidate",
+      "text": "bank vault"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 1012,
+      "status": "candidate",
+      "text": "burial vault"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": null,
+      "status": "candidate",
+      "text": "hurdle"
+    }
+  ],
+  "concept_id": "vault",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "vault",
+  "observation_id": "c65ddd4620d4f9ec",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T00:37:16.824464+00:00",
+  "observed_text": "vault",
+  "source_context_snippet": "This project has been [deprecated](https://github.com/external-secrets/kubernetes-external-secrets/issues/864).",
+  "source_file": null,
+  "source_repo": "external-secrets/kubernetes-external-secrets",
+  "source_repo_description": "Integrate external secret management systems with Kubernetes"
+}

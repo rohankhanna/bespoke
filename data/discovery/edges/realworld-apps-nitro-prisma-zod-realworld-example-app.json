@@ -1,0 +1,104 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "realworld-apps/nitro-prisma-zod-realworld-example-app",
+      "target": "nicolo-ribaudo/bcryptjs",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "realworld-apps/nitro-prisma-zod-realworld-example-app",
+      "target": "c4ffein/nitro-prisma-zod-realworld-example-app",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "realworld-apps/nitro-prisma-zod-realworld-example-app",
+      "target": "@prisma/adapter-libsql",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "realworld-apps/nitro-prisma-zod-realworld-example-app",
+      "target": "@prisma/client",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "realworld-apps/nitro-prisma-zod-realworld-example-app",
+      "target": "bcryptjs",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "realworld-apps/nitro-prisma-zod-realworld-example-app",
+      "target": "jsonwebtoken",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "realworld-apps/nitro-prisma-zod-realworld-example-app",
+      "target": "slugify",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "realworld-apps/nitro-prisma-zod-realworld-example-app",
+      "target": "zod",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "realworld-apps/nitro-prisma-zod-realworld-example-app",
+      "target": "@ngneat/falso",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "realworld-apps/nitro-prisma-zod-realworld-example-app",
+      "target": "nitropack",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "realworld-apps/nitro-prisma-zod-realworld-example-app",
+      "target": "prisma",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-hurl.yml",
+      "source_repo": "realworld-apps/nitro-prisma-zod-realworld-example-app",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-hurl.yml",
+      "source_repo": "realworld-apps/nitro-prisma-zod-realworld-example-app",
+      "target": "oven-sh/setup-bun@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test-hurl.yml",
+      "source_repo": "realworld-apps/nitro-prisma-zod-realworld-example-app",
+      "target": "Test Hurl",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-30T00:37:16.824464+00:00",
+  "source_repo": "realworld-apps/nitro-prisma-zod-realworld-example-app"
+}

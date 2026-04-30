@@ -49,6 +49,18 @@
       "source_repo": "frewsxcv/alert-after",
       "status": "candidate-context",
       "text": "Get a desktop notification after a command finishes executing. Helpful for notifying when long running CLI tasks are completed. Works on macOS, Linux, and Windows."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "prometheus/alertmanager",
+      "status": "candidate-context",
+      "text": "Prometheus Alertmanager"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "prometheus/alertmanager",
+      "status": "candidate-context",
+      "text": "[![Docker Repository on Quay](https://quay.io/repository/prometheus/alertmanager/status \"Docker Repository on Quay\")][quay]"
     }
   ],
   "candidate_glosses": [
@@ -69,6 +81,12 @@
       "source_repo": "frewsxcv/alert-after",
       "status": "candidate",
       "text": "Get a desktop notification after a command finishes executing. Helpful for notifying when long running CLI tasks are completed. Works on macOS, Linux, and Windows."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "prometheus/alertmanager",
+      "status": "candidate",
+      "text": "[![Docker Repository on Quay](https://quay.io/repository/prometheus/alertmanager/status \"Docker Repository on Quay\")][quay]"
     }
   ],
   "candidate_related_terms": [
@@ -136,11 +154,17 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "frewsxcv/alert-after"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "prometheus/alertmanager"
     }
   ],
   "first_seen_at": "2026-04-18T13:15:13.756138+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -19,6 +19,18 @@
       "source_repo": "bbatsov/super-save",
       "status": "candidate-context",
       "text": "[![License GPL 3][badge-license]][copying]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "justbur/emacs-which-key",
+      "status": "candidate-context",
+      "text": "Emacs package that displays available keybindings in popup"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "justbur/emacs-which-key",
+      "status": "candidate-context",
+      "text": "which-key-test"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "bbatsov/super-save",
       "status": "candidate",
       "text": "[![License GPL 3][badge-license]][copying]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "justbur/emacs-which-key",
+      "status": "candidate",
+      "text": "which-key-test"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-23T01:09:11.871080+00:00",
       "source_file": null,
       "source_repo": "bbatsov/super-save"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "justbur/emacs-which-key"
     }
   ],
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

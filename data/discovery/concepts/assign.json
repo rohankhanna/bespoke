@@ -1,11 +1,14 @@
 {
   "aliases": [
-    "assign"
+    "assign",
+    "Assign"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
     "tool-component",
-    "capability"
+    "capability",
+    "workflow-process",
+    "data-document-artifact"
   ],
   "candidate_definitions": [
     {
@@ -43,6 +46,18 @@
       "source_repo": "jonschlinkert/mixin-deep",
       "status": "candidate-context",
       "text": "> Deeply mix the properties of objects into the first object. Like merge-deep, but doesn't clone. No dependencies."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "xorbitsai/inference",
+      "status": "candidate-context",
+      "text": "Swap GPT for any LLM by changing a single line of code. Xinference lets you run open-source, speech, and multimodal models on cloud, on-prem, or your laptop \u2014 all through one unified, production-ready inference API."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "xorbitsai/inference",
+      "status": "candidate-context",
+      "text": "Assign"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +78,12 @@
       "source_repo": "jonschlinkert/mixin-deep",
       "status": "candidate",
       "text": "> Deeply mix the properties of objects into the first object. Like merge-deep, but doesn't clone. No dependencies."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "xorbitsai/inference",
+      "status": "candidate",
+      "text": "Assign"
     }
   ],
   "candidate_related_terms": [
@@ -160,11 +181,17 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "jonschlinkert/mixin-deep"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/assign.yaml",
+      "source_repo": "xorbitsai/inference"
     }
   ],
   "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

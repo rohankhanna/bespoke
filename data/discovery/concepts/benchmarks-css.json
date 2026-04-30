@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Benchmarks CSS"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lionel-/biome",
+      "status": "candidate-context",
+      "text": "A toolchain for web projects, aimed to provide functionalities to maintain them. Biome offers formatter and linter, usable via CLI and LSP."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lionel-/biome",
+      "status": "candidate-context",
+      "text": "Benchmarks CSS"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lionel-/biome",
+      "status": "candidate",
+      "text": "Benchmarks CSS"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10600,
+      "status": "candidate",
+      "text": "peritoneum"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10600,
+      "status": "candidate",
+      "text": "pleura"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10495,
+      "status": "candidate",
+      "text": "indicators"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10486,
+      "status": "candidate",
+      "text": "ccs"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10371,
+      "status": "candidate",
+      "text": "abc"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Benchmarks CSS",
+  "concept_id": "benchmarks-css",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/benchmark_css.yml",
+      "source_repo": "lionel-/biome"
+    }
+  ],
+  "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Benchmarks CSS",
+      "sense_id": "benchmarks-css#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

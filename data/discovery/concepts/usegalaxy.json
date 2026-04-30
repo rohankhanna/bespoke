@@ -19,6 +19,18 @@
       "source_repo": "galaxyproject/tools-iuc",
       "status": "candidate-context",
       "text": "[![Galaxy Tool Linting and Tests for push and PR](https://github.com/galaxyproject/tools-iuc/actions/workflows/pr.yaml/badge.svg?branch=main)](https://github.com/galaxyproject/tools-iuc/actions/workflows/pr.yaml?query=branch:main)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "galaxyproject/planemo",
+      "status": "candidate-context",
+      "text": "Command-line utilities to assist in developing Galaxy and Common Workflow Language artifacts - including tools, workflows, and training materials."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "galaxyproject/planemo",
+      "status": "candidate-context",
+      "text": ".. figure:: https://raw.githubusercontent.com/jmchilton/planemo/master/docs/planemo_logo.png"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "galaxyproject/tools-iuc",
       "status": "candidate",
       "text": "[![Galaxy Tool Linting and Tests for push and PR](https://github.com/galaxyproject/tools-iuc/actions/workflows/pr.yaml/badge.svg?branch=main)](https://github.com/galaxyproject/tools-iuc/actions/workflows/pr.yaml?query=branch:main)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "galaxyproject/planemo",
+      "status": "candidate",
+      "text": ".. figure:: https://raw.githubusercontent.com/jmchilton/planemo/master/docs/planemo_logo.png"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "galaxyproject/tools-iuc"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "galaxyproject/planemo"
     }
   ],
   "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

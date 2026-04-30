@@ -1,0 +1,141 @@
+{
+  "components": [
+    {
+      "component": "scientific-python/attach-next-milestone-action@c9cfab10ad0c67fed91b01103db26b7f16634639",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/milestone-merged-prs.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/label-check.yaml",
+      "source_repo": "scientific-python/scientific-python-hugo-theme",
+      "target": "Labels",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/milestone-merged-prs.yaml",
+      "source_repo": "scientific-python/scientific-python-hugo-theme",
+      "target": "scientific-python/attach-next-milestone-action@c9cfab10ad0c67fed91b01103db26b7f16634639",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/milestone-merged-prs.yaml",
+      "source_repo": "scientific-python/scientific-python-hugo-theme",
+      "target": "Milestone",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "scientific-python/scientific-python-hugo-theme",
+      "target": "hugo",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "scientific-python/scientific-python-hugo-theme",
+      "target": "hugo-theme",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "scientific-python/scientific-python-hugo-theme",
+      "target": "scientific-python",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "scientific-python/scientific-python-hugo-theme",
+      "target": "theme",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T00:42:06.490436+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 316
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 224
+    },
+    {
+      "path": "requirements.txt",
+      "size": 34
+    },
+    {
+      "path": ".github/workflows/label-check.yaml",
+      "size": 393
+    },
+    {
+      "path": ".github/workflows/milestone-merged-prs.yaml",
+      "size": 547
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Scientific Python Web Theme",
+    "fork": false,
+    "full_name": "scientific-python/scientific-python-hugo-theme",
+    "html_url": "https://github.com/scientific-python/scientific-python-hugo-theme",
+    "language": "SCSS",
+    "pushed_at": "2026-04-23T21:36:39Z",
+    "stargazers_count": 23,
+    "topics": [
+      "hugo",
+      "hugo-theme",
+      "scientific-python",
+      "theme"
+    ],
+    "updated_at": "2026-04-23T21:36:44Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Labels",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/label-check.yaml",
+      "term": "Labels"
+    },
+    {
+      "context_snippet": "Milestone",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/milestone-merged-prs.yaml",
+      "term": "Milestone"
+    },
+    {
+      "context_snippet": "The **Scientific Python Hugo Theme** is a theme for the [Hugo](https://gohugo.io) static site generator.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hugo"
+    },
+    {
+      "context_snippet": "The **Scientific Python Hugo Theme** is a theme for the [Hugo](https://gohugo.io) static site generator.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hugo-theme"
+    },
+    {
+      "context_snippet": "The **Scientific Python Hugo Theme** is a theme for the [Hugo](https://gohugo.io) static site generator.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "scientific-python"
+    },
+    {
+      "context_snippet": "The **Scientific Python Hugo Theme** is a theme for the [Hugo](https://gohugo.io) static site generator.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "theme"
+    }
+  ]
+}

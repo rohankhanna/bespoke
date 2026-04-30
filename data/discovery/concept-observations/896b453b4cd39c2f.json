@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Advanced WebExtension generator that creates everything you need to get started with cross-browser web-extension development."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[<img align=\"right\" src=\"./assets/icon.svg?sanitize=true\" alt=\"logo\">](https://www.npmjs.com/package/generator-web-extension)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[<img align=\"right\" src=\"./assets/icon.svg?sanitize=true\" alt=\"logo\">](https://www.npmjs.com/package/generator-web-extension)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "web-extension",
+      "sense_id": "web-extension#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "web-extension",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "web-extension",
+  "observation_id": "896b453b4cd39c2f",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T00:37:16.824464+00:00",
+  "observed_text": "web-extension",
+  "source_context_snippet": "[<img align=\"right\" src=\"./assets/icon.svg?sanitize=true\" alt=\"logo\">](https://www.npmjs.com/package/generator-web-extension)",
+  "source_file": null,
+  "source_repo": "webextension-toolbox/generator-web-extension",
+  "source_repo_description": "Advanced WebExtension generator that creates everything you need to get started with cross-browser web-extension development."
+}

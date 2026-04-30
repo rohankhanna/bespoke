@@ -295,6 +295,78 @@
       "source_repo": "extism/extism",
       "status": "candidate-context",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "elixir-webrtc/xav",
+      "status": "candidate-context",
+      "text": "Elixir wrapper over FFmpeg for reading and decoding audio and video data"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "elixir-webrtc/xav",
+      "status": "candidate-context",
+      "text": "[![Hex.pm](https://img.shields.io/hexpm/v/xav.svg)](https://hex.pm/packages/xav)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dwyl/fields",
+      "status": "candidate-context",
+      "text": "\ud83c\udf3b fields is a collection of useful field definitions (Custom Ecto Types) that helps you easily define an Ecto Schema with validation, encryption and hashing functions so that you can ship your Elixir/Phoenix App much faster! "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dwyl/fields",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dwyl/phoenix-liveview-counter-tutorial",
+      "status": "candidate-context",
+      "text": "\ud83e\udd2f  beginners tutorial building a real time counter in Phoenix 1.7.14 + LiveView 1.0 \u26a1\ufe0f Learn the fundamentals from first principals so you can make something amazing! \ud83d\ude80"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dwyl/phoenix-liveview-counter-tutorial",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dwyl/phoenix-liveview-todo-list-tutorial",
+      "status": "candidate-context",
+      "text": "\u2705 Beginners tutorial building a Realtime Todo List in Phoenix 1.6.10 + LiveView 0.17.10 \u26a1\ufe0f Feedback very welcome!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dwyl/phoenix-liveview-todo-list-tutorial",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ueberauth/oauth2",
+      "status": "candidate-context",
+      "text": "An Elixir OAuth 2.0 Client Library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ueberauth/oauth2",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://github.com/ueberauth/oauth2/actions/workflows/ci.yml/badge.svg)](https://github.com/ueberauth/oauth2/actions/workflows/ci.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "CuatroElixir/spear",
+      "status": "candidate-context",
+      "text": "A sharp EventStoreDB v20+ client backed by Mint :yum:"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "CuatroElixir/spear",
+      "status": "candidate-context",
+      "text": "![CI](https://github.com/NFIBrokerage/spear/workflows/CI/badge.svg)"
     }
   ],
   "candidate_glosses": [
@@ -441,6 +513,42 @@
       "source_repo": "extism/extism",
       "status": "candidate",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "elixir-webrtc/xav",
+      "status": "candidate",
+      "text": "[![Hex.pm](https://img.shields.io/hexpm/v/xav.svg)](https://hex.pm/packages/xav)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dwyl/fields",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dwyl/phoenix-liveview-counter-tutorial",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dwyl/phoenix-liveview-todo-list-tutorial",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ueberauth/oauth2",
+      "status": "candidate",
+      "text": "[![Build Status](https://github.com/ueberauth/oauth2/actions/workflows/ci.yml/badge.svg)](https://github.com/ueberauth/oauth2/actions/workflows/ci.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "CuatroElixir/spear",
+      "status": "candidate",
+      "text": "![CI](https://github.com/NFIBrokerage/spear/workflows/CI/badge.svg)"
     }
   ],
   "candidate_related_terms": [
@@ -640,11 +748,53 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "extism/extism"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "elixir-webrtc/xav"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "beam-community/elixir-companies"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "dwyl/fields"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "dwyl/phoenix-liveview-counter-tutorial"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "dwyl/phoenix-liveview-todo-list-tutorial"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "ueberauth/oauth2"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "CuatroElixir/spear"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

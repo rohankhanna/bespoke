@@ -1,0 +1,160 @@
+{
+  "aliases": [
+    "General"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "paritytech/cargo-unleash",
+      "status": "candidate-context",
+      "text": "cargo release automatisation tooling for massiv mono-repos"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "paritytech/cargo-unleash",
+      "status": "candidate-context",
+      "text": "General"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gnunicorn/cargo-unleash",
+      "status": "candidate-context",
+      "text": "cargo release automatisation tooling for massiv mono-repos"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gnunicorn/cargo-unleash",
+      "status": "candidate-context",
+      "text": "General"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "paritytech/cargo-unleash",
+      "status": "candidate",
+      "text": "General"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gnunicorn/cargo-unleash",
+      "status": "candidate",
+      "text": "General"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40046708,
+      "status": "candidate",
+      "text": "generic"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40046668,
+      "status": "candidate",
+      "text": "general-purpose"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40046418,
+      "status": "candidate",
+      "text": "generalized"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40046413,
+      "status": "candidate",
+      "text": "all-purpose"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40046154,
+      "status": "candidate",
+      "text": "in general"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 72039,
+      "status": "candidate",
+      "text": "comprehensive"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 46030,
+      "status": "candidate",
+      "text": "pervasive"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 41040,
+      "status": "candidate",
+      "text": "broad"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 40051,
+      "status": "candidate",
+      "text": "common"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 35052,
+      "status": "candidate",
+      "text": "plain"
+    }
+  ],
+  "canonical_name": "General",
+  "concept_id": "general",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/general.yml",
+      "source_repo": "paritytech/cargo-unleash"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/general.yml",
+      "source_repo": "gnunicorn/cargo-unleash"
+    }
+  ],
+  "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "General",
+      "sense_id": "general#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

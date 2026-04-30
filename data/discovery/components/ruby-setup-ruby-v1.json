@@ -1,7 +1,7 @@
 {
   "component": "ruby/setup-ruby@v1",
   "first_seen_at": "2026-04-18T03:42:01.586113+00:00",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -1282,6 +1282,221 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/android-expo-build.yml",
       "source_repo": "artsy/eigen"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/unit_tests.yml",
+      "source_repo": "cloudfoundry/capi-release"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/update.yml",
+      "source_repo": "standardrb/standard"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "msgpack/msgpack-ruby"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "judofyr/duktape.rb"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "sferik/multi_json"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/linter.yml",
+      "source_repo": "sferik/multi_json"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/mutant.yml",
+      "source_repo": "sferik/multi_json"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/push.yml",
+      "source_repo": "sferik/multi_json"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "sferik/multi_json"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/typecheck.yml",
+      "source_repo": "sferik/multi_json"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "the-benchmarker/web-frameworks"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/isolated.yml",
+      "source_repo": "flavorjones/ruby-c-extensions-explained"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/packaged_source.yml",
+      "source_repo": "flavorjones/ruby-c-extensions-explained"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/packaged_tarball.yml",
+      "source_repo": "flavorjones/ruby-c-extensions-explained"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "plotly/graphing-library-docs"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "baygeldin/tantiny"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "baygeldin/tantiny"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "ankane/ahoy"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "ankane/faiss-ruby"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "ankane/onnxruntime-ruby"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "ankane/transformers-ruby"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "libvips/ruby-vips"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "ErwinM/acts_as_tenant"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "xuorig/graphql-schema_comparator"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "plotly/plotly.R"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "ankane/lightgbm-ruby"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ruby.yml",
+      "source_repo": "cloudfoundry/bosh"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/publish-to-pypi.yaml",
+      "source_repo": "microsoft/multilspy"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test-workflow.yaml",
+      "source_repo": "microsoft/multilspy"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "ffi/ffi"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "zendesk/racecar"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "zendesk/racecar"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "nesquena/rabl"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/jruby.yml",
+      "source_repo": "omniauth/omniauth"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "omniauth/omniauth"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/truffle_ruby.yml",
+      "source_repo": "omniauth/omniauth"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "newtheatre/history-project"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "brianmario/yajl-ruby"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "guyboertje/jrjackson"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "bcrypt-ruby/bcrypt-ruby"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "rmagick/rmagick"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/libyaml.yml",
+      "source_repo": "ruby/psych"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ruby.yml",
+      "source_repo": "raimon49/requirements.txt.vim"
     }
   ]
 }

@@ -1,0 +1,136 @@
+{
+  "aliases": [
+    "guard"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JodyVanden/guard-standardrb",
+      "status": "candidate-context",
+      "text": "a plugin for guard that works with standardrb."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JodyVanden/guard-standardrb",
+      "status": "candidate-context",
+      "text": "Welcome to the new guard plugin `guard-standardrb`!"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JodyVanden/guard-standardrb",
+      "status": "candidate",
+      "text": "Welcome to the new guard plugin `guard-standardrb`!"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39979896,
+      "status": "candidate",
+      "text": "ward"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39979473,
+      "status": "candidate",
+      "text": "bodyguard"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39976453,
+      "status": "candidate",
+      "text": "defend"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39958359,
+      "status": "candidate",
+      "text": "hold"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39916920,
+      "status": "candidate",
+      "text": "safety"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 34075,
+      "status": "candidate",
+      "text": "hold"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 12039,
+      "status": "candidate",
+      "text": "defend"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 10056,
+      "status": "candidate",
+      "text": "safety"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 4010,
+      "status": "candidate",
+      "text": "sentry duty"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 3030,
+      "status": "candidate",
+      "text": "bodyguard"
+    }
+  ],
+  "canonical_name": "guard",
+  "concept_id": "guard",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "JodyVanden/guard-standardrb"
+    }
+  ],
+  "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "guard",
+      "sense_id": "guard#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

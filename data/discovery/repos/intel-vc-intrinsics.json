@@ -1,0 +1,42 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/on-pr-update.yml",
+      "source_repo": "intel/vc-intrinsics",
+      "target": "Notify",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T00:41:56.413044+00:00",
+  "fetched_files": [
+    {
+      "path": ".github/workflows/on-pr-update.yml",
+      "size": 939
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": null,
+    "fork": false,
+    "full_name": "intel/vc-intrinsics",
+    "html_url": "https://github.com/intel/vc-intrinsics",
+    "language": "Python",
+    "pushed_at": "2026-04-03T18:07:06Z",
+    "stargazers_count": 59,
+    "topics": [],
+    "updated_at": "2026-02-05T01:45:11Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Notify",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/on-pr-update.yml",
+      "term": "Notify"
+    }
+  ]
+}

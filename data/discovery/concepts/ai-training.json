@@ -31,6 +31,18 @@
       "source_repo": "uxlfoundation/scikit-learn-intelex",
       "status": "candidate-context",
       "text": "<!--"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "danielrosehill/AI-Friendly-Badge",
+      "status": "candidate-context",
+      "text": "Website footer badge signalling AI \"friendliness\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "danielrosehill/AI-Friendly-Badge",
+      "status": "candidate-context",
+      "text": "A simple, elegant badge to show that your website welcomes AI crawlers, indexing, and training."
     }
   ],
   "candidate_glosses": [
@@ -45,6 +57,12 @@
       "source_repo": "uxlfoundation/scikit-learn-intelex",
       "status": "candidate",
       "text": "<!--"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "danielrosehill/AI-Friendly-Badge",
+      "status": "candidate",
+      "text": "A simple, elegant badge to show that your website welcomes AI crawlers, indexing, and training."
     }
   ],
   "candidate_related_terms": [],
@@ -64,11 +82,17 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "uxlfoundation/scikit-learn-intelex"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "danielrosehill/AI-Friendly-Badge"
     }
   ],
   "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

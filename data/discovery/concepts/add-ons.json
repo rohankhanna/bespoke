@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "add-ons"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mozilla/web-ext",
+      "status": "candidate-context",
+      "text": "A command line tool to help build, run, and test web extensions"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mozilla/web-ext",
+      "status": "candidate-context",
+      "text": "This is a command line tool to help build, run, and test"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mozilla/web-ext",
+      "status": "candidate",
+      "text": "This is a command line tool to help build, run, and test"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9962865,
+      "status": "candidate",
+      "text": "accessories"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9962865,
+      "status": "candidate",
+      "text": "add-in"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9962865,
+      "status": "candidate",
+      "text": "add-ins"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9962865,
+      "status": "candidate",
+      "text": "addenda"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9962865,
+      "status": "candidate",
+      "text": "addendums"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "add-ons",
+  "concept_id": "add-ons",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "mozilla/web-ext"
+    }
+  ],
+  "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "add-ons",
+      "sense_id": "add-ons#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

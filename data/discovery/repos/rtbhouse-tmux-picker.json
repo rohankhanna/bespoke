@@ -1,0 +1,72 @@
+{
+  "components": [
+    {
+      "component": "rtbhouse-platform-engineering/renovate-scanner/.github/actions/run-renovate@261480b2d6b5bb71fc7276c976a8e202f124de76",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/automated-dependency-updates.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "RTBHOUSE/tmux-picker",
+      "target": "pawel-wiejacha/tmux-picker",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/automated-dependency-updates.yaml",
+      "source_repo": "RTBHOUSE/tmux-picker",
+      "target": "rtbhouse-platform-engineering/renovate-scanner/.github/actions/run-renovate@261480b2d6b5bb71fc7276c976a8e202f124de76",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/automated-dependency-updates.yaml",
+      "source_repo": "RTBHOUSE/tmux-picker",
+      "target": "Automated dependency updates",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T01:39:38.657870+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5057
+    },
+    {
+      "path": ".github/workflows/automated-dependency-updates.yaml",
+      "size": 637
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Selecting and copy-pasting in terminal using Vimium-like hint mode.",
+    "fork": true,
+    "full_name": "RTBHOUSE/tmux-picker",
+    "html_url": "https://github.com/RTBHOUSE/tmux-picker",
+    "language": "Awk",
+    "pushed_at": "2026-01-15T08:24:50Z",
+    "stargazers_count": 27,
+    "topics": [],
+    "updated_at": "2026-01-15T08:24:56Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "pawel-wiejacha/tmux-picker",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Automated dependency updates",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/automated-dependency-updates.yaml",
+      "term": "Automated dependency updates"
+    }
+  ]
+}

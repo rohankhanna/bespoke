@@ -1,0 +1,12 @@
+{
+  "component": "deadsnakes/action@e640ac8743173a67cca4d7d77cd837e514bf98e8",
+  "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "jazzband/pip-tools"
+    }
+  ]
+}

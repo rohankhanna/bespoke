@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Official implementation of PVT series"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "- (2022/08/09) Application examples for polyp segmentation (polyp-pvt) and vision-language modeling."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "- (2022/08/09) Application examples for polyp segmentation (polyp-pvt) and vision-language modeling."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "pvtv2",
+      "sense_id": "pvtv2#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "pvtv2",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "pvtv2",
+  "observation_id": "8e2d43c780b6cb85",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T00:37:16.824464+00:00",
+  "observed_text": "pvtv2",
+  "source_context_snippet": "- (2022/08/09) Application examples for polyp segmentation (polyp-pvt) and vision-language modeling.",
+  "source_file": null,
+  "source_repo": "whai362/PVT",
+  "source_repo_description": "Official implementation of PVT series"
+}

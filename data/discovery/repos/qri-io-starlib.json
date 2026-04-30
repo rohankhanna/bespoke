@@ -1,0 +1,112 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/golangci-lint.yml"
+    },
+    {
+      "component": "golangci/golangci-lint-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/golangci-lint.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "qri-io/starlib",
+      "target": "qri-io/skypg",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "qri-io/starlib",
+      "target": "qri-io/rfcs",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "qri-io/starlib",
+      "target": "cyclejs/cyclejs",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/golangci-lint.yml",
+      "source_repo": "qri-io/starlib",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/golangci-lint.yml",
+      "source_repo": "qri-io/starlib",
+      "target": "golangci/golangci-lint-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/golangci-lint.yml",
+      "source_repo": "qri-io/starlib",
+      "target": "golangci-lint",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T04:52:15.805174+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8356
+    },
+    {
+      "path": "go.mod",
+      "size": 1715
+    },
+    {
+      "path": ".github/workflows/golangci-lint.yml",
+      "size": 1144
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "qri's standard library for starlark",
+    "fork": false,
+    "full_name": "qri-io/starlib",
+    "html_url": "https://github.com/qri-io/starlib",
+    "language": "Go",
+    "pushed_at": "2023-12-04T04:13:57Z",
+    "stargazers_count": 137,
+    "topics": [],
+    "updated_at": "2026-04-12T20:17:18Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cyclejs/cyclejs",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "qri-io/rfcs",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "qri-io/skypg",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "golangci-lint",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/golangci-lint.yml",
+      "term": "golangci-lint"
+    }
+  ]
+}

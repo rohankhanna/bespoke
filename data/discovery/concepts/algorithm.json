@@ -67,6 +67,30 @@
       "source_repo": "accabog/MedianFilter",
       "status": "candidate-context",
       "text": "[![CI](https://github.com/accabog/MedianFilter/actions/workflows/ci.yml/badge.svg)](https://github.com/accabog/MedianFilter/actions/workflows/ci.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "5sControl/idle-control",
+      "status": "candidate-context",
+      "text": "Automatically detect when a worker is on a phone using power of computer vision"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "5sControl/idle-control",
+      "status": "candidate-context",
+      "text": "Idle control is one of the Official [5sControl](https://5scontrol.com/) algorithm. Plug it in our video monitoring system with AI analysis and ERP Integration (Open Source) to uncover employee inefficiencies and minimize downtime."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "5sControl/machine-control-js",
+      "status": "candidate-context",
+      "text": "Automatically detect when a worker is absent using power of computer vision"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "5sControl/machine-control-js",
+      "status": "candidate-context",
+      "text": "Machine control is one of the Official [5sControl](https://5scontrol.com/) algorithm. Plug it in our video monitoring system with AI analysis and ERP Integration (Open Source) to increase the efficiency of your processes."
     }
   ],
   "candidate_glosses": [
@@ -99,6 +123,18 @@
       "source_repo": "accabog/MedianFilter",
       "status": "candidate",
       "text": "[![CI](https://github.com/accabog/MedianFilter/actions/workflows/ci.yml/badge.svg)](https://github.com/accabog/MedianFilter/actions/workflows/ci.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "5sControl/idle-control",
+      "status": "candidate",
+      "text": "Idle control is one of the Official [5sControl](https://5scontrol.com/) algorithm. Plug it in our video monitoring system with AI analysis and ERP Integration (Open Source) to uncover employee inefficiencies and minimize downtime."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "5sControl/machine-control-js",
+      "status": "candidate",
+      "text": "Machine control is one of the Official [5sControl](https://5scontrol.com/) algorithm. Plug it in our video monitoring system with AI analysis and ERP Integration (Open Source) to increase the efficiency of your processes."
     }
   ],
   "candidate_related_terms": [
@@ -187,11 +223,23 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "accabog/MedianFilter"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "5sControl/idle-control"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "5sControl/machine-control-js"
     }
   ],
   "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,122 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "\ud83d\udd25 A cross-platform build utility based on Lua"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Fedora"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Fedora"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39727953,
+      "status": "candidate",
+      "text": "homburg"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39727615,
+      "status": "candidate",
+      "text": "trilby"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39726603,
+      "status": "candidate",
+      "text": "stetson"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29727960,
+      "status": "candidate",
+      "text": "felt hat"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29727959,
+      "status": "candidate",
+      "text": "hat"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Fedora",
+      "sense_id": "fedora#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 2029,
+      "status": "candidate",
+      "text": "trilby"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 1026,
+      "status": "candidate",
+      "text": "homburg"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 28,
+      "status": "candidate",
+      "text": "stetson"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 10,
+      "status": "candidate",
+      "text": "felt hat"
+    }
+  ],
+  "concept_id": "fedora",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "fedora",
+  "observation_id": "ac72300f06ba4963",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-30T00:37:16.824464+00:00",
+  "observed_text": "Fedora",
+  "source_context_snippet": "Fedora",
+  "source_file": ".github/workflows/fedora.yml",
+  "source_repo": "xmake-io/xmake",
+  "source_repo_description": "\ud83d\udd25 A cross-platform build utility based on Lua"
+}

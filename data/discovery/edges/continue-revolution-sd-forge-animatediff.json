@@ -1,0 +1,27 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "continue-revolution/sd-forge-animatediff",
+      "target": "s9roll7/animatediff-cli-prompt-travel",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "continue-revolution/sd-forge-animatediff",
+      "target": "kohakublueleaf/a1111-sd-webui-lycoris",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "continue-revolution/sd-forge-animatediff",
+      "target": "magic-research/magic-animate",
+      "target_type": "repository"
+    }
+  ],
+  "generated_at": "2026-04-30T00:37:16.824464+00:00",
+  "source_repo": "continue-revolution/sd-forge-animatediff"
+}

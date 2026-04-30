@@ -1,0 +1,69 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "facebookresearch/VLPart",
+      "target": "facebookresearch/detic",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "facebookresearch/VLPart",
+      "target": "shiramir/dino-vit-features",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "facebookresearch/VLPart",
+      "target": "cheems-seminar/grounded-segment-any-parts",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T02:01:33.551360+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2322
+    },
+    {
+      "path": "requirements.txt",
+      "size": 143
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "main",
+    "description": "[ICCV2023] VLPart: Going Denser with Open-Vocabulary Part Segmentation",
+    "fork": false,
+    "full_name": "facebookresearch/VLPart",
+    "html_url": "https://github.com/facebookresearch/VLPart",
+    "language": "Python",
+    "pushed_at": "2023-09-19T20:54:50Z",
+    "stargazers_count": 394,
+    "topics": [],
+    "updated_at": "2026-04-08T01:31:03Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cheems-seminar/grounded-segment-any-parts",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "facebookresearch/detic",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "shiramir/dino-vit-features",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

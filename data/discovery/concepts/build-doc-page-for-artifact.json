@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Build doc page for artifact"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "flairNLP/flair",
+      "status": "candidate-context",
+      "text": "A very simple framework for state-of-the-art Natural Language Processing (NLP)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "flairNLP/flair",
+      "status": "candidate-context",
+      "text": "'Build doc page for artifact'"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "flairNLP/flair",
+      "status": "candidate",
+      "text": "'Build doc page for artifact'"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28002,
+      "status": "candidate",
+      "text": "date"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27680,
+      "status": "candidate",
+      "text": "lay"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27680,
+      "status": "candidate",
+      "text": "withers"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27381,
+      "status": "candidate",
+      "text": "make"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27368,
+      "status": "candidate",
+      "text": "document"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Build doc page for artifact",
+  "concept_id": "build-doc-page-for-artifact",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/test-docs.yml",
+      "source_repo": "flairNLP/flair"
+    }
+  ],
+  "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Build doc page for artifact",
+      "sense_id": "build-doc-page-for-artifact#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

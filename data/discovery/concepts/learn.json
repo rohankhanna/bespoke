@@ -91,6 +91,54 @@
       "source_repo": "dwyl/elixir-invoke-lambda-example",
       "status": "candidate-context",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dwyl/learn-tailwind",
+      "status": "candidate-context",
+      "text": " \ud83c\udf2c\ufe0f Learn Tailwind CSS to craft pixel-perfect web apps/sites in less time! \ud83d\ude0d"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dwyl/learn-tailwind",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dwyl/phoenix-liveview-counter-tutorial",
+      "status": "candidate-context",
+      "text": "\ud83e\udd2f  beginners tutorial building a real time counter in Phoenix 1.7.14 + LiveView 1.0 \u26a1\ufe0f Learn the fundamentals from first principals so you can make something amazing! \ud83d\ude80"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dwyl/phoenix-liveview-counter-tutorial",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dwyl/phoenix-liveview-todo-list-tutorial",
+      "status": "candidate-context",
+      "text": "\u2705 Beginners tutorial building a Realtime Todo List in Phoenix 1.6.10 + LiveView 0.17.10 \u26a1\ufe0f Feedback very welcome!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dwyl/phoenix-liveview-todo-list-tutorial",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dwyl/learn-heroku",
+      "status": "candidate-context",
+      "text": ":checkered_flag: Learn how to deploy your web application to Heroku from scratch step-by-step in 7 minutes!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dwyl/learn-heroku",
+      "status": "candidate-context",
+      "text": "![heroku logo](https://cdn.worldvectorlogo.com/logos/heroku-1.svg)"
     }
   ],
   "candidate_glosses": [
@@ -135,6 +183,30 @@
       "source_repo": "dwyl/elixir-invoke-lambda-example",
       "status": "candidate",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dwyl/learn-tailwind",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dwyl/phoenix-liveview-counter-tutorial",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dwyl/phoenix-liveview-todo-list-tutorial",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dwyl/learn-heroku",
+      "status": "candidate",
+      "text": "![heroku logo](https://cdn.worldvectorlogo.com/logos/heroku-1.svg)"
     }
   ],
   "candidate_related_terms": [
@@ -256,11 +328,35 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "dwyl/elixir-invoke-lambda-example"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "dwyl/learn-tailwind"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "dwyl/phoenix-liveview-counter-tutorial"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "dwyl/phoenix-liveview-todo-list-tutorial"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "dwyl/learn-heroku"
     }
   ],
   "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

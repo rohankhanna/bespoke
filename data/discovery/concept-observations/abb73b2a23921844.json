@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A flexible framework of neural networks for deep learning"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "***Notice: As [announced](https://chainer.org/announcement/2019/12/05/released-v7.html), Chainer is under the maintenance phase and further development will be limited to bug-fixes and maintenance only.***"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "***Notice: As [announced](https://chainer.org/announcement/2019/12/05/released-v7.html), Chainer is under the maintenance phase and further development will be limited to bug-fixes and maintenance only.***"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "deep-learning",
+      "sense_id": "deep-learning#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "deep-learning",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "deep-learning",
+  "observation_id": "abb73b2a23921844",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T00:37:16.824464+00:00",
+  "observed_text": "deep-learning",
+  "source_context_snippet": "***Notice: As [announced](https://chainer.org/announcement/2019/12/05/released-v7.html), Chainer is under the maintenance phase and further development will be limited to bug-fixes and maintenance only.***",
+  "source_file": null,
+  "source_repo": "chainer/chainer",
+  "source_repo_description": "A flexible framework of neural networks for deep learning"
+}

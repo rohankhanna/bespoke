@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Auto Request Review"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ruby/ruby",
+      "status": "candidate-context",
+      "text": "The Ruby Programming Language"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ruby/ruby",
+      "status": "candidate-context",
+      "text": "Auto Request Review"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ruby/ruby",
+      "status": "candidate",
+      "text": "Auto Request Review"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 34252,
+      "status": "candidate",
+      "text": "appeal"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18064,
+      "status": "candidate",
+      "text": "recall"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18020,
+      "status": "candidate",
+      "text": "drive"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18020,
+      "status": "candidate",
+      "text": "engine"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18020,
+      "status": "candidate",
+      "text": "make"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Auto Request Review",
+  "concept_id": "auto-request-review",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/auto_request_review.yml",
+      "source_repo": "ruby/ruby"
+    }
+  ],
+  "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Auto Request Review",
+      "sense_id": "auto-request-review#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

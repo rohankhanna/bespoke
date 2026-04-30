@@ -1,12 +1,22 @@
 {
   "component": "codecov/codecov-action@18283e04ce6e62d37312384ff67231eb8fd56d24",
   "first_seen_at": "2026-04-19T02:42:33.990002+00:00",
-  "last_seen_at": "2026-04-19T02:42:33.990002+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/main.yml",
       "source_repo": "libp2p/js-libp2p"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.nightly.yml",
+      "source_repo": "JuliaLang/PackageCompiler.jl"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "JuliaLang/PackageCompiler.jl"
     }
   ]
 }

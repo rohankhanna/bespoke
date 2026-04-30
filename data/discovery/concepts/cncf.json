@@ -391,6 +391,66 @@
       "source_repo": "goharbor/harbor",
       "status": "candidate-context",
       "text": "[![CI](https://github.com/goharbor/harbor/actions/workflows/CI.yml/badge.svg)](https://github.com/goharbor/harbor/actions/workflows/CI.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cncf/tag-security",
+      "status": "candidate-context",
+      "text": "\ud83d\udd10CNCF Security Technical Advisory Group -- secure access, policy control, privacy, auditing, explainability and more!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cncf/tag-security",
+      "status": "candidate-context",
+      "text": "![Cloud Native Security Logo](/community/resources/design/logo/cloud-native-security-horizontal-darkmodesafe.svg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kserve/kserve",
+      "status": "candidate-context",
+      "text": "Standardized Distributed Generative and Predictive AI Inference Platform for Scalable, Multi-Framework Deployment on Kubernetes"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kserve/kserve",
+      "status": "candidate-context",
+      "text": "[![go.dev reference](https://img.shields.io/badge/go.dev-reference-007d9c?logo=go&logoColor=white)](https://pkg.go.dev/github.com/kserve/kserve)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "opencost/opencost-helm-chart",
+      "status": "candidate-context",
+      "text": "OpenCost Helm chart "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "opencost/opencost-helm-chart",
+      "status": "candidate-context",
+      "text": "[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "goharbor/community",
+      "status": "candidate-context",
+      "text": "Harbor community-related material"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "goharbor/community",
+      "status": "candidate-context",
+      "text": "A place for Harbor community related material."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "envoyproxy/ai-gateway",
+      "status": "candidate-context",
+      "text": "Manages Unified Access to Generative AI Services built on Envoy Gateway"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "envoyproxy/ai-gateway",
+      "status": "candidate-context",
+      "text": "Envoy AI Gateway is an open source project for using [Envoy Gateway](https://github.com/envoyproxy/gateway) to handle request traffic from application clients to Generative AI services."
     }
   ],
   "candidate_glosses": [
@@ -585,6 +645,36 @@
       "source_repo": "goharbor/harbor",
       "status": "candidate",
       "text": "[![CI](https://github.com/goharbor/harbor/actions/workflows/CI.yml/badge.svg)](https://github.com/goharbor/harbor/actions/workflows/CI.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cncf/tag-security",
+      "status": "candidate",
+      "text": "![Cloud Native Security Logo](/community/resources/design/logo/cloud-native-security-horizontal-darkmodesafe.svg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kserve/kserve",
+      "status": "candidate",
+      "text": "[![go.dev reference](https://img.shields.io/badge/go.dev-reference-007d9c?logo=go&logoColor=white)](https://pkg.go.dev/github.com/kserve/kserve)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "opencost/opencost-helm-chart",
+      "status": "candidate",
+      "text": "[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "goharbor/community",
+      "status": "candidate",
+      "text": "A place for Harbor community related material."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "envoyproxy/ai-gateway",
+      "status": "candidate",
+      "text": "Envoy AI Gateway is an open source project for using [Envoy Gateway](https://github.com/envoyproxy/gateway) to handle request traffic from application clients to Generative AI services."
     }
   ],
   "candidate_related_terms": [
@@ -874,11 +964,59 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "goharbor/harbor"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "cncf/tag-security"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "notaryproject/notary"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "akuity/awesome-argo"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "kserve/kserve"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "opencost/opencost-helm-chart"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "goharbor/community"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "envoyproxy/ai-gateway"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "jina-ai/serve"
     }
   ],
   "first_seen_at": "2026-04-18T10:38:37.562216+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

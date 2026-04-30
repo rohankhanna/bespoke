@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "\ud83d\udc1a A powerful relational ORM for Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<div align=\"center\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39642261,
+      "status": "candidate",
+      "text": "loopy"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39584585,
+      "status": "candidate",
+      "text": "crackers"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39583647,
+      "status": "candidate",
+      "text": "wacky"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39572614,
+      "status": "candidate",
+      "text": "cracked"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39565371,
+      "status": "candidate",
+      "text": "kooky"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "loco",
+      "sense_id": "loco#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 37036,
+      "status": "candidate",
+      "text": "balmy"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 16034,
+      "status": "candidate",
+      "text": "loony"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 15043,
+      "status": "candidate",
+      "text": "insane"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 15034,
+      "status": "candidate",
+      "text": "wacky"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 15028,
+      "status": "candidate",
+      "text": "dotty"
+    }
+  ],
+  "concept_id": "loco",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "loco",
+  "observation_id": "1c4f9080c337d8ac",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T00:37:16.824464+00:00",
+  "observed_text": "loco",
+  "source_context_snippet": "<div align=\"center\">",
+  "source_file": null,
+  "source_repo": "SeaQL/sea-orm",
+  "source_repo_description": "\ud83d\udc1a A powerful relational ORM for Rust"
+}

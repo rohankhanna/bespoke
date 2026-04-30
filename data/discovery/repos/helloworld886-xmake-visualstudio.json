@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T04:09:41.949442+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 573
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "xmake plugin for visual studio",
+    "fork": false,
+    "full_name": "HelloWorld886/xmake-visualstudio",
+    "html_url": "https://github.com/HelloWorld886/xmake-visualstudio",
+    "language": "C#",
+    "pushed_at": "2025-02-02T03:35:34Z",
+    "stargazers_count": 24,
+    "topics": [],
+    "updated_at": "2026-02-22T06:20:19Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

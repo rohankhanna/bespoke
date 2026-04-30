@@ -1,0 +1,367 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-wheel.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-wheel.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-wheel.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-mkdocs.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-mkdocs.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cpu-tests.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cpu-tests.yml"
+    },
+    {
+      "component": "dawidd6/action-download-artifact@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cpu-tests.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cpu-tests.yml"
+    },
+    {
+      "component": "actions/stale@v9.0.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issue.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yml"
+    },
+    {
+      "component": "pre-commit/action@v3.0.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "vipshop/cache-dit",
+      "target": "jasonzzt/comfyui-cachedit",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "vipshop/cache-dit",
+      "target": "intel/llm-scaler",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "vipshop/cache-dit",
+      "target": "leejet/stable-diffusion.cpp",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "vipshop/cache-dit",
+      "target": "dusty-nv/jetson-containers",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-wheel.yml",
+      "source_repo": "vipshop/cache-dit",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-wheel.yml",
+      "source_repo": "vipshop/cache-dit",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-wheel.yml",
+      "source_repo": "vipshop/cache-dit",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-wheel.yml",
+      "source_repo": "vipshop/cache-dit",
+      "target": "Build Wheel",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-mkdocs.yml",
+      "source_repo": "vipshop/cache-dit",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-mkdocs.yml",
+      "source_repo": "vipshop/cache-dit",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check-mkdocs.yml",
+      "source_repo": "vipshop/cache-dit",
+      "target": "Check MkDocs Build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cpu-tests.yml",
+      "source_repo": "vipshop/cache-dit",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cpu-tests.yml",
+      "source_repo": "vipshop/cache-dit",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cpu-tests.yml",
+      "source_repo": "vipshop/cache-dit",
+      "target": "dawidd6/action-download-artifact@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cpu-tests.yml",
+      "source_repo": "vipshop/cache-dit",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cpu-tests.yml",
+      "source_repo": "vipshop/cache-dit",
+      "target": "Run CPU Tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issue.yml",
+      "source_repo": "vipshop/cache-dit",
+      "target": "actions/stale@v9.0.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/issue.yml",
+      "source_repo": "vipshop/cache-dit",
+      "target": "issues",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yml",
+      "source_repo": "vipshop/cache-dit",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yml",
+      "source_repo": "vipshop/cache-dit",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yml",
+      "source_repo": "vipshop/cache-dit",
+      "target": "pre-commit/action@v3.0.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pre-commit.yml",
+      "source_repo": "vipshop/cache-dit",
+      "target": "pre-commit",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "vipshop/cache-dit",
+      "target": "flux2-klein",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "vipshop/cache-dit",
+      "target": "parallelism",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "vipshop/cache-dit",
+      "target": "svdquant",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T01:54:14.872796+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6933
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 2808
+    },
+    {
+      "path": ".github/workflows/build-wheel.yml",
+      "size": 1673
+    },
+    {
+      "path": ".github/workflows/check-mkdocs.yml",
+      "size": 2036
+    },
+    {
+      "path": ".github/workflows/cpu-tests.yml",
+      "size": 3112
+    },
+    {
+      "path": ".github/workflows/issue.yml",
+      "size": 677
+    },
+    {
+      "path": ".github/workflows/pre-commit.yml",
+      "size": 530
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A PyTorch-native inference engine with cache, parallelism, quantization for Diffusion Transformers.",
+    "fork": false,
+    "full_name": "vipshop/cache-dit",
+    "html_url": "https://github.com/vipshop/cache-dit",
+    "language": "Python",
+    "pushed_at": "2026-04-29T06:50:28Z",
+    "stargazers_count": 1155,
+    "topics": [
+      "flux2-klein",
+      "parallelism",
+      "svdquant"
+    ],
+    "updated_at": "2026-04-29T13:38:29Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dusty-nv/jetson-containers",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "intel/llm-scaler",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jasonzzt/comfyui-cachedit",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "leejet/stable-diffusion.cpp",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Build Wheel",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-wheel.yml",
+      "term": "Build Wheel"
+    },
+    {
+      "context_snippet": "Check MkDocs Build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check-mkdocs.yml",
+      "term": "Check MkDocs Build"
+    },
+    {
+      "context_snippet": "Run CPU Tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cpu-tests.yml",
+      "term": "Run CPU Tests"
+    },
+    {
+      "context_snippet": "issues",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/issue.yml",
+      "term": "issues"
+    },
+    {
+      "context_snippet": "pre-commit",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pre-commit.yml",
+      "term": "pre-commit"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "flux2-klein"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "parallelism"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "svdquant"
+    }
+  ]
+}

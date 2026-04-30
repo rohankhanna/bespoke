@@ -685,6 +685,156 @@
       "source_repo": "intel/ipex-llm-tutorial",
       "status": "candidate-context",
       "text": "Scorecard supply-chain security"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "google/gson",
+      "status": "candidate-context",
+      "text": "A Java serialization/deserialization library to convert Java Objects into JSON and back"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/gson",
+      "status": "candidate-context",
+      "text": "Scorecard supply-chain security"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sigstore/helm-sigstore",
+      "status": "candidate-context",
+      "text": "Plugin for Helm to integrate the sigstore ecosystem"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sigstore/helm-sigstore",
+      "status": "candidate-context",
+      "text": "Scorecard supply-chain security"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "google/certificate-transparency-go",
+      "status": "candidate-context",
+      "text": "Auditing for TLS certificates (Go code)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/certificate-transparency-go",
+      "status": "candidate-context",
+      "text": "Scorecard supply-chain security"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "google/trillian-examples",
+      "status": "candidate-context",
+      "text": "A place to store some examples which use Trillian APIs to build things."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/trillian-examples",
+      "status": "candidate-context",
+      "text": "Scorecard supply-chain security"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "libevent/libevent",
+      "status": "candidate-context",
+      "text": "Event notification library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "libevent/libevent",
+      "status": "candidate-context",
+      "text": "Scorecard supply-chain security"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bytedance/UI-TARS-desktop",
+      "status": "candidate-context",
+      "text": "The Open-Source Multimodal AI Agent Stack: Connecting Cutting-Edge AI Models and Agent Infra"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bytedance/UI-TARS-desktop",
+      "status": "candidate-context",
+      "text": "Scorecard supply-chain security"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "IntelPython/scikit-learn_bench",
+      "status": "candidate-context",
+      "text": "scikit-learn_bench benchmarks various implementations of machine learning algorithms across data analytics frameworks. It currently support the scikit-learn, DAAL4PY, cuML, and XGBoost frameworks for commonly used machine learning algorithms."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "IntelPython/scikit-learn_bench",
+      "status": "candidate-context",
+      "text": "Scorecard supply-chain security"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "googleapis/java-bigquery",
+      "status": "candidate-context",
+      "text": "Scorecard supply-chain security"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "PowerShell/PowerShell",
+      "status": "candidate-context",
+      "text": "PowerShell for every system!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PowerShell/PowerShell",
+      "status": "candidate-context",
+      "text": "Scorecard supply-chain security"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "transparency-dev/distributor",
+      "status": "candidate-context",
+      "text": "Libraries and binaries for running checkpoint distributors for verifiable logs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "transparency-dev/distributor",
+      "status": "candidate-context",
+      "text": "Scorecard supply-chain security"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "transparency-dev/witness",
+      "status": "candidate-context",
+      "text": "Libraries and binaries for running witnesses for verifiable logs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "transparency-dev/witness",
+      "status": "candidate-context",
+      "text": "Scorecard supply-chain security"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jawah/charset_normalizer",
+      "status": "candidate-context",
+      "text": "Truly universal encoding detector in pure Python."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jawah/charset_normalizer",
+      "status": "candidate-context",
+      "text": "Scorecard supply-chain security"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mozilla/rhino",
+      "status": "candidate-context",
+      "text": "Rhino is an open-source implementation of JavaScript written entirely in Java"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mozilla/rhino",
+      "status": "candidate-context",
+      "text": "Scorecard supply-chain security"
     }
   ],
   "candidate_glosses": [
@@ -1027,6 +1177,84 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "intel/ipex-llm-tutorial",
+      "status": "candidate",
+      "text": "Scorecard supply-chain security"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/gson",
+      "status": "candidate",
+      "text": "Scorecard supply-chain security"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sigstore/helm-sigstore",
+      "status": "candidate",
+      "text": "Scorecard supply-chain security"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/certificate-transparency-go",
+      "status": "candidate",
+      "text": "Scorecard supply-chain security"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/trillian-examples",
+      "status": "candidate",
+      "text": "Scorecard supply-chain security"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "libevent/libevent",
+      "status": "candidate",
+      "text": "Scorecard supply-chain security"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bytedance/UI-TARS-desktop",
+      "status": "candidate",
+      "text": "Scorecard supply-chain security"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "IntelPython/scikit-learn_bench",
+      "status": "candidate",
+      "text": "Scorecard supply-chain security"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "googleapis/java-bigquery",
+      "status": "candidate",
+      "text": "Scorecard supply-chain security"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PowerShell/PowerShell",
+      "status": "candidate",
+      "text": "Scorecard supply-chain security"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "transparency-dev/distributor",
+      "status": "candidate",
+      "text": "Scorecard supply-chain security"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "transparency-dev/witness",
+      "status": "candidate",
+      "text": "Scorecard supply-chain security"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jawah/charset_normalizer",
+      "status": "candidate",
+      "text": "Scorecard supply-chain security"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mozilla/rhino",
       "status": "candidate",
       "text": "Scorecard supply-chain security"
     }
@@ -1546,11 +1774,113 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": ".github/workflows/scorecard.yml",
       "source_repo": "intel/ipex-llm-tutorial"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/scorecard.yml",
+      "source_repo": "google/gson"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/scorecard.yml",
+      "source_repo": "sigstore/helm-sigstore"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/scorecard.yml",
+      "source_repo": "google/certificate-transparency-go"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/scorecard.yml",
+      "source_repo": "google/trillian-examples"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/scorecard.yml",
+      "source_repo": "libevent/libevent"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/scorecard.yml",
+      "source_repo": "protocolbuffers/protobuf"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/scorecard.yml",
+      "source_repo": "bytedance/UI-TARS-desktop"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/scorecard.yml",
+      "source_repo": "IntelPython/scikit-learn_bench"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/scorecard.yml",
+      "source_repo": "googleapis/java-bigquery"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/scorecard.yml",
+      "source_repo": "intel/ipex-llm-tutorial"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/scorecard.yml",
+      "source_repo": "JakeChampion/fetch"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/scorecard.yml",
+      "source_repo": "ohmyzsh/ohmyzsh"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/scorecards.yml",
+      "source_repo": "PowerShell/PowerShell"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/scorecard.yml",
+      "source_repo": "transparency-dev/distributor"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/scorecard.yml",
+      "source_repo": "transparency-dev/witness"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/scorecards.yml",
+      "source_repo": "jawah/charset_normalizer"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/scorecard.yml",
+      "source_repo": "mozilla/rhino"
     }
   ],
   "first_seen_at": "2026-04-18T11:24:14.688152+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

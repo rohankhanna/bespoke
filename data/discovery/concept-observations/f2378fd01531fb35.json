@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Hover helps developers to release Flutter applications on desktop."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Hover is a simple build tool to create [Flutter](https://flutter.dev) desktop applications."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Hover is a simple build tool to create [Flutter](https://flutter.dev) desktop applications."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "go-flutter",
+      "sense_id": "go-flutter#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "go-flutter",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "go-flutter",
+  "observation_id": "f2378fd01531fb35",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T00:37:16.824464+00:00",
+  "observed_text": "go-flutter",
+  "source_context_snippet": "Hover is a simple build tool to create [Flutter](https://flutter.dev) desktop applications.",
+  "source_file": null,
+  "source_repo": "go-flutter-desktop/hover",
+  "source_repo_description": "Hover helps developers to release Flutter applications on desktop."
+}

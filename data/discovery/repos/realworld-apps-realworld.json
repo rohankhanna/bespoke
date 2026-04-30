@@ -1,0 +1,255 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bruno-check.yml"
+    },
+    {
+      "component": "oven-sh/setup-bun@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bruno-check.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "github/codeql-action/init@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "github/codeql-action/analyze@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-docs.yml"
+    },
+    {
+      "component": "oven-sh/setup-bun@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-docs.yml"
+    },
+    {
+      "component": "actions/configure-pages@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-docs.yml"
+    },
+    {
+      "component": "actions/upload-pages-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-docs.yml"
+    },
+    {
+      "component": "actions/deploy-pages@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-docs.yml"
+    },
+    {
+      "component": "kerhub/spammy-guardian@fa79bcda24df6dae5b93285e1749e59c77add4bd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/spammy-guardian.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "realworld-apps/realworld",
+      "target": "realworld-apps/nitro-prisma-zod-realworld-example-app",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "realworld-apps/realworld",
+      "target": "c4ffein/realworld-django-ninja",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bruno-check.yml",
+      "source_repo": "realworld-apps/realworld",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bruno-check.yml",
+      "source_repo": "realworld-apps/realworld",
+      "target": "oven-sh/setup-bun@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/bruno-check.yml",
+      "source_repo": "realworld-apps/realworld",
+      "target": "Bruno Check",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "realworld-apps/realworld",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "realworld-apps/realworld",
+      "target": "github/codeql-action/init@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "realworld-apps/realworld",
+      "target": "github/codeql-action/analyze@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "realworld-apps/realworld",
+      "target": "CodeQL",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-docs.yml",
+      "source_repo": "realworld-apps/realworld",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-docs.yml",
+      "source_repo": "realworld-apps/realworld",
+      "target": "oven-sh/setup-bun@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-docs.yml",
+      "source_repo": "realworld-apps/realworld",
+      "target": "actions/configure-pages@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-docs.yml",
+      "source_repo": "realworld-apps/realworld",
+      "target": "actions/upload-pages-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-docs.yml",
+      "source_repo": "realworld-apps/realworld",
+      "target": "actions/deploy-pages@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deploy-docs.yml",
+      "source_repo": "realworld-apps/realworld",
+      "target": "Deploy Documentation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/spammy-guardian.yml",
+      "source_repo": "realworld-apps/realworld",
+      "target": "kerhub/spammy-guardian@fa79bcda24df6dae5b93285e1749e59c77add4bd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/spammy-guardian.yml",
+      "source_repo": "realworld-apps/realworld",
+      "target": "Spammy Guardian",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T01:42:25.876667+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3191
+    },
+    {
+      "path": ".github/workflows/bruno-check.yml",
+      "size": 368
+    },
+    {
+      "path": ".github/workflows/codeql.yml",
+      "size": 679
+    },
+    {
+      "path": ".github/workflows/deploy-docs.yml",
+      "size": 1154
+    },
+    {
+      "path": ".github/workflows/spammy-guardian.yml",
+      "size": 481
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "\"The mother of all demo apps\" \u2014 Exemplary fullstack Medium.com clone powered by React, Angular, Node, Django, and many more",
+    "fork": false,
+    "full_name": "realworld-apps/realworld",
+    "html_url": "https://github.com/realworld-apps/realworld",
+    "language": "TypeScript",
+    "pushed_at": "2026-04-14T16:11:02Z",
+    "stargazers_count": 83323,
+    "topics": [],
+    "updated_at": "2026-04-30T00:57:42Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "c4ffein/realworld-django-ninja",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "realworld-apps/nitro-prisma-zod-realworld-example-app",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "'Bruno Check'",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/bruno-check.yml",
+      "term": "Bruno Check"
+    },
+    {
+      "context_snippet": "'CodeQL'",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql.yml",
+      "term": "CodeQL"
+    },
+    {
+      "context_snippet": "Deploy Documentation",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deploy-docs.yml",
+      "term": "Deploy Documentation"
+    },
+    {
+      "context_snippet": "Spammy Guardian",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/spammy-guardian.yml",
+      "term": "Spammy Guardian"
+    }
+  ]
+}

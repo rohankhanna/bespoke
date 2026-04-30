@@ -103,6 +103,24 @@
       "source_repo": "serverless/containers",
       "status": "candidate-context",
       "text": "[![Serverless Container Framework](https://github.com/user-attachments/assets/38751c4c-3632-4be2-b15f-d92ace24bd9e)](https://serverless.com/containers/docs)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "neverendingqs/serverless-dotenv-example",
+      "status": "candidate-context",
+      "text": "This is a simple example to how you can use `dotenv` with the [Serverless"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ACloudGuru/serverless-plugin-aws-alerts",
+      "status": "candidate-context",
+      "text": "A Serverless Framework plugin that creates CloudWatch alarms for functions."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ACloudGuru/serverless-plugin-aws-alerts",
+      "status": "candidate-context",
+      "text": "[![NPM version][npm-image]][npm-url]"
     }
   ],
   "candidate_glosses": [
@@ -153,6 +171,18 @@
       "source_repo": "serverless/containers",
       "status": "candidate",
       "text": "[![Serverless Container Framework](https://github.com/user-attachments/assets/38751c4c-3632-4be2-b15f-d92ace24bd9e)](https://serverless.com/containers/docs)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "neverendingqs/serverless-dotenv-example",
+      "status": "candidate",
+      "text": "This is a simple example to how you can use `dotenv` with the [Serverless"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ACloudGuru/serverless-plugin-aws-alerts",
+      "status": "candidate",
+      "text": "[![NPM version][npm-image]][npm-url]"
     }
   ],
   "candidate_related_terms": [],
@@ -220,11 +250,23 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "serverless/containers"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "neverendingqs/serverless-dotenv-example"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "ACloudGuru/serverless-plugin-aws-alerts"
     }
   ],
   "first_seen_at": "2026-04-18T11:24:14.688152+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -4,28 +4,21 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "typstyle-rs/typstyle",
-      "target": "myriad-dreamin/tinymist",
+      "target": "typstyle-rs/typstyle-tampermonkey",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "typstyle-rs/typstyle",
-      "target": "typstyle-rs/pre-commit-typstyle",
+      "target": "typstyle-rs/typstyle-action",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
-      "source_file": "README.md",
+      "source_file": "Cargo.toml",
       "source_repo": "typstyle-rs/typstyle",
-      "target": "jeffa5/typstfmt",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "typstyle-rs/typstyle",
-      "target": "marwes/pretty.rs",
+      "target": "typstyle-rs/prettyless",
       "target_type": "repository"
     },
     {
@@ -400,6 +393,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-04-24T12:33:41.350224+00:00",
+  "generated_at": "2026-04-30T00:37:16.824464+00:00",
   "source_repo": "typstyle-rs/typstyle"
 }

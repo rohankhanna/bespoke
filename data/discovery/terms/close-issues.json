@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-18T09:09:30.058377+00:00",
-  "last_seen_at": "2026-04-24T18:19:44.660705+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
@@ -26,6 +26,11 @@
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/close-issues.yml",
       "source_repo": "gpac/mp4box.js"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/close-issue.yml",
+      "source_repo": "biomejs/biome"
     }
   ],
   "term": "Close issues"

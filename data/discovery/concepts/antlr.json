@@ -19,6 +19,18 @@
       "source_repo": "antlr/antlr4",
       "status": "candidate-context",
       "text": "[![Java 11+](https://img.shields.io/badge/java-11+-4c7e9f.svg)](http://java.oracle.com)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "SpencerPark/MellowD",
+      "status": "candidate-context",
+      "text": "Programmable music! A compiler and high level language."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SpencerPark/MellowD",
+      "status": "candidate-context",
+      "text": "Mellow D"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "antlr/antlr4",
       "status": "candidate",
       "text": "[![Java 11+](https://img.shields.io/badge/java-11+-4c7e9f.svg)](http://java.oracle.com)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SpencerPark/MellowD",
+      "status": "candidate",
+      "text": "Mellow D"
     }
   ],
   "candidate_related_terms": [
@@ -76,11 +94,17 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "antlr/antlr4"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "SpencerPark/MellowD"
     }
   ],
   "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

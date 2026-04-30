@@ -103,6 +103,18 @@
       "source_repo": "sourcery-ai/python-best-practices-cookiecutter",
       "status": "candidate-context",
       "text": "Best practices [cookiecutter](https://github.com/audreyr/cookiecutter) template as described in this [blogpost](https://sourcery.ai/blog/python-best-practices/)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "GoogleChrome/lighthouse",
+      "status": "candidate-context",
+      "text": "Automated auditing, performance metrics, and best practices for the web."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "GoogleChrome/lighthouse",
+      "status": "candidate-context",
+      "text": "lighthouse \u2014 Automated auditing, performance metrics, and best practices for the web."
     }
   ],
   "candidate_glosses": [
@@ -153,6 +165,12 @@
       "source_repo": "sourcery-ai/python-best-practices-cookiecutter",
       "status": "candidate",
       "text": "Best practices [cookiecutter](https://github.com/audreyr/cookiecutter) template as described in this [blogpost](https://sourcery.ai/blog/python-best-practices/)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "GoogleChrome/lighthouse",
+      "status": "candidate",
+      "text": "lighthouse \u2014 Automated auditing, performance metrics, and best practices for the web."
     }
   ],
   "candidate_related_terms": [],
@@ -208,11 +226,23 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "sourcery-ai/python-best-practices-cookiecutter"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "MrGemy95/Tensorflow-Project-Template"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "GoogleChrome/lighthouse"
     }
   ],
   "first_seen_at": "2026-04-22T04:41:58.081535+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

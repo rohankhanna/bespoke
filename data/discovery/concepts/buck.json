@@ -1,0 +1,136 @@
+{
+  "aliases": [
+    "buck"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "facebook/buck",
+      "status": "candidate-context",
+      "text": "A fast build system that encourages the creation of small, reusable modules over a variety of platforms and languages."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "facebook/buck",
+      "status": "candidate-context",
+      "text": "This repo is dead."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "facebook/buck",
+      "status": "candidate",
+      "text": "This repo is dead."
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40010200,
+      "status": "candidate",
+      "text": "clam"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39927318,
+      "status": "candidate",
+      "text": "horse"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39918252,
+      "status": "candidate",
+      "text": "sawbuck"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39908277,
+      "status": "candidate",
+      "text": "sawhorse"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39871781,
+      "status": "candidate",
+      "text": "hitch"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 57053,
+      "status": "candidate",
+      "text": "jerk"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 48041,
+      "status": "candidate",
+      "text": "subordinate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 43077,
+      "status": "candidate",
+      "text": "charge"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 21046,
+      "status": "candidate",
+      "text": "hitch"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 15056,
+      "status": "candidate",
+      "text": "shoot"
+    }
+  ],
+  "canonical_name": "buck",
+  "concept_id": "buck",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "facebook/buck"
+    }
+  ],
+  "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "buck",
+      "sense_id": "buck#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

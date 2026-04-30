@@ -469,6 +469,54 @@
       "source_repo": "base/base",
       "status": "candidate-context",
       "text": "Claude Code Review"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "colinhacks/zod",
+      "status": "candidate-context",
+      "text": "TypeScript-first schema validation with static type inference"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "colinhacks/zod",
+      "status": "candidate-context",
+      "text": "Claude Code Review"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "openvm-org/stark-backend",
+      "status": "candidate-context",
+      "text": "Proof system backends for OpenVM."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "openvm-org/stark-backend",
+      "status": "candidate-context",
+      "text": "Claude Code Review"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lemonade-sdk/lemonade",
+      "status": "candidate-context",
+      "text": "Lemonade helps users discover and run local AI apps by serving optimized LLMs right from their own GPUs and NPUs. Join our discord: https://discord.gg/5xXzkMu8Zk"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lemonade-sdk/lemonade",
+      "status": "candidate-context",
+      "text": "Claude Code Review"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "swc-project/swc",
+      "status": "candidate-context",
+      "text": "Rust-based platform for the Web"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "swc-project/swc",
+      "status": "candidate-context",
+      "text": "Claude Code Review"
     }
   ],
   "candidate_glosses": [
@@ -709,6 +757,30 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "base/base",
+      "status": "candidate",
+      "text": "Claude Code Review"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "colinhacks/zod",
+      "status": "candidate",
+      "text": "Claude Code Review"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "openvm-org/stark-backend",
+      "status": "candidate",
+      "text": "Claude Code Review"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lemonade-sdk/lemonade",
+      "status": "candidate",
+      "text": "Claude Code Review"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "swc-project/swc",
       "status": "candidate",
       "text": "Claude Code Review"
     }
@@ -1096,11 +1168,53 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": ".github/workflows/claude-review.yml",
       "source_repo": "base/base"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/claude-code-review.yml",
+      "source_repo": "colinhacks/zod"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/claude-code-review.yml",
+      "source_repo": "openvm-org/stark-backend"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/claude-code-review.yml",
+      "source_repo": "winfunc/opcode"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/claude-review.yml",
+      "source_repo": "lemonade-sdk/lemonade"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/claude-code-review.yml",
+      "source_repo": "harbor-framework/harbor"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/claude-code-review.yml",
+      "source_repo": "harbor-framework/terminal-bench"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/claude-code-review.yml",
+      "source_repo": "swc-project/swc"
     }
   ],
   "first_seen_at": "2026-04-18T13:50:38.061794+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

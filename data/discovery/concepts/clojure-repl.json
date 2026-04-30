@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "clojure-repl"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "clojure-emacs/inf-clojure",
+      "status": "candidate-context",
+      "text": "Basic interaction with a Clojure subprocess from Emacs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "clojure-emacs/inf-clojure",
+      "status": "candidate-context",
+      "text": "[![Circle CI][circleci-badge]][circleci]"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "clojure-emacs/inf-clojure",
+      "status": "candidate",
+      "text": "[![Circle CI][circleci-badge]][circleci]"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "clojure-repl",
+  "concept_id": "clojure-repl",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "clojure-emacs/inf-clojure"
+    }
+  ],
+  "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "clojure-repl",
+      "sense_id": "clojure-repl#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

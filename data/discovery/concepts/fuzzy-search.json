@@ -79,6 +79,42 @@
       "source_repo": "helix-editor/nucleo",
       "status": "candidate-context",
       "text": "`nucleo` is a highly performant fuzzy matcher written in Rust. It aims to fill the same use case as `fzf` and `skim`. Compared to `fzf` `nucleo` has a significantly faster matching algorithm. This mainly makes a difference when matching patterns with low selectivity on many item\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jhawthorn/fzy.js",
+      "status": "candidate-context",
+      "text": "A javascript port of fzy's scoring algorithm. As seen on GitHub.com!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jhawthorn/fzy.js",
+      "status": "candidate-context",
+      "text": "A javascript port of [fzy](https://github.com/jhawthorn/fzy)'s fuzzy finder scoring algorithm"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ray-x/guihua.lua",
+      "status": "candidate-context",
+      "text": "A GUI library for Neovim plugin developers"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ray-x/guihua.lua",
+      "status": "candidate-context",
+      "text": "![guihua](https://github.com/ray-x/files/blob/master/img/guihua/guihua_800.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "unum-cloud/USearch",
+      "status": "candidate-context",
+      "text": "Fast Open-Source Search & Clustering engine \u00d7 for Vectors & Arbitrary Objects \u00d7 in C++, C, Python, JavaScript, Rust, Java, Objective-C, Swift, C#, GoLang, and Wolfram \ud83d\udd0d"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "unum-cloud/USearch",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">USearch</h1>"
     }
   ],
   "candidate_glosses": [
@@ -117,6 +153,24 @@
       "source_repo": "helix-editor/nucleo",
       "status": "candidate",
       "text": "`nucleo` is a highly performant fuzzy matcher written in Rust. It aims to fill the same use case as `fzf` and `skim`. Compared to `fzf` `nucleo` has a significantly faster matching algorithm. This mainly makes a difference when matching patterns with low selectivity on many item\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jhawthorn/fzy.js",
+      "status": "candidate",
+      "text": "A javascript port of [fzy](https://github.com/jhawthorn/fzy)'s fuzzy finder scoring algorithm"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ray-x/guihua.lua",
+      "status": "candidate",
+      "text": "![guihua](https://github.com/ray-x/files/blob/master/img/guihua/guihua_800.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "unum-cloud/USearch",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">USearch</h1>"
     }
   ],
   "candidate_related_terms": [],
@@ -160,11 +214,29 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "helix-editor/nucleo"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "jhawthorn/fzy.js"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "ray-x/guihua.lua"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "unum-cloud/USearch"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -175,6 +175,42 @@
       "source_repo": "HTTPArchive/almanac.httparchive.org",
       "status": "candidate-context",
       "text": "Lint Code Base"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mfussenegger/nvim-fzy",
+      "status": "candidate-context",
+      "text": "Moved to codeberg - Fuzzy picker & vim.ui.select implementation via fzy for neovim"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mfussenegger/nvim-fzy",
+      "status": "candidate-context",
+      "text": "Lint Code Base"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dotnet/dotnet-docker",
+      "status": "candidate-context",
+      "text": "Official container images for .NET"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dotnet/dotnet-docker",
+      "status": "candidate-context",
+      "text": "Lint Code Base"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "microsoft/dotnet-framework-docker",
+      "status": "candidate-context",
+      "text": "The repo for the official docker images for .NET Framework on Windows Server Core."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/dotnet-framework-docker",
+      "status": "candidate-context",
+      "text": "Lint Code Base"
     }
   ],
   "candidate_glosses": [
@@ -259,6 +295,24 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "HTTPArchive/almanac.httparchive.org",
+      "status": "candidate",
+      "text": "Lint Code Base"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mfussenegger/nvim-fzy",
+      "status": "candidate",
+      "text": "Lint Code Base"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dotnet/dotnet-docker",
+      "status": "candidate",
+      "text": "Lint Code Base"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/dotnet-framework-docker",
       "status": "candidate",
       "text": "Lint Code Base"
     }
@@ -442,11 +496,47 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": ".github/workflows/linter.yml",
       "source_repo": "crytic/evm_cfg_builder"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/linter.yml",
+      "source_repo": "mfussenegger/nvim-fzy"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/linter.yml",
+      "source_repo": "crytic/evm_cfg_builder"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/lint-code-base.yml",
+      "source_repo": "dotnet/dotnet-docker"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/lint.yaml",
+      "source_repo": "php/frankenphp"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/super-linter.yml",
+      "source_repo": "pytorch/gloo"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/lint-code-base.yml",
+      "source_repo": "microsoft/dotnet-framework-docker"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "sources": [
     {
       "discovered_via": "repo-topic",
@@ -416,6 +416,81 @@
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/docs.yml",
       "source_repo": "plone/cookieplone"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "iterative/shtab"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/documentation.yaml",
+      "source_repo": "k8s-operatorhub/community-operators"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/documentation.yml",
+      "source_repo": "open-edge-platform/geti-instant-learn"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "plotly/graphing-library-docs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/documentation.yml",
+      "source_repo": "urwid/urwid"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/docs.yaml",
+      "source_repo": "mozilla-ai/any-agent"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/github-pages.yaml",
+      "source_repo": "optuna/optunahub"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "bghira/SimpleTuner"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "artsy/README"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "jpedroschmitz/gatsby-starter-rocketdocs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/Documentation.yml",
+      "source_repo": "JuliaCI/BenchmarkTools.jl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "awsdocs/aws-doc-sdk-examples"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/Docs.yml",
+      "source_repo": "kahliburke/Kaimon.jl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "danielrosehill/AI-Developer-Notebook"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/documentation.yml",
+      "source_repo": "huggingface/lerobot"
     }
   ],
   "term": "documentation"

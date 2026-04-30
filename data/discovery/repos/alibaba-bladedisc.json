@@ -1,0 +1,279 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2.4.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/amd.yml"
+    },
+    {
+      "component": "actions/checkout@v2.4.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto_rebase.yml"
+    },
+    {
+      "component": "actions/checkout@v2.4.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pytorch113_yitian.yml"
+    },
+    {
+      "component": "actions/checkout@v2.4.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pytorch200_yitian.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "alibaba/BladeDISC",
+      "target": "tensorflow/mlir-hlo",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/amd.yml",
+      "source_repo": "alibaba/BladeDISC",
+      "target": "actions/checkout@v2.4.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/amd.yml",
+      "source_repo": "alibaba/BladeDISC",
+      "target": "AMD-Workflow",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto_rebase.yml",
+      "source_repo": "alibaba/BladeDISC",
+      "target": "actions/checkout@v2.4.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/auto_rebase.yml",
+      "source_repo": "alibaba/BladeDISC",
+      "target": "AutoRebase",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/d2_trt_bench.yml",
+      "source_repo": "alibaba/BladeDISC",
+      "target": "D2-TensorRT-bench",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pytorch113_yitian.yml",
+      "source_repo": "alibaba/BladeDISC",
+      "target": "actions/checkout@v2.4.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pytorch200_yitian.yml",
+      "source_repo": "alibaba/BladeDISC",
+      "target": "actions/checkout@v2.4.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "alibaba/BladeDISC",
+      "target": "compiler",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "alibaba/BladeDISC",
+      "target": "deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "alibaba/BladeDISC",
+      "target": "inference-optimization",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "alibaba/BladeDISC",
+      "target": "machine-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "alibaba/BladeDISC",
+      "target": "mlir",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "alibaba/BladeDISC",
+      "target": "neural-network",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "alibaba/BladeDISC",
+      "target": "pytorch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "alibaba/BladeDISC",
+      "target": "tensorflow",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T01:53:36.848537+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 12888
+    },
+    {
+      "path": ".github/workflows/amd.yml",
+      "size": 1202
+    },
+    {
+      "path": ".github/workflows/auto_rebase.yml",
+      "size": 501
+    },
+    {
+      "path": ".github/workflows/d2_trt_bench.yml",
+      "size": 1046
+    },
+    {
+      "path": ".github/workflows/pytorch113_cpu.yml",
+      "size": 1126
+    },
+    {
+      "path": ".github/workflows/pytorch113_gpu.yml",
+      "size": 1159
+    },
+    {
+      "path": ".github/workflows/pytorch113_yitian.yml",
+      "size": 2843
+    },
+    {
+      "path": ".github/workflows/pytorch200_cpu.yml",
+      "size": 1096
+    },
+    {
+      "path": ".github/workflows/pytorch200_yitian.yml",
+      "size": 2842
+    },
+    {
+      "path": ".github/workflows/pytorch201_gpu.yml",
+      "size": 1078
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "BladeDISC is an end-to-end DynamIc Shape Compiler project for machine learning workloads.",
+    "fork": false,
+    "full_name": "alibaba/BladeDISC",
+    "html_url": "https://github.com/alibaba/BladeDISC",
+    "language": "C++",
+    "pushed_at": "2024-12-30T16:51:44Z",
+    "stargazers_count": 924,
+    "topics": [
+      "compiler",
+      "deep-learning",
+      "inference-optimization",
+      "machine-learning",
+      "mlir",
+      "neural-network",
+      "pytorch",
+      "tensorflow"
+    ],
+    "updated_at": "2026-04-24T14:09:38Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "tensorflow/mlir-hlo",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "AMD-Workflow",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/amd.yml",
+      "term": "AMD-Workflow"
+    },
+    {
+      "context_snippet": "AutoRebase",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/auto_rebase.yml",
+      "term": "AutoRebase"
+    },
+    {
+      "context_snippet": "D2-TensorRT-bench",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/d2_trt_bench.yml",
+      "term": "D2-TensorRT-bench"
+    },
+    {
+      "context_snippet": "We're always looking for candicates to join dev team. Your're the one we're searching for long:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "compiler"
+    },
+    {
+      "context_snippet": "We're always looking for candicates to join dev team. Your're the one we're searching for long:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-learning"
+    },
+    {
+      "context_snippet": "We're always looking for candicates to join dev team. Your're the one we're searching for long:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "inference-optimization"
+    },
+    {
+      "context_snippet": "We're always looking for candicates to join dev team. Your're the one we're searching for long:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "machine-learning"
+    },
+    {
+      "context_snippet": "We're always looking for candicates to join dev team. Your're the one we're searching for long:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mlir"
+    },
+    {
+      "context_snippet": "We're always looking for candicates to join dev team. Your're the one we're searching for long:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "neural-network"
+    },
+    {
+      "context_snippet": "We're always looking for candicates to join dev team. Your're the one we're searching for long:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytorch"
+    },
+    {
+      "context_snippet": "We're always looking for candicates to join dev team. Your're the one we're searching for long:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tensorflow"
+    }
+  ]
+}

@@ -1,0 +1,173 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lfs-check.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yml"
+    },
+    {
+      "component": "pre-commit/action@v3.0.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ag2ai/build-with-ag2",
+      "target": "emergenceai/agent-e",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ag2ai/build-with-ag2",
+      "target": "cmbagents/cmbagent",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ag2ai/build-with-ag2",
+      "target": "airtai/prompt-leakage-probing",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ag2ai/build-with-ag2",
+      "target": "jk10001/aquainsightai",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lfs-check.yml",
+      "source_repo": "ag2ai/build-with-ag2",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lfs-check.yml",
+      "source_repo": "ag2ai/build-with-ag2",
+      "target": "Git LFS Check",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yml",
+      "source_repo": "ag2ai/build-with-ag2",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yml",
+      "source_repo": "ag2ai/build-with-ag2",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yml",
+      "source_repo": "ag2ai/build-with-ag2",
+      "target": "actions/cache@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yml",
+      "source_repo": "ag2ai/build-with-ag2",
+      "target": "pre-commit/action@v3.0.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pre-commit.yml",
+      "source_repo": "ag2ai/build-with-ag2",
+      "target": "Code formatting",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T04:01:06.020699+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9943
+    },
+    {
+      "path": ".github/workflows/lfs-check.yml",
+      "size": 517
+    },
+    {
+      "path": ".github/workflows/pre-commit.yml",
+      "size": 839
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Sample code and application showcases to get you going with AG2 (formally AutoGen)",
+    "fork": false,
+    "full_name": "ag2ai/build-with-ag2",
+    "html_url": "https://github.com/ag2ai/build-with-ag2",
+    "language": "Python",
+    "pushed_at": "2026-04-29T23:22:31Z",
+    "stargazers_count": 229,
+    "topics": [],
+    "updated_at": "2026-04-29T23:22:36Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "airtai/prompt-leakage-probing",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cmbagents/cmbagent",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "emergenceai/agent-e",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jk10001/aquainsightai",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "\"Git LFS Check\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lfs-check.yml",
+      "term": "Git LFS Check"
+    },
+    {
+      "context_snippet": "Code formatting",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pre-commit.yml",
+      "term": "Code formatting"
+    }
+  ]
+}

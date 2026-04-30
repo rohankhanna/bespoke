@@ -1,0 +1,203 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/cache@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "supranational/sppark",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "supranational/sppark",
+      "target": "actions/cache@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "supranational/sppark",
+      "target": "test-build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "supranational/sppark",
+      "target": "bls12-377",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "supranational/sppark",
+      "target": "bls12-381",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "supranational/sppark",
+      "target": "cuda",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "supranational/sppark",
+      "target": "pasta-curves",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "supranational/sppark",
+      "target": "rocm",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "supranational/sppark",
+      "target": "zero-knowledge",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "supranational/sppark",
+      "target": "zero-knowledge-proofs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "supranational/sppark",
+      "target": "zk-snarks",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "supranational/sppark",
+      "target": "zk-starks",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T04:52:23.215644+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3657
+    },
+    {
+      "path": "go.mod",
+      "size": 88
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 4987
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Zero-knowledge template library",
+    "fork": false,
+    "full_name": "supranational/sppark",
+    "html_url": "https://github.com/supranational/sppark",
+    "language": "Cuda",
+    "pushed_at": "2026-04-28T18:13:53Z",
+    "stargazers_count": 217,
+    "topics": [
+      "bls12-377",
+      "bls12-381",
+      "cuda",
+      "ntt",
+      "pasta-curves",
+      "rocm",
+      "zero-knowledge",
+      "zero-knowledge-proofs",
+      "zk-snarks",
+      "zk-starks"
+    ],
+    "updated_at": "2026-04-28T18:13:57Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "test-build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "term": "test-build"
+    },
+    {
+      "context_snippet": "sppark (pronounced 'spark') is **S**upranational's **p**erformance **p**rimitives for **ar**guments of **k**nowledge such as SNARKs and STARKs. The library focuses on accelerating the most computationally expensive pieces of zero-knowledge proofs generation such as multi-scalar \u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bls12-377"
+    },
+    {
+      "context_snippet": "sppark (pronounced 'spark') is **S**upranational's **p**erformance **p**rimitives for **ar**guments of **k**nowledge such as SNARKs and STARKs. The library focuses on accelerating the most computationally expensive pieces of zero-knowledge proofs generation such as multi-scalar \u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bls12-381"
+    },
+    {
+      "context_snippet": "sppark (pronounced 'spark') is **S**upranational's **p**erformance **p**rimitives for **ar**guments of **k**nowledge such as SNARKs and STARKs. The library focuses on accelerating the most computationally expensive pieces of zero-knowledge proofs generation such as multi-scalar \u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cuda"
+    },
+    {
+      "context_snippet": "sppark (pronounced 'spark') is **S**upranational's **p**erformance **p**rimitives for **ar**guments of **k**nowledge such as SNARKs and STARKs. The library focuses on accelerating the most computationally expensive pieces of zero-knowledge proofs generation such as multi-scalar \u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pasta-curves"
+    },
+    {
+      "context_snippet": "sppark (pronounced 'spark') is **S**upranational's **p**erformance **p**rimitives for **ar**guments of **k**nowledge such as SNARKs and STARKs. The library focuses on accelerating the most computationally expensive pieces of zero-knowledge proofs generation such as multi-scalar \u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rocm"
+    },
+    {
+      "context_snippet": "sppark (pronounced 'spark') is **S**upranational's **p**erformance **p**rimitives for **ar**guments of **k**nowledge such as SNARKs and STARKs. The library focuses on accelerating the most computationally expensive pieces of zero-knowledge proofs generation such as multi-scalar \u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "zero-knowledge"
+    },
+    {
+      "context_snippet": "sppark (pronounced 'spark') is **S**upranational's **p**erformance **p**rimitives for **ar**guments of **k**nowledge such as SNARKs and STARKs. The library focuses on accelerating the most computationally expensive pieces of zero-knowledge proofs generation such as multi-scalar \u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "zero-knowledge-proofs"
+    },
+    {
+      "context_snippet": "sppark (pronounced 'spark') is **S**upranational's **p**erformance **p**rimitives for **ar**guments of **k**nowledge such as SNARKs and STARKs. The library focuses on accelerating the most computationally expensive pieces of zero-knowledge proofs generation such as multi-scalar \u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "zk-snarks"
+    },
+    {
+      "context_snippet": "sppark (pronounced 'spark') is **S**upranational's **p**erformance **p**rimitives for **ar**guments of **k**nowledge such as SNARKs and STARKs. The library focuses on accelerating the most computationally expensive pieces of zero-knowledge proofs generation such as multi-scalar \u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "zk-starks"
+    }
+  ]
+}

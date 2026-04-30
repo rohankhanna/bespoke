@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Webpack plugin to auto inject version into html or file"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Adds version from package.json into every single file as top comment block."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Adds version from package.json into every single file as top comment block."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "inject-webpack",
+      "sense_id": "inject-webpack#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "inject-webpack",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "inject-webpack",
+  "observation_id": "e573357fe981063a",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T00:37:16.824464+00:00",
+  "observed_text": "inject-webpack",
+  "source_context_snippet": "Adds version from package.json into every single file as top comment block.",
+  "source_file": null,
+  "source_repo": "radswiat/webpack-auto-inject-version",
+  "source_repo_description": "Webpack plugin to auto inject version into html or file"
+}

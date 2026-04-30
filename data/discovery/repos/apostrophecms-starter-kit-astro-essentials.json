@@ -10,20 +10,13 @@
     },
     {
       "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "apostrophecms/starter-kit-astro-essentials",
-      "target": "apostrophecms/apostrophe-astro",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
       "source_file": "package.json",
       "source_repo": "apostrophecms/starter-kit-astro-essentials",
       "target": "apostrophecms/combined-astro-starter-kit",
       "target_type": "repository"
     }
   ],
-  "fetched_at": "2026-04-29T21:46:24.682208+00:00",
+  "fetched_at": "2026-04-30T03:48:19.966220+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -52,11 +45,6 @@
     {
       "edge_type": "explicit-github-link",
       "full_name": "apostrophecms/apollo",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "apostrophecms/apostrophe-astro",
       "source_file": "README.md"
     },
     {

@@ -1,0 +1,35 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T03:04:21.871184+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 66590
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 1510
+    },
+    {
+      "path": "requirements.txt",
+      "size": 120
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A client to lollms server written in python",
+    "fork": false,
+    "full_name": "ParisNeo/lollms_client",
+    "html_url": "https://github.com/ParisNeo/lollms_client",
+    "language": "Python",
+    "pushed_at": "2026-04-28T07:44:03Z",
+    "stargazers_count": 8,
+    "topics": [],
+    "updated_at": "2026-04-28T07:44:07Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

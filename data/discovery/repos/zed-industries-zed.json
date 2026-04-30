@@ -1,0 +1,586 @@
+{
+  "components": [
+    {
+      "component": "actions/github-script@60a0d83039c74a4aee543508d2ffcb1c3799cdea",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/add_commented_closed_issue_to_project.yml"
+    },
+    {
+      "component": "actions/create-github-app-token@f8d387b68d61c58ab83c6c016672934102569859",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/add_commented_closed_issue_to_project.yml"
+    },
+    {
+      "component": "actions/github-script@60a0d83039c74a4aee543508d2ffcb1c3799cdea",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/add_commented_closed_issue_to_project.yml"
+    },
+    {
+      "component": "actions/add-to-project@244f685bbc3b7adfa8466e08b698b5577571133e",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/add_commented_closed_issue_to_project.yml"
+    },
+    {
+      "component": "actions/checkout@93cb6efe18208431cddfb8368fd83d5badbf9bfd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/after_release.yml"
+    },
+    {
+      "component": "2428392/gh-truncate-string-action@b3ff790d21cf42af3ca7579146eedb93c8fb0757",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/after_release.yml"
+    },
+    {
+      "component": "tsickert/discord-webhook@c840d45a03a323fbc3f7507ac7769dbd91bfb164",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/after_release.yml"
+    },
+    {
+      "component": "vedantmgoyal9/winget-releaser@19e706d4c9121098010096f9c495a70a7518b30f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/after_release.yml"
+    },
+    {
+      "component": "actions/checkout@93cb6efe18208431cddfb8368fd83d5badbf9bfd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/after_release.yml"
+    },
+    {
+      "component": "getsentry/action-release@526942b68292201ac6bbb99b9a0747d4abee354c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/after_release.yml"
+    },
+    {
+      "component": "actions/create-github-app-token@f8d387b68d61c58ab83c6c016672934102569859",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/assign-reviewers.yml"
+    },
+    {
+      "component": "actions/checkout@93cb6efe18208431cddfb8368fd83d5badbf9bfd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/assign-reviewers.yml"
+    },
+    {
+      "component": "actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/assign-reviewers.yml"
+    },
+    {
+      "component": "actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/assign-reviewers.yml"
+    },
+    {
+      "component": "actions/create-github-app-token@f8d387b68d61c58ab83c6c016672934102569859",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/assign_contributor_issue.yml"
+    },
+    {
+      "component": "actions/checkout@93cb6efe18208431cddfb8368fd83d5badbf9bfd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/assign_contributor_issue.yml"
+    },
+    {
+      "component": "actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/assign_contributor_issue.yml"
+    },
+    {
+      "component": "actions/checkout@93cb6efe18208431cddfb8368fd83d5badbf9bfd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/autofix_pr.yml"
+    },
+    {
+      "component": "namespacelabs/nscloud-cache-action@a90bb5d4b27522ce881c6e98eebd7d7e6d1653f9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/autofix_pr.yml"
+    },
+    {
+      "component": "pnpm/action-setup@fe02b34f77f8bc703788d5817da081398fad5dd2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/autofix_pr.yml"
+    },
+    {
+      "component": "taiki-e/install-action@02cc5f8ca9f2301050c0c099055816a41ee05507",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/autofix_pr.yml"
+    },
+    {
+      "component": "actions/upload-artifact@330a01c490aca151604b8cf639adc76d48f6c5d4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/autofix_pr.yml"
+    },
+    {
+      "component": "actions/create-github-app-token@f8d387b68d61c58ab83c6c016672934102569859",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/autofix_pr.yml"
+    },
+    {
+      "component": "actions/checkout@93cb6efe18208431cddfb8368fd83d5badbf9bfd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/autofix_pr.yml"
+    },
+    {
+      "component": "actions/download-artifact@018cc2cf5baa6db3ef3c5f8a56943fffe632ef53",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/autofix_pr.yml"
+    },
+    {
+      "component": "actions/checkout@93cb6efe18208431cddfb8368fd83d5badbf9bfd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/background_agent_mvp.yml"
+    },
+    {
+      "component": "actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/background_agent_mvp.yml"
+    },
+    {
+      "component": "actions/checkout@93cb6efe18208431cddfb8368fd83d5badbf9bfd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bump_collab_staging.yml"
+    },
+    {
+      "component": "actions/create-github-app-token@f8d387b68d61c58ab83c6c016672934102569859",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bump_patch_version.yml"
+    },
+    {
+      "component": "actions/checkout@93cb6efe18208431cddfb8368fd83d5badbf9bfd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bump_patch_version.yml"
+    },
+    {
+      "component": "taiki-e/install-action@02cc5f8ca9f2301050c0c099055816a41ee05507",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bump_patch_version.yml"
+    },
+    {
+      "component": "IAreKyleW00t/verified-bot-commit@126a6a11889ab05bcff72ec2403c326cd249b84c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bump_patch_version.yml"
+    },
+    {
+      "component": "actions/github-script@f28e40c7f34bde8b3046d885e986cb6290c5673b",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bump_patch_version.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "Cargo.toml",
+      "source_repo": "zed-industries/zed",
+      "target": "rustaudio/rodio",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "Cargo.toml",
+      "source_repo": "zed-industries/zed",
+      "target": "microsoft/python-environment-tools",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "Cargo.toml",
+      "source_repo": "zed-industries/zed",
+      "target": "camdencheek/tree-sitter-go-mod",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "Cargo.toml",
+      "source_repo": "zed-industries/zed",
+      "target": "smol-rs/async-task",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/add_commented_closed_issue_to_project.yml",
+      "source_repo": "zed-industries/zed",
+      "target": "actions/github-script@60a0d83039c74a4aee543508d2ffcb1c3799cdea",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/add_commented_closed_issue_to_project.yml",
+      "source_repo": "zed-industries/zed",
+      "target": "actions/create-github-app-token@f8d387b68d61c58ab83c6c016672934102569859",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/add_commented_closed_issue_to_project.yml",
+      "source_repo": "zed-industries/zed",
+      "target": "actions/add-to-project@244f685bbc3b7adfa8466e08b698b5577571133e",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/add_commented_closed_issue_to_project.yml",
+      "source_repo": "zed-industries/zed",
+      "target": "Surface closed issues someone's commented on",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/after_release.yml",
+      "source_repo": "zed-industries/zed",
+      "target": "actions/checkout@93cb6efe18208431cddfb8368fd83d5badbf9bfd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/after_release.yml",
+      "source_repo": "zed-industries/zed",
+      "target": "2428392/gh-truncate-string-action@b3ff790d21cf42af3ca7579146eedb93c8fb0757",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/after_release.yml",
+      "source_repo": "zed-industries/zed",
+      "target": "tsickert/discord-webhook@c840d45a03a323fbc3f7507ac7769dbd91bfb164",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/after_release.yml",
+      "source_repo": "zed-industries/zed",
+      "target": "vedantmgoyal9/winget-releaser@19e706d4c9121098010096f9c495a70a7518b30f",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/after_release.yml",
+      "source_repo": "zed-industries/zed",
+      "target": "getsentry/action-release@526942b68292201ac6bbb99b9a0747d4abee354c",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/assign-reviewers.yml",
+      "source_repo": "zed-industries/zed",
+      "target": "actions/create-github-app-token@f8d387b68d61c58ab83c6c016672934102569859",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/assign-reviewers.yml",
+      "source_repo": "zed-industries/zed",
+      "target": "actions/checkout@93cb6efe18208431cddfb8368fd83d5badbf9bfd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/assign-reviewers.yml",
+      "source_repo": "zed-industries/zed",
+      "target": "actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/assign-reviewers.yml",
+      "source_repo": "zed-industries/zed",
+      "target": "actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/assign-reviewers.yml",
+      "source_repo": "zed-industries/zed",
+      "target": "Assign Reviewers",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/assign_contributor_issue.yml",
+      "source_repo": "zed-industries/zed",
+      "target": "actions/create-github-app-token@f8d387b68d61c58ab83c6c016672934102569859",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/assign_contributor_issue.yml",
+      "source_repo": "zed-industries/zed",
+      "target": "actions/checkout@93cb6efe18208431cddfb8368fd83d5badbf9bfd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/assign_contributor_issue.yml",
+      "source_repo": "zed-industries/zed",
+      "target": "actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/assign_contributor_issue.yml",
+      "source_repo": "zed-industries/zed",
+      "target": "Assign Contributor Issue",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/autofix_pr.yml",
+      "source_repo": "zed-industries/zed",
+      "target": "actions/checkout@93cb6efe18208431cddfb8368fd83d5badbf9bfd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/autofix_pr.yml",
+      "source_repo": "zed-industries/zed",
+      "target": "namespacelabs/nscloud-cache-action@a90bb5d4b27522ce881c6e98eebd7d7e6d1653f9",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/autofix_pr.yml",
+      "source_repo": "zed-industries/zed",
+      "target": "pnpm/action-setup@fe02b34f77f8bc703788d5817da081398fad5dd2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/autofix_pr.yml",
+      "source_repo": "zed-industries/zed",
+      "target": "taiki-e/install-action@02cc5f8ca9f2301050c0c099055816a41ee05507",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/autofix_pr.yml",
+      "source_repo": "zed-industries/zed",
+      "target": "actions/upload-artifact@330a01c490aca151604b8cf639adc76d48f6c5d4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/autofix_pr.yml",
+      "source_repo": "zed-industries/zed",
+      "target": "actions/create-github-app-token@f8d387b68d61c58ab83c6c016672934102569859",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/autofix_pr.yml",
+      "source_repo": "zed-industries/zed",
+      "target": "actions/download-artifact@018cc2cf5baa6db3ef3c5f8a56943fffe632ef53",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/background_agent_mvp.yml",
+      "source_repo": "zed-industries/zed",
+      "target": "actions/checkout@93cb6efe18208431cddfb8368fd83d5badbf9bfd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/background_agent_mvp.yml",
+      "source_repo": "zed-industries/zed",
+      "target": "actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bump_collab_staging.yml",
+      "source_repo": "zed-industries/zed",
+      "target": "actions/checkout@93cb6efe18208431cddfb8368fd83d5badbf9bfd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/bump_collab_staging.yml",
+      "source_repo": "zed-industries/zed",
+      "target": "Bump collab-staging Tag",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bump_patch_version.yml",
+      "source_repo": "zed-industries/zed",
+      "target": "actions/create-github-app-token@f8d387b68d61c58ab83c6c016672934102569859",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bump_patch_version.yml",
+      "source_repo": "zed-industries/zed",
+      "target": "actions/checkout@93cb6efe18208431cddfb8368fd83d5badbf9bfd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bump_patch_version.yml",
+      "source_repo": "zed-industries/zed",
+      "target": "taiki-e/install-action@02cc5f8ca9f2301050c0c099055816a41ee05507",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bump_patch_version.yml",
+      "source_repo": "zed-industries/zed",
+      "target": "IAreKyleW00t/verified-bot-commit@126a6a11889ab05bcff72ec2403c326cd249b84c",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bump_patch_version.yml",
+      "source_repo": "zed-industries/zed",
+      "target": "actions/github-script@f28e40c7f34bde8b3046d885e986cb6290c5673b",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "zed-industries/zed",
+      "target": "gpui",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "zed-industries/zed",
+      "target": "rust-lang",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "zed-industries/zed",
+      "target": "text-editor",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T03:02:09.016320+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2737
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 34918
+    },
+    {
+      "path": ".github/workflows/add_commented_closed_issue_to_project.yml",
+      "size": 3361
+    },
+    {
+      "path": ".github/workflows/after_release.yml",
+      "size": 5436
+    },
+    {
+      "path": ".github/workflows/assign-reviewers.yml",
+      "size": 4489
+    },
+    {
+      "path": ".github/workflows/assign_contributor_issue.yml",
+      "size": 2408
+    },
+    {
+      "path": ".github/workflows/autofix_pr.yml",
+      "size": 4738
+    },
+    {
+      "path": ".github/workflows/background_agent_mvp.yml",
+      "size": 13225
+    },
+    {
+      "path": ".github/workflows/bump_collab_staging.yml",
+      "size": 684
+    },
+    {
+      "path": ".github/workflows/bump_patch_version.yml",
+      "size": 2981
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Code at the speed of thought \u2013 Zed is a high-performance, multiplayer code editor from the creators of Atom and Tree-sitter.",
+    "fork": false,
+    "full_name": "zed-industries/zed",
+    "html_url": "https://github.com/zed-industries/zed",
+    "language": "Rust",
+    "pushed_at": "2026-04-29T17:21:23Z",
+    "stargazers_count": 80446,
+    "topics": [
+      "gpui",
+      "rust-lang",
+      "text-editor",
+      "zed"
+    ],
+    "updated_at": "2026-04-30T02:57:39Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "camdencheek/tree-sitter-go-mod",
+      "source_file": "Cargo.toml"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "microsoft/python-environment-tools",
+      "source_file": "Cargo.toml"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "rustaudio/rodio",
+      "source_file": "Cargo.toml"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "smol-rs/async-task",
+      "source_file": "Cargo.toml"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "\"Surface closed issues someone's commented on\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/add_commented_closed_issue_to_project.yml",
+      "term": "Surface closed issues someone's commented on"
+    },
+    {
+      "context_snippet": "Assign Reviewers",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/assign-reviewers.yml",
+      "term": "Assign Reviewers"
+    },
+    {
+      "context_snippet": "Assign Contributor Issue",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/assign_contributor_issue.yml",
+      "term": "Assign Contributor Issue"
+    },
+    {
+      "context_snippet": "Bump collab-staging Tag",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/bump_collab_staging.yml",
+      "term": "Bump collab-staging Tag"
+    },
+    {
+      "context_snippet": "[![Zed](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/zed-industries/zed/main/assets/badge/v0.json)](https://zed.dev)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gpui"
+    },
+    {
+      "context_snippet": "[![Zed](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/zed-industries/zed/main/assets/badge/v0.json)](https://zed.dev)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rust-lang"
+    },
+    {
+      "context_snippet": "[![Zed](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/zed-industries/zed/main/assets/badge/v0.json)](https://zed.dev)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "text-editor"
+    }
+  ]
+}

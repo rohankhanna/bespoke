@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "CLI to list conventional commit types."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "CLI to list conventional commit types per https://github.com/commitizen/conventional-commit-types."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "CLI to list conventional commit types per https://github.com/commitizen/conventional-commit-types."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10051161,
+      "status": "candidate",
+      "text": "entrust"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10049161,
+      "status": "candidate",
+      "text": "trust"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10047980,
+      "status": "candidate",
+      "text": "confide"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10047050,
+      "status": "candidate",
+      "text": "give"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10045363,
+      "status": "candidate",
+      "text": "devote"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "commits",
+      "sense_id": "commits#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "commits",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "commits",
+  "observation_id": "40edde4997de3196",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T00:37:16.824464+00:00",
+  "observed_text": "commits",
+  "source_context_snippet": "CLI to list conventional commit types per https://github.com/commitizen/conventional-commit-types.",
+  "source_file": null,
+  "source_repo": "AndersDJohnson/conventional-commit-types-cli",
+  "source_repo_description": "CLI to list conventional commit types."
+}

@@ -1,0 +1,121 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "danielrosehill/Deployments-Index",
+      "target": "danielrosehill/github-master-index",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "danielrosehill/Deployments-Index",
+      "target": "danielrosehill/open-claw-stack",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "danielrosehill/Deployments-Index",
+      "target": "danielrosehill/red-alert-monitoring-stack",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "danielrosehill/Deployments-Index",
+      "target": "danielrosehill/openwebui-postgres-qdrant",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "danielrosehill/Deployments-Index",
+      "target": "compose",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "danielrosehill/Deployments-Index",
+      "target": "docker",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "danielrosehill/Deployments-Index",
+      "target": "infrastructure",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T01:02:50.492206+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1850
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Stacks and deployment documentation and compose files",
+    "fork": false,
+    "full_name": "danielrosehill/Deployments-Index",
+    "html_url": "https://github.com/danielrosehill/Deployments-Index",
+    "language": null,
+    "pushed_at": "2026-04-03T14:39:38Z",
+    "stargazers_count": 0,
+    "topics": [
+      "compose",
+      "docker",
+      "infrastructure"
+    ],
+    "updated_at": "2026-04-03T14:39:42Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "danielrosehill/github-master-index",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "danielrosehill/open-claw-stack",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "danielrosehill/openwebui-postgres-qdrant",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "danielrosehill/red-alert-monitoring-stack",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[![Master Index](https://img.shields.io/badge/Master_Index-GitHub-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Github-Master-Index)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "compose"
+    },
+    {
+      "context_snippet": "[![Master Index](https://img.shields.io/badge/Master_Index-GitHub-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Github-Master-Index)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "docker"
+    },
+    {
+      "context_snippet": "[![Master Index](https://img.shields.io/badge/Master_Index-GitHub-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Github-Master-Index)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "infrastructure"
+    }
+  ]
+}

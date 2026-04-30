@@ -26,13 +26,6 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "logpai/Drain3",
-      "target": "logpai/logparser",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "logpai/Drain3",
       "target": "ibm/drain3",
       "target_type": "repository"
     },
@@ -114,7 +107,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-29T20:51:56.852354+00:00",
+  "fetched_at": "2026-04-30T02:45:32.845530+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -157,11 +150,6 @@
     {
       "edge_type": "explicit-github-link",
       "full_name": "ibm/drain3",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "logpai/logparser",
       "source_file": "README.md"
     }
   ],

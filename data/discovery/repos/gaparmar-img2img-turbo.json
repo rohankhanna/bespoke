@@ -1,0 +1,104 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "GaParmar/img2img-turbo",
+      "target": "computer-vision",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "GaParmar/img2img-turbo",
+      "target": "deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "GaParmar/img2img-turbo",
+      "target": "generative-adversarial-network",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "GaParmar/img2img-turbo",
+      "target": "generative-art",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "GaParmar/img2img-turbo",
+      "target": "stable-diffusion",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T03:52:03.603824+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8443
+    },
+    {
+      "path": "requirements.txt",
+      "size": 308
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "One-step image-to-image with Stable Diffusion turbo: sketch2image, day2night, and more",
+    "fork": false,
+    "full_name": "GaParmar/img2img-turbo",
+    "html_url": "https://github.com/GaParmar/img2img-turbo",
+    "language": "Python",
+    "pushed_at": "2025-08-01T20:39:35Z",
+    "stargazers_count": 2429,
+    "topics": [
+      "computer-vision",
+      "deep-learning",
+      "generative-adversarial-network",
+      "generative-art",
+      "stable-diffusion"
+    ],
+    "updated_at": "2026-04-29T13:40:17Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "[**Paper**](https://arxiv.org/abs/2403.12036) | [**Sketch2Image Demo**](https://huggingface.co/spaces/gparmar/img2img-turbo-sketch)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "computer-vision"
+    },
+    {
+      "context_snippet": "[**Paper**](https://arxiv.org/abs/2403.12036) | [**Sketch2Image Demo**](https://huggingface.co/spaces/gparmar/img2img-turbo-sketch)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-learning"
+    },
+    {
+      "context_snippet": "[**Paper**](https://arxiv.org/abs/2403.12036) | [**Sketch2Image Demo**](https://huggingface.co/spaces/gparmar/img2img-turbo-sketch)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "generative-adversarial-network"
+    },
+    {
+      "context_snippet": "[**Paper**](https://arxiv.org/abs/2403.12036) | [**Sketch2Image Demo**](https://huggingface.co/spaces/gparmar/img2img-turbo-sketch)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "generative-art"
+    },
+    {
+      "context_snippet": "[**Paper**](https://arxiv.org/abs/2403.12036) | [**Sketch2Image Demo**](https://huggingface.co/spaces/gparmar/img2img-turbo-sketch)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "stable-diffusion"
+    }
+  ]
+}

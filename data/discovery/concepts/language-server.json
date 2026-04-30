@@ -259,6 +259,90 @@
       "source_repo": "elm-tooling/elm-language-server",
       "status": "candidate-context",
       "text": "![Matrix](https://img.shields.io/matrix/elm-language-server:matrix.org?label=Matrix%20chat&logo=Matrix)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "microsoft/python-language-server",
+      "status": "candidate-context",
+      "text": "Microsoft Language Server for Python"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/python-language-server",
+      "status": "candidate-context",
+      "text": "Microsoft Python Language Server implements the [Language Server Protocol](https://microsoft.github.io/language-server-protocol/specification)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mtshiba/pylyzer",
+      "status": "candidate-context",
+      "text": "A fast, feature-rich static code analyzer & language server for Python"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mtshiba/pylyzer",
+      "status": "candidate-context",
+      "text": "> [!IMPORTANT]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "elm-tooling/elm-language-client-vscode",
+      "status": "candidate-context",
+      "text": "Improving your Elm experience since 2019"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "elm-tooling/elm-language-client-vscode",
+      "status": "candidate-context",
+      "text": "[![Version](https://vsmarketplacebadge.apphb.com/version/Elmtooling.elm-ls-vscode.png)](https://marketplace.visualstudio.com/items?itemName=Elmtooling.elm-ls-vscode)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Alloyed/lua-lsp",
+      "status": "candidate-context",
+      "text": "A Lua language server"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Alloyed/lua-lsp",
+      "status": "candidate-context",
+      "text": "A Lua language server"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "artempyanykh/marksman",
+      "status": "candidate-context",
+      "text": "Write Markdown with code assist and intelligence in the comfort of your favourite editor."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "artempyanykh/marksman",
+      "status": "candidate-context",
+      "text": "[![Build & Test](https://github.com/artempyanykh/marksman/actions/workflows/build.yml/badge.svg)](https://github.com/artempyanykh/marksman/actions/workflows/build.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "astoff/digestif",
+      "status": "candidate-context",
+      "text": "A language server for TeX and friends"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "astoff/digestif",
+      "status": "candidate-context",
+      "text": "Digestif"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JohnnyMorganz/luau-lsp",
+      "status": "candidate-context",
+      "text": "Language Server Implementation for Luau"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JohnnyMorganz/luau-lsp",
+      "status": "candidate-context",
+      "text": "An implementation of a language server for the [Luau](https://github.com/Roblox/luau) programming language."
     }
   ],
   "candidate_glosses": [
@@ -387,6 +471,48 @@
       "source_repo": "elm-tooling/elm-language-server",
       "status": "candidate",
       "text": "![Matrix](https://img.shields.io/matrix/elm-language-server:matrix.org?label=Matrix%20chat&logo=Matrix)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/python-language-server",
+      "status": "candidate",
+      "text": "Microsoft Python Language Server implements the [Language Server Protocol](https://microsoft.github.io/language-server-protocol/specification)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mtshiba/pylyzer",
+      "status": "candidate",
+      "text": "> [!IMPORTANT]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "elm-tooling/elm-language-client-vscode",
+      "status": "candidate",
+      "text": "[![Version](https://vsmarketplacebadge.apphb.com/version/Elmtooling.elm-ls-vscode.png)](https://marketplace.visualstudio.com/items?itemName=Elmtooling.elm-ls-vscode)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Alloyed/lua-lsp",
+      "status": "candidate",
+      "text": "A Lua language server"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "artempyanykh/marksman",
+      "status": "candidate",
+      "text": "[![Build & Test](https://github.com/artempyanykh/marksman/actions/workflows/build.yml/badge.svg)](https://github.com/artempyanykh/marksman/actions/workflows/build.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "astoff/digestif",
+      "status": "candidate",
+      "text": "Digestif"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JohnnyMorganz/luau-lsp",
+      "status": "candidate",
+      "text": "An implementation of a language server for the [Luau](https://github.com/Roblox/luau) programming language."
     }
   ],
   "candidate_related_terms": [],
@@ -550,11 +676,71 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "elm-tooling/elm-language-server"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "microsoft/python-language-server"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "neovim/nvim-lspconfig"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "LuaLS/lua-language-server"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "typescript-language-server/typescript-language-server"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "mtshiba/pylyzer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "elm-tooling/elm-language-client-vscode"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "Alloyed/lua-lsp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "artempyanykh/marksman"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "astoff/digestif"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "JohnnyMorganz/luau-lsp"
     }
   ],
   "first_seen_at": "2026-04-18T11:57:36.597358+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

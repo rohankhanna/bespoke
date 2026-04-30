@@ -94,6 +94,30 @@
       "source_repo": "huggingface/sentence-transformers",
       "status": "candidate-context",
       "text": "Quality"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "auth0/open-source-template",
+      "status": "candidate-context",
+      "text": "A template for open source projects at Auth0"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "auth0/open-source-template",
+      "status": "candidate-context",
+      "text": "This repo contains sample files to be used in Auth0 open source software repositories. These files are guidelines that can be used in an Auth0 or any open source project to ensure that the project is described properly, the contribution process is clear, and additional tools lik\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jfmengels/elm-review",
+      "status": "candidate-context",
+      "text": "Analyzes Elm projects, to help find mistakes before your users find them."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jfmengels/elm-review",
+      "status": "candidate-context",
+      "text": "`elm-review` analyzes [Elm](https://elm-lang.org/) projects, to help find mistakes before your users find them."
     }
   ],
   "candidate_glosses": [
@@ -138,6 +162,18 @@
       "source_repo": "huggingface/sentence-transformers",
       "status": "candidate",
       "text": "Quality"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "auth0/open-source-template",
+      "status": "candidate",
+      "text": "This repo contains sample files to be used in Auth0 open source software repositories. These files are guidelines that can be used in an Auth0 or any open source project to ensure that the project is described properly, the contribution process is clear, and additional tools lik\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jfmengels/elm-review",
+      "status": "candidate",
+      "text": "`elm-review` analyzes [Elm](https://elm-lang.org/) projects, to help find mistakes before your users find them."
     }
   ],
   "candidate_related_terms": [
@@ -271,11 +307,23 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": ".github/workflows/quality.yml",
       "source_repo": "vercel/ms"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "auth0/open-source-template"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "jfmengels/elm-review"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

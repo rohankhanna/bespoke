@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T02:00:01.043839+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7895
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Fast Diffusion Models with Transformers",
+    "fork": false,
+    "full_name": "chuanyangjin/fast-DiT",
+    "html_url": "https://github.com/chuanyangjin/fast-DiT",
+    "language": "Python",
+    "pushed_at": "2025-08-17T19:39:28Z",
+    "stargazers_count": 943,
+    "topics": [],
+    "updated_at": "2026-04-29T09:25:06Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

@@ -141,6 +141,90 @@
       "source_repo": "PaddlePaddle/Paddle2ONNX",
       "status": "candidate-context",
       "text": "\u7b80\u4f53\u4e2d\u6587 | [English](README_en.md)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "fabio-sim/Depth-Anything-ONNX",
+      "status": "candidate-context",
+      "text": "ONNX-compatible Depth Anything: Unleashing the Power of Large-Scale Unlabeled Data"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fabio-sim/Depth-Anything-ONNX",
+      "status": "candidate-context",
+      "text": "[![ONNX](https://img.shields.io/badge/ONNX-grey)](https://onnx.ai/)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lemonade-sdk/lemonade",
+      "status": "candidate-context",
+      "text": "Lemonade helps users discover and run local AI apps by serving optimized LLMs right from their own GPUs and NPUs. Join our discord: https://discord.gg/5xXzkMu8Zk"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lemonade-sdk/lemonade",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "zhiqwang/yolort",
+      "status": "candidate-context",
+      "text": "yolort is a runtime stack for yolov5 on specialized accelerators such as tensorrt, libtorch, onnxruntime, tvm and ncnn."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "zhiqwang/yolort",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "CVHub520/X-AnyLabeling",
+      "status": "candidate-context",
+      "text": "Effortless data labeling with AI support from Segment Anything and other awesome models."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "CVHub520/X-AnyLabeling",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "DanielSarmiento04/yolov10cpp",
+      "status": "candidate-context",
+      "text": "Implementation of yolo v10 in c++ std 17 over opencv and onnxruntime"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DanielSarmiento04/yolov10cpp",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">Yolo V10 cpp</h1>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ppogg/YOLOv5-Lite",
+      "status": "candidate-context",
+      "text": "\ud83c\udf45\ud83c\udf45\ud83c\udf45YOLOv5-Lite: Evolved from yolov5 and the size of model is only 900+kb (int8) and 1.7M (fp16). Reach 15 FPS on the Raspberry Pi 4B~"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ppogg/YOLOv5-Lite",
+      "status": "candidate-context",
+      "text": "![\u8bba\u6587\u63d2\u56fe](https://user-images.githubusercontent.com/82716366/167448925-a431d3a4-ad5d-491d-be95-c90701122a54.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ibaiGorordo/ONNX-SAM2-Segment-Anything",
+      "status": "candidate-context",
+      "text": "Python scripts for the Segment Anythin 2 (SAM2) model in ONNX"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ibaiGorordo/ONNX-SAM2-Segment-Anything",
+      "status": "candidate-context",
+      "text": "![!ONNX-SAM2-Segment-Anything](https://github.com/ibaiGorordo/ONNX-SAM2-Segment-Anything/raw/main/doc/img/sam2_mask_with_boxes.png)"
     }
   ],
   "candidate_glosses": [
@@ -209,6 +293,48 @@
       "source_repo": "PaddlePaddle/Paddle2ONNX",
       "status": "candidate",
       "text": "\u7b80\u4f53\u4e2d\u6587 | [English](README_en.md)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fabio-sim/Depth-Anything-ONNX",
+      "status": "candidate",
+      "text": "[![ONNX](https://img.shields.io/badge/ONNX-grey)](https://onnx.ai/)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lemonade-sdk/lemonade",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "zhiqwang/yolort",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "CVHub520/X-AnyLabeling",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DanielSarmiento04/yolov10cpp",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">Yolo V10 cpp</h1>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ppogg/YOLOv5-Lite",
+      "status": "candidate",
+      "text": "![\u8bba\u6587\u63d2\u56fe](https://user-images.githubusercontent.com/82716366/167448925-a431d3a4-ad5d-491d-be95-c90701122a54.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ibaiGorordo/ONNX-SAM2-Segment-Anything",
+      "status": "candidate",
+      "text": "![!ONNX-SAM2-Segment-Anything](https://github.com/ibaiGorordo/ONNX-SAM2-Segment-Anything/raw/main/doc/img/sam2_mask_with_boxes.png)"
     }
   ],
   "candidate_related_terms": [],
@@ -282,11 +408,59 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "PaddlePaddle/Paddle2ONNX"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "fabio-sim/Depth-Anything-ONNX"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "lemonade-sdk/lemonade"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "PaddlePaddle/Paddle2ONNX"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "zhiqwang/yolort"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "CVHub520/X-AnyLabeling"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "DanielSarmiento04/yolov10cpp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "ppogg/YOLOv5-Lite"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "ibaiGorordo/ONNX-SAM2-Segment-Anything"
     }
   ],
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

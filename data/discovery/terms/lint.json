@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-18T03:42:01.586113+00:00",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "sources": [
     {
       "discovered_via": "inline-code",
@@ -1476,6 +1476,231 @@
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/lint.yml",
       "source_repo": "mozilla/pdf.js"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "liquidz/iced-nrepl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "ray-x/guihua.lua"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/lint.yaml",
+      "source_repo": "nx10/unigd"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "web-infra-dev/rspress"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "reviewdog/reviewdog"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "detekt/detekt"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/lint.yaml",
+      "source_repo": "facebookresearch/dinov2"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "AnonymouX47/term-image"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "ICRAR/crc32c"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/black.yml",
+      "source_repo": "andrewyng/aisuite"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/run_pytest.yml",
+      "source_repo": "andrewyng/aisuite"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/lint.yaml",
+      "source_repo": "mozilla-ai/any-agent"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "google-deepmind/mujoco"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "kornia/kornia"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "lnx-search/lnx"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/lint.yaml",
+      "source_repo": "goharbor/harbor-helm"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "vitejs/awesome-vite"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "home-assistant/addons"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "pykeen/pykeen"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/pre-commit.yaml",
+      "source_repo": "ROCm/flash-attention"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "deepbeepmeep/Cosmos1GP"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/pre-commit.yaml",
+      "source_repo": "hao-ai-lab/flash-attention-fp4"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/lint.yaml",
+      "source_repo": "go-logr/zerologr"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/lint.yaml",
+      "source_repo": "justinas/nosurf"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "hecrj/icebreaker"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "csstools/postcss-plugins"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "succinctlabs/sp1-cluster"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "tree-sitter/tree-sitter-regex"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "rockerBOO/awesome-neovim"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "tree-sitter/tree-sitter-javascript"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "gregorias/coerce.nvim"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "apache/apisix-dashboard"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "apache/apisix-go-plugin-runner"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/golangci-lint.yml",
+      "source_repo": "apache/apisix-ingress-controller"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "web-infra-dev/rsbuild"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "web-infra-dev/rsdoctor"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "web-infra-dev/rslib"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "brave-intl/publishers"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/mdlinter.yml",
+      "source_repo": "a16z/arkworks-algebra"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "OpenBMB/CPM-Live"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "c4ffein/realworld-django-ninja"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/lint.yaml",
+      "source_repo": "humbug/php-scoper"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/Lint.yml",
+      "source_repo": "suo/lintrunner"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/lint.yaml",
+      "source_repo": "facebookresearch/dinov3"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "microsoft/pai"
     }
   ],
   "term": "lint"

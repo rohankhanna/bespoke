@@ -16,20 +16,6 @@
       "target_type": "repository"
     },
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "zai-org/CogVLM",
-      "target": "fuxiaoliu/lrv-instruction",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "zai-org/CogVLM",
-      "target": "salt-nlp/llavar",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "repo-topic",
       "source_file": null,
       "source_repo": "zai-org/CogVLM",
@@ -65,7 +51,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-29T20:45:10.438341+00:00",
+  "fetched_at": "2026-04-30T05:15:38.690501+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -86,7 +72,7 @@
     "html_url": "https://github.com/zai-org/CogVLM",
     "language": "Python",
     "pushed_at": "2024-05-29T10:01:33Z",
-    "stargazers_count": 6738,
+    "stargazers_count": 6737,
     "topics": [
       "cross-modality",
       "language-model",
@@ -94,19 +80,9 @@
       "pretrained-models",
       "visual-language-models"
     ],
-    "updated_at": "2026-04-27T20:10:05Z"
+    "updated_at": "2026-04-29T21:57:43Z"
   },
   "repo_links": [
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "fuxiaoliu/lrv-instruction",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "salt-nlp/llavar",
-      "source_file": "README.md"
-    },
     {
       "edge_type": "explicit-github-link",
       "full_name": "thudm/cogvlm",

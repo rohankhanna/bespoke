@@ -1,0 +1,404 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-on-dev.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-on-dev.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-on-dev.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sweep-build-matrix.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sweep-build-matrix.yml"
+    },
+    {
+      "component": "actions/download-artifact@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sweep-build-matrix.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sweep-build-matrix.yml"
+    },
+    {
+      "component": "actions/download-artifact@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sweep-build-matrix.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sweep-build-matrix.yml"
+    },
+    {
+      "component": "actions/download-artifact@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sweep-build-matrix.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sweep-build-matrix.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "dusty-nv/jetson-containers",
+      "target": "nvidia-ai-iot/nanoowl",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "requirements.txt",
+      "source_repo": "dusty-nv/jetson-containers",
+      "target": "granulate/dockerhub-api",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-monthly-packages.yml",
+      "source_repo": "dusty-nv/jetson-containers",
+      "target": "build-packages",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-push.yml",
+      "source_repo": "dusty-nv/jetson-containers",
+      "target": "build-push",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-on-dev.yml",
+      "source_repo": "dusty-nv/jetson-containers",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-on-dev.yml",
+      "source_repo": "dusty-nv/jetson-containers",
+      "target": "actions/upload-artifact@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr-on-dev.yml",
+      "source_repo": "dusty-nv/jetson-containers",
+      "target": "PR changed package builds",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sweep-build-matrix.yml",
+      "source_repo": "dusty-nv/jetson-containers",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sweep-build-matrix.yml",
+      "source_repo": "dusty-nv/jetson-containers",
+      "target": "actions/upload-artifact@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sweep-build-matrix.yml",
+      "source_repo": "dusty-nv/jetson-containers",
+      "target": "actions/download-artifact@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/sweep-build-matrix.yml",
+      "source_repo": "dusty-nv/jetson-containers",
+      "target": "Sweep \u2013 Build Matrix",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dusty-nv/jetson-containers",
+      "target": "containers",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dusty-nv/jetson-containers",
+      "target": "docker",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dusty-nv/jetson-containers",
+      "target": "dockerfiles",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dusty-nv/jetson-containers",
+      "target": "jetson",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dusty-nv/jetson-containers",
+      "target": "machine-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dusty-nv/jetson-containers",
+      "target": "numpy",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dusty-nv/jetson-containers",
+      "target": "nvidia",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dusty-nv/jetson-containers",
+      "target": "pandas",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dusty-nv/jetson-containers",
+      "target": "pytorch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dusty-nv/jetson-containers",
+      "target": "ros-containers",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dusty-nv/jetson-containers",
+      "target": "ros2-foxy",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dusty-nv/jetson-containers",
+      "target": "scikit-learn",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dusty-nv/jetson-containers",
+      "target": "tensorflow",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T05:10:21.571976+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 21761
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 319
+    },
+    {
+      "path": "requirements.txt",
+      "size": 156
+    },
+    {
+      "path": ".github/workflows/build-monthly-packages.yml",
+      "size": 1556
+    },
+    {
+      "path": ".github/workflows/build-push.yml",
+      "size": 1210
+    },
+    {
+      "path": ".github/workflows/pr-on-dev.yml",
+      "size": 4137
+    },
+    {
+      "path": ".github/workflows/sweep-build-matrix.yml",
+      "size": 47664
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Machine Learning Containers for NVIDIA Jetson and JetPack-L4T",
+    "fork": false,
+    "full_name": "dusty-nv/jetson-containers",
+    "html_url": "https://github.com/dusty-nv/jetson-containers",
+    "language": "Jupyter Notebook",
+    "pushed_at": "2026-04-27T09:31:45Z",
+    "stargazers_count": 4615,
+    "topics": [
+      "containers",
+      "docker",
+      "dockerfiles",
+      "jetson",
+      "machine-learning",
+      "numpy",
+      "nvidia",
+      "pandas",
+      "pytorch",
+      "ros-containers",
+      "ros2-foxy",
+      "scikit-learn",
+      "tensorflow"
+    ],
+    "updated_at": "2026-04-30T02:10:40Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "nvidia-ai-iot/nanoowl",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "granulate/dockerhub-api",
+      "source_file": "requirements.txt"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "\"build-packages\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-monthly-packages.yml",
+      "term": "build-packages"
+    },
+    {
+      "context_snippet": "\"build-push\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-push.yml",
+      "term": "build-push"
+    },
+    {
+      "context_snippet": "PR changed package builds",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr-on-dev.yml",
+      "term": "PR changed package builds"
+    },
+    {
+      "context_snippet": "Sweep \u2013 Build Matrix",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/sweep-build-matrix.yml",
+      "term": "Sweep \u2013 Build Matrix"
+    },
+    {
+      "context_snippet": "[![a header for a software project about building containers for AI and machine learning](https://raw.githubusercontent.com/dusty-nv/jetson-containers/docs/docs/images/header_blueprint_rainbow.jpg)](https://www.jetson-ai-lab.com)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "containers"
+    },
+    {
+      "context_snippet": "[![a header for a software project about building containers for AI and machine learning](https://raw.githubusercontent.com/dusty-nv/jetson-containers/docs/docs/images/header_blueprint_rainbow.jpg)](https://www.jetson-ai-lab.com)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "docker"
+    },
+    {
+      "context_snippet": "[![a header for a software project about building containers for AI and machine learning](https://raw.githubusercontent.com/dusty-nv/jetson-containers/docs/docs/images/header_blueprint_rainbow.jpg)](https://www.jetson-ai-lab.com)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dockerfiles"
+    },
+    {
+      "context_snippet": "[![a header for a software project about building containers for AI and machine learning](https://raw.githubusercontent.com/dusty-nv/jetson-containers/docs/docs/images/header_blueprint_rainbow.jpg)](https://www.jetson-ai-lab.com)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "jetson"
+    },
+    {
+      "context_snippet": "[![a header for a software project about building containers for AI and machine learning](https://raw.githubusercontent.com/dusty-nv/jetson-containers/docs/docs/images/header_blueprint_rainbow.jpg)](https://www.jetson-ai-lab.com)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "machine-learning"
+    },
+    {
+      "context_snippet": "[![a header for a software project about building containers for AI and machine learning](https://raw.githubusercontent.com/dusty-nv/jetson-containers/docs/docs/images/header_blueprint_rainbow.jpg)](https://www.jetson-ai-lab.com)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "numpy"
+    },
+    {
+      "context_snippet": "[![a header for a software project about building containers for AI and machine learning](https://raw.githubusercontent.com/dusty-nv/jetson-containers/docs/docs/images/header_blueprint_rainbow.jpg)](https://www.jetson-ai-lab.com)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nvidia"
+    },
+    {
+      "context_snippet": "[![a header for a software project about building containers for AI and machine learning](https://raw.githubusercontent.com/dusty-nv/jetson-containers/docs/docs/images/header_blueprint_rainbow.jpg)](https://www.jetson-ai-lab.com)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pandas"
+    },
+    {
+      "context_snippet": "[![a header for a software project about building containers for AI and machine learning](https://raw.githubusercontent.com/dusty-nv/jetson-containers/docs/docs/images/header_blueprint_rainbow.jpg)](https://www.jetson-ai-lab.com)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytorch"
+    },
+    {
+      "context_snippet": "[![a header for a software project about building containers for AI and machine learning](https://raw.githubusercontent.com/dusty-nv/jetson-containers/docs/docs/images/header_blueprint_rainbow.jpg)](https://www.jetson-ai-lab.com)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ros-containers"
+    },
+    {
+      "context_snippet": "[![a header for a software project about building containers for AI and machine learning](https://raw.githubusercontent.com/dusty-nv/jetson-containers/docs/docs/images/header_blueprint_rainbow.jpg)](https://www.jetson-ai-lab.com)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ros2-foxy"
+    },
+    {
+      "context_snippet": "[![a header for a software project about building containers for AI and machine learning](https://raw.githubusercontent.com/dusty-nv/jetson-containers/docs/docs/images/header_blueprint_rainbow.jpg)](https://www.jetson-ai-lab.com)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "scikit-learn"
+    },
+    {
+      "context_snippet": "[![a header for a software project about building containers for AI and machine learning](https://raw.githubusercontent.com/dusty-nv/jetson-containers/docs/docs/images/header_blueprint_rainbow.jpg)](https://www.jetson-ai-lab.com)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tensorflow"
+    }
+  ]
+}

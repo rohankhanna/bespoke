@@ -1,0 +1,136 @@
+{
+  "aliases": [
+    "vim-fall"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "vim-fall/fall.vim",
+      "status": "candidate-context",
+      "text": "\ud83c\udf42 Yet Another Fuzzy Finder designed for Vim and Neovim and to be programmer-friendly"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vim-fall/fall.vim",
+      "status": "candidate-context",
+      "text": "[![Test](https://github.com/vim-fall/fall.vim/actions/workflows/test.yml/badge.svg)](https://github.com/vim-fall/fall.vim/actions/workflows/test.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "vim-fall/deno-fall-core",
+      "status": "candidate-context",
+      "text": "Core types for Fall, a Vim/Neovim fuzzy finder plugin powered by Denops."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vim-fall/deno-fall-core",
+      "status": "candidate-context",
+      "text": "[![JSR](https://jsr.io/badges/@vim-fall/core)](https://jsr.io/@vim-fall/core)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "vim-fall/deno-fall-custom",
+      "status": "candidate-context",
+      "text": "Library to customize Fall, a Vim/Neovim fuzzy finder plugin powered by Denops."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vim-fall/deno-fall-custom",
+      "status": "candidate-context",
+      "text": "[![JSR](https://jsr.io/badges/@vim-fall/custom)](https://jsr.io/@vim-fall/custom)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "vim-fall/deno-fall-extra",
+      "status": "candidate-context",
+      "text": "Extra library for using Fall, a Vim/Neovim Fuzzy Finder plugin powered by Denops."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vim-fall/deno-fall-extra",
+      "status": "candidate-context",
+      "text": "[![JSR](https://jsr.io/badges/@vim-fall/extra)](https://jsr.io/@vim-fall/extra)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vim-fall/fall.vim",
+      "status": "candidate",
+      "text": "[![Test](https://github.com/vim-fall/fall.vim/actions/workflows/test.yml/badge.svg)](https://github.com/vim-fall/fall.vim/actions/workflows/test.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vim-fall/deno-fall-core",
+      "status": "candidate",
+      "text": "[![JSR](https://jsr.io/badges/@vim-fall/core)](https://jsr.io/@vim-fall/core)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vim-fall/deno-fall-custom",
+      "status": "candidate",
+      "text": "[![JSR](https://jsr.io/badges/@vim-fall/custom)](https://jsr.io/@vim-fall/custom)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vim-fall/deno-fall-extra",
+      "status": "candidate",
+      "text": "[![JSR](https://jsr.io/badges/@vim-fall/extra)](https://jsr.io/@vim-fall/extra)"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "vim-fall",
+  "concept_id": "vim-fall",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "vim-fall/fall.vim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "vim-fall/deno-fall-core"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "vim-fall/deno-fall-custom"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "vim-fall/deno-fall-extra"
+    }
+  ],
+  "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "vim-fall",
+      "sense_id": "vim-fall#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

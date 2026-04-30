@@ -1,0 +1,57 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mit-han-lab/hart",
+      "target": "foundationvision/var",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mit-han-lab/hart",
+      "target": "lth14/mar",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T03:52:05.310529+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4518
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 1360
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "HART: Efficient Visual Generation with Hybrid Autoregressive Transformer",
+    "fork": false,
+    "full_name": "mit-han-lab/hart",
+    "html_url": "https://github.com/mit-han-lab/hart",
+    "language": "Python",
+    "pushed_at": "2024-10-16T05:46:35Z",
+    "stargazers_count": 652,
+    "topics": [],
+    "updated_at": "2026-04-27T18:51:02Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "foundationvision/var",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "lth14/mar",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

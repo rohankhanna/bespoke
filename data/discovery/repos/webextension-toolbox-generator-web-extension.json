@@ -1,0 +1,280 @@
+{
+  "components": [
+    {
+      "component": "chalk",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "command-exists",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "slugify",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "yeoman-assert",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "yeoman-generator",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "yeoman-test",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "yosay",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "mocha",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "standard",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "yo",
+      "edge_type": "package-json:peerDependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "webextension-toolbox/generator-web-extension",
+      "target": "feross/standard",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "webextension-toolbox/generator-web-extension",
+      "target": "chalk",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "webextension-toolbox/generator-web-extension",
+      "target": "command-exists",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "webextension-toolbox/generator-web-extension",
+      "target": "slugify",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "webextension-toolbox/generator-web-extension",
+      "target": "yeoman-assert",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "webextension-toolbox/generator-web-extension",
+      "target": "yeoman-generator",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "webextension-toolbox/generator-web-extension",
+      "target": "yeoman-test",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "webextension-toolbox/generator-web-extension",
+      "target": "yosay",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "webextension-toolbox/generator-web-extension",
+      "target": "mocha",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "webextension-toolbox/generator-web-extension",
+      "target": "standard",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:peerDependencies",
+      "source_file": "package.json",
+      "source_repo": "webextension-toolbox/generator-web-extension",
+      "target": "yo",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "webextension-toolbox/generator-web-extension",
+      "target": "chrome-extension",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "webextension-toolbox/generator-web-extension",
+      "target": "edge-extension",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "webextension-toolbox/generator-web-extension",
+      "target": "firefox-extension",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "webextension-toolbox/generator-web-extension",
+      "target": "generator",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "webextension-toolbox/generator-web-extension",
+      "target": "opera-extension",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "webextension-toolbox/generator-web-extension",
+      "target": "web-extension",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "webextension-toolbox/generator-web-extension",
+      "target": "yeoman",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "webextension-toolbox/generator-web-extension",
+      "target": "yeoman-generator",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T03:44:44.391799+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2187
+    },
+    {
+      "path": "package.json",
+      "size": 1105
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Advanced WebExtension generator that creates everything you need to get started with cross-browser web-extension development.",
+    "fork": false,
+    "full_name": "webextension-toolbox/generator-web-extension",
+    "html_url": "https://github.com/webextension-toolbox/generator-web-extension",
+    "language": "JavaScript",
+    "pushed_at": "2023-03-01T11:03:40Z",
+    "stargazers_count": 315,
+    "topics": [
+      "chrome-extension",
+      "edge-extension",
+      "firefox-extension",
+      "generator",
+      "opera-extension",
+      "web-extension",
+      "yeoman",
+      "yeoman-generator"
+    ],
+    "updated_at": "2026-04-29T18:11:40Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "feross/standard",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[<img align=\"right\" src=\"./assets/icon.svg?sanitize=true\" alt=\"logo\">](https://www.npmjs.com/package/generator-web-extension)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "chrome-extension"
+    },
+    {
+      "context_snippet": "[<img align=\"right\" src=\"./assets/icon.svg?sanitize=true\" alt=\"logo\">](https://www.npmjs.com/package/generator-web-extension)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "edge-extension"
+    },
+    {
+      "context_snippet": "[<img align=\"right\" src=\"./assets/icon.svg?sanitize=true\" alt=\"logo\">](https://www.npmjs.com/package/generator-web-extension)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "firefox-extension"
+    },
+    {
+      "context_snippet": "[<img align=\"right\" src=\"./assets/icon.svg?sanitize=true\" alt=\"logo\">](https://www.npmjs.com/package/generator-web-extension)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "generator"
+    },
+    {
+      "context_snippet": "[<img align=\"right\" src=\"./assets/icon.svg?sanitize=true\" alt=\"logo\">](https://www.npmjs.com/package/generator-web-extension)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "opera-extension"
+    },
+    {
+      "context_snippet": "[<img align=\"right\" src=\"./assets/icon.svg?sanitize=true\" alt=\"logo\">](https://www.npmjs.com/package/generator-web-extension)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "web-extension"
+    },
+    {
+      "context_snippet": "[<img align=\"right\" src=\"./assets/icon.svg?sanitize=true\" alt=\"logo\">](https://www.npmjs.com/package/generator-web-extension)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "yeoman"
+    },
+    {
+      "context_snippet": "[<img align=\"right\" src=\"./assets/icon.svg?sanitize=true\" alt=\"logo\">](https://www.npmjs.com/package/generator-web-extension)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "yeoman-generator"
+    }
+  ]
+}

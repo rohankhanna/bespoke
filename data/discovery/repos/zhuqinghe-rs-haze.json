@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "zhuqinghe/RS-Haze",
+      "target": "idkiro/dehazeformer.",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T03:53:26.757382+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1153
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "zhuqinghe/RS-Haze",
+    "html_url": "https://github.com/zhuqinghe/RS-Haze",
+    "language": "Python",
+    "pushed_at": "2023-07-02T08:02:07Z",
+    "stargazers_count": 16,
+    "topics": [],
+    "updated_at": "2026-03-14T12:26:23Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "idkiro/dehazeformer.",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

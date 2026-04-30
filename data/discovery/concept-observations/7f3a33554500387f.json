@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Serial utility for flashing, provisioning, and interacting with Espressif SoCs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Bot response to issues"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Bot response to issues"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18811,
+      "status": "candidate",
+      "text": "hold"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18811,
+      "status": "candidate",
+      "text": "remedy"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18791,
+      "status": "candidate",
+      "text": "brusque"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18791,
+      "status": "candidate",
+      "text": "cementation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18791,
+      "status": "candidate",
+      "text": "coaptation"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Bot response to issues",
+      "sense_id": "bot-response-to-issues#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "bot-response-to-issues",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "bot-response-to-issues",
+  "observation_id": "7f3a33554500387f",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-30T00:37:16.824464+00:00",
+  "observed_text": "Bot response to issues",
+  "source_context_snippet": "Bot response to issues",
+  "source_file": ".github/workflows/issue_bot.yml",
+  "source_repo": "espressif/esptool",
+  "source_repo_description": "Serial utility for flashing, provisioning, and interacting with Espressif SoCs"
+}

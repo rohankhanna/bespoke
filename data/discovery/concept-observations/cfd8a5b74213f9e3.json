@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Collections of awesome neovim plugins."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Typos and Terminology Check"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Typos and Terminology Check"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 41058,
+      "status": "candidate",
+      "text": "edit"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40008,
+      "status": "candidate",
+      "text": "proof"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22537,
+      "status": "candidate",
+      "text": "vandyke"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22516,
+      "status": "candidate",
+      "text": "list"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22516,
+      "status": "candidate",
+      "text": "taste"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Typos and Terminology Check",
+      "sense_id": "typos-and-terminology-check#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "typos-and-terminology-check",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "typos-and-terminology-check",
+  "observation_id": "cfd8a5b74213f9e3",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-30T00:37:16.824464+00:00",
+  "observed_text": "Typos and Terminology Check",
+  "source_context_snippet": "Typos and Terminology Check",
+  "source_file": ".github/workflows/typos.yml",
+  "source_repo": "rockerBOO/awesome-neovim",
+  "source_repo_description": "Collections of awesome neovim plugins."
+}

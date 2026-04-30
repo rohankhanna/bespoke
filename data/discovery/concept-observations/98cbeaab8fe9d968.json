@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "yoloface\u5927\u793c\u5305  \u4f7f\u7528pytroch\u5b9e\u73b0\u7684\u57fa\u4e8eyolov3\u7684\u8f7b\u91cf\u7ea7\u4eba\u8138\u68c0\u6d4b\uff08\u5305\u542b\u5173\u952e\u70b9\uff09"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "- \u6dfb\u52a0\u5173\u952e\u70b9\u68c0\u6d4b\u5206\u652f\uff0c\u4f7f\u7528wing loss"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "- \u6dfb\u52a0\u5173\u952e\u70b9\u68c0\u6d4b\u5206\u652f\uff0c\u4f7f\u7528wing loss"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40019060,
+      "status": "candidate",
+      "text": "blowtorch"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40019040,
+      "status": "candidate",
+      "text": "blowlamp"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40011027,
+      "status": "candidate",
+      "text": "flashlight"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39848318,
+      "status": "candidate",
+      "text": "great mullein"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39838353,
+      "status": "candidate",
+      "text": "common mullein"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "torch",
+      "sense_id": "torch#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 3031,
+      "status": "candidate",
+      "text": "flashlight"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 3020,
+      "status": "candidate",
+      "text": "blowlamp"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 2029,
+      "status": "candidate",
+      "text": "blowtorch"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 1013,
+      "status": "candidate",
+      "text": "great mullein"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 13,
+      "status": "candidate",
+      "text": "common mullein"
+    }
+  ],
+  "concept_id": "torch",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "torch",
+  "observation_id": "98cbeaab8fe9d968",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T00:37:16.824464+00:00",
+  "observed_text": "torch",
+  "source_context_snippet": "- \u6dfb\u52a0\u5173\u952e\u70b9\u68c0\u6d4b\u5206\u652f\uff0c\u4f7f\u7528wing loss",
+  "source_file": null,
+  "source_repo": "DayBreak-u/yolo-face-with-landmark",
+  "source_repo_description": "yoloface\u5927\u793c\u5305  \u4f7f\u7528pytroch\u5b9e\u73b0\u7684\u57fa\u4e8eyolov3\u7684\u8f7b\u91cf\u7ea7\u4eba\u8138\u68c0\u6d4b\uff08\u5305\u542b\u5173\u952e\u70b9\uff09"
+}

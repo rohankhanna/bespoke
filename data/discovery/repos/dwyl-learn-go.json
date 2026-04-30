@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T02:54:30.479067+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 10720
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "\ud83c\udfa2 Learn the Go programming language to build simple, maintainable and performant software.",
+    "fork": false,
+    "full_name": "dwyl/learn-go",
+    "html_url": "https://github.com/dwyl/learn-go",
+    "language": "Go",
+    "pushed_at": "2026-04-20T11:57:46Z",
+    "stargazers_count": 8,
+    "topics": [],
+    "updated_at": "2026-04-20T11:57:51Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

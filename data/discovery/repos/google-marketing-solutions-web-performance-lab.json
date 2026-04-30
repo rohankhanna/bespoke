@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T02:52:40.257017+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1495
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "google-marketing-solutions/web-performance-lab",
+    "html_url": "https://github.com/google-marketing-solutions/web-performance-lab",
+    "language": "HTML",
+    "pushed_at": "2026-04-16T23:58:04Z",
+    "stargazers_count": 18,
+    "topics": [],
+    "updated_at": "2026-01-19T11:42:19Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

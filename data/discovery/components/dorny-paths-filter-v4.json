@@ -1,7 +1,7 @@
 {
   "component": "dorny/paths-filter@v4",
   "first_seen_at": "2026-04-18T03:26:22.590180+00:00",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -82,6 +82,16 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/build.yml",
       "source_repo": "PyO3/pyo3"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/config_check.yml",
+      "source_repo": "googleapis/google-cloud-go"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "pacstall/pacstall-programs"
     }
   ]
 }

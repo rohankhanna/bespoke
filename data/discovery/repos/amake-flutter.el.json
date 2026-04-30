@@ -1,0 +1,100 @@
+{
+  "components": [
+    {
+      "component": "purcell/setup-emacs@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "amake/flutter.el",
+      "target": "bradyt/dart-mode",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "amake/flutter.el",
+      "target": "purcell/setup-emacs@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "amake/flutter.el",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "amake/flutter.el",
+      "target": "emacs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "amake/flutter.el",
+      "target": "flutter",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T00:39:39.621682+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3491
+    },
+    {
+      "path": ".github/workflows/main.yml",
+      "size": 641
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Flutter tools for Emacs",
+    "fork": false,
+    "full_name": "amake/flutter.el",
+    "html_url": "https://github.com/amake/flutter.el",
+    "language": "Emacs Lisp",
+    "pushed_at": "2024-08-23T12:31:59Z",
+    "stargazers_count": 137,
+    "topics": [
+      "emacs",
+      "flutter"
+    ],
+    "updated_at": "2026-02-26T12:33:54Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "bradyt/dart-mode",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[![MELPA](https://melpa.org/packages/flutter-badge.svg)](https://melpa.org/#/flutter)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "emacs"
+    },
+    {
+      "context_snippet": "[![MELPA](https://melpa.org/packages/flutter-badge.svg)](https://melpa.org/#/flutter)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "flutter"
+    }
+  ]
+}

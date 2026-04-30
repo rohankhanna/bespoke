@@ -92,6 +92,18 @@
       "source_repo": "chawyehsu/nvm-windows",
       "status": "candidate-context",
       "text": "Publish to Winget"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dundee/gdu",
+      "status": "candidate-context",
+      "text": "Fast disk usage analyzer with console interface written in Go"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dundee/gdu",
+      "status": "candidate-context",
+      "text": "Publish to Winget"
     }
   ],
   "candidate_glosses": [
@@ -134,6 +146,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "chawyehsu/nvm-windows",
+      "status": "candidate",
+      "text": "Publish to Winget"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dundee/gdu",
       "status": "candidate",
       "text": "Publish to Winget"
     }
@@ -263,11 +281,23 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": ".github/workflows/winget.yml",
       "source_repo": "chawyehsu/nvm-windows"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/winget.yml",
+      "source_repo": "coreybutler/nvm-windows"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/winget.yml",
+      "source_repo": "dundee/gdu"
     }
   ],
   "first_seen_at": "2026-04-19T17:42:30.117329+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

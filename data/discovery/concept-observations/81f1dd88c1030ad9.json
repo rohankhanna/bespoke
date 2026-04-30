@@ -1,0 +1,101 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "[ACM MM 2021] Privacy-Preserving Portrait Matting"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<h1 align=\"center\">Privacy-Preserving Portrait Matting [ACM MM-21]</h1>"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">Privacy-Preserving Portrait Matting [ACM MM-21]</h1>"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30016961,
+      "status": "candidate",
+      "text": "docking"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29947250,
+      "status": "candidate",
+      "text": "ganging"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29918159,
+      "status": "candidate",
+      "text": "coupling"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20040904,
+      "status": "candidate",
+      "text": "matmaking"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20040903,
+      "status": "candidate",
+      "text": "chairmat"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "matting",
+      "sense_id": "matting#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 9074,
+      "status": "candidate",
+      "text": "mat"
+    }
+  ],
+  "concept_id": "matting",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "matting",
+  "observation_id": "81f1dd88c1030ad9",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T00:37:16.824464+00:00",
+  "observed_text": "matting",
+  "source_context_snippet": "<h1 align=\"center\">Privacy-Preserving Portrait Matting [ACM MM-21]</h1>",
+  "source_file": null,
+  "source_repo": "JizhiziLi/P3M",
+  "source_repo_description": "[ACM MM 2021] Privacy-Preserving Portrait Matting"
+}

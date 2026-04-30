@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T03:04:35.798238+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4859
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "This repository is designed for deploying and managing server processes that handle embeddings using the Infinity Embedding model or Large Language Models with an OpenAI compatible vLLM server.",
+    "fork": false,
+    "full_name": "dwarvesf/llm-hosting",
+    "html_url": "https://github.com/dwarvesf/llm-hosting",
+    "language": "Python",
+    "pushed_at": "2025-03-06T02:26:03Z",
+    "stargazers_count": 26,
+    "topics": [],
+    "updated_at": "2026-03-11T02:30:29Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

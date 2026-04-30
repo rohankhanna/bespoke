@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "The official MongoDB Node.js driver"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Build and commit documentation"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Build and commit documentation"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18150,
+      "status": "candidate",
+      "text": "undocumented"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18148,
+      "status": "candidate",
+      "text": "make"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18148,
+      "status": "candidate",
+      "text": "trusted"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18079,
+      "status": "candidate",
+      "text": "file"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18053,
+      "status": "candidate",
+      "text": "put"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Build and commit documentation",
+      "sense_id": "build-and-commit-documentation#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "build-and-commit-documentation",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "build-and-commit-documentation",
+  "observation_id": "e1021b13f5a9b90d",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-30T00:37:16.824464+00:00",
+  "observed_text": "Build and commit documentation",
+  "source_context_snippet": "Build and commit documentation",
+  "source_file": ".github/workflows/build_and_commit_docs.yml",
+  "source_repo": "mongodb/node-mongodb-native",
+  "source_repo_description": "The official MongoDB Node.js driver"
+}

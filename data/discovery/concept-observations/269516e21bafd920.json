@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "docker-compose.yml files for cp-all-in-one , cp-all-in-one-community, cp-all-in-one-cloud, Apache Kafka Confluent Platform"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "![image](images/confluent-logo-300-2.png)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "![image](images/confluent-logo-300-2.png)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "apache-kafka",
+      "sense_id": "apache-kafka#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "apache-kafka",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "apache-kafka",
+  "observation_id": "269516e21bafd920",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T00:37:16.824464+00:00",
+  "observed_text": "apache-kafka",
+  "source_context_snippet": "![image](images/confluent-logo-300-2.png)",
+  "source_file": null,
+  "source_repo": "confluentinc/cp-all-in-one",
+  "source_repo_description": "docker-compose.yml files for cp-all-in-one , cp-all-in-one-community, cp-all-in-one-cloud, Apache Kafka Confluent Platform"
+}

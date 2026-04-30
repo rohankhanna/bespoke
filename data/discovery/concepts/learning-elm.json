@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "learning-elm"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dwyl/learn-elm",
+      "status": "candidate-context",
+      "text": ":rainbow: discover the beautiful programming language that makes front-end web apps a joy to build and maintain!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dwyl/learn-elm",
+      "status": "candidate-context",
+      "text": "> It's _difficult_ to _introduce_ elm to someone"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dwyl/learn-elm",
+      "status": "candidate",
+      "text": "> It's _difficult_ to _introduce_ elm to someone"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "learning-elm",
+  "concept_id": "learning-elm",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "dwyl/learn-elm"
+    }
+  ],
+  "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "learning-elm",
+      "sense_id": "learning-elm#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

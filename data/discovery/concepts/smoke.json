@@ -70,6 +70,30 @@
       "source_repo": "dependabot/smoke-tests",
       "status": "candidate-context",
       "text": "Smoke"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "GoogleChrome/lighthouse",
+      "status": "candidate-context",
+      "text": "Automated auditing, performance metrics, and best practices for the web."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "GoogleChrome/lighthouse",
+      "status": "candidate-context",
+      "text": "smoke"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "google/docsy",
+      "status": "candidate-context",
+      "text": "Hugo theme for open source documentation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/docsy",
+      "status": "candidate-context",
+      "text": "smoke"
     }
   ],
   "candidate_glosses": [
@@ -102,6 +126,18 @@
       "source_repo": "dependabot/smoke-tests",
       "status": "candidate",
       "text": "Smoke"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "GoogleChrome/lighthouse",
+      "status": "candidate",
+      "text": "smoke"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/docsy",
+      "status": "candidate",
+      "text": "smoke"
     }
   ],
   "candidate_related_terms": [
@@ -211,11 +247,23 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": ".github/workflows/smoke.yml",
       "source_repo": "dependabot/smoke-tests"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/smoke.yml",
+      "source_repo": "GoogleChrome/lighthouse"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/smoke.yaml",
+      "source_repo": "google/docsy"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

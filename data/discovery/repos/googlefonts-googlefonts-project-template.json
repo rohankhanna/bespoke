@@ -48,34 +48,6 @@
   ],
   "edges": [
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "googlefonts/googlefonts-project-template",
-      "target": "googlefonts/radiocanadadisplay",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "googlefonts/googlefonts-project-template",
-      "target": "googlefonts/gftools",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "googlefonts/googlefonts-project-template",
-      "target": "googlefonts/glyphsets",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "googlefonts/googlefonts-project-template",
-      "target": "m4rc1e/test-ufr-family",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/build.yaml",
       "source_repo": "googlefonts/googlefonts-project-template",
@@ -139,7 +111,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-29T18:43:46.848886+00:00",
+  "fetched_at": "2026-04-30T03:50:15.755634+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -168,28 +140,7 @@
     "topics": [],
     "updated_at": "2026-04-27T10:25:53Z"
   },
-  "repo_links": [
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "googlefonts/gftools",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "googlefonts/glyphsets",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "googlefonts/radiocanadadisplay",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "m4rc1e/test-ufr-family",
-      "source_file": "README.md"
-    }
-  ],
+  "repo_links": [],
   "terms": [
     {
       "context_snippet": "Build font and specimen",

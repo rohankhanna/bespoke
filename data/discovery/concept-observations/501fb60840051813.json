@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Simple interface to libmagic for Ruby Programming Language"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![Gem Version](http://badge.fury.io/rb/ruby-magic.svg)](http://badge.fury.io/rb/ruby-magic)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![Gem Version](http://badge.fury.io/rb/ruby-magic.svg)](http://badge.fury.io/rb/ruby-magic)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39971427,
+      "status": "candidate",
+      "text": "realization"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39971297,
+      "status": "candidate",
+      "text": "realisation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39968202,
+      "status": "candidate",
+      "text": "identification"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39968012,
+      "status": "candidate",
+      "text": "acknowledgment"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39967517,
+      "status": "candidate",
+      "text": "credit"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "recognition",
+      "sense_id": "recognition#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 22042,
+      "status": "candidate",
+      "text": "realization"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 17039,
+      "status": "candidate",
+      "text": "acknowledgment"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 7030,
+      "status": "candidate",
+      "text": "preferment"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 7018,
+      "status": "candidate",
+      "text": "realisation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 4053,
+      "status": "candidate",
+      "text": "identification"
+    }
+  ],
+  "concept_id": "recognition",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "recognition",
+  "observation_id": "501fb60840051813",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T00:37:16.824464+00:00",
+  "observed_text": "recognition",
+  "source_context_snippet": "[![Gem Version](http://badge.fury.io/rb/ruby-magic.svg)](http://badge.fury.io/rb/ruby-magic)",
+  "source_file": null,
+  "source_repo": "kwilczynski/ruby-magic",
+  "source_repo_description": "Simple interface to libmagic for Ruby Programming Language"
+}

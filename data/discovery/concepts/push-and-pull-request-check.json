@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Push and Pull Request Check"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cloudwego/netpoll",
+      "status": "candidate-context",
+      "text": "A high-performance non-blocking I/O networking framework focusing on RPC scenarios."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cloudwego/netpoll",
+      "status": "candidate-context",
+      "text": "Push and Pull Request Check"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cloudwego/netpoll",
+      "status": "candidate",
+      "text": "Push and Pull Request Check"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 43509,
+      "status": "candidate",
+      "text": "heave"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 43509,
+      "status": "candidate",
+      "text": "strain"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 43050,
+      "status": "candidate",
+      "text": "rein"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 35479,
+      "status": "candidate",
+      "text": "jerk"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 34279,
+      "status": "candidate",
+      "text": "tug"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Push and Pull Request Check",
+  "concept_id": "push-and-pull-request-check",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/pr-check.yml",
+      "source_repo": "cloudwego/netpoll"
+    }
+  ],
+  "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Push and Pull Request Check",
+      "sense_id": "push-and-pull-request-check#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

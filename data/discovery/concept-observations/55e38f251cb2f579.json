@@ -84,7 +84,7 @@
   "normalized_form": "loongarch64-qemu-test",
   "observation_id": "55e38f251cb2f579",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-04-29T18:37:00.726333+00:00",
+  "observed_at": "2026-04-30T00:37:16.824464+00:00",
   "observed_text": "loongarch64 qemu test",
   "source_context_snippet": "loongarch64 qemu test",
   "source_file": ".github/workflows/loongarch64.yml",

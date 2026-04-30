@@ -1,0 +1,49 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "a2aproject/a2a-tck",
+      "target": "maeste/a2a-tck",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T02:52:04.852982+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 29055
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 2864
+    },
+    {
+      "path": "requirements.txt",
+      "size": 287
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "a2aproject/a2a-tck",
+    "html_url": "https://github.com/a2aproject/a2a-tck",
+    "language": "Python",
+    "pushed_at": "2026-04-27T12:54:11Z",
+    "stargazers_count": 34,
+    "topics": [],
+    "updated_at": "2026-04-27T05:36:00Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "maeste/a2a-tck",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

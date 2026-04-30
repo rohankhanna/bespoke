@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "edgeadm"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "superedge/edgeadm",
+      "status": "candidate-context",
+      "text": "Edgeadm is a tool based on Kubeadm to create superedge cluster environment"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "superedge/edgeadm",
+      "status": "candidate-context",
+      "text": "edgeadm"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "superedge/edgeadm",
+      "status": "candidate",
+      "text": "edgeadm"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "edgeadm",
+  "concept_id": "edgeadm",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/edgeadm.yaml",
+      "source_repo": "superedge/edgeadm"
+    }
+  ],
+  "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "edgeadm",
+      "sense_id": "edgeadm#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

@@ -43,6 +43,42 @@
       "source_repo": "apache/rocketmq-client-go",
       "status": "candidate-context",
       "text": "[![Build Status](https://app.travis-ci.com/apache/rocketmq-client-go.svg?branch=master)](https://app.travis-ci.com/apache/rocketmq-client-go)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apache/rocketmq-externals",
+      "status": "candidate-context",
+      "text": "Mirror of Apache RocketMQ (Incubating)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/rocketmq-externals",
+      "status": "candidate-context",
+      "text": "There are many of the Apache RocketMQ external projects, which is born from [Apache RocketMQ Improvement Proposal](https://github.com/apache/rocketmq/wiki/RocketMQ-Improvement-Proposal) and contributed and maintained by community. The PMC will lean towards developer community su\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apache/rocketmq",
+      "status": "candidate-context",
+      "text": "Apache RocketMQ is a cloud native messaging and streaming platform, making it simple to build event-driven applications."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/rocketmq",
+      "status": "candidate-context",
+      "text": "[![Build Status][maven-build-image]][maven-build-url]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apache/rocketmq-client-cpp",
+      "status": "candidate-context",
+      "text": "Apache RocketMQ cpp client"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/rocketmq-client-cpp",
+      "status": "candidate-context",
+      "text": "[![License](https://img.shields.io/badge/license-Apache%202-4EB1BA.svg)](https://www.apache.org/licenses/LICENSE-2.0.html)"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +99,24 @@
       "source_repo": "apache/rocketmq-client-go",
       "status": "candidate",
       "text": "[![Build Status](https://app.travis-ci.com/apache/rocketmq-client-go.svg?branch=master)](https://app.travis-ci.com/apache/rocketmq-client-go)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/rocketmq-externals",
+      "status": "candidate",
+      "text": "There are many of the Apache RocketMQ external projects, which is born from [Apache RocketMQ Improvement Proposal](https://github.com/apache/rocketmq/wiki/RocketMQ-Improvement-Proposal) and contributed and maintained by community. The PMC will lean towards developer community su\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/rocketmq",
+      "status": "candidate",
+      "text": "[![Build Status][maven-build-image]][maven-build-url]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/rocketmq-client-cpp",
+      "status": "candidate",
+      "text": "[![License](https://img.shields.io/badge/license-Apache%202-4EB1BA.svg)](https://www.apache.org/licenses/LICENSE-2.0.html)"
     }
   ],
   "candidate_related_terms": [],
@@ -88,11 +142,29 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "apache/rocketmq-client-go"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "apache/rocketmq-externals"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "apache/rocketmq"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "apache/rocketmq-client-cpp"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

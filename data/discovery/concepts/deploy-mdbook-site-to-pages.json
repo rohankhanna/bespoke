@@ -19,12 +19,30 @@
       "source_repo": "agentclientprotocol/symposium-acp",
       "status": "candidate-context",
       "text": "Deploy mdBook site to Pages"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aws/amazon-q-developer-cli",
+      "status": "candidate-context",
+      "text": "\u2728 Agentic chat experience in your terminal. Build applications using natural language."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aws/amazon-q-developer-cli",
+      "status": "candidate-context",
+      "text": "Deploy mdBook site to Pages"
     }
   ],
   "candidate_glosses": [
     {
       "source_kind": "source-snippet",
       "source_repo": "agentclientprotocol/symposium-acp",
+      "status": "candidate",
+      "text": "Deploy mdBook site to Pages"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aws/amazon-q-developer-cli",
       "status": "candidate",
       "text": "Deploy mdBook site to Pages"
     }
@@ -76,11 +94,17 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": ".github/workflows/mdbook.yml",
       "source_repo": "agentclientprotocol/symposium-acp"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/mdbook.yml",
+      "source_repo": "aws/amazon-q-developer-cli"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

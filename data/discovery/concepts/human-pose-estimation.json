@@ -91,6 +91,78 @@
       "source_repo": "vchoutas/expose",
       "status": "candidate-context",
       "text": "[![report](https://img.shields.io/badge/arxiv-report-red)](https://arxiv.org/abs/2008.09062)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "CMU-Perceptual-Computing-Lab/openpose_train",
+      "status": "candidate-context",
+      "text": "Training repository for OpenPose"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "CMU-Perceptual-Computing-Lab/openpose_train",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Daniil-Osokin/gccpm-look-into-person-cvpr19.pytorch",
+      "status": "candidate-context",
+      "text": "Fast and accurate single-person pose estimation, ranked 10th at CVPR'19 LIP challenge. Contains implementation of \"Global Context for Convolutional Pose Machines\" paper."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Daniil-Osokin/gccpm-look-into-person-cvpr19.pytorch",
+      "status": "candidate-context",
+      "text": "This repository contains training code for the paper [Global Context for Convolutional Pose Machines](https://arxiv.org/pdf/1906.04104.pdf). This work improves [original](https://arxiv.org/pdf/1602.00134.pdf) convolutional pose machine architecture for artculated human pose esti\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Daniil-Osokin/lightweight-human-pose-estimation-3d-demo.pytorch",
+      "status": "candidate-context",
+      "text": "Real-time 3D multi-person pose estimation demo in PyTorch. OpenVINO backend can be used for fast inference on CPU."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Daniil-Osokin/lightweight-human-pose-estimation-3d-demo.pytorch",
+      "status": "candidate-context",
+      "text": "This repository contains 3D multi-person pose estimation demo in PyTorch. Intel OpenVINO&trade; backend can be used for fast inference on CPU. This demo is based on [Lightweight OpenPose](https://arxiv.org/pdf/1811.12004.pdf) and [Single-Shot Multi-Person 3D Pose Estimation From\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jeffffffli/res-loglikelihood-regression",
+      "status": "candidate-context",
+      "text": "Code for \"Human Pose Regression with Residual Log-likelihood Estimation\", ICCV 2021 Oral"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jeffffffli/res-loglikelihood-regression",
+      "status": "candidate-context",
+      "text": "[[`Paper`](https://jeffli.site/res-loglikelihood-regression/resources/ICCV21-RLE.pdf)]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mks0601/3DMPPE_POSENET_RELEASE",
+      "status": "candidate-context",
+      "text": "Official PyTorch implementation of \"Camera Distance-aware Top-down Approach for 3D Multi-person Pose Estimation from a Single RGB Image\", ICCV 2019"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mks0601/3DMPPE_POSENET_RELEASE",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mks0601/3DMPPE_ROOTNET_RELEASE",
+      "status": "candidate-context",
+      "text": "Official PyTorch implementation of \"Camera Distance-aware Top-down Approach for 3D Multi-person Pose Estimation from a Single RGB Image\", ICCV 2019"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mks0601/3DMPPE_ROOTNET_RELEASE",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -135,6 +207,42 @@
       "source_repo": "vchoutas/expose",
       "status": "candidate",
       "text": "[![report](https://img.shields.io/badge/arxiv-report-red)](https://arxiv.org/abs/2008.09062)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "CMU-Perceptual-Computing-Lab/openpose_train",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Daniil-Osokin/gccpm-look-into-person-cvpr19.pytorch",
+      "status": "candidate",
+      "text": "This repository contains training code for the paper [Global Context for Convolutional Pose Machines](https://arxiv.org/pdf/1906.04104.pdf). This work improves [original](https://arxiv.org/pdf/1602.00134.pdf) convolutional pose machine architecture for artculated human pose esti\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Daniil-Osokin/lightweight-human-pose-estimation-3d-demo.pytorch",
+      "status": "candidate",
+      "text": "This repository contains 3D multi-person pose estimation demo in PyTorch. Intel OpenVINO&trade; backend can be used for fast inference on CPU. This demo is based on [Lightweight OpenPose](https://arxiv.org/pdf/1811.12004.pdf) and [Single-Shot Multi-Person 3D Pose Estimation From\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jeffffffli/res-loglikelihood-regression",
+      "status": "candidate",
+      "text": "[[`Paper`](https://jeffli.site/res-loglikelihood-regression/resources/ICCV21-RLE.pdf)]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mks0601/3DMPPE_POSENET_RELEASE",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mks0601/3DMPPE_ROOTNET_RELEASE",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_related_terms": [],
@@ -184,11 +292,47 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "vchoutas/expose"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "CMU-Perceptual-Computing-Lab/openpose_train"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "Daniil-Osokin/gccpm-look-into-person-cvpr19.pytorch"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "Daniil-Osokin/lightweight-human-pose-estimation-3d-demo.pytorch"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "jeffffffli/res-loglikelihood-regression"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "mks0601/3DMPPE_POSENET_RELEASE"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "mks0601/3DMPPE_ROOTNET_RELEASE"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

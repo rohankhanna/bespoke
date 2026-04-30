@@ -121,13 +121,6 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "standard/semistandard",
-      "target": "flet/sublimelinter-contrib-semistandard",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "standard/semistandard",
       "target": "scrooloose/syntastic",
       "target_type": "repository"
     },
@@ -314,7 +307,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-23T20:46:50.965627+00:00",
+  "fetched_at": "2026-04-30T02:02:58.152776+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -347,19 +340,14 @@
     "html_url": "https://github.com/standard/semistandard",
     "language": "JavaScript",
     "pushed_at": "2024-08-15T23:03:47Z",
-    "stargazers_count": 1417,
+    "stargazers_count": 1416,
     "topics": [],
-    "updated_at": "2026-04-22T05:26:16Z"
+    "updated_at": "2026-04-27T22:19:33Z"
   },
   "repo_links": [
     {
       "edge_type": "explicit-github-link",
       "full_name": "feross/snazzy",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "flet/sublimelinter-contrib-semistandard",
       "source_file": "README.md"
     },
     {

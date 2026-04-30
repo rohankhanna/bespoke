@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Mirai Package Index"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Auto Review"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Auto Review"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11686,
+      "status": "candidate",
+      "text": "show"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11629,
+      "status": "candidate",
+      "text": "rev"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11629,
+      "status": "candidate",
+      "text": "spoiler"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11629,
+      "status": "candidate",
+      "text": "year"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11545,
+      "status": "candidate",
+      "text": "inspection"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Auto Review",
+      "sense_id": "auto-review#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "auto-review",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "auto-review",
+  "observation_id": "69e8b40603eb2b6f",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-30T00:37:16.824464+00:00",
+  "observed_text": "Auto Review",
+  "source_context_snippet": "Auto Review",
+  "source_file": ".github/workflows/auto-review-and-merge.yml",
+  "source_repo": "project-mirai/mirai-repo-mirror",
+  "source_repo_description": "Mirai Package Index"
+}

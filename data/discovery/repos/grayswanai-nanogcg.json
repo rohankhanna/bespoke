@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T02:05:04.899743+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8620
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 830
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A fast + lightweight implementation of the GCG algorithm in PyTorch",
+    "fork": false,
+    "full_name": "GraySwanAI/nanoGCG",
+    "html_url": "https://github.com/GraySwanAI/nanoGCG",
+    "language": "Python",
+    "pushed_at": "2025-05-13T20:05:17Z",
+    "stargazers_count": 330,
+    "topics": [],
+    "updated_at": "2026-04-28T13:41:57Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

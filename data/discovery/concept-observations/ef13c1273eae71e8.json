@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A Kubernetes operator for running synthetic checks as pods. Works great with Prometheus!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<center><img src=\"https://github.com/kuberhealthy/kuberhealthy/blob/master/images/kuberhealthy.png?raw=true\"></center><br />"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<center><img src=\"https://github.com/kuberhealthy/kuberhealthy/blob/master/images/kuberhealthy.png?raw=true\"></center><br />"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40021554,
+      "status": "candidate",
+      "text": "synthetical"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40003048,
+      "status": "candidate",
+      "text": "combining"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40000692,
+      "status": "candidate",
+      "text": "celluloid"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39997535,
+      "status": "candidate",
+      "text": "polysynthetic"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39995328,
+      "status": "candidate",
+      "text": "imitative"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "synthetic",
+      "sense_id": "synthetic#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 22048,
+      "status": "candidate",
+      "text": "counterfeit"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 17036,
+      "status": "candidate",
+      "text": "unreal"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 16043,
+      "status": "candidate",
+      "text": "artificial"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 9029,
+      "status": "candidate",
+      "text": "imitative"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 8031,
+      "status": "candidate",
+      "text": "inflected"
+    }
+  ],
+  "concept_id": "synthetic",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "synthetic",
+  "observation_id": "ef13c1273eae71e8",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T00:37:16.824464+00:00",
+  "observed_text": "synthetic",
+  "source_context_snippet": "<center><img src=\"https://github.com/kuberhealthy/kuberhealthy/blob/master/images/kuberhealthy.png?raw=true\"></center><br />",
+  "source_file": null,
+  "source_repo": "kuberhealthy/kuberhealthy",
+  "source_repo_description": "A Kubernetes operator for running synthetic checks as pods. Works great with Prometheus!"
+}

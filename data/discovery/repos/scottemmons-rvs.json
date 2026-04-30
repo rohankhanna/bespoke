@@ -1,0 +1,85 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "scottemmons/rvs",
+      "target": "deepmind/dm_control",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "scottemmons/rvs",
+      "target": "scottemmons/youngs-cql",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "scottemmons/rvs",
+      "target": "scottemmons/decision-transformer",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "Dockerfile",
+      "source_repo": "scottemmons/rvs",
+      "target": "deepmind/mujoco",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T02:42:29.006568+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3107
+    },
+    {
+      "path": "Dockerfile",
+      "size": 3220
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 47
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Reinforcement Learning via Supervised Learning",
+    "fork": false,
+    "full_name": "scottemmons/rvs",
+    "html_url": "https://github.com/scottemmons/rvs",
+    "language": "Python",
+    "pushed_at": "2022-05-16T05:18:26Z",
+    "stargazers_count": 72,
+    "topics": [],
+    "updated_at": "2025-11-05T12:44:11Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "deepmind/dm_control",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "scottemmons/decision-transformer",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "scottemmons/youngs-cql",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "deepmind/mujoco",
+      "source_file": "Dockerfile"
+    }
+  ],
+  "terms": []
+}

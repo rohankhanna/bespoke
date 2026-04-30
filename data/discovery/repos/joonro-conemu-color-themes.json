@@ -1,0 +1,53 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "joonro/ConEmu-Color-Themes",
+      "target": "color-scheme",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "joonro/ConEmu-Color-Themes",
+      "target": "conemu",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T04:01:26.735552+00:00",
+  "fetched_files": [],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Manually ported color themes for ConEmu",
+    "fork": false,
+    "full_name": "joonro/ConEmu-Color-Themes",
+    "html_url": "https://github.com/joonro/ConEmu-Color-Themes",
+    "language": "PowerShell",
+    "pushed_at": "2023-07-25T13:49:08Z",
+    "stargazers_count": 785,
+    "topics": [
+      "color-scheme",
+      "conemu"
+    ],
+    "updated_at": "2026-04-06T02:21:22Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Manually ported color themes for ConEmu",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "color-scheme"
+    },
+    {
+      "context_snippet": "Manually ported color themes for ConEmu",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "conemu"
+    }
+  ]
+}

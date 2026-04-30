@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "LTX-Video Support for ComfyUI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![GitHub](https://img.shields.io/badge/LTX-Repo-blue?logo=github)](https://github.com/Lightricks/LTX-2)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![GitHub](https://img.shields.io/badge/LTX-Repo-blue?logo=github)](https://github.com/Lightricks/LTX-2)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "image-to-video-generation",
+      "sense_id": "image-to-video-generation#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "image-to-video-generation",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "image-to-video-generation",
+  "observation_id": "ea115462b4e574e9",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T00:37:16.824464+00:00",
+  "observed_text": "image-to-video-generation",
+  "source_context_snippet": "[![GitHub](https://img.shields.io/badge/LTX-Repo-blue?logo=github)](https://github.com/Lightricks/LTX-2)",
+  "source_file": null,
+  "source_repo": "Lightricks/ComfyUI-LTXVideo",
+  "source_repo_description": "LTX-Video Support for ComfyUI"
+}

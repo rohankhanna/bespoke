@@ -1,0 +1,634 @@
+{
+  "components": [
+    {
+      "component": "buildkite/trigger-pipeline-action@v2.3.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/buildkite-trigger-wait.yml"
+    },
+    {
+      "component": "actions/checkout@f43a0e5ff2bd294095638e18286ca9a3d1956744",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/compile-protos-check.yml"
+    },
+    {
+      "component": "astral-sh/setup-uv@38f3f104447c67c051c4a08e39b64a148898af3a",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/compile-protos-check.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dashboard.yml"
+    },
+    {
+      "component": "actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-build.yaml"
+    },
+    {
+      "component": "actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-build.yaml"
+    },
+    {
+      "component": "actions/download-artifact@d3f86a106a0bac45b974a628896c90dbdf5c8093",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-build.yaml"
+    },
+    {
+      "component": "astral-sh/setup-uv@38f3f104447c67c051c4a08e39b64a148898af3a",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-build.yaml"
+    },
+    {
+      "component": "actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-build.yaml"
+    },
+    {
+      "component": "actions/download-artifact@d3f86a106a0bac45b974a628896c90dbdf5c8093",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-build.yaml"
+    },
+    {
+      "component": "docker/setup-buildx-action@8d2750c68a42422c14e847fe6c8ac0403b4cbd6f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-build.yaml"
+    },
+    {
+      "component": "docker/login-action@c94ce9fb468520275223c153574b00df6fe4bcc9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-build.yaml"
+    },
+    {
+      "component": "docker/build-push-action@10e90e3645eae34f1e60eeb005ba3a3d33f178e8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-build.yaml"
+    },
+    {
+      "component": "docker/setup-buildx-action@8d2750c68a42422c14e847fe6c8ac0403b4cbd6f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-build.yaml"
+    },
+    {
+      "component": "docker/login-action@c94ce9fb468520275223c153574b00df6fe4bcc9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-build.yaml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/format.yml"
+    },
+    {
+      "component": "astral-sh/setup-uv@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/format.yml"
+    },
+    {
+      "component": "actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fusermount-server-image.yaml"
+    },
+    {
+      "component": "docker/setup-qemu-action@c7c53464625b32c7a7e944ae62b3e17d2b600130",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fusermount-server-image.yaml"
+    },
+    {
+      "component": "docker/setup-buildx-action@8d2750c68a42422c14e847fe6c8ac0403b4cbd6f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fusermount-server-image.yaml"
+    },
+    {
+      "component": "docker/login-action@c94ce9fb468520275223c153574b00df6fe4bcc9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fusermount-server-image.yaml"
+    },
+    {
+      "component": "docker/build-push-action@ca052bb54ab0790a636c9b5f226502c73d547a25",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fusermount-server-image.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/buildkite-trigger-wait.yml",
+      "source_repo": "skypilot-org/skypilot",
+      "target": "buildkite/trigger-pipeline-action@v2.3.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/buildkite-trigger-wait.yml",
+      "source_repo": "skypilot-org/skypilot",
+      "target": "Buildkite Trigger and Wait",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/compile-protos-check.yml",
+      "source_repo": "skypilot-org/skypilot",
+      "target": "actions/checkout@f43a0e5ff2bd294095638e18286ca9a3d1956744",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/compile-protos-check.yml",
+      "source_repo": "skypilot-org/skypilot",
+      "target": "astral-sh/setup-uv@38f3f104447c67c051c4a08e39b64a148898af3a",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/compile-protos-check.yml",
+      "source_repo": "skypilot-org/skypilot",
+      "target": "compile-protos-check",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dashboard.yml",
+      "source_repo": "skypilot-org/skypilot",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/dashboard.yml",
+      "source_repo": "skypilot-org/skypilot",
+      "target": "Dashboard Testing and Formatting",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-build.yaml",
+      "source_repo": "skypilot-org/skypilot",
+      "target": "actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-build.yaml",
+      "source_repo": "skypilot-org/skypilot",
+      "target": "actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-build.yaml",
+      "source_repo": "skypilot-org/skypilot",
+      "target": "actions/download-artifact@d3f86a106a0bac45b974a628896c90dbdf5c8093",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-build.yaml",
+      "source_repo": "skypilot-org/skypilot",
+      "target": "astral-sh/setup-uv@38f3f104447c67c051c4a08e39b64a148898af3a",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-build.yaml",
+      "source_repo": "skypilot-org/skypilot",
+      "target": "docker/setup-buildx-action@8d2750c68a42422c14e847fe6c8ac0403b4cbd6f",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-build.yaml",
+      "source_repo": "skypilot-org/skypilot",
+      "target": "docker/login-action@c94ce9fb468520275223c153574b00df6fe4bcc9",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-build.yaml",
+      "source_repo": "skypilot-org/skypilot",
+      "target": "docker/build-push-action@10e90e3645eae34f1e60eeb005ba3a3d33f178e8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docker-build.yaml",
+      "source_repo": "skypilot-org/skypilot",
+      "target": "docker-build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/extract-buildkite.yml",
+      "source_repo": "skypilot-org/skypilot",
+      "target": "Extract Buildkite Build Number",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/format.yml",
+      "source_repo": "skypilot-org/skypilot",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/format.yml",
+      "source_repo": "skypilot-org/skypilot",
+      "target": "astral-sh/setup-uv@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/format.yml",
+      "source_repo": "skypilot-org/skypilot",
+      "target": "format",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fusermount-server-image.yaml",
+      "source_repo": "skypilot-org/skypilot",
+      "target": "actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fusermount-server-image.yaml",
+      "source_repo": "skypilot-org/skypilot",
+      "target": "docker/setup-qemu-action@c7c53464625b32c7a7e944ae62b3e17d2b600130",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fusermount-server-image.yaml",
+      "source_repo": "skypilot-org/skypilot",
+      "target": "docker/setup-buildx-action@8d2750c68a42422c14e847fe6c8ac0403b4cbd6f",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fusermount-server-image.yaml",
+      "source_repo": "skypilot-org/skypilot",
+      "target": "docker/login-action@c94ce9fb468520275223c153574b00df6fe4bcc9",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fusermount-server-image.yaml",
+      "source_repo": "skypilot-org/skypilot",
+      "target": "docker/build-push-action@ca052bb54ab0790a636c9b5f226502c73d547a25",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/fusermount-server-image.yaml",
+      "source_repo": "skypilot-org/skypilot",
+      "target": "fusermount-server-image",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "skypilot-org/skypilot",
+      "target": "cloud-computing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "skypilot-org/skypilot",
+      "target": "cloud-management",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "skypilot-org/skypilot",
+      "target": "cost-optimization",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "skypilot-org/skypilot",
+      "target": "deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "skypilot-org/skypilot",
+      "target": "distributed-training",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "skypilot-org/skypilot",
+      "target": "hyperparameter-tuning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "skypilot-org/skypilot",
+      "target": "job-queue",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "skypilot-org/skypilot",
+      "target": "job-scheduler",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "skypilot-org/skypilot",
+      "target": "llm-serving",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "skypilot-org/skypilot",
+      "target": "llm-training",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "skypilot-org/skypilot",
+      "target": "machine-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "skypilot-org/skypilot",
+      "target": "ml-infrastructure",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "skypilot-org/skypilot",
+      "target": "ml-platform",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "skypilot-org/skypilot",
+      "target": "mlops",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "skypilot-org/skypilot",
+      "target": "multicloud",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "skypilot-org/skypilot",
+      "target": "slurm",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "skypilot-org/skypilot",
+      "target": "spot-instances",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T05:15:00.271495+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 12121
+    },
+    {
+      "path": "Dockerfile",
+      "size": 6135
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 746
+    },
+    {
+      "path": ".github/workflows/buildkite-trigger-wait.yml",
+      "size": 3433
+    },
+    {
+      "path": ".github/workflows/compile-protos-check.yml",
+      "size": 1844
+    },
+    {
+      "path": ".github/workflows/dashboard.yml",
+      "size": 598
+    },
+    {
+      "path": ".github/workflows/docker-build.yaml",
+      "size": 12171
+    },
+    {
+      "path": ".github/workflows/extract-buildkite.yml",
+      "size": 910
+    },
+    {
+      "path": ".github/workflows/format.yml",
+      "size": 1817
+    },
+    {
+      "path": ".github/workflows/fusermount-server-image.yaml",
+      "size": 1310
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Run, manage, and scale AI workloads on any AI infrastructure. Use one system to access & manage all AI compute (Kubernetes, Slurm, 20+ clouds, on-prem).",
+    "fork": false,
+    "full_name": "skypilot-org/skypilot",
+    "html_url": "https://github.com/skypilot-org/skypilot",
+    "language": "Python",
+    "pushed_at": "2026-04-30T04:24:27Z",
+    "stargazers_count": 9918,
+    "topics": [
+      "cloud-computing",
+      "cloud-management",
+      "cost-optimization",
+      "deep-learning",
+      "distributed-training",
+      "gpu",
+      "hyperparameter-tuning",
+      "job-queue",
+      "job-scheduler",
+      "llm-serving",
+      "llm-training",
+      "machine-learning",
+      "ml-infrastructure",
+      "ml-platform",
+      "mlops",
+      "multicloud",
+      "slurm",
+      "spot-instances",
+      "tpu"
+    ],
+    "updated_at": "2026-04-30T00:20:08Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Buildkite Trigger and Wait",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/buildkite-trigger-wait.yml",
+      "term": "Buildkite Trigger and Wait"
+    },
+    {
+      "context_snippet": "compile-protos-check",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/compile-protos-check.yml",
+      "term": "compile-protos-check"
+    },
+    {
+      "context_snippet": "Dashboard Testing and Formatting",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/dashboard.yml",
+      "term": "Dashboard Testing and Formatting"
+    },
+    {
+      "context_snippet": "docker-build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docker-build.yaml",
+      "term": "docker-build"
+    },
+    {
+      "context_snippet": "Extract Buildkite Build Number",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/extract-buildkite.yml",
+      "term": "Extract Buildkite Build Number"
+    },
+    {
+      "context_snippet": "format",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/format.yml",
+      "term": "format"
+    },
+    {
+      "context_snippet": "fusermount-server-image",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/fusermount-server-image.yaml",
+      "term": "fusermount-server-image"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cloud-computing"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cloud-management"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cost-optimization"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-learning"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "distributed-training"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hyperparameter-tuning"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "job-queue"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "job-scheduler"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "llm-serving"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "llm-training"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "machine-learning"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ml-infrastructure"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ml-platform"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mlops"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "multicloud"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "slurm"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "spot-instances"
+    }
+  ]
+}

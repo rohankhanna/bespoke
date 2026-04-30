@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "dependency-graph"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "tox-dev/pipdeptree",
+      "status": "candidate-context",
+      "text": "A command line utility to display dependency tree of the installed Python packages"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tox-dev/pipdeptree",
+      "status": "candidate-context",
+      "text": "[![PyPI](https://img.shields.io/pypi/v/pipdeptree?style=flat-square)](https://pypi.org/project/pipdeptree)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tox-dev/pipdeptree",
+      "status": "candidate",
+      "text": "[![PyPI](https://img.shields.io/pypi/v/pipdeptree?style=flat-square)](https://pypi.org/project/pipdeptree)"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "dependency-graph",
+  "concept_id": "dependency-graph",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "tox-dev/pipdeptree"
+    }
+  ],
+  "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "dependency-graph",
+      "sense_id": "dependency-graph#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

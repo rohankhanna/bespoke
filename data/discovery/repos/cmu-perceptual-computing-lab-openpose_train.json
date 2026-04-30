@@ -1,0 +1,169 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "CMU-Perceptual-Computing-Lab/openpose_train",
+      "target": "cmu-perceptual-computing-lab/openpose_training",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "CMU-Perceptual-Computing-Lab/openpose_train",
+      "target": "computer-vision",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "CMU-Perceptual-Computing-Lab/openpose_train",
+      "target": "deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "CMU-Perceptual-Computing-Lab/openpose_train",
+      "target": "human-behavior-understanding",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "CMU-Perceptual-Computing-Lab/openpose_train",
+      "target": "human-pose-estimation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "CMU-Perceptual-Computing-Lab/openpose_train",
+      "target": "iccv-2019",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "CMU-Perceptual-Computing-Lab/openpose_train",
+      "target": "machine-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "CMU-Perceptual-Computing-Lab/openpose_train",
+      "target": "openpose",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "CMU-Perceptual-Computing-Lab/openpose_train",
+      "target": "openpose-training",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "CMU-Perceptual-Computing-Lab/openpose_train",
+      "target": "real-time",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T03:49:15.500848+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5525
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Training repository for OpenPose",
+    "fork": false,
+    "full_name": "CMU-Perceptual-Computing-Lab/openpose_train",
+    "html_url": "https://github.com/CMU-Perceptual-Computing-Lab/openpose_train",
+    "language": "Python",
+    "pushed_at": "2021-11-19T16:50:18Z",
+    "stargazers_count": 613,
+    "topics": [
+      "computer-vision",
+      "deep-learning",
+      "human-behavior-understanding",
+      "human-pose-estimation",
+      "iccv-2019",
+      "machine-learning",
+      "openpose",
+      "openpose-training",
+      "real-time"
+    ],
+    "updated_at": "2026-04-05T13:02:55Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cmu-perceptual-computing-lab/openpose_training",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "computer-vision"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-learning"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "human-behavior-understanding"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "human-pose-estimation"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "iccv-2019"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "machine-learning"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "openpose"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "openpose-training"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "real-time"
+    }
+  ]
+}

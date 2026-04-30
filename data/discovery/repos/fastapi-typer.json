@@ -143,13 +143,6 @@
   ],
   "edges": [
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "fastapi/typer",
-      "target": "sarugaku/shellingham",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/add-to-project.yml",
       "source_repo": "fastapi/typer",
@@ -430,7 +423,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-23T21:50:39.614703+00:00",
+  "fetched_at": "2026-04-30T05:13:35.750727+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -482,8 +475,8 @@
     "full_name": "fastapi/typer",
     "html_url": "https://github.com/fastapi/typer",
     "language": "Python",
-    "pushed_at": "2026-04-22T17:45:19Z",
-    "stargazers_count": 19278,
+    "pushed_at": "2026-04-29T10:27:10Z",
+    "stargazers_count": 19311,
     "topics": [
       "cli",
       "click",
@@ -494,15 +487,9 @@
       "typehints",
       "typer"
     ],
-    "updated_at": "2026-04-23T19:41:02Z"
+    "updated_at": "2026-04-29T23:24:43Z"
   },
-  "repo_links": [
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "sarugaku/shellingham",
-      "source_file": "README.md"
-    }
-  ],
+  "repo_links": [],
   "terms": [
     {
       "context_snippet": "Add to Project",

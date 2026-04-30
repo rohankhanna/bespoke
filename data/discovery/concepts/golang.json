@@ -1,7 +1,8 @@
 {
   "aliases": [
     "golang",
-    "Golang"
+    "Golang",
+    "GoLang"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -2614,6 +2615,462 @@
       "source_repo": "spacemeshos/go-spacemesh",
       "status": "candidate-context",
       "text": "[![license](https://img.shields.io/packagist/l/doctrine/orm.svg)](https://github.com/spacemeshos/go-spacemesh/blob/master/LICENSE)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "chaisql/chai",
+      "status": "candidate-context",
+      "text": "Modern embedded SQL database"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chaisql/chai",
+      "status": "candidate-context",
+      "text": "ChaiSQL is a modern embedded SQL database, written in pure Go, with a PostgreSQL-inspired API."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "yuin/goldmark",
+      "status": "candidate-context",
+      "text": ":trophy: A markdown parser written in Go. Easy to extend, standard(CommonMark) compliant, well structured."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "yuin/goldmark",
+      "status": "candidate-context",
+      "text": "goldmark"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gorilla/websocket",
+      "status": "candidate-context",
+      "text": "Package gorilla/websocket is a fast, well-tested and widely used WebSocket implementation for Go."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gorilla/websocket",
+      "status": "candidate-context",
+      "text": "[![GoDoc](https://godoc.org/github.com/gorilla/websocket?status.svg)](https://godoc.org/github.com/gorilla/websocket)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "1set/starlet",
+      "status": "candidate-context",
+      "text": "\u2728 Yet another Go wrapper for Starlark that simplifies usage, offers data conversion and useful Starlark libraries"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "1set/starlet",
+      "status": "candidate-context",
+      "text": "[![godoc](https://pkg.go.dev/badge/github.com/1set/starlet.svg)](https://pkg.go.dev/github.com/1set/starlet)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "autokitteh/autokitteh",
+      "status": "candidate-context",
+      "text": "Durable workflow automation in just a few lines of code"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "autokitteh/autokitteh",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cruise-automation/isopod",
+      "status": "candidate-context",
+      "text": "An expressive DSL and framework for Kubernetes configuration without YAML"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cruise-automation/isopod",
+      "status": "candidate-context",
+      "text": "Isopod"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Consensys/gnark",
+      "status": "candidate-context",
+      "text": "gnark is a fast zk-SNARK library that offers a high-level API to design circuits. The library is open source and developed under the Apache 2.0 license"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Consensys/gnark",
+      "status": "candidate-context",
+      "text": "[![Twitter URL](https://img.shields.io/twitter/url/https/twitter.com/gnark_team.svg?style=social&label=Follow%20%40gnark_team)](https://twitter.com/gnark_team) [![License](https://img.shields.io/badge/license-Apache%202-blue)](LICENSE)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "marmotedu/iam",
+      "status": "candidate-context",
+      "text": "\u4f01\u4e1a\u7ea7\u7684 Go \u8bed\u8a00\u5b9e\u6218\u9879\u76ee\uff1a\u8ba4\u8bc1\u548c\u6388\u6743\u7cfb\u7edf\uff08\u5e26\u914d\u5957\u8bfe\u7a0b\uff09"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "marmotedu/iam",
+      "status": "candidate-context",
+      "text": "- \u66f4\u591a\u300c\u4e91\u539f\u751f AI \u5b9e\u6218\u8425\u300d\u9879\u76ee\u89c1\uff1a[\u4e91\u539f\u751f AI \u5b9e\u6218\u8425\u9879\u76ee\u4ecb\u7ecd](https://konglingfei.com/cloudai/intro/%E4%BA%91%E5%8E%9F%E7%94%9F_AI_%E5%AE%9E%E6%88%98%E8%90%A5%E9%A1%B9%E7%9B%AE%E4%BB%8B%E7%BB%8D.html)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dimfeld/httptreemux",
+      "status": "candidate-context",
+      "text": "High-speed, flexible tree-based HTTP router for Go."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dimfeld/httptreemux",
+      "status": "candidate-context",
+      "text": "httptreemux [![Build Status](https://travis-ci.org/dimfeld/httptreemux.png?branch=master)](https://travis-ci.org/dimfeld/httptreemux) [![GoDoc](https://godoc.org/github.com/dimfeld/httptreemux?status.svg)](https://godoc.org/github.com/dimfeld/httptreemux)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "wjdp/htmltest",
+      "status": "candidate-context",
+      "text": ":white_check_mark: Test generated HTML for problems"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "wjdp/htmltest",
+      "status": "candidate-context",
+      "text": "[![Go Report Card](https://goreportcard.com/badge/github.com/wjdp/htmltest)](https://goreportcard.com/report/github.com/wjdp/htmltest)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "google/triage-party",
+      "status": "candidate-context",
+      "text": "\ud83c\udf89 Triage Party: massively multi-player GitHub triage \ud83c\udf89"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/triage-party",
+      "status": "candidate-context",
+      "text": "`NOTE: This is not an officially supported Google product`"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "prometheus/exporter-toolkit",
+      "status": "candidate-context",
+      "text": "Utility package to build exporters"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "prometheus/exporter-toolkit",
+      "status": "candidate-context",
+      "text": "[![CircleCI](https://circleci.com/gh/prometheus/exporter-toolkit/tree/master.svg?style=shield)][circleci]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "monitoring-mixins/mixtool",
+      "status": "candidate-context",
+      "text": "mixtool is a helper for easily working with jsonnet mixins."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "monitoring-mixins/mixtool",
+      "status": "candidate-context",
+      "text": "> NOTE: This project is *alpha* stage. Flags, configuration, behavior and design may change significantly in following releases."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hajimehoshi/ebiten",
+      "status": "candidate-context",
+      "text": "A dead simple 2D game engine for Go"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hajimehoshi/ebiten",
+      "status": "candidate-context",
+      "text": "[![Go Reference](https://pkg.go.dev/badge/github.com/hajimehoshi/ebiten/v2.svg)](https://pkg.go.dev/github.com/hajimehoshi/ebiten/v2)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sugarme/gotch",
+      "status": "candidate-context",
+      "text": "Go binding for Pytorch C++ API (libtorch)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sugarme/gotch",
+      "status": "candidate-context",
+      "text": "`gotch` creates a thin wrapper to Pytorch C++ APIs (Libtorch) to make use of its already optimized C++ tensor APIs (3039) and dynamic graph computation with CUDA support and provides idiomatic Go APIs for developing and implementing Deep Learning in Go."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apache/beam",
+      "status": "candidate-context",
+      "text": "Apache Beam is a unified programming model for Batch and Streaming data processing."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/beam",
+      "status": "candidate-context",
+      "text": "<!--"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cointop-sh/colors",
+      "status": "candidate-context",
+      "text": "Cointop colorschemes"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cointop-sh/colors",
+      "status": "candidate-context",
+      "text": "> Standard colorschemes (themes) for [cointop](https://github.com/miguelmota/cointop/)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "googleapis/google-cloud-go",
+      "status": "candidate-context",
+      "text": "Google Cloud Client Libraries for Go."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "googleapis/google-cloud-go",
+      "status": "candidate-context",
+      "text": "[![Go Reference](https://pkg.go.dev/badge/cloud.google.com/go.svg)](https://pkg.go.dev/cloud.google.com/go)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "localtunnel/go-localtunnel",
+      "status": "candidate-context",
+      "text": "golang client library for localtunnel.me"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "localtunnel/go-localtunnel",
+      "status": "candidate-context",
+      "text": "LocalTunnel Client Library for Go [![Build Status](https://travis-ci.org/jonasfj/go-localtunnel.svg?branch=master)](https://travis-ci.org/jonasfj/go-localtunnel)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "h2non/baloo",
+      "status": "candidate-context",
+      "text": "Expressive end-to-end HTTP API testing made easy in Go"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "h2non/baloo",
+      "status": "candidate-context",
+      "text": "Expressive and versatile end-to-end HTTP API testing made easy in [Go](http://golang.org) (golang), built on top of [gentleman](https://github.com/h2non/gentleman) HTTP client toolkit."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "expr-lang/expr",
+      "status": "candidate-context",
+      "text": "Expression language and expression evaluation for Go"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "expr-lang/expr",
+      "status": "candidate-context",
+      "text": "<h1><a href=\"https://expr-lang.org\"><img src=\"https://expr-lang.org/img/logo.png\" alt=\"Zx logo\" height=\"48\"align=\"right\"></a> Expr</h1>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "itchyny/gojo",
+      "status": "candidate-context",
+      "text": "Yet another Go implementation of jo"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "itchyny/gojo",
+      "status": "candidate-context",
+      "text": "[![CI Status](https://github.com/itchyny/gojo/actions/workflows/ci.yaml/badge.svg?branch=main)](https://github.com/itchyny/gojo/actions?query=branch:main)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "redis/rueidis",
+      "status": "candidate-context",
+      "text": "A fast Golang Redis client that supports Client Side Caching, Auto Pipelining, RDMA, etc."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "redis/rueidis",
+      "status": "candidate-context",
+      "text": "[![Go Reference](https://pkg.go.dev/badge/github.com/redis/rueidis.svg)](https://pkg.go.dev/github.com/redis/rueidis)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "improbable-eng/grpc-web",
+      "status": "candidate-context",
+      "text": "gRPC Web implementation for Golang and TypeScript"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "improbable-eng/grpc-web",
+      "status": "candidate-context",
+      "text": "[![CircleCI](https://circleci.com/gh/improbable-eng/grpc-web/tree/master.svg?style=svg)](https://circleci.com/gh/improbable-eng/grpc-web/tree/master)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dundee/gdu",
+      "status": "candidate-context",
+      "text": "Fast disk usage analyzer with console interface written in Go"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dundee/gdu",
+      "status": "candidate-context",
+      "text": "<img src=\"./gdu.png\" alt=\"Gdu \" width=\"200\" align=\"right\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "viktomas/godu",
+      "status": "candidate-context",
+      "text": "Simple golang utility helping to discover large files/folders."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "viktomas/godu",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://travis-ci.org/viktomas/godu.svg?branch=master)](https://travis-ci.org/viktomas/godu)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dmitryikh/leaves",
+      "status": "candidate-context",
+      "text": "pure Go implementation of prediction part for GBRT (Gradient Boosting Regression Trees) models from popular frameworks"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dmitryikh/leaves",
+      "status": "candidate-context",
+      "text": "[![version](https://img.shields.io/badge/version-0.8.0-yellow.svg)](https://semver.org)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "codota/tabnine-sublime",
+      "status": "candidate-context",
+      "text": "Tabnine Autocomplete AI: JavaScript, Python, TypeScript, PHP, C/C++, HTML/CSS, Go, Java, Ruby, C#, Rust, SQL, Bash, Kotlin, Julia, Lua, OCaml, Perl, Haskell, React"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "codota/tabnine-sublime",
+      "status": "candidate-context",
+      "text": "[twitter-shield]: https://img.shields.io/twitter/follow/Tabnine_?style=social"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "codota/tabnine-vim",
+      "status": "candidate-context",
+      "text": "Vim client for TabNine. https://vimawesome.com/plugin/tabnine-vim"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "codota/tabnine-vim",
+      "status": "candidate-context",
+      "text": "[twitter-shield]: https://img.shields.io/twitter/follow/Tabnine_?style=social"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "abhinav/goldmark-hashtag",
+      "status": "candidate-context",
+      "text": "Adds support for #hashtags to the Goldmark Markdown parser."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "abhinav/goldmark-hashtag",
+      "status": "candidate-context",
+      "text": "[![Go Reference](https://pkg.go.dev/badge/go.abhg.dev/goldmark/hashtag.svg)](https://pkg.go.dev/go.abhg.dev/goldmark/hashtag)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cloudwego/kitex-examples",
+      "status": "candidate-context",
+      "text": "Examples for Kitex."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cloudwego/kitex-examples",
+      "status": "candidate-context",
+      "text": "English | [\u4e2d\u6587](README_CN.md)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cloudwego/netpoll",
+      "status": "candidate-context",
+      "text": "A high-performance non-blocking I/O networking framework focusing on RPC scenarios."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cloudwego/netpoll",
+      "status": "candidate-context",
+      "text": "[\u4e2d\u6587](README_CN.md)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "starlight-go/starlight",
+      "status": "candidate-context",
+      "text": "a go wrapper for google's starlark embedded python language"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "starlight-go/starlight",
+      "status": "candidate-context",
+      "text": "<p align=\"center\" style=\"font-weight:bold\">!! Starlight is still a WIP !!<p/>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Consensys/gnark-crypto",
+      "status": "candidate-context",
+      "text": "gnark-crypto provides elliptic curve and pairing-based cryptography on BN, BLS12, BLS24 and BW6 curves. It also provides various algorithms (algebra, crypto) of particular interest to zero knowledge proof systems"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Consensys/gnark-crypto",
+      "status": "candidate-context",
+      "text": "[![Twitter URL](https://img.shields.io/twitter/url/https/twitter.com/gnark_team.svg?style=social&label=Follow%20%40gnark_team)](https://x.com/gnark_team) [![License](https://img.shields.io/badge/license-Apache%202-blue)](LICENSE) [![Go Report Card](https://goreportcard.com/badge\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ingonyama-zk/icicle-gnark",
+      "status": "candidate-context",
+      "text": "ICICLE version for gnark integration"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ingonyama-zk/icicle-gnark",
+      "status": "candidate-context",
+      "text": "GoLang"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "vmihailenco/taskq",
+      "status": "candidate-context",
+      "text": "Golang asynchronous task/job queue with Redis, SQS, IronMQ, and in-memory backends"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vmihailenco/taskq",
+      "status": "candidate-context",
+      "text": "![build workflow](https://github.com/vmihailenco/taskq/actions/workflows/build.yml/badge.svg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "segmentio/ksuid",
+      "status": "candidate-context",
+      "text": "K-Sortable Globally Unique IDs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "segmentio/ksuid",
+      "status": "candidate-context",
+      "text": "ksuid is an efficient, comprehensive, battle-tested Go library for"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "argoproj-labs/argocd-image-updater",
+      "status": "candidate-context",
+      "text": "Automatic container image update for Argo CD"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "argoproj-labs/argocd-image-updater",
+      "status": "candidate-context",
+      "text": "![Integration tests](https://github.com/argoproj-labs/argocd-image-updater/workflows/Integration%20tests/badge.svg?branch=master&event=push)"
     }
   ],
   "candidate_glosses": [
@@ -3924,6 +4381,234 @@
       "source_repo": "spacemeshos/go-spacemesh",
       "status": "candidate",
       "text": "[![license](https://img.shields.io/packagist/l/doctrine/orm.svg)](https://github.com/spacemeshos/go-spacemesh/blob/master/LICENSE)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chaisql/chai",
+      "status": "candidate",
+      "text": "ChaiSQL is a modern embedded SQL database, written in pure Go, with a PostgreSQL-inspired API."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "yuin/goldmark",
+      "status": "candidate",
+      "text": "goldmark"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gorilla/websocket",
+      "status": "candidate",
+      "text": "[![GoDoc](https://godoc.org/github.com/gorilla/websocket?status.svg)](https://godoc.org/github.com/gorilla/websocket)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "1set/starlet",
+      "status": "candidate",
+      "text": "[![godoc](https://pkg.go.dev/badge/github.com/1set/starlet.svg)](https://pkg.go.dev/github.com/1set/starlet)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "autokitteh/autokitteh",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cruise-automation/isopod",
+      "status": "candidate",
+      "text": "Isopod"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Consensys/gnark",
+      "status": "candidate",
+      "text": "[![Twitter URL](https://img.shields.io/twitter/url/https/twitter.com/gnark_team.svg?style=social&label=Follow%20%40gnark_team)](https://twitter.com/gnark_team) [![License](https://img.shields.io/badge/license-Apache%202-blue)](LICENSE)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "marmotedu/iam",
+      "status": "candidate",
+      "text": "- \u66f4\u591a\u300c\u4e91\u539f\u751f AI \u5b9e\u6218\u8425\u300d\u9879\u76ee\u89c1\uff1a[\u4e91\u539f\u751f AI \u5b9e\u6218\u8425\u9879\u76ee\u4ecb\u7ecd](https://konglingfei.com/cloudai/intro/%E4%BA%91%E5%8E%9F%E7%94%9F_AI_%E5%AE%9E%E6%88%98%E8%90%A5%E9%A1%B9%E7%9B%AE%E4%BB%8B%E7%BB%8D.html)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dimfeld/httptreemux",
+      "status": "candidate",
+      "text": "httptreemux [![Build Status](https://travis-ci.org/dimfeld/httptreemux.png?branch=master)](https://travis-ci.org/dimfeld/httptreemux) [![GoDoc](https://godoc.org/github.com/dimfeld/httptreemux?status.svg)](https://godoc.org/github.com/dimfeld/httptreemux)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "wjdp/htmltest",
+      "status": "candidate",
+      "text": "[![Go Report Card](https://goreportcard.com/badge/github.com/wjdp/htmltest)](https://goreportcard.com/report/github.com/wjdp/htmltest)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/triage-party",
+      "status": "candidate",
+      "text": "`NOTE: This is not an officially supported Google product`"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "prometheus/exporter-toolkit",
+      "status": "candidate",
+      "text": "[![CircleCI](https://circleci.com/gh/prometheus/exporter-toolkit/tree/master.svg?style=shield)][circleci]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "monitoring-mixins/mixtool",
+      "status": "candidate",
+      "text": "> NOTE: This project is *alpha* stage. Flags, configuration, behavior and design may change significantly in following releases."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hajimehoshi/ebiten",
+      "status": "candidate",
+      "text": "[![Go Reference](https://pkg.go.dev/badge/github.com/hajimehoshi/ebiten/v2.svg)](https://pkg.go.dev/github.com/hajimehoshi/ebiten/v2)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sugarme/gotch",
+      "status": "candidate",
+      "text": "`gotch` creates a thin wrapper to Pytorch C++ APIs (Libtorch) to make use of its already optimized C++ tensor APIs (3039) and dynamic graph computation with CUDA support and provides idiomatic Go APIs for developing and implementing Deep Learning in Go."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/beam",
+      "status": "candidate",
+      "text": "<!--"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cointop-sh/colors",
+      "status": "candidate",
+      "text": "> Standard colorschemes (themes) for [cointop](https://github.com/miguelmota/cointop/)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "googleapis/google-cloud-go",
+      "status": "candidate",
+      "text": "[![Go Reference](https://pkg.go.dev/badge/cloud.google.com/go.svg)](https://pkg.go.dev/cloud.google.com/go)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "localtunnel/go-localtunnel",
+      "status": "candidate",
+      "text": "LocalTunnel Client Library for Go [![Build Status](https://travis-ci.org/jonasfj/go-localtunnel.svg?branch=master)](https://travis-ci.org/jonasfj/go-localtunnel)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "h2non/baloo",
+      "status": "candidate",
+      "text": "Expressive and versatile end-to-end HTTP API testing made easy in [Go](http://golang.org) (golang), built on top of [gentleman](https://github.com/h2non/gentleman) HTTP client toolkit."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "expr-lang/expr",
+      "status": "candidate",
+      "text": "<h1><a href=\"https://expr-lang.org\"><img src=\"https://expr-lang.org/img/logo.png\" alt=\"Zx logo\" height=\"48\"align=\"right\"></a> Expr</h1>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "itchyny/gojo",
+      "status": "candidate",
+      "text": "[![CI Status](https://github.com/itchyny/gojo/actions/workflows/ci.yaml/badge.svg?branch=main)](https://github.com/itchyny/gojo/actions?query=branch:main)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "redis/rueidis",
+      "status": "candidate",
+      "text": "[![Go Reference](https://pkg.go.dev/badge/github.com/redis/rueidis.svg)](https://pkg.go.dev/github.com/redis/rueidis)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "improbable-eng/grpc-web",
+      "status": "candidate",
+      "text": "[![CircleCI](https://circleci.com/gh/improbable-eng/grpc-web/tree/master.svg?style=svg)](https://circleci.com/gh/improbable-eng/grpc-web/tree/master)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dundee/gdu",
+      "status": "candidate",
+      "text": "<img src=\"./gdu.png\" alt=\"Gdu \" width=\"200\" align=\"right\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "viktomas/godu",
+      "status": "candidate",
+      "text": "[![Build Status](https://travis-ci.org/viktomas/godu.svg?branch=master)](https://travis-ci.org/viktomas/godu)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dmitryikh/leaves",
+      "status": "candidate",
+      "text": "[![version](https://img.shields.io/badge/version-0.8.0-yellow.svg)](https://semver.org)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "codota/tabnine-sublime",
+      "status": "candidate",
+      "text": "[twitter-shield]: https://img.shields.io/twitter/follow/Tabnine_?style=social"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "codota/tabnine-vim",
+      "status": "candidate",
+      "text": "[twitter-shield]: https://img.shields.io/twitter/follow/Tabnine_?style=social"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "abhinav/goldmark-hashtag",
+      "status": "candidate",
+      "text": "[![Go Reference](https://pkg.go.dev/badge/go.abhg.dev/goldmark/hashtag.svg)](https://pkg.go.dev/go.abhg.dev/goldmark/hashtag)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cloudwego/kitex-examples",
+      "status": "candidate",
+      "text": "English | [\u4e2d\u6587](README_CN.md)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cloudwego/netpoll",
+      "status": "candidate",
+      "text": "[\u4e2d\u6587](README_CN.md)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "starlight-go/starlight",
+      "status": "candidate",
+      "text": "<p align=\"center\" style=\"font-weight:bold\">!! Starlight is still a WIP !!<p/>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Consensys/gnark-crypto",
+      "status": "candidate",
+      "text": "[![Twitter URL](https://img.shields.io/twitter/url/https/twitter.com/gnark_team.svg?style=social&label=Follow%20%40gnark_team)](https://x.com/gnark_team) [![License](https://img.shields.io/badge/license-Apache%202-blue)](LICENSE) [![Go Report Card](https://goreportcard.com/badge\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ingonyama-zk/icicle-gnark",
+      "status": "candidate",
+      "text": "GoLang"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vmihailenco/taskq",
+      "status": "candidate",
+      "text": "![build workflow](https://github.com/vmihailenco/taskq/actions/workflows/build.yml/badge.svg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "segmentio/ksuid",
+      "status": "candidate",
+      "text": "ksuid is an efficient, comprehensive, battle-tested Go library for"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "argoproj-labs/argocd-image-updater",
+      "status": "candidate",
+      "text": "![Integration tests](https://github.com/argoproj-labs/argocd-image-updater/workflows/Integration%20tests/badge.svg?branch=master&event=push)"
     }
   ],
   "candidate_related_terms": [],
@@ -5377,11 +6062,311 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "spacemeshos/go-spacemesh"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "ashvardanian/NumKong"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "codota/TabNine"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "gitleaks/gitleaks"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "chaisql/chai"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "yuin/goldmark"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "apache/casbin-fasthttp-auth"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "gorilla/websocket"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "1set/starlet"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "autokitteh/autokitteh"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "cruise-automation/isopod"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "Consensys/gnark"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "ipsilon/evmc"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "marmotedu/iam"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "uptrace/bunrouter"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "dimfeld/httptreemux"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "redis/go-redis"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "wjdp/htmltest"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "moby/moby"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "google/triage-party"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "prometheus/exporter-toolkit"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "monitoring-mixins/mixtool"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "bazel-contrib/rules_go"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "hajimehoshi/ebiten"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "sugarme/gotch"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "apache/beam"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "cointop-sh/colors"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "ollama/ollama"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "googleapis/google-cloud-go"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "localtunnel/go-localtunnel"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "h2non/baloo"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "expr-lang/expr"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "itchyny/gojo"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "redis/rueidis"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "improbable-eng/grpc-web"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "ko-build/ko"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "dundee/gdu"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "viktomas/godu"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "dmitryikh/leaves"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "codota/tabnine-atom"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "codota/tabnine-sublime"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "codota/tabnine-vim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "abhinav/goldmark-hashtag"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "cloudwego/kitex-examples"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "cloudwego/netpoll"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "starlight-go/starlight"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "Consensys/gnark-crypto"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/golang.yml",
+      "source_repo": "ingonyama-zk/icicle-gnark"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "vmihailenco/taskq"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "segmentio/ksuid"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "argoproj-labs/argocd-image-updater"
     }
   ],
   "first_seen_at": "2026-04-18T10:38:37.562216+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -21,13 +21,6 @@
     },
     {
       "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "dwyl/mongo-search",
-      "target": "mongodb/node-mongodb-native",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
       "source_file": "package.json",
       "source_repo": "dwyl/mongo-search",
       "target": "ideaq/mongo-search",
@@ -48,7 +41,7 @@
       "target_type": "component"
     }
   ],
-  "fetched_at": "2026-04-29T20:57:27.031885+00:00",
+  "fetched_at": "2026-04-30T02:54:04.298813+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -77,11 +70,6 @@
     {
       "edge_type": "explicit-github-link",
       "full_name": "ideaq/meteor-search",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "mongodb/node-mongodb-native",
       "source_file": "README.md"
     },
     {

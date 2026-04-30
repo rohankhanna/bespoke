@@ -1,7 +1,7 @@
 {
   "discovered_via": "github-hosted-files",
   "first_seen_at": "2026-04-17T12:50:06.073855+00:00",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "source_repo": "NousResearch/hermes-agent",
   "sources": [
     {
@@ -33,6 +33,16 @@
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/deploy.yml",
       "source_repo": "jmespath/jmespath.site"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/deploy-site.yaml",
+      "source_repo": "apache/logging-log4j2"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/deploy-site.yml",
+      "source_repo": "sparkjsdev/spark"
     }
   ],
   "term": "Deploy Site"

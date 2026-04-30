@@ -91,6 +91,42 @@
       "source_repo": "waltonfuture/InstructionGPT-4",
       "status": "candidate-context",
       "text": "[Lai Wei](https://waltonfuture.github.io/) , Zihao Jiang, [Weiran Huang](https://www.weiranhuang.com/), [Lichao Sun](https://lichao-sun.github.io/)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "linkedin/Liger-Kernel",
+      "status": "candidate-context",
+      "text": "Efficient Triton Kernels for LLM Training"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "linkedin/Liger-Kernel",
+      "status": "candidate-context",
+      "text": "<a name=\"readme-top\"></a>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "feifeibear/long-context-attention",
+      "status": "candidate-context",
+      "text": "USP: Unified (a.k.a. Hybrid, 2D) Sequence Parallel Attention for Long Context Transformers Model Training and Inference"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "feifeibear/long-context-attention",
+      "status": "candidate-context",
+      "text": "[\\[Tech Report\\] USP: A Unified Sequence Parallelism Approach for Long Context Generative AI](https://arxiv.org/abs/2405.07719)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "skypilot-org/skypilot",
+      "status": "candidate-context",
+      "text": "Run, manage, and scale AI workloads on any AI infrastructure. Use one system to access & manage all AI compute (Kubernetes, Slurm, 20+ clouds, on-prem)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "skypilot-org/skypilot",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -135,6 +171,24 @@
       "source_repo": "waltonfuture/InstructionGPT-4",
       "status": "candidate",
       "text": "[Lai Wei](https://waltonfuture.github.io/) , Zihao Jiang, [Weiran Huang](https://www.weiranhuang.com/), [Lichao Sun](https://lichao-sun.github.io/)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "linkedin/Liger-Kernel",
+      "status": "candidate",
+      "text": "<a name=\"readme-top\"></a>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "feifeibear/long-context-attention",
+      "status": "candidate",
+      "text": "[\\[Tech Report\\] USP: A Unified Sequence Parallelism Approach for Long Context Generative AI](https://arxiv.org/abs/2405.07719)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "skypilot-org/skypilot",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_related_terms": [],
@@ -202,11 +256,35 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "waltonfuture/InstructionGPT-4"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "gitleaks/gitleaks"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "linkedin/Liger-Kernel"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "feifeibear/long-context-attention"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "skypilot-org/skypilot"
     }
   ],
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

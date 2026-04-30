@@ -1,0 +1,112 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "liuchengxu/vim-better-default",
+      "target": "syl20bnr/spacemacs",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "liuchengxu/vim-better-default",
+      "target": "tpope/vim-sensible",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "liuchengxu/vim-better-default",
+      "target": "default-vim",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "liuchengxu/vim-better-default",
+      "target": "space-vim",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "liuchengxu/vim-better-default",
+      "target": "vim-plugin",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "liuchengxu/vim-better-default",
+      "target": "vimrc",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T00:38:16.925484+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4255
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": ":art: Simplify your .vimrc and make the default vim better",
+    "fork": false,
+    "full_name": "liuchengxu/vim-better-default",
+    "html_url": "https://github.com/liuchengxu/vim-better-default",
+    "language": "Vim Script",
+    "pushed_at": "2025-04-03T08:38:56Z",
+    "stargazers_count": 160,
+    "topics": [
+      "default-vim",
+      "space-vim",
+      "vim",
+      "vim-plugin",
+      "vimrc"
+    ],
+    "updated_at": "2025-04-03T08:38:59Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "syl20bnr/spacemacs",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "tpope/vim-sensible",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "vim-better-default",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "default-vim"
+    },
+    {
+      "context_snippet": "vim-better-default",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "space-vim"
+    },
+    {
+      "context_snippet": "vim-better-default",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vim-plugin"
+    },
+    {
+      "context_snippet": "vim-better-default",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vimrc"
+    }
+  ]
+}

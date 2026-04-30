@@ -32,6 +32,18 @@
       "source_repo": "opencost/opencost",
       "status": "candidate-context",
       "text": "auto-label-new-issues"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "opencost/opencost-plugins",
+      "status": "candidate-context",
+      "text": "Plugins for extending OpenCost with new Custom Cost Sources"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "opencost/opencost-plugins",
+      "status": "candidate-context",
+      "text": "auto-label-new-issues"
     }
   ],
   "candidate_glosses": [
@@ -44,6 +56,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "opencost/opencost",
+      "status": "candidate",
+      "text": "auto-label-new-issues"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "opencost/opencost-plugins",
       "status": "candidate",
       "text": "auto-label-new-issues"
     }
@@ -101,11 +119,17 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": ".github/workflows/auto_label_issues.yml",
       "source_repo": "opencost/opencost"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/auto_label_issues.yml",
+      "source_repo": "opencost/opencost-plugins"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

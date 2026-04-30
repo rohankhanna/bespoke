@@ -1,0 +1,77 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "lunacookies/vim-colors-xcode",
+      "target": "hail2u/vim-css3-syntax",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "lunacookies/vim-colors-xcode",
+      "target": "glench/vim-jinja2-syntax",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "lunacookies/vim-colors-xcode",
+      "target": "cakebaker/scss-syntax.vim",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "lunacookies/vim-colors-xcode",
+      "target": "lifepillar/vim-colortemplate",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T02:54:09.982159+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 13591
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Xcode 11\u2019s dark and light colourschemes for Vim",
+    "fork": false,
+    "full_name": "lunacookies/vim-colors-xcode",
+    "html_url": "https://github.com/lunacookies/vim-colors-xcode",
+    "language": "Vim Script",
+    "pushed_at": "2025-12-02T09:15:10Z",
+    "stargazers_count": 643,
+    "topics": [],
+    "updated_at": "2026-04-29T16:09:23Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cakebaker/scss-syntax.vim",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "glench/vim-jinja2-syntax",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "hail2u/vim-css3-syntax",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "lifepillar/vim-colortemplate",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

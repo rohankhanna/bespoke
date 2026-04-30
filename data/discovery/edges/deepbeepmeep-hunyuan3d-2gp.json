@@ -1,0 +1,34 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "deepbeepmeep/Hunyuan3D-2GP",
+      "target": "deepbeepmeep/mmgp",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "deepbeepmeep/Hunyuan3D-2GP",
+      "target": "deepbeepmeep/hunyuanvideogp",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "deepbeepmeep/Hunyuan3D-2GP",
+      "target": "deepbeepmeep/ominicontrolgp",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "deepbeepmeep/Hunyuan3D-2GP",
+      "target": "darkon12/hunyuan3d-2gp_kaggle",
+      "target_type": "repository"
+    }
+  ],
+  "generated_at": "2026-04-30T00:37:16.824464+00:00",
+  "source_repo": "deepbeepmeep/Hunyuan3D-2GP"
+}

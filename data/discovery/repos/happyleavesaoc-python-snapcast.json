@@ -1,0 +1,100 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "happyleavesaoc/python-snapcast",
+      "target": "badaix/snapcast",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "happyleavesaoc/python-snapcast",
+      "target": "async",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "happyleavesaoc/python-snapcast",
+      "target": "multi-room-audio",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "happyleavesaoc/python-snapcast",
+      "target": "python3",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "happyleavesaoc/python-snapcast",
+      "target": "snapcast",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T04:06:46.025653+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1668
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Python API for controlling Snapcast, a multi-room synchronous audio solution.",
+    "fork": false,
+    "full_name": "happyleavesaoc/python-snapcast",
+    "html_url": "https://github.com/happyleavesaoc/python-snapcast",
+    "language": "Python",
+    "pushed_at": "2025-04-22T19:54:44Z",
+    "stargazers_count": 72,
+    "topics": [
+      "api",
+      "async",
+      "multi-room-audio",
+      "python3",
+      "snapcast"
+    ],
+    "updated_at": "2026-04-08T16:40:35Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "badaix/snapcast",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[![Build Status](https://travis-ci.org/happyleavesaoc/python-snapcast.svg?branch=master)](https://travis-ci.org/happyleavesaoc/python-snapcast) [![PyPI version](https://badge.fury.io/py/snapcast.svg)](https://badge.fury.io/py/snapcast)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "async"
+    },
+    {
+      "context_snippet": "[![Build Status](https://travis-ci.org/happyleavesaoc/python-snapcast.svg?branch=master)](https://travis-ci.org/happyleavesaoc/python-snapcast) [![PyPI version](https://badge.fury.io/py/snapcast.svg)](https://badge.fury.io/py/snapcast)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "multi-room-audio"
+    },
+    {
+      "context_snippet": "[![Build Status](https://travis-ci.org/happyleavesaoc/python-snapcast.svg?branch=master)](https://travis-ci.org/happyleavesaoc/python-snapcast) [![PyPI version](https://badge.fury.io/py/snapcast.svg)](https://badge.fury.io/py/snapcast)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "python3"
+    },
+    {
+      "context_snippet": "[![Build Status](https://travis-ci.org/happyleavesaoc/python-snapcast.svg?branch=master)](https://travis-ci.org/happyleavesaoc/python-snapcast) [![PyPI version](https://badge.fury.io/py/snapcast.svg)](https://badge.fury.io/py/snapcast)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "snapcast"
+    }
+  ]
+}

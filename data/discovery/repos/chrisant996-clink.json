@@ -1,0 +1,46 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/winget-submission.yml",
+      "source_repo": "chrisant996/clink",
+      "target": "Submit Clink release to winget-pkgs",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T05:05:51.020854+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 12326
+    },
+    {
+      "path": ".github/workflows/winget-submission.yml",
+      "size": 1306
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Bash's powerful command line editing in cmd.exe",
+    "fork": false,
+    "full_name": "chrisant996/clink",
+    "html_url": "https://github.com/chrisant996/clink",
+    "language": "C++",
+    "pushed_at": "2026-04-30T00:10:25Z",
+    "stargazers_count": 5171,
+    "topics": [],
+    "updated_at": "2026-04-30T02:18:55Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Submit Clink release to winget-pkgs",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/winget-submission.yml",
+      "term": "Submit Clink release to winget-pkgs"
+    }
+  ]
+}

@@ -1,32 +1,32 @@
 {
   "components": [
     {
-      "component": "actions/checkout@v4",
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/check_diff.yml"
     },
     {
-      "component": "actions/checkout@v4",
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/integration.yml"
     },
     {
-      "component": "actions/checkout@v4",
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/linux.yml"
     },
     {
-      "component": "actions/checkout@v4",
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/mac.yml"
     },
     {
-      "component": "actions/checkout@v4",
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/rustdoc_check.yml"
     },
     {
-      "component": "actions/checkout@v4",
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/upload-assets.yml"
     },
@@ -36,7 +36,7 @@
       "source_file": ".github/workflows/upload-assets.yml"
     },
     {
-      "component": "actions/checkout@v4",
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/windows.yml"
     }
@@ -53,7 +53,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/check_diff.yml",
       "source_repo": "rust-lang/rustfmt",
-      "target": "actions/checkout@v4",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
       "target_type": "component"
     },
     {
@@ -67,7 +67,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/integration.yml",
       "source_repo": "rust-lang/rustfmt",
-      "target": "actions/checkout@v4",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
       "target_type": "component"
     },
     {
@@ -81,7 +81,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/linux.yml",
       "source_repo": "rust-lang/rustfmt",
-      "target": "actions/checkout@v4",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
       "target_type": "component"
     },
     {
@@ -95,7 +95,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/mac.yml",
       "source_repo": "rust-lang/rustfmt",
-      "target": "actions/checkout@v4",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
       "target_type": "component"
     },
     {
@@ -109,7 +109,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/rustdoc_check.yml",
       "source_repo": "rust-lang/rustfmt",
-      "target": "actions/checkout@v4",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
       "target_type": "component"
     },
     {
@@ -123,7 +123,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/upload-assets.yml",
       "source_repo": "rust-lang/rustfmt",
-      "target": "actions/checkout@v4",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
       "target_type": "component"
     },
     {
@@ -144,7 +144,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/windows.yml",
       "source_repo": "rust-lang/rustfmt",
-      "target": "actions/checkout@v4",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
       "target_type": "component"
     },
     {
@@ -183,7 +183,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-22T05:11:12.799305+00:00",
+  "fetched_at": "2026-04-30T00:47:55.076075+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -191,35 +191,35 @@
     },
     {
       "path": "Cargo.toml",
-      "size": 1941
+      "size": 1879
     },
     {
       "path": ".github/workflows/check_diff.yml",
-      "size": 2089
+      "size": 2136
     },
     {
       "path": ".github/workflows/integration.yml",
-      "size": 3100
+      "size": 3147
     },
     {
       "path": ".github/workflows/linux.yml",
-      "size": 1148
+      "size": 1319
     },
     {
       "path": ".github/workflows/mac.yml",
-      "size": 945
+      "size": 1116
     },
     {
       "path": ".github/workflows/rustdoc_check.yml",
-      "size": 736
+      "size": 783
     },
     {
       "path": ".github/workflows/upload-assets.yml",
-      "size": 2563
+      "size": 2610
     },
     {
       "path": ".github/workflows/windows.yml",
-      "size": 2125
+      "size": 2280
     }
   ],
   "related_repositories": [],
@@ -231,15 +231,15 @@
     "full_name": "rust-lang/rustfmt",
     "html_url": "https://github.com/rust-lang/rustfmt",
     "language": "Rust",
-    "pushed_at": "2026-04-21T16:25:15Z",
-    "stargazers_count": 6802,
+    "pushed_at": "2026-04-29T14:22:26Z",
+    "stargazers_count": 6810,
     "topics": [
       "codeformatter",
       "formatter",
       "rust",
       "rustfmt"
     ],
-    "updated_at": "2026-04-21T16:25:23Z"
+    "updated_at": "2026-04-29T20:08:17Z"
   },
   "repo_links": [
     {

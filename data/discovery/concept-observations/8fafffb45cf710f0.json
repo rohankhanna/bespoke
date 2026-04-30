@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "\ud83e\udd17 LeRobot: Making AI for Robotics more accessible with end-to-end learning"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Documentation PR Upload"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Documentation PR Upload"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18558,
+      "status": "candidate",
+      "text": "image"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10982,
+      "status": "candidate",
+      "text": "download"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10509,
+      "status": "candidate",
+      "text": "adduce"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10509,
+      "status": "candidate",
+      "text": "advance against documents"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10509,
+      "status": "candidate",
+      "text": "agio"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Documentation PR Upload",
+      "sense_id": "documentation-pr-upload#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "documentation-pr-upload",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "documentation-pr-upload",
+  "observation_id": "8fafffb45cf710f0",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-30T00:37:16.824464+00:00",
+  "observed_text": "Documentation PR Upload",
+  "source_context_snippet": "Documentation PR Upload",
+  "source_file": ".github/workflows/documentation-upload-pr.yml",
+  "source_repo": "huggingface/lerobot",
+  "source_repo_description": "\ud83e\udd17 LeRobot: Making AI for Robotics more accessible with end-to-end learning"
+}

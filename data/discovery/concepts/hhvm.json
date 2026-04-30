@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "hhvm"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "facebook/hhvm",
+      "status": "candidate-context",
+      "text": "A virtual machine for executing programs written in Hack."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "facebook/hhvm",
+      "status": "candidate-context",
+      "text": "[HHVM page](https://hhvm.com) |"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "facebook/hhvm",
+      "status": "candidate",
+      "text": "[HHVM page](https://hhvm.com) |"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10021362,
+      "status": "candidate",
+      "text": "vhll"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10021361,
+      "status": "candidate",
+      "text": "mvvm"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10021360,
+      "status": "candidate",
+      "text": "llvm"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10021359,
+      "status": "candidate",
+      "text": "hvpt"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10021358,
+      "status": "candidate",
+      "text": "vmci"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "hhvm",
+  "concept_id": "hhvm",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "facebook/hhvm"
+    }
+  ],
+  "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "hhvm",
+      "sense_id": "hhvm#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

@@ -187,6 +187,18 @@
       "source_repo": "ecyrbe/zodios",
       "status": "candidate-context",
       "text": "<h1 align=\"center\">Zodios</h1>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "swagger-api/swagger-codegen",
+      "status": "candidate-context",
+      "text": "swagger-codegen contains a template-driven engine to generate documentation, API clients and server stubs in different languages by parsing your OpenAPI / Swagger definition."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "swagger-api/swagger-codegen",
+      "status": "candidate-context",
+      "text": "![Swagger Codegen Logo](./docs/Swagger-Codegen-Logo.png)"
     }
   ],
   "candidate_glosses": [
@@ -279,6 +291,12 @@
       "source_repo": "ecyrbe/zodios",
       "status": "candidate",
       "text": "<h1 align=\"center\">Zodios</h1>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "swagger-api/swagger-codegen",
+      "status": "candidate",
+      "text": "![Swagger Codegen Logo](./docs/Swagger-Codegen-Logo.png)"
     }
   ],
   "candidate_related_terms": [
@@ -460,11 +478,23 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "rest-sh/restish"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "swagger-api/swagger-codegen"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "fastapi/fastapi"
     }
   ],
   "first_seen_at": "2026-04-21T18:51:25.552552+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

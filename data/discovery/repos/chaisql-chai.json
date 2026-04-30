@@ -1,0 +1,120 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml"
+    },
+    {
+      "component": "actions/setup-go@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "chaisql/chai",
+      "target": "cockroachdb/pebble",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml",
+      "source_repo": "chaisql/chai",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml",
+      "source_repo": "chaisql/chai",
+      "target": "actions/setup-go@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "chaisql/chai",
+      "target": "database",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "chaisql/chai",
+      "target": "embedded-database",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "chaisql/chai",
+      "target": "golang",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T00:49:24.213561+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4677
+    },
+    {
+      "path": "go.mod",
+      "size": 1972
+    },
+    {
+      "path": ".github/workflows/go.yml",
+      "size": 622
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Modern embedded SQL database",
+    "fork": false,
+    "full_name": "chaisql/chai",
+    "html_url": "https://github.com/chaisql/chai",
+    "language": "Go",
+    "pushed_at": "2026-01-16T09:12:13Z",
+    "stargazers_count": 1682,
+    "topics": [
+      "database",
+      "embedded-database",
+      "go",
+      "golang",
+      "sql"
+    ],
+    "updated_at": "2026-04-27T23:38:30Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cockroachdb/pebble",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "ChaiSQL is a modern embedded SQL database, written in pure Go, with a PostgreSQL-inspired API.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "database"
+    },
+    {
+      "context_snippet": "ChaiSQL is a modern embedded SQL database, written in pure Go, with a PostgreSQL-inspired API.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "embedded-database"
+    },
+    {
+      "context_snippet": "ChaiSQL is a modern embedded SQL database, written in pure Go, with a PostgreSQL-inspired API.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "golang"
+    }
+  ]
+}

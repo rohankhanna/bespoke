@@ -1,0 +1,82 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-publish.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-publish.yml"
+    },
+    {
+      "component": "pypa/gh-action-pypi-publish@27b31702a0e7fc50959f5ad993c78deac1bdfc29",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-publish.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "cnescatlab/pylint-sonarjson-catlab",
+      "target": "omegacen/pylint-sonarjson",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-publish.yml",
+      "source_repo": "cnescatlab/pylint-sonarjson-catlab",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-publish.yml",
+      "source_repo": "cnescatlab/pylint-sonarjson-catlab",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-publish.yml",
+      "source_repo": "cnescatlab/pylint-sonarjson-catlab",
+      "target": "pypa/gh-action-pypi-publish@27b31702a0e7fc50959f5ad993c78deac1bdfc29",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-04-30T04:11:32.392540+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4786
+    },
+    {
+      "path": ".github/workflows/python-publish.yml",
+      "size": 1089
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "[Forked from omegacen/pylint-sonarjson] A PyLint plugin that outputs to SonarQube-importable JSON with configurable severity, effort, and type",
+    "fork": true,
+    "full_name": "cnescatlab/pylint-sonarjson-catlab",
+    "html_url": "https://github.com/cnescatlab/pylint-sonarjson-catlab",
+    "language": "Python",
+    "pushed_at": "2024-10-16T09:43:35Z",
+    "stargazers_count": 0,
+    "topics": [],
+    "updated_at": "2024-10-16T09:43:40Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "omegacen/pylint-sonarjson",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

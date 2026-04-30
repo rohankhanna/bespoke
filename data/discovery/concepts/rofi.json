@@ -19,6 +19,30 @@
       "source_repo": "davatorium/rofi",
       "status": "candidate-context",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "2KAbhishek/rofi2k",
+      "status": "candidate-context",
+      "text": "Your Universal Launchpad \ud83d\udef8\ud83d\ude80"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "2KAbhishek/rofi2k",
+      "status": "candidate-context",
+      "text": "<div align = \"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "svenstaro/rofi-calc",
+      "status": "candidate-context",
+      "text": "\ud83d\udda9 Do live calculations in rofi!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "svenstaro/rofi-calc",
+      "status": "candidate-context",
+      "text": "**\ud83d\udda9 Do live calculations in rofi!**"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +51,18 @@
       "source_repo": "davatorium/rofi",
       "status": "candidate",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "2KAbhishek/rofi2k",
+      "status": "candidate",
+      "text": "<div align = \"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "svenstaro/rofi-calc",
+      "status": "candidate",
+      "text": "**\ud83d\udda9 Do live calculations in rofi!**"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +76,23 @@
       "observed_at": "2026-04-22T18:52:26.467154+00:00",
       "source_file": null,
       "source_repo": "davatorium/rofi"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "2KAbhishek/rofi2k"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "svenstaro/rofi-calc"
     }
   ],
   "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

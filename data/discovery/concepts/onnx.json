@@ -427,6 +427,102 @@
       "source_repo": "awslabs/multi-model-server",
       "status": "candidate-context",
       "text": "Multi Model Server"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "AXERA-TECH/ax-samples",
+      "status": "candidate-context",
+      "text": "Samples code for world class Artificial Intelligence SoCs for computer vision applications."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AXERA-TECH/ax-samples",
+      "status": "candidate-context",
+      "text": "[English](./README_EN.md) | \u7b80\u4f53\u4e2d\u6587"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "vietanhdev/samexporter",
+      "status": "candidate-context",
+      "text": "Exporting Segment Anything, MobileSAM, and Segment Anything 2 into ONNX format for easy deployment"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vietanhdev/samexporter",
+      "status": "candidate-context",
+      "text": "Export [Segment Anything](https://github.com/facebookresearch/segment-anything), [MobileSAM](https://github.com/ChaoningZhang/MobileSAM), [Segment Anything 2 / 2.1](https://github.com/facebookresearch/segment-anything-2), and [Segment Anything 3](https://github.com/facebookresea\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "fabio-sim/Depth-Anything-ONNX",
+      "status": "candidate-context",
+      "text": "ONNX-compatible Depth Anything: Unleashing the Power of Large-Scale Unlabeled Data"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fabio-sim/Depth-Anything-ONNX",
+      "status": "candidate-context",
+      "text": "[![ONNX](https://img.shields.io/badge/ONNX-grey)](https://onnx.ai/)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "PINTO0309/PINTO_model_zoo",
+      "status": "candidate-context",
+      "text": "A repository for storing models that have been inter-converted between various frameworks. Supported frameworks are TensorFlow, PyTorch, ONNX, OpenVINO, TFJS, TFTRT, TensorFlowLite (Float32/16/INT8), EdgeTPU, CoreML."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PINTO0309/PINTO_model_zoo",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "zhiqwang/yolort",
+      "status": "candidate-context",
+      "text": "yolort is a runtime stack for yolov5 on specialized accelerators such as tensorrt, libtorch, onnxruntime, tvm and ncnn."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "zhiqwang/yolort",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ibaiGorordo/ONNX-SAM2-Segment-Anything",
+      "status": "candidate-context",
+      "text": "Python scripts for the Segment Anythin 2 (SAM2) model in ONNX"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ibaiGorordo/ONNX-SAM2-Segment-Anything",
+      "status": "candidate-context",
+      "text": "![!ONNX-SAM2-Segment-Anything](https://github.com/ibaiGorordo/ONNX-SAM2-Segment-Anything/raw/main/doc/img/sam2_mask_with_boxes.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "vietanhdev/anylabeling",
+      "status": "candidate-context",
+      "text": "Effortless AI-assisted data labeling with AI support from YOLO, Segment Anything (SAM+SAM2/2.1+SAM3), MobileSAM!!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vietanhdev/anylabeling",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "microsoft/MMdnn",
+      "status": "candidate-context",
+      "text": "MMdnn is a set of tools to help users inter-operate among different deep learning frameworks. E.g. model conversion and visualization. Convert models between Caffe, Keras, MXNet, Tensorflow, CNTK, PyTorch Onnx and CoreML."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/MMdnn",
+      "status": "candidate-context",
+      "text": "[![PyPi Version](https://img.shields.io/pypi/v/mmdnn.svg)](https://pypi.org/project/mmdnn/)"
     }
   ],
   "candidate_glosses": [
@@ -639,6 +735,54 @@
       "source_repo": "awslabs/multi-model-server",
       "status": "candidate",
       "text": "Multi Model Server"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AXERA-TECH/ax-samples",
+      "status": "candidate",
+      "text": "[English](./README_EN.md) | \u7b80\u4f53\u4e2d\u6587"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vietanhdev/samexporter",
+      "status": "candidate",
+      "text": "Export [Segment Anything](https://github.com/facebookresearch/segment-anything), [MobileSAM](https://github.com/ChaoningZhang/MobileSAM), [Segment Anything 2 / 2.1](https://github.com/facebookresearch/segment-anything-2), and [Segment Anything 3](https://github.com/facebookresea\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fabio-sim/Depth-Anything-ONNX",
+      "status": "candidate",
+      "text": "[![ONNX](https://img.shields.io/badge/ONNX-grey)](https://onnx.ai/)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PINTO0309/PINTO_model_zoo",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "zhiqwang/yolort",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ibaiGorordo/ONNX-SAM2-Segment-Anything",
+      "status": "candidate",
+      "text": "![!ONNX-SAM2-Segment-Anything](https://github.com/ibaiGorordo/ONNX-SAM2-Segment-Anything/raw/main/doc/img/sam2_mask_with_boxes.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vietanhdev/anylabeling",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/MMdnn",
+      "status": "candidate",
+      "text": "[![PyPi Version](https://img.shields.io/pypi/v/mmdnn.svg)](https://pypi.org/project/mmdnn/)"
     }
   ],
   "candidate_related_terms": [],
@@ -880,11 +1024,65 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "awslabs/multi-model-server"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "AXERA-TECH/ax-samples"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "vietanhdev/samexporter"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "fabio-sim/Depth-Anything-ONNX"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "PINTO0309/PINTO_model_zoo"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "PaddlePaddle/Paddle2ONNX"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "zhiqwang/yolort"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "ibaiGorordo/ONNX-SAM2-Segment-Anything"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "vietanhdev/anylabeling"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "microsoft/MMdnn"
     }
   ],
   "first_seen_at": "2026-04-18T11:57:36.597358+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

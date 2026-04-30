@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "\ud83d\udda9 Do live calculations in rofi!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "**\ud83d\udda9 Do live calculations in rofi!**"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "**\ud83d\udda9 Do live calculations in rofi!**"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39985795,
+      "status": "candidate",
+      "text": "compute"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39979846,
+      "status": "candidate",
+      "text": "figure"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39977300,
+      "status": "candidate",
+      "text": "cypher"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39977128,
+      "status": "candidate",
+      "text": "cipher"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39949811,
+      "status": "candidate",
+      "text": "reckon"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "calculate",
+      "sense_id": "calculate#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 35052,
+      "status": "candidate",
+      "text": "direct"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 24036,
+      "status": "candidate",
+      "text": "reckon"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 23063,
+      "status": "candidate",
+      "text": "figure"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 21055,
+      "status": "candidate",
+      "text": "account"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 21051,
+      "status": "candidate",
+      "text": "cipher"
+    }
+  ],
+  "concept_id": "calculate",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "calculate",
+  "observation_id": "842da4c42cd7d8c8",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T00:37:16.824464+00:00",
+  "observed_text": "calculate",
+  "source_context_snippet": "**\ud83d\udda9 Do live calculations in rofi!**",
+  "source_file": null,
+  "source_repo": "svenstaro/rofi-calc",
+  "source_repo_description": "\ud83d\udda9 Do live calculations in rofi!"
+}

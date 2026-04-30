@@ -1,0 +1,694 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/catalyst.yml"
+    },
+    {
+      "component": "maxim-lobanov/setup-xcode@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/catalyst.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/catalyst.yml"
+    },
+    {
+      "component": "maxim-lobanov/setup-xcode@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/catalyst.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/catalyst.yml"
+    },
+    {
+      "component": "maxim-lobanov/setup-xcode@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/catalyst.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/combined.yml"
+    },
+    {
+      "component": "maxim-lobanov/setup-xcode@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/combined.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/combined.yml"
+    },
+    {
+      "component": "maxim-lobanov/setup-xcode@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/combined.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/combined.yml"
+    },
+    {
+      "component": "maxim-lobanov/setup-xcode@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/combined.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/combined.yml"
+    },
+    {
+      "component": "maxim-lobanov/setup-xcode@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/combined.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/combined.yml"
+    },
+    {
+      "component": "maxim-lobanov/setup-xcode@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/combined.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ios.yml"
+    },
+    {
+      "component": "maxim-lobanov/setup-xcode@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ios.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ios.yml"
+    },
+    {
+      "component": "maxim-lobanov/setup-xcode@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ios.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ios.yml"
+    },
+    {
+      "component": "maxim-lobanov/setup-xcode@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ios.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ios.yml"
+    },
+    {
+      "component": "maxim-lobanov/setup-xcode@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ios.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ios.yml"
+    },
+    {
+      "component": "maxim-lobanov/setup-xcode@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ios.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/macos.yml"
+    },
+    {
+      "component": "maxim-lobanov/setup-xcode@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/macos.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/macos.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tvos.yml"
+    },
+    {
+      "component": "maxim-lobanov/setup-xcode@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tvos.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/visionos.yml"
+    },
+    {
+      "component": "maxim-lobanov/setup-xcode@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/visionos.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/visionos.yml"
+    },
+    {
+      "component": "maxim-lobanov/setup-xcode@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/visionos.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/watchos.yml"
+    },
+    {
+      "component": "maxim-lobanov/setup-xcode@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/watchos.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/watchos.yml"
+    },
+    {
+      "component": "maxim-lobanov/setup-xcode@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/watchos.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/watchos.yml"
+    },
+    {
+      "component": "maxim-lobanov/setup-xcode@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/watchos.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/catalyst.yml",
+      "source_repo": "leetal/ios-cmake",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/catalyst.yml",
+      "source_repo": "leetal/ios-cmake",
+      "target": "maxim-lobanov/setup-xcode@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/catalyst.yml",
+      "source_repo": "leetal/ios-cmake",
+      "target": "catalyst-jobs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/combined.yml",
+      "source_repo": "leetal/ios-cmake",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/combined.yml",
+      "source_repo": "leetal/ios-cmake",
+      "target": "maxim-lobanov/setup-xcode@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/combined.yml",
+      "source_repo": "leetal/ios-cmake",
+      "target": "combined-jobs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ios.yml",
+      "source_repo": "leetal/ios-cmake",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ios.yml",
+      "source_repo": "leetal/ios-cmake",
+      "target": "maxim-lobanov/setup-xcode@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ios.yml",
+      "source_repo": "leetal/ios-cmake",
+      "target": "ios-jobs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/macos.yml",
+      "source_repo": "leetal/ios-cmake",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/macos.yml",
+      "source_repo": "leetal/ios-cmake",
+      "target": "maxim-lobanov/setup-xcode@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/macos.yml",
+      "source_repo": "leetal/ios-cmake",
+      "target": "macos-jobs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tvos.yml",
+      "source_repo": "leetal/ios-cmake",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tvos.yml",
+      "source_repo": "leetal/ios-cmake",
+      "target": "maxim-lobanov/setup-xcode@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/tvos.yml",
+      "source_repo": "leetal/ios-cmake",
+      "target": "tvos-jobs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/visionos.yml",
+      "source_repo": "leetal/ios-cmake",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/visionos.yml",
+      "source_repo": "leetal/ios-cmake",
+      "target": "maxim-lobanov/setup-xcode@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/visionos.yml",
+      "source_repo": "leetal/ios-cmake",
+      "target": "visionos-jobs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/watchos.yml",
+      "source_repo": "leetal/ios-cmake",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/watchos.yml",
+      "source_repo": "leetal/ios-cmake",
+      "target": "maxim-lobanov/setup-xcode@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/watchos.yml",
+      "source_repo": "leetal/ios-cmake",
+      "target": "watchos-jobs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "leetal/ios-cmake",
+      "target": "catalyst",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "leetal/ios-cmake",
+      "target": "cmake",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "leetal/ios-cmake",
+      "target": "cmake-scripts",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "leetal/ios-cmake",
+      "target": "cmake-toolchain",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "leetal/ios-cmake",
+      "target": "ios-cmake",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "leetal/ios-cmake",
+      "target": "ios-development",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "leetal/ios-cmake",
+      "target": "macos",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "leetal/ios-cmake",
+      "target": "macosx",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "leetal/ios-cmake",
+      "target": "objective-c",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "leetal/ios-cmake",
+      "target": "tvos",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "leetal/ios-cmake",
+      "target": "tvos-cmake",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "leetal/ios-cmake",
+      "target": "tvos-development",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "leetal/ios-cmake",
+      "target": "tvos-simulator",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "leetal/ios-cmake",
+      "target": "visionos",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "leetal/ios-cmake",
+      "target": "watchos",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "leetal/ios-cmake",
+      "target": "watchos-cmake",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "leetal/ios-cmake",
+      "target": "watchos-development",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T04:49:40.683701+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5520
+    },
+    {
+      "path": ".github/workflows/catalyst.yml",
+      "size": 1342
+    },
+    {
+      "path": ".github/workflows/combined.yml",
+      "size": 2325
+    },
+    {
+      "path": ".github/workflows/ios.yml",
+      "size": 1887
+    },
+    {
+      "path": ".github/workflows/macos.yml",
+      "size": 795
+    },
+    {
+      "path": ".github/workflows/tvos.yml",
+      "size": 465
+    },
+    {
+      "path": ".github/workflows/visionos.yml",
+      "size": 932
+    },
+    {
+      "path": ".github/workflows/watchos.yml",
+      "size": 1280
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A CMake toolchain file for iOS/iPadOS, visionOS, macOS, watchOS & tvOS C/C++/Obj-C++ development",
+    "fork": false,
+    "full_name": "leetal/ios-cmake",
+    "html_url": "https://github.com/leetal/ios-cmake",
+    "language": "CMake",
+    "pushed_at": "2025-09-21T13:23:22Z",
+    "stargazers_count": 2160,
+    "topics": [
+      "c",
+      "catalyst",
+      "cmake",
+      "cmake-scripts",
+      "cmake-toolchain",
+      "cpp",
+      "ios",
+      "ios-cmake",
+      "ios-development",
+      "macos",
+      "macosx",
+      "objective-c",
+      "tvos",
+      "tvos-cmake",
+      "tvos-development",
+      "tvos-simulator",
+      "visionos",
+      "watchos",
+      "watchos-cmake",
+      "watchos-development"
+    ],
+    "updated_at": "2026-04-26T20:11:29Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "catalyst-jobs",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/catalyst.yml",
+      "term": "catalyst-jobs"
+    },
+    {
+      "context_snippet": "combined-jobs",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/combined.yml",
+      "term": "combined-jobs"
+    },
+    {
+      "context_snippet": "ios-jobs",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ios.yml",
+      "term": "ios-jobs"
+    },
+    {
+      "context_snippet": "macos-jobs",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/macos.yml",
+      "term": "macos-jobs"
+    },
+    {
+      "context_snippet": "tvos-jobs",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/tvos.yml",
+      "term": "tvos-jobs"
+    },
+    {
+      "context_snippet": "visionos-jobs",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/visionos.yml",
+      "term": "visionos-jobs"
+    },
+    {
+      "context_snippet": "watchos-jobs",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/watchos.yml",
+      "term": "watchos-jobs"
+    },
+    {
+      "context_snippet": "A CMake toolchain file for iOS (+ Catalyst), watchOS, tvOS and macOS development with full simulator support and toggleable options!",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "catalyst"
+    },
+    {
+      "context_snippet": "A CMake toolchain file for iOS (+ Catalyst), watchOS, tvOS and macOS development with full simulator support and toggleable options!",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cmake"
+    },
+    {
+      "context_snippet": "A CMake toolchain file for iOS (+ Catalyst), watchOS, tvOS and macOS development with full simulator support and toggleable options!",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cmake-scripts"
+    },
+    {
+      "context_snippet": "A CMake toolchain file for iOS (+ Catalyst), watchOS, tvOS and macOS development with full simulator support and toggleable options!",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cmake-toolchain"
+    },
+    {
+      "context_snippet": "A CMake toolchain file for iOS (+ Catalyst), watchOS, tvOS and macOS development with full simulator support and toggleable options!",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ios-cmake"
+    },
+    {
+      "context_snippet": "A CMake toolchain file for iOS (+ Catalyst), watchOS, tvOS and macOS development with full simulator support and toggleable options!",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ios-development"
+    },
+    {
+      "context_snippet": "A CMake toolchain file for iOS (+ Catalyst), watchOS, tvOS and macOS development with full simulator support and toggleable options!",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "macos"
+    },
+    {
+      "context_snippet": "A CMake toolchain file for iOS (+ Catalyst), watchOS, tvOS and macOS development with full simulator support and toggleable options!",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "macosx"
+    },
+    {
+      "context_snippet": "A CMake toolchain file for iOS (+ Catalyst), watchOS, tvOS and macOS development with full simulator support and toggleable options!",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "objective-c"
+    },
+    {
+      "context_snippet": "A CMake toolchain file for iOS (+ Catalyst), watchOS, tvOS and macOS development with full simulator support and toggleable options!",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tvos"
+    },
+    {
+      "context_snippet": "A CMake toolchain file for iOS (+ Catalyst), watchOS, tvOS and macOS development with full simulator support and toggleable options!",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tvos-cmake"
+    },
+    {
+      "context_snippet": "A CMake toolchain file for iOS (+ Catalyst), watchOS, tvOS and macOS development with full simulator support and toggleable options!",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tvos-development"
+    },
+    {
+      "context_snippet": "A CMake toolchain file for iOS (+ Catalyst), watchOS, tvOS and macOS development with full simulator support and toggleable options!",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tvos-simulator"
+    },
+    {
+      "context_snippet": "A CMake toolchain file for iOS (+ Catalyst), watchOS, tvOS and macOS development with full simulator support and toggleable options!",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "visionos"
+    },
+    {
+      "context_snippet": "A CMake toolchain file for iOS (+ Catalyst), watchOS, tvOS and macOS development with full simulator support and toggleable options!",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "watchos"
+    },
+    {
+      "context_snippet": "A CMake toolchain file for iOS (+ Catalyst), watchOS, tvOS and macOS development with full simulator support and toggleable options!",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "watchos-cmake"
+    },
+    {
+      "context_snippet": "A CMake toolchain file for iOS (+ Catalyst), watchOS, tvOS and macOS development with full simulator support and toggleable options!",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "watchos-development"
+    }
+  ]
+}

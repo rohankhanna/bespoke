@@ -1,0 +1,156 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gh-pages.yml"
+    },
+    {
+      "component": "actions/configure-pages@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gh-pages.yml"
+    },
+    {
+      "component": "actions/upload-pages-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gh-pages.yml"
+    },
+    {
+      "component": "actions/deploy-pages@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gh-pages.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pack.yml"
+    },
+    {
+      "component": "Open-CMSIS-Pack/gen-pack-action@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pack.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pdsc.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gh-pages.yml",
+      "source_repo": "ARM-software/CMSIS-NN",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gh-pages.yml",
+      "source_repo": "ARM-software/CMSIS-NN",
+      "target": "actions/configure-pages@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gh-pages.yml",
+      "source_repo": "ARM-software/CMSIS-NN",
+      "target": "actions/upload-pages-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gh-pages.yml",
+      "source_repo": "ARM-software/CMSIS-NN",
+      "target": "actions/deploy-pages@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/gh-pages.yml",
+      "source_repo": "ARM-software/CMSIS-NN",
+      "target": "Deploy static content to GitHub Pages",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pack.yml",
+      "source_repo": "ARM-software/CMSIS-NN",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pack.yml",
+      "source_repo": "ARM-software/CMSIS-NN",
+      "target": "Open-CMSIS-Pack/gen-pack-action@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pack.yml",
+      "source_repo": "ARM-software/CMSIS-NN",
+      "target": "Build documentation and pack",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pdsc.yml",
+      "source_repo": "ARM-software/CMSIS-NN",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-04-30T01:59:17.409775+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 10888
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 1070
+    },
+    {
+      "path": ".github/workflows/gh-pages.yml",
+      "size": 1262
+    },
+    {
+      "path": ".github/workflows/pack.yml",
+      "size": 828
+    },
+    {
+      "path": ".github/workflows/pdsc.yml",
+      "size": 1121
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "CMSIS-NN Library",
+    "fork": false,
+    "full_name": "ARM-software/CMSIS-NN",
+    "html_url": "https://github.com/ARM-software/CMSIS-NN",
+    "language": "C",
+    "pushed_at": "2026-04-20T13:19:37Z",
+    "stargazers_count": 388,
+    "topics": [],
+    "updated_at": "2026-04-28T16:58:26Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Deploy static content to GitHub Pages",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/gh-pages.yml",
+      "term": "Deploy static content to GitHub Pages"
+    },
+    {
+      "context_snippet": "Build documentation and pack",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pack.yml",
+      "term": "Build documentation and pack"
+    }
+  ]
+}

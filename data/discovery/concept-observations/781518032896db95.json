@@ -84,7 +84,7 @@
   "normalized_form": "regex",
   "observation_id": "781518032896db95",
   "observation_kind": "repo-topic",
-  "observed_at": "2026-04-29T18:37:00.726333+00:00",
+  "observed_at": "2026-04-30T00:37:16.824464+00:00",
   "observed_text": "regex",
   "source_context_snippet": "> Returns `true` if the given string looks like a glob pattern or an extglob pattern. This makes it easy to create code that only uses external modules like node-glob when necessary, resulting in much faster code execution and initialization time, and a better user experience.",
   "source_file": null,

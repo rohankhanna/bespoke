@@ -1,11 +1,14 @@
 {
   "aliases": [
-    "crates"
+    "crates",
+    "Crates"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
     "tool-component",
-    "capability"
+    "capability",
+    "workflow-process",
+    "data-document-artifact"
   ],
   "candidate_definitions": [
     {
@@ -55,6 +58,54 @@
       "source_repo": "ramsayleung/rspotify",
       "status": "candidate-context",
       "text": "[![Continuous Integration](https://github.com/ramsayleung/rspotify/workflows/Continuous%20Integration/badge.svg)](https://github.com/ramsayleung/rspotify/actions)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ldclabs/anda-db",
+      "status": "candidate-context",
+      "text": "\ud83d\uddc4 A Rust library designed as a specialized database for AI Agents, focusing on knowledge memory."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ldclabs/anda-db",
+      "status": "candidate-context",
+      "text": "Crates"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ldclabs/ic-oss",
+      "status": "candidate-context",
+      "text": "\ud83d\uddc2 A decentralized Object Storage Service on the Internet Computer"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ldclabs/ic-oss",
+      "status": "candidate-context",
+      "text": "Crates"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ggez/ggez",
+      "status": "candidate-context",
+      "text": "Rust library to create a Good Game Easily"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ggez/ggez",
+      "status": "candidate-context",
+      "text": "[![ggez logo](docs/ggez-logo-maroon-full.svg)](http://ggez.rs/)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ldclabs/anda",
+      "status": "candidate-context",
+      "text": "\ud83e\udd16 An AI agent framework built with Rust."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ldclabs/anda",
+      "status": "candidate-context",
+      "text": "Crates"
     }
   ],
   "candidate_glosses": [
@@ -81,6 +132,30 @@
       "source_repo": "ramsayleung/rspotify",
       "status": "candidate",
       "text": "[![Continuous Integration](https://github.com/ramsayleung/rspotify/workflows/Continuous%20Integration/badge.svg)](https://github.com/ramsayleung/rspotify/actions)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ldclabs/anda-db",
+      "status": "candidate",
+      "text": "Crates"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ldclabs/ic-oss",
+      "status": "candidate",
+      "text": "Crates"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ggez/ggez",
+      "status": "candidate",
+      "text": "[![ggez logo](docs/ggez-logo-maroon-full.svg)](http://ggez.rs/)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ldclabs/anda",
+      "status": "candidate",
+      "text": "Crates"
     }
   ],
   "candidate_related_terms": [
@@ -148,11 +223,35 @@
       "observed_at": "2026-04-24T00:33:56.049672+00:00",
       "source_file": null,
       "source_repo": "ramsayleung/rspotify"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/publish-crates.yml",
+      "source_repo": "ldclabs/anda-db"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/publish-crates.yml",
+      "source_repo": "ldclabs/ic-oss"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "ggez/ggez"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/publish-crates.yml",
+      "source_repo": "ldclabs/anda"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

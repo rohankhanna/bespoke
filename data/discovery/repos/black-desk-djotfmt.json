@@ -1,0 +1,124 @@
+{
+  "components": [
+    {
+      "component": "black-desk/workflows/generic@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "black-desk/workflows/rust@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "re-actors/alls-green@release/v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "black-desk/djotfmt",
+      "target": "matklad/djot-rs",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "black-desk/djotfmt",
+      "target": "jgm/djot.js",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "black-desk/djotfmt",
+      "target": "jgm/djot.lua",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "black-desk/djotfmt",
+      "target": "black-desk/workflows/generic@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "black-desk/djotfmt",
+      "target": "black-desk/workflows/rust@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "black-desk/djotfmt",
+      "target": "re-actors/alls-green@release/v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "black-desk/djotfmt",
+      "target": "Continuous integration",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T00:51:11.927692+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1566
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 578
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 838
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": null,
+    "fork": false,
+    "full_name": "black-desk/djotfmt",
+    "html_url": "https://github.com/black-desk/djotfmt",
+    "language": "Rust",
+    "pushed_at": "2026-04-29T07:30:40Z",
+    "stargazers_count": 7,
+    "topics": [],
+    "updated_at": "2026-04-29T07:30:43Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jgm/djot.js",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jgm/djot.lua",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "matklad/djot-rs",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Continuous integration",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "term": "Continuous integration"
+    }
+  ]
+}

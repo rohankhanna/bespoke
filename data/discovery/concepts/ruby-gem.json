@@ -19,6 +19,18 @@
       "source_repo": "licensee/licensee",
       "status": "candidate-context",
       "text": "FROM ruby:3.4.7@sha256:779ca68b84fe3804e27f5b7ea5ab001005c708b7236a798c15b860d71cba9d21 WORKDIR /usr/src/app RUN git init RUN apt-get update && apt-get install -y cmake COPY Gemfile licensee.gemspec ./ COPY lib/licensee/version.rb ./lib/licensee/version.rb RUN bundle install COP\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kwilczynski/ruby-magic",
+      "status": "candidate-context",
+      "text": "Simple interface to libmagic for Ruby Programming Language"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kwilczynski/ruby-magic",
+      "status": "candidate-context",
+      "text": "[![Gem Version](http://badge.fury.io/rb/ruby-magic.svg)](http://badge.fury.io/rb/ruby-magic)"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "licensee/licensee",
       "status": "candidate",
       "text": "FROM ruby:3.4.7@sha256:779ca68b84fe3804e27f5b7ea5ab001005c708b7236a798c15b860d71cba9d21 WORKDIR /usr/src/app RUN git init RUN apt-get update && apt-get install -y cmake COPY Gemfile licensee.gemspec ./ COPY lib/licensee/version.rb ./lib/licensee/version.rb RUN bundle install COP\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kwilczynski/ruby-magic",
+      "status": "candidate",
+      "text": "[![Gem Version](http://badge.fury.io/rb/ruby-magic.svg)](http://badge.fury.io/rb/ruby-magic)"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "licensee/licensee"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "kwilczynski/ruby-magic"
     }
   ],
   "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

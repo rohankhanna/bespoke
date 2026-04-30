@@ -1,0 +1,81 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "s9roll7/animatediff-cli-prompt-travel",
+      "target": "patrickvonplaten/controlnet_aux",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "s9roll7/animatediff-cli-prompt-travel",
+      "target": "luosiallen/latent-consistency-model",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "s9roll7/animatediff-cli-prompt-travel",
+      "target": "neggles/animatediff-cli",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "s9roll7/animatediff-cli-prompt-travel",
+      "target": "nihui/rife-ncnn-vulkan",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T03:53:22.525528+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 32329
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 588
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "animatediff prompt travel",
+    "fork": true,
+    "full_name": "s9roll7/animatediff-cli-prompt-travel",
+    "html_url": "https://github.com/s9roll7/animatediff-cli-prompt-travel",
+    "language": "Python",
+    "pushed_at": "2024-01-13T22:02:20Z",
+    "stargazers_count": 1203,
+    "topics": [],
+    "updated_at": "2026-04-23T12:57:42Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "luosiallen/latent-consistency-model",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "neggles/animatediff-cli",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "nihui/rife-ncnn-vulkan",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "patrickvonplaten/controlnet_aux",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

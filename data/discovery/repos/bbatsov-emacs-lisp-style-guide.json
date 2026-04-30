@@ -1,0 +1,22 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T02:02:52.903687+00:00",
+  "fetched_files": [],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A community-driven Emacs Lisp style guide",
+    "fork": false,
+    "full_name": "bbatsov/emacs-lisp-style-guide",
+    "html_url": "https://github.com/bbatsov/emacs-lisp-style-guide",
+    "language": null,
+    "pushed_at": "2026-03-31T12:31:44Z",
+    "stargazers_count": 1129,
+    "topics": [],
+    "updated_at": "2026-04-08T13:57:45Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

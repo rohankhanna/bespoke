@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Linux CUDA x64 Build"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "microsoft/onnxruntime-genai",
+      "status": "candidate-context",
+      "text": "Generative AI extensions for onnxruntime"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/onnxruntime-genai",
+      "status": "candidate-context",
+      "text": "\"Linux CUDA x64 Build\""
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/onnxruntime-genai",
+      "status": "candidate",
+      "text": "\"Linux CUDA x64 Build\""
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12148,
+      "status": "candidate",
+      "text": "beatrix"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12148,
+      "status": "candidate",
+      "text": "celestia"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12107,
+      "status": "candidate",
+      "text": "unix"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11706,
+      "status": "candidate",
+      "text": "crossover"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11706,
+      "status": "candidate",
+      "text": "knoppix"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Linux CUDA x64 Build",
+  "concept_id": "linux-cuda-x64-build",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/linux-gpu-x64-build.yml",
+      "source_repo": "microsoft/onnxruntime-genai"
+    }
+  ],
+  "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Linux CUDA x64 Build",
+      "sense_id": "linux-cuda-x64-build#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

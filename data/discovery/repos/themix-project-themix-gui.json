@@ -1,0 +1,296 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "themix-project/themix-gui",
+      "target": "greenraccoon23/archdroid-icon-theme",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "themix-project/themix-gui",
+      "target": "chriskempson/base16-templates-source",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "themix-project/themix-gui",
+      "target": "chriskempson/base16-schemes-source",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "themix-project/themix-gui",
+      "target": "botspot/pi-apps",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "themix-project/themix-gui",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "themix-project/themix-gui",
+      "target": "Code Style",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "themix-project/themix-gui",
+      "target": "cinnamon-theme",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "themix-project/themix-gui",
+      "target": "colorscheme",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "themix-project/themix-gui",
+      "target": "gnome-shell-theme",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "themix-project/themix-gui",
+      "target": "gtk2-theme",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "themix-project/themix-gui",
+      "target": "gtk3-theme",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "themix-project/themix-gui",
+      "target": "icon-theme",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "themix-project/themix-gui",
+      "target": "materia-theme",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "themix-project/themix-gui",
+      "target": "numix-theme",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "themix-project/themix-gui",
+      "target": "openbox-theme",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "themix-project/themix-gui",
+      "target": "papirus-icon-theme",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "themix-project/themix-gui",
+      "target": "suru-icons",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "themix-project/themix-gui",
+      "target": "xfwm-theme",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "themix-project/themix-gui",
+      "target": "xresources",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T05:00:46.778750+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5564
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 6360
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 942
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Graphical application for generating different color variations of Oomox (Numix-based) theme (GTK2, GTK3, Cinnamon, GNOME, Openbox, Xfwm), Archdroid, Gnome-Color, Numix, Papirus and Suru++ icon themes. Have a hack for HiDPI in gtk2. Its Base16 plugin also allowing a lot of app themes support like Alacritty, Emacs, GTK4, KDE, VIM and many more.",
+    "fork": false,
+    "full_name": "themix-project/themix-gui",
+    "html_url": "https://github.com/themix-project/themix-gui",
+    "language": "Python",
+    "pushed_at": "2026-03-13T09:58:10Z",
+    "stargazers_count": 2288,
+    "topics": [
+      "cinnamon-theme",
+      "colorscheme",
+      "gnome-shell-theme",
+      "gtk",
+      "gtk2-theme",
+      "gtk3-theme",
+      "icon-theme",
+      "materia-theme",
+      "numix-theme",
+      "openbox-theme",
+      "papirus-icon-theme",
+      "suru-icons",
+      "xfwm-theme",
+      "xresources"
+    ],
+    "updated_at": "2026-04-29T02:00:53Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "botspot/pi-apps",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "chriskempson/base16-schemes-source",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "chriskempson/base16-templates-source",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "greenraccoon23/archdroid-icon-theme",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Code Style",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "term": "Code Style"
+    },
+    {
+      "context_snippet": "Themix GUI designer",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cinnamon-theme"
+    },
+    {
+      "context_snippet": "Themix GUI designer",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "colorscheme"
+    },
+    {
+      "context_snippet": "Themix GUI designer",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gnome-shell-theme"
+    },
+    {
+      "context_snippet": "Themix GUI designer",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gtk2-theme"
+    },
+    {
+      "context_snippet": "Themix GUI designer",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gtk3-theme"
+    },
+    {
+      "context_snippet": "Themix GUI designer",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "icon-theme"
+    },
+    {
+      "context_snippet": "Themix GUI designer",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "materia-theme"
+    },
+    {
+      "context_snippet": "Themix GUI designer",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "numix-theme"
+    },
+    {
+      "context_snippet": "Themix GUI designer",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "openbox-theme"
+    },
+    {
+      "context_snippet": "Themix GUI designer",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "papirus-icon-theme"
+    },
+    {
+      "context_snippet": "Themix GUI designer",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "suru-icons"
+    },
+    {
+      "context_snippet": "Themix GUI designer",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "xfwm-theme"
+    },
+    {
+      "context_snippet": "Themix GUI designer",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "xresources"
+    }
+  ]
+}

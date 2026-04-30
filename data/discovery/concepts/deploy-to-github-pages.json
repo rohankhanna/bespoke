@@ -230,6 +230,18 @@
       "source_repo": "Sygil-Dev/sygil-webui",
       "status": "candidate-context",
       "text": "Deploy to GitHub Pages"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "luau-lang/site",
+      "status": "candidate-context",
+      "text": "Official website and documentation for the Luau programming language"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "luau-lang/site",
+      "status": "candidate-context",
+      "text": "Deploy to GitHub Pages"
     }
   ],
   "candidate_glosses": [
@@ -344,6 +356,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "Sygil-Dev/sygil-webui",
+      "status": "candidate",
+      "text": "Deploy to GitHub Pages"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "luau-lang/site",
       "status": "candidate",
       "text": "Deploy to GitHub Pages"
     }
@@ -533,11 +551,23 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": ".github/workflows/deploy.yml",
       "source_repo": "Sygil-Dev/sygil-webui"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/deploy.yml",
+      "source_repo": "beam-community/elixir-companies"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/deploy.yaml",
+      "source_repo": "luau-lang/site"
     }
   ],
   "first_seen_at": "2026-04-18T12:46:59.510459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "[Open-Source Project] Combining MMOCR with Segment Anything & Stable Diffusion. Automatically detect, recognize and segment text instances, with serval downstream tasks, e.g., Text Removal and Text Inpainting"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "gradio numpy openmim omegaconf==2.3.0 einops==0.6.0 transformers==4.27.3 pytorch-lightning==2.0.1.post0 diffusers==0.14.0"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "gradio numpy openmim omegaconf==2.3.0 einops==0.6.0 transformers==4.27.3 pytorch-lightning==2.0.1.post0 diffusers==0.14.0"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "mmocr",
+      "sense_id": "mmocr#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "mmocr",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "mmocr",
+  "observation_id": "9a3f6d2f7b155243",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T00:37:16.824464+00:00",
+  "observed_text": "mmocr",
+  "source_context_snippet": "gradio numpy openmim omegaconf==2.3.0 einops==0.6.0 transformers==4.27.3 pytorch-lightning==2.0.1.post0 diffusers==0.14.0",
+  "source_file": null,
+  "source_repo": "yeungchenwa/OCR-SAM",
+  "source_repo_description": "[Open-Source Project] Combining MMOCR with Segment Anything & Stable Diffusion. Automatically detect, recognize and segment text instances, with serval downstream tasks, e.g., Text Removal and Text Inpainting"
+}

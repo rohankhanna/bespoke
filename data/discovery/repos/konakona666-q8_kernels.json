@@ -1,0 +1,65 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "KONAKONA666/q8_kernels",
+      "target": "konakona666/ltx-video",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "KONAKONA666/q8_kernels",
+      "target": "66ring/tiny-flash-attention",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "KONAKONA666/q8_kernels",
+      "target": "dao-ailab/fast-hadamard-transform",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T02:41:22.626882+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1878
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "KONAKONA666/q8_kernels",
+    "html_url": "https://github.com/KONAKONA666/q8_kernels",
+    "language": "Cuda",
+    "pushed_at": "2024-12-27T04:17:55Z",
+    "stargazers_count": 81,
+    "topics": [],
+    "updated_at": "2026-04-13T07:54:55Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "66ring/tiny-flash-attention",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dao-ailab/fast-hadamard-transform",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "konakona666/ltx-video",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

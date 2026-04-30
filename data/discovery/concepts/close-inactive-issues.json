@@ -1,7 +1,8 @@
 {
   "aliases": [
     "Close inactive issues",
-    "Close Inactive Issues"
+    "Close Inactive Issues",
+    "Close-Inactive-Issues"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -482,6 +483,102 @@
       "source_repo": "hpcaitech/Open-Sora",
       "status": "candidate-context",
       "text": "Close inactive issues"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mtshiba/pylyzer",
+      "status": "candidate-context",
+      "text": "A fast, feature-rich static code analyzer & language server for Python"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mtshiba/pylyzer",
+      "status": "candidate-context",
+      "text": "Close inactive issues"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "yuin/goldmark",
+      "status": "candidate-context",
+      "text": ":trophy: A markdown parser written in Go. Easy to extend, standard(CommonMark) compliant, well structured."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "yuin/goldmark",
+      "status": "candidate-context",
+      "text": "Close inactive issues"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lesismal/nbio",
+      "status": "candidate-context",
+      "text": "Pure Go 1000k+ connections solution, support tls/http1.x/websocket and basically compatible with net/http, with high-performance and low memory cost, non-blocking, event-driven, easy-to-use."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lesismal/nbio",
+      "status": "candidate-context",
+      "text": "Close-Inactive-Issues"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Automattic/harper",
+      "status": "candidate-context",
+      "text": "Offline, privacy-first grammar checker. Fast, open-source, Rust-powered"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Automattic/harper",
+      "status": "candidate-context",
+      "text": "Close inactive issues"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dstackai/dstack",
+      "status": "candidate-context",
+      "text": "Vendor-agnostic orchestration for training, inference and agentic workloads across NVIDIA, AMD, TPU, and Tenstorrent on clouds, Kubernetes, and bare metal."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dstackai/dstack",
+      "status": "candidate-context",
+      "text": "Close inactive issues"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jedisct1/minisign",
+      "status": "candidate-context",
+      "text": "A dead simple tool to sign files and verify digital signatures."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jedisct1/minisign",
+      "status": "candidate-context",
+      "text": "Close inactive issues"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "redhat-openshift-ecosystem/community-operators-prod",
+      "status": "candidate-context",
+      "text": "community-operators metadata backing OpenShift OperatorHub"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "redhat-openshift-ecosystem/community-operators-prod",
+      "status": "candidate-context",
+      "text": "Close inactive issues"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "xorbitsai/inference",
+      "status": "candidate-context",
+      "text": "Swap GPT for any LLM by changing a single line of code. Xinference lets you run open-source, speech, and multimodal models on cloud, on-prem, or your laptop \u2014 all through one unified, production-ready inference API."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "xorbitsai/inference",
+      "status": "candidate-context",
+      "text": "Close inactive issues"
     }
   ],
   "candidate_glosses": [
@@ -722,6 +819,54 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "hpcaitech/Open-Sora",
+      "status": "candidate",
+      "text": "Close inactive issues"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mtshiba/pylyzer",
+      "status": "candidate",
+      "text": "Close inactive issues"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "yuin/goldmark",
+      "status": "candidate",
+      "text": "Close inactive issues"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lesismal/nbio",
+      "status": "candidate",
+      "text": "Close-Inactive-Issues"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Automattic/harper",
+      "status": "candidate",
+      "text": "Close inactive issues"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dstackai/dstack",
+      "status": "candidate",
+      "text": "Close inactive issues"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jedisct1/minisign",
+      "status": "candidate",
+      "text": "Close inactive issues"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "redhat-openshift-ecosystem/community-operators-prod",
+      "status": "candidate",
+      "text": "Close inactive issues"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "xorbitsai/inference",
       "status": "candidate",
       "text": "Close inactive issues"
     }
@@ -1055,11 +1200,95 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": ".github/workflows/close_issue.yaml",
       "source_repo": "hpcaitech/Open-Sora"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/stale-issues.yml",
+      "source_repo": "mtshiba/pylyzer"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/stale.yaml",
+      "source_repo": "yuin/goldmark"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/close_inactive_issues.yml",
+      "source_repo": "lesismal/nbio"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/stale.yaml",
+      "source_repo": "FoundationAgents/MetaGPT"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "Automattic/harper"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/close-issue.yml",
+      "source_repo": "chatchat-space/Langchain-Chatchat"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/close-inactive-issues.yml",
+      "source_repo": "dstackai/dstack"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/clear_issues.yml.disabled",
+      "source_repo": "PaddlePaddle/Paddle2ONNX"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/close-inactive-issues.yaml",
+      "source_repo": "nunchaku-ai/nunchaku"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "intel-staging/text-generation-webui"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/close-inactive-issues.yml",
+      "source_repo": "invoke-ai/InvokeAI"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/issues.yml",
+      "source_repo": "jedisct1/minisign"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/stale_issues.yaml",
+      "source_repo": "redhat-openshift-ecosystem/community-operators-prod"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/issue.yaml",
+      "source_repo": "xorbitsai/inference"
     }
   ],
   "first_seen_at": "2026-04-18T10:43:38.551697+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

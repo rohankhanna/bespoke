@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Cross Platform Lite Procedure Call - Support Linux, macOS, Windows, iOS, Android, Web Assembly, Flutter, Kotlin, Python and More"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Kotlin Android"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Kotlin Android"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 5684,
+      "status": "candidate",
+      "text": "kronstadt"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 4077,
+      "status": "candidate",
+      "text": "bot"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 4077,
+      "status": "candidate",
+      "text": "email"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 4077,
+      "status": "candidate",
+      "text": "emotion"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 4077,
+      "status": "candidate",
+      "text": "humanoid"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Kotlin Android",
+      "sense_id": "kotlin-android#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "kotlin-android",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "kotlin-android",
+  "observation_id": "ddd3bd7ff91dd0a9",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-30T00:37:16.824464+00:00",
+  "observed_text": "Kotlin Android",
+  "source_context_snippet": "Kotlin Android",
+  "source_file": ".github/workflows/kotlin-android.yml",
+  "source_repo": "xplpc/xplpc",
+  "source_repo_description": "Cross Platform Lite Procedure Call - Support Linux, macOS, Windows, iOS, Android, Web Assembly, Flutter, Kotlin, Python and More"
+}

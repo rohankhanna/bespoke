@@ -3085,6 +3085,594 @@
       "source_repo": "grailbio/rules_r",
       "status": "candidate-context",
       "text": "Tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ray-x/guihua.lua",
+      "status": "candidate-context",
+      "text": "A GUI library for Neovim plugin developers"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ray-x/guihua.lua",
+      "status": "candidate-context",
+      "text": "Tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nvim-lualine/lualine.nvim",
+      "status": "candidate-context",
+      "text": "A blazing fast and easy to configure neovim statusline plugin written in pure lua."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nvim-lualine/lualine.nvim",
+      "status": "candidate-context",
+      "text": "Tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "tjdevries/tree-sitter-lua",
+      "status": "candidate-context",
+      "text": "Neovim Tree Sitter Lua Grammar & Library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tjdevries/tree-sitter-lua",
+      "status": "candidate-context",
+      "text": "Tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cloudwego/eino-examples",
+      "status": "candidate-context",
+      "text": "Examples and demonstrations for using the Eino framework"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cloudwego/eino-examples",
+      "status": "candidate-context",
+      "text": "Tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cloudwego/kitex",
+      "status": "candidate-context",
+      "text": "Go RPC framework with high-performance and strong-extensibility for building micro-services."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cloudwego/kitex",
+      "status": "candidate-context",
+      "text": "Tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "standardrb/standard",
+      "status": "candidate-context",
+      "text": "Ruby's bikeshed-proof linter and formatter \ud83d\udeb2"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "standardrb/standard",
+      "status": "candidate-context",
+      "text": "Tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "arnaud-lb/php-rdkafka",
+      "status": "candidate-context",
+      "text": "Production-ready, stable Kafka client for PHP"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "arnaud-lb/php-rdkafka",
+      "status": "candidate-context",
+      "text": "'Tests'"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "standard/ts-standard",
+      "status": "candidate-context",
+      "text": "Typescript style guide, linter, and formatter using StandardJS"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "standard/ts-standard",
+      "status": "candidate-context",
+      "text": "'tests'"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Manishearth/triomphe",
+      "status": "candidate-context",
+      "text": "Fork of std::sync::Arc with lots of utilities useful for FFI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Manishearth/triomphe",
+      "status": "candidate-context",
+      "text": "Tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "judofyr/duktape.rb",
+      "status": "candidate-context",
+      "text": "Ruby bindings to the Duktape JavaScript interpreter"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "judofyr/duktape.rb",
+      "status": "candidate-context",
+      "text": "Tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rubyjs/mini_racer",
+      "status": "candidate-context",
+      "text": "Minimal embedded v8"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rubyjs/mini_racer",
+      "status": "candidate-context",
+      "text": "Tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mitsuhiko/systemfd",
+      "status": "candidate-context",
+      "text": "Development helper utility for helping with auto reloading for projects supporting systemd socket activation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mitsuhiko/systemfd",
+      "status": "candidate-context",
+      "text": "Tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sferik/multi_json",
+      "status": "candidate-context",
+      "text": "A generic swappable back-end for JSON handling."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sferik/multi_json",
+      "status": "candidate-context",
+      "text": "tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "external-secrets/kubernetes-external-secrets",
+      "status": "candidate-context",
+      "text": "Integrate external secret management systems with Kubernetes"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "external-secrets/kubernetes-external-secrets",
+      "status": "candidate-context",
+      "text": "Tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "adapter-hub/adapter-transformers-legacy",
+      "status": "candidate-context",
+      "text": "ARCHIVED. Go to https://github.com/adapter-hub/adapters for the latest version."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "adapter-hub/adapter-transformers-legacy",
+      "status": "candidate-context",
+      "text": "Tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "conda-forge/conda-forge-feedstock-ops",
+      "status": "candidate-context",
+      "text": "A package of containerized feedstock maintenance operations"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "conda-forge/conda-forge-feedstock-ops",
+      "status": "candidate-context",
+      "text": "tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google-deepmind/distrax",
+      "status": "candidate-context",
+      "text": "tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "SeaQL/sea-orm",
+      "status": "candidate-context",
+      "text": "\ud83d\udc1a A powerful relational ORM for Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SeaQL/sea-orm",
+      "status": "candidate-context",
+      "text": "tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "BlackSamorez/tensor_parallel",
+      "status": "candidate-context",
+      "text": "Automatically split your PyTorch models on multiple GPUs for training & inference"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "BlackSamorez/tensor_parallel",
+      "status": "candidate-context",
+      "text": "\"Tests\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "j9t/html-minifier-next",
+      "status": "candidate-context",
+      "text": "Super-configurable and well-tested web page minifier (enhanced successor of HTML Minifier)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "j9t/html-minifier-next",
+      "status": "candidate-context",
+      "text": "\"Tests\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kurrent-io/KurrentDB-Client-NodeJS",
+      "status": "candidate-context",
+      "text": "KurrentDB NodeJS Client"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kurrent-io/KurrentDB-Client-NodeJS",
+      "status": "candidate-context",
+      "text": "Tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "oap-project/oap-mllib",
+      "status": "candidate-context",
+      "text": "Optimized Spark package to accelerate machine learning algorithms in Apache Spark MLlib."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "oap-project/oap-mllib",
+      "status": "candidate-context",
+      "text": "Tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "SvenskaSpel/locust-plugins",
+      "status": "candidate-context",
+      "text": "A set of useful plugins/extensions for Locust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SvenskaSpel/locust-plugins",
+      "status": "candidate-context",
+      "text": "Tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ErwinM/acts_as_tenant",
+      "status": "candidate-context",
+      "text": "Easy multi-tenancy for Rails in a shared database setup."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ErwinM/acts_as_tenant",
+      "status": "candidate-context",
+      "text": "Tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pallets/flask",
+      "status": "candidate-context",
+      "text": "The Python micro framework for building web applications."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pallets/flask",
+      "status": "candidate-context",
+      "text": "Tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "c-bata/goptuna",
+      "status": "candidate-context",
+      "text": "A hyperparameter optimization framework, inspired by Optuna."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "c-bata/goptuna",
+      "status": "candidate-context",
+      "text": "tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "optuna/optunahub",
+      "status": "candidate-context",
+      "text": "Python library to use and implement packages in OptunaHub"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "optuna/optunahub",
+      "status": "candidate-context",
+      "text": "Tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "chaoss/grimoirelab-toolkit",
+      "status": "candidate-context",
+      "text": "Toolkit of common functions used across GrimoireLab projects."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chaoss/grimoirelab-toolkit",
+      "status": "candidate-context",
+      "text": "tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "BoboTiG/python-mss",
+      "status": "candidate-context",
+      "text": "An ultra fast cross-platform multiple screenshots module in pure Python using ctypes."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "BoboTiG/python-mss",
+      "status": "candidate-context",
+      "text": "Tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "MagicStack/uvloop",
+      "status": "candidate-context",
+      "text": "Ultra fast asyncio event loop."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MagicStack/uvloop",
+      "status": "candidate-context",
+      "text": "Tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "oclif/hello-world",
+      "status": "candidate-context",
+      "text": "Template repository for generating CJS oclif plugins"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "oclif/hello-world",
+      "status": "candidate-context",
+      "text": "tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "oclif/oclif",
+      "status": "candidate-context",
+      "text": "CLI for generating, building, and releasing oclif CLIs. Built by Salesforce."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "oclif/oclif",
+      "status": "candidate-context",
+      "text": "tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "oclif/plugin-update",
+      "status": "candidate-context",
+      "text": "add autoupdate to your oclif CLI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "oclif/plugin-update",
+      "status": "candidate-context",
+      "text": "tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "xuorig/graphql-schema_comparator",
+      "status": "candidate-context",
+      "text": "Get changes between two GraphQL schemas \ud83e\udd16"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "xuorig/graphql-schema_comparator",
+      "status": "candidate-context",
+      "text": "Tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ring-clojure/ring",
+      "status": "candidate-context",
+      "text": "Clojure HTTP server abstraction"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ring-clojure/ring",
+      "status": "candidate-context",
+      "text": "Tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "EdenEast/nightfox.nvim",
+      "status": "candidate-context",
+      "text": "\ud83e\udd8aA highly customizable theme for vim and neovim with support for lsp, treesitter and a variety of plugins."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "EdenEast/nightfox.nvim",
+      "status": "candidate-context",
+      "text": "Tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "weavejester/ns-tracker",
+      "status": "candidate-context",
+      "text": "Library to keep track of changes to Clojure source files"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "weavejester/ns-tracker",
+      "status": "candidate-context",
+      "text": "Tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ray-x/navigator.lua",
+      "status": "candidate-context",
+      "text": "Code analysis & navigation plugin for Neovim. Navigate codes like a breeze\ud83c\udf90  Exploring LSP and \ud83c\udf32Treesitter symbols a piece of \ud83c\udf70  Take control like a boss \ud83e\udd8d"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ray-x/navigator.lua",
+      "status": "candidate-context",
+      "text": "Tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pacstall/pacstall-programs",
+      "status": "candidate-context",
+      "text": "Pacstall's official program repository"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pacstall/pacstall-programs",
+      "status": "candidate-context",
+      "text": "tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "DanielNoord/pydocstringformatter",
+      "status": "candidate-context",
+      "text": "Automatically format your Python docstrings to conform with PEP 8 and PEP 257"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DanielNoord/pydocstringformatter",
+      "status": "candidate-context",
+      "text": "Tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jonschlinkert/whence",
+      "status": "candidate-context",
+      "text": "Add context awareness to your apps and frameworks by safely evaluating user-defined conditional expressions. Useful for evaluating expressions in config files, prompts, key bindings, completions, templates, and many other user cases."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jonschlinkert/whence",
+      "status": "candidate-context",
+      "text": "Tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cloudwego/biz-demo",
+      "status": "candidate-context",
+      "text": "Business Demo for CloudWeGo"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cloudwego/biz-demo",
+      "status": "candidate-context",
+      "text": "Tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Betterment/betterlint",
+      "status": "candidate-context",
+      "text": "tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sigstore/sigstore-conformance",
+      "status": "candidate-context",
+      "text": "Conformance testing for Sigstore clients"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sigstore/sigstore-conformance",
+      "status": "candidate-context",
+      "text": "sigstore-conformance"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "php-rdkafka/php-rdkafka",
+      "status": "candidate-context",
+      "text": "Production-ready, stable Kafka client for PHP"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "php-rdkafka/php-rdkafka",
+      "status": "candidate-context",
+      "text": "'Tests'"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ulid/javascript",
+      "status": "candidate-context",
+      "text": "Universally Unique Lexicographically Sortable Identifier"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ulid/javascript",
+      "status": "candidate-context",
+      "text": "Tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mitsuhiko/listenfd",
+      "status": "candidate-context",
+      "text": "Helper crate to work with systemd/catflap socket activation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mitsuhiko/listenfd",
+      "status": "candidate-context",
+      "text": "Tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "guyboertje/jrjackson",
+      "status": "candidate-context",
+      "text": "Jruby wrapper for Jackson (and Smile)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "guyboertje/jrjackson",
+      "status": "candidate-context",
+      "text": "Tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "humbug/php-scoper",
+      "status": "candidate-context",
+      "text": "\ud83d\udd28 Prefixes all PHP namespaces in a file/directory to isolate the code bundled in PHARs."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "humbug/php-scoper",
+      "status": "candidate-context",
+      "text": "Tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "vietanhdev/anylabeling",
+      "status": "candidate-context",
+      "text": "Effortless AI-assisted data labeling with AI support from YOLO, Segment Anything (SAM+SAM2/2.1+SAM3), MobileSAM!!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vietanhdev/anylabeling",
+      "status": "candidate-context",
+      "text": "Tests"
     }
   ],
   "candidate_glosses": [
@@ -4639,6 +5227,306 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "grailbio/rules_r",
+      "status": "candidate",
+      "text": "Tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ray-x/guihua.lua",
+      "status": "candidate",
+      "text": "Tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nvim-lualine/lualine.nvim",
+      "status": "candidate",
+      "text": "Tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tjdevries/tree-sitter-lua",
+      "status": "candidate",
+      "text": "Tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cloudwego/eino-examples",
+      "status": "candidate",
+      "text": "Tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cloudwego/kitex",
+      "status": "candidate",
+      "text": "Tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "standardrb/standard",
+      "status": "candidate",
+      "text": "Tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "arnaud-lb/php-rdkafka",
+      "status": "candidate",
+      "text": "'Tests'"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "standard/ts-standard",
+      "status": "candidate",
+      "text": "'tests'"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Manishearth/triomphe",
+      "status": "candidate",
+      "text": "Tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "judofyr/duktape.rb",
+      "status": "candidate",
+      "text": "Tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rubyjs/mini_racer",
+      "status": "candidate",
+      "text": "Tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mitsuhiko/systemfd",
+      "status": "candidate",
+      "text": "Tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sferik/multi_json",
+      "status": "candidate",
+      "text": "tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "external-secrets/kubernetes-external-secrets",
+      "status": "candidate",
+      "text": "Tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "adapter-hub/adapter-transformers-legacy",
+      "status": "candidate",
+      "text": "Tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "conda-forge/conda-forge-feedstock-ops",
+      "status": "candidate",
+      "text": "tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google-deepmind/distrax",
+      "status": "candidate",
+      "text": "tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SeaQL/sea-orm",
+      "status": "candidate",
+      "text": "tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "BlackSamorez/tensor_parallel",
+      "status": "candidate",
+      "text": "\"Tests\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "j9t/html-minifier-next",
+      "status": "candidate",
+      "text": "\"Tests\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kurrent-io/KurrentDB-Client-NodeJS",
+      "status": "candidate",
+      "text": "Tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "oap-project/oap-mllib",
+      "status": "candidate",
+      "text": "Tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SvenskaSpel/locust-plugins",
+      "status": "candidate",
+      "text": "Tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ErwinM/acts_as_tenant",
+      "status": "candidate",
+      "text": "Tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pallets/flask",
+      "status": "candidate",
+      "text": "Tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "c-bata/goptuna",
+      "status": "candidate",
+      "text": "tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "optuna/optunahub",
+      "status": "candidate",
+      "text": "Tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chaoss/grimoirelab-toolkit",
+      "status": "candidate",
+      "text": "tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "BoboTiG/python-mss",
+      "status": "candidate",
+      "text": "Tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MagicStack/uvloop",
+      "status": "candidate",
+      "text": "Tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "oclif/hello-world",
+      "status": "candidate",
+      "text": "tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "oclif/oclif",
+      "status": "candidate",
+      "text": "tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "oclif/plugin-update",
+      "status": "candidate",
+      "text": "tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "xuorig/graphql-schema_comparator",
+      "status": "candidate",
+      "text": "Tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ring-clojure/ring",
+      "status": "candidate",
+      "text": "Tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "EdenEast/nightfox.nvim",
+      "status": "candidate",
+      "text": "Tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "weavejester/ns-tracker",
+      "status": "candidate",
+      "text": "Tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ray-x/navigator.lua",
+      "status": "candidate",
+      "text": "Tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pacstall/pacstall-programs",
+      "status": "candidate",
+      "text": "tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DanielNoord/pydocstringformatter",
+      "status": "candidate",
+      "text": "Tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jonschlinkert/whence",
+      "status": "candidate",
+      "text": "Tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cloudwego/biz-demo",
+      "status": "candidate",
+      "text": "Tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Betterment/betterlint",
+      "status": "candidate",
+      "text": "tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sigstore/sigstore-conformance",
+      "status": "candidate",
+      "text": "sigstore-conformance"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "php-rdkafka/php-rdkafka",
+      "status": "candidate",
+      "text": "'Tests'"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ulid/javascript",
+      "status": "candidate",
+      "text": "Tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mitsuhiko/listenfd",
+      "status": "candidate",
+      "text": "Tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "guyboertje/jrjackson",
+      "status": "candidate",
+      "text": "Tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "humbug/php-scoper",
+      "status": "candidate",
+      "text": "Tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vietanhdev/anylabeling",
       "status": "candidate",
       "text": "Tests"
     }
@@ -6585,11 +7473,413 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": ".github/workflows/tests.yml",
       "source_repo": "grailbio/rules_r"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "ray-x/guihua.lua"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "nvim-lualine/lualine.nvim"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "tjdevries/tree-sitter-lua"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/tests.yaml",
+      "source_repo": "conventional-changelog/conventional-changelog"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/ci-pr.yml",
+      "source_repo": "clog-tool/clog-cli"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "cloudwego/eino-examples"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "cloudwego/kitex"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "standardrb/standard"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/integration.yml",
+      "source_repo": "Layr-Labs/incredible-squaring-avs-rs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "Uniswap/v3-core"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "Uniswap/v3-periphery"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "arnaud-lb/php-rdkafka"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "micromatch/micromatch"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/nodejs.yml",
+      "source_repo": "standard/ts-standard"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "Manishearth/triomphe"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "judofyr/duktape.rb"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "rubyjs/mini_racer"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/tests.yaml",
+      "source_repo": "php/frankenphp"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "mitsuhiko/systemfd"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "sferik/multi_json"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/workflow.yml",
+      "source_repo": "external-secrets/kubernetes-external-secrets"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "stx-labs/stacks.js"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "TrigenSoftware/simple-release"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/tests_torch.yml",
+      "source_repo": "adapter-hub/adapter-transformers-legacy"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "conda-forge/conda-forge-feedstock-ops"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "hiyouga/LlamaFactory"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "google-deepmind/distrax"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/rust.yml",
+      "source_repo": "SeaQL/sea-orm"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/run-tests.yaml",
+      "source_repo": "BlackSamorez/tensor_parallel"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/tests.yaml",
+      "source_repo": "anthropics/claude-quickstarts"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "cookiecutter/cookiecutter"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "j9t/html-minifier-next"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "clean-css/clean-css"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "kurrent-io/KurrentDB-Client-NodeJS"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/ci-tests.yml",
+      "source_repo": "oap-project/oap-mllib"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "SvenskaSpel/locust-plugins"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "ErwinM/acts_as_tenant"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/tests.yaml",
+      "source_repo": "pallets/flask"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/go-tests.yml",
+      "source_repo": "c-bata/goptuna"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/tests.yaml",
+      "source_repo": "optuna/optunahub"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "chaoss/grimoirelab-toolkit"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "BoboTiG/python-mss"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "MagicStack/uvloop"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "ardatan/graphql-tools"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "oclif/hello-world"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "oclif/oclif"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "oclif/plugin-update"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "xuorig/graphql-schema_comparator"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "aws/serverless-application-model"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "ring-clojure/ring"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "EdenEast/nightfox.nvim"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "weavejester/ns-tracker"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "ray-x/navigator.lua"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "pacstall/pacstall-programs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/tests.yaml",
+      "source_repo": "DanielNoord/pydocstringformatter"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "jonschlinkert/whence"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "cloudwego/biz-demo"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "Betterment/betterlint"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "sigstore/sigstore-conformance"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "php-rdkafka/php-rdkafka"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "wasm-bindgen/wasm-pack"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "ulid/javascript"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "mitsuhiko/listenfd"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "guyboertje/jrjackson"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/tests.yaml",
+      "source_repo": "humbug/php-scoper"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/tests_torch.yml",
+      "source_repo": "adapter-hub/adapters"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "vietanhdev/anylabeling"
     }
   ],
   "first_seen_at": "2026-04-18T11:41:43.530265+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

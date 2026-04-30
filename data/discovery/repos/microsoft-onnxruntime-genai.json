@@ -1,0 +1,558 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/android-build.yml"
+    },
+    {
+      "component": "actions/setup-java@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/android-build.yml"
+    },
+    {
+      "component": "gradle/actions/setup-gradle@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/android-build.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/android-build.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/clang-format-lint.yml"
+    },
+    {
+      "component": "microsoft/onnxruntime-github-actions/format-lint-check@v0.0.6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/clang-format-lint.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "github/codeql-action/init@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "github/codeql-action/autobuild@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "github/codeql-action/analyze@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ios-build.yml"
+    },
+    {
+      "component": "microsoft/onnxruntime-github-actions/setup-build-tools@v0.0.8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ios-build.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ios-build.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux-cpu-arm64-build.yml"
+    },
+    {
+      "component": "actions/setup-dotnet@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux-cpu-arm64-build.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux-cpu-x64-build.yml"
+    },
+    {
+      "component": "actions/setup-dotnet@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux-cpu-x64-build.yml"
+    },
+    {
+      "component": "actions/setup-java@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux-cpu-x64-build.yml"
+    },
+    {
+      "component": "gradle/actions/setup-gradle@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux-cpu-x64-build.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux-cpu-x64-build.yml"
+    },
+    {
+      "component": "microsoft/onnxruntime-github-actions/setup-build-tools@v0.0.8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux-cpu-x64-build.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux-cpu-x64-nightly-build.yml"
+    },
+    {
+      "component": "actions/setup-dotnet@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux-cpu-x64-nightly-build.yml"
+    },
+    {
+      "component": "actions/setup-java@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux-cpu-x64-nightly-build.yml"
+    },
+    {
+      "component": "gradle/actions/setup-gradle@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux-cpu-x64-nightly-build.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux-cpu-x64-nightly-build.yml"
+    },
+    {
+      "component": "microsoft/onnxruntime-github-actions/setup-build-tools@v0.0.8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux-cpu-x64-nightly-build.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux-cpu-x64-nightly-build.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux-gpu-x64-build.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux-gpu-x64-build.yml"
+    },
+    {
+      "component": "actions/setup-dotnet@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux-gpu-x64-build.yml"
+    },
+    {
+      "component": "microsoft/onnxruntime-github-actions/setup-build-tools@v0.0.8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux-gpu-x64-build.yml"
+    },
+    {
+      "component": "microsoft/onnxruntime-github-actions/setup-build-tools@v0.0.8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux-gpu-x64-build.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "microsoft/onnxruntime-genai",
+      "target": "suo/lintrunner",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/android-build.yml",
+      "source_repo": "microsoft/onnxruntime-genai",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/android-build.yml",
+      "source_repo": "microsoft/onnxruntime-genai",
+      "target": "actions/setup-java@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/android-build.yml",
+      "source_repo": "microsoft/onnxruntime-genai",
+      "target": "gradle/actions/setup-gradle@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/android-build.yml",
+      "source_repo": "microsoft/onnxruntime-genai",
+      "target": "Android x64 Build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/clang-format-lint.yml",
+      "source_repo": "microsoft/onnxruntime-genai",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/clang-format-lint.yml",
+      "source_repo": "microsoft/onnxruntime-genai",
+      "target": "microsoft/onnxruntime-github-actions/format-lint-check@v0.0.6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/clang-format-lint.yml",
+      "source_repo": "microsoft/onnxruntime-genai",
+      "target": "Clang Format Lint",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "microsoft/onnxruntime-genai",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "microsoft/onnxruntime-genai",
+      "target": "github/codeql-action/init@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "microsoft/onnxruntime-genai",
+      "target": "github/codeql-action/autobuild@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "microsoft/onnxruntime-genai",
+      "target": "github/codeql-action/analyze@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "microsoft/onnxruntime-genai",
+      "target": "CodeQL",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ios-build.yml",
+      "source_repo": "microsoft/onnxruntime-genai",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ios-build.yml",
+      "source_repo": "microsoft/onnxruntime-genai",
+      "target": "microsoft/onnxruntime-github-actions/setup-build-tools@v0.0.8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ios-build.yml",
+      "source_repo": "microsoft/onnxruntime-genai",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ios-build.yml",
+      "source_repo": "microsoft/onnxruntime-genai",
+      "target": "iOS ARM64 Build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux-cpu-arm64-build.yml",
+      "source_repo": "microsoft/onnxruntime-genai",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux-cpu-arm64-build.yml",
+      "source_repo": "microsoft/onnxruntime-genai",
+      "target": "actions/setup-dotnet@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/linux-cpu-arm64-build.yml",
+      "source_repo": "microsoft/onnxruntime-genai",
+      "target": "Linux CPU ARM64 Build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux-cpu-x64-build.yml",
+      "source_repo": "microsoft/onnxruntime-genai",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux-cpu-x64-build.yml",
+      "source_repo": "microsoft/onnxruntime-genai",
+      "target": "actions/setup-dotnet@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux-cpu-x64-build.yml",
+      "source_repo": "microsoft/onnxruntime-genai",
+      "target": "actions/setup-java@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux-cpu-x64-build.yml",
+      "source_repo": "microsoft/onnxruntime-genai",
+      "target": "gradle/actions/setup-gradle@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux-cpu-x64-build.yml",
+      "source_repo": "microsoft/onnxruntime-genai",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux-cpu-x64-build.yml",
+      "source_repo": "microsoft/onnxruntime-genai",
+      "target": "microsoft/onnxruntime-github-actions/setup-build-tools@v0.0.8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/linux-cpu-x64-build.yml",
+      "source_repo": "microsoft/onnxruntime-genai",
+      "target": "Linux CPU x64 Build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux-cpu-x64-nightly-build.yml",
+      "source_repo": "microsoft/onnxruntime-genai",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux-cpu-x64-nightly-build.yml",
+      "source_repo": "microsoft/onnxruntime-genai",
+      "target": "actions/setup-dotnet@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux-cpu-x64-nightly-build.yml",
+      "source_repo": "microsoft/onnxruntime-genai",
+      "target": "actions/setup-java@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux-cpu-x64-nightly-build.yml",
+      "source_repo": "microsoft/onnxruntime-genai",
+      "target": "gradle/actions/setup-gradle@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux-cpu-x64-nightly-build.yml",
+      "source_repo": "microsoft/onnxruntime-genai",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux-cpu-x64-nightly-build.yml",
+      "source_repo": "microsoft/onnxruntime-genai",
+      "target": "microsoft/onnxruntime-github-actions/setup-build-tools@v0.0.8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux-cpu-x64-nightly-build.yml",
+      "source_repo": "microsoft/onnxruntime-genai",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/linux-cpu-x64-nightly-build.yml",
+      "source_repo": "microsoft/onnxruntime-genai",
+      "target": "Nightly Build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux-gpu-x64-build.yml",
+      "source_repo": "microsoft/onnxruntime-genai",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux-gpu-x64-build.yml",
+      "source_repo": "microsoft/onnxruntime-genai",
+      "target": "actions/setup-dotnet@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux-gpu-x64-build.yml",
+      "source_repo": "microsoft/onnxruntime-genai",
+      "target": "microsoft/onnxruntime-github-actions/setup-build-tools@v0.0.8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/linux-gpu-x64-build.yml",
+      "source_repo": "microsoft/onnxruntime-genai",
+      "target": "Linux CUDA x64 Build",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T01:52:47.302290+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7363
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 2325
+    },
+    {
+      "path": ".github/workflows/android-build.yml",
+      "size": 4364
+    },
+    {
+      "path": ".github/workflows/clang-format-lint.yml",
+      "size": 771
+    },
+    {
+      "path": ".github/workflows/codeql.yml",
+      "size": 2198
+    },
+    {
+      "path": ".github/workflows/ios-build.yml",
+      "size": 1709
+    },
+    {
+      "path": ".github/workflows/linux-cpu-arm64-build.yml",
+      "size": 5233
+    },
+    {
+      "path": ".github/workflows/linux-cpu-x64-build.yml",
+      "size": 6970
+    },
+    {
+      "path": ".github/workflows/linux-cpu-x64-nightly-build.yml",
+      "size": 7263
+    },
+    {
+      "path": ".github/workflows/linux-gpu-x64-build.yml",
+      "size": 9024
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Generative AI extensions for onnxruntime",
+    "fork": false,
+    "full_name": "microsoft/onnxruntime-genai",
+    "html_url": "https://github.com/microsoft/onnxruntime-genai",
+    "language": "C++",
+    "pushed_at": "2026-04-29T19:43:19Z",
+    "stargazers_count": 1016,
+    "topics": [],
+    "updated_at": "2026-04-29T21:57:47Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "suo/lintrunner",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "\"Android x64 Build\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/android-build.yml",
+      "term": "Android x64 Build"
+    },
+    {
+      "context_snippet": "Clang Format Lint",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/clang-format-lint.yml",
+      "term": "Clang Format Lint"
+    },
+    {
+      "context_snippet": "\"CodeQL\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql.yml",
+      "term": "CodeQL"
+    },
+    {
+      "context_snippet": "\"iOS ARM64 Build\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ios-build.yml",
+      "term": "iOS ARM64 Build"
+    },
+    {
+      "context_snippet": "\"Linux CPU ARM64 Build\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/linux-cpu-arm64-build.yml",
+      "term": "Linux CPU ARM64 Build"
+    },
+    {
+      "context_snippet": "\"Linux CPU x64 Build\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/linux-cpu-x64-build.yml",
+      "term": "Linux CPU x64 Build"
+    },
+    {
+      "context_snippet": "\"Nightly Build\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/linux-cpu-x64-nightly-build.yml",
+      "term": "Nightly Build"
+    },
+    {
+      "context_snippet": "\"Linux CUDA x64 Build\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/linux-gpu-x64-build.yml",
+      "term": "Linux CUDA x64 Build"
+    }
+  ]
+}

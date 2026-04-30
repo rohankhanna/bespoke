@@ -1,0 +1,90 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dcampbell24/mdbook-djot",
+      "target": "mdbook",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dcampbell24/mdbook-djot",
+      "target": "mdbook-plugin",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dcampbell24/mdbook-djot",
+      "target": "mdbook-plugins",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dcampbell24/mdbook-djot",
+      "target": "mdbook-preprocessor",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T00:51:13.900405+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1221
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 750
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Djot plugin for mdBook.",
+    "fork": false,
+    "full_name": "dcampbell24/mdbook-djot",
+    "html_url": "https://github.com/dcampbell24/mdbook-djot",
+    "language": "Rust",
+    "pushed_at": "2026-03-25T02:01:18Z",
+    "stargazers_count": 11,
+    "topics": [
+      "mdbook",
+      "mdbook-plugin",
+      "mdbook-plugins",
+      "mdbook-preprocessor"
+    ],
+    "updated_at": "2026-04-28T23:11:00Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "<!-- >",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mdbook"
+    },
+    {
+      "context_snippet": "<!-- >",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mdbook-plugin"
+    },
+    {
+      "context_snippet": "<!-- >",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mdbook-plugins"
+    },
+    {
+      "context_snippet": "<!-- >",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mdbook-preprocessor"
+    }
+  ]
+}

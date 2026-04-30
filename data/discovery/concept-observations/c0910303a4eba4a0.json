@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Apache Beam is a unified programming model for Batch and Streaming data processing."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Cancel Stale Dataflow Jobs"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Cancel Stale Dataflow Jobs"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 16786,
+      "status": "candidate",
+      "text": "break"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 16729,
+      "status": "candidate",
+      "text": "cull"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 16729,
+      "status": "candidate",
+      "text": "hack"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 16729,
+      "status": "candidate",
+      "text": "hacking"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 16729,
+      "status": "candidate",
+      "text": "officious"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Cancel Stale Dataflow Jobs",
+      "sense_id": "cancel-stale-dataflow-jobs#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "cancel-stale-dataflow-jobs",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "cancel-stale-dataflow-jobs",
+  "observation_id": "c0910303a4eba4a0",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-30T00:37:16.824464+00:00",
+  "observed_text": "Cancel Stale Dataflow Jobs",
+  "source_context_snippet": "Cancel Stale Dataflow Jobs",
+  "source_file": ".github/workflows/beam_CancelStaleDataflowJobs.yml",
+  "source_repo": "apache/beam",
+  "source_repo_description": "Apache Beam is a unified programming model for Batch and Streaming data processing."
+}

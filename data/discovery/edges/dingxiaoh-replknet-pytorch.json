@@ -1,0 +1,34 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "DingXiaoH/RepLKNet-pytorch",
+      "target": "br-idl/paddlevit",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "DingXiaoH/RepLKNet-pytorch",
+      "target": "dingxiaoh/repoptimizers",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "DingXiaoH/RepLKNet-pytorch",
+      "target": "dingxiaoh/repmlp",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "DingXiaoH/RepLKNet-pytorch",
+      "target": "dingxiaoh/gsm-sgd",
+      "target_type": "repository"
+    }
+  ],
+  "generated_at": "2026-04-30T00:37:16.824464+00:00",
+  "source_repo": "DingXiaoH/RepLKNet-pytorch"
+}

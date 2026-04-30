@@ -19,6 +19,18 @@
       "source_repo": "BeayemX/GitViper",
       "status": "candidate-context",
       "text": "![image](https://user-images.githubusercontent.com/3453076/35360877-8035c5b2-015f-11e8-8ab2-1d74e65e3cd5.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "AndersDJohnson/conventional-commit-types-cli",
+      "status": "candidate-context",
+      "text": "CLI to list conventional commit types."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AndersDJohnson/conventional-commit-types-cli",
+      "status": "candidate-context",
+      "text": "CLI to list conventional commit types per https://github.com/commitizen/conventional-commit-types."
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "BeayemX/GitViper",
       "status": "candidate",
       "text": "![image](https://user-images.githubusercontent.com/3453076/35360877-8035c5b2-015f-11e8-8ab2-1d74e65e3cd5.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AndersDJohnson/conventional-commit-types-cli",
+      "status": "candidate",
+      "text": "CLI to list conventional commit types per https://github.com/commitizen/conventional-commit-types."
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-22T18:52:26.467154+00:00",
       "source_file": null,
       "source_repo": "BeayemX/GitViper"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "AndersDJohnson/conventional-commit-types-cli"
     }
   ],
   "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

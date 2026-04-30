@@ -1,0 +1,293 @@
+{
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_reusable-artifact-builder.yaml",
+      "source_repo": "open-edge-platform/anomalib",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_reusable-artifact-builder.yaml",
+      "source_repo": "open-edge-platform/anomalib",
+      "target": "actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_reusable-artifact-builder.yaml",
+      "source_repo": "open-edge-platform/anomalib",
+      "target": "actions/cache@668228422ae6a00e4ad889ee87cd7109ec5666a7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_reusable-artifact-builder.yaml",
+      "source_repo": "open-edge-platform/anomalib",
+      "target": "actions/upload-artifact@bbbca2ddaa5d8feaa63e36b76fdaad77386f024f",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/_reusable-artifact-builder.yaml",
+      "source_repo": "open-edge-platform/anomalib",
+      "target": "Reusable Artifact Builder",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_reusable-code-quality.yaml",
+      "source_repo": "open-edge-platform/anomalib",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_reusable-code-quality.yaml",
+      "source_repo": "open-edge-platform/anomalib",
+      "target": "j178/prek-action@53276d8b0d10f8b6672aa85b4588c6921d0370cc",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/_reusable-code-quality.yaml",
+      "source_repo": "open-edge-platform/anomalib",
+      "target": "Reusable Code Quality",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_reusable-docker-build.yaml",
+      "source_repo": "open-edge-platform/anomalib",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_reusable-docker-build.yaml",
+      "source_repo": "open-edge-platform/anomalib",
+      "target": "open-edge-platform/geti-ci/actions/cleanup-runner@e80098b3d180db37914f11ff6021f9fa34d0bb9f",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_reusable-docker-build.yaml",
+      "source_repo": "open-edge-platform/anomalib",
+      "target": "docker/setup-docker-action@1a6edb0ba9ac496f6850236981f15d8f9a82254d",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_reusable-docker-build.yaml",
+      "source_repo": "open-edge-platform/anomalib",
+      "target": "docker/setup-compose-action@8cccb8c14b6500aaffebff1aa49c502c34d2e5e6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_reusable-docker-build.yaml",
+      "source_repo": "open-edge-platform/anomalib",
+      "target": "docker/metadata-action@030e881283bb7a6894de51c315a6bfe6a94e05cf",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_reusable-docker-build.yaml",
+      "source_repo": "open-edge-platform/anomalib",
+      "target": "actions/upload-artifact@bbbca2ddaa5d8feaa63e36b76fdaad77386f024f",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_reusable-docker-build.yaml",
+      "source_repo": "open-edge-platform/anomalib",
+      "target": "actions/download-artifact@3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_reusable-docker-build.yaml",
+      "source_repo": "open-edge-platform/anomalib",
+      "target": "actions/github-script@ed597411d8f924073f98dfc5c65a23a2325f34cd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/_reusable-docker-build.yaml",
+      "source_repo": "open-edge-platform/anomalib",
+      "target": "Reusable Docker Image Build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_reusable-pr-title-check.yaml",
+      "source_repo": "open-edge-platform/anomalib",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_reusable-pr-title-check.yaml",
+      "source_repo": "open-edge-platform/anomalib",
+      "target": "actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/_reusable-pr-title-check.yaml",
+      "source_repo": "open-edge-platform/anomalib",
+      "target": "Reusable PR Title Check",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_reusable-security-scan.yaml",
+      "source_repo": "open-edge-platform/anomalib",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_reusable-security-scan.yaml",
+      "source_repo": "open-edge-platform/anomalib",
+      "target": "open-edge-platform/geti-ci/actions/bandit@e80098b3d180db37914f11ff6021f9fa34d0bb9f",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_reusable-security-scan.yaml",
+      "source_repo": "open-edge-platform/anomalib",
+      "target": "open-edge-platform/geti-ci/actions/semgrep@e80098b3d180db37914f11ff6021f9fa34d0bb9f",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_reusable-security-scan.yaml",
+      "source_repo": "open-edge-platform/anomalib",
+      "target": "open-edge-platform/geti-ci/actions/trivy@e80098b3d180db37914f11ff6021f9fa34d0bb9f",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_reusable-security-scan.yaml",
+      "source_repo": "open-edge-platform/anomalib",
+      "target": "open-edge-platform/geti-ci/actions/zizmor@e80098b3d180db37914f11ff6021f9fa34d0bb9f",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/_reusable-security-scan.yaml",
+      "source_repo": "open-edge-platform/anomalib",
+      "target": "Reusable Security Scan",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_reusable-test-suite.yaml",
+      "source_repo": "open-edge-platform/anomalib",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/_reusable-test-suite.yaml",
+      "source_repo": "open-edge-platform/anomalib",
+      "target": "Reusable Test Suite",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_reusable-version-bump.yaml",
+      "source_repo": "open-edge-platform/anomalib",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_reusable-version-bump.yaml",
+      "source_repo": "open-edge-platform/anomalib",
+      "target": "actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_reusable-version-bump.yaml",
+      "source_repo": "open-edge-platform/anomalib",
+      "target": "peter-evans/create-pull-request@c0f553fe549906ede9cf27b5156039d195d2ece0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/_reusable-version-bump.yaml",
+      "source_repo": "open-edge-platform/anomalib",
+      "target": "Reusable Version Bump",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_reusable-version-check.yaml",
+      "source_repo": "open-edge-platform/anomalib",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/_reusable-version-check.yaml",
+      "source_repo": "open-edge-platform/anomalib",
+      "target": "Reusable Version Check",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "open-edge-platform/anomalib",
+      "target": "anomaly-detection",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "open-edge-platform/anomalib",
+      "target": "anomaly-localization",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "open-edge-platform/anomalib",
+      "target": "anomaly-segmentation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "open-edge-platform/anomalib",
+      "target": "geti",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "open-edge-platform/anomalib",
+      "target": "neural-network-compression",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "open-edge-platform/anomalib",
+      "target": "openvino",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "open-edge-platform/anomalib",
+      "target": "unsupervised-learning",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-30T00:37:16.824464+00:00",
+  "source_repo": "open-edge-platform/anomalib"
+}

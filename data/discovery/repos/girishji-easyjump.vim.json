@@ -1,0 +1,100 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "girishji/easyjump.vim",
+      "target": "vim-motions",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "girishji/easyjump.vim",
+      "target": "vim-plugin",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "girishji/easyjump.vim",
+      "target": "vim9",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "girishji/easyjump.vim",
+      "target": "vim9-plugin",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "girishji/easyjump.vim",
+      "target": "vim9script",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T00:37:52.870183+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5347
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "The Vim motion you've always wanted.",
+    "fork": false,
+    "full_name": "girishji/easyjump.vim",
+    "html_url": "https://github.com/girishji/easyjump.vim",
+    "language": "Vim Script",
+    "pushed_at": "2024-06-06T08:55:31Z",
+    "stargazers_count": 18,
+    "topics": [
+      "vim-motions",
+      "vim-plugin",
+      "vim9",
+      "vim9-plugin",
+      "vim9script"
+    ],
+    "updated_at": "2025-01-15T10:17:20Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Jump to any location on screen by typing two characters.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vim-motions"
+    },
+    {
+      "context_snippet": "Jump to any location on screen by typing two characters.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vim-plugin"
+    },
+    {
+      "context_snippet": "Jump to any location on screen by typing two characters.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vim9"
+    },
+    {
+      "context_snippet": "Jump to any location on screen by typing two characters.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vim9-plugin"
+    },
+    {
+      "context_snippet": "Jump to any location on screen by typing two characters.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vim9script"
+    }
+  ]
+}

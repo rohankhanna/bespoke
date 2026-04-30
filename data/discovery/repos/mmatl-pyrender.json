@@ -1,0 +1,105 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mmatl/pyrender",
+      "target": "3d-graphics",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mmatl/pyrender",
+      "target": "gltf-viewer",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mmatl/pyrender",
+      "target": "opengl",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mmatl/pyrender",
+      "target": "rendering",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mmatl/pyrender",
+      "target": "visualization",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T05:13:53.005108+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4440
+    },
+    {
+      "path": "requirements.txt",
+      "size": 142
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Easy-to-use glTF 2.0-compliant OpenGL renderer for visualization of 3D scenes.",
+    "fork": false,
+    "full_name": "mmatl/pyrender",
+    "html_url": "https://github.com/mmatl/pyrender",
+    "language": "Python",
+    "pushed_at": "2025-02-07T06:54:10Z",
+    "stargazers_count": 1465,
+    "topics": [
+      "3d-graphics",
+      "gltf-viewer",
+      "opengl",
+      "python",
+      "rendering",
+      "visualization"
+    ],
+    "updated_at": "2026-04-28T05:36:21Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "[![Build Status](https://travis-ci.org/mmatl/pyrender.svg?branch=master)](https://travis-ci.org/mmatl/pyrender)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "3d-graphics"
+    },
+    {
+      "context_snippet": "[![Build Status](https://travis-ci.org/mmatl/pyrender.svg?branch=master)](https://travis-ci.org/mmatl/pyrender)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gltf-viewer"
+    },
+    {
+      "context_snippet": "[![Build Status](https://travis-ci.org/mmatl/pyrender.svg?branch=master)](https://travis-ci.org/mmatl/pyrender)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "opengl"
+    },
+    {
+      "context_snippet": "[![Build Status](https://travis-ci.org/mmatl/pyrender.svg?branch=master)](https://travis-ci.org/mmatl/pyrender)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rendering"
+    },
+    {
+      "context_snippet": "[![Build Status](https://travis-ci.org/mmatl/pyrender.svg?branch=master)](https://travis-ci.org/mmatl/pyrender)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "visualization"
+    }
+  ]
+}

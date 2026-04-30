@@ -619,6 +619,126 @@
       "source_repo": "amzn/pecos",
       "status": "candidate-context",
       "text": "[![PyPi Latest Release](https://img.shields.io/pypi/v/libpecos)](https://img.shields.io/pypi/v/libpecos)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "OpenBMB/VisCPM",
+      "status": "candidate-context",
+      "text": "[ICLR'24 spotlight] Chinese and English Multimodal Large Model Series (Chat and Paint) | \u57fa\u4e8eCPM\u57fa\u7840\u6a21\u578b\u7684\u4e2d\u82f1\u53cc\u8bed\u591a\u6a21\u6001\u5927\u6a21\u578b\u7cfb\u5217"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "OpenBMB/VisCPM",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lucidrains/flamingo-pytorch",
+      "status": "candidate-context",
+      "text": "Implementation of \ud83e\udda9 Flamingo, state-of-the-art few-shot visual question answering attention net out of Deepmind, in Pytorch"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lucidrains/flamingo-pytorch",
+      "status": "candidate-context",
+      "text": "<img src=\"./flamingo.png\" width=\"500px\"></img>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "OFA-Sys/Chinese-CLIP",
+      "status": "candidate-context",
+      "text": "Chinese version of CLIP which achieves Chinese cross-modal retrieval and representation generation."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "OFA-Sys/Chinese-CLIP",
+      "status": "candidate-context",
+      "text": "[**\u4e2d\u6587\u8bf4\u660e**](README.md) | [**English**](README_En.md)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "iflytek/cino",
+      "status": "candidate-context",
+      "text": "CINO: Pre-trained Language Models for Chinese Minority (\u5c11\u6570\u6c11\u65cf\u8bed\u8a00\u9884\u8bad\u7ec3\u6a21\u578b)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "iflytek/cino",
+      "status": "candidate-context",
+      "text": "[**\u4e2d\u6587\u8bf4\u660e**](https://github.com/ymcui/Chinese-Minority-PLM/) | [**English**](https://github.com/ymcui/Chinese-Minority-PLM/blob/main/README_EN.md)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "huggingface/transformers.js",
+      "status": "candidate-context",
+      "text": "State-of-the-art Machine Learning for the web. Run \ud83e\udd17 Transformers directly in your browser, with no need for a server!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "huggingface/transformers.js",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "saharmor/dalle-playground",
+      "status": "candidate-context",
+      "text": "A playground to generate images from any text prompt using Stable Diffusion (past: using DALL-E Mini)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "saharmor/dalle-playground",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "chengzeyi/ParaAttention",
+      "status": "candidate-context",
+      "text": "https://wavespeed.ai/ Context parallel attention that accelerates DiT model inference with dynamic caching"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chengzeyi/ParaAttention",
+      "status": "candidate-context",
+      "text": "[Blazing Fast FLUX-dev with LoRAs](https://wavespeed.ai/models/wavespeed-ai/flux-dev-lora)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "NVlabs/Sana",
+      "status": "candidate-context",
+      "text": "SANA: Efficient High-Resolution Image Synthesis with Linear Diffusion Transformer"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NVlabs/Sana",
+      "status": "candidate-context",
+      "text": "<p align=\"center\" style=\"border-radius: 10px\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "qubvel-org/segmentation_models.pytorch",
+      "status": "candidate-context",
+      "text": "Semantic segmentation models with 500+ pretrained convolutional and transformer-based backbones."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "qubvel-org/segmentation_models.pytorch",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "invictus717/MetaTransformer",
+      "status": "candidate-context",
+      "text": "Meta-Transformer for Unified Multimodal Learning"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "invictus717/MetaTransformer",
+      "status": "candidate-context",
+      "text": "<p align=\"center\" width=\"100%\">"
     }
   ],
   "candidate_glosses": [
@@ -927,6 +1047,66 @@
       "source_repo": "amzn/pecos",
       "status": "candidate",
       "text": "[![PyPi Latest Release](https://img.shields.io/pypi/v/libpecos)](https://img.shields.io/pypi/v/libpecos)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "OpenBMB/VisCPM",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lucidrains/flamingo-pytorch",
+      "status": "candidate",
+      "text": "<img src=\"./flamingo.png\" width=\"500px\"></img>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "OFA-Sys/Chinese-CLIP",
+      "status": "candidate",
+      "text": "[**\u4e2d\u6587\u8bf4\u660e**](README.md) | [**English**](README_En.md)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "iflytek/cino",
+      "status": "candidate",
+      "text": "[**\u4e2d\u6587\u8bf4\u660e**](https://github.com/ymcui/Chinese-Minority-PLM/) | [**English**](https://github.com/ymcui/Chinese-Minority-PLM/blob/main/README_EN.md)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "huggingface/transformers.js",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "saharmor/dalle-playground",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chengzeyi/ParaAttention",
+      "status": "candidate",
+      "text": "[Blazing Fast FLUX-dev with LoRAs](https://wavespeed.ai/models/wavespeed-ai/flux-dev-lora)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NVlabs/Sana",
+      "status": "candidate",
+      "text": "<p align=\"center\" style=\"border-radius: 10px\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "qubvel-org/segmentation_models.pytorch",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "invictus717/MetaTransformer",
+      "status": "candidate",
+      "text": "<p align=\"center\" width=\"100%\">"
     }
   ],
   "candidate_related_terms": [
@@ -1336,11 +1516,107 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "amzn/pecos"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "OpenBMB/VisCPM"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "EleutherAI/gpt-neo"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "lucidrains/flamingo-pytorch"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "TinyLLaVA/TinyLLaVA_Factory"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "hiyouga/LlamaFactory"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "OFA-Sys/Chinese-CLIP"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "iflytek/cino"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "AutoGPTQ/AutoGPTQ"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "huggingface/transformers.js"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "intel/ipex-llm"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "saharmor/dalle-playground"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "chengzeyi/ParaAttention"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "NVlabs/Sana"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "adapter-hub/adapters"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "qubvel-org/segmentation_models.pytorch"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "invictus717/MetaTransformer"
     }
   ],
   "first_seen_at": "2026-04-18T11:57:36.597358+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

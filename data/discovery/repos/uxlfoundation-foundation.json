@@ -1,0 +1,53 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "uxlfoundation/foundation",
+      "target": "oneapi-src/oneapi-spec",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "uxlfoundation/foundation",
+      "target": "uxlfoundation/open-source-working-group",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T03:03:17.845494+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3462
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "uxlfoundation/foundation",
+    "html_url": "https://github.com/uxlfoundation/foundation",
+    "language": null,
+    "pushed_at": "2026-04-28T11:37:02Z",
+    "stargazers_count": 92,
+    "topics": [],
+    "updated_at": "2026-04-28T11:37:06Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "oneapi-src/oneapi-spec",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "uxlfoundation/open-source-working-group",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

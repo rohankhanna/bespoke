@@ -55,6 +55,18 @@
       "source_repo": "zefei/vim-wintabs",
       "status": "candidate-context",
       "text": "Wintabs is a per-window buffer manager for Vim. It creates \"tabs\" for each"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kdheepak/tabline.nvim",
+      "status": "candidate-context",
+      "text": "A \"buffer and tab\" tabline for neovim"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kdheepak/tabline.nvim",
+      "status": "candidate-context",
+      "text": "This plugin is archived. Check out the following instead:"
     }
   ],
   "candidate_glosses": [
@@ -81,6 +93,12 @@
       "source_repo": "zefei/vim-wintabs",
       "status": "candidate",
       "text": "Wintabs is a per-window buffer manager for Vim. It creates \"tabs\" for each"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kdheepak/tabline.nvim",
+      "status": "candidate",
+      "text": "This plugin is archived. Check out the following instead:"
     }
   ],
   "candidate_related_terms": [],
@@ -112,11 +130,17 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": null,
       "source_repo": "zefei/vim-wintabs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "kdheepak/tabline.nvim"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

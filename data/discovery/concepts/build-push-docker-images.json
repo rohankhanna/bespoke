@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Build & Push Docker Images"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "danielrosehill/Red-Alert-Monitoring-Stack",
+      "status": "candidate-context",
+      "text": "Microservices Docker stack for Pikud HaOref red alert monitoring, home automation, and real-time visualization"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "danielrosehill/Red-Alert-Monitoring-Stack",
+      "status": "candidate-context",
+      "text": "Build & Push Docker Images"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "danielrosehill/Red-Alert-Monitoring-Stack",
+      "status": "candidate",
+      "text": "Build & Push Docker Images"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22129,
+      "status": "candidate",
+      "text": "boat"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17518,
+      "status": "candidate",
+      "text": "farmer"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 16907,
+      "status": "candidate",
+      "text": "dream"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 16862,
+      "status": "candidate",
+      "text": "develop"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 16816,
+      "status": "candidate",
+      "text": "cast"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Build & Push Docker Images",
+  "concept_id": "build-push-docker-images",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/docker-build.yml",
+      "source_repo": "danielrosehill/Red-Alert-Monitoring-Stack"
+    }
+  ],
+  "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Build & Push Docker Images",
+      "sense_id": "build-push-docker-images#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

@@ -1,0 +1,53 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "danielrosehill/AI-Safety-Projects-Index",
+      "target": "danielrosehill/github-master-index",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "danielrosehill/AI-Safety-Projects-Index",
+      "target": "danielrosehill/responsible-skill-development",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T01:02:49.271857+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1189
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Index of AI safety, ethics, and responsible AI development repositories",
+    "fork": false,
+    "full_name": "danielrosehill/AI-Safety-Projects-Index",
+    "html_url": "https://github.com/danielrosehill/AI-Safety-Projects-Index",
+    "language": null,
+    "pushed_at": "2026-04-25T10:47:03Z",
+    "stargazers_count": 0,
+    "topics": [],
+    "updated_at": "2026-04-25T10:47:08Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "danielrosehill/github-master-index",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "danielrosehill/responsible-skill-development",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

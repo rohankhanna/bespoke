@@ -43,6 +43,30 @@
       "source_repo": "helix-editor/helix",
       "status": "candidate-context",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mawww/kakoune",
+      "status": "candidate-context",
+      "text": "mawww's experiment for a better code editor"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mawww/kakoune",
+      "status": "candidate-context",
+      "text": "Build static binaries for Linux"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "zed-industries/zed",
+      "status": "candidate-context",
+      "text": "Code at the speed of thought \u2013 Zed is a high-performance, multiplayer code editor from the creators of Atom and Tree-sitter."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "zed-industries/zed",
+      "status": "candidate-context",
+      "text": "[![Zed](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/zed-industries/zed/main/assets/badge/v0.json)](https://zed.dev)"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +87,18 @@
       "source_repo": "helix-editor/helix",
       "status": "candidate",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mawww/kakoune",
+      "status": "candidate",
+      "text": "Build static binaries for Linux"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "zed-industries/zed",
+      "status": "candidate",
+      "text": "[![Zed](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/zed-industries/zed/main/assets/badge/v0.json)](https://zed.dev)"
     }
   ],
   "candidate_related_terms": [],
@@ -88,11 +124,23 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "helix-editor/helix"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "mawww/kakoune"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "zed-industries/zed"
     }
   ],
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

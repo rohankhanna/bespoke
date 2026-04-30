@@ -1,0 +1,85 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml"
+    },
+    {
+      "component": "actions/setup-go@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml"
+    },
+    {
+      "component": "actions/setup-go@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml"
+    },
+    {
+      "component": "actions/setup-go@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml",
+      "source_repo": "johanbrandhorst/grpc-gateway-boilerplate",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml",
+      "source_repo": "johanbrandhorst/grpc-gateway-boilerplate",
+      "target": "actions/setup-go@v3",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-04-30T01:45:06.323992+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2349
+    },
+    {
+      "path": "Dockerfile",
+      "size": 233
+    },
+    {
+      "path": "go.mod",
+      "size": 306
+    },
+    {
+      "path": ".github/workflows/go.yml",
+      "size": 920
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "All the boilerplate you need to get started with writing grpc-gateway powered REST services in Go",
+    "fork": false,
+    "full_name": "johanbrandhorst/grpc-gateway-boilerplate",
+    "html_url": "https://github.com/johanbrandhorst/grpc-gateway-boilerplate",
+    "language": "Go",
+    "pushed_at": "2023-09-18T20:55:00Z",
+    "stargazers_count": 499,
+    "topics": [],
+    "updated_at": "2026-03-14T03:18:05Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

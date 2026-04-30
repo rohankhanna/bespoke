@@ -1,0 +1,12 @@
+{
+  "component": "dorny/paths-filter@f3ceefdc7ef57bc2d8560787d4b6c33e44044cec",
+  "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build_and_test.yaml",
+      "source_repo": "envoyproxy/ai-gateway"
+    }
+  ]
+}

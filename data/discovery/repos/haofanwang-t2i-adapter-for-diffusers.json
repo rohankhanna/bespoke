@@ -1,0 +1,53 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "haofanwang/T2I-Adapter-for-Diffusers",
+      "target": "tencentarc/t2i-adapter",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "haofanwang/T2I-Adapter-for-Diffusers",
+      "target": "himario/diffusers-t2i-adapter",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T01:56:15.157825+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5189
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Transfer the T2I-Adapter with any basemodel in diffusers\ud83d\udd25",
+    "fork": false,
+    "full_name": "haofanwang/T2I-Adapter-for-Diffusers",
+    "html_url": "https://github.com/haofanwang/T2I-Adapter-for-Diffusers",
+    "language": null,
+    "pushed_at": "2023-02-22T09:04:46Z",
+    "stargazers_count": 137,
+    "topics": [],
+    "updated_at": "2026-04-18T20:32:52Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "himario/diffusers-t2i-adapter",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "tencentarc/t2i-adapter",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

@@ -189,7 +189,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-23T01:16:40.640970+00:00",
+  "fetched_at": "2026-04-30T04:56:41.525737+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -225,15 +225,15 @@
     "full_name": "sublimelsp/LSP",
     "html_url": "https://github.com/sublimelsp/LSP",
     "language": "Python",
-    "pushed_at": "2026-04-22T22:26:03Z",
-    "stargazers_count": 1774,
+    "pushed_at": "2026-04-29T22:12:05Z",
+    "stargazers_count": 1775,
     "topics": [
       "language-client",
       "language-server-protocol",
       "lsp",
       "sublime-text"
     ],
-    "updated_at": "2026-04-22T22:26:06Z"
+    "updated_at": "2026-04-29T22:12:11Z"
   },
   "repo_links": [],
   "terms": [

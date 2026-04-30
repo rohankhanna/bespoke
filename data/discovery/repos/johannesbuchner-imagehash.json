@@ -1,0 +1,179 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/testing.yml"
+    },
+    {
+      "component": "conda-incubator/setup-miniconda@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/testing.yml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/testing.yml"
+    },
+    {
+      "component": "coverallsapp/github-action@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/testing.yml"
+    },
+    {
+      "component": "coverallsapp/github-action@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/testing.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.rst",
+      "source_repo": "JohannesBuchner/imagehash",
+      "target": "kdjdev/imagehash-reverse-image-search-tutorial",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.rst",
+      "source_repo": "JohannesBuchner/imagehash",
+      "target": "fake-name/pg-spgist_hamming",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.rst",
+      "source_repo": "JohannesBuchner/imagehash",
+      "target": "commonsmachinery/blockhash-python",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.rst",
+      "source_repo": "JohannesBuchner/imagehash",
+      "target": "acoomans/instagram-filters",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/testing.yml",
+      "source_repo": "JohannesBuchner/imagehash",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/testing.yml",
+      "source_repo": "JohannesBuchner/imagehash",
+      "target": "conda-incubator/setup-miniconda@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/testing.yml",
+      "source_repo": "JohannesBuchner/imagehash",
+      "target": "actions/cache@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/testing.yml",
+      "source_repo": "JohannesBuchner/imagehash",
+      "target": "coverallsapp/github-action@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/testing.yml",
+      "source_repo": "JohannesBuchner/imagehash",
+      "target": "Build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JohannesBuchner/imagehash",
+      "target": "image-hashing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JohannesBuchner/imagehash",
+      "target": "image-hashing-algorithms",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T02:42:56.286369+00:00",
+  "fetched_files": [
+    {
+      "path": "README.rst",
+      "size": 8009
+    },
+    {
+      "path": ".github/workflows/testing.yml",
+      "size": 2660
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A Python Perceptual Image Hashing Module",
+    "fork": true,
+    "full_name": "JohannesBuchner/imagehash",
+    "html_url": "https://github.com/JohannesBuchner/imagehash",
+    "language": "Python",
+    "pushed_at": "2025-04-17T10:10:37Z",
+    "stargazers_count": 3823,
+    "topics": [
+      "image-hashing",
+      "image-hashing-algorithms",
+      "python"
+    ],
+    "updated_at": "2026-04-28T08:45:00Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "acoomans/instagram-filters",
+      "source_file": "README.rst"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "commonsmachinery/blockhash-python",
+      "source_file": "README.rst"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "fake-name/pg-spgist_hamming",
+      "source_file": "README.rst"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "kdjdev/imagehash-reverse-image-search-tutorial",
+      "source_file": "README.rst"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/testing.yml",
+      "term": "Build"
+    },
+    {
+      "context_snippet": "===========",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "image-hashing"
+    },
+    {
+      "context_snippet": "===========",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "image-hashing-algorithms"
+    }
+  ]
+}

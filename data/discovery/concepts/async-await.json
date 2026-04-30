@@ -55,6 +55,18 @@
       "source_repo": "async-rs/async-std",
       "status": "candidate-context",
       "text": "We created `async-std` to demonstrate the value of making a library as close to"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "MagicStack/uvloop",
+      "status": "candidate-context",
+      "text": "Ultra fast asyncio event loop."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MagicStack/uvloop",
+      "status": "candidate-context",
+      "text": ".. image:: https://img.shields.io/github/actions/workflow/status/MagicStack/uvloop/tests.yml?branch=master"
     }
   ],
   "candidate_glosses": [
@@ -81,6 +93,12 @@
       "source_repo": "async-rs/async-std",
       "status": "candidate",
       "text": "We created `async-std` to demonstrate the value of making a library as close to"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MagicStack/uvloop",
+      "status": "candidate",
+      "text": ".. image:: https://img.shields.io/github/actions/workflow/status/MagicStack/uvloop/tests.yml?branch=master"
     }
   ],
   "candidate_related_terms": [],
@@ -112,11 +130,17 @@
       "observed_at": "2026-04-24T00:33:56.049672+00:00",
       "source_file": null,
       "source_repo": "async-rs/async-std"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "MagicStack/uvloop"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

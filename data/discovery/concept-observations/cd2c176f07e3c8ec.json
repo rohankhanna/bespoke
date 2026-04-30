@@ -84,7 +84,7 @@
   "normalized_form": "clippy-test",
   "observation_id": "cd2c176f07e3c8ec",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-04-21T11:24:10.450489+00:00",
+  "observed_at": "2026-04-30T00:37:16.824464+00:00",
   "observed_text": "Clippy Test",
   "source_context_snippet": "Clippy Test",
   "source_file": ".github/workflows/clippy_pr.yml",

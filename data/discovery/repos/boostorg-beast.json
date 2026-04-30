@@ -1,0 +1,419 @@
+{
+  "components": [
+    {
+      "component": "cppalliance/aws-hosted-runners@v1.0.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fuzz.yml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fuzz.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "boostorg/beast",
+      "target": "vinniefalco/cppcon2018",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "boostorg/beast",
+      "target": "isocpp/cppcoreguidelines",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "boostorg/beast",
+      "target": "cppalliance/aws-hosted-runners@v1.0.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "boostorg/beast",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "boostorg/beast",
+      "target": "build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fuzz.yml",
+      "source_repo": "boostorg/beast",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fuzz.yml",
+      "source_repo": "boostorg/beast",
+      "target": "actions/cache@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/fuzz.yml",
+      "source_repo": "boostorg/beast",
+      "target": "fuzz",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "boostorg/beast",
+      "target": "asio",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "boostorg/beast",
+      "target": "async-programming",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "boostorg/beast",
+      "target": "boost",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "boostorg/beast",
+      "target": "boost-libraries",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "boostorg/beast",
+      "target": "c-plus-plus-11",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "boostorg/beast",
+      "target": "cplusplus",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "boostorg/beast",
+      "target": "http",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "boostorg/beast",
+      "target": "http-client",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "boostorg/beast",
+      "target": "http-server",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "boostorg/beast",
+      "target": "linux",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "boostorg/beast",
+      "target": "networking",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "boostorg/beast",
+      "target": "server",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "boostorg/beast",
+      "target": "websocket",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "boostorg/beast",
+      "target": "websocket-client",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "boostorg/beast",
+      "target": "websocket-server",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "boostorg/beast",
+      "target": "websockets",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "boostorg/beast",
+      "target": "windows",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T04:52:01.503156+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 14024
+    },
+    {
+      "path": ".github/workflows/build.yml",
+      "size": 25516
+    },
+    {
+      "path": ".github/workflows/fuzz.yml",
+      "size": 2061
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "develop",
+    "description": "HTTP and WebSocket built on Boost.Asio in C++11",
+    "fork": false,
+    "full_name": "boostorg/beast",
+    "html_url": "https://github.com/boostorg/beast",
+    "language": "C++",
+    "pushed_at": "2026-04-22T14:14:46Z",
+    "stargazers_count": 4784,
+    "topics": [
+      "asio",
+      "async-programming",
+      "boost",
+      "boost-libraries",
+      "c-plus-plus-11",
+      "cplusplus",
+      "http",
+      "http-client",
+      "http-server",
+      "linux",
+      "networking",
+      "osx",
+      "server",
+      "ssl",
+      "tls",
+      "websocket",
+      "websocket-client",
+      "websocket-server",
+      "websockets",
+      "windows"
+    ],
+    "updated_at": "2026-04-29T02:38:50Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "isocpp/cppcoreguidelines",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "vinniefalco/cppcon2018",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "term": "build"
+    },
+    {
+      "context_snippet": "fuzz",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/fuzz.yml",
+      "term": "fuzz"
+    },
+    {
+      "context_snippet": "<img width=\"880\" height = \"80\" alt = \"Boost.Beast Title\"",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "asio"
+    },
+    {
+      "context_snippet": "<img width=\"880\" height = \"80\" alt = \"Boost.Beast Title\"",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "async-programming"
+    },
+    {
+      "context_snippet": "<img width=\"880\" height = \"80\" alt = \"Boost.Beast Title\"",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "boost"
+    },
+    {
+      "context_snippet": "<img width=\"880\" height = \"80\" alt = \"Boost.Beast Title\"",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "boost-libraries"
+    },
+    {
+      "context_snippet": "<img width=\"880\" height = \"80\" alt = \"Boost.Beast Title\"",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "c-plus-plus-11"
+    },
+    {
+      "context_snippet": "<img width=\"880\" height = \"80\" alt = \"Boost.Beast Title\"",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cplusplus"
+    },
+    {
+      "context_snippet": "<img width=\"880\" height = \"80\" alt = \"Boost.Beast Title\"",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "http"
+    },
+    {
+      "context_snippet": "<img width=\"880\" height = \"80\" alt = \"Boost.Beast Title\"",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "http-client"
+    },
+    {
+      "context_snippet": "<img width=\"880\" height = \"80\" alt = \"Boost.Beast Title\"",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "http-server"
+    },
+    {
+      "context_snippet": "<img width=\"880\" height = \"80\" alt = \"Boost.Beast Title\"",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "linux"
+    },
+    {
+      "context_snippet": "<img width=\"880\" height = \"80\" alt = \"Boost.Beast Title\"",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "networking"
+    },
+    {
+      "context_snippet": "<img width=\"880\" height = \"80\" alt = \"Boost.Beast Title\"",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "server"
+    },
+    {
+      "context_snippet": "<img width=\"880\" height = \"80\" alt = \"Boost.Beast Title\"",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "websocket"
+    },
+    {
+      "context_snippet": "<img width=\"880\" height = \"80\" alt = \"Boost.Beast Title\"",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "websocket-client"
+    },
+    {
+      "context_snippet": "<img width=\"880\" height = \"80\" alt = \"Boost.Beast Title\"",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "websocket-server"
+    },
+    {
+      "context_snippet": "<img width=\"880\" height = \"80\" alt = \"Boost.Beast Title\"",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "websockets"
+    },
+    {
+      "context_snippet": "<img width=\"880\" height = \"80\" alt = \"Boost.Beast Title\"",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "windows"
+    }
+  ]
+}

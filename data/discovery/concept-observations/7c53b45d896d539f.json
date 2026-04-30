@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Official pytorch repository for CG-DETR \"Correlation-guided Query-Dependency Calibration in Video Representation Learning for Temporal Grounding\" "
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Correlation-Guided Query-Dependency Calibration for Video Temporal Grounding"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Correlation-Guided Query-Dependency Calibration for Video Temporal Grounding"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "video-grounding",
+      "sense_id": "video-grounding#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "video-grounding",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "video-grounding",
+  "observation_id": "7c53b45d896d539f",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T00:37:16.824464+00:00",
+  "observed_text": "video-grounding",
+  "source_context_snippet": "Correlation-Guided Query-Dependency Calibration for Video Temporal Grounding",
+  "source_file": null,
+  "source_repo": "wjun0830/CGDETR",
+  "source_repo_description": "Official pytorch repository for CG-DETR \"Correlation-guided Query-Dependency Calibration in Video Representation Learning for Temporal Grounding\" "
+}

@@ -1,0 +1,76 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "cloudfoundry/cf-acceptance-tests",
+      "target": "cloudfoundry/cf-deployment",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "cloudfoundry/cf-acceptance-tests",
+      "target": "cloudfoundry/cf-smoke-tests",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "cloudfoundry/cf-acceptance-tests",
+      "target": "cloudfoundry/bosh-lite",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "cloudfoundry/cf-acceptance-tests",
+      "target": "cloudfoundry-incubator/cf-networking-release",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-catnip-docker-image.yml",
+      "source_repo": "cloudfoundry/cf-acceptance-tests",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-catnip-docker-image.yml",
+      "source_repo": "cloudfoundry/cf-acceptance-tests",
+      "target": "docker/login-action@4907a6ddec9925e35a0a9e82d7399ccc52663121",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-catnip-docker-image.yml",
+      "source_repo": "cloudfoundry/cf-acceptance-tests",
+      "target": "docker/build-push-action@v7.1.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "cloudfoundry/cf-acceptance-tests",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "cloudfoundry/cf-acceptance-tests",
+      "target": "actions/setup-go@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cloudfoundry/cf-acceptance-tests",
+      "target": "cff-wg-app-runtime-deployments",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-30T00:37:16.824464+00:00",
+  "source_repo": "cloudfoundry/cf-acceptance-tests"
+}

@@ -1,0 +1,439 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_docker.yml"
+    },
+    {
+      "component": "docker/login-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_docker.yml"
+    },
+    {
+      "component": "docker/build-push-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_docker.yml"
+    },
+    {
+      "component": "docker/build-push-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_docker.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check_license.yml"
+    },
+    {
+      "component": "tj-actions/changed-files@v1.1.2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check_license.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint_cc.yml"
+    },
+    {
+      "component": "DoozyX/clang-format-lint-action@v0.12",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint_cc.yml"
+    },
+    {
+      "component": "actions/setup-python@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint_python.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint_python.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-labeler.yml"
+    },
+    {
+      "component": "TimonVS/pr-labeler-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-labeler.yml"
+    },
+    {
+      "component": "release-drafter/release-drafter@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-drafter.yml"
+    },
+    {
+      "component": "actions/setup-python@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_and_deploy.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_and_deploy.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_and_deploy.yml"
+    },
+    {
+      "component": "actions/setup-python@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_and_deploy.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_and_deploy.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_and_deploy.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_and_deploy.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_and_deploy.yml"
+    },
+    {
+      "component": "actions/download-artifact@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_and_deploy.yml"
+    },
+    {
+      "component": "pypa/gh-action-pypi-publish@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_and_deploy.yml"
+    },
+    {
+      "component": "actions/setup-python@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_package.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "facebookresearch/nle",
+      "target": "heiner/nle",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "facebookresearch/nle",
+      "target": "facebookresearch/torchbeast",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "facebookresearch/nle",
+      "target": "kngwyu/rogue-gym",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "facebookresearch/nle",
+      "target": "maximecb/gym-minigrid",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_docker.yml",
+      "source_repo": "facebookresearch/nle",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_docker.yml",
+      "source_repo": "facebookresearch/nle",
+      "target": "docker/login-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_docker.yml",
+      "source_repo": "facebookresearch/nle",
+      "target": "docker/build-push-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build_docker.yml",
+      "source_repo": "facebookresearch/nle",
+      "target": "Build & deploy Docker images",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check_license.yml",
+      "source_repo": "facebookresearch/nle",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check_license.yml",
+      "source_repo": "facebookresearch/nle",
+      "target": "tj-actions/changed-files@v1.1.2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check_license.yml",
+      "source_repo": "facebookresearch/nle",
+      "target": "Check license",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint_cc.yml",
+      "source_repo": "facebookresearch/nle",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint_cc.yml",
+      "source_repo": "facebookresearch/nle",
+      "target": "DoozyX/clang-format-lint-action@v0.12",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint_python.yml",
+      "source_repo": "facebookresearch/nle",
+      "target": "actions/setup-python@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint_python.yml",
+      "source_repo": "facebookresearch/nle",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-labeler.yml",
+      "source_repo": "facebookresearch/nle",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-labeler.yml",
+      "source_repo": "facebookresearch/nle",
+      "target": "TimonVS/pr-labeler-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr-labeler.yml",
+      "source_repo": "facebookresearch/nle",
+      "target": "PR Labeler",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-drafter.yml",
+      "source_repo": "facebookresearch/nle",
+      "target": "release-drafter/release-drafter@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-drafter.yml",
+      "source_repo": "facebookresearch/nle",
+      "target": "Release Drafter",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_and_deploy.yml",
+      "source_repo": "facebookresearch/nle",
+      "target": "actions/setup-python@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_and_deploy.yml",
+      "source_repo": "facebookresearch/nle",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_and_deploy.yml",
+      "source_repo": "facebookresearch/nle",
+      "target": "actions/upload-artifact@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_and_deploy.yml",
+      "source_repo": "facebookresearch/nle",
+      "target": "actions/download-artifact@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_and_deploy.yml",
+      "source_repo": "facebookresearch/nle",
+      "target": "pypa/gh-action-pypi-publish@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test_and_deploy.yml",
+      "source_repo": "facebookresearch/nle",
+      "target": "Test & deploy",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_package.yml",
+      "source_repo": "facebookresearch/nle",
+      "target": "actions/setup-python@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test_package.yml",
+      "source_repo": "facebookresearch/nle",
+      "target": "Test nle PyPI package",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T02:42:01.181415+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 11145
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 996
+    },
+    {
+      "path": ".github/workflows/build_docker.yml",
+      "size": 1674
+    },
+    {
+      "path": ".github/workflows/check_license.yml",
+      "size": 939
+    },
+    {
+      "path": ".github/workflows/lint_cc.yml",
+      "size": 587
+    },
+    {
+      "path": ".github/workflows/lint_python.yml",
+      "size": 781
+    },
+    {
+      "path": ".github/workflows/pr-labeler.yml",
+      "size": 266
+    },
+    {
+      "path": ".github/workflows/release-drafter.yml",
+      "size": 287
+    },
+    {
+      "path": ".github/workflows/test_and_deploy.yml",
+      "size": 4262
+    },
+    {
+      "path": ".github/workflows/test_package.yml",
+      "size": 791
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "main",
+    "description": "The NetHack Learning Environment",
+    "fork": false,
+    "full_name": "facebookresearch/nle",
+    "html_url": "https://github.com/facebookresearch/nle",
+    "language": "C",
+    "pushed_at": "2024-05-06T17:06:54Z",
+    "stargazers_count": 982,
+    "topics": [],
+    "updated_at": "2026-04-22T05:22:25Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "facebookresearch/torchbeast",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "heiner/nle",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "kngwyu/rogue-gym",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "maximecb/gym-minigrid",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Build & deploy Docker images",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build_docker.yml",
+      "term": "Build & deploy Docker images"
+    },
+    {
+      "context_snippet": "Check license",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check_license.yml",
+      "term": "Check license"
+    },
+    {
+      "context_snippet": "PR Labeler",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr-labeler.yml",
+      "term": "PR Labeler"
+    },
+    {
+      "context_snippet": "Release Drafter",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-drafter.yml",
+      "term": "Release Drafter"
+    },
+    {
+      "context_snippet": "Test & deploy",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test_and_deploy.yml",
+      "term": "Test & deploy"
+    },
+    {
+      "context_snippet": "Test nle PyPI package",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test_package.yml",
+      "term": "Test nle PyPI package"
+    }
+  ]
+}

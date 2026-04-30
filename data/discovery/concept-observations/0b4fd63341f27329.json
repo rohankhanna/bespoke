@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A testing library for kotlinx.coroutines Flow"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "gradle-wrapper"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "gradle-wrapper"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "gradle-wrapper",
+      "sense_id": "gradle-wrapper#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "gradle-wrapper",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "gradle-wrapper",
+  "observation_id": "0b4fd63341f27329",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-30T00:37:16.824464+00:00",
+  "observed_text": "gradle-wrapper",
+  "source_context_snippet": "gradle-wrapper",
+  "source_file": ".github/workflows/gradle-wrapper.yaml",
+  "source_repo": "cashapp/turbine",
+  "source_repo_description": "A testing library for kotlinx.coroutines Flow"
+}

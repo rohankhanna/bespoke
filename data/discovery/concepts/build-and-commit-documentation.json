@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Build and commit documentation"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mongodb/node-mongodb-native",
+      "status": "candidate-context",
+      "text": "The official MongoDB Node.js driver"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mongodb/node-mongodb-native",
+      "status": "candidate-context",
+      "text": "Build and commit documentation"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mongodb/node-mongodb-native",
+      "status": "candidate",
+      "text": "Build and commit documentation"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18150,
+      "status": "candidate",
+      "text": "undocumented"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18148,
+      "status": "candidate",
+      "text": "make"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18148,
+      "status": "candidate",
+      "text": "trusted"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18079,
+      "status": "candidate",
+      "text": "file"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18053,
+      "status": "candidate",
+      "text": "put"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Build and commit documentation",
+  "concept_id": "build-and-commit-documentation",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/build_and_commit_docs.yml",
+      "source_repo": "mongodb/node-mongodb-native"
+    }
+  ],
+  "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Build and commit documentation",
+      "sense_id": "build-and-commit-documentation#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

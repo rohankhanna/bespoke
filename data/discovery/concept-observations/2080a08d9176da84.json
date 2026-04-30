@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Tiled Diffusion and VAE optimize, licensed under CC BY-NC-SA 4.0"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![CC BY-NC-SA 4.0][cc-by-nc-sa-shield]][cc-by-nc-sa]"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![CC BY-NC-SA 4.0][cc-by-nc-sa-shield]][cc-by-nc-sa]"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "stable-diffusion",
+      "sense_id": "stable-diffusion#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "stable-diffusion",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "stable-diffusion",
+  "observation_id": "2080a08d9176da84",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T00:37:16.824464+00:00",
+  "observed_text": "stable-diffusion",
+  "source_context_snippet": "[![CC BY-NC-SA 4.0][cc-by-nc-sa-shield]][cc-by-nc-sa]",
+  "source_file": null,
+  "source_repo": "pkuliyi2015/multidiffusion-upscaler-for-automatic1111",
+  "source_repo_description": "Tiled Diffusion and VAE optimize, licensed under CC BY-NC-SA 4.0"
+}

@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Deploy doghouse"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "reviewdog/reviewdog",
+      "status": "candidate-context",
+      "text": "\ud83d\udc36 Automated code review tool integrated with any code analysis tools regardless of programming language"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "reviewdog/reviewdog",
+      "status": "candidate-context",
+      "text": "Deploy doghouse"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "reviewdog/reviewdog",
+      "status": "candidate",
+      "text": "Deploy doghouse"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10525,
+      "status": "candidate",
+      "text": "ace"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10525,
+      "status": "candidate",
+      "text": "bilge"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10525,
+      "status": "candidate",
+      "text": "bore"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10525,
+      "status": "candidate",
+      "text": "box"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10525,
+      "status": "candidate",
+      "text": "breach"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Deploy doghouse",
+  "concept_id": "deploy-doghouse",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/deploy-doghouse.yml",
+      "source_repo": "reviewdog/reviewdog"
+    }
+  ],
+  "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Deploy doghouse",
+      "sense_id": "deploy-doghouse#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

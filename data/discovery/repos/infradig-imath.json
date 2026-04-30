@@ -1,0 +1,72 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/unit-tests.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "infradig/imath",
+      "target": "creachadair/imath",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/unit-tests.yml",
+      "source_repo": "infradig/imath",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/unit-tests.yml",
+      "source_repo": "infradig/imath",
+      "target": "Unit tests",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T04:50:43.789151+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4095
+    },
+    {
+      "path": ".github/workflows/unit-tests.yml",
+      "size": 597
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "This fork adds:  msb, lsb, popcount,  binary operations (Xor, Or & And), and to/from double. ",
+    "fork": true,
+    "full_name": "infradig/imath",
+    "html_url": "https://github.com/infradig/imath",
+    "language": "C",
+    "pushed_at": "2022-01-07T00:01:21Z",
+    "stargazers_count": 4,
+    "topics": [],
+    "updated_at": "2026-03-04T08:38:01Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "creachadair/imath",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Unit tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/unit-tests.yml",
+      "term": "Unit tests"
+    }
+  ]
+}

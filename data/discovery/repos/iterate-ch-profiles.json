@@ -1,0 +1,132 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/profiles-initialize.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/profiles-sanity-check.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/profiles-sync.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/profiles-initialize.yml",
+      "source_repo": "iterate-ch/profiles",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/profiles-initialize.yml",
+      "source_repo": "iterate-ch/profiles",
+      "target": "Initialize connection profiles",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/profiles-sanity-check.yml",
+      "source_repo": "iterate-ch/profiles",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/profiles-sanity-check.yml",
+      "source_repo": "iterate-ch/profiles",
+      "target": "Sanity check profiles",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/profiles-sync.yml",
+      "source_repo": "iterate-ch/profiles",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/profiles-sync.yml",
+      "source_repo": "iterate-ch/profiles",
+      "target": "Synchronize connection profiles",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "iterate-ch/profiles",
+      "target": "cyberduck",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T01:46:27.747376+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 426
+    },
+    {
+      "path": ".github/workflows/profiles-initialize.yml",
+      "size": 830
+    },
+    {
+      "path": ".github/workflows/profiles-sanity-check.yml",
+      "size": 266
+    },
+    {
+      "path": ".github/workflows/profiles-sync.yml",
+      "size": 854
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Connection Profiles for Cyberduck & Mountain Duck",
+    "fork": false,
+    "full_name": "iterate-ch/profiles",
+    "html_url": "https://github.com/iterate-ch/profiles",
+    "language": "Shell",
+    "pushed_at": "2026-04-23T07:59:52Z",
+    "stargazers_count": 33,
+    "topics": [
+      "cyberduck"
+    ],
+    "updated_at": "2026-04-23T07:59:56Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Initialize connection profiles",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/profiles-initialize.yml",
+      "term": "Initialize connection profiles"
+    },
+    {
+      "context_snippet": "Sanity check profiles",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/profiles-sanity-check.yml",
+      "term": "Sanity check profiles"
+    },
+    {
+      "context_snippet": "Synchronize connection profiles",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/profiles-sync.yml",
+      "term": "Synchronize connection profiles"
+    },
+    {
+      "context_snippet": "Companion repository for [Cyberduck](https://github.com/iterate-ch/cyberduck) and [Mountain Duck](https://mountainduck.io/) containing third-party connection profiles. Please refer to the [documentation](https://docs.cyberduck.io/protocols/profiles/) for more information and how\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cyberduck"
+    }
+  ]
+}

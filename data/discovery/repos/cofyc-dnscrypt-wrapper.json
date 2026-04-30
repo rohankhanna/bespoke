@@ -1,0 +1,87 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "cofyc/dnscrypt-wrapper",
+      "target": "jedisct1/dnscrypt-proxy",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cofyc/dnscrypt-wrapper",
+      "target": "dnscrypt",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cofyc/dnscrypt-wrapper",
+      "target": "dnscrypt-proxy",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cofyc/dnscrypt-wrapper",
+      "target": "dnscrypt-wrapper",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T00:56:36.787294+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9060
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "This is dnscrypt wrapper (server-side dnscrypt proxy), which helps to add dnscrypt support to any name resolver.",
+    "fork": false,
+    "full_name": "cofyc/dnscrypt-wrapper",
+    "html_url": "https://github.com/cofyc/dnscrypt-wrapper",
+    "language": "C",
+    "pushed_at": "2022-01-22T22:30:07Z",
+    "stargazers_count": 534,
+    "topics": [
+      "c",
+      "dns",
+      "dnscrypt",
+      "dnscrypt-proxy",
+      "dnscrypt-wrapper"
+    ],
+    "updated_at": "2026-04-29T04:42:07Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jedisct1/dnscrypt-proxy",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "dnscrypt-wrapper - A server-side dnscrypt proxy.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dnscrypt"
+    },
+    {
+      "context_snippet": "dnscrypt-wrapper - A server-side dnscrypt proxy.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dnscrypt-proxy"
+    },
+    {
+      "context_snippet": "dnscrypt-wrapper - A server-side dnscrypt proxy.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dnscrypt-wrapper"
+    }
+  ]
+}

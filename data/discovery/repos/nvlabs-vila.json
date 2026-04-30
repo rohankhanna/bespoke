@@ -5,20 +5,6 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "NVlabs/VILA",
-      "target": "nvlabs/omnivinci",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "NVlabs/VILA",
-      "target": "nvlabs/long-rl",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "NVlabs/VILA",
       "target": "efficient-large-model/vila",
       "target_type": "repository"
     },
@@ -28,9 +14,23 @@
       "source_repo": "NVlabs/VILA",
       "target": "facebookresearch/llama",
       "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "NVlabs/VILA",
+      "target": "opengvlab/internvl",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "NVlabs/VILA",
+      "target": "ofa-sys/gsm8k-screl",
+      "target_type": "repository"
     }
   ],
-  "fetched_at": "2026-04-29T20:44:44.651936+00:00",
+  "fetched_at": "2026-04-30T05:14:27.056161+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -55,9 +55,9 @@
     "html_url": "https://github.com/NVlabs/VILA",
     "language": "Python",
     "pushed_at": "2026-03-12T01:04:00Z",
-    "stargazers_count": 3789,
+    "stargazers_count": 3788,
     "topics": [],
-    "updated_at": "2026-04-27T22:10:11Z"
+    "updated_at": "2026-04-29T21:57:53Z"
   },
   "repo_links": [
     {
@@ -72,12 +72,12 @@
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "nvlabs/long-rl",
+      "full_name": "ofa-sys/gsm8k-screl",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "nvlabs/omnivinci",
+      "full_name": "opengvlab/internvl",
       "source_file": "README.md"
     }
   ],

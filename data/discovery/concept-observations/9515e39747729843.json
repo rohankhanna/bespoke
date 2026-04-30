@@ -1,0 +1,108 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Advanced WebExtension generator that creates everything you need to get started with cross-browser web-extension development."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[<img align=\"right\" src=\"./assets/icon.svg?sanitize=true\" alt=\"logo\">](https://www.npmjs.com/package/generator-web-extension)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[<img align=\"right\" src=\"./assets/icon.svg?sanitize=true\" alt=\"logo\">](https://www.npmjs.com/package/generator-web-extension)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40030998,
+      "status": "candidate",
+      "text": "beefeater"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40030890,
+      "status": "candidate",
+      "text": "yeoman of the guard"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30032246,
+      "status": "candidate",
+      "text": "assistant"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20038558,
+      "status": "candidate",
+      "text": "yeman"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20038556,
+      "status": "candidate",
+      "text": "yeomanhood"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "yeoman",
+      "sense_id": "yeoman#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 3018,
+      "status": "candidate",
+      "text": "yeoman of the guard"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 1031,
+      "status": "candidate",
+      "text": "beefeater"
+    }
+  ],
+  "concept_id": "yeoman",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "yeoman",
+  "observation_id": "9515e39747729843",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T00:37:16.824464+00:00",
+  "observed_text": "yeoman",
+  "source_context_snippet": "[<img align=\"right\" src=\"./assets/icon.svg?sanitize=true\" alt=\"logo\">](https://www.npmjs.com/package/generator-web-extension)",
+  "source_file": null,
+  "source_repo": "webextension-toolbox/generator-web-extension",
+  "source_repo_description": "Advanced WebExtension generator that creates everything you need to get started with cross-browser web-extension development."
+}

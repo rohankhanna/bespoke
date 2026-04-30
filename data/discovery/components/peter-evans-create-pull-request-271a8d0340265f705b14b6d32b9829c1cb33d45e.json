@@ -1,7 +1,7 @@
 {
   "component": "peter-evans/create-pull-request@271a8d0340265f705b14b6d32b9829c1cb33d45e",
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -17,6 +17,16 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/cron-weekly-update-nightly.yml",
       "source_repo": "rust-bitcoin/rust-bitcoin"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit-update.yaml",
+      "source_repo": "mozilla-ai/any-agent"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/depup.yml",
+      "source_repo": "reviewdog/action-black"
     }
   ]
 }

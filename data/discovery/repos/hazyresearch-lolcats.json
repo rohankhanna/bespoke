@@ -1,0 +1,65 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "HazyResearch/lolcats",
+      "target": "idiap/fast-transformers",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "HazyResearch/lolcats",
+      "target": "sustcsonglin/flash-linear-attention",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "HazyResearch/lolcats",
+      "target": "meta-llama/llama-recipes",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T03:55:59.385581+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 17978
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Repo for \"LoLCATs: On Low-Rank Linearizing of Large Language Models\"",
+    "fork": false,
+    "full_name": "HazyResearch/lolcats",
+    "html_url": "https://github.com/HazyResearch/lolcats",
+    "language": "Python",
+    "pushed_at": "2025-01-31T00:30:58Z",
+    "stargazers_count": 255,
+    "topics": [],
+    "updated_at": "2026-04-20T14:09:23Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "idiap/fast-transformers",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "meta-llama/llama-recipes",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "sustcsonglin/flash-linear-attention",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A GitHub action to enable auto-merge on a pull request"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![CI](https://github.com/peter-evans/enable-pull-request-automerge/workflows/CI/badge.svg)](https://github.com/peter-evans/enable-pull-request-automerge/actions?query=workflow%3ACI)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![CI](https://github.com/peter-evans/enable-pull-request-automerge/workflows/CI/badge.svg)](https://github.com/peter-evans/enable-pull-request-automerge/actions?query=workflow%3ACI)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "pull-request",
+      "sense_id": "pull-request#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "pull-request",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "pull-request",
+  "observation_id": "e18552e2557c0196",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T00:37:16.824464+00:00",
+  "observed_text": "pull-request",
+  "source_context_snippet": "[![CI](https://github.com/peter-evans/enable-pull-request-automerge/workflows/CI/badge.svg)](https://github.com/peter-evans/enable-pull-request-automerge/actions?query=workflow%3ACI)",
+  "source_file": null,
+  "source_repo": "peter-evans/enable-pull-request-automerge",
+  "source_repo_description": "A GitHub action to enable auto-merge on a pull request"
+}

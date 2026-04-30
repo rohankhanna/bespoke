@@ -1,0 +1,419 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions-rs/toolchain@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "Swatinem/rust-cache@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions-rs/cargo@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions-rs/clippy-check@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions-rs/cargo@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions-rs/toolchain@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "Swatinem/rust-cache@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions-rs/toolchain@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions-rs/audit-check@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "andrewmilson/ministark",
+      "target": "mkenney/software-guides",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "andrewmilson/ministark",
+      "target": "novifinancial/winterfell",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "andrewmilson/ministark",
+      "target": "0xproject/openzkp",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "andrewmilson/ministark",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "andrewmilson/ministark",
+      "target": "actions-rs/toolchain@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "andrewmilson/ministark",
+      "target": "Swatinem/rust-cache@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "andrewmilson/ministark",
+      "target": "actions-rs/cargo@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "andrewmilson/ministark",
+      "target": "actions-rs/clippy-check@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "andrewmilson/ministark",
+      "target": "actions-rs/audit-check@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "andrewmilson/ministark",
+      "target": "apple-silicon",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "andrewmilson/ministark",
+      "target": "arkworks",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "andrewmilson/ministark",
+      "target": "arkworks-rs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "andrewmilson/ministark",
+      "target": "crypto",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "andrewmilson/ministark",
+      "target": "cryptography",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "andrewmilson/ministark",
+      "target": "finite-fields",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "andrewmilson/ministark",
+      "target": "gpu-acceleration",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "andrewmilson/ministark",
+      "target": "gpu-computing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "andrewmilson/ministark",
+      "target": "gpu-programming",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "andrewmilson/ministark",
+      "target": "metal",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "andrewmilson/ministark",
+      "target": "optimization",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "andrewmilson/ministark",
+      "target": "polynomials",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "andrewmilson/ministark",
+      "target": "rust",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "andrewmilson/ministark",
+      "target": "starks",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "andrewmilson/ministark",
+      "target": "virtual-machine",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "andrewmilson/ministark",
+      "target": "zero-knowledge",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "andrewmilson/ministark",
+      "target": "zkstarks",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T00:54:13.070967+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8373
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 1587
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 2837
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "\ud83c\udfc3\u200d\u2642\ufe0f\ud83d\udca8 GPU accelerated STARK prover built on @arkworks-rs",
+    "fork": false,
+    "full_name": "andrewmilson/ministark",
+    "html_url": "https://github.com/andrewmilson/ministark",
+    "language": "Rust",
+    "pushed_at": "2024-11-19T16:34:57Z",
+    "stargazers_count": 377,
+    "topics": [
+      "apple-silicon",
+      "arkworks",
+      "arkworks-rs",
+      "crypto",
+      "cryptography",
+      "fft",
+      "finite-fields",
+      "gpu",
+      "gpu-acceleration",
+      "gpu-computing",
+      "gpu-programming",
+      "m1",
+      "metal",
+      "optimization",
+      "polynomials",
+      "rust",
+      "starks",
+      "virtual-machine",
+      "zero-knowledge",
+      "zkstarks"
+    ],
+    "updated_at": "2026-02-23T20:50:52Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "0xproject/openzkp",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mkenney/software-guides",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "novifinancial/winterfell",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "> **Warning**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "apple-silicon"
+    },
+    {
+      "context_snippet": "> **Warning**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "arkworks"
+    },
+    {
+      "context_snippet": "> **Warning**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "arkworks-rs"
+    },
+    {
+      "context_snippet": "> **Warning**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "crypto"
+    },
+    {
+      "context_snippet": "> **Warning**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cryptography"
+    },
+    {
+      "context_snippet": "> **Warning**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "finite-fields"
+    },
+    {
+      "context_snippet": "> **Warning**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gpu-acceleration"
+    },
+    {
+      "context_snippet": "> **Warning**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gpu-computing"
+    },
+    {
+      "context_snippet": "> **Warning**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gpu-programming"
+    },
+    {
+      "context_snippet": "> **Warning**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "metal"
+    },
+    {
+      "context_snippet": "> **Warning**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "optimization"
+    },
+    {
+      "context_snippet": "> **Warning**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "polynomials"
+    },
+    {
+      "context_snippet": "> **Warning**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rust"
+    },
+    {
+      "context_snippet": "> **Warning**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "starks"
+    },
+    {
+      "context_snippet": "> **Warning**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "virtual-machine"
+    },
+    {
+      "context_snippet": "> **Warning**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "zero-knowledge"
+    },
+    {
+      "context_snippet": "> **Warning**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "zkstarks"
+    }
+  ]
+}

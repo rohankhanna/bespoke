@@ -19,6 +19,18 @@
       "source_repo": "aaronlamz/vue-next-i18n",
       "status": "candidate-context",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "vuejs/create-vue",
+      "status": "candidate-context",
+      "text": "\ud83d\udee0\ufe0f The recommended way to start a Vite-powered Vue project"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vuejs/create-vue",
+      "status": "candidate-context",
+      "text": "The recommended way to start a Vite-powered Vue project"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "aaronlamz/vue-next-i18n",
       "status": "candidate",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vuejs/create-vue",
+      "status": "candidate",
+      "text": "The recommended way to start a Vite-powered Vue project"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": null,
       "source_repo": "aaronlamz/vue-next-i18n"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "vuejs/create-vue"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

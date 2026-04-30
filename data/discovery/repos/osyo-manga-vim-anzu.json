@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T04:01:41.408671+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 663
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Vim search status.",
+    "fork": false,
+    "full_name": "osyo-manga/vim-anzu",
+    "html_url": "https://github.com/osyo-manga/vim-anzu",
+    "language": "Vim Script",
+    "pushed_at": "2025-07-05T14:57:54Z",
+    "stargazers_count": 252,
+    "topics": [],
+    "updated_at": "2026-02-12T15:24:01Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

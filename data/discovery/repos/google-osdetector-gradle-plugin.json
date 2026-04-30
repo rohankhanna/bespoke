@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T00:45:43.626442+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2721
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A Gradle plugin that detects the OS name and architecture, providing a uniform classifier to be used in the names of native artifacts.",
+    "fork": false,
+    "full_name": "google/osdetector-gradle-plugin",
+    "html_url": "https://github.com/google/osdetector-gradle-plugin",
+    "language": "Java",
+    "pushed_at": "2024-04-13T07:25:55Z",
+    "stargazers_count": 116,
+    "topics": [],
+    "updated_at": "2026-03-30T02:26:10Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

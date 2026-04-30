@@ -247,6 +247,42 @@
       "source_repo": "rs/zerolog",
       "status": "candidate-context",
       "text": "[![godoc](http://img.shields.io/badge/godoc-reference-blue.svg?style=flat)](https://godoc.org/github.com/rs/zerolog) [![license](http://img.shields.io/badge/license-MIT-red.svg?style=flat)](https://raw.githubusercontent.com/rs/zerolog/master/LICENSE) [![Build Status](https://git\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apache/logging-log4j2",
+      "status": "candidate-context",
+      "text": "Apache Log4j is a versatile, feature-rich, efficient logging API and backend for Java."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/logging-log4j2",
+      "status": "candidate-context",
+      "text": "{ \"dependencies\": { \"@antora/cli\": \"^3.2.0-alpha.4\", \"@antora/site-generator-default\": \"^3.2.0-alpha.4\", \"@asciidoctor/tabs\": \"^1.0.0-beta.6\", \"asciidoctor-kroki\": \"^0.18.1\", \"fast-xml-parser\": \"^5.0.6\", \"handlebars\": \"^4.7.8\" } }"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JuliaLogging/TerminalLoggers.jl",
+      "status": "candidate-context",
+      "text": "Logging sinks and utilites for interactive terminals"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaLogging/TerminalLoggers.jl",
+      "status": "candidate-context",
+      "text": "[![Stable](https://img.shields.io/badge/docs-stable-blue.svg)](https://JuliaLogging.github.io/TerminalLoggers.jl/stable)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rust-lang/log",
+      "status": "candidate-context",
+      "text": "Logging implementation for Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rust-lang/log",
+      "status": "candidate-context",
+      "text": "log"
     }
   ],
   "candidate_glosses": [
@@ -369,6 +405,24 @@
       "source_repo": "rs/zerolog",
       "status": "candidate",
       "text": "[![godoc](http://img.shields.io/badge/godoc-reference-blue.svg?style=flat)](https://godoc.org/github.com/rs/zerolog) [![license](http://img.shields.io/badge/license-MIT-red.svg?style=flat)](https://raw.githubusercontent.com/rs/zerolog/master/LICENSE) [![Build Status](https://git\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/logging-log4j2",
+      "status": "candidate",
+      "text": "{ \"dependencies\": { \"@antora/cli\": \"^3.2.0-alpha.4\", \"@antora/site-generator-default\": \"^3.2.0-alpha.4\", \"@asciidoctor/tabs\": \"^1.0.0-beta.6\", \"asciidoctor-kroki\": \"^0.18.1\", \"fast-xml-parser\": \"^5.0.6\", \"handlebars\": \"^4.7.8\" } }"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaLogging/TerminalLoggers.jl",
+      "status": "candidate",
+      "text": "[![Stable](https://img.shields.io/badge/docs-stable-blue.svg)](https://JuliaLogging.github.io/TerminalLoggers.jl/stable)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rust-lang/log",
+      "status": "candidate",
+      "text": "log"
     }
   ],
   "candidate_related_terms": [
@@ -538,11 +592,29 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "rs/zerolog"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "apache/logging-log4j2"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "JuliaLogging/TerminalLoggers.jl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "rust-lang/log"
     }
   ],
   "first_seen_at": "2026-04-18T12:46:59.510459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

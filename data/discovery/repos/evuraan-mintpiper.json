@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "evuraan/mintPiper",
+      "target": "rhasspy/piper.",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T03:45:15.280096+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3955
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Make Linux speak what's on the screen: clearly and securely.",
+    "fork": false,
+    "full_name": "evuraan/mintPiper",
+    "html_url": "https://github.com/evuraan/mintPiper",
+    "language": "Python",
+    "pushed_at": "2024-04-06T05:10:10Z",
+    "stargazers_count": 33,
+    "topics": [],
+    "updated_at": "2026-03-25T02:57:44Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "rhasspy/piper.",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

@@ -1,0 +1,101 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Macoron/ComfyUI-Diffusers-OminiControl",
+      "target": "comfyanonymous/comfyui",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Macoron/ComfyUI-Diffusers-OminiControl",
+      "target": "ltdrdata/comfyui-manager",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Macoron/ComfyUI-Diffusers-OminiControl",
+      "target": "comfyui",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Macoron/ComfyUI-Diffusers-OminiControl",
+      "target": "flux",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Macoron/ComfyUI-Diffusers-OminiControl",
+      "target": "omini-control",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T03:55:28.785012+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1317
+    },
+    {
+      "path": "requirements.txt",
+      "size": 36
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "ComfyUI nodes to run FLUX OminiControl using diffusers",
+    "fork": false,
+    "full_name": "Macoron/ComfyUI-Diffusers-OminiControl",
+    "html_url": "https://github.com/Macoron/ComfyUI-Diffusers-OminiControl",
+    "language": "Python",
+    "pushed_at": "2024-12-08T19:57:22Z",
+    "stargazers_count": 39,
+    "topics": [
+      "comfyui",
+      "flux",
+      "omini-control"
+    ],
+    "updated_at": "2025-10-07T21:26:44Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "comfyanonymous/comfyui",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ltdrdata/comfyui-manager",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "This is an unofficial [ComfyUI](https://github.com/comfyanonymous/ComfyUI) node for [FLUX OminiControl](https://github.com/Yuanshi9815/OminiControl).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "comfyui"
+    },
+    {
+      "context_snippet": "This is an unofficial [ComfyUI](https://github.com/comfyanonymous/ComfyUI) node for [FLUX OminiControl](https://github.com/Yuanshi9815/OminiControl).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "flux"
+    },
+    {
+      "context_snippet": "This is an unofficial [ComfyUI](https://github.com/comfyanonymous/ComfyUI) node for [FLUX OminiControl](https://github.com/Yuanshi9815/OminiControl).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "omini-control"
+    }
+  ]
+}

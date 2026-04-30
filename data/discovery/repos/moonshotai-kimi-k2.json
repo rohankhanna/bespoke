@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T02:41:33.024952+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 27439
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Kimi K2 is the large language model series developed by Moonshot AI team",
+    "fork": false,
+    "full_name": "MoonshotAI/Kimi-K2",
+    "html_url": "https://github.com/MoonshotAI/Kimi-K2",
+    "language": null,
+    "pushed_at": "2026-01-21T05:33:12Z",
+    "stargazers_count": 10700,
+    "topics": [],
+    "updated_at": "2026-04-29T23:01:00Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

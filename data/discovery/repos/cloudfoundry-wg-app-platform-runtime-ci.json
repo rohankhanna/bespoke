@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T04:11:16.241511+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 183
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Scripts and tools to run Diego's CI builds on Concourse.",
+    "fork": false,
+    "full_name": "cloudfoundry/wg-app-platform-runtime-ci",
+    "html_url": "https://github.com/cloudfoundry/wg-app-platform-runtime-ci",
+    "language": "Shell",
+    "pushed_at": "2026-04-29T15:57:38Z",
+    "stargazers_count": 8,
+    "topics": [],
+    "updated_at": "2026-04-29T15:57:42Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

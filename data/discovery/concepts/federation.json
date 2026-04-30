@@ -1,0 +1,139 @@
+{
+  "aliases": [
+    "federation"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apollographql/federation",
+      "status": "candidate-context",
+      "text": "\ud83c\udf10 \u00a0Build and scale a single data graph across multiple services with Apollo's federation gateway."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apollographql/federation",
+      "status": "candidate-context",
+      "text": "<img src=\"https://raw.githubusercontent.com/apollographql/space-kit/main/src/illustrations/svgs/rocket1.svg\" width=\"100%\" height=\"144\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apollographql/router",
+      "status": "candidate-context",
+      "text": "A configurable, high-performance routing runtime for Apollo Federation \ud83d\ude80"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apollographql/router",
+      "status": "candidate-context",
+      "text": "<a href=\"#\"><img src=\"https://raw.githubusercontent.com/apollographql/space-kit/main/src/illustrations/svgs/satellite1.svg\" width=\"100%\" height=\"144\"></a>"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apollographql/federation",
+      "status": "candidate",
+      "text": "<img src=\"https://raw.githubusercontent.com/apollographql/space-kit/main/src/illustrations/svgs/rocket1.svg\" width=\"100%\" height=\"144\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apollographql/router",
+      "status": "candidate",
+      "text": "<a href=\"#\"><img src=\"https://raw.githubusercontent.com/apollographql/space-kit/main/src/illustrations/svgs/satellite1.svg\" width=\"100%\" height=\"144\"></a>"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40046077,
+      "status": "candidate",
+      "text": "confederation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40027028,
+      "status": "candidate",
+      "text": "confederacy"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30046108,
+      "status": "candidate",
+      "text": "federated"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30046099,
+      "status": "candidate",
+      "text": "federative"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30045916,
+      "status": "candidate",
+      "text": "confederal"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": null,
+      "status": "candidate",
+      "text": "confederacy"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": null,
+      "status": "candidate",
+      "text": "confederation"
+    }
+  ],
+  "canonical_name": "federation",
+  "concept_id": "federation",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "apollographql/federation"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "apollographql/router"
+    }
+  ],
+  "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "federation",
+      "sense_id": "federation#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

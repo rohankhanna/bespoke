@@ -115,6 +115,30 @@
       "source_repo": "LibreHardwareMonitor/LibreHardwareMonitor",
       "status": "candidate-context",
       "text": "[![GitHub license](https://img.shields.io/github/license/LibreHardwareMonitor/LibreHardwareMonitor)](https://github.com/LibreHardwareMonitor/LibreHardwareMonitor/blob/master/LICENSE) [![Nuget](https://img.shields.io/nuget/v/LibreHardwareMonitorLib)](https://www.nuget.org/package\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "grafana/jsonnet-libs",
+      "status": "candidate-context",
+      "text": "Grafana Labs' Jsonnet libraries"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "grafana/jsonnet-libs",
+      "status": "candidate-context",
+      "text": "This repository contains various Jsonnet libraries we use at Grafana Labs:"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "karafka/karafka",
+      "status": "candidate-context",
+      "text": "Ruby and Rails efficient Kafka processing framework"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "karafka/karafka",
+      "status": "candidate-context",
+      "text": "![karafka logo](https://karafka.io/assets/misc/logo/karafka_logotype_transparent2.png)"
     }
   ],
   "candidate_glosses": [
@@ -171,6 +195,18 @@
       "source_repo": "LibreHardwareMonitor/LibreHardwareMonitor",
       "status": "candidate",
       "text": "[![GitHub license](https://img.shields.io/github/license/LibreHardwareMonitor/LibreHardwareMonitor)](https://github.com/LibreHardwareMonitor/LibreHardwareMonitor/blob/master/LICENSE) [![Nuget](https://img.shields.io/nuget/v/LibreHardwareMonitorLib)](https://www.nuget.org/package\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "grafana/jsonnet-libs",
+      "status": "candidate",
+      "text": "This repository contains various Jsonnet libraries we use at Grafana Labs:"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "karafka/karafka",
+      "status": "candidate",
+      "text": "![karafka logo](https://karafka.io/assets/misc/logo/karafka_logotype_transparent2.png)"
     }
   ],
   "candidate_related_terms": [
@@ -376,11 +412,41 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "pyOpenSci/software-submission"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "all-contributors/allcontributors.org"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "all-contributors/app"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "grafana/jsonnet-libs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "pyOpenSci/software-submission"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "karafka/karafka"
     }
   ],
   "first_seen_at": "2026-04-18T18:48:44.679047+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

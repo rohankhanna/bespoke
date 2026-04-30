@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Go RPC framework with high-performance and strong-extensibility for building micro-services."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Claude Review Fork PR"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Claude Review Fork PR"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18555,
+      "status": "candidate",
+      "text": "etude"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18360,
+      "status": "candidate",
+      "text": "accommodation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18308,
+      "status": "candidate",
+      "text": "fly"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18308,
+      "status": "candidate",
+      "text": "king"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17562,
+      "status": "candidate",
+      "text": "key"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Claude Review Fork PR",
+      "sense_id": "claude-review-fork-pr#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "claude-review-fork-pr",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "claude-review-fork-pr",
+  "observation_id": "6b47d9e5c9775cf7",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-30T00:37:16.824464+00:00",
+  "observed_text": "Claude Review Fork PR",
+  "source_context_snippet": "Claude Review Fork PR",
+  "source_file": ".github/workflows/claude-review-fork.yml",
+  "source_repo": "cloudwego/kitex",
+  "source_repo_description": "Go RPC framework with high-performance and strong-extensibility for building micro-services."
+}

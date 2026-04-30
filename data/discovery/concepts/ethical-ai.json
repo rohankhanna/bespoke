@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "ethical-ai"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hendrycks/ethics",
+      "status": "candidate-context",
+      "text": "Aligning AI With Shared Human Values (ICLR 2021)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hendrycks/ethics",
+      "status": "candidate-context",
+      "text": "This is the repository for [Aligning AI With Shared Human Values](https://arxiv.org/pdf/2008.02275) by Dan Hendrycks, Collin Burns, Steven Basart, Andrew Critch, Jerry Li, Dawn Song, and Jacob Steinhardt, published at ICLR 2021."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hendrycks/ethics",
+      "status": "candidate",
+      "text": "This is the repository for [Aligning AI With Shared Human Values](https://arxiv.org/pdf/2008.02275) by Dan Hendrycks, Collin Burns, Steven Basart, Andrew Critch, Jerry Li, Dawn Song, and Jacob Steinhardt, published at ICLR 2021."
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "ethical-ai",
+  "concept_id": "ethical-ai",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "hendrycks/ethics"
+    }
+  ],
+  "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "ethical-ai",
+      "sense_id": "ethical-ai#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

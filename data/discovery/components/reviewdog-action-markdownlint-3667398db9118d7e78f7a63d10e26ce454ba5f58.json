@@ -1,0 +1,12 @@
+{
+  "component": "reviewdog/action-markdownlint@3667398db9118d7e78f7a63d10e26ce454ba5f58",
+  "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/reviewdog.yml",
+      "source_repo": "blooper05/action-rails_best_practices"
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "r-lyeh/gamebook",
+      "target": "design",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "r-lyeh/gamebook",
+      "target": "gamedev",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T04:48:25.206566+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3350
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": ":books: A unified game design document convention (CC0, Markdown)",
+    "fork": false,
+    "full_name": "r-lyeh/gamebook",
+    "html_url": "https://github.com/r-lyeh/gamebook",
+    "language": "JavaScript",
+    "pushed_at": "2026-04-24T14:25:56Z",
+    "stargazers_count": 40,
+    "topics": [
+      "design",
+      "gamedev"
+    ],
+    "updated_at": "2026-04-24T14:26:00Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "The Gamebook convention",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "design"
+    },
+    {
+      "context_snippet": "The Gamebook convention",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gamedev"
+    }
+  ]
+}

@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "PR integration tests (linux)"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "GoogleContainerTools/skaffold",
+      "status": "candidate-context",
+      "text": "Easy and Repeatable Kubernetes Development"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "GoogleContainerTools/skaffold",
+      "status": "candidate-context",
+      "text": "PR integration tests (linux)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "GoogleContainerTools/skaffold",
+      "status": "candidate",
+      "text": "PR integration tests (linux)"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 25682,
+      "status": "candidate",
+      "text": "battleship"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17891,
+      "status": "candidate",
+      "text": "key"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17891,
+      "status": "candidate",
+      "text": "keying"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17891,
+      "status": "candidate",
+      "text": "keys"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17808,
+      "status": "candidate",
+      "text": "lab"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "PR integration tests (linux)",
+  "concept_id": "pr-integration-tests-linux",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/integration-linux.yml",
+      "source_repo": "GoogleContainerTools/skaffold"
+    }
+  ],
+  "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "PR integration tests (linux)",
+      "sense_id": "pr-integration-tests-linux#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

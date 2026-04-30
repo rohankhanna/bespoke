@@ -55,6 +55,30 @@
       "source_repo": "geocompx/geocompr",
       "status": "candidate-context",
       "text": "<!-- README.md is generated from README.Rmd. Please edit that file - rmarkdown::render('README.Rmd', output_format = 'github_document', output_file = 'README.md') -->"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "plotly/plotly.R",
+      "status": "candidate-context",
+      "text": "An interactive graphing library for R"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "plotly/plotly.R",
+      "status": "candidate-context",
+      "text": "<!-- README.md is generated from README.Rmd. Please edit that file -->"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cderv/r-bucket",
+      "status": "candidate-context",
+      "text": "Personal scoop bucket I use as an R user and software engineer"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cderv/r-bucket",
+      "status": "candidate-context",
+      "text": "![](https://github.com/cderv/r-bucket/workflows/Excavator/badge.svg)"
     }
   ],
   "candidate_glosses": [
@@ -81,6 +105,18 @@
       "source_repo": "geocompx/geocompr",
       "status": "candidate",
       "text": "<!-- README.md is generated from README.Rmd. Please edit that file - rmarkdown::render('README.Rmd', output_format = 'github_document', output_file = 'README.md') -->"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "plotly/plotly.R",
+      "status": "candidate",
+      "text": "<!-- README.md is generated from README.Rmd. Please edit that file -->"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cderv/r-bucket",
+      "status": "candidate",
+      "text": "![](https://github.com/cderv/r-bucket/workflows/Excavator/badge.svg)"
     }
   ],
   "candidate_related_terms": [],
@@ -112,11 +148,29 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "geocompx/geocompr"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "appelmar/gdalcubes"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "plotly/plotly.R"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "cderv/r-bucket"
     }
   ],
   "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

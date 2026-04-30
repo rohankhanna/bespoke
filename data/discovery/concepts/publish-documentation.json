@@ -170,6 +170,54 @@
       "source_repo": "pydantic/pydantic",
       "status": "candidate-context",
       "text": "Publish Documentation"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "linkedin/Liger-Kernel",
+      "status": "candidate-context",
+      "text": "Efficient Triton Kernels for LLM Training"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "linkedin/Liger-Kernel",
+      "status": "candidate-context",
+      "text": "Publish documentation"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "abhinav/goldmark-anchor",
+      "status": "candidate-context",
+      "text": "Generates anchors next to headings in a Markdown document."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "abhinav/goldmark-anchor",
+      "status": "candidate-context",
+      "text": "Publish documentation"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "abhinav/goldmark-frontmatter",
+      "status": "candidate-context",
+      "text": "Adds support for YAML and TOML front matter to Markdown documents."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "abhinav/goldmark-frontmatter",
+      "status": "candidate-context",
+      "text": "Publish documentation"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "abhinav/goldmark-hashtag",
+      "status": "candidate-context",
+      "text": "Adds support for #hashtags to the Goldmark Markdown parser."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "abhinav/goldmark-hashtag",
+      "status": "candidate-context",
+      "text": "Publish documentation"
     }
   ],
   "candidate_glosses": [
@@ -256,6 +304,30 @@
       "source_repo": "pydantic/pydantic",
       "status": "candidate",
       "text": "Publish Documentation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "linkedin/Liger-Kernel",
+      "status": "candidate",
+      "text": "Publish documentation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "abhinav/goldmark-anchor",
+      "status": "candidate",
+      "text": "Publish documentation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "abhinav/goldmark-frontmatter",
+      "status": "candidate",
+      "text": "Publish documentation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "abhinav/goldmark-hashtag",
+      "status": "candidate",
+      "text": "Publish documentation"
     }
   ],
   "candidate_related_terms": [
@@ -443,11 +515,53 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": ".github/workflows/docs-update.yml",
       "source_repo": "pydantic/pydantic"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "electron/rebuild"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "electron/packager"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "linkedin/Liger-Kernel"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/doc.yml",
+      "source_repo": "abhinav/goldmark-anchor"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/doc.yml",
+      "source_repo": "abhinav/goldmark-frontmatter"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/doc.yml",
+      "source_repo": "abhinav/goldmark-hashtag"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/docs-update.yml",
+      "source_repo": "pydantic/pydantic"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

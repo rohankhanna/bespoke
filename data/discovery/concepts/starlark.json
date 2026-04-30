@@ -79,6 +79,66 @@
       "source_repo": "laurentlb/awesome-starlark",
       "status": "candidate-context",
       "text": "*A list of awesome things related to the Starlark language.*"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "1set/starlet",
+      "status": "candidate-context",
+      "text": "\u2728 Yet another Go wrapper for Starlark that simplifies usage, offers data conversion and useful Starlark libraries"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "1set/starlet",
+      "status": "candidate-context",
+      "text": "[![godoc](https://pkg.go.dev/badge/github.com/1set/starlet.svg)](https://pkg.go.dev/github.com/1set/starlet)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "caketop/python-starlark-go",
+      "status": "candidate-context",
+      "text": "\ud83d\udc0d Python bindings for starlark-go \ud83d\udc0d"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "caketop/python-starlark-go",
+      "status": "candidate-context",
+      "text": "[![PyPI](https://img.shields.io/pypi/v/starlark-go)](https://pypi.org/project/starlark-go/)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cruise-automation/isopod",
+      "status": "candidate-context",
+      "text": "An expressive DSL and framework for Kubernetes configuration without YAML"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cruise-automation/isopod",
+      "status": "candidate-context",
+      "text": "Isopod"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "starlight-go/starlight",
+      "status": "candidate-context",
+      "text": "a go wrapper for google's starlark embedded python language"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "starlight-go/starlight",
+      "status": "candidate-context",
+      "text": "<p align=\"center\" style=\"font-weight:bold\">!! Starlight is still a WIP !!<p/>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ColdHeat/pystarlark",
+      "status": "candidate-context",
+      "text": "Experimental Python bindings for starlark-go"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ColdHeat/pystarlark",
+      "status": "candidate-context",
+      "text": "[![PyPI](https://img.shields.io/pypi/v/pystarlark)](https://pypi.org/project/pystarlark/)"
     }
   ],
   "candidate_glosses": [
@@ -117,6 +177,36 @@
       "source_repo": "laurentlb/awesome-starlark",
       "status": "candidate",
       "text": "*A list of awesome things related to the Starlark language.*"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "1set/starlet",
+      "status": "candidate",
+      "text": "[![godoc](https://pkg.go.dev/badge/github.com/1set/starlet.svg)](https://pkg.go.dev/github.com/1set/starlet)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "caketop/python-starlark-go",
+      "status": "candidate",
+      "text": "[![PyPI](https://img.shields.io/pypi/v/starlark-go)](https://pypi.org/project/starlark-go/)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cruise-automation/isopod",
+      "status": "candidate",
+      "text": "Isopod"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "starlight-go/starlight",
+      "status": "candidate",
+      "text": "<p align=\"center\" style=\"font-weight:bold\">!! Starlight is still a WIP !!<p/>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ColdHeat/pystarlark",
+      "status": "candidate",
+      "text": "[![PyPI](https://img.shields.io/pypi/v/pystarlark)](https://pypi.org/project/pystarlark/)"
     }
   ],
   "candidate_related_terms": [],
@@ -160,11 +250,41 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "laurentlb/awesome-starlark"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "1set/starlet"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "caketop/python-starlark-go"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "cruise-automation/isopod"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "starlight-go/starlight"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "ColdHeat/pystarlark"
     }
   ],
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

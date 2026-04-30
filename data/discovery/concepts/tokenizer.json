@@ -79,6 +79,30 @@
       "source_repo": "sugarme/tokenizer",
       "status": "candidate-context",
       "text": "`tokenizer` is pure Go package to facilitate applying Natural Language Processing (NLP) models train/test and inference in Go."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lindera/lindera-tantivy",
+      "status": "candidate-context",
+      "text": "Lindera tokenizer for Tantivy."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lindera/lindera-tantivy",
+      "status": "candidate-context",
+      "text": "[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Chevrotain/chevrotain",
+      "status": "candidate-context",
+      "text": "Parser Building Toolkit for JavaScript"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Chevrotain/chevrotain",
+      "status": "candidate-context",
+      "text": "[![Discussions](https://img.shields.io/github/discussions/chevrotain/chevrotain?style=flat-square)](https://github.com/Chevrotain/chevrotain/discussions)"
     }
   ],
   "candidate_glosses": [
@@ -117,6 +141,18 @@
       "source_repo": "sugarme/tokenizer",
       "status": "candidate",
       "text": "`tokenizer` is pure Go package to facilitate applying Natural Language Processing (NLP) models train/test and inference in Go."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lindera/lindera-tantivy",
+      "status": "candidate",
+      "text": "[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Chevrotain/chevrotain",
+      "status": "candidate",
+      "text": "[![Discussions](https://img.shields.io/github/discussions/chevrotain/chevrotain?style=flat-square)](https://github.com/Chevrotain/chevrotain/discussions)"
     }
   ],
   "candidate_related_terms": [
@@ -196,11 +232,23 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "sugarme/tokenizer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "lindera/lindera-tantivy"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "Chevrotain/chevrotain"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,95 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cpp.yml"
+    },
+    {
+      "component": "actions/setup-go@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cpp.yml"
+    },
+    {
+      "component": "actions/checkout@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cpp.yml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cpp.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cpp.yml",
+      "source_repo": "proxy-wasm/proxy-wasm-cpp-sdk",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cpp.yml",
+      "source_repo": "proxy-wasm/proxy-wasm-cpp-sdk",
+      "target": "actions/setup-go@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cpp.yml",
+      "source_repo": "proxy-wasm/proxy-wasm-cpp-sdk",
+      "target": "actions/checkout@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cpp.yml",
+      "source_repo": "proxy-wasm/proxy-wasm-cpp-sdk",
+      "target": "actions/cache@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cpp.yml",
+      "source_repo": "proxy-wasm/proxy-wasm-cpp-sdk",
+      "target": "C++",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T00:48:20.320043+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1759
+    },
+    {
+      "path": ".github/workflows/cpp.yml",
+      "size": 2218
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "WebAssembly for Proxies (C++ SDK)",
+    "fork": false,
+    "full_name": "proxy-wasm/proxy-wasm-cpp-sdk",
+    "html_url": "https://github.com/proxy-wasm/proxy-wasm-cpp-sdk",
+    "language": "C++",
+    "pushed_at": "2026-02-03T18:24:26Z",
+    "stargazers_count": 161,
+    "topics": [],
+    "updated_at": "2026-04-23T18:19:59Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "C++",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cpp.yml",
+      "term": "C++"
+    }
+  ]
+}

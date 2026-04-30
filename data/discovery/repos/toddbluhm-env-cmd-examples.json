@@ -1,0 +1,224 @@
+{
+  "components": [
+    {
+      "component": "@commitlint/cli",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@commitlint/config-conventional",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "chalk",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "cross-env",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "env-cmd",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "husky",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "lerna",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "standard",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux-tests.yml"
+    },
+    {
+      "component": "wagoid/commitlint-github-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux-tests.yml"
+    },
+    {
+      "component": "actions/setup-node@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux-tests.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/windows-tests.yml"
+    },
+    {
+      "component": "actions/setup-node@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/windows-tests.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "toddbluhm/env-cmd-examples",
+      "target": "@commitlint/cli",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "toddbluhm/env-cmd-examples",
+      "target": "@commitlint/config-conventional",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "toddbluhm/env-cmd-examples",
+      "target": "chalk",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "toddbluhm/env-cmd-examples",
+      "target": "cross-env",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "toddbluhm/env-cmd-examples",
+      "target": "env-cmd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "toddbluhm/env-cmd-examples",
+      "target": "husky",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "toddbluhm/env-cmd-examples",
+      "target": "lerna",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "toddbluhm/env-cmd-examples",
+      "target": "standard",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux-tests.yml",
+      "source_repo": "toddbluhm/env-cmd-examples",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux-tests.yml",
+      "source_repo": "toddbluhm/env-cmd-examples",
+      "target": "wagoid/commitlint-github-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux-tests.yml",
+      "source_repo": "toddbluhm/env-cmd-examples",
+      "target": "actions/setup-node@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/linux-tests.yml",
+      "source_repo": "toddbluhm/env-cmd-examples",
+      "target": "linux tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/windows-tests.yml",
+      "source_repo": "toddbluhm/env-cmd-examples",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/windows-tests.yml",
+      "source_repo": "toddbluhm/env-cmd-examples",
+      "target": "actions/setup-node@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/windows-tests.yml",
+      "source_repo": "toddbluhm/env-cmd-examples",
+      "target": "windows tests",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T04:03:05.402788+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1644
+    },
+    {
+      "path": "package.json",
+      "size": 661
+    },
+    {
+      "path": ".github/workflows/linux-tests.yml",
+      "size": 760
+    },
+    {
+      "path": ".github/workflows/windows-tests.yml",
+      "size": 616
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Examples repository for npm module https://github.com/toddbluhm/env-cmd",
+    "fork": false,
+    "full_name": "toddbluhm/env-cmd-examples",
+    "html_url": "https://github.com/toddbluhm/env-cmd-examples",
+    "language": null,
+    "pushed_at": "2025-08-25T11:40:37Z",
+    "stargazers_count": 29,
+    "topics": [],
+    "updated_at": "2025-08-25T11:40:41Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "linux tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/linux-tests.yml",
+      "term": "linux tests"
+    },
+    {
+      "context_snippet": "windows tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/windows-tests.yml",
+      "term": "windows tests"
+    }
+  ]
+}

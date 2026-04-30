@@ -1,0 +1,184 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yml"
+    },
+    {
+      "component": "actions/stale@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stale.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "AbdBarho/stable-diffusion-webui-docker",
+      "target": "automatic1111/stable-diffusion-webui-feature-showcase",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "AbdBarho/stable-diffusion-webui-docker",
+      "target": "comfyanonymous/comfyui",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "AbdBarho/stable-diffusion-webui-docker",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "AbdBarho/stable-diffusion-webui-docker",
+      "target": "Build Images",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "AbdBarho/stable-diffusion-webui-docker",
+      "target": "actions/stale@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "AbdBarho/stable-diffusion-webui-docker",
+      "target": "Close stale issues and PRs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AbdBarho/stable-diffusion-webui-docker",
+      "target": "docker",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AbdBarho/stable-diffusion-webui-docker",
+      "target": "docker-compse",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AbdBarho/stable-diffusion-webui-docker",
+      "target": "gradio",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AbdBarho/stable-diffusion-webui-docker",
+      "target": "pytorch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AbdBarho/stable-diffusion-webui-docker",
+      "target": "stable-diffusion",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T03:04:13.018277+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3211
+    },
+    {
+      "path": ".github/workflows/docker.yml",
+      "size": 434
+    },
+    {
+      "path": ".github/workflows/stale.yml",
+      "size": 899
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Easy Docker setup for Stable Diffusion with user-friendly UI",
+    "fork": false,
+    "full_name": "AbdBarho/stable-diffusion-webui-docker",
+    "html_url": "https://github.com/AbdBarho/stable-diffusion-webui-docker",
+    "language": "Shell",
+    "pushed_at": "2024-08-18T11:05:13Z",
+    "stargazers_count": 7324,
+    "topics": [
+      "docker",
+      "docker-compse",
+      "gradio",
+      "pytorch",
+      "stable-diffusion"
+    ],
+    "updated_at": "2026-04-29T23:43:39Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "automatic1111/stable-diffusion-webui-feature-showcase",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "comfyanonymous/comfyui",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Build Images",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docker.yml",
+      "term": "Build Images"
+    },
+    {
+      "context_snippet": "'Close stale issues and PRs'",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/stale.yml",
+      "term": "Close stale issues and PRs"
+    },
+    {
+      "context_snippet": "Run Stable Diffusion on your machine with a nice UI without any hassle!",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "docker"
+    },
+    {
+      "context_snippet": "Run Stable Diffusion on your machine with a nice UI without any hassle!",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "docker-compse"
+    },
+    {
+      "context_snippet": "Run Stable Diffusion on your machine with a nice UI without any hassle!",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gradio"
+    },
+    {
+      "context_snippet": "Run Stable Diffusion on your machine with a nice UI without any hassle!",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytorch"
+    },
+    {
+      "context_snippet": "Run Stable Diffusion on your machine with a nice UI without any hassle!",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "stable-diffusion"
+    }
+  ]
+}

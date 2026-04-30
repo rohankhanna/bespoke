@@ -1,0 +1,53 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "tmux-plugins/tmux-open",
+      "target": "tmux-plugins/tmux-copycat",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "tmux-plugins/tmux-open",
+      "target": "tmux-plugins/tmux-yank",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T01:39:37.351830+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2600
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Tmux key bindings for quick opening of a highlighted file or url",
+    "fork": false,
+    "full_name": "tmux-plugins/tmux-open",
+    "html_url": "https://github.com/tmux-plugins/tmux-open",
+    "language": "Shell",
+    "pushed_at": "2024-06-18T05:59:11Z",
+    "stargazers_count": 726,
+    "topics": [],
+    "updated_at": "2026-04-29T16:46:39Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "tmux-plugins/tmux-copycat",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "tmux-plugins/tmux-yank",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

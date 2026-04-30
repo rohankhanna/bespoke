@@ -151,6 +151,90 @@
       "source_repo": "IBM/FfDL",
       "status": "candidate-context",
       "text": "> This repository will not be updated. The repository will be kept available in read-only mode."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ClementPinard/Pytorch-Correlation-extension",
+      "status": "candidate-context",
+      "text": "Custom implementation of Corrleation Module"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ClementPinard/Pytorch-Correlation-extension",
+      "status": "candidate-context",
+      "text": "[![PyPI](https://img.shields.io/pypi/v/spatial-correlation-sampler.svg)](https://pypi.org/project/spatial-correlation-sampler/)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "BMW-InnovationLab/BMW-TensorFlow-Training-GUI",
+      "status": "candidate-context",
+      "text": "This repository allows you to get started with a gui based training a State-of-the-art Deep Learning model with little to no configuration needed! NoCode training with TensorFlow has never been so easy."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "BMW-InnovationLab/BMW-TensorFlow-Training-GUI",
+      "status": "candidate-context",
+      "text": "Updated for CUDA 11 and Tensorflow 2!!!"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "BMW-InnovationLab/BMW-YOLOv4-Training-Automation",
+      "status": "candidate-context",
+      "text": "This repository allows you to get started with training a state-of-the-art Deep Learning model with little to no configuration needed!  You provide your labeled dataset or label your dataset using our BMW-LabelTool-Lite and you can start the training right away and monitor it in many different ways like TensorBoard or a custom REST API and GUI. NoCode training with YOLOv4 and YOLOV3 has never been so easy."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "BMW-InnovationLab/BMW-YOLOv4-Training-Automation",
+      "status": "candidate-context",
+      "text": "This repository, based on AlexeyAB's darknet repro, allows you to get started with training a state-of-the-art Deep Learning model with little to no configuration needed! You provide your labeled dataset and you can start the training right away and monitor it in many different \u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ecsplendid/rembg-greenscreen",
+      "status": "candidate-context",
+      "text": "Rembg Video Virtual Green Screen Edition"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ecsplendid/rembg-greenscreen",
+      "status": "candidate-context",
+      "text": "Rembg Virtual Greenscreen Edition is a tool to create a green screen matte for videos"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "clearml/clearml",
+      "status": "candidate-context",
+      "text": "ClearML - Auto-Magical CI/CD to streamline your AI workload. Experiment Management, Data Management, Pipeline, Orchestration, Scheduling & Serving in one MLOps/LLMOps solution"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "clearml/clearml",
+      "status": "candidate-context",
+      "text": "<div align=\"center\" style=\"text-align: center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "taesungp/contrastive-unpaired-translation",
+      "status": "candidate-context",
+      "text": "Contrastive unpaired image-to-image translation, faster and lighter training than cyclegan (ECCV 2020, in PyTorch)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "taesungp/contrastive-unpaired-translation",
+      "status": "candidate-context",
+      "text": "<br>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jolibrain/caffe",
+      "status": "candidate-context",
+      "text": "Caffe: a Fast framework for deep learning. Custom version with built-in sparse inputs, segmentation, object detection, class weights, and custom layers"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jolibrain/caffe",
+      "status": "candidate-context",
+      "text": "This is a slightly modified version of Caffe as used by the [Deep Learning API & server Deepdetect](https://github.com/beniz/deepdetect). The repository is kept up to date with the original Caffe master branch."
     }
   ],
   "candidate_glosses": [
@@ -225,6 +309,48 @@
       "source_repo": "IBM/FfDL",
       "status": "candidate",
       "text": "> This repository will not be updated. The repository will be kept available in read-only mode."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ClementPinard/Pytorch-Correlation-extension",
+      "status": "candidate",
+      "text": "[![PyPI](https://img.shields.io/pypi/v/spatial-correlation-sampler.svg)](https://pypi.org/project/spatial-correlation-sampler/)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "BMW-InnovationLab/BMW-TensorFlow-Training-GUI",
+      "status": "candidate",
+      "text": "Updated for CUDA 11 and Tensorflow 2!!!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "BMW-InnovationLab/BMW-YOLOv4-Training-Automation",
+      "status": "candidate",
+      "text": "This repository, based on AlexeyAB's darknet repro, allows you to get started with training a state-of-the-art Deep Learning model with little to no configuration needed! You provide your labeled dataset and you can start the training right away and monitor it in many different \u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ecsplendid/rembg-greenscreen",
+      "status": "candidate",
+      "text": "Rembg Virtual Greenscreen Edition is a tool to create a green screen matte for videos"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "clearml/clearml",
+      "status": "candidate",
+      "text": "<div align=\"center\" style=\"text-align: center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "taesungp/contrastive-unpaired-translation",
+      "status": "candidate",
+      "text": "<br>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jolibrain/caffe",
+      "status": "candidate",
+      "text": "This is a slightly modified version of Caffe as used by the [Deep Learning API & server Deepdetect](https://github.com/beniz/deepdetect). The repository is kept up to date with the original Caffe master branch."
     }
   ],
   "candidate_related_terms": [],
@@ -322,11 +448,59 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "NVIDIA-NeMo/NeMo"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "ClementPinard/Pytorch-Correlation-extension"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "NVIDIA-NeMo/NeMo"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "BMW-InnovationLab/BMW-TensorFlow-Training-GUI"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "BMW-InnovationLab/BMW-YOLOv4-Training-Automation"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "ecsplendid/rembg-greenscreen"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "clearml/clearml"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "taesungp/contrastive-unpaired-translation"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "jolibrain/caffe"
     }
   ],
   "first_seen_at": "2026-04-20T03:16:48.146869+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

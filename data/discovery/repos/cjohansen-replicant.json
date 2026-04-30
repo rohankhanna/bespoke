@@ -1,0 +1,77 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "cjohansen/replicant",
+      "target": "cjohansen/dumdom",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "cjohansen/replicant",
+      "target": "cjohansen/m1p",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "cjohansen/replicant",
+      "target": "onionpancakes/chassis",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "cjohansen/replicant",
+      "target": "krausest/js-framework-benchmark.",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T04:04:29.765048+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7883
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A data-driven rendering library for Clojure(Script) that renders hiccup to DOM or to strings.",
+    "fork": false,
+    "full_name": "cjohansen/replicant",
+    "html_url": "https://github.com/cjohansen/replicant",
+    "language": "Clojure",
+    "pushed_at": "2026-03-02T09:14:08Z",
+    "stargazers_count": 489,
+    "topics": [],
+    "updated_at": "2026-04-29T11:31:28Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cjohansen/dumdom",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cjohansen/m1p",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "krausest/js-framework-benchmark.",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "onionpancakes/chassis",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

@@ -1,34 +1,6 @@
 {
   "edges": [
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "redis/redis-om-spring",
-      "target": "redis-developer/redis-product-search",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "redis/redis-om-spring",
-      "target": "redis-developer/redis-om-spring-skeleton-app",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "redis/redis-om-spring",
-      "target": "redis-developer/redis-om-spring-react-todomvc",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "redis/redis-om-spring",
-      "target": "redis-developer/redis-om-autocomplete-demo",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/build.yml",
       "source_repo": "redis/redis-om-spring",
@@ -246,6 +218,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-04-29T18:37:00.726333+00:00",
+  "generated_at": "2026-04-30T00:37:16.824464+00:00",
   "source_repo": "redis/redis-om-spring"
 }

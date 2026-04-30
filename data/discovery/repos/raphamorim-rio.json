@@ -1,0 +1,497 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nix-build.yml"
+    },
+    {
+      "component": "DeterminateSystems/nix-installer-action@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nix-build.yml"
+    },
+    {
+      "component": "DeterminateSystems/magic-nix-cache-action@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nix-build.yml"
+    },
+    {
+      "component": "DeterminateSystems/flake-checker-action@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nix-build.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/cache@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "goreleaser/goreleaser-action@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "goreleaser/goreleaser-action@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/cache@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/cache@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/cache@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/cache@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "goreleaser/goreleaser-action@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "Swatinem/rust-cache@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "msys2/setup-msys2@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "Swatinem/rust-cache@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "Swatinem/rust-cache@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "nanasess/setup-chromedriver@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-flake.yml"
+    },
+    {
+      "component": "DeterminateSystems/nix-installer-action@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-flake.yml"
+    },
+    {
+      "component": "DeterminateSystems/flakehub-cache-action@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-flake.yml"
+    },
+    {
+      "component": "DeterminateSystems/flake-checker-action@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-flake.yml"
+    },
+    {
+      "component": "DeterminateSystems/update-flake-lock@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-flake.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nix-build.yml",
+      "source_repo": "raphamorim/rio",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nix-build.yml",
+      "source_repo": "raphamorim/rio",
+      "target": "DeterminateSystems/nix-installer-action@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nix-build.yml",
+      "source_repo": "raphamorim/rio",
+      "target": "DeterminateSystems/magic-nix-cache-action@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nix-build.yml",
+      "source_repo": "raphamorim/rio",
+      "target": "DeterminateSystems/flake-checker-action@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/nix-build.yml",
+      "source_repo": "raphamorim/rio",
+      "target": "Nix Build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "raphamorim/rio",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "raphamorim/rio",
+      "target": "actions/cache@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "raphamorim/rio",
+      "target": "goreleaser/goreleaser-action@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "raphamorim/rio",
+      "target": "Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "raphamorim/rio",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "raphamorim/rio",
+      "target": "Swatinem/rust-cache@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "raphamorim/rio",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "raphamorim/rio",
+      "target": "msys2/setup-msys2@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "raphamorim/rio",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "raphamorim/rio",
+      "target": "nanasess/setup-chromedriver@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "raphamorim/rio",
+      "target": "Test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-flake.yml",
+      "source_repo": "raphamorim/rio",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-flake.yml",
+      "source_repo": "raphamorim/rio",
+      "target": "DeterminateSystems/nix-installer-action@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-flake.yml",
+      "source_repo": "raphamorim/rio",
+      "target": "DeterminateSystems/flakehub-cache-action@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-flake.yml",
+      "source_repo": "raphamorim/rio",
+      "target": "DeterminateSystems/flake-checker-action@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-flake.yml",
+      "source_repo": "raphamorim/rio",
+      "target": "DeterminateSystems/update-flake-lock@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/update-flake.yml",
+      "source_repo": "raphamorim/rio",
+      "target": "update-flake-lock",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "raphamorim/rio",
+      "target": "gpu-acceleration",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "raphamorim/rio",
+      "target": "rio-terminal",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "raphamorim/rio",
+      "target": "rust",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "raphamorim/rio",
+      "target": "rust-lang",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "raphamorim/rio",
+      "target": "terminal",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "raphamorim/rio",
+      "target": "terminal-emulator",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "raphamorim/rio",
+      "target": "terminal-emulators",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "raphamorim/rio",
+      "target": "terminal-ui",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "raphamorim/rio",
+      "target": "wgpu",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T04:01:30.692859+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1998
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 3198
+    },
+    {
+      "path": ".github/workflows/nix-build.yml",
+      "size": 697
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "size": 5990
+    },
+    {
+      "path": ".github/workflows/test.yml",
+      "size": 3052
+    },
+    {
+      "path": ".github/workflows/update-flake.yml",
+      "size": 778
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A hardware-accelerated GPU terminal emulator focusing to run in desktops and browsers.",
+    "fork": false,
+    "full_name": "raphamorim/rio",
+    "html_url": "https://github.com/raphamorim/rio",
+    "language": "Rust",
+    "pushed_at": "2026-04-30T00:07:38Z",
+    "stargazers_count": 6726,
+    "topics": [
+      "gpu-acceleration",
+      "rio",
+      "rio-terminal",
+      "rust",
+      "rust-lang",
+      "terminal",
+      "terminal-emulator",
+      "terminal-emulators",
+      "terminal-ui",
+      "vte",
+      "wgpu"
+    ],
+    "updated_at": "2026-04-30T02:11:59Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Nix Build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/nix-build.yml",
+      "term": "Nix Build"
+    },
+    {
+      "context_snippet": "Release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "term": "Release"
+    },
+    {
+      "context_snippet": "Test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "term": "Test"
+    },
+    {
+      "context_snippet": "update-flake-lock",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/update-flake.yml",
+      "term": "update-flake-lock"
+    },
+    {
+      "context_snippet": "<!-- LOGO -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gpu-acceleration"
+    },
+    {
+      "context_snippet": "<!-- LOGO -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rio-terminal"
+    },
+    {
+      "context_snippet": "<!-- LOGO -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rust"
+    },
+    {
+      "context_snippet": "<!-- LOGO -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rust-lang"
+    },
+    {
+      "context_snippet": "<!-- LOGO -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "terminal"
+    },
+    {
+      "context_snippet": "<!-- LOGO -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "terminal-emulator"
+    },
+    {
+      "context_snippet": "<!-- LOGO -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "terminal-emulators"
+    },
+    {
+      "context_snippet": "<!-- LOGO -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "terminal-ui"
+    },
+    {
+      "context_snippet": "<!-- LOGO -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "wgpu"
+    }
+  ]
+}

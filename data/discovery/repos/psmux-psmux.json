@@ -58,34 +58,6 @@
   ],
   "edges": [
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "psmux/psmux",
-      "target": "psmux/scoop-psmux",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "psmux/psmux",
-      "target": "psmux/pstop",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "psmux/psmux",
-      "target": "psmux/psnet",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "psmux/psmux",
-      "target": "psmux/omp-manager",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci.yml",
       "source_repo": "psmux/psmux",
@@ -247,7 +219,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-24T09:05:35.965098+00:00",
+  "fetched_at": "2026-04-30T05:00:30.926776+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -263,7 +235,7 @@
     },
     {
       "path": ".github/workflows/release.yml",
-      "size": 29873
+      "size": 28658
     }
   ],
   "related_repositories": [],
@@ -275,8 +247,8 @@
     "full_name": "psmux/psmux",
     "html_url": "https://github.com/psmux/psmux",
     "language": "PowerShell",
-    "pushed_at": "2026-04-22T17:07:12Z",
-    "stargazers_count": 1515,
+    "pushed_at": "2026-04-28T23:05:09Z",
+    "stargazers_count": 1611,
     "topics": [
       "cli",
       "powershell",
@@ -295,30 +267,9 @@
       "windows-terminal",
       "windows-tmux"
     ],
-    "updated_at": "2026-04-24T07:53:52Z"
+    "updated_at": "2026-04-30T04:14:22Z"
   },
-  "repo_links": [
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "psmux/omp-manager",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "psmux/psnet",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "psmux/pstop",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "psmux/scoop-psmux",
-      "source_file": "README.md"
-    }
-  ],
+  "repo_links": [],
   "terms": [
     {
       "context_snippet": "Release",

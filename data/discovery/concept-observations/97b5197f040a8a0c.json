@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "The open-source, cross-platform API client for GraphQL, REST, WebSockets, SSE and gRPC. With Cloud, Local and Git storage."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![Website](https://img.shields.io/badge/Get%20started%20for%20free-8A2BE2)](https://insomnia.rest)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![Website](https://img.shields.io/badge/Get%20started%20for%20free-8A2BE2)](https://insomnia.rest)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39990461,
+      "status": "candidate",
+      "text": "ringlet"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39985207,
+      "status": "candidate",
+      "text": "curl up"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39984144,
+      "status": "candidate",
+      "text": "loop"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39975265,
+      "status": "candidate",
+      "text": "curlicue"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39974805,
+      "status": "candidate",
+      "text": "whorl"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "curl",
+      "sense_id": "curl#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 22080,
+      "status": "candidate",
+      "text": "wave"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 20056,
+      "status": "candidate",
+      "text": "coil"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 20052,
+      "status": "candidate",
+      "text": "curve"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 15040,
+      "status": "candidate",
+      "text": "whorl"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 13081,
+      "status": "candidate",
+      "text": "roll"
+    }
+  ],
+  "concept_id": "curl",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "curl",
+  "observation_id": "97b5197f040a8a0c",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T00:37:16.824464+00:00",
+  "observed_text": "curl",
+  "source_context_snippet": "[![Website](https://img.shields.io/badge/Get%20started%20for%20free-8A2BE2)](https://insomnia.rest)",
+  "source_file": null,
+  "source_repo": "Kong/insomnia",
+  "source_repo_description": "The open-source, cross-platform API client for GraphQL, REST, WebSockets, SSE and gRPC. With Cloud, Local and Git storage."
+}

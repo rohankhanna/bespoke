@@ -20,13 +20,6 @@
       "target_type": "repository"
     },
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "EvolvingLMMs-Lab/Otter",
-      "target": "mlfoundations/open_flamingo",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/black.yml",
       "source_repo": "EvolvingLMMs-Lab/Otter",
@@ -125,7 +118,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-29T20:45:37.998630+00:00",
+  "fetched_at": "2026-04-30T02:01:29.564018+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -154,7 +147,7 @@
     "html_url": "https://github.com/EvolvingLMMs-Lab/Otter",
     "language": "Python",
     "pushed_at": "2024-03-05T15:56:06Z",
-    "stargazers_count": 3373,
+    "stargazers_count": 3374,
     "topics": [
       "artificial-inteligence",
       "chatgpt",
@@ -168,17 +161,12 @@
       "multi-modality",
       "visual-language-learning"
     ],
-    "updated_at": "2026-04-28T11:22:48Z"
+    "updated_at": "2026-04-30T01:55:55Z"
   },
   "repo_links": [
     {
       "edge_type": "explicit-github-link",
       "full_name": "luodian/otter",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "mlfoundations/open_flamingo",
       "source_file": "README.md"
     }
   ],

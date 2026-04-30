@@ -1,0 +1,92 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yaml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "facebookresearch/dinov2",
+      "target": "facebookresearch/dinov3",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yaml",
+      "source_repo": "facebookresearch/dinov2",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yaml",
+      "source_repo": "facebookresearch/dinov2",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint.yaml",
+      "source_repo": "facebookresearch/dinov2",
+      "target": "Lint",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T01:57:56.620224+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 32781
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 417
+    },
+    {
+      "path": "requirements.txt",
+      "size": 213
+    },
+    {
+      "path": ".github/workflows/lint.yaml",
+      "size": 796
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "PyTorch code and models for the DINOv2 self-supervised learning method.",
+    "fork": false,
+    "full_name": "facebookresearch/dinov2",
+    "html_url": "https://github.com/facebookresearch/dinov2",
+    "language": "Jupyter Notebook",
+    "pushed_at": "2026-04-08T15:11:48Z",
+    "stargazers_count": 12777,
+    "topics": [],
+    "updated_at": "2026-04-29T18:21:28Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "facebookresearch/dinov3",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Lint",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint.yaml",
+      "term": "Lint"
+    }
+  ]
+}

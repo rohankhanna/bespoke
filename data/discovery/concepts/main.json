@@ -656,6 +656,108 @@
       "source_repo": "PyCQA/flake8",
       "status": "candidate-context",
       "text": "main"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "crossbario/autobahn-testsuite",
+      "status": "candidate-context",
+      "text": "Autobahn WebSocket protocol testsuite"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "crossbario/autobahn-testsuite",
+      "status": "candidate-context",
+      "text": "main"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "wooorm/mdxjs-rs",
+      "status": "candidate-context",
+      "text": "Compile MDX to JavaScript in Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "wooorm/mdxjs-rs",
+      "status": "candidate-context",
+      "text": "main"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "LuaLS/LLS-Addons-Action",
+      "status": "candidate-context",
+      "text": "A custom GitHub action that is used by LLS-Addons to get some metadata on addons"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "LuaLS/LLS-Addons-Action",
+      "status": "candidate-context",
+      "text": "Main"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/olive-recipes",
+      "status": "candidate-context",
+      "text": "main"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "allenai/OLMo",
+      "status": "candidate-context",
+      "text": "Modeling, training, eval, and inference code for OLMo"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "allenai/OLMo",
+      "status": "candidate-context",
+      "text": "Main"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "allenai/OLMo-Eval-Legacy",
+      "status": "candidate-context",
+      "text": "Evaluation suite for LLMs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "allenai/OLMo-Eval-Legacy",
+      "status": "candidate-context",
+      "text": "Main"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "crossbario/autobahn-python",
+      "status": "candidate-context",
+      "text": "WebSocket and WAMP in Python for Twisted and asyncio"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "crossbario/autobahn-python",
+      "status": "candidate-context",
+      "text": "main"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ImageMagick/ImageMagick",
+      "status": "candidate-context",
+      "text": "ImageMagick is a free, open-source software suite for creating, editing, converting, and displaying images. It supports 200+ formats and offers powerful command-line tools and APIs for automation, scripting, and integration across platforms."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ImageMagick/ImageMagick",
+      "status": "candidate-context",
+      "text": "Main"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aws/jsii",
+      "status": "candidate-context",
+      "text": "jsii allows code in any language to naturally interact with JavaScript classes. It is the technology that enables the AWS Cloud Development Kit to deliver polyglot libraries from a single codebase!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aws/jsii",
+      "status": "candidate-context",
+      "text": "Main"
     }
   ],
   "candidate_glosses": [
@@ -982,6 +1084,60 @@
       "source_repo": "PyCQA/flake8",
       "status": "candidate",
       "text": "main"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "crossbario/autobahn-testsuite",
+      "status": "candidate",
+      "text": "main"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "wooorm/mdxjs-rs",
+      "status": "candidate",
+      "text": "main"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "LuaLS/LLS-Addons-Action",
+      "status": "candidate",
+      "text": "Main"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/olive-recipes",
+      "status": "candidate",
+      "text": "main"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "allenai/OLMo",
+      "status": "candidate",
+      "text": "Main"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "allenai/OLMo-Eval-Legacy",
+      "status": "candidate",
+      "text": "Main"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "crossbario/autobahn-python",
+      "status": "candidate",
+      "text": "main"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ImageMagick/ImageMagick",
+      "status": "candidate",
+      "text": "Main"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aws/jsii",
+      "status": "candidate",
+      "text": "Main"
     }
   ],
   "candidate_related_terms": [
@@ -1415,11 +1571,65 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": ".github/workflows/main.yml",
       "source_repo": "PyCQA/flake8"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "crossbario/autobahn-testsuite"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "wooorm/mdxjs-rs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "LuaLS/LLS-Addons-Action"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "microsoft/olive-recipes"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "allenai/OLMo"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "allenai/OLMo-Eval-Legacy"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "crossbario/autobahn-python"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "ImageMagick/ImageMagick"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "aws/jsii"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

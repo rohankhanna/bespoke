@@ -1,0 +1,12 @@
+{
+  "component": "relative-ci/agent-action@1707825cbfcc7452b2913d273414705415ae64d4",
+  "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "scalar/scalar"
+    }
+  ]
+}

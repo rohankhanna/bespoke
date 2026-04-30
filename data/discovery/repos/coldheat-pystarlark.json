@@ -1,0 +1,192 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/setup-python@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/setup-go@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/setup-python@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ColdHeat/pystarlark",
+      "target": "zopefoundation/restrictedpython",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "ColdHeat/pystarlark",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "ColdHeat/pystarlark",
+      "target": "actions/setup-python@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "ColdHeat/pystarlark",
+      "target": "actions/upload-artifact@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "ColdHeat/pystarlark",
+      "target": "Build wheels",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "ColdHeat/pystarlark",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "ColdHeat/pystarlark",
+      "target": "actions/setup-go@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "ColdHeat/pystarlark",
+      "target": "actions/setup-python@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "ColdHeat/pystarlark",
+      "target": "Test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ColdHeat/pystarlark",
+      "target": "python-library",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ColdHeat/pystarlark",
+      "target": "starlark",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ColdHeat/pystarlark",
+      "target": "starlark-go",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T04:52:20.119236+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4120
+    },
+    {
+      "path": ".github/workflows/build.yml",
+      "size": 2619
+    },
+    {
+      "path": ".github/workflows/test.yml",
+      "size": 856
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Experimental Python bindings for starlark-go",
+    "fork": false,
+    "full_name": "ColdHeat/pystarlark",
+    "html_url": "https://github.com/ColdHeat/pystarlark",
+    "language": "C",
+    "pushed_at": "2023-03-30T11:24:42Z",
+    "stargazers_count": 17,
+    "topics": [
+      "python-library",
+      "starlark",
+      "starlark-go"
+    ],
+    "updated_at": "2026-01-05T00:01:35Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "zopefoundation/restrictedpython",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Build wheels",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "term": "Build wheels"
+    },
+    {
+      "context_snippet": "Test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "term": "Test"
+    },
+    {
+      "context_snippet": "[![PyPI](https://img.shields.io/pypi/v/pystarlark)](https://pypi.org/project/pystarlark/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "python-library"
+    },
+    {
+      "context_snippet": "[![PyPI](https://img.shields.io/pypi/v/pystarlark)](https://pypi.org/project/pystarlark/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "starlark"
+    },
+    {
+      "context_snippet": "[![PyPI](https://img.shields.io/pypi/v/pystarlark)](https://pypi.org/project/pystarlark/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "starlark-go"
+    }
+  ]
+}

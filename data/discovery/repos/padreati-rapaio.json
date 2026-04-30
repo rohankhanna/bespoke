@@ -1,0 +1,181 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/maven.yml"
+    },
+    {
+      "component": "actions/setup-java@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/maven.yml"
+    },
+    {
+      "component": "codecov/codecov-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/maven.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "padreati/rapaio",
+      "target": "padreati/rapaio-jupyter-kernel",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/maven.yml",
+      "source_repo": "padreati/rapaio",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/maven.yml",
+      "source_repo": "padreati/rapaio",
+      "target": "actions/setup-java@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/maven.yml",
+      "source_repo": "padreati/rapaio",
+      "target": "codecov/codecov-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/maven.yml",
+      "source_repo": "padreati/rapaio",
+      "target": "Java CI with Maven",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "padreati/rapaio",
+      "target": "data-mining",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "padreati/rapaio",
+      "target": "graphics",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "padreati/rapaio",
+      "target": "java",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "padreati/rapaio",
+      "target": "machine-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "padreati/rapaio",
+      "target": "machine-learning-toolbox",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "padreati/rapaio",
+      "target": "statistics",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T04:49:46.633126+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3215
+    },
+    {
+      "path": ".github/workflows/maven.yml",
+      "size": 851
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "statistics, data mining and machine learning toolbox",
+    "fork": false,
+    "full_name": "padreati/rapaio",
+    "html_url": "https://github.com/padreati/rapaio",
+    "language": "Java",
+    "pushed_at": "2026-03-16T23:52:13Z",
+    "stargazers_count": 78,
+    "topics": [
+      "data-mining",
+      "graphics",
+      "java",
+      "machine-learning",
+      "machine-learning-toolbox",
+      "statistics"
+    ],
+    "updated_at": "2026-03-28T04:48:26Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "padreati/rapaio-jupyter-kernel",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Java CI with Maven",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/maven.yml",
+      "term": "Java CI with Maven"
+    },
+    {
+      "context_snippet": "<table style=\"border: none\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "data-mining"
+    },
+    {
+      "context_snippet": "<table style=\"border: none\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "graphics"
+    },
+    {
+      "context_snippet": "<table style=\"border: none\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "java"
+    },
+    {
+      "context_snippet": "<table style=\"border: none\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "machine-learning"
+    },
+    {
+      "context_snippet": "<table style=\"border: none\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "machine-learning-toolbox"
+    },
+    {
+      "context_snippet": "<table style=\"border: none\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "statistics"
+    }
+  ]
+}

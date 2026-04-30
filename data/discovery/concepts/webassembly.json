@@ -295,6 +295,66 @@
       "source_repo": "extism/extism",
       "status": "candidate-context",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "paulocoutinhox/pdfium-lib",
+      "status": "candidate-context",
+      "text": "PDFium - Project to compile PDFium library to multiple platforms."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "paulocoutinhox/pdfium-lib",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "AssemblyScript/wabt.js",
+      "status": "candidate-context",
+      "text": "A buildbot for wabt.js, a port of WABT to the Web, with TypeScript support."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AssemblyScript/wabt.js",
+      "status": "candidate-context",
+      "text": "wabt.js"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Automattic/harper",
+      "status": "candidate-context",
+      "text": "Offline, privacy-first grammar checker. Fast, open-source, Rust-powered"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Automattic/harper",
+      "status": "candidate-context",
+      "text": "<div id=\"header\" align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "unum-cloud/USearch",
+      "status": "candidate-context",
+      "text": "Fast Open-Source Search & Clustering engine \u00d7 for Vectors & Arbitrary Objects \u00d7 in C++, C, Python, JavaScript, Rust, Java, Objective-C, Swift, C#, GoLang, and Wolfram \ud83d\udd0d"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "unum-cloud/USearch",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">USearch</h1>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "xplpc/xplpc",
+      "status": "candidate-context",
+      "text": "Cross Platform Lite Procedure Call - Support Linux, macOS, Windows, iOS, Android, Web Assembly, Flutter, Kotlin, Python and More"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "xplpc/xplpc",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -441,6 +501,36 @@
       "source_repo": "extism/extism",
       "status": "candidate",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "paulocoutinhox/pdfium-lib",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AssemblyScript/wabt.js",
+      "status": "candidate",
+      "text": "wabt.js"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Automattic/harper",
+      "status": "candidate",
+      "text": "<div id=\"header\" align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "unum-cloud/USearch",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">USearch</h1>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "xplpc/xplpc",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_related_terms": [],
@@ -598,11 +688,41 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "extism/extism"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "paulocoutinhox/pdfium-lib"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "AssemblyScript/wabt.js"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "Automattic/harper"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "unum-cloud/USearch"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "xplpc/xplpc"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

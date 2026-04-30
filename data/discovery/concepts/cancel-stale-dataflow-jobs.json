@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Cancel Stale Dataflow Jobs"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apache/beam",
+      "status": "candidate-context",
+      "text": "Apache Beam is a unified programming model for Batch and Streaming data processing."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/beam",
+      "status": "candidate-context",
+      "text": "Cancel Stale Dataflow Jobs"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/beam",
+      "status": "candidate",
+      "text": "Cancel Stale Dataflow Jobs"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 16786,
+      "status": "candidate",
+      "text": "break"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 16729,
+      "status": "candidate",
+      "text": "cull"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 16729,
+      "status": "candidate",
+      "text": "hack"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 16729,
+      "status": "candidate",
+      "text": "hacking"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 16729,
+      "status": "candidate",
+      "text": "officious"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Cancel Stale Dataflow Jobs",
+  "concept_id": "cancel-stale-dataflow-jobs",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/beam_CancelStaleDataflowJobs.yml",
+      "source_repo": "apache/beam"
+    }
+  ],
+  "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Cancel Stale Dataflow Jobs",
+      "sense_id": "cancel-stale-dataflow-jobs#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

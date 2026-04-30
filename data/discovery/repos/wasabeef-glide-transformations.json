@@ -1,0 +1,151 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "wasabeef/glide-transformations",
+      "target": "wasabeef/picasso-transformations",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "wasabeef/glide-transformations",
+      "target": "wasabeef/fresco-processors",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "wasabeef/glide-transformations",
+      "target": "cyberagent/android-gpuimage",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "wasabeef/glide-transformations",
+      "target": "android",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "wasabeef/glide-transformations",
+      "target": "android-library",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "wasabeef/glide-transformations",
+      "target": "glide",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "wasabeef/glide-transformations",
+      "target": "image-processing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "wasabeef/glide-transformations",
+      "target": "java",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "wasabeef/glide-transformations",
+      "target": "kotlin",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T05:05:36.621597+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4745
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "An Android transformation library providing a variety of image transformations for Glide.",
+    "fork": false,
+    "full_name": "wasabeef/glide-transformations",
+    "html_url": "https://github.com/wasabeef/glide-transformations",
+    "language": "Java",
+    "pushed_at": "2022-03-08T16:07:21Z",
+    "stargazers_count": 9900,
+    "topics": [
+      "android",
+      "android-library",
+      "glide",
+      "image-processing",
+      "java",
+      "kotlin"
+    ],
+    "updated_at": "2026-04-29T17:28:32Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cyberagent/android-gpuimage",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "wasabeef/fresco-processors",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "wasabeef/picasso-transformations",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Glide Transformations",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "android"
+    },
+    {
+      "context_snippet": "Glide Transformations",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "android-library"
+    },
+    {
+      "context_snippet": "Glide Transformations",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "glide"
+    },
+    {
+      "context_snippet": "Glide Transformations",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "image-processing"
+    },
+    {
+      "context_snippet": "Glide Transformations",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "java"
+    },
+    {
+      "context_snippet": "Glide Transformations",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "kotlin"
+    }
+  ]
+}

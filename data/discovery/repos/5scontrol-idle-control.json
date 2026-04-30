@@ -1,0 +1,290 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dev.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-image.yml"
+    },
+    {
+      "component": "docker/login-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-image.yml"
+    },
+    {
+      "component": "docker/metadata-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-image.yml"
+    },
+    {
+      "component": "docker/build-push-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-image.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/server-docker-image.yml"
+    },
+    {
+      "component": "docker/login-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/server-docker-image.yml"
+    },
+    {
+      "component": "docker/metadata-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/server-docker-image.yml"
+    },
+    {
+      "component": "docker/build-push-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/server-docker-image.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "5sControl/idle-control",
+      "target": "5scontrol/5s-user-documentation",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "5sControl/idle-control",
+      "target": "5scontrol/manufacturing-automatization-enterprise",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "5sControl/idle-control",
+      "target": "5scontrol/machine-control-js",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "5sControl/idle-control",
+      "target": "5scontrol/inference-server-js",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dev.yml",
+      "source_repo": "5sControl/idle-control",
+      "target": "actions/checkout@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/dev.yml",
+      "source_repo": "5sControl/idle-control",
+      "target": "dev",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-image.yml",
+      "source_repo": "5sControl/idle-control",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-image.yml",
+      "source_repo": "5sControl/idle-control",
+      "target": "docker/login-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-image.yml",
+      "source_repo": "5sControl/idle-control",
+      "target": "docker/metadata-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-image.yml",
+      "source_repo": "5sControl/idle-control",
+      "target": "docker/build-push-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docker-image.yml",
+      "source_repo": "5sControl/idle-control",
+      "target": "Push Algo Docker image",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/server-docker-image.yml",
+      "source_repo": "5sControl/idle-control",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/server-docker-image.yml",
+      "source_repo": "5sControl/idle-control",
+      "target": "docker/login-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/server-docker-image.yml",
+      "source_repo": "5sControl/idle-control",
+      "target": "docker/metadata-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/server-docker-image.yml",
+      "source_repo": "5sControl/idle-control",
+      "target": "docker/build-push-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/server-docker-image.yml",
+      "source_repo": "5sControl/idle-control",
+      "target": "Push Server Docker image",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "5sControl/idle-control",
+      "target": "algorithm",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "5sControl/idle-control",
+      "target": "machine-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "5sControl/idle-control",
+      "target": "phone-detection",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T03:03:42.069764+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5378
+    },
+    {
+      "path": "Dockerfile",
+      "size": 357
+    },
+    {
+      "path": "requirements.txt",
+      "size": 151
+    },
+    {
+      "path": ".github/workflows/dev.yml",
+      "size": 397
+    },
+    {
+      "path": ".github/workflows/docker-image.yml",
+      "size": 797
+    },
+    {
+      "path": ".github/workflows/server-docker-image.yml",
+      "size": 885
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Automatically detect when a worker is on a phone using power of computer vision",
+    "fork": false,
+    "full_name": "5sControl/idle-control",
+    "html_url": "https://github.com/5sControl/idle-control",
+    "language": "Python",
+    "pushed_at": "2024-04-04T08:15:50Z",
+    "stargazers_count": 1,
+    "topics": [
+      "algorithm",
+      "machine-learning",
+      "phone-detection",
+      "python"
+    ],
+    "updated_at": "2024-05-05T11:05:36Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "5scontrol/5s-user-documentation",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "5scontrol/inference-server-js",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "5scontrol/machine-control-js",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "5scontrol/manufacturing-automatization-enterprise",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "dev",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/dev.yml",
+      "term": "dev"
+    },
+    {
+      "context_snippet": "Push Algo Docker image",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docker-image.yml",
+      "term": "Push Algo Docker image"
+    },
+    {
+      "context_snippet": "Push Server Docker image",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/server-docker-image.yml",
+      "term": "Push Server Docker image"
+    },
+    {
+      "context_snippet": "Idle control is one of the Official [5sControl](https://5scontrol.com/) algorithm. Plug it in our video monitoring system with AI analysis and ERP Integration (Open Source) to uncover employee inefficiencies and minimize downtime.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "algorithm"
+    },
+    {
+      "context_snippet": "Idle control is one of the Official [5sControl](https://5scontrol.com/) algorithm. Plug it in our video monitoring system with AI analysis and ERP Integration (Open Source) to uncover employee inefficiencies and minimize downtime.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "machine-learning"
+    },
+    {
+      "context_snippet": "Idle control is one of the Official [5sControl](https://5scontrol.com/) algorithm. Plug it in our video monitoring system with AI analysis and ERP Integration (Open Source) to uncover employee inefficiencies and minimize downtime.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "phone-detection"
+    }
+  ]
+}

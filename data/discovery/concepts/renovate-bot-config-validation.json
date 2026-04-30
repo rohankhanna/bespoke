@@ -55,6 +55,24 @@
       "source_repo": "googleapis/google-auth-library-java",
       "status": "candidate-context",
       "text": "Renovate Bot Config Validation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "googleapis/java-bigquery",
+      "status": "candidate-context",
+      "text": "Renovate Bot Config Validation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "googleapis/java-bigquerystorage",
+      "status": "candidate-context",
+      "text": "Renovate Bot Config Validation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "googleapis/java-bigtable",
+      "status": "candidate-context",
+      "text": "Renovate Bot Config Validation"
     }
   ],
   "candidate_glosses": [
@@ -79,6 +97,24 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "googleapis/google-auth-library-java",
+      "status": "candidate",
+      "text": "Renovate Bot Config Validation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "googleapis/java-bigquery",
+      "status": "candidate",
+      "text": "Renovate Bot Config Validation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "googleapis/java-bigquerystorage",
+      "status": "candidate",
+      "text": "Renovate Bot Config Validation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "googleapis/java-bigtable",
       "status": "candidate",
       "text": "Renovate Bot Config Validation"
     }
@@ -148,11 +184,29 @@
       "observed_at": "2026-04-24T18:19:44.660705+00:00",
       "source_file": ".github/workflows/renovate_config_check.yaml",
       "source_repo": "googleapis/google-auth-library-java"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/renovate_config_check.yaml",
+      "source_repo": "googleapis/java-bigquery"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/renovate_config_check.yaml",
+      "source_repo": "googleapis/java-bigquerystorage"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/renovate_config_check.yaml",
+      "source_repo": "googleapis/java-bigtable"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T18:19:44.660705+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "text and image to video generation: CogVideoX (2024) and CogVideo (ICLR 2023)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[\u4e2d\u6587\u9605\u8bfb](./README_zh.md)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[\u4e2d\u6587\u9605\u8bfb](./README_zh.md)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "image-to-video",
+      "sense_id": "image-to-video#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "image-to-video",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "image-to-video",
+  "observation_id": "a6be99851be01c6c",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T00:37:16.824464+00:00",
+  "observed_text": "image-to-video",
+  "source_context_snippet": "[\u4e2d\u6587\u9605\u8bfb](./README_zh.md)",
+  "source_file": null,
+  "source_repo": "zai-org/CogVideo",
+  "source_repo_description": "text and image to video generation: CogVideoX (2024) and CogVideo (ICLR 2023)"
+}

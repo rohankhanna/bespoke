@@ -1,0 +1,114 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mks0601/3DMPPE_ROOTNET_RELEASE",
+      "target": "3d-human-pose",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mks0601/3DMPPE_ROOTNET_RELEASE",
+      "target": "computer-vision",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mks0601/3DMPPE_ROOTNET_RELEASE",
+      "target": "deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mks0601/3DMPPE_ROOTNET_RELEASE",
+      "target": "human-pose-estimation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mks0601/3DMPPE_ROOTNET_RELEASE",
+      "target": "iccv2019",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mks0601/3DMPPE_ROOTNET_RELEASE",
+      "target": "pytorch",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T03:49:41.416739+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9250
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Official PyTorch implementation of \"Camera Distance-aware Top-down Approach for 3D Multi-person Pose Estimation from a Single RGB Image\", ICCV 2019",
+    "fork": false,
+    "full_name": "mks0601/3DMPPE_ROOTNET_RELEASE",
+    "html_url": "https://github.com/mks0601/3DMPPE_ROOTNET_RELEASE",
+    "language": "Python",
+    "pushed_at": "2024-07-10T03:27:28Z",
+    "stargazers_count": 492,
+    "topics": [
+      "3d-human-pose",
+      "computer-vision",
+      "deep-learning",
+      "human-pose-estimation",
+      "iccv2019",
+      "pytorch"
+    ],
+    "updated_at": "2026-04-03T07:19:56Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "3d-human-pose"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "computer-vision"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-learning"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "human-pose-estimation"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "iccv2019"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytorch"
+    }
+  ]
+}

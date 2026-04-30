@@ -1,0 +1,91 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "thunlp/OpenDelta",
+      "target": "deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "thunlp/OpenDelta",
+      "target": "nlp-library",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "thunlp/OpenDelta",
+      "target": "parameter-efficient-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "thunlp/OpenDelta",
+      "target": "pretrained-language-model",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T04:58:50.996548+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7829
+    },
+    {
+      "path": "requirements.txt",
+      "size": 201
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A plug-and-play library for parameter-efficient-tuning (Delta Tuning)",
+    "fork": false,
+    "full_name": "thunlp/OpenDelta",
+    "html_url": "https://github.com/thunlp/OpenDelta",
+    "language": "Python",
+    "pushed_at": "2024-09-19T08:33:56Z",
+    "stargazers_count": 1042,
+    "topics": [
+      "deep-learning",
+      "nlp",
+      "nlp-library",
+      "parameter-efficient-learning",
+      "pretrained-language-model"
+    ],
+    "updated_at": "2026-04-25T23:49:56Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-learning"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nlp-library"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "parameter-efficient-learning"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pretrained-language-model"
+    }
+  ]
+}

@@ -103,6 +103,90 @@
       "source_repo": "Lausbert/Exermote",
       "status": "candidate-context",
       "text": "---"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "NVIDIA/pix2pixHD",
+      "status": "candidate-context",
+      "text": "Synthesizing and manipulating 2048x1024 images with conditional GANs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NVIDIA/pix2pixHD",
+      "status": "candidate-context",
+      "text": "<img src='imgs/teaser_720.gif' align=\"right\" width=360>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "GaParmar/clean-fid",
+      "status": "candidate-context",
+      "text": "PyTorch - FID calculation with proper image resizing and quantization steps [CVPR 2022]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "GaParmar/clean-fid",
+      "status": "candidate-context",
+      "text": "<br>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "GaParmar/img2img-turbo",
+      "status": "candidate-context",
+      "text": "One-step image-to-image with Stable Diffusion turbo: sketch2image, day2night, and more"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "GaParmar/img2img-turbo",
+      "status": "candidate-context",
+      "text": "[**Paper**](https://arxiv.org/abs/2403.12036) | [**Sketch2Image Demo**](https://huggingface.co/spaces/gparmar/img2img-turbo-sketch)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "taesungp/contrastive-unpaired-translation",
+      "status": "candidate-context",
+      "text": "Contrastive unpaired image-to-image translation, faster and lighter training than cyclegan (ECCV 2020, in PyTorch)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "taesungp/contrastive-unpaired-translation",
+      "status": "candidate-context",
+      "text": "<br>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Ha0Tang/GestureGAN",
+      "status": "candidate-context",
+      "text": "[ACM MM 2018 Oral] GestureGAN for Hand Gesture-to-Gesture Translation in the Wild"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Ha0Tang/GestureGAN",
+      "status": "candidate-context",
+      "text": "[![License CC BY-NC-SA 4.0](https://img.shields.io/badge/license-CC4.0-blue.svg)](https://github.com/Ha0Tang/GestureGAN/blob/master/LICENSE.md)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Ha0Tang/SelectionGAN",
+      "status": "candidate-context",
+      "text": "[CVPR 2019 Oral] Multi-Channel Attention Selection GAN with Cascaded Semantic Guidance for Cross-View Image Translation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Ha0Tang/SelectionGAN",
+      "status": "candidate-context",
+      "text": "![Visitors](https://visitor-badge.glitch.me/badge?page_id=Ha0Tang/SelectionGAN)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ai-forever/MoVQGAN",
+      "status": "candidate-context",
+      "text": "MoVQGAN - model for the image encoding and reconstruction"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ai-forever/MoVQGAN",
+      "status": "candidate-context",
+      "text": "[![Framework: PyTorch](https://img.shields.io/badge/Framework-PyTorch-orange.svg)](https://pytorch.org/) [![Huggingface space](https://img.shields.io/badge/\ud83e\udd17-Huggingface-yello.svg)](https://huggingface.co/ai-forever/MoVQGAN)"
     }
   ],
   "candidate_glosses": [
@@ -153,6 +237,48 @@
       "source_repo": "Lausbert/Exermote",
       "status": "candidate",
       "text": "---"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NVIDIA/pix2pixHD",
+      "status": "candidate",
+      "text": "<img src='imgs/teaser_720.gif' align=\"right\" width=360>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "GaParmar/clean-fid",
+      "status": "candidate",
+      "text": "<br>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "GaParmar/img2img-turbo",
+      "status": "candidate",
+      "text": "[**Paper**](https://arxiv.org/abs/2403.12036) | [**Sketch2Image Demo**](https://huggingface.co/spaces/gparmar/img2img-turbo-sketch)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "taesungp/contrastive-unpaired-translation",
+      "status": "candidate",
+      "text": "<br>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Ha0Tang/GestureGAN",
+      "status": "candidate",
+      "text": "[![License CC BY-NC-SA 4.0](https://img.shields.io/badge/license-CC4.0-blue.svg)](https://github.com/Ha0Tang/GestureGAN/blob/master/LICENSE.md)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Ha0Tang/SelectionGAN",
+      "status": "candidate",
+      "text": "![Visitors](https://visitor-badge.glitch.me/badge?page_id=Ha0Tang/SelectionGAN)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ai-forever/MoVQGAN",
+      "status": "candidate",
+      "text": "[![Framework: PyTorch](https://img.shields.io/badge/Framework-PyTorch-orange.svg)](https://pytorch.org/) [![Huggingface space](https://img.shields.io/badge/\ud83e\udd17-Huggingface-yello.svg)](https://huggingface.co/ai-forever/MoVQGAN)"
     }
   ],
   "candidate_related_terms": [],
@@ -232,11 +358,65 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "Lausbert/Exermote"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "advimman/lama"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "open-mmlab/mmagic"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "NVIDIA/pix2pixHD"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "GaParmar/clean-fid"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "GaParmar/img2img-turbo"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "taesungp/contrastive-unpaired-translation"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "Ha0Tang/GestureGAN"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "Ha0Tang/SelectionGAN"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "ai-forever/MoVQGAN"
     }
   ],
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

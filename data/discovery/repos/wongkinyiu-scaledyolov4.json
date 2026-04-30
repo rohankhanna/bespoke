@@ -1,0 +1,222 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "WongKinYiu/ScaledYOLOv4",
+      "target": "thomasbrandon/mish-cuda",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "WongKinYiu/ScaledYOLOv4",
+      "target": "junnyu/mish-cuda",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "WongKinYiu/ScaledYOLOv4",
+      "target": "wongkinyiu/pytorch_yolov4",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "WongKinYiu/ScaledYOLOv4",
+      "target": "deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "WongKinYiu/ScaledYOLOv4",
+      "target": "machine-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "WongKinYiu/ScaledYOLOv4",
+      "target": "object-detection",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "WongKinYiu/ScaledYOLOv4",
+      "target": "pytorch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "WongKinYiu/ScaledYOLOv4",
+      "target": "scaled-yolov4",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "WongKinYiu/ScaledYOLOv4",
+      "target": "yolo",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "WongKinYiu/ScaledYOLOv4",
+      "target": "yolov3",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "WongKinYiu/ScaledYOLOv4",
+      "target": "yolov4",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "WongKinYiu/ScaledYOLOv4",
+      "target": "yolov4-csp",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "WongKinYiu/ScaledYOLOv4",
+      "target": "yolov4-large",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "WongKinYiu/ScaledYOLOv4",
+      "target": "yolov4-tiny",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T03:47:51.363431+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9603
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "yolov4-large",
+    "description": "Scaled-YOLOv4: Scaling Cross Stage Partial Network",
+    "fork": false,
+    "full_name": "WongKinYiu/ScaledYOLOv4",
+    "html_url": "https://github.com/WongKinYiu/ScaledYOLOv4",
+    "language": "Python",
+    "pushed_at": "2024-11-03T00:36:25Z",
+    "stargazers_count": 2025,
+    "topics": [
+      "deep-learning",
+      "machine-learning",
+      "ml",
+      "object-detection",
+      "pytorch",
+      "scaled-yolov4",
+      "yolo",
+      "yolov3",
+      "yolov4",
+      "yolov4-csp",
+      "yolov4-large",
+      "yolov4-tiny"
+    ],
+    "updated_at": "2026-04-22T15:47:58Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "junnyu/mish-cuda",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "thomasbrandon/mish-cuda",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "wongkinyiu/pytorch_yolov4",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "This is the implementation of \"[Scaled-YOLOv4: Scaling Cross Stage Partial Network](https://arxiv.org/abs/2011.08036)\" using PyTorch framwork.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-learning"
+    },
+    {
+      "context_snippet": "This is the implementation of \"[Scaled-YOLOv4: Scaling Cross Stage Partial Network](https://arxiv.org/abs/2011.08036)\" using PyTorch framwork.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "machine-learning"
+    },
+    {
+      "context_snippet": "This is the implementation of \"[Scaled-YOLOv4: Scaling Cross Stage Partial Network](https://arxiv.org/abs/2011.08036)\" using PyTorch framwork.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "object-detection"
+    },
+    {
+      "context_snippet": "This is the implementation of \"[Scaled-YOLOv4: Scaling Cross Stage Partial Network](https://arxiv.org/abs/2011.08036)\" using PyTorch framwork.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytorch"
+    },
+    {
+      "context_snippet": "This is the implementation of \"[Scaled-YOLOv4: Scaling Cross Stage Partial Network](https://arxiv.org/abs/2011.08036)\" using PyTorch framwork.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "scaled-yolov4"
+    },
+    {
+      "context_snippet": "This is the implementation of \"[Scaled-YOLOv4: Scaling Cross Stage Partial Network](https://arxiv.org/abs/2011.08036)\" using PyTorch framwork.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "yolo"
+    },
+    {
+      "context_snippet": "This is the implementation of \"[Scaled-YOLOv4: Scaling Cross Stage Partial Network](https://arxiv.org/abs/2011.08036)\" using PyTorch framwork.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "yolov3"
+    },
+    {
+      "context_snippet": "This is the implementation of \"[Scaled-YOLOv4: Scaling Cross Stage Partial Network](https://arxiv.org/abs/2011.08036)\" using PyTorch framwork.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "yolov4"
+    },
+    {
+      "context_snippet": "This is the implementation of \"[Scaled-YOLOv4: Scaling Cross Stage Partial Network](https://arxiv.org/abs/2011.08036)\" using PyTorch framwork.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "yolov4-csp"
+    },
+    {
+      "context_snippet": "This is the implementation of \"[Scaled-YOLOv4: Scaling Cross Stage Partial Network](https://arxiv.org/abs/2011.08036)\" using PyTorch framwork.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "yolov4-large"
+    },
+    {
+      "context_snippet": "This is the implementation of \"[Scaled-YOLOv4: Scaling Cross Stage Partial Network](https://arxiv.org/abs/2011.08036)\" using PyTorch framwork.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "yolov4-tiny"
+    }
+  ]
+}

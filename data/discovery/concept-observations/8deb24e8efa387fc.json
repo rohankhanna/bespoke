@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Task management for AI agents"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Poetry Tests"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Poetry Tests"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11570,
+      "status": "candidate",
+      "text": "oral"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10653,
+      "status": "candidate",
+      "text": "belles-lettres"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10653,
+      "status": "candidate",
+      "text": "eisteddfod"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10653,
+      "status": "candidate",
+      "text": "envoi"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10653,
+      "status": "candidate",
+      "text": "envoy"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Poetry Tests",
+      "sense_id": "poetry-tests#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "poetry-tests",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "poetry-tests",
+  "observation_id": "8deb24e8efa387fc",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-30T00:37:16.824464+00:00",
+  "observed_text": "Poetry Tests",
+  "source_context_snippet": "Poetry Tests",
+  "source_file": ".github/workflows/poetry-tests.yml",
+  "source_repo": "agentsea/taskara",
+  "source_repo_description": "Task management for AI agents"
+}

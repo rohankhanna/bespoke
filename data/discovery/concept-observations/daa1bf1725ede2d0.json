@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Add context awareness to your apps and frameworks by safely evaluating user-defined conditional expressions. Useful for evaluating expressions in config files, prompts, key bindings, completions, templates, and many other user cases."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "> Add context awareness to your apps and frameworks by safely evaluating user-defined conditional expressions. Useful for evaluating expressions in config files, prompts, key bindings, completions, templates, and many other user cases."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "> Add context awareness to your apps and frameworks by safely evaluating user-defined conditional expressions. Useful for evaluating expressions in config files, prompts, key bindings, completions, templates, and many other user cases."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39943122,
+      "status": "candidate",
+      "text": "contingent"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39941646,
+      "status": "candidate",
+      "text": "qualified"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39940313,
+      "status": "candidate",
+      "text": "provisionary"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39939545,
+      "status": "candidate",
+      "text": "dependant"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39938140,
+      "status": "candidate",
+      "text": "dependent"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "conditional",
+      "sense_id": "conditional#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 42051,
+      "status": "candidate",
+      "text": "contingent"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 41035,
+      "status": "candidate",
+      "text": "tentative"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 27055,
+      "status": "candidate",
+      "text": "dependent"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 19024,
+      "status": "candidate",
+      "text": "provisory"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 9029,
+      "status": "candidate",
+      "text": "dependant"
+    }
+  ],
+  "concept_id": "conditional",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "conditional",
+  "observation_id": "daa1bf1725ede2d0",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T00:37:16.824464+00:00",
+  "observed_text": "conditional",
+  "source_context_snippet": "> Add context awareness to your apps and frameworks by safely evaluating user-defined conditional expressions. Useful for evaluating expressions in config files, prompts, key bindings, completions, templates, and many other user cases.",
+  "source_file": null,
+  "source_repo": "jonschlinkert/whence",
+  "source_repo_description": "Add context awareness to your apps and frameworks by safely evaluating user-defined conditional expressions. Useful for evaluating expressions in config files, prompts, key bindings, completions, templates, and many other user cases."
+}

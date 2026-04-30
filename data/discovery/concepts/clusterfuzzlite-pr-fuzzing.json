@@ -79,6 +79,18 @@
       "source_repo": "systemd/systemd-stable",
       "status": "candidate-context",
       "text": "ClusterFuzzLite PR fuzzing"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lemire/fast_double_parser",
+      "status": "candidate-context",
+      "text": "Fast function to parse strings into double (binary64) floating-point values, enforces the RFC 7159 (JSON standard) grammar: 4x faster than strtod"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lemire/fast_double_parser",
+      "status": "candidate-context",
+      "text": "ClusterFuzzLite PR fuzzing"
     }
   ],
   "candidate_glosses": [
@@ -115,6 +127,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "systemd/systemd-stable",
+      "status": "candidate",
+      "text": "ClusterFuzzLite PR fuzzing"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lemire/fast_double_parser",
       "status": "candidate",
       "text": "ClusterFuzzLite PR fuzzing"
     }
@@ -196,11 +214,17 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": ".github/workflows/cflite_pr.yml",
       "source_repo": "systemd/systemd-stable"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/cflite_pr.yml",
+      "source_repo": "lemire/fast_double_parser"
     }
   ],
   "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

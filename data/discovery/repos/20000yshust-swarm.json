@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T01:58:24.547400+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 827
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "[CVPR 2024] Not All Prompts Are Secure: A Switchable Backdoor Attack  Against Pre-trained Vision Transfomers",
+    "fork": false,
+    "full_name": "20000yshust/SWARM",
+    "html_url": "https://github.com/20000yshust/SWARM",
+    "language": "Jupyter Notebook",
+    "pushed_at": "2024-10-24T12:26:16Z",
+    "stargazers_count": 16,
+    "topics": [],
+    "updated_at": "2025-08-30T07:19:01Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

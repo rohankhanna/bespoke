@@ -1,0 +1,35 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T01:41:39.735883+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 14240
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 993
+    },
+    {
+      "path": "Dockerfile",
+      "size": 600
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Example Actix 2.x REST application implementing many features",
+    "fork": false,
+    "full_name": "ddimaria/rust-actix-example",
+    "html_url": "https://github.com/ddimaria/rust-actix-example",
+    "language": "Rust",
+    "pushed_at": "2023-12-31T08:16:38Z",
+    "stargazers_count": 305,
+    "topics": [],
+    "updated_at": "2026-04-22T17:27:54Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

@@ -1,0 +1,86 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "snap-stanford/ogb",
+      "target": "datasets",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "snap-stanford/ogb",
+      "target": "deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "snap-stanford/ogb",
+      "target": "graph-machine-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "snap-stanford/ogb",
+      "target": "graph-neural-networks",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T01:55:31.534231+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5348
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Benchmark datasets, data loaders, and evaluators for graph machine learning",
+    "fork": false,
+    "full_name": "snap-stanford/ogb",
+    "html_url": "https://github.com/snap-stanford/ogb",
+    "language": "Python",
+    "pushed_at": "2025-05-06T07:32:11Z",
+    "stargazers_count": 2085,
+    "topics": [
+      "datasets",
+      "deep-learning",
+      "graph-machine-learning",
+      "graph-neural-networks"
+    ],
+    "updated_at": "2026-04-25T06:55:18Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "<p align='center'>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "datasets"
+    },
+    {
+      "context_snippet": "<p align='center'>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-learning"
+    },
+    {
+      "context_snippet": "<p align='center'>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "graph-machine-learning"
+    },
+    {
+      "context_snippet": "<p align='center'>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "graph-neural-networks"
+    }
+  ]
+}

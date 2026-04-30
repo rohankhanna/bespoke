@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "RPM-Robotics-Lab/sRGB-TIR",
+      "target": "rpmsnu/srgb-tir",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T05:14:48.368070+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5466
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Repository for synthetic RGB to Thermal Infrared translation module from \"Edge-guided multidomain RGB to TIR translation\", ICRA 2023 submission",
+    "fork": false,
+    "full_name": "RPM-Robotics-Lab/sRGB-TIR",
+    "html_url": "https://github.com/RPM-Robotics-Lab/sRGB-TIR",
+    "language": "Python",
+    "pushed_at": "2024-04-15T02:29:15Z",
+    "stargazers_count": 141,
+    "topics": [],
+    "updated_at": "2026-04-24T05:51:57Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "rpmsnu/srgb-tir",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T05:15:17.047391+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2666
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": null,
+    "fork": false,
+    "full_name": "whai362/PVTv2-Seg",
+    "html_url": "https://github.com/whai362/PVTv2-Seg",
+    "language": "Python",
+    "pushed_at": "2022-01-22T21:05:37Z",
+    "stargazers_count": 64,
+    "topics": [],
+    "updated_at": "2026-03-17T03:38:46Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

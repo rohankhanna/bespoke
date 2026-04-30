@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A full-fledged TUI plugin manager for tmux \u2014 the modern alternative to TPM. Browse, install, remove, update plugins and themes from a beautiful terminal interface."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<p align=\"center\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "tmux-themes",
+      "sense_id": "tmux-themes#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "tmux-themes",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "tmux-themes",
+  "observation_id": "e167e87ba589f7d9",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T00:37:16.824464+00:00",
+  "observed_text": "tmux-themes",
+  "source_context_snippet": "<p align=\"center\">",
+  "source_file": null,
+  "source_repo": "psmux/Tmux-Plugin-Panel",
+  "source_repo_description": "A full-fledged TUI plugin manager for tmux \u2014 the modern alternative to TPM. Browse, install, remove, update plugins and themes from a beautiful terminal interface."
+}

@@ -1,0 +1,88 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint-check.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint-check.yml"
+    },
+    {
+      "component": "bufbuild/buf-setup-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint-check.yml"
+    },
+    {
+      "component": "bufbuild/buf-lint-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint-check.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint-check.yml",
+      "source_repo": "kserve/open-inference-protocol",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint-check.yml",
+      "source_repo": "kserve/open-inference-protocol",
+      "target": "bufbuild/buf-setup-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint-check.yml",
+      "source_repo": "kserve/open-inference-protocol",
+      "target": "bufbuild/buf-lint-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint-check.yml",
+      "source_repo": "kserve/open-inference-protocol",
+      "target": "OpenApi lint",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T02:47:00.170830+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3253
+    },
+    {
+      "path": ".github/workflows/lint-check.yml",
+      "size": 875
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Repository for open inference protocol specification",
+    "fork": false,
+    "full_name": "kserve/open-inference-protocol",
+    "html_url": "https://github.com/kserve/open-inference-protocol",
+    "language": null,
+    "pushed_at": "2025-05-12T02:44:20Z",
+    "stargazers_count": 71,
+    "topics": [],
+    "updated_at": "2026-04-29T08:12:02Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "\"OpenApi lint\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint-check.yml",
+      "term": "OpenApi lint"
+    }
+  ]
+}

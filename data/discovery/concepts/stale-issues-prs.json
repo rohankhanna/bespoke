@@ -79,6 +79,18 @@
       "source_repo": "folke/trouble.nvim",
       "status": "candidate-context",
       "text": "Stale Issues & PRs"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "folke/neodev.nvim",
+      "status": "candidate-context",
+      "text": "\ud83d\udcbb  Neovim setup for init.lua and plugin development with full signature help, docs and completion for the nvim lua API."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "folke/neodev.nvim",
+      "status": "candidate-context",
+      "text": "Stale Issues & PRs"
     }
   ],
   "candidate_glosses": [
@@ -115,6 +127,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "folke/trouble.nvim",
+      "status": "candidate",
+      "text": "Stale Issues & PRs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "folke/neodev.nvim",
       "status": "candidate",
       "text": "Stale Issues & PRs"
     }
@@ -202,11 +220,17 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": ".github/workflows/stale.yml",
       "source_repo": "folke/trouble.nvim"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "folke/neodev.nvim"
     }
   ],
   "first_seen_at": "2026-04-18T11:56:18.570627+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

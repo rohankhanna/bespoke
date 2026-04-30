@@ -1,11 +1,14 @@
 {
   "aliases": [
-    "typing"
+    "typing",
+    "Typing"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
     "tool-component",
-    "capability"
+    "capability",
+    "workflow-process",
+    "data-document-artifact"
   ],
   "candidate_definitions": [
     {
@@ -67,6 +70,18 @@
       "source_repo": "ruby/gem_rbs_collection",
       "status": "candidate-context",
       "text": "[RBS](https://github.com/ruby/rbs) is a standard type signature syntax for Ruby programs."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "c4ffein/realworld-django-ninja",
+      "status": "candidate-context",
+      "text": "RealWord is a medium clone. This implementation uses Django Ninja to create a backend service for the blog."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "c4ffein/realworld-django-ninja",
+      "status": "candidate-context",
+      "text": "Typing"
     }
   ],
   "candidate_glosses": [
@@ -99,6 +114,12 @@
       "source_repo": "ruby/gem_rbs_collection",
       "status": "candidate",
       "text": "[RBS](https://github.com/ruby/rbs) is a standard type signature syntax for Ruby programs."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "c4ffein/realworld-django-ninja",
+      "status": "candidate",
+      "text": "Typing"
     }
   ],
   "candidate_related_terms": [
@@ -180,11 +201,17 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": null,
       "source_repo": "ruby/gem_rbs_collection"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/typing.yml",
+      "source_repo": "c4ffein/realworld-django-ninja"
     }
   ],
   "first_seen_at": "2026-04-19T17:42:30.117329+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

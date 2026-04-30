@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "\ud83d\udc1c single header process launching solution for C and C++ "
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![Actions Status](https://github.com/sheredom/subprocess.h/workflows/CMake/badge.svg)](https://github.com/sheredom/subprocess.h/actions)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![Actions Status](https://github.com/sheredom/subprocess.h/workflows/CMake/badge.svg)](https://github.com/sheredom/subprocess.h/actions)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40042964,
+      "status": "candidate",
+      "text": "procedure"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40040904,
+      "status": "candidate",
+      "text": "operation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40035188,
+      "status": "candidate",
+      "text": "work on"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40034556,
+      "status": "candidate",
+      "text": "work"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40032348,
+      "status": "candidate",
+      "text": "summons"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "process",
+      "sense_id": "process#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 42067,
+      "status": "candidate",
+      "text": "work"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 37054,
+      "status": "candidate",
+      "text": "procedure"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 22074,
+      "status": "candidate",
+      "text": "act"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 18055,
+      "status": "candidate",
+      "text": "operation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 15056,
+      "status": "candidate",
+      "text": "serve"
+    }
+  ],
+  "concept_id": "process",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "process",
+  "observation_id": "aa23fb4e60e9b3b7",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T00:37:16.824464+00:00",
+  "observed_text": "process",
+  "source_context_snippet": "[![Actions Status](https://github.com/sheredom/subprocess.h/workflows/CMake/badge.svg)](https://github.com/sheredom/subprocess.h/actions)",
+  "source_file": null,
+  "source_repo": "sheredom/subprocess.h",
+  "source_repo_description": "\ud83d\udc1c single header process launching solution for C and C++ "
+}

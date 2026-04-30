@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Spartan on Arkworks"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Build and Test Spartan"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Build and Test Spartan"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19331,
+      "status": "candidate",
+      "text": "try"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19242,
+      "status": "candidate",
+      "text": "chaste"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19242,
+      "status": "candidate",
+      "text": "legitimate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19242,
+      "status": "candidate",
+      "text": "technical"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19149,
+      "status": "candidate",
+      "text": "rugged"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Build and Test Spartan",
+      "sense_id": "build-and-test-spartan#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "build-and-test-spartan",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "build-and-test-spartan",
+  "observation_id": "99ea66dd0c886d32",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-30T00:37:16.824464+00:00",
+  "observed_text": "Build and Test Spartan",
+  "source_context_snippet": "Build and Test Spartan",
+  "source_file": ".github/workflows/rust.yml",
+  "source_repo": "arkworks-rs/spartan",
+  "source_repo_description": "Spartan on Arkworks"
+}

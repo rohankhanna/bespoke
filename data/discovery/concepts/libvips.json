@@ -91,6 +91,18 @@
       "source_repo": "cshum/vipsgen",
       "status": "candidate-context",
       "text": "[![Go Reference](https://pkg.go.dev/badge/github.com/cshum/vipsgen/vips.svg)](https://pkg.go.dev/github.com/cshum/vipsgen/vips)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "libvips/ruby-vips",
+      "status": "candidate-context",
+      "text": "Ruby extension for the libvips image processing library."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "libvips/ruby-vips",
+      "status": "candidate-context",
+      "text": "[![Gem Version](https://badge.fury.io/rb/ruby-vips.svg)](https://badge.fury.io/rb/ruby-vips)"
     }
   ],
   "candidate_glosses": [
@@ -135,6 +147,12 @@
       "source_repo": "cshum/vipsgen",
       "status": "candidate",
       "text": "[![Go Reference](https://pkg.go.dev/badge/github.com/cshum/vipsgen/vips.svg)](https://pkg.go.dev/github.com/cshum/vipsgen/vips)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "libvips/ruby-vips",
+      "status": "candidate",
+      "text": "[![Gem Version](https://badge.fury.io/rb/ruby-vips.svg)](https://badge.fury.io/rb/ruby-vips)"
     }
   ],
   "candidate_related_terms": [],
@@ -184,11 +202,17 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": null,
       "source_repo": "cshum/vipsgen"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "libvips/ruby-vips"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

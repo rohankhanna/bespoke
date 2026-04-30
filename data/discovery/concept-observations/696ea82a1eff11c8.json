@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Code and Data artifact for NeurIPS 2023 paper - \"Monitor-Guided Decoding of Code LMs with Static Analysis of Repository Context\". `multispy` is a lsp client library in Python intended to be used to build applications around language servers."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Alternative title: Guiding Language Models of Code with Global Context using Monitors"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Alternative title: Guiding Language Models of Code with Global Context using Monitors"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "artificial-intelligence",
+      "sense_id": "artificial-intelligence#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "artificial-intelligence",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "artificial-intelligence",
+  "observation_id": "696ea82a1eff11c8",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T00:37:16.824464+00:00",
+  "observed_text": "artificial-intelligence",
+  "source_context_snippet": "Alternative title: Guiding Language Models of Code with Global Context using Monitors",
+  "source_file": null,
+  "source_repo": "microsoft/monitors4codegen",
+  "source_repo_description": "Code and Data artifact for NeurIPS 2023 paper - \"Monitor-Guided Decoding of Code LMs with Static Analysis of Repository Context\". `multispy` is a lsp client library in Python intended to be used to build applications around language servers."
+}

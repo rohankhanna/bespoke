@@ -1,0 +1,107 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "brj0/nndescent",
+      "target": "approximate-nearest-neighbor-search",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "brj0/nndescent",
+      "target": "knn-graphs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "brj0/nndescent",
+      "target": "nearest-neighbor-search",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "brj0/nndescent",
+      "target": "nearest-neighbors",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "brj0/nndescent",
+      "target": "nearest-neighbours-classifier",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T02:51:20.558987+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7075
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 148
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "C++/Python implementation of Nearest Neighbor Descent for efficient approximate nearest neighbor search",
+    "fork": false,
+    "full_name": "brj0/nndescent",
+    "html_url": "https://github.com/brj0/nndescent",
+    "language": "C++",
+    "pushed_at": "2024-07-29T07:45:01Z",
+    "stargazers_count": 26,
+    "topics": [
+      "approximate-nearest-neighbor-search",
+      "cpp",
+      "knn",
+      "knn-graphs",
+      "nearest-neighbor-search",
+      "nearest-neighbors",
+      "nearest-neighbours-classifier",
+      "python"
+    ],
+    "updated_at": "2026-03-23T10:50:30Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Nearest Neighbor Descent (nndescent) is a C++ implementation of the nearest neighbor descent algorithm, designed for efficient and accurate approximate nearest neighbor search. With seamless integration into Python, it offers a powerful solution for constructing k-nearest neighb\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "approximate-nearest-neighbor-search"
+    },
+    {
+      "context_snippet": "Nearest Neighbor Descent (nndescent) is a C++ implementation of the nearest neighbor descent algorithm, designed for efficient and accurate approximate nearest neighbor search. With seamless integration into Python, it offers a powerful solution for constructing k-nearest neighb\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "knn-graphs"
+    },
+    {
+      "context_snippet": "Nearest Neighbor Descent (nndescent) is a C++ implementation of the nearest neighbor descent algorithm, designed for efficient and accurate approximate nearest neighbor search. With seamless integration into Python, it offers a powerful solution for constructing k-nearest neighb\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nearest-neighbor-search"
+    },
+    {
+      "context_snippet": "Nearest Neighbor Descent (nndescent) is a C++ implementation of the nearest neighbor descent algorithm, designed for efficient and accurate approximate nearest neighbor search. With seamless integration into Python, it offers a powerful solution for constructing k-nearest neighb\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nearest-neighbors"
+    },
+    {
+      "context_snippet": "Nearest Neighbor Descent (nndescent) is a C++ implementation of the nearest neighbor descent algorithm, designed for efficient and accurate approximate nearest neighbor search. With seamless integration into Python, it offers a powerful solution for constructing k-nearest neighb\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nearest-neighbours-classifier"
+    }
+  ]
+}

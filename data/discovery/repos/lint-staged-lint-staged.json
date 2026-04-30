@@ -330,20 +330,6 @@
       "target_type": "repository"
     },
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "lint-staged/lint-staged",
-      "target": "tinylibs/tinyexec",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "lint-staged/lint-staged",
-      "target": "tomchentw/imagemin-lint-staged",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "package-json:dependencies",
       "source_file": "package.json",
       "source_repo": "lint-staged/lint-staged",
@@ -708,7 +694,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-29T21:57:44.821981+00:00",
+  "fetched_at": "2026-04-30T04:03:12.582834+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -749,7 +735,7 @@
     "html_url": "https://github.com/lint-staged/lint-staged",
     "language": "JavaScript",
     "pushed_at": "2026-04-29T17:32:23Z",
-    "stargazers_count": 14588,
+    "stargazers_count": 14590,
     "topics": [
       "developer-experience",
       "eslint",
@@ -759,22 +745,12 @@
       "stylelint",
       "workflow"
     ],
-    "updated_at": "2026-04-29T07:04:45Z"
+    "updated_at": "2026-04-30T03:37:26Z"
   },
   "repo_links": [
     {
       "edge_type": "explicit-github-link",
       "full_name": "okonet/lint-staged",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "tinylibs/tinyexec",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "tomchentw/imagemin-lint-staged",
       "source_file": "README.md"
     }
   ],

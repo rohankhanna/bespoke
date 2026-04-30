@@ -163,6 +163,78 @@
       "source_repo": "FedericoPonzi/Horust",
       "status": "candidate-context",
       "text": "[<img src=\"https://github.com/FedericoPonzi/Horust/raw/master/res/horust-logo.png\" width=\"300\" align=\"center\">](https://github.com/FedericoPonzi/Horust/raw/master/res/horust-logo.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hermit-os/kernel",
+      "status": "candidate-context",
+      "text": "A Rust-based, lightweight unikernel."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hermit-os/kernel",
+      "status": "candidate-context",
+      "text": "<img width=\"256\" align=\"right\" src=\"https://github.com/hermit-os/.github/blob/main/logo/hermit-logo.svg\" />"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kurrent-io/KurrentDB-Client-Rust",
+      "status": "candidate-context",
+      "text": "KurrentDB Rust Client"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kurrent-io/KurrentDB-Client-Rust",
+      "status": "candidate-context",
+      "text": "[![Crates.io][crates-badge]][crates-url]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "zed-industries/zed",
+      "status": "candidate-context",
+      "text": "Code at the speed of thought \u2013 Zed is a high-performance, multiplayer code editor from the creators of Atom and Tree-sitter."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "zed-industries/zed",
+      "status": "candidate-context",
+      "text": "[![Zed](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/zed-industries/zed/main/assets/badge/v0.json)](https://zed.dev)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "raphamorim/rio",
+      "status": "candidate-context",
+      "text": "A hardware-accelerated GPU terminal emulator focusing to run in desktops and browsers."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "raphamorim/rio",
+      "status": "candidate-context",
+      "text": "<!-- LOGO -->"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hermit-os/hermit-c",
+      "status": "candidate-context",
+      "text": "Hermit for C"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hermit-os/hermit-c",
+      "status": "candidate-context",
+      "text": "This repository provides information about using [the Hermit kernel] with C along with some test applications."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hermit-os/hermit-rs",
+      "status": "candidate-context",
+      "text": "Hermit for Rust."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hermit-os/hermit-rs",
+      "status": "candidate-context",
+      "text": "<img width=\"256\" align=\"right\" src=\"https://github.com/hermit-os/.github/blob/main/logo/hermit-logo.svg\" />"
     }
   ],
   "candidate_glosses": [
@@ -243,6 +315,42 @@
       "source_repo": "FedericoPonzi/Horust",
       "status": "candidate",
       "text": "[<img src=\"https://github.com/FedericoPonzi/Horust/raw/master/res/horust-logo.png\" width=\"300\" align=\"center\">](https://github.com/FedericoPonzi/Horust/raw/master/res/horust-logo.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hermit-os/kernel",
+      "status": "candidate",
+      "text": "<img width=\"256\" align=\"right\" src=\"https://github.com/hermit-os/.github/blob/main/logo/hermit-logo.svg\" />"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kurrent-io/KurrentDB-Client-Rust",
+      "status": "candidate",
+      "text": "[![Crates.io][crates-badge]][crates-url]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "zed-industries/zed",
+      "status": "candidate",
+      "text": "[![Zed](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/zed-industries/zed/main/assets/badge/v0.json)](https://zed.dev)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "raphamorim/rio",
+      "status": "candidate",
+      "text": "<!-- LOGO -->"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hermit-os/hermit-c",
+      "status": "candidate",
+      "text": "This repository provides information about using [the Hermit kernel] with C along with some test applications."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hermit-os/hermit-rs",
+      "status": "candidate",
+      "text": "<img width=\"256\" align=\"right\" src=\"https://github.com/hermit-os/.github/blob/main/logo/hermit-logo.svg\" />"
     }
   ],
   "candidate_related_terms": [],
@@ -328,11 +436,47 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": null,
       "source_repo": "FedericoPonzi/Horust"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "hermit-os/kernel"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "kurrent-io/KurrentDB-Client-Rust"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "zed-industries/zed"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "raphamorim/rio"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "hermit-os/hermit-c"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "hermit-os/hermit-rs"
     }
   ],
   "first_seen_at": "2026-04-19T01:08:57.644140+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

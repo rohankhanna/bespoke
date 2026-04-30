@@ -67,6 +67,18 @@
       "source_repo": "hungran/hyper-mcp-hackernews-tool",
       "status": "candidate-context",
       "text": "Build and Publish Docker Image"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "electerm/electerm-web-docker",
+      "status": "candidate-context",
+      "text": "docker image of electerm-web"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "electerm/electerm-web-docker",
+      "status": "candidate-context",
+      "text": "Build and Publish Docker Image"
     }
   ],
   "candidate_glosses": [
@@ -97,6 +109,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "hungran/hyper-mcp-hackernews-tool",
+      "status": "candidate",
+      "text": "Build and Publish Docker Image"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "electerm/electerm-web-docker",
       "status": "candidate",
       "text": "Build and Publish Docker Image"
     }
@@ -214,11 +232,23 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": ".github/workflows/release.yaml",
       "source_repo": "hungran/hyper-mcp-hackernews-tool"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/ubuntu.yml",
+      "source_repo": "electerm/electerm-web-docker"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/docker-publish.yml",
+      "source_repo": "f/prompts.chat"
     }
   ],
   "first_seen_at": "2026-04-18T12:06:06.216548+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

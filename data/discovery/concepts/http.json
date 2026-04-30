@@ -739,6 +739,138 @@
       "source_repo": "h2non/gentleman",
       "status": "candidate-context",
       "text": "Full-featured, plugin-driven, middleware-oriented toolkit to easily create rich, versatile and composable HTTP clients in [Go](http://golang.org)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "CrowCpp/Crow",
+      "status": "candidate-context",
+      "text": "A Fast and Easy to use microframework for the web."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "CrowCpp/Crow",
+      "status": "candidate-context",
+      "text": "<p align=\"center\"><img src=\"https://raw.githubusercontent.com/CrowCpp/Crow/master/docs/assets/crowlogo_dual_color.svg\" width=600></p>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dimfeld/httptreemux",
+      "status": "candidate-context",
+      "text": "High-speed, flexible tree-based HTTP router for Go."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dimfeld/httptreemux",
+      "status": "candidate-context",
+      "text": "httptreemux [![Build Status](https://travis-ci.org/dimfeld/httptreemux.png?branch=master)](https://travis-ci.org/dimfeld/httptreemux) [![GoDoc](https://godoc.org/github.com/dimfeld/httptreemux?status.svg)](https://godoc.org/github.com/dimfeld/httptreemux)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "the-benchmarker/graphql-benchmarks",
+      "status": "candidate-context",
+      "text": "GraphQL benchmarks using the-benchmarker framework."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "the-benchmarker/graphql-benchmarks",
+      "status": "candidate-context",
+      "text": "It's all about GraphQL server benchmarking across many languages."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "the-benchmarker/web-frameworks",
+      "status": "candidate-context",
+      "text": "Which is the fastest web framework?"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "the-benchmarker/web-frameworks",
+      "status": "candidate-context",
+      "text": "- `ruby`, all tools are made in `ruby`"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ueberauth/oauth2",
+      "status": "candidate-context",
+      "text": "An Elixir OAuth 2.0 Client Library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ueberauth/oauth2",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://github.com/ueberauth/oauth2/actions/workflows/ci.yml/badge.svg)](https://github.com/ueberauth/oauth2/actions/workflows/ci.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "benoitc/hackney",
+      "status": "candidate-context",
+      "text": "simple HTTP client in Erlang"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "benoitc/hackney",
+      "status": "candidate-context",
+      "text": "An HTTP client for Erlang. Simple, reliable, fast."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "yhirose/cpp-httplib",
+      "status": "candidate-context",
+      "text": "A C++ header-only HTTP/HTTPS server and client library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "yhirose/cpp-httplib",
+      "status": "candidate-context",
+      "text": "[![](https://github.com/yhirose/cpp-httplib/workflows/test/badge.svg)](https://github.com/yhirose/cpp-httplib/actions)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "h2non/baloo",
+      "status": "candidate-context",
+      "text": "Expressive end-to-end HTTP API testing made easy in Go"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "h2non/baloo",
+      "status": "candidate-context",
+      "text": "Expressive and versatile end-to-end HTTP API testing made easy in [Go](http://golang.org) (golang), built on top of [gentleman](https://github.com/h2non/gentleman) HTTP client toolkit."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ring-clojure/ring",
+      "status": "candidate-context",
+      "text": "Clojure HTTP server abstraction"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ring-clojure/ring",
+      "status": "candidate-context",
+      "text": "Ring is a Clojure web applications library inspired by Python's WSGI"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "boostorg/beast",
+      "status": "candidate-context",
+      "text": "HTTP and WebSocket built on Boost.Asio in C++11"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "boostorg/beast",
+      "status": "candidate-context",
+      "text": "<img width=\"880\" height = \"80\" alt = \"Boost.Beast Title\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ClickHouse/clickhouse-rs",
+      "status": "candidate-context",
+      "text": "Official pure Rust typed client for ClickHouse DB"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ClickHouse/clickhouse-rs",
+      "status": "candidate-context",
+      "text": "Official pure Rust typed client for ClickHouse DB."
     }
   ],
   "candidate_glosses": [
@@ -1107,6 +1239,72 @@
       "source_repo": "h2non/gentleman",
       "status": "candidate",
       "text": "Full-featured, plugin-driven, middleware-oriented toolkit to easily create rich, versatile and composable HTTP clients in [Go](http://golang.org)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "CrowCpp/Crow",
+      "status": "candidate",
+      "text": "<p align=\"center\"><img src=\"https://raw.githubusercontent.com/CrowCpp/Crow/master/docs/assets/crowlogo_dual_color.svg\" width=600></p>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dimfeld/httptreemux",
+      "status": "candidate",
+      "text": "httptreemux [![Build Status](https://travis-ci.org/dimfeld/httptreemux.png?branch=master)](https://travis-ci.org/dimfeld/httptreemux) [![GoDoc](https://godoc.org/github.com/dimfeld/httptreemux?status.svg)](https://godoc.org/github.com/dimfeld/httptreemux)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "the-benchmarker/graphql-benchmarks",
+      "status": "candidate",
+      "text": "It's all about GraphQL server benchmarking across many languages."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "the-benchmarker/web-frameworks",
+      "status": "candidate",
+      "text": "- `ruby`, all tools are made in `ruby`"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ueberauth/oauth2",
+      "status": "candidate",
+      "text": "[![Build Status](https://github.com/ueberauth/oauth2/actions/workflows/ci.yml/badge.svg)](https://github.com/ueberauth/oauth2/actions/workflows/ci.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "benoitc/hackney",
+      "status": "candidate",
+      "text": "An HTTP client for Erlang. Simple, reliable, fast."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "yhirose/cpp-httplib",
+      "status": "candidate",
+      "text": "[![](https://github.com/yhirose/cpp-httplib/workflows/test/badge.svg)](https://github.com/yhirose/cpp-httplib/actions)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "h2non/baloo",
+      "status": "candidate",
+      "text": "Expressive and versatile end-to-end HTTP API testing made easy in [Go](http://golang.org) (golang), built on top of [gentleman](https://github.com/h2non/gentleman) HTTP client toolkit."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ring-clojure/ring",
+      "status": "candidate",
+      "text": "Ring is a Clojure web applications library inspired by Python's WSGI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "boostorg/beast",
+      "status": "candidate",
+      "text": "<img width=\"880\" height = \"80\" alt = \"Boost.Beast Title\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ClickHouse/clickhouse-rs",
+      "status": "candidate",
+      "text": "Official pure Rust typed client for ClickHouse DB."
     }
   ],
   "candidate_related_terms": [
@@ -1596,11 +1794,101 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "h2non/gentleman"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "CrowCpp/Crow"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "apache/casbin-fasthttp-auth"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "dimfeld/httptreemux"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "the-benchmarker/graphql-benchmarks"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "the-benchmarker/web-frameworks"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "node-fetch/node-fetch"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "0x676e67/wreq-python"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "ueberauth/oauth2"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "benoitc/hackney"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "lnx-search/rewrk"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "yhirose/cpp-httplib"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "h2non/baloo"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "ring-clojure/ring"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "boostorg/beast"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "ClickHouse/clickhouse-rs"
     }
   ],
   "first_seen_at": "2026-04-19T02:42:33.990002+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

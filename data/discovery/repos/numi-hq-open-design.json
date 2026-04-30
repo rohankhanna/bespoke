@@ -1,0 +1,107 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "numi-hq/open-design",
+      "target": "blitz-js/superjson",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "numi-hq/open-design",
+      "target": "learn-anything/learn-anything.xyz",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "numi-hq/open-design",
+      "target": "gustavoguichard/string-ts",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "numi-hq/open-design",
+      "target": "obi1kenobi/cargo-semver-checks",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "numi-hq/open-design",
+      "target": "design",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "numi-hq/open-design",
+      "target": "open-source",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T04:02:18.524318+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2058
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Design Contributions for Open Source Software",
+    "fork": false,
+    "full_name": "numi-hq/open-design",
+    "html_url": "https://github.com/numi-hq/open-design",
+    "language": null,
+    "pushed_at": "2024-05-24T17:46:51Z",
+    "stargazers_count": 26,
+    "topics": [
+      "design",
+      "open-source"
+    ],
+    "updated_at": "2026-01-10T17:08:40Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "blitz-js/superjson",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "gustavoguichard/string-ts",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "learn-anything/learn-anything.xyz",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "obi1kenobi/cargo-semver-checks",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "![numi-open-design](https://github.com/numi-hq/open-design/assets/2617315/7dc9c3cb-bd6f-4b28-9ce7-9b152bef8749)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "design"
+    },
+    {
+      "context_snippet": "![numi-open-design](https://github.com/numi-hq/open-design/assets/2617315/7dc9c3cb-bd6f-4b28-9ce7-9b152bef8749)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "open-source"
+    }
+  ]
+}

@@ -1,0 +1,250 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    },
+    {
+      "component": "github/codeql-action/init@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    },
+    {
+      "component": "github/codeql-action/autobuild@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    },
+    {
+      "component": "github/codeql-action/analyze@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    },
+    {
+      "component": "actions/stale@v9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issues.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "jedisct1/minisign",
+      "target": "jaybrown/minisign-misc",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "jedisct1/minisign",
+      "target": "aead/minisign",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "jedisct1/minisign",
+      "target": "bitbeans/minisign-net",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "jedisct1/minisign",
+      "target": "chm-diederichs/minisign",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "jedisct1/minisign",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "jedisct1/minisign",
+      "target": "github/codeql-action/init@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "jedisct1/minisign",
+      "target": "github/codeql-action/autobuild@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "jedisct1/minisign",
+      "target": "github/codeql-action/analyze@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "jedisct1/minisign",
+      "target": "CodeQL scan",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issues.yml",
+      "source_repo": "jedisct1/minisign",
+      "target": "actions/stale@v9",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/issues.yml",
+      "source_repo": "jedisct1/minisign",
+      "target": "Close inactive issues",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jedisct1/minisign",
+      "target": "crypto",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jedisct1/minisign",
+      "target": "cryptography",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jedisct1/minisign",
+      "target": "ed25519",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jedisct1/minisign",
+      "target": "signatures",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jedisct1/minisign",
+      "target": "zig-package",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T05:04:41.827489+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6921
+    },
+    {
+      "path": "Dockerfile",
+      "size": 1339
+    },
+    {
+      "path": ".github/workflows/codeql-analysis.yml",
+      "size": 606
+    },
+    {
+      "path": ".github/workflows/issues.yml",
+      "size": 522
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A dead simple tool to sign files and verify digital signatures.",
+    "fork": false,
+    "full_name": "jedisct1/minisign",
+    "html_url": "https://github.com/jedisct1/minisign",
+    "language": "C",
+    "pushed_at": "2026-01-14T15:00:37Z",
+    "stargazers_count": 2721,
+    "topics": [
+      "crypto",
+      "cryptography",
+      "ed25519",
+      "gpg",
+      "pgp",
+      "signatures",
+      "zig-package"
+    ],
+    "updated_at": "2026-04-29T18:42:18Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "aead/minisign",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "bitbeans/minisign-net",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "chm-diederichs/minisign",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jaybrown/minisign-misc",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "\"CodeQL scan\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "term": "CodeQL scan"
+    },
+    {
+      "context_snippet": "Close inactive issues",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/issues.yml",
+      "term": "Close inactive issues"
+    },
+    {
+      "context_snippet": "![CodeQL scan](https://github.com/jedisct1/minisign/workflows/CodeQL%20scan/badge.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "crypto"
+    },
+    {
+      "context_snippet": "![CodeQL scan](https://github.com/jedisct1/minisign/workflows/CodeQL%20scan/badge.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cryptography"
+    },
+    {
+      "context_snippet": "![CodeQL scan](https://github.com/jedisct1/minisign/workflows/CodeQL%20scan/badge.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ed25519"
+    },
+    {
+      "context_snippet": "![CodeQL scan](https://github.com/jedisct1/minisign/workflows/CodeQL%20scan/badge.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "signatures"
+    },
+    {
+      "context_snippet": "![CodeQL scan](https://github.com/jedisct1/minisign/workflows/CodeQL%20scan/badge.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "zig-package"
+    }
+  ]
+}

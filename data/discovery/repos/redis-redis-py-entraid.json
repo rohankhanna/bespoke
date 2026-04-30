@@ -1,0 +1,131 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pypi_publish.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pypi_publish.yml"
+    },
+    {
+      "component": "pypa/gh-action-pypi-publish@release/v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pypi_publish.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pypi_publish.yml",
+      "source_repo": "redis/redis-py-entraid",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pypi_publish.yml",
+      "source_repo": "redis/redis-py-entraid",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pypi_publish.yml",
+      "source_repo": "redis/redis-py-entraid",
+      "target": "pypa/gh-action-pypi-publish@release/v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pypi_publish.yml",
+      "source_repo": "redis/redis-py-entraid",
+      "target": "Publish tag to Pypi",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "redis/redis-py-entraid",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "redis/redis-py-entraid",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "redis/redis-py-entraid",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-04-30T05:03:26.737458+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5191
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 535
+    },
+    {
+      "path": "requirements.txt",
+      "size": 79
+    },
+    {
+      "path": ".github/workflows/pypi_publish.yml",
+      "size": 836
+    },
+    {
+      "path": ".github/workflows/tests.yml",
+      "size": 1261
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Entra ID credentials provider implementation for Redis-py client",
+    "fork": false,
+    "full_name": "redis/redis-py-entraid",
+    "html_url": "https://github.com/redis/redis-py-entraid",
+    "language": "Python",
+    "pushed_at": "2026-03-26T14:51:34Z",
+    "stargazers_count": 10,
+    "topics": [],
+    "updated_at": "2026-03-26T13:29:45Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Publish tag to Pypi",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pypi_publish.yml",
+      "term": "Publish tag to Pypi"
+    }
+  ]
+}

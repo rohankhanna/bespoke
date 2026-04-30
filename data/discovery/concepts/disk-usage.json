@@ -19,6 +19,30 @@
       "source_repo": "muesli/duf",
       "status": "candidate-context",
       "text": "[![Latest Release](https://img.shields.io/github/release/muesli/duf.svg?style=for-the-badge)](https://github.com/muesli/duf/releases)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "KSXGitHub/parallel-disk-usage",
+      "status": "candidate-context",
+      "text": "Highly parallelized, blazing fast directory tree analyzer"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "KSXGitHub/parallel-disk-usage",
+      "status": "candidate-context",
+      "text": "[![Test](https://github.com/KSXGitHub/parallel-disk-usage/workflows/Test/badge.svg)](https://github.com/KSXGitHub/parallel-disk-usage/actions?query=workflow%3ATest)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dundee/gdu",
+      "status": "candidate-context",
+      "text": "Fast disk usage analyzer with console interface written in Go"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dundee/gdu",
+      "status": "candidate-context",
+      "text": "<img src=\"./gdu.png\" alt=\"Gdu \" width=\"200\" align=\"right\">"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +51,18 @@
       "source_repo": "muesli/duf",
       "status": "candidate",
       "text": "[![Latest Release](https://img.shields.io/github/release/muesli/duf.svg?style=for-the-badge)](https://github.com/muesli/duf/releases)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "KSXGitHub/parallel-disk-usage",
+      "status": "candidate",
+      "text": "[![Test](https://github.com/KSXGitHub/parallel-disk-usage/workflows/Test/badge.svg)](https://github.com/KSXGitHub/parallel-disk-usage/actions?query=workflow%3ATest)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dundee/gdu",
+      "status": "candidate",
+      "text": "<img src=\"./gdu.png\" alt=\"Gdu \" width=\"200\" align=\"right\">"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +76,23 @@
       "observed_at": "2026-04-22T01:04:16.609102+00:00",
       "source_file": null,
       "source_repo": "muesli/duf"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "KSXGitHub/parallel-disk-usage"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "dundee/gdu"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

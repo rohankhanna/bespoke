@@ -19,6 +19,18 @@
       "source_repo": "spiffe/spiffe",
       "status": "candidate-context",
       "text": "![SPIFFE Logo](https://github.com/spiffe/spiffe/blob/main/community/logo/256x1024.png?raw=true)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "celo-org/SocialConnect",
+      "status": "candidate-context",
+      "text": "Protocol mapping social identifiers to blockchain addresses"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "celo-org/SocialConnect",
+      "status": "candidate-context",
+      "text": "> [!IMPORTANT]"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "spiffe/spiffe",
       "status": "candidate",
       "text": "![SPIFFE Logo](https://github.com/spiffe/spiffe/blob/main/community/logo/256x1024.png?raw=true)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "celo-org/SocialConnect",
+      "status": "candidate",
+      "text": "> [!IMPORTANT]"
     }
   ],
   "candidate_related_terms": [
@@ -112,11 +130,17 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": null,
       "source_repo": "spiffe/spiffe"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "celo-org/SocialConnect"
     }
   ],
   "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

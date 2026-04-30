@@ -1,0 +1,45 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "multimodal-reasoning-lab/Bagel-Zebra-CoT",
+      "target": "bytedance-seed/bagel",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T02:40:18.566642+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3708
+    },
+    {
+      "path": "requirements.txt",
+      "size": 416
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "https://huggingface.co/datasets/multimodal-reasoning-lab/Zebra-CoT",
+    "fork": false,
+    "full_name": "multimodal-reasoning-lab/Bagel-Zebra-CoT",
+    "html_url": "https://github.com/multimodal-reasoning-lab/Bagel-Zebra-CoT",
+    "language": "Python",
+    "pushed_at": "2026-01-30T23:01:20Z",
+    "stargazers_count": 133,
+    "topics": [],
+    "updated_at": "2026-04-27T08:46:57Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "bytedance-seed/bagel",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

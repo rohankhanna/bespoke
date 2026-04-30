@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Ansible Collection for Prometheus"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Ansible collection publish"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Ansible collection publish"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18621,
+      "status": "candidate",
+      "text": "speed"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14265,
+      "status": "candidate",
+      "text": "bandwidth"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10109,
+      "status": "candidate",
+      "text": "asynchronous"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10109,
+      "status": "candidate",
+      "text": "bidirectional"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10109,
+      "status": "candidate",
+      "text": "capacity"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Ansible collection publish",
+      "sense_id": "ansible-collection-publish#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "ansible-collection-publish",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "ansible-collection-publish",
+  "observation_id": "4d51efdb7795e510",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-30T00:37:16.824464+00:00",
+  "observed_text": "Ansible collection publish",
+  "source_context_snippet": "Ansible collection publish",
+  "source_file": ".github/workflows/publish.yml",
+  "source_repo": "prometheus-community/ansible",
+  "source_repo_description": "Ansible Collection for Prometheus"
+}

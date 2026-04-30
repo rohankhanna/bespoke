@@ -202,6 +202,66 @@
       "source_repo": "dwyl/learn-devops",
       "status": "candidate-context",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "KSXGitHub/parallel-disk-usage",
+      "status": "candidate-context",
+      "text": "Highly parallelized, blazing fast directory tree analyzer"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "KSXGitHub/parallel-disk-usage",
+      "status": "candidate-context",
+      "text": "Deployment"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Morantron/tmux-fingers",
+      "status": "candidate-context",
+      "text": "copy pasting in terminal with vimium/vimperator like hints."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Morantron/tmux-fingers",
+      "status": "candidate-context",
+      "text": "Deployment"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "zhiqwang/yolort",
+      "status": "candidate-context",
+      "text": "yolort is a runtime stack for yolov5 on specialized accelerators such as tensorrt, libtorch, onnxruntime, tvm and ncnn."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "zhiqwang/yolort",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "barracudanetworks/lighthouse",
+      "status": "candidate-context",
+      "text": "A data-driven Kubernetes pre-processor"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "barracudanetworks/lighthouse",
+      "status": "candidate-context",
+      "text": "Generate Kubernetes manifests by combining EDN data instead of templating YAML."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "xorbitsai/inference",
+      "status": "candidate-context",
+      "text": "Swap GPT for any LLM by changing a single line of code. Xinference lets you run open-source, speech, and multimodal models on cloud, on-prem, or your laptop \u2014 all through one unified, production-ready inference API."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "xorbitsai/inference",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -298,6 +358,36 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "dwyl/learn-devops",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "KSXGitHub/parallel-disk-usage",
+      "status": "candidate",
+      "text": "Deployment"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Morantron/tmux-fingers",
+      "status": "candidate",
+      "text": "Deployment"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "zhiqwang/yolort",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "barracudanetworks/lighthouse",
+      "status": "candidate",
+      "text": "Generate Kubernetes manifests by combining EDN data instead of templating YAML."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "xorbitsai/inference",
       "status": "candidate",
       "text": "<div align=\"center\">"
     }
@@ -445,11 +535,41 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "dwyl/learn-devops"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/deploy.yaml",
+      "source_repo": "KSXGitHub/parallel-disk-usage"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/deployment.yml",
+      "source_repo": "Morantron/tmux-fingers"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "zhiqwang/yolort"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "barracudanetworks/lighthouse"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "xorbitsai/inference"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

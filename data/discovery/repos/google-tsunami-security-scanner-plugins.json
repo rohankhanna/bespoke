@@ -1,0 +1,458 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/community-build.yml"
+    },
+    {
+      "component": "docker/build-push-action@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/community-build.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/community-push.yml"
+    },
+    {
+      "component": "docker/login-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/community-push.yml"
+    },
+    {
+      "component": "docker/metadata-action@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/community-push.yml"
+    },
+    {
+      "component": "docker/build-push-action@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/community-push.yml"
+    },
+    {
+      "component": "actions/attest-build-provenance@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/community-push.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/doyensec-build.yml"
+    },
+    {
+      "component": "docker/build-push-action@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/doyensec-build.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/doyensec-push.yml"
+    },
+    {
+      "component": "docker/login-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/doyensec-push.yml"
+    },
+    {
+      "component": "docker/metadata-action@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/doyensec-push.yml"
+    },
+    {
+      "component": "docker/build-push-action@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/doyensec-push.yml"
+    },
+    {
+      "component": "actions/attest-build-provenance@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/doyensec-push.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/facebook-build.yml"
+    },
+    {
+      "component": "docker/build-push-action@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/facebook-build.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/facebook-push.yml"
+    },
+    {
+      "component": "docker/login-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/facebook-push.yml"
+    },
+    {
+      "component": "docker/metadata-action@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/facebook-push.yml"
+    },
+    {
+      "component": "docker/build-push-action@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/facebook-push.yml"
+    },
+    {
+      "component": "actions/attest-build-provenance@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/facebook-push.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/google-build.yml"
+    },
+    {
+      "component": "docker/build-push-action@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/google-build.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "Dockerfile",
+      "source_repo": "google/tsunami-security-scanner-plugins",
+      "target": "google/tsunami-security-scanner",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "Dockerfile",
+      "source_repo": "google/tsunami-security-scanner-plugins",
+      "target": "google/tsunami-security-scanner-callback-server",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/community-build.yml",
+      "source_repo": "google/tsunami-security-scanner-plugins",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/community-build.yml",
+      "source_repo": "google/tsunami-security-scanner-plugins",
+      "target": "docker/build-push-action@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/community-build.yml",
+      "source_repo": "google/tsunami-security-scanner-plugins",
+      "target": "community-plugins-build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/community-push.yml",
+      "source_repo": "google/tsunami-security-scanner-plugins",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/community-push.yml",
+      "source_repo": "google/tsunami-security-scanner-plugins",
+      "target": "docker/login-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/community-push.yml",
+      "source_repo": "google/tsunami-security-scanner-plugins",
+      "target": "docker/metadata-action@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/community-push.yml",
+      "source_repo": "google/tsunami-security-scanner-plugins",
+      "target": "docker/build-push-action@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/community-push.yml",
+      "source_repo": "google/tsunami-security-scanner-plugins",
+      "target": "actions/attest-build-provenance@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/community-push.yml",
+      "source_repo": "google/tsunami-security-scanner-plugins",
+      "target": "community-plugins-push",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/doyensec-build.yml",
+      "source_repo": "google/tsunami-security-scanner-plugins",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/doyensec-build.yml",
+      "source_repo": "google/tsunami-security-scanner-plugins",
+      "target": "docker/build-push-action@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/doyensec-build.yml",
+      "source_repo": "google/tsunami-security-scanner-plugins",
+      "target": "doyensec-plugins-build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/doyensec-push.yml",
+      "source_repo": "google/tsunami-security-scanner-plugins",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/doyensec-push.yml",
+      "source_repo": "google/tsunami-security-scanner-plugins",
+      "target": "docker/login-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/doyensec-push.yml",
+      "source_repo": "google/tsunami-security-scanner-plugins",
+      "target": "docker/metadata-action@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/doyensec-push.yml",
+      "source_repo": "google/tsunami-security-scanner-plugins",
+      "target": "docker/build-push-action@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/doyensec-push.yml",
+      "source_repo": "google/tsunami-security-scanner-plugins",
+      "target": "actions/attest-build-provenance@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/doyensec-push.yml",
+      "source_repo": "google/tsunami-security-scanner-plugins",
+      "target": "doyensec-plugins-push",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/facebook-build.yml",
+      "source_repo": "google/tsunami-security-scanner-plugins",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/facebook-build.yml",
+      "source_repo": "google/tsunami-security-scanner-plugins",
+      "target": "docker/build-push-action@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/facebook-build.yml",
+      "source_repo": "google/tsunami-security-scanner-plugins",
+      "target": "facebook-plugins-build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/facebook-push.yml",
+      "source_repo": "google/tsunami-security-scanner-plugins",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/facebook-push.yml",
+      "source_repo": "google/tsunami-security-scanner-plugins",
+      "target": "docker/login-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/facebook-push.yml",
+      "source_repo": "google/tsunami-security-scanner-plugins",
+      "target": "docker/metadata-action@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/facebook-push.yml",
+      "source_repo": "google/tsunami-security-scanner-plugins",
+      "target": "docker/build-push-action@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/facebook-push.yml",
+      "source_repo": "google/tsunami-security-scanner-plugins",
+      "target": "actions/attest-build-provenance@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/facebook-push.yml",
+      "source_repo": "google/tsunami-security-scanner-plugins",
+      "target": "facebook-plugins-push",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/google-build.yml",
+      "source_repo": "google/tsunami-security-scanner-plugins",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/google-build.yml",
+      "source_repo": "google/tsunami-security-scanner-plugins",
+      "target": "docker/build-push-action@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/google-build.yml",
+      "source_repo": "google/tsunami-security-scanner-plugins",
+      "target": "google-plugins-build",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T02:52:01.237074+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4632
+    },
+    {
+      "path": "Dockerfile",
+      "size": 2081
+    },
+    {
+      "path": "go.mod",
+      "size": 357
+    },
+    {
+      "path": ".github/workflows/community-build.yml",
+      "size": 751
+    },
+    {
+      "path": ".github/workflows/community-push.yml",
+      "size": 1524
+    },
+    {
+      "path": ".github/workflows/doyensec-build.yml",
+      "size": 746
+    },
+    {
+      "path": ".github/workflows/doyensec-push.yml",
+      "size": 1519
+    },
+    {
+      "path": ".github/workflows/facebook-build.yml",
+      "size": 746
+    },
+    {
+      "path": ".github/workflows/facebook-push.yml",
+      "size": 1519
+    },
+    {
+      "path": ".github/workflows/google-build.yml",
+      "size": 736
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "This project aims to provide a central repository for many useful Tsunami Security Scanner plugins.",
+    "fork": false,
+    "full_name": "google/tsunami-security-scanner-plugins",
+    "html_url": "https://github.com/google/tsunami-security-scanner-plugins",
+    "language": "Java",
+    "pushed_at": "2026-04-27T15:52:37Z",
+    "stargazers_count": 1007,
+    "topics": [],
+    "updated_at": "2026-04-27T15:52:42Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "google/tsunami-security-scanner",
+      "source_file": "Dockerfile"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "google/tsunami-security-scanner-callback-server",
+      "source_file": "Dockerfile"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "community-plugins-build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/community-build.yml",
+      "term": "community-plugins-build"
+    },
+    {
+      "context_snippet": "community-plugins-push",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/community-push.yml",
+      "term": "community-plugins-push"
+    },
+    {
+      "context_snippet": "doyensec-plugins-build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/doyensec-build.yml",
+      "term": "doyensec-plugins-build"
+    },
+    {
+      "context_snippet": "doyensec-plugins-push",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/doyensec-push.yml",
+      "term": "doyensec-plugins-push"
+    },
+    {
+      "context_snippet": "facebook-plugins-build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/facebook-build.yml",
+      "term": "facebook-plugins-build"
+    },
+    {
+      "context_snippet": "facebook-plugins-push",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/facebook-push.yml",
+      "term": "facebook-plugins-push"
+    },
+    {
+      "context_snippet": "google-plugins-build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/google-build.yml",
+      "term": "google-plugins-build"
+    }
+  ]
+}

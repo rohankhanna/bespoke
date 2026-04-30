@@ -1,0 +1,57 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "vmware/photon",
+      "target": "vmware/pmd-next-gen",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "vmware/photon",
+      "target": "vmware/vagrant-guests-photon",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T03:03:08.084876+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4754
+    },
+    {
+      "path": "Dockerfile",
+      "size": 210
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Minimal Linux container host",
+    "fork": false,
+    "full_name": "vmware/photon",
+    "html_url": "https://github.com/vmware/photon",
+    "language": "Python",
+    "pushed_at": "2026-04-29T17:16:59Z",
+    "stargazers_count": 3176,
+    "topics": [],
+    "updated_at": "2026-04-29T20:31:09Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "vmware/pmd-next-gen",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "vmware/vagrant-guests-photon",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

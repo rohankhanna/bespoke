@@ -1,6 +1,7 @@
 {
   "aliases": [
-    "fedora"
+    "fedora",
+    "Fedora"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -45,6 +46,42 @@
       "source_repo": "deivid-rodriguez/byebug",
       "status": "candidate-context",
       "text": "fedora"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "xmake-io/xmake",
+      "status": "candidate-context",
+      "text": "\ud83d\udd25 A cross-platform build utility based on Lua"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "xmake-io/xmake",
+      "status": "candidate-context",
+      "text": "Fedora"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lavabit/robox",
+      "status": "candidate-context",
+      "text": "The tools needed to robotically create/configure/provision a large number of operating systems, for a variety of hypervisors, using packer."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lavabit/robox",
+      "status": "candidate-context",
+      "text": "Generic base boxes, providing a variety of operating systems, and available across a number of different virtualized platforms."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sclorg/mariadb-container",
+      "status": "candidate-context",
+      "text": "MariaDB container images based on Red Hat Software Collections and intended for OpenShift and general usage. Users can choose between Red Hat Enterprise Linux, Fedora, and CentOS based images."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sclorg/mariadb-container",
+      "status": "candidate-context",
+      "text": "MariaDB SQL Database Server Docker Image"
     }
   ],
   "candidate_glosses": [
@@ -65,6 +102,24 @@
       "source_repo": "deivid-rodriguez/byebug",
       "status": "candidate",
       "text": "fedora"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "xmake-io/xmake",
+      "status": "candidate",
+      "text": "Fedora"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lavabit/robox",
+      "status": "candidate",
+      "text": "Generic base boxes, providing a variety of operating systems, and available across a number of different virtualized platforms."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sclorg/mariadb-container",
+      "status": "candidate",
+      "text": "MariaDB SQL Database Server Docker Image"
     }
   ],
   "candidate_related_terms": [
@@ -155,11 +210,29 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": ".github/workflows/fedora.yml",
       "source_repo": "deivid-rodriguez/byebug"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/fedora.yml",
+      "source_repo": "xmake-io/xmake"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "lavabit/robox"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "sclorg/mariadb-container"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

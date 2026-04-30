@@ -19,6 +19,30 @@
       "source_repo": "jiawei-ren/BalancedMSE",
       "status": "candidate-context",
       "text": "Code for the paper:"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "fabio-sim/Depth-Anything-ONNX",
+      "status": "candidate-context",
+      "text": "ONNX-compatible Depth Anything: Unleashing the Power of Large-Scale Unlabeled Data"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fabio-sim/Depth-Anything-ONNX",
+      "status": "candidate-context",
+      "text": "[![ONNX](https://img.shields.io/badge/ONNX-grey)](https://onnx.ai/)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "LiheYoung/Depth-Anything",
+      "status": "candidate-context",
+      "text": "[CVPR 2024] Depth Anything: Unleashing the Power of Large-Scale Unlabeled Data. Foundation Model for Monocular Depth Estimation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "LiheYoung/Depth-Anything",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +51,18 @@
       "source_repo": "jiawei-ren/BalancedMSE",
       "status": "candidate",
       "text": "Code for the paper:"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fabio-sim/Depth-Anything-ONNX",
+      "status": "candidate",
+      "text": "[![ONNX](https://img.shields.io/badge/ONNX-grey)](https://onnx.ai/)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "LiheYoung/Depth-Anything",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +76,23 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": null,
       "source_repo": "jiawei-ren/BalancedMSE"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "fabio-sim/Depth-Anything-ONNX"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "LiheYoung/Depth-Anything"
     }
   ],
   "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

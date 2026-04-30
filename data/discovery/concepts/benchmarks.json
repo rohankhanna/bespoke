@@ -323,6 +323,102 @@
       "source_repo": "boa-dev/boa",
       "status": "candidate-context",
       "text": "Benchmarks"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "danielrosehill/Experiments-And-Evaluations-Index",
+      "status": "candidate-context",
+      "text": "Index of repositories concerning AI evaluations and experiments"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "danielrosehill/Experiments-And-Evaluations-Index",
+      "status": "candidate-context",
+      "text": "![Index](https://img.shields.io/badge/Type-Index-2ea44f?style=for-the-badge)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "boa-dev/data",
+      "status": "candidate-context",
+      "text": "This holds the conformance and benchmark data for the website"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "boa-dev/data",
+      "status": "candidate-context",
+      "text": "Benchmarks"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "linkedin/Liger-Kernel",
+      "status": "candidate-context",
+      "text": "Efficient Triton Kernels for LLM Training"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "linkedin/Liger-Kernel",
+      "status": "candidate-context",
+      "text": "Benchmarks"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "IntelPython/scikit-learn_bench",
+      "status": "candidate-context",
+      "text": "scikit-learn_bench benchmarks various implementations of machine learning algorithms across data analytics frameworks. It currently support the scikit-learn, DAAL4PY, cuML, and XGBoost frameworks for commonly used machine learning algorithms."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "IntelPython/scikit-learn_bench",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://dev.azure.com/daal/scikit-learn_bench/_apis/build/status/IntelPython.scikit-learn_bench?branchName=main)](https://dev.azure.com/daal/scikit-learn_bench/_build/latest?definitionId=8&branchName=main)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "biomejs/biome",
+      "status": "candidate-context",
+      "text": "A toolchain for web projects, aimed to provide functionalities to maintain them. Biome offers formatter and linter, usable via CLI and LSP."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "biomejs/biome",
+      "status": "candidate-context",
+      "text": "Benchmarks"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "web-infra-dev/rslint",
+      "status": "candidate-context",
+      "text": "\ud83d\ude80 Go Faster. Go Typed"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "web-infra-dev/rslint",
+      "status": "candidate-context",
+      "text": "Benchmarks"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ClickHouse/clickhouse-java",
+      "status": "candidate-context",
+      "text": "ClickHouse Java Clients & JDBC Driver"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ClickHouse/clickhouse-java",
+      "status": "candidate-context",
+      "text": "Benchmarks"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "tianyi-lab/HallusionBench",
+      "status": "candidate-context",
+      "text": "[CVPR'24] HallusionBench: You See What You Think? Or You Think What You See? An Image-Context Reasoning Benchmark Challenging for GPT-4V(ision), LLaVA-1.5, and Other Multi-modality Models"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tianyi-lab/HallusionBench",
+      "status": "candidate-context",
+      "text": "You See What You Think? Or You Think What You See? An Image-Context Reasoning Benchmark Challenging for GPT-4V(ision), LLaVA-1.5, and Other Multi-modality Models"
     }
   ],
   "candidate_glosses": [
@@ -481,6 +577,54 @@
       "source_repo": "boa-dev/boa",
       "status": "candidate",
       "text": "Benchmarks"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "danielrosehill/Experiments-And-Evaluations-Index",
+      "status": "candidate",
+      "text": "![Index](https://img.shields.io/badge/Type-Index-2ea44f?style=for-the-badge)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "boa-dev/data",
+      "status": "candidate",
+      "text": "Benchmarks"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "linkedin/Liger-Kernel",
+      "status": "candidate",
+      "text": "Benchmarks"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "IntelPython/scikit-learn_bench",
+      "status": "candidate",
+      "text": "[![Build Status](https://dev.azure.com/daal/scikit-learn_bench/_apis/build/status/IntelPython.scikit-learn_bench?branchName=main)](https://dev.azure.com/daal/scikit-learn_bench/_build/latest?definitionId=8&branchName=main)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "biomejs/biome",
+      "status": "candidate",
+      "text": "Benchmarks"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "web-infra-dev/rslint",
+      "status": "candidate",
+      "text": "Benchmarks"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ClickHouse/clickhouse-java",
+      "status": "candidate",
+      "text": "Benchmarks"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tianyi-lab/HallusionBench",
+      "status": "candidate",
+      "text": "You See What You Think? Or You Think What You See? An Image-Context Reasoning Benchmark Challenging for GPT-4V(ision), LLaVA-1.5, and Other Multi-modality Models"
     }
   ],
   "candidate_related_terms": [
@@ -787,11 +931,71 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": ".github/workflows/benchmark.yaml",
       "source_repo": "google/protobuf.dart"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "danielrosehill/Experiments-And-Evaluations-Index"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/benchmark.yml",
+      "source_repo": "boa-dev/data"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/pull_request.yml",
+      "source_repo": "apache/casbin-rs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/benchmark.yml",
+      "source_repo": "linkedin/Liger-Kernel"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "IntelPython/scikit-learn_bench"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/benchmark.yml",
+      "source_repo": "biomejs/biome"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/benchmarks.yml",
+      "source_repo": "web-infra-dev/rslint"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/benchmarks.yml",
+      "source_repo": "ClickHouse/clickhouse-java"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/benchmark.yaml",
+      "source_repo": "google/protobuf.dart"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "tianyi-lab/HallusionBench"
     }
   ],
   "first_seen_at": "2026-04-18T11:57:36.597358+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

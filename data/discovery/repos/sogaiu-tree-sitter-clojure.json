@@ -1,0 +1,104 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sogaiu/tree-sitter-clojure",
+      "target": "clojure",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sogaiu/tree-sitter-clojure",
+      "target": "clojurescript",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sogaiu/tree-sitter-clojure",
+      "target": "grammar",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sogaiu/tree-sitter-clojure",
+      "target": "parser",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sogaiu/tree-sitter-clojure",
+      "target": "tree-sitter",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T04:08:43.118054+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1083
+    },
+    {
+      "path": "package.json",
+      "size": 270
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Clojure(Script) grammar for tree-sitter",
+    "fork": false,
+    "full_name": "sogaiu/tree-sitter-clojure",
+    "html_url": "https://github.com/sogaiu/tree-sitter-clojure",
+    "language": "C",
+    "pushed_at": "2025-08-26T06:59:18Z",
+    "stargazers_count": 184,
+    "topics": [
+      "clojure",
+      "clojurescript",
+      "grammar",
+      "parser",
+      "tree-sitter"
+    ],
+    "updated_at": "2026-04-10T07:29:06Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "A tree-sitter grammar for Clojure and ClojureScript",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "clojure"
+    },
+    {
+      "context_snippet": "A tree-sitter grammar for Clojure and ClojureScript",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "clojurescript"
+    },
+    {
+      "context_snippet": "A tree-sitter grammar for Clojure and ClojureScript",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "grammar"
+    },
+    {
+      "context_snippet": "A tree-sitter grammar for Clojure and ClojureScript",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "parser"
+    },
+    {
+      "context_snippet": "A tree-sitter grammar for Clojure and ClojureScript",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tree-sitter"
+    }
+  ]
+}

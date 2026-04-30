@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Deploy and manage Locust tests on Kubernetes. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "\ud83d\ude80 Publish image & helm"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "\ud83d\ude80 Publish image & helm"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18732,
+      "status": "candidate",
+      "text": "top"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18727,
+      "status": "candidate",
+      "text": "print"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18727,
+      "status": "candidate",
+      "text": "printed"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18727,
+      "status": "candidate",
+      "text": "prints"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18703,
+      "status": "candidate",
+      "text": "give"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "\ud83d\ude80 Publish image & helm",
+      "sense_id": "publish-image-helm#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "publish-image-helm",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "publish-image-helm",
+  "observation_id": "45c011eea94ff2d2",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-30T00:37:16.824464+00:00",
+  "observed_text": "\ud83d\ude80 Publish image & helm",
+  "source_context_snippet": "\ud83d\ude80 Publish image & helm",
+  "source_file": ".github/workflows/release.yaml",
+  "source_repo": "AbdelrhmanHamouda/locust-k8s-operator",
+  "source_repo_description": "Deploy and manage Locust tests on Kubernetes. "
+}

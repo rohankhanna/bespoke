@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "amaranth-hdl"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "charlottia/hdx",
+      "status": "candidate-context",
+      "text": "HDL development environment on Nix."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "charlottia/hdx",
+      "status": "candidate-context",
+      "text": "hdx packages [Amaranth] (+ [`-boards`][amaranth-boards],"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "charlottia/hdx",
+      "status": "candidate",
+      "text": "hdx packages [Amaranth] (+ [`-boards`][amaranth-boards],"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "amaranth-hdl",
+  "concept_id": "amaranth-hdl",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "charlottia/hdx"
+    }
+  ],
+  "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "amaranth-hdl",
+      "sense_id": "amaranth-hdl#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

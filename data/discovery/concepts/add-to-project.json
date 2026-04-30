@@ -140,6 +140,18 @@
       "source_repo": "conda/conda",
       "status": "candidate-context",
       "text": "Add to Project"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "fastapi/full-stack-fastapi-template",
+      "status": "candidate-context",
+      "text": "Full stack, modern web application template. Using FastAPI, React, SQLModel, PostgreSQL, Docker, GitHub Actions, automatic HTTPS and more."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fastapi/full-stack-fastapi-template",
+      "status": "candidate-context",
+      "text": "Add to Project"
     }
   ],
   "candidate_glosses": [
@@ -206,6 +218,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "conda/conda",
+      "status": "candidate",
+      "text": "Add to Project"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fastapi/full-stack-fastapi-template",
       "status": "candidate",
       "text": "Add to Project"
     }
@@ -323,11 +341,29 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": ".github/workflows/add-to-project.yml",
       "source_repo": "fastapi/fastapi"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/add-to-project.yml",
+      "source_repo": "fastapi/fastapi"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/add-to-project.yml",
+      "source_repo": "fastapi/full-stack-fastapi-template"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/add-to-project.yml",
+      "source_repo": "fastapi/typer"
     }
   ],
   "first_seen_at": "2026-04-20T03:16:48.146869+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

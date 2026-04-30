@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Close stale issues created via github"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "AdguardTeam/AdguardFilters",
+      "status": "candidate-context",
+      "text": "AdGuard Content Blocking Filters"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AdguardTeam/AdguardFilters",
+      "status": "candidate-context",
+      "text": "'Close stale issues created via github'"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AdguardTeam/AdguardFilters",
+      "status": "candidate",
+      "text": "'Close stale issues created via github'"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40953,
+      "status": "candidate",
+      "text": "issue"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39771,
+      "status": "candidate",
+      "text": "discuss"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39771,
+      "status": "candidate",
+      "text": "return"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39754,
+      "status": "candidate",
+      "text": "near"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39621,
+      "status": "candidate",
+      "text": "turn"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Close stale issues created via github",
+  "concept_id": "close-stale-issues-created-via-github",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/stale_issues_gh.yml",
+      "source_repo": "AdguardTeam/AdguardFilters"
+    }
+  ],
+  "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Close stale issues created via github",
+      "sense_id": "close-stale-issues-created-via-github#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

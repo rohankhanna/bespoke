@@ -55,6 +55,30 @@
       "source_repo": "PKU-YuanGroup/LanguageBind",
       "status": "candidate-context",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "microsoft/UniVL",
+      "status": "candidate-context",
+      "text": "An official implementation for \" UniVL: A Unified Video and Language Pre-Training Model for Multimodal Understanding and Generation\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/UniVL",
+      "status": "candidate-context",
+      "text": "The implementation of paper [**UniVL: A Unified Video and Language Pre-Training Model for Multimodal Understanding and Generation**](https://arxiv.org/abs/2002.06353)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "X-PLUG/mPLUG-Owl",
+      "status": "candidate-context",
+      "text": "mPLUG-Owl: The Powerful Multi-modal Large Language Model  Family"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "X-PLUG/mPLUG-Owl",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -81,6 +105,18 @@
       "source_repo": "PKU-YuanGroup/LanguageBind",
       "status": "candidate",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/UniVL",
+      "status": "candidate",
+      "text": "The implementation of paper [**UniVL: A Unified Video and Language Pre-Training Model for Multimodal Understanding and Generation**](https://arxiv.org/abs/2002.06353)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "X-PLUG/mPLUG-Owl",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -148,11 +184,23 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "PKU-YuanGroup/LanguageBind"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "microsoft/UniVL"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "X-PLUG/mPLUG-Owl"
     }
   ],
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

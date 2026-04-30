@@ -151,6 +151,18 @@
       "source_repo": "Stable-Baselines-Team/rl-colab-notebooks",
       "status": "candidate-context",
       "text": "Colab notebooks part of the documentation of [Stable Baselines3](https://github.com/DLR-RM/stable-baselines3) reinforcement learning library"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "vizzuhq/ipyvizzu-story",
+      "status": "candidate-context",
+      "text": "Build, present and share animated data stories in Jupyter Notebook and similar environments."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vizzuhq/ipyvizzu-story",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -225,6 +237,12 @@
       "source_repo": "Stable-Baselines-Team/rl-colab-notebooks",
       "status": "candidate",
       "text": "Colab notebooks part of the documentation of [Stable Baselines3](https://github.com/DLR-RM/stable-baselines3) reinforcement learning library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vizzuhq/ipyvizzu-story",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -366,11 +384,23 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "Stable-Baselines-Team/rl-colab-notebooks"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "jupyter/nbclassic"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "vizzuhq/ipyvizzu-story"
     }
   ],
   "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

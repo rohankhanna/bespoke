@@ -1,0 +1,12 @@
+{
+  "component": "useblacksmith/setup-docker-builder@ac083cc84672d01c60d5e8561d0a939b697de542",
+  "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "scalar/scalar"
+    }
+  ]
+}

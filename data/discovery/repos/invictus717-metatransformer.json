@@ -1,0 +1,177 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "invictus717/MetaTransformer",
+      "target": "guochengqian/openpoints",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "invictus717/MetaTransformer",
+      "target": "microsoft/graphormer",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "invictus717/MetaTransformer",
+      "target": "danfenghong/ieee_tgrs_spectralformer",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "invictus717/MetaTransformer",
+      "target": "czczup/vit-adapter",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "invictus717/MetaTransformer",
+      "target": "artificial-intelligence",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "invictus717/MetaTransformer",
+      "target": "computer-vision",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "invictus717/MetaTransformer",
+      "target": "foundationmodel",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "invictus717/MetaTransformer",
+      "target": "machine-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "invictus717/MetaTransformer",
+      "target": "multimedia",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "invictus717/MetaTransformer",
+      "target": "multimodal",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "invictus717/MetaTransformer",
+      "target": "transformers",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T05:15:23.794104+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 11011
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Meta-Transformer for Unified Multimodal Learning",
+    "fork": false,
+    "full_name": "invictus717/MetaTransformer",
+    "html_url": "https://github.com/invictus717/MetaTransformer",
+    "language": "Python",
+    "pushed_at": "2023-12-05T07:36:11Z",
+    "stargazers_count": 1652,
+    "topics": [
+      "artificial-intelligence",
+      "computer-vision",
+      "foundationmodel",
+      "machine-learning",
+      "multimedia",
+      "multimodal",
+      "transformers"
+    ],
+    "updated_at": "2026-04-27T11:01:40Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "czczup/vit-adapter",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "danfenghong/ieee_tgrs_spectralformer",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "guochengqian/openpoints",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "microsoft/graphormer",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<p align=\"center\" width=\"100%\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "artificial-intelligence"
+    },
+    {
+      "context_snippet": "<p align=\"center\" width=\"100%\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "computer-vision"
+    },
+    {
+      "context_snippet": "<p align=\"center\" width=\"100%\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "foundationmodel"
+    },
+    {
+      "context_snippet": "<p align=\"center\" width=\"100%\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "machine-learning"
+    },
+    {
+      "context_snippet": "<p align=\"center\" width=\"100%\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "multimedia"
+    },
+    {
+      "context_snippet": "<p align=\"center\" width=\"100%\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "multimodal"
+    },
+    {
+      "context_snippet": "<p align=\"center\" width=\"100%\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "transformers"
+    }
+  ]
+}

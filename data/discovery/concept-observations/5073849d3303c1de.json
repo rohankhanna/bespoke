@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Implementation and experiments  of graph embedding algorithms."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![GitHub Issues](https://img.shields.io/github/issues/shenweichen/graphembedding.svg"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![GitHub Issues](https://img.shields.io/github/issues/shenweichen/graphembedding.svg"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "struc2vec",
+      "sense_id": "struc2vec#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "struc2vec",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "struc2vec",
+  "observation_id": "5073849d3303c1de",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T00:37:16.824464+00:00",
+  "observed_text": "struc2vec",
+  "source_context_snippet": "[![GitHub Issues](https://img.shields.io/github/issues/shenweichen/graphembedding.svg",
+  "source_file": null,
+  "source_repo": "shenweichen/GraphEmbedding",
+  "source_repo_description": "Implementation and experiments  of graph embedding algorithms."
+}

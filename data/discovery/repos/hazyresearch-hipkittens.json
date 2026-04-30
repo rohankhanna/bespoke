@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T03:55:58.769098+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8512
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Fast and Furious AMD Kernels",
+    "fork": false,
+    "full_name": "HazyResearch/HipKittens",
+    "html_url": "https://github.com/HazyResearch/HipKittens",
+    "language": "C++",
+    "pushed_at": "2026-04-29T22:01:09Z",
+    "stargazers_count": 402,
+    "topics": [],
+    "updated_at": "2026-04-29T22:01:14Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

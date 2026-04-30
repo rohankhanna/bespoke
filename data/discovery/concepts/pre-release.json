@@ -177,6 +177,18 @@
       "source_repo": "ManuelHentschel/VSCode-R-Debugger",
       "status": "candidate-context",
       "text": "pre-release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "unum-cloud/USearch",
+      "status": "candidate-context",
+      "text": "Fast Open-Source Search & Clustering engine \u00d7 for Vectors & Arbitrary Objects \u00d7 in C++, C, Python, JavaScript, Rust, Java, Objective-C, Swift, C#, GoLang, and Wolfram \ud83d\udd0d"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "unum-cloud/USearch",
+      "status": "candidate-context",
+      "text": "Pre-Release"
     }
   ],
   "candidate_glosses": [
@@ -263,6 +275,12 @@
       "source_repo": "ManuelHentschel/VSCode-R-Debugger",
       "status": "candidate",
       "text": "pre-release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "unum-cloud/USearch",
+      "status": "candidate",
+      "text": "Pre-Release"
     }
   ],
   "candidate_related_terms": [
@@ -432,11 +450,29 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": ".github/workflows/pre-release.yml",
       "source_repo": "ManuelHentschel/VSCode-R-Debugger"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/prerelease.yml",
+      "source_repo": "ashvardanian/ForkUnion"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/prerelease.yml",
+      "source_repo": "ashvardanian/NumKong"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/prerelease.yml",
+      "source_repo": "unum-cloud/USearch"
     }
   ],
   "first_seen_at": "2026-04-19T17:36:09.281008+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

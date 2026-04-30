@@ -83,27 +83,6 @@
   ],
   "edges": [
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "redis/redis-om-node",
-      "target": "ulid/spec",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "redis/redis-om-node",
-      "target": "redis/redis-om-dotnet",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "redis/redis-om-node",
-      "target": "redis/redis-om-spring",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "package-json:dependencies",
       "source_file": "package.json",
       "source_repo": "redis/redis-om-node",
@@ -223,7 +202,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-24T09:08:03.127505+00:00",
+  "fetched_at": "2026-04-30T05:03:38.077700+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -254,25 +233,9 @@
     "pushed_at": "2025-04-09T13:20:58Z",
     "stargazers_count": 1253,
     "topics": [],
-    "updated_at": "2026-04-14T20:40:34Z"
+    "updated_at": "2026-04-28T07:33:56Z"
   },
-  "repo_links": [
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "redis/redis-om-dotnet",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "redis/redis-om-spring",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "ulid/spec",
-      "source_file": "README.md"
-    }
-  ],
+  "repo_links": [],
   "terms": [
     {
       "context_snippet": "Release Drafter",

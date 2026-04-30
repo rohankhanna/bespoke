@@ -1,0 +1,34 @@
+{
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/on-push.yml",
+      "source_repo": "ex-aws/ex_aws_lambda",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/on-push.yml",
+      "source_repo": "ex-aws/ex_aws_lambda",
+      "target": "erlef/setup-beam@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/on-push.yml",
+      "source_repo": "ex-aws/ex_aws_lambda",
+      "target": "on-push",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ex-aws/ex_aws_lambda",
+      "target": "service",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-30T00:37:16.824464+00:00",
+  "source_repo": "ex-aws/ex_aws_lambda"
+}

@@ -91,6 +91,30 @@
       "source_repo": "amplify-education/serverless-domain-manager",
       "status": "candidate-context",
       "text": "[![serverless](https://assets.serverless-extras.com/website/general/icon-serverless-framework.svg)](https://www.serverless.com/plugins/serverless-domain-manager)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apache/apisix",
+      "status": "candidate-context",
+      "text": "The Cloud-Native API Gateway and AI Gateway"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/apisix",
+      "status": "candidate-context",
+      "text": "<!--"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "envoyproxy/ai-gateway",
+      "status": "candidate-context",
+      "text": "Manages Unified Access to Generative AI Services built on Envoy Gateway"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "envoyproxy/ai-gateway",
+      "status": "candidate-context",
+      "text": "Envoy AI Gateway is an open source project for using [Envoy Gateway](https://github.com/envoyproxy/gateway) to handle request traffic from application clients to Generative AI services."
     }
   ],
   "candidate_glosses": [
@@ -135,6 +159,18 @@
       "source_repo": "amplify-education/serverless-domain-manager",
       "status": "candidate",
       "text": "[![serverless](https://assets.serverless-extras.com/website/general/icon-serverless-framework.svg)](https://www.serverless.com/plugins/serverless-domain-manager)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/apisix",
+      "status": "candidate",
+      "text": "<!--"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "envoyproxy/ai-gateway",
+      "status": "candidate",
+      "text": "Envoy AI Gateway is an open source project for using [Envoy Gateway](https://github.com/envoyproxy/gateway) to handle request traffic from application clients to Generative AI services."
     }
   ],
   "candidate_related_terms": [],
@@ -190,11 +226,23 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "amplify-education/serverless-domain-manager"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "apache/apisix"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "envoyproxy/ai-gateway"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

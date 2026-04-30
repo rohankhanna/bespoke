@@ -1,0 +1,17 @@
+{
+  "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/update_generation_config.yaml",
+      "source_repo": "googleapis/java-bigquerystorage"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/update_generation_config.yaml",
+      "source_repo": "googleapis/java-bigtable"
+    }
+  ],
+  "term": "Update generation configuration"
+}

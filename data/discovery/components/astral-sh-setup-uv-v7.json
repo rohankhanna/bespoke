@@ -1,7 +1,7 @@
 {
   "component": "astral-sh/setup-uv@v7",
   "first_seen_at": "2026-04-18T03:42:01.586113+00:00",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -1057,6 +1057,171 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/ci.yml",
       "source_repo": "pyro-ppl/numpyro"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release-pypi.yml",
+      "source_repo": "posit-dev/air"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "chardet/chardet"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "chardet/chardet"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/cli.yml",
+      "source_repo": "opendatalab/MinerU"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "mhammond/pywin32"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "mhammond/pywin32"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/docs-test-gitbook.yaml",
+      "source_repo": "mozilla-ai/any-agent"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/docs.yaml",
+      "source_repo": "mozilla-ai/any-agent"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/lint.yaml",
+      "source_repo": "mozilla-ai/any-agent"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/tests-cookbook.yaml",
+      "source_repo": "mozilla-ai/any-agent"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/gateway-lint.yml",
+      "source_repo": "mozilla-ai/otari"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/gateway-tests.yml",
+      "source_repo": "mozilla-ai/otari"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/gateway-typecheck.yml",
+      "source_repo": "mozilla-ai/otari"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/pypi.yml",
+      "source_repo": "rust-cross/cargo-zigbuild"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "galaxyproject/planemo"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build_docs.yml",
+      "source_repo": "patrick-kidger/equinox"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/run_tests.yml",
+      "source_repo": "patrick-kidger/equinox"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/checks.yaml",
+      "source_repo": "optuna/optunahub"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/coverage.yml",
+      "source_repo": "optuna/optunahub"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/github-pages.yaml",
+      "source_repo": "optuna/optunahub"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/linkcheck.yml",
+      "source_repo": "optuna/optunahub"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/mac-tests.yml",
+      "source_repo": "optuna/optunahub"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/pypi-publish.yaml",
+      "source_repo": "optuna/optunahub"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/tests.yaml",
+      "source_repo": "optuna/optunahub"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/windows-tests.yml",
+      "source_repo": "optuna/optunahub"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/org-inactive-user-management.yml",
+      "source_repo": "cloudfoundry/community"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/org-management-check-prs.yml",
+      "source_repo": "cloudfoundry/community"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/org-management-ci.yml",
+      "source_repo": "cloudfoundry/community"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/org-management.yml",
+      "source_repo": "cloudfoundry/community"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci-lint-test.yml",
+      "source_repo": "amperser/proselint"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "qubvel-org/segmentation_models.pytorch"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "py-cov-action/python-coverage-comment-action"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/e2e-external-phase-2.yml",
+      "source_repo": "py-cov-action/python-coverage-comment-action"
     }
   ]
 }

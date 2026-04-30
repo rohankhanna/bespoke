@@ -328,13 +328,6 @@
   ],
   "edges": [
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "apache/datafusion-python",
-      "target": "pyo3/pyo3",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/build.yml",
       "source_repo": "apache/datafusion-python",
@@ -524,7 +517,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-24T12:43:02.954293+00:00",
+  "fetched_at": "2026-04-30T02:47:21.934706+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -536,7 +529,7 @@
     },
     {
       "path": "pyproject.toml",
-      "size": 5338
+      "size": 5350
     },
     {
       "path": ".github/workflows/build.yml",
@@ -576,18 +569,12 @@
     "full_name": "apache/datafusion-python",
     "html_url": "https://github.com/apache/datafusion-python",
     "language": "Python",
-    "pushed_at": "2026-04-24T12:10:06Z",
-    "stargazers_count": 578,
+    "pushed_at": "2026-04-29T11:58:50Z",
+    "stargazers_count": 580,
     "topics": [],
-    "updated_at": "2026-04-24T11:57:16Z"
+    "updated_at": "2026-04-29T11:35:28Z"
   },
-  "repo_links": [
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "pyo3/pyo3",
-      "source_file": "README.md"
-    }
-  ],
+  "repo_links": [],
   "terms": [
     {
       "context_snippet": "Build",

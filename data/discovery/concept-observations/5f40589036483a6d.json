@@ -1,0 +1,88 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Unmanaged dependency check"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Unmanaged dependency check"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 23687,
+      "status": "candidate",
+      "text": "bud"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 23687,
+      "status": "candidate",
+      "text": "trust territory"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 23687,
+      "status": "candidate",
+      "text": "trusteeship"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 23646,
+      "status": "candidate",
+      "text": "break"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 23646,
+      "status": "candidate",
+      "text": "crown colony"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Unmanaged dependency check",
+      "sense_id": "unmanaged-dependency-check#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "unmanaged-dependency-check",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "unmanaged-dependency-check",
+  "observation_id": "5f40589036483a6d",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-30T00:37:16.824464+00:00",
+  "observed_text": "Unmanaged dependency check",
+  "source_context_snippet": "Unmanaged dependency check",
+  "source_file": ".github/workflows/unmanaged_dependency_check.yaml",
+  "source_repo": "googleapis/java-bigtable",
+  "source_repo_description": null
+}

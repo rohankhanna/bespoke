@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A Python Interpreter written in Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Update doc DB"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Update doc DB"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10620,
+      "status": "candidate",
+      "text": "law"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10620,
+      "status": "candidate",
+      "text": "love"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10620,
+      "status": "candidate",
+      "text": "otis"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10620,
+      "status": "candidate",
+      "text": "ter"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9630,
+      "status": "candidate",
+      "text": "abscissa"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Update doc DB",
+      "sense_id": "update-doc-db#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "update-doc-db",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "update-doc-db",
+  "observation_id": "060b3df3eebb046e",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-30T00:37:16.824464+00:00",
+  "observed_text": "Update doc DB",
+  "source_context_snippet": "Update doc DB",
+  "source_file": ".github/workflows/update-doc-db.yml",
+  "source_repo": "RustPython/RustPython",
+  "source_repo_description": "A Python Interpreter written in Rust"
+}

@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Synchronize connection profiles"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "iterate-ch/profiles",
+      "status": "candidate-context",
+      "text": "Connection Profiles for Cyberduck & Mountain Duck"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "iterate-ch/profiles",
+      "status": "candidate-context",
+      "text": "Synchronize connection profiles"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "iterate-ch/profiles",
+      "status": "candidate",
+      "text": "Synchronize connection profiles"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 25264,
+      "status": "candidate",
+      "text": "broach"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 25223,
+      "status": "candidate",
+      "text": "agree"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 25223,
+      "status": "candidate",
+      "text": "agreed"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 25223,
+      "status": "candidate",
+      "text": "check"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 25223,
+      "status": "candidate",
+      "text": "checking"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Synchronize connection profiles",
+  "concept_id": "synchronize-connection-profiles",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/profiles-sync.yml",
+      "source_repo": "iterate-ch/profiles"
+    }
+  ],
+  "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Synchronize connection profiles",
+      "sense_id": "synchronize-connection-profiles#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

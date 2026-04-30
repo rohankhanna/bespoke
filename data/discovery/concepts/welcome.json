@@ -1,0 +1,129 @@
+{
+  "aliases": [
+    "Welcome"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pykeen/pykeen",
+      "status": "candidate-context",
+      "text": "\ud83e\udd16 A Python library for learning and evaluating knowledge graph embeddings "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pykeen/pykeen",
+      "status": "candidate-context",
+      "text": "Welcome"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pykeen/pykeen",
+      "status": "candidate",
+      "text": "Welcome"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39942783,
+      "status": "candidate",
+      "text": "wanted"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39940408,
+      "status": "candidate",
+      "text": "invited"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39937348,
+      "status": "candidate",
+      "text": "receive"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29954604,
+      "status": "candidate",
+      "text": "greet"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29954580,
+      "status": "candidate",
+      "text": "salutation"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 16025,
+      "status": "candidate",
+      "text": "welcoming"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 11043,
+      "status": "candidate",
+      "text": "receive"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 7027,
+      "status": "candidate",
+      "text": "wanted"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 4022,
+      "status": "candidate",
+      "text": "invited"
+    }
+  ],
+  "canonical_name": "Welcome",
+  "concept_id": "welcome",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/pr_welcome.yml",
+      "source_repo": "pykeen/pykeen"
+    }
+  ],
+  "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Welcome",
+      "sense_id": "welcome#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

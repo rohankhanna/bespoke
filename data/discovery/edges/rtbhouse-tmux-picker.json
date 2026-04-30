@@ -1,0 +1,27 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "RTBHOUSE/tmux-picker",
+      "target": "pawel-wiejacha/tmux-picker",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/automated-dependency-updates.yaml",
+      "source_repo": "RTBHOUSE/tmux-picker",
+      "target": "rtbhouse-platform-engineering/renovate-scanner/.github/actions/run-renovate@261480b2d6b5bb71fc7276c976a8e202f124de76",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/automated-dependency-updates.yaml",
+      "source_repo": "RTBHOUSE/tmux-picker",
+      "target": "Automated dependency updates",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-30T00:37:16.824464+00:00",
+  "source_repo": "RTBHOUSE/tmux-picker"
+}

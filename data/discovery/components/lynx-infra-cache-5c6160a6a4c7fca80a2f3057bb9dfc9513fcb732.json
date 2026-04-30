@@ -1,0 +1,12 @@
+{
+  "component": "lynx-infra/cache@5c6160a6a4c7fca80a2f3057bb9dfc9513fcb732",
+  "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "web-infra-dev/rslint"
+    }
+  ]
+}

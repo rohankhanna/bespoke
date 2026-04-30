@@ -367,6 +367,138 @@
       "source_repo": "apollographql/apollo-rs",
       "status": "candidate-context",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "numToStr/lemmy-help",
+      "status": "candidate-context",
+      "text": "Every one needs help, so lemmy-help you! A CLI to generate vim/nvim help doc from emmylua"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "numToStr/lemmy-help",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">\ud83e\udd1d lemmy-help</h1>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "opendatalab/MinerU",
+      "status": "candidate-context",
+      "text": "Transforms complex documents like PDFs and Office docs into LLM-ready markdown/JSON for your Agentic workflows."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "opendatalab/MinerU",
+      "status": "candidate-context",
+      "text": "<div align=\"center\" xmlns=\"http://www.w3.org/1999/html\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "CSSLint/parser-lib",
+      "status": "candidate-context",
+      "text": "Collection of parsers written in JavaScript"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "CSSLint/parser-lib",
+      "status": "candidate-context",
+      "text": "[![build status](https://secure.travis-ci.org/CSSLint/parser-lib.svg?branch=master)](https://travis-ci.org/CSSLint/parser-lib)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "swc-project/swc",
+      "status": "candidate-context",
+      "text": "Rust-based platform for the Web"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "swc-project/swc",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "postcss/postcss",
+      "status": "candidate-context",
+      "text": "Transforming styles with JS plugins"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "postcss/postcss",
+      "status": "candidate-context",
+      "text": "<img align=\"right\" width=\"95\" height=\"95\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sogaiu/tree-sitter-clojure",
+      "status": "candidate-context",
+      "text": "Clojure(Script) grammar for tree-sitter"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sogaiu/tree-sitter-clojure",
+      "status": "candidate-context",
+      "text": "A tree-sitter grammar for Clojure and ClojureScript"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "tree-sitter-grammars/tree-sitter-markdown",
+      "status": "candidate-context",
+      "text": "Markdown grammar for tree-sitter"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tree-sitter-grammars/tree-sitter-markdown",
+      "status": "candidate-context",
+      "text": "[![CI][ci]](https://github.com/tree-sitter-grammars/tree-sitter-markdown/actions)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "tree-sitter/tree-sitter-regex",
+      "status": "candidate-context",
+      "text": "Tree-sitter parser for regular expressions"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tree-sitter/tree-sitter-regex",
+      "status": "candidate-context",
+      "text": "[![CI][ci]](https://github.com/tree-sitter/tree-sitter-regex/actions/workflows/ci.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "tree-sitter/tree-sitter-javascript",
+      "status": "candidate-context",
+      "text": "Javascript grammar for tree-sitter"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tree-sitter/tree-sitter-javascript",
+      "status": "candidate-context",
+      "text": "[![CI][ci]](https://github.com/tree-sitter/tree-sitter-javascript/actions/workflows/ci.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "APIDevTools/swagger-parser",
+      "status": "candidate-context",
+      "text": "Swagger 2.0 and OpenAPI 3.0 parser/validator"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "APIDevTools/swagger-parser",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://github.com/APIDevTools/swagger-parser/workflows/CI-CD/badge.svg?branch=master)](https://github.com/APIDevTools/swagger-parser/actions)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "status-im/nim-toml-serialization",
+      "status": "candidate-context",
+      "text": "Flexible TOML serialization [not] relying on run-time type information."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "status-im/nim-toml-serialization",
+      "status": "candidate-context",
+      "text": "[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)"
     }
   ],
   "candidate_glosses": [
@@ -549,6 +681,72 @@
       "source_repo": "apollographql/apollo-rs",
       "status": "candidate",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "numToStr/lemmy-help",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">\ud83e\udd1d lemmy-help</h1>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "opendatalab/MinerU",
+      "status": "candidate",
+      "text": "<div align=\"center\" xmlns=\"http://www.w3.org/1999/html\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "CSSLint/parser-lib",
+      "status": "candidate",
+      "text": "[![build status](https://secure.travis-ci.org/CSSLint/parser-lib.svg?branch=master)](https://travis-ci.org/CSSLint/parser-lib)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "swc-project/swc",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "postcss/postcss",
+      "status": "candidate",
+      "text": "<img align=\"right\" width=\"95\" height=\"95\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sogaiu/tree-sitter-clojure",
+      "status": "candidate",
+      "text": "A tree-sitter grammar for Clojure and ClojureScript"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tree-sitter-grammars/tree-sitter-markdown",
+      "status": "candidate",
+      "text": "[![CI][ci]](https://github.com/tree-sitter-grammars/tree-sitter-markdown/actions)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tree-sitter/tree-sitter-regex",
+      "status": "candidate",
+      "text": "[![CI][ci]](https://github.com/tree-sitter/tree-sitter-regex/actions/workflows/ci.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tree-sitter/tree-sitter-javascript",
+      "status": "candidate",
+      "text": "[![CI][ci]](https://github.com/tree-sitter/tree-sitter-javascript/actions/workflows/ci.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "APIDevTools/swagger-parser",
+      "status": "candidate",
+      "text": "[![Build Status](https://github.com/APIDevTools/swagger-parser/workflows/CI-CD/badge.svg?branch=master)](https://github.com/APIDevTools/swagger-parser/actions)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "status-im/nim-toml-serialization",
+      "status": "candidate",
+      "text": "[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)"
     }
   ],
   "candidate_related_terms": [
@@ -778,11 +976,83 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "apollographql/apollo-rs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "numToStr/lemmy-help"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "pulldown-cmark/pulldown-cmark"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "opendatalab/MinerU"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "CSSLint/parser-lib"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "swc-project/swc"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "postcss/postcss"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "sogaiu/tree-sitter-clojure"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "tree-sitter-grammars/tree-sitter-markdown"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "tree-sitter/tree-sitter-regex"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "tree-sitter/tree-sitter-javascript"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "APIDevTools/swagger-parser"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "status-im/nim-toml-serialization"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

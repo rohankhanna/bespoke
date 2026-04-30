@@ -334,6 +334,42 @@
       "source_repo": "antlr/antlr4",
       "status": "candidate-context",
       "text": "[![Java 11+](https://img.shields.io/badge/java-11+-4c7e9f.svg)](http://java.oracle.com)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ericdallo/hover.el",
+      "status": "candidate-context",
+      "text": "Flutter tool to run hover on emacs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ericdallo/hover.el",
+      "status": "candidate-context",
+      "text": "<img align=\"right\" src=\"https://github.com/go-flutter-desktop/hover/blob/master/assets/app/icon.png\" width=\"64\"/>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rrousselGit/flutter_hooks",
+      "status": "candidate-context",
+      "text": "React hooks for Flutter. Hooks are a new kind of object that manages a Widget life-cycles. They are used to increase code sharing between widgets and as a complete replacement for StatefulWidget."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rrousselGit/flutter_hooks",
+      "status": "candidate-context",
+      "text": "[English](https://github.com/rrousselGit/flutter_hooks/blob/master/README.md) | [Portugu\u00eas](https://github.com/rrousselGit/flutter_hooks/blob/master/packages/flutter_hooks/resources/translations/pt_br/README.md) | [\ud55c\uad6d\uc5b4](https://github.com/rrousselGit/flutter_hooks/blob/master/pa\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rrousselGit/provider",
+      "status": "candidate-context",
+      "text": "InheritedWidgets, but simple"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rrousselGit/provider",
+      "status": "candidate-context",
+      "text": "Build"
     }
   ],
   "candidate_glosses": [
@@ -504,6 +540,24 @@
       "source_repo": "antlr/antlr4",
       "status": "candidate",
       "text": "[![Java 11+](https://img.shields.io/badge/java-11+-4c7e9f.svg)](http://java.oracle.com)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ericdallo/hover.el",
+      "status": "candidate",
+      "text": "<img align=\"right\" src=\"https://github.com/go-flutter-desktop/hover/blob/master/assets/app/icon.png\" width=\"64\"/>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rrousselGit/flutter_hooks",
+      "status": "candidate",
+      "text": "[English](https://github.com/rrousselGit/flutter_hooks/blob/master/README.md) | [Portugu\u00eas](https://github.com/rrousselGit/flutter_hooks/blob/master/packages/flutter_hooks/resources/translations/pt_br/README.md) | [\ud55c\uad6d\uc5b4](https://github.com/rrousselGit/flutter_hooks/blob/master/pa\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rrousselGit/provider",
+      "status": "candidate",
+      "text": "Build"
     }
   ],
   "candidate_related_terms": [
@@ -751,11 +805,47 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "antlr/antlr4"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "ericdallo/hover.el"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "eclipse-archived/dartboard"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "rrousselGit/flutter_hooks"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "rrousselGit/provider"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/dart.yml",
+      "source_repo": "grpc/grpc-dart"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "grpc/grpc-dart"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

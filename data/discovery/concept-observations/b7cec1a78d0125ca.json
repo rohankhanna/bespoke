@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "[SIGGRAPH ASIA 2024 TCS] AnimateLCM: Computation-Efficient Personalized Style Video Generation without Personalized Video Data"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<div align=\"center\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "fast-sampling",
+      "sense_id": "fast-sampling#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "fast-sampling",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "fast-sampling",
+  "observation_id": "b7cec1a78d0125ca",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T00:37:16.824464+00:00",
+  "observed_text": "fast-sampling",
+  "source_context_snippet": "<div align=\"center\">",
+  "source_file": null,
+  "source_repo": "G-U-N/AnimateLCM",
+  "source_repo_description": "[SIGGRAPH ASIA 2024 TCS] AnimateLCM: Computation-Efficient Personalized Style Video Generation without Personalized Video Data"
+}

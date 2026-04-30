@@ -1,0 +1,122 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Functional tensors for probabilistic programming"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![Build Status](https://github.com/pyro-ppl/funsor/workflows/CI/badge.svg)](https://github.com/pyro-ppl/funsor/actions)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![Build Status](https://github.com/pyro-ppl/funsor/workflows/CI/badge.svg)](https://github.com/pyro-ppl/funsor/actions)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40040743,
+      "status": "candidate",
+      "text": "symbolical"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40040531,
+      "status": "candidate",
+      "text": "emblematical"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40040066,
+      "status": "candidate",
+      "text": "emblematic"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40035966,
+      "status": "candidate",
+      "text": "representative"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30040067,
+      "status": "candidate",
+      "text": "symbolize"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "symbolic",
+      "sense_id": "symbolic#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 42029,
+      "status": "candidate",
+      "text": "emblematic"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 24048,
+      "status": "candidate",
+      "text": "representative"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 4019,
+      "status": "candidate",
+      "text": "emblematical"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 3019,
+      "status": "candidate",
+      "text": "symbolical"
+    }
+  ],
+  "concept_id": "symbolic",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "symbolic",
+  "observation_id": "b722b1b03b39cdfc",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T00:37:16.824464+00:00",
+  "observed_text": "symbolic",
+  "source_context_snippet": "[![Build Status](https://github.com/pyro-ppl/funsor/workflows/CI/badge.svg)](https://github.com/pyro-ppl/funsor/actions)",
+  "source_file": null,
+  "source_repo": "pyro-ppl/funsor",
+  "source_repo_description": "Functional tensors for probabilistic programming"
+}

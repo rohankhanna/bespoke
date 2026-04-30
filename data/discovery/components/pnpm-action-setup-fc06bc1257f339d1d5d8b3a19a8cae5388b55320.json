@@ -1,7 +1,7 @@
 {
   "component": "pnpm/action-setup@fc06bc1257f339d1d5d8b3a19a8cae5388b55320",
   "first_seen_at": "2026-04-18T03:42:01.586113+00:00",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -417,6 +417,31 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/third-party.yml",
       "source_repo": "pydantic/pydantic"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "scalar/scalar"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "vuejs/create-vue"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "vuejs/create-vue"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "postcss/postcss"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/beta_js_api.yml",
+      "source_repo": "biomejs/biome"
     }
   ]
 }

@@ -1,0 +1,171 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "tianyi-lab/HallusionBench",
+      "target": "wuxiyang1996/autohallusion",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "tianyi-lab/HallusionBench",
+      "target": "benchmark",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "tianyi-lab/HallusionBench",
+      "target": "benchmarks",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "tianyi-lab/HallusionBench",
+      "target": "gpt-4",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "tianyi-lab/HallusionBench",
+      "target": "gpt-4v",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "tianyi-lab/HallusionBench",
+      "target": "hallucination",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "tianyi-lab/HallusionBench",
+      "target": "large-language-models",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "tianyi-lab/HallusionBench",
+      "target": "large-vision-language-models",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "tianyi-lab/HallusionBench",
+      "target": "llava",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "tianyi-lab/HallusionBench",
+      "target": "vlms",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T05:15:31.140645+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 15329
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "[CVPR'24] HallusionBench: You See What You Think? Or You Think What You See? An Image-Context Reasoning Benchmark Challenging for GPT-4V(ision), LLaVA-1.5, and Other Multi-modality Models",
+    "fork": false,
+    "full_name": "tianyi-lab/HallusionBench",
+    "html_url": "https://github.com/tianyi-lab/HallusionBench",
+    "language": "Python",
+    "pushed_at": "2025-10-14T22:00:23Z",
+    "stargazers_count": 337,
+    "topics": [
+      "benchmark",
+      "benchmarks",
+      "gpt-4",
+      "gpt-4v",
+      "hallucination",
+      "large-language-models",
+      "large-vision-language-models",
+      "llava",
+      "llm",
+      "lmm",
+      "vlms"
+    ],
+    "updated_at": "2026-04-26T10:44:04Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "wuxiyang1996/autohallusion",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "You See What You Think? Or You Think What You See? An Image-Context Reasoning Benchmark Challenging for GPT-4V(ision), LLaVA-1.5, and Other Multi-modality Models",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "benchmark"
+    },
+    {
+      "context_snippet": "You See What You Think? Or You Think What You See? An Image-Context Reasoning Benchmark Challenging for GPT-4V(ision), LLaVA-1.5, and Other Multi-modality Models",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "benchmarks"
+    },
+    {
+      "context_snippet": "You See What You Think? Or You Think What You See? An Image-Context Reasoning Benchmark Challenging for GPT-4V(ision), LLaVA-1.5, and Other Multi-modality Models",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gpt-4"
+    },
+    {
+      "context_snippet": "You See What You Think? Or You Think What You See? An Image-Context Reasoning Benchmark Challenging for GPT-4V(ision), LLaVA-1.5, and Other Multi-modality Models",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gpt-4v"
+    },
+    {
+      "context_snippet": "You See What You Think? Or You Think What You See? An Image-Context Reasoning Benchmark Challenging for GPT-4V(ision), LLaVA-1.5, and Other Multi-modality Models",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hallucination"
+    },
+    {
+      "context_snippet": "You See What You Think? Or You Think What You See? An Image-Context Reasoning Benchmark Challenging for GPT-4V(ision), LLaVA-1.5, and Other Multi-modality Models",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "large-language-models"
+    },
+    {
+      "context_snippet": "You See What You Think? Or You Think What You See? An Image-Context Reasoning Benchmark Challenging for GPT-4V(ision), LLaVA-1.5, and Other Multi-modality Models",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "large-vision-language-models"
+    },
+    {
+      "context_snippet": "You See What You Think? Or You Think What You See? An Image-Context Reasoning Benchmark Challenging for GPT-4V(ision), LLaVA-1.5, and Other Multi-modality Models",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "llava"
+    },
+    {
+      "context_snippet": "You See What You Think? Or You Think What You See? An Image-Context Reasoning Benchmark Challenging for GPT-4V(ision), LLaVA-1.5, and Other Multi-modality Models",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vlms"
+    }
+  ]
+}

@@ -475,6 +475,78 @@
       "source_repo": "uxlfoundation/oneDAL",
       "status": "candidate-context",
       "text": "\ufeff<!--"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "scikit-learn/scikit-learn",
+      "status": "candidate-context",
+      "text": "scikit-learn: machine learning in Python"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "scikit-learn/scikit-learn",
+      "status": "candidate-context",
+      "text": ".. -*- mode: rst -*-"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "microsoft/nni",
+      "status": "candidate-context",
+      "text": "An open source AutoML toolkit for automate machine learning lifecycle, including feature engineering, neural architecture search, model compression and hyper-parameter tuning."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/nni",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "TorchDR/TorchDR",
+      "status": "candidate-context",
+      "text": "TorchDR - PyTorch Dimensionality Reduction"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "TorchDR/TorchDR",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Lightning-AI/torchmetrics",
+      "status": "candidate-context",
+      "text": "Machine learning metrics for distributed, scalable PyTorch applications."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Lightning-AI/torchmetrics",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "capitalone/datacompy",
+      "status": "candidate-context",
+      "text": "Pandas, Polars, Spark, and Snowpark DataFrame comparison for humans and more!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "capitalone/datacompy",
+      "status": "candidate-context",
+      "text": "![PyPI - Python Version](https://img.shields.io/pypi/pyversions/datacompy)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "crowdcent/numerblox",
+      "status": "candidate-context",
+      "text": "Solid Numerai pipelines"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "crowdcent/numerblox",
+      "status": "candidate-context",
+      "text": "![](https://img.shields.io/pypi/v/numerblox.png)"
     }
   ],
   "candidate_glosses": [
@@ -711,6 +783,42 @@
       "source_repo": "uxlfoundation/oneDAL",
       "status": "candidate",
       "text": "\ufeff<!--"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "scikit-learn/scikit-learn",
+      "status": "candidate",
+      "text": ".. -*- mode: rst -*-"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/nni",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "TorchDR/TorchDR",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Lightning-AI/torchmetrics",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "capitalone/datacompy",
+      "status": "candidate",
+      "text": "![PyPI - Python Version](https://img.shields.io/pypi/pyversions/datacompy)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "crowdcent/numerblox",
+      "status": "candidate",
+      "text": "![](https://img.shields.io/pypi/v/numerblox.png)"
     }
   ],
   "candidate_related_terms": [],
@@ -994,11 +1102,59 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "xlang-ai/DS-1000"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "scikit-learn/scikit-learn"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "microsoft/nni"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "Lightning-AI/pytorch-lightning"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "TorchDR/TorchDR"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "openhackathons-org/gpubootcamp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "Lightning-AI/torchmetrics"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "capitalone/datacompy"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "crowdcent/numerblox"
     }
   ],
   "first_seen_at": "2026-04-19T17:42:30.117329+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

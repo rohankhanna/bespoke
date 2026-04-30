@@ -1,0 +1,136 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "google-deepmind/dm_control",
+      "target": "artificial-intelligence",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "google-deepmind/dm_control",
+      "target": "deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "google-deepmind/dm_control",
+      "target": "machine-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "google-deepmind/dm_control",
+      "target": "mujoco",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "google-deepmind/dm_control",
+      "target": "neural-networks",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "google-deepmind/dm_control",
+      "target": "physics-simulation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "google-deepmind/dm_control",
+      "target": "reinforcement-learning",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T04:59:18.811549+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5907
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 150
+    },
+    {
+      "path": "requirements.txt",
+      "size": 526
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Google DeepMind's software stack for physics-based simulation and Reinforcement Learning environments, using MuJoCo.",
+    "fork": false,
+    "full_name": "google-deepmind/dm_control",
+    "html_url": "https://github.com/google-deepmind/dm_control",
+    "language": "Python",
+    "pushed_at": "2026-04-25T22:07:10Z",
+    "stargazers_count": 4561,
+    "topics": [
+      "artificial-intelligence",
+      "deep-learning",
+      "machine-learning",
+      "mujoco",
+      "neural-networks",
+      "physics-simulation",
+      "reinforcement-learning"
+    ],
+    "updated_at": "2026-04-30T02:33:18Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Google DeepMind's software stack for physics-based simulation and Reinforcement",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "artificial-intelligence"
+    },
+    {
+      "context_snippet": "Google DeepMind's software stack for physics-based simulation and Reinforcement",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-learning"
+    },
+    {
+      "context_snippet": "Google DeepMind's software stack for physics-based simulation and Reinforcement",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "machine-learning"
+    },
+    {
+      "context_snippet": "Google DeepMind's software stack for physics-based simulation and Reinforcement",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mujoco"
+    },
+    {
+      "context_snippet": "Google DeepMind's software stack for physics-based simulation and Reinforcement",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "neural-networks"
+    },
+    {
+      "context_snippet": "Google DeepMind's software stack for physics-based simulation and Reinforcement",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "physics-simulation"
+    },
+    {
+      "context_snippet": "Google DeepMind's software stack for physics-based simulation and Reinforcement",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "reinforcement-learning"
+    }
+  ]
+}

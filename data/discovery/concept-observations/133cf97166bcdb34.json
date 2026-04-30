@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Lindera tokenizer for Tantivy."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Periodic"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Periodic"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39980307,
+      "status": "candidate",
+      "text": "intermittent"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39974855,
+      "status": "candidate",
+      "text": "cyclic"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39973907,
+      "status": "candidate",
+      "text": "sporadic"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39946286,
+      "status": "candidate",
+      "text": "oscillating"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39943101,
+      "status": "candidate",
+      "text": "oscillatory"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Periodic",
+      "sense_id": "periodic#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 43043,
+      "status": "candidate",
+      "text": "sporadic"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 15024,
+      "status": "candidate",
+      "text": "oscillating"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 14045,
+      "status": "candidate",
+      "text": "intermittent"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 10028,
+      "status": "candidate",
+      "text": "rhythmic"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 7037,
+      "status": "candidate",
+      "text": "cyclic"
+    }
+  ],
+  "concept_id": "periodic",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "periodic",
+  "observation_id": "133cf97166bcdb34",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-30T00:37:16.824464+00:00",
+  "observed_text": "Periodic",
+  "source_context_snippet": "Periodic",
+  "source_file": ".github/workflows/periodic.yml",
+  "source_repo": "lindera/lindera-tantivy",
+  "source_repo_description": "Lindera tokenizer for Tantivy."
+}

@@ -1,12 +1,17 @@
 {
   "component": "astral-sh/ruff-action@v1",
   "first_seen_at": "2026-04-18T09:22:19.136418+00:00",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/tests.yaml",
       "source_repo": "anthropics/claude-quickstarts"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "kislyuk/argcomplete"
     }
   ]
 }

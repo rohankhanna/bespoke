@@ -19,12 +19,30 @@
       "source_repo": "microsoft/vscode",
       "status": "candidate-context",
       "text": "Monaco Editor checks"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "posit-dev/positron",
+      "status": "candidate-context",
+      "text": "Positron, a next-generation data science IDE"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "posit-dev/positron",
+      "status": "candidate-context",
+      "text": "Monaco Editor checks"
     }
   ],
   "candidate_glosses": [
     {
       "source_kind": "source-snippet",
       "source_repo": "microsoft/vscode",
+      "status": "candidate",
+      "text": "Monaco Editor checks"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "posit-dev/positron",
       "status": "candidate",
       "text": "Monaco Editor checks"
     }
@@ -76,11 +94,17 @@
       "observed_at": "2026-04-23T01:09:11.871080+00:00",
       "source_file": ".github/workflows/monaco-editor.yml",
       "source_repo": "microsoft/vscode"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/monaco-editor.yml",
+      "source_repo": "posit-dev/positron"
     }
   ],
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

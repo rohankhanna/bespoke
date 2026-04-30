@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Bugzilla Issue Linker"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mozilla-mobile/firefox-android",
+      "status": "candidate-context",
+      "text": ":warning: This repository hosts the Firefox for Android (Fenix), Focus for Android, and Mozilla Android Components projects. It is now developed and maintained as part of Mozilla Central. See the announcement here: https://github.com/mozilla-mobile/firefox-android/wiki#upcoming-migration-to-mozilla-central. \u201d"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mozilla-mobile/firefox-android",
+      "status": "candidate-context",
+      "text": "Bugzilla Issue Linker"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mozilla-mobile/firefox-android",
+      "status": "candidate",
+      "text": "Bugzilla Issue Linker"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 16014,
+      "status": "candidate",
+      "text": "chain"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15014,
+      "status": "candidate",
+      "text": "yoke"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14054,
+      "status": "candidate",
+      "text": "applied"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14054,
+      "status": "candidate",
+      "text": "applying"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14054,
+      "status": "candidate",
+      "text": "band"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Bugzilla Issue Linker",
+  "concept_id": "bugzilla-issue-linker",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/bugzilla-linker.yml",
+      "source_repo": "mozilla-mobile/firefox-android"
+    }
+  ],
+  "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Bugzilla Issue Linker",
+      "sense_id": "bugzilla-issue-linker#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

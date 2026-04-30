@@ -1,11 +1,14 @@
 {
   "aliases": [
-    "Create Pull Request"
+    "Create Pull Request",
+    "create-pull-request"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
     "workflow-process",
-    "data-document-artifact"
+    "data-document-artifact",
+    "tool-component",
+    "capability"
   ],
   "candidate_definitions": [
     {
@@ -19,6 +22,18 @@
       "source_repo": "actions/runner-images",
       "status": "candidate-context",
       "text": "Create Pull Request"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "peter-evans/create-pull-request",
+      "status": "candidate-context",
+      "text": "A GitHub action to create a pull request for changes to your repository in the actions workspace"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "peter-evans/create-pull-request",
+      "status": "candidate-context",
+      "text": "[![CI](https://github.com/peter-evans/create-pull-request/workflows/CI/badge.svg)](https://github.com/peter-evans/create-pull-request/actions?query=workflow%3ACI)"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +42,12 @@
       "source_repo": "actions/runner-images",
       "status": "candidate",
       "text": "Create Pull Request"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "peter-evans/create-pull-request",
+      "status": "candidate",
+      "text": "[![CI](https://github.com/peter-evans/create-pull-request/workflows/CI/badge.svg)](https://github.com/peter-evans/create-pull-request/actions?query=workflow%3ACI)"
     }
   ],
   "candidate_related_terms": [
@@ -88,11 +109,17 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": ".github/workflows/create_pull_request.yml",
       "source_repo": "actions/runner-images"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "peter-evans/create-pull-request"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

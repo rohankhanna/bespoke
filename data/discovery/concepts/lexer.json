@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "lexer"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Chevrotain/chevrotain",
+      "status": "candidate-context",
+      "text": "Parser Building Toolkit for JavaScript"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Chevrotain/chevrotain",
+      "status": "candidate-context",
+      "text": "[![Discussions](https://img.shields.io/github/discussions/chevrotain/chevrotain?style=flat-square)](https://github.com/Chevrotain/chevrotain/discussions)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Chevrotain/chevrotain",
+      "status": "candidate",
+      "text": "[![Discussions](https://img.shields.io/github/discussions/chevrotain/chevrotain?style=flat-square)](https://github.com/Chevrotain/chevrotain/discussions)"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20023967,
+      "status": "candidate",
+      "text": "lexical analyzer"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20023966,
+      "status": "candidate",
+      "text": "lexical analysis"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20023965,
+      "status": "candidate",
+      "text": "linter"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20023964,
+      "status": "candidate",
+      "text": "bracketer"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20023963,
+      "status": "candidate",
+      "text": "parser"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "lexer",
+  "concept_id": "lexer",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "Chevrotain/chevrotain"
+    }
+  ],
+  "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "lexer",
+      "sense_id": "lexer#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

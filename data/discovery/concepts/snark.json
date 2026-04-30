@@ -55,6 +55,30 @@
       "source_repo": "arkworks-rs/spongefish",
       "status": "candidate-context",
       "text": "Sponge FiSh (duplex **sponge** **Fi**at\u2013**Sh**amir) is a permutation-agnostic Fiat\u2013Shamir library that believes in random oracles."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "a16z/jolt",
+      "status": "candidate-context",
+      "text": "The simplest and most extensible zkVM. Fast and fully open source from a16z crypto and friends. \u26a1"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "a16z/jolt",
+      "status": "candidate-context",
+      "text": "![imgs/jolt_alpha.png](imgs/jolt_alpha.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Consensys/gnark-crypto",
+      "status": "candidate-context",
+      "text": "gnark-crypto provides elliptic curve and pairing-based cryptography on BN, BLS12, BLS24 and BW6 curves. It also provides various algorithms (algebra, crypto) of particular interest to zero knowledge proof systems"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Consensys/gnark-crypto",
+      "status": "candidate-context",
+      "text": "[![Twitter URL](https://img.shields.io/twitter/url/https/twitter.com/gnark_team.svg?style=social&label=Follow%20%40gnark_team)](https://x.com/gnark_team) [![License](https://img.shields.io/badge/license-Apache%202-blue)](LICENSE) [![Go Report Card](https://goreportcard.com/badge\u2026"
     }
   ],
   "candidate_glosses": [
@@ -81,6 +105,18 @@
       "source_repo": "arkworks-rs/spongefish",
       "status": "candidate",
       "text": "Sponge FiSh (duplex **sponge** **Fi**at\u2013**Sh**amir) is a permutation-agnostic Fiat\u2013Shamir library that believes in random oracles."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "a16z/jolt",
+      "status": "candidate",
+      "text": "![imgs/jolt_alpha.png](imgs/jolt_alpha.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Consensys/gnark-crypto",
+      "status": "candidate",
+      "text": "[![Twitter URL](https://img.shields.io/twitter/url/https/twitter.com/gnark_team.svg?style=social&label=Follow%20%40gnark_team)](https://x.com/gnark_team) [![License](https://img.shields.io/badge/license-Apache%202-blue)](LICENSE) [![Go Report Card](https://goreportcard.com/badge\u2026"
     }
   ],
   "candidate_related_terms": [
@@ -148,11 +184,23 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": null,
       "source_repo": "arkworks-rs/spongefish"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "a16z/jolt"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "Consensys/gnark-crypto"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

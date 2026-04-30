@@ -1,7 +1,7 @@
 {
   "component": "actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02",
   "first_seen_at": "2026-04-17T16:51:41.136432+00:00",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -397,6 +397,31 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/build-release.yml",
       "source_repo": "base/base"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/e2e-test-llmisvc.yaml",
+      "source_repo": "kserve/kserve"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/e2e-test-quick-install.yaml",
+      "source_repo": "kserve/kserve"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/assign-reviewers.yml",
+      "source_repo": "zed-industries/zed"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "MagicStack/uvloop"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/docker-build.yaml",
+      "source_repo": "skypilot-org/skypilot"
     }
   ]
 }

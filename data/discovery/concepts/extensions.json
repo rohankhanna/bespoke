@@ -31,6 +31,30 @@
       "source_repo": "gautamkrishnar/refined-github-feeds",
       "status": "candidate-context",
       "text": "Making the GitHub news feeds great again. This extension enables you to filter the GitHub news feeds based on different event types:"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Kahsolt/stable-diffusion-webui-sonar",
+      "status": "candidate-context",
+      "text": "Wrapped k-diffuison samplers with tricks to improve the generated image quality (maybe?), extension script for AUTOMATIC1111/stable-diffusion-webui"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Kahsolt/stable-diffusion-webui-sonar",
+      "status": "candidate-context",
+      "text": "Wrapped k-diffuison samplers with tricks to improve the generated image quality (maybe?), extension script for AUTOMATIC1111/stable-diffusion-webui"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "quarkiverse/quarkiverse",
+      "status": "candidate-context",
+      "text": "hub.quarkiverse.io - Repository for contributing to quarkiverse wiki"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "quarkiverse/quarkiverse",
+      "status": "candidate-context",
+      "text": "The Quarkiverse GitHub organization provides repository hosting (including build, CI and release publishing setup) for Quarkus extension projects contributed by the community."
     }
   ],
   "candidate_glosses": [
@@ -45,6 +69,18 @@
       "source_repo": "gautamkrishnar/refined-github-feeds",
       "status": "candidate",
       "text": "Making the GitHub news feeds great again. This extension enables you to filter the GitHub news feeds based on different event types:"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Kahsolt/stable-diffusion-webui-sonar",
+      "status": "candidate",
+      "text": "Wrapped k-diffuison samplers with tricks to improve the generated image quality (maybe?), extension script for AUTOMATIC1111/stable-diffusion-webui"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "quarkiverse/quarkiverse",
+      "status": "candidate",
+      "text": "The Quarkiverse GitHub organization provides repository hosting (including build, CI and release publishing setup) for Quarkus extension projects contributed by the community."
     }
   ],
   "candidate_related_terms": [
@@ -100,11 +136,23 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "gautamkrishnar/refined-github-feeds"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "Kahsolt/stable-diffusion-webui-sonar"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "quarkiverse/quarkiverse"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

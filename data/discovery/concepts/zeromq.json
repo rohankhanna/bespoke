@@ -19,6 +19,18 @@
       "source_repo": "parazyd/obelisk",
       "status": "candidate-context",
       "text": "obelisk"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "zeromq/jeromq",
+      "status": "candidate-context",
+      "text": "JeroMQ is a pure Java implementation of the ZeroMQ messaging library, offering high-performance asynchronous messaging for distributed or concurrent applications."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "zeromq/jeromq",
+      "status": "candidate-context",
+      "text": "Pure Java implementation of libzmq (http://zeromq.org)."
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "parazyd/obelisk",
       "status": "candidate",
       "text": "obelisk"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "zeromq/jeromq",
+      "status": "candidate",
+      "text": "Pure Java implementation of libzmq (http://zeromq.org)."
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": null,
       "source_repo": "parazyd/obelisk"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "zeromq/jeromq"
     }
   ],
   "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

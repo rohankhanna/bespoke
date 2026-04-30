@@ -43,6 +43,18 @@
       "source_repo": "MegEngine/MegEngine",
       "status": "candidate-context",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "MegEngine/Models",
+      "status": "candidate-context",
+      "text": "\u91c7\u7528MegEngine\u5b9e\u73b0\u7684\u5404\u79cd\u4e3b\u6d41\u6df1\u5ea6\u5b66\u4e60\u6a21\u578b"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MegEngine/Models",
+      "status": "candidate-context",
+      "text": "![](https://github.com/MegEngine/Models/workflows/CI/badge.svg)"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +75,12 @@
       "source_repo": "MegEngine/MegEngine",
       "status": "candidate",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MegEngine/Models",
+      "status": "candidate",
+      "text": "![](https://github.com/MegEngine/Models/workflows/CI/badge.svg)"
     }
   ],
   "candidate_related_terms": [],
@@ -88,11 +106,17 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "MegEngine/MegEngine"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "MegEngine/Models"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

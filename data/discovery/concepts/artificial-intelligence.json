@@ -583,6 +583,222 @@
       "source_repo": "lucidrains/tab-transformer-pytorch",
       "status": "candidate-context",
       "text": "<img src=\"./tab.png\" width=\"250px\"></img>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "microsoft/monitors4codegen",
+      "status": "candidate-context",
+      "text": "Code and Data artifact for NeurIPS 2023 paper - \"Monitor-Guided Decoding of Code LMs with Static Analysis of Repository Context\". `multispy` is a lsp client library in Python intended to be used to build applications around language servers."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/monitors4codegen",
+      "status": "candidate-context",
+      "text": "Alternative title: Guiding Language Models of Code with Global Context using Monitors"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "AXERA-TECH/ax-samples",
+      "status": "candidate-context",
+      "text": "Samples code for world class Artificial Intelligence SoCs for computer vision applications."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AXERA-TECH/ax-samples",
+      "status": "candidate-context",
+      "text": "[English](./README_EN.md) | \u7b80\u4f53\u4e2d\u6587"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lucidrains/flamingo-pytorch",
+      "status": "candidate-context",
+      "text": "Implementation of \ud83e\udda9 Flamingo, state-of-the-art few-shot visual question answering attention net out of Deepmind, in Pytorch"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lucidrains/flamingo-pytorch",
+      "status": "candidate-context",
+      "text": "<img src=\"./flamingo.png\" width=\"500px\"></img>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Unbabel/COMET",
+      "status": "candidate-context",
+      "text": " A Neural Framework for MT Evaluation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Unbabel/COMET",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kornia/kornia",
+      "status": "candidate-context",
+      "text": "\ud83d\udc0d Geometric Computer Vision Library for Spatial AI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kornia/kornia",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kserve/kserve",
+      "status": "candidate-context",
+      "text": "Standardized Distributed Generative and Predictive AI Inference Platform for Scalable, Multi-Framework Deployment on Kubernetes"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kserve/kserve",
+      "status": "candidate-context",
+      "text": "[![go.dev reference](https://img.shields.io/badge/go.dev-reference-007d9c?logo=go&logoColor=white)](https://pkg.go.dev/github.com/kserve/kserve)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "CVHub520/X-AnyLabeling",
+      "status": "candidate-context",
+      "text": "Effortless data labeling with AI support from Segment Anything and other awesome models."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "CVHub520/X-AnyLabeling",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "saharmor/dalle-playground",
+      "status": "candidate-context",
+      "text": "A playground to generate images from any text prompt using Stable Diffusion (past: using DALL-E Mini)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "saharmor/dalle-playground",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "parlance-zz/g-diffuser-bot",
+      "status": "candidate-context",
+      "text": "Discord bot and Interface for Stable Diffusion"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "parlance-zz/g-diffuser-bot",
+      "status": "candidate-context",
+      "text": "![https://www.stablecabal.org](https://www.g-diffuser.com/stablecabal.png) https://www.stablecabal.org"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lucidrains/electra-pytorch",
+      "status": "candidate-context",
+      "text": "A simple and working implementation of Electra, the fastest way to pretrain language models from scratch, in Pytorch"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lucidrains/electra-pytorch",
+      "status": "candidate-context",
+      "text": "<img src=\"./electra.png\"></img>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "microsoft/multilspy",
+      "status": "candidate-context",
+      "text": "multilspy is a lsp client library in Python intended to be used to build applications around language servers."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/multilspy",
+      "status": "candidate-context",
+      "text": "[![PyPI - Version](https://img.shields.io/pypi/v/multilspy)](https://pypi.org/project/multilspy/)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "codota/tabnine-sublime",
+      "status": "candidate-context",
+      "text": "Tabnine Autocomplete AI: JavaScript, Python, TypeScript, PHP, C/C++, HTML/CSS, Go, Java, Ruby, C#, Rust, SQL, Bash, Kotlin, Julia, Lua, OCaml, Perl, Haskell, React"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "codota/tabnine-sublime",
+      "status": "candidate-context",
+      "text": "[twitter-shield]: https://img.shields.io/twitter/follow/Tabnine_?style=social"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "codota/tabnine-vim",
+      "status": "candidate-context",
+      "text": "Vim client for TabNine. https://vimawesome.com/plugin/tabnine-vim"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "codota/tabnine-vim",
+      "status": "candidate-context",
+      "text": "[twitter-shield]: https://img.shields.io/twitter/follow/Tabnine_?style=social"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "google-deepmind/dm_control",
+      "status": "candidate-context",
+      "text": "Google DeepMind's software stack for physics-based simulation and Reinforcement Learning environments, using MuJoCo."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google-deepmind/dm_control",
+      "status": "candidate-context",
+      "text": "Google DeepMind's software stack for physics-based simulation and Reinforcement"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "google-deepmind/lab",
+      "status": "candidate-context",
+      "text": "A customisable 3D platform for agent-based AI research"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google-deepmind/lab",
+      "status": "candidate-context",
+      "text": "*DeepMind Lab* is a 3D learning environment based on id Software's"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "microsoft/pai",
+      "status": "candidate-context",
+      "text": "Resource scheduling and cluster management for AI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/pai",
+      "status": "candidate-context",
+      "text": "[logo]: ./pailogo.jpg \"OpenPAI\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "invictus717/MetaTransformer",
+      "status": "candidate-context",
+      "text": "Meta-Transformer for Unified Multimodal Learning"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "invictus717/MetaTransformer",
+      "status": "candidate-context",
+      "text": "<p align=\"center\" width=\"100%\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "xorbitsai/inference",
+      "status": "candidate-context",
+      "text": "Swap GPT for any LLM by changing a single line of code. Xinference lets you run open-source, speech, and multimodal models on cloud, on-prem, or your laptop \u2014 all through one unified, production-ready inference API."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "xorbitsai/inference",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -873,6 +1089,114 @@
       "source_repo": "lucidrains/tab-transformer-pytorch",
       "status": "candidate",
       "text": "<img src=\"./tab.png\" width=\"250px\"></img>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/monitors4codegen",
+      "status": "candidate",
+      "text": "Alternative title: Guiding Language Models of Code with Global Context using Monitors"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AXERA-TECH/ax-samples",
+      "status": "candidate",
+      "text": "[English](./README_EN.md) | \u7b80\u4f53\u4e2d\u6587"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lucidrains/flamingo-pytorch",
+      "status": "candidate",
+      "text": "<img src=\"./flamingo.png\" width=\"500px\"></img>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Unbabel/COMET",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kornia/kornia",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kserve/kserve",
+      "status": "candidate",
+      "text": "[![go.dev reference](https://img.shields.io/badge/go.dev-reference-007d9c?logo=go&logoColor=white)](https://pkg.go.dev/github.com/kserve/kserve)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "CVHub520/X-AnyLabeling",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "saharmor/dalle-playground",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "parlance-zz/g-diffuser-bot",
+      "status": "candidate",
+      "text": "![https://www.stablecabal.org](https://www.g-diffuser.com/stablecabal.png) https://www.stablecabal.org"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lucidrains/electra-pytorch",
+      "status": "candidate",
+      "text": "<img src=\"./electra.png\"></img>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/multilspy",
+      "status": "candidate",
+      "text": "[![PyPI - Version](https://img.shields.io/pypi/v/multilspy)](https://pypi.org/project/multilspy/)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "codota/tabnine-sublime",
+      "status": "candidate",
+      "text": "[twitter-shield]: https://img.shields.io/twitter/follow/Tabnine_?style=social"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "codota/tabnine-vim",
+      "status": "candidate",
+      "text": "[twitter-shield]: https://img.shields.io/twitter/follow/Tabnine_?style=social"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google-deepmind/dm_control",
+      "status": "candidate",
+      "text": "Google DeepMind's software stack for physics-based simulation and Reinforcement"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google-deepmind/lab",
+      "status": "candidate",
+      "text": "*DeepMind Lab* is a 3D learning environment based on id Software's"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/pai",
+      "status": "candidate",
+      "text": "[logo]: ./pailogo.jpg \"OpenPAI\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "invictus717/MetaTransformer",
+      "status": "candidate",
+      "text": "<p align=\"center\" width=\"100%\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "xorbitsai/inference",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_related_terms": [],
@@ -1348,11 +1672,191 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "lucidrains/tab-transformer-pytorch"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "microsoft/monitors4codegen"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "codota/TabNine"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "vercel/modelfusion"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "google-deepmind/graph_nets"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "AXERA-TECH/ax-samples"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "lucidrains/flamingo-pytorch"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "Unbabel/COMET"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "Lightning-AI/pytorch-lightning"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "Lightning-AI/litgpt"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "OpenHands/OpenHands"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "kornia/kornia"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "kserve/kserve"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "f/prompts.chat"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "CVHub520/X-AnyLabeling"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "ZhaoJ9014/face.evoLVe"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "invoke-ai/InvokeAI"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "saharmor/dalle-playground"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "parlance-zz/g-diffuser-bot"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "lucidrains/electra-pytorch"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "facebookresearch/fairseq"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "microsoft/multilspy"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "codota/tabnine-atom"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "codota/tabnine-sublime"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "codota/tabnine-vim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "google-deepmind/dm_control"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "google-deepmind/lab"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "diff-usion/Awesome-Diffusion-Models"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "microsoft/pai"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "invictus717/MetaTransformer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "xorbitsai/inference"
     }
   ],
   "first_seen_at": "2026-04-18T12:06:06.216548+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

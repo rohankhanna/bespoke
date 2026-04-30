@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "twitter-archive/code-of-conduct",
+      "target": "twitter/.github",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T00:50:19.060321+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 200
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "master",
+    "description": "Open Source Code of Conduct at Twitter",
+    "fork": false,
+    "full_name": "twitter-archive/code-of-conduct",
+    "html_url": "https://github.com/twitter-archive/code-of-conduct",
+    "language": null,
+    "pushed_at": "2021-08-17T18:04:51Z",
+    "stargazers_count": 81,
+    "topics": [],
+    "updated_at": "2025-12-29T20:37:58Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "twitter/.github",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

@@ -163,6 +163,42 @@
       "source_repo": "MMMU-Benchmark/MMMU",
       "status": "candidate-context",
       "text": "[**\ud83c\udf10 Homepage**](https://mmmu-benchmark.github.io/) | [**\ud83c\udfc6 Leaderboard**](https://mmmu-benchmark.github.io/#leaderboard) | [**\ud83e\udd17 MMMU-Pro**](https://huggingface.co/datasets/MMMU/MMMU_Pro) | [**\ud83d\udcd6 MMMU-Pro arXiv**](https://arxiv.org/abs/2409.02813) | [**\ud83e\udd17 MMMU**](https://huggingfac\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "FuxiaoLiu/LRV-Instruction",
+      "status": "candidate-context",
+      "text": "[ICLR'24] Mitigating Hallucination in Large Multi-Modal Models via Robust Instruction Tuning"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "FuxiaoLiu/LRV-Instruction",
+      "status": "candidate-context",
+      "text": "[Fuxiao Liu](https://fuxiaoliu.github.io/), [Kevin Lin](https://sites.google.com/site/kevinlin311tw/me), [Linjie Li](https://www.microsoft.com/en-us/research/people/linjli/), [Jianfeng Wang](http://jianfengwang.me/), [Yaser Yacoob](https://www.umiacs.umd.edu/people/yaser), [Liju\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "RUCAIBox/ICPC-Eval",
+      "status": "candidate-context",
+      "text": "A new benchmark of 118 ICPC problems for evaluating LLM reasoning in competitive coding, featuring realistic ICPC competition scenario, robust local evaluation, and a iterative repair metrics Refine@K"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "RUCAIBox/ICPC-Eval",
+      "status": "candidate-context",
+      "text": "ICPC-Eval is a Python-based framework designed to evaluate the capabilities of Large Language Models (LLMs) in solving competitive programming problems, specifically those in the style of the International Collegiate Programming Contest (ICPC). It automates the process of prompt\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jonschlinkert/whence",
+      "status": "candidate-context",
+      "text": "Add context awareness to your apps and frameworks by safely evaluating user-defined conditional expressions. Useful for evaluating expressions in config files, prompts, key bindings, completions, templates, and many other user cases."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jonschlinkert/whence",
+      "status": "candidate-context",
+      "text": "> Add context awareness to your apps and frameworks by safely evaluating user-defined conditional expressions. Useful for evaluating expressions in config files, prompts, key bindings, completions, templates, and many other user cases."
     }
   ],
   "candidate_glosses": [
@@ -243,6 +279,24 @@
       "source_repo": "MMMU-Benchmark/MMMU",
       "status": "candidate",
       "text": "[**\ud83c\udf10 Homepage**](https://mmmu-benchmark.github.io/) | [**\ud83c\udfc6 Leaderboard**](https://mmmu-benchmark.github.io/#leaderboard) | [**\ud83e\udd17 MMMU-Pro**](https://huggingface.co/datasets/MMMU/MMMU_Pro) | [**\ud83d\udcd6 MMMU-Pro arXiv**](https://arxiv.org/abs/2409.02813) | [**\ud83e\udd17 MMMU**](https://huggingfac\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "FuxiaoLiu/LRV-Instruction",
+      "status": "candidate",
+      "text": "[Fuxiao Liu](https://fuxiaoliu.github.io/), [Kevin Lin](https://sites.google.com/site/kevinlin311tw/me), [Linjie Li](https://www.microsoft.com/en-us/research/people/linjli/), [Jianfeng Wang](http://jianfengwang.me/), [Yaser Yacoob](https://www.umiacs.umd.edu/people/yaser), [Liju\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "RUCAIBox/ICPC-Eval",
+      "status": "candidate",
+      "text": "ICPC-Eval is a Python-based framework designed to evaluate the capabilities of Large Language Models (LLMs) in solving competitive programming problems, specifically those in the style of the International Collegiate Programming Contest (ICPC). It automates the process of prompt\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jonschlinkert/whence",
+      "status": "candidate",
+      "text": "> Add context awareness to your apps and frameworks by safely evaluating user-defined conditional expressions. Useful for evaluating expressions in config files, prompts, key bindings, completions, templates, and many other user cases."
     }
   ],
   "candidate_related_terms": [
@@ -385,11 +439,29 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": null,
       "source_repo": "MMMU-Benchmark/MMMU"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "FuxiaoLiu/LRV-Instruction"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "RUCAIBox/ICPC-Eval"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "jonschlinkert/whence"
     }
   ],
   "first_seen_at": "2026-04-18T11:24:14.688152+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

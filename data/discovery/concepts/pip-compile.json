@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "pip-compile"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jazzband/pip-tools",
+      "status": "candidate-context",
+      "text": "A set of tools to keep your pinned Python dependencies fresh."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jazzband/pip-tools",
+      "status": "candidate-context",
+      "text": "<!-- pyml disable-next-line first-line-heading -->"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jazzband/pip-tools",
+      "status": "candidate",
+      "text": "<!-- pyml disable-next-line first-line-heading -->"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "pip-compile",
+  "concept_id": "pip-compile",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "jazzband/pip-tools"
+    }
+  ],
+  "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "pip-compile",
+      "sense_id": "pip-compile#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

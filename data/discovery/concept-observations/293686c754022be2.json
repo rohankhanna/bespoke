@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A compact, efficient Prolog interpreter written in plain old C."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Trealla Prolog"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Trealla Prolog"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "prolog-interpreter",
+      "sense_id": "prolog-interpreter#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "prolog-interpreter",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "prolog-interpreter",
+  "observation_id": "293686c754022be2",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T00:37:16.824464+00:00",
+  "observed_text": "prolog-interpreter",
+  "source_context_snippet": "Trealla Prolog",
+  "source_file": null,
+  "source_repo": "trealla-prolog/trealla",
+  "source_repo_description": "A compact, efficient Prolog interpreter written in plain old C."
+}

@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Google Cloud Client Libraries for Go."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "vet"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "vet"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39907886,
+      "status": "candidate",
+      "text": "veterinarian"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39907882,
+      "status": "candidate",
+      "text": "veterinary surgeon"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39907507,
+      "status": "candidate",
+      "text": "veterinary"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39752503,
+      "status": "candidate",
+      "text": "veteran"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39740340,
+      "status": "candidate",
+      "text": "ex-serviceman"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "vet",
+      "sense_id": "vet#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 3036,
+      "status": "candidate",
+      "text": "veterinary"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 37,
+      "status": "candidate",
+      "text": "veterinarian"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 23,
+      "status": "candidate",
+      "text": "veterinary surgeon"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 16,
+      "status": "candidate",
+      "text": "ex-serviceman"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": null,
+      "status": "candidate",
+      "text": "veteran"
+    }
+  ],
+  "concept_id": "vet",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "vet",
+  "observation_id": "cf629555a07ba03c",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-30T00:37:16.824464+00:00",
+  "observed_text": "vet",
+  "source_context_snippet": "vet",
+  "source_file": ".github/workflows/vet.yml",
+  "source_repo": "googleapis/google-cloud-go",
+  "source_repo_description": "Google Cloud Client Libraries for Go."
+}

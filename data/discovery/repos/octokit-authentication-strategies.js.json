@@ -5,28 +5,21 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "octokit/authentication-strategies.js",
-      "target": "octokit/auth-app.js",
+      "target": "octokit/auth-unauthenticated.js",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "octokit/authentication-strategies.js",
-      "target": "octokit/app.js",
+      "target": "travi/octokit-auth-netrc",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "octokit/authentication-strategies.js",
-      "target": "octokit/auth-action.js",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "octokit/authentication-strategies.js",
-      "target": "octokit/action.js",
+      "target": "octokit/create-octokit-project.js",
       "target_type": "repository"
     },
     {
@@ -44,7 +37,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-24T09:12:25.145513+00:00",
+  "fetched_at": "2026-04-30T05:06:42.411914+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -71,22 +64,17 @@
   "repo_links": [
     {
       "edge_type": "explicit-github-link",
-      "full_name": "octokit/action.js",
+      "full_name": "octokit/auth-unauthenticated.js",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "octokit/app.js",
+      "full_name": "octokit/create-octokit-project.js",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "octokit/auth-action.js",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "octokit/auth-app.js",
+      "full_name": "travi/octokit-auth-netrc",
       "source_file": "README.md"
     }
   ],

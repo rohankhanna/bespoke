@@ -302,6 +302,30 @@
       "source_repo": "open-webui/open-webui",
       "status": "candidate-context",
       "text": "Codespell"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "scikit-learn/scikit-learn",
+      "status": "candidate-context",
+      "text": "scikit-learn: machine learning in Python"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "scikit-learn/scikit-learn",
+      "status": "candidate-context",
+      "text": "Codespell"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "iterate-ch/docs",
+      "status": "candidate-context",
+      "text": "Documentation for Cyberduck and Mountain Duck."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "iterate-ch/docs",
+      "status": "candidate-context",
+      "text": "Codespell"
     }
   ],
   "candidate_glosses": [
@@ -446,6 +470,18 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "open-webui/open-webui",
+      "status": "candidate",
+      "text": "Codespell"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "scikit-learn/scikit-learn",
+      "status": "candidate",
+      "text": "Codespell"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "iterate-ch/docs",
       "status": "candidate",
       "text": "Codespell"
     }
@@ -611,11 +647,23 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": ".github/workflows/codespell.disabled",
       "source_repo": "open-webui/open-webui"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/codespell.yml",
+      "source_repo": "scikit-learn/scikit-learn"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/codespell.yml",
+      "source_repo": "iterate-ch/docs"
     }
   ],
   "first_seen_at": "2026-04-18T11:57:36.597358+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

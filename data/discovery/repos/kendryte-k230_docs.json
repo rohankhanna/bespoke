@@ -1,0 +1,73 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "kendryte/k230_docs",
+      "target": "kendryte/k230_sdk",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "kendryte/k230_docs",
+      "target": "kendryte/k230_training_scripts",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kendryte/k230_docs",
+      "target": "k230",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T03:45:41.334837+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 15669
+    },
+    {
+      "path": "requirements.txt",
+      "size": 723
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Kendryte K230 SDK Docs",
+    "fork": false,
+    "full_name": "kendryte/k230_docs",
+    "html_url": "https://github.com/kendryte/k230_docs",
+    "language": "HTML",
+    "pushed_at": "2025-09-12T07:01:59Z",
+    "stargazers_count": 128,
+    "topics": [
+      "k230"
+    ],
+    "updated_at": "2026-04-22T09:53:19Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "kendryte/k230_sdk",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "kendryte/k230_training_scripts",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[![Github repository](https://img.shields.io/badge/github-repository-blue?logo=github&style=plastic)](https://github.com/kendryte/k230_docs)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "k230"
+    }
+  ]
+}

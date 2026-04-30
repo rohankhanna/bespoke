@@ -271,6 +271,18 @@
       "source_repo": "watchexec/cargo-watch",
       "status": "candidate-context",
       "text": "[![Crate release version](https://flat.badgen.net/crates/v/cargo-watch)](https://crates.io/crates/cargo-watch)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "LukeMathWalker/cargo-chef",
+      "status": "candidate-context",
+      "text": "A cargo-subcommand to speed up Rust Docker builds using Docker layer caching."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "LukeMathWalker/cargo-chef",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">cargo-chef</h1>"
     }
   ],
   "candidate_glosses": [
@@ -405,6 +417,12 @@
       "source_repo": "watchexec/cargo-watch",
       "status": "candidate",
       "text": "[![Crate release version](https://flat.badgen.net/crates/v/cargo-watch)](https://crates.io/crates/cargo-watch)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "LukeMathWalker/cargo-chef",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">cargo-chef</h1>"
     }
   ],
   "candidate_related_terms": [
@@ -622,11 +640,29 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "watchexec/cargo-watch"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "crate-ci/cargo-release"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "watchexec/cargo-watch"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "LukeMathWalker/cargo-chef"
     }
   ],
   "first_seen_at": "2026-04-19T02:42:33.990002+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

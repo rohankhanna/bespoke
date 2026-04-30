@@ -1,0 +1,101 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Redefining the multi cluster story of Argo CD"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![Integration tests](https://github.com/argoproj-labs/argocd-agent/actions/workflows/ci.yaml/badge.svg)](https://github.com/argoproj-labs/argocd-agent/actions/workflows/ci.yaml)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![Integration tests](https://github.com/argoproj-labs/argocd-agent/actions/workflows/ci.yaml/badge.svg)](https://github.com/argoproj-labs/argocd-agent/actions/workflows/ci.yaml)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39915028,
+      "status": "candidate",
+      "text": "grading"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29954695,
+      "status": "candidate",
+      "text": "scalable"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29949714,
+      "status": "candidate",
+      "text": "escalation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29942429,
+      "status": "candidate",
+      "text": "increasing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29941634,
+      "status": "candidate",
+      "text": "zooming"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "scaling",
+      "sense_id": "scaling#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 1038,
+      "status": "candidate",
+      "text": "grading"
+    }
+  ],
+  "concept_id": "scaling",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "scaling",
+  "observation_id": "8651d79628ecc467",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T00:37:16.824464+00:00",
+  "observed_text": "scaling",
+  "source_context_snippet": "[![Integration tests](https://github.com/argoproj-labs/argocd-agent/actions/workflows/ci.yaml/badge.svg)](https://github.com/argoproj-labs/argocd-agent/actions/workflows/ci.yaml)",
+  "source_file": null,
+  "source_repo": "argoproj-labs/argocd-agent",
+  "source_repo_description": "Redefining the multi cluster story of Argo CD"
+}

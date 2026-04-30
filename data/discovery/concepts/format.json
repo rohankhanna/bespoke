@@ -215,6 +215,30 @@
       "source_repo": "squidowl/iced",
       "status": "candidate-context",
       "text": "Format"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hecrj/icebreaker",
+      "status": "candidate-context",
+      "text": "A local AI chat app powered by \ud83e\udd80 Rust, \ud83e\uddca iced, \ud83e\udd17 Hugging Face, and \ud83e\udd99 llama.cpp"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hecrj/icebreaker",
+      "status": "candidate-context",
+      "text": "Format"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "skypilot-org/skypilot",
+      "status": "candidate-context",
+      "text": "Run, manage, and scale AI workloads on any AI infrastructure. Use one system to access & manage all AI compute (Kubernetes, Slurm, 20+ clouds, on-prem)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "skypilot-org/skypilot",
+      "status": "candidate-context",
+      "text": "format"
     }
   ],
   "candidate_glosses": [
@@ -319,6 +343,18 @@
       "source_repo": "squidowl/iced",
       "status": "candidate",
       "text": "Format"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hecrj/icebreaker",
+      "status": "candidate",
+      "text": "Format"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "skypilot-org/skypilot",
+      "status": "candidate",
+      "text": "format"
     }
   ],
   "candidate_related_terms": [
@@ -643,11 +679,41 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": ".github/workflows/format.yml",
       "source_repo": "squidowl/iced"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/format.yml",
+      "source_repo": "ocaml-tracing/ocaml-trace"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/format.yml",
+      "source_repo": "ocaml-tracing/ocaml-opentelemetry"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/format.yml",
+      "source_repo": "ocaml-tracing/ocaml-tracy"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/format.yml",
+      "source_repo": "hecrj/icebreaker"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/format.yml",
+      "source_repo": "skypilot-org/skypilot"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

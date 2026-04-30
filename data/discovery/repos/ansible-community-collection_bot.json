@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T05:08:21.206211+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3224
+    },
+    {
+      "path": "requirements.txt",
+      "size": 74
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Fork of Ansibullbot for collections",
+    "fork": false,
+    "full_name": "ansible-community/collection_bot",
+    "html_url": "https://github.com/ansible-community/collection_bot",
+    "language": "Python",
+    "pushed_at": "2026-02-17T20:37:16Z",
+    "stargazers_count": 4,
+    "topics": [],
+    "updated_at": "2026-02-17T20:37:22Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

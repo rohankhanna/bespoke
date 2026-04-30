@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Builds and tests"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mozilla/DeepSpeech",
+      "status": "candidate-context",
+      "text": "DeepSpeech is an open source embedded (offline, on-device) speech-to-text engine which can run in real time on devices ranging from a Raspberry Pi 4 to high power GPU servers."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mozilla/DeepSpeech",
+      "status": "candidate-context",
+      "text": "\"Builds and tests\""
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mozilla/DeepSpeech",
+      "status": "candidate",
+      "text": "\"Builds and tests\""
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27971,
+      "status": "candidate",
+      "text": "rocket engineer"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27971,
+      "status": "candidate",
+      "text": "rocket scientist"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10636,
+      "status": "candidate",
+      "text": "builder"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10575,
+      "status": "candidate",
+      "text": "establishment"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10575,
+      "status": "candidate",
+      "text": "follow-up"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Builds and tests",
+  "concept_id": "builds-and-tests",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/build-and-test.yml",
+      "source_repo": "mozilla/DeepSpeech"
+    }
+  ],
+  "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Builds and tests",
+      "sense_id": "builds-and-tests#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

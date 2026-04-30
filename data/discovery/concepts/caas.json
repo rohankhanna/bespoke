@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "caas"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "openshift/origin",
+      "status": "candidate-context",
+      "text": "Conformance test suite for OpenShift"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "openshift/origin",
+      "status": "candidate-context",
+      "text": "Origin Kubernetes"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "openshift/origin",
+      "status": "candidate",
+      "text": "Origin Kubernetes"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19220761,
+      "status": "candidate",
+      "text": "bca"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19210246,
+      "status": "candidate",
+      "text": "csa"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19204450,
+      "status": "candidate",
+      "text": "cba"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19195293,
+      "status": "candidate",
+      "text": "aca"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19191405,
+      "status": "candidate",
+      "text": "fac"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "caas",
+  "concept_id": "caas",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "openshift/origin"
+    }
+  ],
+  "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "caas",
+      "sense_id": "caas#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

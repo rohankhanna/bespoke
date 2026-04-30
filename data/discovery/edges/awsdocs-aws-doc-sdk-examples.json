@@ -1,0 +1,258 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "awsdocs/aws-doc-sdk-examples",
+      "target": "aws/aws-sdk-ruby",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "awsdocs/aws-doc-sdk-examples",
+      "target": "aws-samples/serverless-snippets",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "awsdocs/aws-doc-sdk-examples",
+      "target": "aws/aws-tools-for-powershell",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/KB_Updater.yml",
+      "source_repo": "awsdocs/aws-doc-sdk-examples",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/KB_Updater.yml",
+      "source_repo": "awsdocs/aws-doc-sdk-examples",
+      "target": "aws-actions/configure-aws-credentials@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-update-pr.yml",
+      "source_repo": "awsdocs/aws-doc-sdk-examples",
+      "target": "docker://chinthakagodawita/autoupdate-action:v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/auto-update-pr.yml",
+      "source_repo": "awsdocs/aws-doc-sdk-examples",
+      "target": "Keep PRs Updated from Main",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-push.yml",
+      "source_repo": "awsdocs/aws-doc-sdk-examples",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-push.yml",
+      "source_repo": "awsdocs/aws-doc-sdk-examples",
+      "target": "aws-actions/configure-aws-credentials@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-push.yml",
+      "source_repo": "awsdocs/aws-doc-sdk-examples",
+      "target": "aws-actions/amazon-ecr-login@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docker-push.yml",
+      "source_repo": "awsdocs/aws-doc-sdk-examples",
+      "target": "Docker Image CI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issue-metrics.yml",
+      "source_repo": "awsdocs/aws-doc-sdk-examples",
+      "target": "github-community-projects/issue-metrics@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issue-metrics.yml",
+      "source_repo": "awsdocs/aws-doc-sdk-examples",
+      "target": "peter-evans/create-issue-from-file@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/issue-metrics.yml",
+      "source_repo": "awsdocs/aws-doc-sdk-examples",
+      "target": "Monthly issue metrics",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/label-auditor.yml",
+      "source_repo": "awsdocs/aws-doc-sdk-examples",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/label-auditor.yml",
+      "source_repo": "awsdocs/aws-doc-sdk-examples",
+      "target": "crazy-max/ghaction-github-labeler@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/label-auditor.yml",
+      "source_repo": "awsdocs/aws-doc-sdk-examples",
+      "target": "Audit Labels",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/label-auto-language.yml",
+      "source_repo": "awsdocs/aws-doc-sdk-examples",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/label-auto-language.yml",
+      "source_repo": "awsdocs/aws-doc-sdk-examples",
+      "target": "actions/labeler@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/label-auto-language.yml",
+      "source_repo": "awsdocs/aws-doc-sdk-examples",
+      "target": "Auto Labeler",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/label-checker.yml",
+      "source_repo": "awsdocs/aws-doc-sdk-examples",
+      "target": "docker://agilepathway/pull-request-label-checker:latest",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/label-checker.yml",
+      "source_repo": "awsdocs/aws-doc-sdk-examples",
+      "target": "Label Checker",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint-check-dotnet.yml",
+      "source_repo": "awsdocs/aws-doc-sdk-examples",
+      "target": "actions/setup-dotnet@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint-check-dotnet.yml",
+      "source_repo": "awsdocs/aws-doc-sdk-examples",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint-check-dotnet.yml",
+      "source_repo": "awsdocs/aws-doc-sdk-examples",
+      "target": "tj-actions/changed-files@e9772d140489982e0e3704fea5ee93d536f1e275",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint-check-dotnet.yml",
+      "source_repo": "awsdocs/aws-doc-sdk-examples",
+      "target": "Dotnet Lint and Check",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint-golang.yml",
+      "source_repo": "awsdocs/aws-doc-sdk-examples",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint-golang.yml",
+      "source_repo": "awsdocs/aws-doc-sdk-examples",
+      "target": "tj-actions/changed-files@e9772d140489982e0e3704fea5ee93d536f1e275",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint-golang.yml",
+      "source_repo": "awsdocs/aws-doc-sdk-examples",
+      "target": "actions/setup-go@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint-golang.yml",
+      "source_repo": "awsdocs/aws-doc-sdk-examples",
+      "target": "Lint GoLang",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "awsdocs/aws-doc-sdk-examples",
+      "target": "documentation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "awsdocs/aws-doc-sdk-examples",
+      "target": "dotnet",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "awsdocs/aws-doc-sdk-examples",
+      "target": "examples",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "awsdocs/aws-doc-sdk-examples",
+      "target": "java",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "awsdocs/aws-doc-sdk-examples",
+      "target": "programming",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "awsdocs/aws-doc-sdk-examples",
+      "target": "ruby",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-30T00:37:16.824464+00:00",
+  "source_repo": "awsdocs/aws-doc-sdk-examples"
+}

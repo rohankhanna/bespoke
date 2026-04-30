@@ -1,0 +1,113 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "salesforce/CodeT5",
+      "target": "salesforce/coderl",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "salesforce/CodeT5",
+      "target": "code-generation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "salesforce/CodeT5",
+      "target": "code-intelligence",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "salesforce/CodeT5",
+      "target": "code-understanding",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "salesforce/CodeT5",
+      "target": "language-model",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "salesforce/CodeT5",
+      "target": "large-language-models",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T02:49:15.922277+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5119
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Home of CodeT5: Open Code LLMs for Code Understanding and Generation",
+    "fork": false,
+    "full_name": "salesforce/CodeT5",
+    "html_url": "https://github.com/salesforce/CodeT5",
+    "language": "Python",
+    "pushed_at": "2024-01-20T11:34:30Z",
+    "stargazers_count": 3101,
+    "topics": [
+      "code-generation",
+      "code-intelligence",
+      "code-understanding",
+      "language-model",
+      "large-language-models"
+    ],
+    "updated_at": "2026-04-29T14:32:45Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "salesforce/coderl",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Official research release for **CodeT5** and **CodeT5+** models for **Code Understanding and Generation** from Salesforce Research, which are introduced by the following papers:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "code-generation"
+    },
+    {
+      "context_snippet": "Official research release for **CodeT5** and **CodeT5+** models for **Code Understanding and Generation** from Salesforce Research, which are introduced by the following papers:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "code-intelligence"
+    },
+    {
+      "context_snippet": "Official research release for **CodeT5** and **CodeT5+** models for **Code Understanding and Generation** from Salesforce Research, which are introduced by the following papers:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "code-understanding"
+    },
+    {
+      "context_snippet": "Official research release for **CodeT5** and **CodeT5+** models for **Code Understanding and Generation** from Salesforce Research, which are introduced by the following papers:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "language-model"
+    },
+    {
+      "context_snippet": "Official research release for **CodeT5** and **CodeT5+** models for **Code Understanding and Generation** from Salesforce Research, which are introduced by the following papers:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "large-language-models"
+    }
+  ]
+}

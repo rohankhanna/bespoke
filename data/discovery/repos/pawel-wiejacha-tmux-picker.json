@@ -1,0 +1,172 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pawel-wiejacha/tmux-picker",
+      "target": "copy-paste",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pawel-wiejacha/tmux-picker",
+      "target": "hint",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pawel-wiejacha/tmux-picker",
+      "target": "keyboard-shortcuts",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pawel-wiejacha/tmux-picker",
+      "target": "productivity",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pawel-wiejacha/tmux-picker",
+      "target": "select",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pawel-wiejacha/tmux-picker",
+      "target": "tmux",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pawel-wiejacha/tmux-picker",
+      "target": "tmux-plugin",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pawel-wiejacha/tmux-picker",
+      "target": "tmux-plugins",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pawel-wiejacha/tmux-picker",
+      "target": "vimium",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pawel-wiejacha/tmux-picker",
+      "target": "vimperator",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T05:00:37.716984+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4769
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Selecting and copy-pasting in terminal using Vimium-like hint mode.",
+    "fork": false,
+    "full_name": "pawel-wiejacha/tmux-picker",
+    "html_url": "https://github.com/pawel-wiejacha/tmux-picker",
+    "language": "Awk",
+    "pushed_at": "2023-08-12T20:24:54Z",
+    "stargazers_count": 34,
+    "topics": [
+      "cli",
+      "copy-paste",
+      "hint",
+      "keyboard-shortcuts",
+      "productivity",
+      "select",
+      "tmux",
+      "tmux-plugin",
+      "tmux-plugins",
+      "vim",
+      "vimium",
+      "vimperator"
+    ],
+    "updated_at": "2026-03-23T19:54:00Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "**tmux-picker**: Selecting and copy-pasting in terminal using Vimium-like hint mode for tmux.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "copy-paste"
+    },
+    {
+      "context_snippet": "**tmux-picker**: Selecting and copy-pasting in terminal using Vimium-like hint mode for tmux.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hint"
+    },
+    {
+      "context_snippet": "**tmux-picker**: Selecting and copy-pasting in terminal using Vimium-like hint mode for tmux.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "keyboard-shortcuts"
+    },
+    {
+      "context_snippet": "**tmux-picker**: Selecting and copy-pasting in terminal using Vimium-like hint mode for tmux.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "productivity"
+    },
+    {
+      "context_snippet": "**tmux-picker**: Selecting and copy-pasting in terminal using Vimium-like hint mode for tmux.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "select"
+    },
+    {
+      "context_snippet": "**tmux-picker**: Selecting and copy-pasting in terminal using Vimium-like hint mode for tmux.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tmux"
+    },
+    {
+      "context_snippet": "**tmux-picker**: Selecting and copy-pasting in terminal using Vimium-like hint mode for tmux.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tmux-plugin"
+    },
+    {
+      "context_snippet": "**tmux-picker**: Selecting and copy-pasting in terminal using Vimium-like hint mode for tmux.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tmux-plugins"
+    },
+    {
+      "context_snippet": "**tmux-picker**: Selecting and copy-pasting in terminal using Vimium-like hint mode for tmux.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vimium"
+    },
+    {
+      "context_snippet": "**tmux-picker**: Selecting and copy-pasting in terminal using Vimium-like hint mode for tmux.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vimperator"
+    }
+  ]
+}

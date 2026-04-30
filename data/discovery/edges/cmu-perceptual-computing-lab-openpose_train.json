@@ -1,0 +1,76 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "CMU-Perceptual-Computing-Lab/openpose_train",
+      "target": "cmu-perceptual-computing-lab/openpose_training",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "CMU-Perceptual-Computing-Lab/openpose_train",
+      "target": "computer-vision",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "CMU-Perceptual-Computing-Lab/openpose_train",
+      "target": "deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "CMU-Perceptual-Computing-Lab/openpose_train",
+      "target": "human-behavior-understanding",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "CMU-Perceptual-Computing-Lab/openpose_train",
+      "target": "human-pose-estimation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "CMU-Perceptual-Computing-Lab/openpose_train",
+      "target": "iccv-2019",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "CMU-Perceptual-Computing-Lab/openpose_train",
+      "target": "machine-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "CMU-Perceptual-Computing-Lab/openpose_train",
+      "target": "openpose",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "CMU-Perceptual-Computing-Lab/openpose_train",
+      "target": "openpose-training",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "CMU-Perceptual-Computing-Lab/openpose_train",
+      "target": "real-time",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-30T00:37:16.824464+00:00",
+  "source_repo": "CMU-Perceptual-Computing-Lab/openpose_train"
+}

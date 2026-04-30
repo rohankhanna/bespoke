@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "conditional-gans"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lmxyy/sige",
+      "status": "candidate-context",
+      "text": "[NeurIPS 2022, T-PAMI 2023] Efficient Spatially Sparse Inference for Conditional GANs and Diffusion Models"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lmxyy/sige",
+      "status": "candidate-context",
+      "text": "**[NEW!]** SIGE is accepted by T-PAMI!"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lmxyy/sige",
+      "status": "candidate",
+      "text": "**[NEW!]** SIGE is accepted by T-PAMI!"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "conditional-gans",
+  "concept_id": "conditional-gans",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "lmxyy/sige"
+    }
+  ],
+  "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "conditional-gans",
+      "sense_id": "conditional-gans#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

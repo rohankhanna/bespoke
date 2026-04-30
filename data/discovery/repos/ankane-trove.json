@@ -1,0 +1,65 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ankane/trove",
+      "target": "ankane/xgboost",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ankane/trove",
+      "target": "ankane/torch.rb",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ankane/trove",
+      "target": "ankane/fasttext",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T03:44:18.525128+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4957
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Deploy machine learning models in Ruby (and Rails)",
+    "fork": false,
+    "full_name": "ankane/trove",
+    "html_url": "https://github.com/ankane/trove",
+    "language": "Ruby",
+    "pushed_at": "2026-04-09T18:50:57Z",
+    "stargazers_count": 78,
+    "topics": [],
+    "updated_at": "2026-04-09T18:50:58Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ankane/fasttext",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ankane/torch.rb",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ankane/xgboost",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

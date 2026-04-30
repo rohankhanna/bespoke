@@ -1,0 +1,638 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmark.yaml"
+    },
+    {
+      "component": "actions/cache@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmark.yaml"
+    },
+    {
+      "component": "actions/setup-node@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmark.yaml"
+    },
+    {
+      "component": "actions/cache@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmark.yaml"
+    },
+    {
+      "component": "pnpm/action-setup@v5.0.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmark.yaml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmark.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/clippy.yaml"
+    },
+    {
+      "component": "actions/cache@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/clippy.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yaml"
+    },
+    {
+      "component": "actions/attest-build-provenance@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yaml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yaml"
+    },
+    {
+      "component": "actions/attest-build-provenance@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yaml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yaml"
+    },
+    {
+      "component": "actions/attest-build-provenance@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yaml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yaml"
+    },
+    {
+      "component": "actions/create-release@v1.1.4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yaml"
+    },
+    {
+      "component": "actions/attest-build-provenance@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yaml"
+    },
+    {
+      "component": "actions/upload-release-asset@v1.0.2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yaml"
+    },
+    {
+      "component": "actions/upload-release-asset@v1.0.2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yaml"
+    },
+    {
+      "component": "actions/upload-release-asset@v1.0.2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yaml"
+    },
+    {
+      "component": "actions/upload-release-asset@v1.0.2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yaml"
+    },
+    {
+      "component": "actions/upload-release-asset@v1.0.2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yaml"
+    },
+    {
+      "component": "actions/upload-release-asset@v1.0.2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yaml"
+    },
+    {
+      "component": "actions/download-artifact@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yaml"
+    },
+    {
+      "component": "actions/upload-release-asset@v1.0.2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yaml"
+    },
+    {
+      "component": "actions/upload-release-asset@v1.0.2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yaml"
+    },
+    {
+      "component": "actions/download-artifact@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yaml"
+    },
+    {
+      "component": "actions/attest-build-provenance@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yaml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yaml"
+    },
+    {
+      "component": "actions/upload-release-asset@v1.0.2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yaml"
+    },
+    {
+      "component": "actions/upload-release-asset@v1.0.2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yaml"
+    },
+    {
+      "component": "actions/upload-release-asset@v1.0.2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yaml"
+    },
+    {
+      "component": "actions/cache@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yaml"
+    },
+    {
+      "component": "actions/setup-node@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yaml"
+    },
+    {
+      "component": "actions/cache@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yaml"
+    },
+    {
+      "component": "pnpm/action-setup@v5.0.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yaml"
+    },
+    {
+      "component": "actions/attest-build-provenance@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yaml"
+    },
+    {
+      "component": "actions/upload-release-asset@v1.0.2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fmt.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yaml"
+    },
+    {
+      "component": "actions/cache@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "KSXGitHub/parallel-disk-usage",
+      "target": "nachoparker/dutree",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "KSXGitHub/parallel-disk-usage",
+      "target": "dundee/gdu",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "KSXGitHub/parallel-disk-usage",
+      "target": "ksxgithub/parallel-disk-usage-0.20.0-benchmarks",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "KSXGitHub/parallel-disk-usage",
+      "target": "ksxgithub/pacman-repo",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmark.yaml",
+      "source_repo": "KSXGitHub/parallel-disk-usage",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmark.yaml",
+      "source_repo": "KSXGitHub/parallel-disk-usage",
+      "target": "actions/cache@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmark.yaml",
+      "source_repo": "KSXGitHub/parallel-disk-usage",
+      "target": "actions/setup-node@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmark.yaml",
+      "source_repo": "KSXGitHub/parallel-disk-usage",
+      "target": "pnpm/action-setup@v5.0.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmark.yaml",
+      "source_repo": "KSXGitHub/parallel-disk-usage",
+      "target": "actions/upload-artifact@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/benchmark.yaml",
+      "source_repo": "KSXGitHub/parallel-disk-usage",
+      "target": "Benchmark",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/clippy.yaml",
+      "source_repo": "KSXGitHub/parallel-disk-usage",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/clippy.yaml",
+      "source_repo": "KSXGitHub/parallel-disk-usage",
+      "target": "actions/cache@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/clippy.yaml",
+      "source_repo": "KSXGitHub/parallel-disk-usage",
+      "target": "Clippy",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yaml",
+      "source_repo": "KSXGitHub/parallel-disk-usage",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yaml",
+      "source_repo": "KSXGitHub/parallel-disk-usage",
+      "target": "actions/attest-build-provenance@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yaml",
+      "source_repo": "KSXGitHub/parallel-disk-usage",
+      "target": "actions/upload-artifact@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yaml",
+      "source_repo": "KSXGitHub/parallel-disk-usage",
+      "target": "actions/create-release@v1.1.4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yaml",
+      "source_repo": "KSXGitHub/parallel-disk-usage",
+      "target": "actions/upload-release-asset@v1.0.2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yaml",
+      "source_repo": "KSXGitHub/parallel-disk-usage",
+      "target": "actions/download-artifact@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yaml",
+      "source_repo": "KSXGitHub/parallel-disk-usage",
+      "target": "actions/cache@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yaml",
+      "source_repo": "KSXGitHub/parallel-disk-usage",
+      "target": "actions/setup-node@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yaml",
+      "source_repo": "KSXGitHub/parallel-disk-usage",
+      "target": "pnpm/action-setup@v5.0.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deploy.yaml",
+      "source_repo": "KSXGitHub/parallel-disk-usage",
+      "target": "Deployment",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fmt.yaml",
+      "source_repo": "KSXGitHub/parallel-disk-usage",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/fmt.yaml",
+      "source_repo": "KSXGitHub/parallel-disk-usage",
+      "target": "Code formatting",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yaml",
+      "source_repo": "KSXGitHub/parallel-disk-usage",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yaml",
+      "source_repo": "KSXGitHub/parallel-disk-usage",
+      "target": "actions/cache@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yaml",
+      "source_repo": "KSXGitHub/parallel-disk-usage",
+      "target": "Test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "KSXGitHub/parallel-disk-usage",
+      "target": "chart",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "KSXGitHub/parallel-disk-usage",
+      "target": "disk-usage",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "KSXGitHub/parallel-disk-usage",
+      "target": "filesystem",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "KSXGitHub/parallel-disk-usage",
+      "target": "graph",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "KSXGitHub/parallel-disk-usage",
+      "target": "rust",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "KSXGitHub/parallel-disk-usage",
+      "target": "size",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T00:40:36.678652+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9714
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 2158
+    },
+    {
+      "path": ".github/workflows/benchmark.yaml",
+      "size": 3847
+    },
+    {
+      "path": ".github/workflows/clippy.yaml",
+      "size": 1722
+    },
+    {
+      "path": ".github/workflows/deploy.yaml",
+      "size": 20188
+    },
+    {
+      "path": ".github/workflows/fmt.yaml",
+      "size": 515
+    },
+    {
+      "path": ".github/workflows/test.yaml",
+      "size": 2131
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Highly parallelized, blazing fast directory tree analyzer",
+    "fork": false,
+    "full_name": "KSXGitHub/parallel-disk-usage",
+    "html_url": "https://github.com/KSXGitHub/parallel-disk-usage",
+    "language": "Rust",
+    "pushed_at": "2026-04-28T01:37:07Z",
+    "stargazers_count": 690,
+    "topics": [
+      "chart",
+      "disk-usage",
+      "du",
+      "filesystem",
+      "graph",
+      "pdu",
+      "rust",
+      "size"
+    ],
+    "updated_at": "2026-04-25T13:17:54Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dundee/gdu",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ksxgithub/pacman-repo",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ksxgithub/parallel-disk-usage-0.20.0-benchmarks",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "nachoparker/dutree",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Benchmark",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/benchmark.yaml",
+      "term": "Benchmark"
+    },
+    {
+      "context_snippet": "Clippy",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/clippy.yaml",
+      "term": "Clippy"
+    },
+    {
+      "context_snippet": "Deployment",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deploy.yaml",
+      "term": "Deployment"
+    },
+    {
+      "context_snippet": "Code formatting",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/fmt.yaml",
+      "term": "Code formatting"
+    },
+    {
+      "context_snippet": "Test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yaml",
+      "term": "Test"
+    },
+    {
+      "context_snippet": "[![Test](https://github.com/KSXGitHub/parallel-disk-usage/workflows/Test/badge.svg)](https://github.com/KSXGitHub/parallel-disk-usage/actions?query=workflow%3ATest)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "chart"
+    },
+    {
+      "context_snippet": "[![Test](https://github.com/KSXGitHub/parallel-disk-usage/workflows/Test/badge.svg)](https://github.com/KSXGitHub/parallel-disk-usage/actions?query=workflow%3ATest)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "disk-usage"
+    },
+    {
+      "context_snippet": "[![Test](https://github.com/KSXGitHub/parallel-disk-usage/workflows/Test/badge.svg)](https://github.com/KSXGitHub/parallel-disk-usage/actions?query=workflow%3ATest)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "filesystem"
+    },
+    {
+      "context_snippet": "[![Test](https://github.com/KSXGitHub/parallel-disk-usage/workflows/Test/badge.svg)](https://github.com/KSXGitHub/parallel-disk-usage/actions?query=workflow%3ATest)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "graph"
+    },
+    {
+      "context_snippet": "[![Test](https://github.com/KSXGitHub/parallel-disk-usage/workflows/Test/badge.svg)](https://github.com/KSXGitHub/parallel-disk-usage/actions?query=workflow%3ATest)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rust"
+    },
+    {
+      "context_snippet": "[![Test](https://github.com/KSXGitHub/parallel-disk-usage/workflows/Test/badge.svg)](https://github.com/KSXGitHub/parallel-disk-usage/actions?query=workflow%3ATest)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "size"
+    }
+  ]
+}

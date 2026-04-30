@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "feature-matching"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "zju3dv/LoFTR",
+      "status": "candidate-context",
+      "text": "Code for \"LoFTR: Detector-Free Local Feature Matching with Transformers\", CVPR 2021, T-PAMI 2022"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "zju3dv/LoFTR",
+      "status": "candidate-context",
+      "text": "<br/>"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "zju3dv/LoFTR",
+      "status": "candidate",
+      "text": "<br/>"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "feature-matching",
+  "concept_id": "feature-matching",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "zju3dv/LoFTR"
+    }
+  ],
+  "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "feature-matching",
+      "sense_id": "feature-matching#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

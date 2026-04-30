@@ -550,6 +550,180 @@
       "source_repo": "dabevlohn/rand16",
       "status": "candidate-context",
       "text": "A [hyper-mcp](https://github.com/tuananh/hyper-mcp) plugin that generates random 16 bytes and encodes to base64uri."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "2KAbhishek/co-author.nvim",
+      "status": "candidate-context",
+      "text": "Quickly add co-authors to commits \ud83d\udcbb\ud83e\ude84"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "2KAbhishek/co-author.nvim",
+      "status": "candidate-context",
+      "text": "<div align = \"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "2KAbhishek/nerdy.nvim",
+      "status": "candidate-context",
+      "text": "Find Nerd Glyphs Easily \ud83e\udd13\ud83d\udd2d"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "2KAbhishek/nerdy.nvim",
+      "status": "candidate-context",
+      "text": "<div align = \"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "octokit/core.js",
+      "status": "candidate-context",
+      "text": "Extendable client for GitHub's REST & GraphQL APIs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "octokit/core.js",
+      "status": "candidate-context",
+      "text": "> Extendable client for GitHub's REST & GraphQL APIs"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "octokit/plugin-rest-endpoint-methods.js",
+      "status": "candidate-context",
+      "text": "Octokit plugin adding one method for all of api.github.com REST API endpoints"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "octokit/plugin-rest-endpoint-methods.js",
+      "status": "candidate-context",
+      "text": "> Octokit plugin adding one method for all of api.github.com REST API endpoints"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "octokit/auth-oauth-app.js",
+      "status": "candidate-context",
+      "text": "GitHub OAuth App authentication for JavaScript"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "octokit/auth-oauth-app.js",
+      "status": "candidate-context",
+      "text": "> GitHub OAuth App authentication for JavaScript"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "octokit/auth-oauth-device.js",
+      "status": "candidate-context",
+      "text": "GitHub OAuth Device authentication strategy for JavaScript"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "octokit/auth-oauth-device.js",
+      "status": "candidate-context",
+      "text": "> GitHub OAuth Device authentication strategy for JavaScript"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "junkblocker/calibre-zaw-source",
+      "status": "candidate-context",
+      "text": "calibre source for zaw"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "junkblocker/calibre-zaw-source",
+      "status": "candidate-context",
+      "text": "[calibre](http://www.calibre-ebook.com/) source for [zaw](https://github.com/zsh-users/zaw) the [zsh](http://www.zsh.org/) [anything.el](http://www.emacswiki.org/emacs/Anything)-like widget."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "OpenVoiceOS/ovos-tts-plugin-piper",
+      "status": "candidate-context",
+      "text": "[OpenVoiceOS (OVOS)](https://openvoiceos.org) TTS plugin for [piper](https://github.com/rhasspy/piper)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lumen-oss/rocks.nvim",
+      "status": "candidate-context",
+      "text": "\ud83c\udf12 Neovim plugin management inspired by Cargo, powered by luarocks"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lumen-oss/rocks.nvim",
+      "status": "candidate-context",
+      "text": "<!-- markdownlint-disable -->"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apache/apisix-go-plugin-runner",
+      "status": "candidate-context",
+      "text": "Go Plugin Runner for APISIX"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/apisix-go-plugin-runner",
+      "status": "candidate-context",
+      "text": "<!--"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "octokit/auth-token.js",
+      "status": "candidate-context",
+      "text": "GitHub API token authentication for browsers and Node.js"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "octokit/auth-token.js",
+      "status": "candidate-context",
+      "text": "> GitHub API token authentication for browsers and Node.js"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "octokit/auth-oauth-user-client.js",
+      "status": "candidate-context",
+      "text": "OAuth user authentication without exposing client secret"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "octokit/auth-oauth-user-client.js",
+      "status": "candidate-context",
+      "text": "> OAuth user authentication without exposing client secret"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "octokit/auth-callback.js",
+      "status": "candidate-context",
+      "text": "GitHub API authentication using a callback method"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "octokit/auth-callback.js",
+      "status": "candidate-context",
+      "text": "> GitHub API authentication using a callback method"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "octokit/auth-oauth-user.js",
+      "status": "candidate-context",
+      "text": "Octokit authentication strategy for OAuth clients"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "octokit/auth-oauth-user.js",
+      "status": "candidate-context",
+      "text": "> Octokit authentication strategy for OAuth user authentication"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "octokit/oauth-authorization-url.js",
+      "status": "candidate-context",
+      "text": "Universal library to retrieve GitHub\u2019s identity URL for the OAuth web flow"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "octokit/oauth-authorization-url.js",
+      "status": "candidate-context",
+      "text": "> Universal library to retrieve GitHub\u2019s identity URL for the OAuth web flow"
     }
   ],
   "candidate_glosses": [
@@ -822,6 +996,96 @@
       "source_repo": "dabevlohn/rand16",
       "status": "candidate",
       "text": "A [hyper-mcp](https://github.com/tuananh/hyper-mcp) plugin that generates random 16 bytes and encodes to base64uri."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "2KAbhishek/co-author.nvim",
+      "status": "candidate",
+      "text": "<div align = \"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "2KAbhishek/nerdy.nvim",
+      "status": "candidate",
+      "text": "<div align = \"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "octokit/core.js",
+      "status": "candidate",
+      "text": "> Extendable client for GitHub's REST & GraphQL APIs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "octokit/plugin-rest-endpoint-methods.js",
+      "status": "candidate",
+      "text": "> Octokit plugin adding one method for all of api.github.com REST API endpoints"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "octokit/auth-oauth-app.js",
+      "status": "candidate",
+      "text": "> GitHub OAuth App authentication for JavaScript"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "octokit/auth-oauth-device.js",
+      "status": "candidate",
+      "text": "> GitHub OAuth Device authentication strategy for JavaScript"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "junkblocker/calibre-zaw-source",
+      "status": "candidate",
+      "text": "[calibre](http://www.calibre-ebook.com/) source for [zaw](https://github.com/zsh-users/zaw) the [zsh](http://www.zsh.org/) [anything.el](http://www.emacswiki.org/emacs/Anything)-like widget."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "OpenVoiceOS/ovos-tts-plugin-piper",
+      "status": "candidate",
+      "text": "[OpenVoiceOS (OVOS)](https://openvoiceos.org) TTS plugin for [piper](https://github.com/rhasspy/piper)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lumen-oss/rocks.nvim",
+      "status": "candidate",
+      "text": "<!-- markdownlint-disable -->"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/apisix-go-plugin-runner",
+      "status": "candidate",
+      "text": "<!--"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "octokit/auth-token.js",
+      "status": "candidate",
+      "text": "> GitHub API token authentication for browsers and Node.js"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "octokit/auth-oauth-user-client.js",
+      "status": "candidate",
+      "text": "> OAuth user authentication without exposing client secret"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "octokit/auth-callback.js",
+      "status": "candidate",
+      "text": "> GitHub API authentication using a callback method"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "octokit/auth-oauth-user.js",
+      "status": "candidate",
+      "text": "> Octokit authentication strategy for OAuth user authentication"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "octokit/oauth-authorization-url.js",
+      "status": "candidate",
+      "text": "> Universal library to retrieve GitHub\u2019s identity URL for the OAuth web flow"
     }
   ],
   "candidate_related_terms": [
@@ -1159,11 +1423,131 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "dabevlohn/rand16"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "neovim/nvim-lspconfig"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "apache/casbin-fasthttp-auth"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "base-repos/base"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "lambdalisue/vim-gina"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "2KAbhishek/co-author.nvim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "2KAbhishek/nerdy.nvim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "octokit/core.js"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "octokit/plugin-rest-endpoint-methods.js"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "octokit/authentication-strategies.js"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "octokit/auth-oauth-app.js"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "octokit/auth-oauth-device.js"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "junkblocker/calibre-zaw-source"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "OpenVoiceOS/ovos-tts-plugin-piper"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "lumen-oss/rocks.nvim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "apache/apisix-go-plugin-runner"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "octokit/auth-token.js"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "octokit/auth-oauth-user-client.js"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "octokit/auth-callback.js"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "octokit/auth-oauth-user.js"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "octokit/oauth-authorization-url.js"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

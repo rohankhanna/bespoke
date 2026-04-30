@@ -1,0 +1,228 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-docker-image.yaml"
+    },
+    {
+      "component": "docker/setup-qemu-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-docker-image.yaml"
+    },
+    {
+      "component": "docker/setup-buildx-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-docker-image.yaml"
+    },
+    {
+      "component": "docker/login-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-docker-image.yaml"
+    },
+    {
+      "component": "docker/metadata-action@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-docker-image.yaml"
+    },
+    {
+      "component": "docker/metadata-action@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-docker-image.yaml"
+    },
+    {
+      "component": "docker/build-push-action@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-docker-image.yaml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-docker-image.yaml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/merge-docker-images.yaml"
+    },
+    {
+      "component": "docker/setup-buildx-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/merge-docker-images.yaml"
+    },
+    {
+      "component": "docker/login-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/merge-docker-images.yaml"
+    },
+    {
+      "component": "docker/metadata-action@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/merge-docker-images.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-docker-image.yaml",
+      "source_repo": "open-webui/pipelines",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-docker-image.yaml",
+      "source_repo": "open-webui/pipelines",
+      "target": "docker/setup-qemu-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-docker-image.yaml",
+      "source_repo": "open-webui/pipelines",
+      "target": "docker/setup-buildx-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-docker-image.yaml",
+      "source_repo": "open-webui/pipelines",
+      "target": "docker/login-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-docker-image.yaml",
+      "source_repo": "open-webui/pipelines",
+      "target": "docker/metadata-action@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-docker-image.yaml",
+      "source_repo": "open-webui/pipelines",
+      "target": "docker/build-push-action@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-docker-image.yaml",
+      "source_repo": "open-webui/pipelines",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-docker-image.yaml",
+      "source_repo": "open-webui/pipelines",
+      "target": "Build Docker Image",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/merge-docker-images.yaml",
+      "source_repo": "open-webui/pipelines",
+      "target": "actions/download-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/merge-docker-images.yaml",
+      "source_repo": "open-webui/pipelines",
+      "target": "docker/setup-buildx-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/merge-docker-images.yaml",
+      "source_repo": "open-webui/pipelines",
+      "target": "docker/login-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/merge-docker-images.yaml",
+      "source_repo": "open-webui/pipelines",
+      "target": "docker/metadata-action@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/merge-docker-images.yaml",
+      "source_repo": "open-webui/pipelines",
+      "target": "Merge Docker Images",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "open-webui/pipelines",
+      "target": "open-webui",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T02:01:49.204988+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9149
+    },
+    {
+      "path": "Dockerfile",
+      "size": 2466
+    },
+    {
+      "path": "requirements.txt",
+      "size": 696
+    },
+    {
+      "path": ".github/workflows/build-docker-image.yaml",
+      "size": 4055
+    },
+    {
+      "path": ".github/workflows/docker-build.yaml",
+      "size": 2091
+    },
+    {
+      "path": ".github/workflows/merge-docker-images.yaml",
+      "size": 2372
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Pipelines: Versatile, UI-Agnostic OpenAI-Compatible Plugin Framework ",
+    "fork": false,
+    "full_name": "open-webui/pipelines",
+    "html_url": "https://github.com/open-webui/pipelines",
+    "language": "Python",
+    "pushed_at": "2025-08-18T23:05:01Z",
+    "stargazers_count": 2357,
+    "topics": [
+      "open-webui"
+    ],
+    "updated_at": "2026-04-29T14:39:46Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Build Docker Image",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-docker-image.yaml",
+      "term": "Build Docker Image"
+    },
+    {
+      "context_snippet": "Merge Docker Images",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/merge-docker-images.yaml",
+      "term": "Merge Docker Images"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "open-webui"
+    }
+  ]
+}

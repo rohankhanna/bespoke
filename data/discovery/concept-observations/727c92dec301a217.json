@@ -84,7 +84,7 @@
   "normalized_form": "pr-gate",
   "observation_id": "727c92dec301a217",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_at": "2026-04-30T00:37:16.824464+00:00",
   "observed_text": "PR Gate",
   "source_context_snippet": "PR Gate",
   "source_file": ".github/workflows/_pr_gate.yml",

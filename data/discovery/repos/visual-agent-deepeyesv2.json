@@ -1,0 +1,53 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Visual-Agent/DeepEyesV2",
+      "target": "hiyouga/llama-factory",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Visual-Agent/DeepEyesV2",
+      "target": "chenshawn/multimodal-jupyter-sandbox",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T02:40:22.161007+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8082
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "Visual-Agent/DeepEyesV2",
+    "html_url": "https://github.com/Visual-Agent/DeepEyesV2",
+    "language": "Python",
+    "pushed_at": "2026-02-26T06:39:20Z",
+    "stargazers_count": 585,
+    "topics": [],
+    "updated_at": "2026-04-28T14:52:43Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "chenshawn/multimodal-jupyter-sandbox",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "hiyouga/llama-factory",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

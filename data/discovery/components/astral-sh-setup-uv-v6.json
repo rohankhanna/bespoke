@@ -1,7 +1,7 @@
 {
   "component": "astral-sh/setup-uv@v6",
   "first_seen_at": "2026-04-18T09:11:35.827547+00:00",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -402,6 +402,26 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/github-release.yml",
       "source_repo": "optuna/optuna-dashboard"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/pr-format.yml",
+      "source_repo": "castorini/umbrela"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "TorchDR/TorchDR"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci-integrate.yml",
+      "source_repo": "Lightning-AI/torchmetrics"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci-tests.yml",
+      "source_repo": "Lightning-AI/torchmetrics"
     }
   ]
 }

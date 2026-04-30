@@ -43,6 +43,30 @@
       "source_repo": "ameshkov/dnscrypt",
       "status": "candidate-context",
       "text": "[![Code Coverage](https://img.shields.io/codecov/c/github/ameshkov/dnscrypt/master.svg)](https://codecov.io/github/ameshkov/dnscrypt?branch=master)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cofyc/dnscrypt-wrapper",
+      "status": "candidate-context",
+      "text": "This is dnscrypt wrapper (server-side dnscrypt proxy), which helps to add dnscrypt support to any name resolver."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cofyc/dnscrypt-wrapper",
+      "status": "candidate-context",
+      "text": "dnscrypt-wrapper - A server-side dnscrypt proxy."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "DNSCrypt/dnscrypt-proxy",
+      "status": "candidate-context",
+      "text": "dnscrypt-proxy 2 - A flexible DNS proxy, with support for encrypted DNS protocols."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DNSCrypt/dnscrypt-proxy",
+      "status": "candidate-context",
+      "text": "[![Financial Contributors on Open Collective](https://opencollective.com/dnscrypt/all/badge.svg?label=financial+contributors)](https://opencollective.com/dnscrypt)"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +87,18 @@
       "source_repo": "ameshkov/dnscrypt",
       "status": "candidate",
       "text": "[![Code Coverage](https://img.shields.io/codecov/c/github/ameshkov/dnscrypt/master.svg)](https://codecov.io/github/ameshkov/dnscrypt?branch=master)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cofyc/dnscrypt-wrapper",
+      "status": "candidate",
+      "text": "dnscrypt-wrapper - A server-side dnscrypt proxy."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DNSCrypt/dnscrypt-proxy",
+      "status": "candidate",
+      "text": "[![Financial Contributors on Open Collective](https://opencollective.com/dnscrypt/all/badge.svg?label=financial+contributors)](https://opencollective.com/dnscrypt)"
     }
   ],
   "candidate_related_terms": [
@@ -124,11 +160,23 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "ameshkov/dnscrypt"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "cofyc/dnscrypt-wrapper"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "DNSCrypt/dnscrypt-proxy"
     }
   ],
   "first_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

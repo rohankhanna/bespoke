@@ -1,0 +1,17 @@
+{
+  "component": "dawidd6/action-send-mail@42942bc2f8fba4e611b459a018967a6a7c78c68c",
+  "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/check_cirrus_cron.yml",
+      "source_repo": "containers/podman"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/issue_pr_lock.yml",
+      "source_repo": "containers/podman"
+    }
+  ]
+}

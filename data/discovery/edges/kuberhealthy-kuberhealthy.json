@@ -1,0 +1,230 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "kuberhealthy/kuberhealthy",
+      "target": "chrishirsch/kuberhealthy-storage-check",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-latest-ami-check.yml",
+      "source_repo": "kuberhealthy/kuberhealthy",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-latest-ami-check.yml",
+      "source_repo": "kuberhealthy/kuberhealthy",
+      "target": "burdzwastaken/hadolint-action@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-latest-ami-check.yml",
+      "source_repo": "kuberhealthy/kuberhealthy",
+      "target": "Build and Push AMI-Check Latest",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-latest-daemonset-check.yml",
+      "source_repo": "kuberhealthy/kuberhealthy",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-latest-daemonset-check.yml",
+      "source_repo": "kuberhealthy/kuberhealthy",
+      "target": "burdzwastaken/hadolint-action@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-latest-daemonset-check.yml",
+      "source_repo": "kuberhealthy/kuberhealthy",
+      "target": "Build and Push Daemon-Set-Check Latest",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-latest-deployment-check.yml",
+      "source_repo": "kuberhealthy/kuberhealthy",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-latest-deployment-check.yml",
+      "source_repo": "kuberhealthy/kuberhealthy",
+      "target": "burdzwastaken/hadolint-action@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-latest-deployment-check.yml",
+      "source_repo": "kuberhealthy/kuberhealthy",
+      "target": "Build and Push Deployment-Check Latest",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-latest-dns-resolution-check.yml",
+      "source_repo": "kuberhealthy/kuberhealthy",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-latest-dns-resolution-check.yml",
+      "source_repo": "kuberhealthy/kuberhealthy",
+      "target": "burdzwastaken/hadolint-action@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-latest-dns-resolution-check.yml",
+      "source_repo": "kuberhealthy/kuberhealthy",
+      "target": "Build and Push DNS-Resolution-Check Latest",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-latest-docker.yml",
+      "source_repo": "kuberhealthy/kuberhealthy",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-latest-docker.yml",
+      "source_repo": "kuberhealthy/kuberhealthy",
+      "target": "Build and Push kuberhealthy Unstable",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-latest-github.yml.disabled",
+      "source_repo": "kuberhealthy/kuberhealthy",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-latest-github.yml.disabled",
+      "source_repo": "kuberhealthy/kuberhealthy",
+      "target": "Build and Push Latest",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-latest-http-check.yml",
+      "source_repo": "kuberhealthy/kuberhealthy",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-latest-http-check.yml",
+      "source_repo": "kuberhealthy/kuberhealthy",
+      "target": "burdzwastaken/hadolint-action@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-latest-http-check.yml",
+      "source_repo": "kuberhealthy/kuberhealthy",
+      "target": "Build and Push HTTP-Check Latest",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-latest-http-content-check.yml",
+      "source_repo": "kuberhealthy/kuberhealthy",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-latest-http-content-check.yml",
+      "source_repo": "kuberhealthy/kuberhealthy",
+      "target": "burdzwastaken/hadolint-action@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-latest-http-content-check.yml",
+      "source_repo": "kuberhealthy/kuberhealthy",
+      "target": "Build and Push HTTP-Content-Check Latest",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kuberhealthy/kuberhealthy",
+      "target": "cicd",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kuberhealthy/kuberhealthy",
+      "target": "continuous-delivery",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kuberhealthy/kuberhealthy",
+      "target": "continuous-integration",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kuberhealthy/kuberhealthy",
+      "target": "continuous-testing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kuberhealthy/kuberhealthy",
+      "target": "health",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kuberhealthy/kuberhealthy",
+      "target": "kubernetes",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kuberhealthy/kuberhealthy",
+      "target": "monitoring",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kuberhealthy/kuberhealthy",
+      "target": "operator",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kuberhealthy/kuberhealthy",
+      "target": "synthetic",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-30T00:37:16.824464+00:00",
+  "source_repo": "kuberhealthy/kuberhealthy"
+}

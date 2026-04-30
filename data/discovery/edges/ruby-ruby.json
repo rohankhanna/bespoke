@@ -1,0 +1,237 @@
+{
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/annocheck.yml",
+      "source_repo": "ruby/ruby",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/annocheck.yml",
+      "source_repo": "ruby/ruby",
+      "target": "ruby/setup-ruby@c4e5b1316158f92e3d49443a9d58b31d25ac0f8f",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/annocheck.yml",
+      "source_repo": "ruby/ruby",
+      "target": "Annocheck",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto_request_review.yml",
+      "source_repo": "ruby/ruby",
+      "target": "necojackarc/auto-request-review@5d3060495e58e9cb41f51de50e808d3135d5374e",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/auto_request_review.yml",
+      "source_repo": "ruby/ruby",
+      "target": "Auto Request Review",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto_review_pr.yml",
+      "source_repo": "ruby/ruby",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto_review_pr.yml",
+      "source_repo": "ruby/ruby",
+      "target": "ruby/setup-ruby@c4e5b1316158f92e3d49443a9d58b31d25ac0f8f",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/auto_review_pr.yml",
+      "source_repo": "ruby/ruby",
+      "target": "Auto Review PR",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/baseruby.yml",
+      "source_repo": "ruby/ruby",
+      "target": "ruby/setup-ruby@c4e5b1316158f92e3d49443a9d58b31d25ac0f8f",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/baseruby.yml",
+      "source_repo": "ruby/ruby",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/baseruby.yml",
+      "source_repo": "ruby/ruby",
+      "target": "BASERUBY Check",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bundled_gems.yml",
+      "source_repo": "ruby/ruby",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bundled_gems.yml",
+      "source_repo": "ruby/ruby",
+      "target": "ruby/setup-ruby@c4e5b1316158f92e3d49443a9d58b31d25ac0f8f",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check_dependencies.yml",
+      "source_repo": "ruby/ruby",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check_dependencies.yml",
+      "source_repo": "ruby/ruby",
+      "target": "ruby/setup-ruby@c4e5b1316158f92e3d49443a9d58b31d25ac0f8f",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check_dependencies.yml",
+      "source_repo": "ruby/ruby",
+      "target": "Check Dependencies",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check_misc.yml",
+      "source_repo": "ruby/ruby",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check_misc.yml",
+      "source_repo": "ruby/ruby",
+      "target": "ruby/setup-ruby@c4e5b1316158f92e3d49443a9d58b31d25ac0f8f",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check_misc.yml",
+      "source_repo": "ruby/ruby",
+      "target": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check_misc.yml",
+      "source_repo": "ruby/ruby",
+      "target": "Misc",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check_sast.yml",
+      "source_repo": "ruby/ruby",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check_sast.yml",
+      "source_repo": "ruby/ruby",
+      "target": "zizmorcore/zizmor-action@b1d7e1fb5de872772f31590499237e7cce841e8e",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check_sast.yml",
+      "source_repo": "ruby/ruby",
+      "target": "github/codeql-action/init@95e58e9a2cdfd71adc6e0353d5c52f41a045d225",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check_sast.yml",
+      "source_repo": "ruby/ruby",
+      "target": "github/codeql-action/analyze@95e58e9a2cdfd71adc6e0353d5c52f41a045d225",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check_sast.yml",
+      "source_repo": "ruby/ruby",
+      "target": "advanced-security/filter-sarif@2da736ff05ef065cb2894ac6892e47b5eac2c3c0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check_sast.yml",
+      "source_repo": "ruby/ruby",
+      "target": "github/codeql-action/upload-sarif@95e58e9a2cdfd71adc6e0353d5c52f41a045d225",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check_sast.yml",
+      "source_repo": "ruby/ruby",
+      "target": "Check SAST tool",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ruby/ruby",
+      "target": "language",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ruby/ruby",
+      "target": "object-oriented",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ruby/ruby",
+      "target": "programming-language",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ruby/ruby",
+      "target": "ruby",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ruby/ruby",
+      "target": "ruby-language",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ruby/ruby",
+      "target": "rust",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-30T00:37:16.824464+00:00",
+  "source_repo": "ruby/ruby"
+}

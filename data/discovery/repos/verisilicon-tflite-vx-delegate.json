@@ -1,0 +1,115 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.gcc.yml"
+    },
+    {
+      "component": "egor-tensin/setup-clang@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.gcc.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.gcc.yml",
+      "source_repo": "VeriSilicon/tflite-vx-delegate",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.gcc.yml",
+      "source_repo": "VeriSilicon/tflite-vx-delegate",
+      "target": "egor-tensin/setup-clang@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "VeriSilicon/tflite-vx-delegate",
+      "target": "deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "VeriSilicon/tflite-vx-delegate",
+      "target": "tensorflow",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "VeriSilicon/tflite-vx-delegate",
+      "target": "tflite",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "VeriSilicon/tflite-vx-delegate",
+      "target": "tflite-delegate",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T03:46:37.558773+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6692
+    },
+    {
+      "path": ".github/workflows/build.gcc.yml",
+      "size": 965
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Tensorflow Lite external delegate based on TIM-VX",
+    "fork": false,
+    "full_name": "VeriSilicon/tflite-vx-delegate",
+    "html_url": "https://github.com/VeriSilicon/tflite-vx-delegate",
+    "language": "C++",
+    "pushed_at": "2026-03-12T11:55:54Z",
+    "stargazers_count": 48,
+    "topics": [
+      "deep-learning",
+      "tensorflow",
+      "tflite",
+      "tflite-delegate"
+    ],
+    "updated_at": "2026-03-12T11:55:58Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "TfLite-vx-delegate constructed with TIM-VX as an openvx delegate for tensorflow lite. Before vx-delegate, you may have nnapi-linux version from VeriSilicon, we suggest you move to this new delegate because:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-learning"
+    },
+    {
+      "context_snippet": "TfLite-vx-delegate constructed with TIM-VX as an openvx delegate for tensorflow lite. Before vx-delegate, you may have nnapi-linux version from VeriSilicon, we suggest you move to this new delegate because:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tensorflow"
+    },
+    {
+      "context_snippet": "TfLite-vx-delegate constructed with TIM-VX as an openvx delegate for tensorflow lite. Before vx-delegate, you may have nnapi-linux version from VeriSilicon, we suggest you move to this new delegate because:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tflite"
+    },
+    {
+      "context_snippet": "TfLite-vx-delegate constructed with TIM-VX as an openvx delegate for tensorflow lite. Before vx-delegate, you may have nnapi-linux version from VeriSilicon, we suggest you move to this new delegate because:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tflite-delegate"
+    }
+  ]
+}

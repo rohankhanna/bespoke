@@ -9,13 +9,6 @@
       "target_type": "repository"
     },
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "MrGemy95/Tensorflow-Project-Template",
-      "target": "jtoy/awesome-tensorflow",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "repo-topic",
       "source_file": null,
       "source_repo": "MrGemy95/Tensorflow-Project-Template",
@@ -86,7 +79,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-29T20:45:33.056122+00:00",
+  "fetched_at": "2026-04-30T02:01:26.046650+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -120,11 +113,6 @@
     "updated_at": "2026-04-28T21:54:31Z"
   },
   "repo_links": [
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "jtoy/awesome-tensorflow",
-      "source_file": "README.md"
-    },
     {
       "edge_type": "explicit-github-link",
       "full_name": "mrgemy95/tensorflow-project-templete",

@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A fast Golang Redis client that supports Client Side Caching, Auto Pipelining, RDMA, etc."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![Go Reference](https://pkg.go.dev/badge/github.com/redis/rueidis.svg)](https://pkg.go.dev/github.com/redis/rueidis)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![Go Reference](https://pkg.go.dev/badge/github.com/redis/rueidis.svg)](https://pkg.go.dev/github.com/redis/rueidis)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40018499,
+      "status": "candidate",
+      "text": "hoard"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40016870,
+      "status": "candidate",
+      "text": "stash"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40015119,
+      "status": "candidate",
+      "text": "squirrel away"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40014919,
+      "status": "candidate",
+      "text": "hive up"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40011900,
+      "status": "candidate",
+      "text": "lay away"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "cache",
+      "sense_id": "cache#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 9036,
+      "status": "candidate",
+      "text": "stash"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 1015,
+      "status": "candidate",
+      "text": "squirrel away"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 17,
+      "status": "candidate",
+      "text": "lay away"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 10,
+      "status": "candidate",
+      "text": "hive up"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": null,
+      "status": "candidate",
+      "text": "hoard"
+    }
+  ],
+  "concept_id": "cache",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "cache",
+  "observation_id": "01af29c4c4a6a877",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T00:37:16.824464+00:00",
+  "observed_text": "cache",
+  "source_context_snippet": "[![Go Reference](https://pkg.go.dev/badge/github.com/redis/rueidis.svg)](https://pkg.go.dev/github.com/redis/rueidis)",
+  "source_file": null,
+  "source_repo": "redis/rueidis",
+  "source_repo_description": "A fast Golang Redis client that supports Client Side Caching, Auto Pipelining, RDMA, etc."
+}

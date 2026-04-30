@@ -1,0 +1,17 @@
+{
+  "component": "julia-actions/setup-julia@5c9647d97b78a5debe5164e9eec09d653d29bd71",
+  "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.nightly.yml",
+      "source_repo": "JuliaLang/PackageCompiler.jl"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "JuliaLang/PackageCompiler.jl"
+    }
+  ]
+}

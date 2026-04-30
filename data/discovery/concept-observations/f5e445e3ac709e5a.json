@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "\ud83d\udc1a A powerful relational ORM for Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Release Bot"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Release Bot"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12238,
+      "status": "candidate",
+      "text": "dehiscent"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11359,
+      "status": "candidate",
+      "text": "aac"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11359,
+      "status": "candidate",
+      "text": "costate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11359,
+      "status": "candidate",
+      "text": "cruciform"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11359,
+      "status": "candidate",
+      "text": "dac"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Release Bot",
+      "sense_id": "release-bot#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "release-bot",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "release-bot",
+  "observation_id": "f5e445e3ac709e5a",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-30T00:37:16.824464+00:00",
+  "observed_text": "Release Bot",
+  "source_context_snippet": "Release Bot",
+  "source_file": ".github/workflows/release-bot.yml",
+  "source_repo": "SeaQL/sea-orm",
+  "source_repo_description": "\ud83d\udc1a A powerful relational ORM for Rust"
+}

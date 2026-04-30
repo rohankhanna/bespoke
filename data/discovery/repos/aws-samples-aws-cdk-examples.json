@@ -1,0 +1,211 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-pull-request.yml"
+    },
+    {
+      "component": "tj-actions/changed-files@2bb135777322059ee3a3c9239999b159ff49febc",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-pull-request.yml"
+    },
+    {
+      "component": "aws-actions/stale-issue-cleanup@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/close-stale-issues.yml"
+    },
+    {
+      "component": "aws-actions/closed-issue-message@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/closed-issue-message.yml"
+    },
+    {
+      "component": "aws-github-ops/handle-stale-discussions@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/handle-stale-discussions.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "aws-samples/aws-cdk-examples",
+      "target": "aws/jsii",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "aws-samples/aws-cdk-examples",
+      "target": "kolomied/awesome-cdk",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "aws-samples/aws-cdk-examples",
+      "target": "aws-samples/aws-cdk-changelogs-demo",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-pull-request.yml",
+      "source_repo": "aws-samples/aws-cdk-examples",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-pull-request.yml",
+      "source_repo": "aws-samples/aws-cdk-examples",
+      "target": "tj-actions/changed-files@2bb135777322059ee3a3c9239999b159ff49febc",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-pull-request.yml",
+      "source_repo": "aws-samples/aws-cdk-examples",
+      "target": "Build Pull Request",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/close-stale-issues.yml",
+      "source_repo": "aws-samples/aws-cdk-examples",
+      "target": "aws-actions/stale-issue-cleanup@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/close-stale-issues.yml",
+      "source_repo": "aws-samples/aws-cdk-examples",
+      "target": "Close Stale Issues",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/closed-issue-message.yml",
+      "source_repo": "aws-samples/aws-cdk-examples",
+      "target": "aws-actions/closed-issue-message@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/closed-issue-message.yml",
+      "source_repo": "aws-samples/aws-cdk-examples",
+      "target": "Closed Issue Message",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/handle-stale-discussions.yml",
+      "source_repo": "aws-samples/aws-cdk-examples",
+      "target": "aws-github-ops/handle-stale-discussions@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/handle-stale-discussions.yml",
+      "source_repo": "aws-samples/aws-cdk-examples",
+      "target": "HandleStaleDiscussions",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aws-samples/aws-cdk-examples",
+      "target": "cdk-examples",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T01:47:35.136315+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3869
+    },
+    {
+      "path": ".github/workflows/build-pull-request.yml",
+      "size": 6382
+    },
+    {
+      "path": ".github/workflows/close-stale-issues.yml",
+      "size": 1918
+    },
+    {
+      "path": ".github/workflows/closed-issue-message.yml",
+      "size": 749
+    },
+    {
+      "path": ".github/workflows/handle-stale-discussions.yml",
+      "size": 423
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Example projects using the AWS CDK",
+    "fork": false,
+    "full_name": "aws-samples/aws-cdk-examples",
+    "html_url": "https://github.com/aws-samples/aws-cdk-examples",
+    "language": "Python",
+    "pushed_at": "2026-04-27T08:27:46Z",
+    "stargazers_count": 5589,
+    "topics": [
+      "cdk",
+      "cdk-examples"
+    ],
+    "updated_at": "2026-04-28T06:50:46Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "aws-samples/aws-cdk-changelogs-demo",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "aws/jsii",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "kolomied/awesome-cdk",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Build Pull Request",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-pull-request.yml",
+      "term": "Build Pull Request"
+    },
+    {
+      "context_snippet": "\"Close Stale Issues\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/close-stale-issues.yml",
+      "term": "Close Stale Issues"
+    },
+    {
+      "context_snippet": "Closed Issue Message",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/closed-issue-message.yml",
+      "term": "Closed Issue Message"
+    },
+    {
+      "context_snippet": "HandleStaleDiscussions",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/handle-stale-discussions.yml",
+      "term": "HandleStaleDiscussions"
+    },
+    {
+      "context_snippet": "This repository contains a set of example projects for the [AWS Cloud Development",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cdk-examples"
+    }
+  ]
+}

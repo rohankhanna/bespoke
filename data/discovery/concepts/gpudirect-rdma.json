@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "gpudirect-rdma"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "NVIDIA/gdrcopy",
+      "status": "candidate-context",
+      "text": "A fast GPU memory copy library based on NVIDIA GPUDirect RDMA technology"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NVIDIA/gdrcopy",
+      "status": "candidate-context",
+      "text": "A low-latency GPU memory copy library based on NVIDIA GPUDirect RDMA"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NVIDIA/gdrcopy",
+      "status": "candidate",
+      "text": "A low-latency GPU memory copy library based on NVIDIA GPUDirect RDMA"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "gpudirect-rdma",
+  "concept_id": "gpudirect-rdma",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "NVIDIA/gdrcopy"
+    }
+  ],
+  "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "gpudirect-rdma",
+      "sense_id": "gpudirect-rdma#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

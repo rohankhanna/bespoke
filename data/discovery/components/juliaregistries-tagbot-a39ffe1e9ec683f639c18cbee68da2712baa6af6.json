@@ -1,0 +1,12 @@
+{
+  "component": "JuliaRegistries/TagBot@a39ffe1e9ec683f639c18cbee68da2712baa6af6",
+  "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/TagBot.yml",
+      "source_repo": "JuliaCI/BenchmarkTools.jl"
+    }
+  ]
+}

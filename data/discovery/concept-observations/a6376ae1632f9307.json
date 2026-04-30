@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "View disk space usage and delete unwanted data, fast."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![Rust](https://github.com/Byron/dua-cli/workflows/Rust/badge.svg)](https://github.com/byron/dua-cli/actions)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![Rust](https://github.com/Byron/dua-cli/workflows/Rust/badge.svg)](https://github.com/byron/dua-cli/actions)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39984683,
+      "status": "candidate",
+      "text": "effective"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39982215,
+      "status": "candidate",
+      "text": "competent"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39979588,
+      "status": "candidate",
+      "text": "businesslike"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39976982,
+      "status": "candidate",
+      "text": "timesaving"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39955857,
+      "status": "candidate",
+      "text": "economic"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "efficient",
+      "sense_id": "efficient#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 54044,
+      "status": "candidate",
+      "text": "prompt"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 34046,
+      "status": "candidate",
+      "text": "competent"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 23028,
+      "status": "candidate",
+      "text": "expeditious"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 21044,
+      "status": "candidate",
+      "text": "effective"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 17023,
+      "status": "candidate",
+      "text": "streamlined"
+    }
+  ],
+  "concept_id": "efficient",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "efficient",
+  "observation_id": "a6376ae1632f9307",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T00:37:16.824464+00:00",
+  "observed_text": "efficient",
+  "source_context_snippet": "[![Rust](https://github.com/Byron/dua-cli/workflows/Rust/badge.svg)](https://github.com/byron/dua-cli/actions)",
+  "source_file": null,
+  "source_repo": "Byron/dua-cli",
+  "source_repo_description": "View disk space usage and delete unwanted data, fast."
+}

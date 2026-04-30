@@ -43,6 +43,30 @@
       "source_repo": "bugaevc/wl-clipboard",
       "status": "candidate-context",
       "text": "This project implements two command-line Wayland clipboard utilities, `wl-copy`"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "YaLTeR/wl-clipboard-rs",
+      "status": "candidate-context",
+      "text": "A safe Rust crate for working with the Wayland clipboard."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "YaLTeR/wl-clipboard-rs",
+      "status": "candidate-context",
+      "text": "[![crates.io](https://img.shields.io/crates/v/wl-clipboard-rs.svg)](https://crates.io/crates/wl-clipboard-rs)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "tmux-plugins/tmux-yank",
+      "status": "candidate-context",
+      "text": "Tmux plugin for copying to system clipboard. Works on OSX, Linux and Cygwin."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tmux-plugins/tmux-yank",
+      "status": "candidate-context",
+      "text": "[![Build"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +87,18 @@
       "source_repo": "bugaevc/wl-clipboard",
       "status": "candidate",
       "text": "This project implements two command-line Wayland clipboard utilities, `wl-copy`"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "YaLTeR/wl-clipboard-rs",
+      "status": "candidate",
+      "text": "[![crates.io](https://img.shields.io/crates/v/wl-clipboard-rs.svg)](https://crates.io/crates/wl-clipboard-rs)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tmux-plugins/tmux-yank",
+      "status": "candidate",
+      "text": "[![Build"
     }
   ],
   "candidate_related_terms": [
@@ -124,11 +160,23 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "bugaevc/wl-clipboard"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "YaLTeR/wl-clipboard-rs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "tmux-plugins/tmux-yank"
     }
   ],
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

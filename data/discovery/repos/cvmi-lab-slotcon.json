@@ -1,0 +1,155 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "CVMI-Lab/SlotCon",
+      "target": "cvmi-lab/slotmim",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "CVMI-Lab/SlotCon",
+      "target": "zdaxie/pixpro",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "CVMI-Lab/SlotCon",
+      "target": "facebookresearch/dino",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "CVMI-Lab/SlotCon",
+      "target": "contrastive-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "CVMI-Lab/SlotCon",
+      "target": "neurips-2022",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "CVMI-Lab/SlotCon",
+      "target": "object-discovery",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "CVMI-Lab/SlotCon",
+      "target": "pre-training",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "CVMI-Lab/SlotCon",
+      "target": "self-supervised-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "CVMI-Lab/SlotCon",
+      "target": "slotcon",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T05:14:05.477742+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 10243
+    },
+    {
+      "path": "requirements.txt",
+      "size": 39
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "(NeurIPS 2022) Self-Supervised Visual Representation Learning with Semantic Grouping",
+    "fork": false,
+    "full_name": "CVMI-Lab/SlotCon",
+    "html_url": "https://github.com/CVMI-Lab/SlotCon",
+    "language": "Python",
+    "pushed_at": "2025-03-10T10:35:11Z",
+    "stargazers_count": 97,
+    "topics": [
+      "contrastive-learning",
+      "neurips-2022",
+      "object-discovery",
+      "pre-training",
+      "self-supervised-learning",
+      "slotcon"
+    ],
+    "updated_at": "2026-04-18T15:08:16Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cvmi-lab/slotmim",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "facebookresearch/dino",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "zdaxie/pixpro",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "contrastive-learning"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "neurips-2022"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "object-discovery"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pre-training"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "self-supervised-learning"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "slotcon"
+    }
+  ]
+}

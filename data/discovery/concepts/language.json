@@ -307,6 +307,54 @@
       "source_repo": "electerm/electerm-locales",
       "status": "candidate-context",
       "text": "[![Test](https://github.com/electerm/electerm-locales/actions/workflows/test.yml/badge.svg)](https://github.com/electerm/electerm-locales/actions/workflows/test.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "RustPython/RustPython",
+      "status": "candidate-context",
+      "text": "A Python Interpreter written in Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "RustPython/RustPython",
+      "status": "candidate-context",
+      "text": "<img src=\"./logo.png\" width=\"125\" height=\"125\" align=\"right\" />"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ruby/ruby",
+      "status": "candidate-context",
+      "text": "The Ruby Programming Language"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ruby/ruby",
+      "status": "candidate-context",
+      "text": "[![Actions Status: MinGW](https://github.com/ruby/ruby/workflows/MinGW/badge.svg)](https://github.com/ruby/ruby/actions?query=workflow%3A\"MinGW\")"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "amperser/proselint",
+      "status": "candidate-context",
+      "text": "A linter for prose."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "amperser/proselint",
+      "status": "candidate-context",
+      "text": "<img src=\"https://raw.githubusercontent.com/amperser/proselint/main/logo.png\" alt=\"proselint logo\" width=\"200\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "erg-lang/erg",
+      "status": "candidate-context",
+      "text": "A statically typed language compatible with Python"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "erg-lang/erg",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -459,6 +507,30 @@
       "source_repo": "electerm/electerm-locales",
       "status": "candidate",
       "text": "[![Test](https://github.com/electerm/electerm-locales/actions/workflows/test.yml/badge.svg)](https://github.com/electerm/electerm-locales/actions/workflows/test.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "RustPython/RustPython",
+      "status": "candidate",
+      "text": "<img src=\"./logo.png\" width=\"125\" height=\"125\" align=\"right\" />"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ruby/ruby",
+      "status": "candidate",
+      "text": "[![Actions Status: MinGW](https://github.com/ruby/ruby/workflows/MinGW/badge.svg)](https://github.com/ruby/ruby/actions?query=workflow%3A\"MinGW\")"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "amperser/proselint",
+      "status": "candidate",
+      "text": "<img src=\"https://raw.githubusercontent.com/amperser/proselint/main/logo.png\" alt=\"proselint logo\" width=\"200\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "erg-lang/erg",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -724,11 +796,47 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "electerm/electerm-locales"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "argotorg/solidity"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "RustPython/RustPython"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "ruby/ruby"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "babashka/sci"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "amperser/proselint"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "erg-lang/erg"
     }
   ],
   "first_seen_at": "2026-04-19T02:42:33.990002+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

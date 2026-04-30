@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "The open-source Observability 2.0 database. One engine for metrics, logs, and traces \u2014 replacing Prometheus, Loki & ES."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Follow Up Docs"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Follow Up Docs"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 64572,
+      "status": "candidate",
+      "text": "monitoring"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 35972,
+      "status": "candidate",
+      "text": "pick"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 35772,
+      "status": "candidate",
+      "text": "follow-up"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 32572,
+      "status": "candidate",
+      "text": "tracking"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31372,
+      "status": "candidate",
+      "text": "pursue"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Follow Up Docs",
+      "sense_id": "follow-up-docs#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "follow-up-docs",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "follow-up-docs",
+  "observation_id": "6ba3b7f43ca78125",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-30T00:37:16.824464+00:00",
+  "observed_text": "Follow Up Docs",
+  "source_context_snippet": "Follow Up Docs",
+  "source_file": ".github/workflows/docbot.yml",
+  "source_repo": "GreptimeTeam/greptimedb",
+  "source_repo_description": "The open-source Observability 2.0 database. One engine for metrics, logs, and traces \u2014 replacing Prometheus, Loki & ES."
+}

@@ -1,7 +1,7 @@
 {
   "component": "houseabsolute/actions-rust-cross@v1",
   "first_seen_at": "2026-04-18T10:38:37.562216+00:00",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -27,6 +27,21 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/cd.yml",
       "source_repo": "Spotifyd/spotifyd"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/binaries.yml",
+      "source_repo": "Automattic/harper"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/vscode_plugin.yml",
+      "source_repo": "Automattic/harper"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "kaichaosun/rlt"
     }
   ]
 }

@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "AdGuard Content Blocking Filters"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "'Close stale issues with high priority'"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "'Close stale issues with high priority'"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 46632,
+      "status": "candidate",
+      "text": "priorities"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 45369,
+      "status": "candidate",
+      "text": "precedence"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 45303,
+      "status": "candidate",
+      "text": "prioritize"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 45303,
+      "status": "candidate",
+      "text": "prioritized"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 45046,
+      "status": "candidate",
+      "text": "focus"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Close stale issues with high priority",
+      "sense_id": "close-stale-issues-with-high-priority#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "close-stale-issues-with-high-priority",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "close-stale-issues-with-high-priority",
+  "observation_id": "43713a0ffb327b92",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-30T00:37:16.824464+00:00",
+  "observed_text": "Close stale issues with high priority",
+  "source_context_snippet": "'Close stale issues with high priority'",
+  "source_file": ".github/workflows/stale_issues_high.yml",
+  "source_repo": "AdguardTeam/AdguardFilters",
+  "source_repo_description": "AdGuard Content Blocking Filters"
+}

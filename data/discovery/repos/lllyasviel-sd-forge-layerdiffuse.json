@@ -1,0 +1,53 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "lllyasviel/sd-forge-layerdiffuse",
+      "target": "layerdiffusion/sd-forge-layerdiffusion",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "lllyasviel/sd-forge-layerdiffuse",
+      "target": "layerdiffusion/sd-forge-layerdiffuse",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T05:11:52.033063+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 36234
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "[WIP] Layer Diffusion for WebUI (via Forge)",
+    "fork": false,
+    "full_name": "lllyasviel/sd-forge-layerdiffuse",
+    "html_url": "https://github.com/lllyasviel/sd-forge-layerdiffuse",
+    "language": "Python",
+    "pushed_at": "2024-08-30T22:05:11Z",
+    "stargazers_count": 4107,
+    "topics": [],
+    "updated_at": "2026-04-28T12:04:15Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "layerdiffusion/sd-forge-layerdiffuse",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "layerdiffusion/sd-forge-layerdiffusion",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

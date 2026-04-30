@@ -1,0 +1,678 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-node@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-node@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "ok-nick/setup-aftman@v0.4.2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "ok-nick/setup-aftman@v0.4.2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "ok-nick/setup-aftman@v0.4.2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/create-github-app-token@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generate-release.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generate-release.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml"
+    },
+    {
+      "component": "cpp-linter/cpp-linter-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly.yml"
+    },
+    {
+      "component": "actions/setup-node@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly.yml"
+    },
+    {
+      "component": "matbour/setup-sentry-cli@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly.yml"
+    },
+    {
+      "component": "actions/create-release@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "ok-nick/setup-aftman@v0.4.2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/upload-release-asset@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/setup-node@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "matbour/setup-sentry-cli@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/upload-release-asset@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/create-github-app-token@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-luau-version.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-luau-version.yml"
+    },
+    {
+      "component": "peter-evans/create-pull-request@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-luau-version.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-syntax-file.yml"
+    },
+    {
+      "component": "peter-evans/create-pull-request@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-syntax-file.yml"
+    },
+    {
+      "component": "actions/create-github-app-token@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-types-dump.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-types-dump.yml"
+    },
+    {
+      "component": "peter-evans/create-pull-request@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-types-dump.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/upload-companion-plugin.yml"
+    },
+    {
+      "component": "ok-nick/setup-aftman@v0.4.2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/upload-companion-plugin.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/upload-companion-plugin.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "JohnnyMorganz/luau-lsp",
+      "target": "roblox/luau",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "JohnnyMorganz/luau-lsp",
+      "target": "johnnymorganz/luau-analyze-rojo",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "JohnnyMorganz/luau-lsp",
+      "target": "evaera/moonwave",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "JohnnyMorganz/luau-lsp",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "JohnnyMorganz/luau-lsp",
+      "target": "actions/setup-node@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "JohnnyMorganz/luau-lsp",
+      "target": "ok-nick/setup-aftman@v0.4.2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "JohnnyMorganz/luau-lsp",
+      "target": "Verify Build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generate-release.yml",
+      "source_repo": "JohnnyMorganz/luau-lsp",
+      "target": "actions/create-github-app-token@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generate-release.yml",
+      "source_repo": "JohnnyMorganz/luau-lsp",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/generate-release.yml",
+      "source_repo": "JohnnyMorganz/luau-lsp",
+      "target": "Generate new release (manual)",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "JohnnyMorganz/luau-lsp",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "JohnnyMorganz/luau-lsp",
+      "target": "cpp-linter/cpp-linter-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "JohnnyMorganz/luau-lsp",
+      "target": "cpp-linter",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly.yml",
+      "source_repo": "JohnnyMorganz/luau-lsp",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly.yml",
+      "source_repo": "JohnnyMorganz/luau-lsp",
+      "target": "actions/setup-node@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly.yml",
+      "source_repo": "JohnnyMorganz/luau-lsp",
+      "target": "matbour/setup-sentry-cli@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly.yml",
+      "source_repo": "JohnnyMorganz/luau-lsp",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/nightly.yml",
+      "source_repo": "JohnnyMorganz/luau-lsp",
+      "target": "Nightly Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "JohnnyMorganz/luau-lsp",
+      "target": "actions/create-release@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "JohnnyMorganz/luau-lsp",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "JohnnyMorganz/luau-lsp",
+      "target": "ok-nick/setup-aftman@v0.4.2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "JohnnyMorganz/luau-lsp",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "JohnnyMorganz/luau-lsp",
+      "target": "actions/upload-release-asset@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "JohnnyMorganz/luau-lsp",
+      "target": "actions/setup-node@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "JohnnyMorganz/luau-lsp",
+      "target": "matbour/setup-sentry-cli@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "JohnnyMorganz/luau-lsp",
+      "target": "Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-luau-version.yml",
+      "source_repo": "JohnnyMorganz/luau-lsp",
+      "target": "actions/create-github-app-token@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-luau-version.yml",
+      "source_repo": "JohnnyMorganz/luau-lsp",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-luau-version.yml",
+      "source_repo": "JohnnyMorganz/luau-lsp",
+      "target": "peter-evans/create-pull-request@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/update-luau-version.yml",
+      "source_repo": "JohnnyMorganz/luau-lsp",
+      "target": "Update Luau Version",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-syntax-file.yml",
+      "source_repo": "JohnnyMorganz/luau-lsp",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-syntax-file.yml",
+      "source_repo": "JohnnyMorganz/luau-lsp",
+      "target": "peter-evans/create-pull-request@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/update-syntax-file.yml",
+      "source_repo": "JohnnyMorganz/luau-lsp",
+      "target": "Pull Latest Syntax File",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-types-dump.yml",
+      "source_repo": "JohnnyMorganz/luau-lsp",
+      "target": "actions/create-github-app-token@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-types-dump.yml",
+      "source_repo": "JohnnyMorganz/luau-lsp",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-types-dump.yml",
+      "source_repo": "JohnnyMorganz/luau-lsp",
+      "target": "peter-evans/create-pull-request@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/update-types-dump.yml",
+      "source_repo": "JohnnyMorganz/luau-lsp",
+      "target": "Pull Latest API Dump",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/upload-companion-plugin.yml",
+      "source_repo": "JohnnyMorganz/luau-lsp",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/upload-companion-plugin.yml",
+      "source_repo": "JohnnyMorganz/luau-lsp",
+      "target": "ok-nick/setup-aftman@v0.4.2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/upload-companion-plugin.yml",
+      "source_repo": "JohnnyMorganz/luau-lsp",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/upload-companion-plugin.yml",
+      "source_repo": "JohnnyMorganz/luau-lsp",
+      "target": "Upload Companion Plugin (Manual)",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JohnnyMorganz/luau-lsp",
+      "target": "hacktoberfest",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JohnnyMorganz/luau-lsp",
+      "target": "language-server",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JohnnyMorganz/luau-lsp",
+      "target": "luau",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T03:59:46.136631+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7395
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 5730
+    },
+    {
+      "path": ".github/workflows/generate-release.yml",
+      "size": 924
+    },
+    {
+      "path": ".github/workflows/lint.yml",
+      "size": 886
+    },
+    {
+      "path": ".github/workflows/nightly.yml",
+      "size": 4669
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "size": 6540
+    },
+    {
+      "path": ".github/workflows/update-luau-version.yml",
+      "size": 1633
+    },
+    {
+      "path": ".github/workflows/update-syntax-file.yml",
+      "size": 923
+    },
+    {
+      "path": ".github/workflows/update-types-dump.yml",
+      "size": 2179
+    },
+    {
+      "path": ".github/workflows/upload-companion-plugin.yml",
+      "size": 770
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Language Server Implementation for Luau",
+    "fork": false,
+    "full_name": "JohnnyMorganz/luau-lsp",
+    "html_url": "https://github.com/JohnnyMorganz/luau-lsp",
+    "language": "Luau",
+    "pushed_at": "2026-04-29T04:17:22Z",
+    "stargazers_count": 472,
+    "topics": [
+      "hacktoberfest",
+      "language-server",
+      "lsp",
+      "lua",
+      "luau"
+    ],
+    "updated_at": "2026-04-29T04:17:26Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "evaera/moonwave",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "johnnymorganz/luau-analyze-rojo",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "roblox/luau",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Verify Build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "term": "Verify Build"
+    },
+    {
+      "context_snippet": "Generate new release (manual)",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/generate-release.yml",
+      "term": "Generate new release (manual)"
+    },
+    {
+      "context_snippet": "cpp-linter",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint.yml",
+      "term": "cpp-linter"
+    },
+    {
+      "context_snippet": "Nightly Release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/nightly.yml",
+      "term": "Nightly Release"
+    },
+    {
+      "context_snippet": "Release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "term": "Release"
+    },
+    {
+      "context_snippet": "Update Luau Version",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/update-luau-version.yml",
+      "term": "Update Luau Version"
+    },
+    {
+      "context_snippet": "Pull Latest Syntax File",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/update-syntax-file.yml",
+      "term": "Pull Latest Syntax File"
+    },
+    {
+      "context_snippet": "Pull Latest API Dump",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/update-types-dump.yml",
+      "term": "Pull Latest API Dump"
+    },
+    {
+      "context_snippet": "Upload Companion Plugin (Manual)",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/upload-companion-plugin.yml",
+      "term": "Upload Companion Plugin (Manual)"
+    },
+    {
+      "context_snippet": "An implementation of a language server for the [Luau](https://github.com/Roblox/luau) programming language.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hacktoberfest"
+    },
+    {
+      "context_snippet": "An implementation of a language server for the [Luau](https://github.com/Roblox/luau) programming language.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "language-server"
+    },
+    {
+      "context_snippet": "An implementation of a language server for the [Luau](https://github.com/Roblox/luau) programming language.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "luau"
+    }
+  ]
+}

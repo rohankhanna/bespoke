@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Gryphe/BlockMerge_Gradient",
+      "target": "tehvenomm/lm_transformers_blockmerge",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T02:05:05.926731+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4920
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Merge Transformers language models by use of gradient parameters.",
+    "fork": false,
+    "full_name": "Gryphe/BlockMerge_Gradient",
+    "html_url": "https://github.com/Gryphe/BlockMerge_Gradient",
+    "language": "Python",
+    "pushed_at": "2024-08-08T09:25:54Z",
+    "stargazers_count": 214,
+    "topics": [],
+    "updated_at": "2026-02-06T13:59:40Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "tehvenomm/lm_transformers_blockmerge",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

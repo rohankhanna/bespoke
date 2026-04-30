@@ -1,0 +1,76 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "omniti-labs/pg_jobmon",
+      "target": "autonomous-transactions",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "omniti-labs/pg_jobmon",
+      "target": "postgresql",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "omniti-labs/pg_jobmon",
+      "target": "stored-procedures",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T02:51:28.969071+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4333
+    },
+    {
+      "path": "Dockerfile",
+      "size": 3066
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "PostgreSQL extension which provides persistent logging within transactions and functions. ",
+    "fork": false,
+    "full_name": "omniti-labs/pg_jobmon",
+    "html_url": "https://github.com/omniti-labs/pg_jobmon",
+    "language": "PLpgSQL",
+    "pushed_at": "2022-05-26T18:44:20Z",
+    "stargazers_count": 200,
+    "topics": [
+      "autonomous-transactions",
+      "postgresql",
+      "stored-procedures"
+    ],
+    "updated_at": "2026-04-07T13:47:02Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "[![Build Status](https://travis-ci.com/omniti-labs/pg_jobmon.svg?branch=master)](https://travis-ci.com/omniti-labs/pg_jobmon)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "autonomous-transactions"
+    },
+    {
+      "context_snippet": "[![Build Status](https://travis-ci.com/omniti-labs/pg_jobmon.svg?branch=master)](https://travis-ci.com/omniti-labs/pg_jobmon)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "postgresql"
+    },
+    {
+      "context_snippet": "[![Build Status](https://travis-ci.com/omniti-labs/pg_jobmon.svg?branch=master)](https://travis-ci.com/omniti-labs/pg_jobmon)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "stored-procedures"
+    }
+  ]
+}

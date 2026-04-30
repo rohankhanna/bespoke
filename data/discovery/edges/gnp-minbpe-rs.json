@@ -1,0 +1,13 @@
+{
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "gnp/minbpe-rs",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    }
+  ],
+  "generated_at": "2026-04-30T00:37:16.824464+00:00",
+  "source_repo": "gnp/minbpe-rs"
+}

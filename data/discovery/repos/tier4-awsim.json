@@ -1,0 +1,128 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/documentation_generation.yml"
+    },
+    {
+      "component": "actions/setup-python@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/documentation_generation.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "tier4/AWSIM",
+      "target": "autowarefoundation/autoware",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/documentation_generation.yml",
+      "source_repo": "tier4/AWSIM",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/documentation_generation.yml",
+      "source_repo": "tier4/AWSIM",
+      "target": "actions/setup-python@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "tier4/AWSIM",
+      "target": "autonomous-driving",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "tier4/AWSIM",
+      "target": "autoware",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "tier4/AWSIM",
+      "target": "ros2",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "tier4/AWSIM",
+      "target": "unity",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T03:46:09.273319+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2010
+    },
+    {
+      "path": ".github/workflows/documentation_generation.yml",
+      "size": 336
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Open sourced digital twin simulator for Autoware",
+    "fork": false,
+    "full_name": "tier4/AWSIM",
+    "html_url": "https://github.com/tier4/AWSIM",
+    "language": "C#",
+    "pushed_at": "2026-03-30T05:36:09Z",
+    "stargazers_count": 698,
+    "topics": [
+      "autonomous-driving",
+      "autoware",
+      "ros2",
+      "unity"
+    ],
+    "updated_at": "2026-04-28T12:11:56Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "autowarefoundation/autoware",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "> [!NOTE]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "autonomous-driving"
+    },
+    {
+      "context_snippet": "> [!NOTE]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "autoware"
+    },
+    {
+      "context_snippet": "> [!NOTE]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ros2"
+    },
+    {
+      "context_snippet": "> [!NOTE]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "unity"
+    }
+  ]
+}

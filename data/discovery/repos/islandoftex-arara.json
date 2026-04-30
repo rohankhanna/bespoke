@@ -1,0 +1,179 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gradle.yml"
+    },
+    {
+      "component": "actions/setup-java@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gradle.yml"
+    },
+    {
+      "component": "gradle/actions/wrapper-validation@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gradle.yml"
+    },
+    {
+      "component": "gradle/actions/setup-gradle@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gradle.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gradle.yml"
+    },
+    {
+      "component": "actions/checkout@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/zola.yml"
+    },
+    {
+      "component": "shalzz/zola-deploy-action@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/zola.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gradle.yml",
+      "source_repo": "islandoftex/arara",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gradle.yml",
+      "source_repo": "islandoftex/arara",
+      "target": "actions/setup-java@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gradle.yml",
+      "source_repo": "islandoftex/arara",
+      "target": "gradle/actions/wrapper-validation@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gradle.yml",
+      "source_repo": "islandoftex/arara",
+      "target": "gradle/actions/setup-gradle@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gradle.yml",
+      "source_repo": "islandoftex/arara",
+      "target": "actions/upload-artifact@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/gradle.yml",
+      "source_repo": "islandoftex/arara",
+      "target": "Run Gradle on repo activity",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/zola.yml",
+      "source_repo": "islandoftex/arara",
+      "target": "actions/checkout@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/zola.yml",
+      "source_repo": "islandoftex/arara",
+      "target": "shalzz/zola-deploy-action@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "islandoftex/arara",
+      "target": "automation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "islandoftex/arara",
+      "target": "java",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "islandoftex/arara",
+      "target": "latex",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T02:54:11.214439+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4824
+    },
+    {
+      "path": ".github/workflows/gradle.yml",
+      "size": 877
+    },
+    {
+      "path": ".github/workflows/zola.yml",
+      "size": 370
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "arara is a TeX automation tool based on rules and directives. It gives you a way to enhance your TeX experience. This is a mirror repository.",
+    "fork": false,
+    "full_name": "islandoftex/arara",
+    "html_url": "https://github.com/islandoftex/arara",
+    "language": "Kotlin",
+    "pushed_at": "2026-04-21T14:58:51Z",
+    "stargazers_count": 414,
+    "topics": [
+      "automation",
+      "java",
+      "latex",
+      "tex"
+    ],
+    "updated_at": "2026-04-17T10:19:19Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Run Gradle on repo activity",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/gradle.yml",
+      "term": "Run Gradle on repo activity"
+    },
+    {
+      "context_snippet": "![arara](https://i.stack.imgur.com/hjUsN.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "automation"
+    },
+    {
+      "context_snippet": "![arara](https://i.stack.imgur.com/hjUsN.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "java"
+    },
+    {
+      "context_snippet": "![arara](https://i.stack.imgur.com/hjUsN.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "latex"
+    }
+  ]
+}

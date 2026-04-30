@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "celo-composer is a starter project with all code needed to build, deploy, and upgrade a dapps on Celo."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "A powerful CLI tool for generating customizable Celo blockchain starter kits with modern monorepo architecture."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "A powerful CLI tool for generating customizable Celo blockchain starter kits with modern monorepo architecture."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19981784,
+      "status": "candidate",
+      "text": "distributed ledger"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19981783,
+      "status": "candidate",
+      "text": "hyperledger"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19981782,
+      "status": "candidate",
+      "text": "cryptocollectible"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19981781,
+      "status": "candidate",
+      "text": "mainnet"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19981780,
+      "status": "candidate",
+      "text": "cryptosphere"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "blockchain",
+      "sense_id": "blockchain#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "blockchain",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "blockchain",
+  "observation_id": "376727252aa48ef8",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T00:37:16.824464+00:00",
+  "observed_text": "blockchain",
+  "source_context_snippet": "A powerful CLI tool for generating customizable Celo blockchain starter kits with modern monorepo architecture.",
+  "source_file": null,
+  "source_repo": "celo-org/celo-composer",
+  "source_repo_description": "celo-composer is a starter project with all code needed to build, deploy, and upgrade a dapps on Celo."
+}

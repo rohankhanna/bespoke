@@ -248,6 +248,90 @@
       "source_repo": "rust-bitcoin/corepc",
       "status": "candidate-context",
       "text": "PR Labeler"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "web-infra-dev/rspress",
+      "status": "candidate-context",
+      "text": "\ud83e\udd80 A fast Rsbuild-based static site generator."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "web-infra-dev/rspress",
+      "status": "candidate-context",
+      "text": "PR Labeler"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "facebookresearch/nle",
+      "status": "candidate-context",
+      "text": "The NetHack Learning Environment"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "facebookresearch/nle",
+      "status": "candidate-context",
+      "text": "PR Labeler"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mermaid-js/mermaid-cli",
+      "status": "candidate-context",
+      "text": "Command line tool for the Mermaid library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mermaid-js/mermaid-cli",
+      "status": "candidate-context",
+      "text": "PR Labeler"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "folke/neodev.nvim",
+      "status": "candidate-context",
+      "text": "\ud83d\udcbb  Neovim setup for init.lua and plugin development with full signature help, docs and completion for the nvim lua API."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "folke/neodev.nvim",
+      "status": "candidate-context",
+      "text": "\"PR Labeler\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "web-infra-dev/rsbuild",
+      "status": "candidate-context",
+      "text": "Simple, fast, extensible build tool. Powered by Rspack \ud83e\udd80"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "web-infra-dev/rsbuild",
+      "status": "candidate-context",
+      "text": "PR Labeler"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "web-infra-dev/rsdoctor",
+      "status": "candidate-context",
+      "text": "A one-stop build analyzer for Rspack and webpack."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "web-infra-dev/rsdoctor",
+      "status": "candidate-context",
+      "text": "PR Labeler"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "web-infra-dev/rslib",
+      "status": "candidate-context",
+      "text": "Create JavaScript libraries in a simple and intuitive way."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "web-infra-dev/rslib",
+      "status": "candidate-context",
+      "text": "PR Labeler"
     }
   ],
   "candidate_glosses": [
@@ -368,6 +452,48 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "rust-bitcoin/corepc",
+      "status": "candidate",
+      "text": "PR Labeler"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "web-infra-dev/rspress",
+      "status": "candidate",
+      "text": "PR Labeler"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "facebookresearch/nle",
+      "status": "candidate",
+      "text": "PR Labeler"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mermaid-js/mermaid-cli",
+      "status": "candidate",
+      "text": "PR Labeler"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "folke/neodev.nvim",
+      "status": "candidate",
+      "text": "\"PR Labeler\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "web-infra-dev/rsbuild",
+      "status": "candidate",
+      "text": "PR Labeler"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "web-infra-dev/rsdoctor",
+      "status": "candidate",
+      "text": "PR Labeler"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "web-infra-dev/rslib",
       "status": "candidate",
       "text": "PR Labeler"
     }
@@ -683,11 +809,83 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": ".github/workflows/pr-labeler.yml",
       "source_repo": "rust-bitcoin/corepc"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/pr-label.yaml",
+      "source_repo": "web-infra-dev/rspress"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/pr-labeler.yml",
+      "source_repo": "AndyMik90/Aperant"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/labeler.yml",
+      "source_repo": "pyg-team/pytorch_geometric"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/pr-labeler.yml",
+      "source_repo": "facebookresearch/nle"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/pr-labeler.yml",
+      "source_repo": "harbor-framework/harbor"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/pr-labeler.yml",
+      "source_repo": "mermaid-js/mermaid-cli"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/labeler.yml",
+      "source_repo": "docker-archive/compose-cli"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/labeler.yml",
+      "source_repo": "docker-archive-public/docker.compose-ecs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/labeler.yml",
+      "source_repo": "folke/neodev.nvim"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/pr-label.yaml",
+      "source_repo": "web-infra-dev/rsbuild"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/pr-label.yaml",
+      "source_repo": "web-infra-dev/rsdoctor"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/pr-label.yaml",
+      "source_repo": "web-infra-dev/rslib"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

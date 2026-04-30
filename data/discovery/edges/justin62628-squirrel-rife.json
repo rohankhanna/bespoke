@@ -1,0 +1,83 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Justin62628/Squirrel-RIFE",
+      "target": "hzwer/arxiv2020-rife",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Justin62628/Squirrel-RIFE",
+      "target": "nihui/rife-ncnn-vulkan",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Justin62628/Squirrel-RIFE",
+      "target": "dolbylaboratories/dlb_mp4base",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Justin62628/Squirrel-RIFE",
+      "target": "nagadomi/waifu2x",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Justin62628/Squirrel-RIFE",
+      "target": "animation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Justin62628/Squirrel-RIFE",
+      "target": "interpolation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Justin62628/Squirrel-RIFE",
+      "target": "rife",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Justin62628/Squirrel-RIFE",
+      "target": "slomo",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Justin62628/Squirrel-RIFE",
+      "target": "smooth",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Justin62628/Squirrel-RIFE",
+      "target": "video",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Justin62628/Squirrel-RIFE",
+      "target": "videoframeinterpolation",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-30T00:37:16.824464+00:00",
+  "source_repo": "Justin62628/Squirrel-RIFE"
+}

@@ -1,0 +1,48 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "high-moctane/mocword-data",
+      "target": "mocword",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T00:39:24.582049+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 732
+    },
+    {
+      "path": "go.mod",
+      "size": 383
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Predict next words.",
+    "fork": false,
+    "full_name": "high-moctane/mocword-data",
+    "html_url": "https://github.com/high-moctane/mocword-data",
+    "language": "Go",
+    "pushed_at": "2022-02-19T12:41:15Z",
+    "stargazers_count": 9,
+    "topics": [
+      "mocword"
+    ],
+    "updated_at": "2025-12-07T09:40:52Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "[Mocword](https://github.com/high-moctane/mocword) dataset.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mocword"
+    }
+  ]
+}

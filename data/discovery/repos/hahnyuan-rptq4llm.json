@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T05:15:30.472053+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7312
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Reorder-based post-training quantization for large language model",
+    "fork": false,
+    "full_name": "hahnyuan/RPTQ4LLM",
+    "html_url": "https://github.com/hahnyuan/RPTQ4LLM",
+    "language": "Python",
+    "pushed_at": "2023-05-17T07:32:24Z",
+    "stargazers_count": 199,
+    "topics": [],
+    "updated_at": "2026-02-13T12:37:05Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

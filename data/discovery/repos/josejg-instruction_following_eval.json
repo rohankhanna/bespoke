@@ -1,0 +1,45 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "josejg/instruction_following_eval",
+      "target": "josejg/google-research",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T02:45:58.248531+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1916
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 1019
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Instruction Following Eval",
+    "fork": false,
+    "full_name": "josejg/instruction_following_eval",
+    "html_url": "https://github.com/josejg/instruction_following_eval",
+    "language": "Python",
+    "pushed_at": "2025-01-16T22:07:05Z",
+    "stargazers_count": 17,
+    "topics": [],
+    "updated_at": "2026-04-29T10:02:41Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "josejg/google-research",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

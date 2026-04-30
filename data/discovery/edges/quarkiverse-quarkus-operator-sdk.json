@@ -1,0 +1,174 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "quarkiverse/quarkus-operator-sdk",
+      "target": "quarkiverse/quarkiverse-docs",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "quarkiverse/quarkus-operator-sdk",
+      "target": "quarkiverse/quarkiverse",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "quarkiverse/quarkus-operator-sdk",
+      "target": "all-contributors/all-contributors",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-for-quarkus-version.yml",
+      "source_repo": "quarkiverse/quarkus-operator-sdk",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-for-quarkus-version.yml",
+      "source_repo": "quarkiverse/quarkus-operator-sdk",
+      "target": "actions/setup-java@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-for-quarkus-version.yml",
+      "source_repo": "quarkiverse/quarkus-operator-sdk",
+      "target": "quarkusio/install-quarkus-snapshots-action@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-for-quarkus-version.yml",
+      "source_repo": "quarkiverse/quarkus-operator-sdk",
+      "target": "helm/kind-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-for-quarkus-version.yml",
+      "source_repo": "quarkiverse/quarkus-operator-sdk",
+      "target": "redhat-actions/openshift-tools-installer@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-for-quarkus-version.yml",
+      "source_repo": "quarkiverse/quarkus-operator-sdk",
+      "target": "actions/upload-artifact@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-for-quarkus-version.yml",
+      "source_repo": "quarkiverse/quarkus-operator-sdk",
+      "target": "quarkusio/install-quarkus-snapshots-action/cleanup@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-for-quarkus-version.yml",
+      "source_repo": "quarkiverse/quarkus-operator-sdk",
+      "target": "Build with specific Quarkus version",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "quarkiverse/quarkus-operator-sdk",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "quarkiverse/quarkus-operator-sdk",
+      "target": "Build PRs and main when updated",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-release.yml",
+      "source_repo": "quarkiverse/quarkus-operator-sdk",
+      "target": "quarkiverse/.github/.github/workflows/pre-release.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pre-release.yml",
+      "source_repo": "quarkiverse/quarkus-operator-sdk",
+      "target": "Quarkiverse Pre Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/quarkus-snapshot.yaml",
+      "source_repo": "quarkiverse/quarkus-operator-sdk",
+      "target": "quarkiverse/.github/.github/workflows/quarkus-ecosystem-ci.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/quarkus-snapshot.yaml",
+      "source_repo": "quarkiverse/quarkus-operator-sdk",
+      "target": "Quarkus ecosystem CI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-perform.yml",
+      "source_repo": "quarkiverse/quarkus-operator-sdk",
+      "target": "quarkiverse/.github/.github/workflows/perform-release.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-perform.yml",
+      "source_repo": "quarkiverse/quarkus-operator-sdk",
+      "target": "Quarkiverse Perform Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-prepare.yml",
+      "source_repo": "quarkiverse/quarkus-operator-sdk",
+      "target": "quarkiverse/.github/.github/workflows/prepare-release.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-prepare.yml",
+      "source_repo": "quarkiverse/quarkus-operator-sdk",
+      "target": "Quarkiverse Prepare Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "quarkiverse/quarkus-operator-sdk",
+      "target": "kubernetes",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "quarkiverse/quarkus-operator-sdk",
+      "target": "operator",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "quarkiverse/quarkus-operator-sdk",
+      "target": "quarkus-extension",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-30T00:37:16.824464+00:00",
+  "source_repo": "quarkiverse/quarkus-operator-sdk"
+}

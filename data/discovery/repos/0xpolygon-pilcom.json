@@ -1,0 +1,118 @@
+{
+  "components": [
+    {
+      "component": "chai",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "ffjavascript",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "jison",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "mocha",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "tmp-promise",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "yargs",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "package.json",
+      "source_repo": "0xPolygon/pilcom",
+      "target": "0xpolygonhermez/pilcom",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "0xPolygon/pilcom",
+      "target": "chai",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "0xPolygon/pilcom",
+      "target": "ffjavascript",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "0xPolygon/pilcom",
+      "target": "jison",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "0xPolygon/pilcom",
+      "target": "mocha",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "0xPolygon/pilcom",
+      "target": "tmp-promise",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "0xPolygon/pilcom",
+      "target": "yargs",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-04-30T04:52:33.349373+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2399
+    },
+    {
+      "path": "package.json",
+      "size": 1025
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Polynomials Identity Language",
+    "fork": false,
+    "full_name": "0xPolygon/pilcom",
+    "html_url": "https://github.com/0xPolygon/pilcom",
+    "language": "JavaScript",
+    "pushed_at": "2024-02-29T21:25:03Z",
+    "stargazers_count": 69,
+    "topics": [],
+    "updated_at": "2026-03-28T01:03:54Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "0xpolygonhermez/pilcom",
+      "source_file": "package.json"
+    }
+  ],
+  "terms": []
+}

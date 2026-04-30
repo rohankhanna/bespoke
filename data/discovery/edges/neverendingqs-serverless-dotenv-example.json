@@ -1,0 +1,90 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "neverendingqs/serverless-dotenv-example",
+      "target": "neverendingqs/ask-me-anything",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "neverendingqs/serverless-dotenv-example",
+      "target": "dotenv",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "neverendingqs/serverless-dotenv-example",
+      "target": "serverless",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "neverendingqs/serverless-dotenv-example",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "neverendingqs/serverless-dotenv-example",
+      "target": "actions/setup-node@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scheduled-node-dependency-updates.yml",
+      "source_repo": "neverendingqs/serverless-dotenv-example",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scheduled-node-dependency-updates.yml",
+      "source_repo": "neverendingqs/serverless-dotenv-example",
+      "target": "actions/setup-node@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scheduled-node-dependency-updates.yml",
+      "source_repo": "neverendingqs/serverless-dotenv-example",
+      "target": "neverendingqs/gh-action-node-update-deps@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/scheduled-node-dependency-updates.yml",
+      "source_repo": "neverendingqs/serverless-dotenv-example",
+      "target": "Scheduled Node Dependencies Update (npm)",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "neverendingqs/serverless-dotenv-example",
+      "target": "code-examples",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "neverendingqs/serverless-dotenv-example",
+      "target": "serverless-examples",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "neverendingqs/serverless-dotenv-example",
+      "target": "serverless-framework",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-30T00:37:16.824464+00:00",
+  "source_repo": "neverendingqs/serverless-dotenv-example"
+}

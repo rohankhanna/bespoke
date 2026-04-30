@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-18T11:57:36.597358+00:00",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "sources": [
     {
       "discovered_via": "repo-topic",
@@ -46,6 +46,11 @@
       "discovered_via": "repo-topic",
       "source_file": null,
       "source_repo": "rusty1s/pytorch_cluster"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "snap-stanford/ogb"
     }
   ],
   "term": "graph-neural-networks"

@@ -199,6 +199,90 @@
       "source_repo": "osmr/imgclsmob",
       "status": "candidate-context",
       "text": "[![Build Status](https://travis-ci.org/osmr/imgclsmob.svg?branch=master)](https://travis-ci.org/osmr/imgclsmob)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "zllrunning/face-parsing.PyTorch",
+      "status": "candidate-context",
+      "text": "Using modified BiSeNet for face parsing in PyTorch"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "zllrunning/face-parsing.PyTorch",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "IDEA-Research/MaskDINO",
+      "status": "candidate-context",
+      "text": "[CVPR 2023] Official implementation of the paper \"Mask DINO: Towards A Unified Transformer-based Framework for Object Detection and Segmentation\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "IDEA-Research/MaskDINO",
+      "status": "candidate-context",
+      "text": "Mask DINO <img src=\"figures/dinosaur.png\" width=\"30\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "zllrunning/face-makeup.PyTorch",
+      "status": "candidate-context",
+      "text": "Lip and hair color editor using face parsing maps."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "zllrunning/face-makeup.PyTorch",
+      "status": "candidate-context",
+      "text": "Lip and hair color editor using face parsing maps."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "khanrc/tcl",
+      "status": "candidate-context",
+      "text": "Official implementation of TCL (CVPR 2023)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "khanrc/tcl",
+      "status": "candidate-context",
+      "text": "Official PyTorch implementation of [**Learning to Generate Text-grounded Mask for Open-world Semantic Segmentation from Only Image-Text Pairs**](https://arxiv.org/abs/2212.00785), *Junbum Cha, Jonghwan Mun, Byungseok Roh*, CVPR 2023."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JIA-Lab-research/Stratified-Transformer",
+      "status": "candidate-context",
+      "text": "Stratified Transformer for 3D Point Cloud Segmentation (CVPR 2022)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JIA-Lab-research/Stratified-Transformer",
+      "status": "candidate-context",
+      "text": "*Xin Lai<sup>\\*</sup>, Jianhui Liu<sup>\\*</sup>, Li Jiang, Liwei Wang, Hengshuang Zhao, Shu Liu, Xiaojuan Qi, Jiaya Jia*"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "qubvel-org/segmentation_models.pytorch",
+      "status": "candidate-context",
+      "text": "Semantic segmentation models with 500+ pretrained convolutional and transformer-based backbones."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "qubvel-org/segmentation_models.pytorch",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "BR-IDL/PaddleViT",
+      "status": "candidate-context",
+      "text": ":robot: PaddleViT: State-of-the-art Visual Transformer and MLP Models for PaddlePaddle 2.0+"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "BR-IDL/PaddleViT",
+      "status": "candidate-context",
+      "text": "English | [\u7b80\u4f53\u4e2d\u6587](./README_cn.md)"
     }
   ],
   "candidate_glosses": [
@@ -297,6 +381,48 @@
       "source_repo": "osmr/imgclsmob",
       "status": "candidate",
       "text": "[![Build Status](https://travis-ci.org/osmr/imgclsmob.svg?branch=master)](https://travis-ci.org/osmr/imgclsmob)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "zllrunning/face-parsing.PyTorch",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "IDEA-Research/MaskDINO",
+      "status": "candidate",
+      "text": "Mask DINO <img src=\"figures/dinosaur.png\" width=\"30\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "zllrunning/face-makeup.PyTorch",
+      "status": "candidate",
+      "text": "Lip and hair color editor using face parsing maps."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "khanrc/tcl",
+      "status": "candidate",
+      "text": "Official PyTorch implementation of [**Learning to Generate Text-grounded Mask for Open-world Semantic Segmentation from Only Image-Text Pairs**](https://arxiv.org/abs/2212.00785), *Junbum Cha, Jonghwan Mun, Byungseok Roh*, CVPR 2023."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JIA-Lab-research/Stratified-Transformer",
+      "status": "candidate",
+      "text": "*Xin Lai<sup>\\*</sup>, Jianhui Liu<sup>\\*</sup>, Li Jiang, Liwei Wang, Hengshuang Zhao, Shu Liu, Xiaojuan Qi, Jiaya Jia*"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "qubvel-org/segmentation_models.pytorch",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "BR-IDL/PaddleViT",
+      "status": "candidate",
+      "text": "English | [\u7b80\u4f53\u4e2d\u6587](./README_cn.md)"
     }
   ],
   "candidate_related_terms": [],
@@ -406,11 +532,59 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "osmr/imgclsmob"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "zllrunning/face-parsing.PyTorch"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "IDEA-Research/MaskDINO"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "JIA-Lab-research/LargeKernel3D"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "zllrunning/face-makeup.PyTorch"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "khanrc/tcl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "JIA-Lab-research/Stratified-Transformer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "qubvel-org/segmentation_models.pytorch"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "BR-IDL/PaddleViT"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

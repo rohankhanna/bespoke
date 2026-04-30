@@ -1,6 +1,7 @@
 {
   "aliases": [
-    "Release PyPi"
+    "Release PyPi",
+    "Release PyPI"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -19,6 +20,18 @@
       "source_repo": "dottxt-ai/outlines",
       "status": "candidate-context",
       "text": "Release PyPi"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "posit-dev/air",
+      "status": "candidate-context",
+      "text": "R formatter and language server"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "posit-dev/air",
+      "status": "candidate-context",
+      "text": "Release PyPI"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +40,12 @@
       "source_repo": "dottxt-ai/outlines",
       "status": "candidate",
       "text": "Release PyPi"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "posit-dev/air",
+      "status": "candidate",
+      "text": "Release PyPI"
     }
   ],
   "candidate_related_terms": [
@@ -76,11 +95,17 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": ".github/workflows/release_pypi.yaml",
       "source_repo": "dottxt-ai/outlines"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/release-pypi.yml",
+      "source_repo": "posit-dev/air"
     }
   ],
   "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

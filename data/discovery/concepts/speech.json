@@ -223,6 +223,18 @@
       "source_repo": "bshall/hubert",
       "status": "candidate-context",
       "text": "[![arXiv](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)](https://arxiv.org/abs/2111.02392)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bshall/acoustic-model",
+      "status": "candidate-context",
+      "text": "Acoustic models for: A Comparison of Discrete and Soft Speech Units for Improved Voice Conversion"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bshall/acoustic-model",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -333,6 +345,12 @@
       "source_repo": "bshall/hubert",
       "status": "candidate",
       "text": "[![arXiv](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)](https://arxiv.org/abs/2111.02392)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bshall/acoustic-model",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -526,11 +544,17 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "bshall/hubert"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "bshall/acoustic-model"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

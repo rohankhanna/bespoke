@@ -1,0 +1,104 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ai-forever/MoVQGAN",
+      "target": "ai-forever/kandinsky-2",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ai-forever/MoVQGAN",
+      "target": "generative-adversarial-network",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ai-forever/MoVQGAN",
+      "target": "image-compression",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ai-forever/MoVQGAN",
+      "target": "image-encoding",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ai-forever/MoVQGAN",
+      "target": "image-reconstruction",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T05:15:17.901565+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3908
+    },
+    {
+      "path": "requirements.txt",
+      "size": 110
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "MoVQGAN - model for the image encoding and reconstruction",
+    "fork": false,
+    "full_name": "ai-forever/MoVQGAN",
+    "html_url": "https://github.com/ai-forever/MoVQGAN",
+    "language": "Jupyter Notebook",
+    "pushed_at": "2023-10-31T06:21:47Z",
+    "stargazers_count": 265,
+    "topics": [
+      "gan",
+      "generative-adversarial-network",
+      "image-compression",
+      "image-encoding",
+      "image-reconstruction"
+    ],
+    "updated_at": "2026-04-21T09:01:40Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ai-forever/kandinsky-2",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[![Framework: PyTorch](https://img.shields.io/badge/Framework-PyTorch-orange.svg)](https://pytorch.org/) [![Huggingface space](https://img.shields.io/badge/\ud83e\udd17-Huggingface-yello.svg)](https://huggingface.co/ai-forever/MoVQGAN)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "generative-adversarial-network"
+    },
+    {
+      "context_snippet": "[![Framework: PyTorch](https://img.shields.io/badge/Framework-PyTorch-orange.svg)](https://pytorch.org/) [![Huggingface space](https://img.shields.io/badge/\ud83e\udd17-Huggingface-yello.svg)](https://huggingface.co/ai-forever/MoVQGAN)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "image-compression"
+    },
+    {
+      "context_snippet": "[![Framework: PyTorch](https://img.shields.io/badge/Framework-PyTorch-orange.svg)](https://pytorch.org/) [![Huggingface space](https://img.shields.io/badge/\ud83e\udd17-Huggingface-yello.svg)](https://huggingface.co/ai-forever/MoVQGAN)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "image-encoding"
+    },
+    {
+      "context_snippet": "[![Framework: PyTorch](https://img.shields.io/badge/Framework-PyTorch-orange.svg)](https://pytorch.org/) [![Huggingface space](https://img.shields.io/badge/\ud83e\udd17-Huggingface-yello.svg)](https://huggingface.co/ai-forever/MoVQGAN)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "image-reconstruction"
+    }
+  ]
+}

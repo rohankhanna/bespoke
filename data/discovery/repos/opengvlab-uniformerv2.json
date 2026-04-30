@@ -1,0 +1,53 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "OpenGVLab/UniFormerV2",
+      "target": "innat/uniformerv2",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "OpenGVLab/UniFormerV2",
+      "target": "rwightman/pytorch-image-models",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T01:59:32.922103+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5603
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "[ICCV2023] UniFormerV2: Spatiotemporal Learning by Arming Image ViTs with Video UniFormer",
+    "fork": false,
+    "full_name": "OpenGVLab/UniFormerV2",
+    "html_url": "https://github.com/OpenGVLab/UniFormerV2",
+    "language": "Python",
+    "pushed_at": "2024-04-02T17:00:02Z",
+    "stargazers_count": 344,
+    "topics": [],
+    "updated_at": "2026-04-22T13:28:51Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "innat/uniformerv2",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "rwightman/pytorch-image-models",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

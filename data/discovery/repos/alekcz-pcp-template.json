@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T04:04:16.775612+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1013
+    },
+    {
+      "path": "Dockerfile",
+      "size": 746
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Project template for pcp web site",
+    "fork": false,
+    "full_name": "alekcz/pcp-template",
+    "html_url": "https://github.com/alekcz/pcp-template",
+    "language": "Clojure",
+    "pushed_at": "2022-01-17T19:04:47Z",
+    "stargazers_count": 0,
+    "topics": [],
+    "updated_at": "2021-11-08T09:14:50Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

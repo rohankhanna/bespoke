@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T04:52:57.043828+00:00",
+  "fetched_files": [
+    {
+      "path": "Cargo.toml",
+      "size": 831
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "master",
+    "description": "OpenZKP - pure Rust implementations of Zero-Knowledge Proof systems.",
+    "fork": false,
+    "full_name": "0xProject/OpenZKP",
+    "html_url": "https://github.com/0xProject/OpenZKP",
+    "language": "Rust",
+    "pushed_at": "2024-04-23T12:24:45Z",
+    "stargazers_count": 662,
+    "topics": [],
+    "updated_at": "2026-04-11T13:35:29Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

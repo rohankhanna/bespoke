@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "cloudwego/community",
+      "target": "cloudwego/cloudwego.github.io",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T00:52:13.537113+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3192
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Governance and community material for CloudWeGo.",
+    "fork": false,
+    "full_name": "cloudwego/community",
+    "html_url": "https://github.com/cloudwego/community",
+    "language": null,
+    "pushed_at": "2025-10-16T06:54:26Z",
+    "stargazers_count": 107,
+    "topics": [],
+    "updated_at": "2026-03-03T01:52:46Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cloudwego/cloudwego.github.io",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

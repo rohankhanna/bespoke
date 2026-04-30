@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "\ud83d\udd10CNCF Security Technical Advisory Group -- secure access, policy control, privacy, auditing, explainability and more!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "![Cloud Native Security Logo](/community/resources/design/logo/cloud-native-security-horizontal-darkmodesafe.svg)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "![Cloud Native Security Logo](/community/resources/design/logo/cloud-native-security-horizontal-darkmodesafe.svg)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "secure-access",
+      "sense_id": "secure-access#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "secure-access",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "secure-access",
+  "observation_id": "624cc3e19ee64dca",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T00:37:16.824464+00:00",
+  "observed_text": "secure-access",
+  "source_context_snippet": "![Cloud Native Security Logo](/community/resources/design/logo/cloud-native-security-horizontal-darkmodesafe.svg)",
+  "source_file": null,
+  "source_repo": "cncf/tag-security",
+  "source_repo_description": "\ud83d\udd10CNCF Security Technical Advisory Group -- secure access, policy control, privacy, auditing, explainability and more!"
+}

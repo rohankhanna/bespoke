@@ -19,6 +19,18 @@
       "source_repo": "discordjs/discord.js",
       "status": "candidate-context",
       "text": "'PR Triage'"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "agno-agi/agno",
+      "status": "candidate-context",
+      "text": "Agno turns agents into production software. Build agents in any framework. Run as a service. Ship to real users."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "agno-agi/agno",
+      "status": "candidate-context",
+      "text": "PR Triage"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "discordjs/discord.js",
       "status": "candidate",
       "text": "'PR Triage'"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "agno-agi/agno",
+      "status": "candidate",
+      "text": "PR Triage"
     }
   ],
   "candidate_related_terms": [
@@ -76,11 +94,17 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": ".github/workflows/pr-triage.yml",
       "source_repo": "discordjs/discord.js"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/pr-triage.yml",
+      "source_repo": "agno-agi/agno"
     }
   ],
   "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

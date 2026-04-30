@@ -379,6 +379,90 @@
       "source_repo": "antlr/antlr4",
       "status": "candidate-context",
       "text": "[![Java 11+](https://img.shields.io/badge/java-11+-4c7e9f.svg)](http://java.oracle.com)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Samsung/netcoredbg",
+      "status": "candidate-context",
+      "text": "NetCoreDbg is a managed code debugger with GDB/MI, VSCode DAP and CLI interfaces for CoreCLR."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Samsung/netcoredbg",
+      "status": "candidate-context",
+      "text": "The NetCoreDbg debugger implements [GDB/MI](https://sourceware.org/gdb/onlinedocs/gdb/GDB_002fMI.html)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "xoofx/markdig",
+      "status": "candidate-context",
+      "text": "A fast, powerful, CommonMark compliant, extensible Markdown processor for .NET"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "xoofx/markdig",
+      "status": "candidate-context",
+      "text": "ci"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "microsoft/WindowsAppSDK-Samples",
+      "status": "candidate-context",
+      "text": "Feature samples for the Windows App SDK"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/WindowsAppSDK-Samples",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "koenvzeijl/AspNetCore.SassCompiler",
+      "status": "candidate-context",
+      "text": "Sass Compiler Library for .NET Core 3.1/5.x/6.x/7.x without node, using dart-sass as a compiler"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "koenvzeijl/AspNetCore.SassCompiler",
+      "status": "candidate-context",
+      "text": "[![NuGet Version](https://img.shields.io/nuget/v/AspNetCore.SassCompiler.svg?style=flat)](https://www.nuget.org/packages/AspNetCore.SassCompiler/)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "curiosity-ai/hnsw-sharp",
+      "status": "candidate-context",
+      "text": "C# library for approximate nearest neighbors search using Hierarchical Navigable Small World graphs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "curiosity-ai/hnsw-sharp",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://dev.azure.com/curiosity-ai/mosaik/_apis/build/status/hnsw-sharp?branchName=master)](https://dev.azure.com/curiosity-ai/mosaik/_build/latest?definitionId=7&branchName=master)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "OmniSharp/omnisharp-vim",
+      "status": "candidate-context",
+      "text": "Vim omnicompletion (intellisense) and more for C#"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "OmniSharp/omnisharp-vim",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "BayesWitnesses/m2cgen",
+      "status": "candidate-context",
+      "text": "Transform ML models into a native code (Java, C, Python, Go, JavaScript, Visual Basic, C#, R, PowerShell, PHP, Dart, Haskell, Ruby, F#, Rust) with zero dependencies"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "BayesWitnesses/m2cgen",
+      "status": "candidate-context",
+      "text": "[![GitHub Actions Status](https://github.com/BayesWitnesses/m2cgen/workflows/GitHub%20Actions/badge.svg?branch=master)](https://github.com/BayesWitnesses/m2cgen/actions)"
     }
   ],
   "candidate_glosses": [
@@ -567,6 +651,48 @@
       "source_repo": "antlr/antlr4",
       "status": "candidate",
       "text": "[![Java 11+](https://img.shields.io/badge/java-11+-4c7e9f.svg)](http://java.oracle.com)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Samsung/netcoredbg",
+      "status": "candidate",
+      "text": "The NetCoreDbg debugger implements [GDB/MI](https://sourceware.org/gdb/onlinedocs/gdb/GDB_002fMI.html)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "xoofx/markdig",
+      "status": "candidate",
+      "text": "ci"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/WindowsAppSDK-Samples",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "koenvzeijl/AspNetCore.SassCompiler",
+      "status": "candidate",
+      "text": "[![NuGet Version](https://img.shields.io/nuget/v/AspNetCore.SassCompiler.svg?style=flat)](https://www.nuget.org/packages/AspNetCore.SassCompiler/)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "curiosity-ai/hnsw-sharp",
+      "status": "candidate",
+      "text": "[![Build Status](https://dev.azure.com/curiosity-ai/mosaik/_apis/build/status/hnsw-sharp?branchName=master)](https://dev.azure.com/curiosity-ai/mosaik/_build/latest?definitionId=7&branchName=master)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "OmniSharp/omnisharp-vim",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "BayesWitnesses/m2cgen",
+      "status": "candidate",
+      "text": "[![GitHub Actions Status](https://github.com/BayesWitnesses/m2cgen/workflows/GitHub%20Actions/badge.svg?branch=master)](https://github.com/BayesWitnesses/m2cgen/actions)"
     }
   ],
   "candidate_related_terms": [],
@@ -772,11 +898,53 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "antlr/antlr4"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "Samsung/netcoredbg"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "xoofx/markdig"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "microsoft/WindowsAppSDK-Samples"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "koenvzeijl/AspNetCore.SassCompiler"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "curiosity-ai/hnsw-sharp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "OmniSharp/omnisharp-vim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "BayesWitnesses/m2cgen"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

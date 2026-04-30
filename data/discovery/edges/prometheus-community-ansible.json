@@ -1,0 +1,258 @@
+{
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ansible-ci.yml",
+      "source_repo": "prometheus-community/ansible",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ansible-ci.yml",
+      "source_repo": "prometheus-community/ansible",
+      "target": "ansible/ansible-lint@5fac056c45595896c973fbde871f01f6cb14d74c",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ansible-ci.yml",
+      "source_repo": "prometheus-community/ansible",
+      "target": "hoo29/little-timmy@c8ca5086db961499fc3d4e37637f566c3d0ec6d6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ansible-ci.yml",
+      "source_repo": "prometheus-community/ansible",
+      "target": "actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ansible-ci.yml",
+      "source_repo": "prometheus-community/ansible",
+      "target": "Ansible CI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ansible-test-integration.yml",
+      "source_repo": "prometheus-community/ansible",
+      "target": "ansible-community/ansible-test-gh-action@d3a8ec7a59694e25e210fcd44738910149537f0e",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ansible-test-integration.yml",
+      "source_repo": "prometheus-community/ansible",
+      "target": "Ansible Integration Test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ansible-test-molecule.yml",
+      "source_repo": "prometheus-community/ansible",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ansible-test-molecule.yml",
+      "source_repo": "prometheus-community/ansible",
+      "target": "Ansible Molecule",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ansible-test-sanity.yml",
+      "source_repo": "prometheus-community/ansible",
+      "target": "ansible-community/ansible-test-gh-action@d3a8ec7a59694e25e210fcd44738910149537f0e",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ansible-test-sanity.yml",
+      "source_repo": "prometheus-community/ansible",
+      "target": "Ansible Sanity Test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/conventional-label.yml",
+      "source_repo": "prometheus-community/ansible",
+      "target": "deepakputhraya/action-pr-title@077bddd7bdabd0d2b1b25ed0754c7e62e184d7ee",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/conventional-label.yml",
+      "source_repo": "prometheus-community/ansible",
+      "target": "bcoe/conventional-release-labels@886f696738527c7be444262c327c89436dfb95a8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/conventional-label.yml",
+      "source_repo": "prometheus-community/ansible",
+      "target": "actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/conventional-label.yml",
+      "source_repo": "prometheus-community/ansible",
+      "target": "Auto label pull request",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs-pr.yml",
+      "source_repo": "prometheus-community/ansible",
+      "target": "actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs-pr.yml",
+      "source_repo": "prometheus-community/ansible",
+      "target": "ansible-community/github-docs-build/.github/workflows/_shared-docs-build-pr.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs-pr.yml",
+      "source_repo": "prometheus-community/ansible",
+      "target": "ansible-community/github-docs-build/.github/workflows/_shared-docs-build-publish-gh-pages.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs-pr.yml",
+      "source_repo": "prometheus-community/ansible",
+      "target": "ansible-community/github-docs-build/actions/ansible-docs-build-comment@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docs-pr.yml",
+      "source_repo": "prometheus-community/ansible",
+      "target": "Collection Docs (PR)",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs-push.yml",
+      "source_repo": "prometheus-community/ansible",
+      "target": "actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs-push.yml",
+      "source_repo": "prometheus-community/ansible",
+      "target": "ansible-community/github-docs-build/.github/workflows/_shared-docs-build-push.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs-push.yml",
+      "source_repo": "prometheus-community/ansible",
+      "target": "ansible-community/github-docs-build/.github/workflows/_shared-docs-build-publish-gh-pages.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docs-push.yml",
+      "source_repo": "prometheus-community/ansible",
+      "target": "Collection Docs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "prometheus-community/ansible",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "prometheus-community/ansible",
+      "target": "ansible-community/github-action-build-collection@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "prometheus-community/ansible",
+      "target": "svenstaro/upload-release-action@29e53e917877a24fad85510ded594ab3c9ca12de",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "prometheus-community/ansible",
+      "target": "ansible/ansible-publish-action@a56a0328c92c1d4feedf5bd7f7cf7ec7a4ae3f09",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "prometheus-community/ansible",
+      "target": "Ansible collection publish",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "prometheus-community/ansible",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "prometheus-community/ansible",
+      "target": "gardar/version-drafter-action@event-triggers",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "prometheus-community/ansible",
+      "target": "gardar/antsichaut@fix-missing-changes",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "prometheus-community/ansible",
+      "target": "mikefarah/yq@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "prometheus-community/ansible",
+      "target": "stefanzweifel/git-auto-commit-action@04702edda442b2e678b25b537cec683a1493fcb9",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "prometheus-community/ansible",
+      "target": "release-drafter/release-drafter@5de93583980a40bd78603b6dfdcda5b4df377b32",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "prometheus-community/ansible",
+      "target": "Ansible collection release",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-30T00:37:16.824464+00:00",
+  "source_repo": "prometheus-community/ansible"
+}

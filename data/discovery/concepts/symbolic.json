@@ -1,0 +1,129 @@
+{
+  "aliases": [
+    "symbolic"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pyro-ppl/funsor",
+      "status": "candidate-context",
+      "text": "Functional tensors for probabilistic programming"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pyro-ppl/funsor",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://github.com/pyro-ppl/funsor/workflows/CI/badge.svg)](https://github.com/pyro-ppl/funsor/actions)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pyro-ppl/funsor",
+      "status": "candidate",
+      "text": "[![Build Status](https://github.com/pyro-ppl/funsor/workflows/CI/badge.svg)](https://github.com/pyro-ppl/funsor/actions)"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40040743,
+      "status": "candidate",
+      "text": "symbolical"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40040531,
+      "status": "candidate",
+      "text": "emblematical"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40040066,
+      "status": "candidate",
+      "text": "emblematic"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40035966,
+      "status": "candidate",
+      "text": "representative"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30040067,
+      "status": "candidate",
+      "text": "symbolize"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 42029,
+      "status": "candidate",
+      "text": "emblematic"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 24048,
+      "status": "candidate",
+      "text": "representative"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 4019,
+      "status": "candidate",
+      "text": "emblematical"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 3019,
+      "status": "candidate",
+      "text": "symbolical"
+    }
+  ],
+  "canonical_name": "symbolic",
+  "concept_id": "symbolic",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "pyro-ppl/funsor"
+    }
+  ],
+  "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "symbolic",
+      "sense_id": "symbolic#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

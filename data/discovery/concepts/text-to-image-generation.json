@@ -31,6 +31,30 @@
       "source_repo": "huggingface/diffusion-fast",
       "status": "candidate-context",
       "text": "Repository for the blog post: [**Accelerating Generative AI Part III: Diffusion, Fast**](https://pytorch.org/blog/accelerating-generative-ai-3/). You can find a run down of the techniques on the [\ud83e\udd17 Diffusers website](https://huggingface.co/docs/diffusers/main/en/optimization/fp1\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Lightricks/ComfyUI-LTXVideo",
+      "status": "candidate-context",
+      "text": "LTX-Video Support for ComfyUI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Lightricks/ComfyUI-LTXVideo",
+      "status": "candidate-context",
+      "text": "[![GitHub](https://img.shields.io/badge/LTX-Repo-blue?logo=github)](https://github.com/Lightricks/LTX-2)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "NVlabs/Sana",
+      "status": "candidate-context",
+      "text": "SANA: Efficient High-Resolution Image Synthesis with Linear Diffusion Transformer"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NVlabs/Sana",
+      "status": "candidate-context",
+      "text": "<p align=\"center\" style=\"border-radius: 10px\">"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +69,18 @@
       "source_repo": "huggingface/diffusion-fast",
       "status": "candidate",
       "text": "Repository for the blog post: [**Accelerating Generative AI Part III: Diffusion, Fast**](https://pytorch.org/blog/accelerating-generative-ai-3/). You can find a run down of the techniques on the [\ud83e\udd17 Diffusers website](https://huggingface.co/docs/diffusers/main/en/optimization/fp1\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Lightricks/ComfyUI-LTXVideo",
+      "status": "candidate",
+      "text": "[![GitHub](https://img.shields.io/badge/LTX-Repo-blue?logo=github)](https://github.com/Lightricks/LTX-2)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NVlabs/Sana",
+      "status": "candidate",
+      "text": "<p align=\"center\" style=\"border-radius: 10px\">"
     }
   ],
   "candidate_related_terms": [],
@@ -64,11 +100,23 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": null,
       "source_repo": "huggingface/diffusion-fast"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "Lightricks/ComfyUI-LTXVideo"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "NVlabs/Sana"
     }
   ],
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,65 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "llyx97/FETV",
+      "target": "llyx97/fetv-eval",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "llyx97/FETV",
+      "target": "thudm/cogvideo",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "llyx97/FETV",
+      "target": "picsart-ai-research/text2video-zero",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T01:59:31.176079+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6015
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "[NeurIPS 2023 Datasets and Benchmarks] \"FETV: A Benchmark for Fine-Grained Evaluation of Open-Domain Text-to-Video Generation\", Yuanxin Liu, Lei Li, Shuhuai Ren, Rundong Gao, Shicheng Li, Sishuo Chen, Xu Sun, Lu Hou",
+    "fork": false,
+    "full_name": "llyx97/FETV",
+    "html_url": "https://github.com/llyx97/FETV",
+    "language": "Python",
+    "pushed_at": "2024-03-04T03:51:45Z",
+    "stargazers_count": 57,
+    "topics": [],
+    "updated_at": "2025-11-23T18:49:46Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "llyx97/fetv-eval",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "picsart-ai-research/text2video-zero",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "thudm/cogvideo",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

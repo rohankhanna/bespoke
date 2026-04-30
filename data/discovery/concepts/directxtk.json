@@ -43,6 +43,18 @@
       "source_repo": "walbourn/directxtk12test",
       "status": "candidate-context",
       "text": "Copyright (c) Microsoft Corporation."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "walbourn/directxtktest",
+      "status": "candidate-context",
+      "text": "Tests for DirectX Tool Kit for Direct3D 11"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "walbourn/directxtktest",
+      "status": "candidate-context",
+      "text": "Copyright (c) Microsoft Corporation."
     }
   ],
   "candidate_glosses": [
@@ -61,6 +73,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "walbourn/directxtk12test",
+      "status": "candidate",
+      "text": "Copyright (c) Microsoft Corporation."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "walbourn/directxtktest",
       "status": "candidate",
       "text": "Copyright (c) Microsoft Corporation."
     }
@@ -88,11 +106,17 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "walbourn/directxtk12test"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "walbourn/directxtktest"
     }
   ],
   "first_seen_at": "2026-04-24T12:33:41.350224+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

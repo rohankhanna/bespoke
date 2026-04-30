@@ -1,0 +1,197 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "fabio-sim/Depth-Anything-ONNX",
+      "target": "liheyoung/depth-anything",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "fabio-sim/Depth-Anything-ONNX",
+      "target": "tiangolo/typer",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "fabio-sim/Depth-Anything-ONNX",
+      "target": "zju3dv/loftr",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "fabio-sim/Depth-Anything-ONNX",
+      "target": "deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "fabio-sim/Depth-Anything-ONNX",
+      "target": "depth",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "fabio-sim/Depth-Anything-ONNX",
+      "target": "depth-anything",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "fabio-sim/Depth-Anything-ONNX",
+      "target": "depth-estimation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "fabio-sim/Depth-Anything-ONNX",
+      "target": "machine-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "fabio-sim/Depth-Anything-ONNX",
+      "target": "monocular-depth-estimation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "fabio-sim/Depth-Anything-ONNX",
+      "target": "onnx",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "fabio-sim/Depth-Anything-ONNX",
+      "target": "onnxruntime",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "fabio-sim/Depth-Anything-ONNX",
+      "target": "pytorch",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T01:57:53.535824+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7282
+    },
+    {
+      "path": "requirements.txt",
+      "size": 90
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "ONNX-compatible Depth Anything: Unleashing the Power of Large-Scale Unlabeled Data",
+    "fork": false,
+    "full_name": "fabio-sim/Depth-Anything-ONNX",
+    "html_url": "https://github.com/fabio-sim/Depth-Anything-ONNX",
+    "language": "Python",
+    "pushed_at": "2024-10-03T14:09:56Z",
+    "stargazers_count": 428,
+    "topics": [
+      "deep-learning",
+      "depth",
+      "depth-anything",
+      "depth-estimation",
+      "machine-learning",
+      "monocular-depth-estimation",
+      "onnx",
+      "onnxruntime",
+      "pytorch"
+    ],
+    "updated_at": "2026-04-28T07:50:58Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "liheyoung/depth-anything",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "tiangolo/typer",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "zju3dv/loftr",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[![ONNX](https://img.shields.io/badge/ONNX-grey)](https://onnx.ai/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-learning"
+    },
+    {
+      "context_snippet": "[![ONNX](https://img.shields.io/badge/ONNX-grey)](https://onnx.ai/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "depth"
+    },
+    {
+      "context_snippet": "[![ONNX](https://img.shields.io/badge/ONNX-grey)](https://onnx.ai/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "depth-anything"
+    },
+    {
+      "context_snippet": "[![ONNX](https://img.shields.io/badge/ONNX-grey)](https://onnx.ai/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "depth-estimation"
+    },
+    {
+      "context_snippet": "[![ONNX](https://img.shields.io/badge/ONNX-grey)](https://onnx.ai/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "machine-learning"
+    },
+    {
+      "context_snippet": "[![ONNX](https://img.shields.io/badge/ONNX-grey)](https://onnx.ai/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "monocular-depth-estimation"
+    },
+    {
+      "context_snippet": "[![ONNX](https://img.shields.io/badge/ONNX-grey)](https://onnx.ai/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "onnx"
+    },
+    {
+      "context_snippet": "[![ONNX](https://img.shields.io/badge/ONNX-grey)](https://onnx.ai/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "onnxruntime"
+    },
+    {
+      "context_snippet": "[![ONNX](https://img.shields.io/badge/ONNX-grey)](https://onnx.ai/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytorch"
+    }
+  ]
+}

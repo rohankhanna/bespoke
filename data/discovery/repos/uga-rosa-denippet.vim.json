@@ -1,0 +1,146 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration.yml"
+    },
+    {
+      "component": "denoland/setup-deno@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration.yml"
+    },
+    {
+      "component": "denoland/setup-deno@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration.yml"
+    },
+    {
+      "component": "rhysd/action-setup-vim@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration.yml"
+    },
+    {
+      "component": "rhysd/action-setup-vim@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration.yml",
+      "source_repo": "uga-rosa/denippet.vim",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration.yml",
+      "source_repo": "uga-rosa/denippet.vim",
+      "target": "denoland/setup-deno@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration.yml",
+      "source_repo": "uga-rosa/denippet.vim",
+      "target": "rhysd/action-setup-vim@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/integration.yml",
+      "source_repo": "uga-rosa/denippet.vim",
+      "target": "integration",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "uga-rosa/denippet.vim",
+      "target": "denops",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "uga-rosa/denippet.vim",
+      "target": "nvim-plugin",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "uga-rosa/denippet.vim",
+      "target": "vim-plugin",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T01:00:23.072997+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2041
+    },
+    {
+      "path": ".github/workflows/integration.yml",
+      "size": 1646
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A snippet plugin for Vim/Neovim, powered by TypeScript",
+    "fork": false,
+    "full_name": "uga-rosa/denippet.vim",
+    "html_url": "https://github.com/uga-rosa/denippet.vim",
+    "language": "TypeScript",
+    "pushed_at": "2024-06-27T11:43:00Z",
+    "stargazers_count": 39,
+    "topics": [
+      "denops",
+      "nvim-plugin",
+      "vim-plugin"
+    ],
+    "updated_at": "2026-04-07T11:26:36Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "integration",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/integration.yml",
+      "term": "integration"
+    },
+    {
+      "context_snippet": "[![integration](https://github.com/uga-rosa/denippet.vim/actions/workflows/integration.yml/badge.svg)](https://github.com/uga-rosa/denippet.vim/actions/workflows/integration.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "denops"
+    },
+    {
+      "context_snippet": "[![integration](https://github.com/uga-rosa/denippet.vim/actions/workflows/integration.yml/badge.svg)](https://github.com/uga-rosa/denippet.vim/actions/workflows/integration.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nvim-plugin"
+    },
+    {
+      "context_snippet": "[![integration](https://github.com/uga-rosa/denippet.vim/actions/workflows/integration.yml/badge.svg)](https://github.com/uga-rosa/denippet.vim/actions/workflows/integration.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vim-plugin"
+    }
+  ]
+}

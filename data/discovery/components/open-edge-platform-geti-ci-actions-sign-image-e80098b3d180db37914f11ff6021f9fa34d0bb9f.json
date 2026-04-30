@@ -1,0 +1,12 @@
+{
+  "component": "open-edge-platform/geti-ci/actions/sign-image@e80098b3d180db37914f11ff6021f9fa34d0bb9f",
+  "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/distrib.yml",
+      "source_repo": "open-edge-platform/geti-instant-learn"
+    }
+  ]
+}

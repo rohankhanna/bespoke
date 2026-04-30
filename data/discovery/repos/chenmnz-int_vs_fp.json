@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T05:15:28.808181+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5708
+    },
+    {
+      "path": "requirements.txt",
+      "size": 127
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A framework to compare low-bit integer and float-point formats",
+    "fork": false,
+    "full_name": "ChenMnZ/INT_vs_FP",
+    "html_url": "https://github.com/ChenMnZ/INT_vs_FP",
+    "language": "Python",
+    "pushed_at": "2026-02-06T05:27:02Z",
+    "stargazers_count": 77,
+    "topics": [],
+    "updated_at": "2026-04-20T10:39:04Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

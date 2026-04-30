@@ -80,6 +80,18 @@
       "source_repo": "fonttools/fontspector",
       "status": "candidate-context",
       "text": "\"Lint commit messages\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "vmihailenco/taskq",
+      "status": "candidate-context",
+      "text": "Golang asynchronous task/job queue with Redis, SQS, IronMQ, and in-memory backends"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vmihailenco/taskq",
+      "status": "candidate-context",
+      "text": "Lint Commit Messages"
     }
   ],
   "candidate_glosses": [
@@ -118,6 +130,12 @@
       "source_repo": "fonttools/fontspector",
       "status": "candidate",
       "text": "\"Lint commit messages\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vmihailenco/taskq",
+      "status": "candidate",
+      "text": "Lint Commit Messages"
     }
   ],
   "candidate_related_terms": [
@@ -197,11 +215,23 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": ".github/workflows/coco.yml",
       "source_repo": "fonttools/fontspector"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/commitlint.yml",
+      "source_repo": "uptrace/bunrouter"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/commitlint.yml",
+      "source_repo": "vmihailenco/taskq"
     }
   ],
   "first_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

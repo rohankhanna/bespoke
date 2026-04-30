@@ -377,7 +377,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-29T19:59:52.229016+00:00",
+  "fetched_at": "2026-04-30T04:06:21.266374+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -429,8 +429,8 @@
     "full_name": "ko-build/ko",
     "html_url": "https://github.com/ko-build/ko",
     "language": "Go",
-    "pushed_at": "2026-04-23T01:03:38Z",
-    "stargazers_count": 8420,
+    "pushed_at": "2026-04-30T01:03:46Z",
+    "stargazers_count": 8417,
     "topics": [
       "container",
       "containers",
@@ -440,7 +440,7 @@
       "golang",
       "kubernetes"
     ],
-    "updated_at": "2026-04-29T16:10:57Z"
+    "updated_at": "2026-04-29T23:45:01Z"
   },
   "repo_links": [],
   "terms": [

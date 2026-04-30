@@ -1,0 +1,130 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "2KAbhishek/mac2k",
+      "target": "nikitabobko/aerospace",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "2KAbhishek/mac2k",
+      "target": "command-line",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "2KAbhishek/mac2k",
+      "target": "dotfiles",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "2KAbhishek/mac2k",
+      "target": "macos",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "2KAbhishek/mac2k",
+      "target": "nvim",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "2KAbhishek/mac2k",
+      "target": "tiling",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "2KAbhishek/mac2k",
+      "target": "tooling",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T05:00:57.621497+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5630
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Ultimate Dev Setup for Mac OS \ud83d\ude80\ud83c\udf4e",
+    "fork": false,
+    "full_name": "2KAbhishek/mac2k",
+    "html_url": "https://github.com/2KAbhishek/mac2k",
+    "language": "Shell",
+    "pushed_at": "2026-04-12T20:26:13Z",
+    "stargazers_count": 36,
+    "topics": [
+      "cli",
+      "command-line",
+      "dev",
+      "dotfiles",
+      "macos",
+      "nvim",
+      "tiling",
+      "tooling",
+      "vim"
+    ],
+    "updated_at": "2026-04-27T11:21:04Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "nikitabobko/aerospace",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<div align = \"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "command-line"
+    },
+    {
+      "context_snippet": "<div align = \"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dotfiles"
+    },
+    {
+      "context_snippet": "<div align = \"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "macos"
+    },
+    {
+      "context_snippet": "<div align = \"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nvim"
+    },
+    {
+      "context_snippet": "<div align = \"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tiling"
+    },
+    {
+      "context_snippet": "<div align = \"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tooling"
+    }
+  ]
+}

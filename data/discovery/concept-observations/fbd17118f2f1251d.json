@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "nREPL middleware to support refactorings in an editor agnostic way"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![CircleCI](https://circleci.com/gh/clojure-emacs/refactor-nrepl/tree/master.svg?style=svg)](https://circleci.com/gh/clojure-emacs/refactor-nrepl/tree/master)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![CircleCI](https://circleci.com/gh/clojure-emacs/refactor-nrepl/tree/master.svg?style=svg)](https://circleci.com/gh/clojure-emacs/refactor-nrepl/tree/master)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "clj-refactor",
+      "sense_id": "clj-refactor#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "clj-refactor",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "clj-refactor",
+  "observation_id": "fbd17118f2f1251d",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T00:37:16.824464+00:00",
+  "observed_text": "clj-refactor",
+  "source_context_snippet": "[![CircleCI](https://circleci.com/gh/clojure-emacs/refactor-nrepl/tree/master.svg?style=svg)](https://circleci.com/gh/clojure-emacs/refactor-nrepl/tree/master)",
+  "source_file": null,
+  "source_repo": "clojure-emacs/refactor-nrepl",
+  "source_repo_description": "nREPL middleware to support refactorings in an editor agnostic way"
+}

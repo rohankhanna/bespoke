@@ -1,7 +1,7 @@
 {
   "component": "actions/setup-go@v2",
   "first_seen_at": "2026-04-18T18:48:44.679047+00:00",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -497,6 +497,81 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/verify.yaml",
       "source_repo": "superedge/superedge"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/cpp.yml",
+      "source_repo": "proxy-wasm/proxy-wasm-cpp-sdk"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/autobahn.yml",
+      "source_repo": "lesismal/nbio"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/iamci.yaml",
+      "source_repo": "marmotedu/iam"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "tidwall/tile38"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "google/triage-party"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/go.yml",
+      "source_repo": "NVIDIA/dcgm-exporter"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/edgeadm.yaml",
+      "source_repo": "superedge/edgeadm"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/verify.yaml",
+      "source_repo": "superedge/edgeadm"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/lint.yaml",
+      "source_repo": "go-logr/zerologr"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test.yaml",
+      "source_repo": "go-logr/zerologr"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "vmware-archive/buildkit-cli-for-kubectl"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/code-cover-gen.yaml",
+      "source_repo": "cockroachdb/pebble"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/autobahn.yml",
+      "source_repo": "antlabs/quickws"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "ColdHeat/pystarlark"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "vmihailenco/taskq"
     }
   ]
 }

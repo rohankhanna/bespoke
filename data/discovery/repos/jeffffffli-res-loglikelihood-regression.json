@@ -1,0 +1,141 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "jeffffffli/res-loglikelihood-regression",
+      "target": "mks0601/3dmppe_posenet_release",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jeffffffli/res-loglikelihood-regression",
+      "target": "2d-human-pose",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jeffffffli/res-loglikelihood-regression",
+      "target": "3d-human-pose",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jeffffffli/res-loglikelihood-regression",
+      "target": "human-pose-estimation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jeffffffli/res-loglikelihood-regression",
+      "target": "iccv",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jeffffffli/res-loglikelihood-regression",
+      "target": "iccv2021",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jeffffffli/res-loglikelihood-regression",
+      "target": "pytorch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jeffffffli/res-loglikelihood-regression",
+      "target": "regression",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T03:49:30.060121+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3818
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Code for \"Human Pose Regression with Residual Log-likelihood Estimation\", ICCV 2021 Oral",
+    "fork": false,
+    "full_name": "jeffffffli/res-loglikelihood-regression",
+    "html_url": "https://github.com/jeffffffli/res-loglikelihood-regression",
+    "language": "Python",
+    "pushed_at": "2021-11-25T03:47:29Z",
+    "stargazers_count": 435,
+    "topics": [
+      "2d-human-pose",
+      "3d-human-pose",
+      "human-pose-estimation",
+      "iccv",
+      "iccv2021",
+      "pytorch",
+      "regression"
+    ],
+    "updated_at": "2026-03-23T23:03:49Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mks0601/3dmppe_posenet_release",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[[`Paper`](https://jeffli.site/res-loglikelihood-regression/resources/ICCV21-RLE.pdf)]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "2d-human-pose"
+    },
+    {
+      "context_snippet": "[[`Paper`](https://jeffli.site/res-loglikelihood-regression/resources/ICCV21-RLE.pdf)]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "3d-human-pose"
+    },
+    {
+      "context_snippet": "[[`Paper`](https://jeffli.site/res-loglikelihood-regression/resources/ICCV21-RLE.pdf)]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "human-pose-estimation"
+    },
+    {
+      "context_snippet": "[[`Paper`](https://jeffli.site/res-loglikelihood-regression/resources/ICCV21-RLE.pdf)]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "iccv"
+    },
+    {
+      "context_snippet": "[[`Paper`](https://jeffli.site/res-loglikelihood-regression/resources/ICCV21-RLE.pdf)]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "iccv2021"
+    },
+    {
+      "context_snippet": "[[`Paper`](https://jeffli.site/res-loglikelihood-regression/resources/ICCV21-RLE.pdf)]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytorch"
+    },
+    {
+      "context_snippet": "[[`Paper`](https://jeffli.site/res-loglikelihood-regression/resources/ICCV21-RLE.pdf)]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "regression"
+    }
+  ]
+}

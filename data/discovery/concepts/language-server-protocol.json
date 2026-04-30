@@ -319,6 +319,102 @@
       "source_repo": "elm-tooling/elm-language-server",
       "status": "candidate-context",
       "text": "![Matrix](https://img.shields.io/matrix/elm-language-server:matrix.org?label=Matrix%20chat&logo=Matrix)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "microsoft/python-language-server",
+      "status": "candidate-context",
+      "text": "Microsoft Language Server for Python"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/python-language-server",
+      "status": "candidate-context",
+      "text": "Microsoft Python Language Server implements the [Language Server Protocol](https://microsoft.github.io/language-server-protocol/specification)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "microsoft/monitors4codegen",
+      "status": "candidate-context",
+      "text": "Code and Data artifact for NeurIPS 2023 paper - \"Monitor-Guided Decoding of Code LMs with Static Analysis of Repository Context\". `multispy` is a lsp client library in Python intended to be used to build applications around language servers."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/monitors4codegen",
+      "status": "candidate-context",
+      "text": "Alternative title: Guiding Language Models of Code with Global Context using Monitors"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "julia-vscode/LanguageServer.jl",
+      "status": "candidate-context",
+      "text": "An implementation of the Microsoft Language Server Protocol for the Julia language."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "julia-vscode/LanguageServer.jl",
+      "status": "candidate-context",
+      "text": "[![Project Status: Active - The project has reached a stable, usable state and is being actively developed.](http://www.repostatus.org/badges/latest/active.svg)](http://www.repostatus.org/#active)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "elm-tooling/elm-language-client-vscode",
+      "status": "candidate-context",
+      "text": "Improving your Elm experience since 2019"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "elm-tooling/elm-language-client-vscode",
+      "status": "candidate-context",
+      "text": "[![Version](https://vsmarketplacebadge.apphb.com/version/Elmtooling.elm-ls-vscode.png)](https://marketplace.visualstudio.com/items?itemName=Elmtooling.elm-ls-vscode)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Alloyed/lua-lsp",
+      "status": "candidate-context",
+      "text": "A Lua language server"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Alloyed/lua-lsp",
+      "status": "candidate-context",
+      "text": "A Lua language server"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "artempyanykh/marksman",
+      "status": "candidate-context",
+      "text": "Write Markdown with code assist and intelligence in the comfort of your favourite editor."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "artempyanykh/marksman",
+      "status": "candidate-context",
+      "text": "[![Build & Test](https://github.com/artempyanykh/marksman/actions/workflows/build.yml/badge.svg)](https://github.com/artempyanykh/marksman/actions/workflows/build.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "microsoft/multilspy",
+      "status": "candidate-context",
+      "text": "multilspy is a lsp client library in Python intended to be used to build applications around language servers."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/multilspy",
+      "status": "candidate-context",
+      "text": "[![PyPI - Version](https://img.shields.io/pypi/v/multilspy)](https://pypi.org/project/multilspy/)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ebkalderon/tower-lsp",
+      "status": "candidate-context",
+      "text": "Language Server Protocol implementation written in Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ebkalderon/tower-lsp",
+      "status": "candidate-context",
+      "text": "[![Build Status][build-badge]][build-url]"
     }
   ],
   "candidate_glosses": [
@@ -477,6 +573,54 @@
       "source_repo": "elm-tooling/elm-language-server",
       "status": "candidate",
       "text": "![Matrix](https://img.shields.io/matrix/elm-language-server:matrix.org?label=Matrix%20chat&logo=Matrix)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/python-language-server",
+      "status": "candidate",
+      "text": "Microsoft Python Language Server implements the [Language Server Protocol](https://microsoft.github.io/language-server-protocol/specification)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/monitors4codegen",
+      "status": "candidate",
+      "text": "Alternative title: Guiding Language Models of Code with Global Context using Monitors"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "julia-vscode/LanguageServer.jl",
+      "status": "candidate",
+      "text": "[![Project Status: Active - The project has reached a stable, usable state and is being actively developed.](http://www.repostatus.org/badges/latest/active.svg)](http://www.repostatus.org/#active)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "elm-tooling/elm-language-client-vscode",
+      "status": "candidate",
+      "text": "[![Version](https://vsmarketplacebadge.apphb.com/version/Elmtooling.elm-ls-vscode.png)](https://marketplace.visualstudio.com/items?itemName=Elmtooling.elm-ls-vscode)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Alloyed/lua-lsp",
+      "status": "candidate",
+      "text": "A Lua language server"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "artempyanykh/marksman",
+      "status": "candidate",
+      "text": "[![Build & Test](https://github.com/artempyanykh/marksman/actions/workflows/build.yml/badge.svg)](https://github.com/artempyanykh/marksman/actions/workflows/build.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/multilspy",
+      "status": "candidate",
+      "text": "[![PyPI - Version](https://img.shields.io/pypi/v/multilspy)](https://pypi.org/project/multilspy/)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ebkalderon/tower-lsp",
+      "status": "candidate",
+      "text": "[![Build Status][build-badge]][build-url]"
     }
   ],
   "candidate_related_terms": [],
@@ -778,11 +922,107 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "elm-tooling/elm-language-server"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "microsoft/python-language-server"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "neovim/nvim-lspconfig"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "atom/ide-java"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "eclipse-jdtls/eclipse.jdt.ls"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "eclipse-lsp4j/lsp4j"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "microsoft/monitors4codegen"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "eclipse-lemminx/lemminx"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "typescript-language-server/typescript-language-server"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "julia-vscode/LanguageServer.jl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "elm-tooling/elm-language-client-vscode"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "Alloyed/lua-lsp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "artempyanykh/marksman"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "dense-analysis/ale"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "microsoft/multilspy"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "ebkalderon/tower-lsp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "sublimelsp/LSP"
     }
   ],
   "first_seen_at": "2026-04-19T17:42:30.117329+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

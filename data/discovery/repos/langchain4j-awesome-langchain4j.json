@@ -1,0 +1,77 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "langchain4j/awesome-langchain4j",
+      "target": "devoxx/devoxxgenieideaplugin",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "langchain4j/awesome-langchain4j",
+      "target": "azure-samples/azure-openai-rag-workshop",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "langchain4j/awesome-langchain4j",
+      "target": "bsorrentino/langgraph4j",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "langchain4j/awesome-langchain4j",
+      "target": "apache/camel-quarkus-examples",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T02:56:28.719071+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 42468
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "langchain4j/awesome-langchain4j",
+    "html_url": "https://github.com/langchain4j/awesome-langchain4j",
+    "language": null,
+    "pushed_at": "2025-11-14T12:21:10Z",
+    "stargazers_count": 163,
+    "topics": [],
+    "updated_at": "2026-04-25T10:55:31Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "apache/camel-quarkus-examples",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "azure-samples/azure-openai-rag-workshop",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "bsorrentino/langgraph4j",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "devoxx/devoxxgenieideaplugin",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

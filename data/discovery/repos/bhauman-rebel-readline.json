@@ -1,0 +1,100 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bhauman/rebel-readline",
+      "target": "clojure",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bhauman/rebel-readline",
+      "target": "clojure-library",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bhauman/rebel-readline",
+      "target": "clojurescript",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bhauman/rebel-readline",
+      "target": "readline-library",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bhauman/rebel-readline",
+      "target": "repl",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T00:38:51.507302+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8440
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Terminal readline library for Clojure dialects",
+    "fork": false,
+    "full_name": "bhauman/rebel-readline",
+    "html_url": "https://github.com/bhauman/rebel-readline",
+    "language": "Clojure",
+    "pushed_at": "2026-03-13T03:02:33Z",
+    "stargazers_count": 742,
+    "topics": [
+      "clojure",
+      "clojure-library",
+      "clojurescript",
+      "readline-library",
+      "repl"
+    ],
+    "updated_at": "2026-04-27T01:06:17Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "[![Clojars Project](https://img.shields.io/clojars/v/com.bhauman/rebel-readline.svg)](https://clojars.org/com.bhauman/rebel-readline)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "clojure"
+    },
+    {
+      "context_snippet": "[![Clojars Project](https://img.shields.io/clojars/v/com.bhauman/rebel-readline.svg)](https://clojars.org/com.bhauman/rebel-readline)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "clojure-library"
+    },
+    {
+      "context_snippet": "[![Clojars Project](https://img.shields.io/clojars/v/com.bhauman/rebel-readline.svg)](https://clojars.org/com.bhauman/rebel-readline)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "clojurescript"
+    },
+    {
+      "context_snippet": "[![Clojars Project](https://img.shields.io/clojars/v/com.bhauman/rebel-readline.svg)](https://clojars.org/com.bhauman/rebel-readline)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "readline-library"
+    },
+    {
+      "context_snippet": "[![Clojars Project](https://img.shields.io/clojars/v/com.bhauman/rebel-readline.svg)](https://clojars.org/com.bhauman/rebel-readline)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "repl"
+    }
+  ]
+}

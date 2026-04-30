@@ -1,0 +1,110 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "actions/setup-java@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "gradle/gradle-build-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "archguard/codedb",
+      "target": "archguard/codedb-poc",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "archguard/codedb",
+      "target": "cglib/cglib",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "archguard/codedb",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "archguard/codedb",
+      "target": "actions/setup-java@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "archguard/codedb",
+      "target": "gradle/gradle-build-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "archguard/codedb",
+      "target": "architecture",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T02:49:05.384793+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2963
+    },
+    {
+      "path": ".github/workflows/ci.yaml",
+      "size": 630
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "      CodeDB \u662f\u4e00\u4e2a\u4e13\u4e3a\u8f6f\u4ef6\u5f00\u53d1\u672c\u8eab\u5f00\u53d1\u7684\u4ee3\u7801\u6570\u636e\u5e93\uff0c\u53ef\u4ee5\u7528\u4e8e\u67b6\u6784\u6cbb\u7406\u3001\u4ee3\u7801\u751f\u6210\u7b49\u9886\u57df\u3002\u57fa\u4e8e\u67b6\u6784\u5b6a\u751f\u7684\u7406\u5ff5\uff0c\u5185\u5efa\u67b6\u6784\u9002\u5ea6\u5ea6\u51fd\u6570\u3001\u4ee3\u7801\u8bbe\u8ba1\u67e5\u8be2\u548c\u5b58\u50a8 DSL\u3001\u4f9d\u8d56\u5206\u6790\u5f15\u64ce\u3001\u673a\u5668\u5b66\u4e60\u7b97\u6cd5\u7b49\u3002",
+    "fork": false,
+    "full_name": "archguard/codedb",
+    "html_url": "https://github.com/archguard/codedb",
+    "language": "Kotlin",
+    "pushed_at": "2023-12-09T13:49:26Z",
+    "stargazers_count": 43,
+    "topics": [
+      "architecture"
+    ],
+    "updated_at": "2026-04-09T14:36:06Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "archguard/codedb-poc",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cglib/cglib",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[![CI](https://github.com/archguard/codedb-poc/actions/workflows/ci.yaml/badge.svg)](https://github.com/archguard/codedb-poc/actions/workflows/ci.yaml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "architecture"
+    }
+  ]
+}

@@ -1,0 +1,136 @@
+{
+  "aliases": [
+    "hardened"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "endojs/endo",
+      "status": "candidate-context",
+      "text": "Endo is a distributed secure JavaScript sandbox, based on SES"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "endojs/endo",
+      "status": "candidate-context",
+      "text": "---"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "endojs/endo",
+      "status": "candidate",
+      "text": "---"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40040902,
+      "status": "candidate",
+      "text": "hard"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40039227,
+      "status": "candidate",
+      "text": "tough"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40038374,
+      "status": "candidate",
+      "text": "case-hardened"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40029642,
+      "status": "candidate",
+      "text": "tempered"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40014758,
+      "status": "candidate",
+      "text": "set"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 39108,
+      "status": "candidate",
+      "text": "set"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 33057,
+      "status": "candidate",
+      "text": "hard"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 26044,
+      "status": "candidate",
+      "text": "tough"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 14031,
+      "status": "candidate",
+      "text": "tempered"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 9020,
+      "status": "candidate",
+      "text": "inured"
+    }
+  ],
+  "canonical_name": "hardened",
+  "concept_id": "hardened",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "endojs/endo"
+    }
+  ],
+  "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "hardened",
+      "sense_id": "hardened#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

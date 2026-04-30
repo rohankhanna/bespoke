@@ -1,11 +1,14 @@
 {
   "aliases": [
-    "flutter"
+    "flutter",
+    "Flutter"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
     "tool-component",
-    "capability"
+    "capability",
+    "workflow-process",
+    "data-document-artifact"
   ],
   "candidate_definitions": [
     {
@@ -223,6 +226,90 @@
       "source_repo": "rrousselGit/riverpod",
       "status": "candidate-context",
       "text": "<p>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "amake/flutter.el",
+      "status": "candidate-context",
+      "text": "Flutter tools for Emacs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "amake/flutter.el",
+      "status": "candidate-context",
+      "text": "[![MELPA](https://melpa.org/packages/flutter-badge.svg)](https://melpa.org/#/flutter)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ericdallo/hover.el",
+      "status": "candidate-context",
+      "text": "Flutter tool to run hover on emacs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ericdallo/hover.el",
+      "status": "candidate-context",
+      "text": "<img align=\"right\" src=\"https://github.com/go-flutter-desktop/hover/blob/master/assets/app/icon.png\" width=\"64\"/>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "celo-org/celo-composer",
+      "status": "candidate-context",
+      "text": "celo-composer is a starter project with all code needed to build, deploy, and upgrade a dapps on Celo."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "celo-org/celo-composer",
+      "status": "candidate-context",
+      "text": "A powerful CLI tool for generating customizable Celo blockchain starter kits with modern monorepo architecture."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rrousselGit/flutter_hooks",
+      "status": "candidate-context",
+      "text": "React hooks for Flutter. Hooks are a new kind of object that manages a Widget life-cycles. They are used to increase code sharing between widgets and as a complete replacement for StatefulWidget."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rrousselGit/flutter_hooks",
+      "status": "candidate-context",
+      "text": "[English](https://github.com/rrousselGit/flutter_hooks/blob/master/README.md) | [Portugu\u00eas](https://github.com/rrousselGit/flutter_hooks/blob/master/packages/flutter_hooks/resources/translations/pt_br/README.md) | [\ud55c\uad6d\uc5b4](https://github.com/rrousselGit/flutter_hooks/blob/master/pa\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rrousselGit/provider",
+      "status": "candidate-context",
+      "text": "InheritedWidgets, but simple"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rrousselGit/provider",
+      "status": "candidate-context",
+      "text": "Build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "go-flutter-desktop/hover",
+      "status": "candidate-context",
+      "text": "Hover helps developers to release Flutter applications on desktop."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "go-flutter-desktop/hover",
+      "status": "candidate-context",
+      "text": "Hover is a simple build tool to create [Flutter](https://flutter.dev) desktop applications."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "xplpc/xplpc",
+      "status": "candidate-context",
+      "text": "Cross Platform Lite Procedure Call - Support Linux, macOS, Windows, iOS, Android, Web Assembly, Flutter, Kotlin, Python and More"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "xplpc/xplpc",
+      "status": "candidate-context",
+      "text": "Flutter"
     }
   ],
   "candidate_glosses": [
@@ -333,6 +420,48 @@
       "source_repo": "rrousselGit/riverpod",
       "status": "candidate",
       "text": "<p>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "amake/flutter.el",
+      "status": "candidate",
+      "text": "[![MELPA](https://melpa.org/packages/flutter-badge.svg)](https://melpa.org/#/flutter)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ericdallo/hover.el",
+      "status": "candidate",
+      "text": "<img align=\"right\" src=\"https://github.com/go-flutter-desktop/hover/blob/master/assets/app/icon.png\" width=\"64\"/>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "celo-org/celo-composer",
+      "status": "candidate",
+      "text": "A powerful CLI tool for generating customizable Celo blockchain starter kits with modern monorepo architecture."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rrousselGit/flutter_hooks",
+      "status": "candidate",
+      "text": "[English](https://github.com/rrousselGit/flutter_hooks/blob/master/README.md) | [Portugu\u00eas](https://github.com/rrousselGit/flutter_hooks/blob/master/packages/flutter_hooks/resources/translations/pt_br/README.md) | [\ud55c\uad6d\uc5b4](https://github.com/rrousselGit/flutter_hooks/blob/master/pa\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rrousselGit/provider",
+      "status": "candidate",
+      "text": "Build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "go-flutter-desktop/hover",
+      "status": "candidate",
+      "text": "Hover is a simple build tool to create [Flutter](https://flutter.dev) desktop applications."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "xplpc/xplpc",
+      "status": "candidate",
+      "text": "Flutter"
     }
   ],
   "candidate_related_terms": [
@@ -520,11 +649,59 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "rrousselGit/riverpod"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "amake/flutter.el"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "ericdallo/hover.el"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "eclipse-archived/dartboard"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "celo-org/celo-composer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "rrousselGit/flutter_hooks"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "rrousselGit/provider"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "go-flutter-desktop/hover"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/flutter.yml",
+      "source_repo": "xplpc/xplpc"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

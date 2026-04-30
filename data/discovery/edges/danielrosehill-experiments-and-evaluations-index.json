@@ -1,0 +1,55 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "danielrosehill/Experiments-And-Evaluations-Index",
+      "target": "danielrosehill/ai-assistant-template",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "danielrosehill/Experiments-And-Evaluations-Index",
+      "target": "danielrosehill/ai-dev-prompts-example",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "danielrosehill/Experiments-And-Evaluations-Index",
+      "target": "danielrosehill/ai-assistant-ideator",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "danielrosehill/Experiments-And-Evaluations-Index",
+      "target": "danielrosehill/ai-interview-workflow-v2",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "danielrosehill/Experiments-And-Evaluations-Index",
+      "target": "ai-experiments",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "danielrosehill/Experiments-And-Evaluations-Index",
+      "target": "benchmarks",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "danielrosehill/Experiments-And-Evaluations-Index",
+      "target": "evaluations",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-30T00:37:16.824464+00:00",
+  "source_repo": "danielrosehill/Experiments-And-Evaluations-Index"
+}

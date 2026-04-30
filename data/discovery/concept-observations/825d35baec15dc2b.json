@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Spatio-Temporal Action Localization System"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "AlphAction aims to detect the actions of multiple persons in videos. It is"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "AlphAction aims to detect the actions of multiple persons in videos. It is"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "demo-video",
+      "sense_id": "demo-video#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "demo-video",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "demo-video",
+  "observation_id": "825d35baec15dc2b",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T00:37:16.824464+00:00",
+  "observed_text": "demo-video",
+  "source_context_snippet": "AlphAction aims to detect the actions of multiple persons in videos. It is",
+  "source_file": null,
+  "source_repo": "MVIG-SJTU/AlphAction",
+  "source_repo_description": "Spatio-Temporal Action Localization System"
+}

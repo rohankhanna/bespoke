@@ -1,0 +1,103 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "sublimehq/Packages",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sublimehq/Packages",
+      "target": "sublime",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sublimehq/Packages",
+      "target": "sublime-syntax",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sublimehq/Packages",
+      "target": "sublime-text",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sublimehq/Packages",
+      "target": "syntax-highlighting",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T00:46:23.434799+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4718
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 2109
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Syntax highlighting files shipped with Sublime Text and Sublime Merge",
+    "fork": false,
+    "full_name": "sublimehq/Packages",
+    "html_url": "https://github.com/sublimehq/Packages",
+    "language": "Shell",
+    "pushed_at": "2026-04-25T18:52:18Z",
+    "stargazers_count": 3005,
+    "topics": [
+      "sublime",
+      "sublime-syntax",
+      "sublime-text",
+      "syntax-highlighting"
+    ],
+    "updated_at": "2026-04-29T20:03:46Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "These packages are developed",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "sublime"
+    },
+    {
+      "context_snippet": "These packages are developed",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "sublime-syntax"
+    },
+    {
+      "context_snippet": "These packages are developed",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "sublime-text"
+    },
+    {
+      "context_snippet": "These packages are developed",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "syntax-highlighting"
+    }
+  ]
+}

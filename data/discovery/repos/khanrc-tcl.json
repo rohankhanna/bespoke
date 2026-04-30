@@ -1,0 +1,129 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "khanrc/tcl",
+      "target": "nvlabs/groupvit",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "khanrc/tcl",
+      "target": "kakaobrain/tcl",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "khanrc/tcl",
+      "target": "cvpr",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "khanrc/tcl",
+      "target": "open-world",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "khanrc/tcl",
+      "target": "segmentation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "khanrc/tcl",
+      "target": "semantic-segmentation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "khanrc/tcl",
+      "target": "zero-shot",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T05:13:58.219436+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8260
+    },
+    {
+      "path": "requirements.txt",
+      "size": 183
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Official implementation of TCL (CVPR 2023)",
+    "fork": false,
+    "full_name": "khanrc/tcl",
+    "html_url": "https://github.com/khanrc/tcl",
+    "language": "Python",
+    "pushed_at": "2023-05-11T08:54:42Z",
+    "stargazers_count": 118,
+    "topics": [
+      "cvpr",
+      "open-world",
+      "segmentation",
+      "semantic-segmentation",
+      "zero-shot"
+    ],
+    "updated_at": "2026-04-26T12:12:56Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "kakaobrain/tcl",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "nvlabs/groupvit",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Official PyTorch implementation of [**Learning to Generate Text-grounded Mask for Open-world Semantic Segmentation from Only Image-Text Pairs**](https://arxiv.org/abs/2212.00785), *Junbum Cha, Jonghwan Mun, Byungseok Roh*, CVPR 2023.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cvpr"
+    },
+    {
+      "context_snippet": "Official PyTorch implementation of [**Learning to Generate Text-grounded Mask for Open-world Semantic Segmentation from Only Image-Text Pairs**](https://arxiv.org/abs/2212.00785), *Junbum Cha, Jonghwan Mun, Byungseok Roh*, CVPR 2023.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "open-world"
+    },
+    {
+      "context_snippet": "Official PyTorch implementation of [**Learning to Generate Text-grounded Mask for Open-world Semantic Segmentation from Only Image-Text Pairs**](https://arxiv.org/abs/2212.00785), *Junbum Cha, Jonghwan Mun, Byungseok Roh*, CVPR 2023.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "segmentation"
+    },
+    {
+      "context_snippet": "Official PyTorch implementation of [**Learning to Generate Text-grounded Mask for Open-world Semantic Segmentation from Only Image-Text Pairs**](https://arxiv.org/abs/2212.00785), *Junbum Cha, Jonghwan Mun, Byungseok Roh*, CVPR 2023.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "semantic-segmentation"
+    },
+    {
+      "context_snippet": "Official PyTorch implementation of [**Learning to Generate Text-grounded Mask for Open-world Semantic Segmentation from Only Image-Text Pairs**](https://arxiv.org/abs/2212.00785), *Junbum Cha, Jonghwan Mun, Byungseok Roh*, CVPR 2023.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "zero-shot"
+    }
+  ]
+}

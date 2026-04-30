@@ -1,7 +1,7 @@
 {
   "component": "peaceiris/actions-gh-pages@v3",
   "first_seen_at": "2026-04-18T09:45:12.634395+00:00",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -452,6 +452,101 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/main.yaml",
       "source_repo": "geocompx/geocompr"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "mosn/mosn.io"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci-spec.yml",
+      "source_repo": "WebAssembly/exception-handling"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci-spec.yml",
+      "source_repo": "WebAssembly/extended-const"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/documentation.yaml",
+      "source_repo": "k8s-operatorhub/community-operators"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/adapter_docs_build.yml",
+      "source_repo": "adapter-hub/adapter-transformers-legacy"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "alpa-projects/alpa"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/deploy-docs-site.yaml",
+      "source_repo": "LAION-AI/Open-Assistant"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "rstudio/pins-python"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/docs.yaml",
+      "source_repo": "aburns4/textualforesight"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/poetry-docs.yml",
+      "source_repo": "agentsea/threadmem"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yml",
+      "source_repo": "privacycg/storage-access"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/.deploy.yml",
+      "source_repo": "takari/m2e-discovery-catalog"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/gh-pages.yml",
+      "source_repo": "zhiqwang/yolort"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-doc.yml",
+      "source_repo": "k2-fsa/icefall"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/generate-docs.yml",
+      "source_repo": "pysan3/pathlib.nvim"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/deploy-mkdocs.yml",
+      "source_repo": "crowdcent/numerblox"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci-spec.yml",
+      "source_repo": "WebAssembly/function-references"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/preview-pull-request.yml",
+      "source_repo": "gpuweb/gpuweb"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/publish-docs.yml",
+      "source_repo": "flairNLP/flair"
     }
   ]
 }

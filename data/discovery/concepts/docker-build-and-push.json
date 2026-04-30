@@ -87,6 +87,18 @@
       "source_repo": "microsoft/WindowsAgentArena",
       "status": "candidate-context",
       "text": "Docker Build and Push"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "spacemeshos/post-rs",
+      "status": "candidate-context",
+      "text": "Rust implementation of POST proving"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "spacemeshos/post-rs",
+      "status": "candidate-context",
+      "text": "Docker Build and Push"
     }
   ],
   "candidate_glosses": [
@@ -123,6 +135,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "microsoft/WindowsAgentArena",
+      "status": "candidate",
+      "text": "Docker Build and Push"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "spacemeshos/post-rs",
       "status": "candidate",
       "text": "Docker Build and Push"
     }
@@ -216,11 +234,17 @@
       "observed_at": "2026-04-24T12:33:41.350224+00:00",
       "source_file": ".github/workflows/publish-docker.yml",
       "source_repo": "microsoft/WindowsAgentArena"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "spacemeshos/post-rs"
     }
   ],
   "first_seen_at": "2026-04-18T12:07:11.500453+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

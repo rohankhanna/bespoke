@@ -19,6 +19,18 @@
       "source_repo": "terraform-aws-modules/terraform-aws-notify-slack",
       "status": "candidate-context",
       "text": "This module creates an SNS topic (or uses an existing one) and an AWS Lambda function that sends notifications to Slack using the [incoming webhooks API](https://api.slack.com/incoming-webhooks)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ACloudGuru/serverless-plugin-aws-alerts",
+      "status": "candidate-context",
+      "text": "A Serverless Framework plugin that creates CloudWatch alarms for functions."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ACloudGuru/serverless-plugin-aws-alerts",
+      "status": "candidate-context",
+      "text": "[![NPM version][npm-image]][npm-url]"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "terraform-aws-modules/terraform-aws-notify-slack",
       "status": "candidate",
       "text": "This module creates an SNS topic (or uses an existing one) and an AWS Lambda function that sends notifications to Slack using the [incoming webhooks API](https://api.slack.com/incoming-webhooks)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ACloudGuru/serverless-plugin-aws-alerts",
+      "status": "candidate",
+      "text": "[![NPM version][npm-image]][npm-url]"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": null,
       "source_repo": "terraform-aws-modules/terraform-aws-notify-slack"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "ACloudGuru/serverless-plugin-aws-alerts"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

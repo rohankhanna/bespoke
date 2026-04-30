@@ -1,0 +1,112 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "OpenGVLab/OmniQuant",
+      "target": "chenmnz/int_vs_fp",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "OpenGVLab/OmniQuant",
+      "target": "chenmnz/prefixquant",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "OpenGVLab/OmniQuant",
+      "target": "chenmnz/autogptq-bugfix",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "OpenGVLab/OmniQuant",
+      "target": "hahnyuan/rptq4llm",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "OpenGVLab/OmniQuant",
+      "target": "large-language-models",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "OpenGVLab/OmniQuant",
+      "target": "quantization",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T02:00:12.990610+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 11570
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 1132
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "[ICLR2024 spotlight] OmniQuant is a simple and powerful quantization technique for LLMs. ",
+    "fork": false,
+    "full_name": "OpenGVLab/OmniQuant",
+    "html_url": "https://github.com/OpenGVLab/OmniQuant",
+    "language": "Python",
+    "pushed_at": "2025-11-26T07:22:07Z",
+    "stargazers_count": 896,
+    "topics": [
+      "large-language-models",
+      "llm",
+      "quantization"
+    ],
+    "updated_at": "2026-04-29T07:35:52Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "chenmnz/autogptq-bugfix",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "chenmnz/int_vs_fp",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "chenmnz/prefixquant",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "hahnyuan/rptq4llm",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<h5 align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "large-language-models"
+    },
+    {
+      "context_snippet": "<h5 align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "quantization"
+    }
+  ]
+}

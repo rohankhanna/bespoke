@@ -1,0 +1,57 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "bubbliiiing/yolov7-tiny-pytorch",
+      "target": "bubbliiiing/yolox-pytorch",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "bubbliiiing/yolov7-tiny-pytorch",
+      "target": "wongkinyiu/yolov7",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T03:46:18.976115+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6552
+    },
+    {
+      "path": "requirements.txt",
+      "size": 138
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "\u8fd9\u662f\u4e00\u4e2ayolov7-tiny-pytorch\u7684\u6e90\u7801\uff0c\u53ef\u4ee5\u7528\u4e8e\u8bad\u7ec3\u81ea\u5df1\u7684\u6a21\u578b\u3002",
+    "fork": false,
+    "full_name": "bubbliiiing/yolov7-tiny-pytorch",
+    "html_url": "https://github.com/bubbliiiing/yolov7-tiny-pytorch",
+    "language": "Python",
+    "pushed_at": "2023-09-25T06:37:42Z",
+    "stargazers_count": 215,
+    "topics": [],
+    "updated_at": "2026-03-17T02:26:42Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "bubbliiiing/yolox-pytorch",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "wongkinyiu/yolov7",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

@@ -1,0 +1,81 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "chjj/blessed",
+      "target": "slap-editor/slap",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "chjj/blessed",
+      "target": "gizak/termui",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "chjj/blessed",
+      "target": "nsf/termbox-go",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "chjj/blessed",
+      "target": "chjj/ttystudio",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T05:00:40.530289+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 73602
+    },
+    {
+      "path": "package.json",
+      "size": 654
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A high-level terminal interface library for node.js.",
+    "fork": false,
+    "full_name": "chjj/blessed",
+    "html_url": "https://github.com/chjj/blessed",
+    "language": "JavaScript",
+    "pushed_at": "2024-03-22T10:02:56Z",
+    "stargazers_count": 11823,
+    "topics": [],
+    "updated_at": "2026-04-29T21:00:52Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "chjj/ttystudio",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "gizak/termui",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "nsf/termbox-go",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "slap-editor/slap",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

@@ -1546,6 +1546,270 @@
       "source_repo": "minio/directpv",
       "status": "candidate-context",
       "text": "> [!IMPORTANT]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apache/apisix",
+      "status": "candidate-context",
+      "text": "The Cloud-Native API Gateway and AI Gateway"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/apisix",
+      "status": "candidate-context",
+      "text": "<!--"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cruise-automation/isopod",
+      "status": "candidate-context",
+      "text": "An expressive DSL and framework for Kubernetes configuration without YAML"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cruise-automation/isopod",
+      "status": "candidate-context",
+      "text": "Isopod"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "openshift/origin",
+      "status": "candidate-context",
+      "text": "Conformance test suite for OpenShift"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "openshift/origin",
+      "status": "candidate-context",
+      "text": "Origin Kubernetes"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "external-secrets/kubernetes-external-secrets",
+      "status": "candidate-context",
+      "text": "Integrate external secret management systems with Kubernetes"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "external-secrets/kubernetes-external-secrets",
+      "status": "candidate-context",
+      "text": "This project has been [deprecated](https://github.com/external-secrets/kubernetes-external-secrets/issues/864)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "AbdelrhmanHamouda/locust-k8s-operator",
+      "status": "candidate-context",
+      "text": "Deploy and manage Locust tests on Kubernetes. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AbdelrhmanHamouda/locust-k8s-operator",
+      "status": "candidate-context",
+      "text": "<div align=\"center\" style=\"margin: 2rem 0;\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apache/spark-kubernetes-operator",
+      "status": "candidate-context",
+      "text": "Apache Spark Kubernetes Operator"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/spark-kubernetes-operator",
+      "status": "candidate-context",
+      "text": "[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "quarkiverse/quarkus-operator-sdk",
+      "status": "candidate-context",
+      "text": "Quarkus Extension to create Kubernetes Operators in Java using the Java Operator SDK (https://github.com/java-operator-sdk/java-operator-sdk) project"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "quarkiverse/quarkus-operator-sdk",
+      "status": "candidate-context",
+      "text": "<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "operator-framework/operator-registry",
+      "status": "candidate-context",
+      "text": " Operator Registry runs in a Kubernetes or OpenShift cluster to provide operator catalog data to Operator Lifecycle Manager."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "operator-framework/operator-registry",
+      "status": "candidate-context",
+      "text": "Operator Registry runs in a Kubernetes or OpenShift cluster to provide operator catalog data to [Operator Lifecycle Manager](https://github.com/operator-framework/operator-lifecycle-manager)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kserve/kserve",
+      "status": "candidate-context",
+      "text": "Standardized Distributed Generative and Predictive AI Inference Platform for Scalable, Multi-Framework Deployment on Kubernetes"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kserve/kserve",
+      "status": "candidate-context",
+      "text": "[![go.dev reference](https://img.shields.io/badge/go.dev-reference-007d9c?logo=go&logoColor=white)](https://pkg.go.dev/github.com/kserve/kserve)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "opencost/opencost-helm-chart",
+      "status": "candidate-context",
+      "text": "OpenCost Helm chart "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "opencost/opencost-helm-chart",
+      "status": "candidate-context",
+      "text": "[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dstackai/dstack",
+      "status": "candidate-context",
+      "text": "Vendor-agnostic orchestration for training, inference and agentic workloads across NVIDIA, AMD, TPU, and Tenstorrent on clouds, Kubernetes, and bare metal."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dstackai/dstack",
+      "status": "candidate-context",
+      "text": "<div style=\"text-align: center;\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "envoyproxy/ai-gateway",
+      "status": "candidate-context",
+      "text": "Manages Unified Access to Generative AI Services built on Envoy Gateway"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "envoyproxy/ai-gateway",
+      "status": "candidate-context",
+      "text": "Envoy AI Gateway is an open source project for using [Envoy Gateway](https://github.com/envoyproxy/gateway) to handle request traffic from application clients to Generative AI services."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "barracudanetworks/lighthouse",
+      "status": "candidate-context",
+      "text": "A data-driven Kubernetes pre-processor"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "barracudanetworks/lighthouse",
+      "status": "candidate-context",
+      "text": "Generate Kubernetes manifests by combining EDN data instead of templating YAML."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apache/apisix-helm-chart",
+      "status": "candidate-context",
+      "text": "Apache APISIX Helm Chart"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/apisix-helm-chart",
+      "status": "candidate-context",
+      "text": "<!--"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apache/apisix-ingress-controller",
+      "status": "candidate-context",
+      "text": "APISIX Ingress Controller for Kubernetes"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/apisix-ingress-controller",
+      "status": "candidate-context",
+      "text": "<!--"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kuberhealthy/kuberhealthy",
+      "status": "candidate-context",
+      "text": "A Kubernetes operator for running synthetic checks as pods. Works great with Prometheus!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kuberhealthy/kuberhealthy",
+      "status": "candidate-context",
+      "text": "<center><img src=\"https://github.com/kuberhealthy/kuberhealthy/blob/master/images/kuberhealthy.png?raw=true\"></center><br />"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "external-secrets/external-secrets",
+      "status": "candidate-context",
+      "text": "External Secrets Operator reads information from a third-party service like AWS Secrets Manager and automatically injects the values as Kubernetes Secrets."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "external-secrets/external-secrets",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "GoogleContainerTools/skaffold",
+      "status": "candidate-context",
+      "text": "Easy and Repeatable Kubernetes Development"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "GoogleContainerTools/skaffold",
+      "status": "candidate-context",
+      "text": "<!-- github does not support `width` with markdown images-->"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "NVIDIA/gpu-operator",
+      "status": "candidate-context",
+      "text": "NVIDIA GPU Operator creates, configures, and manages GPUs in Kubernetes"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NVIDIA/gpu-operator",
+      "status": "candidate-context",
+      "text": "[![license](https://img.shields.io/github/license/NVIDIA/gpu-operator?style=flat-square)](https://raw.githubusercontent.com/NVIDIA/gpu-operator/master/LICENSE)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "argoproj-labs/argocd-image-updater",
+      "status": "candidate-context",
+      "text": "Automatic container image update for Argo CD"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "argoproj-labs/argocd-image-updater",
+      "status": "candidate-context",
+      "text": "![Integration tests](https://github.com/argoproj-labs/argocd-image-updater/workflows/Integration%20tests/badge.svg?branch=master&event=push)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "microsoft/frameworkcontroller",
+      "status": "candidate-context",
+      "text": "General-Purpose Kubernetes Pod Controller"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/frameworkcontroller",
+      "status": "candidate-context",
+      "text": "**_Turn it into maintenance mode, read-only, and only update for critical fixes._**"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "microsoft/pai",
+      "status": "candidate-context",
+      "text": "Resource scheduling and cluster management for AI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/pai",
+      "status": "candidate-context",
+      "text": "[logo]: ./pailogo.jpg \"OpenPAI\""
     }
   ],
   "candidate_glosses": [
@@ -2316,6 +2580,138 @@
       "source_repo": "minio/directpv",
       "status": "candidate",
       "text": "> [!IMPORTANT]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/apisix",
+      "status": "candidate",
+      "text": "<!--"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cruise-automation/isopod",
+      "status": "candidate",
+      "text": "Isopod"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "openshift/origin",
+      "status": "candidate",
+      "text": "Origin Kubernetes"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "external-secrets/kubernetes-external-secrets",
+      "status": "candidate",
+      "text": "This project has been [deprecated](https://github.com/external-secrets/kubernetes-external-secrets/issues/864)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AbdelrhmanHamouda/locust-k8s-operator",
+      "status": "candidate",
+      "text": "<div align=\"center\" style=\"margin: 2rem 0;\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/spark-kubernetes-operator",
+      "status": "candidate",
+      "text": "[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "quarkiverse/quarkus-operator-sdk",
+      "status": "candidate",
+      "text": "<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "operator-framework/operator-registry",
+      "status": "candidate",
+      "text": "Operator Registry runs in a Kubernetes or OpenShift cluster to provide operator catalog data to [Operator Lifecycle Manager](https://github.com/operator-framework/operator-lifecycle-manager)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kserve/kserve",
+      "status": "candidate",
+      "text": "[![go.dev reference](https://img.shields.io/badge/go.dev-reference-007d9c?logo=go&logoColor=white)](https://pkg.go.dev/github.com/kserve/kserve)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "opencost/opencost-helm-chart",
+      "status": "candidate",
+      "text": "[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dstackai/dstack",
+      "status": "candidate",
+      "text": "<div style=\"text-align: center;\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "envoyproxy/ai-gateway",
+      "status": "candidate",
+      "text": "Envoy AI Gateway is an open source project for using [Envoy Gateway](https://github.com/envoyproxy/gateway) to handle request traffic from application clients to Generative AI services."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "barracudanetworks/lighthouse",
+      "status": "candidate",
+      "text": "Generate Kubernetes manifests by combining EDN data instead of templating YAML."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/apisix-helm-chart",
+      "status": "candidate",
+      "text": "<!--"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/apisix-ingress-controller",
+      "status": "candidate",
+      "text": "<!--"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kuberhealthy/kuberhealthy",
+      "status": "candidate",
+      "text": "<center><img src=\"https://github.com/kuberhealthy/kuberhealthy/blob/master/images/kuberhealthy.png?raw=true\"></center><br />"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "external-secrets/external-secrets",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "GoogleContainerTools/skaffold",
+      "status": "candidate",
+      "text": "<!-- github does not support `width` with markdown images-->"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NVIDIA/gpu-operator",
+      "status": "candidate",
+      "text": "[![license](https://img.shields.io/github/license/NVIDIA/gpu-operator?style=flat-square)](https://raw.githubusercontent.com/NVIDIA/gpu-operator/master/LICENSE)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "argoproj-labs/argocd-image-updater",
+      "status": "candidate",
+      "text": "![Integration tests](https://github.com/argoproj-labs/argocd-image-updater/workflows/Integration%20tests/badge.svg?branch=master&event=push)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/frameworkcontroller",
+      "status": "candidate",
+      "text": "**_Turn it into maintenance mode, read-only, and only update for critical fixes._**"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/pai",
+      "status": "candidate",
+      "text": "[logo]: ./pailogo.jpg \"OpenPAI\""
     }
   ],
   "candidate_related_terms": [
@@ -3277,11 +3673,203 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "minio/directpv"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "apache/apisix"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "cruise-automation/isopod"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "okd-project/okd"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "openshift/origin"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "podman-desktop/podman-desktop"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "external-secrets/kubernetes-external-secrets"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "bitnami/kube-libsonnet"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "vmware-archive/kubecfg"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "AbdelrhmanHamouda/locust-k8s-operator"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "apache/spark-kubernetes-operator"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "quarkiverse/quarkus-operator-sdk"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "containers/podman"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "operator-framework/operator-registry"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "prometheus-operator/kube-prometheus"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "akuity/awesome-argo"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "kserve/kserve"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "hexops-graveyard/dockerfile"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "opencost/opencost-helm-chart"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "dstackai/dstack"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "envoyproxy/ai-gateway"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "jina-ai/serve"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "barracudanetworks/lighthouse"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "ko-build/ko"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "apache/apisix-helm-chart"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "apache/apisix-ingress-controller"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "kuberhealthy/kuberhealthy"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "external-secrets/external-secrets"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "GoogleContainerTools/skaffold"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "NVIDIA/gpu-operator"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "argoproj-labs/argocd-image-updater"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "microsoft/frameworkcontroller"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "microsoft/pai"
     }
   ],
   "first_seen_at": "2026-04-18T10:38:37.562216+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

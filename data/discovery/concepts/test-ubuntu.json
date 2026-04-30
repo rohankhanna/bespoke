@@ -1,7 +1,8 @@
 {
   "aliases": [
     "test-ubuntu",
-    "test ubuntu"
+    "test ubuntu",
+    "Test (Ubuntu)"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -32,6 +33,18 @@
       "source_repo": "krzysztofzablocki/Sourcery",
       "status": "candidate-context",
       "text": "test ubuntu"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "web-infra-dev/rsdoctor",
+      "status": "candidate-context",
+      "text": "A one-stop build analyzer for Rspack and webpack."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "web-infra-dev/rsdoctor",
+      "status": "candidate-context",
+      "text": "Test (Ubuntu)"
     }
   ],
   "candidate_glosses": [
@@ -46,6 +59,12 @@
       "source_repo": "krzysztofzablocki/Sourcery",
       "status": "candidate",
       "text": "test ubuntu"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "web-infra-dev/rsdoctor",
+      "status": "candidate",
+      "text": "Test (Ubuntu)"
     }
   ],
   "candidate_related_terms": [
@@ -83,6 +102,41 @@
       "score": 10004,
       "status": "candidate",
       "text": "zulu"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26424,
+      "status": "candidate",
+      "text": "analyses"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26424,
+      "status": "candidate",
+      "text": "analysing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26424,
+      "status": "candidate",
+      "text": "analysis"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26424,
+      "status": "candidate",
+      "text": "analyzing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26424,
+      "status": "candidate",
+      "text": "ascertain"
     }
   ],
   "candidate_synonyms": [],
@@ -107,11 +161,23 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": ".github/workflows/test_ubuntu.yml",
       "source_repo": "krzysztofzablocki/Sourcery"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/test-ubuntu-node20.yml",
+      "source_repo": "web-infra-dev/rsdoctor"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/test-ubuntu.yml",
+      "source_repo": "web-infra-dev/rsdoctor"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,7 +1,7 @@
 {
   "component": "actions/setup-python@v1",
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -357,6 +357,91 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/style_type_check.yml",
       "source_repo": "amzn/pecos"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "neulab/explainaboard_client"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/publish-on-main-commit.yaml",
+      "source_repo": "mit-han-lab/mcunet"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/pypi-publish.yml",
+      "source_repo": "google-deepmind/dm-haiku"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/pythonpublish.yml",
+      "source_repo": "scikit-learn-contrib/hdbscan"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/pythonpublish_wheel.yml",
+      "source_repo": "scikit-learn-contrib/hdbscan"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/pythonpublish_windows.yml",
+      "source_repo": "scikit-learn-contrib/hdbscan"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/lint_python.yml",
+      "source_repo": "facebookresearch/nle"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "google/brax"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/pypi.yml",
+      "source_repo": "google/brax"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/publish_monthly.yaml",
+      "source_repo": "google/seqio"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/publish_nightly.yaml",
+      "source_repo": "google/seqio"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build_tests.yml",
+      "source_repo": "OpenVoiceOS/ovos-tts-plugin-piper"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "MegEngine/Models"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/publish-pip.yml",
+      "source_repo": "TencentARC/GFPGAN"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/unit.yml",
+      "source_repo": "GoogleChrome/lighthouse"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/continuous-integration.yml",
+      "source_repo": "microsoft/pai"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/client-tests.yaml",
+      "source_repo": "leizhao1234/cogvlm2"
     }
   ]
 }

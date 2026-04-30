@@ -1,0 +1,274 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run.yaml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.rst",
+      "source_repo": "malaysia-ai/malaya",
+      "target": "huseinzol05/malaya",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.rst",
+      "source_repo": "malaysia-ai/malaya",
+      "target": "mesolitica/malaya",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run.yaml",
+      "source_repo": "malaysia-ai/malaya",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run.yaml",
+      "source_repo": "malaysia-ai/malaya",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/run.yaml",
+      "source_repo": "malaysia-ai/malaya",
+      "target": "Run on Push to Master",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "malaysia-ai/malaya",
+      "target": "bahasa-malaysia",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "malaysia-ai/malaya",
+      "target": "emotion-analysis",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "malaysia-ai/malaya",
+      "target": "entity-framework",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "malaysia-ai/malaya",
+      "target": "language-detection",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "malaysia-ai/malaya",
+      "target": "malay",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "malaysia-ai/malaya",
+      "target": "malay-nlp",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "malaysia-ai/malaya",
+      "target": "natural-language-processing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "malaysia-ai/malaya",
+      "target": "normalizer",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "malaysia-ai/malaya",
+      "target": "pos-tagging",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "malaysia-ai/malaya",
+      "target": "sentiment-analysis",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "malaysia-ai/malaya",
+      "target": "subjectivity-analysis",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "malaysia-ai/malaya",
+      "target": "tensorflow",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T02:45:01.945411+00:00",
+  "fetched_files": [
+    {
+      "path": "README.rst",
+      "size": 3839
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 73
+    },
+    {
+      "path": "requirements.txt",
+      "size": 148
+    },
+    {
+      "path": ".github/workflows/run.yaml",
+      "size": 631
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": " Natural Language Toolkit for Malaysian language, https://malaya.readthedocs.io/",
+    "fork": false,
+    "full_name": "malaysia-ai/malaya",
+    "html_url": "https://github.com/malaysia-ai/malaya",
+    "language": "Jupyter Notebook",
+    "pushed_at": "2026-03-26T00:34:10Z",
+    "stargazers_count": 522,
+    "topics": [
+      "bahasa-malaysia",
+      "emotion-analysis",
+      "entity-framework",
+      "language-detection",
+      "malay",
+      "malay-nlp",
+      "natural-language-processing",
+      "ner",
+      "normalizer",
+      "pos-tagging",
+      "sentiment-analysis",
+      "subjectivity-analysis",
+      "tensorflow"
+    ],
+    "updated_at": "2026-03-26T00:34:21Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "huseinzol05/malaya",
+      "source_file": "README.rst"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mesolitica/malaya",
+      "source_file": "README.rst"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Run on Push to Master",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/run.yaml",
+      "term": "Run on Push to Master"
+    },
+    {
+      "context_snippet": ".. raw:: html",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bahasa-malaysia"
+    },
+    {
+      "context_snippet": ".. raw:: html",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "emotion-analysis"
+    },
+    {
+      "context_snippet": ".. raw:: html",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "entity-framework"
+    },
+    {
+      "context_snippet": ".. raw:: html",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "language-detection"
+    },
+    {
+      "context_snippet": ".. raw:: html",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "malay"
+    },
+    {
+      "context_snippet": ".. raw:: html",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "malay-nlp"
+    },
+    {
+      "context_snippet": ".. raw:: html",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "natural-language-processing"
+    },
+    {
+      "context_snippet": ".. raw:: html",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "normalizer"
+    },
+    {
+      "context_snippet": ".. raw:: html",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pos-tagging"
+    },
+    {
+      "context_snippet": ".. raw:: html",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "sentiment-analysis"
+    },
+    {
+      "context_snippet": ".. raw:: html",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "subjectivity-analysis"
+    },
+    {
+      "context_snippet": ".. raw:: html",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tensorflow"
+    }
+  ]
+}

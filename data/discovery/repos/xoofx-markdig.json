@@ -1,0 +1,258 @@
+{
+  "components": [
+    {
+      "component": "xoofx/.github/.github/workflows/dotnet.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "lunet-io/actions/lunet-build@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/site.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-netstandard.yml"
+    },
+    {
+      "component": "actions/setup-dotnet@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-netstandard.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "xoofx/markdig",
+      "target": "xoofx/.github/.github/workflows/dotnet.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/site.yml",
+      "source_repo": "xoofx/markdig",
+      "target": "lunet-io/actions/lunet-build@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/site.yml",
+      "source_repo": "xoofx/markdig",
+      "target": "site",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-netstandard.yml",
+      "source_repo": "xoofx/markdig",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-netstandard.yml",
+      "source_repo": "xoofx/markdig",
+      "target": "actions/setup-dotnet@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test-netstandard.yml",
+      "source_repo": "xoofx/markdig",
+      "target": "Test netstandard",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "xoofx/markdig",
+      "target": "commonmark",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "xoofx/markdig",
+      "target": "commonmark-parsing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "xoofx/markdig",
+      "target": "csharp",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "xoofx/markdig",
+      "target": "dotnet",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "xoofx/markdig",
+      "target": "dotnetcore",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "xoofx/markdig",
+      "target": "markdown",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "xoofx/markdig",
+      "target": "markdown-flavors",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "xoofx/markdig",
+      "target": "markdown-parser",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "xoofx/markdig",
+      "target": "markdown-processor",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "xoofx/markdig",
+      "target": "markdown-to-html",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T00:51:43.076638+00:00",
+  "fetched_files": [
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 329
+    },
+    {
+      "path": ".github/workflows/nuget_org_only.config",
+      "size": 196
+    },
+    {
+      "path": ".github/workflows/site.yml",
+      "size": 387
+    },
+    {
+      "path": ".github/workflows/test-netstandard.yml",
+      "size": 1523
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A fast, powerful, CommonMark compliant, extensible Markdown processor for .NET",
+    "fork": false,
+    "full_name": "xoofx/markdig",
+    "html_url": "https://github.com/xoofx/markdig",
+    "language": "C#",
+    "pushed_at": "2026-04-20T06:16:13Z",
+    "stargazers_count": 5207,
+    "topics": [
+      "commonmark",
+      "commonmark-parsing",
+      "csharp",
+      "dotnet",
+      "dotnetcore",
+      "gfm",
+      "markdown",
+      "markdown-flavors",
+      "markdown-parser",
+      "markdown-processor",
+      "markdown-to-html"
+    ],
+    "updated_at": "2026-04-29T07:06:41Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "site",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/site.yml",
+      "term": "site"
+    },
+    {
+      "context_snippet": "Test netstandard",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test-netstandard.yml",
+      "term": "Test netstandard"
+    },
+    {
+      "context_snippet": "ci",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "commonmark"
+    },
+    {
+      "context_snippet": "ci",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "commonmark-parsing"
+    },
+    {
+      "context_snippet": "ci",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "csharp"
+    },
+    {
+      "context_snippet": "ci",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dotnet"
+    },
+    {
+      "context_snippet": "ci",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dotnetcore"
+    },
+    {
+      "context_snippet": "ci",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "markdown"
+    },
+    {
+      "context_snippet": "ci",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "markdown-flavors"
+    },
+    {
+      "context_snippet": "ci",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "markdown-parser"
+    },
+    {
+      "context_snippet": "ci",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "markdown-processor"
+    },
+    {
+      "context_snippet": "ci",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "markdown-to-html"
+    }
+  ]
+}

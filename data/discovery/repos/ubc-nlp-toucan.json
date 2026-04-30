@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "UBC-NLP/Toucan",
+      "target": "ubc-nlp/cheetah",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T05:10:41.476495+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 12465
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "UBC-NLP/Toucan",
+    "html_url": "https://github.com/UBC-NLP/Toucan",
+    "language": null,
+    "pushed_at": "2025-09-02T21:45:32Z",
+    "stargazers_count": 6,
+    "topics": [],
+    "updated_at": "2025-10-23T14:33:18Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ubc-nlp/cheetah",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

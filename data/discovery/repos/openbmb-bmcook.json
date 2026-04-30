@@ -1,0 +1,69 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "OpenBMB/BMCook",
+      "target": "openbmb/cpm-live",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "OpenBMB/BMCook",
+      "target": "openbmb/modelcenter",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "OpenBMB/BMCook",
+      "target": "openbmb/bmtrain",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T01:03:37.950684+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 10604
+    },
+    {
+      "path": "requirements.txt",
+      "size": 65
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Model Compression for Big Models",
+    "fork": false,
+    "full_name": "OpenBMB/BMCook",
+    "html_url": "https://github.com/OpenBMB/BMCook",
+    "language": "Python",
+    "pushed_at": "2023-06-30T08:57:51Z",
+    "stargazers_count": 169,
+    "topics": [],
+    "updated_at": "2026-04-26T19:49:18Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "openbmb/bmtrain",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "openbmb/cpm-live",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "openbmb/modelcenter",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

@@ -79,6 +79,18 @@
       "source_repo": "vim-fuzzbox/fuzzbox-lsp.vim",
       "status": "candidate-context",
       "text": "An extension for [fuzzbox.vim](https://github.com/vim-fuzzbox/fuzzbox.vim) that"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "girishji/easyjump.vim",
+      "status": "candidate-context",
+      "text": "The Vim motion you've always wanted."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "girishji/easyjump.vim",
+      "status": "candidate-context",
+      "text": "Jump to any location on screen by typing two characters."
     }
   ],
   "candidate_glosses": [
@@ -117,6 +129,12 @@
       "source_repo": "vim-fuzzbox/fuzzbox-lsp.vim",
       "status": "candidate",
       "text": "An extension for [fuzzbox.vim](https://github.com/vim-fuzzbox/fuzzbox.vim) that"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "girishji/easyjump.vim",
+      "status": "candidate",
+      "text": "Jump to any location on screen by typing two characters."
     }
   ],
   "candidate_related_terms": [],
@@ -160,11 +178,17 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "vim-fuzzbox/fuzzbox-lsp.vim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "girishji/easyjump.vim"
     }
   ],
   "first_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

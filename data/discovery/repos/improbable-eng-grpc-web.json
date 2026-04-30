@@ -1,0 +1,181 @@
+{
+  "components": [
+    {
+      "component": "github-release-cli",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "lerna",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "tslint",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "typescript",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "improbable-eng/grpc-web",
+      "target": "grpc/grpc-web.",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "improbable-eng/grpc-web",
+      "target": "improbable-eng/ts-protoc-gen",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "improbable-eng/grpc-web",
+      "target": "easycz/grpc-web-hacker-news",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "improbable-eng/grpc-web",
+      "target": "github-release-cli",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "improbable-eng/grpc-web",
+      "target": "lerna",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "improbable-eng/grpc-web",
+      "target": "tslint",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "improbable-eng/grpc-web",
+      "target": "typescript",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "improbable-eng/grpc-web",
+      "target": "browser",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "improbable-eng/grpc-web",
+      "target": "golang",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "improbable-eng/grpc-web",
+      "target": "grpc",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "improbable-eng/grpc-web",
+      "target": "grpc-web",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T03:58:14.374909+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9676
+    },
+    {
+      "path": "go.mod",
+      "size": 1020
+    },
+    {
+      "path": "package.json",
+      "size": 814
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "gRPC Web implementation for Golang and TypeScript",
+    "fork": false,
+    "full_name": "improbable-eng/grpc-web",
+    "html_url": "https://github.com/improbable-eng/grpc-web",
+    "language": "TypeScript",
+    "pushed_at": "2023-09-23T08:13:21Z",
+    "stargazers_count": 4474,
+    "topics": [
+      "browser",
+      "golang",
+      "grpc",
+      "grpc-web",
+      "typescript"
+    ],
+    "updated_at": "2026-04-20T09:04:12Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "easycz/grpc-web-hacker-news",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "grpc/grpc-web.",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "improbable-eng/ts-protoc-gen",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[![CircleCI](https://circleci.com/gh/improbable-eng/grpc-web/tree/master.svg?style=svg)](https://circleci.com/gh/improbable-eng/grpc-web/tree/master)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "browser"
+    },
+    {
+      "context_snippet": "[![CircleCI](https://circleci.com/gh/improbable-eng/grpc-web/tree/master.svg?style=svg)](https://circleci.com/gh/improbable-eng/grpc-web/tree/master)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "golang"
+    },
+    {
+      "context_snippet": "[![CircleCI](https://circleci.com/gh/improbable-eng/grpc-web/tree/master.svg?style=svg)](https://circleci.com/gh/improbable-eng/grpc-web/tree/master)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "grpc"
+    },
+    {
+      "context_snippet": "[![CircleCI](https://circleci.com/gh/improbable-eng/grpc-web/tree/master.svg?style=svg)](https://circleci.com/gh/improbable-eng/grpc-web/tree/master)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "grpc-web"
+    }
+  ]
+}

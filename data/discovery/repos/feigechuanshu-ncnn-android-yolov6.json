@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T03:47:29.260120+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1328
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "FeiGeChuanShu/ncnn-android-yolov6",
+    "html_url": "https://github.com/FeiGeChuanShu/ncnn-android-yolov6",
+    "language": "C++",
+    "pushed_at": "2022-06-26T11:55:57Z",
+    "stargazers_count": 67,
+    "topics": [],
+    "updated_at": "2025-08-21T09:14:19Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

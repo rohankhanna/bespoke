@@ -32,6 +32,18 @@
       "source_repo": "invoke-ai/InvokeAI",
       "status": "candidate-context",
       "text": "'label PRs'"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pacstall/pacstall-programs",
+      "status": "candidate-context",
+      "text": "Pacstall's official program repository"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pacstall/pacstall-programs",
+      "status": "candidate-context",
+      "text": "Label PRs"
     }
   ],
   "candidate_glosses": [
@@ -46,6 +58,12 @@
       "source_repo": "invoke-ai/InvokeAI",
       "status": "candidate",
       "text": "'label PRs'"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pacstall/pacstall-programs",
+      "status": "candidate",
+      "text": "Label PRs"
     }
   ],
   "candidate_related_terms": [
@@ -101,11 +119,23 @@
       "observed_at": "2026-04-21T11:24:10.450489+00:00",
       "source_file": ".github/workflows/label-pr.yml",
       "source_repo": "invoke-ai/InvokeAI"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/label-pr.yml",
+      "source_repo": "invoke-ai/InvokeAI"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "pacstall/pacstall-programs"
     }
   ],
   "first_seen_at": "2026-04-19T17:42:30.117329+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

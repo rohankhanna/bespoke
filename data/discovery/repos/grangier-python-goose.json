@@ -1,0 +1,45 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.rst",
+      "source_repo": "grangier/python-goose",
+      "target": "gravitylabs/goose",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T03:52:24.732505+00:00",
+  "fetched_files": [
+    {
+      "path": "README.rst",
+      "size": 7626
+    },
+    {
+      "path": "requirements.txt",
+      "size": 48
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "develop",
+    "description": "Html Content / Article Extractor, web scrapping lib in Python",
+    "fork": false,
+    "full_name": "grangier/python-goose",
+    "html_url": "https://github.com/grangier/python-goose",
+    "language": "HTML",
+    "pushed_at": "2026-03-10T10:24:55Z",
+    "stargazers_count": 4079,
+    "topics": [],
+    "updated_at": "2026-04-22T09:51:27Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "gravitylabs/goose",
+      "source_file": "README.rst"
+    }
+  ],
+  "terms": []
+}

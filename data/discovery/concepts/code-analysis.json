@@ -180,6 +180,42 @@
       "source_repo": "laixintao/tokei-pie",
       "status": "candidate-context",
       "text": "[tool.poetry] name = \"tokei-pie\" version = \"1.2.2\" description = \"Draw a pie chart for tokei output.\" authors = [\"laixintao <laixintaoo@gmail.com>\"] readme = 'readme.md' [tool.poetry.dependencies] python = \"^3.6\" plotly = \"^5.4.0\" [tool.poetry.dev-dependencies] bumpversion = \"^0\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "microsoft/python-language-server",
+      "status": "candidate-context",
+      "text": "Microsoft Language Server for Python"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/python-language-server",
+      "status": "candidate-context",
+      "text": "Microsoft Python Language Server implements the [Language Server Protocol](https://microsoft.github.io/language-server-protocol/specification)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "microsoft/monitors4codegen",
+      "status": "candidate-context",
+      "text": "Code and Data artifact for NeurIPS 2023 paper - \"Monitor-Guided Decoding of Code LMs with Static Analysis of Repository Context\". `multispy` is a lsp client library in Python intended to be used to build applications around language servers."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/monitors4codegen",
+      "status": "candidate-context",
+      "text": "Alternative title: Guiding Language Models of Code with Global Context using Monitors"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "microsoft/multilspy",
+      "status": "candidate-context",
+      "text": "multilspy is a lsp client library in Python intended to be used to build applications around language servers."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/multilspy",
+      "status": "candidate-context",
+      "text": "[![PyPI - Version](https://img.shields.io/pypi/v/multilspy)](https://pypi.org/project/multilspy/)"
     }
   ],
   "candidate_glosses": [
@@ -260,6 +296,24 @@
       "source_repo": "laixintao/tokei-pie",
       "status": "candidate",
       "text": "[tool.poetry] name = \"tokei-pie\" version = \"1.2.2\" description = \"Draw a pie chart for tokei output.\" authors = [\"laixintao <laixintaoo@gmail.com>\"] readme = 'readme.md' [tool.poetry.dependencies] python = \"^3.6\" plotly = \"^5.4.0\" [tool.poetry.dev-dependencies] bumpversion = \"^0\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/python-language-server",
+      "status": "candidate",
+      "text": "Microsoft Python Language Server implements the [Language Server Protocol](https://microsoft.github.io/language-server-protocol/specification)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/monitors4codegen",
+      "status": "candidate",
+      "text": "Alternative title: Guiding Language Models of Code with Global Context using Monitors"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/multilspy",
+      "status": "candidate",
+      "text": "[![PyPI - Version](https://img.shields.io/pypi/v/multilspy)](https://pypi.org/project/multilspy/)"
     }
   ],
   "candidate_related_terms": [
@@ -393,11 +447,29 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "laixintao/tokei-pie"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "microsoft/python-language-server"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "microsoft/monitors4codegen"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "microsoft/multilspy"
     }
   ],
   "first_seen_at": "2026-04-18T13:29:00.435097+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

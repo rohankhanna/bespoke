@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Upload to Percy"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mermaid-js/mermaid-cli",
+      "status": "candidate-context",
+      "text": "Command line tool for the Mermaid library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mermaid-js/mermaid-cli",
+      "status": "candidate-context",
+      "text": "Upload to Percy"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mermaid-js/mermaid-cli",
+      "status": "candidate",
+      "text": "Upload to Percy"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10482,
+      "status": "candidate",
+      "text": "fork"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10482,
+      "status": "candidate",
+      "text": "forking"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10438,
+      "status": "candidate",
+      "text": "passing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10438,
+      "status": "candidate",
+      "text": "sledge"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10423,
+      "status": "candidate",
+      "text": "bere"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Upload to Percy",
+  "concept_id": "upload-to-percy",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/upload-percy.yml",
+      "source_repo": "mermaid-js/mermaid-cli"
+    }
+  ],
+  "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Upload to Percy",
+      "sense_id": "upload-to-percy#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

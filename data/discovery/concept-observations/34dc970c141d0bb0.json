@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Kiro is an agentic IDE that works alongside you from prototype to production."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Delete Spam Comments"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Delete Spam Comments"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26107,
+      "status": "candidate",
+      "text": "bitch"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18509,
+      "status": "candidate",
+      "text": "abolish"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18509,
+      "status": "candidate",
+      "text": "cuts"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18509,
+      "status": "candidate",
+      "text": "deleted"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18509,
+      "status": "candidate",
+      "text": "deleting"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Delete Spam Comments",
+      "sense_id": "delete-spam-comments#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "delete-spam-comments",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "delete-spam-comments",
+  "observation_id": "34dc970c141d0bb0",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-30T00:37:16.824464+00:00",
+  "observed_text": "Delete Spam Comments",
+  "source_context_snippet": "Delete Spam Comments",
+  "source_file": ".github/workflows/delete-spam-comments.yml",
+  "source_repo": "kirodotdev/Kiro",
+  "source_repo_description": "Kiro is an agentic IDE that works alongside you from prototype to production."
+}

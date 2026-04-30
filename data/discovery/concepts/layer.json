@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "layer"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hassony2/manopth",
+      "status": "candidate-context",
+      "text": "MANO layer for PyTorch, generating hand meshes as a differentiable layer"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hassony2/manopth",
+      "status": "candidate-context",
+      "text": "Manopth"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hassony2/manopth",
+      "status": "candidate",
+      "text": "Manopth"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40015800,
+      "status": "candidate",
+      "text": "superimposed"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39984526,
+      "status": "candidate",
+      "text": "stratified"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30030839,
+      "status": "candidate",
+      "text": "bedded"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30030838,
+      "status": "candidate",
+      "text": "ply"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30028199,
+      "status": "candidate",
+      "text": "coating"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "layer",
+  "concept_id": "layer",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "hassony2/manopth"
+    }
+  ],
+  "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "layer",
+      "sense_id": "layer#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

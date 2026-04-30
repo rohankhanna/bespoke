@@ -1,0 +1,53 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ElementAI/spider",
+      "target": "taoyds/spider",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ElementAI/spider",
+      "target": "taoyds/syntaxsql",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T02:03:50.912707+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9158
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "scripts and baselines for Spider: Yale complex and cross-domain semantic parsing and text-to-SQL challenge",
+    "fork": true,
+    "full_name": "ElementAI/spider",
+    "html_url": "https://github.com/ElementAI/spider",
+    "language": "Python",
+    "pushed_at": "2022-04-14T14:54:04Z",
+    "stargazers_count": 2,
+    "topics": [],
+    "updated_at": "2023-09-11T06:06:02Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "taoyds/spider",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "taoyds/syntaxsql",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

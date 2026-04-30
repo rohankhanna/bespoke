@@ -67,6 +67,54 @@
       "source_repo": "amzn/pecos",
       "status": "candidate-context",
       "text": "[![PyPi Latest Release](https://img.shields.io/pypi/v/libpecos)](https://img.shields.io/pypi/v/libpecos)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lmcinnes/pynndescent",
+      "status": "candidate-context",
+      "text": "A Python nearest neighbor descent for approximate nearest neighbors"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lmcinnes/pynndescent",
+      "status": "candidate-context",
+      "text": ".. image:: doc/pynndescent_logo.png"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "brj0/nndescent",
+      "status": "candidate-context",
+      "text": "C++/Python implementation of Nearest Neighbor Descent for efficient approximate nearest neighbor search"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "brj0/nndescent",
+      "status": "candidate-context",
+      "text": "Nearest Neighbor Descent (nndescent) is a C++ implementation of the nearest neighbor descent algorithm, designed for efficient and accurate approximate nearest neighbor search. With seamless integration into Python, it offers a powerful solution for constructing k-nearest neighb\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "curiosity-ai/hnsw-sharp",
+      "status": "candidate-context",
+      "text": "C# library for approximate nearest neighbors search using Hierarchical Navigable Small World graphs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "curiosity-ai/hnsw-sharp",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://dev.azure.com/curiosity-ai/mosaik/_apis/build/status/hnsw-sharp?branchName=master)](https://dev.azure.com/curiosity-ai/mosaik/_build/latest?definitionId=7&branchName=master)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "unum-cloud/USearch",
+      "status": "candidate-context",
+      "text": "Fast Open-Source Search & Clustering engine \u00d7 for Vectors & Arbitrary Objects \u00d7 in C++, C, Python, JavaScript, Rust, Java, Objective-C, Swift, C#, GoLang, and Wolfram \ud83d\udd0d"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "unum-cloud/USearch",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">USearch</h1>"
     }
   ],
   "candidate_glosses": [
@@ -99,6 +147,30 @@
       "source_repo": "amzn/pecos",
       "status": "candidate",
       "text": "[![PyPi Latest Release](https://img.shields.io/pypi/v/libpecos)](https://img.shields.io/pypi/v/libpecos)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lmcinnes/pynndescent",
+      "status": "candidate",
+      "text": ".. image:: doc/pynndescent_logo.png"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "brj0/nndescent",
+      "status": "candidate",
+      "text": "Nearest Neighbor Descent (nndescent) is a C++ implementation of the nearest neighbor descent algorithm, designed for efficient and accurate approximate nearest neighbor search. With seamless integration into Python, it offers a powerful solution for constructing k-nearest neighb\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "curiosity-ai/hnsw-sharp",
+      "status": "candidate",
+      "text": "[![Build Status](https://dev.azure.com/curiosity-ai/mosaik/_apis/build/status/hnsw-sharp?branchName=master)](https://dev.azure.com/curiosity-ai/mosaik/_build/latest?definitionId=7&branchName=master)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "unum-cloud/USearch",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">USearch</h1>"
     }
   ],
   "candidate_related_terms": [],
@@ -136,11 +208,35 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "amzn/pecos"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "lmcinnes/pynndescent"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "brj0/nndescent"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "curiosity-ai/hnsw-sharp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "unum-cloud/USearch"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

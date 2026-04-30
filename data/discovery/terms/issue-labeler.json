@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
@@ -41,6 +41,21 @@
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/issue-triage.yml",
       "source_repo": "discordjs/discord.js"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/label.yml",
+      "source_repo": "celo-org/react-celo"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/issue-labeler.yml",
+      "source_repo": "hajimehoshi/ebiten"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/issue_labeler.yml",
+      "source_repo": "huggingface/lerobot"
     }
   ],
   "term": "Issue Labeler"

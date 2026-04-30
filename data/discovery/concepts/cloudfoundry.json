@@ -19,6 +19,18 @@
       "source_repo": "cloudfoundry/cloud_controller_ng",
       "status": "candidate-context",
       "text": "[![Code Climate](https://api.codeclimate.com/v1/badges/aa47fb93c59ced5fcc4f/maintainability)](https://codeclimate.com/github/cloudfoundry/cloud_controller_ng)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cloudfoundry/capi-release",
+      "status": "candidate-context",
+      "text": "Bosh Release for Cloud Controller and friends"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cloudfoundry/capi-release",
+      "status": "candidate-context",
+      "text": "[slack.cloudfoundry.org](https://cloudfoundry.slack.com/messages/capi/)"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "cloudfoundry/cloud_controller_ng",
       "status": "candidate",
       "text": "[![Code Climate](https://api.codeclimate.com/v1/badges/aa47fb93c59ced5fcc4f/maintainability)](https://codeclimate.com/github/cloudfoundry/cloud_controller_ng)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cloudfoundry/capi-release",
+      "status": "candidate",
+      "text": "[slack.cloudfoundry.org](https://cloudfoundry.slack.com/messages/capi/)"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "cloudfoundry/cloud_controller_ng"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "cloudfoundry/capi-release"
     }
   ],
   "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

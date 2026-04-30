@@ -1,0 +1,192 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ymcui/Chinese-ELECTRA",
+      "target": "google-research/electra",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ymcui/Chinese-ELECTRA",
+      "target": "drcsolutionservice/drcd",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ymcui/Chinese-ELECTRA",
+      "target": "drcknowledgeteam/drcd",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ymcui/Chinese-ELECTRA",
+      "target": "liuhuanyong/crimekgassitant",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ymcui/Chinese-ELECTRA",
+      "target": "bert",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ymcui/Chinese-ELECTRA",
+      "target": "chinese",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ymcui/Chinese-ELECTRA",
+      "target": "chinese-electra",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ymcui/Chinese-ELECTRA",
+      "target": "electra",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ymcui/Chinese-ELECTRA",
+      "target": "language-model",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ymcui/Chinese-ELECTRA",
+      "target": "pre-trained-model",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ymcui/Chinese-ELECTRA",
+      "target": "pytorch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ymcui/Chinese-ELECTRA",
+      "target": "tensorflow",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T02:45:11.253724+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 21205
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Pre-trained Chinese ELECTRA\uff08\u4e2d\u6587ELECTRA\u9884\u8bad\u7ec3\u6a21\u578b\uff09",
+    "fork": false,
+    "full_name": "ymcui/Chinese-ELECTRA",
+    "html_url": "https://github.com/ymcui/Chinese-ELECTRA",
+    "language": "Python",
+    "pushed_at": "2026-04-19T00:57:39Z",
+    "stargazers_count": 1437,
+    "topics": [
+      "bert",
+      "chinese",
+      "chinese-electra",
+      "electra",
+      "language-model",
+      "nlp",
+      "pre-trained-model",
+      "pytorch",
+      "tensorflow"
+    ],
+    "updated_at": "2026-04-20T13:22:51Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "drcknowledgeteam/drcd",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "drcsolutionservice/drcd",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "google-research/electra",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "liuhuanyong/crimekgassitant",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[**\u4e2d\u6587\u8bf4\u660e**](./README.md) | [**English**](./README_EN.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bert"
+    },
+    {
+      "context_snippet": "[**\u4e2d\u6587\u8bf4\u660e**](./README.md) | [**English**](./README_EN.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "chinese"
+    },
+    {
+      "context_snippet": "[**\u4e2d\u6587\u8bf4\u660e**](./README.md) | [**English**](./README_EN.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "chinese-electra"
+    },
+    {
+      "context_snippet": "[**\u4e2d\u6587\u8bf4\u660e**](./README.md) | [**English**](./README_EN.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "electra"
+    },
+    {
+      "context_snippet": "[**\u4e2d\u6587\u8bf4\u660e**](./README.md) | [**English**](./README_EN.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "language-model"
+    },
+    {
+      "context_snippet": "[**\u4e2d\u6587\u8bf4\u660e**](./README.md) | [**English**](./README_EN.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pre-trained-model"
+    },
+    {
+      "context_snippet": "[**\u4e2d\u6587\u8bf4\u660e**](./README.md) | [**English**](./README_EN.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytorch"
+    },
+    {
+      "context_snippet": "[**\u4e2d\u6587\u8bf4\u660e**](./README.md) | [**English**](./README_EN.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tensorflow"
+    }
+  ]
+}

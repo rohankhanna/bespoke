@@ -1,0 +1,122 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "[ICML2025] SpargeAttention: A training-free sparse attention that accelerates any model inference."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "We highly recommend using the `spas_sage2_attn_meansim_topk_cuda` and `block_sparse_sage2_attn_cuda` APIs. They are plug-and-play and customizable:"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "We highly recommend using the `spas_sage2_attn_meansim_topk_cuda` and `block_sparse_sage2_attn_cuda` APIs. They are plug-and-play and customizable:"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39995580,
+      "status": "candidate",
+      "text": "attending"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39989211,
+      "status": "candidate",
+      "text": "aid"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39940724,
+      "status": "candidate",
+      "text": "care"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30012011,
+      "status": "candidate",
+      "text": "tending"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30012010,
+      "status": "candidate",
+      "text": "concentration"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "attention",
+      "sense_id": "attention#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 11020,
+      "status": "candidate",
+      "text": "tending"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 4028,
+      "status": "candidate",
+      "text": "attending"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": null,
+      "status": "candidate",
+      "text": "aid"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": null,
+      "status": "candidate",
+      "text": "care"
+    }
+  ],
+  "concept_id": "attention",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "attention",
+  "observation_id": "8f948556684477b3",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T00:37:16.824464+00:00",
+  "observed_text": "attention",
+  "source_context_snippet": "We highly recommend using the `spas_sage2_attn_meansim_topk_cuda` and `block_sparse_sage2_attn_cuda` APIs. They are plug-and-play and customizable:",
+  "source_file": null,
+  "source_repo": "thu-ml/SpargeAttn",
+  "source_repo_description": "[ICML2025] SpargeAttention: A training-free sparse attention that accelerates any model inference."
+}

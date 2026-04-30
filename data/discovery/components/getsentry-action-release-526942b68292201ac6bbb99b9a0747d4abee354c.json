@@ -1,0 +1,12 @@
+{
+  "component": "getsentry/action-release@526942b68292201ac6bbb99b9a0747d4abee354c",
+  "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/after_release.yml",
+      "source_repo": "zed-industries/zed"
+    }
+  ]
+}

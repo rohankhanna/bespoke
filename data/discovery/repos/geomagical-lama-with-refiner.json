@@ -1,0 +1,69 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "geomagical/lama-with-refiner",
+      "target": "sanster/lama-cleaner",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "geomagical/lama-with-refiner",
+      "target": "zhaoyun0071/lama-magic-eraser-local",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "geomagical/lama-with-refiner",
+      "target": "richzhang/perceptualsimilarity",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T01:56:54.192618+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 17061
+    },
+    {
+      "path": "requirements.txt",
+      "size": 276
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "refinement",
+    "description": "\ud83e\udd99  LaMa Image Inpainting, Resolution-robust Large Mask Inpainting with Fourier Convolutions, WACV 2022",
+    "fork": true,
+    "full_name": "geomagical/lama-with-refiner",
+    "html_url": "https://github.com/geomagical/lama-with-refiner",
+    "language": "Jupyter Notebook",
+    "pushed_at": "2024-01-05T19:31:50Z",
+    "stargazers_count": 158,
+    "topics": [],
+    "updated_at": "2026-04-27T08:53:49Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "richzhang/perceptualsimilarity",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "sanster/lama-cleaner",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "zhaoyun0071/lama-magic-eraser-local",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

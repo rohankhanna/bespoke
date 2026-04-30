@@ -1,0 +1,82 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "facebook/winterfell",
+      "target": "novifinancial/winterfell",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "facebook/winterfell",
+      "target": "actions/checkout@main",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-04-30T04:52:58.740168+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 28771
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 285
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 2786
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A STARK prover and verifier for arbitrary computations",
+    "fork": false,
+    "full_name": "facebook/winterfell",
+    "html_url": "https://github.com/facebook/winterfell",
+    "language": "Rust",
+    "pushed_at": "2025-07-19T21:21:16Z",
+    "stargazers_count": 891,
+    "topics": [],
+    "updated_at": "2026-04-29T19:39:00Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "novifinancial/winterfell",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

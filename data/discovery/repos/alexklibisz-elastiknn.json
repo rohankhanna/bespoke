@@ -1,0 +1,493 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "actions/setup-java@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "arduino/setup-task@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "actions/setup-java@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "arduino/setup-task@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "actions/setup-java@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "arduino/setup-task@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "arduino/setup-task@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/delete-old-pre-releases.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-docs.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-docs.yml"
+    },
+    {
+      "component": "arduino/setup-task@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-docs.yml"
+    },
+    {
+      "component": "actions/configure-pages@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-docs.yml"
+    },
+    {
+      "component": "actions/upload-pages-artifact@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-docs.yml"
+    },
+    {
+      "component": "actions/deploy-pages@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-docs.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/setup-java@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "arduino/setup-task@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "arduino/setup-task@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "scala-steward-org/scala-steward-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scala-steward.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "alexklibisz/elastiknn",
+      "target": "renehollander/rep0st",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "alexklibisz/elastiknn",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "alexklibisz/elastiknn",
+      "target": "actions/setup-java@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "alexklibisz/elastiknn",
+      "target": "arduino/setup-task@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "alexklibisz/elastiknn",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/delete-old-pre-releases.yaml",
+      "source_repo": "alexklibisz/elastiknn",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/delete-old-pre-releases.yaml",
+      "source_repo": "alexklibisz/elastiknn",
+      "target": "Delete Old Pre-releases",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-docs.yml",
+      "source_repo": "alexklibisz/elastiknn",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-docs.yml",
+      "source_repo": "alexklibisz/elastiknn",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-docs.yml",
+      "source_repo": "alexklibisz/elastiknn",
+      "target": "arduino/setup-task@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-docs.yml",
+      "source_repo": "alexklibisz/elastiknn",
+      "target": "actions/configure-pages@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-docs.yml",
+      "source_repo": "alexklibisz/elastiknn",
+      "target": "actions/upload-pages-artifact@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-docs.yml",
+      "source_repo": "alexklibisz/elastiknn",
+      "target": "actions/deploy-pages@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-docs.yml",
+      "source_repo": "alexklibisz/elastiknn",
+      "target": "Release Docs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "alexklibisz/elastiknn",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "alexklibisz/elastiknn",
+      "target": "actions/setup-java@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "alexklibisz/elastiknn",
+      "target": "arduino/setup-task@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "alexklibisz/elastiknn",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "alexklibisz/elastiknn",
+      "target": "Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scala-steward.yaml",
+      "source_repo": "alexklibisz/elastiknn",
+      "target": "scala-steward-org/scala-steward-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/scala-steward.yaml",
+      "source_repo": "alexklibisz/elastiknn",
+      "target": "Scala Steward",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "alexklibisz/elastiknn",
+      "target": "elasticsearch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "alexklibisz/elastiknn",
+      "target": "elasticsearch-plugin",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "alexklibisz/elastiknn",
+      "target": "embeddings",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "alexklibisz/elastiknn",
+      "target": "locality-sensitive-hashing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "alexklibisz/elastiknn",
+      "target": "lucene",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "alexklibisz/elastiknn",
+      "target": "nearest-neighbor-search",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "alexklibisz/elastiknn",
+      "target": "neural-search",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "alexklibisz/elastiknn",
+      "target": "semantic-search",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "alexklibisz/elastiknn",
+      "target": "similarity-search",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T02:51:09.234882+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2890
+    },
+    {
+      "path": ".github/workflows/ci.yaml",
+      "size": 4533
+    },
+    {
+      "path": ".github/workflows/delete-old-pre-releases.yaml",
+      "size": 429
+    },
+    {
+      "path": ".github/workflows/pypirc.template",
+      "size": 123
+    },
+    {
+      "path": ".github/workflows/release-docs.yml",
+      "size": 1171
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "size": 2246
+    },
+    {
+      "path": ".github/workflows/scala-steward.yaml",
+      "size": 579
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Elasticsearch plugin for nearest neighbor search. Store vectors and run similarity search using exact and approximate algorithms.",
+    "fork": false,
+    "full_name": "alexklibisz/elastiknn",
+    "html_url": "https://github.com/alexklibisz/elastiknn",
+    "language": "Scala",
+    "pushed_at": "2026-04-12T18:07:57Z",
+    "stargazers_count": 393,
+    "topics": [
+      "elasticsearch",
+      "elasticsearch-plugin",
+      "embeddings",
+      "locality-sensitive-hashing",
+      "lucene",
+      "nearest-neighbor-search",
+      "neural-search",
+      "semantic-search",
+      "similarity-search"
+    ],
+    "updated_at": "2026-04-21T05:36:02Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "renehollander/rep0st",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "\"Delete Old Pre-releases\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/delete-old-pre-releases.yaml",
+      "term": "Delete Old Pre-releases"
+    },
+    {
+      "context_snippet": "Release Docs",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-docs.yml",
+      "term": "Release Docs"
+    },
+    {
+      "context_snippet": "Release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "term": "Release"
+    },
+    {
+      "context_snippet": "Scala Steward",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/scala-steward.yaml",
+      "term": "Scala Steward"
+    },
+    {
+      "context_snippet": "Elasticsearch plugin for similarity search on dense floating point and sparse boolean vectors.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "elasticsearch"
+    },
+    {
+      "context_snippet": "Elasticsearch plugin for similarity search on dense floating point and sparse boolean vectors.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "elasticsearch-plugin"
+    },
+    {
+      "context_snippet": "Elasticsearch plugin for similarity search on dense floating point and sparse boolean vectors.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "embeddings"
+    },
+    {
+      "context_snippet": "Elasticsearch plugin for similarity search on dense floating point and sparse boolean vectors.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "locality-sensitive-hashing"
+    },
+    {
+      "context_snippet": "Elasticsearch plugin for similarity search on dense floating point and sparse boolean vectors.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "lucene"
+    },
+    {
+      "context_snippet": "Elasticsearch plugin for similarity search on dense floating point and sparse boolean vectors.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nearest-neighbor-search"
+    },
+    {
+      "context_snippet": "Elasticsearch plugin for similarity search on dense floating point and sparse boolean vectors.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "neural-search"
+    },
+    {
+      "context_snippet": "Elasticsearch plugin for similarity search on dense floating point and sparse boolean vectors.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "semantic-search"
+    },
+    {
+      "context_snippet": "Elasticsearch plugin for similarity search on dense floating point and sparse boolean vectors.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "similarity-search"
+    }
+  ]
+}

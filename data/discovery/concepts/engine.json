@@ -43,6 +43,54 @@
       "source_repo": "Akira13641/PasBGFX",
       "status": "candidate-context",
       "text": "Pascal bindings to the C API for [BGFX](https://github.com/bkaradzic/bgfx), \"a cross-platform, graphics API agnostic, Bring Your Own Engine/Framework style rendering library\"."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "unocss/unocss",
+      "status": "candidate-context",
+      "text": "The instant on-demand atomic CSS engine."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "unocss/unocss",
+      "status": "candidate-context",
+      "text": "<br>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "expr-lang/expr",
+      "status": "candidate-context",
+      "text": "Expression language and expression evaluation for Go"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "expr-lang/expr",
+      "status": "candidate-context",
+      "text": "<h1><a href=\"https://expr-lang.org\"><img src=\"https://expr-lang.org/img/logo.png\" alt=\"Zx logo\" height=\"48\"align=\"right\"></a> Expr</h1>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ggez/ggez",
+      "status": "candidate-context",
+      "text": "Rust library to create a Good Game Easily"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ggez/ggez",
+      "status": "candidate-context",
+      "text": "[![ggez logo](docs/ggez-logo-maroon-full.svg)](http://ggez.rs/)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hecrj/coffee",
+      "status": "candidate-context",
+      "text": "An opinionated 2D game engine for Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hecrj/coffee",
+      "status": "candidate-context",
+      "text": "[![Integration status](https://github.com/hecrj/coffee/workflows/Integration/badge.svg)](https://github.com/hecrj/coffee/actions)"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +111,30 @@
       "source_repo": "Akira13641/PasBGFX",
       "status": "candidate",
       "text": "Pascal bindings to the C API for [BGFX](https://github.com/bkaradzic/bgfx), \"a cross-platform, graphics API agnostic, Bring Your Own Engine/Framework style rendering library\"."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "unocss/unocss",
+      "status": "candidate",
+      "text": "<br>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "expr-lang/expr",
+      "status": "candidate",
+      "text": "<h1><a href=\"https://expr-lang.org\"><img src=\"https://expr-lang.org/img/logo.png\" alt=\"Zx logo\" height=\"48\"align=\"right\"></a> Expr</h1>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ggez/ggez",
+      "status": "candidate",
+      "text": "[![ggez logo](docs/ggez-logo-maroon-full.svg)](http://ggez.rs/)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hecrj/coffee",
+      "status": "candidate",
+      "text": "[![Integration status](https://github.com/hecrj/coffee/workflows/Integration/badge.svg)](https://github.com/hecrj/coffee/actions)"
     }
   ],
   "candidate_related_terms": [
@@ -146,11 +218,35 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": null,
       "source_repo": "Akira13641/PasBGFX"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "unocss/unocss"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "expr-lang/expr"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "ggez/ggez"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "hecrj/coffee"
     }
   ],
   "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

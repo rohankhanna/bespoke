@@ -1,0 +1,371 @@
+{
+  "components": [
+    {
+      "component": "react",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "react-dom",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "shadow-cljs",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "actions/checkout@93cb6efe18208431cddfb8368fd83d5badbf9bfd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continuous-deployment-workflow.yml"
+    },
+    {
+      "component": "actions/setup-java@be666c2fcd27ec809703dec50e508c2fdc7f6654",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continuous-deployment-workflow.yml"
+    },
+    {
+      "component": "actions/setup-node@48b55a011bda9f5d6aeb4c2d9c7362e8dae4041e",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continuous-deployment-workflow.yml"
+    },
+    {
+      "component": "DeLaGuardo/setup-clojure@02f5a82b79a547523e664fe8a7a32ea14884d7b2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continuous-deployment-workflow.yml"
+    },
+    {
+      "component": "actions/cache@27d5ce7f107fe9357f9df03efb73ab90386fccae",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continuous-deployment-workflow.yml"
+    },
+    {
+      "component": "actions/cache@27d5ce7f107fe9357f9df03efb73ab90386fccae",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continuous-deployment-workflow.yml"
+    },
+    {
+      "component": "actions/cache@27d5ce7f107fe9357f9df03efb73ab90386fccae",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continuous-deployment-workflow.yml"
+    },
+    {
+      "component": "actions/cache@27d5ce7f107fe9357f9df03efb73ab90386fccae",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continuous-deployment-workflow.yml"
+    },
+    {
+      "component": "slackapi/slack-github-action@03ea5433c137af7c0495bc0cad1af10403fc800c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continuous-deployment-workflow.yml"
+    },
+    {
+      "component": "actions/checkout@93cb6efe18208431cddfb8368fd83d5badbf9bfd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continuous-deployment-workflow.yml"
+    },
+    {
+      "component": "actions/setup-java@be666c2fcd27ec809703dec50e508c2fdc7f6654",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continuous-deployment-workflow.yml"
+    },
+    {
+      "component": "DeLaGuardo/setup-clojure@02f5a82b79a547523e664fe8a7a32ea14884d7b2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continuous-deployment-workflow.yml"
+    },
+    {
+      "component": "actions/cache@27d5ce7f107fe9357f9df03efb73ab90386fccae",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continuous-deployment-workflow.yml"
+    },
+    {
+      "component": "softprops/action-gh-release@b4309332981a82ec1c5618f44dd2e27cc8bfbfda",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continuous-deployment-workflow.yml"
+    },
+    {
+      "component": "slackapi/slack-github-action@03ea5433c137af7c0495bc0cad1af10403fc800c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continuous-deployment-workflow.yml"
+    },
+    {
+      "component": "actions/checkout@93cb6efe18208431cddfb8368fd83d5badbf9bfd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continuous-integration-workflow.yml"
+    },
+    {
+      "component": "actions/setup-java@be666c2fcd27ec809703dec50e508c2fdc7f6654",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continuous-integration-workflow.yml"
+    },
+    {
+      "component": "actions/cache@27d5ce7f107fe9357f9df03efb73ab90386fccae",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continuous-integration-workflow.yml"
+    },
+    {
+      "component": "actions/cache@27d5ce7f107fe9357f9df03efb73ab90386fccae",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continuous-integration-workflow.yml"
+    },
+    {
+      "component": "actions/cache@27d5ce7f107fe9357f9df03efb73ab90386fccae",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continuous-integration-workflow.yml"
+    },
+    {
+      "component": "actions/cache@27d5ce7f107fe9357f9df03efb73ab90386fccae",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continuous-integration-workflow.yml"
+    },
+    {
+      "component": "slackapi/slack-github-action@03ea5433c137af7c0495bc0cad1af10403fc800c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continuous-integration-workflow.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "day8/re-frame-10x",
+      "target": "bhauman/figwheel-main",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "day8/re-frame-10x",
+      "target": "binaryage/cljs-devtools",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "day8/re-frame-10x",
+      "target": "day8/re-com",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "day8/re-frame-10x",
+      "target": "day8/re-frame-debux",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "day8/re-frame-10x",
+      "target": "react",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "day8/re-frame-10x",
+      "target": "react-dom",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "day8/re-frame-10x",
+      "target": "shadow-cljs",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continuous-deployment-workflow.yml",
+      "source_repo": "day8/re-frame-10x",
+      "target": "actions/checkout@93cb6efe18208431cddfb8368fd83d5badbf9bfd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continuous-deployment-workflow.yml",
+      "source_repo": "day8/re-frame-10x",
+      "target": "actions/setup-java@be666c2fcd27ec809703dec50e508c2fdc7f6654",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continuous-deployment-workflow.yml",
+      "source_repo": "day8/re-frame-10x",
+      "target": "actions/setup-node@48b55a011bda9f5d6aeb4c2d9c7362e8dae4041e",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continuous-deployment-workflow.yml",
+      "source_repo": "day8/re-frame-10x",
+      "target": "DeLaGuardo/setup-clojure@02f5a82b79a547523e664fe8a7a32ea14884d7b2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continuous-deployment-workflow.yml",
+      "source_repo": "day8/re-frame-10x",
+      "target": "actions/cache@27d5ce7f107fe9357f9df03efb73ab90386fccae",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continuous-deployment-workflow.yml",
+      "source_repo": "day8/re-frame-10x",
+      "target": "slackapi/slack-github-action@03ea5433c137af7c0495bc0cad1af10403fc800c",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continuous-deployment-workflow.yml",
+      "source_repo": "day8/re-frame-10x",
+      "target": "softprops/action-gh-release@b4309332981a82ec1c5618f44dd2e27cc8bfbfda",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continuous-integration-workflow.yml",
+      "source_repo": "day8/re-frame-10x",
+      "target": "actions/checkout@93cb6efe18208431cddfb8368fd83d5badbf9bfd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continuous-integration-workflow.yml",
+      "source_repo": "day8/re-frame-10x",
+      "target": "actions/setup-java@be666c2fcd27ec809703dec50e508c2fdc7f6654",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continuous-integration-workflow.yml",
+      "source_repo": "day8/re-frame-10x",
+      "target": "actions/cache@27d5ce7f107fe9357f9df03efb73ab90386fccae",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continuous-integration-workflow.yml",
+      "source_repo": "day8/re-frame-10x",
+      "target": "slackapi/slack-github-action@03ea5433c137af7c0495bc0cad1af10403fc800c",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "day8/re-frame-10x",
+      "target": "debugging",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "day8/re-frame-10x",
+      "target": "re-frame",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "day8/re-frame-10x",
+      "target": "reagent",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "day8/re-frame-10x",
+      "target": "tracing",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T00:39:03.488920+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 23501
+    },
+    {
+      "path": "package.json",
+      "size": 297
+    },
+    {
+      "path": ".github/workflows/continuous-deployment-workflow.yml",
+      "size": 5775
+    },
+    {
+      "path": ".github/workflows/continuous-integration-workflow.yml",
+      "size": 3350
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A debugging dashboard for re-frame.  X-ray vision as tooling.",
+    "fork": false,
+    "full_name": "day8/re-frame-10x",
+    "html_url": "https://github.com/day8/re-frame-10x",
+    "language": "Clojure",
+    "pushed_at": "2026-04-29T11:07:07Z",
+    "stargazers_count": 652,
+    "topics": [
+      "debugging",
+      "re-frame",
+      "reagent",
+      "tracing"
+    ],
+    "updated_at": "2026-04-29T11:07:11Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "bhauman/figwheel-main",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "binaryage/cljs-devtools",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "day8/re-com",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "day8/re-frame-debux",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[![Clojars Project](https://img.shields.io/clojars/v/day8.re-frame/re-frame-10x?style=for-the-badge&logo=clojure&logoColor=fff)](https://clojars.org/day8.re-frame/re-frame-10x)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "debugging"
+    },
+    {
+      "context_snippet": "[![Clojars Project](https://img.shields.io/clojars/v/day8.re-frame/re-frame-10x?style=for-the-badge&logo=clojure&logoColor=fff)](https://clojars.org/day8.re-frame/re-frame-10x)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "re-frame"
+    },
+    {
+      "context_snippet": "[![Clojars Project](https://img.shields.io/clojars/v/day8.re-frame/re-frame-10x?style=for-the-badge&logo=clojure&logoColor=fff)](https://clojars.org/day8.re-frame/re-frame-10x)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "reagent"
+    },
+    {
+      "context_snippet": "[![Clojars Project](https://img.shields.io/clojars/v/day8.re-frame/re-frame-10x?style=for-the-badge&logo=clojure&logoColor=fff)](https://clojars.org/day8.re-frame/re-frame-10x)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tracing"
+    }
+  ]
+}

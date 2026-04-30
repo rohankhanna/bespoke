@@ -155,7 +155,7 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "aws-cloudformation/cfn-lint",
-      "target": "speshak/vim-cfn",
+      "target": "w0rp/ale",
       "target_type": "repository"
     },
     {
@@ -334,7 +334,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-29T21:58:02.245936+00:00",
+  "fetched_at": "2026-04-30T04:04:02.440770+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -411,7 +411,7 @@
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "speshak/vim-cfn",
+      "full_name": "w0rp/ale",
       "source_file": "README.md"
     }
   ],

@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": ":warning: This repository hosts the Firefox for Android (Fenix), Focus for Android, and Mozilla Android Components projects. It is now developed and maintained as part of Mozilla Central. See the announcement here: https://github.com/mozilla-mobile/firefox-android/wiki#upcoming-migration-to-mozilla-central. \u201d"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Bugzilla Issue Linker"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Bugzilla Issue Linker"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 16014,
+      "status": "candidate",
+      "text": "chain"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15014,
+      "status": "candidate",
+      "text": "yoke"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14054,
+      "status": "candidate",
+      "text": "applied"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14054,
+      "status": "candidate",
+      "text": "applying"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14054,
+      "status": "candidate",
+      "text": "band"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Bugzilla Issue Linker",
+      "sense_id": "bugzilla-issue-linker#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "bugzilla-issue-linker",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "bugzilla-issue-linker",
+  "observation_id": "eefdb29d6ae24db6",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-30T00:37:16.824464+00:00",
+  "observed_text": "Bugzilla Issue Linker",
+  "source_context_snippet": "Bugzilla Issue Linker",
+  "source_file": ".github/workflows/bugzilla-linker.yml",
+  "source_repo": "mozilla-mobile/firefox-android",
+  "source_repo_description": ":warning: This repository hosts the Firefox for Android (Fenix), Focus for Android, and Mozilla Android Components projects. It is now developed and maintained as part of Mozilla Central. See the announcement here: https://github.com/mozilla-mobile/firefox-android/wiki#upcoming-migration-to-mozilla-central. \u201d"
+}

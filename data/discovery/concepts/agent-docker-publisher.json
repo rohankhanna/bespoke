@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Agent Docker Publisher"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kserve/kserve",
+      "status": "candidate-context",
+      "text": "Standardized Distributed Generative and Predictive AI Inference Platform for Scalable, Multi-Framework Deployment on Kubernetes"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kserve/kserve",
+      "status": "candidate-context",
+      "text": "Agent Docker Publisher"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kserve/kserve",
+      "status": "candidate",
+      "text": "Agent Docker Publisher"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18765,
+      "status": "candidate",
+      "text": "miner"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18765,
+      "status": "candidate",
+      "text": "newspaperman"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 16065,
+      "status": "candidate",
+      "text": "longshoreman"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11004,
+      "status": "candidate",
+      "text": "lumper"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10432,
+      "status": "candidate",
+      "text": "cop"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Agent Docker Publisher",
+  "concept_id": "agent-docker-publisher",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/agent-docker-publish.yml",
+      "source_repo": "kserve/kserve"
+    }
+  ],
+  "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Agent Docker Publisher",
+      "sense_id": "agent-docker-publisher#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

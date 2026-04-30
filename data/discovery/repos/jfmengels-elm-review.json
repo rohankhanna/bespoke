@@ -1,0 +1,299 @@
+{
+  "components": [
+    {
+      "component": "elm-review",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "elm-test",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "elm-tooling",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "npm-run-all",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/setup-node@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/cache@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/cache@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/setup-node@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/cache@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/cache@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "dillonkearns/elm-publish-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "dillonkearns/elm-publish-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "jfmengels/elm-review",
+      "target": "jfmengels/node-elm-review",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "jfmengels/elm-review",
+      "target": "jfmengels/elm-review-config",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "jfmengels/elm-review",
+      "target": "jfmengels/elm-review-rule-ideas",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "jfmengels/elm-review",
+      "target": "elm-explorations/test",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "jfmengels/elm-review",
+      "target": "elm-review",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "jfmengels/elm-review",
+      "target": "elm-test",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "jfmengels/elm-review",
+      "target": "elm-tooling",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "jfmengels/elm-review",
+      "target": "npm-run-all",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "jfmengels/elm-review",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "jfmengels/elm-review",
+      "target": "actions/setup-node@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "jfmengels/elm-review",
+      "target": "actions/cache@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "jfmengels/elm-review",
+      "target": "dillonkearns/elm-publish-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jfmengels/elm-review",
+      "target": "code-quality",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jfmengels/elm-review",
+      "target": "elm-lang",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jfmengels/elm-review",
+      "target": "elm-review",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jfmengels/elm-review",
+      "target": "linter",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jfmengels/elm-review",
+      "target": "quality",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jfmengels/elm-review",
+      "target": "static-code-analysis",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T02:59:23.117745+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 15650
+    },
+    {
+      "path": "package.json",
+      "size": 1005
+    },
+    {
+      "path": ".github/workflows/test.yml",
+      "size": 5434
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Analyzes Elm projects, to help find mistakes before your users find them.",
+    "fork": false,
+    "full_name": "jfmengels/elm-review",
+    "html_url": "https://github.com/jfmengels/elm-review",
+    "language": "Elm",
+    "pushed_at": "2026-04-21T20:03:28Z",
+    "stargazers_count": 281,
+    "topics": [
+      "code-quality",
+      "elm",
+      "elm-lang",
+      "elm-review",
+      "linter",
+      "quality",
+      "static-code-analysis"
+    ],
+    "updated_at": "2026-04-21T20:03:34Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "elm-explorations/test",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jfmengels/elm-review-config",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jfmengels/elm-review-rule-ideas",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jfmengels/node-elm-review",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "`elm-review` analyzes [Elm](https://elm-lang.org/) projects, to help find mistakes before your users find them.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "code-quality"
+    },
+    {
+      "context_snippet": "`elm-review` analyzes [Elm](https://elm-lang.org/) projects, to help find mistakes before your users find them.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "elm-lang"
+    },
+    {
+      "context_snippet": "`elm-review` analyzes [Elm](https://elm-lang.org/) projects, to help find mistakes before your users find them.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "elm-review"
+    },
+    {
+      "context_snippet": "`elm-review` analyzes [Elm](https://elm-lang.org/) projects, to help find mistakes before your users find them.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "linter"
+    },
+    {
+      "context_snippet": "`elm-review` analyzes [Elm](https://elm-lang.org/) projects, to help find mistakes before your users find them.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "quality"
+    },
+    {
+      "context_snippet": "`elm-review` analyzes [Elm](https://elm-lang.org/) projects, to help find mistakes before your users find them.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "static-code-analysis"
+    }
+  ]
+}

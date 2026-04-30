@@ -19,6 +19,18 @@
       "source_repo": "langbot-app/LangBot",
       "status": "candidate-context",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "shenweichen/GraphEmbedding",
+      "status": "candidate-context",
+      "text": "Implementation and experiments  of graph embedding algorithms."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "shenweichen/GraphEmbedding",
+      "status": "candidate-context",
+      "text": "[![GitHub Issues](https://img.shields.io/github/issues/shenweichen/graphembedding.svg"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "langbot-app/LangBot",
       "status": "candidate",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "shenweichen/GraphEmbedding",
+      "status": "candidate",
+      "text": "[![GitHub Issues](https://img.shields.io/github/issues/shenweichen/graphembedding.svg"
     }
   ],
   "candidate_related_terms": [
@@ -112,11 +130,17 @@
       "observed_at": "2026-04-22T04:49:29.633207+00:00",
       "source_file": null,
       "source_repo": "langbot-app/LangBot"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "shenweichen/GraphEmbedding"
     }
   ],
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

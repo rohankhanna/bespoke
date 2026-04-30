@@ -56,13 +56,6 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "base-repos/base",
-      "target": "base/base",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "base-repos/base",
       "target": "base/base-cwd",
       "target_type": "repository"
     },
@@ -78,6 +71,13 @@
       "source_file": "README.md",
       "source_repo": "base-repos/base",
       "target": "base/base-fs",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "base-repos/base",
+      "target": "base/base-generators",
       "target_type": "repository"
     },
     {
@@ -228,7 +228,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-29T19:40:06.416703+00:00",
+  "fetched_at": "2026-04-30T04:55:37.256473+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -270,11 +270,6 @@
   "repo_links": [
     {
       "edge_type": "explicit-github-link",
-      "full_name": "base/base",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
       "full_name": "base/base-cwd",
       "source_file": "README.md"
     },
@@ -286,6 +281,11 @@
     {
       "edge_type": "explicit-github-link",
       "full_name": "base/base-fs",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "base/base-generators",
       "source_file": "README.md"
     }
   ],

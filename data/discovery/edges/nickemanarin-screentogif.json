@@ -1,0 +1,55 @@
+{
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/discord-releases.yml",
+      "source_repo": "NickeManarin/ScreenToGif",
+      "target": "nhevia/discord-styled-releases@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/discord-releases.yml",
+      "source_repo": "NickeManarin/ScreenToGif",
+      "target": "Discord \u2022 Releases",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "NickeManarin/ScreenToGif",
+      "target": "editor",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "NickeManarin/ScreenToGif",
+      "target": "recorder",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "NickeManarin/ScreenToGif",
+      "target": "sketchboard",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "NickeManarin/ScreenToGif",
+      "target": "video",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "NickeManarin/ScreenToGif",
+      "target": "webcam",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-30T00:37:16.824464+00:00",
+  "source_repo": "NickeManarin/ScreenToGif"
+}

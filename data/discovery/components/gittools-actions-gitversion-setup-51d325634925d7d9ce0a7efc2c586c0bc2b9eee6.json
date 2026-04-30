@@ -1,0 +1,17 @@
+{
+  "component": "gittools/actions/gitversion/setup@51d325634925d7d9ce0a7efc2c586c0bc2b9eee6",
+  "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/compile-mermaid.yml",
+      "source_repo": "mermaid-js/mermaid-cli"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release-publish.yml",
+      "source_repo": "mermaid-js/mermaid-cli"
+    }
+  ]
+}

@@ -84,7 +84,7 @@
   "normalized_form": "ecs-integration-tests",
   "observation_id": "86c3cda0040f6e28",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-04-29T18:37:00.726333+00:00",
+  "observed_at": "2026-04-30T00:37:16.824464+00:00",
   "observed_text": "ECS integration tests",
   "source_context_snippet": "ECS integration tests",
   "source_file": ".github/workflows/ecs-tests.yml",

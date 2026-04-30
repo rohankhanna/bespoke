@@ -751,6 +751,222 @@
       "source_repo": "CyberZHG/keras-radam",
       "status": "candidate-context",
       "text": "[![Version](https://img.shields.io/pypi/v/keras-rectified-adam.svg)](https://pypi.org/project/keras-rectified-adam/)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "alibaba/BladeDISC",
+      "status": "candidate-context",
+      "text": "BladeDISC is an end-to-end DynamIc Shape Compiler project for machine learning workloads."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alibaba/BladeDISC",
+      "status": "candidate-context",
+      "text": "We're always looking for candicates to join dev team. Your're the one we're searching for long:"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "microsoft/nni",
+      "status": "candidate-context",
+      "text": "An open source AutoML toolkit for automate machine learning lifecycle, including feature engineering, neural architecture search, model compression and hyper-parameter tuning."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/nni",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "malaysia-ai/malaya",
+      "status": "candidate-context",
+      "text": " Natural Language Toolkit for Malaysian language, https://malaya.readthedocs.io/"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "malaysia-ai/malaya",
+      "status": "candidate-context",
+      "text": ".. raw:: html"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ymcui/Chinese-ELECTRA",
+      "status": "candidate-context",
+      "text": "Pre-trained Chinese ELECTRA\uff08\u4e2d\u6587ELECTRA\u9884\u8bad\u7ec3\u6a21\u578b\uff09"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ymcui/Chinese-ELECTRA",
+      "status": "candidate-context",
+      "text": "[**\u4e2d\u6587\u8bf4\u660e**](./README.md) | [**English**](./README_EN.md)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kserve/kserve",
+      "status": "candidate-context",
+      "text": "Standardized Distributed Generative and Predictive AI Inference Platform for Scalable, Multi-Framework Deployment on Kubernetes"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kserve/kserve",
+      "status": "candidate-context",
+      "text": "[![go.dev reference](https://img.shields.io/badge/go.dev-reference-007d9c?logo=go&logoColor=white)](https://pkg.go.dev/github.com/kserve/kserve)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "google/gin-config",
+      "status": "candidate-context",
+      "text": "Gin provides a lightweight configuration framework for Python"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/gin-config",
+      "status": "candidate-context",
+      "text": "**Authors**: Dan Holtmann-Rice, Sergio Guadarrama, Nathan Silberman"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "balancap/SSD-Tensorflow",
+      "status": "candidate-context",
+      "text": "Single Shot MultiBox Detector in TensorFlow"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "balancap/SSD-Tensorflow",
+      "status": "candidate-context",
+      "text": "SSD is an unified framework for object detection with a single network. It has been originally introduced in this research [article](http://arxiv.org/abs/1512.02325)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "BMW-InnovationLab/BMW-TensorFlow-Training-GUI",
+      "status": "candidate-context",
+      "text": "This repository allows you to get started with a gui based training a State-of-the-art Deep Learning model with little to no configuration needed! NoCode training with TensorFlow has never been so easy."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "BMW-InnovationLab/BMW-TensorFlow-Training-GUI",
+      "status": "candidate-context",
+      "text": "Updated for CUDA 11 and Tensorflow 2!!!"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "PINTO0309/PINTO_model_zoo",
+      "status": "candidate-context",
+      "text": "A repository for storing models that have been inter-converted between various frameworks. Supported frameworks are TensorFlow, PyTorch, ONNX, OpenVINO, TFJS, TFTRT, TensorFlowLite (Float32/16/INT8), EdgeTPU, CoreML."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PINTO0309/PINTO_model_zoo",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "VeriSilicon/tflite-vx-delegate",
+      "status": "candidate-context",
+      "text": "Tensorflow Lite external delegate based on TIM-VX"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "VeriSilicon/tflite-vx-delegate",
+      "status": "candidate-context",
+      "text": "TfLite-vx-delegate constructed with TIM-VX as an openvx delegate for tensorflow lite. Before vx-delegate, you may have nnapi-linux version from VeriSilicon, we suggest you move to this new delegate because:"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Cadene/tensorflow-model-zoo.torch",
+      "status": "candidate-context",
+      "text": "InceptionV3, InceptionV4, Inception-Resnet pretrained models for Torch7 and PyTorch"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Cadene/tensorflow-model-zoo.torch",
+      "status": "candidate-context",
+      "text": "13/07/2017: Please use the new repo [pretrained-models.pytorch](https://github.com/Cadene/pretrained-models.pytorch) which includes inceptionv4 and inceptionresnetv2 with a nicer API."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mozilla/DeepSpeech",
+      "status": "candidate-context",
+      "text": "DeepSpeech is an open source embedded (offline, on-device) speech-to-text engine which can run in real time on devices ranging from a Raspberry Pi 4 to high power GPU servers."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mozilla/DeepSpeech",
+      "status": "candidate-context",
+      "text": "Status"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "endernewton/tf-faster-rcnn",
+      "status": "candidate-context",
+      "text": "Tensorflow Faster RCNN for Object Detection"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "endernewton/tf-faster-rcnn",
+      "status": "candidate-context",
+      "text": "For a good and more up-to-date implementation for faster/mask RCNN with multi-gpu support, please see the example in TensorPack [here](https://github.com/tensorpack/tensorpack/tree/master/examples/FasterRCNN)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dusty-nv/jetson-containers",
+      "status": "candidate-context",
+      "text": "Machine Learning Containers for NVIDIA Jetson and JetPack-L4T"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dusty-nv/jetson-containers",
+      "status": "candidate-context",
+      "text": "[![a header for a software project about building containers for AI and machine learning](https://raw.githubusercontent.com/dusty-nv/jetson-containers/docs/docs/images/header_blueprint_rainbow.jpg)](https://www.jetson-ai-lab.com)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Oreobird/tf-keras-deep-head-pose",
+      "status": "candidate-context",
+      "text": "A tensorflow & keras implementation of Deep Head Pose"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Oreobird/tf-keras-deep-head-pose",
+      "status": "candidate-context",
+      "text": "A tensorflow &amp; keras implementation of Deep Head Pose"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "microsoft/frameworkcontroller",
+      "status": "candidate-context",
+      "text": "General-Purpose Kubernetes Pod Controller"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/frameworkcontroller",
+      "status": "candidate-context",
+      "text": "**_Turn it into maintenance mode, read-only, and only update for critical fixes._**"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "microsoft/MMdnn",
+      "status": "candidate-context",
+      "text": "MMdnn is a set of tools to help users inter-operate among different deep learning frameworks. E.g. model conversion and visualization. Convert models between Caffe, Keras, MXNet, Tensorflow, CNTK, PyTorch Onnx and CoreML."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/MMdnn",
+      "status": "candidate-context",
+      "text": "[![PyPi Version](https://img.shields.io/pypi/v/mmdnn.svg)](https://pypi.org/project/mmdnn/)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "microsoft/pai",
+      "status": "candidate-context",
+      "text": "Resource scheduling and cluster management for AI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/pai",
+      "status": "candidate-context",
+      "text": "[logo]: ./pailogo.jpg \"OpenPAI\""
     }
   ],
   "candidate_glosses": [
@@ -1125,6 +1341,114 @@
       "source_repo": "CyberZHG/keras-radam",
       "status": "candidate",
       "text": "[![Version](https://img.shields.io/pypi/v/keras-rectified-adam.svg)](https://pypi.org/project/keras-rectified-adam/)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alibaba/BladeDISC",
+      "status": "candidate",
+      "text": "We're always looking for candicates to join dev team. Your're the one we're searching for long:"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/nni",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "malaysia-ai/malaya",
+      "status": "candidate",
+      "text": ".. raw:: html"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ymcui/Chinese-ELECTRA",
+      "status": "candidate",
+      "text": "[**\u4e2d\u6587\u8bf4\u660e**](./README.md) | [**English**](./README_EN.md)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kserve/kserve",
+      "status": "candidate",
+      "text": "[![go.dev reference](https://img.shields.io/badge/go.dev-reference-007d9c?logo=go&logoColor=white)](https://pkg.go.dev/github.com/kserve/kserve)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/gin-config",
+      "status": "candidate",
+      "text": "**Authors**: Dan Holtmann-Rice, Sergio Guadarrama, Nathan Silberman"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "balancap/SSD-Tensorflow",
+      "status": "candidate",
+      "text": "SSD is an unified framework for object detection with a single network. It has been originally introduced in this research [article](http://arxiv.org/abs/1512.02325)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "BMW-InnovationLab/BMW-TensorFlow-Training-GUI",
+      "status": "candidate",
+      "text": "Updated for CUDA 11 and Tensorflow 2!!!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PINTO0309/PINTO_model_zoo",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "VeriSilicon/tflite-vx-delegate",
+      "status": "candidate",
+      "text": "TfLite-vx-delegate constructed with TIM-VX as an openvx delegate for tensorflow lite. Before vx-delegate, you may have nnapi-linux version from VeriSilicon, we suggest you move to this new delegate because:"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Cadene/tensorflow-model-zoo.torch",
+      "status": "candidate",
+      "text": "13/07/2017: Please use the new repo [pretrained-models.pytorch](https://github.com/Cadene/pretrained-models.pytorch) which includes inceptionv4 and inceptionresnetv2 with a nicer API."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mozilla/DeepSpeech",
+      "status": "candidate",
+      "text": "Status"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "endernewton/tf-faster-rcnn",
+      "status": "candidate",
+      "text": "For a good and more up-to-date implementation for faster/mask RCNN with multi-gpu support, please see the example in TensorPack [here](https://github.com/tensorpack/tensorpack/tree/master/examples/FasterRCNN)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dusty-nv/jetson-containers",
+      "status": "candidate",
+      "text": "[![a header for a software project about building containers for AI and machine learning](https://raw.githubusercontent.com/dusty-nv/jetson-containers/docs/docs/images/header_blueprint_rainbow.jpg)](https://www.jetson-ai-lab.com)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Oreobird/tf-keras-deep-head-pose",
+      "status": "candidate",
+      "text": "A tensorflow &amp; keras implementation of Deep Head Pose"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/frameworkcontroller",
+      "status": "candidate",
+      "text": "**_Turn it into maintenance mode, read-only, and only update for critical fixes._**"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/MMdnn",
+      "status": "candidate",
+      "text": "[![PyPi Version](https://img.shields.io/pypi/v/mmdnn.svg)](https://pypi.org/project/mmdnn/)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/pai",
+      "status": "candidate",
+      "text": "[logo]: ./pailogo.jpg \"OpenPAI\""
     }
   ],
   "candidate_related_terms": [
@@ -1576,11 +1900,143 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "CyberZHG/keras-radam"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "alibaba/BladeDISC"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "google-deepmind/graph_nets"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "microsoft/nni"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "MrGemy95/Tensorflow-Project-Template"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "malaysia-ai/malaya"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "ymcui/Chinese-ELECTRA"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "kserve/kserve"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "google/gin-config"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "intel/ai-reference-models"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "balancap/SSD-Tensorflow"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "BMW-InnovationLab/BMW-TensorFlow-Training-GUI"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "PINTO0309/PINTO_model_zoo"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "VeriSilicon/tflite-vx-delegate"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "Cadene/tensorflow-model-zoo.torch"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "nsfw-filter/nsfw-filter"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "mozilla/DeepSpeech"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "endernewton/tf-faster-rcnn"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "dusty-nv/jetson-containers"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "Oreobird/tf-keras-deep-head-pose"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "microsoft/frameworkcontroller"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "microsoft/MMdnn"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "microsoft/pai"
     }
   ],
   "first_seen_at": "2026-04-19T01:08:57.644140+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -43,6 +43,18 @@
       "source_repo": "shibing624/text2vec",
       "status": "candidate-context",
       "text": "[**\ud83c\udde8\ud83c\uddf3\u4e2d\u6587**](https://github.com/shibing624/text2vec/blob/master/README.md) | [**\ud83c\udf10English**](https://github.com/shibing624/text2vec/blob/master/README_EN.md) | [**\ud83d\udcd6\u6587\u6863/Docs**](https://github.com/shibing624/text2vec/wiki) | [**\ud83e\udd16\u6a21\u578b/Models**](https://huggingface.co/shibing624)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "curiosity-ai/hnsw-sharp",
+      "status": "candidate-context",
+      "text": "C# library for approximate nearest neighbors search using Hierarchical Navigable Small World graphs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "curiosity-ai/hnsw-sharp",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://dev.azure.com/curiosity-ai/mosaik/_apis/build/status/hnsw-sharp?branchName=master)](https://dev.azure.com/curiosity-ai/mosaik/_build/latest?definitionId=7&branchName=master)"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +75,12 @@
       "source_repo": "shibing624/text2vec",
       "status": "candidate",
       "text": "[**\ud83c\udde8\ud83c\uddf3\u4e2d\u6587**](https://github.com/shibing624/text2vec/blob/master/README.md) | [**\ud83c\udf10English**](https://github.com/shibing624/text2vec/blob/master/README_EN.md) | [**\ud83d\udcd6\u6587\u6863/Docs**](https://github.com/shibing624/text2vec/wiki) | [**\ud83e\udd16\u6a21\u578b/Models**](https://huggingface.co/shibing624)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "curiosity-ai/hnsw-sharp",
+      "status": "candidate",
+      "text": "[![Build Status](https://dev.azure.com/curiosity-ai/mosaik/_apis/build/status/hnsw-sharp?branchName=master)](https://dev.azure.com/curiosity-ai/mosaik/_build/latest?definitionId=7&branchName=master)"
     }
   ],
   "candidate_related_terms": [],
@@ -88,11 +106,17 @@
       "observed_at": "2026-04-24T12:33:41.350224+00:00",
       "source_file": null,
       "source_repo": "shibing624/text2vec"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "curiosity-ai/hnsw-sharp"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

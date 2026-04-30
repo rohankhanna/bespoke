@@ -13,6 +13,21 @@
     {
       "component": "actions/checkout@v6",
       "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/apple_m.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/apple_m.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/apple_m.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
       "source_file": ".github/workflows/arm64_graviton.yml"
     },
     {
@@ -393,7 +408,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-29T19:42:14.099491+00:00",
+  "fetched_at": "2026-04-30T03:51:15.031815+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -401,7 +416,7 @@
     },
     {
       "path": ".github/workflows/apple_m.yml",
-      "size": 5852
+      "size": 11224
     },
     {
       "path": ".github/workflows/arm64_graviton.yml",
@@ -445,14 +460,14 @@
     "full_name": "OpenMathLib/OpenBLAS",
     "html_url": "https://github.com/OpenMathLib/OpenBLAS",
     "language": "C",
-    "pushed_at": "2026-04-27T12:21:26Z",
+    "pushed_at": "2026-04-29T20:11:48Z",
     "stargazers_count": 7413,
     "topics": [
       "blas",
       "lapack",
       "lapacke"
     ],
-    "updated_at": "2026-04-29T13:23:43Z"
+    "updated_at": "2026-04-30T02:31:58Z"
   },
   "repo_links": [],
   "terms": [

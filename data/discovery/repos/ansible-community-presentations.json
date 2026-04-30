@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T05:08:21.894740+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1905
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Repository for community presentations on Ansible projects",
+    "fork": false,
+    "full_name": "ansible-community/presentations",
+    "html_url": "https://github.com/ansible-community/presentations",
+    "language": "JavaScript",
+    "pushed_at": "2026-02-06T17:10:54Z",
+    "stargazers_count": 1,
+    "topics": [],
+    "updated_at": "2026-02-06T17:11:01Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

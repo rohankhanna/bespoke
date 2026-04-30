@@ -1,0 +1,112 @@
+{
+  "aliases": [
+    "zk-snarks"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "a16z/jolt",
+      "status": "candidate-context",
+      "text": "The simplest and most extensible zkVM. Fast and fully open source from a16z crypto and friends. \u26a1"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "a16z/jolt",
+      "status": "candidate-context",
+      "text": "![imgs/jolt_alpha.png](imgs/jolt_alpha.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Consensys/gnark",
+      "status": "candidate-context",
+      "text": "gnark is a fast zk-SNARK library that offers a high-level API to design circuits. The library is open source and developed under the Apache 2.0 license"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Consensys/gnark",
+      "status": "candidate-context",
+      "text": "[![Twitter URL](https://img.shields.io/twitter/url/https/twitter.com/gnark_team.svg?style=social&label=Follow%20%40gnark_team)](https://twitter.com/gnark_team) [![License](https://img.shields.io/badge/license-Apache%202-blue)](LICENSE)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "supranational/sppark",
+      "status": "candidate-context",
+      "text": "Zero-knowledge template library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "supranational/sppark",
+      "status": "candidate-context",
+      "text": "sppark (pronounced 'spark') is **S**upranational's **p**erformance **p**rimitives for **ar**guments of **k**nowledge such as SNARKs and STARKs. The library focuses on accelerating the most computationally expensive pieces of zero-knowledge proofs generation such as multi-scalar \u2026"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "a16z/jolt",
+      "status": "candidate",
+      "text": "![imgs/jolt_alpha.png](imgs/jolt_alpha.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Consensys/gnark",
+      "status": "candidate",
+      "text": "[![Twitter URL](https://img.shields.io/twitter/url/https/twitter.com/gnark_team.svg?style=social&label=Follow%20%40gnark_team)](https://twitter.com/gnark_team) [![License](https://img.shields.io/badge/license-Apache%202-blue)](LICENSE)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "supranational/sppark",
+      "status": "candidate",
+      "text": "sppark (pronounced 'spark') is **S**upranational's **p**erformance **p**rimitives for **ar**guments of **k**nowledge such as SNARKs and STARKs. The library focuses on accelerating the most computationally expensive pieces of zero-knowledge proofs generation such as multi-scalar \u2026"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "zk-snarks",
+  "concept_id": "zk-snarks",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "a16z/jolt"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "Consensys/gnark"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "supranational/sppark"
+    }
+  ],
+  "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "zk-snarks",
+      "sense_id": "zk-snarks#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

@@ -1,0 +1,333 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "martinbeentjes/npm-get-version-action@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/create-release@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/checkout@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/checkout@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/checkout@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update_binary.yml"
+    },
+    {
+      "component": "codota/create-pull-request@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update_binary.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "codota/tabnine-sublime",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "codota/tabnine-sublime",
+      "target": "martinbeentjes/npm-get-version-action@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "codota/tabnine-sublime",
+      "target": "actions/create-release@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "codota/tabnine-sublime",
+      "target": "Create Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "codota/tabnine-sublime",
+      "target": "actions/checkout@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "codota/tabnine-sublime",
+      "target": "build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update_binary.yml",
+      "source_repo": "codota/tabnine-sublime",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update_binary.yml",
+      "source_repo": "codota/tabnine-sublime",
+      "target": "codota/create-pull-request@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/update_binary.yml",
+      "source_repo": "codota/tabnine-sublime",
+      "target": "Update Binaries",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "codota/tabnine-sublime",
+      "target": "artificial-intelligence",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "codota/tabnine-sublime",
+      "target": "autocomplete",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "codota/tabnine-sublime",
+      "target": "bash",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "codota/tabnine-sublime",
+      "target": "golang",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "codota/tabnine-sublime",
+      "target": "gpt-2",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "codota/tabnine-sublime",
+      "target": "java",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "codota/tabnine-sublime",
+      "target": "ruby",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "codota/tabnine-sublime",
+      "target": "rust",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "codota/tabnine-sublime",
+      "target": "sublime",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "codota/tabnine-sublime",
+      "target": "swift",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "codota/tabnine-sublime",
+      "target": "typescipt",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T04:12:41.032045+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9432
+    },
+    {
+      "path": "package.json",
+      "size": 30
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 173
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "size": 1127
+    },
+    {
+      "path": ".github/workflows/test.yml",
+      "size": 1554
+    },
+    {
+      "path": ".github/workflows/update_binary.yml",
+      "size": 996
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Tabnine Autocomplete AI: JavaScript, Python, TypeScript, PHP, C/C++, HTML/CSS, Go, Java, Ruby, C#, Rust, SQL, Bash, Kotlin, Julia, Lua, OCaml, Perl, Haskell, React",
+    "fork": false,
+    "full_name": "codota/tabnine-sublime",
+    "html_url": "https://github.com/codota/tabnine-sublime",
+    "language": "Python",
+    "pushed_at": "2025-09-07T09:08:16Z",
+    "stargazers_count": 203,
+    "topics": [
+      "artificial-intelligence",
+      "autocomplete",
+      "bash",
+      "c",
+      "cpp",
+      "golang",
+      "gpt-2",
+      "java",
+      "javascript",
+      "lua",
+      "php",
+      "python",
+      "ruby",
+      "rust",
+      "sublime",
+      "swift",
+      "typescipt",
+      "typescript"
+    ],
+    "updated_at": "2026-02-17T14:57:25Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Create Release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "term": "Create Release"
+    },
+    {
+      "context_snippet": "build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "term": "build"
+    },
+    {
+      "context_snippet": "Update Binaries",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/update_binary.yml",
+      "term": "Update Binaries"
+    },
+    {
+      "context_snippet": "[twitter-shield]: https://img.shields.io/twitter/follow/Tabnine_?style=social",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "artificial-intelligence"
+    },
+    {
+      "context_snippet": "[twitter-shield]: https://img.shields.io/twitter/follow/Tabnine_?style=social",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "autocomplete"
+    },
+    {
+      "context_snippet": "[twitter-shield]: https://img.shields.io/twitter/follow/Tabnine_?style=social",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bash"
+    },
+    {
+      "context_snippet": "[twitter-shield]: https://img.shields.io/twitter/follow/Tabnine_?style=social",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "golang"
+    },
+    {
+      "context_snippet": "[twitter-shield]: https://img.shields.io/twitter/follow/Tabnine_?style=social",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gpt-2"
+    },
+    {
+      "context_snippet": "[twitter-shield]: https://img.shields.io/twitter/follow/Tabnine_?style=social",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "java"
+    },
+    {
+      "context_snippet": "[twitter-shield]: https://img.shields.io/twitter/follow/Tabnine_?style=social",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ruby"
+    },
+    {
+      "context_snippet": "[twitter-shield]: https://img.shields.io/twitter/follow/Tabnine_?style=social",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rust"
+    },
+    {
+      "context_snippet": "[twitter-shield]: https://img.shields.io/twitter/follow/Tabnine_?style=social",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "sublime"
+    },
+    {
+      "context_snippet": "[twitter-shield]: https://img.shields.io/twitter/follow/Tabnine_?style=social",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "swift"
+    },
+    {
+      "context_snippet": "[twitter-shield]: https://img.shields.io/twitter/follow/Tabnine_?style=social",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "typescipt"
+    }
+  ]
+}

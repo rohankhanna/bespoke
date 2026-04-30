@@ -223,6 +223,78 @@
       "source_repo": "pyro-ppl/numpyro",
       "status": "candidate-context",
       "text": "[![Build Status](https://github.com/pyro-ppl/numpyro/workflows/CI/badge.svg)](https://github.com/pyro-ppl/numpyro/actions)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "fehiepsi/rethinking-numpyro",
+      "status": "candidate-context",
+      "text": "Statistical Rethinking (2nd ed.) with NumPyro"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fehiepsi/rethinking-numpyro",
+      "status": "candidate-context",
+      "text": "[![Test Status](https://github.com/fehiepsi/rethinking-numpyro/workflows/CI/badge.svg)](https://github.com/fehiepsi/rethinking-numpyro/actions)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pyro-ppl/funsor",
+      "status": "candidate-context",
+      "text": "Functional tensors for probabilistic programming"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pyro-ppl/funsor",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://github.com/pyro-ppl/funsor/workflows/CI/badge.svg)](https://github.com/pyro-ppl/funsor/actions)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "capitalone/datacompy",
+      "status": "candidate-context",
+      "text": "Pandas, Polars, Spark, and Snowpark DataFrame comparison for humans and more!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "capitalone/datacompy",
+      "status": "candidate-context",
+      "text": "![PyPI - Python Version](https://img.shields.io/pypi/pyversions/datacompy)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "chainer/chainer",
+      "status": "candidate-context",
+      "text": "A flexible framework of neural networks for deep learning"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chainer/chainer",
+      "status": "candidate-context",
+      "text": "***Notice: As [announced](https://chainer.org/announcement/2019/12/05/released-v7.html), Chainer is under the maintenance phase and further development will be limited to bug-fixes and maintenance only.***"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dusty-nv/jetson-containers",
+      "status": "candidate-context",
+      "text": "Machine Learning Containers for NVIDIA Jetson and JetPack-L4T"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dusty-nv/jetson-containers",
+      "status": "candidate-context",
+      "text": "[![a header for a software project about building containers for AI and machine learning](https://raw.githubusercontent.com/dusty-nv/jetson-containers/docs/docs/images/header_blueprint_rainbow.jpg)](https://www.jetson-ai-lab.com)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "google/trax",
+      "status": "candidate-context",
+      "text": "Trax \u2014 Deep Learning with Clear Code and Speed"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/trax",
+      "status": "candidate-context",
+      "text": "![train tracks](https://images.pexels.com/photos/461772/pexels-photo-461772.jpeg?dl&fit=crop&crop=entropy&w=32&h=21)"
     }
   ],
   "candidate_glosses": [
@@ -333,6 +405,42 @@
       "source_repo": "pyro-ppl/numpyro",
       "status": "candidate",
       "text": "[![Build Status](https://github.com/pyro-ppl/numpyro/workflows/CI/badge.svg)](https://github.com/pyro-ppl/numpyro/actions)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fehiepsi/rethinking-numpyro",
+      "status": "candidate",
+      "text": "[![Test Status](https://github.com/fehiepsi/rethinking-numpyro/workflows/CI/badge.svg)](https://github.com/fehiepsi/rethinking-numpyro/actions)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pyro-ppl/funsor",
+      "status": "candidate",
+      "text": "[![Build Status](https://github.com/pyro-ppl/funsor/workflows/CI/badge.svg)](https://github.com/pyro-ppl/funsor/actions)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "capitalone/datacompy",
+      "status": "candidate",
+      "text": "![PyPI - Python Version](https://img.shields.io/pypi/pyversions/datacompy)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chainer/chainer",
+      "status": "candidate",
+      "text": "***Notice: As [announced](https://chainer.org/announcement/2019/12/05/released-v7.html), Chainer is under the maintenance phase and further development will be limited to bug-fixes and maintenance only.***"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dusty-nv/jetson-containers",
+      "status": "candidate",
+      "text": "[![a header for a software project about building containers for AI and machine learning](https://raw.githubusercontent.com/dusty-nv/jetson-containers/docs/docs/images/header_blueprint_rainbow.jpg)](https://www.jetson-ai-lab.com)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/trax",
+      "status": "candidate",
+      "text": "![train tracks](https://images.pexels.com/photos/461772/pexels-photo-461772.jpeg?dl&fit=crop&crop=entropy&w=32&h=21)"
     }
   ],
   "candidate_related_terms": [
@@ -502,11 +610,53 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "pyro-ppl/numpyro"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "ashvardanian/NumKong"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "fehiepsi/rethinking-numpyro"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "pyro-ppl/funsor"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "capitalone/datacompy"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "chainer/chainer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "dusty-nv/jetson-containers"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "google/trax"
     }
   ],
   "first_seen_at": "2026-04-19T01:08:57.644140+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,173 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@692973e3d937129bcbf40652eb9f2f61becf3332",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sig-sec-check.yml"
+    },
+    {
+      "component": "actions/checkout@692973e3d937129bcbf40652eb9f2f61becf3332",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sig-sec-check.yml"
+    },
+    {
+      "component": "actions/checkout@692973e3d937129bcbf40652eb9f2f61becf3332",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sig-sec-check.yml"
+    },
+    {
+      "component": "actions/checkout@692973e3d937129bcbf40652eb9f2f61becf3332",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sig-sec-check.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sig-sec-check.yml",
+      "source_repo": "cncf/tag-security",
+      "target": "actions/checkout@692973e3d937129bcbf40652eb9f2f61becf3332",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/sig-sec-check.yml",
+      "source_repo": "cncf/tag-security",
+      "target": "TAG-Security-Linter",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cncf/tag-security",
+      "target": "access-control",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cncf/tag-security",
+      "target": "assessment",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cncf/tag-security",
+      "target": "cloud-native",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cncf/tag-security",
+      "target": "cncf",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cncf/tag-security",
+      "target": "safety",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cncf/tag-security",
+      "target": "secure-access",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cncf/tag-security",
+      "target": "security",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T01:42:08.039122+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6601
+    },
+    {
+      "path": ".github/workflows/sig-sec-check.yml",
+      "size": 870
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "main",
+    "description": "\ud83d\udd10CNCF Security Technical Advisory Group -- secure access, policy control, privacy, auditing, explainability and more!",
+    "fork": false,
+    "full_name": "cncf/tag-security",
+    "html_url": "https://github.com/cncf/tag-security",
+    "language": "HTML",
+    "pushed_at": "2025-12-08T07:51:51Z",
+    "stargazers_count": 2267,
+    "topics": [
+      "access-control",
+      "assessment",
+      "cloud-native",
+      "cncf",
+      "safety",
+      "secure-access",
+      "security"
+    ],
+    "updated_at": "2026-04-29T22:44:51Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "TAG-Security-Linter",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/sig-sec-check.yml",
+      "term": "TAG-Security-Linter"
+    },
+    {
+      "context_snippet": "![Cloud Native Security Logo](/community/resources/design/logo/cloud-native-security-horizontal-darkmodesafe.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "access-control"
+    },
+    {
+      "context_snippet": "![Cloud Native Security Logo](/community/resources/design/logo/cloud-native-security-horizontal-darkmodesafe.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "assessment"
+    },
+    {
+      "context_snippet": "![Cloud Native Security Logo](/community/resources/design/logo/cloud-native-security-horizontal-darkmodesafe.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cloud-native"
+    },
+    {
+      "context_snippet": "![Cloud Native Security Logo](/community/resources/design/logo/cloud-native-security-horizontal-darkmodesafe.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cncf"
+    },
+    {
+      "context_snippet": "![Cloud Native Security Logo](/community/resources/design/logo/cloud-native-security-horizontal-darkmodesafe.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "safety"
+    },
+    {
+      "context_snippet": "![Cloud Native Security Logo](/community/resources/design/logo/cloud-native-security-horizontal-darkmodesafe.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "secure-access"
+    },
+    {
+      "context_snippet": "![Cloud Native Security Logo](/community/resources/design/logo/cloud-native-security-horizontal-darkmodesafe.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "security"
+    }
+  ]
+}

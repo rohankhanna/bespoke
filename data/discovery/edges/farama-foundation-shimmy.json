@@ -1,0 +1,258 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Farama-Foundation/Shimmy",
+      "target": "deepmind/dm_control",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Farama-Foundation/Shimmy",
+      "target": "deepmind/lab",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Farama-Foundation/Shimmy",
+      "target": "deepmind/bsuite",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Farama-Foundation/Shimmy",
+      "target": "deepmind/meltingpot",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-docs-dev.yaml",
+      "source_repo": "Farama-Foundation/Shimmy",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-docs-dev.yaml",
+      "source_repo": "Farama-Foundation/Shimmy",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-docs-dev.yaml",
+      "source_repo": "Farama-Foundation/Shimmy",
+      "target": "JamesIves/github-pages-deploy-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-docs-dev.yaml",
+      "source_repo": "Farama-Foundation/Shimmy",
+      "target": "Build main branch documentation website",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-docs-version.yaml",
+      "source_repo": "Farama-Foundation/Shimmy",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-docs-version.yaml",
+      "source_repo": "Farama-Foundation/Shimmy",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-docs-version.yaml",
+      "source_repo": "Farama-Foundation/Shimmy",
+      "target": "dawidd6/action-get-tag@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-docs-version.yaml",
+      "source_repo": "Farama-Foundation/Shimmy",
+      "target": "JamesIves/github-pages-deploy-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-docs-version.yaml",
+      "source_repo": "Farama-Foundation/Shimmy",
+      "target": "Docs Versioning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-publish.yml",
+      "source_repo": "Farama-Foundation/Shimmy",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-publish.yml",
+      "source_repo": "Farama-Foundation/Shimmy",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-publish.yml",
+      "source_repo": "Farama-Foundation/Shimmy",
+      "target": "actions/upload-artifact@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-publish.yml",
+      "source_repo": "Farama-Foundation/Shimmy",
+      "target": "actions/download-artifact@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-publish.yml",
+      "source_repo": "Farama-Foundation/Shimmy",
+      "target": "pypa/gh-action-pypi-publish@release/v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-publish.yml",
+      "source_repo": "Farama-Foundation/Shimmy",
+      "target": "build-publish",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-test.yml",
+      "source_repo": "Farama-Foundation/Shimmy",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-test.yml",
+      "source_repo": "Farama-Foundation/Shimmy",
+      "target": "build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/manual-build-docs-version.yaml",
+      "source_repo": "Farama-Foundation/Shimmy",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/manual-build-docs-version.yaml",
+      "source_repo": "Farama-Foundation/Shimmy",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/manual-build-docs-version.yaml",
+      "source_repo": "Farama-Foundation/Shimmy",
+      "target": "JamesIves/github-pages-deploy-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/manual-build-docs-version.yaml",
+      "source_repo": "Farama-Foundation/Shimmy",
+      "target": "Manual Docs Versioning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/optional-test-bsuite.yml",
+      "source_repo": "Farama-Foundation/Shimmy",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/optional-test-bsuite.yml",
+      "source_repo": "Farama-Foundation/Shimmy",
+      "target": "build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/optional-test-dm-control-multiagent.yml",
+      "source_repo": "Farama-Foundation/Shimmy",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/optional-test-dm-control-multiagent.yml",
+      "source_repo": "Farama-Foundation/Shimmy",
+      "target": "build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/optional-test-dm-control.yml",
+      "source_repo": "Farama-Foundation/Shimmy",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/optional-test-dm-control.yml",
+      "source_repo": "Farama-Foundation/Shimmy",
+      "target": "build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Farama-Foundation/Shimmy",
+      "target": "deepmind-control-suite",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Farama-Foundation/Shimmy",
+      "target": "deepmind-lab",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Farama-Foundation/Shimmy",
+      "target": "gym-environment",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Farama-Foundation/Shimmy",
+      "target": "gymnasium",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Farama-Foundation/Shimmy",
+      "target": "reinforcement-learning",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-30T00:37:16.824464+00:00",
+  "source_repo": "Farama-Foundation/Shimmy"
+}

@@ -5,7 +5,9 @@
   "ambiguity_status": "unresolved",
   "buckets": [
     "workflow-process",
-    "data-document-artifact"
+    "data-document-artifact",
+    "tool-component",
+    "capability"
   ],
   "candidate_definitions": [
     {
@@ -19,6 +21,30 @@
       "source_repo": "Yubico/libfido2",
       "status": "candidate-context",
       "text": "cygwin"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cygwin/cygwin",
+      "status": "candidate-context",
+      "text": "Mirror of  Cygwin repository at https://cygwin.com/cgit/newlib-cygwin/.  DO NOT SUBMIT PULL REQUESTS.  Read https://cygwin.com/contrib.html and submit patches via the mailing list cygwin-patches AT cygwin DOT com."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cygwin/cygwin",
+      "status": "candidate-context",
+      "text": "cygwin"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "tmux-plugins/tmux-yank",
+      "status": "candidate-context",
+      "text": "Tmux plugin for copying to system clipboard. Works on OSX, Linux and Cygwin."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tmux-plugins/tmux-yank",
+      "status": "candidate-context",
+      "text": "[![Build"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +53,18 @@
       "source_repo": "Yubico/libfido2",
       "status": "candidate",
       "text": "cygwin"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cygwin/cygwin",
+      "status": "candidate",
+      "text": "cygwin"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tmux-plugins/tmux-yank",
+      "status": "candidate",
+      "text": "[![Build"
     }
   ],
   "candidate_related_terms": [
@@ -76,11 +114,23 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": ".github/workflows/cygwin_builds.yml",
       "source_repo": "Yubico/libfido2"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/cygwin.yml",
+      "source_repo": "cygwin/cygwin"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "tmux-plugins/tmux-yank"
     }
   ],
   "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

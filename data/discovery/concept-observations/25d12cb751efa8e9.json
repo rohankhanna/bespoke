@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "CMSIS-NN Library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Build documentation and pack"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Build documentation and pack"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18207,
+      "status": "candidate",
+      "text": "file"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18186,
+      "status": "candidate",
+      "text": "kit"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18144,
+      "status": "candidate",
+      "text": "brick"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18144,
+      "status": "candidate",
+      "text": "concrete"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18144,
+      "status": "candidate",
+      "text": "concreted"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Build documentation and pack",
+      "sense_id": "build-documentation-and-pack#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "build-documentation-and-pack",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "build-documentation-and-pack",
+  "observation_id": "25d12cb751efa8e9",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-30T00:37:16.824464+00:00",
+  "observed_text": "Build documentation and pack",
+  "source_context_snippet": "Build documentation and pack",
+  "source_file": ".github/workflows/pack.yml",
+  "source_repo": "ARM-software/CMSIS-NN",
+  "source_repo_description": "CMSIS-NN Library"
+}

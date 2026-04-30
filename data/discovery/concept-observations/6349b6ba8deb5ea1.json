@@ -84,7 +84,7 @@
   "normalized_form": "publish-cargo-crate",
   "observation_id": "6349b6ba8deb5ea1",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-04-24T06:47:13.899148+00:00",
+  "observed_at": "2026-04-30T00:37:16.824464+00:00",
   "observed_text": "Publish cargo crate",
   "source_context_snippet": "Publish cargo crate",
   "source_file": ".github/workflows/publish.yml",

@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T02:56:48.335795+00:00",
+  "fetched_files": [
+    {
+      "path": "Dockerfile",
+      "size": 197
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Official Alpine Linux Docker image. Win at minimalism!",
+    "fork": false,
+    "full_name": "alpinelinux/docker-alpine",
+    "html_url": "https://github.com/alpinelinux/docker-alpine",
+    "language": "Lua",
+    "pushed_at": "2026-04-16T13:09:30Z",
+    "stargazers_count": 1262,
+    "topics": [],
+    "updated_at": "2026-04-29T21:16:02Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

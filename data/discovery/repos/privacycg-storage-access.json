@@ -1,0 +1,83 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yml"
+    },
+    {
+      "component": "peaceiris/actions-gh-pages@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yml",
+      "source_repo": "privacycg/storage-access",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yml",
+      "source_repo": "privacycg/storage-access",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yml",
+      "source_repo": "privacycg/storage-access",
+      "target": "peaceiris/actions-gh-pages@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deploy.yml",
+      "source_repo": "privacycg/storage-access",
+      "target": "deploy",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T02:57:57.098287+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 10432
+    },
+    {
+      "path": ".github/workflows/deploy.yml",
+      "size": 420
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "The Storage Access API",
+    "fork": false,
+    "full_name": "privacycg/storage-access",
+    "html_url": "https://github.com/privacycg/storage-access",
+    "language": "Bikeshed",
+    "pushed_at": "2025-10-18T13:57:41Z",
+    "stargazers_count": 248,
+    "topics": [],
+    "updated_at": "2026-04-27T17:39:29Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "deploy",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deploy.yml",
+      "term": "deploy"
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "General data-binding package for Jackson: works on streaming API (core) implementation(s)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "CIFuzz"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "CIFuzz"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "CIFuzz",
+      "sense_id": "cifuzz#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "cifuzz",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "cifuzz",
+  "observation_id": "a320e7bd8ff45c6c",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-30T00:37:16.824464+00:00",
+  "observed_text": "CIFuzz",
+  "source_context_snippet": "CIFuzz",
+  "source_file": ".github/workflows/cifuzz.yml",
+  "source_repo": "FasterXML/jackson-databind",
+  "source_repo_description": "General data-binding package for Jackson: works on streaming API (core) implementation(s)"
+}

@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T04:52:14.172478+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 13185
+    },
+    {
+      "path": "go.mod",
+      "size": 2755
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "lesismal/go-websocket-benchmark",
+    "html_url": "https://github.com/lesismal/go-websocket-benchmark",
+    "language": "Go",
+    "pushed_at": "2025-05-22T11:11:45Z",
+    "stargazers_count": 152,
+    "topics": [],
+    "updated_at": "2026-03-23T16:10:25Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

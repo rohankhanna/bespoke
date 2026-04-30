@@ -1,0 +1,181 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "WongKinYiu/yolov7",
+      "target": "linaom1214/tensorrt-python",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "WongKinYiu/yolov7",
+      "target": "wongkinyiu/yolor",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "WongKinYiu/yolov7",
+      "target": "wongkinyiu/pytorch_yolov4",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "WongKinYiu/yolov7",
+      "target": "texasinstruments/edgeai-yolov5",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "WongKinYiu/yolov7",
+      "target": "darknet",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "WongKinYiu/yolov7",
+      "target": "pytorch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "WongKinYiu/yolov7",
+      "target": "scaled-yolov4",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "WongKinYiu/yolov7",
+      "target": "yolor",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "WongKinYiu/yolov7",
+      "target": "yolov3",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "WongKinYiu/yolov7",
+      "target": "yolov4",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "WongKinYiu/yolov7",
+      "target": "yolov7",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T03:47:54.082508+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 14743
+    },
+    {
+      "path": "requirements.txt",
+      "size": 958
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Implementation of paper - YOLOv7: Trainable bag-of-freebies sets new state-of-the-art for real-time object detectors",
+    "fork": false,
+    "full_name": "WongKinYiu/yolov7",
+    "html_url": "https://github.com/WongKinYiu/yolov7",
+    "language": "Jupyter Notebook",
+    "pushed_at": "2024-08-19T12:57:04Z",
+    "stargazers_count": 14101,
+    "topics": [
+      "darknet",
+      "pytorch",
+      "scaled-yolov4",
+      "yolor",
+      "yolov3",
+      "yolov4",
+      "yolov7"
+    ],
+    "updated_at": "2026-04-30T02:31:28Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "linaom1214/tensorrt-python",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "texasinstruments/edgeai-yolov5",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "wongkinyiu/pytorch_yolov4",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "wongkinyiu/yolor",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Implementation of paper - [YOLOv7: Trainable bag-of-freebies sets new state-of-the-art for real-time object detectors](https://arxiv.org/abs/2207.02696)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "darknet"
+    },
+    {
+      "context_snippet": "Implementation of paper - [YOLOv7: Trainable bag-of-freebies sets new state-of-the-art for real-time object detectors](https://arxiv.org/abs/2207.02696)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytorch"
+    },
+    {
+      "context_snippet": "Implementation of paper - [YOLOv7: Trainable bag-of-freebies sets new state-of-the-art for real-time object detectors](https://arxiv.org/abs/2207.02696)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "scaled-yolov4"
+    },
+    {
+      "context_snippet": "Implementation of paper - [YOLOv7: Trainable bag-of-freebies sets new state-of-the-art for real-time object detectors](https://arxiv.org/abs/2207.02696)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "yolor"
+    },
+    {
+      "context_snippet": "Implementation of paper - [YOLOv7: Trainable bag-of-freebies sets new state-of-the-art for real-time object detectors](https://arxiv.org/abs/2207.02696)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "yolov3"
+    },
+    {
+      "context_snippet": "Implementation of paper - [YOLOv7: Trainable bag-of-freebies sets new state-of-the-art for real-time object detectors](https://arxiv.org/abs/2207.02696)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "yolov4"
+    },
+    {
+      "context_snippet": "Implementation of paper - [YOLOv7: Trainable bag-of-freebies sets new state-of-the-art for real-time object detectors](https://arxiv.org/abs/2207.02696)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "yolov7"
+    }
+  ]
+}

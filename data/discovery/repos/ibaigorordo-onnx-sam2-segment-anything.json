@@ -1,0 +1,118 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ibaiGorordo/ONNX-SAM2-Segment-Anything",
+      "target": "facebookresearch/segment-anything-2",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ibaiGorordo/ONNX-SAM2-Segment-Anything",
+      "target": "computer-vision",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ibaiGorordo/ONNX-SAM2-Segment-Anything",
+      "target": "onnx",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ibaiGorordo/ONNX-SAM2-Segment-Anything",
+      "target": "onnxruntime",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ibaiGorordo/ONNX-SAM2-Segment-Anything",
+      "target": "segment-anything",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ibaiGorordo/ONNX-SAM2-Segment-Anything",
+      "target": "segment-anything-2",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T05:12:45.106684+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3067
+    },
+    {
+      "path": "requirements.txt",
+      "size": 62
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Python scripts for the Segment Anythin 2 (SAM2) model in ONNX",
+    "fork": false,
+    "full_name": "ibaiGorordo/ONNX-SAM2-Segment-Anything",
+    "html_url": "https://github.com/ibaiGorordo/ONNX-SAM2-Segment-Anything",
+    "language": "Python",
+    "pushed_at": "2024-08-29T01:49:15Z",
+    "stargazers_count": 288,
+    "topics": [
+      "computer-vision",
+      "onnx",
+      "onnxruntime",
+      "python",
+      "segment-anything",
+      "segment-anything-2"
+    ],
+    "updated_at": "2026-04-03T10:57:10Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "facebookresearch/segment-anything-2",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "![!ONNX-SAM2-Segment-Anything](https://github.com/ibaiGorordo/ONNX-SAM2-Segment-Anything/raw/main/doc/img/sam2_mask_with_boxes.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "computer-vision"
+    },
+    {
+      "context_snippet": "![!ONNX-SAM2-Segment-Anything](https://github.com/ibaiGorordo/ONNX-SAM2-Segment-Anything/raw/main/doc/img/sam2_mask_with_boxes.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "onnx"
+    },
+    {
+      "context_snippet": "![!ONNX-SAM2-Segment-Anything](https://github.com/ibaiGorordo/ONNX-SAM2-Segment-Anything/raw/main/doc/img/sam2_mask_with_boxes.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "onnxruntime"
+    },
+    {
+      "context_snippet": "![!ONNX-SAM2-Segment-Anything](https://github.com/ibaiGorordo/ONNX-SAM2-Segment-Anything/raw/main/doc/img/sam2_mask_with_boxes.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "segment-anything"
+    },
+    {
+      "context_snippet": "![!ONNX-SAM2-Segment-Anything](https://github.com/ibaiGorordo/ONNX-SAM2-Segment-Anything/raw/main/doc/img/sam2_mask_with_boxes.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "segment-anything-2"
+    }
+  ]
+}

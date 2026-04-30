@@ -187,6 +187,90 @@
       "source_repo": "accabog/MedianFilter",
       "status": "candidate-context",
       "text": "[![CI](https://github.com/accabog/MedianFilter/actions/workflows/ci.yml/badge.svg)](https://github.com/accabog/MedianFilter/actions/workflows/ci.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apache/seatunnel-web",
+      "status": "candidate-context",
+      "text": "SeaTunnel is a distributed, high-performance data integration platform for the synchronization and transformation of massive data (offline & real-time)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/seatunnel-web",
+      "status": "candidate-context",
+      "text": "<img src=\"https://seatunnel.apache.org/image/logo.png\" alt=\"seatunnel logo\" height=\"200px\" align=\"right\" />"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "CMU-Perceptual-Computing-Lab/openpose_train",
+      "status": "candidate-context",
+      "text": "Training repository for OpenPose"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "CMU-Perceptual-Computing-Lab/openpose_train",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Daniil-Osokin/gccpm-look-into-person-cvpr19.pytorch",
+      "status": "candidate-context",
+      "text": "Fast and accurate single-person pose estimation, ranked 10th at CVPR'19 LIP challenge. Contains implementation of \"Global Context for Convolutional Pose Machines\" paper."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Daniil-Osokin/gccpm-look-into-person-cvpr19.pytorch",
+      "status": "candidate-context",
+      "text": "This repository contains training code for the paper [Global Context for Convolutional Pose Machines](https://arxiv.org/pdf/1906.04104.pdf). This work improves [original](https://arxiv.org/pdf/1602.00134.pdf) convolutional pose machine architecture for artculated human pose esti\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Daniil-Osokin/lightweight-human-pose-estimation-3d-demo.pytorch",
+      "status": "candidate-context",
+      "text": "Real-time 3D multi-person pose estimation demo in PyTorch. OpenVINO backend can be used for fast inference on CPU."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Daniil-Osokin/lightweight-human-pose-estimation-3d-demo.pytorch",
+      "status": "candidate-context",
+      "text": "This repository contains 3D multi-person pose estimation demo in PyTorch. Intel OpenVINO&trade; backend can be used for fast inference on CPU. This demo is based on [Lightweight OpenPose](https://arxiv.org/pdf/1811.12004.pdf) and [Single-Shot Multi-Person 3D Pose Estimation From\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "xindongzhang/ECBSR",
+      "status": "candidate-context",
+      "text": "Edge-oriented Convolution Block for Real-time Super Resolution on Mobile Devices, ACM Multimedia 2021"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "xindongzhang/ECBSR",
+      "status": "candidate-context",
+      "text": ">[Edge-oriented Convolution Block for Real-time Super Resolution on Mobile Devices](https://www4.comp.polyu.edu.hk/~cslzhang/paper/MM21_ECBSR.pdf) \\"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "crossbario/autobahn-python",
+      "status": "candidate-context",
+      "text": "WebSocket and WAMP in Python for Twisted and asyncio"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "crossbario/autobahn-python",
+      "status": "candidate-context",
+      "text": "WebSocket & WAMP for Python on Twisted and asyncio."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "PKU-YuanGroup/Helios",
+      "status": "candidate-context",
+      "text": "Helios: Real Real-Time Long Video Generation Model"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PKU-YuanGroup/Helios",
+      "status": "candidate-context",
+      "text": "<div align=center>"
     }
   ],
   "candidate_glosses": [
@@ -279,6 +363,48 @@
       "source_repo": "accabog/MedianFilter",
       "status": "candidate",
       "text": "[![CI](https://github.com/accabog/MedianFilter/actions/workflows/ci.yml/badge.svg)](https://github.com/accabog/MedianFilter/actions/workflows/ci.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/seatunnel-web",
+      "status": "candidate",
+      "text": "<img src=\"https://seatunnel.apache.org/image/logo.png\" alt=\"seatunnel logo\" height=\"200px\" align=\"right\" />"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "CMU-Perceptual-Computing-Lab/openpose_train",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Daniil-Osokin/gccpm-look-into-person-cvpr19.pytorch",
+      "status": "candidate",
+      "text": "This repository contains training code for the paper [Global Context for Convolutional Pose Machines](https://arxiv.org/pdf/1906.04104.pdf). This work improves [original](https://arxiv.org/pdf/1602.00134.pdf) convolutional pose machine architecture for artculated human pose esti\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Daniil-Osokin/lightweight-human-pose-estimation-3d-demo.pytorch",
+      "status": "candidate",
+      "text": "This repository contains 3D multi-person pose estimation demo in PyTorch. Intel OpenVINO&trade; backend can be used for fast inference on CPU. This demo is based on [Lightweight OpenPose](https://arxiv.org/pdf/1811.12004.pdf) and [Single-Shot Multi-Person 3D Pose Estimation From\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "xindongzhang/ECBSR",
+      "status": "candidate",
+      "text": ">[Edge-oriented Convolution Block for Real-time Super Resolution on Mobile Devices](https://www4.comp.polyu.edu.hk/~cslzhang/paper/MM21_ECBSR.pdf) \\"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "crossbario/autobahn-python",
+      "status": "candidate",
+      "text": "WebSocket & WAMP for Python on Twisted and asyncio."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PKU-YuanGroup/Helios",
+      "status": "candidate",
+      "text": "<div align=center>"
     }
   ],
   "candidate_related_terms": [
@@ -412,11 +538,53 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "accabog/MedianFilter"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "apache/seatunnel-web"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "CMU-Perceptual-Computing-Lab/openpose_train"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "Daniil-Osokin/gccpm-look-into-person-cvpr19.pytorch"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "Daniil-Osokin/lightweight-human-pose-estimation-3d-demo.pytorch"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "xindongzhang/ECBSR"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "crossbario/autobahn-python"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "PKU-YuanGroup/Helios"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

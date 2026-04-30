@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "needs-follow-up-label"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "opencost/opencost-plugins",
+      "status": "candidate-context",
+      "text": "Plugins for extending OpenCost with new Custom Cost Sources"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "opencost/opencost-plugins",
+      "status": "candidate-context",
+      "text": "needs-follow-up-label"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "opencost/opencost-plugins",
+      "status": "candidate",
+      "text": "needs-follow-up-label"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "needs-follow-up-label",
+  "concept_id": "needs-follow-up-label",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/label-comments.yml",
+      "source_repo": "opencost/opencost-plugins"
+    }
+  ],
+  "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "needs-follow-up-label",
+      "sense_id": "needs-follow-up-label#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

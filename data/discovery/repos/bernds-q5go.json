@@ -1,0 +1,136 @@
+{
+  "components": [
+    {
+      "component": "jurplel/install-qt-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/macos.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/macos.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v1.0.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/macos.yml"
+    },
+    {
+      "component": "jurplel/install-qt-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/windows.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/windows.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v1.0.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/windows.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/macos.yml",
+      "source_repo": "bernds/q5Go",
+      "target": "jurplel/install-qt-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/macos.yml",
+      "source_repo": "bernds/q5Go",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/macos.yml",
+      "source_repo": "bernds/q5Go",
+      "target": "actions/upload-artifact@v1.0.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/macos.yml",
+      "source_repo": "bernds/q5Go",
+      "target": "MacOS",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/windows.yml",
+      "source_repo": "bernds/q5Go",
+      "target": "jurplel/install-qt-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/windows.yml",
+      "source_repo": "bernds/q5Go",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/windows.yml",
+      "source_repo": "bernds/q5Go",
+      "target": "actions/upload-artifact@v1.0.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/windows.yml",
+      "source_repo": "bernds/q5Go",
+      "target": "Windows",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T03:48:43.468918+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6714
+    },
+    {
+      "path": ".github/workflows/macos.yml",
+      "size": 1310
+    },
+    {
+      "path": ".github/workflows/windows.yml",
+      "size": 2189
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A tool for Go players: SGF editor, analysis tool, game database and pattern search tool, IGS client",
+    "fork": false,
+    "full_name": "bernds/q5Go",
+    "html_url": "https://github.com/bernds/q5Go",
+    "language": "C++",
+    "pushed_at": "2023-05-01T14:29:21Z",
+    "stargazers_count": 191,
+    "topics": [],
+    "updated_at": "2026-04-22T09:52:48Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "MacOS",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/macos.yml",
+      "term": "MacOS"
+    },
+    {
+      "context_snippet": "Windows",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/windows.yml",
+      "term": "Windows"
+    }
+  ]
+}

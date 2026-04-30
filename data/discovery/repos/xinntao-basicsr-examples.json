@@ -1,0 +1,171 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pylint.yml"
+    },
+    {
+      "component": "actions/setup-python@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pylint.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "xinntao/BasicSR-examples",
+      "target": "xinntao/basicsr",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "xinntao/BasicSR-examples",
+      "target": "xinntao/handyview",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pylint.yml",
+      "source_repo": "xinntao/BasicSR-examples",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pylint.yml",
+      "source_repo": "xinntao/BasicSR-examples",
+      "target": "actions/setup-python@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pylint.yml",
+      "source_repo": "xinntao/BasicSR-examples",
+      "target": "PyLint",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "xinntao/BasicSR-examples",
+      "target": "basicsr",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "xinntao/BasicSR-examples",
+      "target": "examples",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "xinntao/BasicSR-examples",
+      "target": "restoration",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "xinntao/BasicSR-examples",
+      "target": "super-resolution",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "xinntao/BasicSR-examples",
+      "target": "template",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T03:53:59.757842+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 12972
+    },
+    {
+      "path": "requirements.txt",
+      "size": 55
+    },
+    {
+      "path": ".github/workflows/pylint.yml",
+      "size": 649
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "BasicSR-Examples illustrates how to easily use BasicSR in your own project",
+    "fork": false,
+    "full_name": "xinntao/BasicSR-examples",
+    "html_url": "https://github.com/xinntao/BasicSR-examples",
+    "language": "Python",
+    "pushed_at": "2022-07-06T15:18:57Z",
+    "stargazers_count": 257,
+    "topics": [
+      "basicsr",
+      "examples",
+      "restoration",
+      "super-resolution",
+      "template"
+    ],
+    "updated_at": "2026-04-24T08:57:07Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "xinntao/basicsr",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "xinntao/handyview",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "PyLint",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pylint.yml",
+      "term": "PyLint"
+    },
+    {
+      "context_snippet": "[![download](https://img.shields.io/github/downloads/xinntao/BasicSR-examples/total.svg)](https://github.com/xinntao/BasicSR-examples/releases)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "basicsr"
+    },
+    {
+      "context_snippet": "[![download](https://img.shields.io/github/downloads/xinntao/BasicSR-examples/total.svg)](https://github.com/xinntao/BasicSR-examples/releases)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "examples"
+    },
+    {
+      "context_snippet": "[![download](https://img.shields.io/github/downloads/xinntao/BasicSR-examples/total.svg)](https://github.com/xinntao/BasicSR-examples/releases)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "restoration"
+    },
+    {
+      "context_snippet": "[![download](https://img.shields.io/github/downloads/xinntao/BasicSR-examples/total.svg)](https://github.com/xinntao/BasicSR-examples/releases)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "super-resolution"
+    },
+    {
+      "context_snippet": "[![download](https://img.shields.io/github/downloads/xinntao/BasicSR-examples/total.svg)](https://github.com/xinntao/BasicSR-examples/releases)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "template"
+    }
+  ]
+}

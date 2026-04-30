@@ -1,0 +1,113 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "2KAbhishek/mkrepo",
+      "target": "2kabhishek/shelly",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "2KAbhishek/mkrepo",
+      "target": "bash",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "2KAbhishek/mkrepo",
+      "target": "developer-tools",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "2KAbhishek/mkrepo",
+      "target": "github",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "2KAbhishek/mkrepo",
+      "target": "rapid-development",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "2KAbhishek/mkrepo",
+      "target": "utilities",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T05:00:54.713348+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3348
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Ready to go repos from the CLI \u2708\ud83d\udca1",
+    "fork": false,
+    "full_name": "2KAbhishek/mkrepo",
+    "html_url": "https://github.com/2KAbhishek/mkrepo",
+    "language": "Shell",
+    "pushed_at": "2024-12-15T06:04:10Z",
+    "stargazers_count": 12,
+    "topics": [
+      "bash",
+      "developer-tools",
+      "github",
+      "rapid-development",
+      "utilities"
+    ],
+    "updated_at": "2026-02-11T02:53:46Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "2kabhishek/shelly",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<div align = \"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bash"
+    },
+    {
+      "context_snippet": "<div align = \"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "developer-tools"
+    },
+    {
+      "context_snippet": "<div align = \"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "github"
+    },
+    {
+      "context_snippet": "<div align = \"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rapid-development"
+    },
+    {
+      "context_snippet": "<div align = \"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "utilities"
+    }
+  ]
+}

@@ -1,0 +1,345 @@
+{
+  "components": [
+    {
+      "component": "@changesets/cli",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "oxfmt",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-test.yaml"
+    },
+    {
+      "component": "pnpm/action-setup@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-test.yaml"
+    },
+    {
+      "component": "actions/setup-node@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-test.yaml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "actions/setup-node@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "pnpm/action-setup@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "changesets/action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "astahmer/typed-openapi",
+      "target": "sinclairzx81/typebox",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "astahmer/typed-openapi",
+      "target": "sinclairzx81/typebox-codegen",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "astahmer/typed-openapi",
+      "target": "@changesets/cli",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "astahmer/typed-openapi",
+      "target": "oxfmt",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-test.yaml",
+      "source_repo": "astahmer/typed-openapi",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-test.yaml",
+      "source_repo": "astahmer/typed-openapi",
+      "target": "pnpm/action-setup@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-test.yaml",
+      "source_repo": "astahmer/typed-openapi",
+      "target": "actions/setup-node@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-and-test.yaml",
+      "source_repo": "astahmer/typed-openapi",
+      "target": "Build and Test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "astahmer/typed-openapi",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "astahmer/typed-openapi",
+      "target": "actions/setup-node@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "astahmer/typed-openapi",
+      "target": "pnpm/action-setup@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "astahmer/typed-openapi",
+      "target": "changesets/action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "astahmer/typed-openapi",
+      "target": "Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "astahmer/typed-openapi",
+      "target": "arktype",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "astahmer/typed-openapi",
+      "target": "generator",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "astahmer/typed-openapi",
+      "target": "io-ts",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "astahmer/typed-openapi",
+      "target": "openapi",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "astahmer/typed-openapi",
+      "target": "query",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "astahmer/typed-openapi",
+      "target": "react",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "astahmer/typed-openapi",
+      "target": "runtime",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "astahmer/typed-openapi",
+      "target": "tanstack",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "astahmer/typed-openapi",
+      "target": "typebox",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "astahmer/typed-openapi",
+      "target": "valibot",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T04:50:10.230986+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 11112
+    },
+    {
+      "path": "package.json",
+      "size": 672
+    },
+    {
+      "path": ".github/workflows/build-and-test.yaml",
+      "size": 926
+    },
+    {
+      "path": ".github/workflows/publish.yml",
+      "size": 875
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Generate a headless Typescript API client from an OpenAPI spec - optionally with a @tanstack/react-query client using queryOptions",
+    "fork": false,
+    "full_name": "astahmer/typed-openapi",
+    "html_url": "https://github.com/astahmer/typed-openapi",
+    "language": "TypeScript",
+    "pushed_at": "2026-04-29T14:23:08Z",
+    "stargazers_count": 338,
+    "topics": [
+      "arktype",
+      "generator",
+      "io-ts",
+      "openapi",
+      "query",
+      "react",
+      "runtime",
+      "tanstack",
+      "typebox",
+      "typescript",
+      "valibot",
+      "yup",
+      "zod"
+    ],
+    "updated_at": "2026-04-29T14:31:25Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "sinclairzx81/typebox",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "sinclairzx81/typebox-codegen",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Build and Test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-and-test.yaml",
+      "term": "Build and Test"
+    },
+    {
+      "context_snippet": "Release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish.yml",
+      "term": "Release"
+    },
+    {
+      "context_snippet": "Generate a Typescript API client from an OpenAPI spec",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "arktype"
+    },
+    {
+      "context_snippet": "Generate a Typescript API client from an OpenAPI spec",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "generator"
+    },
+    {
+      "context_snippet": "Generate a Typescript API client from an OpenAPI spec",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "io-ts"
+    },
+    {
+      "context_snippet": "Generate a Typescript API client from an OpenAPI spec",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "openapi"
+    },
+    {
+      "context_snippet": "Generate a Typescript API client from an OpenAPI spec",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "query"
+    },
+    {
+      "context_snippet": "Generate a Typescript API client from an OpenAPI spec",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "react"
+    },
+    {
+      "context_snippet": "Generate a Typescript API client from an OpenAPI spec",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "runtime"
+    },
+    {
+      "context_snippet": "Generate a Typescript API client from an OpenAPI spec",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tanstack"
+    },
+    {
+      "context_snippet": "Generate a Typescript API client from an OpenAPI spec",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "typebox"
+    },
+    {
+      "context_snippet": "Generate a Typescript API client from an OpenAPI spec",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "valibot"
+    }
+  ]
+}

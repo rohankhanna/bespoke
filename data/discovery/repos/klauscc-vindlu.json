@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "klauscc/VindLU",
+      "target": "jayleicn/clipbert",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T01:59:28.900472+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 12669
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "klauscc/VindLU",
+    "html_url": "https://github.com/klauscc/VindLU",
+    "language": "Python",
+    "pushed_at": "2022-12-23T17:14:38Z",
+    "stargazers_count": 109,
+    "topics": [],
+    "updated_at": "2026-04-23T11:52:43Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jayleicn/clipbert",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

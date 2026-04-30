@@ -1,0 +1,142 @@
+{
+  "components": [
+    {
+      "component": "benchmarkify",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "chai",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "dtslint",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "mocha",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "sinon",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "aarondcohen/id128",
+      "target": "aarondcohen/benchmark-guid",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "aarondcohen/id128",
+      "target": "segmentio/ksuid",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "aarondcohen/id128",
+      "target": "ulid/javascript",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "aarondcohen/id128",
+      "target": "jchook/uuid-random",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "aarondcohen/id128",
+      "target": "benchmarkify",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "aarondcohen/id128",
+      "target": "chai",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "aarondcohen/id128",
+      "target": "dtslint",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "aarondcohen/id128",
+      "target": "mocha",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "aarondcohen/id128",
+      "target": "sinon",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-04-30T01:43:58.557004+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 28939
+    },
+    {
+      "path": "package.json",
+      "size": 1358
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "128-bit id generation in multiple formats",
+    "fork": false,
+    "full_name": "aarondcohen/id128",
+    "html_url": "https://github.com/aarondcohen/id128",
+    "language": "JavaScript",
+    "pushed_at": "2024-08-09T16:19:26Z",
+    "stargazers_count": 343,
+    "topics": [],
+    "updated_at": "2026-04-20T07:48:31Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "aarondcohen/benchmark-guid",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jchook/uuid-random",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "segmentio/ksuid",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ulid/javascript",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

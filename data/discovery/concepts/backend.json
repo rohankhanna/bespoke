@@ -130,6 +130,54 @@
       "source_repo": "apache/seatunnel-tools",
       "status": "candidate-context",
       "text": "Backend"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "open-edge-platform/geti-instant-learn",
+      "status": "candidate-context",
+      "text": " A modular framework for few-shot visual segmentation using visual prompting techniques. Enables easy experimentation with different algorithms, backbones (SAM, MobileSAM, DinoV2), and pipeline components for finding and segmenting objects from just a few examples. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "open-edge-platform/geti-instant-learn",
+      "status": "candidate-context",
+      "text": "backend"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "open-edge-platform/physical-ai-studio",
+      "status": "candidate-context",
+      "text": "Physical AI Studio is an end-to-end framework for training robots to perform tasks through imitation learning from human demonstrations."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "open-edge-platform/physical-ai-studio",
+      "status": "candidate-context",
+      "text": "Backend"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apache/seatunnel-web",
+      "status": "candidate-context",
+      "text": "SeaTunnel is a distributed, high-performance data integration platform for the synchronization and transformation of massive data (offline & real-time)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/seatunnel-web",
+      "status": "candidate-context",
+      "text": "Backend"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "fastapi/full-stack-fastapi-template",
+      "status": "candidate-context",
+      "text": "Full stack, modern web application template. Using FastAPI, React, SQLModel, PostgreSQL, Docker, GitHub Actions, automatic HTTPS and more."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fastapi/full-stack-fastapi-template",
+      "status": "candidate-context",
+      "text": "<a href=\"https://github.com/fastapi/full-stack-fastapi-template/actions?query=workflow%3A%22Test+Docker+Compose%22\" target=\"_blank\"><img src=\"https://github.com/fastapi/full-stack-fastapi-template/workflows/Test%20Docker%20Compose/badge.svg\" alt=\"Test Docker Compose\"></a>"
     }
   ],
   "candidate_glosses": [
@@ -192,6 +240,30 @@
       "source_repo": "apache/seatunnel-tools",
       "status": "candidate",
       "text": "Backend"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "open-edge-platform/geti-instant-learn",
+      "status": "candidate",
+      "text": "backend"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "open-edge-platform/physical-ai-studio",
+      "status": "candidate",
+      "text": "Backend"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/seatunnel-web",
+      "status": "candidate",
+      "text": "Backend"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fastapi/full-stack-fastapi-template",
+      "status": "candidate",
+      "text": "<a href=\"https://github.com/fastapi/full-stack-fastapi-template/actions?query=workflow%3A%22Test+Docker+Compose%22\" target=\"_blank\"><img src=\"https://github.com/fastapi/full-stack-fastapi-template/workflows/Test%20Docker%20Compose/badge.svg\" alt=\"Test Docker Compose\"></a>"
     }
   ],
   "candidate_related_terms": [
@@ -295,11 +367,35 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": ".github/workflows/backend.yml",
       "source_repo": "apache/seatunnel-tools"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/backend.yml",
+      "source_repo": "open-edge-platform/geti-instant-learn"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/backend.yml",
+      "source_repo": "open-edge-platform/physical-ai-studio"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/backend.yml",
+      "source_repo": "apache/seatunnel-web"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "fastapi/full-stack-fastapi-template"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

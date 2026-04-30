@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Cross-platform asynchronous I/O"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "![libuv][libuv_banner]"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "![libuv][libuv_banner]"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31524,
+      "status": "candidate",
+      "text": "ponies"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31523,
+      "status": "candidate",
+      "text": "equines"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31522,
+      "status": "candidate",
+      "text": "centaurs"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31521,
+      "status": "candidate",
+      "text": "horses"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31520,
+      "status": "candidate",
+      "text": "rainbows"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "unicorns",
+      "sense_id": "unicorns#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "unicorns",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "unicorns",
+  "observation_id": "98c6aefd87cc8672",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T00:37:16.824464+00:00",
+  "observed_text": "unicorns",
+  "source_context_snippet": "![libuv][libuv_banner]",
+  "source_file": null,
+  "source_repo": "libuv/libuv",
+  "source_repo_description": "Cross-platform asynchronous I/O"
+}

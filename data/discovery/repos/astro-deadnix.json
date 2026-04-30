@@ -1,0 +1,310 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "cachix/install-nix-action@v31",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "cachix/cachix-action@v16",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/checks.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/checks.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/checks.yml"
+    },
+    {
+      "component": "flakestry/flakestry-publish@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/flakestry-publish.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update.yml"
+    },
+    {
+      "component": "cachix/install-nix-action@v31",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update.yml"
+    },
+    {
+      "component": "DeterminateSystems/update-flake-lock@v27",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "astro/deadnix",
+      "target": "astro/deadnix-action",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "astro/deadnix",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "astro/deadnix",
+      "target": "actions/upload-artifact@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "astro/deadnix",
+      "target": "cachix/install-nix-action@v31",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "astro/deadnix",
+      "target": "cachix/cachix-action@v16",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "astro/deadnix",
+      "target": "Build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/checks.yml",
+      "source_repo": "astro/deadnix",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/checks.yml",
+      "source_repo": "astro/deadnix",
+      "target": "Continuous integration",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/flakestry-publish.yaml",
+      "source_repo": "astro/deadnix",
+      "target": "flakestry/flakestry-publish@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/flakestry-publish.yaml",
+      "source_repo": "astro/deadnix",
+      "target": "Publish a flake to flakestry",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update.yml",
+      "source_repo": "astro/deadnix",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update.yml",
+      "source_repo": "astro/deadnix",
+      "target": "cachix/install-nix-action@v31",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update.yml",
+      "source_repo": "astro/deadnix",
+      "target": "DeterminateSystems/update-flake-lock@v27",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/update.yml",
+      "source_repo": "astro/deadnix",
+      "target": "update-flake-lock",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "astro/deadnix",
+      "target": "nix-flake",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "astro/deadnix",
+      "target": "nix-lang",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "astro/deadnix",
+      "target": "nixos",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "astro/deadnix",
+      "target": "rnix",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "astro/deadnix",
+      "target": "rust",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T04:12:01.877793+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4160
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 610
+    },
+    {
+      "path": ".github/workflows/build.yml",
+      "size": 821
+    },
+    {
+      "path": ".github/workflows/checks.yml",
+      "size": 958
+    },
+    {
+      "path": ".github/workflows/flakestry-publish.yaml",
+      "size": 593
+    },
+    {
+      "path": ".github/workflows/update.yml",
+      "size": 538
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Scan Nix files for dead code",
+    "fork": false,
+    "full_name": "astro/deadnix",
+    "html_url": "https://github.com/astro/deadnix",
+    "language": "Rust",
+    "pushed_at": "2025-12-15T18:02:07Z",
+    "stargazers_count": 747,
+    "topics": [
+      "nix",
+      "nix-flake",
+      "nix-lang",
+      "nixos",
+      "rnix",
+      "rust"
+    ],
+    "updated_at": "2026-04-29T10:37:11Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "astro/deadnix-action",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "term": "Build"
+    },
+    {
+      "context_snippet": "Continuous integration",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/checks.yml",
+      "term": "Continuous integration"
+    },
+    {
+      "context_snippet": "\"Publish a flake to flakestry\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/flakestry-publish.yaml",
+      "term": "Publish a flake to flakestry"
+    },
+    {
+      "context_snippet": "update-flake-lock",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/update.yml",
+      "term": "update-flake-lock"
+    },
+    {
+      "context_snippet": "Scan `.nix` files for dead code (unused variable bindings).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nix-flake"
+    },
+    {
+      "context_snippet": "Scan `.nix` files for dead code (unused variable bindings).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nix-lang"
+    },
+    {
+      "context_snippet": "Scan `.nix` files for dead code (unused variable bindings).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nixos"
+    },
+    {
+      "context_snippet": "Scan `.nix` files for dead code (unused variable bindings).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rnix"
+    },
+    {
+      "context_snippet": "Scan `.nix` files for dead code (unused variable bindings).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rust"
+    }
+  ]
+}

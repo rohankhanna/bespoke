@@ -248,6 +248,66 @@
       "source_repo": "goharbor/harbor",
       "status": "candidate-context",
       "text": "\"Code scanning - action\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "reviewdog/reviewdog",
+      "status": "candidate-context",
+      "text": "\ud83d\udc36 Automated code review tool integrated with any code analysis tools regardless of programming language"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "reviewdog/reviewdog",
+      "status": "candidate-context",
+      "text": "\"Code scanning - action\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "octokit/plugin-rest-endpoint-methods.js",
+      "status": "candidate-context",
+      "text": "Octokit plugin adding one method for all of api.github.com REST API endpoints"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "octokit/plugin-rest-endpoint-methods.js",
+      "status": "candidate-context",
+      "text": "\"Code scanning - action\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "github/codeql",
+      "status": "candidate-context",
+      "text": "CodeQL: the libraries and queries that power security researchers around the world, as well as code scanning in GitHub Advanced Security"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "github/codeql",
+      "status": "candidate-context",
+      "text": "\"Code scanning - action\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "octokit/auth-token.js",
+      "status": "candidate-context",
+      "text": "GitHub API token authentication for browsers and Node.js"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "octokit/auth-token.js",
+      "status": "candidate-context",
+      "text": "\"Code scanning - action\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "octokit/graphql.js",
+      "status": "candidate-context",
+      "text": "GitHub GraphQL API client for browsers and Node"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "octokit/graphql.js",
+      "status": "candidate-context",
+      "text": "\"Code scanning - action\""
     }
   ],
   "candidate_glosses": [
@@ -374,6 +434,36 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "goharbor/harbor",
+      "status": "candidate",
+      "text": "\"Code scanning - action\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "reviewdog/reviewdog",
+      "status": "candidate",
+      "text": "\"Code scanning - action\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "octokit/plugin-rest-endpoint-methods.js",
+      "status": "candidate",
+      "text": "\"Code scanning - action\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "github/codeql",
+      "status": "candidate",
+      "text": "\"Code scanning - action\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "octokit/auth-token.js",
+      "status": "candidate",
+      "text": "\"Code scanning - action\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "octokit/graphql.js",
       "status": "candidate",
       "text": "\"Code scanning - action\""
     }
@@ -605,11 +695,53 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": ".github/workflows/codeql-analysis.yml",
       "source_repo": "goharbor/harbor"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "reviewdog/reviewdog"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "octokit/plugin-rest-endpoint-methods.js"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "ChristopherHX/runner.server"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "github/codeql"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "nvm-sh/nvm"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "octokit/auth-token.js"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "octokit/graphql.js"
     }
   ],
   "first_seen_at": "2026-04-18T11:32:22.637859+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

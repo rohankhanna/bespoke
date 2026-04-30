@@ -1,0 +1,150 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration.yml"
+    },
+    {
+      "component": "shivammathur/setup-php@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "crazyxman/simdjson_php",
+      "target": "lemire/simdjson",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration.yml",
+      "source_repo": "crazyxman/simdjson_php",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration.yml",
+      "source_repo": "crazyxman/simdjson_php",
+      "target": "shivammathur/setup-php@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "crazyxman/simdjson_php",
+      "target": "json",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "crazyxman/simdjson_php",
+      "target": "json-parser",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "crazyxman/simdjson_php",
+      "target": "simdjson",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T01:46:10.350218+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 10158
+    },
+    {
+      "path": ".github/workflows/integration.yml",
+      "size": 4123
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "simdjson_php bindings for the simdjson project. https://github.com/lemire/simdjson",
+    "fork": false,
+    "full_name": "crazyxman/simdjson_php",
+    "html_url": "https://github.com/crazyxman/simdjson_php",
+    "language": "C++",
+    "pushed_at": "2022-10-24T01:50:17Z",
+    "stargazers_count": 188,
+    "topics": [
+      "json",
+      "json-parser",
+      "php",
+      "simdjson"
+    ],
+    "updated_at": "2026-03-23T09:06:43Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "lemire/simdjson",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "simdjson_php bindings for the [simdjson project](https://github.com/lemire/simdjson).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "json"
+    },
+    {
+      "context_snippet": "simdjson_php bindings for the [simdjson project](https://github.com/lemire/simdjson).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "json-parser"
+    },
+    {
+      "context_snippet": "simdjson_php bindings for the [simdjson project](https://github.com/lemire/simdjson).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "simdjson"
+    }
+  ]
+}

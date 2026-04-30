@@ -1,0 +1,12 @@
+{
+  "component": "warpdotdev/oz-agent-action@v1",
+  "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/oz-pr-review.yml",
+      "source_repo": "TeamHG-Memex/tensorboard_logger"
+    }
+  ]
+}

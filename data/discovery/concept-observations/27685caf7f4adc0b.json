@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Selecting and copy-pasting in terminal using Vimium-like hint mode."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "**tmux-picker**: Selecting and copy-pasting in terminal using Vimium-like hint mode for tmux."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "**tmux-picker**: Selecting and copy-pasting in terminal using Vimium-like hint mode for tmux."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19942221,
+      "status": "candidate",
+      "text": "copier"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19942220,
+      "status": "candidate",
+      "text": "copypasta"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19942219,
+      "status": "candidate",
+      "text": "replication"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19942218,
+      "status": "candidate",
+      "text": "deep copy"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19942217,
+      "status": "candidate",
+      "text": "cloner"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "copy-paste",
+      "sense_id": "copy-paste#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "copy-paste",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "copy-paste",
+  "observation_id": "27685caf7f4adc0b",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T00:37:16.824464+00:00",
+  "observed_text": "copy-paste",
+  "source_context_snippet": "**tmux-picker**: Selecting and copy-pasting in terminal using Vimium-like hint mode for tmux.",
+  "source_file": null,
+  "source_repo": "pawel-wiejacha/tmux-picker",
+  "source_repo_description": "Selecting and copy-pasting in terminal using Vimium-like hint mode."
+}

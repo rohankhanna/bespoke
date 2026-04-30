@@ -19,12 +19,30 @@
       "source_repo": "ethereumjs/ethereumjs-monorepo",
       "status": "candidate-context",
       "text": "Common"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pykeen/pykeen",
+      "status": "candidate-context",
+      "text": "\ud83e\udd16 A Python library for learning and evaluating knowledge graph embeddings "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pykeen/pykeen",
+      "status": "candidate-context",
+      "text": "Common"
     }
   ],
   "candidate_glosses": [
     {
       "source_kind": "source-snippet",
       "source_repo": "ethereumjs/ethereumjs-monorepo",
+      "status": "candidate",
+      "text": "Common"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pykeen/pykeen",
       "status": "candidate",
       "text": "Common"
     }
@@ -112,11 +130,17 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": ".github/workflows/common-build.yml",
       "source_repo": "ethereumjs/ethereumjs-monorepo"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/common.yml",
+      "source_repo": "pykeen/pykeen"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

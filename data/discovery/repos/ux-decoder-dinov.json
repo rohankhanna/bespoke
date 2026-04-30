@@ -1,0 +1,45 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "UX-Decoder/DINOv",
+      "target": "davisvideochallenge/davis2017-evaluation",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T02:01:34.577342+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8696
+    },
+    {
+      "path": "requirements.txt",
+      "size": 351
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "[CVPR 2024] Official implementation of the paper \"Visual In-context Learning\"",
+    "fork": false,
+    "full_name": "UX-Decoder/DINOv",
+    "html_url": "https://github.com/UX-Decoder/DINOv",
+    "language": "Python",
+    "pushed_at": "2024-04-08T09:44:17Z",
+    "stargazers_count": 534,
+    "topics": [],
+    "updated_at": "2026-04-28T08:42:11Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "davisvideochallenge/davis2017-evaluation",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

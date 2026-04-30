@@ -1,7 +1,7 @@
 {
   "component": "actions/create-github-app-token@v1",
   "first_seen_at": "2026-04-18T11:24:14.688152+00:00",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -132,6 +132,26 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/release_start.yml",
       "source_repo": "Venly/web3-react-venly"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/generate-release.yml",
+      "source_repo": "JohnnyMorganz/luau-lsp"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/update-luau-version.yml",
+      "source_repo": "JohnnyMorganz/luau-lsp"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/update-types-dump.yml",
+      "source_repo": "JohnnyMorganz/luau-lsp"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit-update.yml",
+      "source_repo": "dmlc/treelite"
     }
   ]
 }

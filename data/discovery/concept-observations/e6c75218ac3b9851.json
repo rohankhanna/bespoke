@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Authenticated Encryption with Associated Data Algorithms: high-level encryption ciphers"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "ccm"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "ccm"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20020950,
+      "status": "candidate",
+      "text": "pmf"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20020780,
+      "status": "candidate",
+      "text": "tlc"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20020505,
+      "status": "candidate",
+      "text": "jac"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20020421,
+      "status": "candidate",
+      "text": "csc"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20020250,
+      "status": "candidate",
+      "text": "gpa"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "ccm",
+      "sense_id": "ccm#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "ccm",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "ccm",
+  "observation_id": "e6c75218ac3b9851",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-30T00:37:16.824464+00:00",
+  "observed_text": "ccm",
+  "source_context_snippet": "ccm",
+  "source_file": ".github/workflows/ccm.yml",
+  "source_repo": "RustCrypto/AEADs",
+  "source_repo_description": "Authenticated Encryption with Associated Data Algorithms: high-level encryption ciphers"
+}

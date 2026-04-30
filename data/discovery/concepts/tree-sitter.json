@@ -97,6 +97,54 @@
       "source_repo": "tree-sitter/tree-sitter-python",
       "status": "candidate-context",
       "text": "[![CI][ci]](https://github.com/tree-sitter/tree-sitter-python/actions/workflows/ci.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sogaiu/tree-sitter-clojure",
+      "status": "candidate-context",
+      "text": "Clojure(Script) grammar for tree-sitter"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sogaiu/tree-sitter-clojure",
+      "status": "candidate-context",
+      "text": "A tree-sitter grammar for Clojure and ClojureScript"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "tree-sitter-grammars/tree-sitter-markdown",
+      "status": "candidate-context",
+      "text": "Markdown grammar for tree-sitter"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tree-sitter-grammars/tree-sitter-markdown",
+      "status": "candidate-context",
+      "text": "[![CI][ci]](https://github.com/tree-sitter-grammars/tree-sitter-markdown/actions)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "tree-sitter/tree-sitter-regex",
+      "status": "candidate-context",
+      "text": "Tree-sitter parser for regular expressions"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tree-sitter/tree-sitter-regex",
+      "status": "candidate-context",
+      "text": "[![CI][ci]](https://github.com/tree-sitter/tree-sitter-regex/actions/workflows/ci.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "tree-sitter/tree-sitter-javascript",
+      "status": "candidate-context",
+      "text": "Javascript grammar for tree-sitter"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tree-sitter/tree-sitter-javascript",
+      "status": "candidate-context",
+      "text": "[![CI][ci]](https://github.com/tree-sitter/tree-sitter-javascript/actions/workflows/ci.yml)"
     }
   ],
   "candidate_glosses": [
@@ -147,6 +195,30 @@
       "source_repo": "tree-sitter/tree-sitter-python",
       "status": "candidate",
       "text": "[![CI][ci]](https://github.com/tree-sitter/tree-sitter-python/actions/workflows/ci.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sogaiu/tree-sitter-clojure",
+      "status": "candidate",
+      "text": "A tree-sitter grammar for Clojure and ClojureScript"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tree-sitter-grammars/tree-sitter-markdown",
+      "status": "candidate",
+      "text": "[![CI][ci]](https://github.com/tree-sitter-grammars/tree-sitter-markdown/actions)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tree-sitter/tree-sitter-regex",
+      "status": "candidate",
+      "text": "[![CI][ci]](https://github.com/tree-sitter/tree-sitter-regex/actions/workflows/ci.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tree-sitter/tree-sitter-javascript",
+      "status": "candidate",
+      "text": "[![CI][ci]](https://github.com/tree-sitter/tree-sitter-javascript/actions/workflows/ci.yml)"
     }
   ],
   "candidate_related_terms": [],
@@ -202,11 +274,35 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "tree-sitter/tree-sitter-python"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "sogaiu/tree-sitter-clojure"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "tree-sitter-grammars/tree-sitter-markdown"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "tree-sitter/tree-sitter-regex"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "tree-sitter/tree-sitter-javascript"
     }
   ],
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

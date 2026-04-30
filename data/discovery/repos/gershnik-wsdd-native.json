@@ -1,0 +1,399 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "kenchan0130/actions-system-info@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check.yml"
+    },
+    {
+      "component": "softprops/action-gh-release@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "kenchan0130/actions-system-info@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "actions/cache@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "gershnik/wsdd-native",
+      "target": "christgau/wsdd",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "gershnik/wsdd-native",
+      "target": "netgear/wsdd2",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "gershnik/wsdd-native",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "gershnik/wsdd-native",
+      "target": "kenchan0130/actions-system-info@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "gershnik/wsdd-native",
+      "target": "Build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check.yml",
+      "source_repo": "gershnik/wsdd-native",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check.yml",
+      "source_repo": "gershnik/wsdd-native",
+      "target": "Check",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "gershnik/wsdd-native",
+      "target": "softprops/action-gh-release@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "gershnik/wsdd-native",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "gershnik/wsdd-native",
+      "target": "kenchan0130/actions-system-info@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "gershnik/wsdd-native",
+      "target": "actions/cache@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "gershnik/wsdd-native",
+      "target": "Publish",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gershnik/wsdd-native",
+      "target": "dragonflybsd",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gershnik/wsdd-native",
+      "target": "freebsd",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gershnik/wsdd-native",
+      "target": "haiku-os",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gershnik/wsdd-native",
+      "target": "illumos",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gershnik/wsdd-native",
+      "target": "linux",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gershnik/wsdd-native",
+      "target": "macos",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gershnik/wsdd-native",
+      "target": "macosx",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gershnik/wsdd-native",
+      "target": "netbsd",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gershnik/wsdd-native",
+      "target": "openbsd",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gershnik/wsdd-native",
+      "target": "samba",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gershnik/wsdd-native",
+      "target": "windows-10",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gershnik/wsdd-native",
+      "target": "windows-11",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gershnik/wsdd-native",
+      "target": "windows-explorer",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gershnik/wsdd-native",
+      "target": "ws-discovery",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T02:49:57.606942+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 28487
+    },
+    {
+      "path": ".github/workflows/build.yml",
+      "size": 3462
+    },
+    {
+      "path": ".github/workflows/check.yml",
+      "size": 5102
+    },
+    {
+      "path": ".github/workflows/publish.yml",
+      "size": 3813
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Make your macOS/Linux/BSD/illumos/HaikuOS machine visible in Network view of Windows Explorer",
+    "fork": false,
+    "full_name": "gershnik/wsdd-native",
+    "html_url": "https://github.com/gershnik/wsdd-native",
+    "language": "C++",
+    "pushed_at": "2026-03-22T13:13:37Z",
+    "stargazers_count": 81,
+    "topics": [
+      "bsd",
+      "dragonflybsd",
+      "freebsd",
+      "haiku-os",
+      "illumos",
+      "linux",
+      "macos",
+      "macosx",
+      "netbsd",
+      "openbsd",
+      "samba",
+      "windows-10",
+      "windows-11",
+      "windows-explorer",
+      "ws-discovery",
+      "wsd"
+    ],
+    "updated_at": "2026-04-29T19:32:29Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "christgau/wsdd",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "netgear/wsdd2",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "term": "Build"
+    },
+    {
+      "context_snippet": "Check",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check.yml",
+      "term": "Check"
+    },
+    {
+      "context_snippet": "Publish",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish.yml",
+      "term": "Publish"
+    },
+    {
+      "context_snippet": "[![Version][version_badge]][releases]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dragonflybsd"
+    },
+    {
+      "context_snippet": "[![Version][version_badge]][releases]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "freebsd"
+    },
+    {
+      "context_snippet": "[![Version][version_badge]][releases]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "haiku-os"
+    },
+    {
+      "context_snippet": "[![Version][version_badge]][releases]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "illumos"
+    },
+    {
+      "context_snippet": "[![Version][version_badge]][releases]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "linux"
+    },
+    {
+      "context_snippet": "[![Version][version_badge]][releases]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "macos"
+    },
+    {
+      "context_snippet": "[![Version][version_badge]][releases]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "macosx"
+    },
+    {
+      "context_snippet": "[![Version][version_badge]][releases]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "netbsd"
+    },
+    {
+      "context_snippet": "[![Version][version_badge]][releases]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "openbsd"
+    },
+    {
+      "context_snippet": "[![Version][version_badge]][releases]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "samba"
+    },
+    {
+      "context_snippet": "[![Version][version_badge]][releases]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "windows-10"
+    },
+    {
+      "context_snippet": "[![Version][version_badge]][releases]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "windows-11"
+    },
+    {
+      "context_snippet": "[![Version][version_badge]][releases]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "windows-explorer"
+    },
+    {
+      "context_snippet": "[![Version][version_badge]][releases]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ws-discovery"
+    }
+  ]
+}

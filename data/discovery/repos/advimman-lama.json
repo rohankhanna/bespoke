@@ -5,28 +5,21 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "advimman/lama",
-      "target": "mallman/coremlama",
+      "target": "sanster/lama-cleaner",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "advimman/lama",
-      "target": "moldoteck/magiceraser",
+      "target": "zhaoyun0071/lama-magic-eraser-local",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "advimman/lama",
-      "target": "qwopqwop200/lama-with-maskdino",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "advimman/lama",
-      "target": "po-hsun-su/pytorch-ssim",
+      "target": "richzhang/perceptualsimilarity",
       "target_type": "repository"
     },
     {
@@ -142,7 +135,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-24T09:16:43.343056+00:00",
+  "fetched_at": "2026-04-30T01:56:49.939812+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -163,7 +156,7 @@
     "html_url": "https://github.com/advimman/lama",
     "language": "Jupyter Notebook",
     "pushed_at": "2025-02-05T08:41:52Z",
-    "stargazers_count": 9892,
+    "stargazers_count": 9917,
     "topics": [
       "cnn",
       "colab",
@@ -184,27 +177,22 @@
       "inpainting-methods",
       "pytorch"
     ],
-    "updated_at": "2026-04-24T09:10:11Z"
+    "updated_at": "2026-04-29T21:34:10Z"
   },
   "repo_links": [
     {
       "edge_type": "explicit-github-link",
-      "full_name": "mallman/coremlama",
+      "full_name": "richzhang/perceptualsimilarity",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "moldoteck/magiceraser",
+      "full_name": "sanster/lama-cleaner",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "po-hsun-su/pytorch-ssim",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "qwopqwop200/lama-with-maskdino",
+      "full_name": "zhaoyun0071/lama-magic-eraser-local",
       "source_file": "README.md"
     }
   ],

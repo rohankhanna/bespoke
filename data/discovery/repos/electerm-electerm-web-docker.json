@@ -1,0 +1,195 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ubuntu.yml"
+    },
+    {
+      "component": "docker/setup-qemu-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ubuntu.yml"
+    },
+    {
+      "component": "docker/setup-buildx-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ubuntu.yml"
+    },
+    {
+      "component": "docker/login-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ubuntu.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ubuntu.yml",
+      "source_repo": "electerm/electerm-web-docker",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ubuntu.yml",
+      "source_repo": "electerm/electerm-web-docker",
+      "target": "docker/setup-qemu-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ubuntu.yml",
+      "source_repo": "electerm/electerm-web-docker",
+      "target": "docker/setup-buildx-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ubuntu.yml",
+      "source_repo": "electerm/electerm-web-docker",
+      "target": "docker/login-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ubuntu.yml",
+      "source_repo": "electerm/electerm-web-docker",
+      "target": "Build and Publish Docker Image",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "electerm/electerm-web-docker",
+      "target": "docker",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "electerm/electerm-web-docker",
+      "target": "elcecterm-web",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "electerm/electerm-web-docker",
+      "target": "electerm",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "electerm/electerm-web-docker",
+      "target": "serialport",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "electerm/electerm-web-docker",
+      "target": "sftp",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "electerm/electerm-web-docker",
+      "target": "telnet",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "electerm/electerm-web-docker",
+      "target": "terminal",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T01:02:05.786880+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2362
+    },
+    {
+      "path": ".github/workflows/ubuntu.yml",
+      "size": 629
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "docker image of electerm-web",
+    "fork": false,
+    "full_name": "electerm/electerm-web-docker",
+    "html_url": "https://github.com/electerm/electerm-web-docker",
+    "language": "Shell",
+    "pushed_at": "2026-04-29T09:34:48Z",
+    "stargazers_count": 71,
+    "topics": [
+      "docker",
+      "elcecterm-web",
+      "electerm",
+      "serialport",
+      "sftp",
+      "ssh",
+      "telnet",
+      "terminal"
+    ],
+    "updated_at": "2026-04-29T09:34:35Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Build and Publish Docker Image",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ubuntu.yml",
+      "term": "Build and Publish Docker Image"
+    },
+    {
+      "context_snippet": "[\u4e2d\u6587](README_cn.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "docker"
+    },
+    {
+      "context_snippet": "[\u4e2d\u6587](README_cn.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "elcecterm-web"
+    },
+    {
+      "context_snippet": "[\u4e2d\u6587](README_cn.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "electerm"
+    },
+    {
+      "context_snippet": "[\u4e2d\u6587](README_cn.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "serialport"
+    },
+    {
+      "context_snippet": "[\u4e2d\u6587](README_cn.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "sftp"
+    },
+    {
+      "context_snippet": "[\u4e2d\u6587](README_cn.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "telnet"
+    },
+    {
+      "context_snippet": "[\u4e2d\u6587](README_cn.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "terminal"
+    }
+  ]
+}

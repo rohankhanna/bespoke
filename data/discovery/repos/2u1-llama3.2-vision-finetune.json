@@ -1,0 +1,139 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "2U1/Llama3.2-Vision-Finetune",
+      "target": "2u1/phi3-vision-finetune",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "2U1/Llama3.2-Vision-Finetune",
+      "target": "2u1/molmo-finetune",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "2U1/Llama3.2-Vision-Finetune",
+      "target": "2u1/pixtral-finetune",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "2U1/Llama3.2-Vision-Finetune",
+      "target": "2u1/llama3.2-vision-ft",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "2U1/Llama3.2-Vision-Finetune",
+      "target": "llama3",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "2U1/Llama3.2-Vision-Finetune",
+      "target": "multi-modal",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "2U1/Llama3.2-Vision-Finetune",
+      "target": "vision-language",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "2U1/Llama3.2-Vision-Finetune",
+      "target": "vision-language-model",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T02:40:10.199909+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 12985
+    },
+    {
+      "path": "requirements.txt",
+      "size": 1964
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "An open-source implementaion for fine-tuning Llama3.2-Vision series by Meta.",
+    "fork": false,
+    "full_name": "2U1/Llama3.2-Vision-Finetune",
+    "html_url": "https://github.com/2U1/Llama3.2-Vision-Finetune",
+    "language": "Python",
+    "pushed_at": "2025-10-21T08:47:11Z",
+    "stargazers_count": 176,
+    "topics": [
+      "llama3",
+      "multi-modal",
+      "vision-language",
+      "vision-language-model"
+    ],
+    "updated_at": "2026-03-01T07:56:56Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "2u1/llama3.2-vision-ft",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "2u1/molmo-finetune",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "2u1/phi3-vision-finetune",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "2u1/pixtral-finetune",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "This repository contains a script for training [Llama3.2-Vision](https://huggingface.co/meta-llama/Llama-3.2-11B-Vision-Instruct) with only using HuggingFace and [Liger-Kernel](https://github.com/linkedin/Liger-Kernel).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "llama3"
+    },
+    {
+      "context_snippet": "This repository contains a script for training [Llama3.2-Vision](https://huggingface.co/meta-llama/Llama-3.2-11B-Vision-Instruct) with only using HuggingFace and [Liger-Kernel](https://github.com/linkedin/Liger-Kernel).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "multi-modal"
+    },
+    {
+      "context_snippet": "This repository contains a script for training [Llama3.2-Vision](https://huggingface.co/meta-llama/Llama-3.2-11B-Vision-Instruct) with only using HuggingFace and [Liger-Kernel](https://github.com/linkedin/Liger-Kernel).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vision-language"
+    },
+    {
+      "context_snippet": "This repository contains a script for training [Llama3.2-Vision](https://huggingface.co/meta-llama/Llama-3.2-11B-Vision-Instruct) with only using HuggingFace and [Liger-Kernel](https://github.com/linkedin/Liger-Kernel).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vision-language-model"
+    }
+  ]
+}

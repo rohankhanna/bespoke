@@ -19,6 +19,18 @@
       "source_repo": "PyCQA/pydocstyle",
       "status": "candidate-context",
       "text": "pydocstyle - docstring style checker"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "DanielNoord/pydocstringformatter",
+      "status": "candidate-context",
+      "text": "Automatically format your Python docstrings to conform with PEP 8 and PEP 257"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DanielNoord/pydocstringformatter",
+      "status": "candidate-context",
+      "text": "[![PyPI pyversions](https://img.shields.io/pypi/pyversions/pydocstringformatter.svg)](https://pypi.python.org/pypi/pydocstringformatter/)"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "PyCQA/pydocstyle",
       "status": "candidate",
       "text": "pydocstyle - docstring style checker"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DanielNoord/pydocstringformatter",
+      "status": "candidate",
+      "text": "[![PyPI pyversions](https://img.shields.io/pypi/pyversions/pydocstringformatter.svg)](https://pypi.python.org/pypi/pydocstringformatter/)"
     }
   ],
   "candidate_related_terms": [
@@ -76,11 +94,17 @@
       "observed_at": "2026-04-22T04:49:29.633207+00:00",
       "source_file": null,
       "source_repo": "PyCQA/pydocstyle"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "DanielNoord/pydocstringformatter"
     }
   ],
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

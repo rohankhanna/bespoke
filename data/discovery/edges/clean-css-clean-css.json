@@ -4,20 +4,6 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "clean-css/clean-css",
-      "target": "clean-css/clean-css-cli",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "clean-css/clean-css",
-      "target": "broccolijs/broccoli",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "clean-css/clean-css",
       "target": "brunch/clean-css-brunch",
       "target_type": "repository"
     },
@@ -25,7 +11,21 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "clean-css/clean-css",
-      "target": "aymericbeaumet/metalsmith-clean-css",
+      "target": "gruntjs/grunt-contrib-cssmin",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "clean-css/clean-css",
+      "target": "component/builder2.js",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "clean-css/clean-css",
+      "target": "jshint/jshint",
       "target_type": "repository"
     },
     {
@@ -176,6 +176,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-04-29T18:37:00.726333+00:00",
+  "generated_at": "2026-04-30T00:37:16.824464+00:00",
   "source_repo": "clean-css/clean-css"
 }

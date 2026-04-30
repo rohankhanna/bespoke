@@ -1,7 +1,7 @@
 {
   "component": "actions/checkout@93cb6efe18208431cddfb8368fd83d5badbf9bfd",
   "first_seen_at": "2026-04-18T09:09:30.058377+00:00",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -207,6 +207,101 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/build-test.yml",
       "source_repo": "hashicorp/go-metrics"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/continuous-deployment-workflow.yml",
+      "source_repo": "day8/re-frame-10x"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/continuous-integration-workflow.yml",
+      "source_repo": "day8/re-frame-10x"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/after_release.yml",
+      "source_repo": "zed-industries/zed"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/assign-reviewers.yml",
+      "source_repo": "zed-industries/zed"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/assign_contributor_issue.yml",
+      "source_repo": "zed-industries/zed"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/autofix_pr.yml",
+      "source_repo": "zed-industries/zed"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/background_agent_mvp.yml",
+      "source_repo": "zed-industries/zed"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/bump_collab_staging.yml",
+      "source_repo": "zed-industries/zed"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/bump_patch_version.yml",
+      "source_repo": "zed-industries/zed"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/discovery.yaml",
+      "source_repo": "googleapis/google-cloud-node"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/continuous-deployment-workflow.yml",
+      "source_repo": "day8/re-frame"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/continuous-integration-workflow.yml",
+      "source_repo": "day8/re-frame"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/docs-workflow.yml",
+      "source_repo": "day8/re-frame"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/continuous-deployment-workflow.yml",
+      "source_repo": "day8/re-com"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/continuous-integration-workflow.yml",
+      "source_repo": "day8/re-com"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/docs-workflow.yml",
+      "source_repo": "day8/re-com"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/continuous-deployment-workflow.yml",
+      "source_repo": "day8/re-frame-debux"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/continuous-integration-workflow.yml",
+      "source_repo": "day8/re-frame-debux"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/devbird.yml",
+      "source_repo": "web-infra-dev/rslint"
     }
   ]
 }

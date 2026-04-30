@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Inspect AI interface to Harbor tasks"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Update Harbor Registry Tasks"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Update Harbor Registry Tasks"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27287,
+      "status": "candidate",
+      "text": "keeps"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27160,
+      "status": "candidate",
+      "text": "control"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27160,
+      "status": "candidate",
+      "text": "controlling"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27160,
+      "status": "candidate",
+      "text": "forward"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27160,
+      "status": "candidate",
+      "text": "stamp"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Update Harbor Registry Tasks",
+      "sense_id": "update-harbor-registry-tasks#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "update-harbor-registry-tasks",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "update-harbor-registry-tasks",
+  "observation_id": "95b86ead7f877513",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-30T00:37:16.824464+00:00",
+  "observed_text": "Update Harbor Registry Tasks",
+  "source_context_snippet": "Update Harbor Registry Tasks",
+  "source_file": ".github/workflows/update-registry.yml",
+  "source_repo": "meridianlabs-ai/inspect_harbor",
+  "source_repo_description": "Inspect AI interface to Harbor tasks"
+}

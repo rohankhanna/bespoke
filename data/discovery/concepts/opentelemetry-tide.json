@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "opentelemetry-tide"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "asaaki/opentelemetry-tide",
+      "status": "candidate-context",
+      "text": "\ud83d\udd2d\ud83c\udf0a OpenTelemetry integration for Tide"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "asaaki/opentelemetry-tide",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\"><img src=\"https://raw.githubusercontent.com/asaaki/opentelemetry-tide/main/.assets/opentelemetry-tide-logo.svg\" width=128 height=128><br>opentelemetry-tide</h1>"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "asaaki/opentelemetry-tide",
+      "status": "candidate",
+      "text": "<h1 align=\"center\"><img src=\"https://raw.githubusercontent.com/asaaki/opentelemetry-tide/main/.assets/opentelemetry-tide-logo.svg\" width=128 height=128><br>opentelemetry-tide</h1>"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "opentelemetry-tide",
+  "concept_id": "opentelemetry-tide",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "asaaki/opentelemetry-tide"
+    }
+  ],
+  "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "opentelemetry-tide",
+      "sense_id": "opentelemetry-tide#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

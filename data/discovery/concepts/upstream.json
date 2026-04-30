@@ -25,6 +25,18 @@
       "source_repo": "flavorjones/tailwindcss-ruby",
       "status": "candidate-context",
       "text": "upstream"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "libevent/libevent",
+      "status": "candidate-context",
+      "text": "Event notification library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "libevent/libevent",
+      "status": "candidate-context",
+      "text": "upstream"
     }
   ],
   "candidate_glosses": [
@@ -37,6 +49,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "flavorjones/tailwindcss-ruby",
+      "status": "candidate",
+      "text": "upstream"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "libevent/libevent",
       "status": "candidate",
       "text": "upstream"
     }
@@ -102,11 +120,17 @@
       "observed_at": "2026-04-24T00:33:56.049672+00:00",
       "source_file": ".github/workflows/upstream.yml",
       "source_repo": "flavorjones/tailwindcss-ruby"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/master.yml",
+      "source_repo": "libevent/libevent"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

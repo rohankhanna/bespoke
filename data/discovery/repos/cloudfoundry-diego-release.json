@@ -1,0 +1,182 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4.3.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests-workflow.yml"
+    },
+    {
+      "component": "actions/checkout@v4.3.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests-workflow.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests-workflow.yml"
+    },
+    {
+      "component": "actions/checkout@v4.3.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests-workflow.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests-workflow.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests-workflow.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests-workflow.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests-workflow.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests-workflow.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests-workflow.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "cloudfoundry/diego-release",
+      "target": "cloudfoundry/bosh",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "cloudfoundry/diego-release",
+      "target": "cloudfoundry/cf-deployment",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "cloudfoundry/diego-release",
+      "target": "cloudfoundry/community",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "cloudfoundry/diego-release",
+      "target": "cloudfoundry/wg-app-platform-runtime-ci",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests-workflow.yml",
+      "source_repo": "cloudfoundry/diego-release",
+      "target": "actions/checkout@v4.3.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests-workflow.yml",
+      "source_repo": "cloudfoundry/diego-release",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests-workflow.yml",
+      "source_repo": "cloudfoundry/diego-release",
+      "target": "actions/download-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/tests-workflow.yml",
+      "source_repo": "cloudfoundry/diego-release",
+      "target": "unit-integration-tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cloudfoundry/diego-release",
+      "target": "cff-wg-app-runtime-platform",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T00:43:35.880969+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1777
+    },
+    {
+      "path": ".github/workflows/tests-workflow.yml",
+      "size": 10507
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "develop",
+    "description": "BOSH Release for Diego",
+    "fork": false,
+    "full_name": "cloudfoundry/diego-release",
+    "html_url": "https://github.com/cloudfoundry/diego-release",
+    "language": "Go",
+    "pushed_at": "2026-04-29T15:26:39Z",
+    "stargazers_count": 207,
+    "topics": [
+      "cff-wg-app-runtime-platform"
+    ],
+    "updated_at": "2026-04-29T15:37:29Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cloudfoundry/bosh",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cloudfoundry/cf-deployment",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cloudfoundry/community",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cloudfoundry/wg-app-platform-runtime-ci",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "unit-integration-tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/tests-workflow.yml",
+      "term": "unit-integration-tests"
+    },
+    {
+      "context_snippet": "This repository is a [BOSH](https://github.com/cloudfoundry/bosh)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cff-wg-app-runtime-platform"
+    }
+  ]
+}

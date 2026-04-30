@@ -1,0 +1,88 @@
+{
+  "aliases": [
+    "face-parsing"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "zllrunning/face-parsing.PyTorch",
+      "status": "candidate-context",
+      "text": "Using modified BiSeNet for face parsing in PyTorch"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "zllrunning/face-parsing.PyTorch",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "zllrunning/face-makeup.PyTorch",
+      "status": "candidate-context",
+      "text": "Lip and hair color editor using face parsing maps."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "zllrunning/face-makeup.PyTorch",
+      "status": "candidate-context",
+      "text": "Lip and hair color editor using face parsing maps."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "zllrunning/face-parsing.PyTorch",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "zllrunning/face-makeup.PyTorch",
+      "status": "candidate",
+      "text": "Lip and hair color editor using face parsing maps."
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "face-parsing",
+  "concept_id": "face-parsing",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "zllrunning/face-parsing.PyTorch"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "zllrunning/face-makeup.PyTorch"
+    }
+  ],
+  "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "face-parsing",
+      "sense_id": "face-parsing#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

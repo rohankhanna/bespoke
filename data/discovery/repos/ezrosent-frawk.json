@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T04:10:47.600665+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4950
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 1953
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "an efficient awk-like language",
+    "fork": false,
+    "full_name": "ezrosent/frawk",
+    "html_url": "https://github.com/ezrosent/frawk",
+    "language": "Rust",
+    "pushed_at": "2025-09-26T04:45:49Z",
+    "stargazers_count": 1297,
+    "topics": [],
+    "updated_at": "2026-04-26T05:23:16Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

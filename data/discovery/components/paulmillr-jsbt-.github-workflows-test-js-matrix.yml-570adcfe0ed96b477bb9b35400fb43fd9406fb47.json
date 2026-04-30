@@ -1,0 +1,12 @@
+{
+  "component": "paulmillr/jsbt/.github/workflows/test-js-matrix.yml@570adcfe0ed96b477bb9b35400fb43fd9406fb47",
+  "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test-js.yml",
+      "source_repo": "paulmillr/chokidar"
+    }
+  ]
+}

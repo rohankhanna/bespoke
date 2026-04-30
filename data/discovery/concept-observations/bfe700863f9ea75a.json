@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Accomplish\u2122 is the open source Al coworker that lives on your desktop"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Release Desktop App"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Release Desktop App"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21241,
+      "status": "candidate",
+      "text": "taskbar"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21216,
+      "status": "candidate",
+      "text": "close"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21144,
+      "status": "candidate",
+      "text": "cripple"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21144,
+      "status": "candidate",
+      "text": "escape"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21144,
+      "status": "candidate",
+      "text": "quit"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Release Desktop App",
+      "sense_id": "release-desktop-app#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "release-desktop-app",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "release-desktop-app",
+  "observation_id": "bfe700863f9ea75a",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-30T00:37:16.824464+00:00",
+  "observed_text": "Release Desktop App",
+  "source_context_snippet": "Release Desktop App",
+  "source_file": ".github/workflows/release.yml",
+  "source_repo": "accomplish-ai/accomplish",
+  "source_repo_description": "Accomplish\u2122 is the open source Al coworker that lives on your desktop"
+}

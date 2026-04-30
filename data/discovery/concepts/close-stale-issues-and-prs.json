@@ -687,6 +687,162 @@
       "source_repo": "adonisjs/core",
       "status": "candidate-context",
       "text": "'Close stale issues and PRs'"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "prometheus-community/windows_exporter",
+      "status": "candidate-context",
+      "text": "Prometheus exporter for Windows machines"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "prometheus-community/windows_exporter",
+      "status": "candidate-context",
+      "text": "'Close stale issues and PRs'"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "operator-framework/operator-registry",
+      "status": "candidate-context",
+      "text": " Operator Registry runs in a Kubernetes or OpenShift cluster to provide operator catalog data to Operator Lifecycle Manager."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "operator-framework/operator-registry",
+      "status": "candidate-context",
+      "text": "\"Close stale issues and PRs\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "praw-dev/.github",
+      "status": "candidate-context",
+      "text": "Settings files to be used across the organization."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "praw-dev/.github",
+      "status": "candidate-context",
+      "text": "Close stale issues and PRs"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "formatjs/formatjs",
+      "status": "candidate-context",
+      "text": "The monorepo home to all of the FormatJS related libraries, most notably react-intl."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "formatjs/formatjs",
+      "status": "candidate-context",
+      "text": "'Close stale issues and PRs'"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "opencost/opencost-helm-chart",
+      "status": "candidate-context",
+      "text": "OpenCost Helm chart "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "opencost/opencost-helm-chart",
+      "status": "candidate-context",
+      "text": "'Close stale issues and PRs'"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "opencost/opencost-plugins",
+      "status": "candidate-context",
+      "text": "Plugins for extending OpenCost with new Custom Cost Sources"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "opencost/opencost-plugins",
+      "status": "candidate-context",
+      "text": "'Close stale issues and PRs'"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ueberauth/oauth2",
+      "status": "candidate-context",
+      "text": "An Elixir OAuth 2.0 Client Library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ueberauth/oauth2",
+      "status": "candidate-context",
+      "text": "'Close stale issues and PRs'"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "copilot-emacs/copilot.el",
+      "status": "candidate-context",
+      "text": "An unofficial Copilot plugin for Emacs."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "copilot-emacs/copilot.el",
+      "status": "candidate-context",
+      "text": "'Close stale issues and PRs'"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "AbdBarho/stable-diffusion-webui-docker",
+      "status": "candidate-context",
+      "text": "Easy Docker setup for Stable Diffusion with user-friendly UI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AbdBarho/stable-diffusion-webui-docker",
+      "status": "candidate-context",
+      "text": "'Close stale issues and PRs'"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sanderland/katrain",
+      "status": "candidate-context",
+      "text": "Improve your Baduk skills by training with KataGo!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sanderland/katrain",
+      "status": "candidate-context",
+      "text": "\"Close stale issues and PRs\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ClickHouse/clickhouse-java",
+      "status": "candidate-context",
+      "text": "ClickHouse Java Clients & JDBC Driver"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ClickHouse/clickhouse-java",
+      "status": "candidate-context",
+      "text": "'Close stale issues and PRs'"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "qubvel-org/segmentation_models.pytorch",
+      "status": "candidate-context",
+      "text": "Semantic segmentation models with 500+ pretrained convolutional and transformer-based backbones."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "qubvel-org/segmentation_models.pytorch",
+      "status": "candidate-context",
+      "text": "'Close stale issues and PRs'"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "leizhao1234/cogvlm2",
+      "status": "candidate-context",
+      "text": "Large Language Model Text Generation Inference"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "leizhao1234/cogvlm2",
+      "status": "candidate-context",
+      "text": "'Close stale issues and PRs'"
     }
   ],
   "candidate_glosses": [
@@ -1023,6 +1179,84 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "adonisjs/core",
+      "status": "candidate",
+      "text": "'Close stale issues and PRs'"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "prometheus-community/windows_exporter",
+      "status": "candidate",
+      "text": "'Close stale issues and PRs'"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "operator-framework/operator-registry",
+      "status": "candidate",
+      "text": "\"Close stale issues and PRs\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "praw-dev/.github",
+      "status": "candidate",
+      "text": "Close stale issues and PRs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "formatjs/formatjs",
+      "status": "candidate",
+      "text": "'Close stale issues and PRs'"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "opencost/opencost-helm-chart",
+      "status": "candidate",
+      "text": "'Close stale issues and PRs'"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "opencost/opencost-plugins",
+      "status": "candidate",
+      "text": "'Close stale issues and PRs'"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ueberauth/oauth2",
+      "status": "candidate",
+      "text": "'Close stale issues and PRs'"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "copilot-emacs/copilot.el",
+      "status": "candidate",
+      "text": "'Close stale issues and PRs'"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AbdBarho/stable-diffusion-webui-docker",
+      "status": "candidate",
+      "text": "'Close stale issues and PRs'"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sanderland/katrain",
+      "status": "candidate",
+      "text": "\"Close stale issues and PRs\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ClickHouse/clickhouse-java",
+      "status": "candidate",
+      "text": "'Close stale issues and PRs'"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "qubvel-org/segmentation_models.pytorch",
+      "status": "candidate",
+      "text": "'Close stale issues and PRs'"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "leizhao1234/cogvlm2",
       "status": "candidate",
       "text": "'Close stale issues and PRs'"
     }
@@ -1470,11 +1704,119 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": ".github/workflows/stale.yml",
       "source_repo": "adonisjs/core"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/stale-close.yml",
+      "source_repo": "prometheus-community/windows_exporter"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "operator-framework/operator-registry"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "huggingface/optimum-quanto"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "react-native-webview/react-native-webview"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/stale.yaml",
+      "source_repo": "prometheus-operator/kube-prometheus"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/stale_action.yml",
+      "source_repo": "praw-dev/.github"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "formatjs/formatjs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "opencost/opencost-helm-chart"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "opencost/opencost-plugins"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "ueberauth/oauth2"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "copilot-emacs/copilot.el"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "AbdBarho/stable-diffusion-webui-docker"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/stale.yaml",
+      "source_repo": "google-ai-edge/mediapipe"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "sanderland/katrain"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/stale.yaml",
+      "source_repo": "MagicMirrorOrg/MagicMirror"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "ClickHouse/clickhouse-java"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/stale.yaml",
+      "source_repo": "qubvel-org/segmentation_models.pytorch"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "leizhao1234/cogvlm2"
     }
   ],
   "first_seen_at": "2026-04-18T11:57:36.597358+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

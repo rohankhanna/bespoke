@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Flutter tool to run hover on emacs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<img align=\"right\" src=\"https://github.com/go-flutter-desktop/hover/blob/master/assets/app/icon.png\" width=\"64\"/>"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<img align=\"right\" src=\"https://github.com/go-flutter-desktop/hover/blob/master/assets/app/icon.png\" width=\"64\"/>"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40037384,
+      "status": "candidate",
+      "text": "levitate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40021287,
+      "status": "candidate",
+      "text": "loom"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39983961,
+      "status": "candidate",
+      "text": "bulk large"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39971563,
+      "status": "candidate",
+      "text": "linger"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39951290,
+      "status": "candidate",
+      "text": "vacillate"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "hover",
+      "sense_id": "hover#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 41043,
+      "status": "candidate",
+      "text": "brood"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 22048,
+      "status": "candidate",
+      "text": "loom"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 19034,
+      "status": "candidate",
+      "text": "vacillate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 2034,
+      "status": "candidate",
+      "text": "levitate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 1014,
+      "status": "candidate",
+      "text": "bulk large"
+    }
+  ],
+  "concept_id": "hover",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "hover",
+  "observation_id": "1128305ae96e281d",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T00:37:16.824464+00:00",
+  "observed_text": "hover",
+  "source_context_snippet": "<img align=\"right\" src=\"https://github.com/go-flutter-desktop/hover/blob/master/assets/app/icon.png\" width=\"64\"/>",
+  "source_file": null,
+  "source_repo": "ericdallo/hover.el",
+  "source_repo_description": "Flutter tool to run hover on emacs"
+}

@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "RFCs for the AWS CDK"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "This repo is a place to propose and track major upcoming changes to [AWS CDK], [jsii], and"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "This repo is a place to propose and track major upcoming changes to [AWS CDK], [jsii], and"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "cloud-infrastructure",
+      "sense_id": "cloud-infrastructure#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "cloud-infrastructure",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "cloud-infrastructure",
+  "observation_id": "196ad3ceddd08725",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T00:37:16.824464+00:00",
+  "observed_text": "cloud-infrastructure",
+  "source_context_snippet": "This repo is a place to propose and track major upcoming changes to [AWS CDK], [jsii], and",
+  "source_file": null,
+  "source_repo": "aws/aws-cdk-rfcs",
+  "source_repo_description": "RFCs for the AWS CDK"
+}

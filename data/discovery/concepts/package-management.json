@@ -79,6 +79,18 @@
       "source_repo": "conda/conda",
       "status": "candidate-context",
       "text": "[conda-logo]: https://s3.amazonaws.com/conda-dev/conda_logo.svg"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "DavHau/nix-portable",
+      "status": "candidate-context",
+      "text": "Nix - Static, Permissionless, Installation-free, Pre-configured"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DavHau/nix-portable",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -117,6 +129,12 @@
       "source_repo": "conda/conda",
       "status": "candidate",
       "text": "[conda-logo]: https://s3.amazonaws.com/conda-dev/conda_logo.svg"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DavHau/nix-portable",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_related_terms": [],
@@ -160,11 +178,17 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "conda/conda"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "DavHau/nix-portable"
     }
   ],
   "first_seen_at": "2026-04-19T04:47:57.443742+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,12 @@
+{
+  "component": "tj-actions/changed-files@c3a1bb2c992d77180ae65be6ae6c166cf40f857c",
+  "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "argoproj-labs/argocd-agent"
+    }
+  ]
+}

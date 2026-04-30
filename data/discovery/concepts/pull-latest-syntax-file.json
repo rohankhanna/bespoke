@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Pull Latest Syntax File"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JohnnyMorganz/luau-lsp",
+      "status": "candidate-context",
+      "text": "Language Server Implementation for Luau"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JohnnyMorganz/luau-lsp",
+      "status": "candidate-context",
+      "text": "Pull Latest Syntax File"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JohnnyMorganz/luau-lsp",
+      "status": "candidate",
+      "text": "Pull Latest Syntax File"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29139,
+      "status": "candidate",
+      "text": "aut"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29139,
+      "status": "candidate",
+      "text": "out"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29139,
+      "status": "candidate",
+      "text": "push"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29013,
+      "status": "candidate",
+      "text": "thrust"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27392,
+      "status": "candidate",
+      "text": "derivation"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Pull Latest Syntax File",
+  "concept_id": "pull-latest-syntax-file",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/update-syntax-file.yml",
+      "source_repo": "JohnnyMorganz/luau-lsp"
+    }
+  ],
+  "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Pull Latest Syntax File",
+      "sense_id": "pull-latest-syntax-file#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

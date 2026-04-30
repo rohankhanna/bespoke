@@ -1,0 +1,101 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "RealWord is a medium clone. This implementation uses Django Ninja to create a backend service for the blog."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Typing"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Typing"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40043916,
+      "status": "candidate",
+      "text": "typewriting"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30043892,
+      "status": "candidate",
+      "text": "typewritten"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30043439,
+      "status": "candidate",
+      "text": "typist"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30042397,
+      "status": "candidate",
+      "text": "typographical"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30041339,
+      "status": "candidate",
+      "text": "typewriter"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Typing",
+      "sense_id": "typing#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 22,
+      "status": "candidate",
+      "text": "typewriting"
+    }
+  ],
+  "concept_id": "typing",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "typing",
+  "observation_id": "b905587c1feb106e",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-30T00:37:16.824464+00:00",
+  "observed_text": "Typing",
+  "source_context_snippet": "Typing",
+  "source_file": ".github/workflows/typing.yml",
+  "source_repo": "c4ffein/realworld-django-ninja",
+  "source_repo_description": "RealWord is a medium clone. This implementation uses Django Ninja to create a backend service for the blog."
+}

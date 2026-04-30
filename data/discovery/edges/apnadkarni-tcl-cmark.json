@@ -1,0 +1,118 @@
+{
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mac.yml",
+      "source_repo": "apnadkarni/tcl-cmark",
+      "target": "apnadkarni/tcl-setup@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mac.yml",
+      "source_repo": "apnadkarni/tcl-cmark",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mac.yml",
+      "source_repo": "apnadkarni/tcl-cmark",
+      "target": "apnadkarni/tcl-build-extension@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/mac.yml",
+      "source_repo": "apnadkarni/tcl-cmark",
+      "target": "MacOS",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mingw.yml",
+      "source_repo": "apnadkarni/tcl-cmark",
+      "target": "msys2/setup-msys2@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mingw.yml",
+      "source_repo": "apnadkarni/tcl-cmark",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mingw.yml",
+      "source_repo": "apnadkarni/tcl-cmark",
+      "target": "apnadkarni/tcl-setup@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mingw.yml",
+      "source_repo": "apnadkarni/tcl-cmark",
+      "target": "apnadkarni/tcl-build-extension@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/mingw.yml",
+      "source_repo": "apnadkarni/tcl-cmark",
+      "target": "Mingw",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/msvc.yml",
+      "source_repo": "apnadkarni/tcl-cmark",
+      "target": "ilammy/msvc-dev-cmd@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/msvc.yml",
+      "source_repo": "apnadkarni/tcl-cmark",
+      "target": "apnadkarni/tcl-setup@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/msvc.yml",
+      "source_repo": "apnadkarni/tcl-cmark",
+      "target": "apnadkarni/tcl-build-extension@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/msvc.yml",
+      "source_repo": "apnadkarni/tcl-cmark",
+      "target": "Visual C++",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ubuntu.yml",
+      "source_repo": "apnadkarni/tcl-cmark",
+      "target": "apnadkarni/tcl-setup@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ubuntu.yml",
+      "source_repo": "apnadkarni/tcl-cmark",
+      "target": "apnadkarni/tcl-build-extension@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ubuntu.yml",
+      "source_repo": "apnadkarni/tcl-cmark",
+      "target": "Ubuntu",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-30T00:37:16.824464+00:00",
+  "source_repo": "apnadkarni/tcl-cmark"
+}

@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": " Natural Language Toolkit for Malaysian language, https://malaya.readthedocs.io/"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Run on Push to Master"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Run on Push to Master"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 34279,
+      "status": "candidate",
+      "text": "race"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26629,
+      "status": "candidate",
+      "text": "jostle"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26229,
+      "status": "candidate",
+      "text": "jog"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26167,
+      "status": "candidate",
+      "text": "retrieve"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18978,
+      "status": "candidate",
+      "text": "proceed"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Run on Push to Master",
+      "sense_id": "run-on-push-to-master#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "run-on-push-to-master",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "run-on-push-to-master",
+  "observation_id": "caf6678e16643c63",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-30T00:37:16.824464+00:00",
+  "observed_text": "Run on Push to Master",
+  "source_context_snippet": "Run on Push to Master",
+  "source_file": ".github/workflows/run.yaml",
+  "source_repo": "malaysia-ai/malaya",
+  "source_repo_description": " Natural Language Toolkit for Malaysian language, https://malaya.readthedocs.io/"
+}

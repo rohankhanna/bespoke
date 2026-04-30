@@ -151,6 +151,42 @@
       "source_repo": "hapostgres/pg_auto_failover",
       "status": "candidate-context",
       "text": "[![Documentation Status](https://readthedocs.org/projects/pg-auto-failover/badge/?version=main)](https://pg-auto-failover.readthedocs.io/en/main/?badge=main)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "SeaQL/sea-orm",
+      "status": "candidate-context",
+      "text": "\ud83d\udc1a A powerful relational ORM for Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SeaQL/sea-orm",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "antonlindstrom/pgstore",
+      "status": "candidate-context",
+      "text": "A Postgres session store backend for gorilla/sessions"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "antonlindstrom/pgstore",
+      "status": "candidate-context",
+      "text": "A session store backend for [gorilla/sessions](http://www.gorillatoolkit.org/pkg/sessions) - [src](https://github.com/gorilla/sessions)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Buuntu/fastapi-react",
+      "status": "candidate-context",
+      "text": "\ud83d\ude80   Cookiecutter Template for FastAPI + React Projects.  Using PostgreSQL, SQLAlchemy, and Docker"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Buuntu/fastapi-react",
+      "status": "candidate-context",
+      "text": "<div>"
     }
   ],
   "candidate_glosses": [
@@ -225,6 +261,24 @@
       "source_repo": "hapostgres/pg_auto_failover",
       "status": "candidate",
       "text": "[![Documentation Status](https://readthedocs.org/projects/pg-auto-failover/badge/?version=main)](https://pg-auto-failover.readthedocs.io/en/main/?badge=main)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SeaQL/sea-orm",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "antonlindstrom/pgstore",
+      "status": "candidate",
+      "text": "A session store backend for [gorilla/sessions](http://www.gorillatoolkit.org/pkg/sessions) - [src](https://github.com/gorilla/sessions)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Buuntu/fastapi-react",
+      "status": "candidate",
+      "text": "<div>"
     }
   ],
   "candidate_related_terms": [
@@ -346,11 +400,29 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "hapostgres/pg_auto_failover"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "SeaQL/sea-orm"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "antonlindstrom/pgstore"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "Buuntu/fastapi-react"
     }
   ],
   "first_seen_at": "2026-04-18T10:43:38.551697+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

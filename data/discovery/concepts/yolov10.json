@@ -31,6 +31,30 @@
       "source_repo": "Linaom1214/TensorRT-For-YOLO-Series",
       "status": "candidate-context",
       "text": "[YOLOv11, YOLOV12](https://docs.ultralytics.com/)\u3001[YOLOv10](https://github.com/THU-MIG/yolov10)\u3001[YOLOv9](https://github.com/WongKinYiu/yolov9)\u3001[YOLOv8](https://v8docs.ultralytics.com/)\u3001[YOLOv7](https://github.com/WongKinYiu/yolov7)\u3001[YOLOv6](https://github.com/meituan/YOLOv6)\u3001 [Y\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "AXERA-TECH/ax-samples",
+      "status": "candidate-context",
+      "text": "Samples code for world class Artificial Intelligence SoCs for computer vision applications."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AXERA-TECH/ax-samples",
+      "status": "candidate-context",
+      "text": "[English](./README_EN.md) | \u7b80\u4f53\u4e2d\u6587"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "DanielSarmiento04/yolov10cpp",
+      "status": "candidate-context",
+      "text": "Implementation of yolo v10 in c++ std 17 over opencv and onnxruntime"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DanielSarmiento04/yolov10cpp",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">Yolo V10 cpp</h1>"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +69,18 @@
       "source_repo": "Linaom1214/TensorRT-For-YOLO-Series",
       "status": "candidate",
       "text": "[YOLOv11, YOLOV12](https://docs.ultralytics.com/)\u3001[YOLOv10](https://github.com/THU-MIG/yolov10)\u3001[YOLOv9](https://github.com/WongKinYiu/yolov9)\u3001[YOLOv8](https://v8docs.ultralytics.com/)\u3001[YOLOv7](https://github.com/WongKinYiu/yolov7)\u3001[YOLOv6](https://github.com/meituan/YOLOv6)\u3001 [Y\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AXERA-TECH/ax-samples",
+      "status": "candidate",
+      "text": "[English](./README_EN.md) | \u7b80\u4f53\u4e2d\u6587"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DanielSarmiento04/yolov10cpp",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">Yolo V10 cpp</h1>"
     }
   ],
   "candidate_related_terms": [],
@@ -64,11 +100,23 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "Linaom1214/TensorRT-For-YOLO-Series"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "AXERA-TECH/ax-samples"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "DanielSarmiento04/yolov10cpp"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

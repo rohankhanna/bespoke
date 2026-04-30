@@ -1,0 +1,88 @@
+{
+  "aliases": [
+    "go-flutter"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ericdallo/hover.el",
+      "status": "candidate-context",
+      "text": "Flutter tool to run hover on emacs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ericdallo/hover.el",
+      "status": "candidate-context",
+      "text": "<img align=\"right\" src=\"https://github.com/go-flutter-desktop/hover/blob/master/assets/app/icon.png\" width=\"64\"/>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "go-flutter-desktop/hover",
+      "status": "candidate-context",
+      "text": "Hover helps developers to release Flutter applications on desktop."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "go-flutter-desktop/hover",
+      "status": "candidate-context",
+      "text": "Hover is a simple build tool to create [Flutter](https://flutter.dev) desktop applications."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ericdallo/hover.el",
+      "status": "candidate",
+      "text": "<img align=\"right\" src=\"https://github.com/go-flutter-desktop/hover/blob/master/assets/app/icon.png\" width=\"64\"/>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "go-flutter-desktop/hover",
+      "status": "candidate",
+      "text": "Hover is a simple build tool to create [Flutter](https://flutter.dev) desktop applications."
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "go-flutter",
+  "concept_id": "go-flutter",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "ericdallo/hover.el"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "go-flutter-desktop/hover"
+    }
+  ],
+  "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "go-flutter",
+      "sense_id": "go-flutter#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

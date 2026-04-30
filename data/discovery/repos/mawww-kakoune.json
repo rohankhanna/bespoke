@@ -1,0 +1,168 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-releases-linux.yaml"
+    },
+    {
+      "component": "softprops/action-gh-release@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-releases-linux.yaml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/makefile.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-releases-linux.yaml",
+      "source_repo": "mawww/kakoune",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-releases-linux.yaml",
+      "source_repo": "mawww/kakoune",
+      "target": "softprops/action-gh-release@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-releases-linux.yaml",
+      "source_repo": "mawww/kakoune",
+      "target": "Build static binaries for Linux",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/makefile.yml",
+      "source_repo": "mawww/kakoune",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/makefile.yml",
+      "source_repo": "mawww/kakoune",
+      "target": "Makefile CI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mawww/kakoune",
+      "target": "c-plus-plus",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mawww/kakoune",
+      "target": "console-application",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mawww/kakoune",
+      "target": "kakoune",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mawww/kakoune",
+      "target": "modal-editing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mawww/kakoune",
+      "target": "text-editor",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T00:51:07.538847+00:00",
+  "fetched_files": [
+    {
+      "path": ".github/workflows/build-releases-linux.yaml",
+      "size": 898
+    },
+    {
+      "path": ".github/workflows/makefile.yml",
+      "size": 1170
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "mawww's experiment for a better code editor",
+    "fork": false,
+    "full_name": "mawww/kakoune",
+    "html_url": "https://github.com/mawww/kakoune",
+    "language": "C++",
+    "pushed_at": "2026-04-17T04:51:03Z",
+    "stargazers_count": 10858,
+    "topics": [
+      "c-plus-plus",
+      "console-application",
+      "kakoune",
+      "modal-editing",
+      "text-editor",
+      "vim"
+    ],
+    "updated_at": "2026-04-29T23:33:03Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Build static binaries for Linux",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-releases-linux.yaml",
+      "term": "Build static binaries for Linux"
+    },
+    {
+      "context_snippet": "Makefile CI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/makefile.yml",
+      "term": "Makefile CI"
+    },
+    {
+      "context_snippet": "Build static binaries for Linux",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "c-plus-plus"
+    },
+    {
+      "context_snippet": "Build static binaries for Linux",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "console-application"
+    },
+    {
+      "context_snippet": "Build static binaries for Linux",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "kakoune"
+    },
+    {
+      "context_snippet": "Build static binaries for Linux",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "modal-editing"
+    },
+    {
+      "context_snippet": "Build static binaries for Linux",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "text-editor"
+    }
+  ]
+}

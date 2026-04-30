@@ -1,0 +1,81 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "megvii-model/HINet",
+      "target": "megvii-research/nafnet",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "megvii-model/HINet",
+      "target": "megvii-research/tlsc",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "megvii-model/HINet",
+      "target": "xinntao/basicsr",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "megvii-model/HINet",
+      "target": "swz30/mprnet",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T03:53:31.081740+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 12845
+    },
+    {
+      "path": "requirements.txt",
+      "size": 102
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "megvii-model/HINet",
+    "html_url": "https://github.com/megvii-model/HINet",
+    "language": "Python",
+    "pushed_at": "2022-04-12T05:29:37Z",
+    "stargazers_count": 401,
+    "topics": [],
+    "updated_at": "2026-04-28T06:06:07Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "megvii-research/nafnet",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "megvii-research/tlsc",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "swz30/mprnet",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "xinntao/basicsr",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

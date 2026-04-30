@@ -467,6 +467,54 @@
       "source_repo": "squidowl/iced",
       "status": "candidate-context",
       "text": "Check"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "eitsupi/arf",
+      "status": "candidate-context",
+      "text": "Alternative R Frontend \u2014 a modern R console written in Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "eitsupi/arf",
+      "status": "candidate-context",
+      "text": "Check"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gershnik/wsdd-native",
+      "status": "candidate-context",
+      "text": "Make your macOS/Linux/BSD/illumos/HaikuOS machine visible in Network view of Windows Explorer"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gershnik/wsdd-native",
+      "status": "candidate-context",
+      "text": "Check"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "expr-lang/expr",
+      "status": "candidate-context",
+      "text": "Expression language and expression evaluation for Go"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "expr-lang/expr",
+      "status": "candidate-context",
+      "text": "check"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "tox-dev/pipdeptree",
+      "status": "candidate-context",
+      "text": "A command line utility to display dependency tree of the installed Python packages"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tox-dev/pipdeptree",
+      "status": "candidate-context",
+      "text": "check"
     }
   ],
   "candidate_glosses": [
@@ -703,6 +751,30 @@
       "source_repo": "squidowl/iced",
       "status": "candidate",
       "text": "Check"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "eitsupi/arf",
+      "status": "candidate",
+      "text": "Check"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gershnik/wsdd-native",
+      "status": "candidate",
+      "text": "Check"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "expr-lang/expr",
+      "status": "candidate",
+      "text": "check"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tox-dev/pipdeptree",
+      "status": "candidate",
+      "text": "check"
     }
   ],
   "candidate_related_terms": [
@@ -1087,11 +1159,47 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": ".github/workflows/check.yml",
       "source_repo": "squidowl/iced"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/check.yml",
+      "source_repo": "eitsupi/arf"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/check.yml",
+      "source_repo": "astral-sh/python-build-standalone"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/check.yml",
+      "source_repo": "gershnik/wsdd-native"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/check.yml",
+      "source_repo": "preservim/tagbar"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/check.yml",
+      "source_repo": "expr-lang/expr"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/check.yaml",
+      "source_repo": "tox-dev/pipdeptree"
     }
   ],
   "first_seen_at": "2026-04-19T17:36:09.281008+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

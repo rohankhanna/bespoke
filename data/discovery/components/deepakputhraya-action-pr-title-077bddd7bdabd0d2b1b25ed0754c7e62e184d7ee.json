@@ -1,0 +1,17 @@
+{
+  "component": "deepakputhraya/action-pr-title@077bddd7bdabd0d2b1b25ed0754c7e62e184d7ee",
+  "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/conventional-label.yml",
+      "source_repo": "prometheus-community/ansible"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/pr-title.yml",
+      "source_repo": "rockerBOO/awesome-neovim"
+    }
+  ]
+}

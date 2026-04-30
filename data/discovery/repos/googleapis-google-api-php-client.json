@@ -1,0 +1,261 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/asset-release.yml"
+    },
+    {
+      "component": "shivammathur/setup-php@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/asset-release.yml"
+    },
+    {
+      "component": "nick-invision/retry@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/asset-release.yml"
+    },
+    {
+      "component": "softprops/action-gh-release@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/asset-release.yml"
+    },
+    {
+      "component": "GoogleCloudPlatform/php-tools/.github/workflows/doctum.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    },
+    {
+      "component": "shivammathur/setup-php@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    },
+    {
+      "component": "nick-invision/retry@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    },
+    {
+      "component": "shivammathur/setup-php@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    },
+    {
+      "component": "nick-invision/retry@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    },
+    {
+      "component": "shivammathur/setup-php@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    },
+    {
+      "component": "shivammathur/setup-php@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "googleapis/google-api-php-client",
+      "target": "googleapis/google-cloud-php",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "googleapis/google-api-php-client",
+      "target": "googleapis/google-cloud-php-datastore",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "googleapis/google-api-php-client",
+      "target": "googleapis/google-cloud-php-compute",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "googleapis/google-api-php-client",
+      "target": "googleapis/google-auth-library-php",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/asset-release.yml",
+      "source_repo": "googleapis/google-api-php-client",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/asset-release.yml",
+      "source_repo": "googleapis/google-api-php-client",
+      "target": "shivammathur/setup-php@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/asset-release.yml",
+      "source_repo": "googleapis/google-api-php-client",
+      "target": "nick-invision/retry@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/asset-release.yml",
+      "source_repo": "googleapis/google-api-php-client",
+      "target": "softprops/action-gh-release@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/asset-release.yml",
+      "source_repo": "googleapis/google-api-php-client",
+      "target": "Add Release Assets",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "googleapis/google-api-php-client",
+      "target": "GoogleCloudPlatform/php-tools/.github/workflows/doctum.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "googleapis/google-api-php-client",
+      "target": "Generate Documentation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "googleapis/google-api-php-client",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "googleapis/google-api-php-client",
+      "target": "shivammathur/setup-php@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "googleapis/google-api-php-client",
+      "target": "nick-invision/retry@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "googleapis/google-api-php-client",
+      "target": "Test Suite",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T03:05:14.923620+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 19181
+    },
+    {
+      "path": ".github/workflows/asset-release.yml",
+      "size": 2358
+    },
+    {
+      "path": ".github/workflows/docs.yml",
+      "size": 692
+    },
+    {
+      "path": ".github/workflows/tests.yml",
+      "size": 2920
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A PHP client library for accessing Google APIs",
+    "fork": false,
+    "full_name": "googleapis/google-api-php-client",
+    "html_url": "https://github.com/googleapis/google-api-php-client",
+    "language": "PHP",
+    "pushed_at": "2026-04-29T20:45:16Z",
+    "stargazers_count": 9773,
+    "topics": [],
+    "updated_at": "2026-04-29T20:45:10Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "googleapis/google-auth-library-php",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "googleapis/google-cloud-php",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "googleapis/google-cloud-php-compute",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "googleapis/google-cloud-php-datastore",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Add Release Assets",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/asset-release.yml",
+      "term": "Add Release Assets"
+    },
+    {
+      "context_snippet": "Generate Documentation",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docs.yml",
+      "term": "Generate Documentation"
+    },
+    {
+      "context_snippet": "Test Suite",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/tests.yml",
+      "term": "Test Suite"
+    }
+  ]
+}

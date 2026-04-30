@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T00:50:17.930839+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 629
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "an anagram",
+    "fork": false,
+    "full_name": "julienledem/redelm",
+    "html_url": "https://github.com/julienledem/redelm",
+    "language": "Java",
+    "pushed_at": "2021-08-26T11:16:34Z",
+    "stargazers_count": 138,
+    "topics": [],
+    "updated_at": "2026-03-24T03:12:31Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

@@ -31,6 +31,42 @@
       "source_repo": "luau-lang/luau",
       "status": "candidate-context",
       "text": "Luau ![CI](https://github.com/luau-lang/luau/actions/workflows/build.yml/badge.svg) [![codecov](https://codecov.io/gh/luau-lang/luau/branch/master/graph/badge.svg)](https://codecov.io/gh/luau-lang/luau)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "1set/starlet",
+      "status": "candidate-context",
+      "text": "\u2728 Yet another Go wrapper for Starlark that simplifies usage, offers data conversion and useful Starlark libraries"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "1set/starlet",
+      "status": "candidate-context",
+      "text": "[![godoc](https://pkg.go.dev/badge/github.com/1set/starlet.svg)](https://pkg.go.dev/github.com/1set/starlet)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sagiegurari/duckscript",
+      "status": "candidate-context",
+      "text": "Simple, extendable and embeddable scripting language."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sagiegurari/duckscript",
+      "status": "candidate-context",
+      "text": "| duckscript | SDK | CLI |"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "luau-lang/rfcs",
+      "status": "candidate-context",
+      "text": "RFCs for Luau evolution"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "luau-lang/rfcs",
+      "status": "candidate-context",
+      "text": "Background"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +81,24 @@
       "source_repo": "luau-lang/luau",
       "status": "candidate",
       "text": "Luau ![CI](https://github.com/luau-lang/luau/actions/workflows/build.yml/badge.svg) [![codecov](https://codecov.io/gh/luau-lang/luau/branch/master/graph/badge.svg)](https://codecov.io/gh/luau-lang/luau)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "1set/starlet",
+      "status": "candidate",
+      "text": "[![godoc](https://pkg.go.dev/badge/github.com/1set/starlet.svg)](https://pkg.go.dev/github.com/1set/starlet)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sagiegurari/duckscript",
+      "status": "candidate",
+      "text": "| duckscript | SDK | CLI |"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "luau-lang/rfcs",
+      "status": "candidate",
+      "text": "Background"
     }
   ],
   "candidate_related_terms": [],
@@ -64,11 +118,35 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "luau-lang/luau"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "1set/starlet"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "sagiegurari/duckscript"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "luau-lang/luau"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "luau-lang/rfcs"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

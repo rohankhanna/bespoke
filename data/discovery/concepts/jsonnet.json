@@ -79,6 +79,30 @@
       "source_repo": "kubecfg/kubecfg",
       "status": "candidate-context",
       "text": "[![Go Report Card](https://goreportcard.com/badge/github.com/kubecfg/kubecfg)](https://goreportcard.com/report/github.com/kubecfg/kubecfg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "google/jsonnet",
+      "status": "candidate-context",
+      "text": "Jsonnet - The data templating language"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/jsonnet",
+      "status": "candidate-context",
+      "text": "![master branch build status badge](https://github.com/google/jsonnet/actions/workflows/build_and_test.yml/badge.svg?event=push&branch=master)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "monitoring-mixins/mixtool",
+      "status": "candidate-context",
+      "text": "mixtool is a helper for easily working with jsonnet mixins."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "monitoring-mixins/mixtool",
+      "status": "candidate-context",
+      "text": "> NOTE: This project is *alpha* stage. Flags, configuration, behavior and design may change significantly in following releases."
     }
   ],
   "candidate_glosses": [
@@ -117,6 +141,18 @@
       "source_repo": "kubecfg/kubecfg",
       "status": "candidate",
       "text": "[![Go Report Card](https://goreportcard.com/badge/github.com/kubecfg/kubecfg)](https://goreportcard.com/report/github.com/kubecfg/kubecfg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/jsonnet",
+      "status": "candidate",
+      "text": "![master branch build status badge](https://github.com/google/jsonnet/actions/workflows/build_and_test.yml/badge.svg?event=push&branch=master)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "monitoring-mixins/mixtool",
+      "status": "candidate",
+      "text": "> NOTE: This project is *alpha* stage. Flags, configuration, behavior and design may change significantly in following releases."
     }
   ],
   "candidate_related_terms": [],
@@ -184,11 +220,35 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "vmware-archive/kubecfg"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "google/jsonnet"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "bitnami/kube-libsonnet"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "vmware-archive/kubecfg"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "monitoring-mixins/mixtool"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

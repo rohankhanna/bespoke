@@ -1,0 +1,86 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "bigscience-workshop/bigscience",
+      "target": "bigscience-workshop/megatron-deepspeed",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bigscience-workshop/bigscience",
+      "target": "machine-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bigscience-workshop/bigscience",
+      "target": "models",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bigscience-workshop/bigscience",
+      "target": "training",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T02:03:52.548760+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5117
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Central place for the engineering/scaling WG: documentation, SLURM scripts and logs, compute environment and data.",
+    "fork": false,
+    "full_name": "bigscience-workshop/bigscience",
+    "html_url": "https://github.com/bigscience-workshop/bigscience",
+    "language": "Shell",
+    "pushed_at": "2024-07-29T17:13:38Z",
+    "stargazers_count": 1013,
+    "topics": [
+      "machine-learning",
+      "models",
+      "nlp",
+      "training"
+    ],
+    "updated_at": "2026-04-26T12:50:56Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "bigscience-workshop/megatron-deepspeed",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[Research workshop on large language models - The Summer of Language Models 21](https://bigscience.huggingface.co/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "machine-learning"
+    },
+    {
+      "context_snippet": "[Research workshop on large language models - The Summer of Language Models 21](https://bigscience.huggingface.co/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "models"
+    },
+    {
+      "context_snippet": "[Research workshop on large language models - The Summer of Language Models 21](https://bigscience.huggingface.co/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "training"
+    }
+  ]
+}

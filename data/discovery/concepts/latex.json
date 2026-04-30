@@ -55,6 +55,48 @@
       "source_repo": "lervag/vimtex",
       "status": "candidate-context",
       "text": "VimTeX is a modern [Vim](http://www.vim.org/) and [Neovim](https://neovim.io/)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "islandoftex/arara",
+      "status": "candidate-context",
+      "text": "arara is a TeX automation tool based on rules and directives. It gives you a way to enhance your TeX experience. This is a mirror repository."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "islandoftex/arara",
+      "status": "candidate-context",
+      "text": "![arara](https://i.stack.imgur.com/hjUsN.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jakewvincent/texmagic.nvim",
+      "status": "candidate-context",
+      "text": "![Banner](assets/images/banner.gif)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "astoff/digestif",
+      "status": "candidate-context",
+      "text": "A language server for TeX and friends"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "astoff/digestif",
+      "status": "candidate-context",
+      "text": "Digestif"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "retorquere/zotero-better-bibtex",
+      "status": "candidate-context",
+      "text": "Make Zotero effective for us LaTeX holdouts"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "retorquere/zotero-better-bibtex",
+      "status": "candidate-context",
+      "text": "Better BibTeX (BBT) is an extension for [Zotero](https://www.zotero.org) and (in principle) [Juris-M](https://juris-m.github.io) that makes it easier to manage bibliographic data, especially for people authoring documents using text-based toolchains (e.g. based on [LaTeX](https:\u2026"
     }
   ],
   "candidate_glosses": [
@@ -81,6 +123,30 @@
       "source_repo": "lervag/vimtex",
       "status": "candidate",
       "text": "VimTeX is a modern [Vim](http://www.vim.org/) and [Neovim](https://neovim.io/)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "islandoftex/arara",
+      "status": "candidate",
+      "text": "![arara](https://i.stack.imgur.com/hjUsN.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jakewvincent/texmagic.nvim",
+      "status": "candidate",
+      "text": "![Banner](assets/images/banner.gif)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "astoff/digestif",
+      "status": "candidate",
+      "text": "Digestif"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "retorquere/zotero-better-bibtex",
+      "status": "candidate",
+      "text": "Better BibTeX (BBT) is an extension for [Zotero](https://www.zotero.org) and (in principle) [Juris-M](https://juris-m.github.io) that makes it easier to manage bibliographic data, especially for people authoring documents using text-based toolchains (e.g. based on [LaTeX](https:\u2026"
     }
   ],
   "candidate_related_terms": [
@@ -163,11 +229,35 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "lervag/vimtex"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "islandoftex/arara"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "jakewvincent/texmagic.nvim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "astoff/digestif"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "retorquere/zotero-better-bibtex"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

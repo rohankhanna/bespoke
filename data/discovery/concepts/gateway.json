@@ -67,6 +67,54 @@
       "source_repo": "anacrolix/btlink",
       "status": "candidate-context",
       "text": "btlink is a peer-to-peer web hosting implementation. It uses constructs provided by BitTorrent and the BitTorrent DHT to handle DNS and serve websites. It supports domain certificates, subdomains, origin isolation and CORS. btlink can be progressively integrated, starting from n\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mozilla-ai/otari",
+      "status": "candidate-context",
+      "text": " This gateway is a standalone service that proxies LLM requests with API key management, budget enforcement, usage tracking, and OpenAI-compatible endpoints."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mozilla-ai/otari",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apollographql/federation",
+      "status": "candidate-context",
+      "text": "\ud83c\udf10 \u00a0Build and scale a single data graph across multiple services with Apollo's federation gateway."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apollographql/federation",
+      "status": "candidate-context",
+      "text": "<img src=\"https://raw.githubusercontent.com/apollographql/space-kit/main/src/illustrations/svgs/rocket1.svg\" width=\"100%\" height=\"144\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apollographql/router",
+      "status": "candidate-context",
+      "text": "A configurable, high-performance routing runtime for Apollo Federation \ud83d\ude80"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apollographql/router",
+      "status": "candidate-context",
+      "text": "<a href=\"#\"><img src=\"https://raw.githubusercontent.com/apollographql/space-kit/main/src/illustrations/svgs/satellite1.svg\" width=\"100%\" height=\"144\"></a>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apache/apisix-go-plugin-runner",
+      "status": "candidate-context",
+      "text": "Go Plugin Runner for APISIX"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/apisix-go-plugin-runner",
+      "status": "candidate-context",
+      "text": "<!--"
     }
   ],
   "candidate_glosses": [
@@ -99,6 +147,30 @@
       "source_repo": "anacrolix/btlink",
       "status": "candidate",
       "text": "btlink is a peer-to-peer web hosting implementation. It uses constructs provided by BitTorrent and the BitTorrent DHT to handle DNS and serve websites. It supports domain certificates, subdomains, origin isolation and CORS. btlink can be progressively integrated, starting from n\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mozilla-ai/otari",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apollographql/federation",
+      "status": "candidate",
+      "text": "<img src=\"https://raw.githubusercontent.com/apollographql/space-kit/main/src/illustrations/svgs/rocket1.svg\" width=\"100%\" height=\"144\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apollographql/router",
+      "status": "candidate",
+      "text": "<a href=\"#\"><img src=\"https://raw.githubusercontent.com/apollographql/space-kit/main/src/illustrations/svgs/satellite1.svg\" width=\"100%\" height=\"144\"></a>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/apisix-go-plugin-runner",
+      "status": "candidate",
+      "text": "<!--"
     }
   ],
   "candidate_related_terms": [
@@ -172,11 +244,35 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "anacrolix/btlink"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "mozilla-ai/otari"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "apollographql/federation"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "apollographql/router"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "apache/apisix-go-plugin-runner"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Build (on pull request)"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "quarkiverse/quarkus-langchain4j",
+      "status": "candidate-context",
+      "text": "Quarkus Langchain4j extension"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "quarkiverse/quarkus-langchain4j",
+      "status": "candidate-context",
+      "text": "Build (on pull request)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "quarkiverse/quarkus-langchain4j",
+      "status": "candidate",
+      "text": "Build (on pull request)"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11665,
+      "status": "candidate",
+      "text": "collect"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11665,
+      "status": "candidate",
+      "text": "compile"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11665,
+      "status": "candidate",
+      "text": "draw"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11665,
+      "status": "candidate",
+      "text": "escape"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11665,
+      "status": "candidate",
+      "text": "gain"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Build (on pull request)",
+  "concept_id": "build-on-pull-request",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/build-pull-request.yml",
+      "source_repo": "quarkiverse/quarkus-langchain4j"
+    }
+  ],
+  "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Build (on pull request)",
+      "sense_id": "build-on-pull-request#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

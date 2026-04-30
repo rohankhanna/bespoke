@@ -1,0 +1,127 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Helsinki-NLP/OPUS-MT-train",
+      "target": "helsinki-nlp/opus-mt",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Helsinki-NLP/OPUS-MT-train",
+      "target": "helsinki-nlp/tatoeba-challenge",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Helsinki-NLP/OPUS-MT-train",
+      "target": "robertostling/eflomal",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Helsinki-NLP/OPUS-MT-train",
+      "target": "language-technology",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Helsinki-NLP/OPUS-MT-train",
+      "target": "machine-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Helsinki-NLP/OPUS-MT-train",
+      "target": "machine-translation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Helsinki-NLP/OPUS-MT-train",
+      "target": "natural-language-processing",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T02:04:35.134193+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4523
+    },
+    {
+      "path": "requirements.txt",
+      "size": 69
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Training open neural machine translation models",
+    "fork": false,
+    "full_name": "Helsinki-NLP/OPUS-MT-train",
+    "html_url": "https://github.com/Helsinki-NLP/OPUS-MT-train",
+    "language": "Makefile",
+    "pushed_at": "2026-01-17T16:06:17Z",
+    "stargazers_count": 402,
+    "topics": [
+      "language-technology",
+      "machine-learning",
+      "machine-translation",
+      "natural-language-processing"
+    ],
+    "updated_at": "2026-03-30T15:49:17Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "helsinki-nlp/opus-mt",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "helsinki-nlp/tatoeba-challenge",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "robertostling/eflomal",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "This package includes scripts for training NMT models using MarianNMT and OPUS data for [OPUS-MT](https://github.com/Helsinki-NLP/Opus-MT). More details are given in the [Makefile](Makefile) but documentation needs to be improved. Also, the targets require a specific environment\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "language-technology"
+    },
+    {
+      "context_snippet": "This package includes scripts for training NMT models using MarianNMT and OPUS data for [OPUS-MT](https://github.com/Helsinki-NLP/Opus-MT). More details are given in the [Makefile](Makefile) but documentation needs to be improved. Also, the targets require a specific environment\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "machine-learning"
+    },
+    {
+      "context_snippet": "This package includes scripts for training NMT models using MarianNMT and OPUS data for [OPUS-MT](https://github.com/Helsinki-NLP/Opus-MT). More details are given in the [Makefile](Makefile) but documentation needs to be improved. Also, the targets require a specific environment\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "machine-translation"
+    },
+    {
+      "context_snippet": "This package includes scripts for training NMT models using MarianNMT and OPUS data for [OPUS-MT](https://github.com/Helsinki-NLP/Opus-MT). More details are given in the [Makefile](Makefile) but documentation needs to be improved. Also, the targets require a specific environment\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "natural-language-processing"
+    }
+  ]
+}

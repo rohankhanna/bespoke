@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Expression language and expression evaluation for Go"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<h1><a href=\"https://expr-lang.org\"><img src=\"https://expr-lang.org/img/logo.png\" alt=\"Zx logo\" height=\"48\"align=\"right\"></a> Expr</h1>"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<h1><a href=\"https://expr-lang.org\"><img src=\"https://expr-lang.org/img/logo.png\" alt=\"Zx logo\" height=\"48\"align=\"right\"></a> Expr</h1>"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "golang",
+      "sense_id": "golang#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "golang",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "golang",
+  "observation_id": "6cb8c258fb34dbe2",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T00:37:16.824464+00:00",
+  "observed_text": "golang",
+  "source_context_snippet": "<h1><a href=\"https://expr-lang.org\"><img src=\"https://expr-lang.org/img/logo.png\" alt=\"Zx logo\" height=\"48\"align=\"right\"></a> Expr</h1>",
+  "source_file": null,
+  "source_repo": "expr-lang/expr",
+  "source_repo_description": "Expression language and expression evaluation for Go"
+}

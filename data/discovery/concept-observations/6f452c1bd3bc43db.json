@@ -84,7 +84,7 @@
   "normalized_form": "build-binaries",
   "observation_id": "6f452c1bd3bc43db",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-04-24T12:33:41.350224+00:00",
+  "observed_at": "2026-04-30T00:37:16.824464+00:00",
   "observed_text": "Build binaries",
   "source_context_snippet": "\"Build binaries\"",
   "source_file": ".github/workflows/build-binaries.yml",

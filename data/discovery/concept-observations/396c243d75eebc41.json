@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Selecting and copy-pasting in terminal using Vimium-like hint mode."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Automated dependency updates"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Automated dependency updates"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17800,
+      "status": "candidate",
+      "text": "module"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17725,
+      "status": "candidate",
+      "text": "chip"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17725,
+      "status": "candidate",
+      "text": "computer"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17725,
+      "status": "candidate",
+      "text": "cozy"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17725,
+      "status": "candidate",
+      "text": "credit"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Automated dependency updates",
+      "sense_id": "automated-dependency-updates#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "automated-dependency-updates",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "automated-dependency-updates",
+  "observation_id": "396c243d75eebc41",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-30T00:37:16.824464+00:00",
+  "observed_text": "Automated dependency updates",
+  "source_context_snippet": "Automated dependency updates",
+  "source_file": ".github/workflows/automated-dependency-updates.yaml",
+  "source_repo": "RTBHOUSE/tmux-picker",
+  "source_repo_description": "Selecting and copy-pasting in terminal using Vimium-like hint mode."
+}

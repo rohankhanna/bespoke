@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "laplace-approximation"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "fehiepsi/rethinking-numpyro",
+      "status": "candidate-context",
+      "text": "Statistical Rethinking (2nd ed.) with NumPyro"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fehiepsi/rethinking-numpyro",
+      "status": "candidate-context",
+      "text": "[![Test Status](https://github.com/fehiepsi/rethinking-numpyro/workflows/CI/badge.svg)](https://github.com/fehiepsi/rethinking-numpyro/actions)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fehiepsi/rethinking-numpyro",
+      "status": "candidate",
+      "text": "[![Test Status](https://github.com/fehiepsi/rethinking-numpyro/workflows/CI/badge.svg)](https://github.com/fehiepsi/rethinking-numpyro/actions)"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "laplace-approximation",
+  "concept_id": "laplace-approximation",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "fehiepsi/rethinking-numpyro"
+    }
+  ],
+  "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "laplace-approximation",
+      "sense_id": "laplace-approximation#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

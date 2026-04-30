@@ -31,6 +31,42 @@
       "source_repo": "liuchengxu/space-vim",
       "status": "candidate-context",
       "text": "<p align=\"left\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "liuchengxu/space-vim-dark",
+      "status": "candidate-context",
+      "text": ":purple_heart: A dark colorscheme for space-vim, see space-vim-theme for light background support!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "liuchengxu/space-vim-dark",
+      "status": "candidate-context",
+      "text": "space-vim-dark"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "liuchengxu/vim-better-default",
+      "status": "candidate-context",
+      "text": ":art: Simplify your .vimrc and make the default vim better"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "liuchengxu/vim-better-default",
+      "status": "candidate-context",
+      "text": "vim-better-default"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "liuchengxu/vim-which-key",
+      "status": "candidate-context",
+      "text": ":tulip: Vim plugin that shows keybindings in popup"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "liuchengxu/vim-which-key",
+      "status": "candidate-context",
+      "text": "<!-- TOC GFM -->"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +81,24 @@
       "source_repo": "liuchengxu/space-vim",
       "status": "candidate",
       "text": "<p align=\"left\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "liuchengxu/space-vim-dark",
+      "status": "candidate",
+      "text": "space-vim-dark"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "liuchengxu/vim-better-default",
+      "status": "candidate",
+      "text": "vim-better-default"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "liuchengxu/vim-which-key",
+      "status": "candidate",
+      "text": "<!-- TOC GFM -->"
     }
   ],
   "candidate_related_terms": [],
@@ -64,11 +118,29 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "liuchengxu/space-vim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "liuchengxu/space-vim-dark"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "liuchengxu/vim-better-default"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "liuchengxu/vim-which-key"
     }
   ],
   "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,7 +1,7 @@
 {
   "component": "actions/setup-java@v4",
   "first_seen_at": "2026-04-17T18:04:43.852571+00:00",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -907,6 +907,191 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/android-e2e-maestro.yml",
       "source_repo": "artsy/eigen"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/libnrepl.yml",
+      "source_repo": "nrepl/nrepl"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "libevent/libevent"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "bumptech/glide"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/publish-manual.yml",
+      "source_repo": "bumptech/glide"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "apache/flink-kubernetes-operator"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/docs.yaml",
+      "source_repo": "apache/flink-kubernetes-operator"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/e2e.yaml",
+      "source_repo": "apache/flink-kubernetes-operator"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/publish_snapshot.yml",
+      "source_repo": "apache/flink-kubernetes-operator"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "autodeployai/pmml4s"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "alexklibisz/elastiknn"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "alexklibisz/elastiknn"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-pull-request.yml",
+      "source_repo": "quarkiverse/quarkus-langchain4j"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "googleapis/java-bigquery"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/samples.yaml",
+      "source_repo": "googleapis/java-bigquery"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/samples.yaml",
+      "source_repo": "googleapis/java-bigquerystorage"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "googleapis/java-bigtable"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/conformance.yaml",
+      "source_repo": "googleapis/java-bigtable"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/samples.yaml",
+      "source_repo": "googleapis/java-bigtable"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/unmanaged_dependency_check.yaml",
+      "source_repo": "googleapis/java-bigtable"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "extism/chicory-sdk"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "edn-query-language/eql"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/android.yml",
+      "source_repo": "nativium/nativium"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/kotlin-android.yml",
+      "source_repo": "xplpc/xplpc"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/edgetest.yml",
+      "source_repo": "capitalone/datacompy"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/maven.yml",
+      "source_repo": "padreati/rapaio"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/coverage.yml",
+      "source_repo": "apache/rocketmq"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/integration-test.yml",
+      "source_repo": "apache/rocketmq"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/maven.yaml",
+      "source_repo": "apache/rocketmq"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/snapshot-automation.yml",
+      "source_repo": "apache/rocketmq"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/analysis.yml",
+      "source_repo": "ClickHouse/clickhouse-java"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/benchmarks.yml",
+      "source_repo": "ClickHouse/clickhouse-java"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "ClickHouse/clickhouse-java"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/nightly.yml",
+      "source_repo": "ClickHouse/clickhouse-java"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "ClickHouse/clickhouse-java"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/run_examples.yml",
+      "source_repo": "ClickHouse/clickhouse-java"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "guyboertje/jrjackson"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "buildfoundation/bazel_rules_detekt"
     }
   ]
 }

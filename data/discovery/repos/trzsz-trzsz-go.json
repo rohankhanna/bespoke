@@ -1,0 +1,243 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gotest.yml"
+    },
+    {
+      "component": "actions/setup-go@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gotest.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gotest.yml"
+    },
+    {
+      "component": "actions/setup-go@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gotest.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gotest.yml"
+    },
+    {
+      "component": "actions/setup-go@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gotest.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gotest.yml"
+    },
+    {
+      "component": "actions/setup-go@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gotest.yml"
+    },
+    {
+      "component": "goreleaser/goreleaser-action@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gotest.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "actions/setup-go@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "goreleaser/goreleaser-action@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "softprops/action-gh-release@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gotest.yml",
+      "source_repo": "trzsz/trzsz-go",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gotest.yml",
+      "source_repo": "trzsz/trzsz-go",
+      "target": "actions/setup-go@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gotest.yml",
+      "source_repo": "trzsz/trzsz-go",
+      "target": "goreleaser/goreleaser-action@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/gotest.yml",
+      "source_repo": "trzsz/trzsz-go",
+      "target": "Go test trzsz-go",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "trzsz/trzsz-go",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "trzsz/trzsz-go",
+      "target": "actions/setup-go@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "trzsz/trzsz-go",
+      "target": "goreleaser/goreleaser-action@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "trzsz/trzsz-go",
+      "target": "softprops/action-gh-release@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "trzsz/trzsz-go",
+      "target": "Release and publish trzsz-go",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "trzsz/trzsz-go",
+      "target": "lrzsz",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "trzsz/trzsz-go",
+      "target": "tmux",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "trzsz/trzsz-go",
+      "target": "trzsz",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "trzsz/trzsz-go",
+      "target": "zmodem",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T04:58:18.793075+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9649
+    },
+    {
+      "path": "go.mod",
+      "size": 1756
+    },
+    {
+      "path": ".github/workflows/gotest.yml",
+      "size": 1357
+    },
+    {
+      "path": ".github/workflows/publish.yml",
+      "size": 1173
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "trzsz-go is the go version of trzsz, makes all terminals that support local shell to support trzsz ( trz / tsz ).",
+    "fork": false,
+    "full_name": "trzsz/trzsz-go",
+    "html_url": "https://github.com/trzsz/trzsz-go",
+    "language": "Go",
+    "pushed_at": "2026-04-10T16:50:38Z",
+    "stargazers_count": 1030,
+    "topics": [
+      "lrzsz",
+      "rz",
+      "sz",
+      "tmux",
+      "trz",
+      "trzsz",
+      "tsz",
+      "zmodem"
+    ],
+    "updated_at": "2026-04-29T01:34:27Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Go test trzsz-go",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/gotest.yml",
+      "term": "Go test trzsz-go"
+    },
+    {
+      "context_snippet": "Release and publish trzsz-go",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish.yml",
+      "term": "Release and publish trzsz-go"
+    },
+    {
+      "context_snippet": "[![MIT License](https://img.shields.io/badge/license-MIT-green.svg?style=flat)](https://choosealicense.com/licenses/mit/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "lrzsz"
+    },
+    {
+      "context_snippet": "[![MIT License](https://img.shields.io/badge/license-MIT-green.svg?style=flat)](https://choosealicense.com/licenses/mit/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tmux"
+    },
+    {
+      "context_snippet": "[![MIT License](https://img.shields.io/badge/license-MIT-green.svg?style=flat)](https://choosealicense.com/licenses/mit/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "trzsz"
+    },
+    {
+      "context_snippet": "[![MIT License](https://img.shields.io/badge/license-MIT-green.svg?style=flat)](https://choosealicense.com/licenses/mit/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "zmodem"
+    }
+  ]
+}

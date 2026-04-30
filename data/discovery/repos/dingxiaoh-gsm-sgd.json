@@ -1,0 +1,77 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "DingXiaoH/GSM-SGD",
+      "target": "tensorflow/benchmarks",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "DingXiaoH/GSM-SGD",
+      "target": "dingxiaoh/repoptimizers",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "DingXiaoH/GSM-SGD",
+      "target": "dingxiaoh/repmlp",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "DingXiaoH/GSM-SGD",
+      "target": "dingxiaoh/resrep",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T03:46:01.754285+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8419
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Global Sparse Momentum SGD for pruning very deep neural networks",
+    "fork": false,
+    "full_name": "DingXiaoH/GSM-SGD",
+    "html_url": "https://github.com/DingXiaoH/GSM-SGD",
+    "language": "Python",
+    "pushed_at": "2022-09-08T09:09:54Z",
+    "stargazers_count": 44,
+    "topics": [],
+    "updated_at": "2026-02-15T06:48:01Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dingxiaoh/repmlp",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dingxiaoh/repoptimizers",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dingxiaoh/resrep",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "tensorflow/benchmarks",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

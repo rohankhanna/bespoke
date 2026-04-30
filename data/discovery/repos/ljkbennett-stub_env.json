@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T00:53:40.320265+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2152
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "RSpec helper for stubbing ENV values",
+    "fork": false,
+    "full_name": "ljkbennett/stub_env",
+    "html_url": "https://github.com/ljkbennett/stub_env",
+    "language": "Ruby",
+    "pushed_at": "2025-10-02T10:26:05Z",
+    "stargazers_count": 34,
+    "topics": [],
+    "updated_at": "2025-12-01T17:06:47Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

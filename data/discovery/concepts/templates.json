@@ -103,6 +103,30 @@
       "source_repo": "pallets/jinja",
       "status": "candidate-context",
       "text": "<div align=\"center\"><img src=\"https://raw.githubusercontent.com/pallets/jinja/refs/heads/stable/docs/_static/jinja-name.svg\" alt=\"\" height=\"150\"></div>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Kim2091/chaiNNer-Templates",
+      "status": "candidate-context",
+      "text": "Pre-made chains/templates for chaiNNer. Pytorch, NCNN, and ONNX included."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Kim2091/chaiNNer-Templates",
+      "status": "candidate-context",
+      "text": "[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/J3J3BCC3L)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jonschlinkert/whence",
+      "status": "candidate-context",
+      "text": "Add context awareness to your apps and frameworks by safely evaluating user-defined conditional expressions. Useful for evaluating expressions in config files, prompts, key bindings, completions, templates, and many other user cases."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jonschlinkert/whence",
+      "status": "candidate-context",
+      "text": "> Add context awareness to your apps and frameworks by safely evaluating user-defined conditional expressions. Useful for evaluating expressions in config files, prompts, key bindings, completions, templates, and many other user cases."
     }
   ],
   "candidate_glosses": [
@@ -153,6 +177,18 @@
       "source_repo": "pallets/jinja",
       "status": "candidate",
       "text": "<div align=\"center\"><img src=\"https://raw.githubusercontent.com/pallets/jinja/refs/heads/stable/docs/_static/jinja-name.svg\" alt=\"\" height=\"150\"></div>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Kim2091/chaiNNer-Templates",
+      "status": "candidate",
+      "text": "[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/J3J3BCC3L)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jonschlinkert/whence",
+      "status": "candidate",
+      "text": "> Add context awareness to your apps and frameworks by safely evaluating user-defined conditional expressions. Useful for evaluating expressions in config files, prompts, key bindings, completions, templates, and many other user cases."
     }
   ],
   "candidate_related_terms": [
@@ -250,11 +286,23 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "pallets/jinja"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "Kim2091/chaiNNer-Templates"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "jonschlinkert/whence"
     }
   ],
   "first_seen_at": "2026-04-22T04:41:58.081535+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

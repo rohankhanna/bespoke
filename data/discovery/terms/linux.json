@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "sources": [
     {
       "discovered_via": "repo-topic",
@@ -611,6 +611,106 @@
       "discovered_via": "repo-topic",
       "source_file": null,
       "source_repo": "Swordfish90/cool-retro-term"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "pacstall/pacstall"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/linux.yml",
+      "source_repo": "xmake-io/xmake"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "xmake-io/xmake"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "miurahr/aqtinstall"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "aws/amazon-q-developer-cli"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "2KAbhishek/awesome2k"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/linux.yml",
+      "source_repo": "ClickHouse/clickhouse-cpp"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/linux.yml",
+      "source_repo": "raku-community-modules/Terminal-WCWidth"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/linux.yml",
+      "source_repo": "google/glog"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "NVIDIA/gdrcopy"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "gershnik/wsdd-native"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "AmberSahdev/Open-Interface"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "NiLuJe/FBInk"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "parlance-zz/g-diffuser-bot"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "PowerShell/PowerShell"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "watchexec/watchexec"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/linux.yml",
+      "source_repo": "nativium/nativium"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "boostorg/beast"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "tmux-plugins/tmux-yank"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/linux.yml",
+      "source_repo": "ng-log/ng-log"
     }
   ],
   "term": "linux"

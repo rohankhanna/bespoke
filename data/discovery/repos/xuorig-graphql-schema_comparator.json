@@ -1,0 +1,115 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "ruby/setup-ruby@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "xuorig/graphql-schema_comparator",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "xuorig/graphql-schema_comparator",
+      "target": "ruby/setup-ruby@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "xuorig/graphql-schema_comparator",
+      "target": "Tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "xuorig/graphql-schema_comparator",
+      "target": "graphql",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "xuorig/graphql-schema_comparator",
+      "target": "graphql-ruby",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "xuorig/graphql-schema_comparator",
+      "target": "schema-idl",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T04:03:02.757163+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3465
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 503
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Get changes between two GraphQL schemas \ud83e\udd16",
+    "fork": false,
+    "full_name": "xuorig/graphql-schema_comparator",
+    "html_url": "https://github.com/xuorig/graphql-schema_comparator",
+    "language": "Ruby",
+    "pushed_at": "2023-10-27T15:54:29Z",
+    "stargazers_count": 269,
+    "topics": [
+      "cli",
+      "graphql",
+      "graphql-ruby",
+      "schema-idl"
+    ],
+    "updated_at": "2025-12-30T16:49:18Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "term": "Tests"
+    },
+    {
+      "context_snippet": "![Build status](https://github.com/xuorig/graphql-schema_comparator/actions/workflows/ci.yml/badge.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "graphql"
+    },
+    {
+      "context_snippet": "![Build status](https://github.com/xuorig/graphql-schema_comparator/actions/workflows/ci.yml/badge.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "graphql-ruby"
+    },
+    {
+      "context_snippet": "![Build status](https://github.com/xuorig/graphql-schema_comparator/actions/workflows/ci.yml/badge.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "schema-idl"
+    }
+  ]
+}

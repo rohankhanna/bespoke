@@ -1,0 +1,112 @@
+{
+  "aliases": [
+    "starlark-go"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "1set/starlet",
+      "status": "candidate-context",
+      "text": "\u2728 Yet another Go wrapper for Starlark that simplifies usage, offers data conversion and useful Starlark libraries"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "1set/starlet",
+      "status": "candidate-context",
+      "text": "[![godoc](https://pkg.go.dev/badge/github.com/1set/starlet.svg)](https://pkg.go.dev/github.com/1set/starlet)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "caketop/python-starlark-go",
+      "status": "candidate-context",
+      "text": "\ud83d\udc0d Python bindings for starlark-go \ud83d\udc0d"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "caketop/python-starlark-go",
+      "status": "candidate-context",
+      "text": "[![PyPI](https://img.shields.io/pypi/v/starlark-go)](https://pypi.org/project/starlark-go/)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ColdHeat/pystarlark",
+      "status": "candidate-context",
+      "text": "Experimental Python bindings for starlark-go"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ColdHeat/pystarlark",
+      "status": "candidate-context",
+      "text": "[![PyPI](https://img.shields.io/pypi/v/pystarlark)](https://pypi.org/project/pystarlark/)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "1set/starlet",
+      "status": "candidate",
+      "text": "[![godoc](https://pkg.go.dev/badge/github.com/1set/starlet.svg)](https://pkg.go.dev/github.com/1set/starlet)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "caketop/python-starlark-go",
+      "status": "candidate",
+      "text": "[![PyPI](https://img.shields.io/pypi/v/starlark-go)](https://pypi.org/project/starlark-go/)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ColdHeat/pystarlark",
+      "status": "candidate",
+      "text": "[![PyPI](https://img.shields.io/pypi/v/pystarlark)](https://pypi.org/project/pystarlark/)"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "starlark-go",
+  "concept_id": "starlark-go",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "1set/starlet"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "caketop/python-starlark-go"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "ColdHeat/pystarlark"
+    }
+  ],
+  "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "starlark-go",
+      "sense_id": "starlark-go#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

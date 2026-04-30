@@ -1,0 +1,209 @@
+{
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/org-inactive-user-management.yml",
+      "source_repo": "cloudfoundry/community",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/org-inactive-user-management.yml",
+      "source_repo": "cloudfoundry/community",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/org-inactive-user-management.yml",
+      "source_repo": "cloudfoundry/community",
+      "target": "astral-sh/setup-uv@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/org-inactive-user-management.yml",
+      "source_repo": "cloudfoundry/community",
+      "target": "peter-evans/create-pull-request@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/org-inactive-user-management.yml",
+      "source_repo": "cloudfoundry/community",
+      "target": "Delete Inactive Users in Github Organization",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/org-management-check-prs.yml",
+      "source_repo": "cloudfoundry/community",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/org-management-check-prs.yml",
+      "source_repo": "cloudfoundry/community",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/org-management-check-prs.yml",
+      "source_repo": "cloudfoundry/community",
+      "target": "astral-sh/setup-uv@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/org-management-check-prs.yml",
+      "source_repo": "cloudfoundry/community",
+      "target": "Check Github Organization Settings PRs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/org-management-ci.yml",
+      "source_repo": "cloudfoundry/community",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/org-management-ci.yml",
+      "source_repo": "cloudfoundry/community",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/org-management-ci.yml",
+      "source_repo": "cloudfoundry/community",
+      "target": "astral-sh/setup-uv@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/org-management-ci.yml",
+      "source_repo": "cloudfoundry/community",
+      "target": "Org Automation CI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/org-management-peribolos-dump.yml",
+      "source_repo": "cloudfoundry/community",
+      "target": "actions/cache@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/org-management-peribolos-dump.yml",
+      "source_repo": "cloudfoundry/community",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/org-management-peribolos-dump.yml",
+      "source_repo": "cloudfoundry/community",
+      "target": "docker://gcr.io/k8s-prow/peribolos",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/org-management-peribolos-dump.yml",
+      "source_repo": "cloudfoundry/community",
+      "target": "peter-evans/create-pull-request@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/org-management-peribolos-dump.yml",
+      "source_repo": "cloudfoundry/community",
+      "target": "Dump Github Organization Settings",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/org-management.yml",
+      "source_repo": "cloudfoundry/community",
+      "target": "actions/cache@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/org-management.yml",
+      "source_repo": "cloudfoundry/community",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/org-management.yml",
+      "source_repo": "cloudfoundry/community",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/org-management.yml",
+      "source_repo": "cloudfoundry/community",
+      "target": "astral-sh/setup-uv@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/org-management.yml",
+      "source_repo": "cloudfoundry/community",
+      "target": "docker://gcr.io/k8s-prow/peribolos",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/org-management.yml",
+      "source_repo": "cloudfoundry/community",
+      "target": "docker://gcr.io/k8s-prow/branchprotector",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/org-management.yml",
+      "source_repo": "cloudfoundry/community",
+      "target": "Sync Github Organization Settings",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/project-sync.yml",
+      "source_repo": "cloudfoundry/community",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/project-sync.yml",
+      "source_repo": "cloudfoundry/community",
+      "target": "Sync working group project boards",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/remove-individual-access.yml",
+      "source_repo": "cloudfoundry/community",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/remove-individual-access.yml",
+      "source_repo": "cloudfoundry/community",
+      "target": "Remove individual access to repos",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-30T00:37:16.824464+00:00",
+  "source_repo": "cloudfoundry/community"
+}

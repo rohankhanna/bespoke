@@ -6,7 +6,9 @@
   "ambiguity_status": "unresolved",
   "buckets": [
     "workflow-process",
-    "data-document-artifact"
+    "data-document-artifact",
+    "tool-component",
+    "capability"
   ],
   "candidate_definitions": [
     {
@@ -80,6 +82,54 @@
       "source_repo": "nx10/httpgd",
       "status": "candidate-context",
       "text": "test-coverage"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nx10/unigd",
+      "status": "candidate-context",
+      "text": "Unified graphics device"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nx10/unigd",
+      "status": "candidate-context",
+      "text": "test-coverage"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "crossbario/autobahn-testsuite",
+      "status": "candidate-context",
+      "text": "Autobahn WebSocket protocol testsuite"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "crossbario/autobahn-testsuite",
+      "status": "candidate-context",
+      "text": "WebSocket protocol implementation conformance test suite."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "r-lib/covr",
+      "status": "candidate-context",
+      "text": "Test coverage reports for R"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "r-lib/covr",
+      "status": "candidate-context",
+      "text": "test-coverage"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "r-lib/remotes",
+      "status": "candidate-context",
+      "text": "Install R packages from GitHub, GitLab, Bitbucket, git, svn repositories, URLs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "r-lib/remotes",
+      "status": "candidate-context",
+      "text": "test-coverage"
     }
   ],
   "candidate_glosses": [
@@ -116,6 +166,30 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "nx10/httpgd",
+      "status": "candidate",
+      "text": "test-coverage"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nx10/unigd",
+      "status": "candidate",
+      "text": "test-coverage"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "crossbario/autobahn-testsuite",
+      "status": "candidate",
+      "text": "WebSocket protocol implementation conformance test suite."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "r-lib/covr",
+      "status": "candidate",
+      "text": "test-coverage"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "r-lib/remotes",
       "status": "candidate",
       "text": "test-coverage"
     }
@@ -197,11 +271,35 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": ".github/workflows/test-coverage.yaml",
       "source_repo": "nx10/httpgd"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/test-coverage.yaml",
+      "source_repo": "nx10/unigd"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "crossbario/autobahn-testsuite"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/test-coverage.yaml",
+      "source_repo": "r-lib/covr"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/test-coverage.yaml",
+      "source_repo": "r-lib/remotes"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

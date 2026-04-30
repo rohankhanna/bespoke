@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "An opinionated 2D game engine for Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![Integration status](https://github.com/hecrj/coffee/workflows/Integration/badge.svg)](https://github.com/hecrj/coffee/actions)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![Integration status](https://github.com/hecrj/coffee/workflows/Integration/badge.svg)](https://github.com/hecrj/coffee/actions)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "game-development",
+      "sense_id": "game-development#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "game-development",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "game-development",
+  "observation_id": "4f4a0088f995a053",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T00:37:16.824464+00:00",
+  "observed_text": "game-development",
+  "source_context_snippet": "[![Integration status](https://github.com/hecrj/coffee/workflows/Integration/badge.svg)](https://github.com/hecrj/coffee/actions)",
+  "source_file": null,
+  "source_repo": "hecrj/coffee",
+  "source_repo_description": "An opinionated 2D game engine for Rust"
+}

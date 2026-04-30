@@ -1,0 +1,293 @@
+{
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cccl_nightly.yml",
+      "source_repo": "dmlc/xgboost",
+      "target": "actions/checkout@v6.0.2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_configure.yml",
+      "source_repo": "dmlc/xgboost",
+      "target": "aws-actions/amazon-ecr-login@v2.1.4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_configure.yml",
+      "source_repo": "dmlc/xgboost",
+      "target": "actions/checkout@v6.0.2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci_configure.yml",
+      "source_repo": "dmlc/xgboost",
+      "target": "Configure CI Variables",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/freebsd.yml",
+      "source_repo": "dmlc/xgboost",
+      "target": "actions/checkout@v6.0.2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/freebsd.yml",
+      "source_repo": "dmlc/xgboost",
+      "target": "vmactions/freebsd-vm@v1.4.5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/freebsd.yml",
+      "source_repo": "dmlc/xgboost",
+      "target": "FreeBSD",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/jvm_tests.yml",
+      "source_repo": "dmlc/xgboost",
+      "target": "actions/checkout@v6.0.2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/jvm_tests.yml",
+      "source_repo": "dmlc/xgboost",
+      "target": "runs-on/action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/jvm_tests.yml",
+      "source_repo": "dmlc/xgboost",
+      "target": "dmlc/xgboost-devops/actions/sccache@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/jvm_tests.yml",
+      "source_repo": "dmlc/xgboost",
+      "target": "actions/setup-java@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/jvm_tests.yml",
+      "source_repo": "dmlc/xgboost",
+      "target": "dmlc/xgboost-devops/actions/miniforge-setup@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/jvm_tests.yml",
+      "source_repo": "dmlc/xgboost",
+      "target": "actions/cache@v5.0.5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/jvm_tests.yml",
+      "source_repo": "dmlc/xgboost",
+      "target": "JVM Tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "dmlc/xgboost",
+      "target": "actions/checkout@v6.0.2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "dmlc/xgboost",
+      "target": "dmlc/xgboost-devops/actions/miniforge-setup@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "dmlc/xgboost",
+      "target": "XGBoost CI (Lint)",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "dmlc/xgboost",
+      "target": "actions/checkout@v6.0.2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "dmlc/xgboost",
+      "target": "dmlc/xgboost-devops/actions/sccache@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "dmlc/xgboost",
+      "target": "runs-on/action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "dmlc/xgboost",
+      "target": "actions/upload-artifact@v7.0.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "dmlc/xgboost",
+      "target": "Homebrew/actions/setup-homebrew@13341b4d5e459a98bbe0b122b12c11bf90518cc8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "dmlc/xgboost",
+      "target": "dmlc/xgboost-devops/actions/miniforge-setup@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "dmlc/xgboost",
+      "target": "actions/download-artifact@v8.0.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "dmlc/xgboost",
+      "target": "XGBoost CI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/misc.yml",
+      "source_repo": "dmlc/xgboost",
+      "target": "actions/checkout@v6.0.2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/misc.yml",
+      "source_repo": "dmlc/xgboost",
+      "target": "dmlc/xgboost-devops/actions/miniforge-setup@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/misc.yml",
+      "source_repo": "dmlc/xgboost",
+      "target": "dmlc/xgboost-devops/actions/sccache@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/misc.yml",
+      "source_repo": "dmlc/xgboost",
+      "target": "runs-on/action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/misc.yml",
+      "source_repo": "dmlc/xgboost",
+      "target": "Miscellaneous",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yml",
+      "source_repo": "dmlc/xgboost",
+      "target": "actions/checkout@v6.0.2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yml",
+      "source_repo": "dmlc/xgboost",
+      "target": "actions/setup-python@v6.2.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pre-commit.yml",
+      "source_repo": "dmlc/xgboost",
+      "target": "XGBoost CI (Pre-commit)",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python_tests.yml",
+      "source_repo": "dmlc/xgboost",
+      "target": "actions/checkout@v6.0.2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python_tests.yml",
+      "source_repo": "dmlc/xgboost",
+      "target": "dmlc/xgboost-devops/actions/miniforge-setup@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python_tests.yml",
+      "source_repo": "dmlc/xgboost",
+      "target": "actions/setup-python@v6.2.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dmlc/xgboost",
+      "target": "distributed-systems",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dmlc/xgboost",
+      "target": "gbdt",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dmlc/xgboost",
+      "target": "gbrt",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dmlc/xgboost",
+      "target": "machine-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dmlc/xgboost",
+      "target": "xgboost",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-30T00:37:16.824464+00:00",
+  "source_repo": "dmlc/xgboost"
+}

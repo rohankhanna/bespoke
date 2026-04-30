@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Github pull request labels"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "redhat-openshift-ecosystem/community-operators-prod",
+      "status": "candidate-context",
+      "text": "community-operators metadata backing OpenShift OperatorHub"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "redhat-openshift-ecosystem/community-operators-prod",
+      "status": "candidate-context",
+      "text": "Github pull request labels"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "redhat-openshift-ecosystem/community-operators-prod",
+      "status": "candidate",
+      "text": "Github pull request labels"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22030,
+      "status": "candidate",
+      "text": "mark"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21667,
+      "status": "candidate",
+      "text": "tags"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21155,
+      "status": "candidate",
+      "text": "ins"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20784,
+      "status": "candidate",
+      "text": "draw"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20784,
+      "status": "candidate",
+      "text": "fish"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Github pull request labels",
+  "concept_id": "github-pull-request-labels",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/pr-label-command.yml",
+      "source_repo": "redhat-openshift-ecosystem/community-operators-prod"
+    }
+  ],
+  "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Github pull request labels",
+      "sense_id": "github-pull-request-labels#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

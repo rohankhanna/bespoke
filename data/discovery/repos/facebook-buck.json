@@ -1,0 +1,101 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "facebook/buck",
+      "target": "facebook/buck2",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "facebook/buck",
+      "target": "android",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "facebook/buck",
+      "target": "buck",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "facebook/buck",
+      "target": "build-tool",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "facebook/buck",
+      "target": "java",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T04:52:21.498166+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3197
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "main",
+    "description": "A fast build system that encourages the creation of small, reusable modules over a variety of platforms and languages.",
+    "fork": false,
+    "full_name": "facebook/buck",
+    "html_url": "https://github.com/facebook/buck",
+    "language": "Java",
+    "pushed_at": "2023-10-25T02:45:11Z",
+    "stargazers_count": 8546,
+    "topics": [
+      "android",
+      "buck",
+      "build-tool",
+      "ios",
+      "java",
+      "python"
+    ],
+    "updated_at": "2026-04-29T05:49:58Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "facebook/buck2",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "This repo is dead.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "android"
+    },
+    {
+      "context_snippet": "This repo is dead.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "buck"
+    },
+    {
+      "context_snippet": "This repo is dead.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "build-tool"
+    },
+    {
+      "context_snippet": "This repo is dead.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "java"
+    }
+  ]
+}

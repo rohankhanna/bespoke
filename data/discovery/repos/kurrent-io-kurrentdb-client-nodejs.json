@@ -1,0 +1,539 @@
+{
+  "components": [
+    {
+      "component": "@tsconfig/node18",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@types/node",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@types/semver",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@typescript-eslint/eslint-plugin",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@typescript-eslint/parser",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "cross-env",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "eslint",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "eslint-plugin-tsdoc",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "nx",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "prettier",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "semver",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "typescript",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmark.yml"
+    },
+    {
+      "component": "actions/setup-node@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmark.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmark.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cherry-pick-pr-for-label.yml"
+    },
+    {
+      "component": "kurrent-io/Automations/cherry-pick-pr-for-label@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cherry-pick-pr-for-label.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/setup-node@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/setup-node@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "docker/login-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    },
+    {
+      "component": "docker/login-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    },
+    {
+      "component": "actions/setup-node@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "kurrent-io/KurrentDB-Client-NodeJS",
+      "target": "kurrent-io/kurrentdb-bridge-client",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "kurrent-io/KurrentDB-Client-NodeJS",
+      "target": "@tsconfig/node18",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "kurrent-io/KurrentDB-Client-NodeJS",
+      "target": "@types/node",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "kurrent-io/KurrentDB-Client-NodeJS",
+      "target": "@types/semver",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "kurrent-io/KurrentDB-Client-NodeJS",
+      "target": "@typescript-eslint/eslint-plugin",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "kurrent-io/KurrentDB-Client-NodeJS",
+      "target": "@typescript-eslint/parser",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "kurrent-io/KurrentDB-Client-NodeJS",
+      "target": "cross-env",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "kurrent-io/KurrentDB-Client-NodeJS",
+      "target": "eslint",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "kurrent-io/KurrentDB-Client-NodeJS",
+      "target": "eslint-plugin-tsdoc",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "kurrent-io/KurrentDB-Client-NodeJS",
+      "target": "nx",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "kurrent-io/KurrentDB-Client-NodeJS",
+      "target": "prettier",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "kurrent-io/KurrentDB-Client-NodeJS",
+      "target": "semver",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "kurrent-io/KurrentDB-Client-NodeJS",
+      "target": "typescript",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmark.yml",
+      "source_repo": "kurrent-io/KurrentDB-Client-NodeJS",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmark.yml",
+      "source_repo": "kurrent-io/KurrentDB-Client-NodeJS",
+      "target": "actions/setup-node@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmark.yml",
+      "source_repo": "kurrent-io/KurrentDB-Client-NodeJS",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/benchmark.yml",
+      "source_repo": "kurrent-io/KurrentDB-Client-NodeJS",
+      "target": "Benchmark",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-docs.yml",
+      "source_repo": "kurrent-io/KurrentDB-Client-NodeJS",
+      "target": "Build Production Site",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cherry-pick-pr-for-label.yml",
+      "source_repo": "kurrent-io/KurrentDB-Client-NodeJS",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cherry-pick-pr-for-label.yml",
+      "source_repo": "kurrent-io/KurrentDB-Client-NodeJS",
+      "target": "kurrent-io/Automations/cherry-pick-pr-for-label@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cherry-pick-pr-for-label.yml",
+      "source_repo": "kurrent-io/KurrentDB-Client-NodeJS",
+      "target": "Cherry pick PR commits for label",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/load-configuration.yml",
+      "source_repo": "kurrent-io/KurrentDB-Client-NodeJS",
+      "target": "Load KurrentDB Runtime Configuration",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "kurrent-io/KurrentDB-Client-NodeJS",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "kurrent-io/KurrentDB-Client-NodeJS",
+      "target": "actions/setup-node@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "kurrent-io/KurrentDB-Client-NodeJS",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "kurrent-io/KurrentDB-Client-NodeJS",
+      "target": "docker/login-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "kurrent-io/KurrentDB-Client-NodeJS",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "kurrent-io/KurrentDB-Client-NodeJS",
+      "target": "docker/login-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "kurrent-io/KurrentDB-Client-NodeJS",
+      "target": "actions/setup-node@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "kurrent-io/KurrentDB-Client-NodeJS",
+      "target": "Tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kurrent-io/KurrentDB-Client-NodeJS",
+      "target": "cqrs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kurrent-io/KurrentDB-Client-NodeJS",
+      "target": "event-sourcing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kurrent-io/KurrentDB-Client-NodeJS",
+      "target": "eventsourcing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kurrent-io/KurrentDB-Client-NodeJS",
+      "target": "grpc",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kurrent-io/KurrentDB-Client-NodeJS",
+      "target": "kurrent",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kurrent-io/KurrentDB-Client-NodeJS",
+      "target": "kurrentdb",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kurrent-io/KurrentDB-Client-NodeJS",
+      "target": "nodejs",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T02:58:11.282447+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3434
+    },
+    {
+      "path": "package.json",
+      "size": 1327
+    },
+    {
+      "path": ".github/workflows/benchmark.yml",
+      "size": 1335
+    },
+    {
+      "path": ".github/workflows/build-docs.yml",
+      "size": 253
+    },
+    {
+      "path": ".github/workflows/cherry-pick-pr-for-label.yml",
+      "size": 409
+    },
+    {
+      "path": ".github/workflows/load-configuration.yml",
+      "size": 1975
+    },
+    {
+      "path": ".github/workflows/main.yml",
+      "size": 2778
+    },
+    {
+      "path": ".github/workflows/qa.yml",
+      "size": 628
+    },
+    {
+      "path": ".github/workflows/tests.yml",
+      "size": 2257
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "KurrentDB NodeJS Client",
+    "fork": false,
+    "full_name": "kurrent-io/KurrentDB-Client-NodeJS",
+    "html_url": "https://github.com/kurrent-io/KurrentDB-Client-NodeJS",
+    "language": "JavaScript",
+    "pushed_at": "2026-04-23T02:48:41Z",
+    "stargazers_count": 176,
+    "topics": [
+      "cqrs",
+      "event-sourcing",
+      "eventsourcing",
+      "grpc",
+      "javascript",
+      "kurrent",
+      "kurrentdb",
+      "nodejs",
+      "typescript"
+    ],
+    "updated_at": "2026-04-29T17:59:31Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "kurrent-io/kurrentdb-bridge-client",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Benchmark",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/benchmark.yml",
+      "term": "Benchmark"
+    },
+    {
+      "context_snippet": "Build Production Site",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-docs.yml",
+      "term": "Build Production Site"
+    },
+    {
+      "context_snippet": "Cherry pick PR commits for label",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cherry-pick-pr-for-label.yml",
+      "term": "Cherry pick PR commits for label"
+    },
+    {
+      "context_snippet": "Load KurrentDB Runtime Configuration",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/load-configuration.yml",
+      "term": "Load KurrentDB Runtime Configuration"
+    },
+    {
+      "context_snippet": "Tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/tests.yml",
+      "term": "Tests"
+    },
+    {
+      "context_snippet": "<a href=\"https://kurrent.io\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cqrs"
+    },
+    {
+      "context_snippet": "<a href=\"https://kurrent.io\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "event-sourcing"
+    },
+    {
+      "context_snippet": "<a href=\"https://kurrent.io\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "eventsourcing"
+    },
+    {
+      "context_snippet": "<a href=\"https://kurrent.io\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "grpc"
+    },
+    {
+      "context_snippet": "<a href=\"https://kurrent.io\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "kurrent"
+    },
+    {
+      "context_snippet": "<a href=\"https://kurrent.io\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "kurrentdb"
+    },
+    {
+      "context_snippet": "<a href=\"https://kurrent.io\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nodejs"
+    }
+  ]
+}

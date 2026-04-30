@@ -1,147 +1,152 @@
 {
   "components": [
     {
-      "component": "actions/checkout@v6",
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/benchmark.yml"
     },
     {
-      "component": "actions/setup-python@v6",
+      "component": "actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/benchmark.yml"
     },
     {
-      "component": "actions/checkout@v6",
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/deploy.yml"
     },
     {
-      "component": "actions/setup-python@v6",
+      "component": "actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/deploy.yml"
     },
     {
-      "component": "pypa/cibuildwheel@v3.3",
+      "component": "pypa/cibuildwheel@8d2b08b68458a16aeb24b64e68a09ab1c8e82084",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/deploy.yml"
     },
     {
-      "component": "actions/upload-artifact@v7",
+      "component": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/deploy.yml"
     },
     {
-      "component": "actions/checkout@v6",
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/deploy.yml"
     },
     {
-      "component": "actions/setup-python@v6",
+      "component": "actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/deploy.yml"
     },
     {
-      "component": "actions/download-artifact@v8",
+      "component": "actions/download-artifact@3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/deploy.yml"
     },
     {
-      "component": "pypa/gh-action-pypi-publish@release/v1",
+      "component": "pypa/gh-action-pypi-publish@cef221092ed1bacb1cc03d23a2d87d1d172e277b",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/deploy.yml"
     },
     {
-      "component": "pypa/gh-action-pypi-publish@release/v1",
+      "component": "pypa/gh-action-pypi-publish@cef221092ed1bacb1cc03d23a2d87d1d172e277b",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/deploy.yml"
     },
     {
-      "component": "pypa/gh-action-pypi-publish@release/v1",
+      "component": "pypa/gh-action-pypi-publish@cef221092ed1bacb1cc03d23a2d87d1d172e277b",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/deploy.yml"
     },
     {
-      "component": "pypa/gh-action-pypi-publish@release/v1",
+      "component": "pypa/gh-action-pypi-publish@cef221092ed1bacb1cc03d23a2d87d1d172e277b",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/deploy.yml"
     },
     {
-      "component": "actions/checkout@v6",
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/fuzz.yml"
     },
     {
-      "component": "actions/setup-python@v6",
+      "component": "actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/fuzz.yml"
     },
     {
-      "component": "actions/checkout@v6",
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/labels.yml"
     },
     {
-      "component": "micnncim/action-label-syncer@v1",
+      "component": "micnncim/action-label-syncer@3abd5ab72fda571e69fffd97bd4e0033dd5f495c",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/labels.yml"
     },
     {
-      "component": "actions/checkout@v6",
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/lint.yml"
     },
     {
-      "component": "actions/setup-python@v6",
+      "component": "actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/lint.yml"
     },
     {
-      "component": "pre-commit/action@v3.0.1",
+      "component": "pre-commit/action@2c7b3805fd2a0fd8c1884dcaebf91fc102a13ecd",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/lint.yml"
     },
     {
-      "component": "actions/checkout@v6",
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/lint.yml"
     },
     {
-      "component": "actions/setup-python@v6",
+      "component": "actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/lint.yml"
     },
     {
-      "component": "release-drafter/release-drafter@v6",
+      "component": "release-drafter/release-drafter@5de93583980a40bd78603b6dfdcda5b4df377b32",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/release-drafter.yml"
     },
     {
-      "component": "mheap/github-action-required-labels@v5",
+      "component": "release-drafter/release-drafter/autolabeler@5de93583980a40bd78603b6dfdcda5b4df377b32",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-drafter.yml"
+    },
+    {
+      "component": "mheap/github-action-required-labels@0ac283b4e65c1fb28ce6079dea5546ceca98ccbe",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/require-pr-label.yml"
     },
     {
-      "component": "actions/checkout@v6",
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/test.yml"
     },
     {
-      "component": "actions/setup-python@v6",
+      "component": "actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/test.yml"
     },
     {
-      "component": "codecov/codecov-action@v5",
+      "component": "codecov/codecov-action@57e3a136b779b570ffcdbf80b3bdc90e7fab3de2",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/test.yml"
     },
     {
-      "component": "actions/checkout@v6",
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/test.yml"
     },
     {
-      "component": "docker/setup-qemu-action@v3",
+      "component": "docker/setup-qemu-action@ce360397dd3f832beb865e1373c09c0e9f86d70a",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/test.yml"
     }
@@ -151,14 +156,14 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/benchmark.yml",
       "source_repo": "ultrajson/ultrajson",
-      "target": "actions/checkout@v6",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/benchmark.yml",
       "source_repo": "ultrajson/ultrajson",
-      "target": "actions/setup-python@v6",
+      "target": "actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405",
       "target_type": "component"
     },
     {
@@ -172,42 +177,42 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/deploy.yml",
       "source_repo": "ultrajson/ultrajson",
-      "target": "actions/checkout@v6",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/deploy.yml",
       "source_repo": "ultrajson/ultrajson",
-      "target": "actions/setup-python@v6",
+      "target": "actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/deploy.yml",
       "source_repo": "ultrajson/ultrajson",
-      "target": "pypa/cibuildwheel@v3.3",
+      "target": "pypa/cibuildwheel@8d2b08b68458a16aeb24b64e68a09ab1c8e82084",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/deploy.yml",
       "source_repo": "ultrajson/ultrajson",
-      "target": "actions/upload-artifact@v7",
+      "target": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/deploy.yml",
       "source_repo": "ultrajson/ultrajson",
-      "target": "actions/download-artifact@v8",
+      "target": "actions/download-artifact@3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/deploy.yml",
       "source_repo": "ultrajson/ultrajson",
-      "target": "pypa/gh-action-pypi-publish@release/v1",
+      "target": "pypa/gh-action-pypi-publish@cef221092ed1bacb1cc03d23a2d87d1d172e277b",
       "target_type": "component"
     },
     {
@@ -221,14 +226,14 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/fuzz.yml",
       "source_repo": "ultrajson/ultrajson",
-      "target": "actions/checkout@v6",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/fuzz.yml",
       "source_repo": "ultrajson/ultrajson",
-      "target": "actions/setup-python@v6",
+      "target": "actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405",
       "target_type": "component"
     },
     {
@@ -242,14 +247,14 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/labels.yml",
       "source_repo": "ultrajson/ultrajson",
-      "target": "actions/checkout@v6",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/labels.yml",
       "source_repo": "ultrajson/ultrajson",
-      "target": "micnncim/action-label-syncer@v1",
+      "target": "micnncim/action-label-syncer@3abd5ab72fda571e69fffd97bd4e0033dd5f495c",
       "target_type": "component"
     },
     {
@@ -263,21 +268,21 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/lint.yml",
       "source_repo": "ultrajson/ultrajson",
-      "target": "actions/checkout@v6",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/lint.yml",
       "source_repo": "ultrajson/ultrajson",
-      "target": "actions/setup-python@v6",
+      "target": "actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/lint.yml",
       "source_repo": "ultrajson/ultrajson",
-      "target": "pre-commit/action@v3.0.1",
+      "target": "pre-commit/action@2c7b3805fd2a0fd8c1884dcaebf91fc102a13ecd",
       "target_type": "component"
     },
     {
@@ -291,7 +296,14 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/release-drafter.yml",
       "source_repo": "ultrajson/ultrajson",
-      "target": "release-drafter/release-drafter@v6",
+      "target": "release-drafter/release-drafter@5de93583980a40bd78603b6dfdcda5b4df377b32",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-drafter.yml",
+      "source_repo": "ultrajson/ultrajson",
+      "target": "release-drafter/release-drafter/autolabeler@5de93583980a40bd78603b6dfdcda5b4df377b32",
       "target_type": "component"
     },
     {
@@ -305,7 +317,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/require-pr-label.yml",
       "source_repo": "ultrajson/ultrajson",
-      "target": "mheap/github-action-required-labels@v5",
+      "target": "mheap/github-action-required-labels@0ac283b4e65c1fb28ce6079dea5546ceca98ccbe",
       "target_type": "component"
     },
     {
@@ -319,28 +331,28 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/test.yml",
       "source_repo": "ultrajson/ultrajson",
-      "target": "actions/checkout@v6",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/test.yml",
       "source_repo": "ultrajson/ultrajson",
-      "target": "actions/setup-python@v6",
+      "target": "actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/test.yml",
       "source_repo": "ultrajson/ultrajson",
-      "target": "codecov/codecov-action@v5",
+      "target": "codecov/codecov-action@57e3a136b779b570ffcdbf80b3bdc90e7fab3de2",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/test.yml",
       "source_repo": "ultrajson/ultrajson",
-      "target": "docker/setup-qemu-action@v3",
+      "target": "docker/setup-qemu-action@ce360397dd3f832beb865e1373c09c0e9f86d70a",
       "target_type": "component"
     },
     {
@@ -386,7 +398,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-23T06:34:58.294225+00:00",
+  "fetched_at": "2026-04-30T02:43:32.721987+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -398,35 +410,35 @@
     },
     {
       "path": ".github/workflows/benchmark.yml",
-      "size": 951
+      "size": 1045
     },
     {
       "path": ".github/workflows/deploy.yml",
-      "size": 3656
+      "size": 4143
     },
     {
       "path": ".github/workflows/fuzz.yml",
-      "size": 462
+      "size": 556
     },
     {
       "path": ".github/workflows/labels.yml",
-      "size": 396
+      "size": 490
     },
     {
       "path": ".github/workflows/lint.yml",
-      "size": 995
+      "size": 1226
     },
     {
       "path": ".github/workflows/release-drafter.yml",
-      "size": 902
+      "size": 1308
     },
     {
       "path": ".github/workflows/require-pr-label.yml",
-      "size": 571
+      "size": 618
     },
     {
       "path": ".github/workflows/test.yml",
-      "size": 3283
+      "size": 3518
     }
   ],
   "related_repositories": [],
@@ -438,8 +450,8 @@
     "full_name": "ultrajson/ultrajson",
     "html_url": "https://github.com/ultrajson/ultrajson",
     "language": "C++",
-    "pushed_at": "2026-04-06T19:45:21Z",
-    "stargazers_count": 4484,
+    "pushed_at": "2026-04-26T13:27:19Z",
+    "stargazers_count": 4482,
     "topics": [
       "c",
       "decoder",
@@ -449,7 +461,7 @@
       "ujson",
       "ultrajson"
     ],
-    "updated_at": "2026-04-19T15:59:14Z"
+    "updated_at": "2026-04-26T13:27:26Z"
   },
   "repo_links": [],
   "terms": [

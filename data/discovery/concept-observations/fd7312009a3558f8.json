@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": ":white_check_mark: Test generated HTML for problems"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![Go Report Card](https://goreportcard.com/badge/github.com/wjdp/htmltest)](https://goreportcard.com/report/github.com/wjdp/htmltest)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![Go Report Card](https://goreportcard.com/badge/github.com/wjdp/htmltest)](https://goreportcard.com/report/github.com/wjdp/htmltest)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "html-checker",
+      "sense_id": "html-checker#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "html-checker",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "html-checker",
+  "observation_id": "fd7312009a3558f8",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T00:37:16.824464+00:00",
+  "observed_text": "html-checker",
+  "source_context_snippet": "[![Go Report Card](https://goreportcard.com/badge/github.com/wjdp/htmltest)](https://goreportcard.com/report/github.com/wjdp/htmltest)",
+  "source_file": null,
+  "source_repo": "wjdp/htmltest",
+  "source_repo_description": ":white_check_mark: Test generated HTML for problems"
+}

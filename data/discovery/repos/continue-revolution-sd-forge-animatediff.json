@@ -1,0 +1,65 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "continue-revolution/sd-forge-animatediff",
+      "target": "s9roll7/animatediff-cli-prompt-travel",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "continue-revolution/sd-forge-animatediff",
+      "target": "kohakublueleaf/a1111-sd-webui-lycoris",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "continue-revolution/sd-forge-animatediff",
+      "target": "magic-research/magic-animate",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T03:53:19.024709+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 10648
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "forge-master",
+    "description": "AnimateDiff for Stable Diffusion WebUI Forge, mirror for https://github.com/continue-revolution/sd-webui-animatediff/tree/forge/master",
+    "fork": false,
+    "full_name": "continue-revolution/sd-forge-animatediff",
+    "html_url": "https://github.com/continue-revolution/sd-forge-animatediff",
+    "language": "Python",
+    "pushed_at": "2024-03-21T08:40:48Z",
+    "stargazers_count": 161,
+    "topics": [],
+    "updated_at": "2026-04-22T12:00:21Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "kohakublueleaf/a1111-sd-webui-lycoris",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "magic-research/magic-animate",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "s9roll7/animatediff-cli-prompt-travel",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

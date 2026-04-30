@@ -1,0 +1,142 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Janspiry/Palette-Image-to-Image-Diffusion-Models",
+      "target": "janspiry/image-super-resolution-via-iterative-refinement",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Janspiry/Palette-Image-to-Image-Diffusion-Models",
+      "target": "janspiry/distributed-pytorch-template",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Janspiry/Palette-Image-to-Image-Diffusion-Models",
+      "target": "louisrouss/diffusion-based-model-for-colorization",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Janspiry/Palette-Image-to-Image-Diffusion-Models",
+      "target": "ddpm",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Janspiry/Palette-Image-to-Image-Diffusion-Models",
+      "target": "diffusion-model",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Janspiry/Palette-Image-to-Image-Diffusion-Models",
+      "target": "image-restoration",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Janspiry/Palette-Image-to-Image-Diffusion-Models",
+      "target": "implementation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Janspiry/Palette-Image-to-Image-Diffusion-Models",
+      "target": "pytorch",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T01:57:20.052679+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8670
+    },
+    {
+      "path": "requirements.txt",
+      "size": 100
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Unofficial implementation of Palette: Image-to-Image Diffusion Models by Pytorch",
+    "fork": false,
+    "full_name": "Janspiry/Palette-Image-to-Image-Diffusion-Models",
+    "html_url": "https://github.com/Janspiry/Palette-Image-to-Image-Diffusion-Models",
+    "language": "Python",
+    "pushed_at": "2023-07-07T13:46:24Z",
+    "stargazers_count": 1811,
+    "topics": [
+      "ddp",
+      "ddpm",
+      "diffusion-model",
+      "image-restoration",
+      "implementation",
+      "pytorch"
+    ],
+    "updated_at": "2026-04-24T02:34:40Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "janspiry/distributed-pytorch-template",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "janspiry/image-super-resolution-via-iterative-refinement",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "louisrouss/diffusion-based-model-for-colorization",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[Paper](https://arxiv.org/pdf/2111.05826.pdf ) | [Project](https://iterative-refinement.github.io/palette/ )",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ddpm"
+    },
+    {
+      "context_snippet": "[Paper](https://arxiv.org/pdf/2111.05826.pdf ) | [Project](https://iterative-refinement.github.io/palette/ )",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "diffusion-model"
+    },
+    {
+      "context_snippet": "[Paper](https://arxiv.org/pdf/2111.05826.pdf ) | [Project](https://iterative-refinement.github.io/palette/ )",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "image-restoration"
+    },
+    {
+      "context_snippet": "[Paper](https://arxiv.org/pdf/2111.05826.pdf ) | [Project](https://iterative-refinement.github.io/palette/ )",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "implementation"
+    },
+    {
+      "context_snippet": "[Paper](https://arxiv.org/pdf/2111.05826.pdf ) | [Project](https://iterative-refinement.github.io/palette/ )",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytorch"
+    }
+  ]
+}

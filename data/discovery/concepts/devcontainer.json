@@ -1,6 +1,7 @@
 {
   "aliases": [
-    "devcontainer"
+    "devcontainer",
+    "Devcontainer"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -45,6 +46,18 @@
       "source_repo": "grpc-ecosystem/grpc-gateway",
       "status": "candidate-context",
       "text": "devcontainer"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "caketop/python-starlark-go",
+      "status": "candidate-context",
+      "text": "\ud83d\udc0d Python bindings for starlark-go \ud83d\udc0d"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "caketop/python-starlark-go",
+      "status": "candidate-context",
+      "text": "Devcontainer"
     }
   ],
   "candidate_glosses": [
@@ -65,6 +78,12 @@
       "source_repo": "grpc-ecosystem/grpc-gateway",
       "status": "candidate",
       "text": "devcontainer"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "caketop/python-starlark-go",
+      "status": "candidate",
+      "text": "Devcontainer"
     }
   ],
   "candidate_related_terms": [],
@@ -90,11 +109,17 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": ".github/workflows/devcontainer.yml",
       "source_repo": "grpc-ecosystem/grpc-gateway"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/devcontainer.yml",
+      "source_repo": "caketop/python-starlark-go"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

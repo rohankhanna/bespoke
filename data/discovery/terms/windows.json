@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
@@ -516,6 +516,106 @@
       "discovered_via": "repo-topic",
       "source_file": null,
       "source_repo": "cbucher/console"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "miiton/Cica"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "miurahr/aqtinstall"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "2KAbhishek/BWnB"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/windows_msvc.yml",
+      "source_repo": "ClickHouse/clickhouse-cpp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "libuv/libuv"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/windows.yml",
+      "source_repo": "raku-community-modules/Terminal-WCWidth"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/windows.yml",
+      "source_repo": "google/glog"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "prometheus-community/windows_exporter"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/WindowsAppSDK-Samples"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "mhammond/pywin32"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "AmberSahdev/Open-Interface"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/windows.yml",
+      "source_repo": "bernds/q5Go"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "parlance-zz/g-diffuser-bot"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "BoboTiG/python-mss"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "PowerShell/PowerShell"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "watchexec/watchexec"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/windows.yml",
+      "source_repo": "nativium/nativium"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "boostorg/beast"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "appium/appium"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/windows.yml",
+      "source_repo": "ng-log/ng-log"
     }
   ],
   "term": "Windows"

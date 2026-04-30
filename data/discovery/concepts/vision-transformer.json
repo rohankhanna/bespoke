@@ -151,6 +151,30 @@
       "source_repo": "google-research/scenic",
       "status": "candidate-context",
       "text": "<div style=\"text-align: left\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mv-lab/swin2sr",
+      "status": "candidate-context",
+      "text": "[ECCV] Swin2SR: SwinV2 Transformer for Compressed Image Super-Resolution and Restoration.  Advances in Image Manipulation (AIM) workshop ECCV 2022. Try it out! over 3.3M runs https://replicate.com/mv-lab/swin2sr"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mv-lab/swin2sr",
+      "status": "candidate-context",
+      "text": "[![arXiv](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)](https://arxiv.org/abs/2209.11345)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "thu-ml/SpargeAttn",
+      "status": "candidate-context",
+      "text": "[ICML2025] SpargeAttention: A training-free sparse attention that accelerates any model inference."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "thu-ml/SpargeAttn",
+      "status": "candidate-context",
+      "text": "We highly recommend using the `spas_sage2_attn_meansim_topk_cuda` and `block_sparse_sage2_attn_cuda` APIs. They are plug-and-play and customizable:"
     }
   ],
   "candidate_glosses": [
@@ -225,6 +249,18 @@
       "source_repo": "google-research/scenic",
       "status": "candidate",
       "text": "<div style=\"text-align: left\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mv-lab/swin2sr",
+      "status": "candidate",
+      "text": "[![arXiv](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)](https://arxiv.org/abs/2209.11345)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "thu-ml/SpargeAttn",
+      "status": "candidate",
+      "text": "We highly recommend using the `spas_sage2_attn_meansim_topk_cuda` and `block_sparse_sage2_attn_cuda` APIs. They are plug-and-play and customizable:"
     }
   ],
   "candidate_related_terms": [],
@@ -328,11 +364,23 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "google-research/scenic"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "mv-lab/swin2sr"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "thu-ml/SpargeAttn"
     }
   ],
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -2218,6 +2218,378 @@
       "source_repo": "rocker-org/rocker",
       "status": "candidate-context",
       "text": "[![Build Status](https://travis-ci.org/rocker-org/rocker.svg?branch=master)](https://travis-ci.org/rocker-org/rocker)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apache/apisix",
+      "status": "candidate-context",
+      "text": "The Cloud-Native API Gateway and AI Gateway"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/apisix",
+      "status": "candidate-context",
+      "text": "<!--"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "electerm/electerm-web-docker",
+      "status": "candidate-context",
+      "text": "docker image of electerm-web"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "electerm/electerm-web-docker",
+      "status": "candidate-context",
+      "text": "[\u4e2d\u6587](README_cn.md)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "danielrosehill/Deployments-Index",
+      "status": "candidate-context",
+      "text": "Stacks and deployment documentation and compose files"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "danielrosehill/Deployments-Index",
+      "status": "candidate-context",
+      "text": "[![Master Index](https://img.shields.io/badge/Master_Index-GitHub-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Github-Master-Index)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lilbillybiscuit/chatbot-ui-toolllama",
+      "status": "candidate-context",
+      "text": "An open source ChatGPT UI for ToolLlama"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lilbillybiscuit/chatbot-ui-toolllama",
+      "status": "candidate-context",
+      "text": "Docker"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "redis-developer/redis-product-search",
+      "status": "candidate-context",
+      "text": "Visual and semantic vector similarity with Redis Stack, FastAPI, PyTorch and Huggingface."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "redis-developer/redis-product-search",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "docker/docker-py",
+      "status": "candidate-context",
+      "text": "A Python library for the Docker Engine API"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "docker/docker-py",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://github.com/docker/docker-py/actions/workflows/ci.yml/badge.svg)](https://github.com/docker/docker-py/actions/workflows/ci.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "external-secrets/kubernetes-external-secrets",
+      "status": "candidate-context",
+      "text": "Integrate external secret management systems with Kubernetes"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "external-secrets/kubernetes-external-secrets",
+      "status": "candidate-context",
+      "text": "docker"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rust-cross/cargo-zigbuild",
+      "status": "candidate-context",
+      "text": "Compile Cargo project with zig as linker"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rust-cross/cargo-zigbuild",
+      "status": "candidate-context",
+      "text": "Docker"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lnx-search/lnx",
+      "status": "candidate-context",
+      "text": "A flexible, performant and reliable search database without the AI bullshit."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lnx-search/lnx",
+      "status": "candidate-context",
+      "text": "Docker"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bytebot-ai/bytebot",
+      "status": "candidate-context",
+      "text": "Bytebot is a self-hosted AI desktop agent that automates computer tasks through natural language commands, operating within a containerized Linux desktop environment."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bytebot-ai/bytebot",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "just-containers/s6-overlay",
+      "status": "candidate-context",
+      "text": "s6 overlay for containers (includes execline, s6-linux-utils & a custom init)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "just-containers/s6-overlay",
+      "status": "candidate-context",
+      "text": "**Table of Contents**"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rocker-org/bspm",
+      "status": "candidate-context",
+      "text": "Rocker BSPM Containers"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rocker-org/bspm",
+      "status": "candidate-context",
+      "text": "docker"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "reviewdog/action-black",
+      "status": "candidate-context",
+      "text": "Run black with Reviewdog :dog:"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "reviewdog/action-black",
+      "status": "candidate-context",
+      "text": "[![Test](https://github.com/reviewdog/action-black/workflows/Test/badge.svg)](https://github.com/reviewdog/action-black/actions?query=workflow%3ATest)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "AbdBarho/stable-diffusion-webui-docker",
+      "status": "candidate-context",
+      "text": "Easy Docker setup for Stable Diffusion with user-friendly UI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AbdBarho/stable-diffusion-webui-docker",
+      "status": "candidate-context",
+      "text": "Run Stable Diffusion on your machine with a nice UI without any hassle!"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "basetenlabs/truss-examples",
+      "status": "candidate-context",
+      "text": "Examples of models deployable with Truss"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "basetenlabs/truss-examples",
+      "status": "candidate-context",
+      "text": "[![Truss Examples CI](https://github.com/basetenlabs/truss-examples/actions/workflows/test-examples.yml/badge.svg)](https://github.com/basetenlabs/truss-examples/actions/workflows/test-examples.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dstackai/dstack",
+      "status": "candidate-context",
+      "text": "Vendor-agnostic orchestration for training, inference and agentic workloads across NVIDIA, AMD, TPU, and Tenstorrent on clouds, Kubernetes, and bare metal."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dstackai/dstack",
+      "status": "candidate-context",
+      "text": "<div style=\"text-align: center;\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "home-assistant/addons",
+      "status": "candidate-context",
+      "text": ":heavy_plus_sign: Docker add-ons for Home Assistant"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "home-assistant/addons",
+      "status": "candidate-context",
+      "text": "Apps (formerly known as add-ons) for Home Assistant allow you to extend the functionality"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "BMW-InnovationLab/BMW-TensorFlow-Training-GUI",
+      "status": "candidate-context",
+      "text": "This repository allows you to get started with a gui based training a State-of-the-art Deep Learning model with little to no configuration needed! NoCode training with TensorFlow has never been so easy."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "BMW-InnovationLab/BMW-TensorFlow-Training-GUI",
+      "status": "candidate-context",
+      "text": "Updated for CUDA 11 and Tensorflow 2!!!"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "BMW-InnovationLab/BMW-YOLOv4-Training-Automation",
+      "status": "candidate-context",
+      "text": "This repository allows you to get started with training a state-of-the-art Deep Learning model with little to no configuration needed!  You provide your labeled dataset or label your dataset using our BMW-LabelTool-Lite and you can start the training right away and monitor it in many different ways like TensorBoard or a custom REST API and GUI. NoCode training with YOLOv4 and YOLOV3 has never been so easy."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "BMW-InnovationLab/BMW-YOLOv4-Training-Automation",
+      "status": "candidate-context",
+      "text": "This repository, based on AlexeyAB's darknet repro, allows you to get started with training a state-of-the-art Deep Learning model with little to no configuration needed! You provide your labeled dataset and you can start the training right away and monitor it in many different \u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mariolukas/HydraPlay",
+      "status": "candidate-context",
+      "text": "A multiroom audio player setup, based on snapcast and mopidy. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mariolukas/HydraPlay",
+      "status": "candidate-context",
+      "text": "HydraPlay is an easy to use multiroom audio player. HydraPlay provides an integrated web interface to multiple"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dundee/gdu",
+      "status": "candidate-context",
+      "text": "Fast disk usage analyzer with console interface written in Go"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dundee/gdu",
+      "status": "candidate-context",
+      "text": "Docker"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "RcppCore/Rcpp",
+      "status": "candidate-context",
+      "text": "Seamless R and C++ Integration"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "RcppCore/Rcpp",
+      "status": "candidate-context",
+      "text": "docker"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jonschlinkert/whence",
+      "status": "candidate-context",
+      "text": "Add context awareness to your apps and frameworks by safely evaluating user-defined conditional expressions. Useful for evaluating expressions in config files, prompts, key bindings, completions, templates, and many other user cases."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jonschlinkert/whence",
+      "status": "candidate-context",
+      "text": "> Add context awareness to your apps and frameworks by safely evaluating user-defined conditional expressions. Useful for evaluating expressions in config files, prompts, key bindings, completions, templates, and many other user cases."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "LukeMathWalker/cargo-chef",
+      "status": "candidate-context",
+      "text": "A cargo-subcommand to speed up Rust Docker builds using Docker layer caching."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "LukeMathWalker/cargo-chef",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">cargo-chef</h1>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Buuntu/fastapi-react",
+      "status": "candidate-context",
+      "text": "\ud83d\ude80   Cookiecutter Template for FastAPI + React Projects.  Using PostgreSQL, SQLAlchemy, and Docker"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Buuntu/fastapi-react",
+      "status": "candidate-context",
+      "text": "<div>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "fastapi/full-stack-fastapi-template",
+      "status": "candidate-context",
+      "text": "Full stack, modern web application template. Using FastAPI, React, SQLModel, PostgreSQL, Docker, GitHub Actions, automatic HTTPS and more."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fastapi/full-stack-fastapi-template",
+      "status": "candidate-context",
+      "text": "<a href=\"https://github.com/fastapi/full-stack-fastapi-template/actions?query=workflow%3A%22Test+Docker+Compose%22\" target=\"_blank\"><img src=\"https://github.com/fastapi/full-stack-fastapi-template/workflows/Test%20Docker%20Compose/badge.svg\" alt=\"Test Docker Compose\"></a>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mlocati/docker-php-extension-installer",
+      "status": "candidate-context",
+      "text": "Easily install PHP extensions in Docker containers"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mlocati/docker-php-extension-installer",
+      "status": "candidate-context",
+      "text": "[![Downloaded GitHub Releases](https://img.shields.io/github/downloads/mlocati/docker-php-extension-installer/total?label=Downloaded%20releases)](https://github.com/mlocati/docker-php-extension-installer/releases)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sclorg/mariadb-container",
+      "status": "candidate-context",
+      "text": "MariaDB container images based on Red Hat Software Collections and intended for OpenShift and general usage. Users can choose between Red Hat Enterprise Linux, Fedora, and CentOS based images."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sclorg/mariadb-container",
+      "status": "candidate-context",
+      "text": "MariaDB SQL Database Server Docker Image"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "GoogleContainerTools/skaffold",
+      "status": "candidate-context",
+      "text": "Easy and Repeatable Kubernetes Development"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "GoogleContainerTools/skaffold",
+      "status": "candidate-context",
+      "text": "<!-- github does not support `width` with markdown images-->"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dusty-nv/jetson-containers",
+      "status": "candidate-context",
+      "text": "Machine Learning Containers for NVIDIA Jetson and JetPack-L4T"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dusty-nv/jetson-containers",
+      "status": "candidate-context",
+      "text": "[![a header for a software project about building containers for AI and machine learning](https://raw.githubusercontent.com/dusty-nv/jetson-containers/docs/docs/images/header_blueprint_rainbow.jpg)](https://www.jetson-ai-lab.com)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cloudflare/pint",
+      "status": "candidate-context",
+      "text": "Prometheus rule linter/validator"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cloudflare/pint",
+      "status": "candidate-context",
+      "text": "Docker"
     }
   ],
   "candidate_glosses": [
@@ -3336,6 +3708,192 @@
       "source_repo": "rocker-org/rocker",
       "status": "candidate",
       "text": "[![Build Status](https://travis-ci.org/rocker-org/rocker.svg?branch=master)](https://travis-ci.org/rocker-org/rocker)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/apisix",
+      "status": "candidate",
+      "text": "<!--"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "electerm/electerm-web-docker",
+      "status": "candidate",
+      "text": "[\u4e2d\u6587](README_cn.md)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "danielrosehill/Deployments-Index",
+      "status": "candidate",
+      "text": "[![Master Index](https://img.shields.io/badge/Master_Index-GitHub-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Github-Master-Index)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lilbillybiscuit/chatbot-ui-toolllama",
+      "status": "candidate",
+      "text": "Docker"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "redis-developer/redis-product-search",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "docker/docker-py",
+      "status": "candidate",
+      "text": "[![Build Status](https://github.com/docker/docker-py/actions/workflows/ci.yml/badge.svg)](https://github.com/docker/docker-py/actions/workflows/ci.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "external-secrets/kubernetes-external-secrets",
+      "status": "candidate",
+      "text": "docker"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rust-cross/cargo-zigbuild",
+      "status": "candidate",
+      "text": "Docker"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lnx-search/lnx",
+      "status": "candidate",
+      "text": "Docker"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bytebot-ai/bytebot",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "just-containers/s6-overlay",
+      "status": "candidate",
+      "text": "**Table of Contents**"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rocker-org/bspm",
+      "status": "candidate",
+      "text": "docker"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "reviewdog/action-black",
+      "status": "candidate",
+      "text": "[![Test](https://github.com/reviewdog/action-black/workflows/Test/badge.svg)](https://github.com/reviewdog/action-black/actions?query=workflow%3ATest)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AbdBarho/stable-diffusion-webui-docker",
+      "status": "candidate",
+      "text": "Run Stable Diffusion on your machine with a nice UI without any hassle!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "basetenlabs/truss-examples",
+      "status": "candidate",
+      "text": "[![Truss Examples CI](https://github.com/basetenlabs/truss-examples/actions/workflows/test-examples.yml/badge.svg)](https://github.com/basetenlabs/truss-examples/actions/workflows/test-examples.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dstackai/dstack",
+      "status": "candidate",
+      "text": "<div style=\"text-align: center;\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "home-assistant/addons",
+      "status": "candidate",
+      "text": "Apps (formerly known as add-ons) for Home Assistant allow you to extend the functionality"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "BMW-InnovationLab/BMW-TensorFlow-Training-GUI",
+      "status": "candidate",
+      "text": "Updated for CUDA 11 and Tensorflow 2!!!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "BMW-InnovationLab/BMW-YOLOv4-Training-Automation",
+      "status": "candidate",
+      "text": "This repository, based on AlexeyAB's darknet repro, allows you to get started with training a state-of-the-art Deep Learning model with little to no configuration needed! You provide your labeled dataset and you can start the training right away and monitor it in many different \u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mariolukas/HydraPlay",
+      "status": "candidate",
+      "text": "HydraPlay is an easy to use multiroom audio player. HydraPlay provides an integrated web interface to multiple"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dundee/gdu",
+      "status": "candidate",
+      "text": "Docker"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "RcppCore/Rcpp",
+      "status": "candidate",
+      "text": "docker"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jonschlinkert/whence",
+      "status": "candidate",
+      "text": "> Add context awareness to your apps and frameworks by safely evaluating user-defined conditional expressions. Useful for evaluating expressions in config files, prompts, key bindings, completions, templates, and many other user cases."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "LukeMathWalker/cargo-chef",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">cargo-chef</h1>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Buuntu/fastapi-react",
+      "status": "candidate",
+      "text": "<div>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fastapi/full-stack-fastapi-template",
+      "status": "candidate",
+      "text": "<a href=\"https://github.com/fastapi/full-stack-fastapi-template/actions?query=workflow%3A%22Test+Docker+Compose%22\" target=\"_blank\"><img src=\"https://github.com/fastapi/full-stack-fastapi-template/workflows/Test%20Docker%20Compose/badge.svg\" alt=\"Test Docker Compose\"></a>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mlocati/docker-php-extension-installer",
+      "status": "candidate",
+      "text": "[![Downloaded GitHub Releases](https://img.shields.io/github/downloads/mlocati/docker-php-extension-installer/total?label=Downloaded%20releases)](https://github.com/mlocati/docker-php-extension-installer/releases)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sclorg/mariadb-container",
+      "status": "candidate",
+      "text": "MariaDB SQL Database Server Docker Image"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "GoogleContainerTools/skaffold",
+      "status": "candidate",
+      "text": "<!-- github does not support `width` with markdown images-->"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dusty-nv/jetson-containers",
+      "status": "candidate",
+      "text": "[![a header for a software project about building containers for AI and machine learning](https://raw.githubusercontent.com/dusty-nv/jetson-containers/docs/docs/images/header_blueprint_rainbow.jpg)](https://www.jetson-ai-lab.com)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cloudflare/pint",
+      "status": "candidate",
+      "text": "Docker"
     }
   ],
   "candidate_related_terms": [
@@ -4939,11 +5497,299 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "rocker-org/rocker"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "apache/apisix"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "psf/black"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "electerm/electerm-web-docker"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "danielrosehill/Deployments-Index"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/deploy-docker-image.yaml",
+      "source_repo": "lilbillybiscuit/chatbot-ui-toolllama"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "redis-developer/redis-product-search"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "notaryproject/notary"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "docker/docker-py"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "podman-desktop/podman-desktop"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "moby/moby"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/build-container.yaml",
+      "source_repo": "external-secrets/kubernetes-external-secrets"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "containers/podman"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "hiyouga/LlamaFactory"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/ghcr-build.yml",
+      "source_repo": "OpenHands/OpenHands"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "rust-cross/cargo-zigbuild"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "apache/datafusion-ballista"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/docker-publish.yml",
+      "source_repo": "lnx-search/lnx"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "bytebot-ai/bytebot"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "scverse/rapids-singlecell"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "just-containers/s6-overlay"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/docker.yaml",
+      "source_repo": "rocker-org/bspm"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/docker-publish.yml",
+      "source_repo": "lnx-search/rewrk"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "reviewdog/action-black"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "AbdBarho/stable-diffusion-webui-docker"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "basetenlabs/truss-examples"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "dstackai/dstack"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "home-assistant/addons"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "BMW-InnovationLab/BMW-TensorFlow-Training-GUI"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "BMW-InnovationLab/BMW-YOLOv4-Training-Automation"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "velviagris/PaddleOCRFastAPI"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/docker.yaml",
+      "source_repo": "coaidev/blob-service"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "jina-ai/serve"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "docker-archive/compose-cli"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "spaceship-prompt/spaceship-prompt"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "ko-build/ko"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "mariolukas/HydraPlay"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "geocompx/docker"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "dundee/gdu"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/docker.yaml",
+      "source_repo": "RcppCore/Rcpp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "jonschlinkert/whence"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "LukeMathWalker/cargo-chef"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "Buuntu/fastapi-react"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "fastapi/full-stack-fastapi-template"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "mlocati/docker-php-extension-installer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "sclorg/mariadb-container"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "GoogleContainerTools/skaffold"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "dusty-nv/jetson-containers"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "cloudflare/pint"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

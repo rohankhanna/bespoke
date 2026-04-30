@@ -13,6 +13,18 @@
       "source_repo": "ipfs/github-mgmt",
       "status": "candidate-context",
       "text": "This repository is responsible for managing GitHub configuration of `ipfs` organisation as code with Terraform. It was created from [github-mgmt-template](https://github.com/protocol/github-mgmt-template) and it will receive updates from that repository."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ipdxco/github-as-code",
+      "status": "candidate-context",
+      "text": "GitHub Configuration as Code"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ipdxco/github-as-code",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -21,6 +33,12 @@
       "source_repo": "ipfs/github-mgmt",
       "status": "candidate",
       "text": "This repository is responsible for managing GitHub configuration of `ipfs` organisation as code with Terraform. It was created from [github-mgmt-template](https://github.com/protocol/github-mgmt-template) and it will receive updates from that repository."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ipdxco/github-as-code",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_related_terms": [],
@@ -34,11 +52,17 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "ipfs/github-mgmt"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "ipdxco/github-as-code"
     }
   ],
   "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

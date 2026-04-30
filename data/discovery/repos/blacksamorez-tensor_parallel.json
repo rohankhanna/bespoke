@@ -1,0 +1,295 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check_style.yaml"
+    },
+    {
+      "component": "psf/black@stable",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check_style.yaml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check_style.yaml"
+    },
+    {
+      "component": "actions/setup-python@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check_style.yaml"
+    },
+    {
+      "component": "isort/isort-action@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check_style.yaml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-publish.yml"
+    },
+    {
+      "component": "actions/setup-python@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-publish.yml"
+    },
+    {
+      "component": "pypa/gh-action-pypi-publish@27b31702a0e7fc50959f5ad993c78deac1bdfc29",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-publish.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run-tests.yaml"
+    },
+    {
+      "component": "actions/setup-python@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run-tests.yaml"
+    },
+    {
+      "component": "actions/cache@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run-tests.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "BlackSamorez/tensor_parallel",
+      "target": "microsoft/deepspeed",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "BlackSamorez/tensor_parallel",
+      "target": "tunib-ai/parallelformers",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check_style.yaml",
+      "source_repo": "BlackSamorez/tensor_parallel",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check_style.yaml",
+      "source_repo": "BlackSamorez/tensor_parallel",
+      "target": "psf/black@stable",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check_style.yaml",
+      "source_repo": "BlackSamorez/tensor_parallel",
+      "target": "actions/setup-python@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check_style.yaml",
+      "source_repo": "BlackSamorez/tensor_parallel",
+      "target": "isort/isort-action@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check_style.yaml",
+      "source_repo": "BlackSamorez/tensor_parallel",
+      "target": "Check style",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-publish.yml",
+      "source_repo": "BlackSamorez/tensor_parallel",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-publish.yml",
+      "source_repo": "BlackSamorez/tensor_parallel",
+      "target": "actions/setup-python@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-publish.yml",
+      "source_repo": "BlackSamorez/tensor_parallel",
+      "target": "pypa/gh-action-pypi-publish@27b31702a0e7fc50959f5ad993c78deac1bdfc29",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run-tests.yaml",
+      "source_repo": "BlackSamorez/tensor_parallel",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run-tests.yaml",
+      "source_repo": "BlackSamorez/tensor_parallel",
+      "target": "actions/setup-python@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run-tests.yaml",
+      "source_repo": "BlackSamorez/tensor_parallel",
+      "target": "actions/cache@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/run-tests.yaml",
+      "source_repo": "BlackSamorez/tensor_parallel",
+      "target": "Tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "BlackSamorez/tensor_parallel",
+      "target": "deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "BlackSamorez/tensor_parallel",
+      "target": "machine-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "BlackSamorez/tensor_parallel",
+      "target": "natural-language-processing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "BlackSamorez/tensor_parallel",
+      "target": "pytorch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "BlackSamorez/tensor_parallel",
+      "target": "pytorch-transformers",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T02:49:41.344131+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8359
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 355
+    },
+    {
+      "path": ".github/workflows/check_style.yaml",
+      "size": 528
+    },
+    {
+      "path": ".github/workflows/python-publish.yml",
+      "size": 1060
+    },
+    {
+      "path": ".github/workflows/run-tests.yaml",
+      "size": 859
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Automatically split your PyTorch models on multiple GPUs for training & inference",
+    "fork": false,
+    "full_name": "BlackSamorez/tensor_parallel",
+    "html_url": "https://github.com/BlackSamorez/tensor_parallel",
+    "language": "Python",
+    "pushed_at": "2024-01-02T10:23:37Z",
+    "stargazers_count": 654,
+    "topics": [
+      "deep-learning",
+      "machine-learning",
+      "natural-language-processing",
+      "nlp",
+      "python",
+      "pytorch",
+      "pytorch-transformers"
+    ],
+    "updated_at": "2026-04-23T12:52:58Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "microsoft/deepspeed",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "tunib-ai/parallelformers",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Check style",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check_style.yaml",
+      "term": "Check style"
+    },
+    {
+      "context_snippet": "\"Tests\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/run-tests.yaml",
+      "term": "Tests"
+    },
+    {
+      "context_snippet": "[![PyPI version](https://img.shields.io/pypi/v/tensor-parallel.svg?color=blue)](https://pypi.org/project/tensor-parallel/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-learning"
+    },
+    {
+      "context_snippet": "[![PyPI version](https://img.shields.io/pypi/v/tensor-parallel.svg?color=blue)](https://pypi.org/project/tensor-parallel/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "machine-learning"
+    },
+    {
+      "context_snippet": "[![PyPI version](https://img.shields.io/pypi/v/tensor-parallel.svg?color=blue)](https://pypi.org/project/tensor-parallel/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "natural-language-processing"
+    },
+    {
+      "context_snippet": "[![PyPI version](https://img.shields.io/pypi/v/tensor-parallel.svg?color=blue)](https://pypi.org/project/tensor-parallel/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytorch"
+    },
+    {
+      "context_snippet": "[![PyPI version](https://img.shields.io/pypi/v/tensor-parallel.svg?color=blue)](https://pypi.org/project/tensor-parallel/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytorch-transformers"
+    }
+  ]
+}

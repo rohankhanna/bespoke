@@ -1,0 +1,97 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Kahsolt/stable-diffusion-webui-sonar",
+      "target": "kahsolt/stable-diffusion-webui-prompt-travel",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Kahsolt/stable-diffusion-webui-sonar",
+      "target": "vladmandic/sd-extension-steps-animation",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Kahsolt/stable-diffusion-webui-sonar",
+      "target": "extensions",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Kahsolt/stable-diffusion-webui-sonar",
+      "target": "stable-diffusion",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Kahsolt/stable-diffusion-webui-sonar",
+      "target": "stable-diffusion-webui-plugin",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T03:55:51.576012+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9089
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Wrapped k-diffuison samplers with tricks to improve the generated image quality (maybe?), extension script for AUTOMATIC1111/stable-diffusion-webui",
+    "fork": false,
+    "full_name": "Kahsolt/stable-diffusion-webui-sonar",
+    "html_url": "https://github.com/Kahsolt/stable-diffusion-webui-sonar",
+    "language": "Python",
+    "pushed_at": "2023-10-17T07:00:04Z",
+    "stargazers_count": 114,
+    "topics": [
+      "extensions",
+      "stable-diffusion",
+      "stable-diffusion-webui-plugin"
+    ],
+    "updated_at": "2026-01-28T17:24:48Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "kahsolt/stable-diffusion-webui-prompt-travel",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "vladmandic/sd-extension-steps-animation",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Wrapped k-diffuison samplers with tricks to improve the generated image quality (maybe?), extension script for AUTOMATIC1111/stable-diffusion-webui",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "extensions"
+    },
+    {
+      "context_snippet": "Wrapped k-diffuison samplers with tricks to improve the generated image quality (maybe?), extension script for AUTOMATIC1111/stable-diffusion-webui",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "stable-diffusion"
+    },
+    {
+      "context_snippet": "Wrapped k-diffuison samplers with tricks to improve the generated image quality (maybe?), extension script for AUTOMATIC1111/stable-diffusion-webui",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "stable-diffusion-webui-plugin"
+    }
+  ]
+}

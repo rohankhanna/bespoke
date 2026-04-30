@@ -1,0 +1,168 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml"
+    },
+    {
+      "component": "NTBBloodbath/selene-action@v1.0.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ray-x/guihua.lua",
+      "target": "ray-x/files",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ray-x/guihua.lua",
+      "target": "ray-x/navigator.lua",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "ray-x/guihua.lua",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "ray-x/guihua.lua",
+      "target": "actions/cache@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "ray-x/guihua.lua",
+      "target": "Tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "ray-x/guihua.lua",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "ray-x/guihua.lua",
+      "target": "NTBBloodbath/selene-action@v1.0.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "ray-x/guihua.lua",
+      "target": "lint",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ray-x/guihua.lua",
+      "target": "fuzzy-search",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ray-x/guihua.lua",
+      "target": "neovim-plugin",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T00:39:47.762012+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2750
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 1824
+    },
+    {
+      "path": ".github/workflows/lint.yml",
+      "size": 367
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A GUI library for Neovim plugin developers",
+    "fork": false,
+    "full_name": "ray-x/guihua.lua",
+    "html_url": "https://github.com/ray-x/guihua.lua",
+    "language": "Lua",
+    "pushed_at": "2026-04-28T10:46:49Z",
+    "stargazers_count": 187,
+    "topics": [
+      "fuzzy-search",
+      "lua",
+      "neovim-plugin",
+      "ui"
+    ],
+    "updated_at": "2026-04-28T10:46:53Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ray-x/files",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ray-x/navigator.lua",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "term": "Tests"
+    },
+    {
+      "context_snippet": "lint",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint.yml",
+      "term": "lint"
+    },
+    {
+      "context_snippet": "![guihua](https://github.com/ray-x/files/blob/master/img/guihua/guihua_800.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "fuzzy-search"
+    },
+    {
+      "context_snippet": "![guihua](https://github.com/ray-x/files/blob/master/img/guihua/guihua_800.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "neovim-plugin"
+    }
+  ]
+}

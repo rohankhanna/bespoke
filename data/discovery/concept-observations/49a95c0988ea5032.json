@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A programming framework for agentic AI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Remove awaiting-op-response label if op responded"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Remove awaiting-op-response label if op responded"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 44964,
+      "status": "candidate",
+      "text": "erase"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 43364,
+      "status": "candidate",
+      "text": "cuts"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 43364,
+      "status": "candidate",
+      "text": "purge"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 34751,
+      "status": "candidate",
+      "text": "tag"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 34751,
+      "status": "candidate",
+      "text": "tagging"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Remove awaiting-op-response label if op responded",
+      "sense_id": "remove-awaiting-op-response-label-if-op-responded#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "remove-awaiting-op-response-label-if-op-responded",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "remove-awaiting-op-response-label-if-op-responded",
+  "observation_id": "49a95c0988ea5032",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-30T00:37:16.824464+00:00",
+  "observed_text": "Remove awaiting-op-response label if op responded",
+  "source_context_snippet": "Remove awaiting-op-response label if op responded",
+  "source_file": ".github/workflows/issue-user-responded.yml",
+  "source_repo": "microsoft/autogen",
+  "source_repo_description": "A programming framework for agentic AI"
+}

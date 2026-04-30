@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "On-Device Training Under 256KB Memory [NeurIPS'22]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "![demo_v3](figures/mcunetV3_demo_2images_openmv.gif)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "![demo_v3](figures/mcunetV3_demo_2images_openmv.gif)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "learning-on-the-edge",
+      "sense_id": "learning-on-the-edge#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "learning-on-the-edge",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "learning-on-the-edge",
+  "observation_id": "c878457b41c9b6e6",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T00:37:16.824464+00:00",
+  "observed_text": "learning-on-the-edge",
+  "source_context_snippet": "![demo_v3](figures/mcunetV3_demo_2images_openmv.gif)",
+  "source_file": null,
+  "source_repo": "mit-han-lab/tiny-training",
+  "source_repo_description": "On-Device Training Under 256KB Memory [NeurIPS'22]"
+}

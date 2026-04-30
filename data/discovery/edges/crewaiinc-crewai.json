@@ -1,20 +1,6 @@
 {
   "edges": [
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "crewAIInc/crewAI",
-      "target": "crewaiinc/skills",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "crewAIInc/crewAI",
-      "target": "crewaiinc/crewai-examples",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/build-uv-cache.yml",
       "source_repo": "crewAIInc/crewAI",
@@ -128,27 +114,6 @@
     },
     {
       "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/import-time.yml",
-      "source_repo": "crewAIInc/crewAI",
-      "target": "actions/checkout@v4",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/import-time.yml",
-      "source_repo": "crewAIInc/crewAI",
-      "target": "astral-sh/setup-uv@v6",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "workflow-name",
-      "source_file": ".github/workflows/import-time.yml",
-      "source_repo": "crewAIInc/crewAI",
-      "target": "Import Time Guard",
-      "target_type": "term"
-    },
-    {
-      "edge_type": "workflow-uses",
       "source_file": ".github/workflows/linter.yml",
       "source_repo": "crewAIInc/crewAI",
       "target": "actions/checkout@v4",
@@ -253,6 +218,20 @@
       "target_type": "term"
     },
     {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-title.yml",
+      "source_repo": "crewAIInc/crewAI",
+      "target": "amannn/action-semantic-pull-request@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr-title.yml",
+      "source_repo": "crewAIInc/crewAI",
+      "target": "PR Title Check",
+      "target_type": "term"
+    },
+    {
       "edge_type": "repo-topic",
       "source_file": null,
       "source_repo": "crewAIInc/crewAI",
@@ -267,6 +246,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-04-22T04:49:29.633207+00:00",
+  "generated_at": "2026-04-30T00:37:16.824464+00:00",
   "source_repo": "crewAIInc/crewAI"
 }

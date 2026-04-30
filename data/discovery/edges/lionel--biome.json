@@ -1,0 +1,244 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "Cargo.toml",
+      "source_repo": "lionel-/biome",
+      "target": "rustwasm/wasm-bindgen",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "lionel-/biome",
+      "target": "@biomejs/plugin-api",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "lionel-/biome",
+      "target": "@changesets/changelog-github",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "lionel-/biome",
+      "target": "@changesets/cli",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "lionel-/biome",
+      "target": "@types/node",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "lionel-/biome",
+      "target": "tombi",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/autofix.yml",
+      "source_repo": "lionel-/biome",
+      "target": "actions/checkout@8e8c483db84b4bee98b60c0593521ed34d9990e8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/autofix.yml",
+      "source_repo": "lionel-/biome",
+      "target": "moonrepo/setup-rust@ede6de059f8046a5e236c94046823e2af11ca670",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/autofix.yml",
+      "source_repo": "lionel-/biome",
+      "target": "tombi-toml/setup-tombi@f7cb38e77d9a62bc27a8445bf50e660e9496b893",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/autofix.yml",
+      "source_repo": "lionel-/biome",
+      "target": "autofix-ci/action@635ffb0c9798bd160680f18fd73371e355b85f27",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bench_cli.yml",
+      "source_repo": "lionel-/biome",
+      "target": "actions/github-script@ed597411d8f924073f98dfc5c65a23a2325f34cd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bench_cli.yml",
+      "source_repo": "lionel-/biome",
+      "target": "actions/checkout@8e8c483db84b4bee98b60c0593521ed34d9990e8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bench_cli.yml",
+      "source_repo": "lionel-/biome",
+      "target": "moonrepo/setup-rust@ede6de059f8046a5e236c94046823e2af11ca670",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bench_cli.yml",
+      "source_repo": "lionel-/biome",
+      "target": "peter-evans/create-or-update-comment@e8674b075228eee787fea43ef493e45ece1004c9",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/bench_cli.yml",
+      "source_repo": "lionel-/biome",
+      "target": "CLI Benchmark",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmark_configuration.yml",
+      "source_repo": "lionel-/biome",
+      "target": "actions/checkout@8e8c483db84b4bee98b60c0593521ed34d9990e8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmark_configuration.yml",
+      "source_repo": "lionel-/biome",
+      "target": "moonrepo/setup-rust@ede6de059f8046a5e236c94046823e2af11ca670",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmark_configuration.yml",
+      "source_repo": "lionel-/biome",
+      "target": "CodSpeedHQ/action@dbda7111f8ac363564b0c51b992d4ce76bb89f2f",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/benchmark_configuration.yml",
+      "source_repo": "lionel-/biome",
+      "target": "Benchmarks Configuration",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmark_css.yml",
+      "source_repo": "lionel-/biome",
+      "target": "actions/checkout@8e8c483db84b4bee98b60c0593521ed34d9990e8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmark_css.yml",
+      "source_repo": "lionel-/biome",
+      "target": "moonrepo/setup-rust@ede6de059f8046a5e236c94046823e2af11ca670",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmark_css.yml",
+      "source_repo": "lionel-/biome",
+      "target": "CodSpeedHQ/action@dbda7111f8ac363564b0c51b992d4ce76bb89f2f",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/benchmark_css.yml",
+      "source_repo": "lionel-/biome",
+      "target": "Benchmarks CSS",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmark_graphql.yml",
+      "source_repo": "lionel-/biome",
+      "target": "actions/checkout@8e8c483db84b4bee98b60c0593521ed34d9990e8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmark_graphql.yml",
+      "source_repo": "lionel-/biome",
+      "target": "moonrepo/setup-rust@ede6de059f8046a5e236c94046823e2af11ca670",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmark_graphql.yml",
+      "source_repo": "lionel-/biome",
+      "target": "CodSpeedHQ/action@dbda7111f8ac363564b0c51b992d4ce76bb89f2f",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/benchmark_graphql.yml",
+      "source_repo": "lionel-/biome",
+      "target": "Benchmarks GraphQL",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmark_js.yml",
+      "source_repo": "lionel-/biome",
+      "target": "actions/checkout@8e8c483db84b4bee98b60c0593521ed34d9990e8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmark_js.yml",
+      "source_repo": "lionel-/biome",
+      "target": "moonrepo/setup-rust@ede6de059f8046a5e236c94046823e2af11ca670",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmark_js.yml",
+      "source_repo": "lionel-/biome",
+      "target": "CodSpeedHQ/action@dbda7111f8ac363564b0c51b992d4ce76bb89f2f",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/benchmark_js.yml",
+      "source_repo": "lionel-/biome",
+      "target": "Benchmarks JS",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmark_json.yml",
+      "source_repo": "lionel-/biome",
+      "target": "actions/checkout@8e8c483db84b4bee98b60c0593521ed34d9990e8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmark_json.yml",
+      "source_repo": "lionel-/biome",
+      "target": "moonrepo/setup-rust@ede6de059f8046a5e236c94046823e2af11ca670",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmark_json.yml",
+      "source_repo": "lionel-/biome",
+      "target": "CodSpeedHQ/action@dbda7111f8ac363564b0c51b992d4ce76bb89f2f",
+      "target_type": "component"
+    }
+  ],
+  "generated_at": "2026-04-30T00:37:16.824464+00:00",
+  "source_repo": "lionel-/biome"
+}

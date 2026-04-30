@@ -1,0 +1,46 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/auto-close-pr.yml",
+      "source_repo": "github/copilot.vim",
+      "target": "Auto-close PR",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T03:01:59.197243+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2290
+    },
+    {
+      "path": ".github/workflows/auto-close-pr.yml",
+      "size": 583
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "release",
+    "description": "Neovim plugin for GitHub Copilot",
+    "fork": false,
+    "full_name": "github/copilot.vim",
+    "html_url": "https://github.com/github/copilot.vim",
+    "language": "Vim Script",
+    "pushed_at": "2026-01-09T20:49:25Z",
+    "stargazers_count": 11576,
+    "topics": [],
+    "updated_at": "2026-04-30T00:12:33Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Auto-close PR",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/auto-close-pr.yml",
+      "term": "Auto-close PR"
+    }
+  ]
+}

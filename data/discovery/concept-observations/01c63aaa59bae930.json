@@ -1,0 +1,108 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "\u6548\u679c\u66f4\u597d\u7684\u8865\u5e27\u8f6f\u4ef6\uff0c\u663e\u5b58\u5360\u7528\u66f4\u5c0f\uff0c\u662fDAIN\u901f\u5ea6\u768410-25\u500d\uff0c\u5305\u542b\u62bd\u5e27\u5904\u7406\uff0c\u53bb\u9664\u52a8\u6f2b\u5361\u987f\u611f"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<img width=\"18%\" src=\"logo.png\" alt=\"logo\" align=\"right\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<img width=\"18%\" src=\"logo.png\" alt=\"logo\" align=\"right\">"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40011458,
+      "status": "candidate",
+      "text": "television"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39990920,
+      "status": "candidate",
+      "text": "picture"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30012036,
+      "status": "candidate",
+      "text": "telecasting"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30012035,
+      "status": "candidate",
+      "text": "televised"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "video",
+      "sense_id": "video#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 16053,
+      "status": "candidate",
+      "text": "picture"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 1043,
+      "status": "candidate",
+      "text": "television"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 12,
+      "status": "candidate",
+      "text": "telecasting"
+    }
+  ],
+  "concept_id": "video",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "video",
+  "observation_id": "01c63aaa59bae930",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T00:37:16.824464+00:00",
+  "observed_text": "video",
+  "source_context_snippet": "<img width=\"18%\" src=\"logo.png\" alt=\"logo\" align=\"right\">",
+  "source_file": null,
+  "source_repo": "Justin62628/Squirrel-RIFE",
+  "source_repo_description": "\u6548\u679c\u66f4\u597d\u7684\u8865\u5e27\u8f6f\u4ef6\uff0c\u663e\u5b58\u5360\u7528\u66f4\u5c0f\uff0c\u662fDAIN\u901f\u5ea6\u768410-25\u500d\uff0c\u5305\u542b\u62bd\u5e27\u5904\u7406\uff0c\u53bb\u9664\u52a8\u6f2b\u5361\u987f\u611f"
+}

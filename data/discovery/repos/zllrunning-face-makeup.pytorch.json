@@ -1,0 +1,86 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "zllrunning/face-makeup.PyTorch",
+      "target": "face-parsing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "zllrunning/face-makeup.PyTorch",
+      "target": "lipstick",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "zllrunning/face-makeup.PyTorch",
+      "target": "makeup",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "zllrunning/face-makeup.PyTorch",
+      "target": "semantic-segmentation",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T05:11:44.759697+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1411
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Lip and hair color editor using face parsing maps.",
+    "fork": false,
+    "full_name": "zllrunning/face-makeup.PyTorch",
+    "html_url": "https://github.com/zllrunning/face-makeup.PyTorch",
+    "language": "Python",
+    "pushed_at": "2021-08-04T02:23:48Z",
+    "stargazers_count": 538,
+    "topics": [
+      "face-parsing",
+      "lipstick",
+      "makeup",
+      "semantic-segmentation"
+    ],
+    "updated_at": "2026-04-15T11:09:36Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Lip and hair color editor using face parsing maps.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "face-parsing"
+    },
+    {
+      "context_snippet": "Lip and hair color editor using face parsing maps.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "lipstick"
+    },
+    {
+      "context_snippet": "Lip and hair color editor using face parsing maps.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "makeup"
+    },
+    {
+      "context_snippet": "Lip and hair color editor using face parsing maps.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "semantic-segmentation"
+    }
+  ]
+}

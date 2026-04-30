@@ -331,6 +331,42 @@
       "source_repo": "dbeaver/cloudbeaver",
       "status": "candidate-context",
       "text": "<img src=\"https://github.com/dbeaver/cloudbeaver/wiki/images/cloudbeaver-logo.png\" alt=\"CloudBeaver logo\" align=\"right\" width=\"250\"/>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "AbdelrhmanHamouda/locust-k8s-operator",
+      "status": "candidate-context",
+      "text": "Deploy and manage Locust tests on Kubernetes. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AbdelrhmanHamouda/locust-k8s-operator",
+      "status": "candidate-context",
+      "text": "<div align=\"center\" style=\"margin: 2rem 0;\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dstackai/dstack",
+      "status": "candidate-context",
+      "text": "Vendor-agnostic orchestration for training, inference and agentic workloads across NVIDIA, AMD, TPU, and Tenstorrent on clouds, Kubernetes, and bare metal."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dstackai/dstack",
+      "status": "candidate-context",
+      "text": "<div style=\"text-align: center;\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "microsoft/pai",
+      "status": "candidate-context",
+      "text": "Resource scheduling and cluster management for AI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/pai",
+      "status": "candidate-context",
+      "text": "[logo]: ./pailogo.jpg \"OpenPAI\""
     }
   ],
   "candidate_glosses": [
@@ -495,6 +531,24 @@
       "source_repo": "dbeaver/cloudbeaver",
       "status": "candidate",
       "text": "<img src=\"https://github.com/dbeaver/cloudbeaver/wiki/images/cloudbeaver-logo.png\" alt=\"CloudBeaver logo\" align=\"right\" width=\"250\"/>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AbdelrhmanHamouda/locust-k8s-operator",
+      "status": "candidate",
+      "text": "<div align=\"center\" style=\"margin: 2rem 0;\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dstackai/dstack",
+      "status": "candidate",
+      "text": "<div style=\"text-align: center;\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/pai",
+      "status": "candidate",
+      "text": "[logo]: ./pailogo.jpg \"OpenPAI\""
     }
   ],
   "candidate_related_terms": [
@@ -748,11 +802,35 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "dbeaver/cloudbeaver"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "AbdelrhmanHamouda/locust-k8s-operator"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "dstackai/dstack"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "microsoft/aspire"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "microsoft/pai"
     }
   ],
   "first_seen_at": "2026-04-21T18:51:25.552552+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -91,6 +91,30 @@
       "source_repo": "chalk/chalk",
       "status": "candidate-context",
       "text": "chalk \u2014 Terminal string styling done right"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dylanaraps/pywal",
+      "status": "candidate-context",
+      "text": "\ud83c\udfa8 Generate and change color-schemes on the fly."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dylanaraps/pywal",
+      "status": "candidate-context",
+      "text": "<h3 align=\"center\"><img src=\"https://i.imgur.com/5WgMACe.gif\" width=\"200px\"></h3>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "raphamorim/rio",
+      "status": "candidate-context",
+      "text": "A hardware-accelerated GPU terminal emulator focusing to run in desktops and browsers."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "raphamorim/rio",
+      "status": "candidate-context",
+      "text": "<!-- LOGO -->"
     }
   ],
   "candidate_glosses": [
@@ -135,6 +159,18 @@
       "source_repo": "chalk/chalk",
       "status": "candidate",
       "text": "chalk \u2014 Terminal string styling done right"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dylanaraps/pywal",
+      "status": "candidate",
+      "text": "<h3 align=\"center\"><img src=\"https://i.imgur.com/5WgMACe.gif\" width=\"200px\"></h3>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "raphamorim/rio",
+      "status": "candidate",
+      "text": "<!-- LOGO -->"
     }
   ],
   "candidate_related_terms": [],
@@ -196,11 +232,29 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "alacritty/alacritty"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "dylanaraps/pywal"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "raphamorim/rio"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "alacritty/alacritty"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -229,16 +229,6 @@
       "component": "dtolnay/rust-toolchain@master",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/rust.yml"
-    },
-    {
-      "component": "actions/checkout@v5",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/spelling.yaml"
-    },
-    {
-      "component": "crate-ci/typos@685eb3d55be2f85191e8c84acb9f44d7756f84ab",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/spelling.yaml"
     }
   ],
   "edges": [
@@ -247,20 +237,6 @@
       "source_file": "README.md",
       "source_repo": "dmtrKovalenko/fff",
       "target": "dmtrkovalenko/fff.nvim",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "dmtrKovalenko/fff",
-      "target": "dmtrkovalenko/zlob",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "dmtrKovalenko/fff",
-      "target": "saghm/frizbee",
       "target_type": "repository"
     },
     {
@@ -495,27 +471,6 @@
       "target_type": "term"
     },
     {
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/spelling.yaml",
-      "source_repo": "dmtrKovalenko/fff",
-      "target": "actions/checkout@v5",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/spelling.yaml",
-      "source_repo": "dmtrKovalenko/fff",
-      "target": "crate-ci/typos@685eb3d55be2f85191e8c84acb9f44d7756f84ab",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "workflow-name",
-      "source_file": ".github/workflows/spelling.yaml",
-      "source_repo": "dmtrKovalenko/fff",
-      "target": "Spelling",
-      "target_type": "term"
-    },
-    {
       "edge_type": "repo-topic",
       "source_file": null,
       "source_repo": "dmtrKovalenko/fff",
@@ -544,7 +499,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-29T19:44:05.879583+00:00",
+  "fetched_at": "2026-04-30T04:17:51.817806+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -581,10 +536,6 @@
     {
       "path": ".github/workflows/rust.yml",
       "size": 1744
-    },
-    {
-      "path": ".github/workflows/spelling.yaml",
-      "size": 409
     }
   ],
   "related_repositories": [],
@@ -596,8 +547,8 @@
     "full_name": "dmtrKovalenko/fff",
     "html_url": "https://github.com/dmtrKovalenko/fff",
     "language": "Rust",
-    "pushed_at": "2026-04-27T02:45:32Z",
-    "stargazers_count": 5564,
+    "pushed_at": "2026-04-29T23:12:52Z",
+    "stargazers_count": 5585,
     "topics": [
       "filesearch",
       "lua",
@@ -605,22 +556,12 @@
       "neovim-plugin",
       "rust"
     ],
-    "updated_at": "2026-04-29T19:27:28Z"
+    "updated_at": "2026-04-30T04:07:45Z"
   },
   "repo_links": [
     {
       "edge_type": "explicit-github-link",
       "full_name": "dmtrkovalenko/fff.nvim",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "dmtrkovalenko/zlob",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "saghm/frizbee",
       "source_file": "README.md"
     }
   ],
@@ -660,12 +601,6 @@
       "edge_type": "workflow-name",
       "source_file": ".github/workflows/rust.yml",
       "term": "Rust CI"
-    },
-    {
-      "context_snippet": "Spelling",
-      "edge_type": "workflow-name",
-      "source_file": ".github/workflows/spelling.yaml",
-      "term": "Spelling"
     },
     {
       "context_snippet": "<img alt=\"FFF\" src=\"./assets/logo-orange.png\" width=\"300\">",

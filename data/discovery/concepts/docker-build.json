@@ -81,6 +81,42 @@
       "source_repo": "OpenVisualCloud/Media-Transport-Library",
       "status": "candidate-context",
       "text": "Docker Build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "open-edge-platform/physical-ai-studio",
+      "status": "candidate-context",
+      "text": "Physical AI Studio is an end-to-end framework for training robots to perform tasks through imitation learning from human demonstrations."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "open-edge-platform/physical-ai-studio",
+      "status": "candidate-context",
+      "text": "Docker Build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "PKU-YuanGroup/Open-Sora-Plan",
+      "status": "candidate-context",
+      "text": "This project aim to reproduce Sora (Open AI T2V model), we wish the open source community contribute to this project."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PKU-YuanGroup/Open-Sora-Plan",
+      "status": "candidate-context",
+      "text": "docker-build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "skypilot-org/skypilot",
+      "status": "candidate-context",
+      "text": "Run, manage, and scale AI workloads on any AI infrastructure. Use one system to access & manage all AI compute (Kubernetes, Slurm, 20+ clouds, on-prem)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "skypilot-org/skypilot",
+      "status": "candidate-context",
+      "text": "docker-build"
     }
   ],
   "candidate_glosses": [
@@ -119,6 +155,24 @@
       "source_repo": "OpenVisualCloud/Media-Transport-Library",
       "status": "candidate",
       "text": "Docker Build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "open-edge-platform/physical-ai-studio",
+      "status": "candidate",
+      "text": "Docker Build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PKU-YuanGroup/Open-Sora-Plan",
+      "status": "candidate",
+      "text": "docker-build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "skypilot-org/skypilot",
+      "status": "candidate",
+      "text": "docker-build"
     }
   ],
   "candidate_related_terms": [
@@ -210,11 +264,35 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": ".github/workflows/docker_build.yml",
       "source_repo": "OpenVisualCloud/Media-Transport-Library"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/docker-build.yml",
+      "source_repo": "open-edge-platform/physical-ai-studio"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/docker_build.yml",
+      "source_repo": "PKU-YuanGroup/Open-Sora-Plan"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/docker-build.yaml",
+      "source_repo": "chatchat-space/Langchain-Chatchat"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/docker-build.yaml",
+      "source_repo": "skypilot-org/skypilot"
     }
   ],
   "first_seen_at": "2026-04-19T02:42:33.990002+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Test recent"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mlocati/docker-php-extension-installer",
+      "status": "candidate-context",
+      "text": "Easily install PHP extensions in Docker containers"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mlocati/docker-php-extension-installer",
+      "status": "candidate-context",
+      "text": "Test recent"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mlocati/docker-php-extension-installer",
+      "status": "candidate",
+      "text": "Test recent"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11724,
+      "status": "candidate",
+      "text": "experience"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11724,
+      "status": "candidate",
+      "text": "final"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11724,
+      "status": "candidate",
+      "text": "now"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11724,
+      "status": "candidate",
+      "text": "review"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11724,
+      "status": "candidate",
+      "text": "time"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Test recent",
+  "concept_id": "test-recent",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/test-recent-extensions.yml",
+      "source_repo": "mlocati/docker-php-extension-installer"
+    }
+  ],
+  "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Test recent",
+      "sense_id": "test-recent#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

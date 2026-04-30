@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "withfig/themes",
+      "target": "withfig/fig",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T01:02:04.605219+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2005
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "withfig/themes",
+    "html_url": "https://github.com/withfig/themes",
+    "language": null,
+    "pushed_at": "2024-06-18T19:13:23Z",
+    "stargazers_count": 71,
+    "topics": [],
+    "updated_at": "2026-02-13T09:26:35Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "withfig/fig",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

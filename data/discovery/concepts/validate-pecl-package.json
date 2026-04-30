@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Validate pecl package"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Imagick/imagick",
+      "status": "candidate-context",
+      "text": "\ud83c\udf08 The Imagick PHP extension \ud83c\udf08"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Imagick/imagick",
+      "status": "candidate-context",
+      "text": "Validate pecl package"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Imagick/imagick",
+      "status": "candidate",
+      "text": "Validate pecl package"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 13138,
+      "status": "candidate",
+      "text": "seal"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12117,
+      "status": "candidate",
+      "text": "authorize"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12117,
+      "status": "candidate",
+      "text": "commission"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12117,
+      "status": "candidate",
+      "text": "commissioning"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12117,
+      "status": "candidate",
+      "text": "confirm"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Validate pecl package",
+  "concept_id": "validate-pecl-package",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/release_validate.yml",
+      "source_repo": "Imagick/imagick"
+    }
+  ],
+  "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Validate pecl package",
+      "sense_id": "validate-pecl-package#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

@@ -22,6 +22,18 @@
       "source_repo": "finegrain-ai/refiners",
       "status": "candidate-context",
       "text": "Spell checker"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apache/apisix-go-plugin-runner",
+      "status": "candidate-context",
+      "text": "Go Plugin Runner for APISIX"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/apisix-go-plugin-runner",
+      "status": "candidate-context",
+      "text": "spell-checker"
     }
   ],
   "candidate_glosses": [
@@ -30,6 +42,12 @@
       "source_repo": "finegrain-ai/refiners",
       "status": "candidate",
       "text": "Spell checker"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/apisix-go-plugin-runner",
+      "status": "candidate",
+      "text": "spell-checker"
     }
   ],
   "candidate_related_terms": [
@@ -67,9 +85,52 @@
       "score": 20070652,
       "status": "candidate",
       "text": "softwear"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10023611,
+      "status": "candidate",
+      "text": "spelling checker"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10023609,
+      "status": "candidate",
+      "text": "spellchecker"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10023608,
+      "status": "candidate",
+      "text": "wordprocessor"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10023607,
+      "status": "candidate",
+      "text": "factchecker"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10023606,
+      "status": "candidate",
+      "text": "puter"
     }
   ],
-  "candidate_synonyms": [],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 17,
+      "status": "candidate",
+      "text": "spelling checker"
+    }
+  ],
   "canonical_name": "spell-checker",
   "concept_id": "spell-checker",
   "definition_status": "unresolved",
@@ -85,11 +146,17 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": ".github/workflows/spelling.yml",
       "source_repo": "finegrain-ai/refiners"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/spell-checker.yml",
+      "source_repo": "apache/apisix-go-plugin-runner"
     }
   ],
   "first_seen_at": "2026-04-18T11:32:22.637859+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

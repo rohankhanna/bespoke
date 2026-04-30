@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "buf-schema-registry"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bufbuild/buf",
+      "status": "candidate-context",
+      "text": "The best way of working with Protocol Buffers."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bufbuild/buf",
+      "status": "candidate-context",
+      "text": "![The Buf logo](https://raw.githubusercontent.com/bufbuild/buf/main/.github/buf-logo.svg)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bufbuild/buf",
+      "status": "candidate",
+      "text": "![The Buf logo](https://raw.githubusercontent.com/bufbuild/buf/main/.github/buf-logo.svg)"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "buf-schema-registry",
+  "concept_id": "buf-schema-registry",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "bufbuild/buf"
+    }
+  ],
+  "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "buf-schema-registry",
+      "sense_id": "buf-schema-registry#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

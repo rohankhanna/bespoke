@@ -187,6 +187,42 @@
       "source_repo": "apache/commons-jexl",
       "status": "candidate-context",
       "text": "\"Scorecards supply-chain security\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "AcademySoftwareFoundation/OpenShadingLanguage",
+      "status": "candidate-context",
+      "text": "Advanced shading language for production GI renderers"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AcademySoftwareFoundation/OpenShadingLanguage",
+      "status": "candidate-context",
+      "text": "Scorecards supply-chain security"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "google-deepmind/meltingpot",
+      "status": "candidate-context",
+      "text": "A suite of test scenarios for multi-agent reinforcement learning."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google-deepmind/meltingpot",
+      "status": "candidate-context",
+      "text": "Scorecards supply-chain security"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "GoogleContainerTools/skaffold",
+      "status": "candidate-context",
+      "text": "Easy and Repeatable Kubernetes Development"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "GoogleContainerTools/skaffold",
+      "status": "candidate-context",
+      "text": "Scorecards supply-chain security"
     }
   ],
   "candidate_glosses": [
@@ -279,6 +315,24 @@
       "source_repo": "apache/commons-jexl",
       "status": "candidate",
       "text": "\"Scorecards supply-chain security\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AcademySoftwareFoundation/OpenShadingLanguage",
+      "status": "candidate",
+      "text": "Scorecards supply-chain security"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google-deepmind/meltingpot",
+      "status": "candidate",
+      "text": "Scorecards supply-chain security"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "GoogleContainerTools/skaffold",
+      "status": "candidate",
+      "text": "Scorecards supply-chain security"
     }
   ],
   "candidate_related_terms": [
@@ -418,11 +472,29 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": ".github/workflows/scorecards-analysis.yml",
       "source_repo": "apache/commons-jexl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/scorecards.yml",
+      "source_repo": "AcademySoftwareFoundation/OpenShadingLanguage"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/scorecards-analysis.yml",
+      "source_repo": "google-deepmind/meltingpot"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/scorecards.yml",
+      "source_repo": "GoogleContainerTools/skaffold"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

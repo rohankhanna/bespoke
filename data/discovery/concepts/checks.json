@@ -387,6 +387,66 @@
       "source_repo": "optuna/optunahub-registry",
       "status": "candidate-context",
       "text": "Checks"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pylint-dev/pylint",
+      "status": "candidate-context",
+      "text": "It's not just a linter that annoys you!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pylint-dev/pylint",
+      "status": "candidate-context",
+      "text": "Checks"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "optuna/optunahub",
+      "status": "candidate-context",
+      "text": "Python library to use and implement packages in OptunaHub"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "optuna/optunahub",
+      "status": "candidate-context",
+      "text": "Checks"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "microsoft/autogen",
+      "status": "candidate-context",
+      "text": "A programming framework for agentic AI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/autogen",
+      "status": "candidate-context",
+      "text": "Checks"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "DanielNoord/pydocstringformatter",
+      "status": "candidate-context",
+      "text": "Automatically format your Python docstrings to conform with PEP 8 and PEP 257"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DanielNoord/pydocstringformatter",
+      "status": "candidate-context",
+      "text": "Checks"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ibireme/yyjson",
+      "status": "candidate-context",
+      "text": "The fastest JSON library in C"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ibireme/yyjson",
+      "status": "candidate-context",
+      "text": "Checks"
     }
   ],
   "candidate_glosses": [
@@ -579,6 +639,36 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "optuna/optunahub-registry",
+      "status": "candidate",
+      "text": "Checks"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pylint-dev/pylint",
+      "status": "candidate",
+      "text": "Checks"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "optuna/optunahub",
+      "status": "candidate",
+      "text": "Checks"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/autogen",
+      "status": "candidate",
+      "text": "Checks"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DanielNoord/pydocstringformatter",
+      "status": "candidate",
+      "text": "Checks"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ibireme/yyjson",
       "status": "candidate",
       "text": "Checks"
     }
@@ -893,11 +983,53 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": ".github/workflows/checks.yaml",
       "source_repo": "optuna/optunahub-registry"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/checks.yaml",
+      "source_repo": "pylint-dev/pylint"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/checks.yml",
+      "source_repo": "conventional-changelog/conventional-changelog"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/checks.yml",
+      "source_repo": "TrigenSoftware/simple-release"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/checks.yaml",
+      "source_repo": "optuna/optunahub"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/checks.yml",
+      "source_repo": "microsoft/autogen"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/checks.yaml",
+      "source_repo": "DanielNoord/pydocstringformatter"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/checks.yml",
+      "source_repo": "ibireme/yyjson"
     }
   ],
   "first_seen_at": "2026-04-18T11:57:36.597358+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

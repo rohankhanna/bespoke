@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Dependabot Pull Request Approve and Merge"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "external-secrets/external-secrets",
+      "status": "candidate-context",
+      "text": "External Secrets Operator reads information from a third-party service like AWS Secrets Manager and automatically injects the values as Kubernetes Secrets."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "external-secrets/external-secrets",
+      "status": "candidate-context",
+      "text": "Dependabot Pull Request Approve and Merge"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "external-secrets/external-secrets",
+      "status": "candidate",
+      "text": "Dependabot Pull Request Approve and Merge"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28965,
+      "status": "candidate",
+      "text": "join"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28911,
+      "status": "candidate",
+      "text": "make"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28765,
+      "status": "candidate",
+      "text": "gutter"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28765,
+      "status": "candidate",
+      "text": "hutter"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28765,
+      "status": "candidate",
+      "text": "mak"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Dependabot Pull Request Approve and Merge",
+  "concept_id": "dependabot-pull-request-approve-and-merge",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/dependabot-approve.yml",
+      "source_repo": "external-secrets/external-secrets"
+    }
+  ],
+  "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Dependabot Pull Request Approve and Merge",
+      "sense_id": "dependabot-pull-request-approve-and-merge#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

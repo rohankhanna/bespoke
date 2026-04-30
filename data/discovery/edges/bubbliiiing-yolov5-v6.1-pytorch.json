@@ -1,0 +1,34 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "bubbliiiing/yolov5-v6.1-pytorch",
+      "target": "bubbliiiing/yolox-pytorch",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "bubbliiiing/yolov5-v6.1-pytorch",
+      "target": "bubbliiiing/yolov7-pytorch",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "bubbliiiing/yolov5-v6.1-pytorch",
+      "target": "bubbliiiing/yolov7-tiny-pytorch",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "bubbliiiing/yolov5-v6.1-pytorch",
+      "target": "cartucho/map",
+      "target_type": "repository"
+    }
+  ],
+  "generated_at": "2026-04-30T00:37:16.824464+00:00",
+  "source_repo": "bubbliiiing/yolov5-v6.1-pytorch"
+}

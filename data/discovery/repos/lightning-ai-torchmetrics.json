@@ -1,0 +1,377 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_focus-diff.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_focus-diff.yml"
+    },
+    {
+      "component": "Lightning-AI/utilities/.github/workflows/check-typing.yml@v0.15.2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-checks.yml"
+    },
+    {
+      "component": "Lightning-AI/utilities/.github/workflows/check-schema.yml@v0.15.2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-checks.yml"
+    },
+    {
+      "component": "Lightning-AI/utilities/.github/workflows/check-package.yml@v0.15.3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-checks.yml"
+    },
+    {
+      "component": "Lightning-AI/utilities/.github/workflows/check-md-links.yml@v0.15.2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-checks.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-integrate.yml"
+    },
+    {
+      "component": "astral-sh/setup-uv@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-integrate.yml"
+    },
+    {
+      "component": "readthedocs/actions/preview@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-rtfd.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-tests.yml"
+    },
+    {
+      "component": "astral-sh/setup-uv@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-tests.yml"
+    },
+    {
+      "component": "codecov/codecov-action@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-tests.yml"
+    },
+    {
+      "component": "Lightning-AI/utilities/.github/workflows/cleanup-caches.yml@v0.15.2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/clear-cache.yml"
+    },
+    {
+      "component": "Lightning-AI/utilities/.github/workflows/cleanup-caches.yml@v0.15.2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/clear-cache.yml"
+    },
+    {
+      "component": "peter-evans/create-or-update-comment@v5.0.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cmd-help.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_focus-diff.yml",
+      "source_repo": "Lightning-AI/torchmetrics",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_focus-diff.yml",
+      "source_repo": "Lightning-AI/torchmetrics",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/_focus-diff.yml",
+      "source_repo": "Lightning-AI/torchmetrics",
+      "target": "Evaluate diff",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-checks.yml",
+      "source_repo": "Lightning-AI/torchmetrics",
+      "target": "Lightning-AI/utilities/.github/workflows/check-typing.yml@v0.15.2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-checks.yml",
+      "source_repo": "Lightning-AI/torchmetrics",
+      "target": "Lightning-AI/utilities/.github/workflows/check-schema.yml@v0.15.2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-checks.yml",
+      "source_repo": "Lightning-AI/torchmetrics",
+      "target": "Lightning-AI/utilities/.github/workflows/check-package.yml@v0.15.3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-checks.yml",
+      "source_repo": "Lightning-AI/torchmetrics",
+      "target": "Lightning-AI/utilities/.github/workflows/check-md-links.yml@v0.15.2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci-checks.yml",
+      "source_repo": "Lightning-AI/torchmetrics",
+      "target": "General checks",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-integrate.yml",
+      "source_repo": "Lightning-AI/torchmetrics",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-integrate.yml",
+      "source_repo": "Lightning-AI/torchmetrics",
+      "target": "astral-sh/setup-uv@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-rtfd.yml",
+      "source_repo": "Lightning-AI/torchmetrics",
+      "target": "readthedocs/actions/preview@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci-rtfd.yml",
+      "source_repo": "Lightning-AI/torchmetrics",
+      "target": "RTFD Preview",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-tests.yml",
+      "source_repo": "Lightning-AI/torchmetrics",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-tests.yml",
+      "source_repo": "Lightning-AI/torchmetrics",
+      "target": "astral-sh/setup-uv@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-tests.yml",
+      "source_repo": "Lightning-AI/torchmetrics",
+      "target": "codecov/codecov-action@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/clear-cache.yml",
+      "source_repo": "Lightning-AI/torchmetrics",
+      "target": "Lightning-AI/utilities/.github/workflows/cleanup-caches.yml@v0.15.2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/clear-cache.yml",
+      "source_repo": "Lightning-AI/torchmetrics",
+      "target": "Clear cache ...",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cmd-help.yml",
+      "source_repo": "Lightning-AI/torchmetrics",
+      "target": "peter-evans/create-or-update-comment@v5.0.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Lightning-AI/torchmetrics",
+      "target": "analyses",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Lightning-AI/torchmetrics",
+      "target": "data-science",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Lightning-AI/torchmetrics",
+      "target": "deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Lightning-AI/torchmetrics",
+      "target": "machine-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Lightning-AI/torchmetrics",
+      "target": "metrics",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Lightning-AI/torchmetrics",
+      "target": "pytorch",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T03:51:55.353495+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 13923
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 5291
+    },
+    {
+      "path": "requirements.txt",
+      "size": 25
+    },
+    {
+      "path": ".github/workflows/_focus-diff.yml",
+      "size": 874
+    },
+    {
+      "path": ".github/workflows/ci-checks.yml",
+      "size": 1326
+    },
+    {
+      "path": ".github/workflows/ci-integrate.yml",
+      "size": 3491
+    },
+    {
+      "path": ".github/workflows/ci-rtfd.yml",
+      "size": 275
+    },
+    {
+      "path": ".github/workflows/ci-tests.yml",
+      "size": 9786
+    },
+    {
+      "path": ".github/workflows/clear-cache.yml",
+      "size": 1257
+    },
+    {
+      "path": ".github/workflows/cmd-help.yml",
+      "size": 811
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Machine learning metrics for distributed, scalable PyTorch applications.",
+    "fork": false,
+    "full_name": "Lightning-AI/torchmetrics",
+    "html_url": "https://github.com/Lightning-AI/torchmetrics",
+    "language": "Python",
+    "pushed_at": "2026-04-21T08:54:34Z",
+    "stargazers_count": 2433,
+    "topics": [
+      "analyses",
+      "data-science",
+      "deep-learning",
+      "machine-learning",
+      "metrics",
+      "python",
+      "pytorch"
+    ],
+    "updated_at": "2026-04-29T13:13:53Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Evaluate diff",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/_focus-diff.yml",
+      "term": "Evaluate diff"
+    },
+    {
+      "context_snippet": "General checks",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci-checks.yml",
+      "term": "General checks"
+    },
+    {
+      "context_snippet": "RTFD Preview",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci-rtfd.yml",
+      "term": "RTFD Preview"
+    },
+    {
+      "context_snippet": "Clear cache ...",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/clear-cache.yml",
+      "term": "Clear cache ..."
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "analyses"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "data-science"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-learning"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "machine-learning"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "metrics"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytorch"
+    }
+  ]
+}

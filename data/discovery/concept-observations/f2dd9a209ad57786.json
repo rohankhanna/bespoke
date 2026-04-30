@@ -1,0 +1,122 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "AttentionGAN for Unpaired Image-to-Image Translation & Multi-Domain Image-to-Image Translation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![License CC BY-NC-SA 4.0](https://img.shields.io/badge/license-CC4.0-blue.svg)](https://github.com/Ha0Tang/AttentionGAN/blob/master/LICENSE.md)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![License CC BY-NC-SA 4.0](https://img.shields.io/badge/license-CC4.0-blue.svg)](https://github.com/Ha0Tang/AttentionGAN/blob/master/LICENSE.md)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39719691,
+      "status": "candidate",
+      "text": "unmated"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39713343,
+      "status": "candidate",
+      "text": "unmatched"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39707170,
+      "status": "candidate",
+      "text": "mismatched"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39694436,
+      "status": "candidate",
+      "text": "odd"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29714905,
+      "status": "candidate",
+      "text": "uneven"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "unpaired",
+      "sense_id": "unpaired#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 11050,
+      "status": "candidate",
+      "text": "odd"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 11024,
+      "status": "candidate",
+      "text": "unmatched"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 4019,
+      "status": "candidate",
+      "text": "mismatched"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 2014,
+      "status": "candidate",
+      "text": "unmated"
+    }
+  ],
+  "concept_id": "unpaired",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "unpaired",
+  "observation_id": "f2dd9a209ad57786",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T00:37:16.824464+00:00",
+  "observed_text": "unpaired",
+  "source_context_snippet": "[![License CC BY-NC-SA 4.0](https://img.shields.io/badge/license-CC4.0-blue.svg)](https://github.com/Ha0Tang/AttentionGAN/blob/master/LICENSE.md)",
+  "source_file": null,
+  "source_repo": "Ha0Tang/AttentionGAN",
+  "source_repo_description": "AttentionGAN for Unpaired Image-to-Image Translation & Multi-Domain Image-to-Image Translation"
+}

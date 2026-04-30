@@ -1,0 +1,77 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "jtoy/awesome-tensorflow",
+      "target": "agermanidis/thingscoop",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "jtoy/awesome-tensorflow",
+      "target": "akosiorek/hart",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "jtoy/awesome-tensorflow",
+      "target": "akosiorek/attend_infer_repeat",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "jtoy/awesome-tensorflow",
+      "target": "amygdala/tensorflow-workshop",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T02:01:24.906929+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 31091
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "TensorFlow - A curated list of dedicated resources http://tensorflow.org",
+    "fork": false,
+    "full_name": "jtoy/awesome-tensorflow",
+    "html_url": "https://github.com/jtoy/awesome-tensorflow",
+    "language": null,
+    "pushed_at": "2026-02-08T17:13:47Z",
+    "stargazers_count": 17574,
+    "topics": [],
+    "updated_at": "2026-04-29T09:23:08Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "agermanidis/thingscoop",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "akosiorek/attend_infer_repeat",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "akosiorek/hart",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "amygdala/tensorflow-workshop",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

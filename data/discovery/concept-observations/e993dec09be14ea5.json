@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Firebase Android SDK"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Check Firebase AI Responses"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Check Firebase AI Responses"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 16065,
+      "status": "candidate",
+      "text": "ais"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15187,
+      "status": "candidate",
+      "text": "list"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15065,
+      "status": "candidate",
+      "text": "bot"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15065,
+      "status": "candidate",
+      "text": "complex"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15065,
+      "status": "candidate",
+      "text": "interval"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Check Firebase AI Responses",
+      "sense_id": "check-firebase-ai-responses#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "check-firebase-ai-responses",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "check-firebase-ai-responses",
+  "observation_id": "e993dec09be14ea5",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-30T00:37:16.824464+00:00",
+  "observed_text": "Check Firebase AI Responses",
+  "source_context_snippet": "Check Firebase AI Responses",
+  "source_file": ".github/workflows/check-firebaseai-responses.yml",
+  "source_repo": "firebase/firebase-android-sdk",
+  "source_repo_description": "Firebase Android SDK"
+}

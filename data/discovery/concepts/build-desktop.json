@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Build Desktop"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bytebot-ai/bytebot",
+      "status": "candidate-context",
+      "text": "Bytebot is a self-hosted AI desktop agent that automates computer tasks through natural language commands, operating within a containerized Linux desktop environment."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bytebot-ai/bytebot",
+      "status": "candidate-context",
+      "text": "Build Desktop"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bytebot-ai/bytebot",
+      "status": "candidate",
+      "text": "Build Desktop"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11107,
+      "status": "candidate",
+      "text": "dell"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11107,
+      "status": "candidate",
+      "text": "desk"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11107,
+      "status": "candidate",
+      "text": "font"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11107,
+      "status": "candidate",
+      "text": "icon"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11001,
+      "status": "candidate",
+      "text": "architecture"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Build Desktop",
+  "concept_id": "build-desktop",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/build-desktop.yaml",
+      "source_repo": "bytebot-ai/bytebot"
+    }
+  ],
+  "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Build Desktop",
+      "sense_id": "build-desktop#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

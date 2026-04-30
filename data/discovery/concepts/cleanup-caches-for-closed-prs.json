@@ -7,9 +7,65 @@
     "workflow-process",
     "data-document-artifact"
   ],
-  "candidate_definitions": [],
-  "candidate_glosses": [],
-  "candidate_related_terms": [],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cargo-bins/cargo-binstall",
+      "status": "candidate-context",
+      "text": "Binary installation for rust projects"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cargo-bins/cargo-binstall",
+      "status": "candidate-context",
+      "text": "Cleanup caches for closed PRs"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cargo-bins/cargo-binstall",
+      "status": "candidate",
+      "text": "Cleanup caches for closed PRs"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22495,
+      "status": "candidate",
+      "text": "revelation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22453,
+      "status": "candidate",
+      "text": "gunt"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22453,
+      "status": "candidate",
+      "text": "hunt"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22453,
+      "status": "candidate",
+      "text": "hunted"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22453,
+      "status": "candidate",
+      "text": "pit"
+    }
+  ],
   "candidate_synonyms": [],
   "canonical_name": "Cleanup caches for closed PRs",
   "concept_id": "cleanup-caches-for-closed-prs",
@@ -20,12 +76,20 @@
       "observed_at": "2026-04-18T11:32:22.637859+00:00",
       "source_file": ".github/workflows/cache-cleanup.yml",
       "source_repo": "cargo-bins/cargo-binstall"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/cache-cleanup.yml",
+      "source_repo": "cargo-bins/cargo-binstall"
     }
   ],
   "first_seen_at": "2026-04-18T11:32:22.637859+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-18T11:32:22.637859+00:00",
-  "lexical_providers": [],
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
   "lexical_status": "unresolved",
   "possible_senses": [
     {

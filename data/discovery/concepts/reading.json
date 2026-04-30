@@ -1,0 +1,136 @@
+{
+  "aliases": [
+    "reading"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "elixir-webrtc/xav",
+      "status": "candidate-context",
+      "text": "Elixir wrapper over FFmpeg for reading and decoding audio and video data"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "elixir-webrtc/xav",
+      "status": "candidate-context",
+      "text": "[![Hex.pm](https://img.shields.io/hexpm/v/xav.svg)](https://hex.pm/packages/xav)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "elixir-webrtc/xav",
+      "status": "candidate",
+      "text": "[![Hex.pm](https://img.shields.io/hexpm/v/xav.svg)](https://hex.pm/packages/xav)"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39897143,
+      "status": "candidate",
+      "text": "recital"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39897026,
+      "status": "candidate",
+      "text": "recitation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39896216,
+      "status": "candidate",
+      "text": "interpretation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39891946,
+      "status": "candidate",
+      "text": "version"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29899224,
+      "status": "candidate",
+      "text": "meter reading"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 21051,
+      "status": "candidate",
+      "text": "interpretation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 14041,
+      "status": "candidate",
+      "text": "recital"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 11048,
+      "status": "candidate",
+      "text": "version"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 4033,
+      "status": "candidate",
+      "text": "recitation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 10,
+      "status": "candidate",
+      "text": "meter reading"
+    }
+  ],
+  "canonical_name": "reading",
+  "concept_id": "reading",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "elixir-webrtc/xav"
+    }
+  ],
+  "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "reading",
+      "sense_id": "reading#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

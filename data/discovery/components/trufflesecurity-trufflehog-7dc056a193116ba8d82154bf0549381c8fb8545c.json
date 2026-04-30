@@ -1,0 +1,12 @@
+{
+  "component": "trufflesecurity/trufflehog@7dc056a193116ba8d82154bf0549381c8fb8545c",
+  "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/secret-scan.yml",
+      "source_repo": "bytedance/UI-TARS-desktop"
+    }
+  ]
+}

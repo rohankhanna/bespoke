@@ -1,6 +1,7 @@
 {
   "aliases": [
-    "check-style"
+    "check-style",
+    "Check style"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -31,6 +32,18 @@
       "source_repo": "git-for-windows/git",
       "status": "candidate-context",
       "text": "check-style"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "BlackSamorez/tensor_parallel",
+      "status": "candidate-context",
+      "text": "Automatically split your PyTorch models on multiple GPUs for training & inference"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "BlackSamorez/tensor_parallel",
+      "status": "candidate-context",
+      "text": "Check style"
     }
   ],
   "candidate_glosses": [
@@ -45,9 +58,51 @@
       "source_repo": "git-for-windows/git",
       "status": "candidate",
       "text": "check-style"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "BlackSamorez/tensor_parallel",
+      "status": "candidate",
+      "text": "Check style"
     }
   ],
-  "candidate_related_terms": [],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 48073,
+      "status": "candidate",
+      "text": "edit"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11688,
+      "status": "candidate",
+      "text": "audit"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11688,
+      "status": "candidate",
+      "text": "branding"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11688,
+      "status": "candidate",
+      "text": "call"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11688,
+      "status": "candidate",
+      "text": "case"
+    }
+  ],
   "candidate_synonyms": [],
   "canonical_name": "check-style",
   "concept_id": "check-style",
@@ -64,11 +119,17 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": ".github/workflows/check-style.yml",
       "source_repo": "git-for-windows/git"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/check_style.yaml",
+      "source_repo": "BlackSamorez/tensor_parallel"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

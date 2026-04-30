@@ -1,0 +1,71 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/genereate_contributor_list.yml"
+    },
+    {
+      "component": "actions/setup-python@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/genereate_contributor_list.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/genereate_contributor_list.yml",
+      "source_repo": "hpcaitech/public_assets",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/genereate_contributor_list.yml",
+      "source_repo": "hpcaitech/public_assets",
+      "target": "actions/setup-python@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/genereate_contributor_list.yml",
+      "source_repo": "hpcaitech/public_assets",
+      "target": "Generate an Image Containing All Contributors",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T03:55:31.386881+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 87
+    },
+    {
+      "path": ".github/workflows/genereate_contributor_list.yml",
+      "size": 879
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Storing publicly available assets such as images, animations and texts",
+    "fork": false,
+    "full_name": "hpcaitech/public_assets",
+    "html_url": "https://github.com/hpcaitech/public_assets",
+    "language": "Python",
+    "pushed_at": "2026-04-09T01:45:45Z",
+    "stargazers_count": 14,
+    "topics": [],
+    "updated_at": "2026-04-09T01:45:52Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Generate an Image Containing All Contributors",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/genereate_contributor_list.yml",
+      "term": "Generate an Image Containing All Contributors"
+    }
+  ]
+}

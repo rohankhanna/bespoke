@@ -175,6 +175,42 @@
       "source_repo": "dwyl/elixir-auth-google-demo",
       "status": "candidate-context",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "marmotedu/iam",
+      "status": "candidate-context",
+      "text": "\u4f01\u4e1a\u7ea7\u7684 Go \u8bed\u8a00\u5b9e\u6218\u9879\u76ee\uff1a\u8ba4\u8bc1\u548c\u6388\u6743\u7cfb\u7edf\uff08\u5e26\u914d\u5957\u8bfe\u7a0b\uff09"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "marmotedu/iam",
+      "status": "candidate-context",
+      "text": "- \u66f4\u591a\u300c\u4e91\u539f\u751f AI \u5b9e\u6218\u8425\u300d\u9879\u76ee\u89c1\uff1a[\u4e91\u539f\u751f AI \u5b9e\u6218\u8425\u9879\u76ee\u4ecb\u7ecd](https://konglingfei.com/cloudai/intro/%E4%BA%91%E5%8E%9F%E7%94%9F_AI_%E5%AE%9E%E6%88%98%E8%90%A5%E9%A1%B9%E7%9B%AE%E4%BB%8B%E7%BB%8D.html)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "googleapis/google-auth-library-nodejs",
+      "status": "candidate-context",
+      "text": "\ud83d\udd11 Google Auth Library for Node.js"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "googleapis/google-auth-library-nodejs",
+      "status": "candidate-context",
+      "text": "[//]: # \"This README.md file is auto-generated, all changes to this file will be lost.\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "omniauth/omniauth",
+      "status": "candidate-context",
+      "text": "OmniAuth is a flexible authentication system utilizing Rack middleware."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "omniauth/omniauth",
+      "status": "candidate-context",
+      "text": "[![Gem Version](http://img.shields.io/gem/v/omniauth.svg)][gem]"
     }
   ],
   "candidate_glosses": [
@@ -261,6 +297,24 @@
       "source_repo": "dwyl/elixir-auth-google-demo",
       "status": "candidate",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "marmotedu/iam",
+      "status": "candidate",
+      "text": "- \u66f4\u591a\u300c\u4e91\u539f\u751f AI \u5b9e\u6218\u8425\u300d\u9879\u76ee\u89c1\uff1a[\u4e91\u539f\u751f AI \u5b9e\u6218\u8425\u9879\u76ee\u4ecb\u7ecd](https://konglingfei.com/cloudai/intro/%E4%BA%91%E5%8E%9F%E7%94%9F_AI_%E5%AE%9E%E6%88%98%E8%90%A5%E9%A1%B9%E7%9B%AE%E4%BB%8B%E7%BB%8D.html)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "googleapis/google-auth-library-nodejs",
+      "status": "candidate",
+      "text": "[//]: # \"This README.md file is auto-generated, all changes to this file will be lost.\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "omniauth/omniauth",
+      "status": "candidate",
+      "text": "[![Gem Version](http://img.shields.io/gem/v/omniauth.svg)][gem]"
     }
   ],
   "candidate_related_terms": [
@@ -464,11 +518,47 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "dwyl/elixir-auth-google-demo"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "marmotedu/iam"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "apache/casbin"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "apache/casbin-actix-casbin-auth"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "apache/casbin-axum-casbin"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "googleapis/google-auth-library-nodejs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "omniauth/omniauth"
     }
   ],
   "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,186 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "MVIG-SJTU/AlphAction",
+      "target": "action-detection",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "MVIG-SJTU/AlphAction",
+      "target": "action-recognition",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "MVIG-SJTU/AlphAction",
+      "target": "alpha-action",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "MVIG-SJTU/AlphAction",
+      "target": "alphaction",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "MVIG-SJTU/AlphAction",
+      "target": "ava-dataset",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "MVIG-SJTU/AlphAction",
+      "target": "demo-video",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "MVIG-SJTU/AlphAction",
+      "target": "model-zoo",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "MVIG-SJTU/AlphAction",
+      "target": "pytorch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "MVIG-SJTU/AlphAction",
+      "target": "spatio-temporal-action-localization",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "MVIG-SJTU/AlphAction",
+      "target": "state-of-the-art",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "MVIG-SJTU/AlphAction",
+      "target": "torch",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T05:14:39.181502+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2733
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Spatio-Temporal Action Localization System",
+    "fork": false,
+    "full_name": "MVIG-SJTU/AlphAction",
+    "html_url": "https://github.com/MVIG-SJTU/AlphAction",
+    "language": "Python",
+    "pushed_at": "2022-05-21T10:06:24Z",
+    "stargazers_count": 427,
+    "topics": [
+      "action-detection",
+      "action-recognition",
+      "alpha-action",
+      "alphaction",
+      "ava",
+      "ava-dataset",
+      "demo-video",
+      "gpu",
+      "model-zoo",
+      "pytorch",
+      "spatio-temporal-action-localization",
+      "state-of-the-art",
+      "torch"
+    ],
+    "updated_at": "2026-04-16T11:14:42Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "AlphAction aims to detect the actions of multiple persons in videos. It is",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "action-detection"
+    },
+    {
+      "context_snippet": "AlphAction aims to detect the actions of multiple persons in videos. It is",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "action-recognition"
+    },
+    {
+      "context_snippet": "AlphAction aims to detect the actions of multiple persons in videos. It is",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "alpha-action"
+    },
+    {
+      "context_snippet": "AlphAction aims to detect the actions of multiple persons in videos. It is",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "alphaction"
+    },
+    {
+      "context_snippet": "AlphAction aims to detect the actions of multiple persons in videos. It is",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ava-dataset"
+    },
+    {
+      "context_snippet": "AlphAction aims to detect the actions of multiple persons in videos. It is",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "demo-video"
+    },
+    {
+      "context_snippet": "AlphAction aims to detect the actions of multiple persons in videos. It is",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "model-zoo"
+    },
+    {
+      "context_snippet": "AlphAction aims to detect the actions of multiple persons in videos. It is",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytorch"
+    },
+    {
+      "context_snippet": "AlphAction aims to detect the actions of multiple persons in videos. It is",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "spatio-temporal-action-localization"
+    },
+    {
+      "context_snippet": "AlphAction aims to detect the actions of multiple persons in videos. It is",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "state-of-the-art"
+    },
+    {
+      "context_snippet": "AlphAction aims to detect the actions of multiple persons in videos. It is",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "torch"
+    }
+  ]
+}

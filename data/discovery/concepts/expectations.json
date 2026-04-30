@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "expectations"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "h2non/baloo",
+      "status": "candidate-context",
+      "text": "Expressive end-to-end HTTP API testing made easy in Go"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "h2non/baloo",
+      "status": "candidate-context",
+      "text": "Expressive and versatile end-to-end HTTP API testing made easy in [Go](http://golang.org) (golang), built on top of [gentleman](https://github.com/h2non/gentleman) HTTP client toolkit."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "h2non/baloo",
+      "status": "candidate",
+      "text": "Expressive and versatile end-to-end HTTP API testing made easy in [Go](http://golang.org) (golang), built on top of [gentleman](https://github.com/h2non/gentleman) HTTP client toolkit."
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10051135,
+      "status": "candidate",
+      "text": "anticipation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10028985,
+      "status": "candidate",
+      "text": "prospect"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10026075,
+      "status": "candidate",
+      "text": "outlook"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9962832,
+      "status": "candidate",
+      "text": "expected value"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9962552,
+      "status": "candidate",
+      "text": "arithmetic mean"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "expectations",
+  "concept_id": "expectations",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "h2non/baloo"
+    }
+  ],
+  "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "expectations",
+      "sense_id": "expectations#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

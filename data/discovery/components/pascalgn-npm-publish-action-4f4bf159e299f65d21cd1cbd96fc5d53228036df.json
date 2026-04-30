@@ -1,12 +1,17 @@
 {
   "component": "pascalgn/npm-publish-action@4f4bf159e299f65d21cd1cbd96fc5d53228036df",
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/main.yml",
       "source_repo": "mockingbot/react-native-zip-archive"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/npm-publish.yml",
+      "source_repo": "solo-io/proxy-runtime"
     }
   ]
 }

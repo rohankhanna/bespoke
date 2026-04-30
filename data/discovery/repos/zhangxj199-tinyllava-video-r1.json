@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T02:02:39.432374+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9084
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 1364
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "TinyLLaVA-Video-R1: Towards Smaller LMMs for Video Reasoning",
+    "fork": false,
+    "full_name": "ZhangXJ199/TinyLLaVA-Video-R1",
+    "html_url": "https://github.com/ZhangXJ199/TinyLLaVA-Video-R1",
+    "language": "Python",
+    "pushed_at": "2025-12-24T12:40:47Z",
+    "stargazers_count": 115,
+    "topics": [],
+    "updated_at": "2026-03-09T12:10:56Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

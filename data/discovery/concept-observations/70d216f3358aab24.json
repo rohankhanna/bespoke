@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Unofficial implementation of Palette: Image-to-Image Diffusion Models by Pytorch"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[Paper](https://arxiv.org/pdf/2111.05826.pdf ) | [Project](https://iterative-refinement.github.io/palette/ )"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[Paper](https://arxiv.org/pdf/2111.05826.pdf ) | [Project](https://iterative-refinement.github.io/palette/ )"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "image-restoration",
+      "sense_id": "image-restoration#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "image-restoration",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "image-restoration",
+  "observation_id": "70d216f3358aab24",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T00:37:16.824464+00:00",
+  "observed_text": "image-restoration",
+  "source_context_snippet": "[Paper](https://arxiv.org/pdf/2111.05826.pdf ) | [Project](https://iterative-refinement.github.io/palette/ )",
+  "source_file": null,
+  "source_repo": "Janspiry/Palette-Image-to-Image-Diffusion-Models",
+  "source_repo_description": "Unofficial implementation of Palette: Image-to-Image Diffusion Models by Pytorch"
+}

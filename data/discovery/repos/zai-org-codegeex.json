@@ -1,0 +1,125 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "zai-org/CodeGeeX",
+      "target": "oneflow-inc/oneflow",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "zai-org/CodeGeeX",
+      "target": "codegeex/codegeex-fastertransformer",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "zai-org/CodeGeeX",
+      "target": "codegeex/codegeex-vscode-extension",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "zai-org/CodeGeeX",
+      "target": "dpfried/incoder",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "zai-org/CodeGeeX",
+      "target": "code-generation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "zai-org/CodeGeeX",
+      "target": "pretrained-models",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "zai-org/CodeGeeX",
+      "target": "tools",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T03:02:50.792980+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 19570
+    },
+    {
+      "path": "requirements.txt",
+      "size": 180
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "CodeGeeX: An Open Multilingual Code Generation Model (KDD 2023)",
+    "fork": false,
+    "full_name": "zai-org/CodeGeeX",
+    "html_url": "https://github.com/zai-org/CodeGeeX",
+    "language": "Python",
+    "pushed_at": "2024-08-13T05:59:38Z",
+    "stargazers_count": 8773,
+    "topics": [
+      "code-generation",
+      "pretrained-models",
+      "tools"
+    ],
+    "updated_at": "2026-04-29T21:57:19Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "codegeex/codegeex-fastertransformer",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "codegeex/codegeex-vscode-extension",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dpfried/incoder",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "oneflow-inc/oneflow",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<img src=\"resources/logo/codegeex_logo.png\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "code-generation"
+    },
+    {
+      "context_snippet": "<img src=\"resources/logo/codegeex_logo.png\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pretrained-models"
+    },
+    {
+      "context_snippet": "<img src=\"resources/logo/codegeex_logo.png\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tools"
+    }
+  ]
+}

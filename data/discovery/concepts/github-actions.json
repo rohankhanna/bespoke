@@ -496,6 +496,102 @@
       "source_repo": "antfu/changelogithub",
       "status": "candidate-context",
       "text": "[![NPM version](https://img.shields.io/npm/v/changelogithub?color=a1b858&label=)](https://www.npmjs.com/package/changelogithub)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "haya14busa/action-bumpr",
+      "status": "candidate-context",
+      "text": "\ud83d\udca5 Bump semantic version tag on merging Pull Requests with specific lables."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "haya14busa/action-bumpr",
+      "status": "candidate-context",
+      "text": "**action-bumpr** bumps semantic version tag on merging Pull Requests with"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "reviewdog/action-black",
+      "status": "candidate-context",
+      "text": "Run black with Reviewdog :dog:"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "reviewdog/action-black",
+      "status": "candidate-context",
+      "text": "[![Test](https://github.com/reviewdog/action-black/workflows/Test/badge.svg)](https://github.com/reviewdog/action-black/actions?query=workflow%3ATest)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "treosh/lighthouse-ci-action",
+      "status": "candidate-context",
+      "text": "Audit URLs using Lighthouse and test performance with Lighthouse CI."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "treosh/lighthouse-ci-action",
+      "status": "candidate-context",
+      "text": "> Audit URLs using [Lighthouse](https://developers.google.com/web/tools/lighthouse)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "borkdude/nbb-action-example",
+      "status": "candidate-context",
+      "text": "An example of writing a Github action with nbb"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "borkdude/nbb-action-example",
+      "status": "candidate-context",
+      "text": "This is an example of how to use [nbb](https://github.com/borkdude/nbb), an"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "BayesWitnesses/m2cgen",
+      "status": "candidate-context",
+      "text": "Transform ML models into a native code (Java, C, Python, Go, JavaScript, Visual Basic, C#, R, PowerShell, PHP, Dart, Haskell, Ruby, F#, Rust) with zero dependencies"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "BayesWitnesses/m2cgen",
+      "status": "candidate-context",
+      "text": "GitHub Actions"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jurplel/install-qt-action",
+      "status": "candidate-context",
+      "text": "Install Qt on your Github Actions workflows with just one simple action"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jurplel/install-qt-action",
+      "status": "candidate-context",
+      "text": "Installing Qt on Github Actions workflows manually is the worst."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "blooper05/action-rails_best_practices",
+      "status": "candidate-context",
+      "text": "Run rails_best_practices with reviewdog \ud83d\udc36"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "blooper05/action-rails_best_practices",
+      "status": "candidate-context",
+      "text": "[![test](https://img.shields.io/github/actions/workflow/status/blooper05/action-rails_best_practices/test.yml?branch=main&label=test&logo=github&style=flat-square)](https://github.com/blooper05/action-rails_best_practices/actions?query=workflow:test)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "py-cov-action/python-coverage-comment-action",
+      "status": "candidate-context",
+      "text": "Publish coverage report as PR comment, and create a coverage badge & dashboard to display on the Readme for Python projects, all inside GitHub without third party servers"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "py-cov-action/python-coverage-comment-action",
+      "status": "candidate-context",
+      "text": "[![Coverage badge](https://raw.githubusercontent.com/py-cov-action/python-coverage-comment-action/python-coverage-comment-action-data/badge.svg)](https://github.com/py-cov-action/python-coverage-comment-action/tree/python-coverage-comment-action-data)"
     }
   ],
   "candidate_glosses": [
@@ -744,6 +840,54 @@
       "source_repo": "antfu/changelogithub",
       "status": "candidate",
       "text": "[![NPM version](https://img.shields.io/npm/v/changelogithub?color=a1b858&label=)](https://www.npmjs.com/package/changelogithub)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "haya14busa/action-bumpr",
+      "status": "candidate",
+      "text": "**action-bumpr** bumps semantic version tag on merging Pull Requests with"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "reviewdog/action-black",
+      "status": "candidate",
+      "text": "[![Test](https://github.com/reviewdog/action-black/workflows/Test/badge.svg)](https://github.com/reviewdog/action-black/actions?query=workflow%3ATest)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "treosh/lighthouse-ci-action",
+      "status": "candidate",
+      "text": "> Audit URLs using [Lighthouse](https://developers.google.com/web/tools/lighthouse)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "borkdude/nbb-action-example",
+      "status": "candidate",
+      "text": "This is an example of how to use [nbb](https://github.com/borkdude/nbb), an"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "BayesWitnesses/m2cgen",
+      "status": "candidate",
+      "text": "GitHub Actions"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jurplel/install-qt-action",
+      "status": "candidate",
+      "text": "Installing Qt on Github Actions workflows manually is the worst."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "blooper05/action-rails_best_practices",
+      "status": "candidate",
+      "text": "[![test](https://img.shields.io/github/actions/workflow/status/blooper05/action-rails_best_practices/test.yml?branch=main&label=test&logo=github&style=flat-square)](https://github.com/blooper05/action-rails_best_practices/actions?query=workflow:test)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "py-cov-action/python-coverage-comment-action",
+      "status": "candidate",
+      "text": "[![Coverage badge](https://raw.githubusercontent.com/py-cov-action/python-coverage-comment-action/python-coverage-comment-action-data/badge.svg)](https://github.com/py-cov-action/python-coverage-comment-action/tree/python-coverage-comment-action-data)"
     }
   ],
   "candidate_related_terms": [
@@ -1063,11 +1207,71 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "antfu/changelogithub"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "gitleaks/gitleaks-action"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "ChristopherHX/runner.server"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "haya14busa/action-bumpr"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "reviewdog/action-black"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "treosh/lighthouse-ci-action"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "borkdude/nbb-action-example"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "BayesWitnesses/m2cgen"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "jurplel/install-qt-action"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "blooper05/action-rails_best_practices"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "py-cov-action/python-coverage-comment-action"
     }
   ],
   "first_seen_at": "2026-04-19T17:42:30.117329+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

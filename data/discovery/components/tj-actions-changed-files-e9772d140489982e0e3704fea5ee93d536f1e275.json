@@ -1,0 +1,17 @@
+{
+  "component": "tj-actions/changed-files@e9772d140489982e0e3704fea5ee93d536f1e275",
+  "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/lint-check-dotnet.yml",
+      "source_repo": "awsdocs/aws-doc-sdk-examples"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/lint-golang.yml",
+      "source_repo": "awsdocs/aws-doc-sdk-examples"
+    }
+  ]
+}

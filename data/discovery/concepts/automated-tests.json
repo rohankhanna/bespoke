@@ -2,7 +2,8 @@
   "aliases": [
     "Automated tests",
     "automated-tests",
-    "Automated Tests"
+    "Automated Tests",
+    "automated tests"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -47,6 +48,18 @@
       "source_repo": "cloudpipe/cloudpickle",
       "status": "candidate-context",
       "text": "Automated Tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "retorquere/zotero-better-bibtex",
+      "status": "candidate-context",
+      "text": "Make Zotero effective for us LaTeX holdouts"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "retorquere/zotero-better-bibtex",
+      "status": "candidate-context",
+      "text": "automated tests"
     }
   ],
   "candidate_glosses": [
@@ -67,6 +80,12 @@
       "source_repo": "cloudpipe/cloudpickle",
       "status": "candidate",
       "text": "Automated Tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "retorquere/zotero-better-bibtex",
+      "status": "candidate",
+      "text": "automated tests"
     }
   ],
   "candidate_related_terms": [
@@ -128,11 +147,23 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": ".github/workflows/testing.yml",
       "source_repo": "cloudpipe/cloudpickle"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "retorquere/zotero-better-bibtex"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "cargo-bins/cargo-quickinstall"
     }
   ],
   "first_seen_at": "2026-04-19T02:42:33.990002+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

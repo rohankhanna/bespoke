@@ -104,6 +104,18 @@
       "source_repo": "joerick/pyinstrument_cext",
       "status": "candidate-context",
       "text": "Build and upload to PyPI"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "xorbitsai/inference",
+      "status": "candidate-context",
+      "text": "Swap GPT for any LLM by changing a single line of code. Xinference lets you run open-source, speech, and multimodal models on cloud, on-prem, or your laptop \u2014 all through one unified, production-ready inference API."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "xorbitsai/inference",
+      "status": "candidate-context",
+      "text": "Build and upload to PyPI"
     }
   ],
   "candidate_glosses": [
@@ -152,6 +164,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "joerick/pyinstrument_cext",
+      "status": "candidate",
+      "text": "Build and upload to PyPI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "xorbitsai/inference",
       "status": "candidate",
       "text": "Build and upload to PyPI"
     }
@@ -251,11 +269,23 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": ".github/workflows/publish.yml",
       "source_repo": "scverse/rapids-singlecell"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "scverse/rapids-singlecell"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "xorbitsai/inference"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,132 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "confluentinc/cp-all-in-one",
+      "target": "apache-kafka",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "confluentinc/cp-all-in-one",
+      "target": "confluent",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "confluentinc/cp-all-in-one",
+      "target": "confluent-platform",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "confluentinc/cp-all-in-one",
+      "target": "docker-compose",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "confluentinc/cp-all-in-one",
+      "target": "kafka",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "confluentinc/cp-all-in-one",
+      "target": "kraft",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "confluentinc/cp-all-in-one",
+      "target": "quickstart",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T00:56:46.574345+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2230
+    },
+    {
+      "path": "Dockerfile",
+      "size": 128
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "8.2.0-post",
+    "description": "docker-compose.yml files for cp-all-in-one , cp-all-in-one-community, cp-all-in-one-cloud, Apache Kafka Confluent Platform",
+    "fork": false,
+    "full_name": "confluentinc/cp-all-in-one",
+    "html_url": "https://github.com/confluentinc/cp-all-in-one",
+    "language": "Python",
+    "pushed_at": "2026-04-27T13:56:18Z",
+    "stargazers_count": 1142,
+    "topics": [
+      "apache-kafka",
+      "confluent",
+      "confluent-platform",
+      "docker-compose",
+      "kafka",
+      "kraft",
+      "quickstart"
+    ],
+    "updated_at": "2026-04-28T10:41:20Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "![image](images/confluent-logo-300-2.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "apache-kafka"
+    },
+    {
+      "context_snippet": "![image](images/confluent-logo-300-2.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "confluent"
+    },
+    {
+      "context_snippet": "![image](images/confluent-logo-300-2.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "confluent-platform"
+    },
+    {
+      "context_snippet": "![image](images/confluent-logo-300-2.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "docker-compose"
+    },
+    {
+      "context_snippet": "![image](images/confluent-logo-300-2.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "kafka"
+    },
+    {
+      "context_snippet": "![image](images/confluent-logo-300-2.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "kraft"
+    },
+    {
+      "context_snippet": "![image](images/confluent-logo-300-2.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "quickstart"
+    }
+  ]
+}

@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-17T16:51:41.136432+00:00",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
@@ -301,6 +301,71 @@
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/scorecard.yml",
       "source_repo": "intel/ipex-llm-tutorial"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/scorecard.yml",
+      "source_repo": "google/gson"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/scorecard.yml",
+      "source_repo": "sigstore/helm-sigstore"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/scorecard.yml",
+      "source_repo": "google/certificate-transparency-go"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/scorecard.yml",
+      "source_repo": "google/trillian-examples"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/scorecard.yml",
+      "source_repo": "libevent/libevent"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/scorecard.yml",
+      "source_repo": "bytedance/UI-TARS-desktop"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/scorecard.yml",
+      "source_repo": "IntelPython/scikit-learn_bench"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/scorecard.yml",
+      "source_repo": "googleapis/java-bigquery"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/scorecards.yml",
+      "source_repo": "PowerShell/PowerShell"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/scorecard.yml",
+      "source_repo": "transparency-dev/distributor"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/scorecard.yml",
+      "source_repo": "transparency-dev/witness"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/scorecards.yml",
+      "source_repo": "jawah/charset_normalizer"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/scorecard.yml",
+      "source_repo": "mozilla/rhino"
     }
   ],
   "term": "Scorecard supply-chain security"

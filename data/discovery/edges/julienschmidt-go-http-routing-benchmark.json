@@ -1,0 +1,34 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "julienschmidt/go-http-routing-benchmark",
+      "target": "ant0ine/go-json-rest",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "julienschmidt/go-http-routing-benchmark",
+      "target": "naoina/denco",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "julienschmidt/go-http-routing-benchmark",
+      "target": "gocraft/web",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "julienschmidt/go-http-routing-benchmark",
+      "target": "mikespook/possum",
+      "target_type": "repository"
+    }
+  ],
+  "generated_at": "2026-04-30T00:37:16.824464+00:00",
+  "source_repo": "julienschmidt/go-http-routing-benchmark"
+}

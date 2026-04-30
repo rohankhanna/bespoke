@@ -1,0 +1,99 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Oreobird/tf-keras-deep-head-pose",
+      "target": "oreobird/effect3d",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Oreobird/tf-keras-deep-head-pose",
+      "target": "deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Oreobird/tf-keras-deep-head-pose",
+      "target": "head-pose-estimation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Oreobird/tf-keras-deep-head-pose",
+      "target": "keras",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Oreobird/tf-keras-deep-head-pose",
+      "target": "tensorflow",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T05:12:23.104182+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 277
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A tensorflow & keras implementation of Deep Head Pose",
+    "fork": false,
+    "full_name": "Oreobird/tf-keras-deep-head-pose",
+    "html_url": "https://github.com/Oreobird/tf-keras-deep-head-pose",
+    "language": "Python",
+    "pushed_at": "2022-06-28T01:14:23Z",
+    "stargazers_count": 70,
+    "topics": [
+      "deep-learning",
+      "head-pose-estimation",
+      "keras",
+      "tensorflow"
+    ],
+    "updated_at": "2023-04-02T23:13:51Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "oreobird/effect3d",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "A tensorflow &amp; keras implementation of Deep Head Pose",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-learning"
+    },
+    {
+      "context_snippet": "A tensorflow &amp; keras implementation of Deep Head Pose",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "head-pose-estimation"
+    },
+    {
+      "context_snippet": "A tensorflow &amp; keras implementation of Deep Head Pose",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "keras"
+    },
+    {
+      "context_snippet": "A tensorflow &amp; keras implementation of Deep Head Pose",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tensorflow"
+    }
+  ]
+}

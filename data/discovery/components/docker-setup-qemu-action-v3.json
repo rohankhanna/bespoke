@@ -1,7 +1,7 @@
 {
   "component": "docker/setup-qemu-action@v3",
   "first_seen_at": "2026-04-17T16:51:41.136432+00:00",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -742,6 +742,116 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/build.yml",
       "source_repo": "minio/directpv"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/publish-docker.yml",
+      "source_repo": "pacstall/pacstall"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/miniupnpc_wheels.yml",
+      "source_repo": "miniupnp/miniupnp"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ubuntu.yml",
+      "source_repo": "electerm/electerm-web-docker"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/docker_build.yml",
+      "source_repo": "PKU-YuanGroup/Open-Sora-Plan"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-docker-image.yaml",
+      "source_repo": "open-webui/pipelines"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "rust-cross/cargo-zigbuild"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-agent.yaml",
+      "source_repo": "bytebot-ai/bytebot"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-desktop.yaml",
+      "source_repo": "bytebot-ai/bytebot"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-ui.yaml",
+      "source_repo": "bytebot-ai/bytebot"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/docker-release-master.yml",
+      "source_repo": "swagger-api/swagger-codegen"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/maven-master.yml",
+      "source_repo": "swagger-api/swagger-codegen"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release-full-3.yml",
+      "source_repo": "swagger-api/swagger-codegen"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/docker-image.yml",
+      "source_repo": "rocker-org/binder"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/docker.yaml",
+      "source_repo": "rocker-org/bspm"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "dstackai/dstack"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "benfred/implicit"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/prerelease.yml",
+      "source_repo": "unum-cloud/USearch"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "unum-cloud/USearch"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "LukeMathWalker/cargo-chef"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/wheels-arm64.yml",
+      "source_repo": "crossbario/autobahn-python"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/archs.yml",
+      "source_repo": "ibireme/yyjson"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/compilers.yml",
+      "source_repo": "ibireme/yyjson"
     }
   ]
 }

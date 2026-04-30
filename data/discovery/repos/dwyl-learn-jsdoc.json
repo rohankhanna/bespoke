@@ -1,0 +1,65 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "dwyl/learn-jsdoc",
+      "target": "jsdoc3/jsdoc",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "dwyl/learn-jsdoc",
+      "target": "visionmedia/dox",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "dwyl/learn-jsdoc",
+      "target": "jashkenas/docco",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T02:53:42.955839+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3315
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": ":blue_book: Use JSDoc and a few carefully crafted comments to document your JavaScript code! ",
+    "fork": false,
+    "full_name": "dwyl/learn-jsdoc",
+    "html_url": "https://github.com/dwyl/learn-jsdoc",
+    "language": "CSS",
+    "pushed_at": "2022-04-06T08:17:54Z",
+    "stargazers_count": 63,
+    "topics": [],
+    "updated_at": "2025-03-25T05:51:08Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jashkenas/docco",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jsdoc3/jsdoc",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "visionmedia/dox",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

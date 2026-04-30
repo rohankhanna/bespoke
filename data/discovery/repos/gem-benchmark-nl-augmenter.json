@@ -1,0 +1,104 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nl-action.yml"
+    },
+    {
+      "component": "actions/setup-python@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nl-action.yml"
+    },
+    {
+      "component": "actions/cache@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nl-action.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "requirements.txt",
+      "source_repo": "GEM-benchmark/NL-Augmenter",
+      "target": "decypher-ai/checklist",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nl-action.yml",
+      "source_repo": "GEM-benchmark/NL-Augmenter",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nl-action.yml",
+      "source_repo": "GEM-benchmark/NL-Augmenter",
+      "target": "actions/setup-python@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nl-action.yml",
+      "source_repo": "GEM-benchmark/NL-Augmenter",
+      "target": "actions/cache@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/nl-action.yml",
+      "source_repo": "GEM-benchmark/NL-Augmenter",
+      "target": "nl-tests",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T02:44:28.270646+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 11109
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 792
+    },
+    {
+      "path": "requirements.txt",
+      "size": 519
+    },
+    {
+      "path": ".github/workflows/nl-action.yml",
+      "size": 1103
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "NL-Augmenter \ud83e\udd8e \u2192 \ud83d\udc0d A Collaborative Repository of Natural Language Transformations ",
+    "fork": false,
+    "full_name": "GEM-benchmark/NL-Augmenter",
+    "html_url": "https://github.com/GEM-benchmark/NL-Augmenter",
+    "language": "Python",
+    "pushed_at": "2024-05-19T17:51:18Z",
+    "stargazers_count": 787,
+    "topics": [],
+    "updated_at": "2026-04-01T16:39:34Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "decypher-ai/checklist",
+      "source_file": "requirements.txt"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "nl-tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/nl-action.yml",
+      "term": "nl-tests"
+    }
+  ]
+}

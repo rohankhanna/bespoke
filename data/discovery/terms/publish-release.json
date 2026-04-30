@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
@@ -76,6 +76,26 @@
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/publish-release.yml",
       "source_repo": "apollographql/apollo-kotlin"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/auto-release.yml",
+      "source_repo": "clangd/vscode-clangd"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/release-publish.yml",
+      "source_repo": "mermaid-js/mermaid-cli"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/publish_release.yaml",
+      "source_repo": "goharbor/harbor-helm"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "paulmillr/chokidar"
     }
   ],
   "term": "Publish Release"

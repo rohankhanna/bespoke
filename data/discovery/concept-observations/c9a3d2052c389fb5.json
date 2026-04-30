@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Firefox theme for night watchers \ud83e\udd89\ud83d\udd2d"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<div align = \"center\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<div align = \"center\">"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39963630,
+      "status": "candidate",
+      "text": "esthetical"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39963598,
+      "status": "candidate",
+      "text": "aesthetical"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39956123,
+      "status": "candidate",
+      "text": "artistic"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39942273,
+      "status": "candidate",
+      "text": "painterly"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39940723,
+      "status": "candidate",
+      "text": "tasteful"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "aesthetic",
+      "sense_id": "aesthetic#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 56033,
+      "status": "candidate",
+      "text": "beautiful"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 26034,
+      "status": "candidate",
+      "text": "sensuous"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 18031,
+      "status": "candidate",
+      "text": "pleasing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 16031,
+      "status": "candidate",
+      "text": "artistic"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 15031,
+      "status": "candidate",
+      "text": "tasteful"
+    }
+  ],
+  "concept_id": "aesthetic",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "aesthetic",
+  "observation_id": "c9a3d2052c389fb5",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T00:37:16.824464+00:00",
+  "observed_text": "aesthetic",
+  "source_context_snippet": "<div align = \"center\">",
+  "source_file": null,
+  "source_repo": "2KAbhishek/nightblue",
+  "source_repo_description": "Firefox theme for night watchers \ud83e\udd89\ud83d\udd2d"
+}

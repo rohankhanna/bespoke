@@ -1,0 +1,570 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-linux.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-linux.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-mac.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-mac.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-vscode.yml"
+    },
+    {
+      "component": "actions/setup-node@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-vscode.yml"
+    },
+    {
+      "component": "HaaLeo/publish-vscode-extension@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-vscode.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-vscode.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-windows.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-windows.yml"
+    },
+    {
+      "component": "posit-dev/posit-gh-actions/.github/workflows/sign-windows.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-windows.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-windows.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-windows.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/quarto-publish.yml"
+    },
+    {
+      "component": "quarto-dev/quarto-actions/setup@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/quarto-publish.yml"
+    },
+    {
+      "component": "quarto-dev/quarto-actions/publish@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/quarto-publish.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-pypi.yml"
+    },
+    {
+      "component": "astral-sh/setup-uv@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-pypi.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-pypi.yml"
+    },
+    {
+      "component": "astral-sh/setup-uv@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-pypi.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-pypi.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-vscode.yml"
+    },
+    {
+      "component": "actions/setup-node@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-vscode.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-vscode.yml"
+    },
+    {
+      "component": "actions/setup-node@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-vscode.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-vscode.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-vscode.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-vscode.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-vscode.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-vscode.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-vscode.yml"
+    },
+    {
+      "component": "actions/setup-node@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-vscode.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-vscode.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-vscode.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-vscode.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-vscode.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-vscode.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-vscode.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "posit-dev/air",
+      "target": "biomejs/biome",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "posit-dev/air",
+      "target": "rust-analyzer/rowan",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "Cargo.toml",
+      "source_repo": "posit-dev/air",
+      "target": "lionel-/biome",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "Cargo.toml",
+      "source_repo": "posit-dev/air",
+      "target": "ebkalderon/tower-lsp",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-linux.yml",
+      "source_repo": "posit-dev/air",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-linux.yml",
+      "source_repo": "posit-dev/air",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-linux.yml",
+      "source_repo": "posit-dev/air",
+      "target": "Build Linux",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-mac.yml",
+      "source_repo": "posit-dev/air",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-mac.yml",
+      "source_repo": "posit-dev/air",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-mac.yml",
+      "source_repo": "posit-dev/air",
+      "target": "Build macOS",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-vscode.yml",
+      "source_repo": "posit-dev/air",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-vscode.yml",
+      "source_repo": "posit-dev/air",
+      "target": "actions/setup-node@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-vscode.yml",
+      "source_repo": "posit-dev/air",
+      "target": "HaaLeo/publish-vscode-extension@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-vscode.yml",
+      "source_repo": "posit-dev/air",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-vscode.yml",
+      "source_repo": "posit-dev/air",
+      "target": "Build VS Code Extension",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-windows.yml",
+      "source_repo": "posit-dev/air",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-windows.yml",
+      "source_repo": "posit-dev/air",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-windows.yml",
+      "source_repo": "posit-dev/air",
+      "target": "posit-dev/posit-gh-actions/.github/workflows/sign-windows.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-windows.yml",
+      "source_repo": "posit-dev/air",
+      "target": "actions/download-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-windows.yml",
+      "source_repo": "posit-dev/air",
+      "target": "Build Windows",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "posit-dev/air",
+      "target": "Build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/quarto-publish.yml",
+      "source_repo": "posit-dev/air",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/quarto-publish.yml",
+      "source_repo": "posit-dev/air",
+      "target": "quarto-dev/quarto-actions/setup@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/quarto-publish.yml",
+      "source_repo": "posit-dev/air",
+      "target": "quarto-dev/quarto-actions/publish@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/quarto-publish.yml",
+      "source_repo": "posit-dev/air",
+      "target": "Render and Publish",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-pypi.yml",
+      "source_repo": "posit-dev/air",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-pypi.yml",
+      "source_repo": "posit-dev/air",
+      "target": "astral-sh/setup-uv@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-pypi.yml",
+      "source_repo": "posit-dev/air",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-pypi.yml",
+      "source_repo": "posit-dev/air",
+      "target": "actions/download-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-pypi.yml",
+      "source_repo": "posit-dev/air",
+      "target": "Release PyPI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-vscode.yml",
+      "source_repo": "posit-dev/air",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-vscode.yml",
+      "source_repo": "posit-dev/air",
+      "target": "actions/setup-node@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-vscode.yml",
+      "source_repo": "posit-dev/air",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-vscode.yml",
+      "source_repo": "posit-dev/air",
+      "target": "actions/download-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-vscode.yml",
+      "source_repo": "posit-dev/air",
+      "target": "Release extension",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T00:46:13.305315+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3431
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 4841
+    },
+    {
+      "path": ".github/workflows/build-linux.yml",
+      "size": 1995
+    },
+    {
+      "path": ".github/workflows/build-mac.yml",
+      "size": 1350
+    },
+    {
+      "path": ".github/workflows/build-vscode.yml",
+      "size": 954
+    },
+    {
+      "path": ".github/workflows/build-windows.yml",
+      "size": 2635
+    },
+    {
+      "path": ".github/workflows/build.yml",
+      "size": 463
+    },
+    {
+      "path": ".github/workflows/quarto-publish.yml",
+      "size": 517
+    },
+    {
+      "path": ".github/workflows/release-pypi.yml",
+      "size": 3807
+    },
+    {
+      "path": ".github/workflows/release-vscode.yml",
+      "size": 5361
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "R formatter and language server",
+    "fork": false,
+    "full_name": "posit-dev/air",
+    "html_url": "https://github.com/posit-dev/air",
+    "language": "Rust",
+    "pushed_at": "2026-03-31T12:27:15Z",
+    "stargazers_count": 411,
+    "topics": [],
+    "updated_at": "2026-04-29T14:02:11Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "biomejs/biome",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "rust-analyzer/rowan",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ebkalderon/tower-lsp",
+      "source_file": "Cargo.toml"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "lionel-/biome",
+      "source_file": "Cargo.toml"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "\"Build Linux\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-linux.yml",
+      "term": "Build Linux"
+    },
+    {
+      "context_snippet": "\"Build macOS\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-mac.yml",
+      "term": "Build macOS"
+    },
+    {
+      "context_snippet": "Build VS Code Extension",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-vscode.yml",
+      "term": "Build VS Code Extension"
+    },
+    {
+      "context_snippet": "\"Build Windows\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-windows.yml",
+      "term": "Build Windows"
+    },
+    {
+      "context_snippet": "\"Build\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "term": "Build"
+    },
+    {
+      "context_snippet": "Render and Publish",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/quarto-publish.yml",
+      "term": "Render and Publish"
+    },
+    {
+      "context_snippet": "Release PyPI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-pypi.yml",
+      "term": "Release PyPI"
+    },
+    {
+      "context_snippet": "Release extension",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-vscode.yml",
+      "term": "Release extension"
+    }
+  ]
+}

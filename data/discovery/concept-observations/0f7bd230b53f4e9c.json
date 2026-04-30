@@ -84,7 +84,7 @@
   "normalized_form": "loongarch64-clang-qemu-test",
   "observation_id": "0f7bd230b53f4e9c",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-04-29T18:37:00.726333+00:00",
+  "observed_at": "2026-04-30T00:37:16.824464+00:00",
   "observed_text": "loongarch64 clang qemu test",
   "source_context_snippet": "loongarch64 clang qemu test",
   "source_file": ".github/workflows/loongarch64_clang.yml",

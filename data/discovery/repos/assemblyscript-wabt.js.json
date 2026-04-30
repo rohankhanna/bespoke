@@ -1,0 +1,203 @@
+{
+  "components": [
+    {
+      "component": "assemblyscript",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "dateformat",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "semver",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "simple-git",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "tape",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "actions/checkout@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "AssemblyScript/wabt.js",
+      "target": "webassembly/exception-handling",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "AssemblyScript/wabt.js",
+      "target": "webassembly/function-references",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "AssemblyScript/wabt.js",
+      "target": "webassembly/bulk-memory-operations",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "AssemblyScript/wabt.js",
+      "target": "webassembly/extended-const",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "AssemblyScript/wabt.js",
+      "target": "assemblyscript",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "AssemblyScript/wabt.js",
+      "target": "dateformat",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "AssemblyScript/wabt.js",
+      "target": "semver",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "AssemblyScript/wabt.js",
+      "target": "simple-git",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "AssemblyScript/wabt.js",
+      "target": "tape",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "AssemblyScript/wabt.js",
+      "target": "actions/checkout@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "AssemblyScript/wabt.js",
+      "target": "Build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AssemblyScript/wabt.js",
+      "target": "wabt",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AssemblyScript/wabt.js",
+      "target": "webassembly",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T00:54:58.266749+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7470
+    },
+    {
+      "path": "package.json",
+      "size": 1391
+    },
+    {
+      "path": ".github/workflows/build.yml",
+      "size": 4524
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A buildbot for wabt.js, a port of WABT to the Web, with TypeScript support.",
+    "fork": false,
+    "full_name": "AssemblyScript/wabt.js",
+    "html_url": "https://github.com/AssemblyScript/wabt.js",
+    "language": "JavaScript",
+    "pushed_at": "2026-03-10T18:40:36Z",
+    "stargazers_count": 172,
+    "topics": [
+      "javascript",
+      "typescript",
+      "wabt",
+      "webassembly"
+    ],
+    "updated_at": "2026-04-15T19:25:42Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "webassembly/bulk-memory-operations",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "webassembly/exception-handling",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "webassembly/extended-const",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "webassembly/function-references",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "term": "Build"
+    },
+    {
+      "context_snippet": "wabt.js",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "wabt"
+    },
+    {
+      "context_snippet": "wabt.js",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "webassembly"
+    }
+  ]
+}

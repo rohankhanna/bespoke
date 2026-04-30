@@ -1,6 +1,7 @@
 {
   "aliases": [
-    "Check build"
+    "Check build",
+    "check-build"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -19,6 +20,18 @@
       "source_repo": "void-linux/void-packages",
       "status": "candidate-context",
       "text": "Check build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mjpost/sacrebleu",
+      "status": "candidate-context",
+      "text": "Reference BLEU implementation that auto-downloads test sets and reports a version string to facilitate cross-lab comparisons"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mjpost/sacrebleu",
+      "status": "candidate-context",
+      "text": "check-build"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +40,12 @@
       "source_repo": "void-linux/void-packages",
       "status": "candidate",
       "text": "Check build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mjpost/sacrebleu",
+      "status": "candidate",
+      "text": "check-build"
     }
   ],
   "candidate_related_terms": [
@@ -76,11 +95,17 @@
       "observed_at": "2026-04-22T18:52:26.467154+00:00",
       "source_file": ".github/workflows/build.yaml",
       "source_repo": "void-linux/void-packages"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/check-build.yml",
+      "source_repo": "mjpost/sacrebleu"
     }
   ],
   "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

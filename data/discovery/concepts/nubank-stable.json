@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "nubank-stable"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nubank/matcher-combinators",
+      "status": "candidate-context",
+      "text": "Library for creating matcher combinator to compare nested data structures"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nubank/matcher-combinators",
+      "status": "candidate-context",
+      "text": "Library for making assertions about nested data structures."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nubank/matcher-combinators",
+      "status": "candidate",
+      "text": "Library for making assertions about nested data structures."
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "nubank-stable",
+  "concept_id": "nubank-stable",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "nubank/matcher-combinators"
+    }
+  ],
+  "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "nubank-stable",
+      "sense_id": "nubank-stable#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

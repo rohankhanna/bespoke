@@ -1,7 +1,7 @@
 {
   "component": "astral-sh/setup-uv@v5",
   "first_seen_at": "2026-04-18T03:50:57.229967+00:00",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -512,6 +512,106 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/build-wheels.yml",
       "source_repo": "kingbri1/flash-attention"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/go.yml",
+      "source_repo": "autokitteh/autokitteh"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "plotly/graphing-library-docs"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release-all.yml",
+      "source_repo": "attack68/rateslib"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release-linux.yml",
+      "source_repo": "attack68/rateslib"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release-macos.yml",
+      "source_repo": "attack68/rateslib"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release-musllinux.yml",
+      "source_repo": "attack68/rateslib"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release-sdist.yml",
+      "source_repo": "attack68/rateslib"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release-windows.yml",
+      "source_repo": "attack68/rateslib"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ubuntu-latest-python-specific.yml",
+      "source_repo": "attack68/rateslib"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-artifacts.yml",
+      "source_repo": "dstackai/dstack"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-docs.yml",
+      "source_repo": "dstackai/dstack"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "dstackai/dstack"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/changelog.yml",
+      "source_repo": "plone/cookieplone-templates"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/checks.yml",
+      "source_repo": "microsoft/autogen"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "microsoft/autogen"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "microsoft/autogen"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/dotnet-build.yml",
+      "source_repo": "microsoft/autogen"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/integration.yml",
+      "source_repo": "microsoft/autogen"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test-hurl-postgresql.yml",
+      "source_repo": "c4ffein/realworld-django-ninja"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test-hurl-sqlite.yml",
+      "source_repo": "c4ffein/realworld-django-ninja"
     }
   ]
 }

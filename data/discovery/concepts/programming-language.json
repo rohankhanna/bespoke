@@ -271,6 +271,66 @@
       "source_repo": "luau-lang/luau",
       "status": "candidate-context",
       "text": "Luau ![CI](https://github.com/luau-lang/luau/actions/workflows/build.yml/badge.svg) [![codecov](https://codecov.io/gh/luau-lang/luau/branch/master/graph/badge.svg)](https://codecov.io/gh/luau-lang/luau)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "SpencerPark/MellowD",
+      "status": "candidate-context",
+      "text": "Programmable music! A compiler and high level language."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SpencerPark/MellowD",
+      "status": "candidate-context",
+      "text": "Mellow D"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ruby/ruby",
+      "status": "candidate-context",
+      "text": "The Ruby Programming Language"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ruby/ruby",
+      "status": "candidate-context",
+      "text": "[![Actions Status: MinGW](https://github.com/ruby/ruby/workflows/MinGW/badge.svg)](https://github.com/ruby/ruby/actions?query=workflow%3A\"MinGW\")"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "luau-lang/rfcs",
+      "status": "candidate-context",
+      "text": "RFCs for Luau evolution"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "luau-lang/rfcs",
+      "status": "candidate-context",
+      "text": "Background"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "google/wuffs",
+      "status": "candidate-context",
+      "text": "Wrangling Untrusted File Formats Safely"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/wuffs",
+      "status": "candidate-context",
+      "text": "Wuffs is a **memory-safe programming language** (and a **standard library**"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "erg-lang/erg",
+      "status": "candidate-context",
+      "text": "A statically typed language compatible with Python"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "erg-lang/erg",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -405,6 +465,36 @@
       "source_repo": "luau-lang/luau",
       "status": "candidate",
       "text": "Luau ![CI](https://github.com/luau-lang/luau/actions/workflows/build.yml/badge.svg) [![codecov](https://codecov.io/gh/luau-lang/luau/branch/master/graph/badge.svg)](https://codecov.io/gh/luau-lang/luau)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SpencerPark/MellowD",
+      "status": "candidate",
+      "text": "Mellow D"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ruby/ruby",
+      "status": "candidate",
+      "text": "[![Actions Status: MinGW](https://github.com/ruby/ruby/workflows/MinGW/badge.svg)](https://github.com/ruby/ruby/actions?query=workflow%3A\"MinGW\")"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "luau-lang/rfcs",
+      "status": "candidate",
+      "text": "Background"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/wuffs",
+      "status": "candidate",
+      "text": "Wuffs is a **memory-safe programming language** (and a **standard library**"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "erg-lang/erg",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_related_terms": [],
@@ -580,11 +670,53 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "luau-lang/luau"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "argotorg/solidity"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "SpencerPark/MellowD"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "ruby/ruby"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "luau-lang/luau"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "luau-lang/rfcs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "google/wuffs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "erg-lang/erg"
     }
   ],
   "first_seen_at": "2026-04-19T01:08:57.644140+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

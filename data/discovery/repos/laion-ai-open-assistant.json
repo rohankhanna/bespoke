@@ -1,0 +1,473 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-frontend.yaml"
+    },
+    {
+      "component": "actions/setup-node@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-frontend.yaml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-docs-site.yaml"
+    },
+    {
+      "component": "actions/setup-node@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-docs-site.yaml"
+    },
+    {
+      "component": "peaceiris/actions-gh-pages@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-docs-site.yaml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-to-node.yaml"
+    },
+    {
+      "component": "dawidd6/action-ansible-playbook@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-to-node.yaml"
+    },
+    {
+      "component": "dawidd6/action-ansible-playbook@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-to-node.yaml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-build.yaml"
+    },
+    {
+      "component": "docker/setup-buildx-action@v2.2.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-build.yaml"
+    },
+    {
+      "component": "docker/login-action@v2.1.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-build.yaml"
+    },
+    {
+      "component": "docker/metadata-action@v4.1.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-build.yaml"
+    },
+    {
+      "component": "docker/build-push-action@v3.2.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-build.yaml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yaml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yaml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yaml"
+    },
+    {
+      "component": "pre-commit/action@v3.0.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yaml"
+    },
+    {
+      "component": "peter-evans/create-or-update-comment@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-frontend.yaml",
+      "source_repo": "LAION-AI/Open-Assistant",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-frontend.yaml",
+      "source_repo": "LAION-AI/Open-Assistant",
+      "target": "actions/setup-node@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-frontend.yaml",
+      "source_repo": "LAION-AI/Open-Assistant",
+      "target": "Build Frontend",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-postgres.yaml",
+      "source_repo": "LAION-AI/Open-Assistant",
+      "target": "Build OASST Postgres image",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-docs-site.yaml",
+      "source_repo": "LAION-AI/Open-Assistant",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-docs-site.yaml",
+      "source_repo": "LAION-AI/Open-Assistant",
+      "target": "actions/setup-node@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-docs-site.yaml",
+      "source_repo": "LAION-AI/Open-Assistant",
+      "target": "peaceiris/actions-gh-pages@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deploy-docs-site.yaml",
+      "source_repo": "LAION-AI/Open-Assistant",
+      "target": "Deploy docs to gitHub pages",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-to-node.yaml",
+      "source_repo": "LAION-AI/Open-Assistant",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-to-node.yaml",
+      "source_repo": "LAION-AI/Open-Assistant",
+      "target": "dawidd6/action-ansible-playbook@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deploy-to-node.yaml",
+      "source_repo": "LAION-AI/Open-Assistant",
+      "target": "Deploy to node",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-build.yaml",
+      "source_repo": "LAION-AI/Open-Assistant",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-build.yaml",
+      "source_repo": "LAION-AI/Open-Assistant",
+      "target": "docker/setup-buildx-action@v2.2.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-build.yaml",
+      "source_repo": "LAION-AI/Open-Assistant",
+      "target": "docker/login-action@v2.1.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-build.yaml",
+      "source_repo": "LAION-AI/Open-Assistant",
+      "target": "docker/metadata-action@v4.1.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-build.yaml",
+      "source_repo": "LAION-AI/Open-Assistant",
+      "target": "docker/build-push-action@v3.2.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docker-build.yaml",
+      "source_repo": "LAION-AI/Open-Assistant",
+      "target": "Build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yaml",
+      "source_repo": "LAION-AI/Open-Assistant",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yaml",
+      "source_repo": "LAION-AI/Open-Assistant",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yaml",
+      "source_repo": "LAION-AI/Open-Assistant",
+      "target": "pre-commit/action@v3.0.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yaml",
+      "source_repo": "LAION-AI/Open-Assistant",
+      "target": "peter-evans/create-or-update-comment@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pre-commit.yaml",
+      "source_repo": "LAION-AI/Open-Assistant",
+      "target": "pre-commit",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/production-deploy.yaml",
+      "source_repo": "LAION-AI/Open-Assistant",
+      "target": "Deploy to prod",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/production2-deploy.yaml",
+      "source_repo": "LAION-AI/Open-Assistant",
+      "target": "Deploy to prod2",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "LAION-AI/Open-Assistant",
+      "target": "assistant",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "LAION-AI/Open-Assistant",
+      "target": "chatgpt",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "LAION-AI/Open-Assistant",
+      "target": "discord-bot",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "LAION-AI/Open-Assistant",
+      "target": "language-model",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "LAION-AI/Open-Assistant",
+      "target": "machine-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "LAION-AI/Open-Assistant",
+      "target": "nextjs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "LAION-AI/Open-Assistant",
+      "target": "rlhf",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T02:04:53.735624+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9283
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 785
+    },
+    {
+      "path": ".github/workflows/build-frontend.yaml",
+      "size": 554
+    },
+    {
+      "path": ".github/workflows/build-postgres.yaml",
+      "size": 343
+    },
+    {
+      "path": ".github/workflows/deploy-docs-site.yaml",
+      "size": 975
+    },
+    {
+      "path": ".github/workflows/deploy-to-node.yaml",
+      "size": 7451
+    },
+    {
+      "path": ".github/workflows/docker-build.yaml",
+      "size": 1907
+    },
+    {
+      "path": ".github/workflows/pre-commit.yaml",
+      "size": 1132
+    },
+    {
+      "path": ".github/workflows/production-deploy.yaml",
+      "size": 330
+    },
+    {
+      "path": ".github/workflows/production2-deploy.yaml",
+      "size": 333
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "OpenAssistant is a chat-based assistant that understands tasks, can interact with third-party systems, and retrieve information dynamically to do so.",
+    "fork": false,
+    "full_name": "LAION-AI/Open-Assistant",
+    "html_url": "https://github.com/LAION-AI/Open-Assistant",
+    "language": "Python",
+    "pushed_at": "2024-08-17T01:55:35Z",
+    "stargazers_count": 37416,
+    "topics": [
+      "ai",
+      "assistant",
+      "chatgpt",
+      "discord-bot",
+      "language-model",
+      "machine-learning",
+      "nextjs",
+      "python",
+      "rlhf"
+    ],
+    "updated_at": "2026-04-29T21:57:22Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Build Frontend",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-frontend.yaml",
+      "term": "Build Frontend"
+    },
+    {
+      "context_snippet": "Build OASST Postgres image",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-postgres.yaml",
+      "term": "Build OASST Postgres image"
+    },
+    {
+      "context_snippet": "Deploy docs to gitHub pages",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deploy-docs-site.yaml",
+      "term": "Deploy docs to gitHub pages"
+    },
+    {
+      "context_snippet": "Deploy to node",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deploy-to-node.yaml",
+      "term": "Deploy to node"
+    },
+    {
+      "context_snippet": "Build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docker-build.yaml",
+      "term": "Build"
+    },
+    {
+      "context_snippet": "pre-commit",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pre-commit.yaml",
+      "term": "pre-commit"
+    },
+    {
+      "context_snippet": "Deploy to prod",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/production-deploy.yaml",
+      "term": "Deploy to prod"
+    },
+    {
+      "context_snippet": "Deploy to prod2",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/production2-deploy.yaml",
+      "term": "Deploy to prod2"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "assistant"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "chatgpt"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "discord-bot"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "language-model"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "machine-learning"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nextjs"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rlhf"
+    }
+  ]
+}

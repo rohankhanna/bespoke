@@ -19,6 +19,18 @@
       "source_repo": "hibiken/asynq",
       "status": "candidate-context",
       "text": "<img src=\"https://user-images.githubusercontent.com/11155743/114697792-ffbfa580-9d26-11eb-8e5b-33bef69476dc.png\" alt=\"Asynq logo\" width=\"360px\" />"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "vmihailenco/taskq",
+      "status": "candidate-context",
+      "text": "Golang asynchronous task/job queue with Redis, SQS, IronMQ, and in-memory backends"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vmihailenco/taskq",
+      "status": "candidate-context",
+      "text": "![build workflow](https://github.com/vmihailenco/taskq/actions/workflows/build.yml/badge.svg)"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "hibiken/asynq",
       "status": "candidate",
       "text": "<img src=\"https://user-images.githubusercontent.com/11155743/114697792-ffbfa580-9d26-11eb-8e5b-33bef69476dc.png\" alt=\"Asynq logo\" width=\"360px\" />"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vmihailenco/taskq",
+      "status": "candidate",
+      "text": "![build workflow](https://github.com/vmihailenco/taskq/actions/workflows/build.yml/badge.svg)"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-20T03:16:48.146869+00:00",
       "source_file": null,
       "source_repo": "hibiken/asynq"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "vmihailenco/taskq"
     }
   ],
   "first_seen_at": "2026-04-20T03:16:48.146869+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-20T03:16:48.146869+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

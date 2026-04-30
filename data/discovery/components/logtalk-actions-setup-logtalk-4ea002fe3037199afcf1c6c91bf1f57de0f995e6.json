@@ -1,0 +1,12 @@
+{
+  "component": "logtalk-actions/setup-logtalk@4ea002fe3037199afcf1c6c91bf1f57de0f995e6",
+  "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "mthom/scryer-prolog"
+    }
+  ]
+}

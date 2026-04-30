@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "rte2020"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Zheng222/IMDN",
+      "status": "candidate-context",
+      "text": "Lightweight Image Super-Resolution with Information Multi-distillation Network (ACM MM 2019, Winner Award of ICCVW AIM 2019 Constrained SR Track1&Track2)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Zheng222/IMDN",
+      "status": "candidate-context",
+      "text": "Lightweight Image Super-Resolution with Information Multi-distillation Network (ACM MM 2019)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Zheng222/IMDN",
+      "status": "candidate",
+      "text": "Lightweight Image Super-Resolution with Information Multi-distillation Network (ACM MM 2019)"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "rte2020",
+  "concept_id": "rte2020",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "Zheng222/IMDN"
+    }
+  ],
+  "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "rte2020",
+      "sense_id": "rte2020#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

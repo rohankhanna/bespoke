@@ -176,6 +176,21 @@
       "source_file": ".github/workflows/main.yml"
     },
     {
+      "component": "dtolnay/rust-toolchain@nightly",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/setup-node@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
       "component": "dtolnay/rust-toolchain@stable",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/main.yml"
@@ -501,6 +516,11 @@
       "source_file": ".github/workflows/main.yml"
     },
     {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
       "component": "dtolnay/rust-toolchain@stable",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/main.yml"
@@ -512,20 +532,6 @@
     }
   ],
   "edges": [
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "wasm-bindgen/wasm-bindgen",
-      "target": "webassembly/esm-integration",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "wasm-bindgen/wasm-bindgen",
-      "target": "webassembly/proposals",
-      "target_type": "repository"
-    },
     {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/codecov.yml",
@@ -758,7 +764,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-23T05:41:59.467800+00:00",
+  "fetched_at": "2026-04-30T00:42:01.915204+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -766,11 +772,11 @@
     },
     {
       "path": "Cargo.toml",
-      "size": 3947
+      "size": 4298
     },
     {
       "path": ".github/workflows/codecov.yml",
-      "size": 1058
+      "size": 1154
     },
     {
       "path": ".github/workflows/codspeed.yml",
@@ -778,7 +784,7 @@
     },
     {
       "path": ".github/workflows/main.yml",
-      "size": 24110
+      "size": 24735
     }
   ],
   "related_repositories": [],
@@ -790,8 +796,8 @@
     "full_name": "wasm-bindgen/wasm-bindgen",
     "html_url": "https://github.com/wasm-bindgen/wasm-bindgen",
     "language": "Rust",
-    "pushed_at": "2026-04-22T17:15:44Z",
-    "stargazers_count": 8967,
+    "pushed_at": "2026-04-29T06:20:29Z",
+    "stargazers_count": 8976,
     "topics": [
       "binding-generator",
       "javascript",
@@ -799,20 +805,9 @@
       "rust-wasm",
       "wasm"
     ],
-    "updated_at": "2026-04-22T22:19:07Z"
+    "updated_at": "2026-04-29T22:26:43Z"
   },
-  "repo_links": [
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "webassembly/esm-integration",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "webassembly/proposals",
-      "source_file": "README.md"
-    }
-  ],
+  "repo_links": [],
   "terms": [
     {
       "context_snippet": "Coverage",

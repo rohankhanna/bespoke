@@ -607,6 +607,150 @@
       "source_repo": "exoscale/seql",
       "status": "candidate-context",
       "text": "seql: Simplified EDN Query Language"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "chaisql/chai",
+      "status": "candidate-context",
+      "text": "Modern embedded SQL database"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chaisql/chai",
+      "status": "candidate-context",
+      "text": "ChaiSQL is a modern embedded SQL database, written in pure Go, with a PostgreSQL-inspired API."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mymarilyn/clickhouse-driver",
+      "status": "candidate-context",
+      "text": "ClickHouse Python Driver with native interface support"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mymarilyn/clickhouse-driver",
+      "status": "candidate-context",
+      "text": "ClickHouse Python Driver"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "tidwall/tile38",
+      "status": "candidate-context",
+      "text": "Real-time Geospatial and Geofencing"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tidwall/tile38",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dgraph-io/dgraph",
+      "status": "candidate-context",
+      "text": "high-performance graph database for real-time use cases"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dgraph-io/dgraph",
+      "status": "candidate-context",
+      "text": "<picture>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lnx-search/lnx",
+      "status": "candidate-context",
+      "text": "A flexible, performant and reliable search database without the AI bullshit."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lnx-search/lnx",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "SeaQL/sea-orm",
+      "status": "candidate-context",
+      "text": "\ud83d\udc1a A powerful relational ORM for Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SeaQL/sea-orm",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mongodb/node-mongodb-native",
+      "status": "candidate-context",
+      "text": "The official MongoDB Node.js driver"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mongodb/node-mongodb-native",
+      "status": "candidate-context",
+      "text": "The official [MongoDB](https://www.mongodb.com/) driver for Node.js."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "unum-cloud/USearch",
+      "status": "candidate-context",
+      "text": "Fast Open-Source Search & Clustering engine \u00d7 for Vectors & Arbitrary Objects \u00d7 in C++, C, Python, JavaScript, Rust, Java, Objective-C, Swift, C#, GoLang, and Wolfram \ud83d\udd0d"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "unum-cloud/USearch",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">USearch</h1>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cmu-db/noisepage",
+      "status": "candidate-context",
+      "text": "Self-Driving Database Management System from Carnegie Mellon University"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cmu-db/noisepage",
+      "status": "candidate-context",
+      "text": "<a href=\"https://noise.page/\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "GreptimeTeam/greptimedb",
+      "status": "candidate-context",
+      "text": "The open-source Observability 2.0 database. One engine for metrics, logs, and traces \u2014 replacing Prometheus, Loki & ES."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "GreptimeTeam/greptimedb",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mymarilyn/aioch",
+      "status": "candidate-context",
+      "text": " aioch - is a library for accessing a ClickHouse database over native interface from the asyncio"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mymarilyn/aioch",
+      "status": "candidate-context",
+      "text": "**aioch** is a library for accessing a ClickHouse database over native interface from the asyncio."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sclorg/mariadb-container",
+      "status": "candidate-context",
+      "text": "MariaDB container images based on Red Hat Software Collections and intended for OpenShift and general usage. Users can choose between Red Hat Enterprise Linux, Fedora, and CentOS based images."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sclorg/mariadb-container",
+      "status": "candidate-context",
+      "text": "MariaDB SQL Database Server Docker Image"
     }
   ],
   "candidate_glosses": [
@@ -909,6 +1053,78 @@
       "source_repo": "exoscale/seql",
       "status": "candidate",
       "text": "seql: Simplified EDN Query Language"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chaisql/chai",
+      "status": "candidate",
+      "text": "ChaiSQL is a modern embedded SQL database, written in pure Go, with a PostgreSQL-inspired API."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mymarilyn/clickhouse-driver",
+      "status": "candidate",
+      "text": "ClickHouse Python Driver"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tidwall/tile38",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dgraph-io/dgraph",
+      "status": "candidate",
+      "text": "<picture>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lnx-search/lnx",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SeaQL/sea-orm",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mongodb/node-mongodb-native",
+      "status": "candidate",
+      "text": "The official [MongoDB](https://www.mongodb.com/) driver for Node.js."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "unum-cloud/USearch",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">USearch</h1>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cmu-db/noisepage",
+      "status": "candidate",
+      "text": "<a href=\"https://noise.page/\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "GreptimeTeam/greptimedb",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mymarilyn/aioch",
+      "status": "candidate",
+      "text": "**aioch** is a library for accessing a ClickHouse database over native interface from the asyncio."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sclorg/mariadb-container",
+      "status": "candidate",
+      "text": "MariaDB SQL Database Server Docker Image"
     }
   ],
   "candidate_related_terms": [
@@ -1336,11 +1552,95 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "exoscale/seql"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "chaisql/chai"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "mymarilyn/clickhouse-driver"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "olric-data/olric"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "tidwall/tile38"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "dgraph-io/dgraph"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "WiseLibs/better-sqlite3"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "lnx-search/lnx"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "SeaQL/sea-orm"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "mongodb/node-mongodb-native"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "unum-cloud/USearch"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "cmu-db/noisepage"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "GreptimeTeam/greptimedb"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "mymarilyn/aioch"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "sclorg/mariadb-container"
     }
   ],
   "first_seen_at": "2026-04-20T03:16:48.146869+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "CI: Synchronize Labels"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "amperser/proselint",
+      "status": "candidate-context",
+      "text": "A linter for prose."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "amperser/proselint",
+      "status": "candidate-context",
+      "text": "\"CI: Synchronize Labels\""
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "amperser/proselint",
+      "status": "candidate",
+      "text": "\"CI: Synchronize Labels\""
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10549,
+      "status": "candidate",
+      "text": "tagging"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10523,
+      "status": "candidate",
+      "text": "crotalus mitchellii"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10523,
+      "status": "candidate",
+      "text": "gatehouse"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10523,
+      "status": "candidate",
+      "text": "speckled rattlesnake"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10496,
+      "status": "candidate",
+      "text": "tag"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "CI: Synchronize Labels",
+  "concept_id": "ci-synchronize-labels",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/ci-label.yml",
+      "source_repo": "amperser/proselint"
+    }
+  ],
+  "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "CI: Synchronize Labels",
+      "sense_id": "ci-synchronize-labels#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

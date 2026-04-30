@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Official implementation of PVT series"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "- (2022/08/09) Application examples for polyp segmentation (polyp-pvt) and vision-language modeling."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "- (2022/08/09) Application examples for polyp segmentation (polyp-pvt) and vision-language modeling."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39792322,
+      "status": "candidate",
+      "text": "spine"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39792115,
+      "status": "candidate",
+      "text": "vertebral column"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39791994,
+      "status": "candidate",
+      "text": "spinal column"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39787935,
+      "status": "candidate",
+      "text": "guts"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39650323,
+      "status": "candidate",
+      "text": "grit"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "backbone",
+      "sense_id": "backbone#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 30075,
+      "status": "candidate",
+      "text": "anchor"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 23054,
+      "status": "candidate",
+      "text": "grit"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 22038,
+      "status": "candidate",
+      "text": "gumption"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 20034,
+      "status": "candidate",
+      "text": "linchpin"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 17066,
+      "status": "candidate",
+      "text": "back"
+    }
+  ],
+  "concept_id": "backbone",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "backbone",
+  "observation_id": "26270af353544932",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T00:37:16.824464+00:00",
+  "observed_text": "backbone",
+  "source_context_snippet": "- (2022/08/09) Application examples for polyp segmentation (polyp-pvt) and vision-language modeling.",
+  "source_file": null,
+  "source_repo": "whai362/PVT",
+  "source_repo_description": "Official implementation of PVT series"
+}

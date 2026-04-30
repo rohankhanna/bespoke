@@ -84,7 +84,7 @@
   "normalized_form": "alerts",
   "observation_id": "b3580a063bf6aceb",
   "observation_kind": "repo-topic",
-  "observed_at": "2026-04-23T01:09:11.871080+00:00",
+  "observed_at": "2026-04-30T00:37:16.824464+00:00",
   "observed_text": "alerts",
   "source_context_snippet": "[![Build Status](https://github.com/prometheus-operator/kube-prometheus/workflows/ci/badge.svg)](https://github.com/prometheus-operator/kube-prometheus/actions)",
   "source_file": null,

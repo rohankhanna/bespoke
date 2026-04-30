@@ -1,0 +1,53 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "vim/colorschemes",
+      "target": "morhetz/gruvbox",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "vim/colorschemes",
+      "target": "nanotech/jellybeans.vim",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T00:38:10.796635+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4222
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "colorschemes for Vim",
+    "fork": false,
+    "full_name": "vim/colorschemes",
+    "html_url": "https://github.com/vim/colorschemes",
+    "language": "Vim Script",
+    "pushed_at": "2026-04-28T01:56:56Z",
+    "stargazers_count": 320,
+    "topics": [],
+    "updated_at": "2026-04-29T14:51:49Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "morhetz/gruvbox",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "nanotech/jellybeans.vim",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

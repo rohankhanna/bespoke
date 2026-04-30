@@ -1,0 +1,127 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "shivammathur/setup-php@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "shivammathur/setup-php@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "myclabs/DeepCopy",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "myclabs/DeepCopy",
+      "target": "shivammathur/setup-php@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "myclabs/DeepCopy",
+      "target": "actions/cache@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "myclabs/DeepCopy",
+      "target": "Continuous Integration",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "myclabs/DeepCopy",
+      "target": "clone",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "myclabs/DeepCopy",
+      "target": "clone-deep",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T05:06:15.836989+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 10767
+    },
+    {
+      "path": ".github/workflows/ci.yaml",
+      "size": 2909
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "1.x",
+    "description": "Create deep copies (clones) of your objects",
+    "fork": false,
+    "full_name": "myclabs/DeepCopy",
+    "html_url": "https://github.com/myclabs/DeepCopy",
+    "language": "PHP",
+    "pushed_at": "2025-12-30T16:10:21Z",
+    "stargazers_count": 8895,
+    "topics": [
+      "clone",
+      "clone-deep"
+    ],
+    "updated_at": "2026-04-28T13:45:29Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "\"Continuous Integration\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yaml",
+      "term": "Continuous Integration"
+    },
+    {
+      "context_snippet": "DeepCopy helps you create deep copies (clones) of your objects. It is designed to handle cycles in the association graph.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "clone"
+    },
+    {
+      "context_snippet": "DeepCopy helps you create deep copies (clones) of your objects. It is designed to handle cycles in the association graph.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "clone-deep"
+    }
+  ]
+}

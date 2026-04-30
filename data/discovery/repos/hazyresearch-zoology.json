@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "HazyResearch/zoology",
+      "target": "hazyresearch/based",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T02:41:48.421639+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 14255
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Understand and test language model architectures on synthetic tasks.",
+    "fork": false,
+    "full_name": "HazyResearch/zoology",
+    "html_url": "https://github.com/HazyResearch/zoology",
+    "language": "Python",
+    "pushed_at": "2026-03-22T01:29:13Z",
+    "stargazers_count": 265,
+    "topics": [],
+    "updated_at": "2026-04-12T07:09:53Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "hazyresearch/based",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

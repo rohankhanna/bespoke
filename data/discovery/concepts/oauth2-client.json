@@ -19,6 +19,18 @@
       "source_repo": "golang/oauth2",
       "status": "candidate-context",
       "text": "[![Go Reference](https://pkg.go.dev/badge/golang.org/x/oauth2.svg)](https://pkg.go.dev/golang.org/x/oauth2)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "googleapis/google-auth-library-nodejs",
+      "status": "candidate-context",
+      "text": "\ud83d\udd11 Google Auth Library for Node.js"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "googleapis/google-auth-library-nodejs",
+      "status": "candidate-context",
+      "text": "[//]: # \"This README.md file is auto-generated, all changes to this file will be lost.\""
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "golang/oauth2",
       "status": "candidate",
       "text": "[![Go Reference](https://pkg.go.dev/badge/golang.org/x/oauth2.svg)](https://pkg.go.dev/golang.org/x/oauth2)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "googleapis/google-auth-library-nodejs",
+      "status": "candidate",
+      "text": "[//]: # \"This README.md file is auto-generated, all changes to this file will be lost.\""
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "golang/oauth2"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "googleapis/google-auth-library-nodejs"
     }
   ],
   "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

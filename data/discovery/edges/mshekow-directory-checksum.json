@@ -1,0 +1,160 @@
+{
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cd.yml",
+      "source_repo": "MShekow/directory-checksum",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cd.yml",
+      "source_repo": "MShekow/directory-checksum",
+      "target": "actions/setup-go@4a3601121dd01d1626a1e23e37211e3254c1c06c",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cd.yml",
+      "source_repo": "MShekow/directory-checksum",
+      "target": "anchore/sbom-action/download-syft@e22c389904149dbc22b58101806040fa8d37a610",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cd.yml",
+      "source_repo": "MShekow/directory-checksum",
+      "target": "goreleaser/goreleaser-action@ec59f474b9834571250b370d4735c50f8e2d1e29",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cd.yml",
+      "source_repo": "MShekow/directory-checksum",
+      "target": "actions/attest-build-provenance@a2bbfa25375fe432b6a289bc6b6cd05ecd0c4c32",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cd.yml",
+      "source_repo": "MShekow/directory-checksum",
+      "target": "Continuous Delivery",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "MShekow/directory-checksum",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "MShekow/directory-checksum",
+      "target": "actions/setup-go@4a3601121dd01d1626a1e23e37211e3254c1c06c",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "MShekow/directory-checksum",
+      "target": "dominikh/staticcheck-action@9716614d4101e79b4340dd97b10e54d68234e431",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "MShekow/directory-checksum",
+      "target": "Continuous Integration",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverage-badge-for-prs.yml",
+      "source_repo": "MShekow/directory-checksum",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverage-badge-for-prs.yml",
+      "source_repo": "MShekow/directory-checksum",
+      "target": "actions/setup-go@4a3601121dd01d1626a1e23e37211e3254c1c06c",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverage-badge-for-prs.yml",
+      "source_repo": "MShekow/directory-checksum",
+      "target": "tj-actions/coverage-badge-go@481919ec72da287775fef015fd9011dc75a5db05",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverage-badge-for-prs.yml",
+      "source_repo": "MShekow/directory-checksum",
+      "target": "tj-actions/verify-changed-files@a1c6acee9df209257a246f2cc6ae8cb6581c1edf",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverage-badge-for-prs.yml",
+      "source_repo": "MShekow/directory-checksum",
+      "target": "ad-m/github-push-action@4cc74773234f74829a8c21bc4d69dd4be9cfa599",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/coverage-badge-for-prs.yml",
+      "source_repo": "MShekow/directory-checksum",
+      "target": "Generate code coverage badge for PRs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-security-fix.yml",
+      "source_repo": "MShekow/directory-checksum",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-security-fix.yml",
+      "source_repo": "MShekow/directory-checksum",
+      "target": "robinraju/release-downloader@daf26c55d821e836577a15f77d86ddc078948b05",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-security-fix.yml",
+      "source_repo": "MShekow/directory-checksum",
+      "target": "anchore/scan-action@e1165082ffb1fe366ebaf02d8526e7c4989ea9d2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-security-fix.yml",
+      "source_repo": "MShekow/directory-checksum",
+      "target": "actions/setup-go@4a3601121dd01d1626a1e23e37211e3254c1c06c",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-security-fix.yml",
+      "source_repo": "MShekow/directory-checksum",
+      "target": "anothrNick/github-tag-action@4ed44965e0db8dab2b466a16da04aec3cc312fd8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-security-fix.yml",
+      "source_repo": "MShekow/directory-checksum",
+      "target": "Release security patch release",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-30T00:37:16.824464+00:00",
+  "source_repo": "MShekow/directory-checksum"
+}

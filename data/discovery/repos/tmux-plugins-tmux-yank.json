@@ -1,0 +1,165 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "tmux-plugins/tmux-yank",
+      "target": "chrisjohnsen/tmux-macosx-pasteboard",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "tmux-plugins/tmux-yank",
+      "target": "tmux-plugins/tmux-sensible",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "tmux-plugins/tmux-yank",
+      "target": "bruno-/vim-husk",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "tmux-plugins/tmux-yank",
+      "target": "tmux-plugins/tmux-continuum",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "tmux-plugins/tmux-yank",
+      "target": "clipboard",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "tmux-plugins/tmux-yank",
+      "target": "cygwin",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "tmux-plugins/tmux-yank",
+      "target": "linux",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "tmux-plugins/tmux-yank",
+      "target": "macos",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "tmux-plugins/tmux-yank",
+      "target": "shell",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "tmux-plugins/tmux-yank",
+      "target": "tmux",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T05:00:36.175837+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7729
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Tmux plugin for copying to system clipboard. Works on OSX, Linux and Cygwin.",
+    "fork": false,
+    "full_name": "tmux-plugins/tmux-yank",
+    "html_url": "https://github.com/tmux-plugins/tmux-yank",
+    "language": "Shell",
+    "pushed_at": "2024-03-24T11:30:18Z",
+    "stargazers_count": 3067,
+    "topics": [
+      "clipboard",
+      "cygwin",
+      "linux",
+      "macos",
+      "shell",
+      "tmux",
+      "tpm",
+      "wsl"
+    ],
+    "updated_at": "2026-04-26T10:39:10Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "bruno-/vim-husk",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "chrisjohnsen/tmux-macosx-pasteboard",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "tmux-plugins/tmux-continuum",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "tmux-plugins/tmux-sensible",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[![Build",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "clipboard"
+    },
+    {
+      "context_snippet": "[![Build",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cygwin"
+    },
+    {
+      "context_snippet": "[![Build",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "linux"
+    },
+    {
+      "context_snippet": "[![Build",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "macos"
+    },
+    {
+      "context_snippet": "[![Build",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "shell"
+    },
+    {
+      "context_snippet": "[![Build",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tmux"
+    }
+  ]
+}

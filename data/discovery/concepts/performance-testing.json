@@ -37,6 +37,18 @@
       "source_repo": "locustio/locust",
       "status": "candidate-context",
       "text": "[![PyPI](https://img.shields.io/pypi/v/locust.svg)](https://pypi.org/project/locust/)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "AbdelrhmanHamouda/locust-k8s-operator",
+      "status": "candidate-context",
+      "text": "Deploy and manage Locust tests on Kubernetes. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AbdelrhmanHamouda/locust-k8s-operator",
+      "status": "candidate-context",
+      "text": "<div align=\"center\" style=\"margin: 2rem 0;\">"
     }
   ],
   "candidate_glosses": [
@@ -57,6 +69,12 @@
       "source_repo": "locustio/locust",
       "status": "candidate",
       "text": "[![PyPI](https://img.shields.io/pypi/v/locust.svg)](https://pypi.org/project/locust/)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AbdelrhmanHamouda/locust-k8s-operator",
+      "status": "candidate",
+      "text": "<div align=\"center\" style=\"margin: 2rem 0;\">"
     }
   ],
   "candidate_related_terms": [],
@@ -82,11 +100,17 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "locustio/locust"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "AbdelrhmanHamouda/locust-k8s-operator"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

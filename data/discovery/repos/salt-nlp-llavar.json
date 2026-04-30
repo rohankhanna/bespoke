@@ -1,0 +1,142 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "SALT-NLP/LLaVAR",
+      "target": "yuliang-liu/multimodalocr",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "SALT-NLP/LLaVAR",
+      "target": "chatbot",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "SALT-NLP/LLaVAR",
+      "target": "chatgpt",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "SALT-NLP/LLaVAR",
+      "target": "gpt-4",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "SALT-NLP/LLaVAR",
+      "target": "instruction-tuning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "SALT-NLP/LLaVAR",
+      "target": "llava",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "SALT-NLP/LLaVAR",
+      "target": "multimodal",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "SALT-NLP/LLaVAR",
+      "target": "vision-and-language",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T02:00:20.947895+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8707
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Code/Data for the paper: \"LLaVAR: Enhanced Visual Instruction Tuning for Text-Rich Image Understanding\"",
+    "fork": false,
+    "full_name": "SALT-NLP/LLaVAR",
+    "html_url": "https://github.com/SALT-NLP/LLaVAR",
+    "language": "Python",
+    "pushed_at": "2024-06-12T04:38:13Z",
+    "stargazers_count": 269,
+    "topics": [
+      "chatbot",
+      "chatgpt",
+      "gpt-4",
+      "instruction-tuning",
+      "llava",
+      "multimodal",
+      "ocr",
+      "vision-and-language"
+    ],
+    "updated_at": "2025-11-19T11:36:02Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "yuliang-liu/multimodalocr",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "**LLaVAR: Enhanced Visual Instruction Tuning for Text-Rich Image Understanding**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "chatbot"
+    },
+    {
+      "context_snippet": "**LLaVAR: Enhanced Visual Instruction Tuning for Text-Rich Image Understanding**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "chatgpt"
+    },
+    {
+      "context_snippet": "**LLaVAR: Enhanced Visual Instruction Tuning for Text-Rich Image Understanding**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gpt-4"
+    },
+    {
+      "context_snippet": "**LLaVAR: Enhanced Visual Instruction Tuning for Text-Rich Image Understanding**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "instruction-tuning"
+    },
+    {
+      "context_snippet": "**LLaVAR: Enhanced Visual Instruction Tuning for Text-Rich Image Understanding**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "llava"
+    },
+    {
+      "context_snippet": "**LLaVAR: Enhanced Visual Instruction Tuning for Text-Rich Image Understanding**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "multimodal"
+    },
+    {
+      "context_snippet": "**LLaVAR: Enhanced Visual Instruction Tuning for Text-Rich Image Understanding**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vision-and-language"
+    }
+  ]
+}

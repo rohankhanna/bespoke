@@ -84,7 +84,7 @@
   "normalized_form": "pydantic-family-integration-tests",
   "observation_id": "485b3763efd6820b",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-04-29T18:37:00.726333+00:00",
+  "observed_at": "2026-04-30T00:37:16.824464+00:00",
   "observed_text": "Pydantic Family Integration Tests",
   "source_context_snippet": "Pydantic Family Integration Tests",
   "source_file": ".github/workflows/integration.yml",

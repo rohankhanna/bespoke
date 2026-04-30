@@ -1,0 +1,99 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "rust3ds/ctru-rs-old",
+      "target": "smealum/ctrulib",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "rust3ds/ctru-rs-old",
+      "target": "homebrew",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "rust3ds/ctru-rs-old",
+      "target": "nintendo-3ds",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "rust3ds/ctru-rs-old",
+      "target": "nintendo-hacking",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "rust3ds/ctru-rs-old",
+      "target": "rust",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T01:46:57.727174+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2183
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "master",
+    "description": "A collection of crates for developing 3DS homebrew in Rust.",
+    "fork": false,
+    "full_name": "rust3ds/ctru-rs-old",
+    "html_url": "https://github.com/rust3ds/ctru-rs-old",
+    "language": "Rust",
+    "pushed_at": "2022-10-10T12:45:54Z",
+    "stargazers_count": 117,
+    "topics": [
+      "homebrew",
+      "nintendo-3ds",
+      "nintendo-hacking",
+      "rust"
+    ],
+    "updated_at": "2026-02-20T13:17:39Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "smealum/ctrulib",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "This repository has been deprecated in favour of the new `ctru-rs` version of the Rust3DS toolchain. For more information about the new tools and libraries, check [ctru-rs](https://github.com/rust3ds/ctru-rs).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "homebrew"
+    },
+    {
+      "context_snippet": "This repository has been deprecated in favour of the new `ctru-rs` version of the Rust3DS toolchain. For more information about the new tools and libraries, check [ctru-rs](https://github.com/rust3ds/ctru-rs).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nintendo-3ds"
+    },
+    {
+      "context_snippet": "This repository has been deprecated in favour of the new `ctru-rs` version of the Rust3DS toolchain. For more information about the new tools and libraries, check [ctru-rs](https://github.com/rust3ds/ctru-rs).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nintendo-hacking"
+    },
+    {
+      "context_snippet": "This repository has been deprecated in favour of the new `ctru-rs` version of the Rust3DS toolchain. For more information about the new tools and libraries, check [ctru-rs](https://github.com/rust3ds/ctru-rs).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rust"
+    }
+  ]
+}

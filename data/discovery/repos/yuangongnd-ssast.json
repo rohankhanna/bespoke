@@ -1,0 +1,117 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "YuanGongND/ssast",
+      "target": "s3prl/s3prl",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "YuanGongND/ssast",
+      "target": "audio",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "YuanGongND/ssast",
+      "target": "audio-classification",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "YuanGongND/ssast",
+      "target": "audio-processing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "YuanGongND/ssast",
+      "target": "self-supervised-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "YuanGongND/ssast",
+      "target": "speech-classification",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T02:44:54.199133+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 21920
+    },
+    {
+      "path": "requirements.txt",
+      "size": 174
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Code for the AAAI 2022 paper \"SSAST: Self-Supervised Audio Spectrogram Transformer\".",
+    "fork": false,
+    "full_name": "YuanGongND/ssast",
+    "html_url": "https://github.com/YuanGongND/ssast",
+    "language": "Python",
+    "pushed_at": "2022-08-14T15:42:10Z",
+    "stargazers_count": 418,
+    "topics": [
+      "audio",
+      "audio-classification",
+      "audio-processing",
+      "self-supervised-learning",
+      "speech-classification"
+    ],
+    "updated_at": "2026-04-28T06:28:40Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "s3prl/s3prl",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "- [News](#News)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "audio"
+    },
+    {
+      "context_snippet": "- [News](#News)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "audio-classification"
+    },
+    {
+      "context_snippet": "- [News](#News)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "audio-processing"
+    },
+    {
+      "context_snippet": "- [News](#News)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "self-supervised-learning"
+    },
+    {
+      "context_snippet": "- [News](#News)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "speech-classification"
+    }
+  ]
+}

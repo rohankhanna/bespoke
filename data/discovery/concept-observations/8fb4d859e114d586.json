@@ -1,0 +1,115 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "calibre source for zaw"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[calibre](http://www.calibre-ebook.com/) source for [zaw](https://github.com/zsh-users/zaw) the [zsh](http://www.zsh.org/) [anything.el](http://www.emacswiki.org/emacs/Anything)-like widget."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[calibre](http://www.calibre-ebook.com/) source for [zaw](https://github.com/zsh-users/zaw) the [zsh](http://www.zsh.org/) [anything.el](http://www.emacswiki.org/emacs/Anything)-like widget."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39964173,
+      "status": "candidate",
+      "text": "quality"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39932646,
+      "status": "candidate",
+      "text": "caliber"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39885794,
+      "status": "candidate",
+      "text": "bore"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30023346,
+      "status": "candidate",
+      "text": "calibrate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30020107,
+      "status": "candidate",
+      "text": "piece"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "calibre",
+      "sense_id": "calibre#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 28060,
+      "status": "candidate",
+      "text": "quality"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 15042,
+      "status": "candidate",
+      "text": "caliber"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 14067,
+      "status": "candidate",
+      "text": "bore"
+    }
+  ],
+  "concept_id": "calibre",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "calibre",
+  "observation_id": "8fb4d859e114d586",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T00:37:16.824464+00:00",
+  "observed_text": "calibre",
+  "source_context_snippet": "[calibre](http://www.calibre-ebook.com/) source for [zaw](https://github.com/zsh-users/zaw) the [zsh](http://www.zsh.org/) [anything.el](http://www.emacswiki.org/emacs/Anything)-like widget.",
+  "source_file": null,
+  "source_repo": "junkblocker/calibre-zaw-source",
+  "source_repo_description": "calibre source for zaw"
+}

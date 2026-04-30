@@ -1,0 +1,144 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/oci-publish.yml"
+    },
+    {
+      "component": "docker/metadata-action@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/oci-publish.yml"
+    },
+    {
+      "component": "docker/login-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/oci-publish.yml"
+    },
+    {
+      "component": "docker/build-push-action@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/oci-publish.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "libvips/build-win64-mxe",
+      "target": "dloebl/cgif",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "libvips/build-win64-mxe",
+      "target": "fribidi/fribidi",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "libvips/build-win64-mxe",
+      "target": "fftw/fftw3",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "libvips/build-win64-mxe",
+      "target": "academysoftwarefoundation/imath",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/oci-publish.yml",
+      "source_repo": "libvips/build-win64-mxe",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/oci-publish.yml",
+      "source_repo": "libvips/build-win64-mxe",
+      "target": "docker/metadata-action@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/oci-publish.yml",
+      "source_repo": "libvips/build-win64-mxe",
+      "target": "docker/login-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/oci-publish.yml",
+      "source_repo": "libvips/build-win64-mxe",
+      "target": "docker/build-push-action@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/oci-publish.yml",
+      "source_repo": "libvips/build-win64-mxe",
+      "target": "Publish OCI image to ghcr.io",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T04:11:27.571914+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 12055
+    },
+    {
+      "path": ".github/workflows/oci-publish.yml",
+      "size": 1788
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": null,
+    "fork": false,
+    "full_name": "libvips/build-win64-mxe",
+    "html_url": "https://github.com/libvips/build-win64-mxe",
+    "language": "Makefile",
+    "pushed_at": "2026-04-24T16:46:57Z",
+    "stargazers_count": 109,
+    "topics": [],
+    "updated_at": "2026-04-24T20:52:55Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "academysoftwarefoundation/imath",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dloebl/cgif",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "fftw/fftw3",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "fribidi/fribidi",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Publish OCI image to ghcr.io",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/oci-publish.yml",
+      "term": "Publish OCI image to ghcr.io"
+    }
+  ]
+}

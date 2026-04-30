@@ -1,7 +1,7 @@
 {
   "component": "actions/setup-java@v3",
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -352,6 +352,106 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/bb.yml",
       "source_repo": "borkdude/carve"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "liquidz/iced-nrepl"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "liquidz/iced-nrepl"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "ytdl-org/youtube-dl"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/README.md",
+      "source_repo": "apache/beam"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "archguard/archguard"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/linter.yml",
+      "source_repo": "archguard/archguard"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "archguard/codedb"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/cd.yml",
+      "source_repo": "phodal/chapi"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-nightly.yml",
+      "source_repo": "quarkiverse/quarkus-langchain4j"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-push.yml",
+      "source_repo": "quarkiverse/quarkus-langchain4j"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/unmanaged_dependency_check.yaml",
+      "source_repo": "googleapis/java-bigquery"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "googleapis/java-bigquerystorage"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/unmanaged_dependency_check.yaml",
+      "source_repo": "googleapis/java-bigquerystorage"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "extism/chicory-sdk"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/backend.yml",
+      "source_repo": "apache/seatunnel-web"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "ring-clojure/ring"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "exoscale/coax"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "weavejester/ns-tracker"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/kotlin-desktop.yml",
+      "source_repo": "xplpc/xplpc"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test-package.yml",
+      "source_repo": "capitalone/datacompy"
     }
   ]
 }

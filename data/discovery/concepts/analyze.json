@@ -6,7 +6,9 @@
   "ambiguity_status": "unresolved",
   "buckets": [
     "workflow-process",
-    "data-document-artifact"
+    "data-document-artifact",
+    "tool-component",
+    "capability"
   ],
   "candidate_definitions": [
     {
@@ -56,6 +58,18 @@
       "source_repo": "arangoml/dgl-adapter",
       "status": "candidate-context",
       "text": "analyze"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "web-infra-dev/rsdoctor",
+      "status": "candidate-context",
+      "text": "A one-stop build analyzer for Rspack and webpack."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "web-infra-dev/rsdoctor",
+      "status": "candidate-context",
+      "text": "<picture>"
     }
   ],
   "candidate_glosses": [
@@ -82,6 +96,12 @@
       "source_repo": "arangoml/dgl-adapter",
       "status": "candidate",
       "text": "analyze"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "web-infra-dev/rsdoctor",
+      "status": "candidate",
+      "text": "<picture>"
     }
   ],
   "candidate_related_terms": [
@@ -197,11 +217,23 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": ".github/workflows/analyze.yaml",
       "source_repo": "ko-build/ko"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/analyze.yaml",
+      "source_repo": "ko-build/ko"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "web-infra-dev/rsdoctor"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

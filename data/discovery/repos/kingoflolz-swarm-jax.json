@@ -1,0 +1,22 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T02:01:42.992580+00:00",
+  "fetched_files": [],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Swarm training framework using Haiku + JAX + Ray for layer parallel transformer language models on unreliable, heterogeneous nodes",
+    "fork": false,
+    "full_name": "kingoflolz/swarm-jax",
+    "html_url": "https://github.com/kingoflolz/swarm-jax",
+    "language": "Python",
+    "pushed_at": "2023-05-12T08:56:46Z",
+    "stargazers_count": 241,
+    "topics": [],
+    "updated_at": "2026-04-10T19:12:05Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

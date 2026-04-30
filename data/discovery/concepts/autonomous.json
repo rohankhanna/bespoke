@@ -19,6 +19,18 @@
       "source_repo": "vibhorkum/pg_background",
       "status": "candidate-context",
       "text": "[![PostgreSQL](https://img.shields.io/badge/PostgreSQL-14--18-blue.svg)](https://www.postgresql.org/)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ldclabs/anda",
+      "status": "candidate-context",
+      "text": "\ud83e\udd16 An AI agent framework built with Rust."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ldclabs/anda",
+      "status": "candidate-context",
+      "text": "> \ud83e\udd16 An AI agent framework built with Rust, powered by ICP and TEEs."
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "vibhorkum/pg_background",
       "status": "candidate",
       "text": "[![PostgreSQL](https://img.shields.io/badge/PostgreSQL-14--18-blue.svg)](https://www.postgresql.org/)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ldclabs/anda",
+      "status": "candidate",
+      "text": "> \ud83e\udd16 An AI agent framework built with Rust, powered by ICP and TEEs."
     }
   ],
   "candidate_related_terms": [
@@ -112,11 +130,17 @@
       "observed_at": "2026-04-21T18:51:25.552552+00:00",
       "source_file": null,
       "source_repo": "vibhorkum/pg_background"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "ldclabs/anda"
     }
   ],
   "first_seen_at": "2026-04-21T18:51:25.552552+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-21T18:51:25.552552+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

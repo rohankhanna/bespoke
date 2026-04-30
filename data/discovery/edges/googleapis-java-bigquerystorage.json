@@ -1,0 +1,160 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "googleapis/java-bigquerystorage",
+      "target": "googlecloudplatform/opentelemetry-operations-java",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "googleapis/java-bigquerystorage",
+      "target": "googlecloudplatform/cloud-opensource-java",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/approve-readme.yaml",
+      "source_repo": "googleapis/java-bigquerystorage",
+      "target": "actions/github-script@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/approve-readme.yaml",
+      "source_repo": "googleapis/java-bigquerystorage",
+      "target": "auto-merge-readme",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-release.yaml",
+      "source_repo": "googleapis/java-bigquerystorage",
+      "target": "actions/github-script@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/auto-release.yaml",
+      "source_repo": "googleapis/java-bigquerystorage",
+      "target": "auto-release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "googleapis/java-bigquerystorage",
+      "target": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "googleapis/java-bigquerystorage",
+      "target": "actions/setup-java@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "googleapis/java-bigquerystorage",
+      "target": "actions/setup-java@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/hermetic_library_generation.yaml",
+      "source_repo": "googleapis/java-bigquerystorage",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/hermetic_library_generation.yaml",
+      "source_repo": "googleapis/java-bigquerystorage",
+      "target": "googleapis/sdk-platform-java/.github/scripts@v2.66.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/renovate_config_check.yaml",
+      "source_repo": "googleapis/java-bigquerystorage",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/renovate_config_check.yaml",
+      "source_repo": "googleapis/java-bigquerystorage",
+      "target": "actions/setup-node@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/renovate_config_check.yaml",
+      "source_repo": "googleapis/java-bigquerystorage",
+      "target": "Renovate Bot Config Validation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/samples.yaml",
+      "source_repo": "googleapis/java-bigquerystorage",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/samples.yaml",
+      "source_repo": "googleapis/java-bigquerystorage",
+      "target": "actions/setup-java@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/samples.yaml",
+      "source_repo": "googleapis/java-bigquerystorage",
+      "target": "samples",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/unmanaged_dependency_check.yaml",
+      "source_repo": "googleapis/java-bigquerystorage",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/unmanaged_dependency_check.yaml",
+      "source_repo": "googleapis/java-bigquerystorage",
+      "target": "actions/setup-java@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/unmanaged_dependency_check.yaml",
+      "source_repo": "googleapis/java-bigquerystorage",
+      "target": "Unmanaged dependency check",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update_generation_config.yaml",
+      "source_repo": "googleapis/java-bigquerystorage",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/update_generation_config.yaml",
+      "source_repo": "googleapis/java-bigquerystorage",
+      "target": "Update generation configuration",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-30T00:37:16.824464+00:00",
+  "source_repo": "googleapis/java-bigquerystorage"
+}

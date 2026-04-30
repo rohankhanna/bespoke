@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Connection Profiles for Cyberduck & Mountain Duck"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Initialize connection profiles"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Initialize connection profiles"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 25386,
+      "status": "candidate",
+      "text": "jpeg"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 25386,
+      "status": "candidate",
+      "text": "mission statement"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 25386,
+      "status": "candidate",
+      "text": "once"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 25386,
+      "status": "candidate",
+      "text": "whereas"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 25346,
+      "status": "candidate",
+      "text": "bean"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Initialize connection profiles",
+      "sense_id": "initialize-connection-profiles#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "initialize-connection-profiles",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "initialize-connection-profiles",
+  "observation_id": "cd958842c0bf315d",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-30T00:37:16.824464+00:00",
+  "observed_text": "Initialize connection profiles",
+  "source_context_snippet": "Initialize connection profiles",
+  "source_file": ".github/workflows/profiles-initialize.yml",
+  "source_repo": "iterate-ch/profiles",
+  "source_repo_description": "Connection Profiles for Cyberduck & Mountain Duck"
+}

@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": ":warning: This repository hosts the Firefox for Android (Fenix), Focus for Android, and Mozilla Android Components projects. It is now developed and maintained as part of Mozilla Central. See the announcement here: https://github.com/mozilla-mobile/firefox-android/wiki#upcoming-migration-to-mozilla-central. \u201d"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "\"Focus - Update Nimbus Experiments\""
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "\"Focus - Update Nimbus Experiments\""
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17313,
+      "status": "candidate",
+      "text": "trance"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17254,
+      "status": "candidate",
+      "text": "shadow"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17186,
+      "status": "candidate",
+      "text": "calculation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17186,
+      "status": "candidate",
+      "text": "complete"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17186,
+      "status": "candidate",
+      "text": "educated"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Focus - Update Nimbus Experiments",
+      "sense_id": "focus---update-nimbus-experiments#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "focus---update-nimbus-experiments",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "focus---update-nimbus-experiments",
+  "observation_id": "329217078850c6ee",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-30T00:37:16.824464+00:00",
+  "observed_text": "Focus - Update Nimbus Experiments",
+  "source_context_snippet": "\"Focus - Update Nimbus Experiments\"",
+  "source_file": ".github/workflows/focus-update-nimbus-experiments.yml",
+  "source_repo": "mozilla-mobile/firefox-android",
+  "source_repo_description": ":warning: This repository hosts the Firefox for Android (Fenix), Focus for Android, and Mozilla Android Components projects. It is now developed and maintained as part of Mozilla Central. See the announcement here: https://github.com/mozilla-mobile/firefox-android/wiki#upcoming-migration-to-mozilla-central. \u201d"
+}

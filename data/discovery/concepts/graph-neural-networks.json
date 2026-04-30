@@ -103,6 +103,18 @@
       "source_repo": "rusty1s/pytorch_cluster",
       "status": "candidate-context",
       "text": "[pypi-image]: https://badge.fury.io/py/torch-cluster.svg"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "snap-stanford/ogb",
+      "status": "candidate-context",
+      "text": "Benchmark datasets, data loaders, and evaluators for graph machine learning"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "snap-stanford/ogb",
+      "status": "candidate-context",
+      "text": "<p align='center'>"
     }
   ],
   "candidate_glosses": [
@@ -153,6 +165,12 @@
       "source_repo": "rusty1s/pytorch_cluster",
       "status": "candidate",
       "text": "[pypi-image]: https://badge.fury.io/py/torch-cluster.svg"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "snap-stanford/ogb",
+      "status": "candidate",
+      "text": "<p align='center'>"
     }
   ],
   "candidate_related_terms": [],
@@ -238,11 +256,29 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "pyg-team/pytorch_geometric"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "google-deepmind/jraph"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "pyg-team/pytorch_geometric"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "snap-stanford/ogb"
     }
   ],
   "first_seen_at": "2026-04-18T11:57:36.597358+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

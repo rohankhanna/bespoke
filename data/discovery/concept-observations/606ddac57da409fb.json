@@ -1,0 +1,108 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Automatically detect when a worker is on a phone using power of computer vision"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Idle control is one of the Official [5sControl](https://5scontrol.com/) algorithm. Plug it in our video monitoring system with AI analysis and ERP Integration (Open Source) to uncover employee inefficiencies and minimize downtime."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Idle control is one of the Official [5sControl](https://5scontrol.com/) algorithm. Plug it in our video monitoring system with AI analysis and ERP Integration (Open Source) to uncover employee inefficiencies and minimize downtime."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30024838,
+      "status": "candidate",
+      "text": "algorithmic program"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30024838,
+      "status": "candidate",
+      "text": "algorithmic rule"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30021757,
+      "status": "candidate",
+      "text": "calculus"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30021456,
+      "status": "candidate",
+      "text": "arithmetic"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29939009,
+      "status": "candidate",
+      "text": "significance"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "algorithm",
+      "sense_id": "algorithm#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 9,
+      "status": "candidate",
+      "text": "algorithmic program"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 9,
+      "status": "candidate",
+      "text": "algorithmic rule"
+    }
+  ],
+  "concept_id": "algorithm",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "algorithm",
+  "observation_id": "606ddac57da409fb",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T00:37:16.824464+00:00",
+  "observed_text": "algorithm",
+  "source_context_snippet": "Idle control is one of the Official [5sControl](https://5scontrol.com/) algorithm. Plug it in our video monitoring system with AI analysis and ERP Integration (Open Source) to uncover employee inefficiencies and minimize downtime.",
+  "source_file": null,
+  "source_repo": "5sControl/idle-control",
+  "source_repo_description": "Automatically detect when a worker is on a phone using power of computer vision"
+}

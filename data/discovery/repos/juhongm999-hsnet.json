@@ -1,0 +1,58 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "juhongm999/hsnet",
+      "target": "computer-vision",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "juhongm999/hsnet",
+      "target": "few-shot-segmentation",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T01:38:21.070109+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9681
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Official PyTorch Implementation of Hypercorrelation Squeeze for Few-Shot Segmentation, ICCV 2021",
+    "fork": false,
+    "full_name": "juhongm999/hsnet",
+    "html_url": "https://github.com/juhongm999/hsnet",
+    "language": "Python",
+    "pushed_at": "2021-10-26T13:59:11Z",
+    "stargazers_count": 256,
+    "topics": [
+      "computer-vision",
+      "few-shot-segmentation"
+    ],
+    "updated_at": "2026-04-24T02:22:32Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/hypercorrelation-squeeze-for-few-shot/few-shot-semantic-segmentation-on-pascal-5i-1)](https://paperswithcode.com/sota/few-shot-semantic-segmentation-on-pascal-5i-1?p=hypercorrelation-squeeze-for-few\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "computer-vision"
+    },
+    {
+      "context_snippet": "[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/hypercorrelation-squeeze-for-few-shot/few-shot-semantic-segmentation-on-pascal-5i-1)](https://paperswithcode.com/sota/few-shot-semantic-segmentation-on-pascal-5i-1?p=hypercorrelation-squeeze-for-few\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "few-shot-segmentation"
+    }
+  ]
+}

@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Keep PRs Updated from Main"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "awsdocs/aws-doc-sdk-examples",
+      "status": "candidate-context",
+      "text": "Welcome to the AWS Code Examples Repository.  This repo contains code examples used in the AWS documentation, AWS SDK Developer Guides, and more. For more information, see the Readme.md file below."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "awsdocs/aws-doc-sdk-examples",
+      "status": "candidate-context",
+      "text": "\"Keep PRs Updated from Main\""
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "awsdocs/aws-doc-sdk-examples",
+      "status": "candidate",
+      "text": "\"Keep PRs Updated from Main\""
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 43520,
+      "status": "candidate",
+      "text": "guard"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 32972,
+      "status": "candidate",
+      "text": "take"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 32884,
+      "status": "candidate",
+      "text": "eddy"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 32836,
+      "status": "candidate",
+      "text": "nursery"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 32836,
+      "status": "candidate",
+      "text": "tow"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Keep PRs Updated from Main",
+  "concept_id": "keep-prs-updated-from-main",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/auto-update-pr.yml",
+      "source_repo": "awsdocs/aws-doc-sdk-examples"
+    }
+  ],
+  "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Keep PRs Updated from Main",
+      "sense_id": "keep-prs-updated-from-main#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

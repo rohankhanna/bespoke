@@ -1,0 +1,122 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Collection of small public domain file archivers"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Small file archivers (zip, pak, tar), virtual filesystem (vfs) and dir listing in a single-file header."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Small file archivers (zip, pak, tar), virtual filesystem (vfs) and dir listing in a single-file header."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39959417,
+      "status": "candidate",
+      "text": "osculate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39959374,
+      "status": "candidate",
+      "text": "buss"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39959367,
+      "status": "candidate",
+      "text": "osculation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39880260,
+      "status": "candidate",
+      "text": "brush"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29959393,
+      "status": "candidate",
+      "text": "kisser"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "kiss",
+      "sense_id": "kiss#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 30059,
+      "status": "candidate",
+      "text": "brush"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 21032,
+      "status": "candidate",
+      "text": "osculate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 21024,
+      "status": "candidate",
+      "text": "osculation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 16041,
+      "status": "candidate",
+      "text": "buss"
+    }
+  ],
+  "concept_id": "kiss",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "kiss",
+  "observation_id": "2e3054d1780f79b1",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T00:37:16.824464+00:00",
+  "observed_text": "kiss",
+  "source_context_snippet": "Small file archivers (zip, pak, tar), virtual filesystem (vfs) and dir listing in a single-file header.",
+  "source_file": null,
+  "source_repo": "r-lyeh/stdarc.c",
+  "source_repo_description": "Collection of small public domain file archivers"
+}

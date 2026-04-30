@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T05:13:04.576667+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1410
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "LouisRouss/Diffusion-Based-Model-for-Colorization",
+    "html_url": "https://github.com/LouisRouss/Diffusion-Based-Model-for-Colorization",
+    "language": "Python",
+    "pushed_at": "2023-03-21T07:41:12Z",
+    "stargazers_count": 139,
+    "topics": [],
+    "updated_at": "2026-03-12T08:47:40Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

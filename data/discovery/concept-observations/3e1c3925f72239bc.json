@@ -4,10 +4,63 @@
     "workflow-process",
     "data-document-artifact"
   ],
-  "candidate_definition_hints": [],
-  "candidate_glosses": [],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Binary installation for rust projects"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Cleanup caches for closed PRs"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Cleanup caches for closed PRs"
+    }
+  ],
   "candidate_primary_bucket": "workflow-process",
-  "candidate_related_terms": [],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22495,
+      "status": "candidate",
+      "text": "revelation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22453,
+      "status": "candidate",
+      "text": "gunt"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22453,
+      "status": "candidate",
+      "text": "hunt"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22453,
+      "status": "candidate",
+      "text": "hunted"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22453,
+      "status": "candidate",
+      "text": "pit"
+    }
+  ],
   "candidate_senses": [
     {
       "candidate_buckets": [
@@ -24,15 +77,17 @@
   "definition_status": "unresolved",
   "discovered_via": "workflow-name",
   "gloss_status": "unresolved",
-  "lexical_providers": [],
+  "lexical_providers": [
+    "datamuse"
+  ],
   "lexical_status": "unresolved",
   "normalized_form": "cleanup-caches-for-closed-prs",
   "observation_id": "3e1c3925f72239bc",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-04-18T11:32:22.637859+00:00",
+  "observed_at": "2026-04-30T00:37:16.824464+00:00",
   "observed_text": "Cleanup caches for closed PRs",
-  "source_context_snippet": null,
+  "source_context_snippet": "Cleanup caches for closed PRs",
   "source_file": ".github/workflows/cache-cleanup.yml",
   "source_repo": "cargo-bins/cargo-binstall",
-  "source_repo_description": null
+  "source_repo_description": "Binary installation for rust projects"
 }

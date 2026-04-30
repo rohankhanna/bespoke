@@ -1,0 +1,324 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generate-docs.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generate-docs.yml"
+    },
+    {
+      "component": "peaceiris/actions-gh-pages@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generate-docs.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lemmy-help.yml"
+    },
+    {
+      "component": "stefanzweifel/git-auto-commit-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lemmy-help.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lua_ls-typecheck.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lua_ls-typecheck.yml"
+    },
+    {
+      "component": "leafo/gh-actions-lua@v9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lua_ls-typecheck.yml"
+    },
+    {
+      "component": "leafo/gh-actions-luarocks@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lua_ls-typecheck.yml"
+    },
+    {
+      "component": "mrcjkb/lua-typecheck-action@v0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lua_ls-typecheck.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/luarocks-tag-release.yml"
+    },
+    {
+      "component": "nvim-neorocks/luarocks-tag-release@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/luarocks-tag-release.yml"
+    },
+    {
+      "component": "google-github-actions/release-please-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-please.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stylua.yml"
+    },
+    {
+      "component": "actions/cache@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stylua.yml"
+    },
+    {
+      "component": "stefanzweifel/git-auto-commit-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stylua.yml"
+    },
+    {
+      "component": "ad-m/github-push-action@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stylua.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generate-docs.yml",
+      "source_repo": "pysan3/pathlib.nvim",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generate-docs.yml",
+      "source_repo": "pysan3/pathlib.nvim",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generate-docs.yml",
+      "source_repo": "pysan3/pathlib.nvim",
+      "target": "peaceiris/actions-gh-pages@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/generate-docs.yml",
+      "source_repo": "pysan3/pathlib.nvim",
+      "target": "generate-docs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lemmy-help.yml",
+      "source_repo": "pysan3/pathlib.nvim",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lemmy-help.yml",
+      "source_repo": "pysan3/pathlib.nvim",
+      "target": "stefanzweifel/git-auto-commit-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lemmy-help.yml",
+      "source_repo": "pysan3/pathlib.nvim",
+      "target": "lemmy-help",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lua_ls-typecheck.yml",
+      "source_repo": "pysan3/pathlib.nvim",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lua_ls-typecheck.yml",
+      "source_repo": "pysan3/pathlib.nvim",
+      "target": "leafo/gh-actions-lua@v9",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lua_ls-typecheck.yml",
+      "source_repo": "pysan3/pathlib.nvim",
+      "target": "leafo/gh-actions-luarocks@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lua_ls-typecheck.yml",
+      "source_repo": "pysan3/pathlib.nvim",
+      "target": "mrcjkb/lua-typecheck-action@v0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/luarocks-tag-release.yml",
+      "source_repo": "pysan3/pathlib.nvim",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/luarocks-tag-release.yml",
+      "source_repo": "pysan3/pathlib.nvim",
+      "target": "nvim-neorocks/luarocks-tag-release@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/luarocks-tag-release.yml",
+      "source_repo": "pysan3/pathlib.nvim",
+      "target": "luarocks-tag-release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-please.yml",
+      "source_repo": "pysan3/pathlib.nvim",
+      "target": "google-github-actions/release-please-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-please.yml",
+      "source_repo": "pysan3/pathlib.nvim",
+      "target": "release-please",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stylua.yml",
+      "source_repo": "pysan3/pathlib.nvim",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stylua.yml",
+      "source_repo": "pysan3/pathlib.nvim",
+      "target": "actions/cache@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stylua.yml",
+      "source_repo": "pysan3/pathlib.nvim",
+      "target": "stefanzweifel/git-auto-commit-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stylua.yml",
+      "source_repo": "pysan3/pathlib.nvim",
+      "target": "ad-m/github-push-action@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/stylua.yml",
+      "source_repo": "pysan3/pathlib.nvim",
+      "target": "stylua",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T04:13:32.581266+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7584
+    },
+    {
+      "path": "requirements.txt",
+      "size": 69
+    },
+    {
+      "path": ".github/workflows/.luarc.json",
+      "size": 794
+    },
+    {
+      "path": ".github/workflows/generate-docs.yml",
+      "size": 874
+    },
+    {
+      "path": ".github/workflows/lemmy-help.yml",
+      "size": 777
+    },
+    {
+      "path": ".github/workflows/lua_ls-typecheck.yml",
+      "size": 1169
+    },
+    {
+      "path": ".github/workflows/luarocks-tag-release.yml",
+      "size": 1204
+    },
+    {
+      "path": ".github/workflows/release-please.yml",
+      "size": 530
+    },
+    {
+      "path": ".github/workflows/stylua.yml",
+      "size": 1223
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Ultimate solution to path handling in neovim. OS Independent.",
+    "fork": false,
+    "full_name": "pysan3/pathlib.nvim",
+    "html_url": "https://github.com/pysan3/pathlib.nvim",
+    "language": "Lua",
+    "pushed_at": "2024-08-29T15:03:51Z",
+    "stargazers_count": 74,
+    "topics": [],
+    "updated_at": "2026-02-14T23:46:20Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "generate-docs",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/generate-docs.yml",
+      "term": "generate-docs"
+    },
+    {
+      "context_snippet": "lemmy-help",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lemmy-help.yml",
+      "term": "lemmy-help"
+    },
+    {
+      "context_snippet": "luarocks-tag-release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/luarocks-tag-release.yml",
+      "term": "luarocks-tag-release"
+    },
+    {
+      "context_snippet": "release-please",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-please.yml",
+      "term": "release-please"
+    },
+    {
+      "context_snippet": "stylua",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/stylua.yml",
+      "term": "stylua"
+    }
+  ]
+}

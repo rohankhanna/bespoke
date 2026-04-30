@@ -211,6 +211,42 @@
       "source_repo": "eyalz800/serializer",
       "status": "candidate-context",
       "text": "zpp serializer"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Kotlin/kotlinx.serialization",
+      "status": "candidate-context",
+      "text": "Kotlin multiplatform / multi-format serialization "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Kotlin/kotlinx.serialization",
+      "status": "candidate-context",
+      "text": "[![Kotlin Stable](https://kotl.in/badges/stable.svg)](https://kotlinlang.org/docs/components-stability.html)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "status-im/nim-toml-serialization",
+      "status": "candidate-context",
+      "text": "Flexible TOML serialization [not] relying on run-time type information."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "status-im/nim-toml-serialization",
+      "status": "candidate-context",
+      "text": "[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ibireme/yyjson",
+      "status": "candidate-context",
+      "text": "The fastest JSON library in C"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ibireme/yyjson",
+      "status": "candidate-context",
+      "text": "[![Build](https://img.shields.io/github/actions/workflow/status/ibireme/yyjson/checks.yml?branch=master&style=flat-square)](https://github.com/ibireme/yyjson/actions/workflows/checks.yml)"
     }
   ],
   "candidate_glosses": [
@@ -315,6 +351,24 @@
       "source_repo": "eyalz800/serializer",
       "status": "candidate",
       "text": "zpp serializer"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Kotlin/kotlinx.serialization",
+      "status": "candidate",
+      "text": "[![Kotlin Stable](https://kotl.in/badges/stable.svg)](https://kotlinlang.org/docs/components-stability.html)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "status-im/nim-toml-serialization",
+      "status": "candidate",
+      "text": "[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ibireme/yyjson",
+      "status": "candidate",
+      "text": "[![Build](https://img.shields.io/github/actions/workflow/status/ibireme/yyjson/checks.yml?branch=master&style=flat-square)](https://github.com/ibireme/yyjson/actions/workflows/checks.yml)"
     }
   ],
   "candidate_related_terms": [
@@ -510,11 +564,35 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "eyalz800/serializer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "protocolbuffers/protobuf"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "Kotlin/kotlinx.serialization"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "status-im/nim-toml-serialization"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "ibireme/yyjson"
     }
   ],
   "first_seen_at": "2026-04-18T13:29:00.435097+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

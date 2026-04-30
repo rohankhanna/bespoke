@@ -79,6 +79,66 @@
       "source_repo": "babashka/nbb",
       "status": "candidate-context",
       "text": "<img src=\"logo/nbb-with-name-green.svg\" width=\"250px\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "RustPython/RustPython",
+      "status": "candidate-context",
+      "text": "A Python Interpreter written in Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "RustPython/RustPython",
+      "status": "candidate-context",
+      "text": "<img src=\"./logo.png\" width=\"125\" height=\"125\" align=\"right\" />"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sagiegurari/duckscript",
+      "status": "candidate-context",
+      "text": "Simple, extendable and embeddable scripting language."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sagiegurari/duckscript",
+      "status": "candidate-context",
+      "text": "| duckscript | SDK | CLI |"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "babashka/scittle",
+      "status": "candidate-context",
+      "text": "Execute Clojure(Script) directly from browser script tags via SCI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "babashka/scittle",
+      "status": "candidate-context",
+      "text": "The [Small Clojure Interpreter](https://github.com/babashka/sci) exposed for usage in script tags."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "BetterThanTomorrow/joyride",
+      "status": "candidate-context",
+      "text": "Making VS Code Hackable like Emacs since 2022"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "BetterThanTomorrow/joyride",
+      "status": "candidate-context",
+      "text": "Modify your VS Code while it is running. The Visual Studio Code API, as well as the APIs of its extensions, are at your command! Joyride makes VS Code scriptable in a very similar way to how how Emacs users can hack their editor."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "progval/pythonvm-rust",
+      "status": "candidate-context",
+      "text": "An incomplete stackless interpreter of Python bytecode, written in Rust. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "progval/pythonvm-rust",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://travis-ci.org/ProgVal/pythonvm-rust.svg?branch=master)](https://travis-ci.org/ProgVal/pythonvm-rust)"
     }
   ],
   "candidate_glosses": [
@@ -117,6 +177,36 @@
       "source_repo": "babashka/nbb",
       "status": "candidate",
       "text": "<img src=\"logo/nbb-with-name-green.svg\" width=\"250px\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "RustPython/RustPython",
+      "status": "candidate",
+      "text": "<img src=\"./logo.png\" width=\"125\" height=\"125\" align=\"right\" />"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sagiegurari/duckscript",
+      "status": "candidate",
+      "text": "| duckscript | SDK | CLI |"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "babashka/scittle",
+      "status": "candidate",
+      "text": "The [Small Clojure Interpreter](https://github.com/babashka/sci) exposed for usage in script tags."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "BetterThanTomorrow/joyride",
+      "status": "candidate",
+      "text": "Modify your VS Code while it is running. The Visual Studio Code API, as well as the APIs of its extensions, are at your command! Joyride makes VS Code scriptable in a very similar way to how how Emacs users can hack their editor."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "progval/pythonvm-rust",
+      "status": "candidate",
+      "text": "[![Build Status](https://travis-ci.org/ProgVal/pythonvm-rust.svg?branch=master)](https://travis-ci.org/ProgVal/pythonvm-rust)"
     }
   ],
   "candidate_related_terms": [
@@ -232,11 +322,53 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "babashka/nbb"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "RustPython/RustPython"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "sagiegurari/duckscript"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "babashka/sci"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "babashka/nbb"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "babashka/scittle"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "BetterThanTomorrow/joyride"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "progval/pythonvm-rust"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,115 @@
+{
+  "components": [
+    {
+      "component": "react",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "react-dom",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "babashka/scittle",
+      "target": "kloimhardt/babashka-scittle-guestbook",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "babashka/scittle",
+      "target": "react",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "babashka/scittle",
+      "target": "react-dom",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "babashka/scittle",
+      "target": "clojure",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "babashka/scittle",
+      "target": "clojurescript",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "babashka/scittle",
+      "target": "interpreter",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T04:04:36.335177+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1554
+    },
+    {
+      "path": "package.json",
+      "size": 153
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Execute Clojure(Script) directly from browser script tags via SCI",
+    "fork": false,
+    "full_name": "babashka/scittle",
+    "html_url": "https://github.com/babashka/scittle",
+    "language": "Clojure",
+    "pushed_at": "2026-02-10T20:33:13Z",
+    "stargazers_count": 430,
+    "topics": [
+      "clojure",
+      "clojurescript",
+      "interpreter",
+      "sci"
+    ],
+    "updated_at": "2026-04-26T21:35:45Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "kloimhardt/babashka-scittle-guestbook",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "The [Small Clojure Interpreter](https://github.com/babashka/sci) exposed for usage in script tags.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "clojure"
+    },
+    {
+      "context_snippet": "The [Small Clojure Interpreter](https://github.com/babashka/sci) exposed for usage in script tags.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "clojurescript"
+    },
+    {
+      "context_snippet": "The [Small Clojure Interpreter](https://github.com/babashka/sci) exposed for usage in script tags.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "interpreter"
+    }
+  ]
+}

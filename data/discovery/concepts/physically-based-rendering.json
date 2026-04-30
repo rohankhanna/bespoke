@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "physically-based-rendering"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nvpro-samples/vk_gltf_renderer",
+      "status": "candidate-context",
+      "text": "Vulkan ray tracing glTF 2.0 renderer \u2014 RTX path tracer with PBR materials, AI denoising (DLSS, OptiX), and scene editing. NVIDIA open-source sample."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nvpro-samples/vk_gltf_renderer",
+      "status": "candidate-context",
+      "text": "[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](LICENSE)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nvpro-samples/vk_gltf_renderer",
+      "status": "candidate",
+      "text": "[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](LICENSE)"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "physically-based-rendering",
+  "concept_id": "physically-based-rendering",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "nvpro-samples/vk_gltf_renderer"
+    }
+  ],
+  "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "physically-based-rendering",
+      "sense_id": "physically-based-rendering#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

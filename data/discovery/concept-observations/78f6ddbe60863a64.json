@@ -1,0 +1,108 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A configurable, high-performance routing runtime for Apollo Federation \ud83d\ude80"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<a href=\"#\"><img src=\"https://raw.githubusercontent.com/apollographql/space-kit/main/src/illustrations/svgs/satellite1.svg\" width=\"100%\" height=\"144\"></a>"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<a href=\"#\"><img src=\"https://raw.githubusercontent.com/apollographql/space-kit/main/src/illustrations/svgs/satellite1.svg\" width=\"100%\" height=\"144\"></a>"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40046077,
+      "status": "candidate",
+      "text": "confederation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40027028,
+      "status": "candidate",
+      "text": "confederacy"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30046108,
+      "status": "candidate",
+      "text": "federated"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30046099,
+      "status": "candidate",
+      "text": "federative"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30045916,
+      "status": "candidate",
+      "text": "confederal"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "federation",
+      "sense_id": "federation#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": null,
+      "status": "candidate",
+      "text": "confederacy"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": null,
+      "status": "candidate",
+      "text": "confederation"
+    }
+  ],
+  "concept_id": "federation",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "federation",
+  "observation_id": "78f6ddbe60863a64",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T00:37:16.824464+00:00",
+  "observed_text": "federation",
+  "source_context_snippet": "<a href=\"#\"><img src=\"https://raw.githubusercontent.com/apollographql/space-kit/main/src/illustrations/svgs/satellite1.svg\" width=\"100%\" height=\"144\"></a>",
+  "source_file": null,
+  "source_repo": "apollographql/router",
+  "source_repo_description": "A configurable, high-performance routing runtime for Apollo Federation \ud83d\ude80"
+}

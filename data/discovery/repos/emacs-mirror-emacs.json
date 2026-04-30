@@ -1,0 +1,22 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T04:08:50.391413+00:00",
+  "fetched_files": [],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Mirror of GNU Emacs",
+    "fork": false,
+    "full_name": "emacs-mirror/emacs",
+    "html_url": "https://github.com/emacs-mirror/emacs",
+    "language": "Emacs Lisp",
+    "pushed_at": "2026-04-30T03:47:46Z",
+    "stargazers_count": 5037,
+    "topics": [],
+    "updated_at": "2026-04-30T03:47:50Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Relator"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "wemake-services/wemake-python-styleguide",
+      "status": "candidate-context",
+      "text": "The strictest and most opinionated python linter ever!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "wemake-services/wemake-python-styleguide",
+      "status": "candidate-context",
+      "text": "Relator"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "wemake-services/wemake-python-styleguide",
+      "status": "candidate",
+      "text": "Relator"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20009247,
+      "status": "candidate",
+      "text": "sociable"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19995032,
+      "status": "candidate",
+      "text": "rapporteur"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10030216,
+      "status": "candidate",
+      "text": "relayer"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10030215,
+      "status": "candidate",
+      "text": "reteller"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10030214,
+      "status": "candidate",
+      "text": "recounter"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Relator",
+  "concept_id": "relator",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/relator.yml",
+      "source_repo": "wemake-services/wemake-python-styleguide"
+    }
+  ],
+  "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Relator",
+      "sense_id": "relator#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

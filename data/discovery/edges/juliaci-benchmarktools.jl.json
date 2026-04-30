@@ -1,0 +1,153 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "JuliaCI/BenchmarkTools.jl",
+      "target": "invenia/bluestyle",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "JuliaCI/BenchmarkTools.jl",
+      "target": "juliatesting/aqua.jl",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "JuliaCI/BenchmarkTools.jl",
+      "target": "juliaci/nanosoldier.jl",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml",
+      "source_repo": "JuliaCI/BenchmarkTools.jl",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml",
+      "source_repo": "JuliaCI/BenchmarkTools.jl",
+      "target": "julia-actions/setup-julia@4c0cb0fce8556fdb04a90347310e5db8b1f98fb9",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml",
+      "source_repo": "JuliaCI/BenchmarkTools.jl",
+      "target": "julia-actions/cache@9a93c5fb3e9c1c20b60fc80a478cae53e38618a4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml",
+      "source_repo": "JuliaCI/BenchmarkTools.jl",
+      "target": "julia-actions/julia-buildpkg@e3eb439fad4f9aba7da2667e7510e4a46ebc46e1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml",
+      "source_repo": "JuliaCI/BenchmarkTools.jl",
+      "target": "julia-actions/julia-runtest@d60b785c6f2bdf4ebfb18b2b6f7d93b7dfb0efe3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml",
+      "source_repo": "JuliaCI/BenchmarkTools.jl",
+      "target": "julia-actions/julia-processcoverage@03114f09f119417c3242a9fb6e0b722676aedf38",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml",
+      "source_repo": "JuliaCI/BenchmarkTools.jl",
+      "target": "codecov/codecov-action@57e3a136b779b570ffcdbf80b3bdc90e7fab3de2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Documentation.yml",
+      "source_repo": "JuliaCI/BenchmarkTools.jl",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Documentation.yml",
+      "source_repo": "JuliaCI/BenchmarkTools.jl",
+      "target": "julia-actions/setup-julia@4c0cb0fce8556fdb04a90347310e5db8b1f98fb9",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Documentation.yml",
+      "source_repo": "JuliaCI/BenchmarkTools.jl",
+      "target": "julia-actions/cache@9a93c5fb3e9c1c20b60fc80a478cae53e38618a4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/Documentation.yml",
+      "source_repo": "JuliaCI/BenchmarkTools.jl",
+      "target": "Documentation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Format.yml",
+      "source_repo": "JuliaCI/BenchmarkTools.jl",
+      "target": "julia-actions/julia-format@d758beeb6b381459ef1254656f351627155a0f0a",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/Format.yml",
+      "source_repo": "JuliaCI/BenchmarkTools.jl",
+      "target": "Format suggestions",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/TagBot.yml",
+      "source_repo": "JuliaCI/BenchmarkTools.jl",
+      "target": "JuliaRegistries/TagBot@a39ffe1e9ec683f639c18cbee68da2712baa6af6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/TagBot.yml",
+      "source_repo": "JuliaCI/BenchmarkTools.jl",
+      "target": "TagBot",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JuliaCI/BenchmarkTools.jl",
+      "target": "benchmark",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JuliaCI/BenchmarkTools.jl",
+      "target": "julia",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JuliaCI/BenchmarkTools.jl",
+      "target": "julia-language",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-30T00:37:16.824464+00:00",
+  "source_repo": "JuliaCI/BenchmarkTools.jl"
+}

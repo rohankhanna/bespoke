@@ -1,0 +1,99 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Picsart-AI-Research/Text2Video-Zero",
+      "target": "jiauzhang/text2video-zero",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Picsart-AI-Research/Text2Video-Zero",
+      "target": "camenduru/text2video-zero-colab",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Picsart-AI-Research/Text2Video-Zero",
+      "target": "shi-labs/text2video-zero-sd-webui",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Picsart-AI-Research/Text2Video-Zero",
+      "target": "video-editing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Picsart-AI-Research/Text2Video-Zero",
+      "target": "video-generation",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T05:14:38.246893+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 20958
+    },
+    {
+      "path": "requirements.txt",
+      "size": 638
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "[ICCV 2023 Oral] Text-to-Image Diffusion Models are Zero-Shot Video Generators",
+    "fork": false,
+    "full_name": "Picsart-AI-Research/Text2Video-Zero",
+    "html_url": "https://github.com/Picsart-AI-Research/Text2Video-Zero",
+    "language": "Python",
+    "pushed_at": "2023-05-06T22:35:28Z",
+    "stargazers_count": 4251,
+    "topics": [
+      "video-editing",
+      "video-generation"
+    ],
+    "updated_at": "2026-04-26T14:51:25Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "camenduru/text2video-zero-colab",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jiauzhang/text2video-zero",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "shi-labs/text2video-zero-sd-webui",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "This repository is the official implementation of [Text2Video-Zero](https://arxiv.org/abs/2303.13439).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "video-editing"
+    },
+    {
+      "context_snippet": "This repository is the official implementation of [Text2Video-Zero](https://arxiv.org/abs/2303.13439).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "video-generation"
+    }
+  ]
+}

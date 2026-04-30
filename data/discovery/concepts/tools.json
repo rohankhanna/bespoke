@@ -235,6 +235,54 @@
       "source_repo": "galaxyproject/tools-iuc",
       "status": "candidate-context",
       "text": "[![Galaxy Tool Linting and Tests for push and PR](https://github.com/galaxyproject/tools-iuc/actions/workflows/pr.yaml/badge.svg?branch=main)](https://github.com/galaxyproject/tools-iuc/actions/workflows/pr.yaml?query=branch:main)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bgruening/galaxytools",
+      "status": "candidate-context",
+      "text": ":microscope::books: Galaxy Tool wrappers"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bgruening/galaxytools",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://travis-ci.org/bgruening/galaxytools.svg?branch=master)](https://travis-ci.org/bgruening/galaxytools)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "phodal/coca",
+      "status": "candidate-context",
+      "text": "Coca is a toolbox which is design for legacy system refactoring and analysis, includes call graph, concept analysis, api tree, design patterns suggest. Coca \u662f\u4e00\u4e2a\u7528\u4e8e\u7cfb\u7edf\u91cd\u6784\u3001\u7cfb\u7edf\u8fc1\u79fb\u548c\u7cfb\u7edf\u5206\u6790\u7684\u5de5\u5177\u7bb1\u3002\u5b83\u53ef\u4ee5\u5206\u6790\u4ee3\u7801\u4e2d\u7684\u6d4b\u8bd5\u574f\u5473\u9053\u3001\u6a21\u5757\u5316\u5206\u6790\u3001\u884c\u6570\u7edf\u8ba1\u3001\u5206\u6790\u8c03\u7528\u4e0e\u4f9d\u8d56\u3001Git \u5206\u6790\u4ee5\u53ca\u81ea\u52a8\u5316\u91cd\u6784\u7b49\u3002"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "phodal/coca",
+      "status": "candidate-context",
+      "text": "![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/phodal/coca)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "zai-org/CodeGeeX",
+      "status": "candidate-context",
+      "text": "CodeGeeX: An Open Multilingual Code Generation Model (KDD 2023)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "zai-org/CodeGeeX",
+      "status": "candidate-context",
+      "text": "<img src=\"resources/logo/codegeex_logo.png\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "2KAbhishek/tdo.nvim",
+      "status": "candidate-context",
+      "text": "Fast & Simple Notes in Neovim \ud83d\udcc3\ud83d\ude80"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "2KAbhishek/tdo.nvim",
+      "status": "candidate-context",
+      "text": "<div align = \"center\">"
     }
   ],
   "candidate_glosses": [
@@ -351,6 +399,30 @@
       "source_repo": "galaxyproject/tools-iuc",
       "status": "candidate",
       "text": "[![Galaxy Tool Linting and Tests for push and PR](https://github.com/galaxyproject/tools-iuc/actions/workflows/pr.yaml/badge.svg?branch=main)](https://github.com/galaxyproject/tools-iuc/actions/workflows/pr.yaml?query=branch:main)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bgruening/galaxytools",
+      "status": "candidate",
+      "text": "[![Build Status](https://travis-ci.org/bgruening/galaxytools.svg?branch=master)](https://travis-ci.org/bgruening/galaxytools)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "phodal/coca",
+      "status": "candidate",
+      "text": "![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/phodal/coca)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "zai-org/CodeGeeX",
+      "status": "candidate",
+      "text": "<img src=\"resources/logo/codegeex_logo.png\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "2KAbhishek/tdo.nvim",
+      "status": "candidate",
+      "text": "<div align = \"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -538,11 +610,35 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "galaxyproject/tools-iuc"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "bgruening/galaxytools"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "phodal/coca"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "zai-org/CodeGeeX"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "2KAbhishek/tdo.nvim"
     }
   ],
   "first_seen_at": "2026-04-18T12:07:11.500453+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

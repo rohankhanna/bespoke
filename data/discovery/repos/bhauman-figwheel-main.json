@@ -1,0 +1,135 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "bhauman/figwheel-main",
+      "target": "bhauman/spell-spec",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "bhauman/figwheel-main",
+      "target": "bhauman/cljs-test-display",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "bhauman/figwheel-main",
+      "target": "nrepl/piggieback",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "bhauman/figwheel-main",
+      "target": "bhauman/flappy-bird-demo-new",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bhauman/figwheel-main",
+      "target": "clojure",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bhauman/figwheel-main",
+      "target": "clojurescript",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bhauman/figwheel-main",
+      "target": "repl",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bhauman/figwheel-main",
+      "target": "tooling",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T04:08:31.469112+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 21099
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Figwheel Main provides tooling for developing ClojureScript applications",
+    "fork": false,
+    "full_name": "bhauman/figwheel-main",
+    "html_url": "https://github.com/bhauman/figwheel-main",
+    "language": "Clojure",
+    "pushed_at": "2026-03-17T03:45:33Z",
+    "stargazers_count": 650,
+    "topics": [
+      "clojure",
+      "clojurescript",
+      "repl",
+      "tooling"
+    ],
+    "updated_at": "2026-04-15T03:09:03Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "bhauman/cljs-test-display",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "bhauman/flappy-bird-demo-new",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "bhauman/spell-spec",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "nrepl/piggieback",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[![Clojars Project](https://img.shields.io/clojars/v/com.bhauman/figwheel-main.svg)](https://clojars.org/com.bhauman/figwheel-main)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "clojure"
+    },
+    {
+      "context_snippet": "[![Clojars Project](https://img.shields.io/clojars/v/com.bhauman/figwheel-main.svg)](https://clojars.org/com.bhauman/figwheel-main)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "clojurescript"
+    },
+    {
+      "context_snippet": "[![Clojars Project](https://img.shields.io/clojars/v/com.bhauman/figwheel-main.svg)](https://clojars.org/com.bhauman/figwheel-main)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "repl"
+    },
+    {
+      "context_snippet": "[![Clojars Project](https://img.shields.io/clojars/v/com.bhauman/figwheel-main.svg)](https://clojars.org/com.bhauman/figwheel-main)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tooling"
+    }
+  ]
+}

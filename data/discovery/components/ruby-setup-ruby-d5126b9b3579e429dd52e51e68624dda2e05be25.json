@@ -1,0 +1,12 @@
+{
+  "component": "ruby/setup-ruby@d5126b9b3579e429dd52e51e68624dda2e05be25",
+  "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/push_gem.yml",
+      "source_repo": "ruby/psych"
+    }
+  ]
+}

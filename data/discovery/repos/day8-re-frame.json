@@ -1,0 +1,425 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@93cb6efe18208431cddfb8368fd83d5badbf9bfd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continuous-deployment-workflow.yml"
+    },
+    {
+      "component": "actions/setup-java@be666c2fcd27ec809703dec50e508c2fdc7f6654",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continuous-deployment-workflow.yml"
+    },
+    {
+      "component": "DeLaGuardo/setup-clojure@02f5a82b79a547523e664fe8a7a32ea14884d7b2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continuous-deployment-workflow.yml"
+    },
+    {
+      "component": "actions/cache@27d5ce7f107fe9357f9df03efb73ab90386fccae",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continuous-deployment-workflow.yml"
+    },
+    {
+      "component": "actions/cache@27d5ce7f107fe9357f9df03efb73ab90386fccae",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continuous-deployment-workflow.yml"
+    },
+    {
+      "component": "actions/cache@27d5ce7f107fe9357f9df03efb73ab90386fccae",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continuous-deployment-workflow.yml"
+    },
+    {
+      "component": "browser-actions/setup-chrome@c785b87e244131f27c9f19c1a33e2ead956ab7ce",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continuous-deployment-workflow.yml"
+    },
+    {
+      "component": "slackapi/slack-github-action@03ea5433c137af7c0495bc0cad1af10403fc800c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continuous-deployment-workflow.yml"
+    },
+    {
+      "component": "actions/checkout@93cb6efe18208431cddfb8368fd83d5badbf9bfd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continuous-deployment-workflow.yml"
+    },
+    {
+      "component": "actions/cache@27d5ce7f107fe9357f9df03efb73ab90386fccae",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continuous-deployment-workflow.yml"
+    },
+    {
+      "component": "actions/setup-java@be666c2fcd27ec809703dec50e508c2fdc7f6654",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continuous-deployment-workflow.yml"
+    },
+    {
+      "component": "DeLaGuardo/setup-clojure@02f5a82b79a547523e664fe8a7a32ea14884d7b2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continuous-deployment-workflow.yml"
+    },
+    {
+      "component": "softprops/action-gh-release@b4309332981a82ec1c5618f44dd2e27cc8bfbfda",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continuous-deployment-workflow.yml"
+    },
+    {
+      "component": "slackapi/slack-github-action@03ea5433c137af7c0495bc0cad1af10403fc800c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continuous-deployment-workflow.yml"
+    },
+    {
+      "component": "actions/checkout@93cb6efe18208431cddfb8368fd83d5badbf9bfd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continuous-integration-workflow.yml"
+    },
+    {
+      "component": "actions/cache@27d5ce7f107fe9357f9df03efb73ab90386fccae",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continuous-integration-workflow.yml"
+    },
+    {
+      "component": "actions/cache@27d5ce7f107fe9357f9df03efb73ab90386fccae",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continuous-integration-workflow.yml"
+    },
+    {
+      "component": "actions/cache@27d5ce7f107fe9357f9df03efb73ab90386fccae",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continuous-integration-workflow.yml"
+    },
+    {
+      "component": "browser-actions/setup-chrome@c785b87e244131f27c9f19c1a33e2ead956ab7ce",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continuous-integration-workflow.yml"
+    },
+    {
+      "component": "actions/setup-java@be666c2fcd27ec809703dec50e508c2fdc7f6654",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continuous-integration-workflow.yml"
+    },
+    {
+      "component": "DeLaGuardo/setup-clojure@02f5a82b79a547523e664fe8a7a32ea14884d7b2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continuous-integration-workflow.yml"
+    },
+    {
+      "component": "slackapi/slack-github-action@03ea5433c137af7c0495bc0cad1af10403fc800c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continuous-integration-workflow.yml"
+    },
+    {
+      "component": "actions/checkout@93cb6efe18208431cddfb8368fd83d5badbf9bfd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs-workflow.yml"
+    },
+    {
+      "component": "actions/cache@27d5ce7f107fe9357f9df03efb73ab90386fccae",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs-workflow.yml"
+    },
+    {
+      "component": "actions/setup-java@be666c2fcd27ec809703dec50e508c2fdc7f6654",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs-workflow.yml"
+    },
+    {
+      "component": "DeLaGuardo/setup-clojure@02f5a82b79a547523e664fe8a7a32ea14884d7b2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs-workflow.yml"
+    },
+    {
+      "component": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs-workflow.yml"
+    },
+    {
+      "component": "actions/checkout@93cb6efe18208431cddfb8368fd83d5badbf9bfd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs-workflow.yml"
+    },
+    {
+      "component": "actions/download-artifact@3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs-workflow.yml"
+    },
+    {
+      "component": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs-workflow.yml"
+    },
+    {
+      "component": "actions/download-artifact@3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs-workflow.yml"
+    },
+    {
+      "component": "actions/upload-pages-artifact@fc324d3547104276b827a68afc52ff2a11cc49c9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs-workflow.yml"
+    },
+    {
+      "component": "actions/deploy-pages@cd2ce8fcbc39b97be8ca5fce6e763baed58fa128",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs-workflow.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continuous-deployment-workflow.yml",
+      "source_repo": "day8/re-frame",
+      "target": "actions/checkout@93cb6efe18208431cddfb8368fd83d5badbf9bfd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continuous-deployment-workflow.yml",
+      "source_repo": "day8/re-frame",
+      "target": "actions/setup-java@be666c2fcd27ec809703dec50e508c2fdc7f6654",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continuous-deployment-workflow.yml",
+      "source_repo": "day8/re-frame",
+      "target": "DeLaGuardo/setup-clojure@02f5a82b79a547523e664fe8a7a32ea14884d7b2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continuous-deployment-workflow.yml",
+      "source_repo": "day8/re-frame",
+      "target": "actions/cache@27d5ce7f107fe9357f9df03efb73ab90386fccae",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continuous-deployment-workflow.yml",
+      "source_repo": "day8/re-frame",
+      "target": "browser-actions/setup-chrome@c785b87e244131f27c9f19c1a33e2ead956ab7ce",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continuous-deployment-workflow.yml",
+      "source_repo": "day8/re-frame",
+      "target": "slackapi/slack-github-action@03ea5433c137af7c0495bc0cad1af10403fc800c",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continuous-deployment-workflow.yml",
+      "source_repo": "day8/re-frame",
+      "target": "softprops/action-gh-release@b4309332981a82ec1c5618f44dd2e27cc8bfbfda",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continuous-integration-workflow.yml",
+      "source_repo": "day8/re-frame",
+      "target": "actions/checkout@93cb6efe18208431cddfb8368fd83d5badbf9bfd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continuous-integration-workflow.yml",
+      "source_repo": "day8/re-frame",
+      "target": "actions/cache@27d5ce7f107fe9357f9df03efb73ab90386fccae",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continuous-integration-workflow.yml",
+      "source_repo": "day8/re-frame",
+      "target": "browser-actions/setup-chrome@c785b87e244131f27c9f19c1a33e2ead956ab7ce",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continuous-integration-workflow.yml",
+      "source_repo": "day8/re-frame",
+      "target": "actions/setup-java@be666c2fcd27ec809703dec50e508c2fdc7f6654",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continuous-integration-workflow.yml",
+      "source_repo": "day8/re-frame",
+      "target": "DeLaGuardo/setup-clojure@02f5a82b79a547523e664fe8a7a32ea14884d7b2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continuous-integration-workflow.yml",
+      "source_repo": "day8/re-frame",
+      "target": "slackapi/slack-github-action@03ea5433c137af7c0495bc0cad1af10403fc800c",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs-workflow.yml",
+      "source_repo": "day8/re-frame",
+      "target": "actions/checkout@93cb6efe18208431cddfb8368fd83d5badbf9bfd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs-workflow.yml",
+      "source_repo": "day8/re-frame",
+      "target": "actions/cache@27d5ce7f107fe9357f9df03efb73ab90386fccae",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs-workflow.yml",
+      "source_repo": "day8/re-frame",
+      "target": "actions/setup-java@be666c2fcd27ec809703dec50e508c2fdc7f6654",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs-workflow.yml",
+      "source_repo": "day8/re-frame",
+      "target": "DeLaGuardo/setup-clojure@02f5a82b79a547523e664fe8a7a32ea14884d7b2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs-workflow.yml",
+      "source_repo": "day8/re-frame",
+      "target": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs-workflow.yml",
+      "source_repo": "day8/re-frame",
+      "target": "actions/download-artifact@3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs-workflow.yml",
+      "source_repo": "day8/re-frame",
+      "target": "actions/upload-pages-artifact@fc324d3547104276b827a68afc52ff2a11cc49c9",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs-workflow.yml",
+      "source_repo": "day8/re-frame",
+      "target": "actions/deploy-pages@cd2ce8fcbc39b97be8ca5fce6e763baed58fa128",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docs-workflow.yml",
+      "source_repo": "day8/re-frame",
+      "target": "docs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "day8/re-frame",
+      "target": "clojurescript",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "day8/re-frame",
+      "target": "re-frame",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "day8/re-frame",
+      "target": "react",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "day8/re-frame",
+      "target": "reagent",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T04:04:30.949723+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4390
+    },
+    {
+      "path": ".github/workflows/continuous-deployment-workflow.yml",
+      "size": 5671
+    },
+    {
+      "path": ".github/workflows/continuous-integration-workflow.yml",
+      "size": 3084
+    },
+    {
+      "path": ".github/workflows/docs-workflow.yml",
+      "size": 4868
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A ClojureScript framework for building user interfaces, leveraging React",
+    "fork": false,
+    "full_name": "day8/re-frame",
+    "html_url": "https://github.com/day8/re-frame",
+    "language": "Clojure",
+    "pushed_at": "2026-04-29T17:28:22Z",
+    "stargazers_count": 5525,
+    "topics": [
+      "clojurescript",
+      "re-frame",
+      "react",
+      "reagent",
+      "spa"
+    ],
+    "updated_at": "2026-04-29T23:55:02Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "docs",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docs-workflow.yml",
+      "term": "docs"
+    },
+    {
+      "context_snippet": "<p align=\"center\"><a href=\"https://day8.github.io/re-frame\" target=\"_blank\" rel=\"noopener noreferrer\"><img src=\"docs/images/logo/re-frame-colour.png?raw=true\" alt=\"re-frame logo\"></a></p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "clojurescript"
+    },
+    {
+      "context_snippet": "<p align=\"center\"><a href=\"https://day8.github.io/re-frame\" target=\"_blank\" rel=\"noopener noreferrer\"><img src=\"docs/images/logo/re-frame-colour.png?raw=true\" alt=\"re-frame logo\"></a></p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "re-frame"
+    },
+    {
+      "context_snippet": "<p align=\"center\"><a href=\"https://day8.github.io/re-frame\" target=\"_blank\" rel=\"noopener noreferrer\"><img src=\"docs/images/logo/re-frame-colour.png?raw=true\" alt=\"re-frame logo\"></a></p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "react"
+    },
+    {
+      "context_snippet": "<p align=\"center\"><a href=\"https://day8.github.io/re-frame\" target=\"_blank\" rel=\"noopener noreferrer\"><img src=\"docs/images/logo/re-frame-colour.png?raw=true\" alt=\"re-frame logo\"></a></p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "reagent"
+    }
+  ]
+}

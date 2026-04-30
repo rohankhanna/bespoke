@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "refresh-agent-core-split"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "accomplish-ai/accomplish",
+      "status": "candidate-context",
+      "text": "Accomplish\u2122 is the open source Al coworker that lives on your desktop"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "accomplish-ai/accomplish",
+      "status": "candidate-context",
+      "text": "refresh-agent-core-split"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "accomplish-ai/accomplish",
+      "status": "candidate",
+      "text": "refresh-agent-core-split"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "refresh-agent-core-split",
+  "concept_id": "refresh-agent-core-split",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/refresh-agent-core-split.yml",
+      "source_repo": "accomplish-ai/accomplish"
+    }
+  ],
+  "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "refresh-agent-core-split",
+      "sense_id": "refresh-agent-core-split#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

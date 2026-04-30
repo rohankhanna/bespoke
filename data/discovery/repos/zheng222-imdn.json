@@ -1,0 +1,167 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Zheng222/IMDN",
+      "target": "ofsoundof/ntire2022_esr",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Zheng222/IMDN",
+      "target": "yulunzhang/rcan",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Zheng222/IMDN",
+      "target": "acmmm2019",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Zheng222/IMDN",
+      "target": "aim2019challenge",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Zheng222/IMDN",
+      "target": "image-resolution",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Zheng222/IMDN",
+      "target": "imdn",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Zheng222/IMDN",
+      "target": "information-multi-distillation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Zheng222/IMDN",
+      "target": "lightweight",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Zheng222/IMDN",
+      "target": "rtc2019",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Zheng222/IMDN",
+      "target": "rte2020",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T03:53:27.378384+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7287
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Lightweight Image Super-Resolution with Information Multi-distillation Network (ACM MM 2019, Winner Award of ICCVW AIM 2019 Constrained SR Track1&Track2)",
+    "fork": false,
+    "full_name": "Zheng222/IMDN",
+    "html_url": "https://github.com/Zheng222/IMDN",
+    "language": "Python",
+    "pushed_at": "2023-12-17T22:21:59Z",
+    "stargazers_count": 457,
+    "topics": [
+      "acmmm2019",
+      "aim2019challenge",
+      "image-resolution",
+      "imdn",
+      "information-multi-distillation",
+      "lightweight",
+      "rtc2019",
+      "rte2020"
+    ],
+    "updated_at": "2026-04-22T06:09:06Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ofsoundof/ntire2022_esr",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "yulunzhang/rcan",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Lightweight Image Super-Resolution with Information Multi-distillation Network (ACM MM 2019)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "acmmm2019"
+    },
+    {
+      "context_snippet": "Lightweight Image Super-Resolution with Information Multi-distillation Network (ACM MM 2019)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "aim2019challenge"
+    },
+    {
+      "context_snippet": "Lightweight Image Super-Resolution with Information Multi-distillation Network (ACM MM 2019)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "image-resolution"
+    },
+    {
+      "context_snippet": "Lightweight Image Super-Resolution with Information Multi-distillation Network (ACM MM 2019)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "imdn"
+    },
+    {
+      "context_snippet": "Lightweight Image Super-Resolution with Information Multi-distillation Network (ACM MM 2019)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "information-multi-distillation"
+    },
+    {
+      "context_snippet": "Lightweight Image Super-Resolution with Information Multi-distillation Network (ACM MM 2019)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "lightweight"
+    },
+    {
+      "context_snippet": "Lightweight Image Super-Resolution with Information Multi-distillation Network (ACM MM 2019)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rtc2019"
+    },
+    {
+      "context_snippet": "Lightweight Image Super-Resolution with Information Multi-distillation Network (ACM MM 2019)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rte2020"
+    }
+  ]
+}

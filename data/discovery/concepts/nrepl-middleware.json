@@ -19,6 +19,30 @@
       "source_repo": "clojure-emacs/cider-nrepl",
       "status": "candidate-context",
       "text": "[![CircleCI](https://img.shields.io/circleci/build/github/clojure-emacs/cider-nrepl/master.svg)](https://circleci.com/gh/clojure-emacs/cider-nrepl/tree/master)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "clojure-emacs/refactor-nrepl",
+      "status": "candidate-context",
+      "text": "nREPL middleware to support refactorings in an editor agnostic way"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "clojure-emacs/refactor-nrepl",
+      "status": "candidate-context",
+      "text": "[![CircleCI](https://circleci.com/gh/clojure-emacs/refactor-nrepl/tree/master.svg?style=svg)](https://circleci.com/gh/clojure-emacs/refactor-nrepl/tree/master)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "liquidz/iced-nrepl",
+      "status": "candidate-context",
+      "text": "nREPL middleware to support vim-iced."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "liquidz/iced-nrepl",
+      "status": "candidate-context",
+      "text": "build"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +51,18 @@
       "source_repo": "clojure-emacs/cider-nrepl",
       "status": "candidate",
       "text": "[![CircleCI](https://img.shields.io/circleci/build/github/clojure-emacs/cider-nrepl/master.svg)](https://circleci.com/gh/clojure-emacs/cider-nrepl/tree/master)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "clojure-emacs/refactor-nrepl",
+      "status": "candidate",
+      "text": "[![CircleCI](https://circleci.com/gh/clojure-emacs/refactor-nrepl/tree/master.svg?style=svg)](https://circleci.com/gh/clojure-emacs/refactor-nrepl/tree/master)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "liquidz/iced-nrepl",
+      "status": "candidate",
+      "text": "build"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +76,23 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": null,
       "source_repo": "clojure-emacs/cider-nrepl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "clojure-emacs/refactor-nrepl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "liquidz/iced-nrepl"
     }
   ],
   "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

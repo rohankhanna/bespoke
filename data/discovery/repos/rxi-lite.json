@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "rxi/lite",
+      "target": "rxi/lite-colors",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T04:08:56.217928+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1930
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A lightweight text editor written in Lua",
+    "fork": false,
+    "full_name": "rxi/lite",
+    "html_url": "https://github.com/rxi/lite",
+    "language": "Lua",
+    "pushed_at": "2023-09-20T16:35:31Z",
+    "stargazers_count": 8138,
+    "topics": [],
+    "updated_at": "2026-04-29T16:22:01Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "rxi/lite-colors",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

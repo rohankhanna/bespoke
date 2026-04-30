@@ -19,6 +19,18 @@
       "source_repo": "apollographql/apollo-scalajs",
       "status": "candidate-context",
       "text": "This repo was archived by the Apollo Security team on 2023-05-26"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "coursier/coursier",
+      "status": "candidate-context",
+      "text": "Pure Scala Artifact Fetching"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "coursier/coursier",
+      "status": "candidate-context",
+      "text": "[![Build status](https://github.com/coursier/coursier/workflows/CI/badge.svg)](https://github.com/coursier/coursier/actions?query=workflow%3ACI)"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "apollographql/apollo-scalajs",
       "status": "candidate",
       "text": "This repo was archived by the Apollo Security team on 2023-05-26"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "coursier/coursier",
+      "status": "candidate",
+      "text": "[![Build status](https://github.com/coursier/coursier/workflows/CI/badge.svg)](https://github.com/coursier/coursier/actions?query=workflow%3ACI)"
     }
   ],
   "candidate_related_terms": [],
@@ -46,11 +64,23 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "apollographql/apollo-scalajs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "coursier/coursier"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "apollographql/apollo-scalajs"
     }
   ],
   "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

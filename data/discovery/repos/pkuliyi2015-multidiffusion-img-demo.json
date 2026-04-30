@@ -1,0 +1,22 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T05:12:37.034546+00:00",
+  "fetched_files": [],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "The img demo repo for multidiffusion, to avoid large images automatic downloading by webui",
+    "fork": false,
+    "full_name": "pkuliyi2015/multidiffusion-img-demo",
+    "html_url": "https://github.com/pkuliyi2015/multidiffusion-img-demo",
+    "language": null,
+    "pushed_at": "2023-05-22T13:16:58Z",
+    "stargazers_count": 158,
+    "topics": [],
+    "updated_at": "2026-04-08T04:36:24Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

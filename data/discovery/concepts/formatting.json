@@ -178,6 +178,42 @@
       "source_repo": "KhronosGroup/KTX-Software",
       "status": "candidate-context",
       "text": "Formatting"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JuliaDiff/BlueStyle",
+      "status": "candidate-context",
+      "text": "A Julia style guide that lives in a blue world"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaDiff/BlueStyle",
+      "status": "candidate-context",
+      "text": "[![Code Style: Blue](https://img.shields.io/badge/code%20style-blue-4495d1.svg)](https://github.com/JuliaDiff/BlueStyle)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lavague-ai/LaVague",
+      "status": "candidate-context",
+      "text": "Large Action Model framework to develop AI Web Agents"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lavague-ai/LaVague",
+      "status": "candidate-context",
+      "text": "Formatting"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bazel-contrib/rules_foreign_cc",
+      "status": "candidate-context",
+      "text": "Build rules for interfacing with \"foreign\" (non-Bazel) build systems (CMake, configure-make, GNU Make, boost, ninja, Meson)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bazel-contrib/rules_foreign_cc",
+      "status": "candidate-context",
+      "text": "Formatting"
     }
   ],
   "candidate_glosses": [
@@ -262,6 +298,24 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "KhronosGroup/KTX-Software",
+      "status": "candidate",
+      "text": "Formatting"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaDiff/BlueStyle",
+      "status": "candidate",
+      "text": "[![Code Style: Blue](https://img.shields.io/badge/code%20style-blue-4495d1.svg)](https://github.com/JuliaDiff/BlueStyle)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lavague-ai/LaVague",
+      "status": "candidate",
+      "text": "Formatting"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bazel-contrib/rules_foreign_cc",
       "status": "candidate",
       "text": "Formatting"
     }
@@ -443,11 +497,41 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": ".github/workflows/formatting.yml",
       "source_repo": "KhronosGroup/KTX-Software"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "JuliaDiff/BlueStyle"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/format.yaml",
+      "source_repo": "lavague-ai/LaVague"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/formatting.yml",
+      "source_repo": "KhronosGroup/KTX-Software"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/formatting.yml",
+      "source_repo": "deepspeedai/DeepSpeed"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/formatting.yaml",
+      "source_repo": "bazel-contrib/rules_foreign_cc"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

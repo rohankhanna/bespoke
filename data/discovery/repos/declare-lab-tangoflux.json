@@ -1,0 +1,128 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "declare-lab/TangoFlux",
+      "target": "comfyanonymous/comfyui",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "declare-lab/TangoFlux",
+      "target": "lucipherdev/comfyui-tangoflux",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "declare-lab/TangoFlux",
+      "target": "xinhaomei/wavcaps",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "declare-lab/TangoFlux",
+      "target": "flow-matching",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "declare-lab/TangoFlux",
+      "target": "generative-ai",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "declare-lab/TangoFlux",
+      "target": "text-to-audio",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "declare-lab/TangoFlux",
+      "target": "text-to-audio-ai",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T02:05:01.355999+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 10201
+    },
+    {
+      "path": "requirements.txt",
+      "size": 166
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "[ICLR 2026] TangoFlux: Super Fast and Faithful Text to Audio Generation with Flow Matching",
+    "fork": false,
+    "full_name": "declare-lab/TangoFlux",
+    "html_url": "https://github.com/declare-lab/TangoFlux",
+    "language": "Jupyter Notebook",
+    "pushed_at": "2026-01-28T08:32:17Z",
+    "stargazers_count": 851,
+    "topics": [
+      "flow-matching",
+      "generative-ai",
+      "text-to-audio",
+      "text-to-audio-ai",
+      "tta"
+    ],
+    "updated_at": "2026-04-27T09:03:59Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "comfyanonymous/comfyui",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "lucipherdev/comfyui-tangoflux",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "xinhaomei/wavcaps",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "\ud83d\udd25\ud83d\udd25If you enjoyed TangoFlux, please check out our latest innovation, Jam, a lyrics-to-song generator: https://github.com/declare-lab/jamify",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "flow-matching"
+    },
+    {
+      "context_snippet": "\ud83d\udd25\ud83d\udd25If you enjoyed TangoFlux, please check out our latest innovation, Jam, a lyrics-to-song generator: https://github.com/declare-lab/jamify",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "generative-ai"
+    },
+    {
+      "context_snippet": "\ud83d\udd25\ud83d\udd25If you enjoyed TangoFlux, please check out our latest innovation, Jam, a lyrics-to-song generator: https://github.com/declare-lab/jamify",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "text-to-audio"
+    },
+    {
+      "context_snippet": "\ud83d\udd25\ud83d\udd25If you enjoyed TangoFlux, please check out our latest innovation, Jam, a lyrics-to-song generator: https://github.com/declare-lab/jamify",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "text-to-audio-ai"
+    }
+  ]
+}

@@ -105,6 +105,30 @@
       "source_repo": "Aider-AI/aider",
       "status": "candidate-context",
       "text": "PyPI Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kornia/kornia",
+      "status": "candidate-context",
+      "text": "\ud83d\udc0d Geometric Computer Vision Library for Spatial AI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kornia/kornia",
+      "status": "candidate-context",
+      "text": "PyPI Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "espressif/esptool",
+      "status": "candidate-context",
+      "text": "Serial utility for flashing, provisioning, and interacting with Espressif SoCs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "espressif/esptool",
+      "status": "candidate-context",
+      "text": "PyPI release"
     }
   ],
   "candidate_glosses": [
@@ -155,6 +179,18 @@
       "source_repo": "Aider-AI/aider",
       "status": "candidate",
       "text": "PyPI Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kornia/kornia",
+      "status": "candidate",
+      "text": "PyPI Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "espressif/esptool",
+      "status": "candidate",
+      "text": "PyPI release"
     }
   ],
   "candidate_related_terms": [
@@ -258,11 +294,23 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": ".github/workflows/release.yml",
       "source_repo": "Aider-AI/aider"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/pypi-release.yml",
+      "source_repo": "kornia/kornia"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/release_esptool_pypi.yml",
+      "source_repo": "espressif/esptool"
     }
   ],
   "first_seen_at": "2026-04-18T12:07:11.500453+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

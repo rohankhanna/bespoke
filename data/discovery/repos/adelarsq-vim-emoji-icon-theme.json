@@ -12,14 +12,14 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "adelarsq/vim-emoji-icon-theme",
-      "target": "drzel/vim-line-no-indicator",
+      "target": "glepnir/dashboard-nvim",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "adelarsq/vim-emoji-icon-theme",
-      "target": "glepnir/dashboard-nvim",
+      "target": "glepnir/lspsaga.nvim",
       "target_type": "repository"
     },
     {
@@ -65,7 +65,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-29T19:41:14.216422+00:00",
+  "fetched_at": "2026-04-30T04:09:13.761052+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -106,12 +106,12 @@
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "drzel/vim-line-no-indicator",
+      "full_name": "glepnir/dashboard-nvim",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "glepnir/dashboard-nvim",
+      "full_name": "glepnir/lspsaga.nvim",
       "source_file": "README.md"
     }
   ],

@@ -1,27 +1,7 @@
 {
-  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "sources": [
-    {
-      "discovered_via": "repo-topic",
-      "source_file": null,
-      "source_repo": "microsoft/tsdoc"
-    },
-    {
-      "discovered_via": "repo-topic",
-      "source_file": null,
-      "source_repo": "assemble/assemble"
-    },
-    {
-      "discovered_via": "repo-topic",
-      "source_file": null,
-      "source_repo": "executablebooks/mdit-py-plugins"
-    },
-    {
-      "discovered_via": "repo-topic",
-      "source_file": null,
-      "source_repo": "kivikakk/comrak"
-    },
     {
       "discovered_via": "repo-topic",
       "source_file": null,
@@ -30,27 +10,27 @@
     {
       "discovered_via": "repo-topic",
       "source_file": null,
-      "source_repo": "tats-u/markdown-cjk-friendly"
+      "source_repo": "web-infra-dev/rspress"
     },
     {
       "discovered_via": "repo-topic",
       "source_file": null,
-      "source_repo": "verbose/verb"
+      "source_repo": "xoofx/markdig"
     },
     {
       "discovered_via": "repo-topic",
       "source_file": null,
-      "source_repo": "micromark/micromark"
+      "source_repo": "yuin/goldmark"
     },
     {
       "discovered_via": "repo-topic",
       "source_file": null,
-      "source_repo": "syntax-tree/mdast"
+      "source_repo": "wooorm/mdxjs-rs"
     },
     {
       "discovered_via": "repo-topic",
       "source_file": null,
-      "source_repo": "mondeja/mkdocs-include-markdown-plugin"
+      "source_repo": "artempyanykh/marksman"
     },
     {
       "discovered_via": "repo-topic",
@@ -61,6 +41,36 @@
       "discovered_via": "repo-topic",
       "source_file": null,
       "source_repo": "clayrisser/sphinx-markdown-builder"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "artsy/README"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "tree-sitter-grammars/tree-sitter-markdown"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "13rac1/goldmark-embed"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "abhinav/goldmark-anchor"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "abhinav/goldmark-frontmatter"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "abhinav/goldmark-hashtag"
     }
   ],
   "term": "markdown"

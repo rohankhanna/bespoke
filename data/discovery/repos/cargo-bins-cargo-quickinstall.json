@@ -304,7 +304,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-19T02:43:50.808930+00:00",
+  "fetched_at": "2026-04-30T05:04:55.216107+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -347,7 +347,6 @@
       "size": 4621
     }
   ],
-  "metadata_refreshed_at": "2026-04-19T14:01:59.542662+00:00",
   "related_repositories": [],
   "repo": {
     "archived": false,
@@ -357,10 +356,10 @@
     "full_name": "cargo-bins/cargo-quickinstall",
     "html_url": "https://github.com/cargo-bins/cargo-quickinstall",
     "language": "Rust",
-    "pushed_at": "2026-04-19T13:18:39Z",
+    "pushed_at": "2026-04-30T04:04:27Z",
     "stargazers_count": 300,
     "topics": [],
-    "updated_at": "2026-04-17T13:03:55Z"
+    "updated_at": "2026-04-27T15:53:42Z"
   },
   "repo_links": [],
   "terms": [

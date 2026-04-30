@@ -1,7 +1,8 @@
 {
   "aliases": [
     "github-release",
-    "Github Release"
+    "Github Release",
+    "GitHub Release"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -34,6 +35,18 @@
       "source_repo": "webextension-toolbox/webextension-toolbox",
       "status": "candidate-context",
       "text": "Github Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "BayesWitnesses/m2cgen",
+      "status": "candidate-context",
+      "text": "Transform ML models into a native code (Java, C, Python, Go, JavaScript, Visual Basic, C#, R, PowerShell, PHP, Dart, Haskell, Ruby, F#, Rust) with zero dependencies"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "BayesWitnesses/m2cgen",
+      "status": "candidate-context",
+      "text": "GitHub Release"
     }
   ],
   "candidate_glosses": [
@@ -48,6 +61,12 @@
       "source_repo": "webextension-toolbox/webextension-toolbox",
       "status": "candidate",
       "text": "Github Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "BayesWitnesses/m2cgen",
+      "status": "candidate",
+      "text": "GitHub Release"
     }
   ],
   "candidate_related_terms": [
@@ -103,11 +122,17 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": ".github/workflows/release.yml",
       "source_repo": "webextension-toolbox/webextension-toolbox"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "BayesWitnesses/m2cgen"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

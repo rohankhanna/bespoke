@@ -1,0 +1,160 @@
+{
+  "aliases": [
+    "ring"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ring-clojure/ring",
+      "status": "candidate-context",
+      "text": "Clojure HTTP server abstraction"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ring-clojure/ring",
+      "status": "candidate-context",
+      "text": "Ring is a Clojure web applications library inspired by Python's WSGI"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "weavejester/ns-tracker",
+      "status": "candidate-context",
+      "text": "Library to keep track of changes to Clojure source files"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "weavejester/ns-tracker",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://github.com/weavejester/ns-tracker/actions/workflows/test.yml/badge.svg)](https://github.com/weavejester/ns-tracker/actions/workflows/test.yml)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ring-clojure/ring",
+      "status": "candidate",
+      "text": "Ring is a Clojure web applications library inspired by Python's WSGI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "weavejester/ns-tracker",
+      "status": "candidate",
+      "text": "[![Build Status](https://github.com/weavejester/ns-tracker/actions/workflows/test.yml/badge.svg)](https://github.com/weavejester/ns-tracker/actions/workflows/test.yml)"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40041840,
+      "status": "candidate",
+      "text": "band"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40036445,
+      "status": "candidate",
+      "text": "hoop"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40032567,
+      "status": "candidate",
+      "text": "pack"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40020324,
+      "status": "candidate",
+      "text": "encircle"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40018987,
+      "status": "candidate",
+      "text": "surround"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 31033,
+      "status": "candidate",
+      "text": "resound"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 29077,
+      "status": "candidate",
+      "text": "echo"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 28083,
+      "status": "candidate",
+      "text": "call"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 28034,
+      "status": "candidate",
+      "text": "reverberate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 23073,
+      "status": "candidate",
+      "text": "band"
+    }
+  ],
+  "canonical_name": "ring",
+  "concept_id": "ring",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "ring-clojure/ring"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "weavejester/ns-tracker"
+    }
+  ],
+  "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "ring",
+      "sense_id": "ring#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

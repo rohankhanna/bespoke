@@ -106,6 +106,54 @@
       "source_repo": "i18next/i18next-scanner",
       "status": "candidate-context",
       "text": "[![NPM](https://nodei.co/npm/i18next-scanner.png?downloads=true&stars=true)](https://www.npmjs.com/package/i18next-scanner)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "formatjs/formatjs",
+      "status": "candidate-context",
+      "text": "The monorepo home to all of the FormatJS related libraries, most notably react-intl."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "formatjs/formatjs",
+      "status": "candidate-context",
+      "text": "[![Unit Tests](https://github.com/formatjs/formatjs/actions/workflows/tests.yml/badge.svg)](https://github.com/formatjs/formatjs/actions/workflows/tests.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Kyubyong/transformer",
+      "status": "candidate-context",
+      "text": "A TensorFlow Implementation of the Transformer: Attention Is All You Need"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Kyubyong/transformer",
+      "status": "candidate-context",
+      "text": "When I opened this repository in 2017, there was no official code yet."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "i18next/i18next",
+      "status": "candidate-context",
+      "text": " i18next: learn once - translate everywhere"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "i18next/i18next",
+      "status": "candidate-context",
+      "text": "[![CI](https://github.com/i18next/i18next/actions/workflows/CI.yml/badge.svg)](https://github.com/i18next/i18next/actions/workflows/CI.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "i18next/react-i18next",
+      "status": "candidate-context",
+      "text": "Internationalization for react done right. Using the i18next i18n ecosystem."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "i18next/react-i18next",
+      "status": "candidate-context",
+      "text": "[![CI](https://github.com/i18next/react-i18next/actions/workflows/CI.yml/badge.svg)](https://github.com/i18next/react-i18next/actions/workflows/CI.yml)"
     }
   ],
   "candidate_glosses": [
@@ -156,6 +204,30 @@
       "source_repo": "i18next/i18next-scanner",
       "status": "candidate",
       "text": "[![NPM](https://nodei.co/npm/i18next-scanner.png?downloads=true&stars=true)](https://www.npmjs.com/package/i18next-scanner)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "formatjs/formatjs",
+      "status": "candidate",
+      "text": "[![Unit Tests](https://github.com/formatjs/formatjs/actions/workflows/tests.yml/badge.svg)](https://github.com/formatjs/formatjs/actions/workflows/tests.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Kyubyong/transformer",
+      "status": "candidate",
+      "text": "When I opened this repository in 2017, there was no official code yet."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "i18next/i18next",
+      "status": "candidate",
+      "text": "[![CI](https://github.com/i18next/i18next/actions/workflows/CI.yml/badge.svg)](https://github.com/i18next/i18next/actions/workflows/CI.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "i18next/react-i18next",
+      "status": "candidate",
+      "text": "[![CI](https://github.com/i18next/react-i18next/actions/workflows/CI.yml/badge.svg)](https://github.com/i18next/react-i18next/actions/workflows/CI.yml)"
     }
   ],
   "candidate_related_terms": [
@@ -283,11 +355,35 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "i18next/i18next-scanner"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "formatjs/formatjs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "Kyubyong/transformer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "i18next/i18next"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "i18next/react-i18next"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

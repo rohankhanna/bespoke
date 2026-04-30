@@ -1,0 +1,97 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "JodyVanden/guard-standardrb",
+      "target": "testdouble/standard",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "JodyVanden/guard-standardrb",
+      "target": "guard/guard",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JodyVanden/guard-standardrb",
+      "target": "guard",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JodyVanden/guard-standardrb",
+      "target": "guard-plugin",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JodyVanden/guard-standardrb",
+      "target": "guardfile",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T04:52:40.194885+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4196
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "a plugin for guard that works with standardrb.",
+    "fork": false,
+    "full_name": "JodyVanden/guard-standardrb",
+    "html_url": "https://github.com/JodyVanden/guard-standardrb",
+    "language": "Ruby",
+    "pushed_at": "2024-08-02T01:52:12Z",
+    "stargazers_count": 9,
+    "topics": [
+      "guard",
+      "guard-plugin",
+      "guardfile"
+    ],
+    "updated_at": "2024-03-16T10:30:39Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "guard/guard",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "testdouble/standard",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Welcome to the new guard plugin `guard-standardrb`!",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "guard"
+    },
+    {
+      "context_snippet": "Welcome to the new guard plugin `guard-standardrb`!",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "guard-plugin"
+    },
+    {
+      "context_snippet": "Welcome to the new guard plugin `guard-standardrb`!",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "guardfile"
+    }
+  ]
+}

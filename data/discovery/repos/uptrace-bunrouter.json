@@ -53,21 +53,7 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "uptrace/bunrouter",
-      "target": "input-output-hk/cicero",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "uptrace/bunrouter",
-      "target": "go-bun/bun-realworld-app",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "uptrace/bunrouter",
-      "target": "go-bun/go-http-routing-benchmark",
+      "target": "vmihailenco/taskq",
       "target_type": "repository"
     },
     {
@@ -169,7 +155,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-24T09:07:29.597090+00:00",
+  "fetched_at": "2026-04-30T01:42:29.626882+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -222,22 +208,12 @@
   "repo_links": [
     {
       "edge_type": "explicit-github-link",
-      "full_name": "go-bun/bun-realworld-app",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "go-bun/go-http-routing-benchmark",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
       "full_name": "go-gin/gin",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "input-output-hk/cicero",
+      "full_name": "vmihailenco/taskq",
       "source_file": "README.md"
     }
   ],

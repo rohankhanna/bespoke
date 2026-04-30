@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-18T11:57:36.597358+00:00",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
@@ -136,6 +136,46 @@
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/pull_request.yml",
       "source_repo": "boa-dev/boa"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "danielrosehill/Experiments-And-Evaluations-Index"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/benchmark.yml",
+      "source_repo": "boa-dev/data"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/benchmark.yml",
+      "source_repo": "linkedin/Liger-Kernel"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "IntelPython/scikit-learn_bench"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/benchmark.yml",
+      "source_repo": "biomejs/biome"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/benchmarks.yml",
+      "source_repo": "web-infra-dev/rslint"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/benchmarks.yml",
+      "source_repo": "ClickHouse/clickhouse-java"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "tianyi-lab/HallusionBench"
     }
   ],
   "term": "Benchmarks"

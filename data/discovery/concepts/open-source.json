@@ -499,6 +499,90 @@
       "source_repo": "ag2ai/ag2",
       "status": "candidate-context",
       "text": "<a name=\"readme-top\"></a>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "AdguardTeam/AdguardFilters",
+      "status": "candidate-context",
+      "text": "AdGuard Content Blocking Filters"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AdguardTeam/AdguardFilters",
+      "status": "candidate-context",
+      "text": "<!-- markdownlint-disable -->"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aws/amazon-q-developer-cli",
+      "status": "candidate-context",
+      "text": "\u2728 Agentic chat experience in your terminal. Build applications using natural language."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aws/amazon-q-developer-cli",
+      "status": "candidate-context",
+      "text": "> [!IMPORTANT]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "swagger-api/swagger-codegen",
+      "status": "candidate-context",
+      "text": "swagger-codegen contains a template-driven engine to generate documentation, API clients and server stubs in different languages by parsing your OpenAPI / Swagger definition."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "swagger-api/swagger-codegen",
+      "status": "candidate-context",
+      "text": "![Swagger Codegen Logo](./docs/Swagger-Codegen-Logo.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Chevrotain/chevrotain",
+      "status": "candidate-context",
+      "text": "Parser Building Toolkit for JavaScript"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Chevrotain/chevrotain",
+      "status": "candidate-context",
+      "text": "[![Discussions](https://img.shields.io/github/discussions/chevrotain/chevrotain?style=flat-square)](https://github.com/Chevrotain/chevrotain/discussions)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "5sControl/machine-control-js",
+      "status": "candidate-context",
+      "text": "Automatically detect when a worker is absent using power of computer vision"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "5sControl/machine-control-js",
+      "status": "candidate-context",
+      "text": "Machine control is one of the Official [5sControl](https://5scontrol.com/) algorithm. Plug it in our video monitoring system with AI analysis and ERP Integration (Open Source) to increase the efficiency of your processes."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "numi-hq/open-design",
+      "status": "candidate-context",
+      "text": "Design Contributions for Open Source Software"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "numi-hq/open-design",
+      "status": "candidate-context",
+      "text": "![numi-open-design](https://github.com/numi-hq/open-design/assets/2617315/7dc9c3cb-bd6f-4b28-9ce7-9b152bef8749)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "firstcontributions/first-contributions",
+      "status": "candidate-context",
+      "text": "\ud83d\ude80\u2728 Help beginners to contribute to open source projects"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "firstcontributions/first-contributions",
+      "status": "candidate-context",
+      "text": "[![Open Source Love](https://firstcontributions.github.io/open-source-badges/badges/open-source-v1/open-source.svg)](https://github.com/firstcontributions/open-source-badges)"
     }
   ],
   "candidate_glosses": [
@@ -729,6 +813,48 @@
       "source_repo": "ag2ai/ag2",
       "status": "candidate",
       "text": "<a name=\"readme-top\"></a>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AdguardTeam/AdguardFilters",
+      "status": "candidate",
+      "text": "<!-- markdownlint-disable -->"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aws/amazon-q-developer-cli",
+      "status": "candidate",
+      "text": "> [!IMPORTANT]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "swagger-api/swagger-codegen",
+      "status": "candidate",
+      "text": "![Swagger Codegen Logo](./docs/Swagger-Codegen-Logo.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Chevrotain/chevrotain",
+      "status": "candidate",
+      "text": "[![Discussions](https://img.shields.io/github/discussions/chevrotain/chevrotain?style=flat-square)](https://github.com/Chevrotain/chevrotain/discussions)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "5sControl/machine-control-js",
+      "status": "candidate",
+      "text": "Machine control is one of the Official [5sControl](https://5scontrol.com/) algorithm. Plug it in our video monitoring system with AI analysis and ERP Integration (Open Source) to increase the efficiency of your processes."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "numi-hq/open-design",
+      "status": "candidate",
+      "text": "![numi-open-design](https://github.com/numi-hq/open-design/assets/2617315/7dc9c3cb-bd6f-4b28-9ce7-9b152bef8749)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "firstcontributions/first-contributions",
+      "status": "candidate",
+      "text": "[![Open Source Love](https://firstcontributions.github.io/open-source-badges/badges/open-source-v1/open-source.svg)](https://github.com/firstcontributions/open-source-badges)"
     }
   ],
   "candidate_related_terms": [
@@ -1132,11 +1258,95 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "ag2ai/ag2"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "gitleaks/gitleaks"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "AdguardTeam/AdguardFilters"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "aws/amazon-q-developer-cli"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "langchain-ai/langchain"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "swagger-api/swagger-codegen"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "Chevrotain/chevrotain"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "5sControl/5Scontrol-manual"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "5sControl/machine-control-js"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "f/prompts.chat"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "IDLabMedia/large-lightfields-dataset"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "abap2UI5-addons/layout-management"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "abap2UI5-addons/sql-console"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "numi-hq/open-design"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "firstcontributions/first-contributions"
     }
   ],
   "first_seen_at": "2026-04-18T11:24:14.688152+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,205 @@
+{
+  "components": [
+    {
+      "component": "readline-sync",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "sprintf-js",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "tmp",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "eslint",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "jest",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "actions/setup-node@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "fengari-lua/fengari",
+      "target": "fengari-lua/fengari-web",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "fengari-lua/fengari",
+      "target": "fengari-lua/fengari-interop",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "fengari-lua/fengari",
+      "target": "fengari-lua/fengari-node-cli",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "fengari-lua/fengari",
+      "target": "readline-sync",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "fengari-lua/fengari",
+      "target": "sprintf-js",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "fengari-lua/fengari",
+      "target": "tmp",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "fengari-lua/fengari",
+      "target": "eslint",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "fengari-lua/fengari",
+      "target": "jest",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "fengari-lua/fengari",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "fengari-lua/fengari",
+      "target": "actions/setup-node@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "fengari-lua/fengari",
+      "target": "Node.js CI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "fengari-lua/fengari",
+      "target": "fengari",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "fengari-lua/fengari",
+      "target": "lua-vm",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T00:39:31.172755+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7002
+    },
+    {
+      "path": "package.json",
+      "size": 971
+    },
+    {
+      "path": ".github/workflows/ci.yaml",
+      "size": 600
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "\ud83c\udf19 \u03c6\u03b5\u03b3\u03b3\u03ac\u03c1\u03b9 - The Lua VM written in JS ES6 for Node and the browser",
+    "fork": false,
+    "full_name": "fengari-lua/fengari",
+    "html_url": "https://github.com/fengari-lua/fengari",
+    "language": "JavaScript",
+    "pushed_at": "2026-01-02T13:02:57Z",
+    "stargazers_count": 1991,
+    "topics": [
+      "es6",
+      "fengari",
+      "javascript",
+      "lua",
+      "lua-vm",
+      "vm"
+    ],
+    "updated_at": "2026-04-29T08:37:14Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "fengari-lua/fengari-interop",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "fengari-lua/fengari-node-cli",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "fengari-lua/fengari-web",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Node.js CI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yaml",
+      "term": "Node.js CI"
+    },
+    {
+      "context_snippet": "[![Build Status](https://github.com/fengari-lua/fengari/actions/workflows/ci.yaml/badge.svg)](https://github.com/fengari-lua/fengari/actions/workflows/ci.yaml?query=event%3Apush)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "fengari"
+    },
+    {
+      "context_snippet": "[![Build Status](https://github.com/fengari-lua/fengari/actions/workflows/ci.yaml/badge.svg)](https://github.com/fengari-lua/fengari/actions/workflows/ci.yaml?query=event%3Apush)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "lua-vm"
+    }
+  ]
+}

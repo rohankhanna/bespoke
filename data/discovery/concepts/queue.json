@@ -1,0 +1,122 @@
+{
+  "aliases": [
+    "queue"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "vmihailenco/taskq",
+      "status": "candidate-context",
+      "text": "Golang asynchronous task/job queue with Redis, SQS, IronMQ, and in-memory backends"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vmihailenco/taskq",
+      "status": "candidate-context",
+      "text": "![build workflow](https://github.com/vmihailenco/taskq/actions/workflows/build.yml/badge.svg)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vmihailenco/taskq",
+      "status": "candidate",
+      "text": "![build workflow](https://github.com/vmihailenco/taskq/actions/workflows/build.yml/badge.svg)"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39871054,
+      "status": "candidate",
+      "text": "queue up"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39865585,
+      "status": "candidate",
+      "text": "line up"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29871277,
+      "status": "candidate",
+      "text": "waiting line"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29856384,
+      "status": "candidate",
+      "text": "trail"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29854955,
+      "status": "candidate",
+      "text": "trailer"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 4032,
+      "status": "candidate",
+      "text": "line up"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 1009,
+      "status": "candidate",
+      "text": "waiting line"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 13,
+      "status": "candidate",
+      "text": "queue up"
+    }
+  ],
+  "canonical_name": "queue",
+  "concept_id": "queue",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "vmihailenco/taskq"
+    }
+  ],
+  "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "queue",
+      "sense_id": "queue#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

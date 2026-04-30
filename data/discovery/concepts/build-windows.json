@@ -1,7 +1,8 @@
 {
   "aliases": [
     "Build Windows",
-    "build-windows"
+    "build-windows",
+    "Build-Windows"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -44,6 +45,42 @@
       "source_repo": "heal-research/operon",
       "status": "candidate-context",
       "text": "build-windows"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "posit-dev/air",
+      "status": "candidate-context",
+      "text": "R formatter and language server"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "posit-dev/air",
+      "status": "candidate-context",
+      "text": "\"Build Windows\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lesismal/nbio",
+      "status": "candidate-context",
+      "text": "Pure Go 1000k+ connections solution, support tls/http1.x/websocket and basically compatible with net/http, with high-performance and low memory cost, non-blocking, event-driven, easy-to-use."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lesismal/nbio",
+      "status": "candidate-context",
+      "text": "Build-Windows"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "heal-research/pyoperon",
+      "status": "candidate-context",
+      "text": "Python bindings and scikit-learn interface for the Operon library for symbolic regression."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "heal-research/pyoperon",
+      "status": "candidate-context",
+      "text": "build-windows"
     }
   ],
   "candidate_glosses": [
@@ -62,6 +99,24 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "heal-research/operon",
+      "status": "candidate",
+      "text": "build-windows"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "posit-dev/air",
+      "status": "candidate",
+      "text": "\"Build Windows\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lesismal/nbio",
+      "status": "candidate",
+      "text": "Build-Windows"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "heal-research/pyoperon",
       "status": "candidate",
       "text": "build-windows"
     }
@@ -125,11 +180,29 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": ".github/workflows/build-windows.yml",
       "source_repo": "heal-research/operon"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/build-windows.yml",
+      "source_repo": "posit-dev/air"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/build_windows.yml",
+      "source_repo": "lesismal/nbio"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/build-windows.yml",
+      "source_repo": "heal-research/pyoperon"
     }
   ],
   "first_seen_at": "2026-04-22T04:41:58.081535+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

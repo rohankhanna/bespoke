@@ -427,6 +427,150 @@
       "source_repo": "vladmandic/sdnext",
       "status": "candidate-context",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "haofanwang/Lora-for-Diffusers",
+      "status": "candidate-context",
+      "text": "The most easy-to-understand tutorial for using LoRA (Low-Rank Adaptation) within diffusers framework for AI Generation Researchers\ud83d\udd25"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "haofanwang/Lora-for-Diffusers",
+      "status": "candidate-context",
+      "text": "This repository provides the simplest tutorial code for AIGC researchers to use Lora in just a few lines. Using this handbook, you can easily play with any Lora model from active communities such as [Huggingface](https://huggingface.co/) and [cititai](https://civitai.com/)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pkuliyi2015/multidiffusion-upscaler-for-automatic1111",
+      "status": "candidate-context",
+      "text": "Tiled Diffusion and VAE optimize, licensed under CC BY-NC-SA 4.0"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pkuliyi2015/multidiffusion-upscaler-for-automatic1111",
+      "status": "candidate-context",
+      "text": "[![CC BY-NC-SA 4.0][cc-by-nc-sa-shield]][cc-by-nc-sa]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "AbdBarho/stable-diffusion-webui-docker",
+      "status": "candidate-context",
+      "text": "Easy Docker setup for Stable Diffusion with user-friendly UI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AbdBarho/stable-diffusion-webui-docker",
+      "status": "candidate-context",
+      "text": "Run Stable Diffusion on your machine with a nice UI without any hassle!"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "GaParmar/img2img-turbo",
+      "status": "candidate-context",
+      "text": "One-step image-to-image with Stable Diffusion turbo: sketch2image, day2night, and more"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "GaParmar/img2img-turbo",
+      "status": "candidate-context",
+      "text": "[**Paper**](https://arxiv.org/abs/2403.12036) | [**Sketch2Image Demo**](https://huggingface.co/spaces/gparmar/img2img-turbo-sketch)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "saharmor/dalle-playground",
+      "status": "candidate-context",
+      "text": "A playground to generate images from any text prompt using Stable Diffusion (past: using DALL-E Mini)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "saharmor/dalle-playground",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "parlance-zz/g-diffuser-bot",
+      "status": "candidate-context",
+      "text": "Discord bot and Interface for Stable Diffusion"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "parlance-zz/g-diffuser-bot",
+      "status": "candidate-context",
+      "text": "![https://www.stablecabal.org](https://www.g-diffuser.com/stablecabal.png) https://www.stablecabal.org"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Kahsolt/stable-diffusion-webui-sonar",
+      "status": "candidate-context",
+      "text": "Wrapped k-diffuison samplers with tricks to improve the generated image quality (maybe?), extension script for AUTOMATIC1111/stable-diffusion-webui"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Kahsolt/stable-diffusion-webui-sonar",
+      "status": "candidate-context",
+      "text": "Wrapped k-diffuison samplers with tricks to improve the generated image quality (maybe?), extension script for AUTOMATIC1111/stable-diffusion-webui"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rgthree/rgthree-comfy",
+      "status": "candidate-context",
+      "text": "Making ComfyUI more comfortable!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rgthree/rgthree-comfy",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bghira/SimpleTuner",
+      "status": "candidate-context",
+      "text": "A general fine-tuning kit geared toward image/video/audio diffusion models."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bghira/SimpleTuner",
+      "status": "candidate-context",
+      "text": "> \u2139\ufe0f No data is sent to any third parties except through opt-in flag `report_to`, `push_to_hub`, or webhooks which must be manually configured."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "leejet/stable-diffusion.cpp",
+      "status": "candidate-context",
+      "text": "Diffusion model(SD,Flux,Wan,Qwen Image,Z-Image,...) inference in pure C/C++"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "leejet/stable-diffusion.cpp",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pkuliyi2015/sd-webui-stablesr",
+      "status": "candidate-context",
+      "text": "StableSR for Stable Diffusion WebUI - Ultra High-quality Image Upscaler"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pkuliyi2015/sd-webui-stablesr",
+      "status": "candidate-context",
+      "text": "Licensed under [S-Lab License 1.0](https://github.com/IceClear/StableSR/blob/main/LICENSE.txt)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "PRIS-CV/DemoFusion",
+      "status": "candidate-context",
+      "text": "Let us democratise high-resolution generation! (CVPR 2024)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PRIS-CV/DemoFusion",
+      "status": "candidate-context",
+      "text": "[![Project Page](https://img.shields.io/badge/Project-Page-green.svg)](https://ruoyidu.github.io/demofusion/demofusion.html)"
     }
   ],
   "candidate_glosses": [
@@ -639,6 +783,78 @@
       "source_repo": "vladmandic/sdnext",
       "status": "candidate",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "haofanwang/Lora-for-Diffusers",
+      "status": "candidate",
+      "text": "This repository provides the simplest tutorial code for AIGC researchers to use Lora in just a few lines. Using this handbook, you can easily play with any Lora model from active communities such as [Huggingface](https://huggingface.co/) and [cititai](https://civitai.com/)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pkuliyi2015/multidiffusion-upscaler-for-automatic1111",
+      "status": "candidate",
+      "text": "[![CC BY-NC-SA 4.0][cc-by-nc-sa-shield]][cc-by-nc-sa]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AbdBarho/stable-diffusion-webui-docker",
+      "status": "candidate",
+      "text": "Run Stable Diffusion on your machine with a nice UI without any hassle!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "GaParmar/img2img-turbo",
+      "status": "candidate",
+      "text": "[**Paper**](https://arxiv.org/abs/2403.12036) | [**Sketch2Image Demo**](https://huggingface.co/spaces/gparmar/img2img-turbo-sketch)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "saharmor/dalle-playground",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "parlance-zz/g-diffuser-bot",
+      "status": "candidate",
+      "text": "![https://www.stablecabal.org](https://www.g-diffuser.com/stablecabal.png) https://www.stablecabal.org"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Kahsolt/stable-diffusion-webui-sonar",
+      "status": "candidate",
+      "text": "Wrapped k-diffuison samplers with tricks to improve the generated image quality (maybe?), extension script for AUTOMATIC1111/stable-diffusion-webui"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rgthree/rgthree-comfy",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bghira/SimpleTuner",
+      "status": "candidate",
+      "text": "> \u2139\ufe0f No data is sent to any third parties except through opt-in flag `report_to`, `push_to_hub`, or webhooks which must be manually configured."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "leejet/stable-diffusion.cpp",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pkuliyi2015/sd-webui-stablesr",
+      "status": "candidate",
+      "text": "Licensed under [S-Lab License 1.0](https://github.com/IceClear/StableSR/blob/main/LICENSE.txt)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PRIS-CV/DemoFusion",
+      "status": "candidate",
+      "text": "[![Project Page](https://img.shields.io/badge/Project-Page-green.svg)](https://ruoyidu.github.io/demofusion/demofusion.html)"
     }
   ],
   "candidate_related_terms": [],
@@ -988,11 +1204,125 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "vladmandic/sdnext"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "jmsltnv/civitai-data-manager"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "vercel/modelfusion"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "haofanwang/Lora-for-Diffusers"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "Sanster/IOPaint"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "pkuliyi2015/multidiffusion-upscaler-for-automatic1111"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "AbdBarho/stable-diffusion-webui-docker"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "mudler/LocalAI"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "GaParmar/img2img-turbo"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "invoke-ai/InvokeAI"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "saharmor/dalle-playground"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "Comfy-Org/ComfyUI"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "parlance-zz/g-diffuser-bot"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "Comfy-Org/comfy-cli"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "Kahsolt/stable-diffusion-webui-sonar"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "rgthree/rgthree-comfy"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "bghira/SimpleTuner"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "leejet/stable-diffusion.cpp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "pkuliyi2015/sd-webui-stablesr"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "PRIS-CV/DemoFusion"
     }
   ],
   "first_seen_at": "2026-04-18T11:41:43.530265+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

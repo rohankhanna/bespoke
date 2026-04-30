@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Cross-platform automation framework for all kinds of apps, built on top of the W3C WebDriver protocol"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Update Crowdin English Docs"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Update Crowdin English Docs"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24686,
+      "status": "candidate",
+      "text": "drawing pin"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24686,
+      "status": "candidate",
+      "text": "pushpin"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24686,
+      "status": "candidate",
+      "text": "squadron"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24686,
+      "status": "candidate",
+      "text": "thumbtack"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24645,
+      "status": "candidate",
+      "text": "book"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Update Crowdin English Docs",
+      "sense_id": "update-crowdin-english-docs#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "update-crowdin-english-docs",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "update-crowdin-english-docs",
+  "observation_id": "ef8d4d5685338b3a",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-30T00:37:16.824464+00:00",
+  "observed_text": "Update Crowdin English Docs",
+  "source_context_snippet": "Update Crowdin English Docs",
+  "source_file": ".github/workflows/crowdin-update-docs-resources.yml",
+  "source_repo": "appium/appium",
+  "source_repo_description": "Cross-platform automation framework for all kinds of apps, built on top of the W3C WebDriver protocol"
+}

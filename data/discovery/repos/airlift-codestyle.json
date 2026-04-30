@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T04:56:15.040476+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7355
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Code style for Airlift projects",
+    "fork": false,
+    "full_name": "airlift/codestyle",
+    "html_url": "https://github.com/airlift/codestyle",
+    "language": null,
+    "pushed_at": "2025-11-28T16:46:12Z",
+    "stargazers_count": 69,
+    "topics": [],
+    "updated_at": "2026-04-14T09:05:28Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

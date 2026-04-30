@@ -1,0 +1,227 @@
+{
+  "components": [
+    {
+      "component": "actions/stale@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stale.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_and_build.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_and_build.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_and_build.yaml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_and_build.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_and_build.yaml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_and_build.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_and_build.yaml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_and_build.yaml"
+    },
+    {
+      "component": "softprops/action-gh-release@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_and_build.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "sanderland/katrain",
+      "target": "actions/stale@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "sanderland/katrain",
+      "target": "Close stale issues and PRs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_and_build.yaml",
+      "source_repo": "sanderland/katrain",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_and_build.yaml",
+      "source_repo": "sanderland/katrain",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_and_build.yaml",
+      "source_repo": "sanderland/katrain",
+      "target": "actions/download-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_and_build.yaml",
+      "source_repo": "sanderland/katrain",
+      "target": "softprops/action-gh-release@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test_and_build.yaml",
+      "source_repo": "sanderland/katrain",
+      "target": "Test, Build, and Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sanderland/katrain",
+      "target": "baduk",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sanderland/katrain",
+      "target": "katago",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sanderland/katrain",
+      "target": "kivy",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sanderland/katrain",
+      "target": "lizzie",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sanderland/katrain",
+      "target": "weiqi",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T03:48:46.997249+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 30959
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 1310
+    },
+    {
+      "path": ".github/workflows/stale.yml",
+      "size": 889
+    },
+    {
+      "path": ".github/workflows/test_and_build.yaml",
+      "size": 6757
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Improve your Baduk skills by training with KataGo!",
+    "fork": false,
+    "full_name": "sanderland/katrain",
+    "html_url": "https://github.com/sanderland/katrain",
+    "language": "Python",
+    "pushed_at": "2026-04-16T07:24:45Z",
+    "stargazers_count": 2228,
+    "topics": [
+      "ai",
+      "baduk",
+      "go",
+      "katago",
+      "kivy",
+      "lizzie",
+      "sgf",
+      "weiqi"
+    ],
+    "updated_at": "2026-04-30T02:42:05Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "\"Close stale issues and PRs\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/stale.yml",
+      "term": "Close stale issues and PRs"
+    },
+    {
+      "context_snippet": "Test, Build, and Release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test_and_build.yaml",
+      "term": "Test, Build, and Release"
+    },
+    {
+      "context_snippet": "[![Latest Release](http://img.shields.io/github/release/sanderland/katrain?label=download)](http://github.com/sanderland/katrain/releases)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "baduk"
+    },
+    {
+      "context_snippet": "[![Latest Release](http://img.shields.io/github/release/sanderland/katrain?label=download)](http://github.com/sanderland/katrain/releases)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "katago"
+    },
+    {
+      "context_snippet": "[![Latest Release](http://img.shields.io/github/release/sanderland/katrain?label=download)](http://github.com/sanderland/katrain/releases)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "kivy"
+    },
+    {
+      "context_snippet": "[![Latest Release](http://img.shields.io/github/release/sanderland/katrain?label=download)](http://github.com/sanderland/katrain/releases)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "lizzie"
+    },
+    {
+      "context_snippet": "[![Latest Release](http://img.shields.io/github/release/sanderland/katrain?label=download)](http://github.com/sanderland/katrain/releases)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "weiqi"
+    }
+  ]
+}

@@ -1,0 +1,269 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-interpreter.yml"
+    },
+    {
+      "component": "ocaml/setup-ocaml@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-interpreter.yml"
+    },
+    {
+      "component": "actions/setup-node@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-interpreter.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-spec.yml"
+    },
+    {
+      "component": "actions/setup-node@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-spec.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-spec.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-spec.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-spec.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-spec.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-spec.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-spec.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-spec.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-spec.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-spec.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-spec.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-spec.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-spec.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-spec.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-spec.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-spec.yml"
+    },
+    {
+      "component": "peaceiris/actions-gh-pages@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-spec.yml"
+    },
+    {
+      "component": "google/mirror-branch-action@v1.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mirror-to-master.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-interpreter.yml",
+      "source_repo": "WebAssembly/exception-handling",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-interpreter.yml",
+      "source_repo": "WebAssembly/exception-handling",
+      "target": "ocaml/setup-ocaml@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-interpreter.yml",
+      "source_repo": "WebAssembly/exception-handling",
+      "target": "actions/setup-node@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci-interpreter.yml",
+      "source_repo": "WebAssembly/exception-handling",
+      "target": "CI for interpreter & tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-spec.yml",
+      "source_repo": "WebAssembly/exception-handling",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-spec.yml",
+      "source_repo": "WebAssembly/exception-handling",
+      "target": "actions/setup-node@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-spec.yml",
+      "source_repo": "WebAssembly/exception-handling",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-spec.yml",
+      "source_repo": "WebAssembly/exception-handling",
+      "target": "actions/download-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-spec.yml",
+      "source_repo": "WebAssembly/exception-handling",
+      "target": "peaceiris/actions-gh-pages@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci-spec.yml",
+      "source_repo": "WebAssembly/exception-handling",
+      "target": "CI for specs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mirror-to-master.yml",
+      "source_repo": "WebAssembly/exception-handling",
+      "target": "google/mirror-branch-action@v1.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/mirror-to-master.yml",
+      "source_repo": "WebAssembly/exception-handling",
+      "target": "Mirror main branch to master branch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "WebAssembly/exception-handling",
+      "target": "proposal",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T00:55:00.768941+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1961
+    },
+    {
+      "path": ".github/workflows/ci-interpreter.yml",
+      "size": 1047
+    },
+    {
+      "path": ".github/workflows/ci-spec.yml",
+      "size": 4974
+    },
+    {
+      "path": ".github/workflows/mirror-to-master.yml",
+      "size": 368
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "main",
+    "description": "Proposal to add exception handling to WebAssembly",
+    "fork": false,
+    "full_name": "WebAssembly/exception-handling",
+    "html_url": "https://github.com/WebAssembly/exception-handling",
+    "language": "WebAssembly",
+    "pushed_at": "2025-03-20T12:59:27Z",
+    "stargazers_count": 169,
+    "topics": [
+      "proposal"
+    ],
+    "updated_at": "2026-02-04T21:54:11Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "CI for interpreter & tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci-interpreter.yml",
+      "term": "CI for interpreter & tests"
+    },
+    {
+      "context_snippet": "CI for specs",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci-spec.yml",
+      "term": "CI for specs"
+    },
+    {
+      "context_snippet": "Mirror main branch to master branch",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/mirror-to-master.yml",
+      "term": "Mirror main branch to master branch"
+    },
+    {
+      "context_snippet": "[![CI for specs](https://github.com/WebAssembly/exception-handling/actions/workflows/ci-spec.yml/badge.svg)](https://github.com/WebAssembly/exception-handling/actions/workflows/ci-spec.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "proposal"
+    }
+  ]
+}

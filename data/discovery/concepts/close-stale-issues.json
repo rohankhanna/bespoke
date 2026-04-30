@@ -1,7 +1,8 @@
 {
   "aliases": [
     "Close Stale Issues",
-    "Close stale issues"
+    "Close stale issues",
+    "close stale issues"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -1250,6 +1251,126 @@
       "source_repo": "oclif/core",
       "status": "candidate-context",
       "text": "'Close stale issues'"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aws-samples/aws-cdk-examples",
+      "status": "candidate-context",
+      "text": "Example projects using the AWS CDK"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aws-samples/aws-cdk-examples",
+      "status": "candidate-context",
+      "text": "\"Close Stale Issues\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apache/logging-log4j2",
+      "status": "candidate-context",
+      "text": "Apache Log4j is a versatile, feature-rich, efficient logging API and backend for Java."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/logging-log4j2",
+      "status": "candidate-context",
+      "text": "'Close stale issues'"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ipfs/go-log",
+      "status": "candidate-context",
+      "text": "A logging library used by go-ipfs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ipfs/go-log",
+      "status": "candidate-context",
+      "text": "Close Stale Issues"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rescript-lang/rescript",
+      "status": "candidate-context",
+      "text": "ReScript is a robustly typed language that compiles to efficient and human-readable JavaScript."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rescript-lang/rescript",
+      "status": "candidate-context",
+      "text": "'Close stale issues'"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "oclif/oclif",
+      "status": "candidate-context",
+      "text": "CLI for generating, building, and releasing oclif CLIs. Built by Salesforce."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "oclif/oclif",
+      "status": "candidate-context",
+      "text": "'Close stale issues'"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "oclif/oclif.github.io",
+      "status": "candidate-context",
+      "text": "docs for oclif"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "oclif/oclif.github.io",
+      "status": "candidate-context",
+      "text": "'Close stale issues'"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "oclif/plugin-update",
+      "status": "candidate-context",
+      "text": "add autoupdate to your oclif CLI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "oclif/plugin-update",
+      "status": "candidate-context",
+      "text": "'Close stale issues'"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kirodotdev/Kiro",
+      "status": "candidate-context",
+      "text": "Kiro is an agentic IDE that works alongside you from prototype to production."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kirodotdev/Kiro",
+      "status": "candidate-context",
+      "text": "Close Stale Issues"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aws/jsii",
+      "status": "candidate-context",
+      "text": "jsii allows code in any language to naturally interact with JavaScript classes. It is the technology that enables the AWS Cloud Development Kit to deliver polyglot libraries from a single codebase!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aws/jsii",
+      "status": "candidate-context",
+      "text": "\"Close Stale Issues\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "open-mmlab/OpenPCDet",
+      "status": "candidate-context",
+      "text": "OpenPCDet Toolbox for LiDAR-based 3D Object Detection."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "open-mmlab/OpenPCDet",
+      "status": "candidate-context",
+      "text": "close stale issues"
     }
   ],
   "candidate_glosses": [
@@ -1882,6 +2003,66 @@
       "source_repo": "oclif/core",
       "status": "candidate",
       "text": "'Close stale issues'"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aws-samples/aws-cdk-examples",
+      "status": "candidate",
+      "text": "\"Close Stale Issues\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/logging-log4j2",
+      "status": "candidate",
+      "text": "'Close stale issues'"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ipfs/go-log",
+      "status": "candidate",
+      "text": "Close Stale Issues"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rescript-lang/rescript",
+      "status": "candidate",
+      "text": "'Close stale issues'"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "oclif/oclif",
+      "status": "candidate",
+      "text": "'Close stale issues'"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "oclif/oclif.github.io",
+      "status": "candidate",
+      "text": "'Close stale issues'"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "oclif/plugin-update",
+      "status": "candidate",
+      "text": "'Close stale issues'"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kirodotdev/Kiro",
+      "status": "candidate",
+      "text": "Close Stale Issues"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aws/jsii",
+      "status": "candidate",
+      "text": "\"Close Stale Issues\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "open-mmlab/OpenPCDet",
+      "status": "candidate",
+      "text": "close stale issues"
     }
   ],
   "candidate_related_terms": [
@@ -2699,11 +2880,131 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": ".github/workflows/stale.yml",
       "source_repo": "oclif/core"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "web3/web3.js"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/close-stale-issues.yml",
+      "source_repo": "aws-samples/aws-cdk-examples"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "QwenLM/Qwen"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/close_tale_issue.yaml",
+      "source_repo": "modelscope/ms-swift"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/close-stale.yaml",
+      "source_repo": "apache/logging-log4j2"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "ipfs/go-log"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "ipfs/ipfs-companion"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "ipfs/ipfs-webui"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "ipfs-shipyard/is-ipfs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "ipld/explore.ipld.io"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "ipfs-shipyard/contributors-hex-grid"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "rescript-lang/rescript"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "multiformats/cid"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/close-slate-issues.yml",
+      "source_repo": "gobackup/gobackup"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "oclif/oclif"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "oclif/oclif.github.io"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "oclif/plugin-update"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/close-stale.yml",
+      "source_repo": "kirodotdev/Kiro"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/close-stale-issues.yml",
+      "source_repo": "aws/jsii"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/close_stale_issues.yml",
+      "source_repo": "open-mmlab/OpenPCDet"
     }
   ],
   "first_seen_at": "2026-04-18T11:24:14.688152+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

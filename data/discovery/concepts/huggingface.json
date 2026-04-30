@@ -175,6 +175,42 @@
       "source_repo": "baichuan-inc/Baichuan2",
       "status": "candidate-context",
       "text": "<!-- markdownlint-disable first-line-h1 -->"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Sea-Snell/JAXSeq",
+      "status": "candidate-context",
+      "text": "Train very large language models in Jax."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Sea-Snell/JAXSeq",
+      "status": "candidate-context",
+      "text": "**Note: this is version 2.0 of JaxSeq. It supports Jax V0.4, and there are quite few updates that should make it easier to work with. However, if you are dependent on the old version, I would reccoment pulling from the old_version branch, or the version 1.0 commit under github v\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "huggingface/huggingface.js",
+      "status": "candidate-context",
+      "text": "Use Hugging Face with JavaScript"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "huggingface/huggingface.js",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "X-PLUG/mPLUG-Owl",
+      "status": "candidate-context",
+      "text": "mPLUG-Owl: The Powerful Multi-modal Large Language Model  Family"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "X-PLUG/mPLUG-Owl",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -261,6 +297,24 @@
       "source_repo": "baichuan-inc/Baichuan2",
       "status": "candidate",
       "text": "<!-- markdownlint-disable first-line-h1 -->"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Sea-Snell/JAXSeq",
+      "status": "candidate",
+      "text": "**Note: this is version 2.0 of JaxSeq. It supports Jax V0.4, and there are quite few updates that should make it easier to work with. However, if you are dependent on the old version, I would reccoment pulling from the old_version branch, or the version 1.0 commit under github v\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "huggingface/huggingface.js",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "X-PLUG/mPLUG-Owl",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_related_terms": [],
@@ -442,11 +496,41 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "baichuan-inc/Baichuan2"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "vercel/modelfusion"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "Sea-Snell/JAXSeq"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "ruvnet/ruflo"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "huggingface/huggingface.js"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "X-PLUG/mPLUG-Owl"
     }
   ],
   "first_seen_at": "2026-04-18T11:57:36.597358+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

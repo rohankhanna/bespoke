@@ -1,7 +1,7 @@
 {
   "component": "read",
   "first_seen_at": "2026-04-18T12:07:11.500453+00:00",
-  "last_seen_at": "2026-04-24T18:19:44.660705+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "sources": [
     {
       "discovered_via": "package-json:dependencies",
@@ -147,6 +147,66 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/_comps-workflow.yml",
       "source_repo": "opea-project/GenAIComps"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "lightgbm-org/LightGBM"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/cpp.yml",
+      "source_repo": "lightgbm-org/LightGBM"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/cuda.yml",
+      "source_repo": "lightgbm-org/LightGBM"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/python_package.yml",
+      "source_repo": "lightgbm-org/LightGBM"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/IO_Iceberg_Integration_Tests.yml",
+      "source_repo": "apache/beam"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/IO_Iceberg_Integration_Tests_Dataflow.yml",
+      "source_repo": "apache/beam"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/IO_Iceberg_Managed_Integration_Tests_Dataflow.yml",
+      "source_repo": "apache/beam"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/IO_Iceberg_Performance_Tests.yml",
+      "source_repo": "apache/beam"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/IO_Iceberg_Unit_Tests.yml",
+      "source_repo": "apache/beam"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/beam_CancelStaleDataflowJobs.yml",
+      "source_repo": "apache/beam"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/beam_CleanUpDataprocResources.yml",
+      "source_repo": "apache/beam"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build_and_publish.yml",
+      "source_repo": "quarkiverse/quarkiverse"
     }
   ]
 }

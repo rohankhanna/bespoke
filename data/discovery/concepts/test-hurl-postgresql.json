@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Test Hurl PostgreSQL"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "c4ffein/realworld-django-ninja",
+      "status": "candidate-context",
+      "text": "RealWord is a medium clone. This implementation uses Django Ninja to create a backend service for the blog."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "c4ffein/realworld-django-ninja",
+      "status": "candidate-context",
+      "text": "Test Hurl PostgreSQL"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "c4ffein/realworld-django-ninja",
+      "status": "candidate",
+      "text": "Test Hurl PostgreSQL"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12085,
+      "status": "candidate",
+      "text": "fire"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12085,
+      "status": "candidate",
+      "text": "fired"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10962,
+      "status": "candidate",
+      "text": "ballista"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10962,
+      "status": "candidate",
+      "text": "cast"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10962,
+      "status": "candidate",
+      "text": "casted"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Test Hurl PostgreSQL",
+  "concept_id": "test-hurl-postgresql",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/test-hurl-postgresql.yml",
+      "source_repo": "c4ffein/realworld-django-ninja"
+    }
+  ],
+  "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Test Hurl PostgreSQL",
+      "sense_id": "test-hurl-postgresql#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

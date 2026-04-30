@@ -1,0 +1,166 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/unittests.yml"
+    },
+    {
+      "component": "actions/setup-python@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/unittests.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/unittests.yml",
+      "source_repo": "Joshuaalbert/jaxns",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/unittests.yml",
+      "source_repo": "Joshuaalbert/jaxns",
+      "target": "actions/setup-python@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Joshuaalbert/jaxns",
+      "target": "bayesian-computing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Joshuaalbert/jaxns",
+      "target": "bayesian-methods",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Joshuaalbert/jaxns",
+      "target": "model-comparison",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Joshuaalbert/jaxns",
+      "target": "nested-sampling",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Joshuaalbert/jaxns",
+      "target": "probabilistic-programming",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Joshuaalbert/jaxns",
+      "target": "scientific-computing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Joshuaalbert/jaxns",
+      "target": "scientific-machine-learning",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T03:54:41.312160+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 17959
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 931
+    },
+    {
+      "path": "requirements.txt",
+      "size": 52
+    },
+    {
+      "path": ".github/workflows/unittests.yml",
+      "size": 1281
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Probabilistic Programming and Nested sampling in JAX",
+    "fork": false,
+    "full_name": "Joshuaalbert/jaxns",
+    "html_url": "https://github.com/Joshuaalbert/jaxns",
+    "language": "Python",
+    "pushed_at": "2026-04-16T23:46:47Z",
+    "stargazers_count": 233,
+    "topics": [
+      "bayesian-computing",
+      "bayesian-methods",
+      "jax",
+      "model-comparison",
+      "nested-sampling",
+      "probabilistic-programming",
+      "scientific-computing",
+      "scientific-machine-learning"
+    ],
+    "updated_at": "2026-04-29T14:11:16Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "[![Python](https://img.shields.io/pypi/pyversions/jaxns.svg)](https://badge.fury.io/py/jaxns)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bayesian-computing"
+    },
+    {
+      "context_snippet": "[![Python](https://img.shields.io/pypi/pyversions/jaxns.svg)](https://badge.fury.io/py/jaxns)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bayesian-methods"
+    },
+    {
+      "context_snippet": "[![Python](https://img.shields.io/pypi/pyversions/jaxns.svg)](https://badge.fury.io/py/jaxns)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "model-comparison"
+    },
+    {
+      "context_snippet": "[![Python](https://img.shields.io/pypi/pyversions/jaxns.svg)](https://badge.fury.io/py/jaxns)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nested-sampling"
+    },
+    {
+      "context_snippet": "[![Python](https://img.shields.io/pypi/pyversions/jaxns.svg)](https://badge.fury.io/py/jaxns)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "probabilistic-programming"
+    },
+    {
+      "context_snippet": "[![Python](https://img.shields.io/pypi/pyversions/jaxns.svg)](https://badge.fury.io/py/jaxns)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "scientific-computing"
+    },
+    {
+      "context_snippet": "[![Python](https://img.shields.io/pypi/pyversions/jaxns.svg)](https://badge.fury.io/py/jaxns)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "scientific-machine-learning"
+    }
+  ]
+}

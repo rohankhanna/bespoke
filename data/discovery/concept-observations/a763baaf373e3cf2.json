@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "RocksDB/LevelDB inspired key-value database in Go"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Nightly instrumented tests"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Nightly instrumented tests"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22303,
+      "status": "candidate",
+      "text": "proofs"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22282,
+      "status": "candidate",
+      "text": "log"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22282,
+      "status": "candidate",
+      "text": "paper"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22282,
+      "status": "candidate",
+      "text": "proofed"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22239,
+      "status": "candidate",
+      "text": "blow"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Nightly instrumented tests",
+      "sense_id": "nightly-instrumented-tests#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "nightly-instrumented-tests",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "nightly-instrumented-tests",
+  "observation_id": "a763baaf373e3cf2",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-30T00:37:16.824464+00:00",
+  "observed_text": "Nightly instrumented tests",
+  "source_context_snippet": "Nightly instrumented tests",
+  "source_file": ".github/workflows/instrumented.yaml",
+  "source_repo": "cockroachdb/pebble",
+  "source_repo_description": "RocksDB/LevelDB inspired key-value database in Go"
+}

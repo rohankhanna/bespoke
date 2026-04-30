@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T05:12:05.595359+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 13353
+    },
+    {
+      "path": "requirements.txt",
+      "size": 98
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "T2I-Adapter",
+    "fork": false,
+    "full_name": "TencentARC/T2I-Adapter",
+    "html_url": "https://github.com/TencentARC/T2I-Adapter",
+    "language": "Python",
+    "pushed_at": "2024-06-21T20:51:36Z",
+    "stargazers_count": 3803,
+    "topics": [],
+    "updated_at": "2026-04-29T21:57:24Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

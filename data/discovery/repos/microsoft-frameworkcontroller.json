@@ -1,0 +1,217 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml"
+    },
+    {
+      "component": "actions/checkout@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "microsoft/frameworkcontroller",
+      "target": "microsoft/pai",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "microsoft/frameworkcontroller",
+      "target": "kubeflow/tf-operator",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "microsoft/frameworkcontroller",
+      "target": "kubeflow/pytorch-operator",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "microsoft/frameworkcontroller",
+      "target": "microsoft/dlworkspace",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml",
+      "source_repo": "microsoft/frameworkcontroller",
+      "target": "actions/checkout@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yaml",
+      "source_repo": "microsoft/frameworkcontroller",
+      "target": "build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/frameworkcontroller",
+      "target": "container-management",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/frameworkcontroller",
+      "target": "container-orchestration",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/frameworkcontroller",
+      "target": "containers",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/frameworkcontroller",
+      "target": "frameworklauncher",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/frameworkcontroller",
+      "target": "kubernetes",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/frameworkcontroller",
+      "target": "kubernetes-controller",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/frameworkcontroller",
+      "target": "tensorflow",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T05:13:13.376973+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 11419
+    },
+    {
+      "path": "go.mod",
+      "size": 596
+    },
+    {
+      "path": ".github/workflows/build.yaml",
+      "size": 446
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "master",
+    "description": "General-Purpose Kubernetes Pod Controller",
+    "fork": false,
+    "full_name": "microsoft/frameworkcontroller",
+    "html_url": "https://github.com/microsoft/frameworkcontroller",
+    "language": "Go",
+    "pushed_at": "2023-04-04T01:34:08Z",
+    "stargazers_count": 172,
+    "topics": [
+      "container-management",
+      "container-orchestration",
+      "containers",
+      "frameworklauncher",
+      "go",
+      "kubernetes",
+      "kubernetes-controller",
+      "tensorflow"
+    ],
+    "updated_at": "2026-03-01T12:58:09Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "kubeflow/pytorch-operator",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "kubeflow/tf-operator",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "microsoft/dlworkspace",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "microsoft/pai",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yaml",
+      "term": "build"
+    },
+    {
+      "context_snippet": "**_Turn it into maintenance mode, read-only, and only update for critical fixes._**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "container-management"
+    },
+    {
+      "context_snippet": "**_Turn it into maintenance mode, read-only, and only update for critical fixes._**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "container-orchestration"
+    },
+    {
+      "context_snippet": "**_Turn it into maintenance mode, read-only, and only update for critical fixes._**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "containers"
+    },
+    {
+      "context_snippet": "**_Turn it into maintenance mode, read-only, and only update for critical fixes._**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "frameworklauncher"
+    },
+    {
+      "context_snippet": "**_Turn it into maintenance mode, read-only, and only update for critical fixes._**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "kubernetes"
+    },
+    {
+      "context_snippet": "**_Turn it into maintenance mode, read-only, and only update for critical fixes._**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "kubernetes-controller"
+    },
+    {
+      "context_snippet": "**_Turn it into maintenance mode, read-only, and only update for critical fixes._**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tensorflow"
+    }
+  ]
+}

@@ -379,6 +379,30 @@
       "source_repo": "artsy/eigen",
       "status": "candidate-context",
       "text": "<a href=\"http://iphone.artsy.net\"><img src =\"docs/screenshots/overview.png\"></a>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "celo-org/celo-composer",
+      "status": "candidate-context",
+      "text": "celo-composer is a starter project with all code needed to build, deploy, and upgrade a dapps on Celo."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "celo-org/celo-composer",
+      "status": "candidate-context",
+      "text": "A powerful CLI tool for generating customizable Celo blockchain starter kits with modern monorepo architecture."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "i18next/react-i18next",
+      "status": "candidate-context",
+      "text": "Internationalization for react done right. Using the i18next i18n ecosystem."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "i18next/react-i18next",
+      "status": "candidate-context",
+      "text": "[![CI](https://github.com/i18next/react-i18next/actions/workflows/CI.yml/badge.svg)](https://github.com/i18next/react-i18next/actions/workflows/CI.yml)"
     }
   ],
   "candidate_glosses": [
@@ -567,6 +591,18 @@
       "source_repo": "artsy/eigen",
       "status": "candidate",
       "text": "<a href=\"http://iphone.artsy.net\"><img src =\"docs/screenshots/overview.png\"></a>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "celo-org/celo-composer",
+      "status": "candidate",
+      "text": "A powerful CLI tool for generating customizable Celo blockchain starter kits with modern monorepo architecture."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "i18next/react-i18next",
+      "status": "candidate",
+      "text": "[![CI](https://github.com/i18next/react-i18next/actions/workflows/CI.yml/badge.svg)](https://github.com/i18next/react-i18next/actions/workflows/CI.yml)"
     }
   ],
   "candidate_related_terms": [],
@@ -796,11 +832,29 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "artsy/eigen"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "celo-org/celo-composer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "callstack/react-native-builder-bob"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "i18next/react-i18next"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

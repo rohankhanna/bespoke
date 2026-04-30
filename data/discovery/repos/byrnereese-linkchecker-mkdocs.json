@@ -1,0 +1,45 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "byrnereese/linkchecker-mkdocs",
+      "target": "scivision/linkchecker-markdown",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T04:12:04.638332+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3433
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 128
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Python asyncio + aiohttp Markdown *.md  URL link checker: 10,000 files/second",
+    "fork": true,
+    "full_name": "byrnereese/linkchecker-mkdocs",
+    "html_url": "https://github.com/byrnereese/linkchecker-mkdocs",
+    "language": "Python",
+    "pushed_at": "2023-07-14T20:12:42Z",
+    "stargazers_count": 17,
+    "topics": [],
+    "updated_at": "2026-04-13T09:20:02Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "scivision/linkchecker-markdown",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

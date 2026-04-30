@@ -664,6 +664,132 @@
       "source_repo": "google-research/torchsde",
       "status": "candidate-context",
       "text": "Run tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hashicorp/vault-plugin-auth-kerberos",
+      "status": "candidate-context",
+      "text": "A plugin for HashiCorp Vault enabling Kerberos authentication."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hashicorp/vault-plugin-auth-kerberos",
+      "status": "candidate-context",
+      "text": "Run Tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "a-antoniades/swe-search",
+      "status": "candidate-context",
+      "text": "Run Tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "McGill-NLP/webllama",
+      "status": "candidate-context",
+      "text": "Llama-3 agents that can browse the web by following instructions and talking to you"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "McGill-NLP/webllama",
+      "status": "candidate-context",
+      "text": "Run Tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dylibso/xtp-bindgen",
+      "status": "candidate-context",
+      "text": "A typescript library for parsing and using the XTP Schema https://docs.xtp.dylibso.com/docs/concepts/xtp-schema/"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dylibso/xtp-bindgen",
+      "status": "candidate-context",
+      "text": "Run Tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "patrick-kidger/equinox",
+      "status": "candidate-context",
+      "text": "Elegant easy-to-use neural networks + scientific computing in JAX. https://docs.kidger.site/equinox/"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "patrick-kidger/equinox",
+      "status": "candidate-context",
+      "text": "Run tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "boj/redistore",
+      "status": "candidate-context",
+      "text": "A session store backend for gorilla/sessions using Redis."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "boj/redistore",
+      "status": "candidate-context",
+      "text": "Run Tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "edn-query-language/eql",
+      "status": "candidate-context",
+      "text": "EQL is a declarative way to make hierarchical (and possibly nested) selections of information about data requirements. This repository contains the base specs and definitions for EQL parsing, AST, etc."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "edn-query-language/eql",
+      "status": "candidate-context",
+      "text": "Run Tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "georust/wkt",
+      "status": "candidate-context",
+      "text": "Rust read/write support for well-known text (WKT)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "georust/wkt",
+      "status": "candidate-context",
+      "text": "Run tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "google/vim-codefmt",
+      "status": "candidate-context",
+      "text": "Vim plugin for syntax-aware code formatting"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/vim-codefmt",
+      "status": "candidate-context",
+      "text": "run-tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dundee/gdu",
+      "status": "candidate-context",
+      "text": "Fast disk usage analyzer with console interface written in Go"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dundee/gdu",
+      "status": "candidate-context",
+      "text": "run tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mikedh/trimesh",
+      "status": "candidate-context",
+      "text": "Python library for loading and using triangular meshes."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mikedh/trimesh",
+      "status": "candidate-context",
+      "text": "Run Tests"
     }
   ],
   "candidate_glosses": [
@@ -996,6 +1122,72 @@
       "source_repo": "google-research/torchsde",
       "status": "candidate",
       "text": "Run tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hashicorp/vault-plugin-auth-kerberos",
+      "status": "candidate",
+      "text": "Run Tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "a-antoniades/swe-search",
+      "status": "candidate",
+      "text": "Run Tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "McGill-NLP/webllama",
+      "status": "candidate",
+      "text": "Run Tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dylibso/xtp-bindgen",
+      "status": "candidate",
+      "text": "Run Tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "patrick-kidger/equinox",
+      "status": "candidate",
+      "text": "Run tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "boj/redistore",
+      "status": "candidate",
+      "text": "Run Tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "edn-query-language/eql",
+      "status": "candidate",
+      "text": "Run Tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "georust/wkt",
+      "status": "candidate",
+      "text": "Run tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/vim-codefmt",
+      "status": "candidate",
+      "text": "run-tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dundee/gdu",
+      "status": "candidate",
+      "text": "run tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mikedh/trimesh",
+      "status": "candidate",
+      "text": "Run Tests"
     }
   ],
   "candidate_related_terms": [
@@ -1447,11 +1639,107 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": ".github/workflows/test.yml",
       "source_repo": "georust/geo"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/run-tests.yml",
+      "source_repo": "google/vim-maktaba"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "github-linguist/linguist"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/tests.yaml",
+      "source_repo": "hashicorp/vault-plugin-auth-kerberos"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/run-tests.yml",
+      "source_repo": "a-antoniades/swe-search"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/run-tests.yml",
+      "source_repo": "McGill-NLP/webllama"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "nodists/nodist"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "ChatGPTNextWeb/NextChat"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "dylibso/xtp-bindgen"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/run_tests.yml",
+      "source_repo": "patrick-kidger/equinox"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/go.yml",
+      "source_repo": "boj/redistore"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "edn-query-language/eql"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "georust/wkt"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/run-tests.yml",
+      "source_repo": "google/vim-codefmt"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "dundee/gdu"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "python-websockets/websockets"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "mikedh/trimesh"
     }
   ],
   "first_seen_at": "2026-04-19T01:08:57.644140+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

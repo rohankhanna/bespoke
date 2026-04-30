@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "PR linters, checks"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "GoogleContainerTools/skaffold",
+      "status": "candidate-context",
+      "text": "Easy and Repeatable Kubernetes Development"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "GoogleContainerTools/skaffold",
+      "status": "candidate-context",
+      "text": "PR linters, checks"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "GoogleContainerTools/skaffold",
+      "status": "candidate",
+      "text": "PR linters, checks"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10067,
+      "status": "candidate",
+      "text": "asphalt"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10067,
+      "status": "candidate",
+      "text": "bauxite"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10067,
+      "status": "candidate",
+      "text": "cellulose"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10067,
+      "status": "candidate",
+      "text": "flax"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10067,
+      "status": "candidate",
+      "text": "fuzz"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "PR linters, checks",
+  "concept_id": "pr-linters-checks",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/linters-checks.yml",
+      "source_repo": "GoogleContainerTools/skaffold"
+    }
+  ],
+  "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "PR linters, checks",
+      "sense_id": "pr-linters-checks#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

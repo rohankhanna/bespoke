@@ -11,21 +11,21 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "verl-project/verl",
-      "target": "gair-nlp/torl",
+      "target": "leaplabthu/absolute-zero-reasoner",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "verl-project/verl",
-      "target": "ganler/code-r1",
+      "target": "hkunlp/critic-rl",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "verl-project/verl",
-      "target": "computer-use-agents/dart-gui",
+      "target": "kanishkg/cognitive-behaviors",
       "target_type": "repository"
     },
     {
@@ -274,6 +274,6 @@
       "target_type": "component"
     }
   ],
-  "generated_at": "2026-04-29T18:37:00.726333+00:00",
+  "generated_at": "2026-04-30T00:37:16.824464+00:00",
   "source_repo": "verl-project/verl"
 }

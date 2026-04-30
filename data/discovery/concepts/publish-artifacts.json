@@ -1,6 +1,7 @@
 {
   "aliases": [
-    "Publish Artifacts"
+    "Publish Artifacts",
+    "Publish artifacts"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -19,6 +20,18 @@
       "source_repo": "iterate-ch/cyberduck",
       "status": "candidate-context",
       "text": "Publish Artifacts"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apache/hudi-rs",
+      "status": "candidate-context",
+      "text": "The native Rust implementation for Apache Hudi, with C++ & Python API bindings."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/hudi-rs",
+      "status": "candidate-context",
+      "text": "Publish artifacts"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +40,12 @@
       "source_repo": "iterate-ch/cyberduck",
       "status": "candidate",
       "text": "Publish Artifacts"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/hudi-rs",
+      "status": "candidate",
+      "text": "Publish artifacts"
     }
   ],
   "candidate_related_terms": [
@@ -76,11 +95,17 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": ".github/workflows/deploy.yml",
       "source_repo": "iterate-ch/cyberduck"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "apache/hudi-rs"
     }
   ],
   "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

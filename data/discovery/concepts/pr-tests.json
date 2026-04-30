@@ -1,6 +1,7 @@
 {
   "aliases": [
-    "PR Tests"
+    "PR Tests",
+    "PR tests"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -43,6 +44,18 @@
       "source_repo": "nunchaku-ai/nunchaku",
       "status": "candidate-context",
       "text": "PR Tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cockroachdb/pebble",
+      "status": "candidate-context",
+      "text": "RocksDB/LevelDB inspired key-value database in Go"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cockroachdb/pebble",
+      "status": "candidate-context",
+      "text": "PR tests"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +76,12 @@
       "source_repo": "nunchaku-ai/nunchaku",
       "status": "candidate",
       "text": "PR Tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cockroachdb/pebble",
+      "status": "candidate",
+      "text": "PR tests"
     }
   ],
   "candidate_related_terms": [
@@ -142,11 +161,29 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": ".github/workflows/pr-test.yaml",
       "source_repo": "nunchaku-ai/nunchaku"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/tests-pr.yml",
+      "source_repo": "bitsandbytes-foundation/bitsandbytes"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/pr-test.yaml",
+      "source_repo": "nunchaku-ai/nunchaku"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "cockroachdb/pebble"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

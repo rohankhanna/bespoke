@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Apache Ignite Extensions"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "\"Extension Check Release Candidate\""
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "\"Extension Check Release Candidate\""
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27446,
+      "status": "candidate",
+      "text": "probation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27391,
+      "status": "candidate",
+      "text": "line"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27363,
+      "status": "candidate",
+      "text": "addition"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27267,
+      "status": "candidate",
+      "text": "snub"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27244,
+      "status": "candidate",
+      "text": "press"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Extension Check Release Candidate",
+      "sense_id": "extension-check-release-candidate#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "extension-check-release-candidate",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "extension-check-release-candidate",
+  "observation_id": "45fe940c10ea1cbd",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-30T00:37:16.824464+00:00",
+  "observed_text": "Extension Check Release Candidate",
+  "source_context_snippet": "\"Extension Check Release Candidate\"",
+  "source_file": ".github/workflows/release-checker.yml",
+  "source_repo": "apache/ignite-extensions",
+  "source_repo_description": "Apache Ignite Extensions"
+}

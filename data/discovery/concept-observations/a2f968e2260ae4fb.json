@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": " Operator Registry runs in a Kubernetes or OpenShift cluster to provide operator catalog data to Operator Lifecycle Manager."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "unit"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "unit"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40027564,
+      "status": "candidate",
+      "text": "unit of measurement"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39989966,
+      "status": "candidate",
+      "text": "social unit"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39963463,
+      "status": "candidate",
+      "text": "system"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39936812,
+      "status": "candidate",
+      "text": "whole"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39899988,
+      "status": "candidate",
+      "text": "building block"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "unit",
+      "sense_id": "unit#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 22073,
+      "status": "candidate",
+      "text": "system"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 8049,
+      "status": "candidate",
+      "text": "whole"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 1024,
+      "status": "candidate",
+      "text": "building block"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 1012,
+      "status": "candidate",
+      "text": "social unit"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 13,
+      "status": "candidate",
+      "text": "unit of measurement"
+    }
+  ],
+  "concept_id": "unit",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "unit",
+  "observation_id": "a2f968e2260ae4fb",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-30T00:37:16.824464+00:00",
+  "observed_text": "unit",
+  "source_context_snippet": "unit",
+  "source_file": ".github/workflows/unit.yaml",
+  "source_repo": "operator-framework/operator-registry",
+  "source_repo_description": " Operator Registry runs in a Kubernetes or OpenShift cluster to provide operator catalog data to Operator Lifecycle Manager."
+}

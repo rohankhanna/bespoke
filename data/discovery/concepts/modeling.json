@@ -31,6 +31,18 @@
       "source_repo": "enola-dev/enola",
       "status": "candidate-context",
       "text": "<!--"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "phodal/chapi",
+      "status": "candidate-context",
+      "text": "CHAPI (Common Hierarchical Abstract Parser and Information Converter) streamlines code analysis by converting diverse language source code into a unified abstract model, simplifying cross-language development.  Chapi \u662f\u4e00\u4e2a\u901a\u7528\u5c42\u6b21\u62bd\u8c61\u89e3\u6790\u5668\u4e0e\u4fe1\u606f\u8f6c\u6362\u5668\uff0c\u5b83\u53ef\u4ee5\u5c06\u4e0d\u540c\u7f16\u7a0b\u8bed\u8a00\u7684\u6e90\u4ee3\u7801\u8f6c\u6362\u4e3a\u7edf\u4e00\u7684\u5c42\u6b21\u62bd\u8c61\u6a21\u578b\u3002"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "phodal/chapi",
+      "status": "candidate-context",
+      "text": "<img src=\"docs/logo.svg\" width=\"100\" height=\"100\" alt=\"Chapi Logo\">"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +57,12 @@
       "source_repo": "enola-dev/enola",
       "status": "candidate",
       "text": "<!--"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "phodal/chapi",
+      "status": "candidate",
+      "text": "<img src=\"docs/logo.svg\" width=\"100\" height=\"100\" alt=\"Chapi Logo\">"
     }
   ],
   "candidate_related_terms": [
@@ -136,11 +154,17 @@
       "observed_at": "2026-04-24T12:33:41.350224+00:00",
       "source_file": null,
       "source_repo": "enola-dev/enola"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "phodal/chapi"
     }
   ],
   "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

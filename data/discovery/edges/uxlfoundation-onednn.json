@@ -4,28 +4,28 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "uxlfoundation/oneDNN",
-      "target": "flashlight/flashlight",
+      "target": "intel/llvm",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "uxlfoundation/oneDNN",
-      "target": "arm-software/computelibrary",
+      "target": "intel/ittapi",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "uxlfoundation/oneDNN",
-      "target": "fujitsu/xbyak_aarch64",
+      "target": "khronosgroup/opencl-headers",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "uxlfoundation/oneDNN",
-      "target": "executablebooks/sphinx-copybutton",
+      "target": "intel/metrics-discovery",
       "target_type": "repository"
     },
     {
@@ -351,6 +351,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-04-23T04:27:42.433064+00:00",
+  "generated_at": "2026-04-30T00:37:16.824464+00:00",
   "source_repo": "uxlfoundation/oneDNN"
 }

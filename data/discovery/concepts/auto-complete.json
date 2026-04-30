@@ -19,6 +19,30 @@
       "source_repo": "davidhalter/jedi",
       "status": "candidate-context",
       "text": "Jedi - an awesome autocompletion, static analysis and refactoring library for Python"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "auto-complete/auto-complete",
+      "status": "candidate-context",
+      "text": "Emacs auto-complete package"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "auto-complete/auto-complete",
+      "status": "candidate-context",
+      "text": "> [!Important]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "auto-complete/popup-el",
+      "status": "candidate-context",
+      "text": "Visual Popup Interface Library for Emacs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "auto-complete/popup-el",
+      "status": "candidate-context",
+      "text": "[![License: GPL v3](https://img.shields.io/badge/License-GPL%20v3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +51,18 @@
       "source_repo": "davidhalter/jedi",
       "status": "candidate",
       "text": "Jedi - an awesome autocompletion, static analysis and refactoring library for Python"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "auto-complete/auto-complete",
+      "status": "candidate",
+      "text": "> [!Important]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "auto-complete/popup-el",
+      "status": "candidate",
+      "text": "[![License: GPL v3](https://img.shields.io/badge/License-GPL%20v3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +76,23 @@
       "observed_at": "2026-04-21T18:51:25.552552+00:00",
       "source_file": null,
       "source_repo": "davidhalter/jedi"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "auto-complete/auto-complete"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "auto-complete/popup-el"
     }
   ],
   "first_seen_at": "2026-04-21T18:51:25.552552+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-21T18:51:25.552552+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

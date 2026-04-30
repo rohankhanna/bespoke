@@ -449,6 +449,90 @@
       "source_repo": "clj-commons/rewrite-clj",
       "status": "candidate-context",
       "text": "Unit Tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "yegappan/lsp",
+      "status": "candidate-context",
+      "text": "Language Server Protocol (LSP) plugin for Vim9"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "yegappan/lsp",
+      "status": "candidate-context",
+      "text": "unit-tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cloudfoundry/capi-release",
+      "status": "candidate-context",
+      "text": "Bosh Release for Cloud Controller and friends"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cloudfoundry/capi-release",
+      "status": "candidate-context",
+      "text": "Unit Tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Redocly/redoc",
+      "status": "candidate-context",
+      "text": "\ud83d\udcd8  OpenAPI/Swagger-generated API Reference Documentation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Redocly/redoc",
+      "status": "candidate-context",
+      "text": "Unit Tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "huggingface/transformers.js",
+      "status": "candidate-context",
+      "text": "State-of-the-art Machine Learning for the web. Run \ud83e\udd17 Transformers directly in your browser, with no need for a server!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "huggingface/transformers.js",
+      "status": "candidate-context",
+      "text": "Unit tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bghira/SimpleTuner",
+      "status": "candidate-context",
+      "text": "A general fine-tuning kit geared toward image/video/audio diffusion models."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bghira/SimpleTuner",
+      "status": "candidate-context",
+      "text": "Unit Tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "infradig/imath",
+      "status": "candidate-context",
+      "text": "This fork adds:  msb, lsb, popcount,  binary operations (Xor, Or & And), and to/from double. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "infradig/imath",
+      "status": "candidate-context",
+      "text": "Unit tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "charlottia/niar",
+      "status": "candidate-context",
+      "text": "A small framework for building projects with Amaranth"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "charlottia/niar",
+      "status": "candidate-context",
+      "text": "Unit tests"
     }
   ],
   "candidate_glosses": [
@@ -679,6 +763,48 @@
       "source_repo": "clj-commons/rewrite-clj",
       "status": "candidate",
       "text": "Unit Tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "yegappan/lsp",
+      "status": "candidate",
+      "text": "unit-tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cloudfoundry/capi-release",
+      "status": "candidate",
+      "text": "Unit Tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Redocly/redoc",
+      "status": "candidate",
+      "text": "Unit Tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "huggingface/transformers.js",
+      "status": "candidate",
+      "text": "Unit tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bghira/SimpleTuner",
+      "status": "candidate",
+      "text": "Unit Tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "infradig/imath",
+      "status": "candidate",
+      "text": "Unit tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "charlottia/niar",
+      "status": "candidate",
+      "text": "Unit tests"
     }
   ],
   "candidate_related_terms": [
@@ -1069,11 +1195,89 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": ".github/workflows/unit-test.yml",
       "source_repo": "clj-commons/rewrite-clj"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/unitests.yml",
+      "source_repo": "yegappan/lsp"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/unit_tests.yml",
+      "source_repo": "cloudfoundry/capi-release"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/unit_tests.yml",
+      "source_repo": "electron-userland/electron-windows-msix"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/unittest-mac.yaml",
+      "source_repo": "meta-pytorch/torchft"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/unittest.yaml",
+      "source_repo": "meta-pytorch/torchft"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/unittest.yaml",
+      "source_repo": "FoundationAgents/MetaGPT"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/unit-tests.yml",
+      "source_repo": "Redocly/redoc"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "huggingface/transformers.js"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/python-tests.yaml",
+      "source_repo": "bghira/SimpleTuner"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/unit-test.yml",
+      "source_repo": "clj-commons/rewrite-clj"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/unit_tests.yml",
+      "source_repo": "spotipy-dev/spotipy"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/unit-tests.yml",
+      "source_repo": "infradig/imath"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/unit-tests.yml",
+      "source_repo": "charlottia/niar"
     }
   ],
   "first_seen_at": "2026-04-18T12:06:06.216548+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

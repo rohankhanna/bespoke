@@ -1,0 +1,125 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "pyppeteer/pyppeteer",
+      "target": "miyakogi/pyppeteer",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "pyppeteer/pyppeteer",
+      "target": "googlechrome/puppeteer",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "pyppeteer/pyppeteer",
+      "target": "audreyr/cookiecutter",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "pyppeteer/pyppeteer",
+      "target": "audreyr/cookiecutter-pypackage",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pyppeteer/pyppeteer",
+      "target": "automation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pyppeteer/pyppeteer",
+      "target": "chromium",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pyppeteer/pyppeteer",
+      "target": "puppeteer",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T02:05:28.306776+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5754
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 2266
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "dev",
+    "description": "Headless chrome/chromium automation library (unofficial port of puppeteer)",
+    "fork": false,
+    "full_name": "pyppeteer/pyppeteer",
+    "html_url": "https://github.com/pyppeteer/pyppeteer",
+    "language": "Python",
+    "pushed_at": "2024-06-29T14:49:45Z",
+    "stargazers_count": 3939,
+    "topics": [
+      "automation",
+      "chromium",
+      "puppeteer"
+    ],
+    "updated_at": "2026-04-26T14:50:02Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "audreyr/cookiecutter",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "audreyr/cookiecutter-pypackage",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "googlechrome/puppeteer",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "miyakogi/pyppeteer",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "If you are interested in maintaining this, please contact [me](https://github.com/Mattwmaster58)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "automation"
+    },
+    {
+      "context_snippet": "If you are interested in maintaining this, please contact [me](https://github.com/Mattwmaster58)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "chromium"
+    },
+    {
+      "context_snippet": "If you are interested in maintaining this, please contact [me](https://github.com/Mattwmaster58)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "puppeteer"
+    }
+  ]
+}

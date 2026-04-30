@@ -1,0 +1,230 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "treosh/lighthouse-ci-action",
+      "target": "jakepartusch/wait-for-netlify-action",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "treosh/lighthouse-ci-action",
+      "target": "denar90/lightouse-ci-netlify-preact",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "treosh/lighthouse-ci-action",
+      "target": "googlechrome/budget.json",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "treosh/lighthouse-ci-action",
+      "target": "exterkamp/lighthouse-ci-action",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "treosh/lighthouse-ci-action",
+      "target": "@actions/artifact",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "treosh/lighthouse-ci-action",
+      "target": "@actions/core",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "treosh/lighthouse-ci-action",
+      "target": "@actions/github",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "treosh/lighthouse-ci-action",
+      "target": "@lhci/cli",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "treosh/lighthouse-ci-action",
+      "target": "@lhci/utils",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "treosh/lighthouse-ci-action",
+      "target": "is-windows",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "treosh/lighthouse-ci-action",
+      "target": "lodash-es",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "treosh/lighthouse-ci-action",
+      "target": "@types/is-windows",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "treosh/lighthouse-ci-action",
+      "target": "@types/lodash-es",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "treosh/lighthouse-ci-action",
+      "target": "@types/node",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "treosh/lighthouse-ci-action",
+      "target": "prettier",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "treosh/lighthouse-ci-action",
+      "target": "typescript",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/LHCI-assert-on-budget.yml",
+      "source_repo": "treosh/lighthouse-ci-action",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/LHCI-assert-on-budget.yml",
+      "source_repo": "treosh/lighthouse-ci-action",
+      "target": "LHCI-assert-on-budget",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/LHCI-assert-on-lighthouserc.yml",
+      "source_repo": "treosh/lighthouse-ci-action",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/LHCI-assert-on-lighthouserc.yml",
+      "source_repo": "treosh/lighthouse-ci-action",
+      "target": "LHCI-assert-on-lighthouserc",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/LHCI-static-dist-dir.yml",
+      "source_repo": "treosh/lighthouse-ci-action",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/LHCI-static-dist-dir.yml",
+      "source_repo": "treosh/lighthouse-ci-action",
+      "target": "LHCI-static-dist-dir",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/LHCI-upload-to-private-server.yml",
+      "source_repo": "treosh/lighthouse-ci-action",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/LHCI-upload-to-private-server.yml",
+      "source_repo": "treosh/lighthouse-ci-action",
+      "target": "LHCI-upload-to-private-server",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/LHCI-urls-interpolation.yml",
+      "source_repo": "treosh/lighthouse-ci-action",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/LHCI-urls-interpolation.yml",
+      "source_repo": "treosh/lighthouse-ci-action",
+      "target": "LHCI-urls-interpolation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "treosh/lighthouse-ci-action",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "treosh/lighthouse-ci-action",
+      "target": "actions/setup-node@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "treosh/lighthouse-ci-action",
+      "target": "github-actions",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "treosh/lighthouse-ci-action",
+      "target": "lighthouse",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "treosh/lighthouse-ci-action",
+      "target": "lighthouse-ci",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "treosh/lighthouse-ci-action",
+      "target": "performance-budget",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-30T00:37:16.824464+00:00",
+  "source_repo": "treosh/lighthouse-ci-action"
+}

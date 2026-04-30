@@ -1,0 +1,76 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "datafuse-extras/clickhouse_driver",
+      "target": "ddulesov/clickhouse_driver",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "datafuse-extras/clickhouse_driver",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "datafuse-extras/clickhouse_driver",
+      "target": "Rust",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T05:02:56.165098+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7331
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 166
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 1412
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "yandex Clickhouse native rust driver",
+    "fork": true,
+    "full_name": "datafuse-extras/clickhouse_driver",
+    "html_url": "https://github.com/datafuse-extras/clickhouse_driver",
+    "language": "Rust",
+    "pushed_at": "2022-02-24T03:05:29Z",
+    "stargazers_count": 7,
+    "topics": [],
+    "updated_at": "2023-01-24T10:23:09Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ddulesov/clickhouse_driver",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Rust",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "term": "Rust"
+    }
+  ]
+}

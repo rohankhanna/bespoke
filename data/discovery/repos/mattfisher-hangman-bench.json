@@ -1,0 +1,45 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "MattFisher/hangman-bench",
+      "target": "ukgovernmentbeis/inspect_ai",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T02:45:53.886941+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1747
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 1322
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "MattFisher/hangman-bench",
+    "html_url": "https://github.com/MattFisher/hangman-bench",
+    "language": "Python",
+    "pushed_at": "2025-09-25T01:42:55Z",
+    "stargazers_count": 0,
+    "topics": [],
+    "updated_at": "2025-09-25T01:42:59Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ukgovernmentbeis/inspect_ai",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

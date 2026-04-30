@@ -1,0 +1,177 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Justin62628/Squirrel-RIFE",
+      "target": "hzwer/arxiv2020-rife",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Justin62628/Squirrel-RIFE",
+      "target": "nihui/rife-ncnn-vulkan",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Justin62628/Squirrel-RIFE",
+      "target": "dolbylaboratories/dlb_mp4base",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Justin62628/Squirrel-RIFE",
+      "target": "nagadomi/waifu2x",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Justin62628/Squirrel-RIFE",
+      "target": "animation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Justin62628/Squirrel-RIFE",
+      "target": "interpolation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Justin62628/Squirrel-RIFE",
+      "target": "rife",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Justin62628/Squirrel-RIFE",
+      "target": "slomo",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Justin62628/Squirrel-RIFE",
+      "target": "smooth",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Justin62628/Squirrel-RIFE",
+      "target": "video",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Justin62628/Squirrel-RIFE",
+      "target": "videoframeinterpolation",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T03:54:32.208180+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1726
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "\u6548\u679c\u66f4\u597d\u7684\u8865\u5e27\u8f6f\u4ef6\uff0c\u663e\u5b58\u5360\u7528\u66f4\u5c0f\uff0c\u662fDAIN\u901f\u5ea6\u768410-25\u500d\uff0c\u5305\u542b\u62bd\u5e27\u5904\u7406\uff0c\u53bb\u9664\u52a8\u6f2b\u5361\u987f\u611f",
+    "fork": false,
+    "full_name": "Justin62628/Squirrel-RIFE",
+    "html_url": "https://github.com/Justin62628/Squirrel-RIFE",
+    "language": "Python",
+    "pushed_at": "2023-05-28T13:01:43Z",
+    "stargazers_count": 3490,
+    "topics": [
+      "animation",
+      "interpolation",
+      "rife",
+      "slomo",
+      "smooth",
+      "video",
+      "videoframeinterpolation"
+    ],
+    "updated_at": "2026-04-28T11:18:16Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dolbylaboratories/dlb_mp4base",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "hzwer/arxiv2020-rife",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "nagadomi/waifu2x",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "nihui/rife-ncnn-vulkan",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<img width=\"18%\" src=\"logo.png\" alt=\"logo\" align=\"right\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "animation"
+    },
+    {
+      "context_snippet": "<img width=\"18%\" src=\"logo.png\" alt=\"logo\" align=\"right\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "interpolation"
+    },
+    {
+      "context_snippet": "<img width=\"18%\" src=\"logo.png\" alt=\"logo\" align=\"right\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rife"
+    },
+    {
+      "context_snippet": "<img width=\"18%\" src=\"logo.png\" alt=\"logo\" align=\"right\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "slomo"
+    },
+    {
+      "context_snippet": "<img width=\"18%\" src=\"logo.png\" alt=\"logo\" align=\"right\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "smooth"
+    },
+    {
+      "context_snippet": "<img width=\"18%\" src=\"logo.png\" alt=\"logo\" align=\"right\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "video"
+    },
+    {
+      "context_snippet": "<img width=\"18%\" src=\"logo.png\" alt=\"logo\" align=\"right\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "videoframeinterpolation"
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T03:56:05.755517+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 13628
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "meituan-longcat/LongCat-Flash-Chat",
+    "html_url": "https://github.com/meituan-longcat/LongCat-Flash-Chat",
+    "language": null,
+    "pushed_at": "2026-04-24T09:24:55Z",
+    "stargazers_count": 1328,
+    "topics": [],
+    "updated_at": "2026-04-27T06:07:29Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

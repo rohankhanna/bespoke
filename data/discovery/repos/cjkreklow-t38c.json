@@ -1,0 +1,157 @@
+{
+  "components": [
+    {
+      "component": "actions/setup-go@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr.yml"
+    },
+    {
+      "component": "golangci/golangci-lint-action@v9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr.yml"
+    },
+    {
+      "component": "codecov/codecov-action@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr.yml"
+    },
+    {
+      "component": "actions/setup-go@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/push.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/push.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr.yml",
+      "source_repo": "cjkreklow/t38c",
+      "target": "actions/setup-go@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr.yml",
+      "source_repo": "cjkreklow/t38c",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr.yml",
+      "source_repo": "cjkreklow/t38c",
+      "target": "golangci/golangci-lint-action@v9",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr.yml",
+      "source_repo": "cjkreklow/t38c",
+      "target": "codecov/codecov-action@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr.yml",
+      "source_repo": "cjkreklow/t38c",
+      "target": "PR Checks",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/push.yml",
+      "source_repo": "cjkreklow/t38c",
+      "target": "actions/setup-go@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/push.yml",
+      "source_repo": "cjkreklow/t38c",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/push.yml",
+      "source_repo": "cjkreklow/t38c",
+      "target": "Test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "cjkreklow/t38c",
+      "target": "Release on Tag",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T05:04:11.505415+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1082
+    },
+    {
+      "path": "go.mod",
+      "size": 330
+    },
+    {
+      "path": ".github/workflows/pr.yml",
+      "size": 677
+    },
+    {
+      "path": ".github/workflows/push.yml",
+      "size": 421
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "size": 380
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Tile38 client library for Go",
+    "fork": false,
+    "full_name": "cjkreklow/t38c",
+    "html_url": "https://github.com/cjkreklow/t38c",
+    "language": "Go",
+    "pushed_at": "2026-03-25T00:23:15Z",
+    "stargazers_count": 22,
+    "topics": [],
+    "updated_at": "2026-04-01T19:28:28Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "PR Checks",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr.yml",
+      "term": "PR Checks"
+    },
+    {
+      "context_snippet": "Test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/push.yml",
+      "term": "Test"
+    },
+    {
+      "context_snippet": "Release on Tag",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "term": "Release on Tag"
+    }
+  ]
+}

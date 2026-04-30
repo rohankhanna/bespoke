@@ -1,0 +1,97 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Daniil-Osokin/gccpm-look-into-person-cvpr19.pytorch",
+      "target": "marvis/pytorch-mobilenet",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Daniil-Osokin/gccpm-look-into-person-cvpr19.pytorch",
+      "target": "convolutional-pose-machines",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Daniil-Osokin/gccpm-look-into-person-cvpr19.pytorch",
+      "target": "cvpr2019",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Daniil-Osokin/gccpm-look-into-person-cvpr19.pytorch",
+      "target": "deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Daniil-Osokin/gccpm-look-into-person-cvpr19.pytorch",
+      "target": "human-pose",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Daniil-Osokin/gccpm-look-into-person-cvpr19.pytorch",
+      "target": "human-pose-estimation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Daniil-Osokin/gccpm-look-into-person-cvpr19.pytorch",
+      "target": "lightweight",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Daniil-Osokin/gccpm-look-into-person-cvpr19.pytorch",
+      "target": "look-into-person",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Daniil-Osokin/gccpm-look-into-person-cvpr19.pytorch",
+      "target": "openvino",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Daniil-Osokin/gccpm-look-into-person-cvpr19.pytorch",
+      "target": "pose-estimation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Daniil-Osokin/gccpm-look-into-person-cvpr19.pytorch",
+      "target": "pytorch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Daniil-Osokin/gccpm-look-into-person-cvpr19.pytorch",
+      "target": "real-time",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Daniil-Osokin/gccpm-look-into-person-cvpr19.pytorch",
+      "target": "single-person",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-30T00:37:16.824464+00:00",
+  "source_repo": "Daniil-Osokin/gccpm-look-into-person-cvpr19.pytorch"
+}

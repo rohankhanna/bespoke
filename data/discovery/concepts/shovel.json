@@ -43,6 +43,18 @@
       "source_repo": "Ash258/Scoop-Core",
       "status": "candidate-context",
       "text": "Command-line installer for Windows"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "shovel-org/Base",
+      "status": "candidate-context",
+      "text": "Base bucket for Shovel installer. WIP replacement of main bucket"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "shovel-org/Base",
+      "status": "candidate-context",
+      "text": "`shovel bucket add Base`"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +75,12 @@
       "source_repo": "Ash258/Scoop-Core",
       "status": "candidate",
       "text": "Command-line installer for Windows"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "shovel-org/Base",
+      "status": "candidate",
+      "text": "`shovel bucket add Base`"
     }
   ],
   "candidate_related_terms": [
@@ -160,11 +178,29 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "Ash258/Scoop-Core"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "shovel-org/Windows-JetBrains-Bucket"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "shovel-org/Base"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "shovel-org/Windows-Sysinternals-Bucket"
     }
   ],
   "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,7 +1,7 @@
 {
   "component": "dorny/paths-filter@fbd0ab8f3e69293af611ebaee6363fc25e6d187d",
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -227,6 +227,41 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/ci.yaml",
       "source_repo": "spack/spack-packages"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/devcontainer.yml",
+      "source_repo": "caketop/python-starlark-go"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/benchmark.yml",
+      "source_repo": "biomejs/biome"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ecosystem-ci.yml",
+      "source_repo": "web-infra-dev/rsbuild"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "web-infra-dev/rsbuild"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ecosystem-ci.yml",
+      "source_repo": "web-infra-dev/rslib"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/preview.yml",
+      "source_repo": "web-infra-dev/rslib"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/reusable-test.yml",
+      "source_repo": "web-infra-dev/rslib"
     }
   ]
 }

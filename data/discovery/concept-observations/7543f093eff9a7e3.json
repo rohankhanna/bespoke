@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Google DeepMind's software stack for physics-based simulation and Reinforcement Learning environments, using MuJoCo."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Google DeepMind's software stack for physics-based simulation and Reinforcement"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Google DeepMind's software stack for physics-based simulation and Reinforcement"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "artificial-intelligence",
+      "sense_id": "artificial-intelligence#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "artificial-intelligence",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "artificial-intelligence",
+  "observation_id": "7543f093eff9a7e3",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T00:37:16.824464+00:00",
+  "observed_text": "artificial-intelligence",
+  "source_context_snippet": "Google DeepMind's software stack for physics-based simulation and Reinforcement",
+  "source_file": null,
+  "source_repo": "google-deepmind/dm_control",
+  "source_repo_description": "Google DeepMind's software stack for physics-based simulation and Reinforcement Learning environments, using MuJoCo."
+}

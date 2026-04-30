@@ -1,0 +1,117 @@
+{
+  "aliases": [
+    "syslog"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "confluentinc/demo-scene",
+      "status": "candidate-context",
+      "text": "Scripts and samples to support Confluent Demos, Talks, and Blogs. Not all of the examples in this repository are kept up to date. For automated tutorials and QA'd code, see https://github.com/confluentinc/tutorials/"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "confluentinc/demo-scene",
+      "status": "candidate-context",
+      "text": "[![Try Confluent Cloud - The Data Streaming Platform](https://images.ctfassets.net/8vofjvai1hpv/10bgcSfn5MzmvS4nNqr94J/af43dd2336e3f9e0c0ca4feef4398f6f/confluent-banner-v2.svg)](https://confluent.cloud/signup?utm_source=github&utm_medium=banner&utm_campaign=oss-repos&utm_term=de\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apache/logging-log4j2",
+      "status": "candidate-context",
+      "text": "Apache Log4j is a versatile, feature-rich, efficient logging API and backend for Java."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/logging-log4j2",
+      "status": "candidate-context",
+      "text": "{ \"dependencies\": { \"@antora/cli\": \"^3.2.0-alpha.4\", \"@antora/site-generator-default\": \"^3.2.0-alpha.4\", \"@asciidoctor/tabs\": \"^1.0.0-beta.6\", \"asciidoctor-kroki\": \"^0.18.1\", \"fast-xml-parser\": \"^5.0.6\", \"handlebars\": \"^4.7.8\" } }"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "confluentinc/demo-scene",
+      "status": "candidate",
+      "text": "[![Try Confluent Cloud - The Data Streaming Platform](https://images.ctfassets.net/8vofjvai1hpv/10bgcSfn5MzmvS4nNqr94J/af43dd2336e3f9e0c0ca4feef4398f6f/confluent-banner-v2.svg)](https://confluent.cloud/signup?utm_source=github&utm_medium=banner&utm_campaign=oss-repos&utm_term=de\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/logging-log4j2",
+      "status": "candidate",
+      "text": "{ \"dependencies\": { \"@antora/cli\": \"^3.2.0-alpha.4\", \"@antora/site-generator-default\": \"^3.2.0-alpha.4\", \"@asciidoctor/tabs\": \"^1.0.0-beta.6\", \"asciidoctor-kroki\": \"^0.18.1\", \"fast-xml-parser\": \"^5.0.6\", \"handlebars\": \"^4.7.8\" } }"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 25001,
+      "status": "candidate",
+      "text": "log"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24999,
+      "status": "candidate",
+      "text": "rsyslog"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24998,
+      "status": "candidate",
+      "text": "syslog-ng"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24997,
+      "status": "candidate",
+      "text": "logging"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "syslog",
+  "concept_id": "syslog",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "confluentinc/demo-scene"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "apache/logging-log4j2"
+    }
+  ],
+  "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "syslog",
+      "sense_id": "syslog#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

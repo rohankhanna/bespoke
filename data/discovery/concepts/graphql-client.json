@@ -67,6 +67,18 @@
       "source_repo": "apollographql/apollo-kotlin",
       "status": "candidate-context",
       "text": "<header>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "graffle-js/graffle",
+      "status": "candidate-context",
+      "text": "Simple GraphQL Client for JavaScript. Minimal. Extensible. Type Safe. Runs everywhere."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "graffle-js/graffle",
+      "status": "candidate-context",
+      "text": "> [!NOTE]"
     }
   ],
   "candidate_glosses": [
@@ -99,6 +111,12 @@
       "source_repo": "apollographql/apollo-kotlin",
       "status": "candidate",
       "text": "<header>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "graffle-js/graffle",
+      "status": "candidate",
+      "text": "> [!NOTE]"
     }
   ],
   "candidate_related_terms": [],
@@ -136,11 +154,17 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "apollographql/apollo-kotlin"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "graffle-js/graffle"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "KurrentDB Rust Client"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "\"Dispatch\""
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "\"Dispatch\""
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40028458,
+      "status": "candidate",
+      "text": "expedition"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40028207,
+      "status": "candidate",
+      "text": "expeditiousness"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40014651,
+      "status": "candidate",
+      "text": "hit"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40012837,
+      "status": "candidate",
+      "text": "send off"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40010528,
+      "status": "candidate",
+      "text": "remove"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Dispatch",
+      "sense_id": "dispatch#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 37073,
+      "status": "candidate",
+      "text": "discharge"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 28052,
+      "status": "candidate",
+      "text": "complete"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 25037,
+      "status": "candidate",
+      "text": "expedition"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 21081,
+      "status": "candidate",
+      "text": "hit"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 13041,
+      "status": "candidate",
+      "text": "remove"
+    }
+  ],
+  "concept_id": "dispatch",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "dispatch",
+  "observation_id": "6c502afe2ac11b93",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-30T00:37:16.824464+00:00",
+  "observed_text": "Dispatch",
+  "source_context_snippet": "\"Dispatch\"",
+  "source_file": ".github/workflows/test-dispatch.yml",
+  "source_repo": "kurrent-io/KurrentDB-Client-Rust",
+  "source_repo_description": "KurrentDB Rust Client"
+}

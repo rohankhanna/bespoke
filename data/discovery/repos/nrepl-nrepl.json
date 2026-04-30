@@ -1,0 +1,275 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/github-release.yml"
+    },
+    {
+      "component": "ncipollo/release-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/github-release.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/libnrepl.yml"
+    },
+    {
+      "component": "actions/setup-java@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/libnrepl.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/libnrepl.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/libnrepl.yml"
+    },
+    {
+      "component": "docker/setup-qemu-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/libnrepl.yml"
+    },
+    {
+      "component": "addnab/docker-run-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/libnrepl.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/libnrepl.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/libnrepl.yml"
+    },
+    {
+      "component": "actions/setup-java@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/libnrepl.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/libnrepl.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/spell_checking.yml"
+    },
+    {
+      "component": "actions/setup-python@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/spell_checking.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/spell_checking.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "nrepl/nrepl",
+      "target": "clojure/tools.nrepl",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/github-release.yml",
+      "source_repo": "nrepl/nrepl",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/github-release.yml",
+      "source_repo": "nrepl/nrepl",
+      "target": "ncipollo/release-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/github-release.yml",
+      "source_repo": "nrepl/nrepl",
+      "target": "Create GitHub Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/libnrepl.yml",
+      "source_repo": "nrepl/nrepl",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/libnrepl.yml",
+      "source_repo": "nrepl/nrepl",
+      "target": "actions/setup-java@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/libnrepl.yml",
+      "source_repo": "nrepl/nrepl",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/libnrepl.yml",
+      "source_repo": "nrepl/nrepl",
+      "target": "docker/setup-qemu-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/libnrepl.yml",
+      "source_repo": "nrepl/nrepl",
+      "target": "addnab/docker-run-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/libnrepl.yml",
+      "source_repo": "nrepl/nrepl",
+      "target": "Build libnrepl native library",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/spell_checking.yml",
+      "source_repo": "nrepl/nrepl",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/spell_checking.yml",
+      "source_repo": "nrepl/nrepl",
+      "target": "actions/setup-python@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/spell_checking.yml",
+      "source_repo": "nrepl/nrepl",
+      "target": "Spell Checking",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nrepl/nrepl",
+      "target": "clojure",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nrepl/nrepl",
+      "target": "nrepl",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nrepl/nrepl",
+      "target": "repl",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T00:39:19.094801+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5273
+    },
+    {
+      "path": ".github/workflows/github-release.yml",
+      "size": 814
+    },
+    {
+      "path": ".github/workflows/libnrepl.yml",
+      "size": 1571
+    },
+    {
+      "path": ".github/workflows/spell_checking.yml",
+      "size": 993
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A Clojure network REPL that provides a server and client, along with some common APIs of use to IDEs and other tools that may need to evaluate Clojure code in remote environments.",
+    "fork": false,
+    "full_name": "nrepl/nrepl",
+    "html_url": "https://github.com/nrepl/nrepl",
+    "language": "Clojure",
+    "pushed_at": "2026-04-14T08:05:24Z",
+    "stargazers_count": 881,
+    "topics": [
+      "clojure",
+      "nrepl",
+      "repl"
+    ],
+    "updated_at": "2026-04-27T10:58:01Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "clojure/tools.nrepl",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Create GitHub Release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/github-release.yml",
+      "term": "Create GitHub Release"
+    },
+    {
+      "context_snippet": "Build libnrepl native library",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/libnrepl.yml",
+      "term": "Build libnrepl native library"
+    },
+    {
+      "context_snippet": "Spell Checking",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/spell_checking.yml",
+      "term": "Spell Checking"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "clojure"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nrepl"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "repl"
+    }
+  ]
+}

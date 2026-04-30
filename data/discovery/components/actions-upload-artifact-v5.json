@@ -1,7 +1,7 @@
 {
   "component": "actions/upload-artifact@v5",
   "first_seen_at": "2026-04-18T09:23:47.800515+00:00",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -212,6 +212,101 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/publish.yml",
       "source_repo": "danielward27/flowjax"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/publish-docker.yml",
+      "source_repo": "pacstall/pacstall"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/reusable-documentation-docgen.yml",
+      "source_repo": "sapphiredev/.github"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "coursier/coursier"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/asan_build_and_test.yml",
+      "source_repo": "antgroup/vsag"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/asan_with_simd_option.yml",
+      "source_repo": "antgroup/vsag"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build_release_wheel.yml",
+      "source_repo": "antgroup/vsag"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/daily_test.yml",
+      "source_repo": "antgroup/vsag"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/generator-tests.yaml",
+      "source_repo": "googleapis/google-cloud-node"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml",
+      "source_repo": "NiLuJe/FBInk"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-linux.yml",
+      "source_repo": "heal-research/pyoperon"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-macos.yml",
+      "source_repo": "heal-research/pyoperon"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-windows.yml",
+      "source_repo": "heal-research/pyoperon"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/pr-quality-analysis.yml",
+      "source_repo": "rockerBOO/awesome-neovim"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/prerelease.yml",
+      "source_repo": "unum-cloud/USearch"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "unum-cloud/USearch"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "astro/deadnix"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build_and_publish.yml",
+      "source_repo": "quarkiverse/quarkiverse"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/pr-on-dev.yml",
+      "source_repo": "dusty-nv/jetson-containers"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/sweep-build-matrix.yml",
+      "source_repo": "dusty-nv/jetson-containers"
     }
   ]
 }

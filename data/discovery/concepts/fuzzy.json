@@ -81,6 +81,30 @@
       "source_repo": "jhawthorn/fzy",
       "status": "candidate-context",
       "text": "![fzy](http://i.hawth.ca/u/fzy-github.svg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jhawthorn/fzy.js",
+      "status": "candidate-context",
+      "text": "A javascript port of fzy's scoring algorithm. As seen on GitHub.com!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jhawthorn/fzy.js",
+      "status": "candidate-context",
+      "text": "A javascript port of [fzy](https://github.com/jhawthorn/fzy)'s fuzzy finder scoring algorithm"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mfussenegger/nvim-fzy",
+      "status": "candidate-context",
+      "text": "Moved to codeberg - Fuzzy picker & vim.ui.select implementation via fzy for neovim"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mfussenegger/nvim-fzy",
+      "status": "candidate-context",
+      "text": "Development moved to https://codeberg.org/mfussenegger/nvim-fzy"
     }
   ],
   "candidate_glosses": [
@@ -119,6 +143,18 @@
       "source_repo": "jhawthorn/fzy",
       "status": "candidate",
       "text": "![fzy](http://i.hawth.ca/u/fzy-github.svg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jhawthorn/fzy.js",
+      "status": "candidate",
+      "text": "A javascript port of [fzy](https://github.com/jhawthorn/fzy)'s fuzzy finder scoring algorithm"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mfussenegger/nvim-fzy",
+      "status": "candidate",
+      "text": "Development moved to https://codeberg.org/mfussenegger/nvim-fzy"
     }
   ],
   "candidate_related_terms": [
@@ -234,11 +270,23 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "jhawthorn/fzy"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "jhawthorn/fzy.js"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "mfussenegger/nvim-fzy"
     }
   ],
   "first_seen_at": "2026-04-19T17:42:30.117329+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

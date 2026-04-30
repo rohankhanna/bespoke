@@ -1,0 +1,142 @@
+{
+  "components": [
+    {
+      "component": "benchmark",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "jest",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "rollup",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/setup-node@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "jhawthorn/fzy.js",
+      "target": "benchmark",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "jhawthorn/fzy.js",
+      "target": "jest",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "jhawthorn/fzy.js",
+      "target": "rollup",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "jhawthorn/fzy.js",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "jhawthorn/fzy.js",
+      "target": "actions/setup-node@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jhawthorn/fzy.js",
+      "target": "fuzzy",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jhawthorn/fzy.js",
+      "target": "fuzzy-search",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jhawthorn/fzy.js",
+      "target": "fuzzyfinder",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T00:38:50.129178+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2144
+    },
+    {
+      "path": "package.json",
+      "size": 680
+    },
+    {
+      "path": ".github/workflows/test.yml",
+      "size": 510
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A javascript port of fzy's scoring algorithm. As seen on GitHub.com!",
+    "fork": false,
+    "full_name": "jhawthorn/fzy.js",
+    "html_url": "https://github.com/jhawthorn/fzy.js",
+    "language": "JavaScript",
+    "pushed_at": "2024-09-24T04:40:11Z",
+    "stargazers_count": 162,
+    "topics": [
+      "fuzzy",
+      "fuzzy-search",
+      "fuzzyfinder",
+      "fzy"
+    ],
+    "updated_at": "2026-03-18T23:22:16Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "A javascript port of [fzy](https://github.com/jhawthorn/fzy)'s fuzzy finder scoring algorithm",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "fuzzy"
+    },
+    {
+      "context_snippet": "A javascript port of [fzy](https://github.com/jhawthorn/fzy)'s fuzzy finder scoring algorithm",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "fuzzy-search"
+    },
+    {
+      "context_snippet": "A javascript port of [fzy](https://github.com/jhawthorn/fzy)'s fuzzy finder scoring algorithm",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "fuzzyfinder"
+    }
+  ]
+}

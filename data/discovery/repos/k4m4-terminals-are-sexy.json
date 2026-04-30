@@ -1,0 +1,81 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "k4m4/terminals-are-sexy",
+      "target": "awesome-lists",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "k4m4/terminals-are-sexy",
+      "target": "cli-lovers",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "k4m4/terminals-are-sexy",
+      "target": "curated-list",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "k4m4/terminals-are-sexy",
+      "target": "terminal",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T02:52:13.081842+00:00",
+  "fetched_files": [],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "\ud83d\udca5 A curated list of Terminal frameworks, plugins & resources for CLI lovers.",
+    "fork": false,
+    "full_name": "k4m4/terminals-are-sexy",
+    "html_url": "https://github.com/k4m4/terminals-are-sexy",
+    "language": "Shell",
+    "pushed_at": "2024-07-26T15:27:31Z",
+    "stargazers_count": 12969,
+    "topics": [
+      "awesome-lists",
+      "cli-lovers",
+      "curated-list",
+      "terminal"
+    ],
+    "updated_at": "2026-04-29T11:21:30Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "\ud83d\udca5 A curated list of Terminal frameworks, plugins & resources for CLI lovers.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "awesome-lists"
+    },
+    {
+      "context_snippet": "\ud83d\udca5 A curated list of Terminal frameworks, plugins & resources for CLI lovers.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cli-lovers"
+    },
+    {
+      "context_snippet": "\ud83d\udca5 A curated list of Terminal frameworks, plugins & resources for CLI lovers.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "curated-list"
+    },
+    {
+      "context_snippet": "\ud83d\udca5 A curated list of Terminal frameworks, plugins & resources for CLI lovers.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "terminal"
+    }
+  ]
+}

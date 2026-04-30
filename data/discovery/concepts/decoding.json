@@ -43,6 +43,18 @@
       "source_repo": "randy408/libspng",
       "status": "candidate-context",
       "text": "[![Gitter](https://badges.gitter.im/libspng/community.svg)](https://gitter.im/libspng/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "elixir-webrtc/xav",
+      "status": "candidate-context",
+      "text": "Elixir wrapper over FFmpeg for reading and decoding audio and video data"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "elixir-webrtc/xav",
+      "status": "candidate-context",
+      "text": "[![Hex.pm](https://img.shields.io/hexpm/v/xav.svg)](https://hex.pm/packages/xav)"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +75,12 @@
       "source_repo": "randy408/libspng",
       "status": "candidate",
       "text": "[![Gitter](https://badges.gitter.im/libspng/community.svg)](https://gitter.im/libspng/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "elixir-webrtc/xav",
+      "status": "candidate",
+      "text": "[![Hex.pm](https://img.shields.io/hexpm/v/xav.svg)](https://hex.pm/packages/xav)"
     }
   ],
   "candidate_related_terms": [
@@ -139,11 +157,17 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": null,
       "source_repo": "randy408/libspng"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "elixir-webrtc/xav"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

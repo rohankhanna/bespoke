@@ -1,0 +1,12 @@
+{
+  "component": "caphyon/advinst-github-action@e2194c873f688a2f913ae8b71c7b42cb884b631b",
+  "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "ImageMagick/ImageMagick"
+    }
+  ]
+}

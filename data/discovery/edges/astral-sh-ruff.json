@@ -4,13 +4,6 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "astral-sh/ruff",
-      "target": "bokeh/bokeh",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "astral-sh/ruff",
       "target": "astrazeneca/magnus-core",
       "target_type": "repository"
     },
@@ -18,7 +11,14 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "astral-sh/ruff",
-      "target": "benchling/refac",
+      "target": "dagger/dagger",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "astral-sh/ruff",
+      "target": "dagster-io/dagster",
       "target_type": "repository"
     },
     {
@@ -179,14 +179,14 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci.yaml",
       "source_repo": "astral-sh/ruff",
-      "target": "rui314/setup-mold@725a8794d15fc7563f59595bd9556495c0564878",
+      "target": "rui314/setup-mold@9c9c13bf4c3f1adef0cc596abc155580bcb04444",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci.yaml",
       "source_repo": "astral-sh/ruff",
-      "target": "taiki-e/install-action@0abfcd587b70a713fdaa7fb502c885e2112acb15",
+      "target": "taiki-e/install-action@055f5df8c3f65ea01cd41e9dc855becd88953486",
       "target_type": "component"
     },
     {
@@ -200,7 +200,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci.yaml",
       "source_repo": "astral-sh/ruff",
-      "target": "actions/setup-node@53b83947a5a98c8d113130e565377fae1a50d02f",
+      "target": "actions/setup-node@48b55a011bda9f5d6aeb4c2d9c7362e8dae4041e",
       "target_type": "component"
     },
     {
@@ -221,7 +221,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci.yaml",
       "source_repo": "astral-sh/ruff",
-      "target": "cargo-bins/cargo-binstall@f8ce4d55b131f4a1e373b8747ca6b6a54133ae5a",
+      "target": "cargo-bins/cargo-binstall@dc19f1e48450eefe5a29b8da6c6b00a87d730b37",
       "target_type": "component"
     },
     {
@@ -249,14 +249,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci.yaml",
       "source_repo": "astral-sh/ruff",
-      "target": "actions/cache@668228422ae6a00e4ad889ee87cd7109ec5666a7",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/ci.yaml",
-      "source_repo": "astral-sh/ruff",
-      "target": "extractions/setup-just@53165ef7e734c5c07cb06b3c8e7b647c5aa16db3",
+      "target": "actions/cache@27d5ce7f107fe9357f9df03efb73ab90386fccae",
       "target_type": "component"
     },
     {
@@ -298,7 +291,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/daily_fuzz.yaml",
       "source_repo": "astral-sh/ruff",
-      "target": "rui314/setup-mold@725a8794d15fc7563f59595bd9556495c0564878",
+      "target": "rui314/setup-mold@9c9c13bf4c3f1adef0cc596abc155580bcb04444",
       "target_type": "component"
     },
     {
@@ -341,6 +334,13 @@
       "source_file": ".github/workflows/memory_report.yaml",
       "source_repo": "astral-sh/ruff",
       "target": "actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/memory_report.yaml",
+      "source_repo": "astral-sh/ruff",
+      "target": "rui314/setup-mold@9c9c13bf4c3f1adef0cc596abc155580bcb04444",
       "target_type": "component"
     },
     {
@@ -428,6 +428,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-04-24T12:33:41.350224+00:00",
+  "generated_at": "2026-04-30T00:37:16.824464+00:00",
   "source_repo": "astral-sh/ruff"
 }

@@ -50,13 +50,6 @@
       "target_type": "repository"
     },
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "commonmark/cmark",
-      "target": "sparsetech/cmark-scala",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci.yml",
       "source_repo": "commonmark/cmark",
@@ -113,7 +106,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-29T19:46:42.396997+00:00",
+  "fetched_at": "2026-04-30T00:52:03.605255+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -146,11 +139,6 @@
     {
       "edge_type": "explicit-github-link",
       "full_name": "rhinoman/go-commonmark",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "sparsetech/cmark-scala",
       "source_file": "README.md"
     }
   ],

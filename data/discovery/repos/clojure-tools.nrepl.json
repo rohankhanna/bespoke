@@ -1,0 +1,77 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "clojure/tools.nrepl",
+      "target": "laurentpetit/ccw",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "clojure/tools.nrepl",
+      "target": "sanel/monroe",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "clojure/tools.nrepl",
+      "target": "trptcolin/reply",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "clojure/tools.nrepl",
+      "target": "roryk/clojupyter",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T04:08:52.007942+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 25140
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A Clojure network REPL that provides a server and client, along with some common APIs of use to IDEs and other tools that may need to evaluate Clojure code in remote environments.",
+    "fork": false,
+    "full_name": "clojure/tools.nrepl",
+    "html_url": "https://github.com/clojure/tools.nrepl",
+    "language": "Clojure",
+    "pushed_at": "2025-12-30T18:34:59Z",
+    "stargazers_count": 665,
+    "topics": [],
+    "updated_at": "2026-02-25T14:00:37Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "laurentpetit/ccw",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "roryk/clojupyter",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "sanel/monroe",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "trptcolin/reply",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

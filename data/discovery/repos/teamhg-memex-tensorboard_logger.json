@@ -1,0 +1,158 @@
+{
+  "components": [
+    {
+      "component": "actions/stale@v10.2.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-close-issues.yml"
+    },
+    {
+      "component": "actions/checkout@v4.3.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/oz-pr-review.yml"
+    },
+    {
+      "component": "warpdotdev/oz-agent-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/oz-pr-review.yml"
+    },
+    {
+      "component": "actions/checkout@v4.3.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/oz-pr-review.yml"
+    },
+    {
+      "component": "warpdotdev/oz-agent-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/oz-pr-review.yml"
+    },
+    {
+      "component": "actions/checkout@v4.3.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/oz-pr-review.yml"
+    },
+    {
+      "component": "warpdotdev/oz-agent-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/oz-pr-review.yml"
+    },
+    {
+      "component": "actions/checkout@v4.3.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/oz-pr-review.yml"
+    },
+    {
+      "component": "warpdotdev/oz-agent-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/oz-pr-review.yml"
+    },
+    {
+      "component": "actions/checkout@v4.3.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/swarm-mode.yml"
+    },
+    {
+      "component": "actions/github-script@v7.1.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/swarm-mode.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-close-issues.yml",
+      "source_repo": "TeamHG-Memex/tensorboard_logger",
+      "target": "actions/stale@v10.2.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/oz-pr-review.yml",
+      "source_repo": "TeamHG-Memex/tensorboard_logger",
+      "target": "actions/checkout@v4.3.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/oz-pr-review.yml",
+      "source_repo": "TeamHG-Memex/tensorboard_logger",
+      "target": "warpdotdev/oz-agent-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/oz-pr-review.yml",
+      "source_repo": "TeamHG-Memex/tensorboard_logger",
+      "target": "Oz Auto-Fixer & Reviewer",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/swarm-mode.yml",
+      "source_repo": "TeamHG-Memex/tensorboard_logger",
+      "target": "actions/checkout@v4.3.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/swarm-mode.yml",
+      "source_repo": "TeamHG-Memex/tensorboard_logger",
+      "target": "actions/github-script@v7.1.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/swarm-mode.yml",
+      "source_repo": "TeamHG-Memex/tensorboard_logger",
+      "target": "Swarm Mode - Continuous Progress",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T02:00:57.863294+00:00",
+  "fetched_files": [
+    {
+      "path": "README.rst",
+      "size": 5076
+    },
+    {
+      "path": ".github/workflows/auto-close-issues.yml",
+      "size": 682
+    },
+    {
+      "path": ".github/workflows/oz-pr-review.yml",
+      "size": 8334
+    },
+    {
+      "path": ".github/workflows/swarm-mode.yml",
+      "size": 4106
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Log TensorBoard events without touching TensorFlow",
+    "fork": false,
+    "full_name": "TeamHG-Memex/tensorboard_logger",
+    "html_url": "https://github.com/TeamHG-Memex/tensorboard_logger",
+    "language": "Python",
+    "pushed_at": "2026-04-08T21:47:58Z",
+    "stargazers_count": 629,
+    "topics": [],
+    "updated_at": "2026-04-08T21:47:59Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Oz Auto-Fixer & Reviewer",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/oz-pr-review.yml",
+      "term": "Oz Auto-Fixer & Reviewer"
+    },
+    {
+      "context_snippet": "Swarm Mode - Continuous Progress",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/swarm-mode.yml",
+      "term": "Swarm Mode - Continuous Progress"
+    }
+  ]
+}

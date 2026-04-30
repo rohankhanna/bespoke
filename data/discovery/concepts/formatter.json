@@ -466,6 +466,78 @@
       "source_repo": "belav/csharpier",
       "status": "candidate-context",
       "text": "![CSharpier](./banner.svg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "standardrb/standard",
+      "status": "candidate-context",
+      "text": "Ruby's bikeshed-proof linter and formatter \ud83d\udeb2"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "standardrb/standard",
+      "status": "candidate-context",
+      "text": "<img src=\"https://user-images.githubusercontent.com/79303/233717126-9fd13e6d-9a66-4f1c-b40c-fe875cb1d1b4.png\" style=\"width: 100%\"/>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "iansan5653/vscode-format-python-docstrings",
+      "status": "candidate-context",
+      "text": "VSCode formatter extension implementation of docformatter."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "iansan5653/vscode-format-python-docstrings",
+      "status": "candidate-context",
+      "text": "Simple extension that implements"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "reviewdog/action-black",
+      "status": "candidate-context",
+      "text": "Run black with Reviewdog :dog:"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "reviewdog/action-black",
+      "status": "candidate-context",
+      "text": "[![Test](https://github.com/reviewdog/action-black/workflows/Test/badge.svg)](https://github.com/reviewdog/action-black/actions?query=workflow%3ATest)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "google/vim-codefmt",
+      "status": "candidate-context",
+      "text": "Vim plugin for syntax-aware code formatting"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/vim-codefmt",
+      "status": "candidate-context",
+      "text": "[![Travis Build Status](https://travis-ci.org/google/vim-codefmt.svg?branch=master)](https://travis-ci.org/google/vim-codefmt)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "DanielNoord/pydocstringformatter",
+      "status": "candidate-context",
+      "text": "Automatically format your Python docstrings to conform with PEP 8 and PEP 257"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DanielNoord/pydocstringformatter",
+      "status": "candidate-context",
+      "text": "[![PyPI pyversions](https://img.shields.io/pypi/pyversions/pydocstringformatter.svg)](https://pypi.python.org/pypi/pydocstringformatter/)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "biomejs/biome",
+      "status": "candidate-context",
+      "text": "A toolchain for web projects, aimed to provide functionalities to maintain them. Biome offers formatter and linter, usable via CLI and LSP."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "biomejs/biome",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -696,6 +768,42 @@
       "source_repo": "belav/csharpier",
       "status": "candidate",
       "text": "![CSharpier](./banner.svg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "standardrb/standard",
+      "status": "candidate",
+      "text": "<img src=\"https://user-images.githubusercontent.com/79303/233717126-9fd13e6d-9a66-4f1c-b40c-fe875cb1d1b4.png\" style=\"width: 100%\"/>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "iansan5653/vscode-format-python-docstrings",
+      "status": "candidate",
+      "text": "Simple extension that implements"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "reviewdog/action-black",
+      "status": "candidate",
+      "text": "[![Test](https://github.com/reviewdog/action-black/workflows/Test/badge.svg)](https://github.com/reviewdog/action-black/actions?query=workflow%3ATest)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/vim-codefmt",
+      "status": "candidate",
+      "text": "[![Travis Build Status](https://travis-ci.org/google/vim-codefmt.svg?branch=master)](https://travis-ci.org/google/vim-codefmt)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DanielNoord/pydocstringformatter",
+      "status": "candidate",
+      "text": "[![PyPI pyversions](https://img.shields.io/pypi/pyversions/pydocstringformatter.svg)](https://pypi.python.org/pypi/pydocstringformatter/)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "biomejs/biome",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -1033,11 +1141,77 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "belav/csharpier"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "rust-lang/rustfmt"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "psf/black"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "standardrb/standard"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "iansan5653/vscode-format-python-docstrings"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "standard/snazzy"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "PyCQA/isort"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "reviewdog/action-black"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "typstyle-rs/typstyle"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "google/vim-codefmt"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "DanielNoord/pydocstringformatter"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "biomejs/biome"
     }
   ],
   "first_seen_at": "2026-04-18T11:56:18.570627+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

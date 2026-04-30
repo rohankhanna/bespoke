@@ -151,6 +151,54 @@
       "source_repo": "avwo/whistle",
       "status": "candidate-context",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ContentSquare/chproxy",
+      "status": "candidate-context",
+      "text": "Open-Source ClickHouse http proxy and load balancer"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ContentSquare/chproxy",
+      "status": "candidate-context",
+      "text": "[![Go Report Card](https://goreportcard.com/badge/github.com/ContentSquare/chproxy)](https://goreportcard.com/report/github.com/ContentSquare/chproxy)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "angelobreuer/localtunnel.net",
+      "status": "candidate-context",
+      "text": ".NET implementation of a tunnel client for localtunnel.me."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "angelobreuer/localtunnel.net",
+      "status": "candidate-context",
+      "text": ".NET implementation of a tunnel client for [localtunnel.me](https://theboroer.github.io/localtunnel-www/)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kaichaosun/rlt",
+      "status": "candidate-context",
+      "text": "Localtunnel implementation in Rust, expose local API to the public."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kaichaosun/rlt",
+      "status": "candidate-context",
+      "text": "[![localtunnel](https://img.shields.io/crates/v/localtunnel.svg)](https://crates.io/crates/localtunnel)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "DNSCrypt/dnscrypt-proxy",
+      "status": "candidate-context",
+      "text": "dnscrypt-proxy 2 - A flexible DNS proxy, with support for encrypted DNS protocols."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DNSCrypt/dnscrypt-proxy",
+      "status": "candidate-context",
+      "text": "[![Financial Contributors on Open Collective](https://opencollective.com/dnscrypt/all/badge.svg?label=financial+contributors)](https://opencollective.com/dnscrypt)"
     }
   ],
   "candidate_glosses": [
@@ -225,6 +273,30 @@
       "source_repo": "avwo/whistle",
       "status": "candidate",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ContentSquare/chproxy",
+      "status": "candidate",
+      "text": "[![Go Report Card](https://goreportcard.com/badge/github.com/ContentSquare/chproxy)](https://goreportcard.com/report/github.com/ContentSquare/chproxy)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "angelobreuer/localtunnel.net",
+      "status": "candidate",
+      "text": ".NET implementation of a tunnel client for [localtunnel.me](https://theboroer.github.io/localtunnel-www/)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kaichaosun/rlt",
+      "status": "candidate",
+      "text": "[![localtunnel](https://img.shields.io/crates/v/localtunnel.svg)](https://crates.io/crates/localtunnel)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DNSCrypt/dnscrypt-proxy",
+      "status": "candidate",
+      "text": "[![Financial Contributors on Open Collective](https://opencollective.com/dnscrypt/all/badge.svg?label=financial+contributors)](https://opencollective.com/dnscrypt)"
     }
   ],
   "candidate_related_terms": [
@@ -361,11 +433,35 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "avwo/whistle"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "ContentSquare/chproxy"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "angelobreuer/localtunnel.net"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "kaichaosun/rlt"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "DNSCrypt/dnscrypt-proxy"
     }
   ],
   "first_seen_at": "2026-04-18T11:24:14.688152+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

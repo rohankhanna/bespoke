@@ -1,0 +1,112 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "eaze/tide-sqlx",
+      "target": "actions/checkout@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "eaze/tide-sqlx",
+      "target": "middleware",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "eaze/tide-sqlx",
+      "target": "postgres-transactions",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "eaze/tide-sqlx",
+      "target": "sqlx",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "eaze/tide-sqlx",
+      "target": "tide",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T04:50:02.795427+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2790
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 1452
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 935
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "latest",
+    "description": "Tide middleware for SQLx pooled connections & transactions",
+    "fork": false,
+    "full_name": "eaze/tide-sqlx",
+    "html_url": "https://github.com/eaze/tide-sqlx",
+    "language": "Rust",
+    "pushed_at": "2021-12-06T23:55:21Z",
+    "stargazers_count": 41,
+    "topics": [
+      "middleware",
+      "postgres-transactions",
+      "sqlx",
+      "tide"
+    ],
+    "updated_at": "2026-04-13T17:55:47Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "[Tide][] middleware for [SQLx][] pooled connections &amp; transactions.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "middleware"
+    },
+    {
+      "context_snippet": "[Tide][] middleware for [SQLx][] pooled connections &amp; transactions.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "postgres-transactions"
+    },
+    {
+      "context_snippet": "[Tide][] middleware for [SQLx][] pooled connections &amp; transactions.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "sqlx"
+    },
+    {
+      "context_snippet": "[Tide][] middleware for [SQLx][] pooled connections &amp; transactions.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tide"
+    }
+  ]
+}

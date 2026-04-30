@@ -1,0 +1,62 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mudler/vulkan-sdk-arm",
+      "target": "jakoch/vulkan-sdk-arm",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mudler/vulkan-sdk-arm",
+      "target": "actions/partner-runner-images",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mudler/vulkan-sdk-arm",
+      "target": "jakoch/install-vulkan-sdk-action",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "mudler/vulkan-sdk-arm",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "mudler/vulkan-sdk-arm",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "mudler/vulkan-sdk-arm",
+      "target": "\ud83d\udee0\ufe0f Build Vulkan SDK ARM",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cleanup-workflows.yml",
+      "source_repo": "mudler/vulkan-sdk-arm",
+      "target": "actions/github-script@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cleanup-workflows.yml",
+      "source_repo": "mudler/vulkan-sdk-arm",
+      "target": "\u2702 Clean Workflow Runs",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-30T00:37:16.824464+00:00",
+  "source_repo": "mudler/vulkan-sdk-arm"
+}

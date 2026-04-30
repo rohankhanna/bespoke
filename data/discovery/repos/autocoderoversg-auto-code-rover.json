@@ -1,0 +1,202 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker_build.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pytest.yml"
+    },
+    {
+      "component": "conda-incubator/setup-miniconda@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pytest.yml"
+    },
+    {
+      "component": "SonarSource/sonarqube-scan-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pytest.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/style_check.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/style_check.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "AutoCodeRoverSG/auto-code-rover",
+      "target": "nus-apr/auto-code-rover",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "AutoCodeRoverSG/auto-code-rover",
+      "target": "yuntongzhang/swe-bench",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml",
+      "source_repo": "AutoCodeRoverSG/auto-code-rover",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yaml",
+      "source_repo": "AutoCodeRoverSG/auto-code-rover",
+      "target": "Build Docker Image",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker_build.yaml",
+      "source_repo": "AutoCodeRoverSG/auto-code-rover",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docker_build.yaml",
+      "source_repo": "AutoCodeRoverSG/auto-code-rover",
+      "target": "Build Docker Image",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pytest.yml",
+      "source_repo": "AutoCodeRoverSG/auto-code-rover",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pytest.yml",
+      "source_repo": "AutoCodeRoverSG/auto-code-rover",
+      "target": "conda-incubator/setup-miniconda@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pytest.yml",
+      "source_repo": "AutoCodeRoverSG/auto-code-rover",
+      "target": "SonarSource/sonarqube-scan-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pytest.yml",
+      "source_repo": "AutoCodeRoverSG/auto-code-rover",
+      "target": "Run PyTest with Coverage",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/style_check.yml",
+      "source_repo": "AutoCodeRoverSG/auto-code-rover",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/style_check.yml",
+      "source_repo": "AutoCodeRoverSG/auto-code-rover",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-04-30T02:46:02.114818+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 17806
+    },
+    {
+      "path": "Dockerfile",
+      "size": 653
+    },
+    {
+      "path": "requirements.txt",
+      "size": 2265
+    },
+    {
+      "path": ".github/workflows/build.yaml",
+      "size": 833
+    },
+    {
+      "path": ".github/workflows/docker_build.yaml",
+      "size": 840
+    },
+    {
+      "path": ".github/workflows/pytest.yml",
+      "size": 2262
+    },
+    {
+      "path": ".github/workflows/style_check.yml",
+      "size": 1184
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A project structure aware autonomous software engineer aiming for autonomous program improvement. Resolved 37.3% tasks (pass@1) in SWE-bench lite and 46.2% tasks (pass@1) in SWE-bench verified with each task costs less than $0.7.",
+    "fork": false,
+    "full_name": "AutoCodeRoverSG/auto-code-rover",
+    "html_url": "https://github.com/AutoCodeRoverSG/auto-code-rover",
+    "language": "Python",
+    "pushed_at": "2025-04-24T07:58:24Z",
+    "stargazers_count": 3071,
+    "topics": [],
+    "updated_at": "2026-04-28T22:37:52Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "nus-apr/auto-code-rover",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "yuntongzhang/swe-bench",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Build Docker Image",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yaml",
+      "term": "Build Docker Image"
+    },
+    {
+      "context_snippet": "Build Docker Image",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docker_build.yaml",
+      "term": "Build Docker Image"
+    },
+    {
+      "context_snippet": "Run PyTest with Coverage",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pytest.yml",
+      "term": "Run PyTest with Coverage"
+    }
+  ]
+}

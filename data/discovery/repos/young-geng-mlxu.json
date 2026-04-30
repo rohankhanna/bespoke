@@ -1,0 +1,85 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "young-geng/mlxu",
+      "target": "abseil/abseil-py",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "young-geng/mlxu",
+      "target": "wandb/wandb",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "young-geng/mlxu",
+      "target": "machine-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "young-geng/mlxu",
+      "target": "wandb",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T02:02:36.605843+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5525
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Machine Learning eXperiment Utilities",
+    "fork": false,
+    "full_name": "young-geng/mlxu",
+    "html_url": "https://github.com/young-geng/mlxu",
+    "language": "Python",
+    "pushed_at": "2025-07-29T04:18:52Z",
+    "stargazers_count": 48,
+    "topics": [
+      "jax",
+      "machine-learning",
+      "python",
+      "wandb"
+    ],
+    "updated_at": "2026-01-15T19:13:59Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "abseil/abseil-py",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "wandb/wandb",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "This library provide a collection of utilities for machine learning experiments.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "machine-learning"
+    },
+    {
+      "context_snippet": "This library provide a collection of utilities for machine learning experiments.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "wandb"
+    }
+  ]
+}

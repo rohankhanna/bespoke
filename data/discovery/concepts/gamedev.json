@@ -151,6 +151,54 @@
       "source_repo": "raysan5/raylib-games",
       "status": "candidate-context",
       "text": "This is my collection of games made with raylib. Most of the games in this repo have been done in Global Game Jams."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hajimehoshi/ebiten",
+      "status": "candidate-context",
+      "text": "A dead simple 2D game engine for Go"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hajimehoshi/ebiten",
+      "status": "candidate-context",
+      "text": "[![Go Reference](https://pkg.go.dev/badge/github.com/hajimehoshi/ebiten/v2.svg)](https://pkg.go.dev/github.com/hajimehoshi/ebiten/v2)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hecrj/coffee",
+      "status": "candidate-context",
+      "text": "An opinionated 2D game engine for Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hecrj/coffee",
+      "status": "candidate-context",
+      "text": "[![Integration status](https://github.com/hecrj/coffee/workflows/Integration/badge.svg)](https://github.com/hecrj/coffee/actions)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "r-lyeh/gamebook",
+      "status": "candidate-context",
+      "text": ":books: A unified game design document convention (CC0, Markdown)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "r-lyeh/gamebook",
+      "status": "candidate-context",
+      "text": "The Gamebook convention"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "r-lyeh/stdarc.c",
+      "status": "candidate-context",
+      "text": "Collection of small public domain file archivers"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "r-lyeh/stdarc.c",
+      "status": "candidate-context",
+      "text": "Small file archivers (zip, pak, tar), virtual filesystem (vfs) and dir listing in a single-file header."
     }
   ],
   "candidate_glosses": [
@@ -225,6 +273,30 @@
       "source_repo": "raysan5/raylib-games",
       "status": "candidate",
       "text": "This is my collection of games made with raylib. Most of the games in this repo have been done in Global Game Jams."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hajimehoshi/ebiten",
+      "status": "candidate",
+      "text": "[![Go Reference](https://pkg.go.dev/badge/github.com/hajimehoshi/ebiten/v2.svg)](https://pkg.go.dev/github.com/hajimehoshi/ebiten/v2)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hecrj/coffee",
+      "status": "candidate",
+      "text": "[![Integration status](https://github.com/hecrj/coffee/workflows/Integration/badge.svg)](https://github.com/hecrj/coffee/actions)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "r-lyeh/gamebook",
+      "status": "candidate",
+      "text": "The Gamebook convention"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "r-lyeh/stdarc.c",
+      "status": "candidate",
+      "text": "Small file archivers (zip, pak, tar), virtual filesystem (vfs) and dir listing in a single-file header."
     }
   ],
   "candidate_related_terms": [],
@@ -316,11 +388,41 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "ably-labs/multiplayer-games-scalable-networking-framework"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "ably-labs/multiplayer-games-scalable-networking-framework"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "hajimehoshi/ebiten"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "hecrj/coffee"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "r-lyeh/gamebook"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "r-lyeh/stdarc.c"
     }
   ],
   "first_seen_at": "2026-04-21T18:51:25.552552+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -19,6 +19,18 @@
       "source_repo": "AFD-Illinois/kharma",
       "status": "candidate-context",
       "text": "KHARMA is an implementation of the HARM scheme for general relativistic magnetohydrodynamics (GRMHD) in C++. It is based on the Parthenon AMR framework, using Kokkos for parallelism and GPU support. It is composed of modular \"packages,\" which in theory make it easy to add or swa\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "AFD-Illinois/pyharm",
+      "status": "candidate-context",
+      "text": "Python tools for HARM simulation analysis"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AFD-Illinois/pyharm",
+      "status": "candidate-context",
+      "text": "Python tools for HARM analysis. Full documentation is [here](https://pyharm.readthedocs.io/en/latest/)."
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "AFD-Illinois/kharma",
       "status": "candidate",
       "text": "KHARMA is an implementation of the HARM scheme for general relativistic magnetohydrodynamics (GRMHD) in C++. It is based on the Parthenon AMR framework, using Kokkos for parallelism and GPU support. It is composed of modular \"packages,\" which in theory make it easy to add or swa\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AFD-Illinois/pyharm",
+      "status": "candidate",
+      "text": "Python tools for HARM analysis. Full documentation is [here](https://pyharm.readthedocs.io/en/latest/)."
     }
   ],
   "candidate_related_terms": [
@@ -76,11 +94,17 @@
       "observed_at": "2026-04-24T18:19:44.660705+00:00",
       "source_file": null,
       "source_repo": "AFD-Illinois/kharma"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "AFD-Illinois/pyharm"
     }
   ],
   "first_seen_at": "2026-04-24T18:19:44.660705+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T18:19:44.660705+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

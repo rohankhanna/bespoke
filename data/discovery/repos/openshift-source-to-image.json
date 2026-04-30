@@ -1,0 +1,81 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "openshift/source-to-image",
+      "target": "sclorg/django-ex",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "openshift/source-to-image",
+      "target": "docker/docker",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "openshift/source-to-image",
+      "target": "openshift/ruby-hello-world",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "openshift/source-to-image",
+      "target": "wildfly/quickstart",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T05:07:08.572966+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 14257
+    },
+    {
+      "path": "go.mod",
+      "size": 3617
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A tool for building artifacts from source and injecting into container images",
+    "fork": false,
+    "full_name": "openshift/source-to-image",
+    "html_url": "https://github.com/openshift/source-to-image",
+    "language": "Go",
+    "pushed_at": "2026-04-29T18:16:33Z",
+    "stargazers_count": 2537,
+    "topics": [],
+    "updated_at": "2026-04-24T14:11:24Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "docker/docker",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "openshift/ruby-hello-world",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "sclorg/django-ex",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "wildfly/quickstart",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

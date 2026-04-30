@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ShiromMakkad/base16-jetbrains-ide",
+      "target": "adilosa/base16-jetbrains",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T04:01:26.154790+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2055
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Base16 IDE Themes For Jetbrains Products",
+    "fork": false,
+    "full_name": "ShiromMakkad/base16-jetbrains-ide",
+    "html_url": "https://github.com/ShiromMakkad/base16-jetbrains-ide",
+    "language": "Mustache",
+    "pushed_at": "2024-01-11T16:42:48Z",
+    "stargazers_count": 11,
+    "topics": [],
+    "updated_at": "2025-03-25T13:25:35Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "adilosa/base16-jetbrains",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

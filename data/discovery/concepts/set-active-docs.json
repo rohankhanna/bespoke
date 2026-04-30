@@ -19,12 +19,30 @@
       "source_repo": "praw-dev/praw",
       "status": "candidate-context",
       "text": "Set Active Docs"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "praw-dev/.github",
+      "status": "candidate-context",
+      "text": "Settings files to be used across the organization."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "praw-dev/.github",
+      "status": "candidate-context",
+      "text": "Set Active Docs"
     }
   ],
   "candidate_glosses": [
     {
       "source_kind": "source-snippet",
       "source_repo": "praw-dev/praw",
+      "status": "candidate",
+      "text": "Set Active Docs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "praw-dev/.github",
       "status": "candidate",
       "text": "Set Active Docs"
     }
@@ -76,11 +94,17 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": ".github/workflows/set_active_docs.yml",
       "source_repo": "praw-dev/praw"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/set_active_docs.yml",
+      "source_repo": "praw-dev/.github"
     }
   ],
   "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

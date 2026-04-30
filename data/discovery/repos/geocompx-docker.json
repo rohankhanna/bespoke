@@ -46,28 +46,7 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "geocompx/docker",
-      "target": "geocompx/geocompr",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "geocompx/docker",
-      "target": "rocker-org/rocker",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "geocompx/docker",
       "target": "geocompr/docker",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "Dockerfile",
-      "source_repo": "geocompx/docker",
-      "target": "geocompx/geocompr",
       "target_type": "repository"
     },
     {
@@ -155,7 +134,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-29T22:00:08.472795+00:00",
+  "fetched_at": "2026-04-30T04:07:29.396143+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -196,21 +175,6 @@
       "edge_type": "explicit-github-link",
       "full_name": "geocompr/docker",
       "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "geocompx/geocompr",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "rocker-org/rocker",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "geocompx/geocompr",
-      "source_file": "Dockerfile"
     }
   ],
   "terms": [

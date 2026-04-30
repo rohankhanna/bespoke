@@ -67,6 +67,30 @@
       "source_repo": "tachyons-css/tachyons",
       "status": "candidate-context",
       "text": "Functional CSS for humans."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "numi-hq/open-design",
+      "status": "candidate-context",
+      "text": "Design Contributions for Open Source Software"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "numi-hq/open-design",
+      "status": "candidate-context",
+      "text": "![numi-open-design](https://github.com/numi-hq/open-design/assets/2617315/7dc9c3cb-bd6f-4b28-9ce7-9b152bef8749)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "r-lyeh/gamebook",
+      "status": "candidate-context",
+      "text": ":books: A unified game design document convention (CC0, Markdown)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "r-lyeh/gamebook",
+      "status": "candidate-context",
+      "text": "The Gamebook convention"
     }
   ],
   "candidate_glosses": [
@@ -99,6 +123,18 @@
       "source_repo": "tachyons-css/tachyons",
       "status": "candidate",
       "text": "Functional CSS for humans."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "numi-hq/open-design",
+      "status": "candidate",
+      "text": "![numi-open-design](https://github.com/numi-hq/open-design/assets/2617315/7dc9c3cb-bd6f-4b28-9ce7-9b152bef8749)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "r-lyeh/gamebook",
+      "status": "candidate",
+      "text": "The Gamebook convention"
     }
   ],
   "candidate_related_terms": [
@@ -208,11 +244,23 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "tachyons-css/tachyons"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "numi-hq/open-design"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "r-lyeh/gamebook"
     }
   ],
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

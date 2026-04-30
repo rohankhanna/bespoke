@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Elasticsearch plugin for nearest neighbor search. Store vectors and run similarity search using exact and approximate algorithms."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Elasticsearch plugin for similarity search on dense floating point and sparse boolean vectors."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Elasticsearch plugin for similarity search on dense floating point and sparse boolean vectors."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "semantic-search",
+      "sense_id": "semantic-search#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "semantic-search",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "semantic-search",
+  "observation_id": "8972f1a923c27f15",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T00:37:16.824464+00:00",
+  "observed_text": "semantic-search",
+  "source_context_snippet": "Elasticsearch plugin for similarity search on dense floating point and sparse boolean vectors.",
+  "source_file": null,
+  "source_repo": "alexklibisz/elastiknn",
+  "source_repo_description": "Elasticsearch plugin for nearest neighbor search. Store vectors and run similarity search using exact and approximate algorithms."
+}

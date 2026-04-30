@@ -1,0 +1,132 @@
+{
+  "components": [
+    {
+      "component": "actions/setup-go@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/workflow.yaml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/workflow.yaml"
+    },
+    {
+      "component": "actions/setup-go@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/workflow.yaml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/workflow.yaml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/workflow.yaml"
+    },
+    {
+      "component": "actions/cache@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/workflow.yaml"
+    },
+    {
+      "component": "actions/setup-go@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/workflow.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "proxy-wasm/proxy-wasm-go-sdk",
+      "target": "proxy-wasm/proxy-wasm-cpp-host",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "proxy-wasm/proxy-wasm-go-sdk",
+      "target": "istio/proxy",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/workflow.yaml",
+      "source_repo": "proxy-wasm/proxy-wasm-go-sdk",
+      "target": "actions/setup-go@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/workflow.yaml",
+      "source_repo": "proxy-wasm/proxy-wasm-go-sdk",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/workflow.yaml",
+      "source_repo": "proxy-wasm/proxy-wasm-go-sdk",
+      "target": "actions/cache@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/workflow.yaml",
+      "source_repo": "proxy-wasm/proxy-wasm-go-sdk",
+      "target": "Presubmit checks",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T04:48:17.586246+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4760
+    },
+    {
+      "path": "go.mod",
+      "size": 290
+    },
+    {
+      "path": ".github/workflows/workflow.yaml",
+      "size": 1426
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "WebAssembly for Proxies (Go SDK)",
+    "fork": true,
+    "full_name": "proxy-wasm/proxy-wasm-go-sdk",
+    "html_url": "https://github.com/proxy-wasm/proxy-wasm-go-sdk",
+    "language": "Go",
+    "pushed_at": "2026-01-05T14:27:03Z",
+    "stargazers_count": 108,
+    "topics": [],
+    "updated_at": "2026-04-26T17:38:11Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "istio/proxy",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "proxy-wasm/proxy-wasm-cpp-host",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Presubmit checks",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/workflow.yaml",
+      "term": "Presubmit checks"
+    }
+  ]
+}

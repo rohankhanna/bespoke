@@ -100,6 +100,42 @@
       "source_repo": "astral-sh/rye",
       "status": "candidate-context",
       "text": "Rustfmt"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Manishearth/triomphe",
+      "status": "candidate-context",
+      "text": "Fork of std::sync::Arc with lots of utilities useful for FFI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Manishearth/triomphe",
+      "status": "candidate-context",
+      "text": "Rustfmt"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mitsuhiko/systemfd",
+      "status": "candidate-context",
+      "text": "Development helper utility for helping with auto reloading for projects supporting systemd socket activation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mitsuhiko/systemfd",
+      "status": "candidate-context",
+      "text": "Rustfmt"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mitsuhiko/listenfd",
+      "status": "candidate-context",
+      "text": "Helper crate to work with systemd/catflap socket activation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mitsuhiko/listenfd",
+      "status": "candidate-context",
+      "text": "Rustfmt"
     }
   ],
   "candidate_glosses": [
@@ -148,6 +184,24 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "astral-sh/rye",
+      "status": "candidate",
+      "text": "Rustfmt"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Manishearth/triomphe",
+      "status": "candidate",
+      "text": "Rustfmt"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mitsuhiko/systemfd",
+      "status": "candidate",
+      "text": "Rustfmt"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mitsuhiko/listenfd",
       "status": "candidate",
       "text": "Rustfmt"
     }
@@ -235,11 +289,47 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": ".github/workflows/rustfmt.yml",
       "source_repo": "geiger-rs/cargo-geiger"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "rust-lang/rustfmt"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/rustfmt.yml",
+      "source_repo": "Manishearth/triomphe"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/rustfmt.yml",
+      "source_repo": "mitsuhiko/systemfd"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/rustfmt.yml",
+      "source_repo": "geiger-rs/cargo-geiger"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/cargo-fmt.yml",
+      "source_repo": "astrale-sharp/typstfmt"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/rustfmt.yml",
+      "source_repo": "mitsuhiko/listenfd"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

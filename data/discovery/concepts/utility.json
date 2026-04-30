@@ -139,6 +139,66 @@
       "source_repo": "hoodie/toastify",
       "status": "candidate-context",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "2KAbhishek/cmtr",
+      "status": "candidate-context",
+      "text": "Quickly commit individual files in git. \u26a1\u2705"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "2KAbhishek/cmtr",
+      "status": "candidate-context",
+      "text": "<div align = \"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "2KAbhishek/ghpm",
+      "status": "candidate-context",
+      "text": "The GitHub Project Manager \ud83d\udc69\u200d\ud83d\udcbb\u2699"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "2KAbhishek/ghpm",
+      "status": "candidate-context",
+      "text": "<div align = \"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "2KAbhishek/co-author.nvim",
+      "status": "candidate-context",
+      "text": "Quickly add co-authors to commits \ud83d\udcbb\ud83e\ude84"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "2KAbhishek/co-author.nvim",
+      "status": "candidate-context",
+      "text": "<div align = \"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "2KAbhishek/nerdy.nvim",
+      "status": "candidate-context",
+      "text": "Find Nerd Glyphs Easily \ud83e\udd13\ud83d\udd2d"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "2KAbhishek/nerdy.nvim",
+      "status": "candidate-context",
+      "text": "<div align = \"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "2KAbhishek/termim.nvim",
+      "status": "candidate-context",
+      "text": "Neovim Terminal, Improved \ud83e\uddbe\ud83d\udcbb"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "2KAbhishek/termim.nvim",
+      "status": "candidate-context",
+      "text": "<div align = \"center\">"
     }
   ],
   "candidate_glosses": [
@@ -207,6 +267,36 @@
       "source_repo": "hoodie/toastify",
       "status": "candidate",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "2KAbhishek/cmtr",
+      "status": "candidate",
+      "text": "<div align = \"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "2KAbhishek/ghpm",
+      "status": "candidate",
+      "text": "<div align = \"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "2KAbhishek/co-author.nvim",
+      "status": "candidate",
+      "text": "<div align = \"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "2KAbhishek/nerdy.nvim",
+      "status": "candidate",
+      "text": "<div align = \"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "2KAbhishek/termim.nvim",
+      "status": "candidate",
+      "text": "<div align = \"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -358,11 +448,41 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "hoodie/toastify"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "2KAbhishek/cmtr"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "2KAbhishek/ghpm"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "2KAbhishek/co-author.nvim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "2KAbhishek/nerdy.nvim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "2KAbhishek/termim.nvim"
     }
   ],
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

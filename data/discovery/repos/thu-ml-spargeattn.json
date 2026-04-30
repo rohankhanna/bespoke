@@ -1,0 +1,162 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "thu-ml/SpargeAttn",
+      "target": "ai-infra",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "thu-ml/SpargeAttn",
+      "target": "attention",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "thu-ml/SpargeAttn",
+      "target": "inference-acceleration",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "thu-ml/SpargeAttn",
+      "target": "mlsys",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "thu-ml/SpargeAttn",
+      "target": "quantization",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "thu-ml/SpargeAttn",
+      "target": "sageattention",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "thu-ml/SpargeAttn",
+      "target": "sparse-attention",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "thu-ml/SpargeAttn",
+      "target": "video-generation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "thu-ml/SpargeAttn",
+      "target": "vision-transformer",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T03:56:09.262215+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9291
+    },
+    {
+      "path": "requirements.txt",
+      "size": 138
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "[ICML2025] SpargeAttention: A training-free sparse attention that accelerates any model inference.",
+    "fork": false,
+    "full_name": "thu-ml/SpargeAttn",
+    "html_url": "https://github.com/thu-ml/SpargeAttn",
+    "language": "Cuda",
+    "pushed_at": "2026-02-25T00:07:21Z",
+    "stargazers_count": 991,
+    "topics": [
+      "ai-infra",
+      "attention",
+      "inference-acceleration",
+      "llm",
+      "mlsys",
+      "quantization",
+      "sageattention",
+      "sparse-attention",
+      "video-generation",
+      "vision-transformer",
+      "vit"
+    ],
+    "updated_at": "2026-04-29T17:04:34Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "We highly recommend using the `spas_sage2_attn_meansim_topk_cuda` and `block_sparse_sage2_attn_cuda` APIs. They are plug-and-play and customizable:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ai-infra"
+    },
+    {
+      "context_snippet": "We highly recommend using the `spas_sage2_attn_meansim_topk_cuda` and `block_sparse_sage2_attn_cuda` APIs. They are plug-and-play and customizable:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "attention"
+    },
+    {
+      "context_snippet": "We highly recommend using the `spas_sage2_attn_meansim_topk_cuda` and `block_sparse_sage2_attn_cuda` APIs. They are plug-and-play and customizable:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "inference-acceleration"
+    },
+    {
+      "context_snippet": "We highly recommend using the `spas_sage2_attn_meansim_topk_cuda` and `block_sparse_sage2_attn_cuda` APIs. They are plug-and-play and customizable:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mlsys"
+    },
+    {
+      "context_snippet": "We highly recommend using the `spas_sage2_attn_meansim_topk_cuda` and `block_sparse_sage2_attn_cuda` APIs. They are plug-and-play and customizable:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "quantization"
+    },
+    {
+      "context_snippet": "We highly recommend using the `spas_sage2_attn_meansim_topk_cuda` and `block_sparse_sage2_attn_cuda` APIs. They are plug-and-play and customizable:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "sageattention"
+    },
+    {
+      "context_snippet": "We highly recommend using the `spas_sage2_attn_meansim_topk_cuda` and `block_sparse_sage2_attn_cuda` APIs. They are plug-and-play and customizable:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "sparse-attention"
+    },
+    {
+      "context_snippet": "We highly recommend using the `spas_sage2_attn_meansim_topk_cuda` and `block_sparse_sage2_attn_cuda` APIs. They are plug-and-play and customizable:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "video-generation"
+    },
+    {
+      "context_snippet": "We highly recommend using the `spas_sage2_attn_meansim_topk_cuda` and `block_sparse_sage2_attn_cuda` APIs. They are plug-and-play and customizable:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vision-transformer"
+    }
+  ]
+}

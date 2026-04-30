@@ -19,6 +19,18 @@
       "source_repo": "sagiegurari/cargo-make",
       "status": "candidate-context",
       "text": "[![crates.io](https://img.shields.io/crates/v/cargo-make.svg)](https://crates.io/crates/cargo-make)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hchiam/learning-lighthouse-ci",
+      "status": "candidate-context",
+      "text": "Learning Google's Lighthouse CI from scratch with a minimal template web app (quickstart)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hchiam/learning-lighthouse-ci",
+      "status": "candidate-context",
+      "text": "[![version](https://img.shields.io/github/release/hchiam/learning-lighthouse-ci?style=flat-square)](https://github.com/hchiam/learning-lighthouse-ci/releases)"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "sagiegurari/cargo-make",
       "status": "candidate",
       "text": "[![crates.io](https://img.shields.io/crates/v/cargo-make.svg)](https://crates.io/crates/cargo-make)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hchiam/learning-lighthouse-ci",
+      "status": "candidate",
+      "text": "[![version](https://img.shields.io/github/release/hchiam/learning-lighthouse-ci?style=flat-square)](https://github.com/hchiam/learning-lighthouse-ci/releases)"
     }
   ],
   "candidate_related_terms": [
@@ -76,11 +94,17 @@
       "observed_at": "2026-04-24T18:19:44.660705+00:00",
       "source_file": null,
       "source_repo": "sagiegurari/cargo-make"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "hchiam/learning-lighthouse-ci"
     }
   ],
   "first_seen_at": "2026-04-24T18:19:44.660705+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T18:19:44.660705+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

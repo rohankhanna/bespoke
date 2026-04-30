@@ -489,6 +489,90 @@
       "source_repo": "ManuelHentschel/VSCode-R-Debugger",
       "status": "candidate-context",
       "text": "r-debugger \u2014 R Debugger for VS Code"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "clangd/vscode-clangd",
+      "status": "candidate-context",
+      "text": "Visual Studio Code extension for clangd"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "clangd/vscode-clangd",
+      "status": "candidate-context",
+      "text": "[clangd](https://clangd.llvm.org) helps developers write, understand and"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "iansan5653/vscode-format-python-docstrings",
+      "status": "candidate-context",
+      "text": "VSCode formatter extension implementation of docformatter."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "iansan5653/vscode-format-python-docstrings",
+      "status": "candidate-context",
+      "text": "Simple extension that implements"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ggml-org/llama.vscode",
+      "status": "candidate-context",
+      "text": "VS Code extension for LLM-assisted code/text completion"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ggml-org/llama.vscode",
+      "status": "candidate-context",
+      "text": "Local LLM-assisted text completion, chat with AI and agentic coding extension for VS Code"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Enter-tainer/typst-preview",
+      "status": "candidate-context",
+      "text": "[DEPRECATED] Use tinymist instead"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Enter-tainer/typst-preview",
+      "status": "candidate-context",
+      "text": "The contents of this repository have been consolidated into [tinymist](https://github.com/Myriad-Dreamin/tinymist). It is an all-in-one language server for typst."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "elm-tooling/elm-language-client-vscode",
+      "status": "candidate-context",
+      "text": "Improving your Elm experience since 2019"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "elm-tooling/elm-language-client-vscode",
+      "status": "candidate-context",
+      "text": "[![Version](https://vsmarketplacebadge.apphb.com/version/Elmtooling.elm-ls-vscode.png)](https://marketplace.visualstudio.com/items?itemName=Elmtooling.elm-ls-vscode)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "BetterThanTomorrow/joyride",
+      "status": "candidate-context",
+      "text": "Making VS Code Hackable like Emacs since 2022"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "BetterThanTomorrow/joyride",
+      "status": "candidate-context",
+      "text": "Modify your VS Code while it is running. The Visual Studio Code API, as well as the APIs of its extensions, are at your command! Joyride makes VS Code scriptable in a very similar way to how how Emacs users can hack their editor."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kahliburke/Kaimon.jl",
+      "status": "candidate-context",
+      "text": "MCP server giving AI agents full access to Julia's runtime via a live Gate \u2014 code execution, introspection, debugging, testing, and semantic search"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kahliburke/Kaimon.jl",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -737,6 +821,48 @@
       "source_repo": "ManuelHentschel/VSCode-R-Debugger",
       "status": "candidate",
       "text": "r-debugger \u2014 R Debugger for VS Code"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "clangd/vscode-clangd",
+      "status": "candidate",
+      "text": "[clangd](https://clangd.llvm.org) helps developers write, understand and"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "iansan5653/vscode-format-python-docstrings",
+      "status": "candidate",
+      "text": "Simple extension that implements"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ggml-org/llama.vscode",
+      "status": "candidate",
+      "text": "Local LLM-assisted text completion, chat with AI and agentic coding extension for VS Code"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Enter-tainer/typst-preview",
+      "status": "candidate",
+      "text": "The contents of this repository have been consolidated into [tinymist](https://github.com/Myriad-Dreamin/tinymist). It is an all-in-one language server for typst."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "elm-tooling/elm-language-client-vscode",
+      "status": "candidate",
+      "text": "[![Version](https://vsmarketplacebadge.apphb.com/version/Elmtooling.elm-ls-vscode.png)](https://marketplace.visualstudio.com/items?itemName=Elmtooling.elm-ls-vscode)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "BetterThanTomorrow/joyride",
+      "status": "candidate",
+      "text": "Modify your VS Code while it is running. The Visual Studio Code API, as well as the APIs of its extensions, are at your command! Joyride makes VS Code scriptable in a very similar way to how how Emacs users can hack their editor."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kahliburke/Kaimon.jl",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_related_terms": [],
@@ -1044,11 +1170,65 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "coder/code-server"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "clangd/vscode-clangd"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "iansan5653/vscode-format-python-docstrings"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "eclipse-openvsx/openvsx"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "microsoft/vscode-js-debug"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "ggml-org/llama.vscode"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "Enter-tainer/typst-preview"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "elm-tooling/elm-language-client-vscode"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "BetterThanTomorrow/joyride"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "kahliburke/Kaimon.jl"
     }
   ],
   "first_seen_at": "2026-04-19T02:42:33.990002+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

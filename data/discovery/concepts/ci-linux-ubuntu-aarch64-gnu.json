@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "CI Linux Ubuntu aarch64 GNU"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "karafka/rdkafka-ruby",
+      "status": "candidate-context",
+      "text": "Modern and performant Kafka client library for Ruby based on librdkafka"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "karafka/rdkafka-ruby",
+      "status": "candidate-context",
+      "text": "CI Linux Ubuntu aarch64 GNU"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "karafka/rdkafka-ruby",
+      "status": "candidate",
+      "text": "CI Linux Ubuntu aarch64 GNU"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26252,
+      "status": "candidate",
+      "text": "kubuntu"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26252,
+      "status": "candidate",
+      "text": "xubuntu"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 25709,
+      "status": "candidate",
+      "text": "beatrix"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 25709,
+      "status": "candidate",
+      "text": "dpkg"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 25709,
+      "status": "candidate",
+      "text": "gnome"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "CI Linux Ubuntu aarch64 GNU",
+  "concept_id": "ci-linux-ubuntu-aarch64-gnu",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/ci_linux_ubuntu_aarch64_gnu.yml",
+      "source_repo": "karafka/rdkafka-ruby"
+    }
+  ],
+  "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "CI Linux Ubuntu aarch64 GNU",
+      "sense_id": "ci-linux-ubuntu-aarch64-gnu#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

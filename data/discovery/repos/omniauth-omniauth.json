@@ -1,0 +1,267 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/jruby.yml"
+    },
+    {
+      "component": "ruby/setup-ruby@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/jruby.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "ruby/setup-ruby@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "ruby/setup-ruby@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "ruby/setup-ruby@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "coverallsapp/github-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/truffle_ruby.yml"
+    },
+    {
+      "component": "ruby/setup-ruby@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/truffle_ruby.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "omniauth/omniauth",
+      "target": "baldowl/rack_csrf",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "omniauth/omniauth",
+      "target": "heartcombo/devise",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/jruby.yml",
+      "source_repo": "omniauth/omniauth",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/jruby.yml",
+      "source_repo": "omniauth/omniauth",
+      "target": "ruby/setup-ruby@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/jruby.yml",
+      "source_repo": "omniauth/omniauth",
+      "target": "JRuby",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "omniauth/omniauth",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "omniauth/omniauth",
+      "target": "ruby/setup-ruby@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "omniauth/omniauth",
+      "target": "coverallsapp/github-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "omniauth/omniauth",
+      "target": "Ruby",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/truffle_ruby.yml",
+      "source_repo": "omniauth/omniauth",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/truffle_ruby.yml",
+      "source_repo": "omniauth/omniauth",
+      "target": "ruby/setup-ruby@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/truffle_ruby.yml",
+      "source_repo": "omniauth/omniauth",
+      "target": "TruffleRuby",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "omniauth/omniauth",
+      "target": "authentication",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "omniauth/omniauth",
+      "target": "hacktoberfest",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "omniauth/omniauth",
+      "target": "omniauth",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "omniauth/omniauth",
+      "target": "ruby",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T05:00:13.880588+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 11346
+    },
+    {
+      "path": ".github/workflows/jruby.yml",
+      "size": 564
+    },
+    {
+      "path": ".github/workflows/main.yml",
+      "size": 1753
+    },
+    {
+      "path": ".github/workflows/truffle_ruby.yml",
+      "size": 502
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "OmniAuth is a flexible authentication system utilizing Rack middleware.",
+    "fork": false,
+    "full_name": "omniauth/omniauth",
+    "html_url": "https://github.com/omniauth/omniauth",
+    "language": "Ruby",
+    "pushed_at": "2026-02-27T14:56:33Z",
+    "stargazers_count": 8068,
+    "topics": [
+      "authentication",
+      "hacktoberfest",
+      "omniauth",
+      "ruby"
+    ],
+    "updated_at": "2026-04-27T15:34:50Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "baldowl/rack_csrf",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "heartcombo/devise",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "JRuby",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/jruby.yml",
+      "term": "JRuby"
+    },
+    {
+      "context_snippet": "Ruby",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/main.yml",
+      "term": "Ruby"
+    },
+    {
+      "context_snippet": "TruffleRuby",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/truffle_ruby.yml",
+      "term": "TruffleRuby"
+    },
+    {
+      "context_snippet": "[![Gem Version](http://img.shields.io/gem/v/omniauth.svg)][gem]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "authentication"
+    },
+    {
+      "context_snippet": "[![Gem Version](http://img.shields.io/gem/v/omniauth.svg)][gem]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hacktoberfest"
+    },
+    {
+      "context_snippet": "[![Gem Version](http://img.shields.io/gem/v/omniauth.svg)][gem]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "omniauth"
+    },
+    {
+      "context_snippet": "[![Gem Version](http://img.shields.io/gem/v/omniauth.svg)][gem]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ruby"
+    }
+  ]
+}

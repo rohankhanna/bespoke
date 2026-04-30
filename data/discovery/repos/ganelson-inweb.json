@@ -1,0 +1,100 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ganelson/inweb",
+      "target": "documentation-as-code",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ganelson/inweb",
+      "target": "documentation-generator",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ganelson/inweb",
+      "target": "documentation-tool",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ganelson/inweb",
+      "target": "literate-programming",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ganelson/inweb",
+      "target": "literate-programs",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T02:39:46.237169+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8389
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A modern system for literate programming.",
+    "fork": false,
+    "full_name": "ganelson/inweb",
+    "html_url": "https://github.com/ganelson/inweb",
+    "language": "C",
+    "pushed_at": "2026-04-24T08:51:13Z",
+    "stargazers_count": 138,
+    "topics": [
+      "documentation-as-code",
+      "documentation-generator",
+      "documentation-tool",
+      "literate-programming",
+      "literate-programs"
+    ],
+    "updated_at": "2026-04-24T08:51:18Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "[Version](notes/versioning.md): 9.0-beta+1C16 'Invasion' (24 April 2026)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "documentation-as-code"
+    },
+    {
+      "context_snippet": "[Version](notes/versioning.md): 9.0-beta+1C16 'Invasion' (24 April 2026)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "documentation-generator"
+    },
+    {
+      "context_snippet": "[Version](notes/versioning.md): 9.0-beta+1C16 'Invasion' (24 April 2026)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "documentation-tool"
+    },
+    {
+      "context_snippet": "[Version](notes/versioning.md): 9.0-beta+1C16 'Invasion' (24 April 2026)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "literate-programming"
+    },
+    {
+      "context_snippet": "[Version](notes/versioning.md): 9.0-beta+1C16 'Invasion' (24 April 2026)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "literate-programs"
+    }
+  ]
+}

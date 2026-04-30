@@ -1,0 +1,143 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "olikraus/u8g2",
+      "target": "arduino",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "olikraus/u8g2",
+      "target": "display",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "olikraus/u8g2",
+      "target": "embedded-systems",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "olikraus/u8g2",
+      "target": "font",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "olikraus/u8g2",
+      "target": "microcontroller",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "olikraus/u8g2",
+      "target": "monochrome-displays",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "olikraus/u8g2",
+      "target": "oled",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "olikraus/u8g2",
+      "target": "u8g2",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T03:50:25.908514+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1701
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "U8glib library for monochrome displays, version 2 ",
+    "fork": false,
+    "full_name": "olikraus/u8g2",
+    "html_url": "https://github.com/olikraus/u8g2",
+    "language": "C",
+    "pushed_at": "2026-04-01T19:25:51Z",
+    "stargazers_count": 6425,
+    "topics": [
+      "arduino",
+      "display",
+      "embedded-systems",
+      "font",
+      "lcd",
+      "microcontroller",
+      "monochrome-displays",
+      "oled",
+      "u8g2"
+    ],
+    "updated_at": "2026-04-30T02:18:05Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "[![Gitpod Ready-to-Code](https://img.shields.io/badge/Gitpod-Ready--to--Code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/olikraus/u8g2)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "arduino"
+    },
+    {
+      "context_snippet": "[![Gitpod Ready-to-Code](https://img.shields.io/badge/Gitpod-Ready--to--Code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/olikraus/u8g2)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "display"
+    },
+    {
+      "context_snippet": "[![Gitpod Ready-to-Code](https://img.shields.io/badge/Gitpod-Ready--to--Code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/olikraus/u8g2)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "embedded-systems"
+    },
+    {
+      "context_snippet": "[![Gitpod Ready-to-Code](https://img.shields.io/badge/Gitpod-Ready--to--Code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/olikraus/u8g2)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "font"
+    },
+    {
+      "context_snippet": "[![Gitpod Ready-to-Code](https://img.shields.io/badge/Gitpod-Ready--to--Code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/olikraus/u8g2)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "microcontroller"
+    },
+    {
+      "context_snippet": "[![Gitpod Ready-to-Code](https://img.shields.io/badge/Gitpod-Ready--to--Code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/olikraus/u8g2)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "monochrome-displays"
+    },
+    {
+      "context_snippet": "[![Gitpod Ready-to-Code](https://img.shields.io/badge/Gitpod-Ready--to--Code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/olikraus/u8g2)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "oled"
+    },
+    {
+      "context_snippet": "[![Gitpod Ready-to-Code](https://img.shields.io/badge/Gitpod-Ready--to--Code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/olikraus/u8g2)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "u8g2"
+    }
+  ]
+}

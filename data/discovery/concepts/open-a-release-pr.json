@@ -43,6 +43,30 @@
       "source_repo": "edgenai/llama_cpp-rs",
       "status": "candidate-context",
       "text": "Open a release PR"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "axiom-crypto/halo2curves",
+      "status": "candidate-context",
+      "text": "Open a release PR"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "passcod/cargo-release-pr-test",
+      "status": "candidate-context",
+      "text": "Open a release PR"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "a16z/arkworks-algebra",
+      "status": "candidate-context",
+      "text": "Libraries for finite field, elliptic curve, and polynomial arithmetic"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "a16z/arkworks-algebra",
+      "status": "candidate-context",
+      "text": "Open a release PR"
     }
   ],
   "candidate_glosses": [
@@ -61,6 +85,24 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "edgenai/llama_cpp-rs",
+      "status": "candidate",
+      "text": "Open a release PR"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "axiom-crypto/halo2curves",
+      "status": "candidate",
+      "text": "Open a release PR"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "passcod/cargo-release-pr-test",
+      "status": "candidate",
+      "text": "Open a release PR"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "a16z/arkworks-algebra",
       "status": "candidate",
       "text": "Open a release PR"
     }
@@ -124,11 +166,29 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": ".github/workflows/release_pr.yml",
       "source_repo": "edgenai/llama_cpp-rs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "axiom-crypto/halo2curves"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "passcod/cargo-release-pr-test"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/release_pr.yml",
+      "source_repo": "a16z/arkworks-algebra"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

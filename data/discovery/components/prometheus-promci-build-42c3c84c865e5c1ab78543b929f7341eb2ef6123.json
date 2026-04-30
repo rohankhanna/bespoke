@@ -1,0 +1,22 @@
+{
+  "component": "prometheus/promci/build@42c3c84c865e5c1ab78543b929f7341eb2ef6123",
+  "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "prometheus/alertmanager"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "prometheus/alertmanager"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "prometheus/alertmanager"
+    }
+  ]
+}

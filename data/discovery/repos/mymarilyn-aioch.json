@@ -1,0 +1,114 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mymarilyn/aioch",
+      "target": "asyncio",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mymarilyn/aioch",
+      "target": "clickhouse",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mymarilyn/aioch",
+      "target": "database",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mymarilyn/aioch",
+      "target": "driver",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mymarilyn/aioch",
+      "target": "native",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mymarilyn/aioch",
+      "target": "yandex",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T05:03:01.497766+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2044
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": " aioch - is a library for accessing a ClickHouse database over native interface from the asyncio",
+    "fork": false,
+    "full_name": "mymarilyn/aioch",
+    "html_url": "https://github.com/mymarilyn/aioch",
+    "language": "Python",
+    "pushed_at": "2022-03-23T15:30:31Z",
+    "stargazers_count": 168,
+    "topics": [
+      "asyncio",
+      "clickhouse",
+      "database",
+      "driver",
+      "native",
+      "yandex"
+    ],
+    "updated_at": "2026-03-18T18:18:16Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "**aioch** is a library for accessing a ClickHouse database over native interface from the asyncio.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "asyncio"
+    },
+    {
+      "context_snippet": "**aioch** is a library for accessing a ClickHouse database over native interface from the asyncio.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "clickhouse"
+    },
+    {
+      "context_snippet": "**aioch** is a library for accessing a ClickHouse database over native interface from the asyncio.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "database"
+    },
+    {
+      "context_snippet": "**aioch** is a library for accessing a ClickHouse database over native interface from the asyncio.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "driver"
+    },
+    {
+      "context_snippet": "**aioch** is a library for accessing a ClickHouse database over native interface from the asyncio.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "native"
+    },
+    {
+      "context_snippet": "**aioch** is a library for accessing a ClickHouse database over native interface from the asyncio.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "yandex"
+    }
+  ]
+}

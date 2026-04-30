@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T05:08:18.936396+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 690
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Community dashboards  for OpenObserve",
+    "fork": false,
+    "full_name": "openobserve/dashboards",
+    "html_url": "https://github.com/openobserve/dashboards",
+    "language": null,
+    "pushed_at": "2026-04-14T15:09:38Z",
+    "stargazers_count": 82,
+    "topics": [],
+    "updated_at": "2026-04-19T07:50:26Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

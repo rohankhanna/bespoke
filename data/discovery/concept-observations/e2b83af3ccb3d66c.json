@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Apache Kafka - A distributed event streaming platform"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Docker Official Image Build Test"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Docker Official Image Build Test"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 42511,
+      "status": "candidate",
+      "text": "load"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 42072,
+      "status": "candidate",
+      "text": "blot"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 33149,
+      "status": "candidate",
+      "text": "inkblot"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 33016,
+      "status": "candidate",
+      "text": "captcha"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30827,
+      "status": "candidate",
+      "text": "unload"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Docker Official Image Build Test",
+      "sense_id": "docker-official-image-build-test#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "docker-official-image-build-test",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "docker-official-image-build-test",
+  "observation_id": "e2b83af3ccb3d66c",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-30T00:37:16.824464+00:00",
+  "observed_text": "Docker Official Image Build Test",
+  "source_context_snippet": "Docker Official Image Build Test",
+  "source_file": ".github/workflows/docker_official_image_build_and_test.yml",
+  "source_repo": "apache/kafka",
+  "source_repo_description": "Apache Kafka - A distributed event streaming platform"
+}

@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T04:09:00.194633+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2618
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Todo View for https://github.com/rxi/lite",
+    "fork": false,
+    "full_name": "drmargarido/TodoTreeView",
+    "html_url": "https://github.com/drmargarido/TodoTreeView",
+    "language": "Lua",
+    "pushed_at": "2024-08-09T16:09:42Z",
+    "stargazers_count": 28,
+    "topics": [],
+    "updated_at": "2025-03-29T15:51:10Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

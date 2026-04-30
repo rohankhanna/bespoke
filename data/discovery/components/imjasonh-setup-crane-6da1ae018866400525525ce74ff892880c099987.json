@@ -1,7 +1,7 @@
 {
   "component": "imjasonh/setup-crane@6da1ae018866400525525ce74ff892880c099987",
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -37,6 +37,11 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/examples-test.yaml",
       "source_repo": "chainguard-dev/apko"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "sigstore/gitsign"
     }
   ]
 }

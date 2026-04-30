@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Sanity check profiles"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "iterate-ch/profiles",
+      "status": "candidate-context",
+      "text": "Connection Profiles for Cyberduck & Mountain Duck"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "iterate-ch/profiles",
+      "status": "candidate-context",
+      "text": "Sanity check profiles"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "iterate-ch/profiles",
+      "status": "candidate",
+      "text": "Sanity check profiles"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26787,
+      "status": "candidate",
+      "text": "reviews"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 25144,
+      "status": "candidate",
+      "text": "analyse"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 25144,
+      "status": "candidate",
+      "text": "parthenos"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 25124,
+      "status": "candidate",
+      "text": "assessment"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 25124,
+      "status": "candidate",
+      "text": "record"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Sanity check profiles",
+  "concept_id": "sanity-check-profiles",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/profiles-sanity-check.yml",
+      "source_repo": "iterate-ch/profiles"
+    }
+  ],
+  "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Sanity check profiles",
+      "sense_id": "sanity-check-profiles#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

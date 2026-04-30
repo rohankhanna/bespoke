@@ -1,0 +1,593 @@
+{
+  "components": [
+    {
+      "component": "chalk",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "figures",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "gaxios",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "parse-link-header",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "gts",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "actions/setup-example@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "github/codeql-action/init@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "github/codeql-action/analyze@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/conformance-test.yaml"
+    },
+    {
+      "component": "actions/setup-node@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/conformance-test.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/conformance.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/conformance.yaml"
+    },
+    {
+      "component": "actions/setup-node@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/conformance.yaml"
+    },
+    {
+      "component": "actions/setup-go@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/conformance.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continuous.yaml"
+    },
+    {
+      "component": "pnpm/action-setup@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continuous.yaml"
+    },
+    {
+      "component": "actions/checkout@93cb6efe18208431cddfb8368fd83d5badbf9bfd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/discovery.yaml"
+    },
+    {
+      "component": "actions/setup-node@48b55a011bda9f5d6aeb4c2d9c7362e8dae4041e",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/discovery.yaml"
+    },
+    {
+      "component": "googleapis/code-suggester@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/discovery.yaml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generator-tests.yaml"
+    },
+    {
+      "component": "actions/cache@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generator-tests.yaml"
+    },
+    {
+      "component": "actions/setup-node@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generator-tests.yaml"
+    },
+    {
+      "component": "actions/upload-artifact@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generator-tests.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issues-no-repro.yaml"
+    },
+    {
+      "component": "actions/setup-node@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issues-no-repro.yaml"
+    },
+    {
+      "component": "actions/github-script@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issues-no-repro.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mandatory-conformance.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mandatory-conformance.yaml"
+    },
+    {
+      "component": "actions/setup-node@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mandatory-conformance.yaml"
+    },
+    {
+      "component": "actions/setup-go@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mandatory-conformance.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "googleapis/google-cloud-node",
+      "target": "googleapis/nodejs-logging-winston",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "googleapis/google-cloud-node",
+      "target": "googlecloudplatform/nodejs-getting-started",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "googleapis/google-cloud-node",
+      "target": "googlecloudplatform/gcloud-node-todos",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "googleapis/google-cloud-node",
+      "target": "google/google-api-nodejs-client",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "googleapis/google-cloud-node",
+      "target": "chalk",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "googleapis/google-cloud-node",
+      "target": "figures",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "googleapis/google-cloud-node",
+      "target": "gaxios",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "googleapis/google-cloud-node",
+      "target": "parse-link-header",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "googleapis/google-cloud-node",
+      "target": "gts",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "googleapis/google-cloud-node",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "googleapis/google-cloud-node",
+      "target": "actions/setup-example@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "googleapis/google-cloud-node",
+      "target": "github/codeql-action/init@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "googleapis/google-cloud-node",
+      "target": "github/codeql-action/analyze@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "googleapis/google-cloud-node",
+      "target": "CodeQL Advanced",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/conformance-test.yaml",
+      "source_repo": "googleapis/google-cloud-node",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/conformance-test.yaml",
+      "source_repo": "googleapis/google-cloud-node",
+      "target": "actions/setup-node@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/conformance-test.yaml",
+      "source_repo": "googleapis/google-cloud-node",
+      "target": "conformance",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/conformance.yaml",
+      "source_repo": "googleapis/google-cloud-node",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/conformance.yaml",
+      "source_repo": "googleapis/google-cloud-node",
+      "target": "actions/setup-node@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/conformance.yaml",
+      "source_repo": "googleapis/google-cloud-node",
+      "target": "actions/setup-go@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/conformance.yaml",
+      "source_repo": "googleapis/google-cloud-node",
+      "target": "conformance",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continuous.yaml",
+      "source_repo": "googleapis/google-cloud-node",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continuous.yaml",
+      "source_repo": "googleapis/google-cloud-node",
+      "target": "pnpm/action-setup@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/continuous.yaml",
+      "source_repo": "googleapis/google-cloud-node",
+      "target": "continuous",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/discovery.yaml",
+      "source_repo": "googleapis/google-cloud-node",
+      "target": "actions/checkout@93cb6efe18208431cddfb8368fd83d5badbf9bfd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/discovery.yaml",
+      "source_repo": "googleapis/google-cloud-node",
+      "target": "actions/setup-node@48b55a011bda9f5d6aeb4c2d9c7362e8dae4041e",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/discovery.yaml",
+      "source_repo": "googleapis/google-cloud-node",
+      "target": "googleapis/code-suggester@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/discovery.yaml",
+      "source_repo": "googleapis/google-cloud-node",
+      "target": "Update Discovery Generated Types",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generator-tests.yaml",
+      "source_repo": "googleapis/google-cloud-node",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generator-tests.yaml",
+      "source_repo": "googleapis/google-cloud-node",
+      "target": "actions/cache@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generator-tests.yaml",
+      "source_repo": "googleapis/google-cloud-node",
+      "target": "actions/setup-node@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generator-tests.yaml",
+      "source_repo": "googleapis/google-cloud-node",
+      "target": "actions/upload-artifact@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/generator-tests.yaml",
+      "source_repo": "googleapis/google-cloud-node",
+      "target": "generator-tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issues-no-repro.yaml",
+      "source_repo": "googleapis/google-cloud-node",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issues-no-repro.yaml",
+      "source_repo": "googleapis/google-cloud-node",
+      "target": "actions/setup-node@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issues-no-repro.yaml",
+      "source_repo": "googleapis/google-cloud-node",
+      "target": "actions/github-script@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mandatory-conformance.yaml",
+      "source_repo": "googleapis/google-cloud-node",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mandatory-conformance.yaml",
+      "source_repo": "googleapis/google-cloud-node",
+      "target": "actions/setup-node@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mandatory-conformance.yaml",
+      "source_repo": "googleapis/google-cloud-node",
+      "target": "actions/setup-go@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/mandatory-conformance.yaml",
+      "source_repo": "googleapis/google-cloud-node",
+      "target": "mandatory-conformance",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "googleapis/google-cloud-node",
+      "target": "google-cloud",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "googleapis/google-cloud-node",
+      "target": "nodejs",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T03:05:10.308525+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 66825
+    },
+    {
+      "path": "package.json",
+      "size": 1245
+    },
+    {
+      "path": ".github/workflows/codeql.yml",
+      "size": 3319
+    },
+    {
+      "path": ".github/workflows/conformance-test.yaml",
+      "size": 479
+    },
+    {
+      "path": ".github/workflows/conformance.yaml",
+      "size": 1531
+    },
+    {
+      "path": ".github/workflows/continuous.yaml",
+      "size": 443
+    },
+    {
+      "path": ".github/workflows/discovery.yaml",
+      "size": 1207
+    },
+    {
+      "path": ".github/workflows/generator-tests.yaml",
+      "size": 5386
+    },
+    {
+      "path": ".github/workflows/issues-no-repro.yaml",
+      "size": 558
+    },
+    {
+      "path": ".github/workflows/mandatory-conformance.yaml",
+      "size": 1572
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Google Cloud Client Library for Node.js",
+    "fork": false,
+    "full_name": "googleapis/google-cloud-node",
+    "html_url": "https://github.com/googleapis/google-cloud-node",
+    "language": "JavaScript",
+    "pushed_at": "2026-04-29T21:41:58Z",
+    "stargazers_count": 3151,
+    "topics": [
+      "google-cloud",
+      "nodejs"
+    ],
+    "updated_at": "2026-04-29T21:13:12Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "google/google-api-nodejs-client",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "googleapis/nodejs-logging-winston",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "googlecloudplatform/gcloud-node-todos",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "googlecloudplatform/nodejs-getting-started",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "\"CodeQL Advanced\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql.yml",
+      "term": "CodeQL Advanced"
+    },
+    {
+      "context_snippet": "conformance",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/conformance-test.yaml",
+      "term": "conformance"
+    },
+    {
+      "context_snippet": "conformance",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/conformance.yaml",
+      "term": "conformance"
+    },
+    {
+      "context_snippet": "continuous",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/continuous.yaml",
+      "term": "continuous"
+    },
+    {
+      "context_snippet": "Update Discovery Generated Types",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/discovery.yaml",
+      "term": "Update Discovery Generated Types"
+    },
+    {
+      "context_snippet": "generator-tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/generator-tests.yaml",
+      "term": "generator-tests"
+    },
+    {
+      "context_snippet": "mandatory-conformance",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/mandatory-conformance.yaml",
+      "term": "mandatory-conformance"
+    },
+    {
+      "context_snippet": "> Node.js idiomatic client libraries for [Google Cloud Platform](https://cloud.google.com/) services.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "google-cloud"
+    },
+    {
+      "context_snippet": "> Node.js idiomatic client libraries for [Google Cloud Platform](https://cloud.google.com/) services.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nodejs"
+    }
+  ]
+}

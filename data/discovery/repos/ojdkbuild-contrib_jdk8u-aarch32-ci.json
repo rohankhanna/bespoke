@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T04:00:48.664514+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 656
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "OpenJDK 8 AArch32 builds done on Travis CI",
+    "fork": false,
+    "full_name": "ojdkbuild/contrib_jdk8u-aarch32-ci",
+    "html_url": "https://github.com/ojdkbuild/contrib_jdk8u-aarch32-ci",
+    "language": null,
+    "pushed_at": "2022-01-28T16:04:39Z",
+    "stargazers_count": 1,
+    "topics": [],
+    "updated_at": "2023-12-16T12:32:32Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

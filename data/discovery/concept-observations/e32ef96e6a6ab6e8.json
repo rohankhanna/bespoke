@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A configurable, high-performance routing runtime for Apollo Federation \ud83d\ude80"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Update Apollo Protobuf"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Update Apollo Protobuf"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10473,
+      "status": "candidate",
+      "text": "fit"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10473,
+      "status": "candidate",
+      "text": "fitted"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10473,
+      "status": "candidate",
+      "text": "gleamy"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10473,
+      "status": "candidate",
+      "text": "saturnalia"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10442,
+      "status": "candidate",
+      "text": "diana"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Update Apollo Protobuf",
+      "sense_id": "update-apollo-protobuf#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "update-apollo-protobuf",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "update-apollo-protobuf",
+  "observation_id": "e32ef96e6a6ab6e8",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-30T00:37:16.824464+00:00",
+  "observed_text": "Update Apollo Protobuf",
+  "source_context_snippet": "Update Apollo Protobuf",
+  "source_file": ".github/workflows/update_apollo_protobuf.yaml",
+  "source_repo": "apollographql/router",
+  "source_repo_description": "A configurable, high-performance routing runtime for Apollo Federation \ud83d\ude80"
+}

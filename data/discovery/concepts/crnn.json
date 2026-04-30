@@ -91,6 +91,18 @@
       "source_repo": "mindspore-lab/mindocr",
       "status": "candidate-context",
       "text": "<!--start-->"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Sanster/text_renderer",
+      "status": "candidate-context",
+      "text": "Generate text images for training deep learning ocr model"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Sanster/text_renderer",
+      "status": "candidate-context",
+      "text": "Generate text images for training deep learning OCR model (e.g. [CRNN](https://github.com/bgshih/crnn))."
     }
   ],
   "candidate_glosses": [
@@ -135,6 +147,12 @@
       "source_repo": "mindspore-lab/mindocr",
       "status": "candidate",
       "text": "<!--start-->"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Sanster/text_renderer",
+      "status": "candidate",
+      "text": "Generate text images for training deep learning OCR model (e.g. [CRNN](https://github.com/bgshih/crnn))."
     }
   ],
   "candidate_related_terms": [],
@@ -184,11 +202,17 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "mindspore-lab/mindocr"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "Sanster/text_renderer"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

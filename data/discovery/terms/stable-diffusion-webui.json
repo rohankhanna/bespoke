@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "sources": [
     {
       "discovered_via": "repo-topic",
@@ -46,6 +46,21 @@
       "discovered_via": "repo-topic",
       "source_file": null,
       "source_repo": "wkpark/uddetailer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "haofanwang/Lora-for-Diffusers"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "pkuliyi2015/multidiffusion-upscaler-for-automatic1111"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "pkuliyi2015/sd-webui-stablesr"
     }
   ],
   "term": "stable-diffusion-webui"

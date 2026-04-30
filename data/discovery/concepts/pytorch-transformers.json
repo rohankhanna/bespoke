@@ -19,6 +19,18 @@
       "source_repo": "huggingface/transformers",
       "status": "candidate-context",
       "text": "<!---"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "BlackSamorez/tensor_parallel",
+      "status": "candidate-context",
+      "text": "Automatically split your PyTorch models on multiple GPUs for training & inference"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "BlackSamorez/tensor_parallel",
+      "status": "candidate-context",
+      "text": "[![PyPI version](https://img.shields.io/pypi/v/tensor-parallel.svg?color=blue)](https://pypi.org/project/tensor-parallel/)"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "huggingface/transformers",
       "status": "candidate",
       "text": "<!---"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "BlackSamorez/tensor_parallel",
+      "status": "candidate",
+      "text": "[![PyPI version](https://img.shields.io/pypi/v/tensor-parallel.svg?color=blue)](https://pypi.org/project/tensor-parallel/)"
     }
   ],
   "candidate_related_terms": [],
@@ -46,11 +64,17 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "huggingface/transformers"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "BlackSamorez/tensor_parallel"
     }
   ],
   "first_seen_at": "2026-04-18T13:15:13.756138+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

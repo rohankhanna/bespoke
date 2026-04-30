@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "jrudolph/llama2.scala",
+      "target": "ggerganov/llama.cpp",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T02:56:29.417116+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8769
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": " Inference Llama 2 in Scala with AVX2 kernels in C (A port of llama2.c from Andrej Karpathy)",
+    "fork": false,
+    "full_name": "jrudolph/llama2.scala",
+    "html_url": "https://github.com/jrudolph/llama2.scala",
+    "language": "Scala",
+    "pushed_at": "2023-10-12T08:46:31Z",
+    "stargazers_count": 71,
+    "topics": [],
+    "updated_at": "2026-01-06T07:46:32Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ggerganov/llama.cpp",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

@@ -1,0 +1,272 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tox.yml"
+    },
+    {
+      "component": "actions/setup-python@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tox.yml"
+    },
+    {
+      "component": "actions/checkout@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/vader.yml"
+    },
+    {
+      "component": "actions/setup-dotnet@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/vader.yml"
+    },
+    {
+      "component": "rhysd/action-setup-vim@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/vader.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/vint.yml"
+    },
+    {
+      "component": "reviewdog/action-vint@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/vint.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "OmniSharp/omnisharp-vim",
+      "target": "shougo/unite.vim",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "OmniSharp/omnisharp-vim",
+      "target": "gmarik/vundle",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "OmniSharp/omnisharp-vim",
+      "target": "shougo/neobundle.vim",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "OmniSharp/omnisharp-vim",
+      "target": "shougo/vimproc.vim",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tox.yml",
+      "source_repo": "OmniSharp/omnisharp-vim",
+      "target": "actions/checkout@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tox.yml",
+      "source_repo": "OmniSharp/omnisharp-vim",
+      "target": "actions/setup-python@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/tox.yml",
+      "source_repo": "OmniSharp/omnisharp-vim",
+      "target": "tox",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/vader.yml",
+      "source_repo": "OmniSharp/omnisharp-vim",
+      "target": "actions/checkout@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/vader.yml",
+      "source_repo": "OmniSharp/omnisharp-vim",
+      "target": "actions/setup-dotnet@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/vader.yml",
+      "source_repo": "OmniSharp/omnisharp-vim",
+      "target": "rhysd/action-setup-vim@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/vader.yml",
+      "source_repo": "OmniSharp/omnisharp-vim",
+      "target": "Vader",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/vint.yml",
+      "source_repo": "OmniSharp/omnisharp-vim",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/vint.yml",
+      "source_repo": "OmniSharp/omnisharp-vim",
+      "target": "reviewdog/action-vint@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/vint.yml",
+      "source_repo": "OmniSharp/omnisharp-vim",
+      "target": "Vint",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "OmniSharp/omnisharp-vim",
+      "target": "csharp",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "OmniSharp/omnisharp-vim",
+      "target": "omnisharp",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "OmniSharp/omnisharp-vim",
+      "target": "omnisharp-roslyn",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "OmniSharp/omnisharp-vim",
+      "target": "vim-plugins",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T04:08:00.784130+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 28454
+    },
+    {
+      "path": ".github/workflows/tox.yml",
+      "size": 587
+    },
+    {
+      "path": ".github/workflows/vader.yml",
+      "size": 1223
+    },
+    {
+      "path": ".github/workflows/vint.yml",
+      "size": 364
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Vim omnicompletion (intellisense) and more for C#",
+    "fork": false,
+    "full_name": "OmniSharp/omnisharp-vim",
+    "html_url": "https://github.com/OmniSharp/omnisharp-vim",
+    "language": "Vim Script",
+    "pushed_at": "2025-10-12T21:45:12Z",
+    "stargazers_count": 1778,
+    "topics": [
+      "csharp",
+      "omnisharp",
+      "omnisharp-roslyn",
+      "vim",
+      "vim-plugins"
+    ],
+    "updated_at": "2026-04-26T10:35:59Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "gmarik/vundle",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "shougo/neobundle.vim",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "shougo/unite.vim",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "shougo/vimproc.vim",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "tox",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/tox.yml",
+      "term": "tox"
+    },
+    {
+      "context_snippet": "Vader",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/vader.yml",
+      "term": "Vader"
+    },
+    {
+      "context_snippet": "Vint",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/vint.yml",
+      "term": "Vint"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "csharp"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "omnisharp"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "omnisharp-roslyn"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vim-plugins"
+    }
+  ]
+}

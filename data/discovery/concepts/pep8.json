@@ -94,6 +94,18 @@
       "source_repo": "PyCQA/flake8",
       "status": "candidate-context",
       "text": ".. image:: https://github.com/PyCQA/flake8/workflows/main/badge.svg"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pylint-dev/pylint",
+      "status": "candidate-context",
+      "text": "It's not just a linter that annoys you!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pylint-dev/pylint",
+      "status": "candidate-context",
+      "text": "`Pylint`_"
     }
   ],
   "candidate_glosses": [
@@ -138,6 +150,12 @@
       "source_repo": "PyCQA/flake8",
       "status": "candidate",
       "text": ".. image:: https://github.com/PyCQA/flake8/workflows/main/badge.svg"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pylint-dev/pylint",
+      "status": "candidate",
+      "text": "`Pylint`_"
     }
   ],
   "candidate_related_terms": [],
@@ -205,11 +223,23 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "PyCQA/flake8"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "pylint-dev/pylint"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "astral-sh/ruff"
     }
   ],
   "first_seen_at": "2026-04-18T12:46:59.510459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

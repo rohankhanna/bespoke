@@ -1,0 +1,166 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-catnip-docker-image.yml"
+    },
+    {
+      "component": "docker/login-action@4907a6ddec9925e35a0a9e82d7399ccc52663121",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-catnip-docker-image.yml"
+    },
+    {
+      "component": "docker/build-push-action@v7.1.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-catnip-docker-image.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-go@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "cloudfoundry/cf-acceptance-tests",
+      "target": "cloudfoundry/cf-deployment",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "cloudfoundry/cf-acceptance-tests",
+      "target": "cloudfoundry/cf-smoke-tests",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "cloudfoundry/cf-acceptance-tests",
+      "target": "cloudfoundry/bosh-lite",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "cloudfoundry/cf-acceptance-tests",
+      "target": "cloudfoundry-incubator/cf-networking-release",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-catnip-docker-image.yml",
+      "source_repo": "cloudfoundry/cf-acceptance-tests",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-catnip-docker-image.yml",
+      "source_repo": "cloudfoundry/cf-acceptance-tests",
+      "target": "docker/login-action@4907a6ddec9925e35a0a9e82d7399ccc52663121",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-catnip-docker-image.yml",
+      "source_repo": "cloudfoundry/cf-acceptance-tests",
+      "target": "docker/build-push-action@v7.1.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "cloudfoundry/cf-acceptance-tests",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "cloudfoundry/cf-acceptance-tests",
+      "target": "actions/setup-go@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cloudfoundry/cf-acceptance-tests",
+      "target": "cff-wg-app-runtime-deployments",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T04:11:05.232087+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 30042
+    },
+    {
+      "path": "go.mod",
+      "size": 2223
+    },
+    {
+      "path": ".github/workflows/build-catnip-docker-image.yml",
+      "size": 970
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 1161
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "develop",
+    "description": "CF Acceptance tests",
+    "fork": false,
+    "full_name": "cloudfoundry/cf-acceptance-tests",
+    "html_url": "https://github.com/cloudfoundry/cf-acceptance-tests",
+    "language": "Go",
+    "pushed_at": "2026-04-28T13:10:44Z",
+    "stargazers_count": 68,
+    "topics": [
+      "cff-wg-app-runtime-deployments"
+    ],
+    "updated_at": "2026-04-28T13:11:25Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cloudfoundry-incubator/cf-networking-release",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cloudfoundry/bosh-lite",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cloudfoundry/cf-deployment",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cloudfoundry/cf-smoke-tests",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "This suite exercises a [Cloud Foundry](https://github.com/cloudfoundry/cf-deployment)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cff-wg-app-runtime-deployments"
+    }
+  ]
+}

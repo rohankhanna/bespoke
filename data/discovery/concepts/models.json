@@ -67,6 +67,42 @@
       "source_repo": "onnx/models",
       "status": "candidate-context",
       "text": "<!--- SPDX-License-Identifier: Apache-2.0 -->"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bigscience-workshop/bigscience",
+      "status": "candidate-context",
+      "text": "Central place for the engineering/scaling WG: documentation, SLURM scripts and logs, compute environment and data."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bigscience-workshop/bigscience",
+      "status": "candidate-context",
+      "text": "[Research workshop on large language models - The Summer of Language Models 21](https://bigscience.huggingface.co/)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "PINTO0309/PINTO_model_zoo",
+      "status": "candidate-context",
+      "text": "A repository for storing models that have been inter-converted between various frameworks. Supported frameworks are TensorFlow, PyTorch, ONNX, OpenVINO, TFJS, TFTRT, TensorFlowLite (Float32/16/INT8), EdgeTPU, CoreML."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PINTO0309/PINTO_model_zoo",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "qubvel-org/segmentation_models.pytorch",
+      "status": "candidate-context",
+      "text": "Semantic segmentation models with 500+ pretrained convolutional and transformer-based backbones."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "qubvel-org/segmentation_models.pytorch",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -99,6 +135,24 @@
       "source_repo": "onnx/models",
       "status": "candidate",
       "text": "<!--- SPDX-License-Identifier: Apache-2.0 -->"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bigscience-workshop/bigscience",
+      "status": "candidate",
+      "text": "[Research workshop on large language models - The Summer of Language Models 21](https://bigscience.huggingface.co/)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PINTO0309/PINTO_model_zoo",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "qubvel-org/segmentation_models.pytorch",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -172,11 +226,29 @@
       "observed_at": "2026-04-24T12:33:41.350224+00:00",
       "source_file": null,
       "source_repo": "onnx/models"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "bigscience-workshop/bigscience"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "PINTO0309/PINTO_model_zoo"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "qubvel-org/segmentation_models.pytorch"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

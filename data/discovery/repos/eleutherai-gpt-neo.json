@@ -16,21 +16,7 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "EleutherAI/gpt-neo",
-      "target": "tensorflow/mesh",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "EleutherAI/gpt-neo",
       "target": "eleutherai/gptneo",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "EleutherAI/gpt-neo",
-      "target": "idsia/sacred",
       "target_type": "repository"
     },
     {
@@ -76,7 +62,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-29T20:42:35.305093+00:00",
+  "fetched_at": "2026-04-30T05:10:33.678936+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -119,16 +105,6 @@
     {
       "edge_type": "explicit-github-link",
       "full_name": "eleutherai/gptneo",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "idsia/sacred",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "tensorflow/mesh",
       "source_file": "README.md"
     }
   ],

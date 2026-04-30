@@ -9,13 +9,6 @@
       "target_type": "repository"
     },
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "requirements.txt",
-      "source_repo": "reasoning-machines/prompt-lib",
-      "target": "damnever/pigar.",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "repo-topic",
       "source_file": null,
       "source_repo": "reasoning-machines/prompt-lib",
@@ -51,7 +44,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-29T20:53:57.491768+00:00",
+  "fetched_at": "2026-04-30T02:49:21.086298+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -87,11 +80,6 @@
       "edge_type": "explicit-github-link",
       "full_name": "reasoning-machines/cocogen",
       "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "damnever/pigar.",
-      "source_file": "requirements.txt"
     }
   ],
   "terms": [

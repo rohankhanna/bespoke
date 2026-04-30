@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "derivatives-pricing"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "attack68/rateslib",
+      "status": "candidate-context",
+      "text": "A fixed income library for pricing bonds and bond futures, and derivatives such as interest rate swaps (IRS), cross-currency swaps (XCS) and FX swaps. Contains tools for full curveset construction with market standard optimisers and automatic differentiation (AD) and risk sensitivity calculations including delta and cross-gamma."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "attack68/rateslib",
+      "status": "candidate-context",
+      "text": "<div style=\"text-align: center; padding: 2em 0 2em\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "attack68/rateslib",
+      "status": "candidate",
+      "text": "<div style=\"text-align: center; padding: 2em 0 2em\">"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "derivatives-pricing",
+  "concept_id": "derivatives-pricing",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "attack68/rateslib"
+    }
+  ],
+  "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "derivatives-pricing",
+      "sense_id": "derivatives-pricing#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

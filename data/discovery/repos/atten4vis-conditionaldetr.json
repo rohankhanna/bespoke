@@ -1,0 +1,90 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Atten4Vis/ConditionalDETR",
+      "target": "detr",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Atten4Vis/ConditionalDETR",
+      "target": "iccv2021",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Atten4Vis/ConditionalDETR",
+      "target": "object-detection",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Atten4Vis/ConditionalDETR",
+      "target": "transformer",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T01:58:30.745644+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 10209
+    },
+    {
+      "path": "requirements.txt",
+      "size": 208
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "This repository is an official implementation of the ICCV 2021 paper \"Conditional DETR for Fast Training Convergence\". (https://arxiv.org/abs/2108.06152)",
+    "fork": false,
+    "full_name": "Atten4Vis/ConditionalDETR",
+    "html_url": "https://github.com/Atten4Vis/ConditionalDETR",
+    "language": "Python",
+    "pushed_at": "2023-05-22T16:53:07Z",
+    "stargazers_count": 402,
+    "topics": [
+      "detr",
+      "iccv2021",
+      "object-detection",
+      "transformer"
+    ],
+    "updated_at": "2026-04-18T15:16:40Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "This repository is an official implementation of the ICCV 2021 paper \"[Conditional DETR for Fast Training Convergence](https://arxiv.org/abs/2108.06152)\".",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "detr"
+    },
+    {
+      "context_snippet": "This repository is an official implementation of the ICCV 2021 paper \"[Conditional DETR for Fast Training Convergence](https://arxiv.org/abs/2108.06152)\".",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "iccv2021"
+    },
+    {
+      "context_snippet": "This repository is an official implementation of the ICCV 2021 paper \"[Conditional DETR for Fast Training Convergence](https://arxiv.org/abs/2108.06152)\".",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "object-detection"
+    },
+    {
+      "context_snippet": "This repository is an official implementation of the ICCV 2021 paper \"[Conditional DETR for Fast Training Convergence](https://arxiv.org/abs/2108.06152)\".",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "transformer"
+    }
+  ]
+}

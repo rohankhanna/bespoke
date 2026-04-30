@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T05:14:42.425803+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6958
+    },
+    {
+      "path": "requirements.txt",
+      "size": 44
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "[ICCV2023] UniFormerV2: Spatiotemporal Learning by Arming Image ViTs with Video UniFormer",
+    "fork": false,
+    "full_name": "innat/UniFormerV2",
+    "html_url": "https://github.com/innat/UniFormerV2",
+    "language": "Jupyter Notebook",
+    "pushed_at": "2023-10-24T16:11:40Z",
+    "stargazers_count": 9,
+    "topics": [],
+    "updated_at": "2025-10-24T11:10:35Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

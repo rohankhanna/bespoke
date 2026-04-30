@@ -1,0 +1,370 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@1af3b93b6815bc44a9784bd300feb67ff0d1eeb3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    },
+    {
+      "component": "github/codeql-action/init@fe4161a26a8629af62121b670040955b330f9af2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    },
+    {
+      "component": "github/codeql-action/autobuild@fe4161a26a8629af62121b670040955b330f9af2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    },
+    {
+      "component": "github/codeql-action/analyze@fe4161a26a8629af62121b670040955b330f9af2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    },
+    {
+      "component": "actions/checkout@1af3b93b6815bc44a9784bd300feb67ff0d1eeb3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pypi-publish.yml"
+    },
+    {
+      "component": "actions/upload-artifact@330a01c490aca151604b8cf639adc76d48f6c5d4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pypi-publish.yml"
+    },
+    {
+      "component": "actions/download-artifact@018cc2cf5baa6db3ef3c5f8a56943fffe632ef53",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pypi-publish.yml"
+    },
+    {
+      "component": "actions/setup-python@83679a892e2d95755f2dac6acb0bfd1e9ac5d548",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pypi-publish.yml"
+    },
+    {
+      "component": "actions/download-artifact@018cc2cf5baa6db3ef3c5f8a56943fffe632ef53",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pypi-publish.yml"
+    },
+    {
+      "component": "pypa/gh-action-pypi-publish@ed0c53931b1dc9bd32cbe73a98c7f6766f8a527e",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pypi-publish.yml"
+    },
+    {
+      "component": "pypa/gh-action-pypi-publish@ed0c53931b1dc9bd32cbe73a98c7f6766f8a527e",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pypi-publish.yml"
+    },
+    {
+      "component": "actions/setup-python@83679a892e2d95755f2dac6acb0bfd1e9ac5d548",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pypi-test.yml"
+    },
+    {
+      "component": "actions/checkout@1af3b93b6815bc44a9784bd300feb67ff0d1eeb3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scorecards-analysis.yml"
+    },
+    {
+      "component": "ossf/scorecard-action@4eaacf0543bb3f2c246792bd56e8cdeffafb205a",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scorecards-analysis.yml"
+    },
+    {
+      "component": "actions/upload-artifact@330a01c490aca151604b8cf639adc76d48f6c5d4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scorecards-analysis.yml"
+    },
+    {
+      "component": "github/codeql-action/upload-sarif@fe4161a26a8629af62121b670040955b330f9af2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scorecards-analysis.yml"
+    },
+    {
+      "component": "actions/checkout@1af3b93b6815bc44a9784bd300feb67ff0d1eeb3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-examples.yml"
+    },
+    {
+      "component": "actions/checkout@1af3b93b6815bc44a9784bd300feb67ff0d1eeb3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-meltingpot.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "google-deepmind/meltingpot",
+      "target": "google-deepmind/lab2d",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "google-deepmind/meltingpot",
+      "target": "actions/checkout@1af3b93b6815bc44a9784bd300feb67ff0d1eeb3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "google-deepmind/meltingpot",
+      "target": "github/codeql-action/init@fe4161a26a8629af62121b670040955b330f9af2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "google-deepmind/meltingpot",
+      "target": "github/codeql-action/autobuild@fe4161a26a8629af62121b670040955b330f9af2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "google-deepmind/meltingpot",
+      "target": "github/codeql-action/analyze@fe4161a26a8629af62121b670040955b330f9af2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "google-deepmind/meltingpot",
+      "target": "CodeQL",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pypi-publish.yml",
+      "source_repo": "google-deepmind/meltingpot",
+      "target": "actions/checkout@1af3b93b6815bc44a9784bd300feb67ff0d1eeb3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pypi-publish.yml",
+      "source_repo": "google-deepmind/meltingpot",
+      "target": "actions/upload-artifact@330a01c490aca151604b8cf639adc76d48f6c5d4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pypi-publish.yml",
+      "source_repo": "google-deepmind/meltingpot",
+      "target": "actions/download-artifact@018cc2cf5baa6db3ef3c5f8a56943fffe632ef53",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pypi-publish.yml",
+      "source_repo": "google-deepmind/meltingpot",
+      "target": "actions/setup-python@83679a892e2d95755f2dac6acb0bfd1e9ac5d548",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pypi-publish.yml",
+      "source_repo": "google-deepmind/meltingpot",
+      "target": "pypa/gh-action-pypi-publish@ed0c53931b1dc9bd32cbe73a98c7f6766f8a527e",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pypi-publish.yml",
+      "source_repo": "google-deepmind/meltingpot",
+      "target": "pypi-publish",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pypi-test.yml",
+      "source_repo": "google-deepmind/meltingpot",
+      "target": "actions/setup-python@83679a892e2d95755f2dac6acb0bfd1e9ac5d548",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pypi-test.yml",
+      "source_repo": "google-deepmind/meltingpot",
+      "target": "pypi-test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scorecards-analysis.yml",
+      "source_repo": "google-deepmind/meltingpot",
+      "target": "actions/checkout@1af3b93b6815bc44a9784bd300feb67ff0d1eeb3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scorecards-analysis.yml",
+      "source_repo": "google-deepmind/meltingpot",
+      "target": "ossf/scorecard-action@4eaacf0543bb3f2c246792bd56e8cdeffafb205a",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scorecards-analysis.yml",
+      "source_repo": "google-deepmind/meltingpot",
+      "target": "actions/upload-artifact@330a01c490aca151604b8cf639adc76d48f6c5d4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scorecards-analysis.yml",
+      "source_repo": "google-deepmind/meltingpot",
+      "target": "github/codeql-action/upload-sarif@fe4161a26a8629af62121b670040955b330f9af2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/scorecards-analysis.yml",
+      "source_repo": "google-deepmind/meltingpot",
+      "target": "Scorecards supply-chain security",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-examples.yml",
+      "source_repo": "google-deepmind/meltingpot",
+      "target": "actions/checkout@1af3b93b6815bc44a9784bd300feb67ff0d1eeb3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test-examples.yml",
+      "source_repo": "google-deepmind/meltingpot",
+      "target": "test-examples",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-meltingpot.yml",
+      "source_repo": "google-deepmind/meltingpot",
+      "target": "actions/checkout@1af3b93b6815bc44a9784bd300feb67ff0d1eeb3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test-meltingpot.yml",
+      "source_repo": "google-deepmind/meltingpot",
+      "target": "test-meltingpot",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "google-deepmind/meltingpot",
+      "target": "multiagent-reinforcement-learning",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T04:59:26.206675+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7694
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 1025
+    },
+    {
+      "path": "requirements.txt",
+      "size": 110947
+    },
+    {
+      "path": ".github/workflows/codeql-analysis.yml",
+      "size": 2279
+    },
+    {
+      "path": ".github/workflows/pypi-publish.yml",
+      "size": 3356
+    },
+    {
+      "path": ".github/workflows/pypi-test.yml",
+      "size": 1794
+    },
+    {
+      "path": ".github/workflows/scorecards-analysis.yml",
+      "size": 2339
+    },
+    {
+      "path": ".github/workflows/test-examples.yml",
+      "size": 1296
+    },
+    {
+      "path": ".github/workflows/test-meltingpot.yml",
+      "size": 1254
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A suite of test scenarios for multi-agent reinforcement learning.",
+    "fork": false,
+    "full_name": "google-deepmind/meltingpot",
+    "html_url": "https://github.com/google-deepmind/meltingpot",
+    "language": "Python",
+    "pushed_at": "2026-04-09T21:48:59Z",
+    "stargazers_count": 820,
+    "topics": [
+      "multiagent-reinforcement-learning"
+    ],
+    "updated_at": "2026-04-27T11:17:23Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "google-deepmind/lab2d",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "\"CodeQL\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "term": "CodeQL"
+    },
+    {
+      "context_snippet": "pypi-publish",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pypi-publish.yml",
+      "term": "pypi-publish"
+    },
+    {
+      "context_snippet": "pypi-test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pypi-test.yml",
+      "term": "pypi-test"
+    },
+    {
+      "context_snippet": "Scorecards supply-chain security",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/scorecards-analysis.yml",
+      "term": "Scorecards supply-chain security"
+    },
+    {
+      "context_snippet": "test-examples",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test-examples.yml",
+      "term": "test-examples"
+    },
+    {
+      "context_snippet": "test-meltingpot",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test-meltingpot.yml",
+      "term": "test-meltingpot"
+    },
+    {
+      "context_snippet": "*A suite of test scenarios for multi-agent reinforcement learning.*",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "multiagent-reinforcement-learning"
+    }
+  ]
+}

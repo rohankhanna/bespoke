@@ -1,0 +1,146 @@
+{
+  "aliases": [
+    "measurement"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "the-benchmarker/graphql-benchmarks",
+      "status": "candidate-context",
+      "text": "GraphQL benchmarks using the-benchmarker framework."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "the-benchmarker/graphql-benchmarks",
+      "status": "candidate-context",
+      "text": "It's all about GraphQL server benchmarking across many languages."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "the-benchmarker/web-frameworks",
+      "status": "candidate-context",
+      "text": "Which is the fastest web framework?"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "the-benchmarker/web-frameworks",
+      "status": "candidate-context",
+      "text": "- `ruby`, all tools are made in `ruby`"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "the-benchmarker/graphql-benchmarks",
+      "status": "candidate",
+      "text": "It's all about GraphQL server benchmarking across many languages."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "the-benchmarker/web-frameworks",
+      "status": "candidate",
+      "text": "- `ruby`, all tools are made in `ruby`"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40018337,
+      "status": "candidate",
+      "text": "measuring"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40018264,
+      "status": "candidate",
+      "text": "mensuration"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39955896,
+      "status": "candidate",
+      "text": "measure"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30017820,
+      "status": "candidate",
+      "text": "measured"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30017814,
+      "status": "candidate",
+      "text": "gauging"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 18064,
+      "status": "candidate",
+      "text": "measure"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 5038,
+      "status": "candidate",
+      "text": "mensuration"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 29,
+      "status": "candidate",
+      "text": "measuring"
+    }
+  ],
+  "canonical_name": "measurement",
+  "concept_id": "measurement",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "the-benchmarker/graphql-benchmarks"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "the-benchmarker/web-frameworks"
+    }
+  ],
+  "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "measurement",
+      "sense_id": "measurement#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

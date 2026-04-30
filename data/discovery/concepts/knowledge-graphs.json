@@ -19,6 +19,18 @@
       "source_repo": "rajammanabrolu/Q-BERT",
       "status": "candidate-context",
       "text": "![Q*BERT](/images/qbertpixel.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pykeen/pykeen",
+      "status": "candidate-context",
+      "text": "\ud83e\udd16 A Python library for learning and evaluating knowledge graph embeddings "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pykeen/pykeen",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "rajammanabrolu/Q-BERT",
       "status": "candidate",
       "text": "![Q*BERT](/images/qbertpixel.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pykeen/pykeen",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_related_terms": [],
@@ -46,11 +64,17 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": null,
       "source_repo": "rajammanabrolu/Q-BERT"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "pykeen/pykeen"
     }
   ],
   "first_seen_at": "2026-04-18T10:43:38.551697+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,12 +1,17 @@
 {
   "component": "anchore/sbom-action/download-syft@17ae1740179002c89186b61233e0f892c3118b11",
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
-  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/release.yml",
       "source_repo": "caddyserver/caddy"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "sigstore/helm-sigstore"
     }
   ]
 }

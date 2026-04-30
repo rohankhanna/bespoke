@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "charset-conversion"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jawah/charset_normalizer",
+      "status": "candidate-context",
+      "text": "Truly universal encoding detector in pure Python."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jawah/charset_normalizer",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">Charset Detection, for Everyone \ud83d\udc4b</h1>"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jawah/charset_normalizer",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">Charset Detection, for Everyone \ud83d\udc4b</h1>"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "charset-conversion",
+  "concept_id": "charset-conversion",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "jawah/charset_normalizer"
+    }
+  ],
+  "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "charset-conversion",
+      "sense_id": "charset-conversion#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

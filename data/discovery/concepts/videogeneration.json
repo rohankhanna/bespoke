@@ -19,12 +19,48 @@
       "source_repo": "Wan-Video/Wan2.1",
       "status": "candidate-context",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ModelTC/GenRL",
+      "status": "candidate-context",
+      "text": "Reinforcement Learning Framework for Visual Generation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ModelTC/GenRL",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "leejet/stable-diffusion.cpp",
+      "status": "candidate-context",
+      "text": "Diffusion model(SD,Flux,Wan,Qwen Image,Z-Image,...) inference in pure C/C++"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "leejet/stable-diffusion.cpp",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_glosses": [
     {
       "source_kind": "source-snippet",
       "source_repo": "Wan-Video/Wan2.1",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ModelTC/GenRL",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "leejet/stable-diffusion.cpp",
       "status": "candidate",
       "text": "<p align=\"center\">"
     }
@@ -40,11 +76,23 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": null,
       "source_repo": "Wan-Video/Wan2.1"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "ModelTC/GenRL"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "leejet/stable-diffusion.cpp"
     }
   ],
   "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

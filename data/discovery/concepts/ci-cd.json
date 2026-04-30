@@ -166,6 +166,66 @@
       "source_repo": "earthly/earthly",
       "status": "candidate-context",
       "text": "<h1>Earthly</h1>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "peter-evans/create-pull-request",
+      "status": "candidate-context",
+      "text": "A GitHub action to create a pull request for changes to your repository in the actions workspace"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "peter-evans/create-pull-request",
+      "status": "candidate-context",
+      "text": "[![CI](https://github.com/peter-evans/create-pull-request/workflows/CI/badge.svg)](https://github.com/peter-evans/create-pull-request/actions?query=workflow%3ACI)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "openshift/origin",
+      "status": "candidate-context",
+      "text": "Conformance test suite for OpenShift"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "openshift/origin",
+      "status": "candidate-context",
+      "text": "Origin Kubernetes"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "vizzuhq/ipyvizzu-story",
+      "status": "candidate-context",
+      "text": "Build, present and share animated data stories in Jupyter Notebook and similar environments."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vizzuhq/ipyvizzu-story",
+      "status": "candidate-context",
+      "text": "CI-CD"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JS-DevTools/version-bump-prompt",
+      "status": "candidate-context",
+      "text": "Interactive CLI that bumps your version numbers and more"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JS-DevTools/version-bump-prompt",
+      "status": "candidate-context",
+      "text": "CI-CD"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "APIDevTools/swagger-parser",
+      "status": "candidate-context",
+      "text": "Swagger 2.0 and OpenAPI 3.0 parser/validator"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "APIDevTools/swagger-parser",
+      "status": "candidate-context",
+      "text": "CI-CD"
     }
   ],
   "candidate_glosses": [
@@ -246,6 +306,36 @@
       "source_repo": "earthly/earthly",
       "status": "candidate",
       "text": "<h1>Earthly</h1>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "peter-evans/create-pull-request",
+      "status": "candidate",
+      "text": "[![CI](https://github.com/peter-evans/create-pull-request/workflows/CI/badge.svg)](https://github.com/peter-evans/create-pull-request/actions?query=workflow%3ACI)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "openshift/origin",
+      "status": "candidate",
+      "text": "Origin Kubernetes"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vizzuhq/ipyvizzu-story",
+      "status": "candidate",
+      "text": "CI-CD"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JS-DevTools/version-bump-prompt",
+      "status": "candidate",
+      "text": "CI-CD"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "APIDevTools/swagger-parser",
+      "status": "candidate",
+      "text": "CI-CD"
     }
   ],
   "candidate_related_terms": [],
@@ -361,11 +451,53 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "earthly/earthly"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "gitleaks/gitleaks"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "peter-evans/create-pull-request"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "openshift/origin"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "axolotl-ai-cloud/axolotl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/cicd.yml",
+      "source_repo": "vizzuhq/ipyvizzu-story"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/CI-CD.yaml",
+      "source_repo": "JS-DevTools/version-bump-prompt"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/CI-CD.yaml",
+      "source_repo": "APIDevTools/swagger-parser"
     }
   ],
   "first_seen_at": "2026-04-19T01:08:57.644140+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

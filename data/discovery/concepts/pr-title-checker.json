@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "PR Title Checker"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "baerwang/openapi-rs",
+      "status": "candidate-context",
+      "text": "A powerful Rust library for OpenAPI 3.1,3.2 specification parsing, validation, and request handling."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "baerwang/openapi-rs",
+      "status": "candidate-context",
+      "text": "\"PR Title Checker\""
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "baerwang/openapi-rs",
+      "status": "candidate",
+      "text": "\"PR Title Checker\""
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 13501,
+      "status": "candidate",
+      "text": "praseodymium"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12887,
+      "status": "candidate",
+      "text": "ben"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12866,
+      "status": "candidate",
+      "text": "cello"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12866,
+      "status": "candidate",
+      "text": "clinometer"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12866,
+      "status": "candidate",
+      "text": "fica"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "PR Title Checker",
+  "concept_id": "pr-title-checker",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/pr-title-checker.yml",
+      "source_repo": "baerwang/openapi-rs"
+    }
+  ],
+  "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "PR Title Checker",
+      "sense_id": "pr-title-checker#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

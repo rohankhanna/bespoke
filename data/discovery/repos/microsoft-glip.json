@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T02:44:39.530078+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 25381
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Grounded Language-Image Pre-training",
+    "fork": false,
+    "full_name": "microsoft/GLIP",
+    "html_url": "https://github.com/microsoft/GLIP",
+    "language": "Python",
+    "pushed_at": "2024-01-24T04:56:27Z",
+    "stargazers_count": 2589,
+    "topics": [],
+    "updated_at": "2026-04-28T03:03:47Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

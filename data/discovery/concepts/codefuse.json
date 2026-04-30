@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "codefuse"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "codefuse-ai/codefuse-evaluation",
+      "status": "candidate-context",
+      "text": "Industrial-level evaluation benchmarks for Coding LLMs in the full life-cycle of AI native software developing.\u4f01\u4e1a\u7ea7\u4ee3\u7801\u5927\u6a21\u578b\u8bc4\u6d4b\u4f53\u7cfb,\u6301\u7eed\u5f00\u653e\u4e2d"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "codefuse-ai/codefuse-evaluation",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "codefuse-ai/codefuse-evaluation",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "codefuse",
+  "concept_id": "codefuse",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "codefuse-ai/codefuse-evaluation"
+    }
+  ],
+  "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "codefuse",
+      "sense_id": "codefuse#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

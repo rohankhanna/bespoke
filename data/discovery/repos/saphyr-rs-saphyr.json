@@ -1,0 +1,128 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "Swatinem/rust-cache@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "Swatinem/rust-cache@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "saphyr-rs/saphyr",
+      "target": "chyh1990/yaml-rust",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "saphyr-rs/saphyr",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "saphyr-rs/saphyr",
+      "target": "Swatinem/rust-cache@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "saphyr-rs/saphyr",
+      "target": "parsing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "saphyr-rs/saphyr",
+      "target": "rust",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "saphyr-rs/saphyr",
+      "target": "yaml",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T04:48:23.094998+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3700
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 1402
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 1196
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A set of crates dedicated to parsing YAML.",
+    "fork": false,
+    "full_name": "saphyr-rs/saphyr",
+    "html_url": "https://github.com/saphyr-rs/saphyr",
+    "language": "Rust",
+    "pushed_at": "2026-04-09T15:09:14Z",
+    "stargazers_count": 307,
+    "topics": [
+      "parsing",
+      "rust",
+      "yaml"
+    ],
+    "updated_at": "2026-04-28T21:23:58Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "chyh1990/yaml-rust",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "This repository is home to `saphyr-parser`, `saphyr` and soon-to-be",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "parsing"
+    },
+    {
+      "context_snippet": "This repository is home to `saphyr-parser`, `saphyr` and soon-to-be",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rust"
+    },
+    {
+      "context_snippet": "This repository is home to `saphyr-parser`, `saphyr` and soon-to-be",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "yaml"
+    }
+  ]
+}

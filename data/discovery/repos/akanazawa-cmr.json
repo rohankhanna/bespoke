@@ -1,0 +1,45 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "akanazawa/cmr",
+      "target": "chenyuntc/cmr",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T03:49:12.872013+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1812
+    },
+    {
+      "path": "requirements.txt",
+      "size": 342
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Project repo for Learning Category-Specific Mesh Reconstruction from Image Collections",
+    "fork": false,
+    "full_name": "akanazawa/cmr",
+    "html_url": "https://github.com/akanazawa/cmr",
+    "language": "Python",
+    "pushed_at": "2021-06-09T09:50:11Z",
+    "stargazers_count": 485,
+    "topics": [],
+    "updated_at": "2026-04-28T04:34:59Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "chenyuntc/cmr",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

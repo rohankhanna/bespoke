@@ -19,6 +19,18 @@
       "source_repo": "tinted-theming/base16-builder-go",
       "status": "candidate-context",
       "text": "A simple builder for base16 templates and schemes."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "RealFerdinandDeSaussure/base16-builder-python",
+      "status": "candidate-context",
+      "text": "A base16 colorscheme builder for Python"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "RealFerdinandDeSaussure/base16-builder-python",
+      "status": "candidate-context",
+      "text": ".. image:: https://travis-ci.org/InspectorMustache/base16-builder-python.svg?branch=master"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "tinted-theming/base16-builder-go",
       "status": "candidate",
       "text": "A simple builder for base16 templates and schemes."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "RealFerdinandDeSaussure/base16-builder-python",
+      "status": "candidate",
+      "text": ".. image:: https://travis-ci.org/InspectorMustache/base16-builder-python.svg?branch=master"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": null,
       "source_repo": "tinted-theming/base16-builder-go"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "RealFerdinandDeSaussure/base16-builder-python"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

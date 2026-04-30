@@ -1,0 +1,181 @@
+{
+  "components": [
+    {
+      "component": "Ilshidur/action-discord@0.3.2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/discord.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run-tests.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "google/vim-codefmt",
+      "target": "facebookincubator/ktfmt",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "google/vim-codefmt",
+      "target": "apple/swift-format",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "google/vim-codefmt",
+      "target": "gmarik/vundle.vim",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "google/vim-codefmt",
+      "target": "google/vroom",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/discord.yml",
+      "source_repo": "google/vim-codefmt",
+      "target": "Ilshidur/action-discord@0.3.2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/discord.yml",
+      "source_repo": "google/vim-codefmt",
+      "target": "notify-discord",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run-tests.yml",
+      "source_repo": "google/vim-codefmt",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/run-tests.yml",
+      "source_repo": "google/vim-codefmt",
+      "target": "run-tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "google/vim-codefmt",
+      "target": "clang-format",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "google/vim-codefmt",
+      "target": "formatter",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "google/vim-codefmt",
+      "target": "js-beautify",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T04:09:10.967178+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6925
+    },
+    {
+      "path": ".github/workflows/discord.yml",
+      "size": 388
+    },
+    {
+      "path": ".github/workflows/run-tests.yml",
+      "size": 1447
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Vim plugin for syntax-aware code formatting",
+    "fork": false,
+    "full_name": "google/vim-codefmt",
+    "html_url": "https://github.com/google/vim-codefmt",
+    "language": "Vim Script",
+    "pushed_at": "2024-08-31T16:39:54Z",
+    "stargazers_count": 1119,
+    "topics": [
+      "clang-format",
+      "formatter",
+      "js-beautify",
+      "vim"
+    ],
+    "updated_at": "2026-04-17T04:46:08Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "apple/swift-format",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "facebookincubator/ktfmt",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "gmarik/vundle.vim",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "google/vroom",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "notify-discord",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/discord.yml",
+      "term": "notify-discord"
+    },
+    {
+      "context_snippet": "run-tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/run-tests.yml",
+      "term": "run-tests"
+    },
+    {
+      "context_snippet": "[![Travis Build Status](https://travis-ci.org/google/vim-codefmt.svg?branch=master)](https://travis-ci.org/google/vim-codefmt)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "clang-format"
+    },
+    {
+      "context_snippet": "[![Travis Build Status](https://travis-ci.org/google/vim-codefmt.svg?branch=master)](https://travis-ci.org/google/vim-codefmt)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "formatter"
+    },
+    {
+      "context_snippet": "[![Travis Build Status](https://travis-ci.org/google/vim-codefmt.svg?branch=master)](https://travis-ci.org/google/vim-codefmt)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "js-beautify"
+    }
+  ]
+}

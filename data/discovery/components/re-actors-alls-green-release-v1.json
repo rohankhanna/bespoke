@@ -1,7 +1,7 @@
 {
   "component": "re-actors/alls-green@release/v1",
   "first_seen_at": "2026-04-18T09:23:47.800515+00:00",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -142,6 +142,21 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/ci-build.yml",
       "source_repo": "chef/bento"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "black-desk/djotfmt"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "open-telemetry/opentelemetry-python-contrib"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "watchexec/watchexec"
     }
   ]
 }

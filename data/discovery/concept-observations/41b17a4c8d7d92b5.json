@@ -84,7 +84,7 @@
   "normalized_form": "close-inactive-issues-and-prs",
   "observation_id": "41b17a4c8d7d92b5",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_at": "2026-04-30T00:37:16.824464+00:00",
   "observed_text": "Close inactive issues and PRs",
   "source_context_snippet": "Close inactive issues and PRs",
   "source_file": ".github/workflows/close_inactive_issues_pr.yml",

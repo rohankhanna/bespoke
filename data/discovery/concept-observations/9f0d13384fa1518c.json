@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": " A modular framework for few-shot visual segmentation using visual prompting techniques. Enables easy experimentation with different algorithms, backbones (SAM, MobileSAM, DinoV2), and pipeline components for finding and segmenting objects from just a few examples. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "daily"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "daily"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40011955,
+      "status": "candidate",
+      "text": "every day"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40008701,
+      "status": "candidate",
+      "text": "everyday"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40007090,
+      "status": "candidate",
+      "text": "day-to-day"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39997997,
+      "status": "candidate",
+      "text": "day by day"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39930919,
+      "status": "candidate",
+      "text": "regular"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "daily",
+      "sense_id": "daily#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 19048,
+      "status": "candidate",
+      "text": "regular"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 9035,
+      "status": "candidate",
+      "text": "everyday"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 4025,
+      "status": "candidate",
+      "text": "day-to-day"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 21,
+      "status": "candidate",
+      "text": "day by day"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 10,
+      "status": "candidate",
+      "text": "every day"
+    }
+  ],
+  "concept_id": "daily",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "daily",
+  "observation_id": "9f0d13384fa1518c",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-30T00:37:16.824464+00:00",
+  "observed_text": "daily",
+  "source_context_snippet": "daily",
+  "source_file": ".github/workflows/daily.yml",
+  "source_repo": "open-edge-platform/geti-instant-learn",
+  "source_repo_description": " A modular framework for few-shot visual segmentation using visual prompting techniques. Enables easy experimentation with different algorithms, backbones (SAM, MobileSAM, DinoV2), and pipeline components for finding and segmenting objects from just a few examples. "
+}

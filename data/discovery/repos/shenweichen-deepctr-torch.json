@@ -1,0 +1,246 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "codecov/codecov-action@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "shenweichen/DeepCTR-Torch",
+      "target": "shenweichen/deepctr",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "shenweichen/DeepCTR-Torch",
+      "target": "shenweichen/algonotes",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "shenweichen/DeepCTR-Torch",
+      "target": "shenweichen/deepmatch",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "shenweichen/DeepCTR-Torch",
+      "target": "shenweichen/graphembedding",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "shenweichen/DeepCTR-Torch",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "shenweichen/DeepCTR-Torch",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "shenweichen/DeepCTR-Torch",
+      "target": "codecov/codecov-action@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "shenweichen/DeepCTR-Torch",
+      "target": "ctr-models",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "shenweichen/DeepCTR-Torch",
+      "target": "deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "shenweichen/DeepCTR-Torch",
+      "target": "deepctr",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "shenweichen/DeepCTR-Torch",
+      "target": "deepctr-pytorch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "shenweichen/DeepCTR-Torch",
+      "target": "deepfm",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "shenweichen/DeepCTR-Torch",
+      "target": "deeprec",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "shenweichen/DeepCTR-Torch",
+      "target": "fibinet",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "shenweichen/DeepCTR-Torch",
+      "target": "torchrec",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "shenweichen/DeepCTR-Torch",
+      "target": "xdeepfm",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T01:03:58.026891+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 10401
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 2420
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "\u3010PyTorch\u3011Easy-to-use,Modular and Extendible package of deep-learning based CTR models.",
+    "fork": false,
+    "full_name": "shenweichen/DeepCTR-Torch",
+    "html_url": "https://github.com/shenweichen/DeepCTR-Torch",
+    "language": "Python",
+    "pushed_at": "2026-04-18T13:31:49Z",
+    "stargazers_count": 3423,
+    "topics": [
+      "ctr-models",
+      "deep-learning",
+      "deepctr",
+      "deepctr-pytorch",
+      "deepfm",
+      "deeprec",
+      "fibinet",
+      "torchrec",
+      "xdeepfm"
+    ],
+    "updated_at": "2026-04-26T13:53:17Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "shenweichen/algonotes",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "shenweichen/deepctr",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "shenweichen/deepmatch",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "shenweichen/graphembedding",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[![Python Versions](https://img.shields.io/pypi/pyversions/deepctr-torch.svg)](https://pypi.org/project/deepctr-torch)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ctr-models"
+    },
+    {
+      "context_snippet": "[![Python Versions](https://img.shields.io/pypi/pyversions/deepctr-torch.svg)](https://pypi.org/project/deepctr-torch)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-learning"
+    },
+    {
+      "context_snippet": "[![Python Versions](https://img.shields.io/pypi/pyversions/deepctr-torch.svg)](https://pypi.org/project/deepctr-torch)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deepctr"
+    },
+    {
+      "context_snippet": "[![Python Versions](https://img.shields.io/pypi/pyversions/deepctr-torch.svg)](https://pypi.org/project/deepctr-torch)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deepctr-pytorch"
+    },
+    {
+      "context_snippet": "[![Python Versions](https://img.shields.io/pypi/pyversions/deepctr-torch.svg)](https://pypi.org/project/deepctr-torch)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deepfm"
+    },
+    {
+      "context_snippet": "[![Python Versions](https://img.shields.io/pypi/pyversions/deepctr-torch.svg)](https://pypi.org/project/deepctr-torch)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deeprec"
+    },
+    {
+      "context_snippet": "[![Python Versions](https://img.shields.io/pypi/pyversions/deepctr-torch.svg)](https://pypi.org/project/deepctr-torch)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "fibinet"
+    },
+    {
+      "context_snippet": "[![Python Versions](https://img.shields.io/pypi/pyversions/deepctr-torch.svg)](https://pypi.org/project/deepctr-torch)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "torchrec"
+    },
+    {
+      "context_snippet": "[![Python Versions](https://img.shields.io/pypi/pyversions/deepctr-torch.svg)](https://pypi.org/project/deepctr-torch)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "xdeepfm"
+    }
+  ]
+}

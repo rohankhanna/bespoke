@@ -1,0 +1,143 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "cuiziteng/Aleth-NeRF",
+      "target": "cuiziteng/luminance-gs",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "cuiziteng/Aleth-NeRF",
+      "target": "kakaobrain/nerf-factory",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cuiziteng/Aleth-NeRF",
+      "target": "aaai2024",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cuiziteng/Aleth-NeRF",
+      "target": "computational-photography",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cuiziteng/Aleth-NeRF",
+      "target": "exposure-correction",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cuiziteng/Aleth-NeRF",
+      "target": "low-light-image-enhancement",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cuiziteng/Aleth-NeRF",
+      "target": "low-light-vision",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cuiziteng/Aleth-NeRF",
+      "target": "nerf",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T03:54:05.992684+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 11525
+    },
+    {
+      "path": "requirements.txt",
+      "size": 208
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "\ud83c\udf15 [AAAI 2024] Aleth-NeRF: Illumination Adaptive NeRF with Concealing Field Assumption (Low-light enhance / Exposure correction + NeRF)",
+    "fork": false,
+    "full_name": "cuiziteng/Aleth-NeRF",
+    "html_url": "https://github.com/cuiziteng/Aleth-NeRF",
+    "language": "Python",
+    "pushed_at": "2025-05-29T07:39:13Z",
+    "stargazers_count": 108,
+    "topics": [
+      "aaai2024",
+      "computational-photography",
+      "exposure-correction",
+      "low-light-image-enhancement",
+      "low-light-vision",
+      "nerf"
+    ],
+    "updated_at": "2026-04-07T07:10:38Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cuiziteng/luminance-gs",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "kakaobrain/nerf-factory",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[Ziteng Cui<sup>1,2</sup>](https://cuiziteng.github.io/),",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "aaai2024"
+    },
+    {
+      "context_snippet": "[Ziteng Cui<sup>1,2</sup>](https://cuiziteng.github.io/),",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "computational-photography"
+    },
+    {
+      "context_snippet": "[Ziteng Cui<sup>1,2</sup>](https://cuiziteng.github.io/),",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "exposure-correction"
+    },
+    {
+      "context_snippet": "[Ziteng Cui<sup>1,2</sup>](https://cuiziteng.github.io/),",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "low-light-image-enhancement"
+    },
+    {
+      "context_snippet": "[Ziteng Cui<sup>1,2</sup>](https://cuiziteng.github.io/),",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "low-light-vision"
+    },
+    {
+      "context_snippet": "[Ziteng Cui<sup>1,2</sup>](https://cuiziteng.github.io/),",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nerf"
+    }
+  ]
+}

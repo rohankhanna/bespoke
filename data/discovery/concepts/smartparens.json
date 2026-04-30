@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "smartparens"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Fuco1/smartparens",
+      "status": "candidate-context",
+      "text": "Minor mode for Emacs that deals with parens pairs and tries to be smart about it."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Fuco1/smartparens",
+      "status": "candidate-context",
+      "text": "[![Join the chat at https://gitter.im/smartparens/Lobby](https://badges.gitter.im/smartparens/Lobby.svg)](https://gitter.im/smartparens/Lobby?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Fuco1/smartparens",
+      "status": "candidate",
+      "text": "[![Join the chat at https://gitter.im/smartparens/Lobby](https://badges.gitter.im/smartparens/Lobby.svg)](https://gitter.im/smartparens/Lobby?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "smartparens",
+  "concept_id": "smartparens",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "Fuco1/smartparens"
+    }
+  ],
+  "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "smartparens",
+      "sense_id": "smartparens#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

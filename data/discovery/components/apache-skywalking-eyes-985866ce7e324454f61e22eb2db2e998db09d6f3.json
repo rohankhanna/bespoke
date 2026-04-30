@@ -1,12 +1,17 @@
 {
   "component": "apache/skywalking-eyes@985866ce7e324454f61e22eb2db2e998db09d6f3",
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/license.yml",
       "source_repo": "apache/incubator-seata-go"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/backend.yml",
+      "source_repo": "apache/seatunnel-web"
     }
   ]
 }

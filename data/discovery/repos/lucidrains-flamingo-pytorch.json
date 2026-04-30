@@ -1,0 +1,154 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-publish.yml"
+    },
+    {
+      "component": "actions/setup-python@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-publish.yml"
+    },
+    {
+      "component": "pypa/gh-action-pypi-publish@27b31702a0e7fc50959f5ad993c78deac1bdfc29",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-publish.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "lucidrains/flamingo-pytorch",
+      "target": "lucidrains/retro-pytorch",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-publish.yml",
+      "source_repo": "lucidrains/flamingo-pytorch",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-publish.yml",
+      "source_repo": "lucidrains/flamingo-pytorch",
+      "target": "actions/setup-python@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-publish.yml",
+      "source_repo": "lucidrains/flamingo-pytorch",
+      "target": "pypa/gh-action-pypi-publish@27b31702a0e7fc50959f5ad993c78deac1bdfc29",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lucidrains/flamingo-pytorch",
+      "target": "artificial-intelligence",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lucidrains/flamingo-pytorch",
+      "target": "attention-mechanism",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lucidrains/flamingo-pytorch",
+      "target": "deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lucidrains/flamingo-pytorch",
+      "target": "transformers",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lucidrains/flamingo-pytorch",
+      "target": "visual-question-answering",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T02:01:36.452805+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6195
+    },
+    {
+      "path": ".github/workflows/python-publish.yml",
+      "size": 1064
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Implementation of \ud83e\udda9 Flamingo, state-of-the-art few-shot visual question answering attention net out of Deepmind, in Pytorch",
+    "fork": false,
+    "full_name": "lucidrains/flamingo-pytorch",
+    "html_url": "https://github.com/lucidrains/flamingo-pytorch",
+    "language": "Python",
+    "pushed_at": "2022-10-18T21:44:45Z",
+    "stargazers_count": 1267,
+    "topics": [
+      "artificial-intelligence",
+      "attention-mechanism",
+      "deep-learning",
+      "transformers",
+      "visual-question-answering"
+    ],
+    "updated_at": "2026-04-28T21:54:40Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "lucidrains/retro-pytorch",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<img src=\"./flamingo.png\" width=\"500px\"></img>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "artificial-intelligence"
+    },
+    {
+      "context_snippet": "<img src=\"./flamingo.png\" width=\"500px\"></img>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "attention-mechanism"
+    },
+    {
+      "context_snippet": "<img src=\"./flamingo.png\" width=\"500px\"></img>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-learning"
+    },
+    {
+      "context_snippet": "<img src=\"./flamingo.png\" width=\"500px\"></img>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "transformers"
+    },
+    {
+      "context_snippet": "<img src=\"./flamingo.png\" width=\"500px\"></img>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "visual-question-answering"
+    }
+  ]
+}

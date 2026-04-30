@@ -1,0 +1,118 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "go-flutter-desktop/hover",
+      "target": "go-flutter-desktop/go-flutter",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "go-flutter-desktop/hover",
+      "target": "go-flutter-desktop/plugins",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "Dockerfile",
+      "source_repo": "go-flutter-desktop/hover",
+      "target": "mackyle/xar",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "go-flutter-desktop/hover",
+      "target": "flutter",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "go-flutter-desktop/hover",
+      "target": "go-flutter",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "go-flutter-desktop/hover",
+      "target": "tool",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T04:09:04.634196+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5567
+    },
+    {
+      "path": "Dockerfile",
+      "size": 5195
+    },
+    {
+      "path": "go.mod",
+      "size": 1173
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Hover helps developers to release Flutter applications on desktop.",
+    "fork": false,
+    "full_name": "go-flutter-desktop/hover",
+    "html_url": "https://github.com/go-flutter-desktop/hover",
+    "language": "Go",
+    "pushed_at": "2026-04-29T19:30:57Z",
+    "stargazers_count": 1001,
+    "topics": [
+      "cli",
+      "flutter",
+      "go-flutter",
+      "tool"
+    ],
+    "updated_at": "2026-04-28T11:35:53Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "go-flutter-desktop/go-flutter",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "go-flutter-desktop/plugins",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mackyle/xar",
+      "source_file": "Dockerfile"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Hover is a simple build tool to create [Flutter](https://flutter.dev) desktop applications.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "flutter"
+    },
+    {
+      "context_snippet": "Hover is a simple build tool to create [Flutter](https://flutter.dev) desktop applications.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "go-flutter"
+    },
+    {
+      "context_snippet": "Hover is a simple build tool to create [Flutter](https://flutter.dev) desktop applications.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tool"
+    }
+  ]
+}

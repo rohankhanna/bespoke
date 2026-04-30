@@ -91,6 +91,54 @@
       "source_repo": "meta-pytorch/torchft",
       "status": "candidate-context",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "DayBreak-u/yolo-face-with-landmark",
+      "status": "candidate-context",
+      "text": "yoloface\u5927\u793c\u5305  \u4f7f\u7528pytroch\u5b9e\u73b0\u7684\u57fa\u4e8eyolov3\u7684\u8f7b\u91cf\u7ea7\u4eba\u8138\u68c0\u6d4b\uff08\u5305\u542b\u5173\u952e\u70b9\uff09"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DayBreak-u/yolo-face-with-landmark",
+      "status": "candidate-context",
+      "text": "- \u6dfb\u52a0\u5173\u952e\u70b9\u68c0\u6d4b\u5206\u652f\uff0c\u4f7f\u7528wing loss"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Cadene/tensorflow-model-zoo.torch",
+      "status": "candidate-context",
+      "text": "InceptionV3, InceptionV4, Inception-Resnet pretrained models for Torch7 and PyTorch"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Cadene/tensorflow-model-zoo.torch",
+      "status": "candidate-context",
+      "text": "13/07/2017: Please use the new repo [pretrained-models.pytorch](https://github.com/Cadene/pretrained-models.pytorch) which includes inceptionv4 and inceptionresnetv2 with a nicer API."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pykeen/pykeen",
+      "status": "candidate-context",
+      "text": "\ud83e\udd16 A Python library for learning and evaluating knowledge graph embeddings "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pykeen/pykeen",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "MVIG-SJTU/AlphAction",
+      "status": "candidate-context",
+      "text": "Spatio-Temporal Action Localization System"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MVIG-SJTU/AlphAction",
+      "status": "candidate-context",
+      "text": "AlphAction aims to detect the actions of multiple persons in videos. It is"
     }
   ],
   "candidate_glosses": [
@@ -135,6 +183,30 @@
       "source_repo": "meta-pytorch/torchft",
       "status": "candidate",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DayBreak-u/yolo-face-with-landmark",
+      "status": "candidate",
+      "text": "- \u6dfb\u52a0\u5173\u952e\u70b9\u68c0\u6d4b\u5206\u652f\uff0c\u4f7f\u7528wing loss"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Cadene/tensorflow-model-zoo.torch",
+      "status": "candidate",
+      "text": "13/07/2017: Please use the new repo [pretrained-models.pytorch](https://github.com/Cadene/pretrained-models.pytorch) which includes inceptionv4 and inceptionresnetv2 with a nicer API."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pykeen/pykeen",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MVIG-SJTU/AlphAction",
+      "status": "candidate",
+      "text": "AlphAction aims to detect the actions of multiple persons in videos. It is"
     }
   ],
   "candidate_related_terms": [
@@ -274,11 +346,41 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "meta-pytorch/torchft"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "meta-pytorch/torchft"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "DayBreak-u/yolo-face-with-landmark"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "Cadene/tensorflow-model-zoo.torch"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "pykeen/pykeen"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "MVIG-SJTU/AlphAction"
     }
   ],
   "first_seen_at": "2026-04-18T11:41:43.530265+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

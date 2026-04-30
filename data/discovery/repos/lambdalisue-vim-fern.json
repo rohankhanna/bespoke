@@ -46,6 +46,13 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "lambdalisue/vim-fern",
+      "target": "lambdalisue/nerdfont.vim",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "lambdalisue/vim-fern",
       "target": "lambdalisue/glyph-palette.vim",
       "target_type": "repository"
     },
@@ -61,13 +68,6 @@
       "source_file": "README.md",
       "source_repo": "lambdalisue/vim-fern",
       "target": "lambdalisue/fern-git-status.vim",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "lambdalisue/vim-fern",
-      "target": "antoinemadec/fixcursorhold.nvim",
       "target_type": "repository"
     },
     {
@@ -204,7 +204,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-24T08:13:37.756946+00:00",
+  "fetched_at": "2026-04-30T04:09:47.839497+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -233,7 +233,7 @@
     "html_url": "https://github.com/lambdalisue/vim-fern",
     "language": "Vim Script",
     "pushed_at": "2026-03-20T06:55:57Z",
-    "stargazers_count": 1354,
+    "stargazers_count": 1355,
     "topics": [
       "async",
       "cross-platform",
@@ -248,14 +248,9 @@
       "vim",
       "windows"
     ],
-    "updated_at": "2026-04-13T21:27:29Z"
+    "updated_at": "2026-04-28T17:48:44Z"
   },
   "repo_links": [
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "antoinemadec/fixcursorhold.nvim",
-      "source_file": "README.md"
-    },
     {
       "edge_type": "explicit-github-link",
       "full_name": "lambdalisue/fern-git-status.vim",
@@ -269,6 +264,11 @@
     {
       "edge_type": "explicit-github-link",
       "full_name": "lambdalisue/glyph-palette.vim",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "lambdalisue/nerdfont.vim",
       "source_file": "README.md"
     }
   ],

@@ -1,0 +1,69 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "jcs090218/setup-emacs@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "emacs-eask/setup-eask@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "emacsorphanage/dart-mode",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "emacsorphanage/dart-mode",
+      "target": "jcs090218/setup-emacs@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "emacsorphanage/dart-mode",
+      "target": "emacs-eask/setup-eask@master",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-04-30T04:09:03.725760+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 410
+    },
+    {
+      "path": ".github/workflows/test.yml",
+      "size": 1145
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "An Emacs mode for the Dart language",
+    "fork": false,
+    "full_name": "emacsorphanage/dart-mode",
+    "html_url": "https://github.com/emacsorphanage/dart-mode",
+    "language": "Dart",
+    "pushed_at": "2025-12-03T19:54:40Z",
+    "stargazers_count": 22,
+    "topics": [],
+    "updated_at": "2025-12-04T20:03:47Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

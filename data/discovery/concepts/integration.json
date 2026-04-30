@@ -226,6 +226,90 @@
       "source_repo": "graphql-hive/graphql-inspector",
       "status": "candidate-context",
       "text": "Integration"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "m00qek/matcher_combinators.lua",
+      "status": "candidate-context",
+      "text": "Lua test library for asserting deeply nested data structures"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "m00qek/matcher_combinators.lua",
+      "status": "candidate-context",
+      "text": "Integration"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "uga-rosa/denippet.vim",
+      "status": "candidate-context",
+      "text": "A snippet plugin for Vim/Neovim, powered by TypeScript"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "uga-rosa/denippet.vim",
+      "status": "candidate-context",
+      "text": "integration"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "google-deepmind/dm-haiku",
+      "status": "candidate-context",
+      "text": "JAX-based neural network library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google-deepmind/dm-haiku",
+      "status": "candidate-context",
+      "text": "integration"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "microsoft/autogen",
+      "status": "candidate-context",
+      "text": "A programming framework for agentic AI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/autogen",
+      "status": "candidate-context",
+      "text": "Integration"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hecrj/coffee",
+      "status": "candidate-context",
+      "text": "An opinionated 2D game engine for Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hecrj/coffee",
+      "status": "candidate-context",
+      "text": "Integration"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "succinctlabs/sp1-cluster",
+      "status": "candidate-context",
+      "text": "The official multi-GPU proving service implementation for SP1, designed for the cloud and bare metal deployment."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "succinctlabs/sp1-cluster",
+      "status": "candidate-context",
+      "text": "Integration"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "coasys/ad4m",
+      "status": "candidate-context",
+      "text": "Agent-centric social network and interoperability dApp framework"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "coasys/ad4m",
+      "status": "candidate-context",
+      "text": "Integration"
     }
   ],
   "candidate_glosses": [
@@ -334,6 +418,48 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "graphql-hive/graphql-inspector",
+      "status": "candidate",
+      "text": "Integration"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "m00qek/matcher_combinators.lua",
+      "status": "candidate",
+      "text": "Integration"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "uga-rosa/denippet.vim",
+      "status": "candidate",
+      "text": "integration"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google-deepmind/dm-haiku",
+      "status": "candidate",
+      "text": "integration"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/autogen",
+      "status": "candidate",
+      "text": "Integration"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hecrj/coffee",
+      "status": "candidate",
+      "text": "Integration"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "succinctlabs/sp1-cluster",
+      "status": "candidate",
+      "text": "Integration"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "coasys/ad4m",
       "status": "candidate",
       "text": "Integration"
     }
@@ -521,11 +647,65 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": ".github/workflows/actions.yml",
       "source_repo": "graphql-hive/graphql-inspector"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/integration.yml",
+      "source_repo": "m00qek/matcher_combinators.lua"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/integration.yml",
+      "source_repo": "rust-lang/rustfmt"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/integration.yml",
+      "source_repo": "uga-rosa/denippet.vim"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/integration.yml",
+      "source_repo": "google-deepmind/dm-haiku"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/integration.yml",
+      "source_repo": "microsoft/autogen"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/integration.yml",
+      "source_repo": "hecrj/coffee"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/integration.yml",
+      "source_repo": "succinctlabs/sp1-cluster"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/integration_cli.yml.disabled",
+      "source_repo": "coasys/ad4m"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/integration_js.yml.disabled",
+      "source_repo": "coasys/ad4m"
     }
   ],
   "first_seen_at": "2026-04-19T17:42:30.117329+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

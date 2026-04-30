@@ -55,6 +55,18 @@
       "source_repo": "cython/cython",
       "status": "candidate-context",
       "text": "Welcome to Cython!"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "progval/pythonvm-rust",
+      "status": "candidate-context",
+      "text": "An incomplete stackless interpreter of Python bytecode, written in Rust. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "progval/pythonvm-rust",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://travis-ci.org/ProgVal/pythonvm-rust.svg?branch=master)](https://travis-ci.org/ProgVal/pythonvm-rust)"
     }
   ],
   "candidate_glosses": [
@@ -81,6 +93,12 @@
       "source_repo": "cython/cython",
       "status": "candidate",
       "text": "Welcome to Cython!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "progval/pythonvm-rust",
+      "status": "candidate",
+      "text": "[![Build Status](https://travis-ci.org/ProgVal/pythonvm-rust.svg?branch=master)](https://travis-ci.org/ProgVal/pythonvm-rust)"
     }
   ],
   "candidate_related_terms": [
@@ -141,11 +159,17 @@
       "observed_at": "2026-04-24T12:33:41.350224+00:00",
       "source_file": null,
       "source_repo": "cython/cython"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "progval/pythonvm-rust"
     }
   ],
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

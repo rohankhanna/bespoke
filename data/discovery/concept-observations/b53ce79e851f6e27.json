@@ -1,0 +1,115 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Create a GitHub/GitLab/etc. release using a project's commit messages and metadata. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "> Create a GitHub/GitLab/etc. release using your project's Git metadata."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "> Create a GitHub/GitLab/etc. release using your project's Git metadata."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30045110,
+      "status": "candidate",
+      "text": "chronicle"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30040659,
+      "status": "candidate",
+      "text": "story"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30005170,
+      "status": "candidate",
+      "text": "account"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20047427,
+      "status": "candidate",
+      "text": "historiography"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20047134,
+      "status": "candidate",
+      "text": "historical"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "history",
+      "sense_id": "history#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 26033,
+      "status": "candidate",
+      "text": "chronicle"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 21055,
+      "status": "candidate",
+      "text": "account"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 11046,
+      "status": "candidate",
+      "text": "story"
+    }
+  ],
+  "concept_id": "history",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "history",
+  "observation_id": "b53ce79e851f6e27",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T00:37:16.824464+00:00",
+  "observed_text": "history",
+  "source_context_snippet": "> Create a GitHub/GitLab/etc. release using your project's Git metadata.",
+  "source_file": null,
+  "source_repo": "conventional-changelog/releaser-tools",
+  "source_repo_description": "Create a GitHub/GitLab/etc. release using a project's commit messages and metadata. "
+}

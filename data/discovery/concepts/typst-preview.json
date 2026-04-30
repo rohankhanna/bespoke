@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "typst-preview"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Enter-tainer/typst-preview",
+      "status": "candidate-context",
+      "text": "[DEPRECATED] Use tinymist instead"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Enter-tainer/typst-preview",
+      "status": "candidate-context",
+      "text": "The contents of this repository have been consolidated into [tinymist](https://github.com/Myriad-Dreamin/tinymist). It is an all-in-one language server for typst."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Enter-tainer/typst-preview",
+      "status": "candidate",
+      "text": "The contents of this repository have been consolidated into [tinymist](https://github.com/Myriad-Dreamin/tinymist). It is an all-in-one language server for typst."
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "typst-preview",
+  "concept_id": "typst-preview",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "Enter-tainer/typst-preview"
+    }
+  ],
+  "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "typst-preview",
+      "sense_id": "typst-preview#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

@@ -286,28 +286,21 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "typstyle-rs/typstyle",
-      "target": "myriad-dreamin/tinymist",
+      "target": "typstyle-rs/typstyle-tampermonkey",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "typstyle-rs/typstyle",
-      "target": "typstyle-rs/pre-commit-typstyle",
+      "target": "typstyle-rs/typstyle-action",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
-      "source_file": "README.md",
+      "source_file": "Cargo.toml",
       "source_repo": "typstyle-rs/typstyle",
-      "target": "jeffa5/typstfmt",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "typstyle-rs/typstyle",
-      "target": "marwes/pretty.rs",
+      "target": "typstyle-rs/prettyless",
       "target_type": "repository"
     },
     {
@@ -682,7 +675,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-24T13:05:27.024011+00:00",
+  "fetched_at": "2026-04-30T02:59:01.973667+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -735,34 +728,29 @@
     "html_url": "https://github.com/typstyle-rs/typstyle",
     "language": "Rust",
     "pushed_at": "2026-02-20T13:54:47Z",
-    "stargazers_count": 805,
+    "stargazers_count": 806,
     "topics": [
       "formatter",
       "typst",
       "typstfmt"
     ],
-    "updated_at": "2026-04-24T04:51:19Z"
+    "updated_at": "2026-04-25T22:36:51Z"
   },
   "repo_links": [
     {
       "edge_type": "explicit-github-link",
-      "full_name": "jeffa5/typstfmt",
+      "full_name": "typstyle-rs/typstyle-action",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "marwes/pretty.rs",
+      "full_name": "typstyle-rs/typstyle-tampermonkey",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "myriad-dreamin/tinymist",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "typstyle-rs/pre-commit-typstyle",
-      "source_file": "README.md"
+      "full_name": "typstyle-rs/prettyless",
+      "source_file": "Cargo.toml"
     }
   ],
   "terms": [

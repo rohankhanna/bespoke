@@ -31,6 +31,18 @@
       "source_repo": "tower-rs/tower",
       "status": "candidate-context",
       "text": "Tower is a library of modular and reusable components for building robust"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ebkalderon/tower-lsp",
+      "status": "candidate-context",
+      "text": "Language Server Protocol implementation written in Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ebkalderon/tower-lsp",
+      "status": "candidate-context",
+      "text": "[![Build Status][build-badge]][build-url]"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +57,12 @@
       "source_repo": "tower-rs/tower",
       "status": "candidate",
       "text": "Tower is a library of modular and reusable components for building robust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ebkalderon/tower-lsp",
+      "status": "candidate",
+      "text": "[![Build Status][build-badge]][build-url]"
     }
   ],
   "candidate_related_terms": [
@@ -129,11 +147,17 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "tower-rs/tower"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "ebkalderon/tower-lsp"
     }
   ],
   "first_seen_at": "2026-04-24T12:33:41.350224+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

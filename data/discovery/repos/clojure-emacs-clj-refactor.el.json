@@ -1,0 +1,208 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "jcs090218/setup-emacs@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "emacs-eldev/setup-eldev@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "clojure-emacs/clj-refactor.el",
+      "target": "darwinawardwinner/ido-completing-read-plus",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "clojure-emacs/clj-refactor.el",
+      "target": "clojure/tools.analyzer",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "clojure-emacs/clj-refactor.el",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "clojure-emacs/clj-refactor.el",
+      "target": "jcs090218/setup-emacs@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "clojure-emacs/clj-refactor.el",
+      "target": "emacs-eldev/setup-eldev@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "clojure-emacs/clj-refactor.el",
+      "target": "cider",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "clojure-emacs/clj-refactor.el",
+      "target": "clojure",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "clojure-emacs/clj-refactor.el",
+      "target": "emacs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "clojure-emacs/clj-refactor.el",
+      "target": "emacs-lisp",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "clojure-emacs/clj-refactor.el",
+      "target": "emacs-mode",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "clojure-emacs/clj-refactor.el",
+      "target": "nrepl",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "clojure-emacs/clj-refactor.el",
+      "target": "refactoring-functions",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "clojure-emacs/clj-refactor.el",
+      "target": "refactorings",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T04:08:27.574242+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7043
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 981
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A CIDER extension that provides powerful commands for refactoring Clojure code.",
+    "fork": false,
+    "full_name": "clojure-emacs/clj-refactor.el",
+    "html_url": "https://github.com/clojure-emacs/clj-refactor.el",
+    "language": "Emacs Lisp",
+    "pushed_at": "2026-04-03T08:30:31Z",
+    "stargazers_count": 784,
+    "topics": [
+      "cider",
+      "clojure",
+      "emacs",
+      "emacs-lisp",
+      "emacs-mode",
+      "nrepl",
+      "refactoring-functions",
+      "refactorings"
+    ],
+    "updated_at": "2026-04-07T16:51:02Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "clojure/tools.analyzer",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "darwinawardwinner/ido-completing-read-plus",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[![MELPA](http://melpa.org/packages/clj-refactor-badge.svg)](http://melpa.org/#/clj-refactor)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cider"
+    },
+    {
+      "context_snippet": "[![MELPA](http://melpa.org/packages/clj-refactor-badge.svg)](http://melpa.org/#/clj-refactor)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "clojure"
+    },
+    {
+      "context_snippet": "[![MELPA](http://melpa.org/packages/clj-refactor-badge.svg)](http://melpa.org/#/clj-refactor)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "emacs"
+    },
+    {
+      "context_snippet": "[![MELPA](http://melpa.org/packages/clj-refactor-badge.svg)](http://melpa.org/#/clj-refactor)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "emacs-lisp"
+    },
+    {
+      "context_snippet": "[![MELPA](http://melpa.org/packages/clj-refactor-badge.svg)](http://melpa.org/#/clj-refactor)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "emacs-mode"
+    },
+    {
+      "context_snippet": "[![MELPA](http://melpa.org/packages/clj-refactor-badge.svg)](http://melpa.org/#/clj-refactor)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nrepl"
+    },
+    {
+      "context_snippet": "[![MELPA](http://melpa.org/packages/clj-refactor-badge.svg)](http://melpa.org/#/clj-refactor)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "refactoring-functions"
+    },
+    {
+      "context_snippet": "[![MELPA](http://melpa.org/packages/clj-refactor-badge.svg)](http://melpa.org/#/clj-refactor)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "refactorings"
+    }
+  ]
+}

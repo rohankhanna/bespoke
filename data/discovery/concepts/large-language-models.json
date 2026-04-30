@@ -1015,6 +1015,186 @@
       "source_repo": "baichuan-inc/Baichuan2",
       "status": "candidate-context",
       "text": "<!-- markdownlint-disable first-line-h1 -->"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "microsoft/monitors4codegen",
+      "status": "candidate-context",
+      "text": "Code and Data artifact for NeurIPS 2023 paper - \"Monitor-Guided Decoding of Code LMs with Static Analysis of Repository Context\". `multispy` is a lsp client library in Python intended to be used to build applications around language servers."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/monitors4codegen",
+      "status": "candidate-context",
+      "text": "Alternative title: Guiding Language Models of Code with Global Context using Monitors"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "OpenBMB/VisCPM",
+      "status": "candidate-context",
+      "text": "[ICLR'24 spotlight] Chinese and English Multimodal Large Model Series (Chat and Paint) | \u57fa\u4e8eCPM\u57fa\u7840\u6a21\u578b\u7684\u4e2d\u82f1\u53cc\u8bed\u591a\u6a21\u6001\u5927\u6a21\u578b\u7cfb\u5217"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "OpenBMB/VisCPM",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "NVlabs/Long-RL",
+      "status": "candidate-context",
+      "text": "Long-RL: Scaling RL to Long Sequences (NeurIPS 2025)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NVlabs/Long-RL",
+      "status": "candidate-context",
+      "text": "<p align=\"center\" width=\"100%\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "NVlabs/OmniVinci",
+      "status": "candidate-context",
+      "text": "OmniVinci is an omni-modal LLM for joint understanding of vision, audio, and language."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NVlabs/OmniVinci",
+      "status": "candidate-context",
+      "text": "<p align=\"center\" width=\"100%\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "PKU-YuanGroup/Video-Bench",
+      "status": "candidate-context",
+      "text": "A Comprehensive Benchmark and Toolkit for Evaluating Video-based Large Language Models!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PKU-YuanGroup/Video-Bench",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "OpenGVLab/OmniQuant",
+      "status": "candidate-context",
+      "text": "[ICLR2024 spotlight] OmniQuant is a simple and powerful quantization technique for LLMs. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "OpenGVLab/OmniQuant",
+      "status": "candidate-context",
+      "text": "<h5 align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "OpenGVLab/Multi-Modality-Arena",
+      "status": "candidate-context",
+      "text": "Chatbot Arena meets multi-modality! Multi-Modality Arena allows you to benchmark vision-language models side-by-side while providing images as inputs. Supports MiniGPT-4, LLaMA-Adapter V2, LLaVA, BLIP-2, and many more!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "OpenGVLab/Multi-Modality-Arena",
+      "status": "candidate-context",
+      "text": "<p align=\"center\"><img src=\"./CVLAB/style/img/Opengvlab_LOGO.svg\" width=\"400\"></p>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "YuanGongND/ltu",
+      "status": "candidate-context",
+      "text": "Code, Dataset, and Pretrained Models for Audio and Speech Large Language Model \"Listen, Think, and Understand\"."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "YuanGongND/ltu",
+      "status": "candidate-context",
+      "text": "- [Introduction](#introduction)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "salesforce/CodeT5",
+      "status": "candidate-context",
+      "text": "Home of CodeT5: Open Code LLMs for Code Understanding and Generation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "salesforce/CodeT5",
+      "status": "candidate-context",
+      "text": "Official research release for **CodeT5** and **CodeT5+** models for **Code Understanding and Generation** from Salesforce Research, which are introduced by the following papers:"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "reasoning-machines/CoCoGen",
+      "status": "candidate-context",
+      "text": "Language Models of Code are Few-Shot Commonsense Learners (EMNLP 2022)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "reasoning-machines/CoCoGen",
+      "status": "candidate-context",
+      "text": "The official repository for [\"Language Models of Code are Few-Shot Commonsense Learners\"](https://arxiv.org/abs/2210.07128) (Madaan et al., EMNLP'2022)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "microsoft/multilspy",
+      "status": "candidate-context",
+      "text": "multilspy is a lsp client library in Python intended to be used to build applications around language servers."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/multilspy",
+      "status": "candidate-context",
+      "text": "[![PyPI - Version](https://img.shields.io/pypi/v/multilspy)](https://pypi.org/project/multilspy/)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "danielrosehill/AI-Dev-Prompts-Example",
+      "status": "candidate-context",
+      "text": "Examples of AI prompts for code generation (Python GUI) and some notes on emerging \"best practices\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "danielrosehill/AI-Dev-Prompts-Example",
+      "status": "candidate-context",
+      "text": "*13-Mar-25*"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "tianyi-lab/HallusionBench",
+      "status": "candidate-context",
+      "text": "[CVPR'24] HallusionBench: You See What You Think? Or You Think What You See? An Image-Context Reasoning Benchmark Challenging for GPT-4V(ision), LLaVA-1.5, and Other Multi-modality Models"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tianyi-lab/HallusionBench",
+      "status": "candidate-context",
+      "text": "You See What You Think? Or You Think What You See? An Image-Context Reasoning Benchmark Challenging for GPT-4V(ision), LLaVA-1.5, and Other Multi-modality Models"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "X-PLUG/mPLUG-Owl",
+      "status": "candidate-context",
+      "text": "mPLUG-Owl: The Powerful Multi-modal Large Language Model  Family"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "X-PLUG/mPLUG-Owl",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sunnweiwei/RankGPT",
+      "status": "candidate-context",
+      "text": "Is ChatGPT Good at Search? LLMs as Re-Ranking Agent [EMNLP 2023 Outstanding Paper Award]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sunnweiwei/RankGPT",
+      "status": "candidate-context",
+      "text": "[![Generic badge](https://img.shields.io/badge/arXiv-2304.09542-red.svg)](https://arxiv.org/abs/2304.09542)"
     }
   ],
   "candidate_glosses": [
@@ -1521,6 +1701,96 @@
       "source_repo": "baichuan-inc/Baichuan2",
       "status": "candidate",
       "text": "<!-- markdownlint-disable first-line-h1 -->"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/monitors4codegen",
+      "status": "candidate",
+      "text": "Alternative title: Guiding Language Models of Code with Global Context using Monitors"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "OpenBMB/VisCPM",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NVlabs/Long-RL",
+      "status": "candidate",
+      "text": "<p align=\"center\" width=\"100%\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NVlabs/OmniVinci",
+      "status": "candidate",
+      "text": "<p align=\"center\" width=\"100%\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PKU-YuanGroup/Video-Bench",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "OpenGVLab/OmniQuant",
+      "status": "candidate",
+      "text": "<h5 align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "OpenGVLab/Multi-Modality-Arena",
+      "status": "candidate",
+      "text": "<p align=\"center\"><img src=\"./CVLAB/style/img/Opengvlab_LOGO.svg\" width=\"400\"></p>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "YuanGongND/ltu",
+      "status": "candidate",
+      "text": "- [Introduction](#introduction)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "salesforce/CodeT5",
+      "status": "candidate",
+      "text": "Official research release for **CodeT5** and **CodeT5+** models for **Code Understanding and Generation** from Salesforce Research, which are introduced by the following papers:"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "reasoning-machines/CoCoGen",
+      "status": "candidate",
+      "text": "The official repository for [\"Language Models of Code are Few-Shot Commonsense Learners\"](https://arxiv.org/abs/2210.07128) (Madaan et al., EMNLP'2022)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/multilspy",
+      "status": "candidate",
+      "text": "[![PyPI - Version](https://img.shields.io/pypi/v/multilspy)](https://pypi.org/project/multilspy/)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "danielrosehill/AI-Dev-Prompts-Example",
+      "status": "candidate",
+      "text": "*13-Mar-25*"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tianyi-lab/HallusionBench",
+      "status": "candidate",
+      "text": "You See What You Think? Or You Think What You See? An Image-Context Reasoning Benchmark Challenging for GPT-4V(ision), LLaVA-1.5, and Other Multi-modality Models"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "X-PLUG/mPLUG-Owl",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sunnweiwei/RankGPT",
+      "status": "candidate",
+      "text": "[![Generic badge](https://img.shields.io/badge/arXiv-2304.09542-red.svg)](https://arxiv.org/abs/2304.09542)"
     }
   ],
   "candidate_related_terms": [],
@@ -2308,11 +2578,203 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "baichuan-inc/Baichuan2"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "microsoft/monitors4codegen"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "mlc-ai/web-llm-assistant"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "OpenBMB/VisCPM"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "echo-yiyiyi/cube"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "ggml-org/ggml"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "NVlabs/Long-RL"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "NVlabs/OmniVinci"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "PKU-YuanGroup/Video-Bench"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "OpenGVLab/OmniQuant"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "OpenGVLab/Multi-Modality-Arena"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "MME-Benchmarks/Video-MME"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "Lightning-AI/litgpt"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "fla-org/flash-linear-attention"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "QwenLM/Qwen"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "HKUDS/VideoRAG"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "declare-lab/LLM-PuzzleTest"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "hiyouga/LlamaFactory"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "OpenMOSS/MOSS"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "YuanGongND/ltu"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "salesforce/CodeT5"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "reasoning-machines/pal"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "reasoning-machines/prompt-lib"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "reasoning-machines/CoCoGen"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "langflow-ai/langflow"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "AutoGPTQ/AutoGPTQ"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "zai-org/ChatGLM2-6B"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "JIA-Lab-research/LongLoRA"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "microsoft/multilspy"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "danielrosehill/AI-Dev-Prompts-Example"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "tianyi-lab/HallusionBench"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "X-PLUG/mPLUG-Owl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "sunnweiwei/RankGPT"
     }
   ],
   "first_seen_at": "2026-04-18T11:57:36.597358+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

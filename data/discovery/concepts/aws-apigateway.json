@@ -31,6 +31,18 @@
       "source_repo": "dherault/serverless-offline",
       "status": "candidate-context",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "architect/architect",
+      "status": "candidate-context",
+      "text": "The simplest, most powerful way to build a functional web app (fwa)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "architect/architect",
+      "status": "candidate-context",
+      "text": "@architect/architect \u2014 Create, deploy, and maintain next-generation AWS cloud function-based serverless infrastructure with full local, offline workflows, and more."
     }
   ],
   "candidate_glosses": [
@@ -45,6 +57,12 @@
       "source_repo": "dherault/serverless-offline",
       "status": "candidate",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "architect/architect",
+      "status": "candidate",
+      "text": "@architect/architect \u2014 Create, deploy, and maintain next-generation AWS cloud function-based serverless infrastructure with full local, offline workflows, and more."
     }
   ],
   "candidate_related_terms": [],
@@ -64,11 +82,17 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": null,
       "source_repo": "dherault/serverless-offline"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "architect/architect"
     }
   ],
   "first_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

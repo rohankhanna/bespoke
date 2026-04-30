@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T02:46:24.911225+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3802
+    },
+    {
+      "path": "Dockerfile",
+      "size": 1580
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "C libraries for NIFTI support",
+    "fork": false,
+    "full_name": "NIFTI-Imaging/nifti_clib",
+    "html_url": "https://github.com/NIFTI-Imaging/nifti_clib",
+    "language": "C",
+    "pushed_at": "2024-12-20T19:35:31Z",
+    "stargazers_count": 46,
+    "topics": [],
+    "updated_at": "2026-04-24T16:19:00Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

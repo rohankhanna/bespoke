@@ -1,0 +1,12 @@
+{
+  "component": "rtbhouse-platform-engineering/renovate-scanner/.github/actions/run-renovate@261480b2d6b5bb71fc7276c976a8e202f124de76",
+  "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/automated-dependency-updates.yaml",
+      "source_repo": "RTBHOUSE/tmux-picker"
+    }
+  ]
+}

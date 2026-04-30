@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "100% POSIX and glibc compatible globbing library for C, Zig, and Rust that is faster and supports all the modern globbing formats and gitignore"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "100% POSIX and glibc compatible globbing library for C, Zig, and Rust that is **faster** and supports **all the modern globbing formats** and gitignore"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "100% POSIX and glibc compatible globbing library for C, Zig, and Rust that is **faster** and supports **all the modern globbing formats** and gitignore"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39963080,
+      "status": "candidate",
+      "text": "lump"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39962525,
+      "status": "candidate",
+      "text": "clump"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39961434,
+      "status": "candidate",
+      "text": "clod"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39935145,
+      "status": "candidate",
+      "text": "ball"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39899148,
+      "status": "candidate",
+      "text": "chunk"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "glob",
+      "sense_id": "glob#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 27041,
+      "status": "candidate",
+      "text": "clump"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 13038,
+      "status": "candidate",
+      "text": "clod"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 10048,
+      "status": "candidate",
+      "text": "lump"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 9064,
+      "status": "candidate",
+      "text": "ball"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": null,
+      "status": "candidate",
+      "text": "chunk"
+    }
+  ],
+  "concept_id": "glob",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "glob",
+  "observation_id": "fcfc89edf39a4f44",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T00:37:16.824464+00:00",
+  "observed_text": "glob",
+  "source_context_snippet": "100% POSIX and glibc compatible globbing library for C, Zig, and Rust that is **faster** and supports **all the modern globbing formats** and gitignore",
+  "source_file": null,
+  "source_repo": "dmtrKovalenko/zlob",
+  "source_repo_description": "100% POSIX and glibc compatible globbing library for C, Zig, and Rust that is faster and supports all the modern globbing formats and gitignore"
+}

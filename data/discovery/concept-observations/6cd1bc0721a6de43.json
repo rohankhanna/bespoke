@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "\ud83d\udd10CNCF Security Technical Advisory Group -- secure access, policy control, privacy, auditing, explainability and more!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "![Cloud Native Security Logo](/community/resources/design/logo/cloud-native-security-horizontal-darkmodesafe.svg)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "![Cloud Native Security Logo](/community/resources/design/logo/cloud-native-security-horizontal-darkmodesafe.svg)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40029257,
+      "status": "candidate",
+      "text": "safe"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39967915,
+      "status": "candidate",
+      "text": "guard"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39948133,
+      "status": "candidate",
+      "text": "refuge"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39872943,
+      "status": "candidate",
+      "text": "bingle"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39799795,
+      "status": "candidate",
+      "text": "condom"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "safety",
+      "sense_id": "safety#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 31037,
+      "status": "candidate",
+      "text": "refuge"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 13051,
+      "status": "candidate",
+      "text": "prophylactic"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 6017,
+      "status": "candidate",
+      "text": "bingle"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 5055,
+      "status": "candidate",
+      "text": "rubber"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 5044,
+      "status": "candidate",
+      "text": "condom"
+    }
+  ],
+  "concept_id": "safety",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "safety",
+  "observation_id": "6cd1bc0721a6de43",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T00:37:16.824464+00:00",
+  "observed_text": "safety",
+  "source_context_snippet": "![Cloud Native Security Logo](/community/resources/design/logo/cloud-native-security-horizontal-darkmodesafe.svg)",
+  "source_file": null,
+  "source_repo": "cncf/tag-security",
+  "source_repo_description": "\ud83d\udd10CNCF Security Technical Advisory Group -- secure access, policy control, privacy, auditing, explainability and more!"
+}

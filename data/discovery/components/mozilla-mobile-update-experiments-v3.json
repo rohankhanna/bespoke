@@ -1,0 +1,17 @@
+{
+  "component": "mozilla-mobile/update-experiments@v3",
+  "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/fenix-update-nimbus-experiments.yml",
+      "source_repo": "mozilla-mobile/firefox-android"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/focus-update-nimbus-experiments.yml",
+      "source_repo": "mozilla-mobile/firefox-android"
+    }
+  ]
+}

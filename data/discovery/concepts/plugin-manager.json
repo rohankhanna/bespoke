@@ -139,6 +139,54 @@
       "source_repo": "zsh-users/antigen",
       "status": "candidate-context",
       "text": "The plugin manager for zsh."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kristijanhusak/vim-packager",
+      "status": "candidate-context",
+      "text": "Vim plugin manager that utilizes \"jobs\" and \"pack\" features."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kristijanhusak/vim-packager",
+      "status": "candidate-context",
+      "text": "![preview-gif](https://i.imgur.com/KOTn843.gif)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "k-takata/minpac",
+      "status": "candidate-context",
+      "text": "A minimal package manager for Vim 8+ (and Neovim)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "k-takata/minpac",
+      "status": "candidate-context",
+      "text": "[![Build status](https://github.com/k-takata/minpac/workflows/CI/badge.svg)](https://github.com/k-takata/minpac/actions)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lumen-oss/rocks.nvim",
+      "status": "candidate-context",
+      "text": "\ud83c\udf12 Neovim plugin management inspired by Cargo, powered by luarocks"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lumen-oss/rocks.nvim",
+      "status": "candidate-context",
+      "text": "<!-- markdownlint-disable -->"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "psmux/Tmux-Plugin-Panel",
+      "status": "candidate-context",
+      "text": "A full-fledged TUI plugin manager for tmux \u2014 the modern alternative to TPM. Browse, install, remove, update plugins and themes from a beautiful terminal interface."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "psmux/Tmux-Plugin-Panel",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -207,6 +255,30 @@
       "source_repo": "zsh-users/antigen",
       "status": "candidate",
       "text": "The plugin manager for zsh."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kristijanhusak/vim-packager",
+      "status": "candidate",
+      "text": "![preview-gif](https://i.imgur.com/KOTn843.gif)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "k-takata/minpac",
+      "status": "candidate",
+      "text": "[![Build status](https://github.com/k-takata/minpac/workflows/CI/badge.svg)](https://github.com/k-takata/minpac/actions)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lumen-oss/rocks.nvim",
+      "status": "candidate",
+      "text": "<!-- markdownlint-disable -->"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "psmux/Tmux-Plugin-Panel",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_related_terms": [],
@@ -286,11 +358,35 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": null,
       "source_repo": "zsh-users/antigen"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "kristijanhusak/vim-packager"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "k-takata/minpac"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "lumen-oss/rocks.nvim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "psmux/Tmux-Plugin-Panel"
     }
   ],
   "first_seen_at": "2026-04-18T11:56:18.570627+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

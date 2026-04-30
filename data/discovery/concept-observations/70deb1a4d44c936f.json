@@ -84,7 +84,7 @@
   "normalized_form": "automated-tests",
   "observation_id": "70deb1a4d44c936f",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-04-19T02:42:33.990002+00:00",
+  "observed_at": "2026-04-30T00:37:16.824464+00:00",
   "observed_text": "Automated tests",
   "source_context_snippet": "Automated tests",
   "source_file": ".github/workflows/test.yml",

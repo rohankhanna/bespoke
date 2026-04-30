@@ -68,6 +68,18 @@
       "source_repo": "tile-ai/tilelang",
       "status": "candidate-context",
       "text": "Dist"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "autokitteh/kittehub",
+      "status": "candidate-context",
+      "text": "AutoKitteh projects: ready to deploy with a few clicks"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "autokitteh/kittehub",
+      "status": "candidate-context",
+      "text": "Dist"
     }
   ],
   "candidate_glosses": [
@@ -98,6 +110,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "tile-ai/tilelang",
+      "status": "candidate",
+      "text": "Dist"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "autokitteh/kittehub",
       "status": "candidate",
       "text": "Dist"
     }
@@ -173,11 +191,17 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": ".github/workflows/dist.yml",
       "source_repo": "tile-ai/tilelang"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/dist.yml",
+      "source_repo": "autokitteh/kittehub"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

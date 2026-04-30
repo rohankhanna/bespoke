@@ -1,0 +1,136 @@
+{
+  "aliases": [
+    "3d-human-pose"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Daniil-Osokin/lightweight-human-pose-estimation-3d-demo.pytorch",
+      "status": "candidate-context",
+      "text": "Real-time 3D multi-person pose estimation demo in PyTorch. OpenVINO backend can be used for fast inference on CPU."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Daniil-Osokin/lightweight-human-pose-estimation-3d-demo.pytorch",
+      "status": "candidate-context",
+      "text": "This repository contains 3D multi-person pose estimation demo in PyTorch. Intel OpenVINO&trade; backend can be used for fast inference on CPU. This demo is based on [Lightweight OpenPose](https://arxiv.org/pdf/1811.12004.pdf) and [Single-Shot Multi-Person 3D Pose Estimation From\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jeffffffli/res-loglikelihood-regression",
+      "status": "candidate-context",
+      "text": "Code for \"Human Pose Regression with Residual Log-likelihood Estimation\", ICCV 2021 Oral"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jeffffffli/res-loglikelihood-regression",
+      "status": "candidate-context",
+      "text": "[[`Paper`](https://jeffli.site/res-loglikelihood-regression/resources/ICCV21-RLE.pdf)]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mks0601/3DMPPE_POSENET_RELEASE",
+      "status": "candidate-context",
+      "text": "Official PyTorch implementation of \"Camera Distance-aware Top-down Approach for 3D Multi-person Pose Estimation from a Single RGB Image\", ICCV 2019"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mks0601/3DMPPE_POSENET_RELEASE",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mks0601/3DMPPE_ROOTNET_RELEASE",
+      "status": "candidate-context",
+      "text": "Official PyTorch implementation of \"Camera Distance-aware Top-down Approach for 3D Multi-person Pose Estimation from a Single RGB Image\", ICCV 2019"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mks0601/3DMPPE_ROOTNET_RELEASE",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Daniil-Osokin/lightweight-human-pose-estimation-3d-demo.pytorch",
+      "status": "candidate",
+      "text": "This repository contains 3D multi-person pose estimation demo in PyTorch. Intel OpenVINO&trade; backend can be used for fast inference on CPU. This demo is based on [Lightweight OpenPose](https://arxiv.org/pdf/1811.12004.pdf) and [Single-Shot Multi-Person 3D Pose Estimation From\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jeffffffli/res-loglikelihood-regression",
+      "status": "candidate",
+      "text": "[[`Paper`](https://jeffli.site/res-loglikelihood-regression/resources/ICCV21-RLE.pdf)]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mks0601/3DMPPE_POSENET_RELEASE",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mks0601/3DMPPE_ROOTNET_RELEASE",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "3d-human-pose",
+  "concept_id": "3d-human-pose",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "Daniil-Osokin/lightweight-human-pose-estimation-3d-demo.pytorch"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "jeffffffli/res-loglikelihood-regression"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "mks0601/3DMPPE_POSENET_RELEASE"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "mks0601/3DMPPE_ROOTNET_RELEASE"
+    }
+  ],
+  "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "3d-human-pose",
+      "sense_id": "3d-human-pose#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

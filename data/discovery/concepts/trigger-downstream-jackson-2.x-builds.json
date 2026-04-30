@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Trigger downstream Jackson 2.x builds"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "FasterXML/jackson-databind",
+      "status": "candidate-context",
+      "text": "General data-binding package for Jackson: works on streaming API (core) implementation(s)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "FasterXML/jackson-databind",
+      "status": "candidate-context",
+      "text": "Trigger downstream Jackson 2.x builds"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "FasterXML/jackson-databind",
+      "status": "candidate",
+      "text": "Trigger downstream Jackson 2.x builds"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28628,
+      "status": "candidate",
+      "text": "make"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28496,
+      "status": "candidate",
+      "text": "come"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28471,
+      "status": "candidate",
+      "text": "mak"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18847,
+      "status": "candidate",
+      "text": "drift"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18847,
+      "status": "candidate",
+      "text": "drifting"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Trigger downstream Jackson 2.x builds",
+  "concept_id": "trigger-downstream-jackson-2.x-builds",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/trigger_dep_builds_v2.yml",
+      "source_repo": "FasterXML/jackson-databind"
+    }
+  ],
+  "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Trigger downstream Jackson 2.x builds",
+      "sense_id": "trigger-downstream-jackson-2.x-builds#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

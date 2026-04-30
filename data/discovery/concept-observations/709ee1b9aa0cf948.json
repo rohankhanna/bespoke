@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "The simplest and most extensible zkVM. Fast and fully open source from a16z crypto and friends. \u26a1"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Benchmark modular crates"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Benchmark modular crates"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18734,
+      "status": "candidate",
+      "text": "liquid measure"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18734,
+      "status": "candidate",
+      "text": "liquid unit"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18734,
+      "status": "candidate",
+      "text": "point"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18734,
+      "status": "candidate",
+      "text": "points"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10577,
+      "status": "candidate",
+      "text": "citation"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Benchmark modular crates",
+      "sense_id": "benchmark-modular-crates#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "benchmark-modular-crates",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "benchmark-modular-crates",
+  "observation_id": "709ee1b9aa0cf948",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-30T00:37:16.824464+00:00",
+  "observed_text": "Benchmark modular crates",
+  "source_context_snippet": "Benchmark modular crates",
+  "source_file": ".github/workflows/bench-crates.yml",
+  "source_repo": "a16z/jolt",
+  "source_repo_description": "The simplest and most extensible zkVM. Fast and fully open source from a16z crypto and friends. \u26a1"
+}

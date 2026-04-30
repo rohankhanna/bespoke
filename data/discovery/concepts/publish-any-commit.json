@@ -43,6 +43,18 @@
       "source_repo": "lerna-lite/lerna-lite",
       "status": "candidate-context",
       "text": "Publish Any Commit"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "unocss/unocss",
+      "status": "candidate-context",
+      "text": "The instant on-demand atomic CSS engine."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "unocss/unocss",
+      "status": "candidate-context",
+      "text": "Publish Any Commit"
     }
   ],
   "candidate_glosses": [
@@ -61,6 +73,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "lerna-lite/lerna-lite",
+      "status": "candidate",
+      "text": "Publish Any Commit"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "unocss/unocss",
       "status": "candidate",
       "text": "Publish Any Commit"
     }
@@ -142,11 +160,17 @@
       "observed_at": "2026-04-24T12:33:41.350224+00:00",
       "source_file": ".github/workflows/pkg-pr-new.yml",
       "source_repo": "jestjs/jest"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/pkg.pr.new.yml",
+      "source_repo": "unocss/unocss"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

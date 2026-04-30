@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Cairo prover powered by miniSTARK (compatible with StarkWare's verifiers)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<div align=\"center\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40024758,
+      "status": "candidate",
+      "text": "severe"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40023428,
+      "status": "candidate",
+      "text": "austere"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40021439,
+      "status": "candidate",
+      "text": "immoderate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40021294,
+      "status": "candidate",
+      "text": "arrant"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40017532,
+      "status": "candidate",
+      "text": "blunt"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "stark",
+      "sense_id": "stark#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 85039,
+      "status": "candidate",
+      "text": "austere"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 83036,
+      "status": "candidate",
+      "text": "desolate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 67040,
+      "status": "candidate",
+      "text": "crude"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 64040,
+      "status": "candidate",
+      "text": "bleak"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 41037,
+      "status": "candidate",
+      "text": "severe"
+    }
+  ],
+  "concept_id": "stark",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "stark",
+  "observation_id": "0b0bbe18a738c6e6",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T00:37:16.824464+00:00",
+  "observed_text": "stark",
+  "source_context_snippet": "<div align=\"center\">",
+  "source_file": null,
+  "source_repo": "andrewmilson/sandstorm",
+  "source_repo_description": "Cairo prover powered by miniSTARK (compatible with StarkWare's verifiers)"
+}

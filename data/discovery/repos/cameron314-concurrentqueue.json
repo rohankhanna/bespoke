@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "cameron314/concurrentqueue",
+      "target": "cameron314/readerwriterqueue",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T02:41:20.469010+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 28071
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A fast multi-producer, multi-consumer lock-free concurrent queue for C++11",
+    "fork": false,
+    "full_name": "cameron314/concurrentqueue",
+    "html_url": "https://github.com/cameron314/concurrentqueue",
+    "language": "C++",
+    "pushed_at": "2026-04-28T13:16:53Z",
+    "stargazers_count": 12236,
+    "topics": [],
+    "updated_at": "2026-04-29T07:04:11Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cameron314/readerwriterqueue",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

@@ -211,6 +211,54 @@
       "source_repo": "jianzhnie/LLamaTuner",
       "status": "candidate-context",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "2U1/Llama3.2-Vision-Finetune",
+      "status": "candidate-context",
+      "text": "An open-source implementaion for fine-tuning Llama3.2-Vision series by Meta."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "2U1/Llama3.2-Vision-Finetune",
+      "status": "candidate-context",
+      "text": "This repository contains a script for training [Llama3.2-Vision](https://huggingface.co/meta-llama/Llama-3.2-11B-Vision-Instruct) with only using HuggingFace and [Liger-Kernel](https://github.com/linkedin/Liger-Kernel)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "linkedin/Liger-Kernel",
+      "status": "candidate-context",
+      "text": "Efficient Triton Kernels for LLM Training"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "linkedin/Liger-Kernel",
+      "status": "candidate-context",
+      "text": "<a name=\"readme-top\"></a>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "CrazyBoyM/llama3-Chinese-chat",
+      "status": "candidate-context",
+      "text": "Llama3\u3001Llama3.1 \u4e2d\u6587\u540e\u8bad\u7ec3\u7248\u4ed3\u5e93 - \u5fae\u8c03\u3001\u9b54\u6539\u7248\u672c\u6709\u8da3\u6743\u91cd & \u8bad\u7ec3\u3001\u63a8\u7406\u3001\u8bc4\u6d4b\u3001\u90e8\u7f72\u6559\u7a0b\u89c6\u9891 & \u6587\u6863\u3002"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "CrazyBoyM/llama3-Chinese-chat",
+      "status": "candidate-context",
+      "text": "[![HF Demo](https://img.shields.io/static/v1?label=Demo&message=OpenBayes%E8%B4%9D%E5%BC%8F%E8%AE%A1%E7%AE%97&color=green)](https://openbayes.com/console/hyperai-tutorials/containers/EzsoQaZB8LA) &ensp;"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "xorbitsai/inference",
+      "status": "candidate-context",
+      "text": "Swap GPT for any LLM by changing a single line of code. Xinference lets you run open-source, speech, and multimodal models on cloud, on-prem, or your laptop \u2014 all through one unified, production-ready inference API."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "xorbitsai/inference",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -313,6 +361,30 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "jianzhnie/LLamaTuner",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "2U1/Llama3.2-Vision-Finetune",
+      "status": "candidate",
+      "text": "This repository contains a script for training [Llama3.2-Vision](https://huggingface.co/meta-llama/Llama-3.2-11B-Vision-Instruct) with only using HuggingFace and [Liger-Kernel](https://github.com/linkedin/Liger-Kernel)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "linkedin/Liger-Kernel",
+      "status": "candidate",
+      "text": "<a name=\"readme-top\"></a>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "CrazyBoyM/llama3-Chinese-chat",
+      "status": "candidate",
+      "text": "[![HF Demo](https://img.shields.io/static/v1?label=Demo&message=OpenBayes%E8%B4%9D%E5%BC%8F%E8%AE%A1%E7%AE%97&color=green)](https://openbayes.com/console/hyperai-tutorials/containers/EzsoQaZB8LA) &ensp;"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "xorbitsai/inference",
       "status": "candidate",
       "text": "<div align=\"center\">"
     }
@@ -460,11 +532,47 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "jianzhnie/LLamaTuner"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "hiyouga/LlamaFactory"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "2U1/Llama3.2-Vision-Finetune"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "linkedin/Liger-Kernel"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "CrazyBoyM/llama3-Chinese-chat"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "ollama/ollama"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "xorbitsai/inference"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

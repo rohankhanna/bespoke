@@ -1,0 +1,172 @@
+{
+  "aliases": [
+    "lightgbm"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lightgbm-org/LightGBM",
+      "status": "candidate-context",
+      "text": "A fast, distributed, high performance gradient boosting (GBT, GBDT, GBRT, GBM or MART) framework based on decision tree algorithms, used for ranking, classification and many other machine learning tasks."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lightgbm-org/LightGBM",
+      "status": "candidate-context",
+      "text": "<img src=https://github.com/lightgbm-org/LightGBM/blob/master/docs/logo/LightGBM_logo_black_text.svg width=300 />"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ankane/lightgbm-ruby",
+      "status": "candidate-context",
+      "text": "High performance gradient boosting for Ruby"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ankane/lightgbm-ruby",
+      "status": "candidate-context",
+      "text": "[LightGBM](https://github.com/microsoft/LightGBM) - high performance gradient boosting - for Ruby"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "BayesWitnesses/m2cgen",
+      "status": "candidate-context",
+      "text": "Transform ML models into a native code (Java, C, Python, Go, JavaScript, Visual Basic, C#, R, PowerShell, PHP, Dart, Haskell, Ruby, F#, Rust) with zero dependencies"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "BayesWitnesses/m2cgen",
+      "status": "candidate-context",
+      "text": "[![GitHub Actions Status](https://github.com/BayesWitnesses/m2cgen/workflows/GitHub%20Actions/badge.svg?branch=master)](https://github.com/BayesWitnesses/m2cgen/actions)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dmitryikh/leaves",
+      "status": "candidate-context",
+      "text": "pure Go implementation of prediction part for GBRT (Gradient Boosting Regression Trees) models from popular frameworks"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dmitryikh/leaves",
+      "status": "candidate-context",
+      "text": "[![version](https://img.shields.io/badge/version-0.8.0-yellow.svg)](https://semver.org)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lightgbm-org/LightGBM",
+      "status": "candidate",
+      "text": "<img src=https://github.com/lightgbm-org/LightGBM/blob/master/docs/logo/LightGBM_logo_black_text.svg width=300 />"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ankane/lightgbm-ruby",
+      "status": "candidate",
+      "text": "[LightGBM](https://github.com/microsoft/LightGBM) - high performance gradient boosting - for Ruby"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "BayesWitnesses/m2cgen",
+      "status": "candidate",
+      "text": "[![GitHub Actions Status](https://github.com/BayesWitnesses/m2cgen/workflows/GitHub%20Actions/badge.svg?branch=master)](https://github.com/BayesWitnesses/m2cgen/actions)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dmitryikh/leaves",
+      "status": "candidate",
+      "text": "[![version](https://img.shields.io/badge/version-0.8.0-yellow.svg)](https://semver.org)"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24999,
+      "status": "candidate",
+      "text": "pytorch"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24998,
+      "status": "candidate",
+      "text": "tensorflow"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24997,
+      "status": "candidate",
+      "text": "scikit-learn"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24996,
+      "status": "candidate",
+      "text": "ml.net"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24995,
+      "status": "candidate",
+      "text": "gensim"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "lightgbm",
+  "concept_id": "lightgbm",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "lightgbm-org/LightGBM"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "ankane/lightgbm-ruby"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "BayesWitnesses/m2cgen"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "dmitryikh/leaves"
+    }
+  ],
+  "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "lightgbm",
+      "sense_id": "lightgbm#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

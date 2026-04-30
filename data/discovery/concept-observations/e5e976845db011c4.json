@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Gin provides a lightweight configuration framework for Python"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "**Authors**: Dan Holtmann-Rice, Sergio Guadarrama, Nathan Silberman"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "**Authors**: Dan Holtmann-Rice, Sergio Guadarrama, Nathan Silberman"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "tensorflow-experiments",
+      "sense_id": "tensorflow-experiments#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "tensorflow-experiments",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "tensorflow-experiments",
+  "observation_id": "e5e976845db011c4",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T00:37:16.824464+00:00",
+  "observed_text": "tensorflow-experiments",
+  "source_context_snippet": "**Authors**: Dan Holtmann-Rice, Sergio Guadarrama, Nathan Silberman",
+  "source_file": null,
+  "source_repo": "google/gin-config",
+  "source_repo_description": "Gin provides a lightweight configuration framework for Python"
+}

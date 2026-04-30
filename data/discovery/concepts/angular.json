@@ -160,6 +160,30 @@
       "source_repo": "bitwarden/directory-connector",
       "status": "candidate-context",
       "text": "![Build](https://github.com/bitwarden/directory-connector/workflows/Build/badge.svg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "celo-org/celo-composer",
+      "status": "candidate-context",
+      "text": "celo-composer is a starter project with all code needed to build, deploy, and upgrade a dapps on Celo."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "celo-org/celo-composer",
+      "status": "candidate-context",
+      "text": "A powerful CLI tool for generating customizable Celo blockchain starter kits with modern monorepo architecture."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mariolukas/HydraPlay",
+      "status": "candidate-context",
+      "text": "A multiroom audio player setup, based on snapcast and mopidy. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mariolukas/HydraPlay",
+      "status": "candidate-context",
+      "text": "HydraPlay is an easy to use multiroom audio player. HydraPlay provides an integrated web interface to multiple"
     }
   ],
   "candidate_glosses": [
@@ -240,6 +264,18 @@
       "source_repo": "bitwarden/directory-connector",
       "status": "candidate",
       "text": "![Build](https://github.com/bitwarden/directory-connector/workflows/Build/badge.svg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "celo-org/celo-composer",
+      "status": "candidate",
+      "text": "A powerful CLI tool for generating customizable Celo blockchain starter kits with modern monorepo architecture."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mariolukas/HydraPlay",
+      "status": "candidate",
+      "text": "HydraPlay is an easy to use multiroom audio player. HydraPlay provides an integrated web interface to multiple"
     }
   ],
   "candidate_related_terms": [
@@ -397,11 +433,23 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "bitwarden/directory-connector"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "celo-org/celo-composer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "mariolukas/HydraPlay"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,65 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "drzel/vim-line-no-indicator",
+      "target": "nvim-lualine/lualine.nvim",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "drzel/vim-line-no-indicator",
+      "target": "arcticicestudio/nord-vim",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "drzel/vim-line-no-indicator",
+      "target": "gcavallanti/vim-noscrollbar",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T00:40:11.713203+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3936
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Simple and expressive line number indicator.",
+    "fork": false,
+    "full_name": "drzel/vim-line-no-indicator",
+    "html_url": "https://github.com/drzel/vim-line-no-indicator",
+    "language": "Vim Script",
+    "pushed_at": "2023-09-14T15:10:54Z",
+    "stargazers_count": 126,
+    "topics": [],
+    "updated_at": "2026-03-08T16:50:42Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "arcticicestudio/nord-vim",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "gcavallanti/vim-noscrollbar",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "nvim-lualine/lualine.nvim",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

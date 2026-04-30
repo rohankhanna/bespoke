@@ -103,6 +103,18 @@
       "source_repo": "rspatial/terra",
       "status": "candidate-context",
       "text": "<p align=\"right\"; style=\"font-size:11px\">logo by Zane Dax</p>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "antgroup/vsag",
+      "status": "candidate-context",
+      "text": "vsag is a vector indexing library used for similarity search."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "antgroup/vsag",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -153,6 +165,12 @@
       "source_repo": "rspatial/terra",
       "status": "candidate",
       "text": "<p align=\"right\"; style=\"font-size:11px\">logo by Zane Dax</p>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "antgroup/vsag",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -250,11 +268,17 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "rspatial/terra"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "antgroup/vsag"
     }
   ],
   "first_seen_at": "2026-04-18T11:57:36.597358+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Clear cache ..."
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Lightning-AI/torchmetrics",
+      "status": "candidate-context",
+      "text": "Machine learning metrics for distributed, scalable PyTorch applications."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Lightning-AI/torchmetrics",
+      "status": "candidate-context",
+      "text": "Clear cache ..."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Lightning-AI/torchmetrics",
+      "status": "candidate",
+      "text": "Clear cache ..."
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 13716,
+      "status": "candidate",
+      "text": "card"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 13259,
+      "status": "candidate",
+      "text": "lode"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 13259,
+      "status": "candidate",
+      "text": "secrete"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 13259,
+      "status": "candidate",
+      "text": "store"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 13018,
+      "status": "candidate",
+      "text": "depot"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Clear cache ...",
+  "concept_id": "clear-cache-...",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/clear-cache.yml",
+      "source_repo": "Lightning-AI/torchmetrics"
+    }
+  ],
+  "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Clear cache ...",
+      "sense_id": "clear-cache-...#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

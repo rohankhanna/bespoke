@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Official PyTorch implementation of \"VITON-HD: High-Resolution Virtual Try-On via Misalignment-Aware Normalization\" (CVPR 2021)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "**1. [NEW!] PromptDresser (https://github.com/rlawjdghek/PromptDresser) - Arxiv 24.12**<br>"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "**1. [NEW!] PromptDresser (https://github.com/rlawjdghek/PromptDresser) - Arxiv 24.12**<br>"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39992369,
+      "status": "candidate",
+      "text": "standardization"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39992248,
+      "status": "candidate",
+      "text": "regularization"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39992133,
+      "status": "candidate",
+      "text": "normalisation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39992118,
+      "status": "candidate",
+      "text": "regularisation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39959743,
+      "status": "candidate",
+      "text": "standardisation"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "normalization",
+      "sense_id": "normalization#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 4020,
+      "status": "candidate",
+      "text": "regularization"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 2029,
+      "status": "candidate",
+      "text": "standardization"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 1014,
+      "status": "candidate",
+      "text": "regularisation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 20,
+      "status": "candidate",
+      "text": "normalisation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 20,
+      "status": "candidate",
+      "text": "standardisation"
+    }
+  ],
+  "concept_id": "normalization",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "normalization",
+  "observation_id": "281a060f4d173a15",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T00:37:16.824464+00:00",
+  "observed_text": "normalization",
+  "source_context_snippet": "**1. [NEW!] PromptDresser (https://github.com/rlawjdghek/PromptDresser) - Arxiv 24.12**<br>",
+  "source_file": null,
+  "source_repo": "shadow2496/VITON-HD",
+  "source_repo_description": "Official PyTorch implementation of \"VITON-HD: High-Resolution Virtual Try-On via Misalignment-Aware Normalization\" (CVPR 2021)"
+}

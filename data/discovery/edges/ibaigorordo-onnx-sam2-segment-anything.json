@@ -1,0 +1,48 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ibaiGorordo/ONNX-SAM2-Segment-Anything",
+      "target": "facebookresearch/segment-anything-2",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ibaiGorordo/ONNX-SAM2-Segment-Anything",
+      "target": "computer-vision",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ibaiGorordo/ONNX-SAM2-Segment-Anything",
+      "target": "onnx",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ibaiGorordo/ONNX-SAM2-Segment-Anything",
+      "target": "onnxruntime",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ibaiGorordo/ONNX-SAM2-Segment-Anything",
+      "target": "segment-anything",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ibaiGorordo/ONNX-SAM2-Segment-Anything",
+      "target": "segment-anything-2",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-30T00:37:16.824464+00:00",
+  "source_repo": "ibaiGorordo/ONNX-SAM2-Segment-Anything"
+}

@@ -1,0 +1,455 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/aead-stream.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/aead-stream.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/aead-stream.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/aead-stream.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/aes-gcm-siv.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/aes-gcm-siv.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/aes-gcm-siv.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/aes-gcm-siv.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/aes-gcm.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/aes-gcm.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/aes-gcm.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/aes-gcm.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/aes-siv.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/aes-siv.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/aes-siv.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/aes-siv.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ascon-aead128.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ascon-aead128.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ascon-aead128.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ascon-aead128.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/belt-dwp.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/belt-dwp.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/belt-dwp.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/belt-dwp.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/belt-dwp.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/belt-dwp.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benches.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benches.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ccm.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ccm.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ccm.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ccm.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "RustCrypto/AEADs",
+      "target": "miscreant/meta",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/aead-stream.yml",
+      "source_repo": "RustCrypto/AEADs",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/aead-stream.yml",
+      "source_repo": "RustCrypto/AEADs",
+      "target": "dtolnay/rust-toolchain@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/aead-stream.yml",
+      "source_repo": "RustCrypto/AEADs",
+      "target": "aead-stream",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/aes-gcm-siv.yml",
+      "source_repo": "RustCrypto/AEADs",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/aes-gcm-siv.yml",
+      "source_repo": "RustCrypto/AEADs",
+      "target": "dtolnay/rust-toolchain@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/aes-gcm-siv.yml",
+      "source_repo": "RustCrypto/AEADs",
+      "target": "aes-gcm-siv",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/aes-gcm.yml",
+      "source_repo": "RustCrypto/AEADs",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/aes-gcm.yml",
+      "source_repo": "RustCrypto/AEADs",
+      "target": "dtolnay/rust-toolchain@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/aes-gcm.yml",
+      "source_repo": "RustCrypto/AEADs",
+      "target": "aes-gcm",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/aes-siv.yml",
+      "source_repo": "RustCrypto/AEADs",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/aes-siv.yml",
+      "source_repo": "RustCrypto/AEADs",
+      "target": "dtolnay/rust-toolchain@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/aes-siv.yml",
+      "source_repo": "RustCrypto/AEADs",
+      "target": "aes-siv",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ascon-aead128.yml",
+      "source_repo": "RustCrypto/AEADs",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ascon-aead128.yml",
+      "source_repo": "RustCrypto/AEADs",
+      "target": "dtolnay/rust-toolchain@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ascon-aead128.yml",
+      "source_repo": "RustCrypto/AEADs",
+      "target": "ascon-aead128",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/belt-dwp.yml",
+      "source_repo": "RustCrypto/AEADs",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/belt-dwp.yml",
+      "source_repo": "RustCrypto/AEADs",
+      "target": "dtolnay/rust-toolchain@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/belt-dwp.yml",
+      "source_repo": "RustCrypto/AEADs",
+      "target": "belt-dwp",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benches.yml",
+      "source_repo": "RustCrypto/AEADs",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benches.yml",
+      "source_repo": "RustCrypto/AEADs",
+      "target": "dtolnay/rust-toolchain@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/benches.yml",
+      "source_repo": "RustCrypto/AEADs",
+      "target": "benches",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ccm.yml",
+      "source_repo": "RustCrypto/AEADs",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ccm.yml",
+      "source_repo": "RustCrypto/AEADs",
+      "target": "dtolnay/rust-toolchain@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ccm.yml",
+      "source_repo": "RustCrypto/AEADs",
+      "target": "ccm",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T04:48:36.187095+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5345
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 327
+    },
+    {
+      "path": ".github/workflows/aead-stream.yml",
+      "size": 1996
+    },
+    {
+      "path": ".github/workflows/aes-gcm-siv.yml",
+      "size": 2181
+    },
+    {
+      "path": ".github/workflows/aes-gcm.yml",
+      "size": 2165
+    },
+    {
+      "path": ".github/workflows/aes-siv.yml",
+      "size": 2165
+    },
+    {
+      "path": ".github/workflows/ascon-aead128.yml",
+      "size": 2189
+    },
+    {
+      "path": ".github/workflows/belt-dwp.yml",
+      "size": 2386
+    },
+    {
+      "path": ".github/workflows/benches.yml",
+      "size": 832
+    },
+    {
+      "path": ".github/workflows/ccm.yml",
+      "size": 2121
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Authenticated Encryption with Associated Data Algorithms: high-level encryption ciphers",
+    "fork": false,
+    "full_name": "RustCrypto/AEADs",
+    "html_url": "https://github.com/RustCrypto/AEADs",
+    "language": "Rust",
+    "pushed_at": "2026-04-10T23:24:51Z",
+    "stargazers_count": 922,
+    "topics": [],
+    "updated_at": "2026-04-28T18:15:43Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "miscreant/meta",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "aead-stream",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/aead-stream.yml",
+      "term": "aead-stream"
+    },
+    {
+      "context_snippet": "aes-gcm-siv",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/aes-gcm-siv.yml",
+      "term": "aes-gcm-siv"
+    },
+    {
+      "context_snippet": "aes-gcm",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/aes-gcm.yml",
+      "term": "aes-gcm"
+    },
+    {
+      "context_snippet": "aes-siv",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/aes-siv.yml",
+      "term": "aes-siv"
+    },
+    {
+      "context_snippet": "ascon-aead128",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ascon-aead128.yml",
+      "term": "ascon-aead128"
+    },
+    {
+      "context_snippet": "belt-dwp",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/belt-dwp.yml",
+      "term": "belt-dwp"
+    },
+    {
+      "context_snippet": "benches",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/benches.yml",
+      "term": "benches"
+    },
+    {
+      "context_snippet": "ccm",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ccm.yml",
+      "term": "ccm"
+    }
+  ]
+}

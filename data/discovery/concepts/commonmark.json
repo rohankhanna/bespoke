@@ -199,6 +199,54 @@
       "source_repo": "micromark/micromark",
       "status": "candidate-context",
       "text": "micromark-mono"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "xoofx/markdig",
+      "status": "candidate-context",
+      "text": "A fast, powerful, CommonMark compliant, extensible Markdown processor for .NET"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "xoofx/markdig",
+      "status": "candidate-context",
+      "text": "ci"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "yuin/goldmark",
+      "status": "candidate-context",
+      "text": ":trophy: A markdown parser written in Go. Easy to extend, standard(CommonMark) compliant, well structured."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "yuin/goldmark",
+      "status": "candidate-context",
+      "text": "goldmark"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sparsetech/cmark-scala",
+      "status": "candidate-context",
+      "text": "Parse, manipulate and render CommonMark in Scala Native"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sparsetech/cmark-scala",
+      "status": "candidate-context",
+      "text": "cmark-scala provides [Scala Native](http://www.scala-native.org/) bindings for [cmark](https://github.com/commonmark/cmark). cmark allows to parse, manipulate and render CommonMark documents."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "wooorm/mdxjs-rs",
+      "status": "candidate-context",
+      "text": "Compile MDX to JavaScript in Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "wooorm/mdxjs-rs",
+      "status": "candidate-context",
+      "text": "[dependencies] markdown = \"1\" rustc-hash = \"2\" serde = { optional = true, version = \"1\" } swc_core = { features = [ \"common\", \"ecma_ast\", \"ecma_codegen\", \"ecma_parser\", \"ecma_visit\", ], version = \"27\" } [dev-dependencies] pretty_assertions = \"1\" [features] serializable = [\"serde\u2026"
     }
   ],
   "candidate_glosses": [
@@ -297,6 +345,30 @@
       "source_repo": "micromark/micromark",
       "status": "candidate",
       "text": "micromark-mono"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "xoofx/markdig",
+      "status": "candidate",
+      "text": "ci"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "yuin/goldmark",
+      "status": "candidate",
+      "text": "goldmark"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sparsetech/cmark-scala",
+      "status": "candidate",
+      "text": "cmark-scala provides [Scala Native](http://www.scala-native.org/) bindings for [cmark](https://github.com/commonmark/cmark). cmark allows to parse, manipulate and render CommonMark documents."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "wooorm/mdxjs-rs",
+      "status": "candidate",
+      "text": "[dependencies] markdown = \"1\" rustc-hash = \"2\" serde = { optional = true, version = \"1\" } swc_core = { features = [ \"common\", \"ecma_ast\", \"ecma_codegen\", \"ecma_parser\", \"ecma_visit\", ], version = \"27\" } [dev-dependencies] pretty_assertions = \"1\" [features] serializable = [\"serde\u2026"
     }
   ],
   "candidate_related_terms": [],
@@ -436,11 +508,47 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "readthedocs/commonmark.py"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "pulldown-cmark/pulldown-cmark"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "xoofx/markdig"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "yuin/goldmark"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "sparsetech/cmark-scala"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "wooorm/mdxjs-rs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "readthedocs/recommonmark"
     }
   ],
   "first_seen_at": "2026-04-21T18:51:25.552552+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "WebAssembly for Proxies (AssemblyScript SDK)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "check-pr"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "check-pr"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "check-pr",
+      "sense_id": "check-pr#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "check-pr",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "check-pr",
+  "observation_id": "42a9b2f0948c321a",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-30T00:37:16.824464+00:00",
+  "observed_text": "check-pr",
+  "source_context_snippet": "check-pr",
+  "source_file": ".github/workflows/pr.yml",
+  "source_repo": "Kong/proxy-wasm-assemblyscript-sdk",
+  "source_repo_description": "WebAssembly for Proxies (AssemblyScript SDK)"
+}

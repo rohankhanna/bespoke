@@ -407,6 +407,78 @@
       "source_repo": "PyCQA/flake8",
       "status": "candidate-context",
       "text": ".. image:: https://github.com/PyCQA/flake8/workflows/main/badge.svg"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pylint-dev/pylint",
+      "status": "candidate-context",
+      "text": "It's not just a linter that annoys you!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pylint-dev/pylint",
+      "status": "candidate-context",
+      "text": "`Pylint`_"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mtshiba/pylyzer",
+      "status": "candidate-context",
+      "text": "A fast, feature-rich static code analyzer & language server for Python"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mtshiba/pylyzer",
+      "status": "candidate-context",
+      "text": "> [!IMPORTANT]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dominikh/go-tools",
+      "status": "candidate-context",
+      "text": "Staticcheck - The advanced Go linter"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dominikh/go-tools",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "reviewdog/reviewdog",
+      "status": "candidate-context",
+      "text": "\ud83d\udc36 Automated code review tool integrated with any code analysis tools regardless of programming language"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "reviewdog/reviewdog",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "detekt/detekt",
+      "status": "candidate-context",
+      "text": "Static code analysis for Kotlin"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "detekt/detekt",
+      "status": "candidate-context",
+      "text": "[![Join the chat at #detekt on KotlinLang](https://img.shields.io/badge/%23detekt-on_slack-red.svg?logo=slack)](https://kotlinlang.slack.com/archives/C88E12QH4)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "checkstyle/checkstyle",
+      "status": "candidate-context",
+      "text": "Checkstyle is a development tool to help programmers write Java code that adheres to a coding standard. By default it supports the Google Java Style Guide and Sun Code Conventions, but is highly configurable. It can be invoked with an ANT task and a command line program."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "checkstyle/checkstyle",
+      "status": "candidate-context",
+      "text": "![](https://raw.githubusercontent.com/checkstyle/resources/master/img/checkstyle-logos/checkstyle-logo-260x99.png)"
     }
   ],
   "candidate_glosses": [
@@ -601,6 +673,42 @@
       "source_repo": "PyCQA/flake8",
       "status": "candidate",
       "text": ".. image:: https://github.com/PyCQA/flake8/workflows/main/badge.svg"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pylint-dev/pylint",
+      "status": "candidate",
+      "text": "`Pylint`_"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mtshiba/pylyzer",
+      "status": "candidate",
+      "text": "> [!IMPORTANT]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dominikh/go-tools",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "reviewdog/reviewdog",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "detekt/detekt",
+      "status": "candidate",
+      "text": "[![Join the chat at #detekt on KotlinLang](https://img.shields.io/badge/%23detekt-on_slack-red.svg?logo=slack)](https://kotlinlang.slack.com/archives/C88E12QH4)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "checkstyle/checkstyle",
+      "status": "candidate",
+      "text": "![](https://raw.githubusercontent.com/checkstyle/resources/master/img/checkstyle-logos/checkstyle-logo-260x99.png)"
     }
   ],
   "candidate_related_terms": [
@@ -878,11 +986,65 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "PyCQA/flake8"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "pylint-dev/pylint"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "gitleaks/gitleaks-action"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "astral-sh/ruff"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "mtshiba/pylyzer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "dominikh/go-tools"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "reviewdog/reviewdog"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "detekt/detekt"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "clj-kondo/clj-kondo"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "checkstyle/checkstyle"
     }
   ],
   "first_seen_at": "2026-04-18T11:56:18.570627+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

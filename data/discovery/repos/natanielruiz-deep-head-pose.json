@@ -1,0 +1,191 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "natanielruiz/deep-head-pose",
+      "target": "natanielruiz/dockerface",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "natanielruiz/deep-head-pose",
+      "target": "cjiangbpcs/gazenet_mxjiang",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "natanielruiz/deep-head-pose",
+      "target": "haofanwang/mxnet-head-pose",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "natanielruiz/deep-head-pose",
+      "target": "oreobird/tf-keras-deep-head-pose",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "natanielruiz/deep-head-pose",
+      "target": "deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "natanielruiz/deep-head-pose",
+      "target": "deep-neural-networks",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "natanielruiz/deep-head-pose",
+      "target": "face-pose",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "natanielruiz/deep-head-pose",
+      "target": "gaze",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "natanielruiz/deep-head-pose",
+      "target": "gaze-estimation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "natanielruiz/deep-head-pose",
+      "target": "head",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "natanielruiz/deep-head-pose",
+      "target": "head-pose",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "natanielruiz/deep-head-pose",
+      "target": "head-pose-estimation",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T01:56:40.343278+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3122
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": ":fire::fire: Deep Learning Head Pose Estimation using PyTorch.",
+    "fork": false,
+    "full_name": "natanielruiz/deep-head-pose",
+    "html_url": "https://github.com/natanielruiz/deep-head-pose",
+    "language": "Python",
+    "pushed_at": "2023-05-23T08:43:50Z",
+    "stargazers_count": 1663,
+    "topics": [
+      "deep-learning",
+      "deep-neural-networks",
+      "face-pose",
+      "gaze",
+      "gaze-estimation",
+      "head",
+      "head-pose",
+      "head-pose-estimation"
+    ],
+    "updated_at": "2026-04-09T06:05:08Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cjiangbpcs/gazenet_mxjiang",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "haofanwang/mxnet-head-pose",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "natanielruiz/dockerface",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "oreobird/tf-keras-deep-head-pose",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-learning"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-neural-networks"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "face-pose"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gaze"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gaze-estimation"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "head"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "head-pose"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "head-pose-estimation"
+    }
+  ]
+}

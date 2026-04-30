@@ -538,6 +538,150 @@
       "source_repo": "dwyl/learn-devops",
       "status": "candidate-context",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "autokitteh/autokitteh",
+      "status": "candidate-context",
+      "text": "Durable workflow automation in just a few lines of code"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "autokitteh/autokitteh",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "peter-evans/create-pull-request",
+      "status": "candidate-context",
+      "text": "A GitHub action to create a pull request for changes to your repository in the actions workspace"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "peter-evans/create-pull-request",
+      "status": "candidate-context",
+      "text": "[![CI](https://github.com/peter-evans/create-pull-request/workflows/CI/badge.svg)](https://github.com/peter-evans/create-pull-request/actions?query=workflow%3ACI)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pyppeteer/pyppeteer",
+      "status": "candidate-context",
+      "text": "Headless chrome/chromium automation library (unofficial port of puppeteer)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pyppeteer/pyppeteer",
+      "status": "candidate-context",
+      "text": "If you are interested in maintaining this, please contact [me](https://github.com/Mattwmaster58)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "phodal/coca",
+      "status": "candidate-context",
+      "text": "Coca is a toolbox which is design for legacy system refactoring and analysis, includes call graph, concept analysis, api tree, design patterns suggest. Coca \u662f\u4e00\u4e2a\u7528\u4e8e\u7cfb\u7edf\u91cd\u6784\u3001\u7cfb\u7edf\u8fc1\u79fb\u548c\u7cfb\u7edf\u5206\u6790\u7684\u5de5\u5177\u7bb1\u3002\u5b83\u53ef\u4ee5\u5206\u6790\u4ee3\u7801\u4e2d\u7684\u6d4b\u8bd5\u574f\u5473\u9053\u3001\u6a21\u5757\u5316\u5206\u6790\u3001\u884c\u6570\u7edf\u8ba1\u3001\u5206\u6790\u8c03\u7528\u4e0e\u4f9d\u8d56\u3001Git \u5206\u6790\u4ee5\u53ca\u81ea\u52a8\u5316\u91cd\u6784\u7b49\u3002"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "phodal/coca",
+      "status": "candidate-context",
+      "text": "![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/phodal/coca)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "AmberSahdev/Open-Interface",
+      "status": "candidate-context",
+      "text": "Control Any Computer Using LLMs."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AmberSahdev/Open-Interface",
+      "status": "candidate-context",
+      "text": "<picture>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bytebot-ai/bytebot",
+      "status": "candidate-context",
+      "text": "Bytebot is a self-hosted AI desktop agent that automates computer tasks through natural language commands, operating within a containerized Linux desktop environment."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bytebot-ai/bytebot",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "islandoftex/arara",
+      "status": "candidate-context",
+      "text": "arara is a TeX automation tool based on rules and directives. It gives you a way to enhance your TeX experience. This is a mirror repository."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "islandoftex/arara",
+      "status": "candidate-context",
+      "text": "![arara](https://i.stack.imgur.com/hjUsN.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "home-assistant/addons",
+      "status": "candidate-context",
+      "text": ":heavy_plus_sign: Docker add-ons for Home Assistant"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "home-assistant/addons",
+      "status": "candidate-context",
+      "text": "Apps (formerly known as add-ons) for Home Assistant allow you to extend the functionality"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "BMW-InnovationLab/BMW-YOLOv4-Training-Automation",
+      "status": "candidate-context",
+      "text": "This repository allows you to get started with training a state-of-the-art Deep Learning model with little to no configuration needed!  You provide your labeled dataset or label your dataset using our BMW-LabelTool-Lite and you can start the training right away and monitor it in many different ways like TensorBoard or a custom REST API and GUI. NoCode training with YOLOv4 and YOLOV3 has never been so easy."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "BMW-InnovationLab/BMW-YOLOv4-Training-Automation",
+      "status": "candidate-context",
+      "text": "This repository, based on AlexeyAB's darknet repro, allows you to get started with training a state-of-the-art Deep Learning model with little to no configuration needed! You provide your labeled dataset and you can start the training right away and monitor it in many different \u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "appium/appium",
+      "status": "candidate-context",
+      "text": "Cross-platform automation framework for all kinds of apps, built on top of the W3C WebDriver protocol"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "appium/appium",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "peter-evans/enable-pull-request-automerge",
+      "status": "candidate-context",
+      "text": "A GitHub action to enable auto-merge on a pull request"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "peter-evans/enable-pull-request-automerge",
+      "status": "candidate-context",
+      "text": "[![CI](https://github.com/peter-evans/enable-pull-request-automerge/workflows/CI/badge.svg)](https://github.com/peter-evans/enable-pull-request-automerge/actions?query=workflow%3ACI)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "argoproj-labs/argocd-image-updater",
+      "status": "candidate-context",
+      "text": "Automatic container image update for Argo CD"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "argoproj-labs/argocd-image-updater",
+      "status": "candidate-context",
+      "text": "![Integration tests](https://github.com/argoproj-labs/argocd-image-updater/workflows/Integration%20tests/badge.svg?branch=master&event=push)"
     }
   ],
   "candidate_glosses": [
@@ -798,6 +942,78 @@
       "source_repo": "dwyl/learn-devops",
       "status": "candidate",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "autokitteh/autokitteh",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "peter-evans/create-pull-request",
+      "status": "candidate",
+      "text": "[![CI](https://github.com/peter-evans/create-pull-request/workflows/CI/badge.svg)](https://github.com/peter-evans/create-pull-request/actions?query=workflow%3ACI)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pyppeteer/pyppeteer",
+      "status": "candidate",
+      "text": "If you are interested in maintaining this, please contact [me](https://github.com/Mattwmaster58)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "phodal/coca",
+      "status": "candidate",
+      "text": "![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/phodal/coca)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AmberSahdev/Open-Interface",
+      "status": "candidate",
+      "text": "<picture>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bytebot-ai/bytebot",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "islandoftex/arara",
+      "status": "candidate",
+      "text": "![arara](https://i.stack.imgur.com/hjUsN.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "home-assistant/addons",
+      "status": "candidate",
+      "text": "Apps (formerly known as add-ons) for Home Assistant allow you to extend the functionality"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "BMW-InnovationLab/BMW-YOLOv4-Training-Automation",
+      "status": "candidate",
+      "text": "This repository, based on AlexeyAB's darknet repro, allows you to get started with training a state-of-the-art Deep Learning model with little to no configuration needed! You provide your labeled dataset and you can start the training right away and monitor it in many different \u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "appium/appium",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "peter-evans/enable-pull-request-automerge",
+      "status": "candidate",
+      "text": "[![CI](https://github.com/peter-evans/enable-pull-request-automerge/workflows/CI/badge.svg)](https://github.com/peter-evans/enable-pull-request-automerge/actions?query=workflow%3ACI)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "argoproj-labs/argocd-image-updater",
+      "status": "candidate",
+      "text": "![Integration tests](https://github.com/argoproj-labs/argocd-image-updater/workflows/Integration%20tests/badge.svg?branch=master&event=push)"
     }
   ],
   "candidate_related_terms": [
@@ -1206,11 +1422,89 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "dwyl/learn-devops"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "autokitteh/autokitteh"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "peter-evans/create-pull-request"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "aden-hive/hive"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "pyppeteer/pyppeteer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "phodal/coca"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "AmberSahdev/Open-Interface"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "bytebot-ai/bytebot"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "islandoftex/arara"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "home-assistant/addons"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "BMW-InnovationLab/BMW-YOLOv4-Training-Automation"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "appium/appium"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "peter-evans/enable-pull-request-automerge"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "argoproj-labs/argocd-image-updater"
     }
   ],
   "first_seen_at": "2026-04-18T10:43:38.551697+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

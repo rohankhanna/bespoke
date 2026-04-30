@@ -1,0 +1,88 @@
+{
+  "components": [
+    {
+      "component": "redhat-openshift-ecosystem/github-workflows/.github/workflows/label-command.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-label-command.yml"
+    },
+    {
+      "component": "actions/stale@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stale_issues.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-label-command.yml",
+      "source_repo": "redhat-openshift-ecosystem/community-operators-prod",
+      "target": "redhat-openshift-ecosystem/github-workflows/.github/workflows/label-command.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr-label-command.yml",
+      "source_repo": "redhat-openshift-ecosystem/community-operators-prod",
+      "target": "Github pull request labels",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stale_issues.yaml",
+      "source_repo": "redhat-openshift-ecosystem/community-operators-prod",
+      "target": "actions/stale@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/stale_issues.yaml",
+      "source_repo": "redhat-openshift-ecosystem/community-operators-prod",
+      "target": "Close inactive issues",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T05:08:31.614545+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2146
+    },
+    {
+      "path": ".github/workflows/pr-label-command.yml",
+      "size": 307
+    },
+    {
+      "path": ".github/workflows/stale_issues.yaml",
+      "size": 974
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "community-operators metadata backing OpenShift OperatorHub",
+    "fork": false,
+    "full_name": "redhat-openshift-ecosystem/community-operators-prod",
+    "html_url": "https://github.com/redhat-openshift-ecosystem/community-operators-prod",
+    "language": "Dockerfile",
+    "pushed_at": "2026-04-30T05:03:35Z",
+    "stargazers_count": 133,
+    "topics": [],
+    "updated_at": "2026-04-30T05:03:41Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Github pull request labels",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr-label-command.yml",
+      "term": "Github pull request labels"
+    },
+    {
+      "context_snippet": "Close inactive issues",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/stale_issues.yaml",
+      "term": "Close inactive issues"
+    }
+  ]
+}

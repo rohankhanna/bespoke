@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T01:02:41.710224+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6574
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Drive an AI-generated video project end-to-end: brief, models, characters, script, storyboard, pipelines, assembly, export.",
+    "fork": false,
+    "full_name": "danielrosehill/Claude-AI-Video-Producer-Plugin",
+    "html_url": "https://github.com/danielrosehill/Claude-AI-Video-Producer-Plugin",
+    "language": "Python",
+    "pushed_at": "2026-04-26T18:37:27Z",
+    "stargazers_count": 0,
+    "topics": [],
+    "updated_at": "2026-04-27T17:42:25Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

@@ -85,6 +85,42 @@
       "source_repo": "JunoLab/Atom.jl",
       "status": "candidate-context",
       "text": "CompatHelper"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JuliaDebug/SnoopCompile.jl",
+      "status": "candidate-context",
+      "text": "Provide insights about latency (TTFX) for Julia packages "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaDebug/SnoopCompile.jl",
+      "status": "candidate-context",
+      "text": "CompatHelper"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JuliaLang/PackageCompiler.jl",
+      "status": "candidate-context",
+      "text": "Compile your Julia Package"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaLang/PackageCompiler.jl",
+      "status": "candidate-context",
+      "text": "CompatHelper"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JuliaLogging/TerminalLoggers.jl",
+      "status": "candidate-context",
+      "text": "Logging sinks and utilites for interactive terminals"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaLogging/TerminalLoggers.jl",
+      "status": "candidate-context",
+      "text": "CompatHelper"
     }
   ],
   "candidate_glosses": [
@@ -127,6 +163,24 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "JunoLab/Atom.jl",
+      "status": "candidate",
+      "text": "CompatHelper"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaDebug/SnoopCompile.jl",
+      "status": "candidate",
+      "text": "CompatHelper"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaLang/PackageCompiler.jl",
+      "status": "candidate",
+      "text": "CompatHelper"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaLogging/TerminalLoggers.jl",
       "status": "candidate",
       "text": "CompatHelper"
     }
@@ -184,11 +238,29 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": ".github/workflows/CompatHelper.yml",
       "source_repo": "JunoLab/Atom.jl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/CompatHelper.yml",
+      "source_repo": "JuliaDebug/SnoopCompile.jl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/CompatHelper.yml",
+      "source_repo": "JuliaLang/PackageCompiler.jl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/CompatHelper.yml",
+      "source_repo": "JuliaLogging/TerminalLoggers.jl"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

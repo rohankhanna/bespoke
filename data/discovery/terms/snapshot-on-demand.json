@@ -1,11 +1,36 @@
 {
   "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/snapshot.yml",
       "source_repo": "clojure/tools.reader"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/snapshot.yml",
+      "source_repo": "clojure/tools.namespace"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/snapshot.yml",
+      "source_repo": "clojure/core.cache"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/snapshot.yml",
+      "source_repo": "clojure/core.memoize"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/snapshot.yml",
+      "source_repo": "clojure/data.priority-map"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/snapshot.yml",
+      "source_repo": "clojure/java.jdbc"
     }
   ],
   "term": "Snapshot on demand"

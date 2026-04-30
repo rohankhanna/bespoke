@@ -1,0 +1,112 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "2KAbhishek/tiny-web",
+      "target": "2kabhishek/mkrepo",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "2KAbhishek/tiny-web",
+      "target": "2kabhishek/shelly",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "2KAbhishek/tiny-web",
+      "target": "project",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "2KAbhishek/tiny-web",
+      "target": "quickstart",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "2KAbhishek/tiny-web",
+      "target": "template",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "2KAbhishek/tiny-web",
+      "target": "webpage",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T01:40:05.830945+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3672
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "tiny template for quickly making web pages \u2728\u2328",
+    "fork": false,
+    "full_name": "2KAbhishek/tiny-web",
+    "html_url": "https://github.com/2KAbhishek/tiny-web",
+    "language": "HTML",
+    "pushed_at": "2023-11-29T10:33:34Z",
+    "stargazers_count": 8,
+    "topics": [
+      "project",
+      "quickstart",
+      "template",
+      "web",
+      "webpage"
+    ],
+    "updated_at": "2025-07-21T08:51:14Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "2kabhishek/mkrepo",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "2kabhishek/shelly",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<div align = \"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "project"
+    },
+    {
+      "context_snippet": "<div align = \"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "quickstart"
+    },
+    {
+      "context_snippet": "<div align = \"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "template"
+    },
+    {
+      "context_snippet": "<div align = \"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "webpage"
+    }
+  ]
+}

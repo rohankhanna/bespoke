@@ -1,0 +1,618 @@
+{
+  "components": [
+    {
+      "component": "@types/react",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@rslint/core",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@rstest/core",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "husky",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "lint-staged",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "prettier",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "typescript",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "zx",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@typescript/native-preview",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmark-cli.yml"
+    },
+    {
+      "component": "CodSpeedHQ/action@d872884a306dd4853acf0f584f4b706cf0cc72a2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmark-cli.yml"
+    },
+    {
+      "component": "actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmark-go.yml"
+    },
+    {
+      "component": "actions/setup-go@40f1582b2485089dde7abd97c1529aa768e1baff",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmark-go.yml"
+    },
+    {
+      "component": "CodSpeedHQ/action@d872884a306dd4853acf0f584f4b706cf0cc72a2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmark-go.yml"
+    },
+    {
+      "component": "write",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "lynx-infra/cache@5c6160a6a4c7fca80a2f3057bb9dfc9513fcb732",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "golangci/golangci-lint-action@4afd733a84b1f43292c63897423277bb7f4313a9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "lynx-infra/cache@5c6160a6a4c7fca80a2f3057bb9dfc9513fcb732",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@29eef336d9b2848a0b548edc03f92a220660cdb8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "Swatinem/rust-cache@e18b497796c12c097a38f9edb9d0641fb99eee32",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/copilot-setup-steps.yml"
+    },
+    {
+      "component": "actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/copilot-setup-steps.yml"
+    },
+    {
+      "component": "actions/setup-go@40f1582b2485089dde7abd97c1529aa768e1baff",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/copilot-setup-steps.yml"
+    },
+    {
+      "component": "actions/checkout@93cb6efe18208431cddfb8368fd83d5badbf9bfd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/devbird.yml"
+    },
+    {
+      "component": "actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/devbird.yml"
+    },
+    {
+      "component": "actions/setup-go@40f1582b2485089dde7abd97c1529aa768e1baff",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/devbird.yml"
+    },
+    {
+      "component": "delinoio/devbird-action@1a00faaf30734c914c4066d64d86527edc6bcd85",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/devbird.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "web-infra-dev/rslint",
+      "target": "typescript-eslint/tsgolint",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "web-infra-dev/rslint",
+      "target": "web-infra-dev/rstest",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "web-infra-dev/rslint",
+      "target": "@types/react",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "web-infra-dev/rslint",
+      "target": "@rslint/core",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "web-infra-dev/rslint",
+      "target": "@rstest/core",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "web-infra-dev/rslint",
+      "target": "husky",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "web-infra-dev/rslint",
+      "target": "lint-staged",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "web-infra-dev/rslint",
+      "target": "prettier",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "web-infra-dev/rslint",
+      "target": "typescript",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "web-infra-dev/rslint",
+      "target": "zx",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "web-infra-dev/rslint",
+      "target": "@typescript/native-preview",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmark-cli.yml",
+      "source_repo": "web-infra-dev/rslint",
+      "target": "actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmark-cli.yml",
+      "source_repo": "web-infra-dev/rslint",
+      "target": "CodSpeedHQ/action@d872884a306dd4853acf0f584f4b706cf0cc72a2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/benchmark-cli.yml",
+      "source_repo": "web-infra-dev/rslint",
+      "target": "Benchmark CLI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmark-go.yml",
+      "source_repo": "web-infra-dev/rslint",
+      "target": "actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmark-go.yml",
+      "source_repo": "web-infra-dev/rslint",
+      "target": "actions/setup-go@40f1582b2485089dde7abd97c1529aa768e1baff",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmark-go.yml",
+      "source_repo": "web-infra-dev/rslint",
+      "target": "CodSpeedHQ/action@d872884a306dd4853acf0f584f4b706cf0cc72a2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/benchmark-go.yml",
+      "source_repo": "web-infra-dev/rslint",
+      "target": "Benchmark Go",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/benchmarks.yml",
+      "source_repo": "web-infra-dev/rslint",
+      "target": "Benchmarks",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "web-infra-dev/rslint",
+      "target": "write",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "web-infra-dev/rslint",
+      "target": "actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "web-infra-dev/rslint",
+      "target": "actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "web-infra-dev/rslint",
+      "target": "lynx-infra/cache@5c6160a6a4c7fca80a2f3057bb9dfc9513fcb732",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "web-infra-dev/rslint",
+      "target": "golangci/golangci-lint-action@4afd733a84b1f43292c63897423277bb7f4313a9",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "web-infra-dev/rslint",
+      "target": "dtolnay/rust-toolchain@29eef336d9b2848a0b548edc03f92a220660cdb8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "web-infra-dev/rslint",
+      "target": "Swatinem/rust-cache@e18b497796c12c097a38f9edb9d0641fb99eee32",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/copilot-setup-steps.yml",
+      "source_repo": "web-infra-dev/rslint",
+      "target": "actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/copilot-setup-steps.yml",
+      "source_repo": "web-infra-dev/rslint",
+      "target": "actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/copilot-setup-steps.yml",
+      "source_repo": "web-infra-dev/rslint",
+      "target": "actions/setup-go@40f1582b2485089dde7abd97c1529aa768e1baff",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/copilot-setup-steps.yml",
+      "source_repo": "web-infra-dev/rslint",
+      "target": "Copilot Setup Steps",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/devbird.yml",
+      "source_repo": "web-infra-dev/rslint",
+      "target": "actions/checkout@93cb6efe18208431cddfb8368fd83d5badbf9bfd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/devbird.yml",
+      "source_repo": "web-infra-dev/rslint",
+      "target": "actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/devbird.yml",
+      "source_repo": "web-infra-dev/rslint",
+      "target": "actions/setup-go@40f1582b2485089dde7abd97c1529aa768e1baff",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/devbird.yml",
+      "source_repo": "web-infra-dev/rslint",
+      "target": "delinoio/devbird-action@1a00faaf30734c914c4066d64d86527edc6bcd85",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/devbird.yml",
+      "source_repo": "web-infra-dev/rslint",
+      "target": "DevBird",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "web-infra-dev/rslint",
+      "target": "javascript-linter",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "web-infra-dev/rslint",
+      "target": "linter",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "web-infra-dev/rslint",
+      "target": "rstack",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "web-infra-dev/rslint",
+      "target": "tsgo",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "web-infra-dev/rslint",
+      "target": "typescript-go",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "web-infra-dev/rslint",
+      "target": "typescript-linting",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T04:51:22.284817+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7926
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 172
+    },
+    {
+      "path": "go.mod",
+      "size": 3508
+    },
+    {
+      "path": "package.json",
+      "size": 2227
+    },
+    {
+      "path": ".github/workflows/benchmark-cli.yml",
+      "size": 1155
+    },
+    {
+      "path": ".github/workflows/benchmark-go.yml",
+      "size": 799
+    },
+    {
+      "path": ".github/workflows/benchmarks.yml",
+      "size": 421
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 10162
+    },
+    {
+      "path": ".github/workflows/copilot-setup-steps.yml",
+      "size": 1753
+    },
+    {
+      "path": ".github/workflows/devbird.yml",
+      "size": 3084
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "\ud83d\ude80 Go Faster. Go Typed",
+    "fork": false,
+    "full_name": "web-infra-dev/rslint",
+    "html_url": "https://github.com/web-infra-dev/rslint",
+    "language": "Go",
+    "pushed_at": "2026-04-30T04:41:16Z",
+    "stargazers_count": 389,
+    "topics": [
+      "javascript-linter",
+      "linter",
+      "rstack",
+      "tsgo",
+      "typescript",
+      "typescript-go",
+      "typescript-linting"
+    ],
+    "updated_at": "2026-04-30T04:41:13Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "typescript-eslint/tsgolint",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "web-infra-dev/rstest",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Benchmark CLI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/benchmark-cli.yml",
+      "term": "Benchmark CLI"
+    },
+    {
+      "context_snippet": "Benchmark Go",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/benchmark-go.yml",
+      "term": "Benchmark Go"
+    },
+    {
+      "context_snippet": "Benchmarks",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/benchmarks.yml",
+      "term": "Benchmarks"
+    },
+    {
+      "context_snippet": "'Copilot Setup Steps'",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/copilot-setup-steps.yml",
+      "term": "Copilot Setup Steps"
+    },
+    {
+      "context_snippet": "'DevBird'",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/devbird.yml",
+      "term": "DevBird"
+    },
+    {
+      "context_snippet": "<picture>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "javascript-linter"
+    },
+    {
+      "context_snippet": "<picture>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "linter"
+    },
+    {
+      "context_snippet": "<picture>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rstack"
+    },
+    {
+      "context_snippet": "<picture>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tsgo"
+    },
+    {
+      "context_snippet": "<picture>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "typescript-go"
+    },
+    {
+      "context_snippet": "<picture>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "typescript-linting"
+    }
+  ]
+}

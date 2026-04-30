@@ -55,6 +55,42 @@
       "source_repo": "pyro-ppl/numpyro",
       "status": "candidate-context",
       "text": "[![Build Status](https://github.com/pyro-ppl/numpyro/workflows/CI/badge.svg)](https://github.com/pyro-ppl/numpyro/actions)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Joshuaalbert/jaxns",
+      "status": "candidate-context",
+      "text": "Probabilistic Programming and Nested sampling in JAX"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Joshuaalbert/jaxns",
+      "status": "candidate-context",
+      "text": "[![Python](https://img.shields.io/pypi/pyversions/jaxns.svg)](https://badge.fury.io/py/jaxns)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pyro-ppl/funsor",
+      "status": "candidate-context",
+      "text": "Functional tensors for probabilistic programming"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pyro-ppl/funsor",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://github.com/pyro-ppl/funsor/workflows/CI/badge.svg)](https://github.com/pyro-ppl/funsor/actions)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pyro-ppl/pyro",
+      "status": "candidate-context",
+      "text": "Deep universal probabilistic programming with Python and PyTorch"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pyro-ppl/pyro",
+      "status": "candidate-context",
+      "text": "<!--"
     }
   ],
   "candidate_glosses": [
@@ -81,6 +117,24 @@
       "source_repo": "pyro-ppl/numpyro",
       "status": "candidate",
       "text": "[![Build Status](https://github.com/pyro-ppl/numpyro/workflows/CI/badge.svg)](https://github.com/pyro-ppl/numpyro/actions)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Joshuaalbert/jaxns",
+      "status": "candidate",
+      "text": "[![Python](https://img.shields.io/pypi/pyversions/jaxns.svg)](https://badge.fury.io/py/jaxns)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pyro-ppl/funsor",
+      "status": "candidate",
+      "text": "[![Build Status](https://github.com/pyro-ppl/funsor/workflows/CI/badge.svg)](https://github.com/pyro-ppl/funsor/actions)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pyro-ppl/pyro",
+      "status": "candidate",
+      "text": "<!--"
     }
   ],
   "candidate_related_terms": [],
@@ -112,11 +166,29 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "pyro-ppl/numpyro"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "Joshuaalbert/jaxns"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "pyro-ppl/funsor"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "pyro-ppl/pyro"
     }
   ],
   "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

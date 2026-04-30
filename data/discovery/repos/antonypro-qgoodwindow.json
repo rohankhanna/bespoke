@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T03:51:31.551005+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1351
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "master",
+    "description": "QGoodWindow - border less window for Qt 5 and Qt 6",
+    "fork": false,
+    "full_name": "antonypro/QGoodWindow",
+    "html_url": "https://github.com/antonypro/QGoodWindow",
+    "language": "C++",
+    "pushed_at": "2025-11-12T13:45:39Z",
+    "stargazers_count": 574,
+    "topics": [],
+    "updated_at": "2026-04-24T12:17:53Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

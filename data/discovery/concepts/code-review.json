@@ -82,6 +82,30 @@
       "source_repo": "apollographql/apollo-mcp-server",
       "status": "candidate-context",
       "text": "Code Review"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "reviewdog/reviewdog",
+      "status": "candidate-context",
+      "text": "\ud83d\udc36 Automated code review tool integrated with any code analysis tools regardless of programming language"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "reviewdog/reviewdog",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pydantic/hooky",
+      "status": "candidate-context",
+      "text": "Productivity tools for popular open source repos, used by pydantic"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pydantic/hooky",
+      "status": "candidate-context",
+      "text": "[![CI](https://github.com/pydantic/hooky/workflows/CI/badge.svg?event=push)](https://github.com/pydantic/hooky/actions?query=event%3Apush+branch%3Amain+workflow%3ACI)"
     }
   ],
   "candidate_glosses": [
@@ -114,6 +138,18 @@
       "source_repo": "apollographql/apollo-mcp-server",
       "status": "candidate",
       "text": "Code Review"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "reviewdog/reviewdog",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pydantic/hooky",
+      "status": "candidate",
+      "text": "[![CI](https://github.com/pydantic/hooky/workflows/CI/badge.svg?event=push)](https://github.com/pydantic/hooky/actions?query=event%3Apush+branch%3Amain+workflow%3ACI)"
     }
   ],
   "candidate_related_terms": [
@@ -205,11 +241,23 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "crev-dev/cargo-crev"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "reviewdog/reviewdog"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "pydantic/hooky"
     }
   ],
   "first_seen_at": "2026-04-18T11:57:36.597358+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

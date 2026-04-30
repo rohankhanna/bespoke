@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "pmml-evaluator"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "autodeployai/pmml4s",
+      "status": "candidate-context",
+      "text": "PMML scoring library for Scala"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "autodeployai/pmml4s",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://github.com/autodeployai/pmml4s/workflows/Release/badge.svg)](https://github.com/autodeployai/pmml4s/actions)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "autodeployai/pmml4s",
+      "status": "candidate",
+      "text": "[![Build Status](https://github.com/autodeployai/pmml4s/workflows/Release/badge.svg)](https://github.com/autodeployai/pmml4s/actions)"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "pmml-evaluator",
+  "concept_id": "pmml-evaluator",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "autodeployai/pmml4s"
+    }
+  ],
+  "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "pmml-evaluator",
+      "sense_id": "pmml-evaluator#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "\ud83d\udca5 A curated list of Terminal frameworks, plugins & resources for CLI lovers."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "\ud83d\udca5 A curated list of Terminal frameworks, plugins & resources for CLI lovers."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "\ud83d\udca5 A curated list of Terminal frameworks, plugins & resources for CLI lovers."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "curated-list",
+      "sense_id": "curated-list#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "curated-list",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "curated-list",
+  "observation_id": "47d4545d1500a2df",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T00:37:16.824464+00:00",
+  "observed_text": "curated-list",
+  "source_context_snippet": "\ud83d\udca5 A curated list of Terminal frameworks, plugins & resources for CLI lovers.",
+  "source_file": null,
+  "source_repo": "k4m4/terminals-are-sexy",
+  "source_repo_description": "\ud83d\udca5 A curated list of Terminal frameworks, plugins & resources for CLI lovers."
+}

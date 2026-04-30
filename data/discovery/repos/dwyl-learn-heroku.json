@@ -1,0 +1,170 @@
+{
+  "components": [
+    {
+      "component": "http-server",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "live-server",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "dwyl/learn-heroku",
+      "target": "dwyl/github-reference",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "dwyl/learn-heroku",
+      "target": "http-server",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "dwyl/learn-heroku",
+      "target": "live-server",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dwyl/learn-heroku",
+      "target": "beginner",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dwyl/learn-heroku",
+      "target": "devops",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dwyl/learn-heroku",
+      "target": "heroku",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dwyl/learn-heroku",
+      "target": "heroku-deployment",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dwyl/learn-heroku",
+      "target": "learn",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dwyl/learn-heroku",
+      "target": "learning-by-doing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dwyl/learn-heroku",
+      "target": "tutorial",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T02:55:04.680291+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9985
+    },
+    {
+      "path": "package.json",
+      "size": 302
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": ":checkered_flag: Learn how to deploy your web application to Heroku from scratch step-by-step in 7 minutes!",
+    "fork": false,
+    "full_name": "dwyl/learn-heroku",
+    "html_url": "https://github.com/dwyl/learn-heroku",
+    "language": "Python",
+    "pushed_at": "2023-11-07T03:07:56Z",
+    "stargazers_count": 153,
+    "topics": [
+      "beginner",
+      "devops",
+      "heroku",
+      "heroku-deployment",
+      "learn",
+      "learning-by-doing",
+      "tutorial"
+    ],
+    "updated_at": "2025-11-18T07:29:26Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dwyl/github-reference",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "![heroku logo](https://cdn.worldvectorlogo.com/logos/heroku-1.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "beginner"
+    },
+    {
+      "context_snippet": "![heroku logo](https://cdn.worldvectorlogo.com/logos/heroku-1.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "devops"
+    },
+    {
+      "context_snippet": "![heroku logo](https://cdn.worldvectorlogo.com/logos/heroku-1.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "heroku"
+    },
+    {
+      "context_snippet": "![heroku logo](https://cdn.worldvectorlogo.com/logos/heroku-1.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "heroku-deployment"
+    },
+    {
+      "context_snippet": "![heroku logo](https://cdn.worldvectorlogo.com/logos/heroku-1.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "learn"
+    },
+    {
+      "context_snippet": "![heroku logo](https://cdn.worldvectorlogo.com/logos/heroku-1.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "learning-by-doing"
+    },
+    {
+      "context_snippet": "![heroku logo](https://cdn.worldvectorlogo.com/logos/heroku-1.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tutorial"
+    }
+  ]
+}

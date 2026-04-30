@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T03:52:44.021334+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4742
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "1.4B latent diffusion model fine tuning",
+    "fork": false,
+    "full_name": "Jack000/glid-3-xl",
+    "html_url": "https://github.com/Jack000/glid-3-xl",
+    "language": "Python",
+    "pushed_at": "2022-05-16T10:43:59Z",
+    "stargazers_count": 265,
+    "topics": [],
+    "updated_at": "2025-12-09T13:50:55Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

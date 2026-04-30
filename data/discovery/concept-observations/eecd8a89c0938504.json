@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Run rails_best_practices with reviewdog \ud83d\udc36"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![test](https://img.shields.io/github/actions/workflow/status/blooper05/action-rails_best_practices/test.yml?branch=main&label=test&logo=github&style=flat-square)](https://github.com/blooper05/action-rails_best_practices/actions?query=workflow:test)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![test](https://img.shields.io/github/actions/workflow/status/blooper05/action-rails_best_practices/test.yml?branch=main&label=test&logo=github&style=flat-square)](https://github.com/blooper05/action-rails_best_practices/actions?query=workflow:test)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40018215,
+      "status": "candidate",
+      "text": "carmine"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40015674,
+      "status": "candidate",
+      "text": "ruby-red"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40012675,
+      "status": "candidate",
+      "text": "crimson"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40012170,
+      "status": "candidate",
+      "text": "scarlet"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40011884,
+      "status": "candidate",
+      "text": "red"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "ruby",
+      "sense_id": "ruby#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 66041,
+      "status": "candidate",
+      "text": "chromatic"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 45039,
+      "status": "candidate",
+      "text": "carmine"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 28038,
+      "status": "candidate",
+      "text": "ruddy"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 24037,
+      "status": "candidate",
+      "text": "crimson"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 11054,
+      "status": "candidate",
+      "text": "cherry"
+    }
+  ],
+  "concept_id": "ruby",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "ruby",
+  "observation_id": "eecd8a89c0938504",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T00:37:16.824464+00:00",
+  "observed_text": "ruby",
+  "source_context_snippet": "[![test](https://img.shields.io/github/actions/workflow/status/blooper05/action-rails_best_practices/test.yml?branch=main&label=test&logo=github&style=flat-square)](https://github.com/blooper05/action-rails_best_practices/actions?query=workflow:test)",
+  "source_file": null,
+  "source_repo": "blooper05/action-rails_best_practices",
+  "source_repo_description": "Run rails_best_practices with reviewdog \ud83d\udc36"
+}

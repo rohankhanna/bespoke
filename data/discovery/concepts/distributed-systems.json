@@ -211,6 +211,42 @@
       "source_repo": "google/vizier",
       "status": "candidate-context",
       "text": "<figure>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "autokitteh/autokitteh",
+      "status": "candidate-context",
+      "text": "Durable workflow automation in just a few lines of code"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "autokitteh/autokitteh",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jchook/uuid-random",
+      "status": "candidate-context",
+      "text": "Tiny, fast UUID v4 with cryptographic PRNG"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jchook/uuid-random",
+      "status": "candidate-context",
+      "text": "[![MIT Licence](https://img.shields.io/badge/License-MIT-informational)](LICENSE.txt)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dmlc/xgboost",
+      "status": "candidate-context",
+      "text": "Scalable, Portable and Distributed Gradient Boosting (GBDT, GBRT or GBM) Library,  for Python, R, Java, Scala, C++ and more. Runs on single machine, Hadoop, Spark, Dask, Flink and DataFlow"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dmlc/xgboost",
+      "status": "candidate-context",
+      "text": "<img src=\"https://xgboost.ai/images/logo/xgboost-logo-trimmed.png\" width=200/> eXtreme Gradient Boosting"
     }
   ],
   "candidate_glosses": [
@@ -315,6 +351,24 @@
       "source_repo": "google/vizier",
       "status": "candidate",
       "text": "<figure>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "autokitteh/autokitteh",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jchook/uuid-random",
+      "status": "candidate",
+      "text": "[![MIT Licence](https://img.shields.io/badge/License-MIT-informational)](LICENSE.txt)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dmlc/xgboost",
+      "status": "candidate",
+      "text": "<img src=\"https://xgboost.ai/images/logo/xgboost-logo-trimmed.png\" width=200/> eXtreme Gradient Boosting"
     }
   ],
   "candidate_related_terms": [],
@@ -472,11 +526,47 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "meta-pytorch/torchft"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "autokitteh/autokitteh"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "olric-data/olric"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "meta-pytorch/torchft"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "dkron-io/dkron"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "jchook/uuid-random"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "dmlc/xgboost"
     }
   ],
   "first_seen_at": "2026-04-18T12:06:06.216548+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

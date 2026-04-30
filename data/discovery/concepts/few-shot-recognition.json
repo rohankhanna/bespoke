@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "few-shot-recognition"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Anirudh257/strm",
+      "status": "candidate-context",
+      "text": "[CVPR 2022] Official Pytorch Implementation for \"Spatio-temporal Relation Modeling for Few-shot Action Recognition\". SOTA Results for Few-shot Action Recognition"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Anirudh257/strm",
+      "status": "candidate-context",
+      "text": "[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/spatio-temporal-relation-modeling-for-few/few-shot-action-recognition-on-hmdb51)](https://paperswithcode.com/sota/few-shot-action-recognition-on-hmdb51?p=spatio-temporal-relation-modeling-for-few)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Anirudh257/strm",
+      "status": "candidate",
+      "text": "[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/spatio-temporal-relation-modeling-for-few/few-shot-action-recognition-on-hmdb51)](https://paperswithcode.com/sota/few-shot-action-recognition-on-hmdb51?p=spatio-temporal-relation-modeling-for-few)"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "few-shot-recognition",
+  "concept_id": "few-shot-recognition",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "Anirudh257/strm"
+    }
+  ],
+  "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "few-shot-recognition",
+      "sense_id": "few-shot-recognition#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

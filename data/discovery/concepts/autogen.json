@@ -34,6 +34,30 @@
       "source_repo": "swagger-autogen/swagger-autogen",
       "status": "candidate-context",
       "text": "This module performs automatic construction of Swagger documentation. It can identify the endpoints and automatically capture methods such as get, post, put, and so on. It also identifies paths, routes, middlewares, response status codes, parameters in the path, header, query an\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nvim-lualine/lualine.nvim",
+      "status": "candidate-context",
+      "text": "A blazing fast and easy to configure neovim statusline plugin written in pure lua."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nvim-lualine/lualine.nvim",
+      "status": "candidate-context",
+      "text": "autogen"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "microsoft/autogen",
+      "status": "candidate-context",
+      "text": "A programming framework for agentic AI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/autogen",
+      "status": "candidate-context",
+      "text": "<a name=\"readme-top\"></a>"
     }
   ],
   "candidate_glosses": [
@@ -48,6 +72,18 @@
       "source_repo": "swagger-autogen/swagger-autogen",
       "status": "candidate",
       "text": "This module performs automatic construction of Swagger documentation. It can identify the endpoints and automatically capture methods such as get, post, put, and so on. It also identifies paths, routes, middlewares, response status codes, parameters in the path, header, query an\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nvim-lualine/lualine.nvim",
+      "status": "candidate",
+      "text": "autogen"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/autogen",
+      "status": "candidate",
+      "text": "<a name=\"readme-top\"></a>"
     }
   ],
   "candidate_related_terms": [],
@@ -73,11 +109,29 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": ".github/workflows/autogen.yaml",
       "source_repo": "dkron-io/dkron"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/autogen.yml",
+      "source_repo": "nvim-lualine/lualine.nvim"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/autogen.yaml",
+      "source_repo": "dkron-io/dkron"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "microsoft/autogen"
     }
   ],
   "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

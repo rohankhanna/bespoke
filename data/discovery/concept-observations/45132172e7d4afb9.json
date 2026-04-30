@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Ivy - a generic completion frontend for Emacs, Swiper - isearch with an overview, and more. Oh, man!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![CI build badge][ci-badge]][ci]"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![CI build badge][ci-badge]][ci]"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39982622,
+      "status": "candidate",
+      "text": "windup"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39971576,
+      "status": "candidate",
+      "text": "closing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39867103,
+      "status": "candidate",
+      "text": "mop up"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39839465,
+      "status": "candidate",
+      "text": "culmination"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29987127,
+      "status": "candidate",
+      "text": "pass completion"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "completion",
+      "sense_id": "completion#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 24034,
+      "status": "candidate",
+      "text": "culmination"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 8044,
+      "status": "candidate",
+      "text": "closing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 4020,
+      "status": "candidate",
+      "text": "windup"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 1024,
+      "status": "candidate",
+      "text": "mop up"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 9,
+      "status": "candidate",
+      "text": "pass completion"
+    }
+  ],
+  "concept_id": "completion",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "completion",
+  "observation_id": "45132172e7d4afb9",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T00:37:16.824464+00:00",
+  "observed_text": "completion",
+  "source_context_snippet": "[![CI build badge][ci-badge]][ci]",
+  "source_file": null,
+  "source_repo": "abo-abo/swiper",
+  "source_repo_description": "Ivy - a generic completion frontend for Emacs, Swiper - isearch with an overview, and more. Oh, man!"
+}

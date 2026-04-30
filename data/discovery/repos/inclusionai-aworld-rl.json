@@ -1,0 +1,65 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "inclusionAI/AWorld-RL",
+      "target": "bingguanghao/funreason",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "inclusionAI/AWorld-RL",
+      "target": "qingw-dev/aworld-mcp-servers",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "inclusionAI/AWorld-RL",
+      "target": "icyfish332/t3rl",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T02:03:48.940100+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 17826
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Agentic Learning Powered by AWorld",
+    "fork": false,
+    "full_name": "inclusionAI/AWorld-RL",
+    "html_url": "https://github.com/inclusionAI/AWorld-RL",
+    "language": "Python",
+    "pushed_at": "2026-04-16T03:28:08Z",
+    "stargazers_count": 103,
+    "topics": [],
+    "updated_at": "2026-04-27T05:56:09Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "bingguanghao/funreason",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "icyfish332/t3rl",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "qingw-dev/aworld-mcp-servers",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

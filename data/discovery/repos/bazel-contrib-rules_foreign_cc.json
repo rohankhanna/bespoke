@@ -1,0 +1,275 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yaml"
+    },
+    {
+      "component": "JamesIves/github-pages-deploy-action@4.1.7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/formatting.yaml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/formatting.yaml"
+    },
+    {
+      "component": "pre-commit/action@v3.0.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/formatting.yaml"
+    },
+    {
+      "component": "bazel-contrib/.github/.github/workflows/release_ruleset.yaml@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/stale@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stale.yaml.disabled"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "bazel-contrib/rules_foreign_cc",
+      "target": "bazelbuild/continuous-integration",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yaml",
+      "source_repo": "bazel-contrib/rules_foreign_cc",
+      "target": "actions/checkout@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yaml",
+      "source_repo": "bazel-contrib/rules_foreign_cc",
+      "target": "JamesIves/github-pages-deploy-action@4.1.7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/formatting.yaml",
+      "source_repo": "bazel-contrib/rules_foreign_cc",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/formatting.yaml",
+      "source_repo": "bazel-contrib/rules_foreign_cc",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/formatting.yaml",
+      "source_repo": "bazel-contrib/rules_foreign_cc",
+      "target": "pre-commit/action@v3.0.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/formatting.yaml",
+      "source_repo": "bazel-contrib/rules_foreign_cc",
+      "target": "Formatting",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "bazel-contrib/rules_foreign_cc",
+      "target": "bazel-contrib/.github/.github/workflows/release_ruleset.yaml@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "bazel-contrib/rules_foreign_cc",
+      "target": "Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stale.yaml.disabled",
+      "source_repo": "bazel-contrib/rules_foreign_cc",
+      "target": "actions/stale@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/stale.yaml.disabled",
+      "source_repo": "bazel-contrib/rules_foreign_cc",
+      "target": "Mark stale issues and pull requests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bazel-contrib/rules_foreign_cc",
+      "target": "bazel",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bazel-contrib/rules_foreign_cc",
+      "target": "cmake",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bazel-contrib/rules_foreign_cc",
+      "target": "cmake-external",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bazel-contrib/rules_foreign_cc",
+      "target": "gnu-make",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bazel-contrib/rules_foreign_cc",
+      "target": "meson",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bazel-contrib/rules_foreign_cc",
+      "target": "ninja",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T04:05:50.647887+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2223
+    },
+    {
+      "path": ".github/workflows/ci.bazelrc",
+      "size": 382
+    },
+    {
+      "path": ".github/workflows/docs.yaml",
+      "size": 529
+    },
+    {
+      "path": ".github/workflows/formatting.yaml",
+      "size": 357
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "size": 417
+    },
+    {
+      "path": ".github/workflows/release_prep.sh",
+      "size": 1956
+    },
+    {
+      "path": ".github/workflows/stale.yaml.disabled",
+      "size": 2210
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Build rules for interfacing with \"foreign\" (non-Bazel) build systems (CMake, configure-make, GNU Make, boost, ninja, Meson)",
+    "fork": false,
+    "full_name": "bazel-contrib/rules_foreign_cc",
+    "html_url": "https://github.com/bazel-contrib/rules_foreign_cc",
+    "language": "Starlark",
+    "pushed_at": "2026-04-14T07:47:30Z",
+    "stargazers_count": 733,
+    "topics": [
+      "bazel",
+      "cmake",
+      "cmake-external",
+      "gnu-make",
+      "meson",
+      "ninja"
+    ],
+    "updated_at": "2026-04-14T07:37:03Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "bazelbuild/continuous-integration",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Formatting",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/formatting.yaml",
+      "term": "Formatting"
+    },
+    {
+      "context_snippet": "Release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "term": "Release"
+    },
+    {
+      "context_snippet": "Mark stale issues and pull requests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/stale.yaml.disabled",
+      "term": "Mark stale issues and pull requests"
+    },
+    {
+      "context_snippet": "[![Build status](https://badge.buildkite.com/c28afbf846e2077715c753dda1f4b820cdcc46cc6cde16503c.svg?branch=main)](https://buildkite.com/bazel/rules-foreign-cc?branch=main)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bazel"
+    },
+    {
+      "context_snippet": "[![Build status](https://badge.buildkite.com/c28afbf846e2077715c753dda1f4b820cdcc46cc6cde16503c.svg?branch=main)](https://buildkite.com/bazel/rules-foreign-cc?branch=main)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cmake"
+    },
+    {
+      "context_snippet": "[![Build status](https://badge.buildkite.com/c28afbf846e2077715c753dda1f4b820cdcc46cc6cde16503c.svg?branch=main)](https://buildkite.com/bazel/rules-foreign-cc?branch=main)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cmake-external"
+    },
+    {
+      "context_snippet": "[![Build status](https://badge.buildkite.com/c28afbf846e2077715c753dda1f4b820cdcc46cc6cde16503c.svg?branch=main)](https://buildkite.com/bazel/rules-foreign-cc?branch=main)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gnu-make"
+    },
+    {
+      "context_snippet": "[![Build status](https://badge.buildkite.com/c28afbf846e2077715c753dda1f4b820cdcc46cc6cde16503c.svg?branch=main)](https://buildkite.com/bazel/rules-foreign-cc?branch=main)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "meson"
+    },
+    {
+      "context_snippet": "[![Build status](https://badge.buildkite.com/c28afbf846e2077715c753dda1f4b820cdcc46cc6cde16503c.svg?branch=main)](https://buildkite.com/bazel/rules-foreign-cc?branch=main)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ninja"
+    }
+  ]
+}

@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Snapshot Daily Release Automation"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apache/rocketmq",
+      "status": "candidate-context",
+      "text": "Apache RocketMQ is a cloud native messaging and streaming platform, making it simple to build event-driven applications."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/rocketmq",
+      "status": "candidate-context",
+      "text": "Snapshot Daily Release Automation"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/rocketmq",
+      "status": "candidate",
+      "text": "Snapshot Daily Release Automation"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 32931,
+      "status": "candidate",
+      "text": "drive"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 32903,
+      "status": "candidate",
+      "text": "background"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 32903,
+      "status": "candidate",
+      "text": "meme"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 32845,
+      "status": "candidate",
+      "text": "icon"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 32845,
+      "status": "candidate",
+      "text": "menu"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Snapshot Daily Release Automation",
+  "concept_id": "snapshot-daily-release-automation",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/snapshot-automation.yml",
+      "source_repo": "apache/rocketmq"
+    }
+  ],
+  "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Snapshot Daily Release Automation",
+      "sense_id": "snapshot-daily-release-automation#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

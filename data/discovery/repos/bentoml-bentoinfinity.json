@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T03:04:27.193554+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3686
+    },
+    {
+      "path": "requirements.txt",
+      "size": 42
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "bentoml/BentoInfinity",
+    "html_url": "https://github.com/bentoml/BentoInfinity",
+    "language": "Python",
+    "pushed_at": "2024-12-17T20:21:52Z",
+    "stargazers_count": 5,
+    "topics": [],
+    "updated_at": "2025-08-04T12:36:14Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

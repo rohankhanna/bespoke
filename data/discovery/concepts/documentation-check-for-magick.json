@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Documentation check for Magick++"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ImageMagick/ImageMagick",
+      "status": "candidate-context",
+      "text": "ImageMagick is a free, open-source software suite for creating, editing, converting, and displaying images. It supports 200+ formats and offers powerful command-line tools and APIs for automation, scripting, and integration across platforms."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ImageMagick/ImageMagick",
+      "status": "candidate-context",
+      "text": "Documentation check for Magick++"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ImageMagick/ImageMagick",
+      "status": "candidate",
+      "text": "Documentation check for Magick++"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18941,
+      "status": "candidate",
+      "text": "common"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18941,
+      "status": "candidate",
+      "text": "logic"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18908,
+      "status": "candidate",
+      "text": "reality"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10887,
+      "status": "candidate",
+      "text": "desire"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10887,
+      "status": "candidate",
+      "text": "fetish"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Documentation check for Magick++",
+  "concept_id": "documentation-check-for-magick",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/doc-check.yml",
+      "source_repo": "ImageMagick/ImageMagick"
+    }
+  ],
+  "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Documentation check for Magick++",
+      "sense_id": "documentation-check-for-magick#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

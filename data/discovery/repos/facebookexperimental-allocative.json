@@ -1,0 +1,45 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "facebookexperimental/allocative",
+      "target": "fitzgen/bumpalo",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T04:52:51.636550+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2085
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 340
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Library and proc macro to analyze memory usage of data structures in rust.",
+    "fork": false,
+    "full_name": "facebookexperimental/allocative",
+    "html_url": "https://github.com/facebookexperimental/allocative",
+    "language": "Rust",
+    "pushed_at": "2026-04-08T14:42:52Z",
+    "stargazers_count": 209,
+    "topics": [],
+    "updated_at": "2026-04-27T15:14:30Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "fitzgen/bumpalo",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

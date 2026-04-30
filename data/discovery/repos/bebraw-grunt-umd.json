@@ -1,0 +1,82 @@
+{
+  "components": [
+    {
+      "component": "libumd",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "xtend",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "grunt",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "bebraw/grunt-umd",
+      "target": "bebraw/libumd",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "bebraw/grunt-umd",
+      "target": "libumd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "bebraw/grunt-umd",
+      "target": "xtend",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "bebraw/grunt-umd",
+      "target": "grunt",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-04-30T04:54:01.993859+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3755
+    },
+    {
+      "path": "package.json",
+      "size": 1005
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "master",
+    "description": "Surrounds code with the universal module definition (MIT)",
+    "fork": false,
+    "full_name": "bebraw/grunt-umd",
+    "html_url": "https://github.com/bebraw/grunt-umd",
+    "language": "JavaScript",
+    "pushed_at": "2021-05-07T01:17:07Z",
+    "stargazers_count": 95,
+    "topics": [],
+    "updated_at": "2024-09-11T08:18:24Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "bebraw/libumd",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

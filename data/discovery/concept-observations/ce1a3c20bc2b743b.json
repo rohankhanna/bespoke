@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A react renderer for blessed."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "A [React](https://facebook.github.io/react/) custom renderer for the [blessed](https://github.com/chjj/blessed) library."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "A [React](https://facebook.github.io/react/) custom renderer for the [blessed](https://github.com/chjj/blessed) library."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39943790,
+      "status": "candidate",
+      "text": "holy"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39938733,
+      "status": "candidate",
+      "text": "saved"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39929733,
+      "status": "candidate",
+      "text": "glorious"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39925532,
+      "status": "candidate",
+      "text": "favored"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39919208,
+      "status": "candidate",
+      "text": "infernal"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "blessed",
+      "sense_id": "blessed#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 46035,
+      "status": "candidate",
+      "text": "glorious"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 32032,
+      "status": "candidate",
+      "text": "infernal"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 26037,
+      "status": "candidate",
+      "text": "everlasting"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 21042,
+      "status": "candidate",
+      "text": "happy"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 20043,
+      "status": "candidate",
+      "text": "damn"
+    }
+  ],
+  "concept_id": "blessed",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "blessed",
+  "observation_id": "ce1a3c20bc2b743b",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T00:37:16.824464+00:00",
+  "observed_text": "blessed",
+  "source_context_snippet": "A [React](https://facebook.github.io/react/) custom renderer for the [blessed](https://github.com/chjj/blessed) library.",
+  "source_file": null,
+  "source_repo": "Yomguithereal/react-blessed",
+  "source_repo_description": "A react renderer for blessed."
+}

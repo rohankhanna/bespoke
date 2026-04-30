@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Claude Code Assistant"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "huggingface/lerobot",
+      "status": "candidate-context",
+      "text": "\ud83e\udd17 LeRobot: Making AI for Robotics more accessible with end-to-end learning"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "huggingface/lerobot",
+      "status": "candidate-context",
+      "text": "Claude Code Assistant"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "huggingface/lerobot",
+      "status": "candidate",
+      "text": "Claude Code Assistant"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20306,
+      "status": "candidate",
+      "text": "exile"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19500,
+      "status": "candidate",
+      "text": "eric"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19376,
+      "status": "candidate",
+      "text": "consort"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19376,
+      "status": "candidate",
+      "text": "dentition"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19376,
+      "status": "candidate",
+      "text": "mix"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Claude Code Assistant",
+  "concept_id": "claude-code-assistant",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/claude.yml",
+      "source_repo": "huggingface/lerobot"
+    }
+  ],
+  "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Claude Code Assistant",
+      "sense_id": "claude-code-assistant#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

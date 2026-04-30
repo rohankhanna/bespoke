@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T05:15:56.047009+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6736
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "DCDmllm/Cheetah",
+    "html_url": "https://github.com/DCDmllm/Cheetah",
+    "language": "Python",
+    "pushed_at": "2024-05-25T14:57:38Z",
+    "stargazers_count": 354,
+    "topics": [],
+    "updated_at": "2026-04-24T08:52:51Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

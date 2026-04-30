@@ -1,0 +1,105 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gorilla/websocket",
+      "target": "golang",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gorilla/websocket",
+      "target": "gorilla",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gorilla/websocket",
+      "target": "gorilla-web-toolkit",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gorilla/websocket",
+      "target": "websocket",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gorilla/websocket",
+      "target": "websockets",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T00:52:46.179266+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1366
+    },
+    {
+      "path": "go.mod",
+      "size": 135
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Package gorilla/websocket is a fast, well-tested and widely used WebSocket implementation for Go.",
+    "fork": false,
+    "full_name": "gorilla/websocket",
+    "html_url": "https://github.com/gorilla/websocket",
+    "language": "Go",
+    "pushed_at": "2025-03-19T13:29:08Z",
+    "stargazers_count": 24674,
+    "topics": [
+      "go",
+      "golang",
+      "gorilla",
+      "gorilla-web-toolkit",
+      "websocket",
+      "websockets"
+    ],
+    "updated_at": "2026-04-29T13:46:06Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "[![GoDoc](https://godoc.org/github.com/gorilla/websocket?status.svg)](https://godoc.org/github.com/gorilla/websocket)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "golang"
+    },
+    {
+      "context_snippet": "[![GoDoc](https://godoc.org/github.com/gorilla/websocket?status.svg)](https://godoc.org/github.com/gorilla/websocket)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gorilla"
+    },
+    {
+      "context_snippet": "[![GoDoc](https://godoc.org/github.com/gorilla/websocket?status.svg)](https://godoc.org/github.com/gorilla/websocket)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gorilla-web-toolkit"
+    },
+    {
+      "context_snippet": "[![GoDoc](https://godoc.org/github.com/gorilla/websocket?status.svg)](https://godoc.org/github.com/gorilla/websocket)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "websocket"
+    },
+    {
+      "context_snippet": "[![GoDoc](https://godoc.org/github.com/gorilla/websocket?status.svg)](https://godoc.org/github.com/gorilla/websocket)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "websockets"
+    }
+  ]
+}

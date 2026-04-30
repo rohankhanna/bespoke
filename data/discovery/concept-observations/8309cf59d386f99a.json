@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Library to keep track of changes to Clojure source files"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![Build Status](https://github.com/weavejester/ns-tracker/actions/workflows/test.yml/badge.svg)](https://github.com/weavejester/ns-tracker/actions/workflows/test.yml)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![Build Status](https://github.com/weavejester/ns-tracker/actions/workflows/test.yml/badge.svg)](https://github.com/weavejester/ns-tracker/actions/workflows/test.yml)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40041840,
+      "status": "candidate",
+      "text": "band"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40036445,
+      "status": "candidate",
+      "text": "hoop"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40032567,
+      "status": "candidate",
+      "text": "pack"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40020324,
+      "status": "candidate",
+      "text": "encircle"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40018987,
+      "status": "candidate",
+      "text": "surround"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "ring",
+      "sense_id": "ring#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 31033,
+      "status": "candidate",
+      "text": "resound"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 29077,
+      "status": "candidate",
+      "text": "echo"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 28083,
+      "status": "candidate",
+      "text": "call"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 28034,
+      "status": "candidate",
+      "text": "reverberate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 23073,
+      "status": "candidate",
+      "text": "band"
+    }
+  ],
+  "concept_id": "ring",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "ring",
+  "observation_id": "8309cf59d386f99a",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T00:37:16.824464+00:00",
+  "observed_text": "ring",
+  "source_context_snippet": "[![Build Status](https://github.com/weavejester/ns-tracker/actions/workflows/test.yml/badge.svg)](https://github.com/weavejester/ns-tracker/actions/workflows/test.yml)",
+  "source_file": null,
+  "source_repo": "weavejester/ns-tracker",
+  "source_repo_description": "Library to keep track of changes to Clojure source files"
+}

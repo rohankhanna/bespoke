@@ -211,6 +211,30 @@
       "source_repo": "argoproj/argo-rollouts",
       "status": "candidate-context",
       "text": "\"Lint PR\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "vercel/styled-jsx",
+      "status": "candidate-context",
+      "text": "Full CSS support for JSX without compromises"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vercel/styled-jsx",
+      "status": "candidate-context",
+      "text": "'Lint PR'"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "argoproj-labs/argocd-agent",
+      "status": "candidate-context",
+      "text": "Redefining the multi cluster story of Argo CD"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "argoproj-labs/argocd-agent",
+      "status": "candidate-context",
+      "text": "\"Lint PR\""
     }
   ],
   "candidate_glosses": [
@@ -313,6 +337,18 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "argoproj/argo-rollouts",
+      "status": "candidate",
+      "text": "\"Lint PR\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vercel/styled-jsx",
+      "status": "candidate",
+      "text": "'Lint PR'"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "argoproj-labs/argocd-agent",
       "status": "candidate",
       "text": "\"Lint PR\""
     }
@@ -478,11 +514,29 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": ".github/workflows/check-pr.yml",
       "source_repo": "vega/altair"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/prs.yml",
+      "source_repo": "vercel/styled-jsx"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/check-pr.yml",
+      "source_repo": "vega/altair"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/semantic-pr.yaml",
+      "source_repo": "argoproj-labs/argocd-agent"
     }
   ],
   "first_seen_at": "2026-04-20T03:16:48.146869+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

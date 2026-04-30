@@ -1,11 +1,15 @@
 {
   "aliases": [
-    "MinGW"
+    "MinGW",
+    "mingw",
+    "Mingw"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
     "workflow-process",
-    "data-document-artifact"
+    "data-document-artifact",
+    "tool-component",
+    "capability"
   ],
   "candidate_definitions": [
     {
@@ -19,6 +23,30 @@
       "source_repo": "garglk/garglk",
       "status": "candidate-context",
       "text": "MinGW"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "miurahr/aqtinstall",
+      "status": "candidate-context",
+      "text": "aqt: Another (unofficial) Qt  CLI  Installer on multi-platforms"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "miurahr/aqtinstall",
+      "status": "candidate-context",
+      "text": "Another Qt installer(aqt)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apnadkarni/tcl-cmark",
+      "status": "candidate-context",
+      "text": "Tcl bindings to the cmark-gfm GitHub Flavoured CommonMark/Markdown library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apnadkarni/tcl-cmark",
+      "status": "candidate-context",
+      "text": "Mingw"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +55,18 @@
       "source_repo": "garglk/garglk",
       "status": "candidate",
       "text": "MinGW"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "miurahr/aqtinstall",
+      "status": "candidate",
+      "text": "Another Qt installer(aqt)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apnadkarni/tcl-cmark",
+      "status": "candidate",
+      "text": "Mingw"
     }
   ],
   "candidate_related_terms": [
@@ -76,11 +116,23 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": ".github/workflows/mingw.yml",
       "source_repo": "garglk/garglk"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "miurahr/aqtinstall"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/mingw.yml",
+      "source_repo": "apnadkarni/tcl-cmark"
     }
   ],
   "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

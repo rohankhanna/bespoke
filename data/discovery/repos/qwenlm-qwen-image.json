@@ -1,0 +1,65 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "QwenLM/Qwen-Image",
+      "target": "modeltc/qwen-image-lightning",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "QwenLM/Qwen-Image",
+      "target": "vllm-project/vllm-omni",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "QwenLM/Qwen-Image",
+      "target": "lm-sys/lm-sys.github.io",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T02:41:32.304704+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 37561
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Qwen-Image is a powerful image generation foundation model capable of complex text rendering and precise image editing.",
+    "fork": false,
+    "full_name": "QwenLM/Qwen-Image",
+    "html_url": "https://github.com/QwenLM/Qwen-Image",
+    "language": "Python",
+    "pushed_at": "2026-02-10T07:37:37Z",
+    "stargazers_count": 7831,
+    "topics": [],
+    "updated_at": "2026-04-29T15:36:48Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "lm-sys/lm-sys.github.io",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "modeltc/qwen-image-lightning",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "vllm-project/vllm-omni",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

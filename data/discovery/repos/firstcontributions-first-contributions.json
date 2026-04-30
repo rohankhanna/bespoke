@@ -1,0 +1,254 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-pr-merge.yml"
+    },
+    {
+      "component": "actions/github-script@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-pr-merge.yml"
+    },
+    {
+      "component": "actions/github-script@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-pr-merge.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "firstcontributions/first-contributions",
+      "target": "firstcontributions/open-source-badges",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "firstcontributions/first-contributions",
+      "target": "your-username/your_repo",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "firstcontributions/first-contributions",
+      "target": "roshanjossey/code-contributions",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-pr-merge.yml",
+      "source_repo": "firstcontributions/first-contributions",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-pr-merge.yml",
+      "source_repo": "firstcontributions/first-contributions",
+      "target": "actions/github-script@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/auto-pr-merge.yml",
+      "source_repo": "firstcontributions/first-contributions",
+      "target": "Auto-merge PRs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "firstcontributions/first-contributions",
+      "target": "beginner",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "firstcontributions/first-contributions",
+      "target": "beginner-friendly",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "firstcontributions/first-contributions",
+      "target": "contribute",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "firstcontributions/first-contributions",
+      "target": "contribution",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "firstcontributions/first-contributions",
+      "target": "contributions-welcome",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "firstcontributions/first-contributions",
+      "target": "good-first-contribution",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "firstcontributions/first-contributions",
+      "target": "good-first-issue",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "firstcontributions/first-contributions",
+      "target": "good-first-pr",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "firstcontributions/first-contributions",
+      "target": "open-source",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "firstcontributions/first-contributions",
+      "target": "tutorial",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T05:04:32.284131+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 25227
+    },
+    {
+      "path": ".github/workflows/auto-pr-merge.yml",
+      "size": 13364
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "\ud83d\ude80\u2728 Help beginners to contribute to open source projects",
+    "fork": false,
+    "full_name": "firstcontributions/first-contributions",
+    "html_url": "https://github.com/firstcontributions/first-contributions",
+    "language": null,
+    "pushed_at": "2026-04-30T02:57:51Z",
+    "stargazers_count": 53749,
+    "topics": [
+      "beginner",
+      "beginner-friendly",
+      "contribute",
+      "contribution",
+      "contributions-welcome",
+      "good-first-contribution",
+      "good-first-issue",
+      "good-first-pr",
+      "open-source",
+      "tutorial"
+    ],
+    "updated_at": "2026-04-30T02:58:04Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "firstcontributions/open-source-badges",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "roshanjossey/code-contributions",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "your-username/your_repo",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Auto-merge PRs",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/auto-pr-merge.yml",
+      "term": "Auto-merge PRs"
+    },
+    {
+      "context_snippet": "[![Open Source Love](https://firstcontributions.github.io/open-source-badges/badges/open-source-v1/open-source.svg)](https://github.com/firstcontributions/open-source-badges)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "beginner"
+    },
+    {
+      "context_snippet": "[![Open Source Love](https://firstcontributions.github.io/open-source-badges/badges/open-source-v1/open-source.svg)](https://github.com/firstcontributions/open-source-badges)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "beginner-friendly"
+    },
+    {
+      "context_snippet": "[![Open Source Love](https://firstcontributions.github.io/open-source-badges/badges/open-source-v1/open-source.svg)](https://github.com/firstcontributions/open-source-badges)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "contribute"
+    },
+    {
+      "context_snippet": "[![Open Source Love](https://firstcontributions.github.io/open-source-badges/badges/open-source-v1/open-source.svg)](https://github.com/firstcontributions/open-source-badges)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "contribution"
+    },
+    {
+      "context_snippet": "[![Open Source Love](https://firstcontributions.github.io/open-source-badges/badges/open-source-v1/open-source.svg)](https://github.com/firstcontributions/open-source-badges)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "contributions-welcome"
+    },
+    {
+      "context_snippet": "[![Open Source Love](https://firstcontributions.github.io/open-source-badges/badges/open-source-v1/open-source.svg)](https://github.com/firstcontributions/open-source-badges)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "good-first-contribution"
+    },
+    {
+      "context_snippet": "[![Open Source Love](https://firstcontributions.github.io/open-source-badges/badges/open-source-v1/open-source.svg)](https://github.com/firstcontributions/open-source-badges)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "good-first-issue"
+    },
+    {
+      "context_snippet": "[![Open Source Love](https://firstcontributions.github.io/open-source-badges/badges/open-source-v1/open-source.svg)](https://github.com/firstcontributions/open-source-badges)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "good-first-pr"
+    },
+    {
+      "context_snippet": "[![Open Source Love](https://firstcontributions.github.io/open-source-badges/badges/open-source-v1/open-source.svg)](https://github.com/firstcontributions/open-source-badges)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "open-source"
+    },
+    {
+      "context_snippet": "[![Open Source Love](https://firstcontributions.github.io/open-source-badges/badges/open-source-v1/open-source.svg)](https://github.com/firstcontributions/open-source-badges)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tutorial"
+    }
+  ]
+}

@@ -1,12 +1,17 @@
 {
   "component": "DeterminateSystems/update-flake-lock@v28",
   "first_seen_at": "2026-04-24T00:33:56.049672+00:00",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/update_nix.yml",
       "source_repo": "EspressoSystems/jellyfish"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/nix-flake-update.yaml",
+      "source_repo": "eopb/cargo-override"
     }
   ]
 }

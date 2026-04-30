@@ -1,6 +1,7 @@
 {
   "aliases": [
-    "Build on macOS"
+    "Build on macOS",
+    "Build on Macos"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -19,6 +20,18 @@
       "source_repo": "likle/cwalk",
       "status": "candidate-context",
       "text": "Build on macOS"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apache/brpc",
+      "status": "candidate-context",
+      "text": "brpc is an Industrial-grade RPC framework using C++ Language, which is often used in high performance system such as Search, Storage, Machine learning, Advertisement, Recommendation etc. \"brpc\" means \"better RPC\"."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/brpc",
+      "status": "candidate-context",
+      "text": "Build on Macos"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +40,12 @@
       "source_repo": "likle/cwalk",
       "status": "candidate",
       "text": "Build on macOS"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/brpc",
+      "status": "candidate",
+      "text": "Build on Macos"
     }
   ],
   "candidate_related_terms": [
@@ -76,11 +95,17 @@
       "observed_at": "2026-04-21T18:51:25.552552+00:00",
       "source_file": ".github/workflows/build-macos.yml",
       "source_repo": "likle/cwalk"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/ci-macos.yml",
+      "source_repo": "apache/brpc"
     }
   ],
   "first_seen_at": "2026-04-21T18:51:25.552552+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-21T18:51:25.552552+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

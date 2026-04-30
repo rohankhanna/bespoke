@@ -1,0 +1,296 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust.yml"
+    },
+    {
+      "component": "actions-rs/toolchain@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust.yml"
+    },
+    {
+      "component": "actions-rs/cargo@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust.yml"
+    },
+    {
+      "component": "actions-rs/toolchain@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust.yml"
+    },
+    {
+      "component": "actions-rs/cargo@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust.yml"
+    },
+    {
+      "component": "actions-rs/toolchain@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust.yml"
+    },
+    {
+      "component": "actions-rs/cargo@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust.yml"
+    },
+    {
+      "component": "actions-rs/cargo@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust.yml"
+    },
+    {
+      "component": "actions-rs/toolchain@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust.yml"
+    },
+    {
+      "component": "actions-rs/cargo@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust.yml"
+    },
+    {
+      "component": "actions-rs/toolchain@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust.yml"
+    },
+    {
+      "component": "actions-rs/cargo@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust.yml"
+    },
+    {
+      "component": "actions-rs/toolchain@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust.yml"
+    },
+    {
+      "component": "actions-rs/cargo@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust.yml"
+    },
+    {
+      "component": "actions-rs/toolchain@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust.yml"
+    },
+    {
+      "component": "actions-rs/cargo@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust.yml"
+    },
+    {
+      "component": "crate-ci/typos@685eb3d55be2f85191e8c84acb9f44d7756f84ab",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust.yml",
+      "source_repo": "microsoft/Spartan",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust.yml",
+      "source_repo": "microsoft/Spartan",
+      "target": "actions-rs/toolchain@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust.yml",
+      "source_repo": "microsoft/Spartan",
+      "target": "actions-rs/cargo@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust.yml",
+      "source_repo": "microsoft/Spartan",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust.yml",
+      "source_repo": "microsoft/Spartan",
+      "target": "crate-ci/typos@685eb3d55be2f85191e8c84acb9f44d7756f84ab",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/rust.yml",
+      "source_repo": "microsoft/Spartan",
+      "target": "Build and Test Spartan",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/Spartan",
+      "target": "cryptography-library",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/Spartan",
+      "target": "nizk",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/Spartan",
+      "target": "rust-library",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/Spartan",
+      "target": "verifiable-computing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/Spartan",
+      "target": "zero-knowledge-proofs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/Spartan",
+      "target": "zksnarks",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T04:52:52.703452+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 15773
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 2030
+    },
+    {
+      "path": ".github/workflows/rust.yml",
+      "size": 3031
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Spartan: High-speed zkSNARKs without trusted setup",
+    "fork": false,
+    "full_name": "microsoft/Spartan",
+    "html_url": "https://github.com/microsoft/Spartan",
+    "language": "Rust",
+    "pushed_at": "2025-10-15T00:02:53Z",
+    "stargazers_count": 856,
+    "topics": [
+      "cryptography-library",
+      "nizk",
+      "rust-library",
+      "verifiable-computing",
+      "zero-knowledge-proofs",
+      "zksnarks"
+    ],
+    "updated_at": "2026-04-29T09:47:39Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Build and Test Spartan",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/rust.yml",
+      "term": "Build and Test Spartan"
+    },
+    {
+      "context_snippet": "![Rust](https://github.com/microsoft/Spartan/actions/workflows/rust.yml/badge.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cryptography-library"
+    },
+    {
+      "context_snippet": "![Rust](https://github.com/microsoft/Spartan/actions/workflows/rust.yml/badge.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nizk"
+    },
+    {
+      "context_snippet": "![Rust](https://github.com/microsoft/Spartan/actions/workflows/rust.yml/badge.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rust-library"
+    },
+    {
+      "context_snippet": "![Rust](https://github.com/microsoft/Spartan/actions/workflows/rust.yml/badge.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "verifiable-computing"
+    },
+    {
+      "context_snippet": "![Rust](https://github.com/microsoft/Spartan/actions/workflows/rust.yml/badge.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "zero-knowledge-proofs"
+    },
+    {
+      "context_snippet": "![Rust](https://github.com/microsoft/Spartan/actions/workflows/rust.yml/badge.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "zksnarks"
+    }
+  ]
+}

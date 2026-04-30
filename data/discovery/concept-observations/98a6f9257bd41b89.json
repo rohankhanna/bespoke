@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A Video embed extension for the goldmark markdown parser."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "goldmark-embed is an extension for the [goldmark][goldmark] library that extends"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "goldmark-embed is an extension for the [goldmark][goldmark] library that extends"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10024642,
+      "status": "candidate",
+      "text": "golding"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10024641,
+      "status": "candidate",
+      "text": "digital gold"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10024640,
+      "status": "candidate",
+      "text": "gold piece"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10024639,
+      "status": "candidate",
+      "text": "goldware"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10024638,
+      "status": "candidate",
+      "text": "goldpiece"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "goldmark",
+      "sense_id": "goldmark#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "goldmark",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "goldmark",
+  "observation_id": "98a6f9257bd41b89",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T00:37:16.824464+00:00",
+  "observed_text": "goldmark",
+  "source_context_snippet": "goldmark-embed is an extension for the [goldmark][goldmark] library that extends",
+  "source_file": null,
+  "source_repo": "13rac1/goldmark-embed",
+  "source_repo_description": "A Video embed extension for the goldmark markdown parser."
+}

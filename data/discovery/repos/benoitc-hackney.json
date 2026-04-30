@@ -1,0 +1,163 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/erlang.yml"
+    },
+    {
+      "component": "erlef/setup-beam@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/erlang.yml"
+    },
+    {
+      "component": "awalsh128/cache-apt-pkgs-action@latest",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/erlang.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/erlang.yml"
+    },
+    {
+      "component": "erlef/setup-beam@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/erlang.yml"
+    },
+    {
+      "component": "awalsh128/cache-apt-pkgs-action@latest",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/erlang.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/erlang.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/erlang.yml"
+    },
+    {
+      "component": "vmactions/freebsd-vm@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/erlang.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/erlang.yml",
+      "source_repo": "benoitc/hackney",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/erlang.yml",
+      "source_repo": "benoitc/hackney",
+      "target": "erlef/setup-beam@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/erlang.yml",
+      "source_repo": "benoitc/hackney",
+      "target": "awalsh128/cache-apt-pkgs-action@latest",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/erlang.yml",
+      "source_repo": "benoitc/hackney",
+      "target": "vmactions/freebsd-vm@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/erlang.yml",
+      "source_repo": "benoitc/hackney",
+      "target": "build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "benoitc/hackney",
+      "target": "client",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "benoitc/hackney",
+      "target": "erlang",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "benoitc/hackney",
+      "target": "http",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T02:55:23.188626+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7809
+    },
+    {
+      "path": ".github/workflows/erlang.yml",
+      "size": 3312
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "simple HTTP client in Erlang",
+    "fork": false,
+    "full_name": "benoitc/hackney",
+    "html_url": "https://github.com/benoitc/hackney",
+    "language": "Erlang",
+    "pushed_at": "2026-04-25T09:02:46Z",
+    "stargazers_count": 1405,
+    "topics": [
+      "client",
+      "erlang",
+      "http"
+    ],
+    "updated_at": "2026-04-27T12:49:27Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/erlang.yml",
+      "term": "build"
+    },
+    {
+      "context_snippet": "An HTTP client for Erlang. Simple, reliable, fast.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "client"
+    },
+    {
+      "context_snippet": "An HTTP client for Erlang. Simple, reliable, fast.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "erlang"
+    },
+    {
+      "context_snippet": "An HTTP client for Erlang. Simple, reliable, fast.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "http"
+    }
+  ]
+}

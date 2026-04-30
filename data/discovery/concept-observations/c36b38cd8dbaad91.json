@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "calibre source for zaw"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[calibre](http://www.calibre-ebook.com/) source for [zaw](https://github.com/zsh-users/zaw) the [zsh](http://www.zsh.org/) [anything.el](http://www.emacswiki.org/emacs/Anything)-like widget."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[calibre](http://www.calibre-ebook.com/) source for [zaw](https://github.com/zsh-users/zaw) the [zsh](http://www.zsh.org/) [anything.el](http://www.emacswiki.org/emacs/Anything)-like widget."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39779512,
+      "status": "candidate",
+      "text": "daybook"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39776717,
+      "status": "candidate",
+      "text": "record"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39774855,
+      "status": "candidate",
+      "text": "script"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39763304,
+      "status": "candidate",
+      "text": "playscript"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39758173,
+      "status": "candidate",
+      "text": "ledger"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "books",
+      "sense_id": "books#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "books",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "books",
+  "observation_id": "c36b38cd8dbaad91",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T00:37:16.824464+00:00",
+  "observed_text": "books",
+  "source_context_snippet": "[calibre](http://www.calibre-ebook.com/) source for [zaw](https://github.com/zsh-users/zaw) the [zsh](http://www.zsh.org/) [anything.el](http://www.emacswiki.org/emacs/Anything)-like widget.",
+  "source_file": null,
+  "source_repo": "junkblocker/calibre-zaw-source",
+  "source_repo_description": "calibre source for zaw"
+}

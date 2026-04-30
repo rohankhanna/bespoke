@@ -31,6 +31,30 @@
       "source_repo": "2KAbhishek/dexe",
       "status": "candidate-context",
       "text": "<div align = \"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "2KAbhishek/rofi2k",
+      "status": "candidate-context",
+      "text": "Your Universal Launchpad \ud83d\udef8\ud83d\ude80"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "2KAbhishek/rofi2k",
+      "status": "candidate-context",
+      "text": "<div align = \"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "coursier/coursier",
+      "status": "candidate-context",
+      "text": "Pure Scala Artifact Fetching"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "coursier/coursier",
+      "status": "candidate-context",
+      "text": "[![Build status](https://github.com/coursier/coursier/workflows/CI/badge.svg)](https://github.com/coursier/coursier/actions?query=workflow%3ACI)"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +69,18 @@
       "source_repo": "2KAbhishek/dexe",
       "status": "candidate",
       "text": "<div align = \"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "2KAbhishek/rofi2k",
+      "status": "candidate",
+      "text": "<div align = \"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "coursier/coursier",
+      "status": "candidate",
+      "text": "[![Build status](https://github.com/coursier/coursier/workflows/CI/badge.svg)](https://github.com/coursier/coursier/actions?query=workflow%3ACI)"
     }
   ],
   "candidate_related_terms": [
@@ -115,11 +151,23 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "2KAbhishek/dexe"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "2KAbhishek/rofi2k"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "coursier/coursier"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

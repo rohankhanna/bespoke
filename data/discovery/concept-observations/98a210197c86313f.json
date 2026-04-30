@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "General-Purpose Kubernetes Pod Controller"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "**_Turn it into maintenance mode, read-only, and only update for critical fixes._**"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "**_Turn it into maintenance mode, read-only, and only update for critical fixes._**"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "kubernetes-controller",
+      "sense_id": "kubernetes-controller#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "kubernetes-controller",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "kubernetes-controller",
+  "observation_id": "98a210197c86313f",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T00:37:16.824464+00:00",
+  "observed_text": "kubernetes-controller",
+  "source_context_snippet": "**_Turn it into maintenance mode, read-only, and only update for critical fixes._**",
+  "source_file": null,
+  "source_repo": "microsoft/frameworkcontroller",
+  "source_repo_description": "General-Purpose Kubernetes Pod Controller"
+}

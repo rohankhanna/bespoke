@@ -44,6 +44,18 @@
       "source_repo": "Kong/ngx_wasm_module",
       "status": "candidate-context",
       "text": "Valgrind"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "caketop/python-starlark-go",
+      "status": "candidate-context",
+      "text": "\ud83d\udc0d Python bindings for starlark-go \ud83d\udc0d"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "caketop/python-starlark-go",
+      "status": "candidate-context",
+      "text": "Valgrind"
     }
   ],
   "candidate_glosses": [
@@ -62,6 +74,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "Kong/ngx_wasm_module",
+      "status": "candidate",
+      "text": "Valgrind"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "caketop/python-starlark-go",
       "status": "candidate",
       "text": "Valgrind"
     }
@@ -161,11 +179,17 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": ".github/workflows/valgrind.yml",
       "source_repo": "jqlang/jq"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/valgrind.yml",
+      "source_repo": "caketop/python-starlark-go"
     }
   ],
   "first_seen_at": "2026-04-19T01:08:57.644140+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

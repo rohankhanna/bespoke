@@ -19,6 +19,18 @@
       "source_repo": "civitai/civitai",
       "status": "candidate-context",
       "text": "[![Contributors][contributors-shield]][contributors-url]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "coasys/ad4m",
+      "status": "candidate-context",
+      "text": "Agent-centric social network and interoperability dApp framework"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "coasys/ad4m",
+      "status": "candidate-context",
+      "text": "[![Website](https://img.shields.io/badge/Website-coasys.org-brightgreen)](http://coasys.org/)"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "civitai/civitai",
       "status": "candidate",
       "text": "[![Contributors][contributors-shield]][contributors-url]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "coasys/ad4m",
+      "status": "candidate",
+      "text": "[![Website](https://img.shields.io/badge/Website-coasys.org-brightgreen)](http://coasys.org/)"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": null,
       "source_repo": "civitai/civitai"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "coasys/ad4m"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,378 @@
+{
+  "components": [
+    {
+      "component": "roots/issue-closer@v1.2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/autocloser.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    },
+    {
+      "component": "actions/setup-go@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    },
+    {
+      "component": "github/codeql-action/init@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    },
+    {
+      "component": "github/codeql-action/autobuild@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    },
+    {
+      "component": "github/codeql-action/analyze@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/releases.yml"
+    },
+    {
+      "component": "actions/setup-go@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/releases.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/releases.yml"
+    },
+    {
+      "component": "softprops/action-gh-release@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/releases.yml"
+    },
+    {
+      "component": "softprops/action-gh-release@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/releases.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "DNSCrypt/dnscrypt-proxy",
+      "target": "dnscrypt/dnscrypt-protocol",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "DNSCrypt/dnscrypt-proxy",
+      "target": "dnscrypt/dnscrypt-resolvers",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/autocloser.yml",
+      "source_repo": "DNSCrypt/dnscrypt-proxy",
+      "target": "roots/issue-closer@v1.2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/autocloser.yml",
+      "source_repo": "DNSCrypt/dnscrypt-proxy",
+      "target": "Autocloser",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "DNSCrypt/dnscrypt-proxy",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "DNSCrypt/dnscrypt-proxy",
+      "target": "actions/setup-go@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "DNSCrypt/dnscrypt-proxy",
+      "target": "github/codeql-action/init@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "DNSCrypt/dnscrypt-proxy",
+      "target": "github/codeql-action/autobuild@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "DNSCrypt/dnscrypt-proxy",
+      "target": "github/codeql-action/analyze@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "DNSCrypt/dnscrypt-proxy",
+      "target": "CodeQL scan",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/releases.yml",
+      "source_repo": "DNSCrypt/dnscrypt-proxy",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/releases.yml",
+      "source_repo": "DNSCrypt/dnscrypt-proxy",
+      "target": "actions/setup-go@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/releases.yml",
+      "source_repo": "DNSCrypt/dnscrypt-proxy",
+      "target": "actions/upload-artifact@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/releases.yml",
+      "source_repo": "DNSCrypt/dnscrypt-proxy",
+      "target": "softprops/action-gh-release@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/releases.yml",
+      "source_repo": "DNSCrypt/dnscrypt-proxy",
+      "target": "GitHub CI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "DNSCrypt/dnscrypt-proxy",
+      "target": "anonymized",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "DNSCrypt/dnscrypt-proxy",
+      "target": "anonymized-dns",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "DNSCrypt/dnscrypt-proxy",
+      "target": "dns-over-https",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "DNSCrypt/dnscrypt-proxy",
+      "target": "dnscrypt",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "DNSCrypt/dnscrypt-proxy",
+      "target": "dnscrypt-proxy",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "DNSCrypt/dnscrypt-proxy",
+      "target": "dnscrypt-proxy2",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "DNSCrypt/dnscrypt-proxy",
+      "target": "oblivious-dns-over-https",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "DNSCrypt/dnscrypt-proxy",
+      "target": "oblivious-doh",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "DNSCrypt/dnscrypt-proxy",
+      "target": "odoh",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "DNSCrypt/dnscrypt-proxy",
+      "target": "proxy",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T04:54:25.712338+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5890
+    },
+    {
+      "path": "go.mod",
+      "size": 2191
+    },
+    {
+      "path": ".github/workflows/autocloser.yml",
+      "size": 715
+    },
+    {
+      "path": ".github/workflows/codeql-analysis.yml",
+      "size": 638
+    },
+    {
+      "path": ".github/workflows/releases.yml",
+      "size": 4150
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "dnscrypt-proxy 2 - A flexible DNS proxy, with support for encrypted DNS protocols.",
+    "fork": false,
+    "full_name": "DNSCrypt/dnscrypt-proxy",
+    "html_url": "https://github.com/DNSCrypt/dnscrypt-proxy",
+    "language": "Go",
+    "pushed_at": "2026-04-30T03:52:44Z",
+    "stargazers_count": 13256,
+    "topics": [
+      "anonymized",
+      "anonymized-dns",
+      "dns",
+      "dns-over-https",
+      "dnscrypt",
+      "dnscrypt-proxy",
+      "dnscrypt-proxy2",
+      "doh",
+      "oblivious-dns-over-https",
+      "oblivious-doh",
+      "odoh",
+      "proxy"
+    ],
+    "updated_at": "2026-04-30T02:42:01Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dnscrypt/dnscrypt-protocol",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dnscrypt/dnscrypt-resolvers",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Autocloser",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/autocloser.yml",
+      "term": "Autocloser"
+    },
+    {
+      "context_snippet": "\"CodeQL scan\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "term": "CodeQL scan"
+    },
+    {
+      "context_snippet": "GitHub CI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/releases.yml",
+      "term": "GitHub CI"
+    },
+    {
+      "context_snippet": "[![Financial Contributors on Open Collective](https://opencollective.com/dnscrypt/all/badge.svg?label=financial+contributors)](https://opencollective.com/dnscrypt)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "anonymized"
+    },
+    {
+      "context_snippet": "[![Financial Contributors on Open Collective](https://opencollective.com/dnscrypt/all/badge.svg?label=financial+contributors)](https://opencollective.com/dnscrypt)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "anonymized-dns"
+    },
+    {
+      "context_snippet": "[![Financial Contributors on Open Collective](https://opencollective.com/dnscrypt/all/badge.svg?label=financial+contributors)](https://opencollective.com/dnscrypt)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dns-over-https"
+    },
+    {
+      "context_snippet": "[![Financial Contributors on Open Collective](https://opencollective.com/dnscrypt/all/badge.svg?label=financial+contributors)](https://opencollective.com/dnscrypt)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dnscrypt"
+    },
+    {
+      "context_snippet": "[![Financial Contributors on Open Collective](https://opencollective.com/dnscrypt/all/badge.svg?label=financial+contributors)](https://opencollective.com/dnscrypt)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dnscrypt-proxy"
+    },
+    {
+      "context_snippet": "[![Financial Contributors on Open Collective](https://opencollective.com/dnscrypt/all/badge.svg?label=financial+contributors)](https://opencollective.com/dnscrypt)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dnscrypt-proxy2"
+    },
+    {
+      "context_snippet": "[![Financial Contributors on Open Collective](https://opencollective.com/dnscrypt/all/badge.svg?label=financial+contributors)](https://opencollective.com/dnscrypt)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "oblivious-dns-over-https"
+    },
+    {
+      "context_snippet": "[![Financial Contributors on Open Collective](https://opencollective.com/dnscrypt/all/badge.svg?label=financial+contributors)](https://opencollective.com/dnscrypt)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "oblivious-doh"
+    },
+    {
+      "context_snippet": "[![Financial Contributors on Open Collective](https://opencollective.com/dnscrypt/all/badge.svg?label=financial+contributors)](https://opencollective.com/dnscrypt)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "odoh"
+    },
+    {
+      "context_snippet": "[![Financial Contributors on Open Collective](https://opencollective.com/dnscrypt/all/badge.svg?label=financial+contributors)](https://opencollective.com/dnscrypt)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "proxy"
+    }
+  ]
+}

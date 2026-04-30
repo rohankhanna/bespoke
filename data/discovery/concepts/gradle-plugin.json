@@ -19,6 +19,18 @@
       "source_repo": "JetBrains/kotlin",
       "status": "candidate-context",
       "text": "The Kotlin Programming Language."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "detekt/detekt",
+      "status": "candidate-context",
+      "text": "Static code analysis for Kotlin"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "detekt/detekt",
+      "status": "candidate-context",
+      "text": "[![Join the chat at #detekt on KotlinLang](https://img.shields.io/badge/%23detekt-on_slack-red.svg?logo=slack)](https://kotlinlang.slack.com/archives/C88E12QH4)"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "JetBrains/kotlin",
       "status": "candidate",
       "text": "The Kotlin Programming Language."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "detekt/detekt",
+      "status": "candidate",
+      "text": "[![Join the chat at #detekt on KotlinLang](https://img.shields.io/badge/%23detekt-on_slack-red.svg?logo=slack)](https://kotlinlang.slack.com/archives/C88E12QH4)"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-23T01:09:11.871080+00:00",
       "source_file": null,
       "source_repo": "JetBrains/kotlin"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "detekt/detekt"
     }
   ],
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

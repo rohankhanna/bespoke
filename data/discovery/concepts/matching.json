@@ -55,6 +55,18 @@
       "source_repo": "shibing624/similarities",
       "status": "candidate-context",
       "text": "[**\ud83c\udde8\ud83c\uddf3\u4e2d\u6587**](https://github.com/shibing624/similarities/blob/main/README.md) | [**\ud83c\udf10English**](https://github.com/shibing624/similarities/blob/main/README_EN.md) | [**\ud83d\udcd6\u6587\u6863/Docs**](https://github.com/shibing624/similarities/wiki) | [**\ud83e\udd16\u6a21\u578b/Models**](https://huggingface.co/shibing624)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "shenweichen/DeepMatch",
+      "status": "candidate-context",
+      "text": "A deep matching model library for recommendations & advertising. It's easy to train models and to export representation vectors which can be used for ANN search."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "shenweichen/DeepMatch",
+      "status": "candidate-context",
+      "text": "[![Python Versions](https://img.shields.io/pypi/pyversions/deepmatch.svg)](https://pypi.org/project/deepmatch)"
     }
   ],
   "candidate_glosses": [
@@ -81,6 +93,12 @@
       "source_repo": "shibing624/similarities",
       "status": "candidate",
       "text": "[**\ud83c\udde8\ud83c\uddf3\u4e2d\u6587**](https://github.com/shibing624/similarities/blob/main/README.md) | [**\ud83c\udf10English**](https://github.com/shibing624/similarities/blob/main/README_EN.md) | [**\ud83d\udcd6\u6587\u6863/Docs**](https://github.com/shibing624/similarities/wiki) | [**\ud83e\udd16\u6a21\u578b/Models**](https://huggingface.co/shibing624)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "shenweichen/DeepMatch",
+      "status": "candidate",
+      "text": "[![Python Versions](https://img.shields.io/pypi/pyversions/deepmatch.svg)](https://pypi.org/project/deepmatch)"
     }
   ],
   "candidate_related_terms": [
@@ -196,11 +214,29 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "shibing624/similarities"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "micromatch/to-regex-range"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "micromatch/is-glob"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "shenweichen/DeepMatch"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

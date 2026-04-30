@@ -1,0 +1,70 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/action_scanning.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/action_scanning.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/action_scanning.yml"
+    },
+    {
+      "component": "github/codeql-action/upload-sarif@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/action_scanning.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/action_scanning.yml",
+      "source_repo": "google/.github",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/action_scanning.yml",
+      "source_repo": "google/.github",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/action_scanning.yml",
+      "source_repo": "google/.github",
+      "target": "github/codeql-action/upload-sarif@v3",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-04-30T04:49:50.142527+00:00",
+  "fetched_files": [
+    {
+      "path": ".github/workflows/action_scanning.yml",
+      "size": 1364
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "default configuration for @google repos",
+    "fork": false,
+    "full_name": "google/.github",
+    "html_url": "https://github.com/google/.github",
+    "language": null,
+    "pushed_at": "2025-03-15T06:20:32Z",
+    "stargazers_count": 125,
+    "topics": [],
+    "updated_at": "2026-04-21T04:06:21Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T03:55:52.858389+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4470
+    },
+    {
+      "path": "requirements.txt",
+      "size": 32
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "ClownsharkBatwing/UltraCascade",
+    "html_url": "https://github.com/ClownsharkBatwing/UltraCascade",
+    "language": "Python",
+    "pushed_at": "2025-07-10T00:09:33Z",
+    "stargazers_count": 37,
+    "topics": [],
+    "updated_at": "2026-02-28T06:52:42Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

@@ -1,0 +1,205 @@
+{
+  "components": [
+    {
+      "component": "@octokit/core",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "awesome-lint",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "p-limit",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "vitejs/awesome-vite",
+      "target": "52-entertainment/vite-plugin-oxlint",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "vitejs/awesome-vite",
+      "target": "8hobbies/vite-plugin-year",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "vitejs/awesome-vite",
+      "target": "7th-cyborg/vite-plugin-zip-pack",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "vitejs/awesome-vite",
+      "target": "60late/vite-plugin-minipic",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "vitejs/awesome-vite",
+      "target": "@octokit/core",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "vitejs/awesome-vite",
+      "target": "awesome-lint",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "vitejs/awesome-vite",
+      "target": "p-limit",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "vitejs/awesome-vite",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "vitejs/awesome-vite",
+      "target": "Lint",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "vitejs/awesome-vite",
+      "target": "awesome",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "vitejs/awesome-vite",
+      "target": "awesome-list",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "vitejs/awesome-vite",
+      "target": "vite",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "vitejs/awesome-vite",
+      "target": "vitejs",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T03:44:31.011602+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 76279
+    },
+    {
+      "path": "package.json",
+      "size": 235
+    },
+    {
+      "path": ".github/workflows/lint.yml",
+      "size": 239
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "\u26a1\ufe0f A curated list of awesome things related to Vite.js",
+    "fork": false,
+    "full_name": "vitejs/awesome-vite",
+    "html_url": "https://github.com/vitejs/awesome-vite",
+    "language": "JavaScript",
+    "pushed_at": "2026-02-04T13:10:54Z",
+    "stargazers_count": 17047,
+    "topics": [
+      "awesome",
+      "awesome-list",
+      "vite",
+      "vitejs"
+    ],
+    "updated_at": "2026-04-29T00:26:53Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "52-entertainment/vite-plugin-oxlint",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "60late/vite-plugin-minipic",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "7th-cyborg/vite-plugin-zip-pack",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "8hobbies/vite-plugin-year",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Lint",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint.yml",
+      "term": "Lint"
+    },
+    {
+      "context_snippet": "<!--lint disable awesome-heading awesome-github awesome-toc double-link -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "awesome"
+    },
+    {
+      "context_snippet": "<!--lint disable awesome-heading awesome-github awesome-toc double-link -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "awesome-list"
+    },
+    {
+      "context_snippet": "<!--lint disable awesome-heading awesome-github awesome-toc double-link -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vite"
+    },
+    {
+      "context_snippet": "<!--lint disable awesome-heading awesome-github awesome-toc double-link -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vitejs"
+    }
+  ]
+}

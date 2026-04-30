@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A C library for reading and writing sound files containing sampled audio data."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "![C/C++ CI](https://github.com/libsndfile/libsndfile/workflows/C/C++%20CI/badge.svg)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "![C/C++ CI](https://github.com/libsndfile/libsndfile/workflows/C/C++%20CI/badge.svg)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "audio-library",
+      "sense_id": "audio-library#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "audio-library",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "audio-library",
+  "observation_id": "72c80ac5f093ec9f",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T00:37:16.824464+00:00",
+  "observed_text": "audio-library",
+  "source_context_snippet": "![C/C++ CI](https://github.com/libsndfile/libsndfile/workflows/C/C++%20CI/badge.svg)",
+  "source_file": null,
+  "source_repo": "libsndfile/libsndfile",
+  "source_repo_description": "A C library for reading and writing sound files containing sampled audio data."
+}

@@ -1,0 +1,83 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "fnzhan/MoNCE",
+      "target": "nvlabs/spade",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "fnzhan/MoNCE",
+      "target": "taesungp/contrastive-unpaired-translation",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "fnzhan/MoNCE",
+      "target": "contrastive-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "fnzhan/MoNCE",
+      "target": "image-synthesis",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T01:57:13.543461+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3637
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "[CVPR 2022] Modulated Contrast for Versatile Image Synthesis",
+    "fork": false,
+    "full_name": "fnzhan/MoNCE",
+    "html_url": "https://github.com/fnzhan/MoNCE",
+    "language": "Python",
+    "pushed_at": "2022-12-12T12:47:21Z",
+    "stargazers_count": 35,
+    "topics": [
+      "contrastive-learning",
+      "image-synthesis"
+    ],
+    "updated_at": "2026-01-27T06:11:36Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "nvlabs/spade",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "taesungp/contrastive-unpaired-translation",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "![Teaser](teaser.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "contrastive-learning"
+    },
+    {
+      "context_snippet": "![Teaser](teaser.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "image-synthesis"
+    }
+  ]
+}

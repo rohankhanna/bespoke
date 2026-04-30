@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Connection Profiles for Cyberduck & Mountain Duck"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Companion repository for [Cyberduck](https://github.com/iterate-ch/cyberduck) and [Mountain Duck](https://mountainduck.io/) containing third-party connection profiles. Please refer to the [documentation](https://docs.cyberduck.io/protocols/profiles/) for more information and how\u2026"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Companion repository for [Cyberduck](https://github.com/iterate-ch/cyberduck) and [Mountain Duck](https://mountainduck.io/) containing third-party connection profiles. Please refer to the [documentation](https://docs.cyberduck.io/protocols/profiles/) for more information and how\u2026"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24999,
+      "status": "candidate",
+      "text": "syncthing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24998,
+      "status": "candidate",
+      "text": "password safe"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24997,
+      "status": "candidate",
+      "text": "konqueror"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24996,
+      "status": "candidate",
+      "text": "resilio sync"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24995,
+      "status": "candidate",
+      "text": "filezilla"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "cyberduck",
+      "sense_id": "cyberduck#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "cyberduck",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "cyberduck",
+  "observation_id": "3c4e7f39861806e9",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T00:37:16.824464+00:00",
+  "observed_text": "cyberduck",
+  "source_context_snippet": "Companion repository for [Cyberduck](https://github.com/iterate-ch/cyberduck) and [Mountain Duck](https://mountainduck.io/) containing third-party connection profiles. Please refer to the [documentation](https://docs.cyberduck.io/protocols/profiles/) for more information and how\u2026",
+  "source_file": null,
+  "source_repo": "iterate-ch/profiles",
+  "source_repo_description": "Connection Profiles for Cyberduck & Mountain Duck"
+}

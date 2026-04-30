@@ -1,0 +1,534 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-new-issue.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/monitor-php8.5.yml"
+    },
+    {
+      "component": "appleboy/telegram-action@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/monitor-php8.5.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/readme-release.yml"
+    },
+    {
+      "component": "actions/github-script@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/readme-release.yml"
+    },
+    {
+      "component": "actions/github-script@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/readme-release.yml"
+    },
+    {
+      "component": "docker/login-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/readme-release.yml"
+    },
+    {
+      "component": "docker/login-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/readme-release.yml"
+    },
+    {
+      "component": "docker/setup-buildx-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/readme-release.yml"
+    },
+    {
+      "component": "docker/build-push-action@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/readme-release.yml"
+    },
+    {
+      "component": "softprops/action-gh-release@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/readme-release.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-dockerfile.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-extensions.yml"
+    },
+    {
+      "component": "actions/setup-go@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-extensions.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-extensions.yml"
+    },
+    {
+      "component": "shivammathur/setup-php@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-extensions.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-extensions.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-extensions.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-extensions.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-extensions.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-extensions.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-extensions.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-extensions.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-extensions.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-extensions.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-extensions.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-extensions.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-extensions.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-recent-extensions.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-recent-extensions.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-recent-extensions.yml"
+    },
+    {
+      "component": "actions/download-artifact@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-recent-extensions.yml"
+    },
+    {
+      "component": "appleboy/telegram-action@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-recent-extensions.yml"
+    },
+    {
+      "component": "appleboy/telegram-action@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-sending-notifications.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-ghcr-badge.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mlocati/docker-php-extension-installer",
+      "target": "php-memcached-dev/php-memcached",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mlocati/docker-php-extension-installer",
+      "target": "mlocati/pecl-info",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-new-issue.yml",
+      "source_repo": "mlocati/docker-php-extension-installer",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check-new-issue.yml",
+      "source_repo": "mlocati/docker-php-extension-installer",
+      "target": "Check new issue",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/monitor-php8.5.yml",
+      "source_repo": "mlocati/docker-php-extension-installer",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/monitor-php8.5.yml",
+      "source_repo": "mlocati/docker-php-extension-installer",
+      "target": "appleboy/telegram-action@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/readme-release.yml",
+      "source_repo": "mlocati/docker-php-extension-installer",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/readme-release.yml",
+      "source_repo": "mlocati/docker-php-extension-installer",
+      "target": "actions/github-script@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/readme-release.yml",
+      "source_repo": "mlocati/docker-php-extension-installer",
+      "target": "docker/login-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/readme-release.yml",
+      "source_repo": "mlocati/docker-php-extension-installer",
+      "target": "docker/setup-buildx-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/readme-release.yml",
+      "source_repo": "mlocati/docker-php-extension-installer",
+      "target": "docker/build-push-action@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/readme-release.yml",
+      "source_repo": "mlocati/docker-php-extension-installer",
+      "target": "softprops/action-gh-release@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/readme-release.yml",
+      "source_repo": "mlocati/docker-php-extension-installer",
+      "target": "Update README and create release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-dockerfile.yml",
+      "source_repo": "mlocati/docker-php-extension-installer",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test-dockerfile.yml",
+      "source_repo": "mlocati/docker-php-extension-installer",
+      "target": "Build Docker image",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-extensions.yml",
+      "source_repo": "mlocati/docker-php-extension-installer",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-extensions.yml",
+      "source_repo": "mlocati/docker-php-extension-installer",
+      "target": "actions/setup-go@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-extensions.yml",
+      "source_repo": "mlocati/docker-php-extension-installer",
+      "target": "shivammathur/setup-php@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test-extensions.yml",
+      "source_repo": "mlocati/docker-php-extension-installer",
+      "target": "Test extensions",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-recent-extensions.yml",
+      "source_repo": "mlocati/docker-php-extension-installer",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-recent-extensions.yml",
+      "source_repo": "mlocati/docker-php-extension-installer",
+      "target": "actions/upload-artifact@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-recent-extensions.yml",
+      "source_repo": "mlocati/docker-php-extension-installer",
+      "target": "actions/download-artifact@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-recent-extensions.yml",
+      "source_repo": "mlocati/docker-php-extension-installer",
+      "target": "appleboy/telegram-action@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test-recent-extensions.yml",
+      "source_repo": "mlocati/docker-php-extension-installer",
+      "target": "Test recent",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-sending-notifications.yml",
+      "source_repo": "mlocati/docker-php-extension-installer",
+      "target": "appleboy/telegram-action@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test-sending-notifications.yml",
+      "source_repo": "mlocati/docker-php-extension-installer",
+      "target": "Test sending notifications",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-ghcr-badge.yml",
+      "source_repo": "mlocati/docker-php-extension-installer",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/update-ghcr-badge.yml",
+      "source_repo": "mlocati/docker-php-extension-installer",
+      "target": "Update GitHub Registry badge",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mlocati/docker-php-extension-installer",
+      "target": "docker",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mlocati/docker-php-extension-installer",
+      "target": "extension",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mlocati/docker-php-extension-installer",
+      "target": "install",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T05:04:17.558981+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 45241
+    },
+    {
+      "path": "Dockerfile",
+      "size": 231
+    },
+    {
+      "path": ".github/workflows/check-new-issue.yml",
+      "size": 322
+    },
+    {
+      "path": ".github/workflows/monitor-php8.5.yml",
+      "size": 972
+    },
+    {
+      "path": ".github/workflows/readme-release.yml",
+      "size": 9414
+    },
+    {
+      "path": ".github/workflows/test-dockerfile.yml",
+      "size": 1153
+    },
+    {
+      "path": ".github/workflows/test-extensions.yml",
+      "size": 10578
+    },
+    {
+      "path": ".github/workflows/test-recent-extensions.yml",
+      "size": 2811
+    },
+    {
+      "path": ".github/workflows/test-sending-notifications.yml",
+      "size": 521
+    },
+    {
+      "path": ".github/workflows/update-ghcr-badge.yml",
+      "size": 2168
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Easily install PHP extensions in Docker containers",
+    "fork": false,
+    "full_name": "mlocati/docker-php-extension-installer",
+    "html_url": "https://github.com/mlocati/docker-php-extension-installer",
+    "language": "Shell",
+    "pushed_at": "2026-04-29T12:35:10Z",
+    "stargazers_count": 4902,
+    "topics": [
+      "docker",
+      "extension",
+      "install",
+      "php"
+    ],
+    "updated_at": "2026-04-28T07:50:47Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mlocati/pecl-info",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "php-memcached-dev/php-memcached",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Check new issue",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check-new-issue.yml",
+      "term": "Check new issue"
+    },
+    {
+      "context_snippet": "Update README and create release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/readme-release.yml",
+      "term": "Update README and create release"
+    },
+    {
+      "context_snippet": "Build Docker image",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test-dockerfile.yml",
+      "term": "Build Docker image"
+    },
+    {
+      "context_snippet": "Test extensions",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test-extensions.yml",
+      "term": "Test extensions"
+    },
+    {
+      "context_snippet": "Test recent",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test-recent-extensions.yml",
+      "term": "Test recent"
+    },
+    {
+      "context_snippet": "Test sending notifications",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test-sending-notifications.yml",
+      "term": "Test sending notifications"
+    },
+    {
+      "context_snippet": "Update GitHub Registry badge",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/update-ghcr-badge.yml",
+      "term": "Update GitHub Registry badge"
+    },
+    {
+      "context_snippet": "[![Downloaded GitHub Releases](https://img.shields.io/github/downloads/mlocati/docker-php-extension-installer/total?label=Downloaded%20releases)](https://github.com/mlocati/docker-php-extension-installer/releases)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "docker"
+    },
+    {
+      "context_snippet": "[![Downloaded GitHub Releases](https://img.shields.io/github/downloads/mlocati/docker-php-extension-installer/total?label=Downloaded%20releases)](https://github.com/mlocati/docker-php-extension-installer/releases)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "extension"
+    },
+    {
+      "context_snippet": "[![Downloaded GitHub Releases](https://img.shields.io/github/downloads/mlocati/docker-php-extension-installer/total?label=Downloaded%20releases)](https://github.com/mlocati/docker-php-extension-installer/releases)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "install"
+    }
+  ]
+}

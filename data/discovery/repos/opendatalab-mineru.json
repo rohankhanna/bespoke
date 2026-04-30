@@ -1,0 +1,493 @@
+{
+  "components": [
+    {
+      "component": "write",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cla.yml"
+    },
+    {
+      "component": "contributor-assistant/github-action@v2.6.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cla.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cli.yml"
+    },
+    {
+      "component": "astral-sh/setup-uv@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cli.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mkdocs.yml"
+    },
+    {
+      "component": "mhausenblas/mkdocs-deploy-gh-pages@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mkdocs.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-package.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-package.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-package.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-package.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-package.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-package.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-package.yml"
+    },
+    {
+      "component": "actions/download-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-package.yml"
+    },
+    {
+      "component": "softprops/action-gh-release@4634c16e79c963813287e889244c50009e7f0981",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-package.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "opendatalab/MinerU",
+      "target": "frotms/paddleocr2pytorch",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "opendatalab/MinerU",
+      "target": "datalab-to/pdftext",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "opendatalab/MinerU",
+      "target": "google/magika",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "opendatalab/MinerU",
+      "target": "internlm/magic-doc",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cla.yml",
+      "source_repo": "opendatalab/MinerU",
+      "target": "write",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cla.yml",
+      "source_repo": "opendatalab/MinerU",
+      "target": "contributor-assistant/github-action@v2.6.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cla.yml",
+      "source_repo": "opendatalab/MinerU",
+      "target": "MinerU CLA Assistant",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cli.yml",
+      "source_repo": "opendatalab/MinerU",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cli.yml",
+      "source_repo": "opendatalab/MinerU",
+      "target": "astral-sh/setup-uv@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cli.yml",
+      "source_repo": "opendatalab/MinerU",
+      "target": "mineru-cli-test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mkdocs.yml",
+      "source_repo": "opendatalab/MinerU",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mkdocs.yml",
+      "source_repo": "opendatalab/MinerU",
+      "target": "mhausenblas/mkdocs-deploy-gh-pages@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/mkdocs.yml",
+      "source_repo": "opendatalab/MinerU",
+      "target": "Publish docs via GitHub Pages",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-package.yml",
+      "source_repo": "opendatalab/MinerU",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-package.yml",
+      "source_repo": "opendatalab/MinerU",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-package.yml",
+      "source_repo": "opendatalab/MinerU",
+      "target": "actions/upload-artifact@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-package.yml",
+      "source_repo": "opendatalab/MinerU",
+      "target": "actions/download-artifact@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-package.yml",
+      "source_repo": "opendatalab/MinerU",
+      "target": "softprops/action-gh-release@4634c16e79c963813287e889244c50009e7f0981",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/rerun.yml",
+      "source_repo": "opendatalab/MinerU",
+      "target": "check-status",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "opendatalab/MinerU",
+      "target": "ai4science",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "opendatalab/MinerU",
+      "target": "document-analysis",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "opendatalab/MinerU",
+      "target": "docx",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "opendatalab/MinerU",
+      "target": "extract-data",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "opendatalab/MinerU",
+      "target": "layout-analysis",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "opendatalab/MinerU",
+      "target": "parser",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "opendatalab/MinerU",
+      "target": "pdf-converter",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "opendatalab/MinerU",
+      "target": "pdf-extractor-llm",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "opendatalab/MinerU",
+      "target": "pdf-extractor-pretrain",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "opendatalab/MinerU",
+      "target": "pdf-extractor-rag",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "opendatalab/MinerU",
+      "target": "pdf-parser",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "opendatalab/MinerU",
+      "target": "pptx",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "opendatalab/MinerU",
+      "target": "xlsx",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T02:04:09.418571+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 36373
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 4469
+    },
+    {
+      "path": ".github/workflows/cla.yml",
+      "size": 2812
+    },
+    {
+      "path": ".github/workflows/cli.yml",
+      "size": 1632
+    },
+    {
+      "path": ".github/workflows/mkdocs.yml",
+      "size": 567
+    },
+    {
+      "path": ".github/workflows/python-package.yml",
+      "size": 3510
+    },
+    {
+      "path": ".github/workflows/rerun.yml",
+      "size": 752
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Transforms complex documents like PDFs and Office docs into LLM-ready markdown/JSON for your Agentic workflows.",
+    "fork": false,
+    "full_name": "opendatalab/MinerU",
+    "html_url": "https://github.com/opendatalab/MinerU",
+    "language": "Python",
+    "pushed_at": "2026-04-29T15:59:05Z",
+    "stargazers_count": 61561,
+    "topics": [
+      "ai4science",
+      "document-analysis",
+      "docx",
+      "extract-data",
+      "layout-analysis",
+      "ocr",
+      "parser",
+      "pdf",
+      "pdf-converter",
+      "pdf-extractor-llm",
+      "pdf-extractor-pretrain",
+      "pdf-extractor-rag",
+      "pdf-parser",
+      "pptx",
+      "python",
+      "xlsx"
+    ],
+    "updated_at": "2026-04-30T01:51:58Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "datalab-to/pdftext",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "frotms/paddleocr2pytorch",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "google/magika",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "internlm/magic-doc",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "\"MinerU CLA Assistant\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cla.yml",
+      "term": "MinerU CLA Assistant"
+    },
+    {
+      "context_snippet": "mineru-cli-test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cli.yml",
+      "term": "mineru-cli-test"
+    },
+    {
+      "context_snippet": "Publish docs via GitHub Pages",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/mkdocs.yml",
+      "term": "Publish docs via GitHub Pages"
+    },
+    {
+      "context_snippet": "check-status",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/rerun.yml",
+      "term": "check-status"
+    },
+    {
+      "context_snippet": "<div align=\"center\" xmlns=\"http://www.w3.org/1999/html\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ai4science"
+    },
+    {
+      "context_snippet": "<div align=\"center\" xmlns=\"http://www.w3.org/1999/html\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "document-analysis"
+    },
+    {
+      "context_snippet": "<div align=\"center\" xmlns=\"http://www.w3.org/1999/html\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "docx"
+    },
+    {
+      "context_snippet": "<div align=\"center\" xmlns=\"http://www.w3.org/1999/html\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "extract-data"
+    },
+    {
+      "context_snippet": "<div align=\"center\" xmlns=\"http://www.w3.org/1999/html\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "layout-analysis"
+    },
+    {
+      "context_snippet": "<div align=\"center\" xmlns=\"http://www.w3.org/1999/html\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "parser"
+    },
+    {
+      "context_snippet": "<div align=\"center\" xmlns=\"http://www.w3.org/1999/html\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pdf-converter"
+    },
+    {
+      "context_snippet": "<div align=\"center\" xmlns=\"http://www.w3.org/1999/html\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pdf-extractor-llm"
+    },
+    {
+      "context_snippet": "<div align=\"center\" xmlns=\"http://www.w3.org/1999/html\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pdf-extractor-pretrain"
+    },
+    {
+      "context_snippet": "<div align=\"center\" xmlns=\"http://www.w3.org/1999/html\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pdf-extractor-rag"
+    },
+    {
+      "context_snippet": "<div align=\"center\" xmlns=\"http://www.w3.org/1999/html\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pdf-parser"
+    },
+    {
+      "context_snippet": "<div align=\"center\" xmlns=\"http://www.w3.org/1999/html\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pptx"
+    },
+    {
+      "context_snippet": "<div align=\"center\" xmlns=\"http://www.w3.org/1999/html\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "xlsx"
+    }
+  ]
+}

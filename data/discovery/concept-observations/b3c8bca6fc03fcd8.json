@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A Gradle plugin that helps facilitate GitHub PR checking and automatic commenting of violations."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Gnag is a Gradle plugin that helps facilitate GitHub PR checking and automatic commenting of violations for Android projects."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Gnag is a Gradle plugin that helps facilitate GitHub PR checking and automatic commenting of violations for Android projects."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "github-pr",
+      "sense_id": "github-pr#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "github-pr",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "github-pr",
+  "observation_id": "b3c8bca6fc03fcd8",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T00:37:16.824464+00:00",
+  "observed_text": "github-pr",
+  "source_context_snippet": "Gnag is a Gradle plugin that helps facilitate GitHub PR checking and automatic commenting of violations for Android projects.",
+  "source_file": null,
+  "source_repo": "btkelly/gnag",
+  "source_repo_description": "A Gradle plugin that helps facilitate GitHub PR checking and automatic commenting of violations."
+}

@@ -79,6 +79,78 @@
       "source_repo": "dwyl/elixir-auth-github-demo",
       "status": "candidate-context",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "octokit/oauth-app.js",
+      "status": "candidate-context",
+      "text": "GitHub OAuth toolset for Node.js"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "octokit/oauth-app.js",
+      "status": "candidate-context",
+      "text": "> GitHub OAuth toolset for Node.js"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "octokit/auth-oauth-app.js",
+      "status": "candidate-context",
+      "text": "GitHub OAuth App authentication for JavaScript"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "octokit/auth-oauth-app.js",
+      "status": "candidate-context",
+      "text": "> GitHub OAuth App authentication for JavaScript"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "googleapis/google-auth-library-nodejs",
+      "status": "candidate-context",
+      "text": "\ud83d\udd11 Google Auth Library for Node.js"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "googleapis/google-auth-library-nodejs",
+      "status": "candidate-context",
+      "text": "[//]: # \"This README.md file is auto-generated, all changes to this file will be lost.\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "octokit/auth-oauth-user-client.js",
+      "status": "candidate-context",
+      "text": "OAuth user authentication without exposing client secret"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "octokit/auth-oauth-user-client.js",
+      "status": "candidate-context",
+      "text": "> OAuth user authentication without exposing client secret"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "octokit/auth-oauth-user.js",
+      "status": "candidate-context",
+      "text": "Octokit authentication strategy for OAuth clients"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "octokit/auth-oauth-user.js",
+      "status": "candidate-context",
+      "text": "> Octokit authentication strategy for OAuth user authentication"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "octokit/oauth-authorization-url.js",
+      "status": "candidate-context",
+      "text": "Universal library to retrieve GitHub\u2019s identity URL for the OAuth web flow"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "octokit/oauth-authorization-url.js",
+      "status": "candidate-context",
+      "text": "> Universal library to retrieve GitHub\u2019s identity URL for the OAuth web flow"
     }
   ],
   "candidate_glosses": [
@@ -117,6 +189,42 @@
       "source_repo": "dwyl/elixir-auth-github-demo",
       "status": "candidate",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "octokit/oauth-app.js",
+      "status": "candidate",
+      "text": "> GitHub OAuth toolset for Node.js"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "octokit/auth-oauth-app.js",
+      "status": "candidate",
+      "text": "> GitHub OAuth App authentication for JavaScript"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "googleapis/google-auth-library-nodejs",
+      "status": "candidate",
+      "text": "[//]: # \"This README.md file is auto-generated, all changes to this file will be lost.\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "octokit/auth-oauth-user-client.js",
+      "status": "candidate",
+      "text": "> OAuth user authentication without exposing client secret"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "octokit/auth-oauth-user.js",
+      "status": "candidate",
+      "text": "> Octokit authentication strategy for OAuth user authentication"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "octokit/oauth-authorization-url.js",
+      "status": "candidate",
+      "text": "> Universal library to retrieve GitHub\u2019s identity URL for the OAuth web flow"
     }
   ],
   "candidate_related_terms": [
@@ -226,11 +334,53 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "dwyl/elixir-auth-github-demo"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "apache/casbin"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "octokit/oauth-app.js"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "octokit/auth-oauth-app.js"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "googleapis/google-auth-library-nodejs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "octokit/auth-oauth-user-client.js"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "octokit/auth-oauth-user.js"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "octokit/oauth-authorization-url.js"
     }
   ],
   "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

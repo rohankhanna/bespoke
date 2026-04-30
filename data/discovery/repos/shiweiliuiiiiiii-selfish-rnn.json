@@ -1,0 +1,141 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Shiweiliuiiiiiii/Selfish-RNN",
+      "target": "timdettmers/sparse_learning",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Shiweiliuiiiiiii/Selfish-RNN",
+      "target": "awd-lstm",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Shiweiliuiiiiiii/Selfish-RNN",
+      "target": "awd-mos-lstm",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Shiweiliuiiiiiii/Selfish-RNN",
+      "target": "dynamic-sparse-training",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Shiweiliuiiiiiii/Selfish-RNN",
+      "target": "onlstm",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Shiweiliuiiiiiii/Selfish-RNN",
+      "target": "recurrent-neural-networks",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Shiweiliuiiiiiii/Selfish-RNN",
+      "target": "sparse-rnn-training",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Shiweiliuiiiiiii/Selfish-RNN",
+      "target": "sparse-training",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T05:15:11.018992+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5477
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "[ICML 2021] \"Selfish Sparse RNN Training\" by Shiwei Liu, Decebal Constantin Mocanu, Yulong Pei, Mykola Pechenizkiy",
+    "fork": false,
+    "full_name": "Shiweiliuiiiiiii/Selfish-RNN",
+    "html_url": "https://github.com/Shiweiliuiiiiiii/Selfish-RNN",
+    "language": "Python",
+    "pushed_at": "2021-10-08T03:52:04Z",
+    "stargazers_count": 10,
+    "topics": [
+      "awd-lstm",
+      "awd-mos-lstm",
+      "dynamic-sparse-training",
+      "onlstm",
+      "recurrent-neural-networks",
+      "sparse-rnn-training",
+      "sparse-training"
+    ],
+    "updated_at": "2024-07-12T13:56:18Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "timdettmers/sparse_learning",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "This repository is the official implementation of ICML2021: [Selfish Sparse RNN Training](https://arxiv.org/abs/2101.09048)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "awd-lstm"
+    },
+    {
+      "context_snippet": "This repository is the official implementation of ICML2021: [Selfish Sparse RNN Training](https://arxiv.org/abs/2101.09048)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "awd-mos-lstm"
+    },
+    {
+      "context_snippet": "This repository is the official implementation of ICML2021: [Selfish Sparse RNN Training](https://arxiv.org/abs/2101.09048)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dynamic-sparse-training"
+    },
+    {
+      "context_snippet": "This repository is the official implementation of ICML2021: [Selfish Sparse RNN Training](https://arxiv.org/abs/2101.09048)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "onlstm"
+    },
+    {
+      "context_snippet": "This repository is the official implementation of ICML2021: [Selfish Sparse RNN Training](https://arxiv.org/abs/2101.09048)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "recurrent-neural-networks"
+    },
+    {
+      "context_snippet": "This repository is the official implementation of ICML2021: [Selfish Sparse RNN Training](https://arxiv.org/abs/2101.09048)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "sparse-rnn-training"
+    },
+    {
+      "context_snippet": "This repository is the official implementation of ICML2021: [Selfish Sparse RNN Training](https://arxiv.org/abs/2101.09048)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "sparse-training"
+    }
+  ]
+}

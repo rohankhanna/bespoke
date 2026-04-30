@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "ARCHIVED. Go to https://github.com/adapter-hub/adapters for the latest version."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "'Stale issues Bot'"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "'Stale issues Bot'"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18288,
+      "status": "candidate",
+      "text": "palos"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18262,
+      "status": "candidate",
+      "text": "back"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18236,
+      "status": "candidate",
+      "text": "anglo-saxon"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18236,
+      "status": "candidate",
+      "text": "bak"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18236,
+      "status": "candidate",
+      "text": "bate"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Stale issues Bot",
+      "sense_id": "stale-issues-bot#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "stale-issues-bot",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "stale-issues-bot",
+  "observation_id": "8a9e2d9124e26bd4",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-30T00:37:16.824464+00:00",
+  "observed_text": "Stale issues Bot",
+  "source_context_snippet": "'Stale issues Bot'",
+  "source_file": ".github/workflows/stale.yml",
+  "source_repo": "adapter-hub/adapter-transformers-legacy",
+  "source_repo_description": "ARCHIVED. Go to https://github.com/adapter-hub/adapters for the latest version."
+}

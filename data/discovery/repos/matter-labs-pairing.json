@@ -1,0 +1,61 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "matter-labs/pairing",
+      "target": "matter-labs/zksync-crypto",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "matter-labs/pairing",
+      "target": "team-crypto",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T04:52:25.890641+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1317
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 766
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "master",
+    "description": "Pairing-friendly elliptic curve library",
+    "fork": true,
+    "full_name": "matter-labs/pairing",
+    "html_url": "https://github.com/matter-labs/pairing",
+    "language": "Rust",
+    "pushed_at": "2024-08-15T07:05:39Z",
+    "stargazers_count": 24,
+    "topics": [
+      "team-crypto"
+    ],
+    "updated_at": "2025-04-04T04:24:21Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "matter-labs/zksync-crypto",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "> [!WARNING]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "team-crypto"
+    }
+  ]
+}

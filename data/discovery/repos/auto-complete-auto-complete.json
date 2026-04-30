@@ -1,0 +1,152 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "jcs090218/setup-emacs@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "emacs-eask/setup-eask@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "auto-complete/auto-complete",
+      "target": "auto-complete/popup-el",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "auto-complete/auto-complete",
+      "target": "auto-complete/fuzzy-el",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "auto-complete/auto-complete",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "auto-complete/auto-complete",
+      "target": "jcs090218/setup-emacs@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "auto-complete/auto-complete",
+      "target": "emacs-eask/setup-eask@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "auto-complete/auto-complete",
+      "target": "auto-complete",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "auto-complete/auto-complete",
+      "target": "completion",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "auto-complete/auto-complete",
+      "target": "emacs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "auto-complete/auto-complete",
+      "target": "melpa",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T04:08:24.034738+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2714
+    },
+    {
+      "path": ".github/workflows/test.yml",
+      "size": 1227
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Emacs auto-complete package",
+    "fork": false,
+    "full_name": "auto-complete/auto-complete",
+    "html_url": "https://github.com/auto-complete/auto-complete",
+    "language": "Emacs Lisp",
+    "pushed_at": "2025-12-31T16:22:28Z",
+    "stargazers_count": 1763,
+    "topics": [
+      "auto-complete",
+      "completion",
+      "emacs",
+      "melpa"
+    ],
+    "updated_at": "2026-04-18T07:19:39Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "auto-complete/fuzzy-el",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "auto-complete/popup-el",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "> [!Important]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "auto-complete"
+    },
+    {
+      "context_snippet": "> [!Important]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "completion"
+    },
+    {
+      "context_snippet": "> [!Important]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "emacs"
+    },
+    {
+      "context_snippet": "> [!Important]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "melpa"
+    }
+  ]
+}

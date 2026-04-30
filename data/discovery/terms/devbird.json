@@ -1,0 +1,17 @@
+{
+  "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/devbird.yml",
+      "source_repo": "swc-project/swc"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/devbird.yml",
+      "source_repo": "web-infra-dev/rslint"
+    }
+  ],
+  "term": "DevBird"
+}

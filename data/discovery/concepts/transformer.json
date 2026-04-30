@@ -571,6 +571,246 @@
       "source_repo": "lucidrains/tab-transformer-pytorch",
       "status": "candidate-context",
       "text": "<img src=\"./tab.png\" width=\"250px\"></img>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "microsoft/monitors4codegen",
+      "status": "candidate-context",
+      "text": "Code and Data artifact for NeurIPS 2023 paper - \"Monitor-Guided Decoding of Code LMs with Static Analysis of Repository Context\". `multispy` is a lsp client library in Python intended to be used to build applications around language servers."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/monitors4codegen",
+      "status": "candidate-context",
+      "text": "Alternative title: Guiding Language Models of Code with Global Context using Monitors"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "IDEA-Research/Stable-DINO",
+      "status": "candidate-context",
+      "text": "[ICCV 2023] Official implementation of the paper \"Detection Transformer with Stable Matching\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "IDEA-Research/Stable-DINO",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Atten4Vis/ConditionalDETR",
+      "status": "candidate-context",
+      "text": "This repository is an official implementation of the ICCV 2021 paper \"Conditional DETR for Fast Training Convergence\". (https://arxiv.org/abs/2108.06152)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Atten4Vis/ConditionalDETR",
+      "status": "candidate-context",
+      "text": "This repository is an official implementation of the ICCV 2021 paper \"[Conditional DETR for Fast Training Convergence](https://arxiv.org/abs/2108.06152)\"."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JIA-Lab-research/SparseTransformer",
+      "status": "candidate-context",
+      "text": "A fast and memory-efficient libarary for sparse transformer with varying token numbers (e.g., 3D point cloud)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JIA-Lab-research/SparseTransformer",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "whai362/PVT",
+      "status": "candidate-context",
+      "text": "Official implementation of PVT series"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "whai362/PVT",
+      "status": "candidate-context",
+      "text": "- (2022/08/09) Application examples for polyp segmentation (polyp-pvt) and vision-language modeling."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sugarme/transformer",
+      "status": "candidate-context",
+      "text": "NLP transformers written in Go"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sugarme/transformer",
+      "status": "candidate-context",
+      "text": "`transformer` is pure Go package to facilitate applying Natural Language Processing (NLP) models train/test and inference in Go."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Kyubyong/transformer",
+      "status": "candidate-context",
+      "text": "A TensorFlow Implementation of the Transformer: Attention Is All You Need"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Kyubyong/transformer",
+      "status": "candidate-context",
+      "text": "When I opened this repository in 2017, there was no official code yet."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mv-lab/swin2sr",
+      "status": "candidate-context",
+      "text": "[ECCV] Swin2SR: SwinV2 Transformer for Compressed Image Super-Resolution and Restoration.  Advances in Image Manipulation (AIM) workshop ECCV 2022. Try it out! over 3.3M runs https://replicate.com/mv-lab/swin2sr"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mv-lab/swin2sr",
+      "status": "candidate-context",
+      "text": "[![arXiv](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)](https://arxiv.org/abs/2209.11345)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "caiyuanhao1998/MST",
+      "status": "candidate-context",
+      "text": "A toolbox for spectral compressive imaging reconstruction including MST (CVPR 2022), CST (ECCV 2022), DAUHST (NeurIPS 2022), BiSCI (NeurIPS 2023), HDNet (CVPR 2022), MST++ (CVPRW 2022), etc."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "caiyuanhao1998/MST",
+      "status": "candidate-context",
+      "text": "[![winner](https://img.shields.io/badge/MST++-Winner_of_NTIRE_2022_Spectral_Reconstruction_Challenge-179bd3)](https://github.com/caiyuanhao1998/MST-plus-plus/)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lucidrains/electra-pytorch",
+      "status": "candidate-context",
+      "text": "A simple and working implementation of Electra, the fastest way to pretrain language models from scratch, in Pytorch"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lucidrains/electra-pytorch",
+      "status": "candidate-context",
+      "text": "<img src=\"./electra.png\"></img>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "microsoft/multilspy",
+      "status": "candidate-context",
+      "text": "multilspy is a lsp client library in Python intended to be used to build applications around language servers."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/multilspy",
+      "status": "candidate-context",
+      "text": "[![PyPI - Version](https://img.shields.io/pypi/v/multilspy)](https://pypi.org/project/multilspy/)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "thunlp/OpenPrompt",
+      "status": "candidate-context",
+      "text": "An Open-Source Framework for Prompt-Learning."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "thunlp/OpenPrompt",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "google/trax",
+      "status": "candidate-context",
+      "text": "Trax \u2014 Deep Learning with Clear Code and Speed"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/trax",
+      "status": "candidate-context",
+      "text": "![train tracks](https://images.pexels.com/photos/461772/pexels-photo-461772.jpeg?dl&fit=crop&crop=entropy&w=32&h=21)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ppogg/YOLOv5-Lite",
+      "status": "candidate-context",
+      "text": "\ud83c\udf45\ud83c\udf45\ud83c\udf45YOLOv5-Lite: Evolved from yolov5 and the size of model is only 900+kb (int8) and 1.7M (fp16). Reach 15 FPS on the Raspberry Pi 4B~"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ppogg/YOLOv5-Lite",
+      "status": "candidate-context",
+      "text": "![\u8bba\u6587\u63d2\u56fe](https://user-images.githubusercontent.com/82716366/167448925-a431d3a4-ad5d-491d-be95-c90701122a54.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "IDEA-Research/DAB-DETR",
+      "status": "candidate-context",
+      "text": "[ICLR 2022] Official implementation of the paper \"DAB-DETR: Dynamic Anchor Boxes are Better Queries for DETR\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "IDEA-Research/DAB-DETR",
+      "status": "candidate-context",
+      "text": "\ufeff# DAB-DETR"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "vasgaowei/TS-CAM",
+      "status": "candidate-context",
+      "text": "Codes for TS-CAM: Token Semantic Coupled Attention Map for Weakly Supervised Object Localization."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vasgaowei/TS-CAM",
+      "status": "candidate-context",
+      "text": "![Python 3.7](https://img.shields.io/badge/Python-3.7-green.svg?style=plastic)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JIA-Lab-research/SphereFormer",
+      "status": "candidate-context",
+      "text": "The official implementation for \"Spherical Transformer for LiDAR-based 3D Recognition\" (CVPR 2023)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JIA-Lab-research/SphereFormer",
+      "status": "candidate-context",
+      "text": "[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/spherical-transformer-for-lidar-based-3d/3d-semantic-segmentation-on-semantickitti)](https://paperswithcode.com/sota/3d-semantic-segmentation-on-semantickitti?p=spherical-transformer-for-lidar-based\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JIA-Lab-research/Stratified-Transformer",
+      "status": "candidate-context",
+      "text": "Stratified Transformer for 3D Point Cloud Segmentation (CVPR 2022)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JIA-Lab-research/Stratified-Transformer",
+      "status": "candidate-context",
+      "text": "*Xin Lai<sup>\\*</sup>, Jianhui Liu<sup>\\*</sup>, Li Jiang, Liwei Wang, Hengshuang Zhao, Shu Liu, Xiaojuan Qi, Jiaya Jia*"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "BR-IDL/PaddleViT",
+      "status": "candidate-context",
+      "text": ":robot: PaddleViT: State-of-the-art Visual Transformer and MLP Models for PaddlePaddle 2.0+"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "BR-IDL/PaddleViT",
+      "status": "candidate-context",
+      "text": "English | [\u7b80\u4f53\u4e2d\u6587](./README_cn.md)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "X-PLUG/mPLUG-Owl",
+      "status": "candidate-context",
+      "text": "mPLUG-Owl: The Powerful Multi-modal Large Language Model  Family"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "X-PLUG/mPLUG-Owl",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -855,6 +1095,126 @@
       "source_repo": "lucidrains/tab-transformer-pytorch",
       "status": "candidate",
       "text": "<img src=\"./tab.png\" width=\"250px\"></img>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/monitors4codegen",
+      "status": "candidate",
+      "text": "Alternative title: Guiding Language Models of Code with Global Context using Monitors"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "IDEA-Research/Stable-DINO",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Atten4Vis/ConditionalDETR",
+      "status": "candidate",
+      "text": "This repository is an official implementation of the ICCV 2021 paper \"[Conditional DETR for Fast Training Convergence](https://arxiv.org/abs/2108.06152)\"."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JIA-Lab-research/SparseTransformer",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "whai362/PVT",
+      "status": "candidate",
+      "text": "- (2022/08/09) Application examples for polyp segmentation (polyp-pvt) and vision-language modeling."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sugarme/transformer",
+      "status": "candidate",
+      "text": "`transformer` is pure Go package to facilitate applying Natural Language Processing (NLP) models train/test and inference in Go."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Kyubyong/transformer",
+      "status": "candidate",
+      "text": "When I opened this repository in 2017, there was no official code yet."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mv-lab/swin2sr",
+      "status": "candidate",
+      "text": "[![arXiv](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)](https://arxiv.org/abs/2209.11345)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "caiyuanhao1998/MST",
+      "status": "candidate",
+      "text": "[![winner](https://img.shields.io/badge/MST++-Winner_of_NTIRE_2022_Spectral_Reconstruction_Challenge-179bd3)](https://github.com/caiyuanhao1998/MST-plus-plus/)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lucidrains/electra-pytorch",
+      "status": "candidate",
+      "text": "<img src=\"./electra.png\"></img>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/multilspy",
+      "status": "candidate",
+      "text": "[![PyPI - Version](https://img.shields.io/pypi/v/multilspy)](https://pypi.org/project/multilspy/)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "thunlp/OpenPrompt",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/trax",
+      "status": "candidate",
+      "text": "![train tracks](https://images.pexels.com/photos/461772/pexels-photo-461772.jpeg?dl&fit=crop&crop=entropy&w=32&h=21)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ppogg/YOLOv5-Lite",
+      "status": "candidate",
+      "text": "![\u8bba\u6587\u63d2\u56fe](https://user-images.githubusercontent.com/82716366/167448925-a431d3a4-ad5d-491d-be95-c90701122a54.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "IDEA-Research/DAB-DETR",
+      "status": "candidate",
+      "text": "\ufeff# DAB-DETR"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vasgaowei/TS-CAM",
+      "status": "candidate",
+      "text": "![Python 3.7](https://img.shields.io/badge/Python-3.7-green.svg?style=plastic)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JIA-Lab-research/SphereFormer",
+      "status": "candidate",
+      "text": "[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/spherical-transformer-for-lidar-based-3d/3d-semantic-segmentation-on-semantickitti)](https://paperswithcode.com/sota/3d-semantic-segmentation-on-semantickitti?p=spherical-transformer-for-lidar-based\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JIA-Lab-research/Stratified-Transformer",
+      "status": "candidate",
+      "text": "*Xin Lai<sup>\\*</sup>, Jianhui Liu<sup>\\*</sup>, Li Jiang, Liwei Wang, Hengshuang Zhao, Shu Liu, Xiaojuan Qi, Jiaya Jia*"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "BR-IDL/PaddleViT",
+      "status": "candidate",
+      "text": "English | [\u7b80\u4f53\u4e2d\u6587](./README_cn.md)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "X-PLUG/mPLUG-Owl",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -1270,11 +1630,149 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "lucidrains/tab-transformer-pytorch"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "microsoft/monitors4codegen"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "ggml-org/whisper.cpp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "IDEA-Research/Stable-DINO"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "Atten4Vis/ConditionalDETR"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "JIA-Lab-research/SparseTransformer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "whai362/PVT"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "sugarme/transformer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "AutoGPTQ/AutoGPTQ"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "Kyubyong/transformer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "LiyuanLucasLiu/Transformer-Clinic"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "mv-lab/swin2sr"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "caiyuanhao1998/MST"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "lucidrains/electra-pytorch"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "microsoft/multilspy"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "thunlp/OpenPrompt"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "google/trax"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "ppogg/YOLOv5-Lite"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "IDEA-Research/DAB-DETR"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "vasgaowei/TS-CAM"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "JIA-Lab-research/SphereFormer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "JIA-Lab-research/Stratified-Transformer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "BR-IDL/PaddleViT"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "X-PLUG/mPLUG-Owl"
     }
   ],
   "first_seen_at": "2026-04-18T10:43:38.551697+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

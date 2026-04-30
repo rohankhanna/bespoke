@@ -1,0 +1,358 @@
+{
+  "components": [
+    {
+      "component": "actions/setup-go@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go-examples.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go-examples.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go-tests.yml"
+    },
+    {
+      "component": "actions/setup-go@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go-tests.yml"
+    },
+    {
+      "component": "golangci/golangci-lint-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go-tests.yml"
+    },
+    {
+      "component": "actions/setup-go@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go-tests.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go-tests.yml"
+    },
+    {
+      "component": "actions/setup-go@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go-tests.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go-tests.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/setup-node@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/setup-go@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "goreleaser/goreleaser-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/typescript-checks.yml"
+    },
+    {
+      "component": "actions/setup-node@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/typescript-checks.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/typescript-checks.yml"
+    },
+    {
+      "component": "actions/setup-node@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/typescript-checks.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "c-bata/goptuna",
+      "target": "kubeflow/katib",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "c-bata/goptuna",
+      "target": "c-bata/goptuna-bayesopt",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "c-bata/goptuna",
+      "target": "c-bata/goptuna-isucon9q",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go-examples.yml",
+      "source_repo": "c-bata/goptuna",
+      "target": "actions/setup-go@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go-examples.yml",
+      "source_repo": "c-bata/goptuna",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/go-examples.yml",
+      "source_repo": "c-bata/goptuna",
+      "target": "Run examples",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go-tests.yml",
+      "source_repo": "c-bata/goptuna",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go-tests.yml",
+      "source_repo": "c-bata/goptuna",
+      "target": "actions/setup-go@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go-tests.yml",
+      "source_repo": "c-bata/goptuna",
+      "target": "golangci/golangci-lint-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/go-tests.yml",
+      "source_repo": "c-bata/goptuna",
+      "target": "tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "c-bata/goptuna",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "c-bata/goptuna",
+      "target": "actions/setup-node@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "c-bata/goptuna",
+      "target": "actions/setup-go@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "c-bata/goptuna",
+      "target": "goreleaser/goreleaser-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "c-bata/goptuna",
+      "target": "release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/typescript-checks.yml",
+      "source_repo": "c-bata/goptuna",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/typescript-checks.yml",
+      "source_repo": "c-bata/goptuna",
+      "target": "actions/setup-node@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/typescript-checks.yml",
+      "source_repo": "c-bata/goptuna",
+      "target": "typescript-checks",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "c-bata/goptuna",
+      "target": "bandit-algorithms",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "c-bata/goptuna",
+      "target": "bayesian-optimization",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "c-bata/goptuna",
+      "target": "blackbox-optimization",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "c-bata/goptuna",
+      "target": "evolution-strategies",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T03:54:56.447929+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 10387
+    },
+    {
+      "path": "go.mod",
+      "size": 913
+    },
+    {
+      "path": ".github/workflows/go-examples.yml",
+      "size": 778
+    },
+    {
+      "path": ".github/workflows/go-tests.yml",
+      "size": 1770
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "size": 984
+    },
+    {
+      "path": ".github/workflows/typescript-checks.yml",
+      "size": 869
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A hyperparameter optimization framework, inspired by Optuna.",
+    "fork": false,
+    "full_name": "c-bata/goptuna",
+    "html_url": "https://github.com/c-bata/goptuna",
+    "language": "Go",
+    "pushed_at": "2025-08-12T14:50:33Z",
+    "stargazers_count": 279,
+    "topics": [
+      "bandit-algorithms",
+      "bayesian-optimization",
+      "blackbox-optimization",
+      "evolution-strategies"
+    ],
+    "updated_at": "2026-04-05T04:10:54Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "c-bata/goptuna-bayesopt",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "c-bata/goptuna-isucon9q",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "kubeflow/katib",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Run examples",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/go-examples.yml",
+      "term": "Run examples"
+    },
+    {
+      "context_snippet": "tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/go-tests.yml",
+      "term": "tests"
+    },
+    {
+      "context_snippet": "release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "term": "release"
+    },
+    {
+      "context_snippet": "typescript-checks",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/typescript-checks.yml",
+      "term": "typescript-checks"
+    },
+    {
+      "context_snippet": "![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bandit-algorithms"
+    },
+    {
+      "context_snippet": "![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bayesian-optimization"
+    },
+    {
+      "context_snippet": "![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "blackbox-optimization"
+    },
+    {
+      "context_snippet": "![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "evolution-strategies"
+    }
+  ]
+}

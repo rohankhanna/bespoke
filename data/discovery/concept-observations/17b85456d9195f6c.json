@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Rust library to create a Good Game Easily"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![ggez logo](docs/ggez-logo-maroon-full.svg)](http://ggez.rs/)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![ggez logo](docs/ggez-logo-maroon-full.svg)](http://ggez.rs/)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "game-frameworks",
+      "sense_id": "game-frameworks#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "game-frameworks",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "game-frameworks",
+  "observation_id": "17b85456d9195f6c",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T00:37:16.824464+00:00",
+  "observed_text": "game-frameworks",
+  "source_context_snippet": "[![ggez logo](docs/ggez-logo-maroon-full.svg)](http://ggez.rs/)",
+  "source_file": null,
+  "source_repo": "ggez/ggez",
+  "source_repo_description": "Rust library to create a Good Game Easily"
+}

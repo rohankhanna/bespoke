@@ -1,0 +1,45 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "NVlabs/edm",
+      "target": "nvlabs/stylegan3",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T03:55:50.970868+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 17952
+    },
+    {
+      "path": "Dockerfile",
+      "size": 606
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Elucidating the Design Space of Diffusion-Based Generative Models (EDM)",
+    "fork": false,
+    "full_name": "NVlabs/edm",
+    "html_url": "https://github.com/NVlabs/edm",
+    "language": "Python",
+    "pushed_at": "2024-03-16T09:02:18Z",
+    "stargazers_count": 1952,
+    "topics": [],
+    "updated_at": "2026-04-29T10:50:07Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "nvlabs/stylegan3",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

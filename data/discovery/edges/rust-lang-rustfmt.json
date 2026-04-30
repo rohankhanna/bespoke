@@ -11,7 +11,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/check_diff.yml",
       "source_repo": "rust-lang/rustfmt",
-      "target": "actions/checkout@v4",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
       "target_type": "component"
     },
     {
@@ -25,7 +25,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/integration.yml",
       "source_repo": "rust-lang/rustfmt",
-      "target": "actions/checkout@v4",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
       "target_type": "component"
     },
     {
@@ -39,7 +39,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/linux.yml",
       "source_repo": "rust-lang/rustfmt",
-      "target": "actions/checkout@v4",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
       "target_type": "component"
     },
     {
@@ -53,7 +53,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/mac.yml",
       "source_repo": "rust-lang/rustfmt",
-      "target": "actions/checkout@v4",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
       "target_type": "component"
     },
     {
@@ -67,7 +67,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/rustdoc_check.yml",
       "source_repo": "rust-lang/rustfmt",
-      "target": "actions/checkout@v4",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
       "target_type": "component"
     },
     {
@@ -81,7 +81,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/upload-assets.yml",
       "source_repo": "rust-lang/rustfmt",
-      "target": "actions/checkout@v4",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
       "target_type": "component"
     },
     {
@@ -102,7 +102,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/windows.yml",
       "source_repo": "rust-lang/rustfmt",
-      "target": "actions/checkout@v4",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
       "target_type": "component"
     },
     {
@@ -141,6 +141,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-04-22T04:49:29.633207+00:00",
+  "generated_at": "2026-04-30T00:37:16.824464+00:00",
   "source_repo": "rust-lang/rustfmt"
 }

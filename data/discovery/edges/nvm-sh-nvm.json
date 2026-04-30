@@ -4,6 +4,13 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "nvm-sh/nvm",
+      "target": "nvm-sh/logos",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "nvm-sh/nvm",
       "target": "marcelklehr/nodist",
       "target_type": "repository"
     },
@@ -12,13 +19,6 @@
       "source_file": "README.md",
       "source_repo": "nvm-sh/nvm",
       "target": "brigand/fast-nvm-fish",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "nvm-sh/nvm",
-      "target": "mhart/alpine-node",
       "target_type": "repository"
     },
     {
@@ -323,6 +323,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-04-29T18:37:00.726333+00:00",
+  "generated_at": "2026-04-30T00:37:16.824464+00:00",
   "source_repo": "nvm-sh/nvm"
 }

@@ -1,0 +1,45 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "OpenBMB/ModelCenter",
+      "target": "google-research-datasets/boolean-questions",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T04:58:50.273507+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 13344
+    },
+    {
+      "path": "requirements.txt",
+      "size": 38
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Efficient, Low-Resource, Distributed transformer implementation based on BMTrain",
+    "fork": false,
+    "full_name": "OpenBMB/ModelCenter",
+    "html_url": "https://github.com/OpenBMB/ModelCenter",
+    "language": "Python",
+    "pushed_at": "2023-11-27T08:37:53Z",
+    "stargazers_count": 269,
+    "topics": [],
+    "updated_at": "2026-04-07T04:25:02Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "google-research-datasets/boolean-questions",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

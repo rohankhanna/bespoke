@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A collection of samples on using Elixir with Google Cloud Platform. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "> Elixir on GCP is a **community-supported project**, meaning there is no official"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "> Elixir on GCP is a **community-supported project**, meaning there is no official"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10024866,
+      "status": "candidate",
+      "text": "try out"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9979586,
+      "status": "candidate",
+      "text": "try"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9893720,
+      "status": "candidate",
+      "text": "taste"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 51427,
+      "status": "candidate",
+      "text": "sample distribution"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 51426,
+      "status": "candidate",
+      "text": "analyses"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "samples",
+      "sense_id": "samples#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "samples",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "samples",
+  "observation_id": "ec685c85ead0e4d0",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T00:37:16.824464+00:00",
+  "observed_text": "samples",
+  "source_context_snippet": "> Elixir on GCP is a **community-supported project**, meaning there is no official",
+  "source_file": null,
+  "source_repo": "GoogleCloudPlatform/elixir-samples",
+  "source_repo_description": "A collection of samples on using Elixir with Google Cloud Platform. "
+}

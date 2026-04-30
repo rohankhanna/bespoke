@@ -1,0 +1,149 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "JIA-Lab-research/FocalsConv",
+      "target": "dvlab-research/spconv-plus",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "JIA-Lab-research/FocalsConv",
+      "target": "dvlab-research/focalsconv",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "JIA-Lab-research/FocalsConv",
+      "target": "dvlab-research/largekernel3d",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "JIA-Lab-research/FocalsConv",
+      "target": "facebookresearch/sparseconvnet",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JIA-Lab-research/FocalsConv",
+      "target": "3d-object-detection",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JIA-Lab-research/FocalsConv",
+      "target": "autonomous-driving",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JIA-Lab-research/FocalsConv",
+      "target": "kitti",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JIA-Lab-research/FocalsConv",
+      "target": "nuscenes",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JIA-Lab-research/FocalsConv",
+      "target": "sparse-convolution",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T05:14:09.986964+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8581
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Focal Sparse Convolutional Networks for 3D Object Detection (CVPR 2022, Oral)",
+    "fork": false,
+    "full_name": "JIA-Lab-research/FocalsConv",
+    "html_url": "https://github.com/JIA-Lab-research/FocalsConv",
+    "language": "Python",
+    "pushed_at": "2023-06-01T03:23:11Z",
+    "stargazers_count": 390,
+    "topics": [
+      "3d-object-detection",
+      "autonomous-driving",
+      "kitti",
+      "nuscenes",
+      "sparse-convolution"
+    ],
+    "updated_at": "2026-04-18T15:10:57Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dvlab-research/focalsconv",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dvlab-research/largekernel3d",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dvlab-research/spconv-plus",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "facebookresearch/sparseconvnet",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[![arXiv](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)](https://arxiv.org/abs/2204.12463)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "3d-object-detection"
+    },
+    {
+      "context_snippet": "[![arXiv](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)](https://arxiv.org/abs/2204.12463)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "autonomous-driving"
+    },
+    {
+      "context_snippet": "[![arXiv](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)](https://arxiv.org/abs/2204.12463)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "kitti"
+    },
+    {
+      "context_snippet": "[![arXiv](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)](https://arxiv.org/abs/2204.12463)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nuscenes"
+    },
+    {
+      "context_snippet": "[![arXiv](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)](https://arxiv.org/abs/2204.12463)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "sparse-convolution"
+    }
+  ]
+}

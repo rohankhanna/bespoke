@@ -1,0 +1,80 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lmcinnes/pynndescent",
+      "target": "approximate-nearest-neighbor-search",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lmcinnes/pynndescent",
+      "target": "knn-graphs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lmcinnes/pynndescent",
+      "target": "nearest-neighbor-search",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T02:40:31.591018+00:00",
+  "fetched_files": [
+    {
+      "path": "README.rst",
+      "size": 5596
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 1416
+    },
+    {
+      "path": "requirements.txt",
+      "size": 78
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A Python nearest neighbor descent for approximate nearest neighbors",
+    "fork": false,
+    "full_name": "lmcinnes/pynndescent",
+    "html_url": "https://github.com/lmcinnes/pynndescent",
+    "language": "Python",
+    "pushed_at": "2026-04-26T18:22:22Z",
+    "stargazers_count": 964,
+    "topics": [
+      "approximate-nearest-neighbor-search",
+      "knn-graphs",
+      "nearest-neighbor-search"
+    ],
+    "updated_at": "2026-04-26T20:14:33Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": ".. image:: doc/pynndescent_logo.png",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "approximate-nearest-neighbor-search"
+    },
+    {
+      "context_snippet": ".. image:: doc/pynndescent_logo.png",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "knn-graphs"
+    },
+    {
+      "context_snippet": ".. image:: doc/pynndescent_logo.png",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nearest-neighbor-search"
+    }
+  ]
+}

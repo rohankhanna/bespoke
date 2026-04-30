@@ -1,0 +1,81 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "MeAmarP/MaskDINO",
+      "target": "idea-opensource/dn-detr",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "MeAmarP/MaskDINO",
+      "target": "idea-opensource/dab-detr",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "MeAmarP/MaskDINO",
+      "target": "ideacvr/awesome-detection-transformer",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "MeAmarP/MaskDINO",
+      "target": "facebookresearch/mask2former",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T01:56:59.081251+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 19380
+    },
+    {
+      "path": "requirements.txt",
+      "size": 53
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Official implementation of the paper \"Mask DINO: Towards A Unified Transformer-based Framework for Object Detection and Segmentation\"",
+    "fork": true,
+    "full_name": "MeAmarP/MaskDINO",
+    "html_url": "https://github.com/MeAmarP/MaskDINO",
+    "language": "Python",
+    "pushed_at": "2023-01-26T06:33:38Z",
+    "stargazers_count": 0,
+    "topics": [],
+    "updated_at": "2023-01-31T22:50:03Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "facebookresearch/mask2former",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "idea-opensource/dab-detr",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "idea-opensource/dn-detr",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ideacvr/awesome-detection-transformer",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

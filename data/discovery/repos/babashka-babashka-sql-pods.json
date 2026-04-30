@@ -33,20 +33,6 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "babashka/babashka-sql-pods",
-      "target": "xledger/pod_sql_server",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "babashka/babashka-sql-pods",
-      "target": "xledger/pod_tsql_scriptdom",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "babashka/babashka-sql-pods",
       "target": "oracle/helidon",
       "target_type": "repository"
     },
@@ -121,7 +107,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-29T21:58:25.142273+00:00",
+  "fetched_at": "2026-04-30T04:04:42.249061+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -161,16 +147,6 @@
     {
       "edge_type": "explicit-github-link",
       "full_name": "oracle/helidon",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "xledger/pod_sql_server",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "xledger/pod_tsql_scriptdom",
       "source_file": "README.md"
     }
   ],

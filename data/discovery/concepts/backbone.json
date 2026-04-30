@@ -1,0 +1,136 @@
+{
+  "aliases": [
+    "backbone"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "whai362/PVT",
+      "status": "candidate-context",
+      "text": "Official implementation of PVT series"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "whai362/PVT",
+      "status": "candidate-context",
+      "text": "- (2022/08/09) Application examples for polyp segmentation (polyp-pvt) and vision-language modeling."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "whai362/PVT",
+      "status": "candidate",
+      "text": "- (2022/08/09) Application examples for polyp segmentation (polyp-pvt) and vision-language modeling."
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39792322,
+      "status": "candidate",
+      "text": "spine"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39792115,
+      "status": "candidate",
+      "text": "vertebral column"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39791994,
+      "status": "candidate",
+      "text": "spinal column"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39787935,
+      "status": "candidate",
+      "text": "guts"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39650323,
+      "status": "candidate",
+      "text": "grit"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 30075,
+      "status": "candidate",
+      "text": "anchor"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 23054,
+      "status": "candidate",
+      "text": "grit"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 22038,
+      "status": "candidate",
+      "text": "gumption"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 20034,
+      "status": "candidate",
+      "text": "linchpin"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 17066,
+      "status": "candidate",
+      "text": "back"
+    }
+  ],
+  "canonical_name": "backbone",
+  "concept_id": "backbone",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "whai362/PVT"
+    }
+  ],
+  "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "backbone",
+      "sense_id": "backbone#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

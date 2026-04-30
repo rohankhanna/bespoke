@@ -1,0 +1,71 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-data.yml"
+    },
+    {
+      "component": "aquaproj/aqua-installer@v0.6.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-data.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-data.yml",
+      "source_repo": "haya14busa/github-used-by",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-data.yml",
+      "source_repo": "haya14busa/github-used-by",
+      "target": "aquaproj/aqua-installer@v0.6.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/update-data.yml",
+      "source_repo": "haya14busa/github-used-by",
+      "target": "Update data",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T02:58:41.864889+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6590
+    },
+    {
+      "path": ".github/workflows/update-data.yml",
+      "size": 1139
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": ":sparkles: Show GitHub Used-By (dependents) Stats",
+    "fork": false,
+    "full_name": "haya14busa/github-used-by",
+    "html_url": "https://github.com/haya14busa/github-used-by",
+    "language": "Go Template",
+    "pushed_at": "2026-02-08T07:33:49Z",
+    "stargazers_count": 3,
+    "topics": [],
+    "updated_at": "2026-02-08T07:33:53Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Update data",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/update-data.yml",
+      "term": "Update data"
+    }
+  ]
+}

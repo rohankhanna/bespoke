@@ -19,6 +19,18 @@
       "source_repo": "chzyer/readline",
       "status": "candidate-context",
       "text": "[![Build Status](https://travis-ci.org/chzyer/readline.svg?branch=master)](https://travis-ci.org/chzyer/readline)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bhauman/rebel-readline",
+      "status": "candidate-context",
+      "text": "Terminal readline library for Clojure dialects"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bhauman/rebel-readline",
+      "status": "candidate-context",
+      "text": "[![Clojars Project](https://img.shields.io/clojars/v/com.bhauman/rebel-readline.svg)](https://clojars.org/com.bhauman/rebel-readline)"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "chzyer/readline",
       "status": "candidate",
       "text": "[![Build Status](https://travis-ci.org/chzyer/readline.svg?branch=master)](https://travis-ci.org/chzyer/readline)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bhauman/rebel-readline",
+      "status": "candidate",
+      "text": "[![Clojars Project](https://img.shields.io/clojars/v/com.bhauman/rebel-readline.svg)](https://clojars.org/com.bhauman/rebel-readline)"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": null,
       "source_repo": "chzyer/readline"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "bhauman/rebel-readline"
     }
   ],
   "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

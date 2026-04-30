@@ -1,0 +1,69 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "NVlabs/SPADE",
+      "target": "nvlabs/imaginaire",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "NVlabs/SPADE",
+      "target": "vacancy/synchronized-batchnorm-pytorch",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "NVlabs/SPADE",
+      "target": "nightrome/cocostuff",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T05:11:41.976084+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9763
+    },
+    {
+      "path": "requirements.txt",
+      "size": 59
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Semantic Image Synthesis with SPADE",
+    "fork": false,
+    "full_name": "NVlabs/SPADE",
+    "html_url": "https://github.com/NVlabs/SPADE",
+    "language": "Python",
+    "pushed_at": "2023-08-07T10:52:48Z",
+    "stargazers_count": 7708,
+    "topics": [],
+    "updated_at": "2026-04-28T20:43:54Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "nightrome/cocostuff",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "nvlabs/imaginaire",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "vacancy/synchronized-batchnorm-pytorch",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

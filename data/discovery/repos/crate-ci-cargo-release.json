@@ -251,28 +251,7 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "crate-ci/cargo-release",
-      "target": "cargo-bins/release-pr",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "crate-ci/cargo-release",
       "target": "byron/cargo-smart-release",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "crate-ci/cargo-release",
-      "target": "killercup/cargo-edit",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "crate-ci/cargo-release",
-      "target": "paritytech/cargo-unleash",
       "target_type": "repository"
     },
     {
@@ -486,7 +465,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-29T19:44:52.621847+00:00",
+  "fetched_at": "2026-04-30T04:47:41.295859+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -551,21 +530,6 @@
     {
       "edge_type": "explicit-github-link",
       "full_name": "byron/cargo-smart-release",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "cargo-bins/release-pr",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "killercup/cargo-edit",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "paritytech/cargo-unleash",
       "source_file": "README.md"
     }
   ],

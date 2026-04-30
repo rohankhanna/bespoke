@@ -79,6 +79,30 @@
       "source_repo": "thu-ml/SageAttention",
       "status": "candidate-context",
       "text": "<!-- We are continuously updating more features. You could **Star** and **Watch** our repository to stay updated."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "thu-ml/SpargeAttn",
+      "status": "candidate-context",
+      "text": "[ICML2025] SpargeAttention: A training-free sparse attention that accelerates any model inference."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "thu-ml/SpargeAttn",
+      "status": "candidate-context",
+      "text": "We highly recommend using the `spas_sage2_attn_meansim_topk_cuda` and `block_sparse_sage2_attn_cuda` APIs. They are plug-and-play and customizable:"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "chengzeyi/ParaAttention",
+      "status": "candidate-context",
+      "text": "https://wavespeed.ai/ Context parallel attention that accelerates DiT model inference with dynamic caching"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chengzeyi/ParaAttention",
+      "status": "candidate-context",
+      "text": "[Blazing Fast FLUX-dev with LoRAs](https://wavespeed.ai/models/wavespeed-ai/flux-dev-lora)"
     }
   ],
   "candidate_glosses": [
@@ -117,6 +141,18 @@
       "source_repo": "thu-ml/SageAttention",
       "status": "candidate",
       "text": "<!-- We are continuously updating more features. You could **Star** and **Watch** our repository to stay updated."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "thu-ml/SpargeAttn",
+      "status": "candidate",
+      "text": "We highly recommend using the `spas_sage2_attn_meansim_topk_cuda` and `block_sparse_sage2_attn_cuda` APIs. They are plug-and-play and customizable:"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chengzeyi/ParaAttention",
+      "status": "candidate",
+      "text": "[Blazing Fast FLUX-dev with LoRAs](https://wavespeed.ai/models/wavespeed-ai/flux-dev-lora)"
     }
   ],
   "candidate_related_terms": [
@@ -231,11 +267,23 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "thu-ml/SageAttention"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "thu-ml/SpargeAttn"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "chengzeyi/ParaAttention"
     }
   ],
   "first_seen_at": "2026-04-18T10:43:38.551697+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

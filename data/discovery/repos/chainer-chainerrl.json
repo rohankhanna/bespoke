@@ -1,0 +1,139 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "chainer/chainerrl",
+      "target": "chainer/chainer",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "chainer/chainerrl",
+      "target": "pfnet/pfrl",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "chainer/chainerrl",
+      "target": "chainer/chainerrl-visualizer",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "chainer/chainerrl",
+      "target": "actor-critic",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "chainer/chainerrl",
+      "target": "chainer",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "chainer/chainerrl",
+      "target": "deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "chainer/chainerrl",
+      "target": "machine-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "chainer/chainerrl",
+      "target": "reinforcement-learning",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T01:08:20.435050+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7895
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "ChainerRL is a deep reinforcement learning library built on top of Chainer.",
+    "fork": false,
+    "full_name": "chainer/chainerrl",
+    "html_url": "https://github.com/chainer/chainerrl",
+    "language": "Python",
+    "pushed_at": "2021-08-10T18:25:48Z",
+    "stargazers_count": 1200,
+    "topics": [
+      "actor-critic",
+      "chainer",
+      "deep-learning",
+      "dqn",
+      "machine-learning",
+      "python",
+      "reinforcement-learning"
+    ],
+    "updated_at": "2026-04-23T08:49:38Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "chainer/chainer",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "chainer/chainerrl-visualizer",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "pfnet/pfrl",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<div align=\"center\"><img src=\"https://raw.githubusercontent.com/chainer/chainerrl/master/assets/ChainerRL.png\" width=\"400\"/></div>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "actor-critic"
+    },
+    {
+      "context_snippet": "<div align=\"center\"><img src=\"https://raw.githubusercontent.com/chainer/chainerrl/master/assets/ChainerRL.png\" width=\"400\"/></div>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "chainer"
+    },
+    {
+      "context_snippet": "<div align=\"center\"><img src=\"https://raw.githubusercontent.com/chainer/chainerrl/master/assets/ChainerRL.png\" width=\"400\"/></div>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-learning"
+    },
+    {
+      "context_snippet": "<div align=\"center\"><img src=\"https://raw.githubusercontent.com/chainer/chainerrl/master/assets/ChainerRL.png\" width=\"400\"/></div>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "machine-learning"
+    },
+    {
+      "context_snippet": "<div align=\"center\"><img src=\"https://raw.githubusercontent.com/chainer/chainerrl/master/assets/ChainerRL.png\" width=\"400\"/></div>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "reinforcement-learning"
+    }
+  ]
+}

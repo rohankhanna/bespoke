@@ -139,6 +139,42 @@
       "source_repo": "nunchaku-ai/nunchaku",
       "status": "candidate-context",
       "text": "<div align=\"center\" id=\"nunchaku_logo\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Macoron/ComfyUI-Diffusers-OminiControl",
+      "status": "candidate-context",
+      "text": "ComfyUI nodes to run FLUX OminiControl using diffusers"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Macoron/ComfyUI-Diffusers-OminiControl",
+      "status": "candidate-context",
+      "text": "This is an unofficial [ComfyUI](https://github.com/comfyanonymous/ComfyUI) node for [FLUX OminiControl](https://github.com/Yuanshi9815/OminiControl)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rgthree/rgthree-comfy",
+      "status": "candidate-context",
+      "text": "Making ComfyUI more comfortable!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rgthree/rgthree-comfy",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Lightricks/ComfyUI-LTXVideo",
+      "status": "candidate-context",
+      "text": "LTX-Video Support for ComfyUI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Lightricks/ComfyUI-LTXVideo",
+      "status": "candidate-context",
+      "text": "[![GitHub](https://img.shields.io/badge/LTX-Repo-blue?logo=github)](https://github.com/Lightricks/LTX-2)"
     }
   ],
   "candidate_glosses": [
@@ -207,6 +243,24 @@
       "source_repo": "nunchaku-ai/nunchaku",
       "status": "candidate",
       "text": "<div align=\"center\" id=\"nunchaku_logo\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Macoron/ComfyUI-Diffusers-OminiControl",
+      "status": "candidate",
+      "text": "This is an unofficial [ComfyUI](https://github.com/comfyanonymous/ComfyUI) node for [FLUX OminiControl](https://github.com/Yuanshi9815/OminiControl)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rgthree/rgthree-comfy",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Lightricks/ComfyUI-LTXVideo",
+      "status": "candidate",
+      "text": "[![GitHub](https://img.shields.io/badge/LTX-Repo-blue?logo=github)](https://github.com/Lightricks/LTX-2)"
     }
   ],
   "candidate_related_terms": [],
@@ -322,11 +376,47 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "nunchaku-ai/nunchaku"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "nunchaku-ai/nunchaku"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "Comfy-Org/ComfyUI"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "Macoron/ComfyUI-Diffusers-OminiControl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "Comfy-Org/comfy-cli"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "rgthree/rgthree-comfy"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "Lightricks/ComfyUI-LTXVideo"
     }
   ],
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

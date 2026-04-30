@@ -34,6 +34,30 @@
       "source_repo": "SwiftGen/SwiftGen",
       "status": "candidate-context",
       "text": "Archive"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "newtheatre/history-project",
+      "status": "candidate-context",
+      "text": ":scroll: Historical record of happenings at the Nottingham New Theatre."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "newtheatre/history-project",
+      "status": "candidate-context",
+      "text": "![Nottingham New Theatre History Project logo](https://user-images.githubusercontent.com/15388319/146941661-9c38b674-6d27-4589-9723-2d2bec93d7c8.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "humbug/php-scoper",
+      "status": "candidate-context",
+      "text": "\ud83d\udd28 Prefixes all PHP namespaces in a file/directory to isolate the code bundled in PHARs."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "humbug/php-scoper",
+      "status": "candidate-context",
+      "text": "[![Package version](https://img.shields.io/packagist/v/humbug/php-scoper.svg?style=flat-square)](https://packagist.org/packages/humbug/php-scoper)"
     }
   ],
   "candidate_glosses": [
@@ -48,6 +72,18 @@
       "source_repo": "SwiftGen/SwiftGen",
       "status": "candidate",
       "text": "Archive"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "newtheatre/history-project",
+      "status": "candidate",
+      "text": "![Nottingham New Theatre History Project logo](https://user-images.githubusercontent.com/15388319/146941661-9c38b674-6d27-4589-9723-2d2bec93d7c8.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "humbug/php-scoper",
+      "status": "candidate",
+      "text": "[![Package version](https://img.shields.io/packagist/v/humbug/php-scoper.svg?style=flat-square)](https://packagist.org/packages/humbug/php-scoper)"
     }
   ],
   "candidate_related_terms": [
@@ -124,11 +160,23 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": ".github/workflows/archive.yml",
       "source_repo": "SwiftGen/SwiftGen"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "newtheatre/history-project"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "humbug/php-scoper"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

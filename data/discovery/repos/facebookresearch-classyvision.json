@@ -1,0 +1,45 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "facebookresearch/ClassyVision",
+      "target": "pytorch/elastic",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T03:49:52.837364+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 11060
+    },
+    {
+      "path": "requirements.txt",
+      "size": 42
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "main",
+    "description": "An end-to-end PyTorch framework for image and video classification",
+    "fork": false,
+    "full_name": "facebookresearch/ClassyVision",
+    "html_url": "https://github.com/facebookresearch/ClassyVision",
+    "language": "Python",
+    "pushed_at": "2024-06-27T16:05:09Z",
+    "stargazers_count": 1613,
+    "topics": [],
+    "updated_at": "2026-04-23T11:52:43Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "pytorch/elastic",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

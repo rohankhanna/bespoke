@@ -1,0 +1,116 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ruby.yml"
+    },
+    {
+      "component": "ruby/setup-ruby@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ruby.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "raimon49/requirements.txt.vim",
+      "target": "shougo/neobundle.vim",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ruby.yml",
+      "source_repo": "raimon49/requirements.txt.vim",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ruby.yml",
+      "source_repo": "raimon49/requirements.txt.vim",
+      "target": "ruby/setup-ruby@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ruby.yml",
+      "source_repo": "raimon49/requirements.txt.vim",
+      "target": "VimScript",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "raimon49/requirements.txt.vim",
+      "target": "requirements",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "raimon49/requirements.txt.vim",
+      "target": "syntax-highlighting",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T05:11:47.424306+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3797
+    },
+    {
+      "path": ".github/workflows/ruby.yml",
+      "size": 387
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "the Requirements File Format syntax support for Vim",
+    "fork": false,
+    "full_name": "raimon49/requirements.txt.vim",
+    "html_url": "https://github.com/raimon49/requirements.txt.vim",
+    "language": "Vim Script",
+    "pushed_at": "2025-07-25T10:02:35Z",
+    "stargazers_count": 76,
+    "topics": [
+      "pip",
+      "python",
+      "requirements",
+      "syntax-highlighting",
+      "vim"
+    ],
+    "updated_at": "2025-08-23T03:14:24Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "shougo/neobundle.vim",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "VimScript",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ruby.yml",
+      "term": "VimScript"
+    },
+    {
+      "context_snippet": "requirements.txt.vim",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "requirements"
+    },
+    {
+      "context_snippet": "requirements.txt.vim",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "syntax-highlighting"
+    }
+  ]
+}

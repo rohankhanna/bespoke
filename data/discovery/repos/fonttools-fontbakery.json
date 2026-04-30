@@ -66,13 +66,6 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "fonttools/fontbakery",
-      "target": "fonttools/fontspector",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "fonttools/fontbakery",
       "target": "googlefonts/unified-font-repository",
       "target_type": "repository"
     },
@@ -196,7 +189,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-24T07:58:10.087002+00:00",
+  "fetched_at": "2026-04-30T03:50:17.857003+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -229,20 +222,15 @@
     "html_url": "https://github.com/fonttools/fontbakery",
     "language": "Python",
     "pushed_at": "2025-11-04T18:52:25Z",
-    "stargazers_count": 675,
+    "stargazers_count": 674,
     "topics": [
       "command-line-tool",
       "font",
       "quality-assurance"
     ],
-    "updated_at": "2026-04-24T06:45:44Z"
+    "updated_at": "2026-04-29T07:30:19Z"
   },
   "repo_links": [
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "fonttools/fontspector",
-      "source_file": "README.md"
-    },
     {
       "edge_type": "explicit-github-link",
       "full_name": "googlefonts/unified-font-repository",

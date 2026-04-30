@@ -1,0 +1,57 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Cornell-RelaxML/quip-sharp",
+      "target": "dao-ailab/fast-hadamard-transform",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Cornell-RelaxML/quip-sharp",
+      "target": "chu-tianxiang/quip-for-all",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T03:04:41.512728+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 13206
+    },
+    {
+      "path": "requirements.txt",
+      "size": 251
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "Cornell-RelaxML/quip-sharp",
+    "html_url": "https://github.com/Cornell-RelaxML/quip-sharp",
+    "language": "Python",
+    "pushed_at": "2024-10-29T04:02:39Z",
+    "stargazers_count": 591,
+    "topics": [],
+    "updated_at": "2026-04-28T00:44:02Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "chu-tianxiang/quip-for-all",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dao-ailab/fast-hadamard-transform",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

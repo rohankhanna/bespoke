@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Discord \u2022 Releases"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "NickeManarin/ScreenToGif",
+      "status": "candidate-context",
+      "text": "\ud83c\udfac ScreenToGif allows you to record a selected area of your screen, edit and save it as a gif or video."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NickeManarin/ScreenToGif",
+      "status": "candidate-context",
+      "text": "Discord \u2022 Releases"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NickeManarin/ScreenToGif",
+      "status": "candidate",
+      "text": "Discord \u2022 Releases"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10593,
+      "status": "candidate",
+      "text": "dissension"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10593,
+      "status": "candidate",
+      "text": "hell"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10593,
+      "status": "candidate",
+      "text": "israel"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10593,
+      "status": "candidate",
+      "text": "mischief-maker"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10593,
+      "status": "candidate",
+      "text": "variance"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Discord \u2022 Releases",
+  "concept_id": "discord-releases",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/discord-releases.yml",
+      "source_repo": "NickeManarin/ScreenToGif"
+    }
+  ],
+  "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Discord \u2022 Releases",
+      "sense_id": "discord-releases#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

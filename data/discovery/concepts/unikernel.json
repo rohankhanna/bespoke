@@ -31,6 +31,30 @@
       "source_repo": "Solo5/solo5",
       "status": "candidate-context",
       "text": "| ___|"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hermit-os/hermit-c",
+      "status": "candidate-context",
+      "text": "Hermit for C"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hermit-os/hermit-c",
+      "status": "candidate-context",
+      "text": "This repository provides information about using [the Hermit kernel] with C along with some test applications."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hermit-os/hermit-rs",
+      "status": "candidate-context",
+      "text": "Hermit for Rust."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hermit-os/hermit-rs",
+      "status": "candidate-context",
+      "text": "<img width=\"256\" align=\"right\" src=\"https://github.com/hermit-os/.github/blob/main/logo/hermit-logo.svg\" />"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +69,18 @@
       "source_repo": "Solo5/solo5",
       "status": "candidate",
       "text": "| ___|"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hermit-os/hermit-c",
+      "status": "candidate",
+      "text": "This repository provides information about using [the Hermit kernel] with C along with some test applications."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hermit-os/hermit-rs",
+      "status": "candidate",
+      "text": "<img width=\"256\" align=\"right\" src=\"https://github.com/hermit-os/.github/blob/main/logo/hermit-logo.svg\" />"
     }
   ],
   "candidate_related_terms": [
@@ -100,11 +136,23 @@
       "observed_at": "2026-04-24T00:33:56.049672+00:00",
       "source_file": null,
       "source_repo": "Solo5/solo5"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "hermit-os/hermit-c"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "hermit-os/hermit-rs"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

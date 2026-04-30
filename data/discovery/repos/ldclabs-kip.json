@@ -1,0 +1,98 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ldclabs/KIP",
+      "target": "ldclabs/anda-hippocampus",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ldclabs/KIP",
+      "target": "ldclabs/anda-app",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ldclabs/KIP",
+      "target": "context-engineering",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ldclabs/KIP",
+      "target": "knowledge-graph",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ldclabs/KIP",
+      "target": "persistent-memory",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T04:10:22.064229+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 10756
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "\ud83e\uddec KIP is a Knowledge-memory Interaction Protocol designed for LLMs, aiming to build a sustainable learning and self-evolving memory system for AI Agents.",
+    "fork": false,
+    "full_name": "ldclabs/KIP",
+    "html_url": "https://github.com/ldclabs/KIP",
+    "language": "TypeScript",
+    "pushed_at": "2026-04-29T14:46:08Z",
+    "stargazers_count": 73,
+    "topics": [
+      "ai-agent",
+      "context-engineering",
+      "knowledge-graph",
+      "persistent-memory"
+    ],
+    "updated_at": "2026-04-29T14:49:04Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ldclabs/anda-app",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ldclabs/anda-hippocampus",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "**[English](./README.md) | [\u4e2d\u6587](./README_CN.md)**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "context-engineering"
+    },
+    {
+      "context_snippet": "**[English](./README.md) | [\u4e2d\u6587](./README_CN.md)**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "knowledge-graph"
+    },
+    {
+      "context_snippet": "**[English](./README.md) | [\u4e2d\u6587](./README_CN.md)**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "persistent-memory"
+    }
+  ]
+}

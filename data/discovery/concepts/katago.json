@@ -1,0 +1,88 @@
+{
+  "aliases": [
+    "katago"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rooklift/ogatak",
+      "status": "candidate-context",
+      "text": "KataGo analysis GUI and SGF editor"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rooklift/ogatak",
+      "status": "candidate-context",
+      "text": "![Screenshot](https://user-images.githubusercontent.com/16438795/239653023-369442f4-e35f-4dc7-98f4-5cf7a266c2f9.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sanderland/katrain",
+      "status": "candidate-context",
+      "text": "Improve your Baduk skills by training with KataGo!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sanderland/katrain",
+      "status": "candidate-context",
+      "text": "[![Latest Release](http://img.shields.io/github/release/sanderland/katrain?label=download)](http://github.com/sanderland/katrain/releases)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rooklift/ogatak",
+      "status": "candidate",
+      "text": "![Screenshot](https://user-images.githubusercontent.com/16438795/239653023-369442f4-e35f-4dc7-98f4-5cf7a266c2f9.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sanderland/katrain",
+      "status": "candidate",
+      "text": "[![Latest Release](http://img.shields.io/github/release/sanderland/katrain?label=download)](http://github.com/sanderland/katrain/releases)"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "katago",
+  "concept_id": "katago",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "rooklift/ogatak"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "sanderland/katrain"
+    }
+  ],
+  "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "katago",
+      "sense_id": "katago#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

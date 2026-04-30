@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A \"buffer and tab\" tabline for neovim"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "This plugin is archived. Check out the following instead:"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "This plugin is archived. Check out the following instead:"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20016720,
+      "status": "candidate",
+      "text": "polisher"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20009223,
+      "status": "candidate",
+      "text": "cushion"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19986089,
+      "status": "candidate",
+      "text": "fender"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19973693,
+      "status": "candidate",
+      "text": "cowcatcher"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19956707,
+      "status": "candidate",
+      "text": "pilot"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "buffers",
+      "sense_id": "buffers#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "buffers",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "buffers",
+  "observation_id": "8883a50e41716671",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T00:37:16.824464+00:00",
+  "observed_text": "buffers",
+  "source_context_snippet": "This plugin is archived. Check out the following instead:",
+  "source_file": null,
+  "source_repo": "kdheepak/tabline.nvim",
+  "source_repo_description": "A \"buffer and tab\" tabline for neovim"
+}

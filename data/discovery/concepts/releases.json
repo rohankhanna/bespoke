@@ -6,7 +6,9 @@
   "ambiguity_status": "unresolved",
   "buckets": [
     "workflow-process",
-    "data-document-artifact"
+    "data-document-artifact",
+    "tool-component",
+    "capability"
   ],
   "candidate_definitions": [
     {
@@ -80,6 +82,42 @@
       "source_repo": "uptrace/bunrouter",
       "status": "candidate-context",
       "text": "Releases"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "prometheus-community/windows_exporter",
+      "status": "candidate-context",
+      "text": "Prometheus exporter for Windows machines"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "prometheus-community/windows_exporter",
+      "status": "candidate-context",
+      "text": "Releases"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "conventional-changelog/releaser-tools",
+      "status": "candidate-context",
+      "text": "Create a GitHub/GitLab/etc. release using a project's commit messages and metadata. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "conventional-changelog/releaser-tools",
+      "status": "candidate-context",
+      "text": "> Create a GitHub/GitLab/etc. release using your project's Git metadata."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "vmihailenco/taskq",
+      "status": "candidate-context",
+      "text": "Golang asynchronous task/job queue with Redis, SQS, IronMQ, and in-memory backends"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vmihailenco/taskq",
+      "status": "candidate-context",
+      "text": "Releases"
     }
   ],
   "candidate_glosses": [
@@ -116,6 +154,24 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "uptrace/bunrouter",
+      "status": "candidate",
+      "text": "Releases"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "prometheus-community/windows_exporter",
+      "status": "candidate",
+      "text": "Releases"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "conventional-changelog/releaser-tools",
+      "status": "candidate",
+      "text": "> Create a GitHub/GitLab/etc. release using your project's Git metadata."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vmihailenco/taskq",
       "status": "candidate",
       "text": "Releases"
     }
@@ -197,11 +253,35 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": ".github/workflows/release.yml",
       "source_repo": "uptrace/bunrouter"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "uptrace/bunrouter"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "prometheus-community/windows_exporter"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "conventional-changelog/releaser-tools"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "vmihailenco/taskq"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

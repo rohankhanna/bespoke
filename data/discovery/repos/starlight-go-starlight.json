@@ -1,0 +1,74 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "starlight-go/starlight",
+      "target": "golang",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "starlight-go/starlight",
+      "target": "scripting",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "starlight-go/starlight",
+      "target": "starlark",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T04:52:16.515226+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4697
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "a go wrapper for google's starlark embedded python language",
+    "fork": false,
+    "full_name": "starlight-go/starlight",
+    "html_url": "https://github.com/starlight-go/starlight",
+    "language": "Go",
+    "pushed_at": "2024-05-17T04:45:26Z",
+    "stargazers_count": 305,
+    "topics": [
+      "go",
+      "golang",
+      "python",
+      "scripting",
+      "starlark"
+    ],
+    "updated_at": "2026-04-20T17:27:53Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "<p align=\"center\" style=\"font-weight:bold\">!! Starlight is still a WIP !!<p/>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "golang"
+    },
+    {
+      "context_snippet": "<p align=\"center\" style=\"font-weight:bold\">!! Starlight is still a WIP !!<p/>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "scripting"
+    },
+    {
+      "context_snippet": "<p align=\"center\" style=\"font-weight:bold\">!! Starlight is still a WIP !!<p/>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "starlark"
+    }
+  ]
+}

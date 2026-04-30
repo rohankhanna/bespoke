@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Publish Snapshot Chart"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apache/spark-kubernetes-operator",
+      "status": "candidate-context",
+      "text": "Apache Spark Kubernetes Operator"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/spark-kubernetes-operator",
+      "status": "candidate-context",
+      "text": "Publish Snapshot Chart"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/spark-kubernetes-operator",
+      "status": "candidate",
+      "text": "Publish Snapshot Chart"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18414,
+      "status": "candidate",
+      "text": "print"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18254,
+      "status": "candidate",
+      "text": "artwork"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18254,
+      "status": "candidate",
+      "text": "image"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18254,
+      "status": "candidate",
+      "text": "photo"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18254,
+      "status": "candidate",
+      "text": "pic"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Publish Snapshot Chart",
+  "concept_id": "publish-snapshot-chart",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/publish_snapshot_chart.yml",
+      "source_repo": "apache/spark-kubernetes-operator"
+    }
+  ],
+  "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Publish Snapshot Chart",
+      "sense_id": "publish-snapshot-chart#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

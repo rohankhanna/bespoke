@@ -1,0 +1,81 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "vchoutas/smplify-x",
+      "target": "vchoutas/smplx",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "vchoutas/smplify-x",
+      "target": "nghorbani/humanbodyprior",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "vchoutas/smplify-x",
+      "target": "nghorbani/homogenus",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "vchoutas/smplify-x",
+      "target": "vchoutas/torch-mesh-isect",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T03:49:26.530891+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5803
+    },
+    {
+      "path": "requirements.txt",
+      "size": 189
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Expressive Body Capture: 3D Hands, Face, and Body from a Single Image",
+    "fork": false,
+    "full_name": "vchoutas/smplify-x",
+    "html_url": "https://github.com/vchoutas/smplify-x",
+    "language": "Python",
+    "pushed_at": "2024-02-23T12:10:19Z",
+    "stargazers_count": 2118,
+    "topics": [],
+    "updated_at": "2026-04-29T15:16:35Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "nghorbani/homogenus",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "nghorbani/humanbodyprior",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "vchoutas/smplx",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "vchoutas/torch-mesh-isect",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

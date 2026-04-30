@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Rembg Video Virtual Green Screen Edition"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Rembg Virtual Greenscreen Edition is a tool to create a green screen matte for videos"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Rembg Virtual Greenscreen Edition is a tool to create a green screen matte for videos"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19994988,
+      "status": "candidate",
+      "text": "greyscale"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19994987,
+      "status": "candidate",
+      "text": "greenie"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19994986,
+      "status": "candidate",
+      "text": "greenskin"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19994985,
+      "status": "candidate",
+      "text": "apple green"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19994984,
+      "status": "candidate",
+      "text": "green"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "greenscreen",
+      "sense_id": "greenscreen#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "greenscreen",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "greenscreen",
+  "observation_id": "1c06ea7246ae5f34",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T00:37:16.824464+00:00",
+  "observed_text": "greenscreen",
+  "source_context_snippet": "Rembg Virtual Greenscreen Edition is a tool to create a green screen matte for videos",
+  "source_file": null,
+  "source_repo": "ecsplendid/rembg-greenscreen",
+  "source_repo_description": "Rembg Video Virtual Green Screen Edition"
+}

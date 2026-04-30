@@ -19,12 +19,30 @@
       "source_repo": "Moldoteck/MagicEraser",
       "status": "candidate-context",
       "text": "Compile and lint code"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Borodutch/telegram-bot-starter",
+      "status": "candidate-context",
+      "text": "Telegram bot starter based on grammY"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Borodutch/telegram-bot-starter",
+      "status": "candidate-context",
+      "text": "Compile and lint code"
     }
   ],
   "candidate_glosses": [
     {
       "source_kind": "source-snippet",
       "source_repo": "Moldoteck/MagicEraser",
+      "status": "candidate",
+      "text": "Compile and lint code"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Borodutch/telegram-bot-starter",
       "status": "candidate",
       "text": "Compile and lint code"
     }
@@ -76,11 +94,17 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": ".github/workflows/workflow.yml",
       "source_repo": "Moldoteck/MagicEraser"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/workflow.yml",
+      "source_repo": "Borodutch/telegram-bot-starter"
     }
   ],
   "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

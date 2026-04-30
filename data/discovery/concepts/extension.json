@@ -121,6 +121,30 @@
       "source_repo": "gopasspw/gopassbridge",
       "status": "candidate-context",
       "text": "![Build Status](https://github.com/gopasspw/gopassbridge/actions/workflows/nodejs.yml/badge.svg?branch=master)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ggml-org/llama.vscode",
+      "status": "candidate-context",
+      "text": "VS Code extension for LLM-assisted code/text completion"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ggml-org/llama.vscode",
+      "status": "candidate-context",
+      "text": "Local LLM-assisted text completion, chat with AI and agentic coding extension for VS Code"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mlocati/docker-php-extension-installer",
+      "status": "candidate-context",
+      "text": "Easily install PHP extensions in Docker containers"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mlocati/docker-php-extension-installer",
+      "status": "candidate-context",
+      "text": "[![Downloaded GitHub Releases](https://img.shields.io/github/downloads/mlocati/docker-php-extension-installer/total?label=Downloaded%20releases)](https://github.com/mlocati/docker-php-extension-installer/releases)"
     }
   ],
   "candidate_glosses": [
@@ -183,6 +207,18 @@
       "source_repo": "gopasspw/gopassbridge",
       "status": "candidate",
       "text": "![Build Status](https://github.com/gopasspw/gopassbridge/actions/workflows/nodejs.yml/badge.svg?branch=master)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ggml-org/llama.vscode",
+      "status": "candidate",
+      "text": "Local LLM-assisted text completion, chat with AI and agentic coding extension for VS Code"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mlocati/docker-php-extension-installer",
+      "status": "candidate",
+      "text": "[![Downloaded GitHub Releases](https://img.shields.io/github/downloads/mlocati/docker-php-extension-installer/total?label=Downloaded%20releases)](https://github.com/mlocati/docker-php-extension-installer/releases)"
     }
   ],
   "candidate_related_terms": [
@@ -352,11 +388,35 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "gopasspw/gopassbridge"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "preactjs/preact-devtools"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "eclipse-openvsx/openvsx"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "ggml-org/llama.vscode"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "mlocati/docker-php-extension-installer"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Fenix - Update Nimbus Experiments"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mozilla-mobile/firefox-android",
+      "status": "candidate-context",
+      "text": ":warning: This repository hosts the Firefox for Android (Fenix), Focus for Android, and Mozilla Android Components projects. It is now developed and maintained as part of Mozilla Central. See the announcement here: https://github.com/mozilla-mobile/firefox-android/wiki#upcoming-migration-to-mozilla-central. \u201d"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mozilla-mobile/firefox-android",
+      "status": "candidate-context",
+      "text": "\"Fenix - Update Nimbus Experiments\""
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mozilla-mobile/firefox-android",
+      "status": "candidate",
+      "text": "\"Fenix - Update Nimbus Experiments\""
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9877,
+      "status": "candidate",
+      "text": "contortuplicate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9877,
+      "status": "candidate",
+      "text": "found"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9877,
+      "status": "candidate",
+      "text": "parhelion"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9877,
+      "status": "candidate",
+      "text": "stripe"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9877,
+      "status": "candidate",
+      "text": "turkey buzzard"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Fenix - Update Nimbus Experiments",
+  "concept_id": "fenix---update-nimbus-experiments",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/fenix-update-nimbus-experiments.yml",
+      "source_repo": "mozilla-mobile/firefox-android"
+    }
+  ],
+  "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Fenix - Update Nimbus Experiments",
+      "sense_id": "fenix---update-nimbus-experiments#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

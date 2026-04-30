@@ -31,6 +31,18 @@
       "source_repo": "Cosium/git-code-format-maven-plugin",
       "status": "candidate-context",
       "text": "[![Maven Central Latest](https://img.shields.io/maven-central/v/com.cosium.code/git-code-format-maven-plugin.svg)](https://central.sonatype.com/artifact/com.cosium.code/git-code-format-maven-plugin)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rrousselGit/flutter_hooks",
+      "status": "candidate-context",
+      "text": "React hooks for Flutter. Hooks are a new kind of object that manages a Widget life-cycles. They are used to increase code sharing between widgets and as a complete replacement for StatefulWidget."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rrousselGit/flutter_hooks",
+      "status": "candidate-context",
+      "text": "[English](https://github.com/rrousselGit/flutter_hooks/blob/master/README.md) | [Portugu\u00eas](https://github.com/rrousselGit/flutter_hooks/blob/master/packages/flutter_hooks/resources/translations/pt_br/README.md) | [\ud55c\uad6d\uc5b4](https://github.com/rrousselGit/flutter_hooks/blob/master/pa\u2026"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +57,12 @@
       "source_repo": "Cosium/git-code-format-maven-plugin",
       "status": "candidate",
       "text": "[![Maven Central Latest](https://img.shields.io/maven-central/v/com.cosium.code/git-code-format-maven-plugin.svg)](https://central.sonatype.com/artifact/com.cosium.code/git-code-format-maven-plugin)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rrousselGit/flutter_hooks",
+      "status": "candidate",
+      "text": "[English](https://github.com/rrousselGit/flutter_hooks/blob/master/README.md) | [Portugu\u00eas](https://github.com/rrousselGit/flutter_hooks/blob/master/packages/flutter_hooks/resources/translations/pt_br/README.md) | [\ud55c\uad6d\uc5b4](https://github.com/rrousselGit/flutter_hooks/blob/master/pa\u2026"
     }
   ],
   "candidate_related_terms": [
@@ -136,11 +154,17 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": null,
       "source_repo": "Cosium/git-code-format-maven-plugin"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "rrousselGit/flutter_hooks"
     }
   ],
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

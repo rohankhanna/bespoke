@@ -79,6 +79,18 @@
       "source_repo": "xinntao/facexlib",
       "status": "candidate-context",
       "text": "[![PyPI](https://img.shields.io/pypi/v/facexlib)](https://pypi.org/project/facexlib/)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "visionml/pytracking",
+      "status": "candidate-context",
+      "text": "Visual tracking library based on PyTorch."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "visionml/pytracking",
+      "status": "candidate-context",
+      "text": "A general python framework for visual object tracking and video object segmentation, based on **PyTorch**."
     }
   ],
   "candidate_glosses": [
@@ -117,6 +129,12 @@
       "source_repo": "xinntao/facexlib",
       "status": "candidate",
       "text": "[![PyPI](https://img.shields.io/pypi/v/facexlib)](https://pypi.org/project/facexlib/)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "visionml/pytracking",
+      "status": "candidate",
+      "text": "A general python framework for visual object tracking and video object segmentation, based on **PyTorch**."
     }
   ],
   "candidate_related_terms": [
@@ -222,11 +240,23 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "dwyl/mvp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "visionml/pytracking"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "dwyl/mvp"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

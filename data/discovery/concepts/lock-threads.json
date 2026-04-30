@@ -464,6 +464,42 @@
       "source_repo": "psf/requests",
       "status": "candidate-context",
       "text": "'Lock Threads'"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sebastianbergmann/phpunit",
+      "status": "candidate-context",
+      "text": "The PHP Unit Testing framework."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sebastianbergmann/phpunit",
+      "status": "candidate-context",
+      "text": "\"Lock Threads\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "retorquere/zotero-better-bibtex",
+      "status": "candidate-context",
+      "text": "Make Zotero effective for us LaTeX holdouts"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "retorquere/zotero-better-bibtex",
+      "status": "candidate-context",
+      "text": "'Lock Threads'"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "posit-dev/positron",
+      "status": "candidate-context",
+      "text": "Positron, a next-generation data science IDE"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "posit-dev/positron",
+      "status": "candidate-context",
+      "text": "'Lock Threads'"
     }
   ],
   "candidate_glosses": [
@@ -692,6 +728,24 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "psf/requests",
+      "status": "candidate",
+      "text": "'Lock Threads'"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sebastianbergmann/phpunit",
+      "status": "candidate",
+      "text": "\"Lock Threads\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "retorquere/zotero-better-bibtex",
+      "status": "candidate",
+      "text": "'Lock Threads'"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "posit-dev/positron",
       "status": "candidate",
       "text": "'Lock Threads'"
     }
@@ -1037,11 +1091,53 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": ".github/workflows/lock-issues.yml",
       "source_repo": "psf/requests"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/issue_lock.yml",
+      "source_repo": "vercel/next.js"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/lock.yml",
+      "source_repo": "grpc/grpc-java"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/lock-threads.yaml",
+      "source_repo": "sebastianbergmann/phpunit"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/lock.yml",
+      "source_repo": "JakeChampion/fetch"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/lock.yml",
+      "source_repo": "apollographql/apollo-server"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/lock.yaml",
+      "source_repo": "retorquere/zotero-better-bibtex"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/lock.yml",
+      "source_repo": "posit-dev/positron"
     }
   ],
   "first_seen_at": "2026-04-18T10:38:37.562216+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

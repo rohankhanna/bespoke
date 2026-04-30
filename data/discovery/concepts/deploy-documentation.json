@@ -260,6 +260,78 @@
       "source_repo": "squidowl/halloy",
       "status": "candidate-context",
       "text": "Deploy Documentation"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "julia-vscode/DocumentFormat.jl",
+      "status": "candidate-context",
+      "text": "Auto-formatter for Julia"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "julia-vscode/DocumentFormat.jl",
+      "status": "candidate-context",
+      "text": "Deploy documentation"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "realworld-apps/realworld",
+      "status": "candidate-context",
+      "text": "\"The mother of all demo apps\" \u2014 Exemplary fullstack Medium.com clone powered by React, Angular, Node, Django, and many more"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "realworld-apps/realworld",
+      "status": "candidate-context",
+      "text": "Deploy Documentation"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Kludex/python-multipart",
+      "status": "candidate-context",
+      "text": "A streaming multipart parser for Python."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Kludex/python-multipart",
+      "status": "candidate-context",
+      "text": "Deploy Documentation"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "NVlabs/Sana",
+      "status": "candidate-context",
+      "text": "SANA: Efficient High-Resolution Image Synthesis with Linear Diffusion Transformer"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NVlabs/Sana",
+      "status": "candidate-context",
+      "text": "Deploy Documentation"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "emacs-eldev/eldev",
+      "status": "candidate-context",
+      "text": "Elisp development tool"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "emacs-eldev/eldev",
+      "status": "candidate-context",
+      "text": "Deploy documentation"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "junit-team/junit-framework",
+      "status": "candidate-context",
+      "text": "\u2705 The programmer-friendly testing framework for Java and the JVM"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "junit-team/junit-framework",
+      "status": "candidate-context",
+      "text": "Deploy Documentation"
     }
   ],
   "candidate_glosses": [
@@ -386,6 +458,42 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "squidowl/halloy",
+      "status": "candidate",
+      "text": "Deploy Documentation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "julia-vscode/DocumentFormat.jl",
+      "status": "candidate",
+      "text": "Deploy documentation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "realworld-apps/realworld",
+      "status": "candidate",
+      "text": "Deploy Documentation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Kludex/python-multipart",
+      "status": "candidate",
+      "text": "Deploy Documentation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NVlabs/Sana",
+      "status": "candidate",
+      "text": "Deploy Documentation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "emacs-eldev/eldev",
+      "status": "candidate",
+      "text": "Deploy documentation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "junit-team/junit-framework",
       "status": "candidate",
       "text": "Deploy Documentation"
     }
@@ -623,11 +731,53 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": ".github/workflows/deploy-docs.yml",
       "source_repo": "gastownhall/beads"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/jlpkgbutler-docdeploy-workflow.yml",
+      "source_repo": "julia-vscode/DocumentFormat.jl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/deploy-docs.yml",
+      "source_repo": "gastownhall/beads"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/deploy-docs.yml",
+      "source_repo": "realworld-apps/realworld"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "Kludex/python-multipart"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "NVlabs/Sana"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/asciidoctor.yml",
+      "source_repo": "emacs-eldev/eldev"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/deploy-docs.yml",
+      "source_repo": "junit-team/junit-framework"
     }
   ],
   "first_seen_at": "2026-04-18T11:57:36.597358+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

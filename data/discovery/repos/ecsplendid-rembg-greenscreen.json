@@ -1,0 +1,121 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ecsplendid/rembg-greenscreen",
+      "target": "nathanua/u-2-net",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ecsplendid/rembg-greenscreen",
+      "target": "deeplearning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ecsplendid/rembg-greenscreen",
+      "target": "greenscreen",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ecsplendid/rembg-greenscreen",
+      "target": "segmentation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ecsplendid/rembg-greenscreen",
+      "target": "segmentation-models",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ecsplendid/rembg-greenscreen",
+      "target": "video",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T03:48:13.710582+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2761
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 230
+    },
+    {
+      "path": "requirements.txt",
+      "size": 180
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Rembg Video Virtual Green Screen Edition",
+    "fork": true,
+    "full_name": "ecsplendid/rembg-greenscreen",
+    "html_url": "https://github.com/ecsplendid/rembg-greenscreen",
+    "language": "Python",
+    "pushed_at": "2023-05-23T01:01:04Z",
+    "stargazers_count": 257,
+    "topics": [
+      "deeplearning",
+      "greenscreen",
+      "segmentation",
+      "segmentation-models",
+      "video"
+    ],
+    "updated_at": "2026-04-21T06:09:31Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "nathanua/u-2-net",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Rembg Virtual Greenscreen Edition is a tool to create a green screen matte for videos",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deeplearning"
+    },
+    {
+      "context_snippet": "Rembg Virtual Greenscreen Edition is a tool to create a green screen matte for videos",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "greenscreen"
+    },
+    {
+      "context_snippet": "Rembg Virtual Greenscreen Edition is a tool to create a green screen matte for videos",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "segmentation"
+    },
+    {
+      "context_snippet": "Rembg Virtual Greenscreen Edition is a tool to create a green screen matte for videos",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "segmentation-models"
+    },
+    {
+      "context_snippet": "Rembg Virtual Greenscreen Edition is a tool to create a green screen matte for videos",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "video"
+    }
+  ]
+}

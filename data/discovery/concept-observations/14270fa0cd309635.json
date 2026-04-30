@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Rembg Video Virtual Green Screen Edition"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Rembg Virtual Greenscreen Edition is a tool to create a green screen matte for videos"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Rembg Virtual Greenscreen Edition is a tool to create a green screen matte for videos"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "deeplearning",
+      "sense_id": "deeplearning#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "deeplearning",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "deeplearning",
+  "observation_id": "14270fa0cd309635",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T00:37:16.824464+00:00",
+  "observed_text": "deeplearning",
+  "source_context_snippet": "Rembg Virtual Greenscreen Edition is a tool to create a green screen matte for videos",
+  "source_file": null,
+  "source_repo": "ecsplendid/rembg-greenscreen",
+  "source_repo_description": "Rembg Video Virtual Green Screen Edition"
+}

@@ -19,6 +19,30 @@
       "source_repo": "confluentinc/librdkafka",
       "status": "candidate-context",
       "text": "librdkafka - the Apache Kafka\u00ae C/C++ client library"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "karafka/karafka",
+      "status": "candidate-context",
+      "text": "Ruby and Rails efficient Kafka processing framework"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "karafka/karafka",
+      "status": "candidate-context",
+      "text": "![karafka logo](https://karafka.io/assets/misc/logo/karafka_logotype_transparent2.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "zendesk/racecar",
+      "status": "candidate-context",
+      "text": "Racecar: a simple framework for Kafka consumers in Ruby"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "zendesk/racecar",
+      "status": "candidate-context",
+      "text": "Racecar is a friendly and easy-to-approach Kafka consumer framework. It allows you to write small applications that process messages stored in Kafka topics while optionally integrating with your Rails models."
     }
   ],
   "candidate_glosses": [
@@ -27,6 +51,18 @@
       "source_repo": "confluentinc/librdkafka",
       "status": "candidate",
       "text": "librdkafka - the Apache Kafka\u00ae C/C++ client library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "karafka/karafka",
+      "status": "candidate",
+      "text": "![karafka logo](https://karafka.io/assets/misc/logo/karafka_logotype_transparent2.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "zendesk/racecar",
+      "status": "candidate",
+      "text": "Racecar is a friendly and easy-to-approach Kafka consumer framework. It allows you to write small applications that process messages stored in Kafka topics while optionally integrating with your Rails models."
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +76,29 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "confluentinc/librdkafka"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "karafka/karafka"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "zendesk/racecar"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "confluentinc/librdkafka"
     }
   ],
   "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

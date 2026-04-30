@@ -31,6 +31,30 @@
       "source_repo": "kmeng01/memit",
       "status": "candidate-context",
       "text": "Editing thousands of facts into a transformer memory at once."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "emacs-evil/evil",
+      "status": "candidate-context",
+      "text": "The extensible vi layer for Emacs."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "emacs-evil/evil",
+      "status": "candidate-context",
+      "text": "![An extensible vi layer for Emacs](https://raw.githubusercontent.com/emacs-evil/evil/master/doc/logo.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "fallenshock/FlowEdit",
+      "status": "candidate-context",
+      "text": "Official implementation of the paper: \"FlowEdit: Inversion-Free Text-Based Editing Using Pre-Trained Flow Models\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fallenshock/FlowEdit",
+      "status": "candidate-context",
+      "text": "[![Zero-Shot Image Editing](https://img.shields.io/badge/zero%20shot-image%20editing-Green)]([https://github.com/topics/video-editing](https://github.com/topics/text-guided-image-editing))"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +69,18 @@
       "source_repo": "kmeng01/memit",
       "status": "candidate",
       "text": "Editing thousands of facts into a transformer memory at once."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "emacs-evil/evil",
+      "status": "candidate",
+      "text": "![An extensible vi layer for Emacs](https://raw.githubusercontent.com/emacs-evil/evil/master/doc/logo.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fallenshock/FlowEdit",
+      "status": "candidate",
+      "text": "[![Zero-Shot Image Editing](https://img.shields.io/badge/zero%20shot-image%20editing-Green)]([https://github.com/topics/video-editing](https://github.com/topics/text-guided-image-editing))"
     }
   ],
   "candidate_related_terms": [
@@ -108,11 +144,23 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "kmeng01/memit"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "emacs-evil/evil"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "fallenshock/FlowEdit"
     }
   ],
   "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

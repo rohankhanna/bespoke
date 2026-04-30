@@ -1,0 +1,12 @@
+{
+  "component": "tj-actions/coverage-badge-go@481919ec72da287775fef015fd9011dc75a5db05",
+  "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/coverage-badge-for-prs.yml",
+      "source_repo": "MShekow/directory-checksum"
+    }
+  ]
+}

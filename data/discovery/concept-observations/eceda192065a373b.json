@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Java jupyter kernel"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Jupyter kernel for Java language based on JShell. It implements Jupyter message specification version 5.4, and it requires Java >= 17 (supports up to Java 25 with preview features)."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Jupyter kernel for Java language based on JShell. It implements Jupyter message specification version 5.4, and it requires Java >= 17 (supports up to Java 25 with preview features)."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "jupyter-notebook",
+      "sense_id": "jupyter-notebook#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "jupyter-notebook",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "jupyter-notebook",
+  "observation_id": "eceda192065a373b",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T00:37:16.824464+00:00",
+  "observed_text": "jupyter-notebook",
+  "source_context_snippet": "Jupyter kernel for Java language based on JShell. It implements Jupyter message specification version 5.4, and it requires Java >= 17 (supports up to Java 25 with preview features).",
+  "source_file": null,
+  "source_repo": "padreati/rapaio-jupyter-kernel",
+  "source_repo_description": "Java jupyter kernel"
+}

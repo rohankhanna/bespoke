@@ -1,0 +1,77 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "go-martini/martini",
+      "target": "martini-contrib/acceptlang",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "go-martini/martini",
+      "target": "martini-contrib/accessflags",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "go-martini/martini",
+      "target": "martini-contrib/auth",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "go-martini/martini",
+      "target": "codegangsta/gin",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T01:42:45.937753+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 15892
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Classy web framework for Go",
+    "fork": false,
+    "full_name": "go-martini/martini",
+    "html_url": "https://github.com/go-martini/martini",
+    "language": "Go",
+    "pushed_at": "2022-03-29T19:42:09Z",
+    "stargazers_count": 11614,
+    "topics": [],
+    "updated_at": "2026-04-24T06:03:19Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "codegangsta/gin",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "martini-contrib/acceptlang",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "martini-contrib/accessflags",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "martini-contrib/auth",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

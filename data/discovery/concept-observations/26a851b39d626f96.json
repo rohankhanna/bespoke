@@ -84,7 +84,7 @@
   "normalized_form": "codspeed-benchmarks",
   "observation_id": "26a851b39d626f96",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-04-23T04:27:42.433064+00:00",
+  "observed_at": "2026-04-30T00:37:16.824464+00:00",
   "observed_text": "CodSpeed Benchmarks",
   "source_context_snippet": "CodSpeed Benchmarks",
   "source_file": ".github/workflows/codspeed.yml",

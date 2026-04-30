@@ -1,0 +1,22 @@
+{
+  "component": "open-edge-platform/geti-ci/actions/check-paths@7e686c1248b3939f8ee8e04e2612da727e379d91",
+  "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/backend.yml",
+      "source_repo": "open-edge-platform/physical-ai-studio"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/docker-build.yml",
+      "source_repo": "open-edge-platform/physical-ai-studio"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/library.yml",
+      "source_repo": "open-edge-platform/physical-ai-studio"
+    }
+  ]
+}

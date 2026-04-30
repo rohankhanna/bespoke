@@ -1,0 +1,101 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A linter for prose."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<img src=\"https://raw.githubusercontent.com/amperser/proselint/main/logo.png\" alt=\"proselint logo\" width=\"200\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<img src=\"https://raw.githubusercontent.com/amperser/proselint/main/logo.png\" alt=\"proselint logo\" width=\"200\">"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40046732,
+      "status": "candidate",
+      "text": "author"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30047290,
+      "status": "candidate",
+      "text": "novelist"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30046545,
+      "status": "candidate",
+      "text": "authorship"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30046061,
+      "status": "candidate",
+      "text": "literature"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30046045,
+      "status": "candidate",
+      "text": "scriptwriter"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "writer",
+      "sense_id": "writer#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 12049,
+      "status": "candidate",
+      "text": "author"
+    }
+  ],
+  "concept_id": "writer",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "writer",
+  "observation_id": "f89f9e3377e1434d",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T00:37:16.824464+00:00",
+  "observed_text": "writer",
+  "source_context_snippet": "<img src=\"https://raw.githubusercontent.com/amperser/proselint/main/logo.png\" alt=\"proselint logo\" width=\"200\">",
+  "source_file": null,
+  "source_repo": "amperser/proselint",
+  "source_repo_description": "A linter for prose."
+}

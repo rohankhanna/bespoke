@@ -331,6 +331,90 @@
       "source_repo": "dwyl/learn-devops",
       "status": "candidate-context",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apache/apisix",
+      "status": "candidate-context",
+      "text": "The Cloud-Native API Gateway and AI Gateway"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/apisix",
+      "status": "candidate-context",
+      "text": "<!--"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "openshift/origin",
+      "status": "candidate-context",
+      "text": "Conformance test suite for OpenShift"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "openshift/origin",
+      "status": "candidate-context",
+      "text": "Origin Kubernetes"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dwyl/learn-heroku",
+      "status": "candidate-context",
+      "text": ":checkered_flag: Learn how to deploy your web application to Heroku from scratch step-by-step in 7 minutes!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dwyl/learn-heroku",
+      "status": "candidate-context",
+      "text": "![heroku logo](https://cdn.worldvectorlogo.com/logos/heroku-1.svg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "clearml/clearml",
+      "status": "candidate-context",
+      "text": "ClearML - Auto-Magical CI/CD to streamline your AI workload. Experiment Management, Data Management, Pipeline, Orchestration, Scheduling & Serving in one MLOps/LLMOps solution"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "clearml/clearml",
+      "status": "candidate-context",
+      "text": "<div align=\"center\" style=\"text-align: center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "microsoft/security-devops-action",
+      "status": "candidate-context",
+      "text": "Microsoft Security DevOps for GitHub Actions."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/security-devops-action",
+      "status": "candidate-context",
+      "text": "Microsoft Security DevOps (MSDO) is a command line application which integrates static analysis tools into the development cycle. MSDO installs, configures and runs the latest versions of static analysis tools (including, but not limited to, SDL/security and compliance tools). M\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apache/apisix-dashboard",
+      "status": "candidate-context",
+      "text": "Dashboard for Apache APISIX"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/apisix-dashboard",
+      "status": "candidate-context",
+      "text": "[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://github.com/apache/apisix-dashboard/blob/master/LICENSE)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apache/apisix-ingress-controller",
+      "status": "candidate-context",
+      "text": "APISIX Ingress Controller for Kubernetes"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/apisix-ingress-controller",
+      "status": "candidate-context",
+      "text": "<!--"
     }
   ],
   "candidate_glosses": [
@@ -495,6 +579,48 @@
       "source_repo": "dwyl/learn-devops",
       "status": "candidate",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/apisix",
+      "status": "candidate",
+      "text": "<!--"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "openshift/origin",
+      "status": "candidate",
+      "text": "Origin Kubernetes"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dwyl/learn-heroku",
+      "status": "candidate",
+      "text": "![heroku logo](https://cdn.worldvectorlogo.com/logos/heroku-1.svg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "clearml/clearml",
+      "status": "candidate",
+      "text": "<div align=\"center\" style=\"text-align: center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/security-devops-action",
+      "status": "candidate",
+      "text": "Microsoft Security DevOps (MSDO) is a command line application which integrates static analysis tools into the development cycle. MSDO installs, configures and runs the latest versions of static analysis tools (including, but not limited to, SDL/security and compliance tools). M\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/apisix-dashboard",
+      "status": "candidate",
+      "text": "[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://github.com/apache/apisix-dashboard/blob/master/LICENSE)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/apisix-ingress-controller",
+      "status": "candidate",
+      "text": "<!--"
     }
   ],
   "candidate_related_terms": [
@@ -705,11 +831,65 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "dwyl/learn-devops"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "apache/apisix"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "openshift/origin"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "akuity/awesome-argo"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "ChristopherHX/runner.server"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "dwyl/learn-heroku"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "clearml/clearml"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "microsoft/security-devops-action"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "apache/apisix-dashboard"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "apache/apisix-ingress-controller"
     }
   ],
   "first_seen_at": "2026-04-18T18:48:44.679047+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

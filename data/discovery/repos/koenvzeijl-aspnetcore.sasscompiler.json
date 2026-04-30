@@ -1,0 +1,230 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dotnetcore.yml"
+    },
+    {
+      "component": "actions/setup-dotnet@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dotnetcore.yml"
+    },
+    {
+      "component": "actions/setup-dotnet@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dotnetcore.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dotnetcore.yml"
+    },
+    {
+      "component": "actions/setup-dotnet@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dotnetcore.yml"
+    },
+    {
+      "component": "actions/setup-dotnet@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dotnetcore.yml"
+    },
+    {
+      "component": "alirezanet/publish-nuget@v3.1.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dotnetcore.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-sass.yml"
+    },
+    {
+      "component": "peter-evans/create-pull-request@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-sass.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dotnetcore.yml",
+      "source_repo": "koenvzeijl/AspNetCore.SassCompiler",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dotnetcore.yml",
+      "source_repo": "koenvzeijl/AspNetCore.SassCompiler",
+      "target": "actions/setup-dotnet@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dotnetcore.yml",
+      "source_repo": "koenvzeijl/AspNetCore.SassCompiler",
+      "target": "alirezanet/publish-nuget@v3.1.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-sass.yml",
+      "source_repo": "koenvzeijl/AspNetCore.SassCompiler",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-sass.yml",
+      "source_repo": "koenvzeijl/AspNetCore.SassCompiler",
+      "target": "peter-evans/create-pull-request@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/update-sass.yml",
+      "source_repo": "koenvzeijl/AspNetCore.SassCompiler",
+      "target": "Update dart-sass",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "koenvzeijl/AspNetCore.SassCompiler",
+      "target": "asp-net-core",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "koenvzeijl/AspNetCore.SassCompiler",
+      "target": "aspnetcore",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "koenvzeijl/AspNetCore.SassCompiler",
+      "target": "blazor",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "koenvzeijl/AspNetCore.SassCompiler",
+      "target": "csharp",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "koenvzeijl/AspNetCore.SassCompiler",
+      "target": "dotnet",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "koenvzeijl/AspNetCore.SassCompiler",
+      "target": "sass",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "koenvzeijl/AspNetCore.SassCompiler",
+      "target": "scss",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T02:57:46.854209+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8068
+    },
+    {
+      "path": ".github/workflows/dotnetcore.yml",
+      "size": 2594
+    },
+    {
+      "path": ".github/workflows/update-sass.yml",
+      "size": 3579
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Sass Compiler Library for .NET Core 3.1/5.x/6.x/7.x without node, using dart-sass as a compiler",
+    "fork": false,
+    "full_name": "koenvzeijl/AspNetCore.SassCompiler",
+    "html_url": "https://github.com/koenvzeijl/AspNetCore.SassCompiler",
+    "language": "C#",
+    "pushed_at": "2026-04-06T14:43:12Z",
+    "stargazers_count": 246,
+    "topics": [
+      "asp-net-core",
+      "aspnetcore",
+      "blazor",
+      "csharp",
+      "dotnet",
+      "sass",
+      "scss"
+    ],
+    "updated_at": "2026-04-10T09:43:58Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Update dart-sass",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/update-sass.yml",
+      "term": "Update dart-sass"
+    },
+    {
+      "context_snippet": "[![NuGet Version](https://img.shields.io/nuget/v/AspNetCore.SassCompiler.svg?style=flat)](https://www.nuget.org/packages/AspNetCore.SassCompiler/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "asp-net-core"
+    },
+    {
+      "context_snippet": "[![NuGet Version](https://img.shields.io/nuget/v/AspNetCore.SassCompiler.svg?style=flat)](https://www.nuget.org/packages/AspNetCore.SassCompiler/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "aspnetcore"
+    },
+    {
+      "context_snippet": "[![NuGet Version](https://img.shields.io/nuget/v/AspNetCore.SassCompiler.svg?style=flat)](https://www.nuget.org/packages/AspNetCore.SassCompiler/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "blazor"
+    },
+    {
+      "context_snippet": "[![NuGet Version](https://img.shields.io/nuget/v/AspNetCore.SassCompiler.svg?style=flat)](https://www.nuget.org/packages/AspNetCore.SassCompiler/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "csharp"
+    },
+    {
+      "context_snippet": "[![NuGet Version](https://img.shields.io/nuget/v/AspNetCore.SassCompiler.svg?style=flat)](https://www.nuget.org/packages/AspNetCore.SassCompiler/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dotnet"
+    },
+    {
+      "context_snippet": "[![NuGet Version](https://img.shields.io/nuget/v/AspNetCore.SassCompiler.svg?style=flat)](https://www.nuget.org/packages/AspNetCore.SassCompiler/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "sass"
+    },
+    {
+      "context_snippet": "[![NuGet Version](https://img.shields.io/nuget/v/AspNetCore.SassCompiler.svg?style=flat)](https://www.nuget.org/packages/AspNetCore.SassCompiler/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "scss"
+    }
+  ]
+}

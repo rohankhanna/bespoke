@@ -495,7 +495,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-23T19:40:53.172701+00:00",
+  "fetched_at": "2026-04-30T01:55:56.339659+00:00",
   "fetched_files": [
     {
       "path": "README.rst",
@@ -547,10 +547,10 @@
     "full_name": "astral-sh/python-build-standalone",
     "html_url": "https://github.com/astral-sh/python-build-standalone",
     "language": "Python",
-    "pushed_at": "2026-04-23T18:38:33Z",
-    "stargazers_count": 4021,
+    "pushed_at": "2026-04-29T16:46:35Z",
+    "stargazers_count": 4037,
     "topics": [],
-    "updated_at": "2026-04-23T18:38:36Z"
+    "updated_at": "2026-04-29T18:41:49Z"
   },
   "repo_links": [],
   "terms": [

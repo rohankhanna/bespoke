@@ -1,0 +1,88 @@
+{
+  "aliases": [
+    "cff-wg-app-runtime-deployments"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cloudfoundry/cf-acceptance-tests",
+      "status": "candidate-context",
+      "text": "CF Acceptance tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cloudfoundry/cf-acceptance-tests",
+      "status": "candidate-context",
+      "text": "This suite exercises a [Cloud Foundry](https://github.com/cloudfoundry/cf-deployment)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cloudfoundry/cf-deployment",
+      "status": "candidate-context",
+      "text": "The canonical open source deployment manifest for Cloud Foundry"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cloudfoundry/cf-deployment",
+      "status": "candidate-context",
+      "text": "* <a href='#purpose'>Purpose</a>"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cloudfoundry/cf-acceptance-tests",
+      "status": "candidate",
+      "text": "This suite exercises a [Cloud Foundry](https://github.com/cloudfoundry/cf-deployment)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cloudfoundry/cf-deployment",
+      "status": "candidate",
+      "text": "* <a href='#purpose'>Purpose</a>"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "cff-wg-app-runtime-deployments",
+  "concept_id": "cff-wg-app-runtime-deployments",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "cloudfoundry/cf-acceptance-tests"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "cloudfoundry/cf-deployment"
+    }
+  ],
+  "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "cff-wg-app-runtime-deployments",
+      "sense_id": "cff-wg-app-runtime-deployments#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

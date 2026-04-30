@@ -1,7 +1,7 @@
 {
   "component": "peter-evans/create-or-update-comment@v4",
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -72,6 +72,21 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/immediate-response.yml",
       "source_repo": "octokit/auth-action.js"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "cloudwego/eino-ext"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/binary-size-comment.yml",
+      "source_repo": "swc-project/swc"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/immediate-response.yml",
+      "source_repo": "octokit/oauth-authorization-url.js"
     }
   ]
 }

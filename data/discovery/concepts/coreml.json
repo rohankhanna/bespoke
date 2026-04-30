@@ -79,6 +79,42 @@
       "source_repo": "Lausbert/Exermote",
       "status": "candidate-context",
       "text": "---"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "PINTO0309/PINTO_model_zoo",
+      "status": "candidate-context",
+      "text": "A repository for storing models that have been inter-converted between various frameworks. Supported frameworks are TensorFlow, PyTorch, ONNX, OpenVINO, TFJS, TFTRT, TensorFlowLite (Float32/16/INT8), EdgeTPU, CoreML."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PINTO0309/PINTO_model_zoo",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Ezaldeen99/BackgroundRemoval",
+      "status": "candidate-context",
+      "text": "Background Removal written with swift using u2net model "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Ezaldeen99/BackgroundRemoval",
+      "status": "candidate-context",
+      "text": "<img src=\"https://github.com/Ezaldeen99/BackgroundRemoval/blob/main/ScreenShots/results.jpg\" alt=\"Removal results\" align=\"center\" />"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "microsoft/MMdnn",
+      "status": "candidate-context",
+      "text": "MMdnn is a set of tools to help users inter-operate among different deep learning frameworks. E.g. model conversion and visualization. Convert models between Caffe, Keras, MXNet, Tensorflow, CNTK, PyTorch Onnx and CoreML."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/MMdnn",
+      "status": "candidate-context",
+      "text": "[![PyPi Version](https://img.shields.io/pypi/v/mmdnn.svg)](https://pypi.org/project/mmdnn/)"
     }
   ],
   "candidate_glosses": [
@@ -117,6 +153,24 @@
       "source_repo": "Lausbert/Exermote",
       "status": "candidate",
       "text": "---"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PINTO0309/PINTO_model_zoo",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Ezaldeen99/BackgroundRemoval",
+      "status": "candidate",
+      "text": "<img src=\"https://github.com/Ezaldeen99/BackgroundRemoval/blob/main/ScreenShots/results.jpg\" alt=\"Removal results\" align=\"center\" />"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/MMdnn",
+      "status": "candidate",
+      "text": "[![PyPi Version](https://img.shields.io/pypi/v/mmdnn.svg)](https://pypi.org/project/mmdnn/)"
     }
   ],
   "candidate_related_terms": [],
@@ -160,11 +214,29 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "Lausbert/Exermote"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "PINTO0309/PINTO_model_zoo"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "Ezaldeen99/BackgroundRemoval"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "microsoft/MMdnn"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

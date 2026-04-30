@@ -103,6 +103,18 @@
       "source_repo": "joerick/pyinstrument",
       "status": "candidate-context",
       "text": "pyinstrument"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "c4ffein/realworld-django-ninja",
+      "status": "candidate-context",
+      "text": "RealWord is a medium clone. This implementation uses Django Ninja to create a backend service for the blog."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "c4ffein/realworld-django-ninja",
+      "status": "candidate-context",
+      "text": "> ### Django Ninja + Postgres codebase containing real world examples (CRUD, auth, advanced patterns, etc) that adheres to the [RealWorld](https://github.com/realworld-apps/realworld) spec and API."
     }
   ],
   "candidate_glosses": [
@@ -153,6 +165,12 @@
       "source_repo": "joerick/pyinstrument",
       "status": "candidate",
       "text": "pyinstrument"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "c4ffein/realworld-django-ninja",
+      "status": "candidate",
+      "text": "> ### Django Ninja + Postgres codebase containing real world examples (CRUD, auth, advanced patterns, etc) that adheres to the [RealWorld](https://github.com/realworld-apps/realworld) spec and API."
     }
   ],
   "candidate_related_terms": [
@@ -244,11 +262,17 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": null,
       "source_repo": "joerick/pyinstrument"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "c4ffein/realworld-django-ninja"
     }
   ],
   "first_seen_at": "2026-04-19T04:47:57.443742+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

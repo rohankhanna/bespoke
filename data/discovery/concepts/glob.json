@@ -127,6 +127,18 @@
       "source_repo": "micromatch/expand-braces",
       "status": "candidate-context",
       "text": "> Wrapper for [braces] to enable brace expansion for arrays of patterns."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dmtrKovalenko/zlob",
+      "status": "candidate-context",
+      "text": "100% POSIX and glibc compatible globbing library for C, Zig, and Rust that is faster and supports all the modern globbing formats and gitignore"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dmtrKovalenko/zlob",
+      "status": "candidate-context",
+      "text": "100% POSIX and glibc compatible globbing library for C, Zig, and Rust that is **faster** and supports **all the modern globbing formats** and gitignore"
     }
   ],
   "candidate_glosses": [
@@ -189,6 +201,12 @@
       "source_repo": "micromatch/expand-braces",
       "status": "candidate",
       "text": "> Wrapper for [braces] to enable brace expansion for arrays of patterns."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dmtrKovalenko/zlob",
+      "status": "candidate",
+      "text": "100% POSIX and glibc compatible globbing library for C, Zig, and Rust that is **faster** and supports **all the modern globbing formats** and gitignore"
     }
   ],
   "candidate_related_terms": [
@@ -370,11 +388,41 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "micromatch/expand-braces"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "dmtrKovalenko/zlob"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "micromatch/micromatch"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "micromatch/braces"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "micromatch/expand-braces"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "micromatch/is-glob"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

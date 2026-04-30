@@ -1,0 +1,12 @@
+{
+  "component": "Kong/public-shared-actions/security-actions/sign-docker-image@2f02738ecb1670f01391162e43fe3f5d4e7942a1",
+  "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release-publish.yml",
+      "source_repo": "Kong/insomnia"
+    }
+  ]
+}

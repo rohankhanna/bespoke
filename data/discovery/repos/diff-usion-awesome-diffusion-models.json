@@ -5,28 +5,28 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "diff-usion/Awesome-Diffusion-Models",
-      "target": "acids-ircam/diffusion_models",
+      "target": "alexgraikos/diffusion_priors",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "diff-usion/Awesome-Diffusion-Models",
-      "target": "adobe-research/diffusion-rig",
+      "target": "aimansnigdha/ambiguous-medical-image-segmentation-using-diffusion-models",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "diff-usion/Awesome-Diffusion-Models",
-      "target": "advocate99/diffgesture",
+      "target": "aigtext/glyphcontrol-release",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "diff-usion/Awesome-Diffusion-Models",
-      "target": "adobe-research/affordance-insertion",
+      "target": "ai4healthuol/sssd",
       "target_type": "repository"
     },
     {
@@ -72,7 +72,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-23T21:20:59.247250+00:00",
+  "fetched_at": "2026-04-30T05:12:06.503412+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -89,7 +89,7 @@
     "html_url": "https://github.com/diff-usion/Awesome-Diffusion-Models",
     "language": "HTML",
     "pushed_at": "2024-08-01T07:11:20Z",
-    "stargazers_count": 12320,
+    "stargazers_count": 12324,
     "topics": [
       "artificial-intelligence",
       "diffusion-models",
@@ -98,27 +98,27 @@
       "score-based",
       "score-matching"
     ],
-    "updated_at": "2026-04-23T08:08:26Z"
+    "updated_at": "2026-04-29T10:12:34Z"
   },
   "repo_links": [
     {
       "edge_type": "explicit-github-link",
-      "full_name": "acids-ircam/diffusion_models",
+      "full_name": "ai4healthuol/sssd",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "adobe-research/affordance-insertion",
+      "full_name": "aigtext/glyphcontrol-release",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "adobe-research/diffusion-rig",
+      "full_name": "aimansnigdha/ambiguous-medical-image-segmentation-using-diffusion-models",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "advocate99/diffgesture",
+      "full_name": "alexgraikos/diffusion_priors",
       "source_file": "README.md"
     }
   ],

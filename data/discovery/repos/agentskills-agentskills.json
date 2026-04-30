@@ -1,0 +1,48 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "agentskills/agentskills",
+      "target": "agent-skills",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T01:02:47.509925+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1108
+    },
+    {
+      "path": "package.json",
+      "size": 104
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Specification and documentation for Agent Skills",
+    "fork": false,
+    "full_name": "agentskills/agentskills",
+    "html_url": "https://github.com/agentskills/agentskills",
+    "language": "Python",
+    "pushed_at": "2026-04-22T15:19:45Z",
+    "stargazers_count": 17553,
+    "topics": [
+      "agent-skills"
+    ],
+    "updated_at": "2026-04-30T00:55:52Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "[Agent Skills](https://agentskills.io) are a simple, open format for giving agents new capabilities and expertise.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "agent-skills"
+    }
+  ]
+}

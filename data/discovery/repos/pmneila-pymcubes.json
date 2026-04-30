@@ -1,0 +1,126 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mcubes-ci.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mcubes-ci.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mcubes-deployment.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mcubes-deployment.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mcubes-deployment.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mcubes-deployment.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mcubes-ci.yml",
+      "source_repo": "pmneila/PyMCubes",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mcubes-ci.yml",
+      "source_repo": "pmneila/PyMCubes",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/mcubes-ci.yml",
+      "source_repo": "pmneila/PyMCubes",
+      "target": "PyMCubes tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mcubes-deployment.yml",
+      "source_repo": "pmneila/PyMCubes",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mcubes-deployment.yml",
+      "source_repo": "pmneila/PyMCubes",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/mcubes-deployment.yml",
+      "source_repo": "pmneila/PyMCubes",
+      "target": "PyMCubes deployment",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T05:13:55.095068+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3282
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 114
+    },
+    {
+      "path": ".github/workflows/mcubes-ci.yml",
+      "size": 1026
+    },
+    {
+      "path": ".github/workflows/mcubes-deployment.yml",
+      "size": 1659
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Marching cubes (and related tools) for Python",
+    "fork": false,
+    "full_name": "pmneila/PyMCubes",
+    "html_url": "https://github.com/pmneila/PyMCubes",
+    "language": "C++",
+    "pushed_at": "2024-07-03T23:14:20Z",
+    "stargazers_count": 788,
+    "topics": [],
+    "updated_at": "2026-04-19T11:56:32Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "PyMCubes tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/mcubes-ci.yml",
+      "term": "PyMCubes tests"
+    },
+    {
+      "context_snippet": "PyMCubes deployment",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/mcubes-deployment.yml",
+      "term": "PyMCubes deployment"
+    }
+  ]
+}

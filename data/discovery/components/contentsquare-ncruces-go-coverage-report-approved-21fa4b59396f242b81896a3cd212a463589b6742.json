@@ -1,0 +1,12 @@
+{
+  "component": "ContentSquare/ncruces-go-coverage-report@approved-21fa4b59396f242b81896a3cd212a463589b6742",
+  "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/go-test.yaml",
+      "source_repo": "ContentSquare/chproxy"
+    }
+  ]
+}

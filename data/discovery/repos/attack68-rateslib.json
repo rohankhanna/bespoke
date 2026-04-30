@@ -1,0 +1,1052 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-all.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-all.yml"
+    },
+    {
+      "component": "PyO3/maturin-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-all.yml"
+    },
+    {
+      "component": "PyO3/maturin-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-all.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-all.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-all.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-all.yml"
+    },
+    {
+      "component": "PyO3/maturin-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-all.yml"
+    },
+    {
+      "component": "PyO3/maturin-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-all.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-all.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-all.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-all.yml"
+    },
+    {
+      "component": "PyO3/maturin-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-all.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-all.yml"
+    },
+    {
+      "component": "PyO3/maturin-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-all.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-all.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-all.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-all.yml"
+    },
+    {
+      "component": "PyO3/maturin-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-all.yml"
+    },
+    {
+      "component": "PyO3/maturin-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-all.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-all.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-all.yml"
+    },
+    {
+      "component": "PyO3/maturin-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-all.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-all.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-all.yml"
+    },
+    {
+      "component": "actions/attest-build-provenance@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-all.yml"
+    },
+    {
+      "component": "astral-sh/setup-uv@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-all.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-linux.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-linux.yml"
+    },
+    {
+      "component": "PyO3/maturin-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-linux.yml"
+    },
+    {
+      "component": "PyO3/maturin-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-linux.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-linux.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-linux.yml"
+    },
+    {
+      "component": "actions/attest-build-provenance@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-linux.yml"
+    },
+    {
+      "component": "astral-sh/setup-uv@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-linux.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-macos.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-macos.yml"
+    },
+    {
+      "component": "PyO3/maturin-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-macos.yml"
+    },
+    {
+      "component": "PyO3/maturin-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-macos.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-macos.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-macos.yml"
+    },
+    {
+      "component": "actions/attest-build-provenance@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-macos.yml"
+    },
+    {
+      "component": "astral-sh/setup-uv@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-macos.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-musllinux.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-musllinux.yml"
+    },
+    {
+      "component": "PyO3/maturin-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-musllinux.yml"
+    },
+    {
+      "component": "PyO3/maturin-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-musllinux.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-musllinux.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-musllinux.yml"
+    },
+    {
+      "component": "actions/attest-build-provenance@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-musllinux.yml"
+    },
+    {
+      "component": "astral-sh/setup-uv@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-musllinux.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-sdist.yml"
+    },
+    {
+      "component": "PyO3/maturin-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-sdist.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-sdist.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-sdist.yml"
+    },
+    {
+      "component": "actions/attest-build-provenance@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-sdist.yml"
+    },
+    {
+      "component": "astral-sh/setup-uv@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-sdist.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-windows.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-windows.yml"
+    },
+    {
+      "component": "PyO3/maturin-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-windows.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-windows.yml"
+    },
+    {
+      "component": "PyO3/maturin-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-windows.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-windows.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-windows.yml"
+    },
+    {
+      "component": "actions/attest-build-provenance@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-windows.yml"
+    },
+    {
+      "component": "astral-sh/setup-uv@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-windows.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ubuntu-latest-python-specific.yml"
+    },
+    {
+      "component": "actions-rust-lang/setup-rust-toolchain@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ubuntu-latest-python-specific.yml"
+    },
+    {
+      "component": "astral-sh/setup-uv@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ubuntu-latest-python-specific.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-all.yml",
+      "source_repo": "attack68/rateslib",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-all.yml",
+      "source_repo": "attack68/rateslib",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-all.yml",
+      "source_repo": "attack68/rateslib",
+      "target": "PyO3/maturin-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-all.yml",
+      "source_repo": "attack68/rateslib",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-all.yml",
+      "source_repo": "attack68/rateslib",
+      "target": "actions/download-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-all.yml",
+      "source_repo": "attack68/rateslib",
+      "target": "actions/attest-build-provenance@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-all.yml",
+      "source_repo": "attack68/rateslib",
+      "target": "astral-sh/setup-uv@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-all.yml",
+      "source_repo": "attack68/rateslib",
+      "target": "Manual Package Release - All",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-linux.yml",
+      "source_repo": "attack68/rateslib",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-linux.yml",
+      "source_repo": "attack68/rateslib",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-linux.yml",
+      "source_repo": "attack68/rateslib",
+      "target": "PyO3/maturin-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-linux.yml",
+      "source_repo": "attack68/rateslib",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-linux.yml",
+      "source_repo": "attack68/rateslib",
+      "target": "actions/download-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-linux.yml",
+      "source_repo": "attack68/rateslib",
+      "target": "actions/attest-build-provenance@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-linux.yml",
+      "source_repo": "attack68/rateslib",
+      "target": "astral-sh/setup-uv@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-linux.yml",
+      "source_repo": "attack68/rateslib",
+      "target": "Manual Package Release - Linux",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-macos.yml",
+      "source_repo": "attack68/rateslib",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-macos.yml",
+      "source_repo": "attack68/rateslib",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-macos.yml",
+      "source_repo": "attack68/rateslib",
+      "target": "PyO3/maturin-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-macos.yml",
+      "source_repo": "attack68/rateslib",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-macos.yml",
+      "source_repo": "attack68/rateslib",
+      "target": "actions/download-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-macos.yml",
+      "source_repo": "attack68/rateslib",
+      "target": "actions/attest-build-provenance@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-macos.yml",
+      "source_repo": "attack68/rateslib",
+      "target": "astral-sh/setup-uv@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-macos.yml",
+      "source_repo": "attack68/rateslib",
+      "target": "Manual Package Release - MacOs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-musllinux.yml",
+      "source_repo": "attack68/rateslib",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-musllinux.yml",
+      "source_repo": "attack68/rateslib",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-musllinux.yml",
+      "source_repo": "attack68/rateslib",
+      "target": "PyO3/maturin-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-musllinux.yml",
+      "source_repo": "attack68/rateslib",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-musllinux.yml",
+      "source_repo": "attack68/rateslib",
+      "target": "actions/download-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-musllinux.yml",
+      "source_repo": "attack68/rateslib",
+      "target": "actions/attest-build-provenance@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-musllinux.yml",
+      "source_repo": "attack68/rateslib",
+      "target": "astral-sh/setup-uv@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-musllinux.yml",
+      "source_repo": "attack68/rateslib",
+      "target": "Manual Package Release - MuslLinux",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-sdist.yml",
+      "source_repo": "attack68/rateslib",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-sdist.yml",
+      "source_repo": "attack68/rateslib",
+      "target": "PyO3/maturin-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-sdist.yml",
+      "source_repo": "attack68/rateslib",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-sdist.yml",
+      "source_repo": "attack68/rateslib",
+      "target": "actions/download-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-sdist.yml",
+      "source_repo": "attack68/rateslib",
+      "target": "actions/attest-build-provenance@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-sdist.yml",
+      "source_repo": "attack68/rateslib",
+      "target": "astral-sh/setup-uv@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-sdist.yml",
+      "source_repo": "attack68/rateslib",
+      "target": "Manual Package Release - sdist",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-windows.yml",
+      "source_repo": "attack68/rateslib",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-windows.yml",
+      "source_repo": "attack68/rateslib",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-windows.yml",
+      "source_repo": "attack68/rateslib",
+      "target": "PyO3/maturin-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-windows.yml",
+      "source_repo": "attack68/rateslib",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-windows.yml",
+      "source_repo": "attack68/rateslib",
+      "target": "actions/download-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-windows.yml",
+      "source_repo": "attack68/rateslib",
+      "target": "actions/attest-build-provenance@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-windows.yml",
+      "source_repo": "attack68/rateslib",
+      "target": "astral-sh/setup-uv@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-windows.yml",
+      "source_repo": "attack68/rateslib",
+      "target": "Manual Package Release - Windows",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ubuntu-latest-python-specific.yml",
+      "source_repo": "attack68/rateslib",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ubuntu-latest-python-specific.yml",
+      "source_repo": "attack68/rateslib",
+      "target": "actions-rust-lang/setup-rust-toolchain@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ubuntu-latest-python-specific.yml",
+      "source_repo": "attack68/rateslib",
+      "target": "astral-sh/setup-uv@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "attack68/rateslib",
+      "target": "bonds",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "attack68/rateslib",
+      "target": "cross-currency",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "attack68/rateslib",
+      "target": "currency",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "attack68/rateslib",
+      "target": "curves",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "attack68/rateslib",
+      "target": "derivatives",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "attack68/rateslib",
+      "target": "derivatives-pricing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "attack68/rateslib",
+      "target": "finance",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "attack68/rateslib",
+      "target": "fixed-income",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "attack68/rateslib",
+      "target": "inflation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "attack68/rateslib",
+      "target": "inflation-linked",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "attack68/rateslib",
+      "target": "interest-rates",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "attack68/rateslib",
+      "target": "investment",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "attack68/rateslib",
+      "target": "risk",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "attack68/rateslib",
+      "target": "risk-management",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "attack68/rateslib",
+      "target": "students",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "attack68/rateslib",
+      "target": "swaps",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "attack68/rateslib",
+      "target": "trading",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "attack68/rateslib",
+      "target": "treasury",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T02:47:30.649805+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2357
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 1578
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 4303
+    },
+    {
+      "path": ".github/workflows/release-all.yml",
+      "size": 6988
+    },
+    {
+      "path": ".github/workflows/release-linux.yml",
+      "size": 2920
+    },
+    {
+      "path": ".github/workflows/release-macos.yml",
+      "size": 2611
+    },
+    {
+      "path": ".github/workflows/release-musllinux.yml",
+      "size": 2816
+    },
+    {
+      "path": ".github/workflows/release-sdist.yml",
+      "size": 1925
+    },
+    {
+      "path": ".github/workflows/release-windows.yml",
+      "size": 2978
+    },
+    {
+      "path": ".github/workflows/ubuntu-latest-python-specific.yml",
+      "size": 1024
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A fixed income library for pricing bonds and bond futures, and derivatives such as interest rate swaps (IRS), cross-currency swaps (XCS) and FX swaps. Contains tools for full curveset construction with market standard optimisers and automatic differentiation (AD) and risk sensitivity calculations including delta and cross-gamma.",
+    "fork": false,
+    "full_name": "attack68/rateslib",
+    "html_url": "https://github.com/attack68/rateslib",
+    "language": null,
+    "pushed_at": "2026-04-09T05:01:17Z",
+    "stargazers_count": 336,
+    "topics": [
+      "bonds",
+      "cross-currency",
+      "currency",
+      "curves",
+      "derivatives",
+      "derivatives-pricing",
+      "finance",
+      "fixed-income",
+      "fx",
+      "inflation",
+      "inflation-linked",
+      "interest-rates",
+      "investment",
+      "python",
+      "risk",
+      "risk-management",
+      "students",
+      "swaps",
+      "trading",
+      "treasury"
+    ],
+    "updated_at": "2026-04-23T12:43:55Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Manual Package Release - All",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-all.yml",
+      "term": "Manual Package Release - All"
+    },
+    {
+      "context_snippet": "Manual Package Release - Linux",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-linux.yml",
+      "term": "Manual Package Release - Linux"
+    },
+    {
+      "context_snippet": "Manual Package Release - MacOs",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-macos.yml",
+      "term": "Manual Package Release - MacOs"
+    },
+    {
+      "context_snippet": "Manual Package Release - MuslLinux",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-musllinux.yml",
+      "term": "Manual Package Release - MuslLinux"
+    },
+    {
+      "context_snippet": "Manual Package Release - sdist",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-sdist.yml",
+      "term": "Manual Package Release - sdist"
+    },
+    {
+      "context_snippet": "Manual Package Release - Windows",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-windows.yml",
+      "term": "Manual Package Release - Windows"
+    },
+    {
+      "context_snippet": "<div style=\"text-align: center; padding: 2em 0 2em\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bonds"
+    },
+    {
+      "context_snippet": "<div style=\"text-align: center; padding: 2em 0 2em\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cross-currency"
+    },
+    {
+      "context_snippet": "<div style=\"text-align: center; padding: 2em 0 2em\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "currency"
+    },
+    {
+      "context_snippet": "<div style=\"text-align: center; padding: 2em 0 2em\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "curves"
+    },
+    {
+      "context_snippet": "<div style=\"text-align: center; padding: 2em 0 2em\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "derivatives"
+    },
+    {
+      "context_snippet": "<div style=\"text-align: center; padding: 2em 0 2em\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "derivatives-pricing"
+    },
+    {
+      "context_snippet": "<div style=\"text-align: center; padding: 2em 0 2em\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "finance"
+    },
+    {
+      "context_snippet": "<div style=\"text-align: center; padding: 2em 0 2em\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "fixed-income"
+    },
+    {
+      "context_snippet": "<div style=\"text-align: center; padding: 2em 0 2em\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "inflation"
+    },
+    {
+      "context_snippet": "<div style=\"text-align: center; padding: 2em 0 2em\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "inflation-linked"
+    },
+    {
+      "context_snippet": "<div style=\"text-align: center; padding: 2em 0 2em\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "interest-rates"
+    },
+    {
+      "context_snippet": "<div style=\"text-align: center; padding: 2em 0 2em\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "investment"
+    },
+    {
+      "context_snippet": "<div style=\"text-align: center; padding: 2em 0 2em\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "risk"
+    },
+    {
+      "context_snippet": "<div style=\"text-align: center; padding: 2em 0 2em\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "risk-management"
+    },
+    {
+      "context_snippet": "<div style=\"text-align: center; padding: 2em 0 2em\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "students"
+    },
+    {
+      "context_snippet": "<div style=\"text-align: center; padding: 2em 0 2em\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "swaps"
+    },
+    {
+      "context_snippet": "<div style=\"text-align: center; padding: 2em 0 2em\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "trading"
+    },
+    {
+      "context_snippet": "<div style=\"text-align: center; padding: 2em 0 2em\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "treasury"
+    }
+  ]
+}

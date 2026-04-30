@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Docker publish vizzu-dev-wasm"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "vizzuhq/vizzu-lib",
+      "status": "candidate-context",
+      "text": "Library for animated data visualizations and data stories."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vizzuhq/vizzu-lib",
+      "status": "candidate-context",
+      "text": "Docker publish vizzu-dev-wasm"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vizzuhq/vizzu-lib",
+      "status": "candidate",
+      "text": "Docker publish vizzu-dev-wasm"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12376,
+      "status": "candidate",
+      "text": "boat"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11983,
+      "status": "candidate",
+      "text": "cargo"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11983,
+      "status": "candidate",
+      "text": "crate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11983,
+      "status": "candidate",
+      "text": "dock"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11983,
+      "status": "candidate",
+      "text": "elf"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Docker publish vizzu-dev-wasm",
+  "concept_id": "docker-publish-vizzu-dev-wasm",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/docker-vizzu-dev-wasm.yml",
+      "source_repo": "vizzuhq/vizzu-lib"
+    }
+  ],
+  "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Docker publish vizzu-dev-wasm",
+      "sense_id": "docker-publish-vizzu-dev-wasm#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

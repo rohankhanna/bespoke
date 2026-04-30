@@ -19,6 +19,30 @@
       "source_repo": "scala-interop/slinc",
       "status": "candidate-context",
       "text": "![workflow status](https://github.com/markehammons/slinc/actions/workflows/ci.yml/badge.svg)![Maven Central](https://img.shields.io/maven-central/v/fr.hammons/slinc-core_3)[![codecov](https://codecov.io/gh/markehammons/slinc/branch/master/graph/badge.svg?token=MSTGFQYNXI)](https\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "appbaseio/reactivesearch",
+      "status": "candidate-context",
+      "text": "Search UI components for React and Vue"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "appbaseio/reactivesearch",
+      "status": "candidate-context",
+      "text": "<h2 align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "YACReader/yacreader",
+      "status": "candidate-context",
+      "text": "This repo contains the code of YACReader's desktop version."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "YACReader/yacreader",
+      "status": "candidate-context",
+      "text": "| Build | Master | Develop |"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +51,18 @@
       "source_repo": "scala-interop/slinc",
       "status": "candidate",
       "text": "![workflow status](https://github.com/markehammons/slinc/actions/workflows/ci.yml/badge.svg)![Maven Central](https://img.shields.io/maven-central/v/fr.hammons/slinc-core_3)[![codecov](https://codecov.io/gh/markehammons/slinc/branch/master/graph/badge.svg?token=MSTGFQYNXI)](https\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "appbaseio/reactivesearch",
+      "status": "candidate",
+      "text": "<h2 align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "YACReader/yacreader",
+      "status": "candidate",
+      "text": "| Build | Master | Develop |"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +76,29 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "scala-interop/slinc"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "scala-interop/slinc"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "appbaseio/reactivesearch"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "YACReader/yacreader"
     }
   ],
   "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,58 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bazelbuild/platforms",
+      "target": "bazel",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bazelbuild/platforms",
+      "target": "bazel-rules",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T04:05:54.411453+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3576
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Constraint values for specifying platforms and toolchains",
+    "fork": false,
+    "full_name": "bazelbuild/platforms",
+    "html_url": "https://github.com/bazelbuild/platforms",
+    "language": "Starlark",
+    "pushed_at": "2025-09-29T22:29:44Z",
+    "stargazers_count": 119,
+    "topics": [
+      "bazel",
+      "bazel-rules"
+    ],
+    "updated_at": "2026-04-01T11:53:04Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "This repository houses all canonical",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bazel"
+    },
+    {
+      "context_snippet": "This repository houses all canonical",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bazel-rules"
+    }
+  ]
+}

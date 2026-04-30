@@ -31,6 +31,18 @@
       "source_repo": "chrischoy/SpatioTemporalSegmentation",
       "status": "candidate-context",
       "text": "[pypi-url]: https://pypi.org/project/MinkowskiEngine/"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "zju3dv/LoFTR",
+      "status": "candidate-context",
+      "text": "Code for \"LoFTR: Detector-Free Local Feature Matching with Transformers\", CVPR 2021, T-PAMI 2022"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "zju3dv/LoFTR",
+      "status": "candidate-context",
+      "text": "<br/>"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +57,12 @@
       "source_repo": "chrischoy/SpatioTemporalSegmentation",
       "status": "candidate",
       "text": "[pypi-url]: https://pypi.org/project/MinkowskiEngine/"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "zju3dv/LoFTR",
+      "status": "candidate",
+      "text": "<br/>"
     }
   ],
   "candidate_related_terms": [],
@@ -70,11 +88,17 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": null,
       "source_repo": "NVIDIA/MinkowskiEngine"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "zju3dv/LoFTR"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

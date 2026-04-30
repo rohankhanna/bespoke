@@ -1,0 +1,128 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "aim-uofa/Matcher",
+      "target": "aim-uofa/sine",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "aim-uofa/Matcher",
+      "target": "aim-uofa/diffews",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "aim-uofa/Matcher",
+      "target": "baaivision/painter",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aim-uofa/Matcher",
+      "target": "dinov2",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aim-uofa/Matcher",
+      "target": "generalist-model",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aim-uofa/Matcher",
+      "target": "in-context-segmentation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aim-uofa/Matcher",
+      "target": "matcher",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T05:09:34.347560+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4502
+    },
+    {
+      "path": "requirements.txt",
+      "size": 233
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "[ICLR'24 & IJCV\u201825] Matcher: Segment Anything with One Shot Using All-Purpose Feature Matching",
+    "fork": false,
+    "full_name": "aim-uofa/Matcher",
+    "html_url": "https://github.com/aim-uofa/Matcher",
+    "language": "Python",
+    "pushed_at": "2025-12-03T05:31:11Z",
+    "stargazers_count": 557,
+    "topics": [
+      "dinov2",
+      "generalist-model",
+      "in-context-segmentation",
+      "matcher",
+      "sam"
+    ],
+    "updated_at": "2026-04-22T09:03:13Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "aim-uofa/diffews",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "aim-uofa/sine",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "baaivision/painter",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dinov2"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "generalist-model"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "in-context-segmentation"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "matcher"
+    }
+  ]
+}

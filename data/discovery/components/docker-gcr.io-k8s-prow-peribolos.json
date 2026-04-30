@@ -1,0 +1,17 @@
+{
+  "component": "docker://gcr.io/k8s-prow/peribolos",
+  "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/org-management-peribolos-dump.yml",
+      "source_repo": "cloudfoundry/community"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/org-management.yml",
+      "source_repo": "cloudfoundry/community"
+    }
+  ]
+}

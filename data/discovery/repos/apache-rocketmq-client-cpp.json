@@ -1,0 +1,44 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "apache/rocketmq-client-cpp",
+      "target": "rocketmq",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T04:51:41.280863+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4623
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Apache RocketMQ cpp client",
+    "fork": false,
+    "full_name": "apache/rocketmq-client-cpp",
+    "html_url": "https://github.com/apache/rocketmq-client-cpp",
+    "language": "C++",
+    "pushed_at": "2026-03-17T02:07:22Z",
+    "stargazers_count": 391,
+    "topics": [
+      "rocketmq"
+    ],
+    "updated_at": "2026-04-25T16:06:11Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "[![License](https://img.shields.io/badge/license-Apache%202-4EB1BA.svg)](https://www.apache.org/licenses/LICENSE-2.0.html)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rocketmq"
+    }
+  ]
+}

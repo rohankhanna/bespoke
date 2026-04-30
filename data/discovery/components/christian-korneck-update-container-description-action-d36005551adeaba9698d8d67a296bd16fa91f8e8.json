@@ -1,7 +1,7 @@
 {
   "component": "christian-korneck/update-container-description-action@d36005551adeaba9698d8d67a296bd16fa91f8e8",
   "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -22,6 +22,21 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/container_description.yml",
       "source_repo": "prometheus/blackbox_exporter"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/container_description.yml",
+      "source_repo": "prometheus-community/windows_exporter"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "conda-forge/conda-forge-feedstock-ops"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/container_description.yml",
+      "source_repo": "prometheus/alertmanager"
     }
   ]
 }

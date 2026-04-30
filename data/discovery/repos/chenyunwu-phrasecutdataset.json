@@ -1,0 +1,128 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ChenyunWu/PhraseCutDataset",
+      "target": "computer-vision",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ChenyunWu/PhraseCutDataset",
+      "target": "cvpr2020",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ChenyunWu/PhraseCutDataset",
+      "target": "datasets",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ChenyunWu/PhraseCutDataset",
+      "target": "referring-image-segmentation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ChenyunWu/PhraseCutDataset",
+      "target": "umass-amherst",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ChenyunWu/PhraseCutDataset",
+      "target": "vision-and-language",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ChenyunWu/PhraseCutDataset",
+      "target": "visual-grounding",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T01:38:12.219717+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 12307
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Dataset API for \"PhraseCut: Language-based Image Segmentation in the Wild\"",
+    "fork": false,
+    "full_name": "ChenyunWu/PhraseCutDataset",
+    "html_url": "https://github.com/ChenyunWu/PhraseCutDataset",
+    "language": "Jupyter Notebook",
+    "pushed_at": "2026-03-28T05:41:07Z",
+    "stargazers_count": 114,
+    "topics": [
+      "computer-vision",
+      "cvpr2020",
+      "datasets",
+      "referring-image-segmentation",
+      "umass-amherst",
+      "vision-and-language",
+      "visual-grounding"
+    ],
+    "updated_at": "2026-04-13T02:40:12Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "<table width=\"100%\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "computer-vision"
+    },
+    {
+      "context_snippet": "<table width=\"100%\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cvpr2020"
+    },
+    {
+      "context_snippet": "<table width=\"100%\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "datasets"
+    },
+    {
+      "context_snippet": "<table width=\"100%\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "referring-image-segmentation"
+    },
+    {
+      "context_snippet": "<table width=\"100%\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "umass-amherst"
+    },
+    {
+      "context_snippet": "<table width=\"100%\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vision-and-language"
+    },
+    {
+      "context_snippet": "<table width=\"100%\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "visual-grounding"
+    }
+  ]
+}

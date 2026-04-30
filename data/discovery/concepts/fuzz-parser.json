@@ -31,6 +31,18 @@
       "source_repo": "tree-sitter/tree-sitter-python",
       "status": "candidate-context",
       "text": "Fuzz Parser"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "tree-sitter/tree-sitter-javascript",
+      "status": "candidate-context",
+      "text": "Javascript grammar for tree-sitter"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tree-sitter/tree-sitter-javascript",
+      "status": "candidate-context",
+      "text": "Fuzz Parser"
     }
   ],
   "candidate_glosses": [
@@ -43,6 +55,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "tree-sitter/tree-sitter-python",
+      "status": "candidate",
+      "text": "Fuzz Parser"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tree-sitter/tree-sitter-javascript",
       "status": "candidate",
       "text": "Fuzz Parser"
     }
@@ -100,11 +118,17 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": ".github/workflows/fuzz.yml",
       "source_repo": "tree-sitter/tree-sitter-python"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/fuzz.yml",
+      "source_repo": "tree-sitter/tree-sitter-javascript"
     }
   ],
   "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

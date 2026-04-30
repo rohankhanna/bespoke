@@ -1,0 +1,69 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "cloudfoundry/auctioneer",
+      "target": "cloudfoundry/community",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "cloudfoundry/auctioneer",
+      "target": "cloudfoundry/wg-app-platform-runtime-ci",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cloudfoundry/auctioneer",
+      "target": "cff-wg-app-runtime-platform",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T04:11:07.256158+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1140
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "main",
+    "description": "Runs diego auctions",
+    "fork": false,
+    "full_name": "cloudfoundry/auctioneer",
+    "html_url": "https://github.com/cloudfoundry/auctioneer",
+    "language": "Go",
+    "pushed_at": "2025-09-10T19:33:55Z",
+    "stargazers_count": 7,
+    "topics": [
+      "cff-wg-app-runtime-platform"
+    ],
+    "updated_at": "2025-09-10T19:34:08Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cloudfoundry/community",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cloudfoundry/wg-app-platform-runtime-ci",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "> [!CAUTION]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cff-wg-app-runtime-platform"
+    }
+  ]
+}

@@ -4,13 +4,6 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "containers/podman",
-      "target": "containers/release-keys",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "containers/podman",
       "target": "containers/podman-desktop",
       "target_type": "repository"
     },
@@ -32,7 +25,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/check_cirrus_cron.yml",
       "source_repo": "containers/podman",
-      "target": "dawidd6/action-send-mail@d38f3f7cd391cdebfe0d38efc3998b935e951c4f",
+      "target": "dawidd6/action-send-mail@42942bc2f8fba4e611b459a018967a6a7c78c68c",
       "target_type": "component"
     },
     {
@@ -130,7 +123,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/issue_pr_lock.yml",
       "source_repo": "containers/podman",
-      "target": "dawidd6/action-send-mail@d38f3f7cd391cdebfe0d38efc3998b935e951c4f",
+      "target": "dawidd6/action-send-mail@42942bc2f8fba4e611b459a018967a6a7c78c68c",
       "target_type": "component"
     },
     {
@@ -169,6 +162,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-04-24T00:33:56.049672+00:00",
+  "generated_at": "2026-04-30T00:37:16.824464+00:00",
   "source_repo": "containers/podman"
 }

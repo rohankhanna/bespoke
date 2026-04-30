@@ -57,6 +57,48 @@
       "source_repo": "googleapis/google-oauth-java-client",
       "status": "candidate-context",
       "text": "samples"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "microsoft/WindowsAppSDK-Samples",
+      "status": "candidate-context",
+      "text": "Feature samples for the Windows App SDK"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/WindowsAppSDK-Samples",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "GoogleCloudPlatform/elixir-samples",
+      "status": "candidate-context",
+      "text": "A collection of samples on using Elixir with Google Cloud Platform. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "GoogleCloudPlatform/elixir-samples",
+      "status": "candidate-context",
+      "text": "> Elixir on GCP is a **community-supported project**, meaning there is no official"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "googleapis/java-bigquery",
+      "status": "candidate-context",
+      "text": "samples"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "googleapis/java-bigquerystorage",
+      "status": "candidate-context",
+      "text": "samples"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "googleapis/java-bigtable",
+      "status": "candidate-context",
+      "text": "samples"
     }
   ],
   "candidate_glosses": [
@@ -81,6 +123,36 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "googleapis/google-oauth-java-client",
+      "status": "candidate",
+      "text": "samples"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/WindowsAppSDK-Samples",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "GoogleCloudPlatform/elixir-samples",
+      "status": "candidate",
+      "text": "> Elixir on GCP is a **community-supported project**, meaning there is no official"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "googleapis/java-bigquery",
+      "status": "candidate",
+      "text": "samples"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "googleapis/java-bigquerystorage",
+      "status": "candidate",
+      "text": "samples"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "googleapis/java-bigtable",
       "status": "candidate",
       "text": "samples"
     }
@@ -150,11 +222,41 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": ".github/workflows/samples.yaml",
       "source_repo": "googleapis/google-oauth-java-client"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "microsoft/WindowsAppSDK-Samples"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "GoogleCloudPlatform/elixir-samples"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/samples.yaml",
+      "source_repo": "googleapis/java-bigquery"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/samples.yaml",
+      "source_repo": "googleapis/java-bigquerystorage"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/samples.yaml",
+      "source_repo": "googleapis/java-bigtable"
     }
   ],
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

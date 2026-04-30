@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "\u4e2d\u6587\u6807\u70b9\u7b26\u53f7\u6a21\u578b\uff0c\u53ef\u4ee5\u7ed9\u6587\u672c\u6dfb\u52a0\u6807\u70b9\u7b26\u53f7\u3002"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "\u57fa\u4e8eErnie\u5f00\u53d1\u7684\u4e2d\u6587\u6807\u70b9\u7b26\u53f7\u6a21\u578b\uff0c\u9ed8\u8ba4\u4f7f\u7528\u7684\u9884\u8bad\u7ec3\u6a21\u578b\u4e3a`ernie-3.0-medium-zh`\uff0c\u8be5\u6a21\u578b\u53ef\u4ee5\u7528\u4e8e\u8bed\u97f3\u8bc6\u522b\u7ed3\u679c\u6dfb\u52a0\u6807\u70b9\u7b26\u53f7\uff0c\u4f7f\u7528\u6848\u4f8b[PPASR](https://github.com/yeyupiaoling/PPASR)\u3002"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "\u57fa\u4e8eErnie\u5f00\u53d1\u7684\u4e2d\u6587\u6807\u70b9\u7b26\u53f7\u6a21\u578b\uff0c\u9ed8\u8ba4\u4f7f\u7528\u7684\u9884\u8bad\u7ec3\u6a21\u578b\u4e3a`ernie-3.0-medium-zh`\uff0c\u8be5\u6a21\u578b\u53ef\u4ee5\u7528\u4e8e\u8bed\u97f3\u8bc6\u522b\u7ed3\u679c\u6dfb\u52a0\u6807\u70b9\u7b26\u53f7\uff0c\u4f7f\u7528\u6848\u4f8b[PPASR](https://github.com/yeyupiaoling/PPASR)\u3002"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28374307,
+      "status": "candidate",
+      "text": "hobo"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28225156,
+      "status": "candidate",
+      "text": "bum"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26930770,
+      "status": "candidate",
+      "text": "bernie"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26910630,
+      "status": "candidate",
+      "text": "ernest"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26890808,
+      "status": "candidate",
+      "text": "eddie"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "ernie",
+      "sense_id": "ernie#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "ernie",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "ernie",
+  "observation_id": "d82e21ab8ded2f3c",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T00:37:16.824464+00:00",
+  "observed_text": "ernie",
+  "source_context_snippet": "\u57fa\u4e8eErnie\u5f00\u53d1\u7684\u4e2d\u6587\u6807\u70b9\u7b26\u53f7\u6a21\u578b\uff0c\u9ed8\u8ba4\u4f7f\u7528\u7684\u9884\u8bad\u7ec3\u6a21\u578b\u4e3a`ernie-3.0-medium-zh`\uff0c\u8be5\u6a21\u578b\u53ef\u4ee5\u7528\u4e8e\u8bed\u97f3\u8bc6\u522b\u7ed3\u679c\u6dfb\u52a0\u6807\u70b9\u7b26\u53f7\uff0c\u4f7f\u7528\u6848\u4f8b[PPASR](https://github.com/yeyupiaoling/PPASR)\u3002",
+  "source_file": null,
+  "source_repo": "yeyupiaoling/PunctuationModel",
+  "source_repo_description": "\u4e2d\u6587\u6807\u70b9\u7b26\u53f7\u6a21\u578b\uff0c\u53ef\u4ee5\u7ed9\u6587\u672c\u6dfb\u52a0\u6807\u70b9\u7b26\u53f7\u3002"
+}

@@ -19,6 +19,18 @@
       "source_repo": "Alamofire/Alamofire",
       "status": "candidate-context",
       "text": "![Alamofire: Elegant Networking in Swift](https://raw.githubusercontent.com/Alamofire/Alamofire/master/Resources/AlamofireLogo.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "googleapis/gaxios",
+      "status": "candidate-context",
+      "text": "An HTTP request client that provides an axios like interface over top of node-fetch. Super lightweight.  Supports proxies and all sorts of other stuff."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "googleapis/gaxios",
+      "status": "candidate-context",
+      "text": "**_THIS REPOSITORY IS DEPRECATED. ALL OF ITS CONTENT AND HISTORY HAS BEEN MOVED TO [GOOGLE-CLOUD-NODE-CORE](https://github.com/googleapis/google-cloud-node-core/tree/main/packages/gaxios)_**"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "Alamofire/Alamofire",
       "status": "candidate",
       "text": "![Alamofire: Elegant Networking in Swift](https://raw.githubusercontent.com/Alamofire/Alamofire/master/Resources/AlamofireLogo.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "googleapis/gaxios",
+      "status": "candidate",
+      "text": "**_THIS REPOSITORY IS DEPRECATED. ALL OF ITS CONTENT AND HISTORY HAS BEEN MOVED TO [GOOGLE-CLOUD-NODE-CORE](https://github.com/googleapis/google-cloud-node-core/tree/main/packages/gaxios)_**"
     }
   ],
   "candidate_related_terms": [
@@ -112,11 +130,17 @@
       "observed_at": "2026-04-24T00:33:56.049672+00:00",
       "source_file": null,
       "source_repo": "Alamofire/Alamofire"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "googleapis/gaxios"
     }
   ],
   "first_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -19,12 +19,30 @@
       "source_repo": "cloudwego/eino",
       "status": "candidate-context",
       "text": "Tag Notification"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cloudwego/eino-ext",
+      "status": "candidate-context",
+      "text": "Various extensions for the Eino framework: https://github.com/cloudwego/eino"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cloudwego/eino-ext",
+      "status": "candidate-context",
+      "text": "Tag Notification"
     }
   ],
   "candidate_glosses": [
     {
       "source_kind": "source-snippet",
       "source_repo": "cloudwego/eino",
+      "status": "candidate",
+      "text": "Tag Notification"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cloudwego/eino-ext",
       "status": "candidate",
       "text": "Tag Notification"
     }
@@ -76,11 +94,17 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": ".github/workflows/tag-notification.yml",
       "source_repo": "cloudwego/eino"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/tag-notification.yml",
+      "source_repo": "cloudwego/eino-ext"
     }
   ],
   "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

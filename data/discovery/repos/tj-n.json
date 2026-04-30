@@ -1,0 +1,94 @@
+{
+  "components": [
+    {
+      "component": "bats",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "bats-assert",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "bats-support",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "tj/n",
+      "target": "mklement0/n-install",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "tj/n",
+      "target": "shadowspawn/node-version-usage",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "tj/n",
+      "target": "bats",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "tj/n",
+      "target": "bats-assert",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "tj/n",
+      "target": "bats-support",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-04-30T03:00:23.911600+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 14308
+    },
+    {
+      "path": "package.json",
+      "size": 957
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Node version management",
+    "fork": false,
+    "full_name": "tj/n",
+    "html_url": "https://github.com/tj/n",
+    "language": "Shell",
+    "pushed_at": "2026-04-12T09:32:18Z",
+    "stargazers_count": 19523,
+    "topics": [],
+    "updated_at": "2026-04-30T02:31:44Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mklement0/n-install",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "shadowspawn/node-version-usage",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

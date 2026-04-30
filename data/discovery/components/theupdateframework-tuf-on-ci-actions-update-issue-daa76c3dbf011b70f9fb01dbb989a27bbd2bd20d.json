@@ -1,7 +1,7 @@
 {
   "component": "theupdateframework/tuf-on-ci/actions/update-issue@daa76c3dbf011b70f9fb01dbb989a27bbd2bd20d",
   "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -22,6 +22,31 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/test-gcs.yml",
       "source_repo": "sigstore/root-signing"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/create-signing-events.yml",
+      "source_repo": "sigstore/root-signing-staging"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/online-sign.yml",
+      "source_repo": "sigstore/root-signing-staging"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "sigstore/root-signing-staging"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test-gcs.yml",
+      "source_repo": "sigstore/root-signing-staging"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "sigstore/root-signing-staging"
     }
   ]
 }

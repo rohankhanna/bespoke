@@ -31,6 +31,30 @@
       "source_repo": "JIA-Lab-research/LargeKernel3D",
       "status": "candidate-context",
       "text": "This is the implementation of ***LargeKernel3D*** (CVPR 2023). Large kernels are important but expensive in 3D CNNs. We propose spatial-wise partition to conv enable 3D large kernels. High performance on 3D semantic segmentation & object detection."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JIA-Lab-research/FocalsConv",
+      "status": "candidate-context",
+      "text": "Focal Sparse Convolutional Networks for 3D Object Detection (CVPR 2022, Oral)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JIA-Lab-research/FocalsConv",
+      "status": "candidate-context",
+      "text": "[![arXiv](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)](https://arxiv.org/abs/2204.12463)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JIA-Lab-research/SphereFormer",
+      "status": "candidate-context",
+      "text": "The official implementation for \"Spherical Transformer for LiDAR-based 3D Recognition\" (CVPR 2023)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JIA-Lab-research/SphereFormer",
+      "status": "candidate-context",
+      "text": "[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/spherical-transformer-for-lidar-based-3d/3d-semantic-segmentation-on-semantickitti)](https://paperswithcode.com/sota/3d-semantic-segmentation-on-semantickitti?p=spherical-transformer-for-lidar-based\u2026"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +69,18 @@
       "source_repo": "JIA-Lab-research/LargeKernel3D",
       "status": "candidate",
       "text": "This is the implementation of ***LargeKernel3D*** (CVPR 2023). Large kernels are important but expensive in 3D CNNs. We propose spatial-wise partition to conv enable 3D large kernels. High performance on 3D semantic segmentation & object detection."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JIA-Lab-research/FocalsConv",
+      "status": "candidate",
+      "text": "[![arXiv](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)](https://arxiv.org/abs/2204.12463)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JIA-Lab-research/SphereFormer",
+      "status": "candidate",
+      "text": "[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/spherical-transformer-for-lidar-based-3d/3d-semantic-segmentation-on-semantickitti)](https://paperswithcode.com/sota/3d-semantic-segmentation-on-semantickitti?p=spherical-transformer-for-lidar-based\u2026"
     }
   ],
   "candidate_related_terms": [],
@@ -64,11 +100,29 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "JIA-Lab-research/LargeKernel3D"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "JIA-Lab-research/FocalsConv"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "JIA-Lab-research/LargeKernel3D"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "JIA-Lab-research/SphereFormer"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

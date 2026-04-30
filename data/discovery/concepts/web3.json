@@ -127,6 +127,30 @@
       "source_repo": "wevm/abitype",
       "status": "candidate-context",
       "text": "<br/>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "celo-org/celo-composer",
+      "status": "candidate-context",
+      "text": "celo-composer is a starter project with all code needed to build, deploy, and upgrade a dapps on Celo."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "celo-org/celo-composer",
+      "status": "candidate-context",
+      "text": "A powerful CLI tool for generating customizable Celo blockchain starter kits with modern monorepo architecture."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "celo-org/react-celo",
+      "status": "candidate-context",
+      "text": "Connect your react dApp to Celo"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "celo-org/react-celo",
+      "status": "candidate-context",
+      "text": "react-celo-root"
     }
   ],
   "candidate_glosses": [
@@ -189,6 +213,18 @@
       "source_repo": "wevm/abitype",
       "status": "candidate",
       "text": "<br/>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "celo-org/celo-composer",
+      "status": "candidate",
+      "text": "A powerful CLI tool for generating customizable Celo blockchain starter kits with modern monorepo architecture."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "celo-org/react-celo",
+      "status": "candidate",
+      "text": "react-celo-root"
     }
   ],
   "candidate_related_terms": [
@@ -356,11 +392,47 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "web3/web3.js"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "dethcrypto/eth-sdk"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "dethcrypto/TypeChain"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "wevm/abitype"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "web3/web3.js"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "celo-org/celo-composer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "celo-org/react-celo"
     }
   ],
   "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

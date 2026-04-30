@@ -1,6 +1,7 @@
 {
   "aliases": [
-    "auto-merge"
+    "auto-merge",
+    "Auto Merge"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -55,6 +56,18 @@
       "source_repo": "mdn/mdn-http-observatory",
       "status": "candidate-context",
       "text": "auto-merge"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sclorg/mariadb-container",
+      "status": "candidate-context",
+      "text": "MariaDB container images based on Red Hat Software Collections and intended for OpenShift and general usage. Users can choose between Red Hat Enterprise Linux, Fedora, and CentOS based images."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sclorg/mariadb-container",
+      "status": "candidate-context",
+      "text": "Auto Merge"
     }
   ],
   "candidate_glosses": [
@@ -81,9 +94,51 @@
       "source_repo": "mdn/mdn-http-observatory",
       "status": "candidate",
       "text": "auto-merge"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sclorg/mariadb-container",
+      "status": "candidate",
+      "text": "Auto Merge"
     }
   ],
-  "candidate_related_terms": [],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10784,
+      "status": "candidate",
+      "text": "join"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10784,
+      "status": "candidate",
+      "text": "joining"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10784,
+      "status": "candidate",
+      "text": "mixing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10773,
+      "status": "candidate",
+      "text": "brakes"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10773,
+      "status": "candidate",
+      "text": "car"
+    }
+  ],
   "candidate_synonyms": [],
   "canonical_name": "auto-merge",
   "concept_id": "auto-merge",
@@ -112,11 +167,17 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": ".github/workflows/auto-merge.yml",
       "source_repo": "mdn/mdn-http-observatory"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/auto-merge.yml",
+      "source_repo": "sclorg/mariadb-container"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -73,6 +73,18 @@
       "source_repo": "aws-actions/aws-secretsmanager-get-secrets",
       "status": "candidate-context",
       "text": "Check Transpiled JavaScript"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "adevinta/actions-lighthouseci-compare",
+      "status": "candidate-context",
+      "text": "A github action to gather the results of lighthouse ci and compare the current branch with the ancestor to catch regressions."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "adevinta/actions-lighthouseci-compare",
+      "status": "candidate-context",
+      "text": "Check Transpiled JavaScript"
     }
   ],
   "candidate_glosses": [
@@ -109,6 +121,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "aws-actions/aws-secretsmanager-get-secrets",
+      "status": "candidate",
+      "text": "Check Transpiled JavaScript"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "adevinta/actions-lighthouseci-compare",
       "status": "candidate",
       "text": "Check Transpiled JavaScript"
     }
@@ -214,11 +232,23 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": ".github/workflows/check-dist.yml",
       "source_repo": "actions/container-toolkit-action"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/check-dist.yml",
+      "source_repo": "adevinta/actions-lighthouseci-compare"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/check-dist.yml",
+      "source_repo": "actions/container-toolkit-action"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

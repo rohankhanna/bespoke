@@ -1,0 +1,108 @@
+{
+  "aliases": [
+    "Milestone"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "scientific-python/scientific-python-hugo-theme",
+      "status": "candidate-context",
+      "text": "Scientific Python Web Theme"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "scientific-python/scientific-python-hugo-theme",
+      "status": "candidate-context",
+      "text": "Milestone"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "scientific-python/scientific-python-hugo-theme",
+      "status": "candidate",
+      "text": "Milestone"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40013109,
+      "status": "candidate",
+      "text": "milepost"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30013007,
+      "status": "candidate",
+      "text": "crossroads"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30012895,
+      "status": "candidate",
+      "text": "juncture"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30009261,
+      "status": "candidate",
+      "text": "mileage"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30007303,
+      "status": "candidate",
+      "text": "signpost"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 29,
+      "status": "candidate",
+      "text": "milepost"
+    }
+  ],
+  "canonical_name": "Milestone",
+  "concept_id": "milestone",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/milestone-merged-prs.yaml",
+      "source_repo": "scientific-python/scientific-python-hugo-theme"
+    }
+  ],
+  "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Milestone",
+      "sense_id": "milestone#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

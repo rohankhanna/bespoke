@@ -19,6 +19,18 @@
       "source_repo": "alibaba/MNN",
       "status": "candidate-context",
       "text": "![MNN](doc/banner.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "marton78/pffft",
+      "status": "candidate-context",
+      "text": "A fork of Julien Pommier's Pretty Fast FFT (PFFFT) library, with several additions"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "marton78/pffft",
+      "status": "candidate-context",
+      "text": "---"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "alibaba/MNN",
       "status": "candidate",
       "text": "![MNN](doc/banner.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "marton78/pffft",
+      "status": "candidate",
+      "text": "---"
     }
   ],
   "candidate_related_terms": [
@@ -105,11 +123,17 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": null,
       "source_repo": "alibaba/MNN"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "marton78/pffft"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

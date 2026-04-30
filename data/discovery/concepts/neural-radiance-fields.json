@@ -19,6 +19,18 @@
       "source_repo": "sunset1995/DirectVoxGO",
       "status": "candidate-context",
       "text": "Direct Voxel Grid Optimization (CVPR2022 Oral, [project page](https://sunset1995.github.io/dvgo/), [DVGO paper](https://arxiv.org/abs/2111.11215), [DVGO v2 paper](https://arxiv.org/abs/2206.05085))."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bmild/nerf",
+      "status": "candidate-context",
+      "text": "Code release for NeRF (Neural Radiance Fields)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bmild/nerf",
+      "status": "candidate-context",
+      "text": "[![Open Tiny-NeRF in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/bmild/nerf/blob/master/tiny_nerf.ipynb)<br>"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "sunset1995/DirectVoxGO",
       "status": "candidate",
       "text": "Direct Voxel Grid Optimization (CVPR2022 Oral, [project page](https://sunset1995.github.io/dvgo/), [DVGO paper](https://arxiv.org/abs/2111.11215), [DVGO v2 paper](https://arxiv.org/abs/2206.05085))."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bmild/nerf",
+      "status": "candidate",
+      "text": "[![Open Tiny-NeRF in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/bmild/nerf/blob/master/tiny_nerf.ipynb)<br>"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": null,
       "source_repo": "sunset1995/DirectVoxGO"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "bmild/nerf"
     }
   ],
   "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

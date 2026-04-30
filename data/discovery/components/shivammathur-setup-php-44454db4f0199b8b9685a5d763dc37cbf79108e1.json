@@ -1,0 +1,32 @@
+{
+  "component": "shivammathur/setup-php@44454db4f0199b8b9685a5d763dc37cbf79108e1",
+  "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/composer-root-version.yaml",
+      "source_repo": "humbug/php-scoper"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/e2e-tests.yaml",
+      "source_repo": "humbug/php-scoper"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/lint.yaml",
+      "source_repo": "humbug/php-scoper"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "humbug/php-scoper"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/tests.yaml",
+      "source_repo": "humbug/php-scoper"
+    }
+  ]
+}

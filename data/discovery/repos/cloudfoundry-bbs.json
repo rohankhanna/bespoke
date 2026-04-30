@@ -1,0 +1,69 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "cloudfoundry/bbs",
+      "target": "cloudfoundry/community",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "cloudfoundry/bbs",
+      "target": "cloudfoundry/wg-app-platform-runtime-ci",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cloudfoundry/bbs",
+      "target": "cff-wg-app-runtime-platform",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T04:11:08.155913+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2400
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Internal API to access the database for Diego.",
+    "fork": false,
+    "full_name": "cloudfoundry/bbs",
+    "html_url": "https://github.com/cloudfoundry/bbs",
+    "language": "Go",
+    "pushed_at": "2026-04-16T18:46:01Z",
+    "stargazers_count": 30,
+    "topics": [
+      "cff-wg-app-runtime-platform"
+    ],
+    "updated_at": "2026-03-23T20:38:59Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cloudfoundry/community",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cloudfoundry/wg-app-platform-runtime-ci",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[![Go Report",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cff-wg-app-runtime-platform"
+    }
+  ]
+}

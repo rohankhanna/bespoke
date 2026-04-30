@@ -1,0 +1,53 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "facebookresearch/XLM",
+      "target": "facebookresearch/xnli",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "facebookresearch/XLM",
+      "target": "pythainlp/pythainlp",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T02:45:18.939730+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 39341
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "main",
+    "description": "PyTorch original implementation of Cross-lingual Language Model Pretraining.",
+    "fork": false,
+    "full_name": "facebookresearch/XLM",
+    "html_url": "https://github.com/facebookresearch/XLM",
+    "language": "Python",
+    "pushed_at": "2023-02-14T14:44:13Z",
+    "stargazers_count": 2932,
+    "topics": [],
+    "updated_at": "2026-04-25T14:15:38Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "facebookresearch/xnli",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "pythainlp/pythainlp",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

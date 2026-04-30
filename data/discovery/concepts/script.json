@@ -19,6 +19,66 @@
       "source_repo": "SvenTiigi/SwiftKit",
       "status": "candidate-context",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "1set/starlet",
+      "status": "candidate-context",
+      "text": "\u2728 Yet another Go wrapper for Starlark that simplifies usage, offers data conversion and useful Starlark libraries"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "1set/starlet",
+      "status": "candidate-context",
+      "text": "[![godoc](https://pkg.go.dev/badge/github.com/1set/starlet.svg)](https://pkg.go.dev/github.com/1set/starlet)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hongjr03/tinymist-nightly-installer",
+      "status": "candidate-context",
+      "text": "Install the nightly version of Tinymist!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hongjr03/tinymist-nightly-installer",
+      "status": "candidate-context",
+      "text": "English | [\u7b80\u4f53\u4e2d\u6587](README.zh-CN.md)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sagiegurari/duckscript",
+      "status": "candidate-context",
+      "text": "Simple, extendable and embeddable scripting language."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sagiegurari/duckscript",
+      "status": "candidate-context",
+      "text": "| duckscript | SDK | CLI |"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Justintime50/homebrew-releaser",
+      "status": "candidate-context",
+      "text": "Release scripts, binaries, and executables directly to Homebrew via GitHub Actions."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Justintime50/homebrew-releaser",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "2KAbhishek/shelly",
+      "status": "candidate-context",
+      "text": "Publish CLI Tools \ud83d\udc1a\u2728"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "2KAbhishek/shelly",
+      "status": "candidate-context",
+      "text": "<div align = \"center\">"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +87,36 @@
       "source_repo": "SvenTiigi/SwiftKit",
       "status": "candidate",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "1set/starlet",
+      "status": "candidate",
+      "text": "[![godoc](https://pkg.go.dev/badge/github.com/1set/starlet.svg)](https://pkg.go.dev/github.com/1set/starlet)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hongjr03/tinymist-nightly-installer",
+      "status": "candidate",
+      "text": "English | [\u7b80\u4f53\u4e2d\u6587](README.zh-CN.md)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sagiegurari/duckscript",
+      "status": "candidate",
+      "text": "| duckscript | SDK | CLI |"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Justintime50/homebrew-releaser",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "2KAbhishek/shelly",
+      "status": "candidate",
+      "text": "<div align = \"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -105,11 +195,41 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": null,
       "source_repo": "SvenTiigi/SwiftKit"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "1set/starlet"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "hongjr03/tinymist-nightly-installer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "sagiegurari/duckscript"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "Justintime50/homebrew-releaser"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "2KAbhishek/shelly"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

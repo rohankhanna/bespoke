@@ -1,0 +1,142 @@
+{
+  "components": [
+    {
+      "component": "babel-brunch",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "brunch",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "clean-css-brunch",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "css-brunch",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "javascript-brunch",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "uglify-js-brunch",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "phoenix",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "phoenix_html",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "chrismccord/phoenix_chat_example",
+      "target": "phoenixframework/phoenix",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "chrismccord/phoenix_chat_example",
+      "target": "babel-brunch",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "chrismccord/phoenix_chat_example",
+      "target": "brunch",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "chrismccord/phoenix_chat_example",
+      "target": "clean-css-brunch",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "chrismccord/phoenix_chat_example",
+      "target": "css-brunch",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "chrismccord/phoenix_chat_example",
+      "target": "javascript-brunch",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "chrismccord/phoenix_chat_example",
+      "target": "uglify-js-brunch",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "chrismccord/phoenix_chat_example",
+      "target": "phoenix",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "chrismccord/phoenix_chat_example",
+      "target": "phoenix_html",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-04-30T02:53:43.837921+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3669
+    },
+    {
+      "path": "package.json",
+      "size": 314
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": null,
+    "fork": false,
+    "full_name": "chrismccord/phoenix_chat_example",
+    "html_url": "https://github.com/chrismccord/phoenix_chat_example",
+    "language": "JavaScript",
+    "pushed_at": "2022-09-17T22:42:44Z",
+    "stargazers_count": 704,
+    "topics": [],
+    "updated_at": "2026-03-05T09:11:14Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "phoenixframework/phoenix",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

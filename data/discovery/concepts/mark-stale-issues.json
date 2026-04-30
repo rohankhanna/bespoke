@@ -31,6 +31,42 @@
       "source_repo": "locustio/locust",
       "status": "candidate-context",
       "text": "Mark stale issues"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "github/codeql",
+      "status": "candidate-context",
+      "text": "CodeQL: the libraries and queries that power security researchers around the world, as well as code scanning in GitHub Advanced Security"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "github/codeql",
+      "status": "candidate-context",
+      "text": "Mark stale issues"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mozilla/addons",
+      "status": "candidate-context",
+      "text": "\u2602 Umbrella repository for Mozilla Addons \u2728"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mozilla/addons",
+      "status": "candidate-context",
+      "text": "Mark stale issues"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "SvenskaSpel/locust-plugins",
+      "status": "candidate-context",
+      "text": "A set of useful plugins/extensions for Locust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SvenskaSpel/locust-plugins",
+      "status": "candidate-context",
+      "text": "Mark stale issues"
     }
   ],
   "candidate_glosses": [
@@ -43,6 +79,24 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "locustio/locust",
+      "status": "candidate",
+      "text": "Mark stale issues"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "github/codeql",
+      "status": "candidate",
+      "text": "Mark stale issues"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mozilla/addons",
+      "status": "candidate",
+      "text": "Mark stale issues"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SvenskaSpel/locust-plugins",
       "status": "candidate",
       "text": "Mark stale issues"
     }
@@ -100,11 +154,29 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": ".github/workflows/stale.yml",
       "source_repo": "locustio/locust"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/close-stale.yml",
+      "source_repo": "github/codeql"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "mozilla/addons"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "SvenskaSpel/locust-plugins"
     }
   ],
   "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

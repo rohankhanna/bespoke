@@ -32,6 +32,18 @@
       "source_repo": "status-im/nim-json-serialization",
       "status": "candidate-context",
       "text": "Docgen"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sapphiredev/.github",
+      "status": "candidate-context",
+      "text": "The Sapphire storage for all GitHub related meta files"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sapphiredev/.github",
+      "status": "candidate-context",
+      "text": "docgen"
     }
   ],
   "candidate_glosses": [
@@ -46,6 +58,12 @@
       "source_repo": "status-im/nim-json-serialization",
       "status": "candidate",
       "text": "Docgen"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sapphiredev/.github",
+      "status": "candidate",
+      "text": "docgen"
     }
   ],
   "candidate_related_terms": [],
@@ -65,11 +83,35 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": ".github/workflows/docs.yml",
       "source_repo": "status-im/nim-json-serialization"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/docgen.yml",
+      "source_repo": "neovim/nvim-lspconfig"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/reusable-documentation-docgen.yml",
+      "source_repo": "sapphiredev/.github"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/reusable-documentation-upload.yml",
+      "source_repo": "sapphiredev/.github"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/reusable-documentation.yml",
+      "source_repo": "sapphiredev/.github"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

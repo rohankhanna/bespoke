@@ -1,0 +1,136 @@
+{
+  "aliases": [
+    "leave"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "623637646/996.Leave",
+      "status": "candidate-context",
+      "text": "\u9003\u79bb996"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "623637646/996.Leave",
+      "status": "candidate-context",
+      "text": "> \u5f88\u591a\u4e8b\u60c5\u4f60\u65e0\u6cd5\u6539\u53d8\uff0c\u4f46\u53ef\u4ee5\u9009\u62e9\u79bb\u5f00\u3002"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "623637646/996.Leave",
+      "status": "candidate",
+      "text": "> \u5f88\u591a\u4e8b\u60c5\u4f60\u65e0\u6cd5\u6539\u53d8\uff0c\u4f46\u53ef\u4ee5\u9009\u62e9\u79bb\u5f00\u3002"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40047497,
+      "status": "candidate",
+      "text": "leave behind"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40047390,
+      "status": "candidate",
+      "text": "drop out"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40047295,
+      "status": "candidate",
+      "text": "throw in the towel"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40047179,
+      "status": "candidate",
+      "text": "chuck up the sponge"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40046951,
+      "status": "candidate",
+      "text": "quit"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 63035,
+      "status": "candidate",
+      "text": "impart"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 38093,
+      "status": "candidate",
+      "text": "lead"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 33045,
+      "status": "candidate",
+      "text": "give"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 20046,
+      "status": "candidate",
+      "text": "bequeath"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 20041,
+      "status": "candidate",
+      "text": "allow"
+    }
+  ],
+  "canonical_name": "leave",
+  "concept_id": "leave",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "623637646/996.Leave"
+    }
+  ],
+  "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "leave",
+      "sense_id": "leave#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

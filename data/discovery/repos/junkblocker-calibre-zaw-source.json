@@ -1,0 +1,102 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "junkblocker/calibre-zaw-source",
+      "target": "books",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "junkblocker/calibre-zaw-source",
+      "target": "calibre",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "junkblocker/calibre-zaw-source",
+      "target": "library",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "junkblocker/calibre-zaw-source",
+      "target": "plugin",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "junkblocker/calibre-zaw-source",
+      "target": "search",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T03:00:27.111400+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 213
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "calibre source for zaw",
+    "fork": false,
+    "full_name": "junkblocker/calibre-zaw-source",
+    "html_url": "https://github.com/junkblocker/calibre-zaw-source",
+    "language": "Shell",
+    "pushed_at": "2021-06-15T13:20:42Z",
+    "stargazers_count": 4,
+    "topics": [
+      "books",
+      "calibre",
+      "library",
+      "plugin",
+      "search",
+      "zaw",
+      "zsh"
+    ],
+    "updated_at": "2025-08-03T00:58:07Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "[calibre](http://www.calibre-ebook.com/) source for [zaw](https://github.com/zsh-users/zaw) the [zsh](http://www.zsh.org/) [anything.el](http://www.emacswiki.org/emacs/Anything)-like widget.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "books"
+    },
+    {
+      "context_snippet": "[calibre](http://www.calibre-ebook.com/) source for [zaw](https://github.com/zsh-users/zaw) the [zsh](http://www.zsh.org/) [anything.el](http://www.emacswiki.org/emacs/Anything)-like widget.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "calibre"
+    },
+    {
+      "context_snippet": "[calibre](http://www.calibre-ebook.com/) source for [zaw](https://github.com/zsh-users/zaw) the [zsh](http://www.zsh.org/) [anything.el](http://www.emacswiki.org/emacs/Anything)-like widget.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "library"
+    },
+    {
+      "context_snippet": "[calibre](http://www.calibre-ebook.com/) source for [zaw](https://github.com/zsh-users/zaw) the [zsh](http://www.zsh.org/) [anything.el](http://www.emacswiki.org/emacs/Anything)-like widget.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "plugin"
+    },
+    {
+      "context_snippet": "[calibre](http://www.calibre-ebook.com/) source for [zaw](https://github.com/zsh-users/zaw) the [zsh](http://www.zsh.org/) [anything.el](http://www.emacswiki.org/emacs/Anything)-like widget.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "search"
+    }
+  ]
+}

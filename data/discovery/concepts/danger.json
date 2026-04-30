@@ -68,6 +68,18 @@
       "source_repo": "SwiftGen/StencilSwiftKit",
       "status": "candidate-context",
       "text": "Danger"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "detekt/detekt",
+      "status": "candidate-context",
+      "text": "Static code analysis for Kotlin"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "detekt/detekt",
+      "status": "candidate-context",
+      "text": "\"Danger\""
     }
   ],
   "candidate_glosses": [
@@ -100,6 +112,12 @@
       "source_repo": "SwiftGen/StencilSwiftKit",
       "status": "candidate",
       "text": "Danger"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "detekt/detekt",
+      "status": "candidate",
+      "text": "\"Danger\""
     }
   ],
   "candidate_related_terms": [
@@ -194,11 +212,17 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": ".github/workflows/danger.yml",
       "source_repo": "SwiftGen/StencilSwiftKit"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/danger.yaml",
+      "source_repo": "detekt/detekt"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

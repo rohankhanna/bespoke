@@ -19,6 +19,30 @@
       "source_repo": "mackron/miniaudio",
       "status": "candidate-context",
       "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "uael/sv",
+      "status": "candidate-context",
+      "text": "libsv - Public domain cross-platform semantic versioning in c99"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "uael/sv",
+      "status": "candidate-context",
+      "text": "libsv - Public domain cross-platform semantic versioning in c99"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "r-lyeh/stdarc.c",
+      "status": "candidate-context",
+      "text": "Collection of small public domain file archivers"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "r-lyeh/stdarc.c",
+      "status": "candidate-context",
+      "text": "Small file archivers (zip, pak, tar), virtual filesystem (vfs) and dir listing in a single-file header."
     }
   ],
   "candidate_glosses": [
@@ -27,6 +51,18 @@
       "source_repo": "mackron/miniaudio",
       "status": "candidate",
       "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "uael/sv",
+      "status": "candidate",
+      "text": "libsv - Public domain cross-platform semantic versioning in c99"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "r-lyeh/stdarc.c",
+      "status": "candidate",
+      "text": "Small file archivers (zip, pak, tar), virtual filesystem (vfs) and dir listing in a single-file header."
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +76,23 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": null,
       "source_repo": "mackron/miniaudio"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "uael/sv"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "r-lyeh/stdarc.c"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

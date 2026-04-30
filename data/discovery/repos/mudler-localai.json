@@ -252,7 +252,7 @@
       "edge_type": "explicit-github-link",
       "source_file": "Dockerfile",
       "source_repo": "mudler/LocalAI",
-      "target": "mudler/vulkan-sdk-arm",
+      "target": "nvidia/isaac-gr00t",
       "target_type": "repository"
     },
     {
@@ -585,7 +585,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-29T21:44:16.746698+00:00",
+  "fetched_at": "2026-04-30T05:09:19.910688+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -637,8 +637,8 @@
     "full_name": "mudler/LocalAI",
     "html_url": "https://github.com/mudler/LocalAI",
     "language": "Go",
-    "pushed_at": "2026-04-29T20:33:42Z",
-    "stargazers_count": 45927,
+    "pushed_at": "2026-04-29T22:52:35Z",
+    "stargazers_count": 45933,
     "topics": [
       "agents",
       "ai",
@@ -659,7 +659,7 @@
       "text-generation",
       "tts"
     ],
-    "updated_at": "2026-04-29T20:33:47Z"
+    "updated_at": "2026-04-30T04:27:29Z"
   },
   "repo_links": [
     {
@@ -679,7 +679,7 @@
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "mudler/vulkan-sdk-arm",
+      "full_name": "nvidia/isaac-gr00t",
       "source_file": "Dockerfile"
     }
   ],

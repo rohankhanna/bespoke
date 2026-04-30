@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Benchmark CLI"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "web-infra-dev/rslint",
+      "status": "candidate-context",
+      "text": "\ud83d\ude80 Go Faster. Go Typed"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "web-infra-dev/rslint",
+      "status": "candidate-context",
+      "text": "Benchmark CLI"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "web-infra-dev/rslint",
+      "status": "candidate",
+      "text": "Benchmark CLI"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10844,
+      "status": "candidate",
+      "text": "alt"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10844,
+      "status": "candidate",
+      "text": "ambient"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10844,
+      "status": "candidate",
+      "text": "atmosphere"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10844,
+      "status": "candidate",
+      "text": "branding"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10844,
+      "status": "candidate",
+      "text": "climate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Benchmark CLI",
+  "concept_id": "benchmark-cli",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/benchmark-cli.yml",
+      "source_repo": "web-infra-dev/rslint"
+    }
+  ],
+  "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Benchmark CLI",
+      "sense_id": "benchmark-cli#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

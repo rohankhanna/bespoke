@@ -31,6 +31,42 @@
       "source_repo": "jiegec/tantivy-jieba",
       "status": "candidate-context",
       "text": "[![Crates.io version][crate-img]][crate]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "baygeldin/tantiny",
+      "status": "candidate-context",
+      "text": "Tiny full-text search for Ruby powered by Tantivy"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "baygeldin/tantiny",
+      "status": "candidate-context",
+      "text": "> [!NOTE]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lindera/lindera-tantivy",
+      "status": "candidate-context",
+      "text": "Lindera tokenizer for Tantivy."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lindera/lindera-tantivy",
+      "status": "candidate-context",
+      "text": "[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lnx-search/lnx",
+      "status": "candidate-context",
+      "text": "A flexible, performant and reliable search database without the AI bullshit."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lnx-search/lnx",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +81,24 @@
       "source_repo": "jiegec/tantivy-jieba",
       "status": "candidate",
       "text": "[![Crates.io version][crate-img]][crate]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "baygeldin/tantiny",
+      "status": "candidate",
+      "text": "> [!NOTE]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lindera/lindera-tantivy",
+      "status": "candidate",
+      "text": "[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lnx-search/lnx",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -100,11 +154,29 @@
       "observed_at": "2026-04-22T01:04:16.609102+00:00",
       "source_file": null,
       "source_repo": "jiegec/tantivy-jieba"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "baygeldin/tantiny"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "lindera/lindera-tantivy"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "lnx-search/lnx"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

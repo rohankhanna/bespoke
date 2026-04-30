@@ -1,0 +1,82 @@
+{
+  "components": [
+    {
+      "component": "status-im/nimbus-common-workflow/.github/workflows/common.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "status-im/nim-serialization",
+      "target": "status-im/nim-toml-serialization",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "status-im/nim-serialization",
+      "target": "status-im/nim-protobuf-serialization",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "status-im/nim-serialization",
+      "target": "status-im/nim-ssz-serialization",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "status-im/nim-serialization",
+      "target": "status-im/nimbus-common-workflow/.github/workflows/common.yml@main",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-04-30T00:54:44.407504+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5135
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 1146
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A modern and extensible serialization framework for Nim",
+    "fork": false,
+    "full_name": "status-im/nim-serialization",
+    "html_url": "https://github.com/status-im/nim-serialization",
+    "language": "Nim",
+    "pushed_at": "2026-02-04T09:23:45Z",
+    "stargazers_count": 75,
+    "topics": [],
+    "updated_at": "2026-03-23T22:23:20Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "status-im/nim-protobuf-serialization",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "status-im/nim-ssz-serialization",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "status-im/nim-toml-serialization",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

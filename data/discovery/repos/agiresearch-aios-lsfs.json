@@ -1,0 +1,35 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T03:45:23.051894+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3012
+    },
+    {
+      "path": "Dockerfile",
+      "size": 323
+    },
+    {
+      "path": "requirements.txt",
+      "size": 267
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "From Commands to Prompts: LLM-based Semantic File System for AIOS",
+    "fork": false,
+    "full_name": "agiresearch/AIOS-LSFS",
+    "html_url": "https://github.com/agiresearch/AIOS-LSFS",
+    "language": "Python",
+    "pushed_at": "2025-03-09T14:18:49Z",
+    "stargazers_count": 49,
+    "topics": [],
+    "updated_at": "2026-04-12T00:34:00Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

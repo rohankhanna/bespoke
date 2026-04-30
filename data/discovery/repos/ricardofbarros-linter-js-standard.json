@@ -1,0 +1,236 @@
+{
+  "components": [
+    {
+      "component": "atom-linter",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "atom-package-deps",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "babel-eslint",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "detect-eslint-config",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "eslint-rule-documentation",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "esprima",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "ignore",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "loophole",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "pkg-config",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "semistandard",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "standard",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ricardofbarros/linter-js-standard",
+      "target": "flet/semistandard",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "ricardofbarros/linter-js-standard",
+      "target": "atom-linter",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "ricardofbarros/linter-js-standard",
+      "target": "atom-package-deps",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "ricardofbarros/linter-js-standard",
+      "target": "babel-eslint",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "ricardofbarros/linter-js-standard",
+      "target": "detect-eslint-config",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "ricardofbarros/linter-js-standard",
+      "target": "eslint-rule-documentation",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "ricardofbarros/linter-js-standard",
+      "target": "esprima",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "ricardofbarros/linter-js-standard",
+      "target": "ignore",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "ricardofbarros/linter-js-standard",
+      "target": "loophole",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "ricardofbarros/linter-js-standard",
+      "target": "pkg-config",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "ricardofbarros/linter-js-standard",
+      "target": "semistandard",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "ricardofbarros/linter-js-standard",
+      "target": "standard",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ricardofbarros/linter-js-standard",
+      "target": "atom",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ricardofbarros/linter-js-standard",
+      "target": "linter",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ricardofbarros/linter-js-standard",
+      "target": "semistandard",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ricardofbarros/linter-js-standard",
+      "target": "standard",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T02:03:00.871581+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1589
+    },
+    {
+      "path": "package.json",
+      "size": 1057
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Atom linter plugin for JavaScript, using JavaScript Standard Style",
+    "fork": false,
+    "full_name": "ricardofbarros/linter-js-standard",
+    "html_url": "https://github.com/ricardofbarros/linter-js-standard",
+    "language": "JavaScript",
+    "pushed_at": "2023-03-01T12:48:16Z",
+    "stargazers_count": 100,
+    "topics": [
+      "atom",
+      "linter",
+      "semistandard",
+      "standard"
+    ],
+    "updated_at": "2025-02-06T00:38:58Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "flet/semistandard",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "![apm](https://img.shields.io/apm/v/linter-js-standard.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "atom"
+    },
+    {
+      "context_snippet": "![apm](https://img.shields.io/apm/v/linter-js-standard.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "linter"
+    },
+    {
+      "context_snippet": "![apm](https://img.shields.io/apm/v/linter-js-standard.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "semistandard"
+    },
+    {
+      "context_snippet": "![apm](https://img.shields.io/apm/v/linter-js-standard.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "standard"
+    }
+  ]
+}

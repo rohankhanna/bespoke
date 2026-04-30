@@ -1,7 +1,7 @@
 {
   "component": "amannn/action-semantic-pull-request@48f256284bd46cdaab1048c3721360e808335d50",
   "first_seen_at": "2026-04-18T09:11:35.827547+00:00",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -122,6 +122,16 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/pr-title-check.yml",
       "source_repo": "argoproj/argo-rollouts"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/pr-title.yml",
+      "source_repo": "open-edge-platform/physical-ai-studio"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/pr_style_check.yaml",
+      "source_repo": "envoyproxy/ai-gateway"
     }
   ]
 }

@@ -43,6 +43,18 @@
       "source_repo": "showlab/Awesome-GUI-Agent",
       "status": "candidate-context",
       "text": "A curated list of papers, projects, and resources for multi-modal Graphical User Interface (GUI) agents."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "firatkiral/kodibot",
+      "status": "candidate-context",
+      "text": "Local and Offline AI Chatbot App for Desktop"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "firatkiral/kodibot",
+      "status": "candidate-context",
+      "text": "kodibot \u2014 AI chatbot"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +75,12 @@
       "source_repo": "showlab/Awesome-GUI-Agent",
       "status": "candidate",
       "text": "A curated list of papers, projects, and resources for multi-modal Graphical User Interface (GUI) agents."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "firatkiral/kodibot",
+      "status": "candidate",
+      "text": "kodibot \u2014 AI chatbot"
     }
   ],
   "candidate_related_terms": [],
@@ -148,11 +166,23 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "ruvnet/ruflo"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "firatkiral/kodibot"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "ruvnet/ruflo"
     }
   ],
   "first_seen_at": "2026-04-18T11:24:14.688152+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

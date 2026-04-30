@@ -1,0 +1,279 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "apache/beam",
+      "target": "dataartisans/flink-dataflow",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "apache/beam",
+      "target": "hazelcast/hazelcast-jet",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "apache/beam",
+      "target": "dsc-spidal/twister2",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/IO_Iceberg_Integration_Tests.yml",
+      "source_repo": "apache/beam",
+      "target": "read",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/IO_Iceberg_Integration_Tests.yml",
+      "source_repo": "apache/beam",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/IO_Iceberg_Integration_Tests.yml",
+      "source_repo": "apache/beam",
+      "target": "IcebergIO Integration Tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/IO_Iceberg_Integration_Tests_Dataflow.yml",
+      "source_repo": "apache/beam",
+      "target": "read",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/IO_Iceberg_Integration_Tests_Dataflow.yml",
+      "source_repo": "apache/beam",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/IO_Iceberg_Integration_Tests_Dataflow.yml",
+      "source_repo": "apache/beam",
+      "target": "IcebergIO Integration Tests on Dataflow",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/IO_Iceberg_Managed_Integration_Tests_Dataflow.yml",
+      "source_repo": "apache/beam",
+      "target": "read",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/IO_Iceberg_Managed_Integration_Tests_Dataflow.yml",
+      "source_repo": "apache/beam",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/IO_Iceberg_Managed_Integration_Tests_Dataflow.yml",
+      "source_repo": "apache/beam",
+      "target": "IcebergIO Managed Integration Tests on Dataflow",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/IO_Iceberg_Performance_Tests.yml",
+      "source_repo": "apache/beam",
+      "target": "read",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/IO_Iceberg_Performance_Tests.yml",
+      "source_repo": "apache/beam",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/IO_Iceberg_Performance_Tests.yml",
+      "source_repo": "apache/beam",
+      "target": "IcebergIO Performance Tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/IO_Iceberg_Unit_Tests.yml",
+      "source_repo": "apache/beam",
+      "target": "read",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/IO_Iceberg_Unit_Tests.yml",
+      "source_repo": "apache/beam",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/IO_Iceberg_Unit_Tests.yml",
+      "source_repo": "apache/beam",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/IO_Iceberg_Unit_Tests.yml",
+      "source_repo": "apache/beam",
+      "target": "EnricoMi/publish-unit-test-result-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/IO_Iceberg_Unit_Tests.yml",
+      "source_repo": "apache/beam",
+      "target": "jwgmeligmeyling/spotbugs-github-action@v1.2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/IO_Iceberg_Unit_Tests.yml",
+      "source_repo": "apache/beam",
+      "target": "IcebergIO Unit Tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/README.md",
+      "source_repo": "apache/beam",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/README.md",
+      "source_repo": "apache/beam",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/README.md",
+      "source_repo": "apache/beam",
+      "target": "actions/setup-java@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/assign_milestone.yml",
+      "source_repo": "apache/beam",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/assign_milestone.yml",
+      "source_repo": "apache/beam",
+      "target": "actions/github-script@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/assign_milestone.yml",
+      "source_repo": "apache/beam",
+      "target": "Assign Milestone on issue close",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/beam_CancelStaleDataflowJobs.yml",
+      "source_repo": "apache/beam",
+      "target": "read",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/beam_CancelStaleDataflowJobs.yml",
+      "source_repo": "apache/beam",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/beam_CancelStaleDataflowJobs.yml",
+      "source_repo": "apache/beam",
+      "target": "Cancel Stale Dataflow Jobs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/beam_CleanUpDataprocResources.yml",
+      "source_repo": "apache/beam",
+      "target": "read",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/beam_CleanUpDataprocResources.yml",
+      "source_repo": "apache/beam",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/beam_CleanUpDataprocResources.yml",
+      "source_repo": "apache/beam",
+      "target": "Cleanup Dataproc Resources",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "apache/beam",
+      "target": "batch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "apache/beam",
+      "target": "beam",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "apache/beam",
+      "target": "big-data",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "apache/beam",
+      "target": "golang",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "apache/beam",
+      "target": "java",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "apache/beam",
+      "target": "streaming",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-30T00:37:16.824464+00:00",
+  "source_repo": "apache/beam"
+}

@@ -83,13 +83,6 @@
   ],
   "edges": [
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "adapter-hub/adapters",
-      "target": "adapter-hub/adapter-transformers-legacy",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/adapter_docs_build.yml",
       "source_repo": "adapter-hub/adapters",
@@ -216,7 +209,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-29T20:44:03.387242+00:00",
+  "fetched_at": "2026-04-30T05:12:34.402924+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -263,13 +256,7 @@
     ],
     "updated_at": "2026-04-28T04:51:30Z"
   },
-  "repo_links": [
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "adapter-hub/adapter-transformers-legacy",
-      "source_file": "README.md"
-    }
-  ],
+  "repo_links": [],
   "terms": [
     {
       "context_snippet": "Build Adapter Docs",

@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "illustrator"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bitwarden/brand",
+      "status": "candidate-context",
+      "text": "Logos, icons, screenshots, and other media related to the Bitwarden brand."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bitwarden/brand",
+      "status": "candidate-context",
+      "text": "This repository contains resources for the Bitwarden brand such as logos, icons, screenshots, color palettes, and other media."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bitwarden/brand",
+      "status": "candidate",
+      "text": "This repository contains resources for the Bitwarden brand such as logos, icons, screenshots, color palettes, and other media."
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30041044,
+      "status": "candidate",
+      "text": "cartoonist"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30033799,
+      "status": "candidate",
+      "text": "artist"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30032676,
+      "status": "candidate",
+      "text": "designer"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30001126,
+      "status": "candidate",
+      "text": "draftsperson"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29997472,
+      "status": "candidate",
+      "text": "draftsman"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "illustrator",
+  "concept_id": "illustrator",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "bitwarden/brand"
+    }
+  ],
+  "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "illustrator",
+      "sense_id": "illustrator#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

@@ -1,0 +1,88 @@
+{
+  "aliases": [
+    "flux-dev"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bghira/SimpleTuner",
+      "status": "candidate-context",
+      "text": "A general fine-tuning kit geared toward image/video/audio diffusion models."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bghira/SimpleTuner",
+      "status": "candidate-context",
+      "text": "> \u2139\ufe0f No data is sent to any third parties except through opt-in flag `report_to`, `push_to_hub`, or webhooks which must be manually configured."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "leejet/stable-diffusion.cpp",
+      "status": "candidate-context",
+      "text": "Diffusion model(SD,Flux,Wan,Qwen Image,Z-Image,...) inference in pure C/C++"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "leejet/stable-diffusion.cpp",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bghira/SimpleTuner",
+      "status": "candidate",
+      "text": "> \u2139\ufe0f No data is sent to any third parties except through opt-in flag `report_to`, `push_to_hub`, or webhooks which must be manually configured."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "leejet/stable-diffusion.cpp",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "flux-dev",
+  "concept_id": "flux-dev",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "bghira/SimpleTuner"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "leejet/stable-diffusion.cpp"
+    }
+  ],
+  "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "flux-dev",
+      "sense_id": "flux-dev#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

@@ -1,0 +1,57 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "padreati/rapaio-book",
+      "target": "padreati/rapaio",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "padreati/rapaio-book",
+      "target": "padreati/rapaio-jupyter-kernel",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T00:50:04.095559+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 355
+    },
+    {
+      "path": "requirements.txt",
+      "size": 33
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "notebooks using rapaio library on IJava kernel with Jupyter",
+    "fork": false,
+    "full_name": "padreati/rapaio-book",
+    "html_url": "https://github.com/padreati/rapaio-book",
+    "language": "Jupyter Notebook",
+    "pushed_at": "2025-01-03T20:25:05Z",
+    "stargazers_count": 1,
+    "topics": [],
+    "updated_at": "2025-01-03T20:25:09Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "padreati/rapaio",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "padreati/rapaio-jupyter-kernel",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

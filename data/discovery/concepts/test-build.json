@@ -1,7 +1,8 @@
 {
   "aliases": [
     "test build",
-    "Test Build"
+    "Test Build",
+    "test-build"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -50,6 +51,30 @@
       "source_repo": "gjtorikian/commonmarker",
       "status": "candidate-context",
       "text": "Test Build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dstackai/dstack",
+      "status": "candidate-context",
+      "text": "Vendor-agnostic orchestration for training, inference and agentic workloads across NVIDIA, AMD, TPU, and Tenstorrent on clouds, Kubernetes, and bare metal."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dstackai/dstack",
+      "status": "candidate-context",
+      "text": "Test Build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "supranational/sppark",
+      "status": "candidate-context",
+      "text": "Zero-knowledge template library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "supranational/sppark",
+      "status": "candidate-context",
+      "text": "test-build"
     }
   ],
   "candidate_glosses": [
@@ -70,6 +95,18 @@
       "source_repo": "gjtorikian/commonmarker",
       "status": "candidate",
       "text": "Test Build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dstackai/dstack",
+      "status": "candidate",
+      "text": "Test Build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "supranational/sppark",
+      "status": "candidate",
+      "text": "test-build"
     }
   ],
   "candidate_related_terms": [
@@ -149,11 +186,23 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": ".github/workflows/test_build.yml",
       "source_repo": "gjtorikian/commonmarker"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "dstackai/dstack"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "supranational/sppark"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

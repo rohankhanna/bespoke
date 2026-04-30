@@ -202,6 +202,30 @@
       "source_repo": "Homebrew/homebrew-cask",
       "status": "candidate-context",
       "text": "Cache"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "redis/rueidis",
+      "status": "candidate-context",
+      "text": "A fast Golang Redis client that supports Client Side Caching, Auto Pipelining, RDMA, etc."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "redis/rueidis",
+      "status": "candidate-context",
+      "text": "[![Go Reference](https://pkg.go.dev/badge/github.com/redis/rueidis.svg)](https://pkg.go.dev/github.com/redis/rueidis)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "vapor/redis",
+      "status": "candidate-context",
+      "text": "Vapor provider for RediStack"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vapor/redis",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -300,6 +324,18 @@
       "source_repo": "Homebrew/homebrew-cask",
       "status": "candidate",
       "text": "Cache"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "redis/rueidis",
+      "status": "candidate",
+      "text": "[![Go Reference](https://pkg.go.dev/badge/github.com/redis/rueidis.svg)](https://pkg.go.dev/github.com/redis/rueidis)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vapor/redis",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -499,11 +535,29 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "olric-data/olric"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "olric-data/olric"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "redis/rueidis"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "vapor/redis"
     }
   ],
   "first_seen_at": "2026-04-19T02:42:33.990002+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

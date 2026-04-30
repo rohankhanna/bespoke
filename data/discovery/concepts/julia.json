@@ -169,6 +169,90 @@
       "source_repo": "julia-vscode/julia-vscode",
       "status": "candidate-context",
       "text": "[![Build and Test](https://github.com/julia-vscode/julia-vscode/actions/workflows/main.yml/badge.svg)](https://github.com/julia-vscode/julia-vscode/actions/workflows/main.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JuliaDiff/BlueStyle",
+      "status": "candidate-context",
+      "text": "A Julia style guide that lives in a blue world"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaDiff/BlueStyle",
+      "status": "candidate-context",
+      "text": "[![Code Style: Blue](https://img.shields.io/badge/code%20style-blue-4495d1.svg)](https://github.com/JuliaDiff/BlueStyle)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "julia-vscode/LanguageServer.jl",
+      "status": "candidate-context",
+      "text": "An implementation of the Microsoft Language Server Protocol for the Julia language."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "julia-vscode/LanguageServer.jl",
+      "status": "candidate-context",
+      "text": "[![Project Status: Active - The project has reached a stable, usable state and is being actively developed.](http://www.repostatus.org/badges/latest/active.svg)](http://www.repostatus.org/#active)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JuliaLang/PackageCompiler.jl",
+      "status": "candidate-context",
+      "text": "Compile your Julia Package"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaLang/PackageCompiler.jl",
+      "status": "candidate-context",
+      "text": "[![Continuous integration](https://github.com/JuliaLang/PackageCompiler.jl/actions/workflows/ci.yml/badge.svg)](https://github.com/JuliaLang/PackageCompiler.jl/actions/workflows/ci.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JuliaCI/BenchmarkTools.jl",
+      "status": "candidate-context",
+      "text": "A benchmarking framework for the Julia language"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaCI/BenchmarkTools.jl",
+      "status": "candidate-context",
+      "text": "<picture>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JuliaLogging/TerminalLoggers.jl",
+      "status": "candidate-context",
+      "text": "Logging sinks and utilites for interactive terminals"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaLogging/TerminalLoggers.jl",
+      "status": "candidate-context",
+      "text": "[![Stable](https://img.shields.io/badge/docs-stable-blue.svg)](https://JuliaLogging.github.io/TerminalLoggers.jl/stable)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JuliaData/Parsers.jl",
+      "status": "candidate-context",
+      "text": "fast parsing machinery for basic types in Julia"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaData/Parsers.jl",
+      "status": "candidate-context",
+      "text": "Parsers.jl"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kahliburke/Kaimon.jl",
+      "status": "candidate-context",
+      "text": "MCP server giving AI agents full access to Julia's runtime via a live Gate \u2014 code execution, introspection, debugging, testing, and semantic search"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kahliburke/Kaimon.jl",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -255,6 +339,48 @@
       "source_repo": "julia-vscode/julia-vscode",
       "status": "candidate",
       "text": "[![Build and Test](https://github.com/julia-vscode/julia-vscode/actions/workflows/main.yml/badge.svg)](https://github.com/julia-vscode/julia-vscode/actions/workflows/main.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaDiff/BlueStyle",
+      "status": "candidate",
+      "text": "[![Code Style: Blue](https://img.shields.io/badge/code%20style-blue-4495d1.svg)](https://github.com/JuliaDiff/BlueStyle)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "julia-vscode/LanguageServer.jl",
+      "status": "candidate",
+      "text": "[![Project Status: Active - The project has reached a stable, usable state and is being actively developed.](http://www.repostatus.org/badges/latest/active.svg)](http://www.repostatus.org/#active)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaLang/PackageCompiler.jl",
+      "status": "candidate",
+      "text": "[![Continuous integration](https://github.com/JuliaLang/PackageCompiler.jl/actions/workflows/ci.yml/badge.svg)](https://github.com/JuliaLang/PackageCompiler.jl/actions/workflows/ci.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaCI/BenchmarkTools.jl",
+      "status": "candidate",
+      "text": "<picture>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaLogging/TerminalLoggers.jl",
+      "status": "candidate",
+      "text": "[![Stable](https://img.shields.io/badge/docs-stable-blue.svg)](https://JuliaLogging.github.io/TerminalLoggers.jl/stable)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaData/Parsers.jl",
+      "status": "candidate",
+      "text": "Parsers.jl"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kahliburke/Kaimon.jl",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -388,11 +514,53 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "julia-vscode/julia-vscode"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "JuliaDiff/BlueStyle"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "julia-vscode/LanguageServer.jl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "JuliaLang/PackageCompiler.jl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "JuliaCI/BenchmarkTools.jl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "JuliaLogging/TerminalLoggers.jl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "JuliaData/Parsers.jl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "kahliburke/Kaimon.jl"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

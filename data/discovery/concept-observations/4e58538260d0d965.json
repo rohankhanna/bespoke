@@ -84,7 +84,7 @@
   "normalized_form": "publish-docs-via-github-pages",
   "observation_id": "4e58538260d0d965",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-04-29T18:37:00.726333+00:00",
+  "observed_at": "2026-04-30T00:37:16.824464+00:00",
   "observed_text": "Publish docs via GitHub Pages",
   "source_context_snippet": "Publish docs via GitHub Pages",
   "source_file": ".github/workflows/docs.yml",

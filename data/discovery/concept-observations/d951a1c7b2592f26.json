@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Vulkan SDK for ARM64 / aarch64 with prebuilt binaries for Ubuntu Linux. These are used by https://github.com/jakoch/install-vulkan-sdk-action"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "\"\ud83d\udee0\ufe0f Build Vulkan SDK ARM\""
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "\"\ud83d\udee0\ufe0f Build Vulkan SDK ARM\""
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18468,
+      "status": "candidate",
+      "text": "directory"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18468,
+      "status": "candidate",
+      "text": "installation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10389,
+      "status": "candidate",
+      "text": "backup"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10389,
+      "status": "candidate",
+      "text": "catalog"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10389,
+      "status": "candidate",
+      "text": "catalogue"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "\ud83d\udee0\ufe0f Build Vulkan SDK ARM",
+      "sense_id": "build-vulkan-sdk-arm#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "build-vulkan-sdk-arm",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "build-vulkan-sdk-arm",
+  "observation_id": "d951a1c7b2592f26",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-30T00:37:16.824464+00:00",
+  "observed_text": "\ud83d\udee0\ufe0f Build Vulkan SDK ARM",
+  "source_context_snippet": "\"\ud83d\udee0\ufe0f Build Vulkan SDK ARM\"",
+  "source_file": ".github/workflows/build.yml",
+  "source_repo": "mudler/vulkan-sdk-arm",
+  "source_repo_description": "Vulkan SDK for ARM64 / aarch64 with prebuilt binaries for Ubuntu Linux. These are used by https://github.com/jakoch/install-vulkan-sdk-action"
+}

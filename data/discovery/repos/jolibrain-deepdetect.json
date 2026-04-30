@@ -1,0 +1,335 @@
+{
+  "components": [
+    {
+      "component": "standard-version",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "jolibrain/deepdetect",
+      "target": "dmlc/xgboost",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "jolibrain/deepdetect",
+      "target": "ardalanm/pydd",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "jolibrain/deepdetect",
+      "target": "hujie-frank/senet",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "jolibrain/deepdetect",
+      "target": "jolibrain/caffe",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "jolibrain/deepdetect",
+      "target": "standard-version",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jolibrain/deepdetect",
+      "target": "caffe",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jolibrain/deepdetect",
+      "target": "deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jolibrain/deepdetect",
+      "target": "image-classification",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jolibrain/deepdetect",
+      "target": "image-search",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jolibrain/deepdetect",
+      "target": "image-segmentation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jolibrain/deepdetect",
+      "target": "machine-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jolibrain/deepdetect",
+      "target": "ncnn",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jolibrain/deepdetect",
+      "target": "neural-nets",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jolibrain/deepdetect",
+      "target": "object-detection",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jolibrain/deepdetect",
+      "target": "pytorch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jolibrain/deepdetect",
+      "target": "rest-api",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jolibrain/deepdetect",
+      "target": "tensorrt",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jolibrain/deepdetect",
+      "target": "tensorrt-conversion",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jolibrain/deepdetect",
+      "target": "tensorrt-inference",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jolibrain/deepdetect",
+      "target": "time-series",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jolibrain/deepdetect",
+      "target": "tsne",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jolibrain/deepdetect",
+      "target": "xgboost",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T01:57:25.497677+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 18156
+    },
+    {
+      "path": "package.json",
+      "size": 394
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Deep Learning API and Server in C++14 support for PyTorch,TensorRT, Dlib, NCNN, Tensorflow, XGBoost and TSNE",
+    "fork": false,
+    "full_name": "jolibrain/deepdetect",
+    "html_url": "https://github.com/jolibrain/deepdetect",
+    "language": "C++",
+    "pushed_at": "2026-04-17T08:31:12Z",
+    "stargazers_count": 2550,
+    "topics": [
+      "caffe",
+      "deep-learning",
+      "gpu",
+      "image-classification",
+      "image-search",
+      "image-segmentation",
+      "machine-learning",
+      "ncnn",
+      "neural-nets",
+      "object-detection",
+      "pytorch",
+      "rest-api",
+      "tensorrt",
+      "tensorrt-conversion",
+      "tensorrt-inference",
+      "time-series",
+      "tsne",
+      "xgboost"
+    ],
+    "updated_at": "2026-04-29T16:19:18Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ardalanm/pydd",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dmlc/xgboost",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "hujie-frank/senet",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jolibrain/caffe",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<p align=\"center\"><img src=\"https://www.deepdetect.com/img/icons/menu/sidebar/deepdetect.svg\" alt=\"DeepDetect Logo\" width=\"45%\" /></p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "caffe"
+    },
+    {
+      "context_snippet": "<p align=\"center\"><img src=\"https://www.deepdetect.com/img/icons/menu/sidebar/deepdetect.svg\" alt=\"DeepDetect Logo\" width=\"45%\" /></p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-learning"
+    },
+    {
+      "context_snippet": "<p align=\"center\"><img src=\"https://www.deepdetect.com/img/icons/menu/sidebar/deepdetect.svg\" alt=\"DeepDetect Logo\" width=\"45%\" /></p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "image-classification"
+    },
+    {
+      "context_snippet": "<p align=\"center\"><img src=\"https://www.deepdetect.com/img/icons/menu/sidebar/deepdetect.svg\" alt=\"DeepDetect Logo\" width=\"45%\" /></p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "image-search"
+    },
+    {
+      "context_snippet": "<p align=\"center\"><img src=\"https://www.deepdetect.com/img/icons/menu/sidebar/deepdetect.svg\" alt=\"DeepDetect Logo\" width=\"45%\" /></p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "image-segmentation"
+    },
+    {
+      "context_snippet": "<p align=\"center\"><img src=\"https://www.deepdetect.com/img/icons/menu/sidebar/deepdetect.svg\" alt=\"DeepDetect Logo\" width=\"45%\" /></p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "machine-learning"
+    },
+    {
+      "context_snippet": "<p align=\"center\"><img src=\"https://www.deepdetect.com/img/icons/menu/sidebar/deepdetect.svg\" alt=\"DeepDetect Logo\" width=\"45%\" /></p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ncnn"
+    },
+    {
+      "context_snippet": "<p align=\"center\"><img src=\"https://www.deepdetect.com/img/icons/menu/sidebar/deepdetect.svg\" alt=\"DeepDetect Logo\" width=\"45%\" /></p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "neural-nets"
+    },
+    {
+      "context_snippet": "<p align=\"center\"><img src=\"https://www.deepdetect.com/img/icons/menu/sidebar/deepdetect.svg\" alt=\"DeepDetect Logo\" width=\"45%\" /></p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "object-detection"
+    },
+    {
+      "context_snippet": "<p align=\"center\"><img src=\"https://www.deepdetect.com/img/icons/menu/sidebar/deepdetect.svg\" alt=\"DeepDetect Logo\" width=\"45%\" /></p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytorch"
+    },
+    {
+      "context_snippet": "<p align=\"center\"><img src=\"https://www.deepdetect.com/img/icons/menu/sidebar/deepdetect.svg\" alt=\"DeepDetect Logo\" width=\"45%\" /></p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rest-api"
+    },
+    {
+      "context_snippet": "<p align=\"center\"><img src=\"https://www.deepdetect.com/img/icons/menu/sidebar/deepdetect.svg\" alt=\"DeepDetect Logo\" width=\"45%\" /></p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tensorrt"
+    },
+    {
+      "context_snippet": "<p align=\"center\"><img src=\"https://www.deepdetect.com/img/icons/menu/sidebar/deepdetect.svg\" alt=\"DeepDetect Logo\" width=\"45%\" /></p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tensorrt-conversion"
+    },
+    {
+      "context_snippet": "<p align=\"center\"><img src=\"https://www.deepdetect.com/img/icons/menu/sidebar/deepdetect.svg\" alt=\"DeepDetect Logo\" width=\"45%\" /></p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tensorrt-inference"
+    },
+    {
+      "context_snippet": "<p align=\"center\"><img src=\"https://www.deepdetect.com/img/icons/menu/sidebar/deepdetect.svg\" alt=\"DeepDetect Logo\" width=\"45%\" /></p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "time-series"
+    },
+    {
+      "context_snippet": "<p align=\"center\"><img src=\"https://www.deepdetect.com/img/icons/menu/sidebar/deepdetect.svg\" alt=\"DeepDetect Logo\" width=\"45%\" /></p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tsne"
+    },
+    {
+      "context_snippet": "<p align=\"center\"><img src=\"https://www.deepdetect.com/img/icons/menu/sidebar/deepdetect.svg\" alt=\"DeepDetect Logo\" width=\"45%\" /></p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "xgboost"
+    }
+  ]
+}

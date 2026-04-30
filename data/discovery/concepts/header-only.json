@@ -211,6 +211,30 @@
       "source_repo": "accabog/MedianFilter",
       "status": "candidate-context",
       "text": "[![CI](https://github.com/accabog/MedianFilter/actions/workflows/ci.yml/badge.svg)](https://github.com/accabog/MedianFilter/actions/workflows/ci.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "CrowCpp/Crow",
+      "status": "candidate-context",
+      "text": "A Fast and Easy to use microframework for the web."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "CrowCpp/Crow",
+      "status": "candidate-context",
+      "text": "<p align=\"center\"><img src=\"https://raw.githubusercontent.com/CrowCpp/Crow/master/docs/assets/crowlogo_dual_color.svg\" width=600></p>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "yhirose/cpp-httplib",
+      "status": "candidate-context",
+      "text": "A C++ header-only HTTP/HTTPS server and client library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "yhirose/cpp-httplib",
+      "status": "candidate-context",
+      "text": "[![](https://github.com/yhirose/cpp-httplib/workflows/test/badge.svg)](https://github.com/yhirose/cpp-httplib/actions)"
     }
   ],
   "candidate_glosses": [
@@ -315,6 +339,18 @@
       "source_repo": "accabog/MedianFilter",
       "status": "candidate",
       "text": "[![CI](https://github.com/accabog/MedianFilter/actions/workflows/ci.yml/badge.svg)](https://github.com/accabog/MedianFilter/actions/workflows/ci.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "CrowCpp/Crow",
+      "status": "candidate",
+      "text": "<p align=\"center\"><img src=\"https://raw.githubusercontent.com/CrowCpp/Crow/master/docs/assets/crowlogo_dual_color.svg\" width=600></p>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "yhirose/cpp-httplib",
+      "status": "candidate",
+      "text": "[![](https://github.com/yhirose/cpp-httplib/workflows/test/badge.svg)](https://github.com/yhirose/cpp-httplib/actions)"
     }
   ],
   "candidate_related_terms": [
@@ -466,11 +502,23 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "accabog/MedianFilter"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "CrowCpp/Crow"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "yhirose/cpp-httplib"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

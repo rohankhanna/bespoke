@@ -103,6 +103,54 @@
       "source_repo": "octokit/openapi",
       "status": "candidate-context",
       "text": "> GitHub's official OpenAPI spec with Octokit extensions"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "clojure-emacs/orchard",
+      "status": "candidate-context",
+      "text": "A fertile ground for Clojure tooling"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "clojure-emacs/orchard",
+      "status": "candidate-context",
+      "text": "[![CircleCI](https://img.shields.io/circleci/build/github/clojure-emacs/orchard/master.svg)](https://circleci.com/gh/clojure-emacs/orchard/tree/master)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "octokit/oauth-app.js",
+      "status": "candidate-context",
+      "text": "GitHub OAuth toolset for Node.js"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "octokit/oauth-app.js",
+      "status": "candidate-context",
+      "text": "> GitHub OAuth toolset for Node.js"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bhauman/figwheel-main",
+      "status": "candidate-context",
+      "text": "Figwheel Main provides tooling for developing ClojureScript applications"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bhauman/figwheel-main",
+      "status": "candidate-context",
+      "text": "[![Clojars Project](https://img.shields.io/clojars/v/com.bhauman/figwheel-main.svg)](https://clojars.org/com.bhauman/figwheel-main)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "2KAbhishek/mac2k",
+      "status": "candidate-context",
+      "text": "Ultimate Dev Setup for Mac OS \ud83d\ude80\ud83c\udf4e"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "2KAbhishek/mac2k",
+      "status": "candidate-context",
+      "text": "<div align = \"center\">"
     }
   ],
   "candidate_glosses": [
@@ -153,6 +201,30 @@
       "source_repo": "octokit/openapi",
       "status": "candidate",
       "text": "> GitHub's official OpenAPI spec with Octokit extensions"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "clojure-emacs/orchard",
+      "status": "candidate",
+      "text": "[![CircleCI](https://img.shields.io/circleci/build/github/clojure-emacs/orchard/master.svg)](https://circleci.com/gh/clojure-emacs/orchard/tree/master)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "octokit/oauth-app.js",
+      "status": "candidate",
+      "text": "> GitHub OAuth toolset for Node.js"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bhauman/figwheel-main",
+      "status": "candidate",
+      "text": "[![Clojars Project](https://img.shields.io/clojars/v/com.bhauman/figwheel-main.svg)](https://clojars.org/com.bhauman/figwheel-main)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "2KAbhishek/mac2k",
+      "status": "candidate",
+      "text": "<div align = \"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -244,11 +316,35 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "octokit/openapi"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "clojure-emacs/orchard"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "octokit/oauth-app.js"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "bhauman/figwheel-main"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "2KAbhishek/mac2k"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

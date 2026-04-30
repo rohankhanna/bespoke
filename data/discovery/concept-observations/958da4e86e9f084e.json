@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Physical AI Studio is an end-to-end framework for training robots to perform tasks through imitation learning from human demonstrations."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "NPM Audit Fix"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "NPM Audit Fix"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22748,
+      "status": "candidate",
+      "text": "control"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22748,
+      "status": "candidate",
+      "text": "controlling"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22657,
+      "status": "candidate",
+      "text": "checkout"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22657,
+      "status": "candidate",
+      "text": "cruise control"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22657,
+      "status": "candidate",
+      "text": "quarter"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "NPM Audit Fix",
+      "sense_id": "npm-audit-fix#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "npm-audit-fix",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "npm-audit-fix",
+  "observation_id": "958da4e86e9f084e",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-30T00:37:16.824464+00:00",
+  "observed_text": "NPM Audit Fix",
+  "source_context_snippet": "NPM Audit Fix",
+  "source_file": ".github/workflows/npm-audit-fix.yml",
+  "source_repo": "open-edge-platform/physical-ai-studio",
+  "source_repo_description": "Physical AI Studio is an end-to-end framework for training robots to perform tasks through imitation learning from human demonstrations."
+}

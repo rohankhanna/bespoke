@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "googleapis/java-bigtable-hbase",
+      "target": "googlecloudplatform/cloud-bigtable-examples",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T03:05:27.842550+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 15196
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Java libraries and HBase client extensions for accessing Google Cloud Bigtable",
+    "fork": false,
+    "full_name": "googleapis/java-bigtable-hbase",
+    "html_url": "https://github.com/googleapis/java-bigtable-hbase",
+    "language": "Java",
+    "pushed_at": "2026-04-30T01:50:27Z",
+    "stargazers_count": 181,
+    "topics": [],
+    "updated_at": "2026-04-30T01:50:30Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "googlecloudplatform/cloud-bigtable-examples",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

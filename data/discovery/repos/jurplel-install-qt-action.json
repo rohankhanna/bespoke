@@ -1,0 +1,152 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-android.yml"
+    },
+    {
+      "component": "actions/setup-node@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-android.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/setup-node@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/setup-node@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "jurplel/install-qt-action",
+      "target": "actions/setup-python",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-android.yml",
+      "source_repo": "jurplel/install-qt-action",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-android.yml",
+      "source_repo": "jurplel/install-qt-action",
+      "target": "actions/setup-node@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test-android.yml",
+      "source_repo": "jurplel/install-qt-action",
+      "target": "CI-android",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "jurplel/install-qt-action",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "jurplel/install-qt-action",
+      "target": "actions/setup-node@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jurplel/install-qt-action",
+      "target": "actions",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jurplel/install-qt-action",
+      "target": "github-actions",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T04:55:00.179314+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 14368
+    },
+    {
+      "path": ".github/workflows/test-android.yml",
+      "size": 3269
+    },
+    {
+      "path": ".github/workflows/test.yml",
+      "size": 9488
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Install Qt on your Github Actions workflows with just one simple action",
+    "fork": false,
+    "full_name": "jurplel/install-qt-action",
+    "html_url": "https://github.com/jurplel/install-qt-action",
+    "language": "TypeScript",
+    "pushed_at": "2026-04-28T12:43:03Z",
+    "stargazers_count": 547,
+    "topics": [
+      "actions",
+      "github-actions",
+      "qt"
+    ],
+    "updated_at": "2026-04-28T12:43:08Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "actions/setup-python",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "CI-android",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test-android.yml",
+      "term": "CI-android"
+    },
+    {
+      "context_snippet": "Installing Qt on Github Actions workflows manually is the worst.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "actions"
+    },
+    {
+      "context_snippet": "Installing Qt on Github Actions workflows manually is the worst.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "github-actions"
+    }
+  ]
+}

@@ -1,0 +1,139 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "nashamri/spacemacs-theme",
+      "target": "syl20bnr/spacemacs",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "nashamri/spacemacs-theme",
+      "target": "auduchinok/base16-builder",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nashamri/spacemacs-theme",
+      "target": "dark-theme",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nashamri/spacemacs-theme",
+      "target": "emacs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nashamri/spacemacs-theme",
+      "target": "light-theme",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nashamri/spacemacs-theme",
+      "target": "spacemacs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nashamri/spacemacs-theme",
+      "target": "spacemacs-theme",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nashamri/spacemacs-theme",
+      "target": "theme",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T04:08:04.249658+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 10676
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Light and dark theme for spacemacs that supports GUI and terminal",
+    "fork": false,
+    "full_name": "nashamri/spacemacs-theme",
+    "html_url": "https://github.com/nashamri/spacemacs-theme",
+    "language": "Emacs Lisp",
+    "pushed_at": "2026-04-14T20:52:00Z",
+    "stargazers_count": 615,
+    "topics": [
+      "dark-theme",
+      "emacs",
+      "light-theme",
+      "spacemacs",
+      "spacemacs-theme",
+      "theme"
+    ],
+    "updated_at": "2026-04-24T08:26:56Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "auduchinok/base16-builder",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "syl20bnr/spacemacs",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[![NonGNU ELPA](https://elpa.nongnu.org/nongnu/spacemacs-theme.svg)](https://elpa.nongnu.org/nongnu/spacemacs-theme.html)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dark-theme"
+    },
+    {
+      "context_snippet": "[![NonGNU ELPA](https://elpa.nongnu.org/nongnu/spacemacs-theme.svg)](https://elpa.nongnu.org/nongnu/spacemacs-theme.html)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "emacs"
+    },
+    {
+      "context_snippet": "[![NonGNU ELPA](https://elpa.nongnu.org/nongnu/spacemacs-theme.svg)](https://elpa.nongnu.org/nongnu/spacemacs-theme.html)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "light-theme"
+    },
+    {
+      "context_snippet": "[![NonGNU ELPA](https://elpa.nongnu.org/nongnu/spacemacs-theme.svg)](https://elpa.nongnu.org/nongnu/spacemacs-theme.html)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "spacemacs"
+    },
+    {
+      "context_snippet": "[![NonGNU ELPA](https://elpa.nongnu.org/nongnu/spacemacs-theme.svg)](https://elpa.nongnu.org/nongnu/spacemacs-theme.html)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "spacemacs-theme"
+    },
+    {
+      "context_snippet": "[![NonGNU ELPA](https://elpa.nongnu.org/nongnu/spacemacs-theme.svg)](https://elpa.nongnu.org/nongnu/spacemacs-theme.html)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "theme"
+    }
+  ]
+}

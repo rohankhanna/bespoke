@@ -82,6 +82,30 @@
       "source_repo": "Azure-Samples/eShopOnAzure",
       "status": "candidate-context",
       "text": "Markdownlint"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "chef/chef-oss-practices",
+      "status": "candidate-context",
+      "text": "Documentation and Practices for Open Source Development at Chef"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chef/chef-oss-practices",
+      "status": "candidate-context",
+      "text": "markdownlint"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "AdguardTeam/AdguardFilters",
+      "status": "candidate-context",
+      "text": "AdGuard Content Blocking Filters"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AdguardTeam/AdguardFilters",
+      "status": "candidate-context",
+      "text": "markdownlint"
     }
   ],
   "candidate_glosses": [
@@ -120,6 +144,18 @@
       "source_repo": "Azure-Samples/eShopOnAzure",
       "status": "candidate",
       "text": "Markdownlint"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chef/chef-oss-practices",
+      "status": "candidate",
+      "text": "markdownlint"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AdguardTeam/AdguardFilters",
+      "status": "candidate",
+      "text": "markdownlint"
     }
   ],
   "candidate_related_terms": [],
@@ -163,11 +199,23 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": ".github/workflows/markdownlint.yml",
       "source_repo": "Azure-Samples/eShopOnAzure"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/lint.yaml",
+      "source_repo": "chef/chef-oss-practices"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/markdownlint.yml",
+      "source_repo": "AdguardTeam/AdguardFilters"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

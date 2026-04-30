@@ -1,0 +1,74 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "623637646/996.Leave",
+      "target": "996icu",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "623637646/996.Leave",
+      "target": "996leave",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "623637646/996.Leave",
+      "target": "leave",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T03:46:10.932679+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5822
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "\u9003\u79bb996",
+    "fork": false,
+    "full_name": "623637646/996.Leave",
+    "html_url": "https://github.com/623637646/996.Leave",
+    "language": null,
+    "pushed_at": "2024-01-15T12:53:02Z",
+    "stargazers_count": 6632,
+    "topics": [
+      "996",
+      "996icu",
+      "996leave",
+      "icu",
+      "leave"
+    ],
+    "updated_at": "2026-04-29T01:27:33Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "> \u5f88\u591a\u4e8b\u60c5\u4f60\u65e0\u6cd5\u6539\u53d8\uff0c\u4f46\u53ef\u4ee5\u9009\u62e9\u79bb\u5f00\u3002",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "996icu"
+    },
+    {
+      "context_snippet": "> \u5f88\u591a\u4e8b\u60c5\u4f60\u65e0\u6cd5\u6539\u53d8\uff0c\u4f46\u53ef\u4ee5\u9009\u62e9\u79bb\u5f00\u3002",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "996leave"
+    },
+    {
+      "context_snippet": "> \u5f88\u591a\u4e8b\u60c5\u4f60\u65e0\u6cd5\u6539\u53d8\uff0c\u4f46\u53ef\u4ee5\u9009\u62e9\u79bb\u5f00\u3002",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "leave"
+    }
+  ]
+}

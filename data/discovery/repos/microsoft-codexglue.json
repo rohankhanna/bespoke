@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "microsoft/CodeXGLUE",
+      "target": "microsoft/codebert",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T02:49:15.113479+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 11358
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "CodeXGLUE ",
+    "fork": false,
+    "full_name": "microsoft/CodeXGLUE",
+    "html_url": "https://github.com/microsoft/CodeXGLUE",
+    "language": "C#",
+    "pushed_at": "2024-04-23T06:09:50Z",
+    "stargazers_count": 1817,
+    "topics": [],
+    "updated_at": "2026-04-28T09:48:50Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "microsoft/codebert",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

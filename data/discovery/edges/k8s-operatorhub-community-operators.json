@@ -1,0 +1,244 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "k8s-operatorhub/community-operators",
+      "target": "redhat-openshift-ecosystem/community-operators-prod",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/command_merge.yaml",
+      "source_repo": "k8s-operatorhub/community-operators",
+      "target": "actions/github-script@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/command_merge.yaml",
+      "source_repo": "k8s-operatorhub/community-operators",
+      "target": "xt0rted/slash-command-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/command_merge.yaml",
+      "source_repo": "k8s-operatorhub/community-operators",
+      "target": "pascalgn/automerge-action@v0.14.2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/command_merge.yaml",
+      "source_repo": "k8s-operatorhub/community-operators",
+      "target": "Issue Comments - merge",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/command_retest.yaml",
+      "source_repo": "k8s-operatorhub/community-operators",
+      "target": "xt0rted/slash-command-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/command_retest.yaml",
+      "source_repo": "k8s-operatorhub/community-operators",
+      "target": "actions/github-script@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/command_retest.yaml",
+      "source_repo": "k8s-operatorhub/community-operators",
+      "target": "jakejarvis/wait-action@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/command_retest.yaml",
+      "source_repo": "k8s-operatorhub/community-operators",
+      "target": "Issue Comments - retest",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dco_test.yaml",
+      "source_repo": "k8s-operatorhub/community-operators",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dco_test.yaml",
+      "source_repo": "k8s-operatorhub/community-operators",
+      "target": "masesgroup/retrieve-changed-files@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dco_test.yaml",
+      "source_repo": "k8s-operatorhub/community-operators",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dco_test.yaml",
+      "source_repo": "k8s-operatorhub/community-operators",
+      "target": "tim-actions/get-pr-commits@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dco_test.yaml",
+      "source_repo": "k8s-operatorhub/community-operators",
+      "target": "tim-actions/dco@v1.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dco_test.yaml",
+      "source_repo": "k8s-operatorhub/community-operators",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/dco_test.yaml",
+      "source_repo": "k8s-operatorhub/community-operators",
+      "target": "DCO test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dco_workflow_complete.yaml",
+      "source_repo": "k8s-operatorhub/community-operators",
+      "target": "actions/github-script@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/dco_workflow_complete.yaml",
+      "source_repo": "k8s-operatorhub/community-operators",
+      "target": "DCO Workflow Complete",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/documentation.yaml",
+      "source_repo": "k8s-operatorhub/community-operators",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/documentation.yaml",
+      "source_repo": "k8s-operatorhub/community-operators",
+      "target": "peaceiris/actions-gh-pages@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/documentation.yaml",
+      "source_repo": "k8s-operatorhub/community-operators",
+      "target": "Documentation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/operator_ci.yaml",
+      "source_repo": "k8s-operatorhub/community-operators",
+      "target": "actions/github-script@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/operator_ci.yaml",
+      "source_repo": "k8s-operatorhub/community-operators",
+      "target": "actions/labeler@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/operator_ci.yaml",
+      "source_repo": "k8s-operatorhub/community-operators",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/operator_ci.yaml",
+      "source_repo": "k8s-operatorhub/community-operators",
+      "target": "mshick/add-pr-comment@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/operator_ci.yaml",
+      "source_repo": "k8s-operatorhub/community-operators",
+      "target": "kentaro-m/auto-assign-action@v1.1.2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/operator_ci.yaml",
+      "source_repo": "k8s-operatorhub/community-operators",
+      "target": "Operator CI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/operator_ci_approved.yaml",
+      "source_repo": "k8s-operatorhub/community-operators",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/operator_ci_approved.yaml",
+      "source_repo": "k8s-operatorhub/community-operators",
+      "target": "actions/github-script@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/operator_ci_approved.yaml",
+      "source_repo": "k8s-operatorhub/community-operators",
+      "target": "mshick/add-pr-comment@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/operator_ci_approved.yaml",
+      "source_repo": "k8s-operatorhub/community-operators",
+      "target": "Operator CI APPROVED",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/operator_ci_index_sha.yaml",
+      "source_repo": "k8s-operatorhub/community-operators",
+      "target": "Operator index sha sync",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/operator_ci_labels.yaml",
+      "source_repo": "k8s-operatorhub/community-operators",
+      "target": "actions/github-script@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/operator_ci_labels.yaml",
+      "source_repo": "k8s-operatorhub/community-operators",
+      "target": "Operator CI Labels",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-30T00:37:16.824464+00:00",
+  "source_repo": "k8s-operatorhub/community-operators"
+}

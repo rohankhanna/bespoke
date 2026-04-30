@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "anonymized"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "DNSCrypt/dnscrypt-proxy",
+      "status": "candidate-context",
+      "text": "dnscrypt-proxy 2 - A flexible DNS proxy, with support for encrypted DNS protocols."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DNSCrypt/dnscrypt-proxy",
+      "status": "candidate-context",
+      "text": "[![Financial Contributors on Open Collective](https://opencollective.com/dnscrypt/all/badge.svg?label=financial+contributors)](https://opencollective.com/dnscrypt)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DNSCrypt/dnscrypt-proxy",
+      "status": "candidate",
+      "text": "[![Financial Contributors on Open Collective](https://opencollective.com/dnscrypt/all/badge.svg?label=financial+contributors)](https://opencollective.com/dnscrypt)"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20007940,
+      "status": "candidate",
+      "text": "nominative"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20003592,
+      "status": "candidate",
+      "text": "nominal"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20002227,
+      "status": "candidate",
+      "text": "identifiable"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19903466,
+      "status": "candidate",
+      "text": "no-name"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19902254,
+      "status": "candidate",
+      "text": "anonymous"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "anonymized",
+  "concept_id": "anonymized",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "DNSCrypt/dnscrypt-proxy"
+    }
+  ],
+  "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "anonymized",
+      "sense_id": "anonymized#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

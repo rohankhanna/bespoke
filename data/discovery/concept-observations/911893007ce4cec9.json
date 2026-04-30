@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Selecting and copy-pasting in terminal using Vimium-like hint mode."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "**tmux-picker**: Selecting and copy-pasting in terminal using Vimium-like hint mode for tmux."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "**tmux-picker**: Selecting and copy-pasting in terminal using Vimium-like hint mode for tmux."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40008013,
+      "status": "candidate",
+      "text": "choose"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40007861,
+      "status": "candidate",
+      "text": "choice"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39998534,
+      "status": "candidate",
+      "text": "prime"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39992457,
+      "status": "candidate",
+      "text": "quality"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39990186,
+      "status": "candidate",
+      "text": "superior"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "select",
+      "sense_id": "select#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 31065,
+      "status": "candidate",
+      "text": "fine"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 31061,
+      "status": "candidate",
+      "text": "prime"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 28060,
+      "status": "candidate",
+      "text": "quality"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 22064,
+      "status": "candidate",
+      "text": "take"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 20046,
+      "status": "candidate",
+      "text": "choice"
+    }
+  ],
+  "concept_id": "select",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "select",
+  "observation_id": "911893007ce4cec9",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T00:37:16.824464+00:00",
+  "observed_text": "select",
+  "source_context_snippet": "**tmux-picker**: Selecting and copy-pasting in terminal using Vimium-like hint mode for tmux.",
+  "source_file": null,
+  "source_repo": "pawel-wiejacha/tmux-picker",
+  "source_repo_description": "Selecting and copy-pasting in terminal using Vimium-like hint mode."
+}

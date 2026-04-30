@@ -55,6 +55,78 @@
       "source_repo": "graphdeco-inria/gaussian-splatting",
       "status": "candidate-context",
       "text": "Bernhard Kerbl*, Georgios Kopanas*, Thomas Leimk\u00fchler, George Drettakis (* indicates equal contribution)<br>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "AcademySoftwareFoundation/OpenShadingLanguage",
+      "status": "candidate-context",
+      "text": "Advanced shading language for production GI renderers"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AcademySoftwareFoundation/OpenShadingLanguage",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "NVIDIA/pix2pixHD",
+      "status": "candidate-context",
+      "text": "Synthesizing and manipulating 2048x1024 images with conditional GANs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NVIDIA/pix2pixHD",
+      "status": "candidate-context",
+      "text": "<img src='imgs/teaser_720.gif' align=\"right\" width=360>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "GaParmar/clean-fid",
+      "status": "candidate-context",
+      "text": "PyTorch - FID calculation with proper image resizing and quantization steps [CVPR 2022]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "GaParmar/clean-fid",
+      "status": "candidate-context",
+      "text": "<br>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nvpro-samples/vk_gltf_renderer",
+      "status": "candidate-context",
+      "text": "Vulkan ray tracing glTF 2.0 renderer \u2014 RTX path tracer with PBR materials, AI denoising (DLSS, OptiX), and scene editing. NVIDIA open-source sample."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nvpro-samples/vk_gltf_renderer",
+      "status": "candidate-context",
+      "text": "[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](LICENSE)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "taesungp/contrastive-unpaired-translation",
+      "status": "candidate-context",
+      "text": "Contrastive unpaired image-to-image translation, faster and lighter training than cyclegan (ECCV 2020, in PyTorch)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "taesungp/contrastive-unpaired-translation",
+      "status": "candidate-context",
+      "text": "<br>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Ha0Tang/SelectionGAN",
+      "status": "candidate-context",
+      "text": "[CVPR 2019 Oral] Multi-Channel Attention Selection GAN with Cascaded Semantic Guidance for Cross-View Image Translation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Ha0Tang/SelectionGAN",
+      "status": "candidate-context",
+      "text": "![Visitors](https://visitor-badge.glitch.me/badge?page_id=Ha0Tang/SelectionGAN)"
     }
   ],
   "candidate_glosses": [
@@ -81,6 +153,42 @@
       "source_repo": "graphdeco-inria/gaussian-splatting",
       "status": "candidate",
       "text": "Bernhard Kerbl*, Georgios Kopanas*, Thomas Leimk\u00fchler, George Drettakis (* indicates equal contribution)<br>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AcademySoftwareFoundation/OpenShadingLanguage",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NVIDIA/pix2pixHD",
+      "status": "candidate",
+      "text": "<img src='imgs/teaser_720.gif' align=\"right\" width=360>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "GaParmar/clean-fid",
+      "status": "candidate",
+      "text": "<br>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nvpro-samples/vk_gltf_renderer",
+      "status": "candidate",
+      "text": "[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](LICENSE)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "taesungp/contrastive-unpaired-translation",
+      "status": "candidate",
+      "text": "<br>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Ha0Tang/SelectionGAN",
+      "status": "candidate",
+      "text": "![Visitors](https://visitor-badge.glitch.me/badge?page_id=Ha0Tang/SelectionGAN)"
     }
   ],
   "candidate_related_terms": [],
@@ -112,11 +220,47 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": null,
       "source_repo": "graphdeco-inria/gaussian-splatting"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "AcademySoftwareFoundation/OpenShadingLanguage"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "NVIDIA/pix2pixHD"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "GaParmar/clean-fid"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "nvpro-samples/vk_gltf_renderer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "taesungp/contrastive-unpaired-translation"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "Ha0Tang/SelectionGAN"
     }
   ],
   "first_seen_at": "2026-04-19T04:47:57.443742+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

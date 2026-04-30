@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "[TPAMI 2025\ud83d\udd25] MagicTime: Time-lapse Video Generation Models as Metamorphic Simulators"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<div align=center>"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<div align=center>"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19955918,
+      "status": "candidate",
+      "text": "interval"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19886648,
+      "status": "candidate",
+      "text": "animated"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10017524,
+      "status": "candidate",
+      "text": "slow-motion"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10017523,
+      "status": "candidate",
+      "text": "rapid"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10017522,
+      "status": "candidate",
+      "text": "hypertemporal"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "time-lapse",
+      "sense_id": "time-lapse#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "time-lapse",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "time-lapse",
+  "observation_id": "19aec5165cc3ae9a",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T00:37:16.824464+00:00",
+  "observed_text": "time-lapse",
+  "source_context_snippet": "<div align=center>",
+  "source_file": null,
+  "source_repo": "PKU-YuanGroup/MagicTime",
+  "source_repo_description": "[TPAMI 2025\ud83d\udd25] MagicTime: Time-lapse Video Generation Models as Metamorphic Simulators"
+}

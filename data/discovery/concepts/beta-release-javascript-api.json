@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Beta release JavaScript API"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "biomejs/biome",
+      "status": "candidate-context",
+      "text": "A toolchain for web projects, aimed to provide functionalities to maintain them. Biome offers formatter and linter, usable via CLI and LSP."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "biomejs/biome",
+      "status": "candidate-context",
+      "text": "Beta release JavaScript API"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "biomejs/biome",
+      "status": "candidate",
+      "text": "Beta release JavaScript API"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26592,
+      "status": "candidate",
+      "text": "test"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 23081,
+      "status": "candidate",
+      "text": "smap"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 23081,
+      "status": "candidate",
+      "text": "snap"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22059,
+      "status": "candidate",
+      "text": "script"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21808,
+      "status": "candidate",
+      "text": "hive"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Beta release JavaScript API",
+  "concept_id": "beta-release-javascript-api",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/beta_js_api.yml",
+      "source_repo": "biomejs/biome"
+    }
+  ],
+  "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Beta release JavaScript API",
+      "sense_id": "beta-release-javascript-api#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "starks"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "andrewmilson/ministark",
+      "status": "candidate-context",
+      "text": "\ud83c\udfc3\u200d\u2642\ufe0f\ud83d\udca8 GPU accelerated STARK prover built on @arkworks-rs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "andrewmilson/ministark",
+      "status": "candidate-context",
+      "text": "> **Warning**"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "andrewmilson/ministark",
+      "status": "candidate",
+      "text": "> **Warning**"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 35103962,
+      "status": "candidate",
+      "text": "severe"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 35102632,
+      "status": "candidate",
+      "text": "austere"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 35100643,
+      "status": "candidate",
+      "text": "immoderate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 35100498,
+      "status": "candidate",
+      "text": "arrant"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 35096736,
+      "status": "candidate",
+      "text": "blunt"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "starks",
+  "concept_id": "starks",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "andrewmilson/ministark"
+    }
+  ],
+  "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "starks",
+      "sense_id": "starks#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

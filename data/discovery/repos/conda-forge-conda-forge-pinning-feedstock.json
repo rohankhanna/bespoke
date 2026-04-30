@@ -1,0 +1,59 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/conda-build.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/conda-build.yml",
+      "source_repo": "conda-forge/conda-forge-pinning-feedstock",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/conda-build.yml",
+      "source_repo": "conda-forge/conda-forge-pinning-feedstock",
+      "target": "Build conda package",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T01:59:34.739466+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6094
+    },
+    {
+      "path": ".github/workflows/conda-build.yml",
+      "size": 4060
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A conda-smithy repository for conda-forge-pinning.",
+    "fork": false,
+    "full_name": "conda-forge/conda-forge-pinning-feedstock",
+    "html_url": "https://github.com/conda-forge/conda-forge-pinning-feedstock",
+    "language": "Python",
+    "pushed_at": "2026-04-29T21:53:28Z",
+    "stargazers_count": 71,
+    "topics": [],
+    "updated_at": "2026-04-29T21:53:34Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Build conda package",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/conda-build.yml",
+      "term": "Build conda package"
+    }
+  ]
+}

@@ -1,0 +1,261 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-examples.yml"
+    },
+    {
+      "component": "mikefarah/yq@v4.35.2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-examples.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-examples.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-examples.yml"
+    },
+    {
+      "component": "8398a7/action-slack@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-examples.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/truss_deploy.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/truss_deploy.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/warm-chains.yml"
+    },
+    {
+      "component": "actions/setup-python@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/warm-chains.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr.yml",
+      "source_repo": "basetenlabs/truss-examples",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-examples.yml",
+      "source_repo": "basetenlabs/truss-examples",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-examples.yml",
+      "source_repo": "basetenlabs/truss-examples",
+      "target": "mikefarah/yq@v4.35.2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-examples.yml",
+      "source_repo": "basetenlabs/truss-examples",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-examples.yml",
+      "source_repo": "basetenlabs/truss-examples",
+      "target": "8398a7/action-slack@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test-examples.yml",
+      "source_repo": "basetenlabs/truss-examples",
+      "target": "Truss Examples CI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/truss_deploy.yml",
+      "source_repo": "basetenlabs/truss-examples",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/truss_deploy.yml",
+      "source_repo": "basetenlabs/truss-examples",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/truss_deploy.yml",
+      "source_repo": "basetenlabs/truss-examples",
+      "target": "Droid deploy truss",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/warm-chains.yml",
+      "source_repo": "basetenlabs/truss-examples",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/warm-chains.yml",
+      "source_repo": "basetenlabs/truss-examples",
+      "target": "actions/setup-python@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/warm-chains.yml",
+      "source_repo": "basetenlabs/truss-examples",
+      "target": "Warm up chains examples",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "basetenlabs/truss-examples",
+      "target": "docker",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "basetenlabs/truss-examples",
+      "target": "examples",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "basetenlabs/truss-examples",
+      "target": "machine-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "basetenlabs/truss-examples",
+      "target": "mlops",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T03:04:24.761328+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1164
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 434
+    },
+    {
+      "path": ".github/workflows/pr.yml",
+      "size": 318
+    },
+    {
+      "path": ".github/workflows/test-examples.yml",
+      "size": 2064
+    },
+    {
+      "path": ".github/workflows/truss_deploy.yml",
+      "size": 1003
+    },
+    {
+      "path": ".github/workflows/warm-chains.yml",
+      "size": 946
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Examples of models deployable with Truss",
+    "fork": false,
+    "full_name": "basetenlabs/truss-examples",
+    "html_url": "https://github.com/basetenlabs/truss-examples",
+    "language": "Python",
+    "pushed_at": "2026-04-30T01:21:27Z",
+    "stargazers_count": 223,
+    "topics": [
+      "ai",
+      "docker",
+      "examples",
+      "machine-learning",
+      "mlops",
+      "python"
+    ],
+    "updated_at": "2026-04-28T20:42:21Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Truss Examples CI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test-examples.yml",
+      "term": "Truss Examples CI"
+    },
+    {
+      "context_snippet": "Droid deploy truss",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/truss_deploy.yml",
+      "term": "Droid deploy truss"
+    },
+    {
+      "context_snippet": "Warm up chains examples",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/warm-chains.yml",
+      "term": "Warm up chains examples"
+    },
+    {
+      "context_snippet": "[![Truss Examples CI](https://github.com/basetenlabs/truss-examples/actions/workflows/test-examples.yml/badge.svg)](https://github.com/basetenlabs/truss-examples/actions/workflows/test-examples.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "docker"
+    },
+    {
+      "context_snippet": "[![Truss Examples CI](https://github.com/basetenlabs/truss-examples/actions/workflows/test-examples.yml/badge.svg)](https://github.com/basetenlabs/truss-examples/actions/workflows/test-examples.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "examples"
+    },
+    {
+      "context_snippet": "[![Truss Examples CI](https://github.com/basetenlabs/truss-examples/actions/workflows/test-examples.yml/badge.svg)](https://github.com/basetenlabs/truss-examples/actions/workflows/test-examples.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "machine-learning"
+    },
+    {
+      "context_snippet": "[![Truss Examples CI](https://github.com/basetenlabs/truss-examples/actions/workflows/test-examples.yml/badge.svg)](https://github.com/basetenlabs/truss-examples/actions/workflows/test-examples.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mlops"
+    }
+  ]
+}

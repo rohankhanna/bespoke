@@ -46,21 +46,21 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "LuaLS/lua-language-server",
+      "target": "sqmedeiros/lpeglabel",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "LuaLS/lua-language-server",
+      "target": "nickemanarin/screentogif",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "LuaLS/lua-language-server",
       "target": "microsoft/vscode-languageserver-node",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "LuaLS/lua-language-server",
-      "target": "luals/lua-glob",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "LuaLS/lua-language-server",
-      "target": "luals/utility",
       "target_type": "repository"
     },
     {
@@ -190,7 +190,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-29T19:40:54.627567+00:00",
+  "fetched_at": "2026-04-30T00:38:36.951054+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -227,7 +227,7 @@
     "html_url": "https://github.com/LuaLS/lua-language-server",
     "language": "Lua",
     "pushed_at": "2026-04-29T11:01:10Z",
-    "stargazers_count": 4223,
+    "stargazers_count": 4224,
     "topics": [
       "hacktoberfest",
       "language-server",
@@ -237,7 +237,7 @@
       "lsp-server",
       "lua"
     ],
-    "updated_at": "2026-04-29T05:11:55Z"
+    "updated_at": "2026-04-29T22:40:00Z"
   },
   "repo_links": [
     {
@@ -247,17 +247,17 @@
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "luals/lua-glob",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "luals/utility",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
       "full_name": "microsoft/vscode-languageserver-node",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "nickemanarin/screentogif",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "sqmedeiros/lpeglabel",
       "source_file": "README.md"
     }
   ],

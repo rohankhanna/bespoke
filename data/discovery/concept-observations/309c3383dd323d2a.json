@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Find Nerd Glyphs Easily \ud83e\udd13\ud83d\udd2d"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<div align = \"center\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<div align = \"center\">"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19846999,
+      "status": "candidate",
+      "text": "logograph"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19846998,
+      "status": "candidate",
+      "text": "logogram"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19846997,
+      "status": "candidate",
+      "text": "ideoglyph"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19846996,
+      "status": "candidate",
+      "text": "graph"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19846995,
+      "status": "candidate",
+      "text": "anaglyptography"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "glyph",
+      "sense_id": "glyph#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "glyph",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "glyph",
+  "observation_id": "309c3383dd323d2a",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T00:37:16.824464+00:00",
+  "observed_text": "glyph",
+  "source_context_snippet": "<div align = \"center\">",
+  "source_file": null,
+  "source_repo": "2KAbhishek/nerdy.nvim",
+  "source_repo_description": "Find Nerd Glyphs Easily \ud83e\udd13\ud83d\udd2d"
+}

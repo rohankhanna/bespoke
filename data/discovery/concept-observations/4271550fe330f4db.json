@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "\ud83e\udd2f  beginners tutorial building a real time counter in Phoenix 1.7.14 + LiveView 1.0 \u26a1\ufe0f Learn the fundamentals from first principals so you can make something amazing! \ud83d\ude80"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<div align=\"center\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10051357,
+      "status": "candidate",
+      "text": "novice"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10051279,
+      "status": "candidate",
+      "text": "tyro"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10002243,
+      "status": "candidate",
+      "text": "initiate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9995647,
+      "status": "candidate",
+      "text": "founder"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9979383,
+      "status": "candidate",
+      "text": "father"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "beginners",
+      "sense_id": "beginners#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "beginners",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "beginners",
+  "observation_id": "4271550fe330f4db",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T00:37:16.824464+00:00",
+  "observed_text": "beginners",
+  "source_context_snippet": "<div align=\"center\">",
+  "source_file": null,
+  "source_repo": "dwyl/phoenix-liveview-counter-tutorial",
+  "source_repo_description": "\ud83e\udd2f  beginners tutorial building a real time counter in Phoenix 1.7.14 + LiveView 1.0 \u26a1\ufe0f Learn the fundamentals from first principals so you can make something amazing! \ud83d\ude80"
+}

@@ -1,0 +1,164 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "iflytek/cino",
+      "target": "ymcui/chinese-minority-plm",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "iflytek/cino",
+      "target": "ymcui/hfl-anthology",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "iflytek/cino",
+      "target": "facebookresearch/xlm",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "iflytek/cino",
+      "target": "fudannlp/tibetan-classification",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "iflytek/cino",
+      "target": "chinese-nlp",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "iflytek/cino",
+      "target": "cino",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "iflytek/cino",
+      "target": "pytorch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "iflytek/cino",
+      "target": "transformers",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "iflytek/cino",
+      "target": "xlm-roberta",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "iflytek/cino",
+      "target": "xlmr",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T02:45:15.660660+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 10199
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "CINO: Pre-trained Language Models for Chinese Minority (\u5c11\u6570\u6c11\u65cf\u8bed\u8a00\u9884\u8bad\u7ec3\u6a21\u578b)",
+    "fork": false,
+    "full_name": "iflytek/cino",
+    "html_url": "https://github.com/iflytek/cino",
+    "language": "Python",
+    "pushed_at": "2025-07-15T00:13:32Z",
+    "stargazers_count": 266,
+    "topics": [
+      "chinese-nlp",
+      "cino",
+      "nlp",
+      "pytorch",
+      "transformers",
+      "xlm-roberta",
+      "xlmr"
+    ],
+    "updated_at": "2026-04-27T03:36:54Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "facebookresearch/xlm",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "fudannlp/tibetan-classification",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ymcui/chinese-minority-plm",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ymcui/hfl-anthology",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[**\u4e2d\u6587\u8bf4\u660e**](https://github.com/ymcui/Chinese-Minority-PLM/) | [**English**](https://github.com/ymcui/Chinese-Minority-PLM/blob/main/README_EN.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "chinese-nlp"
+    },
+    {
+      "context_snippet": "[**\u4e2d\u6587\u8bf4\u660e**](https://github.com/ymcui/Chinese-Minority-PLM/) | [**English**](https://github.com/ymcui/Chinese-Minority-PLM/blob/main/README_EN.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cino"
+    },
+    {
+      "context_snippet": "[**\u4e2d\u6587\u8bf4\u660e**](https://github.com/ymcui/Chinese-Minority-PLM/) | [**English**](https://github.com/ymcui/Chinese-Minority-PLM/blob/main/README_EN.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytorch"
+    },
+    {
+      "context_snippet": "[**\u4e2d\u6587\u8bf4\u660e**](https://github.com/ymcui/Chinese-Minority-PLM/) | [**English**](https://github.com/ymcui/Chinese-Minority-PLM/blob/main/README_EN.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "transformers"
+    },
+    {
+      "context_snippet": "[**\u4e2d\u6587\u8bf4\u660e**](https://github.com/ymcui/Chinese-Minority-PLM/) | [**English**](https://github.com/ymcui/Chinese-Minority-PLM/blob/main/README_EN.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "xlm-roberta"
+    },
+    {
+      "context_snippet": "[**\u4e2d\u6587\u8bf4\u660e**](https://github.com/ymcui/Chinese-Minority-PLM/) | [**English**](https://github.com/ymcui/Chinese-Minority-PLM/blob/main/README_EN.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "xlmr"
+    }
+  ]
+}

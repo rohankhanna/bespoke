@@ -1,0 +1,35 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T02:45:52.960638+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5768
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 511
+    },
+    {
+      "path": "requirements.txt",
+      "size": 108
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "main",
+    "description": "Moatless Testbeds allows you to create isolated testbed environments in a Kubernetes cluster where you can apply code changes through git patches and run tests or SWE-Bench evaluations.",
+    "fork": false,
+    "full_name": "aorwall/moatless-testbeds",
+    "html_url": "https://github.com/aorwall/moatless-testbeds",
+    "language": "Python",
+    "pushed_at": "2025-04-09T03:52:02Z",
+    "stargazers_count": 14,
+    "topics": [],
+    "updated_at": "2025-10-04T15:45:31Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

@@ -11,20 +11,6 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "babashka/babashka-sql-pods",
-      "target": "xledger/pod_sql_server",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "babashka/babashka-sql-pods",
-      "target": "xledger/pod_tsql_scriptdom",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "babashka/babashka-sql-pods",
       "target": "oracle/helidon",
       "target_type": "repository"
     },
@@ -99,6 +85,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-04-29T18:37:00.726333+00:00",
+  "generated_at": "2026-04-30T00:37:16.824464+00:00",
   "source_repo": "babashka/babashka-sql-pods"
 }

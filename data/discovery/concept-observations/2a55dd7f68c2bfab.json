@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "[ICLR 2026] TangoFlux: Super Fast and Faithful Text to Audio Generation with Flow Matching"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "\ud83d\udd25\ud83d\udd25If you enjoyed TangoFlux, please check out our latest innovation, Jam, a lyrics-to-song generator: https://github.com/declare-lab/jamify"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "\ud83d\udd25\ud83d\udd25If you enjoyed TangoFlux, please check out our latest innovation, Jam, a lyrics-to-song generator: https://github.com/declare-lab/jamify"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "text-to-audio-ai",
+      "sense_id": "text-to-audio-ai#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "text-to-audio-ai",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "text-to-audio-ai",
+  "observation_id": "2a55dd7f68c2bfab",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T00:37:16.824464+00:00",
+  "observed_text": "text-to-audio-ai",
+  "source_context_snippet": "\ud83d\udd25\ud83d\udd25If you enjoyed TangoFlux, please check out our latest innovation, Jam, a lyrics-to-song generator: https://github.com/declare-lab/jamify",
+  "source_file": null,
+  "source_repo": "declare-lab/TangoFlux",
+  "source_repo_description": "[ICLR 2026] TangoFlux: Super Fast and Faithful Text to Audio Generation with Flow Matching"
+}

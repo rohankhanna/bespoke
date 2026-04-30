@@ -1,0 +1,101 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "zju3dv/LoFTR",
+      "target": "tangshitao/quadtreeattention",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "zju3dv/LoFTR",
+      "target": "magicleap/supergluepretrainednetwork",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "zju3dv/LoFTR",
+      "target": "3d-vision",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "zju3dv/LoFTR",
+      "target": "feature-matching",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "zju3dv/LoFTR",
+      "target": "pose-estimation",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T05:13:38.637796+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8532
+    },
+    {
+      "path": "requirements.txt",
+      "size": 370
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Code for \"LoFTR: Detector-Free Local Feature Matching with Transformers\", CVPR 2021, T-PAMI 2022",
+    "fork": false,
+    "full_name": "zju3dv/LoFTR",
+    "html_url": "https://github.com/zju3dv/LoFTR",
+    "language": "Jupyter Notebook",
+    "pushed_at": "2024-05-31T06:54:41Z",
+    "stargazers_count": 2875,
+    "topics": [
+      "3d-vision",
+      "feature-matching",
+      "pose-estimation"
+    ],
+    "updated_at": "2026-04-29T23:52:37Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "magicleap/supergluepretrainednetwork",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "tangshitao/quadtreeattention",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<br/>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "3d-vision"
+    },
+    {
+      "context_snippet": "<br/>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "feature-matching"
+    },
+    {
+      "context_snippet": "<br/>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pose-estimation"
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "taki0112/SPADE-Tensorflow",
+      "target": "nvlabs/spade",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T01:55:45.754316+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4035
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Simple Tensorflow implementation of \"Semantic Image Synthesis with Spatially-Adaptive Normalization\" a.k.a. GauGAN, SPADE (CVPR 2019 Oral)",
+    "fork": false,
+    "full_name": "taki0112/SPADE-Tensorflow",
+    "html_url": "https://github.com/taki0112/SPADE-Tensorflow",
+    "language": "Python",
+    "pushed_at": "2022-06-06T22:28:29Z",
+    "stargazers_count": 374,
+    "topics": [],
+    "updated_at": "2026-04-16T07:57:43Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "nvlabs/spade",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

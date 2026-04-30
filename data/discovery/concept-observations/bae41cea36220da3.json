@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A playground to generate images from any text prompt using Stable Diffusion (past: using DALL-E Mini)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<p align=\"center\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40023400,
+      "status": "candidate",
+      "text": "factitious"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40023380,
+      "status": "candidate",
+      "text": "man-made"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40023027,
+      "status": "candidate",
+      "text": "contrived"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40022832,
+      "status": "candidate",
+      "text": "faux"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40022528,
+      "status": "candidate",
+      "text": "fake"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "artificial",
+      "sense_id": "artificial#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 30032,
+      "status": "candidate",
+      "text": "contrived"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 29041,
+      "status": "candidate",
+      "text": "faux"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 20035,
+      "status": "candidate",
+      "text": "ersatz"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 17036,
+      "status": "candidate",
+      "text": "unreal"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 15046,
+      "status": "candidate",
+      "text": "fake"
+    }
+  ],
+  "concept_id": "artificial",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "artificial",
+  "observation_id": "bae41cea36220da3",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T00:37:16.824464+00:00",
+  "observed_text": "artificial",
+  "source_context_snippet": "<p align=\"center\">",
+  "source_file": null,
+  "source_repo": "saharmor/dalle-playground",
+  "source_repo_description": "A playground to generate images from any text prompt using Stable Diffusion (past: using DALL-E Mini)"
+}

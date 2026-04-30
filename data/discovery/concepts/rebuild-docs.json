@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Rebuild Docs"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "google/jsonnet",
+      "status": "candidate-context",
+      "text": "Jsonnet - The data templating language"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/jsonnet",
+      "status": "candidate-context",
+      "text": "Rebuild Docs"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/jsonnet",
+      "status": "candidate",
+      "text": "Rebuild Docs"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10508,
+      "status": "candidate",
+      "text": "briard"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10508,
+      "status": "candidate",
+      "text": "concorde"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10508,
+      "status": "candidate",
+      "text": "dakar"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10508,
+      "status": "candidate",
+      "text": "delorme"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10508,
+      "status": "candidate",
+      "text": "doctrinaire"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Rebuild Docs",
+  "concept_id": "rebuild-docs",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/doc_update.yml",
+      "source_repo": "google/jsonnet"
+    }
+  ],
+  "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Rebuild Docs",
+      "sense_id": "rebuild-docs#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

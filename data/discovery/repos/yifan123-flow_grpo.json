@@ -1,0 +1,65 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "yifan123/flow_grpo",
+      "target": "yifan123/reward-server",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "yifan123/flow_grpo",
+      "target": "zhiyuanyou/deqa-score",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "yifan123/flow_grpo",
+      "target": "kvablack/ddpo-pytorch",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T05:14:27.660706+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 23742
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "[NeurIPS 2025] An official implementation of Flow-GRPO: Training Flow Matching Models via Online RL",
+    "fork": false,
+    "full_name": "yifan123/flow_grpo",
+    "html_url": "https://github.com/yifan123/flow_grpo",
+    "language": "Python",
+    "pushed_at": "2025-11-04T11:22:43Z",
+    "stargazers_count": 2232,
+    "topics": [],
+    "updated_at": "2026-04-29T15:33:39Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "kvablack/ddpo-pytorch",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "yifan123/reward-server",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "zhiyuanyou/deqa-score",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

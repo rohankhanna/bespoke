@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Lock Inactive Threads"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lightgbm-org/LightGBM",
+      "status": "candidate-context",
+      "text": "A fast, distributed, high performance gradient boosting (GBT, GBDT, GBRT, GBM or MART) framework based on decision tree algorithms, used for ranking, classification and many other machine learning tasks."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lightgbm-org/LightGBM",
+      "status": "candidate-context",
+      "text": "'Lock Inactive Threads'"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lightgbm-org/LightGBM",
+      "status": "candidate",
+      "text": "'Lock Inactive Threads'"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17894,
+      "status": "candidate",
+      "text": "bar"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17894,
+      "status": "candidate",
+      "text": "tailpiece"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17816,
+      "status": "candidate",
+      "text": "strip"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17816,
+      "status": "candidate",
+      "text": "stripped"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17798,
+      "status": "candidate",
+      "text": "shoot"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Lock Inactive Threads",
+  "concept_id": "lock-inactive-threads",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/lock.yml",
+      "source_repo": "lightgbm-org/LightGBM"
+    }
+  ],
+  "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Lock Inactive Threads",
+      "sense_id": "lock-inactive-threads#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

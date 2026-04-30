@@ -7,9 +7,65 @@
     "workflow-process",
     "data-document-artifact"
   ],
-  "candidate_definitions": [],
-  "candidate_glosses": [],
-  "candidate_related_terms": [],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cargo-bins/cargo-binstall",
+      "status": "candidate-context",
+      "text": "Binary installation for rust projects"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cargo-bins/cargo-binstall",
+      "status": "candidate-context",
+      "text": "Test GitHub Action installer"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cargo-bins/cargo-binstall",
+      "status": "candidate",
+      "text": "Test GitHub Action installer"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 35294,
+      "status": "candidate",
+      "text": "prove"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 35294,
+      "status": "candidate",
+      "text": "proving"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26294,
+      "status": "candidate",
+      "text": "trial"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26294,
+      "status": "candidate",
+      "text": "trial balloon"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24870,
+      "status": "candidate",
+      "text": "installation"
+    }
+  ],
   "candidate_synonyms": [],
   "canonical_name": "Test GitHub Action installer",
   "concept_id": "test-github-action-installer",
@@ -20,12 +76,20 @@
       "observed_at": "2026-04-18T11:32:22.637859+00:00",
       "source_file": ".github/workflows/gh-action.yml",
       "source_repo": "cargo-bins/cargo-binstall"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/gh-action.yml",
+      "source_repo": "cargo-bins/cargo-binstall"
     }
   ],
   "first_seen_at": "2026-04-18T11:32:22.637859+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-18T11:32:22.637859+00:00",
-  "lexical_providers": [],
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
   "lexical_status": "unresolved",
   "possible_senses": [
     {

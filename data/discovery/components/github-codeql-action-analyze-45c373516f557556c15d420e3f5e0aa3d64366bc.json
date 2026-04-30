@@ -1,0 +1,12 @@
+{
+  "component": "github/codeql-action/analyze@45c373516f557556c15d420e3f5e0aa3d64366bc",
+  "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "ampproject/amphtml"
+    }
+  ]
+}

@@ -1,0 +1,115 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A scripting and command-line front-end for GNU R"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![CI](https://github.com/eddelbuettel/littler/workflows/ci/badge.svg)](https://github.com/eddelbuettel/littler/actions?query=workflow%3Aci)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![CI](https://github.com/eddelbuettel/littler/workflows/ci/badge.svg)](https://github.com/eddelbuettel/littler/actions?query=workflow%3Aci)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 33141465,
+      "status": "candidate",
+      "text": "small"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24937259,
+      "status": "candidate",
+      "text": "smaller"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 16666865,
+      "status": "candidate",
+      "text": "litt"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 16666864,
+      "status": "candidate",
+      "text": "littell"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 16666863,
+      "status": "candidate",
+      "text": "liddle"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "littler",
+      "sense_id": "littler#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 20046,
+      "status": "candidate",
+      "text": "little"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 18045,
+      "status": "candidate",
+      "text": "small"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 2021,
+      "status": "candidate",
+      "text": "smaller"
+    }
+  ],
+  "concept_id": "littler",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "littler",
+  "observation_id": "e0c98a4384f7cc84",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T00:37:16.824464+00:00",
+  "observed_text": "littler",
+  "source_context_snippet": "[![CI](https://github.com/eddelbuettel/littler/workflows/ci/badge.svg)](https://github.com/eddelbuettel/littler/actions?query=workflow%3Aci)",
+  "source_file": null,
+  "source_repo": "eddelbuettel/littler",
+  "source_repo_description": "A scripting and command-line front-end for GNU R"
+}

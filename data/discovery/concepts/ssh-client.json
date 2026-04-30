@@ -19,6 +19,18 @@
       "source_repo": "connectbot/connectbot",
       "status": "candidate-context",
       "text": "[![Build Status](https://github.com/connectbot/connectbot/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/connectbot/connectbot/actions/workflows/ci.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "trzsz/trzsz-ssh",
+      "status": "candidate-context",
+      "text": "trzsz-ssh ( tssh ) is an ssh client designed as a drop-in replacement for the openssh client. It aims to provide complete compatibility with openssh, mirroring all its features, while also offering additional useful features. Such as login prompt, batch login, remember password, automated interaction, trzsz, zmodem(rz/sz), udp mode like mosh, etc."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "trzsz/trzsz-ssh",
+      "status": "candidate-context",
+      "text": "[![MIT License](https://img.shields.io/badge/license-MIT-green.svg?style=flat)](https://choosealicense.com/licenses/mit/)"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "connectbot/connectbot",
       "status": "candidate",
       "text": "[![Build Status](https://github.com/connectbot/connectbot/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/connectbot/connectbot/actions/workflows/ci.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "trzsz/trzsz-ssh",
+      "status": "candidate",
+      "text": "[![MIT License](https://img.shields.io/badge/license-MIT-green.svg?style=flat)](https://choosealicense.com/licenses/mit/)"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": null,
       "source_repo": "connectbot/connectbot"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "trzsz/trzsz-ssh"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

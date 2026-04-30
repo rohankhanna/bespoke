@@ -19,6 +19,18 @@
       "source_repo": "jin-s13/COCO-WholeBody",
       "status": "candidate-context",
       "text": "This is the official repo for ECCV2020 paper [\"Whole-Body Human Pose Estimation in the Wild\"](https://arxiv.org/abs/2007.11858). The slides of this work can be found in [Slides](https://drive.google.com/file/d/1nebo1h07BwKDhomWy4n98X4cJ1qHVy2X/view?usp=sharing)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hassony2/manopth",
+      "status": "candidate-context",
+      "text": "MANO layer for PyTorch, generating hand meshes as a differentiable layer"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hassony2/manopth",
+      "status": "candidate-context",
+      "text": "Manopth"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "jin-s13/COCO-WholeBody",
       "status": "candidate",
       "text": "This is the official repo for ECCV2020 paper [\"Whole-Body Human Pose Estimation in the Wild\"](https://arxiv.org/abs/2007.11858). The slides of this work can be found in [Slides](https://drive.google.com/file/d/1nebo1h07BwKDhomWy4n98X4cJ1qHVy2X/view?usp=sharing)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hassony2/manopth",
+      "status": "candidate",
+      "text": "Manopth"
     }
   ],
   "candidate_related_terms": [
@@ -112,11 +130,17 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "jin-s13/COCO-WholeBody"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "hassony2/manopth"
     }
   ],
   "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

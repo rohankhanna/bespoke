@@ -1,0 +1,22 @@
+{
+  "component": "github/gh-aw-actions/setup@df014dd7d03b638e860b2aeca95c833fd97c8cf1",
+  "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci-doctor.lock.yml",
+      "source_repo": "microsoft/security-devops-action"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/msdo-breach-monitor.lock.yml",
+      "source_repo": "microsoft/security-devops-action"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/msdo-issue-assistant.lock.yml",
+      "source_repo": "microsoft/security-devops-action"
+    }
+  ]
+}

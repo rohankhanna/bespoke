@@ -1,0 +1,161 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/delivery.yml"
+    },
+    {
+      "component": "leafo/gh-actions-lua@v9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/delivery.yml"
+    },
+    {
+      "component": "leafo/gh-actions-luarocks@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/delivery.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration.yml"
+    },
+    {
+      "component": "leafo/gh-actions-lua@v9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration.yml"
+    },
+    {
+      "component": "leafo/gh-actions-luarocks@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration.yml"
+    },
+    {
+      "component": "actions/cache@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "m00qek/matcher_combinators.lua",
+      "target": "nubank/matcher-combinators",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/delivery.yml",
+      "source_repo": "m00qek/matcher_combinators.lua",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/delivery.yml",
+      "source_repo": "m00qek/matcher_combinators.lua",
+      "target": "leafo/gh-actions-lua@v9",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/delivery.yml",
+      "source_repo": "m00qek/matcher_combinators.lua",
+      "target": "leafo/gh-actions-luarocks@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/delivery.yml",
+      "source_repo": "m00qek/matcher_combinators.lua",
+      "target": "Delivery",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration.yml",
+      "source_repo": "m00qek/matcher_combinators.lua",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration.yml",
+      "source_repo": "m00qek/matcher_combinators.lua",
+      "target": "leafo/gh-actions-lua@v9",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration.yml",
+      "source_repo": "m00qek/matcher_combinators.lua",
+      "target": "leafo/gh-actions-luarocks@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration.yml",
+      "source_repo": "m00qek/matcher_combinators.lua",
+      "target": "actions/cache@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/integration.yml",
+      "source_repo": "m00qek/matcher_combinators.lua",
+      "target": "Integration",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T00:41:15.404386+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3054
+    },
+    {
+      "path": ".github/workflows/delivery.yml",
+      "size": 672
+    },
+    {
+      "path": ".github/workflows/integration.yml",
+      "size": 987
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Lua test library for asserting deeply nested data structures",
+    "fork": false,
+    "full_name": "m00qek/matcher_combinators.lua",
+    "html_url": "https://github.com/m00qek/matcher_combinators.lua",
+    "language": "Lua",
+    "pushed_at": "2022-05-17T23:44:55Z",
+    "stargazers_count": 5,
+    "topics": [],
+    "updated_at": "2023-12-19T09:20:42Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "nubank/matcher-combinators",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Delivery",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/delivery.yml",
+      "term": "Delivery"
+    },
+    {
+      "context_snippet": "Integration",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/integration.yml",
+      "term": "Integration"
+    }
+  ]
+}

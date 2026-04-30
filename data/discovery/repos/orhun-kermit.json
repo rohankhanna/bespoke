@@ -1,0 +1,166 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "orhun/kermit",
+      "target": "realh/roxterm",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "orhun/kermit",
+      "target": "vincentbernat/vbeterm",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "orhun/kermit",
+      "target": "thestinger/termite",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "orhun/kermit",
+      "target": "orhun/base16-kermit",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "orhun/kermit",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "orhun/kermit",
+      "target": "Build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "orhun/kermit",
+      "target": "gtk3",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "orhun/kermit",
+      "target": "linux-terminal",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "orhun/kermit",
+      "target": "terminal",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "orhun/kermit",
+      "target": "terminal-emulator",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T04:01:28.175841+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8453
+    },
+    {
+      "path": ".github/workflows/build.yml",
+      "size": 634
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A VTE-based, simple and froggy terminal emulator \ud83d\udc38",
+    "fork": false,
+    "full_name": "orhun/kermit",
+    "html_url": "https://github.com/orhun/kermit",
+    "language": "C",
+    "pushed_at": "2024-06-10T19:16:15Z",
+    "stargazers_count": 151,
+    "topics": [
+      "gtk3",
+      "linux-terminal",
+      "terminal",
+      "terminal-emulator",
+      "vte"
+    ],
+    "updated_at": "2026-04-26T05:14:52Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "orhun/base16-kermit",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "realh/roxterm",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "thestinger/termite",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "vincentbernat/vbeterm",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "term": "Build"
+    },
+    {
+      "context_snippet": "![Kermit the Frog](https://user-images.githubusercontent.com/24392180/59636824-2af20180-915d-11e9-95dd-0a077ebc3cfa.gif)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gtk3"
+    },
+    {
+      "context_snippet": "![Kermit the Frog](https://user-images.githubusercontent.com/24392180/59636824-2af20180-915d-11e9-95dd-0a077ebc3cfa.gif)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "linux-terminal"
+    },
+    {
+      "context_snippet": "![Kermit the Frog](https://user-images.githubusercontent.com/24392180/59636824-2af20180-915d-11e9-95dd-0a077ebc3cfa.gif)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "terminal"
+    },
+    {
+      "context_snippet": "![Kermit the Frog](https://user-images.githubusercontent.com/24392180/59636824-2af20180-915d-11e9-95dd-0a077ebc3cfa.gif)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "terminal-emulator"
+    }
+  ]
+}

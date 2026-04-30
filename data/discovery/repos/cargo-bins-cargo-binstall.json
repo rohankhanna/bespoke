@@ -141,16 +141,6 @@
       "source_file": ".github/workflows/release-cli.yml"
     },
     {
-      "component": "mathieudutour/github-tag-action@v6.2",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/release-cli.yml"
-    },
-    {
-      "component": "actions/checkout@v6",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/release-cli.yml"
-    },
-    {
       "component": "cargo-bins/cargo-binstall@main",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/release-cli.yml"
@@ -167,6 +157,16 @@
     },
     {
       "component": "actions/download-artifact@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-cli.yml"
+    },
+    {
+      "component": "actions/attest@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-cli.yml"
+    },
+    {
+      "component": "mathieudutour/github-tag-action@v6.2",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/release-cli.yml"
     },
@@ -252,27 +252,6 @@
       "source_file": "README.md",
       "source_repo": "cargo-bins/cargo-binstall",
       "target": "alsuren/cargo-quickinstall",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "cargo-bins/cargo-binstall",
-      "target": "nabijaczleweli/cargo-update",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "cargo-bins/cargo-binstall",
-      "target": "dustinblackman/cargo-run-bin",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "cargo-bins/cargo-binstall",
-      "target": "cargo-bins/cargo-quickinstall",
       "target_type": "repository"
     },
     {
@@ -370,13 +349,6 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/release-cli.yml",
       "source_repo": "cargo-bins/cargo-binstall",
-      "target": "mathieudutour/github-tag-action@v6.2",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/release-cli.yml",
-      "source_repo": "cargo-bins/cargo-binstall",
       "target": "cargo-bins/cargo-binstall@main",
       "target_type": "component"
     },
@@ -399,6 +371,20 @@
       "source_file": ".github/workflows/release-cli.yml",
       "source_repo": "cargo-bins/cargo-binstall",
       "target": "actions/download-artifact@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-cli.yml",
+      "source_repo": "cargo-bins/cargo-binstall",
+      "target": "actions/attest@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-cli.yml",
+      "source_repo": "cargo-bins/cargo-binstall",
+      "target": "mathieudutour/github-tag-action@v6.2",
       "target_type": "component"
     },
     {
@@ -528,11 +514,11 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-18T11:32:39.013157+00:00",
+  "fetched_at": "2026-04-30T01:45:30.650441+00:00",
   "fetched_files": [
     {
       "path": "README.md",
-      "size": 9925
+      "size": 9934
     },
     {
       "path": "Cargo.toml",
@@ -556,7 +542,7 @@
     },
     {
       "path": ".github/workflows/release-cli.yml",
-      "size": 3750
+      "size": 3783
     },
     {
       "path": ".github/workflows/release-packages.yml",
@@ -571,7 +557,6 @@
       "size": 1429
     }
   ],
-  "metadata_refreshed_at": "2026-04-19T14:03:44.558101+00:00",
   "related_repositories": [],
   "repo": {
     "archived": false,
@@ -581,84 +566,79 @@
     "full_name": "cargo-bins/cargo-binstall",
     "html_url": "https://github.com/cargo-bins/cargo-binstall",
     "language": "Rust",
-    "pushed_at": "2026-04-18T14:11:01Z",
-    "stargazers_count": 2615,
+    "pushed_at": "2026-04-29T10:28:41Z",
+    "stargazers_count": 2636,
     "topics": [
       "binary",
       "installer",
       "rust"
     ],
-    "updated_at": "2026-04-19T12:35:19Z"
+    "updated_at": "2026-04-29T13:53:38Z"
   },
   "repo_links": [
     {
       "edge_type": "explicit-github-link",
       "full_name": "alsuren/cargo-quickinstall",
       "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "cargo-bins/cargo-quickinstall",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "dustinblackman/cargo-run-bin",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "nabijaczleweli/cargo-update",
-      "source_file": "README.md"
     }
   ],
   "terms": [
     {
+      "context_snippet": "Cleanup caches for closed PRs",
       "edge_type": "workflow-name",
       "source_file": ".github/workflows/cache-cleanup.yml",
       "term": "Cleanup caches for closed PRs"
     },
     {
+      "context_snippet": "Test GitHub Action installer",
       "edge_type": "workflow-name",
       "source_file": ".github/workflows/gh-action.yml",
       "term": "Test GitHub Action installer"
     },
     {
+      "context_snippet": "Test install-script",
       "edge_type": "workflow-name",
       "source_file": ".github/workflows/install-script.yml",
       "term": "Test install-script"
     },
     {
+      "context_snippet": "Release CLI",
       "edge_type": "workflow-name",
       "source_file": ".github/workflows/release-cli.yml",
       "term": "Release CLI"
     },
     {
+      "context_snippet": "Build packages for release",
       "edge_type": "workflow-name",
       "source_file": ".github/workflows/release-packages.yml",
       "term": "Build packages for release"
     },
     {
+      "context_snippet": "Release-plz",
       "edge_type": "workflow-name",
       "source_file": ".github/workflows/release-plz.yml",
       "term": "Release-plz"
     },
     {
+      "context_snippet": "Open cargo-binstall release PR",
       "edge_type": "workflow-name",
       "source_file": ".github/workflows/release-pr.yml",
       "term": "Open cargo-binstall release PR"
     },
     {
+      "context_snippet": "Binstall provides a low-complexity mechanism for installing Rust binaries as an alternative to building from source (via `cargo install`) or manually downloading packages.",
       "edge_type": "repo-topic",
       "source_file": null,
       "term": "binary"
     },
     {
+      "context_snippet": "Binstall provides a low-complexity mechanism for installing Rust binaries as an alternative to building from source (via `cargo install`) or manually downloading packages.",
       "edge_type": "repo-topic",
       "source_file": null,
       "term": "installer"
     },
     {
+      "context_snippet": "Binstall provides a low-complexity mechanism for installing Rust binaries as an alternative to building from source (via `cargo install`) or manually downloading packages.",
       "edge_type": "repo-topic",
       "source_file": null,
       "term": "rust"

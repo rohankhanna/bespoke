@@ -43,6 +43,30 @@
       "source_repo": "ankane/disco",
       "status": "candidate-context",
       "text": ":fire: Recommendations for Ruby and Rails using collaborative filtering"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "benfred/implicit",
+      "status": "candidate-context",
+      "text": "Fast Python Collaborative Filtering for Implicit Feedback Datasets"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "benfred/implicit",
+      "status": "candidate-context",
+      "text": "Implicit"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "unum-cloud/USearch",
+      "status": "candidate-context",
+      "text": "Fast Open-Source Search & Clustering engine \u00d7 for Vectors & Arbitrary Objects \u00d7 in C++, C, Python, JavaScript, Rust, Java, Objective-C, Swift, C#, GoLang, and Wolfram \ud83d\udd0d"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "unum-cloud/USearch",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">USearch</h1>"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +87,18 @@
       "source_repo": "ankane/disco",
       "status": "candidate",
       "text": ":fire: Recommendations for Ruby and Rails using collaborative filtering"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "benfred/implicit",
+      "status": "candidate",
+      "text": "Implicit"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "unum-cloud/USearch",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">USearch</h1>"
     }
   ],
   "candidate_related_terms": [],
@@ -88,11 +124,23 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "ankane/disco"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "benfred/implicit"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "unum-cloud/USearch"
     }
   ],
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

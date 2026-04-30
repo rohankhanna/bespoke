@@ -41,13 +41,6 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "grpc/grpc-dart",
-      "target": "grpc/grpc-web",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "grpc/grpc-dart",
       "target": "dart-lang/grpc-dart",
       "target_type": "repository"
     },
@@ -129,7 +122,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-29T21:54:07.531588+00:00",
+  "fetched_at": "2026-04-30T03:58:11.060582+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -173,11 +166,6 @@
     {
       "edge_type": "explicit-github-link",
       "full_name": "dart-lang/grpc-dart",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "grpc/grpc-web",
       "source_file": "README.md"
     }
   ],

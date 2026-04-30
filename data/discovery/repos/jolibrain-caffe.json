@@ -1,0 +1,107 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "jolibrain/caffe",
+      "target": "beniz/deepdetect",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "jolibrain/caffe",
+      "target": "farmingyard/shufflenet",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "jolibrain/caffe",
+      "target": "hujie-frank/senet",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "jolibrain/caffe",
+      "target": "xmfbit/warpctc-caffe",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jolibrain/caffe",
+      "target": "caffe",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jolibrain/caffe",
+      "target": "deeplearning",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T05:13:11.833504+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1855
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Caffe: a Fast framework for deep learning. Custom version with built-in sparse inputs, segmentation, object detection, class weights, and custom layers",
+    "fork": true,
+    "full_name": "jolibrain/caffe",
+    "html_url": "https://github.com/jolibrain/caffe",
+    "language": "C++",
+    "pushed_at": "2023-09-29T09:00:09Z",
+    "stargazers_count": 35,
+    "topics": [
+      "caffe",
+      "deeplearning"
+    ],
+    "updated_at": "2023-09-29T09:00:44Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "beniz/deepdetect",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "farmingyard/shufflenet",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "hujie-frank/senet",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "xmfbit/warpctc-caffe",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "This is a slightly modified version of Caffe as used by the [Deep Learning API & server Deepdetect](https://github.com/beniz/deepdetect). The repository is kept up to date with the original Caffe master branch.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "caffe"
+    },
+    {
+      "context_snippet": "This is a slightly modified version of Caffe as used by the [Deep Learning API & server Deepdetect](https://github.com/beniz/deepdetect). The repository is kept up to date with the original Caffe master branch.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deeplearning"
+    }
+  ]
+}

@@ -1,0 +1,153 @@
+{
+  "components": [
+    {
+      "component": "chai",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "ffjavascript",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "js-beautify",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "lodash",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "long",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "mocha",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "prettier",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "protobufjs",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "yargs",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "jison",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "0xPolygonHermez/pil2-compiler",
+      "target": "chai",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "0xPolygonHermez/pil2-compiler",
+      "target": "ffjavascript",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "0xPolygonHermez/pil2-compiler",
+      "target": "js-beautify",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "0xPolygonHermez/pil2-compiler",
+      "target": "lodash",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "0xPolygonHermez/pil2-compiler",
+      "target": "long",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "0xPolygonHermez/pil2-compiler",
+      "target": "mocha",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "0xPolygonHermez/pil2-compiler",
+      "target": "prettier",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "0xPolygonHermez/pil2-compiler",
+      "target": "protobufjs",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "0xPolygonHermez/pil2-compiler",
+      "target": "yargs",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "0xPolygonHermez/pil2-compiler",
+      "target": "jison",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-04-30T04:52:31.851397+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2036
+    },
+    {
+      "path": "package.json",
+      "size": 948
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "develop",
+    "description": "PIL2 Compiler",
+    "fork": false,
+    "full_name": "0xPolygonHermez/pil2-compiler",
+    "html_url": "https://github.com/0xPolygonHermez/pil2-compiler",
+    "language": "JavaScript",
+    "pushed_at": "2026-02-25T09:44:02Z",
+    "stargazers_count": 3,
+    "topics": [],
+    "updated_at": "2026-02-25T09:39:58Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

@@ -91,6 +91,18 @@
       "source_repo": "zarazhangrui/frontend-slides",
       "status": "candidate-context",
       "text": "A Claude Code skill for creating stunning, animation-rich HTML presentations \u2014 from scratch or by converting PowerPoint files."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "vizzuhq/ipyvizzu-story",
+      "status": "candidate-context",
+      "text": "Build, present and share animated data stories in Jupyter Notebook and similar environments."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vizzuhq/ipyvizzu-story",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -135,6 +147,12 @@
       "source_repo": "zarazhangrui/frontend-slides",
       "status": "candidate",
       "text": "A Claude Code skill for creating stunning, animation-rich HTML presentations \u2014 from scratch or by converting PowerPoint files."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vizzuhq/ipyvizzu-story",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -262,11 +280,23 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "zarazhangrui/frontend-slides"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "2slides/mcp-2slides"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "vizzuhq/ipyvizzu-story"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

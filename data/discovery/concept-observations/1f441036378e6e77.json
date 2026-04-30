@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "An anomaly detection library comprising state-of-the-art algorithms and features such as experiment management, hyper-parameter optimization, and edge inference."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Reusable Test Suite"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Reusable Test Suite"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24938,
+      "status": "candidate",
+      "text": "recycle"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 23429,
+      "status": "candidate",
+      "text": "tote"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22905,
+      "status": "candidate",
+      "text": "mark"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22883,
+      "status": "candidate",
+      "text": "baton"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22883,
+      "status": "candidate",
+      "text": "leg"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Reusable Test Suite",
+      "sense_id": "reusable-test-suite#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "reusable-test-suite",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "reusable-test-suite",
+  "observation_id": "1f441036378e6e77",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-30T00:37:16.824464+00:00",
+  "observed_text": "Reusable Test Suite",
+  "source_context_snippet": "Reusable Test Suite",
+  "source_file": ".github/workflows/_reusable-test-suite.yaml",
+  "source_repo": "open-edge-platform/anomalib",
+  "source_repo_description": "An anomaly detection library comprising state-of-the-art algorithms and features such as experiment management, hyper-parameter optimization, and edge inference."
+}

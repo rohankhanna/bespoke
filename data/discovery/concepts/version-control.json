@@ -91,6 +91,18 @@
       "source_repo": "nodists/nodist",
       "status": "candidate-context",
       "text": "[![Join the chat at https://gitter.im/marcelklehr/nodist](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/marcelklehr/nodist?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "clearml/clearml",
+      "status": "candidate-context",
+      "text": "ClearML - Auto-Magical CI/CD to streamline your AI workload. Experiment Management, Data Management, Pipeline, Orchestration, Scheduling & Serving in one MLOps/LLMOps solution"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "clearml/clearml",
+      "status": "candidate-context",
+      "text": "<div align=\"center\" style=\"text-align: center\">"
     }
   ],
   "candidate_glosses": [
@@ -135,6 +147,12 @@
       "source_repo": "nodists/nodist",
       "status": "candidate",
       "text": "[![Join the chat at https://gitter.im/marcelklehr/nodist](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/marcelklehr/nodist?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "clearml/clearml",
+      "status": "candidate",
+      "text": "<div align=\"center\" style=\"text-align: center\">"
     }
   ],
   "candidate_related_terms": [],
@@ -238,11 +256,23 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "nodists/nodist"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "nodists/nodist"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "clearml/clearml"
     }
   ],
   "first_seen_at": "2026-04-19T04:47:57.443742+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

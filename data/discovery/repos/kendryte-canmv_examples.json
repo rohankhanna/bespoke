@@ -1,0 +1,100 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kendryte/canmv_examples",
+      "target": "canmv",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kendryte/canmv_examples",
+      "target": "k210",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kendryte/canmv_examples",
+      "target": "kendryte",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kendryte/canmv_examples",
+      "target": "micropython-k210",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kendryte/canmv_examples",
+      "target": "openmv",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T03:45:37.331655+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 34
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": " canmv examples",
+    "fork": false,
+    "full_name": "kendryte/canmv_examples",
+    "html_url": "https://github.com/kendryte/canmv_examples",
+    "language": "Python",
+    "pushed_at": "2024-12-10T02:14:38Z",
+    "stargazers_count": 33,
+    "topics": [
+      "canmv",
+      "k210",
+      "kendryte",
+      "micropython-k210",
+      "openmv"
+    ],
+    "updated_at": "2026-03-08T14:16:34Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "\u8fd0\u884c\u5728 CanMV \u4e0a\u7684\u811a\u672c",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "canmv"
+    },
+    {
+      "context_snippet": "\u8fd0\u884c\u5728 CanMV \u4e0a\u7684\u811a\u672c",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "k210"
+    },
+    {
+      "context_snippet": "\u8fd0\u884c\u5728 CanMV \u4e0a\u7684\u811a\u672c",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "kendryte"
+    },
+    {
+      "context_snippet": "\u8fd0\u884c\u5728 CanMV \u4e0a\u7684\u811a\u672c",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "micropython-k210"
+    },
+    {
+      "context_snippet": "\u8fd0\u884c\u5728 CanMV \u4e0a\u7684\u811a\u672c",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "openmv"
+    }
+  ]
+}

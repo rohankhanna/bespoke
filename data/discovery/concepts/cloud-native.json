@@ -295,6 +295,66 @@
       "source_repo": "goharbor/harbor",
       "status": "candidate-context",
       "text": "[![CI](https://github.com/goharbor/harbor/actions/workflows/CI.yml/badge.svg)](https://github.com/goharbor/harbor/actions/workflows/CI.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apache/apisix",
+      "status": "candidate-context",
+      "text": "The Cloud-Native API Gateway and AI Gateway"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/apisix",
+      "status": "candidate-context",
+      "text": "<!--"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cncf/tag-security",
+      "status": "candidate-context",
+      "text": "\ud83d\udd10CNCF Security Technical Advisory Group -- secure access, policy control, privacy, auditing, explainability and more!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cncf/tag-security",
+      "status": "candidate-context",
+      "text": "![Cloud Native Security Logo](/community/resources/design/logo/cloud-native-security-horizontal-darkmodesafe.svg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "goharbor/community",
+      "status": "candidate-context",
+      "text": "Harbor community-related material"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "goharbor/community",
+      "status": "candidate-context",
+      "text": "A place for Harbor community related material."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "GreptimeTeam/greptimedb",
+      "status": "candidate-context",
+      "text": "The open-source Observability 2.0 database. One engine for metrics, logs, and traces \u2014 replacing Prometheus, Loki & ES."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "GreptimeTeam/greptimedb",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apache/rocketmq",
+      "status": "candidate-context",
+      "text": "Apache RocketMQ is a cloud native messaging and streaming platform, making it simple to build event-driven applications."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/rocketmq",
+      "status": "candidate-context",
+      "text": "[![Build Status][maven-build-image]][maven-build-url]"
     }
   ],
   "candidate_glosses": [
@@ -441,6 +501,36 @@
       "source_repo": "goharbor/harbor",
       "status": "candidate",
       "text": "[![CI](https://github.com/goharbor/harbor/actions/workflows/CI.yml/badge.svg)](https://github.com/goharbor/harbor/actions/workflows/CI.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/apisix",
+      "status": "candidate",
+      "text": "<!--"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cncf/tag-security",
+      "status": "candidate",
+      "text": "![Cloud Native Security Logo](/community/resources/design/logo/cloud-native-security-horizontal-darkmodesafe.svg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "goharbor/community",
+      "status": "candidate",
+      "text": "A place for Harbor community related material."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "GreptimeTeam/greptimedb",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/rocketmq",
+      "status": "candidate",
+      "text": "[![Build Status][maven-build-image]][maven-build-url]"
     }
   ],
   "candidate_related_terms": [],
@@ -610,11 +700,53 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "goharbor/harbor"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "apache/apisix"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "cncf/tag-security"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "akuity/awesome-argo"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "goharbor/community"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "jina-ai/serve"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "GreptimeTeam/greptimedb"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "apache/rocketmq"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

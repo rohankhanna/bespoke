@@ -1,0 +1,108 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "\u2705 Beginners tutorial building a Realtime Todo List in Phoenix 1.6.10 + LiveView 0.17.10 \u26a1\ufe0f Feedback very welcome!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<div align=\"center\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29999633,
+      "status": "candidate",
+      "text": "capital of arizona"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29999633,
+      "status": "candidate",
+      "text": "genus phoenix"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29999632,
+      "status": "candidate",
+      "text": "fung"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29936972,
+      "status": "candidate",
+      "text": "pong"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29821847,
+      "status": "candidate",
+      "text": "bong"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "phoenix",
+      "sense_id": "phoenix#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 9,
+      "status": "candidate",
+      "text": "capital of arizona"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 9,
+      "status": "candidate",
+      "text": "genus phoenix"
+    }
+  ],
+  "concept_id": "phoenix",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "phoenix",
+  "observation_id": "d3c69a253c4981b8",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T00:37:16.824464+00:00",
+  "observed_text": "phoenix",
+  "source_context_snippet": "<div align=\"center\">",
+  "source_file": null,
+  "source_repo": "dwyl/phoenix-liveview-todo-list-tutorial",
+  "source_repo_description": "\u2705 Beginners tutorial building a Realtime Todo List in Phoenix 1.6.10 + LiveView 0.17.10 \u26a1\ufe0f Feedback very welcome!"
+}

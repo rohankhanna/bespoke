@@ -1,0 +1,251 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "shivammathur/setup-php@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "shivammathur/setup-php@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release_validate.yml"
+    },
+    {
+      "component": "shivammathur/setup-php@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release_validate.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/windows.yml"
+    },
+    {
+      "component": "php/php-windows-builder/extension-matrix@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/windows.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/windows.yml"
+    },
+    {
+      "component": "php/php-windows-builder/extension@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/windows.yml"
+    },
+    {
+      "component": "php/php-windows-builder/release@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/windows.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Imagick/imagick",
+      "target": "facebook/hhvm",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Imagick/imagick",
+      "target": "imagemagick/imagemagick",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "Imagick/imagick",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "Imagick/imagick",
+      "target": "shivammathur/setup-php@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "Imagick/imagick",
+      "target": "actions/cache@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "Imagick/imagick",
+      "target": "Build and Test on Debian",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release_validate.yml",
+      "source_repo": "Imagick/imagick",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release_validate.yml",
+      "source_repo": "Imagick/imagick",
+      "target": "shivammathur/setup-php@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release_validate.yml",
+      "source_repo": "Imagick/imagick",
+      "target": "Validate pecl package",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/windows.yml",
+      "source_repo": "Imagick/imagick",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/windows.yml",
+      "source_repo": "Imagick/imagick",
+      "target": "php/php-windows-builder/extension-matrix@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/windows.yml",
+      "source_repo": "Imagick/imagick",
+      "target": "php/php-windows-builder/extension@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/windows.yml",
+      "source_repo": "Imagick/imagick",
+      "target": "php/php-windows-builder/release@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/windows.yml",
+      "source_repo": "Imagick/imagick",
+      "target": "Build and Test on Windows",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Imagick/imagick",
+      "target": "imagemagick",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T01:44:43.038297+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6832
+    },
+    {
+      "path": ".github/workflows/main.yml",
+      "size": 6688
+    },
+    {
+      "path": ".github/workflows/release_validate.yml",
+      "size": 823
+    },
+    {
+      "path": ".github/workflows/windows.yml",
+      "size": 1355
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "\ud83c\udf08 The Imagick PHP extension \ud83c\udf08",
+    "fork": false,
+    "full_name": "Imagick/imagick",
+    "html_url": "https://github.com/Imagick/imagick",
+    "language": "C",
+    "pushed_at": "2026-01-01T13:01:51Z",
+    "stargazers_count": 612,
+    "topics": [
+      "c",
+      "imagemagick",
+      "php"
+    ],
+    "updated_at": "2026-04-13T13:05:07Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "facebook/hhvm",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "imagemagick/imagemagick",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Build and Test on Debian",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/main.yml",
+      "term": "Build and Test on Debian"
+    },
+    {
+      "context_snippet": "Validate pecl package",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release_validate.yml",
+      "term": "Validate pecl package"
+    },
+    {
+      "context_snippet": "Build and Test on Windows",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/windows.yml",
+      "term": "Build and Test on Windows"
+    },
+    {
+      "context_snippet": "[![Build status](https://github.com/imagick/imagick/actions/workflows/main.yml/badge.svg)](https://github.com/Imagick/imagick/actions)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "imagemagick"
+    }
+  ]
+}

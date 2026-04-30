@@ -1,0 +1,85 @@
+{
+  "aliases": [
+    "Efficientdet",
+    "efficientdet"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact",
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "google/automl",
+      "status": "candidate-context",
+      "text": "Google Brain AutoML"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/automl",
+      "status": "candidate-context",
+      "text": "Efficientdet"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/automl",
+      "status": "candidate-context",
+      "text": "This repository contains a list of AutoML related models and libraries."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/automl",
+      "status": "candidate",
+      "text": "Efficientdet"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/automl",
+      "status": "candidate",
+      "text": "This repository contains a list of AutoML related models and libraries."
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "Efficientdet",
+  "concept_id": "efficientdet",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/python-app.yml",
+      "source_repo": "google/automl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "google/automl"
+    }
+  ],
+  "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Efficientdet",
+      "sense_id": "efficientdet#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

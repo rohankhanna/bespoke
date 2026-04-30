@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-18T11:32:22.637859+00:00",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "sources": [
     {
       "discovered_via": "repo-topic",
@@ -76,6 +76,11 @@
       "discovered_via": "repo-topic",
       "source_file": null,
       "source_repo": "Ash258/Scoop-Core"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "miurahr/aqtinstall"
     }
   ],
   "term": "installer"

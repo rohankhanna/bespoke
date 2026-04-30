@@ -1,0 +1,294 @@
+{
+  "components": [
+    {
+      "component": "mozilla-mobile/relbot@6.1.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ac-update-geckoview.yml"
+    },
+    {
+      "component": "gabrielluong/bugzilla-format@1.0.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bugzilla-format.yml"
+    },
+    {
+      "component": "gabrielluong/bugzilla-linker@1.0.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bugzilla-linker.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fenix-update-nimbus-experiments.yml"
+    },
+    {
+      "component": "mozilla-mobile/update-experiments@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fenix-update-nimbus-experiments.yml"
+    },
+    {
+      "component": "peter-evans/create-pull-request@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fenix-update-nimbus-experiments.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/focus-update-nimbus-experiments.yml"
+    },
+    {
+      "component": "mozilla-mobile/update-experiments@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/focus-update-nimbus-experiments.yml"
+    },
+    {
+      "component": "peter-evans/create-pull-request@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/focus-update-nimbus-experiments.yml"
+    },
+    {
+      "component": "mozilla/probe-scraper/.github/workflows/glean.yaml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/glean-probe-scraper.yml"
+    },
+    {
+      "component": "gabrielluong/pull-request-labeler@1.0.6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pull-request-labeler.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mozilla-mobile/firefox-android",
+      "target": "mozilla-mobile/reference-browser",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ac-update-geckoview.yml",
+      "source_repo": "mozilla-mobile/firefox-android",
+      "target": "mozilla-mobile/relbot@6.1.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ac-update-geckoview.yml",
+      "source_repo": "mozilla-mobile/firefox-android",
+      "target": "AC - Update GeckoView",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bugzilla-format.yml",
+      "source_repo": "mozilla-mobile/firefox-android",
+      "target": "gabrielluong/bugzilla-format@1.0.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/bugzilla-format.yml",
+      "source_repo": "mozilla-mobile/firefox-android",
+      "target": "Bugzilla Format",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bugzilla-linker.yml",
+      "source_repo": "mozilla-mobile/firefox-android",
+      "target": "gabrielluong/bugzilla-linker@1.0.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/bugzilla-linker.yml",
+      "source_repo": "mozilla-mobile/firefox-android",
+      "target": "Bugzilla Issue Linker",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fenix-update-nimbus-experiments.yml",
+      "source_repo": "mozilla-mobile/firefox-android",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fenix-update-nimbus-experiments.yml",
+      "source_repo": "mozilla-mobile/firefox-android",
+      "target": "mozilla-mobile/update-experiments@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fenix-update-nimbus-experiments.yml",
+      "source_repo": "mozilla-mobile/firefox-android",
+      "target": "peter-evans/create-pull-request@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/fenix-update-nimbus-experiments.yml",
+      "source_repo": "mozilla-mobile/firefox-android",
+      "target": "Fenix - Update Nimbus Experiments",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/focus-update-nimbus-experiments.yml",
+      "source_repo": "mozilla-mobile/firefox-android",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/focus-update-nimbus-experiments.yml",
+      "source_repo": "mozilla-mobile/firefox-android",
+      "target": "mozilla-mobile/update-experiments@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/focus-update-nimbus-experiments.yml",
+      "source_repo": "mozilla-mobile/firefox-android",
+      "target": "peter-evans/create-pull-request@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/focus-update-nimbus-experiments.yml",
+      "source_repo": "mozilla-mobile/firefox-android",
+      "target": "Focus - Update Nimbus Experiments",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/glean-probe-scraper.yml",
+      "source_repo": "mozilla-mobile/firefox-android",
+      "target": "mozilla/probe-scraper/.github/workflows/glean.yaml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/glean-probe-scraper.yml",
+      "source_repo": "mozilla-mobile/firefox-android",
+      "target": "Glean probe-scraper",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pull-request-labeler.yml",
+      "source_repo": "mozilla-mobile/firefox-android",
+      "target": "gabrielluong/pull-request-labeler@1.0.6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pull-request-labeler.yml",
+      "source_repo": "mozilla-mobile/firefox-android",
+      "target": "Pull Request Labeler",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T03:44:48.399986+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5477
+    },
+    {
+      "path": ".github/workflows/ac-update-geckoview.yml",
+      "size": 1089
+    },
+    {
+      "path": ".github/workflows/bugzilla-format.yml",
+      "size": 734
+    },
+    {
+      "path": ".github/workflows/bugzilla-linker.yml",
+      "size": 669
+    },
+    {
+      "path": ".github/workflows/fenix-update-nimbus-experiments.yml",
+      "size": 1638
+    },
+    {
+      "path": ".github/workflows/focus-update-nimbus-experiments.yml",
+      "size": 1678
+    },
+    {
+      "path": ".github/workflows/glean-probe-scraper.yml",
+      "size": 195
+    },
+    {
+      "path": ".github/workflows/pull-request-labeler.yml",
+      "size": 857
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "main",
+    "description": ":warning: This repository hosts the Firefox for Android (Fenix), Focus for Android, and Mozilla Android Components projects. It is now developed and maintained as part of Mozilla Central. See the announcement here: https://github.com/mozilla-mobile/firefox-android/wiki#upcoming-migration-to-mozilla-central. \u201d",
+    "fork": false,
+    "full_name": "mozilla-mobile/firefox-android",
+    "html_url": "https://github.com/mozilla-mobile/firefox-android",
+    "language": "Kotlin",
+    "pushed_at": "2024-06-17T05:22:36Z",
+    "stargazers_count": 1825,
+    "topics": [],
+    "updated_at": "2026-04-28T16:41:05Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mozilla-mobile/reference-browser",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "\"AC - Update GeckoView\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ac-update-geckoview.yml",
+      "term": "AC - Update GeckoView"
+    },
+    {
+      "context_snippet": "Bugzilla Format",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/bugzilla-format.yml",
+      "term": "Bugzilla Format"
+    },
+    {
+      "context_snippet": "Bugzilla Issue Linker",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/bugzilla-linker.yml",
+      "term": "Bugzilla Issue Linker"
+    },
+    {
+      "context_snippet": "\"Fenix - Update Nimbus Experiments\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/fenix-update-nimbus-experiments.yml",
+      "term": "Fenix - Update Nimbus Experiments"
+    },
+    {
+      "context_snippet": "\"Focus - Update Nimbus Experiments\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/focus-update-nimbus-experiments.yml",
+      "term": "Focus - Update Nimbus Experiments"
+    },
+    {
+      "context_snippet": "Glean probe-scraper",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/glean-probe-scraper.yml",
+      "term": "Glean probe-scraper"
+    },
+    {
+      "context_snippet": "Pull Request Labeler",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pull-request-labeler.yml",
+      "term": "Pull Request Labeler"
+    }
+  ]
+}

@@ -154,6 +154,18 @@
       "source_repo": "laixintao/tokei-pie",
       "status": "candidate-context",
       "text": "[tool.poetry] name = \"tokei-pie\" version = \"1.2.2\" description = \"Draw a pie chart for tokei output.\" authors = [\"laixintao <laixintaoo@gmail.com>\"] readme = 'readme.md' [tool.poetry.dependencies] python = \"^3.6\" plotly = \"^5.4.0\" [tool.poetry.dev-dependencies] bumpversion = \"^0\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apache/hudi-rs",
+      "status": "candidate-context",
+      "text": "The native Rust implementation for Apache Hudi, with C++ & Python API bindings."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/hudi-rs",
+      "status": "candidate-context",
+      "text": "Code"
     }
   ],
   "candidate_glosses": [
@@ -228,6 +240,12 @@
       "source_repo": "laixintao/tokei-pie",
       "status": "candidate",
       "text": "[tool.poetry] name = \"tokei-pie\" version = \"1.2.2\" description = \"Draw a pie chart for tokei output.\" authors = [\"laixintao <laixintaoo@gmail.com>\"] readme = 'readme.md' [tool.poetry.dependencies] python = \"^3.6\" plotly = \"^5.4.0\" [tool.poetry.dev-dependencies] bumpversion = \"^0\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/hudi-rs",
+      "status": "candidate",
+      "text": "Code"
     }
   ],
   "candidate_related_terms": [
@@ -439,11 +457,41 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "laixintao/tokei-pie"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "psf/black"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/pull_request.yml",
+      "source_repo": "ROCm/rocm-docs-core"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/code.yml",
+      "source_repo": "apache/hudi-rs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "clayrisser/sphinx-markdown-builder"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "zai-org/CodeGeeX2"
     }
   ],
   "first_seen_at": "2026-04-18T12:06:06.216548+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

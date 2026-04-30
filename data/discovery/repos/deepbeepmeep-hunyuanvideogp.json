@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T03:56:22.966435+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 156
+    },
+    {
+      "path": "requirements.txt",
+      "size": 501
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "HunyuanVideo GP:  Large Video Generation Model - GPU Poor version",
+    "fork": true,
+    "full_name": "deepbeepmeep/HunyuanVideoGP",
+    "html_url": "https://github.com/deepbeepmeep/HunyuanVideoGP",
+    "language": "Python",
+    "pushed_at": "2025-05-26T22:01:09Z",
+    "stargazers_count": 454,
+    "topics": [],
+    "updated_at": "2026-04-28T22:40:37Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

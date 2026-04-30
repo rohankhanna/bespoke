@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T01:52:06.742458+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2739
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A tool that scans your music files and tags them with loudness information.",
+    "fork": false,
+    "full_name": "jiixyj/loudness-scanner",
+    "html_url": "https://github.com/jiixyj/loudness-scanner",
+    "language": "C",
+    "pushed_at": "2023-10-15T12:12:06Z",
+    "stargazers_count": 144,
+    "topics": [],
+    "updated_at": "2026-01-25T14:27:40Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A suite of test scenarios for multi-agent reinforcement learning."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "pypi-test"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "pypi-test"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "pypi-test",
+      "sense_id": "pypi-test#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "pypi-test",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "pypi-test",
+  "observation_id": "075b384c9e08129f",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-30T00:37:16.824464+00:00",
+  "observed_text": "pypi-test",
+  "source_context_snippet": "pypi-test",
+  "source_file": ".github/workflows/pypi-test.yml",
+  "source_repo": "google-deepmind/meltingpot",
+  "source_repo_description": "A suite of test scenarios for multi-agent reinforcement learning."
+}

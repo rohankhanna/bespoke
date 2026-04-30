@@ -1,0 +1,136 @@
+{
+  "aliases": [
+    "temporal"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "autokitteh/autokitteh",
+      "status": "candidate-context",
+      "text": "Durable workflow automation in just a few lines of code"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "autokitteh/autokitteh",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "autokitteh/autokitteh",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40004044,
+      "status": "candidate",
+      "text": "worldly"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39992066,
+      "status": "candidate",
+      "text": "temporary"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39991829,
+      "status": "candidate",
+      "text": "impermanent"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39927090,
+      "status": "candidate",
+      "text": "profane"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39897196,
+      "status": "candidate",
+      "text": "earthly"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 39040,
+      "status": "candidate",
+      "text": "profane"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 12028,
+      "status": "candidate",
+      "text": "impermanent"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 11040,
+      "status": "candidate",
+      "text": "temporary"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 7033,
+      "status": "candidate",
+      "text": "worldly"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 6032,
+      "status": "candidate",
+      "text": "earthly"
+    }
+  ],
+  "canonical_name": "temporal",
+  "concept_id": "temporal",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "autokitteh/autokitteh"
+    }
+  ],
+  "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "temporal",
+      "sense_id": "temporal#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

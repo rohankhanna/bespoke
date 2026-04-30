@@ -1,0 +1,146 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "DavHau/nix-portable",
+      "target": "numtide/devshell",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nix-portable.yml",
+      "source_repo": "DavHau/nix-portable",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nix-portable.yml",
+      "source_repo": "DavHau/nix-portable",
+      "target": "cachix/install-nix-action@4e002c8ec80594ecd40e759629461e26c8abed15",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nix-portable.yml",
+      "source_repo": "DavHau/nix-portable",
+      "target": "cachix/cachix-action@v14",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nix-portable.yml",
+      "source_repo": "DavHau/nix-portable",
+      "target": "docker/setup-qemu-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nix-portable.yml",
+      "source_repo": "DavHau/nix-portable",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/nix-portable.yml",
+      "source_repo": "DavHau/nix-portable",
+      "target": "build and test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-flake-lock.yml",
+      "source_repo": "DavHau/nix-portable",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-flake-lock.yml",
+      "source_repo": "DavHau/nix-portable",
+      "target": "cachix/install-nix-action@4e002c8ec80594ecd40e759629461e26c8abed15",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-flake-lock.yml",
+      "source_repo": "DavHau/nix-portable",
+      "target": "DeterminateSystems/update-flake-lock@v23",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/update-flake-lock.yml",
+      "source_repo": "DavHau/nix-portable",
+      "target": "update-flake-lock",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "DavHau/nix-portable",
+      "target": "bubblewrap",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "DavHau/nix-portable",
+      "target": "bwrap",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "DavHau/nix-portable",
+      "target": "namespaces",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "DavHau/nix-portable",
+      "target": "nixos",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "DavHau/nix-portable",
+      "target": "package-management",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "DavHau/nix-portable",
+      "target": "package-manager",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "DavHau/nix-portable",
+      "target": "permissionless",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "DavHau/nix-portable",
+      "target": "portable",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "DavHau/nix-portable",
+      "target": "proot",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-30T00:37:16.824464+00:00",
+  "source_repo": "DavHau/nix-portable"
+}

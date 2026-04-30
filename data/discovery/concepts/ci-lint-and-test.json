@@ -1,0 +1,172 @@
+{
+  "aliases": [
+    "CI Lint and Test"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "2KAbhishek/co-author.nvim",
+      "status": "candidate-context",
+      "text": "Quickly add co-authors to commits \ud83d\udcbb\ud83e\ude84"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "2KAbhishek/co-author.nvim",
+      "status": "candidate-context",
+      "text": "CI Lint and Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "2KAbhishek/nerdy.nvim",
+      "status": "candidate-context",
+      "text": "Find Nerd Glyphs Easily \ud83e\udd13\ud83d\udd2d"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "2KAbhishek/nerdy.nvim",
+      "status": "candidate-context",
+      "text": "CI Lint and Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "2KAbhishek/termim.nvim",
+      "status": "candidate-context",
+      "text": "Neovim Terminal, Improved \ud83e\uddbe\ud83d\udcbb"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "2KAbhishek/termim.nvim",
+      "status": "candidate-context",
+      "text": "CI Lint and Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "2KAbhishek/tdo.nvim",
+      "status": "candidate-context",
+      "text": "Fast & Simple Notes in Neovim \ud83d\udcc3\ud83d\ude80"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "2KAbhishek/tdo.nvim",
+      "status": "candidate-context",
+      "text": "CI Lint and Test"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "2KAbhishek/co-author.nvim",
+      "status": "candidate",
+      "text": "CI Lint and Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "2KAbhishek/nerdy.nvim",
+      "status": "candidate",
+      "text": "CI Lint and Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "2KAbhishek/termim.nvim",
+      "status": "candidate",
+      "text": "CI Lint and Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "2KAbhishek/tdo.nvim",
+      "status": "candidate",
+      "text": "CI Lint and Test"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19814,
+      "status": "candidate",
+      "text": "fig"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15314,
+      "status": "candidate",
+      "text": "ion"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14284,
+      "status": "candidate",
+      "text": "lab"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14274,
+      "status": "candidate",
+      "text": "chemist"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14264,
+      "status": "candidate",
+      "text": "eve"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "CI Lint and Test",
+  "concept_id": "ci-lint-and-test",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "2KAbhishek/co-author.nvim"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "2KAbhishek/nerdy.nvim"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "2KAbhishek/termim.nvim"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "2KAbhishek/tdo.nvim"
+    }
+  ],
+  "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "CI Lint and Test",
+      "sense_id": "ci-lint-and-test#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

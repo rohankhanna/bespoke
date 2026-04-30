@@ -1,0 +1,178 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gh-pages.yml"
+    },
+    {
+      "component": "peaceiris/actions-hugo@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gh-pages.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gh-pages.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gh-pages.yml"
+    },
+    {
+      "component": "actions/upload-pages-artifact@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gh-pages.yml"
+    },
+    {
+      "component": "actions/deploy-pages@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gh-pages.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gh-pages.yml",
+      "source_repo": "optuna/optunahub-web",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gh-pages.yml",
+      "source_repo": "optuna/optunahub-web",
+      "target": "peaceiris/actions-hugo@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gh-pages.yml",
+      "source_repo": "optuna/optunahub-web",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gh-pages.yml",
+      "source_repo": "optuna/optunahub-web",
+      "target": "actions/upload-pages-artifact@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gh-pages.yml",
+      "source_repo": "optuna/optunahub-web",
+      "target": "actions/deploy-pages@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/gh-pages.yml",
+      "source_repo": "optuna/optunahub-web",
+      "target": "GitHub Pages",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "optuna/optunahub-web",
+      "target": "algorithms",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "optuna/optunahub-web",
+      "target": "benchmark",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "optuna/optunahub-web",
+      "target": "machine-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "optuna/optunahub-web",
+      "target": "optimization",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T03:55:18.527673+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1158
+    },
+    {
+      "path": "requirements.txt",
+      "size": 29
+    },
+    {
+      "path": ".github/workflows/gh-pages.yml",
+      "size": 1739
+    },
+    {
+      "path": ".github/workflows/keepalive.yml",
+      "size": 525
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Frontend of OptunaHub Registry",
+    "fork": false,
+    "full_name": "optuna/optunahub-web",
+    "html_url": "https://github.com/optuna/optunahub-web",
+    "language": "HTML",
+    "pushed_at": "2026-04-21T04:22:07Z",
+    "stargazers_count": 10,
+    "topics": [
+      "algorithms",
+      "benchmark",
+      "machine-learning",
+      "optimization",
+      "python"
+    ],
+    "updated_at": "2026-04-21T04:22:11Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "GitHub Pages",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/gh-pages.yml",
+      "term": "GitHub Pages"
+    },
+    {
+      "context_snippet": "OptunaHub Web",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "algorithms"
+    },
+    {
+      "context_snippet": "OptunaHub Web",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "benchmark"
+    },
+    {
+      "context_snippet": "OptunaHub Web",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "machine-learning"
+    },
+    {
+      "context_snippet": "OptunaHub Web",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "optimization"
+    }
+  ]
+}

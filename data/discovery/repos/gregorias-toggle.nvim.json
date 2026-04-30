@@ -1,0 +1,152 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint-test.yml"
+    },
+    {
+      "component": "JohnnyMorganz/stylua-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint-test.yml"
+    },
+    {
+      "component": "extractions/setup-just@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint-test.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint-test.yml"
+    },
+    {
+      "component": "rhysd/action-setup-vim@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint-test.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "gregorias/toggle.nvim",
+      "target": "rcarriga/nvim-notify",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "gregorias/toggle.nvim",
+      "target": "tpope/vim-unimpaired",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "gregorias/toggle.nvim",
+      "target": "folke/which-key.nvim",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint-test.yml",
+      "source_repo": "gregorias/toggle.nvim",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint-test.yml",
+      "source_repo": "gregorias/toggle.nvim",
+      "target": "JohnnyMorganz/stylua-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint-test.yml",
+      "source_repo": "gregorias/toggle.nvim",
+      "target": "extractions/setup-just@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint-test.yml",
+      "source_repo": "gregorias/toggle.nvim",
+      "target": "rhysd/action-setup-vim@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint-test.yml",
+      "source_repo": "gregorias/toggle.nvim",
+      "target": "lint-test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gregorias/toggle.nvim",
+      "target": "neovim-plugin",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T04:13:15.762373+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5201
+    },
+    {
+      "path": ".github/workflows/lint-test.yml",
+      "size": 729
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A Neovim plugin for toggling options.",
+    "fork": false,
+    "full_name": "gregorias/toggle.nvim",
+    "html_url": "https://github.com/gregorias/toggle.nvim",
+    "language": "Lua",
+    "pushed_at": "2025-12-28T09:37:29Z",
+    "stargazers_count": 56,
+    "topics": [
+      "neovim-plugin"
+    ],
+    "updated_at": "2026-04-24T14:16:23Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "folke/which-key.nvim",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "rcarriga/nvim-notify",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "tpope/vim-unimpaired",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "lint-test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint-test.yml",
+      "term": "lint-test"
+    },
+    {
+      "context_snippet": "<!-- markdownlint-disable MD013 MD033 MD041 -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "neovim-plugin"
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Genoil/cpp-ethereum",
+      "target": "ethereum-mining/ethminer",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T00:54:42.697318+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5242
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "117",
+    "description": "[Warning: Repo inactive] Ethereum GPU miner with OpenCL, CUDA and stratum support",
+    "fork": true,
+    "full_name": "Genoil/cpp-ethereum",
+    "html_url": "https://github.com/Genoil/cpp-ethereum",
+    "language": "C++",
+    "pushed_at": "2024-03-05T10:52:58Z",
+    "stargazers_count": 911,
+    "topics": [],
+    "updated_at": "2026-04-10T16:57:19Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ethereum-mining/ethminer",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

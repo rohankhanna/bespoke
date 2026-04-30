@@ -19,6 +19,18 @@
       "source_repo": "ModelTC/LightX2V",
       "status": "candidate-context",
       "text": "<div align=\"center\" style=\"font-family: charter;\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ModelTC/GenRL",
+      "status": "candidate-context",
+      "text": "Reinforcement Learning Framework for Visual Generation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ModelTC/GenRL",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "ModelTC/LightX2V",
       "status": "candidate",
       "text": "<div align=\"center\" style=\"font-family: charter;\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ModelTC/GenRL",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "ModelTC/LightX2V"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "ModelTC/GenRL"
     }
   ],
   "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

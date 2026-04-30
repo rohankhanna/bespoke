@@ -1,0 +1,425 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/abi-compliance-check.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/abi-compliance-check.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/abi-compliance-check.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/abi-compliance-check.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/amdsmi-build.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/amdsmi-build.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/amdsmi-build.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/amdsmi-build.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/amdsmi-build.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/amdsmi-build.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/amdsmi-build.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/amdsmi-build.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/amdsmi-build.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/apply-labels.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/apply-labels.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/aqlprofile-codeql.yml"
+    },
+    {
+      "component": "github/codeql-action/init@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/aqlprofile-codeql.yml"
+    },
+    {
+      "component": "github/codeql-action/analyze@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/aqlprofile-codeql.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/aqlprofile-continuous_integration.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/aqlprofile-continuous_integration.yml"
+    },
+    {
+      "component": "actions/github-script@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-label.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/collect-labels.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/collect-labels.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/hip-formatting.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/hip-validate-pr-description.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/hip-validate-pr-description.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/abi-compliance-check.yml",
+      "source_repo": "ROCm/rocm-systems",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/abi-compliance-check.yml",
+      "source_repo": "ROCm/rocm-systems",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/abi-compliance-check.yml",
+      "source_repo": "ROCm/rocm-systems",
+      "target": "ABI Compliance Check",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/amdsmi-build.yml",
+      "source_repo": "ROCm/rocm-systems",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/amdsmi-build.yml",
+      "source_repo": "ROCm/rocm-systems",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/amdsmi-build.yml",
+      "source_repo": "ROCm/rocm-systems",
+      "target": "AMDSMI CI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/apply-labels.yml",
+      "source_repo": "ROCm/rocm-systems",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/apply-labels.yml",
+      "source_repo": "ROCm/rocm-systems",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/apply-labels.yml",
+      "source_repo": "ROCm/rocm-systems",
+      "target": "Apply Labels",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/aqlprofile-codeql.yml",
+      "source_repo": "ROCm/rocm-systems",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/aqlprofile-codeql.yml",
+      "source_repo": "ROCm/rocm-systems",
+      "target": "github/codeql-action/init@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/aqlprofile-codeql.yml",
+      "source_repo": "ROCm/rocm-systems",
+      "target": "github/codeql-action/analyze@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/aqlprofile-codeql.yml",
+      "source_repo": "ROCm/rocm-systems",
+      "target": "AqlProfile CodeQL Advanced",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/aqlprofile-continuous_integration.yml",
+      "source_repo": "ROCm/rocm-systems",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/aqlprofile-continuous_integration.yml",
+      "source_repo": "ROCm/rocm-systems",
+      "target": "AqlProfile Continuous Integration",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-label.yml",
+      "source_repo": "ROCm/rocm-systems",
+      "target": "actions/github-script@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/auto-label.yml",
+      "source_repo": "ROCm/rocm-systems",
+      "target": "Auto Label PRs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/collect-labels.yml",
+      "source_repo": "ROCm/rocm-systems",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/collect-labels.yml",
+      "source_repo": "ROCm/rocm-systems",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/collect-labels.yml",
+      "source_repo": "ROCm/rocm-systems",
+      "target": "Collect Labels",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/hip-formatting.yml",
+      "source_repo": "ROCm/rocm-systems",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/hip-formatting.yml",
+      "source_repo": "ROCm/rocm-systems",
+      "target": "Clang format check",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/hip-validate-pr-description.yml",
+      "source_repo": "ROCm/rocm-systems",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/hip-validate-pr-description.yml",
+      "source_repo": "ROCm/rocm-systems",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/hip-validate-pr-description.yml",
+      "source_repo": "ROCm/rocm-systems",
+      "target": "Validate HIP PR description",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T02:45:41.107884+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 11322
+    },
+    {
+      "path": ".github/workflows/abi-compliance-check.yml",
+      "size": 6990
+    },
+    {
+      "path": ".github/workflows/amdsmi-build.yml",
+      "size": 35582
+    },
+    {
+      "path": ".github/workflows/apply-labels.yml",
+      "size": 760
+    },
+    {
+      "path": ".github/workflows/aqlprofile-codeql.yml",
+      "size": 4396
+    },
+    {
+      "path": ".github/workflows/aqlprofile-continuous_integration.yml",
+      "size": 8124
+    },
+    {
+      "path": ".github/workflows/auto-label.yml",
+      "size": 14529
+    },
+    {
+      "path": ".github/workflows/collect-labels.yml",
+      "size": 871
+    },
+    {
+      "path": ".github/workflows/hip-formatting.yml",
+      "size": 721
+    },
+    {
+      "path": ".github/workflows/hip-validate-pr-description.yml",
+      "size": 659
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "develop",
+    "description": "super repo for rocm systems projects",
+    "fork": false,
+    "full_name": "ROCm/rocm-systems",
+    "html_url": "https://github.com/ROCm/rocm-systems",
+    "language": "C++",
+    "pushed_at": "2026-04-30T02:44:13Z",
+    "stargazers_count": 356,
+    "topics": [],
+    "updated_at": "2026-04-30T02:28:17Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "ABI Compliance Check",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/abi-compliance-check.yml",
+      "term": "ABI Compliance Check"
+    },
+    {
+      "context_snippet": "AMDSMI CI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/amdsmi-build.yml",
+      "term": "AMDSMI CI"
+    },
+    {
+      "context_snippet": "Apply Labels",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/apply-labels.yml",
+      "term": "Apply Labels"
+    },
+    {
+      "context_snippet": "\"AqlProfile CodeQL Advanced\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/aqlprofile-codeql.yml",
+      "term": "AqlProfile CodeQL Advanced"
+    },
+    {
+      "context_snippet": "AqlProfile Continuous Integration",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/aqlprofile-continuous_integration.yml",
+      "term": "AqlProfile Continuous Integration"
+    },
+    {
+      "context_snippet": "Auto Label PRs",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/auto-label.yml",
+      "term": "Auto Label PRs"
+    },
+    {
+      "context_snippet": "Collect Labels",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/collect-labels.yml",
+      "term": "Collect Labels"
+    },
+    {
+      "context_snippet": "Clang format check",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/hip-formatting.yml",
+      "term": "Clang format check"
+    },
+    {
+      "context_snippet": "Validate HIP PR description",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/hip-validate-pr-description.yml",
+      "term": "Validate HIP PR description"
+    }
+  ]
+}

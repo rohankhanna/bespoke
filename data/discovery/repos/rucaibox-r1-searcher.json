@@ -1,0 +1,57 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "RUCAIBox/R1-Searcher",
+      "target": "rucaibox/r1-searcher-plus",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "RUCAIBox/R1-Searcher",
+      "target": "rucaibox/simpledeepsearcher",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T02:40:21.237681+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 14099
+    },
+    {
+      "path": "requirements.txt",
+      "size": 248
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "R1-searcher: Incentivizing the Search Capability in LLMs via Reinforcement Learning",
+    "fork": false,
+    "full_name": "RUCAIBox/R1-Searcher",
+    "html_url": "https://github.com/RUCAIBox/R1-Searcher",
+    "language": "Python",
+    "pushed_at": "2025-08-05T08:16:17Z",
+    "stargazers_count": 711,
+    "topics": [],
+    "updated_at": "2026-04-22T13:23:31Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "rucaibox/r1-searcher-plus",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "rucaibox/simpledeepsearcher",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

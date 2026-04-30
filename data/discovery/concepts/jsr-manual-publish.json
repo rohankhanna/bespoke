@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "JSR Manual Publish"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "google/zx",
+      "status": "candidate-context",
+      "text": "A tool for writing better scripts"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/zx",
+      "status": "candidate-context",
+      "text": "JSR Manual Publish"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/zx",
+      "status": "candidate",
+      "text": "JSR Manual Publish"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10598,
+      "status": "candidate",
+      "text": "book"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10598,
+      "status": "candidate",
+      "text": "brochure"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10598,
+      "status": "candidate",
+      "text": "clap"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10598,
+      "status": "candidate",
+      "text": "cookbook"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10598,
+      "status": "candidate",
+      "text": "craft"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "JSR Manual Publish",
+  "concept_id": "jsr-manual-publish",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/jsr-publish.yml",
+      "source_repo": "google/zx"
+    }
+  ],
+  "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "JSR Manual Publish",
+      "sense_id": "jsr-manual-publish#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

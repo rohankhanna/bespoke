@@ -31,6 +31,18 @@
       "source_repo": "AgentR1/Claw-R1",
       "status": "candidate-context",
       "text": "<h1 align=\"center\"> Claw-R1: The Data Foundation for <br> Agentic Reinforcement Learning </h1>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Computer-use-agents/dart-gui",
+      "status": "candidate-context",
+      "text": "DART-GUI: Efficient Multi-turn RL for GUI Agents via Decoupled Training and Adaptive Data Curation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Computer-use-agents/dart-gui",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +57,12 @@
       "source_repo": "AgentR1/Claw-R1",
       "status": "candidate",
       "text": "<h1 align=\"center\"> Claw-R1: The Data Foundation for <br> Agentic Reinforcement Learning </h1>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Computer-use-agents/dart-gui",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_related_terms": [],
@@ -70,11 +88,17 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": null,
       "source_repo": "AgentR1/Agent-R1"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "Computer-use-agents/dart-gui"
     }
   ],
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

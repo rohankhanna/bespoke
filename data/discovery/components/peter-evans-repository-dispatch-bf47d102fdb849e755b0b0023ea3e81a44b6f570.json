@@ -1,0 +1,12 @@
+{
+  "component": "peter-evans/repository-dispatch@bf47d102fdb849e755b0b0023ea3e81a44b6f570",
+  "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/agents-publish.yml",
+      "source_repo": "huggingface/huggingface.js"
+    }
+  ]
+}

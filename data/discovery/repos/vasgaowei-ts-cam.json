@@ -1,0 +1,85 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "vasgaowei/TS-CAM",
+      "target": "rwightman/pytorch-image-models",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "vasgaowei/TS-CAM",
+      "target": "object-localization",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "vasgaowei/TS-CAM",
+      "target": "transformer",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "vasgaowei/TS-CAM",
+      "target": "weakly-supervised-learning",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T05:14:02.987124+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7207
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Codes for TS-CAM: Token Semantic Coupled Attention Map for Weakly Supervised Object Localization.",
+    "fork": false,
+    "full_name": "vasgaowei/TS-CAM",
+    "html_url": "https://github.com/vasgaowei/TS-CAM",
+    "language": "Jupyter Notebook",
+    "pushed_at": "2023-02-16T05:47:10Z",
+    "stargazers_count": 142,
+    "topics": [
+      "object-localization",
+      "transformer",
+      "weakly-supervised-learning"
+    ],
+    "updated_at": "2026-03-03T01:10:18Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "rwightman/pytorch-image-models",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "![Python 3.7](https://img.shields.io/badge/Python-3.7-green.svg?style=plastic)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "object-localization"
+    },
+    {
+      "context_snippet": "![Python 3.7](https://img.shields.io/badge/Python-3.7-green.svg?style=plastic)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "transformer"
+    },
+    {
+      "context_snippet": "![Python 3.7](https://img.shields.io/badge/Python-3.7-green.svg?style=plastic)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "weakly-supervised-learning"
+    }
+  ]
+}

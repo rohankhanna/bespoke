@@ -12,14 +12,7 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "OpenMOSS/MOSS",
-      "target": "openlmlab/moss_vortex",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "OpenMOSS/MOSS",
-      "target": "openlmlab/moss_websearchtool",
+      "target": "singularity-s0/moss_frontend",
       "target_type": "repository"
     },
     {
@@ -72,7 +65,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-29T20:50:48.487935+00:00",
+  "fetched_at": "2026-04-30T02:43:12.212643+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -117,12 +110,7 @@
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "openlmlab/moss_vortex",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "openlmlab/moss_websearchtool",
+      "full_name": "singularity-s0/moss_frontend",
       "source_file": "README.md"
     }
   ],

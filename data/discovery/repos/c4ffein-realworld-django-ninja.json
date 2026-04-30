@@ -1,0 +1,431 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml"
+    },
+    {
+      "component": "actions/setup-python@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-django-postgresql.yml"
+    },
+    {
+      "component": "actions/setup-python@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-django-postgresql.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-django-sqlite.yml"
+    },
+    {
+      "component": "actions/setup-python@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-django-sqlite.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-hurl-docker.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-hurl-postgresql.yml"
+    },
+    {
+      "component": "actions/setup-python@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-hurl-postgresql.yml"
+    },
+    {
+      "component": "astral-sh/setup-uv@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-hurl-postgresql.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-hurl-sqlite.yml"
+    },
+    {
+      "component": "actions/setup-python@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-hurl-sqlite.yml"
+    },
+    {
+      "component": "astral-sh/setup-uv@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-hurl-sqlite.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/typing.yml"
+    },
+    {
+      "component": "actions/setup-python@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/typing.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "c4ffein/realworld-django-ninja",
+      "target": "sean-miningah/realworld-djangorestframework",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "c4ffein/realworld-django-ninja",
+      "target": "khaledosman/react-redux-realworld-example-app",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "c4ffein/realworld-django-ninja",
+      "target": "mutoe/vue3-realworld-example-app",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "c4ffein/realworld-django-ninja",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "c4ffein/realworld-django-ninja",
+      "target": "actions/setup-python@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "c4ffein/realworld-django-ninja",
+      "target": "Lint",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-django-postgresql.yml",
+      "source_repo": "c4ffein/realworld-django-ninja",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-django-postgresql.yml",
+      "source_repo": "c4ffein/realworld-django-ninja",
+      "target": "actions/setup-python@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test-django-postgresql.yml",
+      "source_repo": "c4ffein/realworld-django-ninja",
+      "target": "Test Django PostgreSQL",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-django-sqlite.yml",
+      "source_repo": "c4ffein/realworld-django-ninja",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-django-sqlite.yml",
+      "source_repo": "c4ffein/realworld-django-ninja",
+      "target": "actions/setup-python@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test-django-sqlite.yml",
+      "source_repo": "c4ffein/realworld-django-ninja",
+      "target": "Test Django SQLite",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-hurl-docker.yml",
+      "source_repo": "c4ffein/realworld-django-ninja",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test-hurl-docker.yml",
+      "source_repo": "c4ffein/realworld-django-ninja",
+      "target": "Test Hurl Docker",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-hurl-postgresql.yml",
+      "source_repo": "c4ffein/realworld-django-ninja",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-hurl-postgresql.yml",
+      "source_repo": "c4ffein/realworld-django-ninja",
+      "target": "actions/setup-python@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-hurl-postgresql.yml",
+      "source_repo": "c4ffein/realworld-django-ninja",
+      "target": "astral-sh/setup-uv@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test-hurl-postgresql.yml",
+      "source_repo": "c4ffein/realworld-django-ninja",
+      "target": "Test Hurl PostgreSQL",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-hurl-sqlite.yml",
+      "source_repo": "c4ffein/realworld-django-ninja",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-hurl-sqlite.yml",
+      "source_repo": "c4ffein/realworld-django-ninja",
+      "target": "actions/setup-python@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-hurl-sqlite.yml",
+      "source_repo": "c4ffein/realworld-django-ninja",
+      "target": "astral-sh/setup-uv@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test-hurl-sqlite.yml",
+      "source_repo": "c4ffein/realworld-django-ninja",
+      "target": "Test Hurl SQLite",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/typing.yml",
+      "source_repo": "c4ffein/realworld-django-ninja",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/typing.yml",
+      "source_repo": "c4ffein/realworld-django-ninja",
+      "target": "actions/setup-python@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/typing.yml",
+      "source_repo": "c4ffein/realworld-django-ninja",
+      "target": "Typing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "c4ffein/realworld-django-ninja",
+      "target": "django",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "c4ffein/realworld-django-ninja",
+      "target": "django-ninja",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "c4ffein/realworld-django-ninja",
+      "target": "realworld",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "c4ffein/realworld-django-ninja",
+      "target": "realworld-backend",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T05:02:30.880077+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 11634
+    },
+    {
+      "path": "Dockerfile",
+      "size": 348
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 1980
+    },
+    {
+      "path": ".github/workflows/lint.yml",
+      "size": 664
+    },
+    {
+      "path": ".github/workflows/test-django-postgresql.yml",
+      "size": 992
+    },
+    {
+      "path": ".github/workflows/test-django-sqlite.yml",
+      "size": 709
+    },
+    {
+      "path": ".github/workflows/test-hurl-docker.yml",
+      "size": 774
+    },
+    {
+      "path": ".github/workflows/test-hurl-postgresql.yml",
+      "size": 1536
+    },
+    {
+      "path": ".github/workflows/test-hurl-sqlite.yml",
+      "size": 920
+    },
+    {
+      "path": ".github/workflows/typing.yml",
+      "size": 695
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "RealWord is a medium clone. This implementation uses Django Ninja to create a backend service for the blog.",
+    "fork": false,
+    "full_name": "c4ffein/realworld-django-ninja",
+    "html_url": "https://github.com/c4ffein/realworld-django-ninja",
+    "language": "Python",
+    "pushed_at": "2026-03-25T16:17:43Z",
+    "stargazers_count": 19,
+    "topics": [
+      "django",
+      "django-ninja",
+      "realworld",
+      "realworld-backend"
+    ],
+    "updated_at": "2026-04-20T10:15:11Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "khaledosman/react-redux-realworld-example-app",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mutoe/vue3-realworld-example-app",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "sean-miningah/realworld-djangorestframework",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Lint",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint.yml",
+      "term": "Lint"
+    },
+    {
+      "context_snippet": "Test Django PostgreSQL",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test-django-postgresql.yml",
+      "term": "Test Django PostgreSQL"
+    },
+    {
+      "context_snippet": "Test Django SQLite",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test-django-sqlite.yml",
+      "term": "Test Django SQLite"
+    },
+    {
+      "context_snippet": "Test Hurl Docker",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test-hurl-docker.yml",
+      "term": "Test Hurl Docker"
+    },
+    {
+      "context_snippet": "Test Hurl PostgreSQL",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test-hurl-postgresql.yml",
+      "term": "Test Hurl PostgreSQL"
+    },
+    {
+      "context_snippet": "Test Hurl SQLite",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test-hurl-sqlite.yml",
+      "term": "Test Hurl SQLite"
+    },
+    {
+      "context_snippet": "Typing",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/typing.yml",
+      "term": "Typing"
+    },
+    {
+      "context_snippet": "> ### Django Ninja + Postgres codebase containing real world examples (CRUD, auth, advanced patterns, etc) that adheres to the [RealWorld](https://github.com/realworld-apps/realworld) spec and API.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "django"
+    },
+    {
+      "context_snippet": "> ### Django Ninja + Postgres codebase containing real world examples (CRUD, auth, advanced patterns, etc) that adheres to the [RealWorld](https://github.com/realworld-apps/realworld) spec and API.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "django-ninja"
+    },
+    {
+      "context_snippet": "> ### Django Ninja + Postgres codebase containing real world examples (CRUD, auth, advanced patterns, etc) that adheres to the [RealWorld](https://github.com/realworld-apps/realworld) spec and API.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "realworld"
+    },
+    {
+      "context_snippet": "> ### Django Ninja + Postgres codebase containing real world examples (CRUD, auth, advanced patterns, etc) that adheres to the [RealWorld](https://github.com/realworld-apps/realworld) spec and API.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "realworld-backend"
+    }
+  ]
+}

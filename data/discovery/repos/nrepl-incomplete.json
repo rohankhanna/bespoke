@@ -1,0 +1,71 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "nrepl/incomplete",
+      "target": "ninjudd/clojure-complete",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nrepl/incomplete",
+      "target": "clojure",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nrepl/incomplete",
+      "target": "code-completion",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T04:08:51.119441+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7178
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A simple code completion library",
+    "fork": false,
+    "full_name": "nrepl/incomplete",
+    "html_url": "https://github.com/nrepl/incomplete",
+    "language": "Clojure",
+    "pushed_at": "2022-06-21T04:39:53Z",
+    "stargazers_count": 46,
+    "topics": [
+      "clojure",
+      "code-completion"
+    ],
+    "updated_at": "2026-02-08T05:20:03Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ninjudd/clojure-complete",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[![CircleCI](https://circleci.com/gh/nrepl/incomplete/tree/main.svg?style=svg)](https://circleci.com/gh/nrepl/incomplete/tree/main)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "clojure"
+    },
+    {
+      "context_snippet": "[![CircleCI](https://circleci.com/gh/nrepl/incomplete/tree/main.svg?style=svg)](https://circleci.com/gh/nrepl/incomplete/tree/main)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "code-completion"
+    }
+  ]
+}

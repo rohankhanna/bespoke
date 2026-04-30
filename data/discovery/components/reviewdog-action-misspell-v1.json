@@ -1,7 +1,7 @@
 {
   "component": "reviewdog/action-misspell@v1",
   "first_seen_at": "2026-04-24T12:33:41.350224+00:00",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -27,6 +27,21 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/code_quality.yml",
       "source_repo": "rickstaa/action-black"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/reviewdog.yml",
+      "source_repo": "liquidz/iced-nrepl"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/reviewdog.yml",
+      "source_repo": "haya14busa/action-bumpr"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/reviewdog.yml",
+      "source_repo": "brunohaf/action-bandit"
     }
   ]
 }

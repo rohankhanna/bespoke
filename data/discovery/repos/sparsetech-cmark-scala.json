@@ -1,0 +1,72 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sparsetech/cmark-scala",
+      "target": "commonmark",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sparsetech/cmark-scala",
+      "target": "scala",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sparsetech/cmark-scala",
+      "target": "scala-native",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T00:51:58.978726+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3223
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Parse, manipulate and render CommonMark in Scala Native",
+    "fork": false,
+    "full_name": "sparsetech/cmark-scala",
+    "html_url": "https://github.com/sparsetech/cmark-scala",
+    "language": "Scala",
+    "pushed_at": "2021-09-14T08:19:11Z",
+    "stargazers_count": 16,
+    "topics": [
+      "commonmark",
+      "scala",
+      "scala-native"
+    ],
+    "updated_at": "2025-08-31T11:54:39Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "cmark-scala provides [Scala Native](http://www.scala-native.org/) bindings for [cmark](https://github.com/commonmark/cmark). cmark allows to parse, manipulate and render CommonMark documents.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "commonmark"
+    },
+    {
+      "context_snippet": "cmark-scala provides [Scala Native](http://www.scala-native.org/) bindings for [cmark](https://github.com/commonmark/cmark). cmark allows to parse, manipulate and render CommonMark documents.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "scala"
+    },
+    {
+      "context_snippet": "cmark-scala provides [Scala Native](http://www.scala-native.org/) bindings for [cmark](https://github.com/commonmark/cmark). cmark allows to parse, manipulate and render CommonMark documents.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "scala-native"
+    }
+  ]
+}

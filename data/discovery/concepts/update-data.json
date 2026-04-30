@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Update data"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "haya14busa/github-used-by",
+      "status": "candidate-context",
+      "text": ":sparkles: Show GitHub Used-By (dependents) Stats"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "haya14busa/github-used-by",
+      "status": "candidate-context",
+      "text": "Update data"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "haya14busa/github-used-by",
+      "status": "candidate",
+      "text": "Update data"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12319,
+      "status": "candidate",
+      "text": "information"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12319,
+      "status": "candidate",
+      "text": "item"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12319,
+      "status": "candidate",
+      "text": "real-time"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12319,
+      "status": "candidate",
+      "text": "refresh"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12319,
+      "status": "candidate",
+      "text": "refreshed"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Update data",
+  "concept_id": "update-data",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/update-data.yml",
+      "source_repo": "haya14busa/github-used-by"
+    }
+  ],
+  "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Update data",
+      "sense_id": "update-data#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

@@ -68,27 +68,6 @@
   ],
   "edges": [
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "SWE-agent/SWE-agent",
-      "target": "swe-bench/swe-smith",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "SWE-agent/SWE-agent",
-      "target": "swe-bench/swe-bench",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "SWE-agent/SWE-agent",
-      "target": "swe-bench/sb-cli",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/build-docs.yaml",
       "source_repo": "SWE-agent/SWE-agent",
@@ -215,7 +194,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-23T18:41:21.799448+00:00",
+  "fetched_at": "2026-04-30T02:46:06.248590+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -251,8 +230,8 @@
     "full_name": "SWE-agent/SWE-agent",
     "html_url": "https://github.com/SWE-agent/SWE-agent",
     "language": "Python",
-    "pushed_at": "2026-04-20T21:22:07Z",
-    "stargazers_count": 19045,
+    "pushed_at": "2026-04-27T22:10:17Z",
+    "stargazers_count": 19100,
     "topics": [
       "agent",
       "agent-based-model",
@@ -262,25 +241,9 @@
       "llm",
       "lms"
     ],
-    "updated_at": "2026-04-23T17:55:42Z"
+    "updated_at": "2026-04-29T21:57:56Z"
   },
-  "repo_links": [
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "swe-bench/sb-cli",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "swe-bench/swe-bench",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "swe-bench/swe-smith",
-      "source_file": "README.md"
-    }
-  ],
+  "repo_links": [],
   "terms": [
     {
       "context_snippet": "build-docs",

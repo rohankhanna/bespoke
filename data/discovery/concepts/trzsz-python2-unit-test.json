@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Trzsz Python2 Unit Test"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "trzsz/trzsz",
+      "status": "candidate-context",
+      "text": "trzsz is a simple file transfer tools, similar to lrzsz ( rz / sz ), and compatible with tmux."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "trzsz/trzsz",
+      "status": "candidate-context",
+      "text": "Trzsz Python2 Unit Test"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "trzsz/trzsz",
+      "status": "candidate",
+      "text": "Trzsz Python2 Unit Test"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28242,
+      "status": "candidate",
+      "text": "megaton"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28122,
+      "status": "candidate",
+      "text": "cis-trans test"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11842,
+      "status": "candidate",
+      "text": "ace"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11842,
+      "status": "candidate",
+      "text": "area"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11842,
+      "status": "candidate",
+      "text": "ban"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Trzsz Python2 Unit Test",
+  "concept_id": "trzsz-python2-unit-test",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/python2-unit-test.yml",
+      "source_repo": "trzsz/trzsz"
+    }
+  ],
+  "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Trzsz Python2 Unit Test",
+      "sense_id": "trzsz-python2-unit-test#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

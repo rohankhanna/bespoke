@@ -1,0 +1,429 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml.bak"
+    },
+    {
+      "component": "kdheepak/panvimdoc@v2.7.3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml.bak"
+    },
+    {
+      "component": "stefanzweifel/git-auto-commit-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml.bak"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/extra.yml"
+    },
+    {
+      "component": "MunifTanjim/setup-neovim-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/extra.yml"
+    },
+    {
+      "component": "stefanzweifel/git-auto-commit-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/extra.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/neovim.yml"
+    },
+    {
+      "component": "MunifTanjim/setup-neovim-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/neovim.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/neovim.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr.yml"
+    },
+    {
+      "component": "cachix/install-nix-action@v18",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr.yml"
+    },
+    {
+      "component": "google-github-actions/release-please-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "MunifTanjim/setup-neovim-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/vim.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/vim.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/vim.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml.bak",
+      "source_repo": "EdenEast/nightfox.nvim",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml.bak",
+      "source_repo": "EdenEast/nightfox.nvim",
+      "target": "kdheepak/panvimdoc@v2.7.3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml.bak",
+      "source_repo": "EdenEast/nightfox.nvim",
+      "target": "stefanzweifel/git-auto-commit-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docs.yml.bak",
+      "source_repo": "EdenEast/nightfox.nvim",
+      "target": "pandocvim",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/extra.yml",
+      "source_repo": "EdenEast/nightfox.nvim",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/extra.yml",
+      "source_repo": "EdenEast/nightfox.nvim",
+      "target": "MunifTanjim/setup-neovim-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/extra.yml",
+      "source_repo": "EdenEast/nightfox.nvim",
+      "target": "stefanzweifel/git-auto-commit-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/extra.yml",
+      "source_repo": "EdenEast/nightfox.nvim",
+      "target": "extra",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/neovim.yml",
+      "source_repo": "EdenEast/nightfox.nvim",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/neovim.yml",
+      "source_repo": "EdenEast/nightfox.nvim",
+      "target": "MunifTanjim/setup-neovim-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/neovim.yml",
+      "source_repo": "EdenEast/nightfox.nvim",
+      "target": "Neovim",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr.yml",
+      "source_repo": "EdenEast/nightfox.nvim",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr.yml",
+      "source_repo": "EdenEast/nightfox.nvim",
+      "target": "cachix/install-nix-action@v18",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr.yml",
+      "source_repo": "EdenEast/nightfox.nvim",
+      "target": "Check Pr",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "EdenEast/nightfox.nvim",
+      "target": "google-github-actions/release-please-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "EdenEast/nightfox.nvim",
+      "target": "release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "EdenEast/nightfox.nvim",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "EdenEast/nightfox.nvim",
+      "target": "MunifTanjim/setup-neovim-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "EdenEast/nightfox.nvim",
+      "target": "Tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/vim.yml",
+      "source_repo": "EdenEast/nightfox.nvim",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/vim.yml",
+      "source_repo": "EdenEast/nightfox.nvim",
+      "target": "Vim",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "EdenEast/nightfox.nvim",
+      "target": "colorblind",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "EdenEast/nightfox.nvim",
+      "target": "colorscheme",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "EdenEast/nightfox.nvim",
+      "target": "daltonism",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "EdenEast/nightfox.nvim",
+      "target": "neovim",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "EdenEast/nightfox.nvim",
+      "target": "neovim-theme",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "EdenEast/nightfox.nvim",
+      "target": "theme",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "EdenEast/nightfox.nvim",
+      "target": "vim-theme",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T04:07:49.301410+00:00",
+  "fetched_files": [
+    {
+      "path": ".github/workflows/docs.yml.bak",
+      "size": 913
+    },
+    {
+      "path": ".github/workflows/extra.yml",
+      "size": 770
+    },
+    {
+      "path": ".github/workflows/neovim.yml",
+      "size": 992
+    },
+    {
+      "path": ".github/workflows/pr.yml",
+      "size": 306
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "size": 271
+    },
+    {
+      "path": ".github/workflows/test.yml",
+      "size": 735
+    },
+    {
+      "path": ".github/workflows/vim.yml",
+      "size": 1587
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "\ud83e\udd8aA highly customizable theme for vim and neovim with support for lsp, treesitter and a variety of plugins.",
+    "fork": false,
+    "full_name": "EdenEast/nightfox.nvim",
+    "html_url": "https://github.com/EdenEast/nightfox.nvim",
+    "language": "Lua",
+    "pushed_at": "2025-02-09T17:21:50Z",
+    "stargazers_count": 3976,
+    "topics": [
+      "colorblind",
+      "colorscheme",
+      "daltonism",
+      "lua",
+      "neovim",
+      "neovim-theme",
+      "theme",
+      "vim",
+      "vim-theme"
+    ],
+    "updated_at": "2026-04-29T18:13:12Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "pandocvim",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docs.yml.bak",
+      "term": "pandocvim"
+    },
+    {
+      "context_snippet": "extra",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/extra.yml",
+      "term": "extra"
+    },
+    {
+      "context_snippet": "Neovim",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/neovim.yml",
+      "term": "Neovim"
+    },
+    {
+      "context_snippet": "Check Pr",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr.yml",
+      "term": "Check Pr"
+    },
+    {
+      "context_snippet": "release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "term": "release"
+    },
+    {
+      "context_snippet": "Tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "term": "Tests"
+    },
+    {
+      "context_snippet": "Vim",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/vim.yml",
+      "term": "Vim"
+    },
+    {
+      "context_snippet": "pandocvim",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "colorblind"
+    },
+    {
+      "context_snippet": "pandocvim",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "colorscheme"
+    },
+    {
+      "context_snippet": "pandocvim",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "daltonism"
+    },
+    {
+      "context_snippet": "pandocvim",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "neovim"
+    },
+    {
+      "context_snippet": "pandocvim",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "neovim-theme"
+    },
+    {
+      "context_snippet": "pandocvim",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "theme"
+    },
+    {
+      "context_snippet": "pandocvim",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vim-theme"
+    }
+  ]
+}

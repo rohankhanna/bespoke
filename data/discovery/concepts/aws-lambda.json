@@ -211,6 +211,30 @@
       "source_repo": "dwyl/elixir-invoke-lambda-example",
       "status": "candidate-context",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "architect/architect",
+      "status": "candidate-context",
+      "text": "The simplest, most powerful way to build a functional web app (fwa)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "architect/architect",
+      "status": "candidate-context",
+      "text": "@architect/architect \u2014 Create, deploy, and maintain next-generation AWS cloud function-based serverless infrastructure with full local, offline workflows, and more."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aws-samples/aws-cdk-changelogs-demo",
+      "status": "candidate-context",
+      "text": "This is a demo application that uses modern serverless architecture to crawl changelogs from open source projects, parse them, and provide an API and website for viewing them."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aws-samples/aws-cdk-changelogs-demo",
+      "status": "candidate-context",
+      "text": "This is an open source application designed to showcase the usage of modern"
     }
   ],
   "candidate_glosses": [
@@ -315,6 +339,18 @@
       "source_repo": "dwyl/elixir-invoke-lambda-example",
       "status": "candidate",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "architect/architect",
+      "status": "candidate",
+      "text": "@architect/architect \u2014 Create, deploy, and maintain next-generation AWS cloud function-based serverless infrastructure with full local, offline workflows, and more."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aws-samples/aws-cdk-changelogs-demo",
+      "status": "candidate",
+      "text": "This is an open source application designed to showcase the usage of modern"
     }
   ],
   "candidate_related_terms": [],
@@ -448,11 +484,23 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "aws-powertools/powertools-lambda-typescript"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "architect/architect"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "aws-samples/aws-cdk-changelogs-demo"
     }
   ],
   "first_seen_at": "2026-04-18T11:24:14.688152+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

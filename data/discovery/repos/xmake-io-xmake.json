@@ -1,0 +1,788 @@
+{
+  "components": [
+    {
+      "component": "actions/github-script@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/alpine.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/alpine.yml"
+    },
+    {
+      "component": "xmake-io/github-action-setup-xmake@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/alpine.yml"
+    },
+    {
+      "component": "actions/github-script@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/archlinux.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/archlinux.yml"
+    },
+    {
+      "component": "xmake-io/github-action-setup-xmake@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/archlinux.yml"
+    },
+    {
+      "component": "actions/github-script@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cosmocc.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cosmocc.yml"
+    },
+    {
+      "component": "little-core-labs/get-git-tag@v3.0.2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cosmocc.yml"
+    },
+    {
+      "component": "xmake-io/github-action-setup-xmake@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cosmocc.yml"
+    },
+    {
+      "component": "bjia56/setup-cosmocc@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cosmocc.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cosmocc.yml"
+    },
+    {
+      "component": "actions/upload-release-asset@v1.0.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cosmocc.yml"
+    },
+    {
+      "component": "actions/github-script@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dragonflybsd.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dragonflybsd.yml"
+    },
+    {
+      "component": "vmactions/dragonflybsd-vm@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dragonflybsd.yml"
+    },
+    {
+      "component": "actions/github-script@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fedora.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fedora.yml"
+    },
+    {
+      "component": "xmake-io/github-action-setup-xmake@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fedora.yml"
+    },
+    {
+      "component": "actions/github-script@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/freebsd.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/freebsd.yml"
+    },
+    {
+      "component": "vmactions/freebsd-vm@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/freebsd.yml"
+    },
+    {
+      "component": "actions/github-script@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/haiku.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/haiku.yml"
+    },
+    {
+      "component": "vmactions/haiku-vm@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/haiku.yml"
+    },
+    {
+      "component": "usthe/issues-translate-action@v2.7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issue-translator.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux.yml"
+    },
+    {
+      "component": "xmake-io/github-action-setup-xmake@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux.yml"
+    },
+    {
+      "component": "dlang-community/setup-dlang@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux.yml"
+    },
+    {
+      "component": "little-core-labs/get-git-tag@v3.0.2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux.yml"
+    },
+    {
+      "component": "actions/upload-release-asset@v1.0.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "xmake-io/xmake",
+      "target": "luzhlon/xmake.vim",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "xmake-io/xmake",
+      "target": "helloworld886/xmake-visualstudio",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "xmake-io/xmake",
+      "target": "arthapz/xmake-project-manager",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "xmake-io/xmake",
+      "target": "uael/sv",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/alpine.yml",
+      "source_repo": "xmake-io/xmake",
+      "target": "actions/github-script@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/alpine.yml",
+      "source_repo": "xmake-io/xmake",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/alpine.yml",
+      "source_repo": "xmake-io/xmake",
+      "target": "xmake-io/github-action-setup-xmake@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/alpine.yml",
+      "source_repo": "xmake-io/xmake",
+      "target": "Alpine",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/archlinux.yml",
+      "source_repo": "xmake-io/xmake",
+      "target": "actions/github-script@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/archlinux.yml",
+      "source_repo": "xmake-io/xmake",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/archlinux.yml",
+      "source_repo": "xmake-io/xmake",
+      "target": "xmake-io/github-action-setup-xmake@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/archlinux.yml",
+      "source_repo": "xmake-io/xmake",
+      "target": "Archlinux",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cosmocc.yml",
+      "source_repo": "xmake-io/xmake",
+      "target": "actions/github-script@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cosmocc.yml",
+      "source_repo": "xmake-io/xmake",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cosmocc.yml",
+      "source_repo": "xmake-io/xmake",
+      "target": "little-core-labs/get-git-tag@v3.0.2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cosmocc.yml",
+      "source_repo": "xmake-io/xmake",
+      "target": "xmake-io/github-action-setup-xmake@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cosmocc.yml",
+      "source_repo": "xmake-io/xmake",
+      "target": "bjia56/setup-cosmocc@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cosmocc.yml",
+      "source_repo": "xmake-io/xmake",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cosmocc.yml",
+      "source_repo": "xmake-io/xmake",
+      "target": "actions/upload-release-asset@v1.0.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cosmocc.yml",
+      "source_repo": "xmake-io/xmake",
+      "target": "Cosmocc",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dragonflybsd.yml",
+      "source_repo": "xmake-io/xmake",
+      "target": "actions/github-script@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dragonflybsd.yml",
+      "source_repo": "xmake-io/xmake",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dragonflybsd.yml",
+      "source_repo": "xmake-io/xmake",
+      "target": "vmactions/dragonflybsd-vm@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/dragonflybsd.yml",
+      "source_repo": "xmake-io/xmake",
+      "target": "DragonflyBSD",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fedora.yml",
+      "source_repo": "xmake-io/xmake",
+      "target": "actions/github-script@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fedora.yml",
+      "source_repo": "xmake-io/xmake",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fedora.yml",
+      "source_repo": "xmake-io/xmake",
+      "target": "xmake-io/github-action-setup-xmake@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/fedora.yml",
+      "source_repo": "xmake-io/xmake",
+      "target": "Fedora",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/freebsd.yml",
+      "source_repo": "xmake-io/xmake",
+      "target": "actions/github-script@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/freebsd.yml",
+      "source_repo": "xmake-io/xmake",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/freebsd.yml",
+      "source_repo": "xmake-io/xmake",
+      "target": "vmactions/freebsd-vm@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/freebsd.yml",
+      "source_repo": "xmake-io/xmake",
+      "target": "FreeBSD",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/haiku.yml",
+      "source_repo": "xmake-io/xmake",
+      "target": "actions/github-script@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/haiku.yml",
+      "source_repo": "xmake-io/xmake",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/haiku.yml",
+      "source_repo": "xmake-io/xmake",
+      "target": "vmactions/haiku-vm@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/haiku.yml",
+      "source_repo": "xmake-io/xmake",
+      "target": "Haiku",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issue-translator.yml",
+      "source_repo": "xmake-io/xmake",
+      "target": "usthe/issues-translate-action@v2.7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/issue-translator.yml",
+      "source_repo": "xmake-io/xmake",
+      "target": "issue-translator",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux.yml",
+      "source_repo": "xmake-io/xmake",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux.yml",
+      "source_repo": "xmake-io/xmake",
+      "target": "xmake-io/github-action-setup-xmake@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux.yml",
+      "source_repo": "xmake-io/xmake",
+      "target": "dlang-community/setup-dlang@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux.yml",
+      "source_repo": "xmake-io/xmake",
+      "target": "little-core-labs/get-git-tag@v3.0.2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux.yml",
+      "source_repo": "xmake-io/xmake",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux.yml",
+      "source_repo": "xmake-io/xmake",
+      "target": "actions/upload-release-asset@v1.0.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/linux.yml",
+      "source_repo": "xmake-io/xmake",
+      "target": "Linux",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "xmake-io/xmake",
+      "target": "build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "xmake-io/xmake",
+      "target": "build-tool",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "xmake-io/xmake",
+      "target": "c-plus-plus",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "xmake-io/xmake",
+      "target": "cmake",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "xmake-io/xmake",
+      "target": "cross-toolchains",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "xmake-io/xmake",
+      "target": "linux",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "xmake-io/xmake",
+      "target": "makefile",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "xmake-io/xmake",
+      "target": "objective-c",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "xmake-io/xmake",
+      "target": "package-manager",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "xmake-io/xmake",
+      "target": "tbox",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "xmake-io/xmake",
+      "target": "visual-studio",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "xmake-io/xmake",
+      "target": "xmake",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T00:40:57.220144+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 22985
+    },
+    {
+      "path": ".github/workflows/alpine.yml",
+      "size": 3074
+    },
+    {
+      "path": ".github/workflows/archlinux.yml",
+      "size": 3239
+    },
+    {
+      "path": ".github/workflows/cosmocc.yml",
+      "size": 4611
+    },
+    {
+      "path": ".github/workflows/dragonflybsd.yml",
+      "size": 3028
+    },
+    {
+      "path": ".github/workflows/fedora.yml",
+      "size": 3260
+    },
+    {
+      "path": ".github/workflows/freebsd.yml",
+      "size": 2934
+    },
+    {
+      "path": ".github/workflows/haiku.yml",
+      "size": 2470
+    },
+    {
+      "path": ".github/workflows/issue-translator.yml",
+      "size": 357
+    },
+    {
+      "path": ".github/workflows/linux.yml",
+      "size": 2706
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "dev",
+    "description": "\ud83d\udd25 A cross-platform build utility based on Lua",
+    "fork": false,
+    "full_name": "xmake-io/xmake",
+    "html_url": "https://github.com/xmake-io/xmake",
+    "language": "Lua",
+    "pushed_at": "2026-04-29T06:06:01Z",
+    "stargazers_count": 11964,
+    "topics": [
+      "build",
+      "build-tool",
+      "c",
+      "c-plus-plus",
+      "cmake",
+      "cross-toolchains",
+      "linux",
+      "lua",
+      "makefile",
+      "objective-c",
+      "package-manager",
+      "tbox",
+      "visual-studio",
+      "wdk",
+      "xmake"
+    ],
+    "updated_at": "2026-04-29T13:21:11Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "arthapz/xmake-project-manager",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "helloworld886/xmake-visualstudio",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "luzhlon/xmake.vim",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "uael/sv",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Alpine",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/alpine.yml",
+      "term": "Alpine"
+    },
+    {
+      "context_snippet": "Archlinux",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/archlinux.yml",
+      "term": "Archlinux"
+    },
+    {
+      "context_snippet": "Cosmocc",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cosmocc.yml",
+      "term": "Cosmocc"
+    },
+    {
+      "context_snippet": "DragonflyBSD",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/dragonflybsd.yml",
+      "term": "DragonflyBSD"
+    },
+    {
+      "context_snippet": "Fedora",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/fedora.yml",
+      "term": "Fedora"
+    },
+    {
+      "context_snippet": "FreeBSD",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/freebsd.yml",
+      "term": "FreeBSD"
+    },
+    {
+      "context_snippet": "Haiku",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/haiku.yml",
+      "term": "Haiku"
+    },
+    {
+      "context_snippet": "'issue-translator'",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/issue-translator.yml",
+      "term": "issue-translator"
+    },
+    {
+      "context_snippet": "Linux",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/linux.yml",
+      "term": "Linux"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "build"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "build-tool"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "c-plus-plus"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cmake"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cross-toolchains"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "linux"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "makefile"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "objective-c"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "package-manager"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tbox"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "visual-studio"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "xmake"
+    }
+  ]
+}

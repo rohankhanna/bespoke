@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Apply lint fixes"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "obi1kenobi/cargo-semver-checks",
+      "status": "candidate-context",
+      "text": "Scan your Rust crate for semver violations."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "obi1kenobi/cargo-semver-checks",
+      "status": "candidate-context",
+      "text": "Apply lint fixes"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "obi1kenobi/cargo-semver-checks",
+      "status": "candidate",
+      "text": "Apply lint fixes"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21008,
+      "status": "candidate",
+      "text": "pledget"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11710,
+      "status": "candidate",
+      "text": "determinant"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11710,
+      "status": "candidate",
+      "text": "fixative"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11710,
+      "status": "candidate",
+      "text": "repairs"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11575,
+      "status": "candidate",
+      "text": "amend"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Apply lint fixes",
+  "concept_id": "apply-lint-fixes",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/lint_fix.yml",
+      "source_repo": "obi1kenobi/cargo-semver-checks"
+    }
+  ],
+  "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Apply lint fixes",
+      "sense_id": "apply-lint-fixes#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

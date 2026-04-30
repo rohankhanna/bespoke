@@ -1,0 +1,113 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Kotlin/kotlinx.serialization",
+      "target": "bazelbuild/rules_kotlin",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Kotlin/kotlinx.serialization",
+      "target": "cbor",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Kotlin/kotlinx.serialization",
+      "target": "json",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Kotlin/kotlinx.serialization",
+      "target": "kotlin",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Kotlin/kotlinx.serialization",
+      "target": "protobuf",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Kotlin/kotlinx.serialization",
+      "target": "serialization",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T04:49:50.922111+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 11306
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Kotlin multiplatform / multi-format serialization ",
+    "fork": false,
+    "full_name": "Kotlin/kotlinx.serialization",
+    "html_url": "https://github.com/Kotlin/kotlinx.serialization",
+    "language": "Kotlin",
+    "pushed_at": "2026-04-29T21:25:58Z",
+    "stargazers_count": 5902,
+    "topics": [
+      "cbor",
+      "json",
+      "kotlin",
+      "protobuf",
+      "serialization"
+    ],
+    "updated_at": "2026-04-29T18:47:07Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "bazelbuild/rules_kotlin",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[![Kotlin Stable](https://kotl.in/badges/stable.svg)](https://kotlinlang.org/docs/components-stability.html)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cbor"
+    },
+    {
+      "context_snippet": "[![Kotlin Stable](https://kotl.in/badges/stable.svg)](https://kotlinlang.org/docs/components-stability.html)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "json"
+    },
+    {
+      "context_snippet": "[![Kotlin Stable](https://kotl.in/badges/stable.svg)](https://kotlinlang.org/docs/components-stability.html)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "kotlin"
+    },
+    {
+      "context_snippet": "[![Kotlin Stable](https://kotl.in/badges/stable.svg)](https://kotlinlang.org/docs/components-stability.html)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "protobuf"
+    },
+    {
+      "context_snippet": "[![Kotlin Stable](https://kotl.in/badges/stable.svg)](https://kotlinlang.org/docs/components-stability.html)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "serialization"
+    }
+  ]
+}

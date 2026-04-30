@@ -1,0 +1,95 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "reviewdog/action-golangci-lint@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-go@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "mosn/holmes",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "mosn/holmes",
+      "target": "reviewdog/action-golangci-lint@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "mosn/holmes",
+      "target": "actions/setup-go@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "mosn/holmes",
+      "target": "actions/checkout@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "mosn/holmes",
+      "target": "actions",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T00:48:16.959399+00:00",
+  "fetched_files": [
+    {
+      "path": "go.mod",
+      "size": 183
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 753
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "self-aware Golang profile dumper",
+    "fork": false,
+    "full_name": "mosn/holmes",
+    "html_url": "https://github.com/mosn/holmes",
+    "language": "Go",
+    "pushed_at": "2025-04-23T09:42:58Z",
+    "stargazers_count": 1146,
+    "topics": [],
+    "updated_at": "2026-04-29T06:33:55Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "actions",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "term": "actions"
+    }
+  ]
+}

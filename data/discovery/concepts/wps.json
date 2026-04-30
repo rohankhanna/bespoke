@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "wps"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "wemake-services/wemake-python-styleguide",
+      "status": "candidate-context",
+      "text": "The strictest and most opinionated python linter ever!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "wemake-services/wemake-python-styleguide",
+      "status": "candidate-context",
+      "text": "wps"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "wemake-services/wemake-python-styleguide",
+      "status": "candidate",
+      "text": "wps"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10012056,
+      "status": "candidate",
+      "text": "bhl"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10012055,
+      "status": "candidate",
+      "text": "most"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10012053,
+      "status": "candidate",
+      "text": "provide"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10012050,
+      "status": "candidate",
+      "text": "many"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10002060,
+      "status": "candidate",
+      "text": "paper"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "wps",
+  "concept_id": "wps",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/wps.yml",
+      "source_repo": "wemake-services/wemake-python-styleguide"
+    }
+  ],
+  "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "wps",
+      "sense_id": "wps#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

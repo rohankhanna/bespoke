@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T04:58:42.775189+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1118
+    },
+    {
+      "path": "requirements.txt",
+      "size": 49
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Streamlit app for ideating AI assisants",
+    "fork": false,
+    "full_name": "danielrosehill/AI-Assistant-Ideator",
+    "html_url": "https://github.com/danielrosehill/AI-Assistant-Ideator",
+    "language": "Python",
+    "pushed_at": "2025-10-26T14:29:44Z",
+    "stargazers_count": 0,
+    "topics": [],
+    "updated_at": "2025-10-26T14:29:47Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "\ud83e\udd17 LeRobot: Making AI for Robotics more accessible with end-to-end learning"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Claude Code Assistant"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Claude Code Assistant"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20306,
+      "status": "candidate",
+      "text": "exile"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19500,
+      "status": "candidate",
+      "text": "eric"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19376,
+      "status": "candidate",
+      "text": "consort"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19376,
+      "status": "candidate",
+      "text": "dentition"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19376,
+      "status": "candidate",
+      "text": "mix"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Claude Code Assistant",
+      "sense_id": "claude-code-assistant#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "claude-code-assistant",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "claude-code-assistant",
+  "observation_id": "aad4e8bad389cc5c",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-30T00:37:16.824464+00:00",
+  "observed_text": "Claude Code Assistant",
+  "source_context_snippet": "Claude Code Assistant",
+  "source_file": ".github/workflows/claude.yml",
+  "source_repo": "huggingface/lerobot",
+  "source_repo_description": "\ud83e\udd17 LeRobot: Making AI for Robotics more accessible with end-to-end learning"
+}

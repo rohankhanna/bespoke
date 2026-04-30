@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "gnark is a fast zk-SNARK library that offers a high-level API to design circuits. The library is open source and developed under the Apache 2.0 license"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Slack Notifications"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Slack Notifications"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11099,
+      "status": "candidate",
+      "text": "check"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11002,
+      "status": "candidate",
+      "text": "communication"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11002,
+      "status": "candidate",
+      "text": "notice"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11002,
+      "status": "candidate",
+      "text": "service"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11002,
+      "status": "candidate",
+      "text": "wires"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Slack Notifications",
+      "sense_id": "slack-notifications#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "slack-notifications",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "slack-notifications",
+  "observation_id": "ba5cd42e76893b9b",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-30T00:37:16.824464+00:00",
+  "observed_text": "Slack Notifications",
+  "source_context_snippet": "Slack Notifications",
+  "source_file": ".github/workflows/slack-notifications.yml",
+  "source_repo": "Consensys/gnark",
+  "source_repo_description": "gnark is a fast zk-SNARK library that offers a high-level API to design circuits. The library is open source and developed under the Apache 2.0 license"
+}

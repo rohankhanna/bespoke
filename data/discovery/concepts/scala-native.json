@@ -1,0 +1,88 @@
+{
+  "aliases": [
+    "scala-native"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sparsetech/cmark-scala",
+      "status": "candidate-context",
+      "text": "Parse, manipulate and render CommonMark in Scala Native"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sparsetech/cmark-scala",
+      "status": "candidate-context",
+      "text": "cmark-scala provides [Scala Native](http://www.scala-native.org/) bindings for [cmark](https://github.com/commonmark/cmark). cmark allows to parse, manipulate and render CommonMark documents."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "coursier/coursier",
+      "status": "candidate-context",
+      "text": "Pure Scala Artifact Fetching"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "coursier/coursier",
+      "status": "candidate-context",
+      "text": "[![Build status](https://github.com/coursier/coursier/workflows/CI/badge.svg)](https://github.com/coursier/coursier/actions?query=workflow%3ACI)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sparsetech/cmark-scala",
+      "status": "candidate",
+      "text": "cmark-scala provides [Scala Native](http://www.scala-native.org/) bindings for [cmark](https://github.com/commonmark/cmark). cmark allows to parse, manipulate and render CommonMark documents."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "coursier/coursier",
+      "status": "candidate",
+      "text": "[![Build status](https://github.com/coursier/coursier/workflows/CI/badge.svg)](https://github.com/coursier/coursier/actions?query=workflow%3ACI)"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "scala-native",
+  "concept_id": "scala-native",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "sparsetech/cmark-scala"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "coursier/coursier"
+    }
+  ],
+  "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "scala-native",
+      "sense_id": "scala-native#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

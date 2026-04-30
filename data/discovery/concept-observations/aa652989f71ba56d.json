@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A high-performance non-blocking I/O networking framework focusing on RPC scenarios."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Push and Pull Request Check"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Push and Pull Request Check"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 43509,
+      "status": "candidate",
+      "text": "heave"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 43509,
+      "status": "candidate",
+      "text": "strain"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 43050,
+      "status": "candidate",
+      "text": "rein"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 35479,
+      "status": "candidate",
+      "text": "jerk"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 34279,
+      "status": "candidate",
+      "text": "tug"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Push and Pull Request Check",
+      "sense_id": "push-and-pull-request-check#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "push-and-pull-request-check",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "push-and-pull-request-check",
+  "observation_id": "aa652989f71ba56d",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-30T00:37:16.824464+00:00",
+  "observed_text": "Push and Pull Request Check",
+  "source_context_snippet": "Push and Pull Request Check",
+  "source_file": ".github/workflows/pr-check.yml",
+  "source_repo": "cloudwego/netpoll",
+  "source_repo_description": "A high-performance non-blocking I/O networking framework focusing on RPC scenarios."
+}

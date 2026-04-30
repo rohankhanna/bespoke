@@ -1,7 +1,7 @@
 {
   "component": "actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3",
   "first_seen_at": "2026-04-18T04:44:33.621188+00:00",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -467,6 +467,71 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/check-links.yml",
       "source_repo": "Kong/developer.konghq.com"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "theupdateframework/tuf-on-ci"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/update-pinned-deps.yml",
+      "source_repo": "theupdateframework/tuf-on-ci"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ansible-ci.yml",
+      "source_repo": "prometheus-community/ansible"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/conventional-label.yml",
+      "source_repo": "prometheus-community/ansible"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/docs-pr.yml",
+      "source_repo": "prometheus-community/ansible"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/docs-push.yml",
+      "source_repo": "prometheus-community/ansible"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-images-comment.yml",
+      "source_repo": "open-edge-platform/geti-instant-learn"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/daily.yml",
+      "source_repo": "open-edge-platform/geti-instant-learn"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci-doctor.lock.yml",
+      "source_repo": "microsoft/security-devops-action"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/msdo-breach-monitor.lock.yml",
+      "source_repo": "microsoft/security-devops-action"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/msdo-issue-assistant.lock.yml",
+      "source_repo": "microsoft/security-devops-action"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/label-opened-issues.yml",
+      "source_repo": "junit-team/junit-framework"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/label-pull-request.yml",
+      "source_repo": "junit-team/junit-framework"
     }
   ]
 }

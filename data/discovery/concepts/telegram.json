@@ -79,6 +79,18 @@
       "source_repo": "Moldoteck/MagicEraser",
       "status": "candidate-context",
       "text": "MagicEraser - Telegram Bot for removing objects from pictures<br>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Borodutch/telegram-bot-starter",
+      "status": "candidate-context",
+      "text": "Telegram bot starter based on grammY"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Borodutch/telegram-bot-starter",
+      "status": "candidate-context",
+      "text": "Please, enjoy this starter template for Telegram bots based on [grammY](https://grammy.dev). It includes most common middlewares, MongoDB integration, language picker and internationalization and shows basic encapsulation techniques used by me."
     }
   ],
   "candidate_glosses": [
@@ -117,6 +129,12 @@
       "source_repo": "Moldoteck/MagicEraser",
       "status": "candidate",
       "text": "MagicEraser - Telegram Bot for removing objects from pictures<br>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Borodutch/telegram-bot-starter",
+      "status": "candidate",
+      "text": "Please, enjoy this starter template for Telegram bots based on [grammY](https://grammy.dev). It includes most common middlewares, MongoDB integration, language picker and internationalization and shows basic encapsulation techniques used by me."
     }
   ],
   "candidate_related_terms": [
@@ -204,11 +222,17 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "Moldoteck/MagicEraser"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "Borodutch/telegram-bot-starter"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -31,6 +31,78 @@
       "source_repo": "reviewdog/action-suggester",
       "status": "candidate-context",
       "text": "depup"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "wemake-services/wemake-python-styleguide",
+      "status": "candidate-context",
+      "text": "The strictest and most opinionated python linter ever!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "wemake-services/wemake-python-styleguide",
+      "status": "candidate-context",
+      "text": "depup"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "reviewdog/reviewdog",
+      "status": "candidate-context",
+      "text": "\ud83d\udc36 Automated code review tool integrated with any code analysis tools regardless of programming language"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "reviewdog/reviewdog",
+      "status": "candidate-context",
+      "text": "depup"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "haya14busa/action-bumpr",
+      "status": "candidate-context",
+      "text": "\ud83d\udca5 Bump semantic version tag on merging Pull Requests with specific lables."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "haya14busa/action-bumpr",
+      "status": "candidate-context",
+      "text": "depup"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "reviewdog/action-black",
+      "status": "candidate-context",
+      "text": "Run black with Reviewdog :dog:"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "reviewdog/action-black",
+      "status": "candidate-context",
+      "text": "depup"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "blooper05/action-rails_best_practices",
+      "status": "candidate-context",
+      "text": "Run rails_best_practices with reviewdog \ud83d\udc36"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "blooper05/action-rails_best_practices",
+      "status": "candidate-context",
+      "text": "depup"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "brunohaf/action-bandit",
+      "status": "candidate-context",
+      "text": "This GitHub Action runs Bandit, a Python security linter, and integrates with reviewdog for inline PR comments. It supports configurable Bandit options (config file, flags, verbose mode) and reviewdog settings (tool name, report level, reporter). It also handles version management with action-bumpr and action-update-semver."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "brunohaf/action-bandit",
+      "status": "candidate-context",
+      "text": "depup"
     }
   ],
   "candidate_glosses": [
@@ -43,6 +115,42 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "reviewdog/action-suggester",
+      "status": "candidate",
+      "text": "depup"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "wemake-services/wemake-python-styleguide",
+      "status": "candidate",
+      "text": "depup"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "reviewdog/reviewdog",
+      "status": "candidate",
+      "text": "depup"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "haya14busa/action-bumpr",
+      "status": "candidate",
+      "text": "depup"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "reviewdog/action-black",
+      "status": "candidate",
+      "text": "depup"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "blooper05/action-rails_best_practices",
+      "status": "candidate",
+      "text": "depup"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "brunohaf/action-bandit",
       "status": "candidate",
       "text": "depup"
     }
@@ -64,11 +172,47 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": ".github/workflows/depup.yml",
       "source_repo": "reviewdog/action-suggester"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/depup.yml",
+      "source_repo": "wemake-services/wemake-python-styleguide"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/depup.yml",
+      "source_repo": "reviewdog/reviewdog"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/depup.yml",
+      "source_repo": "haya14busa/action-bumpr"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/depup.yml",
+      "source_repo": "reviewdog/action-black"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/depup.yml",
+      "source_repo": "blooper05/action-rails_best_practices"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/depup.yml",
+      "source_repo": "brunohaf/action-bandit"
     }
   ],
   "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

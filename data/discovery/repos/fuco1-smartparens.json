@@ -1,0 +1,192 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "purcell/setup-emacs@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "conao3/setup-cask@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Fuco1/smartparens",
+      "target": "capitaomorte/autopair",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Fuco1/smartparens",
+      "target": "rejeep/wrap-region",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "Fuco1/smartparens",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "Fuco1/smartparens",
+      "target": "purcell/setup-emacs@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "Fuco1/smartparens",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "Fuco1/smartparens",
+      "target": "conao3/setup-cask@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Fuco1/smartparens",
+      "target": "emacs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Fuco1/smartparens",
+      "target": "emacs-lisp",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Fuco1/smartparens",
+      "target": "lisp",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Fuco1/smartparens",
+      "target": "pairs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Fuco1/smartparens",
+      "target": "parentheses",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Fuco1/smartparens",
+      "target": "smartparens",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T04:08:39.204109+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5981
+    },
+    {
+      "path": ".github/workflows/test.yml",
+      "size": 1220
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Minor mode for Emacs that deals with parens pairs and tries to be smart about it.",
+    "fork": false,
+    "full_name": "Fuco1/smartparens",
+    "html_url": "https://github.com/Fuco1/smartparens",
+    "language": "Emacs Lisp",
+    "pushed_at": "2026-01-29T12:14:19Z",
+    "stargazers_count": 1935,
+    "topics": [
+      "emacs",
+      "emacs-lisp",
+      "lisp",
+      "pairs",
+      "parentheses",
+      "smartparens"
+    ],
+    "updated_at": "2026-04-25T16:06:26Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "capitaomorte/autopair",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "rejeep/wrap-region",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[![Join the chat at https://gitter.im/smartparens/Lobby](https://badges.gitter.im/smartparens/Lobby.svg)](https://gitter.im/smartparens/Lobby?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "emacs"
+    },
+    {
+      "context_snippet": "[![Join the chat at https://gitter.im/smartparens/Lobby](https://badges.gitter.im/smartparens/Lobby.svg)](https://gitter.im/smartparens/Lobby?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "emacs-lisp"
+    },
+    {
+      "context_snippet": "[![Join the chat at https://gitter.im/smartparens/Lobby](https://badges.gitter.im/smartparens/Lobby.svg)](https://gitter.im/smartparens/Lobby?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "lisp"
+    },
+    {
+      "context_snippet": "[![Join the chat at https://gitter.im/smartparens/Lobby](https://badges.gitter.im/smartparens/Lobby.svg)](https://gitter.im/smartparens/Lobby?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pairs"
+    },
+    {
+      "context_snippet": "[![Join the chat at https://gitter.im/smartparens/Lobby](https://badges.gitter.im/smartparens/Lobby.svg)](https://gitter.im/smartparens/Lobby?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "parentheses"
+    },
+    {
+      "context_snippet": "[![Join the chat at https://gitter.im/smartparens/Lobby](https://badges.gitter.im/smartparens/Lobby.svg)](https://gitter.im/smartparens/Lobby?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "smartparens"
+    }
+  ]
+}

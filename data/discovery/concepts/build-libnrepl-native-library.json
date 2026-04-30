@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Build libnrepl native library"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nrepl/nrepl",
+      "status": "candidate-context",
+      "text": "A Clojure network REPL that provides a server and client, along with some common APIs of use to IDEs and other tools that may need to evaluate Clojure code in remote environments."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nrepl/nrepl",
+      "status": "candidate-context",
+      "text": "Build libnrepl native library"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nrepl/nrepl",
+      "status": "candidate",
+      "text": "Build libnrepl native library"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18807,
+      "status": "candidate",
+      "text": "take"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18795,
+      "status": "candidate",
+      "text": "get"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18795,
+      "status": "candidate",
+      "text": "museum"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18758,
+      "status": "candidate",
+      "text": "compile"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18688,
+      "status": "candidate",
+      "text": "resource"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Build libnrepl native library",
+  "concept_id": "build-libnrepl-native-library",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/libnrepl.yml",
+      "source_repo": "nrepl/nrepl"
+    }
+  ],
+  "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Build libnrepl native library",
+      "sense_id": "build-libnrepl-native-library#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

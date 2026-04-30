@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
@@ -46,6 +46,11 @@
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/buildifier.yaml",
       "source_repo": "aspect-build/rules_jasmine"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/buildifier.yaml",
+      "source_repo": "buildfoundation/bazel_rules_detekt"
     }
   ],
   "term": "Buildifier"

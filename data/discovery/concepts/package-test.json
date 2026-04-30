@@ -1,6 +1,7 @@
 {
   "aliases": [
-    "Package Test"
+    "Package Test",
+    "package-test"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -19,6 +20,18 @@
       "source_repo": "oschwartz10612/poppler-windows",
       "status": "candidate-context",
       "text": "Package Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "GoogleChrome/lighthouse",
+      "status": "candidate-context",
+      "text": "Automated auditing, performance metrics, and best practices for the web."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "GoogleChrome/lighthouse",
+      "status": "candidate-context",
+      "text": "package-test"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +40,12 @@
       "source_repo": "oschwartz10612/poppler-windows",
       "status": "candidate",
       "text": "Package Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "GoogleChrome/lighthouse",
+      "status": "candidate",
+      "text": "package-test"
     }
   ],
   "candidate_related_terms": [
@@ -76,11 +95,17 @@
       "observed_at": "2026-04-21T18:51:25.552552+00:00",
       "source_file": ".github/workflows/test.yaml",
       "source_repo": "oschwartz10612/poppler-windows"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/package-test.yml",
+      "source_repo": "GoogleChrome/lighthouse"
     }
   ],
   "first_seen_at": "2026-04-21T18:51:25.552552+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-21T18:51:25.552552+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

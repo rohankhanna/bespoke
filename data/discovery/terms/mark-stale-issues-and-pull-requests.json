@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-18T18:48:44.679047+00:00",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
@@ -136,6 +136,26 @@
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/stale.yml",
       "source_repo": "raspberrypi/documentation"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/stale.yaml",
+      "source_repo": "detekt/detekt"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "accomplish-ai/accomplish"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/stale.yaml.disabled",
+      "source_repo": "bazel-contrib/rules_foreign_cc"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "syl20bnr/spacemacs"
     }
   ],
   "term": "Mark stale issues and pull requests"

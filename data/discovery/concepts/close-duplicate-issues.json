@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Close Duplicate Issues"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kirodotdev/Kiro",
+      "status": "candidate-context",
+      "text": "Kiro is an agentic IDE that works alongside you from prototype to production."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kirodotdev/Kiro",
+      "status": "candidate-context",
+      "text": "Close Duplicate Issues"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kirodotdev/Kiro",
+      "status": "candidate",
+      "text": "Close Duplicate Issues"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27755,
+      "status": "candidate",
+      "text": "ditto"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20257,
+      "status": "candidate",
+      "text": "doublet"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19647,
+      "status": "candidate",
+      "text": "twin"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19522,
+      "status": "candidate",
+      "text": "image"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19522,
+      "status": "candidate",
+      "text": "imaging"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Close Duplicate Issues",
+  "concept_id": "close-duplicate-issues",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/close-duplicates.yml",
+      "source_repo": "kirodotdev/Kiro"
+    }
+  ],
+  "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Close Duplicate Issues",
+      "sense_id": "close-duplicate-issues#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

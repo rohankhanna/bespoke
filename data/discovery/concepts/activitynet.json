@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "activitynet"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ArrowLuo/CLIP4Clip",
+      "status": "candidate-context",
+      "text": "An official implementation for \"CLIP4Clip: An Empirical Study of CLIP for End to End Video Clip Retrieval\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ArrowLuo/CLIP4Clip",
+      "status": "candidate-context",
+      "text": "(**July 28, 2021**) Add ViT-B/16 with an extra `--pretrained_clip_name`"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ArrowLuo/CLIP4Clip",
+      "status": "candidate",
+      "text": "(**July 28, 2021**) Add ViT-B/16 with an extra `--pretrained_clip_name`"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "activitynet",
+  "concept_id": "activitynet",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "ArrowLuo/CLIP4Clip"
+    }
+  ],
+  "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "activitynet",
+      "sense_id": "activitynet#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

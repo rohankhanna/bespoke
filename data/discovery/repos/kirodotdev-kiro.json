@@ -1,0 +1,355 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/close-duplicates.yml"
+    },
+    {
+      "component": "actions/setup-node@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/close-duplicates.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/close-stale.yml"
+    },
+    {
+      "component": "actions/setup-node@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/close-stale.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/delete-spam-comments.yml"
+    },
+    {
+      "component": "actions/setup-node@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/delete-spam-comments.yml"
+    },
+    {
+      "component": "aws-actions/configure-aws-credentials@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/delete-spam-comments.yml"
+    },
+    {
+      "component": "actions/github-script@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/duplicate-dispute.yml"
+    },
+    {
+      "component": "actions/github-script@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/duplicate-dispute.yml"
+    },
+    {
+      "component": "actions/github-script@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/duplicate-dispute.yml"
+    },
+    {
+      "component": "actions/github-script@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/duplicate-reaction-check.yml"
+    },
+    {
+      "component": "actions/setup-node@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/duplicates.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issue-triage.yml"
+    },
+    {
+      "component": "actions/setup-node@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issue-triage.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/close-duplicates.yml",
+      "source_repo": "kirodotdev/Kiro",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/close-duplicates.yml",
+      "source_repo": "kirodotdev/Kiro",
+      "target": "actions/setup-node@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/close-duplicates.yml",
+      "source_repo": "kirodotdev/Kiro",
+      "target": "Close Duplicate Issues",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/close-stale.yml",
+      "source_repo": "kirodotdev/Kiro",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/close-stale.yml",
+      "source_repo": "kirodotdev/Kiro",
+      "target": "actions/setup-node@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/close-stale.yml",
+      "source_repo": "kirodotdev/Kiro",
+      "target": "Close Stale Issues",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/delete-spam-comments.yml",
+      "source_repo": "kirodotdev/Kiro",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/delete-spam-comments.yml",
+      "source_repo": "kirodotdev/Kiro",
+      "target": "actions/setup-node@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/delete-spam-comments.yml",
+      "source_repo": "kirodotdev/Kiro",
+      "target": "aws-actions/configure-aws-credentials@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/delete-spam-comments.yml",
+      "source_repo": "kirodotdev/Kiro",
+      "target": "Delete Spam Comments",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/duplicate-dispute.yml",
+      "source_repo": "kirodotdev/Kiro",
+      "target": "actions/github-script@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/duplicate-dispute.yml",
+      "source_repo": "kirodotdev/Kiro",
+      "target": "Duplicate Dispute Handler",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/duplicate-reaction-check.yml",
+      "source_repo": "kirodotdev/Kiro",
+      "target": "actions/github-script@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/duplicate-reaction-check.yml",
+      "source_repo": "kirodotdev/Kiro",
+      "target": "Duplicate Reaction Check",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/duplicates.yml",
+      "source_repo": "kirodotdev/Kiro",
+      "target": "actions/setup-node@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/duplicates.yml",
+      "source_repo": "kirodotdev/Kiro",
+      "target": "Scan for Duplicate Issues and Comment",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/issue-comment.yml",
+      "source_repo": "kirodotdev/Kiro",
+      "target": "Issue Comment",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issue-triage.yml",
+      "source_repo": "kirodotdev/Kiro",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issue-triage.yml",
+      "source_repo": "kirodotdev/Kiro",
+      "target": "actions/setup-node@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/issue-triage.yml",
+      "source_repo": "kirodotdev/Kiro",
+      "target": "Issue Triage",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kirodotdev/Kiro",
+      "target": "kiro",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kirodotdev/Kiro",
+      "target": "spec",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T04:58:10.854713+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4535
+    },
+    {
+      "path": ".github/workflows/README.md",
+      "size": 6307
+    },
+    {
+      "path": ".github/workflows/close-duplicates.yml",
+      "size": 1197
+    },
+    {
+      "path": ".github/workflows/close-stale.yml",
+      "size": 1181
+    },
+    {
+      "path": ".github/workflows/delete-spam-comments.yml",
+      "size": 2823
+    },
+    {
+      "path": ".github/workflows/duplicate-dispute.yml",
+      "size": 5057
+    },
+    {
+      "path": ".github/workflows/duplicate-reaction-check.yml",
+      "size": 4983
+    },
+    {
+      "path": ".github/workflows/duplicates.yml",
+      "size": 7084
+    },
+    {
+      "path": ".github/workflows/issue-comment.yml",
+      "size": 1379
+    },
+    {
+      "path": ".github/workflows/issue-triage.yml",
+      "size": 1778
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Kiro is an agentic IDE that works alongside you from prototype to production.",
+    "fork": false,
+    "full_name": "kirodotdev/Kiro",
+    "html_url": "https://github.com/kirodotdev/Kiro",
+    "language": "TypeScript",
+    "pushed_at": "2026-04-08T23:38:25Z",
+    "stargazers_count": 3576,
+    "topics": [
+      "ai",
+      "ide",
+      "kiro",
+      "spec"
+    ],
+    "updated_at": "2026-04-30T03:01:52Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Close Duplicate Issues",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/close-duplicates.yml",
+      "term": "Close Duplicate Issues"
+    },
+    {
+      "context_snippet": "Close Stale Issues",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/close-stale.yml",
+      "term": "Close Stale Issues"
+    },
+    {
+      "context_snippet": "Delete Spam Comments",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/delete-spam-comments.yml",
+      "term": "Delete Spam Comments"
+    },
+    {
+      "context_snippet": "Duplicate Dispute Handler",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/duplicate-dispute.yml",
+      "term": "Duplicate Dispute Handler"
+    },
+    {
+      "context_snippet": "Duplicate Reaction Check",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/duplicate-reaction-check.yml",
+      "term": "Duplicate Reaction Check"
+    },
+    {
+      "context_snippet": "Scan for Duplicate Issues and Comment",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/duplicates.yml",
+      "term": "Scan for Duplicate Issues and Comment"
+    },
+    {
+      "context_snippet": "Issue Comment",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/issue-comment.yml",
+      "term": "Issue Comment"
+    },
+    {
+      "context_snippet": "Issue Triage",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/issue-triage.yml",
+      "term": "Issue Triage"
+    },
+    {
+      "context_snippet": "<div align=\"left\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "kiro"
+    },
+    {
+      "context_snippet": "<div align=\"left\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "spec"
+    }
+  ]
+}

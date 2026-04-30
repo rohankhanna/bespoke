@@ -19,6 +19,30 @@
       "source_repo": "sarugaku/resolvelib",
       "status": "candidate-context",
       "text": "=========="
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jazzband/pip-tools",
+      "status": "candidate-context",
+      "text": "A set of tools to keep your pinned Python dependencies fresh."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jazzband/pip-tools",
+      "status": "candidate-context",
+      "text": "<!-- pyml disable-next-line first-line-heading -->"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "raimon49/requirements.txt.vim",
+      "status": "candidate-context",
+      "text": "the Requirements File Format syntax support for Vim"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "raimon49/requirements.txt.vim",
+      "status": "candidate-context",
+      "text": "requirements.txt.vim"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +51,18 @@
       "source_repo": "sarugaku/resolvelib",
       "status": "candidate",
       "text": "=========="
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jazzband/pip-tools",
+      "status": "candidate",
+      "text": "<!-- pyml disable-next-line first-line-heading -->"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "raimon49/requirements.txt.vim",
+      "status": "candidate",
+      "text": "requirements.txt.vim"
     }
   ],
   "candidate_related_terms": [
@@ -76,11 +112,23 @@
       "observed_at": "2026-04-24T00:33:56.049672+00:00",
       "source_file": null,
       "source_repo": "sarugaku/resolvelib"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "jazzband/pip-tools"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "raimon49/requirements.txt.vim"
     }
   ],
   "first_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

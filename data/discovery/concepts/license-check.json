@@ -106,6 +106,18 @@
       "source_repo": "apache/singa",
       "status": "candidate-context",
       "text": "License-Check"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apache/brpc",
+      "status": "candidate-context",
+      "text": "brpc is an Industrial-grade RPC framework using C++ Language, which is often used in high performance system such as Search, Storage, Machine learning, Advertisement, Recommendation etc. \"brpc\" means \"better RPC\"."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/brpc",
+      "status": "candidate-context",
+      "text": "License Check"
     }
   ],
   "candidate_glosses": [
@@ -156,6 +168,12 @@
       "source_repo": "apache/singa",
       "status": "candidate",
       "text": "License-Check"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/brpc",
+      "status": "candidate",
+      "text": "License Check"
     }
   ],
   "candidate_related_terms": [
@@ -289,11 +307,29 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": ".github/workflows/rat.yaml",
       "source_repo": "apache/singa"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/licensecheck.yml",
+      "source_repo": "eclipse-wildwebdeveloper/wildwebdeveloper"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/license-eyes.yml",
+      "source_repo": "apache/brpc"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/licensecheck.yml",
+      "source_repo": "eclipse-tm4e/tm4e"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

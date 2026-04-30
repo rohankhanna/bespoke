@@ -126,6 +126,66 @@
       "source_repo": "googleapis/google-api-php-client-services",
       "status": "candidate-context",
       "text": "Test Suite"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "redis-developer/redis-product-search",
+      "status": "candidate-context",
+      "text": "Visual and semantic vector similarity with Redis Stack, FastAPI, PyTorch and Huggingface."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "redis-developer/redis-product-search",
+      "status": "candidate-context",
+      "text": "Test Suite"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pgmpy/pgmpy",
+      "status": "candidate-context",
+      "text": "Python Toolkit for Causal and Probabilistic Reasoning"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pgmpy/pgmpy",
+      "status": "candidate-context",
+      "text": "Test Suite"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "googleapis/google-api-php-client",
+      "status": "candidate-context",
+      "text": "A PHP client library for accessing Google APIs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "googleapis/google-api-php-client",
+      "status": "candidate-context",
+      "text": "Test Suite"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "watchexec/watchexec",
+      "status": "candidate-context",
+      "text": "Executes commands in response to file modifications"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "watchexec/watchexec",
+      "status": "candidate-context",
+      "text": "Test suite"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bcrypt-ruby/bcrypt-ruby",
+      "status": "candidate-context",
+      "text": "bcrypt-ruby is a Ruby binding for the OpenBSD bcrypt() password hashing algorithm, allowing you to easily store a secure hash of your users' passwords."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bcrypt-ruby/bcrypt-ruby",
+      "status": "candidate-context",
+      "text": "Test Suite"
     }
   ],
   "candidate_glosses": [
@@ -186,6 +246,36 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "googleapis/google-api-php-client-services",
+      "status": "candidate",
+      "text": "Test Suite"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "redis-developer/redis-product-search",
+      "status": "candidate",
+      "text": "Test Suite"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pgmpy/pgmpy",
+      "status": "candidate",
+      "text": "Test Suite"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "googleapis/google-api-php-client",
+      "status": "candidate",
+      "text": "Test Suite"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "watchexec/watchexec",
+      "status": "candidate",
+      "text": "Test suite"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bcrypt-ruby/bcrypt-ruby",
       "status": "candidate",
       "text": "Test Suite"
     }
@@ -291,11 +381,41 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": ".github/workflows/tests.yml",
       "source_repo": "googleapis/google-api-php-client-services"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/run_tests.yml",
+      "source_repo": "redis-developer/redis-product-search"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "pgmpy/pgmpy"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "googleapis/google-api-php-client"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "watchexec/watchexec"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/ruby.yml",
+      "source_repo": "bcrypt-ruby/bcrypt-ruby"
     }
   ],
   "first_seen_at": "2026-04-19T17:42:30.117329+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

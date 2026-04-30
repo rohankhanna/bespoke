@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Authenticated Encryption with Associated Data Algorithms: high-level encryption ciphers"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "ascon-aead128"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "ascon-aead128"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "ascon-aead128",
+      "sense_id": "ascon-aead128#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "ascon-aead128",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "ascon-aead128",
+  "observation_id": "ca6bd27805813d9d",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-30T00:37:16.824464+00:00",
+  "observed_text": "ascon-aead128",
+  "source_context_snippet": "ascon-aead128",
+  "source_file": ".github/workflows/ascon-aead128.yml",
+  "source_repo": "RustCrypto/AEADs",
+  "source_repo_description": "Authenticated Encryption with Associated Data Algorithms: high-level encryption ciphers"
+}

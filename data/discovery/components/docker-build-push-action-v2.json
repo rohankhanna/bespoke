@@ -1,7 +1,7 @@
 {
   "component": "docker/build-push-action@v2",
   "first_seen_at": "2026-04-19T02:42:33.990002+00:00",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -162,6 +162,36 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/docker-hub-release.yml",
       "source_repo": "matrix-org/matrix-appservice-slack"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "wjdp/htmltest"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build_docker.yml",
+      "source_repo": "facebookresearch/nle"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/docker-publish.yml",
+      "source_repo": "lnx-search/lnx"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-docker-images.yml",
+      "source_repo": "mariolukas/HydraPlay"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "Nick-Triller/khcheck-external-secrets"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "argoproj-labs/argocd-extensions"
     }
   ]
 }

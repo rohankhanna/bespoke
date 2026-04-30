@@ -1,0 +1,136 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/setup-python@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "FedericoCarboni/setup-ffmpeg@v1.1.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "tj-actions/coverage-badge-py@v1.6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "tj-actions/verify-changed-files@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "ad-m/github-push-action@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "LuchoTurtle/banger-bot",
+      "target": "python-telegram-bot/python-telegram-bot",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "LuchoTurtle/banger-bot",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "LuchoTurtle/banger-bot",
+      "target": "actions/setup-python@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "LuchoTurtle/banger-bot",
+      "target": "FedericoCarboni/setup-ffmpeg@v1.1.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "LuchoTurtle/banger-bot",
+      "target": "tj-actions/coverage-badge-py@v1.6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "LuchoTurtle/banger-bot",
+      "target": "tj-actions/verify-changed-files@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "LuchoTurtle/banger-bot",
+      "target": "ad-m/github-push-action@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "LuchoTurtle/banger-bot",
+      "target": "build",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T02:55:01.385865+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1272
+    },
+    {
+      "path": "requirements.txt",
+      "size": 344
+    },
+    {
+      "path": ".github/workflows/main.yml",
+      "size": 2179
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "\ud83e\udde8 A personal Telegram bot that organizes and compiles songs within a group chat",
+    "fork": false,
+    "full_name": "LuchoTurtle/banger-bot",
+    "html_url": "https://github.com/LuchoTurtle/banger-bot",
+    "language": "Python",
+    "pushed_at": "2023-07-16T18:26:47Z",
+    "stargazers_count": 6,
+    "topics": [],
+    "updated_at": "2024-03-03T04:24:55Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "python-telegram-bot/python-telegram-bot",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/main.yml",
+      "term": "build"
+    }
+  ]
+}

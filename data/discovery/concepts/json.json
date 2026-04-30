@@ -679,6 +679,162 @@
       "source_repo": "rs/zerolog",
       "status": "candidate-context",
       "text": "[![godoc](http://img.shields.io/badge/godoc-reference-blue.svg?style=flat)](https://godoc.org/github.com/rs/zerolog) [![license](http://img.shields.io/badge/license-MIT-red.svg?style=flat)](https://raw.githubusercontent.com/rs/zerolog/master/LICENSE) [![Build Status](https://git\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "google/jsonnet",
+      "status": "candidate-context",
+      "text": "Jsonnet - The data templating language"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/jsonnet",
+      "status": "candidate-context",
+      "text": "![master branch build status badge](https://github.com/google/jsonnet/actions/workflows/build_and_test.yml/badge.svg?event=push&branch=master)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "crazyxman/simdjson_php",
+      "status": "candidate-context",
+      "text": "simdjson_php bindings for the simdjson project. https://github.com/lemire/simdjson"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "crazyxman/simdjson_php",
+      "status": "candidate-context",
+      "text": "simdjson_php bindings for the [simdjson project](https://github.com/lemire/simdjson)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "eddelbuettel/rcppsimdjson",
+      "status": "candidate-context",
+      "text": "Rcpp Bindings for the 'simdjson' Header Library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "eddelbuettel/rcppsimdjson",
+      "status": "candidate-context",
+      "text": "[![CI](https://github.com/eddelbuettel/rcppsimdjson/workflows/ci/badge.svg)](https://github.com/eddelbuettel/rcppsimdjson/actions?query=workflow%3Aci)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dskkato/rjo",
+      "status": "candidate-context",
+      "text": "A small utility to create JSON objects, written in Rust."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dskkato/rjo",
+      "status": "candidate-context",
+      "text": "[![rjo](https://img.shields.io/crates/v/rjo.svg)](https://crates.io/crates/rjo)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "itchyny/gojo",
+      "status": "candidate-context",
+      "text": "Yet another Go implementation of jo"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "itchyny/gojo",
+      "status": "candidate-context",
+      "text": "[![CI Status](https://github.com/itchyny/gojo/actions/workflows/ci.yaml/badge.svg?branch=main)](https://github.com/itchyny/gojo/actions?query=branch:main)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sayanarijit/jf",
+      "status": "candidate-context",
+      "text": "jf %q \"JSON Formatted\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sayanarijit/jf",
+      "status": "candidate-context",
+      "text": "[![Crate Status](https://img.shields.io/crates/v/jf.svg)](https://crates.io/crates/jf)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "biomejs/biome",
+      "status": "candidate-context",
+      "text": "A toolchain for web projects, aimed to provide functionalities to maintain them. Biome offers formatter and linter, usable via CLI and LSP."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "biomejs/biome",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Kotlin/kotlinx.serialization",
+      "status": "candidate-context",
+      "text": "Kotlin multiplatform / multi-format serialization "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Kotlin/kotlinx.serialization",
+      "status": "candidate-context",
+      "text": "[![Kotlin Stable](https://kotl.in/badges/stable.svg)](https://kotlinlang.org/docs/components-stability.html)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "confluentinc/schema-registry",
+      "status": "candidate-context",
+      "text": "Confluent Schema Registry for Kafka"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "confluentinc/schema-registry",
+      "status": "candidate-context",
+      "text": "Schema Registry"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "FasterXML/jackson-databind",
+      "status": "candidate-context",
+      "text": "General data-binding package for Jackson: works on streaming API (core) implementation(s)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "FasterXML/jackson-databind",
+      "status": "candidate-context",
+      "text": "This project contains the general-purpose data-binding functionality"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "fastapi/full-stack-fastapi-template",
+      "status": "candidate-context",
+      "text": "Full stack, modern web application template. Using FastAPI, React, SQLModel, PostgreSQL, Docker, GitHub Actions, automatic HTTPS and more."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fastapi/full-stack-fastapi-template",
+      "status": "candidate-context",
+      "text": "<a href=\"https://github.com/fastapi/full-stack-fastapi-template/actions?query=workflow%3A%22Test+Docker+Compose%22\" target=\"_blank\"><img src=\"https://github.com/fastapi/full-stack-fastapi-template/workflows/Test%20Docker%20Compose/badge.svg\" alt=\"Test Docker Compose\"></a>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ruby/json",
+      "status": "candidate-context",
+      "text": "JSON implementation for Ruby"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ruby/json",
+      "status": "candidate-context",
+      "text": "[![CI](https://github.com/ruby/json/actions/workflows/ci.yml/badge.svg)](https://github.com/ruby/json/actions/workflows/ci.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ibireme/yyjson",
+      "status": "candidate-context",
+      "text": "The fastest JSON library in C"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ibireme/yyjson",
+      "status": "candidate-context",
+      "text": "[![Build](https://img.shields.io/github/actions/workflow/status/ibireme/yyjson/checks.yml?branch=master&style=flat-square)](https://github.com/ibireme/yyjson/actions/workflows/checks.yml)"
     }
   ],
   "candidate_glosses": [
@@ -1017,6 +1173,84 @@
       "source_repo": "rs/zerolog",
       "status": "candidate",
       "text": "[![godoc](http://img.shields.io/badge/godoc-reference-blue.svg?style=flat)](https://godoc.org/github.com/rs/zerolog) [![license](http://img.shields.io/badge/license-MIT-red.svg?style=flat)](https://raw.githubusercontent.com/rs/zerolog/master/LICENSE) [![Build Status](https://git\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/jsonnet",
+      "status": "candidate",
+      "text": "![master branch build status badge](https://github.com/google/jsonnet/actions/workflows/build_and_test.yml/badge.svg?event=push&branch=master)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "crazyxman/simdjson_php",
+      "status": "candidate",
+      "text": "simdjson_php bindings for the [simdjson project](https://github.com/lemire/simdjson)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "eddelbuettel/rcppsimdjson",
+      "status": "candidate",
+      "text": "[![CI](https://github.com/eddelbuettel/rcppsimdjson/workflows/ci/badge.svg)](https://github.com/eddelbuettel/rcppsimdjson/actions?query=workflow%3Aci)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dskkato/rjo",
+      "status": "candidate",
+      "text": "[![rjo](https://img.shields.io/crates/v/rjo.svg)](https://crates.io/crates/rjo)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "itchyny/gojo",
+      "status": "candidate",
+      "text": "[![CI Status](https://github.com/itchyny/gojo/actions/workflows/ci.yaml/badge.svg?branch=main)](https://github.com/itchyny/gojo/actions?query=branch:main)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sayanarijit/jf",
+      "status": "candidate",
+      "text": "[![Crate Status](https://img.shields.io/crates/v/jf.svg)](https://crates.io/crates/jf)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "biomejs/biome",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Kotlin/kotlinx.serialization",
+      "status": "candidate",
+      "text": "[![Kotlin Stable](https://kotl.in/badges/stable.svg)](https://kotlinlang.org/docs/components-stability.html)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "confluentinc/schema-registry",
+      "status": "candidate",
+      "text": "Schema Registry"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "FasterXML/jackson-databind",
+      "status": "candidate",
+      "text": "This project contains the general-purpose data-binding functionality"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fastapi/full-stack-fastapi-template",
+      "status": "candidate",
+      "text": "<a href=\"https://github.com/fastapi/full-stack-fastapi-template/actions?query=workflow%3A%22Test+Docker+Compose%22\" target=\"_blank\"><img src=\"https://github.com/fastapi/full-stack-fastapi-template/workflows/Test%20Docker%20Compose/badge.svg\" alt=\"Test Docker Compose\"></a>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ruby/json",
+      "status": "candidate",
+      "text": "[![CI](https://github.com/ruby/json/actions/workflows/ci.yml/badge.svg)](https://github.com/ruby/json/actions/workflows/ci.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ibireme/yyjson",
+      "status": "candidate",
+      "text": "[![Build](https://img.shields.io/github/actions/workflow/status/ibireme/yyjson/checks.yml?branch=master&style=flat-square)](https://github.com/ibireme/yyjson/actions/workflows/checks.yml)"
     }
   ],
   "candidate_related_terms": [
@@ -1413,11 +1647,107 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "rs/zerolog"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "google/jsonnet"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "crazyxman/simdjson_php"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "eddelbuettel/rcppsimdjson"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "ultrajson/ultrajson"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "fastapi/fastapi"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "dskkato/rjo"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "itchyny/gojo"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "sayanarijit/jf"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "biomejs/biome"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "Kotlin/kotlinx.serialization"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "confluentinc/schema-registry"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "FasterXML/jackson-databind"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "fastapi/full-stack-fastapi-template"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "ruby/json"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "simdjson/simdjson"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "ibireme/yyjson"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

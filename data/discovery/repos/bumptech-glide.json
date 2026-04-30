@@ -1,0 +1,161 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/setup-java@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "gradle/actions/setup-gradle@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-manual.yml"
+    },
+    {
+      "component": "actions/setup-java@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-manual.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "bumptech/glide",
+      "target": "jakewharton/disklrucache",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "bumptech/glide",
+      "target": "chrisbanes/gradle-mvn-push",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "bumptech/glide",
+      "target": "wasabeef/glide-transformations",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "bumptech/glide",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "bumptech/glide",
+      "target": "actions/setup-java@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "bumptech/glide",
+      "target": "gradle/actions/setup-gradle@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "bumptech/glide",
+      "target": "Android CI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-manual.yml",
+      "source_repo": "bumptech/glide",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-manual.yml",
+      "source_repo": "bumptech/glide",
+      "target": "actions/setup-java@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish-manual.yml",
+      "source_repo": "bumptech/glide",
+      "target": "Publish to Maven (manual)",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T01:46:30.747689+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7812
+    },
+    {
+      "path": ".github/workflows/build.yml",
+      "size": 2202
+    },
+    {
+      "path": ".github/workflows/publish-manual.yml",
+      "size": 1886
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "An image loading and caching library for Android focused on smooth scrolling",
+    "fork": false,
+    "full_name": "bumptech/glide",
+    "html_url": "https://github.com/bumptech/glide",
+    "language": "Java",
+    "pushed_at": "2026-04-29T21:48:39Z",
+    "stargazers_count": 35025,
+    "topics": [],
+    "updated_at": "2026-04-29T21:46:47Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "chrisbanes/gradle-mvn-push",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jakewharton/disklrucache",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "wasabeef/glide-transformations",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Android CI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "term": "Android CI"
+    },
+    {
+      "context_snippet": "Publish to Maven (manual)",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish-manual.yml",
+      "term": "Publish to Maven (manual)"
+    }
+  ]
+}

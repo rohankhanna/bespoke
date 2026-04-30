@@ -1,0 +1,728 @@
+{
+  "components": [
+    {
+      "component": "@biomejs/plugin-api",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@changesets/changelog-github",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@changesets/cli",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@types/node",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "commonmark",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "tombi",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/autofix.yml"
+    },
+    {
+      "component": "moonrepo/setup-rust@abb2d32350334249b178c401e5ec5836e0cd88d3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/autofix.yml"
+    },
+    {
+      "component": "tombi-toml/setup-tombi@04531a538f559c50feccb0da6f79a41d4048ad93",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/autofix.yml"
+    },
+    {
+      "component": "autofix-ci/action@7a166d7532b277f34e16238930461bf77f9d7ed8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/autofix.yml"
+    },
+    {
+      "component": "actions/github-script@ed597411d8f924073f98dfc5c65a23a2325f34cd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bench_cli.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bench_cli.yml"
+    },
+    {
+      "component": "moonrepo/setup-rust@abb2d32350334249b178c401e5ec5836e0cd88d3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bench_cli.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bench_cli.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bench_cli.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bench_cli.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bench_cli.yml"
+    },
+    {
+      "component": "peter-evans/create-or-update-comment@e8674b075228eee787fea43ef493e45ece1004c9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bench_cli.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmark.yml"
+    },
+    {
+      "component": "dorny/paths-filter@fbd0ab8f3e69293af611ebaee6363fc25e6d187d",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmark.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmark.yml"
+    },
+    {
+      "component": "moonrepo/setup-rust@abb2d32350334249b178c401e5ec5836e0cd88d3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmark.yml"
+    },
+    {
+      "component": "CodSpeedHQ/action@db35df748deb45fdef0960669f57d627c1956c30",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmark.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmark.yml"
+    },
+    {
+      "component": "moonrepo/setup-rust@abb2d32350334249b178c401e5ec5836e0cd88d3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmark.yml"
+    },
+    {
+      "component": "CodSpeedHQ/action@db35df748deb45fdef0960669f57d627c1956c30",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmark.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/beta.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/beta.yml"
+    },
+    {
+      "component": "taiki-e/install-action@055f5df8c3f65ea01cd41e9dc855becd88953486",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/beta.yml"
+    },
+    {
+      "component": "actions/upload-artifact@b7c566a772e6b6bfb58ed0dc250532a479d7789f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/beta.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/beta.yml"
+    },
+    {
+      "component": "actions/upload-artifact@b7c566a772e6b6bfb58ed0dc250532a479d7789f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/beta.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/beta.yml"
+    },
+    {
+      "component": "extractions/setup-just@f8a3cce218d9f83db3a2ecd90e41ac3de6cdfd9b",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/beta.yml"
+    },
+    {
+      "component": "moonrepo/setup-rust@abb2d32350334249b178c401e5ec5836e0cd88d3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/beta.yml"
+    },
+    {
+      "component": "actions/upload-artifact@b7c566a772e6b6bfb58ed0dc250532a479d7789f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/beta.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/beta.yml"
+    },
+    {
+      "component": "actions/download-artifact@37930b1c2abaa49bbe596cd826c3c89aef350131",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/beta.yml"
+    },
+    {
+      "component": "actions/download-artifact@37930b1c2abaa49bbe596cd826c3c89aef350131",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/beta.yml"
+    },
+    {
+      "component": "actions/setup-node@48b55a011bda9f5d6aeb4c2d9c7362e8dae4041e",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/beta.yml"
+    },
+    {
+      "component": "softprops/action-gh-release@3bb12739c298aeb8a4eeaf626c5b8d85266b0e65",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/beta.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/beta_js_api.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/beta_js_api.yml"
+    },
+    {
+      "component": "actions/setup-node@48b55a011bda9f5d6aeb4c2d9c7362e8dae4041e",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/beta_js_api.yml"
+    },
+    {
+      "component": "extractions/setup-just@f8a3cce218d9f83db3a2ecd90e41ac3de6cdfd9b",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/beta_js_api.yml"
+    },
+    {
+      "component": "actions/cache@27d5ce7f107fe9357f9df03efb73ab90386fccae",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/beta_js_api.yml"
+    },
+    {
+      "component": "pnpm/action-setup@fc06bc1257f339d1d5d8b3a19a8cae5388b55320",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/beta_js_api.yml"
+    },
+    {
+      "component": "actions/upload-artifact@b7c566a772e6b6bfb58ed0dc250532a479d7789f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/beta_js_api.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/beta_js_api.yml"
+    },
+    {
+      "component": "actions/download-artifact@37930b1c2abaa49bbe596cd826c3c89aef350131",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/beta_js_api.yml"
+    },
+    {
+      "component": "actions/setup-node@48b55a011bda9f5d6aeb4c2d9c7362e8dae4041e",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/beta_js_api.yml"
+    },
+    {
+      "component": "softprops/action-gh-release@3bb12739c298aeb8a4eeaf626c5b8d85266b0e65",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/beta_js_api.yml"
+    },
+    {
+      "component": "actions-cool/issues-helper@200c78641dbf33838311e5a1e0c31bbdb92d7cf0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/close-issue.yml"
+    },
+    {
+      "component": "github/issue-labeler@c1b0f9f52a63158c4adc09425e858e87b32e9685",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/label-issue.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "biomejs/biome",
+      "target": "@biomejs/plugin-api",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "biomejs/biome",
+      "target": "@changesets/changelog-github",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "biomejs/biome",
+      "target": "@changesets/cli",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "biomejs/biome",
+      "target": "@types/node",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "biomejs/biome",
+      "target": "commonmark",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "biomejs/biome",
+      "target": "tombi",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/autofix.yml",
+      "source_repo": "biomejs/biome",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/autofix.yml",
+      "source_repo": "biomejs/biome",
+      "target": "moonrepo/setup-rust@abb2d32350334249b178c401e5ec5836e0cd88d3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/autofix.yml",
+      "source_repo": "biomejs/biome",
+      "target": "tombi-toml/setup-tombi@04531a538f559c50feccb0da6f79a41d4048ad93",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/autofix.yml",
+      "source_repo": "biomejs/biome",
+      "target": "autofix-ci/action@7a166d7532b277f34e16238930461bf77f9d7ed8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bench_cli.yml",
+      "source_repo": "biomejs/biome",
+      "target": "actions/github-script@ed597411d8f924073f98dfc5c65a23a2325f34cd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bench_cli.yml",
+      "source_repo": "biomejs/biome",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bench_cli.yml",
+      "source_repo": "biomejs/biome",
+      "target": "moonrepo/setup-rust@abb2d32350334249b178c401e5ec5836e0cd88d3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bench_cli.yml",
+      "source_repo": "biomejs/biome",
+      "target": "peter-evans/create-or-update-comment@e8674b075228eee787fea43ef493e45ece1004c9",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/bench_cli.yml",
+      "source_repo": "biomejs/biome",
+      "target": "CLI Benchmark",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmark.yml",
+      "source_repo": "biomejs/biome",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmark.yml",
+      "source_repo": "biomejs/biome",
+      "target": "dorny/paths-filter@fbd0ab8f3e69293af611ebaee6363fc25e6d187d",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmark.yml",
+      "source_repo": "biomejs/biome",
+      "target": "moonrepo/setup-rust@abb2d32350334249b178c401e5ec5836e0cd88d3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmark.yml",
+      "source_repo": "biomejs/biome",
+      "target": "CodSpeedHQ/action@db35df748deb45fdef0960669f57d627c1956c30",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/benchmark.yml",
+      "source_repo": "biomejs/biome",
+      "target": "Benchmarks",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/beta.yml",
+      "source_repo": "biomejs/biome",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/beta.yml",
+      "source_repo": "biomejs/biome",
+      "target": "taiki-e/install-action@055f5df8c3f65ea01cd41e9dc855becd88953486",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/beta.yml",
+      "source_repo": "biomejs/biome",
+      "target": "actions/upload-artifact@b7c566a772e6b6bfb58ed0dc250532a479d7789f",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/beta.yml",
+      "source_repo": "biomejs/biome",
+      "target": "extractions/setup-just@f8a3cce218d9f83db3a2ecd90e41ac3de6cdfd9b",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/beta.yml",
+      "source_repo": "biomejs/biome",
+      "target": "moonrepo/setup-rust@abb2d32350334249b178c401e5ec5836e0cd88d3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/beta.yml",
+      "source_repo": "biomejs/biome",
+      "target": "actions/download-artifact@37930b1c2abaa49bbe596cd826c3c89aef350131",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/beta.yml",
+      "source_repo": "biomejs/biome",
+      "target": "actions/setup-node@48b55a011bda9f5d6aeb4c2d9c7362e8dae4041e",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/beta.yml",
+      "source_repo": "biomejs/biome",
+      "target": "softprops/action-gh-release@3bb12739c298aeb8a4eeaf626c5b8d85266b0e65",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/beta.yml",
+      "source_repo": "biomejs/biome",
+      "target": "Beta release CLI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/beta_js_api.yml",
+      "source_repo": "biomejs/biome",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/beta_js_api.yml",
+      "source_repo": "biomejs/biome",
+      "target": "actions/setup-node@48b55a011bda9f5d6aeb4c2d9c7362e8dae4041e",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/beta_js_api.yml",
+      "source_repo": "biomejs/biome",
+      "target": "extractions/setup-just@f8a3cce218d9f83db3a2ecd90e41ac3de6cdfd9b",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/beta_js_api.yml",
+      "source_repo": "biomejs/biome",
+      "target": "actions/cache@27d5ce7f107fe9357f9df03efb73ab90386fccae",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/beta_js_api.yml",
+      "source_repo": "biomejs/biome",
+      "target": "pnpm/action-setup@fc06bc1257f339d1d5d8b3a19a8cae5388b55320",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/beta_js_api.yml",
+      "source_repo": "biomejs/biome",
+      "target": "actions/upload-artifact@b7c566a772e6b6bfb58ed0dc250532a479d7789f",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/beta_js_api.yml",
+      "source_repo": "biomejs/biome",
+      "target": "actions/download-artifact@37930b1c2abaa49bbe596cd826c3c89aef350131",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/beta_js_api.yml",
+      "source_repo": "biomejs/biome",
+      "target": "softprops/action-gh-release@3bb12739c298aeb8a4eeaf626c5b8d85266b0e65",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/beta_js_api.yml",
+      "source_repo": "biomejs/biome",
+      "target": "Beta release JavaScript API",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/close-issue.yml",
+      "source_repo": "biomejs/biome",
+      "target": "actions-cool/issues-helper@200c78641dbf33838311e5a1e0c31bbdb92d7cf0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/close-issue.yml",
+      "source_repo": "biomejs/biome",
+      "target": "Close issues",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/label-issue.yaml",
+      "source_repo": "biomejs/biome",
+      "target": "github/issue-labeler@c1b0f9f52a63158c4adc09425e858e87b32e9685",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/label-issue.yaml",
+      "source_repo": "biomejs/biome",
+      "target": "Label issue",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "biomejs/biome",
+      "target": "formatter",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "biomejs/biome",
+      "target": "json",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "biomejs/biome",
+      "target": "linter",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "biomejs/biome",
+      "target": "static-code-analysis",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T04:13:00.229749+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 10784
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 15478
+    },
+    {
+      "path": "package.json",
+      "size": 983
+    },
+    {
+      "path": ".github/workflows/autofix.yml",
+      "size": 1781
+    },
+    {
+      "path": ".github/workflows/bench_cli.yml",
+      "size": 3875
+    },
+    {
+      "path": ".github/workflows/benchmark.yml",
+      "size": 13812
+    },
+    {
+      "path": ".github/workflows/beta.yml",
+      "size": 9001
+    },
+    {
+      "path": ".github/workflows/beta_js_api.yml",
+      "size": 3943
+    },
+    {
+      "path": ".github/workflows/close-issue.yml",
+      "size": 657
+    },
+    {
+      "path": ".github/workflows/label-issue.yaml",
+      "size": 633
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A toolchain for web projects, aimed to provide functionalities to maintain them. Biome offers formatter and linter, usable via CLI and LSP.",
+    "fork": false,
+    "full_name": "biomejs/biome",
+    "html_url": "https://github.com/biomejs/biome",
+    "language": "Rust",
+    "pushed_at": "2026-04-29T21:00:08Z",
+    "stargazers_count": 24498,
+    "topics": [
+      "css",
+      "formatter",
+      "javascript",
+      "json",
+      "jsx",
+      "linter",
+      "static-code-analysis",
+      "typescript",
+      "web"
+    ],
+    "updated_at": "2026-04-30T03:02:19Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "CLI Benchmark",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/bench_cli.yml",
+      "term": "CLI Benchmark"
+    },
+    {
+      "context_snippet": "Benchmarks",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/benchmark.yml",
+      "term": "Benchmarks"
+    },
+    {
+      "context_snippet": "Beta release CLI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/beta.yml",
+      "term": "Beta release CLI"
+    },
+    {
+      "context_snippet": "Beta release JavaScript API",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/beta_js_api.yml",
+      "term": "Beta release JavaScript API"
+    },
+    {
+      "context_snippet": "Close issues",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/close-issue.yml",
+      "term": "Close issues"
+    },
+    {
+      "context_snippet": "Label issue",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/label-issue.yaml",
+      "term": "Label issue"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "formatter"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "json"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "linter"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "static-code-analysis"
+    }
+  ]
+}

@@ -1,11 +1,16 @@
 {
   "first_seen_at": "2026-04-18T09:11:35.827547+00:00",
-  "last_seen_at": "2026-04-18T09:11:35.827547+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/dependency-updates.yml",
       "source_repo": "greggh/claude-code.nvim"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/latest.yml",
+      "source_repo": "lovell/sharp-libvips"
     }
   ],
   "term": "Dependency Updates"

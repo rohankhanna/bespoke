@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Out-of-tree build & tests"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "KhronosGroup/SPIRV-LLVM-Translator",
+      "status": "candidate-context",
+      "text": "A tool and a library for bi-directional translation between SPIR-V and LLVM IR"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "KhronosGroup/SPIRV-LLVM-Translator",
+      "status": "candidate-context",
+      "text": "Out-of-tree build & tests"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "KhronosGroup/SPIRV-LLVM-Translator",
+      "status": "candidate",
+      "text": "Out-of-tree build & tests"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10120,
+      "status": "candidate",
+      "text": "embedded"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10120,
+      "status": "candidate",
+      "text": "included"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10120,
+      "status": "candidate",
+      "text": "integrated"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9353,
+      "status": "candidate",
+      "text": "assay"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9353,
+      "status": "candidate",
+      "text": "attempts"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Out-of-tree build & tests",
+  "concept_id": "out-of-tree-build-tests",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/check-out-of-tree-build.yml",
+      "source_repo": "KhronosGroup/SPIRV-LLVM-Translator"
+    }
+  ],
+  "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Out-of-tree build & tests",
+      "sense_id": "out-of-tree-build-tests#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

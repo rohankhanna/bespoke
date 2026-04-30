@@ -1,0 +1,168 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-cache.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-cache.yml"
+    },
+    {
+      "component": "docker/setup-qemu-action@v4.0.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-cache.yml"
+    },
+    {
+      "component": "peter-evans/create-pull-request@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-cache.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cron-build-cache.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cron-build-cache.yml"
+    },
+    {
+      "component": "docker/setup-qemu-action@v4.0.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cron-build-cache.yml"
+    },
+    {
+      "component": "peter-evans/create-pull-request@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cron-build-cache.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-cache.yml",
+      "source_repo": "mayeut/pep600_compliance",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-cache.yml",
+      "source_repo": "mayeut/pep600_compliance",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-cache.yml",
+      "source_repo": "mayeut/pep600_compliance",
+      "target": "docker/setup-qemu-action@v4.0.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-cache.yml",
+      "source_repo": "mayeut/pep600_compliance",
+      "target": "peter-evans/create-pull-request@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-cache.yml",
+      "source_repo": "mayeut/pep600_compliance",
+      "target": "Test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cron-build-cache.yml",
+      "source_repo": "mayeut/pep600_compliance",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cron-build-cache.yml",
+      "source_repo": "mayeut/pep600_compliance",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cron-build-cache.yml",
+      "source_repo": "mayeut/pep600_compliance",
+      "target": "docker/setup-qemu-action@v4.0.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cron-build-cache.yml",
+      "source_repo": "mayeut/pep600_compliance",
+      "target": "peter-evans/create-pull-request@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cron-build-cache.yml",
+      "source_repo": "mayeut/pep600_compliance",
+      "target": "Cron Update",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T03:51:03.627521+00:00",
+  "fetched_files": [
+    {
+      "path": "README.rst",
+      "size": 17680
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 535
+    },
+    {
+      "path": "requirements.txt",
+      "size": 12405
+    },
+    {
+      "path": ".github/workflows/build-cache.yml",
+      "size": 1254
+    },
+    {
+      "path": ".github/workflows/cron-build-cache.yml",
+      "size": 1555
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Check manylinux policies to conform to PEP600",
+    "fork": false,
+    "full_name": "mayeut/pep600_compliance",
+    "html_url": "https://github.com/mayeut/pep600_compliance",
+    "language": "Python",
+    "pushed_at": "2026-04-24T04:24:17Z",
+    "stargazers_count": 62,
+    "topics": [],
+    "updated_at": "2026-04-24T04:23:39Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-cache.yml",
+      "term": "Test"
+    },
+    {
+      "context_snippet": "Cron Update",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cron-build-cache.yml",
+      "term": "Cron Update"
+    }
+  ]
+}

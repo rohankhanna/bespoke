@@ -1,0 +1,101 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "jakewvincent/texmagic.nvim",
+      "target": "latex-lsp/texlab",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jakewvincent/texmagic.nvim",
+      "target": "latex",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jakewvincent/texmagic.nvim",
+      "target": "neovim",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jakewvincent/texmagic.nvim",
+      "target": "nvim",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jakewvincent/texmagic.nvim",
+      "target": "texlab",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T02:54:12.919575+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8394
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "jakewvincent/texmagic.nvim",
+    "html_url": "https://github.com/jakewvincent/texmagic.nvim",
+    "language": "Lua",
+    "pushed_at": "2026-03-02T15:10:15Z",
+    "stargazers_count": 58,
+    "topics": [
+      "latex",
+      "lua",
+      "neovim",
+      "nvim",
+      "tex",
+      "texlab"
+    ],
+    "updated_at": "2026-03-07T18:29:27Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "latex-lsp/texlab",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "![Banner](assets/images/banner.gif)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "latex"
+    },
+    {
+      "context_snippet": "![Banner](assets/images/banner.gif)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "neovim"
+    },
+    {
+      "context_snippet": "![Banner](assets/images/banner.gif)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nvim"
+    },
+    {
+      "context_snippet": "![Banner](assets/images/banner.gif)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "texlab"
+    }
+  ]
+}

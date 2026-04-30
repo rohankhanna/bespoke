@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A modern system for literate programming."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[Version](notes/versioning.md): 9.0-beta+1C16 'Invasion' (24 April 2026)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[Version](notes/versioning.md): 9.0-beta+1C16 'Invasion' (24 April 2026)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "documentation-as-code",
+      "sense_id": "documentation-as-code#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "documentation-as-code",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "documentation-as-code",
+  "observation_id": "b9078405c09dafbe",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T00:37:16.824464+00:00",
+  "observed_text": "documentation-as-code",
+  "source_context_snippet": "[Version](notes/versioning.md): 9.0-beta+1C16 'Invasion' (24 April 2026)",
+  "source_file": null,
+  "source_repo": "ganelson/inweb",
+  "source_repo_description": "A modern system for literate programming."
+}

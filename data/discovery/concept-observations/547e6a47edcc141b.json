@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": ":microscope::books: Galaxy Tool wrappers"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![Build Status](https://travis-ci.org/bgruening/galaxytools.svg?branch=master)](https://travis-ci.org/bgruening/galaxytools)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![Build Status](https://travis-ci.org/bgruening/galaxytools.svg?branch=master)](https://travis-ci.org/bgruening/galaxytools)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39542129,
+      "status": "candidate",
+      "text": "beetleweed"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 38808804,
+      "status": "candidate",
+      "text": "galax"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29863925,
+      "status": "candidate",
+      "text": "extragalactic nebula"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29863925,
+      "status": "candidate",
+      "text": "galax urceolata"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29863925,
+      "status": "candidate",
+      "text": "wandflower"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "galaxy",
+      "sense_id": "galaxy#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 2014,
+      "status": "candidate",
+      "text": "beetleweed"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 2011,
+      "status": "candidate",
+      "text": "galax urceolata"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 1011,
+      "status": "candidate",
+      "text": "extragalactic nebula"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 12,
+      "status": "candidate",
+      "text": "wandflower"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": null,
+      "status": "candidate",
+      "text": "galax"
+    }
+  ],
+  "concept_id": "galaxy",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "galaxy",
+  "observation_id": "547e6a47edcc141b",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T00:37:16.824464+00:00",
+  "observed_text": "galaxy",
+  "source_context_snippet": "[![Build Status](https://travis-ci.org/bgruening/galaxytools.svg?branch=master)](https://travis-ci.org/bgruening/galaxytools)",
+  "source_file": null,
+  "source_repo": "bgruening/galaxytools",
+  "source_repo_description": ":microscope::books: Galaxy Tool wrappers"
+}

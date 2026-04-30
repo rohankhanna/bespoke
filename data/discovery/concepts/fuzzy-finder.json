@@ -79,6 +79,18 @@
       "source_repo": "alexpasmantier/tv.nvim",
       "status": "candidate-context",
       "text": "<div align=\"center\" style=\"color: #abb2bf;font-family: 'Fira Code', monospace;\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "vim-fall/fall.vim",
+      "status": "candidate-context",
+      "text": "\ud83c\udf42 Yet Another Fuzzy Finder designed for Vim and Neovim and to be programmer-friendly"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vim-fall/fall.vim",
+      "status": "candidate-context",
+      "text": "[![Test](https://github.com/vim-fall/fall.vim/actions/workflows/test.yml/badge.svg)](https://github.com/vim-fall/fall.vim/actions/workflows/test.yml)"
     }
   ],
   "candidate_glosses": [
@@ -117,6 +129,12 @@
       "source_repo": "alexpasmantier/tv.nvim",
       "status": "candidate",
       "text": "<div align=\"center\" style=\"color: #abb2bf;font-family: 'Fira Code', monospace;\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vim-fall/fall.vim",
+      "status": "candidate",
+      "text": "[![Test](https://github.com/vim-fall/fall.vim/actions/workflows/test.yml/badge.svg)](https://github.com/vim-fall/fall.vim/actions/workflows/test.yml)"
     }
   ],
   "candidate_related_terms": [],
@@ -160,11 +178,17 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "alexpasmantier/tv.nvim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "vim-fall/fall.vim"
     }
   ],
   "first_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

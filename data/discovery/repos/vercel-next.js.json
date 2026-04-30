@@ -1263,27 +1263,6 @@
   ],
   "edges": [
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "Cargo.toml",
-      "source_repo": "vercel/next.js",
-      "target": "sokra/triomphe",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "Cargo.toml",
-      "source_repo": "vercel/next.js",
-      "target": "vercel-labs/mdxjs-rs-turbopack",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "Cargo.toml",
-      "source_repo": "vercel/next.js",
-      "target": "vercel-labs/include_dir",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "package-json:devDependencies",
       "source_file": "package.json",
       "source_repo": "vercel/next.js",
@@ -2971,7 +2950,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-29T19:52:16.866312+00:00",
+  "fetched_at": "2026-04-30T04:57:42.398594+00:00",
   "fetched_files": [
     {
       "path": "Cargo.toml",
@@ -3023,8 +3002,8 @@
     "full_name": "vercel/next.js",
     "html_url": "https://github.com/vercel/next.js",
     "language": "JavaScript",
-    "pushed_at": "2026-04-29T19:44:34Z",
-    "stargazers_count": 139218,
+    "pushed_at": "2026-04-29T22:18:38Z",
+    "stargazers_count": 139224,
     "topics": [
       "blog",
       "browser",
@@ -3041,25 +3020,9 @@
       "universal",
       "vercel"
     ],
-    "updated_at": "2026-04-29T19:44:41Z"
+    "updated_at": "2026-04-30T04:54:13Z"
   },
-  "repo_links": [
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "sokra/triomphe",
-      "source_file": "Cargo.toml"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "vercel-labs/include_dir",
-      "source_file": "Cargo.toml"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "vercel-labs/mdxjs-rs-turbopack",
-      "source_file": "Cargo.toml"
-    }
-  ],
+  "repo_links": [],
   "terms": [
     {
       "context_snippet": "build-and-deploy",

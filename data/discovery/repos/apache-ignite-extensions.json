@@ -1,0 +1,190 @@
+{
+  "components": [
+    {
+      "component": "actions/github-script@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/prepare-rc.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/prepare-rc.yml"
+    },
+    {
+      "component": "actions/setup-java@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/prepare-rc.yml"
+    },
+    {
+      "component": "actions/github-script@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/prepare-rc.yml"
+    },
+    {
+      "component": "actions/github-script@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/prepare-rc.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/prepare-rc.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/prepare-rc.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-checker.yml"
+    },
+    {
+      "component": "actions/setup-java@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-checker.yml"
+    },
+    {
+      "component": "actions/github-script@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-checker.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "apache/ignite-extensions",
+      "target": "apache/ignite-website",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/prepare-rc.yml",
+      "source_repo": "apache/ignite-extensions",
+      "target": "actions/github-script@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/prepare-rc.yml",
+      "source_repo": "apache/ignite-extensions",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/prepare-rc.yml",
+      "source_repo": "apache/ignite-extensions",
+      "target": "actions/setup-java@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/prepare-rc.yml",
+      "source_repo": "apache/ignite-extensions",
+      "target": "actions/github-script@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/prepare-rc.yml",
+      "source_repo": "apache/ignite-extensions",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/prepare-rc.yml",
+      "source_repo": "apache/ignite-extensions",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/prepare-rc.yml",
+      "source_repo": "apache/ignite-extensions",
+      "target": "Extension Prepare Release Candidate",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-checker.yml",
+      "source_repo": "apache/ignite-extensions",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-checker.yml",
+      "source_repo": "apache/ignite-extensions",
+      "target": "actions/setup-java@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-checker.yml",
+      "source_repo": "apache/ignite-extensions",
+      "target": "actions/github-script@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-checker.yml",
+      "source_repo": "apache/ignite-extensions",
+      "target": "Extension Check Release Candidate",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T04:51:33.985652+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1405
+    },
+    {
+      "path": ".github/workflows/prepare-rc.yml",
+      "size": 8063
+    },
+    {
+      "path": ".github/workflows/release-checker.yml",
+      "size": 4989
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Apache Ignite Extensions",
+    "fork": false,
+    "full_name": "apache/ignite-extensions",
+    "html_url": "https://github.com/apache/ignite-extensions",
+    "language": "Java",
+    "pushed_at": "2026-04-24T12:11:09Z",
+    "stargazers_count": 57,
+    "topics": [],
+    "updated_at": "2026-04-24T12:11:14Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "apache/ignite-website",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "\"Extension Prepare Release Candidate\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/prepare-rc.yml",
+      "term": "Extension Prepare Release Candidate"
+    },
+    {
+      "context_snippet": "\"Extension Check Release Candidate\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-checker.yml",
+      "term": "Extension Check Release Candidate"
+    }
+  ]
+}

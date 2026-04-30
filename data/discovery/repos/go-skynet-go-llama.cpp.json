@@ -1,0 +1,148 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-gpu.yaml"
+    },
+    {
+      "component": "actions/setup-go@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-gpu.yaml"
+    },
+    {
+      "component": "actions/checkout@8ade135a41bc03ea155e62e844d188df1ea18608",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yaml"
+    },
+    {
+      "component": "actions/setup-go@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yaml"
+    },
+    {
+      "component": "actions/checkout@8ade135a41bc03ea155e62e844d188df1ea18608",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yaml"
+    },
+    {
+      "component": "actions/setup-go@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yaml"
+    },
+    {
+      "component": "actions/checkout@8ade135a41bc03ea155e62e844d188df1ea18608",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yaml"
+    },
+    {
+      "component": "actions/setup-go@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "go-skynet/go-llama.cpp",
+      "target": "ggerganov/llama.cpp",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "go-skynet/go-llama.cpp",
+      "target": "go-skynet/llama-cli",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-gpu.yaml",
+      "source_repo": "go-skynet/go-llama.cpp",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-gpu.yaml",
+      "source_repo": "go-skynet/go-llama.cpp",
+      "target": "actions/setup-go@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test-gpu.yaml",
+      "source_repo": "go-skynet/go-llama.cpp",
+      "target": "GPU tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yaml",
+      "source_repo": "go-skynet/go-llama.cpp",
+      "target": "actions/checkout@8ade135a41bc03ea155e62e844d188df1ea18608",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yaml",
+      "source_repo": "go-skynet/go-llama.cpp",
+      "target": "actions/setup-go@v4",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-04-30T01:52:18.554451+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3499
+    },
+    {
+      "path": "go.mod",
+      "size": 574
+    },
+    {
+      "path": ".github/workflows/test-gpu.yaml",
+      "size": 1994
+    },
+    {
+      "path": ".github/workflows/test.yaml",
+      "size": 2360
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "LLama.cpp golang bindings",
+    "fork": false,
+    "full_name": "go-skynet/go-llama.cpp",
+    "html_url": "https://github.com/go-skynet/go-llama.cpp",
+    "language": "C++",
+    "pushed_at": "2026-04-29T02:16:25Z",
+    "stargazers_count": 888,
+    "topics": [],
+    "updated_at": "2026-04-23T04:38:12Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ggerganov/llama.cpp",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "go-skynet/llama-cli",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "'GPU tests'",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test-gpu.yaml",
+      "term": "GPU tests"
+    }
+  ]
+}

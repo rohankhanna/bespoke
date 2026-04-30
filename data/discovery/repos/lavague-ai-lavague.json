@@ -1,0 +1,250 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs-checker.yaml"
+    },
+    {
+      "component": "actions/setup-python@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs-checker.yaml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs-checker.yaml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs-checker.yaml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs-checker.yaml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs-checker.yaml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs-checker.yaml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs-code.yaml"
+    },
+    {
+      "component": "actions/setup-python@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs-code.yaml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/format.yaml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/format.yaml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yaml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs-checker.yaml",
+      "source_repo": "lavague-ai/LaVague",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs-checker.yaml",
+      "source_repo": "lavague-ai/LaVague",
+      "target": "actions/setup-python@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs-checker.yaml",
+      "source_repo": "lavague-ai/LaVague",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docs-checker.yaml",
+      "source_repo": "lavague-ai/LaVague",
+      "target": "Docs checker",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs-code.yaml",
+      "source_repo": "lavague-ai/LaVague",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs-code.yaml",
+      "source_repo": "lavague-ai/LaVague",
+      "target": "actions/setup-python@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/format.yaml",
+      "source_repo": "lavague-ai/LaVague",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/format.yaml",
+      "source_repo": "lavague-ai/LaVague",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/format.yaml",
+      "source_repo": "lavague-ai/LaVague",
+      "target": "Formatting",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yaml",
+      "source_repo": "lavague-ai/LaVague",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yaml",
+      "source_repo": "lavague-ai/LaVague",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish.yaml",
+      "source_repo": "lavague-ai/LaVague",
+      "target": "Check and Update Versions",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lavague-ai/LaVague",
+      "target": "browser",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lavague-ai/LaVague",
+      "target": "large-action-model",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T02:50:15.957472+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9609
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 1192
+    },
+    {
+      "path": ".github/workflows/docs-checker.yaml",
+      "size": 6116
+    },
+    {
+      "path": ".github/workflows/docs-code.yaml",
+      "size": 1990
+    },
+    {
+      "path": ".github/workflows/format.yaml",
+      "size": 424
+    },
+    {
+      "path": ".github/workflows/publish.yaml",
+      "size": 2096
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Large Action Model framework to develop AI Web Agents",
+    "fork": false,
+    "full_name": "lavague-ai/LaVague",
+    "html_url": "https://github.com/lavague-ai/LaVague",
+    "language": "Python",
+    "pushed_at": "2025-01-21T13:41:48Z",
+    "stargazers_count": 6327,
+    "topics": [
+      "ai",
+      "browser",
+      "large-action-model",
+      "llm",
+      "oss",
+      "rag"
+    ],
+    "updated_at": "2026-04-29T21:57:53Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Docs checker",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docs-checker.yaml",
+      "term": "Docs checker"
+    },
+    {
+      "context_snippet": "Formatting",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/format.yaml",
+      "term": "Formatting"
+    },
+    {
+      "context_snippet": "Check and Update Versions",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish.yaml",
+      "term": "Check and Update Versions"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "browser"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "large-action-model"
+    }
+  ]
+}

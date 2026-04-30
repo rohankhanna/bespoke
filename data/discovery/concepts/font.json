@@ -295,6 +295,42 @@
       "source_repo": "be5invis/Sarasa-Gothic",
       "status": "candidate-context",
       "text": "This is SARASA GOTHIC, a CJK composite font based on Inter, Iosevka and Source Han Sans."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "miiton/Cica",
+      "status": "candidate-context",
+      "text": "\u30d7\u30ed\u30b0\u30e9\u30df\u30f3\u30b0\u7528\u65e5\u672c\u8a9e\u7b49\u5e45\u30d5\u30a9\u30f3\u30c8 Cica(\u30b7\u30ab)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "miiton/Cica",
+      "status": "candidate-context",
+      "text": "| | |"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "olikraus/u8g2",
+      "status": "candidate-context",
+      "text": "U8glib library for monochrome displays, version 2 "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "olikraus/u8g2",
+      "status": "candidate-context",
+      "text": "[![Gitpod Ready-to-Code](https://img.shields.io/badge/Gitpod-Ready--to--Code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/olikraus/u8g2)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "source-foundry/Hack",
+      "status": "candidate-context",
+      "text": "A typeface designed for source code"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "source-foundry/Hack",
+      "status": "candidate-context",
+      "text": "[![GitHub release](https://img.shields.io/github/release/source-foundry/hack.svg?style=flat)](https://github.com/source-foundry/Hack/releases/latest)"
     }
   ],
   "candidate_glosses": [
@@ -441,6 +477,24 @@
       "source_repo": "be5invis/Sarasa-Gothic",
       "status": "candidate",
       "text": "This is SARASA GOTHIC, a CJK composite font based on Inter, Iosevka and Source Han Sans."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "miiton/Cica",
+      "status": "candidate",
+      "text": "| | |"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "olikraus/u8g2",
+      "status": "candidate",
+      "text": "[![Gitpod Ready-to-Code](https://img.shields.io/badge/Gitpod-Ready--to--Code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/olikraus/u8g2)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "source-foundry/Hack",
+      "status": "candidate",
+      "text": "[![GitHub release](https://img.shields.io/github/release/source-foundry/hack.svg?style=flat)](https://github.com/source-foundry/Hack/releases/latest)"
     }
   ],
   "candidate_related_terms": [
@@ -664,11 +718,35 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "be5invis/Sarasa-Gothic"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "miiton/Cica"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "fonttools/fontbakery"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "olikraus/u8g2"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "source-foundry/Hack"
     }
   ],
   "first_seen_at": "2026-04-19T04:47:57.443742+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

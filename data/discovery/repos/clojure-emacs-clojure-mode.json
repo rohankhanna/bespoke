@@ -1,0 +1,204 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "jcs090218/setup-emacs@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "emacs-eldev/setup-eldev@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "clojure-emacs/clojure-mode",
+      "target": "clojure-emacs/inf-clojure",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "clojure-emacs/clojure-mode",
+      "target": "clojure-emacs/clj-refactor.el",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "clojure-emacs/clojure-mode",
+      "target": "fuco1/smartparens",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "clojure-emacs/clojure-mode",
+      "target": "fanael/rainbow-delimiters",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "clojure-emacs/clojure-mode",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "clojure-emacs/clojure-mode",
+      "target": "jcs090218/setup-emacs@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "clojure-emacs/clojure-mode",
+      "target": "emacs-eldev/setup-eldev@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "clojure-emacs/clojure-mode",
+      "target": "clojure",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "clojure-emacs/clojure-mode",
+      "target": "clojure-mode",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "clojure-emacs/clojure-mode",
+      "target": "emacs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "clojure-emacs/clojure-mode",
+      "target": "emacs-lisp",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "clojure-emacs/clojure-mode",
+      "target": "emacs-package",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "clojure-emacs/clojure-mode",
+      "target": "major-mode",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T00:39:10.582138+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 28944
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 896
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Emacs support for the Clojure(Script) programming language",
+    "fork": false,
+    "full_name": "clojure-emacs/clojure-mode",
+    "html_url": "https://github.com/clojure-emacs/clojure-mode",
+    "language": "Emacs Lisp",
+    "pushed_at": "2026-03-25T14:35:53Z",
+    "stargazers_count": 990,
+    "topics": [
+      "clojure",
+      "clojure-mode",
+      "emacs",
+      "emacs-lisp",
+      "emacs-package",
+      "major-mode"
+    ],
+    "updated_at": "2026-04-07T11:58:00Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "clojure-emacs/clj-refactor.el",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "clojure-emacs/inf-clojure",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "fanael/rainbow-delimiters",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "fuco1/smartparens",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[![CI](https://github.com/clojure-emacs/clojure-mode/actions/workflows/ci.yml/badge.svg)](https://github.com/clojure-emacs/clojure-mode/actions/workflows/ci.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "clojure"
+    },
+    {
+      "context_snippet": "[![CI](https://github.com/clojure-emacs/clojure-mode/actions/workflows/ci.yml/badge.svg)](https://github.com/clojure-emacs/clojure-mode/actions/workflows/ci.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "clojure-mode"
+    },
+    {
+      "context_snippet": "[![CI](https://github.com/clojure-emacs/clojure-mode/actions/workflows/ci.yml/badge.svg)](https://github.com/clojure-emacs/clojure-mode/actions/workflows/ci.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "emacs"
+    },
+    {
+      "context_snippet": "[![CI](https://github.com/clojure-emacs/clojure-mode/actions/workflows/ci.yml/badge.svg)](https://github.com/clojure-emacs/clojure-mode/actions/workflows/ci.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "emacs-lisp"
+    },
+    {
+      "context_snippet": "[![CI](https://github.com/clojure-emacs/clojure-mode/actions/workflows/ci.yml/badge.svg)](https://github.com/clojure-emacs/clojure-mode/actions/workflows/ci.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "emacs-package"
+    },
+    {
+      "context_snippet": "[![CI](https://github.com/clojure-emacs/clojure-mode/actions/workflows/ci.yml/badge.svg)](https://github.com/clojure-emacs/clojure-mode/actions/workflows/ci.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "major-mode"
+    }
+  ]
+}

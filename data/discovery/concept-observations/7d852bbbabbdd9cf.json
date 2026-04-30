@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Ava BASIC"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Note: probably done for now."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Note: probably done for now."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40042025,
+      "status": "candidate",
+      "text": "essential"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40041507,
+      "status": "candidate",
+      "text": "first"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40041386,
+      "status": "candidate",
+      "text": "primary"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40039655,
+      "status": "candidate",
+      "text": "elementary"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40039394,
+      "status": "candidate",
+      "text": "fundamental"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "basic",
+      "sense_id": "basic#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 60042,
+      "status": "candidate",
+      "text": "essential"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 58114,
+      "status": "candidate",
+      "text": "base"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 52043,
+      "status": "candidate",
+      "text": "fundamental"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 46076,
+      "status": "candidate",
+      "text": "standard"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 42061,
+      "status": "candidate",
+      "text": "radical"
+    }
+  ],
+  "concept_id": "basic",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "basic",
+  "observation_id": "7d852bbbabbdd9cf",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T00:37:16.824464+00:00",
+  "observed_text": "basic",
+  "source_context_snippet": "Note: probably done for now.",
+  "source_file": null,
+  "source_repo": "charlottia/ava",
+  "source_repo_description": "Ava BASIC"
+}

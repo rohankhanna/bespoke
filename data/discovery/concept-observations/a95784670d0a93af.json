@@ -84,7 +84,7 @@
   "normalized_form": "labels",
   "observation_id": "a95784670d0a93af",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_at": "2026-04-30T00:37:16.824464+00:00",
   "observed_text": "Labels",
   "source_context_snippet": "Labels",
   "source_file": ".github/workflows/labeler.yml",

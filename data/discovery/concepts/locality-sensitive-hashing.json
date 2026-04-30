@@ -19,6 +19,18 @@
       "source_repo": "spotify/annoy",
       "status": "candidate-context",
       "text": "Annoy"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "alexklibisz/elastiknn",
+      "status": "candidate-context",
+      "text": "Elasticsearch plugin for nearest neighbor search. Store vectors and run similarity search using exact and approximate algorithms."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alexklibisz/elastiknn",
+      "status": "candidate-context",
+      "text": "Elasticsearch plugin for similarity search on dense floating point and sparse boolean vectors."
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "spotify/annoy",
       "status": "candidate",
       "text": "Annoy"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alexklibisz/elastiknn",
+      "status": "candidate",
+      "text": "Elasticsearch plugin for similarity search on dense floating point and sparse boolean vectors."
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-24T12:33:41.350224+00:00",
       "source_file": null,
       "source_repo": "spotify/annoy"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "alexklibisz/elastiknn"
     }
   ],
   "first_seen_at": "2026-04-24T12:33:41.350224+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

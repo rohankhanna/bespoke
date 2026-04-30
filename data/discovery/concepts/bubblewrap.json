@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "bubblewrap"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "DavHau/nix-portable",
+      "status": "candidate-context",
+      "text": "Nix - Static, Permissionless, Installation-free, Pre-configured"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DavHau/nix-portable",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DavHau/nix-portable",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19921555,
+      "status": "candidate",
+      "text": "bubble wrap"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19921554,
+      "status": "candidate",
+      "text": "shrink-wrap"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19921553,
+      "status": "candidate",
+      "text": "air bladder"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19921552,
+      "status": "candidate",
+      "text": "wrapping"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19921551,
+      "status": "candidate",
+      "text": "padded envelope"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "bubblewrap",
+  "concept_id": "bubblewrap",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "DavHau/nix-portable"
+    }
+  ],
+  "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "bubblewrap",
+      "sense_id": "bubblewrap#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

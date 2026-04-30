@@ -1,0 +1,83 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr_build.yml"
+    },
+    {
+      "component": "actions/setup-go@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr_build.yml"
+    },
+    {
+      "component": "medyagh/setup-minikube@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr_build.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr_build.yml",
+      "source_repo": "spiffe/spire-tutorials",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr_build.yml",
+      "source_repo": "spiffe/spire-tutorials",
+      "target": "actions/setup-go@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr_build.yml",
+      "source_repo": "spiffe/spire-tutorials",
+      "target": "medyagh/setup-minikube@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr_build.yml",
+      "source_repo": "spiffe/spire-tutorials",
+      "target": "PR Build",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T01:42:12.039128+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1804
+    },
+    {
+      "path": ".github/workflows/pr_build.yml",
+      "size": 629
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "spiffe/spire-tutorials",
+    "html_url": "https://github.com/spiffe/spire-tutorials",
+    "language": "Shell",
+    "pushed_at": "2025-04-23T06:17:31Z",
+    "stargazers_count": 115,
+    "topics": [],
+    "updated_at": "2026-04-29T20:29:30Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "PR Build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr_build.yml",
+      "term": "PR Build"
+    }
+  ]
+}

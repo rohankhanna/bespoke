@@ -274,6 +274,18 @@
       "source_repo": "graphql-hive/graphql-inspector",
       "status": "candidate-context",
       "text": "website"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mosn/mosn.io",
+      "status": "candidate-context",
+      "text": "Source for mosn.io site"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mosn/mosn.io",
+      "status": "candidate-context",
+      "text": "Source for mosn.io site <https://mosn.io>."
     }
   ],
   "candidate_glosses": [
@@ -408,6 +420,12 @@
       "source_repo": "graphql-hive/graphql-inspector",
       "status": "candidate",
       "text": "website"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mosn/mosn.io",
+      "status": "candidate",
+      "text": "Source for mosn.io site <https://mosn.io>."
     }
   ],
   "candidate_related_terms": [
@@ -655,11 +673,35 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": ".github/workflows/website.yml",
       "source_repo": "graphql-hive/graphql-inspector"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "mosn/mosn.io"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/website.yml",
+      "source_repo": "ardatan/graphql-tools"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/website.yml",
+      "source_repo": "graphql-hive/graphql-eslint"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/website.yml",
+      "source_repo": "graphql-hive/graphql-config"
     }
   ],
   "first_seen_at": "2026-04-18T11:56:18.570627+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

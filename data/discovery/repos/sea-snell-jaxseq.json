@@ -1,0 +1,157 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Sea-Snell/JAXSeq",
+      "target": "brentyi/tyro",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Sea-Snell/JAXSeq",
+      "target": "google/maxtext",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Sea-Snell/JAXSeq",
+      "target": "salesforce/jaxformer",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Sea-Snell/JAXSeq",
+      "target": "deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Sea-Snell/JAXSeq",
+      "target": "flax",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Sea-Snell/JAXSeq",
+      "target": "gpt2",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Sea-Snell/JAXSeq",
+      "target": "gpt3",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Sea-Snell/JAXSeq",
+      "target": "huggingface",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Sea-Snell/JAXSeq",
+      "target": "language-models",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T02:02:26.688339+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3904
+    },
+    {
+      "path": "requirements.txt",
+      "size": 483
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Train very large language models in Jax.",
+    "fork": false,
+    "full_name": "Sea-Snell/JAXSeq",
+    "html_url": "https://github.com/Sea-Snell/JAXSeq",
+    "language": "Python",
+    "pushed_at": "2023-10-21T19:26:58Z",
+    "stargazers_count": 209,
+    "topics": [
+      "deep-learning",
+      "flax",
+      "gpt2",
+      "gpt3",
+      "huggingface",
+      "jax",
+      "language-models",
+      "opt"
+    ],
+    "updated_at": "2026-04-10T19:12:34Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "brentyi/tyro",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "google/maxtext",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "salesforce/jaxformer",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "**Note: this is version 2.0 of JaxSeq. It supports Jax V0.4, and there are quite few updates that should make it easier to work with. However, if you are dependent on the old version, I would reccoment pulling from the old_version branch, or the version 1.0 commit under github v\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-learning"
+    },
+    {
+      "context_snippet": "**Note: this is version 2.0 of JaxSeq. It supports Jax V0.4, and there are quite few updates that should make it easier to work with. However, if you are dependent on the old version, I would reccoment pulling from the old_version branch, or the version 1.0 commit under github v\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "flax"
+    },
+    {
+      "context_snippet": "**Note: this is version 2.0 of JaxSeq. It supports Jax V0.4, and there are quite few updates that should make it easier to work with. However, if you are dependent on the old version, I would reccoment pulling from the old_version branch, or the version 1.0 commit under github v\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gpt2"
+    },
+    {
+      "context_snippet": "**Note: this is version 2.0 of JaxSeq. It supports Jax V0.4, and there are quite few updates that should make it easier to work with. However, if you are dependent on the old version, I would reccoment pulling from the old_version branch, or the version 1.0 commit under github v\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gpt3"
+    },
+    {
+      "context_snippet": "**Note: this is version 2.0 of JaxSeq. It supports Jax V0.4, and there are quite few updates that should make it easier to work with. However, if you are dependent on the old version, I would reccoment pulling from the old_version branch, or the version 1.0 commit under github v\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "huggingface"
+    },
+    {
+      "context_snippet": "**Note: this is version 2.0 of JaxSeq. It supports Jax V0.4, and there are quite few updates that should make it easier to work with. However, if you are dependent on the old version, I would reccoment pulling from the old_version branch, or the version 1.0 commit under github v\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "language-models"
+    }
+  ]
+}

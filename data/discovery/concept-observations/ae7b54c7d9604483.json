@@ -1,0 +1,122 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Lip and hair color editor using face parsing maps."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Lip and hair color editor using face parsing maps."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Lip and hair color editor using face parsing maps."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39907827,
+      "status": "candidate",
+      "text": "make-up"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39904292,
+      "status": "candidate",
+      "text": "war paint"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39807308,
+      "status": "candidate",
+      "text": "composition"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39707230,
+      "status": "candidate",
+      "text": "constitution"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29908105,
+      "status": "candidate",
+      "text": "mascara"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "makeup",
+      "sense_id": "makeup#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 35066,
+      "status": "candidate",
+      "text": "composition"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 1030,
+      "status": "candidate",
+      "text": "make-up"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 1025,
+      "status": "candidate",
+      "text": "war paint"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": null,
+      "status": "candidate",
+      "text": "constitution"
+    }
+  ],
+  "concept_id": "makeup",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "makeup",
+  "observation_id": "ae7b54c7d9604483",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T00:37:16.824464+00:00",
+  "observed_text": "makeup",
+  "source_context_snippet": "Lip and hair color editor using face parsing maps.",
+  "source_file": null,
+  "source_repo": "zllrunning/face-makeup.PyTorch",
+  "source_repo_description": "Lip and hair color editor using face parsing maps."
+}

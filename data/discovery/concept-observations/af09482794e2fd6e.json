@@ -1,0 +1,88 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Release a crate"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Release a crate"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12619,
+      "status": "candidate",
+      "text": "bin"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12619,
+      "status": "candidate",
+      "text": "empty"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12619,
+      "status": "candidate",
+      "text": "heap"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12619,
+      "status": "candidate",
+      "text": "packing box"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12619,
+      "status": "candidate",
+      "text": "packing case"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Release a crate",
+      "sense_id": "release-a-crate#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "release-a-crate",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "release-a-crate",
+  "observation_id": "af09482794e2fd6e",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-30T00:37:16.824464+00:00",
+  "observed_text": "Release a crate",
+  "source_context_snippet": "Release a crate",
+  "source_file": ".github/workflows/onrelease.yml",
+  "source_repo": "passcod/cargo-release-pr-test",
+  "source_repo_description": null
+}

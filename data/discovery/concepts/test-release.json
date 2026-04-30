@@ -2,7 +2,8 @@
   "aliases": [
     "Test & Release",
     "test-release",
-    "Test Release"
+    "Test Release",
+    "Test release"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -51,6 +52,18 @@
       "source_repo": "grafana/k8s-monitoring-helm",
       "status": "candidate-context",
       "text": "Test Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "plotly/plotly.py",
+      "status": "candidate-context",
+      "text": "The interactive graphing library for Python :sparkles:"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "plotly/plotly.py",
+      "status": "candidate-context",
+      "text": "Test release"
     }
   ],
   "candidate_glosses": [
@@ -77,6 +90,12 @@
       "source_repo": "grafana/k8s-monitoring-helm",
       "status": "candidate",
       "text": "Test Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "plotly/plotly.py",
+      "status": "candidate",
+      "text": "Test release"
     }
   ],
   "candidate_related_terms": [
@@ -114,6 +133,34 @@
       "score": 11635,
       "status": "candidate",
       "text": "float"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10133403,
+      "status": "candidate",
+      "text": "beta"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10132403,
+      "status": "candidate",
+      "text": "alpha"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10012513,
+      "status": "candidate",
+      "text": "beta software"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9996203,
+      "status": "candidate",
+      "text": "condition"
     }
   ],
   "candidate_synonyms": [],
@@ -168,11 +215,23 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": ".github/workflows/_test_release.yml",
       "source_repo": "chatchat-space/Langchain-Chatchat"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/_test_release.yml",
+      "source_repo": "chatchat-space/Langchain-Chatchat"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/test-release.yml",
+      "source_repo": "plotly/plotly.py"
     }
   ],
   "first_seen_at": "2026-04-18T11:41:43.530265+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

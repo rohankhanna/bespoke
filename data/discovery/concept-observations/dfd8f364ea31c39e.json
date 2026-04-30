@@ -84,7 +84,7 @@
   "normalized_form": "kubernetes",
   "observation_id": "dfd8f364ea31c39e",
   "observation_kind": "repo-topic",
-  "observed_at": "2026-04-29T18:37:00.726333+00:00",
+  "observed_at": "2026-04-30T00:37:16.824464+00:00",
   "observed_text": "kubernetes",
   "source_context_snippet": "[![GitHub Actions Build Status](https://github.com/ko-build/ko/workflows/Build/badge.svg)](https://github.com/ko-build/ko/actions?query=workflow%3ABuild)",
   "source_file": null,

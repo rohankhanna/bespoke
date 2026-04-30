@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "An open-source implementaion for Gemma3 series by Google."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "This repository contains a script for training [Gemma3](https://huggingface.co/google/gemma-3-4b-it) with only using HuggingFace."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "This repository contains a script for training [Gemma3](https://huggingface.co/google/gemma-3-4b-it) with only using HuggingFace."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "gemma3",
+      "sense_id": "gemma3#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "gemma3",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "gemma3",
+  "observation_id": "9b5d3dd88a9967a6",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T00:37:16.824464+00:00",
+  "observed_text": "gemma3",
+  "source_context_snippet": "This repository contains a script for training [Gemma3](https://huggingface.co/google/gemma-3-4b-it) with only using HuggingFace.",
+  "source_file": null,
+  "source_repo": "2U1/Gemma3-Finetune",
+  "source_repo_description": "An open-source implementaion for Gemma3 series by Google."
+}

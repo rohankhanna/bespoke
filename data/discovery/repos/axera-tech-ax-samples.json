@@ -1,0 +1,267 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_615_glibc.yaml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_620q_uclibc.yaml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_630c_glibc.yaml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_637.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_650.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_615_glibc.yaml",
+      "source_repo": "AXERA-TECH/ax-samples",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_620q_uclibc.yaml",
+      "source_repo": "AXERA-TECH/ax-samples",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_630c_glibc.yaml",
+      "source_repo": "AXERA-TECH/ax-samples",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_637.yml",
+      "source_repo": "AXERA-TECH/ax-samples",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_650.yml",
+      "source_repo": "AXERA-TECH/ax-samples",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AXERA-TECH/ax-samples",
+      "target": "artificial-intelligence",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AXERA-TECH/ax-samples",
+      "target": "axera",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AXERA-TECH/ax-samples",
+      "target": "neural-network",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AXERA-TECH/ax-samples",
+      "target": "onnx",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AXERA-TECH/ax-samples",
+      "target": "yolo-world-v2",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AXERA-TECH/ax-samples",
+      "target": "yolo11",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AXERA-TECH/ax-samples",
+      "target": "yolov10",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AXERA-TECH/ax-samples",
+      "target": "yolov5",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AXERA-TECH/ax-samples",
+      "target": "yolov6",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AXERA-TECH/ax-samples",
+      "target": "yolov8",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AXERA-TECH/ax-samples",
+      "target": "yolox",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T01:56:26.821824+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3091
+    },
+    {
+      "path": ".github/workflows/build_615_glibc.yaml",
+      "size": 1390
+    },
+    {
+      "path": ".github/workflows/build_620q_uclibc.yaml",
+      "size": 1897
+    },
+    {
+      "path": ".github/workflows/build_630c_glibc.yaml",
+      "size": 1936
+    },
+    {
+      "path": ".github/workflows/build_637.yml",
+      "size": 1255
+    },
+    {
+      "path": ".github/workflows/build_650.yml",
+      "size": 1912
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Samples code for world class Artificial Intelligence SoCs for computer vision applications.",
+    "fork": false,
+    "full_name": "AXERA-TECH/ax-samples",
+    "html_url": "https://github.com/AXERA-TECH/ax-samples",
+    "language": "CMake",
+    "pushed_at": "2026-04-29T04:34:15Z",
+    "stargazers_count": 290,
+    "topics": [
+      "arm",
+      "artificial-intelligence",
+      "axera",
+      "neural-network",
+      "npu",
+      "onnx",
+      "yolo-world-v2",
+      "yolo11",
+      "yolov10",
+      "yolov5",
+      "yolov6",
+      "yolov8",
+      "yolox"
+    ],
+    "updated_at": "2026-04-29T04:34:19Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "[English](./README_EN.md) | \u7b80\u4f53\u4e2d\u6587",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "artificial-intelligence"
+    },
+    {
+      "context_snippet": "[English](./README_EN.md) | \u7b80\u4f53\u4e2d\u6587",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "axera"
+    },
+    {
+      "context_snippet": "[English](./README_EN.md) | \u7b80\u4f53\u4e2d\u6587",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "neural-network"
+    },
+    {
+      "context_snippet": "[English](./README_EN.md) | \u7b80\u4f53\u4e2d\u6587",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "onnx"
+    },
+    {
+      "context_snippet": "[English](./README_EN.md) | \u7b80\u4f53\u4e2d\u6587",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "yolo-world-v2"
+    },
+    {
+      "context_snippet": "[English](./README_EN.md) | \u7b80\u4f53\u4e2d\u6587",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "yolo11"
+    },
+    {
+      "context_snippet": "[English](./README_EN.md) | \u7b80\u4f53\u4e2d\u6587",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "yolov10"
+    },
+    {
+      "context_snippet": "[English](./README_EN.md) | \u7b80\u4f53\u4e2d\u6587",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "yolov5"
+    },
+    {
+      "context_snippet": "[English](./README_EN.md) | \u7b80\u4f53\u4e2d\u6587",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "yolov6"
+    },
+    {
+      "context_snippet": "[English](./README_EN.md) | \u7b80\u4f53\u4e2d\u6587",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "yolov8"
+    },
+    {
+      "context_snippet": "[English](./README_EN.md) | \u7b80\u4f53\u4e2d\u6587",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "yolox"
+    }
+  ]
+}

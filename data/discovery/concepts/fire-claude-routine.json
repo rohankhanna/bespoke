@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Fire Claude Routine"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "a16z/jolt",
+      "status": "candidate-context",
+      "text": "The simplest and most extensible zkVM. Fast and fully open source from a16z crypto and friends. \u26a1"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "a16z/jolt",
+      "status": "candidate-context",
+      "text": "Fire Claude Routine"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "a16z/jolt",
+      "status": "candidate",
+      "text": "Fire Claude Routine"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14980,
+      "status": "candidate",
+      "text": "exile"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14445,
+      "status": "candidate",
+      "text": "rains"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14135,
+      "status": "candidate",
+      "text": "gel"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 13537,
+      "status": "candidate",
+      "text": "gene"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 13537,
+      "status": "candidate",
+      "text": "toga"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Fire Claude Routine",
+  "concept_id": "fire-claude-routine",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/_fire-claude-routine.yml",
+      "source_repo": "a16z/jolt"
+    }
+  ],
+  "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Fire Claude Routine",
+      "sense_id": "fire-claude-routine#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

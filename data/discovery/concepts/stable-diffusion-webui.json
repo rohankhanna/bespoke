@@ -115,6 +115,42 @@
       "source_repo": "wkpark/uddetailer",
       "status": "candidate-context",
       "text": "This is yet another detection detailer named \u03bc-Detection Detailer (shortly \u03bc-DDetailer) forked from [DDetailer](https://github.com/dustysys/ddetailer)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "haofanwang/Lora-for-Diffusers",
+      "status": "candidate-context",
+      "text": "The most easy-to-understand tutorial for using LoRA (Low-Rank Adaptation) within diffusers framework for AI Generation Researchers\ud83d\udd25"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "haofanwang/Lora-for-Diffusers",
+      "status": "candidate-context",
+      "text": "This repository provides the simplest tutorial code for AIGC researchers to use Lora in just a few lines. Using this handbook, you can easily play with any Lora model from active communities such as [Huggingface](https://huggingface.co/) and [cititai](https://civitai.com/)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pkuliyi2015/multidiffusion-upscaler-for-automatic1111",
+      "status": "candidate-context",
+      "text": "Tiled Diffusion and VAE optimize, licensed under CC BY-NC-SA 4.0"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pkuliyi2015/multidiffusion-upscaler-for-automatic1111",
+      "status": "candidate-context",
+      "text": "[![CC BY-NC-SA 4.0][cc-by-nc-sa-shield]][cc-by-nc-sa]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pkuliyi2015/sd-webui-stablesr",
+      "status": "candidate-context",
+      "text": "StableSR for Stable Diffusion WebUI - Ultra High-quality Image Upscaler"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pkuliyi2015/sd-webui-stablesr",
+      "status": "candidate-context",
+      "text": "Licensed under [S-Lab License 1.0](https://github.com/IceClear/StableSR/blob/main/LICENSE.txt)"
     }
   ],
   "candidate_glosses": [
@@ -171,6 +207,24 @@
       "source_repo": "wkpark/uddetailer",
       "status": "candidate",
       "text": "This is yet another detection detailer named \u03bc-Detection Detailer (shortly \u03bc-DDetailer) forked from [DDetailer](https://github.com/dustysys/ddetailer)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "haofanwang/Lora-for-Diffusers",
+      "status": "candidate",
+      "text": "This repository provides the simplest tutorial code for AIGC researchers to use Lora in just a few lines. Using this handbook, you can easily play with any Lora model from active communities such as [Huggingface](https://huggingface.co/) and [cititai](https://civitai.com/)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pkuliyi2015/multidiffusion-upscaler-for-automatic1111",
+      "status": "candidate",
+      "text": "[![CC BY-NC-SA 4.0][cc-by-nc-sa-shield]][cc-by-nc-sa]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pkuliyi2015/sd-webui-stablesr",
+      "status": "candidate",
+      "text": "Licensed under [S-Lab License 1.0](https://github.com/IceClear/StableSR/blob/main/LICENSE.txt)"
     }
   ],
   "candidate_related_terms": [],
@@ -232,11 +286,29 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "wkpark/uddetailer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "haofanwang/Lora-for-Diffusers"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "pkuliyi2015/multidiffusion-upscaler-for-automatic1111"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "pkuliyi2015/sd-webui-stablesr"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

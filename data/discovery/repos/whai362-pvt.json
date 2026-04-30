@@ -1,0 +1,138 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "whai362/PVT",
+      "target": "whai362/pvtv2-seg",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "whai362/PVT",
+      "target": "dengpingfan/polyp-pvt",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "whai362/PVT",
+      "target": "gewelsji/mvlt",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "whai362/PVT",
+      "target": "backbone",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "whai362/PVT",
+      "target": "detection",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "whai362/PVT",
+      "target": "pvtv2",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "whai362/PVT",
+      "target": "segmentation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "whai362/PVT",
+      "target": "transformer",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T01:59:59.387768+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6174
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "v2",
+    "description": "Official implementation of PVT series",
+    "fork": false,
+    "full_name": "whai362/PVT",
+    "html_url": "https://github.com/whai362/PVT",
+    "language": "Python",
+    "pushed_at": "2022-10-27T08:47:14Z",
+    "stargazers_count": 1893,
+    "topics": [
+      "backbone",
+      "detection",
+      "pvt",
+      "pvtv2",
+      "segmentation",
+      "transformer"
+    ],
+    "updated_at": "2026-04-29T03:46:11Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dengpingfan/polyp-pvt",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "gewelsji/mvlt",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "whai362/pvtv2-seg",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "- (2022/08/09) Application examples for polyp segmentation (polyp-pvt) and vision-language modeling.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "backbone"
+    },
+    {
+      "context_snippet": "- (2022/08/09) Application examples for polyp segmentation (polyp-pvt) and vision-language modeling.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "detection"
+    },
+    {
+      "context_snippet": "- (2022/08/09) Application examples for polyp segmentation (polyp-pvt) and vision-language modeling.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pvtv2"
+    },
+    {
+      "context_snippet": "- (2022/08/09) Application examples for polyp segmentation (polyp-pvt) and vision-language modeling.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "segmentation"
+    },
+    {
+      "context_snippet": "- (2022/08/09) Application examples for polyp segmentation (polyp-pvt) and vision-language modeling.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "transformer"
+    }
+  ]
+}

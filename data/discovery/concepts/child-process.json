@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "child-process"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "google/zx",
+      "status": "candidate-context",
+      "text": "A tool for writing better scripts"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/zx",
+      "status": "candidate-context",
+      "text": "<h1><img src=\"https://google.github.io/zx/img/logo.svg\" alt=\"Zx logo\" height=\"32\" width=\"28\" valign=\"middle\"> zx</h1>"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/zx",
+      "status": "candidate",
+      "text": "<h1><img src=\"https://google.github.io/zx/img/logo.svg\" alt=\"Zx logo\" height=\"32\" width=\"28\" valign=\"middle\"> zx</h1>"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "child-process",
+  "concept_id": "child-process",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "google/zx"
+    }
+  ],
+  "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "child-process",
+      "sense_id": "child-process#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

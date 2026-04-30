@@ -1,0 +1,77 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "facebookresearch/SparseConvNet",
+      "target": "btgraham/sparseconvnet",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "facebookresearch/SparseConvNet",
+      "target": "btgraham/sparseconvnet-archived",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "facebookresearch/SparseConvNet",
+      "target": "mit-han-lab/torchsparse",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "facebookresearch/SparseConvNet",
+      "target": "kumuji/mix3d",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T05:14:13.853813+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 11581
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "main",
+    "description": "Submanifold sparse convolutional networks",
+    "fork": false,
+    "full_name": "facebookresearch/SparseConvNet",
+    "html_url": "https://github.com/facebookresearch/SparseConvNet",
+    "language": "C++",
+    "pushed_at": "2024-01-09T01:47:27Z",
+    "stargazers_count": 2141,
+    "topics": [],
+    "updated_at": "2026-04-10T15:14:23Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "btgraham/sparseconvnet",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "btgraham/sparseconvnet-archived",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "kumuji/mix3d",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mit-han-lab/torchsparse",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

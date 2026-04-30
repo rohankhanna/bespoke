@@ -1,0 +1,174 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "gpuweb/gpuweb",
+      "target": "gpuweb/admin",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-push-custom-image.yml",
+      "source_repo": "gpuweb/gpuweb",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-push-custom-image.yml",
+      "source_repo": "gpuweb/gpuweb",
+      "target": "docker/setup-buildx-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-push-custom-image.yml",
+      "source_repo": "gpuweb/gpuweb",
+      "target": "docker/login-action@v3.0.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-push-custom-image.yml",
+      "source_repo": "gpuweb/gpuweb",
+      "target": "docker/metadata-action@v5.3.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-push-custom-image.yml",
+      "source_repo": "gpuweb/gpuweb",
+      "target": "docker/build-push-action@v5.1.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-push-custom-image.yml",
+      "source_repo": "gpuweb/gpuweb",
+      "target": "build-push-custom-image",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-validate-publish.yml",
+      "source_repo": "gpuweb/gpuweb",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-validate-publish.yml",
+      "source_repo": "gpuweb/gpuweb",
+      "target": "JamesIves/github-pages-deploy-action@v4.4.2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-validate-publish.yml",
+      "source_repo": "gpuweb/gpuweb",
+      "target": "build-validate-publish",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/preview-pull-request.yml",
+      "source_repo": "gpuweb/gpuweb",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/preview-pull-request.yml",
+      "source_repo": "gpuweb/gpuweb",
+      "target": "peaceiris/actions-gh-pages@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/preview-pull-request.yml",
+      "source_repo": "gpuweb/gpuweb",
+      "target": "peter-evans/find-comment@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/preview-pull-request.yml",
+      "source_repo": "gpuweb/gpuweb",
+      "target": "peter-evans/create-or-update-comment@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/preview-pull-request.yml",
+      "source_repo": "gpuweb/gpuweb",
+      "target": "preview-pull-request",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-TR-webgpu.yml",
+      "source_repo": "gpuweb/gpuweb",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-TR-webgpu.yml",
+      "source_repo": "gpuweb/gpuweb",
+      "target": "w3c/spec-prod@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish-TR-webgpu.yml",
+      "source_repo": "gpuweb/gpuweb",
+      "target": "publish-TR-webgpu",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-TR-wgsl.yml",
+      "source_repo": "gpuweb/gpuweb",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-TR-wgsl.yml",
+      "source_repo": "gpuweb/gpuweb",
+      "target": "w3c/spec-prod@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish-TR-wgsl.yml",
+      "source_repo": "gpuweb/gpuweb",
+      "target": "publish-TR-wgsl",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gpuweb/gpuweb",
+      "target": "gpgpu-computing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gpuweb/gpuweb",
+      "target": "webgpu",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gpuweb/gpuweb",
+      "target": "wgsl",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-30T00:37:16.824464+00:00",
+  "source_repo": "gpuweb/gpuweb"
+}

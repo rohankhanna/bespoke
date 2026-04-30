@@ -85,6 +85,30 @@
       "source_repo": "ipfs/go-ipfs-example-plugin",
       "status": "candidate-context",
       "text": "Releaser"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "filecoin-project/builtin-actors",
+      "status": "candidate-context",
+      "text": "The Filecoin built-in actors"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "filecoin-project/builtin-actors",
+      "status": "candidate-context",
+      "text": "Releaser"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ipfs/go-log",
+      "status": "candidate-context",
+      "text": "A logging library used by go-ipfs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ipfs/go-log",
+      "status": "candidate-context",
+      "text": "Releaser"
     }
   ],
   "candidate_glosses": [
@@ -127,6 +151,18 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "ipfs/go-ipfs-example-plugin",
+      "status": "candidate",
+      "text": "Releaser"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "filecoin-project/builtin-actors",
+      "status": "candidate",
+      "text": "Releaser"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ipfs/go-log",
       "status": "candidate",
       "text": "Releaser"
     }
@@ -268,11 +304,35 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": ".github/workflows/releaser.yml",
       "source_repo": "ipfs/go-ipfs-example-plugin"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/releaser.yml",
+      "source_repo": "filecoin-project/builtin-actors"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/releaser.yml",
+      "source_repo": "ipfs/go-log"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/cli-release.yaml",
+      "source_repo": "docker-archive/compose-cli"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/cli-release.yaml",
+      "source_repo": "docker-archive-public/docker.compose-ecs"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

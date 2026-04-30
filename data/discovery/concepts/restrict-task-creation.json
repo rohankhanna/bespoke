@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Restrict task creation"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "home-assistant/addons",
+      "status": "candidate-context",
+      "text": ":heavy_plus_sign: Docker add-ons for Home Assistant"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "home-assistant/addons",
+      "status": "candidate-context",
+      "text": "Restrict task creation"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "home-assistant/addons",
+      "status": "candidate",
+      "text": "Restrict task creation"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18182,
+      "status": "candidate",
+      "text": "block"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18135,
+      "status": "candidate",
+      "text": "bind"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18135,
+      "status": "candidate",
+      "text": "cao"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18135,
+      "status": "candidate",
+      "text": "cap"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18135,
+      "status": "candidate",
+      "text": "capped"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Restrict task creation",
+  "concept_id": "restrict-task-creation",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/restrict-task-creation.yml",
+      "source_repo": "home-assistant/addons"
+    }
+  ],
+  "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Restrict task creation",
+      "sense_id": "restrict-task-creation#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

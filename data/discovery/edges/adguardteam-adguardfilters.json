@@ -1,0 +1,209 @@
+{
+  "edges": [
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "AdguardTeam/AdguardFilters",
+      "target": "@adguard/aglint",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "AdguardTeam/AdguardFilters",
+      "target": "husky",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "AdguardTeam/AdguardFilters",
+      "target": "lint-staged",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "AdguardTeam/AdguardFilters",
+      "target": "markdownlint",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "AdguardTeam/AdguardFilters",
+      "target": "markdownlint-cli",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/aglint.yml",
+      "source_repo": "AdguardTeam/AdguardFilters",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/aglint.yml",
+      "source_repo": "AdguardTeam/AdguardFilters",
+      "target": "actions/setup-node@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/aglint.yml",
+      "source_repo": "AdguardTeam/AdguardFilters",
+      "target": "actions/cache@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/aglint.yml",
+      "source_repo": "AdguardTeam/AdguardFilters",
+      "target": "8398a7/action-slack@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/aglint.yml",
+      "source_repo": "AdguardTeam/AdguardFilters",
+      "target": "AGLint",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/assign-on-label.yml",
+      "source_repo": "AdguardTeam/AdguardFilters",
+      "target": "actions/github-script@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/change-on-reopen.yml",
+      "source_repo": "AdguardTeam/AdguardFilters",
+      "target": "actions/github-script@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/markdownlint.yml",
+      "source_repo": "AdguardTeam/AdguardFilters",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/markdownlint.yml",
+      "source_repo": "AdguardTeam/AdguardFilters",
+      "target": "actions/setup-node@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/markdownlint.yml",
+      "source_repo": "AdguardTeam/AdguardFilters",
+      "target": "8398a7/action-slack@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/markdownlint.yml",
+      "source_repo": "AdguardTeam/AdguardFilters",
+      "target": "markdownlint",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rm-labels-on-closed.yml",
+      "source_repo": "AdguardTeam/AdguardFilters",
+      "target": "actions/github-script@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rotating-domains-checker.yml",
+      "source_repo": "AdguardTeam/AdguardFilters",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rotating-domains-checker.yml",
+      "source_repo": "AdguardTeam/AdguardFilters",
+      "target": "Alex-302/RotatingDomainsChecker@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/rotating-domains-checker.yml",
+      "source_repo": "AdguardTeam/AdguardFilters",
+      "target": "Rotating Domains Checker",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stale_issues_gh.yml",
+      "source_repo": "AdguardTeam/AdguardFilters",
+      "target": "actions/stale@v10",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/stale_issues_gh.yml",
+      "source_repo": "AdguardTeam/AdguardFilters",
+      "target": "Close stale issues created via github",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stale_issues_high.yml",
+      "source_repo": "AdguardTeam/AdguardFilters",
+      "target": "actions/stale@v10",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/stale_issues_high.yml",
+      "source_repo": "AdguardTeam/AdguardFilters",
+      "target": "Close stale issues with high priority",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AdguardTeam/AdguardFilters",
+      "target": "adblock",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AdguardTeam/AdguardFilters",
+      "target": "adguard",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AdguardTeam/AdguardFilters",
+      "target": "filter-list",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AdguardTeam/AdguardFilters",
+      "target": "open-source",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AdguardTeam/AdguardFilters",
+      "target": "ublock",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-30T00:37:16.824464+00:00",
+  "source_repo": "AdguardTeam/AdguardFilters"
+}

@@ -181,6 +181,30 @@
       "source_repo": "XAMPPRocky/tokei",
       "status": "candidate-context",
       "text": "Release-plz"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "eopb/cargo-override",
+      "status": "candidate-context",
+      "text": "The quickest way to override dependencies with Cargo"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "eopb/cargo-override",
+      "status": "candidate-context",
+      "text": "Release-plz"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cargo-bins/cargo-binstall",
+      "status": "candidate-context",
+      "text": "Binary installation for rust projects"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cargo-bins/cargo-binstall",
+      "status": "candidate-context",
+      "text": "Release-plz"
     }
   ],
   "candidate_glosses": [
@@ -271,6 +295,18 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "XAMPPRocky/tokei",
+      "status": "candidate",
+      "text": "Release-plz"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "eopb/cargo-override",
+      "status": "candidate",
+      "text": "Release-plz"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cargo-bins/cargo-binstall",
       "status": "candidate",
       "text": "Release-plz"
     }
@@ -400,11 +436,29 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": ".github/workflows/release-plz.yaml",
       "source_repo": "XAMPPRocky/tokei"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/release-plz.yml",
+      "source_repo": "eopb/cargo-override"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/release-plz.yml",
+      "source_repo": "cargo-bins/cargo-binstall"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/release-plz.yml",
+      "source_repo": "cargo-bins/cargo-quickinstall"
     }
   ],
   "first_seen_at": "2026-04-18T11:32:22.637859+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

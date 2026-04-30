@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A linter for prose."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<img src=\"https://raw.githubusercontent.com/amperser/proselint/main/logo.png\" alt=\"proselint logo\" width=\"200\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<img src=\"https://raw.githubusercontent.com/amperser/proselint/main/logo.png\" alt=\"proselint logo\" width=\"200\">"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30040187,
+      "status": "candidate",
+      "text": "stylus"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30003234,
+      "status": "candidate",
+      "text": "dash"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30002889,
+      "status": "candidate",
+      "text": "way"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29992319,
+      "status": "candidate",
+      "text": "elan"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29984142,
+      "status": "candidate",
+      "text": "cut"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "style",
+      "sense_id": "style#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 30058,
+      "status": "candidate",
+      "text": "dash"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 29039,
+      "status": "candidate",
+      "text": "panache"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 17041,
+      "status": "candidate",
+      "text": "flair"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 13088,
+      "status": "candidate",
+      "text": "cut"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 12084,
+      "status": "candidate",
+      "text": "mode"
+    }
+  ],
+  "concept_id": "style",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "style",
+  "observation_id": "10a637140e8b599c",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T00:37:16.824464+00:00",
+  "observed_text": "style",
+  "source_context_snippet": "<img src=\"https://raw.githubusercontent.com/amperser/proselint/main/logo.png\" alt=\"proselint logo\" width=\"200\">",
+  "source_file": null,
+  "source_repo": "amperser/proselint",
+  "source_repo_description": "A linter for prose."
+}

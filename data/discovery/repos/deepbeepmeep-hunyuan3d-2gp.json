@@ -1,0 +1,81 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "deepbeepmeep/Hunyuan3D-2GP",
+      "target": "deepbeepmeep/mmgp",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "deepbeepmeep/Hunyuan3D-2GP",
+      "target": "deepbeepmeep/hunyuanvideogp",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "deepbeepmeep/Hunyuan3D-2GP",
+      "target": "deepbeepmeep/ominicontrolgp",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "deepbeepmeep/Hunyuan3D-2GP",
+      "target": "darkon12/hunyuan3d-2gp_kaggle",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T03:56:22.141348+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 16893
+    },
+    {
+      "path": "requirements.txt",
+      "size": 455
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "GPU Poor Version of Hunyuan3D-2",
+    "fork": true,
+    "full_name": "deepbeepmeep/Hunyuan3D-2GP",
+    "html_url": "https://github.com/deepbeepmeep/Hunyuan3D-2GP",
+    "language": "Python",
+    "pushed_at": "2025-03-29T00:24:07Z",
+    "stargazers_count": 420,
+    "topics": [],
+    "updated_at": "2026-04-29T11:55:54Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "darkon12/hunyuan3d-2gp_kaggle",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "deepbeepmeep/hunyuanvideogp",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "deepbeepmeep/mmgp",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "deepbeepmeep/ominicontrolgp",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

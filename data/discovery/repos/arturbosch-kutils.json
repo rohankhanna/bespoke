@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T05:05:38.218576+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1241
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "My kotlin utilities.",
+    "fork": false,
+    "full_name": "arturbosch/kutils",
+    "html_url": "https://github.com/arturbosch/kutils",
+    "language": "Kotlin",
+    "pushed_at": "2022-08-23T16:36:10Z",
+    "stargazers_count": 10,
+    "topics": [],
+    "updated_at": "2023-01-07T12:35:40Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

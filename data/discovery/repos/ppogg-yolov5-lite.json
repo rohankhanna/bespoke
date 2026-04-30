@@ -1,0 +1,268 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ppogg/YOLOv5-Lite",
+      "target": "axera-tech/ax-models",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ppogg/YOLOv5-Lite",
+      "target": "ppogg/autolabelimg",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ppogg/YOLOv5-Lite",
+      "target": "megvii-model/shufflenet-series",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ppogg/YOLOv5-Lite",
+      "target": "android-app",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ppogg/YOLOv5-Lite",
+      "target": "mobilenet",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ppogg/YOLOv5-Lite",
+      "target": "ncnn",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ppogg/YOLOv5-Lite",
+      "target": "onnxruntime",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ppogg/YOLOv5-Lite",
+      "target": "openvivo",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ppogg/YOLOv5-Lite",
+      "target": "picodet",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ppogg/YOLOv5-Lite",
+      "target": "pplcnet",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ppogg/YOLOv5-Lite",
+      "target": "pytorch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ppogg/YOLOv5-Lite",
+      "target": "repvgg",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ppogg/YOLOv5-Lite",
+      "target": "shufflenetv2",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ppogg/YOLOv5-Lite",
+      "target": "tensorrt",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ppogg/YOLOv5-Lite",
+      "target": "tflite",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ppogg/YOLOv5-Lite",
+      "target": "transformer",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ppogg/YOLOv5-Lite",
+      "target": "yolov5",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T05:12:13.880920+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 14713
+    },
+    {
+      "path": "requirements.txt",
+      "size": 599
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "\ud83c\udf45\ud83c\udf45\ud83c\udf45YOLOv5-Lite: Evolved from yolov5 and the size of model is only 900+kb (int8) and 1.7M (fp16). Reach 15 FPS on the Raspberry Pi 4B~",
+    "fork": false,
+    "full_name": "ppogg/YOLOv5-Lite",
+    "html_url": "https://github.com/ppogg/YOLOv5-Lite",
+    "language": "C++",
+    "pushed_at": "2024-06-22T02:13:22Z",
+    "stargazers_count": 2486,
+    "topics": [
+      "android-app",
+      "mnn",
+      "mobilenet",
+      "ncnn",
+      "onnxruntime",
+      "openvivo",
+      "picodet",
+      "pplcnet",
+      "pytorch",
+      "repvgg",
+      "shufflenetv2",
+      "tensorrt",
+      "tflite",
+      "transformer",
+      "yolov5"
+    ],
+    "updated_at": "2026-04-30T03:33:04Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "axera-tech/ax-models",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "megvii-model/shufflenet-series",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ppogg/autolabelimg",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "![\u8bba\u6587\u63d2\u56fe](https://user-images.githubusercontent.com/82716366/167448925-a431d3a4-ad5d-491d-be95-c90701122a54.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "android-app"
+    },
+    {
+      "context_snippet": "![\u8bba\u6587\u63d2\u56fe](https://user-images.githubusercontent.com/82716366/167448925-a431d3a4-ad5d-491d-be95-c90701122a54.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mobilenet"
+    },
+    {
+      "context_snippet": "![\u8bba\u6587\u63d2\u56fe](https://user-images.githubusercontent.com/82716366/167448925-a431d3a4-ad5d-491d-be95-c90701122a54.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ncnn"
+    },
+    {
+      "context_snippet": "![\u8bba\u6587\u63d2\u56fe](https://user-images.githubusercontent.com/82716366/167448925-a431d3a4-ad5d-491d-be95-c90701122a54.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "onnxruntime"
+    },
+    {
+      "context_snippet": "![\u8bba\u6587\u63d2\u56fe](https://user-images.githubusercontent.com/82716366/167448925-a431d3a4-ad5d-491d-be95-c90701122a54.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "openvivo"
+    },
+    {
+      "context_snippet": "![\u8bba\u6587\u63d2\u56fe](https://user-images.githubusercontent.com/82716366/167448925-a431d3a4-ad5d-491d-be95-c90701122a54.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "picodet"
+    },
+    {
+      "context_snippet": "![\u8bba\u6587\u63d2\u56fe](https://user-images.githubusercontent.com/82716366/167448925-a431d3a4-ad5d-491d-be95-c90701122a54.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pplcnet"
+    },
+    {
+      "context_snippet": "![\u8bba\u6587\u63d2\u56fe](https://user-images.githubusercontent.com/82716366/167448925-a431d3a4-ad5d-491d-be95-c90701122a54.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytorch"
+    },
+    {
+      "context_snippet": "![\u8bba\u6587\u63d2\u56fe](https://user-images.githubusercontent.com/82716366/167448925-a431d3a4-ad5d-491d-be95-c90701122a54.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "repvgg"
+    },
+    {
+      "context_snippet": "![\u8bba\u6587\u63d2\u56fe](https://user-images.githubusercontent.com/82716366/167448925-a431d3a4-ad5d-491d-be95-c90701122a54.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "shufflenetv2"
+    },
+    {
+      "context_snippet": "![\u8bba\u6587\u63d2\u56fe](https://user-images.githubusercontent.com/82716366/167448925-a431d3a4-ad5d-491d-be95-c90701122a54.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tensorrt"
+    },
+    {
+      "context_snippet": "![\u8bba\u6587\u63d2\u56fe](https://user-images.githubusercontent.com/82716366/167448925-a431d3a4-ad5d-491d-be95-c90701122a54.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tflite"
+    },
+    {
+      "context_snippet": "![\u8bba\u6587\u63d2\u56fe](https://user-images.githubusercontent.com/82716366/167448925-a431d3a4-ad5d-491d-be95-c90701122a54.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "transformer"
+    },
+    {
+      "context_snippet": "![\u8bba\u6587\u63d2\u56fe](https://user-images.githubusercontent.com/82716366/167448925-a431d3a4-ad5d-491d-be95-c90701122a54.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "yolov5"
+    }
+  ]
+}

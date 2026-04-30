@@ -82,6 +82,30 @@
       "source_repo": "microsoft/playwright",
       "status": "candidate-context",
       "text": "[![npm version](https://img.shields.io/npm/v/playwright.svg)](https://www.npmjs.com/package/playwright) <!-- GEN:chromium-version-badge -->[![Chromium version](https://img.shields.io/badge/chromium-147.0.7727.49-blue.svg?logo=google-chrome)](https://www.chromium.org/Home)<!-- GE\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "paulocoutinhox/pdfium-lib",
+      "status": "candidate-context",
+      "text": "PDFium - Project to compile PDFium library to multiple platforms."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "paulocoutinhox/pdfium-lib",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pyppeteer/pyppeteer",
+      "status": "candidate-context",
+      "text": "Headless chrome/chromium automation library (unofficial port of puppeteer)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pyppeteer/pyppeteer",
+      "status": "candidate-context",
+      "text": "If you are interested in maintaining this, please contact [me](https://github.com/Mattwmaster58)"
     }
   ],
   "candidate_glosses": [
@@ -120,6 +144,18 @@
       "source_repo": "microsoft/playwright",
       "status": "candidate",
       "text": "[![npm version](https://img.shields.io/npm/v/playwright.svg)](https://www.npmjs.com/package/playwright) <!-- GEN:chromium-version-badge -->[![Chromium version](https://img.shields.io/badge/chromium-147.0.7727.49-blue.svg?logo=google-chrome)](https://www.chromium.org/Home)<!-- GE\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "paulocoutinhox/pdfium-lib",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pyppeteer/pyppeteer",
+      "status": "candidate",
+      "text": "If you are interested in maintaining this, please contact [me](https://github.com/Mattwmaster58)"
     }
   ],
   "candidate_related_terms": [
@@ -236,11 +272,29 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "microsoft/Microsoft-Performance-Tools-Linux-Android"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "paulocoutinhox/pdfium-lib"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "microsoft/Microsoft-Performance-Tools-Linux-Android"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "pyppeteer/pyppeteer"
     }
   ],
   "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

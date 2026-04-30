@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "GitHub Actions Security Analysis"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Kludex/python-multipart",
+      "status": "candidate-context",
+      "text": "A streaming multipart parser for Python."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Kludex/python-multipart",
+      "status": "candidate-context",
+      "text": "GitHub Actions Security Analysis"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Kludex/python-multipart",
+      "status": "candidate",
+      "text": "GitHub Actions Security Analysis"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26246,
+      "status": "candidate",
+      "text": "behaviourism"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26126,
+      "status": "candidate",
+      "text": "only"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26126,
+      "status": "candidate",
+      "text": "self-examination"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18807,
+      "status": "candidate",
+      "text": "hold"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17884,
+      "status": "candidate",
+      "text": "case"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "GitHub Actions Security Analysis",
+  "concept_id": "github-actions-security-analysis",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/zizmor.yml",
+      "source_repo": "Kludex/python-multipart"
+    }
+  ],
+  "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "GitHub Actions Security Analysis",
+      "sense_id": "github-actions-security-analysis#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

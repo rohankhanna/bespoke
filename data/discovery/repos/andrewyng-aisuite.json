@@ -1,0 +1,116 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/black.yml"
+    },
+    {
+      "component": "psf/black@stable",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/black.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run_pytest.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run_pytest.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/black.yml",
+      "source_repo": "andrewyng/aisuite",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/black.yml",
+      "source_repo": "andrewyng/aisuite",
+      "target": "psf/black@stable",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/black.yml",
+      "source_repo": "andrewyng/aisuite",
+      "target": "Lint",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run_pytest.yml",
+      "source_repo": "andrewyng/aisuite",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run_pytest.yml",
+      "source_repo": "andrewyng/aisuite",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/run_pytest.yml",
+      "source_repo": "andrewyng/aisuite",
+      "target": "Lint",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T02:40:49.240056+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 11541
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 2985
+    },
+    {
+      "path": ".github/workflows/black.yml",
+      "size": 154
+    },
+    {
+      "path": ".github/workflows/run_pytest.yml",
+      "size": 636
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Simple, unified interface to multiple Generative AI providers ",
+    "fork": false,
+    "full_name": "andrewyng/aisuite",
+    "html_url": "https://github.com/andrewyng/aisuite",
+    "language": "Python",
+    "pushed_at": "2025-12-15T23:26:33Z",
+    "stargazers_count": 13748,
+    "topics": [],
+    "updated_at": "2026-04-29T07:45:52Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Lint",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/black.yml",
+      "term": "Lint"
+    },
+    {
+      "context_snippet": "Lint",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/run_pytest.yml",
+      "term": "Lint"
+    }
+  ]
+}

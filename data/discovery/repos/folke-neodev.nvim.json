@@ -1,0 +1,231 @@
+{
+  "components": [
+    {
+      "component": "folke/github/.github/workflows/ci.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "folke/github/.github/workflows/labeler.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/labeler.yml"
+    },
+    {
+      "component": "folke/github/.github/workflows/pr.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr.yml"
+    },
+    {
+      "component": "folke/github/.github/workflows/stale.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stale.yml"
+    },
+    {
+      "component": "folke/github/.github/workflows/update.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "folke/neodev.nvim",
+      "target": "luvit/luv",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "folke/neodev.nvim",
+      "target": "folke/neoconf.nvim",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "folke/neodev.nvim",
+      "target": "folke/github/.github/workflows/ci.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/labeler.yml",
+      "source_repo": "folke/neodev.nvim",
+      "target": "folke/github/.github/workflows/labeler.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/labeler.yml",
+      "source_repo": "folke/neodev.nvim",
+      "target": "PR Labeler",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr.yml",
+      "source_repo": "folke/neodev.nvim",
+      "target": "folke/github/.github/workflows/pr.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr.yml",
+      "source_repo": "folke/neodev.nvim",
+      "target": "PR Title",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "folke/neodev.nvim",
+      "target": "folke/github/.github/workflows/stale.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "folke/neodev.nvim",
+      "target": "Stale Issues & PRs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update.yml",
+      "source_repo": "folke/neodev.nvim",
+      "target": "folke/github/.github/workflows/update.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/update.yml",
+      "source_repo": "folke/neodev.nvim",
+      "target": "Update Repo",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "folke/neodev.nvim",
+      "target": "neovim",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "folke/neodev.nvim",
+      "target": "neovim-lsp",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "folke/neodev.nvim",
+      "target": "neovim-plugin",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T04:13:23.083647+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4714
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 239
+    },
+    {
+      "path": ".github/workflows/labeler.yml",
+      "size": 144
+    },
+    {
+      "path": ".github/workflows/pr.yml",
+      "size": 275
+    },
+    {
+      "path": ".github/workflows/stale.yml",
+      "size": 157
+    },
+    {
+      "path": ".github/workflows/update.yml",
+      "size": 192
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "main",
+    "description": "\ud83d\udcbb  Neovim setup for init.lua and plugin development with full signature help, docs and completion for the nvim lua API.",
+    "fork": false,
+    "full_name": "folke/neodev.nvim",
+    "html_url": "https://github.com/folke/neodev.nvim",
+    "language": "Lua",
+    "pushed_at": "2024-07-06T10:06:35Z",
+    "stargazers_count": 2000,
+    "topics": [
+      "lua",
+      "neovim",
+      "neovim-lsp",
+      "neovim-plugin"
+    ],
+    "updated_at": "2026-04-09T12:12:41Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "folke/neoconf.nvim",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "luvit/luv",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "\"PR Labeler\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/labeler.yml",
+      "term": "PR Labeler"
+    },
+    {
+      "context_snippet": "PR Title",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr.yml",
+      "term": "PR Title"
+    },
+    {
+      "context_snippet": "Stale Issues & PRs",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/stale.yml",
+      "term": "Stale Issues & PRs"
+    },
+    {
+      "context_snippet": "Update Repo",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/update.yml",
+      "term": "Update Repo"
+    },
+    {
+      "context_snippet": "> [!WARNING]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "neovim"
+    },
+    {
+      "context_snippet": "> [!WARNING]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "neovim-lsp"
+    },
+    {
+      "context_snippet": "> [!WARNING]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "neovim-plugin"
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "dskkato/rjo",
+      "target": "skanehira/gjo",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dskkato/rjo",
+      "target": "command-line",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dskkato/rjo",
+      "target": "json",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dskkato/rjo",
+      "target": "rust",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T03:57:39.611823+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2014
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 684
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A small utility to create JSON objects, written in Rust.",
+    "fork": false,
+    "full_name": "dskkato/rjo",
+    "html_url": "https://github.com/dskkato/rjo",
+    "language": "Rust",
+    "pushed_at": "2023-06-06T02:15:22Z",
+    "stargazers_count": 68,
+    "topics": [
+      "command-line",
+      "json",
+      "rust"
+    ],
+    "updated_at": "2025-06-02T20:06:39Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "skanehira/gjo",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[![rjo](https://img.shields.io/crates/v/rjo.svg)](https://crates.io/crates/rjo)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "command-line"
+    },
+    {
+      "context_snippet": "[![rjo](https://img.shields.io/crates/v/rjo.svg)](https://crates.io/crates/rjo)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "json"
+    },
+    {
+      "context_snippet": "[![rjo](https://img.shields.io/crates/v/rjo.svg)](https://crates.io/crates/rjo)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rust"
+    }
+  ]
+}

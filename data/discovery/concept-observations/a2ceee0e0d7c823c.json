@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A fixed income library for pricing bonds and bond futures, and derivatives such as interest rate swaps (IRS), cross-currency swaps (XCS) and FX swaps. Contains tools for full curveset construction with market standard optimisers and automatic differentiation (AD) and risk sensitivity calculations including delta and cross-gamma."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Manual Package Release - Windows"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Manual Package Release - Windows"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27579,
+      "status": "candidate",
+      "text": "defenestration"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27233,
+      "status": "candidate",
+      "text": "press"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27199,
+      "status": "candidate",
+      "text": "installment"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27199,
+      "status": "candidate",
+      "text": "mechanize"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27199,
+      "status": "candidate",
+      "text": "serial"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Manual Package Release - Windows",
+      "sense_id": "manual-package-release---windows#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "manual-package-release---windows",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "manual-package-release---windows",
+  "observation_id": "a2ceee0e0d7c823c",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-30T00:37:16.824464+00:00",
+  "observed_text": "Manual Package Release - Windows",
+  "source_context_snippet": "Manual Package Release - Windows",
+  "source_file": ".github/workflows/release-windows.yml",
+  "source_repo": "attack68/rateslib",
+  "source_repo_description": "A fixed income library for pricing bonds and bond futures, and derivatives such as interest rate swaps (IRS), cross-currency swaps (XCS) and FX swaps. Contains tools for full curveset construction with market standard optimisers and automatic differentiation (AD) and risk sensitivity calculations including delta and cross-gamma."
+}

@@ -1,0 +1,94 @@
+{
+  "aliases": [
+    "Release Alpha and Propose Stable"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "OpenVoiceOS/ovos-tts-plugin-piper",
+      "status": "candidate-context",
+      "text": "Release Alpha and Propose Stable"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "OpenVoiceOS/ovos-tts-plugin-piper",
+      "status": "candidate",
+      "text": "Release Alpha and Propose Stable"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 33909,
+      "status": "candidate",
+      "text": "sulphur trioxide"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27191,
+      "status": "candidate",
+      "text": "post"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27168,
+      "status": "candidate",
+      "text": "releasing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26765,
+      "status": "candidate",
+      "text": "beta software"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26092,
+      "status": "candidate",
+      "text": "linspire"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Release Alpha and Propose Stable",
+  "concept_id": "release-alpha-and-propose-stable",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/release_workflow.yml",
+      "source_repo": "OpenVoiceOS/ovos-tts-plugin-piper"
+    }
+  ],
+  "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Release Alpha and Propose Stable",
+      "sense_id": "release-alpha-and-propose-stable#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

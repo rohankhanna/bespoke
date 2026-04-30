@@ -43,6 +43,30 @@
       "source_repo": "MunifTanjim/nui.nvim",
       "status": "candidate-context",
       "text": "![GitHub Workflow Status: CI](https://img.shields.io/github/actions/workflow/status/MunifTanjim/nui.nvim/ci.yml?branch=main&label=CI&style=for-the-badge)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "appbaseio/reactivesearch",
+      "status": "candidate-context",
+      "text": "Search UI components for React and Vue"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "appbaseio/reactivesearch",
+      "status": "candidate-context",
+      "text": "<h2 align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "day8/re-com",
+      "status": "candidate-context",
+      "text": "A ClojureScript library of reusable components for Reagent"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "day8/re-com",
+      "status": "candidate-context",
+      "text": "<!-- [![CI](https://github.com/day8/re-com/workflows/ci/badge.svg)](https://github.com/day8/re-com/actions?workflow=ci)"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +87,18 @@
       "source_repo": "MunifTanjim/nui.nvim",
       "status": "candidate",
       "text": "![GitHub Workflow Status: CI](https://img.shields.io/github/actions/workflow/status/MunifTanjim/nui.nvim/ci.yml?branch=main&label=CI&style=for-the-badge)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "appbaseio/reactivesearch",
+      "status": "candidate",
+      "text": "<h2 align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "day8/re-com",
+      "status": "candidate",
+      "text": "<!-- [![CI](https://github.com/day8/re-com/workflows/ci/badge.svg)](https://github.com/day8/re-com/actions?workflow=ci)"
     }
   ],
   "candidate_related_terms": [],
@@ -88,11 +124,23 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": null,
       "source_repo": "MunifTanjim/nui.nvim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "appbaseio/reactivesearch"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "day8/re-com"
     }
   ],
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,81 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "morhetz/gruvbox",
+      "target": "belluzj/fantasque-sans",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "morhetz/gruvbox",
+      "target": "kien/rainbow_parentheses.vim",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "morhetz/gruvbox",
+      "target": "bling/vim-airline",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "morhetz/gruvbox",
+      "target": "justinmk/vim-dirvish",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T04:08:02.718208+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3879
+    },
+    {
+      "path": "package.json",
+      "size": 201
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Retro groove color scheme for Vim",
+    "fork": false,
+    "full_name": "morhetz/gruvbox",
+    "html_url": "https://github.com/morhetz/gruvbox",
+    "language": "Vim Script",
+    "pushed_at": "2025-04-20T09:02:21Z",
+    "stargazers_count": 15468,
+    "topics": [],
+    "updated_at": "2026-04-30T01:22:08Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "belluzj/fantasque-sans",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "bling/vim-airline",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "justinmk/vim-dirvish",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "kien/rainbow_parentheses.vim",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

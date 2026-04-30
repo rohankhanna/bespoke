@@ -43,6 +43,18 @@
       "source_repo": "kurrent-io/KurrentDB-Client-Java",
       "status": "candidate-context",
       "text": "Load KurrentDB Runtime Configuration"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kurrent-io/KurrentDB-Client-NodeJS",
+      "status": "candidate-context",
+      "text": "KurrentDB NodeJS Client"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kurrent-io/KurrentDB-Client-NodeJS",
+      "status": "candidate-context",
+      "text": "Load KurrentDB Runtime Configuration"
     }
   ],
   "candidate_glosses": [
@@ -61,6 +73,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "kurrent-io/KurrentDB-Client-Java",
+      "status": "candidate",
+      "text": "Load KurrentDB Runtime Configuration"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kurrent-io/KurrentDB-Client-NodeJS",
       "status": "candidate",
       "text": "Load KurrentDB Runtime Configuration"
     }
@@ -136,11 +154,23 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": ".github/workflows/load-configuration.yml",
       "source_repo": "kurrent-io/KurrentDB-Client-Dotnet"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/load-configuration.yml",
+      "source_repo": "kurrent-io/KurrentDB-Client-Dotnet"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/load-configuration.yml",
+      "source_repo": "kurrent-io/KurrentDB-Client-NodeJS"
     }
   ],
   "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

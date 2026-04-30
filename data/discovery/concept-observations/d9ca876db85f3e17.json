@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Minor mode for Emacs that deals with parens pairs and tries to be smart about it."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![Join the chat at https://gitter.im/smartparens/Lobby](https://badges.gitter.im/smartparens/Lobby.svg)](https://gitter.im/smartparens/Lobby?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![Join the chat at https://gitter.im/smartparens/Lobby](https://badges.gitter.im/smartparens/Lobby.svg)](https://gitter.im/smartparens/Lobby?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "smartparens",
+      "sense_id": "smartparens#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "smartparens",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "smartparens",
+  "observation_id": "d9ca876db85f3e17",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T00:37:16.824464+00:00",
+  "observed_text": "smartparens",
+  "source_context_snippet": "[![Join the chat at https://gitter.im/smartparens/Lobby](https://badges.gitter.im/smartparens/Lobby.svg)](https://gitter.im/smartparens/Lobby?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)",
+  "source_file": null,
+  "source_repo": "Fuco1/smartparens",
+  "source_repo_description": "Minor mode for Emacs that deals with parens pairs and tries to be smart about it."
+}

@@ -1,0 +1,87 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "angelobreuer/localtunnel.net",
+      "target": "https",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "angelobreuer/localtunnel.net",
+      "target": "localtunnel",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "angelobreuer/localtunnel.net",
+      "target": "proxy",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "angelobreuer/localtunnel.net",
+      "target": "tunnel",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T03:54:17.067517+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5309
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": ".NET implementation of a tunnel client for localtunnel.me.",
+    "fork": false,
+    "full_name": "angelobreuer/localtunnel.net",
+    "html_url": "https://github.com/angelobreuer/localtunnel.net",
+    "language": "C#",
+    "pushed_at": "2024-09-28T09:49:48Z",
+    "stargazers_count": 134,
+    "topics": [
+      "https",
+      "localtunnel",
+      "proxy",
+      "ssl",
+      "tunnel"
+    ],
+    "updated_at": "2026-04-27T06:58:26Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": ".NET implementation of a tunnel client for [localtunnel.me](https://theboroer.github.io/localtunnel-www/).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "https"
+    },
+    {
+      "context_snippet": ".NET implementation of a tunnel client for [localtunnel.me](https://theboroer.github.io/localtunnel-www/).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "localtunnel"
+    },
+    {
+      "context_snippet": ".NET implementation of a tunnel client for [localtunnel.me](https://theboroer.github.io/localtunnel-www/).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "proxy"
+    },
+    {
+      "context_snippet": ".NET implementation of a tunnel client for [localtunnel.me](https://theboroer.github.io/localtunnel-www/).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tunnel"
+    }
+  ]
+}

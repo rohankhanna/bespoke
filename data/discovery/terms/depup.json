@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
@@ -11,6 +11,36 @@
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/depup.yml",
       "source_repo": "reviewdog/action-suggester"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/depup.yml",
+      "source_repo": "wemake-services/wemake-python-styleguide"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/depup.yml",
+      "source_repo": "reviewdog/reviewdog"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/depup.yml",
+      "source_repo": "haya14busa/action-bumpr"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/depup.yml",
+      "source_repo": "reviewdog/action-black"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/depup.yml",
+      "source_repo": "blooper05/action-rails_best_practices"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/depup.yml",
+      "source_repo": "brunohaf/action-bandit"
     }
   ],
   "term": "depup"

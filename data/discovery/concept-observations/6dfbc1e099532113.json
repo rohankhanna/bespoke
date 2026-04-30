@@ -1,0 +1,108 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A Spacemesh Terminal wallet app"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "July 2022 UPDATE: THIS TOOL (SMREPL) IS *NOT UP-TO-DATE OR COMPATIBLE* WITH OUR LATEST DEVNET."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "July 2022 UPDATE: THIS TOOL (SMREPL) IS *NOT UP-TO-DATE OR COMPATIBLE* WITH OUR LATEST DEVNET."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40039911,
+      "status": "candidate",
+      "text": "billfold"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40039556,
+      "status": "candidate",
+      "text": "notecase"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30039685,
+      "status": "candidate",
+      "text": "portfolio"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30033054,
+      "status": "candidate",
+      "text": "paper"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30031821,
+      "status": "candidate",
+      "text": "book"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "wallet",
+      "sense_id": "wallet#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 2027,
+      "status": "candidate",
+      "text": "billfold"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 16,
+      "status": "candidate",
+      "text": "notecase"
+    }
+  ],
+  "concept_id": "wallet",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "wallet",
+  "observation_id": "6dfbc1e099532113",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T00:37:16.824464+00:00",
+  "observed_text": "wallet",
+  "source_context_snippet": "July 2022 UPDATE: THIS TOOL (SMREPL) IS *NOT UP-TO-DATE OR COMPATIBLE* WITH OUR LATEST DEVNET.",
+  "source_file": null,
+  "source_repo": "spacemeshos/smrepl",
+  "source_repo_description": "A Spacemesh Terminal wallet app"
+}

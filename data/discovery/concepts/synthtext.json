@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "synthtext"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Sanster/text_renderer",
+      "status": "candidate-context",
+      "text": "Generate text images for training deep learning ocr model"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Sanster/text_renderer",
+      "status": "candidate-context",
+      "text": "Generate text images for training deep learning OCR model (e.g. [CRNN](https://github.com/bgshih/crnn))."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Sanster/text_renderer",
+      "status": "candidate",
+      "text": "Generate text images for training deep learning OCR model (e.g. [CRNN](https://github.com/bgshih/crnn))."
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "synthtext",
+  "concept_id": "synthtext",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "Sanster/text_renderer"
+    }
+  ],
+  "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "synthtext",
+      "sense_id": "synthtext#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

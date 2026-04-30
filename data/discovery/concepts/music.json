@@ -79,6 +79,30 @@
       "source_repo": "devgianlu/librespot-android",
       "status": "candidate-context",
       "text": "This is a demo application to demonstrate that it is possible to run [librespot-java](https://github.com/librespot-org/librespot-java) on an Android device. The app provides basic functionalities to login and then to play a custom URI, pause/resume, skip next and previous, but a\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "SpencerPark/MellowD",
+      "status": "candidate-context",
+      "text": "Programmable music! A compiler and high level language."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SpencerPark/MellowD",
+      "status": "candidate-context",
+      "text": "Mellow D"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mariolukas/HydraPlay",
+      "status": "candidate-context",
+      "text": "A multiroom audio player setup, based on snapcast and mopidy. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mariolukas/HydraPlay",
+      "status": "candidate-context",
+      "text": "HydraPlay is an easy to use multiroom audio player. HydraPlay provides an integrated web interface to multiple"
     }
   ],
   "candidate_glosses": [
@@ -117,6 +141,18 @@
       "source_repo": "devgianlu/librespot-android",
       "status": "candidate",
       "text": "This is a demo application to demonstrate that it is possible to run [librespot-java](https://github.com/librespot-org/librespot-java) on an Android device. The app provides basic functionalities to login and then to play a custom URI, pause/resume, skip next and previous, but a\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SpencerPark/MellowD",
+      "status": "candidate",
+      "text": "Mellow D"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mariolukas/HydraPlay",
+      "status": "candidate",
+      "text": "HydraPlay is an easy to use multiroom audio player. HydraPlay provides an integrated web interface to multiple"
     }
   ],
   "candidate_related_terms": [
@@ -224,11 +260,23 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "snapcast/snapcast"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "SpencerPark/MellowD"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "mariolukas/HydraPlay"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "roce"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "openucx/ucx",
+      "status": "candidate-context",
+      "text": "Unified Communication X  (mailing list - https://elist.ornl.gov/mailman/listinfo/ucx-group)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "openucx/ucx",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "openucx/ucx",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10008892,
+      "status": "candidate",
+      "text": "roate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10008891,
+      "status": "candidate",
+      "text": "return on investment"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10008890,
+      "status": "candidate",
+      "text": "rate of return"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10008889,
+      "status": "candidate",
+      "text": "revenue"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10008888,
+      "status": "candidate",
+      "text": "roro"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "roce",
+  "concept_id": "roce",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "openucx/ucx"
+    }
+  ],
+  "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "roce",
+      "sense_id": "roce#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

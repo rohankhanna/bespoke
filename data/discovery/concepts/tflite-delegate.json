@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "tflite-delegate"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "VeriSilicon/tflite-vx-delegate",
+      "status": "candidate-context",
+      "text": "Tensorflow Lite external delegate based on TIM-VX"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "VeriSilicon/tflite-vx-delegate",
+      "status": "candidate-context",
+      "text": "TfLite-vx-delegate constructed with TIM-VX as an openvx delegate for tensorflow lite. Before vx-delegate, you may have nnapi-linux version from VeriSilicon, we suggest you move to this new delegate because:"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "VeriSilicon/tflite-vx-delegate",
+      "status": "candidate",
+      "text": "TfLite-vx-delegate constructed with TIM-VX as an openvx delegate for tensorflow lite. Before vx-delegate, you may have nnapi-linux version from VeriSilicon, we suggest you move to this new delegate because:"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "tflite-delegate",
+  "concept_id": "tflite-delegate",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "VeriSilicon/tflite-vx-delegate"
+    }
+  ],
+  "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "tflite-delegate",
+      "sense_id": "tflite-delegate#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

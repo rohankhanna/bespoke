@@ -55,6 +55,18 @@
       "source_repo": "matrix-org/matrix-appservice-slack",
       "status": "candidate-context",
       "text": "The public Matrix.org Slack bridge has been decommissioned on January 14th, 2026. Please see the following"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "prometheus/alertmanager",
+      "status": "candidate-context",
+      "text": "Prometheus Alertmanager"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "prometheus/alertmanager",
+      "status": "candidate-context",
+      "text": "[![Docker Repository on Quay](https://quay.io/repository/prometheus/alertmanager/status \"Docker Repository on Quay\")][quay]"
     }
   ],
   "candidate_glosses": [
@@ -81,6 +93,12 @@
       "source_repo": "matrix-org/matrix-appservice-slack",
       "status": "candidate",
       "text": "The public Matrix.org Slack bridge has been decommissioned on January 14th, 2026. Please see the following"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "prometheus/alertmanager",
+      "status": "candidate",
+      "text": "[![Docker Repository on Quay](https://quay.io/repository/prometheus/alertmanager/status \"Docker Repository on Quay\")][quay]"
     }
   ],
   "candidate_related_terms": [
@@ -196,11 +214,17 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "matrix-org/matrix-appservice-slack"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "prometheus/alertmanager"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

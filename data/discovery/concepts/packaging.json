@@ -1,7 +1,8 @@
 {
   "aliases": [
     "packaging",
-    "Packaging"
+    "Packaging",
+    "\ud83d\udce6 Packaging"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -178,6 +179,24 @@
       "source_repo": "astral-sh/rye",
       "status": "candidate-context",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jazzband/pip-tools",
+      "status": "candidate-context",
+      "text": "A set of tools to keep your pinned Python dependencies fresh."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jazzband/pip-tools",
+      "status": "candidate-context",
+      "text": "\ud83d\udce6 Packaging"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jazzband/pip-tools",
+      "status": "candidate-context",
+      "text": "<!-- pyml disable-next-line first-line-heading -->"
     }
   ],
   "candidate_glosses": [
@@ -264,6 +283,18 @@
       "source_repo": "astral-sh/rye",
       "status": "candidate",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jazzband/pip-tools",
+      "status": "candidate",
+      "text": "\ud83d\udce6 Packaging"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jazzband/pip-tools",
+      "status": "candidate",
+      "text": "<!-- pyml disable-next-line first-line-heading -->"
     }
   ],
   "candidate_related_terms": [
@@ -301,6 +332,41 @@
       "score": 29998597,
       "status": "candidate",
       "text": "packed"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26424,
+      "status": "candidate",
+      "text": "conditioning"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26424,
+      "status": "candidate",
+      "text": "container"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26424,
+      "status": "candidate",
+      "text": "containers"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26424,
+      "status": "candidate",
+      "text": "fitness"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26424,
+      "status": "candidate",
+      "text": "format"
     }
   ],
   "candidate_synonyms": [],
@@ -415,11 +481,23 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "astral-sh/rye"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "jazzband/pip-tools"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "jazzband/pip-tools"
     }
   ],
   "first_seen_at": "2026-04-18T10:43:38.551697+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

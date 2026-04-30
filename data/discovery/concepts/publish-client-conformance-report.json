@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Publish client conformance report"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sigstore/sigstore-conformance",
+      "status": "candidate-context",
+      "text": "Conformance testing for Sigstore clients"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sigstore/sigstore-conformance",
+      "status": "candidate-context",
+      "text": "Publish client conformance report"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sigstore/sigstore-conformance",
+      "status": "candidate",
+      "text": "Publish client conformance report"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 44445,
+      "status": "candidate",
+      "text": "sound"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31974,
+      "status": "candidate",
+      "text": "bargain"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31974,
+      "status": "candidate",
+      "text": "stipulate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31974,
+      "status": "candidate",
+      "text": "transfer"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31795,
+      "status": "candidate",
+      "text": "reporting"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Publish client conformance report",
+  "concept_id": "publish-client-conformance-report",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/publish-report.yml",
+      "source_repo": "sigstore/sigstore-conformance"
+    }
+  ],
+  "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Publish client conformance report",
+      "sense_id": "publish-client-conformance-report#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

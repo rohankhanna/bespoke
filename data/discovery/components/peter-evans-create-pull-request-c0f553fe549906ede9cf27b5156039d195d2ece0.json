@@ -1,7 +1,7 @@
 {
   "component": "peter-evans/create-pull-request@c0f553fe549906ede9cf27b5156039d195d2ece0",
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -192,6 +192,31 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/update-dependencies.yml",
       "source_repo": "pypa/manylinux"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/_reusable-version-bump.yaml",
+      "source_repo": "open-edge-platform/anomalib"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/update-scalar-cli-documentation.yml",
+      "source_repo": "scalar/scalar"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/update-action-pins-major.yml",
+      "source_repo": "endojs/endo"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/update-action-pins.yml",
+      "source_repo": "endojs/endo"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/init-release.yaml",
+      "source_repo": "argoproj-labs/argocd-agent"
     }
   ]
 }

@@ -1,7 +1,7 @@
 {
   "component": "oven-sh/setup-bun@v2",
   "first_seen_at": "2026-04-17T18:04:43.852571+00:00",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -757,6 +757,31 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/external-tests.yml",
       "source_repo": "dmtrKovalenko/fff"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/bruno-check.yml",
+      "source_repo": "realworld-apps/realworld"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/deploy-docs.yml",
+      "source_repo": "realworld-apps/realworld"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "Chevrotain/chevrotain"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "Chevrotain/chevrotain"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test-hurl.yml",
+      "source_repo": "realworld-apps/nitro-prisma-zod-realworld-example-app"
     }
   ]
 }

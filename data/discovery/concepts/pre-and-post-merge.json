@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "pre-and-post-merge"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "vmware-archive/buildkit-cli-for-kubectl",
+      "status": "candidate-context",
+      "text": "BuildKit CLI for kubectl is a tool for building container images with your Kubernetes cluster"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vmware-archive/buildkit-cli-for-kubectl",
+      "status": "candidate-context",
+      "text": "pre-and-post-merge"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vmware-archive/buildkit-cli-for-kubectl",
+      "status": "candidate",
+      "text": "pre-and-post-merge"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "pre-and-post-merge",
+  "concept_id": "pre-and-post-merge",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/pull_request.yaml",
+      "source_repo": "vmware-archive/buildkit-cli-for-kubectl"
+    }
+  ],
+  "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "pre-and-post-merge",
+      "sense_id": "pre-and-post-merge#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

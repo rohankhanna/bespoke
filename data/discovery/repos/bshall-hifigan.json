@@ -1,0 +1,76 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bshall/hifigan",
+      "target": "pytorch-implementation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bshall/hifigan",
+      "target": "speech-synthesis",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bshall/hifigan",
+      "target": "voice-conversion",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T03:51:34.394945+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4786
+    },
+    {
+      "path": "requirements.txt",
+      "size": 62
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "An 16kHz implementation of HiFi-GAN for soft-vc.",
+    "fork": false,
+    "full_name": "bshall/hifigan",
+    "html_url": "https://github.com/bshall/hifigan",
+    "language": "Python",
+    "pushed_at": "2023-07-19T13:02:03Z",
+    "stargazers_count": 105,
+    "topics": [
+      "pytorch-implementation",
+      "speech-synthesis",
+      "voice-conversion"
+    ],
+    "updated_at": "2026-04-07T17:03:53Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "[![arXiv](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)](https://arxiv.org/abs/2111.02392)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytorch-implementation"
+    },
+    {
+      "context_snippet": "[![arXiv](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)](https://arxiv.org/abs/2111.02392)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "speech-synthesis"
+    },
+    {
+      "context_snippet": "[![arXiv](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)](https://arxiv.org/abs/2111.02392)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "voice-conversion"
+    }
+  ]
+}

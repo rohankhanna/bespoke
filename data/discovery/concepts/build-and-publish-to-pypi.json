@@ -44,6 +44,30 @@
       "source_repo": "MeteoSwiss/pyart",
       "status": "candidate-context",
       "text": "Build and publish to PyPI"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "OpenBMB/BMTrain",
+      "status": "candidate-context",
+      "text": "Efficient Training (including pre-training and fine-tuning) for Big Models"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "OpenBMB/BMTrain",
+      "status": "candidate-context",
+      "text": "Build and Publish to PyPI"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Dao-AILab/quack",
+      "status": "candidate-context",
+      "text": "A Quirky Assortment of CuTe Kernels"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Dao-AILab/quack",
+      "status": "candidate-context",
+      "text": "Build and Publish to PyPI"
     }
   ],
   "candidate_glosses": [
@@ -64,6 +88,18 @@
       "source_repo": "MeteoSwiss/pyart",
       "status": "candidate",
       "text": "Build and publish to PyPI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "OpenBMB/BMTrain",
+      "status": "candidate",
+      "text": "Build and Publish to PyPI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Dao-AILab/quack",
+      "status": "candidate",
+      "text": "Build and Publish to PyPI"
     }
   ],
   "candidate_related_terms": [
@@ -125,11 +161,23 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": ".github/workflows/publish_pypi.yml",
       "source_repo": "MeteoSwiss/pyart"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/publish.yaml",
+      "source_repo": "OpenBMB/BMTrain"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/publish.yaml",
+      "source_repo": "Dao-AILab/quack"
     }
   ],
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

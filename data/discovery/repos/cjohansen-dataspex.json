@@ -1,0 +1,94 @@
+{
+  "components": [
+    {
+      "component": "@js-joda/core",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "snabbdom",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "shadow-cljs",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "cjohansen/dataspex",
+      "target": "cjohansen/gadget-inspector",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "cjohansen/dataspex",
+      "target": "betterthantomorrow/calva-power-tools",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "cjohansen/dataspex",
+      "target": "@js-joda/core",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "cjohansen/dataspex",
+      "target": "snabbdom",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "cjohansen/dataspex",
+      "target": "shadow-cljs",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-04-30T04:04:29.245816+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8735
+    },
+    {
+      "path": "package.json",
+      "size": 140
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "See the shape of your data: point-and-click Clojure(Script) data browser",
+    "fork": false,
+    "full_name": "cjohansen/dataspex",
+    "html_url": "https://github.com/cjohansen/dataspex",
+    "language": "Clojure",
+    "pushed_at": "2026-04-19T13:27:43Z",
+    "stargazers_count": 128,
+    "topics": [],
+    "updated_at": "2026-04-29T18:26:39Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "betterthantomorrow/calva-power-tools",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cjohansen/gadget-inspector",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

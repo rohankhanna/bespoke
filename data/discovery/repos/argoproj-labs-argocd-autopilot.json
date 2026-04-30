@@ -1,0 +1,35 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T05:11:14.397569+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6784
+    },
+    {
+      "path": "Dockerfile",
+      "size": 924
+    },
+    {
+      "path": "go.mod",
+      "size": 17024
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Argo-CD Autopilot",
+    "fork": false,
+    "full_name": "argoproj-labs/argocd-autopilot",
+    "html_url": "https://github.com/argoproj-labs/argocd-autopilot",
+    "language": "Go",
+    "pushed_at": "2025-12-16T22:36:28Z",
+    "stargazers_count": 1114,
+    "topics": [],
+    "updated_at": "2026-04-24T15:34:02Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

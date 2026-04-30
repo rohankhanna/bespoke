@@ -1,0 +1,136 @@
+{
+  "aliases": [
+    "knockout"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "voidlabs/mosaico",
+      "status": "candidate-context",
+      "text": "Mosaico - Responsive Email Template Editor"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "voidlabs/mosaico",
+      "status": "candidate-context",
+      "text": "Mosaico is a JavaScript library (or maybe a single page application) supporting the editing of email templates."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "voidlabs/mosaico",
+      "status": "candidate",
+      "text": "Mosaico is a JavaScript library (or maybe a single page application) supporting the editing of email templates."
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40008214,
+      "status": "candidate",
+      "text": "smasher"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39984271,
+      "status": "candidate",
+      "text": "mantrap"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39965113,
+      "status": "candidate",
+      "text": "stunner"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39962194,
+      "status": "candidate",
+      "text": "severe"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39960629,
+      "status": "candidate",
+      "text": "hard"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 41037,
+      "status": "candidate",
+      "text": "severe"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 35050,
+      "status": "candidate",
+      "text": "strong"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 33057,
+      "status": "candidate",
+      "text": "hard"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 24048,
+      "status": "candidate",
+      "text": "peach"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 16036,
+      "status": "candidate",
+      "text": "sweetheart"
+    }
+  ],
+  "canonical_name": "knockout",
+  "concept_id": "knockout",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "voidlabs/mosaico"
+    }
+  ],
+  "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "knockout",
+      "sense_id": "knockout#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

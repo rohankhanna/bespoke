@@ -1,0 +1,223 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issue.yml"
+    },
+    {
+      "component": "shovel-org/GithubActions@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issue.yml"
+    },
+    {
+      "component": "actions/checkout@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issue_comment.yml"
+    },
+    {
+      "component": "shovel-org/GithubActions@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issue_comment.yml"
+    },
+    {
+      "component": "actions/checkout@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pull_request.yml"
+    },
+    {
+      "component": "shovel-org/GithubActions@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pull_request.yml"
+    },
+    {
+      "component": "actions/checkout@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/schedule.yml"
+    },
+    {
+      "component": "shovel-org/GithubActions@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/schedule.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issue.yml",
+      "source_repo": "shovel-org/Base",
+      "target": "actions/checkout@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issue.yml",
+      "source_repo": "shovel-org/Base",
+      "target": "shovel-org/GithubActions@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/issue.yml",
+      "source_repo": "shovel-org/Base",
+      "target": "Issues",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issue_comment.yml",
+      "source_repo": "shovel-org/Base",
+      "target": "actions/checkout@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issue_comment.yml",
+      "source_repo": "shovel-org/Base",
+      "target": "shovel-org/GithubActions@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/issue_comment.yml",
+      "source_repo": "shovel-org/Base",
+      "target": "Commented Pull Request",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pull_request.yml",
+      "source_repo": "shovel-org/Base",
+      "target": "actions/checkout@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pull_request.yml",
+      "source_repo": "shovel-org/Base",
+      "target": "shovel-org/GithubActions@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pull_request.yml",
+      "source_repo": "shovel-org/Base",
+      "target": "Pull Requests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/schedule.yml",
+      "source_repo": "shovel-org/Base",
+      "target": "actions/checkout@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/schedule.yml",
+      "source_repo": "shovel-org/Base",
+      "target": "shovel-org/GithubActions@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/schedule.yml",
+      "source_repo": "shovel-org/Base",
+      "target": "Excavator",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "shovel-org/Base",
+      "target": "shovel",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "shovel-org/Base",
+      "target": "shovel-bucket",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T04:00:36.414849+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1108
+    },
+    {
+      "path": ".github/workflows/issue.yml",
+      "size": 503
+    },
+    {
+      "path": ".github/workflows/issue_comment.yml",
+      "size": 517
+    },
+    {
+      "path": ".github/workflows/pull_request.yml",
+      "size": 404
+    },
+    {
+      "path": ".github/workflows/schedule.yml",
+      "size": 341
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "main",
+    "description": "Base bucket for Shovel installer. WIP replacement of main bucket",
+    "fork": false,
+    "full_name": "shovel-org/Base",
+    "html_url": "https://github.com/shovel-org/Base",
+    "language": "PowerShell",
+    "pushed_at": "2025-10-29T20:15:39Z",
+    "stargazers_count": 9,
+    "topics": [
+      "shovel",
+      "shovel-bucket"
+    ],
+    "updated_at": "2026-01-09T23:49:57Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Issues",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/issue.yml",
+      "term": "Issues"
+    },
+    {
+      "context_snippet": "Commented Pull Request",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/issue_comment.yml",
+      "term": "Commented Pull Request"
+    },
+    {
+      "context_snippet": "Pull Requests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pull_request.yml",
+      "term": "Pull Requests"
+    },
+    {
+      "context_snippet": "Excavator",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/schedule.yml",
+      "term": "Excavator"
+    },
+    {
+      "context_snippet": "`shovel bucket add Base`",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "shovel"
+    },
+    {
+      "context_snippet": "`shovel bucket add Base`",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "shovel-bucket"
+    }
+  ]
+}

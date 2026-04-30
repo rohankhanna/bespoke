@@ -78,13 +78,6 @@
   ],
   "edges": [
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "NVIDIA/Model-Optimizer",
-      "target": "onnx/onnx",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/_example_tests_runner.yml",
       "source_repo": "NVIDIA/Model-Optimizer",
@@ -246,7 +239,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-23T21:53:36.324469+00:00",
+  "fetched_at": "2026-04-30T03:04:38.232275+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -298,18 +291,12 @@
     "full_name": "NVIDIA/Model-Optimizer",
     "html_url": "https://github.com/NVIDIA/Model-Optimizer",
     "language": "Python",
-    "pushed_at": "2026-04-23T21:46:04Z",
-    "stargazers_count": 2559,
+    "pushed_at": "2026-04-30T02:22:12Z",
+    "stargazers_count": 2583,
     "topics": [],
-    "updated_at": "2026-04-23T21:37:22Z"
+    "updated_at": "2026-04-29T21:02:32Z"
   },
-  "repo_links": [
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "onnx/onnx",
-      "source_file": "README.md"
-    }
-  ],
+  "repo_links": [],
   "terms": [
     {
       "context_snippet": "Example Tests Runner",

@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "The simplest and most extensible zkVM. Fast and fully open source from a16z crypto and friends. \u26a1"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "![imgs/jolt_alpha.png](imgs/jolt_alpha.png)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "![imgs/jolt_alpha.png](imgs/jolt_alpha.png)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29863590,
+      "status": "candidate",
+      "text": "cypher"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29863559,
+      "status": "candidate",
+      "text": "cipher"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29863556,
+      "status": "candidate",
+      "text": "encrypted"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29863552,
+      "status": "candidate",
+      "text": "cryptographic"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29863413,
+      "status": "candidate",
+      "text": "cryptology"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "crypto",
+      "sense_id": "crypto#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "crypto",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "crypto",
+  "observation_id": "d204c7354e9e0166",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T00:37:16.824464+00:00",
+  "observed_text": "crypto",
+  "source_context_snippet": "![imgs/jolt_alpha.png](imgs/jolt_alpha.png)",
+  "source_file": null,
+  "source_repo": "a16z/jolt",
+  "source_repo_description": "The simplest and most extensible zkVM. Fast and fully open source from a16z crypto and friends. \u26a1"
+}

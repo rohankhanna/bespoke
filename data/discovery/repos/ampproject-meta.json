@@ -1,0 +1,53 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ampproject/meta",
+      "target": "ampproject/meta-tsc",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ampproject/meta",
+      "target": "ampproject/meta-ac",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T04:53:53.212642+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 607
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Information about the AMP open source project.",
+    "fork": false,
+    "full_name": "ampproject/meta",
+    "html_url": "https://github.com/ampproject/meta",
+    "language": null,
+    "pushed_at": "2023-02-12T08:56:48Z",
+    "stargazers_count": 89,
+    "topics": [],
+    "updated_at": "2026-03-20T23:55:12Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ampproject/meta-ac",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ampproject/meta-tsc",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

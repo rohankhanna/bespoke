@@ -1,0 +1,106 @@
+{
+  "components": [
+    {
+      "component": "jquery",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "jshint",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "umdjs/umd",
+      "target": "amdjs/amdjs-api",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "umdjs/umd",
+      "target": "alexlawrence/grunt-umd",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "umdjs/umd",
+      "target": "aearly/grunt-urequire",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "umdjs/umd",
+      "target": "anodynos/urequire",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "umdjs/umd",
+      "target": "jquery",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "umdjs/umd",
+      "target": "jshint",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-04-30T00:56:02.924643+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7191
+    },
+    {
+      "path": "package.json",
+      "size": 644
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "UMD (Universal Module Definition) patterns for JavaScript modules that work everywhere.",
+    "fork": false,
+    "full_name": "umdjs/umd",
+    "html_url": "https://github.com/umdjs/umd",
+    "language": "JavaScript",
+    "pushed_at": "2024-11-26T23:55:09Z",
+    "stargazers_count": 7447,
+    "topics": [],
+    "updated_at": "2026-04-21T13:00:47Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "aearly/grunt-urequire",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "alexlawrence/grunt-umd",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "amdjs/amdjs-api",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "anodynos/urequire",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

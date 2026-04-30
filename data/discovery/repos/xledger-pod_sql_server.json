@@ -1,0 +1,53 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "xledger/pod_sql_server",
+      "target": "borkdude/babashka",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "xledger/pod_sql_server",
+      "target": "babashka/babashka.pods",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T04:04:34.872215+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4863
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Babashka pod for SQL Server",
+    "fork": false,
+    "full_name": "xledger/pod_sql_server",
+    "html_url": "https://github.com/xledger/pod_sql_server",
+    "language": "C#",
+    "pushed_at": "2026-04-02T22:45:00Z",
+    "stargazers_count": 10,
+    "topics": [],
+    "updated_at": "2026-04-02T22:45:06Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "babashka/babashka.pods",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "borkdude/babashka",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

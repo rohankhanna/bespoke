@@ -1,0 +1,12 @@
+{
+  "component": "peter-evans/create-pull-request@v8.1.1",
+  "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/crowdin-sync-docs-translations.yml",
+      "source_repo": "appium/appium"
+    }
+  ]
+}

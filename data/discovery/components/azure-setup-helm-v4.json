@@ -1,7 +1,7 @@
 {
   "component": "azure/setup-helm@v4",
   "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -47,6 +47,16 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/helm_test.yml",
       "source_repo": "celo-org/charts"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "AbdelrhmanHamouda/locust-k8s-operator"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "AbdelrhmanHamouda/locust-k8s-operator"
     }
   ]
 }

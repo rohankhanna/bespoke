@@ -1,0 +1,139 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "zllrunning/face-parsing.PyTorch",
+      "target": "zllrunning/face-makeup.pytorch",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "zllrunning/face-parsing.PyTorch",
+      "target": "coincheung/bisenet",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "zllrunning/face-parsing.PyTorch",
+      "target": "bisenet",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "zllrunning/face-parsing.PyTorch",
+      "target": "celeba-hq-dataset",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "zllrunning/face-parsing.PyTorch",
+      "target": "face-parsing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "zllrunning/face-parsing.PyTorch",
+      "target": "face-segmentation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "zllrunning/face-parsing.PyTorch",
+      "target": "pytorch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "zllrunning/face-parsing.PyTorch",
+      "target": "semantic-segmentation",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T01:55:46.822755+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1686
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Using modified BiSeNet for face parsing in PyTorch",
+    "fork": false,
+    "full_name": "zllrunning/face-parsing.PyTorch",
+    "html_url": "https://github.com/zllrunning/face-parsing.PyTorch",
+    "language": "Python",
+    "pushed_at": "2023-05-21T14:00:45Z",
+    "stargazers_count": 2561,
+    "topics": [
+      "bisenet",
+      "celeba-hq-dataset",
+      "face-parsing",
+      "face-segmentation",
+      "pytorch",
+      "semantic-segmentation"
+    ],
+    "updated_at": "2026-04-20T13:22:28Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "coincheung/bisenet",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "zllrunning/face-makeup.pytorch",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bisenet"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "celeba-hq-dataset"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "face-parsing"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "face-segmentation"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytorch"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "semantic-segmentation"
+    }
+  ]
+}

@@ -1,6 +1,7 @@
 {
   "aliases": [
-    "Unit Test CI"
+    "Unit Test CI",
+    "unit-test-ci"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -19,6 +20,18 @@
       "source_repo": "hpcaitech/torchrec",
       "status": "candidate-context",
       "text": "Unit Test CI"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apache/apisix-go-plugin-runner",
+      "status": "candidate-context",
+      "text": "Go Plugin Runner for APISIX"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/apisix-go-plugin-runner",
+      "status": "candidate-context",
+      "text": "unit-test-ci"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +40,12 @@
       "source_repo": "hpcaitech/torchrec",
       "status": "candidate",
       "text": "Unit Test CI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/apisix-go-plugin-runner",
+      "status": "candidate",
+      "text": "unit-test-ci"
     }
   ],
   "candidate_related_terms": [
@@ -76,11 +95,17 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": ".github/workflows/unittest_ci.yml",
       "source_repo": "hpcaitech/torchrec"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/unit-test-ci.yml",
+      "source_repo": "apache/apisix-go-plugin-runner"
     }
   ],
   "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

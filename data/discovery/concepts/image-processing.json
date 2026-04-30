@@ -307,6 +307,150 @@
       "source_repo": "xuebinqin/U-2-Net",
       "status": "candidate-context",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "AcademySoftwareFoundation/openexr",
+      "status": "candidate-context",
+      "text": "The OpenEXR project provides the specification and reference implementation of the EXR file format, the professional-grade image storage format of the motion picture industry."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AcademySoftwareFoundation/openexr",
+      "status": "candidate-context",
+      "text": "<!-- SPDX-License-Identifier: BSD-3-Clause -->"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "carrascomj/dalted",
+      "status": "candidate-context",
+      "text": "Image processing web-app for color blindness"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "carrascomj/dalted",
+      "status": "candidate-context",
+      "text": "![alt text](./static/img/logo.svg \"Dalted logo black\")"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Kim2091/chaiNNer-Templates",
+      "status": "candidate-context",
+      "text": "Pre-made chains/templates for chaiNNer. Pytorch, NCNN, and ONNX included."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Kim2091/chaiNNer-Templates",
+      "status": "candidate-context",
+      "text": "[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/J3J3BCC3L)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kornia/kornia",
+      "status": "candidate-context",
+      "text": "\ud83d\udc0d Geometric Computer Vision Library for Spatial AI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kornia/kornia",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "libvips/ruby-vips",
+      "status": "candidate-context",
+      "text": "Ruby extension for the libvips image processing library."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "libvips/ruby-vips",
+      "status": "candidate-context",
+      "text": "[![Gem Version](https://badge.fury.io/rb/ruby-vips.svg)](https://badge.fury.io/rb/ruby-vips)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Ezaldeen99/BackgroundRemoval",
+      "status": "candidate-context",
+      "text": "Background Removal written with swift using u2net model "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Ezaldeen99/BackgroundRemoval",
+      "status": "candidate-context",
+      "text": "<img src=\"https://github.com/Ezaldeen99/BackgroundRemoval/blob/main/ScreenShots/results.jpg\" alt=\"Removal results\" align=\"center\" />"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mv-lab/swin2sr",
+      "status": "candidate-context",
+      "text": "[ECCV] Swin2SR: SwinV2 Transformer for Compressed Image Super-Resolution and Restoration.  Advances in Image Manipulation (AIM) workshop ECCV 2022. Try it out! over 3.3M runs https://replicate.com/mv-lab/swin2sr"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mv-lab/swin2sr",
+      "status": "candidate-context",
+      "text": "[![arXiv](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)](https://arxiv.org/abs/2209.11345)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "IDKiro/MCT",
+      "status": "candidate-context",
+      "text": "Multi-Curve Translator for High-Resolution Photorealistic Image Translation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "IDKiro/MCT",
+      "status": "candidate-context",
+      "text": "[![paper](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)](https://arxiv.org/abs/2203.07756) [![Download](https://img.shields.io/badge/GoogleDrive-Data-blue)](https://drive.google.com/drive/folders/1RWALNnNNxoTxxgjuKGRSw98SGrQhZ_uO?usp=sharing)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "swz30/MIRNetv2",
+      "status": "candidate-context",
+      "text": "[TPAMI 2022] Learning Enriched Features for Fast Image Restoration and Enhancement. Results on Defocus Deblurring, Denoising, Super-resolution, and image enhancement"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "swz30/MIRNetv2",
+      "status": "candidate-context",
+      "text": "[Syed Waqas Zamir](https://scholar.google.ae/citations?hl=en&user=POoai-QAAAAJ), [Aditya Arora](https://adityac8.github.io/), [Salman Khan](https://salman-h-khan.github.io/), [Munawar Hayat](https://scholar.google.com/citations?user=Mx8MbWYAAAAJ&hl=en), [Fahad Shahbaz Khan](http\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ImageMagick/ImageMagick",
+      "status": "candidate-context",
+      "text": "ImageMagick is a free, open-source software suite for creating, editing, converting, and displaying images. It supports 200+ formats and offers powerful command-line tools and APIs for automation, scripting, and integration across platforms."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ImageMagick/ImageMagick",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://github.com/ImageMagick/ImageMagick/workflows/main/badge.svg)](https://github.com/ImageMagick/ImageMagick/actions)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "wasabeef/glide-transformations",
+      "status": "candidate-context",
+      "text": "An Android transformation library providing a variety of image transformations for Glide."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "wasabeef/glide-transformations",
+      "status": "candidate-context",
+      "text": "Glide Transformations"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "qubvel-org/segmentation_models.pytorch",
+      "status": "candidate-context",
+      "text": "Semantic segmentation models with 500+ pretrained convolutional and transformer-based backbones."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "qubvel-org/segmentation_models.pytorch",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -459,6 +603,78 @@
       "source_repo": "xuebinqin/U-2-Net",
       "status": "candidate",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AcademySoftwareFoundation/openexr",
+      "status": "candidate",
+      "text": "<!-- SPDX-License-Identifier: BSD-3-Clause -->"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "carrascomj/dalted",
+      "status": "candidate",
+      "text": "![alt text](./static/img/logo.svg \"Dalted logo black\")"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Kim2091/chaiNNer-Templates",
+      "status": "candidate",
+      "text": "[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/J3J3BCC3L)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kornia/kornia",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "libvips/ruby-vips",
+      "status": "candidate",
+      "text": "[![Gem Version](https://badge.fury.io/rb/ruby-vips.svg)](https://badge.fury.io/rb/ruby-vips)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Ezaldeen99/BackgroundRemoval",
+      "status": "candidate",
+      "text": "<img src=\"https://github.com/Ezaldeen99/BackgroundRemoval/blob/main/ScreenShots/results.jpg\" alt=\"Removal results\" align=\"center\" />"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mv-lab/swin2sr",
+      "status": "candidate",
+      "text": "[![arXiv](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)](https://arxiv.org/abs/2209.11345)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "IDKiro/MCT",
+      "status": "candidate",
+      "text": "[![paper](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)](https://arxiv.org/abs/2203.07756) [![Download](https://img.shields.io/badge/GoogleDrive-Data-blue)](https://drive.google.com/drive/folders/1RWALNnNNxoTxxgjuKGRSw98SGrQhZ_uO?usp=sharing)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "swz30/MIRNetv2",
+      "status": "candidate",
+      "text": "[Syed Waqas Zamir](https://scholar.google.ae/citations?hl=en&user=POoai-QAAAAJ), [Aditya Arora](https://adityac8.github.io/), [Salman Khan](https://salman-h-khan.github.io/), [Munawar Hayat](https://scholar.google.com/citations?user=Mx8MbWYAAAAJ&hl=en), [Fahad Shahbaz Khan](http\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ImageMagick/ImageMagick",
+      "status": "candidate",
+      "text": "[![Build Status](https://github.com/ImageMagick/ImageMagick/workflows/main/badge.svg)](https://github.com/ImageMagick/ImageMagick/actions)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "wasabeef/glide-transformations",
+      "status": "candidate",
+      "text": "Glide Transformations"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "qubvel-org/segmentation_models.pytorch",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_related_terms": [],
@@ -634,11 +850,89 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "xuebinqin/U-2-Net"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "AcademySoftwareFoundation/openexr"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "carrascomj/dalted"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "Kim2091/chaiNNer-Templates"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "open-mmlab/mmagic"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "kornia/kornia"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "libvips/ruby-vips"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "Ezaldeen99/BackgroundRemoval"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "mv-lab/swin2sr"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "IDKiro/MCT"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "swz30/MIRNetv2"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "ImageMagick/ImageMagick"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "wasabeef/glide-transformations"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "qubvel-org/segmentation_models.pytorch"
     }
   ],
   "first_seen_at": "2026-04-20T03:16:48.146869+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

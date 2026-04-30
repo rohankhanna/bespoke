@@ -1,0 +1,105 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "docker-library/bashbrew@HEAD",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/verify-templating.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "docker-library/python",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "docker-library/python",
+      "target": "docker-library/bashbrew@HEAD",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "docker-library/python",
+      "target": "GitHub CI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/verify-templating.yml",
+      "source_repo": "docker-library/python",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/verify-templating.yml",
+      "source_repo": "docker-library/python",
+      "target": "Verify Templating",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T03:02:16.392304+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1671
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 2089
+    },
+    {
+      "path": ".github/workflows/verify-templating.yml",
+      "size": 337
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Docker Official Image packaging for Python",
+    "fork": false,
+    "full_name": "docker-library/python",
+    "html_url": "https://github.com/docker-library/python",
+    "language": "Dockerfile",
+    "pushed_at": "2026-04-08T04:56:06Z",
+    "stargazers_count": 2740,
+    "topics": [],
+    "updated_at": "2026-04-29T19:55:20Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "GitHub CI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "term": "GitHub CI"
+    },
+    {
+      "context_snippet": "Verify Templating",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/verify-templating.yml",
+      "term": "Verify Templating"
+    }
+  ]
+}

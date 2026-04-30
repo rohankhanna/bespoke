@@ -43,6 +43,18 @@
       "source_repo": "sindresorhus/ponyfill",
       "status": "candidate-context",
       "text": "\ud83e\udd84 Like polyfill but with pony pureness"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "libuv/libuv",
+      "status": "candidate-context",
+      "text": "Cross-platform asynchronous I/O"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "libuv/libuv",
+      "status": "candidate-context",
+      "text": "![libuv][libuv_banner]"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +75,12 @@
       "source_repo": "sindresorhus/ponyfill",
       "status": "candidate",
       "text": "\ud83e\udd84 Like polyfill but with pony pureness"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "libuv/libuv",
+      "status": "candidate",
+      "text": "![libuv][libuv_banner]"
     }
   ],
   "candidate_related_terms": [
@@ -124,11 +142,17 @@
       "observed_at": "2026-04-22T04:49:29.633207+00:00",
       "source_file": null,
       "source_repo": "sindresorhus/ponyfill"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "libuv/libuv"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

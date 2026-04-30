@@ -1,0 +1,129 @@
+{
+  "aliases": [
+    "makeup"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "zllrunning/face-makeup.PyTorch",
+      "status": "candidate-context",
+      "text": "Lip and hair color editor using face parsing maps."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "zllrunning/face-makeup.PyTorch",
+      "status": "candidate-context",
+      "text": "Lip and hair color editor using face parsing maps."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "zllrunning/face-makeup.PyTorch",
+      "status": "candidate",
+      "text": "Lip and hair color editor using face parsing maps."
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39907827,
+      "status": "candidate",
+      "text": "make-up"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39904292,
+      "status": "candidate",
+      "text": "war paint"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39807308,
+      "status": "candidate",
+      "text": "composition"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39707230,
+      "status": "candidate",
+      "text": "constitution"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29908105,
+      "status": "candidate",
+      "text": "mascara"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 35066,
+      "status": "candidate",
+      "text": "composition"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 1030,
+      "status": "candidate",
+      "text": "make-up"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 1025,
+      "status": "candidate",
+      "text": "war paint"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": null,
+      "status": "candidate",
+      "text": "constitution"
+    }
+  ],
+  "canonical_name": "makeup",
+  "concept_id": "makeup",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "zllrunning/face-makeup.PyTorch"
+    }
+  ],
+  "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "makeup",
+      "sense_id": "makeup#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

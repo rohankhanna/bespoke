@@ -1,0 +1,122 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Code analysis & navigation plugin for Neovim. Navigate codes like a breeze\ud83c\udf90  Exploring LSP and \ud83c\udf32Treesitter symbols a piece of \ud83c\udf70  Take control like a boss \ud83e\udd8d"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "- Source code analysis and navigate tool"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "- Source code analysis and navigate tool"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39680799,
+      "status": "candidate",
+      "text": "piloting"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39680637,
+      "status": "candidate",
+      "text": "pilotage"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39680501,
+      "status": "candidate",
+      "text": "seafaring"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39680475,
+      "status": "candidate",
+      "text": "sailing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29681012,
+      "status": "candidate",
+      "text": "navigate"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "navigation",
+      "sense_id": "navigation#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 5036,
+      "status": "candidate",
+      "text": "sailing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 2030,
+      "status": "candidate",
+      "text": "pilotage"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 2030,
+      "status": "candidate",
+      "text": "seafaring"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 29,
+      "status": "candidate",
+      "text": "piloting"
+    }
+  ],
+  "concept_id": "navigation",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "navigation",
+  "observation_id": "55a736e27a9ea1df",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T00:37:16.824464+00:00",
+  "observed_text": "navigation",
+  "source_context_snippet": "- Source code analysis and navigate tool",
+  "source_file": null,
+  "source_repo": "ray-x/navigator.lua",
+  "source_repo_description": "Code analysis & navigation plugin for Neovim. Navigate codes like a breeze\ud83c\udf90  Exploring LSP and \ud83c\udf32Treesitter symbols a piece of \ud83c\udf70  Take control like a boss \ud83e\udd8d"
+}

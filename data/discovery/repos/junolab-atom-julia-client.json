@@ -1,0 +1,153 @@
+{
+  "components": [
+    {
+      "component": "atom-package-deps",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "atom-select-list",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "etch",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "fuzzaldrin-plus",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "node-pty-prebuilt-multiarch",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "object-hash",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "physical-cpu-count",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "semver",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "ssh2",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "underscore-plus",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "JunoLab/atom-julia-client",
+      "target": "atom-package-deps",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "JunoLab/atom-julia-client",
+      "target": "atom-select-list",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "JunoLab/atom-julia-client",
+      "target": "etch",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "JunoLab/atom-julia-client",
+      "target": "fuzzaldrin-plus",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "JunoLab/atom-julia-client",
+      "target": "node-pty-prebuilt-multiarch",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "JunoLab/atom-julia-client",
+      "target": "object-hash",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "JunoLab/atom-julia-client",
+      "target": "physical-cpu-count",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "JunoLab/atom-julia-client",
+      "target": "semver",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "JunoLab/atom-julia-client",
+      "target": "ssh2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "JunoLab/atom-julia-client",
+      "target": "underscore-plus",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-04-30T01:00:01.064552+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 866
+    },
+    {
+      "path": "package.json",
+      "size": 1993
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Juno a good IDE?",
+    "fork": false,
+    "full_name": "JunoLab/atom-julia-client",
+    "html_url": "https://github.com/JunoLab/atom-julia-client",
+    "language": "JavaScript",
+    "pushed_at": "2023-05-28T13:04:16Z",
+    "stargazers_count": 271,
+    "topics": [],
+    "updated_at": "2026-04-03T12:04:00Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

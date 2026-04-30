@@ -1,0 +1,156 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "NVIDIA/pix2pixHD",
+      "target": "knio/dominate",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "NVIDIA/pix2pixHD",
+      "target": "computer-graphics",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "NVIDIA/pix2pixHD",
+      "target": "computer-vision",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "NVIDIA/pix2pixHD",
+      "target": "deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "NVIDIA/pix2pixHD",
+      "target": "deep-neural-networks",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "NVIDIA/pix2pixHD",
+      "target": "generative-adversarial-network",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "NVIDIA/pix2pixHD",
+      "target": "image-to-image-translation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "NVIDIA/pix2pixHD",
+      "target": "pix2pix",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "NVIDIA/pix2pixHD",
+      "target": "pytorch",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T03:48:04.895137+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7527
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Synthesizing and manipulating 2048x1024 images with conditional GANs",
+    "fork": false,
+    "full_name": "NVIDIA/pix2pixHD",
+    "html_url": "https://github.com/NVIDIA/pix2pixHD",
+    "language": "Python",
+    "pushed_at": "2024-11-04T18:13:20Z",
+    "stargazers_count": 6931,
+    "topics": [
+      "computer-graphics",
+      "computer-vision",
+      "deep-learning",
+      "deep-neural-networks",
+      "gan",
+      "generative-adversarial-network",
+      "image-to-image-translation",
+      "pix2pix",
+      "pytorch"
+    ],
+    "updated_at": "2026-04-26T23:32:28Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "knio/dominate",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<img src='imgs/teaser_720.gif' align=\"right\" width=360>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "computer-graphics"
+    },
+    {
+      "context_snippet": "<img src='imgs/teaser_720.gif' align=\"right\" width=360>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "computer-vision"
+    },
+    {
+      "context_snippet": "<img src='imgs/teaser_720.gif' align=\"right\" width=360>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-learning"
+    },
+    {
+      "context_snippet": "<img src='imgs/teaser_720.gif' align=\"right\" width=360>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-neural-networks"
+    },
+    {
+      "context_snippet": "<img src='imgs/teaser_720.gif' align=\"right\" width=360>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "generative-adversarial-network"
+    },
+    {
+      "context_snippet": "<img src='imgs/teaser_720.gif' align=\"right\" width=360>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "image-to-image-translation"
+    },
+    {
+      "context_snippet": "<img src='imgs/teaser_720.gif' align=\"right\" width=360>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pix2pix"
+    },
+    {
+      "context_snippet": "<img src='imgs/teaser_720.gif' align=\"right\" width=360>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytorch"
+    }
+  ]
+}

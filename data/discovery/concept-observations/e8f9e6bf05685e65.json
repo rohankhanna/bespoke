@@ -48,7 +48,7 @@
   "normalized_form": "language-server",
   "observation_id": "e8f9e6bf05685e65",
   "observation_kind": "repo-topic",
-  "observed_at": "2026-04-29T18:37:00.726333+00:00",
+  "observed_at": "2026-04-30T00:37:16.824464+00:00",
   "observed_text": "language-server",
   "source_context_snippet": "![build](https://img.shields.io/github/actions/workflow/status/LuaLS/lua-language-server/.github%2Fworkflows%2Fbuild.yml)",
   "source_file": null,

@@ -1,7 +1,7 @@
 {
   "component": "actions/download-artifact@37930b1c2abaa49bbe596cd826c3c89aef350131",
   "first_seen_at": "2026-04-19T17:42:30.117329+00:00",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -202,6 +202,31 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/release.yml",
       "source_repo": "medama-io/medama"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release-ui-tars.yml",
+      "source_repo": "bytedance/UI-TARS-desktop"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/beta.yml",
+      "source_repo": "biomejs/biome"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/beta_js_api.yml",
+      "source_repo": "biomejs/biome"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/e2e-tests.yaml",
+      "source_repo": "humbug/php-scoper"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "humbug/php-scoper"
     }
   ]
 }

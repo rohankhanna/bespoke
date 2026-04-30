@@ -1,0 +1,57 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@08c6903cd8c0fde910a37f88322edcfb5dd907a8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/cache@0400d5f644dc74513175e3cd8d07132dd4860809",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "google/bazel-common",
+      "target": "actions/checkout@08c6903cd8c0fde910a37f88322edcfb5dd907a8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "google/bazel-common",
+      "target": "actions/cache@0400d5f644dc74513175e3cd8d07132dd4860809",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-04-30T01:41:59.910231+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1285
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 677
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Common functionality for some Google open-source libraries that are built with Bazel",
+    "fork": false,
+    "full_name": "google/bazel-common",
+    "html_url": "https://github.com/google/bazel-common",
+    "language": "Starlark",
+    "pushed_at": "2026-04-28T21:52:39Z",
+    "stargazers_count": 90,
+    "topics": [],
+    "updated_at": "2026-04-28T21:52:43Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

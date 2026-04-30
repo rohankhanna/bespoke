@@ -1,0 +1,226 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "parlance-zz/g-diffuser-bot",
+      "target": "ai-art",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "parlance-zz/g-diffuser-bot",
+      "target": "artificial-intelligence",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "parlance-zz/g-diffuser-bot",
+      "target": "diffusers",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "parlance-zz/g-diffuser-bot",
+      "target": "discord-bot",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "parlance-zz/g-diffuser-bot",
+      "target": "generative-art",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "parlance-zz/g-diffuser-bot",
+      "target": "image-generation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "parlance-zz/g-diffuser-bot",
+      "target": "img2img",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "parlance-zz/g-diffuser-bot",
+      "target": "inpainting",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "parlance-zz/g-diffuser-bot",
+      "target": "latent-diffusion",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "parlance-zz/g-diffuser-bot",
+      "target": "linux",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "parlance-zz/g-diffuser-bot",
+      "target": "outpainting",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "parlance-zz/g-diffuser-bot",
+      "target": "stable-diffusion",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "parlance-zz/g-diffuser-bot",
+      "target": "txt2img",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "parlance-zz/g-diffuser-bot",
+      "target": "windows",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T03:53:14.680460+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3952
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "aio-dev",
+    "description": "Discord bot and Interface for Stable Diffusion",
+    "fork": false,
+    "full_name": "parlance-zz/g-diffuser-bot",
+    "html_url": "https://github.com/parlance-zz/g-diffuser-bot",
+    "language": "Python",
+    "pushed_at": "2023-01-19T23:51:06Z",
+    "stargazers_count": 279,
+    "topics": [
+      "ai-art",
+      "artificial-intelligence",
+      "diffusers",
+      "discord-bot",
+      "generative-art",
+      "image-generation",
+      "img2img",
+      "inpainting",
+      "latent-diffusion",
+      "linux",
+      "outpainting",
+      "stable-diffusion",
+      "txt2img",
+      "windows"
+    ],
+    "updated_at": "2025-11-19T11:28:18Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "![https://www.stablecabal.org](https://www.g-diffuser.com/stablecabal.png) https://www.stablecabal.org",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ai-art"
+    },
+    {
+      "context_snippet": "![https://www.stablecabal.org](https://www.g-diffuser.com/stablecabal.png) https://www.stablecabal.org",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "artificial-intelligence"
+    },
+    {
+      "context_snippet": "![https://www.stablecabal.org](https://www.g-diffuser.com/stablecabal.png) https://www.stablecabal.org",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "diffusers"
+    },
+    {
+      "context_snippet": "![https://www.stablecabal.org](https://www.g-diffuser.com/stablecabal.png) https://www.stablecabal.org",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "discord-bot"
+    },
+    {
+      "context_snippet": "![https://www.stablecabal.org](https://www.g-diffuser.com/stablecabal.png) https://www.stablecabal.org",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "generative-art"
+    },
+    {
+      "context_snippet": "![https://www.stablecabal.org](https://www.g-diffuser.com/stablecabal.png) https://www.stablecabal.org",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "image-generation"
+    },
+    {
+      "context_snippet": "![https://www.stablecabal.org](https://www.g-diffuser.com/stablecabal.png) https://www.stablecabal.org",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "img2img"
+    },
+    {
+      "context_snippet": "![https://www.stablecabal.org](https://www.g-diffuser.com/stablecabal.png) https://www.stablecabal.org",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "inpainting"
+    },
+    {
+      "context_snippet": "![https://www.stablecabal.org](https://www.g-diffuser.com/stablecabal.png) https://www.stablecabal.org",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "latent-diffusion"
+    },
+    {
+      "context_snippet": "![https://www.stablecabal.org](https://www.g-diffuser.com/stablecabal.png) https://www.stablecabal.org",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "linux"
+    },
+    {
+      "context_snippet": "![https://www.stablecabal.org](https://www.g-diffuser.com/stablecabal.png) https://www.stablecabal.org",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "outpainting"
+    },
+    {
+      "context_snippet": "![https://www.stablecabal.org](https://www.g-diffuser.com/stablecabal.png) https://www.stablecabal.org",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "stable-diffusion"
+    },
+    {
+      "context_snippet": "![https://www.stablecabal.org](https://www.g-diffuser.com/stablecabal.png) https://www.stablecabal.org",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "txt2img"
+    },
+    {
+      "context_snippet": "![https://www.stablecabal.org](https://www.g-diffuser.com/stablecabal.png) https://www.stablecabal.org",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "windows"
+    }
+  ]
+}

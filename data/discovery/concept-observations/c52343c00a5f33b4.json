@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Firebase Android SDK"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "App Distribution Gradle Compatibility Tests"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "App Distribution Gradle Compatibility Tests"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29482,
+      "status": "candidate",
+      "text": "law"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29482,
+      "status": "candidate",
+      "text": "warrant"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29295,
+      "status": "candidate",
+      "text": "sex"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29281,
+      "status": "candidate",
+      "text": "command"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29281,
+      "status": "candidate",
+      "text": "order"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "App Distribution Gradle Compatibility Tests",
+      "sense_id": "app-distribution-gradle-compatibility-tests#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "app-distribution-gradle-compatibility-tests",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "app-distribution-gradle-compatibility-tests",
+  "observation_id": "c52343c00a5f33b4",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-30T00:37:16.824464+00:00",
+  "observed_text": "App Distribution Gradle Compatibility Tests",
+  "source_context_snippet": "App Distribution Gradle Compatibility Tests",
+  "source_file": ".github/workflows/app-distribution-gradle-compatibility-tests.yml",
+  "source_repo": "firebase/firebase-android-sdk",
+  "source_repo_description": "Firebase Android SDK"
+}

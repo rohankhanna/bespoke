@@ -1,7 +1,7 @@
 {
   "component": "dtolnay/rust-toolchain@master",
   "first_seen_at": "2026-04-18T02:41:24.975901+00:00",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -1077,6 +1077,156 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/ci.yml",
       "source_repo": "PyO3/pyo3"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "libbpf/blazesym"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml",
+      "source_repo": "numToStr/lemmy-help"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/pr.yaml",
+      "source_repo": "numToStr/lemmy-help"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "RustPython/RustPython"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/rust.yml",
+      "source_repo": "oschwald/maxminddb-rust"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "YaLTeR/wl-clipboard-rs"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "baerwang/openapi-rs"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/clippy.yml",
+      "source_repo": "mitsuhiko/systemfd"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/rustfmt.yml",
+      "source_repo": "mitsuhiko/systemfd"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "mitsuhiko/systemfd"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "dgrunwald/rust-cpython"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml",
+      "source_repo": "rust-cross/cargo-zigbuild"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "rescript-lang/rescript"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "sagiegurari/duckscript"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "linebender/tiny-skia"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/rust.yml",
+      "source_repo": "z-galaxy/zbus"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "ebkalderon/tower-lsp"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/aead-stream.yml",
+      "source_repo": "RustCrypto/AEADs"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/aes-gcm-siv.yml",
+      "source_repo": "RustCrypto/AEADs"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/aes-gcm.yml",
+      "source_repo": "RustCrypto/AEADs"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/aes-siv.yml",
+      "source_repo": "RustCrypto/AEADs"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ascon-aead128.yml",
+      "source_repo": "RustCrypto/AEADs"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/belt-dwp.yml",
+      "source_repo": "RustCrypto/AEADs"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/benches.yml",
+      "source_repo": "RustCrypto/AEADs"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ccm.yml",
+      "source_repo": "RustCrypto/AEADs"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/cross.yml",
+      "source_repo": "anza-xyz/curve25519-dalek"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/curve25519-dalek.yml",
+      "source_repo": "anza-xyz/curve25519-dalek"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/workspace.yml",
+      "source_repo": "anza-xyz/curve25519-dalek"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/CICD.yml",
+      "source_repo": "sharkdp/pastel"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "mitsuhiko/listenfd"
     }
   ]
 }

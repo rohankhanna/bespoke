@@ -1,0 +1,108 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A fertile ground for Clojure tooling"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![CircleCI](https://img.shields.io/circleci/build/github/clojure-emacs/orchard/master.svg)](https://circleci.com/gh/clojure-emacs/orchard/tree/master)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![CircleCI](https://img.shields.io/circleci/build/github/clojure-emacs/orchard/master.svg)](https://circleci.com/gh/clojure-emacs/orchard/tree/master)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40026526,
+      "status": "candidate",
+      "text": "woodlet"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40026083,
+      "status": "candidate",
+      "text": "grove"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30025747,
+      "status": "candidate",
+      "text": "garden"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30022015,
+      "status": "candidate",
+      "text": "fruit"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30020533,
+      "status": "candidate",
+      "text": "tree"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "orchard",
+      "sense_id": "orchard#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 5010,
+      "status": "candidate",
+      "text": "woodlet"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": null,
+      "status": "candidate",
+      "text": "grove"
+    }
+  ],
+  "concept_id": "orchard",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "orchard",
+  "observation_id": "556fc3e14e5c39f4",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T00:37:16.824464+00:00",
+  "observed_text": "orchard",
+  "source_context_snippet": "[![CircleCI](https://img.shields.io/circleci/build/github/clojure-emacs/orchard/master.svg)](https://circleci.com/gh/clojure-emacs/orchard/tree/master)",
+  "source_file": null,
+  "source_repo": "clojure-emacs/orchard",
+  "source_repo_description": "A fertile ground for Clojure tooling"
+}

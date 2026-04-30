@@ -1,0 +1,12 @@
+{
+  "component": "re-actors/cache-python-deps@810325a232f2a28ea124dfba85c7c72fd1774b38",
+  "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "jazzband/pip-tools"
+    }
+  ]
+}

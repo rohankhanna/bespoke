@@ -1,7 +1,7 @@
 {
   "component": "docker/login-action@v4",
   "first_seen_at": "2026-04-18T03:26:22.590180+00:00",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -552,6 +552,46 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/docker_image.yml",
       "source_repo": "esp-rs/std-training"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "bufbuild/buf"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "AbdelrhmanHamouda/locust-k8s-operator"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/goreleaser.yaml",
+      "source_repo": "operator-framework/operator-registry"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/gateway-docker.yml",
+      "source_repo": "mozilla-ai/otari"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "dundee/gdu"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "hermit-os/hermit-rs"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/oci-publish.yml",
+      "source_repo": "libvips/build-win64-mxe"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/readme-release.yml",
+      "source_repo": "mlocati/docker-php-extension-installer"
     }
   ]
 }

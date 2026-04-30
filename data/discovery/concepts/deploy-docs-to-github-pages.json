@@ -1,7 +1,8 @@
 {
   "aliases": [
     "Deploy Docs to GitHub Pages",
-    "Deploy docs to GitHub Pages"
+    "Deploy docs to GitHub Pages",
+    "Deploy docs to gitHub pages"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -80,6 +81,30 @@
       "source_repo": "openai/openai-agents-js",
       "status": "candidate-context",
       "text": "Deploy Docs to GitHub Pages"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "oschwald/maxminddb-rust",
+      "status": "candidate-context",
+      "text": "Rust MaxMind DB Reader"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "oschwald/maxminddb-rust",
+      "status": "candidate-context",
+      "text": "Deploy Docs to GitHub Pages"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "LAION-AI/Open-Assistant",
+      "status": "candidate-context",
+      "text": "OpenAssistant is a chat-based assistant that understands tasks, can interact with third-party systems, and retrieve information dynamically to do so."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "LAION-AI/Open-Assistant",
+      "status": "candidate-context",
+      "text": "Deploy docs to gitHub pages"
     }
   ],
   "candidate_glosses": [
@@ -118,6 +143,18 @@
       "source_repo": "openai/openai-agents-js",
       "status": "candidate",
       "text": "Deploy Docs to GitHub Pages"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "oschwald/maxminddb-rust",
+      "status": "candidate",
+      "text": "Deploy Docs to GitHub Pages"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "LAION-AI/Open-Assistant",
+      "status": "candidate",
+      "text": "Deploy docs to gitHub pages"
     }
   ],
   "candidate_related_terms": [
@@ -197,11 +234,23 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": ".github/workflows/docs.yml",
       "source_repo": "openai/openai-agents-js"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/doc.yml",
+      "source_repo": "oschwald/maxminddb-rust"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/deploy-docs-site.yaml",
+      "source_repo": "LAION-AI/Open-Assistant"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

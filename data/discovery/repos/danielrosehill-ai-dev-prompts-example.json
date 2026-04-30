@@ -1,0 +1,85 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "danielrosehill/AI-Dev-Prompts-Example",
+      "target": "danielrosehill/docs-grabber",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "danielrosehill/AI-Dev-Prompts-Example",
+      "target": "large-language-models",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "danielrosehill/AI-Dev-Prompts-Example",
+      "target": "prompt-engineering",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "danielrosehill/AI-Dev-Prompts-Example",
+      "target": "prompting",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T04:58:38.375577+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4996
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Examples of AI prompts for code generation (Python GUI) and some notes on emerging \"best practices\"",
+    "fork": false,
+    "full_name": "danielrosehill/AI-Dev-Prompts-Example",
+    "html_url": "https://github.com/danielrosehill/AI-Dev-Prompts-Example",
+    "language": "Python",
+    "pushed_at": "2025-03-13T17:31:55Z",
+    "stargazers_count": 4,
+    "topics": [
+      "large-language-models",
+      "prompt-engineering",
+      "prompting"
+    ],
+    "updated_at": "2025-07-16T04:00:14Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "danielrosehill/docs-grabber",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "*13-Mar-25*",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "large-language-models"
+    },
+    {
+      "context_snippet": "*13-Mar-25*",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "prompt-engineering"
+    },
+    {
+      "context_snippet": "*13-Mar-25*",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "prompting"
+    }
+  ]
+}

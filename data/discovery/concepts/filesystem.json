@@ -151,6 +151,66 @@
       "source_repo": "hedronvision/bazel-cc-filesystem-backport",
       "status": "candidate-context",
       "text": "**What is this project trying to do for me?**"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "KSXGitHub/parallel-disk-usage",
+      "status": "candidate-context",
+      "text": "Highly parallelized, blazing fast directory tree analyzer"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "KSXGitHub/parallel-disk-usage",
+      "status": "candidate-context",
+      "text": "[![Test](https://github.com/KSXGitHub/parallel-disk-usage/workflows/Test/badge.svg)](https://github.com/KSXGitHub/parallel-disk-usage/actions?query=workflow%3ATest)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nachoparker/dutree",
+      "status": "candidate-context",
+      "text": "a tool to analyze file system usage written in Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nachoparker/dutree",
+      "status": "candidate-context",
+      "text": "a tool to analyze file system usage written in Rust"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dmtrKovalenko/zlob",
+      "status": "candidate-context",
+      "text": "100% POSIX and glibc compatible globbing library for C, Zig, and Rust that is faster and supports all the modern globbing formats and gitignore"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dmtrKovalenko/zlob",
+      "status": "candidate-context",
+      "text": "100% POSIX and glibc compatible globbing library for C, Zig, and Rust that is **faster** and supports **all the modern globbing formats** and gitignore"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "paulmillr/chokidar",
+      "status": "candidate-context",
+      "text": "Minimal and efficient cross-platform file watching library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "paulmillr/chokidar",
+      "status": "candidate-context",
+      "text": "Minimal and efficient cross-platform file watching library"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dundee/gdu",
+      "status": "candidate-context",
+      "text": "Fast disk usage analyzer with console interface written in Go"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dundee/gdu",
+      "status": "candidate-context",
+      "text": "<img src=\"./gdu.png\" alt=\"Gdu \" width=\"200\" align=\"right\">"
     }
   ],
   "candidate_glosses": [
@@ -225,6 +285,36 @@
       "source_repo": "hedronvision/bazel-cc-filesystem-backport",
       "status": "candidate",
       "text": "**What is this project trying to do for me?**"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "KSXGitHub/parallel-disk-usage",
+      "status": "candidate",
+      "text": "[![Test](https://github.com/KSXGitHub/parallel-disk-usage/workflows/Test/badge.svg)](https://github.com/KSXGitHub/parallel-disk-usage/actions?query=workflow%3ATest)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nachoparker/dutree",
+      "status": "candidate",
+      "text": "a tool to analyze file system usage written in Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dmtrKovalenko/zlob",
+      "status": "candidate",
+      "text": "100% POSIX and glibc compatible globbing library for C, Zig, and Rust that is **faster** and supports **all the modern globbing formats** and gitignore"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "paulmillr/chokidar",
+      "status": "candidate",
+      "text": "Minimal and efficient cross-platform file watching library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dundee/gdu",
+      "status": "candidate",
+      "text": "<img src=\"./gdu.png\" alt=\"Gdu \" width=\"200\" align=\"right\">"
     }
   ],
   "candidate_related_terms": [
@@ -352,11 +442,41 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "notify-rs/notify"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "KSXGitHub/parallel-disk-usage"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "nachoparker/dutree"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "dmtrKovalenko/zlob"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "paulmillr/chokidar"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "dundee/gdu"
     }
   ],
   "first_seen_at": "2026-04-21T18:51:25.552552+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

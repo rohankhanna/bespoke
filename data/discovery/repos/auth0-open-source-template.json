@@ -1,0 +1,113 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/semgrep.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "auth0/open-source-template",
+      "target": "roshanjossey/first-contributions",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "auth0/open-source-template",
+      "target": "matiassingers/awesome-readme",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/semgrep.yml",
+      "source_repo": "auth0/open-source-template",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/semgrep.yml",
+      "source_repo": "auth0/open-source-template",
+      "target": "Semgrep",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "auth0/open-source-template",
+      "target": "dx-sdk",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "auth0/open-source-template",
+      "target": "quality",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T01:44:51.101923+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2893
+    },
+    {
+      "path": ".github/workflows/semgrep.yml",
+      "size": 471
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A template for open source projects at Auth0",
+    "fork": false,
+    "full_name": "auth0/open-source-template",
+    "html_url": "https://github.com/auth0/open-source-template",
+    "language": null,
+    "pushed_at": "2025-08-06T14:48:38Z",
+    "stargazers_count": 91,
+    "topics": [
+      "dx-sdk",
+      "quality"
+    ],
+    "updated_at": "2026-03-22T20:38:42Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "matiassingers/awesome-readme",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "roshanjossey/first-contributions",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "\"Semgrep\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/semgrep.yml",
+      "term": "Semgrep"
+    },
+    {
+      "context_snippet": "This repo contains sample files to be used in Auth0 open source software repositories. These files are guidelines that can be used in an Auth0 or any open source project to ensure that the project is described properly, the contribution process is clear, and additional tools lik\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dx-sdk"
+    },
+    {
+      "context_snippet": "This repo contains sample files to be used in Auth0 open source software repositories. These files are guidelines that can be used in an Auth0 or any open source project to ensure that the project is described properly, the contribution process is clear, and additional tools lik\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "quality"
+    }
+  ]
+}

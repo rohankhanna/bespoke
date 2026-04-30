@@ -460,6 +460,66 @@
       "source_repo": "gogo/protobuf",
       "status": "candidate-context",
       "text": "module github.com/gogo/protobuf go 1.15 require ( github.com/kisielk/errcheck v1.5.0 // indirect github.com/kisielk/gotool v1.0.0 // indirect golang.org/x/tools v0.0.0-20210106214847-113979e3529a // indirect )"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cloudwego/kitex",
+      "status": "candidate-context",
+      "text": "Go RPC framework with high-performance and strong-extensibility for building micro-services."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cloudwego/kitex",
+      "status": "candidate-context",
+      "text": "English | [\u4e2d\u6587](README_cn.md)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bufbuild/buf",
+      "status": "candidate-context",
+      "text": "The best way of working with Protocol Buffers."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bufbuild/buf",
+      "status": "candidate-context",
+      "text": "![The Buf logo](https://raw.githubusercontent.com/bufbuild/buf/main/.github/buf-logo.svg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Kotlin/kotlinx.serialization",
+      "status": "candidate-context",
+      "text": "Kotlin multiplatform / multi-format serialization "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Kotlin/kotlinx.serialization",
+      "status": "candidate-context",
+      "text": "[![Kotlin Stable](https://kotl.in/badges/stable.svg)](https://kotlinlang.org/docs/components-stability.html)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "confluentinc/schema-registry",
+      "status": "candidate-context",
+      "text": "Confluent Schema Registry for Kafka"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "confluentinc/schema-registry",
+      "status": "candidate-context",
+      "text": "Schema Registry"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bufbuild/homebrew-buf",
+      "status": "candidate-context",
+      "text": "Homebrew tap for Buf."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bufbuild/homebrew-buf",
+      "status": "candidate-context",
+      "text": "This provides a [Homebrew](https://brew.sh) tap for [Buf](https://github.com/bufbuild/buf)."
     }
   ],
   "candidate_glosses": [
@@ -678,6 +738,36 @@
       "source_repo": "gogo/protobuf",
       "status": "candidate",
       "text": "module github.com/gogo/protobuf go 1.15 require ( github.com/kisielk/errcheck v1.5.0 // indirect github.com/kisielk/gotool v1.0.0 // indirect golang.org/x/tools v0.0.0-20210106214847-113979e3529a // indirect )"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cloudwego/kitex",
+      "status": "candidate",
+      "text": "English | [\u4e2d\u6587](README_cn.md)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bufbuild/buf",
+      "status": "candidate",
+      "text": "![The Buf logo](https://raw.githubusercontent.com/bufbuild/buf/main/.github/buf-logo.svg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Kotlin/kotlinx.serialization",
+      "status": "candidate",
+      "text": "[![Kotlin Stable](https://kotl.in/badges/stable.svg)](https://kotlinlang.org/docs/components-stability.html)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "confluentinc/schema-registry",
+      "status": "candidate",
+      "text": "Schema Registry"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bufbuild/homebrew-buf",
+      "status": "candidate",
+      "text": "This provides a [Homebrew](https://brew.sh) tap for [Buf](https://github.com/bufbuild/buf)."
     }
   ],
   "candidate_related_terms": [],
@@ -997,11 +1087,59 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": ".github/workflows/protobuf.yaml",
       "source_repo": "google/protobuf.dart"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "cloudwego/kitex"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "protocolbuffers/protobuf"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "bufbuild/buf"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "docarray/docarray"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "Kotlin/kotlinx.serialization"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "confluentinc/schema-registry"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/protobuf.yaml",
+      "source_repo": "google/protobuf.dart"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "bufbuild/homebrew-buf"
     }
   ],
   "first_seen_at": "2026-04-18T13:29:00.435097+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

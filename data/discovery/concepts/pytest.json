@@ -323,6 +323,18 @@
       "source_repo": "sourcery-ai/python-best-practices-cookiecutter",
       "status": "candidate-context",
       "text": "Best practices [cookiecutter](https://github.com/audreyr/cookiecutter) template as described in this [blogpost](https://sourcery.ai/blog/python-best-practices/)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "google-deepmind/dm-haiku",
+      "status": "candidate-context",
+      "text": "JAX-based neural network library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google-deepmind/dm-haiku",
+      "status": "candidate-context",
+      "text": "pytest"
     }
   ],
   "candidate_glosses": [
@@ -481,6 +493,12 @@
       "source_repo": "sourcery-ai/python-best-practices-cookiecutter",
       "status": "candidate",
       "text": "Best practices [cookiecutter](https://github.com/audreyr/cookiecutter) template as described in this [blogpost](https://sourcery.ai/blog/python-best-practices/)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google-deepmind/dm-haiku",
+      "status": "candidate",
+      "text": "pytest"
     }
   ],
   "candidate_related_terms": [
@@ -710,11 +728,47 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "sourcery-ai/python-best-practices-cookiecutter"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "google-deepmind/dm-haiku"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/pytest.yml",
+      "source_repo": "OpenHands/ToM-SWE"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "google-deepmind/bsuite"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "15r10nk/inline-snapshot"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/pytest.yaml",
+      "source_repo": "SWE-agent/SWE-agent"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/pytest.yaml",
+      "source_repo": "SWE-bench/SWE-bench"
     }
   ],
   "first_seen_at": "2026-04-19T17:36:09.281008+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

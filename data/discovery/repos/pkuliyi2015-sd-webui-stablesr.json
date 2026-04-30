@@ -1,0 +1,141 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "pkuliyi2015/sd-webui-stablesr",
+      "target": "iceclear/stablesr",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pkuliyi2015/sd-webui-stablesr",
+      "target": "high-fidelity",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pkuliyi2015/sd-webui-stablesr",
+      "target": "stable-diffusion",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pkuliyi2015/sd-webui-stablesr",
+      "target": "stable-diffusion-webui",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pkuliyi2015/sd-webui-stablesr",
+      "target": "stable-diffusion-webui-plugin",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pkuliyi2015/sd-webui-stablesr",
+      "target": "stablesr",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pkuliyi2015/sd-webui-stablesr",
+      "target": "super-resolution",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pkuliyi2015/sd-webui-stablesr",
+      "target": "wavelet-decomposition",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T05:12:37.614956+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 12162
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "StableSR for Stable Diffusion WebUI - Ultra High-quality Image Upscaler",
+    "fork": false,
+    "full_name": "pkuliyi2015/sd-webui-stablesr",
+    "html_url": "https://github.com/pkuliyi2015/sd-webui-stablesr",
+    "language": "Python",
+    "pushed_at": "2024-08-06T04:42:44Z",
+    "stargazers_count": 1099,
+    "topics": [
+      "high-fidelity",
+      "stable-diffusion",
+      "stable-diffusion-webui",
+      "stable-diffusion-webui-plugin",
+      "stablesr",
+      "super-resolution",
+      "wavelet-decomposition"
+    ],
+    "updated_at": "2026-04-29T13:39:06Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "iceclear/stablesr",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Licensed under [S-Lab License 1.0](https://github.com/IceClear/StableSR/blob/main/LICENSE.txt)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "high-fidelity"
+    },
+    {
+      "context_snippet": "Licensed under [S-Lab License 1.0](https://github.com/IceClear/StableSR/blob/main/LICENSE.txt)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "stable-diffusion"
+    },
+    {
+      "context_snippet": "Licensed under [S-Lab License 1.0](https://github.com/IceClear/StableSR/blob/main/LICENSE.txt)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "stable-diffusion-webui"
+    },
+    {
+      "context_snippet": "Licensed under [S-Lab License 1.0](https://github.com/IceClear/StableSR/blob/main/LICENSE.txt)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "stable-diffusion-webui-plugin"
+    },
+    {
+      "context_snippet": "Licensed under [S-Lab License 1.0](https://github.com/IceClear/StableSR/blob/main/LICENSE.txt)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "stablesr"
+    },
+    {
+      "context_snippet": "Licensed under [S-Lab License 1.0](https://github.com/IceClear/StableSR/blob/main/LICENSE.txt)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "super-resolution"
+    },
+    {
+      "context_snippet": "Licensed under [S-Lab License 1.0](https://github.com/IceClear/StableSR/blob/main/LICENSE.txt)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "wavelet-decomposition"
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "zhaoyun0071/LAMA-Magic-Eraser-Windows",
+      "target": "saic-mdal/lama",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "zhaoyun0071/LAMA-Magic-Eraser-Windows",
+      "target": "zhaoyun0071/lama-magic-eraser-local",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T05:12:28.930321+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1057
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "zhaoyun0071/LAMA-Magic-Eraser-Windows",
+    "html_url": "https://github.com/zhaoyun0071/LAMA-Magic-Eraser-Windows",
+    "language": "Python",
+    "pushed_at": "2022-05-22T03:07:43Z",
+    "stargazers_count": 210,
+    "topics": [],
+    "updated_at": "2026-04-27T21:00:08Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "saic-mdal/lama",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "zhaoyun0071/lama-magic-eraser-local",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

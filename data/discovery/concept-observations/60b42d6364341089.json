@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Syntax highlighting files shipped with Sublime Text and Sublime Merge"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "These packages are developed"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "These packages are developed"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "sublime-text",
+      "sense_id": "sublime-text#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "sublime-text",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "sublime-text",
+  "observation_id": "60b42d6364341089",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T00:37:16.824464+00:00",
+  "observed_text": "sublime-text",
+  "source_context_snippet": "These packages are developed",
+  "source_file": null,
+  "source_repo": "sublimehq/Packages",
+  "source_repo_description": "Syntax highlighting files shipped with Sublime Text and Sublime Merge"
+}

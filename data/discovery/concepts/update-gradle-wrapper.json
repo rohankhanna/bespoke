@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Update Gradle Wrapper"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "micronaut-projects/micronaut-langchain4j",
+      "status": "candidate-context",
+      "text": "Integration between Micronaut and Langchain4j"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "micronaut-projects/micronaut-langchain4j",
+      "status": "candidate-context",
+      "text": "Update Gradle Wrapper"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "micronaut-projects/micronaut-langchain4j",
+      "status": "candidate",
+      "text": "Update Gradle Wrapper"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10593,
+      "status": "candidate",
+      "text": "rearm"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10593,
+      "status": "candidate",
+      "text": "recap"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10507,
+      "status": "candidate",
+      "text": "cover"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10507,
+      "status": "candidate",
+      "text": "covers"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10507,
+      "status": "candidate",
+      "text": "enclosure"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Update Gradle Wrapper",
+  "concept_id": "update-gradle-wrapper",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/update-gradle-wrapper.yml",
+      "source_repo": "micronaut-projects/micronaut-langchain4j"
+    }
+  ],
+  "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Update Gradle Wrapper",
+      "sense_id": "update-gradle-wrapper#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

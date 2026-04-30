@@ -1,0 +1,273 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "github/codeql-action/init@c10b8064de6f491fea524254123dbe5e09572f13",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "github/codeql-action/analyze@c10b8064de6f491fea524254123dbe5e09572f13",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/on-demand-verification.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/on-push-verification-in-tree.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/on-push-verification-out-of-tree.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/on-push-verification-out-of-tree.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/patch-release.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/patch-release.yml"
+    },
+    {
+      "component": "softprops/action-gh-release@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/patch-release.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scheduled-verification.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scheduled-verification.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "intel/opencl-clang",
+      "target": "khronosgroup/spirv-llvm-translator",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "intel/opencl-clang",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "intel/opencl-clang",
+      "target": "github/codeql-action/init@c10b8064de6f491fea524254123dbe5e09572f13",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "intel/opencl-clang",
+      "target": "github/codeql-action/analyze@c10b8064de6f491fea524254123dbe5e09572f13",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "intel/opencl-clang",
+      "target": "CodeQL",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/on-demand-verification.yml",
+      "source_repo": "intel/opencl-clang",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/on-demand-verification.yml",
+      "source_repo": "intel/opencl-clang",
+      "target": "On demand verification",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/on-push-verification-in-tree.yml",
+      "source_repo": "intel/opencl-clang",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/on-push-verification-in-tree.yml",
+      "source_repo": "intel/opencl-clang",
+      "target": "In-tree build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/on-push-verification-out-of-tree.yml",
+      "source_repo": "intel/opencl-clang",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/on-push-verification-out-of-tree.yml",
+      "source_repo": "intel/opencl-clang",
+      "target": "Out-of-tree build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/patch-release.yml",
+      "source_repo": "intel/opencl-clang",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/patch-release.yml",
+      "source_repo": "intel/opencl-clang",
+      "target": "softprops/action-gh-release@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/patch-release.yml",
+      "source_repo": "intel/opencl-clang",
+      "target": "Generate patch releases",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scheduled-verification.yml",
+      "source_repo": "intel/opencl-clang",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/scheduled-verification.yml",
+      "source_repo": "intel/opencl-clang",
+      "target": "Scheduled verification",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T00:41:53.881909+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4719
+    },
+    {
+      "path": ".github/workflows/codeql.yml",
+      "size": 3552
+    },
+    {
+      "path": ".github/workflows/on-demand-verification.yml",
+      "size": 1262
+    },
+    {
+      "path": ".github/workflows/on-push-verification-in-tree.yml",
+      "size": 1095
+    },
+    {
+      "path": ".github/workflows/on-push-verification-out-of-tree.yml",
+      "size": 3274
+    },
+    {
+      "path": ".github/workflows/patch-release.yml",
+      "size": 5035
+    },
+    {
+      "path": ".github/workflows/scheduled-verification.yml",
+      "size": 1404
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "intel/opencl-clang",
+    "html_url": "https://github.com/intel/opencl-clang",
+    "language": "C++",
+    "pushed_at": "2026-04-02T11:25:42Z",
+    "stargazers_count": 139,
+    "topics": [],
+    "updated_at": "2026-04-01T21:35:20Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "khronosgroup/spirv-llvm-translator",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "\"CodeQL\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql.yml",
+      "term": "CodeQL"
+    },
+    {
+      "context_snippet": "On demand verification",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/on-demand-verification.yml",
+      "term": "On demand verification"
+    },
+    {
+      "context_snippet": "In-tree build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/on-push-verification-in-tree.yml",
+      "term": "In-tree build"
+    },
+    {
+      "context_snippet": "Out-of-tree build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/on-push-verification-out-of-tree.yml",
+      "term": "Out-of-tree build"
+    },
+    {
+      "context_snippet": "Generate patch releases",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/patch-release.yml",
+      "term": "Generate patch releases"
+    },
+    {
+      "context_snippet": "Scheduled verification",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/scheduled-verification.yml",
+      "term": "Scheduled verification"
+    }
+  ]
+}

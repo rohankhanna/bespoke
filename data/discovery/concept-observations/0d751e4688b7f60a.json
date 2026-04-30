@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A custom GitHub action that is used by LLS-Addons to get some metadata on addons"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "A custom GitHub action that is used by [LLS-Addons](https://github.com/carsakiller/LLS-Addons) to get some metadata on addons such as their size and if they contain a plugin."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "A custom GitHub action that is used by [LLS-Addons](https://github.com/carsakiller/LLS-Addons) to get some metadata on addons such as their size and if they contain a plugin."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "sumneko-lua",
+      "sense_id": "sumneko-lua#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "sumneko-lua",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "sumneko-lua",
+  "observation_id": "0d751e4688b7f60a",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T00:37:16.824464+00:00",
+  "observed_text": "sumneko-lua",
+  "source_context_snippet": "A custom GitHub action that is used by [LLS-Addons](https://github.com/carsakiller/LLS-Addons) to get some metadata on addons such as their size and if they contain a plugin.",
+  "source_file": null,
+  "source_repo": "LuaLS/LLS-Addons-Action",
+  "source_repo_description": "A custom GitHub action that is used by LLS-Addons to get some metadata on addons"
+}

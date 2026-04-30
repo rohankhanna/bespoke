@@ -1,0 +1,395 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bigtable-conformance.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bigtable-conformance.yml"
+    },
+    {
+      "component": "actions/setup-dotnet@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bigtable-conformance.yml"
+    },
+    {
+      "component": "actions/setup-go@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bigtable-conformance.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-pr.yml"
+    },
+    {
+      "component": "actions/setup-dotnet@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-pr.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-push.yml"
+    },
+    {
+      "component": "actions/setup-dotnet@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-push.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-tools.yml"
+    },
+    {
+      "component": "actions/setup-dotnet@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-tools.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-api-catalog.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-script-permissions.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/diff-pr.yml"
+    },
+    {
+      "component": "actions/setup-dotnet@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/diff-pr.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/spanner-emulator-pr-push.yml"
+    },
+    {
+      "component": "actions/setup-dotnet@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/spanner-emulator-pr-push.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/storage-retry-conformance.yml"
+    },
+    {
+      "component": "actions/setup-dotnet@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/storage-retry-conformance.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "googleapis/google-cloud-dotnet",
+      "target": "google/google-api-dotnet-client",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "googleapis/google-cloud-dotnet",
+      "target": "googlecloudplatform/getting-started-dotnet",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bigtable-conformance.yml",
+      "source_repo": "googleapis/google-cloud-dotnet",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bigtable-conformance.yml",
+      "source_repo": "googleapis/google-cloud-dotnet",
+      "target": "actions/setup-dotnet@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bigtable-conformance.yml",
+      "source_repo": "googleapis/google-cloud-dotnet",
+      "target": "actions/setup-go@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/bigtable-conformance.yml",
+      "source_repo": "googleapis/google-cloud-dotnet",
+      "target": "bigtable-conformance",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-pr.yml",
+      "source_repo": "googleapis/google-cloud-dotnet",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-pr.yml",
+      "source_repo": "googleapis/google-cloud-dotnet",
+      "target": "actions/setup-dotnet@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-push.yml",
+      "source_repo": "googleapis/google-cloud-dotnet",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-push.yml",
+      "source_repo": "googleapis/google-cloud-dotnet",
+      "target": "actions/setup-dotnet@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-push.yml",
+      "source_repo": "googleapis/google-cloud-dotnet",
+      "target": "Build push",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-tools.yml",
+      "source_repo": "googleapis/google-cloud-dotnet",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-tools.yml",
+      "source_repo": "googleapis/google-cloud-dotnet",
+      "target": "actions/setup-dotnet@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-tools.yml",
+      "source_repo": "googleapis/google-cloud-dotnet",
+      "target": "Build and test PR (tools)",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-api-catalog.yml",
+      "source_repo": "googleapis/google-cloud-dotnet",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-script-permissions.yml",
+      "source_repo": "googleapis/google-cloud-dotnet",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/diff-pr.yml",
+      "source_repo": "googleapis/google-cloud-dotnet",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/diff-pr.yml",
+      "source_repo": "googleapis/google-cloud-dotnet",
+      "target": "actions/setup-dotnet@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/diff-pr.yml",
+      "source_repo": "googleapis/google-cloud-dotnet",
+      "target": "Detect differences (PR only)",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/spanner-emulator-pr-push.yml",
+      "source_repo": "googleapis/google-cloud-dotnet",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/spanner-emulator-pr-push.yml",
+      "source_repo": "googleapis/google-cloud-dotnet",
+      "target": "actions/setup-dotnet@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/storage-retry-conformance.yml",
+      "source_repo": "googleapis/google-cloud-dotnet",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/storage-retry-conformance.yml",
+      "source_repo": "googleapis/google-cloud-dotnet",
+      "target": "actions/setup-dotnet@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "googleapis/google-cloud-dotnet",
+      "target": "client-libraries",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "googleapis/google-cloud-dotnet",
+      "target": "dotnet",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "googleapis/google-cloud-dotnet",
+      "target": "google-cloud",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T03:04:46.516139+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 115034
+    },
+    {
+      "path": ".github/workflows/bigtable-conformance.yml",
+      "size": 1440
+    },
+    {
+      "path": ".github/workflows/build-pr.yml",
+      "size": 1063
+    },
+    {
+      "path": ".github/workflows/build-push.yml",
+      "size": 499
+    },
+    {
+      "path": ".github/workflows/build-tools.yml",
+      "size": 488
+    },
+    {
+      "path": ".github/workflows/check-api-catalog.yml",
+      "size": 287
+    },
+    {
+      "path": ".github/workflows/check-script-permissions.yml",
+      "size": 311
+    },
+    {
+      "path": ".github/workflows/diff-pr.yml",
+      "size": 1892
+    },
+    {
+      "path": ".github/workflows/spanner-emulator-pr-push.yml",
+      "size": 1010
+    },
+    {
+      "path": ".github/workflows/storage-retry-conformance.yml",
+      "size": 960
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Google Cloud Client Libraries for .NET",
+    "fork": false,
+    "full_name": "googleapis/google-cloud-dotnet",
+    "html_url": "https://github.com/googleapis/google-cloud-dotnet",
+    "language": "C#",
+    "pushed_at": "2026-04-29T21:04:46Z",
+    "stargazers_count": 1084,
+    "topics": [
+      "client-libraries",
+      "dotnet",
+      "google-cloud"
+    ],
+    "updated_at": "2026-04-29T21:04:52Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "google/google-api-dotnet-client",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "googlecloudplatform/getting-started-dotnet",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "bigtable-conformance",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/bigtable-conformance.yml",
+      "term": "bigtable-conformance"
+    },
+    {
+      "context_snippet": "Build push",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-push.yml",
+      "term": "Build push"
+    },
+    {
+      "context_snippet": "Build and test PR (tools)",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-tools.yml",
+      "term": "Build and test PR (tools)"
+    },
+    {
+      "context_snippet": "Detect differences (PR only)",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/diff-pr.yml",
+      "term": "Detect differences (PR only)"
+    },
+    {
+      "context_snippet": ".NET idiomatic client libraries for [Google Cloud Platform](https://cloud.google.com/) services.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "client-libraries"
+    },
+    {
+      "context_snippet": ".NET idiomatic client libraries for [Google Cloud Platform](https://cloud.google.com/) services.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dotnet"
+    },
+    {
+      "context_snippet": ".NET idiomatic client libraries for [Google Cloud Platform](https://cloud.google.com/) services.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "google-cloud"
+    }
+  ]
+}

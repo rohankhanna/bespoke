@@ -1,0 +1,304 @@
+{
+  "components": [
+    {
+      "component": "actions/setup-go@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/commitlint.yml"
+    },
+    {
+      "component": "wagoid/commitlint-github-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/commitlint.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/golangci-lint.yml"
+    },
+    {
+      "component": "golangci/golangci-lint-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/golangci-lint.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "ncipollo/release-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "vmihailenco/taskq",
+      "target": "actions/setup-go@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "vmihailenco/taskq",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/commitlint.yml",
+      "source_repo": "vmihailenco/taskq",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/commitlint.yml",
+      "source_repo": "vmihailenco/taskq",
+      "target": "wagoid/commitlint-github-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/commitlint.yml",
+      "source_repo": "vmihailenco/taskq",
+      "target": "Lint Commit Messages",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/golangci-lint.yml",
+      "source_repo": "vmihailenco/taskq",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/golangci-lint.yml",
+      "source_repo": "vmihailenco/taskq",
+      "target": "golangci/golangci-lint-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/golangci-lint.yml",
+      "source_repo": "vmihailenco/taskq",
+      "target": "golangci-lint",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "vmihailenco/taskq",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "vmihailenco/taskq",
+      "target": "ncipollo/release-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "vmihailenco/taskq",
+      "target": "Releases",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "vmihailenco/taskq",
+      "target": "golang",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "vmihailenco/taskq",
+      "target": "ironmq",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "vmihailenco/taskq",
+      "target": "ironmq-backend",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "vmihailenco/taskq",
+      "target": "message-queue",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "vmihailenco/taskq",
+      "target": "queue",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "vmihailenco/taskq",
+      "target": "redis",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "vmihailenco/taskq",
+      "target": "task-queue",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "vmihailenco/taskq",
+      "target": "taskqueue",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T05:02:39.394764+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3164
+    },
+    {
+      "path": "go.mod",
+      "size": 1439
+    },
+    {
+      "path": "package.json",
+      "size": 44
+    },
+    {
+      "path": ".github/workflows/build.yml",
+      "size": 628
+    },
+    {
+      "path": ".github/workflows/commitlint.yml",
+      "size": 227
+    },
+    {
+      "path": ".github/workflows/golangci-lint.yml",
+      "size": 293
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "size": 241
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "v3",
+    "description": "Golang asynchronous task/job queue with Redis, SQS, IronMQ, and in-memory backends",
+    "fork": false,
+    "full_name": "vmihailenco/taskq",
+    "html_url": "https://github.com/vmihailenco/taskq",
+    "language": "Go",
+    "pushed_at": "2025-04-28T03:05:23Z",
+    "stargazers_count": 1340,
+    "topics": [
+      "go",
+      "golang",
+      "ironmq",
+      "ironmq-backend",
+      "message-queue",
+      "queue",
+      "redis",
+      "sqs",
+      "task-queue",
+      "taskqueue"
+    ],
+    "updated_at": "2026-04-24T16:36:43Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Lint Commit Messages",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/commitlint.yml",
+      "term": "Lint Commit Messages"
+    },
+    {
+      "context_snippet": "golangci-lint",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/golangci-lint.yml",
+      "term": "golangci-lint"
+    },
+    {
+      "context_snippet": "Releases",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "term": "Releases"
+    },
+    {
+      "context_snippet": "![build workflow](https://github.com/vmihailenco/taskq/actions/workflows/build.yml/badge.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "golang"
+    },
+    {
+      "context_snippet": "![build workflow](https://github.com/vmihailenco/taskq/actions/workflows/build.yml/badge.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ironmq"
+    },
+    {
+      "context_snippet": "![build workflow](https://github.com/vmihailenco/taskq/actions/workflows/build.yml/badge.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ironmq-backend"
+    },
+    {
+      "context_snippet": "![build workflow](https://github.com/vmihailenco/taskq/actions/workflows/build.yml/badge.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "message-queue"
+    },
+    {
+      "context_snippet": "![build workflow](https://github.com/vmihailenco/taskq/actions/workflows/build.yml/badge.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "queue"
+    },
+    {
+      "context_snippet": "![build workflow](https://github.com/vmihailenco/taskq/actions/workflows/build.yml/badge.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "redis"
+    },
+    {
+      "context_snippet": "![build workflow](https://github.com/vmihailenco/taskq/actions/workflows/build.yml/badge.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "task-queue"
+    },
+    {
+      "context_snippet": "![build workflow](https://github.com/vmihailenco/taskq/actions/workflows/build.yml/badge.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "taskqueue"
+    }
+  ]
+}

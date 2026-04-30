@@ -67,6 +67,30 @@
       "source_repo": "terkelg/prompts",
       "status": "candidate-context",
       "text": "prompts \u2014 Lightweight, beautiful and user-friendly prompts"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jianzhnie/awesome-instruction-datasets",
+      "status": "candidate-context",
+      "text": "A collection of awesome-prompt-datasets, awesome-instruction-dataset, to train ChatLLM such as chatgpt \u6536\u5f55\u5404\u79cd\u5404\u6837\u7684\u6307\u4ee4\u6570\u636e\u96c6, \u7528\u4e8e\u8bad\u7ec3  ChatLLM \u6a21\u578b\u3002"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jianzhnie/awesome-instruction-datasets",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "thunlp/OpenPrompt",
+      "status": "candidate-context",
+      "text": "An Open-Source Framework for Prompt-Learning."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "thunlp/OpenPrompt",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -99,6 +123,18 @@
       "source_repo": "terkelg/prompts",
       "status": "candidate",
       "text": "prompts \u2014 Lightweight, beautiful and user-friendly prompts"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jianzhnie/awesome-instruction-datasets",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "thunlp/OpenPrompt",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -232,11 +268,35 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "denysdovhan/robbyrussell-node"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "f/prompts.chat"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "jianzhnie/awesome-instruction-datasets"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "denysdovhan/robbyrussell-node"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "thunlp/OpenPrompt"
     }
   ],
   "first_seen_at": "2026-04-19T17:42:30.117329+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -11,7 +11,7 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "racer-rust/racer",
-      "target": "isamert/gracer",
+      "target": "racer-rust/emacs-racer",
       "target_type": "repository"
     },
     {
@@ -25,14 +25,14 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "racer-rust/racer",
-      "target": "defuz/rustautocomplete",
+      "target": "damnwidget/anaconda_rust",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "racer-rust/racer",
-      "target": "damnwidget/anaconda_rust",
+      "target": "racer-rust/vim-racer",
       "target_type": "repository"
     },
     {
@@ -43,7 +43,7 @@
       "target_type": "component"
     }
   ],
-  "fetched_at": "2026-04-29T19:51:17.357738+00:00",
+  "fetched_at": "2026-04-30T04:56:46.149164+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -80,17 +80,17 @@
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "defuz/rustautocomplete",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
       "full_name": "deikatsuo/bracer",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "isamert/gracer",
+      "full_name": "racer-rust/emacs-racer",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "racer-rust/vim-racer",
       "source_file": "README.md"
     }
   ],

@@ -1,0 +1,77 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "2U1/Molmo-Finetune",
+      "target": "2u1/phi3-vision-finetune",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "2U1/Molmo-Finetune",
+      "target": "2u1/qwen2-vl-finetune",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "2U1/Molmo-Finetune",
+      "target": "2u1/pixtral-finetune",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "2U1/Molmo-Finetune",
+      "target": "2u1/smolvlm-finetune",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T02:40:11.461578+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8525
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "An open-source implementaion for fine-tuning Molmo-7B-D and Molmo-7B-O by allenai.",
+    "fork": false,
+    "full_name": "2U1/Molmo-Finetune",
+    "html_url": "https://github.com/2U1/Molmo-Finetune",
+    "language": "Python",
+    "pushed_at": "2025-04-25T01:42:32Z",
+    "stargazers_count": 61,
+    "topics": [],
+    "updated_at": "2026-04-13T10:23:32Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "2u1/phi3-vision-finetune",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "2u1/pixtral-finetune",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "2u1/qwen2-vl-finetune",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "2u1/smolvlm-finetune",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

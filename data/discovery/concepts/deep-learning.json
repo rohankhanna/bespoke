@@ -3061,6 +3061,930 @@
       "source_repo": "google-research/torchsde",
       "status": "candidate-context",
       "text": "This library provides [stochastic differential equation (SDE)](https://en.wikipedia.org/wiki/Stochastic_differential_equation) solvers with GPU support and efficient backpropagation."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "shenweichen/DeepCTR-Torch",
+      "status": "candidate-context",
+      "text": "\u3010PyTorch\u3011Easy-to-use,Modular and Extendible package of deep-learning based CTR models."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "shenweichen/DeepCTR-Torch",
+      "status": "candidate-context",
+      "text": "[![Python Versions](https://img.shields.io/pypi/pyversions/deepctr-torch.svg)](https://pypi.org/project/deepctr-torch)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "chainer/chainerrl",
+      "status": "candidate-context",
+      "text": "ChainerRL is a deep reinforcement learning library built on top of Chainer."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chainer/chainerrl",
+      "status": "candidate-context",
+      "text": "<div align=\"center\"><img src=\"https://raw.githubusercontent.com/chainer/chainerrl/master/assets/ChainerRL.png\" width=\"400\"/></div>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "alibaba/BladeDISC",
+      "status": "candidate-context",
+      "text": "BladeDISC is an end-to-end DynamIc Shape Compiler project for machine learning workloads."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alibaba/BladeDISC",
+      "status": "candidate-context",
+      "text": "We're always looking for candicates to join dev team. Your're the one we're searching for long:"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "tensorflow/tensor2tensor",
+      "status": "candidate-context",
+      "text": "Library of deep learning models and datasets designed to make deep learning more accessible and accelerate ML research."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tensorflow/tensor2tensor",
+      "status": "candidate-context",
+      "text": "[![PyPI"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "snap-stanford/ogb",
+      "status": "candidate-context",
+      "text": "Benchmark datasets, data loaders, and evaluators for graph machine learning"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "snap-stanford/ogb",
+      "status": "candidate-context",
+      "text": "<p align='center'>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "natanielruiz/deep-head-pose",
+      "status": "candidate-context",
+      "text": ":fire::fire: Deep Learning Head Pose Estimation using PyTorch."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "natanielruiz/deep-head-pose",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Ha0Tang/AttentionGAN",
+      "status": "candidate-context",
+      "text": "AttentionGAN for Unpaired Image-to-Image Translation & Multi-Domain Image-to-Image Translation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Ha0Tang/AttentionGAN",
+      "status": "candidate-context",
+      "text": "[![License CC BY-NC-SA 4.0](https://img.shields.io/badge/license-CC4.0-blue.svg)](https://github.com/Ha0Tang/AttentionGAN/blob/master/LICENSE.md)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jolibrain/deepdetect",
+      "status": "candidate-context",
+      "text": "Deep Learning API and Server in C++14 support for PyTorch,TensorRT, Dlib, NCNN, Tensorflow, XGBoost and TSNE"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jolibrain/deepdetect",
+      "status": "candidate-context",
+      "text": "<p align=\"center\"><img src=\"https://www.deepdetect.com/img/icons/menu/sidebar/deepdetect.svg\" alt=\"DeepDetect Logo\" width=\"45%\" /></p>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "microsoft/nni",
+      "status": "candidate-context",
+      "text": "An open source AutoML toolkit for automate machine learning lifecycle, including feature engineering, neural architecture search, model compression and hyper-parameter tuning."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/nni",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "fabio-sim/Depth-Anything-ONNX",
+      "status": "candidate-context",
+      "text": "ONNX-compatible Depth Anything: Unleashing the Power of Large-Scale Unlabeled Data"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fabio-sim/Depth-Anything-ONNX",
+      "status": "candidate-context",
+      "text": "[![ONNX](https://img.shields.io/badge/ONNX-grey)](https://onnx.ai/)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "NVlabs/OmniVinci",
+      "status": "candidate-context",
+      "text": "OmniVinci is an omni-modal LLM for joint understanding of vision, audio, and language."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NVlabs/OmniVinci",
+      "status": "candidate-context",
+      "text": "<p align=\"center\" width=\"100%\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mit-han-lab/mcunet",
+      "status": "candidate-context",
+      "text": "[NeurIPS 2020] MCUNet: Tiny Deep Learning on IoT Devices; [NeurIPS 2021] MCUNetV2: Memory-Efficient Patch-based Inference for Tiny Deep Learning"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mit-han-lab/mcunet",
+      "status": "candidate-context",
+      "text": "This is the official implementation of the MCUNet series."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "VITA-Group/SLaK",
+      "status": "candidate-context",
+      "text": "[ICLR 2023] \"More ConvNets in the 2020s: Scaling up Kernels Beyond 51x51 using Sparsity\"; [ICML 2023] \"Are Large Kernels  Better Teachers than Transformers for ConvNets?\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "VITA-Group/SLaK",
+      "status": "candidate-context",
+      "text": "Official PyTorch implementation of"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lucidrains/flamingo-pytorch",
+      "status": "candidate-context",
+      "text": "Implementation of \ud83e\udda9 Flamingo, state-of-the-art few-shot visual question answering attention net out of Deepmind, in Pytorch"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lucidrains/flamingo-pytorch",
+      "status": "candidate-context",
+      "text": "<img src=\"./flamingo.png\" width=\"500px\"></img>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "alpa-projects/alpa",
+      "status": "candidate-context",
+      "text": "Training and serving large-scale neural networks with auto parallelization."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alpa-projects/alpa",
+      "status": "candidate-context",
+      "text": "**Note: Alpa is not actively maintained currently. It is available as a research artifact. The core algorithm in Alpa has been merged into XLA, which is still being maintained. https://github.com/openxla/xla/tree/main/xla/hlo/experimental/auto_sharding**"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Sea-Snell/JAXSeq",
+      "status": "candidate-context",
+      "text": "Train very large language models in Jax."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Sea-Snell/JAXSeq",
+      "status": "candidate-context",
+      "text": "**Note: this is version 2.0 of JaxSeq. It supports Jax V0.4, and there are quite few updates that should make it easier to work with. However, if you are dependent on the old version, I would reccoment pulling from the old_version branch, or the version 1.0 commit under github v\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "google-deepmind/dm-haiku",
+      "status": "candidate-context",
+      "text": "JAX-based neural network library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google-deepmind/dm-haiku",
+      "status": "candidate-context",
+      "text": "[**Overview**](#overview)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kornia/kornia",
+      "status": "candidate-context",
+      "text": "\ud83d\udc0d Geometric Computer Vision Library for Spatial AI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kornia/kornia",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "OFA-Sys/Chinese-CLIP",
+      "status": "candidate-context",
+      "text": "Chinese version of CLIP which achieves Chinese cross-modal retrieval and representation generation."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "OFA-Sys/Chinese-CLIP",
+      "status": "candidate-context",
+      "text": "[**\u4e2d\u6587\u8bf4\u660e**](README.md) | [**English**](README_En.md)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sugarme/gotch",
+      "status": "candidate-context",
+      "text": "Go binding for Pytorch C++ API (libtorch)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sugarme/gotch",
+      "status": "candidate-context",
+      "text": "`gotch` creates a thin wrapper to Pytorch C++ APIs (Libtorch) to make use of its already optimized C++ tensor APIs (3039) and dynamic graph computation with CUDA support and provides idiomatic Go APIs for developing and implementing Deep Learning in Go."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sugarme/transformer",
+      "status": "candidate-context",
+      "text": "NLP transformers written in Go"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sugarme/transformer",
+      "status": "candidate-context",
+      "text": "`transformer` is pure Go package to facilitate applying Natural Language Processing (NLP) models train/test and inference in Go."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "YuanGongND/ltu",
+      "status": "candidate-context",
+      "text": "Code, Dataset, and Pretrained Models for Audio and Speech Large Language Model \"Listen, Think, and Understand\"."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "YuanGongND/ltu",
+      "status": "candidate-context",
+      "text": "- [Introduction](#introduction)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "YuanGongND/psla",
+      "status": "candidate-context",
+      "text": "Code for the TASLP paper \"PSLA: Improving Audio Tagging With Pretraining, Sampling, Labeling, and Aggregation\"."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "YuanGongND/psla",
+      "status": "candidate-context",
+      "text": "- [News](#News)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "BlackSamorez/tensor_parallel",
+      "status": "candidate-context",
+      "text": "Automatically split your PyTorch models on multiple GPUs for training & inference"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "BlackSamorez/tensor_parallel",
+      "status": "candidate-context",
+      "text": "[![PyPI version](https://img.shields.io/pypi/v/tensor-parallel.svg?color=blue)](https://pypi.org/project/tensor-parallel/)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "balancap/SSD-Tensorflow",
+      "status": "candidate-context",
+      "text": "Single Shot MultiBox Detector in TensorFlow"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "balancap/SSD-Tensorflow",
+      "status": "candidate-context",
+      "text": "SSD is an unified framework for object detection with a single network. It has been originally introduced in this research [article](http://arxiv.org/abs/1512.02325)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "BMW-InnovationLab/BMW-TensorFlow-Training-GUI",
+      "status": "candidate-context",
+      "text": "This repository allows you to get started with a gui based training a State-of-the-art Deep Learning model with little to no configuration needed! NoCode training with TensorFlow has never been so easy."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "BMW-InnovationLab/BMW-TensorFlow-Training-GUI",
+      "status": "candidate-context",
+      "text": "Updated for CUDA 11 and Tensorflow 2!!!"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "BMW-InnovationLab/BMW-YOLOv4-Training-Automation",
+      "status": "candidate-context",
+      "text": "This repository allows you to get started with training a state-of-the-art Deep Learning model with little to no configuration needed!  You provide your labeled dataset or label your dataset using our BMW-LabelTool-Lite and you can start the training right away and monitor it in many different ways like TensorBoard or a custom REST API and GUI. NoCode training with YOLOv4 and YOLOV3 has never been so easy."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "BMW-InnovationLab/BMW-YOLOv4-Training-Automation",
+      "status": "candidate-context",
+      "text": "This repository, based on AlexeyAB's darknet repro, allows you to get started with training a state-of-the-art Deep Learning model with little to no configuration needed! You provide your labeled dataset and you can start the training right away and monitor it in many different \u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "wy1iu/sphereface",
+      "status": "candidate-context",
+      "text": "Implementation for <SphereFace: Deep Hypersphere Embedding for Face Recognition> in CVPR'17."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "wy1iu/sphereface",
+      "status": "candidate-context",
+      "text": "By Weiyang Liu, Yandong Wen, Zhiding Yu, Ming Li, Bhiksha Raj and Le Song"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "VeriSilicon/tflite-vx-delegate",
+      "status": "candidate-context",
+      "text": "Tensorflow Lite external delegate based on TIM-VX"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "VeriSilicon/tflite-vx-delegate",
+      "status": "candidate-context",
+      "text": "TfLite-vx-delegate constructed with TIM-VX as an openvx delegate for tensorflow lite. Before vx-delegate, you may have nnapi-linux version from VeriSilicon, we suggest you move to this new delegate because:"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "CVHub520/X-AnyLabeling",
+      "status": "candidate-context",
+      "text": "Effortless data labeling with AI support from Segment Anything and other awesome models."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "CVHub520/X-AnyLabeling",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "WongKinYiu/ScaledYOLOv4",
+      "status": "candidate-context",
+      "text": "Scaled-YOLOv4: Scaling Cross Stage Partial Network"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "WongKinYiu/ScaledYOLOv4",
+      "status": "candidate-context",
+      "text": "This is the implementation of \"[Scaled-YOLOv4: Scaling Cross Stage Partial Network](https://arxiv.org/abs/2011.08036)\" using PyTorch framwork."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "NVIDIA/pix2pixHD",
+      "status": "candidate-context",
+      "text": "Synthesizing and manipulating 2048x1024 images with conditional GANs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NVIDIA/pix2pixHD",
+      "status": "candidate-context",
+      "text": "<img src='imgs/teaser_720.gif' align=\"right\" width=360>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "plemeri/InSPyReNet",
+      "status": "candidate-context",
+      "text": "Official PyTorch implementation of Revisiting Image Pyramid Structure for High Resolution Salient Object Detection (ACCV 2022)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "plemeri/InSPyReNet",
+      "status": "candidate-context",
+      "text": "[![MseeP.ai Security Assessment Badge](https://mseep.net/pr/plemeri-inspyrenet-badge.png)](https://mseep.ai/app/plemeri-inspyrenet)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "CMU-Perceptual-Computing-Lab/openpose_train",
+      "status": "candidate-context",
+      "text": "Training repository for OpenPose"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "CMU-Perceptual-Computing-Lab/openpose_train",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Daniil-Osokin/gccpm-look-into-person-cvpr19.pytorch",
+      "status": "candidate-context",
+      "text": "Fast and accurate single-person pose estimation, ranked 10th at CVPR'19 LIP challenge. Contains implementation of \"Global Context for Convolutional Pose Machines\" paper."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Daniil-Osokin/gccpm-look-into-person-cvpr19.pytorch",
+      "status": "candidate-context",
+      "text": "This repository contains training code for the paper [Global Context for Convolutional Pose Machines](https://arxiv.org/pdf/1906.04104.pdf). This work improves [original](https://arxiv.org/pdf/1602.00134.pdf) convolutional pose machine architecture for artculated human pose esti\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Daniil-Osokin/lightweight-human-pose-estimation-3d-demo.pytorch",
+      "status": "candidate-context",
+      "text": "Real-time 3D multi-person pose estimation demo in PyTorch. OpenVINO backend can be used for fast inference on CPU."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Daniil-Osokin/lightweight-human-pose-estimation-3d-demo.pytorch",
+      "status": "candidate-context",
+      "text": "This repository contains 3D multi-person pose estimation demo in PyTorch. Intel OpenVINO&trade; backend can be used for fast inference on CPU. This demo is based on [Lightweight OpenPose](https://arxiv.org/pdf/1811.12004.pdf) and [Single-Shot Multi-Person 3D Pose Estimation From\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mks0601/3DMPPE_POSENET_RELEASE",
+      "status": "candidate-context",
+      "text": "Official PyTorch implementation of \"Camera Distance-aware Top-down Approach for 3D Multi-person Pose Estimation from a Single RGB Image\", ICCV 2019"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mks0601/3DMPPE_POSENET_RELEASE",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "baegwangbin/surface_normal_uncertainty",
+      "status": "candidate-context",
+      "text": "[ICCV 2021 Oral] Estimating and Exploiting the Aleatoric Uncertainty in Surface Normal Estimation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "baegwangbin/surface_normal_uncertainty",
+      "status": "candidate-context",
+      "text": "torch==1.6.0 torchvision==0.7.0 Pillow numpy matplotlib argparse tqdm"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mks0601/3DMPPE_ROOTNET_RELEASE",
+      "status": "candidate-context",
+      "text": "Official PyTorch implementation of \"Camera Distance-aware Top-down Approach for 3D Multi-person Pose Estimation from a Single RGB Image\", ICCV 2019"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mks0601/3DMPPE_ROOTNET_RELEASE",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "GaParmar/clean-fid",
+      "status": "candidate-context",
+      "text": "PyTorch - FID calculation with proper image resizing and quantization steps [CVPR 2022]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "GaParmar/clean-fid",
+      "status": "candidate-context",
+      "text": "<br>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Lightning-AI/torchmetrics",
+      "status": "candidate-context",
+      "text": "Machine learning metrics for distributed, scalable PyTorch applications."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Lightning-AI/torchmetrics",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "GaParmar/img2img-turbo",
+      "status": "candidate-context",
+      "text": "One-step image-to-image with Stable Diffusion turbo: sketch2image, day2night, and more"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "GaParmar/img2img-turbo",
+      "status": "candidate-context",
+      "text": "[**Paper**](https://arxiv.org/abs/2403.12036) | [**Sketch2Image Demo**](https://huggingface.co/spaces/gparmar/img2img-turbo-sketch)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mv-lab/swin2sr",
+      "status": "candidate-context",
+      "text": "[ECCV] Swin2SR: SwinV2 Transformer for Compressed Image Super-Resolution and Restoration.  Advances in Image Manipulation (AIM) workshop ECCV 2022. Try it out! over 3.3M runs https://replicate.com/mv-lab/swin2sr"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mv-lab/swin2sr",
+      "status": "candidate-context",
+      "text": "[![arXiv](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)](https://arxiv.org/abs/2209.11345)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "G-U-N/AnimateLCM",
+      "status": "candidate-context",
+      "text": "[SIGGRAPH ASIA 2024 TCS] AnimateLCM: Computation-Efficient Personalized Style Video Generation without Personalized Video Data"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "G-U-N/AnimateLCM",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "IDKiro/MCT",
+      "status": "candidate-context",
+      "text": "Multi-Curve Translator for High-Resolution Photorealistic Image Translation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "IDKiro/MCT",
+      "status": "candidate-context",
+      "text": "[![paper](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)](https://arxiv.org/abs/2203.07756) [![Download](https://img.shields.io/badge/GoogleDrive-Data-blue)](https://drive.google.com/drive/folders/1RWALNnNNxoTxxgjuKGRSw98SGrQhZ_uO?usp=sharing)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "TencentARC/GFPGAN",
+      "status": "candidate-context",
+      "text": "GFPGAN aims at developing Practical Algorithms for Real-world Face Restoration."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "TencentARC/GFPGAN",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cuiziteng/ICCV_MAET",
+      "status": "candidate-context",
+      "text": "\ud83c\udf15 [ICCV 2021] Multitask AET with Orthogonal Tangent Regularity for Dark Object Detection. A self-supervised learning way for low-light image object detection."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cuiziteng/ICCV_MAET",
+      "status": "candidate-context",
+      "text": "Dark environment becomes a challenge for computer vision algorithms owing to insufficient photons and undesirable noise. To enhance object detection in a dark environment, we propose a novel multitask auto encod- ing transformation (MAET) model which is able to explore the intri\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lucidrains/electra-pytorch",
+      "status": "candidate-context",
+      "text": "A simple and working implementation of Electra, the fastest way to pretrain language models from scratch, in Pytorch"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lucidrains/electra-pytorch",
+      "status": "candidate-context",
+      "text": "<img src=\"./electra.png\"></img>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pyro-ppl/pyro",
+      "status": "candidate-context",
+      "text": "Deep universal probabilistic programming with Python and PyTorch"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pyro-ppl/pyro",
+      "status": "candidate-context",
+      "text": "<!--"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "patrick-kidger/equinox",
+      "status": "candidate-context",
+      "text": "Elegant easy-to-use neural networks + scientific computing in JAX. https://docs.kidger.site/equinox/"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "patrick-kidger/equinox",
+      "status": "candidate-context",
+      "text": "<h1 align='center'>Equinox</h1>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "clearml/clearml",
+      "status": "candidate-context",
+      "text": "ClearML - Auto-Magical CI/CD to streamline your AI workload. Experiment Management, Data Management, Pipeline, Orchestration, Scheduling & Serving in one MLOps/LLMOps solution"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "clearml/clearml",
+      "status": "candidate-context",
+      "text": "<div align=\"center\" style=\"text-align: center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mozilla/DeepSpeech",
+      "status": "candidate-context",
+      "text": "DeepSpeech is an open source embedded (offline, on-device) speech-to-text engine which can run in real time on devices ranging from a Raspberry Pi 4 to high power GPU servers."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mozilla/DeepSpeech",
+      "status": "candidate-context",
+      "text": "Status"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pykeen/pykeen",
+      "status": "candidate-context",
+      "text": "\ud83e\udd16 A Python library for learning and evaluating knowledge graph embeddings "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pykeen/pykeen",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "shadow2496/VITON-HD",
+      "status": "candidate-context",
+      "text": "Official PyTorch implementation of \"VITON-HD: High-Resolution Virtual Try-On via Misalignment-Aware Normalization\" (CVPR 2021)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "shadow2496/VITON-HD",
+      "status": "candidate-context",
+      "text": "**1. [NEW!] PromptDresser (https://github.com/rlawjdghek/PromptDresser) - Arxiv 24.12**<br>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "patrick-kidger/NeuralCDE",
+      "status": "candidate-context",
+      "text": "Code for \"Neural Controlled Differential Equations for Irregular Time Series\" (Neurips 2020 Spotlight)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "patrick-kidger/NeuralCDE",
+      "status": "candidate-context",
+      "text": "<h1 align='center'> Neural Controlled Differential Equations for Irregular Time Series<br>(NeurIPS 2020 Spotlight)<br>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "google-deepmind/tapnet",
+      "status": "candidate-context",
+      "text": "Tracking Any Point (TAP)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google-deepmind/tapnet",
+      "status": "candidate-context",
+      "text": "[[`TAP-Vid`](https://tapvid.github.io/)] [[`TAPIR`](https://deepmind-tapir.github.io/)] [[`RoboTAP`](https://robotap.github.io/)] [[`Blog Post`](https://deepmind-tapir.github.io/blogpost.html)] [[`BootsTAP`](https://bootstap.github.io/)] [[`TAPVid-3D`](https://tapvid3d.github.io\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "OpenBMB/CPM-Live",
+      "status": "candidate-context",
+      "text": "Live Training for Open-source Big Models"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "OpenBMB/CPM-Live",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "thunlp/OpenDelta",
+      "status": "candidate-context",
+      "text": "A plug-and-play library for parameter-efficient-tuning (Delta Tuning)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "thunlp/OpenDelta",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "thunlp/OpenPrompt",
+      "status": "candidate-context",
+      "text": "An Open-Source Framework for Prompt-Learning."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "thunlp/OpenPrompt",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "OpenBMB/BMInf",
+      "status": "candidate-context",
+      "text": "Efficient Inference for Big Models"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "OpenBMB/BMInf",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "shenweichen/DeepCTR",
+      "status": "candidate-context",
+      "text": "Easy-to-use,Modular and Extendible package of deep-learning based CTR models ."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "shenweichen/DeepCTR",
+      "status": "candidate-context",
+      "text": "[![Python Versions](https://img.shields.io/pypi/pyversions/deepctr.svg)](https://pypi.org/project/deepctr)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "chainer/chainer",
+      "status": "candidate-context",
+      "text": "A flexible framework of neural networks for deep learning"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chainer/chainer",
+      "status": "candidate-context",
+      "text": "***Notice: As [announced](https://chainer.org/announcement/2019/12/05/released-v7.html), Chainer is under the maintenance phase and further development will be limited to bug-fixes and maintenance only.***"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "google-deepmind/dm_control",
+      "status": "candidate-context",
+      "text": "Google DeepMind's software stack for physics-based simulation and Reinforcement Learning environments, using MuJoCo."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google-deepmind/dm_control",
+      "status": "candidate-context",
+      "text": "Google DeepMind's software stack for physics-based simulation and Reinforcement"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "google-deepmind/lab",
+      "status": "candidate-context",
+      "text": "A customisable 3D platform for agent-based AI research"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google-deepmind/lab",
+      "status": "candidate-context",
+      "text": "*DeepMind Lab* is a 3D learning environment based on id Software's"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "christiansafka/img2vec",
+      "status": "candidate-context",
+      "text": ":fire: Use pre-trained models in PyTorch to extract vector embeddings for any image"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "christiansafka/img2vec",
+      "status": "candidate-context",
+      "text": "Medium post on building the first version from scratch: https://becominghuman.ai/extract-a-feature-vector-for-any-image-with-pytorch-9717561d1d4c"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "google/trax",
+      "status": "candidate-context",
+      "text": "Trax \u2014 Deep Learning with Clear Code and Speed"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/trax",
+      "status": "candidate-context",
+      "text": "![train tracks](https://images.pexels.com/photos/461772/pexels-photo-461772.jpeg?dl&fit=crop&crop=entropy&w=32&h=21)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "richzhang/PerceptualSimilarity",
+      "status": "candidate-context",
+      "text": "LPIPS metric. pip install lpips"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "richzhang/PerceptualSimilarity",
+      "status": "candidate-context",
+      "text": "**The Unreasonable Effectiveness of Deep Features as a Perceptual Metric**"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "google-research/human-scene-transformer",
+      "status": "candidate-context",
+      "text": "Human Scene Transformer: A framework for trajectory prediction and wrappers for reframing the JRDB dataset for the prediction task."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google-research/human-scene-transformer",
+      "status": "candidate-context",
+      "text": ":trophy: Winner of the [2023 JRDB Trajectory Prediction Challenge](https://jrdb.erc.monash.edu/leaderboards/trajectory) - [Reproduce](#jrdb-trajectory-prediction-challenge-results) our Result!"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Oreobird/tf-keras-deep-head-pose",
+      "status": "candidate-context",
+      "text": "A tensorflow & keras implementation of Deep Head Pose"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Oreobird/tf-keras-deep-head-pose",
+      "status": "candidate-context",
+      "text": "A tensorflow &amp; keras implementation of Deep Head Pose"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Ha0Tang/GestureGAN",
+      "status": "candidate-context",
+      "text": "[ACM MM 2018 Oral] GestureGAN for Hand Gesture-to-Gesture Translation in the Wild"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Ha0Tang/GestureGAN",
+      "status": "candidate-context",
+      "text": "[![License CC BY-NC-SA 4.0](https://img.shields.io/badge/license-CC4.0-blue.svg)](https://github.com/Ha0Tang/GestureGAN/blob/master/LICENSE.md)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Ha0Tang/SelectionGAN",
+      "status": "candidate-context",
+      "text": "[CVPR 2019 Oral] Multi-Channel Attention Selection GAN with Cascaded Semantic Guidance for Cross-View Image Translation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Ha0Tang/SelectionGAN",
+      "status": "candidate-context",
+      "text": "![Visitors](https://visitor-badge.glitch.me/badge?page_id=Ha0Tang/SelectionGAN)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Janspiry/distributed-pytorch-template",
+      "status": "candidate-context",
+      "text": "This is a seed project for distributed PyTorch training, which was built to customize your network quickly"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Janspiry/distributed-pytorch-template",
+      "status": "candidate-context",
+      "text": "This is a seed project for distributed PyTorch training, which was built to customize your network quickly."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "microsoft/nn-Meter",
+      "status": "candidate-context",
+      "text": "A DNN inference latency prediction toolkit for accurately modeling and predicting the latency on diverse edge devices. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/nn-Meter",
+      "status": "candidate-context",
+      "text": "**nn-Meter** is a novel and efficient system to accurately predict the inference latency of DNN models on diverse edge devices. The key idea is dividing a whole model inference into kernels, i.e., the execution units of fused operators on a device, and conduct kernel-level predi\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Fyusion/LLFF",
+      "status": "candidate-context",
+      "text": "Code release for Local Light Field Fusion at SIGGRAPH 2019"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Fyusion/LLFF",
+      "status": "candidate-context",
+      "text": "<img src='imgs/output6_120.gif' align=\"right\" height=\"120px\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "skypilot-org/skypilot",
+      "status": "candidate-context",
+      "text": "Run, manage, and scale AI workloads on any AI infrastructure. Use one system to access & manage all AI compute (Kubernetes, Slurm, 20+ clouds, on-prem)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "skypilot-org/skypilot",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "BR-IDL/PaddleViT",
+      "status": "candidate-context",
+      "text": ":robot: PaddleViT: State-of-the-art Visual Transformer and MLP Models for PaddlePaddle 2.0+"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "BR-IDL/PaddleViT",
+      "status": "candidate-context",
+      "text": "English | [\u7b80\u4f53\u4e2d\u6587](./README_cn.md)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Shiweiliuiiiiiii/In-Time-Over-Parameterization",
+      "status": "candidate-context",
+      "text": "[ICML 2021] \"Do We Actually Need Dense Over-Parameterization? In-Time Over-Parameterization in Sparse Training\" by Shiwei Liu, Lu Yin, Decebal Constantin Mocanu,  Mykola Pechenizkiy"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Shiweiliuiiiiiii/In-Time-Over-Parameterization",
+      "status": "candidate-context",
+      "text": "<img src=\"https://github.com/Shiweiliuiiiiiii/In-Time-Over-Parameterization/blob/main/ITOP.png\" width=\"500\" height=\"300\">"
     }
   ],
   "candidate_glosses": [
@@ -4593,6 +5517,468 @@
       "source_repo": "google-research/torchsde",
       "status": "candidate",
       "text": "This library provides [stochastic differential equation (SDE)](https://en.wikipedia.org/wiki/Stochastic_differential_equation) solvers with GPU support and efficient backpropagation."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "shenweichen/DeepCTR-Torch",
+      "status": "candidate",
+      "text": "[![Python Versions](https://img.shields.io/pypi/pyversions/deepctr-torch.svg)](https://pypi.org/project/deepctr-torch)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chainer/chainerrl",
+      "status": "candidate",
+      "text": "<div align=\"center\"><img src=\"https://raw.githubusercontent.com/chainer/chainerrl/master/assets/ChainerRL.png\" width=\"400\"/></div>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alibaba/BladeDISC",
+      "status": "candidate",
+      "text": "We're always looking for candicates to join dev team. Your're the one we're searching for long:"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tensorflow/tensor2tensor",
+      "status": "candidate",
+      "text": "[![PyPI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "snap-stanford/ogb",
+      "status": "candidate",
+      "text": "<p align='center'>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "natanielruiz/deep-head-pose",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Ha0Tang/AttentionGAN",
+      "status": "candidate",
+      "text": "[![License CC BY-NC-SA 4.0](https://img.shields.io/badge/license-CC4.0-blue.svg)](https://github.com/Ha0Tang/AttentionGAN/blob/master/LICENSE.md)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jolibrain/deepdetect",
+      "status": "candidate",
+      "text": "<p align=\"center\"><img src=\"https://www.deepdetect.com/img/icons/menu/sidebar/deepdetect.svg\" alt=\"DeepDetect Logo\" width=\"45%\" /></p>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/nni",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fabio-sim/Depth-Anything-ONNX",
+      "status": "candidate",
+      "text": "[![ONNX](https://img.shields.io/badge/ONNX-grey)](https://onnx.ai/)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NVlabs/OmniVinci",
+      "status": "candidate",
+      "text": "<p align=\"center\" width=\"100%\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mit-han-lab/mcunet",
+      "status": "candidate",
+      "text": "This is the official implementation of the MCUNet series."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "VITA-Group/SLaK",
+      "status": "candidate",
+      "text": "Official PyTorch implementation of"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lucidrains/flamingo-pytorch",
+      "status": "candidate",
+      "text": "<img src=\"./flamingo.png\" width=\"500px\"></img>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alpa-projects/alpa",
+      "status": "candidate",
+      "text": "**Note: Alpa is not actively maintained currently. It is available as a research artifact. The core algorithm in Alpa has been merged into XLA, which is still being maintained. https://github.com/openxla/xla/tree/main/xla/hlo/experimental/auto_sharding**"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Sea-Snell/JAXSeq",
+      "status": "candidate",
+      "text": "**Note: this is version 2.0 of JaxSeq. It supports Jax V0.4, and there are quite few updates that should make it easier to work with. However, if you are dependent on the old version, I would reccoment pulling from the old_version branch, or the version 1.0 commit under github v\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google-deepmind/dm-haiku",
+      "status": "candidate",
+      "text": "[**Overview**](#overview)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kornia/kornia",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "OFA-Sys/Chinese-CLIP",
+      "status": "candidate",
+      "text": "[**\u4e2d\u6587\u8bf4\u660e**](README.md) | [**English**](README_En.md)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sugarme/gotch",
+      "status": "candidate",
+      "text": "`gotch` creates a thin wrapper to Pytorch C++ APIs (Libtorch) to make use of its already optimized C++ tensor APIs (3039) and dynamic graph computation with CUDA support and provides idiomatic Go APIs for developing and implementing Deep Learning in Go."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sugarme/transformer",
+      "status": "candidate",
+      "text": "`transformer` is pure Go package to facilitate applying Natural Language Processing (NLP) models train/test and inference in Go."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "YuanGongND/ltu",
+      "status": "candidate",
+      "text": "- [Introduction](#introduction)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "YuanGongND/psla",
+      "status": "candidate",
+      "text": "- [News](#News)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "BlackSamorez/tensor_parallel",
+      "status": "candidate",
+      "text": "[![PyPI version](https://img.shields.io/pypi/v/tensor-parallel.svg?color=blue)](https://pypi.org/project/tensor-parallel/)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "balancap/SSD-Tensorflow",
+      "status": "candidate",
+      "text": "SSD is an unified framework for object detection with a single network. It has been originally introduced in this research [article](http://arxiv.org/abs/1512.02325)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "BMW-InnovationLab/BMW-TensorFlow-Training-GUI",
+      "status": "candidate",
+      "text": "Updated for CUDA 11 and Tensorflow 2!!!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "BMW-InnovationLab/BMW-YOLOv4-Training-Automation",
+      "status": "candidate",
+      "text": "This repository, based on AlexeyAB's darknet repro, allows you to get started with training a state-of-the-art Deep Learning model with little to no configuration needed! You provide your labeled dataset and you can start the training right away and monitor it in many different \u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "wy1iu/sphereface",
+      "status": "candidate",
+      "text": "By Weiyang Liu, Yandong Wen, Zhiding Yu, Ming Li, Bhiksha Raj and Le Song"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "VeriSilicon/tflite-vx-delegate",
+      "status": "candidate",
+      "text": "TfLite-vx-delegate constructed with TIM-VX as an openvx delegate for tensorflow lite. Before vx-delegate, you may have nnapi-linux version from VeriSilicon, we suggest you move to this new delegate because:"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "CVHub520/X-AnyLabeling",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "WongKinYiu/ScaledYOLOv4",
+      "status": "candidate",
+      "text": "This is the implementation of \"[Scaled-YOLOv4: Scaling Cross Stage Partial Network](https://arxiv.org/abs/2011.08036)\" using PyTorch framwork."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NVIDIA/pix2pixHD",
+      "status": "candidate",
+      "text": "<img src='imgs/teaser_720.gif' align=\"right\" width=360>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "plemeri/InSPyReNet",
+      "status": "candidate",
+      "text": "[![MseeP.ai Security Assessment Badge](https://mseep.net/pr/plemeri-inspyrenet-badge.png)](https://mseep.ai/app/plemeri-inspyrenet)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "CMU-Perceptual-Computing-Lab/openpose_train",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Daniil-Osokin/gccpm-look-into-person-cvpr19.pytorch",
+      "status": "candidate",
+      "text": "This repository contains training code for the paper [Global Context for Convolutional Pose Machines](https://arxiv.org/pdf/1906.04104.pdf). This work improves [original](https://arxiv.org/pdf/1602.00134.pdf) convolutional pose machine architecture for artculated human pose esti\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Daniil-Osokin/lightweight-human-pose-estimation-3d-demo.pytorch",
+      "status": "candidate",
+      "text": "This repository contains 3D multi-person pose estimation demo in PyTorch. Intel OpenVINO&trade; backend can be used for fast inference on CPU. This demo is based on [Lightweight OpenPose](https://arxiv.org/pdf/1811.12004.pdf) and [Single-Shot Multi-Person 3D Pose Estimation From\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mks0601/3DMPPE_POSENET_RELEASE",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "baegwangbin/surface_normal_uncertainty",
+      "status": "candidate",
+      "text": "torch==1.6.0 torchvision==0.7.0 Pillow numpy matplotlib argparse tqdm"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mks0601/3DMPPE_ROOTNET_RELEASE",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "GaParmar/clean-fid",
+      "status": "candidate",
+      "text": "<br>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Lightning-AI/torchmetrics",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "GaParmar/img2img-turbo",
+      "status": "candidate",
+      "text": "[**Paper**](https://arxiv.org/abs/2403.12036) | [**Sketch2Image Demo**](https://huggingface.co/spaces/gparmar/img2img-turbo-sketch)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mv-lab/swin2sr",
+      "status": "candidate",
+      "text": "[![arXiv](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)](https://arxiv.org/abs/2209.11345)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "G-U-N/AnimateLCM",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "IDKiro/MCT",
+      "status": "candidate",
+      "text": "[![paper](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)](https://arxiv.org/abs/2203.07756) [![Download](https://img.shields.io/badge/GoogleDrive-Data-blue)](https://drive.google.com/drive/folders/1RWALNnNNxoTxxgjuKGRSw98SGrQhZ_uO?usp=sharing)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "TencentARC/GFPGAN",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cuiziteng/ICCV_MAET",
+      "status": "candidate",
+      "text": "Dark environment becomes a challenge for computer vision algorithms owing to insufficient photons and undesirable noise. To enhance object detection in a dark environment, we propose a novel multitask auto encod- ing transformation (MAET) model which is able to explore the intri\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lucidrains/electra-pytorch",
+      "status": "candidate",
+      "text": "<img src=\"./electra.png\"></img>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pyro-ppl/pyro",
+      "status": "candidate",
+      "text": "<!--"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "patrick-kidger/equinox",
+      "status": "candidate",
+      "text": "<h1 align='center'>Equinox</h1>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "clearml/clearml",
+      "status": "candidate",
+      "text": "<div align=\"center\" style=\"text-align: center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mozilla/DeepSpeech",
+      "status": "candidate",
+      "text": "Status"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pykeen/pykeen",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "shadow2496/VITON-HD",
+      "status": "candidate",
+      "text": "**1. [NEW!] PromptDresser (https://github.com/rlawjdghek/PromptDresser) - Arxiv 24.12**<br>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "patrick-kidger/NeuralCDE",
+      "status": "candidate",
+      "text": "<h1 align='center'> Neural Controlled Differential Equations for Irregular Time Series<br>(NeurIPS 2020 Spotlight)<br>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google-deepmind/tapnet",
+      "status": "candidate",
+      "text": "[[`TAP-Vid`](https://tapvid.github.io/)] [[`TAPIR`](https://deepmind-tapir.github.io/)] [[`RoboTAP`](https://robotap.github.io/)] [[`Blog Post`](https://deepmind-tapir.github.io/blogpost.html)] [[`BootsTAP`](https://bootstap.github.io/)] [[`TAPVid-3D`](https://tapvid3d.github.io\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "OpenBMB/CPM-Live",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "thunlp/OpenDelta",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "thunlp/OpenPrompt",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "OpenBMB/BMInf",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "shenweichen/DeepCTR",
+      "status": "candidate",
+      "text": "[![Python Versions](https://img.shields.io/pypi/pyversions/deepctr.svg)](https://pypi.org/project/deepctr)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chainer/chainer",
+      "status": "candidate",
+      "text": "***Notice: As [announced](https://chainer.org/announcement/2019/12/05/released-v7.html), Chainer is under the maintenance phase and further development will be limited to bug-fixes and maintenance only.***"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google-deepmind/dm_control",
+      "status": "candidate",
+      "text": "Google DeepMind's software stack for physics-based simulation and Reinforcement"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google-deepmind/lab",
+      "status": "candidate",
+      "text": "*DeepMind Lab* is a 3D learning environment based on id Software's"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "christiansafka/img2vec",
+      "status": "candidate",
+      "text": "Medium post on building the first version from scratch: https://becominghuman.ai/extract-a-feature-vector-for-any-image-with-pytorch-9717561d1d4c"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/trax",
+      "status": "candidate",
+      "text": "![train tracks](https://images.pexels.com/photos/461772/pexels-photo-461772.jpeg?dl&fit=crop&crop=entropy&w=32&h=21)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "richzhang/PerceptualSimilarity",
+      "status": "candidate",
+      "text": "**The Unreasonable Effectiveness of Deep Features as a Perceptual Metric**"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google-research/human-scene-transformer",
+      "status": "candidate",
+      "text": ":trophy: Winner of the [2023 JRDB Trajectory Prediction Challenge](https://jrdb.erc.monash.edu/leaderboards/trajectory) - [Reproduce](#jrdb-trajectory-prediction-challenge-results) our Result!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Oreobird/tf-keras-deep-head-pose",
+      "status": "candidate",
+      "text": "A tensorflow &amp; keras implementation of Deep Head Pose"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Ha0Tang/GestureGAN",
+      "status": "candidate",
+      "text": "[![License CC BY-NC-SA 4.0](https://img.shields.io/badge/license-CC4.0-blue.svg)](https://github.com/Ha0Tang/GestureGAN/blob/master/LICENSE.md)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Ha0Tang/SelectionGAN",
+      "status": "candidate",
+      "text": "![Visitors](https://visitor-badge.glitch.me/badge?page_id=Ha0Tang/SelectionGAN)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Janspiry/distributed-pytorch-template",
+      "status": "candidate",
+      "text": "This is a seed project for distributed PyTorch training, which was built to customize your network quickly."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/nn-Meter",
+      "status": "candidate",
+      "text": "**nn-Meter** is a novel and efficient system to accurately predict the inference latency of DNN models on diverse edge devices. The key idea is dividing a whole model inference into kernels, i.e., the execution units of fused operators on a device, and conduct kernel-level predi\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Fyusion/LLFF",
+      "status": "candidate",
+      "text": "<img src='imgs/output6_120.gif' align=\"right\" height=\"120px\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "skypilot-org/skypilot",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "BR-IDL/PaddleViT",
+      "status": "candidate",
+      "text": "English | [\u7b80\u4f53\u4e2d\u6587](./README_cn.md)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Shiweiliuiiiiiii/In-Time-Over-Parameterization",
+      "status": "candidate",
+      "text": "<img src=\"https://github.com/Shiweiliuiiiiiii/In-Time-Over-Parameterization/blob/main/ITOP.png\" width=\"500\" height=\"300\">"
     }
   ],
   "candidate_related_terms": [],
@@ -6430,11 +7816,611 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "google-research/torchsde"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "shenweichen/DeepCTR-Torch"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "chainer/chainerrl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "alibaba/BladeDISC"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "tensorflow/tensor2tensor"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "google-deepmind/graph_nets"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "google-deepmind/jraph"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "pyg-team/pytorch_geometric"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "snap-stanford/ogb"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "natanielruiz/deep-head-pose"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "advimman/lama"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "Ha0Tang/AttentionGAN"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "jolibrain/deepdetect"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "microsoft/nni"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "fabio-sim/Depth-Anything-ONNX"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "NVlabs/OmniVinci"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "mit-han-lab/mcunet"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "VITA-Group/SLaK"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "MrGemy95/Tensorflow-Project-Template"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "EvolvingLMMs-Lab/Otter"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "lucidrains/flamingo-pytorch"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "Lightning-AI/pytorch-lightning"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "Lightning-AI/litgpt"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "alpa-projects/alpa"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "Sea-Snell/JAXSeq"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "open-mmlab/mmagic"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "google-deepmind/dm-haiku"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "uxlfoundation/oneDNN"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "ikostrikov/jaxrl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "kornia/kornia"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "OFA-Sys/Chinese-CLIP"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "OpenMOSS/MOSS"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "RWKV/rwkv.cpp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "sugarme/gotch"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "sugarme/transformer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "YuanGongND/ltu"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "YuanGongND/psla"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "BlackSamorez/tensor_parallel"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "openhackathons-org/gpubootcamp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "AutoGPTQ/AutoGPTQ"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "intel/ai-reference-models"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "balancap/SSD-Tensorflow"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "BMW-InnovationLab/BMW-TensorFlow-Training-GUI"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "BMW-InnovationLab/BMW-YOLOv4-Training-Automation"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "wy1iu/sphereface"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "VeriSilicon/tflite-vx-delegate"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "CVHub520/X-AnyLabeling"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "WongKinYiu/ScaledYOLOv4"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "google-ai-edge/mediapipe"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "NVIDIA/pix2pixHD"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "plemeri/InSPyReNet"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "ZhaoJ9014/face.evoLVe"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "CMU-Perceptual-Computing-Lab/openpose_train"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "Daniil-Osokin/gccpm-look-into-person-cvpr19.pytorch"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "Daniil-Osokin/lightweight-human-pose-estimation-3d-demo.pytorch"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "mks0601/3DMPPE_POSENET_RELEASE"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "baegwangbin/surface_normal_uncertainty"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "mks0601/3DMPPE_ROOTNET_RELEASE"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "webdataset/webdataset"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "deepspeedai/DeepSpeed"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "GaParmar/clean-fid"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "Lightning-AI/torchmetrics"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "GaParmar/img2img-turbo"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "docarray/docarray"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "jina-ai/serve"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "mv-lab/swin2sr"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "G-U-N/AnimateLCM"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "IDKiro/MCT"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "TencentARC/GFPGAN"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "cuiziteng/ICCV_MAET"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "lucidrains/electra-pytorch"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "pyro-ppl/pyro"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "patrick-kidger/equinox"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "clearml/clearml"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "mozilla/DeepSpeech"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "pykeen/pykeen"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "shadow2496/VITON-HD"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "patrick-kidger/NeuralCDE"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "google-deepmind/tapnet"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "OpenBMB/CPM-Live"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "thunlp/OpenDelta"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "thunlp/OpenPrompt"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "OpenBMB/BMInf"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "shenweichen/DeepCTR"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "chainer/chainer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "google-deepmind/dm_control"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "google-deepmind/lab"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "christiansafka/img2vec"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "google/trax"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "richzhang/PerceptualSimilarity"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "google-research/human-scene-transformer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "Oreobird/tf-keras-deep-head-pose"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "IDEA-Research/DINO"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "Ha0Tang/GestureGAN"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "Ha0Tang/SelectionGAN"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "Janspiry/distributed-pytorch-template"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "microsoft/nn-Meter"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "Fyusion/LLFF"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "skypilot-org/skypilot"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "BR-IDL/PaddleViT"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "Shiweiliuiiiiiii/In-Time-Over-Parameterization"
     }
   ],
   "first_seen_at": "2026-04-18T11:41:43.530265+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

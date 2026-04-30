@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A visuailzation tool to make deep understaning and easier debugging for RLHF training."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "RL Logging Board \u662f\u4e00\u4e2a\u5c06 Reinforcement Learning from Human Feedback\uff08RLHF\uff09\u7684`\u8bad\u7ec3\u8fc7\u7a0b\u8fdb\u884c\u53ef\u89c6\u5316\u7684\u5de5\u5177`\uff0c\u65e8\u5728\uff1a"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "RL Logging Board \u662f\u4e00\u4e2a\u5c06 Reinforcement Learning from Human Feedback\uff08RLHF\uff09\u7684`\u8bad\u7ec3\u8fc7\u7a0b\u8fdb\u884c\u53ef\u89c6\u5316\u7684\u5de5\u5177`\uff0c\u65e8\u5728\uff1a"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "rlhf",
+      "sense_id": "rlhf#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "rlhf",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "rlhf",
+  "observation_id": "5c9056fbb31abcf5",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T00:37:16.824464+00:00",
+  "observed_text": "rlhf",
+  "source_context_snippet": "RL Logging Board \u662f\u4e00\u4e2a\u5c06 Reinforcement Learning from Human Feedback\uff08RLHF\uff09\u7684`\u8bad\u7ec3\u8fc7\u7a0b\u8fdb\u884c\u53ef\u89c6\u5316\u7684\u5de5\u5177`\uff0c\u65e8\u5728\uff1a",
+  "source_file": null,
+  "source_repo": "HarderThenHarder/RLLoggingBoard",
+  "source_repo_description": "A visuailzation tool to make deep understaning and easier debugging for RLHF training."
+}

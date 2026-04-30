@@ -1,0 +1,196 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/setup-go@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "segmentio/ksuid",
+      "target": "ksuid/ksuid",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "segmentio/ksuid",
+      "target": "f4b6a3/ksuid-creator",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "segmentio/ksuid",
+      "target": "joymoe/ksuid.net",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "segmentio/ksuid",
+      "target": "exograd/erl-ksuid",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "segmentio/ksuid",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "segmentio/ksuid",
+      "target": "actions/setup-go@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "segmentio/ksuid",
+      "target": "Test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "segmentio/ksuid",
+      "target": "coordination",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "segmentio/ksuid",
+      "target": "golang",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "segmentio/ksuid",
+      "target": "ksuid",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "segmentio/ksuid",
+      "target": "unique-id",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "segmentio/ksuid",
+      "target": "uuid",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T05:03:58.026451+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 10422
+    },
+    {
+      "path": "go.mod",
+      "size": 43
+    },
+    {
+      "path": ".github/workflows/test.yml",
+      "size": 528
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "K-Sortable Globally Unique IDs",
+    "fork": false,
+    "full_name": "segmentio/ksuid",
+    "html_url": "https://github.com/segmentio/ksuid",
+    "language": "Go",
+    "pushed_at": "2023-10-04T17:07:15Z",
+    "stargazers_count": 5257,
+    "topics": [
+      "coordination",
+      "go",
+      "golang",
+      "ksuid",
+      "unique-id",
+      "uuid"
+    ],
+    "updated_at": "2026-04-30T03:15:16Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "exograd/erl-ksuid",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "f4b6a3/ksuid-creator",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "joymoe/ksuid.net",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ksuid/ksuid",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "term": "Test"
+    },
+    {
+      "context_snippet": "ksuid is an efficient, comprehensive, battle-tested Go library for",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "coordination"
+    },
+    {
+      "context_snippet": "ksuid is an efficient, comprehensive, battle-tested Go library for",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "golang"
+    },
+    {
+      "context_snippet": "ksuid is an efficient, comprehensive, battle-tested Go library for",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ksuid"
+    },
+    {
+      "context_snippet": "ksuid is an efficient, comprehensive, battle-tested Go library for",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "unique-id"
+    },
+    {
+      "context_snippet": "ksuid is an efficient, comprehensive, battle-tested Go library for",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "uuid"
+    }
+  ]
+}

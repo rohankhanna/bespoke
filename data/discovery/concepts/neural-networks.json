@@ -151,6 +151,90 @@
       "source_repo": "KerfuffleV2/smolrsrwkv",
       "status": "candidate-context",
       "text": "An example of the RWKV approach to language models written in Rust by someone that"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "google-deepmind/dm-haiku",
+      "status": "candidate-context",
+      "text": "JAX-based neural network library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google-deepmind/dm-haiku",
+      "status": "candidate-context",
+      "text": "[**Overview**](#overview)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "patrick-kidger/equinox",
+      "status": "candidate-context",
+      "text": "Elegant easy-to-use neural networks + scientific computing in JAX. https://docs.kidger.site/equinox/"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "patrick-kidger/equinox",
+      "status": "candidate-context",
+      "text": "<h1 align='center'>Equinox</h1>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mozilla/DeepSpeech",
+      "status": "candidate-context",
+      "text": "DeepSpeech is an open source embedded (offline, on-device) speech-to-text engine which can run in real time on devices ranging from a Raspberry Pi 4 to high power GPU servers."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mozilla/DeepSpeech",
+      "status": "candidate-context",
+      "text": "Status"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "patrick-kidger/NeuralCDE",
+      "status": "candidate-context",
+      "text": "Code for \"Neural Controlled Differential Equations for Irregular Time Series\" (Neurips 2020 Spotlight)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "patrick-kidger/NeuralCDE",
+      "status": "candidate-context",
+      "text": "<h1 align='center'> Neural Controlled Differential Equations for Irregular Time Series<br>(NeurIPS 2020 Spotlight)<br>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "chainer/chainer",
+      "status": "candidate-context",
+      "text": "A flexible framework of neural networks for deep learning"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chainer/chainer",
+      "status": "candidate-context",
+      "text": "***Notice: As [announced](https://chainer.org/announcement/2019/12/05/released-v7.html), Chainer is under the maintenance phase and further development will be limited to bug-fixes and maintenance only.***"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "google-deepmind/dm_control",
+      "status": "candidate-context",
+      "text": "Google DeepMind's software stack for physics-based simulation and Reinforcement Learning environments, using MuJoCo."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google-deepmind/dm_control",
+      "status": "candidate-context",
+      "text": "Google DeepMind's software stack for physics-based simulation and Reinforcement"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "google-deepmind/lab",
+      "status": "candidate-context",
+      "text": "A customisable 3D platform for agent-based AI research"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google-deepmind/lab",
+      "status": "candidate-context",
+      "text": "*DeepMind Lab* is a 3D learning environment based on id Software's"
     }
   ],
   "candidate_glosses": [
@@ -225,6 +309,48 @@
       "source_repo": "KerfuffleV2/smolrsrwkv",
       "status": "candidate",
       "text": "An example of the RWKV approach to language models written in Rust by someone that"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google-deepmind/dm-haiku",
+      "status": "candidate",
+      "text": "[**Overview**](#overview)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "patrick-kidger/equinox",
+      "status": "candidate",
+      "text": "<h1 align='center'>Equinox</h1>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mozilla/DeepSpeech",
+      "status": "candidate",
+      "text": "Status"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "patrick-kidger/NeuralCDE",
+      "status": "candidate",
+      "text": "<h1 align='center'> Neural Controlled Differential Equations for Irregular Time Series<br>(NeurIPS 2020 Spotlight)<br>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chainer/chainer",
+      "status": "candidate",
+      "text": "***Notice: As [announced](https://chainer.org/announcement/2019/12/05/released-v7.html), Chainer is under the maintenance phase and further development will be limited to bug-fixes and maintenance only.***"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google-deepmind/dm_control",
+      "status": "candidate",
+      "text": "Google DeepMind's software stack for physics-based simulation and Reinforcement"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google-deepmind/lab",
+      "status": "candidate",
+      "text": "*DeepMind Lab* is a 3D learning environment based on id Software's"
     }
   ],
   "candidate_related_terms": [],
@@ -340,11 +466,65 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "NVIDIA-NeMo/NeMo"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "google-deepmind/graph_nets"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "google-deepmind/dm-haiku"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "NVIDIA-NeMo/NeMo"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "patrick-kidger/equinox"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "mozilla/DeepSpeech"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "patrick-kidger/NeuralCDE"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "chainer/chainer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "google-deepmind/dm_control"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "google-deepmind/lab"
     }
   ],
   "first_seen_at": "2026-04-21T18:51:25.552552+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

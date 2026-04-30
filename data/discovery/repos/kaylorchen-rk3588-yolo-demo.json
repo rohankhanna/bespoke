@@ -1,0 +1,22 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T03:47:41.581884+00:00",
+  "fetched_files": [],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "The project is a multi-threaded inference demo of Yolo running on the RK3588 platform, which has been adapted for reading video files and camera feeds. The demo uses the Yolov8n model for file inference, with a maximum inference frame rate of up to 100 frames per second.",
+    "fork": false,
+    "full_name": "kaylorchen/rk3588-yolo-demo",
+    "html_url": "https://github.com/kaylorchen/rk3588-yolo-demo",
+    "language": "C++",
+    "pushed_at": "2025-07-31T11:36:28Z",
+    "stargazers_count": 438,
+    "topics": [],
+    "updated_at": "2026-04-20T00:24:52Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

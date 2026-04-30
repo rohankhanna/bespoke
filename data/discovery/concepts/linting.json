@@ -425,6 +425,24 @@
       "source_repo": "sublimelsp/LSP-ruff",
       "status": "candidate-context",
       "text": "This is a helper package that automatically installs and updates [ruff](https://github.com/astral-sh/ruff) for you. Ruff is an extremely fast Python linter and code transformation tool, written in Rust."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nvim-telescope/telescope-ui-select.nvim",
+      "status": "candidate-context",
+      "text": "linting"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "prometheus-community/windows_exporter",
+      "status": "candidate-context",
+      "text": "Prometheus exporter for Windows machines"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "prometheus-community/windows_exporter",
+      "status": "candidate-context",
+      "text": "Linting"
     }
   ],
   "candidate_glosses": [
@@ -637,6 +655,18 @@
       "source_repo": "sublimelsp/LSP-ruff",
       "status": "candidate",
       "text": "This is a helper package that automatically installs and updates [ruff](https://github.com/astral-sh/ruff) for you. Ruff is an extremely fast Python linter and code transformation tool, written in Rust."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nvim-telescope/telescope-ui-select.nvim",
+      "status": "candidate",
+      "text": "linting"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "prometheus-community/windows_exporter",
+      "status": "candidate",
+      "text": "Linting"
     }
   ],
   "candidate_related_terms": [
@@ -973,11 +1003,41 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "sublimelsp/LSP-ruff"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "nvim-telescope/telescope-ui-select.nvim"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/_lint.yml",
+      "source_repo": "langchain-ai/langchain"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "prometheus-community/windows_exporter"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/linting.yml",
+      "source_repo": "pyg-team/pytorch_geometric"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "run-llama/llama_index"
     }
   ],
   "first_seen_at": "2026-04-18T11:56:18.570627+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

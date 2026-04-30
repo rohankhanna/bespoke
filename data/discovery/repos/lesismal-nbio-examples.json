@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T04:52:14.756049+00:00",
+  "fetched_files": [
+    {
+      "path": "go.mod",
+      "size": 3758
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": null,
+    "fork": false,
+    "full_name": "lesismal/nbio-examples",
+    "html_url": "https://github.com/lesismal/nbio-examples",
+    "language": "Go",
+    "pushed_at": "2026-01-04T04:41:44Z",
+    "stargazers_count": 59,
+    "topics": [],
+    "updated_at": "2026-03-10T08:03:18Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

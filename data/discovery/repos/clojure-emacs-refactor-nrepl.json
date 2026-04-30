@@ -1,0 +1,153 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/github_release.yml"
+    },
+    {
+      "component": "ncipollo/release-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/github_release.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "clojure-emacs/refactor-nrepl",
+      "target": "clojure-emacs/clj-refactor.el",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "clojure-emacs/refactor-nrepl",
+      "target": "nrepl/nrepl",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/github_release.yml",
+      "source_repo": "clojure-emacs/refactor-nrepl",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/github_release.yml",
+      "source_repo": "clojure-emacs/refactor-nrepl",
+      "target": "ncipollo/release-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/github_release.yml",
+      "source_repo": "clojure-emacs/refactor-nrepl",
+      "target": "Create GitHub Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "clojure-emacs/refactor-nrepl",
+      "target": "clj-refactor",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "clojure-emacs/refactor-nrepl",
+      "target": "clojure",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "clojure-emacs/refactor-nrepl",
+      "target": "nrepl-middleware",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "clojure-emacs/refactor-nrepl",
+      "target": "refactoring",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T00:38:56.386321+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 19066
+    },
+    {
+      "path": ".github/workflows/github_release.yml",
+      "size": 823
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "nREPL middleware to support refactorings in an editor agnostic way",
+    "fork": false,
+    "full_name": "clojure-emacs/refactor-nrepl",
+    "html_url": "https://github.com/clojure-emacs/refactor-nrepl",
+    "language": "Clojure",
+    "pushed_at": "2026-04-23T10:14:49Z",
+    "stargazers_count": 262,
+    "topics": [
+      "clj-refactor",
+      "clojure",
+      "nrepl-middleware",
+      "refactoring"
+    ],
+    "updated_at": "2026-04-23T10:14:54Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "clojure-emacs/clj-refactor.el",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "nrepl/nrepl",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Create GitHub Release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/github_release.yml",
+      "term": "Create GitHub Release"
+    },
+    {
+      "context_snippet": "[![CircleCI](https://circleci.com/gh/clojure-emacs/refactor-nrepl/tree/master.svg?style=svg)](https://circleci.com/gh/clojure-emacs/refactor-nrepl/tree/master)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "clj-refactor"
+    },
+    {
+      "context_snippet": "[![CircleCI](https://circleci.com/gh/clojure-emacs/refactor-nrepl/tree/master.svg?style=svg)](https://circleci.com/gh/clojure-emacs/refactor-nrepl/tree/master)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "clojure"
+    },
+    {
+      "context_snippet": "[![CircleCI](https://circleci.com/gh/clojure-emacs/refactor-nrepl/tree/master.svg?style=svg)](https://circleci.com/gh/clojure-emacs/refactor-nrepl/tree/master)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nrepl-middleware"
+    },
+    {
+      "context_snippet": "[![CircleCI](https://circleci.com/gh/clojure-emacs/refactor-nrepl/tree/master.svg?style=svg)](https://circleci.com/gh/clojure-emacs/refactor-nrepl/tree/master)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "refactoring"
+    }
+  ]
+}

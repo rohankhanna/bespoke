@@ -175,6 +175,30 @@
       "source_repo": "graphql-hive/graphql-config",
       "status": "candidate-context",
       "text": "![GraphQL Config](https://i.imgur.com/hw5tXw2.gif 'GraphQL Config')"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apollographql/federation",
+      "status": "candidate-context",
+      "text": "\ud83c\udf10 \u00a0Build and scale a single data graph across multiple services with Apollo's federation gateway."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apollographql/federation",
+      "status": "candidate-context",
+      "text": "<img src=\"https://raw.githubusercontent.com/apollographql/space-kit/main/src/illustrations/svgs/rocket1.svg\" width=\"100%\" height=\"144\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apollographql/router",
+      "status": "candidate-context",
+      "text": "A configurable, high-performance routing runtime for Apollo Federation \ud83d\ude80"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apollographql/router",
+      "status": "candidate-context",
+      "text": "<a href=\"#\"><img src=\"https://raw.githubusercontent.com/apollographql/space-kit/main/src/illustrations/svgs/satellite1.svg\" width=\"100%\" height=\"144\"></a>"
     }
   ],
   "candidate_glosses": [
@@ -261,6 +285,18 @@
       "source_repo": "graphql-hive/graphql-config",
       "status": "candidate",
       "text": "![GraphQL Config](https://i.imgur.com/hw5tXw2.gif 'GraphQL Config')"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apollographql/federation",
+      "status": "candidate",
+      "text": "<img src=\"https://raw.githubusercontent.com/apollographql/space-kit/main/src/illustrations/svgs/rocket1.svg\" width=\"100%\" height=\"144\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apollographql/router",
+      "status": "candidate",
+      "text": "<a href=\"#\"><img src=\"https://raw.githubusercontent.com/apollographql/space-kit/main/src/illustrations/svgs/satellite1.svg\" width=\"100%\" height=\"144\"></a>"
     }
   ],
   "candidate_related_terms": [
@@ -415,11 +451,41 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "graphql-hive/graphql-config"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "apollographql/federation"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "apollographql/router"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "apollographql/apollo-scalajs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "Urigo/graphql-cli"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "graphql-hive/graphql-config"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

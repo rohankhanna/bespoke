@@ -1,0 +1,35 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T02:42:04.769952+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 15383
+    },
+    {
+      "path": "Dockerfile",
+      "size": 1539
+    },
+    {
+      "path": "requirements.txt",
+      "size": 234
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "main",
+    "description": "Data-Driven NetHack Tools: Datasets (30+) and recurrent-baselines (AWAC, BC, CQL, IQL, REM)",
+    "fork": false,
+    "full_name": "tinkoff-ai/katakomba",
+    "html_url": "https://github.com/tinkoff-ai/katakomba",
+    "language": "Python",
+    "pushed_at": "2023-06-23T05:28:16Z",
+    "stargazers_count": 79,
+    "topics": [],
+    "updated_at": "2026-04-27T22:03:56Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

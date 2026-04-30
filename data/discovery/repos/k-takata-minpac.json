@@ -1,0 +1,137 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "thinca/action-setup-vim@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "k-takata/minpac",
+      "target": "maralla/pack",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "k-takata/minpac",
+      "target": "csexton/infect",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "k-takata/minpac",
+      "target": "bennyyip/plugpac.vim",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "k-takata/minpac",
+      "target": "jorengarenar/minplug",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "k-takata/minpac",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "k-takata/minpac",
+      "target": "thinca/action-setup-vim@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "k-takata/minpac",
+      "target": "plugin-manager",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "k-takata/minpac",
+      "target": "vim-plugins",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T04:08:12.735448+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 19923
+    },
+    {
+      "path": ".github/workflows/ci.yaml",
+      "size": 2947
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A minimal package manager for Vim 8+ (and Neovim)",
+    "fork": false,
+    "full_name": "k-takata/minpac",
+    "html_url": "https://github.com/k-takata/minpac",
+    "language": "Vim Script",
+    "pushed_at": "2025-11-24T19:33:37Z",
+    "stargazers_count": 852,
+    "topics": [
+      "plugin-manager",
+      "vim",
+      "vim-plugins"
+    ],
+    "updated_at": "2026-04-02T18:09:57Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "bennyyip/plugpac.vim",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "csexton/infect",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jorengarenar/minplug",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "maralla/pack",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[![Build status](https://github.com/k-takata/minpac/workflows/CI/badge.svg)](https://github.com/k-takata/minpac/actions)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "plugin-manager"
+    },
+    {
+      "context_snippet": "[![Build status](https://github.com/k-takata/minpac/workflows/CI/badge.svg)](https://github.com/k-takata/minpac/actions)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vim-plugins"
+    }
+  ]
+}

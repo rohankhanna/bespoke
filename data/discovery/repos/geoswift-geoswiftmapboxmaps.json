@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "GEOSwift/GEOSwiftMapboxMaps",
+      "target": "mapbox/mapbox-maps-ios",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T02:55:58.092127+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2455
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Mapbox Maps support for GEOSwift",
+    "fork": false,
+    "full_name": "GEOSwift/GEOSwiftMapboxMaps",
+    "html_url": "https://github.com/GEOSwift/GEOSwiftMapboxMaps",
+    "language": "Swift",
+    "pushed_at": "2023-05-25T01:27:05Z",
+    "stargazers_count": 2,
+    "topics": [],
+    "updated_at": "2023-05-25T03:25:50Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mapbox/mapbox-maps-ios",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

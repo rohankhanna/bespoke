@@ -1,7 +1,7 @@
 {
   "component": "tibdex/github-app-token@3beb63f4bd073e61482598c45c71c1019b59b73a",
   "first_seen_at": "2026-04-18T09:23:47.800515+00:00",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -27,6 +27,21 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/sync.yml",
       "source_repo": "ipfs/github-mgmt"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ecosystem-ci-trigger.yml",
+      "source_repo": "vitest-dev/vitest"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/fix.yml",
+      "source_repo": "ipdxco/github-as-code"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/sync.yml",
+      "source_repo": "ipdxco/github-as-code"
     }
   ]
 }

@@ -19,12 +19,48 @@
       "source_repo": "Farama-Foundation/Gymnasium",
       "status": "candidate-context",
       "text": "Build main branch documentation website"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Farama-Foundation/Shimmy",
+      "status": "candidate-context",
+      "text": "An API conversion tool for popular external reinforcement learning environments"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Farama-Foundation/Shimmy",
+      "status": "candidate-context",
+      "text": "Build main branch documentation website"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Farama-Foundation/Minigrid",
+      "status": "candidate-context",
+      "text": " Simple and easily configurable grid world environments for reinforcement learning"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Farama-Foundation/Minigrid",
+      "status": "candidate-context",
+      "text": "Build main branch documentation website"
     }
   ],
   "candidate_glosses": [
     {
       "source_kind": "source-snippet",
       "source_repo": "Farama-Foundation/Gymnasium",
+      "status": "candidate",
+      "text": "Build main branch documentation website"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Farama-Foundation/Shimmy",
+      "status": "candidate",
+      "text": "Build main branch documentation website"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Farama-Foundation/Minigrid",
       "status": "candidate",
       "text": "Build main branch documentation website"
     }
@@ -76,11 +112,23 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": ".github/workflows/docs-build-dev.yml",
       "source_repo": "Farama-Foundation/Gymnasium"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/build-docs-dev.yaml",
+      "source_repo": "Farama-Foundation/Shimmy"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/build-docs-dev.yml",
+      "source_repo": "Farama-Foundation/Minigrid"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

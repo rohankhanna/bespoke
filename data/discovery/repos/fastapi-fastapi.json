@@ -151,7 +151,7 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "fastapi/fastapi",
-      "target": "scalar/scalar",
+      "target": "swagger-api/swagger-ui",
       "target_type": "repository"
     },
     {
@@ -159,13 +159,6 @@
       "source_file": "README.md",
       "source_repo": "fastapi/fastapi",
       "target": "rebilly/redoc",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "fastapi/fastapi",
-      "target": "kludex/python-multipart",
       "target_type": "repository"
     },
     {
@@ -526,7 +519,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-29T20:51:04.744281+00:00",
+  "fetched_at": "2026-04-30T03:02:29.100980+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -579,7 +572,7 @@
     "html_url": "https://github.com/fastapi/fastapi",
     "language": "Python",
     "pushed_at": "2026-04-29T12:22:44Z",
-    "stargazers_count": 97763,
+    "stargazers_count": 97767,
     "topics": [
       "api",
       "async",
@@ -602,7 +595,7 @@
       "uvicorn",
       "web"
     ],
-    "updated_at": "2026-04-29T20:24:50Z"
+    "updated_at": "2026-04-30T02:40:41Z"
   },
   "repo_links": [
     {
@@ -612,17 +605,12 @@
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "kludex/python-multipart",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
       "full_name": "rebilly/redoc",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "scalar/scalar",
+      "full_name": "swagger-api/swagger-ui",
       "source_file": "README.md"
     }
   ],

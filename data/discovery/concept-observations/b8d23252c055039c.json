@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Python Enhancement Proposals"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Lint PEPs"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Lint PEPs"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10854,
+      "status": "candidate",
+      "text": "braids"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 7304,
+      "status": "candidate",
+      "text": "energizes"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 6754,
+      "status": "candidate",
+      "text": "alive"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 6754,
+      "status": "candidate",
+      "text": "amphetamine"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 6754,
+      "status": "candidate",
+      "text": "anemia"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Lint PEPs",
+      "sense_id": "lint-peps#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "lint-peps",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "lint-peps",
+  "observation_id": "b8d23252c055039c",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-30T00:37:16.824464+00:00",
+  "observed_text": "Lint PEPs",
+  "source_context_snippet": "Lint PEPs",
+  "source_file": ".github/workflows/lint.yml",
+  "source_repo": "python/peps",
+  "source_repo_description": "Python Enhancement Proposals"
+}

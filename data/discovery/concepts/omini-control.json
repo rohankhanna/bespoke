@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "omini-control"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Macoron/ComfyUI-Diffusers-OminiControl",
+      "status": "candidate-context",
+      "text": "ComfyUI nodes to run FLUX OminiControl using diffusers"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Macoron/ComfyUI-Diffusers-OminiControl",
+      "status": "candidate-context",
+      "text": "This is an unofficial [ComfyUI](https://github.com/comfyanonymous/ComfyUI) node for [FLUX OminiControl](https://github.com/Yuanshi9815/OminiControl)."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Macoron/ComfyUI-Diffusers-OminiControl",
+      "status": "candidate",
+      "text": "This is an unofficial [ComfyUI](https://github.com/comfyanonymous/ComfyUI) node for [FLUX OminiControl](https://github.com/Yuanshi9815/OminiControl)."
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "omini-control",
+  "concept_id": "omini-control",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "Macoron/ComfyUI-Diffusers-OminiControl"
+    }
+  ],
+  "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "omini-control",
+      "sense_id": "omini-control#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

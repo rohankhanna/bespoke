@@ -1,0 +1,468 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/action_syntax.yml"
+    },
+    {
+      "component": "reviewdog/action-actionlint@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/action_syntax.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/apidiff.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/apidiff.yml"
+    },
+    {
+      "component": "actions/setup-go@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/apidiff.yml"
+    },
+    {
+      "component": "actions/setup-go@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/apidiff.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/apidiff.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/apidiff.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/apidiff.yml"
+    },
+    {
+      "component": "actions/download-artifact@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/apidiff.yml"
+    },
+    {
+      "component": "actions/github-script@v9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/apidiff.yml"
+    },
+    {
+      "component": "actions/github-script@v9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/apidiff.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/config_check.yml"
+    },
+    {
+      "component": "dorny/paths-filter@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/config_check.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/conformance.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/conformance.yaml"
+    },
+    {
+      "component": "actions/setup-go@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/conformance.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generation_check.yaml"
+    },
+    {
+      "component": "actions/setup-go@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generation_check.yaml"
+    },
+    {
+      "component": "arduino/setup-protoc@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generation_check.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/third_party_check.yml"
+    },
+    {
+      "component": "actions/setup-go@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/third_party_check.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/third_party_check.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/vet.yml"
+    },
+    {
+      "component": "actions/setup-go@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/vet.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "googleapis/google-cloud-go",
+      "target": "googlecloudplatform/google-cloud-go",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/action_syntax.yml",
+      "source_repo": "googleapis/google-cloud-go",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/action_syntax.yml",
+      "source_repo": "googleapis/google-cloud-go",
+      "target": "reviewdog/action-actionlint@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/apidiff.yml",
+      "source_repo": "googleapis/google-cloud-go",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/apidiff.yml",
+      "source_repo": "googleapis/google-cloud-go",
+      "target": "actions/setup-go@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/apidiff.yml",
+      "source_repo": "googleapis/google-cloud-go",
+      "target": "actions/upload-artifact@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/apidiff.yml",
+      "source_repo": "googleapis/google-cloud-go",
+      "target": "actions/download-artifact@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/apidiff.yml",
+      "source_repo": "googleapis/google-cloud-go",
+      "target": "actions/github-script@v9",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/apidiff.yml",
+      "source_repo": "googleapis/google-cloud-go",
+      "target": "apidiff",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/config_check.yml",
+      "source_repo": "googleapis/google-cloud-go",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/config_check.yml",
+      "source_repo": "googleapis/google-cloud-go",
+      "target": "dorny/paths-filter@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/config_check.yml",
+      "source_repo": "googleapis/google-cloud-go",
+      "target": "config check",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/conformance.yaml",
+      "source_repo": "googleapis/google-cloud-go",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/conformance.yaml",
+      "source_repo": "googleapis/google-cloud-go",
+      "target": "actions/setup-go@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generation_check.yaml",
+      "source_repo": "googleapis/google-cloud-go",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generation_check.yaml",
+      "source_repo": "googleapis/google-cloud-go",
+      "target": "actions/setup-go@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generation_check.yaml",
+      "source_repo": "googleapis/google-cloud-go",
+      "target": "arduino/setup-protoc@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/generation_check.yaml",
+      "source_repo": "googleapis/google-cloud-go",
+      "target": "generation-check",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/third_party_check.yml",
+      "source_repo": "googleapis/google-cloud-go",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/third_party_check.yml",
+      "source_repo": "googleapis/google-cloud-go",
+      "target": "actions/setup-go@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/vet.yml",
+      "source_repo": "googleapis/google-cloud-go",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/vet.yml",
+      "source_repo": "googleapis/google-cloud-go",
+      "target": "actions/setup-go@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/vet.yml",
+      "source_repo": "googleapis/google-cloud-go",
+      "target": "vet",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "googleapis/google-cloud-go",
+      "target": "cloud-bigquery",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "googleapis/google-cloud-go",
+      "target": "cloud-datastore",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "googleapis/google-cloud-go",
+      "target": "cloud-pubsub",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "googleapis/google-cloud-go",
+      "target": "cloud-storage",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "googleapis/google-cloud-go",
+      "target": "golang",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "googleapis/google-cloud-go",
+      "target": "google-cloud",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T03:04:52.943234+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4115
+    },
+    {
+      "path": "go.mod",
+      "size": 2693
+    },
+    {
+      "path": ".github/workflows/action_syntax.yml",
+      "size": 322
+    },
+    {
+      "path": ".github/workflows/apidiff.yml",
+      "size": 7933
+    },
+    {
+      "path": ".github/workflows/config_check.yml",
+      "size": 1326
+    },
+    {
+      "path": ".github/workflows/conformance.yaml",
+      "size": 1682
+    },
+    {
+      "path": ".github/workflows/generation_check.yaml",
+      "size": 1854
+    },
+    {
+      "path": ".github/workflows/third_party_check.yml",
+      "size": 1463
+    },
+    {
+      "path": ".github/workflows/vet.sh",
+      "size": 3790
+    },
+    {
+      "path": ".github/workflows/vet.yml",
+      "size": 606
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Google Cloud Client Libraries for Go.",
+    "fork": false,
+    "full_name": "googleapis/google-cloud-go",
+    "html_url": "https://github.com/googleapis/google-cloud-go",
+    "language": "Go",
+    "pushed_at": "2026-04-29T23:27:16Z",
+    "stargazers_count": 4446,
+    "topics": [
+      "cloud-bigquery",
+      "cloud-datastore",
+      "cloud-pubsub",
+      "cloud-storage",
+      "go",
+      "golang",
+      "google-cloud"
+    ],
+    "updated_at": "2026-04-29T23:27:23Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "googlecloudplatform/google-cloud-go",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "apidiff",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/apidiff.yml",
+      "term": "apidiff"
+    },
+    {
+      "context_snippet": "config check",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/config_check.yml",
+      "term": "config check"
+    },
+    {
+      "context_snippet": "generation-check",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/generation_check.yaml",
+      "term": "generation-check"
+    },
+    {
+      "context_snippet": "vet",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/vet.yml",
+      "term": "vet"
+    },
+    {
+      "context_snippet": "[![Go Reference](https://pkg.go.dev/badge/cloud.google.com/go.svg)](https://pkg.go.dev/cloud.google.com/go)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cloud-bigquery"
+    },
+    {
+      "context_snippet": "[![Go Reference](https://pkg.go.dev/badge/cloud.google.com/go.svg)](https://pkg.go.dev/cloud.google.com/go)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cloud-datastore"
+    },
+    {
+      "context_snippet": "[![Go Reference](https://pkg.go.dev/badge/cloud.google.com/go.svg)](https://pkg.go.dev/cloud.google.com/go)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cloud-pubsub"
+    },
+    {
+      "context_snippet": "[![Go Reference](https://pkg.go.dev/badge/cloud.google.com/go.svg)](https://pkg.go.dev/cloud.google.com/go)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cloud-storage"
+    },
+    {
+      "context_snippet": "[![Go Reference](https://pkg.go.dev/badge/cloud.google.com/go.svg)](https://pkg.go.dev/cloud.google.com/go)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "golang"
+    },
+    {
+      "context_snippet": "[![Go Reference](https://pkg.go.dev/badge/cloud.google.com/go.svg)](https://pkg.go.dev/cloud.google.com/go)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "google-cloud"
+    }
+  ]
+}

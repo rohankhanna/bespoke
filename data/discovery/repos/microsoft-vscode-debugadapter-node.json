@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T00:45:26.890979+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1706
+    },
+    {
+      "path": "package.json",
+      "size": 625
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Debug adapter protocol and implementation for VS Code.",
+    "fork": false,
+    "full_name": "microsoft/vscode-debugadapter-node",
+    "html_url": "https://github.com/microsoft/vscode-debugadapter-node",
+    "language": "TypeScript",
+    "pushed_at": "2026-03-29T19:55:54Z",
+    "stargazers_count": 300,
+    "topics": [],
+    "updated_at": "2026-04-15T07:56:41Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

@@ -111,6 +111,18 @@
       "source_repo": "Charlie-XIAO/ml3m",
       "status": "candidate-context",
       "text": "Unit test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "goharbor/harbor-helm",
+      "status": "candidate-context",
+      "text": "The helm chart to deploy Harbor"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "goharbor/harbor-helm",
+      "status": "candidate-context",
+      "text": "Unit test"
     }
   ],
   "candidate_glosses": [
@@ -171,6 +183,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "Charlie-XIAO/ml3m",
+      "status": "candidate",
+      "text": "Unit test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "goharbor/harbor-helm",
       "status": "candidate",
       "text": "Unit test"
     }
@@ -324,11 +342,29 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": ".github/workflows/unittest.yaml",
       "source_repo": "Charlie-XIAO/ml3m"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/unit_test.yaml",
+      "source_repo": "meta-pytorch/torchtune"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/UnitTests.yml",
+      "source_repo": "AI-Hypercomputer/maxdiffusion"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/unittest.yaml",
+      "source_repo": "goharbor/harbor-helm"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

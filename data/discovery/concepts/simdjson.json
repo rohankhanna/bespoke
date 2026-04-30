@@ -19,6 +19,30 @@
       "source_repo": "SunDoge/simdjson-rust",
       "status": "candidate-context",
       "text": "[![Github Actions](https://img.shields.io/github/actions/workflow/status/SunDoge/simdjson-rust/CI.yml?branch=master&style=for-the-badge)](https://github.com/SunDoge/simdjson-rust/actions/workflows/CI.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "crazyxman/simdjson_php",
+      "status": "candidate-context",
+      "text": "simdjson_php bindings for the simdjson project. https://github.com/lemire/simdjson"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "crazyxman/simdjson_php",
+      "status": "candidate-context",
+      "text": "simdjson_php bindings for the [simdjson project](https://github.com/lemire/simdjson)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "eddelbuettel/rcppsimdjson",
+      "status": "candidate-context",
+      "text": "Rcpp Bindings for the 'simdjson' Header Library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "eddelbuettel/rcppsimdjson",
+      "status": "candidate-context",
+      "text": "[![CI](https://github.com/eddelbuettel/rcppsimdjson/workflows/ci/badge.svg)](https://github.com/eddelbuettel/rcppsimdjson/actions?query=workflow%3Aci)"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +51,18 @@
       "source_repo": "SunDoge/simdjson-rust",
       "status": "candidate",
       "text": "[![Github Actions](https://img.shields.io/github/actions/workflow/status/SunDoge/simdjson-rust/CI.yml?branch=master&style=for-the-badge)](https://github.com/SunDoge/simdjson-rust/actions/workflows/CI.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "crazyxman/simdjson_php",
+      "status": "candidate",
+      "text": "simdjson_php bindings for the [simdjson project](https://github.com/lemire/simdjson)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "eddelbuettel/rcppsimdjson",
+      "status": "candidate",
+      "text": "[![CI](https://github.com/eddelbuettel/rcppsimdjson/workflows/ci/badge.svg)](https://github.com/eddelbuettel/rcppsimdjson/actions?query=workflow%3Aci)"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +76,23 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": null,
       "source_repo": "SunDoge/simdjson-rust"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "crazyxman/simdjson_php"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "eddelbuettel/rcppsimdjson"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

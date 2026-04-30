@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Release Bot"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "SeaQL/sea-orm",
+      "status": "candidate-context",
+      "text": "\ud83d\udc1a A powerful relational ORM for Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SeaQL/sea-orm",
+      "status": "candidate-context",
+      "text": "Release Bot"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SeaQL/sea-orm",
+      "status": "candidate",
+      "text": "Release Bot"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12238,
+      "status": "candidate",
+      "text": "dehiscent"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11359,
+      "status": "candidate",
+      "text": "aac"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11359,
+      "status": "candidate",
+      "text": "costate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11359,
+      "status": "candidate",
+      "text": "cruciform"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11359,
+      "status": "candidate",
+      "text": "dac"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Release Bot",
+  "concept_id": "release-bot",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/release-bot.yml",
+      "source_repo": "SeaQL/sea-orm"
+    }
+  ],
+  "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Release Bot",
+      "sense_id": "release-bot#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

@@ -140,6 +140,30 @@
       "source_repo": "optuna/optuna-integration",
       "status": "candidate-context",
       "text": "stale"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "home-assistant/addons",
+      "status": "candidate-context",
+      "text": ":heavy_plus_sign: Docker add-ons for Home Assistant"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "home-assistant/addons",
+      "status": "candidate-context",
+      "text": "Stale"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "RcppCore/Rcpp",
+      "status": "candidate-context",
+      "text": "Seamless R and C++ Integration"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "RcppCore/Rcpp",
+      "status": "candidate-context",
+      "text": "stale"
     }
   ],
   "candidate_glosses": [
@@ -206,6 +230,18 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "optuna/optuna-integration",
+      "status": "candidate",
+      "text": "stale"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "home-assistant/addons",
+      "status": "candidate",
+      "text": "Stale"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "RcppCore/Rcpp",
       "status": "candidate",
       "text": "stale"
     }
@@ -377,11 +413,23 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": ".github/workflows/stale.yml",
       "source_repo": "optuna/optuna-integration"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "home-assistant/addons"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/stale.yaml",
+      "source_repo": "RcppCore/Rcpp"
     }
   ],
   "first_seen_at": "2026-04-21T18:51:25.552552+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

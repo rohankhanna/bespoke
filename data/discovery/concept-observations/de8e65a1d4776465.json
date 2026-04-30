@@ -4,10 +4,63 @@
     "tool-component",
     "capability"
   ],
-  "candidate_definition_hints": [],
-  "candidate_glosses": [],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Binary installation for rust projects"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Binstall provides a low-complexity mechanism for installing Rust binaries as an alternative to building from source (via `cargo install`) or manually downloading packages."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Binstall provides a low-complexity mechanism for installing Rust binaries as an alternative to building from source (via `cargo install`) or manually downloading packages."
+    }
+  ],
   "candidate_primary_bucket": "tool-component",
-  "candidate_related_terms": [],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39977766,
+      "status": "candidate",
+      "text": "multiple"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39931775,
+      "status": "candidate",
+      "text": "binary star"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39931739,
+      "status": "candidate",
+      "text": "double star"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29999634,
+      "status": "candidate",
+      "text": "two-fold"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29999539,
+      "status": "candidate",
+      "text": "twofold"
+    }
+  ],
   "candidate_senses": [
     {
       "candidate_buckets": [
@@ -19,20 +72,44 @@
       "status": "candidate"
     }
   ],
-  "candidate_synonyms": [],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 7050,
+      "status": "candidate",
+      "text": "multiple"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 1020,
+      "status": "candidate",
+      "text": "binary star"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 19,
+      "status": "candidate",
+      "text": "double star"
+    }
+  ],
   "concept_id": "binary",
   "definition_status": "unresolved",
   "discovered_via": "repo-topic",
   "gloss_status": "unresolved",
-  "lexical_providers": [],
+  "lexical_providers": [
+    "datamuse"
+  ],
   "lexical_status": "unresolved",
   "normalized_form": "binary",
   "observation_id": "de8e65a1d4776465",
   "observation_kind": "repo-topic",
-  "observed_at": "2026-04-18T11:32:22.637859+00:00",
+  "observed_at": "2026-04-30T00:37:16.824464+00:00",
   "observed_text": "binary",
-  "source_context_snippet": null,
+  "source_context_snippet": "Binstall provides a low-complexity mechanism for installing Rust binaries as an alternative to building from source (via `cargo install`) or manually downloading packages.",
   "source_file": null,
   "source_repo": "cargo-bins/cargo-binstall",
-  "source_repo_description": null
+  "source_repo_description": "Binary installation for rust projects"
 }

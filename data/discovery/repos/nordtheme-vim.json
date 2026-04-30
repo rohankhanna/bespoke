@@ -1,0 +1,344 @@
+{
+  "components": [
+    {
+      "component": "@svengreb/eslint-config-base",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@svengreb/remark-preset-lint",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "eslint",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "eslint-config-prettier",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "eslint-plugin-import",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "eslint-plugin-prettier",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "husky",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "lint-staged",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "npm-run-all",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "prettier",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "prettier-plugin-sh",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "remark-cli",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "nordtheme/vim",
+      "target": "@svengreb/eslint-config-base",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "nordtheme/vim",
+      "target": "@svengreb/remark-preset-lint",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "nordtheme/vim",
+      "target": "eslint",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "nordtheme/vim",
+      "target": "eslint-config-prettier",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "nordtheme/vim",
+      "target": "eslint-plugin-import",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "nordtheme/vim",
+      "target": "eslint-plugin-prettier",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "nordtheme/vim",
+      "target": "husky",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "nordtheme/vim",
+      "target": "lint-staged",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "nordtheme/vim",
+      "target": "npm-run-all",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "nordtheme/vim",
+      "target": "prettier",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "nordtheme/vim",
+      "target": "prettier-plugin-sh",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "nordtheme/vim",
+      "target": "remark-cli",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nordtheme/vim",
+      "target": "color",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nordtheme/vim",
+      "target": "color-scheme",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nordtheme/vim",
+      "target": "color-theme",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nordtheme/vim",
+      "target": "colorscheme",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nordtheme/vim",
+      "target": "hacktoberfest",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nordtheme/vim",
+      "target": "nord",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nordtheme/vim",
+      "target": "syntax-highlighting",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nordtheme/vim",
+      "target": "syntax-theme",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nordtheme/vim",
+      "target": "theme",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nordtheme/vim",
+      "target": "ui-design",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nordtheme/vim",
+      "target": "vim-colors",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nordtheme/vim",
+      "target": "vim-colorscheme",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T04:09:15.938904+00:00",
+  "fetched_files": [
+    {
+      "path": "package.json",
+      "size": 1667
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "An arctic, north-bluish clean and elegant Vim theme.",
+    "fork": false,
+    "full_name": "nordtheme/vim",
+    "html_url": "https://github.com/nordtheme/vim",
+    "language": "Vim Script",
+    "pushed_at": "2024-04-20T08:04:48Z",
+    "stargazers_count": 2581,
+    "topics": [
+      "color",
+      "color-scheme",
+      "color-theme",
+      "colorscheme",
+      "hacktoberfest",
+      "nord",
+      "syntax-highlighting",
+      "syntax-theme",
+      "theme",
+      "ui-design",
+      "vim",
+      "vim-colors",
+      "vim-colorscheme"
+    ],
+    "updated_at": "2026-04-28T20:52:53Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "@nordtheme/vim \u2014 An arctic, north-bluish clean and elegant Vim theme",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "color"
+    },
+    {
+      "context_snippet": "@nordtheme/vim \u2014 An arctic, north-bluish clean and elegant Vim theme",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "color-scheme"
+    },
+    {
+      "context_snippet": "@nordtheme/vim \u2014 An arctic, north-bluish clean and elegant Vim theme",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "color-theme"
+    },
+    {
+      "context_snippet": "@nordtheme/vim \u2014 An arctic, north-bluish clean and elegant Vim theme",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "colorscheme"
+    },
+    {
+      "context_snippet": "@nordtheme/vim \u2014 An arctic, north-bluish clean and elegant Vim theme",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hacktoberfest"
+    },
+    {
+      "context_snippet": "@nordtheme/vim \u2014 An arctic, north-bluish clean and elegant Vim theme",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nord"
+    },
+    {
+      "context_snippet": "@nordtheme/vim \u2014 An arctic, north-bluish clean and elegant Vim theme",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "syntax-highlighting"
+    },
+    {
+      "context_snippet": "@nordtheme/vim \u2014 An arctic, north-bluish clean and elegant Vim theme",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "syntax-theme"
+    },
+    {
+      "context_snippet": "@nordtheme/vim \u2014 An arctic, north-bluish clean and elegant Vim theme",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "theme"
+    },
+    {
+      "context_snippet": "@nordtheme/vim \u2014 An arctic, north-bluish clean and elegant Vim theme",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ui-design"
+    },
+    {
+      "context_snippet": "@nordtheme/vim \u2014 An arctic, north-bluish clean and elegant Vim theme",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vim-colors"
+    },
+    {
+      "context_snippet": "@nordtheme/vim \u2014 An arctic, north-bluish clean and elegant Vim theme",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vim-colorscheme"
+    }
+  ]
+}

@@ -1,6 +1,7 @@
 {
   "aliases": [
-    "Lint GitHub Actions Workflows"
+    "Lint GitHub Actions Workflows",
+    "Lint GitHub Actions workflows"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -67,6 +68,54 @@
       "source_repo": "hashicorp/vault-ruby",
       "status": "candidate-context",
       "text": "Lint GitHub Actions Workflows"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hashicorp/nomad",
+      "status": "candidate-context",
+      "text": "Nomad is an easy-to-use, flexible, and performant workload orchestrator that can deploy a mix of microservice, batch, containerized, and non-containerized applications. Nomad is easy to operate and scale and has native Consul and Vault integrations."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hashicorp/nomad",
+      "status": "candidate-context",
+      "text": "Lint GitHub Actions Workflows"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hashicorp/vault-plugin-auth-kerberos",
+      "status": "candidate-context",
+      "text": "A plugin for HashiCorp Vault enabling Kerberos authentication."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hashicorp/vault-plugin-auth-kerberos",
+      "status": "candidate-context",
+      "text": "Lint GitHub Actions Workflows"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "obi1kenobi/cargo-semver-checks",
+      "status": "candidate-context",
+      "text": "Scan your Rust crate for semver violations."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "obi1kenobi/cargo-semver-checks",
+      "status": "candidate-context",
+      "text": "Lint GitHub Actions workflows"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "checkstyle/checkstyle",
+      "status": "candidate-context",
+      "text": "Checkstyle is a development tool to help programmers write Java code that adheres to a coding standard. By default it supports the Google Java Style Guide and Sun Code Conventions, but is highly configurable. It can be invoked with an ANT task and a command line program."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "checkstyle/checkstyle",
+      "status": "candidate-context",
+      "text": "Lint GitHub Actions workflows"
     }
   ],
   "candidate_glosses": [
@@ -99,6 +148,30 @@
       "source_repo": "hashicorp/vault-ruby",
       "status": "candidate",
       "text": "Lint GitHub Actions Workflows"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hashicorp/nomad",
+      "status": "candidate",
+      "text": "Lint GitHub Actions Workflows"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hashicorp/vault-plugin-auth-kerberos",
+      "status": "candidate",
+      "text": "Lint GitHub Actions Workflows"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "obi1kenobi/cargo-semver-checks",
+      "status": "candidate",
+      "text": "Lint GitHub Actions workflows"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "checkstyle/checkstyle",
+      "status": "candidate",
+      "text": "Lint GitHub Actions workflows"
     }
   ],
   "candidate_related_terms": [
@@ -172,11 +245,35 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": ".github/workflows/actionlint.yml",
       "source_repo": "hashicorp/vault-ruby"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/actionlint.yml",
+      "source_repo": "hashicorp/nomad"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/actionlint.yaml",
+      "source_repo": "hashicorp/vault-plugin-auth-kerberos"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/actionlint.yml",
+      "source_repo": "obi1kenobi/cargo-semver-checks"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/actionlint.yml",
+      "source_repo": "checkstyle/checkstyle"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

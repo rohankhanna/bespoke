@@ -1,0 +1,481 @@
+{
+  "components": [
+    {
+      "component": "theupdateframework/tuf-on-ci/actions/create-signing-events@daa76c3dbf011b70f9fb01dbb989a27bbd2bd20d",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/create-signing-events.yml"
+    },
+    {
+      "component": "theupdateframework/tuf-on-ci/actions/update-issue@daa76c3dbf011b70f9fb01dbb989a27bbd2bd20d",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/create-signing-events.yml"
+    },
+    {
+      "component": "actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/custom-test.yml"
+    },
+    {
+      "component": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/custom-test.yml"
+    },
+    {
+      "component": "sigstore/cosign-installer@cad07c2e89fa2edd6e2d7bab4c1aa38e53f76003",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/custom-test.yml"
+    },
+    {
+      "component": "sigstore/cosign-installer@cad07c2e89fa2edd6e2d7bab4c1aa38e53f76003",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/custom-test.yml"
+    },
+    {
+      "component": "actions/setup-go@4a3601121dd01d1626a1e23e37211e3254c1c06c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/custom-test.yml"
+    },
+    {
+      "component": "actions/download-artifact@3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/custom-test.yml"
+    },
+    {
+      "component": "actions/setup-node@48b55a011bda9f5d6aeb4c2d9c7362e8dae4041e",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/custom-test.yml"
+    },
+    {
+      "component": "actions/download-artifact@3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/custom-test.yml"
+    },
+    {
+      "component": "actions/setup-java@be666c2fcd27ec809703dec50e508c2fdc7f6654",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/custom-test.yml"
+    },
+    {
+      "component": "gradle/actions/setup-gradle@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/custom-test.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/custom-test.yml"
+    },
+    {
+      "component": "actions/download-artifact@3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/custom-test.yml"
+    },
+    {
+      "component": "actions/download-artifact@3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-to-gcs.yml"
+    },
+    {
+      "component": "google-github-actions/auth@7c6bc770dae815cd3e89ee6cdf493a5fab2cc093",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-to-gcs.yml"
+    },
+    {
+      "component": "google-github-actions/setup-gcloud@aa5489c8933f4cc7a4f7d45035b3b1440c9c10db",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-to-gcs.yml"
+    },
+    {
+      "component": "theupdateframework/tuf-on-ci/actions/online-sign@daa76c3dbf011b70f9fb01dbb989a27bbd2bd20d",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/online-sign.yml"
+    },
+    {
+      "component": "theupdateframework/tuf-on-ci/actions/update-issue@daa76c3dbf011b70f9fb01dbb989a27bbd2bd20d",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/online-sign.yml"
+    },
+    {
+      "component": "theupdateframework/tuf-on-ci/actions/upload-repository@daa76c3dbf011b70f9fb01dbb989a27bbd2bd20d",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "actions/deploy-pages@cd2ce8fcbc39b97be8ca5fce6e763baed58fa128",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "theupdateframework/tuf-on-ci/actions/update-issue@daa76c3dbf011b70f9fb01dbb989a27bbd2bd20d",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "theupdateframework/tuf-on-ci/actions/signing-event@daa76c3dbf011b70f9fb01dbb989a27bbd2bd20d",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/signing-event.yml"
+    },
+    {
+      "component": "theupdateframework/tuf-on-ci/actions/test-repository@daa76c3dbf011b70f9fb01dbb989a27bbd2bd20d",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-gcs.yml"
+    },
+    {
+      "component": "theupdateframework/tuf-on-ci/actions/update-issue@daa76c3dbf011b70f9fb01dbb989a27bbd2bd20d",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-gcs.yml"
+    },
+    {
+      "component": "theupdateframework/tuf-on-ci/actions/test-repository@daa76c3dbf011b70f9fb01dbb989a27bbd2bd20d",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "theupdateframework/tuf-on-ci/actions/update-issue@daa76c3dbf011b70f9fb01dbb989a27bbd2bd20d",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "sigstore/root-signing-staging",
+      "target": "theupdateframework/tuf-on-ci",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "sigstore/root-signing-staging",
+      "target": "sigstore/sigstore-conformance",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/create-signing-events.yml",
+      "source_repo": "sigstore/root-signing-staging",
+      "target": "theupdateframework/tuf-on-ci/actions/create-signing-events@daa76c3dbf011b70f9fb01dbb989a27bbd2bd20d",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/create-signing-events.yml",
+      "source_repo": "sigstore/root-signing-staging",
+      "target": "theupdateframework/tuf-on-ci/actions/update-issue@daa76c3dbf011b70f9fb01dbb989a27bbd2bd20d",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/create-signing-events.yml",
+      "source_repo": "sigstore/root-signing-staging",
+      "target": "TUF-on-CI create Signing events",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/custom-test.yml",
+      "source_repo": "sigstore/root-signing-staging",
+      "target": "actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/custom-test.yml",
+      "source_repo": "sigstore/root-signing-staging",
+      "target": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/custom-test.yml",
+      "source_repo": "sigstore/root-signing-staging",
+      "target": "sigstore/cosign-installer@cad07c2e89fa2edd6e2d7bab4c1aa38e53f76003",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/custom-test.yml",
+      "source_repo": "sigstore/root-signing-staging",
+      "target": "actions/setup-go@4a3601121dd01d1626a1e23e37211e3254c1c06c",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/custom-test.yml",
+      "source_repo": "sigstore/root-signing-staging",
+      "target": "actions/download-artifact@3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/custom-test.yml",
+      "source_repo": "sigstore/root-signing-staging",
+      "target": "actions/setup-node@48b55a011bda9f5d6aeb4c2d9c7362e8dae4041e",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/custom-test.yml",
+      "source_repo": "sigstore/root-signing-staging",
+      "target": "actions/setup-java@be666c2fcd27ec809703dec50e508c2fdc7f6654",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/custom-test.yml",
+      "source_repo": "sigstore/root-signing-staging",
+      "target": "gradle/actions/setup-gradle@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/custom-test.yml",
+      "source_repo": "sigstore/root-signing-staging",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-to-gcs.yml",
+      "source_repo": "sigstore/root-signing-staging",
+      "target": "actions/download-artifact@3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-to-gcs.yml",
+      "source_repo": "sigstore/root-signing-staging",
+      "target": "google-github-actions/auth@7c6bc770dae815cd3e89ee6cdf493a5fab2cc093",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-to-gcs.yml",
+      "source_repo": "sigstore/root-signing-staging",
+      "target": "google-github-actions/setup-gcloud@aa5489c8933f4cc7a4f7d45035b3b1440c9c10db",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deploy-to-gcs.yml",
+      "source_repo": "sigstore/root-signing-staging",
+      "target": "Deploy repository to GCS",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/online-sign.yml",
+      "source_repo": "sigstore/root-signing-staging",
+      "target": "theupdateframework/tuf-on-ci/actions/online-sign@daa76c3dbf011b70f9fb01dbb989a27bbd2bd20d",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/online-sign.yml",
+      "source_repo": "sigstore/root-signing-staging",
+      "target": "theupdateframework/tuf-on-ci/actions/update-issue@daa76c3dbf011b70f9fb01dbb989a27bbd2bd20d",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/online-sign.yml",
+      "source_repo": "sigstore/root-signing-staging",
+      "target": "TUF-on-CI online signing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "sigstore/root-signing-staging",
+      "target": "theupdateframework/tuf-on-ci/actions/upload-repository@daa76c3dbf011b70f9fb01dbb989a27bbd2bd20d",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "sigstore/root-signing-staging",
+      "target": "actions/deploy-pages@cd2ce8fcbc39b97be8ca5fce6e763baed58fa128",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "sigstore/root-signing-staging",
+      "target": "theupdateframework/tuf-on-ci/actions/update-issue@daa76c3dbf011b70f9fb01dbb989a27bbd2bd20d",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "sigstore/root-signing-staging",
+      "target": "TUF-on-CI publish",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/signing-event.yml",
+      "source_repo": "sigstore/root-signing-staging",
+      "target": "theupdateframework/tuf-on-ci/actions/signing-event@daa76c3dbf011b70f9fb01dbb989a27bbd2bd20d",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/signing-event.yml",
+      "source_repo": "sigstore/root-signing-staging",
+      "target": "TUF-on-CI signing event",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-gcs.yml",
+      "source_repo": "sigstore/root-signing-staging",
+      "target": "theupdateframework/tuf-on-ci/actions/test-repository@daa76c3dbf011b70f9fb01dbb989a27bbd2bd20d",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-gcs.yml",
+      "source_repo": "sigstore/root-signing-staging",
+      "target": "theupdateframework/tuf-on-ci/actions/update-issue@daa76c3dbf011b70f9fb01dbb989a27bbd2bd20d",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test-gcs.yml",
+      "source_repo": "sigstore/root-signing-staging",
+      "target": "root-signing GCS repository tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "sigstore/root-signing-staging",
+      "target": "theupdateframework/tuf-on-ci/actions/test-repository@daa76c3dbf011b70f9fb01dbb989a27bbd2bd20d",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "sigstore/root-signing-staging",
+      "target": "theupdateframework/tuf-on-ci/actions/update-issue@daa76c3dbf011b70f9fb01dbb989a27bbd2bd20d",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "sigstore/root-signing-staging",
+      "target": "TUF-on-CI repository tests",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T00:56:22.675820+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3427
+    },
+    {
+      "path": ".github/workflows/create-signing-events.yml",
+      "size": 1112
+    },
+    {
+      "path": ".github/workflows/custom-test.yml",
+      "size": 7225
+    },
+    {
+      "path": ".github/workflows/deploy-to-gcs.yml",
+      "size": 1593
+    },
+    {
+      "path": ".github/workflows/online-sign.yml",
+      "size": 1346
+    },
+    {
+      "path": ".github/workflows/publish.yml",
+      "size": 2302
+    },
+    {
+      "path": ".github/workflows/signing-event.yml",
+      "size": 805
+    },
+    {
+      "path": ".github/workflows/test-gcs.yml",
+      "size": 1582
+    },
+    {
+      "path": ".github/workflows/test.yml",
+      "size": 1637
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Staging TUF repository for Sigstore trust root",
+    "fork": false,
+    "full_name": "sigstore/root-signing-staging",
+    "html_url": "https://github.com/sigstore/root-signing-staging",
+    "language": null,
+    "pushed_at": "2026-04-29T07:56:01Z",
+    "stargazers_count": 10,
+    "topics": [],
+    "updated_at": "2026-04-29T07:56:04Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "sigstore/sigstore-conformance",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "theupdateframework/tuf-on-ci",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "TUF-on-CI create Signing events",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/create-signing-events.yml",
+      "term": "TUF-on-CI create Signing events"
+    },
+    {
+      "context_snippet": "Deploy repository to GCS",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deploy-to-gcs.yml",
+      "term": "Deploy repository to GCS"
+    },
+    {
+      "context_snippet": "TUF-on-CI online signing",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/online-sign.yml",
+      "term": "TUF-on-CI online signing"
+    },
+    {
+      "context_snippet": "TUF-on-CI publish",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish.yml",
+      "term": "TUF-on-CI publish"
+    },
+    {
+      "context_snippet": "TUF-on-CI signing event",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/signing-event.yml",
+      "term": "TUF-on-CI signing event"
+    },
+    {
+      "context_snippet": "root-signing GCS repository tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test-gcs.yml",
+      "term": "root-signing GCS repository tests"
+    },
+    {
+      "context_snippet": "TUF-on-CI repository tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "term": "TUF-on-CI repository tests"
+    }
+  ]
+}

@@ -211,6 +211,90 @@
       "source_repo": "MrGemy95/Tensorflow-Project-Template",
       "status": "candidate-context",
       "text": "A simple and well designed structure is essential for any Deep Learning project, so after a lot of practice and contributing in tensorflow projects here's a tensorflow project template that combines **simplcity**, **best practice for folder structure** and **good OOP design**."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "2KAbhishek/bare-minimum",
+      "status": "candidate-context",
+      "text": "Minimalist template repository. \u2728\ud83d\udee0"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "2KAbhishek/bare-minimum",
+      "status": "candidate-context",
+      "text": "<div align = \"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "2KAbhishek/tiny-web",
+      "status": "candidate-context",
+      "text": "tiny template for quickly making web pages \u2728\u2328"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "2KAbhishek/tiny-web",
+      "status": "candidate-context",
+      "text": "<div align = \"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "vizzuhq/ipyvizzu-story",
+      "status": "candidate-context",
+      "text": "Build, present and share animated data stories in Jupyter Notebook and similar environments."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vizzuhq/ipyvizzu-story",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "xinntao/BasicSR-examples",
+      "status": "candidate-context",
+      "text": "BasicSR-Examples illustrates how to easily use BasicSR in your own project"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "xinntao/BasicSR-examples",
+      "status": "candidate-context",
+      "text": "[![download](https://img.shields.io/github/downloads/xinntao/BasicSR-examples/total.svg)](https://github.com/xinntao/BasicSR-examples/releases)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jonschlinkert/whence",
+      "status": "candidate-context",
+      "text": "Add context awareness to your apps and frameworks by safely evaluating user-defined conditional expressions. Useful for evaluating expressions in config files, prompts, key bindings, completions, templates, and many other user cases."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jonschlinkert/whence",
+      "status": "candidate-context",
+      "text": "> Add context awareness to your apps and frameworks by safely evaluating user-defined conditional expressions. Useful for evaluating expressions in config files, prompts, key bindings, completions, templates, and many other user cases."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "2KAbhishek/shelly",
+      "status": "candidate-context",
+      "text": "Publish CLI Tools \ud83d\udc1a\u2728"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "2KAbhishek/shelly",
+      "status": "candidate-context",
+      "text": "<div align = \"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Janspiry/distributed-pytorch-template",
+      "status": "candidate-context",
+      "text": "This is a seed project for distributed PyTorch training, which was built to customize your network quickly"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Janspiry/distributed-pytorch-template",
+      "status": "candidate-context",
+      "text": "This is a seed project for distributed PyTorch training, which was built to customize your network quickly."
     }
   ],
   "candidate_glosses": [
@@ -315,6 +399,48 @@
       "source_repo": "MrGemy95/Tensorflow-Project-Template",
       "status": "candidate",
       "text": "A simple and well designed structure is essential for any Deep Learning project, so after a lot of practice and contributing in tensorflow projects here's a tensorflow project template that combines **simplcity**, **best practice for folder structure** and **good OOP design**."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "2KAbhishek/bare-minimum",
+      "status": "candidate",
+      "text": "<div align = \"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "2KAbhishek/tiny-web",
+      "status": "candidate",
+      "text": "<div align = \"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vizzuhq/ipyvizzu-story",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "xinntao/BasicSR-examples",
+      "status": "candidate",
+      "text": "[![download](https://img.shields.io/github/downloads/xinntao/BasicSR-examples/total.svg)](https://github.com/xinntao/BasicSR-examples/releases)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jonschlinkert/whence",
+      "status": "candidate",
+      "text": "> Add context awareness to your apps and frameworks by safely evaluating user-defined conditional expressions. Useful for evaluating expressions in config files, prompts, key bindings, completions, templates, and many other user cases."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "2KAbhishek/shelly",
+      "status": "candidate",
+      "text": "<div align = \"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Janspiry/distributed-pytorch-template",
+      "status": "candidate",
+      "text": "This is a seed project for distributed PyTorch training, which was built to customize your network quickly."
     }
   ],
   "candidate_related_terms": [
@@ -505,11 +631,65 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "MrGemy95/Tensorflow-Project-Template"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "2KAbhishek/bare-minimum"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "2KAbhishek/tiny-web"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "callstack/react-native-builder-bob"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "MrGemy95/Tensorflow-Project-Template"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "vizzuhq/ipyvizzu-story"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "xinntao/BasicSR-examples"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "jonschlinkert/whence"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "2KAbhishek/shelly"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "Janspiry/distributed-pytorch-template"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

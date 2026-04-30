@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T00:53:21.437507+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7456
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "zksync/credo",
+    "html_url": "https://github.com/zksync/credo",
+    "language": null,
+    "pushed_at": "2024-07-23T08:41:27Z",
+    "stargazers_count": 2180,
+    "topics": [],
+    "updated_at": "2026-04-18T20:48:17Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Validate examples"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cloudflare/pint",
+      "status": "candidate-context",
+      "text": "Prometheus rule linter/validator"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cloudflare/pint",
+      "status": "candidate-context",
+      "text": "Validate examples"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cloudflare/pint",
+      "status": "candidate",
+      "text": "Validate examples"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11422,
+      "status": "candidate",
+      "text": "attest"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11422,
+      "status": "candidate",
+      "text": "establish"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11422,
+      "status": "candidate",
+      "text": "okay"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11422,
+      "status": "candidate",
+      "text": "prove"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11422,
+      "status": "candidate",
+      "text": "seal"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Validate examples",
+  "concept_id": "validate-examples",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/examples.yml",
+      "source_repo": "cloudflare/pint"
+    }
+  ],
+  "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Validate examples",
+      "sense_id": "validate-examples#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

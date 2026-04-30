@@ -55,6 +55,30 @@
       "source_repo": "lh3/ksw2",
       "status": "candidate-context",
       "text": "KSW2 is a library to align a pair of biological sequences based on dynamic"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Martinsos/edlib",
+      "status": "candidate-context",
+      "text": "Lightweight, super fast C/C++ (& Python) library for sequence alignment using edit (Levenshtein) distance."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Martinsos/edlib",
+      "status": "candidate-context",
+      "text": "Edlib"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Martinsos/opal",
+      "status": "candidate-context",
+      "text": "SIMD C/C++ library for massive optimal sequence alignment (local/SW, infix, overlap, global)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Martinsos/opal",
+      "status": "candidate-context",
+      "text": "*This work has been supported in part by Croatian Science Fundation under the project UIP-11-2013-7353.*"
     }
   ],
   "candidate_glosses": [
@@ -81,6 +105,18 @@
       "source_repo": "lh3/ksw2",
       "status": "candidate",
       "text": "KSW2 is a library to align a pair of biological sequences based on dynamic"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Martinsos/edlib",
+      "status": "candidate",
+      "text": "Edlib"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Martinsos/opal",
+      "status": "candidate",
+      "text": "*This work has been supported in part by Croatian Science Fundation under the project UIP-11-2013-7353.*"
     }
   ],
   "candidate_related_terms": [],
@@ -112,11 +148,23 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "lh3/ksw2"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "Martinsos/edlib"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "Martinsos/opal"
     }
   ],
   "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

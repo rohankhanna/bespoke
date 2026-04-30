@@ -1,0 +1,177 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "wy1iu/sphereface",
+      "target": "andrewhuman/sphereloss_tensorflow",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "wy1iu/sphereface",
+      "target": "goodluckcwl/sphereface-model",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "wy1iu/sphereface",
+      "target": "happynear/amsoftmax",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "wy1iu/sphereface",
+      "target": "happynear/normface",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "wy1iu/sphereface",
+      "target": "angular-softmax",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "wy1iu/sphereface",
+      "target": "caffe",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "wy1iu/sphereface",
+      "target": "cvpr-2017",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "wy1iu/sphereface",
+      "target": "deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "wy1iu/sphereface",
+      "target": "face-detection",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "wy1iu/sphereface",
+      "target": "face-recognition",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "wy1iu/sphereface",
+      "target": "sphereface",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T03:46:29.752215+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 17379
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Implementation for <SphereFace: Deep Hypersphere Embedding for Face Recognition> in CVPR'17.",
+    "fork": false,
+    "full_name": "wy1iu/sphereface",
+    "html_url": "https://github.com/wy1iu/sphereface",
+    "language": "Jupyter Notebook",
+    "pushed_at": "2022-07-24T04:34:05Z",
+    "stargazers_count": 1601,
+    "topics": [
+      "angular-softmax",
+      "caffe",
+      "cvpr-2017",
+      "deep-learning",
+      "face-detection",
+      "face-recognition",
+      "sphereface"
+    ],
+    "updated_at": "2026-04-20T09:55:55Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "andrewhuman/sphereloss_tensorflow",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "goodluckcwl/sphereface-model",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "happynear/amsoftmax",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "happynear/normface",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "By Weiyang Liu, Yandong Wen, Zhiding Yu, Ming Li, Bhiksha Raj and Le Song",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "angular-softmax"
+    },
+    {
+      "context_snippet": "By Weiyang Liu, Yandong Wen, Zhiding Yu, Ming Li, Bhiksha Raj and Le Song",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "caffe"
+    },
+    {
+      "context_snippet": "By Weiyang Liu, Yandong Wen, Zhiding Yu, Ming Li, Bhiksha Raj and Le Song",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cvpr-2017"
+    },
+    {
+      "context_snippet": "By Weiyang Liu, Yandong Wen, Zhiding Yu, Ming Li, Bhiksha Raj and Le Song",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-learning"
+    },
+    {
+      "context_snippet": "By Weiyang Liu, Yandong Wen, Zhiding Yu, Ming Li, Bhiksha Raj and Le Song",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "face-detection"
+    },
+    {
+      "context_snippet": "By Weiyang Liu, Yandong Wen, Zhiding Yu, Ming Li, Bhiksha Raj and Le Song",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "face-recognition"
+    },
+    {
+      "context_snippet": "By Weiyang Liu, Yandong Wen, Zhiding Yu, Ming Li, Bhiksha Raj and Le Song",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "sphereface"
+    }
+  ]
+}

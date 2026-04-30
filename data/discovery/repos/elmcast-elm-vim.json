@@ -1,0 +1,77 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ElmCast/elm-vim",
+      "target": "sheerun/vim-polyglot",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ElmCast/elm-vim",
+      "target": "rtfeldman/node-elm-test",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ElmCast/elm-vim",
+      "target": "elmcast/elm-oracle",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ElmCast/elm-vim",
+      "target": "scrooloose/syntastic",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T02:59:09.758207+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4756
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Elm plugin for Vim",
+    "fork": false,
+    "full_name": "ElmCast/elm-vim",
+    "html_url": "https://github.com/ElmCast/elm-vim",
+    "language": "Vim script",
+    "pushed_at": "2021-05-19T08:15:04Z",
+    "stargazers_count": 572,
+    "topics": [],
+    "updated_at": "2026-04-09T17:00:15Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "elmcast/elm-oracle",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "rtfeldman/node-elm-test",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "scrooloose/syntastic",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "sheerun/vim-polyglot",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

@@ -103,6 +103,18 @@
       "source_repo": "cs-chan/Total-Text-Dataset",
       "status": "candidate-context",
       "text": "Updated on April 06, 2022 (Detection leaderboard is updated with FCE, ABPNet, PCR, CentripetalText & HierText)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "yeungchenwa/OCR-SAM",
+      "status": "candidate-context",
+      "text": "[Open-Source Project] Combining MMOCR with Segment Anything & Stable Diffusion. Automatically detect, recognize and segment text instances, with serval downstream tasks, e.g., Text Removal and Text Inpainting"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "yeungchenwa/OCR-SAM",
+      "status": "candidate-context",
+      "text": "gradio numpy openmim omegaconf==2.3.0 einops==0.6.0 transformers==4.27.3 pytorch-lightning==2.0.1.post0 diffusers==0.14.0"
     }
   ],
   "candidate_glosses": [
@@ -153,6 +165,12 @@
       "source_repo": "cs-chan/Total-Text-Dataset",
       "status": "candidate",
       "text": "Updated on April 06, 2022 (Detection leaderboard is updated with FCE, ABPNet, PCR, CentripetalText & HierText)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "yeungchenwa/OCR-SAM",
+      "status": "candidate",
+      "text": "gradio numpy openmim omegaconf==2.3.0 einops==0.6.0 transformers==4.27.3 pytorch-lightning==2.0.1.post0 diffusers==0.14.0"
     }
   ],
   "candidate_related_terms": [],
@@ -208,11 +226,17 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "cs-chan/Total-Text-Dataset"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "yeungchenwa/OCR-SAM"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

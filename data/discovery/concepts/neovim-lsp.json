@@ -31,6 +31,18 @@
       "source_repo": "folke/trouble.nvim",
       "status": "candidate-context",
       "text": "A pretty list for showing diagnostics, references, telescope results, quickfix and location lists to help you solve all the trouble your code is causing."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "folke/neodev.nvim",
+      "status": "candidate-context",
+      "text": "\ud83d\udcbb  Neovim setup for init.lua and plugin development with full signature help, docs and completion for the nvim lua API."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "folke/neodev.nvim",
+      "status": "candidate-context",
+      "text": "> [!WARNING]"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +57,12 @@
       "source_repo": "folke/trouble.nvim",
       "status": "candidate",
       "text": "A pretty list for showing diagnostics, references, telescope results, quickfix and location lists to help you solve all the trouble your code is causing."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "folke/neodev.nvim",
+      "status": "candidate",
+      "text": "> [!WARNING]"
     }
   ],
   "candidate_related_terms": [],
@@ -64,11 +82,17 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "folke/trouble.nvim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "folke/neodev.nvim"
     }
   ],
   "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

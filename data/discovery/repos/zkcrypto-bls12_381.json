@@ -1,0 +1,207 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@stable",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lints-beta.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@beta",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lints-beta.yml"
+    },
+    {
+      "component": "actions-rs/clippy-check@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lints-beta.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lints-stable.yml"
+    },
+    {
+      "component": "actions-rs/clippy-check@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lints-stable.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "zkcrypto/bls12_381",
+      "target": "zkcrypto/rfcs",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "zkcrypto/bls12_381",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "zkcrypto/bls12_381",
+      "target": "dtolnay/rust-toolchain@stable",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "zkcrypto/bls12_381",
+      "target": "CI checks",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lints-beta.yml",
+      "source_repo": "zkcrypto/bls12_381",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lints-beta.yml",
+      "source_repo": "zkcrypto/bls12_381",
+      "target": "dtolnay/rust-toolchain@beta",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lints-beta.yml",
+      "source_repo": "zkcrypto/bls12_381",
+      "target": "actions-rs/clippy-check@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lints-beta.yml",
+      "source_repo": "zkcrypto/bls12_381",
+      "target": "Beta lints",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lints-stable.yml",
+      "source_repo": "zkcrypto/bls12_381",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lints-stable.yml",
+      "source_repo": "zkcrypto/bls12_381",
+      "target": "actions-rs/clippy-check@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lints-stable.yml",
+      "source_repo": "zkcrypto/bls12_381",
+      "target": "Stable lints",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T04:52:27.442832+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5916
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 1716
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 2351
+    },
+    {
+      "path": ".github/workflows/lints-beta.yml",
+      "size": 686
+    },
+    {
+      "path": ".github/workflows/lints-stable.yml",
+      "size": 431
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Implementation of the BLS12-381 pairing-friendly elliptic curve group",
+    "fork": false,
+    "full_name": "zkcrypto/bls12_381",
+    "html_url": "https://github.com/zkcrypto/bls12_381",
+    "language": "Rust",
+    "pushed_at": "2026-02-25T03:11:36Z",
+    "stargazers_count": 360,
+    "topics": [],
+    "updated_at": "2026-04-26T08:44:31Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "zkcrypto/rfcs",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "CI checks",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "term": "CI checks"
+    },
+    {
+      "context_snippet": "Beta lints",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lints-beta.yml",
+      "term": "Beta lints"
+    },
+    {
+      "context_snippet": "Stable lints",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lints-stable.yml",
+      "term": "Stable lints"
+    }
+  ]
+}

@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "CodeQL: the libraries and queries that power security researchers around the world, as well as code scanning in GitHub Advanced Security"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Check change note"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Check change note"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 34409,
+      "status": "candidate",
+      "text": "watch"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 34388,
+      "status": "candidate",
+      "text": "holder"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 34286,
+      "status": "candidate",
+      "text": "maker"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 33873,
+      "status": "candidate",
+      "text": "bend"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 33873,
+      "status": "candidate",
+      "text": "bended"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Check change note",
+      "sense_id": "check-change-note#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "check-change-note",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "check-change-note",
+  "observation_id": "9c95c05c23f55d07",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-30T00:37:16.824464+00:00",
+  "observed_text": "Check change note",
+  "source_context_snippet": "Check change note",
+  "source_file": ".github/workflows/check-change-note.yml",
+  "source_repo": "github/codeql",
+  "source_repo_description": "CodeQL: the libraries and queries that power security researchers around the world, as well as code scanning in GitHub Advanced Security"
+}

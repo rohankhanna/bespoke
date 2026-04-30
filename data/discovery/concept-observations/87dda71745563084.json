@@ -1,0 +1,87 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "LibYAML binding for Lua."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "spec"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "spec"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39995513,
+      "status": "candidate",
+      "text": "specification"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30017610,
+      "status": "candidate",
+      "text": "specifications"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29989795,
+      "status": "candidate",
+      "text": "standard"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "spec",
+      "sense_id": "spec#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 53,
+      "status": "candidate",
+      "text": "specification"
+    }
+  ],
+  "concept_id": "spec",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "spec",
+  "observation_id": "87dda71745563084",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-30T00:37:16.824464+00:00",
+  "observed_text": "spec",
+  "source_context_snippet": "spec",
+  "source_file": ".github/workflows/spec.yml",
+  "source_repo": "gvvaughan/lyaml",
+  "source_repo_description": "LibYAML binding for Lua."
+}

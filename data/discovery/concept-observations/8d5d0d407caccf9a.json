@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A flexible, performant and reliable search database without the AI bullshit."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<p align=\"center\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40042319,
+      "status": "candidate",
+      "text": "new york minute"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40042304,
+      "status": "candidate",
+      "text": "blink of an eye"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40042277,
+      "status": "candidate",
+      "text": "jiffy"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40042260,
+      "status": "candidate",
+      "text": "moment"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40041614,
+      "status": "candidate",
+      "text": "instantaneous"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "instant",
+      "sense_id": "instant#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 66041,
+      "status": "candidate",
+      "text": "imperative"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 54039,
+      "status": "candidate",
+      "text": "exigent"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 24031,
+      "status": "candidate",
+      "text": "insistent"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 17061,
+      "status": "candidate",
+      "text": "minute"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 17028,
+      "status": "candidate",
+      "text": "clamant"
+    }
+  ],
+  "concept_id": "instant",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "instant",
+  "observation_id": "8d5d0d407caccf9a",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T00:37:16.824464+00:00",
+  "observed_text": "instant",
+  "source_context_snippet": "<p align=\"center\">",
+  "source_file": null,
+  "source_repo": "lnx-search/lnx",
+  "source_repo_description": "A flexible, performant and reliable search database without the AI bullshit."
+}

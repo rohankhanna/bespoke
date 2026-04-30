@@ -1,0 +1,466 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cross.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cross.yml"
+    },
+    {
+      "component": "RustCrypto/actions/cross-install@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cross.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/curve25519-dalek.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@stable",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/curve25519-dalek.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/curve25519-dalek.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/curve25519-dalek.yml"
+    },
+    {
+      "component": "taiki-e/install-action@cargo-hack",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/curve25519-dalek.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/curve25519-dalek.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@stable",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/curve25519-dalek.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/curve25519-dalek.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/curve25519-dalek.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/curve25519-dalek.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@nightly",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/curve25519-dalek.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/curve25519-dalek.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@stable",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/curve25519-dalek.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/curve25519-dalek.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@nightly",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/curve25519-dalek.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@1.60.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/curve25519-dalek.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ed25519-dalek.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@nightly",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ed25519-dalek.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@1.60.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ed25519-dalek.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/workspace.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@stable",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/workspace.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/workspace.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@nightly",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/workspace.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/workspace.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@stable",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/workspace.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/workspace.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/workspace.yml"
+    },
+    {
+      "component": "taiki-e/install-action@cargo-hack",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/workspace.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/workspace.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@1.73.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/workspace.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/workspace.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@stable",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/workspace.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/workspace.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@stable",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/workspace.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/x25519-dalek.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@nightly",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/x25519-dalek.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@1.60.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/x25519-dalek.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cross.yml",
+      "source_repo": "anza-xyz/curve25519-dalek",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cross.yml",
+      "source_repo": "anza-xyz/curve25519-dalek",
+      "target": "dtolnay/rust-toolchain@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cross.yml",
+      "source_repo": "anza-xyz/curve25519-dalek",
+      "target": "RustCrypto/actions/cross-install@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cross.yml",
+      "source_repo": "anza-xyz/curve25519-dalek",
+      "target": "Cross",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/curve25519-dalek.yml",
+      "source_repo": "anza-xyz/curve25519-dalek",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/curve25519-dalek.yml",
+      "source_repo": "anza-xyz/curve25519-dalek",
+      "target": "dtolnay/rust-toolchain@stable",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/curve25519-dalek.yml",
+      "source_repo": "anza-xyz/curve25519-dalek",
+      "target": "dtolnay/rust-toolchain@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/curve25519-dalek.yml",
+      "source_repo": "anza-xyz/curve25519-dalek",
+      "target": "taiki-e/install-action@cargo-hack",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/curve25519-dalek.yml",
+      "source_repo": "anza-xyz/curve25519-dalek",
+      "target": "dtolnay/rust-toolchain@nightly",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/curve25519-dalek.yml",
+      "source_repo": "anza-xyz/curve25519-dalek",
+      "target": "dtolnay/rust-toolchain@1.60.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/curve25519-dalek.yml",
+      "source_repo": "anza-xyz/curve25519-dalek",
+      "target": "curve25519 Rust",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ed25519-dalek.yml",
+      "source_repo": "anza-xyz/curve25519-dalek",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ed25519-dalek.yml",
+      "source_repo": "anza-xyz/curve25519-dalek",
+      "target": "dtolnay/rust-toolchain@nightly",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ed25519-dalek.yml",
+      "source_repo": "anza-xyz/curve25519-dalek",
+      "target": "dtolnay/rust-toolchain@1.60.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ed25519-dalek.yml",
+      "source_repo": "anza-xyz/curve25519-dalek",
+      "target": "ed25519 Rust",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/workspace.yml",
+      "source_repo": "anza-xyz/curve25519-dalek",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/workspace.yml",
+      "source_repo": "anza-xyz/curve25519-dalek",
+      "target": "dtolnay/rust-toolchain@stable",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/workspace.yml",
+      "source_repo": "anza-xyz/curve25519-dalek",
+      "target": "dtolnay/rust-toolchain@nightly",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/workspace.yml",
+      "source_repo": "anza-xyz/curve25519-dalek",
+      "target": "dtolnay/rust-toolchain@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/workspace.yml",
+      "source_repo": "anza-xyz/curve25519-dalek",
+      "target": "taiki-e/install-action@cargo-hack",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/workspace.yml",
+      "source_repo": "anza-xyz/curve25519-dalek",
+      "target": "dtolnay/rust-toolchain@1.73.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/workspace.yml",
+      "source_repo": "anza-xyz/curve25519-dalek",
+      "target": "All",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/x25519-dalek.yml",
+      "source_repo": "anza-xyz/curve25519-dalek",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/x25519-dalek.yml",
+      "source_repo": "anza-xyz/curve25519-dalek",
+      "target": "dtolnay/rust-toolchain@nightly",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/x25519-dalek.yml",
+      "source_repo": "anza-xyz/curve25519-dalek",
+      "target": "dtolnay/rust-toolchain@1.60.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/x25519-dalek.yml",
+      "source_repo": "anza-xyz/curve25519-dalek",
+      "target": "x25519 Rust",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T04:48:41.091197+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3215
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 166
+    },
+    {
+      "path": ".github/workflows/cross.yml",
+      "size": 1122
+    },
+    {
+      "path": ".github/workflows/curve25519-dalek.yml",
+      "size": 4848
+    },
+    {
+      "path": ".github/workflows/ed25519-dalek.yml",
+      "size": 734
+    },
+    {
+      "path": ".github/workflows/workspace.yml",
+      "size": 3155
+    },
+    {
+      "path": ".github/workflows/x25519-dalek.yml",
+      "size": 730
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A pure-Rust implementation of group operations on Ristretto and Curve25519",
+    "fork": true,
+    "full_name": "anza-xyz/curve25519-dalek",
+    "html_url": "https://github.com/anza-xyz/curve25519-dalek",
+    "language": "Rust",
+    "pushed_at": "2024-07-15T06:00:00Z",
+    "stargazers_count": 7,
+    "topics": [],
+    "updated_at": "2025-03-16T12:21:47Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Cross",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cross.yml",
+      "term": "Cross"
+    },
+    {
+      "context_snippet": "curve25519 Rust",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/curve25519-dalek.yml",
+      "term": "curve25519 Rust"
+    },
+    {
+      "context_snippet": "ed25519 Rust",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ed25519-dalek.yml",
+      "term": "ed25519 Rust"
+    },
+    {
+      "context_snippet": "All",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/workspace.yml",
+      "term": "All"
+    },
+    {
+      "context_snippet": "x25519 Rust",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/x25519-dalek.yml",
+      "term": "x25519 Rust"
+    }
+  ]
+}

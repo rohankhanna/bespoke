@@ -1,0 +1,90 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "13rac1/goldmark-embed",
+      "target": "goldmark",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "13rac1/goldmark-embed",
+      "target": "goldmark-extension",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "13rac1/goldmark-embed",
+      "target": "markdown",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "13rac1/goldmark-embed",
+      "target": "video-embed",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T04:51:25.258168+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1044
+    },
+    {
+      "path": "go.mod",
+      "size": 90
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A Video embed extension for the goldmark markdown parser.",
+    "fork": false,
+    "full_name": "13rac1/goldmark-embed",
+    "html_url": "https://github.com/13rac1/goldmark-embed",
+    "language": "Go",
+    "pushed_at": "2022-05-04T17:35:02Z",
+    "stargazers_count": 6,
+    "topics": [
+      "goldmark",
+      "goldmark-extension",
+      "markdown",
+      "video-embed"
+    ],
+    "updated_at": "2025-10-25T18:29:32Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "goldmark-embed is an extension for the [goldmark][goldmark] library that extends",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "goldmark"
+    },
+    {
+      "context_snippet": "goldmark-embed is an extension for the [goldmark][goldmark] library that extends",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "goldmark-extension"
+    },
+    {
+      "context_snippet": "goldmark-embed is an extension for the [goldmark][goldmark] library that extends",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "markdown"
+    },
+    {
+      "context_snippet": "goldmark-embed is an extension for the [goldmark][goldmark] library that extends",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "video-embed"
+    }
+  ]
+}

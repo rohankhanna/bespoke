@@ -1,0 +1,115 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "JIA-Lab-research/Stratified-Transformer",
+      "target": "yanx27/pointnet_pointnet2_pytorch",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "JIA-Lab-research/Stratified-Transformer",
+      "target": "dvlab-research/pointgroup",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JIA-Lab-research/Stratified-Transformer",
+      "target": "cvpr2022",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JIA-Lab-research/Stratified-Transformer",
+      "target": "point-cloud",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JIA-Lab-research/Stratified-Transformer",
+      "target": "semantic-segmentation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JIA-Lab-research/Stratified-Transformer",
+      "target": "transformer",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T05:14:18.864369+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4067
+    },
+    {
+      "path": "requirements.txt",
+      "size": 308
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Stratified Transformer for 3D Point Cloud Segmentation (CVPR 2022)",
+    "fork": false,
+    "full_name": "JIA-Lab-research/Stratified-Transformer",
+    "html_url": "https://github.com/JIA-Lab-research/Stratified-Transformer",
+    "language": "Python",
+    "pushed_at": "2023-01-07T14:19:05Z",
+    "stargazers_count": 430,
+    "topics": [
+      "cvpr2022",
+      "point-cloud",
+      "semantic-segmentation",
+      "transformer"
+    ],
+    "updated_at": "2026-04-26T07:16:43Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dvlab-research/pointgroup",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "yanx27/pointnet_pointnet2_pytorch",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "*Xin Lai<sup>\\*</sup>, Jianhui Liu<sup>\\*</sup>, Li Jiang, Liwei Wang, Hengshuang Zhao, Shu Liu, Xiaojuan Qi, Jiaya Jia*",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cvpr2022"
+    },
+    {
+      "context_snippet": "*Xin Lai<sup>\\*</sup>, Jianhui Liu<sup>\\*</sup>, Li Jiang, Liwei Wang, Hengshuang Zhao, Shu Liu, Xiaojuan Qi, Jiaya Jia*",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "point-cloud"
+    },
+    {
+      "context_snippet": "*Xin Lai<sup>\\*</sup>, Jianhui Liu<sup>\\*</sup>, Li Jiang, Liwei Wang, Hengshuang Zhao, Shu Liu, Xiaojuan Qi, Jiaya Jia*",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "semantic-segmentation"
+    },
+    {
+      "context_snippet": "*Xin Lai<sup>\\*</sup>, Jianhui Liu<sup>\\*</sup>, Li Jiang, Liwei Wang, Hengshuang Zhao, Shu Liu, Xiaojuan Qi, Jiaya Jia*",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "transformer"
+    }
+  ]
+}

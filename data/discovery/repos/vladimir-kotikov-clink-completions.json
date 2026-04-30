@@ -1,0 +1,152 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/code-check.yml"
+    },
+    {
+      "component": "leafo/gh-actions-lua@v12",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/code-check.yml"
+    },
+    {
+      "component": "leafo/gh-actions-luarocks@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/code-check.yml"
+    },
+    {
+      "component": "codecov/codecov-action@v3.1.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/code-check.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "vladimir-kotikov/clink-completions",
+      "target": "chrisant996/clink",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/code-check.yml",
+      "source_repo": "vladimir-kotikov/clink-completions",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/code-check.yml",
+      "source_repo": "vladimir-kotikov/clink-completions",
+      "target": "leafo/gh-actions-lua@v12",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/code-check.yml",
+      "source_repo": "vladimir-kotikov/clink-completions",
+      "target": "leafo/gh-actions-luarocks@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/code-check.yml",
+      "source_repo": "vladimir-kotikov/clink-completions",
+      "target": "codecov/codecov-action@v3.1.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/code-check.yml",
+      "source_repo": "vladimir-kotikov/clink-completions",
+      "target": "Code check",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "vladimir-kotikov/clink-completions",
+      "target": "clink",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "vladimir-kotikov/clink-completions",
+      "target": "clink-completions",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "vladimir-kotikov/clink-completions",
+      "target": "completions",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T01:47:03.305898+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6975
+    },
+    {
+      "path": ".github/workflows/code-check.yml",
+      "size": 623
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Completion files to clink util",
+    "fork": false,
+    "full_name": "vladimir-kotikov/clink-completions",
+    "html_url": "https://github.com/vladimir-kotikov/clink-completions",
+    "language": "Lua",
+    "pushed_at": "2026-04-19T07:22:19Z",
+    "stargazers_count": 445,
+    "topics": [
+      "clink",
+      "clink-completions",
+      "completions",
+      "lua"
+    ],
+    "updated_at": "2026-04-28T15:30:35Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "chrisant996/clink",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Code check",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/code-check.yml",
+      "term": "Code check"
+    },
+    {
+      "context_snippet": "[![Build status](https://github.com/vladimir-kotikov/clink-completions/actions/workflows/code-check.yml/badge.svg?branch=master)](https://github.com/vladimir-kotikov/clink-completions/actions/workflows/code-check.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "clink"
+    },
+    {
+      "context_snippet": "[![Build status](https://github.com/vladimir-kotikov/clink-completions/actions/workflows/code-check.yml/badge.svg?branch=master)](https://github.com/vladimir-kotikov/clink-completions/actions/workflows/code-check.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "clink-completions"
+    },
+    {
+      "context_snippet": "[![Build status](https://github.com/vladimir-kotikov/clink-completions/actions/workflows/code-check.yml/badge.svg?branch=master)](https://github.com/vladimir-kotikov/clink-completions/actions/workflows/code-check.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "completions"
+    }
+  ]
+}

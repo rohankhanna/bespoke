@@ -354,6 +354,42 @@
       "source_repo": "ModelTC/Outlier_Suppression_Plus",
       "status": "candidate-context",
       "text": "Pull Request"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "peter-evans/create-pull-request",
+      "status": "candidate-context",
+      "text": "A GitHub action to create a pull request for changes to your repository in the actions workspace"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "peter-evans/create-pull-request",
+      "status": "candidate-context",
+      "text": "[![CI](https://github.com/peter-evans/create-pull-request/workflows/CI/badge.svg)](https://github.com/peter-evans/create-pull-request/actions?query=workflow%3ACI)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bigscience-workshop/lm-evaluation-harness",
+      "status": "candidate-context",
+      "text": "A framework for few-shot evaluation of autoregressive language models."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bigscience-workshop/lm-evaluation-harness",
+      "status": "candidate-context",
+      "text": "Pull Request"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "peter-evans/enable-pull-request-automerge",
+      "status": "candidate-context",
+      "text": "A GitHub action to enable auto-merge on a pull request"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "peter-evans/enable-pull-request-automerge",
+      "status": "candidate-context",
+      "text": "[![CI](https://github.com/peter-evans/enable-pull-request-automerge/workflows/CI/badge.svg)](https://github.com/peter-evans/enable-pull-request-automerge/actions?query=workflow%3ACI)"
     }
   ],
   "candidate_glosses": [
@@ -524,6 +560,24 @@
       "source_repo": "ModelTC/Outlier_Suppression_Plus",
       "status": "candidate",
       "text": "Pull Request"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "peter-evans/create-pull-request",
+      "status": "candidate",
+      "text": "[![CI](https://github.com/peter-evans/create-pull-request/workflows/CI/badge.svg)](https://github.com/peter-evans/create-pull-request/actions?query=workflow%3ACI)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bigscience-workshop/lm-evaluation-harness",
+      "status": "candidate",
+      "text": "Pull Request"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "peter-evans/enable-pull-request-automerge",
+      "status": "candidate",
+      "text": "[![CI](https://github.com/peter-evans/enable-pull-request-automerge/workflows/CI/badge.svg)](https://github.com/peter-evans/enable-pull-request-automerge/actions?query=workflow%3ACI)"
     }
   ],
   "candidate_related_terms": [
@@ -825,11 +879,59 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": ".github/workflows/pull_request.yml",
       "source_repo": "ModelTC/Outlier_Suppression_Plus"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/pull-request.yml",
+      "source_repo": "wevm/abitype"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "peter-evans/create-pull-request"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/pull-request.yml",
+      "source_repo": "stx-labs/connect"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/pull-request.yml",
+      "source_repo": "stx-labs/stacks.js"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "mislav/hub"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/pull_request.yml",
+      "source_repo": "bigscience-workshop/lm-evaluation-harness"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/pull_request.yml",
+      "source_repo": "swiftlang/swift-syntax"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "peter-evans/enable-pull-request-automerge"
     }
   ],
   "first_seen_at": "2026-04-18T13:15:13.756138+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

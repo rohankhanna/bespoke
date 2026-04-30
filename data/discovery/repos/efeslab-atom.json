@@ -1,0 +1,65 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "efeslab/Atom",
+      "target": "ist-daslab/sparsegpt",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "efeslab/Atom",
+      "target": "nvidia/nvbench",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "efeslab/Atom",
+      "target": "timdettmers/bitsandbytes",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T03:52:02.820064+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7585
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "[MLSys'24] Atom: Low-bit Quantization for Efficient and Accurate LLM Serving",
+    "fork": false,
+    "full_name": "efeslab/Atom",
+    "html_url": "https://github.com/efeslab/Atom",
+    "language": "Cuda",
+    "pushed_at": "2024-07-02T05:54:54Z",
+    "stargazers_count": 338,
+    "topics": [],
+    "updated_at": "2026-04-27T11:48:19Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ist-daslab/sparsegpt",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "nvidia/nvbench",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "timdettmers/bitsandbytes",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

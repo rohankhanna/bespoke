@@ -26,7 +26,7 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "cavalleria/cavaface",
-      "target": "osmr/imgclsmob",
+      "target": "zhaoj9014/face.evolve.pytorch",
       "target_type": "repository"
     },
     {
@@ -170,7 +170,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-29T21:45:02.859722+00:00",
+  "fetched_at": "2026-04-30T03:46:19.741117+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -220,17 +220,17 @@
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "osmr/imgclsmob",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
       "full_name": "pytorch/fairseq",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
       "full_name": "rwightman/pytorch-image-models",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "zhaoj9014/face.evolve.pytorch",
       "source_file": "README.md"
     }
   ],

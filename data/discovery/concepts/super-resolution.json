@@ -115,6 +115,102 @@
       "source_repo": "xinntao/Real-ESRGAN",
       "status": "candidate-context",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mv-lab/swin2sr",
+      "status": "candidate-context",
+      "text": "[ECCV] Swin2SR: SwinV2 Transformer for Compressed Image Super-Resolution and Restoration.  Advances in Image Manipulation (AIM) workshop ECCV 2022. Try it out! over 3.3M runs https://replicate.com/mv-lab/swin2sr"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mv-lab/swin2sr",
+      "status": "candidate-context",
+      "text": "[![arXiv](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)](https://arxiv.org/abs/2209.11345)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "swz30/MIRNet",
+      "status": "candidate-context",
+      "text": "[ECCV 2020] Learning Enriched Features for Real Image Restoration and Enhancement. SOTA results for image denoising, super-resolution, and image enhancement."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "swz30/MIRNet",
+      "status": "candidate-context",
+      "text": "[Syed Waqas Zamir](https://scholar.google.ae/citations?hl=en&user=POoai-QAAAAJ), [Aditya Arora](https://adityac8.github.io/), [Salman Khan](https://salman-h-khan.github.io/), [Munawar Hayat](https://scholar.google.com/citations?user=Mx8MbWYAAAAJ&hl=en), [Fahad Shahbaz Khan](http\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "TencentARC/GFPGAN",
+      "status": "candidate-context",
+      "text": "GFPGAN aims at developing Practical Algorithms for Real-world Face Restoration."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "TencentARC/GFPGAN",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "xindongzhang/ECBSR",
+      "status": "candidate-context",
+      "text": "Edge-oriented Convolution Block for Real-time Super Resolution on Mobile Devices, ACM Multimedia 2021"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "xindongzhang/ECBSR",
+      "status": "candidate-context",
+      "text": ">[Edge-oriented Convolution Block for Real-time Super Resolution on Mobile Devices](https://www4.comp.polyu.edu.hk/~cslzhang/paper/MM21_ECBSR.pdf) \\"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "xinntao/BasicSR-examples",
+      "status": "candidate-context",
+      "text": "BasicSR-Examples illustrates how to easily use BasicSR in your own project"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "xinntao/BasicSR-examples",
+      "status": "candidate-context",
+      "text": "[![download](https://img.shields.io/github/downloads/xinntao/BasicSR-examples/total.svg)](https://github.com/xinntao/BasicSR-examples/releases)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "AaronFeng753/Waifu2x-Extension-GUI",
+      "status": "candidate-context",
+      "text": "Video, Image and GIF upscale/enlarge(Super-Resolution) and Video frame interpolation. Achieved with Waifu2x,  Real-ESRGAN, Real-CUGAN, RTX Video Super Resolution VSR, SRMD, RealSR, Anime4K, RIFE, IFRNet, CAIN, DAIN,  and ACNet."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AaronFeng753/Waifu2x-Extension-GUI",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pkuliyi2015/sd-webui-stablesr",
+      "status": "candidate-context",
+      "text": "StableSR for Stable Diffusion WebUI - Ultra High-quality Image Upscaler"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pkuliyi2015/sd-webui-stablesr",
+      "status": "candidate-context",
+      "text": "Licensed under [S-Lab License 1.0](https://github.com/IceClear/StableSR/blob/main/LICENSE.txt)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Janspiry/Image-Super-Resolution-via-Iterative-Refinement",
+      "status": "candidate-context",
+      "text": "Unofficial implementation of Image Super-Resolution via Iterative Refinement by Pytorch"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Janspiry/Image-Super-Resolution-via-Iterative-Refinement",
+      "status": "candidate-context",
+      "text": "[Paper](https://arxiv.org/pdf/2104.07636.pdf ) | [Project](https://iterative-refinement.github.io/ )"
     }
   ],
   "candidate_glosses": [
@@ -171,6 +267,54 @@
       "source_repo": "xinntao/Real-ESRGAN",
       "status": "candidate",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mv-lab/swin2sr",
+      "status": "candidate",
+      "text": "[![arXiv](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)](https://arxiv.org/abs/2209.11345)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "swz30/MIRNet",
+      "status": "candidate",
+      "text": "[Syed Waqas Zamir](https://scholar.google.ae/citations?hl=en&user=POoai-QAAAAJ), [Aditya Arora](https://adityac8.github.io/), [Salman Khan](https://salman-h-khan.github.io/), [Munawar Hayat](https://scholar.google.com/citations?user=Mx8MbWYAAAAJ&hl=en), [Fahad Shahbaz Khan](http\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "TencentARC/GFPGAN",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "xindongzhang/ECBSR",
+      "status": "candidate",
+      "text": ">[Edge-oriented Convolution Block for Real-time Super Resolution on Mobile Devices](https://www4.comp.polyu.edu.hk/~cslzhang/paper/MM21_ECBSR.pdf) \\"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "xinntao/BasicSR-examples",
+      "status": "candidate",
+      "text": "[![download](https://img.shields.io/github/downloads/xinntao/BasicSR-examples/total.svg)](https://github.com/xinntao/BasicSR-examples/releases)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AaronFeng753/Waifu2x-Extension-GUI",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pkuliyi2015/sd-webui-stablesr",
+      "status": "candidate",
+      "text": "Licensed under [S-Lab License 1.0](https://github.com/IceClear/StableSR/blob/main/LICENSE.txt)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Janspiry/Image-Super-Resolution-via-Iterative-Refinement",
+      "status": "candidate",
+      "text": "[Paper](https://arxiv.org/pdf/2104.07636.pdf ) | [Project](https://iterative-refinement.github.io/ )"
     }
   ],
   "candidate_related_terms": [],
@@ -250,11 +394,77 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "xinntao/Real-ESRGAN"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "open-mmlab/mmagic"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "cszn/BSRGAN"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "mv-lab/swin2sr"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "swz30/MIRNet"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "TencentARC/GFPGAN"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "xindongzhang/ECBSR"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "XPixelGroup/BasicSR"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "xinntao/BasicSR-examples"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "AaronFeng753/Waifu2x-Extension-GUI"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "pkuliyi2015/sd-webui-stablesr"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "Janspiry/Image-Super-Resolution-via-Iterative-Refinement"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,122 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "\ud83e\udd16 A Python library for learning and evaluating knowledge graph embeddings "
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Welcome"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Welcome"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39942783,
+      "status": "candidate",
+      "text": "wanted"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39940408,
+      "status": "candidate",
+      "text": "invited"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39937348,
+      "status": "candidate",
+      "text": "receive"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29954604,
+      "status": "candidate",
+      "text": "greet"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29954580,
+      "status": "candidate",
+      "text": "salutation"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Welcome",
+      "sense_id": "welcome#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 16025,
+      "status": "candidate",
+      "text": "welcoming"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 11043,
+      "status": "candidate",
+      "text": "receive"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 7027,
+      "status": "candidate",
+      "text": "wanted"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 4022,
+      "status": "candidate",
+      "text": "invited"
+    }
+  ],
+  "concept_id": "welcome",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "welcome",
+  "observation_id": "d9bc2970a4adbdc0",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-30T00:37:16.824464+00:00",
+  "observed_text": "Welcome",
+  "source_context_snippet": "Welcome",
+  "source_file": ".github/workflows/pr_welcome.yml",
+  "source_repo": "pykeen/pykeen",
+  "source_repo_description": "\ud83e\udd16 A Python library for learning and evaluating knowledge graph embeddings "
+}

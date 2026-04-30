@@ -5,14 +5,14 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "okd-project/okd",
-      "target": "openshift/installer",
+      "target": "openshift/okd",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "okd-project/okd",
-      "target": "openshift/library",
+      "target": "openshift/source-to-image",
       "target_type": "repository"
     },
     {
@@ -26,7 +26,7 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "okd-project/okd",
-      "target": "openshift/community",
+      "target": "sclorg/mariadb-container",
       "target_type": "repository"
     },
     {
@@ -51,7 +51,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-21T11:38:19.020658+00:00",
+  "fetched_at": "2026-04-30T05:07:07.329991+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -67,7 +67,7 @@
     "full_name": "okd-project/okd",
     "html_url": "https://github.com/okd-project/okd",
     "language": "HCL",
-    "pushed_at": "2026-04-20T13:23:29Z",
+    "pushed_at": "2026-04-27T05:09:17Z",
     "stargazers_count": 2062,
     "topics": [
       "kubernetes",
@@ -75,7 +75,7 @@
       "okd",
       "okd-4"
     ],
-    "updated_at": "2026-04-21T05:17:19Z"
+    "updated_at": "2026-04-27T19:36:54Z"
   },
   "repo_links": [
     {
@@ -85,17 +85,17 @@
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "openshift/community",
+      "full_name": "openshift/okd",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "openshift/installer",
+      "full_name": "openshift/source-to-image",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "openshift/library",
+      "full_name": "sclorg/mariadb-container",
       "source_file": "README.md"
     }
   ],

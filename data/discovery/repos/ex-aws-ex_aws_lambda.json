@@ -1,0 +1,86 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/on-push.yml"
+    },
+    {
+      "component": "erlef/setup-beam@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/on-push.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/on-push.yml",
+      "source_repo": "ex-aws/ex_aws_lambda",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/on-push.yml",
+      "source_repo": "ex-aws/ex_aws_lambda",
+      "target": "erlef/setup-beam@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/on-push.yml",
+      "source_repo": "ex-aws/ex_aws_lambda",
+      "target": "on-push",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ex-aws/ex_aws_lambda",
+      "target": "service",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T02:55:26.754853+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2233
+    },
+    {
+      "path": ".github/workflows/on-push.yml",
+      "size": 940
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "ex-aws/ex_aws_lambda",
+    "html_url": "https://github.com/ex-aws/ex_aws_lambda",
+    "language": "Elixir",
+    "pushed_at": "2025-05-28T04:21:37Z",
+    "stargazers_count": 7,
+    "topics": [
+      "service"
+    ],
+    "updated_at": "2025-03-01T00:01:24Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "on-push",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/on-push.yml",
+      "term": "on-push"
+    },
+    {
+      "context_snippet": "[![Module Version](https://img.shields.io/hexpm/v/ex_aws_lambda.svg)](https://hex.pm/packages/ex_aws_lambda)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "service"
+    }
+  ]
+}

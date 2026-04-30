@@ -127,6 +127,18 @@
       "source_repo": "standard/atom-standardjs-snippets",
       "status": "candidate-context",
       "text": "A collection of ES6 [standardjs code style](http://standardjs.com/) snippets for faster JavaScript development in [Atom Editor](https://atom.io/)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ricardofbarros/linter-js-standard",
+      "status": "candidate-context",
+      "text": "Atom linter plugin for JavaScript, using JavaScript Standard Style"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ricardofbarros/linter-js-standard",
+      "status": "candidate-context",
+      "text": "![apm](https://img.shields.io/apm/v/linter-js-standard.svg)"
     }
   ],
   "candidate_glosses": [
@@ -189,6 +201,12 @@
       "source_repo": "standard/atom-standardjs-snippets",
       "status": "candidate",
       "text": "A collection of ES6 [standardjs code style](http://standardjs.com/) snippets for faster JavaScript development in [Atom Editor](https://atom.io/)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ricardofbarros/linter-js-standard",
+      "status": "candidate",
+      "text": "![apm](https://img.shields.io/apm/v/linter-js-standard.svg)"
     }
   ],
   "candidate_related_terms": [
@@ -357,11 +375,35 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "standard/atom-standardjs-snippets"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "atom/flight-manual.atom.io"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "atom/ide-java"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "ricardofbarros/linter-js-standard"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "codota/tabnine-atom"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

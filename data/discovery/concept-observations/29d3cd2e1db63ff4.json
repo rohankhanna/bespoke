@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Examples of models deployable with Truss"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Warm up chains examples"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Warm up chains examples"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 43468,
+      "status": "candidate",
+      "text": "nucleotide"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39730,
+      "status": "candidate",
+      "text": "polyunsaturated"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 37338,
+      "status": "candidate",
+      "text": "couple"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 37338,
+      "status": "candidate",
+      "text": "sequence"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 35844,
+      "status": "candidate",
+      "text": "pepper"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Warm up chains examples",
+      "sense_id": "warm-up-chains-examples#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "warm-up-chains-examples",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "warm-up-chains-examples",
+  "observation_id": "29d3cd2e1db63ff4",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-30T00:37:16.824464+00:00",
+  "observed_text": "Warm up chains examples",
+  "source_context_snippet": "Warm up chains examples",
+  "source_file": ".github/workflows/warm-chains.yml",
+  "source_repo": "basetenlabs/truss-examples",
+  "source_repo_description": "Examples of models deployable with Truss"
+}

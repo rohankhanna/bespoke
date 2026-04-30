@@ -71,21 +71,7 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "pyg-team/pytorch_geometric",
-      "target": "snap-stanford/ogb",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "pyg-team/pytorch_geometric",
       "target": "deepmind/graph_nets",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "pyproject.toml",
-      "source_repo": "pyg-team/pytorch_geometric",
-      "target": "pgmpy/pgmpy",
       "target_type": "repository"
     },
     {
@@ -271,11 +257,11 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-29T20:43:16.608387+00:00",
+  "fetched_at": "2026-04-30T05:11:29.289653+00:00",
   "fetched_files": [
     {
       "path": "README.md",
-      "size": 60052
+      "size": 59942
     },
     {
       "path": "pyproject.toml",
@@ -323,8 +309,8 @@
     "full_name": "pyg-team/pytorch_geometric",
     "html_url": "https://github.com/pyg-team/pytorch_geometric",
     "language": "Python",
-    "pushed_at": "2026-04-29T17:22:05Z",
-    "stargazers_count": 23708,
+    "pushed_at": "2026-04-30T04:00:34Z",
+    "stargazers_count": 23709,
     "topics": [
       "deep-learning",
       "geometric-deep-learning",
@@ -332,23 +318,13 @@
       "graph-neural-networks",
       "pytorch"
     ],
-    "updated_at": "2026-04-29T19:47:51Z"
+    "updated_at": "2026-04-30T04:00:39Z"
   },
   "repo_links": [
     {
       "edge_type": "explicit-github-link",
       "full_name": "deepmind/graph_nets",
       "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "snap-stanford/ogb",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "pgmpy/pgmpy",
-      "source_file": "pyproject.toml"
     }
   ],
   "terms": [

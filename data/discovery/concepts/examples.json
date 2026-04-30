@@ -274,6 +274,78 @@
       "source_repo": "cryspen/hacl-packages",
       "status": "candidate-context",
       "text": "examples"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "google/trillian-examples",
+      "status": "candidate-context",
+      "text": "A place to store some examples which use Trillian APIs to build things."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/trillian-examples",
+      "status": "candidate-context",
+      "text": "[![OpenSSF Scorecard](https://api.securityscorecards.dev/projects/github.com/google/trillian-examples/badge)](https://securityscorecards.dev/viewer/?uri=github.com/google/trillian-examples)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "basetenlabs/truss-examples",
+      "status": "candidate-context",
+      "text": "Examples of models deployable with Truss"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "basetenlabs/truss-examples",
+      "status": "candidate-context",
+      "text": "[![Truss Examples CI](https://github.com/basetenlabs/truss-examples/actions/workflows/test-examples.yml/badge.svg)](https://github.com/basetenlabs/truss-examples/actions/workflows/test-examples.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "xinntao/BasicSR-examples",
+      "status": "candidate-context",
+      "text": "BasicSR-Examples illustrates how to easily use BasicSR in your own project"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "xinntao/BasicSR-examples",
+      "status": "candidate-context",
+      "text": "[![download](https://img.shields.io/github/downloads/xinntao/BasicSR-examples/total.svg)](https://github.com/xinntao/BasicSR-examples/releases)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "awsdocs/aws-doc-sdk-examples",
+      "status": "candidate-context",
+      "text": "Welcome to the AWS Code Examples Repository.  This repo contains code examples used in the AWS documentation, AWS SDK Developer Guides, and more. For more information, see the Readme.md file below."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "awsdocs/aws-doc-sdk-examples",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://github.com/aws/aws-sdk-ruby/workflows/CI/badge.svg)](https://github.com/awsdocs/aws-doc-sdk-examples/actions)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "eddelbuettel/littler",
+      "status": "candidate-context",
+      "text": "A scripting and command-line front-end for GNU R"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "eddelbuettel/littler",
+      "status": "candidate-context",
+      "text": "[![CI](https://github.com/eddelbuettel/littler/workflows/ci/badge.svg)](https://github.com/eddelbuettel/littler/actions?query=workflow%3Aci)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cloudwego/kitex-examples",
+      "status": "candidate-context",
+      "text": "Examples for Kitex."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cloudwego/kitex-examples",
+      "status": "candidate-context",
+      "text": "English | [\u4e2d\u6587](README_CN.md)"
     }
   ],
   "candidate_glosses": [
@@ -408,6 +480,42 @@
       "source_repo": "cryspen/hacl-packages",
       "status": "candidate",
       "text": "examples"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/trillian-examples",
+      "status": "candidate",
+      "text": "[![OpenSSF Scorecard](https://api.securityscorecards.dev/projects/github.com/google/trillian-examples/badge)](https://securityscorecards.dev/viewer/?uri=github.com/google/trillian-examples)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "basetenlabs/truss-examples",
+      "status": "candidate",
+      "text": "[![Truss Examples CI](https://github.com/basetenlabs/truss-examples/actions/workflows/test-examples.yml/badge.svg)](https://github.com/basetenlabs/truss-examples/actions/workflows/test-examples.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "xinntao/BasicSR-examples",
+      "status": "candidate",
+      "text": "[![download](https://img.shields.io/github/downloads/xinntao/BasicSR-examples/total.svg)](https://github.com/xinntao/BasicSR-examples/releases)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "awsdocs/aws-doc-sdk-examples",
+      "status": "candidate",
+      "text": "[![Build Status](https://github.com/aws/aws-sdk-ruby/workflows/CI/badge.svg)](https://github.com/awsdocs/aws-doc-sdk-examples/actions)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "eddelbuettel/littler",
+      "status": "candidate",
+      "text": "[![CI](https://github.com/eddelbuettel/littler/workflows/ci/badge.svg)](https://github.com/eddelbuettel/littler/actions?query=workflow%3Aci)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cloudwego/kitex-examples",
+      "status": "candidate",
+      "text": "English | [\u4e2d\u6587](README_CN.md)"
     }
   ],
   "candidate_related_terms": [
@@ -619,11 +727,59 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": ".github/workflows/examples.yml",
       "source_repo": "cryspen/hacl-packages"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "google/trillian-examples"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/examples.yml",
+      "source_repo": "pyg-team/pytorch_geometric"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "dwyl/mvp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "basetenlabs/truss-examples"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "xinntao/BasicSR-examples"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "awsdocs/aws-doc-sdk-examples"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "eddelbuettel/littler"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "cloudwego/kitex-examples"
     }
   ],
   "first_seen_at": "2026-04-18T10:38:37.562216+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

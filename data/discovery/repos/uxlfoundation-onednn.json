@@ -176,28 +176,28 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "uxlfoundation/oneDNN",
-      "target": "flashlight/flashlight",
+      "target": "intel/llvm",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "uxlfoundation/oneDNN",
-      "target": "arm-software/computelibrary",
+      "target": "intel/ittapi",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "uxlfoundation/oneDNN",
-      "target": "fujitsu/xbyak_aarch64",
+      "target": "khronosgroup/opencl-headers",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "uxlfoundation/oneDNN",
-      "target": "executablebooks/sphinx-copybutton",
+      "target": "intel/metrics-discovery",
       "target_type": "repository"
     },
     {
@@ -523,11 +523,11 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-23T04:27:53.717508+00:00",
+  "fetched_at": "2026-04-30T02:04:41.974960+00:00",
   "fetched_files": [
     {
       "path": "README.md",
-      "size": 22176
+      "size": 22169
     },
     {
       "path": "pyproject.toml",
@@ -575,8 +575,8 @@
     "full_name": "uxlfoundation/oneDNN",
     "html_url": "https://github.com/uxlfoundation/oneDNN",
     "language": "C++",
-    "pushed_at": "2026-04-23T04:22:40Z",
-    "stargazers_count": 3981,
+    "pushed_at": "2026-04-30T02:03:11Z",
+    "stargazers_count": 3985,
     "topics": [
       "aarch64",
       "amx",
@@ -597,27 +597,27 @@
       "x86-64",
       "xe-architecture"
     ],
-    "updated_at": "2026-04-22T17:45:53Z"
+    "updated_at": "2026-04-30T02:02:04Z"
   },
   "repo_links": [
     {
       "edge_type": "explicit-github-link",
-      "full_name": "arm-software/computelibrary",
+      "full_name": "intel/ittapi",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "executablebooks/sphinx-copybutton",
+      "full_name": "intel/llvm",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "flashlight/flashlight",
+      "full_name": "intel/metrics-discovery",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "fujitsu/xbyak_aarch64",
+      "full_name": "khronosgroup/opencl-headers",
       "source_file": "README.md"
     }
   ],

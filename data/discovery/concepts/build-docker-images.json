@@ -1,7 +1,8 @@
 {
   "aliases": [
     "Build Docker Images",
-    "Build docker images"
+    "Build docker images",
+    "Build Docker images"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -116,6 +117,18 @@
       "source_repo": "jaegertracing/jaeger",
       "status": "candidate-context",
       "text": "Build docker images"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "LukeMathWalker/cargo-chef",
+      "status": "candidate-context",
+      "text": "A cargo-subcommand to speed up Rust Docker builds using Docker layer caching."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "LukeMathWalker/cargo-chef",
+      "status": "candidate-context",
+      "text": "Build Docker images"
     }
   ],
   "candidate_glosses": [
@@ -172,6 +185,12 @@
       "source_repo": "jaegertracing/jaeger",
       "status": "candidate",
       "text": "Build docker images"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "LukeMathWalker/cargo-chef",
+      "status": "candidate",
+      "text": "Build Docker images"
     }
   ],
   "candidate_related_terms": [
@@ -275,11 +294,23 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": ".github/workflows/ci-docker-build.yml",
       "source_repo": "jaegertracing/jaeger"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/docker.yaml",
+      "source_repo": "php/frankenphp"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "LukeMathWalker/cargo-chef"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

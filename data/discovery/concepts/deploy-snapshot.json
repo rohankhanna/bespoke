@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Deploy Snapshot"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "detekt/detekt",
+      "status": "candidate-context",
+      "text": "Static code analysis for Kotlin"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "detekt/detekt",
+      "status": "candidate-context",
+      "text": "Deploy Snapshot"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "detekt/detekt",
+      "status": "candidate",
+      "text": "Deploy Snapshot"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10531,
+      "status": "candidate",
+      "text": "blur"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10531,
+      "status": "candidate",
+      "text": "brief"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10531,
+      "status": "candidate",
+      "text": "freeze"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10531,
+      "status": "candidate",
+      "text": "highlights"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10531,
+      "status": "candidate",
+      "text": "illustration"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Deploy Snapshot",
+  "concept_id": "deploy-snapshot",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/deploy-snapshot.yaml",
+      "source_repo": "detekt/detekt"
+    }
+  ],
+  "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Deploy Snapshot",
+      "sense_id": "deploy-snapshot#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

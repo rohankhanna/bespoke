@@ -235,6 +235,78 @@
       "source_repo": "prometheus/blackbox_exporter",
       "status": "candidate-context",
       "text": "[![CircleCI](https://circleci.com/gh/prometheus/blackbox_exporter/tree/master.svg?style=shield)][circleci]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "prometheus-community/windows_exporter",
+      "status": "candidate-context",
+      "text": "Prometheus exporter for Windows machines"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "prometheus-community/windows_exporter",
+      "status": "candidate-context",
+      "text": "[![CI](https://github.com/prometheus-community/windows_exporter/actions/workflows/release.yml/badge.svg)](https://github.com/prometheus-community/windows_exporter)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "prometheus/exporter-toolkit",
+      "status": "candidate-context",
+      "text": "Utility package to build exporters"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "prometheus/exporter-toolkit",
+      "status": "candidate-context",
+      "text": "[![CircleCI](https://circleci.com/gh/prometheus/exporter-toolkit/tree/master.svg?style=shield)][circleci]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "grafana/jsonnet-libs",
+      "status": "candidate-context",
+      "text": "Grafana Labs' Jsonnet libraries"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "grafana/jsonnet-libs",
+      "status": "candidate-context",
+      "text": "This repository contains various Jsonnet libraries we use at Grafana Labs:"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "opencost/opencost-helm-chart",
+      "status": "candidate-context",
+      "text": "OpenCost Helm chart "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "opencost/opencost-helm-chart",
+      "status": "candidate-context",
+      "text": "[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "GreptimeTeam/greptimedb",
+      "status": "candidate-context",
+      "text": "The open-source Observability 2.0 database. One engine for metrics, logs, and traces \u2014 replacing Prometheus, Loki & ES."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "GreptimeTeam/greptimedb",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cloudflare/pint",
+      "status": "candidate-context",
+      "text": "Prometheus rule linter/validator"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cloudflare/pint",
+      "status": "candidate-context",
+      "text": "---"
     }
   ],
   "candidate_glosses": [
@@ -351,6 +423,42 @@
       "source_repo": "prometheus/blackbox_exporter",
       "status": "candidate",
       "text": "[![CircleCI](https://circleci.com/gh/prometheus/blackbox_exporter/tree/master.svg?style=shield)][circleci]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "prometheus-community/windows_exporter",
+      "status": "candidate",
+      "text": "[![CI](https://github.com/prometheus-community/windows_exporter/actions/workflows/release.yml/badge.svg)](https://github.com/prometheus-community/windows_exporter)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "prometheus/exporter-toolkit",
+      "status": "candidate",
+      "text": "[![CircleCI](https://circleci.com/gh/prometheus/exporter-toolkit/tree/master.svg?style=shield)][circleci]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "grafana/jsonnet-libs",
+      "status": "candidate",
+      "text": "This repository contains various Jsonnet libraries we use at Grafana Labs:"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "opencost/opencost-helm-chart",
+      "status": "candidate",
+      "text": "[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "GreptimeTeam/greptimedb",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cloudflare/pint",
+      "status": "candidate",
+      "text": "---"
     }
   ],
   "candidate_related_terms": [
@@ -508,11 +616,59 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "prometheus/blackbox_exporter"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "prometheus-community/windows_exporter"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "prometheus/exporter-toolkit"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "prometheus-operator/kube-prometheus"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "grafana/jsonnet-libs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "opencost/opencost-helm-chart"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "jina-ai/serve"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "GreptimeTeam/greptimedb"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "cloudflare/pint"
     }
   ],
   "first_seen_at": "2026-04-20T03:16:48.146869+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Static code analysis for Kotlin"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Deploy Snapshot"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Deploy Snapshot"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10531,
+      "status": "candidate",
+      "text": "blur"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10531,
+      "status": "candidate",
+      "text": "brief"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10531,
+      "status": "candidate",
+      "text": "freeze"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10531,
+      "status": "candidate",
+      "text": "highlights"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10531,
+      "status": "candidate",
+      "text": "illustration"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Deploy Snapshot",
+      "sense_id": "deploy-snapshot#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "deploy-snapshot",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "deploy-snapshot",
+  "observation_id": "67d307337cdb1782",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-30T00:37:16.824464+00:00",
+  "observed_text": "Deploy Snapshot",
+  "source_context_snippet": "Deploy Snapshot",
+  "source_file": ".github/workflows/deploy-snapshot.yaml",
+  "source_repo": "detekt/detekt",
+  "source_repo_description": "Static code analysis for Kotlin"
+}

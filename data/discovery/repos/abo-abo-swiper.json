@@ -1,0 +1,143 @@
+{
+  "components": [
+    {
+      "component": "purcell/setup-emacs@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "abo-abo/swiper",
+      "target": "abo-abo/swiper-helm",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "abo-abo/swiper",
+      "target": "purcell/setup-emacs@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "abo-abo/swiper",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "abo-abo/swiper",
+      "target": "completion",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "abo-abo/swiper",
+      "target": "counsel",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "abo-abo/swiper",
+      "target": "emacs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "abo-abo/swiper",
+      "target": "search",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "abo-abo/swiper",
+      "target": "swiper",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T02:02:51.387091+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8385
+    },
+    {
+      "path": ".github/workflows/test.yml",
+      "size": 1156
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Ivy - a generic completion frontend for Emacs, Swiper - isearch with an overview, and more. Oh, man!",
+    "fork": false,
+    "full_name": "abo-abo/swiper",
+    "html_url": "https://github.com/abo-abo/swiper",
+    "language": "Emacs Lisp",
+    "pushed_at": "2026-04-13T21:02:58Z",
+    "stargazers_count": 2411,
+    "topics": [
+      "completion",
+      "counsel",
+      "emacs",
+      "ivy",
+      "search",
+      "swiper"
+    ],
+    "updated_at": "2026-04-29T10:28:04Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "abo-abo/swiper-helm",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[![CI build badge][ci-badge]][ci]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "completion"
+    },
+    {
+      "context_snippet": "[![CI build badge][ci-badge]][ci]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "counsel"
+    },
+    {
+      "context_snippet": "[![CI build badge][ci-badge]][ci]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "emacs"
+    },
+    {
+      "context_snippet": "[![CI build badge][ci-badge]][ci]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "search"
+    },
+    {
+      "context_snippet": "[![CI build badge][ci-badge]][ci]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "swiper"
+    }
+  ]
+}

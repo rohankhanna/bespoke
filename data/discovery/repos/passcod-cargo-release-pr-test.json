@@ -1,0 +1,177 @@
+{
+  "components": [
+    {
+      "component": "cargo-bins/release-meta@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/onrelease.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/onrelease.yml"
+    },
+    {
+      "component": "cargo-bins/release-rust@v0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/onrelease.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-dispatch.yml"
+    },
+    {
+      "component": "cargo-bins/release-rust@v0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-dispatch.yml"
+    },
+    {
+      "component": "taiki-e/install-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "cargo-bins/release-pr@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/onrelease.yml",
+      "source_repo": "passcod/cargo-release-pr-test",
+      "target": "cargo-bins/release-meta@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/onrelease.yml",
+      "source_repo": "passcod/cargo-release-pr-test",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/onrelease.yml",
+      "source_repo": "passcod/cargo-release-pr-test",
+      "target": "cargo-bins/release-rust@v0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/onrelease.yml",
+      "source_repo": "passcod/cargo-release-pr-test",
+      "target": "Release a crate",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-dispatch.yml",
+      "source_repo": "passcod/cargo-release-pr-test",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-dispatch.yml",
+      "source_repo": "passcod/cargo-release-pr-test",
+      "target": "cargo-bins/release-rust@v0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-dispatch.yml",
+      "source_repo": "passcod/cargo-release-pr-test",
+      "target": "Test release-rust",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "passcod/cargo-release-pr-test",
+      "target": "taiki-e/install-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "passcod/cargo-release-pr-test",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "passcod/cargo-release-pr-test",
+      "target": "cargo-bins/release-pr@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "passcod/cargo-release-pr-test",
+      "target": "Open a release PR",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T04:47:49.418396+00:00",
+  "fetched_files": [
+    {
+      "path": "Cargo.toml",
+      "size": 511
+    },
+    {
+      "path": ".github/workflows/onrelease.yml",
+      "size": 1371
+    },
+    {
+      "path": ".github/workflows/release-dispatch.yml",
+      "size": 802
+    },
+    {
+      "path": ".github/workflows/test.yml",
+      "size": 1144
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "passcod/cargo-release-pr-test",
+    "html_url": "https://github.com/passcod/cargo-release-pr-test",
+    "language": "Rust",
+    "pushed_at": "2023-02-19T00:12:41Z",
+    "stargazers_count": 0,
+    "topics": [],
+    "updated_at": "2022-09-04T06:20:58Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Release a crate",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/onrelease.yml",
+      "term": "Release a crate"
+    },
+    {
+      "context_snippet": "Test release-rust",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-dispatch.yml",
+      "term": "Test release-rust"
+    },
+    {
+      "context_snippet": "Open a release PR",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "term": "Open a release PR"
+    }
+  ]
+}

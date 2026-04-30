@@ -1,0 +1,184 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/setup-node@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "whatwg/streams",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "whatwg/streams",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "whatwg/streams",
+      "target": "Build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "whatwg/streams",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "whatwg/streams",
+      "target": "actions/setup-node@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "whatwg/streams",
+      "target": "Test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "whatwg/streams",
+      "target": "standard",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "whatwg/streams",
+      "target": "stream",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "whatwg/streams",
+      "target": "streams-standard",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "whatwg/streams",
+      "target": "web-standards",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "whatwg/streams",
+      "target": "whatwg",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T01:40:18.316221+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2147
+    },
+    {
+      "path": ".github/workflows/build.yml",
+      "size": 639
+    },
+    {
+      "path": ".github/workflows/test.yml",
+      "size": 416
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Streams Standard",
+    "fork": false,
+    "full_name": "whatwg/streams",
+    "html_url": "https://github.com/whatwg/streams",
+    "language": "HTML",
+    "pushed_at": "2026-04-25T13:12:23Z",
+    "stargazers_count": 1405,
+    "topics": [
+      "javascript",
+      "standard",
+      "stream",
+      "streams-standard",
+      "web-standards",
+      "whatwg"
+    ],
+    "updated_at": "2026-04-27T17:46:31Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "term": "Build"
+    },
+    {
+      "context_snippet": "Test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "term": "Test"
+    },
+    {
+      "context_snippet": "This repository hosts the [Streams Standard](https://streams.spec.whatwg.org/).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "standard"
+    },
+    {
+      "context_snippet": "This repository hosts the [Streams Standard](https://streams.spec.whatwg.org/).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "stream"
+    },
+    {
+      "context_snippet": "This repository hosts the [Streams Standard](https://streams.spec.whatwg.org/).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "streams-standard"
+    },
+    {
+      "context_snippet": "This repository hosts the [Streams Standard](https://streams.spec.whatwg.org/).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "web-standards"
+    },
+    {
+      "context_snippet": "This repository hosts the [Streams Standard](https://streams.spec.whatwg.org/).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "whatwg"
+    }
+  ]
+}

@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "The etcd-cpp-apiv3 is a C++ library for etcd's v3 client APIs, i.e., ETCDCTL_API=3."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Build Deb Package"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Build Deb Package"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 23157,
+      "status": "candidate",
+      "text": "ball"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22477,
+      "status": "candidate",
+      "text": "atom"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22477,
+      "status": "candidate",
+      "text": "banner"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22477,
+      "status": "candidate",
+      "text": "glean"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22418,
+      "status": "candidate",
+      "text": "one"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Build Deb Package",
+      "sense_id": "build-deb-package#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "build-deb-package",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "build-deb-package",
+  "observation_id": "66e0bf211c854b07",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-30T00:37:16.824464+00:00",
+  "observed_text": "Build Deb Package",
+  "source_context_snippet": "Build Deb Package",
+  "source_file": ".github/workflows/build-deb-package.yml",
+  "source_repo": "etcd-cpp-apiv3/etcd-cpp-apiv3",
+  "source_repo_description": "The etcd-cpp-apiv3 is a C++ library for etcd's v3 client APIs, i.e., ETCDCTL_API=3."
+}

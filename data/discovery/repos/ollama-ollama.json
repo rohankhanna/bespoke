@@ -251,7 +251,14 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "ollama/ollama",
-      "target": "aws-samples/swift-chat",
+      "target": "bionic-gpt/bionic-gpt",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ollama/ollama",
+      "target": "bin-huang/chatbox",
       "target_type": "repository"
     },
     {
@@ -265,14 +272,7 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "ollama/ollama",
-      "target": "bernardo-bruning/ollama-copilot",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "ollama/ollama",
-      "target": "awaescher/ollamasharp",
+      "target": "brainlid/langchain",
       "target_type": "repository"
     },
     {
@@ -549,7 +549,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-29T21:02:41.770765+00:00",
+  "fetched_at": "2026-04-30T03:01:52.112236+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -589,8 +589,8 @@
     "full_name": "ollama/ollama",
     "html_url": "https://github.com/ollama/ollama",
     "language": "Go",
-    "pushed_at": "2026-04-29T20:57:33Z",
-    "stargazers_count": 170331,
+    "pushed_at": "2026-04-30T01:42:16Z",
+    "stargazers_count": 170345,
     "topics": [
       "deepseek",
       "gemma",
@@ -608,7 +608,7 @@
       "ollama",
       "qwen"
     ],
-    "updated_at": "2026-04-29T20:33:48Z"
+    "updated_at": "2026-04-30T02:59:04Z"
   },
   "repo_links": [
     {
@@ -618,17 +618,17 @@
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "awaescher/ollamasharp",
+      "full_name": "bin-huang/chatbox",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "aws-samples/swift-chat",
+      "full_name": "bionic-gpt/bionic-gpt",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "bernardo-bruning/ollama-copilot",
+      "full_name": "brainlid/langchain",
       "source_file": "README.md"
     }
   ],

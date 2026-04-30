@@ -1,7 +1,7 @@
 {
   "component": "Homebrew/actions/setup-homebrew@master",
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -67,6 +67,11 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/upload-celocli-executables.yml",
       "source_repo": "celo-org/developer-tooling"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "Justintime50/homebrew-releaser"
     }
   ]
 }

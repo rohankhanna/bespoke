@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "smith-waterman"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Martinsos/opal",
+      "status": "candidate-context",
+      "text": "SIMD C/C++ library for massive optimal sequence alignment (local/SW, infix, overlap, global)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Martinsos/opal",
+      "status": "candidate-context",
+      "text": "*This work has been supported in part by Croatian Science Fundation under the project UIP-11-2013-7353.*"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Martinsos/opal",
+      "status": "candidate",
+      "text": "*This work has been supported in part by Croatian Science Fundation under the project UIP-11-2013-7353.*"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "smith-waterman",
+  "concept_id": "smith-waterman",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "Martinsos/opal"
+    }
+  ],
+  "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "smith-waterman",
+      "sense_id": "smith-waterman#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

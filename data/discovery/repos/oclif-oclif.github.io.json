@@ -1,0 +1,227 @@
+{
+  "components": [
+    {
+      "component": "@oclif/prettier-config",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "salesforcecli/github-workflows/.github/workflows/automerge.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/automerge.yml"
+    },
+    {
+      "component": "slackapi/slack-github-action@v1.26.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/failureNotifications.yml"
+    },
+    {
+      "component": "salesforcecli/github-workflows/.github/actions/prNotification@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/notify-slack-on-pr-open.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/onPushToDocs.yml"
+    },
+    {
+      "component": "actions/setup-node@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/onPushToDocs.yml"
+    },
+    {
+      "component": "salesforcecli/github-workflows/.github/actions/getGithubUserInfo@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/onPushToDocs.yml"
+    },
+    {
+      "component": "salesforcecli/github-workflows/.github/actions/gitConfig@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/onPushToDocs.yml"
+    },
+    {
+      "component": "actions/stale@v9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stale.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "oclif/oclif.github.io",
+      "target": "@oclif/prettier-config",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/automerge.yml",
+      "source_repo": "oclif/oclif.github.io",
+      "target": "salesforcecli/github-workflows/.github/workflows/automerge.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/automerge.yml",
+      "source_repo": "oclif/oclif.github.io",
+      "target": "automerge",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/failureNotifications.yml",
+      "source_repo": "oclif/oclif.github.io",
+      "target": "slackapi/slack-github-action@v1.26.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/failureNotifications.yml",
+      "source_repo": "oclif/oclif.github.io",
+      "target": "failureNotifications",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/notify-slack-on-pr-open.yml",
+      "source_repo": "oclif/oclif.github.io",
+      "target": "salesforcecli/github-workflows/.github/actions/prNotification@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/notify-slack-on-pr-open.yml",
+      "source_repo": "oclif/oclif.github.io",
+      "target": "Pull Request Slack Notification",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/onPushToDocs.yml",
+      "source_repo": "oclif/oclif.github.io",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/onPushToDocs.yml",
+      "source_repo": "oclif/oclif.github.io",
+      "target": "actions/setup-node@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/onPushToDocs.yml",
+      "source_repo": "oclif/oclif.github.io",
+      "target": "salesforcecli/github-workflows/.github/actions/getGithubUserInfo@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/onPushToDocs.yml",
+      "source_repo": "oclif/oclif.github.io",
+      "target": "salesforcecli/github-workflows/.github/actions/gitConfig@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/onPushToDocs.yml",
+      "source_repo": "oclif/oclif.github.io",
+      "target": "build-docs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "oclif/oclif.github.io",
+      "target": "actions/stale@v9",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "oclif/oclif.github.io",
+      "target": "Close stale issues",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T04:02:28.814278+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 188
+    },
+    {
+      "path": "package.json",
+      "size": 70
+    },
+    {
+      "path": ".github/workflows/automerge.yml",
+      "size": 268
+    },
+    {
+      "path": ".github/workflows/failureNotifications.yml",
+      "size": 1439
+    },
+    {
+      "path": ".github/workflows/notify-slack-on-pr-open.yml",
+      "size": 1038
+    },
+    {
+      "path": ".github/workflows/onPushToDocs.yml",
+      "size": 1244
+    },
+    {
+      "path": ".github/workflows/stale.yml",
+      "size": 622
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "docs",
+    "description": "docs for oclif",
+    "fork": false,
+    "full_name": "oclif/oclif.github.io",
+    "html_url": "https://github.com/oclif/oclif.github.io",
+    "language": "JavaScript",
+    "pushed_at": "2026-04-25T05:00:14Z",
+    "stargazers_count": 12,
+    "topics": [],
+    "updated_at": "2026-04-25T04:59:19Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "automerge",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/automerge.yml",
+      "term": "automerge"
+    },
+    {
+      "context_snippet": "failureNotifications",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/failureNotifications.yml",
+      "term": "failureNotifications"
+    },
+    {
+      "context_snippet": "Pull Request Slack Notification",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/notify-slack-on-pr-open.yml",
+      "term": "Pull Request Slack Notification"
+    },
+    {
+      "context_snippet": "build-docs",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/onPushToDocs.yml",
+      "term": "build-docs"
+    },
+    {
+      "context_snippet": "'Close stale issues'",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/stale.yml",
+      "term": "Close stale issues"
+    }
+  ]
+}

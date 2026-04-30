@@ -1,0 +1,310 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dependency-review.yml"
+    },
+    {
+      "component": "actions/dependency-review-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dependency-review.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "OFA-Sys/Chinese-CLIP",
+      "target": "hazyresearch/flash-attention",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "OFA-Sys/Chinese-CLIP",
+      "target": "li-xirong/cross-lingual-cap",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "OFA-Sys/Chinese-CLIP",
+      "target": "li-xirong/coco-cn",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dependency-review.yml",
+      "source_repo": "OFA-Sys/Chinese-CLIP",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dependency-review.yml",
+      "source_repo": "OFA-Sys/Chinese-CLIP",
+      "target": "actions/dependency-review-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/dependency-review.yml",
+      "source_repo": "OFA-Sys/Chinese-CLIP",
+      "target": "Dependency Review",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "OFA-Sys/Chinese-CLIP",
+      "target": "chinese",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "OFA-Sys/Chinese-CLIP",
+      "target": "clip",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "OFA-Sys/Chinese-CLIP",
+      "target": "computer-vision",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "OFA-Sys/Chinese-CLIP",
+      "target": "contrastive-loss",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "OFA-Sys/Chinese-CLIP",
+      "target": "coreml-models",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "OFA-Sys/Chinese-CLIP",
+      "target": "deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "OFA-Sys/Chinese-CLIP",
+      "target": "image-text-retrieval",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "OFA-Sys/Chinese-CLIP",
+      "target": "multi-modal",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "OFA-Sys/Chinese-CLIP",
+      "target": "multi-modal-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "OFA-Sys/Chinese-CLIP",
+      "target": "pretrained-models",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "OFA-Sys/Chinese-CLIP",
+      "target": "pytorch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "OFA-Sys/Chinese-CLIP",
+      "target": "transformers",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "OFA-Sys/Chinese-CLIP",
+      "target": "vision-and-language-pre-training",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "OFA-Sys/Chinese-CLIP",
+      "target": "vision-language",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T02:42:59.847728+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 26895
+    },
+    {
+      "path": "requirements.txt",
+      "size": 56
+    },
+    {
+      "path": ".github/workflows/dependency-review.yml",
+      "size": 885
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Chinese version of CLIP which achieves Chinese cross-modal retrieval and representation generation.",
+    "fork": false,
+    "full_name": "OFA-Sys/Chinese-CLIP",
+    "html_url": "https://github.com/OFA-Sys/Chinese-CLIP",
+    "language": "Jupyter Notebook",
+    "pushed_at": "2026-03-31T13:27:44Z",
+    "stargazers_count": 5885,
+    "topics": [
+      "chinese",
+      "clip",
+      "computer-vision",
+      "contrastive-loss",
+      "coreml-models",
+      "deep-learning",
+      "image-text-retrieval",
+      "multi-modal",
+      "multi-modal-learning",
+      "nlp",
+      "pretrained-models",
+      "pytorch",
+      "transformers",
+      "vision-and-language-pre-training",
+      "vision-language"
+    ],
+    "updated_at": "2026-04-30T01:14:22Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "hazyresearch/flash-attention",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "li-xirong/coco-cn",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "li-xirong/cross-lingual-cap",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "'Dependency Review'",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/dependency-review.yml",
+      "term": "Dependency Review"
+    },
+    {
+      "context_snippet": "[**\u4e2d\u6587\u8bf4\u660e**](README.md) | [**English**](README_En.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "chinese"
+    },
+    {
+      "context_snippet": "[**\u4e2d\u6587\u8bf4\u660e**](README.md) | [**English**](README_En.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "clip"
+    },
+    {
+      "context_snippet": "[**\u4e2d\u6587\u8bf4\u660e**](README.md) | [**English**](README_En.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "computer-vision"
+    },
+    {
+      "context_snippet": "[**\u4e2d\u6587\u8bf4\u660e**](README.md) | [**English**](README_En.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "contrastive-loss"
+    },
+    {
+      "context_snippet": "[**\u4e2d\u6587\u8bf4\u660e**](README.md) | [**English**](README_En.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "coreml-models"
+    },
+    {
+      "context_snippet": "[**\u4e2d\u6587\u8bf4\u660e**](README.md) | [**English**](README_En.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-learning"
+    },
+    {
+      "context_snippet": "[**\u4e2d\u6587\u8bf4\u660e**](README.md) | [**English**](README_En.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "image-text-retrieval"
+    },
+    {
+      "context_snippet": "[**\u4e2d\u6587\u8bf4\u660e**](README.md) | [**English**](README_En.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "multi-modal"
+    },
+    {
+      "context_snippet": "[**\u4e2d\u6587\u8bf4\u660e**](README.md) | [**English**](README_En.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "multi-modal-learning"
+    },
+    {
+      "context_snippet": "[**\u4e2d\u6587\u8bf4\u660e**](README.md) | [**English**](README_En.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pretrained-models"
+    },
+    {
+      "context_snippet": "[**\u4e2d\u6587\u8bf4\u660e**](README.md) | [**English**](README_En.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytorch"
+    },
+    {
+      "context_snippet": "[**\u4e2d\u6587\u8bf4\u660e**](README.md) | [**English**](README_En.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "transformers"
+    },
+    {
+      "context_snippet": "[**\u4e2d\u6587\u8bf4\u660e**](README.md) | [**English**](README_En.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vision-and-language-pre-training"
+    },
+    {
+      "context_snippet": "[**\u4e2d\u6587\u8bf4\u660e**](README.md) | [**English**](README_En.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vision-language"
+    }
+  ]
+}

@@ -19,6 +19,30 @@
       "source_repo": "open-mmlab/mmagic",
       "status": "candidate-context",
       "text": "<div id=\"top\" align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "fnzhan/MoNCE",
+      "status": "candidate-context",
+      "text": "[CVPR 2022] Modulated Contrast for Versatile Image Synthesis"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fnzhan/MoNCE",
+      "status": "candidate-context",
+      "text": "![Teaser](teaser.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "LiheYoung/Depth-Anything",
+      "status": "candidate-context",
+      "text": "[CVPR 2024] Depth Anything: Unleashing the Power of Large-Scale Unlabeled Data. Foundation Model for Monocular Depth Estimation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "LiheYoung/Depth-Anything",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +51,18 @@
       "source_repo": "open-mmlab/mmagic",
       "status": "candidate",
       "text": "<div id=\"top\" align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fnzhan/MoNCE",
+      "status": "candidate",
+      "text": "![Teaser](teaser.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "LiheYoung/Depth-Anything",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_related_terms": [],
@@ -58,11 +94,29 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "open-mmlab/mmagic"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "fnzhan/MoNCE"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "open-mmlab/mmagic"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "LiheYoung/Depth-Anything"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

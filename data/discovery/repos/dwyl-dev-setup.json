@@ -1,0 +1,67 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dwyl/dev-setup",
+      "target": "development",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dwyl/dev-setup",
+      "target": "development-environment",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dwyl/dev-setup",
+      "target": "github",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T02:54:13.969576+00:00",
+  "fetched_files": [],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "\u2708\ufe0f A quick-start guide for new engineers on how to set up their Dev environment",
+    "fork": false,
+    "full_name": "dwyl/dev-setup",
+    "html_url": "https://github.com/dwyl/dev-setup",
+    "language": null,
+    "pushed_at": "2024-10-02T13:42:13Z",
+    "stargazers_count": 84,
+    "topics": [
+      "development",
+      "development-environment",
+      "github"
+    ],
+    "updated_at": "2026-04-07T19:09:43Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "\u2708\ufe0f A quick-start guide for new engineers on how to set up their Dev environment",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "development"
+    },
+    {
+      "context_snippet": "\u2708\ufe0f A quick-start guide for new engineers on how to set up their Dev environment",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "development-environment"
+    },
+    {
+      "context_snippet": "\u2708\ufe0f A quick-start guide for new engineers on how to set up their Dev environment",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "github"
+    }
+  ]
+}

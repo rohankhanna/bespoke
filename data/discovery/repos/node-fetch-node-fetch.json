@@ -141,21 +141,7 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "node-fetch/node-fetch",
-      "target": "sindresorhus/awesome-nodejs",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "node-fetch/node-fetch",
       "target": "github/fetch",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "node-fetch/node-fetch",
-      "target": "lquixada/cross-fetch",
       "target_type": "repository"
     },
     {
@@ -432,7 +418,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-24T09:12:18.258170+00:00",
+  "fetched_at": "2026-04-30T01:47:51.180965+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -483,22 +469,12 @@
       "whatwg",
       "whatwg-fetch"
     ],
-    "updated_at": "2026-04-24T04:42:55Z"
+    "updated_at": "2026-04-27T20:39:46Z"
   },
   "repo_links": [
     {
       "edge_type": "explicit-github-link",
       "full_name": "github/fetch",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "lquixada/cross-fetch",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "sindresorhus/awesome-nodejs",
       "source_file": "README.md"
     }
   ],

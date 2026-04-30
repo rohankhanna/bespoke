@@ -4,6 +4,13 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "lambdalisue/vim-fern",
+      "target": "lambdalisue/nerdfont.vim",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "lambdalisue/vim-fern",
       "target": "lambdalisue/glyph-palette.vim",
       "target_type": "repository"
     },
@@ -19,13 +26,6 @@
       "source_file": "README.md",
       "source_repo": "lambdalisue/vim-fern",
       "target": "lambdalisue/fern-git-status.vim",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "lambdalisue/vim-fern",
-      "target": "antoinemadec/fixcursorhold.nvim",
       "target_type": "repository"
     },
     {
@@ -162,6 +162,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-04-24T06:47:13.899148+00:00",
+  "generated_at": "2026-04-30T00:37:16.824464+00:00",
   "source_repo": "lambdalisue/vim-fern"
 }

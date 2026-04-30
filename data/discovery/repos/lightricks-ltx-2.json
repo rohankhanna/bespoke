@@ -1,0 +1,63 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Lightricks/LTX-2",
+      "target": "generative-ai",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Lightricks/LTX-2",
+      "target": "ltx-2",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T03:56:17.831224+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 12330
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 1577
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Official Python inference and LoRA trainer package for the LTX-2 audio\u2013video generative model.",
+    "fork": false,
+    "full_name": "Lightricks/LTX-2",
+    "html_url": "https://github.com/Lightricks/LTX-2",
+    "language": "Python",
+    "pushed_at": "2026-04-23T13:02:43Z",
+    "stargazers_count": 6191,
+    "topics": [
+      "generative-ai",
+      "ltx",
+      "ltx-2"
+    ],
+    "updated_at": "2026-04-30T02:34:49Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "[![Website](https://img.shields.io/badge/Website-LTX-181717?logo=google-chrome)](https://ltx.io)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "generative-ai"
+    },
+    {
+      "context_snippet": "[![Website](https://img.shields.io/badge/Website-LTX-181717?logo=google-chrome)](https://ltx.io)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ltx-2"
+    }
+  ]
+}

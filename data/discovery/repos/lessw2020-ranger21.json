@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "lessw2020/Ranger21",
+      "target": "nestordemeure/flaxoptimizers",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T02:03:32.263284+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 17938
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Ranger deep learning optimizer rewrite to use newest components ",
+    "fork": false,
+    "full_name": "lessw2020/Ranger21",
+    "html_url": "https://github.com/lessw2020/Ranger21",
+    "language": "Python",
+    "pushed_at": "2026-03-17T21:42:46Z",
+    "stargazers_count": 342,
+    "topics": [],
+    "updated_at": "2026-04-16T20:15:51Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "nestordemeure/flaxoptimizers",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

@@ -1,0 +1,370 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@stable",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "taiki-e/install-action@a1df9120380005ebdc788c62449b841b205541dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverage.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverage.yml"
+    },
+    {
+      "component": "codecov/codecov-action@57e3a136b779b570ffcdbf80b3bdc90e7fab3de2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverage.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deny.yml"
+    },
+    {
+      "component": "EmbarkStudios/cargo-deny-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deny.yml"
+    },
+    {
+      "component": "ipdxco/unified-github-workflows/.github/workflows/release-check.yml@v1.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-check.yml"
+    },
+    {
+      "component": "ipdxco/unified-github-workflows/.github/workflows/releaser.yml@v1.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/releaser.yml"
+    },
+    {
+      "component": "ipdxco/unified-github-workflows/.github/workflows/releaser.yml@v1.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/releaser.yml"
+    },
+    {
+      "component": "ipdxco/unified-github-workflows/.github/workflows/tagpush.yml@v1.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tagpush.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/upload-release-assets.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "filecoin-project/builtin-actors",
+      "target": "filecoin-project/fips",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "filecoin-project/builtin-actors",
+      "target": "filecoin-project/ref-fvm",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "filecoin-project/builtin-actors",
+      "target": "filecoin-project/specs-actors",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "Cargo.toml",
+      "source_repo": "filecoin-project/builtin-actors",
+      "target": "filecoin-project/actors-utils",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "filecoin-project/builtin-actors",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "filecoin-project/builtin-actors",
+      "target": "dtolnay/rust-toolchain@stable",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "filecoin-project/builtin-actors",
+      "target": "taiki-e/install-action@a1df9120380005ebdc788c62449b841b205541dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "filecoin-project/builtin-actors",
+      "target": "Continuous integration",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverage.yml",
+      "source_repo": "filecoin-project/builtin-actors",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverage.yml",
+      "source_repo": "filecoin-project/builtin-actors",
+      "target": "actions/upload-artifact@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverage.yml",
+      "source_repo": "filecoin-project/builtin-actors",
+      "target": "codecov/codecov-action@57e3a136b779b570ffcdbf80b3bdc90e7fab3de2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/coverage.yml",
+      "source_repo": "filecoin-project/builtin-actors",
+      "target": "Coverage",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deny.yml",
+      "source_repo": "filecoin-project/builtin-actors",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deny.yml",
+      "source_repo": "filecoin-project/builtin-actors",
+      "target": "EmbarkStudios/cargo-deny-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deny.yml",
+      "source_repo": "filecoin-project/builtin-actors",
+      "target": "Cargo Deny",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-check.yml",
+      "source_repo": "filecoin-project/builtin-actors",
+      "target": "ipdxco/unified-github-workflows/.github/workflows/release-check.yml@v1.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-check.yml",
+      "source_repo": "filecoin-project/builtin-actors",
+      "target": "Release Checker",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/releaser.yml",
+      "source_repo": "filecoin-project/builtin-actors",
+      "target": "ipdxco/unified-github-workflows/.github/workflows/releaser.yml@v1.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/releaser.yml",
+      "source_repo": "filecoin-project/builtin-actors",
+      "target": "Releaser",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tagpush.yml",
+      "source_repo": "filecoin-project/builtin-actors",
+      "target": "ipdxco/unified-github-workflows/.github/workflows/tagpush.yml@v1.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/tagpush.yml",
+      "source_repo": "filecoin-project/builtin-actors",
+      "target": "Tag Push Checker",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/upload-release-assets.yml",
+      "source_repo": "filecoin-project/builtin-actors",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/upload-release-assets.yml",
+      "source_repo": "filecoin-project/builtin-actors",
+      "target": "Upload Release Assets",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T02:52:25.950554+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6871
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 8336
+    },
+    {
+      "path": "Dockerfile",
+      "size": 612
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 1692
+    },
+    {
+      "path": ".github/workflows/coverage.yml",
+      "size": 2493
+    },
+    {
+      "path": ".github/workflows/deny.yml",
+      "size": 456
+    },
+    {
+      "path": ".github/workflows/release-check.yml",
+      "size": 495
+    },
+    {
+      "path": ".github/workflows/releaser.yml",
+      "size": 1147
+    },
+    {
+      "path": ".github/workflows/tagpush.yml",
+      "size": 291
+    },
+    {
+      "path": ".github/workflows/upload-release-assets.yml",
+      "size": 1483
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "The Filecoin built-in actors",
+    "fork": false,
+    "full_name": "filecoin-project/builtin-actors",
+    "html_url": "https://github.com/filecoin-project/builtin-actors",
+    "language": "Rust",
+    "pushed_at": "2026-04-28T21:31:16Z",
+    "stargazers_count": 93,
+    "topics": [],
+    "updated_at": "2026-04-28T09:21:03Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "filecoin-project/fips",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "filecoin-project/ref-fvm",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "filecoin-project/specs-actors",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "filecoin-project/actors-utils",
+      "source_file": "Cargo.toml"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Continuous integration",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "term": "Continuous integration"
+    },
+    {
+      "context_snippet": "Coverage",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/coverage.yml",
+      "term": "Coverage"
+    },
+    {
+      "context_snippet": "Cargo Deny",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deny.yml",
+      "term": "Cargo Deny"
+    },
+    {
+      "context_snippet": "Release Checker",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-check.yml",
+      "term": "Release Checker"
+    },
+    {
+      "context_snippet": "Releaser",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/releaser.yml",
+      "term": "Releaser"
+    },
+    {
+      "context_snippet": "Tag Push Checker",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/tagpush.yml",
+      "term": "Tag Push Checker"
+    },
+    {
+      "context_snippet": "Upload Release Assets",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/upload-release-assets.yml",
+      "term": "Upload Release Assets"
+    }
+  ]
+}

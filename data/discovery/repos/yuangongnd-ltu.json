@@ -1,0 +1,100 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "YuanGongND/ltu",
+      "target": "audio",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "YuanGongND/ltu",
+      "target": "audio-processing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "YuanGongND/ltu",
+      "target": "deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "YuanGongND/ltu",
+      "target": "large-language-models",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "YuanGongND/ltu",
+      "target": "speech-recognition",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T02:44:49.674921+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 26702
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Code, Dataset, and Pretrained Models for Audio and Speech Large Language Model \"Listen, Think, and Understand\".",
+    "fork": false,
+    "full_name": "YuanGongND/ltu",
+    "html_url": "https://github.com/YuanGongND/ltu",
+    "language": "Python",
+    "pushed_at": "2024-04-24T04:21:47Z",
+    "stargazers_count": 472,
+    "topics": [
+      "audio",
+      "audio-processing",
+      "deep-learning",
+      "large-language-models",
+      "speech-recognition"
+    ],
+    "updated_at": "2026-04-11T07:19:23Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "- [Introduction](#introduction)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "audio"
+    },
+    {
+      "context_snippet": "- [Introduction](#introduction)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "audio-processing"
+    },
+    {
+      "context_snippet": "- [Introduction](#introduction)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-learning"
+    },
+    {
+      "context_snippet": "- [Introduction](#introduction)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "large-language-models"
+    },
+    {
+      "context_snippet": "- [Introduction](#introduction)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "speech-recognition"
+    }
+  ]
+}

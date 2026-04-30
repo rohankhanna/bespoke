@@ -43,6 +43,42 @@
       "source_repo": "athos/trenchman",
       "status": "candidate-context",
       "text": "[![release](https://github.com/athos/trenchman/actions/workflows/release.yaml/badge.svg)](https://github.com/athos/trenchman/actions/workflows/release.yaml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "liquidz/iced-nrepl",
+      "status": "candidate-context",
+      "text": "nREPL middleware to support vim-iced."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "liquidz/iced-nrepl",
+      "status": "candidate-context",
+      "text": "build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nrepl/nrepl",
+      "status": "candidate-context",
+      "text": "A Clojure network REPL that provides a server and client, along with some common APIs of use to IDEs and other tools that may need to evaluate Clojure code in remote environments."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nrepl/nrepl",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "clojure-emacs/clj-refactor.el",
+      "status": "candidate-context",
+      "text": "A CIDER extension that provides powerful commands for refactoring Clojure code."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "clojure-emacs/clj-refactor.el",
+      "status": "candidate-context",
+      "text": "[![MELPA](http://melpa.org/packages/clj-refactor-badge.svg)](http://melpa.org/#/clj-refactor)"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +99,24 @@
       "source_repo": "athos/trenchman",
       "status": "candidate",
       "text": "[![release](https://github.com/athos/trenchman/actions/workflows/release.yaml/badge.svg)](https://github.com/athos/trenchman/actions/workflows/release.yaml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "liquidz/iced-nrepl",
+      "status": "candidate",
+      "text": "build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nrepl/nrepl",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "clojure-emacs/clj-refactor.el",
+      "status": "candidate",
+      "text": "[![MELPA](http://melpa.org/packages/clj-refactor-badge.svg)](http://melpa.org/#/clj-refactor)"
     }
   ],
   "candidate_related_terms": [],
@@ -88,11 +142,29 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "athos/trenchman"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "liquidz/iced-nrepl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "nrepl/nrepl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "clojure-emacs/clj-refactor.el"
     }
   ],
   "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

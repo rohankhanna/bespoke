@@ -19,12 +19,30 @@
       "source_repo": "nodejs/web-team",
       "status": "candidate-context",
       "text": "Auto-merge PRs"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "firstcontributions/first-contributions",
+      "status": "candidate-context",
+      "text": "\ud83d\ude80\u2728 Help beginners to contribute to open source projects"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "firstcontributions/first-contributions",
+      "status": "candidate-context",
+      "text": "Auto-merge PRs"
     }
   ],
   "candidate_glosses": [
     {
       "source_kind": "source-snippet",
       "source_repo": "nodejs/web-team",
+      "status": "candidate",
+      "text": "Auto-merge PRs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "firstcontributions/first-contributions",
       "status": "candidate",
       "text": "Auto-merge PRs"
     }
@@ -69,11 +87,17 @@
       "observed_at": "2026-04-21T11:24:10.450489+00:00",
       "source_file": ".github/workflows/auto-merge.yml",
       "source_repo": "nodejs/web-team"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/auto-pr-merge.yml",
+      "source_repo": "firstcontributions/first-contributions"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

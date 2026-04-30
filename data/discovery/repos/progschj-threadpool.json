@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T04:10:13.930142+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 319
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A simple C++11 Thread Pool implementation",
+    "fork": false,
+    "full_name": "progschj/ThreadPool",
+    "html_url": "https://github.com/progschj/ThreadPool",
+    "language": "C++",
+    "pushed_at": "2024-07-20T12:33:59Z",
+    "stargazers_count": 8733,
+    "topics": [],
+    "updated_at": "2026-04-29T16:23:51Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

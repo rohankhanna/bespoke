@@ -1,20 +1,6 @@
 {
   "edges": [
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "wasm-bindgen/wasm-bindgen",
-      "target": "webassembly/esm-integration",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "wasm-bindgen/wasm-bindgen",
-      "target": "webassembly/proposals",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/codecov.yml",
       "source_repo": "wasm-bindgen/wasm-bindgen",
@@ -246,6 +232,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-04-23T04:27:42.433064+00:00",
+  "generated_at": "2026-04-30T00:37:16.824464+00:00",
   "source_repo": "wasm-bindgen/wasm-bindgen"
 }

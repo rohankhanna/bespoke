@@ -1,0 +1,84 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/setup-java@be666c2fcd27ec809703dec50e508c2fdc7f6654",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/setup-java@be666c2fcd27ec809703dec50e508c2fdc7f6654",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "junit-team/junit4",
+      "target": "junit-team/junit-framework",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "junit-team/junit4",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "junit-team/junit4",
+      "target": "actions/setup-java@be666c2fcd27ec809703dec50e508c2fdc7f6654",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-04-30T00:44:32.769349+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 842
+    },
+    {
+      "path": ".github/workflows/main.yml",
+      "size": 2029
+    },
+    {
+      "path": ".github/workflows/settings.xml",
+      "size": 468
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A programmer-oriented testing framework for Java \u2014 :warning: maintenance mode",
+    "fork": false,
+    "full_name": "junit-team/junit4",
+    "html_url": "https://github.com/junit-team/junit4",
+    "language": "Java",
+    "pushed_at": "2026-04-25T11:30:38Z",
+    "stargazers_count": 8534,
+    "topics": [],
+    "updated_at": "2026-04-29T13:29:46Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "junit-team/junit-framework",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

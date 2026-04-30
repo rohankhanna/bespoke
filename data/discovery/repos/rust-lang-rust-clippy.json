@@ -21,7 +21,7 @@
       "source_file": ".github/workflows/clippy_mq.yml"
     },
     {
-      "component": "actions/upload-artifact@v4",
+      "component": "actions/upload-artifact@v7",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/clippy_mq.yml"
     },
@@ -31,7 +31,7 @@
       "source_file": ".github/workflows/clippy_mq.yml"
     },
     {
-      "component": "actions/download-artifact@v6",
+      "component": "actions/download-artifact@v8",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/clippy_mq.yml"
     },
@@ -61,32 +61,17 @@
       "source_file": ".github/workflows/lintcheck.yml"
     },
     {
-      "component": "actions/cache@v4",
+      "component": "actions/cache@v5",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/lintcheck.yml"
     },
     {
-      "component": "actions/cache@v4",
+      "component": "actions/cache@v5",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/lintcheck.yml"
     },
     {
-      "component": "actions/upload-artifact@v4",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/lintcheck.yml"
-    },
-    {
-      "component": "actions/checkout@v6",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/lintcheck.yml"
-    },
-    {
-      "component": "actions/cache@v4",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/lintcheck.yml"
-    },
-    {
-      "component": "actions/upload-artifact@v4",
+      "component": "actions/upload-artifact@v7",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/lintcheck.yml"
     },
@@ -96,32 +81,47 @@
       "source_file": ".github/workflows/lintcheck.yml"
     },
     {
-      "component": "actions/cache/restore@v4",
+      "component": "actions/cache@v5",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/lintcheck.yml"
     },
     {
-      "component": "actions/download-artifact@v5",
+      "component": "actions/upload-artifact@v7",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/lintcheck.yml"
     },
     {
-      "component": "actions/upload-artifact@v4",
+      "component": "actions/checkout@v6",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/lintcheck.yml"
     },
     {
-      "component": "actions/upload-artifact@v4",
+      "component": "actions/cache/restore@v5",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/lintcheck.yml"
     },
     {
-      "component": "actions/download-artifact@v5",
+      "component": "actions/download-artifact@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lintcheck.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lintcheck.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lintcheck.yml"
+    },
+    {
+      "component": "actions/download-artifact@v8",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/lintcheck_summary.yml"
     },
     {
-      "component": "actions/github-script@v8",
+      "component": "actions/github-script@v9",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/lintcheck_summary.yml"
     },
@@ -169,14 +169,14 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/clippy_mq.yml",
       "source_repo": "rust-lang/rust-clippy",
-      "target": "actions/upload-artifact@v4",
+      "target": "actions/upload-artifact@v7",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/clippy_mq.yml",
       "source_repo": "rust-lang/rust-clippy",
-      "target": "actions/download-artifact@v6",
+      "target": "actions/download-artifact@v8",
       "target_type": "component"
     },
     {
@@ -232,28 +232,28 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/lintcheck.yml",
       "source_repo": "rust-lang/rust-clippy",
-      "target": "actions/cache@v4",
+      "target": "actions/cache@v5",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/lintcheck.yml",
       "source_repo": "rust-lang/rust-clippy",
-      "target": "actions/upload-artifact@v4",
+      "target": "actions/upload-artifact@v7",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/lintcheck.yml",
       "source_repo": "rust-lang/rust-clippy",
-      "target": "actions/cache/restore@v4",
+      "target": "actions/cache/restore@v5",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/lintcheck.yml",
       "source_repo": "rust-lang/rust-clippy",
-      "target": "actions/download-artifact@v5",
+      "target": "actions/download-artifact@v8",
       "target_type": "component"
     },
     {
@@ -267,14 +267,14 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/lintcheck_summary.yml",
       "source_repo": "rust-lang/rust-clippy",
-      "target": "actions/download-artifact@v5",
+      "target": "actions/download-artifact@v8",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/lintcheck_summary.yml",
       "source_repo": "rust-lang/rust-clippy",
-      "target": "actions/github-script@v8",
+      "target": "actions/github-script@v9",
       "target_type": "component"
     },
     {
@@ -320,7 +320,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-21T11:31:24.555273+00:00",
+  "fetched_at": "2026-04-30T00:47:48.416310+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -372,13 +372,13 @@
     "full_name": "rust-lang/rust-clippy",
     "html_url": "https://github.com/rust-lang/rust-clippy",
     "language": "Rust",
-    "pushed_at": "2026-04-21T07:13:22Z",
-    "stargazers_count": 13080,
+    "pushed_at": "2026-04-27T08:58:52Z",
+    "stargazers_count": 13110,
     "topics": [
       "lint",
       "rust"
     ],
-    "updated_at": "2026-04-21T11:23:39Z"
+    "updated_at": "2026-04-29T15:45:34Z"
   },
   "repo_links": [],
   "terms": [

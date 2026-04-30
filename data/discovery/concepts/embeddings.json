@@ -139,6 +139,42 @@
       "source_repo": "apache/seatunnel-tools",
       "status": "candidate-context",
       "text": "**English** | [\u4e2d\u6587](README_CN.md)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "TorchDR/TorchDR",
+      "status": "candidate-context",
+      "text": "TorchDR - PyTorch Dimensionality Reduction"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "TorchDR/TorchDR",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "alexklibisz/elastiknn",
+      "status": "candidate-context",
+      "text": "Elasticsearch plugin for nearest neighbor search. Store vectors and run similarity search using exact and approximate algorithms."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alexklibisz/elastiknn",
+      "status": "candidate-context",
+      "text": "Elasticsearch plugin for similarity search on dense floating point and sparse boolean vectors."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "curiosity-ai/hnsw-sharp",
+      "status": "candidate-context",
+      "text": "C# library for approximate nearest neighbors search using Hierarchical Navigable Small World graphs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "curiosity-ai/hnsw-sharp",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://dev.azure.com/curiosity-ai/mosaik/_apis/build/status/hnsw-sharp?branchName=master)](https://dev.azure.com/curiosity-ai/mosaik/_build/latest?definitionId=7&branchName=master)"
     }
   ],
   "candidate_glosses": [
@@ -207,6 +243,24 @@
       "source_repo": "apache/seatunnel-tools",
       "status": "candidate",
       "text": "**English** | [\u4e2d\u6587](README_CN.md)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "TorchDR/TorchDR",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alexklibisz/elastiknn",
+      "status": "candidate",
+      "text": "Elasticsearch plugin for similarity search on dense floating point and sparse boolean vectors."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "curiosity-ai/hnsw-sharp",
+      "status": "candidate",
+      "text": "[![Build Status](https://dev.azure.com/curiosity-ai/mosaik/_apis/build/status/hnsw-sharp?branchName=master)](https://dev.azure.com/curiosity-ai/mosaik/_build/latest?definitionId=7&branchName=master)"
     }
   ],
   "candidate_related_terms": [
@@ -346,11 +400,35 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "apache/seatunnel-tools"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "TorchDR/TorchDR"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "alexklibisz/elastiknn"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "jacobmarks/clustering-plugin"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "curiosity-ai/hnsw-sharp"
     }
   ],
   "first_seen_at": "2026-04-18T12:06:06.216548+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

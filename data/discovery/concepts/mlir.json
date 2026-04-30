@@ -79,6 +79,18 @@
       "source_repo": "sophgo/tpu-mlir",
       "status": "candidate-context",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "alibaba/BladeDISC",
+      "status": "candidate-context",
+      "text": "BladeDISC is an end-to-end DynamIc Shape Compiler project for machine learning workloads."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alibaba/BladeDISC",
+      "status": "candidate-context",
+      "text": "We're always looking for candicates to join dev team. Your're the one we're searching for long:"
     }
   ],
   "candidate_glosses": [
@@ -117,6 +129,12 @@
       "source_repo": "sophgo/tpu-mlir",
       "status": "candidate",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alibaba/BladeDISC",
+      "status": "candidate",
+      "text": "We're always looking for candicates to join dev team. Your're the one we're searching for long:"
     }
   ],
   "candidate_related_terms": [],
@@ -166,11 +184,17 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "sophgo/tpu-mlir"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "alibaba/BladeDISC"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -31,6 +31,18 @@
       "source_repo": "apache/arrow-java",
       "status": "candidate-context",
       "text": "Dev PR"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "oap-project/oap-mllib",
+      "status": "candidate-context",
+      "text": "Optimized Spark package to accelerate machine learning algorithms in Apache Spark MLlib."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "oap-project/oap-mllib",
+      "status": "candidate-context",
+      "text": "Dev PR"
     }
   ],
   "candidate_glosses": [
@@ -43,6 +55,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "apache/arrow-java",
+      "status": "candidate",
+      "text": "Dev PR"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "oap-project/oap-mllib",
       "status": "candidate",
       "text": "Dev PR"
     }
@@ -86,11 +104,17 @@
       "observed_at": "2026-04-22T18:52:26.467154+00:00",
       "source_file": ".github/workflows/dev_pr.yml",
       "source_repo": "apache/arrow-java"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/dev_cron.yml",
+      "source_repo": "oap-project/oap-mllib"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

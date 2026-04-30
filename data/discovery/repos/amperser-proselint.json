@@ -1,0 +1,465 @@
+{
+  "components": [
+    {
+      "component": "actions/create-github-app-token@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cd-publish.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cd-publish.yml"
+    },
+    {
+      "component": "cachix/install-nix-action@v31",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cd-publish.yml"
+    },
+    {
+      "component": "cachix/cachix-action@v16",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cd-publish.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cd-publish.yml"
+    },
+    {
+      "component": "cachix/install-nix-action@v31",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cd-publish.yml"
+    },
+    {
+      "component": "cachix/cachix-action@v16",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cd-publish.yml"
+    },
+    {
+      "component": "actions/attest-build-provenance@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cd-publish.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cd-publish.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cd-publish.yml"
+    },
+    {
+      "component": "actions/download-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cd-publish.yml"
+    },
+    {
+      "component": "softprops/action-gh-release@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cd-publish.yml"
+    },
+    {
+      "component": "actions/download-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cd-publish.yml"
+    },
+    {
+      "component": "pypa/gh-action-pypi-publish@release/v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cd-publish.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-label.yml"
+    },
+    {
+      "component": "crazy-max/ghaction-github-labeler@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-label.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-lint-test.yml"
+    },
+    {
+      "component": "cachix/install-nix-action@v31",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-lint-test.yml"
+    },
+    {
+      "component": "cachix/cachix-action@v16",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-lint-test.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-lint-test.yml"
+    },
+    {
+      "component": "cachix/install-nix-action@v31",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-lint-test.yml"
+    },
+    {
+      "component": "cachix/cachix-action@v16",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-lint-test.yml"
+    },
+    {
+      "component": "astral-sh/setup-uv@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-lint-test.yml"
+    },
+    {
+      "component": "codecov/codecov-action@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-lint-test.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "amperser/proselint",
+      "target": "coala/bear-docs",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "amperser/proselint",
+      "target": "dbgrandi/danger-prose",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "amperser/proselint",
+      "target": "jose-elias-alvarez/null-ls.nvim",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "amperser/proselint",
+      "target": "google/arc-proselint",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cd-publish.yml",
+      "source_repo": "amperser/proselint",
+      "target": "actions/create-github-app-token@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cd-publish.yml",
+      "source_repo": "amperser/proselint",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cd-publish.yml",
+      "source_repo": "amperser/proselint",
+      "target": "cachix/install-nix-action@v31",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cd-publish.yml",
+      "source_repo": "amperser/proselint",
+      "target": "cachix/cachix-action@v16",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cd-publish.yml",
+      "source_repo": "amperser/proselint",
+      "target": "actions/attest-build-provenance@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cd-publish.yml",
+      "source_repo": "amperser/proselint",
+      "target": "actions/upload-artifact@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cd-publish.yml",
+      "source_repo": "amperser/proselint",
+      "target": "actions/download-artifact@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cd-publish.yml",
+      "source_repo": "amperser/proselint",
+      "target": "softprops/action-gh-release@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cd-publish.yml",
+      "source_repo": "amperser/proselint",
+      "target": "pypa/gh-action-pypi-publish@release/v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cd-publish.yml",
+      "source_repo": "amperser/proselint",
+      "target": "CD: Build & Publish",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-label.yml",
+      "source_repo": "amperser/proselint",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-label.yml",
+      "source_repo": "amperser/proselint",
+      "target": "crazy-max/ghaction-github-labeler@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci-label.yml",
+      "source_repo": "amperser/proselint",
+      "target": "CI: Synchronize Labels",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-lint-test.yml",
+      "source_repo": "amperser/proselint",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-lint-test.yml",
+      "source_repo": "amperser/proselint",
+      "target": "cachix/install-nix-action@v31",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-lint-test.yml",
+      "source_repo": "amperser/proselint",
+      "target": "cachix/cachix-action@v16",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-lint-test.yml",
+      "source_repo": "amperser/proselint",
+      "target": "astral-sh/setup-uv@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-lint-test.yml",
+      "source_repo": "amperser/proselint",
+      "target": "codecov/codecov-action@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci-lint-test.yml",
+      "source_repo": "amperser/proselint",
+      "target": "CI: Lint & Test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "amperser/proselint",
+      "target": "advice",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "amperser/proselint",
+      "target": "knowledge",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "amperser/proselint",
+      "target": "language",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "amperser/proselint",
+      "target": "linter",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "amperser/proselint",
+      "target": "prose",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "amperser/proselint",
+      "target": "style",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "amperser/proselint",
+      "target": "writer",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T04:11:57.828903+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 13565
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 2908
+    },
+    {
+      "path": ".github/workflows/cd-publish.yml",
+      "size": 4801
+    },
+    {
+      "path": ".github/workflows/ci-label.yml",
+      "size": 444
+    },
+    {
+      "path": ".github/workflows/ci-lint-test.yml",
+      "size": 2433
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A linter for prose.",
+    "fork": false,
+    "full_name": "amperser/proselint",
+    "html_url": "https://github.com/amperser/proselint",
+    "language": "JavaScript",
+    "pushed_at": "2026-04-21T16:37:31Z",
+    "stargazers_count": 4526,
+    "topics": [
+      "advice",
+      "knowledge",
+      "language",
+      "linter",
+      "prose",
+      "style",
+      "writer"
+    ],
+    "updated_at": "2026-04-29T17:50:38Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "coala/bear-docs",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dbgrandi/danger-prose",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "google/arc-proselint",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jose-elias-alvarez/null-ls.nvim",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "\"CD: Build & Publish\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cd-publish.yml",
+      "term": "CD: Build & Publish"
+    },
+    {
+      "context_snippet": "\"CI: Synchronize Labels\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci-label.yml",
+      "term": "CI: Synchronize Labels"
+    },
+    {
+      "context_snippet": "\"CI: Lint & Test\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci-lint-test.yml",
+      "term": "CI: Lint & Test"
+    },
+    {
+      "context_snippet": "<img src=\"https://raw.githubusercontent.com/amperser/proselint/main/logo.png\" alt=\"proselint logo\" width=\"200\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "advice"
+    },
+    {
+      "context_snippet": "<img src=\"https://raw.githubusercontent.com/amperser/proselint/main/logo.png\" alt=\"proselint logo\" width=\"200\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "knowledge"
+    },
+    {
+      "context_snippet": "<img src=\"https://raw.githubusercontent.com/amperser/proselint/main/logo.png\" alt=\"proselint logo\" width=\"200\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "language"
+    },
+    {
+      "context_snippet": "<img src=\"https://raw.githubusercontent.com/amperser/proselint/main/logo.png\" alt=\"proselint logo\" width=\"200\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "linter"
+    },
+    {
+      "context_snippet": "<img src=\"https://raw.githubusercontent.com/amperser/proselint/main/logo.png\" alt=\"proselint logo\" width=\"200\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "prose"
+    },
+    {
+      "context_snippet": "<img src=\"https://raw.githubusercontent.com/amperser/proselint/main/logo.png\" alt=\"proselint logo\" width=\"200\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "style"
+    },
+    {
+      "context_snippet": "<img src=\"https://raw.githubusercontent.com/amperser/proselint/main/logo.png\" alt=\"proselint logo\" width=\"200\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "writer"
+    }
+  ]
+}

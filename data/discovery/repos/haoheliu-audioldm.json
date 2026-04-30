@@ -1,0 +1,93 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "haoheliu/AudioLDM",
+      "target": "haoheliu/audioldm_eval",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "haoheliu/AudioLDM",
+      "target": "tuneflow/audioldm",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "haoheliu/AudioLDM",
+      "target": "laion-ai/clap",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "haoheliu/AudioLDM",
+      "target": "v-iashin/specvqgan",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "haoheliu/AudioLDM",
+      "target": "audio-generation",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T02:05:03.899415+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 11896
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "AudioLDM: Generate speech, sound effects, music and beyond, with text.",
+    "fork": false,
+    "full_name": "haoheliu/AudioLDM",
+    "html_url": "https://github.com/haoheliu/AudioLDM",
+    "language": "Python",
+    "pushed_at": "2025-06-25T20:07:37Z",
+    "stargazers_count": 2871,
+    "topics": [
+      "audio-generation"
+    ],
+    "updated_at": "2026-04-29T14:49:56Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "haoheliu/audioldm_eval",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "laion-ai/clap",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "tuneflow/audioldm",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "v-iashin/specvqgan",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[![arXiv](https://img.shields.io/badge/arXiv-2301.12503-brightgreen.svg?style=flat-square)](https://arxiv.org/abs/2301.12503) [![githubio](https://img.shields.io/badge/GitHub.io-Audio_Samples-blue?logo=Github&style=flat-square)](https://audioldm.github.io/) [![Hugging Face Space\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "audio-generation"
+    }
+  ]
+}

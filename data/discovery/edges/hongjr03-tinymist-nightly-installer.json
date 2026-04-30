@@ -1,0 +1,41 @@
+{
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-installer.yml",
+      "source_repo": "hongjr03/tinymist-nightly-installer",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test-installer.yml",
+      "source_repo": "hongjr03/tinymist-nightly-installer",
+      "target": "Test Installer Script",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hongjr03/tinymist-nightly-installer",
+      "target": "script",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hongjr03/tinymist-nightly-installer",
+      "target": "tinymist",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hongjr03/tinymist-nightly-installer",
+      "target": "typst",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-30T00:37:16.824464+00:00",
+  "source_repo": "hongjr03/tinymist-nightly-installer"
+}

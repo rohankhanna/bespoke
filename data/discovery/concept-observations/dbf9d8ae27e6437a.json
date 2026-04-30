@@ -1,0 +1,122 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Article extraction benchmark: dataset and evaluation scripts"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Evaluate"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Evaluate"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39966492,
+      "status": "candidate",
+      "text": "appraise"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39966303,
+      "status": "candidate",
+      "text": "assess"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39959260,
+      "status": "candidate",
+      "text": "value"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39926221,
+      "status": "candidate",
+      "text": "measure"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29966774,
+      "status": "candidate",
+      "text": "valuate"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Evaluate",
+      "sense_id": "evaluate#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 33047,
+      "status": "candidate",
+      "text": "assess"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 32042,
+      "status": "candidate",
+      "text": "appraise"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 30076,
+      "status": "candidate",
+      "text": "value"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 18064,
+      "status": "candidate",
+      "text": "measure"
+    }
+  ],
+  "concept_id": "evaluate",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "evaluate",
+  "observation_id": "dbf9d8ae27e6437a",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-30T00:37:16.824464+00:00",
+  "observed_text": "Evaluate",
+  "source_context_snippet": "Evaluate",
+  "source_file": ".github/workflows/evaluate.yml",
+  "source_repo": "scrapinghub/article-extraction-benchmark",
+  "source_repo_description": "Article extraction benchmark: dataset and evaluation scripts"
+}

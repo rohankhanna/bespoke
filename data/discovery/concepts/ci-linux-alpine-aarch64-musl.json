@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "CI Linux Alpine aarch64 musl"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "karafka/rdkafka-ruby",
+      "status": "candidate-context",
+      "text": "Modern and performant Kafka client library for Ruby based on librdkafka"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "karafka/rdkafka-ruby",
+      "status": "candidate-context",
+      "text": "CI Linux Alpine aarch64 musl"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "karafka/rdkafka-ruby",
+      "status": "candidate",
+      "text": "CI Linux Alpine aarch64 musl"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12414,
+      "status": "candidate",
+      "text": "pole"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12414,
+      "status": "candidate",
+      "text": "unit"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10064,
+      "status": "candidate",
+      "text": "gnome"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9775,
+      "status": "candidate",
+      "text": "lie"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9764,
+      "status": "candidate",
+      "text": "asa"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "CI Linux Alpine aarch64 musl",
+  "concept_id": "ci-linux-alpine-aarch64-musl",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/ci_linux_alpine_aarch64_musl.yml",
+      "source_repo": "karafka/rdkafka-ruby"
+    }
+  ],
+  "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "CI Linux Alpine aarch64 musl",
+      "sense_id": "ci-linux-alpine-aarch64-musl#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

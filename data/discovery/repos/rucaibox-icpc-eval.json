@@ -1,0 +1,59 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "RUCAIBox/ICPC-Eval",
+      "target": "evaluation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "RUCAIBox/ICPC-Eval",
+      "target": "icpc",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T02:41:34.230845+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5642
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A new benchmark of 118 ICPC problems for evaluating LLM reasoning in competitive coding, featuring realistic ICPC competition scenario, robust local evaluation, and a iterative repair metrics Refine@K",
+    "fork": false,
+    "full_name": "RUCAIBox/ICPC-Eval",
+    "html_url": "https://github.com/RUCAIBox/ICPC-Eval",
+    "language": "Python",
+    "pushed_at": "2025-05-18T14:17:37Z",
+    "stargazers_count": 17,
+    "topics": [
+      "evaluation",
+      "icpc",
+      "llm"
+    ],
+    "updated_at": "2026-04-08T04:04:37Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "ICPC-Eval is a Python-based framework designed to evaluate the capabilities of Large Language Models (LLMs) in solving competitive programming problems, specifically those in the style of the International Collegiate Programming Contest (ICPC). It automates the process of prompt\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "evaluation"
+    },
+    {
+      "context_snippet": "ICPC-Eval is a Python-based framework designed to evaluate the capabilities of Large Language Models (LLMs) in solving competitive programming problems, specifically those in the style of the International Collegiate Programming Contest (ICPC). It automates the process of prompt\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "icpc"
+    }
+  ]
+}

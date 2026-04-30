@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Governance and contact information for Cloud Foundry"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "'Remove individual access to repos'"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "'Remove individual access to repos'"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 33539,
+      "status": "candidate",
+      "text": "throw"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 33466,
+      "status": "candidate",
+      "text": "desegregate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31741,
+      "status": "candidate",
+      "text": "take"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31703,
+      "status": "candidate",
+      "text": "retire"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31650,
+      "status": "candidate",
+      "text": "part"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Remove individual access to repos",
+      "sense_id": "remove-individual-access-to-repos#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "remove-individual-access-to-repos",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "remove-individual-access-to-repos",
+  "observation_id": "2d29820f57f7364b",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-30T00:37:16.824464+00:00",
+  "observed_text": "Remove individual access to repos",
+  "source_context_snippet": "'Remove individual access to repos'",
+  "source_file": ".github/workflows/remove-individual-access.yml",
+  "source_repo": "cloudfoundry/community",
+  "source_repo_description": "Governance and contact information for Cloud Foundry"
+}

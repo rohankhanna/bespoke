@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Installer test"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aliyun/aliyun-cli",
+      "status": "candidate-context",
+      "text": "Alibaba Cloud CLI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aliyun/aliyun-cli",
+      "status": "candidate-context",
+      "text": "Installer test"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aliyun/aliyun-cli",
+      "status": "candidate",
+      "text": "Installer test"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 16072,
+      "status": "candidate",
+      "text": "area"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 16072,
+      "status": "candidate",
+      "text": "installation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15052,
+      "status": "candidate",
+      "text": "install"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15052,
+      "status": "candidate",
+      "text": "installing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 13644,
+      "status": "candidate",
+      "text": "act"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Installer test",
+  "concept_id": "installer-test",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/installer.yml",
+      "source_repo": "aliyun/aliyun-cli"
+    }
+  ],
+  "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Installer test",
+      "sense_id": "installer-test#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

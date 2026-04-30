@@ -1,0 +1,34 @@
+{
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/set-issue-expectations.yml",
+      "source_repo": "elm/compiler",
+      "target": "actions/github@v1.0.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/set-issue-expectations.yml",
+      "source_repo": "elm/compiler",
+      "target": "Set Issue Expectations",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/set-pull-expectations.yml",
+      "source_repo": "elm/compiler",
+      "target": "actions/github-script@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "elm/compiler",
+      "target": "compiler",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-30T00:37:16.824464+00:00",
+  "source_repo": "elm/compiler"
+}

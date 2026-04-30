@@ -79,6 +79,24 @@
       "source_repo": "fnproject/fdk-java",
       "status": "candidate-context",
       "text": "[![CircleCI](https://circleci.com/gh/fnproject/fdk-java.svg?style=svg&circle-token=348bec5610c34421f6c436ab8f6a18e153cb1c01)](https://circleci.com/gh/fnproject/fdk-java)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ex-aws/ex_aws_lambda",
+      "status": "candidate-context",
+      "text": "[![Module Version](https://img.shields.io/hexpm/v/ex_aws_lambda.svg)](https://hex.pm/packages/ex_aws_lambda)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ebkalderon/tower-lsp",
+      "status": "candidate-context",
+      "text": "Language Server Protocol implementation written in Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ebkalderon/tower-lsp",
+      "status": "candidate-context",
+      "text": "[![Build Status][build-badge]][build-url]"
     }
   ],
   "candidate_glosses": [
@@ -117,6 +135,18 @@
       "source_repo": "fnproject/fdk-java",
       "status": "candidate",
       "text": "[![CircleCI](https://circleci.com/gh/fnproject/fdk-java.svg?style=svg&circle-token=348bec5610c34421f6c436ab8f6a18e153cb1c01)](https://circleci.com/gh/fnproject/fdk-java)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ex-aws/ex_aws_lambda",
+      "status": "candidate",
+      "text": "[![Module Version](https://img.shields.io/hexpm/v/ex_aws_lambda.svg)](https://hex.pm/packages/ex_aws_lambda)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ebkalderon/tower-lsp",
+      "status": "candidate",
+      "text": "[![Build Status][build-badge]][build-url]"
     }
   ],
   "candidate_related_terms": [
@@ -232,11 +262,23 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "fnproject/fdk-java"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "ex-aws/ex_aws_lambda"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "ebkalderon/tower-lsp"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

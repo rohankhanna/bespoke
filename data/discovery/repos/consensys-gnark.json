@@ -1,0 +1,359 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6.0.2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr.yml"
+    },
+    {
+      "component": "actions/setup-go@v6.2.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr.yml"
+    },
+    {
+      "component": "golangci/golangci-lint-action@1e7e51e771db61008b38414a730f564565cf7c20",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr.yml"
+    },
+    {
+      "component": "actions/setup-go@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr.yml"
+    },
+    {
+      "component": "gotesttools/gotestfmt-action@8b4478c7019be847373babde9300210e7de34bfb",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr.yml"
+    },
+    {
+      "component": "actions/checkout@v6.0.2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/push.yml"
+    },
+    {
+      "component": "actions/setup-go@v6.2.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/push.yml"
+    },
+    {
+      "component": "golangci/golangci-lint-action@1e7e51e771db61008b38414a730f564565cf7c20",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/push.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/push.yml"
+    },
+    {
+      "component": "actions/setup-go@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/push.yml"
+    },
+    {
+      "component": "MetaMask/action-security-code-scanner/.github/workflows/security-scan.yml@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/security-code-scanner.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Consensys/gnark",
+      "target": "ingonyama-zk/icicle-gnark",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Consensys/gnark",
+      "target": "consensys/gnark-crypto",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr.yml",
+      "source_repo": "Consensys/gnark",
+      "target": "actions/checkout@v6.0.2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr.yml",
+      "source_repo": "Consensys/gnark",
+      "target": "actions/setup-go@v6.2.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr.yml",
+      "source_repo": "Consensys/gnark",
+      "target": "golangci/golangci-lint-action@1e7e51e771db61008b38414a730f564565cf7c20",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr.yml",
+      "source_repo": "Consensys/gnark",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr.yml",
+      "source_repo": "Consensys/gnark",
+      "target": "actions/setup-go@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr.yml",
+      "source_repo": "Consensys/gnark",
+      "target": "gotesttools/gotestfmt-action@8b4478c7019be847373babde9300210e7de34bfb",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/push.yml",
+      "source_repo": "Consensys/gnark",
+      "target": "actions/checkout@v6.0.2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/push.yml",
+      "source_repo": "Consensys/gnark",
+      "target": "actions/setup-go@v6.2.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/push.yml",
+      "source_repo": "Consensys/gnark",
+      "target": "golangci/golangci-lint-action@1e7e51e771db61008b38414a730f564565cf7c20",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/push.yml",
+      "source_repo": "Consensys/gnark",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/push.yml",
+      "source_repo": "Consensys/gnark",
+      "target": "actions/setup-go@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/security-code-scanner.yml",
+      "source_repo": "Consensys/gnark",
+      "target": "MetaMask/action-security-code-scanner/.github/workflows/security-scan.yml@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/security-code-scanner.yml",
+      "source_repo": "Consensys/gnark",
+      "target": "MetaMask Security Code Scanner",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/slack-notifications.yml",
+      "source_repo": "Consensys/gnark",
+      "target": "Slack Notifications",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Consensys/gnark",
+      "target": "gnark",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Consensys/gnark",
+      "target": "golang",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Consensys/gnark",
+      "target": "plonk",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Consensys/gnark",
+      "target": "r1cs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Consensys/gnark",
+      "target": "zk-rollup",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Consensys/gnark",
+      "target": "zk-snarks",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Consensys/gnark",
+      "target": "zkevm",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Consensys/gnark",
+      "target": "zksnark",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T00:54:21.404840+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6820
+    },
+    {
+      "path": "go.mod",
+      "size": 1636
+    },
+    {
+      "path": ".github/workflows/pr.yml",
+      "size": 3918
+    },
+    {
+      "path": ".github/workflows/push.yml",
+      "size": 4042
+    },
+    {
+      "path": ".github/workflows/security-code-scanner.yml",
+      "size": 926
+    },
+    {
+      "path": ".github/workflows/slack-notifications.yml",
+      "size": 3113
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "gnark is a fast zk-SNARK library that offers a high-level API to design circuits. The library is open source and developed under the Apache 2.0 license",
+    "fork": false,
+    "full_name": "Consensys/gnark",
+    "html_url": "https://github.com/Consensys/gnark",
+    "language": "Go",
+    "pushed_at": "2026-04-27T03:12:59Z",
+    "stargazers_count": 1707,
+    "topics": [
+      "gnark",
+      "golang",
+      "plonk",
+      "r1cs",
+      "zk-rollup",
+      "zk-snarks",
+      "zkevm",
+      "zkp",
+      "zksnark"
+    ],
+    "updated_at": "2026-04-29T09:34:07Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "consensys/gnark-crypto",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ingonyama-zk/icicle-gnark",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "MetaMask Security Code Scanner",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/security-code-scanner.yml",
+      "term": "MetaMask Security Code Scanner"
+    },
+    {
+      "context_snippet": "Slack Notifications",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/slack-notifications.yml",
+      "term": "Slack Notifications"
+    },
+    {
+      "context_snippet": "[![Twitter URL](https://img.shields.io/twitter/url/https/twitter.com/gnark_team.svg?style=social&label=Follow%20%40gnark_team)](https://twitter.com/gnark_team) [![License](https://img.shields.io/badge/license-Apache%202-blue)](LICENSE)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gnark"
+    },
+    {
+      "context_snippet": "[![Twitter URL](https://img.shields.io/twitter/url/https/twitter.com/gnark_team.svg?style=social&label=Follow%20%40gnark_team)](https://twitter.com/gnark_team) [![License](https://img.shields.io/badge/license-Apache%202-blue)](LICENSE)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "golang"
+    },
+    {
+      "context_snippet": "[![Twitter URL](https://img.shields.io/twitter/url/https/twitter.com/gnark_team.svg?style=social&label=Follow%20%40gnark_team)](https://twitter.com/gnark_team) [![License](https://img.shields.io/badge/license-Apache%202-blue)](LICENSE)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "plonk"
+    },
+    {
+      "context_snippet": "[![Twitter URL](https://img.shields.io/twitter/url/https/twitter.com/gnark_team.svg?style=social&label=Follow%20%40gnark_team)](https://twitter.com/gnark_team) [![License](https://img.shields.io/badge/license-Apache%202-blue)](LICENSE)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "r1cs"
+    },
+    {
+      "context_snippet": "[![Twitter URL](https://img.shields.io/twitter/url/https/twitter.com/gnark_team.svg?style=social&label=Follow%20%40gnark_team)](https://twitter.com/gnark_team) [![License](https://img.shields.io/badge/license-Apache%202-blue)](LICENSE)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "zk-rollup"
+    },
+    {
+      "context_snippet": "[![Twitter URL](https://img.shields.io/twitter/url/https/twitter.com/gnark_team.svg?style=social&label=Follow%20%40gnark_team)](https://twitter.com/gnark_team) [![License](https://img.shields.io/badge/license-Apache%202-blue)](LICENSE)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "zk-snarks"
+    },
+    {
+      "context_snippet": "[![Twitter URL](https://img.shields.io/twitter/url/https/twitter.com/gnark_team.svg?style=social&label=Follow%20%40gnark_team)](https://twitter.com/gnark_team) [![License](https://img.shields.io/badge/license-Apache%202-blue)](LICENSE)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "zkevm"
+    },
+    {
+      "context_snippet": "[![Twitter URL](https://img.shields.io/twitter/url/https/twitter.com/gnark_team.svg?style=social&label=Follow%20%40gnark_team)](https://twitter.com/gnark_team) [![License](https://img.shields.io/badge/license-Apache%202-blue)](LICENSE)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "zksnark"
+    }
+  ]
+}

@@ -91,6 +91,42 @@
       "source_repo": "PaddlePaddle/PaddleNLP",
       "status": "candidate-context",
       "text": "**\u7b80\u4f53\u4e2d\u6587**\ud83c\udc04 | [English\ud83c\udf0e](./README_en.md)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "baygeldin/tantiny",
+      "status": "candidate-context",
+      "text": "Tiny full-text search for Ruby powered by Tantivy"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "baygeldin/tantiny",
+      "status": "candidate-context",
+      "text": "> [!NOTE]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lnx-search/lnx",
+      "status": "candidate-context",
+      "text": "A flexible, performant and reliable search database without the AI bullshit."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lnx-search/lnx",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "unum-cloud/USearch",
+      "status": "candidate-context",
+      "text": "Fast Open-Source Search & Clustering engine \u00d7 for Vectors & Arbitrary Objects \u00d7 in C++, C, Python, JavaScript, Rust, Java, Objective-C, Swift, C#, GoLang, and Wolfram \ud83d\udd0d"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "unum-cloud/USearch",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">USearch</h1>"
     }
   ],
   "candidate_glosses": [
@@ -135,6 +171,24 @@
       "source_repo": "PaddlePaddle/PaddleNLP",
       "status": "candidate",
       "text": "**\u7b80\u4f53\u4e2d\u6587**\ud83c\udc04 | [English\ud83c\udf0e](./README_en.md)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "baygeldin/tantiny",
+      "status": "candidate",
+      "text": "> [!NOTE]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lnx-search/lnx",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "unum-cloud/USearch",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">USearch</h1>"
     }
   ],
   "candidate_related_terms": [],
@@ -184,11 +238,29 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "PaddlePaddle/PaddleNLP"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "baygeldin/tantiny"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "lnx-search/lnx"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "unum-cloud/USearch"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

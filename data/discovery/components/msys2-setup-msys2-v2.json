@@ -1,7 +1,7 @@
 {
   "component": "msys2/setup-msys2@v2",
   "first_seen_at": "2026-04-18T11:41:43.530265+00:00",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -452,6 +452,71 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/dbus-rs-github-ci.yml",
       "source_repo": "diwic/dbus-rs"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/msys2-clang.yml",
+      "source_repo": "lemire/fast_double_parser"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/msys2.yml",
+      "source_repo": "lemire/fast_double_parser"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml",
+      "source_repo": "trealla-prolog/trealla"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/windows_mingw.yml",
+      "source_repo": "ClickHouse/clickhouse-cpp"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "libevent/libevent"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/windows.yml",
+      "source_repo": "google/glog"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/c-cpp.yml",
+      "source_repo": "marton78/pffft"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "syoyo/tinygltf"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/mingw-w64-msys2.yml",
+      "source_repo": "syoyo/tinygltf"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "raphamorim/rio"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/mingw.yml",
+      "source_repo": "apnadkarni/tcl-cmark"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/compilers.yml",
+      "source_repo": "ibireme/yyjson"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/windows.yml",
+      "source_repo": "ng-log/ng-log"
     }
   ]
 }

@@ -43,6 +43,18 @@
       "source_repo": "ashvardanian/less_slow.rs",
       "status": "candidate-context",
       "text": "> The spiritual little brother of [`less_slow.cpp`](https://github.com/ashvardanian/less_slow.cpp)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gregorias/coop.nvim",
+      "status": "candidate-context",
+      "text": "A Neovim plugin for readable concurrency with coroutines."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gregorias/coop.nvim",
+      "status": "candidate-context",
+      "text": "<!-- markdownlint-disable MD013 MD033 MD041 -->"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +75,12 @@
       "source_repo": "ashvardanian/less_slow.rs",
       "status": "candidate",
       "text": "> The spiritual little brother of [`less_slow.cpp`](https://github.com/ashvardanian/less_slow.cpp)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gregorias/coop.nvim",
+      "status": "candidate",
+      "text": "<!-- markdownlint-disable MD013 MD033 MD041 -->"
     }
   ],
   "candidate_related_terms": [
@@ -124,11 +142,17 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": null,
       "source_repo": "ashvardanian/less_slow.rs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "gregorias/coop.nvim"
     }
   ],
   "first_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

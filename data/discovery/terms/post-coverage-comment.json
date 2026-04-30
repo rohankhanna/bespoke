@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-24T12:33:41.350224+00:00",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
@@ -16,6 +16,16 @@
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/coverage.yml",
       "source_repo": "pydantic/pydantic"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/coverage-comment.yml",
+      "source_repo": "FasterXML/jackson-databind"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/coverage-comment.yml",
+      "source_repo": "py-cov-action/python-coverage-comment-action"
     }
   ],
   "term": "Post Coverage Comment"

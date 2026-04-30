@@ -1,0 +1,35 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T03:04:22.834154+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 25199
+    },
+    {
+      "path": "package.json",
+      "size": 0
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 3151
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A data indexing library 100% open source with no need to use any closed source embeddings or opaque code.",
+    "fork": false,
+    "full_name": "ParisNeo/safe_store",
+    "html_url": "https://github.com/ParisNeo/safe_store",
+    "language": "Python",
+    "pushed_at": "2026-04-21T02:59:26Z",
+    "stargazers_count": 16,
+    "topics": [],
+    "updated_at": "2026-04-21T02:59:29Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

@@ -1,0 +1,343 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "erlef/setup-beam@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "erlef/setup-beam@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "NFIBrokerage/create-release@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/compatibility.yml"
+    },
+    {
+      "component": "erlef/setup-beam@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/compatibility.yml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/compatibility.yml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/compatibility.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/refresh-dev-cache.yml"
+    },
+    {
+      "component": "erlef/setup-beam@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/refresh-dev-cache.yml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/refresh-dev-cache.yml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/refresh-dev-cache.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "CuatroElixir/spear",
+      "target": "elixir-mint/mint",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "CuatroElixir/spear",
+      "target": "elixir-grpc/grpc",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "CuatroElixir/spear",
+      "target": "elixir-lang/gen_stage",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "CuatroElixir/spear",
+      "target": "dashbitco/broadway",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "CuatroElixir/spear",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "CuatroElixir/spear",
+      "target": "erlef/setup-beam@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "CuatroElixir/spear",
+      "target": "actions/cache@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "CuatroElixir/spear",
+      "target": "NFIBrokerage/create-release@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/compatibility.yml",
+      "source_repo": "CuatroElixir/spear",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/compatibility.yml",
+      "source_repo": "CuatroElixir/spear",
+      "target": "erlef/setup-beam@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/compatibility.yml",
+      "source_repo": "CuatroElixir/spear",
+      "target": "actions/cache@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/compatibility.yml",
+      "source_repo": "CuatroElixir/spear",
+      "target": "Compatibility",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/refresh-dev-cache.yml",
+      "source_repo": "CuatroElixir/spear",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/refresh-dev-cache.yml",
+      "source_repo": "CuatroElixir/spear",
+      "target": "erlef/setup-beam@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/refresh-dev-cache.yml",
+      "source_repo": "CuatroElixir/spear",
+      "target": "actions/cache@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/refresh-dev-cache.yml",
+      "source_repo": "CuatroElixir/spear",
+      "target": "Refresh Dev Cache \u267b\ufe0f",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "CuatroElixir/spear",
+      "target": "elixir",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "CuatroElixir/spear",
+      "target": "event-sourcing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "CuatroElixir/spear",
+      "target": "eventstoredb",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "CuatroElixir/spear",
+      "target": "grpc",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "CuatroElixir/spear",
+      "target": "mint",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T02:58:26.210220+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7900
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 5513
+    },
+    {
+      "path": ".github/workflows/compatibility.yml",
+      "size": 2435
+    },
+    {
+      "path": ".github/workflows/refresh-dev-cache.yml",
+      "size": 3044
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A sharp EventStoreDB v20+ client backed by Mint :yum:",
+    "fork": false,
+    "full_name": "CuatroElixir/spear",
+    "html_url": "https://github.com/CuatroElixir/spear",
+    "language": "Elixir",
+    "pushed_at": "2024-08-03T23:46:39Z",
+    "stargazers_count": 95,
+    "topics": [
+      "elixir",
+      "event-sourcing",
+      "eventstoredb",
+      "grpc",
+      "mint"
+    ],
+    "updated_at": "2026-01-15T20:25:16Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dashbitco/broadway",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "elixir-grpc/grpc",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "elixir-lang/gen_stage",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "elixir-mint/mint",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Compatibility",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/compatibility.yml",
+      "term": "Compatibility"
+    },
+    {
+      "context_snippet": "Refresh Dev Cache \u267b\ufe0f",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/refresh-dev-cache.yml",
+      "term": "Refresh Dev Cache \u267b\ufe0f"
+    },
+    {
+      "context_snippet": "![CI](https://github.com/NFIBrokerage/spear/workflows/CI/badge.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "elixir"
+    },
+    {
+      "context_snippet": "![CI](https://github.com/NFIBrokerage/spear/workflows/CI/badge.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "event-sourcing"
+    },
+    {
+      "context_snippet": "![CI](https://github.com/NFIBrokerage/spear/workflows/CI/badge.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "eventstoredb"
+    },
+    {
+      "context_snippet": "![CI](https://github.com/NFIBrokerage/spear/workflows/CI/badge.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "grpc"
+    },
+    {
+      "context_snippet": "![CI](https://github.com/NFIBrokerage/spear/workflows/CI/badge.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mint"
+    }
+  ]
+}

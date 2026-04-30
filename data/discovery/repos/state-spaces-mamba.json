@@ -1,0 +1,303 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_build.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_build.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_build.yml"
+    },
+    {
+      "component": "pierotofy/set-swap-space@v1.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_build.yml"
+    },
+    {
+      "component": "Jimver/cuda-toolkit@v0.2.30",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_build.yml"
+    },
+    {
+      "component": "joutvhu/get-release@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_build.yml"
+    },
+    {
+      "component": "actions/upload-release-asset@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_build.yml"
+    },
+    {
+      "component": "easimon/maximize-build-space@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_build_in_container.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_build_in_container.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_build_in_container.yml"
+    },
+    {
+      "component": "joutvhu/get-release@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_build_in_container.yml"
+    },
+    {
+      "component": "actions/upload-release-asset@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_build_in_container.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_in_container.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yaml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "state-spaces/mamba",
+      "target": "state-spaces/s4",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_build.yml",
+      "source_repo": "state-spaces/mamba",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_build.yml",
+      "source_repo": "state-spaces/mamba",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_build.yml",
+      "source_repo": "state-spaces/mamba",
+      "target": "pierotofy/set-swap-space@v1.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_build.yml",
+      "source_repo": "state-spaces/mamba",
+      "target": "Jimver/cuda-toolkit@v0.2.30",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_build.yml",
+      "source_repo": "state-spaces/mamba",
+      "target": "joutvhu/get-release@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_build.yml",
+      "source_repo": "state-spaces/mamba",
+      "target": "actions/upload-release-asset@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/_build.yml",
+      "source_repo": "state-spaces/mamba",
+      "target": "~Build wheel template",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_build_in_container.yml",
+      "source_repo": "state-spaces/mamba",
+      "target": "easimon/maximize-build-space@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_build_in_container.yml",
+      "source_repo": "state-spaces/mamba",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_build_in_container.yml",
+      "source_repo": "state-spaces/mamba",
+      "target": "joutvhu/get-release@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_build_in_container.yml",
+      "source_repo": "state-spaces/mamba",
+      "target": "actions/upload-release-asset@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/_build_in_container.yml",
+      "source_repo": "state-spaces/mamba",
+      "target": "~Build wheel template",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "state-spaces/mamba",
+      "target": "Build wheels",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_in_container.yml",
+      "source_repo": "state-spaces/mamba",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build_in_container.yml",
+      "source_repo": "state-spaces/mamba",
+      "target": "Build wheels in a container",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yaml",
+      "source_repo": "state-spaces/mamba",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yaml",
+      "source_repo": "state-spaces/mamba",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish.yaml",
+      "source_repo": "state-spaces/mamba",
+      "target": "Build wheels and deploy",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T01:59:25.848213+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 13000
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 1308
+    },
+    {
+      "path": ".github/workflows/_build.yml",
+      "size": 6914
+    },
+    {
+      "path": ".github/workflows/_build_in_container.yml",
+      "size": 5254
+    },
+    {
+      "path": ".github/workflows/build.yml",
+      "size": 1473
+    },
+    {
+      "path": ".github/workflows/build_in_container.yml",
+      "size": 2213
+    },
+    {
+      "path": ".github/workflows/publish.yaml",
+      "size": 5281
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Mamba SSM architecture",
+    "fork": false,
+    "full_name": "state-spaces/mamba",
+    "html_url": "https://github.com/state-spaces/mamba",
+    "language": "Python",
+    "pushed_at": "2026-04-27T04:58:06Z",
+    "stargazers_count": 18126,
+    "topics": [],
+    "updated_at": "2026-04-29T21:04:52Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "state-spaces/s4",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "~Build wheel template",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/_build.yml",
+      "term": "~Build wheel template"
+    },
+    {
+      "context_snippet": "~Build wheel template",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/_build_in_container.yml",
+      "term": "~Build wheel template"
+    },
+    {
+      "context_snippet": "Build wheels",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "term": "Build wheels"
+    },
+    {
+      "context_snippet": "Build wheels in a container",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build_in_container.yml",
+      "term": "Build wheels in a container"
+    },
+    {
+      "context_snippet": "Build wheels and deploy",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish.yaml",
+      "term": "Build wheels and deploy"
+    }
+  ]
+}

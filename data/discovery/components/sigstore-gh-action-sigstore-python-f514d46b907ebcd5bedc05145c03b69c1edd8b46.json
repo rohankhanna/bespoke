@@ -1,0 +1,12 @@
+{
+  "component": "sigstore/gh-action-sigstore-python@f514d46b907ebcd5bedc05145c03b69c1edd8b46",
+  "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release-sign.yml",
+      "source_repo": "AcademySoftwareFoundation/OpenShadingLanguage"
+    }
+  ]
+}

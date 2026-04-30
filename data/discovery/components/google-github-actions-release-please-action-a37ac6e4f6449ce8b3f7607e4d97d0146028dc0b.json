@@ -1,7 +1,7 @@
 {
   "component": "google-github-actions/release-please-action@a37ac6e4f6449ce8b3f7607e4d97d0146028dc0b",
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",

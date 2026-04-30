@@ -1,7 +1,7 @@
 {
   "component": "github/issue-labeler@c1b0f9f52a63158c4adc09425e858e87b32e9685",
   "first_seen_at": "2026-04-19T17:42:30.117329+00:00",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -22,6 +22,31 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/issues-auto-manager.yml",
       "source_repo": "SillyTavern/SillyTavern"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/label-issue.yml",
+      "source_repo": "dotnet/dotnet-docker"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/label-issue.yaml",
+      "source_repo": "biomejs/biome"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/pr-label.yaml",
+      "source_repo": "web-infra-dev/rsbuild"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/pr-label.yaml",
+      "source_repo": "web-infra-dev/rsdoctor"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/pr-label.yaml",
+      "source_repo": "web-infra-dev/rslib"
     }
   ]
 }

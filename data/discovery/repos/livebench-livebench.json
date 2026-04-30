@@ -1,0 +1,45 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "LiveBench/LiveBench",
+      "target": "rohan2002/ifeval",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T02:45:59.206064+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 16312
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 1207
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "LiveBench: A Challenging, Contamination-Free LLM Benchmark",
+    "fork": false,
+    "full_name": "LiveBench/LiveBench",
+    "html_url": "https://github.com/LiveBench/LiveBench",
+    "language": "Python",
+    "pushed_at": "2026-04-27T03:36:52Z",
+    "stargazers_count": 1157,
+    "topics": [],
+    "updated_at": "2026-04-29T08:53:20Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "rohan2002/ifeval",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

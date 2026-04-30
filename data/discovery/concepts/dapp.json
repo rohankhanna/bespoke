@@ -55,6 +55,30 @@
       "source_repo": "Uniswap/web3-react",
       "status": "candidate-context",
       "text": "[![CI](https://github.com/Uniswap/web3-react/actions/workflows/CI.yml/badge.svg)](https://github.com/Uniswap/web3-react/actions/workflows/CI.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "celo-org/celo-composer",
+      "status": "candidate-context",
+      "text": "celo-composer is a starter project with all code needed to build, deploy, and upgrade a dapps on Celo."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "celo-org/celo-composer",
+      "status": "candidate-context",
+      "text": "A powerful CLI tool for generating customizable Celo blockchain starter kits with modern monorepo architecture."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "coasys/ad4m",
+      "status": "candidate-context",
+      "text": "Agent-centric social network and interoperability dApp framework"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "coasys/ad4m",
+      "status": "candidate-context",
+      "text": "[![Website](https://img.shields.io/badge/Website-coasys.org-brightgreen)](http://coasys.org/)"
     }
   ],
   "candidate_glosses": [
@@ -81,6 +105,18 @@
       "source_repo": "Uniswap/web3-react",
       "status": "candidate",
       "text": "[![CI](https://github.com/Uniswap/web3-react/actions/workflows/CI.yml/badge.svg)](https://github.com/Uniswap/web3-react/actions/workflows/CI.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "celo-org/celo-composer",
+      "status": "candidate",
+      "text": "A powerful CLI tool for generating customizable Celo blockchain starter kits with modern monorepo architecture."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "coasys/ad4m",
+      "status": "candidate",
+      "text": "[![Website](https://img.shields.io/badge/Website-coasys.org-brightgreen)](http://coasys.org/)"
     }
   ],
   "candidate_related_terms": [
@@ -172,11 +208,29 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "dethcrypto/eth-sdk"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "dethcrypto/eth-sdk"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "celo-org/celo-composer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "coasys/ad4m"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

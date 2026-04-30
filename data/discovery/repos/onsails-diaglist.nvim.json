@@ -1,0 +1,102 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "onsails/diaglist.nvim",
+      "target": "loclist",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "onsails/diaglist.nvim",
+      "target": "neovim",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "onsails/diaglist.nvim",
+      "target": "nvim",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "onsails/diaglist.nvim",
+      "target": "quickfix",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "onsails/diaglist.nvim",
+      "target": "workspace-diagnostics",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T01:38:42.050088+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1169
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Live render workspace diagnostics in quickfix with current buf errors on top, buffer diagnostics in loclist",
+    "fork": false,
+    "full_name": "onsails/diaglist.nvim",
+    "html_url": "https://github.com/onsails/diaglist.nvim",
+    "language": "Lua",
+    "pushed_at": "2025-09-17T19:12:15Z",
+    "stargazers_count": 207,
+    "topics": [
+      "loclist",
+      "lsp",
+      "lua",
+      "neovim",
+      "nvim",
+      "quickfix",
+      "workspace-diagnostics"
+    ],
+    "updated_at": "2026-04-26T15:04:08Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "![demo](https://github.com/onsails/diaglist.nvim/raw/gif/demo.gif)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "loclist"
+    },
+    {
+      "context_snippet": "![demo](https://github.com/onsails/diaglist.nvim/raw/gif/demo.gif)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "neovim"
+    },
+    {
+      "context_snippet": "![demo](https://github.com/onsails/diaglist.nvim/raw/gif/demo.gif)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nvim"
+    },
+    {
+      "context_snippet": "![demo](https://github.com/onsails/diaglist.nvim/raw/gif/demo.gif)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "quickfix"
+    },
+    {
+      "context_snippet": "![demo](https://github.com/onsails/diaglist.nvim/raw/gif/demo.gif)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "workspace-diagnostics"
+    }
+  ]
+}

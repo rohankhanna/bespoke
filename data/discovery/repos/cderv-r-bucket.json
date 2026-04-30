@@ -1,0 +1,311 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/comment-commands.yml"
+    },
+    {
+      "component": "ScoopInstaller/Scoop-GithubActions@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/comment-commands.yml"
+    },
+    {
+      "component": "actions/checkout@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pull-request.yml"
+    },
+    {
+      "component": "ScoopInstaller/Scoop-GithubActions@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pull-request.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/schedule.yml"
+    },
+    {
+      "component": "ScoopInstaller/Scoop-GithubActions@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/schedule.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/schedule.yml"
+    },
+    {
+      "component": "EndBug/add-and-commit@v9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/schedule.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "cderv/r-bucket",
+      "target": "a2-ai/rv",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "cderv/r-bucket",
+      "target": "dpastoor/qvm",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "cderv/r-bucket",
+      "target": "dicklesworthstone/beads_viewer",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "cderv/r-bucket",
+      "target": "dicklesworthstone/beads_rust",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/comment-commands.yml",
+      "source_repo": "cderv/r-bucket",
+      "target": "actions/checkout@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/comment-commands.yml",
+      "source_repo": "cderv/r-bucket",
+      "target": "ScoopInstaller/Scoop-GithubActions@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/comment-commands.yml",
+      "source_repo": "cderv/r-bucket",
+      "target": "Pull requests comment",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pull-request.yml",
+      "source_repo": "cderv/r-bucket",
+      "target": "actions/checkout@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pull-request.yml",
+      "source_repo": "cderv/r-bucket",
+      "target": "ScoopInstaller/Scoop-GithubActions@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pull-request.yml",
+      "source_repo": "cderv/r-bucket",
+      "target": "Pull requests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/schedule.yml",
+      "source_repo": "cderv/r-bucket",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/schedule.yml",
+      "source_repo": "cderv/r-bucket",
+      "target": "ScoopInstaller/Scoop-GithubActions@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/schedule.yml",
+      "source_repo": "cderv/r-bucket",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/schedule.yml",
+      "source_repo": "cderv/r-bucket",
+      "target": "EndBug/add-and-commit@v9",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/schedule.yml",
+      "source_repo": "cderv/r-bucket",
+      "target": "Excavator",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cderv/r-bucket",
+      "target": "rstats",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cderv/r-bucket",
+      "target": "rstudio",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cderv/r-bucket",
+      "target": "scoop",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cderv/r-bucket",
+      "target": "scoop-bucket",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cderv/r-bucket",
+      "target": "texlive",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cderv/r-bucket",
+      "target": "texlive-distribution",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T04:12:51.689359+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 25916
+    },
+    {
+      "path": ".github/workflows/comment-commands.yml",
+      "size": 413
+    },
+    {
+      "path": ".github/workflows/pull-request.yml",
+      "size": 343
+    },
+    {
+      "path": ".github/workflows/schedule.yml",
+      "size": 1246
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Personal scoop bucket I use as an R user and software engineer",
+    "fork": false,
+    "full_name": "cderv/r-bucket",
+    "html_url": "https://github.com/cderv/r-bucket",
+    "language": "PowerShell",
+    "pushed_at": "2026-04-30T03:17:55Z",
+    "stargazers_count": 59,
+    "topics": [
+      "rstats",
+      "rstudio",
+      "scoop",
+      "scoop-bucket",
+      "texlive",
+      "texlive-distribution"
+    ],
+    "updated_at": "2026-04-30T03:17:58Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "a2-ai/rv",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dicklesworthstone/beads_rust",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dicklesworthstone/beads_viewer",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dpastoor/qvm",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Pull requests comment",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/comment-commands.yml",
+      "term": "Pull requests comment"
+    },
+    {
+      "context_snippet": "Pull requests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pull-request.yml",
+      "term": "Pull requests"
+    },
+    {
+      "context_snippet": "Excavator",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/schedule.yml",
+      "term": "Excavator"
+    },
+    {
+      "context_snippet": "![](https://github.com/cderv/r-bucket/workflows/Excavator/badge.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rstats"
+    },
+    {
+      "context_snippet": "![](https://github.com/cderv/r-bucket/workflows/Excavator/badge.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rstudio"
+    },
+    {
+      "context_snippet": "![](https://github.com/cderv/r-bucket/workflows/Excavator/badge.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "scoop"
+    },
+    {
+      "context_snippet": "![](https://github.com/cderv/r-bucket/workflows/Excavator/badge.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "scoop-bucket"
+    },
+    {
+      "context_snippet": "![](https://github.com/cderv/r-bucket/workflows/Excavator/badge.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "texlive"
+    },
+    {
+      "context_snippet": "![](https://github.com/cderv/r-bucket/workflows/Excavator/badge.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "texlive-distribution"
+    }
+  ]
+}

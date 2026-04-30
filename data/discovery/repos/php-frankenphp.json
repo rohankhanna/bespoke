@@ -279,30 +279,9 @@
   "edges": [
     {
       "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "php/frankenphp",
-      "target": "php/pie",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "php/frankenphp",
-      "target": "stephenmiracle/frankenwp",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "php/frankenphp",
-      "target": "ochorocho/franken-typo3",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
       "source_file": "Dockerfile",
       "source_repo": "php/frankenphp",
-      "target": "docker-library/php",
+      "target": "mlocati/docker-php-extension-installer",
       "target_type": "repository"
     },
     {
@@ -572,7 +551,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-24T09:08:17.211254+00:00",
+  "fetched_at": "2026-04-30T01:44:34.842377+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -588,7 +567,7 @@
     },
     {
       "path": ".github/workflows/docker.yaml",
-      "size": 11770
+      "size": 11986
     },
     {
       "path": ".github/workflows/docs.yaml",
@@ -604,7 +583,7 @@
     },
     {
       "path": ".github/workflows/static.yaml",
-      "size": 23230
+      "size": 23554
     },
     {
       "path": ".github/workflows/tests.yaml",
@@ -624,8 +603,8 @@
     "full_name": "php/frankenphp",
     "html_url": "https://github.com/php/frankenphp",
     "language": "Go",
-    "pushed_at": "2026-04-24T06:11:52Z",
-    "stargazers_count": 11011,
+    "pushed_at": "2026-04-28T10:09:52Z",
+    "stargazers_count": 11026,
     "topics": [
       "caddy",
       "frankenphp",
@@ -634,27 +613,12 @@
       "sapi",
       "worker"
     ],
-    "updated_at": "2026-04-24T08:55:28Z"
+    "updated_at": "2026-04-29T21:00:51Z"
   },
   "repo_links": [
     {
       "edge_type": "explicit-github-link",
-      "full_name": "ochorocho/franken-typo3",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "php/pie",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "stephenmiracle/frankenwp",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "docker-library/php",
+      "full_name": "mlocati/docker-php-extension-installer",
       "source_file": "Dockerfile"
     }
   ],

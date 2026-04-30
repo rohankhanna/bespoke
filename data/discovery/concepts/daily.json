@@ -68,6 +68,30 @@
       "source_repo": "open-edge-platform/training_extensions",
       "status": "candidate-context",
       "text": "Daily"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "open-edge-platform/geti-instant-learn",
+      "status": "candidate-context",
+      "text": " A modular framework for few-shot visual segmentation using visual prompting techniques. Enables easy experimentation with different algorithms, backbones (SAM, MobileSAM, DinoV2), and pipeline components for finding and segmenting objects from just a few examples. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "open-edge-platform/geti-instant-learn",
+      "status": "candidate-context",
+      "text": "daily"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ImageMagick/ImageMagick",
+      "status": "candidate-context",
+      "text": "ImageMagick is a free, open-source software suite for creating, editing, converting, and displaying images. It supports 200+ formats and offers powerful command-line tools and APIs for automation, scripting, and integration across platforms."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ImageMagick/ImageMagick",
+      "status": "candidate-context",
+      "text": "Daily"
     }
   ],
   "candidate_glosses": [
@@ -98,6 +122,18 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "open-edge-platform/training_extensions",
+      "status": "candidate",
+      "text": "Daily"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "open-edge-platform/geti-instant-learn",
+      "status": "candidate",
+      "text": "daily"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ImageMagick/ImageMagick",
       "status": "candidate",
       "text": "Daily"
     }
@@ -209,11 +245,23 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": ".github/workflows/daily.yml",
       "source_repo": "open-edge-platform/training_extensions"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/daily.yml",
+      "source_repo": "open-edge-platform/geti-instant-learn"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/daily.yml",
+      "source_repo": "ImageMagick/ImageMagick"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

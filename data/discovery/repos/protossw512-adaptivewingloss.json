@@ -1,0 +1,45 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "protossw512/AdaptiveWingLoss",
+      "target": "princeton-vl/pose-hg-train",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T01:56:43.122391+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2823
+    },
+    {
+      "path": "requirements.txt",
+      "size": 171
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "[ICCV 2019] Adaptive Wing Loss for Robust Face Alignment via Heatmap Regression - Official Implementation",
+    "fork": false,
+    "full_name": "protossw512/AdaptiveWingLoss",
+    "html_url": "https://github.com/protossw512/AdaptiveWingLoss",
+    "language": "Python",
+    "pushed_at": "2024-07-25T10:57:54Z",
+    "stargazers_count": 412,
+    "topics": [],
+    "updated_at": "2025-12-15T11:54:13Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "princeton-vl/pose-hg-train",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

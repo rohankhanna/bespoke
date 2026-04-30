@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Positron, a next-generation data science IDE"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "'Nightly: Bootstrap Extensions Check'"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "'Nightly: Bootstrap Extensions Check'"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24803,
+      "status": "candidate",
+      "text": "percussion"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24763,
+      "status": "candidate",
+      "text": "jackboot"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24763,
+      "status": "candidate",
+      "text": "shoe"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24763,
+      "status": "candidate",
+      "text": "shoeing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 23763,
+      "status": "candidate",
+      "text": "toe"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Nightly: Bootstrap Extensions Check",
+      "sense_id": "nightly-bootstrap-extensions-check#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "nightly-bootstrap-extensions-check",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "nightly-bootstrap-extensions-check",
+  "observation_id": "ac021efe56dba029",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-30T00:37:16.824464+00:00",
+  "observed_text": "Nightly: Bootstrap Extensions Check",
+  "source_context_snippet": "'Nightly: Bootstrap Extensions Check'",
+  "source_file": ".github/workflows/extensions-check-nightly.yml",
+  "source_repo": "posit-dev/positron",
+  "source_repo_description": "Positron, a next-generation data science IDE"
+}

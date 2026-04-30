@@ -5,7 +5,9 @@
   "ambiguity_status": "unresolved",
   "buckets": [
     "workflow-process",
-    "data-document-artifact"
+    "data-document-artifact",
+    "tool-component",
+    "capability"
   ],
   "candidate_definitions": [
     {
@@ -19,6 +21,18 @@
       "source_repo": "catalyst-team/catalyst",
       "status": "candidate-context",
       "text": "catalyst"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "leetal/ios-cmake",
+      "status": "candidate-context",
+      "text": "A CMake toolchain file for iOS/iPadOS, visionOS, macOS, watchOS & tvOS C/C++/Obj-C++ development"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "leetal/ios-cmake",
+      "status": "candidate-context",
+      "text": "A CMake toolchain file for iOS (+ Catalyst), watchOS, tvOS and macOS development with full simulator support and toggleable options!"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +41,12 @@
       "source_repo": "catalyst-team/catalyst",
       "status": "candidate",
       "text": "catalyst"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "leetal/ios-cmake",
+      "status": "candidate",
+      "text": "A CMake toolchain file for iOS (+ Catalyst), watchOS, tvOS and macOS development with full simulator support and toggleable options!"
     }
   ],
   "candidate_related_terms": [
@@ -84,11 +104,17 @@
       "observed_at": "2026-04-23T01:09:11.871080+00:00",
       "source_file": ".github/workflows/dl_cpu.yml",
       "source_repo": "catalyst-team/catalyst"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "leetal/ios-cmake"
     }
   ],
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

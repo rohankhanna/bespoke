@@ -128,13 +128,6 @@
   ],
   "edges": [
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "invoke-ai/InvokeAI",
-      "target": "invoke-ai/launcher",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/build-container.yml",
       "source_repo": "invoke-ai/InvokeAI",
@@ -450,7 +443,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-21T11:33:00.590685+00:00",
+  "fetched_at": "2026-04-30T03:52:33.368975+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -482,7 +475,7 @@
     },
     {
       "path": ".github/workflows/frontend-checks.yml",
-      "size": 2560
+      "size": 3045
     },
     {
       "path": ".github/workflows/frontend-tests.yml",
@@ -502,8 +495,8 @@
     "full_name": "invoke-ai/InvokeAI",
     "html_url": "https://github.com/invoke-ai/InvokeAI",
     "language": "TypeScript",
-    "pushed_at": "2026-04-21T02:01:57Z",
-    "stargazers_count": 27029,
+    "pushed_at": "2026-04-27T21:35:23Z",
+    "stargazers_count": 27074,
     "topics": [
       "ai-art",
       "artificial-intelligence",
@@ -519,15 +512,9 @@
       "txt2img",
       "windows"
     ],
-    "updated_at": "2026-04-21T08:21:08Z"
+    "updated_at": "2026-04-30T00:07:19Z"
   },
-  "repo_links": [
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "invoke-ai/launcher",
-      "source_file": "README.md"
-    }
-  ],
+  "repo_links": [],
   "terms": [
     {
       "context_snippet": "build container image",

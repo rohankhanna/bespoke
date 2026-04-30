@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Homebrew tap for Buf."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "This provides a [Homebrew](https://brew.sh) tap for [Buf](https://github.com/bufbuild/buf)."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "This provides a [Homebrew](https://brew.sh) tap for [Buf](https://github.com/bufbuild/buf)."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "protocol-buffers",
+      "sense_id": "protocol-buffers#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "protocol-buffers",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "protocol-buffers",
+  "observation_id": "bc4990e4441ed22e",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T00:37:16.824464+00:00",
+  "observed_text": "protocol-buffers",
+  "source_context_snippet": "This provides a [Homebrew](https://brew.sh) tap for [Buf](https://github.com/bufbuild/buf).",
+  "source_file": null,
+  "source_repo": "bufbuild/homebrew-buf",
+  "source_repo_description": "Homebrew tap for Buf."
+}

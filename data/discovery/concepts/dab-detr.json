@@ -19,6 +19,18 @@
       "source_repo": "IDEA-Research/detrex",
       "status": "candidate-context",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "IDEA-Research/DAB-DETR",
+      "status": "candidate-context",
+      "text": "[ICLR 2022] Official implementation of the paper \"DAB-DETR: Dynamic Anchor Boxes are Better Queries for DETR\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "IDEA-Research/DAB-DETR",
+      "status": "candidate-context",
+      "text": "\ufeff# DAB-DETR"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "IDEA-Research/detrex",
       "status": "candidate",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "IDEA-Research/DAB-DETR",
+      "status": "candidate",
+      "text": "\ufeff# DAB-DETR"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": null,
       "source_repo": "IDEA-Research/detrex"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "IDEA-Research/DAB-DETR"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,11 +1,14 @@
 {
   "aliases": [
-    "precommit"
+    "precommit",
+    "PreCommit"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
     "tool-component",
-    "capability"
+    "capability",
+    "workflow-process",
+    "data-document-artifact"
   ],
   "candidate_definitions": [
     {
@@ -19,6 +22,24 @@
       "source_repo": "trufflesecurity/trufflehog",
       "status": "candidate-context",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/olive-recipes",
+      "status": "candidate-context",
+      "text": "PreCommit"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "google-deepmind/lab",
+      "status": "candidate-context",
+      "text": "A customisable 3D platform for agent-based AI research"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google-deepmind/lab",
+      "status": "candidate-context",
+      "text": "precommit"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +48,18 @@
       "source_repo": "trufflesecurity/trufflehog",
       "status": "candidate",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/olive-recipes",
+      "status": "candidate",
+      "text": "PreCommit"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google-deepmind/lab",
+      "status": "candidate",
+      "text": "precommit"
     }
   ],
   "candidate_related_terms": [
@@ -76,11 +109,23 @@
       "observed_at": "2026-04-21T11:24:10.450489+00:00",
       "source_file": null,
       "source_repo": "trufflesecurity/trufflehog"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/precommit.yml",
+      "source_repo": "microsoft/olive-recipes"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/precommit.yml",
+      "source_repo": "google-deepmind/lab"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -43,6 +43,18 @@
       "source_repo": "MMMU-Benchmark/MMMU",
       "status": "candidate-context",
       "text": "[**\ud83c\udf10 Homepage**](https://mmmu-benchmark.github.io/) | [**\ud83c\udfc6 Leaderboard**](https://mmmu-benchmark.github.io/#leaderboard) | [**\ud83e\udd17 MMMU-Pro**](https://huggingface.co/datasets/MMMU/MMMU_Pro) | [**\ud83d\udcd6 MMMU-Pro arXiv**](https://arxiv.org/abs/2409.02813) | [**\ud83e\udd17 MMMU**](https://huggingfac\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lucidrains/flamingo-pytorch",
+      "status": "candidate-context",
+      "text": "Implementation of \ud83e\udda9 Flamingo, state-of-the-art few-shot visual question answering attention net out of Deepmind, in Pytorch"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lucidrains/flamingo-pytorch",
+      "status": "candidate-context",
+      "text": "<img src=\"./flamingo.png\" width=\"500px\"></img>"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +75,12 @@
       "source_repo": "MMMU-Benchmark/MMMU",
       "status": "candidate",
       "text": "[**\ud83c\udf10 Homepage**](https://mmmu-benchmark.github.io/) | [**\ud83c\udfc6 Leaderboard**](https://mmmu-benchmark.github.io/#leaderboard) | [**\ud83e\udd17 MMMU-Pro**](https://huggingface.co/datasets/MMMU/MMMU_Pro) | [**\ud83d\udcd6 MMMU-Pro arXiv**](https://arxiv.org/abs/2409.02813) | [**\ud83e\udd17 MMMU**](https://huggingfac\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lucidrains/flamingo-pytorch",
+      "status": "candidate",
+      "text": "<img src=\"./flamingo.png\" width=\"500px\"></img>"
     }
   ],
   "candidate_related_terms": [],
@@ -88,11 +106,17 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": null,
       "source_repo": "MMMU-Benchmark/MMMU"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "lucidrains/flamingo-pytorch"
     }
   ],
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

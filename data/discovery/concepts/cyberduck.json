@@ -19,6 +19,30 @@
       "source_repo": "iterate-ch/cyberduck",
       "status": "candidate-context",
       "text": "[![GitHub commit](https://img.shields.io/github/last-commit/iterate-ch/cyberduck)](https://github.com/iterate-ch/cyberduck/commits/master)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "iterate-ch/docs",
+      "status": "candidate-context",
+      "text": "Documentation for Cyberduck and Mountain Duck."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "iterate-ch/docs",
+      "status": "candidate-context",
+      "text": "[![CI](https://github.com/iterate-ch/docs/actions/workflows/CI.yml/badge.svg)](https://github.com/iterate-ch/docs/actions/workflows/CI.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "iterate-ch/profiles",
+      "status": "candidate-context",
+      "text": "Connection Profiles for Cyberduck & Mountain Duck"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "iterate-ch/profiles",
+      "status": "candidate-context",
+      "text": "Companion repository for [Cyberduck](https://github.com/iterate-ch/cyberduck) and [Mountain Duck](https://mountainduck.io/) containing third-party connection profiles. Please refer to the [documentation](https://docs.cyberduck.io/protocols/profiles/) for more information and how\u2026"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +51,18 @@
       "source_repo": "iterate-ch/cyberduck",
       "status": "candidate",
       "text": "[![GitHub commit](https://img.shields.io/github/last-commit/iterate-ch/cyberduck)](https://github.com/iterate-ch/cyberduck/commits/master)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "iterate-ch/docs",
+      "status": "candidate",
+      "text": "[![CI](https://github.com/iterate-ch/docs/actions/workflows/CI.yml/badge.svg)](https://github.com/iterate-ch/docs/actions/workflows/CI.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "iterate-ch/profiles",
+      "status": "candidate",
+      "text": "Companion repository for [Cyberduck](https://github.com/iterate-ch/cyberduck) and [Mountain Duck](https://mountainduck.io/) containing third-party connection profiles. Please refer to the [documentation](https://docs.cyberduck.io/protocols/profiles/) for more information and how\u2026"
     }
   ],
   "candidate_related_terms": [
@@ -76,11 +112,23 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "iterate-ch/cyberduck"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "iterate-ch/docs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "iterate-ch/profiles"
     }
   ],
   "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

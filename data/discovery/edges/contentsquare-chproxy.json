@@ -1,0 +1,132 @@
+{
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go-test.yaml",
+      "source_repo": "ContentSquare/chproxy",
+      "target": "ContentSquare/actions-checkout@approved-v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go-test.yaml",
+      "source_repo": "ContentSquare/chproxy",
+      "target": "ContentSquare/actions-setup-go@approved-v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go-test.yaml",
+      "source_repo": "ContentSquare/chproxy",
+      "target": "ContentSquare/ncruces-go-coverage-report@approved-21fa4b59396f242b81896a3cd212a463589b6742",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/go-test.yaml",
+      "source_repo": "ContentSquare/chproxy",
+      "target": "go-test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/golangci-lint.yaml",
+      "source_repo": "ContentSquare/chproxy",
+      "target": "ContentSquare/actions-checkout@approved-v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/golangci-lint.yaml",
+      "source_repo": "ContentSquare/chproxy",
+      "target": "ContentSquare/actions-setup-go@approved-v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/golangci-lint.yaml",
+      "source_repo": "ContentSquare/chproxy",
+      "target": "contentsquare/golangci-golangci-lint-action@approved-v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/golangci-lint.yaml",
+      "source_repo": "ContentSquare/chproxy",
+      "target": "golangci-lint",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "ContentSquare/chproxy",
+      "target": "ContentSquare/actions-checkout@approved-v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "ContentSquare/chproxy",
+      "target": "ContentSquare/actions-setup-go@approved-v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "ContentSquare/chproxy",
+      "target": "ContentSquare/docker-setup-buildx-action@approved-v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "ContentSquare/chproxy",
+      "target": "ContentSquare/docker-login-action@approved-v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "ContentSquare/chproxy",
+      "target": "goreleaser/goreleaser-action@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "ContentSquare/chproxy",
+      "target": "goreleaser",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ContentSquare/chproxy",
+      "target": "clickhouse",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ContentSquare/chproxy",
+      "target": "clickhouse-proxy",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ContentSquare/chproxy",
+      "target": "load-balancer",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ContentSquare/chproxy",
+      "target": "proxy",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-30T00:37:16.824464+00:00",
+  "source_repo": "ContentSquare/chproxy"
+}

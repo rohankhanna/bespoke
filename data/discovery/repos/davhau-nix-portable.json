@@ -1,0 +1,341 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nix-portable.yml"
+    },
+    {
+      "component": "cachix/install-nix-action@4e002c8ec80594ecd40e759629461e26c8abed15",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nix-portable.yml"
+    },
+    {
+      "component": "cachix/cachix-action@v14",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nix-portable.yml"
+    },
+    {
+      "component": "docker/setup-qemu-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nix-portable.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nix-portable.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nix-portable.yml"
+    },
+    {
+      "component": "cachix/install-nix-action@4e002c8ec80594ecd40e759629461e26c8abed15",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nix-portable.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nix-portable.yml"
+    },
+    {
+      "component": "cachix/install-nix-action@4e002c8ec80594ecd40e759629461e26c8abed15",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nix-portable.yml"
+    },
+    {
+      "component": "cachix/cachix-action@v14",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nix-portable.yml"
+    },
+    {
+      "component": "docker/setup-qemu-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nix-portable.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nix-portable.yml"
+    },
+    {
+      "component": "cachix/install-nix-action@4e002c8ec80594ecd40e759629461e26c8abed15",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nix-portable.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-flake-lock.yml"
+    },
+    {
+      "component": "cachix/install-nix-action@4e002c8ec80594ecd40e759629461e26c8abed15",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-flake-lock.yml"
+    },
+    {
+      "component": "DeterminateSystems/update-flake-lock@v23",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-flake-lock.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "DavHau/nix-portable",
+      "target": "numtide/devshell",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nix-portable.yml",
+      "source_repo": "DavHau/nix-portable",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nix-portable.yml",
+      "source_repo": "DavHau/nix-portable",
+      "target": "cachix/install-nix-action@4e002c8ec80594ecd40e759629461e26c8abed15",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nix-portable.yml",
+      "source_repo": "DavHau/nix-portable",
+      "target": "cachix/cachix-action@v14",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nix-portable.yml",
+      "source_repo": "DavHau/nix-portable",
+      "target": "docker/setup-qemu-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nix-portable.yml",
+      "source_repo": "DavHau/nix-portable",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/nix-portable.yml",
+      "source_repo": "DavHau/nix-portable",
+      "target": "build and test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-flake-lock.yml",
+      "source_repo": "DavHau/nix-portable",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-flake-lock.yml",
+      "source_repo": "DavHau/nix-portable",
+      "target": "cachix/install-nix-action@4e002c8ec80594ecd40e759629461e26c8abed15",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-flake-lock.yml",
+      "source_repo": "DavHau/nix-portable",
+      "target": "DeterminateSystems/update-flake-lock@v23",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/update-flake-lock.yml",
+      "source_repo": "DavHau/nix-portable",
+      "target": "update-flake-lock",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "DavHau/nix-portable",
+      "target": "bubblewrap",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "DavHau/nix-portable",
+      "target": "bwrap",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "DavHau/nix-portable",
+      "target": "namespaces",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "DavHau/nix-portable",
+      "target": "nixos",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "DavHau/nix-portable",
+      "target": "package-management",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "DavHau/nix-portable",
+      "target": "package-manager",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "DavHau/nix-portable",
+      "target": "permissionless",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "DavHau/nix-portable",
+      "target": "portable",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "DavHau/nix-portable",
+      "target": "proot",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T03:56:53.346839+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6675
+    },
+    {
+      "path": ".github/workflows/nix-portable.yml",
+      "size": 3062
+    },
+    {
+      "path": ".github/workflows/update-flake-lock.yml",
+      "size": 633
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Nix - Static, Permissionless, Installation-free, Pre-configured",
+    "fork": false,
+    "full_name": "DavHau/nix-portable",
+    "html_url": "https://github.com/DavHau/nix-portable",
+    "language": "Nix",
+    "pushed_at": "2026-04-30T00:27:34Z",
+    "stargazers_count": 1325,
+    "topics": [
+      "bubblewrap",
+      "bwrap",
+      "namespaces",
+      "nix",
+      "nixos",
+      "package-management",
+      "package-manager",
+      "permissionless",
+      "portable",
+      "proot"
+    ],
+    "updated_at": "2026-04-29T13:51:39Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "numtide/devshell",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "\"build and test\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/nix-portable.yml",
+      "term": "build and test"
+    },
+    {
+      "context_snippet": "update-flake-lock",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/update-flake-lock.yml",
+      "term": "update-flake-lock"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bubblewrap"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bwrap"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "namespaces"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nixos"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "package-management"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "package-manager"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "permissionless"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "portable"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "proot"
+    }
+  ]
+}

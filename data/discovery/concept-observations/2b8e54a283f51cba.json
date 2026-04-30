@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Header only C++11 tiny glTF 2.0 library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "`TinyGLTF` is a header only C++ glTF 2.0 https://github.com/KhronosGroup/glTF library."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "`TinyGLTF` is a header only C++ glTF 2.0 https://github.com/KhronosGroup/glTF library."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "gltf",
+      "sense_id": "gltf#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "gltf",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "gltf",
+  "observation_id": "2b8e54a283f51cba",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T00:37:16.824464+00:00",
+  "observed_text": "gltf",
+  "source_context_snippet": "`TinyGLTF` is a header only C++ glTF 2.0 https://github.com/KhronosGroup/glTF library.",
+  "source_file": null,
+  "source_repo": "syoyo/tinygltf",
+  "source_repo_description": "Header only C++11 tiny glTF 2.0 library"
+}

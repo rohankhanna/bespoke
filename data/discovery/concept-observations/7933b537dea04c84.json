@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "\u30d7\u30ed\u30b0\u30e9\u30df\u30f3\u30b0\u7528\u65e5\u672c\u8a9e\u7b49\u5e45\u30d5\u30a9\u30f3\u30c8 Cica(\u30b7\u30ab)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "| | |"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "| | |"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "programming-font",
+      "sense_id": "programming-font#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "programming-font",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "programming-font",
+  "observation_id": "7933b537dea04c84",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T00:37:16.824464+00:00",
+  "observed_text": "programming-font",
+  "source_context_snippet": "| | |",
+  "source_file": null,
+  "source_repo": "miiton/Cica",
+  "source_repo_description": "\u30d7\u30ed\u30b0\u30e9\u30df\u30f3\u30b0\u7528\u65e5\u672c\u8a9e\u7b49\u5e45\u30d5\u30a9\u30f3\u30c8 Cica(\u30b7\u30ab)"
+}

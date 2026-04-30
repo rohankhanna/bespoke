@@ -1,0 +1,53 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "xledger/pod_tsql_scriptdom",
+      "target": "borkdude/babashka",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "xledger/pod_tsql_scriptdom",
+      "target": "babashka/babashka.pods",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T04:04:35.494256+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1352
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "babashka pod for using Microsoft.SqlServer.TransactSql.ScriptDom, a .NET T-SQL parsing / script generation library.",
+    "fork": false,
+    "full_name": "xledger/pod_tsql_scriptdom",
+    "html_url": "https://github.com/xledger/pod_tsql_scriptdom",
+    "language": "C#",
+    "pushed_at": "2022-07-05T19:19:48Z",
+    "stargazers_count": 4,
+    "topics": [],
+    "updated_at": "2022-07-21T17:27:55Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "babashka/babashka.pods",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "borkdude/babashka",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

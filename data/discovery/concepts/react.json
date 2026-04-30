@@ -843,6 +843,198 @@
       "source_repo": "emotion-js/emotion",
       "status": "candidate-context",
       "text": "<p align=\"center\" style=\"color: #343a40\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Yomguithereal/react-blessed",
+      "status": "candidate-context",
+      "text": "A react renderer for blessed."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Yomguithereal/react-blessed",
+      "status": "candidate-context",
+      "text": "A [React](https://facebook.github.io/react/) custom renderer for the [blessed](https://github.com/chjj/blessed) library."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "celo-org/celo-composer",
+      "status": "candidate-context",
+      "text": "celo-composer is a starter project with all code needed to build, deploy, and upgrade a dapps on Celo."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "celo-org/celo-composer",
+      "status": "candidate-context",
+      "text": "A powerful CLI tool for generating customizable Celo blockchain starter kits with modern monorepo architecture."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "celo-org/react-celo",
+      "status": "candidate-context",
+      "text": "Connect your react dApp to Celo"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "celo-org/react-celo",
+      "status": "candidate-context",
+      "text": "react-celo-root"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "redis-developer/redis-product-search",
+      "status": "candidate-context",
+      "text": "Visual and semantic vector similarity with Redis Stack, FastAPI, PyTorch and Huggingface."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "redis-developer/redis-product-search",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "formatjs/formatjs",
+      "status": "candidate-context",
+      "text": "The monorepo home to all of the FormatJS related libraries, most notably react-intl."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "formatjs/formatjs",
+      "status": "candidate-context",
+      "text": "[![Unit Tests](https://github.com/formatjs/formatjs/actions/workflows/tests.yml/badge.svg)](https://github.com/formatjs/formatjs/actions/workflows/tests.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Automattic/harper",
+      "status": "candidate-context",
+      "text": "Offline, privacy-first grammar checker. Fast, open-source, Rust-powered"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Automattic/harper",
+      "status": "candidate-context",
+      "text": "<div id=\"header\" align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "WebCu/gatsby-material-kit-react",
+      "status": "candidate-context",
+      "text": "Adapt Material Kit React to Gatsby"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "WebCu/gatsby-material-kit-react",
+      "status": "candidate-context",
+      "text": "[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2FWebCu%2Fgatsby-material-kit-react.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2FWebCu%2Fgatsby-material-kit-react?ref=badge_shield)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "appbaseio/reactivesearch",
+      "status": "candidate-context",
+      "text": "Search UI components for React and Vue"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "appbaseio/reactivesearch",
+      "status": "candidate-context",
+      "text": "<h2 align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "timarney/react-app-rewired",
+      "status": "candidate-context",
+      "text": "Override create-react-app webpack configs without ejecting"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "timarney/react-app-rewired",
+      "status": "candidate-context",
+      "text": "> \u2139\ufe0f"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "vercel/styled-jsx",
+      "status": "candidate-context",
+      "text": "Full CSS support for JSX without compromises"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vercel/styled-jsx",
+      "status": "candidate-context",
+      "text": "styled-jsx \u2014 Full CSS support for JSX without compromises"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "day8/re-frame",
+      "status": "candidate-context",
+      "text": "A ClojureScript framework for building user interfaces, leveraging React"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "day8/re-frame",
+      "status": "candidate-context",
+      "text": "<p align=\"center\"><a href=\"https://day8.github.io/re-frame\" target=\"_blank\" rel=\"noopener noreferrer\"><img src=\"docs/images/logo/re-frame-colour.png?raw=true\" alt=\"re-frame logo\"></a></p>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "i18next/react-i18next",
+      "status": "candidate-context",
+      "text": "Internationalization for react done right. Using the i18next i18n ecosystem."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "i18next/react-i18next",
+      "status": "candidate-context",
+      "text": "[![CI](https://github.com/i18next/react-i18next/actions/workflows/CI.yml/badge.svg)](https://github.com/i18next/react-i18next/actions/workflows/CI.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "day8/re-com",
+      "status": "candidate-context",
+      "text": "A ClojureScript library of reusable components for Reagent"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "day8/re-com",
+      "status": "candidate-context",
+      "text": "<!-- [![CI](https://github.com/day8/re-com/workflows/ci/badge.svg)](https://github.com/day8/re-com/actions?workflow=ci)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "astahmer/typed-openapi",
+      "status": "candidate-context",
+      "text": "Generate a headless Typescript API client from an OpenAPI spec - optionally with a @tanstack/react-query client using queryOptions"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "astahmer/typed-openapi",
+      "status": "candidate-context",
+      "text": "Generate a Typescript API client from an OpenAPI spec"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Buuntu/fastapi-react",
+      "status": "candidate-context",
+      "text": "\ud83d\ude80   Cookiecutter Template for FastAPI + React Projects.  Using PostgreSQL, SQLAlchemy, and Docker"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Buuntu/fastapi-react",
+      "status": "candidate-context",
+      "text": "<div>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "fastapi/full-stack-fastapi-template",
+      "status": "candidate-context",
+      "text": "Full stack, modern web application template. Using FastAPI, React, SQLModel, PostgreSQL, Docker, GitHub Actions, automatic HTTPS and more."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fastapi/full-stack-fastapi-template",
+      "status": "candidate-context",
+      "text": "<a href=\"https://github.com/fastapi/full-stack-fastapi-template/actions?query=workflow%3A%22Test+Docker+Compose%22\" target=\"_blank\"><img src=\"https://github.com/fastapi/full-stack-fastapi-template/workflows/Test%20Docker%20Compose/badge.svg\" alt=\"Test Docker Compose\"></a>"
     }
   ],
   "candidate_glosses": [
@@ -1265,6 +1457,102 @@
       "source_repo": "emotion-js/emotion",
       "status": "candidate",
       "text": "<p align=\"center\" style=\"color: #343a40\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Yomguithereal/react-blessed",
+      "status": "candidate",
+      "text": "A [React](https://facebook.github.io/react/) custom renderer for the [blessed](https://github.com/chjj/blessed) library."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "celo-org/celo-composer",
+      "status": "candidate",
+      "text": "A powerful CLI tool for generating customizable Celo blockchain starter kits with modern monorepo architecture."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "celo-org/react-celo",
+      "status": "candidate",
+      "text": "react-celo-root"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "redis-developer/redis-product-search",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "formatjs/formatjs",
+      "status": "candidate",
+      "text": "[![Unit Tests](https://github.com/formatjs/formatjs/actions/workflows/tests.yml/badge.svg)](https://github.com/formatjs/formatjs/actions/workflows/tests.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Automattic/harper",
+      "status": "candidate",
+      "text": "<div id=\"header\" align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "WebCu/gatsby-material-kit-react",
+      "status": "candidate",
+      "text": "[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2FWebCu%2Fgatsby-material-kit-react.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2FWebCu%2Fgatsby-material-kit-react?ref=badge_shield)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "appbaseio/reactivesearch",
+      "status": "candidate",
+      "text": "<h2 align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "timarney/react-app-rewired",
+      "status": "candidate",
+      "text": "> \u2139\ufe0f"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vercel/styled-jsx",
+      "status": "candidate",
+      "text": "styled-jsx \u2014 Full CSS support for JSX without compromises"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "day8/re-frame",
+      "status": "candidate",
+      "text": "<p align=\"center\"><a href=\"https://day8.github.io/re-frame\" target=\"_blank\" rel=\"noopener noreferrer\"><img src=\"docs/images/logo/re-frame-colour.png?raw=true\" alt=\"re-frame logo\"></a></p>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "i18next/react-i18next",
+      "status": "candidate",
+      "text": "[![CI](https://github.com/i18next/react-i18next/actions/workflows/CI.yml/badge.svg)](https://github.com/i18next/react-i18next/actions/workflows/CI.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "day8/re-com",
+      "status": "candidate",
+      "text": "<!-- [![CI](https://github.com/day8/re-com/workflows/ci/badge.svg)](https://github.com/day8/re-com/actions?workflow=ci)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "astahmer/typed-openapi",
+      "status": "candidate",
+      "text": "Generate a Typescript API client from an OpenAPI spec"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Buuntu/fastapi-react",
+      "status": "candidate",
+      "text": "<div>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fastapi/full-stack-fastapi-template",
+      "status": "candidate",
+      "text": "<a href=\"https://github.com/fastapi/full-stack-fastapi-template/actions?query=workflow%3A%22Test+Docker+Compose%22\" target=\"_blank\"><img src=\"https://github.com/fastapi/full-stack-fastapi-template/workflows/Test%20Docker%20Compose/badge.svg\" alt=\"Test Docker Compose\"></a>"
     }
   ],
   "candidate_related_terms": [
@@ -1875,11 +2163,137 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "emotion-js/emotion"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "facebook/create-react-app"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "vercel/next.js"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "Yomguithereal/react-blessed"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "celo-org/celo-composer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "celo-org/react-celo"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "redis-developer/redis-product-search"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "ipfs/ipfs-webui"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "formatjs/formatjs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "Automattic/harper"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "ChatGPTNextWeb/NextChat"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "WebCu/gatsby-material-kit-react"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "apollographql/apollo-scalajs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "appbaseio/reactivesearch"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "timarney/react-app-rewired"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "vercel/styled-jsx"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "day8/re-frame"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "i18next/react-i18next"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "day8/re-com"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "astahmer/typed-openapi"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "Buuntu/fastapi-react"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "fastapi/full-stack-fastapi-template"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

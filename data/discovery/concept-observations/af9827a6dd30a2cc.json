@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Lemonade helps users discover and run local AI apps by serving optimized LLMs right from their own GPUs and NPUs. Join our discord: https://discord.gg/5xXzkMu8Zk"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<p align=\"center\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19922298,
+      "status": "candidate",
+      "text": "exradio"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19922297,
+      "status": "candidate",
+      "text": "exthorio"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19922296,
+      "status": "candidate",
+      "text": "exactinio"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19922295,
+      "status": "candidate",
+      "text": "rayon"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19922294,
+      "status": "candidate",
+      "text": "roentgen-ray"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "radeon",
+      "sense_id": "radeon#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "radeon",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "radeon",
+  "observation_id": "af9827a6dd30a2cc",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T00:37:16.824464+00:00",
+  "observed_text": "radeon",
+  "source_context_snippet": "<p align=\"center\">",
+  "source_file": null,
+  "source_repo": "lemonade-sdk/lemonade",
+  "source_repo_description": "Lemonade helps users discover and run local AI apps by serving optimized LLMs right from their own GPUs and NPUs. Join our discord: https://discord.gg/5xXzkMu8Zk"
+}

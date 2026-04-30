@@ -1,0 +1,122 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "liuchengxu/vim-which-key",
+      "target": "justbur/emacs-which-key",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "liuchengxu/vim-which-key",
+      "target": "kai2nenobu/guide-key",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "liuchengxu/vim-which-key",
+      "target": "hecal3/vim-leader-guide",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "liuchengxu/vim-which-key",
+      "target": "acksld/nvim-whichkey-setup.lua",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "liuchengxu/vim-which-key",
+      "target": "neovim",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "liuchengxu/vim-which-key",
+      "target": "space-vim",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "liuchengxu/vim-which-key",
+      "target": "vim-plugin",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T00:38:20.893371+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 13720
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": ":tulip: Vim plugin that shows keybindings in popup",
+    "fork": false,
+    "full_name": "liuchengxu/vim-which-key",
+    "html_url": "https://github.com/liuchengxu/vim-which-key",
+    "language": "Vim Script",
+    "pushed_at": "2026-03-20T03:23:40Z",
+    "stargazers_count": 1989,
+    "topics": [
+      "neovim",
+      "space-vim",
+      "vim",
+      "vim-plugin"
+    ],
+    "updated_at": "2026-04-25T15:24:08Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "acksld/nvim-whichkey-setup.lua",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "hecal3/vim-leader-guide",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "justbur/emacs-which-key",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "kai2nenobu/guide-key",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<!-- TOC GFM -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "neovim"
+    },
+    {
+      "context_snippet": "<!-- TOC GFM -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "space-vim"
+    },
+    {
+      "context_snippet": "<!-- TOC GFM -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vim-plugin"
+    }
+  ]
+}

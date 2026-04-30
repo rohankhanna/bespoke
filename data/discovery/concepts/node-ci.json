@@ -331,6 +331,18 @@
       "source_repo": "archiverjs/node-archiver",
       "status": "candidate-context",
       "text": "Node CI"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "architect/architect",
+      "status": "candidate-context",
+      "text": "The simplest, most powerful way to build a functional web app (fwa)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "architect/architect",
+      "status": "candidate-context",
+      "text": "Node CI"
     }
   ],
   "candidate_glosses": [
@@ -493,6 +505,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "archiverjs/node-archiver",
+      "status": "candidate",
+      "text": "Node CI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "architect/architect",
       "status": "candidate",
       "text": "Node CI"
     }
@@ -742,11 +760,29 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": ".github/workflows/nodejs.yml",
       "source_repo": "preactjs/preact-devtools"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/nodejs.yml",
+      "source_repo": "preactjs/preact-devtools"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/nodejs.yml",
+      "source_repo": "apollographql/eslint-plugin-graphql"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "architect/architect"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

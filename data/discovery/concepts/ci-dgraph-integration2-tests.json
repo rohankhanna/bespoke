@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "ci-dgraph-integration2-tests"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dgraph-io/dgraph",
+      "status": "candidate-context",
+      "text": "high-performance graph database for real-time use cases"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dgraph-io/dgraph",
+      "status": "candidate-context",
+      "text": "ci-dgraph-integration2-tests"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dgraph-io/dgraph",
+      "status": "candidate",
+      "text": "ci-dgraph-integration2-tests"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "ci-dgraph-integration2-tests",
+  "concept_id": "ci-dgraph-integration2-tests",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/ci-dgraph-integration2-tests.yml",
+      "source_repo": "dgraph-io/dgraph"
+    }
+  ],
+  "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "ci-dgraph-integration2-tests",
+      "sense_id": "ci-dgraph-integration2-tests#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

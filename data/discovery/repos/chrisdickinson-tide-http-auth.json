@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T04:49:59.698734+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 426
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 964
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "latest",
+    "description": "HTTP auth for tide! Pretty Basic, if you'll Bearer with me",
+    "fork": false,
+    "full_name": "chrisdickinson/tide-http-auth",
+    "html_url": "https://github.com/chrisdickinson/tide-http-auth",
+    "language": "Rust",
+    "pushed_at": "2022-10-23T22:48:58Z",
+    "stargazers_count": 26,
+    "topics": [],
+    "updated_at": "2025-10-06T09:31:45Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

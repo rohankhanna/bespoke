@@ -1,7 +1,7 @@
 {
   "component": "conda-incubator/setup-miniconda@v3",
   "first_seen_at": "2026-04-19T17:42:30.117329+00:00",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -187,6 +187,66 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/test_gpu_turnkey.yml",
       "source_repo": "onnx/turnkeyml"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/testing.yml",
+      "source_repo": "TorchDR/TorchDR"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/coverage-tests.yml",
+      "source_repo": "dmlc/treelite"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/cpack-builder.yml",
+      "source_repo": "dmlc/treelite"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/linux-wheel-builder.yml",
+      "source_repo": "dmlc/treelite"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/macos-wheel-builder.yml",
+      "source_repo": "dmlc/treelite"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/misc-tests.yml",
+      "source_repo": "dmlc/treelite"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit-update.yml",
+      "source_repo": "dmlc/treelite"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yml",
+      "source_repo": "dmlc/treelite"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/windows-wheel-builder.yml",
+      "source_repo": "dmlc/treelite"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/edgetest.yml",
+      "source_repo": "capitalone/datacompy"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "vietanhdev/anylabeling"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/python.yaml",
+      "source_repo": "xorbitsai/inference"
     }
   ]
 }

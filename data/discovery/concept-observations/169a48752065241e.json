@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Apache Log4j is a versatile, feature-rich, efficient logging API and backend for Java."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "{ \"dependencies\": { \"@antora/cli\": \"^3.2.0-alpha.4\", \"@antora/site-generator-default\": \"^3.2.0-alpha.4\", \"@asciidoctor/tabs\": \"^1.0.0-beta.6\", \"asciidoctor-kroki\": \"^0.18.1\", \"fast-xml-parser\": \"^5.0.6\", \"handlebars\": \"^4.7.8\" } }"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "{ \"dependencies\": { \"@antora/cli\": \"^3.2.0-alpha.4\", \"@antora/site-generator-default\": \"^3.2.0-alpha.4\", \"@asciidoctor/tabs\": \"^1.0.0-beta.6\", \"asciidoctor-kroki\": \"^0.18.1\", \"fast-xml-parser\": \"^5.0.6\", \"handlebars\": \"^4.7.8\" } }"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24999,
+      "status": "candidate",
+      "text": "reload4j"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24998,
+      "status": "candidate",
+      "text": "apache commons logging"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24997,
+      "status": "candidate",
+      "text": "java logging framework"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24996,
+      "status": "candidate",
+      "text": "apache struts 2"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24995,
+      "status": "candidate",
+      "text": "apache struts 1"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "log4j",
+      "sense_id": "log4j#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "log4j",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "log4j",
+  "observation_id": "169a48752065241e",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T00:37:16.824464+00:00",
+  "observed_text": "log4j",
+  "source_context_snippet": "{ \"dependencies\": { \"@antora/cli\": \"^3.2.0-alpha.4\", \"@antora/site-generator-default\": \"^3.2.0-alpha.4\", \"@asciidoctor/tabs\": \"^1.0.0-beta.6\", \"asciidoctor-kroki\": \"^0.18.1\", \"fast-xml-parser\": \"^5.0.6\", \"handlebars\": \"^4.7.8\" } }",
+  "source_file": null,
+  "source_repo": "apache/logging-log4j2",
+  "source_repo_description": "Apache Log4j is a versatile, feature-rich, efficient logging API and backend for Java."
+}

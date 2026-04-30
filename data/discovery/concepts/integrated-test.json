@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Integrated Test"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "microsoft/nn-Meter",
+      "status": "candidate-context",
+      "text": "A DNN inference latency prediction toolkit for accurately modeling and predicting the latency on diverse edge devices. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/nn-Meter",
+      "status": "candidate-context",
+      "text": "Integrated Test"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/nn-Meter",
+      "status": "candidate",
+      "text": "Integrated Test"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11953,
+      "status": "candidate",
+      "text": "apparatus"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10975,
+      "status": "candidate",
+      "text": "co-ordinate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10975,
+      "status": "candidate",
+      "text": "co-ordinating"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10975,
+      "status": "candidate",
+      "text": "co-ordination"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10975,
+      "status": "candidate",
+      "text": "comprehensive"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Integrated Test",
+  "concept_id": "integrated-test",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/integration-test.yml",
+      "source_repo": "microsoft/nn-Meter"
+    }
+  ],
+  "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Integrated Test",
+      "sense_id": "integrated-test#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

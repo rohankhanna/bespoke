@@ -32,6 +32,18 @@
       "source_repo": "kubernetes-sigs/kubebuilder",
       "status": "candidate-context",
       "text": "APIDiff"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "googleapis/google-cloud-go",
+      "status": "candidate-context",
+      "text": "Google Cloud Client Libraries for Go."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "googleapis/google-cloud-go",
+      "status": "candidate-context",
+      "text": "apidiff"
     }
   ],
   "candidate_glosses": [
@@ -46,6 +58,12 @@
       "source_repo": "kubernetes-sigs/kubebuilder",
       "status": "candidate",
       "text": "APIDiff"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "googleapis/google-cloud-go",
+      "status": "candidate",
+      "text": "apidiff"
     }
   ],
   "candidate_related_terms": [],
@@ -65,11 +83,17 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": ".github/workflows/apidiff.yml",
       "source_repo": "kubernetes-sigs/kubebuilder"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/apidiff.yml",
+      "source_repo": "googleapis/google-cloud-go"
     }
   ],
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

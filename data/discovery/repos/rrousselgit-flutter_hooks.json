@@ -1,0 +1,198 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "subosito/flutter-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/add-to-project@v0.5.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/project.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "rrousselGit/flutter_hooks",
+      "target": "solido/awesome-flutter",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "rrousselGit/flutter_hooks",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "rrousselGit/flutter_hooks",
+      "target": "subosito/flutter-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "rrousselGit/flutter_hooks",
+      "target": "Build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/project.yml",
+      "source_repo": "rrousselGit/flutter_hooks",
+      "target": "actions/add-to-project@v0.5.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/project.yml",
+      "source_repo": "rrousselGit/flutter_hooks",
+      "target": "Add new issues to project",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "rrousselGit/flutter_hooks",
+      "target": "code-reuse",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "rrousselGit/flutter_hooks",
+      "target": "dart",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "rrousselGit/flutter_hooks",
+      "target": "flutter",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "rrousselGit/flutter_hooks",
+      "target": "hacktoberfest",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "rrousselGit/flutter_hooks",
+      "target": "hook",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "rrousselGit/flutter_hooks",
+      "target": "widget",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T02:54:15.709213+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 23983
+    },
+    {
+      "path": ".github/workflows/build.yml",
+      "size": 1206
+    },
+    {
+      "path": ".github/workflows/project.yml",
+      "size": 371
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "React hooks for Flutter. Hooks are a new kind of object that manages a Widget life-cycles. They are used to increase code sharing between widgets and as a complete replacement for StatefulWidget.",
+    "fork": false,
+    "full_name": "rrousselGit/flutter_hooks",
+    "html_url": "https://github.com/rrousselGit/flutter_hooks",
+    "language": "Dart",
+    "pushed_at": "2025-09-09T15:31:18Z",
+    "stargazers_count": 3321,
+    "topics": [
+      "code-reuse",
+      "dart",
+      "flutter",
+      "hacktoberfest",
+      "hook",
+      "widget"
+    ],
+    "updated_at": "2026-04-28T02:53:35Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "solido/awesome-flutter",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "term": "Build"
+    },
+    {
+      "context_snippet": "Add new issues to project",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/project.yml",
+      "term": "Add new issues to project"
+    },
+    {
+      "context_snippet": "[English](https://github.com/rrousselGit/flutter_hooks/blob/master/README.md) | [Portugu\u00eas](https://github.com/rrousselGit/flutter_hooks/blob/master/packages/flutter_hooks/resources/translations/pt_br/README.md) | [\ud55c\uad6d\uc5b4](https://github.com/rrousselGit/flutter_hooks/blob/master/pa\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "code-reuse"
+    },
+    {
+      "context_snippet": "[English](https://github.com/rrousselGit/flutter_hooks/blob/master/README.md) | [Portugu\u00eas](https://github.com/rrousselGit/flutter_hooks/blob/master/packages/flutter_hooks/resources/translations/pt_br/README.md) | [\ud55c\uad6d\uc5b4](https://github.com/rrousselGit/flutter_hooks/blob/master/pa\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dart"
+    },
+    {
+      "context_snippet": "[English](https://github.com/rrousselGit/flutter_hooks/blob/master/README.md) | [Portugu\u00eas](https://github.com/rrousselGit/flutter_hooks/blob/master/packages/flutter_hooks/resources/translations/pt_br/README.md) | [\ud55c\uad6d\uc5b4](https://github.com/rrousselGit/flutter_hooks/blob/master/pa\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "flutter"
+    },
+    {
+      "context_snippet": "[English](https://github.com/rrousselGit/flutter_hooks/blob/master/README.md) | [Portugu\u00eas](https://github.com/rrousselGit/flutter_hooks/blob/master/packages/flutter_hooks/resources/translations/pt_br/README.md) | [\ud55c\uad6d\uc5b4](https://github.com/rrousselGit/flutter_hooks/blob/master/pa\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hacktoberfest"
+    },
+    {
+      "context_snippet": "[English](https://github.com/rrousselGit/flutter_hooks/blob/master/README.md) | [Portugu\u00eas](https://github.com/rrousselGit/flutter_hooks/blob/master/packages/flutter_hooks/resources/translations/pt_br/README.md) | [\ud55c\uad6d\uc5b4](https://github.com/rrousselGit/flutter_hooks/blob/master/pa\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hook"
+    },
+    {
+      "context_snippet": "[English](https://github.com/rrousselGit/flutter_hooks/blob/master/README.md) | [Portugu\u00eas](https://github.com/rrousselGit/flutter_hooks/blob/master/packages/flutter_hooks/resources/translations/pt_br/README.md) | [\ud55c\uad6d\uc5b4](https://github.com/rrousselGit/flutter_hooks/blob/master/pa\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "widget"
+    }
+  ]
+}

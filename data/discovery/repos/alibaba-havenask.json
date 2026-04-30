@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T03:52:05.928740+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6041
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Havenask is a large-scale distributed information search system widely used within Alibaba Group",
+    "fork": false,
+    "full_name": "alibaba/havenask",
+    "html_url": "https://github.com/alibaba/havenask",
+    "language": "C++",
+    "pushed_at": "2026-04-09T02:46:59Z",
+    "stargazers_count": 1823,
+    "topics": [],
+    "updated_at": "2026-04-29T04:53:17Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

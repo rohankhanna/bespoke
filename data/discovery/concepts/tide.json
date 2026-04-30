@@ -1,0 +1,115 @@
+{
+  "aliases": [
+    "tide"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "eaze/tide-sqlx",
+      "status": "candidate-context",
+      "text": "Tide middleware for SQLx pooled connections & transactions"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "eaze/tide-sqlx",
+      "status": "candidate-context",
+      "text": "[Tide][] middleware for [SQLx][] pooled connections &amp; transactions."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "eaze/tide-sqlx",
+      "status": "candidate",
+      "text": "[Tide][] middleware for [SQLx][] pooled connections &amp; transactions."
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39968639,
+      "status": "candidate",
+      "text": "surge"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30041741,
+      "status": "candidate",
+      "text": "lunar time period"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30041740,
+      "status": "candidate",
+      "text": "groundswell"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30041198,
+      "status": "candidate",
+      "text": "tidal"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30041195,
+      "status": "candidate",
+      "text": "flood"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 51059,
+      "status": "candidate",
+      "text": "surge"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 9,
+      "status": "candidate",
+      "text": "lunar time period"
+    }
+  ],
+  "canonical_name": "tide",
+  "concept_id": "tide",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "eaze/tide-sqlx"
+    }
+  ],
+  "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "tide",
+      "sense_id": "tide#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

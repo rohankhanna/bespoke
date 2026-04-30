@@ -14,16 +14,9 @@
       "source_repo": "chenfei-wu/TaskMatrix",
       "target": "hwchase17/langchain",
       "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "chenfei-wu/TaskMatrix",
-      "target": "timojl/clipseg",
-      "target_type": "repository"
     }
   ],
-  "fetched_at": "2026-04-29T19:53:58.387755+00:00",
+  "fetched_at": "2026-04-30T04:59:47.008528+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -57,11 +50,6 @@
     {
       "edge_type": "explicit-github-link",
       "full_name": "microsoft/taskmatrix",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "timojl/clipseg",
       "source_file": "README.md"
     }
   ],

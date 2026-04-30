@@ -1,0 +1,725 @@
+{
+  "components": [
+    {
+      "component": "actions/create-github-app-token@1b10c78c7865c340bc4f6099eb2f838309f1e8c3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/backport.yml"
+    },
+    {
+      "component": "pylint-dev/backport@3adad52e5a8ba2ea731c32037442d507eed68b4c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/backport.yml"
+    },
+    {
+      "component": "actions/checkout@v6.0.2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/changelog.yml"
+    },
+    {
+      "component": "actions/setup-python@v6.2.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/changelog.yml"
+    },
+    {
+      "component": "actions/cache@v5.0.5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/changelog.yml"
+    },
+    {
+      "component": "actions/checkout@v6.0.2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/checks.yaml"
+    },
+    {
+      "component": "actions/setup-python@v6.2.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/checks.yaml"
+    },
+    {
+      "component": "actions/cache@v5.0.5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/checks.yaml"
+    },
+    {
+      "component": "actions/cache@v5.0.5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/checks.yaml"
+    },
+    {
+      "component": "actions/cache/restore@v5.0.5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/checks.yaml"
+    },
+    {
+      "component": "actions/cache/restore@v5.0.5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/checks.yaml"
+    },
+    {
+      "component": "actions/checkout@v6.0.2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    },
+    {
+      "component": "github/codeql-action/init@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    },
+    {
+      "component": "github/codeql-action/autobuild@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    },
+    {
+      "component": "github/codeql-action/analyze@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    },
+    {
+      "component": "actions/checkout@v6.0.2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/primer-test.yaml"
+    },
+    {
+      "component": "actions/setup-python@v6.2.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/primer-test.yaml"
+    },
+    {
+      "component": "actions/cache@v5.0.5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/primer-test.yaml"
+    },
+    {
+      "component": "actions/cache/restore@v5.0.5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/primer-test.yaml"
+    },
+    {
+      "component": "actions/checkout@v6.0.2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/primer_comment.yaml"
+    },
+    {
+      "component": "actions/setup-python@v6.2.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/primer_comment.yaml"
+    },
+    {
+      "component": "actions/cache@v5.0.5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/primer_comment.yaml"
+    },
+    {
+      "component": "actions/github-script@v9.0.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/primer_comment.yaml"
+    },
+    {
+      "component": "actions/github-script@v9.0.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/primer_comment.yaml"
+    },
+    {
+      "component": "kanga333/comment-hider@c12bb20b48aeb8fc098e35967de8d4f8018fffdf",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/primer_comment.yaml"
+    },
+    {
+      "component": "actions/checkout@v6.0.2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/primer_run_main.yaml"
+    },
+    {
+      "component": "actions/setup-python@v6.2.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/primer_run_main.yaml"
+    },
+    {
+      "component": "actions/cache/restore@v5.0.5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/primer_run_main.yaml"
+    },
+    {
+      "component": "actions/cache/save@v5.0.5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/primer_run_main.yaml"
+    },
+    {
+      "component": "actions/cache/restore@v5.0.5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/primer_run_main.yaml"
+    },
+    {
+      "component": "actions/cache/save@v5.0.5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/primer_run_main.yaml"
+    },
+    {
+      "component": "actions/upload-artifact@v7.0.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/primer_run_main.yaml"
+    },
+    {
+      "component": "actions/upload-artifact@v7.0.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/primer_run_main.yaml"
+    },
+    {
+      "component": "actions/checkout@v6.0.2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/primer_run_pr.yaml"
+    },
+    {
+      "component": "actions/setup-python@v6.2.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/primer_run_pr.yaml"
+    },
+    {
+      "component": "actions/cache/restore@v5.0.5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/primer_run_pr.yaml"
+    },
+    {
+      "component": "actions/cache/save@v5.0.5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/primer_run_pr.yaml"
+    },
+    {
+      "component": "actions/github-script@v9.0.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/primer_run_pr.yaml"
+    },
+    {
+      "component": "actions/cache/restore@v5.0.5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/primer_run_pr.yaml"
+    },
+    {
+      "component": "actions/cache/save@v5.0.5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/primer_run_pr.yaml"
+    },
+    {
+      "component": "actions/upload-artifact@v7.0.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/primer_run_pr.yaml"
+    },
+    {
+      "component": "actions/upload-artifact@v7.0.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/primer_run_pr.yaml"
+    },
+    {
+      "component": "actions/upload-artifact@v7.0.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/primer_run_pr.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.rst",
+      "source_repo": "pylint-dev/pylint",
+      "target": "ambv/black",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.rst",
+      "source_repo": "pylint-dev/pylint",
+      "target": "charliermarsh/ruff",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.rst",
+      "source_repo": "pylint-dev/pylint",
+      "target": "cnescatlab/pylint-sonarjson-catlab",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.rst",
+      "source_repo": "pylint-dev/pylint",
+      "target": "danielnoord/pydocstringformatter",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/backport.yml",
+      "source_repo": "pylint-dev/pylint",
+      "target": "actions/create-github-app-token@1b10c78c7865c340bc4f6099eb2f838309f1e8c3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/backport.yml",
+      "source_repo": "pylint-dev/pylint",
+      "target": "pylint-dev/backport@3adad52e5a8ba2ea731c32037442d507eed68b4c",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/backport.yml",
+      "source_repo": "pylint-dev/pylint",
+      "target": "Backport",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/changelog.yml",
+      "source_repo": "pylint-dev/pylint",
+      "target": "actions/checkout@v6.0.2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/changelog.yml",
+      "source_repo": "pylint-dev/pylint",
+      "target": "actions/setup-python@v6.2.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/changelog.yml",
+      "source_repo": "pylint-dev/pylint",
+      "target": "actions/cache@v5.0.5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/changelog.yml",
+      "source_repo": "pylint-dev/pylint",
+      "target": "changelog",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/checks.yaml",
+      "source_repo": "pylint-dev/pylint",
+      "target": "actions/checkout@v6.0.2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/checks.yaml",
+      "source_repo": "pylint-dev/pylint",
+      "target": "actions/setup-python@v6.2.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/checks.yaml",
+      "source_repo": "pylint-dev/pylint",
+      "target": "actions/cache@v5.0.5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/checks.yaml",
+      "source_repo": "pylint-dev/pylint",
+      "target": "actions/cache/restore@v5.0.5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/checks.yaml",
+      "source_repo": "pylint-dev/pylint",
+      "target": "Checks",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "pylint-dev/pylint",
+      "target": "actions/checkout@v6.0.2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "pylint-dev/pylint",
+      "target": "github/codeql-action/init@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "pylint-dev/pylint",
+      "target": "github/codeql-action/autobuild@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "pylint-dev/pylint",
+      "target": "github/codeql-action/analyze@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "pylint-dev/pylint",
+      "target": "CodeQL",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/primer-test.yaml",
+      "source_repo": "pylint-dev/pylint",
+      "target": "actions/checkout@v6.0.2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/primer-test.yaml",
+      "source_repo": "pylint-dev/pylint",
+      "target": "actions/setup-python@v6.2.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/primer-test.yaml",
+      "source_repo": "pylint-dev/pylint",
+      "target": "actions/cache@v5.0.5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/primer-test.yaml",
+      "source_repo": "pylint-dev/pylint",
+      "target": "actions/cache/restore@v5.0.5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/primer-test.yaml",
+      "source_repo": "pylint-dev/pylint",
+      "target": "Primer",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/primer_comment.yaml",
+      "source_repo": "pylint-dev/pylint",
+      "target": "actions/checkout@v6.0.2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/primer_comment.yaml",
+      "source_repo": "pylint-dev/pylint",
+      "target": "actions/setup-python@v6.2.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/primer_comment.yaml",
+      "source_repo": "pylint-dev/pylint",
+      "target": "actions/cache@v5.0.5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/primer_comment.yaml",
+      "source_repo": "pylint-dev/pylint",
+      "target": "actions/github-script@v9.0.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/primer_comment.yaml",
+      "source_repo": "pylint-dev/pylint",
+      "target": "kanga333/comment-hider@c12bb20b48aeb8fc098e35967de8d4f8018fffdf",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/primer_run_main.yaml",
+      "source_repo": "pylint-dev/pylint",
+      "target": "actions/checkout@v6.0.2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/primer_run_main.yaml",
+      "source_repo": "pylint-dev/pylint",
+      "target": "actions/setup-python@v6.2.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/primer_run_main.yaml",
+      "source_repo": "pylint-dev/pylint",
+      "target": "actions/cache/restore@v5.0.5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/primer_run_main.yaml",
+      "source_repo": "pylint-dev/pylint",
+      "target": "actions/cache/save@v5.0.5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/primer_run_main.yaml",
+      "source_repo": "pylint-dev/pylint",
+      "target": "actions/upload-artifact@v7.0.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/primer_run_pr.yaml",
+      "source_repo": "pylint-dev/pylint",
+      "target": "actions/checkout@v6.0.2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/primer_run_pr.yaml",
+      "source_repo": "pylint-dev/pylint",
+      "target": "actions/setup-python@v6.2.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/primer_run_pr.yaml",
+      "source_repo": "pylint-dev/pylint",
+      "target": "actions/cache/restore@v5.0.5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/primer_run_pr.yaml",
+      "source_repo": "pylint-dev/pylint",
+      "target": "actions/cache/save@v5.0.5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/primer_run_pr.yaml",
+      "source_repo": "pylint-dev/pylint",
+      "target": "actions/github-script@v9.0.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/primer_run_pr.yaml",
+      "source_repo": "pylint-dev/pylint",
+      "target": "actions/upload-artifact@v7.0.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pylint-dev/pylint",
+      "target": "closember",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pylint-dev/pylint",
+      "target": "code-quality",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pylint-dev/pylint",
+      "target": "hacktoberfest",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pylint-dev/pylint",
+      "target": "linter",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pylint-dev/pylint",
+      "target": "pep8",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pylint-dev/pylint",
+      "target": "static-analysis",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pylint-dev/pylint",
+      "target": "static-code-analysis",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T00:43:58.005161+00:00",
+  "fetched_files": [
+    {
+      "path": "README.rst",
+      "size": 9721
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 9870
+    },
+    {
+      "path": ".github/workflows/backport.yml",
+      "size": 1367
+    },
+    {
+      "path": ".github/workflows/changelog.yml",
+      "size": 2334
+    },
+    {
+      "path": ".github/workflows/checks.yaml",
+      "size": 4947
+    },
+    {
+      "path": ".github/workflows/codeql-analysis.yml",
+      "size": 2735
+    },
+    {
+      "path": ".github/workflows/primer-test.yaml",
+      "size": 2879
+    },
+    {
+      "path": ".github/workflows/primer_comment.yaml",
+      "size": 4862
+    },
+    {
+      "path": ".github/workflows/primer_run_main.yaml",
+      "size": 4746
+    },
+    {
+      "path": ".github/workflows/primer_run_pr.yaml",
+      "size": 8839
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "It's not just a linter that annoys you!",
+    "fork": false,
+    "full_name": "pylint-dev/pylint",
+    "html_url": "https://github.com/pylint-dev/pylint",
+    "language": "Python",
+    "pushed_at": "2026-04-28T05:05:48Z",
+    "stargazers_count": 5675,
+    "topics": [
+      "closember",
+      "code-quality",
+      "hacktoberfest",
+      "linter",
+      "pep8",
+      "static-analysis",
+      "static-code-analysis"
+    ],
+    "updated_at": "2026-04-29T23:14:07Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ambv/black",
+      "source_file": "README.rst"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "charliermarsh/ruff",
+      "source_file": "README.rst"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cnescatlab/pylint-sonarjson-catlab",
+      "source_file": "README.rst"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "danielnoord/pydocstringformatter",
+      "source_file": "README.rst"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Backport",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/backport.yml",
+      "term": "Backport"
+    },
+    {
+      "context_snippet": "changelog",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/changelog.yml",
+      "term": "changelog"
+    },
+    {
+      "context_snippet": "Checks",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/checks.yaml",
+      "term": "Checks"
+    },
+    {
+      "context_snippet": "\"CodeQL\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "term": "CodeQL"
+    },
+    {
+      "context_snippet": "Primer",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/primer-test.yaml",
+      "term": "Primer"
+    },
+    {
+      "context_snippet": "`Pylint`_",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "closember"
+    },
+    {
+      "context_snippet": "`Pylint`_",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "code-quality"
+    },
+    {
+      "context_snippet": "`Pylint`_",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hacktoberfest"
+    },
+    {
+      "context_snippet": "`Pylint`_",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "linter"
+    },
+    {
+      "context_snippet": "`Pylint`_",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pep8"
+    },
+    {
+      "context_snippet": "`Pylint`_",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "static-analysis"
+    },
+    {
+      "context_snippet": "`Pylint`_",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "static-code-analysis"
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "opencv-cpp"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "DanielSarmiento04/yolov10cpp",
+      "status": "candidate-context",
+      "text": "Implementation of yolo v10 in c++ std 17 over opencv and onnxruntime"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DanielSarmiento04/yolov10cpp",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">Yolo V10 cpp</h1>"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DanielSarmiento04/yolov10cpp",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">Yolo V10 cpp</h1>"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "opencv-cpp",
+  "concept_id": "opencv-cpp",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "DanielSarmiento04/yolov10cpp"
+    }
+  ],
+  "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "opencv-cpp",
+      "sense_id": "opencv-cpp#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

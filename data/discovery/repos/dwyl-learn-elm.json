@@ -1,0 +1,167 @@
+{
+  "components": [
+    {
+      "component": "elm",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "dwyl/learn-elm",
+      "target": "dwyl/learn-elm-architecture-in-javascript",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "dwyl/learn-elm",
+      "target": "dwyl/learn-circleci",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "dwyl/learn-elm",
+      "target": "isruslan/awesome-elm",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "dwyl/learn-elm",
+      "target": "elm-lang/navigation",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "dwyl/learn-elm",
+      "target": "elm",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dwyl/learn-elm",
+      "target": "elm-architecture",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dwyl/learn-elm",
+      "target": "elm-format",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dwyl/learn-elm",
+      "target": "learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dwyl/learn-elm",
+      "target": "learning-elm",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dwyl/learn-elm",
+      "target": "tutorial",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T02:53:39.218591+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 17446
+    },
+    {
+      "path": "package.json",
+      "size": 543
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": ":rainbow: discover the beautiful programming language that makes front-end web apps a joy to build and maintain!",
+    "fork": false,
+    "full_name": "dwyl/learn-elm",
+    "html_url": "https://github.com/dwyl/learn-elm",
+    "language": "HTML",
+    "pushed_at": "2025-01-06T10:35:00Z",
+    "stargazers_count": 495,
+    "topics": [
+      "elm",
+      "elm-architecture",
+      "elm-format",
+      "learning",
+      "learning-elm",
+      "tutorial"
+    ],
+    "updated_at": "2026-03-31T19:26:20Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dwyl/learn-circleci",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dwyl/learn-elm-architecture-in-javascript",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "elm-lang/navigation",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "isruslan/awesome-elm",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "> It's _difficult_ to _introduce_ elm to someone",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "elm-architecture"
+    },
+    {
+      "context_snippet": "> It's _difficult_ to _introduce_ elm to someone",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "elm-format"
+    },
+    {
+      "context_snippet": "> It's _difficult_ to _introduce_ elm to someone",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "learning"
+    },
+    {
+      "context_snippet": "> It's _difficult_ to _introduce_ elm to someone",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "learning-elm"
+    },
+    {
+      "context_snippet": "> It's _difficult_ to _introduce_ elm to someone",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tutorial"
+    }
+  ]
+}

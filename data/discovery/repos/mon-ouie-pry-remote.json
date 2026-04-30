@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T03:46:59.806772+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1207
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Connect to Pry remotely",
+    "fork": false,
+    "full_name": "Mon-Ouie/pry-remote",
+    "html_url": "https://github.com/Mon-Ouie/pry-remote",
+    "language": "Ruby",
+    "pushed_at": "2023-12-29T11:10:04Z",
+    "stargazers_count": 644,
+    "topics": [],
+    "updated_at": "2026-04-03T00:10:11Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

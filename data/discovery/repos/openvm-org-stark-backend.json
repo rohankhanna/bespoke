@@ -1,0 +1,493 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions-rust-lang/setup-rust-toolchain@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude-code-review.yml"
+    },
+    {
+      "component": "anthropics/claude-code-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude-code-review.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude.yml"
+    },
+    {
+      "component": "anthropics/claude-code-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml"
+    },
+    {
+      "component": "actions-rust-lang/setup-rust-toolchain@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lints.yml"
+    },
+    {
+      "component": "actions-rust-lang/setup-rust-toolchain@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lints.yml"
+    },
+    {
+      "component": "codespell-project/actions-codespell@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lints.yml"
+    },
+    {
+      "component": "runs-on/action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lints.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lints.yml"
+    },
+    {
+      "component": "actions-rust-lang/setup-rust-toolchain@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lints.yml"
+    },
+    {
+      "component": "runs-on/action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust-cuda-matcher.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust-cuda-matcher.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@stable",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust-cuda-matcher.yml"
+    },
+    {
+      "component": "Swatinem/rust-cache@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust-cuda-matcher.yml"
+    },
+    {
+      "component": "taiki-e/install-action@nextest",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust-cuda-matcher.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests-cpu.yml"
+    },
+    {
+      "component": "actions-rust-lang/setup-rust-toolchain@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests-cpu.yml"
+    },
+    {
+      "component": "taiki-e/install-action@nextest",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests-cpu.yml"
+    },
+    {
+      "component": "runs-on/action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests-cuda.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests-cuda.yml"
+    },
+    {
+      "component": "actions-rust-lang/setup-rust-toolchain@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests-cuda.yml"
+    },
+    {
+      "component": "taiki-e/install-action@nextest",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests-cuda.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "openvm-org/stark-backend",
+      "target": "supranational/sppark",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "Cargo.toml",
+      "source_repo": "openvm-org/stark-backend",
+      "target": "horizenlabs/poseidon2",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "openvm-org/stark-backend",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "openvm-org/stark-backend",
+      "target": "actions-rust-lang/setup-rust-toolchain@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "openvm-org/stark-backend",
+      "target": "Build Workspace",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude-code-review.yml",
+      "source_repo": "openvm-org/stark-backend",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude-code-review.yml",
+      "source_repo": "openvm-org/stark-backend",
+      "target": "anthropics/claude-code-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/claude-code-review.yml",
+      "source_repo": "openvm-org/stark-backend",
+      "target": "Claude Code Review",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude.yml",
+      "source_repo": "openvm-org/stark-backend",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude.yml",
+      "source_repo": "openvm-org/stark-backend",
+      "target": "anthropics/claude-code-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/claude.yml",
+      "source_repo": "openvm-org/stark-backend",
+      "target": "Claude Code",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "openvm-org/stark-backend",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "openvm-org/stark-backend",
+      "target": "actions-rust-lang/setup-rust-toolchain@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "openvm-org/stark-backend",
+      "target": "Build and Serve Crate Docs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lints.yml",
+      "source_repo": "openvm-org/stark-backend",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lints.yml",
+      "source_repo": "openvm-org/stark-backend",
+      "target": "actions-rust-lang/setup-rust-toolchain@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lints.yml",
+      "source_repo": "openvm-org/stark-backend",
+      "target": "codespell-project/actions-codespell@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lints.yml",
+      "source_repo": "openvm-org/stark-backend",
+      "target": "runs-on/action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lints.yml",
+      "source_repo": "openvm-org/stark-backend",
+      "target": "Lint Workspace",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust-cuda-matcher.yml",
+      "source_repo": "openvm-org/stark-backend",
+      "target": "runs-on/action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust-cuda-matcher.yml",
+      "source_repo": "openvm-org/stark-backend",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust-cuda-matcher.yml",
+      "source_repo": "openvm-org/stark-backend",
+      "target": "dtolnay/rust-toolchain@stable",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust-cuda-matcher.yml",
+      "source_repo": "openvm-org/stark-backend",
+      "target": "Swatinem/rust-cache@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust-cuda-matcher.yml",
+      "source_repo": "openvm-org/stark-backend",
+      "target": "taiki-e/install-action@nextest",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/rust-cuda-matcher.yml",
+      "source_repo": "openvm-org/stark-backend",
+      "target": "Rust and CUDA signatures match",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests-cpu.yml",
+      "source_repo": "openvm-org/stark-backend",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests-cpu.yml",
+      "source_repo": "openvm-org/stark-backend",
+      "target": "actions-rust-lang/setup-rust-toolchain@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests-cpu.yml",
+      "source_repo": "openvm-org/stark-backend",
+      "target": "taiki-e/install-action@nextest",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/tests-cpu.yml",
+      "source_repo": "openvm-org/stark-backend",
+      "target": "Stark Backend Tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests-cuda.yml",
+      "source_repo": "openvm-org/stark-backend",
+      "target": "runs-on/action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests-cuda.yml",
+      "source_repo": "openvm-org/stark-backend",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests-cuda.yml",
+      "source_repo": "openvm-org/stark-backend",
+      "target": "actions-rust-lang/setup-rust-toolchain@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests-cuda.yml",
+      "source_repo": "openvm-org/stark-backend",
+      "target": "taiki-e/install-action@nextest",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/tests-cuda.yml",
+      "source_repo": "openvm-org/stark-backend",
+      "target": "CUDA Tests",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T00:53:24.116299+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3281
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 4676
+    },
+    {
+      "path": ".github/workflows/build.yml",
+      "size": 499
+    },
+    {
+      "path": ".github/workflows/claude-code-review.yml",
+      "size": 1482
+    },
+    {
+      "path": ".github/workflows/claude.yml",
+      "size": 1966
+    },
+    {
+      "path": ".github/workflows/docs.yml",
+      "size": 1413
+    },
+    {
+      "path": ".github/workflows/lints.yml",
+      "size": 3205
+    },
+    {
+      "path": ".github/workflows/rust-cuda-matcher.yml",
+      "size": 2106
+    },
+    {
+      "path": ".github/workflows/tests-cpu.yml",
+      "size": 744
+    },
+    {
+      "path": ".github/workflows/tests-cuda.yml",
+      "size": 2007
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Proof system backends for OpenVM.",
+    "fork": false,
+    "full_name": "openvm-org/stark-backend",
+    "html_url": "https://github.com/openvm-org/stark-backend",
+    "language": "Rust",
+    "pushed_at": "2026-04-29T21:47:26Z",
+    "stargazers_count": 37,
+    "topics": [],
+    "updated_at": "2026-04-05T19:50:29Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "supranational/sppark",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "horizenlabs/poseidon2",
+      "source_file": "Cargo.toml"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Build Workspace",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "term": "Build Workspace"
+    },
+    {
+      "context_snippet": "Claude Code Review",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/claude-code-review.yml",
+      "term": "Claude Code Review"
+    },
+    {
+      "context_snippet": "Claude Code",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/claude.yml",
+      "term": "Claude Code"
+    },
+    {
+      "context_snippet": "Build and Serve Crate Docs",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docs.yml",
+      "term": "Build and Serve Crate Docs"
+    },
+    {
+      "context_snippet": "Lint Workspace",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lints.yml",
+      "term": "Lint Workspace"
+    },
+    {
+      "context_snippet": "Rust and CUDA signatures match",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/rust-cuda-matcher.yml",
+      "term": "Rust and CUDA signatures match"
+    },
+    {
+      "context_snippet": "Stark Backend Tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/tests-cpu.yml",
+      "term": "Stark Backend Tests"
+    },
+    {
+      "context_snippet": "CUDA Tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/tests-cuda.yml",
+      "term": "CUDA Tests"
+    }
+  ]
+}

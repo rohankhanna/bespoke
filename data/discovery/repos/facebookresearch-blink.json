@@ -1,0 +1,45 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "facebookresearch/BLINK",
+      "target": "flairnlp/flair",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T02:00:49.741318+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8669
+    },
+    {
+      "path": "requirements.txt",
+      "size": 239
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "main",
+    "description": "Entity Linker solution",
+    "fork": false,
+    "full_name": "facebookresearch/BLINK",
+    "html_url": "https://github.com/facebookresearch/BLINK",
+    "language": "Python",
+    "pushed_at": "2023-09-21T16:18:30Z",
+    "stargazers_count": 1207,
+    "topics": [],
+    "updated_at": "2026-04-17T08:36:39Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "flairnlp/flair",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

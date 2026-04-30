@@ -1,0 +1,197 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "patrick-kidger/NeuralCDE",
+      "target": "patrick-kidger/torchcde",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "patrick-kidger/NeuralCDE",
+      "target": "controlled-differential-equations",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "patrick-kidger/NeuralCDE",
+      "target": "deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "patrick-kidger/NeuralCDE",
+      "target": "deep-neural-networks",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "patrick-kidger/NeuralCDE",
+      "target": "differential-equations",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "patrick-kidger/NeuralCDE",
+      "target": "dynamical-systems",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "patrick-kidger/NeuralCDE",
+      "target": "machine-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "patrick-kidger/NeuralCDE",
+      "target": "neural-differential-equations",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "patrick-kidger/NeuralCDE",
+      "target": "neural-networks",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "patrick-kidger/NeuralCDE",
+      "target": "pytorch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "patrick-kidger/NeuralCDE",
+      "target": "rough-paths",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "patrick-kidger/NeuralCDE",
+      "target": "time-series",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T03:55:55.550794+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3147
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Code for \"Neural Controlled Differential Equations for Irregular Time Series\" (Neurips 2020 Spotlight)",
+    "fork": false,
+    "full_name": "patrick-kidger/NeuralCDE",
+    "html_url": "https://github.com/patrick-kidger/NeuralCDE",
+    "language": "Python",
+    "pushed_at": "2022-10-22T13:32:29Z",
+    "stargazers_count": 707,
+    "topics": [
+      "controlled-differential-equations",
+      "deep-learning",
+      "deep-neural-networks",
+      "differential-equations",
+      "dynamical-systems",
+      "machine-learning",
+      "neural-differential-equations",
+      "neural-networks",
+      "pytorch",
+      "rough-paths",
+      "time-series"
+    ],
+    "updated_at": "2026-04-26T21:32:35Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "patrick-kidger/torchcde",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<h1 align='center'> Neural Controlled Differential Equations for Irregular Time Series<br>(NeurIPS 2020 Spotlight)<br>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "controlled-differential-equations"
+    },
+    {
+      "context_snippet": "<h1 align='center'> Neural Controlled Differential Equations for Irregular Time Series<br>(NeurIPS 2020 Spotlight)<br>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-learning"
+    },
+    {
+      "context_snippet": "<h1 align='center'> Neural Controlled Differential Equations for Irregular Time Series<br>(NeurIPS 2020 Spotlight)<br>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-neural-networks"
+    },
+    {
+      "context_snippet": "<h1 align='center'> Neural Controlled Differential Equations for Irregular Time Series<br>(NeurIPS 2020 Spotlight)<br>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "differential-equations"
+    },
+    {
+      "context_snippet": "<h1 align='center'> Neural Controlled Differential Equations for Irregular Time Series<br>(NeurIPS 2020 Spotlight)<br>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dynamical-systems"
+    },
+    {
+      "context_snippet": "<h1 align='center'> Neural Controlled Differential Equations for Irregular Time Series<br>(NeurIPS 2020 Spotlight)<br>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "machine-learning"
+    },
+    {
+      "context_snippet": "<h1 align='center'> Neural Controlled Differential Equations for Irregular Time Series<br>(NeurIPS 2020 Spotlight)<br>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "neural-differential-equations"
+    },
+    {
+      "context_snippet": "<h1 align='center'> Neural Controlled Differential Equations for Irregular Time Series<br>(NeurIPS 2020 Spotlight)<br>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "neural-networks"
+    },
+    {
+      "context_snippet": "<h1 align='center'> Neural Controlled Differential Equations for Irregular Time Series<br>(NeurIPS 2020 Spotlight)<br>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytorch"
+    },
+    {
+      "context_snippet": "<h1 align='center'> Neural Controlled Differential Equations for Irregular Time Series<br>(NeurIPS 2020 Spotlight)<br>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rough-paths"
+    },
+    {
+      "context_snippet": "<h1 align='center'> Neural Controlled Differential Equations for Irregular Time Series<br>(NeurIPS 2020 Spotlight)<br>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "time-series"
+    }
+  ]
+}

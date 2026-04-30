@@ -9,8 +9,28 @@
     "tool-component",
     "capability"
   ],
-  "candidate_definitions": [],
-  "candidate_glosses": [],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jedisct1/minisign",
+      "status": "candidate-context",
+      "text": "A dead simple tool to sign files and verify digital signatures."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jedisct1/minisign",
+      "status": "candidate-context",
+      "text": "![CodeQL scan](https://github.com/jedisct1/minisign/workflows/CodeQL%20scan/badge.svg)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jedisct1/minisign",
+      "status": "candidate",
+      "text": "![CodeQL scan](https://github.com/jedisct1/minisign/workflows/CodeQL%20scan/badge.svg)"
+    }
+  ],
   "candidate_related_terms": [],
   "candidate_synonyms": [],
   "canonical_name": "ed25519",
@@ -28,12 +48,20 @@
       "observed_at": "2026-04-18T12:07:11.500453+00:00",
       "source_file": null,
       "source_repo": "RustCrypto/signatures"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "jedisct1/minisign"
     }
   ],
   "first_seen_at": "2026-04-18T12:07:11.500453+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-18T12:07:11.500453+00:00",
-  "lexical_providers": [],
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
   "lexical_status": "unresolved",
   "possible_senses": [
     {

@@ -1,6 +1,7 @@
 {
   "aliases": [
-    "Check-License"
+    "Check-License",
+    "Check license"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -19,6 +20,18 @@
       "source_repo": "labring/sealos",
       "status": "candidate-context",
       "text": "Check-License"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "facebookresearch/nle",
+      "status": "candidate-context",
+      "text": "The NetHack Learning Environment"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "facebookresearch/nle",
+      "status": "candidate-context",
+      "text": "Check license"
     }
   ],
   "candidate_glosses": [
@@ -27,9 +40,51 @@
       "source_repo": "labring/sealos",
       "status": "candidate",
       "text": "Check-License"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "facebookresearch/nle",
+      "status": "candidate",
+      "text": "Check license"
     }
   ],
-  "candidate_related_terms": [],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11942,
+      "status": "candidate",
+      "text": "leave"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11942,
+      "status": "candidate",
+      "text": "pass"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11942,
+      "status": "candidate",
+      "text": "rent"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11870,
+      "status": "candidate",
+      "text": "male"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11870,
+      "status": "candidate",
+      "text": "sex"
+    }
+  ],
   "candidate_synonyms": [],
   "canonical_name": "Check-License",
   "concept_id": "check-license",
@@ -40,11 +95,17 @@
       "observed_at": "2026-04-23T01:09:11.871080+00:00",
       "source_file": ".github/workflows/check-license.yml",
       "source_repo": "labring/sealos"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/check_license.yml",
+      "source_repo": "facebookresearch/nle"
     }
   ],
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

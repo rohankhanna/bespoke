@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A template for open source projects at Auth0"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "This repo contains sample files to be used in Auth0 open source software repositories. These files are guidelines that can be used in an Auth0 or any open source project to ensure that the project is described properly, the contribution process is clear, and additional tools lik\u2026"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "This repo contains sample files to be used in Auth0 open source software repositories. These files are guidelines that can be used in an Auth0 or any open source project to ensure that the project is described properly, the contribution process is clear, and additional tools lik\u2026"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40024595,
+      "status": "candidate",
+      "text": "superior"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40024441,
+      "status": "candidate",
+      "text": "fine"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40020106,
+      "status": "candidate",
+      "text": "prime"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40011063,
+      "status": "candidate",
+      "text": "choice"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40010429,
+      "status": "candidate",
+      "text": "upper-class"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "quality",
+      "sense_id": "quality#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 47051,
+      "status": "candidate",
+      "text": "timbre"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 31065,
+      "status": "candidate",
+      "text": "fine"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 31061,
+      "status": "candidate",
+      "text": "prime"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 29078,
+      "status": "candidate",
+      "text": "character"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 24074,
+      "status": "candidate",
+      "text": "tone"
+    }
+  ],
+  "concept_id": "quality",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "quality",
+  "observation_id": "3b1f961a2b998c54",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T00:37:16.824464+00:00",
+  "observed_text": "quality",
+  "source_context_snippet": "This repo contains sample files to be used in Auth0 open source software repositories. These files are guidelines that can be used in an Auth0 or any open source project to ensure that the project is described properly, the contribution process is clear, and additional tools lik\u2026",
+  "source_file": null,
+  "source_repo": "auth0/open-source-template",
+  "source_repo_description": "A template for open source projects at Auth0"
+}

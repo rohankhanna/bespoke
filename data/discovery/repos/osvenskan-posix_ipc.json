@@ -1,0 +1,152 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-wheels.yaml"
+    },
+    {
+      "component": "pypa/cibuildwheel@v2.23.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-wheels.yaml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-wheels.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pypi-deploy.yaml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pypi-deploy.yaml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pypi-deploy.yaml"
+    },
+    {
+      "component": "pypa/gh-action-pypi-publish@release/v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pypi-deploy.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "osvenskan/posix_ipc",
+      "target": "osvenskan/sysv_ipc",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-wheels.yaml",
+      "source_repo": "osvenskan/posix_ipc",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-wheels.yaml",
+      "source_repo": "osvenskan/posix_ipc",
+      "target": "pypa/cibuildwheel@v2.23.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-wheels.yaml",
+      "source_repo": "osvenskan/posix_ipc",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-wheels.yaml",
+      "source_repo": "osvenskan/posix_ipc",
+      "target": "Build and test wheels",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pypi-deploy.yaml",
+      "source_repo": "osvenskan/posix_ipc",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pypi-deploy.yaml",
+      "source_repo": "osvenskan/posix_ipc",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pypi-deploy.yaml",
+      "source_repo": "osvenskan/posix_ipc",
+      "target": "actions/download-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pypi-deploy.yaml",
+      "source_repo": "osvenskan/posix_ipc",
+      "target": "pypa/gh-action-pypi-publish@release/v1",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-04-30T04:10:45.182286+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1626
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 1127
+    },
+    {
+      "path": ".github/workflows/build-wheels.yaml",
+      "size": 873
+    },
+    {
+      "path": ".github/workflows/pypi-deploy.yaml",
+      "size": 1025
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "develop",
+    "description": null,
+    "fork": false,
+    "full_name": "osvenskan/posix_ipc",
+    "html_url": "https://github.com/osvenskan/posix_ipc",
+    "language": "C",
+    "pushed_at": "2026-01-12T12:55:00Z",
+    "stargazers_count": 162,
+    "topics": [],
+    "updated_at": "2026-04-25T20:07:33Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "osvenskan/sysv_ipc",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Build and test wheels",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-wheels.yaml",
+      "term": "Build and test wheels"
+    }
+  ]
+}

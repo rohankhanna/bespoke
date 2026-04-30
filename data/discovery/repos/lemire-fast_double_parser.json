@@ -1,0 +1,370 @@
+{
+  "components": [
+    {
+      "component": "google/clusterfuzzlite/actions/build_fuzzers@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cflite_pr.yml"
+    },
+    {
+      "component": "google/clusterfuzzlite/actions/run_fuzzers@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cflite_pr.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "github/codeql-action/init@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "github/codeql-action/autobuild@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "github/codeql-action/analyze@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/msys2-clang.yml"
+    },
+    {
+      "component": "msys2/setup-msys2@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/msys2-clang.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/msys2.yml"
+    },
+    {
+      "component": "msys2/setup-msys2@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/msys2.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rhub.yml"
+    },
+    {
+      "component": "actions/checkout@0ad4b8fadaa221de15dcec353f45205ec38ea70b",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ubuntu.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/vs17-ci.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/vs17-clang-ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "lemire/fast_double_parser",
+      "target": "cmu-db/noisepage",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "lemire/fast_double_parser",
+      "target": "google/wuffs",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "lemire/fast_double_parser",
+      "target": "juliadata/parsers.jl",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "lemire/fast_double_parser",
+      "target": "ezrosent/frawk",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cflite_pr.yml",
+      "source_repo": "lemire/fast_double_parser",
+      "target": "google/clusterfuzzlite/actions/build_fuzzers@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cflite_pr.yml",
+      "source_repo": "lemire/fast_double_parser",
+      "target": "google/clusterfuzzlite/actions/run_fuzzers@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cflite_pr.yml",
+      "source_repo": "lemire/fast_double_parser",
+      "target": "ClusterFuzzLite PR fuzzing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "lemire/fast_double_parser",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "lemire/fast_double_parser",
+      "target": "github/codeql-action/init@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "lemire/fast_double_parser",
+      "target": "github/codeql-action/autobuild@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "lemire/fast_double_parser",
+      "target": "github/codeql-action/analyze@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "lemire/fast_double_parser",
+      "target": "CodeQL",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/msys2-clang.yml",
+      "source_repo": "lemire/fast_double_parser",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/msys2-clang.yml",
+      "source_repo": "lemire/fast_double_parser",
+      "target": "msys2/setup-msys2@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/msys2-clang.yml",
+      "source_repo": "lemire/fast_double_parser",
+      "target": "MSYS2-CLANG-CI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/msys2.yml",
+      "source_repo": "lemire/fast_double_parser",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/msys2.yml",
+      "source_repo": "lemire/fast_double_parser",
+      "target": "msys2/setup-msys2@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/msys2.yml",
+      "source_repo": "lemire/fast_double_parser",
+      "target": "MSYS2-CI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rhub.yml",
+      "source_repo": "lemire/fast_double_parser",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/rhub.yml",
+      "source_repo": "lemire/fast_double_parser",
+      "target": "rhub",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ubuntu.yml",
+      "source_repo": "lemire/fast_double_parser",
+      "target": "actions/checkout@0ad4b8fadaa221de15dcec353f45205ec38ea70b",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/vs17-ci.yml",
+      "source_repo": "lemire/fast_double_parser",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/vs17-ci.yml",
+      "source_repo": "lemire/fast_double_parser",
+      "target": "VS17-CI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/vs17-clang-ci.yml",
+      "source_repo": "lemire/fast_double_parser",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/vs17-clang-ci.yml",
+      "source_repo": "lemire/fast_double_parser",
+      "target": "VS17-CLANG-CI",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T00:42:57.277344+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8216
+    },
+    {
+      "path": ".github/workflows/cflite_pr.yml",
+      "size": 811
+    },
+    {
+      "path": ".github/workflows/codeql.yml",
+      "size": 833
+    },
+    {
+      "path": ".github/workflows/msys2-clang.yml",
+      "size": 1308
+    },
+    {
+      "path": ".github/workflows/msys2.yml",
+      "size": 1264
+    },
+    {
+      "path": ".github/workflows/rhub.yml",
+      "size": 487
+    },
+    {
+      "path": ".github/workflows/ubuntu.yml",
+      "size": 457
+    },
+    {
+      "path": ".github/workflows/vs17-ci.yml",
+      "size": 1077
+    },
+    {
+      "path": ".github/workflows/vs17-clang-ci.yml",
+      "size": 1094
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Fast function to parse strings into double (binary64) floating-point values, enforces the RFC 7159 (JSON standard) grammar: 4x faster than strtod",
+    "fork": false,
+    "full_name": "lemire/fast_double_parser",
+    "html_url": "https://github.com/lemire/fast_double_parser",
+    "language": "C++",
+    "pushed_at": "2025-05-27T16:45:05Z",
+    "stargazers_count": 669,
+    "topics": [],
+    "updated_at": "2026-03-31T11:48:15Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cmu-db/noisepage",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ezrosent/frawk",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "google/wuffs",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "juliadata/parsers.jl",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "ClusterFuzzLite PR fuzzing",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cflite_pr.yml",
+      "term": "ClusterFuzzLite PR fuzzing"
+    },
+    {
+      "context_snippet": "\"CodeQL\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql.yml",
+      "term": "CodeQL"
+    },
+    {
+      "context_snippet": "MSYS2-CLANG-CI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/msys2-clang.yml",
+      "term": "MSYS2-CLANG-CI"
+    },
+    {
+      "context_snippet": "MSYS2-CI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/msys2.yml",
+      "term": "MSYS2-CI"
+    },
+    {
+      "context_snippet": "rhub",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/rhub.yml",
+      "term": "rhub"
+    },
+    {
+      "context_snippet": "VS17-CI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/vs17-ci.yml",
+      "term": "VS17-CI"
+    },
+    {
+      "context_snippet": "VS17-CLANG-CI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/vs17-clang-ci.yml",
+      "term": "VS17-CLANG-CI"
+    }
+  ]
+}

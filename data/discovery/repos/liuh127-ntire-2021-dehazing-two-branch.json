@@ -1,0 +1,72 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "liuh127/NTIRE-2021-Dehazing-Two-branch",
+      "target": "cvpr2021",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "liuh127/NTIRE-2021-Dehazing-Two-branch",
+      "target": "dehazing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "liuh127/NTIRE-2021-Dehazing-Two-branch",
+      "target": "ntire2021",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T03:53:25.365326+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2537
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Official PyTorch implementation of Two-branch Dehazing, wining runner-up awards in NTIRE 2021.",
+    "fork": false,
+    "full_name": "liuh127/NTIRE-2021-Dehazing-Two-branch",
+    "html_url": "https://github.com/liuh127/NTIRE-2021-Dehazing-Two-branch",
+    "language": "Python",
+    "pushed_at": "2021-10-12T01:21:01Z",
+    "stargazers_count": 52,
+    "topics": [
+      "cvpr2021",
+      "dehazing",
+      "ntire2021"
+    ],
+    "updated_at": "2026-02-20T03:23:50Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "This is the official PyTorch implementation of Two-branch Dehazing. See more details in [[report]](https://openaccess.thecvf.com/content/CVPR2021W/NTIRE/papers/Ancuti_NTIRE_2021_NonHomogeneous_Dehazing_Challenge_Report_CVPRW_2021_paper.pdf) , [[paper]](https://openaccess.thecvf.\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cvpr2021"
+    },
+    {
+      "context_snippet": "This is the official PyTorch implementation of Two-branch Dehazing. See more details in [[report]](https://openaccess.thecvf.com/content/CVPR2021W/NTIRE/papers/Ancuti_NTIRE_2021_NonHomogeneous_Dehazing_Challenge_Report_CVPRW_2021_paper.pdf) , [[paper]](https://openaccess.thecvf.\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dehazing"
+    },
+    {
+      "context_snippet": "This is the official PyTorch implementation of Two-branch Dehazing. See more details in [[report]](https://openaccess.thecvf.com/content/CVPR2021W/NTIRE/papers/Ancuti_NTIRE_2021_NonHomogeneous_Dehazing_Challenge_Report_CVPRW_2021_paper.pdf) , [[paper]](https://openaccess.thecvf.\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ntire2021"
+    }
+  ]
+}

@@ -1,0 +1,168 @@
+{
+  "components": [
+    {
+      "component": "purcell/setup-emacs@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "purcell/setup-emacs@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "purcell/setup-emacs@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/github_release.yml"
+    },
+    {
+      "component": "ncipollo/release-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/github_release.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "clojure-emacs/clojure-ts-mode",
+      "target": "sogaiu/tree-sitter-clojure",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "clojure-emacs/clojure-ts-mode",
+      "target": "tree-sitter-grammars/tree-sitter-markdown",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "clojure-emacs/clojure-ts-mode",
+      "target": "tree-sitter/tree-sitter-regex",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "clojure-emacs/clojure-ts-mode",
+      "target": "emacs-eldev/eldev",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "clojure-emacs/clojure-ts-mode",
+      "target": "purcell/setup-emacs@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "clojure-emacs/clojure-ts-mode",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/github_release.yml",
+      "source_repo": "clojure-emacs/clojure-ts-mode",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/github_release.yml",
+      "source_repo": "clojure-emacs/clojure-ts-mode",
+      "target": "ncipollo/release-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/github_release.yml",
+      "source_repo": "clojure-emacs/clojure-ts-mode",
+      "target": "Create GitHub Release",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T00:39:14.223161+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 29806
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 1723
+    },
+    {
+      "path": ".github/workflows/github_release.yml",
+      "size": 824
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "The next generation Clojure major mode for Emacs, powered by TreeSitter",
+    "fork": false,
+    "full_name": "clojure-emacs/clojure-ts-mode",
+    "html_url": "https://github.com/clojure-emacs/clojure-ts-mode",
+    "language": "Emacs Lisp",
+    "pushed_at": "2026-03-25T21:07:28Z",
+    "stargazers_count": 186,
+    "topics": [],
+    "updated_at": "2026-04-07T21:23:45Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "emacs-eldev/eldev",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "sogaiu/tree-sitter-clojure",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "tree-sitter-grammars/tree-sitter-markdown",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "tree-sitter/tree-sitter-regex",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Create GitHub Release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/github_release.yml",
+      "term": "Create GitHub Release"
+    }
+  ]
+}

@@ -19,6 +19,18 @@
       "source_repo": "atomicmemory/llm-wiki-compiler",
       "status": "candidate-context",
       "text": "Compile raw sources into an interlinked markdown wiki."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "danielrosehill/AI-Developer-Notebook",
+      "status": "candidate-context",
+      "text": "Notes for configuring a reference notebook with Claude Code"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "danielrosehill/AI-Developer-Notebook",
+      "status": "candidate-context",
+      "text": "[![Claude Code](https://img.shields.io/badge/Claude_Code-Project-8A2BE2?logo=anthropic)](https://claude.ai/code)"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "atomicmemory/llm-wiki-compiler",
       "status": "candidate",
       "text": "Compile raw sources into an interlinked markdown wiki."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "danielrosehill/AI-Developer-Notebook",
+      "status": "candidate",
+      "text": "[![Claude Code](https://img.shields.io/badge/Claude_Code-Project-8A2BE2?logo=anthropic)](https://claude.ai/code)"
     }
   ],
   "candidate_related_terms": [
@@ -76,11 +94,17 @@
       "observed_at": "2026-04-18T18:30:26.389736+00:00",
       "source_file": null,
       "source_repo": "atomicmemory/llm-wiki-compiler"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "danielrosehill/AI-Developer-Notebook"
     }
   ],
   "first_seen_at": "2026-04-18T18:30:26.389736+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-18T18:30:26.389736+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

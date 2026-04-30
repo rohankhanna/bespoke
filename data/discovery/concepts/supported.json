@@ -1,0 +1,136 @@
+{
+  "aliases": [
+    "supported"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lightbend/config",
+      "status": "candidate-context",
+      "text": "configuration library for JVM languages using HOCON files"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lightbend/config",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://github.com/lightbend/config/actions/workflows/ci.yml/badge.svg)](https://github.com/lightbend/config/actions/workflows/ci.yml)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lightbend/config",
+      "status": "candidate",
+      "text": "[![Build Status](https://github.com/lightbend/config/actions/workflows/ci.yml/badge.svg)](https://github.com/lightbend/config/actions/workflows/ci.yml)"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39997264,
+      "status": "candidate",
+      "text": "suspended"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39989529,
+      "status": "candidate",
+      "text": "backed"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39968990,
+      "status": "candidate",
+      "text": "pendent"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39968496,
+      "status": "candidate",
+      "text": "based"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39966822,
+      "status": "candidate",
+      "text": "dangling"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 16052,
+      "status": "candidate",
+      "text": "pendant"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 12034,
+      "status": "candidate",
+      "text": "pendent"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 11019,
+      "status": "candidate",
+      "text": "corroborated"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 10021,
+      "status": "candidate",
+      "text": "fostered"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 9035,
+      "status": "candidate",
+      "text": "based"
+    }
+  ],
+  "canonical_name": "supported",
+  "concept_id": "supported",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "lightbend/config"
+    }
+  ],
+  "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "supported",
+      "sense_id": "supported#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

@@ -2,7 +2,8 @@
   "aliases": [
     "clang-format check",
     "clang-format Check",
-    "Clang Format Check"
+    "Clang Format Check",
+    "Clang format check"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -105,6 +106,18 @@
       "source_repo": "open-source-parsers/jsoncpp",
       "status": "candidate-context",
       "text": "clang-format check"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ROCm/rocm-systems",
+      "status": "candidate-context",
+      "text": "super repo for rocm systems projects"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ROCm/rocm-systems",
+      "status": "candidate-context",
+      "text": "Clang format check"
     }
   ],
   "candidate_glosses": [
@@ -155,6 +168,12 @@
       "source_repo": "open-source-parsers/jsoncpp",
       "status": "candidate",
       "text": "clang-format check"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ROCm/rocm-systems",
+      "status": "candidate",
+      "text": "Clang format check"
     }
   ],
   "candidate_related_terms": [
@@ -281,11 +300,17 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": ".github/workflows/clang-format.yml",
       "source_repo": "open-source-parsers/jsoncpp"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/hip-formatting.yml",
+      "source_repo": "ROCm/rocm-systems"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

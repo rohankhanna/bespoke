@@ -1,0 +1,12 @@
+{
+  "component": "trilom/file-changes-action@ce38c8ce2459ca3c303415eec8cb0409857b4272",
+  "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/no-package-lock-changes.yml",
+      "source_repo": "posit-dev/positron"
+    }
+  ]
+}

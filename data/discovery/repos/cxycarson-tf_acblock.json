@@ -1,0 +1,45 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "CXYCarson/TF_AcBlock",
+      "target": "tensorflow2",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T03:46:01.019456+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1780
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": null,
+    "fork": false,
+    "full_name": "CXYCarson/TF_AcBlock",
+    "html_url": "https://github.com/CXYCarson/TF_AcBlock",
+    "language": "Python",
+    "pushed_at": "2022-01-04T05:17:21Z",
+    "stargazers_count": 12,
+    "topics": [
+      "tensorflow2",
+      "tf2"
+    ],
+    "updated_at": "2024-01-28T07:53:40Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "This is a re-implementation of the paper: 'ACNet: Strengthening the Kernel Skeletons for Powerful CNN via Asymmetric Convolution Blocks'",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tensorflow2"
+    }
+  ]
+}

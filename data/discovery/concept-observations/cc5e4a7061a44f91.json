@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "\ud83e\udd2f  beginners tutorial building a real time counter in Phoenix 1.7.14 + LiveView 1.0 \u26a1\ufe0f Learn the fundamentals from first principals so you can make something amazing! \ud83d\ude80"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<div align=\"center\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40002326,
+      "status": "candidate",
+      "text": "antagonistic"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40001054,
+      "status": "candidate",
+      "text": "forestall"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39989601,
+      "status": "candidate",
+      "text": "anticipate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39985013,
+      "status": "candidate",
+      "text": "foresee"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39964906,
+      "status": "candidate",
+      "text": "tabulator"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "counter",
+      "sense_id": "counter#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 24035,
+      "status": "candidate",
+      "text": "forestall"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 20039,
+      "status": "candidate",
+      "text": "anticipate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 20032,
+      "status": "candidate",
+      "text": "antagonistic"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 18060,
+      "status": "candidate",
+      "text": "heel"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 12036,
+      "status": "candidate",
+      "text": "foresee"
+    }
+  ],
+  "concept_id": "counter",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "counter",
+  "observation_id": "cc5e4a7061a44f91",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T00:37:16.824464+00:00",
+  "observed_text": "counter",
+  "source_context_snippet": "<div align=\"center\">",
+  "source_file": null,
+  "source_repo": "dwyl/phoenix-liveview-counter-tutorial",
+  "source_repo_description": "\ud83e\udd2f  beginners tutorial building a real time counter in Phoenix 1.7.14 + LiveView 1.0 \u26a1\ufe0f Learn the fundamentals from first principals so you can make something amazing! \ud83d\ude80"
+}

@@ -1,0 +1,103 @@
+{
+  "components": [
+    {
+      "component": "actions/add-to-project@v0.5.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issues.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issues.yml",
+      "source_repo": "gorilla/.github",
+      "target": "actions/add-to-project@v0.5.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gorilla/.github",
+      "target": "gorilla",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gorilla/.github",
+      "target": "gorilla-web-toolkit",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gorilla/.github",
+      "target": "issue-templates",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gorilla/.github",
+      "target": "pull-request-templates",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T00:52:43.887541+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 126
+    },
+    {
+      "path": ".github/workflows/issues.yml",
+      "size": 487
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "The .github repository for the @gorilla organization.",
+    "fork": false,
+    "full_name": "gorilla/.github",
+    "html_url": "https://github.com/gorilla/.github",
+    "language": null,
+    "pushed_at": "2023-11-05T22:07:00Z",
+    "stargazers_count": 11,
+    "topics": [
+      "gorilla",
+      "gorilla-web-toolkit",
+      "issue-templates",
+      "pull-request-templates"
+    ],
+    "updated_at": "2026-01-01T05:40:04Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "\ud83e\udd8d\ud83e\udd8d\ud83e\udd8d",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gorilla"
+    },
+    {
+      "context_snippet": "\ud83e\udd8d\ud83e\udd8d\ud83e\udd8d",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gorilla-web-toolkit"
+    },
+    {
+      "context_snippet": "\ud83e\udd8d\ud83e\udd8d\ud83e\udd8d",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "issue-templates"
+    },
+    {
+      "context_snippet": "\ud83e\udd8d\ud83e\udd8d\ud83e\udd8d",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pull-request-templates"
+    }
+  ]
+}

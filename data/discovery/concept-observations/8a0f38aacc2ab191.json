@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Samples code for world class Artificial Intelligence SoCs for computer vision applications."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[English](./README_EN.md) | \u7b80\u4f53\u4e2d\u6587"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[English](./README_EN.md) | \u7b80\u4f53\u4e2d\u6587"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "yolov6",
+      "sense_id": "yolov6#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "yolov6",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "yolov6",
+  "observation_id": "8a0f38aacc2ab191",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T00:37:16.824464+00:00",
+  "observed_text": "yolov6",
+  "source_context_snippet": "[English](./README_EN.md) | \u7b80\u4f53\u4e2d\u6587",
+  "source_file": null,
+  "source_repo": "AXERA-TECH/ax-samples",
+  "source_repo_description": "Samples code for world class Artificial Intelligence SoCs for computer vision applications."
+}

@@ -1,0 +1,181 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mozilla-ai/otari",
+      "target": "mozilla-ai/gateway",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gateway-deploy-prod.yml",
+      "source_repo": "mozilla-ai/otari",
+      "target": "aws-actions/configure-aws-credentials@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gateway-deploy-prod.yml",
+      "source_repo": "mozilla-ai/otari",
+      "target": "aws-actions/amazon-ecs-deploy-task-definition@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/gateway-deploy-prod.yml",
+      "source_repo": "mozilla-ai/otari",
+      "target": "Deploy Gateway to Production",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gateway-docker.yml",
+      "source_repo": "mozilla-ai/otari",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gateway-docker.yml",
+      "source_repo": "mozilla-ai/otari",
+      "target": "docker/setup-qemu-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gateway-docker.yml",
+      "source_repo": "mozilla-ai/otari",
+      "target": "docker/setup-buildx-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gateway-docker.yml",
+      "source_repo": "mozilla-ai/otari",
+      "target": "docker/login-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gateway-docker.yml",
+      "source_repo": "mozilla-ai/otari",
+      "target": "docker/metadata-action@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gateway-docker.yml",
+      "source_repo": "mozilla-ai/otari",
+      "target": "docker/build-push-action@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gateway-docker.yml",
+      "source_repo": "mozilla-ai/otari",
+      "target": "peter-evans/dockerhub-description@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gateway-docker.yml",
+      "source_repo": "mozilla-ai/otari",
+      "target": "aws-actions/configure-aws-credentials@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gateway-docker.yml",
+      "source_repo": "mozilla-ai/otari",
+      "target": "aws-actions/amazon-ecs-deploy-task-definition@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/gateway-docker.yml",
+      "source_repo": "mozilla-ai/otari",
+      "target": "Publish Gateway Docker Image",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gateway-lint.yml",
+      "source_repo": "mozilla-ai/otari",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gateway-lint.yml",
+      "source_repo": "mozilla-ai/otari",
+      "target": "astral-sh/setup-uv@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/gateway-lint.yml",
+      "source_repo": "mozilla-ai/otari",
+      "target": "Gateway Lint",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gateway-tests.yml",
+      "source_repo": "mozilla-ai/otari",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gateway-tests.yml",
+      "source_repo": "mozilla-ai/otari",
+      "target": "astral-sh/setup-uv@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gateway-tests.yml",
+      "source_repo": "mozilla-ai/otari",
+      "target": "codecov/codecov-action@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/gateway-tests.yml",
+      "source_repo": "mozilla-ai/otari",
+      "target": "Gateway Tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gateway-typecheck.yml",
+      "source_repo": "mozilla-ai/otari",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gateway-typecheck.yml",
+      "source_repo": "mozilla-ai/otari",
+      "target": "astral-sh/setup-uv@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/gateway-typecheck.yml",
+      "source_repo": "mozilla-ai/otari",
+      "target": "Gateway Typecheck",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mozilla-ai/otari",
+      "target": "gateway",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-30T00:37:16.824464+00:00",
+  "source_repo": "mozilla-ai/otari"
+}

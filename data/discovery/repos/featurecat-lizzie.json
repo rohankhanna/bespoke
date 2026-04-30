@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "featurecat/lizzie",
+      "target": "gcp/leela-zero",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T03:48:44.357763+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2413
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Lizzie - Leela Zero Interface",
+    "fork": false,
+    "full_name": "featurecat/lizzie",
+    "html_url": "https://github.com/featurecat/lizzie",
+    "language": "Java",
+    "pushed_at": "2024-07-20T06:15:53Z",
+    "stargazers_count": 1049,
+    "topics": [],
+    "updated_at": "2026-04-25T16:14:42Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "gcp/leela-zero",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

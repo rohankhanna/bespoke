@@ -1,0 +1,145 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_cmake.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_cmake.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "TAPZCREW/xmake-project-manager",
+      "target": "qt-creator/qt-creator",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_cmake.yml",
+      "source_repo": "TAPZCREW/xmake-project-manager",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_cmake.yml",
+      "source_repo": "TAPZCREW/xmake-project-manager",
+      "target": "actions/upload-artifact@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build_cmake.yml",
+      "source_repo": "TAPZCREW/xmake-project-manager",
+      "target": "Build plugin",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "TAPZCREW/xmake-project-manager",
+      "target": "qtcreator",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "TAPZCREW/xmake-project-manager",
+      "target": "qtcreator-plugin",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "TAPZCREW/xmake-project-manager",
+      "target": "xmake",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "TAPZCREW/xmake-project-manager",
+      "target": "xmake-qtcreator",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T04:09:40.187300+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2671
+    },
+    {
+      "path": ".github/workflows/README.md",
+      "size": 1620
+    },
+    {
+      "path": ".github/workflows/build_cmake.yml",
+      "size": 11145
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "main",
+    "description": "QtCreator XMake plugin",
+    "fork": false,
+    "full_name": "TAPZCREW/xmake-project-manager",
+    "html_url": "https://github.com/TAPZCREW/xmake-project-manager",
+    "language": "C++",
+    "pushed_at": "2023-11-29T16:41:24Z",
+    "stargazers_count": 33,
+    "topics": [
+      "qtcreator",
+      "qtcreator-plugin",
+      "xmake",
+      "xmake-qtcreator"
+    ],
+    "updated_at": "2025-10-02T09:00:45Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "qt-creator/qt-creator",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Build plugin",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build_cmake.yml",
+      "term": "Build plugin"
+    },
+    {
+      "context_snippet": "[![CI](https://github.com/TapzCrew/xmake-project-manager/actions/workflows/build_cmake.yml/badge.svg)](https://github.com/TapzCrew/xmake-project-manager/actions/workflows/build_cmake.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "qtcreator"
+    },
+    {
+      "context_snippet": "[![CI](https://github.com/TapzCrew/xmake-project-manager/actions/workflows/build_cmake.yml/badge.svg)](https://github.com/TapzCrew/xmake-project-manager/actions/workflows/build_cmake.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "qtcreator-plugin"
+    },
+    {
+      "context_snippet": "[![CI](https://github.com/TapzCrew/xmake-project-manager/actions/workflows/build_cmake.yml/badge.svg)](https://github.com/TapzCrew/xmake-project-manager/actions/workflows/build_cmake.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "xmake"
+    },
+    {
+      "context_snippet": "[![CI](https://github.com/TapzCrew/xmake-project-manager/actions/workflows/build_cmake.yml/badge.svg)](https://github.com/TapzCrew/xmake-project-manager/actions/workflows/build_cmake.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "xmake-qtcreator"
+    }
+  ]
+}

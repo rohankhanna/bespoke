@@ -1,0 +1,422 @@
+{
+  "components": [
+    {
+      "component": "actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "re-actors/cache-python-deps@810325a232f2a28ea124dfba85c7c72fd1774b38",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "tox-dev/workflow/.github/workflows/reusable-tox.yml@617ca35caa695c572377861016677905e58a328c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "deadsnakes/action@e640ac8743173a67cca4d7d77cd837e514bf98e8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/cache@668228422ae6a00e4ad889ee87cd7109ec5666a7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "codecov/codecov-action@57e3a136b779b570ffcdbf80b3bdc90e7fab3de2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/cache@668228422ae6a00e4ad889ee87cd7109ec5666a7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "codecov/codecov-action@57e3a136b779b570ffcdbf80b3bdc90e7fab3de2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "zizmorcore/workflow/.github/workflows/reusable-zizmor.yml@1e20adb0862e932363a4d85d68c92e5cc6fcb5d4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "re-actors/alls-green@05ac9388f0aebcb5727afa17fcccfecd6f8ec5fe",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/download-artifact@3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "pypa/gh-action-pypi-publish@ed0c53931b1dc9bd32cbe73a98c7f6766f8a527e",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "pypa/gh-action-pypi-publish@ed0c53931b1dc9bd32cbe73a98c7f6766f8a527e",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/reusable-qa.yml"
+    },
+    {
+      "component": "actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/reusable-qa.yml"
+    },
+    {
+      "component": "actions/cache@668228422ae6a00e4ad889ee87cd7109ec5666a7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/reusable-qa.yml"
+    },
+    {
+      "component": "actions/cache@668228422ae6a00e4ad889ee87cd7109ec5666a7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/reusable-qa.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "jazzband/pip-tools",
+      "target": "tox-dev/pipdeptree",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "jazzband/pip-tools",
+      "target": "raimon49/requirements.txt.vim",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "jazzband/pip-tools",
+      "target": "wilfred/pip-requirements.el",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "jazzband/pip-tools",
+      "target": "actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "jazzband/pip-tools",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "jazzband/pip-tools",
+      "target": "re-actors/cache-python-deps@810325a232f2a28ea124dfba85c7c72fd1774b38",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "jazzband/pip-tools",
+      "target": "tox-dev/workflow/.github/workflows/reusable-tox.yml@617ca35caa695c572377861016677905e58a328c",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "jazzband/pip-tools",
+      "target": "deadsnakes/action@e640ac8743173a67cca4d7d77cd837e514bf98e8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "jazzband/pip-tools",
+      "target": "actions/cache@668228422ae6a00e4ad889ee87cd7109ec5666a7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "jazzband/pip-tools",
+      "target": "codecov/codecov-action@57e3a136b779b570ffcdbf80b3bdc90e7fab3de2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "jazzband/pip-tools",
+      "target": "zizmorcore/workflow/.github/workflows/reusable-zizmor.yml@1e20adb0862e932363a4d85d68c92e5cc6fcb5d4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "jazzband/pip-tools",
+      "target": "re-actors/alls-green@05ac9388f0aebcb5727afa17fcccfecd6f8ec5fe",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cron.yml",
+      "source_repo": "jazzband/pip-tools",
+      "target": "Cron",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "jazzband/pip-tools",
+      "target": "actions/download-artifact@3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "jazzband/pip-tools",
+      "target": "pypa/gh-action-pypi-publish@ed0c53931b1dc9bd32cbe73a98c7f6766f8a527e",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "jazzband/pip-tools",
+      "target": "\ud83d\udce6 Packaging",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/reusable-qa.yml",
+      "source_repo": "jazzband/pip-tools",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/reusable-qa.yml",
+      "source_repo": "jazzband/pip-tools",
+      "target": "actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/reusable-qa.yml",
+      "source_repo": "jazzband/pip-tools",
+      "target": "actions/cache@668228422ae6a00e4ad889ee87cd7109ec5666a7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jazzband/pip-tools",
+      "target": "hashes",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jazzband/pip-tools",
+      "target": "lockfile",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jazzband/pip-tools",
+      "target": "packaging",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jazzband/pip-tools",
+      "target": "pip-compile",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jazzband/pip-tools",
+      "target": "pip-tools",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jazzband/pip-tools",
+      "target": "requirements",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jazzband/pip-tools",
+      "target": "setuptools",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T01:56:00.308935+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 25192
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 3943
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 18402
+    },
+    {
+      "path": ".github/workflows/cron.yml",
+      "size": 323
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "size": 3354
+    },
+    {
+      "path": ".github/workflows/reusable-qa.yml",
+      "size": 1968
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A set of tools to keep your pinned Python dependencies fresh.",
+    "fork": false,
+    "full_name": "jazzband/pip-tools",
+    "html_url": "https://github.com/jazzband/pip-tools",
+    "language": "Python",
+    "pushed_at": "2026-04-27T19:33:00Z",
+    "stargazers_count": 8005,
+    "topics": [
+      "hashes",
+      "lockfile",
+      "packaging",
+      "pip",
+      "pip-compile",
+      "pip-tools",
+      "python",
+      "requirements",
+      "setuptools"
+    ],
+    "updated_at": "2026-04-28T15:41:28Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "raimon49/requirements.txt.vim",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "tox-dev/pipdeptree",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "wilfred/pip-requirements.el",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Cron",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cron.yml",
+      "term": "Cron"
+    },
+    {
+      "context_snippet": "\ud83d\udce6 Packaging",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "term": "\ud83d\udce6 Packaging"
+    },
+    {
+      "context_snippet": "<!-- pyml disable-next-line first-line-heading -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hashes"
+    },
+    {
+      "context_snippet": "<!-- pyml disable-next-line first-line-heading -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "lockfile"
+    },
+    {
+      "context_snippet": "<!-- pyml disable-next-line first-line-heading -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "packaging"
+    },
+    {
+      "context_snippet": "<!-- pyml disable-next-line first-line-heading -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pip-compile"
+    },
+    {
+      "context_snippet": "<!-- pyml disable-next-line first-line-heading -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pip-tools"
+    },
+    {
+      "context_snippet": "<!-- pyml disable-next-line first-line-heading -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "requirements"
+    },
+    {
+      "context_snippet": "<!-- pyml disable-next-line first-line-heading -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "setuptools"
+    }
+  ]
+}

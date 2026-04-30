@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "MANO layer for PyTorch, generating hand meshes as a differentiable layer"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Manopth"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Manopth"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20004361,
+      "status": "candidate",
+      "text": "manu"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19965566,
+      "status": "candidate",
+      "text": "handheld"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19962473,
+      "status": "candidate",
+      "text": "hand-held"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19929812,
+      "status": "candidate",
+      "text": "hand"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19875217,
+      "status": "candidate",
+      "text": "power"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "mano",
+      "sense_id": "mano#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "mano",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "mano",
+  "observation_id": "f314f8d03d030315",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T00:37:16.824464+00:00",
+  "observed_text": "mano",
+  "source_context_snippet": "Manopth",
+  "source_file": null,
+  "source_repo": "hassony2/manopth",
+  "source_repo_description": "MANO layer for PyTorch, generating hand meshes as a differentiable layer"
+}

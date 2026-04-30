@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T00:42:27.721278+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 300
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 258
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Shim implementation for a subset of the newlib library for the Nintendo 3DS.",
+    "fork": false,
+    "full_name": "rust3ds/shim-3ds",
+    "html_url": "https://github.com/rust3ds/shim-3ds",
+    "language": "Rust",
+    "pushed_at": "2024-04-21T23:38:23Z",
+    "stargazers_count": 7,
+    "topics": [],
+    "updated_at": "2026-04-01T02:39:10Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

@@ -1,0 +1,103 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "IDKiro/MCT",
+      "target": "eriklindernoren/pytorch-gan.",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "IDKiro/MCT",
+      "target": "deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "IDKiro/MCT",
+      "target": "image-processing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "IDKiro/MCT",
+      "target": "image-to-image-translation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "IDKiro/MCT",
+      "target": "pytorch",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T03:53:24.229590+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3677
+    },
+    {
+      "path": "requirements.txt",
+      "size": 51
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Multi-Curve Translator for High-Resolution Photorealistic Image Translation",
+    "fork": false,
+    "full_name": "IDKiro/MCT",
+    "html_url": "https://github.com/IDKiro/MCT",
+    "language": "Python",
+    "pushed_at": "2023-02-20T01:59:37Z",
+    "stargazers_count": 39,
+    "topics": [
+      "deep-learning",
+      "image-processing",
+      "image-to-image-translation",
+      "pytorch"
+    ],
+    "updated_at": "2025-12-15T09:28:23Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "eriklindernoren/pytorch-gan.",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[![paper](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)](https://arxiv.org/abs/2203.07756) [![Download](https://img.shields.io/badge/GoogleDrive-Data-blue)](https://drive.google.com/drive/folders/1RWALNnNNxoTxxgjuKGRSw98SGrQhZ_uO?usp=sharing)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-learning"
+    },
+    {
+      "context_snippet": "[![paper](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)](https://arxiv.org/abs/2203.07756) [![Download](https://img.shields.io/badge/GoogleDrive-Data-blue)](https://drive.google.com/drive/folders/1RWALNnNNxoTxxgjuKGRSw98SGrQhZ_uO?usp=sharing)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "image-processing"
+    },
+    {
+      "context_snippet": "[![paper](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)](https://arxiv.org/abs/2203.07756) [![Download](https://img.shields.io/badge/GoogleDrive-Data-blue)](https://drive.google.com/drive/folders/1RWALNnNNxoTxxgjuKGRSw98SGrQhZ_uO?usp=sharing)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "image-to-image-translation"
+    },
+    {
+      "context_snippet": "[![paper](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)](https://arxiv.org/abs/2203.07756) [![Download](https://img.shields.io/badge/GoogleDrive-Data-blue)](https://drive.google.com/drive/folders/1RWALNnNNxoTxxgjuKGRSw98SGrQhZ_uO?usp=sharing)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytorch"
+    }
+  ]
+}

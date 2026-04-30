@@ -1,0 +1,342 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/depup.yml"
+    },
+    {
+      "component": "haya14busa/action-depup@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/depup.yml"
+    },
+    {
+      "component": "peter-evans/create-pull-request@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/depup.yml"
+    },
+    {
+      "component": "reagento/relator@4b1531359edba1228db0906e8931b0da2aef69cd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/relator.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "codecov/codecov-action@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/wps.yml"
+    },
+    {
+      "component": "wemake-services/wemake-python-styleguide@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/wps.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/depup.yml",
+      "source_repo": "wemake-services/wemake-python-styleguide",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/depup.yml",
+      "source_repo": "wemake-services/wemake-python-styleguide",
+      "target": "haya14busa/action-depup@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/depup.yml",
+      "source_repo": "wemake-services/wemake-python-styleguide",
+      "target": "peter-evans/create-pull-request@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/depup.yml",
+      "source_repo": "wemake-services/wemake-python-styleguide",
+      "target": "depup",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/relator.yml",
+      "source_repo": "wemake-services/wemake-python-styleguide",
+      "target": "reagento/relator@4b1531359edba1228db0906e8931b0da2aef69cd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/relator.yml",
+      "source_repo": "wemake-services/wemake-python-styleguide",
+      "target": "Relator",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "wemake-services/wemake-python-styleguide",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "wemake-services/wemake-python-styleguide",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "wemake-services/wemake-python-styleguide",
+      "target": "codecov/codecov-action@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "wemake-services/wemake-python-styleguide",
+      "target": "test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/wps.yml",
+      "source_repo": "wemake-services/wemake-python-styleguide",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/wps.yml",
+      "source_repo": "wemake-services/wemake-python-styleguide",
+      "target": "wemake-services/wemake-python-styleguide@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/wps.yml",
+      "source_repo": "wemake-services/wemake-python-styleguide",
+      "target": "wps",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "wemake-services/wemake-python-styleguide",
+      "target": "code-quality",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "wemake-services/wemake-python-styleguide",
+      "target": "flake8",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "wemake-services/wemake-python-styleguide",
+      "target": "flake8-plugin",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "wemake-services/wemake-python-styleguide",
+      "target": "hacktoberfest",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "wemake-services/wemake-python-styleguide",
+      "target": "linter",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "wemake-services/wemake-python-styleguide",
+      "target": "python3",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "wemake-services/wemake-python-styleguide",
+      "target": "styleguide",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "wemake-services/wemake-python-styleguide",
+      "target": "wemake",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "wemake-services/wemake-python-styleguide",
+      "target": "wemake-services",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T00:44:07.770297+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8135
+    },
+    {
+      "path": "Dockerfile",
+      "size": 1362
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 7120
+    },
+    {
+      "path": ".github/workflows/depup.yml",
+      "size": 920
+    },
+    {
+      "path": ".github/workflows/relator.yml",
+      "size": 608
+    },
+    {
+      "path": ".github/workflows/test.yml",
+      "size": 1245
+    },
+    {
+      "path": ".github/workflows/wps.yml",
+      "size": 560
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "The strictest and most opinionated python linter ever!",
+    "fork": false,
+    "full_name": "wemake-services/wemake-python-styleguide",
+    "html_url": "https://github.com/wemake-services/wemake-python-styleguide",
+    "language": "Python",
+    "pushed_at": "2026-04-27T16:59:09Z",
+    "stargazers_count": 2842,
+    "topics": [
+      "code-quality",
+      "flake8",
+      "flake8-plugin",
+      "hacktoberfest",
+      "linter",
+      "python",
+      "python3",
+      "styleguide",
+      "wemake",
+      "wemake-services"
+    ],
+    "updated_at": "2026-04-29T17:24:58Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "depup",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/depup.yml",
+      "term": "depup"
+    },
+    {
+      "context_snippet": "Relator",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/relator.yml",
+      "term": "Relator"
+    },
+    {
+      "context_snippet": "test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "term": "test"
+    },
+    {
+      "context_snippet": "wps",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/wps.yml",
+      "term": "wps"
+    },
+    {
+      "context_snippet": "[![wemake.services](https://img.shields.io/badge/%20-wemake.services-green.svg?label=%20&logo=data%3Aimage%2Fpng%3Bbase64%2CiVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAABGdBTUEAALGPC%2FxhBQAAAAFzUkdCAK7OHOkAAAAbUExURQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP%2F%2F%2F5TvxDIAAAAIdFJOUwA\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "code-quality"
+    },
+    {
+      "context_snippet": "[![wemake.services](https://img.shields.io/badge/%20-wemake.services-green.svg?label=%20&logo=data%3Aimage%2Fpng%3Bbase64%2CiVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAABGdBTUEAALGPC%2FxhBQAAAAFzUkdCAK7OHOkAAAAbUExURQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP%2F%2F%2F5TvxDIAAAAIdFJOUwA\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "flake8"
+    },
+    {
+      "context_snippet": "[![wemake.services](https://img.shields.io/badge/%20-wemake.services-green.svg?label=%20&logo=data%3Aimage%2Fpng%3Bbase64%2CiVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAABGdBTUEAALGPC%2FxhBQAAAAFzUkdCAK7OHOkAAAAbUExURQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP%2F%2F%2F5TvxDIAAAAIdFJOUwA\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "flake8-plugin"
+    },
+    {
+      "context_snippet": "[![wemake.services](https://img.shields.io/badge/%20-wemake.services-green.svg?label=%20&logo=data%3Aimage%2Fpng%3Bbase64%2CiVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAABGdBTUEAALGPC%2FxhBQAAAAFzUkdCAK7OHOkAAAAbUExURQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP%2F%2F%2F5TvxDIAAAAIdFJOUwA\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hacktoberfest"
+    },
+    {
+      "context_snippet": "[![wemake.services](https://img.shields.io/badge/%20-wemake.services-green.svg?label=%20&logo=data%3Aimage%2Fpng%3Bbase64%2CiVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAABGdBTUEAALGPC%2FxhBQAAAAFzUkdCAK7OHOkAAAAbUExURQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP%2F%2F%2F5TvxDIAAAAIdFJOUwA\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "linter"
+    },
+    {
+      "context_snippet": "[![wemake.services](https://img.shields.io/badge/%20-wemake.services-green.svg?label=%20&logo=data%3Aimage%2Fpng%3Bbase64%2CiVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAABGdBTUEAALGPC%2FxhBQAAAAFzUkdCAK7OHOkAAAAbUExURQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP%2F%2F%2F5TvxDIAAAAIdFJOUwA\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "python3"
+    },
+    {
+      "context_snippet": "[![wemake.services](https://img.shields.io/badge/%20-wemake.services-green.svg?label=%20&logo=data%3Aimage%2Fpng%3Bbase64%2CiVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAABGdBTUEAALGPC%2FxhBQAAAAFzUkdCAK7OHOkAAAAbUExURQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP%2F%2F%2F5TvxDIAAAAIdFJOUwA\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "styleguide"
+    },
+    {
+      "context_snippet": "[![wemake.services](https://img.shields.io/badge/%20-wemake.services-green.svg?label=%20&logo=data%3Aimage%2Fpng%3Bbase64%2CiVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAABGdBTUEAALGPC%2FxhBQAAAAFzUkdCAK7OHOkAAAAbUExURQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP%2F%2F%2F5TvxDIAAAAIdFJOUwA\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "wemake"
+    },
+    {
+      "context_snippet": "[![wemake.services](https://img.shields.io/badge/%20-wemake.services-green.svg?label=%20&logo=data%3Aimage%2Fpng%3Bbase64%2CiVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAABGdBTUEAALGPC%2FxhBQAAAAFzUkdCAK7OHOkAAAAbUExURQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP%2F%2F%2F5TvxDIAAAAIdFJOUwA\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "wemake-services"
+    }
+  ]
+}

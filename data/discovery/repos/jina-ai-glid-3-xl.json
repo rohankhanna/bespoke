@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T03:52:51.718747+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4742
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "1.4B latent diffusion model fine tuning",
+    "fork": true,
+    "full_name": "jina-ai/glid-3-xl",
+    "html_url": "https://github.com/jina-ai/glid-3-xl",
+    "language": "Python",
+    "pushed_at": "2022-08-08T06:55:49Z",
+    "stargazers_count": 1,
+    "topics": [],
+    "updated_at": "2024-07-30T12:00:33Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

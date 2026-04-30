@@ -1,0 +1,187 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "BR-IDL/PaddleViT",
+      "target": "ccvl/detail-api",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "BR-IDL/PaddleViT",
+      "target": "classification",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "BR-IDL/PaddleViT",
+      "target": "computer-vision",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "BR-IDL/PaddleViT",
+      "target": "deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "BR-IDL/PaddleViT",
+      "target": "detection",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "BR-IDL/PaddleViT",
+      "target": "encoder-decoder",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "BR-IDL/PaddleViT",
+      "target": "object-detection",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "BR-IDL/PaddleViT",
+      "target": "paddlepaddle",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "BR-IDL/PaddleViT",
+      "target": "segmentation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "BR-IDL/PaddleViT",
+      "target": "semantic-segmentation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "BR-IDL/PaddleViT",
+      "target": "transformer",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T05:15:05.944904+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 87294
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "develop",
+    "description": ":robot: PaddleViT: State-of-the-art Visual Transformer and MLP Models for PaddlePaddle 2.0+",
+    "fork": false,
+    "full_name": "BR-IDL/PaddleViT",
+    "html_url": "https://github.com/BR-IDL/PaddleViT",
+    "language": "Python",
+    "pushed_at": "2022-09-07T08:37:15Z",
+    "stargazers_count": 1239,
+    "topics": [
+      "classification",
+      "computer-vision",
+      "cv",
+      "deep-learning",
+      "detection",
+      "encoder-decoder",
+      "gan",
+      "mlp",
+      "object-detection",
+      "paddlepaddle",
+      "segmentation",
+      "semantic-segmentation",
+      "transformer",
+      "vit"
+    ],
+    "updated_at": "2026-04-21T07:04:09Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ccvl/detail-api",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "English | [\u7b80\u4f53\u4e2d\u6587](./README_cn.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "classification"
+    },
+    {
+      "context_snippet": "English | [\u7b80\u4f53\u4e2d\u6587](./README_cn.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "computer-vision"
+    },
+    {
+      "context_snippet": "English | [\u7b80\u4f53\u4e2d\u6587](./README_cn.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-learning"
+    },
+    {
+      "context_snippet": "English | [\u7b80\u4f53\u4e2d\u6587](./README_cn.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "detection"
+    },
+    {
+      "context_snippet": "English | [\u7b80\u4f53\u4e2d\u6587](./README_cn.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "encoder-decoder"
+    },
+    {
+      "context_snippet": "English | [\u7b80\u4f53\u4e2d\u6587](./README_cn.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "object-detection"
+    },
+    {
+      "context_snippet": "English | [\u7b80\u4f53\u4e2d\u6587](./README_cn.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "paddlepaddle"
+    },
+    {
+      "context_snippet": "English | [\u7b80\u4f53\u4e2d\u6587](./README_cn.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "segmentation"
+    },
+    {
+      "context_snippet": "English | [\u7b80\u4f53\u4e2d\u6587](./README_cn.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "semantic-segmentation"
+    },
+    {
+      "context_snippet": "English | [\u7b80\u4f53\u4e2d\u6587](./README_cn.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "transformer"
+    }
+  ]
+}

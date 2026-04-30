@@ -1,0 +1,67 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "agiresearch/A-mem",
+      "target": "wujiangxu/agenticmemory",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "agiresearch/A-mem",
+      "target": "memory",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T02:50:22.574176+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6293
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 1184
+    },
+    {
+      "path": "requirements.txt",
+      "size": 175
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A-MEM: Agentic Memory for LLM Agents",
+    "fork": false,
+    "full_name": "agiresearch/A-mem",
+    "html_url": "https://github.com/agiresearch/A-mem",
+    "language": "Python",
+    "pushed_at": "2025-12-12T21:15:29Z",
+    "stargazers_count": 992,
+    "topics": [
+      "agent",
+      "llm",
+      "memory"
+    ],
+    "updated_at": "2026-04-29T17:51:51Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "wujiangxu/agenticmemory",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "A novel agentic memory system for LLM agents that can dynamically organize memories in an agentic way.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "memory"
+    }
+  ]
+}

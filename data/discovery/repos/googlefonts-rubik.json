@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "googlefonts/rubik",
+      "target": "impallari/font-testing-page",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T03:50:20.232583+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3493
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "main",
+    "description": "Rubik fonts",
+    "fork": false,
+    "full_name": "googlefonts/rubik",
+    "html_url": "https://github.com/googlefonts/rubik",
+    "language": "Shell",
+    "pushed_at": "2023-06-22T07:57:01Z",
+    "stargazers_count": 212,
+    "topics": [],
+    "updated_at": "2026-04-19T23:43:55Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "impallari/font-testing-page",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

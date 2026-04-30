@@ -1,7 +1,7 @@
 {
   "component": "w3c/spec-prod@v2",
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -92,6 +92,16 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/css-fonts-5.yml",
       "source_repo": "w3c/csswg-drafts"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/publish-TR-webgpu.yml",
+      "source_repo": "gpuweb/gpuweb"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/publish-TR-wgsl.yml",
+      "source_repo": "gpuweb/gpuweb"
     }
   ]
 }

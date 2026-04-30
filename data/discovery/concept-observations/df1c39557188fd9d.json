@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Redefining the multi cluster story of Argo CD"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![Integration tests](https://github.com/argoproj-labs/argocd-agent/actions/workflows/ci.yaml/badge.svg)](https://github.com/argoproj-labs/argocd-agent/actions/workflows/ci.yaml)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![Integration tests](https://github.com/argoproj-labs/argocd-agent/actions/workflows/ci.yaml/badge.svg)](https://github.com/argoproj-labs/argocd-agent/actions/workflows/ci.yaml)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40014662,
+      "status": "candidate",
+      "text": "boundary"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40014231,
+      "status": "candidate",
+      "text": "border"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40005626,
+      "status": "candidate",
+      "text": "abut"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39994701,
+      "status": "candidate",
+      "text": "peripheral"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39993280,
+      "status": "candidate",
+      "text": "adjoin"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "edge",
+      "sense_id": "edge#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 35059,
+      "status": "candidate",
+      "text": "butt"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 21051,
+      "status": "candidate",
+      "text": "marginal"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 18087,
+      "status": "candidate",
+      "text": "margin"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 16057,
+      "status": "candidate",
+      "text": "boundary"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 16051,
+      "status": "candidate",
+      "text": "border"
+    }
+  ],
+  "concept_id": "edge",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "edge",
+  "observation_id": "df1c39557188fd9d",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T00:37:16.824464+00:00",
+  "observed_text": "edge",
+  "source_context_snippet": "[![Integration tests](https://github.com/argoproj-labs/argocd-agent/actions/workflows/ci.yaml/badge.svg)](https://github.com/argoproj-labs/argocd-agent/actions/workflows/ci.yaml)",
+  "source_file": null,
+  "source_repo": "argoproj-labs/argocd-agent",
+  "source_repo_description": "Redefining the multi cluster story of Argo CD"
+}

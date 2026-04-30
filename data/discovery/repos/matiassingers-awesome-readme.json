@@ -1,0 +1,81 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "matiassingers/awesome-readme",
+      "target": "awesome",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "matiassingers/awesome-readme",
+      "target": "awesome-list",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "matiassingers/awesome-readme",
+      "target": "list",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "matiassingers/awesome-readme",
+      "target": "readme",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T05:04:30.578484+00:00",
+  "fetched_files": [],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A curated list of awesome READMEs",
+    "fork": false,
+    "full_name": "matiassingers/awesome-readme",
+    "html_url": "https://github.com/matiassingers/awesome-readme",
+    "language": null,
+    "pushed_at": "2026-04-26T20:52:35Z",
+    "stargazers_count": 20843,
+    "topics": [
+      "awesome",
+      "awesome-list",
+      "list",
+      "readme"
+    ],
+    "updated_at": "2026-04-30T00:55:38Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "A curated list of awesome READMEs",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "awesome"
+    },
+    {
+      "context_snippet": "A curated list of awesome READMEs",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "awesome-list"
+    },
+    {
+      "context_snippet": "A curated list of awesome READMEs",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "list"
+    },
+    {
+      "context_snippet": "A curated list of awesome READMEs",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "readme"
+    }
+  ]
+}

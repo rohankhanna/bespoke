@@ -1,0 +1,174 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "AaronFeng753/Waifu2x-Extension-GUI",
+      "target": "bloc97/anime4k",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "AaronFeng753/Waifu2x-Extension-GUI",
+      "target": "baowenbo/dain",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "AaronFeng753/Waifu2x-Extension-GUI",
+      "target": "cszn/srmd",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "AaronFeng753/Waifu2x-Extension-GUI",
+      "target": "aaronfeng753/waifu2x-extension",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AaronFeng753/Waifu2x-Extension-GUI",
+      "target": "anime",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AaronFeng753/Waifu2x-Extension-GUI",
+      "target": "anime4k",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AaronFeng753/Waifu2x-Extension-GUI",
+      "target": "esrgan",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AaronFeng753/Waifu2x-Extension-GUI",
+      "target": "frame-interpolation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AaronFeng753/Waifu2x-Extension-GUI",
+      "target": "image-enlarger",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AaronFeng753/Waifu2x-Extension-GUI",
+      "target": "ncnn",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AaronFeng753/Waifu2x-Extension-GUI",
+      "target": "noise-reduction",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AaronFeng753/Waifu2x-Extension-GUI",
+      "target": "rtx-video-super-resolution",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AaronFeng753/Waifu2x-Extension-GUI",
+      "target": "rtx-vsr",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AaronFeng753/Waifu2x-Extension-GUI",
+      "target": "super-resolution",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AaronFeng753/Waifu2x-Extension-GUI",
+      "target": "upscaling",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AaronFeng753/Waifu2x-Extension-GUI",
+      "target": "video",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AaronFeng753/Waifu2x-Extension-GUI",
+      "target": "video-enlarger",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AaronFeng753/Waifu2x-Extension-GUI",
+      "target": "video-frame-interpolation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AaronFeng753/Waifu2x-Extension-GUI",
+      "target": "video-interpolation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AaronFeng753/Waifu2x-Extension-GUI",
+      "target": "video-processing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AaronFeng753/Waifu2x-Extension-GUI",
+      "target": "video-super-resolution",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AaronFeng753/Waifu2x-Extension-GUI",
+      "target": "vulkan",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AaronFeng753/Waifu2x-Extension-GUI",
+      "target": "waifu2x",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AaronFeng753/Waifu2x-Extension-GUI",
+      "target": "waifu2x-ncnn-vulkan",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-30T00:37:16.824464+00:00",
+  "source_repo": "AaronFeng753/Waifu2x-Extension-GUI"
+}

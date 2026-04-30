@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "developer-notes"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "danielrosehill/AI-Developer-Notebook",
+      "status": "candidate-context",
+      "text": "Notes for configuring a reference notebook with Claude Code"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "danielrosehill/AI-Developer-Notebook",
+      "status": "candidate-context",
+      "text": "[![Claude Code](https://img.shields.io/badge/Claude_Code-Project-8A2BE2?logo=anthropic)](https://claude.ai/code)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "danielrosehill/AI-Developer-Notebook",
+      "status": "candidate",
+      "text": "[![Claude Code](https://img.shields.io/badge/Claude_Code-Project-8A2BE2?logo=anthropic)](https://claude.ai/code)"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "developer-notes",
+  "concept_id": "developer-notes",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "danielrosehill/AI-Developer-Notebook"
+    }
+  ],
+  "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "developer-notes",
+      "sense_id": "developer-notes#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

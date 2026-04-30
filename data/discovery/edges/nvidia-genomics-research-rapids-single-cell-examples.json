@@ -20,15 +20,8 @@
       "source_repo": "NVIDIA-Genomics-Research/rapids-single-cell-examples",
       "target": "clara-parabricks/atacworks",
       "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "Dockerfile",
-      "source_repo": "NVIDIA-Genomics-Research/rapids-single-cell-examples",
-      "target": "cjnolet/atacworks",
-      "target_type": "repository"
     }
   ],
-  "generated_at": "2026-04-29T18:37:00.726333+00:00",
+  "generated_at": "2026-04-30T00:37:16.824464+00:00",
   "source_repo": "NVIDIA-Genomics-Research/rapids-single-cell-examples"
 }

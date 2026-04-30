@@ -199,6 +199,66 @@
       "source_repo": "detectRecog/CCPD",
       "status": "candidate-context",
       "text": "(If you are benefited from this dataset, please cite our paper.)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "open-edge-platform/geti-instant-learn",
+      "status": "candidate-context",
+      "text": " A modular framework for few-shot visual segmentation using visual prompting techniques. Enables easy experimentation with different algorithms, backbones (SAM, MobileSAM, DinoV2), and pipeline components for finding and segmenting objects from just a few examples. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "open-edge-platform/geti-instant-learn",
+      "status": "candidate-context",
+      "text": "<!-- markdownlint-disable MD013 MD033 MD041 MD042 -->"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "whai362/PVT",
+      "status": "candidate-context",
+      "text": "Official implementation of PVT series"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "whai362/PVT",
+      "status": "candidate-context",
+      "text": "- (2022/08/09) Application examples for polyp segmentation (polyp-pvt) and vision-language modeling."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "zhiqwang/yolort",
+      "status": "candidate-context",
+      "text": "yolort is a runtime stack for yolov5 on specialized accelerators such as tensorrt, libtorch, onnxruntime, tvm and ncnn."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "zhiqwang/yolort",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "IDEA-Research/DAB-DETR",
+      "status": "candidate-context",
+      "text": "[ICLR 2022] Official implementation of the paper \"DAB-DETR: Dynamic Anchor Boxes are Better Queries for DETR\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "IDEA-Research/DAB-DETR",
+      "status": "candidate-context",
+      "text": "\ufeff# DAB-DETR"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "BR-IDL/PaddleViT",
+      "status": "candidate-context",
+      "text": ":robot: PaddleViT: State-of-the-art Visual Transformer and MLP Models for PaddlePaddle 2.0+"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "BR-IDL/PaddleViT",
+      "status": "candidate-context",
+      "text": "English | [\u7b80\u4f53\u4e2d\u6587](./README_cn.md)"
     }
   ],
   "candidate_glosses": [
@@ -297,6 +357,36 @@
       "source_repo": "detectRecog/CCPD",
       "status": "candidate",
       "text": "(If you are benefited from this dataset, please cite our paper.)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "open-edge-platform/geti-instant-learn",
+      "status": "candidate",
+      "text": "<!-- markdownlint-disable MD013 MD033 MD041 MD042 -->"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "whai362/PVT",
+      "status": "candidate",
+      "text": "- (2022/08/09) Application examples for polyp segmentation (polyp-pvt) and vision-language modeling."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "zhiqwang/yolort",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "IDEA-Research/DAB-DETR",
+      "status": "candidate",
+      "text": "\ufeff# DAB-DETR"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "BR-IDL/PaddleViT",
+      "status": "candidate",
+      "text": "English | [\u7b80\u4f53\u4e2d\u6587](./README_cn.md)"
     }
   ],
   "candidate_related_terms": [
@@ -472,11 +562,47 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "detectRecog/CCPD"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "open-edge-platform/geti-instant-learn"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "whai362/PVT"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "PaddlePaddle/Paddle2ONNX"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "zhiqwang/yolort"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "IDEA-Research/DAB-DETR"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "BR-IDL/PaddleViT"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

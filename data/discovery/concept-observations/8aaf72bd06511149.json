@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Pandas, Polars, Spark, and Snowpark DataFrame comparison for humans and more!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "![PyPI - Python Version](https://img.shields.io/pypi/pyversions/datacompy)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "![PyPI - Python Version](https://img.shields.io/pypi/pyversions/datacompy)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29857109,
+      "status": "candidate",
+      "text": "harmony"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29755752,
+      "status": "candidate",
+      "text": "flight"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29741899,
+      "status": "candidate",
+      "text": "escape"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19970706,
+      "status": "candidate",
+      "text": "fuga"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19970705,
+      "status": "candidate",
+      "text": "double fugue"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "fugue",
+      "sense_id": "fugue#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "fugue",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "fugue",
+  "observation_id": "8aaf72bd06511149",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T00:37:16.824464+00:00",
+  "observed_text": "fugue",
+  "source_context_snippet": "![PyPI - Python Version](https://img.shields.io/pypi/pyversions/datacompy)",
+  "source_file": null,
+  "source_repo": "capitalone/datacompy",
+  "source_repo_description": "Pandas, Polars, Spark, and Snowpark DataFrame comparison for humans and more!"
+}

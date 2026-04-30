@@ -55,6 +55,42 @@
       "source_repo": "jackyjsy/CVPR21Chal-SLR",
       "status": "candidate-context",
       "text": "This repo contains the official code of our work SAM-SLR which won the CVPR 2021 Challenge on Large Scale Signer Independent Isolated Sign Language Recognition."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "MasterBin-IIAU/AlphaRefine",
+      "status": "candidate-context",
+      "text": "Official implementation for the CVPR2021 paper Alpha-Refine"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MasterBin-IIAU/AlphaRefine",
+      "status": "candidate-context",
+      "text": "This is the official implementation of [Alpha-Refine: Boosting Tracking Performance by Precise Bounding Box Estimation"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "liuh127/NTIRE-2021-Dehazing-Two-branch",
+      "status": "candidate-context",
+      "text": "Official PyTorch implementation of Two-branch Dehazing, wining runner-up awards in NTIRE 2021."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "liuh127/NTIRE-2021-Dehazing-Two-branch",
+      "status": "candidate-context",
+      "text": "This is the official PyTorch implementation of Two-branch Dehazing. See more details in [[report]](https://openaccess.thecvf.com/content/CVPR2021W/NTIRE/papers/Ancuti_NTIRE_2021_NonHomogeneous_Dehazing_Challenge_Report_CVPRW_2021_paper.pdf) , [[paper]](https://openaccess.thecvf.\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jayleicn/ClipBERT",
+      "status": "candidate-context",
+      "text": "[CVPR 2021 Best Student Paper Honorable Mention, Oral] Official PyTorch code for ClipBERT, an efficient framework for end-to-end learning on image-text and video-text tasks. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jayleicn/ClipBERT",
+      "status": "candidate-context",
+      "text": "[Less is More: ClipBERT for Video-and-Language Learning via Sparse Sampling](https://arxiv.org/abs/2102.06183)"
     }
   ],
   "candidate_glosses": [
@@ -81,6 +117,24 @@
       "source_repo": "jackyjsy/CVPR21Chal-SLR",
       "status": "candidate",
       "text": "This repo contains the official code of our work SAM-SLR which won the CVPR 2021 Challenge on Large Scale Signer Independent Isolated Sign Language Recognition."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MasterBin-IIAU/AlphaRefine",
+      "status": "candidate",
+      "text": "This is the official implementation of [Alpha-Refine: Boosting Tracking Performance by Precise Bounding Box Estimation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "liuh127/NTIRE-2021-Dehazing-Two-branch",
+      "status": "candidate",
+      "text": "This is the official PyTorch implementation of Two-branch Dehazing. See more details in [[report]](https://openaccess.thecvf.com/content/CVPR2021W/NTIRE/papers/Ancuti_NTIRE_2021_NonHomogeneous_Dehazing_Challenge_Report_CVPRW_2021_paper.pdf) , [[paper]](https://openaccess.thecvf.\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jayleicn/ClipBERT",
+      "status": "candidate",
+      "text": "[Less is More: ClipBERT for Video-and-Language Learning via Sparse Sampling](https://arxiv.org/abs/2102.06183)"
     }
   ],
   "candidate_related_terms": [],
@@ -112,11 +166,29 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "jackyjsy/CVPR21Chal-SLR"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "MasterBin-IIAU/AlphaRefine"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "liuh127/NTIRE-2021-Dehazing-Two-branch"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "jayleicn/ClipBERT"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

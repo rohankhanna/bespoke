@@ -6,7 +6,9 @@
   "ambiguity_status": "unresolved",
   "buckets": [
     "workflow-process",
-    "data-document-artifact"
+    "data-document-artifact",
+    "tool-component",
+    "capability"
   ],
   "candidate_definitions": [
     {
@@ -200,6 +202,90 @@
       "source_repo": "optuna/optuna-integration",
       "status": "candidate-context",
       "text": "Reviewdog"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "liquidz/iced-nrepl",
+      "status": "candidate-context",
+      "text": "nREPL middleware to support vim-iced."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "liquidz/iced-nrepl",
+      "status": "candidate-context",
+      "text": "reviewdog"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "haya14busa/action-bumpr",
+      "status": "candidate-context",
+      "text": "\ud83d\udca5 Bump semantic version tag on merging Pull Requests with specific lables."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "haya14busa/action-bumpr",
+      "status": "candidate-context",
+      "text": "reviewdog"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "reviewdog/action-black",
+      "status": "candidate-context",
+      "text": "Run black with Reviewdog :dog:"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "reviewdog/action-black",
+      "status": "candidate-context",
+      "text": "reviewdog"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "reviewdog/action-black",
+      "status": "candidate-context",
+      "text": "[![Test](https://github.com/reviewdog/action-black/workflows/Test/badge.svg)](https://github.com/reviewdog/action-black/actions?query=workflow%3ATest)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cloudwego/kitex-examples",
+      "status": "candidate-context",
+      "text": "Examples for Kitex."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cloudwego/kitex-examples",
+      "status": "candidate-context",
+      "text": "reviewdog"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "blooper05/action-rails_best_practices",
+      "status": "candidate-context",
+      "text": "Run rails_best_practices with reviewdog \ud83d\udc36"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "blooper05/action-rails_best_practices",
+      "status": "candidate-context",
+      "text": "reviewdog"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "blooper05/action-rails_best_practices",
+      "status": "candidate-context",
+      "text": "[![test](https://img.shields.io/github/actions/workflow/status/blooper05/action-rails_best_practices/test.yml?branch=main&label=test&logo=github&style=flat-square)](https://github.com/blooper05/action-rails_best_practices/actions?query=workflow:test)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "brunohaf/action-bandit",
+      "status": "candidate-context",
+      "text": "This GitHub Action runs Bandit, a Python security linter, and integrates with reviewdog for inline PR comments. It supports configurable Bandit options (config file, flags, verbose mode) and reviewdog settings (tool name, report level, reporter). It also handles version management with action-bumpr and action-update-semver."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "brunohaf/action-bandit",
+      "status": "candidate-context",
+      "text": "reviewdog"
     }
   ],
   "candidate_glosses": [
@@ -298,6 +384,54 @@
       "source_repo": "optuna/optuna-integration",
       "status": "candidate",
       "text": "Reviewdog"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "liquidz/iced-nrepl",
+      "status": "candidate",
+      "text": "reviewdog"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "haya14busa/action-bumpr",
+      "status": "candidate",
+      "text": "reviewdog"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "reviewdog/action-black",
+      "status": "candidate",
+      "text": "reviewdog"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "reviewdog/action-black",
+      "status": "candidate",
+      "text": "[![Test](https://github.com/reviewdog/action-black/workflows/Test/badge.svg)](https://github.com/reviewdog/action-black/actions?query=workflow%3ATest)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cloudwego/kitex-examples",
+      "status": "candidate",
+      "text": "reviewdog"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "blooper05/action-rails_best_practices",
+      "status": "candidate",
+      "text": "reviewdog"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "blooper05/action-rails_best_practices",
+      "status": "candidate",
+      "text": "[![test](https://img.shields.io/github/actions/workflow/status/blooper05/action-rails_best_practices/test.yml?branch=main&label=test&logo=github&style=flat-square)](https://github.com/blooper05/action-rails_best_practices/actions?query=workflow:test)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "brunohaf/action-bandit",
+      "status": "candidate",
+      "text": "reviewdog"
     }
   ],
   "candidate_related_terms": [],
@@ -455,11 +589,95 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": ".github/workflows/reviewdog.yml",
       "source_repo": "optuna/optuna-integration"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/reviewdog.yml",
+      "source_repo": "lambdalisue/vim-nerdfont"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/reviewdog.yml",
+      "source_repo": "liquidz/iced-nrepl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/reviewdog.yml",
+      "source_repo": "lambdalisue/vim-fern-git-status"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/reviewdog.yml",
+      "source_repo": "lambdalisue/vim-fern"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/reviewdog.yml",
+      "source_repo": "lambdalisue/vim-glyph-palette"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/reviewdog.yml",
+      "source_repo": "lambdalisue/vim-gina"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/reviewdog.yml",
+      "source_repo": "preservim/tagbar"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/reviewdog.yml",
+      "source_repo": "haya14busa/action-bumpr"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/reviewdog.yml",
+      "source_repo": "reviewdog/action-black"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "reviewdog/action-black"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/reviewdog.yml",
+      "source_repo": "cloudwego/kitex-examples"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/reviewdog.yml",
+      "source_repo": "blooper05/action-rails_best_practices"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "blooper05/action-rails_best_practices"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/reviewdog.yml",
+      "source_repo": "brunohaf/action-bandit"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

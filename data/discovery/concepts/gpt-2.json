@@ -79,6 +79,30 @@
       "source_repo": "codota/tabnine-atom",
       "status": "candidate-context",
       "text": "[twitter-shield]: https://img.shields.io/twitter/follow/Tabnine_?style=social"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "codota/tabnine-sublime",
+      "status": "candidate-context",
+      "text": "Tabnine Autocomplete AI: JavaScript, Python, TypeScript, PHP, C/C++, HTML/CSS, Go, Java, Ruby, C#, Rust, SQL, Bash, Kotlin, Julia, Lua, OCaml, Perl, Haskell, React"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "codota/tabnine-sublime",
+      "status": "candidate-context",
+      "text": "[twitter-shield]: https://img.shields.io/twitter/follow/Tabnine_?style=social"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "codota/tabnine-vim",
+      "status": "candidate-context",
+      "text": "Vim client for TabNine. https://vimawesome.com/plugin/tabnine-vim"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "codota/tabnine-vim",
+      "status": "candidate-context",
+      "text": "[twitter-shield]: https://img.shields.io/twitter/follow/Tabnine_?style=social"
     }
   ],
   "candidate_glosses": [
@@ -115,6 +139,18 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "codota/tabnine-atom",
+      "status": "candidate",
+      "text": "[twitter-shield]: https://img.shields.io/twitter/follow/Tabnine_?style=social"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "codota/tabnine-sublime",
+      "status": "candidate",
+      "text": "[twitter-shield]: https://img.shields.io/twitter/follow/Tabnine_?style=social"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "codota/tabnine-vim",
       "status": "candidate",
       "text": "[twitter-shield]: https://img.shields.io/twitter/follow/Tabnine_?style=social"
     }
@@ -202,11 +238,41 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "EleutherAI/gpt-neo"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "codota/TabNine"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "EleutherAI/gpt-neo"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "codota/tabnine-atom"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "codota/tabnine-sublime"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "codota/tabnine-vim"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

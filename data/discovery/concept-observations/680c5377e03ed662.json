@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A single interface to use and evaluate different agent frameworks "
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Publish demo to Hugging Face Spaces"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Publish demo to Hugging Face Spaces"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 33057,
+      "status": "candidate",
+      "text": "bark"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 32057,
+      "status": "candidate",
+      "text": "smack"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31678,
+      "status": "candidate",
+      "text": "exhibit"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31678,
+      "status": "candidate",
+      "text": "milepost"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31678,
+      "status": "candidate",
+      "text": "milestone"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Publish demo to Hugging Face Spaces",
+      "sense_id": "publish-demo-to-hugging-face-spaces#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "publish-demo-to-hugging-face-spaces",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "publish-demo-to-hugging-face-spaces",
+  "observation_id": "680c5377e03ed662",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-30T00:37:16.824464+00:00",
+  "observed_text": "Publish demo to Hugging Face Spaces",
+  "source_context_snippet": "Publish demo to Hugging Face Spaces",
+  "source_file": ".github/workflows/publish_demo_to_hf_spaces.yaml",
+  "source_repo": "mozilla-ai/any-agent",
+  "source_repo_description": "A single interface to use and evaluate different agent frameworks "
+}

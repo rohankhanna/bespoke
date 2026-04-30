@@ -1,0 +1,166 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "trilom/file-changes-action@v1.2.4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "ruby/setup-ruby@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "ruby/setup-ruby@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "the-benchmarker/web-frameworks",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "the-benchmarker/web-frameworks",
+      "target": "trilom/file-changes-action@v1.2.4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "the-benchmarker/web-frameworks",
+      "target": "ruby/setup-ruby@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "the-benchmarker/web-frameworks",
+      "target": "benchmark",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "the-benchmarker/web-frameworks",
+      "target": "framework",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "the-benchmarker/web-frameworks",
+      "target": "http",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "the-benchmarker/web-frameworks",
+      "target": "measurement",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "the-benchmarker/web-frameworks",
+      "target": "performance",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "the-benchmarker/web-frameworks",
+      "target": "standard",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T01:45:58.988152+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1681
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 2367
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "develop",
+    "description": "Which is the fastest web framework?",
+    "fork": false,
+    "full_name": "the-benchmarker/web-frameworks",
+    "html_url": "https://github.com/the-benchmarker/web-frameworks",
+    "language": "PHP",
+    "pushed_at": "2026-04-29T02:40:18Z",
+    "stargazers_count": 7089,
+    "topics": [
+      "benchmark",
+      "framework",
+      "http",
+      "measurement",
+      "performance",
+      "standard",
+      "web"
+    ],
+    "updated_at": "2026-04-29T04:43:11Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "- `ruby`, all tools are made in `ruby`",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "benchmark"
+    },
+    {
+      "context_snippet": "- `ruby`, all tools are made in `ruby`",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "framework"
+    },
+    {
+      "context_snippet": "- `ruby`, all tools are made in `ruby`",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "http"
+    },
+    {
+      "context_snippet": "- `ruby`, all tools are made in `ruby`",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "measurement"
+    },
+    {
+      "context_snippet": "- `ruby`, all tools are made in `ruby`",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "performance"
+    },
+    {
+      "context_snippet": "- `ruby`, all tools are made in `ruby`",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "standard"
+    }
+  ]
+}

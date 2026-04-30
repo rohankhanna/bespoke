@@ -1,0 +1,45 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "jeonsworld/ViT-pytorch",
+      "target": "rwightman/pytorch-image-models",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T05:14:20.888841+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6172
+    },
+    {
+      "path": "requirements.txt",
+      "size": 44
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Pytorch reimplementation of the Vision Transformer (An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale)",
+    "fork": false,
+    "full_name": "jeonsworld/ViT-pytorch",
+    "html_url": "https://github.com/jeonsworld/ViT-pytorch",
+    "language": "Jupyter Notebook",
+    "pushed_at": "2022-06-07T07:14:33Z",
+    "stargazers_count": 2154,
+    "topics": [],
+    "updated_at": "2026-04-29T15:55:43Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "rwightman/pytorch-image-models",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

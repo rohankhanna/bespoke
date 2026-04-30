@@ -127,6 +127,30 @@
       "source_repo": "PaddlePaddle/PaddleNLP",
       "status": "candidate-context",
       "text": "**\u7b80\u4f53\u4e2d\u6587**\ud83c\udc04 | [English\ud83c\udf0e](./README_en.md)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "alpa-projects/alpa",
+      "status": "candidate-context",
+      "text": "Training and serving large-scale neural networks with auto parallelization."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alpa-projects/alpa",
+      "status": "candidate-context",
+      "text": "**Note: Alpa is not actively maintained currently. It is available as a research artifact. The core algorithm in Alpa has been merged into XLA, which is still being maintained. https://github.com/openxla/xla/tree/main/xla/hlo/experimental/auto_sharding**"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "skypilot-org/skypilot",
+      "status": "candidate-context",
+      "text": "Run, manage, and scale AI workloads on any AI infrastructure. Use one system to access & manage all AI compute (Kubernetes, Slurm, 20+ clouds, on-prem)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "skypilot-org/skypilot",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -189,6 +213,18 @@
       "source_repo": "PaddlePaddle/PaddleNLP",
       "status": "candidate",
       "text": "**\u7b80\u4f53\u4e2d\u6587**\ud83c\udc04 | [English\ud83c\udf0e](./README_en.md)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alpa-projects/alpa",
+      "status": "candidate",
+      "text": "**Note: Alpa is not actively maintained currently. It is available as a research artifact. The core algorithm in Alpa has been merged into XLA, which is still being maintained. https://github.com/openxla/xla/tree/main/xla/hlo/experimental/auto_sharding**"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "skypilot-org/skypilot",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_related_terms": [],
@@ -298,11 +334,35 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "PaddlePaddle/PaddleNLP"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "alpa-projects/alpa"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "huggingface/pytorch-image-models"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "pytorch/gloo"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "skypilot-org/skypilot"
     }
   ],
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,12 @@
+{
+  "component": "ad-m/github-push-action@4cc74773234f74829a8c21bc4d69dd4be9cfa599",
+  "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/coverage-badge-for-prs.yml",
+      "source_repo": "MShekow/directory-checksum"
+    }
+  ]
+}

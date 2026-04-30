@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T05:15:21.651620+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8328
+    },
+    {
+      "path": "requirements.txt",
+      "size": 270
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Code for fine-tuning Platypus fam LLMs using LoRA",
+    "fork": false,
+    "full_name": "arielnlee/Platypus",
+    "html_url": "https://github.com/arielnlee/Platypus",
+    "language": "Python",
+    "pushed_at": "2024-02-04T09:50:42Z",
+    "stargazers_count": 628,
+    "topics": [],
+    "updated_at": "2026-03-27T17:35:22Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

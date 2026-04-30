@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Submit Clink release to winget-pkgs"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "chrisant996/clink",
+      "status": "candidate-context",
+      "text": "Bash's powerful command line editing in cmd.exe"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chrisant996/clink",
+      "status": "candidate-context",
+      "text": "Submit Clink release to winget-pkgs"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chrisant996/clink",
+      "status": "candidate",
+      "text": "Submit Clink release to winget-pkgs"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21811,
+      "status": "candidate",
+      "text": "can"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21798,
+      "status": "candidate",
+      "text": "stir"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21504,
+      "status": "candidate",
+      "text": "toast"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20913,
+      "status": "candidate",
+      "text": "spring"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20861,
+      "status": "candidate",
+      "text": "reprieve"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Submit Clink release to winget-pkgs",
+  "concept_id": "submit-clink-release-to-winget-pkgs",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/winget-submission.yml",
+      "source_repo": "chrisant996/clink"
+    }
+  ],
+  "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Submit Clink release to winget-pkgs",
+      "sense_id": "submit-clink-release-to-winget-pkgs#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

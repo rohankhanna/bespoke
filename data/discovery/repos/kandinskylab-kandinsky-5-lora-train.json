@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T03:56:05.117905+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1707
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "kandinskylab/kandinsky-5-lora-train",
+    "html_url": "https://github.com/kandinskylab/kandinsky-5-lora-train",
+    "language": "Python",
+    "pushed_at": "2025-11-25T14:43:21Z",
+    "stargazers_count": 18,
+    "topics": [],
+    "updated_at": "2026-04-24T13:36:35Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

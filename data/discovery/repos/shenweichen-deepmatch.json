@@ -1,0 +1,195 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "dorny/paths-filter@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "codecov/codecov-action@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "shenweichen/DeepMatch",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "shenweichen/DeepMatch",
+      "target": "dorny/paths-filter@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "shenweichen/DeepMatch",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "shenweichen/DeepMatch",
+      "target": "codecov/codecov-action@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "shenweichen/DeepMatch",
+      "target": "collaborative-filtering",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "shenweichen/DeepMatch",
+      "target": "comirec",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "shenweichen/DeepMatch",
+      "target": "dssm",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "shenweichen/DeepMatch",
+      "target": "factorization-machines",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "shenweichen/DeepMatch",
+      "target": "matching",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "shenweichen/DeepMatch",
+      "target": "mind",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "shenweichen/DeepMatch",
+      "target": "recommendation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "shenweichen/DeepMatch",
+      "target": "youtubednn",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T04:59:08.433062+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6919
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 3998
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A deep matching model library for recommendations & advertising. It's easy to train models and to export representation vectors which can be used for ANN search.",
+    "fork": false,
+    "full_name": "shenweichen/DeepMatch",
+    "html_url": "https://github.com/shenweichen/DeepMatch",
+    "language": "Python",
+    "pushed_at": "2026-04-18T05:14:22Z",
+    "stargazers_count": 2422,
+    "topics": [
+      "collaborative-filtering",
+      "comirec",
+      "dssm",
+      "factorization-machines",
+      "matching",
+      "mind",
+      "recommendation",
+      "youtubednn"
+    ],
+    "updated_at": "2026-04-29T01:00:50Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "[![Python Versions](https://img.shields.io/pypi/pyversions/deepmatch.svg)](https://pypi.org/project/deepmatch)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "collaborative-filtering"
+    },
+    {
+      "context_snippet": "[![Python Versions](https://img.shields.io/pypi/pyversions/deepmatch.svg)](https://pypi.org/project/deepmatch)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "comirec"
+    },
+    {
+      "context_snippet": "[![Python Versions](https://img.shields.io/pypi/pyversions/deepmatch.svg)](https://pypi.org/project/deepmatch)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dssm"
+    },
+    {
+      "context_snippet": "[![Python Versions](https://img.shields.io/pypi/pyversions/deepmatch.svg)](https://pypi.org/project/deepmatch)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "factorization-machines"
+    },
+    {
+      "context_snippet": "[![Python Versions](https://img.shields.io/pypi/pyversions/deepmatch.svg)](https://pypi.org/project/deepmatch)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "matching"
+    },
+    {
+      "context_snippet": "[![Python Versions](https://img.shields.io/pypi/pyversions/deepmatch.svg)](https://pypi.org/project/deepmatch)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mind"
+    },
+    {
+      "context_snippet": "[![Python Versions](https://img.shields.io/pypi/pyversions/deepmatch.svg)](https://pypi.org/project/deepmatch)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "recommendation"
+    },
+    {
+      "context_snippet": "[![Python Versions](https://img.shields.io/pypi/pyversions/deepmatch.svg)](https://pypi.org/project/deepmatch)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "youtubednn"
+    }
+  ]
+}

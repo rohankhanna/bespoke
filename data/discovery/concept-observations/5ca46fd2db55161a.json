@@ -1,0 +1,101 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Unified Communication X  (mailing list - https://elist.ornl.gov/mailman/listinfo/ucx-group)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<div align=\"center\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29944878,
+      "status": "candidate",
+      "text": "aries the ram"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29944877,
+      "status": "candidate",
+      "text": "ram"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29823254,
+      "status": "candidate",
+      "text": "pregnancy"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20028219,
+      "status": "candidate",
+      "text": "pregnancies"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20028217,
+      "status": "candidate",
+      "text": "ramean"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "aries",
+      "sense_id": "aries#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 9,
+      "status": "candidate",
+      "text": "aries the ram"
+    }
+  ],
+  "concept_id": "aries",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "aries",
+  "observation_id": "5ca46fd2db55161a",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T00:37:16.824464+00:00",
+  "observed_text": "aries",
+  "source_context_snippet": "<div align=\"center\">",
+  "source_file": null,
+  "source_repo": "openucx/ucx",
+  "source_repo_description": "Unified Communication X  (mailing list - https://elist.ornl.gov/mailman/listinfo/ucx-group)"
+}

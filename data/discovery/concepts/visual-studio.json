@@ -165,6 +165,30 @@
       "source_repo": "dotnet/msbuild",
       "status": "candidate-context",
       "text": "[![Build Status](https://dev.azure.com/dnceng-public/public/_apis/build/status/75?branchName=main&label=Public)](https://dev.azure.com/dnceng-public/public/_build?definitionId=75) [![Build Status](https://devdiv.visualstudio.com/DevDiv/_apis/build/status/9434?label=Internal&bran\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "xmake-io/xmake",
+      "status": "candidate-context",
+      "text": "\ud83d\udd25 A cross-platform build utility based on Lua"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "xmake-io/xmake",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "microsoft/PTVS",
+      "status": "candidate-context",
+      "text": "Python Tools for Visual Studio"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/PTVS",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://devdiv.visualstudio.com/DevDiv/_apis/build/status/Python/PTVS-Build-Dev17?branchName=main)](https://devdiv.visualstudio.com/DevDiv/_build/latest?definitionId=14121&branchName=main)"
     }
   ],
   "candidate_glosses": [
@@ -245,6 +269,18 @@
       "source_repo": "dotnet/msbuild",
       "status": "candidate",
       "text": "[![Build Status](https://dev.azure.com/dnceng-public/public/_apis/build/status/75?branchName=main&label=Public)](https://dev.azure.com/dnceng-public/public/_build?definitionId=75) [![Build Status](https://devdiv.visualstudio.com/DevDiv/_apis/build/status/9434?label=Internal&bran\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "xmake-io/xmake",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/PTVS",
+      "status": "candidate",
+      "text": "[![Build Status](https://devdiv.visualstudio.com/DevDiv/_apis/build/status/Python/PTVS-Build-Dev17?branchName=main)](https://devdiv.visualstudio.com/DevDiv/_build/latest?definitionId=14121&branchName=main)"
     }
   ],
   "candidate_related_terms": [],
@@ -330,11 +366,23 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "dotnet/msbuild"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "xmake-io/xmake"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "microsoft/PTVS"
     }
   ],
   "first_seen_at": "2026-04-21T18:51:25.552552+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

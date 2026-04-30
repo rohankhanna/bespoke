@@ -44,6 +44,18 @@
       "source_repo": "vizzuhq/ipyvizzu",
       "status": "candidate-context",
       "text": "Doc"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "vizzuhq/ipyvizzu-story",
+      "status": "candidate-context",
+      "text": "Build, present and share animated data stories in Jupyter Notebook and similar environments."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vizzuhq/ipyvizzu-story",
+      "status": "candidate-context",
+      "text": "Doc"
     }
   ],
   "candidate_glosses": [
@@ -62,6 +74,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "vizzuhq/ipyvizzu",
+      "status": "candidate",
+      "text": "Doc"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vizzuhq/ipyvizzu-story",
       "status": "candidate",
       "text": "Doc"
     }
@@ -140,11 +158,17 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": ".github/workflows/doc.yml",
       "source_repo": "vizzuhq/ipyvizzu"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/doc.yml",
+      "source_repo": "vizzuhq/ipyvizzu-story"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

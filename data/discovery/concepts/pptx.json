@@ -43,6 +43,18 @@
       "source_repo": "aiden0z/pptx-renderer",
       "status": "candidate-context",
       "text": "[![CI](https://github.com/aiden0z/pptx-renderer/actions/workflows/ci.yml/badge.svg)](https://github.com/aiden0z/pptx-renderer/actions/workflows/ci.yml) [![codecov](https://codecov.io/gh/aiden0z/pptx-renderer/graph/badge.svg)](https://codecov.io/gh/aiden0z/pptx-renderer) [![npm](\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "opendatalab/MinerU",
+      "status": "candidate-context",
+      "text": "Transforms complex documents like PDFs and Office docs into LLM-ready markdown/JSON for your Agentic workflows."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "opendatalab/MinerU",
+      "status": "candidate-context",
+      "text": "<div align=\"center\" xmlns=\"http://www.w3.org/1999/html\">"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +75,12 @@
       "source_repo": "aiden0z/pptx-renderer",
       "status": "candidate",
       "text": "[![CI](https://github.com/aiden0z/pptx-renderer/actions/workflows/ci.yml/badge.svg)](https://github.com/aiden0z/pptx-renderer/actions/workflows/ci.yml) [![codecov](https://codecov.io/gh/aiden0z/pptx-renderer/graph/badge.svg)](https://codecov.io/gh/aiden0z/pptx-renderer) [![npm](\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "opendatalab/MinerU",
+      "status": "candidate",
+      "text": "<div align=\"center\" xmlns=\"http://www.w3.org/1999/html\">"
     }
   ],
   "candidate_related_terms": [],
@@ -88,11 +106,17 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": null,
       "source_repo": "aiden0z/pptx-renderer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "opendatalab/MinerU"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

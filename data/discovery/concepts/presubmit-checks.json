@@ -31,6 +31,18 @@
       "source_repo": "google-gemini/deprecated-generative-ai-python",
       "status": "candidate-context",
       "text": "Presubmit checks"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "proxy-wasm/proxy-wasm-go-sdk",
+      "status": "candidate-context",
+      "text": "WebAssembly for Proxies (Go SDK)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "proxy-wasm/proxy-wasm-go-sdk",
+      "status": "candidate-context",
+      "text": "Presubmit checks"
     }
   ],
   "candidate_glosses": [
@@ -43,6 +55,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "google-gemini/deprecated-generative-ai-python",
+      "status": "candidate",
+      "text": "Presubmit checks"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "proxy-wasm/proxy-wasm-go-sdk",
       "status": "candidate",
       "text": "Presubmit checks"
     }
@@ -100,11 +118,17 @@
       "observed_at": "2026-04-24T12:33:41.350224+00:00",
       "source_file": ".github/workflows/test_pr.yaml",
       "source_repo": "google-gemini/deprecated-generative-ai-python"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/workflow.yaml",
+      "source_repo": "proxy-wasm/proxy-wasm-go-sdk"
     }
   ],
   "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

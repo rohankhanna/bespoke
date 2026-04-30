@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "\u2728 Agentic chat experience in your terminal. Build applications using natural language."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Release Notification"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Release Notification"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12184,
+      "status": "candidate",
+      "text": "announcement"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12184,
+      "status": "candidate",
+      "text": "communication"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12184,
+      "status": "candidate",
+      "text": "disclosure"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12184,
+      "status": "candidate",
+      "text": "notice"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12184,
+      "status": "candidate",
+      "text": "publication"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Release Notification",
+      "sense_id": "release-notification#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "release-notification",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "release-notification",
+  "observation_id": "d2cc976aec25a197",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-30T00:37:16.824464+00:00",
+  "observed_text": "Release Notification",
+  "source_context_snippet": "Release Notification",
+  "source_file": ".github/workflows/release-notification.yaml",
+  "source_repo": "aws/amazon-q-developer-cli",
+  "source_repo_description": "\u2728 Agentic chat experience in your terminal. Build applications using natural language."
+}

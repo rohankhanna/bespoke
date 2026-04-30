@@ -1,7 +1,7 @@
 {
   "component": "actions/github-script@f28e40c7f34bde8b3046d885e986cb6290c5673b",
   "first_seen_at": "2026-04-18T09:23:47.800515+00:00",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -47,6 +47,11 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/collect-customer-issues.yaml",
       "source_repo": "Arize-ai/openinference"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/bump_patch_version.yml",
+      "source_repo": "zed-industries/zed"
     }
   ]
 }

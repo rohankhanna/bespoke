@@ -19,6 +19,30 @@
       "source_repo": "llm-in-sandbox/llm-in-sandbox",
       "status": "candidate-context",
       "text": "<h1 align=\"left\">LLM-in-Sandbox</h1>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Computer-use-agents/dart-gui",
+      "status": "candidate-context",
+      "text": "DART-GUI: Efficient Multi-turn RL for GUI Agents via Decoupled Training and Adaptive Data Curation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Computer-use-agents/dart-gui",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bytebot-ai/bytebot",
+      "status": "candidate-context",
+      "text": "Bytebot is a self-hosted AI desktop agent that automates computer tasks through natural language commands, operating within a containerized Linux desktop environment."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bytebot-ai/bytebot",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +51,18 @@
       "source_repo": "llm-in-sandbox/llm-in-sandbox",
       "status": "candidate",
       "text": "<h1 align=\"left\">LLM-in-Sandbox</h1>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Computer-use-agents/dart-gui",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bytebot-ai/bytebot",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +76,23 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": null,
       "source_repo": "llm-in-sandbox/llm-in-sandbox"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "Computer-use-agents/dart-gui"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "bytebot-ai/bytebot"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,115 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A set of crates dedicated to parsing YAML."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Miri"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Miri"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30021251,
+      "status": "candidate",
+      "text": "abor"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29701338,
+      "status": "candidate",
+      "text": "mirish"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20021408,
+      "status": "candidate",
+      "text": "dafla"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20018805,
+      "status": "candidate",
+      "text": "meri"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19233042,
+      "status": "candidate",
+      "text": "marie"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Miri",
+      "sense_id": "miri#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 11,
+      "status": "candidate",
+      "text": "mirish"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": null,
+      "status": "candidate",
+      "text": "abor"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": null,
+      "status": "candidate",
+      "text": "dafla"
+    }
+  ],
+  "concept_id": "miri",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "miri",
+  "observation_id": "9896f1b0b7ea4557",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-30T00:37:16.824464+00:00",
+  "observed_text": "Miri",
+  "source_context_snippet": "Miri",
+  "source_file": ".github/workflows/miri.yml",
+  "source_repo": "bourumir-wyngs/saphyr",
+  "source_repo_description": "A set of crates dedicated to parsing YAML."
+}

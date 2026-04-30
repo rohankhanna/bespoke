@@ -1,0 +1,111 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Jupyter-contrib/jupyter_nbextensions_configurator",
+      "target": "ipython-contrib/ipython-notebook-extensions",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Jupyter-contrib/jupyter_nbextensions_configurator",
+      "target": "jupyter-contrib/jupyter_contrib_core",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Jupyter-contrib/jupyter_nbextensions_configurator",
+      "target": "jupyter",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Jupyter-contrib/jupyter_nbextensions_configurator",
+      "target": "jupyter-nbextensions-configurator",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Jupyter-contrib/jupyter_nbextensions_configurator",
+      "target": "jupyter-notebook",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Jupyter-contrib/jupyter_nbextensions_configurator",
+      "target": "nbextension",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T00:50:20.440238+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 16362
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A jupyter notebook serverextension providing config interfaces for nbextensions.",
+    "fork": false,
+    "full_name": "Jupyter-contrib/jupyter_nbextensions_configurator",
+    "html_url": "https://github.com/Jupyter-contrib/jupyter_nbextensions_configurator",
+    "language": "JavaScript",
+    "pushed_at": "2024-06-05T16:43:47Z",
+    "stargazers_count": 983,
+    "topics": [
+      "jupyter",
+      "jupyter-nbextensions-configurator",
+      "jupyter-notebook",
+      "nbextension"
+    ],
+    "updated_at": "2026-04-14T14:13:00Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ipython-contrib/ipython-notebook-extensions",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jupyter-contrib/jupyter_contrib_core",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Jupyter Nbextensions Configurator",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "jupyter"
+    },
+    {
+      "context_snippet": "Jupyter Nbextensions Configurator",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "jupyter-nbextensions-configurator"
+    },
+    {
+      "context_snippet": "Jupyter Nbextensions Configurator",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "jupyter-notebook"
+    },
+    {
+      "context_snippet": "Jupyter Nbextensions Configurator",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nbextension"
+    }
+  ]
+}

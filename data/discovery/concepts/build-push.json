@@ -1,6 +1,8 @@
 {
   "aliases": [
-    "build push"
+    "build push",
+    "Build push",
+    "build-push"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -31,6 +33,42 @@
       "source_repo": "nfrechette/acl",
       "status": "candidate-context",
       "text": "build push"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hashicorp/nomad",
+      "status": "candidate-context",
+      "text": "Nomad is an easy-to-use, flexible, and performant workload orchestrator that can deploy a mix of microservice, batch, containerized, and non-containerized applications. Nomad is easy to operate and scale and has native Consul and Vault integrations."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hashicorp/nomad",
+      "status": "candidate-context",
+      "text": "Build push"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "googleapis/google-cloud-dotnet",
+      "status": "candidate-context",
+      "text": "Google Cloud Client Libraries for .NET"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "googleapis/google-cloud-dotnet",
+      "status": "candidate-context",
+      "text": "Build push"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dusty-nv/jetson-containers",
+      "status": "candidate-context",
+      "text": "Machine Learning Containers for NVIDIA Jetson and JetPack-L4T"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dusty-nv/jetson-containers",
+      "status": "candidate-context",
+      "text": "\"build-push\""
     }
   ],
   "candidate_glosses": [
@@ -45,6 +83,24 @@
       "source_repo": "nfrechette/acl",
       "status": "candidate",
       "text": "build push"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hashicorp/nomad",
+      "status": "candidate",
+      "text": "Build push"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "googleapis/google-cloud-dotnet",
+      "status": "candidate",
+      "text": "Build push"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dusty-nv/jetson-containers",
+      "status": "candidate",
+      "text": "\"build-push\""
     }
   ],
   "candidate_related_terms": [
@@ -100,11 +156,29 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": ".github/workflows/build_push.yml",
       "source_repo": "nfrechette/acl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/build-on-push.yml",
+      "source_repo": "hashicorp/nomad"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/build-push.yml",
+      "source_repo": "googleapis/google-cloud-dotnet"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/build-push.yml",
+      "source_repo": "dusty-nv/jetson-containers"
     }
   ],
   "first_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

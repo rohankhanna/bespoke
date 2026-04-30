@@ -1,0 +1,213 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-lint.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-lint.yml"
+    },
+    {
+      "component": "actions/setup-node@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-lint.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/render-table.yml"
+    },
+    {
+      "component": "actions/setup-node@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/render-table.yml"
+    },
+    {
+      "component": "peter-evans/create-pull-request@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/render-table.yml"
+    },
+    {
+      "component": "hmarr/auto-approve-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/render-table.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "aws/aws-cdk-rfcs",
+      "target": "aws/jsii",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-lint.yml",
+      "source_repo": "aws/aws-cdk-rfcs",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-lint.yml",
+      "source_repo": "aws/aws-cdk-rfcs",
+      "target": "actions/setup-node@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr-lint.yml",
+      "source_repo": "aws/aws-cdk-rfcs",
+      "target": "PR Lint",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/render-table.yml",
+      "source_repo": "aws/aws-cdk-rfcs",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/render-table.yml",
+      "source_repo": "aws/aws-cdk-rfcs",
+      "target": "actions/setup-node@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/render-table.yml",
+      "source_repo": "aws/aws-cdk-rfcs",
+      "target": "peter-evans/create-pull-request@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/render-table.yml",
+      "source_repo": "aws/aws-cdk-rfcs",
+      "target": "hmarr/auto-approve-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/render-table.yml",
+      "source_repo": "aws/aws-cdk-rfcs",
+      "target": "Render RFC Table",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aws/aws-cdk-rfcs",
+      "target": "cloud-infrastructure",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aws/aws-cdk-rfcs",
+      "target": "infrastructure-as-code",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aws/aws-cdk-rfcs",
+      "target": "rfc-process",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aws/aws-cdk-rfcs",
+      "target": "rfcs",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T01:47:37.610038+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 14954
+    },
+    {
+      "path": ".github/workflows/pr-lint.yml",
+      "size": 714
+    },
+    {
+      "path": ".github/workflows/render-table.yml",
+      "size": 1315
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "RFCs for the AWS CDK",
+    "fork": false,
+    "full_name": "aws/aws-cdk-rfcs",
+    "html_url": "https://github.com/aws/aws-cdk-rfcs",
+    "language": "JavaScript",
+    "pushed_at": "2026-04-24T12:43:49Z",
+    "stargazers_count": 567,
+    "topics": [
+      "aws",
+      "cdk",
+      "cloud-infrastructure",
+      "infrastructure-as-code",
+      "rfc-process",
+      "rfcs"
+    ],
+    "updated_at": "2026-04-24T12:43:54Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "aws/jsii",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "PR Lint",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr-lint.yml",
+      "term": "PR Lint"
+    },
+    {
+      "context_snippet": "Render RFC Table",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/render-table.yml",
+      "term": "Render RFC Table"
+    },
+    {
+      "context_snippet": "This repo is a place to propose and track major upcoming changes to [AWS CDK], [jsii], and",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cloud-infrastructure"
+    },
+    {
+      "context_snippet": "This repo is a place to propose and track major upcoming changes to [AWS CDK], [jsii], and",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "infrastructure-as-code"
+    },
+    {
+      "context_snippet": "This repo is a place to propose and track major upcoming changes to [AWS CDK], [jsii], and",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rfc-process"
+    },
+    {
+      "context_snippet": "This repo is a place to propose and track major upcoming changes to [AWS CDK], [jsii], and",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rfcs"
+    }
+  ]
+}

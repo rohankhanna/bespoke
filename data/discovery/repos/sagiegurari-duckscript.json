@@ -1,0 +1,289 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "actions-rs/cargo@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "actions-rs/cargo@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "svenstaro/upload-release-action@v1-release",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "sagiegurari/duckscript",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "sagiegurari/duckscript",
+      "target": "dtolnay/rust-toolchain@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "sagiegurari/duckscript",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "sagiegurari/duckscript",
+      "target": "actions-rs/cargo@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "sagiegurari/duckscript",
+      "target": "svenstaro/upload-release-action@v1-release",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "sagiegurari/duckscript",
+      "target": "Publish",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sagiegurari/duckscript",
+      "target": "interpreter",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sagiegurari/duckscript",
+      "target": "rust",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sagiegurari/duckscript",
+      "target": "rust-library",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sagiegurari/duckscript",
+      "target": "script",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sagiegurari/duckscript",
+      "target": "script-engine",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sagiegurari/duckscript",
+      "target": "script-language",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sagiegurari/duckscript",
+      "target": "script-runner",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sagiegurari/duckscript",
+      "target": "scripting",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sagiegurari/duckscript",
+      "target": "scripting-language",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sagiegurari/duckscript",
+      "target": "shell",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sagiegurari/duckscript",
+      "target": "shell-script",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sagiegurari/duckscript",
+      "target": "shell-scripting",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T03:01:22.381476+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 21922
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 168
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 654
+    },
+    {
+      "path": ".github/workflows/publish.yml",
+      "size": 1379
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Simple, extendable and embeddable scripting language.",
+    "fork": false,
+    "full_name": "sagiegurari/duckscript",
+    "html_url": "https://github.com/sagiegurari/duckscript",
+    "language": "Rust",
+    "pushed_at": "2026-02-03T21:05:51Z",
+    "stargazers_count": 581,
+    "topics": [
+      "interpreter",
+      "rust",
+      "rust-library",
+      "script",
+      "script-engine",
+      "script-language",
+      "script-runner",
+      "scripting",
+      "scripting-language",
+      "shell",
+      "shell-script",
+      "shell-scripting"
+    ],
+    "updated_at": "2026-04-18T18:22:56Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Publish",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish.yml",
+      "term": "Publish"
+    },
+    {
+      "context_snippet": "| duckscript | SDK | CLI |",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "interpreter"
+    },
+    {
+      "context_snippet": "| duckscript | SDK | CLI |",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rust"
+    },
+    {
+      "context_snippet": "| duckscript | SDK | CLI |",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rust-library"
+    },
+    {
+      "context_snippet": "| duckscript | SDK | CLI |",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "script"
+    },
+    {
+      "context_snippet": "| duckscript | SDK | CLI |",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "script-engine"
+    },
+    {
+      "context_snippet": "| duckscript | SDK | CLI |",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "script-language"
+    },
+    {
+      "context_snippet": "| duckscript | SDK | CLI |",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "script-runner"
+    },
+    {
+      "context_snippet": "| duckscript | SDK | CLI |",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "scripting"
+    },
+    {
+      "context_snippet": "| duckscript | SDK | CLI |",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "scripting-language"
+    },
+    {
+      "context_snippet": "| duckscript | SDK | CLI |",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "shell"
+    },
+    {
+      "context_snippet": "| duckscript | SDK | CLI |",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "shell-script"
+    },
+    {
+      "context_snippet": "| duckscript | SDK | CLI |",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "shell-scripting"
+    }
+  ]
+}

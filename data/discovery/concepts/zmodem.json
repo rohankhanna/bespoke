@@ -19,6 +19,54 @@
       "source_repo": "electerm/electerm",
       "status": "candidate-context",
       "text": "<h1 align=\"center\" style=\"padding-top: 60px;padding-bottom: 40px;\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "trzsz/trzsz",
+      "status": "candidate-context",
+      "text": "trzsz is a simple file transfer tools, similar to lrzsz ( rz / sz ), and compatible with tmux."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "trzsz/trzsz",
+      "status": "candidate-context",
+      "text": "[![MIT License](https://img.shields.io/badge/license-MIT-green.svg?style=flat)](https://choosealicense.com/licenses/mit/)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "trzsz/trzsz-go",
+      "status": "candidate-context",
+      "text": "trzsz-go is the go version of trzsz, makes all terminals that support local shell to support trzsz ( trz / tsz )."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "trzsz/trzsz-go",
+      "status": "candidate-context",
+      "text": "[![MIT License](https://img.shields.io/badge/license-MIT-green.svg?style=flat)](https://choosealicense.com/licenses/mit/)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "trzsz/trzsz-ssh",
+      "status": "candidate-context",
+      "text": "trzsz-ssh ( tssh ) is an ssh client designed as a drop-in replacement for the openssh client. It aims to provide complete compatibility with openssh, mirroring all its features, while also offering additional useful features. Such as login prompt, batch login, remember password, automated interaction, trzsz, zmodem(rz/sz), udp mode like mosh, etc."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "trzsz/trzsz-ssh",
+      "status": "candidate-context",
+      "text": "[![MIT License](https://img.shields.io/badge/license-MIT-green.svg?style=flat)](https://choosealicense.com/licenses/mit/)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "trzsz/trzsz.js",
+      "status": "candidate-context",
+      "text": "trzsz.js is the js version of trzsz, makes terminal built with electron and webshell to support trzsz ( trz / tsz )."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "trzsz/trzsz.js",
+      "status": "candidate-context",
+      "text": "[![MIT License](https://img.shields.io/badge/license-MIT-green.svg?style=flat)](https://choosealicense.com/licenses/mit/)"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +75,30 @@
       "source_repo": "electerm/electerm",
       "status": "candidate",
       "text": "<h1 align=\"center\" style=\"padding-top: 60px;padding-bottom: 40px;\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "trzsz/trzsz",
+      "status": "candidate",
+      "text": "[![MIT License](https://img.shields.io/badge/license-MIT-green.svg?style=flat)](https://choosealicense.com/licenses/mit/)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "trzsz/trzsz-go",
+      "status": "candidate",
+      "text": "[![MIT License](https://img.shields.io/badge/license-MIT-green.svg?style=flat)](https://choosealicense.com/licenses/mit/)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "trzsz/trzsz-ssh",
+      "status": "candidate",
+      "text": "[![MIT License](https://img.shields.io/badge/license-MIT-green.svg?style=flat)](https://choosealicense.com/licenses/mit/)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "trzsz/trzsz.js",
+      "status": "candidate",
+      "text": "[![MIT License](https://img.shields.io/badge/license-MIT-green.svg?style=flat)](https://choosealicense.com/licenses/mit/)"
     }
   ],
   "candidate_related_terms": [
@@ -48,11 +120,35 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": null,
       "source_repo": "electerm/electerm"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "trzsz/trzsz"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "trzsz/trzsz-go"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "trzsz/trzsz-ssh"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "trzsz/trzsz.js"
     }
   ],
   "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

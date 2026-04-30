@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-19T01:08:57.644140+00:00",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
@@ -41,6 +41,16 @@
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/nightly.yml",
       "source_repo": "hyper-mcp-rs/hyper-mcp"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/nightly.yml",
+      "source_repo": "tuananh/hyper-mcp"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/nightly.yml",
+      "source_repo": "JohnnyMorganz/luau-lsp"
     }
   ],
   "term": "Nightly Release"

@@ -1,12 +1,22 @@
 {
   "component": "reviewdog/action-misspell@9daa94af4357dddb6fd3775de806bc0a8e98d3e4",
   "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/reviewdog.yml",
       "source_repo": "reviewdog/action-suggester"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/reviewdog.yml",
+      "source_repo": "reviewdog/action-black"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/reviewdog.yml",
+      "source_repo": "blooper05/action-rails_best_practices"
     }
   ]
 }

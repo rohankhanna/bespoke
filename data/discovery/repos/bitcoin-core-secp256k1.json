@@ -1,0 +1,69 @@
+{
+  "components": [
+    {
+      "component": "docker/setup-buildx-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "docker/build-push-action@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "bitcoin-core/secp256k1",
+      "target": "docker/setup-buildx-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "bitcoin-core/secp256k1",
+      "target": "docker/build-push-action@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "bitcoin-core/secp256k1",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-04-30T05:04:57.989180+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9214
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 22299
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Optimized C library for EC operations on curve secp256k1",
+    "fork": false,
+    "full_name": "bitcoin-core/secp256k1",
+    "html_url": "https://github.com/bitcoin-core/secp256k1",
+    "language": "C",
+    "pushed_at": "2026-04-29T06:04:16Z",
+    "stargazers_count": 2423,
+    "topics": [],
+    "updated_at": "2026-04-29T23:53:02Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

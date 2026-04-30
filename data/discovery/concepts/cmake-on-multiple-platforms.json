@@ -19,12 +19,30 @@
       "source_repo": "vstakhov/libucl",
       "status": "candidate-context",
       "text": "CMake on multiple platforms"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "uael/sv",
+      "status": "candidate-context",
+      "text": "libsv - Public domain cross-platform semantic versioning in c99"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "uael/sv",
+      "status": "candidate-context",
+      "text": "CMake on multiple platforms"
     }
   ],
   "candidate_glosses": [
     {
       "source_kind": "source-snippet",
       "source_repo": "vstakhov/libucl",
+      "status": "candidate",
+      "text": "CMake on multiple platforms"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "uael/sv",
       "status": "candidate",
       "text": "CMake on multiple platforms"
     }
@@ -76,11 +94,17 @@
       "observed_at": "2026-04-22T01:04:16.609102+00:00",
       "source_file": ".github/workflows/cmake-multi-platform.yml",
       "source_repo": "vstakhov/libucl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/cmake-multi-platform.yml",
+      "source_repo": "uael/sv"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

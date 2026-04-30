@@ -1,0 +1,91 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yaml"
+    },
+    {
+      "component": "actions/setup-python@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yaml"
+    },
+    {
+      "component": "peaceiris/actions-gh-pages@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yaml",
+      "source_repo": "aburns4/textualforesight",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yaml",
+      "source_repo": "aburns4/textualforesight",
+      "target": "actions/setup-python@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yaml",
+      "source_repo": "aburns4/textualforesight",
+      "target": "peaceiris/actions-gh-pages@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docs.yaml",
+      "source_repo": "aburns4/textualforesight",
+      "target": "docs",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T02:50:21.178880+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5986
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 103
+    },
+    {
+      "path": "requirements.txt",
+      "size": 344
+    },
+    {
+      "path": ".github/workflows/docs.yaml",
+      "size": 888
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "aburns4/textualforesight",
+    "html_url": "https://github.com/aburns4/textualforesight",
+    "language": "Jupyter Notebook",
+    "pushed_at": "2024-08-08T22:23:09Z",
+    "stargazers_count": 12,
+    "topics": [],
+    "updated_at": "2025-09-19T18:56:08Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "docs",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docs.yaml",
+      "term": "docs"
+    }
+  ]
+}

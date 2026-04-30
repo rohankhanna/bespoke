@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T03:50:59.894422+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4373
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Official Tensorflow implementation of U-GAT-IT: Unsupervised Generative Attentional Networks with Adaptive Layer-Instance Normalization for Image-to-Image Translation (ICLR 2020)",
+    "fork": false,
+    "full_name": "taki0112/UGATIT",
+    "html_url": "https://github.com/taki0112/UGATIT",
+    "language": "Python",
+    "pushed_at": "2021-05-20T03:23:05Z",
+    "stargazers_count": 6131,
+    "topics": [],
+    "updated_at": "2026-04-21T07:14:28Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

@@ -235,6 +235,102 @@
       "source_repo": "abhiTronix/vidgear",
       "status": "candidate-context",
       "text": "<!--"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "elixir-webrtc/xav",
+      "status": "candidate-context",
+      "text": "Elixir wrapper over FFmpeg for reading and decoding audio and video data"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "elixir-webrtc/xav",
+      "status": "candidate-context",
+      "text": "[![Hex.pm](https://img.shields.io/hexpm/v/xav.svg)](https://hex.pm/packages/xav)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ecsplendid/rembg-greenscreen",
+      "status": "candidate-context",
+      "text": "Rembg Video Virtual Green Screen Edition"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ecsplendid/rembg-greenscreen",
+      "status": "candidate-context",
+      "text": "Rembg Virtual Greenscreen Edition is a tool to create a green screen matte for videos"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "G-U-N/AnimateLCM",
+      "status": "candidate-context",
+      "text": "[SIGGRAPH ASIA 2024 TCS] AnimateLCM: Computation-Efficient Personalized Style Video Generation without Personalized Video Data"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "G-U-N/AnimateLCM",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "AaronFeng753/Waifu2x-Extension-GUI",
+      "status": "candidate-context",
+      "text": "Video, Image and GIF upscale/enlarge(Super-Resolution) and Video frame interpolation. Achieved with Waifu2x,  Real-ESRGAN, Real-CUGAN, RTX Video Super Resolution VSR, SRMD, RealSR, Anime4K, RIFE, IFRNet, CAIN, DAIN,  and ACNet."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AaronFeng753/Waifu2x-Extension-GUI",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Justin62628/Squirrel-RIFE",
+      "status": "candidate-context",
+      "text": "\u6548\u679c\u66f4\u597d\u7684\u8865\u5e27\u8f6f\u4ef6\uff0c\u663e\u5b58\u5360\u7528\u66f4\u5c0f\uff0c\u662fDAIN\u901f\u5ea6\u768410-25\u500d\uff0c\u5305\u542b\u62bd\u5e27\u5904\u7406\uff0c\u53bb\u9664\u52a8\u6f2b\u5361\u987f\u611f"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Justin62628/Squirrel-RIFE",
+      "status": "candidate-context",
+      "text": "<img width=\"18%\" src=\"logo.png\" alt=\"logo\" align=\"right\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "NickeManarin/ScreenToGif",
+      "status": "candidate-context",
+      "text": "\ud83c\udfac ScreenToGif allows you to record a selected area of your screen, edit and save it as a gif or video."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NickeManarin/ScreenToGif",
+      "status": "candidate-context",
+      "text": "<div align=\"center\" markdown=\"1\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "microsoft/UniVL",
+      "status": "candidate-context",
+      "text": "An official implementation for \" UniVL: A Unified Video and Language Pre-Training Model for Multimodal Understanding and Generation\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/UniVL",
+      "status": "candidate-context",
+      "text": "The implementation of paper [**UniVL: A Unified Video and Language Pre-Training Model for Multimodal Understanding and Generation**](https://arxiv.org/abs/2002.06353)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "X-PLUG/mPLUG-Owl",
+      "status": "candidate-context",
+      "text": "mPLUG-Owl: The Powerful Multi-modal Large Language Model  Family"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "X-PLUG/mPLUG-Owl",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -351,6 +447,54 @@
       "source_repo": "abhiTronix/vidgear",
       "status": "candidate",
       "text": "<!--"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "elixir-webrtc/xav",
+      "status": "candidate",
+      "text": "[![Hex.pm](https://img.shields.io/hexpm/v/xav.svg)](https://hex.pm/packages/xav)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ecsplendid/rembg-greenscreen",
+      "status": "candidate",
+      "text": "Rembg Virtual Greenscreen Edition is a tool to create a green screen matte for videos"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "G-U-N/AnimateLCM",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AaronFeng753/Waifu2x-Extension-GUI",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Justin62628/Squirrel-RIFE",
+      "status": "candidate",
+      "text": "<img width=\"18%\" src=\"logo.png\" alt=\"logo\" align=\"right\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NickeManarin/ScreenToGif",
+      "status": "candidate",
+      "text": "<div align=\"center\" markdown=\"1\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/UniVL",
+      "status": "candidate",
+      "text": "The implementation of paper [**UniVL: A Unified Video and Language Pre-Training Model for Multimodal Understanding and Generation**](https://arxiv.org/abs/2002.06353)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "X-PLUG/mPLUG-Owl",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -547,11 +691,65 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "abhiTronix/vidgear"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "elixir-webrtc/xav"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "MME-Benchmarks/Video-MME"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "ecsplendid/rembg-greenscreen"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "G-U-N/AnimateLCM"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "AaronFeng753/Waifu2x-Extension-GUI"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "Justin62628/Squirrel-RIFE"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "NickeManarin/ScreenToGif"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "microsoft/UniVL"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "X-PLUG/mPLUG-Owl"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

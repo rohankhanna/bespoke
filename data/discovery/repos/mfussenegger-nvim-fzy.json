@@ -1,0 +1,115 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linter.yml"
+    },
+    {
+      "component": "github/super-linter/slim@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linter.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linter.yml",
+      "source_repo": "mfussenegger/nvim-fzy",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linter.yml",
+      "source_repo": "mfussenegger/nvim-fzy",
+      "target": "github/super-linter/slim@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/linter.yml",
+      "source_repo": "mfussenegger/nvim-fzy",
+      "target": "Lint Code Base",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mfussenegger/nvim-fzy",
+      "target": "fuzzy",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mfussenegger/nvim-fzy",
+      "target": "neovim",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mfussenegger/nvim-fzy",
+      "target": "neovim-plugin",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T00:39:44.121873+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 64
+    },
+    {
+      "path": ".github/workflows/linter.yml",
+      "size": 395
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "main",
+    "description": "Moved to codeberg - Fuzzy picker & vim.ui.select implementation via fzy for neovim",
+    "fork": false,
+    "full_name": "mfussenegger/nvim-fzy",
+    "html_url": "https://github.com/mfussenegger/nvim-fzy",
+    "language": "Lua",
+    "pushed_at": "2025-04-09T15:18:43Z",
+    "stargazers_count": 58,
+    "topics": [
+      "fuzzy",
+      "fzy",
+      "neovim",
+      "neovim-plugin"
+    ],
+    "updated_at": "2026-03-09T16:01:25Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Lint Code Base",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/linter.yml",
+      "term": "Lint Code Base"
+    },
+    {
+      "context_snippet": "Development moved to https://codeberg.org/mfussenegger/nvim-fzy",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "fuzzy"
+    },
+    {
+      "context_snippet": "Development moved to https://codeberg.org/mfussenegger/nvim-fzy",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "neovim"
+    },
+    {
+      "context_snippet": "Development moved to https://codeberg.org/mfussenegger/nvim-fzy",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "neovim-plugin"
+    }
+  ]
+}

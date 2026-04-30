@@ -1,0 +1,69 @@
+{
+  "components": [
+    {
+      "component": "lodash.deburr",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "sluggo",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "undici",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "apostrophecms/apostrophe-astro",
+      "target": "lodash.deburr",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "apostrophecms/apostrophe-astro",
+      "target": "sluggo",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "apostrophecms/apostrophe-astro",
+      "target": "undici",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-04-30T03:48:18.936585+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 250
+    },
+    {
+      "path": "package.json",
+      "size": 327
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "main",
+    "description": "An Astro integration to fetch content from ApostropheCMS. Add this module to the Astro application, not the Apostrophe application.",
+    "fork": false,
+    "full_name": "apostrophecms/apostrophe-astro",
+    "html_url": "https://github.com/apostrophecms/apostrophe-astro",
+    "language": "JavaScript",
+    "pushed_at": "2026-02-26T20:20:18Z",
+    "stargazers_count": 14,
+    "topics": [],
+    "updated_at": "2026-02-26T20:20:21Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

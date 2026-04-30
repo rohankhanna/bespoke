@@ -1,0 +1,22 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T00:38:54.797715+00:00",
+  "fetched_files": [],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "fireplace.vim: Clojure REPL support",
+    "fork": false,
+    "full_name": "tpope/vim-fireplace",
+    "html_url": "https://github.com/tpope/vim-fireplace",
+    "language": "Vim Script",
+    "pushed_at": "2024-11-01T19:25:28Z",
+    "stargazers_count": 1762,
+    "topics": [],
+    "updated_at": "2026-04-20T15:04:10Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

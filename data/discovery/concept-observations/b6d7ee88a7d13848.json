@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A tool for writing better scripts"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<h1><img src=\"https://google.github.io/zx/img/logo.svg\" alt=\"Zx logo\" height=\"32\" width=\"28\" valign=\"middle\"> zx</h1>"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<h1><img src=\"https://google.github.io/zx/img/logo.svg\" alt=\"Zx logo\" height=\"32\" width=\"28\" valign=\"middle\"> zx</h1>"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39786912,
+      "status": "candidate",
+      "text": "organ pipe"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39658770,
+      "status": "candidate",
+      "text": "pipe up"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39582727,
+      "status": "candidate",
+      "text": "shrill"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39579416,
+      "status": "candidate",
+      "text": "shriek"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39578161,
+      "status": "candidate",
+      "text": "screech"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "pipe",
+      "sense_id": "pipe#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 56035,
+      "status": "candidate",
+      "text": "shriek"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 44036,
+      "status": "candidate",
+      "text": "shrill"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 14037,
+      "status": "candidate",
+      "text": "screech"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 8042,
+      "status": "candidate",
+      "text": "piping"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 6061,
+      "status": "candidate",
+      "text": "tube"
+    }
+  ],
+  "concept_id": "pipe",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "pipe",
+  "observation_id": "b6d7ee88a7d13848",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T00:37:16.824464+00:00",
+  "observed_text": "pipe",
+  "source_context_snippet": "<h1><img src=\"https://google.github.io/zx/img/logo.svg\" alt=\"Zx logo\" height=\"32\" width=\"28\" valign=\"middle\"> zx</h1>",
+  "source_file": null,
+  "source_repo": "google/zx",
+  "source_repo_description": "A tool for writing better scripts"
+}

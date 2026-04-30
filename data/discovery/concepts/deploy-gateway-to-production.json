@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Deploy Gateway to Production"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mozilla-ai/otari",
+      "status": "candidate-context",
+      "text": " This gateway is a standalone service that proxies LLM requests with API key management, budget enforcement, usage tracking, and OpenAI-compatible endpoints."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mozilla-ai/otari",
+      "status": "candidate-context",
+      "text": "Deploy Gateway to Production"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mozilla-ai/otari",
+      "status": "candidate",
+      "text": "Deploy Gateway to Production"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 23184,
+      "status": "candidate",
+      "text": "implementation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21948,
+      "status": "candidate",
+      "text": "bridge"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21683,
+      "status": "candidate",
+      "text": "flourish"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21683,
+      "status": "candidate",
+      "text": "output"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21662,
+      "status": "candidate",
+      "text": "fight"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Deploy Gateway to Production",
+  "concept_id": "deploy-gateway-to-production",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/gateway-deploy-prod.yml",
+      "source_repo": "mozilla-ai/otari"
+    }
+  ],
+  "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Deploy Gateway to Production",
+      "sense_id": "deploy-gateway-to-production#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

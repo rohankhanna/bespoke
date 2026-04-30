@@ -19,6 +19,18 @@
       "source_repo": "rose-pine/rose-pine-theme",
       "status": "candidate-context",
       "text": "[![Stand with Ukraine](https://user-images.githubusercontent.com/1474821/173256840-2cf59d8c-a9d7-4a2c-a8c3-02302227d97a.png)](https://www.stopputin.net)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nordtheme/vim",
+      "status": "candidate-context",
+      "text": "An arctic, north-bluish clean and elegant Vim theme."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nordtheme/vim",
+      "status": "candidate-context",
+      "text": "@nordtheme/vim \u2014 An arctic, north-bluish clean and elegant Vim theme"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "rose-pine/rose-pine-theme",
       "status": "candidate",
       "text": "[![Stand with Ukraine](https://user-images.githubusercontent.com/1474821/173256840-2cf59d8c-a9d7-4a2c-a8c3-02302227d97a.png)](https://www.stopputin.net)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nordtheme/vim",
+      "status": "candidate",
+      "text": "@nordtheme/vim \u2014 An arctic, north-bluish clean and elegant Vim theme"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": null,
       "source_repo": "rose-pine/rose-pine-theme"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "nordtheme/vim"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

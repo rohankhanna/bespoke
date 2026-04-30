@@ -1,0 +1,53 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "monolifed/theme16",
+      "target": "lite-xl/lite-xl",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "monolifed/theme16",
+      "target": "daylerees/colour-schemes",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T04:09:02.015755+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1773
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "main",
+    "description": "theme manager for https://github.com/rxi/lite",
+    "fork": false,
+    "full_name": "monolifed/theme16",
+    "html_url": "https://github.com/monolifed/theme16",
+    "language": "Lua",
+    "pushed_at": "2021-07-15T18:49:52Z",
+    "stargazers_count": 18,
+    "topics": [],
+    "updated_at": "2026-03-27T20:02:04Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "daylerees/colour-schemes",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "lite-xl/lite-xl",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

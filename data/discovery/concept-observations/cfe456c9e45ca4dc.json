@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Evaluating Weakly Supervised Object Localization Methods Right (CVPR 2020)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[CVPR 2020 paper](https://arxiv.org/abs/2001.07437) | [TPAMI paper](https://arxiv.org/abs/2007.04178)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[CVPR 2020 paper](https://arxiv.org/abs/2001.07437) | [TPAMI paper](https://arxiv.org/abs/2007.04178)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "evaluation-protocol",
+      "sense_id": "evaluation-protocol#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "evaluation-protocol",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "evaluation-protocol",
+  "observation_id": "cfe456c9e45ca4dc",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T00:37:16.824464+00:00",
+  "observed_text": "evaluation-protocol",
+  "source_context_snippet": "[CVPR 2020 paper](https://arxiv.org/abs/2001.07437) | [TPAMI paper](https://arxiv.org/abs/2007.04178)",
+  "source_file": null,
+  "source_repo": "clovaai/wsolevaluation",
+  "source_repo_description": "Evaluating Weakly Supervised Object Localization Methods Right (CVPR 2020)"
+}

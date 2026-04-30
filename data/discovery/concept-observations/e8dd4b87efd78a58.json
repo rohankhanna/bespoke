@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Library for animated data visualizations and data stories."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Notify on merged PR"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Notify on merged PR"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17692,
+      "status": "candidate",
+      "text": "incorporate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9712,
+      "status": "candidate",
+      "text": "strike"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9631,
+      "status": "candidate",
+      "text": "meld"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9631,
+      "status": "candidate",
+      "text": "melding"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9596,
+      "status": "candidate",
+      "text": "oklahoma"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Notify on merged PR",
+      "sense_id": "notify-on-merged-pr#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "notify-on-merged-pr",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "notify-on-merged-pr",
+  "observation_id": "e8dd4b87efd78a58",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-30T00:37:16.824464+00:00",
+  "observed_text": "Notify on merged PR",
+  "source_context_snippet": "Notify on merged PR",
+  "source_file": ".github/workflows/slack.yml",
+  "source_repo": "vizzuhq/vizzu-lib",
+  "source_repo_description": "Library for animated data visualizations and data stories."
+}

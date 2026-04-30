@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Mirai Package Index"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Repo Sync"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Repo Sync"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10566,
+      "status": "candidate",
+      "text": "alia"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10566,
+      "status": "candidate",
+      "text": "neoclassicism"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10566,
+      "status": "candidate",
+      "text": "nirvana"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10566,
+      "status": "candidate",
+      "text": "repose"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10566,
+      "status": "candidate",
+      "text": "sabbath"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Repo Sync",
+      "sense_id": "repo-sync#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "repo-sync",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "repo-sync",
+  "observation_id": "79ec48b9832c205b",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-30T00:37:16.824464+00:00",
+  "observed_text": "Repo Sync",
+  "source_context_snippet": "Repo Sync",
+  "source_file": ".github/workflows/sync.yml",
+  "source_repo": "project-mirai/mirai-repo-mirror",
+  "source_repo_description": "Mirai Package Index"
+}

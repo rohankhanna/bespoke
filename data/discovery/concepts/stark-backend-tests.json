@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Stark Backend Tests"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "openvm-org/stark-backend",
+      "status": "candidate-context",
+      "text": "Proof system backends for OpenVM."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "openvm-org/stark-backend",
+      "status": "candidate-context",
+      "text": "Stark Backend Tests"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "openvm-org/stark-backend",
+      "status": "candidate",
+      "text": "Stark Backend Tests"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22581,
+      "status": "candidate",
+      "text": "flunk"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22581,
+      "status": "candidate",
+      "text": "triassic"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22556,
+      "status": "candidate",
+      "text": "polls"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22556,
+      "status": "candidate",
+      "text": "probe"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22531,
+      "status": "candidate",
+      "text": "difficult"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Stark Backend Tests",
+  "concept_id": "stark-backend-tests",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/tests-cpu.yml",
+      "source_repo": "openvm-org/stark-backend"
+    }
+  ],
+  "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Stark Backend Tests",
+      "sense_id": "stark-backend-tests#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

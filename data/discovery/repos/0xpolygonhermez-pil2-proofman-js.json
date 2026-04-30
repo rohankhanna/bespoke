@@ -1,0 +1,238 @@
+{
+  "components": [
+    {
+      "component": "decimal.js",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "ffjavascript",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "json-bigint",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "npmlog",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "pil2-compiler",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "protobufjs",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "r1csfile",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "snarkjs",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "stark-recurser",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "chai",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "circom_tester",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "circomlib",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "mocha",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "nyc",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "0xPolygonHermez/pil2-proofman-js",
+      "target": "0xpolygonhermez/pil2-compiler",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "package.json",
+      "source_repo": "0xPolygonHermez/pil2-proofman-js",
+      "target": "0xpolygonhermez/pil2-compiler",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "package.json",
+      "source_repo": "0xPolygonHermez/pil2-proofman-js",
+      "target": "0xpolygonhermez/stark-recurser",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "0xPolygonHermez/pil2-proofman-js",
+      "target": "decimal.js",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "0xPolygonHermez/pil2-proofman-js",
+      "target": "ffjavascript",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "0xPolygonHermez/pil2-proofman-js",
+      "target": "json-bigint",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "0xPolygonHermez/pil2-proofman-js",
+      "target": "npmlog",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "0xPolygonHermez/pil2-proofman-js",
+      "target": "pil2-compiler",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "0xPolygonHermez/pil2-proofman-js",
+      "target": "protobufjs",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "0xPolygonHermez/pil2-proofman-js",
+      "target": "r1csfile",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "0xPolygonHermez/pil2-proofman-js",
+      "target": "snarkjs",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "0xPolygonHermez/pil2-proofman-js",
+      "target": "stark-recurser",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "0xPolygonHermez/pil2-proofman-js",
+      "target": "chai",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "0xPolygonHermez/pil2-proofman-js",
+      "target": "circom_tester",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "0xPolygonHermez/pil2-proofman-js",
+      "target": "circomlib",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "0xPolygonHermez/pil2-proofman-js",
+      "target": "mocha",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "0xPolygonHermez/pil2-proofman-js",
+      "target": "nyc",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-04-30T00:53:32.850333+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2550
+    },
+    {
+      "path": "package.json",
+      "size": 2295
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Proof Generation Manager for PIL2 ",
+    "fork": false,
+    "full_name": "0xPolygonHermez/pil2-proofman-js",
+    "html_url": "https://github.com/0xPolygonHermez/pil2-proofman-js",
+    "language": "C++",
+    "pushed_at": "2026-04-20T17:33:33Z",
+    "stargazers_count": 3,
+    "topics": [],
+    "updated_at": "2026-03-12T15:04:44Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "0xpolygonhermez/pil2-compiler",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "0xpolygonhermez/pil2-compiler",
+      "source_file": "package.json"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "0xpolygonhermez/stark-recurser",
+      "source_file": "package.json"
+    }
+  ],
+  "terms": []
+}

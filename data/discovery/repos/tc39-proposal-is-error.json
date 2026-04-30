@@ -1,0 +1,57 @@
+{
+  "components": [
+    {
+      "component": "@tc39/ecma262-biblio",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "ecmarkup",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "tc39/proposal-is-error",
+      "target": "@tc39/ecma262-biblio",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "tc39/proposal-is-error",
+      "target": "ecmarkup",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-04-30T01:40:07.368685+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2456
+    },
+    {
+      "path": "package.json",
+      "size": 913
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "main",
+    "description": "ECMAScript Proposal, specs, and reference implementation for Error.isError",
+    "fork": false,
+    "full_name": "tc39/proposal-is-error",
+    "html_url": "https://github.com/tc39/proposal-is-error",
+    "language": "HTML",
+    "pushed_at": "2025-05-28T13:41:09Z",
+    "stargazers_count": 133,
+    "topics": [],
+    "updated_at": "2026-03-25T13:08:20Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

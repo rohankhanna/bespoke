@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Agno turns agents into production software. Build agents in any framework. Run as a service. Ship to real users."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "\"Mark Stale Issues and PRs\""
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "\"Mark Stale Issues and PRs\""
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 34858,
+      "status": "candidate",
+      "text": "stall"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27795,
+      "status": "candidate",
+      "text": "stalls"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21503,
+      "status": "candidate",
+      "text": "accent"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21503,
+      "status": "candidate",
+      "text": "plot"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21503,
+      "status": "candidate",
+      "text": "plotted"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Mark Stale Issues and PRs",
+      "sense_id": "mark-stale-issues-and-prs#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "mark-stale-issues-and-prs",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "mark-stale-issues-and-prs",
+  "observation_id": "322b0c1bf0ab453f",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-30T00:37:16.824464+00:00",
+  "observed_text": "Mark Stale Issues and PRs",
+  "source_context_snippet": "\"Mark Stale Issues and PRs\"",
+  "source_file": ".github/workflows/stale-issues.yml",
+  "source_repo": "agno-agi/agno",
+  "source_repo_description": "Agno turns agents into production software. Build agents in any framework. Run as a service. Ship to real users."
+}

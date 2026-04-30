@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Standardized Distributed Generative and Predictive AI Inference Platform for Scalable, Multi-Framework Deployment on Kubernetes"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Cherry Pick On Comment"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Cherry Pick On Comment"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26164,
+      "status": "candidate",
+      "text": "cull"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17938,
+      "status": "candidate",
+      "text": "hue"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17938,
+      "status": "candidate",
+      "text": "seed"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17897,
+      "status": "candidate",
+      "text": "don"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17897,
+      "status": "candidate",
+      "text": "fruit"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Cherry Pick On Comment",
+      "sense_id": "cherry-pick-on-comment#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "cherry-pick-on-comment",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "cherry-pick-on-comment",
+  "observation_id": "9d568616c63e811b",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-30T00:37:16.824464+00:00",
+  "observed_text": "Cherry Pick On Comment",
+  "source_context_snippet": "Cherry Pick On Comment",
+  "source_file": ".github/workflows/comment-cherry-pick.yml",
+  "source_repo": "kserve/kserve",
+  "source_repo_description": "Standardized Distributed Generative and Predictive AI Inference Platform for Scalable, Multi-Framework Deployment on Kubernetes"
+}

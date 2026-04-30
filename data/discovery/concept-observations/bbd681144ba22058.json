@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Pandas, Polars, Spark, and Snowpark DataFrame comparison for humans and more!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "![PyPI - Python Version](https://img.shields.io/pypi/pyversions/datacompy)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "![PyPI - Python Version](https://img.shields.io/pypi/pyversions/datacompy)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40020806,
+      "status": "candidate",
+      "text": "comparison"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40020766,
+      "status": "candidate",
+      "text": "liken"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40020511,
+      "status": "candidate",
+      "text": "comparability"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40019638,
+      "status": "candidate",
+      "text": "equivalence"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40019487,
+      "status": "candidate",
+      "text": "equate"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "compare",
+      "sense_id": "compare#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 10041,
+      "status": "candidate",
+      "text": "comparison"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 7040,
+      "status": "candidate",
+      "text": "equivalence"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 6035,
+      "status": "candidate",
+      "text": "equate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 5032,
+      "status": "candidate",
+      "text": "liken"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 3019,
+      "status": "candidate",
+      "text": "comparability"
+    }
+  ],
+  "concept_id": "compare",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "compare",
+  "observation_id": "bbd681144ba22058",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T00:37:16.824464+00:00",
+  "observed_text": "compare",
+  "source_context_snippet": "![PyPI - Python Version](https://img.shields.io/pypi/pyversions/datacompy)",
+  "source_file": null,
+  "source_repo": "capitalone/datacompy",
+  "source_repo_description": "Pandas, Polars, Spark, and Snowpark DataFrame comparison for humans and more!"
+}

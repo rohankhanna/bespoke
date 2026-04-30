@@ -1,0 +1,160 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker_build.yml"
+    },
+    {
+      "component": "docker/setup-qemu-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker_build.yml"
+    },
+    {
+      "component": "docker/setup-buildx-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker_build.yml"
+    },
+    {
+      "component": "docker/login-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker_build.yml"
+    },
+    {
+      "component": "docker/build-push-action@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker_build.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "PKU-YuanGroup/Open-Sora-Plan",
+      "target": "pku-yuangroup/helios",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "PKU-YuanGroup/Open-Sora-Plan",
+      "target": "pku-yuangroup/magictime",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "PKU-YuanGroup/Open-Sora-Plan",
+      "target": "rhymes-ai/allegro",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "PKU-YuanGroup/Open-Sora-Plan",
+      "target": "pixart-alpha/pixart-alpha",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker_build.yml",
+      "source_repo": "PKU-YuanGroup/Open-Sora-Plan",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker_build.yml",
+      "source_repo": "PKU-YuanGroup/Open-Sora-Plan",
+      "target": "docker/setup-qemu-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker_build.yml",
+      "source_repo": "PKU-YuanGroup/Open-Sora-Plan",
+      "target": "docker/setup-buildx-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker_build.yml",
+      "source_repo": "PKU-YuanGroup/Open-Sora-Plan",
+      "target": "docker/login-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker_build.yml",
+      "source_repo": "PKU-YuanGroup/Open-Sora-Plan",
+      "target": "docker/build-push-action@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docker_build.yml",
+      "source_repo": "PKU-YuanGroup/Open-Sora-Plan",
+      "target": "docker-build",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T01:59:46.202507+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 14628
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 1922
+    },
+    {
+      "path": ".github/workflows/docker_build.yml",
+      "size": 931
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "This project aim to reproduce Sora (Open AI T2V model), we wish the open source community contribute to this project.",
+    "fork": false,
+    "full_name": "PKU-YuanGroup/Open-Sora-Plan",
+    "html_url": "https://github.com/PKU-YuanGroup/Open-Sora-Plan",
+    "language": "Python",
+    "pushed_at": "2026-03-08T12:48:46Z",
+    "stargazers_count": 12162,
+    "topics": [],
+    "updated_at": "2026-04-29T21:57:52Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "pixart-alpha/pixart-alpha",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "pku-yuangroup/helios",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "pku-yuangroup/magictime",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "rhymes-ai/allegro",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "docker-build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docker_build.yml",
+      "term": "docker-build"
+    }
+  ]
+}

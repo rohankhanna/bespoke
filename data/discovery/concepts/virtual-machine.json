@@ -55,6 +55,18 @@
       "source_repo": "robur-coop/albatross",
       "status": "candidate-context",
       "text": "The goal of albatross is robust deployment of [MirageOS](https://mirage.io)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "andrewmilson/ministark",
+      "status": "candidate-context",
+      "text": "\ud83c\udfc3\u200d\u2642\ufe0f\ud83d\udca8 GPU accelerated STARK prover built on @arkworks-rs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "andrewmilson/ministark",
+      "status": "candidate-context",
+      "text": "> **Warning**"
     }
   ],
   "candidate_glosses": [
@@ -81,6 +93,12 @@
       "source_repo": "robur-coop/albatross",
       "status": "candidate",
       "text": "The goal of albatross is robust deployment of [MirageOS](https://mirage.io)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "andrewmilson/ministark",
+      "status": "candidate",
+      "text": "> **Warning**"
     }
   ],
   "candidate_related_terms": [],
@@ -112,11 +130,17 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": null,
       "source_repo": "robur-coop/albatross"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "andrewmilson/ministark"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

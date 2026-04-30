@@ -1,0 +1,308 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/audit.yaml"
+    },
+    {
+      "component": "Swatinem/rust-cache@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/audit.yaml"
+    },
+    {
+      "component": "actions-rs/toolchain@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/audit.yaml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "actions-rs/toolchain@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "Swatinem/rust-cache@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "actions-rs/toolchain@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "Swatinem/rust-cache@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dependabot-auto-merge.yml"
+    },
+    {
+      "component": "ahmadnassri/action-dependabot-auto-merge@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dependabot-auto-merge.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "asaaki/opentelemetry-tide",
+      "target": "outtherelabs/actix-web-opentelemetry",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/audit.yaml",
+      "source_repo": "asaaki/opentelemetry-tide",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/audit.yaml",
+      "source_repo": "asaaki/opentelemetry-tide",
+      "target": "Swatinem/rust-cache@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/audit.yaml",
+      "source_repo": "asaaki/opentelemetry-tide",
+      "target": "actions-rs/toolchain@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/audit.yaml",
+      "source_repo": "asaaki/opentelemetry-tide",
+      "target": "Security Audit",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "asaaki/opentelemetry-tide",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "asaaki/opentelemetry-tide",
+      "target": "actions-rs/toolchain@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "asaaki/opentelemetry-tide",
+      "target": "Swatinem/rust-cache@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "asaaki/opentelemetry-tide",
+      "target": "Continuous Integration",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dependabot-auto-merge.yml",
+      "source_repo": "asaaki/opentelemetry-tide",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dependabot-auto-merge.yml",
+      "source_repo": "asaaki/opentelemetry-tide",
+      "target": "ahmadnassri/action-dependabot-auto-merge@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/dependabot-auto-merge.yml",
+      "source_repo": "asaaki/opentelemetry-tide",
+      "target": "Dependabot Auto Merge",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "asaaki/opentelemetry-tide",
+      "target": "metrics",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "asaaki/opentelemetry-tide",
+      "target": "opentelemetry",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "asaaki/opentelemetry-tide",
+      "target": "opentelemetry-rust",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "asaaki/opentelemetry-tide",
+      "target": "opentelemetry-tide",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "asaaki/opentelemetry-tide",
+      "target": "otel",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "asaaki/opentelemetry-tide",
+      "target": "rust",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "asaaki/opentelemetry-tide",
+      "target": "tracing",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T04:49:56.987713+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4545
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 1694
+    },
+    {
+      "path": ".github/workflows/audit.yaml",
+      "size": 567
+    },
+    {
+      "path": ".github/workflows/ci.yaml",
+      "size": 1076
+    },
+    {
+      "path": ".github/workflows/dependabot-auto-merge.yml",
+      "size": 944
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "\ud83d\udd2d\ud83c\udf0a OpenTelemetry integration for Tide",
+    "fork": false,
+    "full_name": "asaaki/opentelemetry-tide",
+    "html_url": "https://github.com/asaaki/opentelemetry-tide",
+    "language": "Rust",
+    "pushed_at": "2023-03-27T22:00:25Z",
+    "stargazers_count": 19,
+    "topics": [
+      "metrics",
+      "opentelemetry",
+      "opentelemetry-rust",
+      "opentelemetry-tide",
+      "otel",
+      "rust",
+      "tracing"
+    ],
+    "updated_at": "2026-04-21T07:38:06Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "outtherelabs/actix-web-opentelemetry",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Security Audit",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/audit.yaml",
+      "term": "Security Audit"
+    },
+    {
+      "context_snippet": "Continuous Integration",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yaml",
+      "term": "Continuous Integration"
+    },
+    {
+      "context_snippet": "Dependabot Auto Merge",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/dependabot-auto-merge.yml",
+      "term": "Dependabot Auto Merge"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\"><img src=\"https://raw.githubusercontent.com/asaaki/opentelemetry-tide/main/.assets/opentelemetry-tide-logo.svg\" width=128 height=128><br>opentelemetry-tide</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "metrics"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\"><img src=\"https://raw.githubusercontent.com/asaaki/opentelemetry-tide/main/.assets/opentelemetry-tide-logo.svg\" width=128 height=128><br>opentelemetry-tide</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "opentelemetry"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\"><img src=\"https://raw.githubusercontent.com/asaaki/opentelemetry-tide/main/.assets/opentelemetry-tide-logo.svg\" width=128 height=128><br>opentelemetry-tide</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "opentelemetry-rust"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\"><img src=\"https://raw.githubusercontent.com/asaaki/opentelemetry-tide/main/.assets/opentelemetry-tide-logo.svg\" width=128 height=128><br>opentelemetry-tide</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "opentelemetry-tide"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\"><img src=\"https://raw.githubusercontent.com/asaaki/opentelemetry-tide/main/.assets/opentelemetry-tide-logo.svg\" width=128 height=128><br>opentelemetry-tide</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "otel"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\"><img src=\"https://raw.githubusercontent.com/asaaki/opentelemetry-tide/main/.assets/opentelemetry-tide-logo.svg\" width=128 height=128><br>opentelemetry-tide</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rust"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\"><img src=\"https://raw.githubusercontent.com/asaaki/opentelemetry-tide/main/.assets/opentelemetry-tide-logo.svg\" width=128 height=128><br>opentelemetry-tide</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tracing"
+    }
+  ]
+}

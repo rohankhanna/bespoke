@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T00:45:42.373984+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2954
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Recharge is a simple library to hot reload your Dart code on file changes",
+    "fork": false,
+    "full_name": "ajinasokan/recharge",
+    "html_url": "https://github.com/ajinasokan/recharge",
+    "language": "Dart",
+    "pushed_at": "2023-06-04T18:59:21Z",
+    "stargazers_count": 49,
+    "topics": [],
+    "updated_at": "2026-01-25T20:33:55Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

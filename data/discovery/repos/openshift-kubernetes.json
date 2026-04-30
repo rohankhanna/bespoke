@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T05:07:13.612587+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4387
+    },
+    {
+      "path": "go.mod",
+      "size": 12582
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "This is the repo that tracks all patches to the OpenShift distribution of Kubernetes on branches corresponding to OpenShift releases.  See https://github.com/openshift/kubernetes/blob/master/README.openshift.md for more",
+    "fork": true,
+    "full_name": "openshift/kubernetes",
+    "html_url": "https://github.com/openshift/kubernetes",
+    "language": "Go",
+    "pushed_at": "2026-04-28T17:32:48Z",
+    "stargazers_count": 99,
+    "topics": [],
+    "updated_at": "2026-04-28T17:08:38Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

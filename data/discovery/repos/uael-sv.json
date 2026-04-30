@@ -1,0 +1,117 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cmake-multi-platform.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cmake-multi-platform.yml",
+      "source_repo": "uael/sv",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cmake-multi-platform.yml",
+      "source_repo": "uael/sv",
+      "target": "CMake on multiple platforms",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "uael/sv",
+      "target": "cross-platform",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "uael/sv",
+      "target": "library",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "uael/sv",
+      "target": "public-domain",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "uael/sv",
+      "target": "semantic-versioning",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T04:09:43.436066+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 11355
+    },
+    {
+      "path": ".github/workflows/cmake-multi-platform.yml",
+      "size": 3342
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "libsv - Public domain cross-platform semantic versioning in c99",
+    "fork": false,
+    "full_name": "uael/sv",
+    "html_url": "https://github.com/uael/sv",
+    "language": "C",
+    "pushed_at": "2026-04-06T07:29:47Z",
+    "stargazers_count": 76,
+    "topics": [
+      "c99",
+      "cross-platform",
+      "library",
+      "public-domain",
+      "semantic-versioning"
+    ],
+    "updated_at": "2026-04-06T07:29:51Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "CMake on multiple platforms",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cmake-multi-platform.yml",
+      "term": "CMake on multiple platforms"
+    },
+    {
+      "context_snippet": "libsv - Public domain cross-platform semantic versioning in c99",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cross-platform"
+    },
+    {
+      "context_snippet": "libsv - Public domain cross-platform semantic versioning in c99",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "library"
+    },
+    {
+      "context_snippet": "libsv - Public domain cross-platform semantic versioning in c99",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "public-domain"
+    },
+    {
+      "context_snippet": "libsv - Public domain cross-platform semantic versioning in c99",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "semantic-versioning"
+    }
+  ]
+}

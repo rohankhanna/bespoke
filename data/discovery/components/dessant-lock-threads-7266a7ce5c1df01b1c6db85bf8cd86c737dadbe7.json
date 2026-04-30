@@ -1,7 +1,7 @@
 {
   "component": "dessant/lock-threads@7266a7ce5c1df01b1c6db85bf8cd86c737dadbe7",
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -102,6 +102,21 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/lock-issues.yml",
       "source_repo": "psf/requests"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/lock.yml",
+      "source_repo": "lightgbm-org/LightGBM"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/lock-closed-issues.yml",
+      "source_repo": "vitest-dev/vitest"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/lock.yaml",
+      "source_repo": "pallets/flask"
     }
   ]
 }

@@ -19,6 +19,30 @@
       "source_repo": "mit-han-lab/distrifuser",
       "status": "candidate-context",
       "text": "**[Dec 1, 2024]** DistriFusion is integrated in NVIDIA's [TensorRT-LLM](https://github.com/NVIDIA/TensorRT-LLM/blob/main/examples/sdxl/README.md) for distributed inference on high-resolution image generation."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lmxyy/sige",
+      "status": "candidate-context",
+      "text": "[NeurIPS 2022, T-PAMI 2023] Efficient Spatially Sparse Inference for Conditional GANs and Diffusion Models"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lmxyy/sige",
+      "status": "candidate-context",
+      "text": "**[NEW!]** SIGE is accepted by T-PAMI!"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "PKU-YuanGroup/Helios",
+      "status": "candidate-context",
+      "text": "Helios: Real Real-Time Long Video Generation Model"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PKU-YuanGroup/Helios",
+      "status": "candidate-context",
+      "text": "<div align=center>"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +51,18 @@
       "source_repo": "mit-han-lab/distrifuser",
       "status": "candidate",
       "text": "**[Dec 1, 2024]** DistriFusion is integrated in NVIDIA's [TensorRT-LLM](https://github.com/NVIDIA/TensorRT-LLM/blob/main/examples/sdxl/README.md) for distributed inference on high-resolution image generation."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lmxyy/sige",
+      "status": "candidate",
+      "text": "**[NEW!]** SIGE is accepted by T-PAMI!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PKU-YuanGroup/Helios",
+      "status": "candidate",
+      "text": "<div align=center>"
     }
   ],
   "candidate_related_terms": [
@@ -91,11 +127,23 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "mit-han-lab/distrifuser"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "lmxyy/sige"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "PKU-YuanGroup/Helios"
     }
   ],
   "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

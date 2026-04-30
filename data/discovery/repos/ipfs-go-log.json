@@ -1,0 +1,237 @@
+{
+  "components": [
+    {
+      "component": "ipdxco/unified-github-workflows/.github/workflows/reusable-generated-pr.yml@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generated-pr.yml"
+    },
+    {
+      "component": "ipdxco/unified-github-workflows/.github/workflows/go-check.yml@v1.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go-check.yml"
+    },
+    {
+      "component": "ipdxco/unified-github-workflows/.github/workflows/go-test.yml@v1.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go-test.yml"
+    },
+    {
+      "component": "ipdxco/unified-github-workflows/.github/workflows/release-check.yml@v1.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-check.yml"
+    },
+    {
+      "component": "ipdxco/unified-github-workflows/.github/workflows/releaser.yml@v1.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/releaser.yml"
+    },
+    {
+      "component": "ipdxco/unified-github-workflows/.github/workflows/reusable-stale-issue.yml@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stale.yml"
+    },
+    {
+      "component": "ipdxco/unified-github-workflows/.github/workflows/tagpush.yml@v1.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tagpush.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generated-pr.yml",
+      "source_repo": "ipfs/go-log",
+      "target": "ipdxco/unified-github-workflows/.github/workflows/reusable-generated-pr.yml@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/generated-pr.yml",
+      "source_repo": "ipfs/go-log",
+      "target": "Close Generated PRs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go-check.yml",
+      "source_repo": "ipfs/go-log",
+      "target": "ipdxco/unified-github-workflows/.github/workflows/go-check.yml@v1.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/go-check.yml",
+      "source_repo": "ipfs/go-log",
+      "target": "Go Checks",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go-test.yml",
+      "source_repo": "ipfs/go-log",
+      "target": "ipdxco/unified-github-workflows/.github/workflows/go-test.yml@v1.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/go-test.yml",
+      "source_repo": "ipfs/go-log",
+      "target": "Go Test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-check.yml",
+      "source_repo": "ipfs/go-log",
+      "target": "ipdxco/unified-github-workflows/.github/workflows/release-check.yml@v1.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-check.yml",
+      "source_repo": "ipfs/go-log",
+      "target": "Release Checker",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/releaser.yml",
+      "source_repo": "ipfs/go-log",
+      "target": "ipdxco/unified-github-workflows/.github/workflows/releaser.yml@v1.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/releaser.yml",
+      "source_repo": "ipfs/go-log",
+      "target": "Releaser",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "ipfs/go-log",
+      "target": "ipdxco/unified-github-workflows/.github/workflows/reusable-stale-issue.yml@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "ipfs/go-log",
+      "target": "Close Stale Issues",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tagpush.yml",
+      "source_repo": "ipfs/go-log",
+      "target": "ipdxco/unified-github-workflows/.github/workflows/tagpush.yml@v1.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/tagpush.yml",
+      "source_repo": "ipfs/go-log",
+      "target": "Tag Push Checker",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T02:52:37.939391+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 11873
+    },
+    {
+      "path": "go.mod",
+      "size": 380
+    },
+    {
+      "path": ".github/workflows/generated-pr.yml",
+      "size": 246
+    },
+    {
+      "path": ".github/workflows/go-check.yml",
+      "size": 380
+    },
+    {
+      "path": ".github/workflows/go-test.yml",
+      "size": 439
+    },
+    {
+      "path": ".github/workflows/release-check.yml",
+      "size": 419
+    },
+    {
+      "path": ".github/workflows/releaser.yml",
+      "size": 299
+    },
+    {
+      "path": ".github/workflows/stale.yml",
+      "size": 244
+    },
+    {
+      "path": ".github/workflows/tagpush.yml",
+      "size": 291
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A logging library used by go-ipfs",
+    "fork": false,
+    "full_name": "ipfs/go-log",
+    "html_url": "https://github.com/ipfs/go-log",
+    "language": "Go",
+    "pushed_at": "2026-02-23T09:04:34Z",
+    "stargazers_count": 62,
+    "topics": [],
+    "updated_at": "2026-02-22T15:47:49Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Close Generated PRs",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/generated-pr.yml",
+      "term": "Close Generated PRs"
+    },
+    {
+      "context_snippet": "Go Checks",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/go-check.yml",
+      "term": "Go Checks"
+    },
+    {
+      "context_snippet": "Go Test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/go-test.yml",
+      "term": "Go Test"
+    },
+    {
+      "context_snippet": "Release Checker",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-check.yml",
+      "term": "Release Checker"
+    },
+    {
+      "context_snippet": "Releaser",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/releaser.yml",
+      "term": "Releaser"
+    },
+    {
+      "context_snippet": "Close Stale Issues",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/stale.yml",
+      "term": "Close Stale Issues"
+    },
+    {
+      "context_snippet": "Tag Push Checker",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/tagpush.yml",
+      "term": "Tag Push Checker"
+    }
+  ]
+}

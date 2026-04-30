@@ -1,7 +1,7 @@
 {
   "component": "golangci/golangci-lint-action@v2",
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -57,6 +57,26 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/golangci-lint.yml",
       "source_repo": "go-bun/bun-realworld-app"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/golangci-lint.yaml",
+      "source_repo": "marmotedu/iam"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/lint.yaml",
+      "source_repo": "go-logr/zerologr"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/golangci-lint.yml",
+      "source_repo": "qri-io/starlib"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/golangci-lint.yml",
+      "source_repo": "vmihailenco/taskq"
     }
   ]
 }

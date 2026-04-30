@@ -19,6 +19,18 @@
       "source_repo": "enola-dev/enola",
       "status": "candidate-context",
       "text": "<!--"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mermaid-js/mermaid-cli",
+      "status": "candidate-context",
+      "text": "Command line tool for the Mermaid library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mermaid-js/mermaid-cli",
+      "status": "candidate-context",
+      "text": "[![npm version](https://img.shields.io/npm/v/@mermaid-js/mermaid-cli)](https://www.npmjs.com/package/@mermaid-js/mermaid-cli)"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "enola-dev/enola",
       "status": "candidate",
       "text": "<!--"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mermaid-js/mermaid-cli",
+      "status": "candidate",
+      "text": "[![npm version](https://img.shields.io/npm/v/@mermaid-js/mermaid-cli)](https://www.npmjs.com/package/@mermaid-js/mermaid-cli)"
     }
   ],
   "candidate_related_terms": [
@@ -76,11 +94,17 @@
       "observed_at": "2026-04-24T12:33:41.350224+00:00",
       "source_file": null,
       "source_repo": "enola-dev/enola"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "mermaid-js/mermaid-cli"
     }
   ],
   "first_seen_at": "2026-04-24T12:33:41.350224+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -43,6 +43,42 @@
       "source_repo": "hyperium/h2",
       "status": "candidate-context",
       "text": "A Tokio aware, HTTP/2 client & server implementation for Rust."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lnx-search/lnx",
+      "status": "candidate-context",
+      "text": "A flexible, performant and reliable search database without the AI bullshit."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lnx-search/lnx",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "SeaQL/sea-orm",
+      "status": "candidate-context",
+      "text": "\ud83d\udc1a A powerful relational ORM for Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SeaQL/sea-orm",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ClickHouse/clickhouse-rs",
+      "status": "candidate-context",
+      "text": "Official pure Rust typed client for ClickHouse DB"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ClickHouse/clickhouse-rs",
+      "status": "candidate-context",
+      "text": "Official pure Rust typed client for ClickHouse DB."
     }
   ],
   "candidate_glosses": [
@@ -57,6 +93,24 @@
       "source_repo": "hyperium/h2",
       "status": "candidate",
       "text": "A Tokio aware, HTTP/2 client & server implementation for Rust."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lnx-search/lnx",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SeaQL/sea-orm",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ClickHouse/clickhouse-rs",
+      "status": "candidate",
+      "text": "Official pure Rust typed client for ClickHouse DB."
     }
   ],
   "candidate_related_terms": [
@@ -154,11 +208,29 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": null,
       "source_repo": "hyperium/h2"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "lnx-search/lnx"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "SeaQL/sea-orm"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "ClickHouse/clickhouse-rs"
     }
   ],
   "first_seen_at": "2026-04-18T13:29:00.435097+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,99 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "bshall/acoustic-model",
+      "target": "bshall/hifigan",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bshall/acoustic-model",
+      "target": "pytorch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bshall/acoustic-model",
+      "target": "representation-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bshall/acoustic-model",
+      "target": "speech",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bshall/acoustic-model",
+      "target": "voice-conversion",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T03:51:32.800295+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5354
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Acoustic models for: A Comparison of Discrete and Soft Speech Units for Improved Voice Conversion",
+    "fork": false,
+    "full_name": "bshall/acoustic-model",
+    "html_url": "https://github.com/bshall/acoustic-model",
+    "language": "Python",
+    "pushed_at": "2026-03-10T14:31:37Z",
+    "stargazers_count": 104,
+    "topics": [
+      "pytorch",
+      "representation-learning",
+      "speech",
+      "voice-conversion"
+    ],
+    "updated_at": "2026-03-10T14:31:43Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "bshall/hifigan",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytorch"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "representation-learning"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "speech"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "voice-conversion"
+    }
+  ]
+}

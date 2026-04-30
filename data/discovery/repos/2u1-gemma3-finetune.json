@@ -1,0 +1,125 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "2U1/Gemma3-Finetune",
+      "target": "2u1/phi3-vision-finetune",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "2U1/Gemma3-Finetune",
+      "target": "2u1/llama3.2-vision-ft",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "2U1/Gemma3-Finetune",
+      "target": "2u1/molmo-finetune",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "2U1/Gemma3-Finetune",
+      "target": "2u1/pixtral-finetune",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "2U1/Gemma3-Finetune",
+      "target": "gemma3",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "2U1/Gemma3-Finetune",
+      "target": "multi-modal",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "2U1/Gemma3-Finetune",
+      "target": "vision-language-model",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T02:40:08.637824+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 17216
+    },
+    {
+      "path": "requirements.txt",
+      "size": 1964
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "An open-source implementaion for Gemma3 series by Google.",
+    "fork": false,
+    "full_name": "2U1/Gemma3-Finetune",
+    "html_url": "https://github.com/2U1/Gemma3-Finetune",
+    "language": "Python",
+    "pushed_at": "2026-01-20T09:34:25Z",
+    "stargazers_count": 73,
+    "topics": [
+      "gemma3",
+      "multi-modal",
+      "vision-language-model"
+    ],
+    "updated_at": "2026-04-15T09:35:23Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "2u1/llama3.2-vision-ft",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "2u1/molmo-finetune",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "2u1/phi3-vision-finetune",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "2u1/pixtral-finetune",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "This repository contains a script for training [Gemma3](https://huggingface.co/google/gemma-3-4b-it) with only using HuggingFace.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gemma3"
+    },
+    {
+      "context_snippet": "This repository contains a script for training [Gemma3](https://huggingface.co/google/gemma-3-4b-it) with only using HuggingFace.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "multi-modal"
+    },
+    {
+      "context_snippet": "This repository contains a script for training [Gemma3](https://huggingface.co/google/gemma-3-4b-it) with only using HuggingFace.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vision-language-model"
+    }
+  ]
+}

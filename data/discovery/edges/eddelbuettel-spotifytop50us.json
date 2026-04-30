@@ -1,0 +1,62 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "eddelbuettel/spotifytop50us",
+      "target": "brianckeegan/spotifyustop50",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "eddelbuettel/spotifytop50us",
+      "target": "troyhernandez/tinyspotifyr",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "eddelbuettel/spotifytop50us",
+      "target": "hrbrmstr/hrbrthemes",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "eddelbuettel/spotifytop50us",
+      "target": "eddelbuettel/tinythemes",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update.yaml",
+      "source_repo": "eddelbuettel/spotifytop50us",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update.yaml",
+      "source_repo": "eddelbuettel/spotifytop50us",
+      "target": "eddelbuettel/github-actions/r2u-setup@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update.yaml",
+      "source_repo": "eddelbuettel/spotifytop50us",
+      "target": "EndBug/add-and-commit@v9",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/update.yaml",
+      "source_repo": "eddelbuettel/spotifytop50us",
+      "target": "update",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-30T00:37:16.824464+00:00",
+  "source_repo": "eddelbuettel/spotifytop50us"
+}

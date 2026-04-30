@@ -1,7 +1,7 @@
 {
   "component": "actions/upload-release-asset@v1.0.1",
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -27,6 +27,26 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/release.yml",
       "source_repo": "joseluisq/paket"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "Byron/dua-cli"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/cosmocc.yml",
+      "source_repo": "xmake-io/xmake"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/linux.yml",
+      "source_repo": "xmake-io/xmake"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/deployment.yml",
+      "source_repo": "Morantron/tmux-fingers"
     }
   ]
 }

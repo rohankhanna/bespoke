@@ -1,0 +1,107 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "graalvm/graalvm-ce-builds",
+      "target": "oracle/graal",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "graalvm/graalvm-ce-builds",
+      "target": "oracle/graalpython",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "graalvm/graalvm-ce-builds",
+      "target": "oracle/truffleruby",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "graalvm/graalvm-ce-builds",
+      "target": "oracle/graaljs",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "graalvm/graalvm-ce-builds",
+      "target": "builds",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "graalvm/graalvm-ce-builds",
+      "target": "graalvm",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T04:05:12.260666+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 709
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "GraalVM CE binaires built by the GraalVM community",
+    "fork": false,
+    "full_name": "graalvm/graalvm-ce-builds",
+    "html_url": "https://github.com/graalvm/graalvm-ce-builds",
+    "language": null,
+    "pushed_at": "2026-01-20T16:14:27Z",
+    "stargazers_count": 1730,
+    "topics": [
+      "builds",
+      "graalvm"
+    ],
+    "updated_at": "2026-04-27T07:55:51Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "oracle/graal",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "oracle/graaljs",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "oracle/graalpython",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "oracle/truffleruby",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "This repository hosts [GraalVM Community](https://github.com/oracle/graal/)'s [builds](https://github.com/graalvm/graalvm-ce-builds/releases/) based on OpenJDK.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "builds"
+    },
+    {
+      "context_snippet": "This repository hosts [GraalVM Community](https://github.com/oracle/graal/)'s [builds](https://github.com/graalvm/graalvm-ce-builds/releases/) based on OpenJDK.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "graalvm"
+    }
+  ]
+}

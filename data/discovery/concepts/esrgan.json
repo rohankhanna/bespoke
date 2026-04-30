@@ -43,6 +43,30 @@
       "source_repo": "xinntao/Real-ESRGAN",
       "status": "candidate-context",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Kim2091/chaiNNer-Templates",
+      "status": "candidate-context",
+      "text": "Pre-made chains/templates for chaiNNer. Pytorch, NCNN, and ONNX included."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Kim2091/chaiNNer-Templates",
+      "status": "candidate-context",
+      "text": "[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/J3J3BCC3L)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "AaronFeng753/Waifu2x-Extension-GUI",
+      "status": "candidate-context",
+      "text": "Video, Image and GIF upscale/enlarge(Super-Resolution) and Video frame interpolation. Achieved with Waifu2x,  Real-ESRGAN, Real-CUGAN, RTX Video Super Resolution VSR, SRMD, RealSR, Anime4K, RIFE, IFRNet, CAIN, DAIN,  and ACNet."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AaronFeng753/Waifu2x-Extension-GUI",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -61,6 +85,18 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "xinntao/Real-ESRGAN",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Kim2091/chaiNNer-Templates",
+      "status": "candidate",
+      "text": "[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/J3J3BCC3L)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AaronFeng753/Waifu2x-Extension-GUI",
       "status": "candidate",
       "text": "<p align=\"center\">"
     }
@@ -88,11 +124,29 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "xinntao/Real-ESRGAN"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "Kim2091/chaiNNer-Templates"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "XPixelGroup/BasicSR"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "AaronFeng753/Waifu2x-Extension-GUI"
     }
   ],
   "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

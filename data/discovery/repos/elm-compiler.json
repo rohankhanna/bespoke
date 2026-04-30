@@ -1,0 +1,91 @@
+{
+  "components": [
+    {
+      "component": "actions/github@v1.0.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/set-issue-expectations.yml"
+    },
+    {
+      "component": "actions/github-script@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/set-pull-expectations.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/set-issue-expectations.yml",
+      "source_repo": "elm/compiler",
+      "target": "actions/github@v1.0.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/set-issue-expectations.yml",
+      "source_repo": "elm/compiler",
+      "target": "Set Issue Expectations",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/set-pull-expectations.yml",
+      "source_repo": "elm/compiler",
+      "target": "actions/github-script@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "elm/compiler",
+      "target": "compiler",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T02:55:20.199258+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 602
+    },
+    {
+      "path": ".github/workflows/set-issue-expectations.yml",
+      "size": 901
+    },
+    {
+      "path": ".github/workflows/set-pull-expectations.yml",
+      "size": 1182
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Compiler for Elm, a functional language for reliable webapps.",
+    "fork": false,
+    "full_name": "elm/compiler",
+    "html_url": "https://github.com/elm/compiler",
+    "language": "Haskell",
+    "pushed_at": "2026-04-28T15:41:05Z",
+    "stargazers_count": 7771,
+    "topics": [
+      "compiler",
+      "elm"
+    ],
+    "updated_at": "2026-04-29T18:15:43Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Set Issue Expectations",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/set-issue-expectations.yml",
+      "term": "Set Issue Expectations"
+    },
+    {
+      "context_snippet": "A delightful language for reliable webapps.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "compiler"
+    }
+  ]
+}

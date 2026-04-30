@@ -1,7 +1,7 @@
 {
   "component": "actions/cache@668228422ae6a00e4ad889ee87cd7109ec5666a7",
   "first_seen_at": "2026-04-17T16:51:41.136432+00:00",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -497,6 +497,71 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/linting.yaml",
       "source_repo": "huggingface/text-embeddings-inference"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "apache/apisix"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/cli.yml",
+      "source_repo": "apache/apisix"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/_reusable-artifact-builder.yaml",
+      "source_repo": "open-edge-platform/anomalib"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "jazzband/pip-tools"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/reusable-qa.yml",
+      "source_repo": "jazzband/pip-tools"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build_and_test.yaml",
+      "source_repo": "envoyproxy/ai-gateway"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/docker_build_job.yaml",
+      "source_repo": "envoyproxy/ai-gateway"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/precommit_check.yaml",
+      "source_repo": "envoyproxy/ai-gateway"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yaml",
+      "source_repo": "pallets/flask"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/tests.yaml",
+      "source_repo": "pallets/flask"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/validate-release.yml",
+      "source_repo": "sigstore/gitsign"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "mikedh/trimesh"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "mikedh/trimesh"
     }
   ]
 }

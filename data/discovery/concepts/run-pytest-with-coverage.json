@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Run PyTest with Coverage"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "AutoCodeRoverSG/auto-code-rover",
+      "status": "candidate-context",
+      "text": "A project structure aware autonomous software engineer aiming for autonomous program improvement. Resolved 37.3% tasks (pass@1) in SWE-bench lite and 46.2% tasks (pass@1) in SWE-bench verified with each task costs less than $0.7."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AutoCodeRoverSG/auto-code-rover",
+      "status": "candidate-context",
+      "text": "Run PyTest with Coverage"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AutoCodeRoverSG/auto-code-rover",
+      "status": "candidate",
+      "text": "Run PyTest with Coverage"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12512,
+      "status": "candidate",
+      "text": "cover"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12512,
+      "status": "candidate",
+      "text": "home"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12512,
+      "status": "candidate",
+      "text": "ins"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12512,
+      "status": "candidate",
+      "text": "range"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12358,
+      "status": "candidate",
+      "text": "trial"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Run PyTest with Coverage",
+  "concept_id": "run-pytest-with-coverage",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/pytest.yml",
+      "source_repo": "AutoCodeRoverSG/auto-code-rover"
+    }
+  ],
+  "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Run PyTest with Coverage",
+      "sense_id": "run-pytest-with-coverage#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

@@ -1,0 +1,359 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "AaronFeng753/Waifu2x-Extension-GUI",
+      "target": "bloc97/anime4k",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "AaronFeng753/Waifu2x-Extension-GUI",
+      "target": "baowenbo/dain",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "AaronFeng753/Waifu2x-Extension-GUI",
+      "target": "cszn/srmd",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "AaronFeng753/Waifu2x-Extension-GUI",
+      "target": "aaronfeng753/waifu2x-extension",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AaronFeng753/Waifu2x-Extension-GUI",
+      "target": "anime",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AaronFeng753/Waifu2x-Extension-GUI",
+      "target": "anime4k",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AaronFeng753/Waifu2x-Extension-GUI",
+      "target": "esrgan",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AaronFeng753/Waifu2x-Extension-GUI",
+      "target": "frame-interpolation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AaronFeng753/Waifu2x-Extension-GUI",
+      "target": "image-enlarger",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AaronFeng753/Waifu2x-Extension-GUI",
+      "target": "ncnn",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AaronFeng753/Waifu2x-Extension-GUI",
+      "target": "noise-reduction",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AaronFeng753/Waifu2x-Extension-GUI",
+      "target": "rtx-video-super-resolution",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AaronFeng753/Waifu2x-Extension-GUI",
+      "target": "rtx-vsr",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AaronFeng753/Waifu2x-Extension-GUI",
+      "target": "super-resolution",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AaronFeng753/Waifu2x-Extension-GUI",
+      "target": "upscaling",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AaronFeng753/Waifu2x-Extension-GUI",
+      "target": "video",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AaronFeng753/Waifu2x-Extension-GUI",
+      "target": "video-enlarger",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AaronFeng753/Waifu2x-Extension-GUI",
+      "target": "video-frame-interpolation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AaronFeng753/Waifu2x-Extension-GUI",
+      "target": "video-interpolation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AaronFeng753/Waifu2x-Extension-GUI",
+      "target": "video-processing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AaronFeng753/Waifu2x-Extension-GUI",
+      "target": "video-super-resolution",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AaronFeng753/Waifu2x-Extension-GUI",
+      "target": "vulkan",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AaronFeng753/Waifu2x-Extension-GUI",
+      "target": "waifu2x",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AaronFeng753/Waifu2x-Extension-GUI",
+      "target": "waifu2x-ncnn-vulkan",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T03:54:25.465914+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9945
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Video, Image and GIF upscale/enlarge(Super-Resolution) and Video frame interpolation. Achieved with Waifu2x,  Real-ESRGAN, Real-CUGAN, RTX Video Super Resolution VSR, SRMD, RealSR, Anime4K, RIFE, IFRNet, CAIN, DAIN,  and ACNet.",
+    "fork": false,
+    "full_name": "AaronFeng753/Waifu2x-Extension-GUI",
+    "html_url": "https://github.com/AaronFeng753/Waifu2x-Extension-GUI",
+    "language": "C++",
+    "pushed_at": "2026-04-28T11:37:48Z",
+    "stargazers_count": 16481,
+    "topics": [
+      "anime",
+      "anime4k",
+      "esrgan",
+      "frame-interpolation",
+      "image-enlarger",
+      "ncnn",
+      "noise-reduction",
+      "rtx-video-super-resolution",
+      "rtx-vsr",
+      "super-resolution",
+      "upscaling",
+      "video",
+      "video-enlarger",
+      "video-frame-interpolation",
+      "video-interpolation",
+      "video-processing",
+      "video-super-resolution",
+      "vulkan",
+      "waifu2x",
+      "waifu2x-ncnn-vulkan"
+    ],
+    "updated_at": "2026-04-29T16:07:57Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "aaronfeng753/waifu2x-extension",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "baowenbo/dain",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "bloc97/anime4k",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cszn/srmd",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "anime"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "anime4k"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "esrgan"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "frame-interpolation"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "image-enlarger"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ncnn"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "noise-reduction"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rtx-video-super-resolution"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rtx-vsr"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "super-resolution"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "upscaling"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "video"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "video-enlarger"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "video-frame-interpolation"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "video-interpolation"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "video-processing"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "video-super-resolution"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vulkan"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "waifu2x"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "waifu2x-ncnn-vulkan"
+    }
+  ]
+}

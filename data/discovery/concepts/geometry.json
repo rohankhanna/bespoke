@@ -55,6 +55,30 @@
       "source_repo": "DOI-USGS/ncdfgeom",
       "status": "candidate-context",
       "text": "NetCDF-CF Geometry and Timeseries Tools for R"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Ha0Tang/AttentionGAN",
+      "status": "candidate-context",
+      "text": "AttentionGAN for Unpaired Image-to-Image Translation & Multi-Domain Image-to-Image Translation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Ha0Tang/AttentionGAN",
+      "status": "candidate-context",
+      "text": "[![License CC BY-NC-SA 4.0](https://img.shields.io/badge/license-CC4.0-blue.svg)](https://github.com/Ha0Tang/AttentionGAN/blob/master/LICENSE.md)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mikedh/trimesh",
+      "status": "candidate-context",
+      "text": "Python library for loading and using triangular meshes."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mikedh/trimesh",
+      "status": "candidate-context",
+      "text": "[![trimesh](https://trimesh.org/_static/images/logotype-a.svg)](http://trimesh.org)"
     }
   ],
   "candidate_glosses": [
@@ -81,6 +105,18 @@
       "source_repo": "DOI-USGS/ncdfgeom",
       "status": "candidate",
       "text": "NetCDF-CF Geometry and Timeseries Tools for R"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Ha0Tang/AttentionGAN",
+      "status": "candidate",
+      "text": "[![License CC BY-NC-SA 4.0](https://img.shields.io/badge/license-CC4.0-blue.svg)](https://github.com/Ha0Tang/AttentionGAN/blob/master/LICENSE.md)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mikedh/trimesh",
+      "status": "candidate",
+      "text": "[![trimesh](https://trimesh.org/_static/images/logotype-a.svg)](http://trimesh.org)"
     }
   ],
   "candidate_related_terms": [
@@ -154,11 +190,23 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "georust/geo"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "Ha0Tang/AttentionGAN"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "mikedh/trimesh"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

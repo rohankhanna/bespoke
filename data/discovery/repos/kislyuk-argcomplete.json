@@ -1,0 +1,239 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "codecov/codecov-action@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "isort/isort-action@v1.1.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "astral-sh/ruff-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "astral-sh/ruff-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "pypa/gh-action-pypi-publish@release/v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "kislyuk/argcomplete",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "kislyuk/argcomplete",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "kislyuk/argcomplete",
+      "target": "codecov/codecov-action@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "kislyuk/argcomplete",
+      "target": "isort/isort-action@v1.1.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "kislyuk/argcomplete",
+      "target": "astral-sh/ruff-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "kislyuk/argcomplete",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "kislyuk/argcomplete",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "kislyuk/argcomplete",
+      "target": "pypa/gh-action-pypi-publish@release/v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "kislyuk/argcomplete",
+      "target": "Publish release to PyPI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kislyuk/argcomplete",
+      "target": "argparse",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kislyuk/argcomplete",
+      "target": "bash",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kislyuk/argcomplete",
+      "target": "bash-completion",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kislyuk/argcomplete",
+      "target": "tab-completion",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kislyuk/argcomplete",
+      "target": "zsh-completion",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T01:59:09.893961+00:00",
+  "fetched_files": [
+    {
+      "path": "README.rst",
+      "size": 14960
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 2463
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 1446
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "size": 490
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Python and tab completion, better together.",
+    "fork": false,
+    "full_name": "kislyuk/argcomplete",
+    "html_url": "https://github.com/kislyuk/argcomplete",
+    "language": "Python",
+    "pushed_at": "2026-04-02T04:22:04Z",
+    "stargazers_count": 1562,
+    "topics": [
+      "argparse",
+      "bash",
+      "bash-completion",
+      "python",
+      "tab-completion",
+      "zsh",
+      "zsh-completion"
+    ],
+    "updated_at": "2026-04-27T05:25:46Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Publish release to PyPI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "term": "Publish release to PyPI"
+    },
+    {
+      "context_snippet": "argcomplete - Bash/zsh tab completion for argparse",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "argparse"
+    },
+    {
+      "context_snippet": "argcomplete - Bash/zsh tab completion for argparse",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bash"
+    },
+    {
+      "context_snippet": "argcomplete - Bash/zsh tab completion for argparse",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bash-completion"
+    },
+    {
+      "context_snippet": "argcomplete - Bash/zsh tab completion for argparse",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tab-completion"
+    },
+    {
+      "context_snippet": "argcomplete - Bash/zsh tab completion for argparse",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "zsh-completion"
+    }
+  ]
+}

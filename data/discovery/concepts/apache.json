@@ -163,6 +163,42 @@
       "source_repo": "apache/seatunnel-tools",
       "status": "candidate-context",
       "text": "**English** | [\u4e2d\u6587](README_CN.md)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apache/hudi-rs",
+      "status": "candidate-context",
+      "text": "The native Rust implementation for Apache Hudi, with C++ & Python API bindings."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/hudi-rs",
+      "status": "candidate-context",
+      "text": "<!--"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apache/logging-log4j2",
+      "status": "candidate-context",
+      "text": "Apache Log4j is a versatile, feature-rich, efficient logging API and backend for Java."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/logging-log4j2",
+      "status": "candidate-context",
+      "text": "{ \"dependencies\": { \"@antora/cli\": \"^3.2.0-alpha.4\", \"@antora/site-generator-default\": \"^3.2.0-alpha.4\", \"@asciidoctor/tabs\": \"^1.0.0-beta.6\", \"asciidoctor-kroki\": \"^0.18.1\", \"fast-xml-parser\": \"^5.0.6\", \"handlebars\": \"^4.7.8\" } }"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apache/seatunnel-web",
+      "status": "candidate-context",
+      "text": "SeaTunnel is a distributed, high-performance data integration platform for the synchronization and transformation of massive data (offline & real-time)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/seatunnel-web",
+      "status": "candidate-context",
+      "text": "<img src=\"https://seatunnel.apache.org/image/logo.png\" alt=\"seatunnel logo\" height=\"200px\" align=\"right\" />"
     }
   ],
   "candidate_glosses": [
@@ -243,6 +279,24 @@
       "source_repo": "apache/seatunnel-tools",
       "status": "candidate",
       "text": "**English** | [\u4e2d\u6587](README_CN.md)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/hudi-rs",
+      "status": "candidate",
+      "text": "<!--"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/logging-log4j2",
+      "status": "candidate",
+      "text": "{ \"dependencies\": { \"@antora/cli\": \"^3.2.0-alpha.4\", \"@antora/site-generator-default\": \"^3.2.0-alpha.4\", \"@asciidoctor/tabs\": \"^1.0.0-beta.6\", \"asciidoctor-kroki\": \"^0.18.1\", \"fast-xml-parser\": \"^5.0.6\", \"handlebars\": \"^4.7.8\" } }"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/seatunnel-web",
+      "status": "candidate",
+      "text": "<img src=\"https://seatunnel.apache.org/image/logo.png\" alt=\"seatunnel logo\" height=\"200px\" align=\"right\" />"
     }
   ],
   "candidate_related_terms": [
@@ -394,11 +448,35 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "apache/seatunnel-tools"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "apache/casbin"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "apache/hudi-rs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "apache/logging-log4j2"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "apache/seatunnel-web"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

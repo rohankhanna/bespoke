@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Update Apollo Protobuf"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apollographql/router",
+      "status": "candidate-context",
+      "text": "A configurable, high-performance routing runtime for Apollo Federation \ud83d\ude80"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apollographql/router",
+      "status": "candidate-context",
+      "text": "Update Apollo Protobuf"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apollographql/router",
+      "status": "candidate",
+      "text": "Update Apollo Protobuf"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10473,
+      "status": "candidate",
+      "text": "fit"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10473,
+      "status": "candidate",
+      "text": "fitted"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10473,
+      "status": "candidate",
+      "text": "gleamy"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10473,
+      "status": "candidate",
+      "text": "saturnalia"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10442,
+      "status": "candidate",
+      "text": "diana"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Update Apollo Protobuf",
+  "concept_id": "update-apollo-protobuf",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/update_apollo_protobuf.yaml",
+      "source_repo": "apollographql/router"
+    }
+  ],
+  "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Update Apollo Protobuf",
+      "sense_id": "update-apollo-protobuf#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

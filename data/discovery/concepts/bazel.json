@@ -454,6 +454,54 @@
       "source_repo": "grailbio/rules_r",
       "status": "candidate-context",
       "text": "- [Overview](#overview)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "AcademySoftwareFoundation/openexr",
+      "status": "candidate-context",
+      "text": "The OpenEXR project provides the specification and reference implementation of the EXR file format, the professional-grade image storage format of the motion picture industry."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AcademySoftwareFoundation/openexr",
+      "status": "candidate-context",
+      "text": "Bazel"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bazelbuild/tulsi",
+      "status": "candidate-context",
+      "text": "An Xcode Project Generator For Bazel "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bazelbuild/tulsi",
+      "status": "candidate-context",
+      "text": "**This repository is no longer maintained.**"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bazel-contrib/rules_foreign_cc",
+      "status": "candidate-context",
+      "text": "Build rules for interfacing with \"foreign\" (non-Bazel) build systems (CMake, configure-make, GNU Make, boost, ninja, Meson)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bazel-contrib/rules_foreign_cc",
+      "status": "candidate-context",
+      "text": "[![Build status](https://badge.buildkite.com/c28afbf846e2077715c753dda1f4b820cdcc46cc6cde16503c.svg?branch=main)](https://buildkite.com/bazel/rules-foreign-cc?branch=main)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bazelbuild/platforms",
+      "status": "candidate-context",
+      "text": "Constraint values for specifying platforms and toolchains"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bazelbuild/platforms",
+      "status": "candidate-context",
+      "text": "This repository houses all canonical"
     }
   ],
   "candidate_glosses": [
@@ -678,6 +726,30 @@
       "source_repo": "grailbio/rules_r",
       "status": "candidate",
       "text": "- [Overview](#overview)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AcademySoftwareFoundation/openexr",
+      "status": "candidate",
+      "text": "Bazel"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bazelbuild/tulsi",
+      "status": "candidate",
+      "text": "**This repository is no longer maintained.**"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bazel-contrib/rules_foreign_cc",
+      "status": "candidate",
+      "text": "[![Build status](https://badge.buildkite.com/c28afbf846e2077715c753dda1f4b820cdcc46cc6cde16503c.svg?branch=main)](https://buildkite.com/bazel/rules-foreign-cc?branch=main)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bazelbuild/platforms",
+      "status": "candidate",
+      "text": "This repository houses all canonical"
     }
   ],
   "candidate_related_terms": [
@@ -973,11 +1045,47 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "grailbio/rules_r"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/bazel_build.yml",
+      "source_repo": "AcademySoftwareFoundation/openexr"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "bazel-contrib/rules_jvm_external"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "bazel-contrib/rules_go"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "bazelbuild/tulsi"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "bazel-contrib/rules_foreign_cc"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "bazelbuild/platforms"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

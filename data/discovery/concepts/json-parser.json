@@ -103,6 +103,30 @@
       "source_repo": "devinus/poison",
       "status": "candidate-context",
       "text": "[![Build Status](https://img.shields.io/github/actions/workflow/status/devinus/poison/ci.yml)](https://github.com/devinus/poison/actions/workflows/ci.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "crazyxman/simdjson_php",
+      "status": "candidate-context",
+      "text": "simdjson_php bindings for the simdjson project. https://github.com/lemire/simdjson"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "crazyxman/simdjson_php",
+      "status": "candidate-context",
+      "text": "simdjson_php bindings for the [simdjson project](https://github.com/lemire/simdjson)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ruby/json",
+      "status": "candidate-context",
+      "text": "JSON implementation for Ruby"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ruby/json",
+      "status": "candidate-context",
+      "text": "[![CI](https://github.com/ruby/json/actions/workflows/ci.yml/badge.svg)](https://github.com/ruby/json/actions/workflows/ci.yml)"
     }
   ],
   "candidate_glosses": [
@@ -153,6 +177,18 @@
       "source_repo": "devinus/poison",
       "status": "candidate",
       "text": "[![Build Status](https://img.shields.io/github/actions/workflow/status/devinus/poison/ci.yml)](https://github.com/devinus/poison/actions/workflows/ci.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "crazyxman/simdjson_php",
+      "status": "candidate",
+      "text": "simdjson_php bindings for the [simdjson project](https://github.com/lemire/simdjson)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ruby/json",
+      "status": "candidate",
+      "text": "[![CI](https://github.com/ruby/json/actions/workflows/ci.yml/badge.svg)](https://github.com/ruby/json/actions/workflows/ci.yml)"
     }
   ],
   "candidate_related_terms": [],
@@ -214,11 +250,29 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "simdjson/simdjson"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "crazyxman/simdjson_php"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "ruby/json"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "simdjson/simdjson"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

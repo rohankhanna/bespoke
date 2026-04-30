@@ -1,0 +1,124 @@
+{
+  "aliases": [
+    "Relay bugs for cross-repo investigation"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ClickHouse/clickhouse-java",
+      "status": "candidate-context",
+      "text": "ClickHouse Java Clients & JDBC Driver"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ClickHouse/clickhouse-java",
+      "status": "candidate-context",
+      "text": "Relay bugs for cross-repo investigation"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ClickHouse/clickhouse-rs",
+      "status": "candidate-context",
+      "text": "Official pure Rust typed client for ClickHouse DB"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ClickHouse/clickhouse-rs",
+      "status": "candidate-context",
+      "text": "Relay bugs for cross-repo investigation"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ClickHouse/clickhouse-java",
+      "status": "candidate",
+      "text": "Relay bugs for cross-repo investigation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ClickHouse/clickhouse-rs",
+      "status": "candidate",
+      "text": "Relay bugs for cross-repo investigation"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18141,
+      "status": "candidate",
+      "text": "bugged"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18141,
+      "status": "candidate",
+      "text": "bugging"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18141,
+      "status": "candidate",
+      "text": "nug"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18072,
+      "status": "candidate",
+      "text": "hibernaculum"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18045,
+      "status": "candidate",
+      "text": "err"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Relay bugs for cross-repo investigation",
+  "concept_id": "relay-bugs-for-cross-repo-investigation",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/cross-repo-bug-relay.yml",
+      "source_repo": "ClickHouse/clickhouse-java"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/cross-repo-bug-relay.yml",
+      "source_repo": "ClickHouse/clickhouse-rs"
+    }
+  ],
+  "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Relay bugs for cross-repo investigation",
+      "sense_id": "relay-bugs-for-cross-repo-investigation#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

@@ -19,6 +19,18 @@
       "source_repo": "danielrosehill/AI-Geopol-Projects",
       "status": "candidate-context",
       "text": "A curated list of projects using AI, LLMs, and multi-agent systems for geopolitical wargaming, policy simulation, conflict modeling, and strategic forecasting."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "danielrosehill/Experiments-And-Evaluations-Index",
+      "status": "candidate-context",
+      "text": "Index of repositories concerning AI evaluations and experiments"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "danielrosehill/Experiments-And-Evaluations-Index",
+      "status": "candidate-context",
+      "text": "![Index](https://img.shields.io/badge/Type-Index-2ea44f?style=for-the-badge)"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "danielrosehill/AI-Geopol-Projects",
       "status": "candidate",
       "text": "A curated list of projects using AI, LLMs, and multi-agent systems for geopolitical wargaming, policy simulation, conflict modeling, and strategic forecasting."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "danielrosehill/Experiments-And-Evaluations-Index",
+      "status": "candidate",
+      "text": "![Index](https://img.shields.io/badge/Type-Index-2ea44f?style=for-the-badge)"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-22T01:04:16.609102+00:00",
       "source_file": null,
       "source_repo": "danielrosehill/AI-Geopol-Projects"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "danielrosehill/Experiments-And-Evaluations-Index"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

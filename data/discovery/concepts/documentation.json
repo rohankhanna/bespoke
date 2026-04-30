@@ -976,6 +976,186 @@
       "source_repo": "plone/cookieplone",
       "status": "candidate-context",
       "text": "Documentation"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "iterative/shtab",
+      "status": "candidate-context",
+      "text": "\u2194\ufe0f Automagic shell tab completion for Python CLI applications"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "iterative/shtab",
+      "status": "candidate-context",
+      "text": "|Logo|"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "k8s-operatorhub/community-operators",
+      "status": "candidate-context",
+      "text": "The canonical source for Kubernetes Operators that are published on OperatorHub.io and part of the default catalog of the Operator Lifecycle Manager."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "k8s-operatorhub/community-operators",
+      "status": "candidate-context",
+      "text": "\"Documentation\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "open-edge-platform/geti-instant-learn",
+      "status": "candidate-context",
+      "text": " A modular framework for few-shot visual segmentation using visual prompting techniques. Enables easy experimentation with different algorithms, backbones (SAM, MobileSAM, DinoV2), and pipeline components for finding and segmenting objects from just a few examples. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "open-edge-platform/geti-instant-learn",
+      "status": "candidate-context",
+      "text": "documentation"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "plotly/graphing-library-docs",
+      "status": "candidate-context",
+      "text": "Plotly's graphing libraries documentation. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "plotly/graphing-library-docs",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "urwid/urwid",
+      "status": "candidate-context",
+      "text": "Console user interface library for Python (official repo)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "urwid/urwid",
+      "status": "candidate-context",
+      "text": "Documentation"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mozilla-ai/any-agent",
+      "status": "candidate-context",
+      "text": "A single interface to use and evaluate different agent frameworks "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mozilla-ai/any-agent",
+      "status": "candidate-context",
+      "text": "Documentation"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "optuna/optunahub",
+      "status": "candidate-context",
+      "text": "Python library to use and implement packages in OptunaHub"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "optuna/optunahub",
+      "status": "candidate-context",
+      "text": "Documentation"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bghira/SimpleTuner",
+      "status": "candidate-context",
+      "text": "A general fine-tuning kit geared toward image/video/audio diffusion models."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bghira/SimpleTuner",
+      "status": "candidate-context",
+      "text": "Documentation"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "artsy/README",
+      "status": "candidate-context",
+      "text": ":wave: - The documentation for being an Artsy Engineer"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "artsy/README",
+      "status": "candidate-context",
+      "text": "Welcome to Artsy! If you're a new team member, we're excited to have you! Here are your [onboarding docs](/onboarding#readme)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jpedroschmitz/gatsby-starter-rocketdocs",
+      "status": "candidate-context",
+      "text": "The documentation starter you were looking for \u26a1\ufe0f"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jpedroschmitz/gatsby-starter-rocketdocs",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JuliaCI/BenchmarkTools.jl",
+      "status": "candidate-context",
+      "text": "A benchmarking framework for the Julia language"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaCI/BenchmarkTools.jl",
+      "status": "candidate-context",
+      "text": "Documentation"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "awsdocs/aws-doc-sdk-examples",
+      "status": "candidate-context",
+      "text": "Welcome to the AWS Code Examples Repository.  This repo contains code examples used in the AWS documentation, AWS SDK Developer Guides, and more. For more information, see the Readme.md file below."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "awsdocs/aws-doc-sdk-examples",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://github.com/aws/aws-sdk-ruby/workflows/CI/badge.svg)](https://github.com/awsdocs/aws-doc-sdk-examples/actions)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kahliburke/Kaimon.jl",
+      "status": "candidate-context",
+      "text": "MCP server giving AI agents full access to Julia's runtime via a live Gate \u2014 code execution, introspection, debugging, testing, and semantic search"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kahliburke/Kaimon.jl",
+      "status": "candidate-context",
+      "text": "Documentation"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "danielrosehill/AI-Developer-Notebook",
+      "status": "candidate-context",
+      "text": "Notes for configuring a reference notebook with Claude Code"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "danielrosehill/AI-Developer-Notebook",
+      "status": "candidate-context",
+      "text": "[![Claude Code](https://img.shields.io/badge/Claude_Code-Project-8A2BE2?logo=anthropic)](https://claude.ai/code)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "huggingface/lerobot",
+      "status": "candidate-context",
+      "text": "\ud83e\udd17 LeRobot: Making AI for Robotics more accessible with end-to-end learning"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "huggingface/lerobot",
+      "status": "candidate-context",
+      "text": "Documentation"
     }
   ],
   "candidate_glosses": [
@@ -1468,6 +1648,96 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "plone/cookieplone",
+      "status": "candidate",
+      "text": "Documentation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "iterative/shtab",
+      "status": "candidate",
+      "text": "|Logo|"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "k8s-operatorhub/community-operators",
+      "status": "candidate",
+      "text": "\"Documentation\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "open-edge-platform/geti-instant-learn",
+      "status": "candidate",
+      "text": "documentation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "plotly/graphing-library-docs",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "urwid/urwid",
+      "status": "candidate",
+      "text": "Documentation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mozilla-ai/any-agent",
+      "status": "candidate",
+      "text": "Documentation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "optuna/optunahub",
+      "status": "candidate",
+      "text": "Documentation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bghira/SimpleTuner",
+      "status": "candidate",
+      "text": "Documentation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "artsy/README",
+      "status": "candidate",
+      "text": "Welcome to Artsy! If you're a new team member, we're excited to have you! Here are your [onboarding docs](/onboarding#readme)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jpedroschmitz/gatsby-starter-rocketdocs",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaCI/BenchmarkTools.jl",
+      "status": "candidate",
+      "text": "Documentation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "awsdocs/aws-doc-sdk-examples",
+      "status": "candidate",
+      "text": "[![Build Status](https://github.com/aws/aws-sdk-ruby/workflows/CI/badge.svg)](https://github.com/awsdocs/aws-doc-sdk-examples/actions)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kahliburke/Kaimon.jl",
+      "status": "candidate",
+      "text": "Documentation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "danielrosehill/AI-Developer-Notebook",
+      "status": "candidate",
+      "text": "[![Claude Code](https://img.shields.io/badge/Claude_Code-Project-8A2BE2?logo=anthropic)](https://claude.ai/code)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "huggingface/lerobot",
       "status": "candidate",
       "text": "Documentation"
     }
@@ -2136,11 +2406,131 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": ".github/workflows/docs.yml",
       "source_repo": "plone/cookieplone"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "atom/flight-manual.atom.io"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "iterative/shtab"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/documentation.yaml",
+      "source_repo": "k8s-operatorhub/community-operators"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/documentation.yml",
+      "source_repo": "open-edge-platform/geti-instant-learn"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/documentation.yml",
+      "source_repo": "pyg-team/pytorch_geometric"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "plotly/graphing-library-docs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/documentation.yml",
+      "source_repo": "urwid/urwid"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/docs.yaml",
+      "source_repo": "mozilla-ai/any-agent"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/documentation.yml",
+      "source_repo": "triton-lang/triton"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "clayrisser/sphinx-jekyll-builder"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/documentation.yml",
+      "source_repo": "web-platform-tests/wpt"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/github-pages.yaml",
+      "source_repo": "optuna/optunahub"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "bghira/SimpleTuner"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "artsy/README"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "jpedroschmitz/gatsby-starter-rocketdocs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/Documentation.yml",
+      "source_repo": "JuliaCI/BenchmarkTools.jl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "awsdocs/aws-doc-sdk-examples"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/Docs.yml",
+      "source_repo": "kahliburke/Kaimon.jl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "danielrosehill/AI-Developer-Notebook"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/documentation.yml",
+      "source_repo": "huggingface/lerobot"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T02:44:49.011417+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6423
+    },
+    {
+      "path": "requirements.txt",
+      "size": 132
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Official implementation of \"Video Object Segmentation with Adaptive Feature Bank and Uncertain-Region Refinement\", NeurIPS 2020.",
+    "fork": false,
+    "full_name": "xmlyqing00/AFB-URR",
+    "html_url": "https://github.com/xmlyqing00/AFB-URR",
+    "language": "Python",
+    "pushed_at": "2025-11-08T17:52:55Z",
+    "stargazers_count": 103,
+    "topics": [],
+    "updated_at": "2025-11-14T10:12:02Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

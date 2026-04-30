@@ -351,6 +351,18 @@
       "source_repo": "ViTAE-Transformer/APTv2",
       "status": "candidate-context",
       "text": "This repo is the official implementation of [\"APTv2: Benchmarking Animal Pose Estimation and Tracking with a Large-scale Dataset and Beyond\"](https://arxiv.org/pdf/2312.15612)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "microsoft/monitors4codegen",
+      "status": "candidate-context",
+      "text": "Code and Data artifact for NeurIPS 2023 paper - \"Monitor-Guided Decoding of Code LMs with Static Analysis of Repository Context\". `multispy` is a lsp client library in Python intended to be used to build applications around language servers."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/monitors4codegen",
+      "status": "candidate-context",
+      "text": "Alternative title: Guiding Language Models of Code with Global Context using Monitors"
     }
   ],
   "candidate_glosses": [
@@ -527,6 +539,12 @@
       "source_repo": "ViTAE-Transformer/APTv2",
       "status": "candidate",
       "text": "This repo is the official implementation of [\"APTv2: Benchmarking Animal Pose Estimation and Tracking with a Large-scale Dataset and Beyond\"](https://arxiv.org/pdf/2312.15612)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/monitors4codegen",
+      "status": "candidate",
+      "text": "Alternative title: Guiding Language Models of Code with Global Context using Monitors"
     }
   ],
   "candidate_related_terms": [
@@ -750,11 +768,17 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "thorstenMueller/Thorsten-Voice"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "microsoft/monitors4codegen"
     }
   ],
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

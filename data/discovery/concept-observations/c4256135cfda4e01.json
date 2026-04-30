@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "hub.quarkiverse.io - Repository for contributing to quarkiverse wiki"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "sync-wiki"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "sync-wiki"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "sync-wiki",
+      "sense_id": "sync-wiki#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "sync-wiki",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "sync-wiki",
+  "observation_id": "c4256135cfda4e01",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-30T00:37:16.824464+00:00",
+  "observed_text": "sync-wiki",
+  "source_context_snippet": "sync-wiki",
+  "source_file": ".github/workflows/wikisync.yml",
+  "source_repo": "quarkiverse/quarkiverse",
+  "source_repo_description": "hub.quarkiverse.io - Repository for contributing to quarkiverse wiki"
+}

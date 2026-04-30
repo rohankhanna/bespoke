@@ -1,0 +1,27 @@
+{
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-data.yml",
+      "source_repo": "haya14busa/github-used-by",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-data.yml",
+      "source_repo": "haya14busa/github-used-by",
+      "target": "aquaproj/aqua-installer@v0.6.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/update-data.yml",
+      "source_repo": "haya14busa/github-used-by",
+      "target": "Update data",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-30T00:37:16.824464+00:00",
+  "source_repo": "haya14busa/github-used-by"
+}

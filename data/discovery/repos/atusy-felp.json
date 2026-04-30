@@ -1,0 +1,203 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/R-CMD-check.yaml"
+    },
+    {
+      "component": "r-lib/actions/setup-pandoc@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/R-CMD-check.yaml"
+    },
+    {
+      "component": "r-lib/actions/setup-r@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/R-CMD-check.yaml"
+    },
+    {
+      "component": "r-lib/actions/setup-r-dependencies@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/R-CMD-check.yaml"
+    },
+    {
+      "component": "r-lib/actions/check-r-package@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/R-CMD-check.yaml"
+    },
+    {
+      "component": "r-hub/actions/setup@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rhub.yaml"
+    },
+    {
+      "component": "r-hub/actions/checkout@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rhub.yaml"
+    },
+    {
+      "component": "r-hub/actions/platform-info@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rhub.yaml"
+    },
+    {
+      "component": "r-hub/actions/setup-deps@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rhub.yaml"
+    },
+    {
+      "component": "r-hub/actions/run-check@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rhub.yaml"
+    },
+    {
+      "component": "r-hub/actions/checkout@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rhub.yaml"
+    },
+    {
+      "component": "r-hub/actions/setup-r@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rhub.yaml"
+    },
+    {
+      "component": "r-hub/actions/platform-info@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rhub.yaml"
+    },
+    {
+      "component": "r-hub/actions/setup-deps@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rhub.yaml"
+    },
+    {
+      "component": "r-hub/actions/run-check@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rhub.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/R-CMD-check.yaml",
+      "source_repo": "atusy/felp",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/R-CMD-check.yaml",
+      "source_repo": "atusy/felp",
+      "target": "r-lib/actions/setup-pandoc@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/R-CMD-check.yaml",
+      "source_repo": "atusy/felp",
+      "target": "r-lib/actions/setup-r@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/R-CMD-check.yaml",
+      "source_repo": "atusy/felp",
+      "target": "r-lib/actions/setup-r-dependencies@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/R-CMD-check.yaml",
+      "source_repo": "atusy/felp",
+      "target": "r-lib/actions/check-r-package@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rhub.yaml",
+      "source_repo": "atusy/felp",
+      "target": "r-hub/actions/setup@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rhub.yaml",
+      "source_repo": "atusy/felp",
+      "target": "r-hub/actions/checkout@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rhub.yaml",
+      "source_repo": "atusy/felp",
+      "target": "r-hub/actions/platform-info@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rhub.yaml",
+      "source_repo": "atusy/felp",
+      "target": "r-hub/actions/setup-deps@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rhub.yaml",
+      "source_repo": "atusy/felp",
+      "target": "r-hub/actions/run-check@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rhub.yaml",
+      "source_repo": "atusy/felp",
+      "target": "r-hub/actions/setup-r@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/rhub.yaml",
+      "source_repo": "atusy/felp",
+      "target": "R-hub",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T04:12:50.354292+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2467
+    },
+    {
+      "path": ".github/workflows/R-CMD-check.yaml",
+      "size": 1425
+    },
+    {
+      "path": ".github/workflows/rhub.yaml",
+      "size": 2942
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Functional Help for Functions, Objects, and Packages",
+    "fork": false,
+    "full_name": "atusy/felp",
+    "html_url": "https://github.com/atusy/felp",
+    "language": "R",
+    "pushed_at": "2024-10-31T01:34:41Z",
+    "stargazers_count": 23,
+    "topics": [],
+    "updated_at": "2025-10-26T17:50:26Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "R-hub",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/rhub.yaml",
+      "term": "R-hub"
+    }
+  ]
+}

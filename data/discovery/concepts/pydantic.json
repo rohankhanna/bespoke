@@ -79,6 +79,18 @@
       "source_repo": "pydantic/pydantic",
       "status": "candidate-context",
       "text": "[![CI](https://img.shields.io/github/actions/workflow/status/pydantic/pydantic/ci.yml?branch=main&logo=github&label=CI)](https://github.com/pydantic/pydantic/actions?query=event%3Apush+branch%3Amain+workflow%3ACI)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pydantic/hooky",
+      "status": "candidate-context",
+      "text": "Productivity tools for popular open source repos, used by pydantic"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pydantic/hooky",
+      "status": "candidate-context",
+      "text": "[![CI](https://github.com/pydantic/hooky/workflows/CI/badge.svg?event=push)](https://github.com/pydantic/hooky/actions?query=event%3Apush+branch%3Amain+workflow%3ACI)"
     }
   ],
   "candidate_glosses": [
@@ -117,6 +129,12 @@
       "source_repo": "pydantic/pydantic",
       "status": "candidate",
       "text": "[![CI](https://img.shields.io/github/actions/workflow/status/pydantic/pydantic/ci.yml?branch=main&logo=github&label=CI)](https://github.com/pydantic/pydantic/actions?query=event%3Apush+branch%3Amain+workflow%3ACI)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pydantic/hooky",
+      "status": "candidate",
+      "text": "[![CI](https://github.com/pydantic/hooky/workflows/CI/badge.svg?event=push)](https://github.com/pydantic/hooky/actions?query=event%3Apush+branch%3Amain+workflow%3ACI)"
     }
   ],
   "candidate_related_terms": [],
@@ -190,11 +208,47 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "pydantic/pydantic"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "langchain-ai/langchain"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "redis/redis-om-python"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "fastapi/fastapi"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "docarray/docarray"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "pydantic/hooky"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "pydantic/pydantic"
     }
   ],
   "first_seen_at": "2026-04-18T11:56:18.570627+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

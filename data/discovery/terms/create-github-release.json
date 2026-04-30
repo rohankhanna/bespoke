@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
@@ -81,6 +81,41 @@
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/create-github-release.yml",
       "source_repo": "oclif/core"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/github_release.yml",
+      "source_repo": "clojure-emacs/refactor-nrepl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/github_release.yml",
+      "source_repo": "clojure-emacs/clojure-ts-mode"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/github-release.yml",
+      "source_repo": "nrepl/nrepl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/github_release.yml",
+      "source_repo": "clojure-emacs/orchard"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "copilot-emacs/copilot.el"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/create-github-release.yml",
+      "source_repo": "oclif/oclif"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/create-github-release.yml",
+      "source_repo": "oclif/plugin-update"
     }
   ],
   "term": "Create GitHub release"

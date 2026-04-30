@@ -1,0 +1,149 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "CrazyBoyM/llama3-Chinese-chat",
+      "target": "crazyboym/llm-chinese",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "CrazyBoyM/llama3-Chinese-chat",
+      "target": "cooper12121/llama3-8x8b-moe",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "CrazyBoyM/llama3-Chinese-chat",
+      "target": "chg0901/llama3-chinese-chat",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "CrazyBoyM/llama3-Chinese-chat",
+      "target": "datawhalechina/self-llm",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "CrazyBoyM/llama3-Chinese-chat",
+      "target": "llama",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "CrazyBoyM/llama3-Chinese-chat",
+      "target": "llama2",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "CrazyBoyM/llama3-Chinese-chat",
+      "target": "llama3",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "CrazyBoyM/llama3-Chinese-chat",
+      "target": "llama3-chinese",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "CrazyBoyM/llama3-Chinese-chat",
+      "target": "llama3-finetune",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T02:50:08.221074+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 29671
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Llama3\u3001Llama3.1 \u4e2d\u6587\u540e\u8bad\u7ec3\u7248\u4ed3\u5e93 - \u5fae\u8c03\u3001\u9b54\u6539\u7248\u672c\u6709\u8da3\u6743\u91cd & \u8bad\u7ec3\u3001\u63a8\u7406\u3001\u8bc4\u6d4b\u3001\u90e8\u7f72\u6559\u7a0b\u89c6\u9891 & \u6587\u6863\u3002",
+    "fork": false,
+    "full_name": "CrazyBoyM/llama3-Chinese-chat",
+    "html_url": "https://github.com/CrazyBoyM/llama3-Chinese-chat",
+    "language": "Python",
+    "pushed_at": "2026-02-21T08:22:18Z",
+    "stargazers_count": 4163,
+    "topics": [
+      "llama",
+      "llama2",
+      "llama3",
+      "llama3-chinese",
+      "llama3-finetune"
+    ],
+    "updated_at": "2026-04-29T12:38:48Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "chg0901/llama3-chinese-chat",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cooper12121/llama3-8x8b-moe",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "crazyboym/llm-chinese",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "datawhalechina/self-llm",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[![HF Demo](https://img.shields.io/static/v1?label=Demo&message=OpenBayes%E8%B4%9D%E5%BC%8F%E8%AE%A1%E7%AE%97&color=green)](https://openbayes.com/console/hyperai-tutorials/containers/EzsoQaZB8LA) &ensp;",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "llama"
+    },
+    {
+      "context_snippet": "[![HF Demo](https://img.shields.io/static/v1?label=Demo&message=OpenBayes%E8%B4%9D%E5%BC%8F%E8%AE%A1%E7%AE%97&color=green)](https://openbayes.com/console/hyperai-tutorials/containers/EzsoQaZB8LA) &ensp;",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "llama2"
+    },
+    {
+      "context_snippet": "[![HF Demo](https://img.shields.io/static/v1?label=Demo&message=OpenBayes%E8%B4%9D%E5%BC%8F%E8%AE%A1%E7%AE%97&color=green)](https://openbayes.com/console/hyperai-tutorials/containers/EzsoQaZB8LA) &ensp;",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "llama3"
+    },
+    {
+      "context_snippet": "[![HF Demo](https://img.shields.io/static/v1?label=Demo&message=OpenBayes%E8%B4%9D%E5%BC%8F%E8%AE%A1%E7%AE%97&color=green)](https://openbayes.com/console/hyperai-tutorials/containers/EzsoQaZB8LA) &ensp;",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "llama3-chinese"
+    },
+    {
+      "context_snippet": "[![HF Demo](https://img.shields.io/static/v1?label=Demo&message=OpenBayes%E8%B4%9D%E5%BC%8F%E8%AE%A1%E7%AE%97&color=green)](https://openbayes.com/console/hyperai-tutorials/containers/EzsoQaZB8LA) &ensp;",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "llama3-finetune"
+    }
+  ]
+}

@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Agent-centric social network and interoperability dApp framework"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "File Storage"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "File Storage"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 53439,
+      "status": "candidate",
+      "text": "file system"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 53438,
+      "status": "candidate",
+      "text": "file server"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 53437,
+      "status": "candidate",
+      "text": "virtual storage"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 53436,
+      "status": "candidate",
+      "text": "computer file"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 53435,
+      "status": "candidate",
+      "text": "filesystem"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "File Storage",
+      "sense_id": "file-storage#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "file-storage",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "file-storage",
+  "observation_id": "da4251149e35dd94",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-30T00:37:16.824464+00:00",
+  "observed_text": "File Storage",
+  "source_context_snippet": "File Storage",
+  "source_file": ".github/workflows/file-storage-language-tests.yml",
+  "source_repo": "coasys/ad4m",
+  "source_repo_description": "Agent-centric social network and interoperability dApp framework"
+}

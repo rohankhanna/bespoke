@@ -1,0 +1,55 @@
+{
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/profiles-initialize.yml",
+      "source_repo": "iterate-ch/profiles",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/profiles-initialize.yml",
+      "source_repo": "iterate-ch/profiles",
+      "target": "Initialize connection profiles",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/profiles-sanity-check.yml",
+      "source_repo": "iterate-ch/profiles",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/profiles-sanity-check.yml",
+      "source_repo": "iterate-ch/profiles",
+      "target": "Sanity check profiles",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/profiles-sync.yml",
+      "source_repo": "iterate-ch/profiles",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/profiles-sync.yml",
+      "source_repo": "iterate-ch/profiles",
+      "target": "Synchronize connection profiles",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "iterate-ch/profiles",
+      "target": "cyberduck",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-30T00:37:16.824464+00:00",
+  "source_repo": "iterate-ch/profiles"
+}

@@ -181,6 +181,13 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "nvm-sh/nvm",
+      "target": "nvm-sh/logos",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "nvm-sh/nvm",
       "target": "marcelklehr/nodist",
       "target_type": "repository"
     },
@@ -189,13 +196,6 @@
       "source_file": "README.md",
       "source_repo": "nvm-sh/nvm",
       "target": "brigand/fast-nvm-fish",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "nvm-sh/nvm",
-      "target": "mhart/alpine-node",
       "target_type": "repository"
     },
     {
@@ -500,7 +500,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-29T21:01:43.424279+00:00",
+  "fetched_at": "2026-04-30T03:00:10.180699+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -553,7 +553,7 @@
     "html_url": "https://github.com/nvm-sh/nvm",
     "language": "Shell",
     "pushed_at": "2026-04-24T18:05:27Z",
-    "stargazers_count": 93146,
+    "stargazers_count": 93151,
     "topics": [
       "bash",
       "install",
@@ -569,7 +569,7 @@
       "version-manager",
       "zsh"
     ],
-    "updated_at": "2026-04-29T19:24:21Z"
+    "updated_at": "2026-04-30T02:57:16Z"
   },
   "repo_links": [
     {
@@ -589,7 +589,7 @@
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "mhart/alpine-node",
+      "full_name": "nvm-sh/logos",
       "source_file": "README.md"
     }
   ],

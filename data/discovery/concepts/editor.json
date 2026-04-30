@@ -103,6 +103,42 @@
       "source_repo": "dart4e/dart4e-studio",
       "status": "candidate-context",
       "text": "[![Build Status](https://img.shields.io/github/actions/workflow/status/dart4e/dart4e-studio/build.yml?logo=github)](https://github.com/dart4e/dart4e-studio/actions/workflows/build.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "emacs-evil/evil",
+      "status": "candidate-context",
+      "text": "The extensible vi layer for Emacs."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "emacs-evil/evil",
+      "status": "candidate-context",
+      "text": "![An extensible vi layer for Emacs](https://raw.githubusercontent.com/emacs-evil/evil/master/doc/logo.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "NickeManarin/ScreenToGif",
+      "status": "candidate-context",
+      "text": "\ud83c\udfac ScreenToGif allows you to record a selected area of your screen, edit and save it as a gif or video."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NickeManarin/ScreenToGif",
+      "status": "candidate-context",
+      "text": "<div align=\"center\" markdown=\"1\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "2KAbhishek/tdo.nvim",
+      "status": "candidate-context",
+      "text": "Fast & Simple Notes in Neovim \ud83d\udcc3\ud83d\ude80"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "2KAbhishek/tdo.nvim",
+      "status": "candidate-context",
+      "text": "<div align = \"center\">"
     }
   ],
   "candidate_glosses": [
@@ -153,6 +189,24 @@
       "source_repo": "dart4e/dart4e-studio",
       "status": "candidate",
       "text": "[![Build Status](https://img.shields.io/github/actions/workflow/status/dart4e/dart4e-studio/build.yml?logo=github)](https://github.com/dart4e/dart4e-studio/actions/workflows/build.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "emacs-evil/evil",
+      "status": "candidate",
+      "text": "![An extensible vi layer for Emacs](https://raw.githubusercontent.com/emacs-evil/evil/master/doc/logo.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NickeManarin/ScreenToGif",
+      "status": "candidate",
+      "text": "<div align=\"center\" markdown=\"1\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "2KAbhishek/tdo.nvim",
+      "status": "candidate",
+      "text": "<div align = \"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -258,11 +312,29 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": null,
       "source_repo": "dart4e/dart4e-studio"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "emacs-evil/evil"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "NickeManarin/ScreenToGif"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "2KAbhishek/tdo.nvim"
     }
   ],
   "first_seen_at": "2026-04-18T11:41:43.530265+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

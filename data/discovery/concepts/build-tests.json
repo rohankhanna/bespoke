@@ -57,6 +57,18 @@
       "source_repo": "hyperledger-solang/solang",
       "status": "candidate-context",
       "text": "Build tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nvpro-samples/stb",
+      "status": "candidate-context",
+      "text": "stb single-file public domain libraries for C/C++"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nvpro-samples/stb",
+      "status": "candidate-context",
+      "text": "Build Tests"
     }
   ],
   "candidate_glosses": [
@@ -83,6 +95,12 @@
       "source_repo": "hyperledger-solang/solang",
       "status": "candidate",
       "text": "Build tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nvpro-samples/stb",
+      "status": "candidate",
+      "text": "Build Tests"
     }
   ],
   "candidate_related_terms": [
@@ -150,11 +168,17 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": ".github/workflows/test.yml",
       "source_repo": "hyperledger-solang/solang"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/cmake-tests.yml",
+      "source_repo": "nvpro-samples/stb"
     }
   ],
   "first_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

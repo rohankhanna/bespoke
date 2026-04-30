@@ -1,0 +1,69 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ansible/community",
+      "target": "ansible-community/presentations",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ansible/community",
+      "target": "ansible-community/collection_bot",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ansible/community",
+      "target": "hacktoberfest",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T01:50:11.576631+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2076
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "main",
+    "description": "This repository is being archived. See https://github.com/ansible-community/presentations and https://github.com/ansible-community/meetings for the new locations",
+    "fork": false,
+    "full_name": "ansible/community",
+    "html_url": "https://github.com/ansible/community",
+    "language": "HTML",
+    "pushed_at": "2024-01-05T20:03:52Z",
+    "stargazers_count": 486,
+    "topics": [
+      "hacktoberfest"
+    ],
+    "updated_at": "2026-03-26T16:20:43Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ansible-community/collection_bot",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ansible-community/presentations",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[![Discuss on Matrix at #community:ansible.com](https://img.shields.io/matrix/community:ansible.com.svg?server_fqdn=ansible-accounts.ems.host&label=Discuss%20on%20Matrix%20at%20%23community:ansible.com&logo=matrix)](https://matrix.to/#/#community:ansible.com)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hacktoberfest"
+    }
+  ]
+}

@@ -361,6 +361,42 @@
       "source_repo": "baichuan-inc/Baichuan2",
       "status": "candidate-context",
       "text": "<!-- markdownlint-disable first-line-h1 -->"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "FuxiaoLiu/LRV-Instruction",
+      "status": "candidate-context",
+      "text": "[ICLR'24] Mitigating Hallucination in Large Multi-Modal Models via Robust Instruction Tuning"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "FuxiaoLiu/LRV-Instruction",
+      "status": "candidate-context",
+      "text": "[Fuxiao Liu](https://fuxiaoliu.github.io/), [Kevin Lin](https://sites.google.com/site/kevinlin311tw/me), [Linjie Li](https://www.microsoft.com/en-us/research/people/linjli/), [Jianfeng Wang](http://jianfengwang.me/), [Yaser Yacoob](https://www.umiacs.umd.edu/people/yaser), [Liju\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "SALT-NLP/LLaVAR",
+      "status": "candidate-context",
+      "text": "Code/Data for the paper: \"LLaVAR: Enhanced Visual Instruction Tuning for Text-Rich Image Understanding\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SALT-NLP/LLaVAR",
+      "status": "candidate-context",
+      "text": "**LLaVAR: Enhanced Visual Instruction Tuning for Text-Rich Image Understanding**"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "tianyi-lab/HallusionBench",
+      "status": "candidate-context",
+      "text": "[CVPR'24] HallusionBench: You See What You Think? Or You Think What You See? An Image-Context Reasoning Benchmark Challenging for GPT-4V(ision), LLaVA-1.5, and Other Multi-modality Models"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tianyi-lab/HallusionBench",
+      "status": "candidate-context",
+      "text": "You See What You Think? Or You Think What You See? An Image-Context Reasoning Benchmark Challenging for GPT-4V(ision), LLaVA-1.5, and Other Multi-modality Models"
     }
   ],
   "candidate_glosses": [
@@ -543,6 +579,24 @@
       "source_repo": "baichuan-inc/Baichuan2",
       "status": "candidate",
       "text": "<!-- markdownlint-disable first-line-h1 -->"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "FuxiaoLiu/LRV-Instruction",
+      "status": "candidate",
+      "text": "[Fuxiao Liu](https://fuxiaoliu.github.io/), [Kevin Lin](https://sites.google.com/site/kevinlin311tw/me), [Linjie Li](https://www.microsoft.com/en-us/research/people/linjli/), [Jianfeng Wang](http://jianfengwang.me/), [Yaser Yacoob](https://www.umiacs.umd.edu/people/yaser), [Liju\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SALT-NLP/LLaVAR",
+      "status": "candidate",
+      "text": "**LLaVAR: Enhanced Visual Instruction Tuning for Text-Rich Image Understanding**"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tianyi-lab/HallusionBench",
+      "status": "candidate",
+      "text": "You See What You Think? Or You Think What You See? An Image-Context Reasoning Benchmark Challenging for GPT-4V(ision), LLaVA-1.5, and Other Multi-modality Models"
     }
   ],
   "candidate_related_terms": [],
@@ -802,11 +856,53 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "baichuan-inc/Baichuan2"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "OpenBMB/RepoAgent"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "FuxiaoLiu/LRV-Instruction"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "SALT-NLP/LLaVAR"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "EvolvingLMMs-Lab/Otter"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "declare-lab/LLM-PuzzleTest"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "f/prompts.chat"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "tianyi-lab/HallusionBench"
     }
   ],
   "first_seen_at": "2026-04-18T12:07:11.500453+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T02:02:49.149337+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2510
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A port of Clojure to the CLR, part of the Clojure project",
+    "fork": false,
+    "full_name": "clojure/clojure-clr",
+    "html_url": "https://github.com/clojure/clojure-clr",
+    "language": "C#",
+    "pushed_at": "2026-04-28T19:55:26Z",
+    "stargazers_count": 1636,
+    "topics": [],
+    "updated_at": "2026-04-29T13:24:01Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

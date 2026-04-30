@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "aaai2024"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cuiziteng/Aleth-NeRF",
+      "status": "candidate-context",
+      "text": "\ud83c\udf15 [AAAI 2024] Aleth-NeRF: Illumination Adaptive NeRF with Concealing Field Assumption (Low-light enhance / Exposure correction + NeRF)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cuiziteng/Aleth-NeRF",
+      "status": "candidate-context",
+      "text": "[Ziteng Cui<sup>1,2</sup>](https://cuiziteng.github.io/),"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cuiziteng/Aleth-NeRF",
+      "status": "candidate",
+      "text": "[Ziteng Cui<sup>1,2</sup>](https://cuiziteng.github.io/),"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "aaai2024",
+  "concept_id": "aaai2024",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "cuiziteng/Aleth-NeRF"
+    }
+  ],
+  "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "aaai2024",
+      "sense_id": "aaai2024#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

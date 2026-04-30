@@ -55,6 +55,30 @@
       "source_repo": "vladmandic/sdnext",
       "status": "candidate-context",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "GaParmar/img2img-turbo",
+      "status": "candidate-context",
+      "text": "One-step image-to-image with Stable Diffusion turbo: sketch2image, day2night, and more"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "GaParmar/img2img-turbo",
+      "status": "candidate-context",
+      "text": "[**Paper**](https://arxiv.org/abs/2403.12036) | [**Sketch2Image Demo**](https://huggingface.co/spaces/gparmar/img2img-turbo-sketch)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "parlance-zz/g-diffuser-bot",
+      "status": "candidate-context",
+      "text": "Discord bot and Interface for Stable Diffusion"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "parlance-zz/g-diffuser-bot",
+      "status": "candidate-context",
+      "text": "![https://www.stablecabal.org](https://www.g-diffuser.com/stablecabal.png) https://www.stablecabal.org"
     }
   ],
   "candidate_glosses": [
@@ -81,6 +105,18 @@
       "source_repo": "vladmandic/sdnext",
       "status": "candidate",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "GaParmar/img2img-turbo",
+      "status": "candidate",
+      "text": "[**Paper**](https://arxiv.org/abs/2403.12036) | [**Sketch2Image Demo**](https://huggingface.co/spaces/gparmar/img2img-turbo-sketch)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "parlance-zz/g-diffuser-bot",
+      "status": "candidate",
+      "text": "![https://www.stablecabal.org](https://www.g-diffuser.com/stablecabal.png) https://www.stablecabal.org"
     }
   ],
   "candidate_related_terms": [],
@@ -118,11 +154,35 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "vladmandic/sdnext"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "GaParmar/img2img-turbo"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "invoke-ai/InvokeAI"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "jina-ai/dalle-flow"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "parlance-zz/g-diffuser-bot"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

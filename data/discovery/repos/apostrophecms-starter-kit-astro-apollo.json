@@ -1,0 +1,57 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "apostrophecms/starter-kit-astro-apollo",
+      "target": "apostrophecms/apostrophe-astro",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "package.json",
+      "source_repo": "apostrophecms/starter-kit-astro-apollo",
+      "target": "apostrophecms/combined-astro-starter-kit",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T03:48:18.130099+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 31383
+    },
+    {
+      "path": "package.json",
+      "size": 1838
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "develop",
+    "description": "A flexible Astro theme that integrates directly with ApostropheCMS, enabling full in-context editing on an Astro-powered frontend.",
+    "fork": false,
+    "full_name": "apostrophecms/starter-kit-astro-apollo",
+    "html_url": "https://github.com/apostrophecms/starter-kit-astro-apollo",
+    "language": "Astro",
+    "pushed_at": "2026-01-21T13:08:25Z",
+    "stargazers_count": 27,
+    "topics": [],
+    "updated_at": "2026-04-21T14:45:41Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "apostrophecms/apostrophe-astro",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "apostrophecms/combined-astro-starter-kit",
+      "source_file": "package.json"
+    }
+  ],
+  "terms": []
+}

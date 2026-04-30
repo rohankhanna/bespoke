@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "boost-libraries"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "boostorg/beast",
+      "status": "candidate-context",
+      "text": "HTTP and WebSocket built on Boost.Asio in C++11"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "boostorg/beast",
+      "status": "candidate-context",
+      "text": "<img width=\"880\" height = \"80\" alt = \"Boost.Beast Title\""
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "boostorg/beast",
+      "status": "candidate",
+      "text": "<img width=\"880\" height = \"80\" alt = \"Boost.Beast Title\""
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "boost-libraries",
+  "concept_id": "boost-libraries",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "boostorg/beast"
+    }
+  ],
+  "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "boost-libraries",
+      "sense_id": "boost-libraries#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

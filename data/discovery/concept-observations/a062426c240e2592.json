@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Bash's powerful command line editing in cmd.exe"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Submit Clink release to winget-pkgs"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Submit Clink release to winget-pkgs"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21811,
+      "status": "candidate",
+      "text": "can"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21798,
+      "status": "candidate",
+      "text": "stir"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21504,
+      "status": "candidate",
+      "text": "toast"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20913,
+      "status": "candidate",
+      "text": "spring"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20861,
+      "status": "candidate",
+      "text": "reprieve"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Submit Clink release to winget-pkgs",
+      "sense_id": "submit-clink-release-to-winget-pkgs#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "submit-clink-release-to-winget-pkgs",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "submit-clink-release-to-winget-pkgs",
+  "observation_id": "a062426c240e2592",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-30T00:37:16.824464+00:00",
+  "observed_text": "Submit Clink release to winget-pkgs",
+  "source_context_snippet": "Submit Clink release to winget-pkgs",
+  "source_file": ".github/workflows/winget-submission.yml",
+  "source_repo": "chrisant996/clink",
+  "source_repo_description": "Bash's powerful command line editing in cmd.exe"
+}

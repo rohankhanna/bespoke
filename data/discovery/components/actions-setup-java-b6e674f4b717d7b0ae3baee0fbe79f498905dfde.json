@@ -1,0 +1,17 @@
+{
+  "component": "actions/setup-java@b6e674f4b717d7b0ae3baee0fbe79f498905dfde",
+  "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci-checks-build.yml",
+      "source_repo": "oap-project/oap-mllib"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci-tests.yml",
+      "source_repo": "oap-project/oap-mllib"
+    }
+  ]
+}

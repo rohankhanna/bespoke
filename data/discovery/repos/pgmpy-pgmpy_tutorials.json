@@ -1,0 +1,132 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pgmpy/pgmpy_tutorials",
+      "target": "causal-discovery",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pgmpy/pgmpy_tutorials",
+      "target": "causal-graphs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pgmpy/pgmpy_tutorials",
+      "target": "causal-identification",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pgmpy/pgmpy_tutorials",
+      "target": "causal-inference",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pgmpy/pgmpy_tutorials",
+      "target": "causal-prediction",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pgmpy/pgmpy_tutorials",
+      "target": "pgmpy",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pgmpy/pgmpy_tutorials",
+      "target": "python-notebooks",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T05:11:35.247605+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 217
+    },
+    {
+      "path": "requirements.txt",
+      "size": 89
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Tutorials on Causal Inference and pgmpy",
+    "fork": false,
+    "full_name": "pgmpy/pgmpy_tutorials",
+    "html_url": "https://github.com/pgmpy/pgmpy_tutorials",
+    "language": "Jupyter Notebook",
+    "pushed_at": "2025-08-07T16:19:05Z",
+    "stargazers_count": 392,
+    "topics": [
+      "causal-discovery",
+      "causal-graphs",
+      "causal-identification",
+      "causal-inference",
+      "causal-prediction",
+      "pgmpy",
+      "python-notebooks"
+    ],
+    "updated_at": "2026-04-23T00:29:50Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "We are in the process of updating this repository to act as a course material for causal inference and pgmpy.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "causal-discovery"
+    },
+    {
+      "context_snippet": "We are in the process of updating this repository to act as a course material for causal inference and pgmpy.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "causal-graphs"
+    },
+    {
+      "context_snippet": "We are in the process of updating this repository to act as a course material for causal inference and pgmpy.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "causal-identification"
+    },
+    {
+      "context_snippet": "We are in the process of updating this repository to act as a course material for causal inference and pgmpy.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "causal-inference"
+    },
+    {
+      "context_snippet": "We are in the process of updating this repository to act as a course material for causal inference and pgmpy.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "causal-prediction"
+    },
+    {
+      "context_snippet": "We are in the process of updating this repository to act as a course material for causal inference and pgmpy.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pgmpy"
+    },
+    {
+      "context_snippet": "We are in the process of updating this repository to act as a course material for causal inference and pgmpy.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "python-notebooks"
+    }
+  ]
+}

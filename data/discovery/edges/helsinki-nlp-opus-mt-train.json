@@ -1,0 +1,55 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Helsinki-NLP/OPUS-MT-train",
+      "target": "helsinki-nlp/opus-mt",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Helsinki-NLP/OPUS-MT-train",
+      "target": "helsinki-nlp/tatoeba-challenge",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Helsinki-NLP/OPUS-MT-train",
+      "target": "robertostling/eflomal",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Helsinki-NLP/OPUS-MT-train",
+      "target": "language-technology",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Helsinki-NLP/OPUS-MT-train",
+      "target": "machine-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Helsinki-NLP/OPUS-MT-train",
+      "target": "machine-translation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Helsinki-NLP/OPUS-MT-train",
+      "target": "natural-language-processing",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-30T00:37:16.824464+00:00",
+  "source_repo": "Helsinki-NLP/OPUS-MT-train"
+}

@@ -1,0 +1,263 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/setup-java@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "autodeployai/pmml4s",
+      "target": "autodeployai/pmml4s-spark",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "autodeployai/pmml4s",
+      "target": "autodeployai/pypmml-spark",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "autodeployai/pmml4s",
+      "target": "autodeployai/pypmml",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "autodeployai/pmml4s",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "autodeployai/pmml4s",
+      "target": "actions/setup-java@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "autodeployai/pmml4s",
+      "target": "Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "autodeployai/pmml4s",
+      "target": "ai-development",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "autodeployai/pmml4s",
+      "target": "ml-deployment",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "autodeployai/pmml4s",
+      "target": "pmml",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "autodeployai/pmml4s",
+      "target": "pmml-deployment",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "autodeployai/pmml4s",
+      "target": "pmml-evaluator",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "autodeployai/pmml4s",
+      "target": "pmml-java-deployment",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "autodeployai/pmml4s",
+      "target": "pmml-java-library",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "autodeployai/pmml4s",
+      "target": "pmml-jvm",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "autodeployai/pmml4s",
+      "target": "pmml-scala-deployment",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "autodeployai/pmml4s",
+      "target": "pmml-scala-library",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "autodeployai/pmml4s",
+      "target": "pmml-scoring-library",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T02:46:48.591389+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 18222
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "size": 650
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "PMML scoring library for Scala",
+    "fork": false,
+    "full_name": "autodeployai/pmml4s",
+    "html_url": "https://github.com/autodeployai/pmml4s",
+    "language": "Scala",
+    "pushed_at": "2025-10-18T03:35:24Z",
+    "stargazers_count": 67,
+    "topics": [
+      "ai-development",
+      "ml-deployment",
+      "pmml",
+      "pmml-deployment",
+      "pmml-evaluator",
+      "pmml-java-deployment",
+      "pmml-java-library",
+      "pmml-jvm",
+      "pmml-scala-deployment",
+      "pmml-scala-library",
+      "pmml-scoring-library"
+    ],
+    "updated_at": "2026-04-19T04:23:20Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "autodeployai/pmml4s-spark",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "autodeployai/pypmml",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "autodeployai/pypmml-spark",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "term": "Release"
+    },
+    {
+      "context_snippet": "[![Build Status](https://github.com/autodeployai/pmml4s/workflows/Release/badge.svg)](https://github.com/autodeployai/pmml4s/actions)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ai-development"
+    },
+    {
+      "context_snippet": "[![Build Status](https://github.com/autodeployai/pmml4s/workflows/Release/badge.svg)](https://github.com/autodeployai/pmml4s/actions)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ml-deployment"
+    },
+    {
+      "context_snippet": "[![Build Status](https://github.com/autodeployai/pmml4s/workflows/Release/badge.svg)](https://github.com/autodeployai/pmml4s/actions)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pmml"
+    },
+    {
+      "context_snippet": "[![Build Status](https://github.com/autodeployai/pmml4s/workflows/Release/badge.svg)](https://github.com/autodeployai/pmml4s/actions)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pmml-deployment"
+    },
+    {
+      "context_snippet": "[![Build Status](https://github.com/autodeployai/pmml4s/workflows/Release/badge.svg)](https://github.com/autodeployai/pmml4s/actions)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pmml-evaluator"
+    },
+    {
+      "context_snippet": "[![Build Status](https://github.com/autodeployai/pmml4s/workflows/Release/badge.svg)](https://github.com/autodeployai/pmml4s/actions)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pmml-java-deployment"
+    },
+    {
+      "context_snippet": "[![Build Status](https://github.com/autodeployai/pmml4s/workflows/Release/badge.svg)](https://github.com/autodeployai/pmml4s/actions)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pmml-java-library"
+    },
+    {
+      "context_snippet": "[![Build Status](https://github.com/autodeployai/pmml4s/workflows/Release/badge.svg)](https://github.com/autodeployai/pmml4s/actions)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pmml-jvm"
+    },
+    {
+      "context_snippet": "[![Build Status](https://github.com/autodeployai/pmml4s/workflows/Release/badge.svg)](https://github.com/autodeployai/pmml4s/actions)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pmml-scala-deployment"
+    },
+    {
+      "context_snippet": "[![Build Status](https://github.com/autodeployai/pmml4s/workflows/Release/badge.svg)](https://github.com/autodeployai/pmml4s/actions)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pmml-scala-library"
+    },
+    {
+      "context_snippet": "[![Build Status](https://github.com/autodeployai/pmml4s/workflows/Release/badge.svg)](https://github.com/autodeployai/pmml4s/actions)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pmml-scoring-library"
+    }
+  ]
+}

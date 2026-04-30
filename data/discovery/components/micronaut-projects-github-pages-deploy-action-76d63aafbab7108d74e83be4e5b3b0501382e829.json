@@ -1,0 +1,17 @@
+{
+  "component": "micronaut-projects/github-pages-deploy-action@76d63aafbab7108d74e83be4e5b3b0501382e829",
+  "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/gradle.yml",
+      "source_repo": "micronaut-projects/micronaut-langchain4j"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "micronaut-projects/micronaut-langchain4j"
+    }
+  ]
+}

@@ -1,0 +1,298 @@
+{
+  "components": [
+    {
+      "component": "readdirp",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@paulmillr/jsbt",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@types/node",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "prettier",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "tinyspy",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "typescript",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "upath",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "paulmillr/jsbt/.github/workflows/release.yml@570adcfe0ed96b477bb9b35400fb43fd9406fb47",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "paulmillr/jsbt/.github/workflows/test-js-matrix.yml@570adcfe0ed96b477bb9b35400fb43fd9406fb47",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-js.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "paulmillr/chokidar",
+      "target": "sindresorhus/binary-extensions",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "paulmillr/chokidar",
+      "target": "open-cli-tools/chokidar-cli",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "paulmillr/chokidar",
+      "target": "brunch/brunch",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "paulmillr/chokidar",
+      "target": "readdirp",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "paulmillr/chokidar",
+      "target": "@paulmillr/jsbt",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "paulmillr/chokidar",
+      "target": "@types/node",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "paulmillr/chokidar",
+      "target": "prettier",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "paulmillr/chokidar",
+      "target": "tinyspy",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "paulmillr/chokidar",
+      "target": "typescript",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "paulmillr/chokidar",
+      "target": "upath",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "paulmillr/chokidar",
+      "target": "paulmillr/jsbt/.github/workflows/release.yml@570adcfe0ed96b477bb9b35400fb43fd9406fb47",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "paulmillr/chokidar",
+      "target": "Publish release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-js.yml",
+      "source_repo": "paulmillr/chokidar",
+      "target": "paulmillr/jsbt/.github/workflows/test-js-matrix.yml@570adcfe0ed96b477bb9b35400fb43fd9406fb47",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test-js.yml",
+      "source_repo": "paulmillr/chokidar",
+      "target": "Run TS tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "paulmillr/chokidar",
+      "target": "chokidar",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "paulmillr/chokidar",
+      "target": "filesystem",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "paulmillr/chokidar",
+      "target": "fsevents",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "paulmillr/chokidar",
+      "target": "nodejs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "paulmillr/chokidar",
+      "target": "watch-files",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "paulmillr/chokidar",
+      "target": "watcher",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T04:05:02.001697+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 13324
+    },
+    {
+      "path": "package.json",
+      "size": 1351
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "size": 286
+    },
+    {
+      "path": ".github/workflows/test-js.yml",
+      "size": 221
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Minimal and efficient cross-platform file watching library",
+    "fork": false,
+    "full_name": "paulmillr/chokidar",
+    "html_url": "https://github.com/paulmillr/chokidar",
+    "language": "TypeScript",
+    "pushed_at": "2026-04-27T12:48:12Z",
+    "stargazers_count": 12081,
+    "topics": [
+      "chokidar",
+      "filesystem",
+      "fsevents",
+      "nodejs",
+      "watch-files",
+      "watcher"
+    ],
+    "updated_at": "2026-04-29T14:33:40Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "brunch/brunch",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "open-cli-tools/chokidar-cli",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "sindresorhus/binary-extensions",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Publish release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "term": "Publish release"
+    },
+    {
+      "context_snippet": "Run TS tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test-js.yml",
+      "term": "Run TS tests"
+    },
+    {
+      "context_snippet": "Minimal and efficient cross-platform file watching library",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "chokidar"
+    },
+    {
+      "context_snippet": "Minimal and efficient cross-platform file watching library",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "filesystem"
+    },
+    {
+      "context_snippet": "Minimal and efficient cross-platform file watching library",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "fsevents"
+    },
+    {
+      "context_snippet": "Minimal and efficient cross-platform file watching library",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nodejs"
+    },
+    {
+      "context_snippet": "Minimal and efficient cross-platform file watching library",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "watch-files"
+    },
+    {
+      "context_snippet": "Minimal and efficient cross-platform file watching library",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "watcher"
+    }
+  ]
+}

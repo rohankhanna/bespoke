@@ -1,0 +1,76 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "PKU-YuanGroup/Open-Sora-Plan",
+      "target": "pku-yuangroup/helios",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "PKU-YuanGroup/Open-Sora-Plan",
+      "target": "pku-yuangroup/magictime",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "PKU-YuanGroup/Open-Sora-Plan",
+      "target": "rhymes-ai/allegro",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "PKU-YuanGroup/Open-Sora-Plan",
+      "target": "pixart-alpha/pixart-alpha",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker_build.yml",
+      "source_repo": "PKU-YuanGroup/Open-Sora-Plan",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker_build.yml",
+      "source_repo": "PKU-YuanGroup/Open-Sora-Plan",
+      "target": "docker/setup-qemu-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker_build.yml",
+      "source_repo": "PKU-YuanGroup/Open-Sora-Plan",
+      "target": "docker/setup-buildx-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker_build.yml",
+      "source_repo": "PKU-YuanGroup/Open-Sora-Plan",
+      "target": "docker/login-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker_build.yml",
+      "source_repo": "PKU-YuanGroup/Open-Sora-Plan",
+      "target": "docker/build-push-action@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docker_build.yml",
+      "source_repo": "PKU-YuanGroup/Open-Sora-Plan",
+      "target": "docker-build",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-30T00:37:16.824464+00:00",
+  "source_repo": "PKU-YuanGroup/Open-Sora-Plan"
+}

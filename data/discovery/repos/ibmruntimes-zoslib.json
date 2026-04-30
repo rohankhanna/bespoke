@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T05:04:03.707799+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6538
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "z/OS C/C++ runtime library",
+    "fork": false,
+    "full_name": "ibmruntimes/zoslib",
+    "html_url": "https://github.com/ibmruntimes/zoslib",
+    "language": "TeX",
+    "pushed_at": "2026-04-20T20:21:44Z",
+    "stargazers_count": 41,
+    "topics": [],
+    "updated_at": "2026-04-24T10:02:39Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

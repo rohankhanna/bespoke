@@ -5,7 +5,9 @@
   "ambiguity_status": "unresolved",
   "buckets": [
     "workflow-process",
-    "data-document-artifact"
+    "data-document-artifact",
+    "tool-component",
+    "capability"
   ],
   "candidate_definitions": [
     {
@@ -31,6 +33,18 @@
       "source_repo": "spack/spack-packages",
       "status": "candidate-context",
       "text": "triage"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "google/triage-party",
+      "status": "candidate-context",
+      "text": "\ud83c\udf89 Triage Party: massively multi-player GitHub triage \ud83c\udf89"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/triage-party",
+      "status": "candidate-context",
+      "text": "`NOTE: This is not an officially supported Google product`"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +59,12 @@
       "source_repo": "spack/spack-packages",
       "status": "candidate",
       "text": "triage"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/triage-party",
+      "status": "candidate",
+      "text": "`NOTE: This is not an officially supported Google product`"
     }
   ],
   "candidate_related_terms": [
@@ -100,11 +120,17 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": ".github/workflows/triage.yml",
       "source_repo": "spack/spack-packages"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "google/triage-party"
     }
   ],
   "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -84,7 +84,7 @@
   "normalized_form": "build-container-image",
   "observation_id": "37b21ef01c1e1107",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-04-21T11:24:10.450489+00:00",
+  "observed_at": "2026-04-30T00:37:16.824464+00:00",
   "observed_text": "build container image",
   "source_context_snippet": "build container image",
   "source_file": ".github/workflows/build-container.yml",

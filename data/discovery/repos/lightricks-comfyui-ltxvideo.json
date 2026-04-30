@@ -1,0 +1,156 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Lightricks/ComfyUI-LTXVideo",
+      "target": "lightricks/ltx-2",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Lightricks/ComfyUI-LTXVideo",
+      "target": "comfyanonymous/comfyui",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Lightricks/ComfyUI-LTXVideo",
+      "target": "grizzlypeak3d/djv",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Lightricks/ComfyUI-LTXVideo",
+      "target": "comfyui",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Lightricks/ComfyUI-LTXVideo",
+      "target": "diffusion-models",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Lightricks/ComfyUI-LTXVideo",
+      "target": "image-to-video",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Lightricks/ComfyUI-LTXVideo",
+      "target": "image-to-video-generation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Lightricks/ComfyUI-LTXVideo",
+      "target": "text-to-image",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Lightricks/ComfyUI-LTXVideo",
+      "target": "text-to-image-generation",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T03:56:15.235694+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9909
+    },
+    {
+      "path": "requirements.txt",
+      "size": 91
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "LTX-Video Support for ComfyUI",
+    "fork": false,
+    "full_name": "Lightricks/ComfyUI-LTXVideo",
+    "html_url": "https://github.com/Lightricks/ComfyUI-LTXVideo",
+    "language": "Python",
+    "pushed_at": "2026-04-26T08:38:17Z",
+    "stargazers_count": 3540,
+    "topics": [
+      "comfyui",
+      "diffusion-models",
+      "dit",
+      "image-to-video",
+      "image-to-video-generation",
+      "text-to-image",
+      "text-to-image-generation"
+    ],
+    "updated_at": "2026-04-29T21:58:06Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "comfyanonymous/comfyui",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "grizzlypeak3d/djv",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "lightricks/ltx-2",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[![GitHub](https://img.shields.io/badge/LTX-Repo-blue?logo=github)](https://github.com/Lightricks/LTX-2)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "comfyui"
+    },
+    {
+      "context_snippet": "[![GitHub](https://img.shields.io/badge/LTX-Repo-blue?logo=github)](https://github.com/Lightricks/LTX-2)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "diffusion-models"
+    },
+    {
+      "context_snippet": "[![GitHub](https://img.shields.io/badge/LTX-Repo-blue?logo=github)](https://github.com/Lightricks/LTX-2)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "image-to-video"
+    },
+    {
+      "context_snippet": "[![GitHub](https://img.shields.io/badge/LTX-Repo-blue?logo=github)](https://github.com/Lightricks/LTX-2)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "image-to-video-generation"
+    },
+    {
+      "context_snippet": "[![GitHub](https://img.shields.io/badge/LTX-Repo-blue?logo=github)](https://github.com/Lightricks/LTX-2)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "text-to-image"
+    },
+    {
+      "context_snippet": "[![GitHub](https://img.shields.io/badge/LTX-Repo-blue?logo=github)](https://github.com/Lightricks/LTX-2)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "text-to-image-generation"
+    }
+  ]
+}

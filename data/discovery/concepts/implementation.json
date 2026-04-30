@@ -1,0 +1,146 @@
+{
+  "aliases": [
+    "implementation"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Janspiry/Palette-Image-to-Image-Diffusion-Models",
+      "status": "candidate-context",
+      "text": "Unofficial implementation of Palette: Image-to-Image Diffusion Models by Pytorch"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Janspiry/Palette-Image-to-Image-Diffusion-Models",
+      "status": "candidate-context",
+      "text": "[Paper](https://arxiv.org/pdf/2111.05826.pdf ) | [Project](https://iterative-refinement.github.io/palette/ )"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Kyubyong/transformer",
+      "status": "candidate-context",
+      "text": "A TensorFlow Implementation of the Transformer: Attention Is All You Need"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Kyubyong/transformer",
+      "status": "candidate-context",
+      "text": "When I opened this repository in 2017, there was no official code yet."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Janspiry/Palette-Image-to-Image-Diffusion-Models",
+      "status": "candidate",
+      "text": "[Paper](https://arxiv.org/pdf/2111.05826.pdf ) | [Project](https://iterative-refinement.github.io/palette/ )"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Kyubyong/transformer",
+      "status": "candidate",
+      "text": "When I opened this repository in 2017, there was no official code yet."
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39897674,
+      "status": "candidate",
+      "text": "execution"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39890639,
+      "status": "candidate",
+      "text": "effectuation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29916556,
+      "status": "candidate",
+      "text": "carrying out"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29916555,
+      "status": "candidate",
+      "text": "commissioning"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29913825,
+      "status": "candidate",
+      "text": "outturn"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 19056,
+      "status": "candidate",
+      "text": "execution"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 4018,
+      "status": "candidate",
+      "text": "effectuation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 2015,
+      "status": "candidate",
+      "text": "carrying out"
+    }
+  ],
+  "canonical_name": "implementation",
+  "concept_id": "implementation",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "Janspiry/Palette-Image-to-Image-Diffusion-Models"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "Kyubyong/transformer"
+    }
+  ],
+  "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "implementation",
+      "sense_id": "implementation#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

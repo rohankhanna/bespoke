@@ -154,6 +154,18 @@
       "source_repo": "dotnet/arcade-services",
       "status": "candidate-context",
       "text": "This repo is home of the services that help us construct .NET. Mainly, you can find the **Product Construction Service** (previously *Maestro*) dependency flow system and the [Darc CLI tool](./docs/Darc.md)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "liquidz/iced-nrepl",
+      "status": "candidate-context",
+      "text": "nREPL middleware to support vim-iced."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "liquidz/iced-nrepl",
+      "status": "candidate-context",
+      "text": "dependencies"
     }
   ],
   "candidate_glosses": [
@@ -228,6 +240,12 @@
       "source_repo": "dotnet/arcade-services",
       "status": "candidate",
       "text": "This repo is home of the services that help us construct .NET. Mainly, you can find the **Product Construction Service** (previously *Maestro*) dependency flow system and the [Darc CLI tool](./docs/Darc.md)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "liquidz/iced-nrepl",
+      "status": "candidate",
+      "text": "dependencies"
     }
   ],
   "candidate_related_terms": [
@@ -397,11 +415,29 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": ".github/workflows/dependencies.yml",
       "source_repo": "apache/datafusion-ballista"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/dependencies.yml",
+      "source_repo": "liquidz/iced-nrepl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/dependencies.yml",
+      "source_repo": "apache/datafusion-ballista"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "licensee/licensed"
     }
   ],
   "first_seen_at": "2026-04-19T01:08:57.644140+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

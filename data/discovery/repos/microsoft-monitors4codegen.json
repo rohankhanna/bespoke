@@ -1,0 +1,368 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "github/codeql-action/init@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "github/codeql-action/autobuild@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "github/codeql-action/analyze@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "microsoft/monitors4codegen",
+      "target": "microsoft/multilspy",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "pyproject.toml",
+      "source_repo": "microsoft/monitors4codegen",
+      "target": "cedricrupb/code_ast",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "requirements.txt",
+      "source_repo": "microsoft/monitors4codegen",
+      "target": "cedricrupb/code_ast",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "microsoft/monitors4codegen",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "microsoft/monitors4codegen",
+      "target": "github/codeql-action/init@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "microsoft/monitors4codegen",
+      "target": "github/codeql-action/autobuild@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "microsoft/monitors4codegen",
+      "target": "github/codeql-action/analyze@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "microsoft/monitors4codegen",
+      "target": "CodeQL",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/monitors4codegen",
+      "target": "ai4code",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/monitors4codegen",
+      "target": "artificial-intelligence",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/monitors4codegen",
+      "target": "code-analysis",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/monitors4codegen",
+      "target": "code-completion",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/monitors4codegen",
+      "target": "code-generation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/monitors4codegen",
+      "target": "codegen",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/monitors4codegen",
+      "target": "dataset",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/monitors4codegen",
+      "target": "huggingface-transformers",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/monitors4codegen",
+      "target": "language-server-client",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/monitors4codegen",
+      "target": "language-server-protocol",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/monitors4codegen",
+      "target": "large-language-models",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/monitors4codegen",
+      "target": "lsp-client",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/monitors4codegen",
+      "target": "neurips",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/monitors4codegen",
+      "target": "neurips-2023",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/monitors4codegen",
+      "target": "program-synthesis",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/monitors4codegen",
+      "target": "transformer",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T00:44:27.763099+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 23034
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 1623
+    },
+    {
+      "path": "requirements.txt",
+      "size": 435
+    },
+    {
+      "path": ".github/workflows/codeql.yml",
+      "size": 3429
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Code and Data artifact for NeurIPS 2023 paper - \"Monitor-Guided Decoding of Code LMs with Static Analysis of Repository Context\". `multispy` is a lsp client library in Python intended to be used to build applications around language servers.",
+    "fork": false,
+    "full_name": "microsoft/monitors4codegen",
+    "html_url": "https://github.com/microsoft/monitors4codegen",
+    "language": "Python",
+    "pushed_at": "2024-08-08T18:15:14Z",
+    "stargazers_count": 281,
+    "topics": [
+      "ai",
+      "ai4code",
+      "artificial-intelligence",
+      "code-analysis",
+      "code-completion",
+      "code-generation",
+      "codegen",
+      "dataset",
+      "huggingface-transformers",
+      "language-server-client",
+      "language-server-protocol",
+      "large-language-models",
+      "llm",
+      "lsp",
+      "lsp-client",
+      "neurips",
+      "neurips-2023",
+      "program-synthesis",
+      "transformer"
+    ],
+    "updated_at": "2026-04-16T23:58:36Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "microsoft/multilspy",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cedricrupb/code_ast",
+      "source_file": "pyproject.toml"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cedricrupb/code_ast",
+      "source_file": "requirements.txt"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "\"CodeQL\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql.yml",
+      "term": "CodeQL"
+    },
+    {
+      "context_snippet": "Alternative title: Guiding Language Models of Code with Global Context using Monitors",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ai4code"
+    },
+    {
+      "context_snippet": "Alternative title: Guiding Language Models of Code with Global Context using Monitors",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "artificial-intelligence"
+    },
+    {
+      "context_snippet": "Alternative title: Guiding Language Models of Code with Global Context using Monitors",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "code-analysis"
+    },
+    {
+      "context_snippet": "Alternative title: Guiding Language Models of Code with Global Context using Monitors",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "code-completion"
+    },
+    {
+      "context_snippet": "Alternative title: Guiding Language Models of Code with Global Context using Monitors",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "code-generation"
+    },
+    {
+      "context_snippet": "Alternative title: Guiding Language Models of Code with Global Context using Monitors",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "codegen"
+    },
+    {
+      "context_snippet": "Alternative title: Guiding Language Models of Code with Global Context using Monitors",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dataset"
+    },
+    {
+      "context_snippet": "Alternative title: Guiding Language Models of Code with Global Context using Monitors",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "huggingface-transformers"
+    },
+    {
+      "context_snippet": "Alternative title: Guiding Language Models of Code with Global Context using Monitors",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "language-server-client"
+    },
+    {
+      "context_snippet": "Alternative title: Guiding Language Models of Code with Global Context using Monitors",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "language-server-protocol"
+    },
+    {
+      "context_snippet": "Alternative title: Guiding Language Models of Code with Global Context using Monitors",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "large-language-models"
+    },
+    {
+      "context_snippet": "Alternative title: Guiding Language Models of Code with Global Context using Monitors",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "lsp-client"
+    },
+    {
+      "context_snippet": "Alternative title: Guiding Language Models of Code with Global Context using Monitors",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "neurips"
+    },
+    {
+      "context_snippet": "Alternative title: Guiding Language Models of Code with Global Context using Monitors",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "neurips-2023"
+    },
+    {
+      "context_snippet": "Alternative title: Guiding Language Models of Code with Global Context using Monitors",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "program-synthesis"
+    },
+    {
+      "context_snippet": "Alternative title: Guiding Language Models of Code with Global Context using Monitors",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "transformer"
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "shenweichen/AlgoNotes",
+      "target": "shenweichen/deepctr",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "shenweichen/AlgoNotes",
+      "target": "shenweichen/deepmatch",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "shenweichen/AlgoNotes",
+      "target": "shenweichen/graphembedding",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T04:59:03.559743+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 37617
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "\u3010\u6d45\u68a6\u5b66\u4e60\u7b14\u8bb0\u3011\u6587\u7ae0\u6c47\u603b:\u5305\u542b \u6392\u5e8f&CXR\u9884\u4f30\uff0c\u53ec\u56de\u5339\u914d\uff0c\u7528\u6237\u753b\u50cf&\u7279\u5f81\u5de5\u7a0b\uff0c\u63a8\u8350\u641c\u7d22\u7efc\u5408  \u8ba1\u7b97\u5e7f\u544a\uff0c\u5927\u6570\u636e\uff0c\u56fe\u7b97\u6cd5\uff0cNLP&CV\uff0c\u6c42\u804c\u9762\u8bd5 \u7b49\u5185\u5bb9",
+    "fork": false,
+    "full_name": "shenweichen/AlgoNotes",
+    "html_url": "https://github.com/shenweichen/AlgoNotes",
+    "language": null,
+    "pushed_at": "2022-12-24T12:35:17Z",
+    "stargazers_count": 1815,
+    "topics": [],
+    "updated_at": "2026-04-27T08:46:59Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "shenweichen/deepctr",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "shenweichen/deepmatch",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "shenweichen/graphembedding",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

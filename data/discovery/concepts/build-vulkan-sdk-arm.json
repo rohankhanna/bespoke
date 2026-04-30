@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "\ud83d\udee0\ufe0f Build Vulkan SDK ARM"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mudler/vulkan-sdk-arm",
+      "status": "candidate-context",
+      "text": "Vulkan SDK for ARM64 / aarch64 with prebuilt binaries for Ubuntu Linux. These are used by https://github.com/jakoch/install-vulkan-sdk-action"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mudler/vulkan-sdk-arm",
+      "status": "candidate-context",
+      "text": "\"\ud83d\udee0\ufe0f Build Vulkan SDK ARM\""
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mudler/vulkan-sdk-arm",
+      "status": "candidate",
+      "text": "\"\ud83d\udee0\ufe0f Build Vulkan SDK ARM\""
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18468,
+      "status": "candidate",
+      "text": "directory"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18468,
+      "status": "candidate",
+      "text": "installation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10389,
+      "status": "candidate",
+      "text": "backup"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10389,
+      "status": "candidate",
+      "text": "catalog"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10389,
+      "status": "candidate",
+      "text": "catalogue"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "\ud83d\udee0\ufe0f Build Vulkan SDK ARM",
+  "concept_id": "build-vulkan-sdk-arm",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "mudler/vulkan-sdk-arm"
+    }
+  ],
+  "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "\ud83d\udee0\ufe0f Build Vulkan SDK ARM",
+      "sense_id": "build-vulkan-sdk-arm#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

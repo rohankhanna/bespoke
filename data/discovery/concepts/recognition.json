@@ -91,6 +91,18 @@
       "source_repo": "detectRecog/CCPD",
       "status": "candidate-context",
       "text": "(If you are benefited from this dataset, please cite our paper.)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kwilczynski/ruby-magic",
+      "status": "candidate-context",
+      "text": "Simple interface to libmagic for Ruby Programming Language"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kwilczynski/ruby-magic",
+      "status": "candidate-context",
+      "text": "[![Gem Version](http://badge.fury.io/rb/ruby-magic.svg)](http://badge.fury.io/rb/ruby-magic)"
     }
   ],
   "candidate_glosses": [
@@ -135,6 +147,12 @@
       "source_repo": "detectRecog/CCPD",
       "status": "candidate",
       "text": "(If you are benefited from this dataset, please cite our paper.)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kwilczynski/ruby-magic",
+      "status": "candidate",
+      "text": "[![Gem Version](http://badge.fury.io/rb/ruby-magic.svg)](http://badge.fury.io/rb/ruby-magic)"
     }
   ],
   "candidate_related_terms": [
@@ -322,11 +340,29 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "detectRecog/CCPD"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "all-contributors/allcontributors.org"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "all-contributors/app"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "kwilczynski/ruby-magic"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

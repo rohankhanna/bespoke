@@ -220,6 +220,42 @@
       "source_repo": "h2non/gentleman",
       "status": "candidate-context",
       "text": "Full-featured, plugin-driven, middleware-oriented toolkit to easily create rich, versatile and composable HTTP clients in [Go](http://golang.org)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "astahmer/openapi-zod-client",
+      "status": "candidate-context",
+      "text": "Generate a zodios (typescript http client with zod validation) from an OpenAPI spec (json/yaml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "astahmer/openapi-zod-client",
+      "status": "candidate-context",
+      "text": "[![npm version](https://img.shields.io/npm/v/openapi-zod-client.svg)](https://www.npmjs.com/package/openapi-zod-client)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "benoitc/hackney",
+      "status": "candidate-context",
+      "text": "simple HTTP client in Erlang"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "benoitc/hackney",
+      "status": "candidate-context",
+      "text": "An HTTP client for Erlang. Simple, reliable, fast."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aliyun/aliyun-cli",
+      "status": "candidate-context",
+      "text": "Alibaba Cloud CLI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aliyun/aliyun-cli",
+      "status": "candidate-context",
+      "text": "English | [\u7b80\u4f53\u4e2d\u6587](./README-CN.md)"
     }
   ],
   "candidate_glosses": [
@@ -330,6 +366,24 @@
       "source_repo": "h2non/gentleman",
       "status": "candidate",
       "text": "Full-featured, plugin-driven, middleware-oriented toolkit to easily create rich, versatile and composable HTTP clients in [Go](http://golang.org)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "astahmer/openapi-zod-client",
+      "status": "candidate",
+      "text": "[![npm version](https://img.shields.io/npm/v/openapi-zod-client.svg)](https://www.npmjs.com/package/openapi-zod-client)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "benoitc/hackney",
+      "status": "candidate",
+      "text": "An HTTP client for Erlang. Simple, reliable, fast."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aliyun/aliyun-cli",
+      "status": "candidate",
+      "text": "English | [\u7b80\u4f53\u4e2d\u6587](./README-CN.md)"
     }
   ],
   "candidate_related_terms": [
@@ -521,11 +575,35 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "h2non/gentleman"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "astahmer/openapi-zod-client"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "benoitc/hackney"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/dotnet.yml",
+      "source_repo": "kurrent-io/KurrentDB-Client-Dotnet"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "aliyun/aliyun-cli"
     }
   ],
   "first_seen_at": "2026-04-18T18:48:44.679047+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

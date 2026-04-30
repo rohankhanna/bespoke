@@ -1,0 +1,336 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/R-CMD-check.yaml"
+    },
+    {
+      "component": "r-lib/actions/setup-r@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/R-CMD-check.yaml"
+    },
+    {
+      "component": "r-lib/actions/setup-pandoc@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/R-CMD-check.yaml"
+    },
+    {
+      "component": "r-lib/actions/setup-r-dependencies@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/R-CMD-check.yaml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/R-CMD-check.yaml"
+    },
+    {
+      "component": "actions/upload-artifact@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/R-CMD-check.yaml"
+    },
+    {
+      "component": "r-lib/actions/check-r-package@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/R-CMD-check.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml"
+    },
+    {
+      "component": "ruby/setup-ruby@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml"
+    },
+    {
+      "component": "actions/upload-pages-artifact@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml"
+    },
+    {
+      "component": "actions/deploy-pages@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "plotly/plotly.R",
+      "target": "ropensci/plotly",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "plotly/plotly.R",
+      "target": "tidyverse/ggplot2",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/R-CMD-check.yaml",
+      "source_repo": "plotly/plotly.R",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/R-CMD-check.yaml",
+      "source_repo": "plotly/plotly.R",
+      "target": "r-lib/actions/setup-r@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/R-CMD-check.yaml",
+      "source_repo": "plotly/plotly.R",
+      "target": "r-lib/actions/setup-pandoc@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/R-CMD-check.yaml",
+      "source_repo": "plotly/plotly.R",
+      "target": "r-lib/actions/setup-r-dependencies@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/R-CMD-check.yaml",
+      "source_repo": "plotly/plotly.R",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/R-CMD-check.yaml",
+      "source_repo": "plotly/plotly.R",
+      "target": "actions/upload-artifact@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/R-CMD-check.yaml",
+      "source_repo": "plotly/plotly.R",
+      "target": "r-lib/actions/check-r-package@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/R-CMD-check.yaml",
+      "source_repo": "plotly/plotly.R",
+      "target": "R-CMD-check",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "plotly/plotly.R",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "plotly/plotly.R",
+      "target": "ruby/setup-ruby@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "plotly/plotly.R",
+      "target": "actions/upload-pages-artifact@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "plotly/plotly.R",
+      "target": "actions/deploy-pages@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "plotly/plotly.R",
+      "target": "Deploy R Documentation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "plotly/plotly.R",
+      "target": "d3js",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "plotly/plotly.R",
+      "target": "data-visualization",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "plotly/plotly.R",
+      "target": "ggplot2",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "plotly/plotly.R",
+      "target": "plotly",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "plotly/plotly.R",
+      "target": "r-package",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "plotly/plotly.R",
+      "target": "rstats",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "plotly/plotly.R",
+      "target": "shiny",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "plotly/plotly.R",
+      "target": "webgl",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T04:06:00.496083+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5247
+    },
+    {
+      "path": ".github/workflows/R-CMD-check.yaml",
+      "size": 3907
+    },
+    {
+      "path": ".github/workflows/docs.yml",
+      "size": 1803
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "An interactive graphing library for R",
+    "fork": false,
+    "full_name": "plotly/plotly.R",
+    "html_url": "https://github.com/plotly/plotly.R",
+    "language": "R",
+    "pushed_at": "2026-04-16T21:34:27Z",
+    "stargazers_count": 2665,
+    "topics": [
+      "d3js",
+      "data-visualization",
+      "ggplot2",
+      "javascript",
+      "plotly",
+      "r",
+      "r-package",
+      "rstats",
+      "shiny",
+      "webgl"
+    ],
+    "updated_at": "2026-04-29T18:11:24Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ropensci/plotly",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "tidyverse/ggplot2",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "R-CMD-check",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/R-CMD-check.yaml",
+      "term": "R-CMD-check"
+    },
+    {
+      "context_snippet": "Deploy R Documentation",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docs.yml",
+      "term": "Deploy R Documentation"
+    },
+    {
+      "context_snippet": "<!-- README.md is generated from README.Rmd. Please edit that file -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "d3js"
+    },
+    {
+      "context_snippet": "<!-- README.md is generated from README.Rmd. Please edit that file -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "data-visualization"
+    },
+    {
+      "context_snippet": "<!-- README.md is generated from README.Rmd. Please edit that file -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ggplot2"
+    },
+    {
+      "context_snippet": "<!-- README.md is generated from README.Rmd. Please edit that file -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "plotly"
+    },
+    {
+      "context_snippet": "<!-- README.md is generated from README.Rmd. Please edit that file -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "r-package"
+    },
+    {
+      "context_snippet": "<!-- README.md is generated from README.Rmd. Please edit that file -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rstats"
+    },
+    {
+      "context_snippet": "<!-- README.md is generated from README.Rmd. Please edit that file -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "shiny"
+    },
+    {
+      "context_snippet": "<!-- README.md is generated from README.Rmd. Please edit that file -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "webgl"
+    }
+  ]
+}

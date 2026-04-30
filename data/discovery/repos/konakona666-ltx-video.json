@@ -1,0 +1,88 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pylint.yml"
+    },
+    {
+      "component": "actions/setup-python@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pylint.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "KONAKONA666/LTX-Video",
+      "target": "pixart-alpha/pixart-alpha",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pylint.yml",
+      "source_repo": "KONAKONA666/LTX-Video",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pylint.yml",
+      "source_repo": "KONAKONA666/LTX-Video",
+      "target": "actions/setup-python@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pylint.yml",
+      "source_repo": "KONAKONA666/LTX-Video",
+      "target": "Ruff",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T03:56:14.283123+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4781
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 817
+    },
+    {
+      "path": ".github/workflows/pylint.yml",
+      "size": 711
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "LTXVideo Q8",
+    "fork": true,
+    "full_name": "KONAKONA666/LTX-Video",
+    "html_url": "https://github.com/KONAKONA666/LTX-Video",
+    "language": "Python",
+    "pushed_at": "2024-12-11T16:38:12Z",
+    "stargazers_count": 114,
+    "topics": [],
+    "updated_at": "2026-01-11T09:07:33Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "pixart-alpha/pixart-alpha",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Ruff",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pylint.yml",
+      "term": "Ruff"
+    }
+  ]
+}

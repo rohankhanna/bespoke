@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-18T11:24:14.688152+00:00",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "sources": [
     {
       "discovered_via": "repo-topic",
@@ -206,6 +206,31 @@
       "discovered_via": "repo-topic",
       "source_file": null,
       "source_repo": "extism/extism"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/wasm.yml",
+      "source_repo": "paulocoutinhox/pdfium-lib"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "RustPython/RustPython"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "extism/c-pdk"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/wasm.yml",
+      "source_repo": "nativium/nativium"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/wasm.yml",
+      "source_repo": "xplpc/xplpc"
     }
   ],
   "term": "wasm"

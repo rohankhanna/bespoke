@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T03:54:24.766053+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 17166
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "High-Resolution Image Synthesis with Latent Diffusion Models",
+    "fork": true,
+    "full_name": "devilismyfriend/latent-diffusion",
+    "html_url": "https://github.com/devilismyfriend/latent-diffusion",
+    "language": "Jupyter Notebook",
+    "pushed_at": "2022-09-21T02:01:48Z",
+    "stargazers_count": 54,
+    "topics": [],
+    "updated_at": "2025-11-19T11:28:19Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

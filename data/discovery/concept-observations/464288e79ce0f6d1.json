@@ -84,7 +84,7 @@
   "normalized_form": "example-tests",
   "observation_id": "464288e79ce0f6d1",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_at": "2026-04-30T00:37:16.824464+00:00",
   "observed_text": "Example tests",
   "source_context_snippet": "Example tests",
   "source_file": ".github/workflows/example_tests.yml",

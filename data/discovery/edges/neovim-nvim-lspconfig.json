@@ -109,7 +109,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/test.yml",
       "source_repo": "neovim/nvim-lspconfig",
-      "target": "leafo/gh-actions-lua@v12",
+      "target": "leafo/gh-actions-lua@v13",
       "target_type": "component"
     },
     {
@@ -162,6 +162,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-04-23T04:27:42.433064+00:00",
+  "generated_at": "2026-04-30T00:37:16.824464+00:00",
   "source_repo": "neovim/nvim-lspconfig"
 }

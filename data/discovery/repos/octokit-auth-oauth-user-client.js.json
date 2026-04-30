@@ -1,0 +1,72 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "octokit/auth-oauth-user-client.js",
+      "target": "oauth",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "octokit/auth-oauth-user-client.js",
+      "target": "octokit-js",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "octokit/auth-oauth-user-client.js",
+      "target": "plugin",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T05:06:33.609125+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 360
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "OAuth user authentication without exposing client secret",
+    "fork": false,
+    "full_name": "octokit/auth-oauth-user-client.js",
+    "html_url": "https://github.com/octokit/auth-oauth-user-client.js",
+    "language": null,
+    "pushed_at": "2024-08-10T04:10:54Z",
+    "stargazers_count": 23,
+    "topics": [
+      "oauth",
+      "octokit-js",
+      "plugin"
+    ],
+    "updated_at": "2026-04-11T08:56:34Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "> OAuth user authentication without exposing client secret",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "oauth"
+    },
+    {
+      "context_snippet": "> OAuth user authentication without exposing client secret",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "octokit-js"
+    },
+    {
+      "context_snippet": "> OAuth user authentication without exposing client secret",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "plugin"
+    }
+  ]
+}

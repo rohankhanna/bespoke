@@ -1,0 +1,208 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-publish.yml"
+    },
+    {
+      "component": "actions/setup-python@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-publish.yml"
+    },
+    {
+      "component": "pypa/gh-action-pypi-publish@27b31702a0e7fc50959f5ad993c78deac1bdfc29",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-publish.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "feifeibear/long-context-attention",
+      "target": "microsoft/deepspeed",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "feifeibear/long-context-attention",
+      "target": "flagopen/flagscale",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "feifeibear/long-context-attention",
+      "target": "feifeibear/odysseus-transformer",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "feifeibear/long-context-attention",
+      "target": "jzhang38/easycontext",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-publish.yml",
+      "source_repo": "feifeibear/long-context-attention",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-publish.yml",
+      "source_repo": "feifeibear/long-context-attention",
+      "target": "actions/setup-python@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-publish.yml",
+      "source_repo": "feifeibear/long-context-attention",
+      "target": "pypa/gh-action-pypi-publish@27b31702a0e7fc50959f5ad993c78deac1bdfc29",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "feifeibear/long-context-attention",
+      "target": "attention-is-all-you-need",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "feifeibear/long-context-attention",
+      "target": "deepspeed-ulysses",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "feifeibear/long-context-attention",
+      "target": "llm-inference",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "feifeibear/long-context-attention",
+      "target": "llm-training",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "feifeibear/long-context-attention",
+      "target": "pytorch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "feifeibear/long-context-attention",
+      "target": "ring-attention",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T03:56:32.371717+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 12164
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 856
+    },
+    {
+      "path": ".github/workflows/python-publish.yml",
+      "size": 1111
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "USP: Unified (a.k.a. Hybrid, 2D) Sequence Parallel Attention for Long Context Transformers Model Training and Inference",
+    "fork": false,
+    "full_name": "feifeibear/long-context-attention",
+    "html_url": "https://github.com/feifeibear/long-context-attention",
+    "language": "Python",
+    "pushed_at": "2026-01-15T11:55:25Z",
+    "stargazers_count": 666,
+    "topics": [
+      "attention-is-all-you-need",
+      "deepspeed-ulysses",
+      "llm-inference",
+      "llm-training",
+      "pytorch",
+      "ring-attention"
+    ],
+    "updated_at": "2026-04-26T13:53:16Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "feifeibear/odysseus-transformer",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "flagopen/flagscale",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jzhang38/easycontext",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "microsoft/deepspeed",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[\\[Tech Report\\] USP: A Unified Sequence Parallelism Approach for Long Context Generative AI](https://arxiv.org/abs/2405.07719)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "attention-is-all-you-need"
+    },
+    {
+      "context_snippet": "[\\[Tech Report\\] USP: A Unified Sequence Parallelism Approach for Long Context Generative AI](https://arxiv.org/abs/2405.07719)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deepspeed-ulysses"
+    },
+    {
+      "context_snippet": "[\\[Tech Report\\] USP: A Unified Sequence Parallelism Approach for Long Context Generative AI](https://arxiv.org/abs/2405.07719)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "llm-inference"
+    },
+    {
+      "context_snippet": "[\\[Tech Report\\] USP: A Unified Sequence Parallelism Approach for Long Context Generative AI](https://arxiv.org/abs/2405.07719)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "llm-training"
+    },
+    {
+      "context_snippet": "[\\[Tech Report\\] USP: A Unified Sequence Parallelism Approach for Long Context Generative AI](https://arxiv.org/abs/2405.07719)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytorch"
+    },
+    {
+      "context_snippet": "[\\[Tech Report\\] USP: A Unified Sequence Parallelism Approach for Long Context Generative AI](https://arxiv.org/abs/2405.07719)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ring-attention"
+    }
+  ]
+}

@@ -31,6 +31,18 @@
       "source_repo": "open-mmlab/mmagic",
       "status": "candidate-context",
       "text": "<div id=\"top\" align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lmxyy/sige",
+      "status": "candidate-context",
+      "text": "[NeurIPS 2022, T-PAMI 2023] Efficient Spatially Sparse Inference for Conditional GANs and Diffusion Models"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lmxyy/sige",
+      "status": "candidate-context",
+      "text": "**[NEW!]** SIGE is accepted by T-PAMI!"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +57,12 @@
       "source_repo": "open-mmlab/mmagic",
       "status": "candidate",
       "text": "<div id=\"top\" align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lmxyy/sige",
+      "status": "candidate",
+      "text": "**[NEW!]** SIGE is accepted by T-PAMI!"
     }
   ],
   "candidate_related_terms": [],
@@ -82,11 +100,23 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "open-mmlab/mmagic"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "open-mmlab/mmagic"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "lmxyy/sige"
     }
   ],
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

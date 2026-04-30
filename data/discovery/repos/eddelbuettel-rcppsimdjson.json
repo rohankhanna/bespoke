@@ -1,0 +1,170 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "eddelbuettel/github-actions/r-ci@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/covr.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "eddelbuettel/rcppsimdjson",
+      "target": "rcppcore/rcpp",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "eddelbuettel/rcppsimdjson",
+      "target": "ibireme/yyjson",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "eddelbuettel/rcppsimdjson",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "eddelbuettel/rcppsimdjson",
+      "target": "eddelbuettel/github-actions/r-ci@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/covr.yaml",
+      "source_repo": "eddelbuettel/rcppsimdjson",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/covr.yaml",
+      "source_repo": "eddelbuettel/rcppsimdjson",
+      "target": "covr",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "eddelbuettel/rcppsimdjson",
+      "target": "cran",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "eddelbuettel/rcppsimdjson",
+      "target": "json",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "eddelbuettel/rcppsimdjson",
+      "target": "r-package",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "eddelbuettel/rcppsimdjson",
+      "target": "simdjson",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T01:46:17.722780+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5631
+    },
+    {
+      "path": ".github/workflows/ci.yaml",
+      "size": 1298
+    },
+    {
+      "path": ".github/workflows/covr.yaml",
+      "size": 583
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Rcpp Bindings for the 'simdjson' Header Library",
+    "fork": false,
+    "full_name": "eddelbuettel/rcppsimdjson",
+    "html_url": "https://github.com/eddelbuettel/rcppsimdjson",
+    "language": "C++",
+    "pushed_at": "2026-04-13T11:58:05Z",
+    "stargazers_count": 125,
+    "topics": [
+      "cran",
+      "json",
+      "r",
+      "r-package",
+      "simdjson"
+    ],
+    "updated_at": "2026-04-15T15:15:35Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ibireme/yyjson",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "rcppcore/rcpp",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "covr",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/covr.yaml",
+      "term": "covr"
+    },
+    {
+      "context_snippet": "[![CI](https://github.com/eddelbuettel/rcppsimdjson/workflows/ci/badge.svg)](https://github.com/eddelbuettel/rcppsimdjson/actions?query=workflow%3Aci)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cran"
+    },
+    {
+      "context_snippet": "[![CI](https://github.com/eddelbuettel/rcppsimdjson/workflows/ci/badge.svg)](https://github.com/eddelbuettel/rcppsimdjson/actions?query=workflow%3Aci)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "json"
+    },
+    {
+      "context_snippet": "[![CI](https://github.com/eddelbuettel/rcppsimdjson/workflows/ci/badge.svg)](https://github.com/eddelbuettel/rcppsimdjson/actions?query=workflow%3Aci)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "r-package"
+    },
+    {
+      "context_snippet": "[![CI](https://github.com/eddelbuettel/rcppsimdjson/workflows/ci/badge.svg)](https://github.com/eddelbuettel/rcppsimdjson/actions?query=workflow%3Aci)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "simdjson"
+    }
+  ]
+}

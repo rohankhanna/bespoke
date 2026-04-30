@@ -63,16 +63,6 @@
     {
       "component": "actions/checkout@v4",
       "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/import-time.yml"
-    },
-    {
-      "component": "astral-sh/setup-uv@v6",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/import-time.yml"
-    },
-    {
-      "component": "actions/checkout@v4",
-      "edge_type": "workflow-uses",
       "source_file": ".github/workflows/linter.yml"
     },
     {
@@ -144,23 +134,14 @@
       "component": "codelytv/pr-size-labeler@v1",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/pr-size.yml"
+    },
+    {
+      "component": "amannn/action-semantic-pull-request@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-title.yml"
     }
   ],
   "edges": [
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "crewAIInc/crewAI",
-      "target": "crewaiinc/skills",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "crewAIInc/crewAI",
-      "target": "crewaiinc/crewai-examples",
-      "target_type": "repository"
-    },
     {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/build-uv-cache.yml",
@@ -275,27 +256,6 @@
     },
     {
       "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/import-time.yml",
-      "source_repo": "crewAIInc/crewAI",
-      "target": "actions/checkout@v4",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/import-time.yml",
-      "source_repo": "crewAIInc/crewAI",
-      "target": "astral-sh/setup-uv@v6",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "workflow-name",
-      "source_file": ".github/workflows/import-time.yml",
-      "source_repo": "crewAIInc/crewAI",
-      "target": "Import Time Guard",
-      "target_type": "term"
-    },
-    {
-      "edge_type": "workflow-uses",
       "source_file": ".github/workflows/linter.yml",
       "source_repo": "crewAIInc/crewAI",
       "target": "actions/checkout@v4",
@@ -400,6 +360,20 @@
       "target_type": "term"
     },
     {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-title.yml",
+      "source_repo": "crewAIInc/crewAI",
+      "target": "amannn/action-semantic-pull-request@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr-title.yml",
+      "source_repo": "crewAIInc/crewAI",
+      "target": "PR Title Check",
+      "target_type": "term"
+    },
+    {
       "edge_type": "repo-topic",
       "source_file": null,
       "source_repo": "crewAIInc/crewAI",
@@ -414,7 +388,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-22T05:24:10.086098+00:00",
+  "fetched_at": "2026-04-30T02:50:49.058435+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -422,7 +396,7 @@
     },
     {
       "path": "pyproject.toml",
-      "size": 7283
+      "size": 7569
     },
     {
       "path": ".github/workflows/build-uv-cache.yml",
@@ -438,11 +412,7 @@
     },
     {
       "path": ".github/workflows/generate-tool-specs.yml",
-      "size": 1705
-    },
-    {
-      "path": ".github/workflows/import-time.yml",
-      "size": 3439
+      "size": 1824
     },
     {
       "path": ".github/workflows/linter.yml",
@@ -455,6 +425,10 @@
     {
       "path": ".github/workflows/pr-size.yml",
       "size": 769
+    },
+    {
+      "path": ".github/workflows/pr-title.yml",
+      "size": 1029
     }
   ],
   "related_repositories": [],
@@ -466,8 +440,8 @@
     "full_name": "crewAIInc/crewAI",
     "html_url": "https://github.com/crewAIInc/crewAI",
     "language": "Python",
-    "pushed_at": "2026-04-22T05:19:13Z",
-    "stargazers_count": 49478,
+    "pushed_at": "2026-04-29T21:58:42Z",
+    "stargazers_count": 50306,
     "topics": [
       "agents",
       "ai",
@@ -475,20 +449,9 @@
       "aiagentframework",
       "llms"
     ],
-    "updated_at": "2026-04-22T05:17:39Z"
+    "updated_at": "2026-04-30T02:13:06Z"
   },
-  "repo_links": [
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "crewaiinc/crewai-examples",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "crewaiinc/skills",
-      "source_file": "README.md"
-    }
-  ],
+  "repo_links": [],
   "terms": [
     {
       "context_snippet": "Build uv cache",
@@ -515,12 +478,6 @@
       "term": "Generate Tool Specifications"
     },
     {
-      "context_snippet": "Import Time Guard",
-      "edge_type": "workflow-name",
-      "source_file": ".github/workflows/import-time.yml",
-      "term": "Import Time Guard"
-    },
-    {
       "context_snippet": "Lint",
       "edge_type": "workflow-name",
       "source_file": ".github/workflows/linter.yml",
@@ -537,6 +494,12 @@
       "edge_type": "workflow-name",
       "source_file": ".github/workflows/pr-size.yml",
       "term": "PR Size Check"
+    },
+    {
+      "context_snippet": "PR Title Check",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr-title.yml",
+      "term": "PR Title Check"
     },
     {
       "context_snippet": "<p align=\"center\">",

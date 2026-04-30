@@ -1,0 +1,136 @@
+{
+  "aliases": [
+    "mind"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "shenweichen/DeepMatch",
+      "status": "candidate-context",
+      "text": "A deep matching model library for recommendations & advertising. It's easy to train models and to export representation vectors which can be used for ANN search."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "shenweichen/DeepMatch",
+      "status": "candidate-context",
+      "text": "[![Python Versions](https://img.shields.io/pypi/pyversions/deepmatch.svg)](https://pypi.org/project/deepmatch)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "shenweichen/DeepMatch",
+      "status": "candidate",
+      "text": "[![Python Versions](https://img.shields.io/pypi/pyversions/deepmatch.svg)](https://pypi.org/project/deepmatch)"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40027567,
+      "status": "candidate",
+      "text": "intellect"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40027272,
+      "status": "candidate",
+      "text": "thinker"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40026001,
+      "status": "candidate",
+      "text": "bear in mind"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40023688,
+      "status": "candidate",
+      "text": "heed"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40020987,
+      "status": "candidate",
+      "text": "listen"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 39052,
+      "status": "candidate",
+      "text": "idea"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 34112,
+      "status": "candidate",
+      "text": "head"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 33040,
+      "status": "candidate",
+      "text": "nous"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 27061,
+      "status": "candidate",
+      "text": "judgment"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 27039,
+      "status": "candidate",
+      "text": "heed"
+    }
+  ],
+  "canonical_name": "mind",
+  "concept_id": "mind",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "shenweichen/DeepMatch"
+    }
+  ],
+  "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "mind",
+      "sense_id": "mind#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

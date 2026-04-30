@@ -1,0 +1,45 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "google/crc32c",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-04-30T05:16:05.798552+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3444
+    },
+    {
+      "path": ".github/workflows/build.yml",
+      "size": 3197
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "CRC32C implementation with support for CPU-specific acceleration instructions",
+    "fork": false,
+    "full_name": "google/crc32c",
+    "html_url": "https://github.com/google/crc32c",
+    "language": "C++",
+    "pushed_at": "2025-04-07T23:42:04Z",
+    "stargazers_count": 504,
+    "topics": [],
+    "updated_at": "2026-04-17T07:23:32Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

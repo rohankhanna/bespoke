@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "aqt: Another (unofficial) Qt  CLI  Installer on multi-platforms"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Another Qt installer(aqt)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Another Qt installer(aqt)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10023370,
+      "status": "candidate",
+      "text": "msys"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10023369,
+      "status": "candidate",
+      "text": "gnu gpl"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10023368,
+      "status": "candidate",
+      "text": "winjs"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10023367,
+      "status": "candidate",
+      "text": "lgpl"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10023366,
+      "status": "candidate",
+      "text": "mgrw"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "mingw",
+      "sense_id": "mingw#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "mingw",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "mingw",
+  "observation_id": "1860d98fca76ce92",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T00:37:16.824464+00:00",
+  "observed_text": "mingw",
+  "source_context_snippet": "Another Qt installer(aqt)",
+  "source_file": null,
+  "source_repo": "miurahr/aqtinstall",
+  "source_repo_description": "aqt: Another (unofficial) Qt  CLI  Installer on multi-platforms"
+}

@@ -79,6 +79,30 @@
       "source_repo": "simplex-chat/simplex-chat",
       "status": "candidate-context",
       "text": "[![build](https://github.com/simplex-chat/simplex-chat/actions/workflows/build.yml/badge.svg?branch=stable)](https://github.com/simplex-chat/simplex-chat/actions/workflows/build.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "zeromq/jeromq",
+      "status": "candidate-context",
+      "text": "JeroMQ is a pure Java implementation of the ZeroMQ messaging library, offering high-performance asynchronous messaging for distributed or concurrent applications."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "zeromq/jeromq",
+      "status": "candidate-context",
+      "text": "Pure Java implementation of libzmq (http://zeromq.org)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apache/rocketmq",
+      "status": "candidate-context",
+      "text": "Apache RocketMQ is a cloud native messaging and streaming platform, making it simple to build event-driven applications."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/rocketmq",
+      "status": "candidate-context",
+      "text": "[![Build Status][maven-build-image]][maven-build-url]"
     }
   ],
   "candidate_glosses": [
@@ -117,6 +141,18 @@
       "source_repo": "simplex-chat/simplex-chat",
       "status": "candidate",
       "text": "[![build](https://github.com/simplex-chat/simplex-chat/actions/workflows/build.yml/badge.svg?branch=stable)](https://github.com/simplex-chat/simplex-chat/actions/workflows/build.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "zeromq/jeromq",
+      "status": "candidate",
+      "text": "Pure Java implementation of libzmq (http://zeromq.org)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/rocketmq",
+      "status": "candidate",
+      "text": "[![Build Status][maven-build-image]][maven-build-url]"
     }
   ],
   "candidate_related_terms": [
@@ -196,11 +232,23 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": null,
       "source_repo": "simplex-chat/simplex-chat"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "zeromq/jeromq"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "apache/rocketmq"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

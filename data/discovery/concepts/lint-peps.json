@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Lint PEPs"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "python/peps",
+      "status": "candidate-context",
+      "text": "Python Enhancement Proposals"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "python/peps",
+      "status": "candidate-context",
+      "text": "Lint PEPs"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "python/peps",
+      "status": "candidate",
+      "text": "Lint PEPs"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10854,
+      "status": "candidate",
+      "text": "braids"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 7304,
+      "status": "candidate",
+      "text": "energizes"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 6754,
+      "status": "candidate",
+      "text": "alive"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 6754,
+      "status": "candidate",
+      "text": "amphetamine"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 6754,
+      "status": "candidate",
+      "text": "anemia"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Lint PEPs",
+  "concept_id": "lint-peps",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "python/peps"
+    }
+  ],
+  "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Lint PEPs",
+      "sense_id": "lint-peps#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

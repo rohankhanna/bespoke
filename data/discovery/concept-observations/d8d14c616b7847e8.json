@@ -1,0 +1,52 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "This is a re-implementation of the paper: 'ACNet: Strengthening the Kernel Skeletons for Powerful CNN via Asymmetric Convolution Blocks'"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "This is a re-implementation of the paper: 'ACNet: Strengthening the Kernel Skeletons for Powerful CNN via Asymmetric Convolution Blocks'"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "tensorflow2",
+      "sense_id": "tensorflow2#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "tensorflow2",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "tensorflow2",
+  "observation_id": "d8d14c616b7847e8",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T00:37:16.824464+00:00",
+  "observed_text": "tensorflow2",
+  "source_context_snippet": "This is a re-implementation of the paper: 'ACNet: Strengthening the Kernel Skeletons for Powerful CNN via Asymmetric Convolution Blocks'",
+  "source_file": null,
+  "source_repo": "CXYCarson/TF_AcBlock",
+  "source_repo_description": null
+}

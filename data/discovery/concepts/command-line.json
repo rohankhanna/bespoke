@@ -577,6 +577,114 @@
       "source_repo": "Ash258/Scoop-Core",
       "status": "candidate-context",
       "text": "Command-line installer for Windows"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "AndersDJohnson/conventional-commit-types-cli",
+      "status": "candidate-context",
+      "text": "CLI to list conventional commit types."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AndersDJohnson/conventional-commit-types-cli",
+      "status": "candidate-context",
+      "text": "CLI to list conventional commit types per https://github.com/commitizen/conventional-commit-types."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cointop-sh/colors",
+      "status": "candidate-context",
+      "text": "Cointop colorschemes"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cointop-sh/colors",
+      "status": "candidate-context",
+      "text": "> Standard colorschemes (themes) for [cointop](https://github.com/miguelmota/cointop/)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dskkato/rjo",
+      "status": "candidate-context",
+      "text": "A small utility to create JSON objects, written in Rust."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dskkato/rjo",
+      "status": "candidate-context",
+      "text": "[![rjo](https://img.shields.io/crates/v/rjo.svg)](https://crates.io/crates/rjo)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sayanarijit/jf",
+      "status": "candidate-context",
+      "text": "jf %q \"JSON Formatted\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sayanarijit/jf",
+      "status": "candidate-context",
+      "text": "[![Crate Status](https://img.shields.io/crates/v/jf.svg)](https://crates.io/crates/jf)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "PowerShell/PowerShell",
+      "status": "candidate-context",
+      "text": "PowerShell for every system!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PowerShell/PowerShell",
+      "status": "candidate-context",
+      "text": "Welcome to the PowerShell GitHub Community!"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "watchexec/watchexec",
+      "status": "candidate-context",
+      "text": "Executes commands in response to file modifications"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "watchexec/watchexec",
+      "status": "candidate-context",
+      "text": "[![CI status on main branch](https://github.com/watchexec/watchexec/actions/workflows/tests.yml/badge.svg)](https://github.com/watchexec/watchexec/actions/workflows/tests.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sharkdp/pastel",
+      "status": "candidate-context",
+      "text": "A command-line tool to generate, analyze, convert and manipulate colors"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sharkdp/pastel",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://img.shields.io/github/actions/workflow/status/sharkdp/pastel/CICD.yml?style=flat-square)](https://github.com/sharkdp/pastel/actions)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "2KAbhishek/mac2k",
+      "status": "candidate-context",
+      "text": "Ultimate Dev Setup for Mac OS \ud83d\ude80\ud83c\udf4e"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "2KAbhishek/mac2k",
+      "status": "candidate-context",
+      "text": "<div align = \"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "humbug/php-scoper",
+      "status": "candidate-context",
+      "text": "\ud83d\udd28 Prefixes all PHP namespaces in a file/directory to isolate the code bundled in PHARs."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "humbug/php-scoper",
+      "status": "candidate-context",
+      "text": "[![Package version](https://img.shields.io/packagist/v/humbug/php-scoper.svg?style=flat-square)](https://packagist.org/packages/humbug/php-scoper)"
     }
   ],
   "candidate_glosses": [
@@ -861,6 +969,60 @@
       "source_repo": "Ash258/Scoop-Core",
       "status": "candidate",
       "text": "Command-line installer for Windows"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AndersDJohnson/conventional-commit-types-cli",
+      "status": "candidate",
+      "text": "CLI to list conventional commit types per https://github.com/commitizen/conventional-commit-types."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cointop-sh/colors",
+      "status": "candidate",
+      "text": "> Standard colorschemes (themes) for [cointop](https://github.com/miguelmota/cointop/)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dskkato/rjo",
+      "status": "candidate",
+      "text": "[![rjo](https://img.shields.io/crates/v/rjo.svg)](https://crates.io/crates/rjo)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sayanarijit/jf",
+      "status": "candidate",
+      "text": "[![Crate Status](https://img.shields.io/crates/v/jf.svg)](https://crates.io/crates/jf)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PowerShell/PowerShell",
+      "status": "candidate",
+      "text": "Welcome to the PowerShell GitHub Community!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "watchexec/watchexec",
+      "status": "candidate",
+      "text": "[![CI status on main branch](https://github.com/watchexec/watchexec/actions/workflows/tests.yml/badge.svg)](https://github.com/watchexec/watchexec/actions/workflows/tests.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sharkdp/pastel",
+      "status": "candidate",
+      "text": "[![Build Status](https://img.shields.io/github/actions/workflow/status/sharkdp/pastel/CICD.yml?style=flat-square)](https://github.com/sharkdp/pastel/actions)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "2KAbhishek/mac2k",
+      "status": "candidate",
+      "text": "<div align = \"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "humbug/php-scoper",
+      "status": "candidate",
+      "text": "[![Package version](https://img.shields.io/packagist/v/humbug/php-scoper.svg?style=flat-square)](https://packagist.org/packages/humbug/php-scoper)"
     }
   ],
   "candidate_related_terms": [
@@ -1200,11 +1362,71 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "Ash258/Scoop-Core"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "AndersDJohnson/conventional-commit-types-cli"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "cointop-sh/colors"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "Comfy-Org/comfy-cli"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "dskkato/rjo"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "sayanarijit/jf"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "PowerShell/PowerShell"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "watchexec/watchexec"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "sharkdp/pastel"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "2KAbhishek/mac2k"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "humbug/php-scoper"
     }
   ],
   "first_seen_at": "2026-04-18T11:41:43.530265+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

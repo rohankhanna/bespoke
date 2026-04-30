@@ -1,0 +1,12 @@
+{
+  "component": "antongolub/action-setup-bun@f0b9f339a7ce9ba1174a58484e4dc9bbd6f7b133",
+  "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "google/zx"
+    }
+  ]
+}

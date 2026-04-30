@@ -1,0 +1,143 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "btkelly/gnag",
+      "target": "android",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "btkelly/gnag",
+      "target": "android-lint",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "btkelly/gnag",
+      "target": "checkstyle",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "btkelly/gnag",
+      "target": "findbugs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "btkelly/gnag",
+      "target": "github-pr",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "btkelly/gnag",
+      "target": "gradle",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "btkelly/gnag",
+      "target": "reporting-violations",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "btkelly/gnag",
+      "target": "violations",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T05:05:38.830403+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 10731
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A Gradle plugin that helps facilitate GitHub PR checking and automatic commenting of violations.",
+    "fork": false,
+    "full_name": "btkelly/gnag",
+    "html_url": "https://github.com/btkelly/gnag",
+    "language": "Java",
+    "pushed_at": "2024-11-04T16:19:40Z",
+    "stargazers_count": 127,
+    "topics": [
+      "android",
+      "android-lint",
+      "checkstyle",
+      "findbugs",
+      "github-pr",
+      "gradle",
+      "pmd",
+      "reporting-violations",
+      "violations"
+    ],
+    "updated_at": "2026-03-20T03:32:22Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Gnag is a Gradle plugin that helps facilitate GitHub PR checking and automatic commenting of violations for Android projects.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "android"
+    },
+    {
+      "context_snippet": "Gnag is a Gradle plugin that helps facilitate GitHub PR checking and automatic commenting of violations for Android projects.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "android-lint"
+    },
+    {
+      "context_snippet": "Gnag is a Gradle plugin that helps facilitate GitHub PR checking and automatic commenting of violations for Android projects.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "checkstyle"
+    },
+    {
+      "context_snippet": "Gnag is a Gradle plugin that helps facilitate GitHub PR checking and automatic commenting of violations for Android projects.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "findbugs"
+    },
+    {
+      "context_snippet": "Gnag is a Gradle plugin that helps facilitate GitHub PR checking and automatic commenting of violations for Android projects.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "github-pr"
+    },
+    {
+      "context_snippet": "Gnag is a Gradle plugin that helps facilitate GitHub PR checking and automatic commenting of violations for Android projects.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gradle"
+    },
+    {
+      "context_snippet": "Gnag is a Gradle plugin that helps facilitate GitHub PR checking and automatic commenting of violations for Android projects.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "reporting-violations"
+    },
+    {
+      "context_snippet": "Gnag is a Gradle plugin that helps facilitate GitHub PR checking and automatic commenting of violations for Android projects.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "violations"
+    }
+  ]
+}

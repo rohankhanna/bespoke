@@ -517,6 +517,126 @@
       "source_repo": "2KAbhishek/dots2k",
       "status": "candidate-context",
       "text": "<div align = \"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pacstall/pacstall",
+      "status": "candidate-context",
+      "text": "An AUR-inspired package manager for Ubuntu"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pacstall/pacstall",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "iterative/shtab",
+      "status": "candidate-context",
+      "text": "\u2194\ufe0f Automagic shell tab completion for Python CLI applications"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "iterative/shtab",
+      "status": "candidate-context",
+      "text": "|Logo|"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kislyuk/argcomplete",
+      "status": "candidate-context",
+      "text": "Python and tab completion, better together."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kislyuk/argcomplete",
+      "status": "candidate-context",
+      "text": "argcomplete - Bash/zsh tab completion for argparse"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lavabit/robox",
+      "status": "candidate-context",
+      "text": "The tools needed to robotically create/configure/provision a large number of operating systems, for a variety of hypervisors, using packer."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lavabit/robox",
+      "status": "candidate-context",
+      "text": "Generic base boxes, providing a variety of operating systems, and available across a number of different virtualized platforms."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "tinted-theming/tinted-shell",
+      "status": "candidate-context",
+      "text": "Base16 and Base24 for Shells"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tinted-theming/tinted-shell",
+      "status": "candidate-context",
+      "text": "[![Matrix Chat](https://img.shields.io/matrix/tinted-theming:matrix.org)](https://matrix.to/#/#tinted-theming:matrix.org)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "google/zx",
+      "status": "candidate-context",
+      "text": "A tool for writing better scripts"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/zx",
+      "status": "candidate-context",
+      "text": "<h1><img src=\"https://google.github.io/zx/img/logo.svg\" alt=\"Zx logo\" height=\"32\" width=\"28\" valign=\"middle\"> zx</h1>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pacstall/pacstall-programs",
+      "status": "candidate-context",
+      "text": "Pacstall's official program repository"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pacstall/pacstall-programs",
+      "status": "candidate-context",
+      "text": "This is the default repository of pacscripts which [pacstall](https://github.com/pacstall/pacstall) uses to install software. You can fork this repository and add make your own package repository as long as it follows the basic structure:"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "codota/tabnine-sublime",
+      "status": "candidate-context",
+      "text": "Tabnine Autocomplete AI: JavaScript, Python, TypeScript, PHP, C/C++, HTML/CSS, Go, Java, Ruby, C#, Rust, SQL, Bash, Kotlin, Julia, Lua, OCaml, Perl, Haskell, React"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "codota/tabnine-sublime",
+      "status": "candidate-context",
+      "text": "[twitter-shield]: https://img.shields.io/twitter/follow/Tabnine_?style=social"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "codota/tabnine-vim",
+      "status": "candidate-context",
+      "text": "Vim client for TabNine. https://vimawesome.com/plugin/tabnine-vim"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "codota/tabnine-vim",
+      "status": "candidate-context",
+      "text": "[twitter-shield]: https://img.shields.io/twitter/follow/Tabnine_?style=social"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "2KAbhishek/mkrepo",
+      "status": "candidate-context",
+      "text": "Ready to go repos from the CLI \u2708\ud83d\udca1"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "2KAbhishek/mkrepo",
+      "status": "candidate-context",
+      "text": "<div align = \"center\">"
     }
   ],
   "candidate_glosses": [
@@ -769,6 +889,66 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "2KAbhishek/dots2k",
+      "status": "candidate",
+      "text": "<div align = \"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pacstall/pacstall",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "iterative/shtab",
+      "status": "candidate",
+      "text": "|Logo|"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kislyuk/argcomplete",
+      "status": "candidate",
+      "text": "argcomplete - Bash/zsh tab completion for argparse"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lavabit/robox",
+      "status": "candidate",
+      "text": "Generic base boxes, providing a variety of operating systems, and available across a number of different virtualized platforms."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tinted-theming/tinted-shell",
+      "status": "candidate",
+      "text": "[![Matrix Chat](https://img.shields.io/matrix/tinted-theming:matrix.org)](https://matrix.to/#/#tinted-theming:matrix.org)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/zx",
+      "status": "candidate",
+      "text": "<h1><img src=\"https://google.github.io/zx/img/logo.svg\" alt=\"Zx logo\" height=\"32\" width=\"28\" valign=\"middle\"> zx</h1>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pacstall/pacstall-programs",
+      "status": "candidate",
+      "text": "This is the default repository of pacscripts which [pacstall](https://github.com/pacstall/pacstall) uses to install software. You can fork this repository and add make your own package repository as long as it follows the basic structure:"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "codota/tabnine-sublime",
+      "status": "candidate",
+      "text": "[twitter-shield]: https://img.shields.io/twitter/follow/Tabnine_?style=social"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "codota/tabnine-vim",
+      "status": "candidate",
+      "text": "[twitter-shield]: https://img.shields.io/twitter/follow/Tabnine_?style=social"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "2KAbhishek/mkrepo",
       "status": "candidate",
       "text": "<div align = \"center\">"
     }
@@ -1198,11 +1378,101 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "nvm-sh/nvm"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "pacstall/pacstall"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "codota/TabNine"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "iterative/shtab"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "micromatch/micromatch"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "kislyuk/argcomplete"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "lavabit/robox"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "nvm-sh/nvm"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "tinted-theming/tinted-shell"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "google/zx"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "babashka/babashka"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "pacstall/pacstall-programs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "codota/tabnine-atom"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "codota/tabnine-sublime"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "codota/tabnine-vim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "2KAbhishek/mkrepo"
     }
   ],
   "first_seen_at": "2026-04-18T10:43:38.551697+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

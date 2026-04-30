@@ -223,6 +223,54 @@
       "source_repo": "webextension-toolbox/webextension-toolbox",
       "status": "candidate-context",
       "text": "[<img align=\"right\" src=\"./assets/icon.svg?sanitize=true\">](https://www.npmjs.com/package/@webextension-toolbox/webextension-toolbox)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "timarney/react-app-rewired",
+      "status": "candidate-context",
+      "text": "Override create-react-app webpack configs without ejecting"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "timarney/react-app-rewired",
+      "status": "candidate-context",
+      "text": "> \u2139\ufe0f"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "web-infra-dev/rsbuild",
+      "status": "candidate-context",
+      "text": "Simple, fast, extensible build tool. Powered by Rspack \ud83e\udd80"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "web-infra-dev/rsbuild",
+      "status": "candidate-context",
+      "text": "<picture>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "web-infra-dev/rsdoctor",
+      "status": "candidate-context",
+      "text": "A one-stop build analyzer for Rspack and webpack."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "web-infra-dev/rsdoctor",
+      "status": "candidate-context",
+      "text": "<picture>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "web-infra-dev/rslib",
+      "status": "candidate-context",
+      "text": "Create JavaScript libraries in a simple and intuitive way."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "web-infra-dev/rslib",
+      "status": "candidate-context",
+      "text": "<picture>"
     }
   ],
   "candidate_glosses": [
@@ -333,6 +381,30 @@
       "source_repo": "webextension-toolbox/webextension-toolbox",
       "status": "candidate",
       "text": "[<img align=\"right\" src=\"./assets/icon.svg?sanitize=true\">](https://www.npmjs.com/package/@webextension-toolbox/webextension-toolbox)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "timarney/react-app-rewired",
+      "status": "candidate",
+      "text": "> \u2139\ufe0f"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "web-infra-dev/rsbuild",
+      "status": "candidate",
+      "text": "<picture>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "web-infra-dev/rsdoctor",
+      "status": "candidate",
+      "text": "<picture>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "web-infra-dev/rslib",
+      "status": "candidate",
+      "text": "<picture>"
     }
   ],
   "candidate_related_terms": [],
@@ -472,11 +544,41 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "webextension-toolbox/webextension-toolbox"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "jaredpalmer/backpack"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "timarney/react-app-rewired"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "web-infra-dev/rsbuild"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "web-infra-dev/rsdoctor"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "web-infra-dev/rslib"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

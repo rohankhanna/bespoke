@@ -225,6 +225,30 @@
       "source_repo": "lucabubi/star-history",
       "status": "candidate-context",
       "text": "![Cover](https://i.ibb.co/C5dzx2K/IMG-9867-1.jpg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "2KAbhishek/bare-minimum",
+      "status": "candidate-context",
+      "text": "Minimalist template repository. \u2728\ud83d\udee0"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "2KAbhishek/bare-minimum",
+      "status": "candidate-context",
+      "text": "<div align = \"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "matiassingers/awesome-readme",
+      "status": "candidate-context",
+      "text": "A curated list of awesome READMEs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "matiassingers/awesome-readme",
+      "status": "candidate-context",
+      "text": "A curated list of awesome READMEs"
     }
   ],
   "candidate_glosses": [
@@ -335,6 +359,18 @@
       "source_repo": "lucabubi/star-history",
       "status": "candidate",
       "text": "![Cover](https://i.ibb.co/C5dzx2K/IMG-9867-1.jpg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "2KAbhishek/bare-minimum",
+      "status": "candidate",
+      "text": "<div align = \"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "matiassingers/awesome-readme",
+      "status": "candidate",
+      "text": "A curated list of awesome READMEs"
     }
   ],
   "candidate_related_terms": [
@@ -504,11 +540,23 @@
       "observed_at": "2026-04-24T12:33:41.350224+00:00",
       "source_file": ".github/workflows/readme.yml",
       "source_repo": "cask/cask"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "2KAbhishek/bare-minimum"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "matiassingers/awesome-readme"
     }
   ],
   "first_seen_at": "2026-04-18T10:38:37.562216+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

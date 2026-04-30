@@ -1,0 +1,336 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    },
+    {
+      "component": "github/codeql-action/init@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    },
+    {
+      "component": "github/codeql-action/autobuild@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    },
+    {
+      "component": "github/codeql-action/analyze@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/license-checker.yml"
+    },
+    {
+      "component": "apache/skywalking-eyes@v0.1.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/license-checker.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml"
+    },
+    {
+      "component": "actions/setup-go@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/runner-e2e.yml"
+    },
+    {
+      "component": "actions/setup-go@v2.1.5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/runner-e2e.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/spell-checker.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/unit-test-ci.yml"
+    },
+    {
+      "component": "actions/setup-go@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/unit-test-ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "apache/apisix-go-plugin-runner",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "apache/apisix-go-plugin-runner",
+      "target": "github/codeql-action/init@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "apache/apisix-go-plugin-runner",
+      "target": "github/codeql-action/autobuild@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "apache/apisix-go-plugin-runner",
+      "target": "github/codeql-action/analyze@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "apache/apisix-go-plugin-runner",
+      "target": "CodeQL",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/license-checker.yml",
+      "source_repo": "apache/apisix-go-plugin-runner",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/license-checker.yml",
+      "source_repo": "apache/apisix-go-plugin-runner",
+      "target": "apache/skywalking-eyes@v0.1.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/license-checker.yml",
+      "source_repo": "apache/apisix-go-plugin-runner",
+      "target": "License checker",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "apache/apisix-go-plugin-runner",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "apache/apisix-go-plugin-runner",
+      "target": "actions/setup-go@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "apache/apisix-go-plugin-runner",
+      "target": "lint",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/runner-e2e.yml",
+      "source_repo": "apache/apisix-go-plugin-runner",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/runner-e2e.yml",
+      "source_repo": "apache/apisix-go-plugin-runner",
+      "target": "actions/setup-go@v2.1.5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/runner-e2e.yml",
+      "source_repo": "apache/apisix-go-plugin-runner",
+      "target": "Runner E2E Test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/spell-checker.yml",
+      "source_repo": "apache/apisix-go-plugin-runner",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/spell-checker.yml",
+      "source_repo": "apache/apisix-go-plugin-runner",
+      "target": "spell-checker",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/unit-test-ci.yml",
+      "source_repo": "apache/apisix-go-plugin-runner",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/unit-test-ci.yml",
+      "source_repo": "apache/apisix-go-plugin-runner",
+      "target": "actions/setup-go@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/unit-test-ci.yml",
+      "source_repo": "apache/apisix-go-plugin-runner",
+      "target": "unit-test-ci",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "apache/apisix-go-plugin-runner",
+      "target": "apisix",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "apache/apisix-go-plugin-runner",
+      "target": "gateway",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "apache/apisix-go-plugin-runner",
+      "target": "plugin",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T04:48:01.000673+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4984
+    },
+    {
+      "path": "go.mod",
+      "size": 689
+    },
+    {
+      "path": ".github/workflows/codeql-analysis.yml",
+      "size": 3222
+    },
+    {
+      "path": ".github/workflows/license-checker.yml",
+      "size": 1139
+    },
+    {
+      "path": ".github/workflows/lint.yml",
+      "size": 1996
+    },
+    {
+      "path": ".github/workflows/runner-e2e.yml",
+      "size": 1566
+    },
+    {
+      "path": ".github/workflows/spell-checker.yml",
+      "size": 1345
+    },
+    {
+      "path": ".github/workflows/unit-test-ci.yml",
+      "size": 1296
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Go Plugin Runner for APISIX",
+    "fork": false,
+    "full_name": "apache/apisix-go-plugin-runner",
+    "html_url": "https://github.com/apache/apisix-go-plugin-runner",
+    "language": "Go",
+    "pushed_at": "2024-04-19T10:40:48Z",
+    "stargazers_count": 197,
+    "topics": [
+      "apisix",
+      "gateway",
+      "go",
+      "plugin"
+    ],
+    "updated_at": "2026-04-11T22:27:51Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "\"CodeQL\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "term": "CodeQL"
+    },
+    {
+      "context_snippet": "License checker",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/license-checker.yml",
+      "term": "License checker"
+    },
+    {
+      "context_snippet": "lint",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint.yml",
+      "term": "lint"
+    },
+    {
+      "context_snippet": "Runner E2E Test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/runner-e2e.yml",
+      "term": "Runner E2E Test"
+    },
+    {
+      "context_snippet": "spell-checker",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/spell-checker.yml",
+      "term": "spell-checker"
+    },
+    {
+      "context_snippet": "unit-test-ci",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/unit-test-ci.yml",
+      "term": "unit-test-ci"
+    },
+    {
+      "context_snippet": "<!--",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "apisix"
+    },
+    {
+      "context_snippet": "<!--",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gateway"
+    },
+    {
+      "context_snippet": "<!--",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "plugin"
+    }
+  ]
+}

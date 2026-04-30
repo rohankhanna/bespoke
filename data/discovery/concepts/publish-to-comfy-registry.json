@@ -176,6 +176,60 @@
       "source_repo": "modelscope/scepter",
       "status": "candidate-context",
       "text": "Publish to Comfy registry"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kijai/ComfyUI-DepthAnythingV2",
+      "status": "candidate-context",
+      "text": "Simple DepthAnythingV2 inference node for monocular depth estimation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kijai/ComfyUI-DepthAnythingV2",
+      "status": "candidate-context",
+      "text": "Publish to Comfy registry"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cubiq/ComfyUI_IPAdapter_plus",
+      "status": "candidate-context",
+      "text": "Publish to Comfy registry"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Fannovel16/comfyui_controlnet_aux",
+      "status": "candidate-context",
+      "text": "ComfyUI's ControlNet Auxiliary Preprocessors"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Fannovel16/comfyui_controlnet_aux",
+      "status": "candidate-context",
+      "text": "Publish to Comfy registry"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "FizzleDorf/ComfyUI_FizzNodes",
+      "status": "candidate-context",
+      "text": "Custom Nodes for Comfyui"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "FizzleDorf/ComfyUI_FizzNodes",
+      "status": "candidate-context",
+      "text": "Publish to Comfy registry"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rgthree/rgthree-comfy",
+      "status": "candidate-context",
+      "text": "Making ComfyUI more comfortable!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rgthree/rgthree-comfy",
+      "status": "candidate-context",
+      "text": "Publish to Comfy registry"
     }
   ],
   "candidate_glosses": [
@@ -278,6 +332,36 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "modelscope/scepter",
+      "status": "candidate",
+      "text": "Publish to Comfy registry"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kijai/ComfyUI-DepthAnythingV2",
+      "status": "candidate",
+      "text": "Publish to Comfy registry"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cubiq/ComfyUI_IPAdapter_plus",
+      "status": "candidate",
+      "text": "Publish to Comfy registry"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Fannovel16/comfyui_controlnet_aux",
+      "status": "candidate",
+      "text": "Publish to Comfy registry"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "FizzleDorf/ComfyUI_FizzNodes",
+      "status": "candidate",
+      "text": "Publish to Comfy registry"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rgthree/rgthree-comfy",
       "status": "candidate",
       "text": "Publish to Comfy registry"
     }
@@ -443,11 +527,47 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": ".github/workflows/publish.yml",
       "source_repo": "modelscope/scepter"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "kijai/ComfyUI-DepthAnythingV2"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "cubiq/ComfyUI_IPAdapter_plus"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "Fannovel16/comfyui_controlnet_aux"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "FizzleDorf/ComfyUI_FizzNodes"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "Comfy-Org/ComfyUI-Manager"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/publish_comfy_registry_action.yml",
+      "source_repo": "rgthree/rgthree-comfy"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

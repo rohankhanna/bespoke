@@ -65,13 +65,6 @@
       "target_type": "repository"
     },
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "chawyehsu/dorado",
-      "target": "chawyehsu/nvm-windows",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci.yml",
       "source_repo": "chawyehsu/dorado",
@@ -219,7 +212,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-29T18:53:53.175775+00:00",
+  "fetched_at": "2026-04-30T04:00:44.246368+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -255,8 +248,8 @@
     "full_name": "chawyehsu/dorado",
     "html_url": "https://github.com/chawyehsu/dorado",
     "language": "PowerShell",
-    "pushed_at": "2026-04-29T15:42:54Z",
-    "stargazers_count": 1212,
+    "pushed_at": "2026-04-30T00:40:50Z",
+    "stargazers_count": 1213,
     "topics": [
       "blockchain",
       "devtools",
@@ -266,14 +259,9 @@
       "toolchain",
       "windows"
     ],
-    "updated_at": "2026-04-29T15:42:58Z"
+    "updated_at": "2026-04-30T00:40:55Z"
   },
   "repo_links": [
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "chawyehsu/nvm-windows",
-      "source_file": "README.md"
-    },
     {
       "edge_type": "explicit-github-link",
       "full_name": "lukesampson/scoop",

@@ -1,0 +1,75 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mailru/dbr",
+      "target": "jmoiron/sqlx",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mailru/dbr",
+      "target": "lann/squirrel",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mailru/dbr",
+      "target": "query-builder",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T01:43:04.447016+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8011
+    },
+    {
+      "path": "go.mod",
+      "size": 316
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Additions to Go's database/sql for super fast performance and convenience. (fork of gocraft/dbr)",
+    "fork": false,
+    "full_name": "mailru/dbr",
+    "html_url": "https://github.com/mailru/dbr",
+    "language": "Go",
+    "pushed_at": "2024-05-13T10:35:29Z",
+    "stargazers_count": 179,
+    "topics": [
+      "go",
+      "query-builder",
+      "sql"
+    ],
+    "updated_at": "2026-03-17T14:58:31Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jmoiron/sqlx",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "lann/squirrel",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "dbr (fork of gocraft/dbr) provides additions to Go's database/sql for super fast performance and convenience.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "query-builder"
+    }
+  ]
+}

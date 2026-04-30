@@ -1055,6 +1055,90 @@
       "source_repo": "cobalt-org/cobalt-org.github.io",
       "status": "candidate-context",
       "text": "pre-commit"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cachix/git-hooks.nix",
+      "status": "candidate-context",
+      "text": "Seamless integration of https://pre-commit.com git hooks with Nix."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cachix/git-hooks.nix",
+      "status": "candidate-context",
+      "text": "![pre-commit.png](pre-commit.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "vipshop/cache-dit",
+      "status": "candidate-context",
+      "text": "A PyTorch-native inference engine with cache, parallelism, quantization for Diffusion Transformers."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vipshop/cache-dit",
+      "status": "candidate-context",
+      "text": "pre-commit"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "LAION-AI/Open-Assistant",
+      "status": "candidate-context",
+      "text": "OpenAssistant is a chat-based assistant that understands tasks, can interact with third-party systems, and retrieve information dynamically to do so."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "LAION-AI/Open-Assistant",
+      "status": "candidate-context",
+      "text": "pre-commit"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "TorchDR/TorchDR",
+      "status": "candidate-context",
+      "text": "TorchDR - PyTorch Dimensionality Reduction"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "TorchDR/TorchDR",
+      "status": "candidate-context",
+      "text": "pre-commit"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ModelTC/GenRL",
+      "status": "candidate-context",
+      "text": "Reinforcement Learning Framework for Visual Generation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ModelTC/GenRL",
+      "status": "candidate-context",
+      "text": "pre-commit"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pallets/flask",
+      "status": "candidate-context",
+      "text": "The Python micro framework for building web applications."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pallets/flask",
+      "status": "candidate-context",
+      "text": "pre-commit"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dmlc/treelite",
+      "status": "candidate-context",
+      "text": "Universal model exchange and serialization format for decision tree forests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dmlc/treelite",
+      "status": "candidate-context",
+      "text": "pre-commit"
     }
   ],
   "candidate_glosses": [
@@ -1583,6 +1667,48 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "cobalt-org/cobalt-org.github.io",
+      "status": "candidate",
+      "text": "pre-commit"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cachix/git-hooks.nix",
+      "status": "candidate",
+      "text": "![pre-commit.png](pre-commit.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vipshop/cache-dit",
+      "status": "candidate",
+      "text": "pre-commit"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "LAION-AI/Open-Assistant",
+      "status": "candidate",
+      "text": "pre-commit"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "TorchDR/TorchDR",
+      "status": "candidate",
+      "text": "pre-commit"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ModelTC/GenRL",
+      "status": "candidate",
+      "text": "pre-commit"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pallets/flask",
+      "status": "candidate",
+      "text": "pre-commit"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dmlc/treelite",
       "status": "candidate",
       "text": "pre-commit"
     }
@@ -2264,11 +2390,101 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": ".github/workflows/pre-commit.yml",
       "source_repo": "cobalt-org/cobalt-org.github.io"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "cachix/git-hooks.nix"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/pre-commit.yml",
+      "source_repo": "crate-ci/cargo-release"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/precommit.yml",
+      "source_repo": "eclipse-paho/paho.mqtt.python"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/pre-commit.yml",
+      "source_repo": "vipshop/cache-dit"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/run_pre_commit.yaml",
+      "source_repo": "marin-community/levanter"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/pre-commit.yaml",
+      "source_repo": "LAION-AI/Open-Assistant"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/pre-commit.yml",
+      "source_repo": "arcee-ai/mergekit"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/pre-commit.yml",
+      "source_repo": "OpenHands/ToM-SWE"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/pre-commit.yml",
+      "source_repo": "TorchDR/TorchDR"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/pre-commit.yml",
+      "source_repo": "ModelTC/GenRL"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/pre-commit.yaml",
+      "source_repo": "pallets/flask"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "adamchainz/blacken-docs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/pre-commit.yml",
+      "source_repo": "ogx-ai/ogx-client-python"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/pre-commit.yml",
+      "source_repo": "dmlc/treelite"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/pre-commit.yml",
+      "source_repo": "fastapi/typer"
     }
   ],
   "first_seen_at": "2026-04-18T10:43:38.551697+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,136 @@
+{
+  "aliases": [
+    "smooth"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Justin62628/Squirrel-RIFE",
+      "status": "candidate-context",
+      "text": "\u6548\u679c\u66f4\u597d\u7684\u8865\u5e27\u8f6f\u4ef6\uff0c\u663e\u5b58\u5360\u7528\u66f4\u5c0f\uff0c\u662fDAIN\u901f\u5ea6\u768410-25\u500d\uff0c\u5305\u542b\u62bd\u5e27\u5904\u7406\uff0c\u53bb\u9664\u52a8\u6f2b\u5361\u987f\u611f"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Justin62628/Squirrel-RIFE",
+      "status": "candidate-context",
+      "text": "<img width=\"18%\" src=\"logo.png\" alt=\"logo\" align=\"right\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Justin62628/Squirrel-RIFE",
+      "status": "candidate",
+      "text": "<img width=\"18%\" src=\"logo.png\" alt=\"logo\" align=\"right\">"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40031251,
+      "status": "candidate",
+      "text": "sleek"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40031194,
+      "status": "candidate",
+      "text": "smooth out"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40031194,
+      "status": "candidate",
+      "text": "smoothen"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40022961,
+      "status": "candidate",
+      "text": "sinuate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40022837,
+      "status": "candidate",
+      "text": "slick"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 34034,
+      "status": "candidate",
+      "text": "sleek"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 33037,
+      "status": "candidate",
+      "text": "suave"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 27042,
+      "status": "candidate",
+      "text": "undulate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 26045,
+      "status": "candidate",
+      "text": "easy"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 23034,
+      "status": "candidate",
+      "text": "velvety"
+    }
+  ],
+  "canonical_name": "smooth",
+  "concept_id": "smooth",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "Justin62628/Squirrel-RIFE"
+    }
+  ],
+  "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "smooth",
+      "sense_id": "smooth#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

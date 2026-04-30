@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "dynamic-styles"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "vercel/styled-jsx",
+      "status": "candidate-context",
+      "text": "Full CSS support for JSX without compromises"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vercel/styled-jsx",
+      "status": "candidate-context",
+      "text": "styled-jsx \u2014 Full CSS support for JSX without compromises"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vercel/styled-jsx",
+      "status": "candidate",
+      "text": "styled-jsx \u2014 Full CSS support for JSX without compromises"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "dynamic-styles",
+  "concept_id": "dynamic-styles",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "vercel/styled-jsx"
+    }
+  ],
+  "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "dynamic-styles",
+      "sense_id": "dynamic-styles#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

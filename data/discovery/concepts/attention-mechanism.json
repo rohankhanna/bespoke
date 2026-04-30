@@ -79,6 +79,42 @@
       "source_repo": "lucidrains/tab-transformer-pytorch",
       "status": "candidate-context",
       "text": "<img src=\"./tab.png\" width=\"250px\"></img>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lucidrains/flamingo-pytorch",
+      "status": "candidate-context",
+      "text": "Implementation of \ud83e\udda9 Flamingo, state-of-the-art few-shot visual question answering attention net out of Deepmind, in Pytorch"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lucidrains/flamingo-pytorch",
+      "status": "candidate-context",
+      "text": "<img src=\"./flamingo.png\" width=\"500px\"></img>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Kyubyong/transformer",
+      "status": "candidate-context",
+      "text": "A TensorFlow Implementation of the Transformer: Attention Is All You Need"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Kyubyong/transformer",
+      "status": "candidate-context",
+      "text": "When I opened this repository in 2017, there was no official code yet."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "swz30/MIRNet",
+      "status": "candidate-context",
+      "text": "[ECCV 2020] Learning Enriched Features for Real Image Restoration and Enhancement. SOTA results for image denoising, super-resolution, and image enhancement."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "swz30/MIRNet",
+      "status": "candidate-context",
+      "text": "[Syed Waqas Zamir](https://scholar.google.ae/citations?hl=en&user=POoai-QAAAAJ), [Aditya Arora](https://adityac8.github.io/), [Salman Khan](https://salman-h-khan.github.io/), [Munawar Hayat](https://scholar.google.com/citations?user=Mx8MbWYAAAAJ&hl=en), [Fahad Shahbaz Khan](http\u2026"
     }
   ],
   "candidate_glosses": [
@@ -117,6 +153,24 @@
       "source_repo": "lucidrains/tab-transformer-pytorch",
       "status": "candidate",
       "text": "<img src=\"./tab.png\" width=\"250px\"></img>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lucidrains/flamingo-pytorch",
+      "status": "candidate",
+      "text": "<img src=\"./flamingo.png\" width=\"500px\"></img>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Kyubyong/transformer",
+      "status": "candidate",
+      "text": "When I opened this repository in 2017, there was no official code yet."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "swz30/MIRNet",
+      "status": "candidate",
+      "text": "[Syed Waqas Zamir](https://scholar.google.ae/citations?hl=en&user=POoai-QAAAAJ), [Aditya Arora](https://adityac8.github.io/), [Salman Khan](https://salman-h-khan.github.io/), [Munawar Hayat](https://scholar.google.com/citations?user=Mx8MbWYAAAAJ&hl=en), [Fahad Shahbaz Khan](http\u2026"
     }
   ],
   "candidate_related_terms": [],
@@ -166,11 +220,29 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "lucidrains/tab-transformer-pytorch"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "lucidrains/flamingo-pytorch"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "Kyubyong/transformer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "swz30/MIRNet"
     }
   ],
   "first_seen_at": "2026-04-18T11:57:36.597358+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

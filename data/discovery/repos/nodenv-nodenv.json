@@ -83,34 +83,6 @@
   ],
   "edges": [
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "nodenv/nodenv",
-      "target": "nodenv/node-build",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "nodenv/nodenv",
-      "target": "nodenv/nodenv-installer",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "nodenv/nodenv",
-      "target": "nodenv/nodenv-package-rehash",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "nodenv/nodenv",
-      "target": "nodenv/nodenv-default-packages",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "package-json:devDependencies",
       "source_file": "package.json",
       "source_repo": "nodenv/nodenv",
@@ -279,7 +251,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-23T07:42:24.016288+00:00",
+  "fetched_at": "2026-04-30T03:00:21.053161+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -320,7 +292,7 @@
     "html_url": "https://github.com/nodenv/nodenv",
     "language": "Shell",
     "pushed_at": "2026-04-20T02:54:17Z",
-    "stargazers_count": 2374,
+    "stargazers_count": 2375,
     "topics": [
       "node",
       "nodejs",
@@ -328,30 +300,9 @@
       "shell",
       "version-manager"
     ],
-    "updated_at": "2026-04-20T14:24:32Z"
+    "updated_at": "2026-04-28T06:58:18Z"
   },
-  "repo_links": [
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "nodenv/node-build",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "nodenv/nodenv-default-packages",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "nodenv/nodenv-installer",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "nodenv/nodenv-package-rehash",
-      "source_file": "README.md"
-    }
-  ],
+  "repo_links": [],
   "terms": [
     {
       "context_snippet": "Lint",

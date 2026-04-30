@@ -19,12 +19,102 @@
       "source_repo": "clojure/tools.reader",
       "status": "candidate-context",
       "text": "Snapshot on demand"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "clojure/tools.namespace",
+      "status": "candidate-context",
+      "text": "Tools for managing namespaces in Clojure"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "clojure/tools.namespace",
+      "status": "candidate-context",
+      "text": "Snapshot on demand"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "clojure/core.cache",
+      "status": "candidate-context",
+      "text": "A caching library for Clojure implementing various cache strategies"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "clojure/core.cache",
+      "status": "candidate-context",
+      "text": "Snapshot on demand"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "clojure/core.memoize",
+      "status": "candidate-context",
+      "text": "A manipulable, pluggable, memoization framework for Clojure"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "clojure/core.memoize",
+      "status": "candidate-context",
+      "text": "Snapshot on demand"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "clojure/data.priority-map",
+      "status": "candidate-context",
+      "text": "Clojure priority map data structure"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "clojure/data.priority-map",
+      "status": "candidate-context",
+      "text": "Snapshot on demand"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "clojure/java.jdbc",
+      "status": "candidate-context",
+      "text": "JDBC from Clojure (formerly clojure.contrib.sql)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "clojure/java.jdbc",
+      "status": "candidate-context",
+      "text": "Snapshot on demand"
     }
   ],
   "candidate_glosses": [
     {
       "source_kind": "source-snippet",
       "source_repo": "clojure/tools.reader",
+      "status": "candidate",
+      "text": "Snapshot on demand"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "clojure/tools.namespace",
+      "status": "candidate",
+      "text": "Snapshot on demand"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "clojure/core.cache",
+      "status": "candidate",
+      "text": "Snapshot on demand"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "clojure/core.memoize",
+      "status": "candidate",
+      "text": "Snapshot on demand"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "clojure/data.priority-map",
+      "status": "candidate",
+      "text": "Snapshot on demand"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "clojure/java.jdbc",
       "status": "candidate",
       "text": "Snapshot on demand"
     }
@@ -76,11 +166,41 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": ".github/workflows/snapshot.yml",
       "source_repo": "clojure/tools.reader"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/snapshot.yml",
+      "source_repo": "clojure/tools.namespace"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/snapshot.yml",
+      "source_repo": "clojure/core.cache"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/snapshot.yml",
+      "source_repo": "clojure/core.memoize"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/snapshot.yml",
+      "source_repo": "clojure/data.priority-map"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/snapshot.yml",
+      "source_repo": "clojure/java.jdbc"
     }
   ],
   "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

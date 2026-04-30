@@ -1,12 +1,17 @@
 {
   "component": "pypa/gh-action-pypi-publish@v1.5.0",
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/gen_whl_to_pypi_rapidocr.yml",
       "source_repo": "RapidAI/RapidOCR"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "xorbitsai/inference"
     }
   ]
 }

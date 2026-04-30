@@ -188,7 +188,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-29T21:51:09.154188+00:00",
+  "fetched_at": "2026-04-30T03:53:06.607242+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -200,7 +200,7 @@
     },
     {
       "path": "requirements.txt",
-      "size": 513
+      "size": 515
     },
     {
       "path": ".github/workflows/api-node-template.yml",
@@ -240,8 +240,8 @@
     "full_name": "Comfy-Org/ComfyUI",
     "html_url": "https://github.com/Comfy-Org/ComfyUI",
     "language": "Python",
-    "pushed_at": "2026-04-29T20:37:54Z",
-    "stargazers_count": 110640,
+    "pushed_at": "2026-04-30T03:30:06Z",
+    "stargazers_count": 110683,
     "topics": [
       "ai",
       "comfy",
@@ -250,7 +250,7 @@
       "pytorch",
       "stable-diffusion"
     ],
-    "updated_at": "2026-04-29T21:49:21Z"
+    "updated_at": "2026-04-30T03:50:55Z"
   },
   "repo_links": [
     {

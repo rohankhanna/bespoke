@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Haiku"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "xmake-io/xmake",
+      "status": "candidate-context",
+      "text": "\ud83d\udd25 A cross-platform build utility based on Lua"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "xmake-io/xmake",
+      "status": "candidate-context",
+      "text": "Haiku"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "xmake-io/xmake",
+      "status": "candidate",
+      "text": "Haiku"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29556943,
+      "status": "candidate",
+      "text": "basho"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20036155,
+      "status": "candidate",
+      "text": "tanka"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20036154,
+      "status": "candidate",
+      "text": "katauta"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20036153,
+      "status": "candidate",
+      "text": "sedoka"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20036152,
+      "status": "candidate",
+      "text": "sijo"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Haiku",
+  "concept_id": "haiku",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/haiku.yml",
+      "source_repo": "xmake-io/xmake"
+    }
+  ],
+  "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Haiku",
+      "sense_id": "haiku#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Update Dependencies Tests"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dotnet/dotnet-docker",
+      "status": "candidate-context",
+      "text": "Official container images for .NET"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dotnet/dotnet-docker",
+      "status": "candidate-context",
+      "text": "Update Dependencies Tests"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dotnet/dotnet-docker",
+      "status": "candidate",
+      "text": "Update Dependencies Tests"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18405,
+      "status": "candidate",
+      "text": "annal"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18405,
+      "status": "candidate",
+      "text": "bimetallism"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18405,
+      "status": "candidate",
+      "text": "credit"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18405,
+      "status": "candidate",
+      "text": "detail"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18405,
+      "status": "candidate",
+      "text": "hold"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Update Dependencies Tests",
+  "concept_id": "update-dependencies-tests",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/update-dependencies-tests.yml",
+      "source_repo": "dotnet/dotnet-docker"
+    }
+  ],
+  "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Update Dependencies Tests",
+      "sense_id": "update-dependencies-tests#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

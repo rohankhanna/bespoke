@@ -1,0 +1,280 @@
+{
+  "components": [
+    {
+      "component": "purcell/setup-emacs@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/elisp_test.yml"
+    },
+    {
+      "component": "purcell/setup-emacs@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/elisp_test.yml"
+    },
+    {
+      "component": "purcell/setup-emacs@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/elisp_test.yml"
+    },
+    {
+      "component": "jcs090218/setup-emacs-windows@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/elisp_test.yml"
+    },
+    {
+      "component": "jcs090218/setup-emacs-windows@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/elisp_test.yml"
+    },
+    {
+      "component": "jcs090218/setup-emacs-windows@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/elisp_test.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/elisp_test.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rebase.yml"
+    },
+    {
+      "component": "cirrus-actions/rebase@1.4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rebase.yml"
+    },
+    {
+      "component": "actions/stale@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stale.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "syl20bnr/spacemacs",
+      "target": "knotuntied/scoop-fonts",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "syl20bnr/spacemacs",
+      "target": "marcoieni/intellimacs",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "syl20bnr/spacemacs",
+      "target": "d12frosted/homebrew-emacs-plus",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "syl20bnr/spacemacs",
+      "target": "emacs-mirror/emacs",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/elisp_test.yml",
+      "source_repo": "syl20bnr/spacemacs",
+      "target": "purcell/setup-emacs@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/elisp_test.yml",
+      "source_repo": "syl20bnr/spacemacs",
+      "target": "jcs090218/setup-emacs-windows@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/elisp_test.yml",
+      "source_repo": "syl20bnr/spacemacs",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/elisp_test.yml",
+      "source_repo": "syl20bnr/spacemacs",
+      "target": "elisp tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rebase.yml",
+      "source_repo": "syl20bnr/spacemacs",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rebase.yml",
+      "source_repo": "syl20bnr/spacemacs",
+      "target": "cirrus-actions/rebase@1.4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/rebase.yml",
+      "source_repo": "syl20bnr/spacemacs",
+      "target": "Automatic Rebase",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "syl20bnr/spacemacs",
+      "target": "actions/stale@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "syl20bnr/spacemacs",
+      "target": "Mark stale issues and pull requests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "syl20bnr/spacemacs",
+      "target": "community-driven",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "syl20bnr/spacemacs",
+      "target": "configuration",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "syl20bnr/spacemacs",
+      "target": "emacs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "syl20bnr/spacemacs",
+      "target": "spacemacs",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T04:08:06.514117+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 24665
+    },
+    {
+      "path": ".github/workflows/elisp_test.yml",
+      "size": 3905
+    },
+    {
+      "path": ".github/workflows/rebase.yml",
+      "size": 758
+    },
+    {
+      "path": ".github/workflows/stale.yml",
+      "size": 1208
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "develop",
+    "description": "A community-driven Emacs distribution - The best editor is neither Emacs nor Vim,  it's Emacs *and* Vim!",
+    "fork": false,
+    "full_name": "syl20bnr/spacemacs",
+    "html_url": "https://github.com/syl20bnr/spacemacs",
+    "language": "Emacs Lisp",
+    "pushed_at": "2026-04-27T04:56:26Z",
+    "stargazers_count": 24582,
+    "topics": [
+      "community-driven",
+      "configuration",
+      "emacs",
+      "spacemacs",
+      "vim"
+    ],
+    "updated_at": "2026-04-30T02:34:37Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "d12frosted/homebrew-emacs-plus",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "emacs-mirror/emacs",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "knotuntied/scoop-fonts",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "marcoieni/intellimacs",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "elisp tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/elisp_test.yml",
+      "term": "elisp tests"
+    },
+    {
+      "context_snippet": "Automatic Rebase",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/rebase.yml",
+      "term": "Automatic Rebase"
+    },
+    {
+      "context_snippet": "Mark stale issues and pull requests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/stale.yml",
+      "term": "Mark stale issues and pull requests"
+    },
+    {
+      "context_snippet": "<a name=\"top\" id=\"fork-destination-box\"></a>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "community-driven"
+    },
+    {
+      "context_snippet": "<a name=\"top\" id=\"fork-destination-box\"></a>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "configuration"
+    },
+    {
+      "context_snippet": "<a name=\"top\" id=\"fork-destination-box\"></a>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "emacs"
+    },
+    {
+      "context_snippet": "<a name=\"top\" id=\"fork-destination-box\"></a>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "spacemacs"
+    }
+  ]
+}

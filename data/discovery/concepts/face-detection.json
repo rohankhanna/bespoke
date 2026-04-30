@@ -151,6 +151,54 @@
       "source_repo": "qhgz2013/anime-face-detector",
       "status": "candidate-context",
       "text": "A Faster-RCNN based anime face detector."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "DayBreak-u/yolo-face-with-landmark",
+      "status": "candidate-context",
+      "text": "yoloface\u5927\u793c\u5305  \u4f7f\u7528pytroch\u5b9e\u73b0\u7684\u57fa\u4e8eyolov3\u7684\u8f7b\u91cf\u7ea7\u4eba\u8138\u68c0\u6d4b\uff08\u5305\u542b\u5173\u952e\u70b9\uff09"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DayBreak-u/yolo-face-with-landmark",
+      "status": "candidate-context",
+      "text": "- \u6dfb\u52a0\u5173\u952e\u70b9\u68c0\u6d4b\u5206\u652f\uff0c\u4f7f\u7528wing loss"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "derronqi/yolov7-face",
+      "status": "candidate-context",
+      "text": "yolov7 face detection with landmark"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "derronqi/yolov7-face",
+      "status": "candidate-context",
+      "text": "**2023.04** [yolov8-face](https://github.com/derronqi/yolov8-face) (\ud83d\udd25\ud83d\udd25\ud83d\udd25\u2191)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "wy1iu/sphereface",
+      "status": "candidate-context",
+      "text": "Implementation for <SphereFace: Deep Hypersphere Embedding for Face Recognition> in CVPR'17."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "wy1iu/sphereface",
+      "status": "candidate-context",
+      "text": "By Weiyang Liu, Yandong Wen, Zhiding Yu, Ming Li, Bhiksha Raj and Le Song"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hpc203/yolov7-detect-face-onnxrun-cpp-py",
+      "status": "candidate-context",
+      "text": "\u4f7f\u7528ONNXRuntime\u90e8\u7f72YOLOV7\u4eba\u8138+\u5173\u952e\u70b9\u68c0\u6d4b\uff0c\u5305\u542bC++\u548cPython\u4e24\u4e2a\u7248\u672c\u7684\u7a0b\u5e8f"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hpc203/yolov7-detect-face-onnxrun-cpp-py",
+      "status": "candidate-context",
+      "text": "\u4f7f\u7528ONNXRuntime\u90e8\u7f72YOLOV7\u4eba\u8138+\u5173\u952e\u70b9\u68c0\u6d4b\uff0c\u5305\u542bC++\u548cPython\u4e24\u4e2a\u7248\u672c\u7684\u7a0b\u5e8f"
     }
   ],
   "candidate_glosses": [
@@ -225,6 +273,30 @@
       "source_repo": "qhgz2013/anime-face-detector",
       "status": "candidate",
       "text": "A Faster-RCNN based anime face detector."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DayBreak-u/yolo-face-with-landmark",
+      "status": "candidate",
+      "text": "- \u6dfb\u52a0\u5173\u952e\u70b9\u68c0\u6d4b\u5206\u652f\uff0c\u4f7f\u7528wing loss"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "derronqi/yolov7-face",
+      "status": "candidate",
+      "text": "**2023.04** [yolov8-face](https://github.com/derronqi/yolov8-face) (\ud83d\udd25\ud83d\udd25\ud83d\udd25\u2191)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "wy1iu/sphereface",
+      "status": "candidate",
+      "text": "By Weiyang Liu, Yandong Wen, Zhiding Yu, Ming Li, Bhiksha Raj and Le Song"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hpc203/yolov7-detect-face-onnxrun-cpp-py",
+      "status": "candidate",
+      "text": "\u4f7f\u7528ONNXRuntime\u90e8\u7f72YOLOV7\u4eba\u8138+\u5173\u952e\u70b9\u68c0\u6d4b\uff0c\u5305\u542bC++\u548cPython\u4e24\u4e2a\u7248\u672c\u7684\u7a0b\u5e8f"
     }
   ],
   "candidate_related_terms": [],
@@ -304,11 +376,41 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "qhgz2013/anime-face-detector"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "DayBreak-u/yolo-face-with-landmark"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "derronqi/yolov7-face"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "wy1iu/sphereface"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "ZhaoJ9014/face.evoLVe"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "hpc203/yolov7-detect-face-onnxrun-cpp-py"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

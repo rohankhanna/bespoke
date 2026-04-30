@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "\ud83e\udd16 An AI agent framework built with Rust."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "> \ud83e\udd16 An AI agent framework built with Rust, powered by ICP and TEEs."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "> \ud83e\udd16 An AI agent framework built with Rust, powered by ICP and TEEs."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40015603,
+      "status": "candidate",
+      "text": "self-reliant"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40015269,
+      "status": "candidate",
+      "text": "self-directed"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40013263,
+      "status": "candidate",
+      "text": "self-governing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40001808,
+      "status": "candidate",
+      "text": "independent"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39992756,
+      "status": "candidate",
+      "text": "sovereign"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "autonomous",
+      "sense_id": "autonomous#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 45066,
+      "status": "candidate",
+      "text": "free"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 22049,
+      "status": "candidate",
+      "text": "independent"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 8024,
+      "status": "candidate",
+      "text": "self-reliant"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 4015,
+      "status": "candidate",
+      "text": "self-directed"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 1022,
+      "status": "candidate",
+      "text": "self-governing"
+    }
+  ],
+  "concept_id": "autonomous",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "autonomous",
+  "observation_id": "db07202776a087ba",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T00:37:16.824464+00:00",
+  "observed_text": "autonomous",
+  "source_context_snippet": "> \ud83e\udd16 An AI agent framework built with Rust, powered by ICP and TEEs.",
+  "source_file": null,
+  "source_repo": "ldclabs/anda",
+  "source_repo_description": "\ud83e\udd16 An AI agent framework built with Rust."
+}

@@ -155,27 +155,6 @@
       "target_type": "repository"
     },
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "skim-rs/skim",
-      "target": "idanarye/nu_plugin_skim",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "skim-rs/skim",
-      "target": "tzachar/sqlite_skim",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "skim-rs/skim",
-      "target": "jhawthorn/fzy",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/publish.yml",
       "source_repo": "skim-rs/skim",
@@ -281,7 +260,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-24T08:12:24.424989+00:00",
+  "fetched_at": "2026-04-30T00:38:46.855577+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -313,34 +292,19 @@
     "full_name": "skim-rs/skim",
     "html_url": "https://github.com/skim-rs/skim",
     "language": "Rust",
-    "pushed_at": "2026-04-21T10:45:50Z",
-    "stargazers_count": 6769,
+    "pushed_at": "2026-04-28T02:17:03Z",
+    "stargazers_count": 6785,
     "topics": [
       "fuzzyfinder",
       "rust",
       "skim"
     ],
-    "updated_at": "2026-04-24T06:36:05Z"
+    "updated_at": "2026-04-29T23:16:08Z"
   },
   "repo_links": [
     {
       "edge_type": "explicit-github-link",
-      "full_name": "idanarye/nu_plugin_skim",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "jhawthorn/fzy",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
       "full_name": "petdance/ack2",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "tzachar/sqlite_skim",
       "source_file": "README.md"
     }
   ],

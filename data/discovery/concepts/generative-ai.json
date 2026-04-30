@@ -307,6 +307,30 @@
       "source_repo": "deepbeepmeep/Wan2GP",
       "status": "candidate-context",
       "text": "-----"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "declare-lab/TangoFlux",
+      "status": "candidate-context",
+      "text": "[ICLR 2026] TangoFlux: Super Fast and Faithful Text to Audio Generation with Flow Matching"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "declare-lab/TangoFlux",
+      "status": "candidate-context",
+      "text": "\ud83d\udd25\ud83d\udd25If you enjoyed TangoFlux, please check out our latest innovation, Jam, a lyrics-to-song generator: https://github.com/declare-lab/jamify"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Lightricks/LTX-2",
+      "status": "candidate-context",
+      "text": "Official Python inference and LoRA trainer package for the LTX-2 audio\u2013video generative model."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Lightricks/LTX-2",
+      "status": "candidate-context",
+      "text": "[![Website](https://img.shields.io/badge/Website-LTX-181717?logo=google-chrome)](https://ltx.io)"
     }
   ],
   "candidate_glosses": [
@@ -459,6 +483,18 @@
       "source_repo": "deepbeepmeep/Wan2GP",
       "status": "candidate",
       "text": "-----"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "declare-lab/TangoFlux",
+      "status": "candidate",
+      "text": "\ud83d\udd25\ud83d\udd25If you enjoyed TangoFlux, please check out our latest innovation, Jam, a lyrics-to-song generator: https://github.com/declare-lab/jamify"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Lightricks/LTX-2",
+      "status": "candidate",
+      "text": "[![Website](https://img.shields.io/badge/Website-LTX-181717?logo=google-chrome)](https://ltx.io)"
     }
   ],
   "candidate_related_terms": [],
@@ -700,11 +736,53 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "deepbeepmeep/Wan2GP"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "langchain-ai/langchain"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "open-mmlab/mmagic"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "declare-lab/TangoFlux"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "NVIDIA-NeMo/NeMo"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "langflow-ai/langflow"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "jina-ai/serve"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "Lightricks/LTX-2"
     }
   ],
   "first_seen_at": "2026-04-18T11:24:14.688152+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "validate-release"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sigstore/gitsign",
+      "status": "candidate-context",
+      "text": "Keyless Git signing using Sigstore"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sigstore/gitsign",
+      "status": "candidate-context",
+      "text": "validate-release"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sigstore/gitsign",
+      "status": "candidate",
+      "text": "validate-release"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "validate-release",
+  "concept_id": "validate-release",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/validate-release.yml",
+      "source_repo": "sigstore/gitsign"
+    }
+  ],
+  "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "validate-release",
+      "sense_id": "validate-release#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

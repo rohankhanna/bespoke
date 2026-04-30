@@ -1,0 +1,48 @@
+{
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mcubes-ci.yml",
+      "source_repo": "pmneila/PyMCubes",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mcubes-ci.yml",
+      "source_repo": "pmneila/PyMCubes",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/mcubes-ci.yml",
+      "source_repo": "pmneila/PyMCubes",
+      "target": "PyMCubes tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mcubes-deployment.yml",
+      "source_repo": "pmneila/PyMCubes",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mcubes-deployment.yml",
+      "source_repo": "pmneila/PyMCubes",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/mcubes-deployment.yml",
+      "source_repo": "pmneila/PyMCubes",
+      "target": "PyMCubes deployment",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-30T00:37:16.824464+00:00",
+  "source_repo": "pmneila/PyMCubes"
+}

@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Scientific Python Web Theme"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "The **Scientific Python Hugo Theme** is a theme for the [Hugo](https://gohugo.io) static site generator."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "The **Scientific Python Hugo Theme** is a theme for the [Hugo](https://gohugo.io) static site generator."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "scientific-python",
+      "sense_id": "scientific-python#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "scientific-python",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "scientific-python",
+  "observation_id": "1a5d641e246364b4",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T00:37:16.824464+00:00",
+  "observed_text": "scientific-python",
+  "source_context_snippet": "The **Scientific Python Hugo Theme** is a theme for the [Hugo](https://gohugo.io) static site generator.",
+  "source_file": null,
+  "source_repo": "scientific-python/scientific-python-hugo-theme",
+  "source_repo_description": "Scientific Python Web Theme"
+}

@@ -19,6 +19,66 @@
       "source_repo": "clovaai/stargan-v2",
       "status": "candidate-context",
       "text": "<p align=\"left\"><img width=\"95%\" src=\"assets/teaser.jpg\" /></p>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Ha0Tang/AttentionGAN",
+      "status": "candidate-context",
+      "text": "AttentionGAN for Unpaired Image-to-Image Translation & Multi-Domain Image-to-Image Translation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Ha0Tang/AttentionGAN",
+      "status": "candidate-context",
+      "text": "[![License CC BY-NC-SA 4.0](https://img.shields.io/badge/license-CC4.0-blue.svg)](https://github.com/Ha0Tang/AttentionGAN/blob/master/LICENSE.md)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "NVIDIA/pix2pixHD",
+      "status": "candidate-context",
+      "text": "Synthesizing and manipulating 2048x1024 images with conditional GANs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NVIDIA/pix2pixHD",
+      "status": "candidate-context",
+      "text": "<img src='imgs/teaser_720.gif' align=\"right\" width=360>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "IDKiro/MCT",
+      "status": "candidate-context",
+      "text": "Multi-Curve Translator for High-Resolution Photorealistic Image Translation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "IDKiro/MCT",
+      "status": "candidate-context",
+      "text": "[![paper](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)](https://arxiv.org/abs/2203.07756) [![Download](https://img.shields.io/badge/GoogleDrive-Data-blue)](https://drive.google.com/drive/folders/1RWALNnNNxoTxxgjuKGRSw98SGrQhZ_uO?usp=sharing)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Ha0Tang/GestureGAN",
+      "status": "candidate-context",
+      "text": "[ACM MM 2018 Oral] GestureGAN for Hand Gesture-to-Gesture Translation in the Wild"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Ha0Tang/GestureGAN",
+      "status": "candidate-context",
+      "text": "[![License CC BY-NC-SA 4.0](https://img.shields.io/badge/license-CC4.0-blue.svg)](https://github.com/Ha0Tang/GestureGAN/blob/master/LICENSE.md)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Ha0Tang/SelectionGAN",
+      "status": "candidate-context",
+      "text": "[CVPR 2019 Oral] Multi-Channel Attention Selection GAN with Cascaded Semantic Guidance for Cross-View Image Translation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Ha0Tang/SelectionGAN",
+      "status": "candidate-context",
+      "text": "![Visitors](https://visitor-badge.glitch.me/badge?page_id=Ha0Tang/SelectionGAN)"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +87,36 @@
       "source_repo": "clovaai/stargan-v2",
       "status": "candidate",
       "text": "<p align=\"left\"><img width=\"95%\" src=\"assets/teaser.jpg\" /></p>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Ha0Tang/AttentionGAN",
+      "status": "candidate",
+      "text": "[![License CC BY-NC-SA 4.0](https://img.shields.io/badge/license-CC4.0-blue.svg)](https://github.com/Ha0Tang/AttentionGAN/blob/master/LICENSE.md)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NVIDIA/pix2pixHD",
+      "status": "candidate",
+      "text": "<img src='imgs/teaser_720.gif' align=\"right\" width=360>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "IDKiro/MCT",
+      "status": "candidate",
+      "text": "[![paper](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)](https://arxiv.org/abs/2203.07756) [![Download](https://img.shields.io/badge/GoogleDrive-Data-blue)](https://drive.google.com/drive/folders/1RWALNnNNxoTxxgjuKGRSw98SGrQhZ_uO?usp=sharing)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Ha0Tang/GestureGAN",
+      "status": "candidate",
+      "text": "[![License CC BY-NC-SA 4.0](https://img.shields.io/badge/license-CC4.0-blue.svg)](https://github.com/Ha0Tang/GestureGAN/blob/master/LICENSE.md)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Ha0Tang/SelectionGAN",
+      "status": "candidate",
+      "text": "![Visitors](https://visitor-badge.glitch.me/badge?page_id=Ha0Tang/SelectionGAN)"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +130,41 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": null,
       "source_repo": "clovaai/stargan-v2"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "Ha0Tang/AttentionGAN"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "NVIDIA/pix2pixHD"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "IDKiro/MCT"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "Ha0Tang/GestureGAN"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "Ha0Tang/SelectionGAN"
     }
   ],
   "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

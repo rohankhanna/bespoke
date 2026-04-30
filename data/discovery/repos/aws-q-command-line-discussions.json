@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T01:02:03.683706+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1582
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "aws/q-command-line-discussions",
+    "html_url": "https://github.com/aws/q-command-line-discussions",
+    "language": null,
+    "pushed_at": "2024-11-22T23:48:31Z",
+    "stargazers_count": 62,
+    "topics": [],
+    "updated_at": "2026-02-13T11:04:30Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

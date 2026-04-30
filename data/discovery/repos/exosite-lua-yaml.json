@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "exosite/lua-yaml",
+      "target": "tj/js-yaml",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T00:52:00.964149+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1859
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": null,
+    "fork": false,
+    "full_name": "exosite/lua-yaml",
+    "html_url": "https://github.com/exosite/lua-yaml",
+    "language": "Lua",
+    "pushed_at": "2024-05-07T03:15:22Z",
+    "stargazers_count": 64,
+    "topics": [],
+    "updated_at": "2026-03-30T16:52:28Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "tj/js-yaml",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

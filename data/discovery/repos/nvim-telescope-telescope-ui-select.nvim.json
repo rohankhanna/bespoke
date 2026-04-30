@@ -1,0 +1,76 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml"
+    },
+    {
+      "component": "JohnnyMorganz/stylua-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "nvim-telescope/telescope-ui-select.nvim",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "nvim-telescope/telescope-ui-select.nvim",
+      "target": "JohnnyMorganz/stylua-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "nvim-telescope/telescope-ui-select.nvim",
+      "target": "linting",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T00:39:45.979669+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1478
+    },
+    {
+      "path": ".github/workflows/lint.yml",
+      "size": 651
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": null,
+    "fork": false,
+    "full_name": "nvim-telescope/telescope-ui-select.nvim",
+    "html_url": "https://github.com/nvim-telescope/telescope-ui-select.nvim",
+    "language": "Lua",
+    "pushed_at": "2024-08-02T02:24:01Z",
+    "stargazers_count": 1017,
+    "topics": [],
+    "updated_at": "2026-04-29T18:11:50Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "linting",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint.yml",
+      "term": "linting"
+    }
+  ]
+}

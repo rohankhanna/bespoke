@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Automated dependency updates"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "RTBHOUSE/tmux-picker",
+      "status": "candidate-context",
+      "text": "Selecting and copy-pasting in terminal using Vimium-like hint mode."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "RTBHOUSE/tmux-picker",
+      "status": "candidate-context",
+      "text": "Automated dependency updates"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "RTBHOUSE/tmux-picker",
+      "status": "candidate",
+      "text": "Automated dependency updates"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17800,
+      "status": "candidate",
+      "text": "module"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17725,
+      "status": "candidate",
+      "text": "chip"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17725,
+      "status": "candidate",
+      "text": "computer"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17725,
+      "status": "candidate",
+      "text": "cozy"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17725,
+      "status": "candidate",
+      "text": "credit"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Automated dependency updates",
+  "concept_id": "automated-dependency-updates",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/automated-dependency-updates.yaml",
+      "source_repo": "RTBHOUSE/tmux-picker"
+    }
+  ],
+  "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Automated dependency updates",
+      "sense_id": "automated-dependency-updates#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

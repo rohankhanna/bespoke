@@ -4798,6 +4798,762 @@
       "source_repo": "apollographql/apollo-rs",
       "status": "candidate-context",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Byron/dua-cli",
+      "status": "candidate-context",
+      "text": "View disk space usage and delete unwanted data, fast."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Byron/dua-cli",
+      "status": "candidate-context",
+      "text": "Rust"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "KSXGitHub/parallel-disk-usage",
+      "status": "candidate-context",
+      "text": "Highly parallelized, blazing fast directory tree analyzer"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "KSXGitHub/parallel-disk-usage",
+      "status": "candidate-context",
+      "text": "[![Test](https://github.com/KSXGitHub/parallel-disk-usage/workflows/Test/badge.svg)](https://github.com/KSXGitHub/parallel-disk-usage/actions?query=workflow%3ATest)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nachoparker/dutree",
+      "status": "candidate-context",
+      "text": "a tool to analyze file system usage written in Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nachoparker/dutree",
+      "status": "candidate-context",
+      "text": "a tool to analyze file system usage written in Rust"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hermit-os/kernel",
+      "status": "candidate-context",
+      "text": "A Rust-based, lightweight unikernel."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hermit-os/kernel",
+      "status": "candidate-context",
+      "text": "<img width=\"256\" align=\"right\" src=\"https://github.com/hermit-os/.github/blob/main/logo/hermit-logo.svg\" />"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "numToStr/lemmy-help",
+      "status": "candidate-context",
+      "text": "Every one needs help, so lemmy-help you! A CLI to generate vim/nvim help doc from emmylua"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "numToStr/lemmy-help",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">\ud83e\udd1d lemmy-help</h1>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "eitsupi/arf",
+      "status": "candidate-context",
+      "text": "Alternative R Frontend \u2014 a modern R console written in Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "eitsupi/arf",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dmtrKovalenko/zlob",
+      "status": "candidate-context",
+      "text": "100% POSIX and glibc compatible globbing library for C, Zig, and Rust that is faster and supports all the modern globbing formats and gitignore"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dmtrKovalenko/zlob",
+      "status": "candidate-context",
+      "text": "100% POSIX and glibc compatible globbing library for C, Zig, and Rust that is **faster** and supports **all the modern globbing formats** and gitignore"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "eopb/cargo-override",
+      "status": "candidate-context",
+      "text": "The quickest way to override dependencies with Cargo"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "eopb/cargo-override",
+      "status": "candidate-context",
+      "text": "Rust"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "proxy-wasm/proxy-wasm-rust-sdk",
+      "status": "candidate-context",
+      "text": "WebAssembly for Proxies (Rust SDK)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "proxy-wasm/proxy-wasm-rust-sdk",
+      "status": "candidate-context",
+      "text": "Rust"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "stellar/soroban-examples",
+      "status": "candidate-context",
+      "text": "Example Soroban Contracts"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "stellar/soroban-examples",
+      "status": "candidate-context",
+      "text": "Rust"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mtshiba/pylyzer",
+      "status": "candidate-context",
+      "text": "A fast, feature-rich static code analyzer & language server for Python"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mtshiba/pylyzer",
+      "status": "candidate-context",
+      "text": "Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mtshiba/pylyzer",
+      "status": "candidate-context",
+      "text": "> [!IMPORTANT]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "RustPython/RustPython",
+      "status": "candidate-context",
+      "text": "A Python Interpreter written in Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "RustPython/RustPython",
+      "status": "candidate-context",
+      "text": "<img src=\"./logo.png\" width=\"125\" height=\"125\" align=\"right\" />"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mthom/scryer-prolog",
+      "status": "candidate-context",
+      "text": "A modern Prolog implementation written mostly in Rust."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mthom/scryer-prolog",
+      "status": "candidate-context",
+      "text": "Scryer Prolog aims to become to ISO Prolog what GHC is to Haskell: an open"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "andrewmilson/ministark",
+      "status": "candidate-context",
+      "text": "\ud83c\udfc3\u200d\u2642\ufe0f\ud83d\udca8 GPU accelerated STARK prover built on @arkworks-rs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "andrewmilson/ministark",
+      "status": "candidate-context",
+      "text": "> **Warning**"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "isamert/gracer",
+      "status": "candidate-context",
+      "text": "a rust code completion plugin for gedit"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "isamert/gracer",
+      "status": "candidate-context",
+      "text": "A rust code completion plugin for gedit. Built with the Rust auto completion tool by Phil Dawes (https://github.com/phildawes/racer)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "wooorm/mdxjs-rs",
+      "status": "candidate-context",
+      "text": "Compile MDX to JavaScript in Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "wooorm/mdxjs-rs",
+      "status": "candidate-context",
+      "text": "[dependencies] markdown = \"1\" rustc-hash = \"2\" serde = { optional = true, version = \"1\" } swc_core = { features = [ \"common\", \"ecma_ast\", \"ecma_codegen\", \"ecma_parser\", \"ecma_visit\", ], version = \"27\" } [dev-dependencies] pretty_assertions = \"1\" [features] serializable = [\"serde\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aws/amazon-q-developer-cli",
+      "status": "candidate-context",
+      "text": "\u2728 Agentic chat experience in your terminal. Build applications using natural language."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aws/amazon-q-developer-cli",
+      "status": "candidate-context",
+      "text": "Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aws/amazon-q-developer-cli",
+      "status": "candidate-context",
+      "text": "> [!IMPORTANT]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "oschwald/maxminddb-rust",
+      "status": "candidate-context",
+      "text": "Rust MaxMind DB Reader"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "oschwald/maxminddb-rust",
+      "status": "candidate-context",
+      "text": "Rust"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "YaLTeR/wl-clipboard-rs",
+      "status": "candidate-context",
+      "text": "A safe Rust crate for working with the Wayland clipboard."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "YaLTeR/wl-clipboard-rs",
+      "status": "candidate-context",
+      "text": "[![crates.io](https://img.shields.io/crates/v/wl-clipboard-rs.svg)](https://crates.io/crates/wl-clipboard-rs)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "baerwang/openapi-rs",
+      "status": "candidate-context",
+      "text": "A powerful Rust library for OpenAPI 3.1,3.2 specification parsing, validation, and request handling."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "baerwang/openapi-rs",
+      "status": "candidate-context",
+      "text": "[English](README.md) | [\u4e2d\u6587](README-ZH.md)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "carrascomj/dalted",
+      "status": "candidate-context",
+      "text": "Image processing web-app for color blindness"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "carrascomj/dalted",
+      "status": "candidate-context",
+      "text": "![alt text](./static/img/logo.svg \"Dalted logo black\")"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cargo-bins/cargo-binstall",
+      "status": "candidate-context",
+      "text": "Binary installation for rust projects"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cargo-bins/cargo-binstall",
+      "status": "candidate-context",
+      "text": "Binstall provides a low-complexity mechanism for installing Rust binaries as an alternative to building from source (via `cargo install`) or manually downloading packages."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rust3ds/ctru-rs-old",
+      "status": "candidate-context",
+      "text": "A collection of crates for developing 3DS homebrew in Rust."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rust3ds/ctru-rs-old",
+      "status": "candidate-context",
+      "text": "This repository has been deprecated in favour of the new `ctru-rs` version of the Rust3DS toolchain. For more information about the new tools and libraries, check [ctru-rs](https://github.com/rust3ds/ctru-rs)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apache/hudi-rs",
+      "status": "candidate-context",
+      "text": "The native Rust implementation for Apache Hudi, with C++ & Python API bindings."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/hudi-rs",
+      "status": "candidate-context",
+      "text": "<!--"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "baygeldin/tantiny",
+      "status": "candidate-context",
+      "text": "Tiny full-text search for Ruby powered by Tantivy"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "baygeldin/tantiny",
+      "status": "candidate-context",
+      "text": "> [!NOTE]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lnx-search/lnx",
+      "status": "candidate-context",
+      "text": "A flexible, performant and reliable search database without the AI bullshit."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lnx-search/lnx",
+      "status": "candidate-context",
+      "text": "Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lnx-search/lnx",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "SeaQL/sea-orm",
+      "status": "candidate-context",
+      "text": "\ud83d\udc1a A powerful relational ORM for Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SeaQL/sea-orm",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kurrent-io/KurrentDB-Client-Rust",
+      "status": "candidate-context",
+      "text": "KurrentDB Rust Client"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kurrent-io/KurrentDB-Client-Rust",
+      "status": "candidate-context",
+      "text": "[![Crates.io][crates-badge]][crates-url]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Automattic/harper",
+      "status": "candidate-context",
+      "text": "Offline, privacy-first grammar checker. Fast, open-source, Rust-powered"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Automattic/harper",
+      "status": "candidate-context",
+      "text": "<div id=\"header\" align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sagiegurari/duckscript",
+      "status": "candidate-context",
+      "text": "Simple, extendable and embeddable scripting language."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sagiegurari/duckscript",
+      "status": "candidate-context",
+      "text": "| duckscript | SDK | CLI |"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "chelsea0x3b/cudarc",
+      "status": "candidate-context",
+      "text": "Safe rust wrapper around CUDA toolkit"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chelsea0x3b/cudarc",
+      "status": "candidate-context",
+      "text": "[![](https://dcbadge.vercel.app/api/server/AtUhGqBDP5)](https://discord.gg/AtUhGqBDP5)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "swc-project/swc",
+      "status": "candidate-context",
+      "text": "Rust-based platform for the Web"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "swc-project/swc",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ruby/ruby",
+      "status": "candidate-context",
+      "text": "The Ruby Programming Language"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ruby/ruby",
+      "status": "candidate-context",
+      "text": "[![Actions Status: MinGW](https://github.com/ruby/ruby/workflows/MinGW/badge.svg)](https://github.com/ruby/ruby/actions?query=workflow%3A\"MinGW\")"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kaichaosun/rlt",
+      "status": "candidate-context",
+      "text": "Localtunnel implementation in Rust, expose local API to the public."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kaichaosun/rlt",
+      "status": "candidate-context",
+      "text": "[![localtunnel](https://img.shields.io/crates/v/localtunnel.svg)](https://crates.io/crates/localtunnel)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dskkato/rjo",
+      "status": "candidate-context",
+      "text": "A small utility to create JSON objects, written in Rust."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dskkato/rjo",
+      "status": "candidate-context",
+      "text": "[![rjo](https://img.shields.io/crates/v/rjo.svg)](https://crates.io/crates/rjo)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ggez/ggez",
+      "status": "candidate-context",
+      "text": "Rust library to create a Good Game Easily"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ggez/ggez",
+      "status": "candidate-context",
+      "text": "[![ggez logo](docs/ggez-logo-maroon-full.svg)](http://ggez.rs/)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hecrj/coffee",
+      "status": "candidate-context",
+      "text": "An opinionated 2D game engine for Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hecrj/coffee",
+      "status": "candidate-context",
+      "text": "[![Integration status](https://github.com/hecrj/coffee/workflows/Integration/badge.svg)](https://github.com/hecrj/coffee/actions)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hecrj/icebreaker",
+      "status": "candidate-context",
+      "text": "A local AI chat app powered by \ud83e\udd80 Rust, \ud83e\uddca iced, \ud83e\udd17 Hugging Face, and \ud83e\udd99 llama.cpp"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hecrj/icebreaker",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "linebender/tiny-skia",
+      "status": "candidate-context",
+      "text": "A tiny Skia subset ported to Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "linebender/tiny-skia",
+      "status": "candidate-context",
+      "text": "Rust"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "raphamorim/rio",
+      "status": "candidate-context",
+      "text": "A hardware-accelerated GPU terminal emulator focusing to run in desktops and browsers."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "raphamorim/rio",
+      "status": "candidate-context",
+      "text": "<!-- LOGO -->"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "watchexec/watchexec",
+      "status": "candidate-context",
+      "text": "Executes commands in response to file modifications"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "watchexec/watchexec",
+      "status": "candidate-context",
+      "text": "[![CI status on main branch](https://github.com/watchexec/watchexec/actions/workflows/tests.yml/badge.svg)](https://github.com/watchexec/watchexec/actions/workflows/tests.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "KillingSpark/rustbus",
+      "status": "candidate-context",
+      "text": "Dbus transport in pure rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "KillingSpark/rustbus",
+      "status": "candidate-context",
+      "text": "[![Actions Status](https://github.com/KillingSpark/rustbus/workflows/CI/badge.svg)](https://github.com/KillingSpark/rustbus/actions?query=workflow%3A\"CI\")"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "georust/wkt",
+      "status": "candidate-context",
+      "text": "Rust read/write support for well-known text (WKT)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "georust/wkt",
+      "status": "candidate-context",
+      "text": "wkt"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "succinctlabs/sp1-cluster",
+      "status": "candidate-context",
+      "text": "The official multi-GPU proving service implementation for SP1, designed for the cloud and bare metal deployment."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "succinctlabs/sp1-cluster",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hermit-os/hermit-rs",
+      "status": "candidate-context",
+      "text": "Hermit for Rust."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hermit-os/hermit-rs",
+      "status": "candidate-context",
+      "text": "<img width=\"256\" align=\"right\" src=\"https://github.com/hermit-os/.github/blob/main/logo/hermit-logo.svg\" />"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "BayesWitnesses/m2cgen",
+      "status": "candidate-context",
+      "text": "Transform ML models into a native code (Java, C, Python, Go, JavaScript, Visual Basic, C#, R, PowerShell, PHP, Dart, Haskell, Ruby, F#, Rust) with zero dependencies"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "BayesWitnesses/m2cgen",
+      "status": "candidate-context",
+      "text": "[![GitHub Actions Status](https://github.com/BayesWitnesses/m2cgen/workflows/GitHub%20Actions/badge.svg?branch=master)](https://github.com/BayesWitnesses/m2cgen/actions)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "astro/deadnix",
+      "status": "candidate-context",
+      "text": "Scan Nix files for dead code"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "astro/deadnix",
+      "status": "candidate-context",
+      "text": "Scan `.nix` files for dead code (unused variable bindings)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "codota/tabnine-sublime",
+      "status": "candidate-context",
+      "text": "Tabnine Autocomplete AI: JavaScript, Python, TypeScript, PHP, C/C++, HTML/CSS, Go, Java, Ruby, C#, Rust, SQL, Bash, Kotlin, Julia, Lua, OCaml, Perl, Haskell, React"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "codota/tabnine-sublime",
+      "status": "candidate-context",
+      "text": "[twitter-shield]: https://img.shields.io/twitter/follow/Tabnine_?style=social"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "codota/tabnine-vim",
+      "status": "candidate-context",
+      "text": "Vim client for TabNine. https://vimawesome.com/plugin/tabnine-vim"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "codota/tabnine-vim",
+      "status": "candidate-context",
+      "text": "[twitter-shield]: https://img.shields.io/twitter/follow/Tabnine_?style=social"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ebkalderon/tower-lsp",
+      "status": "candidate-context",
+      "text": "Language Server Protocol implementation written in Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ebkalderon/tower-lsp",
+      "status": "candidate-context",
+      "text": "[![Build Status][build-badge]][build-url]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "saphyr-rs/saphyr",
+      "status": "candidate-context",
+      "text": "A set of crates dedicated to parsing YAML."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "saphyr-rs/saphyr",
+      "status": "candidate-context",
+      "text": "This repository is home to `saphyr-parser`, `saphyr` and soon-to-be"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "erg-lang/erg",
+      "status": "candidate-context",
+      "text": "A statically typed language compatible with Python"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "erg-lang/erg",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "GreptimeTeam/greptimedb",
+      "status": "candidate-context",
+      "text": "The open-source Observability 2.0 database. One engine for metrics, logs, and traces \u2014 replacing Prometheus, Loki & ES."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "GreptimeTeam/greptimedb",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "progval/pythonvm-rust",
+      "status": "candidate-context",
+      "text": "An incomplete stackless interpreter of Python bytecode, written in Rust. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "progval/pythonvm-rust",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://travis-ci.org/ProgVal/pythonvm-rust.svg?branch=master)](https://travis-ci.org/ProgVal/pythonvm-rust)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "asaaki/opentelemetry-tide",
+      "status": "candidate-context",
+      "text": "\ud83d\udd2d\ud83c\udf0a OpenTelemetry integration for Tide"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "asaaki/opentelemetry-tide",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\"><img src=\"https://raw.githubusercontent.com/asaaki/opentelemetry-tide/main/.assets/opentelemetry-tide-logo.svg\" width=128 height=128><br>opentelemetry-tide</h1>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "askama-rs/askama-old",
+      "status": "candidate-context",
+      "text": "The original askama repo, please go to https://github.com/askama-rs/askama"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "askama-rs/askama-old",
+      "status": "candidate-context",
+      "text": "[![Crates.io](https://img.shields.io/crates/v/askama?logo=rust&style=flat-square&logoColor=white \"Crates.io\")](https://crates.io/crates/askama)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "LukeMathWalker/cargo-chef",
+      "status": "candidate-context",
+      "text": "A cargo-subcommand to speed up Rust Docker builds using Docker layer caching."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "LukeMathWalker/cargo-chef",
+      "status": "candidate-context",
+      "text": "Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "LukeMathWalker/cargo-chef",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">cargo-chef</h1>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "psmux/Tmux-Plugin-Panel",
+      "status": "candidate-context",
+      "text": "A full-fledged TUI plugin manager for tmux \u2014 the modern alternative to TPM. Browse, install, remove, update plugins and themes from a beautiful terminal interface."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "psmux/Tmux-Plugin-Panel",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sharkdp/pastel",
+      "status": "candidate-context",
+      "text": "A command-line tool to generate, analyze, convert and manipulate colors"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sharkdp/pastel",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://img.shields.io/github/actions/workflow/status/sharkdp/pastel/CICD.yml?style=flat-square)](https://github.com/sharkdp/pastel/actions)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "datafuse-extras/clickhouse_driver",
+      "status": "candidate-context",
+      "text": "yandex Clickhouse native rust driver"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "datafuse-extras/clickhouse_driver",
+      "status": "candidate-context",
+      "text": "Rust"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ClickHouse/clickhouse-rs",
+      "status": "candidate-context",
+      "text": "Official pure Rust typed client for ClickHouse DB"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ClickHouse/clickhouse-rs",
+      "status": "candidate-context",
+      "text": "Official pure Rust typed client for ClickHouse DB."
     }
   ],
   "candidate_glosses": [
@@ -7260,6 +8016,396 @@
       "source_repo": "apollographql/apollo-rs",
       "status": "candidate",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Byron/dua-cli",
+      "status": "candidate",
+      "text": "Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "KSXGitHub/parallel-disk-usage",
+      "status": "candidate",
+      "text": "[![Test](https://github.com/KSXGitHub/parallel-disk-usage/workflows/Test/badge.svg)](https://github.com/KSXGitHub/parallel-disk-usage/actions?query=workflow%3ATest)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nachoparker/dutree",
+      "status": "candidate",
+      "text": "a tool to analyze file system usage written in Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hermit-os/kernel",
+      "status": "candidate",
+      "text": "<img width=\"256\" align=\"right\" src=\"https://github.com/hermit-os/.github/blob/main/logo/hermit-logo.svg\" />"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "numToStr/lemmy-help",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">\ud83e\udd1d lemmy-help</h1>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "eitsupi/arf",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dmtrKovalenko/zlob",
+      "status": "candidate",
+      "text": "100% POSIX and glibc compatible globbing library for C, Zig, and Rust that is **faster** and supports **all the modern globbing formats** and gitignore"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "eopb/cargo-override",
+      "status": "candidate",
+      "text": "Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "proxy-wasm/proxy-wasm-rust-sdk",
+      "status": "candidate",
+      "text": "Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "stellar/soroban-examples",
+      "status": "candidate",
+      "text": "Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mtshiba/pylyzer",
+      "status": "candidate",
+      "text": "Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mtshiba/pylyzer",
+      "status": "candidate",
+      "text": "> [!IMPORTANT]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "RustPython/RustPython",
+      "status": "candidate",
+      "text": "<img src=\"./logo.png\" width=\"125\" height=\"125\" align=\"right\" />"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mthom/scryer-prolog",
+      "status": "candidate",
+      "text": "Scryer Prolog aims to become to ISO Prolog what GHC is to Haskell: an open"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "andrewmilson/ministark",
+      "status": "candidate",
+      "text": "> **Warning**"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "isamert/gracer",
+      "status": "candidate",
+      "text": "A rust code completion plugin for gedit. Built with the Rust auto completion tool by Phil Dawes (https://github.com/phildawes/racer)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "wooorm/mdxjs-rs",
+      "status": "candidate",
+      "text": "[dependencies] markdown = \"1\" rustc-hash = \"2\" serde = { optional = true, version = \"1\" } swc_core = { features = [ \"common\", \"ecma_ast\", \"ecma_codegen\", \"ecma_parser\", \"ecma_visit\", ], version = \"27\" } [dev-dependencies] pretty_assertions = \"1\" [features] serializable = [\"serde\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aws/amazon-q-developer-cli",
+      "status": "candidate",
+      "text": "Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aws/amazon-q-developer-cli",
+      "status": "candidate",
+      "text": "> [!IMPORTANT]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "oschwald/maxminddb-rust",
+      "status": "candidate",
+      "text": "Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "YaLTeR/wl-clipboard-rs",
+      "status": "candidate",
+      "text": "[![crates.io](https://img.shields.io/crates/v/wl-clipboard-rs.svg)](https://crates.io/crates/wl-clipboard-rs)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "baerwang/openapi-rs",
+      "status": "candidate",
+      "text": "[English](README.md) | [\u4e2d\u6587](README-ZH.md)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "carrascomj/dalted",
+      "status": "candidate",
+      "text": "![alt text](./static/img/logo.svg \"Dalted logo black\")"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cargo-bins/cargo-binstall",
+      "status": "candidate",
+      "text": "Binstall provides a low-complexity mechanism for installing Rust binaries as an alternative to building from source (via `cargo install`) or manually downloading packages."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rust3ds/ctru-rs-old",
+      "status": "candidate",
+      "text": "This repository has been deprecated in favour of the new `ctru-rs` version of the Rust3DS toolchain. For more information about the new tools and libraries, check [ctru-rs](https://github.com/rust3ds/ctru-rs)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/hudi-rs",
+      "status": "candidate",
+      "text": "<!--"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "baygeldin/tantiny",
+      "status": "candidate",
+      "text": "> [!NOTE]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lnx-search/lnx",
+      "status": "candidate",
+      "text": "Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lnx-search/lnx",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SeaQL/sea-orm",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kurrent-io/KurrentDB-Client-Rust",
+      "status": "candidate",
+      "text": "[![Crates.io][crates-badge]][crates-url]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Automattic/harper",
+      "status": "candidate",
+      "text": "<div id=\"header\" align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sagiegurari/duckscript",
+      "status": "candidate",
+      "text": "| duckscript | SDK | CLI |"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chelsea0x3b/cudarc",
+      "status": "candidate",
+      "text": "[![](https://dcbadge.vercel.app/api/server/AtUhGqBDP5)](https://discord.gg/AtUhGqBDP5)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "swc-project/swc",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ruby/ruby",
+      "status": "candidate",
+      "text": "[![Actions Status: MinGW](https://github.com/ruby/ruby/workflows/MinGW/badge.svg)](https://github.com/ruby/ruby/actions?query=workflow%3A\"MinGW\")"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kaichaosun/rlt",
+      "status": "candidate",
+      "text": "[![localtunnel](https://img.shields.io/crates/v/localtunnel.svg)](https://crates.io/crates/localtunnel)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dskkato/rjo",
+      "status": "candidate",
+      "text": "[![rjo](https://img.shields.io/crates/v/rjo.svg)](https://crates.io/crates/rjo)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ggez/ggez",
+      "status": "candidate",
+      "text": "[![ggez logo](docs/ggez-logo-maroon-full.svg)](http://ggez.rs/)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hecrj/coffee",
+      "status": "candidate",
+      "text": "[![Integration status](https://github.com/hecrj/coffee/workflows/Integration/badge.svg)](https://github.com/hecrj/coffee/actions)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hecrj/icebreaker",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "linebender/tiny-skia",
+      "status": "candidate",
+      "text": "Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "raphamorim/rio",
+      "status": "candidate",
+      "text": "<!-- LOGO -->"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "watchexec/watchexec",
+      "status": "candidate",
+      "text": "[![CI status on main branch](https://github.com/watchexec/watchexec/actions/workflows/tests.yml/badge.svg)](https://github.com/watchexec/watchexec/actions/workflows/tests.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "KillingSpark/rustbus",
+      "status": "candidate",
+      "text": "[![Actions Status](https://github.com/KillingSpark/rustbus/workflows/CI/badge.svg)](https://github.com/KillingSpark/rustbus/actions?query=workflow%3A\"CI\")"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "georust/wkt",
+      "status": "candidate",
+      "text": "wkt"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "succinctlabs/sp1-cluster",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hermit-os/hermit-rs",
+      "status": "candidate",
+      "text": "<img width=\"256\" align=\"right\" src=\"https://github.com/hermit-os/.github/blob/main/logo/hermit-logo.svg\" />"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "BayesWitnesses/m2cgen",
+      "status": "candidate",
+      "text": "[![GitHub Actions Status](https://github.com/BayesWitnesses/m2cgen/workflows/GitHub%20Actions/badge.svg?branch=master)](https://github.com/BayesWitnesses/m2cgen/actions)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "astro/deadnix",
+      "status": "candidate",
+      "text": "Scan `.nix` files for dead code (unused variable bindings)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "codota/tabnine-sublime",
+      "status": "candidate",
+      "text": "[twitter-shield]: https://img.shields.io/twitter/follow/Tabnine_?style=social"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "codota/tabnine-vim",
+      "status": "candidate",
+      "text": "[twitter-shield]: https://img.shields.io/twitter/follow/Tabnine_?style=social"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ebkalderon/tower-lsp",
+      "status": "candidate",
+      "text": "[![Build Status][build-badge]][build-url]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "saphyr-rs/saphyr",
+      "status": "candidate",
+      "text": "This repository is home to `saphyr-parser`, `saphyr` and soon-to-be"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "erg-lang/erg",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "GreptimeTeam/greptimedb",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "progval/pythonvm-rust",
+      "status": "candidate",
+      "text": "[![Build Status](https://travis-ci.org/ProgVal/pythonvm-rust.svg?branch=master)](https://travis-ci.org/ProgVal/pythonvm-rust)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "asaaki/opentelemetry-tide",
+      "status": "candidate",
+      "text": "<h1 align=\"center\"><img src=\"https://raw.githubusercontent.com/asaaki/opentelemetry-tide/main/.assets/opentelemetry-tide-logo.svg\" width=128 height=128><br>opentelemetry-tide</h1>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "askama-rs/askama-old",
+      "status": "candidate",
+      "text": "[![Crates.io](https://img.shields.io/crates/v/askama?logo=rust&style=flat-square&logoColor=white \"Crates.io\")](https://crates.io/crates/askama)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "LukeMathWalker/cargo-chef",
+      "status": "candidate",
+      "text": "Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "LukeMathWalker/cargo-chef",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">cargo-chef</h1>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "psmux/Tmux-Plugin-Panel",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sharkdp/pastel",
+      "status": "candidate",
+      "text": "[![Build Status](https://img.shields.io/github/actions/workflow/status/sharkdp/pastel/CICD.yml?style=flat-square)](https://github.com/sharkdp/pastel/actions)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "datafuse-extras/clickhouse_driver",
+      "status": "candidate",
+      "text": "Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ClickHouse/clickhouse-rs",
+      "status": "candidate",
+      "text": "Official pure Rust typed client for ClickHouse DB."
     }
   ],
   "candidate_related_terms": [
@@ -10543,11 +11689,629 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "georust/geo"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "skim-rs/skim"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/rust.yml",
+      "source_repo": "Byron/dua-cli"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "KSXGitHub/parallel-disk-usage"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "nachoparker/dutree"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "ashvardanian/NumKong"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "wasm-bindgen/wasm-bindgen"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "hermit-os/kernel"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "numToStr/lemmy-help"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "eclipse-corrosion/corrosion"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "rust-lang/rust-analyzer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "codota/TabNine"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "eitsupi/arf"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "dmtrKovalenko/fff"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "dmtrKovalenko/zlob"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "crate-ci/cargo-release"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/rust.yml",
+      "source_repo": "eopb/cargo-override"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "rust-lang/rust-clippy"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "rust-lang/rustfmt"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/rust.yml",
+      "source_repo": "proxy-wasm/proxy-wasm-rust-sdk"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/rust.yml",
+      "source_repo": "stellar/soroban-examples"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "astral-sh/ruff"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/rust.yml",
+      "source_repo": "mtshiba/pylyzer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "mtshiba/pylyzer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "RustPython/RustPython"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "mthom/scryer-prolog"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/rust.yml",
+      "source_repo": "pulldown-cmark/pulldown-cmark"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "pulldown-cmark/pulldown-cmark"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "arkworks-rs/poly-commit"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "arkworks-rs/std"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "andrewmilson/ministark"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "ipsilon/evmc"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/rust.yml",
+      "source_repo": "Layr-Labs/bn254-bls-keystore-rs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "winfunc/opcode"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/rust.yml",
+      "source_repo": "dirs-dev/dirs-rs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "isamert/gracer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "rust-lang/vscode-rust"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "wooorm/mdxjs-rs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/rust.yml",
+      "source_repo": "aws/amazon-q-developer-cli"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "aws/amazon-q-developer-cli"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/rust.yml",
+      "source_repo": "oschwald/maxminddb-rust"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "psmux/pstop"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "psmux/psmux"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "YaLTeR/wl-clipboard-rs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "apache/casbin-rs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "baerwang/openapi-rs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "carrascomj/dalted"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "apache/casbin-rust-actix-casbin"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "apache/casbin-actix-casbin-auth"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "apache/casbin-axum-casbin"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "cargo-bins/cargo-binstall"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "rust3ds/ctru-rs-old"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/rust.yml",
+      "source_repo": "safetensors/safetensors"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/rust.yml",
+      "source_repo": "apache/datafusion-ballista"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "apache/datafusion-ballista"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "apache/datafusion-ballista-python"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "0x676e67/wreq-python"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "apache/hudi-rs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "baygeldin/tantiny"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/rust.yml",
+      "source_repo": "lnx-search/lnx"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "lnx-search/lnx"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "SeaQL/sea-orm"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/rust.yml",
+      "source_repo": "lnx-search/rewrk"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "lnx-search/rewrk"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "kurrent-io/KurrentDB-Client-Rust"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "Automattic/harper"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "sagiegurari/duckscript"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "chelsea0x3b/cudarc"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "swc-project/swc"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "ruby/ruby"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "kaichaosun/rlt"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "dskkato/rjo"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "ggez/ggez"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "hecrj/coffee"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "hecrj/icebreaker"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "linebender/tiny-skia"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "raphamorim/rio"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "vaporif/parry-guard"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "alacritty/alacritty"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "watchexec/watchexec"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "watchexec/cargo-watch"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "KillingSpark/rustbus"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "georust/wkt"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "succinctlabs/sp1-cluster"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "hermit-os/hermit-rs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "BayesWitnesses/m2cgen"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "astro/deadnix"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "codota/tabnine-atom"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "codota/tabnine-sublime"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "codota/tabnine-vim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "ebkalderon/tower-lsp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "saphyr-rs/saphyr"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "erg-lang/erg"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "GreptimeTeam/greptimedb"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "progval/pythonvm-rust"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "asaaki/opentelemetry-tide"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "askama-rs/askama-old"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/general.yml",
+      "source_repo": "LukeMathWalker/cargo-chef"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "LukeMathWalker/cargo-chef"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "psmux/Tmux-Plugin-Panel"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "sharkdp/pastel"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "wasm-bindgen/wasm-pack"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "datafuse-extras/clickhouse_driver"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "ClickHouse/clickhouse-rs"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

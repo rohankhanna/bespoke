@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "\ud83c\udf89 Triage Party: massively multi-player GitHub triage \ud83c\udf89"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "`NOTE: This is not an officially supported Google product`"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "`NOTE: This is not an officially supported Google product`"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20049212,
+      "status": "candidate",
+      "text": "sortation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20049111,
+      "status": "candidate",
+      "text": "sort"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20048891,
+      "status": "candidate",
+      "text": "sorting"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20047969,
+      "status": "candidate",
+      "text": "categorize"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20047739,
+      "status": "candidate",
+      "text": "classify"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "triage",
+      "sense_id": "triage#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "triage",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "triage",
+  "observation_id": "e242118da221ebab",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T00:37:16.824464+00:00",
+  "observed_text": "triage",
+  "source_context_snippet": "`NOTE: This is not an officially supported Google product`",
+  "source_file": null,
+  "source_repo": "google/triage-party",
+  "source_repo_description": "\ud83c\udf89 Triage Party: massively multi-player GitHub triage \ud83c\udf89"
+}

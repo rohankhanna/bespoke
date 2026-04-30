@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Build Web"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Automattic/harper",
+      "status": "candidate-context",
+      "text": "Offline, privacy-first grammar checker. Fast, open-source, Rust-powered"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Automattic/harper",
+      "status": "candidate-context",
+      "text": "Build Web"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Automattic/harper",
+      "status": "candidate",
+      "text": "Build Web"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28035,
+      "status": "candidate",
+      "text": "silk"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11635,
+      "status": "candidate",
+      "text": "beam"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11635,
+      "status": "candidate",
+      "text": "site"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11540,
+      "status": "candidate",
+      "text": "temple"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10597,
+      "status": "candidate",
+      "text": "accra"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Build Web",
+  "concept_id": "build-web",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/build_web.yml",
+      "source_repo": "Automattic/harper"
+    }
+  ],
+  "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Build Web",
+      "sense_id": "build-web#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

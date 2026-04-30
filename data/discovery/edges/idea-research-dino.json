@@ -4,14 +4,7 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "IDEA-Research/DINO",
-      "target": "idea-research/stable-dino",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "IDEA-Research/DINO",
-      "target": "idea-research/maskdino",
+      "target": "ideacvr/maskdino",
       "target_type": "repository"
     },
     {
@@ -19,6 +12,13 @@
       "source_file": "README.md",
       "source_repo": "IDEA-Research/DINO",
       "target": "idea-opensource/dn-detr",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "IDEA-Research/DINO",
+      "target": "ideacvr/awesome-detection-transformer",
       "target_type": "repository"
     },
     {
@@ -50,6 +50,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-04-29T18:37:00.726333+00:00",
+  "generated_at": "2026-04-30T00:37:16.824464+00:00",
   "source_repo": "IDEA-Research/DINO"
 }

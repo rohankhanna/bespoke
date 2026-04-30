@@ -1,0 +1,136 @@
+{
+  "aliases": [
+    "trunk"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "graffle-js/graffle",
+      "status": "candidate-context",
+      "text": "Simple GraphQL Client for JavaScript. Minimal. Extensible. Type Safe. Runs everywhere."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "graffle-js/graffle",
+      "status": "candidate-context",
+      "text": "trunk"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "graffle-js/graffle",
+      "status": "candidate",
+      "text": "trunk"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40049698,
+      "status": "candidate",
+      "text": "tree trunk"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40049452,
+      "status": "candidate",
+      "text": "bole"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39980630,
+      "status": "candidate",
+      "text": "proboscis"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39963065,
+      "status": "candidate",
+      "text": "torso"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39934890,
+      "status": "candidate",
+      "text": "boot"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 14076,
+      "status": "candidate",
+      "text": "body"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 12079,
+      "status": "candidate",
+      "text": "boot"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 7042,
+      "status": "candidate",
+      "text": "torso"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 4047,
+      "status": "candidate",
+      "text": "proboscis"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 3017,
+      "status": "candidate",
+      "text": "tree trunk"
+    }
+  ],
+  "canonical_name": "trunk",
+  "concept_id": "trunk",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/trunk.yml",
+      "source_repo": "graffle-js/graffle"
+    }
+  ],
+  "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "trunk",
+      "sense_id": "trunk#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

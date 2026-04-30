@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T02:03:49.776269+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 16171
+    },
+    {
+      "path": "requirements.txt",
+      "size": 72
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Leveraging large language models for text-to-SQL synthesis, this project fine-tunes WizardLM/WizardCoder-15B-V1.0 with QLoRA on a custom Spider training dataset. The resultant model, achieves 61% execution accuracy, incorporating database context for validation.",
+    "fork": false,
+    "full_name": "cuplv/text-to-sql-wizardcoder",
+    "html_url": "https://github.com/cuplv/text-to-sql-wizardcoder",
+    "language": "Jupyter Notebook",
+    "pushed_at": "2023-12-12T00:25:57Z",
+    "stargazers_count": 46,
+    "topics": [],
+    "updated_at": "2026-04-18T14:49:31Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

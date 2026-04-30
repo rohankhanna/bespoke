@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Analyzes Elm projects, to help find mistakes before your users find them."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "`elm-review` analyzes [Elm](https://elm-lang.org/) projects, to help find mistakes before your users find them."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "`elm-review` analyzes [Elm](https://elm-lang.org/) projects, to help find mistakes before your users find them."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40024595,
+      "status": "candidate",
+      "text": "superior"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40024441,
+      "status": "candidate",
+      "text": "fine"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40020106,
+      "status": "candidate",
+      "text": "prime"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40011063,
+      "status": "candidate",
+      "text": "choice"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40010429,
+      "status": "candidate",
+      "text": "upper-class"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "quality",
+      "sense_id": "quality#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 47051,
+      "status": "candidate",
+      "text": "timbre"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 31065,
+      "status": "candidate",
+      "text": "fine"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 31061,
+      "status": "candidate",
+      "text": "prime"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 29078,
+      "status": "candidate",
+      "text": "character"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 24074,
+      "status": "candidate",
+      "text": "tone"
+    }
+  ],
+  "concept_id": "quality",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "quality",
+  "observation_id": "0ecd62bf069f68f1",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T00:37:16.824464+00:00",
+  "observed_text": "quality",
+  "source_context_snippet": "`elm-review` analyzes [Elm](https://elm-lang.org/) projects, to help find mistakes before your users find them.",
+  "source_file": null,
+  "source_repo": "jfmengels/elm-review",
+  "source_repo_description": "Analyzes Elm projects, to help find mistakes before your users find them."
+}

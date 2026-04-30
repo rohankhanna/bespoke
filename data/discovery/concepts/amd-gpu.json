@@ -1,11 +1,14 @@
 {
   "aliases": [
-    "amd-gpu"
+    "amd-gpu",
+    "AMD GPU"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
     "tool-component",
-    "capability"
+    "capability",
+    "workflow-process",
+    "data-document-artifact"
   ],
   "candidate_definitions": [
     {
@@ -19,6 +22,18 @@
       "source_repo": "danielrosehill/AMD-GPU-DP-Hotplug-Fix",
       "status": "candidate-context",
       "text": "**Part of the [Patches Index](https://github.com/danielrosehill/Patches-Repos-Index).**"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "linkedin/Liger-Kernel",
+      "status": "candidate-context",
+      "text": "Efficient Triton Kernels for LLM Training"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "linkedin/Liger-Kernel",
+      "status": "candidate-context",
+      "text": "AMD GPU"
     }
   ],
   "candidate_glosses": [
@@ -27,9 +42,51 @@
       "source_repo": "danielrosehill/AMD-GPU-DP-Hotplug-Fix",
       "status": "candidate",
       "text": "**Part of the [Patches Index](https://github.com/danielrosehill/Patches-Repos-Index).**"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "linkedin/Liger-Kernel",
+      "status": "candidate",
+      "text": "AMD GPU"
     }
   ],
-  "candidate_related_terms": [],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11060,
+      "status": "candidate",
+      "text": "cpu"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 5000,
+      "status": "candidate",
+      "text": "abwehr"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 5000,
+      "status": "candidate",
+      "text": "accurate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 5000,
+      "status": "candidate",
+      "text": "admiralty"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 5000,
+      "status": "candidate",
+      "text": "advance"
+    }
+  ],
   "candidate_synonyms": [],
   "canonical_name": "amd-gpu",
   "concept_id": "amd-gpu",
@@ -40,11 +97,17 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": null,
       "source_repo": "danielrosehill/AMD-GPU-DP-Hotplug-Fix"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/amd-ci.yml",
+      "source_repo": "linkedin/Liger-Kernel"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T04:05:22.926421+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 404
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "archived",
+    "description": "Official repository of the AWS SDK for Java 2.x Developer Guide",
+    "fork": false,
+    "full_name": "awsdocs/aws-java-developer-guide-v2",
+    "html_url": "https://github.com/awsdocs/aws-java-developer-guide-v2",
+    "language": null,
+    "pushed_at": "2023-06-15T19:20:17Z",
+    "stargazers_count": 61,
+    "topics": [],
+    "updated_at": "2025-03-26T10:49:35Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

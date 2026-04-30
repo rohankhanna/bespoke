@@ -19,6 +19,18 @@
       "source_repo": "DefinitelyTyped/DefinitelyTyped",
       "status": "candidate-context",
       "text": "> The repository for _high quality_ TypeScript type definitions."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dwyl/fields",
+      "status": "candidate-context",
+      "text": "\ud83c\udf3b fields is a collection of useful field definitions (Custom Ecto Types) that helps you easily define an Ecto Schema with validation, encryption and hashing functions so that you can ship your Elixir/Phoenix App much faster! "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dwyl/fields",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "DefinitelyTyped/DefinitelyTyped",
       "status": "candidate",
       "text": "> The repository for _high quality_ TypeScript type definitions."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dwyl/fields",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -76,11 +94,17 @@
       "observed_at": "2026-04-22T04:49:29.633207+00:00",
       "source_file": null,
       "source_repo": "DefinitelyTyped/DefinitelyTyped"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "dwyl/fields"
     }
   ],
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

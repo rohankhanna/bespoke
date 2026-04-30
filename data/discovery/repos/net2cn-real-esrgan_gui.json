@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "net2cn/Real-ESRGAN_GUI",
+      "target": "microsoft/directml",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T03:54:34.244791+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2427
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Real-ESRGAN-based super resolution model inference GUI written in C#.",
+    "fork": false,
+    "full_name": "net2cn/Real-ESRGAN_GUI",
+    "html_url": "https://github.com/net2cn/Real-ESRGAN_GUI",
+    "language": "C#",
+    "pushed_at": "2022-06-19T08:32:20Z",
+    "stargazers_count": 163,
+    "topics": [],
+    "updated_at": "2026-03-23T14:32:39Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "microsoft/directml",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

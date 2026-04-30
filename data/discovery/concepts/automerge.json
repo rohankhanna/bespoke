@@ -6,7 +6,9 @@
   "ambiguity_status": "unresolved",
   "buckets": [
     "workflow-process",
-    "data-document-artifact"
+    "data-document-artifact",
+    "tool-component",
+    "capability"
   ],
   "candidate_definitions": [
     {
@@ -104,6 +106,66 @@
       "source_repo": "oclif/core",
       "status": "candidate-context",
       "text": "automerge"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "oclif/hello-world",
+      "status": "candidate-context",
+      "text": "Template repository for generating CJS oclif plugins"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "oclif/hello-world",
+      "status": "candidate-context",
+      "text": "automerge"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "oclif/oclif",
+      "status": "candidate-context",
+      "text": "CLI for generating, building, and releasing oclif CLIs. Built by Salesforce."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "oclif/oclif",
+      "status": "candidate-context",
+      "text": "automerge"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "oclif/oclif.github.io",
+      "status": "candidate-context",
+      "text": "docs for oclif"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "oclif/oclif.github.io",
+      "status": "candidate-context",
+      "text": "automerge"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "oclif/plugin-update",
+      "status": "candidate-context",
+      "text": "add autoupdate to your oclif CLI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "oclif/plugin-update",
+      "status": "candidate-context",
+      "text": "automerge"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "peter-evans/enable-pull-request-automerge",
+      "status": "candidate-context",
+      "text": "A GitHub action to enable auto-merge on a pull request"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "peter-evans/enable-pull-request-automerge",
+      "status": "candidate-context",
+      "text": "[![CI](https://github.com/peter-evans/enable-pull-request-automerge/workflows/CI/badge.svg)](https://github.com/peter-evans/enable-pull-request-automerge/actions?query=workflow%3ACI)"
     }
   ],
   "candidate_glosses": [
@@ -154,6 +216,36 @@
       "source_repo": "oclif/core",
       "status": "candidate",
       "text": "automerge"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "oclif/hello-world",
+      "status": "candidate",
+      "text": "automerge"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "oclif/oclif",
+      "status": "candidate",
+      "text": "automerge"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "oclif/oclif.github.io",
+      "status": "candidate",
+      "text": "automerge"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "oclif/plugin-update",
+      "status": "candidate",
+      "text": "automerge"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "peter-evans/enable-pull-request-automerge",
+      "status": "candidate",
+      "text": "[![CI](https://github.com/peter-evans/enable-pull-request-automerge/workflows/CI/badge.svg)](https://github.com/peter-evans/enable-pull-request-automerge/actions?query=workflow%3ACI)"
     }
   ],
   "candidate_related_terms": [],
@@ -209,11 +301,41 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": ".github/workflows/automerge.yml",
       "source_repo": "oclif/core"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/automerge.yml",
+      "source_repo": "oclif/hello-world"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/automerge.yml",
+      "source_repo": "oclif/oclif"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/automerge.yml",
+      "source_repo": "oclif/oclif.github.io"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/automerge.yml",
+      "source_repo": "oclif/plugin-update"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "peter-evans/enable-pull-request-automerge"
     }
   ],
   "first_seen_at": "2026-04-19T02:42:33.990002+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

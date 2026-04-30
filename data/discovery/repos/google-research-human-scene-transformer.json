@@ -1,0 +1,161 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pytest_and_autopublish.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pytest_and_autopublish.yml"
+    },
+    {
+      "component": "etils-actions/pypi-auto-publish@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pytest_and_autopublish.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "google-research/human-scene-transformer",
+      "target": "stanfordasl/trajectron-plus-plus",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pytest_and_autopublish.yml",
+      "source_repo": "google-research/human-scene-transformer",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pytest_and_autopublish.yml",
+      "source_repo": "google-research/human-scene-transformer",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pytest_and_autopublish.yml",
+      "source_repo": "google-research/human-scene-transformer",
+      "target": "etils-actions/pypi-auto-publish@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pytest_and_autopublish.yml",
+      "source_repo": "google-research/human-scene-transformer",
+      "target": "Unittests & Auto-publish",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "google-research/human-scene-transformer",
+      "target": "deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "google-research/human-scene-transformer",
+      "target": "tensorflow2",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "google-research/human-scene-transformer",
+      "target": "trajectory-prediction",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "google-research/human-scene-transformer",
+      "target": "transformer-architecture",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T05:12:17.705881+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7800
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 2348
+    },
+    {
+      "path": "requirements.txt",
+      "size": 212
+    },
+    {
+      "path": ".github/workflows/pytest_and_autopublish.yml",
+      "size": 1540
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "main",
+    "description": "Human Scene Transformer: A framework for trajectory prediction and wrappers for reframing the JRDB dataset for the prediction task.",
+    "fork": false,
+    "full_name": "google-research/human-scene-transformer",
+    "html_url": "https://github.com/google-research/human-scene-transformer",
+    "language": "Python",
+    "pushed_at": "2024-08-14T15:08:01Z",
+    "stargazers_count": 80,
+    "topics": [
+      "deep-learning",
+      "tensorflow2",
+      "trajectory-prediction",
+      "transformer-architecture"
+    ],
+    "updated_at": "2026-04-03T03:29:40Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "stanfordasl/trajectron-plus-plus",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Unittests & Auto-publish",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pytest_and_autopublish.yml",
+      "term": "Unittests & Auto-publish"
+    },
+    {
+      "context_snippet": ":trophy: Winner of the [2023 JRDB Trajectory Prediction Challenge](https://jrdb.erc.monash.edu/leaderboards/trajectory) - [Reproduce](#jrdb-trajectory-prediction-challenge-results) our Result!",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-learning"
+    },
+    {
+      "context_snippet": ":trophy: Winner of the [2023 JRDB Trajectory Prediction Challenge](https://jrdb.erc.monash.edu/leaderboards/trajectory) - [Reproduce](#jrdb-trajectory-prediction-challenge-results) our Result!",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tensorflow2"
+    },
+    {
+      "context_snippet": ":trophy: Winner of the [2023 JRDB Trajectory Prediction Challenge](https://jrdb.erc.monash.edu/leaderboards/trajectory) - [Reproduce](#jrdb-trajectory-prediction-challenge-results) our Result!",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "trajectory-prediction"
+    },
+    {
+      "context_snippet": ":trophy: Winner of the [2023 JRDB Trajectory Prediction Challenge](https://jrdb.erc.monash.edu/leaderboards/trajectory) - [Reproduce](#jrdb-trajectory-prediction-challenge-results) our Result!",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "transformer-architecture"
+    }
+  ]
+}

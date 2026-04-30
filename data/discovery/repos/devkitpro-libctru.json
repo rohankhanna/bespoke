@@ -1,0 +1,186 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/doxygen.yaml"
+    },
+    {
+      "component": "JamesIves/github-pages-deploy-action@3.7.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/doxygen.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml",
+      "source_repo": "devkitPro/libctru",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yaml",
+      "source_repo": "devkitPro/libctru",
+      "target": "Build libctru",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/doxygen.yaml",
+      "source_repo": "devkitPro/libctru",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/doxygen.yaml",
+      "source_repo": "devkitPro/libctru",
+      "target": "JamesIves/github-pages-deploy-action@3.7.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/doxygen.yaml",
+      "source_repo": "devkitPro/libctru",
+      "target": "Build documentation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "devkitPro/libctru",
+      "target": "devkitarm",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "devkitPro/libctru",
+      "target": "devkitpro",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "devkitPro/libctru",
+      "target": "homebrew",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "devkitPro/libctru",
+      "target": "horizon-os",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "devkitPro/libctru",
+      "target": "libctru",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "devkitPro/libctru",
+      "target": "nintendo-3ds",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T05:05:48.961684+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2727
+    },
+    {
+      "path": ".github/workflows/build.yaml",
+      "size": 335
+    },
+    {
+      "path": ".github/workflows/doxygen.yaml",
+      "size": 1038
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Homebrew development library for Nintendo 3DS/Horizon OS user mode (Arm11)",
+    "fork": false,
+    "full_name": "devkitPro/libctru",
+    "html_url": "https://github.com/devkitPro/libctru",
+    "language": "C",
+    "pushed_at": "2026-02-19T17:23:39Z",
+    "stargazers_count": 925,
+    "topics": [
+      "3ds",
+      "devkitarm",
+      "devkitpro",
+      "homebrew",
+      "horizon-os",
+      "libctru",
+      "nintendo-3ds"
+    ],
+    "updated_at": "2026-04-26T17:28:04Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Build libctru",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yaml",
+      "term": "Build libctru"
+    },
+    {
+      "context_snippet": "Build documentation",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/doxygen.yaml",
+      "term": "Build documentation"
+    },
+    {
+      "context_snippet": "![Build Status](https://github.com/devkitPro/libctru/actions/workflows/build.yaml/badge.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "devkitarm"
+    },
+    {
+      "context_snippet": "![Build Status](https://github.com/devkitPro/libctru/actions/workflows/build.yaml/badge.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "devkitpro"
+    },
+    {
+      "context_snippet": "![Build Status](https://github.com/devkitPro/libctru/actions/workflows/build.yaml/badge.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "homebrew"
+    },
+    {
+      "context_snippet": "![Build Status](https://github.com/devkitPro/libctru/actions/workflows/build.yaml/badge.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "horizon-os"
+    },
+    {
+      "context_snippet": "![Build Status](https://github.com/devkitPro/libctru/actions/workflows/build.yaml/badge.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "libctru"
+    },
+    {
+      "context_snippet": "![Build Status](https://github.com/devkitPro/libctru/actions/workflows/build.yaml/badge.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nintendo-3ds"
+    }
+  ]
+}

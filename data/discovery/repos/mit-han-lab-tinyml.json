@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T01:59:23.653808+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3533
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": null,
+    "fork": false,
+    "full_name": "mit-han-lab/tinyml",
+    "html_url": "https://github.com/mit-han-lab/tinyml",
+    "language": "Python",
+    "pushed_at": "2023-11-29T04:22:13Z",
+    "stargazers_count": 1147,
+    "topics": [],
+    "updated_at": "2026-04-30T01:45:16Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

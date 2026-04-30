@@ -140,6 +140,66 @@
       "source_repo": "lervag/vimtex",
       "status": "candidate-context",
       "text": "CI tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jgm/djot.js",
+      "status": "candidate-context",
+      "text": "JavaScript implementation of djot"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jgm/djot.js",
+      "status": "candidate-context",
+      "text": "CI tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "github/cmark-gfm",
+      "status": "candidate-context",
+      "text": "GitHub's fork of cmark, a CommonMark parsing and rendering library and program in C"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "github/cmark-gfm",
+      "status": "candidate-context",
+      "text": "CI tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kivikakk/cmark-gfm",
+      "status": "candidate-context",
+      "text": "GitHub's fork of cmark, a CommonMark parsing and rendering library and program in C"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kivikakk/cmark-gfm",
+      "status": "candidate-context",
+      "text": "CI tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "firebase/firebase-android-sdk",
+      "status": "candidate-context",
+      "text": "Firebase Android SDK"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "firebase/firebase-android-sdk",
+      "status": "candidate-context",
+      "text": "CI Tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jgm/djot.lua",
+      "status": "candidate-context",
+      "text": "Lua parser for the djot light markup language"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jgm/djot.lua",
+      "status": "candidate-context",
+      "text": "CI tests"
     }
   ],
   "candidate_glosses": [
@@ -206,6 +266,36 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "lervag/vimtex",
+      "status": "candidate",
+      "text": "CI tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jgm/djot.js",
+      "status": "candidate",
+      "text": "CI tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "github/cmark-gfm",
+      "status": "candidate",
+      "text": "CI tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kivikakk/cmark-gfm",
+      "status": "candidate",
+      "text": "CI tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "firebase/firebase-android-sdk",
+      "status": "candidate",
+      "text": "CI Tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jgm/djot.lua",
       "status": "candidate",
       "text": "CI tests"
     }
@@ -341,11 +431,53 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": ".github/workflows/ci.yml",
       "source_repo": "commonmark/commonmark.js"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "jgm/djot.js"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "github/cmark-gfm"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "kivikakk/cmark-gfm"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "commonmark/cmark"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/ci_tests.yml",
+      "source_repo": "firebase/firebase-android-sdk"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "commonmark/commonmark.js"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "jgm/djot.lua"
     }
   ],
   "first_seen_at": "2026-04-18T12:07:11.500453+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

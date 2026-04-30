@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "completions"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "vladimir-kotikov/clink-completions",
+      "status": "candidate-context",
+      "text": "Completion files to clink util"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vladimir-kotikov/clink-completions",
+      "status": "candidate-context",
+      "text": "[![Build status](https://github.com/vladimir-kotikov/clink-completions/actions/workflows/code-check.yml/badge.svg?branch=master)](https://github.com/vladimir-kotikov/clink-completions/actions/workflows/code-check.yml)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vladimir-kotikov/clink-completions",
+      "status": "candidate",
+      "text": "[![Build status](https://github.com/vladimir-kotikov/clink-completions/actions/workflows/code-check.yml/badge.svg?branch=master)](https://github.com/vladimir-kotikov/clink-completions/actions/workflows/code-check.yml)"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10020498,
+      "status": "candidate",
+      "text": "windup"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10009452,
+      "status": "candidate",
+      "text": "closing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9904979,
+      "status": "candidate",
+      "text": "mop up"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9877341,
+      "status": "candidate",
+      "text": "culmination"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 25003,
+      "status": "candidate",
+      "text": "pass completion"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "completions",
+  "concept_id": "completions",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "vladimir-kotikov/clink-completions"
+    }
+  ],
+  "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "completions",
+      "sense_id": "completions#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

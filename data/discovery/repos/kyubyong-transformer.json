@@ -1,0 +1,104 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Kyubyong/transformer",
+      "target": "attention-is-all-you-need",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Kyubyong/transformer",
+      "target": "attention-mechanism",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Kyubyong/transformer",
+      "target": "implementation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Kyubyong/transformer",
+      "target": "transformer",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Kyubyong/transformer",
+      "target": "translation",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T03:50:57.899655+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2798
+    },
+    {
+      "path": "requirements.txt",
+      "size": 67
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A TensorFlow Implementation of the Transformer: Attention Is All You Need",
+    "fork": false,
+    "full_name": "Kyubyong/transformer",
+    "html_url": "https://github.com/Kyubyong/transformer",
+    "language": "Python",
+    "pushed_at": "2023-05-21T17:39:56Z",
+    "stargazers_count": 4467,
+    "topics": [
+      "attention-is-all-you-need",
+      "attention-mechanism",
+      "implementation",
+      "transformer",
+      "translation"
+    ],
+    "updated_at": "2026-04-29T02:53:34Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "When I opened this repository in 2017, there was no official code yet.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "attention-is-all-you-need"
+    },
+    {
+      "context_snippet": "When I opened this repository in 2017, there was no official code yet.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "attention-mechanism"
+    },
+    {
+      "context_snippet": "When I opened this repository in 2017, there was no official code yet.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "implementation"
+    },
+    {
+      "context_snippet": "When I opened this repository in 2017, there was no official code yet.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "transformer"
+    },
+    {
+      "context_snippet": "When I opened this repository in 2017, there was no official code yet.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "translation"
+    }
+  ]
+}

@@ -84,7 +84,7 @@
   "normalized_form": "wait-for-checks",
   "observation_id": "9b6bbaec156c83e3",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_at": "2026-04-30T00:37:16.824464+00:00",
   "observed_text": "Wait for checks",
   "source_context_snippet": "Wait for checks",
   "source_file": ".github/workflows/_wait_for_checks.yml",

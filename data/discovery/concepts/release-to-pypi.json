@@ -43,6 +43,18 @@
       "source_repo": "authlib/authlib",
       "status": "candidate-context",
       "text": "Release to PyPI"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "tox-dev/pipdeptree",
+      "status": "candidate-context",
+      "text": "A command line utility to display dependency tree of the installed Python packages"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tox-dev/pipdeptree",
+      "status": "candidate-context",
+      "text": "Release to PyPI"
     }
   ],
   "candidate_glosses": [
@@ -61,6 +73,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "authlib/authlib",
+      "status": "candidate",
+      "text": "Release to PyPI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tox-dev/pipdeptree",
       "status": "candidate",
       "text": "Release to PyPI"
     }
@@ -130,11 +148,17 @@
       "observed_at": "2026-04-24T00:33:56.049672+00:00",
       "source_file": ".github/workflows/pypi.yml",
       "source_repo": "authlib/authlib"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "tox-dev/pipdeptree"
     }
   ],
   "first_seen_at": "2026-04-18T10:43:38.551697+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

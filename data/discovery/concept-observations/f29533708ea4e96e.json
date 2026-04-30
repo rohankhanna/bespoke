@@ -1,0 +1,101 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "MCP server giving AI agents full access to Julia's runtime via a live Gate \u2014 code execution, introspection, debugging, testing, and semantic search"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<p align=\"center\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29883244,
+      "status": "candidate",
+      "text": "pointer"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19999785,
+      "status": "candidate",
+      "text": "updatable"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19973637,
+      "status": "candidate",
+      "text": "poise"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19967145,
+      "status": "candidate",
+      "text": "declare"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19947473,
+      "status": "candidate",
+      "text": "traveller"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "cursor",
+      "sense_id": "cursor#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 1049,
+      "status": "candidate",
+      "text": "pointer"
+    }
+  ],
+  "concept_id": "cursor",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "cursor",
+  "observation_id": "f29533708ea4e96e",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T00:37:16.824464+00:00",
+  "observed_text": "cursor",
+  "source_context_snippet": "<p align=\"center\">",
+  "source_file": null,
+  "source_repo": "kahliburke/Kaimon.jl",
+  "source_repo_description": "MCP server giving AI agents full access to Julia's runtime via a live Gate \u2014 code execution, introspection, debugging, testing, and semantic search"
+}

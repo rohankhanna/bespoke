@@ -1,0 +1,86 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Kim2091/chaiNNer-Templates",
+      "target": "chainner",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Kim2091/chaiNNer-Templates",
+      "target": "esrgan",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Kim2091/chaiNNer-Templates",
+      "target": "image-processing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Kim2091/chaiNNer-Templates",
+      "target": "templates",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T01:56:23.424453+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 849
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Pre-made chains/templates for chaiNNer. Pytorch, NCNN, and ONNX included.",
+    "fork": false,
+    "full_name": "Kim2091/chaiNNer-Templates",
+    "html_url": "https://github.com/Kim2091/chaiNNer-Templates",
+    "language": null,
+    "pushed_at": "2025-03-14T05:44:50Z",
+    "stargazers_count": 206,
+    "topics": [
+      "chainner",
+      "esrgan",
+      "image-processing",
+      "templates"
+    ],
+    "updated_at": "2026-04-13T12:20:09Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/J3J3BCC3L)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "chainner"
+    },
+    {
+      "context_snippet": "[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/J3J3BCC3L)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "esrgan"
+    },
+    {
+      "context_snippet": "[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/J3J3BCC3L)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "image-processing"
+    },
+    {
+      "context_snippet": "[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/J3J3BCC3L)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "templates"
+    }
+  ]
+}

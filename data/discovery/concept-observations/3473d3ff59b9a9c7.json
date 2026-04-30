@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Prometheus Alertmanager"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Push README to Docker Hub"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Push README to Docker Hub"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15191,
+      "status": "candidate",
+      "text": "boat"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15066,
+      "status": "candidate",
+      "text": "ark"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14315,
+      "status": "candidate",
+      "text": "burr"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14315,
+      "status": "candidate",
+      "text": "defile"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14315,
+      "status": "candidate",
+      "text": "exit"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Push README to Docker Hub",
+      "sense_id": "push-readme-to-docker-hub#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "push-readme-to-docker-hub",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "push-readme-to-docker-hub",
+  "observation_id": "3473d3ff59b9a9c7",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-30T00:37:16.824464+00:00",
+  "observed_text": "Push README to Docker Hub",
+  "source_context_snippet": "Push README to Docker Hub",
+  "source_file": ".github/workflows/container_description.yml",
+  "source_repo": "prometheus/alertmanager",
+  "source_repo_description": "Prometheus Alertmanager"
+}

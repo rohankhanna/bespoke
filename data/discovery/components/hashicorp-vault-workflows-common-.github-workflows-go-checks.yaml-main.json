@@ -1,0 +1,12 @@
+{
+  "component": "hashicorp/vault-workflows-common/.github/workflows/go-checks.yaml@main",
+  "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/go-checks.yaml",
+      "source_repo": "hashicorp/vault-plugin-auth-kerberos"
+    }
+  ]
+}

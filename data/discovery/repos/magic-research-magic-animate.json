@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T03:53:21.568357+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4475
+    },
+    {
+      "path": "requirements.txt",
+      "size": 2305
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "[CVPR 2024] Official repository for \"MagicAnimate: Temporally Consistent Human Image Animation using Diffusion Model\"",
+    "fork": false,
+    "full_name": "magic-research/magic-animate",
+    "html_url": "https://github.com/magic-research/magic-animate",
+    "language": "Python",
+    "pushed_at": "2025-08-29T03:12:58Z",
+    "stargazers_count": 10908,
+    "topics": [],
+    "updated_at": "2026-04-28T02:42:14Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

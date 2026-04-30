@@ -1,0 +1,45 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "f-amerehi/Eidolon",
+      "target": "gestaltrevision/eidolon",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T02:03:35.940569+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1624
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 526
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Eidolons: Novel Stimuli for Vision Research",
+    "fork": true,
+    "full_name": "f-amerehi/Eidolon",
+    "html_url": "https://github.com/f-amerehi/Eidolon",
+    "language": "Python",
+    "pushed_at": "2023-06-18T18:23:30Z",
+    "stargazers_count": 0,
+    "topics": [],
+    "updated_at": "2023-06-18T17:32:48Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "gestaltrevision/eidolon",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

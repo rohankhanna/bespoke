@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "The simplest and most extensible zkVM. Fast and fully open source from a16z crypto and friends. \u26a1"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Claude Routines"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Claude Routines"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10358,
+      "status": "candidate",
+      "text": "batch"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10358,
+      "status": "candidate",
+      "text": "bohemianism"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10358,
+      "status": "candidate",
+      "text": "church"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10358,
+      "status": "candidate",
+      "text": "club"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10358,
+      "status": "candidate",
+      "text": "dancer"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Claude Routines",
+      "sense_id": "claude-routines#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "claude-routines",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "claude-routines",
+  "observation_id": "8129e06a0ac15f11",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-30T00:37:16.824464+00:00",
+  "observed_text": "Claude Routines",
+  "source_context_snippet": "Claude Routines",
+  "source_file": ".github/workflows/claude-routines.yml",
+  "source_repo": "a16z/jolt",
+  "source_repo_description": "The simplest and most extensible zkVM. Fast and fully open source from a16z crypto and friends. \u26a1"
+}

@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T05:12:42.280014+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2197
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Efficient Visual Tracking with Exemplar Transformers [WACV2023]",
+    "fork": false,
+    "full_name": "pblatter/ettrack",
+    "html_url": "https://github.com/pblatter/ettrack",
+    "language": "Python",
+    "pushed_at": "2024-03-25T18:05:06Z",
+    "stargazers_count": 98,
+    "topics": [],
+    "updated_at": "2026-03-21T18:56:05Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

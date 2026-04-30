@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T05:04:58.552954+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2510
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A solution, project, props, and nuget packaging templates for typical library scenarios.",
+    "fork": false,
+    "full_name": "evoskuil/visual-studio-template",
+    "html_url": "https://github.com/evoskuil/visual-studio-template",
+    "language": "Batchfile",
+    "pushed_at": "2025-11-13T01:43:40Z",
+    "stargazers_count": 2,
+    "topics": [],
+    "updated_at": "2025-11-13T01:43:43Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

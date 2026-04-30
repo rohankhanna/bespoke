@@ -1,0 +1,125 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "LogtalkDotOrg/logtalk-jupyter-kernel",
+      "target": "hhu-stups/prolog-jupyter-kernel",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "LogtalkDotOrg/logtalk-jupyter-kernel",
+      "target": "ipython/ipykernel",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "LogtalkDotOrg/logtalk-jupyter-kernel",
+      "target": "logtalkdotorg/jupyterlab-logtalk-codemirror-extension",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "LogtalkDotOrg/logtalk-jupyter-kernel",
+      "target": "logtalkdotorg/logtalk-for-vscode",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "LogtalkDotOrg/logtalk-jupyter-kernel",
+      "target": "jupyter-notebook",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "LogtalkDotOrg/logtalk-jupyter-kernel",
+      "target": "logtalk",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "LogtalkDotOrg/logtalk-jupyter-kernel",
+      "target": "prolog",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T04:50:44.965541+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 18553
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 1258
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A Jupyter kernel for Logtalk",
+    "fork": true,
+    "full_name": "LogtalkDotOrg/logtalk-jupyter-kernel",
+    "html_url": "https://github.com/LogtalkDotOrg/logtalk-jupyter-kernel",
+    "language": "Jupyter Notebook",
+    "pushed_at": "2025-08-23T15:33:43Z",
+    "stargazers_count": 15,
+    "topics": [
+      "jupyter-notebook",
+      "logtalk",
+      "prolog"
+    ],
+    "updated_at": "2026-04-16T06:27:50Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "hhu-stups/prolog-jupyter-kernel",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ipython/ipykernel",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "logtalkdotorg/jupyterlab-logtalk-codemirror-extension",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "logtalkdotorg/logtalk-for-vscode",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "A [Jupyter](https://jupyter.org/) kernel for [Logtalk](https://logtalk.org/) based on [prolog-jupyter-kernel](https://github.com/hhu-stups/prolog-jupyter-kernel) and [IPython kernel](https://github.com/ipython/ipykernel).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "jupyter-notebook"
+    },
+    {
+      "context_snippet": "A [Jupyter](https://jupyter.org/) kernel for [Logtalk](https://logtalk.org/) based on [prolog-jupyter-kernel](https://github.com/hhu-stups/prolog-jupyter-kernel) and [IPython kernel](https://github.com/ipython/ipykernel).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "logtalk"
+    },
+    {
+      "context_snippet": "A [Jupyter](https://jupyter.org/) kernel for [Logtalk](https://logtalk.org/) based on [prolog-jupyter-kernel](https://github.com/hhu-stups/prolog-jupyter-kernel) and [IPython kernel](https://github.com/ipython/ipykernel).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "prolog"
+    }
+  ]
+}

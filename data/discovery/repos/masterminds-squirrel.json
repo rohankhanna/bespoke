@@ -1,0 +1,45 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Masterminds/squirrel",
+      "target": "masterminds/structable",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T05:03:05.222720+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4363
+    },
+    {
+      "path": "go.mod",
+      "size": 321
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Fluent SQL generation for golang",
+    "fork": false,
+    "full_name": "Masterminds/squirrel",
+    "html_url": "https://github.com/Masterminds/squirrel",
+    "language": "Go",
+    "pushed_at": "2024-04-24T05:26:36Z",
+    "stargazers_count": 7920,
+    "topics": [],
+    "updated_at": "2026-04-28T05:48:45Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "masterminds/structable",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

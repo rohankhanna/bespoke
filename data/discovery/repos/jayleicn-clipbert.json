@@ -1,0 +1,138 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "jayleicn/ClipBERT",
+      "target": "chenrocks/uniter",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "jayleicn/ClipBERT",
+      "target": "linjieli222/hero",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "jayleicn/ClipBERT",
+      "target": "facebookresearch/grid-feats-vqa",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jayleicn/ClipBERT",
+      "target": "cvpr2021",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jayleicn/ClipBERT",
+      "target": "pytorch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jayleicn/ClipBERT",
+      "target": "video-question-answering",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jayleicn/ClipBERT",
+      "target": "video-retrieval",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jayleicn/ClipBERT",
+      "target": "vision-and-language",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T05:14:35.757304+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 11649
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "[CVPR 2021 Best Student Paper Honorable Mention, Oral] Official PyTorch code for ClipBERT, an efficient framework for end-to-end learning on image-text and video-text tasks. ",
+    "fork": false,
+    "full_name": "jayleicn/ClipBERT",
+    "html_url": "https://github.com/jayleicn/ClipBERT",
+    "language": "Python",
+    "pushed_at": "2023-08-08T22:18:55Z",
+    "stargazers_count": 730,
+    "topics": [
+      "cvpr2021",
+      "pytorch",
+      "video-question-answering",
+      "video-retrieval",
+      "vision-and-language",
+      "vqa"
+    ],
+    "updated_at": "2026-03-14T01:05:54Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "chenrocks/uniter",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "facebookresearch/grid-feats-vqa",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "linjieli222/hero",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[Less is More: ClipBERT for Video-and-Language Learning via Sparse Sampling](https://arxiv.org/abs/2102.06183)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cvpr2021"
+    },
+    {
+      "context_snippet": "[Less is More: ClipBERT for Video-and-Language Learning via Sparse Sampling](https://arxiv.org/abs/2102.06183)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytorch"
+    },
+    {
+      "context_snippet": "[Less is More: ClipBERT for Video-and-Language Learning via Sparse Sampling](https://arxiv.org/abs/2102.06183)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "video-question-answering"
+    },
+    {
+      "context_snippet": "[Less is More: ClipBERT for Video-and-Language Learning via Sparse Sampling](https://arxiv.org/abs/2102.06183)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "video-retrieval"
+    },
+    {
+      "context_snippet": "[Less is More: ClipBERT for Video-and-Language Learning via Sparse Sampling](https://arxiv.org/abs/2102.06183)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vision-and-language"
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "project-everest/vale",
+      "target": "microsoft/dafny",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "project-everest/vale",
+      "target": "project-everest/hacl-star",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "project-everest/vale",
+      "target": "microsoft/komodo",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "project-everest/vale",
+      "target": "secure-foundations/veri-titan",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T03:56:45.547523+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3175
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Verified Assembly Language for Everest",
+    "fork": false,
+    "full_name": "project-everest/vale",
+    "html_url": "https://github.com/project-everest/vale",
+    "language": "F#",
+    "pushed_at": "2024-02-22T22:45:28Z",
+    "stargazers_count": 307,
+    "topics": [],
+    "updated_at": "2026-03-31T11:49:31Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "microsoft/dafny",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "microsoft/komodo",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "project-everest/hacl-star",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "secure-foundations/veri-titan",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

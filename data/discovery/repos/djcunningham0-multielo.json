@@ -1,0 +1,61 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/multielo.yaml"
+    },
+    {
+      "component": "actions/setup-python@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/multielo.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/multielo.yaml",
+      "source_repo": "djcunningham0/multielo",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/multielo.yaml",
+      "source_repo": "djcunningham0/multielo",
+      "target": "actions/setup-python@v2",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-04-30T02:42:33.858419+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 11277
+    },
+    {
+      "path": "requirements.txt",
+      "size": 13
+    },
+    {
+      "path": ".github/workflows/multielo.yaml",
+      "size": 1298
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "djcunningham0/multielo",
+    "html_url": "https://github.com/djcunningham0/multielo",
+    "language": "Python",
+    "pushed_at": "2023-01-25T19:13:28Z",
+    "stargazers_count": 70,
+    "topics": [],
+    "updated_at": "2025-10-07T19:40:53Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

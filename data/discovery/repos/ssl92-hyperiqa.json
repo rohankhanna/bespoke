@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T01:56:43.679349+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1950
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Source code for the CVPR'20 paper \"Blindly Assess Image Quality in the Wild Guided by A Self-Adaptive Hyper Network\"",
+    "fork": false,
+    "full_name": "SSL92/hyperIQA",
+    "html_url": "https://github.com/SSL92/hyperIQA",
+    "language": "Python",
+    "pushed_at": "2023-12-14T09:29:58Z",
+    "stargazers_count": 433,
+    "topics": [],
+    "updated_at": "2026-04-20T09:28:41Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

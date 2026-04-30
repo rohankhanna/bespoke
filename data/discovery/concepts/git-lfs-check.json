@@ -1,0 +1,124 @@
+{
+  "aliases": [
+    "Git LFS Check"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ag2ai/build-with-ag2",
+      "status": "candidate-context",
+      "text": "Sample code and application showcases to get you going with AG2 (formally AutoGen)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ag2ai/build-with-ag2",
+      "status": "candidate-context",
+      "text": "\"Git LFS Check\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "microsoft/autogen",
+      "status": "candidate-context",
+      "text": "A programming framework for agentic AI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/autogen",
+      "status": "candidate-context",
+      "text": "\"Git LFS Check\""
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ag2ai/build-with-ag2",
+      "status": "candidate",
+      "text": "\"Git LFS Check\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/autogen",
+      "status": "candidate",
+      "text": "\"Git LFS Check\""
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22990,
+      "status": "candidate",
+      "text": "room"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22990,
+      "status": "candidate",
+      "text": "ticked"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22970,
+      "status": "candidate",
+      "text": "beg"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22970,
+      "status": "candidate",
+      "text": "hole"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22970,
+      "status": "candidate",
+      "text": "iron"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Git LFS Check",
+  "concept_id": "git-lfs-check",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/lfs-check.yml",
+      "source_repo": "ag2ai/build-with-ag2"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/lfs-check.yml",
+      "source_repo": "microsoft/autogen"
+    }
+  ],
+  "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Git LFS Check",
+      "sense_id": "git-lfs-check#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

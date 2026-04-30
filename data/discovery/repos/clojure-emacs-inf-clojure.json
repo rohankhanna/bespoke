@@ -1,0 +1,163 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "clojure-emacs/inf-clojure",
+      "target": "clojure/clr.tools.deps",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "clojure-emacs/inf-clojure",
+      "target": "clojure-emacs/clj-refactor.el",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "clojure-emacs/inf-clojure",
+      "target": "emacs-mirror/emacs",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "clojure-emacs/inf-clojure",
+      "target": "nrepl/incomplete",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "clojure-emacs/inf-clojure",
+      "target": "clojure",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "clojure-emacs/inf-clojure",
+      "target": "clojure-repl",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "clojure-emacs/inf-clojure",
+      "target": "clojurescript",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "clojure-emacs/inf-clojure",
+      "target": "emacs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "clojure-emacs/inf-clojure",
+      "target": "repl",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "clojure-emacs/inf-clojure",
+      "target": "socket-repl",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T00:39:16.514193+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 22624
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Basic interaction with a Clojure subprocess from Emacs",
+    "fork": false,
+    "full_name": "clojure-emacs/inf-clojure",
+    "html_url": "https://github.com/clojure-emacs/inf-clojure",
+    "language": "Emacs Lisp",
+    "pushed_at": "2026-02-27T06:59:03Z",
+    "stargazers_count": 258,
+    "topics": [
+      "clojure",
+      "clojure-repl",
+      "clojurescript",
+      "emacs",
+      "repl",
+      "socket-repl"
+    ],
+    "updated_at": "2026-04-02T21:35:02Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "clojure-emacs/clj-refactor.el",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "clojure/clr.tools.deps",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "emacs-mirror/emacs",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "nrepl/incomplete",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[![Circle CI][circleci-badge]][circleci]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "clojure"
+    },
+    {
+      "context_snippet": "[![Circle CI][circleci-badge]][circleci]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "clojure-repl"
+    },
+    {
+      "context_snippet": "[![Circle CI][circleci-badge]][circleci]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "clojurescript"
+    },
+    {
+      "context_snippet": "[![Circle CI][circleci-badge]][circleci]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "emacs"
+    },
+    {
+      "context_snippet": "[![Circle CI][circleci-badge]][circleci]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "repl"
+    },
+    {
+      "context_snippet": "[![Circle CI][circleci-badge]][circleci]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "socket-repl"
+    }
+  ]
+}

@@ -1,0 +1,208 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-python@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pypi.yml"
+    },
+    {
+      "component": "actions/setup-python@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pypi.yml"
+    },
+    {
+      "component": "actions/create-release@latest",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pypi.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "google/brax",
+      "target": "google-deepmind/mujoco_playground",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "google/brax",
+      "target": "google-deepmind/mujoco_warp",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "google/brax",
+      "target": "google/jax",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "google/brax",
+      "target": "erwincoumans/tiny-differentiable-simulator",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "google/brax",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "google/brax",
+      "target": "actions/setup-python@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pypi.yml",
+      "source_repo": "google/brax",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pypi.yml",
+      "source_repo": "google/brax",
+      "target": "actions/setup-python@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pypi.yml",
+      "source_repo": "google/brax",
+      "target": "actions/create-release@latest",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pypi.yml",
+      "source_repo": "google/brax",
+      "target": "pypi",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "google/brax",
+      "target": "physics-simulation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "google/brax",
+      "target": "reinforcement-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "google/brax",
+      "target": "robotics",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T02:42:42.482110+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6866
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 2249
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 707
+    },
+    {
+      "path": ".github/workflows/pypi.yml",
+      "size": 1423
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Massively parallel rigidbody physics simulation on accelerator hardware.",
+    "fork": false,
+    "full_name": "google/brax",
+    "html_url": "https://github.com/google/brax",
+    "language": "Jupyter Notebook",
+    "pushed_at": "2026-03-30T17:14:22Z",
+    "stargazers_count": 3142,
+    "topics": [
+      "jax",
+      "physics-simulation",
+      "reinforcement-learning",
+      "robotics"
+    ],
+    "updated_at": "2026-04-29T23:30:18Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "erwincoumans/tiny-differentiable-simulator",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "google-deepmind/mujoco_playground",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "google-deepmind/mujoco_warp",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "google/jax",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "pypi",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pypi.yml",
+      "term": "pypi"
+    },
+    {
+      "context_snippet": "<img src=\"https://github.com/google/brax/raw/main/docs/img/brax_logo.gif\" width=\"336\" height=\"80\" alt=\"BRAX\"/>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "physics-simulation"
+    },
+    {
+      "context_snippet": "<img src=\"https://github.com/google/brax/raw/main/docs/img/brax_logo.gif\" width=\"336\" height=\"80\" alt=\"BRAX\"/>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "reinforcement-learning"
+    },
+    {
+      "context_snippet": "<img src=\"https://github.com/google/brax/raw/main/docs/img/brax_logo.gif\" width=\"336\" height=\"80\" alt=\"BRAX\"/>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "robotics"
+    }
+  ]
+}

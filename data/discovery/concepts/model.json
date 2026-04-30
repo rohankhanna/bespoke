@@ -67,6 +67,18 @@
       "source_repo": "MegEngine/Hub",
       "status": "candidate-context",
       "text": "\u672c\u4ed3\u5e93\u5305\u542b\u4e86[MegEngine\u6a21\u578b\u4e2d\u5fc3](https://megengine.org.cn/model-hub/)\u4e2d\u7684\u6a21\u578b\u914d\u7f6e\u6587\u4ef6\uff0c\u8fd9\u4e9b\u6a21\u578b\u90fd\u53ef\u4ee5\u7528`megengine.hub`\u76f4\u63a5\u5bfc\u5165\u3002"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "PINTO0309/PINTO_model_zoo",
+      "status": "candidate-context",
+      "text": "A repository for storing models that have been inter-converted between various frameworks. Supported frameworks are TensorFlow, PyTorch, ONNX, OpenVINO, TFJS, TFTRT, TensorFlowLite (Float32/16/INT8), EdgeTPU, CoreML."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PINTO0309/PINTO_model_zoo",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -99,6 +111,12 @@
       "source_repo": "MegEngine/Hub",
       "status": "candidate",
       "text": "\u672c\u4ed3\u5e93\u5305\u542b\u4e86[MegEngine\u6a21\u578b\u4e2d\u5fc3](https://megengine.org.cn/model-hub/)\u4e2d\u7684\u6a21\u578b\u914d\u7f6e\u6587\u4ef6\uff0c\u8fd9\u4e9b\u6a21\u578b\u90fd\u53ef\u4ee5\u7528`megengine.hub`\u76f4\u63a5\u5bfc\u5165\u3002"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PINTO0309/PINTO_model_zoo",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -208,11 +226,17 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "MegEngine/Hub"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "PINTO0309/PINTO_model_zoo"
     }
   ],
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

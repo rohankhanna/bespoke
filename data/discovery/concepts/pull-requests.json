@@ -240,6 +240,66 @@
       "source_repo": "LibreHardwareMonitor/LibreHardwareMonitor",
       "status": "candidate-context",
       "text": "pull requests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pydantic/hooky",
+      "status": "candidate-context",
+      "text": "Productivity tools for popular open source repos, used by pydantic"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pydantic/hooky",
+      "status": "candidate-context",
+      "text": "[![CI](https://github.com/pydantic/hooky/workflows/CI/badge.svg?event=push)](https://github.com/pydantic/hooky/actions?query=event%3Apush+branch%3Amain+workflow%3ACI)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ScoopInstaller/PHP",
+      "status": "candidate-context",
+      "text": "\ud83d\udce6 PHP Bucket for Scoop"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ScoopInstaller/PHP",
+      "status": "candidate-context",
+      "text": "Pull Requests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ScoopInstaller/Versions",
+      "status": "candidate-context",
+      "text": "\ud83d\udce6 A Scoop bucket for alternative versions of apps."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ScoopInstaller/Versions",
+      "status": "candidate-context",
+      "text": "Pull Requests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "shovel-org/Base",
+      "status": "candidate-context",
+      "text": "Base bucket for Shovel installer. WIP replacement of main bucket"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "shovel-org/Base",
+      "status": "candidate-context",
+      "text": "Pull Requests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cderv/r-bucket",
+      "status": "candidate-context",
+      "text": "Personal scoop bucket I use as an R user and software engineer"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cderv/r-bucket",
+      "status": "candidate-context",
+      "text": "Pull requests"
     }
   ],
   "candidate_glosses": [
@@ -356,6 +416,36 @@
       "source_repo": "LibreHardwareMonitor/LibreHardwareMonitor",
       "status": "candidate",
       "text": "pull requests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pydantic/hooky",
+      "status": "candidate",
+      "text": "[![CI](https://github.com/pydantic/hooky/workflows/CI/badge.svg?event=push)](https://github.com/pydantic/hooky/actions?query=event%3Apush+branch%3Amain+workflow%3ACI)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ScoopInstaller/PHP",
+      "status": "candidate",
+      "text": "Pull Requests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ScoopInstaller/Versions",
+      "status": "candidate",
+      "text": "Pull Requests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "shovel-org/Base",
+      "status": "candidate",
+      "text": "Pull Requests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cderv/r-bucket",
+      "status": "candidate",
+      "text": "Pull requests"
     }
   ],
   "candidate_related_terms": [
@@ -549,11 +639,71 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": ".github/workflows/pr.yml",
       "source_repo": "ConsenSys-archive/ganache"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/pr.yml",
+      "source_repo": "ConsenSys-archive/ganache"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "pydantic/hooky"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/pull_request.yml",
+      "source_repo": "shovel-org/Windows-JetBrains-Bucket"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/pull_request.yml",
+      "source_repo": "ScoopInstaller/PHP"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/pull_request.yml",
+      "source_repo": "ScoopInstaller/Versions"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/pull_request.yml",
+      "source_repo": "shovel-org/Base"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/pull_request.yml",
+      "source_repo": "shovel-org/Windows-Sysinternals-Bucket"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/pull_request.yml",
+      "source_repo": "chawyehsu/dorado"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/pull-requests.yml",
+      "source_repo": "lint-staged/lint-staged"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/pull-request.yml",
+      "source_repo": "cderv/r-bucket"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

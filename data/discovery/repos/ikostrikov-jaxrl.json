@@ -5,21 +5,7 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "ikostrikov/jaxrl",
-      "target": "rail-berkeley/softlearning",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "ikostrikov/jaxrl",
-      "target": "denisyarats/drq",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "ikostrikov/jaxrl",
-      "target": "ikostrikov/jaxrl2",
+      "target": "vitchyr/rlkit",
       "target_type": "repository"
     },
     {
@@ -27,6 +13,20 @@
       "source_file": "README.md",
       "source_repo": "ikostrikov/jaxrl",
       "target": "google/jax",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "pyproject.toml",
+      "source_repo": "ikostrikov/jaxrl",
+      "target": "ikostrikov/d4rl",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "requirements.txt",
+      "source_repo": "ikostrikov/jaxrl",
+      "target": "aravindr93/mjrl",
       "target_type": "repository"
     },
     {
@@ -100,7 +100,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-24T12:36:42.276608+00:00",
+  "fetched_at": "2026-04-30T02:42:16.672518+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -146,23 +146,23 @@
   "repo_links": [
     {
       "edge_type": "explicit-github-link",
-      "full_name": "denisyarats/drq",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
       "full_name": "google/jax",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "ikostrikov/jaxrl2",
+      "full_name": "vitchyr/rlkit",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "rail-berkeley/softlearning",
-      "source_file": "README.md"
+      "full_name": "ikostrikov/d4rl",
+      "source_file": "pyproject.toml"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "aravindr93/mjrl",
+      "source_file": "requirements.txt"
     }
   ],
   "terms": [

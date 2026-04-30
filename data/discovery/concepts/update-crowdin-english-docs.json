@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Update Crowdin English Docs"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "appium/appium",
+      "status": "candidate-context",
+      "text": "Cross-platform automation framework for all kinds of apps, built on top of the W3C WebDriver protocol"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "appium/appium",
+      "status": "candidate-context",
+      "text": "Update Crowdin English Docs"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "appium/appium",
+      "status": "candidate",
+      "text": "Update Crowdin English Docs"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24686,
+      "status": "candidate",
+      "text": "drawing pin"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24686,
+      "status": "candidate",
+      "text": "pushpin"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24686,
+      "status": "candidate",
+      "text": "squadron"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24686,
+      "status": "candidate",
+      "text": "thumbtack"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24645,
+      "status": "candidate",
+      "text": "book"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Update Crowdin English Docs",
+  "concept_id": "update-crowdin-english-docs",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/crowdin-update-docs-resources.yml",
+      "source_repo": "appium/appium"
+    }
+  ],
+  "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Update Crowdin English Docs",
+      "sense_id": "update-crowdin-english-docs#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

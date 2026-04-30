@@ -19,6 +19,18 @@
       "source_repo": "tats-u/markdown-cjk-friendly",
       "status": "candidate-context",
       "text": "[![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/tats-u/markdown-cjk-friendly) [![CodSpeed Badge](https://img.shields.io/endpoint?url=https://codspeed.io/badge.json)](https://codspeed.io/tats-u/markdown-cjk-friendly?utm_source=badge)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "miiton/Cica",
+      "status": "candidate-context",
+      "text": "\u30d7\u30ed\u30b0\u30e9\u30df\u30f3\u30b0\u7528\u65e5\u672c\u8a9e\u7b49\u5e45\u30d5\u30a9\u30f3\u30c8 Cica(\u30b7\u30ab)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "miiton/Cica",
+      "status": "candidate-context",
+      "text": "| | |"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "tats-u/markdown-cjk-friendly",
       "status": "candidate",
       "text": "[![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/tats-u/markdown-cjk-friendly) [![CodSpeed Badge](https://img.shields.io/endpoint?url=https://codspeed.io/badge.json)](https://codspeed.io/tats-u/markdown-cjk-friendly?utm_source=badge)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "miiton/Cica",
+      "status": "candidate",
+      "text": "| | |"
     }
   ],
   "candidate_related_terms": [
@@ -84,11 +102,17 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "tats-u/markdown-cjk-friendly"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "miiton/Cica"
     }
   ],
   "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T01:47:00.101420+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1618
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "The Cygwin Terminal \u2013 terminal emulator for Cygwin, MSYS, and WSL",
+    "fork": false,
+    "full_name": "mintty/mintty",
+    "html_url": "https://github.com/mintty/mintty",
+    "language": "C",
+    "pushed_at": "2026-04-24T08:31:50Z",
+    "stargazers_count": 1756,
+    "topics": [],
+    "updated_at": "2026-04-29T17:35:29Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

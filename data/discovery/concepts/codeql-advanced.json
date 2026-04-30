@@ -277,6 +277,96 @@
       "source_repo": "atlanhq/atlan-sample-apps",
       "status": "candidate-context",
       "text": "\"CodeQL Advanced\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "markbates/goth",
+      "status": "candidate-context",
+      "text": "Package goth provides a simple, clean, and idiomatic way to write authentication packages for Go web applications."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "markbates/goth",
+      "status": "candidate-context",
+      "text": "\"CodeQL Advanced\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "googleapis/google-cloud-node",
+      "status": "candidate-context",
+      "text": "Google Cloud Client Library for Node.js"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "googleapis/google-cloud-node",
+      "status": "candidate-context",
+      "text": "\"CodeQL Advanced\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "microsoft/autogen",
+      "status": "candidate-context",
+      "text": "A programming framework for agentic AI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/autogen",
+      "status": "candidate-context",
+      "text": "\"CodeQL Advanced\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "google/zx",
+      "status": "candidate-context",
+      "text": "A tool for writing better scripts"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/zx",
+      "status": "candidate-context",
+      "text": "'CodeQL Advanced'"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mozilla/rhino",
+      "status": "candidate-context",
+      "text": "Rhino is an open-source implementation of JavaScript written entirely in Java"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mozilla/rhino",
+      "status": "candidate-context",
+      "text": "\"CodeQL Advanced\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "external-secrets/external-secrets",
+      "status": "candidate-context",
+      "text": "External Secrets Operator reads information from a third-party service like AWS Secrets Manager and automatically injects the values as Kubernetes Secrets."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "external-secrets/external-secrets",
+      "status": "candidate-context",
+      "text": "\"CodeQL Advanced\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "astronomer/dag-factory",
+      "status": "candidate-context",
+      "text": "Construct Apache Airflow DAGs Declaratively via YAML configuration files"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "astronomer/dag-factory",
+      "status": "candidate-context",
+      "text": "\"CodeQL Advanced\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "intel/llm-scaler",
+      "status": "candidate-context",
+      "text": "\"CodeQL Advanced\""
     }
   ],
   "candidate_glosses": [
@@ -409,6 +499,54 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "atlanhq/atlan-sample-apps",
+      "status": "candidate",
+      "text": "\"CodeQL Advanced\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "markbates/goth",
+      "status": "candidate",
+      "text": "\"CodeQL Advanced\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "googleapis/google-cloud-node",
+      "status": "candidate",
+      "text": "\"CodeQL Advanced\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/autogen",
+      "status": "candidate",
+      "text": "\"CodeQL Advanced\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/zx",
+      "status": "candidate",
+      "text": "'CodeQL Advanced'"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mozilla/rhino",
+      "status": "candidate",
+      "text": "\"CodeQL Advanced\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "external-secrets/external-secrets",
+      "status": "candidate",
+      "text": "\"CodeQL Advanced\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "astronomer/dag-factory",
+      "status": "candidate",
+      "text": "\"CodeQL Advanced\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "intel/llm-scaler",
       "status": "candidate",
       "text": "\"CodeQL Advanced\""
     }
@@ -628,11 +766,77 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": ".github/workflows/codeql.yml",
       "source_repo": "atlanhq/atlan-sample-apps"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "eclipse-openvsx/openvsx"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "markbates/goth"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "crewAIInc/crewAI"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "googleapis/google-cloud-node"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "microsoft/autogen"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "ardatan/graphql-tools"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "google/zx"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "mozilla/rhino"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "external-secrets/external-secrets"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "astronomer/dag-factory"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "intel/llm-scaler"
     }
   ],
   "first_seen_at": "2026-04-18T11:24:14.688152+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

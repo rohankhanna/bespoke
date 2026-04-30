@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "HM-RunningHub/ComfyUI_RH_OminiControl",
+      "target": "comfyanonymous/comfyui",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T03:55:27.990173+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3826
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "The OminiControl plugin for ComfyUI",
+    "fork": false,
+    "full_name": "HM-RunningHub/ComfyUI_RH_OminiControl",
+    "html_url": "https://github.com/HM-RunningHub/ComfyUI_RH_OminiControl",
+    "language": "Python",
+    "pushed_at": "2024-12-20T08:41:09Z",
+    "stargazers_count": 143,
+    "topics": [],
+    "updated_at": "2026-03-10T04:28:10Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "comfyanonymous/comfyui",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

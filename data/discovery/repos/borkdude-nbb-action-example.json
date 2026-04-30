@@ -1,0 +1,168 @@
+{
+  "components": [
+    {
+      "component": "@actions/core",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@actions/github",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@vercel/ncc",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "nbb",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "borkdude/nbb-action-example@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "borkdude/nbb-action-example",
+      "target": "borkdude/nbb",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "borkdude/nbb-action-example",
+      "target": "@actions/core",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "borkdude/nbb-action-example",
+      "target": "@actions/github",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "borkdude/nbb-action-example",
+      "target": "@vercel/ncc",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "borkdude/nbb-action-example",
+      "target": "nbb",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "borkdude/nbb-action-example",
+      "target": "borkdude/nbb-action-example@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "borkdude/nbb-action-example",
+      "target": "clojurescript",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "borkdude/nbb-action-example",
+      "target": "github-actions",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "borkdude/nbb-action-example",
+      "target": "nbbjs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "borkdude/nbb-action-example",
+      "target": "nodejs",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T04:04:27.845974+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1370
+    },
+    {
+      "path": "package.json",
+      "size": 724
+    },
+    {
+      "path": ".github/workflows/main.yml",
+      "size": 497
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "An example of writing a Github action with nbb",
+    "fork": false,
+    "full_name": "borkdude/nbb-action-example",
+    "html_url": "https://github.com/borkdude/nbb-action-example",
+    "language": "Clojure",
+    "pushed_at": "2022-07-14T09:59:48Z",
+    "stargazers_count": 25,
+    "topics": [
+      "clojurescript",
+      "github-actions",
+      "nbbjs",
+      "nodejs"
+    ],
+    "updated_at": "2024-03-26T14:53:33Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "borkdude/nbb",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "This is an example of how to use [nbb](https://github.com/borkdude/nbb), an",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "clojurescript"
+    },
+    {
+      "context_snippet": "This is an example of how to use [nbb](https://github.com/borkdude/nbb), an",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "github-actions"
+    },
+    {
+      "context_snippet": "This is an example of how to use [nbb](https://github.com/borkdude/nbb), an",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nbbjs"
+    },
+    {
+      "context_snippet": "This is an example of how to use [nbb](https://github.com/borkdude/nbb), an",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nodejs"
+    }
+  ]
+}

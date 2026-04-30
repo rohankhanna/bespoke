@@ -235,6 +235,42 @@
       "source_repo": "toddbluhm/env-cmd",
       "status": "candidate-context",
       "text": "[![Linux Tests](https://github.com/toddbluhm/env-cmd/workflows/linux%20tests/badge.svg)](https://github.com/toddbluhm/env-cmd/actions?query=workflow%3A%22linux%20tests%22)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "AndersDJohnson/conventional-commit-types-cli",
+      "status": "candidate-context",
+      "text": "CLI to list conventional commit types."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AndersDJohnson/conventional-commit-types-cli",
+      "status": "candidate-context",
+      "text": "CLI to list conventional commit types per https://github.com/commitizen/conventional-commit-types."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sayanarijit/jf",
+      "status": "candidate-context",
+      "text": "jf %q \"JSON Formatted\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sayanarijit/jf",
+      "status": "candidate-context",
+      "text": "[![Crate Status](https://img.shields.io/crates/v/jf.svg)](https://crates.io/crates/jf)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "checkstyle/checkstyle",
+      "status": "candidate-context",
+      "text": "Checkstyle is a development tool to help programmers write Java code that adheres to a coding standard. By default it supports the Google Java Style Guide and Sun Code Conventions, but is highly configurable. It can be invoked with an ANT task and a command line program."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "checkstyle/checkstyle",
+      "status": "candidate-context",
+      "text": "![](https://raw.githubusercontent.com/checkstyle/resources/master/img/checkstyle-logos/checkstyle-logo-260x99.png)"
     }
   ],
   "candidate_glosses": [
@@ -351,6 +387,24 @@
       "source_repo": "toddbluhm/env-cmd",
       "status": "candidate",
       "text": "[![Linux Tests](https://github.com/toddbluhm/env-cmd/workflows/linux%20tests/badge.svg)](https://github.com/toddbluhm/env-cmd/actions?query=workflow%3A%22linux%20tests%22)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AndersDJohnson/conventional-commit-types-cli",
+      "status": "candidate",
+      "text": "CLI to list conventional commit types per https://github.com/commitizen/conventional-commit-types."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sayanarijit/jf",
+      "status": "candidate",
+      "text": "[![Crate Status](https://img.shields.io/crates/v/jf.svg)](https://crates.io/crates/jf)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "checkstyle/checkstyle",
+      "status": "candidate",
+      "text": "![](https://raw.githubusercontent.com/checkstyle/resources/master/img/checkstyle-logos/checkstyle-logo-260x99.png)"
     }
   ],
   "candidate_related_terms": [],
@@ -478,11 +532,41 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "toddbluhm/env-cmd"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "AndersDJohnson/conventional-commit-types-cli"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "fonttools/fontbakery"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "sayanarijit/jf"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "watchexec/cargo-watch"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "checkstyle/checkstyle"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

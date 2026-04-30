@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A collection of awesome-prompt-datasets, awesome-instruction-dataset, to train ChatLLM such as chatgpt \u6536\u5f55\u5404\u79cd\u5404\u6837\u7684\u6307\u4ee4\u6570\u636e\u96c6, \u7528\u4e8e\u8bad\u7ec3  ChatLLM \u6a21\u578b\u3002"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<div align=\"center\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10022287,
+      "status": "candidate",
+      "text": "data"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10015667,
+      "status": "candidate",
+      "text": "database"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10014526,
+      "status": "candidate",
+      "text": "file"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9982127,
+      "status": "candidate",
+      "text": "together"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9915894,
+      "status": "candidate",
+      "text": "whole"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "datasets",
+      "sense_id": "datasets#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "datasets",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "datasets",
+  "observation_id": "dbb31752f5402788",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T00:37:16.824464+00:00",
+  "observed_text": "datasets",
+  "source_context_snippet": "<div align=\"center\">",
+  "source_file": null,
+  "source_repo": "jianzhnie/awesome-instruction-datasets",
+  "source_repo_description": "A collection of awesome-prompt-datasets, awesome-instruction-dataset, to train ChatLLM such as chatgpt \u6536\u5f55\u5404\u79cd\u5404\u6837\u7684\u6307\u4ee4\u6570\u636e\u96c6, \u7528\u4e8e\u8bad\u7ec3  ChatLLM \u6a21\u578b\u3002"
+}

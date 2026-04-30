@@ -1,0 +1,100 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/container.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gh-pages.yaml"
+    },
+    {
+      "component": "peaceiris/actions-gh-pages@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gh-pages.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/container.yml",
+      "source_repo": "crc-org/engineering-docs",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/container.yml",
+      "source_repo": "crc-org/engineering-docs",
+      "target": "Build Container",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gh-pages.yaml",
+      "source_repo": "crc-org/engineering-docs",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gh-pages.yaml",
+      "source_repo": "crc-org/engineering-docs",
+      "target": "peaceiris/actions-gh-pages@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/gh-pages.yaml",
+      "source_repo": "crc-org/engineering-docs",
+      "target": "Build and publish docs",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T01:49:03.557900+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1443
+    },
+    {
+      "path": ".github/workflows/container.yml",
+      "size": 638
+    },
+    {
+      "path": ".github/workflows/gh-pages.yaml",
+      "size": 664
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "crc-org/engineering-docs",
+    "html_url": "https://github.com/crc-org/engineering-docs",
+    "language": "Dockerfile",
+    "pushed_at": "2025-04-28T14:08:55Z",
+    "stargazers_count": 0,
+    "topics": [],
+    "updated_at": "2025-04-28T14:08:41Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Build Container",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/container.yml",
+      "term": "Build Container"
+    },
+    {
+      "context_snippet": "Build and publish docs",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/gh-pages.yaml",
+      "term": "Build and publish docs"
+    }
+  ]
+}

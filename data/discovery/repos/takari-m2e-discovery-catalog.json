@@ -1,0 +1,137 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/.build.yaml"
+    },
+    {
+      "component": "actions/setup-java@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/.build.yaml"
+    },
+    {
+      "component": "actions/checkout@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/.deploy.yml"
+    },
+    {
+      "component": "actions/setup-java@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/.deploy.yml"
+    },
+    {
+      "component": "peaceiris/actions-gh-pages@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/.deploy.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "takari/m2e-discovery-catalog",
+      "target": "tesla/m2eclipse-tycho",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/.build.yaml",
+      "source_repo": "takari/m2e-discovery-catalog",
+      "target": "actions/checkout@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/.build.yaml",
+      "source_repo": "takari/m2e-discovery-catalog",
+      "target": "actions/setup-java@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/.build.yaml",
+      "source_repo": "takari/m2e-discovery-catalog",
+      "target": "Building the catalog",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/.deploy.yml",
+      "source_repo": "takari/m2e-discovery-catalog",
+      "target": "actions/checkout@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/.deploy.yml",
+      "source_repo": "takari/m2e-discovery-catalog",
+      "target": "actions/setup-java@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/.deploy.yml",
+      "source_repo": "takari/m2e-discovery-catalog",
+      "target": "peaceiris/actions-gh-pages@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/.deploy.yml",
+      "source_repo": "takari/m2e-discovery-catalog",
+      "target": "Building and deploying the catalog",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T03:46:57.595356+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3847
+    },
+    {
+      "path": ".github/workflows/.build.yaml",
+      "size": 381
+    },
+    {
+      "path": ".github/workflows/.deploy.yml",
+      "size": 780
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": null,
+    "fork": false,
+    "full_name": "takari/m2e-discovery-catalog",
+    "html_url": "https://github.com/takari/m2e-discovery-catalog",
+    "language": "Java",
+    "pushed_at": "2022-09-21T10:13:41Z",
+    "stargazers_count": 8,
+    "topics": [],
+    "updated_at": "2022-08-18T03:11:07Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "tesla/m2eclipse-tycho",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Building the catalog",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/.build.yaml",
+      "term": "Building the catalog"
+    },
+    {
+      "context_snippet": "Building and deploying the catalog",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/.deploy.yml",
+      "term": "Building and deploying the catalog"
+    }
+  ]
+}

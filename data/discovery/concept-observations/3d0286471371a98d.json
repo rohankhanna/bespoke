@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "This is a seed project for distributed PyTorch training, which was built to customize your network quickly"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "This is a seed project for distributed PyTorch training, which was built to customize your network quickly."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "This is a seed project for distributed PyTorch training, which was built to customize your network quickly."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "distributeddataparallel",
+      "sense_id": "distributeddataparallel#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "distributeddataparallel",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "distributeddataparallel",
+  "observation_id": "3d0286471371a98d",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T00:37:16.824464+00:00",
+  "observed_text": "distributeddataparallel",
+  "source_context_snippet": "This is a seed project for distributed PyTorch training, which was built to customize your network quickly.",
+  "source_file": null,
+  "source_repo": "Janspiry/distributed-pytorch-template",
+  "source_repo_description": "This is a seed project for distributed PyTorch training, which was built to customize your network quickly"
+}

@@ -1,0 +1,88 @@
+{
+  "aliases": [
+    "rcpp"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "eddelbuettel/rcppfastfloat",
+      "status": "candidate-context",
+      "text": "Rcpp Bindings for the 'fastfloat' Header-Only Library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "eddelbuettel/rcppfastfloat",
+      "status": "candidate-context",
+      "text": "[![CI](https://github.com/eddelbuettel/rcppfastfloat/workflows/ci/badge.svg)](https://github.com/eddelbuettel/rcppfastfloat/actions?query=workflow%3Aci)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "RcppCore/Rcpp",
+      "status": "candidate-context",
+      "text": "Seamless R and C++ Integration"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "RcppCore/Rcpp",
+      "status": "candidate-context",
+      "text": "[![CI](https://github.com/RcppCore/Rcpp/workflows/ci/badge.svg)](https://github.com/RcppCore/Rcpp/actions?query=workflow%3Aci)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "eddelbuettel/rcppfastfloat",
+      "status": "candidate",
+      "text": "[![CI](https://github.com/eddelbuettel/rcppfastfloat/workflows/ci/badge.svg)](https://github.com/eddelbuettel/rcppfastfloat/actions?query=workflow%3Aci)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "RcppCore/Rcpp",
+      "status": "candidate",
+      "text": "[![CI](https://github.com/RcppCore/Rcpp/workflows/ci/badge.svg)](https://github.com/RcppCore/Rcpp/actions?query=workflow%3Aci)"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "rcpp",
+  "concept_id": "rcpp",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "eddelbuettel/rcppfastfloat"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "RcppCore/Rcpp"
+    }
+  ],
+  "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "rcpp",
+      "sense_id": "rcpp#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

@@ -1,0 +1,41 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.rst",
+      "source_repo": "RealFerdinandDeSaussure/base16-builder-python",
+      "target": "base24/base24-builder-python",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.rst",
+      "source_repo": "RealFerdinandDeSaussure/base16-builder-python",
+      "target": "inspectormustache/pybase16-builder",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "RealFerdinandDeSaussure/base16-builder-python",
+      "target": "base16",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "RealFerdinandDeSaussure/base16-builder-python",
+      "target": "base16-builder",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "RealFerdinandDeSaussure/base16-builder-python",
+      "target": "python3",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-30T00:37:16.824464+00:00",
+  "source_repo": "RealFerdinandDeSaussure/base16-builder-python"
+}

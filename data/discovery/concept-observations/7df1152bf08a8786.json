@@ -84,7 +84,7 @@
   "normalized_form": "gpt-2-small-integration-test",
   "observation_id": "7df1152bf08a8786",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_at": "2026-04-30T00:37:16.824464+00:00",
   "observed_text": "GPT-2 Small Integration Test",
   "source_context_snippet": "GPT-2 Small Integration Test",
   "source_file": ".github/workflows/gpt2_small_itest.yaml",

@@ -1,6 +1,7 @@
 {
   "aliases": [
-    "Release-Alpha"
+    "Release-Alpha",
+    "release-alpha"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -19,6 +20,18 @@
       "source_repo": "ava-labs/avalanche-dapp-sdks",
       "status": "candidate-context",
       "text": "Release-Alpha"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mongodb/node-mongodb-native",
+      "status": "candidate-context",
+      "text": "The official MongoDB Node.js driver"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mongodb/node-mongodb-native",
+      "status": "candidate-context",
+      "text": "release-alpha"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +40,12 @@
       "source_repo": "ava-labs/avalanche-dapp-sdks",
       "status": "candidate",
       "text": "Release-Alpha"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mongodb/node-mongodb-native",
+      "status": "candidate",
+      "text": "release-alpha"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +59,17 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": ".github/workflows/alpha-release.yml",
       "source_repo": "ava-labs/avalanche-dapp-sdks"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/release-alpha.yml",
+      "source_repo": "mongodb/node-mongodb-native"
     }
   ],
   "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

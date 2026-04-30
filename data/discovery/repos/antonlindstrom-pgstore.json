@@ -1,0 +1,140 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "antonlindstrom/pgstore",
+      "target": "boj/redistore",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "antonlindstrom/pgstore",
+      "target": "srinathgs/mysqlstore",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "antonlindstrom/pgstore",
+      "target": "drbawb/babou",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "antonlindstrom/pgstore",
+      "target": "data-dog/go-sqlmock",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "antonlindstrom/pgstore",
+      "target": "gorilla",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "antonlindstrom/pgstore",
+      "target": "postgres",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "antonlindstrom/pgstore",
+      "target": "sessions",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "antonlindstrom/pgstore",
+      "target": "sessionstorage",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T03:57:58.755552+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2362
+    },
+    {
+      "path": "go.mod",
+      "size": 166
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A Postgres session store backend for gorilla/sessions",
+    "fork": false,
+    "full_name": "antonlindstrom/pgstore",
+    "html_url": "https://github.com/antonlindstrom/pgstore",
+    "language": "Go",
+    "pushed_at": "2024-03-13T14:12:52Z",
+    "stargazers_count": 100,
+    "topics": [
+      "go",
+      "gorilla",
+      "postgres",
+      "sessions",
+      "sessionstorage"
+    ],
+    "updated_at": "2026-04-27T11:32:51Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "boj/redistore",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "data-dog/go-sqlmock",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "drbawb/babou",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "srinathgs/mysqlstore",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "A session store backend for [gorilla/sessions](http://www.gorillatoolkit.org/pkg/sessions) - [src](https://github.com/gorilla/sessions).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gorilla"
+    },
+    {
+      "context_snippet": "A session store backend for [gorilla/sessions](http://www.gorillatoolkit.org/pkg/sessions) - [src](https://github.com/gorilla/sessions).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "postgres"
+    },
+    {
+      "context_snippet": "A session store backend for [gorilla/sessions](http://www.gorillatoolkit.org/pkg/sessions) - [src](https://github.com/gorilla/sessions).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "sessions"
+    },
+    {
+      "context_snippet": "A session store backend for [gorilla/sessions](http://www.gorillatoolkit.org/pkg/sessions) - [src](https://github.com/gorilla/sessions).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "sessionstorage"
+    }
+  ]
+}

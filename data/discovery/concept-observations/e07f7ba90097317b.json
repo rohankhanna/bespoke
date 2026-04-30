@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Storing publicly available assets such as images, animations and texts"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Generate an Image Containing All Contributors"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Generate an Image Containing All Contributors"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 55914,
+      "status": "candidate",
+      "text": "pool"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 47851,
+      "status": "candidate",
+      "text": "face"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 47832,
+      "status": "candidate",
+      "text": "field"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 47733,
+      "status": "candidate",
+      "text": "draw"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 47551,
+      "status": "candidate",
+      "text": "pavilion"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Generate an Image Containing All Contributors",
+      "sense_id": "generate-an-image-containing-all-contributors#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "generate-an-image-containing-all-contributors",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "generate-an-image-containing-all-contributors",
+  "observation_id": "e07f7ba90097317b",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-30T00:37:16.824464+00:00",
+  "observed_text": "Generate an Image Containing All Contributors",
+  "source_context_snippet": "Generate an Image Containing All Contributors",
+  "source_file": ".github/workflows/genereate_contributor_list.yml",
+  "source_repo": "hpcaitech/public_assets",
+  "source_repo_description": "Storing publicly available assets such as images, animations and texts"
+}

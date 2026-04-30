@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "color-blindness"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "carrascomj/dalted",
+      "status": "candidate-context",
+      "text": "Image processing web-app for color blindness"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "carrascomj/dalted",
+      "status": "candidate-context",
+      "text": "![alt text](./static/img/logo.svg \"Dalted logo black\")"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "carrascomj/dalted",
+      "status": "candidate",
+      "text": "![alt text](./static/img/logo.svg \"Dalted logo black\")"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10017486,
+      "status": "candidate",
+      "text": "colour-blindness"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10017485,
+      "status": "candidate",
+      "text": "colorblindness"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10017484,
+      "status": "candidate",
+      "text": "colourblindness"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10017483,
+      "status": "candidate",
+      "text": "daltonism"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10017482,
+      "status": "candidate",
+      "text": "acyanopsia"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "color-blindness",
+  "concept_id": "color-blindness",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "carrascomj/dalted"
+    }
+  ],
+  "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "color-blindness",
+      "sense_id": "color-blindness#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

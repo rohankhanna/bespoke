@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T01:45:10.813393+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2119
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "OpenTracing website",
+    "fork": false,
+    "full_name": "opentracing/opentracing.io",
+    "html_url": "https://github.com/opentracing/opentracing.io",
+    "language": "SCSS",
+    "pushed_at": "2022-04-26T15:41:30Z",
+    "stargazers_count": 116,
+    "topics": [],
+    "updated_at": "2025-08-04T13:05:08Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

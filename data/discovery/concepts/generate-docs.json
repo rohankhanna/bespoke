@@ -1,7 +1,8 @@
 {
   "aliases": [
     "generate-docs",
-    "Generate Docs"
+    "Generate Docs",
+    "Generate docs"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -32,6 +33,90 @@
       "source_repo": "emberjs/ember.js",
       "status": "candidate-context",
       "text": "Generate Docs"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nvim-neotest/nvim-nio",
+      "status": "candidate-context",
+      "text": "A library for asynchronous IO in Neovim"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nvim-neotest/nvim-nio",
+      "status": "candidate-context",
+      "text": "Generate docs"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "2KAbhishek/co-author.nvim",
+      "status": "candidate-context",
+      "text": "Quickly add co-authors to commits \ud83d\udcbb\ud83e\ude84"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "2KAbhishek/co-author.nvim",
+      "status": "candidate-context",
+      "text": "Generate Docs"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "2KAbhishek/nerdy.nvim",
+      "status": "candidate-context",
+      "text": "Find Nerd Glyphs Easily \ud83e\udd13\ud83d\udd2d"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "2KAbhishek/nerdy.nvim",
+      "status": "candidate-context",
+      "text": "Generate Docs"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "2KAbhishek/termim.nvim",
+      "status": "candidate-context",
+      "text": "Neovim Terminal, Improved \ud83e\uddbe\ud83d\udcbb"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "2KAbhishek/termim.nvim",
+      "status": "candidate-context",
+      "text": "Generate Docs"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nvim-neotest/neotest",
+      "status": "candidate-context",
+      "text": "An extensible framework for interacting with tests within NeoVim."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nvim-neotest/neotest",
+      "status": "candidate-context",
+      "text": "Generate docs"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pysan3/pathlib.nvim",
+      "status": "candidate-context",
+      "text": "Ultimate solution to path handling in neovim. OS Independent."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pysan3/pathlib.nvim",
+      "status": "candidate-context",
+      "text": "generate-docs"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "2KAbhishek/tdo.nvim",
+      "status": "candidate-context",
+      "text": "Fast & Simple Notes in Neovim \ud83d\udcc3\ud83d\ude80"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "2KAbhishek/tdo.nvim",
+      "status": "candidate-context",
+      "text": "Generate Docs"
     }
   ],
   "candidate_glosses": [
@@ -44,6 +129,48 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "emberjs/ember.js",
+      "status": "candidate",
+      "text": "Generate Docs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nvim-neotest/nvim-nio",
+      "status": "candidate",
+      "text": "Generate docs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "2KAbhishek/co-author.nvim",
+      "status": "candidate",
+      "text": "Generate Docs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "2KAbhishek/nerdy.nvim",
+      "status": "candidate",
+      "text": "Generate Docs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "2KAbhishek/termim.nvim",
+      "status": "candidate",
+      "text": "Generate Docs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nvim-neotest/neotest",
+      "status": "candidate",
+      "text": "Generate docs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pysan3/pathlib.nvim",
+      "status": "candidate",
+      "text": "generate-docs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "2KAbhishek/tdo.nvim",
       "status": "candidate",
       "text": "Generate Docs"
     }
@@ -101,11 +228,53 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": ".github/workflows/docs.yml",
       "source_repo": "emberjs/ember.js"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/docgen.yaml",
+      "source_repo": "nvim-neotest/nvim-nio"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "2KAbhishek/co-author.nvim"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "2KAbhishek/nerdy.nvim"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "2KAbhishek/termim.nvim"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/docgen.yaml",
+      "source_repo": "nvim-neotest/neotest"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/generate-docs.yml",
+      "source_repo": "pysan3/pathlib.nvim"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "2KAbhishek/tdo.nvim"
     }
   ],
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Where the GPU for the Web work happens!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<img alt=\"WebGPU logo\" src=\"logo/webgpu-responsive.svg\" width=\"400\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<img alt=\"WebGPU logo\" src=\"logo/webgpu-responsive.svg\" width=\"400\">"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "webgpu",
+      "sense_id": "webgpu#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "webgpu",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "webgpu",
+  "observation_id": "8d58f51b040997f0",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T00:37:16.824464+00:00",
+  "observed_text": "webgpu",
+  "source_context_snippet": "<img alt=\"WebGPU logo\" src=\"logo/webgpu-responsive.svg\" width=\"400\">",
+  "source_file": null,
+  "source_repo": "gpuweb/gpuweb",
+  "source_repo_description": "Where the GPU for the Web work happens!"
+}

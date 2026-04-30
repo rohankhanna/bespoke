@@ -1,0 +1,186 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/macos.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/windows_mingw.yml"
+    },
+    {
+      "component": "msys2/setup-msys2@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/windows_mingw.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/windows_msvc.yml"
+    },
+    {
+      "component": "ilammy/msvc-dev-cmd@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/windows_msvc.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux.yml",
+      "source_repo": "ClickHouse/clickhouse-cpp",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/linux.yml",
+      "source_repo": "ClickHouse/clickhouse-cpp",
+      "target": "Linux",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/macos.yml",
+      "source_repo": "ClickHouse/clickhouse-cpp",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/macos.yml",
+      "source_repo": "ClickHouse/clickhouse-cpp",
+      "target": "macOS",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/windows_mingw.yml",
+      "source_repo": "ClickHouse/clickhouse-cpp",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/windows_mingw.yml",
+      "source_repo": "ClickHouse/clickhouse-cpp",
+      "target": "msys2/setup-msys2@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/windows_mingw.yml",
+      "source_repo": "ClickHouse/clickhouse-cpp",
+      "target": "Windows mingw",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/windows_msvc.yml",
+      "source_repo": "ClickHouse/clickhouse-cpp",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/windows_msvc.yml",
+      "source_repo": "ClickHouse/clickhouse-cpp",
+      "target": "ilammy/msvc-dev-cmd@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/windows_msvc.yml",
+      "source_repo": "ClickHouse/clickhouse-cpp",
+      "target": "Windows",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ClickHouse/clickhouse-cpp",
+      "target": "clickhouse",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T01:42:55.906861+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 10299
+    },
+    {
+      "path": ".github/workflows/linux.yml",
+      "size": 4658
+    },
+    {
+      "path": ".github/workflows/macos.yml",
+      "size": 2888
+    },
+    {
+      "path": ".github/workflows/windows_mingw.yml",
+      "size": 3623
+    },
+    {
+      "path": ".github/workflows/windows_msvc.yml",
+      "size": 2651
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "C++ client library for ClickHouse",
+    "fork": false,
+    "full_name": "ClickHouse/clickhouse-cpp",
+    "html_url": "https://github.com/ClickHouse/clickhouse-cpp",
+    "language": "C",
+    "pushed_at": "2026-04-29T03:50:55Z",
+    "stargazers_count": 366,
+    "topics": [
+      "clickhouse",
+      "cpp"
+    ],
+    "updated_at": "2026-04-28T02:58:21Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Linux",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/linux.yml",
+      "term": "Linux"
+    },
+    {
+      "context_snippet": "macOS",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/macos.yml",
+      "term": "macOS"
+    },
+    {
+      "context_snippet": "Windows mingw",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/windows_mingw.yml",
+      "term": "Windows mingw"
+    },
+    {
+      "context_snippet": "Windows",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/windows_msvc.yml",
+      "term": "Windows"
+    },
+    {
+      "context_snippet": "ClickHouse C++ client [![Linux](https://github.com/ClickHouse/clickhouse-cpp/actions/workflows/linux.yml/badge.svg)](https://github.com/ClickHouse/clickhouse-cpp/actions/workflows/linux.yml) [![macOS](https://github.com/ClickHouse/clickhouse-cpp/actions/workflows/macos.yml/badge\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "clickhouse"
+    }
+  ]
+}

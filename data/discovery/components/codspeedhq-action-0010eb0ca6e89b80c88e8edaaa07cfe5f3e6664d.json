@@ -1,0 +1,12 @@
+{
+  "component": "CodSpeedHQ/action@0010eb0ca6e89b80c88e8edaaa07cfe5f3e6664d",
+  "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/benchmark.yml",
+      "source_repo": "web-infra-dev/rslib"
+    }
+  ]
+}

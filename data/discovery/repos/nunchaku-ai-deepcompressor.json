@@ -12,6 +12,13 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "nunchaku-ai/deepcompressor",
+      "target": "mit-han-lab/qserve",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "nunchaku-ai/deepcompressor",
       "target": "mit-han-lab/nunchaku",
       "target_type": "repository"
     },
@@ -21,16 +28,9 @@
       "source_repo": "nunchaku-ai/deepcompressor",
       "target": "efficient-large-model/vila",
       "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "nunchaku-ai/deepcompressor",
-      "target": "mit-han-lab/distrifuser",
-      "target_type": "repository"
     }
   ],
-  "fetched_at": "2026-04-29T21:50:07.671194+00:00",
+  "fetched_at": "2026-04-30T03:51:44.561256+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -68,12 +68,12 @@
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "mit-han-lab/distrifuser",
+      "full_name": "mit-han-lab/nunchaku",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "mit-han-lab/nunchaku",
+      "full_name": "mit-han-lab/qserve",
       "source_file": "README.md"
     }
   ],

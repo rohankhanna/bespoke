@@ -1,0 +1,12 @@
+{
+  "component": "ruby/setup-ruby@0481980f17b760ef6bca5e8c55809102a0af1e5a",
+  "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/changelog.yml",
+      "source_repo": "firebase/firebase-android-sdk"
+    }
+  ]
+}

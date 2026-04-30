@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Packaging scripts to prebuild libvips and its dependencies - you're probably looking for https://github.com/lovell/sharp"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Dependency updates"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Dependency updates"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10645,
+      "status": "candidate",
+      "text": "parentage"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10518,
+      "status": "candidate",
+      "text": "acadia"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10518,
+      "status": "candidate",
+      "text": "ace"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10518,
+      "status": "candidate",
+      "text": "allosteric"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10518,
+      "status": "candidate",
+      "text": "articulation"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Dependency updates",
+      "sense_id": "dependency-updates#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "dependency-updates",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "dependency-updates",
+  "observation_id": "c10e7dfab007e782",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-30T00:37:16.824464+00:00",
+  "observed_text": "Dependency updates",
+  "source_context_snippet": "Dependency updates",
+  "source_file": ".github/workflows/latest.yml",
+  "source_repo": "lovell/sharp-libvips",
+  "source_repo_description": "Packaging scripts to prebuild libvips and its dependencies - you're probably looking for https://github.com/lovell/sharp"
+}

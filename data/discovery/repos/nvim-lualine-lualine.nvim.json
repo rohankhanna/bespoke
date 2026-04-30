@@ -1,0 +1,278 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/autogen.yml"
+    },
+    {
+      "component": "kdheepak/panvimdoc@v2.7.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/autogen.yml"
+    },
+    {
+      "component": "JohnnyMorganz/stylua-action@1.0.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/autogen.yml"
+    },
+    {
+      "component": "stefanzweifel/git-auto-commit-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/autogen.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "rhysd/action-setup-vim@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "nvim-lualine/lualine.nvim",
+      "target": "akinsho/nvim-bufferline.lua",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "nvim-lualine/lualine.nvim",
+      "target": "kdheepak/tabline.nvim",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "nvim-lualine/lualine.nvim",
+      "target": "rockerboo/awesome-neovim",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/autogen.yml",
+      "source_repo": "nvim-lualine/lualine.nvim",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/autogen.yml",
+      "source_repo": "nvim-lualine/lualine.nvim",
+      "target": "kdheepak/panvimdoc@v2.7.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/autogen.yml",
+      "source_repo": "nvim-lualine/lualine.nvim",
+      "target": "JohnnyMorganz/stylua-action@1.0.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/autogen.yml",
+      "source_repo": "nvim-lualine/lualine.nvim",
+      "target": "stefanzweifel/git-auto-commit-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/autogen.yml",
+      "source_repo": "nvim-lualine/lualine.nvim",
+      "target": "autogen",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "nvim-lualine/lualine.nvim",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "nvim-lualine/lualine.nvim",
+      "target": "rhysd/action-setup-vim@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "nvim-lualine/lualine.nvim",
+      "target": "Tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nvim-lualine/lualine.nvim",
+      "target": "lualine",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nvim-lualine/lualine.nvim",
+      "target": "neovim",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nvim-lualine/lualine.nvim",
+      "target": "neovim-lua",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nvim-lualine/lualine.nvim",
+      "target": "neovim-plugin",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nvim-lualine/lualine.nvim",
+      "target": "neovim-statusline",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nvim-lualine/lualine.nvim",
+      "target": "nvim",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nvim-lualine/lualine.nvim",
+      "target": "statusline",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T00:41:20.373973+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 35436
+    },
+    {
+      "path": ".github/workflows/autogen.yml",
+      "size": 1410
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 2201
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A blazing fast and easy to configure neovim statusline plugin written in pure lua.",
+    "fork": false,
+    "full_name": "nvim-lualine/lualine.nvim",
+    "html_url": "https://github.com/nvim-lualine/lualine.nvim",
+    "language": "Lua",
+    "pushed_at": "2026-04-28T08:33:28Z",
+    "stargazers_count": 7906,
+    "topics": [
+      "lua",
+      "lualine",
+      "neovim",
+      "neovim-lua",
+      "neovim-plugin",
+      "neovim-statusline",
+      "nvim",
+      "statusline"
+    ],
+    "updated_at": "2026-04-29T18:11:48Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "akinsho/nvim-bufferline.lua",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "kdheepak/tabline.nvim",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "rockerboo/awesome-neovim",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "autogen",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/autogen.yml",
+      "term": "autogen"
+    },
+    {
+      "context_snippet": "Tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "term": "Tests"
+    },
+    {
+      "context_snippet": "<!-- panvimdoc-ignore-start -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "lualine"
+    },
+    {
+      "context_snippet": "<!-- panvimdoc-ignore-start -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "neovim"
+    },
+    {
+      "context_snippet": "<!-- panvimdoc-ignore-start -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "neovim-lua"
+    },
+    {
+      "context_snippet": "<!-- panvimdoc-ignore-start -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "neovim-plugin"
+    },
+    {
+      "context_snippet": "<!-- panvimdoc-ignore-start -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "neovim-statusline"
+    },
+    {
+      "context_snippet": "<!-- panvimdoc-ignore-start -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nvim"
+    },
+    {
+      "context_snippet": "<!-- panvimdoc-ignore-start -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "statusline"
+    }
+  ]
+}

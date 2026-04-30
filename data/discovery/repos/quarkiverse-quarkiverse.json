@@ -1,0 +1,353 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_and_publish.yml"
+    },
+    {
+      "component": "actions/setup-node@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_and_publish.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_and_publish.yml"
+    },
+    {
+      "component": "actions/setup-node@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_and_publish.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_and_publish.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_and_publish.yml"
+    },
+    {
+      "component": "actions/download-artifact@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_and_publish.yml"
+    },
+    {
+      "component": "actions/configure-pages@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_and_publish.yml"
+    },
+    {
+      "component": "actions/upload-pages-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_and_publish.yml"
+    },
+    {
+      "component": "actions/deploy-pages@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_and_publish.yml"
+    },
+    {
+      "component": "read",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_and_publish.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_and_publish.yml"
+    },
+    {
+      "component": "actions/setup-node@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_and_publish.yml"
+    },
+    {
+      "component": "actions/download-artifact@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_and_publish.yml"
+    },
+    {
+      "component": "jbangdev/jbang-action@v0.130.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_and_publish.yml"
+    },
+    {
+      "component": "actions-cool/maintain-one-comment@v3.2.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/preview-teardown.yml"
+    },
+    {
+      "component": "actions/download-artifact@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/preview.yml"
+    },
+    {
+      "component": "actions-cool/maintain-one-comment@v3.2.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/preview.yml"
+    },
+    {
+      "component": "actions-cool/maintain-one-comment@v3.2.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/preview.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/wikisync.yml"
+    },
+    {
+      "component": "newrelic/wiki-sync-action@v1.0.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/wikisync.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/wikisync.yml"
+    },
+    {
+      "component": "newrelic/wiki-sync-action@v1.0.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/wikisync.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "quarkiverse/quarkiverse",
+      "target": "quarkusio/quarkus-ecosystem-ci",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_and_publish.yml",
+      "source_repo": "quarkiverse/quarkiverse",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_and_publish.yml",
+      "source_repo": "quarkiverse/quarkiverse",
+      "target": "actions/setup-node@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_and_publish.yml",
+      "source_repo": "quarkiverse/quarkiverse",
+      "target": "actions/upload-artifact@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_and_publish.yml",
+      "source_repo": "quarkiverse/quarkiverse",
+      "target": "actions/download-artifact@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_and_publish.yml",
+      "source_repo": "quarkiverse/quarkiverse",
+      "target": "actions/configure-pages@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_and_publish.yml",
+      "source_repo": "quarkiverse/quarkiverse",
+      "target": "actions/upload-pages-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_and_publish.yml",
+      "source_repo": "quarkiverse/quarkiverse",
+      "target": "actions/deploy-pages@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_and_publish.yml",
+      "source_repo": "quarkiverse/quarkiverse",
+      "target": "read",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_and_publish.yml",
+      "source_repo": "quarkiverse/quarkiverse",
+      "target": "jbangdev/jbang-action@v0.130.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build_and_publish.yml",
+      "source_repo": "quarkiverse/quarkiverse",
+      "target": "Gatsby Publish",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/preview-teardown.yml",
+      "source_repo": "quarkiverse/quarkiverse",
+      "target": "actions-cool/maintain-one-comment@v3.2.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/preview-teardown.yml",
+      "source_repo": "quarkiverse/quarkiverse",
+      "target": "Surge.sh Preview Teardown",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/preview.yml",
+      "source_repo": "quarkiverse/quarkiverse",
+      "target": "actions/download-artifact@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/preview.yml",
+      "source_repo": "quarkiverse/quarkiverse",
+      "target": "actions-cool/maintain-one-comment@v3.2.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/preview.yml",
+      "source_repo": "quarkiverse/quarkiverse",
+      "target": "Surge PR Preview",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/wikisync.yml",
+      "source_repo": "quarkiverse/quarkiverse",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/wikisync.yml",
+      "source_repo": "quarkiverse/quarkiverse",
+      "target": "newrelic/wiki-sync-action@v1.0.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/wikisync.yml",
+      "source_repo": "quarkiverse/quarkiverse",
+      "target": "sync-wiki",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "quarkiverse/quarkiverse",
+      "target": "extensions",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "quarkiverse/quarkiverse",
+      "target": "quarkus",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T05:08:26.292230+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1758
+    },
+    {
+      "path": ".github/workflows/build_and_publish.yml",
+      "size": 3837
+    },
+    {
+      "path": ".github/workflows/preview-teardown.yml",
+      "size": 733
+    },
+    {
+      "path": ".github/workflows/preview.yml",
+      "size": 1976
+    },
+    {
+      "path": ".github/workflows/wikisync.yml",
+      "size": 1434
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "hub.quarkiverse.io - Repository for contributing to quarkiverse wiki",
+    "fork": false,
+    "full_name": "quarkiverse/quarkiverse",
+    "html_url": "https://github.com/quarkiverse/quarkiverse",
+    "language": "JavaScript",
+    "pushed_at": "2026-02-06T11:25:33Z",
+    "stargazers_count": 53,
+    "topics": [
+      "extensions",
+      "quarkus"
+    ],
+    "updated_at": "2026-04-21T09:41:44Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "quarkusio/quarkus-ecosystem-ci",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Gatsby Publish",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build_and_publish.yml",
+      "term": "Gatsby Publish"
+    },
+    {
+      "context_snippet": "Surge.sh Preview Teardown",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/preview-teardown.yml",
+      "term": "Surge.sh Preview Teardown"
+    },
+    {
+      "context_snippet": "Surge PR Preview",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/preview.yml",
+      "term": "Surge PR Preview"
+    },
+    {
+      "context_snippet": "sync-wiki",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/wikisync.yml",
+      "term": "sync-wiki"
+    },
+    {
+      "context_snippet": "The Quarkiverse GitHub organization provides repository hosting (including build, CI and release publishing setup) for Quarkus extension projects contributed by the community.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "extensions"
+    },
+    {
+      "context_snippet": "The Quarkiverse GitHub organization provides repository hosting (including build, CI and release publishing setup) for Quarkus extension projects contributed by the community.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "quarkus"
+    }
+  ]
+}

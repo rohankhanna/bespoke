@@ -32,6 +32,18 @@
       "source_repo": "parcel-bundler/parcel",
       "status": "candidate-context",
       "text": "tag-release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "praw-dev/.github",
+      "status": "candidate-context",
+      "text": "Settings files to be used across the organization."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "praw-dev/.github",
+      "status": "candidate-context",
+      "text": "Tag Release"
     }
   ],
   "candidate_glosses": [
@@ -46,6 +58,12 @@
       "source_repo": "parcel-bundler/parcel",
       "status": "candidate",
       "text": "tag-release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "praw-dev/.github",
+      "status": "candidate",
+      "text": "Tag Release"
     }
   ],
   "candidate_related_terms": [
@@ -101,11 +119,17 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": ".github/workflows/tag-release.yml",
       "source_repo": "parcel-bundler/parcel"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/tag_release.yml",
+      "source_repo": "praw-dev/.github"
     }
   ],
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

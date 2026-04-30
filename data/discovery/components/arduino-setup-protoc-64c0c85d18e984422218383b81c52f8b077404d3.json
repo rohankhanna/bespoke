@@ -1,0 +1,12 @@
+{
+  "component": "arduino/setup-protoc@64c0c85d18e984422218383b81c52f8b077404d3",
+  "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/unit.yml",
+      "source_repo": "GoogleChrome/lighthouse"
+    }
+  ]
+}

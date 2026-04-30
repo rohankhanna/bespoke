@@ -1,0 +1,223 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "plemeri/InSPyReNet",
+      "target": "evalstate/mcp-hfspace",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "plemeri/InSPyReNet",
+      "target": "icvteam/pgnet",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "plemeri/InSPyReNet",
+      "target": "lartpang/pysodmetrics",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "plemeri/InSPyReNet",
+      "target": "hkchengrex/cascadepsp",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "plemeri/InSPyReNet",
+      "target": "accv2022",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "plemeri/InSPyReNet",
+      "target": "background-removal",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "plemeri/InSPyReNet",
+      "target": "computer-vision",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "plemeri/InSPyReNet",
+      "target": "deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "plemeri/InSPyReNet",
+      "target": "dichotomous-image-segmentation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "plemeri/InSPyReNet",
+      "target": "high-resolution",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "plemeri/InSPyReNet",
+      "target": "image-matting",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "plemeri/InSPyReNet",
+      "target": "image-segmantation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "plemeri/InSPyReNet",
+      "target": "pytorch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "plemeri/InSPyReNet",
+      "target": "salient-object-detection",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T03:48:07.015375+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 15402
+    },
+    {
+      "path": "requirements.txt",
+      "size": 65
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Official PyTorch implementation of Revisiting Image Pyramid Structure for High Resolution Salient Object Detection (ACCV 2022)",
+    "fork": false,
+    "full_name": "plemeri/InSPyReNet",
+    "html_url": "https://github.com/plemeri/InSPyReNet",
+    "language": "Python",
+    "pushed_at": "2025-05-14T08:05:07Z",
+    "stargazers_count": 763,
+    "topics": [
+      "accv2022",
+      "background-removal",
+      "computer-vision",
+      "deep-learning",
+      "dichotomous-image-segmentation",
+      "high-resolution",
+      "image-matting",
+      "image-segmantation",
+      "pytorch",
+      "salient-object-detection"
+    ],
+    "updated_at": "2026-04-25T11:14:54Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "evalstate/mcp-hfspace",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "hkchengrex/cascadepsp",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "icvteam/pgnet",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "lartpang/pysodmetrics",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[![MseeP.ai Security Assessment Badge](https://mseep.net/pr/plemeri-inspyrenet-badge.png)](https://mseep.ai/app/plemeri-inspyrenet)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "accv2022"
+    },
+    {
+      "context_snippet": "[![MseeP.ai Security Assessment Badge](https://mseep.net/pr/plemeri-inspyrenet-badge.png)](https://mseep.ai/app/plemeri-inspyrenet)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "background-removal"
+    },
+    {
+      "context_snippet": "[![MseeP.ai Security Assessment Badge](https://mseep.net/pr/plemeri-inspyrenet-badge.png)](https://mseep.ai/app/plemeri-inspyrenet)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "computer-vision"
+    },
+    {
+      "context_snippet": "[![MseeP.ai Security Assessment Badge](https://mseep.net/pr/plemeri-inspyrenet-badge.png)](https://mseep.ai/app/plemeri-inspyrenet)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-learning"
+    },
+    {
+      "context_snippet": "[![MseeP.ai Security Assessment Badge](https://mseep.net/pr/plemeri-inspyrenet-badge.png)](https://mseep.ai/app/plemeri-inspyrenet)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dichotomous-image-segmentation"
+    },
+    {
+      "context_snippet": "[![MseeP.ai Security Assessment Badge](https://mseep.net/pr/plemeri-inspyrenet-badge.png)](https://mseep.ai/app/plemeri-inspyrenet)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "high-resolution"
+    },
+    {
+      "context_snippet": "[![MseeP.ai Security Assessment Badge](https://mseep.net/pr/plemeri-inspyrenet-badge.png)](https://mseep.ai/app/plemeri-inspyrenet)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "image-matting"
+    },
+    {
+      "context_snippet": "[![MseeP.ai Security Assessment Badge](https://mseep.net/pr/plemeri-inspyrenet-badge.png)](https://mseep.ai/app/plemeri-inspyrenet)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "image-segmantation"
+    },
+    {
+      "context_snippet": "[![MseeP.ai Security Assessment Badge](https://mseep.net/pr/plemeri-inspyrenet-badge.png)](https://mseep.ai/app/plemeri-inspyrenet)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytorch"
+    },
+    {
+      "context_snippet": "[![MseeP.ai Security Assessment Badge](https://mseep.net/pr/plemeri-inspyrenet-badge.png)](https://mseep.ai/app/plemeri-inspyrenet)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "salient-object-detection"
+    }
+  ]
+}

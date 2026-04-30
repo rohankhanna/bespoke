@@ -1,7 +1,7 @@
 {
   "component": "actions/cache@v2",
   "first_seen_at": "2026-04-18T09:17:12.863479+00:00",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -487,6 +487,111 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/unittests.yml",
       "source_repo": "dmlc/gluon-nlp"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/integration.yml",
+      "source_repo": "m00qek/matcher_combinators.lua"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "tjdevries/tree-sitter-lua"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/docgen.yaml",
+      "source_repo": "nvim-neotest/nvim-nio"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "celo-org/react-celo"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/nl-action.yml",
+      "source_repo": "GEM-benchmark/NL-Augmenter"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "baygeldin/tantiny"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "baygeldin/tantiny"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/run-tests.yaml",
+      "source_repo": "BlackSamorez/tensor_parallel"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/run-tests.yml",
+      "source_repo": "McGill-NLP/webllama"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yaml",
+      "source_repo": "apache/seatunnel-web"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ksponspeech.yml",
+      "source_repo": "k2-fsa/icefall"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-and-test.yml",
+      "source_repo": "mozilla/DeepSpeech"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/commit.yml",
+      "source_repo": "barracudanetworks/lighthouse"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "barracudanetworks/lighthouse"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/stylua.yml",
+      "source_repo": "pysan3/pathlib.nvim"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/R-CMD-check.yaml",
+      "source_repo": "dcnorris/precautionary"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/pkgdown.yaml",
+      "source_repo": "dcnorris/precautionary"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/integration-test.yml",
+      "source_repo": "microsoft/nn-Meter"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/integration-test_nni_based_torch.yml",
+      "source_repo": "microsoft/nn-Meter"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/integration-test_onnx_based_torch.yml",
+      "source_repo": "microsoft/nn-Meter"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "state-spaces/s4"
     }
   ]
 }

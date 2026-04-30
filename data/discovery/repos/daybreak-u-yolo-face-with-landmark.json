@@ -1,0 +1,103 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "DayBreak-u/yolo-face-with-landmark",
+      "target": "ouyanghuiyu/yolo-face-with-landmark",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "DayBreak-u/yolo-face-with-landmark",
+      "target": "face-detection",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "DayBreak-u/yolo-face-with-landmark",
+      "target": "light",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "DayBreak-u/yolo-face-with-landmark",
+      "target": "ncnn",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "DayBreak-u/yolo-face-with-landmark",
+      "target": "torch",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T05:12:08.443636+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1895
+    },
+    {
+      "path": "requirements.txt",
+      "size": 270
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "yoloface\u5927\u793c\u5305  \u4f7f\u7528pytroch\u5b9e\u73b0\u7684\u57fa\u4e8eyolov3\u7684\u8f7b\u91cf\u7ea7\u4eba\u8138\u68c0\u6d4b\uff08\u5305\u542b\u5173\u952e\u70b9\uff09",
+    "fork": false,
+    "full_name": "DayBreak-u/yolo-face-with-landmark",
+    "html_url": "https://github.com/DayBreak-u/yolo-face-with-landmark",
+    "language": "C++",
+    "pushed_at": "2022-11-22T06:12:55Z",
+    "stargazers_count": 298,
+    "topics": [
+      "face-detection",
+      "light",
+      "ncnn",
+      "torch"
+    ],
+    "updated_at": "2026-02-06T07:28:01Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ouyanghuiyu/yolo-face-with-landmark",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "- \u6dfb\u52a0\u5173\u952e\u70b9\u68c0\u6d4b\u5206\u652f\uff0c\u4f7f\u7528wing loss",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "face-detection"
+    },
+    {
+      "context_snippet": "- \u6dfb\u52a0\u5173\u952e\u70b9\u68c0\u6d4b\u5206\u652f\uff0c\u4f7f\u7528wing loss",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "light"
+    },
+    {
+      "context_snippet": "- \u6dfb\u52a0\u5173\u952e\u70b9\u68c0\u6d4b\u5206\u652f\uff0c\u4f7f\u7528wing loss",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ncnn"
+    },
+    {
+      "context_snippet": "- \u6dfb\u52a0\u5173\u952e\u70b9\u68c0\u6d4b\u5206\u652f\uff0c\u4f7f\u7528wing loss",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "torch"
+    }
+  ]
+}

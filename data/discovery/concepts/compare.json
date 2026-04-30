@@ -1,11 +1,14 @@
 {
   "aliases": [
-    "Compare"
+    "Compare",
+    "compare"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
     "workflow-process",
-    "data-document-artifact"
+    "data-document-artifact",
+    "tool-component",
+    "capability"
   ],
   "candidate_definitions": [
     {
@@ -19,6 +22,30 @@
       "source_repo": "adobe/spectrum-css",
       "status": "candidate-context",
       "text": "Compare"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "capitalone/datacompy",
+      "status": "candidate-context",
+      "text": "Pandas, Polars, Spark, and Snowpark DataFrame comparison for humans and more!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "capitalone/datacompy",
+      "status": "candidate-context",
+      "text": "![PyPI - Python Version](https://img.shields.io/pypi/pyversions/datacompy)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jonschlinkert/whence",
+      "status": "candidate-context",
+      "text": "Add context awareness to your apps and frameworks by safely evaluating user-defined conditional expressions. Useful for evaluating expressions in config files, prompts, key bindings, completions, templates, and many other user cases."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jonschlinkert/whence",
+      "status": "candidate-context",
+      "text": "> Add context awareness to your apps and frameworks by safely evaluating user-defined conditional expressions. Useful for evaluating expressions in config files, prompts, key bindings, completions, templates, and many other user cases."
     }
   ],
   "candidate_glosses": [
@@ -27,6 +54,18 @@
       "source_repo": "adobe/spectrum-css",
       "status": "candidate",
       "text": "Compare"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "capitalone/datacompy",
+      "status": "candidate",
+      "text": "![PyPI - Python Version](https://img.shields.io/pypi/pyversions/datacompy)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jonschlinkert/whence",
+      "status": "candidate",
+      "text": "> Add context awareness to your apps and frameworks by safely evaluating user-defined conditional expressions. Useful for evaluating expressions in config files, prompts, key bindings, completions, templates, and many other user cases."
     }
   ],
   "candidate_related_terms": [
@@ -112,11 +151,23 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": ".github/workflows/compare-results.yml",
       "source_repo": "adobe/spectrum-css"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "capitalone/datacompy"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "jonschlinkert/whence"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

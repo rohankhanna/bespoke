@@ -1,0 +1,132 @@
+{
+  "components": [
+    {
+      "component": "nhevia/discord-styled-releases@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/discord-releases.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/discord-releases.yml",
+      "source_repo": "NickeManarin/ScreenToGif",
+      "target": "nhevia/discord-styled-releases@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/discord-releases.yml",
+      "source_repo": "NickeManarin/ScreenToGif",
+      "target": "Discord \u2022 Releases",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "NickeManarin/ScreenToGif",
+      "target": "editor",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "NickeManarin/ScreenToGif",
+      "target": "recorder",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "NickeManarin/ScreenToGif",
+      "target": "sketchboard",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "NickeManarin/ScreenToGif",
+      "target": "video",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "NickeManarin/ScreenToGif",
+      "target": "webcam",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T04:08:16.509935+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6763
+    },
+    {
+      "path": ".github/workflows/discord-releases.yml",
+      "size": 1055
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "\ud83c\udfac ScreenToGif allows you to record a selected area of your screen, edit and save it as a gif or video.",
+    "fork": false,
+    "full_name": "NickeManarin/ScreenToGif",
+    "html_url": "https://github.com/NickeManarin/ScreenToGif",
+    "language": "C#",
+    "pushed_at": "2026-04-27T19:45:54Z",
+    "stargazers_count": 26852,
+    "topics": [
+      "editor",
+      "gif",
+      "recorder",
+      "sketchboard",
+      "video",
+      "webcam",
+      "wpf"
+    ],
+    "updated_at": "2026-04-30T03:05:00Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Discord \u2022 Releases",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/discord-releases.yml",
+      "term": "Discord \u2022 Releases"
+    },
+    {
+      "context_snippet": "<div align=\"center\" markdown=\"1\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "editor"
+    },
+    {
+      "context_snippet": "<div align=\"center\" markdown=\"1\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "recorder"
+    },
+    {
+      "context_snippet": "<div align=\"center\" markdown=\"1\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "sketchboard"
+    },
+    {
+      "context_snippet": "<div align=\"center\" markdown=\"1\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "video"
+    },
+    {
+      "context_snippet": "<div align=\"center\" markdown=\"1\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "webcam"
+    }
+  ]
+}

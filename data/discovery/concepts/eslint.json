@@ -319,6 +319,18 @@
       "source_repo": "standard/standard-www",
       "status": "candidate-context",
       "text": "[travis-image]: https://img.shields.io/travis/standard/standard-www/master.svg"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "standard/ts-standard",
+      "status": "candidate-context",
+      "text": "Typescript style guide, linter, and formatter using StandardJS"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "standard/ts-standard",
+      "status": "candidate-context",
+      "text": "[![Tests](https://github.com/standard/ts-standard/workflows/tests/badge.svg?branch=master)](https://github.com/standard/ts-standard/actions?query=workflow%3A%22tests%22)"
     }
   ],
   "candidate_glosses": [
@@ -477,6 +489,12 @@
       "source_repo": "standard/standard-www",
       "status": "candidate",
       "text": "[travis-image]: https://img.shields.io/travis/standard/standard-www/master.svg"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "standard/ts-standard",
+      "status": "candidate",
+      "text": "[![Tests](https://github.com/standard/ts-standard/workflows/tests/badge.svg?branch=master)](https://github.com/standard/ts-standard/actions?query=workflow%3A%22tests%22)"
     }
   ],
   "candidate_related_terms": [
@@ -796,11 +814,47 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "standard/snazzy"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "standard/standard"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "mightyiam/eslint-config-love"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "standard/ts-standard"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "standard/snazzy"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "graphql-hive/graphql-eslint"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "lint-staged/lint-staged"
     }
   ],
   "first_seen_at": "2026-04-19T04:47:57.443742+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

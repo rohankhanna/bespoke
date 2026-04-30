@@ -43,6 +43,18 @@
       "source_repo": "fastapi/typer",
       "status": "candidate-context",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "galaxyproject/planemo",
+      "status": "candidate-context",
+      "text": "Command-line utilities to assist in developing Galaxy and Common Workflow Language artifacts - including tools, workflows, and training materials."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "galaxyproject/planemo",
+      "status": "candidate-context",
+      "text": ".. figure:: https://raw.githubusercontent.com/jmchilton/planemo/master/docs/planemo_logo.png"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +75,12 @@
       "source_repo": "fastapi/typer",
       "status": "candidate",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "galaxyproject/planemo",
+      "status": "candidate",
+      "text": ".. figure:: https://raw.githubusercontent.com/jmchilton/planemo/master/docs/planemo_logo.png"
     }
   ],
   "candidate_related_terms": [
@@ -160,11 +178,23 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": null,
       "source_repo": "fastapi/typer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "galaxyproject/planemo"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "fastapi/typer"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

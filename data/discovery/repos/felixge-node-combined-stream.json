@@ -1,0 +1,53 @@
+{
+  "components": [
+    {
+      "component": "delayed-stream",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "far",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "felixge/node-combined-stream",
+      "target": "delayed-stream",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "felixge/node-combined-stream",
+      "target": "far",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-04-30T04:02:15.608859+00:00",
+  "fetched_files": [
+    {
+      "path": "package.json",
+      "size": 639
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A stream that emits multiple other streams one after another.",
+    "fork": false,
+    "full_name": "felixge/node-combined-stream",
+    "html_url": "https://github.com/felixge/node-combined-stream",
+    "language": "JavaScript",
+    "pushed_at": "2023-11-09T07:47:17Z",
+    "stargazers_count": 144,
+    "topics": [],
+    "updated_at": "2026-04-02T06:21:24Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

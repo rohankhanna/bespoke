@@ -43,6 +43,66 @@
       "source_repo": "rspatial/terra",
       "status": "candidate-context",
       "text": "<p align=\"right\"; style=\"font-size:11px\">logo by Zane Dax</p>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "eddelbuettel/rcppfastfloat",
+      "status": "candidate-context",
+      "text": "Rcpp Bindings for the 'fastfloat' Header-Only Library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "eddelbuettel/rcppfastfloat",
+      "status": "candidate-context",
+      "text": "[![CI](https://github.com/eddelbuettel/rcppfastfloat/workflows/ci/badge.svg)](https://github.com/eddelbuettel/rcppfastfloat/actions?query=workflow%3Aci)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "eddelbuettel/rcppsimdjson",
+      "status": "candidate-context",
+      "text": "Rcpp Bindings for the 'simdjson' Header Library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "eddelbuettel/rcppsimdjson",
+      "status": "candidate-context",
+      "text": "[![CI](https://github.com/eddelbuettel/rcppsimdjson/workflows/ci/badge.svg)](https://github.com/eddelbuettel/rcppsimdjson/actions?query=workflow%3Aci)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "plotly/plotly.R",
+      "status": "candidate-context",
+      "text": "An interactive graphing library for R"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "plotly/plotly.R",
+      "status": "candidate-context",
+      "text": "<!-- README.md is generated from README.Rmd. Please edit that file -->"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "eddelbuettel/littler",
+      "status": "candidate-context",
+      "text": "A scripting and command-line front-end for GNU R"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "eddelbuettel/littler",
+      "status": "candidate-context",
+      "text": "[![CI](https://github.com/eddelbuettel/littler/workflows/ci/badge.svg)](https://github.com/eddelbuettel/littler/actions?query=workflow%3Aci)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "RcppCore/Rcpp",
+      "status": "candidate-context",
+      "text": "Seamless R and C++ Integration"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "RcppCore/Rcpp",
+      "status": "candidate-context",
+      "text": "[![CI](https://github.com/RcppCore/Rcpp/workflows/ci/badge.svg)](https://github.com/RcppCore/Rcpp/actions?query=workflow%3Aci)"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +123,36 @@
       "source_repo": "rspatial/terra",
       "status": "candidate",
       "text": "<p align=\"right\"; style=\"font-size:11px\">logo by Zane Dax</p>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "eddelbuettel/rcppfastfloat",
+      "status": "candidate",
+      "text": "[![CI](https://github.com/eddelbuettel/rcppfastfloat/workflows/ci/badge.svg)](https://github.com/eddelbuettel/rcppfastfloat/actions?query=workflow%3Aci)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "eddelbuettel/rcppsimdjson",
+      "status": "candidate",
+      "text": "[![CI](https://github.com/eddelbuettel/rcppsimdjson/workflows/ci/badge.svg)](https://github.com/eddelbuettel/rcppsimdjson/actions?query=workflow%3Aci)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "plotly/plotly.R",
+      "status": "candidate",
+      "text": "<!-- README.md is generated from README.Rmd. Please edit that file -->"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "eddelbuettel/littler",
+      "status": "candidate",
+      "text": "[![CI](https://github.com/eddelbuettel/littler/workflows/ci/badge.svg)](https://github.com/eddelbuettel/littler/actions?query=workflow%3Aci)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "RcppCore/Rcpp",
+      "status": "candidate",
+      "text": "[![CI](https://github.com/RcppCore/Rcpp/workflows/ci/badge.svg)](https://github.com/RcppCore/Rcpp/actions?query=workflow%3Aci)"
     }
   ],
   "candidate_related_terms": [],
@@ -88,11 +178,41 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "rspatial/terra"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "eddelbuettel/rcppfastfloat"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "eddelbuettel/rcppsimdjson"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "plotly/plotly.R"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "eddelbuettel/littler"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "RcppCore/Rcpp"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

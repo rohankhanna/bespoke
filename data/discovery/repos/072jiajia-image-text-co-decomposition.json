@@ -1,0 +1,45 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "072jiajia/Image-Text-Co-Decomposition",
+      "target": "kakaobrain/tcl",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T01:58:20.950777+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4608
+    },
+    {
+      "path": "requirements.txt",
+      "size": 239
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "072jiajia/Image-Text-Co-Decomposition",
+    "html_url": "https://github.com/072jiajia/Image-Text-Co-Decomposition",
+    "language": "Python",
+    "pushed_at": "2025-03-03T12:25:16Z",
+    "stargazers_count": 22,
+    "topics": [],
+    "updated_at": "2026-04-22T13:27:15Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "kakaobrain/tcl",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

@@ -91,6 +91,42 @@
       "source_repo": "rickstaa/action-black",
       "status": "candidate-context",
       "text": "Docker Image CI"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "voidlabs/mosaico",
+      "status": "candidate-context",
+      "text": "Mosaico - Responsive Email Template Editor"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "voidlabs/mosaico",
+      "status": "candidate-context",
+      "text": "Docker Image CI"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "DanielSarmiento04/yolov10cpp",
+      "status": "candidate-context",
+      "text": "Implementation of yolo v10 in c++ std 17 over opencv and onnxruntime"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DanielSarmiento04/yolov10cpp",
+      "status": "candidate-context",
+      "text": "Docker Image CI"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "awsdocs/aws-doc-sdk-examples",
+      "status": "candidate-context",
+      "text": "Welcome to the AWS Code Examples Repository.  This repo contains code examples used in the AWS documentation, AWS SDK Developer Guides, and more. For more information, see the Readme.md file below."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "awsdocs/aws-doc-sdk-examples",
+      "status": "candidate-context",
+      "text": "Docker Image CI"
     }
   ],
   "candidate_glosses": [
@@ -133,6 +169,24 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "rickstaa/action-black",
+      "status": "candidate",
+      "text": "Docker Image CI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "voidlabs/mosaico",
+      "status": "candidate",
+      "text": "Docker Image CI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DanielSarmiento04/yolov10cpp",
+      "status": "candidate",
+      "text": "Docker Image CI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "awsdocs/aws-doc-sdk-examples",
       "status": "candidate",
       "text": "Docker Image CI"
     }
@@ -226,11 +280,29 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": ".github/workflows/dockerimage.yml",
       "source_repo": "rickstaa/action-black"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/docker-image.yml",
+      "source_repo": "voidlabs/mosaico"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/docker-image.yml",
+      "source_repo": "DanielSarmiento04/yolov10cpp"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/docker-push.yml",
+      "source_repo": "awsdocs/aws-doc-sdk-examples"
     }
   ],
   "first_seen_at": "2026-04-18T10:43:38.551697+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,300 @@
+{
+  "components": [
+    {
+      "component": "actions/stale@v9.0.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/housekeeping-stale-issues-prs.yaml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration.yaml"
+    },
+    {
+      "component": "helm/kind-action@v1.12.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration.yaml"
+    },
+    {
+      "component": "actions/setup-go@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration.yaml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration.yaml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration.yaml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration.yaml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yaml"
+    },
+    {
+      "component": "azure/setup-helm@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yaml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish_release.yaml"
+    },
+    {
+      "component": "azure/setup-helm@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish_release.yaml"
+    },
+    {
+      "component": "softprops/action-gh-release@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish_release.yaml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/unittest.yaml"
+    },
+    {
+      "component": "azure/setup-helm@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/unittest.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "goharbor/harbor-helm",
+      "target": "kubernetes/helm",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "goharbor/harbor-helm",
+      "target": "aquasecurity/trivy-db",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "goharbor/harbor-helm",
+      "target": "aquasecurity/trivy-java-db",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/housekeeping-stale-issues-prs.yaml",
+      "source_repo": "goharbor/harbor-helm",
+      "target": "actions/stale@v9.0.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration.yaml",
+      "source_repo": "goharbor/harbor-helm",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration.yaml",
+      "source_repo": "goharbor/harbor-helm",
+      "target": "helm/kind-action@v1.12.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration.yaml",
+      "source_repo": "goharbor/harbor-helm",
+      "target": "actions/setup-go@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration.yaml",
+      "source_repo": "goharbor/harbor-helm",
+      "target": "actions/cache@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration.yaml",
+      "source_repo": "goharbor/harbor-helm",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/integration.yaml",
+      "source_repo": "goharbor/harbor-helm",
+      "target": "Integration test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yaml",
+      "source_repo": "goharbor/harbor-helm",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yaml",
+      "source_repo": "goharbor/harbor-helm",
+      "target": "azure/setup-helm@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint.yaml",
+      "source_repo": "goharbor/harbor-helm",
+      "target": "Lint",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish_release.yaml",
+      "source_repo": "goharbor/harbor-helm",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish_release.yaml",
+      "source_repo": "goharbor/harbor-helm",
+      "target": "azure/setup-helm@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish_release.yaml",
+      "source_repo": "goharbor/harbor-helm",
+      "target": "softprops/action-gh-release@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish_release.yaml",
+      "source_repo": "goharbor/harbor-helm",
+      "target": "Publish Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/unittest.yaml",
+      "source_repo": "goharbor/harbor-helm",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/unittest.yaml",
+      "source_repo": "goharbor/harbor-helm",
+      "target": "azure/setup-helm@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/unittest.yaml",
+      "source_repo": "goharbor/harbor-helm",
+      "target": "Unit test",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T03:03:05.530488+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 233120
+    },
+    {
+      "path": ".github/workflows/housekeeping-stale-issues-prs.yaml",
+      "size": 1523
+    },
+    {
+      "path": ".github/workflows/integration.yaml",
+      "size": 2344
+    },
+    {
+      "path": ".github/workflows/lint.yaml",
+      "size": 1153
+    },
+    {
+      "path": ".github/workflows/publish_release.yaml",
+      "size": 1745
+    },
+    {
+      "path": ".github/workflows/unittest.yaml",
+      "size": 521
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "The helm chart to deploy Harbor",
+    "fork": false,
+    "full_name": "goharbor/harbor-helm",
+    "html_url": "https://github.com/goharbor/harbor-helm",
+    "language": "Mustache",
+    "pushed_at": "2026-04-17T08:04:19Z",
+    "stargazers_count": 1484,
+    "topics": [],
+    "updated_at": "2026-04-28T18:00:03Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "aquasecurity/trivy-db",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "aquasecurity/trivy-java-db",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "kubernetes/helm",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Integration test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/integration.yaml",
+      "term": "Integration test"
+    },
+    {
+      "context_snippet": "Lint",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint.yaml",
+      "term": "Lint"
+    },
+    {
+      "context_snippet": "Publish Release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish_release.yaml",
+      "term": "Publish Release"
+    },
+    {
+      "context_snippet": "Unit test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/unittest.yaml",
+      "term": "Unit test"
+    }
+  ]
+}

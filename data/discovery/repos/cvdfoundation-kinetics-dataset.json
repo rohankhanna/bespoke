@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T05:14:04.145376+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5976
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "cvdfoundation/kinetics-dataset",
+    "html_url": "https://github.com/cvdfoundation/kinetics-dataset",
+    "language": "Shell",
+    "pushed_at": "2024-05-15T05:23:03Z",
+    "stargazers_count": 967,
+    "topics": [],
+    "updated_at": "2026-04-27T06:29:03Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

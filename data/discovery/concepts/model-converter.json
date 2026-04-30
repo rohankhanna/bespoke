@@ -43,6 +43,18 @@
       "source_repo": "PaddlePaddle/X2Paddle",
       "status": "candidate-context",
       "text": "[![PyPI - X2Paddle Version](https://img.shields.io/pypi/v/x2paddle.svg?label=pip&logo=PyPI&logoColor=white)](https://pypi.org/project/x2paddle/)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "microsoft/MMdnn",
+      "status": "candidate-context",
+      "text": "MMdnn is a set of tools to help users inter-operate among different deep learning frameworks. E.g. model conversion and visualization. Convert models between Caffe, Keras, MXNet, Tensorflow, CNTK, PyTorch Onnx and CoreML."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/MMdnn",
+      "status": "candidate-context",
+      "text": "[![PyPi Version](https://img.shields.io/pypi/v/mmdnn.svg)](https://pypi.org/project/mmdnn/)"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +75,12 @@
       "source_repo": "PaddlePaddle/X2Paddle",
       "status": "candidate",
       "text": "[![PyPI - X2Paddle Version](https://img.shields.io/pypi/v/x2paddle.svg?label=pip&logo=PyPI&logoColor=white)](https://pypi.org/project/x2paddle/)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/MMdnn",
+      "status": "candidate",
+      "text": "[![PyPi Version](https://img.shields.io/pypi/v/mmdnn.svg)](https://pypi.org/project/mmdnn/)"
     }
   ],
   "candidate_related_terms": [],
@@ -88,11 +106,17 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": null,
       "source_repo": "PaddlePaddle/X2Paddle"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "microsoft/MMdnn"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

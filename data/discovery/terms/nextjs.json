@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-18T09:57:17.167988+00:00",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "sources": [
     {
       "discovered_via": "repo-topic",
@@ -86,6 +86,11 @@
       "discovered_via": "repo-topic",
       "source_file": null,
       "source_repo": "i18next/next-i18next"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "LAION-AI/Open-Assistant"
     }
   ],
   "term": "nextjs"

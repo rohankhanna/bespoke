@@ -151,6 +151,18 @@
       "source_repo": "ljharb/qs",
       "status": "candidate-context",
       "text": "Automatic Rebase"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "syl20bnr/spacemacs",
+      "status": "candidate-context",
+      "text": "A community-driven Emacs distribution - The best editor is neither Emacs nor Vim,  it's Emacs *and* Vim!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "syl20bnr/spacemacs",
+      "status": "candidate-context",
+      "text": "Automatic Rebase"
     }
   ],
   "candidate_glosses": [
@@ -223,6 +235,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "ljharb/qs",
+      "status": "candidate",
+      "text": "Automatic Rebase"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "syl20bnr/spacemacs",
       "status": "candidate",
       "text": "Automatic Rebase"
     }
@@ -412,11 +430,35 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": ".github/workflows/rebase.yml",
       "source_repo": "ljharb/qs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/rebase.yml",
+      "source_repo": "callstack/react-native-builder-bob"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/rebase.yml",
+      "source_repo": "nvm-sh/nvm"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/rebase.yml",
+      "source_repo": "tape-testing/tape"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/rebase.yml",
+      "source_repo": "syl20bnr/spacemacs"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -739,6 +739,102 @@
       "source_repo": "thu-ml/SageAttention",
       "status": "candidate-context",
       "text": "<!-- We are continuously updating more features. You could **Star** and **Watch** our repository to stay updated."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rapidsai/raft",
+      "status": "candidate-context",
+      "text": "RAFT contains fundamental widely-used algorithms and primitives for machine learning and information retrieval. The algorithms are CUDA-accelerated and form building blocks for more easily writing high performance applications."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rapidsai/raft",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JIA-Lab-research/SparseTransformer",
+      "status": "candidate-context",
+      "text": "A fast and memory-efficient libarary for sparse transformer with varying token numbers (e.g., 3D point cloud)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JIA-Lab-research/SparseTransformer",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "TorchDR/TorchDR",
+      "status": "candidate-context",
+      "text": "TorchDR - PyTorch Dimensionality Reduction"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "TorchDR/TorchDR",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "chelsea0x3b/cudarc",
+      "status": "candidate-context",
+      "text": "Safe rust wrapper around CUDA toolkit"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chelsea0x3b/cudarc",
+      "status": "candidate-context",
+      "text": "[![](https://dcbadge.vercel.app/api/server/AtUhGqBDP5)](https://discord.gg/AtUhGqBDP5)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pykeen/pykeen",
+      "status": "candidate-context",
+      "text": "\ud83e\udd16 A Python library for learning and evaluating knowledge graph embeddings "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pykeen/pykeen",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "supranational/sppark",
+      "status": "candidate-context",
+      "text": "Zero-knowledge template library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "supranational/sppark",
+      "status": "candidate-context",
+      "text": "sppark (pronounced 'spark') is **S**upranational's **p**erformance **p**rimitives for **ar**guments of **k**nowledge such as SNARKs and STARKs. The library focuses on accelerating the most computationally expensive pieces of zero-knowledge proofs generation such as multi-scalar \u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "chainer/chainer",
+      "status": "candidate-context",
+      "text": "A flexible framework of neural networks for deep learning"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chainer/chainer",
+      "status": "candidate-context",
+      "text": "***Notice: As [announced](https://chainer.org/announcement/2019/12/05/released-v7.html), Chainer is under the maintenance phase and further development will be limited to bug-fixes and maintenance only.***"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "NVIDIA/gpu-operator",
+      "status": "candidate-context",
+      "text": "NVIDIA GPU Operator creates, configures, and manages GPUs in Kubernetes"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NVIDIA/gpu-operator",
+      "status": "candidate-context",
+      "text": "[![license](https://img.shields.io/github/license/NVIDIA/gpu-operator?style=flat-square)](https://raw.githubusercontent.com/NVIDIA/gpu-operator/master/LICENSE)"
     }
   ],
   "candidate_glosses": [
@@ -1107,6 +1203,54 @@
       "source_repo": "thu-ml/SageAttention",
       "status": "candidate",
       "text": "<!-- We are continuously updating more features. You could **Star** and **Watch** our repository to stay updated."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rapidsai/raft",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JIA-Lab-research/SparseTransformer",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "TorchDR/TorchDR",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chelsea0x3b/cudarc",
+      "status": "candidate",
+      "text": "[![](https://dcbadge.vercel.app/api/server/AtUhGqBDP5)](https://discord.gg/AtUhGqBDP5)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pykeen/pykeen",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "supranational/sppark",
+      "status": "candidate",
+      "text": "sppark (pronounced 'spark') is **S**upranational's **p**erformance **p**rimitives for **ar**guments of **k**nowledge such as SNARKs and STARKs. The library focuses on accelerating the most computationally expensive pieces of zero-knowledge proofs generation such as multi-scalar \u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chainer/chainer",
+      "status": "candidate",
+      "text": "***Notice: As [announced](https://chainer.org/announcement/2019/12/05/released-v7.html), Chainer is under the maintenance phase and further development will be limited to bug-fixes and maintenance only.***"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NVIDIA/gpu-operator",
+      "status": "candidate",
+      "text": "[![license](https://img.shields.io/github/license/NVIDIA/gpu-operator?style=flat-square)](https://raw.githubusercontent.com/NVIDIA/gpu-operator/master/LICENSE)"
     }
   ],
   "candidate_related_terms": [
@@ -1606,11 +1750,71 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "thu-ml/SageAttention"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "rapidsai/raft"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "rust-nvml/nvml-wrapper"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "JIA-Lab-research/SparseTransformer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "TorchDR/TorchDR"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "openhackathons-org/gpubootcamp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "chelsea0x3b/cudarc"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "pykeen/pykeen"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "supranational/sppark"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "chainer/chainer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "NVIDIA/gpu-operator"
     }
   ],
   "first_seen_at": "2026-04-18T10:43:38.551697+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

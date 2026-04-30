@@ -1,11 +1,14 @@
 {
   "aliases": [
-    "Commits"
+    "Commits",
+    "commits"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
     "workflow-process",
-    "data-document-artifact"
+    "data-document-artifact",
+    "tool-component",
+    "capability"
   ],
   "candidate_definitions": [
     {
@@ -19,6 +22,18 @@
       "source_repo": "ConsenSys-archive/ganache",
       "status": "candidate-context",
       "text": "Commits"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "AndersDJohnson/conventional-commit-types-cli",
+      "status": "candidate-context",
+      "text": "CLI to list conventional commit types."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AndersDJohnson/conventional-commit-types-cli",
+      "status": "candidate-context",
+      "text": "CLI to list conventional commit types per https://github.com/commitizen/conventional-commit-types."
     }
   ],
   "candidate_glosses": [
@@ -27,6 +42,12 @@
       "source_repo": "ConsenSys-archive/ganache",
       "status": "candidate",
       "text": "Commits"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AndersDJohnson/conventional-commit-types-cli",
+      "status": "candidate",
+      "text": "CLI to list conventional commit types per https://github.com/commitizen/conventional-commit-types."
     }
   ],
   "candidate_related_terms": [
@@ -100,11 +121,23 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": ".github/workflows/push.yml",
       "source_repo": "ConsenSys-archive/ganache"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "AndersDJohnson/conventional-commit-types-cli"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/push.yml",
+      "source_repo": "ConsenSys-archive/ganache"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Autobahn WebSocket protocol testsuite"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "WebSocket protocol implementation conformance test suite."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "WebSocket protocol implementation conformance test suite."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "websocket-client",
+      "sense_id": "websocket-client#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "websocket-client",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "websocket-client",
+  "observation_id": "4626b1cc7d269ac2",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T00:37:16.824464+00:00",
+  "observed_text": "websocket-client",
+  "source_context_snippet": "WebSocket protocol implementation conformance test suite.",
+  "source_file": null,
+  "source_repo": "crossbario/autobahn-testsuite",
+  "source_repo_description": "Autobahn WebSocket protocol testsuite"
+}

@@ -1,0 +1,53 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "DingXiaoH/RepOptimizers",
+      "target": "wongkinyiu/yolov7",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "DingXiaoH/RepOptimizers",
+      "target": "dingxiaoh/resrep",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T03:47:28.021961+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 13658
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Official repo of RepOptimizers and RepOpt-VGG",
+    "fork": false,
+    "full_name": "DingXiaoH/RepOptimizers",
+    "html_url": "https://github.com/DingXiaoH/RepOptimizers",
+    "language": "Python",
+    "pushed_at": "2023-02-10T08:29:01Z",
+    "stargazers_count": 269,
+    "topics": [],
+    "updated_at": "2026-04-08T02:12:19Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dingxiaoh/resrep",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "wongkinyiu/yolov7",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

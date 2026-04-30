@@ -12,14 +12,14 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "bazel-contrib/bazel-gazelle",
-      "target": "grailbio/rules_r",
+      "target": "tweag/gazelle_cabal",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "bazel-contrib/bazel-gazelle",
-      "target": "engflow/gazelle_cc",
+      "target": "tweag/gazelle_haskell_modules",
       "target_type": "repository"
     },
     {
@@ -30,7 +30,7 @@
       "target_type": "repository"
     }
   ],
-  "fetched_at": "2026-04-29T21:59:10.503321+00:00",
+  "fetched_at": "2026-04-30T04:05:48.953290+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -68,12 +68,12 @@
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "engflow/gazelle_cc",
+      "full_name": "tweag/gazelle_cabal",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "grailbio/rules_r",
+      "full_name": "tweag/gazelle_haskell_modules",
       "source_file": "README.md"
     }
   ],

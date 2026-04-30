@@ -1,0 +1,97 @@
+{
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dotnetcore.yml",
+      "source_repo": "koenvzeijl/AspNetCore.SassCompiler",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dotnetcore.yml",
+      "source_repo": "koenvzeijl/AspNetCore.SassCompiler",
+      "target": "actions/setup-dotnet@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dotnetcore.yml",
+      "source_repo": "koenvzeijl/AspNetCore.SassCompiler",
+      "target": "alirezanet/publish-nuget@v3.1.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-sass.yml",
+      "source_repo": "koenvzeijl/AspNetCore.SassCompiler",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-sass.yml",
+      "source_repo": "koenvzeijl/AspNetCore.SassCompiler",
+      "target": "peter-evans/create-pull-request@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/update-sass.yml",
+      "source_repo": "koenvzeijl/AspNetCore.SassCompiler",
+      "target": "Update dart-sass",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "koenvzeijl/AspNetCore.SassCompiler",
+      "target": "asp-net-core",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "koenvzeijl/AspNetCore.SassCompiler",
+      "target": "aspnetcore",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "koenvzeijl/AspNetCore.SassCompiler",
+      "target": "blazor",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "koenvzeijl/AspNetCore.SassCompiler",
+      "target": "csharp",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "koenvzeijl/AspNetCore.SassCompiler",
+      "target": "dotnet",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "koenvzeijl/AspNetCore.SassCompiler",
+      "target": "sass",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "koenvzeijl/AspNetCore.SassCompiler",
+      "target": "scss",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-30T00:37:16.824464+00:00",
+  "source_repo": "koenvzeijl/AspNetCore.SassCompiler"
+}

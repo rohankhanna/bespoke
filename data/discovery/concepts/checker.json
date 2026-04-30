@@ -1,11 +1,14 @@
 {
   "aliases": [
-    "checker"
+    "checker",
+    "Checker"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
     "tool-component",
-    "capability"
+    "capability",
+    "workflow-process",
+    "data-document-artifact"
   ],
   "candidate_definitions": [
     {
@@ -19,6 +22,18 @@
       "source_repo": "neomake/neomake",
       "status": "candidate-context",
       "text": "[![Build Status](https://circleci.com/gh/neomake/neomake.png?style=shield)](https://circleci.com/gh/neomake/neomake)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "checkstyle/checkstyle",
+      "status": "candidate-context",
+      "text": "Checkstyle is a development tool to help programmers write Java code that adheres to a coding standard. By default it supports the Google Java Style Guide and Sun Code Conventions, but is highly configurable. It can be invoked with an ANT task and a command line program."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "checkstyle/checkstyle",
+      "status": "candidate-context",
+      "text": "Checker"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +42,12 @@
       "source_repo": "neomake/neomake",
       "status": "candidate",
       "text": "[![Build Status](https://circleci.com/gh/neomake/neomake.png?style=shield)](https://circleci.com/gh/neomake/neomake)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "checkstyle/checkstyle",
+      "status": "candidate",
+      "text": "Checker"
     }
   ],
   "candidate_related_terms": [
@@ -91,11 +112,17 @@
       "observed_at": "2026-04-21T18:51:25.552552+00:00",
       "source_file": null,
       "source_repo": "neomake/neomake"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/checker-framework.yml",
+      "source_repo": "checkstyle/checkstyle"
     }
   ],
   "first_seen_at": "2026-04-21T18:51:25.552552+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-21T18:51:25.552552+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

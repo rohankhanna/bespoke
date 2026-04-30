@@ -1,0 +1,192 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "unevens/Curvessor",
+      "target": "unevens/oversimple",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "unevens/Curvessor",
+      "target": "unevens/hiir",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "unevens/Curvessor",
+      "target": "unevens/audio-dsp",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "unevens/Curvessor",
+      "target": "avaneev/gammaenv",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "unevens/Curvessor",
+      "target": "audio",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "unevens/Curvessor",
+      "target": "audio-effect",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "unevens/Curvessor",
+      "target": "audio-plugin",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "unevens/Curvessor",
+      "target": "audio-processing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "unevens/Curvessor",
+      "target": "compressor",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "unevens/Curvessor",
+      "target": "juce",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "unevens/Curvessor",
+      "target": "splines",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "unevens/Curvessor",
+      "target": "vst3",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T03:51:29.298172+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3235
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "An audio plug-in that implements a dynamic range processor in which the response curve of each channel is an automatable spline.",
+    "fork": false,
+    "full_name": "unevens/Curvessor",
+    "html_url": "https://github.com/unevens/Curvessor",
+    "language": "C++",
+    "pushed_at": "2021-12-10T12:30:21Z",
+    "stargazers_count": 54,
+    "topics": [
+      "audio",
+      "audio-effect",
+      "audio-plugin",
+      "audio-processing",
+      "compressor",
+      "juce",
+      "splines",
+      "vst",
+      "vst3"
+    ],
+    "updated_at": "2026-04-03T01:07:19Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "avaneev/gammaenv",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "unevens/audio-dsp",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "unevens/hiir",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "unevens/oversimple",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "![Curvessor GUI](Images/screenshot.jpg?raw=true 'screenshot')",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "audio"
+    },
+    {
+      "context_snippet": "![Curvessor GUI](Images/screenshot.jpg?raw=true 'screenshot')",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "audio-effect"
+    },
+    {
+      "context_snippet": "![Curvessor GUI](Images/screenshot.jpg?raw=true 'screenshot')",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "audio-plugin"
+    },
+    {
+      "context_snippet": "![Curvessor GUI](Images/screenshot.jpg?raw=true 'screenshot')",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "audio-processing"
+    },
+    {
+      "context_snippet": "![Curvessor GUI](Images/screenshot.jpg?raw=true 'screenshot')",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "compressor"
+    },
+    {
+      "context_snippet": "![Curvessor GUI](Images/screenshot.jpg?raw=true 'screenshot')",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "juce"
+    },
+    {
+      "context_snippet": "![Curvessor GUI](Images/screenshot.jpg?raw=true 'screenshot')",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "splines"
+    },
+    {
+      "context_snippet": "![Curvessor GUI](Images/screenshot.jpg?raw=true 'screenshot')",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vst3"
+    }
+  ]
+}

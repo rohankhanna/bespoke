@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T03:45:36.753725+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5112
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "[ACL'2024 Findings] GAOKAO-MM: A Chinese Human-Level Benchmark for Multimodal Models Evaluation",
+    "fork": false,
+    "full_name": "OpenMOSS/GAOKAO-MM",
+    "html_url": "https://github.com/OpenMOSS/GAOKAO-MM",
+    "language": "Python",
+    "pushed_at": "2024-03-13T02:37:30Z",
+    "stargazers_count": 80,
+    "topics": [],
+    "updated_at": "2026-04-20T10:31:49Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

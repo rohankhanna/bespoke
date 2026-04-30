@@ -175,6 +175,30 @@
       "source_repo": "uxlfoundation/scikit-learn-intelex",
       "status": "candidate-context",
       "text": "<!--"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apache/flink-kubernetes-operator",
+      "status": "candidate-context",
+      "text": "Apache Flink Kubernetes Operator"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/flink-kubernetes-operator",
+      "status": "candidate-context",
+      "text": "A Kubernetes operator for Apache Flink, implemented in Java. It allows users to manage Flink applications and their lifecycle through native k8s tooling like kubectl."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apache/beam",
+      "status": "candidate-context",
+      "text": "Apache Beam is a unified programming model for Batch and Streaming data processing."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/beam",
+      "status": "candidate-context",
+      "text": "<!--"
     }
   ],
   "candidate_glosses": [
@@ -259,6 +283,18 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "uxlfoundation/scikit-learn-intelex",
+      "status": "candidate",
+      "text": "<!--"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/flink-kubernetes-operator",
+      "status": "candidate",
+      "text": "A Kubernetes operator for Apache Flink, implemented in Java. It allows users to manage Flink applications and their lifecycle through native k8s tooling like kubectl."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/beam",
       "status": "candidate",
       "text": "<!--"
     }
@@ -388,11 +424,35 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "uxlfoundation/scikit-learn-intelex"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "apache/flink-kubernetes-operator"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "apache/datafusion-ballista"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "apache/datafusion-ballista-python"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "apache/beam"
     }
   ],
   "first_seen_at": "2026-04-18T12:06:06.216548+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

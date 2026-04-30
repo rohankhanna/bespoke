@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Build PRs and main when updated"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "quarkiverse/quarkus-operator-sdk",
+      "status": "candidate-context",
+      "text": "Quarkus Extension to create Kubernetes Operators in Java using the Java Operator SDK (https://github.com/java-operator-sdk/java-operator-sdk) project"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "quarkiverse/quarkus-operator-sdk",
+      "status": "candidate-context",
+      "text": "Build PRs and main when updated"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "quarkiverse/quarkus-operator-sdk",
+      "status": "candidate",
+      "text": "Build PRs and main when updated"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27687,
+      "status": "candidate",
+      "text": "replace"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27687,
+      "status": "candidate",
+      "text": "replacing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19020,
+      "status": "candidate",
+      "text": "create"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19020,
+      "status": "candidate",
+      "text": "created"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18424,
+      "status": "candidate",
+      "text": "remaking"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Build PRs and main when updated",
+  "concept_id": "build-prs-and-main-when-updated",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "quarkiverse/quarkus-operator-sdk"
+    }
+  ],
+  "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Build PRs and main when updated",
+      "sense_id": "build-prs-and-main-when-updated#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

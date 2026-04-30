@@ -1,0 +1,81 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "binaryage/cljs-devtools",
+      "target": "chrome-devtools",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "binaryage/cljs-devtools",
+      "target": "clojurescript",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "binaryage/cljs-devtools",
+      "target": "clojurescript-developers",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "binaryage/cljs-devtools",
+      "target": "devtools",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T04:08:32.448952+00:00",
+  "fetched_files": [],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A collection of Chrome DevTools enhancements for ClojureScript developers",
+    "fork": false,
+    "full_name": "binaryage/cljs-devtools",
+    "html_url": "https://github.com/binaryage/cljs-devtools",
+    "language": "Clojure",
+    "pushed_at": "2023-04-08T21:20:05Z",
+    "stargazers_count": 1126,
+    "topics": [
+      "chrome-devtools",
+      "clojurescript",
+      "clojurescript-developers",
+      "devtools"
+    ],
+    "updated_at": "2026-04-17T12:09:00Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "A collection of Chrome DevTools enhancements for ClojureScript developers",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "chrome-devtools"
+    },
+    {
+      "context_snippet": "A collection of Chrome DevTools enhancements for ClojureScript developers",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "clojurescript"
+    },
+    {
+      "context_snippet": "A collection of Chrome DevTools enhancements for ClojureScript developers",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "clojurescript-developers"
+    },
+    {
+      "context_snippet": "A collection of Chrome DevTools enhancements for ClojureScript developers",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "devtools"
+    }
+  ]
+}

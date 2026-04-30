@@ -214,6 +214,48 @@
       "source_repo": "emibcn/pywisp",
       "status": "candidate-context",
       "text": "![Coverage](https://raw.githubusercontent.com/emibcn/pywisp/badges/master/test-coverage.svg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "google-deepmind/dm-haiku",
+      "status": "candidate-context",
+      "text": "JAX-based neural network library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google-deepmind/dm-haiku",
+      "status": "candidate-context",
+      "text": "pypi"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rust-cross/cargo-zigbuild",
+      "status": "candidate-context",
+      "text": "Compile Cargo project with zig as linker"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rust-cross/cargo-zigbuild",
+      "status": "candidate-context",
+      "text": "PyPI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google-deepmind/distrax",
+      "status": "candidate-context",
+      "text": "pypi"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "google/brax",
+      "status": "candidate-context",
+      "text": "Massively parallel rigidbody physics simulation on accelerator hardware."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/brax",
+      "status": "candidate-context",
+      "text": "pypi"
     }
   ],
   "candidate_glosses": [
@@ -318,6 +360,30 @@
       "source_repo": "emibcn/pywisp",
       "status": "candidate",
       "text": "![Coverage](https://raw.githubusercontent.com/emibcn/pywisp/badges/master/test-coverage.svg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google-deepmind/dm-haiku",
+      "status": "candidate",
+      "text": "pypi"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rust-cross/cargo-zigbuild",
+      "status": "candidate",
+      "text": "PyPI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google-deepmind/distrax",
+      "status": "candidate",
+      "text": "pypi"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/brax",
+      "status": "candidate",
+      "text": "pypi"
     }
   ],
   "candidate_related_terms": [],
@@ -469,11 +535,53 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": ".github/workflows/release.yml",
       "source_repo": "google-deepmind/bsuite"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/pypi-publish.yml",
+      "source_repo": "google-deepmind/jraph"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/pypi-publish.yml",
+      "source_repo": "google-deepmind/dm-haiku"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/pypi.yml",
+      "source_repo": "rust-cross/cargo-zigbuild"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/pypi-publish.yml",
+      "source_repo": "google-deepmind/distrax"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "google-deepmind/acme"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/pypi.yml",
+      "source_repo": "google/brax"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "google-deepmind/bsuite"
     }
   ],
   "first_seen_at": "2026-04-20T03:16:48.146869+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

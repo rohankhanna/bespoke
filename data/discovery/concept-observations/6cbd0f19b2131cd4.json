@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A python package implementing the crc32c algorithm in hardware and software"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Run benchmarking tool"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Run benchmarking tool"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22635,
+      "status": "candidate",
+      "text": "test"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22597,
+      "status": "candidate",
+      "text": "pull"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22560,
+      "status": "candidate",
+      "text": "race"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22541,
+      "status": "candidate",
+      "text": "dig"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22541,
+      "status": "candidate",
+      "text": "hook"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Run benchmarking tool",
+      "sense_id": "run-benchmarking-tool#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "run-benchmarking-tool",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "run-benchmarking-tool",
+  "observation_id": "6cbd0f19b2131cd4",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-30T00:37:16.824464+00:00",
+  "observed_text": "Run benchmarking tool",
+  "source_context_snippet": "Run benchmarking tool",
+  "source_file": ".github/workflows/benchmark.yml",
+  "source_repo": "ICRAR/crc32c",
+  "source_repo_description": "A python package implementing the crc32c algorithm in hardware and software"
+}

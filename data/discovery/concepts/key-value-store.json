@@ -43,6 +43,18 @@
       "source_repo": "redis/redis",
       "status": "candidate-context",
       "text": "[![codecov](https://codecov.io/github/redis/redis/graph/badge.svg?token=6bVHb5fRuz)](https://codecov.io/github/redis/redis)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "replikativ/konserve",
+      "status": "candidate-context",
+      "text": "A clojuresque key-value/document store protocol with core.async. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "replikativ/konserve",
+      "status": "candidate-context",
+      "text": "CITests \u2014 Testing"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +75,12 @@
       "source_repo": "redis/redis",
       "status": "candidate",
       "text": "[![codecov](https://codecov.io/github/redis/redis/graph/badge.svg?token=6bVHb5fRuz)](https://codecov.io/github/redis/redis)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "replikativ/konserve",
+      "status": "candidate",
+      "text": "CITests \u2014 Testing"
     }
   ],
   "candidate_related_terms": [],
@@ -112,11 +130,23 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "olric-data/olric"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "olric-data/olric"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "replikativ/konserve"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

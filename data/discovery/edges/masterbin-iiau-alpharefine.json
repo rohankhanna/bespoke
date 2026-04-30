@@ -1,0 +1,76 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "MasterBin-IIAU/AlphaRefine",
+      "target": "daikenan/ltmu",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "MasterBin-IIAU/AlphaRefine",
+      "target": "megviidetection/video_analyst",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "MasterBin-IIAU/AlphaRefine",
+      "target": "huanglianghua/globaltrack",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "MasterBin-IIAU/AlphaRefine",
+      "target": "ilchaejung/rt-mdnet",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "MasterBin-IIAU/AlphaRefine",
+      "target": "alpha-refine",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "MasterBin-IIAU/AlphaRefine",
+      "target": "cvpr2021",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "MasterBin-IIAU/AlphaRefine",
+      "target": "object-tracking",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "MasterBin-IIAU/AlphaRefine",
+      "target": "refinement-module",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "MasterBin-IIAU/AlphaRefine",
+      "target": "vot2020",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "MasterBin-IIAU/AlphaRefine",
+      "target": "winner",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-30T00:37:16.824464+00:00",
+  "source_repo": "MasterBin-IIAU/AlphaRefine"
+}

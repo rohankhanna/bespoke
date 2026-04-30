@@ -31,6 +31,18 @@
       "source_repo": "graphql-python/graphene-sqlalchemy",
       "status": "candidate-context",
       "text": "Version 3.0 is in beta stage. Please read https://github.com/graphql-python/graphene-sqlalchemy/issues/348 to learn about progress and changes in upcoming"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Buuntu/fastapi-react",
+      "status": "candidate-context",
+      "text": "\ud83d\ude80   Cookiecutter Template for FastAPI + React Projects.  Using PostgreSQL, SQLAlchemy, and Docker"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Buuntu/fastapi-react",
+      "status": "candidate-context",
+      "text": "<div>"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +57,12 @@
       "source_repo": "graphql-python/graphene-sqlalchemy",
       "status": "candidate",
       "text": "Version 3.0 is in beta stage. Please read https://github.com/graphql-python/graphene-sqlalchemy/issues/348 to learn about progress and changes in upcoming"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Buuntu/fastapi-react",
+      "status": "candidate",
+      "text": "<div>"
     }
   ],
   "candidate_related_terms": [
@@ -100,11 +118,17 @@
       "observed_at": "2026-04-22T01:04:16.609102+00:00",
       "source_file": null,
       "source_repo": "graphql-python/graphene-sqlalchemy"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "Buuntu/fastapi-react"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

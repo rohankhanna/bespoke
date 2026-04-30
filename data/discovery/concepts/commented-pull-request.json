@@ -139,6 +139,42 @@
       "source_repo": "littleli/scoop-clojure",
       "status": "candidate-context",
       "text": "Commented Pull Request"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ScoopInstaller/PHP",
+      "status": "candidate-context",
+      "text": "\ud83d\udce6 PHP Bucket for Scoop"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ScoopInstaller/PHP",
+      "status": "candidate-context",
+      "text": "Commented Pull Request"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ScoopInstaller/Versions",
+      "status": "candidate-context",
+      "text": "\ud83d\udce6 A Scoop bucket for alternative versions of apps."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ScoopInstaller/Versions",
+      "status": "candidate-context",
+      "text": "Commented Pull Request"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "shovel-org/Base",
+      "status": "candidate-context",
+      "text": "Base bucket for Shovel installer. WIP replacement of main bucket"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "shovel-org/Base",
+      "status": "candidate-context",
+      "text": "Commented Pull Request"
     }
   ],
   "candidate_glosses": [
@@ -205,6 +241,24 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "littleli/scoop-clojure",
+      "status": "candidate",
+      "text": "Commented Pull Request"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ScoopInstaller/PHP",
+      "status": "candidate",
+      "text": "Commented Pull Request"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ScoopInstaller/Versions",
+      "status": "candidate",
+      "text": "Commented Pull Request"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "shovel-org/Base",
       "status": "candidate",
       "text": "Commented Pull Request"
     }
@@ -316,11 +370,41 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": ".github/workflows/issue_comment.yml",
       "source_repo": "littleli/scoop-clojure"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/issue_comment.yml",
+      "source_repo": "ScoopInstaller/PHP"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/issue_comment.yml",
+      "source_repo": "ScoopInstaller/Versions"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/issue_comment.yml",
+      "source_repo": "shovel-org/Base"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/issue_comment.yml",
+      "source_repo": "shovel-org/Windows-Sysinternals-Bucket"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/issue_comment.yml",
+      "source_repo": "chawyehsu/dorado"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

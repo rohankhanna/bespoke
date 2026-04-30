@@ -1,0 +1,55 @@
+{
+  "edges": [
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/label-check.yaml",
+      "source_repo": "scientific-python/scientific-python-hugo-theme",
+      "target": "Labels",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/milestone-merged-prs.yaml",
+      "source_repo": "scientific-python/scientific-python-hugo-theme",
+      "target": "scientific-python/attach-next-milestone-action@c9cfab10ad0c67fed91b01103db26b7f16634639",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/milestone-merged-prs.yaml",
+      "source_repo": "scientific-python/scientific-python-hugo-theme",
+      "target": "Milestone",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "scientific-python/scientific-python-hugo-theme",
+      "target": "hugo",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "scientific-python/scientific-python-hugo-theme",
+      "target": "hugo-theme",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "scientific-python/scientific-python-hugo-theme",
+      "target": "scientific-python",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "scientific-python/scientific-python-hugo-theme",
+      "target": "theme",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-30T00:37:16.824464+00:00",
+  "source_repo": "scientific-python/scientific-python-hugo-theme"
+}

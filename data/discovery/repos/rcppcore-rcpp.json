@@ -1,0 +1,427 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "eddelbuettel/github-actions/r-ci@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yaml"
+    },
+    {
+      "component": "docker/setup-buildx-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yaml"
+    },
+    {
+      "component": "docker/login-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yaml"
+    },
+    {
+      "component": "docker/build-push-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yaml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yaml"
+    },
+    {
+      "component": "docker/setup-buildx-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yaml"
+    },
+    {
+      "component": "docker/login-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yaml"
+    },
+    {
+      "component": "docker/build-push-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yaml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yaml"
+    },
+    {
+      "component": "docker/setup-buildx-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yaml"
+    },
+    {
+      "component": "docker/login-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yaml"
+    },
+    {
+      "component": "docker/build-push-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linuxarm.yaml"
+    },
+    {
+      "component": "eddelbuettel/github-actions/r-ci@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linuxarm.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/macos.yaml"
+    },
+    {
+      "component": "eddelbuettel/github-actions/r-ci@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/macos.yaml"
+    },
+    {
+      "component": "actions/stale@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stale.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "RcppCore/Rcpp",
+      "target": "eddelbuettel/ldlasb",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "RcppCore/Rcpp",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "RcppCore/Rcpp",
+      "target": "eddelbuettel/github-actions/r-ci@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yaml",
+      "source_repo": "RcppCore/Rcpp",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yaml",
+      "source_repo": "RcppCore/Rcpp",
+      "target": "docker/setup-buildx-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yaml",
+      "source_repo": "RcppCore/Rcpp",
+      "target": "docker/login-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yaml",
+      "source_repo": "RcppCore/Rcpp",
+      "target": "docker/build-push-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yaml",
+      "source_repo": "RcppCore/Rcpp",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docker.yaml",
+      "source_repo": "RcppCore/Rcpp",
+      "target": "docker",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linuxarm.yaml",
+      "source_repo": "RcppCore/Rcpp",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linuxarm.yaml",
+      "source_repo": "RcppCore/Rcpp",
+      "target": "eddelbuettel/github-actions/r-ci@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/linuxarm.yaml",
+      "source_repo": "RcppCore/Rcpp",
+      "target": "linuxarm",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/macos.yaml",
+      "source_repo": "RcppCore/Rcpp",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/macos.yaml",
+      "source_repo": "RcppCore/Rcpp",
+      "target": "eddelbuettel/github-actions/r-ci@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/macos.yaml",
+      "source_repo": "RcppCore/Rcpp",
+      "target": "macos",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stale.yaml",
+      "source_repo": "RcppCore/Rcpp",
+      "target": "actions/stale@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/stale.yaml",
+      "source_repo": "RcppCore/Rcpp",
+      "target": "stale",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "RcppCore/Rcpp",
+      "target": "c-plus-plus",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "RcppCore/Rcpp",
+      "target": "c-plus-plus-11",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "RcppCore/Rcpp",
+      "target": "c-plus-plus-14",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "RcppCore/Rcpp",
+      "target": "c-plus-plus-17",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "RcppCore/Rcpp",
+      "target": "c-plus-plus-20",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "RcppCore/Rcpp",
+      "target": "cran",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "RcppCore/Rcpp",
+      "target": "r-package",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "RcppCore/Rcpp",
+      "target": "r-packages",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "RcppCore/Rcpp",
+      "target": "rcpp",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T04:10:39.405356+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9761
+    },
+    {
+      "path": ".github/workflows/ci.yaml",
+      "size": 1694
+    },
+    {
+      "path": ".github/workflows/docker.yaml",
+      "size": 1857
+    },
+    {
+      "path": ".github/workflows/linuxarm.yaml",
+      "size": 690
+    },
+    {
+      "path": ".github/workflows/macos.yaml",
+      "size": 723
+    },
+    {
+      "path": ".github/workflows/stale.yaml",
+      "size": 912
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Seamless R and C++ Integration",
+    "fork": false,
+    "full_name": "RcppCore/Rcpp",
+    "html_url": "https://github.com/RcppCore/Rcpp",
+    "language": "C++",
+    "pushed_at": "2026-04-29T17:44:11Z",
+    "stargazers_count": 792,
+    "topics": [
+      "c-plus-plus",
+      "c-plus-plus-11",
+      "c-plus-plus-14",
+      "c-plus-plus-17",
+      "c-plus-plus-20",
+      "cran",
+      "r",
+      "r-package",
+      "r-packages",
+      "rcpp"
+    ],
+    "updated_at": "2026-04-26T08:53:52Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "eddelbuettel/ldlasb",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "docker",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docker.yaml",
+      "term": "docker"
+    },
+    {
+      "context_snippet": "linuxarm",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/linuxarm.yaml",
+      "term": "linuxarm"
+    },
+    {
+      "context_snippet": "macos",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/macos.yaml",
+      "term": "macos"
+    },
+    {
+      "context_snippet": "stale",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/stale.yaml",
+      "term": "stale"
+    },
+    {
+      "context_snippet": "[![CI](https://github.com/RcppCore/Rcpp/workflows/ci/badge.svg)](https://github.com/RcppCore/Rcpp/actions?query=workflow%3Aci)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "c-plus-plus"
+    },
+    {
+      "context_snippet": "[![CI](https://github.com/RcppCore/Rcpp/workflows/ci/badge.svg)](https://github.com/RcppCore/Rcpp/actions?query=workflow%3Aci)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "c-plus-plus-11"
+    },
+    {
+      "context_snippet": "[![CI](https://github.com/RcppCore/Rcpp/workflows/ci/badge.svg)](https://github.com/RcppCore/Rcpp/actions?query=workflow%3Aci)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "c-plus-plus-14"
+    },
+    {
+      "context_snippet": "[![CI](https://github.com/RcppCore/Rcpp/workflows/ci/badge.svg)](https://github.com/RcppCore/Rcpp/actions?query=workflow%3Aci)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "c-plus-plus-17"
+    },
+    {
+      "context_snippet": "[![CI](https://github.com/RcppCore/Rcpp/workflows/ci/badge.svg)](https://github.com/RcppCore/Rcpp/actions?query=workflow%3Aci)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "c-plus-plus-20"
+    },
+    {
+      "context_snippet": "[![CI](https://github.com/RcppCore/Rcpp/workflows/ci/badge.svg)](https://github.com/RcppCore/Rcpp/actions?query=workflow%3Aci)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cran"
+    },
+    {
+      "context_snippet": "[![CI](https://github.com/RcppCore/Rcpp/workflows/ci/badge.svg)](https://github.com/RcppCore/Rcpp/actions?query=workflow%3Aci)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "r-package"
+    },
+    {
+      "context_snippet": "[![CI](https://github.com/RcppCore/Rcpp/workflows/ci/badge.svg)](https://github.com/RcppCore/Rcpp/actions?query=workflow%3Aci)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "r-packages"
+    },
+    {
+      "context_snippet": "[![CI](https://github.com/RcppCore/Rcpp/workflows/ci/badge.svg)](https://github.com/RcppCore/Rcpp/actions?query=workflow%3Aci)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rcpp"
+    }
+  ]
+}

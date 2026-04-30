@@ -1,0 +1,12 @@
+{
+  "component": "ruby/setup-ruby@8d27f39a5e7ad39aebbcbd1324f7af020229645c",
+  "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/doc_update.yml",
+      "source_repo": "google/jsonnet"
+    }
+  ]
+}

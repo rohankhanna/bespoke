@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T05:15:23.118914+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4036
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "CMMMU-Benchmark/CMMMU",
+    "html_url": "https://github.com/CMMMU-Benchmark/CMMMU",
+    "language": "Python",
+    "pushed_at": "2024-09-05T18:46:25Z",
+    "stargazers_count": 48,
+    "topics": [],
+    "updated_at": "2025-07-24T08:30:38Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

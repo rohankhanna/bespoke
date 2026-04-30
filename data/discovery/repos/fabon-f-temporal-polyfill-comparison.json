@@ -1,0 +1,57 @@
+{
+  "components": [
+    {
+      "component": "console-table-printer",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "typescript",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "fabon-f/temporal-polyfill-comparison",
+      "target": "console-table-printer",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "fabon-f/temporal-polyfill-comparison",
+      "target": "typescript",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-04-30T01:38:36.225863+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 862
+    },
+    {
+      "path": "package.json",
+      "size": 321
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": null,
+    "fork": false,
+    "full_name": "fabon-f/temporal-polyfill-comparison",
+    "html_url": "https://github.com/fabon-f/temporal-polyfill-comparison",
+    "language": "JavaScript",
+    "pushed_at": "2026-04-20T05:43:09Z",
+    "stargazers_count": 0,
+    "topics": [],
+    "updated_at": "2026-04-20T05:43:13Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

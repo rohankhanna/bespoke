@@ -1,0 +1,107 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "danielrosehill/Docs-And-Notes-Index",
+      "target": "danielrosehill/ai-developer-notebook",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "danielrosehill/Docs-And-Notes-Index",
+      "target": "danielrosehill/ai-friendly-badge",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "danielrosehill/Docs-And-Notes-Index",
+      "target": "danielrosehill/ai-developers-career-planning-notes",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "danielrosehill/Docs-And-Notes-Index",
+      "target": "danielrosehill/ai-dev-prompts-example",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "danielrosehill/Docs-And-Notes-Index",
+      "target": "docs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "danielrosehill/Docs-And-Notes-Index",
+      "target": "indexes",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T01:03:17.259741+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 34039
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "An index to my various documentation projects, both on Github and elsewhere",
+    "fork": false,
+    "full_name": "danielrosehill/Docs-And-Notes-Index",
+    "html_url": "https://github.com/danielrosehill/Docs-And-Notes-Index",
+    "language": null,
+    "pushed_at": "2026-04-14T12:07:02Z",
+    "stargazers_count": 2,
+    "topics": [
+      "docs",
+      "indexes"
+    ],
+    "updated_at": "2026-04-14T12:07:06Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "danielrosehill/ai-dev-prompts-example",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "danielrosehill/ai-developer-notebook",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "danielrosehill/ai-developers-career-planning-notes",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "danielrosehill/ai-friendly-badge",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "![Banner](https://res.cloudinary.com/drrvnflqy/image/upload/v1732904202/docs-index_fy8ula.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "docs"
+    },
+    {
+      "context_snippet": "![Banner](https://res.cloudinary.com/drrvnflqy/image/upload/v1732904202/docs-index_fy8ula.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "indexes"
+    }
+  ]
+}

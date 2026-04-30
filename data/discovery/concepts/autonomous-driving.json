@@ -43,6 +43,42 @@
       "source_repo": "cfzd/Ultra-Fast-Lane-Detection",
       "status": "candidate-context",
       "text": "PyTorch implementation of the paper \"[Ultra Fast Structure-aware Deep Lane Detection](https://arxiv.org/abs/2004.11757)\"."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JIA-Lab-research/FocalsConv",
+      "status": "candidate-context",
+      "text": "Focal Sparse Convolutional Networks for 3D Object Detection (CVPR 2022, Oral)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JIA-Lab-research/FocalsConv",
+      "status": "candidate-context",
+      "text": "[![arXiv](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)](https://arxiv.org/abs/2204.12463)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "tier4/AWSIM",
+      "status": "candidate-context",
+      "text": "Open sourced digital twin simulator for Autoware"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tier4/AWSIM",
+      "status": "candidate-context",
+      "text": "> [!NOTE]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "open-mmlab/OpenPCDet",
+      "status": "candidate-context",
+      "text": "OpenPCDet Toolbox for LiDAR-based 3D Object Detection."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "open-mmlab/OpenPCDet",
+      "status": "candidate-context",
+      "text": "<img src=\"docs/open_mmlab.png\" align=\"right\" width=\"30%\">"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +99,24 @@
       "source_repo": "cfzd/Ultra-Fast-Lane-Detection",
       "status": "candidate",
       "text": "PyTorch implementation of the paper \"[Ultra Fast Structure-aware Deep Lane Detection](https://arxiv.org/abs/2004.11757)\"."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JIA-Lab-research/FocalsConv",
+      "status": "candidate",
+      "text": "[![arXiv](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)](https://arxiv.org/abs/2204.12463)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tier4/AWSIM",
+      "status": "candidate",
+      "text": "> [!NOTE]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "open-mmlab/OpenPCDet",
+      "status": "candidate",
+      "text": "<img src=\"docs/open_mmlab.png\" align=\"right\" width=\"30%\">"
     }
   ],
   "candidate_related_terms": [],
@@ -88,11 +142,29 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "cfzd/Ultra-Fast-Lane-Detection"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "JIA-Lab-research/FocalsConv"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "tier4/AWSIM"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "open-mmlab/OpenPCDet"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

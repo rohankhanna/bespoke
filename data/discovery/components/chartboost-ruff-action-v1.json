@@ -1,7 +1,7 @@
 {
   "component": "chartboost/ruff-action@v1",
   "first_seen_at": "2026-04-22T04:41:58.081535+00:00",
-  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -27,6 +27,11 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/autofix-python.yml",
       "source_repo": "TabbyML/tabby"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/check-build.yml",
+      "source_repo": "mjpost/sacrebleu"
     }
   ]
 }

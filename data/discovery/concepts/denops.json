@@ -19,6 +19,30 @@
       "source_repo": "vim-denops/denops-shared-server.vim",
       "status": "candidate-context",
       "text": "[![Denops.vim 7.0.0 or above]][Denops.vim-v7.0.0]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "vim-fall/fall.vim",
+      "status": "candidate-context",
+      "text": "\ud83c\udf42 Yet Another Fuzzy Finder designed for Vim and Neovim and to be programmer-friendly"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vim-fall/fall.vim",
+      "status": "candidate-context",
+      "text": "[![Test](https://github.com/vim-fall/fall.vim/actions/workflows/test.yml/badge.svg)](https://github.com/vim-fall/fall.vim/actions/workflows/test.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "uga-rosa/denippet.vim",
+      "status": "candidate-context",
+      "text": "A snippet plugin for Vim/Neovim, powered by TypeScript"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "uga-rosa/denippet.vim",
+      "status": "candidate-context",
+      "text": "[![integration](https://github.com/uga-rosa/denippet.vim/actions/workflows/integration.yml/badge.svg)](https://github.com/uga-rosa/denippet.vim/actions/workflows/integration.yml)"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +51,18 @@
       "source_repo": "vim-denops/denops-shared-server.vim",
       "status": "candidate",
       "text": "[![Denops.vim 7.0.0 or above]][Denops.vim-v7.0.0]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vim-fall/fall.vim",
+      "status": "candidate",
+      "text": "[![Test](https://github.com/vim-fall/fall.vim/actions/workflows/test.yml/badge.svg)](https://github.com/vim-fall/fall.vim/actions/workflows/test.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "uga-rosa/denippet.vim",
+      "status": "candidate",
+      "text": "[![integration](https://github.com/uga-rosa/denippet.vim/actions/workflows/integration.yml/badge.svg)](https://github.com/uga-rosa/denippet.vim/actions/workflows/integration.yml)"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +76,23 @@
       "observed_at": "2026-04-24T00:33:56.049672+00:00",
       "source_file": null,
       "source_repo": "vim-denops/denops-shared-server.vim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "vim-fall/fall.vim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "uga-rosa/denippet.vim"
     }
   ],
   "first_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

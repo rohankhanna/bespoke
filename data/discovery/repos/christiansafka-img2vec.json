@@ -1,0 +1,58 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "christiansafka/img2vec",
+      "target": "deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "christiansafka/img2vec",
+      "target": "pytorch",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T05:03:44.823585+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5569
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": ":fire: Use pre-trained models in PyTorch to extract vector embeddings for any image",
+    "fork": false,
+    "full_name": "christiansafka/img2vec",
+    "html_url": "https://github.com/christiansafka/img2vec",
+    "language": "Python",
+    "pushed_at": "2025-05-13T07:23:12Z",
+    "stargazers_count": 622,
+    "topics": [
+      "deep-learning",
+      "pytorch"
+    ],
+    "updated_at": "2026-04-16T13:34:03Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Medium post on building the first version from scratch: https://becominghuman.ai/extract-a-feature-vector-for-any-image-with-pytorch-9717561d1d4c",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-learning"
+    },
+    {
+      "context_snippet": "Medium post on building the first version from scratch: https://becominghuman.ai/extract-a-feature-vector-for-any-image-with-pytorch-9717561d1d4c",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytorch"
+    }
+  ]
+}

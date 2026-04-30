@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Build Ark Linux Release"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "posit-dev/ark",
+      "status": "candidate-context",
+      "text": "Ark, an R kernel"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "posit-dev/ark",
+      "status": "candidate-context",
+      "text": "\"Build Ark Linux Release\""
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "posit-dev/ark",
+      "status": "candidate",
+      "text": "\"Build Ark Linux Release\""
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 33994,
+      "status": "candidate",
+      "text": "celestia"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22493,
+      "status": "candidate",
+      "text": "knoppix"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22493,
+      "status": "candidate",
+      "text": "kubuntu"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22493,
+      "status": "candidate",
+      "text": "xubuntu"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17493,
+      "status": "candidate",
+      "text": "email"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Build Ark Linux Release",
+  "concept_id": "build-ark-linux-release",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/release-linux.yml",
+      "source_repo": "posit-dev/ark"
+    }
+  ],
+  "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Build Ark Linux Release",
+      "sense_id": "build-ark-linux-release#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

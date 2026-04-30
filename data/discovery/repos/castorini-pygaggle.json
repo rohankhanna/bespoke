@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T05:15:59.340092+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9849
+    },
+    {
+      "path": "requirements.txt",
+      "size": 310
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "a gaggle of deep neural architectures for text ranking and question answering, designed for Pyserini",
+    "fork": false,
+    "full_name": "castorini/pygaggle",
+    "html_url": "https://github.com/castorini/pygaggle",
+    "language": "Jupyter Notebook",
+    "pushed_at": "2023-12-21T03:42:45Z",
+    "stargazers_count": 354,
+    "topics": [],
+    "updated_at": "2026-04-28T09:56:19Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

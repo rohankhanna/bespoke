@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Publish to Maven Central"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mozilla/rhino",
+      "status": "candidate-context",
+      "text": "Rhino is an open-source implementation of JavaScript written entirely in Java"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mozilla/rhino",
+      "status": "candidate-context",
+      "text": "Publish to Maven Central"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mozilla/rhino",
+      "status": "candidate",
+      "text": "Publish to Maven Central"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 23305,
+      "status": "candidate",
+      "text": "master"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 23036,
+      "status": "candidate",
+      "text": "post"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22809,
+      "status": "candidate",
+      "text": "numb"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22809,
+      "status": "candidate",
+      "text": "worf"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22788,
+      "status": "candidate",
+      "text": "ring"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Publish to Maven Central",
+  "concept_id": "publish-to-maven-central",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/publish-maven.yml",
+      "source_repo": "mozilla/rhino"
+    }
+  ],
+  "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Publish to Maven Central",
+      "sense_id": "publish-to-maven-central#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

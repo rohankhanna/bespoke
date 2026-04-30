@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T02:56:46.585889+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 11785
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Test Suite (Black Box) for KTX-Software",
+    "fork": false,
+    "full_name": "KhronosGroup/KTX-Software-CTS",
+    "html_url": "https://github.com/KhronosGroup/KTX-Software-CTS",
+    "language": "CMake",
+    "pushed_at": "2026-04-23T13:17:03Z",
+    "stargazers_count": 2,
+    "topics": [],
+    "updated_at": "2026-04-23T13:17:13Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

@@ -1,0 +1,178 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "jdx/mise-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "jdx/mise-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "codecov/codecov-action@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/doc.yml"
+    },
+    {
+      "component": "jdx/mise-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/doc.yml"
+    },
+    {
+      "component": "actions/upload-pages-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/doc.yml"
+    },
+    {
+      "component": "actions/deploy-pages@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/doc.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "abhinav/goldmark-anchor",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "abhinav/goldmark-anchor",
+      "target": "jdx/mise-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "abhinav/goldmark-anchor",
+      "target": "codecov/codecov-action@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/doc.yml",
+      "source_repo": "abhinav/goldmark-anchor",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/doc.yml",
+      "source_repo": "abhinav/goldmark-anchor",
+      "target": "jdx/mise-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/doc.yml",
+      "source_repo": "abhinav/goldmark-anchor",
+      "target": "actions/upload-pages-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/doc.yml",
+      "source_repo": "abhinav/goldmark-anchor",
+      "target": "actions/deploy-pages@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/doc.yml",
+      "source_repo": "abhinav/goldmark-anchor",
+      "target": "Publish documentation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "abhinav/goldmark-anchor",
+      "target": "goldmark",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "abhinav/goldmark-anchor",
+      "target": "markdown",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T04:51:27.304069+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4492
+    },
+    {
+      "path": "go.mod",
+      "size": 428
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 825
+    },
+    {
+      "path": ".github/workflows/doc.yml",
+      "size": 1708
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Generates anchors next to headings in a Markdown document.",
+    "fork": false,
+    "full_name": "abhinav/goldmark-anchor",
+    "html_url": "https://github.com/abhinav/goldmark-anchor",
+    "language": "Go",
+    "pushed_at": "2026-04-13T22:16:32Z",
+    "stargazers_count": 10,
+    "topics": [
+      "goldmark",
+      "markdown"
+    ],
+    "updated_at": "2026-01-21T22:00:13Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Publish documentation",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/doc.yml",
+      "term": "Publish documentation"
+    },
+    {
+      "context_snippet": "[![Go Reference](https://pkg.go.dev/badge/go.abhg.dev/goldmark/anchor.svg)](https://pkg.go.dev/go.abhg.dev/goldmark/anchor)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "goldmark"
+    },
+    {
+      "context_snippet": "[![Go Reference](https://pkg.go.dev/badge/go.abhg.dev/goldmark/anchor.svg)](https://pkg.go.dev/go.abhg.dev/goldmark/anchor)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "markdown"
+    }
+  ]
+}

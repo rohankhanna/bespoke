@@ -1,0 +1,153 @@
+{
+  "components": [
+    {
+      "component": "eslint",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "fengari",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "globals",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "jest",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "fengari",
+      "edge_type": "package-json:peerDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "actions/setup-node@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "fengari-lua/fengari-interop",
+      "target": "eslint",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "fengari-lua/fengari-interop",
+      "target": "fengari",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "fengari-lua/fengari-interop",
+      "target": "globals",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "fengari-lua/fengari-interop",
+      "target": "jest",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:peerDependencies",
+      "source_file": "package.json",
+      "source_repo": "fengari-lua/fengari-interop",
+      "target": "fengari",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "fengari-lua/fengari-interop",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "fengari-lua/fengari-interop",
+      "target": "actions/setup-node@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "fengari-lua/fengari-interop",
+      "target": "Node.js CI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "fengari-lua/fengari-interop",
+      "target": "fengari",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T04:08:57.244418+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7639
+    },
+    {
+      "path": "package.json",
+      "size": 863
+    },
+    {
+      "path": ".github/workflows/ci.yaml",
+      "size": 519
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Fengari <=> JS Interop",
+    "fork": false,
+    "full_name": "fengari-lua/fengari-interop",
+    "html_url": "https://github.com/fengari-lua/fengari-interop",
+    "language": "JavaScript",
+    "pushed_at": "2025-12-21T05:10:47Z",
+    "stargazers_count": 109,
+    "topics": [
+      "fengari",
+      "javascript",
+      "js",
+      "lua"
+    ],
+    "updated_at": "2026-03-01T02:29:19Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Node.js CI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yaml",
+      "term": "Node.js CI"
+    },
+    {
+      "context_snippet": "[![Build Status](https://github.com/fengari-lua/fengari-interop/actions/workflows/ci.yaml/badge.svg)](https://github.com/fengari-lua/fengari-interop/actions/workflows/ci.yaml?query=event%3Apush)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "fengari"
+    }
+  ]
+}

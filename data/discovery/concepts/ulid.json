@@ -1,0 +1,88 @@
+{
+  "aliases": [
+    "ulid"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ahawker/ulid",
+      "status": "candidate-context",
+      "text": "Universally Unique Lexicographically Sortable Identifier (ULID) in Python 3"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ahawker/ulid",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://travis-ci.org/ahawker/ulid.svg?branch=master)](https://travis-ci.org/ahawker/ulid)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ulid/javascript",
+      "status": "candidate-context",
+      "text": "Universally Unique Lexicographically Sortable Identifier"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ulid/javascript",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ahawker/ulid",
+      "status": "candidate",
+      "text": "[![Build Status](https://travis-ci.org/ahawker/ulid.svg?branch=master)](https://travis-ci.org/ahawker/ulid)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ulid/javascript",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "ulid",
+  "concept_id": "ulid",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "ahawker/ulid"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "ulid/javascript"
+    }
+  ],
+  "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "ulid",
+      "sense_id": "ulid#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

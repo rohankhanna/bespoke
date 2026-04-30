@@ -307,6 +307,66 @@
       "source_repo": "apollographql/apollo-kotlin",
       "status": "candidate-context",
       "text": "<header>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "detekt/detekt",
+      "status": "candidate-context",
+      "text": "Static code analysis for Kotlin"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "detekt/detekt",
+      "status": "candidate-context",
+      "text": "[![Join the chat at #detekt on KotlinLang](https://img.shields.io/badge/%23detekt-on_slack-red.svg?logo=slack)](https://kotlinlang.slack.com/archives/C88E12QH4)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "xplpc/xplpc",
+      "status": "candidate-context",
+      "text": "Cross Platform Lite Procedure Call - Support Linux, macOS, Windows, iOS, Android, Web Assembly, Flutter, Kotlin, Python and More"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "xplpc/xplpc",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "junit-team/junit-framework",
+      "status": "candidate-context",
+      "text": "\u2705 The programmer-friendly testing framework for Java and the JVM"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "junit-team/junit-framework",
+      "status": "candidate-context",
+      "text": "<h1>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Kotlin/kotlinx.serialization",
+      "status": "candidate-context",
+      "text": "Kotlin multiplatform / multi-format serialization "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Kotlin/kotlinx.serialization",
+      "status": "candidate-context",
+      "text": "[![Kotlin Stable](https://kotl.in/badges/stable.svg)](https://kotlinlang.org/docs/components-stability.html)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "wasabeef/glide-transformations",
+      "status": "candidate-context",
+      "text": "An Android transformation library providing a variety of image transformations for Glide."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "wasabeef/glide-transformations",
+      "status": "candidate-context",
+      "text": "Glide Transformations"
     }
   ],
   "candidate_glosses": [
@@ -459,6 +519,36 @@
       "source_repo": "apollographql/apollo-kotlin",
       "status": "candidate",
       "text": "<header>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "detekt/detekt",
+      "status": "candidate",
+      "text": "[![Join the chat at #detekt on KotlinLang](https://img.shields.io/badge/%23detekt-on_slack-red.svg?logo=slack)](https://kotlinlang.slack.com/archives/C88E12QH4)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "xplpc/xplpc",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "junit-team/junit-framework",
+      "status": "candidate",
+      "text": "<h1>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Kotlin/kotlinx.serialization",
+      "status": "candidate",
+      "text": "[![Kotlin Stable](https://kotl.in/badges/stable.svg)](https://kotlinlang.org/docs/components-stability.html)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "wasabeef/glide-transformations",
+      "status": "candidate",
+      "text": "Glide Transformations"
     }
   ],
   "candidate_related_terms": [
@@ -658,11 +748,41 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "apollographql/apollo-kotlin"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "detekt/detekt"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "xplpc/xplpc"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "junit-team/junit-framework"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "Kotlin/kotlinx.serialization"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "wasabeef/glide-transformations"
     }
   ],
   "first_seen_at": "2026-04-18T13:15:13.756138+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

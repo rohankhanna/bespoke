@@ -1,0 +1,113 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "isamert/gracer",
+      "target": "phildawes/racer",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "isamert/gracer",
+      "target": "gedit",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "isamert/gracer",
+      "target": "gedit-plugin",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "isamert/gracer",
+      "target": "gracer",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "isamert/gracer",
+      "target": "racer",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "isamert/gracer",
+      "target": "rust",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T01:00:27.516566+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1279
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "a rust code completion plugin for gedit",
+    "fork": false,
+    "full_name": "isamert/gracer",
+    "html_url": "https://github.com/isamert/gracer",
+    "language": "Python",
+    "pushed_at": "2022-12-05T02:37:52Z",
+    "stargazers_count": 34,
+    "topics": [
+      "gedit",
+      "gedit-plugin",
+      "gracer",
+      "racer",
+      "rust"
+    ],
+    "updated_at": "2025-02-25T09:54:26Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "phildawes/racer",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "A rust code completion plugin for gedit. Built with the Rust auto completion tool by Phil Dawes (https://github.com/phildawes/racer).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gedit"
+    },
+    {
+      "context_snippet": "A rust code completion plugin for gedit. Built with the Rust auto completion tool by Phil Dawes (https://github.com/phildawes/racer).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gedit-plugin"
+    },
+    {
+      "context_snippet": "A rust code completion plugin for gedit. Built with the Rust auto completion tool by Phil Dawes (https://github.com/phildawes/racer).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gracer"
+    },
+    {
+      "context_snippet": "A rust code completion plugin for gedit. Built with the Rust auto completion tool by Phil Dawes (https://github.com/phildawes/racer).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "racer"
+    },
+    {
+      "context_snippet": "A rust code completion plugin for gedit. Built with the Rust auto completion tool by Phil Dawes (https://github.com/phildawes/racer).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rust"
+    }
+  ]
+}

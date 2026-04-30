@@ -1,0 +1,74 @@
+{
+  "components": [
+    {
+      "component": "@mermaid-js/mermaid-cli",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "filecoin-project/go-fil-markets",
+      "target": "filecoin-project/go-data-transfer",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "filecoin-project/go-fil-markets",
+      "target": "filecoin-project/community",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "filecoin-project/go-fil-markets",
+      "target": "@mermaid-js/mermaid-cli",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-04-30T02:52:29.782309+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3710
+    },
+    {
+      "path": "go.mod",
+      "size": 7869
+    },
+    {
+      "path": "package.json",
+      "size": 1010
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Shared Implementation of Storage and Retrieval Markets for Filecoin Node Implementations",
+    "fork": false,
+    "full_name": "filecoin-project/go-fil-markets",
+    "html_url": "https://github.com/filecoin-project/go-fil-markets",
+    "language": "Go",
+    "pushed_at": "2023-08-16T16:34:41Z",
+    "stargazers_count": 77,
+    "topics": [],
+    "updated_at": "2025-12-02T03:27:26Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "filecoin-project/community",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "filecoin-project/go-data-transfer",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

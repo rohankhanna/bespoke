@@ -175,6 +175,114 @@
       "source_repo": "SkyTNT/anime-segmentation",
       "status": "candidate-context",
       "text": "Segmentation for anime character"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JIA-Lab-research/PFENet",
+      "status": "candidate-context",
+      "text": "PFENet: Prior Guided Feature Enrichment Network for Few-shot Segmentation (TPAMI)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JIA-Lab-research/PFENet",
+      "status": "candidate-context",
+      "text": "This is the implementation of our paper [**PFENet: Prior Guided Feature Enrichment Network for Few-shot Segmentation**](http://arxiv.org/abs/2008.01449) that has been accepted to IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "open-edge-platform/geti-instant-learn",
+      "status": "candidate-context",
+      "text": " A modular framework for few-shot visual segmentation using visual prompting techniques. Enables easy experimentation with different algorithms, backbones (SAM, MobileSAM, DinoV2), and pipeline components for finding and segmenting objects from just a few examples. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "open-edge-platform/geti-instant-learn",
+      "status": "candidate-context",
+      "text": "<!-- markdownlint-disable MD013 MD033 MD041 MD042 -->"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "VITA-Group/SLaK",
+      "status": "candidate-context",
+      "text": "[ICLR 2023] \"More ConvNets in the 2020s: Scaling up Kernels Beyond 51x51 using Sparsity\"; [ICML 2023] \"Are Large Kernels  Better Teachers than Transformers for ConvNets?\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "VITA-Group/SLaK",
+      "status": "candidate-context",
+      "text": "Official PyTorch implementation of"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "whai362/PVT",
+      "status": "candidate-context",
+      "text": "Official implementation of PVT series"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "whai362/PVT",
+      "status": "candidate-context",
+      "text": "- (2022/08/09) Application examples for polyp segmentation (polyp-pvt) and vision-language modeling."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ecsplendid/rembg-greenscreen",
+      "status": "candidate-context",
+      "text": "Rembg Video Virtual Green Screen Edition"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ecsplendid/rembg-greenscreen",
+      "status": "candidate-context",
+      "text": "Rembg Virtual Greenscreen Edition is a tool to create a green screen matte for videos"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "khanrc/tcl",
+      "status": "candidate-context",
+      "text": "Official implementation of TCL (CVPR 2023)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "khanrc/tcl",
+      "status": "candidate-context",
+      "text": "Official PyTorch implementation of [**Learning to Generate Text-grounded Mask for Open-world Semantic Segmentation from Only Image-Text Pairs**](https://arxiv.org/abs/2212.00785), *Junbum Cha, Jonghwan Mun, Byungseok Roh*, CVPR 2023."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "qubvel-org/segmentation_models.pytorch",
+      "status": "candidate-context",
+      "text": "Semantic segmentation models with 500+ pretrained convolutional and transformer-based backbones."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "qubvel-org/segmentation_models.pytorch",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "microsoft/UniVL",
+      "status": "candidate-context",
+      "text": "An official implementation for \" UniVL: A Unified Video and Language Pre-Training Model for Multimodal Understanding and Generation\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/UniVL",
+      "status": "candidate-context",
+      "text": "The implementation of paper [**UniVL: A Unified Video and Language Pre-Training Model for Multimodal Understanding and Generation**](https://arxiv.org/abs/2002.06353)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "BR-IDL/PaddleViT",
+      "status": "candidate-context",
+      "text": ":robot: PaddleViT: State-of-the-art Visual Transformer and MLP Models for PaddlePaddle 2.0+"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "BR-IDL/PaddleViT",
+      "status": "candidate-context",
+      "text": "English | [\u7b80\u4f53\u4e2d\u6587](./README_cn.md)"
     }
   ],
   "candidate_glosses": [
@@ -261,6 +369,60 @@
       "source_repo": "SkyTNT/anime-segmentation",
       "status": "candidate",
       "text": "Segmentation for anime character"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JIA-Lab-research/PFENet",
+      "status": "candidate",
+      "text": "This is the implementation of our paper [**PFENet: Prior Guided Feature Enrichment Network for Few-shot Segmentation**](http://arxiv.org/abs/2008.01449) that has been accepted to IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "open-edge-platform/geti-instant-learn",
+      "status": "candidate",
+      "text": "<!-- markdownlint-disable MD013 MD033 MD041 MD042 -->"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "VITA-Group/SLaK",
+      "status": "candidate",
+      "text": "Official PyTorch implementation of"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "whai362/PVT",
+      "status": "candidate",
+      "text": "- (2022/08/09) Application examples for polyp segmentation (polyp-pvt) and vision-language modeling."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ecsplendid/rembg-greenscreen",
+      "status": "candidate",
+      "text": "Rembg Virtual Greenscreen Edition is a tool to create a green screen matte for videos"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "khanrc/tcl",
+      "status": "candidate",
+      "text": "Official PyTorch implementation of [**Learning to Generate Text-grounded Mask for Open-world Semantic Segmentation from Only Image-Text Pairs**](https://arxiv.org/abs/2212.00785), *Junbum Cha, Jonghwan Mun, Byungseok Roh*, CVPR 2023."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "qubvel-org/segmentation_models.pytorch",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/UniVL",
+      "status": "candidate",
+      "text": "The implementation of paper [**UniVL: A Unified Video and Language Pre-Training Model for Multimodal Understanding and Generation**](https://arxiv.org/abs/2002.06353)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "BR-IDL/PaddleViT",
+      "status": "candidate",
+      "text": "English | [\u7b80\u4f53\u4e2d\u6587](./README_cn.md)"
     }
   ],
   "candidate_related_terms": [
@@ -424,11 +586,65 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "SkyTNT/anime-segmentation"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "JIA-Lab-research/PFENet"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "open-edge-platform/geti-instant-learn"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "VITA-Group/SLaK"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "whai362/PVT"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "ecsplendid/rembg-greenscreen"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "khanrc/tcl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "qubvel-org/segmentation_models.pytorch"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "microsoft/UniVL"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "BR-IDL/PaddleViT"
     }
   ],
   "first_seen_at": "2026-04-20T03:16:48.146869+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

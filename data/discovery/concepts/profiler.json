@@ -103,6 +103,18 @@
       "source_repo": "google/pprof",
       "status": "candidate-context",
       "text": "[![Github Action CI](https://github.com/google/pprof/workflows/ci/badge.svg)](https://github.com/google/pprof/actions)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "zhijian-liu/torchprofile",
+      "status": "candidate-context",
+      "text": "Count the MACs / FLOPs of PyTorch models"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "zhijian-liu/torchprofile",
+      "status": "candidate-context",
+      "text": "[![PyPI](https://img.shields.io/pypi/v/torchprofile)](https://pypi.org/project/torchprofile/)"
     }
   ],
   "candidate_glosses": [
@@ -153,6 +165,12 @@
       "source_repo": "google/pprof",
       "status": "candidate",
       "text": "[![Github Action CI](https://github.com/google/pprof/workflows/ci/badge.svg)](https://github.com/google/pprof/actions)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "zhijian-liu/torchprofile",
+      "status": "candidate",
+      "text": "[![PyPI](https://img.shields.io/pypi/v/torchprofile)](https://pypi.org/project/torchprofile/)"
     }
   ],
   "candidate_related_terms": [
@@ -244,11 +262,17 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "google/pprof"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "zhijian-liu/torchprofile"
     }
   ],
   "first_seen_at": "2026-04-21T18:51:25.552552+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

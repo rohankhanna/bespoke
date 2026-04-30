@@ -1,0 +1,191 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "jdx/mise-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "jdx/mise-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "codecov/codecov-action@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/doc.yml"
+    },
+    {
+      "component": "jdx/mise-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/doc.yml"
+    },
+    {
+      "component": "actions/upload-pages-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/doc.yml"
+    },
+    {
+      "component": "actions/deploy-pages@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/doc.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "abhinav/goldmark-frontmatter",
+      "target": "yuin/goldmark-meta",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "abhinav/goldmark-frontmatter",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "abhinav/goldmark-frontmatter",
+      "target": "jdx/mise-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "abhinav/goldmark-frontmatter",
+      "target": "codecov/codecov-action@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/doc.yml",
+      "source_repo": "abhinav/goldmark-frontmatter",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/doc.yml",
+      "source_repo": "abhinav/goldmark-frontmatter",
+      "target": "jdx/mise-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/doc.yml",
+      "source_repo": "abhinav/goldmark-frontmatter",
+      "target": "actions/upload-pages-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/doc.yml",
+      "source_repo": "abhinav/goldmark-frontmatter",
+      "target": "actions/deploy-pages@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/doc.yml",
+      "source_repo": "abhinav/goldmark-frontmatter",
+      "target": "Publish documentation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "abhinav/goldmark-frontmatter",
+      "target": "goldmark",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "abhinav/goldmark-frontmatter",
+      "target": "markdown",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T04:51:28.967880+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5211
+    },
+    {
+      "path": "go.mod",
+      "size": 460
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 947
+    },
+    {
+      "path": ".github/workflows/doc.yml",
+      "size": 1778
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Adds support for YAML and TOML front matter to Markdown documents.",
+    "fork": false,
+    "full_name": "abhinav/goldmark-frontmatter",
+    "html_url": "https://github.com/abhinav/goldmark-frontmatter",
+    "language": "Go",
+    "pushed_at": "2026-04-21T19:45:54Z",
+    "stargazers_count": 32,
+    "topics": [
+      "goldmark",
+      "markdown"
+    ],
+    "updated_at": "2026-04-20T03:36:51Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "yuin/goldmark-meta",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Publish documentation",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/doc.yml",
+      "term": "Publish documentation"
+    },
+    {
+      "context_snippet": "[![Go Reference](https://pkg.go.dev/badge/go.abhg.dev/goldmark/frontmatter.svg)](https://pkg.go.dev/go.abhg.dev/goldmark/frontmatter)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "goldmark"
+    },
+    {
+      "context_snippet": "[![Go Reference](https://pkg.go.dev/badge/go.abhg.dev/goldmark/frontmatter.svg)](https://pkg.go.dev/go.abhg.dev/goldmark/frontmatter)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "markdown"
+    }
+  ]
+}

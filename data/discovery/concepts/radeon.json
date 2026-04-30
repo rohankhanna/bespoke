@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "radeon"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lemonade-sdk/lemonade",
+      "status": "candidate-context",
+      "text": "Lemonade helps users discover and run local AI apps by serving optimized LLMs right from their own GPUs and NPUs. Join our discord: https://discord.gg/5xXzkMu8Zk"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lemonade-sdk/lemonade",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lemonade-sdk/lemonade",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19922298,
+      "status": "candidate",
+      "text": "exradio"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19922297,
+      "status": "candidate",
+      "text": "exthorio"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19922296,
+      "status": "candidate",
+      "text": "exactinio"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19922295,
+      "status": "candidate",
+      "text": "rayon"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19922294,
+      "status": "candidate",
+      "text": "roentgen-ray"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "radeon",
+  "concept_id": "radeon",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "lemonade-sdk/lemonade"
+    }
+  ],
+  "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "radeon",
+      "sense_id": "radeon#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

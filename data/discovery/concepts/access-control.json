@@ -79,6 +79,18 @@
       "source_repo": "authorizer-tech/access-controller",
       "status": "candidate-context",
       "text": "[![Latest Release](https://img.shields.io/github/v/release/authorizer-tech/access-controller)](https://github.com/authorizer-tech/access-controller/releases/latest)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cncf/tag-security",
+      "status": "candidate-context",
+      "text": "\ud83d\udd10CNCF Security Technical Advisory Group -- secure access, policy control, privacy, auditing, explainability and more!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cncf/tag-security",
+      "status": "candidate-context",
+      "text": "![Cloud Native Security Logo](/community/resources/design/logo/cloud-native-security-horizontal-darkmodesafe.svg)"
     }
   ],
   "candidate_glosses": [
@@ -117,6 +129,12 @@
       "source_repo": "authorizer-tech/access-controller",
       "status": "candidate",
       "text": "[![Latest Release](https://img.shields.io/github/v/release/authorizer-tech/access-controller)](https://github.com/authorizer-tech/access-controller/releases/latest)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cncf/tag-security",
+      "status": "candidate",
+      "text": "![Cloud Native Security Logo](/community/resources/design/logo/cloud-native-security-horizontal-darkmodesafe.svg)"
     }
   ],
   "candidate_related_terms": [],
@@ -262,11 +280,41 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "apache/casbin-rs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "apache/casbin"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "apache/casbin-rs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "apache/casbin-Casbin.NET"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "apache/casbin-cpp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "cncf/tag-security"
     }
   ],
   "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

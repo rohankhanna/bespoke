@@ -1,0 +1,66 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "cachix/install-nix-action@v13",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "Riey/cargo-feature",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "Riey/cargo-feature",
+      "target": "cachix/install-nix-action@v13",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-04-30T00:47:46.004337+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1460
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 742
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 728
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Cargo plugin to manage dependency features",
+    "fork": false,
+    "full_name": "Riey/cargo-feature",
+    "html_url": "https://github.com/Riey/cargo-feature",
+    "language": "Rust",
+    "pushed_at": "2023-01-23T00:12:11Z",
+    "stargazers_count": 120,
+    "topics": [],
+    "updated_at": "2025-12-05T12:54:18Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

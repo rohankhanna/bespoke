@@ -1,0 +1,173 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "derronqi/yolov8-face",
+      "target": "hpc203/yolov8-face-landmarks-opencv-dnn",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "derronqi/yolov8-face",
+      "target": "insightface",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "derronqi/yolov8-face",
+      "target": "mtcnn",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "derronqi/yolov8-face",
+      "target": "retinaface",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "derronqi/yolov8-face",
+      "target": "yolov5",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "derronqi/yolov8-face",
+      "target": "yolov5-face",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "derronqi/yolov8-face",
+      "target": "yolov7",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "derronqi/yolov8-face",
+      "target": "yolov7-face",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "derronqi/yolov8-face",
+      "target": "yolov8",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "derronqi/yolov8-face",
+      "target": "yolov8-face",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T05:12:09.807330+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1773
+    },
+    {
+      "path": "requirements.txt",
+      "size": 1122
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "yolov8 face detection with landmark",
+    "fork": false,
+    "full_name": "derronqi/yolov8-face",
+    "html_url": "https://github.com/derronqi/yolov8-face",
+    "language": "Python",
+    "pushed_at": "2024-10-29T01:43:28Z",
+    "stargazers_count": 796,
+    "topics": [
+      "insightface",
+      "mtcnn",
+      "retinaface",
+      "yolov5",
+      "yolov5-face",
+      "yolov7",
+      "yolov7-face",
+      "yolov8",
+      "yolov8-face"
+    ],
+    "updated_at": "2026-04-29T08:47:24Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "hpc203/yolov8-face-landmarks-opencv-dnn",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "**2024.04** [ncnn-android-yolov8-face](https://github.com/derronqi/ncnn-android-yolov8-face) (\ud83d\udd25\ud83d\udd25\ud83d\udd25\u2191)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "insightface"
+    },
+    {
+      "context_snippet": "**2024.04** [ncnn-android-yolov8-face](https://github.com/derronqi/ncnn-android-yolov8-face) (\ud83d\udd25\ud83d\udd25\ud83d\udd25\u2191)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mtcnn"
+    },
+    {
+      "context_snippet": "**2024.04** [ncnn-android-yolov8-face](https://github.com/derronqi/ncnn-android-yolov8-face) (\ud83d\udd25\ud83d\udd25\ud83d\udd25\u2191)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "retinaface"
+    },
+    {
+      "context_snippet": "**2024.04** [ncnn-android-yolov8-face](https://github.com/derronqi/ncnn-android-yolov8-face) (\ud83d\udd25\ud83d\udd25\ud83d\udd25\u2191)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "yolov5"
+    },
+    {
+      "context_snippet": "**2024.04** [ncnn-android-yolov8-face](https://github.com/derronqi/ncnn-android-yolov8-face) (\ud83d\udd25\ud83d\udd25\ud83d\udd25\u2191)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "yolov5-face"
+    },
+    {
+      "context_snippet": "**2024.04** [ncnn-android-yolov8-face](https://github.com/derronqi/ncnn-android-yolov8-face) (\ud83d\udd25\ud83d\udd25\ud83d\udd25\u2191)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "yolov7"
+    },
+    {
+      "context_snippet": "**2024.04** [ncnn-android-yolov8-face](https://github.com/derronqi/ncnn-android-yolov8-face) (\ud83d\udd25\ud83d\udd25\ud83d\udd25\u2191)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "yolov7-face"
+    },
+    {
+      "context_snippet": "**2024.04** [ncnn-android-yolov8-face](https://github.com/derronqi/ncnn-android-yolov8-face) (\ud83d\udd25\ud83d\udd25\ud83d\udd25\u2191)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "yolov8"
+    },
+    {
+      "context_snippet": "**2024.04** [ncnn-android-yolov8-face](https://github.com/derronqi/ncnn-android-yolov8-face) (\ud83d\udd25\ud83d\udd25\ud83d\udd25\u2191)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "yolov8-face"
+    }
+  ]
+}

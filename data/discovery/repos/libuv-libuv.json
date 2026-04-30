@@ -1,0 +1,419 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI-docs.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI-docs.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI-sample.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI-unix.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI-unix.yml"
+    },
+    {
+      "component": "reactivecircus/android-emulator-runner@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI-unix.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI-unix.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI-unix.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI-unix.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI-win.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI-win.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI-win.yml"
+    },
+    {
+      "component": "actions/download-artifact@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI-win.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sanitizer.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sanitizer.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sanitizer.yml"
+    },
+    {
+      "component": "KyleMayes/install-llvm-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sanitizer.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "libuv/libuv",
+      "target": "magicstack/uvloop",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "libuv/libuv",
+      "target": "thlorenz/libuv-dox",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "libuv/libuv",
+      "target": "thlorenz/learnuv",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "libuv/libuv",
+      "target": "ibmruntimes/zoslib",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI-docs.yml",
+      "source_repo": "libuv/libuv",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI-docs.yml",
+      "source_repo": "libuv/libuv",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/CI-docs.yml",
+      "source_repo": "libuv/libuv",
+      "target": "CI-docs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI-sample.yml",
+      "source_repo": "libuv/libuv",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/CI-sample.yml",
+      "source_repo": "libuv/libuv",
+      "target": "ci-sample",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI-unix.yml",
+      "source_repo": "libuv/libuv",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI-unix.yml",
+      "source_repo": "libuv/libuv",
+      "target": "reactivecircus/android-emulator-runner@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/CI-unix.yml",
+      "source_repo": "libuv/libuv",
+      "target": "CI-unix",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI-win.yml",
+      "source_repo": "libuv/libuv",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI-win.yml",
+      "source_repo": "libuv/libuv",
+      "target": "actions/upload-artifact@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI-win.yml",
+      "source_repo": "libuv/libuv",
+      "target": "actions/download-artifact@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/CI-win.yml",
+      "source_repo": "libuv/libuv",
+      "target": "CI-win",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sanitizer.yml",
+      "source_repo": "libuv/libuv",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sanitizer.yml",
+      "source_repo": "libuv/libuv",
+      "target": "KyleMayes/install-llvm-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/sanitizer.yml",
+      "source_repo": "libuv/libuv",
+      "target": "Sanitizer checks",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "libuv/libuv",
+      "target": "asynchronous",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "libuv/libuv",
+      "target": "deep-io",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "libuv/libuv",
+      "target": "networking",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "libuv/libuv",
+      "target": "unicorns",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "libuv/libuv",
+      "target": "unix",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "libuv/libuv",
+      "target": "velociraptors",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "libuv/libuv",
+      "target": "windows",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T01:44:15.735053+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9972
+    },
+    {
+      "path": ".github/workflows/CI-docs.yml",
+      "size": 537
+    },
+    {
+      "path": ".github/workflows/CI-sample.yml",
+      "size": 877
+    },
+    {
+      "path": ".github/workflows/CI-unix.yml",
+      "size": 7453
+    },
+    {
+      "path": ".github/workflows/CI-win.yml",
+      "size": 4532
+    },
+    {
+      "path": ".github/workflows/sanitizer.yml",
+      "size": 2917
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "v1.x",
+    "description": "Cross-platform asynchronous I/O",
+    "fork": false,
+    "full_name": "libuv/libuv",
+    "html_url": "https://github.com/libuv/libuv",
+    "language": "C",
+    "pushed_at": "2026-04-28T14:25:37Z",
+    "stargazers_count": 26801,
+    "topics": [
+      "asynchronous",
+      "deep-io",
+      "io",
+      "networking",
+      "unicorns",
+      "unix",
+      "velociraptors",
+      "windows"
+    ],
+    "updated_at": "2026-04-29T17:26:40Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ibmruntimes/zoslib",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "magicstack/uvloop",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "thlorenz/learnuv",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "thlorenz/libuv-dox",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "CI-docs",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/CI-docs.yml",
+      "term": "CI-docs"
+    },
+    {
+      "context_snippet": "ci-sample",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/CI-sample.yml",
+      "term": "ci-sample"
+    },
+    {
+      "context_snippet": "CI-unix",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/CI-unix.yml",
+      "term": "CI-unix"
+    },
+    {
+      "context_snippet": "CI-win",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/CI-win.yml",
+      "term": "CI-win"
+    },
+    {
+      "context_snippet": "Sanitizer checks",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/sanitizer.yml",
+      "term": "Sanitizer checks"
+    },
+    {
+      "context_snippet": "![libuv][libuv_banner]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "asynchronous"
+    },
+    {
+      "context_snippet": "![libuv][libuv_banner]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-io"
+    },
+    {
+      "context_snippet": "![libuv][libuv_banner]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "networking"
+    },
+    {
+      "context_snippet": "![libuv][libuv_banner]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "unicorns"
+    },
+    {
+      "context_snippet": "![libuv][libuv_banner]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "unix"
+    },
+    {
+      "context_snippet": "![libuv][libuv_banner]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "velociraptors"
+    },
+    {
+      "context_snippet": "![libuv][libuv_banner]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "windows"
+    }
+  ]
+}

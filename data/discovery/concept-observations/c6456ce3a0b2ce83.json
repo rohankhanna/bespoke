@@ -1,0 +1,115 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A place to store some examples which use Trillian APIs to build things."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![OpenSSF Scorecard](https://api.securityscorecards.dev/projects/github.com/google/trillian-examples/badge)](https://securityscorecards.dev/viewer/?uri=github.com/google/trillian-examples)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![OpenSSF Scorecard](https://api.securityscorecards.dev/projects/github.com/google/trillian-examples/badge)](https://securityscorecards.dev/viewer/?uri=github.com/google/trillian-examples)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40006296,
+      "status": "candidate",
+      "text": "transparentness"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40006248,
+      "status": "candidate",
+      "text": "transparence"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39941432,
+      "status": "candidate",
+      "text": "foil"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30006731,
+      "status": "candidate",
+      "text": "transparently"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30005658,
+      "status": "candidate",
+      "text": "transparent"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "transparency",
+      "sense_id": "transparency#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 19060,
+      "status": "candidate",
+      "text": "foil"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 1019,
+      "status": "candidate",
+      "text": "transparence"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 15,
+      "status": "candidate",
+      "text": "transparentness"
+    }
+  ],
+  "concept_id": "transparency",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "transparency",
+  "observation_id": "c6456ce3a0b2ce83",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T00:37:16.824464+00:00",
+  "observed_text": "transparency",
+  "source_context_snippet": "[![OpenSSF Scorecard](https://api.securityscorecards.dev/projects/github.com/google/trillian-examples/badge)](https://securityscorecards.dev/viewer/?uri=github.com/google/trillian-examples)",
+  "source_file": null,
+  "source_repo": "google/trillian-examples",
+  "source_repo_description": "A place to store some examples which use Trillian APIs to build things."
+}

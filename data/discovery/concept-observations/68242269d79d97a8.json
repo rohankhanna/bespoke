@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Redefining the multi cluster story of Argo CD"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Build & publish images"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Build & publish images"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17925,
+      "status": "candidate",
+      "text": "print"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17925,
+      "status": "candidate",
+      "text": "printed"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17925,
+      "status": "candidate",
+      "text": "prints"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17864,
+      "status": "candidate",
+      "text": "graffiti"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17864,
+      "status": "candidate",
+      "text": "imagine"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Build & publish images",
+      "sense_id": "build-publish-images#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "build-publish-images",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "build-publish-images",
+  "observation_id": "68242269d79d97a8",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-30T00:37:16.824464+00:00",
+  "observed_text": "Build & publish images",
+  "source_context_snippet": "Build & publish images",
+  "source_file": ".github/workflows/image.yaml",
+  "source_repo": "argoproj-labs/argocd-agent",
+  "source_repo_description": "Redefining the multi cluster story of Argo CD"
+}

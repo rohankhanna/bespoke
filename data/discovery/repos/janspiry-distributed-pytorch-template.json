@@ -1,0 +1,156 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Janspiry/distributed-pytorch-template",
+      "target": "janspiry/image-super-resolution-via-iterative-refinement",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Janspiry/distributed-pytorch-template",
+      "target": "researchmm/pen-net-for-inpainting",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Janspiry/distributed-pytorch-template",
+      "target": "tczhangzhi/pytorch-distributed",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Janspiry/distributed-pytorch-template",
+      "target": "deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Janspiry/distributed-pytorch-template",
+      "target": "distributeddataparallel",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Janspiry/distributed-pytorch-template",
+      "target": "logger",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Janspiry/distributed-pytorch-template",
+      "target": "pytorch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Janspiry/distributed-pytorch-template",
+      "target": "seed-project",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Janspiry/distributed-pytorch-template",
+      "target": "template",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T05:13:01.530165+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9672
+    },
+    {
+      "path": "requirements.txt",
+      "size": 68
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "This is a seed project for distributed PyTorch training, which was built to customize your network quickly",
+    "fork": false,
+    "full_name": "Janspiry/distributed-pytorch-template",
+    "html_url": "https://github.com/Janspiry/distributed-pytorch-template",
+    "language": "Python",
+    "pushed_at": "2022-06-22T08:54:35Z",
+    "stargazers_count": 163,
+    "topics": [
+      "ddp",
+      "deep-learning",
+      "distributeddataparallel",
+      "logger",
+      "pytorch",
+      "seed-project",
+      "template"
+    ],
+    "updated_at": "2026-03-08T12:44:52Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "janspiry/image-super-resolution-via-iterative-refinement",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "researchmm/pen-net-for-inpainting",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "tczhangzhi/pytorch-distributed",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "This is a seed project for distributed PyTorch training, which was built to customize your network quickly.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-learning"
+    },
+    {
+      "context_snippet": "This is a seed project for distributed PyTorch training, which was built to customize your network quickly.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "distributeddataparallel"
+    },
+    {
+      "context_snippet": "This is a seed project for distributed PyTorch training, which was built to customize your network quickly.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "logger"
+    },
+    {
+      "context_snippet": "This is a seed project for distributed PyTorch training, which was built to customize your network quickly.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytorch"
+    },
+    {
+      "context_snippet": "This is a seed project for distributed PyTorch training, which was built to customize your network quickly.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "seed-project"
+    },
+    {
+      "context_snippet": "This is a seed project for distributed PyTorch training, which was built to customize your network quickly.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "template"
+    }
+  ]
+}

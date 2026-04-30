@@ -283,6 +283,30 @@
       "source_repo": "hapostgres/pg_auto_failover",
       "status": "candidate-context",
       "text": "[![Documentation Status](https://readthedocs.org/projects/pg-auto-failover/badge/?version=main)](https://pg-auto-failover.readthedocs.io/en/main/?badge=main)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "omniti-labs/pg_jobmon",
+      "status": "candidate-context",
+      "text": "PostgreSQL extension which provides persistent logging within transactions and functions. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "omniti-labs/pg_jobmon",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://travis-ci.com/omniti-labs/pg_jobmon.svg?branch=master)](https://travis-ci.com/omniti-labs/pg_jobmon)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "fastapi/full-stack-fastapi-template",
+      "status": "candidate-context",
+      "text": "Full stack, modern web application template. Using FastAPI, React, SQLModel, PostgreSQL, Docker, GitHub Actions, automatic HTTPS and more."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fastapi/full-stack-fastapi-template",
+      "status": "candidate-context",
+      "text": "<a href=\"https://github.com/fastapi/full-stack-fastapi-template/actions?query=workflow%3A%22Test+Docker+Compose%22\" target=\"_blank\"><img src=\"https://github.com/fastapi/full-stack-fastapi-template/workflows/Test%20Docker%20Compose/badge.svg\" alt=\"Test Docker Compose\"></a>"
     }
   ],
   "candidate_glosses": [
@@ -423,6 +447,18 @@
       "source_repo": "hapostgres/pg_auto_failover",
       "status": "candidate",
       "text": "[![Documentation Status](https://readthedocs.org/projects/pg-auto-failover/badge/?version=main)](https://pg-auto-failover.readthedocs.io/en/main/?badge=main)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "omniti-labs/pg_jobmon",
+      "status": "candidate",
+      "text": "[![Build Status](https://travis-ci.com/omniti-labs/pg_jobmon.svg?branch=master)](https://travis-ci.com/omniti-labs/pg_jobmon)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fastapi/full-stack-fastapi-template",
+      "status": "candidate",
+      "text": "<a href=\"https://github.com/fastapi/full-stack-fastapi-template/actions?query=workflow%3A%22Test+Docker+Compose%22\" target=\"_blank\"><img src=\"https://github.com/fastapi/full-stack-fastapi-template/workflows/Test%20Docker%20Compose/badge.svg\" alt=\"Test Docker Compose\"></a>"
     }
   ],
   "candidate_related_terms": [
@@ -621,11 +657,35 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "hapostgres/pg_auto_failover"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "omniti-labs/pg_jobmon"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "gobackup/gobackup"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "babashka/babashka-sql-pods"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "fastapi/full-stack-fastapi-template"
     }
   ],
   "first_seen_at": "2026-04-20T03:16:48.146869+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

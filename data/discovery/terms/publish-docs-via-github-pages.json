@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
@@ -26,6 +26,16 @@
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/docs.yml",
       "source_repo": "15r10nk/inline-snapshot"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "chef/chef-oss-practices"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/mkdocs.yml",
+      "source_repo": "opendatalab/MinerU"
     }
   ],
   "term": "Publish docs via GitHub Pages"

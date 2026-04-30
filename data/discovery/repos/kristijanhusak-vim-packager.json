@@ -1,0 +1,114 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "kristijanhusak/vim-packager",
+      "target": "k-takata/minpac",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kristijanhusak/vim-packager",
+      "target": "neovim",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kristijanhusak/vim-packager",
+      "target": "neovim-plugin",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kristijanhusak/vim-packager",
+      "target": "plugin-manager",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kristijanhusak/vim-packager",
+      "target": "vim-plugins",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kristijanhusak/vim-packager",
+      "target": "viml",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T00:38:23.145649+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 18175
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "master",
+    "description": "Vim plugin manager that utilizes \"jobs\" and \"pack\" features.",
+    "fork": false,
+    "full_name": "kristijanhusak/vim-packager",
+    "html_url": "https://github.com/kristijanhusak/vim-packager",
+    "language": "Vim script",
+    "pushed_at": "2021-11-20T19:30:54Z",
+    "stargazers_count": 246,
+    "topics": [
+      "neovim",
+      "neovim-plugin",
+      "plugin-manager",
+      "vim",
+      "vim-plugins",
+      "viml"
+    ],
+    "updated_at": "2026-04-01T04:46:10Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "k-takata/minpac",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "![preview-gif](https://i.imgur.com/KOTn843.gif)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "neovim"
+    },
+    {
+      "context_snippet": "![preview-gif](https://i.imgur.com/KOTn843.gif)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "neovim-plugin"
+    },
+    {
+      "context_snippet": "![preview-gif](https://i.imgur.com/KOTn843.gif)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "plugin-manager"
+    },
+    {
+      "context_snippet": "![preview-gif](https://i.imgur.com/KOTn843.gif)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vim-plugins"
+    },
+    {
+      "context_snippet": "![preview-gif](https://i.imgur.com/KOTn843.gif)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "viml"
+    }
+  ]
+}

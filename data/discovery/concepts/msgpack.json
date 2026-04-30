@@ -79,6 +79,18 @@
       "source_repo": "msgpack/msgpack-javascript",
       "status": "candidate-context",
       "text": "[![npm version](https://img.shields.io/npm/v/@msgpack/msgpack.svg)](https://www.npmjs.com/package/@msgpack/msgpack) ![CI](https://github.com/msgpack/msgpack-javascript/workflows/CI/badge.svg) [![codecov](https://codecov.io/gh/msgpack/msgpack-javascript/branch/master/graphs/badge\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "msgpack/msgpack-ruby",
+      "status": "candidate-context",
+      "text": "MessagePack implementation for Ruby / msgpack.org[Ruby]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "msgpack/msgpack-ruby",
+      "status": "candidate-context",
+      "text": "[MessagePack](http://msgpack.org) is an efficient binary serialization format."
     }
   ],
   "candidate_glosses": [
@@ -117,6 +129,12 @@
       "source_repo": "msgpack/msgpack-javascript",
       "status": "candidate",
       "text": "[![npm version](https://img.shields.io/npm/v/@msgpack/msgpack.svg)](https://www.npmjs.com/package/@msgpack/msgpack) ![CI](https://github.com/msgpack/msgpack-javascript/workflows/CI/badge.svg) [![codecov](https://codecov.io/gh/msgpack/msgpack-javascript/branch/master/graphs/badge\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "msgpack/msgpack-ruby",
+      "status": "candidate",
+      "text": "[MessagePack](http://msgpack.org) is an efficient binary serialization format."
     }
   ],
   "candidate_related_terms": [],
@@ -166,11 +184,17 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "rest-sh/restish"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "msgpack/msgpack-ruby"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,281 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "avaneev/prvhash",
+      "target": "petersn/autosat",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "avaneev/prvhash",
+      "target": "cellular-automata",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "avaneev/prvhash",
+      "target": "hash",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "avaneev/prvhash",
+      "target": "hash-algorithm",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "avaneev/prvhash",
+      "target": "hash-function",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "avaneev/prvhash",
+      "target": "hash-functions",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "avaneev/prvhash",
+      "target": "hashing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "avaneev/prvhash",
+      "target": "hashing-algorithm",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "avaneev/prvhash",
+      "target": "hashing-algorithms",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "avaneev/prvhash",
+      "target": "prng",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "avaneev/prvhash",
+      "target": "prng-algorithms",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "avaneev/prvhash",
+      "target": "prng-methods",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "avaneev/prvhash",
+      "target": "pseudo-random",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "avaneev/prvhash",
+      "target": "pseudo-random-generator",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "avaneev/prvhash",
+      "target": "pseudorandom",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "avaneev/prvhash",
+      "target": "random",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "avaneev/prvhash",
+      "target": "random-number-generators",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "avaneev/prvhash",
+      "target": "random-numbers",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T03:51:22.568573+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 57911
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "PRVHASH - Pseudo-Random-Value Hash. Hash functions, PRNG with unlimited period, randomness extractor, and a glimpse into abyss. (header-only C/C++) (Codename Gradilac/\u0413\u0440\u0430\u0434\u0438\u043b\u0430\u043a)",
+    "fork": false,
+    "full_name": "avaneev/prvhash",
+    "html_url": "https://github.com/avaneev/prvhash",
+    "language": "C",
+    "pushed_at": "2025-12-25T17:53:39Z",
+    "stargazers_count": 326,
+    "topics": [
+      "cellular-automata",
+      "hash",
+      "hash-algorithm",
+      "hash-function",
+      "hash-functions",
+      "hashing",
+      "hashing-algorithm",
+      "hashing-algorithms",
+      "prng",
+      "prng-algorithms",
+      "prng-methods",
+      "pseudo-random",
+      "pseudo-random-generator",
+      "pseudorandom",
+      "random",
+      "random-number-generators",
+      "random-numbers"
+    ],
+    "updated_at": "2026-03-31T15:19:06Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "petersn/autosat",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "PRVHASH is a hash function that generates a [uniform pseudo-random number",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cellular-automata"
+    },
+    {
+      "context_snippet": "PRVHASH is a hash function that generates a [uniform pseudo-random number",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hash"
+    },
+    {
+      "context_snippet": "PRVHASH is a hash function that generates a [uniform pseudo-random number",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hash-algorithm"
+    },
+    {
+      "context_snippet": "PRVHASH is a hash function that generates a [uniform pseudo-random number",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hash-function"
+    },
+    {
+      "context_snippet": "PRVHASH is a hash function that generates a [uniform pseudo-random number",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hash-functions"
+    },
+    {
+      "context_snippet": "PRVHASH is a hash function that generates a [uniform pseudo-random number",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hashing"
+    },
+    {
+      "context_snippet": "PRVHASH is a hash function that generates a [uniform pseudo-random number",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hashing-algorithm"
+    },
+    {
+      "context_snippet": "PRVHASH is a hash function that generates a [uniform pseudo-random number",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hashing-algorithms"
+    },
+    {
+      "context_snippet": "PRVHASH is a hash function that generates a [uniform pseudo-random number",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "prng"
+    },
+    {
+      "context_snippet": "PRVHASH is a hash function that generates a [uniform pseudo-random number",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "prng-algorithms"
+    },
+    {
+      "context_snippet": "PRVHASH is a hash function that generates a [uniform pseudo-random number",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "prng-methods"
+    },
+    {
+      "context_snippet": "PRVHASH is a hash function that generates a [uniform pseudo-random number",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pseudo-random"
+    },
+    {
+      "context_snippet": "PRVHASH is a hash function that generates a [uniform pseudo-random number",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pseudo-random-generator"
+    },
+    {
+      "context_snippet": "PRVHASH is a hash function that generates a [uniform pseudo-random number",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pseudorandom"
+    },
+    {
+      "context_snippet": "PRVHASH is a hash function that generates a [uniform pseudo-random number",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "random"
+    },
+    {
+      "context_snippet": "PRVHASH is a hash function that generates a [uniform pseudo-random number",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "random-number-generators"
+    },
+    {
+      "context_snippet": "PRVHASH is a hash function that generates a [uniform pseudo-random number",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "random-numbers"
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "ksuid"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "segmentio/ksuid",
+      "status": "candidate-context",
+      "text": "K-Sortable Globally Unique IDs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "segmentio/ksuid",
+      "status": "candidate-context",
+      "text": "ksuid is an efficient, comprehensive, battle-tested Go library for"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "segmentio/ksuid",
+      "status": "candidate",
+      "text": "ksuid is an efficient, comprehensive, battle-tested Go library for"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "ksuid",
+  "concept_id": "ksuid",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "segmentio/ksuid"
+    }
+  ],
+  "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "ksuid",
+      "sense_id": "ksuid#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

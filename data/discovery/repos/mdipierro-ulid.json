@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mdipierro/ulid",
+      "target": "alizain/ulid",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T05:04:03.133215+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2703
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": null,
+    "fork": false,
+    "full_name": "mdipierro/ulid",
+    "html_url": "https://github.com/mdipierro/ulid",
+    "language": "Python",
+    "pushed_at": "2024-08-13T15:42:24Z",
+    "stargazers_count": 50,
+    "topics": [],
+    "updated_at": "2026-04-07T13:59:36Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "alizain/ulid",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

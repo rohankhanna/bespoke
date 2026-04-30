@@ -43,6 +43,30 @@
       "source_repo": "ViTAE-Transformer/APTv2",
       "status": "candidate-context",
       "text": "This repo is the official implementation of [\"APTv2: Benchmarking Animal Pose Estimation and Tracking with a Large-scale Dataset and Beyond\"](https://arxiv.org/pdf/2312.15612)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lucidrains/electra-pytorch",
+      "status": "candidate-context",
+      "text": "A simple and working implementation of Electra, the fastest way to pretrain language models from scratch, in Pytorch"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lucidrains/electra-pytorch",
+      "status": "candidate-context",
+      "text": "<img src=\"./electra.png\"></img>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "CVMI-Lab/SlotCon",
+      "status": "candidate-context",
+      "text": "(NeurIPS 2022) Self-Supervised Visual Representation Learning with Semantic Grouping"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "CVMI-Lab/SlotCon",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +87,18 @@
       "source_repo": "ViTAE-Transformer/APTv2",
       "status": "candidate",
       "text": "This repo is the official implementation of [\"APTv2: Benchmarking Animal Pose Estimation and Tracking with a Large-scale Dataset and Beyond\"](https://arxiv.org/pdf/2312.15612)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lucidrains/electra-pytorch",
+      "status": "candidate",
+      "text": "<img src=\"./electra.png\"></img>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "CVMI-Lab/SlotCon",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -110,11 +146,23 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "ViTAE-Transformer/APTv2"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "lucidrains/electra-pytorch"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "CVMI-Lab/SlotCon"
     }
   ],
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

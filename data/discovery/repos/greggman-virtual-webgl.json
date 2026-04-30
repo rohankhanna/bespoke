@@ -1,0 +1,94 @@
+{
+  "components": [
+    {
+      "component": "eslint",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "eslint-plugin-html",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "eslint-plugin-optional-comma-spacing",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "eslint-plugin-require-trailing-comma",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "greggman/virtual-webgl",
+      "target": "greggman/requestanimationframe-fix.js",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "greggman/virtual-webgl",
+      "target": "eslint",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "greggman/virtual-webgl",
+      "target": "eslint-plugin-html",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "greggman/virtual-webgl",
+      "target": "eslint-plugin-optional-comma-spacing",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "greggman/virtual-webgl",
+      "target": "eslint-plugin-require-trailing-comma",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-04-30T01:58:02.770774+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 11742
+    },
+    {
+      "path": "package.json",
+      "size": 769
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Virtualize WebGL Contexts",
+    "fork": false,
+    "full_name": "greggman/virtual-webgl",
+    "html_url": "https://github.com/greggman/virtual-webgl",
+    "language": "JavaScript",
+    "pushed_at": "2025-09-30T07:47:28Z",
+    "stargazers_count": 195,
+    "topics": [],
+    "updated_at": "2026-03-20T06:59:45Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "greggman/requestanimationframe-fix.js",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

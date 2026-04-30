@@ -247,6 +247,66 @@
       "source_repo": "PaddlePaddle/PaddleNLP",
       "status": "candidate-context",
       "text": "**\u7b80\u4f53\u4e2d\u6587**\ud83c\udc04 | [English\ud83c\udf0e](./README_en.md)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "zai-org/CogVLM2",
+      "status": "candidate-context",
+      "text": "GPT4V-level open-source multi-modal model based on Llama3-8B"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "zai-org/CogVLM2",
+      "status": "candidate-context",
+      "text": "[\u4e2d\u6587\u7248README](./README_zh.md)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "OFA-Sys/Chinese-CLIP",
+      "status": "candidate-context",
+      "text": "Chinese version of CLIP which achieves Chinese cross-modal retrieval and representation generation."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "OFA-Sys/Chinese-CLIP",
+      "status": "candidate-context",
+      "text": "[**\u4e2d\u6587\u8bf4\u660e**](README.md) | [**English**](README_En.md)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "zai-org/CodeGeeX",
+      "status": "candidate-context",
+      "text": "CodeGeeX: An Open Multilingual Code Generation Model (KDD 2023)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "zai-org/CodeGeeX",
+      "status": "candidate-context",
+      "text": "<img src=\"resources/logo/codegeex_logo.png\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "PINTO0309/PINTO_model_zoo",
+      "status": "candidate-context",
+      "text": "A repository for storing models that have been inter-converted between various frameworks. Supported frameworks are TensorFlow, PyTorch, ONNX, OpenVINO, TFJS, TFTRT, TensorFlowLite (Float32/16/INT8), EdgeTPU, CoreML."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PINTO0309/PINTO_model_zoo",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Cadene/tensorflow-model-zoo.torch",
+      "status": "candidate-context",
+      "text": "InceptionV3, InceptionV4, Inception-Resnet pretrained models for Torch7 and PyTorch"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Cadene/tensorflow-model-zoo.torch",
+      "status": "candidate-context",
+      "text": "13/07/2017: Please use the new repo [pretrained-models.pytorch](https://github.com/Cadene/pretrained-models.pytorch) which includes inceptionv4 and inceptionresnetv2 with a nicer API."
     }
   ],
   "candidate_glosses": [
@@ -369,6 +429,36 @@
       "source_repo": "PaddlePaddle/PaddleNLP",
       "status": "candidate",
       "text": "**\u7b80\u4f53\u4e2d\u6587**\ud83c\udc04 | [English\ud83c\udf0e](./README_en.md)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "zai-org/CogVLM2",
+      "status": "candidate",
+      "text": "[\u4e2d\u6587\u7248README](./README_zh.md)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "OFA-Sys/Chinese-CLIP",
+      "status": "candidate",
+      "text": "[**\u4e2d\u6587\u8bf4\u660e**](README.md) | [**English**](README_En.md)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "zai-org/CodeGeeX",
+      "status": "candidate",
+      "text": "<img src=\"resources/logo/codegeex_logo.png\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PINTO0309/PINTO_model_zoo",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Cadene/tensorflow-model-zoo.torch",
+      "status": "candidate",
+      "text": "13/07/2017: Please use the new repo [pretrained-models.pytorch](https://github.com/Cadene/pretrained-models.pytorch) which includes inceptionv4 and inceptionresnetv2 with a nicer API."
     }
   ],
   "candidate_related_terms": [],
@@ -544,11 +634,65 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "PaddlePaddle/PaddleNLP"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "zai-org/CogVLM"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "zai-org/CogVLM2"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "QwenLM/Qwen"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "OFA-Sys/Chinese-CLIP"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "zai-org/CodeGeeX2"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "zai-org/CodeGeeX"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "PINTO0309/PINTO_model_zoo"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "Cadene/tensorflow-model-zoo.torch"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "huggingface/pytorch-image-models"
     }
   ],
   "first_seen_at": "2026-04-18T13:15:13.756138+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

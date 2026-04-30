@@ -1,0 +1,17 @@
+{
+  "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/run-conventional-commits-check.yml",
+      "source_repo": "artsy/README"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/run-conventional-commits-check.yml",
+      "source_repo": "artsy/react-native-launch-arguments"
+    }
+  ],
+  "term": "\u2622\ufe0f Conventional Commits Check"
+}

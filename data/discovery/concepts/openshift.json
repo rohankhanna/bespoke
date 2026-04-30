@@ -55,6 +55,30 @@
       "source_repo": "ansible-collections/kubernetes.core",
       "status": "candidate-context",
       "text": "This repository hosts the `kubernetes.core` (formerly known as `community.kubernetes`) Ansible Collection."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "openshift/origin",
+      "status": "candidate-context",
+      "text": "Conformance test suite for OpenShift"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "openshift/origin",
+      "status": "candidate-context",
+      "text": "Origin Kubernetes"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sclorg/mariadb-container",
+      "status": "candidate-context",
+      "text": "MariaDB container images based on Red Hat Software Collections and intended for OpenShift and general usage. Users can choose between Red Hat Enterprise Linux, Fedora, and CentOS based images."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sclorg/mariadb-container",
+      "status": "candidate-context",
+      "text": "MariaDB SQL Database Server Docker Image"
     }
   ],
   "candidate_glosses": [
@@ -81,6 +105,18 @@
       "source_repo": "ansible-collections/kubernetes.core",
       "status": "candidate",
       "text": "This repository hosts the `kubernetes.core` (formerly known as `community.kubernetes`) Ansible Collection."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "openshift/origin",
+      "status": "candidate",
+      "text": "Origin Kubernetes"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sclorg/mariadb-container",
+      "status": "candidate",
+      "text": "MariaDB SQL Database Server Docker Image"
     }
   ],
   "candidate_related_terms": [
@@ -148,11 +184,29 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "ansible-collections/kubernetes.core"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "openshift/origin"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "crc-org/crc"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "sclorg/mariadb-container"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

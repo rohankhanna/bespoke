@@ -1432,6 +1432,240 @@
       "source_repo": "Swordfish90/cool-retro-term",
       "status": "candidate-context",
       "text": "|> Default Amber|C:\\ IBM DOS|$ Default Green|"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pacstall/pacstall",
+      "status": "candidate-context",
+      "text": "An AUR-inspired package manager for Ubuntu"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pacstall/pacstall",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "xmake-io/xmake",
+      "status": "candidate-context",
+      "text": "\ud83d\udd25 A cross-platform build utility based on Lua"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "xmake-io/xmake",
+      "status": "candidate-context",
+      "text": "Linux"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "xmake-io/xmake",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "miurahr/aqtinstall",
+      "status": "candidate-context",
+      "text": "aqt: Another (unofficial) Qt  CLI  Installer on multi-platforms"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "miurahr/aqtinstall",
+      "status": "candidate-context",
+      "text": "Another Qt installer(aqt)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aws/amazon-q-developer-cli",
+      "status": "candidate-context",
+      "text": "\u2728 Agentic chat experience in your terminal. Build applications using natural language."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aws/amazon-q-developer-cli",
+      "status": "candidate-context",
+      "text": "> [!IMPORTANT]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "2KAbhishek/awesome2k",
+      "status": "candidate-context",
+      "text": "Awesome Window Management \ud83e\ude9f\ud83d\ude80"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "2KAbhishek/awesome2k",
+      "status": "candidate-context",
+      "text": "<div align = \"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ClickHouse/clickhouse-cpp",
+      "status": "candidate-context",
+      "text": "C++ client library for ClickHouse"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ClickHouse/clickhouse-cpp",
+      "status": "candidate-context",
+      "text": "Linux"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "raku-community-modules/Terminal-WCWidth",
+      "status": "candidate-context",
+      "text": "Returns character width on a terminal"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "raku-community-modules/Terminal-WCWidth",
+      "status": "candidate-context",
+      "text": "Linux"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "google/glog",
+      "status": "candidate-context",
+      "text": "C++ implementation of the Google logging module"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/glog",
+      "status": "candidate-context",
+      "text": "Linux"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "NVIDIA/gdrcopy",
+      "status": "candidate-context",
+      "text": "A fast GPU memory copy library based on NVIDIA GPUDirect RDMA technology"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NVIDIA/gdrcopy",
+      "status": "candidate-context",
+      "text": "A low-latency GPU memory copy library based on NVIDIA GPUDirect RDMA"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gershnik/wsdd-native",
+      "status": "candidate-context",
+      "text": "Make your macOS/Linux/BSD/illumos/HaikuOS machine visible in Network view of Windows Explorer"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gershnik/wsdd-native",
+      "status": "candidate-context",
+      "text": "[![Version][version_badge]][releases]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "AmberSahdev/Open-Interface",
+      "status": "candidate-context",
+      "text": "Control Any Computer Using LLMs."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AmberSahdev/Open-Interface",
+      "status": "candidate-context",
+      "text": "<picture>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "NiLuJe/FBInk",
+      "status": "candidate-context",
+      "text": "FrameBuffer eInker, a small tool & library to print text & images to an eInk Linux framebuffer"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NiLuJe/FBInk",
+      "status": "candidate-context",
+      "text": "[![License](https://img.shields.io/github/license/NiLuJe/FBInk.svg)](/LICENSE) [![Codacy Badge](https://api.codacy.com/project/badge/Grade/0e955c5239c54b10a167bbde1c2d75c1)](https://www.codacy.com/app/NiLuJe/FBInk?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=NiL\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "parlance-zz/g-diffuser-bot",
+      "status": "candidate-context",
+      "text": "Discord bot and Interface for Stable Diffusion"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "parlance-zz/g-diffuser-bot",
+      "status": "candidate-context",
+      "text": "![https://www.stablecabal.org](https://www.g-diffuser.com/stablecabal.png) https://www.stablecabal.org"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "PowerShell/PowerShell",
+      "status": "candidate-context",
+      "text": "PowerShell for every system!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PowerShell/PowerShell",
+      "status": "candidate-context",
+      "text": "Welcome to the PowerShell GitHub Community!"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "watchexec/watchexec",
+      "status": "candidate-context",
+      "text": "Executes commands in response to file modifications"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "watchexec/watchexec",
+      "status": "candidate-context",
+      "text": "[![CI status on main branch](https://github.com/watchexec/watchexec/actions/workflows/tests.yml/badge.svg)](https://github.com/watchexec/watchexec/actions/workflows/tests.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nativium/nativium",
+      "status": "candidate-context",
+      "text": "C++ Multiplatform Modular Toolkit Template"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nativium/nativium",
+      "status": "candidate-context",
+      "text": "Linux"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "boostorg/beast",
+      "status": "candidate-context",
+      "text": "HTTP and WebSocket built on Boost.Asio in C++11"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "boostorg/beast",
+      "status": "candidate-context",
+      "text": "<img width=\"880\" height = \"80\" alt = \"Boost.Beast Title\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "tmux-plugins/tmux-yank",
+      "status": "candidate-context",
+      "text": "Tmux plugin for copying to system clipboard. Works on OSX, Linux and Cygwin."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tmux-plugins/tmux-yank",
+      "status": "candidate-context",
+      "text": "[![Build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ng-log/ng-log",
+      "status": "candidate-context",
+      "text": "C++ library for application-level logging"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ng-log/ng-log",
+      "status": "candidate-context",
+      "text": "Linux"
     }
   ],
   "candidate_glosses": [
@@ -2148,6 +2382,126 @@
       "source_repo": "Swordfish90/cool-retro-term",
       "status": "candidate",
       "text": "|> Default Amber|C:\\ IBM DOS|$ Default Green|"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pacstall/pacstall",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "xmake-io/xmake",
+      "status": "candidate",
+      "text": "Linux"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "xmake-io/xmake",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "miurahr/aqtinstall",
+      "status": "candidate",
+      "text": "Another Qt installer(aqt)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aws/amazon-q-developer-cli",
+      "status": "candidate",
+      "text": "> [!IMPORTANT]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "2KAbhishek/awesome2k",
+      "status": "candidate",
+      "text": "<div align = \"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ClickHouse/clickhouse-cpp",
+      "status": "candidate",
+      "text": "Linux"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "raku-community-modules/Terminal-WCWidth",
+      "status": "candidate",
+      "text": "Linux"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/glog",
+      "status": "candidate",
+      "text": "Linux"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NVIDIA/gdrcopy",
+      "status": "candidate",
+      "text": "A low-latency GPU memory copy library based on NVIDIA GPUDirect RDMA"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gershnik/wsdd-native",
+      "status": "candidate",
+      "text": "[![Version][version_badge]][releases]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AmberSahdev/Open-Interface",
+      "status": "candidate",
+      "text": "<picture>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NiLuJe/FBInk",
+      "status": "candidate",
+      "text": "[![License](https://img.shields.io/github/license/NiLuJe/FBInk.svg)](/LICENSE) [![Codacy Badge](https://api.codacy.com/project/badge/Grade/0e955c5239c54b10a167bbde1c2d75c1)](https://www.codacy.com/app/NiLuJe/FBInk?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=NiL\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "parlance-zz/g-diffuser-bot",
+      "status": "candidate",
+      "text": "![https://www.stablecabal.org](https://www.g-diffuser.com/stablecabal.png) https://www.stablecabal.org"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PowerShell/PowerShell",
+      "status": "candidate",
+      "text": "Welcome to the PowerShell GitHub Community!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "watchexec/watchexec",
+      "status": "candidate",
+      "text": "[![CI status on main branch](https://github.com/watchexec/watchexec/actions/workflows/tests.yml/badge.svg)](https://github.com/watchexec/watchexec/actions/workflows/tests.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nativium/nativium",
+      "status": "candidate",
+      "text": "Linux"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "boostorg/beast",
+      "status": "candidate",
+      "text": "<img width=\"880\" height = \"80\" alt = \"Boost.Beast Title\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tmux-plugins/tmux-yank",
+      "status": "candidate",
+      "text": "[![Build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ng-log/ng-log",
+      "status": "candidate",
+      "text": "Linux"
     }
   ],
   "candidate_related_terms": [
@@ -3109,11 +3463,197 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "Swordfish90/cool-retro-term"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "pacstall/pacstall"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/linux.yml",
+      "source_repo": "xmake-io/xmake"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "xmake-io/xmake"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "lambdalisue/vim-fern"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/linux.yml",
+      "source_repo": "rust-lang/rustfmt"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "miurahr/aqtinstall"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "aws/amazon-q-developer-cli"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "2KAbhishek/awesome2k"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "microsoft/Microsoft-Performance-Tools-Linux-Android"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/linux.yml",
+      "source_repo": "ClickHouse/clickhouse-cpp"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/linux.yml",
+      "source_repo": "raku-community-modules/Terminal-WCWidth"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/linux.yml",
+      "source_repo": "google/glog"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "containers/podman"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/linux.yml",
+      "source_repo": "astral-sh/python-build-standalone"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "chakra-core/ChakraCore"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "NVIDIA/gdrcopy"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "webinstall/webi-installers"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "gershnik/wsdd-native"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "AmberSahdev/Open-Interface"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "preservim/tagbar"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/linux.yml",
+      "source_repo": "harfbuzz/harfbuzz"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "NiLuJe/FBInk"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "invoke-ai/InvokeAI"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "parlance-zz/g-diffuser-bot"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "PowerShell/PowerShell"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "alacritty/alacritty"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "watchexec/watchexec"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/linux.yml",
+      "source_repo": "nativium/nativium"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "boostorg/beast"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "tmux-plugins/tmux-yank"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/linux.yml",
+      "source_repo": "ng-log/ng-log"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

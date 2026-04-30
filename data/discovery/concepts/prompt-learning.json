@@ -19,6 +19,18 @@
       "source_repo": "CLUEbenchmark/pCLUE",
       "status": "candidate-context",
       "text": "pCLUE: Large-scale Prompt-based Dataset for Multi-task and Zero-shot Learning in Chinese"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "thunlp/OpenPrompt",
+      "status": "candidate-context",
+      "text": "An Open-Source Framework for Prompt-Learning."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "thunlp/OpenPrompt",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "CLUEbenchmark/pCLUE",
       "status": "candidate",
       "text": "pCLUE: Large-scale Prompt-based Dataset for Multi-task and Zero-shot Learning in Chinese"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "thunlp/OpenPrompt",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "CLUEbenchmark/pCLUE"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "thunlp/OpenPrompt"
     }
   ],
   "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -19,6 +19,30 @@
       "source_repo": "SHI-Labs/NATTEN",
       "status": "candidate-context",
       "text": "![NATTENLogo](docs/assets/natten_dark.png#gh-dark-mode-only) ![NATTENLogo](docs/assets/natten_light.png#gh-light-mode-only)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mit-han-lab/radial-attention",
+      "status": "candidate-context",
+      "text": "[NeurIPS 2025] Radial Attention: O(nlogn) Sparse Attention with Energy Decay for Long Video Generation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mit-han-lab/radial-attention",
+      "status": "candidate-context",
+      "text": "**[2025-10-29]** Radial+SageAttention2++ is now supported on RTX-5090 GPU!"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "thu-ml/SpargeAttn",
+      "status": "candidate-context",
+      "text": "[ICML2025] SpargeAttention: A training-free sparse attention that accelerates any model inference."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "thu-ml/SpargeAttn",
+      "status": "candidate-context",
+      "text": "We highly recommend using the `spas_sage2_attn_meansim_topk_cuda` and `block_sparse_sage2_attn_cuda` APIs. They are plug-and-play and customizable:"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +51,18 @@
       "source_repo": "SHI-Labs/NATTEN",
       "status": "candidate",
       "text": "![NATTENLogo](docs/assets/natten_dark.png#gh-dark-mode-only) ![NATTENLogo](docs/assets/natten_light.png#gh-light-mode-only)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mit-han-lab/radial-attention",
+      "status": "candidate",
+      "text": "**[2025-10-29]** Radial+SageAttention2++ is now supported on RTX-5090 GPU!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "thu-ml/SpargeAttn",
+      "status": "candidate",
+      "text": "We highly recommend using the `spas_sage2_attn_meansim_topk_cuda` and `block_sparse_sage2_attn_cuda` APIs. They are plug-and-play and customizable:"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +76,23 @@
       "observed_at": "2026-04-22T01:04:16.609102+00:00",
       "source_file": null,
       "source_repo": "SHI-Labs/NATTEN"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "mit-han-lab/radial-attention"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "thu-ml/SpargeAttn"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

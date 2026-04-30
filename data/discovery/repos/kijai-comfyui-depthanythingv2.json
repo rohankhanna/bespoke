@@ -1,0 +1,79 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "Comfy-Org/publish-node-action@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "kijai/ComfyUI-DepthAnythingV2",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "kijai/ComfyUI-DepthAnythingV2",
+      "target": "Comfy-Org/publish-node-action@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "kijai/ComfyUI-DepthAnythingV2",
+      "target": "Publish to Comfy registry",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T01:57:58.575124+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 315
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 645
+    },
+    {
+      "path": "requirements.txt",
+      "size": 26
+    },
+    {
+      "path": ".github/workflows/publish.yml",
+      "size": 581
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Simple DepthAnythingV2 inference node for monocular depth estimation",
+    "fork": false,
+    "full_name": "kijai/ComfyUI-DepthAnythingV2",
+    "html_url": "https://github.com/kijai/ComfyUI-DepthAnythingV2",
+    "language": "Python",
+    "pushed_at": "2026-03-06T16:38:50Z",
+    "stargazers_count": 411,
+    "topics": [],
+    "updated_at": "2026-04-25T04:47:05Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Publish to Comfy registry",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish.yml",
+      "term": "Publish to Comfy registry"
+    }
+  ]
+}

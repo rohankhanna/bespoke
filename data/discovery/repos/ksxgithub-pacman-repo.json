@@ -1,0 +1,121 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "KSXGitHub/pacman-repo",
+      "target": "ksxgithub/aur-packages-builder",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "KSXGitHub/pacman-repo",
+      "target": "ksxgithub/cargo-scripts-builder",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "KSXGitHub/pacman-repo",
+      "target": "ksxgithub/personal-pacman-packages",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "KSXGitHub/pacman-repo",
+      "target": "ksxgithub/personal-crates",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "KSXGitHub/pacman-repo",
+      "target": "archlinux",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "KSXGitHub/pacman-repo",
+      "target": "pacman",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "KSXGitHub/pacman-repo",
+      "target": "repository",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T04:09:33.769310+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 544
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Repository of Arch Linux packages for my personal use",
+    "fork": false,
+    "full_name": "KSXGitHub/pacman-repo",
+    "html_url": "https://github.com/KSXGitHub/pacman-repo",
+    "language": null,
+    "pushed_at": "2024-04-27T09:28:48Z",
+    "stargazers_count": 4,
+    "topics": [
+      "archlinux",
+      "pacman",
+      "repository"
+    ],
+    "updated_at": "2024-07-08T14:44:37Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ksxgithub/aur-packages-builder",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ksxgithub/cargo-scripts-builder",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ksxgithub/personal-crates",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ksxgithub/personal-pacman-packages",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Repository of Arch Linux packages for my personal use.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "archlinux"
+    },
+    {
+      "context_snippet": "Repository of Arch Linux packages for my personal use.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pacman"
+    },
+    {
+      "context_snippet": "Repository of Arch Linux packages for my personal use.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "repository"
+    }
+  ]
+}

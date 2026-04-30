@@ -1,0 +1,34 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "s9roll7/animatediff-cli-prompt-travel",
+      "target": "patrickvonplaten/controlnet_aux",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "s9roll7/animatediff-cli-prompt-travel",
+      "target": "luosiallen/latent-consistency-model",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "s9roll7/animatediff-cli-prompt-travel",
+      "target": "neggles/animatediff-cli",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "s9roll7/animatediff-cli-prompt-travel",
+      "target": "nihui/rife-ncnn-vulkan",
+      "target_type": "repository"
+    }
+  ],
+  "generated_at": "2026-04-30T00:37:16.824464+00:00",
+  "source_repo": "s9roll7/animatediff-cli-prompt-travel"
+}

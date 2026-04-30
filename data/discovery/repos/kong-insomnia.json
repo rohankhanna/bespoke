@@ -1,0 +1,1247 @@
+{
+  "components": [
+    {
+      "component": "@getinsomnia/node-libcurl",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "ajv",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@eslint/js",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@types/chai",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@types/har-format",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@types/mocha",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@types/node",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@typescript-eslint/eslint-plugin",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@typescript-eslint/parser",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "esbuild",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "esbuild-runner",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "eslint",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "eslint-config-prettier",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "eslint-plugin-playwright",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "eslint-plugin-react",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "eslint-plugin-react-hooks",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "eslint-plugin-simple-import-sort",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "eslint-plugin-unicorn",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "globals",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "madge",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "patch-package",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "prettier",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "prettier-plugin-tailwindcss",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "tslib",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "type-fest",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "typescript",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "typescript-eslint",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "vitest",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "Homebrew/actions/setup-homebrew@266845213695c3047d210b2e8fbc42ecdaf45802",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/homebrew.yml"
+    },
+    {
+      "component": "actions/cache@27d5ce7f107fe9357f9df03efb73ab90386fccae",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/homebrew.yml"
+    },
+    {
+      "component": "Homebrew/actions/git-user-config@266845213695c3047d210b2e8fbc42ecdaf45802",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/homebrew.yml"
+    },
+    {
+      "component": "Homebrew/actions/bump-packages@266845213695c3047d210b2e8fbc42ecdaf45802",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/homebrew.yml"
+    },
+    {
+      "component": "Homebrew/actions/bump-packages@266845213695c3047d210b2e8fbc42ecdaf45802",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/homebrew.yml"
+    },
+    {
+      "component": "Homebrew/actions/bump-packages@266845213695c3047d210b2e8fbc42ecdaf45802",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/homebrew.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-build.yml"
+    },
+    {
+      "component": "Kong/public-shared-actions/security-actions/sca@a18abf762d6e2444bcbfd20de70451ea1e3bc1b1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-build.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-build.yml"
+    },
+    {
+      "component": "actions/setup-node@53b83947a5a98c8d113130e565377fae1a50d02f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-build.yml"
+    },
+    {
+      "component": "digicert/code-signing-software-trust-action@9b30180369343eb1ce0dcbebb933cfa3e17b6cc8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-build.yml"
+    },
+    {
+      "component": "digicert/code-signing-software-trust-action@9b30180369343eb1ce0dcbebb933cfa3e17b6cc8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-build.yml"
+    },
+    {
+      "component": "digicert/code-signing-software-trust-action@9b30180369343eb1ce0dcbebb933cfa3e17b6cc8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-build.yml"
+    },
+    {
+      "component": "lando/notarize-action@b5c3ef16cf2fbcf2af26dc58c90255ec242abeed",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-build.yml"
+    },
+    {
+      "component": "BoundfoxStudios/action-xcode-staple@1e2200b448c6ed4dd44b963ff17d3e340fc6b064",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-build.yml"
+    },
+    {
+      "component": "lando/notarize-action@b5c3ef16cf2fbcf2af26dc58c90255ec242abeed",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-build.yml"
+    },
+    {
+      "component": "docker/login-action@4907a6ddec9925e35a0a9e82d7399ccc52663121",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-build.yml"
+    },
+    {
+      "component": "Kong/public-shared-actions/security-actions/scan-docker-image@29dd57c7c19389e07390c1c9fe83aef6ff0c424a",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-build.yml"
+    },
+    {
+      "component": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-build.yml"
+    },
+    {
+      "component": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-build.yml"
+    },
+    {
+      "component": "kt3k/update-pr-description@fef8b17c6648e0daa550d2ed6b5cf140d282574e",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-build.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-publish.yml"
+    },
+    {
+      "component": "actions/setup-node@53b83947a5a98c8d113130e565377fae1a50d02f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-publish.yml"
+    },
+    {
+      "component": "dawidd6/action-download-artifact@8305c0f1062bb0d184d09ef4493ecb9288447732",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-publish.yml"
+    },
+    {
+      "component": "ncipollo/release-action@440c8c1cb0ed28b9f43e4d1d670870f059653174",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-publish.yml"
+    },
+    {
+      "component": "xresloader/upload-to-github-release@d29300fdff9f0fcd7c3eb960c490b2a6640fbf50",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-publish.yml"
+    },
+    {
+      "component": "docker/login-action@4907a6ddec9925e35a0a9e82d7399ccc52663121",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-publish.yml"
+    },
+    {
+      "component": "docker/metadata-action@902fa8ec7d6ecbf8d84d538b9b233a880e428804",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-publish.yml"
+    },
+    {
+      "component": "regclient/actions/regctl-installer@ce5fd131e371ffcdd7508b478cb223b3511a9183",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-publish.yml"
+    },
+    {
+      "component": "Kong/public-shared-actions/security-actions/sign-docker-image@2f02738ecb1670f01391162e43fe3f5d4e7942a1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-publish.yml"
+    },
+    {
+      "component": "canonical/action-publish@214b86e5ca036ead1668c79afb81e550e6c54d40",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-publish.yml"
+    },
+    {
+      "component": "docker://kong/release-script:latest",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-publish.yml"
+    },
+    {
+      "component": "slsa-framework/slsa-github-generator/.github/workflows/generator_generic_slsa3.yml@v2.1.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-publish.yml"
+    },
+    {
+      "component": "slsa-framework/slsa-github-generator/.github/workflows/generator_container_slsa3.yml@v2.1.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-publish.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-recurring.yml"
+    },
+    {
+      "component": "actions/setup-node@53b83947a5a98c8d113130e565377fae1a50d02f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-recurring.yml"
+    },
+    {
+      "component": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-recurring.yml"
+    },
+    {
+      "component": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-recurring.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-start.yml"
+    },
+    {
+      "component": "actions/setup-node@53b83947a5a98c8d113130e565377fae1a50d02f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-start.yml"
+    },
+    {
+      "component": "peterjgrainger/action-create-branch@c2800a3a9edbba2218da6861fa46496cf8f3195a",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-start.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-start.yml"
+    },
+    {
+      "component": "Homebrew/actions/git-user-config@266845213695c3047d210b2e8fbc42ecdaf45802",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-start.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sast.yml"
+    },
+    {
+      "component": "Kong/public-shared-actions/security-actions/semgrep@a18abf762d6e2444bcbfd20de70451ea1e3bc1b1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sast.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-cli.yml"
+    },
+    {
+      "component": "actions/setup-node@53b83947a5a98c8d113130e565377fae1a50d02f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-cli.yml"
+    },
+    {
+      "component": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-cli.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-e2e.yml"
+    },
+    {
+      "component": "actions/setup-node@48b55a011bda9f5d6aeb4c2d9c7362e8dae4041e",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-e2e.yml"
+    },
+    {
+      "component": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-e2e.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-e2e.yml"
+    },
+    {
+      "component": "actions/setup-node@48b55a011bda9f5d6aeb4c2d9c7362e8dae4041e",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-e2e.yml"
+    },
+    {
+      "component": "actions/download-artifact@3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-e2e.yml"
+    },
+    {
+      "component": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-e2e.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Kong/insomnia",
+      "target": "jozsefsallai/insomnia-documenter",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Kong/insomnia",
+      "target": "swinton/github-rest-apis-for-insomnia",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Kong/insomnia",
+      "target": "mlabouardy/swaggymnia",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "Kong/insomnia",
+      "target": "@getinsomnia/node-libcurl",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "Kong/insomnia",
+      "target": "ajv",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Kong/insomnia",
+      "target": "@eslint/js",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Kong/insomnia",
+      "target": "@types/chai",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Kong/insomnia",
+      "target": "@types/har-format",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Kong/insomnia",
+      "target": "@types/mocha",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Kong/insomnia",
+      "target": "@types/node",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Kong/insomnia",
+      "target": "@typescript-eslint/eslint-plugin",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Kong/insomnia",
+      "target": "@typescript-eslint/parser",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Kong/insomnia",
+      "target": "esbuild",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Kong/insomnia",
+      "target": "esbuild-runner",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Kong/insomnia",
+      "target": "eslint",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Kong/insomnia",
+      "target": "eslint-config-prettier",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Kong/insomnia",
+      "target": "eslint-plugin-playwright",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Kong/insomnia",
+      "target": "eslint-plugin-react",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Kong/insomnia",
+      "target": "eslint-plugin-react-hooks",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Kong/insomnia",
+      "target": "eslint-plugin-simple-import-sort",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Kong/insomnia",
+      "target": "eslint-plugin-unicorn",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Kong/insomnia",
+      "target": "globals",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Kong/insomnia",
+      "target": "madge",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Kong/insomnia",
+      "target": "patch-package",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Kong/insomnia",
+      "target": "prettier",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Kong/insomnia",
+      "target": "prettier-plugin-tailwindcss",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Kong/insomnia",
+      "target": "tslib",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Kong/insomnia",
+      "target": "type-fest",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Kong/insomnia",
+      "target": "typescript",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Kong/insomnia",
+      "target": "typescript-eslint",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Kong/insomnia",
+      "target": "vitest",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/homebrew.yml",
+      "source_repo": "Kong/insomnia",
+      "target": "Homebrew/actions/setup-homebrew@266845213695c3047d210b2e8fbc42ecdaf45802",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/homebrew.yml",
+      "source_repo": "Kong/insomnia",
+      "target": "actions/cache@27d5ce7f107fe9357f9df03efb73ab90386fccae",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/homebrew.yml",
+      "source_repo": "Kong/insomnia",
+      "target": "Homebrew/actions/git-user-config@266845213695c3047d210b2e8fbc42ecdaf45802",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/homebrew.yml",
+      "source_repo": "Kong/insomnia",
+      "target": "Homebrew/actions/bump-packages@266845213695c3047d210b2e8fbc42ecdaf45802",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/homebrew.yml",
+      "source_repo": "Kong/insomnia",
+      "target": "Update Homebrew",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-build.yml",
+      "source_repo": "Kong/insomnia",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-build.yml",
+      "source_repo": "Kong/insomnia",
+      "target": "Kong/public-shared-actions/security-actions/sca@a18abf762d6e2444bcbfd20de70451ea1e3bc1b1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-build.yml",
+      "source_repo": "Kong/insomnia",
+      "target": "actions/setup-node@53b83947a5a98c8d113130e565377fae1a50d02f",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-build.yml",
+      "source_repo": "Kong/insomnia",
+      "target": "digicert/code-signing-software-trust-action@9b30180369343eb1ce0dcbebb933cfa3e17b6cc8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-build.yml",
+      "source_repo": "Kong/insomnia",
+      "target": "lando/notarize-action@b5c3ef16cf2fbcf2af26dc58c90255ec242abeed",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-build.yml",
+      "source_repo": "Kong/insomnia",
+      "target": "BoundfoxStudios/action-xcode-staple@1e2200b448c6ed4dd44b963ff17d3e340fc6b064",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-build.yml",
+      "source_repo": "Kong/insomnia",
+      "target": "docker/login-action@4907a6ddec9925e35a0a9e82d7399ccc52663121",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-build.yml",
+      "source_repo": "Kong/insomnia",
+      "target": "Kong/public-shared-actions/security-actions/scan-docker-image@29dd57c7c19389e07390c1c9fe83aef6ff0c424a",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-build.yml",
+      "source_repo": "Kong/insomnia",
+      "target": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-build.yml",
+      "source_repo": "Kong/insomnia",
+      "target": "kt3k/update-pr-description@fef8b17c6648e0daa550d2ed6b5cf140d282574e",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-build.yml",
+      "source_repo": "Kong/insomnia",
+      "target": "Release Build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-publish.yml",
+      "source_repo": "Kong/insomnia",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-publish.yml",
+      "source_repo": "Kong/insomnia",
+      "target": "actions/setup-node@53b83947a5a98c8d113130e565377fae1a50d02f",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-publish.yml",
+      "source_repo": "Kong/insomnia",
+      "target": "dawidd6/action-download-artifact@8305c0f1062bb0d184d09ef4493ecb9288447732",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-publish.yml",
+      "source_repo": "Kong/insomnia",
+      "target": "ncipollo/release-action@440c8c1cb0ed28b9f43e4d1d670870f059653174",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-publish.yml",
+      "source_repo": "Kong/insomnia",
+      "target": "xresloader/upload-to-github-release@d29300fdff9f0fcd7c3eb960c490b2a6640fbf50",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-publish.yml",
+      "source_repo": "Kong/insomnia",
+      "target": "docker/login-action@4907a6ddec9925e35a0a9e82d7399ccc52663121",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-publish.yml",
+      "source_repo": "Kong/insomnia",
+      "target": "docker/metadata-action@902fa8ec7d6ecbf8d84d538b9b233a880e428804",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-publish.yml",
+      "source_repo": "Kong/insomnia",
+      "target": "regclient/actions/regctl-installer@ce5fd131e371ffcdd7508b478cb223b3511a9183",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-publish.yml",
+      "source_repo": "Kong/insomnia",
+      "target": "Kong/public-shared-actions/security-actions/sign-docker-image@2f02738ecb1670f01391162e43fe3f5d4e7942a1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-publish.yml",
+      "source_repo": "Kong/insomnia",
+      "target": "canonical/action-publish@214b86e5ca036ead1668c79afb81e550e6c54d40",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-publish.yml",
+      "source_repo": "Kong/insomnia",
+      "target": "docker://kong/release-script:latest",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-publish.yml",
+      "source_repo": "Kong/insomnia",
+      "target": "slsa-framework/slsa-github-generator/.github/workflows/generator_generic_slsa3.yml@v2.1.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-publish.yml",
+      "source_repo": "Kong/insomnia",
+      "target": "slsa-framework/slsa-github-generator/.github/workflows/generator_container_slsa3.yml@v2.1.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-publish.yml",
+      "source_repo": "Kong/insomnia",
+      "target": "Release Publish",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-recurring.yml",
+      "source_repo": "Kong/insomnia",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-recurring.yml",
+      "source_repo": "Kong/insomnia",
+      "target": "actions/setup-node@53b83947a5a98c8d113130e565377fae1a50d02f",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-recurring.yml",
+      "source_repo": "Kong/insomnia",
+      "target": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-recurring.yml",
+      "source_repo": "Kong/insomnia",
+      "target": "Release Recurring",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-start.yml",
+      "source_repo": "Kong/insomnia",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-start.yml",
+      "source_repo": "Kong/insomnia",
+      "target": "actions/setup-node@53b83947a5a98c8d113130e565377fae1a50d02f",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-start.yml",
+      "source_repo": "Kong/insomnia",
+      "target": "peterjgrainger/action-create-branch@c2800a3a9edbba2218da6861fa46496cf8f3195a",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-start.yml",
+      "source_repo": "Kong/insomnia",
+      "target": "Homebrew/actions/git-user-config@266845213695c3047d210b2e8fbc42ecdaf45802",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-start.yml",
+      "source_repo": "Kong/insomnia",
+      "target": "Release Start",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sast.yml",
+      "source_repo": "Kong/insomnia",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sast.yml",
+      "source_repo": "Kong/insomnia",
+      "target": "Kong/public-shared-actions/security-actions/semgrep@a18abf762d6e2444bcbfd20de70451ea1e3bc1b1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/sast.yml",
+      "source_repo": "Kong/insomnia",
+      "target": "SAST",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-cli.yml",
+      "source_repo": "Kong/insomnia",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-cli.yml",
+      "source_repo": "Kong/insomnia",
+      "target": "actions/setup-node@53b83947a5a98c8d113130e565377fae1a50d02f",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-cli.yml",
+      "source_repo": "Kong/insomnia",
+      "target": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test-cli.yml",
+      "source_repo": "Kong/insomnia",
+      "target": "Test CLI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-e2e.yml",
+      "source_repo": "Kong/insomnia",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-e2e.yml",
+      "source_repo": "Kong/insomnia",
+      "target": "actions/setup-node@48b55a011bda9f5d6aeb4c2d9c7362e8dae4041e",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-e2e.yml",
+      "source_repo": "Kong/insomnia",
+      "target": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-e2e.yml",
+      "source_repo": "Kong/insomnia",
+      "target": "actions/download-artifact@3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test-e2e.yml",
+      "source_repo": "Kong/insomnia",
+      "target": "e2e App Tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Kong/insomnia",
+      "target": "api-client",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Kong/insomnia",
+      "target": "api-design",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Kong/insomnia",
+      "target": "curl",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Kong/insomnia",
+      "target": "electron-app",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Kong/insomnia",
+      "target": "graphql",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Kong/insomnia",
+      "target": "grpc",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Kong/insomnia",
+      "target": "http-client",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Kong/insomnia",
+      "target": "rest-api",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Kong/insomnia",
+      "target": "websockets",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T02:54:34.058190+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8208
+    },
+    {
+      "path": "package.json",
+      "size": 3488
+    },
+    {
+      "path": ".github/workflows/homebrew.yml",
+      "size": 2167
+    },
+    {
+      "path": ".github/workflows/release-build.yml",
+      "size": 18459
+    },
+    {
+      "path": ".github/workflows/release-publish.yml",
+      "size": 16039
+    },
+    {
+      "path": ".github/workflows/release-recurring.yml",
+      "size": 3619
+    },
+    {
+      "path": ".github/workflows/release-start.yml",
+      "size": 4886
+    },
+    {
+      "path": ".github/workflows/sast.yml",
+      "size": 521
+    },
+    {
+      "path": ".github/workflows/test-cli.yml",
+      "size": 2620
+    },
+    {
+      "path": ".github/workflows/test-e2e.yml",
+      "size": 2995
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "develop",
+    "description": "The open-source, cross-platform API client for GraphQL, REST, WebSockets, SSE and gRPC. With Cloud, Local and Git storage.",
+    "fork": false,
+    "full_name": "Kong/insomnia",
+    "html_url": "https://github.com/Kong/insomnia",
+    "language": "TypeScript",
+    "pushed_at": "2026-04-29T08:28:42Z",
+    "stargazers_count": 38363,
+    "topics": [
+      "api",
+      "api-client",
+      "api-design",
+      "curl",
+      "electron-app",
+      "graphql",
+      "grpc",
+      "http-client",
+      "rest-api",
+      "websockets"
+    ],
+    "updated_at": "2026-04-30T00:32:16Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jozsefsallai/insomnia-documenter",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mlabouardy/swaggymnia",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "swinton/github-rest-apis-for-insomnia",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Update Homebrew",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/homebrew.yml",
+      "term": "Update Homebrew"
+    },
+    {
+      "context_snippet": "Release Build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-build.yml",
+      "term": "Release Build"
+    },
+    {
+      "context_snippet": "Release Publish",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-publish.yml",
+      "term": "Release Publish"
+    },
+    {
+      "context_snippet": "Release Recurring",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-recurring.yml",
+      "term": "Release Recurring"
+    },
+    {
+      "context_snippet": "Release Start",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-start.yml",
+      "term": "Release Start"
+    },
+    {
+      "context_snippet": "SAST",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/sast.yml",
+      "term": "SAST"
+    },
+    {
+      "context_snippet": "Test CLI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test-cli.yml",
+      "term": "Test CLI"
+    },
+    {
+      "context_snippet": "e2e App Tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test-e2e.yml",
+      "term": "e2e App Tests"
+    },
+    {
+      "context_snippet": "[![Website](https://img.shields.io/badge/Get%20started%20for%20free-8A2BE2)](https://insomnia.rest)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "api-client"
+    },
+    {
+      "context_snippet": "[![Website](https://img.shields.io/badge/Get%20started%20for%20free-8A2BE2)](https://insomnia.rest)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "api-design"
+    },
+    {
+      "context_snippet": "[![Website](https://img.shields.io/badge/Get%20started%20for%20free-8A2BE2)](https://insomnia.rest)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "curl"
+    },
+    {
+      "context_snippet": "[![Website](https://img.shields.io/badge/Get%20started%20for%20free-8A2BE2)](https://insomnia.rest)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "electron-app"
+    },
+    {
+      "context_snippet": "[![Website](https://img.shields.io/badge/Get%20started%20for%20free-8A2BE2)](https://insomnia.rest)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "graphql"
+    },
+    {
+      "context_snippet": "[![Website](https://img.shields.io/badge/Get%20started%20for%20free-8A2BE2)](https://insomnia.rest)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "grpc"
+    },
+    {
+      "context_snippet": "[![Website](https://img.shields.io/badge/Get%20started%20for%20free-8A2BE2)](https://insomnia.rest)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "http-client"
+    },
+    {
+      "context_snippet": "[![Website](https://img.shields.io/badge/Get%20started%20for%20free-8A2BE2)](https://insomnia.rest)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rest-api"
+    },
+    {
+      "context_snippet": "[![Website](https://img.shields.io/badge/Get%20started%20for%20free-8A2BE2)](https://insomnia.rest)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "websockets"
+    }
+  ]
+}

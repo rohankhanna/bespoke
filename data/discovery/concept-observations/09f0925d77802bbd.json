@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A ClojureScript library of reusable components for Reagent"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "re-com.day8.com.au"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "re-com.day8.com.au"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "re-com.day8.com.au",
+      "sense_id": "re-com.day8.com.au#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "re-com.day8.com.au",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "re-com.day8.com.au",
+  "observation_id": "09f0925d77802bbd",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-30T00:37:16.824464+00:00",
+  "observed_text": "re-com.day8.com.au",
+  "source_context_snippet": "re-com.day8.com.au",
+  "source_file": ".github/workflows/docs-workflow.yml",
+  "source_repo": "day8/re-com",
+  "source_repo_description": "A ClojureScript library of reusable components for Reagent"
+}

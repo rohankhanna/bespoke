@@ -1,0 +1,214 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "openshift/origin",
+      "target": "openshift/okd",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "openshift/origin",
+      "target": "openshift/kubernetes",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "openshift/origin",
+      "target": "caas",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "openshift/origin",
+      "target": "ci-cd",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "openshift/origin",
+      "target": "containers",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "openshift/origin",
+      "target": "continuous-delivery",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "openshift/origin",
+      "target": "continuous-deployment",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "openshift/origin",
+      "target": "continuous-integration",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "openshift/origin",
+      "target": "devops",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "openshift/origin",
+      "target": "kubernetes",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "openshift/origin",
+      "target": "openshift",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "openshift/origin",
+      "target": "openshift-origin",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "openshift/origin",
+      "target": "paas",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T01:49:10.563530+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6849
+    },
+    {
+      "path": "go.mod",
+      "size": 27078
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Conformance test suite for OpenShift",
+    "fork": false,
+    "full_name": "openshift/origin",
+    "html_url": "https://github.com/openshift/origin",
+    "language": "Go",
+    "pushed_at": "2026-04-29T23:46:21Z",
+    "stargazers_count": 8647,
+    "topics": [
+      "caas",
+      "ci-cd",
+      "containers",
+      "continuous-delivery",
+      "continuous-deployment",
+      "continuous-integration",
+      "devops",
+      "go",
+      "kubernetes",
+      "openshift",
+      "openshift-origin",
+      "paas"
+    ],
+    "updated_at": "2026-04-29T19:21:23Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "openshift/kubernetes",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "openshift/okd",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Origin Kubernetes",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "caas"
+    },
+    {
+      "context_snippet": "Origin Kubernetes",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ci-cd"
+    },
+    {
+      "context_snippet": "Origin Kubernetes",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "containers"
+    },
+    {
+      "context_snippet": "Origin Kubernetes",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "continuous-delivery"
+    },
+    {
+      "context_snippet": "Origin Kubernetes",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "continuous-deployment"
+    },
+    {
+      "context_snippet": "Origin Kubernetes",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "continuous-integration"
+    },
+    {
+      "context_snippet": "Origin Kubernetes",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "devops"
+    },
+    {
+      "context_snippet": "Origin Kubernetes",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "kubernetes"
+    },
+    {
+      "context_snippet": "Origin Kubernetes",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "openshift"
+    },
+    {
+      "context_snippet": "Origin Kubernetes",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "openshift-origin"
+    },
+    {
+      "context_snippet": "Origin Kubernetes",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "paas"
+    }
+  ]
+}

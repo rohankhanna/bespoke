@@ -1,0 +1,107 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "bmild/nerf",
+      "target": "pmneila/pymcubes",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "bmild/nerf",
+      "target": "mikedh/trimesh",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "bmild/nerf",
+      "target": "mmatl/pyrender",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "bmild/nerf",
+      "target": "fyusion/llff",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bmild/nerf",
+      "target": "nerf",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bmild/nerf",
+      "target": "neural-radiance-fields",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T01:58:11.252429+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6426
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Code release for NeRF (Neural Radiance Fields)",
+    "fork": false,
+    "full_name": "bmild/nerf",
+    "html_url": "https://github.com/bmild/nerf",
+    "language": "Jupyter Notebook",
+    "pushed_at": "2025-04-12T16:26:12Z",
+    "stargazers_count": 10864,
+    "topics": [
+      "nerf",
+      "neural-radiance-fields"
+    ],
+    "updated_at": "2026-04-29T11:28:11Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "fyusion/llff",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mikedh/trimesh",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mmatl/pyrender",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "pmneila/pymcubes",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[![Open Tiny-NeRF in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/bmild/nerf/blob/master/tiny_nerf.ipynb)<br>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nerf"
+    },
+    {
+      "context_snippet": "[![Open Tiny-NeRF in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/bmild/nerf/blob/master/tiny_nerf.ipynb)<br>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "neural-radiance-fields"
+    }
+  ]
+}

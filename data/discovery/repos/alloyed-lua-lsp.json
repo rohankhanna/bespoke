@@ -1,0 +1,68 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Alloyed/lua-lsp",
+      "target": "autocomplete",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Alloyed/lua-lsp",
+      "target": "language-server",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Alloyed/lua-lsp",
+      "target": "language-server-protocol",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T02:59:24.598629+00:00",
+  "fetched_files": [],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "master",
+    "description": "A Lua language server",
+    "fork": false,
+    "full_name": "Alloyed/lua-lsp",
+    "html_url": "https://github.com/Alloyed/lua-lsp",
+    "language": "Lua",
+    "pushed_at": "2025-08-12T02:08:10Z",
+    "stargazers_count": 291,
+    "topics": [
+      "autocomplete",
+      "language-server",
+      "language-server-protocol",
+      "lua"
+    ],
+    "updated_at": "2026-04-18T04:31:17Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "A Lua language server",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "autocomplete"
+    },
+    {
+      "context_snippet": "A Lua language server",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "language-server"
+    },
+    {
+      "context_snippet": "A Lua language server",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "language-server-protocol"
+    }
+  ]
+}

@@ -1,0 +1,185 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/poetry-lint.yml"
+    },
+    {
+      "component": "actions/setup-python@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/poetry-lint.yml"
+    },
+    {
+      "component": "snok/install-poetry@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/poetry-lint.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/poetry-tests.yml"
+    },
+    {
+      "component": "actions/setup-python@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/poetry-tests.yml"
+    },
+    {
+      "component": "snok/install-poetry@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/poetry-tests.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "actions/setup-python@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "agentsea/taskara",
+      "target": "agentsea/threadmem",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/poetry-lint.yml",
+      "source_repo": "agentsea/taskara",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/poetry-lint.yml",
+      "source_repo": "agentsea/taskara",
+      "target": "actions/setup-python@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/poetry-lint.yml",
+      "source_repo": "agentsea/taskara",
+      "target": "snok/install-poetry@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/poetry-lint.yml",
+      "source_repo": "agentsea/taskara",
+      "target": "Poetry Lint",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/poetry-tests.yml",
+      "source_repo": "agentsea/taskara",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/poetry-tests.yml",
+      "source_repo": "agentsea/taskara",
+      "target": "actions/setup-python@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/poetry-tests.yml",
+      "source_repo": "agentsea/taskara",
+      "target": "snok/install-poetry@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/poetry-tests.yml",
+      "source_repo": "agentsea/taskara",
+      "target": "Poetry Tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "agentsea/taskara",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "agentsea/taskara",
+      "target": "actions/setup-python@v2",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-04-30T02:50:41.363752+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3420
+    },
+    {
+      "path": "Dockerfile",
+      "size": 248
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 1458
+    },
+    {
+      "path": ".github/workflows/poetry-lint.yml",
+      "size": 485
+    },
+    {
+      "path": ".github/workflows/poetry-tests.yml",
+      "size": 558
+    },
+    {
+      "path": ".github/workflows/publish.yml",
+      "size": 643
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Task management for AI agents",
+    "fork": false,
+    "full_name": "agentsea/taskara",
+    "html_url": "https://github.com/agentsea/taskara",
+    "language": "Python",
+    "pushed_at": "2025-06-25T01:42:32Z",
+    "stargazers_count": 15,
+    "topics": [],
+    "updated_at": "2025-11-11T07:07:01Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "agentsea/threadmem",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Poetry Lint",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/poetry-lint.yml",
+      "term": "Poetry Lint"
+    },
+    {
+      "context_snippet": "Poetry Tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/poetry-tests.yml",
+      "term": "Poetry Tests"
+    }
+  ]
+}

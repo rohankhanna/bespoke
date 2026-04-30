@@ -1,0 +1,88 @@
+{
+  "aliases": [
+    "elm-format"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dwyl/learn-elm",
+      "status": "candidate-context",
+      "text": ":rainbow: discover the beautiful programming language that makes front-end web apps a joy to build and maintain!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dwyl/learn-elm",
+      "status": "candidate-context",
+      "text": "> It's _difficult_ to _introduce_ elm to someone"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gicentre/prettier-plugin-elm",
+      "status": "candidate-context",
+      "text": "Works on top of elm-format, compatible with Prettier v1, v2 and v3"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gicentre/prettier-plugin-elm",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dwyl/learn-elm",
+      "status": "candidate",
+      "text": "> It's _difficult_ to _introduce_ elm to someone"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gicentre/prettier-plugin-elm",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "elm-format",
+  "concept_id": "elm-format",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "dwyl/learn-elm"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "gicentre/prettier-plugin-elm"
+    }
+  ],
+  "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "elm-format",
+      "sense_id": "elm-format#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

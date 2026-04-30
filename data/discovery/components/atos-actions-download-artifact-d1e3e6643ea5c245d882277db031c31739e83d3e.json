@@ -1,0 +1,12 @@
+{
+  "component": "atos-actions/download-artifact@d1e3e6643ea5c245d882277db031c31739e83d3e",
+  "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "vuejs/create-vue"
+    }
+  ]
+}

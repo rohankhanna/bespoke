@@ -1,0 +1,144 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "dmitryikh/leaves",
+      "target": "microsoft/lightgbm",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "dmitryikh/leaves",
+      "target": "dmlc/xgboost",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dmitryikh/leaves",
+      "target": "boosting",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dmitryikh/leaves",
+      "target": "decision-trees",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dmitryikh/leaves",
+      "target": "golang",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dmitryikh/leaves",
+      "target": "lightgbm",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dmitryikh/leaves",
+      "target": "machine-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dmitryikh/leaves",
+      "target": "xgboost",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T04:10:57.886910+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5970
+    },
+    {
+      "path": "go.mod",
+      "size": 44
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "pure Go implementation of prediction part for GBRT (Gradient Boosting Regression Trees) models from popular frameworks",
+    "fork": false,
+    "full_name": "dmitryikh/leaves",
+    "html_url": "https://github.com/dmitryikh/leaves",
+    "language": "Go",
+    "pushed_at": "2024-07-03T17:46:42Z",
+    "stargazers_count": 474,
+    "topics": [
+      "boosting",
+      "decision-trees",
+      "go",
+      "golang",
+      "lightgbm",
+      "machine-learning",
+      "xgboost"
+    ],
+    "updated_at": "2026-04-25T14:38:24Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dmlc/xgboost",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "microsoft/lightgbm",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[![version](https://img.shields.io/badge/version-0.8.0-yellow.svg)](https://semver.org)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "boosting"
+    },
+    {
+      "context_snippet": "[![version](https://img.shields.io/badge/version-0.8.0-yellow.svg)](https://semver.org)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "decision-trees"
+    },
+    {
+      "context_snippet": "[![version](https://img.shields.io/badge/version-0.8.0-yellow.svg)](https://semver.org)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "golang"
+    },
+    {
+      "context_snippet": "[![version](https://img.shields.io/badge/version-0.8.0-yellow.svg)](https://semver.org)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "lightgbm"
+    },
+    {
+      "context_snippet": "[![version](https://img.shields.io/badge/version-0.8.0-yellow.svg)](https://semver.org)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "machine-learning"
+    },
+    {
+      "context_snippet": "[![version](https://img.shields.io/badge/version-0.8.0-yellow.svg)](https://semver.org)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "xgboost"
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "vladimir-kotikov/clink-completions",
+      "target": "chrisant996/clink",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/code-check.yml",
+      "source_repo": "vladimir-kotikov/clink-completions",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/code-check.yml",
+      "source_repo": "vladimir-kotikov/clink-completions",
+      "target": "leafo/gh-actions-lua@v12",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/code-check.yml",
+      "source_repo": "vladimir-kotikov/clink-completions",
+      "target": "leafo/gh-actions-luarocks@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/code-check.yml",
+      "source_repo": "vladimir-kotikov/clink-completions",
+      "target": "codecov/codecov-action@v3.1.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/code-check.yml",
+      "source_repo": "vladimir-kotikov/clink-completions",
+      "target": "Code check",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "vladimir-kotikov/clink-completions",
+      "target": "clink",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "vladimir-kotikov/clink-completions",
+      "target": "clink-completions",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "vladimir-kotikov/clink-completions",
+      "target": "completions",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-30T00:37:16.824464+00:00",
+  "source_repo": "vladimir-kotikov/clink-completions"
+}

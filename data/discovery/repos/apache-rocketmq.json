@@ -1,0 +1,698 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bazel.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql_analysis.yml"
+    },
+    {
+      "component": "actions/cache@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql_analysis.yml"
+    },
+    {
+      "component": "github/codeql-action/init@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql_analysis.yml"
+    },
+    {
+      "component": "github/codeql-action/autobuild@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql_analysis.yml"
+    },
+    {
+      "component": "github/codeql-action/analyze@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql_analysis.yml"
+    },
+    {
+      "component": "actions/checkout@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverage.yml"
+    },
+    {
+      "component": "actions/setup-java@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverage.yml"
+    },
+    {
+      "component": "codecov/codecov-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverage.yml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration-test.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration-test.yml"
+    },
+    {
+      "component": "actions/setup-java@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration-test.yml"
+    },
+    {
+      "component": "mikepenz/action-junit-report@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration-test.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/license-checker.yaml"
+    },
+    {
+      "component": "apache/skywalking-eyes@v0.2.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/license-checker.yaml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/maven.yaml"
+    },
+    {
+      "component": "actions/setup-java@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/maven.yaml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/maven.yaml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/maven.yaml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/misspell_check.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/snapshot-automation.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/snapshot-automation.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/snapshot-automation.yml"
+    },
+    {
+      "component": "actions/setup-java@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/snapshot-automation.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/snapshot-automation.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/snapshot-automation.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/snapshot-automation.yml"
+    },
+    {
+      "component": "docker/login-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/snapshot-automation.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/snapshot-automation.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/snapshot-automation.yml"
+    },
+    {
+      "component": "apache/rocketmq-test-tool@1a646589accad17070423eabf0f54925e52b0666",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/snapshot-automation.yml"
+    },
+    {
+      "component": "apache/rocketmq-test-tool@1a646589accad17070423eabf0f54925e52b0666",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/snapshot-automation.yml"
+    },
+    {
+      "component": "mikepenz/action-junit-report@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/snapshot-automation.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/snapshot-automation.yml"
+    },
+    {
+      "component": "apache/rocketmq-test-tool@1a646589accad17070423eabf0f54925e52b0666",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/snapshot-automation.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/snapshot-automation.yml"
+    },
+    {
+      "component": "actions/setup-java@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/snapshot-automation.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "apache/rocketmq",
+      "target": "apache/rocketmq-apis",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "apache/rocketmq",
+      "target": "apache/rocketmq-client-cpp",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "apache/rocketmq",
+      "target": "apache/rocketmq-client-python",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "apache/rocketmq",
+      "target": "apache/rocketmq-client-nodejs",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bazel.yml",
+      "source_repo": "apache/rocketmq",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/bazel.yml",
+      "source_repo": "apache/rocketmq",
+      "target": "Build and Run Tests by Bazel",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql_analysis.yml",
+      "source_repo": "apache/rocketmq",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql_analysis.yml",
+      "source_repo": "apache/rocketmq",
+      "target": "actions/cache@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql_analysis.yml",
+      "source_repo": "apache/rocketmq",
+      "target": "github/codeql-action/init@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql_analysis.yml",
+      "source_repo": "apache/rocketmq",
+      "target": "github/codeql-action/autobuild@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql_analysis.yml",
+      "source_repo": "apache/rocketmq",
+      "target": "github/codeql-action/analyze@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql_analysis.yml",
+      "source_repo": "apache/rocketmq",
+      "target": "CodeQL Analysis",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverage.yml",
+      "source_repo": "apache/rocketmq",
+      "target": "actions/checkout@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverage.yml",
+      "source_repo": "apache/rocketmq",
+      "target": "actions/setup-java@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverage.yml",
+      "source_repo": "apache/rocketmq",
+      "target": "codecov/codecov-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/coverage.yml",
+      "source_repo": "apache/rocketmq",
+      "target": "Coverage",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration-test.yml",
+      "source_repo": "apache/rocketmq",
+      "target": "actions/cache@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration-test.yml",
+      "source_repo": "apache/rocketmq",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration-test.yml",
+      "source_repo": "apache/rocketmq",
+      "target": "actions/setup-java@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration-test.yml",
+      "source_repo": "apache/rocketmq",
+      "target": "mikepenz/action-junit-report@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/integration-test.yml",
+      "source_repo": "apache/rocketmq",
+      "target": "Run Integration Tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/license-checker.yaml",
+      "source_repo": "apache/rocketmq",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/license-checker.yaml",
+      "source_repo": "apache/rocketmq",
+      "target": "apache/skywalking-eyes@v0.2.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/license-checker.yaml",
+      "source_repo": "apache/rocketmq",
+      "target": "License checker",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/maven.yaml",
+      "source_repo": "apache/rocketmq",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/maven.yaml",
+      "source_repo": "apache/rocketmq",
+      "target": "actions/setup-java@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/maven.yaml",
+      "source_repo": "apache/rocketmq",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/maven.yaml",
+      "source_repo": "apache/rocketmq",
+      "target": "Build and Run Tests by Maven",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/misspell_check.yml",
+      "source_repo": "apache/rocketmq",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/misspell_check.yml",
+      "source_repo": "apache/rocketmq",
+      "target": "Misspell Check",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/rerun-workflow.yml",
+      "source_repo": "apache/rocketmq",
+      "target": "Rerun workflow",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/snapshot-automation.yml",
+      "source_repo": "apache/rocketmq",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/snapshot-automation.yml",
+      "source_repo": "apache/rocketmq",
+      "target": "actions/setup-java@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/snapshot-automation.yml",
+      "source_repo": "apache/rocketmq",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/snapshot-automation.yml",
+      "source_repo": "apache/rocketmq",
+      "target": "actions/download-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/snapshot-automation.yml",
+      "source_repo": "apache/rocketmq",
+      "target": "docker/login-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/snapshot-automation.yml",
+      "source_repo": "apache/rocketmq",
+      "target": "apache/rocketmq-test-tool@1a646589accad17070423eabf0f54925e52b0666",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/snapshot-automation.yml",
+      "source_repo": "apache/rocketmq",
+      "target": "mikepenz/action-junit-report@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/snapshot-automation.yml",
+      "source_repo": "apache/rocketmq",
+      "target": "Snapshot Daily Release Automation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "apache/rocketmq",
+      "target": "cloud-native",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "apache/rocketmq",
+      "target": "eventing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "apache/rocketmq",
+      "target": "hacktoberfest",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "apache/rocketmq",
+      "target": "java",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "apache/rocketmq",
+      "target": "messaging",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "apache/rocketmq",
+      "target": "rocketmq",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "apache/rocketmq",
+      "target": "streaming",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T04:51:36.894167+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 12270
+    },
+    {
+      "path": ".github/workflows/bazel.yml",
+      "size": 493
+    },
+    {
+      "path": ".github/workflows/codeql_analysis.yml",
+      "size": 819
+    },
+    {
+      "path": ".github/workflows/coverage.yml",
+      "size": 669
+    },
+    {
+      "path": ".github/workflows/integration-test.yml",
+      "size": 1208
+    },
+    {
+      "path": ".github/workflows/license-checker.yaml",
+      "size": 1116
+    },
+    {
+      "path": ".github/workflows/maven.yaml",
+      "size": 1562
+    },
+    {
+      "path": ".github/workflows/misspell_check.yml",
+      "size": 485
+    },
+    {
+      "path": ".github/workflows/rerun-workflow.yml",
+      "size": 670
+    },
+    {
+      "path": ".github/workflows/snapshot-automation.yml",
+      "size": 9127
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "develop",
+    "description": "Apache RocketMQ is a cloud native messaging and streaming platform, making it simple to build event-driven applications.",
+    "fork": false,
+    "full_name": "apache/rocketmq",
+    "html_url": "https://github.com/apache/rocketmq",
+    "language": "Java",
+    "pushed_at": "2026-04-28T02:35:52Z",
+    "stargazers_count": 22423,
+    "topics": [
+      "cloud-native",
+      "eventing",
+      "hacktoberfest",
+      "java",
+      "messaging",
+      "rocketmq",
+      "streaming"
+    ],
+    "updated_at": "2026-04-29T21:56:19Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "apache/rocketmq-apis",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "apache/rocketmq-client-cpp",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "apache/rocketmq-client-nodejs",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "apache/rocketmq-client-python",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Build and Run Tests by Bazel",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/bazel.yml",
+      "term": "Build and Run Tests by Bazel"
+    },
+    {
+      "context_snippet": "CodeQL Analysis",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql_analysis.yml",
+      "term": "CodeQL Analysis"
+    },
+    {
+      "context_snippet": "Coverage",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/coverage.yml",
+      "term": "Coverage"
+    },
+    {
+      "context_snippet": "Run Integration Tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/integration-test.yml",
+      "term": "Run Integration Tests"
+    },
+    {
+      "context_snippet": "License checker",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/license-checker.yaml",
+      "term": "License checker"
+    },
+    {
+      "context_snippet": "Build and Run Tests by Maven",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/maven.yaml",
+      "term": "Build and Run Tests by Maven"
+    },
+    {
+      "context_snippet": "Misspell Check",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/misspell_check.yml",
+      "term": "Misspell Check"
+    },
+    {
+      "context_snippet": "Rerun workflow",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/rerun-workflow.yml",
+      "term": "Rerun workflow"
+    },
+    {
+      "context_snippet": "Snapshot Daily Release Automation",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/snapshot-automation.yml",
+      "term": "Snapshot Daily Release Automation"
+    },
+    {
+      "context_snippet": "[![Build Status][maven-build-image]][maven-build-url]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cloud-native"
+    },
+    {
+      "context_snippet": "[![Build Status][maven-build-image]][maven-build-url]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "eventing"
+    },
+    {
+      "context_snippet": "[![Build Status][maven-build-image]][maven-build-url]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hacktoberfest"
+    },
+    {
+      "context_snippet": "[![Build Status][maven-build-image]][maven-build-url]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "java"
+    },
+    {
+      "context_snippet": "[![Build Status][maven-build-image]][maven-build-url]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "messaging"
+    },
+    {
+      "context_snippet": "[![Build Status][maven-build-image]][maven-build-url]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rocketmq"
+    },
+    {
+      "context_snippet": "[![Build Status][maven-build-image]][maven-build-url]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "streaming"
+    }
+  ]
+}

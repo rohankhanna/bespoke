@@ -1,0 +1,115 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Programmable music! A compiler and high level language."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Mellow D"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Mellow D"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39870845,
+      "status": "candidate",
+      "text": "sheet music"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39821700,
+      "status": "candidate",
+      "text": "euphony"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39614773,
+      "status": "candidate",
+      "text": "medicine"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29871426,
+      "status": "candidate",
+      "text": "melody"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29871377,
+      "status": "candidate",
+      "text": "symphony"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "music",
+      "sense_id": "music#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 28032,
+      "status": "candidate",
+      "text": "euphony"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 4056,
+      "status": "candidate",
+      "text": "medicine"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 3028,
+      "status": "candidate",
+      "text": "sheet music"
+    }
+  ],
+  "concept_id": "music",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "music",
+  "observation_id": "0e20e6c0beaaa007",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T00:37:16.824464+00:00",
+  "observed_text": "music",
+  "source_context_snippet": "Mellow D",
+  "source_file": null,
+  "source_repo": "SpencerPark/MellowD",
+  "source_repo_description": "Programmable music! A compiler and high level language."
+}

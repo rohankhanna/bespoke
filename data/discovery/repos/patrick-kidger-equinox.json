@@ -1,0 +1,250 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_docs.yml"
+    },
+    {
+      "component": "astral-sh/setup-uv@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_docs.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_docs.yml"
+    },
+    {
+      "component": "patrick-kidger/action_update_python_project@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run_tests.yml"
+    },
+    {
+      "component": "astral-sh/setup-uv@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run_tests.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "patrick-kidger/equinox",
+      "target": "google/jax",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "patrick-kidger/equinox",
+      "target": "deepmind/haiku",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "patrick-kidger/equinox",
+      "target": "conda-forge/equinox-feedstock",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "patrick-kidger/equinox",
+      "target": "deepmind/optax",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_docs.yml",
+      "source_repo": "patrick-kidger/equinox",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_docs.yml",
+      "source_repo": "patrick-kidger/equinox",
+      "target": "astral-sh/setup-uv@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_docs.yml",
+      "source_repo": "patrick-kidger/equinox",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build_docs.yml",
+      "source_repo": "patrick-kidger/equinox",
+      "target": "Build docs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "patrick-kidger/equinox",
+      "target": "patrick-kidger/action_update_python_project@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "patrick-kidger/equinox",
+      "target": "Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run_tests.yml",
+      "source_repo": "patrick-kidger/equinox",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run_tests.yml",
+      "source_repo": "patrick-kidger/equinox",
+      "target": "astral-sh/setup-uv@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/run_tests.yml",
+      "source_repo": "patrick-kidger/equinox",
+      "target": "Run tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "patrick-kidger/equinox",
+      "target": "deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "patrick-kidger/equinox",
+      "target": "equinox",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "patrick-kidger/equinox",
+      "target": "neural-networks",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T03:54:53.519143+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4278
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 2731
+    },
+    {
+      "path": ".github/workflows/build_docs.yml",
+      "size": 737
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "size": 788
+    },
+    {
+      "path": ".github/workflows/run_tests.yml",
+      "size": 765
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Elegant easy-to-use neural networks + scientific computing in JAX. https://docs.kidger.site/equinox/",
+    "fork": false,
+    "full_name": "patrick-kidger/equinox",
+    "html_url": "https://github.com/patrick-kidger/equinox",
+    "language": "Python",
+    "pushed_at": "2026-04-29T09:49:33Z",
+    "stargazers_count": 2867,
+    "topics": [
+      "deep-learning",
+      "equinox",
+      "jax",
+      "neural-networks"
+    ],
+    "updated_at": "2026-04-29T21:24:27Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "conda-forge/equinox-feedstock",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "deepmind/haiku",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "deepmind/optax",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "google/jax",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Build docs",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build_docs.yml",
+      "term": "Build docs"
+    },
+    {
+      "context_snippet": "Release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "term": "Release"
+    },
+    {
+      "context_snippet": "Run tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/run_tests.yml",
+      "term": "Run tests"
+    },
+    {
+      "context_snippet": "<h1 align='center'>Equinox</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-learning"
+    },
+    {
+      "context_snippet": "<h1 align='center'>Equinox</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "equinox"
+    },
+    {
+      "context_snippet": "<h1 align='center'>Equinox</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "neural-networks"
+    }
+  ]
+}

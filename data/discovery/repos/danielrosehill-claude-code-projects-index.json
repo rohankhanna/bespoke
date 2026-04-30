@@ -11,21 +11,21 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "danielrosehill/Claude-Code-Projects-Index",
-      "target": "danielrosehill/claude-ai-video-producer-plugin",
+      "target": "danielrosehill/claude-business-idea-eval-plugin",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "danielrosehill/Claude-Code-Projects-Index",
-      "target": "danielrosehill/claude-adb-ops-plugin",
+      "target": "danielrosehill/claude-buttondown-mgmt-plugin",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "danielrosehill/Claude-Code-Projects-Index",
-      "target": "danielrosehill/claude-backup-planner-plugin",
+      "target": "danielrosehill/claude-browser-data-capture-plugin",
       "target_type": "repository"
     },
     {
@@ -64,7 +64,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-29T19:53:06.127449+00:00",
+  "fetched_at": "2026-04-30T04:58:27.879853+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -85,20 +85,15 @@
     "html_url": "https://github.com/danielrosehill/Claude-Code-Projects-Index",
     "language": "Astro",
     "pushed_at": "2026-04-29T13:40:42Z",
-    "stargazers_count": 424,
+    "stargazers_count": 425,
     "topics": [
       "claude-code",
       "claude-code-cli",
       "index-repos"
     ],
-    "updated_at": "2026-04-29T14:39:03Z"
+    "updated_at": "2026-04-30T04:10:11Z"
   },
   "repo_links": [
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "danielrosehill/claude-adb-ops-plugin",
-      "source_file": "README.md"
-    },
     {
       "edge_type": "explicit-github-link",
       "full_name": "danielrosehill/claude-agent-blueprints",
@@ -106,12 +101,17 @@
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "danielrosehill/claude-ai-video-producer-plugin",
+      "full_name": "danielrosehill/claude-browser-data-capture-plugin",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "danielrosehill/claude-backup-planner-plugin",
+      "full_name": "danielrosehill/claude-business-idea-eval-plugin",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "danielrosehill/claude-buttondown-mgmt-plugin",
       "source_file": "README.md"
     }
   ],

@@ -1505,6 +1505,222 @@
       "source_repo": "hoodie/toastify",
       "status": "candidate-context",
       "text": "Continuous Integration"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "neulab/explainaboard_client",
+      "status": "candidate-context",
+      "text": "Continuous Integration"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "black-desk/djotfmt",
+      "status": "candidate-context",
+      "text": "Continuous integration"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "libbitcoin/libbitcoin-database",
+      "status": "candidate-context",
+      "text": "Bitcoin High Performance Blockchain Database"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "libbitcoin/libbitcoin-database",
+      "status": "candidate-context",
+      "text": "Continuous Integration"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "libbitcoin/libbitcoin-network",
+      "status": "candidate-context",
+      "text": "Bitcoin P2P Network Library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "libbitcoin/libbitcoin-network",
+      "status": "candidate-context",
+      "text": "Continuous Integration"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "libbitcoin/libbitcoin-node",
+      "status": "candidate-context",
+      "text": "Bitcoin Full Node"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "libbitcoin/libbitcoin-node",
+      "status": "candidate-context",
+      "text": "Continuous Integration"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "libbitcoin/libbitcoin-system",
+      "status": "candidate-context",
+      "text": "Bitcoin Cross-Platform C++ Development Toolkit"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "libbitcoin/libbitcoin-system",
+      "status": "candidate-context",
+      "text": "Continuous Integration"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "MShekow/directory-checksum",
+      "status": "candidate-context",
+      "text": "A CLI tool that recursively computes the checksum of the contents of a directory, and prints the checksums up to a depth you can specify."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MShekow/directory-checksum",
+      "status": "candidate-context",
+      "text": "Continuous Integration"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "openshift/origin",
+      "status": "candidate-context",
+      "text": "Conformance test suite for OpenShift"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "openshift/origin",
+      "status": "candidate-context",
+      "text": "Origin Kubernetes"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "filecoin-project/builtin-actors",
+      "status": "candidate-context",
+      "text": "The Filecoin built-in actors"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "filecoin-project/builtin-actors",
+      "status": "candidate-context",
+      "text": "Continuous integration"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Chevrotain/chevrotain",
+      "status": "candidate-context",
+      "text": "Parser Building Toolkit for JavaScript"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Chevrotain/chevrotain",
+      "status": "candidate-context",
+      "text": "Continuous Integration"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "OlivierDehaene/candle",
+      "status": "candidate-context",
+      "text": "Minimalist ML framework for Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "OlivierDehaene/candle",
+      "status": "candidate-context",
+      "text": "Continuous integration"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sayanarijit/jf",
+      "status": "candidate-context",
+      "text": "jf %q \"JSON Formatted\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sayanarijit/jf",
+      "status": "candidate-context",
+      "text": "Continuous Integration"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "adevinta/actions-lighthouseci-compare",
+      "status": "candidate-context",
+      "text": "A github action to gather the results of lighthouse ci and compare the current branch with the ancestor to catch regressions."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "adevinta/actions-lighthouseci-compare",
+      "status": "candidate-context",
+      "text": "Continuous Integration"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "emacs-eldev/eldev",
+      "status": "candidate-context",
+      "text": "Elisp development tool"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "emacs-eldev/eldev",
+      "status": "candidate-context",
+      "text": "Deploy documentation"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "astro/deadnix",
+      "status": "candidate-context",
+      "text": "Scan Nix files for dead code"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "astro/deadnix",
+      "status": "candidate-context",
+      "text": "Continuous integration"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "asaaki/opentelemetry-tide",
+      "status": "candidate-context",
+      "text": "\ud83d\udd2d\ud83c\udf0a OpenTelemetry integration for Tide"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "asaaki/opentelemetry-tide",
+      "status": "candidate-context",
+      "text": "Continuous Integration"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jawah/charset_normalizer",
+      "status": "candidate-context",
+      "text": "Truly universal encoding detector in pure Python."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jawah/charset_normalizer",
+      "status": "candidate-context",
+      "text": "Continuous Integration"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "myclabs/DeepCopy",
+      "status": "candidate-context",
+      "text": "Create deep copies (clones) of your objects"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "myclabs/DeepCopy",
+      "status": "candidate-context",
+      "text": "\"Continuous Integration\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kuberhealthy/kuberhealthy",
+      "status": "candidate-context",
+      "text": "A Kubernetes operator for running synthetic checks as pods. Works great with Prometheus!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kuberhealthy/kuberhealthy",
+      "status": "candidate-context",
+      "text": "<center><img src=\"https://github.com/kuberhealthy/kuberhealthy/blob/master/images/kuberhealthy.png?raw=true\"></center><br />"
     }
   ],
   "candidate_glosses": [
@@ -2251,6 +2467,120 @@
       "source_repo": "hoodie/toastify",
       "status": "candidate",
       "text": "Continuous Integration"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "neulab/explainaboard_client",
+      "status": "candidate",
+      "text": "Continuous Integration"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "black-desk/djotfmt",
+      "status": "candidate",
+      "text": "Continuous integration"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "libbitcoin/libbitcoin-database",
+      "status": "candidate",
+      "text": "Continuous Integration"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "libbitcoin/libbitcoin-network",
+      "status": "candidate",
+      "text": "Continuous Integration"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "libbitcoin/libbitcoin-node",
+      "status": "candidate",
+      "text": "Continuous Integration"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "libbitcoin/libbitcoin-system",
+      "status": "candidate",
+      "text": "Continuous Integration"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MShekow/directory-checksum",
+      "status": "candidate",
+      "text": "Continuous Integration"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "openshift/origin",
+      "status": "candidate",
+      "text": "Origin Kubernetes"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "filecoin-project/builtin-actors",
+      "status": "candidate",
+      "text": "Continuous integration"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Chevrotain/chevrotain",
+      "status": "candidate",
+      "text": "Continuous Integration"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "OlivierDehaene/candle",
+      "status": "candidate",
+      "text": "Continuous integration"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sayanarijit/jf",
+      "status": "candidate",
+      "text": "Continuous Integration"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "adevinta/actions-lighthouseci-compare",
+      "status": "candidate",
+      "text": "Continuous Integration"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "emacs-eldev/eldev",
+      "status": "candidate",
+      "text": "Deploy documentation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "astro/deadnix",
+      "status": "candidate",
+      "text": "Continuous integration"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "asaaki/opentelemetry-tide",
+      "status": "candidate",
+      "text": "Continuous Integration"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jawah/charset_normalizer",
+      "status": "candidate",
+      "text": "Continuous Integration"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "myclabs/DeepCopy",
+      "status": "candidate",
+      "text": "\"Continuous Integration\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kuberhealthy/kuberhealthy",
+      "status": "candidate",
+      "text": "<center><img src=\"https://github.com/kuberhealthy/kuberhealthy/blob/master/images/kuberhealthy.png?raw=true\"></center><br />"
     }
   ],
   "candidate_related_terms": [
@@ -3188,11 +3518,155 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": ".github/workflows/ci.yml",
       "source_repo": "hoodie/toastify"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "neulab/explainaboard_client"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "black-desk/djotfmt"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "libbitcoin/libbitcoin-database"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "libbitcoin/libbitcoin-network"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "libbitcoin/libbitcoin-node"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "libbitcoin/libbitcoin-system"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "MShekow/directory-checksum"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/continuous-integration.yml",
+      "source_repo": "vercel/modelfusion"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "openshift/origin"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "filecoin-project/builtin-actors"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "Chevrotain/chevrotain"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/rust-ci.yml",
+      "source_repo": "OlivierDehaene/candle"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/integrate.yml",
+      "source_repo": "nsfw-filter/nsfw-filter"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "sayanarijit/jf"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "docker-archive/compose-cli"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "docker-archive-public/docker.compose-ecs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "adevinta/actions-lighthouseci-compare"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "actions/container-toolkit-action"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "emacs-eldev/eldev"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/checks.yml",
+      "source_repo": "astro/deadnix"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "asaaki/opentelemetry-tide"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "jawah/charset_normalizer"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "myclabs/DeepCopy"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "kuberhealthy/kuberhealthy"
     }
   ],
   "first_seen_at": "2026-04-18T10:38:37.562216+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

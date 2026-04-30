@@ -115,6 +115,18 @@
       "source_repo": "graphql-hive/graphql-config",
       "status": "candidate-context",
       "text": "![GraphQL Config](https://i.imgur.com/hw5tXw2.gif 'GraphQL Config')"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kaichaosun/rlt",
+      "status": "candidate-context",
+      "text": "Localtunnel implementation in Rust, expose local API to the public."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kaichaosun/rlt",
+      "status": "candidate-context",
+      "text": "[![localtunnel](https://img.shields.io/crates/v/localtunnel.svg)](https://crates.io/crates/localtunnel)"
     }
   ],
   "candidate_glosses": [
@@ -171,6 +183,12 @@
       "source_repo": "graphql-hive/graphql-config",
       "status": "candidate",
       "text": "![GraphQL Config](https://i.imgur.com/hw5tXw2.gif 'GraphQL Config')"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kaichaosun/rlt",
+      "status": "candidate",
+      "text": "[![localtunnel](https://img.shields.io/crates/v/localtunnel.svg)](https://crates.io/crates/localtunnel)"
     }
   ],
   "candidate_related_terms": [
@@ -282,11 +300,23 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "graphql-hive/graphql-config"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "kaichaosun/rlt"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "graphql-hive/graphql-config"
     }
   ],
   "first_seen_at": "2026-04-19T04:47:57.443742+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

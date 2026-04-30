@@ -1,0 +1,464 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs-test-gitbook.yaml"
+    },
+    {
+      "component": "astral-sh/setup-uv@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs-test-gitbook.yaml"
+    },
+    {
+      "component": "peaceiris/actions-gh-pages@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs-test-gitbook.yaml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yaml"
+    },
+    {
+      "component": "astral-sh/setup-uv@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yaml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yaml"
+    },
+    {
+      "component": "astral-sh/setup-uv@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yaml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yaml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yaml"
+    },
+    {
+      "component": "actions/github-script@ed597411d8f924073f98dfc5c65a23a2325f34cd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-template-check.yml"
+    },
+    {
+      "component": "actions/github-script@ed597411d8f924073f98dfc5c65a23a2325f34cd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-template-check.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit-update.yaml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit-update.yaml"
+    },
+    {
+      "component": "peter-evans/create-pull-request@271a8d0340265f705b14b6d32b9829c1cb33d45e",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit-update.yaml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish_demo_to_hf_spaces.yaml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml"
+    },
+    {
+      "component": "pypa/gh-action-pypi-publish@release/v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests-cookbook.yaml"
+    },
+    {
+      "component": "astral-sh/setup-uv@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests-cookbook.yaml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests-cookbook.yaml"
+    },
+    {
+      "component": "codecov/codecov-action@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests-cookbook.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mozilla-ai/any-agent",
+      "target": "huggingface/smolagents",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mozilla-ai/any-agent",
+      "target": "mozilla-ai/tinyagent",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs-test-gitbook.yaml",
+      "source_repo": "mozilla-ai/any-agent",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs-test-gitbook.yaml",
+      "source_repo": "mozilla-ai/any-agent",
+      "target": "astral-sh/setup-uv@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs-test-gitbook.yaml",
+      "source_repo": "mozilla-ai/any-agent",
+      "target": "peaceiris/actions-gh-pages@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docs-test-gitbook.yaml",
+      "source_repo": "mozilla-ai/any-agent",
+      "target": "Test GitBook Migration",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yaml",
+      "source_repo": "mozilla-ai/any-agent",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yaml",
+      "source_repo": "mozilla-ai/any-agent",
+      "target": "astral-sh/setup-uv@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docs.yaml",
+      "source_repo": "mozilla-ai/any-agent",
+      "target": "Documentation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yaml",
+      "source_repo": "mozilla-ai/any-agent",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yaml",
+      "source_repo": "mozilla-ai/any-agent",
+      "target": "astral-sh/setup-uv@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yaml",
+      "source_repo": "mozilla-ai/any-agent",
+      "target": "actions/cache@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint.yaml",
+      "source_repo": "mozilla-ai/any-agent",
+      "target": "Lint",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-template-check.yml",
+      "source_repo": "mozilla-ai/any-agent",
+      "target": "actions/github-script@ed597411d8f924073f98dfc5c65a23a2325f34cd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr-template-check.yml",
+      "source_repo": "mozilla-ai/any-agent",
+      "target": "PR Template Check",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit-update.yaml",
+      "source_repo": "mozilla-ai/any-agent",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit-update.yaml",
+      "source_repo": "mozilla-ai/any-agent",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit-update.yaml",
+      "source_repo": "mozilla-ai/any-agent",
+      "target": "peter-evans/create-pull-request@271a8d0340265f705b14b6d32b9829c1cb33d45e",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pre-commit-update.yaml",
+      "source_repo": "mozilla-ai/any-agent",
+      "target": "pre-commit auto-update",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish_demo_to_hf_spaces.yaml",
+      "source_repo": "mozilla-ai/any-agent",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish_demo_to_hf_spaces.yaml",
+      "source_repo": "mozilla-ai/any-agent",
+      "target": "Publish demo to Hugging Face Spaces",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "mozilla-ai/any-agent",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "mozilla-ai/any-agent",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "mozilla-ai/any-agent",
+      "target": "pypa/gh-action-pypi-publish@release/v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "mozilla-ai/any-agent",
+      "target": "Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests-cookbook.yaml",
+      "source_repo": "mozilla-ai/any-agent",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests-cookbook.yaml",
+      "source_repo": "mozilla-ai/any-agent",
+      "target": "astral-sh/setup-uv@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests-cookbook.yaml",
+      "source_repo": "mozilla-ai/any-agent",
+      "target": "actions/upload-artifact@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests-cookbook.yaml",
+      "source_repo": "mozilla-ai/any-agent",
+      "target": "codecov/codecov-action@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/tests-cookbook.yaml",
+      "source_repo": "mozilla-ai/any-agent",
+      "target": "Cookbook Tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mozilla-ai/any-agent",
+      "target": "agent-evaluation",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T02:40:52.315388+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5725
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 4237
+    },
+    {
+      "path": ".github/workflows/docs-test-gitbook.yaml",
+      "size": 929
+    },
+    {
+      "path": ".github/workflows/docs.yaml",
+      "size": 1906
+    },
+    {
+      "path": ".github/workflows/lint.yaml",
+      "size": 1037
+    },
+    {
+      "path": ".github/workflows/pr-template-check.yml",
+      "size": 7581
+    },
+    {
+      "path": ".github/workflows/pre-commit-update.yaml",
+      "size": 852
+    },
+    {
+      "path": ".github/workflows/publish_demo_to_hf_spaces.yaml",
+      "size": 1089
+    },
+    {
+      "path": ".github/workflows/release.yaml",
+      "size": 799
+    },
+    {
+      "path": ".github/workflows/tests-cookbook.yaml",
+      "size": 1377
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A single interface to use and evaluate different agent frameworks ",
+    "fork": false,
+    "full_name": "mozilla-ai/any-agent",
+    "html_url": "https://github.com/mozilla-ai/any-agent",
+    "language": "Python",
+    "pushed_at": "2026-04-29T13:38:30Z",
+    "stargazers_count": 1157,
+    "topics": [
+      "a2a",
+      "agent-evaluation",
+      "agents",
+      "ai",
+      "mcp"
+    ],
+    "updated_at": "2026-04-30T00:58:28Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "huggingface/smolagents",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mozilla-ai/tinyagent",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Test GitBook Migration",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docs-test-gitbook.yaml",
+      "term": "Test GitBook Migration"
+    },
+    {
+      "context_snippet": "Documentation",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docs.yaml",
+      "term": "Documentation"
+    },
+    {
+      "context_snippet": "Lint",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint.yaml",
+      "term": "Lint"
+    },
+    {
+      "context_snippet": "PR Template Check",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr-template-check.yml",
+      "term": "PR Template Check"
+    },
+    {
+      "context_snippet": "pre-commit auto-update",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pre-commit-update.yaml",
+      "term": "pre-commit auto-update"
+    },
+    {
+      "context_snippet": "Publish demo to Hugging Face Spaces",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish_demo_to_hf_spaces.yaml",
+      "term": "Publish demo to Hugging Face Spaces"
+    },
+    {
+      "context_snippet": "Release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yaml",
+      "term": "Release"
+    },
+    {
+      "context_snippet": "Cookbook Tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/tests-cookbook.yaml",
+      "term": "Cookbook Tests"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "agent-evaluation"
+    }
+  ]
+}

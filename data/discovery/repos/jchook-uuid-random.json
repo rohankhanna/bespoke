@@ -1,0 +1,127 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "jchook/uuid-random",
+      "target": "aarondcohen/benchmark-guid",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "jchook/uuid-random",
+      "target": "t-pwk/flake-idgen",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "jchook/uuid-random",
+      "target": "ai/nanoid",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "jchook/uuid-random",
+      "target": "ericelliott/cuid",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jchook/uuid-random",
+      "target": "distributed-systems",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jchook/uuid-random",
+      "target": "random-uuids",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jchook/uuid-random",
+      "target": "uuid",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T05:03:56.374230+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3224
+    },
+    {
+      "path": "package.json",
+      "size": 659
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Tiny, fast UUID v4 with cryptographic PRNG",
+    "fork": false,
+    "full_name": "jchook/uuid-random",
+    "html_url": "https://github.com/jchook/uuid-random",
+    "language": "JavaScript",
+    "pushed_at": "2023-07-04T03:02:33Z",
+    "stargazers_count": 104,
+    "topics": [
+      "distributed-systems",
+      "ids",
+      "random-uuids",
+      "rng",
+      "uuid"
+    ],
+    "updated_at": "2024-08-04T12:25:24Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "aarondcohen/benchmark-guid",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ai/nanoid",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ericelliott/cuid",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "t-pwk/flake-idgen",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[![MIT Licence](https://img.shields.io/badge/License-MIT-informational)](LICENSE.txt)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "distributed-systems"
+    },
+    {
+      "context_snippet": "[![MIT Licence](https://img.shields.io/badge/License-MIT-informational)](LICENSE.txt)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "random-uuids"
+    },
+    {
+      "context_snippet": "[![MIT Licence](https://img.shields.io/badge/License-MIT-informational)](LICENSE.txt)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "uuid"
+    }
+  ]
+}

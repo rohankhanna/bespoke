@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T02:03:30.160824+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5876
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A trusty face analysis research platform developed by Tencent Youtu Lab",
+    "fork": false,
+    "full_name": "Tencent/TFace",
+    "html_url": "https://github.com/Tencent/TFace",
+    "language": "Python",
+    "pushed_at": "2025-12-11T08:31:00Z",
+    "stargazers_count": 1505,
+    "topics": [],
+    "updated_at": "2026-04-30T01:24:32Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

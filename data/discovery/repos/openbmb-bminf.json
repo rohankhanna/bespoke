@@ -1,0 +1,121 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml"
+    },
+    {
+      "component": "actions/setup-python@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml"
+    },
+    {
+      "component": "pypa/gh-action-pypi-publish@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "OpenBMB/BMInf",
+      "target": "actions/checkout@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "OpenBMB/BMInf",
+      "target": "actions/setup-python@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "OpenBMB/BMInf",
+      "target": "pypa/gh-action-pypi-publish@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "OpenBMB/BMInf",
+      "target": "Publish to PyPI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "OpenBMB/BMInf",
+      "target": "deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "OpenBMB/BMInf",
+      "target": "pretrained-language-models",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T04:58:56.432565+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6273
+    },
+    {
+      "path": "Dockerfile",
+      "size": 377
+    },
+    {
+      "path": "requirements.txt",
+      "size": 43
+    },
+    {
+      "path": ".github/workflows/release.yaml",
+      "size": 682
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Efficient Inference for Big Models",
+    "fork": false,
+    "full_name": "OpenBMB/BMInf",
+    "html_url": "https://github.com/OpenBMB/BMInf",
+    "language": "Python",
+    "pushed_at": "2023-01-24T14:08:16Z",
+    "stargazers_count": 585,
+    "topics": [
+      "deep-learning",
+      "gpu",
+      "pretrained-language-models"
+    ],
+    "updated_at": "2026-04-25T23:50:05Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "\"Publish to PyPI\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yaml",
+      "term": "Publish to PyPI"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-learning"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pretrained-language-models"
+    }
+  ]
+}

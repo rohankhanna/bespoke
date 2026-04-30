@@ -1,0 +1,345 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pythonpublish.yml"
+    },
+    {
+      "component": "actions/setup-python@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pythonpublish.yml"
+    },
+    {
+      "component": "actions/checkout@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pythonpublish_wheel.yml"
+    },
+    {
+      "component": "actions/checkout@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pythonpublish_wheel.yml"
+    },
+    {
+      "component": "actions/setup-python@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pythonpublish_wheel.yml"
+    },
+    {
+      "component": "actions/checkout@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pythonpublish_windows.yml"
+    },
+    {
+      "component": "actions/setup-python@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pythonpublish_windows.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/windows-wheel.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/windows-wheel.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/windows-wheel.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/windows-wheel_python310.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/windows-wheel_python310.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/windows-wheel_python310.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/windows_wheel_python313.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/windows_wheel_python313.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/windows_wheel_python313.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pythonpublish.yml",
+      "source_repo": "scikit-learn-contrib/hdbscan",
+      "target": "actions/checkout@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pythonpublish.yml",
+      "source_repo": "scikit-learn-contrib/hdbscan",
+      "target": "actions/setup-python@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pythonpublish_wheel.yml",
+      "source_repo": "scikit-learn-contrib/hdbscan",
+      "target": "actions/checkout@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pythonpublish_wheel.yml",
+      "source_repo": "scikit-learn-contrib/hdbscan",
+      "target": "actions/setup-python@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pythonpublish_windows.yml",
+      "source_repo": "scikit-learn-contrib/hdbscan",
+      "target": "actions/checkout@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pythonpublish_windows.yml",
+      "source_repo": "scikit-learn-contrib/hdbscan",
+      "target": "actions/setup-python@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/windows-wheel.yml",
+      "source_repo": "scikit-learn-contrib/hdbscan",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/windows-wheel.yml",
+      "source_repo": "scikit-learn-contrib/hdbscan",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/windows-wheel.yml",
+      "source_repo": "scikit-learn-contrib/hdbscan",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/windows-wheel.yml",
+      "source_repo": "scikit-learn-contrib/hdbscan",
+      "target": "Build Windows wheel (latest commit)",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/windows-wheel_python310.yml",
+      "source_repo": "scikit-learn-contrib/hdbscan",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/windows-wheel_python310.yml",
+      "source_repo": "scikit-learn-contrib/hdbscan",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/windows-wheel_python310.yml",
+      "source_repo": "scikit-learn-contrib/hdbscan",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/windows_wheel_python313.yml",
+      "source_repo": "scikit-learn-contrib/hdbscan",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/windows_wheel_python313.yml",
+      "source_repo": "scikit-learn-contrib/hdbscan",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/windows_wheel_python313.yml",
+      "source_repo": "scikit-learn-contrib/hdbscan",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "scikit-learn-contrib/hdbscan",
+      "target": "cluster-analysis",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "scikit-learn-contrib/hdbscan",
+      "target": "clustering",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "scikit-learn-contrib/hdbscan",
+      "target": "clustering-algorithm",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "scikit-learn-contrib/hdbscan",
+      "target": "clustering-evaluation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "scikit-learn-contrib/hdbscan",
+      "target": "machine-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "scikit-learn-contrib/hdbscan",
+      "target": "machine-learning-algorithms",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T02:40:34.553237+00:00",
+  "fetched_files": [
+    {
+      "path": "README.rst",
+      "size": 14188
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 83
+    },
+    {
+      "path": "requirements.txt",
+      "size": 57
+    },
+    {
+      "path": ".github/workflows/pythonpublish.yml",
+      "size": 765
+    },
+    {
+      "path": ".github/workflows/pythonpublish_wheel.yml",
+      "size": 1912
+    },
+    {
+      "path": ".github/workflows/pythonpublish_windows.yml",
+      "size": 670
+    },
+    {
+      "path": ".github/workflows/windows-wheel.yml",
+      "size": 666
+    },
+    {
+      "path": ".github/workflows/windows-wheel_python310.yml",
+      "size": 995
+    },
+    {
+      "path": ".github/workflows/windows_wheel_python313.yml",
+      "size": 1011
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A high performance implementation of HDBSCAN clustering.",
+    "fork": false,
+    "full_name": "scikit-learn-contrib/hdbscan",
+    "html_url": "https://github.com/scikit-learn-contrib/hdbscan",
+    "language": "Jupyter Notebook",
+    "pushed_at": "2026-03-27T18:59:08Z",
+    "stargazers_count": 3096,
+    "topics": [
+      "cluster-analysis",
+      "clustering",
+      "clustering-algorithm",
+      "clustering-evaluation",
+      "machine-learning",
+      "machine-learning-algorithms"
+    ],
+    "updated_at": "2026-04-29T16:32:27Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Build Windows wheel (latest commit)",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/windows-wheel.yml",
+      "term": "Build Windows wheel (latest commit)"
+    },
+    {
+      "context_snippet": ".. image:: https://img.shields.io/pypi/v/hdbscan.svg",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cluster-analysis"
+    },
+    {
+      "context_snippet": ".. image:: https://img.shields.io/pypi/v/hdbscan.svg",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "clustering"
+    },
+    {
+      "context_snippet": ".. image:: https://img.shields.io/pypi/v/hdbscan.svg",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "clustering-algorithm"
+    },
+    {
+      "context_snippet": ".. image:: https://img.shields.io/pypi/v/hdbscan.svg",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "clustering-evaluation"
+    },
+    {
+      "context_snippet": ".. image:: https://img.shields.io/pypi/v/hdbscan.svg",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "machine-learning"
+    },
+    {
+      "context_snippet": ".. image:: https://img.shields.io/pypi/v/hdbscan.svg",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "machine-learning-algorithms"
+    }
+  ]
+}

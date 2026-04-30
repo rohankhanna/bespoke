@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Emacs support for the Clojure(Script) programming language"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![CI](https://github.com/clojure-emacs/clojure-mode/actions/workflows/ci.yml/badge.svg)](https://github.com/clojure-emacs/clojure-mode/actions/workflows/ci.yml)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![CI](https://github.com/clojure-emacs/clojure-mode/actions/workflows/ci.yml/badge.svg)](https://github.com/clojure-emacs/clojure-mode/actions/workflows/ci.yml)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "major-mode",
+      "sense_id": "major-mode#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "major-mode",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "major-mode",
+  "observation_id": "fe24bc93083097aa",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T00:37:16.824464+00:00",
+  "observed_text": "major-mode",
+  "source_context_snippet": "[![CI](https://github.com/clojure-emacs/clojure-mode/actions/workflows/ci.yml/badge.svg)](https://github.com/clojure-emacs/clojure-mode/actions/workflows/ci.yml)",
+  "source_file": null,
+  "source_repo": "clojure-emacs/clojure-mode",
+  "source_repo_description": "Emacs support for the Clojure(Script) programming language"
+}

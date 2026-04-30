@@ -1,0 +1,289 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/copilot-setup-steps.yml"
+    },
+    {
+      "component": "actions/setup-node@48b55a011bda9f5d6aeb4c2d9c7362e8dae4041e",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/copilot-setup-steps.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/copilot-setup-steps.yml"
+    },
+    {
+      "component": "jdx/mise-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/copilot-setup-steps.yml"
+    },
+    {
+      "component": "mskelton/changelog-reminder-action@v3.0.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update_apollo_protobuf.yaml"
+    },
+    {
+      "component": "peter-evans/create-pull-request@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update_apollo_protobuf.yaml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update_uplink_schema.yml"
+    },
+    {
+      "component": "peter-evans/create-pull-request@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update_uplink_schema.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/copilot-setup-steps.yml",
+      "source_repo": "apollographql/router",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/copilot-setup-steps.yml",
+      "source_repo": "apollographql/router",
+      "target": "actions/setup-node@48b55a011bda9f5d6aeb4c2d9c7362e8dae4041e",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/copilot-setup-steps.yml",
+      "source_repo": "apollographql/router",
+      "target": "jdx/mise-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/copilot-setup-steps.yml",
+      "source_repo": "apollographql/router",
+      "target": "Copilot Setup Steps",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "apollographql/router",
+      "target": "mskelton/changelog-reminder-action@v3.0.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update_apollo_protobuf.yaml",
+      "source_repo": "apollographql/router",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update_apollo_protobuf.yaml",
+      "source_repo": "apollographql/router",
+      "target": "peter-evans/create-pull-request@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/update_apollo_protobuf.yaml",
+      "source_repo": "apollographql/router",
+      "target": "Update Apollo Protobuf",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update_uplink_schema.yml",
+      "source_repo": "apollographql/router",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update_uplink_schema.yml",
+      "source_repo": "apollographql/router",
+      "target": "peter-evans/create-pull-request@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/update_uplink_schema.yml",
+      "source_repo": "apollographql/router",
+      "target": "Update Uplink Schema",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "apollographql/router",
+      "target": "apollo",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "apollographql/router",
+      "target": "federated-graph",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "apollographql/router",
+      "target": "federation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "apollographql/router",
+      "target": "gateway",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "apollographql/router",
+      "target": "gateway-api",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "apollographql/router",
+      "target": "graph-router",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "apollographql/router",
+      "target": "graphql",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T04:02:12.931995+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8585
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 2586
+    },
+    {
+      "path": ".github/workflows/copilot-setup-steps.yml",
+      "size": 2467
+    },
+    {
+      "path": ".github/workflows/main.yml",
+      "size": 612
+    },
+    {
+      "path": ".github/workflows/update_apollo_protobuf.yaml",
+      "size": 1539
+    },
+    {
+      "path": ".github/workflows/update_uplink_schema.yml",
+      "size": 1619
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "dev",
+    "description": "A configurable, high-performance routing runtime for Apollo Federation \ud83d\ude80",
+    "fork": false,
+    "full_name": "apollographql/router",
+    "html_url": "https://github.com/apollographql/router",
+    "language": "Rust",
+    "pushed_at": "2026-04-30T00:46:03Z",
+    "stargazers_count": 958,
+    "topics": [
+      "apollo",
+      "federated-graph",
+      "federation",
+      "gateway",
+      "gateway-api",
+      "graph-router",
+      "graphql"
+    ],
+    "updated_at": "2026-04-30T00:44:32Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "\"Copilot Setup Steps\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/copilot-setup-steps.yml",
+      "term": "Copilot Setup Steps"
+    },
+    {
+      "context_snippet": "Update Apollo Protobuf",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/update_apollo_protobuf.yaml",
+      "term": "Update Apollo Protobuf"
+    },
+    {
+      "context_snippet": "Update Uplink Schema",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/update_uplink_schema.yml",
+      "term": "Update Uplink Schema"
+    },
+    {
+      "context_snippet": "<a href=\"#\"><img src=\"https://raw.githubusercontent.com/apollographql/space-kit/main/src/illustrations/svgs/satellite1.svg\" width=\"100%\" height=\"144\"></a>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "apollo"
+    },
+    {
+      "context_snippet": "<a href=\"#\"><img src=\"https://raw.githubusercontent.com/apollographql/space-kit/main/src/illustrations/svgs/satellite1.svg\" width=\"100%\" height=\"144\"></a>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "federated-graph"
+    },
+    {
+      "context_snippet": "<a href=\"#\"><img src=\"https://raw.githubusercontent.com/apollographql/space-kit/main/src/illustrations/svgs/satellite1.svg\" width=\"100%\" height=\"144\"></a>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "federation"
+    },
+    {
+      "context_snippet": "<a href=\"#\"><img src=\"https://raw.githubusercontent.com/apollographql/space-kit/main/src/illustrations/svgs/satellite1.svg\" width=\"100%\" height=\"144\"></a>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gateway"
+    },
+    {
+      "context_snippet": "<a href=\"#\"><img src=\"https://raw.githubusercontent.com/apollographql/space-kit/main/src/illustrations/svgs/satellite1.svg\" width=\"100%\" height=\"144\"></a>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gateway-api"
+    },
+    {
+      "context_snippet": "<a href=\"#\"><img src=\"https://raw.githubusercontent.com/apollographql/space-kit/main/src/illustrations/svgs/satellite1.svg\" width=\"100%\" height=\"144\"></a>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "graph-router"
+    },
+    {
+      "context_snippet": "<a href=\"#\"><img src=\"https://raw.githubusercontent.com/apollographql/space-kit/main/src/illustrations/svgs/satellite1.svg\" width=\"100%\" height=\"144\"></a>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "graphql"
+    }
+  ]
+}

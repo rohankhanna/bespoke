@@ -19,6 +19,30 @@
       "source_repo": "liuchengxu/space-vim",
       "status": "candidate-context",
       "text": "<p align=\"left\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nashamri/spacemacs-theme",
+      "status": "candidate-context",
+      "text": "Light and dark theme for spacemacs that supports GUI and terminal"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nashamri/spacemacs-theme",
+      "status": "candidate-context",
+      "text": "[![NonGNU ELPA](https://elpa.nongnu.org/nongnu/spacemacs-theme.svg)](https://elpa.nongnu.org/nongnu/spacemacs-theme.html)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "syl20bnr/spacemacs",
+      "status": "candidate-context",
+      "text": "A community-driven Emacs distribution - The best editor is neither Emacs nor Vim,  it's Emacs *and* Vim!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "syl20bnr/spacemacs",
+      "status": "candidate-context",
+      "text": "<a name=\"top\" id=\"fork-destination-box\"></a>"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +51,18 @@
       "source_repo": "liuchengxu/space-vim",
       "status": "candidate",
       "text": "<p align=\"left\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nashamri/spacemacs-theme",
+      "status": "candidate",
+      "text": "[![NonGNU ELPA](https://elpa.nongnu.org/nongnu/spacemacs-theme.svg)](https://elpa.nongnu.org/nongnu/spacemacs-theme.html)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "syl20bnr/spacemacs",
+      "status": "candidate",
+      "text": "<a name=\"top\" id=\"fork-destination-box\"></a>"
     }
   ],
   "candidate_related_terms": [
@@ -76,11 +112,23 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "liuchengxu/space-vim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "nashamri/spacemacs-theme"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "syl20bnr/spacemacs"
     }
   ],
   "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,42 @@
+{
+  "component": "moonrepo/setup-rust@ede6de059f8046a5e236c94046823e2af11ca670",
+  "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/autofix.yml",
+      "source_repo": "lionel-/biome"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/bench_cli.yml",
+      "source_repo": "lionel-/biome"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/benchmark_configuration.yml",
+      "source_repo": "lionel-/biome"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/benchmark_css.yml",
+      "source_repo": "lionel-/biome"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/benchmark_graphql.yml",
+      "source_repo": "lionel-/biome"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/benchmark_js.yml",
+      "source_repo": "lionel-/biome"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/benchmark_json.yml",
+      "source_repo": "lionel-/biome"
+    }
+  ]
+}

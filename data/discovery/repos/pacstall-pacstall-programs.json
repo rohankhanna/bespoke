@@ -1,0 +1,322 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/distrolist.yml"
+    },
+    {
+      "component": "peter-evans/create-pull-request@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/distrolist.yml"
+    },
+    {
+      "component": "srvaroa/labeler@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "toshimaru/auto-author-assign@v3.0.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr.yml"
+    },
+    {
+      "component": "mxschmitt/action-tmate@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    },
+    {
+      "component": "dorny/paths-filter@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    },
+    {
+      "component": "Ana06/get-changed-files@v2.3.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "pacstall/pacstall-programs",
+      "target": "pacstall/pacup",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/distrolist.yml",
+      "source_repo": "pacstall/pacstall-programs",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/distrolist.yml",
+      "source_repo": "pacstall/pacstall-programs",
+      "target": "peter-evans/create-pull-request@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "pacstall/pacstall-programs",
+      "target": "srvaroa/labeler@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "pacstall/pacstall-programs",
+      "target": "Label PRs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr.yml",
+      "source_repo": "pacstall/pacstall-programs",
+      "target": "toshimaru/auto-author-assign@v3.0.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr.yml",
+      "source_repo": "pacstall/pacstall-programs",
+      "target": "Assign PR Author as Assignee",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "pacstall/pacstall-programs",
+      "target": "mxschmitt/action-tmate@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "pacstall/pacstall-programs",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "pacstall/pacstall-programs",
+      "target": "dorny/paths-filter@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "pacstall/pacstall-programs",
+      "target": "Ana06/get-changed-files@v2.3.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "pacstall/pacstall-programs",
+      "target": "tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pacstall/pacstall-programs",
+      "target": "bash",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pacstall/pacstall-programs",
+      "target": "debian",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pacstall/pacstall-programs",
+      "target": "hacktoberfest",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pacstall/pacstall-programs",
+      "target": "pacbuild",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pacstall/pacstall-programs",
+      "target": "pacscript",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pacstall/pacstall-programs",
+      "target": "pacstall",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pacstall/pacstall-programs",
+      "target": "pacstall-programs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pacstall/pacstall-programs",
+      "target": "scripts",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pacstall/pacstall-programs",
+      "target": "ubuntu",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T04:09:36.678468+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3523
+    },
+    {
+      "path": ".github/workflows/distrolist.yml",
+      "size": 3741
+    },
+    {
+      "path": ".github/workflows/main.yml",
+      "size": 305
+    },
+    {
+      "path": ".github/workflows/pr.yml",
+      "size": 244
+    },
+    {
+      "path": ".github/workflows/tests.yml",
+      "size": 7296
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Pacstall's official program repository",
+    "fork": false,
+    "full_name": "pacstall/pacstall-programs",
+    "html_url": "https://github.com/pacstall/pacstall-programs",
+    "language": "Shell",
+    "pushed_at": "2026-04-28T02:56:58Z",
+    "stargazers_count": 211,
+    "topics": [
+      "aur",
+      "bash",
+      "debian",
+      "hacktoberfest",
+      "pacbuild",
+      "pacscript",
+      "pacstall",
+      "pacstall-programs",
+      "scripts",
+      "ubuntu"
+    ],
+    "updated_at": "2026-04-28T02:57:03Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "pacstall/pacup",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Label PRs",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/main.yml",
+      "term": "Label PRs"
+    },
+    {
+      "context_snippet": "\"Assign PR Author as Assignee\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr.yml",
+      "term": "Assign PR Author as Assignee"
+    },
+    {
+      "context_snippet": "tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/tests.yml",
+      "term": "tests"
+    },
+    {
+      "context_snippet": "This is the default repository of pacscripts which [pacstall](https://github.com/pacstall/pacstall) uses to install software. You can fork this repository and add make your own package repository as long as it follows the basic structure:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bash"
+    },
+    {
+      "context_snippet": "This is the default repository of pacscripts which [pacstall](https://github.com/pacstall/pacstall) uses to install software. You can fork this repository and add make your own package repository as long as it follows the basic structure:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "debian"
+    },
+    {
+      "context_snippet": "This is the default repository of pacscripts which [pacstall](https://github.com/pacstall/pacstall) uses to install software. You can fork this repository and add make your own package repository as long as it follows the basic structure:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hacktoberfest"
+    },
+    {
+      "context_snippet": "This is the default repository of pacscripts which [pacstall](https://github.com/pacstall/pacstall) uses to install software. You can fork this repository and add make your own package repository as long as it follows the basic structure:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pacbuild"
+    },
+    {
+      "context_snippet": "This is the default repository of pacscripts which [pacstall](https://github.com/pacstall/pacstall) uses to install software. You can fork this repository and add make your own package repository as long as it follows the basic structure:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pacscript"
+    },
+    {
+      "context_snippet": "This is the default repository of pacscripts which [pacstall](https://github.com/pacstall/pacstall) uses to install software. You can fork this repository and add make your own package repository as long as it follows the basic structure:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pacstall"
+    },
+    {
+      "context_snippet": "This is the default repository of pacscripts which [pacstall](https://github.com/pacstall/pacstall) uses to install software. You can fork this repository and add make your own package repository as long as it follows the basic structure:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pacstall-programs"
+    },
+    {
+      "context_snippet": "This is the default repository of pacscripts which [pacstall](https://github.com/pacstall/pacstall) uses to install software. You can fork this repository and add make your own package repository as long as it follows the basic structure:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "scripts"
+    },
+    {
+      "context_snippet": "This is the default repository of pacscripts which [pacstall](https://github.com/pacstall/pacstall) uses to install software. You can fork this repository and add make your own package repository as long as it follows the basic structure:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ubuntu"
+    }
+  ]
+}

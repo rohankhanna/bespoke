@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "lizzie"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sanderland/katrain",
+      "status": "candidate-context",
+      "text": "Improve your Baduk skills by training with KataGo!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sanderland/katrain",
+      "status": "candidate-context",
+      "text": "[![Latest Release](http://img.shields.io/github/release/sanderland/katrain?label=download)](http://github.com/sanderland/katrain/releases)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sanderland/katrain",
+      "status": "candidate",
+      "text": "[![Latest Release](http://img.shields.io/github/release/sanderland/katrain?label=download)](http://github.com/sanderland/katrain/releases)"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19319058,
+      "status": "candidate",
+      "text": "lizzy"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19319037,
+      "status": "candidate",
+      "text": "liz"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18073169,
+      "status": "candidate",
+      "text": "keep"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9319062,
+      "status": "candidate",
+      "text": "lacertid"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9319061,
+      "status": "candidate",
+      "text": "gecko"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "lizzie",
+  "concept_id": "lizzie",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "sanderland/katrain"
+    }
+  ],
+  "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "lizzie",
+      "sense_id": "lizzie#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

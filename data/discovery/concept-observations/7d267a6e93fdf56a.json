@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Governance and contact information for Cloud Foundry"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "'Delete Inactive Users in Github Organization'"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "'Delete Inactive Users in Github Organization'"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29496,
+      "status": "candidate",
+      "text": "cuts"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28891,
+      "status": "candidate",
+      "text": "lockout"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28839,
+      "status": "candidate",
+      "text": "cautery"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28665,
+      "status": "candidate",
+      "text": "killed"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28567,
+      "status": "candidate",
+      "text": "ring"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Delete Inactive Users in Github Organization",
+      "sense_id": "delete-inactive-users-in-github-organization#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "delete-inactive-users-in-github-organization",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "delete-inactive-users-in-github-organization",
+  "observation_id": "7d267a6e93fdf56a",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-30T00:37:16.824464+00:00",
+  "observed_text": "Delete Inactive Users in Github Organization",
+  "source_context_snippet": "'Delete Inactive Users in Github Organization'",
+  "source_file": ".github/workflows/org-inactive-user-management.yml",
+  "source_repo": "cloudfoundry/community",
+  "source_repo_description": "Governance and contact information for Cloud Foundry"
+}

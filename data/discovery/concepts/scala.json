@@ -199,6 +199,42 @@
       "source_repo": "intel/BigDL",
       "status": "candidate-context",
       "text": "> [!IMPORTANT]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sparsetech/cmark-scala",
+      "status": "candidate-context",
+      "text": "Parse, manipulate and render CommonMark in Scala Native"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sparsetech/cmark-scala",
+      "status": "candidate-context",
+      "text": "cmark-scala provides [Scala Native](http://www.scala-native.org/) bindings for [cmark](https://github.com/commonmark/cmark). cmark allows to parse, manipulate and render CommonMark documents."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "coursier/coursier",
+      "status": "candidate-context",
+      "text": "Pure Scala Artifact Fetching"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "coursier/coursier",
+      "status": "candidate-context",
+      "text": "[![Build status](https://github.com/coursier/coursier/workflows/CI/badge.svg)](https://github.com/coursier/coursier/actions?query=workflow%3ACI)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apache/kafka",
+      "status": "candidate-context",
+      "text": "Apache Kafka - A distributed event streaming platform"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/kafka",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -297,6 +333,24 @@
       "source_repo": "intel/BigDL",
       "status": "candidate",
       "text": "> [!IMPORTANT]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sparsetech/cmark-scala",
+      "status": "candidate",
+      "text": "cmark-scala provides [Scala Native](http://www.scala-native.org/) bindings for [cmark](https://github.com/commonmark/cmark). cmark allows to parse, manipulate and render CommonMark documents."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "coursier/coursier",
+      "status": "candidate",
+      "text": "[![Build status](https://github.com/coursier/coursier/workflows/CI/badge.svg)](https://github.com/coursier/coursier/actions?query=workflow%3ACI)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/kafka",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -442,11 +496,47 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "intel/BigDL"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "sparsetech/cmark-scala"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "coursier/coursier"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "scala-interop/slinc"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "intel/BigDL"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "apollographql/apollo-scalajs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "apache/kafka"
     }
   ],
   "first_seen_at": "2026-04-19T17:42:30.117329+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

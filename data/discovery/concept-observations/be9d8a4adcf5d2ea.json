@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Collection of parsers written in JavaScript"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![build status](https://secure.travis-ci.org/CSSLint/parser-lib.svg?branch=master)](https://travis-ci.org/CSSLint/parser-lib)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![build status](https://secure.travis-ci.org/CSSLint/parser-lib.svg?branch=master)](https://travis-ci.org/CSSLint/parser-lib)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29798298,
+      "status": "candidate",
+      "text": "xsl"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19822289,
+      "status": "candidate",
+      "text": "style sheet"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19822288,
+      "status": "candidate",
+      "text": "style manual"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19822287,
+      "status": "candidate",
+      "text": "stylebook"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19822286,
+      "status": "candidate",
+      "text": "format"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "stylesheet",
+      "sense_id": "stylesheet#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "stylesheet",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "stylesheet",
+  "observation_id": "be9d8a4adcf5d2ea",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T00:37:16.824464+00:00",
+  "observed_text": "stylesheet",
+  "source_context_snippet": "[![build status](https://secure.travis-ci.org/CSSLint/parser-lib.svg?branch=master)](https://travis-ci.org/CSSLint/parser-lib)",
+  "source_file": null,
+  "source_repo": "CSSLint/parser-lib",
+  "source_repo_description": "Collection of parsers written in JavaScript"
+}

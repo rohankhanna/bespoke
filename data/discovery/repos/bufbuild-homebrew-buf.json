@@ -1,0 +1,310 @@
+{
+  "components": [
+    {
+      "component": "bufbuild/base-workflows/.github/workflows/add-to-project.yaml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/add-to-project.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "Homebrew/actions/setup-homebrew@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "actions/create-github-app-token@df432ceedc7162793a195dd1713ff69aefc7379e",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/create-release-pr.yaml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/create-release-pr.yaml"
+    },
+    {
+      "component": "bufbuild/base-workflows/.github/workflows/emergency-review-bypass.yaml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/emergency-review-bypass.yaml"
+    },
+    {
+      "component": "bufbuild/base-workflows/.github/workflows/notify-approval-bypass.yaml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/notify-approval-bypass.yaml"
+    },
+    {
+      "component": "bufbuild/base-workflows/.github/workflows/pr-title.yaml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-title.yaml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sync-master.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/add-to-project.yaml",
+      "source_repo": "bufbuild/homebrew-buf",
+      "target": "bufbuild/base-workflows/.github/workflows/add-to-project.yaml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/add-to-project.yaml",
+      "source_repo": "bufbuild/homebrew-buf",
+      "target": "Add issues and PRs to project",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "bufbuild/homebrew-buf",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "bufbuild/homebrew-buf",
+      "target": "Homebrew/actions/setup-homebrew@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "bufbuild/homebrew-buf",
+      "target": "Brew CI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/create-release-pr.yaml",
+      "source_repo": "bufbuild/homebrew-buf",
+      "target": "actions/create-github-app-token@df432ceedc7162793a195dd1713ff69aefc7379e",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/create-release-pr.yaml",
+      "source_repo": "bufbuild/homebrew-buf",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/create-release-pr.yaml",
+      "source_repo": "bufbuild/homebrew-buf",
+      "target": "Create Release PR",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/emergency-review-bypass.yaml",
+      "source_repo": "bufbuild/homebrew-buf",
+      "target": "bufbuild/base-workflows/.github/workflows/emergency-review-bypass.yaml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/emergency-review-bypass.yaml",
+      "source_repo": "bufbuild/homebrew-buf",
+      "target": "Bypass review in case of emergency",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/notify-approval-bypass.yaml",
+      "source_repo": "bufbuild/homebrew-buf",
+      "target": "bufbuild/base-workflows/.github/workflows/notify-approval-bypass.yaml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/notify-approval-bypass.yaml",
+      "source_repo": "bufbuild/homebrew-buf",
+      "target": "PR Approval Bypass Notifier",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-title.yaml",
+      "source_repo": "bufbuild/homebrew-buf",
+      "target": "bufbuild/base-workflows/.github/workflows/pr-title.yaml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr-title.yaml",
+      "source_repo": "bufbuild/homebrew-buf",
+      "target": "Lint PR Title",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sync-master.yaml",
+      "source_repo": "bufbuild/homebrew-buf",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/sync-master.yaml",
+      "source_repo": "bufbuild/homebrew-buf",
+      "target": "Sync Main to Master",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bufbuild/homebrew-buf",
+      "target": "protobuf",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bufbuild/homebrew-buf",
+      "target": "protoc",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bufbuild/homebrew-buf",
+      "target": "protocol-buffers",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T05:04:38.370993+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 203
+    },
+    {
+      "path": ".github/workflows/add-to-project.yaml",
+      "size": 409
+    },
+    {
+      "path": ".github/workflows/ci.yaml",
+      "size": 846
+    },
+    {
+      "path": ".github/workflows/create-release-pr.yaml",
+      "size": 1544
+    },
+    {
+      "path": ".github/workflows/emergency-review-bypass.yaml",
+      "size": 309
+    },
+    {
+      "path": ".github/workflows/notify-approval-bypass.yaml",
+      "size": 266
+    },
+    {
+      "path": ".github/workflows/pr-title.yaml",
+      "size": 612
+    },
+    {
+      "path": ".github/workflows/sync-master.yaml",
+      "size": 695
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Homebrew tap for Buf.",
+    "fork": false,
+    "full_name": "bufbuild/homebrew-buf",
+    "html_url": "https://github.com/bufbuild/homebrew-buf",
+    "language": "Shell",
+    "pushed_at": "2026-04-29T20:50:05Z",
+    "stargazers_count": 14,
+    "topics": [
+      "protobuf",
+      "protoc",
+      "protocol-buffers"
+    ],
+    "updated_at": "2026-04-29T20:08:24Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Add issues and PRs to project",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/add-to-project.yaml",
+      "term": "Add issues and PRs to project"
+    },
+    {
+      "context_snippet": "Brew CI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yaml",
+      "term": "Brew CI"
+    },
+    {
+      "context_snippet": "Create Release PR",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/create-release-pr.yaml",
+      "term": "Create Release PR"
+    },
+    {
+      "context_snippet": "Bypass review in case of emergency",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/emergency-review-bypass.yaml",
+      "term": "Bypass review in case of emergency"
+    },
+    {
+      "context_snippet": "PR Approval Bypass Notifier",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/notify-approval-bypass.yaml",
+      "term": "PR Approval Bypass Notifier"
+    },
+    {
+      "context_snippet": "Lint PR Title",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr-title.yaml",
+      "term": "Lint PR Title"
+    },
+    {
+      "context_snippet": "Sync Main to Master",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/sync-master.yaml",
+      "term": "Sync Main to Master"
+    },
+    {
+      "context_snippet": "This provides a [Homebrew](https://brew.sh) tap for [Buf](https://github.com/bufbuild/buf).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "protobuf"
+    },
+    {
+      "context_snippet": "This provides a [Homebrew](https://brew.sh) tap for [Buf](https://github.com/bufbuild/buf).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "protoc"
+    },
+    {
+      "context_snippet": "This provides a [Homebrew](https://brew.sh) tap for [Buf](https://github.com/bufbuild/buf).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "protocol-buffers"
+    }
+  ]
+}

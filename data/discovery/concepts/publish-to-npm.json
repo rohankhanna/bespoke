@@ -135,6 +135,30 @@
       "source_repo": "aadsm/jschardet",
       "status": "candidate-context",
       "text": "Publish to npm"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "y-lohse/inkjs",
+      "status": "candidate-context",
+      "text": "A javascript port of inkle's ink scripting language."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "y-lohse/inkjs",
+      "status": "candidate-context",
+      "text": "Publish to npm"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dylibso/xtp-bindgen",
+      "status": "candidate-context",
+      "text": "A typescript library for parsing and using the XTP Schema https://docs.xtp.dylibso.com/docs/concepts/xtp-schema/"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dylibso/xtp-bindgen",
+      "status": "candidate-context",
+      "text": "Publish to npm"
     }
   ],
   "candidate_glosses": [
@@ -201,6 +225,18 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "aadsm/jschardet",
+      "status": "candidate",
+      "text": "Publish to npm"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "y-lohse/inkjs",
+      "status": "candidate",
+      "text": "Publish to npm"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dylibso/xtp-bindgen",
       "status": "candidate",
       "text": "Publish to npm"
     }
@@ -330,11 +366,29 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": ".github/workflows/npm-publish.yml",
       "source_repo": "a2aproject/a2a-js"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/npm-publish.yml",
+      "source_repo": "y-lohse/inkjs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/npm-publish.yml",
+      "source_repo": "a2aproject/a2a-js"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "dylibso/xtp-bindgen"
     }
   ],
   "first_seen_at": "2026-04-18T11:56:18.570627+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

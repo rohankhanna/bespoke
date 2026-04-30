@@ -91,6 +91,30 @@
       "source_repo": "HKUDS/LightRAG",
       "status": "candidate-context",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dgraph-io/dgraph",
+      "status": "candidate-context",
+      "text": "high-performance graph database for real-time use cases"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dgraph-io/dgraph",
+      "status": "candidate-context",
+      "text": "<picture>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ldclabs/KIP",
+      "status": "candidate-context",
+      "text": "\ud83e\uddec KIP is a Knowledge-memory Interaction Protocol designed for LLMs, aiming to build a sustainable learning and self-evolving memory system for AI Agents."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ldclabs/KIP",
+      "status": "candidate-context",
+      "text": "**[English](./README.md) | [\u4e2d\u6587](./README_CN.md)**"
     }
   ],
   "candidate_glosses": [
@@ -135,6 +159,18 @@
       "source_repo": "HKUDS/LightRAG",
       "status": "candidate",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dgraph-io/dgraph",
+      "status": "candidate",
+      "text": "<picture>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ldclabs/KIP",
+      "status": "candidate",
+      "text": "**[English](./README.md) | [\u4e2d\u6587](./README_CN.md)**"
     }
   ],
   "candidate_related_terms": [],
@@ -190,11 +226,23 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": null,
       "source_repo": "HKUDS/LightRAG"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "dgraph-io/dgraph"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "ldclabs/KIP"
     }
   ],
   "first_seen_at": "2026-04-18T11:24:14.688152+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

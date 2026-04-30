@@ -1,0 +1,100 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "danielrosehill/AI-Friendly-Badge",
+      "target": "ai-txt/ai.txt",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "danielrosehill/AI-Friendly-Badge",
+      "target": "ai-training",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "danielrosehill/AI-Friendly-Badge",
+      "target": "astro",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "danielrosehill/AI-Friendly-Badge",
+      "target": "badges",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "danielrosehill/AI-Friendly-Badge",
+      "target": "frontend-components",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T04:58:41.237545+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5722
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Website footer badge signalling AI \"friendliness\"",
+    "fork": false,
+    "full_name": "danielrosehill/AI-Friendly-Badge",
+    "html_url": "https://github.com/danielrosehill/AI-Friendly-Badge",
+    "language": "HTML",
+    "pushed_at": "2025-10-17T00:35:19Z",
+    "stargazers_count": 0,
+    "topics": [
+      "ai-training",
+      "astro",
+      "badges",
+      "frontend-components",
+      "svg"
+    ],
+    "updated_at": "2025-10-17T00:35:22Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ai-txt/ai.txt",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "A simple, elegant badge to show that your website welcomes AI crawlers, indexing, and training.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ai-training"
+    },
+    {
+      "context_snippet": "A simple, elegant badge to show that your website welcomes AI crawlers, indexing, and training.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "astro"
+    },
+    {
+      "context_snippet": "A simple, elegant badge to show that your website welcomes AI crawlers, indexing, and training.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "badges"
+    },
+    {
+      "context_snippet": "A simple, elegant badge to show that your website welcomes AI crawlers, indexing, and training.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "frontend-components"
+    }
+  ]
+}

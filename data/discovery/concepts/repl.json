@@ -178,6 +178,90 @@
       "source_repo": "athos/trenchman",
       "status": "candidate-context",
       "text": "[![release](https://github.com/athos/trenchman/actions/workflows/release.yaml/badge.svg)](https://github.com/athos/trenchman/actions/workflows/release.yaml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bhauman/rebel-readline",
+      "status": "candidate-context",
+      "text": "Terminal readline library for Clojure dialects"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bhauman/rebel-readline",
+      "status": "candidate-context",
+      "text": "[![Clojars Project](https://img.shields.io/clojars/v/com.bhauman/rebel-readline.svg)](https://clojars.org/com.bhauman/rebel-readline)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "clojure-emacs/inf-clojure",
+      "status": "candidate-context",
+      "text": "Basic interaction with a Clojure subprocess from Emacs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "clojure-emacs/inf-clojure",
+      "status": "candidate-context",
+      "text": "[![Circle CI][circleci-badge]][circleci]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nrepl/nrepl",
+      "status": "candidate-context",
+      "text": "A Clojure network REPL that provides a server and client, along with some common APIs of use to IDEs and other tools that may need to evaluate Clojure code in remote environments."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nrepl/nrepl",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "weavejester/ns-tracker",
+      "status": "candidate-context",
+      "text": "Library to keep track of changes to Clojure source files"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "weavejester/ns-tracker",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://github.com/weavejester/ns-tracker/actions/workflows/test.yml/badge.svg)](https://github.com/weavejester/ns-tracker/actions/workflows/test.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bhauman/figwheel-main",
+      "status": "candidate-context",
+      "text": "Figwheel Main provides tooling for developing ClojureScript applications"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bhauman/figwheel-main",
+      "status": "candidate-context",
+      "text": "[![Clojars Project](https://img.shields.io/clojars/v/com.bhauman/figwheel-main.svg)](https://clojars.org/com.bhauman/figwheel-main)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "fengari-lua/fengari-node-cli",
+      "status": "candidate-context",
+      "text": "The Lua command line application, but using fengari under node.js"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fengari-lua/fengari-node-cli",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://travis-ci.org/fengari-lua/fengari-node-cli.svg?branch=master)](https://travis-ci.org/fengari-lua/fengari-node-cli)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kahliburke/Kaimon.jl",
+      "status": "candidate-context",
+      "text": "MCP server giving AI agents full access to Julia's runtime via a live Gate \u2014 code execution, introspection, debugging, testing, and semantic search"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kahliburke/Kaimon.jl",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -264,6 +348,48 @@
       "source_repo": "athos/trenchman",
       "status": "candidate",
       "text": "[![release](https://github.com/athos/trenchman/actions/workflows/release.yaml/badge.svg)](https://github.com/athos/trenchman/actions/workflows/release.yaml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bhauman/rebel-readline",
+      "status": "candidate",
+      "text": "[![Clojars Project](https://img.shields.io/clojars/v/com.bhauman/rebel-readline.svg)](https://clojars.org/com.bhauman/rebel-readline)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "clojure-emacs/inf-clojure",
+      "status": "candidate",
+      "text": "[![Circle CI][circleci-badge]][circleci]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nrepl/nrepl",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "weavejester/ns-tracker",
+      "status": "candidate",
+      "text": "[![Build Status](https://github.com/weavejester/ns-tracker/actions/workflows/test.yml/badge.svg)](https://github.com/weavejester/ns-tracker/actions/workflows/test.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bhauman/figwheel-main",
+      "status": "candidate",
+      "text": "[![Clojars Project](https://img.shields.io/clojars/v/com.bhauman/figwheel-main.svg)](https://clojars.org/com.bhauman/figwheel-main)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fengari-lua/fengari-node-cli",
+      "status": "candidate",
+      "text": "[![Build Status](https://travis-ci.org/fengari-lua/fengari-node-cli.svg?branch=master)](https://travis-ci.org/fengari-lua/fengari-node-cli)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kahliburke/Kaimon.jl",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -391,11 +517,53 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "athos/trenchman"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "bhauman/rebel-readline"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "clojure-emacs/inf-clojure"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "nrepl/nrepl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "weavejester/ns-tracker"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "bhauman/figwheel-main"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "fengari-lua/fengari-node-cli"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "kahliburke/Kaimon.jl"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

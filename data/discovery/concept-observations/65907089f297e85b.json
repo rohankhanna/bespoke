@@ -48,7 +48,7 @@
   "normalized_form": "nvim",
   "observation_id": "65907089f297e85b",
   "observation_kind": "repo-topic",
-  "observed_at": "2026-04-23T04:27:42.433064+00:00",
+  "observed_at": "2026-04-30T00:37:16.824464+00:00",
   "observed_text": "nvim",
   "source_context_snippet": "nvim-lspconfig is a collection of LSP server configurations for the [Nvim LSP client](https://neovim.io/doc/user/lsp.html).",
   "source_file": null,

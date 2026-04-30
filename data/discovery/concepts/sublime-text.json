@@ -91,6 +91,18 @@
       "source_repo": "JuliaEditorSupport/Julia-sublime",
       "status": "candidate-context",
       "text": "Julia language support for Sublime Text 4 or above"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sublimehq/Packages",
+      "status": "candidate-context",
+      "text": "Syntax highlighting files shipped with Sublime Text and Sublime Merge"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sublimehq/Packages",
+      "status": "candidate-context",
+      "text": "These packages are developed"
     }
   ],
   "candidate_glosses": [
@@ -135,6 +147,12 @@
       "source_repo": "JuliaEditorSupport/Julia-sublime",
       "status": "candidate",
       "text": "Julia language support for Sublime Text 4 or above"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sublimehq/Packages",
+      "status": "candidate",
+      "text": "These packages are developed"
     }
   ],
   "candidate_related_terms": [],
@@ -184,11 +202,23 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": null,
       "source_repo": "JuliaEditorSupport/Julia-sublime"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "sublimehq/Packages"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "sublimelsp/LSP"
     }
   ],
   "first_seen_at": "2026-04-19T04:47:57.443742+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

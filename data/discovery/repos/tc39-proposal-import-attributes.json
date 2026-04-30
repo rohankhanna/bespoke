@@ -31,7 +31,7 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "tc39/proposal-import-attributes",
-      "target": "tc39/ecma262",
+      "target": "w3c/webcomponents",
       "target_type": "repository"
     },
     {
@@ -39,20 +39,6 @@
       "source_file": "README.md",
       "source_repo": "tc39/proposal-import-attributes",
       "target": "tc39/proposal-import-reflection",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "tc39/proposal-import-attributes",
-      "target": "parcel-bundler/parcel",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "tc39/proposal-import-attributes",
-      "target": "tc39/proposal-json-modules",
       "target_type": "repository"
     },
     {
@@ -98,7 +84,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-23T22:04:38.128140+00:00",
+  "fetched_at": "2026-04-30T02:57:59.008244+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -123,21 +109,11 @@
     "html_url": "https://github.com/tc39/proposal-import-attributes",
     "language": "HTML",
     "pushed_at": "2024-12-12T18:18:31Z",
-    "stargazers_count": 628,
+    "stargazers_count": 629,
     "topics": [],
-    "updated_at": "2026-04-23T11:51:27Z"
+    "updated_at": "2026-04-27T22:08:27Z"
   },
   "repo_links": [
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "parcel-bundler/parcel",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "tc39/ecma262",
-      "source_file": "README.md"
-    },
     {
       "edge_type": "explicit-github-link",
       "full_name": "tc39/proposal-import-reflection",
@@ -145,7 +121,7 @@
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "tc39/proposal-json-modules",
+      "full_name": "w3c/webcomponents",
       "source_file": "README.md"
     }
   ],

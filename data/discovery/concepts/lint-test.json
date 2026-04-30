@@ -4,7 +4,8 @@
     "Lint Test",
     "Lint & Test",
     "\ud83e\uddd1\u200d\ud83d\udd2c Lint & Test",
-    "lint-test"
+    "lint-test",
+    "Lint & test"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -119,6 +120,30 @@
       "source_repo": "alexpasmantier/tv.nvim",
       "status": "candidate-context",
       "text": "lint-test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "theupdateframework/tuf-on-ci",
+      "status": "candidate-context",
+      "text": "A TUF repository and signing tool"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "theupdateframework/tuf-on-ci",
+      "status": "candidate-context",
+      "text": "Lint & test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gregorias/toggle.nvim",
+      "status": "candidate-context",
+      "text": "A Neovim plugin for toggling options."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gregorias/toggle.nvim",
+      "status": "candidate-context",
+      "text": "lint-test"
     }
   ],
   "candidate_glosses": [
@@ -173,6 +198,18 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "alexpasmantier/tv.nvim",
+      "status": "candidate",
+      "text": "lint-test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "theupdateframework/tuf-on-ci",
+      "status": "candidate",
+      "text": "Lint & test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gregorias/toggle.nvim",
       "status": "candidate",
       "text": "lint-test"
     }
@@ -326,11 +363,41 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": ".github/workflows/lint.yaml",
       "source_repo": "modelscope/ms-agent"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "theupdateframework/tuf-on-ci"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/lint.yaml",
+      "source_repo": "modelscope/ms-agent"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/lint.yaml",
+      "source_repo": "modelscope/ms-swift"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/lint_test.yml",
+      "source_repo": "fonttools/fontbakery"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/lint-test.yml",
+      "source_repo": "gregorias/toggle.nvim"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,128 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/setup-python@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "astoff/digestif",
+      "target": "mohkale/consult-eglot",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "astoff/digestif",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "astoff/digestif",
+      "target": "actions/setup-python@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "astoff/digestif",
+      "target": "Test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "astoff/digestif",
+      "target": "bibtex",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "astoff/digestif",
+      "target": "language-server",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "astoff/digestif",
+      "target": "latex",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T02:59:31.759337+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6707
+    },
+    {
+      "path": ".github/workflows/test.yml",
+      "size": 1105
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A language server for TeX and friends",
+    "fork": false,
+    "full_name": "astoff/digestif",
+    "html_url": "https://github.com/astoff/digestif",
+    "language": "Lua",
+    "pushed_at": "2025-12-02T12:20:15Z",
+    "stargazers_count": 303,
+    "topics": [
+      "bibtex",
+      "language-server",
+      "latex",
+      "tex"
+    ],
+    "updated_at": "2026-04-25T00:58:56Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mohkale/consult-eglot",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "term": "Test"
+    },
+    {
+      "context_snippet": "Digestif",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bibtex"
+    },
+    {
+      "context_snippet": "Digestif",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "language-server"
+    },
+    {
+      "context_snippet": "Digestif",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "latex"
+    }
+  ]
+}

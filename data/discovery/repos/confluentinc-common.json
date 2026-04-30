@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T04:54:34.993240+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1191
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Common utilities library containing metrics, config and utils",
+    "fork": false,
+    "full_name": "confluentinc/common",
+    "html_url": "https://github.com/confluentinc/common",
+    "language": "Java",
+    "pushed_at": "2026-04-30T02:51:36Z",
+    "stargazers_count": 15,
+    "topics": [],
+    "updated_at": "2026-04-28T08:42:51Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

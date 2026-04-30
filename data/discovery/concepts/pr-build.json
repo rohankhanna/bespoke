@@ -98,6 +98,24 @@
       "source_repo": "aws-otel/aws-otel.github.io",
       "status": "candidate-context",
       "text": "PR Build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "spiffe/spire-examples",
+      "status": "candidate-context",
+      "text": "Examples and documentation showing SPIRE integration with various projects and platforms"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "spiffe/spire-examples",
+      "status": "candidate-context",
+      "text": "PR Build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "spiffe/spire-tutorials",
+      "status": "candidate-context",
+      "text": "PR Build"
     }
   ],
   "candidate_glosses": [
@@ -146,6 +164,18 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "aws-otel/aws-otel.github.io",
+      "status": "candidate",
+      "text": "PR Build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "spiffe/spire-examples",
+      "status": "candidate",
+      "text": "PR Build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "spiffe/spire-tutorials",
       "status": "candidate",
       "text": "PR Build"
     }
@@ -239,11 +269,23 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": ".github/workflows/pr.yml",
       "source_repo": "aws-otel/aws-otel.github.io"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/pr_build.yaml",
+      "source_repo": "spiffe/spire-examples"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/pr_build.yml",
+      "source_repo": "spiffe/spire-tutorials"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

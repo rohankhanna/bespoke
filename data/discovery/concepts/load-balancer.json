@@ -19,6 +19,18 @@
       "source_repo": "intentee/paddler",
       "status": "candidate-context",
       "text": "<img alt=\"Paddler 3.0 supports multimodal!\" src=\"https://github.com/user-attachments/assets/cc3b4a1d-4ab3-4a57-8cf0-14e682cf1492\" width=\"100%\" />"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ContentSquare/chproxy",
+      "status": "candidate-context",
+      "text": "Open-Source ClickHouse http proxy and load balancer"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ContentSquare/chproxy",
+      "status": "candidate-context",
+      "text": "[![Go Report Card](https://goreportcard.com/badge/github.com/ContentSquare/chproxy)](https://goreportcard.com/report/github.com/ContentSquare/chproxy)"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "intentee/paddler",
       "status": "candidate",
       "text": "<img alt=\"Paddler 3.0 supports multimodal!\" src=\"https://github.com/user-attachments/assets/cc3b4a1d-4ab3-4a57-8cf0-14e682cf1492\" width=\"100%\" />"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ContentSquare/chproxy",
+      "status": "candidate",
+      "text": "[![Go Report Card](https://goreportcard.com/badge/github.com/ContentSquare/chproxy)](https://goreportcard.com/report/github.com/ContentSquare/chproxy)"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": null,
       "source_repo": "intentee/paddler"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "ContentSquare/chproxy"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

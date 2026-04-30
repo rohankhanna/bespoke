@@ -1,0 +1,41 @@
+{
+  "components": [
+    {
+      "component": "sponsorkit",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "thetutlage/static",
+      "target": "sponsorkit",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-04-30T03:50:39.044323+00:00",
+  "fetched_files": [
+    {
+      "path": "package.json",
+      "size": 254
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Host for static resources",
+    "fork": false,
+    "full_name": "thetutlage/static",
+    "html_url": "https://github.com/thetutlage/static",
+    "language": "JavaScript",
+    "pushed_at": "2026-04-28T12:16:02Z",
+    "stargazers_count": 3,
+    "topics": [],
+    "updated_at": "2026-04-28T12:16:07Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

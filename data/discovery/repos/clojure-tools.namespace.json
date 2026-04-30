@@ -1,0 +1,171 @@
+{
+  "components": [
+    {
+      "component": "clojure/build.ci/.github/workflows/doc-build.yml@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/doc-build.yml"
+    },
+    {
+      "component": "clojure/build.ci/.github/workflows/release.yml@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "clojure/build.ci/.github/workflows/snapshot.yml@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/snapshot.yml"
+    },
+    {
+      "component": "clojure/build.ci/.github/workflows/test.yml@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "clojure/tools.namespace",
+      "target": "ring-clojure/ring",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "clojure/tools.namespace",
+      "target": "weavejester/ns-tracker",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/doc-build.yml",
+      "source_repo": "clojure/tools.namespace",
+      "target": "clojure/build.ci/.github/workflows/doc-build.yml@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/doc-build.yml",
+      "source_repo": "clojure/tools.namespace",
+      "target": "Build API Docs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "clojure/tools.namespace",
+      "target": "clojure/build.ci/.github/workflows/release.yml@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "clojure/tools.namespace",
+      "target": "Release on demand",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/snapshot.yml",
+      "source_repo": "clojure/tools.namespace",
+      "target": "clojure/build.ci/.github/workflows/snapshot.yml@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/snapshot.yml",
+      "source_repo": "clojure/tools.namespace",
+      "target": "Snapshot on demand",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "clojure/tools.namespace",
+      "target": "clojure/build.ci/.github/workflows/test.yml@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "clojure/tools.namespace",
+      "target": "Test",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T00:38:59.330610+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 20184
+    },
+    {
+      "path": ".github/workflows/doc-build.yml",
+      "size": 228
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "size": 528
+    },
+    {
+      "path": ".github/workflows/snapshot.yml",
+      "size": 191
+    },
+    {
+      "path": ".github/workflows/test.yml",
+      "size": 135
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Tools for managing namespaces in Clojure",
+    "fork": false,
+    "full_name": "clojure/tools.namespace",
+    "html_url": "https://github.com/clojure/tools.namespace",
+    "language": "Clojure",
+    "pushed_at": "2026-01-02T15:32:47Z",
+    "stargazers_count": 627,
+    "topics": [],
+    "updated_at": "2026-03-10T00:00:48Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ring-clojure/ring",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "weavejester/ns-tracker",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Build API Docs",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/doc-build.yml",
+      "term": "Build API Docs"
+    },
+    {
+      "context_snippet": "Release on demand",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "term": "Release on demand"
+    },
+    {
+      "context_snippet": "Snapshot on demand",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/snapshot.yml",
+      "term": "Snapshot on demand"
+    },
+    {
+      "context_snippet": "Test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "term": "Test"
+    }
+  ]
+}

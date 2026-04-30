@@ -55,6 +55,18 @@
       "source_repo": "sysstat/sysstat",
       "status": "candidate-context",
       "text": "[![Coverity Scan Build Status](https://scan.coverity.com/projects/4040/badge.svg)](https://scan.coverity.com/projects/sysstat-sysstat)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Byron/dua-cli",
+      "status": "candidate-context",
+      "text": "View disk space usage and delete unwanted data, fast."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Byron/dua-cli",
+      "status": "candidate-context",
+      "text": "[![Rust](https://github.com/Byron/dua-cli/workflows/Rust/badge.svg)](https://github.com/byron/dua-cli/actions)"
     }
   ],
   "candidate_glosses": [
@@ -81,6 +93,12 @@
       "source_repo": "sysstat/sysstat",
       "status": "candidate",
       "text": "[![Coverity Scan Build Status](https://scan.coverity.com/projects/4040/badge.svg)](https://scan.coverity.com/projects/sysstat-sysstat)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Byron/dua-cli",
+      "status": "candidate",
+      "text": "[![Rust](https://github.com/Byron/dua-cli/workflows/Rust/badge.svg)](https://github.com/byron/dua-cli/actions)"
     }
   ],
   "candidate_related_terms": [
@@ -184,11 +202,17 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": null,
       "source_repo": "sysstat/sysstat"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "Byron/dua-cli"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

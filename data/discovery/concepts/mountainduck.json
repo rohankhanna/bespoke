@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "mountainduck"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "iterate-ch/docs",
+      "status": "candidate-context",
+      "text": "Documentation for Cyberduck and Mountain Duck."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "iterate-ch/docs",
+      "status": "candidate-context",
+      "text": "[![CI](https://github.com/iterate-ch/docs/actions/workflows/CI.yml/badge.svg)](https://github.com/iterate-ch/docs/actions/workflows/CI.yml)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "iterate-ch/docs",
+      "status": "candidate",
+      "text": "[![CI](https://github.com/iterate-ch/docs/actions/workflows/CI.yml/badge.svg)](https://github.com/iterate-ch/docs/actions/workflows/CI.yml)"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "mountainduck",
+  "concept_id": "mountainduck",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "iterate-ch/docs"
+    }
+  ],
+  "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "mountainduck",
+      "sense_id": "mountainduck#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

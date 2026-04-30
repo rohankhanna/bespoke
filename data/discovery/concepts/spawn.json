@@ -1,0 +1,115 @@
+{
+  "aliases": [
+    "spawn"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "google/zx",
+      "status": "candidate-context",
+      "text": "A tool for writing better scripts"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/zx",
+      "status": "candidate-context",
+      "text": "<h1><img src=\"https://google.github.io/zx/img/logo.svg\" alt=\"Zx logo\" height=\"32\" width=\"28\" valign=\"middle\"> zx</h1>"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/zx",
+      "status": "candidate",
+      "text": "<h1><img src=\"https://google.github.io/zx/img/logo.svg\" alt=\"Zx logo\" height=\"32\" width=\"28\" valign=\"middle\"> zx</h1>"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39754157,
+      "status": "candidate",
+      "text": "breed"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39749515,
+      "status": "candidate",
+      "text": "engender"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29805067,
+      "status": "candidate",
+      "text": "brood"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29803299,
+      "status": "candidate",
+      "text": "kipper"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29802547,
+      "status": "candidate",
+      "text": "frog"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 26035,
+      "status": "candidate",
+      "text": "engender"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 14045,
+      "status": "candidate",
+      "text": "breed"
+    }
+  ],
+  "canonical_name": "spawn",
+  "concept_id": "spawn",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "google/zx"
+    }
+  ],
+  "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "spawn",
+      "sense_id": "spawn#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

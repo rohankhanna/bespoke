@@ -1,0 +1,53 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "HazyResearch/based",
+      "target": "idiap/fast-transformers",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "HazyResearch/based",
+      "target": "sustcsonglin/flash-linear-attention",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T03:55:58.147107+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 13855
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Code for exploring Based models from \"Simple linear attention language models balance the recall-throughput tradeoff\"",
+    "fork": false,
+    "full_name": "HazyResearch/based",
+    "html_url": "https://github.com/HazyResearch/based",
+    "language": "Python",
+    "pushed_at": "2025-06-06T05:36:35Z",
+    "stargazers_count": 252,
+    "topics": [],
+    "updated_at": "2026-04-16T03:14:03Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "idiap/fast-transformers",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "sustcsonglin/flash-linear-attention",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

@@ -1,21 +1,21 @@
 {
-  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "sources": [
     {
       "discovered_via": "repo-topic",
       "source_file": null,
-      "source_repo": "romkatv/gitstatus"
+      "source_repo": "pacstall/pacstall"
     },
     {
       "discovered_via": "repo-topic",
       "source_file": null,
-      "source_repo": "babashka/babashka"
+      "source_repo": "codota/TabNine"
     },
     {
       "discovered_via": "repo-topic",
       "source_file": null,
-      "source_repo": "codota/tabnine-atom"
+      "source_repo": "iterative/shtab"
     },
     {
       "discovered_via": "repo-topic",
@@ -25,22 +25,57 @@
     {
       "discovered_via": "repo-topic",
       "source_file": null,
-      "source_repo": "withfig/autocomplete"
+      "source_repo": "kislyuk/argcomplete"
     },
     {
       "discovered_via": "repo-topic",
       "source_file": null,
-      "source_repo": "2KAbhishek/dots2k"
-    },
-    {
-      "discovered_via": "repo-topic",
-      "source_file": null,
-      "source_repo": "hyperupcall/autoenv"
+      "source_repo": "lavabit/robox"
     },
     {
       "discovered_via": "repo-topic",
       "source_file": null,
       "source_repo": "nvm-sh/nvm"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "tinted-theming/tinted-shell"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "google/zx"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "babashka/babashka"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "pacstall/pacstall-programs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "codota/tabnine-atom"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "codota/tabnine-sublime"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "codota/tabnine-vim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "2KAbhishek/mkrepo"
     }
   ],
   "term": "bash"

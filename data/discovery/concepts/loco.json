@@ -1,0 +1,136 @@
+{
+  "aliases": [
+    "loco"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "SeaQL/sea-orm",
+      "status": "candidate-context",
+      "text": "\ud83d\udc1a A powerful relational ORM for Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SeaQL/sea-orm",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SeaQL/sea-orm",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39642261,
+      "status": "candidate",
+      "text": "loopy"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39584585,
+      "status": "candidate",
+      "text": "crackers"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39583647,
+      "status": "candidate",
+      "text": "wacky"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39572614,
+      "status": "candidate",
+      "text": "cracked"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39565371,
+      "status": "candidate",
+      "text": "kooky"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 37036,
+      "status": "candidate",
+      "text": "balmy"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 16034,
+      "status": "candidate",
+      "text": "loony"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 15043,
+      "status": "candidate",
+      "text": "insane"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 15034,
+      "status": "candidate",
+      "text": "wacky"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 15028,
+      "status": "candidate",
+      "text": "dotty"
+    }
+  ],
+  "canonical_name": "loco",
+  "concept_id": "loco",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "SeaQL/sea-orm"
+    }
+  ],
+  "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "loco",
+      "sense_id": "loco#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

@@ -79,6 +79,18 @@
       "source_repo": "intel/neural-speed",
       "status": "candidate-context",
       "text": "This project will no longer be maintained by Intel."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Shiweiliuiiiiiii/In-Time-Over-Parameterization",
+      "status": "candidate-context",
+      "text": "[ICML 2021] \"Do We Actually Need Dense Over-Parameterization? In-Time Over-Parameterization in Sparse Training\" by Shiwei Liu, Lu Yin, Decebal Constantin Mocanu,  Mykola Pechenizkiy"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Shiweiliuiiiiiii/In-Time-Over-Parameterization",
+      "status": "candidate-context",
+      "text": "<img src=\"https://github.com/Shiweiliuiiiiiii/In-Time-Over-Parameterization/blob/main/ITOP.png\" width=\"500\" height=\"300\">"
     }
   ],
   "candidate_glosses": [
@@ -117,6 +129,12 @@
       "source_repo": "intel/neural-speed",
       "status": "candidate",
       "text": "This project will no longer be maintained by Intel."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Shiweiliuiiiiiii/In-Time-Over-Parameterization",
+      "status": "candidate",
+      "text": "<img src=\"https://github.com/Shiweiliuiiiiiii/In-Time-Over-Parameterization/blob/main/ITOP.png\" width=\"500\" height=\"300\">"
     }
   ],
   "candidate_related_terms": [
@@ -217,11 +235,17 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "intel/neural-speed"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "Shiweiliuiiiiiii/In-Time-Over-Parameterization"
     }
   ],
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

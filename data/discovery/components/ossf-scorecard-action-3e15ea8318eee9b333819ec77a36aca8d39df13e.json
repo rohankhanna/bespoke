@@ -1,0 +1,12 @@
+{
+  "component": "ossf/scorecard-action@3e15ea8318eee9b333819ec77a36aca8d39df13e",
+  "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/scorecards.yml",
+      "source_repo": "AcademySoftwareFoundation/OpenShadingLanguage"
+    }
+  ]
+}

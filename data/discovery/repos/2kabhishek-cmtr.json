@@ -1,0 +1,73 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "2KAbhishek/cmtr",
+      "target": "developer-tools",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "2KAbhishek/cmtr",
+      "target": "github",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "2KAbhishek/cmtr",
+      "target": "utility",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T01:39:48.298517+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1879
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Quickly commit individual files in git. \u26a1\u2705",
+    "fork": false,
+    "full_name": "2KAbhishek/cmtr",
+    "html_url": "https://github.com/2KAbhishek/cmtr",
+    "language": "Shell",
+    "pushed_at": "2024-12-15T06:07:26Z",
+    "stargazers_count": 4,
+    "topics": [
+      "developer-tools",
+      "git",
+      "github",
+      "utility"
+    ],
+    "updated_at": "2024-12-15T06:07:29Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "<div align = \"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "developer-tools"
+    },
+    {
+      "context_snippet": "<div align = \"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "github"
+    },
+    {
+      "context_snippet": "<div align = \"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "utility"
+    }
+  ]
+}

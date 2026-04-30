@@ -1,0 +1,331 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Ha0Tang/SelectionGAN",
+      "target": "amazingren/crossmlp",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Ha0Tang/SelectionGAN",
+      "target": "ha0tang/bigraphgan",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Ha0Tang/SelectionGAN",
+      "target": "ha0tang/ecgan",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Ha0Tang/SelectionGAN",
+      "target": "ha0tang/dagan",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Ha0Tang/SelectionGAN",
+      "target": "adversarial-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Ha0Tang/SelectionGAN",
+      "target": "computer-graphics",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Ha0Tang/SelectionGAN",
+      "target": "computer-vision",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Ha0Tang/SelectionGAN",
+      "target": "cross-view",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Ha0Tang/SelectionGAN",
+      "target": "cvpr-2019",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Ha0Tang/SelectionGAN",
+      "target": "cvpr19",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Ha0Tang/SelectionGAN",
+      "target": "cvpr2019",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Ha0Tang/SelectionGAN",
+      "target": "cvusa-dataset",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Ha0Tang/SelectionGAN",
+      "target": "dayton",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Ha0Tang/SelectionGAN",
+      "target": "deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Ha0Tang/SelectionGAN",
+      "target": "gans",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Ha0Tang/SelectionGAN",
+      "target": "generative-adversarial-network",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Ha0Tang/SelectionGAN",
+      "target": "image-generation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Ha0Tang/SelectionGAN",
+      "target": "image-manipulation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Ha0Tang/SelectionGAN",
+      "target": "image-to-image-translation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Ha0Tang/SelectionGAN",
+      "target": "image-translation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Ha0Tang/SelectionGAN",
+      "target": "pytorch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Ha0Tang/SelectionGAN",
+      "target": "semantic-maps",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T05:12:57.339938+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5477
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "[CVPR 2019 Oral] Multi-Channel Attention Selection GAN with Cascaded Semantic Guidance for Cross-View Image Translation",
+    "fork": false,
+    "full_name": "Ha0Tang/SelectionGAN",
+    "html_url": "https://github.com/Ha0Tang/SelectionGAN",
+    "language": "Python",
+    "pushed_at": "2023-02-18T00:17:52Z",
+    "stargazers_count": 465,
+    "topics": [
+      "adversarial-learning",
+      "computer-graphics",
+      "computer-vision",
+      "cross-view",
+      "cvpr-2019",
+      "cvpr19",
+      "cvpr2019",
+      "cvusa-dataset",
+      "dayton",
+      "deep-learning",
+      "gans",
+      "generative-adversarial-network",
+      "image-generation",
+      "image-manipulation",
+      "image-to-image-translation",
+      "image-translation",
+      "pytorch",
+      "semantic-maps"
+    ],
+    "updated_at": "2026-04-13T10:50:49Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "amazingren/crossmlp",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ha0tang/bigraphgan",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ha0tang/dagan",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ha0tang/ecgan",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "![Visitors](https://visitor-badge.glitch.me/badge?page_id=Ha0Tang/SelectionGAN)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "adversarial-learning"
+    },
+    {
+      "context_snippet": "![Visitors](https://visitor-badge.glitch.me/badge?page_id=Ha0Tang/SelectionGAN)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "computer-graphics"
+    },
+    {
+      "context_snippet": "![Visitors](https://visitor-badge.glitch.me/badge?page_id=Ha0Tang/SelectionGAN)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "computer-vision"
+    },
+    {
+      "context_snippet": "![Visitors](https://visitor-badge.glitch.me/badge?page_id=Ha0Tang/SelectionGAN)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cross-view"
+    },
+    {
+      "context_snippet": "![Visitors](https://visitor-badge.glitch.me/badge?page_id=Ha0Tang/SelectionGAN)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cvpr-2019"
+    },
+    {
+      "context_snippet": "![Visitors](https://visitor-badge.glitch.me/badge?page_id=Ha0Tang/SelectionGAN)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cvpr19"
+    },
+    {
+      "context_snippet": "![Visitors](https://visitor-badge.glitch.me/badge?page_id=Ha0Tang/SelectionGAN)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cvpr2019"
+    },
+    {
+      "context_snippet": "![Visitors](https://visitor-badge.glitch.me/badge?page_id=Ha0Tang/SelectionGAN)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cvusa-dataset"
+    },
+    {
+      "context_snippet": "![Visitors](https://visitor-badge.glitch.me/badge?page_id=Ha0Tang/SelectionGAN)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dayton"
+    },
+    {
+      "context_snippet": "![Visitors](https://visitor-badge.glitch.me/badge?page_id=Ha0Tang/SelectionGAN)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-learning"
+    },
+    {
+      "context_snippet": "![Visitors](https://visitor-badge.glitch.me/badge?page_id=Ha0Tang/SelectionGAN)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gans"
+    },
+    {
+      "context_snippet": "![Visitors](https://visitor-badge.glitch.me/badge?page_id=Ha0Tang/SelectionGAN)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "generative-adversarial-network"
+    },
+    {
+      "context_snippet": "![Visitors](https://visitor-badge.glitch.me/badge?page_id=Ha0Tang/SelectionGAN)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "image-generation"
+    },
+    {
+      "context_snippet": "![Visitors](https://visitor-badge.glitch.me/badge?page_id=Ha0Tang/SelectionGAN)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "image-manipulation"
+    },
+    {
+      "context_snippet": "![Visitors](https://visitor-badge.glitch.me/badge?page_id=Ha0Tang/SelectionGAN)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "image-to-image-translation"
+    },
+    {
+      "context_snippet": "![Visitors](https://visitor-badge.glitch.me/badge?page_id=Ha0Tang/SelectionGAN)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "image-translation"
+    },
+    {
+      "context_snippet": "![Visitors](https://visitor-badge.glitch.me/badge?page_id=Ha0Tang/SelectionGAN)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytorch"
+    },
+    {
+      "context_snippet": "![Visitors](https://visitor-badge.glitch.me/badge?page_id=Ha0Tang/SelectionGAN)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "semantic-maps"
+    }
+  ]
+}

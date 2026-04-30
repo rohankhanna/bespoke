@@ -499,6 +499,114 @@
       "source_repo": "speshak/vim-cfn",
       "status": "candidate-context",
       "text": "This is a vim plugin that provides CloudFormation syntax checking/highlighting."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "girishji/autosuggest.vim",
+      "status": "candidate-context",
+      "text": "Autocompletion for Vim's command-line."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "girishji/autosuggest.vim",
+      "status": "candidate-context",
+      "text": "-------------"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "girishji/easyjump.vim",
+      "status": "candidate-context",
+      "text": "The Vim motion you've always wanted."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "girishji/easyjump.vim",
+      "status": "candidate-context",
+      "text": "Jump to any location on screen by typing two characters."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "liuchengxu/vim-better-default",
+      "status": "candidate-context",
+      "text": ":art: Simplify your .vimrc and make the default vim better"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "liuchengxu/vim-better-default",
+      "status": "candidate-context",
+      "text": "vim-better-default"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "liuchengxu/vim-which-key",
+      "status": "candidate-context",
+      "text": ":tulip: Vim plugin that shows keybindings in popup"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "liuchengxu/vim-which-key",
+      "status": "candidate-context",
+      "text": "<!-- TOC GFM -->"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nvimdev/dashboard-nvim",
+      "status": "candidate-context",
+      "text": "vim dashboard"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nvimdev/dashboard-nvim",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "uga-rosa/denippet.vim",
+      "status": "candidate-context",
+      "text": "A snippet plugin for Vim/Neovim, powered by TypeScript"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "uga-rosa/denippet.vim",
+      "status": "candidate-context",
+      "text": "[![integration](https://github.com/uga-rosa/denippet.vim/actions/workflows/integration.yml/badge.svg)](https://github.com/uga-rosa/denippet.vim/actions/workflows/integration.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ggml-org/llama.vim",
+      "status": "candidate-context",
+      "text": "Vim plugin for LLM-assisted code/text completion"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ggml-org/llama.vim",
+      "status": "candidate-context",
+      "text": "Local LLM-assisted text completion."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gelguy/wilder.nvim",
+      "status": "candidate-context",
+      "text": "A more adventurous wildmenu"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gelguy/wilder.nvim",
+      "status": "candidate-context",
+      "text": "`wilder.nvim` adds new features and capabilities to `wildmenu`."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "codota/tabnine-vim",
+      "status": "candidate-context",
+      "text": "Vim client for TabNine. https://vimawesome.com/plugin/tabnine-vim"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "codota/tabnine-vim",
+      "status": "candidate-context",
+      "text": "[twitter-shield]: https://img.shields.io/twitter/follow/Tabnine_?style=social"
     }
   ],
   "candidate_glosses": [
@@ -747,6 +855,60 @@
       "source_repo": "speshak/vim-cfn",
       "status": "candidate",
       "text": "This is a vim plugin that provides CloudFormation syntax checking/highlighting."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "girishji/autosuggest.vim",
+      "status": "candidate",
+      "text": "-------------"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "girishji/easyjump.vim",
+      "status": "candidate",
+      "text": "Jump to any location on screen by typing two characters."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "liuchengxu/vim-better-default",
+      "status": "candidate",
+      "text": "vim-better-default"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "liuchengxu/vim-which-key",
+      "status": "candidate",
+      "text": "<!-- TOC GFM -->"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nvimdev/dashboard-nvim",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "uga-rosa/denippet.vim",
+      "status": "candidate",
+      "text": "[![integration](https://github.com/uga-rosa/denippet.vim/actions/workflows/integration.yml/badge.svg)](https://github.com/uga-rosa/denippet.vim/actions/workflows/integration.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ggml-org/llama.vim",
+      "status": "candidate",
+      "text": "Local LLM-assisted text completion."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gelguy/wilder.nvim",
+      "status": "candidate",
+      "text": "`wilder.nvim` adds new features and capabilities to `wildmenu`."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "codota/tabnine-vim",
+      "status": "candidate",
+      "text": "[twitter-shield]: https://img.shields.io/twitter/follow/Tabnine_?style=social"
     }
   ],
   "candidate_related_terms": [],
@@ -1060,11 +1222,95 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "speshak/vim-cfn"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "girishji/autosuggest.vim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "girishji/easyjump.vim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "liuchengxu/vim-better-default"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "liuchengxu/vim-which-key"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "max-baz/lightline-ale"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "nvimdev/dashboard-nvim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "andymass/vim-matchup"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "codota/TabNine"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "uga-rosa/denippet.vim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "ggml-org/llama.vim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "aileot/vim-foldpeek"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "gelguy/wilder.nvim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "dense-analysis/ale"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "codota/tabnine-vim"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

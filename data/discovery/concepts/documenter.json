@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Documenter"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JuliaDebug/SnoopCompile.jl",
+      "status": "candidate-context",
+      "text": "Provide insights about latency (TTFX) for Julia packages "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaDebug/SnoopCompile.jl",
+      "status": "candidate-context",
+      "text": "Documenter"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaDebug/SnoopCompile.jl",
+      "status": "candidate",
+      "text": "Documenter"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19911926,
+      "status": "candidate",
+      "text": "documentor"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19911925,
+      "status": "candidate",
+      "text": "documentarian"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19911924,
+      "status": "candidate",
+      "text": "documentalist"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19911923,
+      "status": "candidate",
+      "text": "documentarist"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19911922,
+      "status": "candidate",
+      "text": "journaler"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Documenter",
+  "concept_id": "documenter",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/Documenter.yml",
+      "source_repo": "JuliaDebug/SnoopCompile.jl"
+    }
+  ],
+  "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Documenter",
+      "sense_id": "documenter#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

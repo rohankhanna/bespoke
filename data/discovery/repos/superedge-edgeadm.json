@@ -1,0 +1,237 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/edgeadm.yaml"
+    },
+    {
+      "component": "actions/setup-go@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/edgeadm.yaml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fossa.yaml"
+    },
+    {
+      "component": "fossa-contrib/fossa-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fossa.yaml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml"
+    },
+    {
+      "component": "actions/setup-go@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml"
+    },
+    {
+      "component": "actions/create-release@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml"
+    },
+    {
+      "component": "actions/upload-release-asset@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml"
+    },
+    {
+      "component": "actions/upload-release-asset@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/verify.yaml"
+    },
+    {
+      "component": "actions/setup-go@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/verify.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/edgeadm.yaml",
+      "source_repo": "superedge/edgeadm",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/edgeadm.yaml",
+      "source_repo": "superedge/edgeadm",
+      "target": "actions/setup-go@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/edgeadm.yaml",
+      "source_repo": "superedge/edgeadm",
+      "target": "edgeadm",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fossa.yaml",
+      "source_repo": "superedge/edgeadm",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fossa.yaml",
+      "source_repo": "superedge/edgeadm",
+      "target": "fossa-contrib/fossa-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/fossa.yaml",
+      "source_repo": "superedge/edgeadm",
+      "target": "FOSSA",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "superedge/edgeadm",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "superedge/edgeadm",
+      "target": "actions/setup-go@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "superedge/edgeadm",
+      "target": "actions/create-release@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "superedge/edgeadm",
+      "target": "actions/upload-release-asset@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "superedge/edgeadm",
+      "target": "Build Package",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/verify.yaml",
+      "source_repo": "superedge/edgeadm",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/verify.yaml",
+      "source_repo": "superedge/edgeadm",
+      "target": "actions/setup-go@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/verify.yaml",
+      "source_repo": "superedge/edgeadm",
+      "target": "verify",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T03:46:35.136077+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3399
+    },
+    {
+      "path": "go.mod",
+      "size": 2067
+    },
+    {
+      "path": ".github/workflows/edgeadm.yaml",
+      "size": 2225
+    },
+    {
+      "path": ".github/workflows/fossa.yaml",
+      "size": 365
+    },
+    {
+      "path": ".github/workflows/release.yaml",
+      "size": 3921
+    },
+    {
+      "path": ".github/workflows/verify.yaml",
+      "size": 472
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Edgeadm is a tool based on Kubeadm to create superedge cluster environment",
+    "fork": false,
+    "full_name": "superedge/edgeadm",
+    "html_url": "https://github.com/superedge/edgeadm",
+    "language": "Go",
+    "pushed_at": "2023-04-18T09:27:31Z",
+    "stargazers_count": 13,
+    "topics": [],
+    "updated_at": "2026-03-31T13:31:49Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "edgeadm",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/edgeadm.yaml",
+      "term": "edgeadm"
+    },
+    {
+      "context_snippet": "FOSSA",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/fossa.yaml",
+      "term": "FOSSA"
+    },
+    {
+      "context_snippet": "Build Package",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yaml",
+      "term": "Build Package"
+    },
+    {
+      "context_snippet": "verify",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/verify.yaml",
+      "term": "verify"
+    }
+  ]
+}

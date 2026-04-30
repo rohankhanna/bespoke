@@ -103,6 +103,30 @@
       "source_repo": "modelscope/scepter",
       "status": "candidate-context",
       "text": "-r requirements/framework.txt -r requirements/scepter_studio.txt"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "haofanwang/Lora-for-Diffusers",
+      "status": "candidate-context",
+      "text": "The most easy-to-understand tutorial for using LoRA (Low-Rank Adaptation) within diffusers framework for AI Generation Researchers\ud83d\udd25"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "haofanwang/Lora-for-Diffusers",
+      "status": "candidate-context",
+      "text": "This repository provides the simplest tutorial code for AIGC researchers to use Lora in just a few lines. Using this handbook, you can easily play with any Lora model from active communities such as [Huggingface](https://huggingface.co/) and [cititai](https://civitai.com/)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "PRIS-CV/DemoFusion",
+      "status": "candidate-context",
+      "text": "Let us democratise high-resolution generation! (CVPR 2024)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PRIS-CV/DemoFusion",
+      "status": "candidate-context",
+      "text": "[![Project Page](https://img.shields.io/badge/Project-Page-green.svg)](https://ruoyidu.github.io/demofusion/demofusion.html)"
     }
   ],
   "candidate_glosses": [
@@ -153,6 +177,18 @@
       "source_repo": "modelscope/scepter",
       "status": "candidate",
       "text": "-r requirements/framework.txt -r requirements/scepter_studio.txt"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "haofanwang/Lora-for-Diffusers",
+      "status": "candidate",
+      "text": "This repository provides the simplest tutorial code for AIGC researchers to use Lora in just a few lines. Using this handbook, you can easily play with any Lora model from active communities such as [Huggingface](https://huggingface.co/) and [cititai](https://civitai.com/)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PRIS-CV/DemoFusion",
+      "status": "candidate",
+      "text": "[![Project Page](https://img.shields.io/badge/Project-Page-green.svg)](https://ruoyidu.github.io/demofusion/demofusion.html)"
     }
   ],
   "candidate_related_terms": [],
@@ -226,11 +262,29 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "modelscope/scepter"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "haofanwang/Lora-for-Diffusers"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "open-mmlab/mmagic"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "PRIS-CV/DemoFusion"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

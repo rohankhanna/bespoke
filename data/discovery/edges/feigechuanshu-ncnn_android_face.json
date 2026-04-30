@@ -1,0 +1,27 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "FeiGeChuanShu/ncnn_Android_face",
+      "target": "feigechuanshu/ncnn_android_blazeface",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "FeiGeChuanShu/ncnn_Android_face",
+      "target": "nihui/ncnn-android-scrfd",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "FeiGeChuanShu/ncnn_Android_face",
+      "target": "thepowerfuldeez/facemesh.pytorch",
+      "target_type": "repository"
+    }
+  ],
+  "generated_at": "2026-04-30T00:37:16.824464+00:00",
+  "source_repo": "FeiGeChuanShu/ncnn_Android_face"
+}

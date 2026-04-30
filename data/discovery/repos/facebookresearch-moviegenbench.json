@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T03:56:04.413049+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3801
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Movie Gen Bench - two media generation evaluation benchmarks released with Meta Movie Gen",
+    "fork": false,
+    "full_name": "facebookresearch/MovieGenBench",
+    "html_url": "https://github.com/facebookresearch/MovieGenBench",
+    "language": null,
+    "pushed_at": "2025-03-08T07:58:21Z",
+    "stargazers_count": 437,
+    "topics": [],
+    "updated_at": "2026-04-30T02:41:12Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

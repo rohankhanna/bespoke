@@ -1,0 +1,87 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "balancap/SSD-Tensorflow",
+      "target": "deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "balancap/SSD-Tensorflow",
+      "target": "object-detection",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "balancap/SSD-Tensorflow",
+      "target": "tensorflow",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "balancap/SSD-Tensorflow",
+      "target": "yolo",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T03:45:42.225168+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9293
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Single Shot MultiBox Detector in TensorFlow",
+    "fork": false,
+    "full_name": "balancap/SSD-Tensorflow",
+    "html_url": "https://github.com/balancap/SSD-Tensorflow",
+    "language": "Jupyter Notebook",
+    "pushed_at": "2021-08-12T11:13:20Z",
+    "stargazers_count": 4105,
+    "topics": [
+      "deep-learning",
+      "object-detection",
+      "ssd",
+      "tensorflow",
+      "yolo"
+    ],
+    "updated_at": "2026-04-26T23:32:32Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "SSD is an unified framework for object detection with a single network. It has been originally introduced in this research [article](http://arxiv.org/abs/1512.02325).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-learning"
+    },
+    {
+      "context_snippet": "SSD is an unified framework for object detection with a single network. It has been originally introduced in this research [article](http://arxiv.org/abs/1512.02325).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "object-detection"
+    },
+    {
+      "context_snippet": "SSD is an unified framework for object detection with a single network. It has been originally introduced in this research [article](http://arxiv.org/abs/1512.02325).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tensorflow"
+    },
+    {
+      "context_snippet": "SSD is an unified framework for object detection with a single network. It has been originally introduced in this research [article](http://arxiv.org/abs/1512.02325).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "yolo"
+    }
+  ]
+}

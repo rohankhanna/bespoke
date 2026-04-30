@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Implementation and experiments  of graph embedding algorithms."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![GitHub Issues](https://img.shields.io/github/issues/shenweichen/graphembedding.svg"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![GitHub Issues](https://img.shields.io/github/issues/shenweichen/graphembedding.svg"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "deepwalk",
+      "sense_id": "deepwalk#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "deepwalk",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "deepwalk",
+  "observation_id": "8d095ff9f82fe117",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T00:37:16.824464+00:00",
+  "observed_text": "deepwalk",
+  "source_context_snippet": "[![GitHub Issues](https://img.shields.io/github/issues/shenweichen/graphembedding.svg",
+  "source_file": null,
+  "source_repo": "shenweichen/GraphEmbedding",
+  "source_repo_description": "Implementation and experiments  of graph embedding algorithms."
+}

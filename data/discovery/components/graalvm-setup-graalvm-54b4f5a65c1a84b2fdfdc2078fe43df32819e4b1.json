@@ -1,0 +1,12 @@
+{
+  "component": "graalvm/setup-graalvm@54b4f5a65c1a84b2fdfdc2078fe43df32819e4b1",
+  "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "google/zx"
+    }
+  ]
+}

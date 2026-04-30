@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T00:54:35.566389+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1100
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "The Ethereum EVM JIT",
+    "fork": false,
+    "full_name": "ethereum/evmjit",
+    "html_url": "https://github.com/ethereum/evmjit",
+    "language": "C++",
+    "pushed_at": "2022-07-21T14:33:25Z",
+    "stargazers_count": 170,
+    "topics": [],
+    "updated_at": "2026-04-03T13:36:32Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

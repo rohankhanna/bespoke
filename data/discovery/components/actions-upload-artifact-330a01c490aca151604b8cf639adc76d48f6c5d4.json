@@ -1,7 +1,7 @@
 {
   "component": "actions/upload-artifact@330a01c490aca151604b8cf639adc76d48f6c5d4",
   "first_seen_at": "2026-04-18T13:15:13.756138+00:00",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -87,6 +87,36 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/build-test.yml",
       "source_repo": "hashicorp/go-metrics"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/compile-mermaid.yml",
+      "source_repo": "mermaid-js/mermaid-cli"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release-publish.yml",
+      "source_repo": "mermaid-js/mermaid-cli"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/autofix_pr.yml",
+      "source_repo": "zed-industries/zed"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/pypi-publish.yml",
+      "source_repo": "google-deepmind/meltingpot"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/scorecards-analysis.yml",
+      "source_repo": "google-deepmind/meltingpot"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/browser-test.yml",
+      "source_repo": "endojs/endo"
     }
   ]
 }

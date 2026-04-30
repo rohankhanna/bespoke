@@ -1,6 +1,7 @@
 {
   "aliases": [
-    "Mark and close stale issues"
+    "Mark and close stale issues",
+    "\ud83e\uddf9 Mark and close stale issues"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -43,6 +44,18 @@
       "source_repo": "ByteNess/aws-vault",
       "status": "candidate-context",
       "text": "Mark and close stale issues"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "AbdelrhmanHamouda/locust-k8s-operator",
+      "status": "candidate-context",
+      "text": "Deploy and manage Locust tests on Kubernetes. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AbdelrhmanHamouda/locust-k8s-operator",
+      "status": "candidate-context",
+      "text": "'\ud83e\uddf9 Mark and close stale issues'"
     }
   ],
   "candidate_glosses": [
@@ -69,6 +82,12 @@
       "source_repo": "ByteNess/aws-vault",
       "status": "candidate",
       "text": "Mark and close stale issues"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AbdelrhmanHamouda/locust-k8s-operator",
+      "status": "candidate",
+      "text": "'\ud83e\uddf9 Mark and close stale issues'"
     }
   ],
   "candidate_related_terms": [
@@ -142,11 +161,17 @@
       "observed_at": "2026-04-24T00:33:56.049672+00:00",
       "source_file": ".github/workflows/stale.yaml",
       "source_repo": "ByteNess/aws-vault"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/stale-issues.yaml",
+      "source_repo": "AbdelrhmanHamouda/locust-k8s-operator"
     }
   ],
   "first_seen_at": "2026-04-18T12:07:11.500453+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

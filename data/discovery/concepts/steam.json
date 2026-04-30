@@ -1,0 +1,108 @@
+{
+  "aliases": [
+    "Steam"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hajimehoshi/ebiten",
+      "status": "candidate-context",
+      "text": "A dead simple 2D game engine for Go"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hajimehoshi/ebiten",
+      "status": "candidate-context",
+      "text": "Steam"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hajimehoshi/ebiten",
+      "status": "candidate",
+      "text": "Steam"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30045197,
+      "status": "candidate",
+      "text": "steam clean"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30045196,
+      "status": "candidate",
+      "text": "vapor"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30045052,
+      "status": "candidate",
+      "text": "evaporative"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30044420,
+      "status": "candidate",
+      "text": "mist"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30044072,
+      "status": "candidate",
+      "text": "vapour"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 16,
+      "status": "candidate",
+      "text": "steam clean"
+    }
+  ],
+  "canonical_name": "Steam",
+  "concept_id": "steam",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/steam.yml",
+      "source_repo": "hajimehoshi/ebiten"
+    }
+  ],
+  "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Steam",
+      "sense_id": "steam#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

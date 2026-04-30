@@ -1,7 +1,8 @@
 {
   "aliases": [
     "PyPI publish",
-    "PyPI Publish"
+    "PyPI Publish",
+    "pypi-publish"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -92,6 +93,30 @@
       "source_repo": "xinntao/Real-ESRGAN",
       "status": "candidate-context",
       "text": "PyPI Publish"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "TencentARC/GFPGAN",
+      "status": "candidate-context",
+      "text": "GFPGAN aims at developing Practical Algorithms for Real-world Face Restoration."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "TencentARC/GFPGAN",
+      "status": "candidate-context",
+      "text": "PyPI Publish"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "google-deepmind/meltingpot",
+      "status": "candidate-context",
+      "text": "A suite of test scenarios for multi-agent reinforcement learning."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google-deepmind/meltingpot",
+      "status": "candidate-context",
+      "text": "pypi-publish"
     }
   ],
   "candidate_glosses": [
@@ -136,6 +161,18 @@
       "source_repo": "xinntao/Real-ESRGAN",
       "status": "candidate",
       "text": "PyPI Publish"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "TencentARC/GFPGAN",
+      "status": "candidate",
+      "text": "PyPI Publish"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google-deepmind/meltingpot",
+      "status": "candidate",
+      "text": "pypi-publish"
     }
   ],
   "candidate_related_terms": [
@@ -221,11 +258,29 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": ".github/workflows/publish-pip.yml",
       "source_repo": "xinntao/Real-ESRGAN"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/publish-pip.yml",
+      "source_repo": "TencentARC/GFPGAN"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/publish-pip.yml",
+      "source_repo": "XPixelGroup/BasicSR"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/pypi-publish.yml",
+      "source_repo": "google-deepmind/meltingpot"
     }
   ],
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

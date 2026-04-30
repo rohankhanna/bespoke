@@ -1,12 +1,17 @@
 {
   "component": "ruby/setup-ruby@09a7688d3b55cf0e976497ff046b70949eeaccfd",
   "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/custom-test.yml",
       "source_repo": "sigstore/root-signing"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "Betterment/betterlint"
     }
   ]
 }

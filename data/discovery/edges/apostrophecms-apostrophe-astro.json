@@ -1,0 +1,27 @@
+{
+  "edges": [
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "apostrophecms/apostrophe-astro",
+      "target": "lodash.deburr",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "apostrophecms/apostrophe-astro",
+      "target": "sluggo",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "apostrophecms/apostrophe-astro",
+      "target": "undici",
+      "target_type": "component"
+    }
+  ],
+  "generated_at": "2026-04-30T00:37:16.824464+00:00",
+  "source_repo": "apostrophecms/apostrophe-astro"
+}

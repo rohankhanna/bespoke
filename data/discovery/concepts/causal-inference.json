@@ -19,6 +19,42 @@
       "source_repo": "plasma-umass/coz",
       "status": "candidate-context",
       "text": "by [Charlie Curtsinger](https://curtsinger.cs.grinnell.edu/) and [Emery Berger](https://emeryberger.com)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pgmpy/pgmpy",
+      "status": "candidate-context",
+      "text": "Python Toolkit for Causal and Probabilistic Reasoning"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pgmpy/pgmpy",
+      "status": "candidate-context",
+      "text": "<div>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "fehiepsi/rethinking-numpyro",
+      "status": "candidate-context",
+      "text": "Statistical Rethinking (2nd ed.) with NumPyro"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fehiepsi/rethinking-numpyro",
+      "status": "candidate-context",
+      "text": "[![Test Status](https://github.com/fehiepsi/rethinking-numpyro/workflows/CI/badge.svg)](https://github.com/fehiepsi/rethinking-numpyro/actions)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pgmpy/pgmpy_tutorials",
+      "status": "candidate-context",
+      "text": "Tutorials on Causal Inference and pgmpy"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pgmpy/pgmpy_tutorials",
+      "status": "candidate-context",
+      "text": "We are in the process of updating this repository to act as a course material for causal inference and pgmpy."
     }
   ],
   "candidate_glosses": [
@@ -27,6 +63,24 @@
       "source_repo": "plasma-umass/coz",
       "status": "candidate",
       "text": "by [Charlie Curtsinger](https://curtsinger.cs.grinnell.edu/) and [Emery Berger](https://emeryberger.com)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pgmpy/pgmpy",
+      "status": "candidate",
+      "text": "<div>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fehiepsi/rethinking-numpyro",
+      "status": "candidate",
+      "text": "[![Test Status](https://github.com/fehiepsi/rethinking-numpyro/workflows/CI/badge.svg)](https://github.com/fehiepsi/rethinking-numpyro/actions)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pgmpy/pgmpy_tutorials",
+      "status": "candidate",
+      "text": "We are in the process of updating this repository to act as a course material for causal inference and pgmpy."
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +94,29 @@
       "observed_at": "2026-04-21T18:51:25.552552+00:00",
       "source_file": null,
       "source_repo": "plasma-umass/coz"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "pgmpy/pgmpy"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "fehiepsi/rethinking-numpyro"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "pgmpy/pgmpy_tutorials"
     }
   ],
   "first_seen_at": "2026-04-21T18:51:25.552552+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-21T18:51:25.552552+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

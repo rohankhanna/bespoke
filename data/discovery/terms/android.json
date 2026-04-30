@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
@@ -366,6 +366,51 @@
       "discovered_via": "repo-topic",
       "source_file": null,
       "source_repo": "apollographql/apollo-kotlin"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/android.yml",
+      "source_repo": "paulocoutinhox/pdfium-lib"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "firebase/firebase-android-sdk"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/android.yml",
+      "source_repo": "google/glog"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/android.yml",
+      "source_repo": "nativium/nativium"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "facebook/buck"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "appium/appium"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "wasabeef/glide-transformations"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "btkelly/gnag"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/android.yml",
+      "source_repo": "ng-log/ng-log"
     }
   ],
   "term": "Android"

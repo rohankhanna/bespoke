@@ -1,0 +1,319 @@
+{
+  "components": [
+    {
+      "component": "node-addon-api",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "node-gyp-build",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "prebuildify",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "tree-sitter-cli",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "tree-sitter",
+      "edge_type": "package-json:peerDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "tree-sitter/setup-action/cli@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-node@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "tree-sitter/parser-test-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "tree-sitter/fuzz-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "tree-sitter/setup-action/cli@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "tree-sitter/workflows/.github/workflows/package-npm.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "tree-sitter/workflows/.github/workflows/package-crates.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "tree-sitter/workflows/.github/workflows/package-pypi.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "tree-sitter/workflows/.github/workflows/release.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "tree-sitter-grammars/tree-sitter-markdown",
+      "target": "mdeiml/tree-sitter-markdown",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "tree-sitter-grammars/tree-sitter-markdown",
+      "target": "node-addon-api",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "tree-sitter-grammars/tree-sitter-markdown",
+      "target": "node-gyp-build",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "tree-sitter-grammars/tree-sitter-markdown",
+      "target": "prebuildify",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "tree-sitter-grammars/tree-sitter-markdown",
+      "target": "tree-sitter-cli",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:peerDependencies",
+      "source_file": "package.json",
+      "source_repo": "tree-sitter-grammars/tree-sitter-markdown",
+      "target": "tree-sitter",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "tree-sitter-grammars/tree-sitter-markdown",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "tree-sitter-grammars/tree-sitter-markdown",
+      "target": "tree-sitter/setup-action/cli@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "tree-sitter-grammars/tree-sitter-markdown",
+      "target": "actions/setup-node@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "tree-sitter-grammars/tree-sitter-markdown",
+      "target": "tree-sitter/parser-test-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "tree-sitter-grammars/tree-sitter-markdown",
+      "target": "tree-sitter/fuzz-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "tree-sitter-grammars/tree-sitter-markdown",
+      "target": "tree-sitter/workflows/.github/workflows/package-npm.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "tree-sitter-grammars/tree-sitter-markdown",
+      "target": "tree-sitter/workflows/.github/workflows/package-crates.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "tree-sitter-grammars/tree-sitter-markdown",
+      "target": "tree-sitter/workflows/.github/workflows/package-pypi.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "tree-sitter-grammars/tree-sitter-markdown",
+      "target": "Publish package",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "tree-sitter-grammars/tree-sitter-markdown",
+      "target": "tree-sitter/workflows/.github/workflows/release.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "tree-sitter-grammars/tree-sitter-markdown",
+      "target": "Create release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "tree-sitter-grammars/tree-sitter-markdown",
+      "target": "markdown",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "tree-sitter-grammars/tree-sitter-markdown",
+      "target": "parser",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "tree-sitter-grammars/tree-sitter-markdown",
+      "target": "tree-sitter",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T04:08:45.724855+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4738
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 1196
+    },
+    {
+      "path": "package.json",
+      "size": 1249
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 797
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 2608
+    },
+    {
+      "path": ".github/workflows/publish.yml",
+      "size": 676
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "size": 315
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "split_parser",
+    "description": "Markdown grammar for tree-sitter",
+    "fork": false,
+    "full_name": "tree-sitter-grammars/tree-sitter-markdown",
+    "html_url": "https://github.com/tree-sitter-grammars/tree-sitter-markdown",
+    "language": "C",
+    "pushed_at": "2026-02-26T18:04:36Z",
+    "stargazers_count": 598,
+    "topics": [
+      "markdown",
+      "parser",
+      "tree-sitter"
+    ],
+    "updated_at": "2026-04-29T20:56:16Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mdeiml/tree-sitter-markdown",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Publish package",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish.yml",
+      "term": "Publish package"
+    },
+    {
+      "context_snippet": "Create release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "term": "Create release"
+    },
+    {
+      "context_snippet": "[![CI][ci]](https://github.com/tree-sitter-grammars/tree-sitter-markdown/actions)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "markdown"
+    },
+    {
+      "context_snippet": "[![CI][ci]](https://github.com/tree-sitter-grammars/tree-sitter-markdown/actions)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "parser"
+    },
+    {
+      "context_snippet": "[![CI][ci]](https://github.com/tree-sitter-grammars/tree-sitter-markdown/actions)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tree-sitter"
+    }
+  ]
+}

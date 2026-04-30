@@ -1,0 +1,247 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "lmxyy/sige",
+      "target": "ermongroup/sdedit",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "lmxyy/sige",
+      "target": "mit-han-lab/gan-compression",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "lmxyy/sige",
+      "target": "mit-han-lab/torchsparse",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "lmxyy/sige",
+      "target": "fyu/drn",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lmxyy/sige",
+      "target": "acceleration",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lmxyy/sige",
+      "target": "conditional-gan",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lmxyy/sige",
+      "target": "conditional-gans",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lmxyy/sige",
+      "target": "ddim",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lmxyy/sige",
+      "target": "ddpm",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lmxyy/sige",
+      "target": "diffusion-models",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lmxyy/sige",
+      "target": "gans",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lmxyy/sige",
+      "target": "gaugan",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lmxyy/sige",
+      "target": "image-editing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lmxyy/sige",
+      "target": "progressive-distillation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lmxyy/sige",
+      "target": "sparse",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lmxyy/sige",
+      "target": "sparse-convolution",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T03:51:58.255523+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8241
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "[NeurIPS 2022, T-PAMI 2023] Efficient Spatially Sparse Inference for Conditional GANs and Diffusion Models",
+    "fork": false,
+    "full_name": "lmxyy/sige",
+    "html_url": "https://github.com/lmxyy/sige",
+    "language": "Python",
+    "pushed_at": "2024-03-18T03:39:31Z",
+    "stargazers_count": 268,
+    "topics": [
+      "acceleration",
+      "conditional-gan",
+      "conditional-gans",
+      "ddim",
+      "ddpm",
+      "diffusion-models",
+      "gans",
+      "gaugan",
+      "image-editing",
+      "progressive-distillation",
+      "sparse",
+      "sparse-convolution"
+    ],
+    "updated_at": "2025-12-28T06:50:02Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ermongroup/sdedit",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "fyu/drn",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mit-han-lab/gan-compression",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mit-han-lab/torchsparse",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "**[NEW!]** SIGE is accepted by T-PAMI!",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "acceleration"
+    },
+    {
+      "context_snippet": "**[NEW!]** SIGE is accepted by T-PAMI!",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "conditional-gan"
+    },
+    {
+      "context_snippet": "**[NEW!]** SIGE is accepted by T-PAMI!",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "conditional-gans"
+    },
+    {
+      "context_snippet": "**[NEW!]** SIGE is accepted by T-PAMI!",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ddim"
+    },
+    {
+      "context_snippet": "**[NEW!]** SIGE is accepted by T-PAMI!",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ddpm"
+    },
+    {
+      "context_snippet": "**[NEW!]** SIGE is accepted by T-PAMI!",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "diffusion-models"
+    },
+    {
+      "context_snippet": "**[NEW!]** SIGE is accepted by T-PAMI!",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gans"
+    },
+    {
+      "context_snippet": "**[NEW!]** SIGE is accepted by T-PAMI!",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gaugan"
+    },
+    {
+      "context_snippet": "**[NEW!]** SIGE is accepted by T-PAMI!",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "image-editing"
+    },
+    {
+      "context_snippet": "**[NEW!]** SIGE is accepted by T-PAMI!",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "progressive-distillation"
+    },
+    {
+      "context_snippet": "**[NEW!]** SIGE is accepted by T-PAMI!",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "sparse"
+    },
+    {
+      "context_snippet": "**[NEW!]** SIGE is accepted by T-PAMI!",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "sparse-convolution"
+    }
+  ]
+}

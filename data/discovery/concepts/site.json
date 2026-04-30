@@ -1,6 +1,7 @@
 {
   "aliases": [
-    "Site"
+    "Site",
+    "site"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -31,6 +32,18 @@
       "source_repo": "Waffle/waffle",
       "status": "candidate-context",
       "text": "Site"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "xoofx/markdig",
+      "status": "candidate-context",
+      "text": "A fast, powerful, CommonMark compliant, extensible Markdown processor for .NET"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "xoofx/markdig",
+      "status": "candidate-context",
+      "text": "site"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +58,12 @@
       "source_repo": "Waffle/waffle",
       "status": "candidate",
       "text": "Site"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "xoofx/markdig",
+      "status": "candidate",
+      "text": "site"
     }
   ],
   "candidate_related_terms": [
@@ -129,11 +148,17 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": ".github/workflows/site.yaml",
       "source_repo": "Waffle/waffle"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/site.yml",
+      "source_repo": "xoofx/markdig"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

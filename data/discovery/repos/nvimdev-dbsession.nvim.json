@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T04:09:19.555620+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 838
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "a simple small powerful session for neovim",
+    "fork": false,
+    "full_name": "nvimdev/dbsession.nvim",
+    "html_url": "https://github.com/nvimdev/dbsession.nvim",
+    "language": "Lua",
+    "pushed_at": "2023-06-28T08:28:21Z",
+    "stargazers_count": 35,
+    "topics": [],
+    "updated_at": "2025-06-29T01:16:03Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

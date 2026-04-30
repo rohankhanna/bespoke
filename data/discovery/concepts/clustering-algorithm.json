@@ -19,6 +19,18 @@
       "source_repo": "jacobmarks/clustering-plugin",
       "status": "candidate-context",
       "text": "![GPT4V_labels](https://github.com/jacobmarks/clustering-runs-plugin/assets/12500356/27b0ace4-ecd8-4f9d-821a-614fd597be7f)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "scikit-learn-contrib/hdbscan",
+      "status": "candidate-context",
+      "text": "A high performance implementation of HDBSCAN clustering."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "scikit-learn-contrib/hdbscan",
+      "status": "candidate-context",
+      "text": ".. image:: https://img.shields.io/pypi/v/hdbscan.svg"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "jacobmarks/clustering-plugin",
       "status": "candidate",
       "text": "![GPT4V_labels](https://github.com/jacobmarks/clustering-runs-plugin/assets/12500356/27b0ace4-ecd8-4f9d-821a-614fd597be7f)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "scikit-learn-contrib/hdbscan",
+      "status": "candidate",
+      "text": ".. image:: https://img.shields.io/pypi/v/hdbscan.svg"
     }
   ],
   "candidate_related_terms": [],
@@ -64,11 +82,23 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "jacobmarks/clustering-plugin"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "scikit-learn-contrib/hdbscan"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "jacobmarks/clustering-plugin"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

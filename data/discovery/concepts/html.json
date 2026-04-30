@@ -403,6 +403,42 @@
       "source_repo": "cheeriojs/cheerio",
       "status": "candidate-context",
       "text": "cheerio \u2014 The fast, flexible & elegant library for parsing and manipulating HTML and XML."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "SenseLogic/PENDOWN",
+      "status": "candidate-context",
+      "text": "Text-to-HTML conversion tool for web writers, with integrated styling and tag customization."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SenseLogic/PENDOWN",
+      "status": "candidate-context",
+      "text": "![](https://github.com/senselogic/PENDOWN/blob/master/LOGO/pendown.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "j9t/html-minifier-next",
+      "status": "candidate-context",
+      "text": "Super-configurable and well-tested web page minifier (enhanced successor of HTML Minifier)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "j9t/html-minifier-next",
+      "status": "candidate-context",
+      "text": "[![npm version](https://img.shields.io/npm/v/html-minifier-next.svg)](https://www.npmjs.com/package/html-minifier-next) [![Build status](https://github.com/j9t/html-minifier-next/workflows/Tests/badge.svg)](https://github.com/j9t/html-minifier-next/actions) [![Socket](https://ba\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "fengari-lua/fengari-web",
+      "status": "candidate-context",
+      "text": "Provides everything you need to run Fengari in the browser."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fengari-lua/fengari-web",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://travis-ci.org/fengari-lua/fengari-web.svg?branch=master)](https://travis-ci.org/fengari-lua/fengari-web)"
     }
   ],
   "candidate_glosses": [
@@ -603,6 +639,24 @@
       "source_repo": "cheeriojs/cheerio",
       "status": "candidate",
       "text": "cheerio \u2014 The fast, flexible & elegant library for parsing and manipulating HTML and XML."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SenseLogic/PENDOWN",
+      "status": "candidate",
+      "text": "![](https://github.com/senselogic/PENDOWN/blob/master/LOGO/pendown.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "j9t/html-minifier-next",
+      "status": "candidate",
+      "text": "[![npm version](https://img.shields.io/npm/v/html-minifier-next.svg)](https://www.npmjs.com/package/html-minifier-next) [![Build status](https://github.com/j9t/html-minifier-next/workflows/Tests/badge.svg)](https://github.com/j9t/html-minifier-next/actions) [![Socket](https://ba\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fengari-lua/fengari-web",
+      "status": "candidate",
+      "text": "[![Build Status](https://travis-ci.org/fengari-lua/fengari-web.svg?branch=master)](https://travis-ci.org/fengari-lua/fengari-web)"
     }
   ],
   "candidate_related_terms": [
@@ -870,11 +924,41 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "web-platform-tests/wpt"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "SenseLogic/PENDOWN"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "electron/electron"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "j9t/html-minifier-next"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "web-platform-tests/wpt"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "fengari-lua/fengari-web"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

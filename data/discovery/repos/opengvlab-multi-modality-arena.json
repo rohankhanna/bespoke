@@ -1,0 +1,192 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "OpenGVLab/Multi-Modality-Arena",
+      "target": "bytedance/lynx-llm",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "OpenGVLab/Multi-Modality-Arena",
+      "target": "dcdmllm/cheetah",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "OpenGVLab/Multi-Modality-Arena",
+      "target": "luodian/otter",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "OpenGVLab/Multi-Modality-Arena",
+      "target": "haozhezhao/mic",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "OpenGVLab/Multi-Modality-Arena",
+      "target": "chat",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "OpenGVLab/Multi-Modality-Arena",
+      "target": "chatbot",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "OpenGVLab/Multi-Modality-Arena",
+      "target": "chatgpt",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "OpenGVLab/Multi-Modality-Arena",
+      "target": "gradio",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "OpenGVLab/Multi-Modality-Arena",
+      "target": "large-language-models",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "OpenGVLab/Multi-Modality-Arena",
+      "target": "llms",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "OpenGVLab/Multi-Modality-Arena",
+      "target": "multi-modality",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "OpenGVLab/Multi-Modality-Arena",
+      "target": "vision-language-model",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T02:00:39.445128+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 11729
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Chatbot Arena meets multi-modality! Multi-Modality Arena allows you to benchmark vision-language models side-by-side while providing images as inputs. Supports MiniGPT-4, LLaMA-Adapter V2, LLaVA, BLIP-2, and many more!",
+    "fork": false,
+    "full_name": "OpenGVLab/Multi-Modality-Arena",
+    "html_url": "https://github.com/OpenGVLab/Multi-Modality-Arena",
+    "language": "Python",
+    "pushed_at": "2024-04-21T11:14:46Z",
+    "stargazers_count": 564,
+    "topics": [
+      "chat",
+      "chatbot",
+      "chatgpt",
+      "gradio",
+      "large-language-models",
+      "llms",
+      "multi-modality",
+      "vision-language-model",
+      "vqa"
+    ],
+    "updated_at": "2026-04-29T02:58:44Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "bytedance/lynx-llm",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dcdmllm/cheetah",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "haozhezhao/mic",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "luodian/otter",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<p align=\"center\"><img src=\"./CVLAB/style/img/Opengvlab_LOGO.svg\" width=\"400\"></p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "chat"
+    },
+    {
+      "context_snippet": "<p align=\"center\"><img src=\"./CVLAB/style/img/Opengvlab_LOGO.svg\" width=\"400\"></p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "chatbot"
+    },
+    {
+      "context_snippet": "<p align=\"center\"><img src=\"./CVLAB/style/img/Opengvlab_LOGO.svg\" width=\"400\"></p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "chatgpt"
+    },
+    {
+      "context_snippet": "<p align=\"center\"><img src=\"./CVLAB/style/img/Opengvlab_LOGO.svg\" width=\"400\"></p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gradio"
+    },
+    {
+      "context_snippet": "<p align=\"center\"><img src=\"./CVLAB/style/img/Opengvlab_LOGO.svg\" width=\"400\"></p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "large-language-models"
+    },
+    {
+      "context_snippet": "<p align=\"center\"><img src=\"./CVLAB/style/img/Opengvlab_LOGO.svg\" width=\"400\"></p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "llms"
+    },
+    {
+      "context_snippet": "<p align=\"center\"><img src=\"./CVLAB/style/img/Opengvlab_LOGO.svg\" width=\"400\"></p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "multi-modality"
+    },
+    {
+      "context_snippet": "<p align=\"center\"><img src=\"./CVLAB/style/img/Opengvlab_LOGO.svg\" width=\"400\"></p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vision-language-model"
+    }
+  ]
+}

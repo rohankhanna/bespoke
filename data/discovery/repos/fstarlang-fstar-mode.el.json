@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "FStarLang/fstar-mode.el",
+      "target": "kyodralliam/fstar-layer",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T03:56:45.003092+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 13097
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Emacs support for F*",
+    "fork": false,
+    "full_name": "FStarLang/fstar-mode.el",
+    "html_url": "https://github.com/FStarLang/fstar-mode.el",
+    "language": "Emacs Lisp",
+    "pushed_at": "2025-06-25T09:21:04Z",
+    "stargazers_count": 73,
+    "topics": [],
+    "updated_at": "2026-04-11T20:41:11Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "kyodralliam/fstar-layer",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

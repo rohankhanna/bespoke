@@ -1,0 +1,364 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/conventional-pr.yml"
+    },
+    {
+      "component": "CondeNast/conventional-pull-request-action@v0.2.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/conventional-pr.yml"
+    },
+    {
+      "component": "write",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "jdx/mise-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "stefanzweifel/git-auto-commit-action@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "softprops/action-gh-release@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/xcodeproj.yml"
+    },
+    {
+      "component": "jdx/mise-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/xcodeproj.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/xcodeproj.yml"
+    },
+    {
+      "component": "jdx/mise-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/xcodeproj.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/xcodeproj.yml"
+    },
+    {
+      "component": "jdx/mise-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/xcodeproj.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/xcodeproj.yml"
+    },
+    {
+      "component": "jdx/mise-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/xcodeproj.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/xcodeproj.yml"
+    },
+    {
+      "component": "jdx/mise-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/xcodeproj.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "tuist/XcodeProj",
+      "target": "jamitlabs/projlint",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "tuist/XcodeProj",
+      "target": "buildbuddy-io/rules_xcodeproj",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "tuist/XcodeProj",
+      "target": "cocoapods/nanaimo",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "tuist/XcodeProj",
+      "target": "all-contributors/all-contributors",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/conventional-pr.yml",
+      "source_repo": "tuist/XcodeProj",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/conventional-pr.yml",
+      "source_repo": "tuist/XcodeProj",
+      "target": "CondeNast/conventional-pull-request-action@v0.2.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/conventional-pr.yml",
+      "source_repo": "tuist/XcodeProj",
+      "target": "conventional-pr",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "tuist/XcodeProj",
+      "target": "write",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "tuist/XcodeProj",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "tuist/XcodeProj",
+      "target": "jdx/mise-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "tuist/XcodeProj",
+      "target": "stefanzweifel/git-auto-commit-action@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "tuist/XcodeProj",
+      "target": "softprops/action-gh-release@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "tuist/XcodeProj",
+      "target": "Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/xcodeproj.yml",
+      "source_repo": "tuist/XcodeProj",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/xcodeproj.yml",
+      "source_repo": "tuist/XcodeProj",
+      "target": "jdx/mise-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/xcodeproj.yml",
+      "source_repo": "tuist/XcodeProj",
+      "target": "XcodeProj",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "tuist/XcodeProj",
+      "target": "macos",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "tuist/XcodeProj",
+      "target": "objective-c",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "tuist/XcodeProj",
+      "target": "swift",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "tuist/XcodeProj",
+      "target": "swift-5",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "tuist/XcodeProj",
+      "target": "xcode",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "tuist/XcodeProj",
+      "target": "xcodeproj",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T04:01:58.070169+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 21761
+    },
+    {
+      "path": ".github/workflows/conventional-pr.yml",
+      "size": 473
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "size": 2985
+    },
+    {
+      "path": ".github/workflows/xcodeproj.yml",
+      "size": 1554
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": " \ud83d\udcdd Read, update and write your Xcode projects",
+    "fork": false,
+    "full_name": "tuist/XcodeProj",
+    "html_url": "https://github.com/tuist/XcodeProj",
+    "language": "Swift",
+    "pushed_at": "2026-04-29T23:02:43Z",
+    "stargazers_count": 2204,
+    "topics": [
+      "ios",
+      "macos",
+      "objective-c",
+      "swift",
+      "swift-5",
+      "xcode",
+      "xcodeproj"
+    ],
+    "updated_at": "2026-04-29T20:07:16Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "all-contributors/all-contributors",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "buildbuddy-io/rules_xcodeproj",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cocoapods/nanaimo",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jamitlabs/projlint",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "conventional-pr",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/conventional-pr.yml",
+      "term": "conventional-pr"
+    },
+    {
+      "context_snippet": "Release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "term": "Release"
+    },
+    {
+      "context_snippet": "XcodeProj",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/xcodeproj.yml",
+      "term": "XcodeProj"
+    },
+    {
+      "context_snippet": "<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "macos"
+    },
+    {
+      "context_snippet": "<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "objective-c"
+    },
+    {
+      "context_snippet": "<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "swift"
+    },
+    {
+      "context_snippet": "<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "swift-5"
+    },
+    {
+      "context_snippet": "<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "xcode"
+    },
+    {
+      "context_snippet": "<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "xcodeproj"
+    }
+  ]
+}

@@ -91,6 +91,42 @@
       "source_repo": "eclipse-shellwax/shellwax",
       "status": "candidate-context",
       "text": "<a href=\"https://mickaelistria.github.io/redirctToEclipseIDECloneCommand/redirect.html\"><img src=\"https://mickaelistria.github.io/redirctToEclipseIDECloneCommand/cloneToEclipseBadge.png\" alt=\"Clone to Eclipse IDE\"/></a>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pacstall/pacstall",
+      "status": "candidate-context",
+      "text": "An AUR-inspired package manager for Ubuntu"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pacstall/pacstall",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "2KAbhishek/ghpm",
+      "status": "candidate-context",
+      "text": "The GitHub Project Manager \ud83d\udc69\u200d\ud83d\udcbb\u2699"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "2KAbhishek/ghpm",
+      "status": "candidate-context",
+      "text": "<div align = \"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sagiegurari/duckscript",
+      "status": "candidate-context",
+      "text": "Simple, extendable and embeddable scripting language."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sagiegurari/duckscript",
+      "status": "candidate-context",
+      "text": "| duckscript | SDK | CLI |"
     }
   ],
   "candidate_glosses": [
@@ -135,6 +171,24 @@
       "source_repo": "eclipse-shellwax/shellwax",
       "status": "candidate",
       "text": "<a href=\"https://mickaelistria.github.io/redirctToEclipseIDECloneCommand/redirect.html\"><img src=\"https://mickaelistria.github.io/redirctToEclipseIDECloneCommand/cloneToEclipseBadge.png\" alt=\"Clone to Eclipse IDE\"/></a>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pacstall/pacstall",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "2KAbhishek/ghpm",
+      "status": "candidate",
+      "text": "<div align = \"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sagiegurari/duckscript",
+      "status": "candidate",
+      "text": "| duckscript | SDK | CLI |"
     }
   ],
   "candidate_related_terms": [],
@@ -190,11 +244,29 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "hyperupcall/autoenv"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "pacstall/pacstall"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "2KAbhishek/ghpm"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "sagiegurari/duckscript"
     }
   ],
   "first_seen_at": "2026-04-21T18:51:25.552552+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

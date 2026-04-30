@@ -499,6 +499,126 @@
       "source_repo": "TrenchBroom/TrenchBroom",
       "status": "candidate-context",
       "text": "[![TrenchBroom Icon](app/TrenchBroom/resources/graphics/images/AppIcon.png)](https://www.youtube.com/watch?v=shcAvnYp9ow)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "xmake-io/xmake",
+      "status": "candidate-context",
+      "text": "\ud83d\udd25 A cross-platform build utility based on Lua"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "xmake-io/xmake",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "AcademySoftwareFoundation/OpenShadingLanguage",
+      "status": "candidate-context",
+      "text": "Advanced shading language for production GI renderers"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AcademySoftwareFoundation/OpenShadingLanguage",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mawww/kakoune",
+      "status": "candidate-context",
+      "text": "mawww's experiment for a better code editor"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mawww/kakoune",
+      "status": "candidate-context",
+      "text": "Build static binaries for Linux"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "qbs/qbs",
+      "status": "candidate-context",
+      "text": "Modern build tool for software projects"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "qbs/qbs",
+      "status": "candidate-context",
+      "text": "Qbs is a build automation tool designed to conveniently manage the build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "openucx/ucx",
+      "status": "candidate-context",
+      "text": "Unified Communication X  (mailing list - https://elist.ornl.gov/mailman/listinfo/ucx-group)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "openucx/ucx",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apache/hudi-rs",
+      "status": "candidate-context",
+      "text": "The native Rust implementation for Apache Hudi, with C++ & Python API bindings."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/hudi-rs",
+      "status": "candidate-context",
+      "text": "<!--"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Martinsos/edlib",
+      "status": "candidate-context",
+      "text": "Lightweight, super fast C/C++ (& Python) library for sequence alignment using edit (Levenshtein) distance."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Martinsos/edlib",
+      "status": "candidate-context",
+      "text": "Edlib"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Martinsos/opal",
+      "status": "candidate-context",
+      "text": "SIMD C/C++ library for massive optimal sequence alignment (local/SW, infix, overlap, global)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Martinsos/opal",
+      "status": "candidate-context",
+      "text": "*This work has been supported in part by Croatian Science Fundation under the project UIP-11-2013-7353.*"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nvpro-samples/nvpro_core",
+      "status": "candidate-context",
+      "text": "shared source code and resources needed for the samples to run"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nvpro-samples/nvpro_core",
+      "status": "candidate-context",
+      "text": "> [!IMPORTANT]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "RcppCore/Rcpp",
+      "status": "candidate-context",
+      "text": "Seamless R and C++ Integration"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "RcppCore/Rcpp",
+      "status": "candidate-context",
+      "text": "[![CI](https://github.com/RcppCore/Rcpp/workflows/ci/badge.svg)](https://github.com/RcppCore/Rcpp/actions?query=workflow%3Aci)"
     }
   ],
   "candidate_glosses": [
@@ -747,6 +867,66 @@
       "source_repo": "TrenchBroom/TrenchBroom",
       "status": "candidate",
       "text": "[![TrenchBroom Icon](app/TrenchBroom/resources/graphics/images/AppIcon.png)](https://www.youtube.com/watch?v=shcAvnYp9ow)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "xmake-io/xmake",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AcademySoftwareFoundation/OpenShadingLanguage",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mawww/kakoune",
+      "status": "candidate",
+      "text": "Build static binaries for Linux"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "qbs/qbs",
+      "status": "candidate",
+      "text": "Qbs is a build automation tool designed to conveniently manage the build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "openucx/ucx",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/hudi-rs",
+      "status": "candidate",
+      "text": "<!--"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Martinsos/edlib",
+      "status": "candidate",
+      "text": "Edlib"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Martinsos/opal",
+      "status": "candidate",
+      "text": "*This work has been supported in part by Croatian Science Fundation under the project UIP-11-2013-7353.*"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nvpro-samples/nvpro_core",
+      "status": "candidate",
+      "text": "> [!IMPORTANT]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "RcppCore/Rcpp",
+      "status": "candidate",
+      "text": "[![CI](https://github.com/RcppCore/Rcpp/workflows/ci/badge.svg)](https://github.com/RcppCore/Rcpp/actions?query=workflow%3Aci)"
     }
   ],
   "candidate_related_terms": [],
@@ -1042,11 +1222,107 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "TrenchBroom/TrenchBroom"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "xmake-io/xmake"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "AcademySoftwareFoundation/OpenShadingLanguage"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "mawww/kakoune"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "qbs/qbs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "electron/electron"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "openucx/ucx"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "apache/hudi-rs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "Martinsos/edlib"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "Martinsos/opal"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "google-ai-edge/mediapipe"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "harfbuzz/harfbuzz"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "nvpro-samples/nvpro_core"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "TrenchBroom/TrenchBroom"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "RcppCore/Rcpp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "confluentinc/librdkafka"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "simdjson/simdjson"
     }
   ],
   "first_seen_at": "2026-04-19T04:47:57.443742+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,12 @@
+{
+  "component": "google/oss-fuzz/infra/cifuzz/actions/build_fuzzers@3d9cfb650abdeb4893f8aa8f4e6f25d63752601d",
+  "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/cifuzz.yml",
+      "source_repo": "FasterXML/jackson-databind"
+    }
+  ]
+}

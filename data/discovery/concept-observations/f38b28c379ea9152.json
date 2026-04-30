@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "swagger-codegen contains a template-driven engine to generate documentation, API clients and server stubs in different languages by parsing your OpenAPI / Swagger definition."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "![Swagger Codegen Logo](./docs/Swagger-Codegen-Logo.png)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "![Swagger Codegen Logo](./docs/Swagger-Codegen-Logo.png)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40028990,
+      "status": "candidate",
+      "text": "sleep"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40013092,
+      "status": "candidate",
+      "text": "relaxation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40012766,
+      "status": "candidate",
+      "text": "take a breather"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40012270,
+      "status": "candidate",
+      "text": "repose"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40009196,
+      "status": "candidate",
+      "text": "respite"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "rest",
+      "sense_id": "rest#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 100035,
+      "status": "candidate",
+      "text": "repose"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 56041,
+      "status": "candidate",
+      "text": "respite"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 30061,
+      "status": "candidate",
+      "text": "lie"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 29049,
+      "status": "candidate",
+      "text": "ease"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 24045,
+      "status": "candidate",
+      "text": "perch"
+    }
+  ],
+  "concept_id": "rest",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "rest",
+  "observation_id": "f38b28c379ea9152",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T00:37:16.824464+00:00",
+  "observed_text": "rest",
+  "source_context_snippet": "![Swagger Codegen Logo](./docs/Swagger-Codegen-Logo.png)",
+  "source_file": null,
+  "source_repo": "swagger-api/swagger-codegen",
+  "source_repo_description": "swagger-codegen contains a template-driven engine to generate documentation, API clients and server stubs in different languages by parsing your OpenAPI / Swagger definition."
+}

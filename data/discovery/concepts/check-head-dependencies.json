@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Check Head Dependencies"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "firebase/firebase-android-sdk",
+      "status": "candidate-context",
+      "text": "Firebase Android SDK"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "firebase/firebase-android-sdk",
+      "status": "candidate-context",
+      "text": "Check Head Dependencies"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "firebase/firebase-android-sdk",
+      "status": "candidate",
+      "text": "Check Head Dependencies"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26551,
+      "status": "candidate",
+      "text": "martingale"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22699,
+      "status": "candidate",
+      "text": "hang"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22673,
+      "status": "candidate",
+      "text": "assessment"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22673,
+      "status": "candidate",
+      "text": "count"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22592,
+      "status": "candidate",
+      "text": "cushion"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Check Head Dependencies",
+  "concept_id": "check-head-dependencies",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/check-head-dependencies.yml",
+      "source_repo": "firebase/firebase-android-sdk"
+    }
+  ],
+  "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Check Head Dependencies",
+      "sense_id": "check-head-dependencies#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

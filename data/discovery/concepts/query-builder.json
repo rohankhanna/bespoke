@@ -19,6 +19,18 @@
       "source_repo": "diesel-rs/diesel",
       "status": "candidate-context",
       "text": "[![diesel logo](https://diesel.rs/assets/images/diesel_logo_stacked_black.png)](https://diesel.rs)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mailru/dbr",
+      "status": "candidate-context",
+      "text": "Additions to Go's database/sql for super fast performance and convenience. (fork of gocraft/dbr)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mailru/dbr",
+      "status": "candidate-context",
+      "text": "dbr (fork of gocraft/dbr) provides additions to Go's database/sql for super fast performance and convenience."
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "diesel-rs/diesel",
       "status": "candidate",
       "text": "[![diesel logo](https://diesel.rs/assets/images/diesel_logo_stacked_black.png)](https://diesel.rs)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mailru/dbr",
+      "status": "candidate",
+      "text": "dbr (fork of gocraft/dbr) provides additions to Go's database/sql for super fast performance and convenience."
     }
   ],
   "candidate_related_terms": [],
@@ -46,11 +64,17 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": null,
       "source_repo": "diesel-rs/diesel"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "mailru/dbr"
     }
   ],
   "first_seen_at": "2026-04-18T10:43:38.551697+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

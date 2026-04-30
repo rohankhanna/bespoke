@@ -1,7 +1,7 @@
 {
   "component": "actions-rs/cargo@v1",
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -577,6 +577,141 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/ci.yml",
       "source_repo": "hoodie/toastify"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/rust.yml",
+      "source_repo": "Byron/dua-cli"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yml",
+      "source_repo": "paritytech/cargo-unleash"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/general.yml",
+      "source_repo": "paritytech/cargo-unleash"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/rust.yml",
+      "source_repo": "mtshiba/pylyzer"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "http-rs/tide"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "axiom-crypto/halo2curves"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "andrewmilson/ministark"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/msrv.yml",
+      "source_repo": "carrascomj/dalted"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "lnx-search/lnx"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "sagiegurari/duckscript"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/cargo-check.yaml",
+      "source_repo": "chelsea0x3b/cudarc"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/cargo-clippy.yaml",
+      "source_repo": "chelsea0x3b/cudarc"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/cargo-fmt.yaml",
+      "source_repo": "chelsea0x3b/cudarc"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/cargo-publish-dry-run.yaml",
+      "source_repo": "chelsea0x3b/cudarc"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/rust-ci.yml",
+      "source_repo": "OlivierDehaene/candle"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/cargo-check.yaml",
+      "source_repo": "Narsil/cudarc"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/cargo-clippy.yaml",
+      "source_repo": "Narsil/cudarc"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/cargo-fmt.yaml",
+      "source_repo": "Narsil/cudarc"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/auto-release.yml",
+      "source_repo": "iTXTech/mcl-installer"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "KillingSpark/rustbus"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/integration.yml",
+      "source_repo": "succinctlabs/sp1-cluster"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "succinctlabs/sp1-cluster"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yml",
+      "source_repo": "gnunicorn/cargo-unleash"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/general.yml",
+      "source_repo": "gnunicorn/cargo-unleash"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "erg-lang/erg"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/rust.yml",
+      "source_repo": "microsoft/Spartan"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "a16z/arkworks-algebra"
     }
   ]
 }

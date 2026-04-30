@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T02:52:44.758552+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 797
+    },
+    {
+      "path": "Dockerfile",
+      "size": 502
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A GitHub Action to comment on the relevant open PR when a commit is pushed.",
+    "fork": false,
+    "full_name": "unsplash/comment-on-pr",
+    "html_url": "https://github.com/unsplash/comment-on-pr",
+    "language": "Ruby",
+    "pushed_at": "2023-02-27T15:14:24Z",
+    "stargazers_count": 152,
+    "topics": [],
+    "updated_at": "2026-03-20T03:32:17Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

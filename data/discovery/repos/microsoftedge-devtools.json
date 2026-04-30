@@ -1,0 +1,61 @@
+{
+  "components": [
+    {
+      "component": "MicrosoftEdge/action-issue-to-workitem@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ado.yml"
+    },
+    {
+      "component": "champnic/Porpoise@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/score.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ado.yml",
+      "source_repo": "MicrosoftEdge/DevTools",
+      "target": "MicrosoftEdge/action-issue-to-workitem@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/score.yml",
+      "source_repo": "MicrosoftEdge/DevTools",
+      "target": "champnic/Porpoise@main",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-04-30T02:57:56.181179+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1581
+    },
+    {
+      "path": ".github/workflows/ado.yml",
+      "size": 590
+    },
+    {
+      "path": ".github/workflows/score.yml",
+      "size": 867
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Feedback and discussions about Microsoft Edge Developer Tools",
+    "fork": false,
+    "full_name": "MicrosoftEdge/DevTools",
+    "html_url": "https://github.com/MicrosoftEdge/DevTools",
+    "language": "HTML",
+    "pushed_at": "2025-04-03T21:45:55Z",
+    "stargazers_count": 185,
+    "topics": [],
+    "updated_at": "2026-04-23T17:04:17Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

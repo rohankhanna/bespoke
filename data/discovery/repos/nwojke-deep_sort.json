@@ -1,0 +1,45 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "nwojke/deep_sort",
+      "target": "nwojke/cosine_metric_learning",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T05:12:20.475882+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5751
+    },
+    {
+      "path": "requirements.txt",
+      "size": 26
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Simple Online Realtime Tracking with a Deep Association Metric",
+    "fork": false,
+    "full_name": "nwojke/deep_sort",
+    "html_url": "https://github.com/nwojke/deep_sort",
+    "language": "Python",
+    "pushed_at": "2025-03-02T09:55:38Z",
+    "stargazers_count": 6129,
+    "topics": [],
+    "updated_at": "2026-04-29T13:15:12Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "nwojke/cosine_metric_learning",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

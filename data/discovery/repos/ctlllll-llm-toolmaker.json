@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T04:59:01.792799+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4652
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "ctlllll/LLM-ToolMaker",
+    "html_url": "https://github.com/ctlllll/LLM-ToolMaker",
+    "language": "Jupyter Notebook",
+    "pushed_at": "2023-05-29T09:23:54Z",
+    "stargazers_count": 1060,
+    "topics": [],
+    "updated_at": "2026-04-25T20:28:29Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

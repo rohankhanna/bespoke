@@ -1,0 +1,479 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/edgetest.yml"
+    },
+    {
+      "component": "conda-incubator/setup-miniconda@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/edgetest.yml"
+    },
+    {
+      "component": "actions/setup-java@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/edgetest.yml"
+    },
+    {
+      "component": "peter-evans/create-pull-request@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/edgetest.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-docs.yml"
+    },
+    {
+      "component": "actions/setup-python@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-docs.yml"
+    },
+    {
+      "component": "JamesIves/github-pages-deploy-action@4.0.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-docs.yml"
+    },
+    {
+      "component": "actions/checkout@ee0669bd1cc54295c223e0bb666b733df41de1c5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-package.yml"
+    },
+    {
+      "component": "actions/setup-python@e9aba2c848f5ebd159c070c61ea2c4e2b122355e",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-package.yml"
+    },
+    {
+      "component": "pypa/gh-action-pypi-publish@ed0c53931b1dc9bd32cbe73a98c7f6766f8a527e",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-package.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-package.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-package.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-package.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-package.yml"
+    },
+    {
+      "component": "actions/setup-java@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-package.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-package.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-package.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-package.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-package.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/edgetest.yml",
+      "source_repo": "capitalone/datacompy",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/edgetest.yml",
+      "source_repo": "capitalone/datacompy",
+      "target": "conda-incubator/setup-miniconda@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/edgetest.yml",
+      "source_repo": "capitalone/datacompy",
+      "target": "actions/setup-java@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/edgetest.yml",
+      "source_repo": "capitalone/datacompy",
+      "target": "peter-evans/create-pull-request@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/edgetest.yml",
+      "source_repo": "capitalone/datacompy",
+      "target": "Run edgetest",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-docs.yml",
+      "source_repo": "capitalone/datacompy",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-docs.yml",
+      "source_repo": "capitalone/datacompy",
+      "target": "actions/setup-python@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-docs.yml",
+      "source_repo": "capitalone/datacompy",
+      "target": "JamesIves/github-pages-deploy-action@4.0.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish-docs.yml",
+      "source_repo": "capitalone/datacompy",
+      "target": "Publish docs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-package.yml",
+      "source_repo": "capitalone/datacompy",
+      "target": "actions/checkout@ee0669bd1cc54295c223e0bb666b733df41de1c5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-package.yml",
+      "source_repo": "capitalone/datacompy",
+      "target": "actions/setup-python@e9aba2c848f5ebd159c070c61ea2c4e2b122355e",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-package.yml",
+      "source_repo": "capitalone/datacompy",
+      "target": "pypa/gh-action-pypi-publish@ed0c53931b1dc9bd32cbe73a98c7f6766f8a527e",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish-package.yml",
+      "source_repo": "capitalone/datacompy",
+      "target": "Publish",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-package.yml",
+      "source_repo": "capitalone/datacompy",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-package.yml",
+      "source_repo": "capitalone/datacompy",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-package.yml",
+      "source_repo": "capitalone/datacompy",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-package.yml",
+      "source_repo": "capitalone/datacompy",
+      "target": "actions/setup-java@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test-package.yml",
+      "source_repo": "capitalone/datacompy",
+      "target": "Test package",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "capitalone/datacompy",
+      "target": "compare",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "capitalone/datacompy",
+      "target": "dask",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "capitalone/datacompy",
+      "target": "data",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "capitalone/datacompy",
+      "target": "data-science",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "capitalone/datacompy",
+      "target": "dataframes",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "capitalone/datacompy",
+      "target": "fugue",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "capitalone/datacompy",
+      "target": "numpy",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "capitalone/datacompy",
+      "target": "pandas",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "capitalone/datacompy",
+      "target": "polars",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "capitalone/datacompy",
+      "target": "pyspark",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "capitalone/datacompy",
+      "target": "snowflake",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "capitalone/datacompy",
+      "target": "snowpark",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "capitalone/datacompy",
+      "target": "spark",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T04:48:50.972629+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4439
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 5165
+    },
+    {
+      "path": ".github/workflows/edgetest.yml",
+      "size": 1585
+    },
+    {
+      "path": ".github/workflows/publish-docs.yml",
+      "size": 840
+    },
+    {
+      "path": ".github/workflows/publish-package.yml",
+      "size": 953
+    },
+    {
+      "path": ".github/workflows/test-package.yml",
+      "size": 3051
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Pandas, Polars, Spark, and Snowpark DataFrame comparison for humans and more!",
+    "fork": false,
+    "full_name": "capitalone/datacompy",
+    "html_url": "https://github.com/capitalone/datacompy",
+    "language": "Python",
+    "pushed_at": "2026-04-26T21:24:41Z",
+    "stargazers_count": 639,
+    "topics": [
+      "compare",
+      "dask",
+      "data",
+      "data-science",
+      "dataframes",
+      "fugue",
+      "numpy",
+      "pandas",
+      "polars",
+      "pyspark",
+      "python",
+      "snowflake",
+      "snowpark",
+      "spark"
+    ],
+    "updated_at": "2026-04-22T11:15:26Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Run edgetest",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/edgetest.yml",
+      "term": "Run edgetest"
+    },
+    {
+      "context_snippet": "Publish docs",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish-docs.yml",
+      "term": "Publish docs"
+    },
+    {
+      "context_snippet": "Publish",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish-package.yml",
+      "term": "Publish"
+    },
+    {
+      "context_snippet": "Test package",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test-package.yml",
+      "term": "Test package"
+    },
+    {
+      "context_snippet": "![PyPI - Python Version](https://img.shields.io/pypi/pyversions/datacompy)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "compare"
+    },
+    {
+      "context_snippet": "![PyPI - Python Version](https://img.shields.io/pypi/pyversions/datacompy)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dask"
+    },
+    {
+      "context_snippet": "![PyPI - Python Version](https://img.shields.io/pypi/pyversions/datacompy)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "data"
+    },
+    {
+      "context_snippet": "![PyPI - Python Version](https://img.shields.io/pypi/pyversions/datacompy)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "data-science"
+    },
+    {
+      "context_snippet": "![PyPI - Python Version](https://img.shields.io/pypi/pyversions/datacompy)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dataframes"
+    },
+    {
+      "context_snippet": "![PyPI - Python Version](https://img.shields.io/pypi/pyversions/datacompy)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "fugue"
+    },
+    {
+      "context_snippet": "![PyPI - Python Version](https://img.shields.io/pypi/pyversions/datacompy)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "numpy"
+    },
+    {
+      "context_snippet": "![PyPI - Python Version](https://img.shields.io/pypi/pyversions/datacompy)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pandas"
+    },
+    {
+      "context_snippet": "![PyPI - Python Version](https://img.shields.io/pypi/pyversions/datacompy)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "polars"
+    },
+    {
+      "context_snippet": "![PyPI - Python Version](https://img.shields.io/pypi/pyversions/datacompy)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pyspark"
+    },
+    {
+      "context_snippet": "![PyPI - Python Version](https://img.shields.io/pypi/pyversions/datacompy)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "snowflake"
+    },
+    {
+      "context_snippet": "![PyPI - Python Version](https://img.shields.io/pypi/pyversions/datacompy)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "snowpark"
+    },
+    {
+      "context_snippet": "![PyPI - Python Version](https://img.shields.io/pypi/pyversions/datacompy)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "spark"
+    }
+  ]
+}

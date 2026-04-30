@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Coyote-A/ultimate-upscale-for-automatic1111",
+      "target": "ssitu/comfyui_ultimatesdupscale",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T03:49:37.220573+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2942
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": null,
+    "fork": false,
+    "full_name": "Coyote-A/ultimate-upscale-for-automatic1111",
+    "html_url": "https://github.com/Coyote-A/ultimate-upscale-for-automatic1111",
+    "language": "Python",
+    "pushed_at": "2024-06-30T01:06:10Z",
+    "stargazers_count": 1769,
+    "topics": [],
+    "updated_at": "2026-04-28T10:38:40Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ssitu/comfyui_ultimatesdupscale",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

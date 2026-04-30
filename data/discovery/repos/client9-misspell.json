@@ -1,0 +1,81 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "client9/misspell",
+      "target": "alecthomas/gometalinter",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "client9/misspell",
+      "target": "vlajos/misspell_fixer",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "client9/misspell",
+      "target": "lyda/misspell-check",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "client9/misspell",
+      "target": "lucasdemarchi/codespell",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T04:56:39.072237+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 13884
+    },
+    {
+      "path": "Dockerfile",
+      "size": 1512
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "master",
+    "description": "Correct commonly misspelled English words in source files",
+    "fork": false,
+    "full_name": "client9/misspell",
+    "html_url": "https://github.com/client9/misspell",
+    "language": "Go",
+    "pushed_at": "2024-06-12T03:19:38Z",
+    "stargazers_count": 1399,
+    "topics": [],
+    "updated_at": "2026-04-21T09:39:01Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "alecthomas/gometalinter",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "lucasdemarchi/codespell",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "lyda/misspell-check",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "vlajos/misspell_fixer",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

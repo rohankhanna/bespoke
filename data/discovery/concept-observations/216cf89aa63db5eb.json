@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Log TensorBoard events without touching TensorFlow"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Swarm Mode - Continuous Progress"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Swarm Mode - Continuous Progress"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 43647,
+      "status": "candidate",
+      "text": "mount"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 33607,
+      "status": "candidate",
+      "text": "climb"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 33377,
+      "status": "candidate",
+      "text": "passage"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 33249,
+      "status": "candidate",
+      "text": "dynamism"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 32892,
+      "status": "candidate",
+      "text": "time"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Swarm Mode - Continuous Progress",
+      "sense_id": "swarm-mode---continuous-progress#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "swarm-mode---continuous-progress",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "swarm-mode---continuous-progress",
+  "observation_id": "216cf89aa63db5eb",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-30T00:37:16.824464+00:00",
+  "observed_text": "Swarm Mode - Continuous Progress",
+  "source_context_snippet": "Swarm Mode - Continuous Progress",
+  "source_file": ".github/workflows/swarm-mode.yml",
+  "source_repo": "TeamHG-Memex/tensorboard_logger",
+  "source_repo_description": "Log TensorBoard events without touching TensorFlow"
+}

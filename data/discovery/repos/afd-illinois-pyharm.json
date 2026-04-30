@@ -1,0 +1,99 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "AFD-Illinois/pyharm",
+      "target": "afd-illinois/ebhlight",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "AFD-Illinois/pyharm",
+      "target": "afd-illinois/eht-babel",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AFD-Illinois/pyharm",
+      "target": "grmhd",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AFD-Illinois/pyharm",
+      "target": "plotting",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AFD-Illinois/pyharm",
+      "target": "simulation",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T03:03:12.437205+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4816
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Python tools for HARM simulation analysis",
+    "fork": false,
+    "full_name": "AFD-Illinois/pyharm",
+    "html_url": "https://github.com/AFD-Illinois/pyharm",
+    "language": "Python",
+    "pushed_at": "2026-04-22T16:31:36Z",
+    "stargazers_count": 15,
+    "topics": [
+      "grmhd",
+      "mhd",
+      "plotting",
+      "python",
+      "simulation"
+    ],
+    "updated_at": "2026-04-11T11:43:36Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "afd-illinois/ebhlight",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "afd-illinois/eht-babel",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Python tools for HARM analysis. Full documentation is [here](https://pyharm.readthedocs.io/en/latest/).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "grmhd"
+    },
+    {
+      "context_snippet": "Python tools for HARM analysis. Full documentation is [here](https://pyharm.readthedocs.io/en/latest/).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "plotting"
+    },
+    {
+      "context_snippet": "Python tools for HARM analysis. Full documentation is [here](https://pyharm.readthedocs.io/en/latest/).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "simulation"
+    }
+  ]
+}

@@ -1,0 +1,138 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cygwin.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cygwin.yml"
+    },
+    {
+      "component": "cygwin/cygwin-install-action@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cygwin.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cygwin.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cygwin.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cygwin.yml"
+    },
+    {
+      "component": "cygwin/cygwin-install-action@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cygwin.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cygwin.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cygwin.yml"
+    },
+    {
+      "component": "cygwin/cygwin-install-action@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cygwin.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cygwin.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cygwin.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cygwin.yml",
+      "source_repo": "cygwin/cygwin",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cygwin.yml",
+      "source_repo": "cygwin/cygwin",
+      "target": "cygwin/cygwin-install-action@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cygwin.yml",
+      "source_repo": "cygwin/cygwin",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cygwin.yml",
+      "source_repo": "cygwin/cygwin",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cygwin.yml",
+      "source_repo": "cygwin/cygwin",
+      "target": "actions/download-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cygwin.yml",
+      "source_repo": "cygwin/cygwin",
+      "target": "cygwin",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T00:42:17.412401+00:00",
+  "fetched_files": [
+    {
+      "path": ".github/workflows/cygwin.yml",
+      "size": 11367
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Mirror of  Cygwin repository at https://cygwin.com/cgit/newlib-cygwin/.  DO NOT SUBMIT PULL REQUESTS.  Read https://cygwin.com/contrib.html and submit patches via the mailing list cygwin-patches AT cygwin DOT com.",
+    "fork": false,
+    "full_name": "cygwin/cygwin",
+    "html_url": "https://github.com/cygwin/cygwin",
+    "language": "C",
+    "pushed_at": "2026-04-24T10:46:29Z",
+    "stargazers_count": 404,
+    "topics": [],
+    "updated_at": "2026-04-24T10:46:33Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "cygwin",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cygwin.yml",
+      "term": "cygwin"
+    }
+  ]
+}

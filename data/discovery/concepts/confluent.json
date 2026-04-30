@@ -31,6 +31,42 @@
       "source_repo": "confluentinc/examples",
       "status": "candidate-context",
       "text": "![image](images/confluent-logo-300-2.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "confluentinc/cp-all-in-one",
+      "status": "candidate-context",
+      "text": "docker-compose.yml files for cp-all-in-one , cp-all-in-one-community, cp-all-in-one-cloud, Apache Kafka Confluent Platform"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "confluentinc/cp-all-in-one",
+      "status": "candidate-context",
+      "text": "![image](images/confluent-logo-300-2.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "confluentinc/cp-demo",
+      "status": "candidate-context",
+      "text": "Confluent Platform Demo including Apache Kafka, ksqlDB, Control Center, Schema Registry, Security, Schema Linking, and Cluster Linking"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "confluentinc/cp-demo",
+      "status": "candidate-context",
+      "text": "[![Try Confluent Cloud - The Data Streaming Platform](https://images.ctfassets.net/8vofjvai1hpv/10bgcSfn5MzmvS4nNqr94J/af43dd2336e3f9e0c0ca4feef4398f6f/confluent-banner-v2.svg)](https://confluent.cloud/signup?utm_source=github&utm_medium=banner&utm_campaign=oss-repos&utm_term=cp\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "confluentinc/schema-registry",
+      "status": "candidate-context",
+      "text": "Confluent Schema Registry for Kafka"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "confluentinc/schema-registry",
+      "status": "candidate-context",
+      "text": "Schema Registry"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +81,24 @@
       "source_repo": "confluentinc/examples",
       "status": "candidate",
       "text": "![image](images/confluent-logo-300-2.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "confluentinc/cp-all-in-one",
+      "status": "candidate",
+      "text": "![image](images/confluent-logo-300-2.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "confluentinc/cp-demo",
+      "status": "candidate",
+      "text": "[![Try Confluent Cloud - The Data Streaming Platform](https://images.ctfassets.net/8vofjvai1hpv/10bgcSfn5MzmvS4nNqr94J/af43dd2336e3f9e0c0ca4feef4398f6f/confluent-banner-v2.svg)](https://confluent.cloud/signup?utm_source=github&utm_medium=banner&utm_campaign=oss-repos&utm_term=cp\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "confluentinc/schema-registry",
+      "status": "candidate",
+      "text": "Schema Registry"
     }
   ],
   "candidate_related_terms": [
@@ -115,11 +169,29 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "confluentinc/examples"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "confluentinc/cp-all-in-one"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "confluentinc/cp-demo"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "confluentinc/schema-registry"
     }
   ],
   "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

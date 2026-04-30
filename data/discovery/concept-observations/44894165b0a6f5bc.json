@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "ARCHIVED. Go to https://github.com/adapter-hub/adapters for the latest version."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Build Adapter Docs"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Build Adapter Docs"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14564,
+      "status": "candidate",
+      "text": "dramaturge"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14009,
+      "status": "candidate",
+      "text": "base"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14009,
+      "status": "candidate",
+      "text": "erect"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14009,
+      "status": "candidate",
+      "text": "frame"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14009,
+      "status": "candidate",
+      "text": "make"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Build Adapter Docs",
+      "sense_id": "build-adapter-docs#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "build-adapter-docs",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "build-adapter-docs",
+  "observation_id": "44894165b0a6f5bc",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-30T00:37:16.824464+00:00",
+  "observed_text": "Build Adapter Docs",
+  "source_context_snippet": "Build Adapter Docs",
+  "source_file": ".github/workflows/adapter_docs_build.yml",
+  "source_repo": "adapter-hub/adapter-transformers-legacy",
+  "source_repo_description": "ARCHIVED. Go to https://github.com/adapter-hub/adapters for the latest version."
+}

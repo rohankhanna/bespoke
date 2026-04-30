@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Publish a flake to flakestry"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "astro/deadnix",
+      "status": "candidate-context",
+      "text": "Scan Nix files for dead code"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "astro/deadnix",
+      "status": "candidate-context",
+      "text": "\"Publish a flake to flakestry\""
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "astro/deadnix",
+      "status": "candidate",
+      "text": "\"Publish a flake to flakestry\""
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10532,
+      "status": "candidate",
+      "text": "baker"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10532,
+      "status": "candidate",
+      "text": "bits"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10532,
+      "status": "candidate",
+      "text": "blanch"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10532,
+      "status": "candidate",
+      "text": "chipping"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10532,
+      "status": "candidate",
+      "text": "cook"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Publish a flake to flakestry",
+  "concept_id": "publish-a-flake-to-flakestry",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/flakestry-publish.yaml",
+      "source_repo": "astro/deadnix"
+    }
+  ],
+  "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Publish a flake to flakestry",
+      "sense_id": "publish-a-flake-to-flakestry#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

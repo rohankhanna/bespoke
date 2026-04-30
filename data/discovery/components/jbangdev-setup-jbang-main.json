@@ -1,12 +1,22 @@
 {
   "component": "jbangdev/setup-jbang@main",
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
-  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/update-reports.yml",
       "source_repo": "jvm-repo-rebuild/reproducible-central"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-nightly.yml",
+      "source_repo": "quarkiverse/quarkus-langchain4j"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-pull-request.yml",
+      "source_repo": "quarkiverse/quarkus-langchain4j"
     }
   ]
 }

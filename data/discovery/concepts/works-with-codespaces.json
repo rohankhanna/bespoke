@@ -19,6 +19,18 @@
       "source_repo": "electron/electron",
       "status": "candidate-context",
       "text": "[![Electron Logo](https://electronjs.org/images/electron-logo.svg)](https://electronjs.org)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "github/codeql",
+      "status": "candidate-context",
+      "text": "CodeQL: the libraries and queries that power security researchers around the world, as well as code scanning in GitHub Advanced Security"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "github/codeql",
+      "status": "candidate-context",
+      "text": "This open source repository contains the standard CodeQL libraries and queries that power [GitHub Advanced Security](https://github.com/features/security/code) and the other application security products that [GitHub](https://github.com/features/security/) makes available to its\u2026"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "electron/electron",
       "status": "candidate",
       "text": "[![Electron Logo](https://electronjs.org/images/electron-logo.svg)](https://electronjs.org)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "github/codeql",
+      "status": "candidate",
+      "text": "This open source repository contains the standard CodeQL libraries and queries that power [GitHub Advanced Security](https://github.com/features/security/code) and the other application security products that [GitHub](https://github.com/features/security/) makes available to its\u2026"
     }
   ],
   "candidate_related_terms": [],
@@ -46,11 +64,23 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": null,
       "source_repo": "electron/electron"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "electron/electron"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "github/codeql"
     }
   ],
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

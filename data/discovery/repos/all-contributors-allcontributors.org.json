@@ -142,13 +142,6 @@
       "target_type": "repository"
     },
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "all-contributors/allcontributors.org",
-      "target": "apps/greenkeeper",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "package-json:dependencies",
       "source_file": "package.json",
       "source_repo": "all-contributors/allcontributors.org",
@@ -394,7 +387,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-29T19:50:48.121603+00:00",
+  "fetched_at": "2026-04-30T04:55:59.446186+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -427,7 +420,7 @@
     "html_url": "https://github.com/all-contributors/allcontributors.org",
     "language": "MDX",
     "pushed_at": "2026-04-23T05:33:14Z",
-    "stargazers_count": 8037,
+    "stargazers_count": 8035,
     "topics": [
       "acknowledgements",
       "all-contributors",
@@ -437,7 +430,7 @@
       "opensource-management",
       "recognition"
     ],
-    "updated_at": "2026-04-28T13:38:19Z"
+    "updated_at": "2026-04-30T02:35:37Z"
   },
   "repo_links": [
     {
@@ -448,11 +441,6 @@
     {
       "edge_type": "explicit-github-link",
       "full_name": "all-contributors/all-contributors-bot",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "apps/greenkeeper",
       "source_file": "README.md"
     }
   ],

@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Upload coverage to Codecov"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "crowdcent/numerblox",
+      "status": "candidate-context",
+      "text": "Solid Numerai pipelines"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "crowdcent/numerblox",
+      "status": "candidate-context",
+      "text": "Upload coverage to Codecov"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "crowdcent/numerblox",
+      "status": "candidate",
+      "text": "Upload coverage to Codecov"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11978,
+      "status": "candidate",
+      "text": "download"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11936,
+      "status": "candidate",
+      "text": "scan"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11661,
+      "status": "candidate",
+      "text": "video"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11449,
+      "status": "candidate",
+      "text": "cover"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11449,
+      "status": "candidate",
+      "text": "covers"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Upload coverage to Codecov",
+  "concept_id": "upload-coverage-to-codecov",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/codecov.yml",
+      "source_repo": "crowdcent/numerblox"
+    }
+  ],
+  "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Upload coverage to Codecov",
+      "sense_id": "upload-coverage-to-codecov#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

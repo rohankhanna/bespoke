@@ -1,0 +1,93 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "apache/rocketmq-externals",
+      "target": "apache/rocketmq",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "apache/rocketmq-externals",
+      "target": "apache/rocketmq-client-cpp",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "apache/rocketmq-externals",
+      "target": "apache/rocketmq-client-nodejs",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "apache/rocketmq-externals",
+      "target": "apache/ignite-extensions",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "apache/rocketmq-externals",
+      "target": "rocketmq",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T00:52:12.160742+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4224
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Mirror of Apache RocketMQ (Incubating)",
+    "fork": false,
+    "full_name": "apache/rocketmq-externals",
+    "html_url": "https://github.com/apache/rocketmq-externals",
+    "language": "Java",
+    "pushed_at": "2024-12-09T09:00:27Z",
+    "stargazers_count": 4614,
+    "topics": [
+      "rocketmq"
+    ],
+    "updated_at": "2026-04-26T07:02:01Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "apache/ignite-extensions",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "apache/rocketmq",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "apache/rocketmq-client-cpp",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "apache/rocketmq-client-nodejs",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "There are many of the Apache RocketMQ external projects, which is born from [Apache RocketMQ Improvement Proposal](https://github.com/apache/rocketmq/wiki/RocketMQ-Improvement-Proposal) and contributed and maintained by community. The PMC will lean towards developer community su\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rocketmq"
+    }
+  ]
+}

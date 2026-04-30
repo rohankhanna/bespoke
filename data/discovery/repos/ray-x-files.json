@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T04:09:05.648650+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 55
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "images, videos and binaries used in README.txt",
+    "fork": false,
+    "full_name": "ray-x/files",
+    "html_url": "https://github.com/ray-x/files",
+    "language": null,
+    "pushed_at": "2024-09-18T03:01:28Z",
+    "stargazers_count": 3,
+    "topics": [],
+    "updated_at": "2025-08-17T20:16:49Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

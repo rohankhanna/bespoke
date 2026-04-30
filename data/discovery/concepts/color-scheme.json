@@ -43,6 +43,42 @@
       "source_repo": "cmderdev/cmder",
       "status": "candidate-context",
       "text": "[![Join the chat at https://gitter.im/cmderdev/cmder](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/cmderdev/cmder?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge) [![Build Status](https://ci.appveyor.com/api/projects/status/github/cmderd\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "2KAbhishek/BWnB",
+      "status": "candidate-context",
+      "text": "Black dominant color scheme for various platforms. \ud83d\udda4\ud83d\udc99"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "2KAbhishek/BWnB",
+      "status": "candidate-context",
+      "text": "<div align = \"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "joonro/ConEmu-Color-Themes",
+      "status": "candidate-context",
+      "text": "Manually ported color themes for ConEmu"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "joonro/ConEmu-Color-Themes",
+      "status": "candidate-context",
+      "text": "Manually ported color themes for ConEmu"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nordtheme/vim",
+      "status": "candidate-context",
+      "text": "An arctic, north-bluish clean and elegant Vim theme."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nordtheme/vim",
+      "status": "candidate-context",
+      "text": "@nordtheme/vim \u2014 An arctic, north-bluish clean and elegant Vim theme"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +99,24 @@
       "source_repo": "cmderdev/cmder",
       "status": "candidate",
       "text": "[![Join the chat at https://gitter.im/cmderdev/cmder](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/cmderdev/cmder?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge) [![Build Status](https://ci.appveyor.com/api/projects/status/github/cmderd\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "2KAbhishek/BWnB",
+      "status": "candidate",
+      "text": "<div align = \"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "joonro/ConEmu-Color-Themes",
+      "status": "candidate",
+      "text": "Manually ported color themes for ConEmu"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nordtheme/vim",
+      "status": "candidate",
+      "text": "@nordtheme/vim \u2014 An arctic, north-bluish clean and elegant Vim theme"
     }
   ],
   "candidate_related_terms": [],
@@ -88,11 +142,29 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "cmderdev/cmder"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "2KAbhishek/BWnB"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "joonro/ConEmu-Color-Themes"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "nordtheme/vim"
     }
   ],
   "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

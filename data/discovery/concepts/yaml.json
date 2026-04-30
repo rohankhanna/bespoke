@@ -247,6 +247,42 @@
       "source_repo": "borkdude/jet",
       "status": "candidate-context",
       "text": "<img src=\"logo/logo-300dpi.png\" width=\"140px\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sayanarijit/jf",
+      "status": "candidate-context",
+      "text": "jf %q \"JSON Formatted\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sayanarijit/jf",
+      "status": "candidate-context",
+      "text": "[![Crate Status](https://img.shields.io/crates/v/jf.svg)](https://crates.io/crates/jf)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "barracudanetworks/lighthouse",
+      "status": "candidate-context",
+      "text": "A data-driven Kubernetes pre-processor"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "barracudanetworks/lighthouse",
+      "status": "candidate-context",
+      "text": "Generate Kubernetes manifests by combining EDN data instead of templating YAML."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "saphyr-rs/saphyr",
+      "status": "candidate-context",
+      "text": "A set of crates dedicated to parsing YAML."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "saphyr-rs/saphyr",
+      "status": "candidate-context",
+      "text": "This repository is home to `saphyr-parser`, `saphyr` and soon-to-be"
     }
   ],
   "candidate_glosses": [
@@ -369,6 +405,24 @@
       "source_repo": "borkdude/jet",
       "status": "candidate",
       "text": "<img src=\"logo/logo-300dpi.png\" width=\"140px\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sayanarijit/jf",
+      "status": "candidate",
+      "text": "[![Crate Status](https://img.shields.io/crates/v/jf.svg)](https://crates.io/crates/jf)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "barracudanetworks/lighthouse",
+      "status": "candidate",
+      "text": "Generate Kubernetes manifests by combining EDN data instead of templating YAML."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "saphyr-rs/saphyr",
+      "status": "candidate",
+      "text": "This repository is home to `saphyr-parser`, `saphyr` and soon-to-be"
     }
   ],
   "candidate_related_terms": [
@@ -538,11 +592,29 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "rest-sh/restish"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "sayanarijit/jf"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "barracudanetworks/lighthouse"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "saphyr-rs/saphyr"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

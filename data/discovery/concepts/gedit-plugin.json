@@ -19,6 +19,18 @@
       "source_repo": "isamert/gedi",
       "status": "candidate-context",
       "text": "A python code completion plugin for gedit. Built with the Jedi auto completion library by David Halter (https://github.com/davidhalter/jedi)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "isamert/gracer",
+      "status": "candidate-context",
+      "text": "a rust code completion plugin for gedit"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "isamert/gracer",
+      "status": "candidate-context",
+      "text": "A rust code completion plugin for gedit. Built with the Rust auto completion tool by Phil Dawes (https://github.com/phildawes/racer)."
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "isamert/gedi",
       "status": "candidate",
       "text": "A python code completion plugin for gedit. Built with the Jedi auto completion library by David Halter (https://github.com/davidhalter/jedi)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "isamert/gracer",
+      "status": "candidate",
+      "text": "A rust code completion plugin for gedit. Built with the Rust auto completion tool by Phil Dawes (https://github.com/phildawes/racer)."
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-22T04:49:29.633207+00:00",
       "source_file": null,
       "source_repo": "isamert/gedi"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "isamert/gracer"
     }
   ],
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

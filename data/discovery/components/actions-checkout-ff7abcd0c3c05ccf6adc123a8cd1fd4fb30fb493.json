@@ -1,0 +1,32 @@
+{
+  "component": "actions/checkout@ff7abcd0c3c05ccf6adc123a8cd1fd4fb30fb493",
+  "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/android.yml",
+      "source_repo": "mozilla/rhino"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/gradle.yml",
+      "source_repo": "mozilla/rhino"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/publish-github.yml",
+      "source_repo": "mozilla/rhino"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/publish-maven.yml",
+      "source_repo": "mozilla/rhino"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/scorecard.yml",
+      "source_repo": "mozilla/rhino"
+    }
+  ]
+}

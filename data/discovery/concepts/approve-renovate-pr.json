@@ -19,12 +19,48 @@
       "source_repo": "open-edge-platform/training_extensions",
       "status": "candidate-context",
       "text": "Approve Renovate PR"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "open-edge-platform/geti-instant-learn",
+      "status": "candidate-context",
+      "text": " A modular framework for few-shot visual segmentation using visual prompting techniques. Enables easy experimentation with different algorithms, backbones (SAM, MobileSAM, DinoV2), and pipeline components for finding and segmenting objects from just a few examples. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "open-edge-platform/geti-instant-learn",
+      "status": "candidate-context",
+      "text": "Approve Renovate PR"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "open-edge-platform/physical-ai-studio",
+      "status": "candidate-context",
+      "text": "Physical AI Studio is an end-to-end framework for training robots to perform tasks through imitation learning from human demonstrations."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "open-edge-platform/physical-ai-studio",
+      "status": "candidate-context",
+      "text": "Approve Renovate PR"
     }
   ],
   "candidate_glosses": [
     {
       "source_kind": "source-snippet",
       "source_repo": "open-edge-platform/training_extensions",
+      "status": "candidate",
+      "text": "Approve Renovate PR"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "open-edge-platform/geti-instant-learn",
+      "status": "candidate",
+      "text": "Approve Renovate PR"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "open-edge-platform/physical-ai-studio",
       "status": "candidate",
       "text": "Approve Renovate PR"
     }
@@ -76,11 +112,23 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": ".github/workflows/auto-approve.yml",
       "source_repo": "open-edge-platform/training_extensions"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/auto-approve.yml",
+      "source_repo": "open-edge-platform/geti-instant-learn"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/auto-approve.yml",
+      "source_repo": "open-edge-platform/physical-ai-studio"
     }
   ],
   "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

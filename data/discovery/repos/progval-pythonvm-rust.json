@@ -1,0 +1,132 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "progval/pythonvm-rust",
+      "target": "bytecode",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "progval/pythonvm-rust",
+      "target": "cpython",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "progval/pythonvm-rust",
+      "target": "interpreter",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "progval/pythonvm-rust",
+      "target": "python-virtual-machine",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "progval/pythonvm-rust",
+      "target": "pythonvm-rust",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "progval/pythonvm-rust",
+      "target": "rust",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "progval/pythonvm-rust",
+      "target": "stackless",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T04:49:22.519942+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1182
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 227
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "An incomplete stackless interpreter of Python bytecode, written in Rust. ",
+    "fork": false,
+    "full_name": "progval/pythonvm-rust",
+    "html_url": "https://github.com/progval/pythonvm-rust",
+    "language": "Rust",
+    "pushed_at": "2023-02-18T16:26:54Z",
+    "stargazers_count": 82,
+    "topics": [
+      "bytecode",
+      "cpython",
+      "interpreter",
+      "python-virtual-machine",
+      "pythonvm-rust",
+      "rust",
+      "stackless"
+    ],
+    "updated_at": "2026-02-06T07:29:22Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "[![Build Status](https://travis-ci.org/ProgVal/pythonvm-rust.svg?branch=master)](https://travis-ci.org/ProgVal/pythonvm-rust)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bytecode"
+    },
+    {
+      "context_snippet": "[![Build Status](https://travis-ci.org/ProgVal/pythonvm-rust.svg?branch=master)](https://travis-ci.org/ProgVal/pythonvm-rust)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cpython"
+    },
+    {
+      "context_snippet": "[![Build Status](https://travis-ci.org/ProgVal/pythonvm-rust.svg?branch=master)](https://travis-ci.org/ProgVal/pythonvm-rust)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "interpreter"
+    },
+    {
+      "context_snippet": "[![Build Status](https://travis-ci.org/ProgVal/pythonvm-rust.svg?branch=master)](https://travis-ci.org/ProgVal/pythonvm-rust)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "python-virtual-machine"
+    },
+    {
+      "context_snippet": "[![Build Status](https://travis-ci.org/ProgVal/pythonvm-rust.svg?branch=master)](https://travis-ci.org/ProgVal/pythonvm-rust)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pythonvm-rust"
+    },
+    {
+      "context_snippet": "[![Build Status](https://travis-ci.org/ProgVal/pythonvm-rust.svg?branch=master)](https://travis-ci.org/ProgVal/pythonvm-rust)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rust"
+    },
+    {
+      "context_snippet": "[![Build Status](https://travis-ci.org/ProgVal/pythonvm-rust.svg?branch=master)](https://travis-ci.org/ProgVal/pythonvm-rust)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "stackless"
+    }
+  ]
+}

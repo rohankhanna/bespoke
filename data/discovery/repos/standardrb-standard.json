@@ -1,0 +1,242 @@
+{
+  "components": [
+    {
+      "component": "step-security/harden-runner@e3f713f2d8f53843e71c69a996d56f51aa9adfb9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/checkout@1af3b93b6815bc44a9784bd300feb67ff0d1eeb3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "ruby/setup-ruby@4fc31e1c823882afd7ef55985266a526c589de90",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update.yml"
+    },
+    {
+      "component": "ruby/setup-ruby@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update.yml"
+    },
+    {
+      "component": "peter-evans/create-pull-request@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "standardrb/standard",
+      "target": "ashfurrow/danger-rubocop",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "standardrb/standard",
+      "target": "jodyvanden/guard-standardrb",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "standardrb/standard",
+      "target": "betterment/betterlint",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "standardrb/standard",
+      "target": "brave-intl/publishers",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "standardrb/standard",
+      "target": "step-security/harden-runner@e3f713f2d8f53843e71c69a996d56f51aa9adfb9",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "standardrb/standard",
+      "target": "actions/checkout@1af3b93b6815bc44a9784bd300feb67ff0d1eeb3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "standardrb/standard",
+      "target": "ruby/setup-ruby@4fc31e1c823882afd7ef55985266a526c589de90",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "standardrb/standard",
+      "target": "Tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update.yml",
+      "source_repo": "standardrb/standard",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update.yml",
+      "source_repo": "standardrb/standard",
+      "target": "ruby/setup-ruby@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update.yml",
+      "source_repo": "standardrb/standard",
+      "target": "peter-evans/create-pull-request@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/update.yml",
+      "source_repo": "standardrb/standard",
+      "target": "Update",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "standardrb/standard",
+      "target": "formatter",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "standardrb/standard",
+      "target": "linter",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "standardrb/standard",
+      "target": "rubocop",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "standardrb/standard",
+      "target": "ruby",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T00:53:47.151917+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 22701
+    },
+    {
+      "path": ".github/workflows/test.yml",
+      "size": 720
+    },
+    {
+      "path": ".github/workflows/update.yml",
+      "size": 1962
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Ruby's bikeshed-proof linter and formatter \ud83d\udeb2",
+    "fork": false,
+    "full_name": "standardrb/standard",
+    "html_url": "https://github.com/standardrb/standard",
+    "language": "Ruby",
+    "pushed_at": "2026-04-21T01:32:31Z",
+    "stargazers_count": 2891,
+    "topics": [
+      "formatter",
+      "linter",
+      "rubocop",
+      "ruby"
+    ],
+    "updated_at": "2026-04-28T13:37:37Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ashfurrow/danger-rubocop",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "betterment/betterlint",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "brave-intl/publishers",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jodyvanden/guard-standardrb",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "term": "Tests"
+    },
+    {
+      "context_snippet": "Update",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/update.yml",
+      "term": "Update"
+    },
+    {
+      "context_snippet": "<img src=\"https://user-images.githubusercontent.com/79303/233717126-9fd13e6d-9a66-4f1c-b40c-fe875cb1d1b4.png\" style=\"width: 100%\"/>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "formatter"
+    },
+    {
+      "context_snippet": "<img src=\"https://user-images.githubusercontent.com/79303/233717126-9fd13e6d-9a66-4f1c-b40c-fe875cb1d1b4.png\" style=\"width: 100%\"/>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "linter"
+    },
+    {
+      "context_snippet": "<img src=\"https://user-images.githubusercontent.com/79303/233717126-9fd13e6d-9a66-4f1c-b40c-fe875cb1d1b4.png\" style=\"width: 100%\"/>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rubocop"
+    },
+    {
+      "context_snippet": "<img src=\"https://user-images.githubusercontent.com/79303/233717126-9fd13e6d-9a66-4f1c-b40c-fe875cb1d1b4.png\" style=\"width: 100%\"/>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ruby"
+    }
+  ]
+}

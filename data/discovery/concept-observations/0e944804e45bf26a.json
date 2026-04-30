@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "HTTP and WebSocket built on Boost.Asio in C++11"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<img width=\"880\" height = \"80\" alt = \"Boost.Beast Title\""
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<img width=\"880\" height = \"80\" alt = \"Boost.Beast Title\""
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40026978,
+      "status": "candidate",
+      "text": "hike up"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40026499,
+      "status": "candidate",
+      "text": "rise"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40022092,
+      "status": "candidate",
+      "text": "promote"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40016354,
+      "status": "candidate",
+      "text": "advance"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40015236,
+      "status": "candidate",
+      "text": "hike"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "boost",
+      "sense_id": "boost#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 55059,
+      "status": "candidate",
+      "text": "advance"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 44034,
+      "status": "candidate",
+      "text": "encourage"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 39040,
+      "status": "candidate",
+      "text": "promote"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 26054,
+      "status": "candidate",
+      "text": "rise"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 19040,
+      "status": "candidate",
+      "text": "further"
+    }
+  ],
+  "concept_id": "boost",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "boost",
+  "observation_id": "0e944804e45bf26a",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T00:37:16.824464+00:00",
+  "observed_text": "boost",
+  "source_context_snippet": "<img width=\"880\" height = \"80\" alt = \"Boost.Beast Title\"",
+  "source_file": null,
+  "source_repo": "boostorg/beast",
+  "source_repo_description": "HTTP and WebSocket built on Boost.Asio in C++11"
+}

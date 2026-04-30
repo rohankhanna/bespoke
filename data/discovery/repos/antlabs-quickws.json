@@ -1,0 +1,169 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/autobahn.yml"
+    },
+    {
+      "component": "actions/setup-go@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/autobahn.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/autobahn.yml"
+    },
+    {
+      "component": "actions/setup-go@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml"
+    },
+    {
+      "component": "actions/checkout@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml"
+    },
+    {
+      "component": "codecov/codecov-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "antlabs/quickws",
+      "target": "antlabs/quickws-example",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/autobahn.yml",
+      "source_repo": "antlabs/quickws",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/autobahn.yml",
+      "source_repo": "antlabs/quickws",
+      "target": "actions/setup-go@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/autobahn.yml",
+      "source_repo": "antlabs/quickws",
+      "target": "actions/upload-artifact@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/autobahn.yml",
+      "source_repo": "antlabs/quickws",
+      "target": "Autobahn",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml",
+      "source_repo": "antlabs/quickws",
+      "target": "actions/setup-go@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml",
+      "source_repo": "antlabs/quickws",
+      "target": "actions/checkout@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml",
+      "source_repo": "antlabs/quickws",
+      "target": "codecov/codecov-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "antlabs/quickws",
+      "target": "rfc6455",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "antlabs/quickws",
+      "target": "websocket",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T04:52:12.782194+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 10131
+    },
+    {
+      "path": "go.mod",
+      "size": 176
+    },
+    {
+      "path": ".github/workflows/autobahn.yml",
+      "size": 886
+    },
+    {
+      "path": ".github/workflows/go.yml",
+      "size": 996
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "\u9ad8\u6027\u80fdwebsocket\u5e93, Callback\u5199\u6cd5\uff0c\u5728\u9ad8\u9891cpu\u4e0a\u6709\u4e0d\u4fd7\u8868\u73b0 https://github.com/antlabs/quickws-example",
+    "fork": false,
+    "full_name": "antlabs/quickws",
+    "html_url": "https://github.com/antlabs/quickws",
+    "language": "Go",
+    "pushed_at": "2024-06-22T12:31:55Z",
+    "stargazers_count": 115,
+    "topics": [
+      "rfc6455",
+      "websocket"
+    ],
+    "updated_at": "2026-04-15T03:09:27Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "antlabs/quickws-example",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Autobahn",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/autobahn.yml",
+      "term": "Autobahn"
+    },
+    {
+      "context_snippet": "quickws\u662f\u4e00\u4e2a\u9ad8\u6027\u80fd\u7684websocket\u5e93",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rfc6455"
+    },
+    {
+      "context_snippet": "quickws\u662f\u4e00\u4e2a\u9ad8\u6027\u80fd\u7684websocket\u5e93",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "websocket"
+    }
+  ]
+}

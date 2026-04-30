@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Build & publish images"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "argoproj-labs/argocd-agent",
+      "status": "candidate-context",
+      "text": "Redefining the multi cluster story of Argo CD"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "argoproj-labs/argocd-agent",
+      "status": "candidate-context",
+      "text": "Build & publish images"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "argoproj-labs/argocd-agent",
+      "status": "candidate",
+      "text": "Build & publish images"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17925,
+      "status": "candidate",
+      "text": "print"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17925,
+      "status": "candidate",
+      "text": "printed"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17925,
+      "status": "candidate",
+      "text": "prints"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17864,
+      "status": "candidate",
+      "text": "graffiti"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17864,
+      "status": "candidate",
+      "text": "imagine"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Build & publish images",
+  "concept_id": "build-publish-images",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/image.yaml",
+      "source_repo": "argoproj-labs/argocd-agent"
+    }
+  ],
+  "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Build & publish images",
+      "sense_id": "build-publish-images#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

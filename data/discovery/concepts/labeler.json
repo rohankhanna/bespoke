@@ -248,6 +248,30 @@
       "source_repo": "neplexlabs/canvacord",
       "status": "candidate-context",
       "text": "Labeler"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "appbaseio/reactivesearch",
+      "status": "candidate-context",
+      "text": "Search UI components for React and Vue"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "appbaseio/reactivesearch",
+      "status": "candidate-context",
+      "text": "Labeler"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "appium/appium",
+      "status": "candidate-context",
+      "text": "Cross-platform automation framework for all kinds of apps, built on top of the W3C WebDriver protocol"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "appium/appium",
+      "status": "candidate-context",
+      "text": "Labeler"
     }
   ],
   "candidate_glosses": [
@@ -368,6 +392,18 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "neplexlabs/canvacord",
+      "status": "candidate",
+      "text": "Labeler"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "appbaseio/reactivesearch",
+      "status": "candidate",
+      "text": "Labeler"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "appium/appium",
       "status": "candidate",
       "text": "Labeler"
     }
@@ -563,11 +599,47 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": ".github/workflows/dev_pr.yml",
       "source_repo": "apache/datafusion-ballista-python"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/labeler.yml",
+      "source_repo": "uxlfoundation/oneDNN"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/labeler.yml",
+      "source_repo": "PyCQA/isort"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/dev_pr.yml",
+      "source_repo": "apache/datafusion-ballista"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/dev_pr.yml",
+      "source_repo": "apache/datafusion-ballista-python"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/label.yml",
+      "source_repo": "appbaseio/reactivesearch"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/auto-labeler.yml",
+      "source_repo": "appium/appium"
     }
   ],
   "first_seen_at": "2026-04-19T17:42:30.117329+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Background Removal written with swift using u2net model "
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<img src=\"https://github.com/Ezaldeen99/BackgroundRemoval/blob/main/ScreenShots/results.jpg\" alt=\"Removal results\" align=\"center\" />"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<img src=\"https://github.com/Ezaldeen99/BackgroundRemoval/blob/main/ScreenShots/results.jpg\" alt=\"Removal results\" align=\"center\" />"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "background-subtraction",
+      "sense_id": "background-subtraction#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "background-subtraction",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "background-subtraction",
+  "observation_id": "5f031789c010c651",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T00:37:16.824464+00:00",
+  "observed_text": "background-subtraction",
+  "source_context_snippet": "<img src=\"https://github.com/Ezaldeen99/BackgroundRemoval/blob/main/ScreenShots/results.jpg\" alt=\"Removal results\" align=\"center\" />",
+  "source_file": null,
+  "source_repo": "Ezaldeen99/BackgroundRemoval",
+  "source_repo_description": "Background Removal written with swift using u2net model "
+}

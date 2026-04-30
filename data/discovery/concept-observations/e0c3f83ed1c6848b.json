@@ -1,0 +1,108 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A visuailzation tool to make deep understaning and easier debugging for RLHF training."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "RL Logging Board \u662f\u4e00\u4e2a\u5c06 Reinforcement Learning from Human Feedback\uff08RLHF\uff09\u7684`\u8bad\u7ec3\u8fc7\u7a0b\u8fdb\u884c\u53ef\u89c6\u5316\u7684\u5de5\u5177`\uff0c\u65e8\u5728\uff1a"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "RL Logging Board \u662f\u4e00\u4e2a\u5c06 Reinforcement Learning from Human Feedback\uff08RLHF\uff09\u7684`\u8bad\u7ec3\u8fc7\u7a0b\u8fdb\u884c\u53ef\u89c6\u5316\u7684\u5de5\u5177`\uff0c\u65e8\u5728\uff1a"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40025678,
+      "status": "candidate",
+      "text": "visualisation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30038299,
+      "status": "candidate",
+      "text": "visual image"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30038298,
+      "status": "candidate",
+      "text": "visioning"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30037951,
+      "status": "candidate",
+      "text": "visual"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30031504,
+      "status": "candidate",
+      "text": "view"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "visualization",
+      "sense_id": "visualization#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 22,
+      "status": "candidate",
+      "text": "visualisation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 11,
+      "status": "candidate",
+      "text": "visual image"
+    }
+  ],
+  "concept_id": "visualization",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "visualization",
+  "observation_id": "e0c3f83ed1c6848b",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T00:37:16.824464+00:00",
+  "observed_text": "visualization",
+  "source_context_snippet": "RL Logging Board \u662f\u4e00\u4e2a\u5c06 Reinforcement Learning from Human Feedback\uff08RLHF\uff09\u7684`\u8bad\u7ec3\u8fc7\u7a0b\u8fdb\u884c\u53ef\u89c6\u5316\u7684\u5de5\u5177`\uff0c\u65e8\u5728\uff1a",
+  "source_file": null,
+  "source_repo": "HarderThenHarder/RLLoggingBoard",
+  "source_repo_description": "A visuailzation tool to make deep understaning and easier debugging for RLHF training."
+}

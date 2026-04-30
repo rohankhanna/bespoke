@@ -1,7 +1,7 @@
 {
   "component": "erlef/setup-beam@v1",
   "first_seen_at": "2026-04-18T09:57:17.167988+00:00",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -212,6 +212,86 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/update-api-list.yml",
       "source_repo": "googleapis/elixir-google-api"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "elixir-webrtc/xav"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "dwyl/learn-tailwind"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "dwyl/content"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "dwyl/fields"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "dwyl/phoenix-liveview-stopwatch"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "dwyl/phoenix-liveview-counter-tutorial"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "dwyl/phoenix-liveview-todo-list-tutorial"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "dwyl/hits"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "dashbitco/mox"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/erlang.yml",
+      "source_repo": "benoitc/hackney"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/on-push.yml",
+      "source_repo": "ex-aws/ex_aws"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/on-push.yml",
+      "source_repo": "ex-aws/ex_aws_lambda"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "CuatroElixir/spear"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/compatibility.yml",
+      "source_repo": "CuatroElixir/spear"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/refresh-dev-cache.yml",
+      "source_repo": "CuatroElixir/spear"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test-workflow.yaml",
+      "source_repo": "microsoft/multilspy"
     }
   ]
 }

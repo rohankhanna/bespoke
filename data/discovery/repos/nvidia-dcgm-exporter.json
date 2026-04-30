@@ -1,0 +1,98 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml"
+    },
+    {
+      "component": "actions/setup-go@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "NVIDIA/dcgm-exporter",
+      "target": "nvidia/gpu-operator",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "NVIDIA/dcgm-exporter",
+      "target": "prometheus/exporter-toolkit",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "NVIDIA/dcgm-exporter",
+      "target": "openobserve/dashboards",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml",
+      "source_repo": "NVIDIA/dcgm-exporter",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml",
+      "source_repo": "NVIDIA/dcgm-exporter",
+      "target": "actions/setup-go@v2",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-04-30T01:49:52.642553+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9070
+    },
+    {
+      "path": "go.mod",
+      "size": 7823
+    },
+    {
+      "path": ".github/workflows/go.yml",
+      "size": 352
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "NVIDIA GPU metrics exporter for Prometheus leveraging DCGM",
+    "fork": false,
+    "full_name": "NVIDIA/dcgm-exporter",
+    "html_url": "https://github.com/NVIDIA/dcgm-exporter",
+    "language": "Go",
+    "pushed_at": "2026-04-07T19:43:19Z",
+    "stargazers_count": 1700,
+    "topics": [],
+    "updated_at": "2026-04-29T15:01:41Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "nvidia/gpu-operator",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "openobserve/dashboards",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "prometheus/exporter-toolkit",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

@@ -1,0 +1,192 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-build.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-build.yml"
+    },
+    {
+      "component": "docker/setup-buildx-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-build.yml"
+    },
+    {
+      "component": "docker/login-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-build.yml"
+    },
+    {
+      "component": "docker/build-push-action@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-build.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "danielrosehill/Red-Alert-Monitoring-Stack",
+      "target": "amitfin/oref_alert",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "danielrosehill/Red-Alert-Monitoring-Stack",
+      "target": "danielrosehill/awesome-red-alerts",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "danielrosehill/Red-Alert-Monitoring-Stack",
+      "target": "danielrosehill/ha-red-alerts-model-automations",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "danielrosehill/Red-Alert-Monitoring-Stack",
+      "target": "danielrosehill/geopol-forecaster-poc",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-build.yml",
+      "source_repo": "danielrosehill/Red-Alert-Monitoring-Stack",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-build.yml",
+      "source_repo": "danielrosehill/Red-Alert-Monitoring-Stack",
+      "target": "docker/setup-buildx-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-build.yml",
+      "source_repo": "danielrosehill/Red-Alert-Monitoring-Stack",
+      "target": "docker/login-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-build.yml",
+      "source_repo": "danielrosehill/Red-Alert-Monitoring-Stack",
+      "target": "docker/build-push-action@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docker-build.yml",
+      "source_repo": "danielrosehill/Red-Alert-Monitoring-Stack",
+      "target": "Build & Push Docker Images",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "danielrosehill/Red-Alert-Monitoring-Stack",
+      "target": "pikud-haoref",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "danielrosehill/Red-Alert-Monitoring-Stack",
+      "target": "preparedness",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "danielrosehill/Red-Alert-Monitoring-Stack",
+      "target": "red-alert",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T04:58:36.562786+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 12897
+    },
+    {
+      "path": ".github/workflows/docker-build.yml",
+      "size": 7314
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Microservices Docker stack for Pikud HaOref red alert monitoring, home automation, and real-time visualization",
+    "fork": false,
+    "full_name": "danielrosehill/Red-Alert-Monitoring-Stack",
+    "html_url": "https://github.com/danielrosehill/Red-Alert-Monitoring-Stack",
+    "language": "Python",
+    "pushed_at": "2026-04-10T17:15:24Z",
+    "stargazers_count": 0,
+    "topics": [
+      "pikud-haoref",
+      "preparedness",
+      "red-alert"
+    ],
+    "updated_at": "2026-04-10T17:15:28Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "amitfin/oref_alert",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "danielrosehill/awesome-red-alerts",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "danielrosehill/geopol-forecaster-poc",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "danielrosehill/ha-red-alerts-model-automations",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Build & Push Docker Images",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docker-build.yml",
+      "term": "Build & Push Docker Images"
+    },
+    {
+      "context_snippet": "![Geodash dashboard showing real-time alert monitoring, Apr 8 2026](alerts.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pikud-haoref"
+    },
+    {
+      "context_snippet": "![Geodash dashboard showing real-time alert monitoring, Apr 8 2026](alerts.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "preparedness"
+    },
+    {
+      "context_snippet": "![Geodash dashboard showing real-time alert monitoring, Apr 8 2026](alerts.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "red-alert"
+    }
+  ]
+}

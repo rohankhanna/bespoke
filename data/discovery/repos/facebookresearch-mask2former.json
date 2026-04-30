@@ -1,0 +1,57 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "facebookresearch/Mask2Former",
+      "target": "swintransformer/swin-transformer-semantic-segmentation",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "facebookresearch/Mask2Former",
+      "target": "facebookresearch/maskformer",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T05:12:29.699407+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3556
+    },
+    {
+      "path": "requirements.txt",
+      "size": 53
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "main",
+    "description": "Code release for \"Masked-attention Mask Transformer for Universal Image Segmentation\"",
+    "fork": false,
+    "full_name": "facebookresearch/Mask2Former",
+    "html_url": "https://github.com/facebookresearch/Mask2Former",
+    "language": "Python",
+    "pushed_at": "2024-07-29T11:47:14Z",
+    "stargazers_count": 3334,
+    "topics": [],
+    "updated_at": "2026-04-28T16:55:13Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "facebookresearch/maskformer",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "swintransformer/swin-transformer-semantic-segmentation",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

@@ -1,0 +1,45 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "Cargo.toml",
+      "source_repo": "Byron/cargo-release",
+      "target": "sunng87/cargo-release",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T00:47:26.238061+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2179
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 1130
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Cargo subcommand \"release\": everything about releasing a rust crate.",
+    "fork": true,
+    "full_name": "Byron/cargo-release",
+    "html_url": "https://github.com/Byron/cargo-release",
+    "language": "Rust",
+    "pushed_at": "2021-05-09T02:43:06Z",
+    "stargazers_count": 0,
+    "topics": [],
+    "updated_at": "2021-08-21T07:46:15Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "sunng87/cargo-release",
+      "source_file": "Cargo.toml"
+    }
+  ],
+  "terms": []
+}

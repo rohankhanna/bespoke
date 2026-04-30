@@ -1,0 +1,197 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "qwertyforce/image_search",
+      "target": "qwertyforce/ambience",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "qwertyforce/image_search",
+      "target": "clip",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "qwertyforce/image_search",
+      "target": "global-features",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "qwertyforce/image_search",
+      "target": "google-colaboratory",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "qwertyforce/image_search",
+      "target": "image-retrieval",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "qwertyforce/image_search",
+      "target": "image-search",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "qwertyforce/image_search",
+      "target": "jyputer-notebook",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "qwertyforce/image_search",
+      "target": "local-features",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "qwertyforce/image_search",
+      "target": "phash",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "qwertyforce/image_search",
+      "target": "pytorch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "qwertyforce/image_search",
+      "target": "reverse-image-search",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "qwertyforce/image_search",
+      "target": "rgb-histogram",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T02:43:03.545156+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2248
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Algorithms for similar image search/reverse image search",
+    "fork": false,
+    "full_name": "qwertyforce/image_search",
+    "html_url": "https://github.com/qwertyforce/image_search",
+    "language": "Jupyter Notebook",
+    "pushed_at": "2023-01-17T06:31:51Z",
+    "stargazers_count": 36,
+    "topics": [
+      "clip",
+      "global-features",
+      "google-colaboratory",
+      "image-retrieval",
+      "image-search",
+      "jyputer-notebook",
+      "local-features",
+      "phash",
+      "pytorch",
+      "reverse-image-search",
+      "rgb-histogram"
+    ],
+    "updated_at": "2025-01-02T02:20:47Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "qwertyforce/ambience",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "new stuff<br>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "clip"
+    },
+    {
+      "context_snippet": "new stuff<br>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "global-features"
+    },
+    {
+      "context_snippet": "new stuff<br>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "google-colaboratory"
+    },
+    {
+      "context_snippet": "new stuff<br>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "image-retrieval"
+    },
+    {
+      "context_snippet": "new stuff<br>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "image-search"
+    },
+    {
+      "context_snippet": "new stuff<br>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "jyputer-notebook"
+    },
+    {
+      "context_snippet": "new stuff<br>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "local-features"
+    },
+    {
+      "context_snippet": "new stuff<br>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "phash"
+    },
+    {
+      "context_snippet": "new stuff<br>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytorch"
+    },
+    {
+      "context_snippet": "new stuff<br>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "reverse-image-search"
+    },
+    {
+      "context_snippet": "new stuff<br>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rgb-histogram"
+    }
+  ]
+}

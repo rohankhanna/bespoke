@@ -91,6 +91,18 @@
       "source_repo": "dmitmel/cmp-digraphs",
       "status": "candidate-context",
       "text": "A [nvim-cmp](https://github.com/hrsh7th/nvim-cmp) source for completing [digraphs](https://vimhelp.org/digraph.txt.html) (both built-in and custom ones)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hrsh7th/cmp-cmdline",
+      "status": "candidate-context",
+      "text": "nvim-cmp source for vim's cmdline"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hrsh7th/cmp-cmdline",
+      "status": "candidate-context",
+      "text": "nvim-cmp source for vim's cmdline."
     }
   ],
   "candidate_glosses": [
@@ -135,6 +147,12 @@
       "source_repo": "dmitmel/cmp-digraphs",
       "status": "candidate",
       "text": "A [nvim-cmp](https://github.com/hrsh7th/nvim-cmp) source for completing [digraphs](https://vimhelp.org/digraph.txt.html) (both built-in and custom ones)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hrsh7th/cmp-cmdline",
+      "status": "candidate",
+      "text": "nvim-cmp source for vim's cmdline."
     }
   ],
   "candidate_related_terms": [],
@@ -202,11 +220,23 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "dmitmel/cmp-digraphs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "andersevenrud/cmp-tmux"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "hrsh7th/cmp-cmdline"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

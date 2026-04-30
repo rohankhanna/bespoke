@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T05:03:04.214376+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8636
+    },
+    {
+      "path": "go.mod",
+      "size": 157
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "general purpose extensions to golang's database/sql",
+    "fork": false,
+    "full_name": "jmoiron/sqlx",
+    "html_url": "https://github.com/jmoiron/sqlx",
+    "language": "Go",
+    "pushed_at": "2024-08-15T16:19:19Z",
+    "stargazers_count": 17601,
+    "topics": [],
+    "updated_at": "2026-04-28T09:40:26Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

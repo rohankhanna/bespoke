@@ -19,12 +19,30 @@
       "source_repo": "agents-squads/squads-cli",
       "status": "candidate-context",
       "text": "Publish to npm (manual)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "y-lohse/inkjs",
+      "status": "candidate-context",
+      "text": "A javascript port of inkle's ink scripting language."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "y-lohse/inkjs",
+      "status": "candidate-context",
+      "text": "Publish to npm (manual)"
     }
   ],
   "candidate_glosses": [
     {
       "source_kind": "source-snippet",
       "source_repo": "agents-squads/squads-cli",
+      "status": "candidate",
+      "text": "Publish to npm (manual)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "y-lohse/inkjs",
       "status": "candidate",
       "text": "Publish to npm (manual)"
     }
@@ -76,11 +94,17 @@
       "observed_at": "2026-04-19T04:47:57.443742+00:00",
       "source_file": ".github/workflows/publish.yml",
       "source_repo": "agents-squads/squads-cli"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/npm-manual-publish.yml",
+      "source_repo": "y-lohse/inkjs"
     }
   ],
   "first_seen_at": "2026-04-19T04:47:57.443742+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-19T04:47:57.443742+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

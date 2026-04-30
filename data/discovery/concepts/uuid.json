@@ -19,6 +19,54 @@
       "source_repo": "uuid-rs/uuid",
       "status": "candidate-context",
       "text": "[![Latest Version](https://img.shields.io/crates/v/uuid.svg)](https://crates.io/crates/uuid)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ahawker/ulid",
+      "status": "candidate-context",
+      "text": "Universally Unique Lexicographically Sortable Identifier (ULID) in Python 3"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ahawker/ulid",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://travis-ci.org/ahawker/ulid.svg?branch=master)](https://travis-ci.org/ahawker/ulid)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jchook/uuid-random",
+      "status": "candidate-context",
+      "text": "Tiny, fast UUID v4 with cryptographic PRNG"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jchook/uuid-random",
+      "status": "candidate-context",
+      "text": "[![MIT Licence](https://img.shields.io/badge/License-MIT-informational)](LICENSE.txt)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "segmentio/ksuid",
+      "status": "candidate-context",
+      "text": "K-Sortable Globally Unique IDs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "segmentio/ksuid",
+      "status": "candidate-context",
+      "text": "ksuid is an efficient, comprehensive, battle-tested Go library for"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ulid/javascript",
+      "status": "candidate-context",
+      "text": "Universally Unique Lexicographically Sortable Identifier"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ulid/javascript",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +75,30 @@
       "source_repo": "uuid-rs/uuid",
       "status": "candidate",
       "text": "[![Latest Version](https://img.shields.io/crates/v/uuid.svg)](https://crates.io/crates/uuid)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ahawker/ulid",
+      "status": "candidate",
+      "text": "[![Build Status](https://travis-ci.org/ahawker/ulid.svg?branch=master)](https://travis-ci.org/ahawker/ulid)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jchook/uuid-random",
+      "status": "candidate",
+      "text": "[![MIT Licence](https://img.shields.io/badge/License-MIT-informational)](LICENSE.txt)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "segmentio/ksuid",
+      "status": "candidate",
+      "text": "ksuid is an efficient, comprehensive, battle-tested Go library for"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ulid/javascript",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -76,11 +148,35 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": null,
       "source_repo": "uuid-rs/uuid"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "ahawker/ulid"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "jchook/uuid-random"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "segmentio/ksuid"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "ulid/javascript"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

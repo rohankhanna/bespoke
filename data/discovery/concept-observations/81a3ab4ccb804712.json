@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "\ud83e\udd8aA highly customizable theme for vim and neovim with support for lsp, treesitter and a variety of plugins."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "extra"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "extra"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40016648,
+      "status": "candidate",
+      "text": "superfluous"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40016515,
+      "status": "candidate",
+      "text": "excess"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40016415,
+      "status": "candidate",
+      "text": "surplus"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40015223,
+      "status": "candidate",
+      "text": "redundant"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40014834,
+      "status": "candidate",
+      "text": "supererogatory"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "extra",
+      "sense_id": "extra#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 59038,
+      "status": "candidate",
+      "text": "superfluous"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 31041,
+      "status": "candidate",
+      "text": "redundant"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 26046,
+      "status": "candidate",
+      "text": "excess"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 20035,
+      "status": "candidate",
+      "text": "additional"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 19048,
+      "status": "candidate",
+      "text": "surplus"
+    }
+  ],
+  "concept_id": "extra",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "extra",
+  "observation_id": "81a3ab4ccb804712",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-30T00:37:16.824464+00:00",
+  "observed_text": "extra",
+  "source_context_snippet": "extra",
+  "source_file": ".github/workflows/extra.yml",
+  "source_repo": "EdenEast/nightfox.nvim",
+  "source_repo_description": "\ud83e\udd8aA highly customizable theme for vim and neovim with support for lsp, treesitter and a variety of plugins."
+}

@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "BERT score for text generation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![made-with-python](https://img.shields.io/badge/Made%20with-Python-red.svg)](#python)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![made-with-python](https://img.shields.io/badge/Made%20with-Python-red.svg)](#python)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "natural-language-processing",
+      "sense_id": "natural-language-processing#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "natural-language-processing",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "natural-language-processing",
+  "observation_id": "06f598e413217ae4",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T00:37:16.824464+00:00",
+  "observed_text": "natural-language-processing",
+  "source_context_snippet": "[![made-with-python](https://img.shields.io/badge/Made%20with-Python-red.svg)](#python)",
+  "source_file": null,
+  "source_repo": "Tiiiger/bert_score",
+  "source_repo_description": "BERT score for text generation"
+}

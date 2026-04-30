@@ -1,0 +1,77 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "DingXiaoH/RepLKNet-pytorch",
+      "target": "br-idl/paddlevit",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "DingXiaoH/RepLKNet-pytorch",
+      "target": "dingxiaoh/repoptimizers",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "DingXiaoH/RepLKNet-pytorch",
+      "target": "dingxiaoh/repmlp",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "DingXiaoH/RepLKNet-pytorch",
+      "target": "dingxiaoh/gsm-sgd",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T01:59:53.947163+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 25847
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Scaling Up Your Kernels to 31x31: Revisiting Large Kernel Design in CNNs (CVPR 2022)",
+    "fork": false,
+    "full_name": "DingXiaoH/RepLKNet-pytorch",
+    "html_url": "https://github.com/DingXiaoH/RepLKNet-pytorch",
+    "language": "Python",
+    "pushed_at": "2024-04-24T05:15:10Z",
+    "stargazers_count": 940,
+    "topics": [],
+    "updated_at": "2026-04-07T17:03:54Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "br-idl/paddlevit",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dingxiaoh/gsm-sgd",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dingxiaoh/repmlp",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dingxiaoh/repoptimizers",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

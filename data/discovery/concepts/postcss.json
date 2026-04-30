@@ -31,6 +31,30 @@
       "source_repo": "giuseppeg/styled-jsx-plugin-postcss",
       "status": "candidate-context",
       "text": "[![Build Status](https://travis-ci.org/giuseppeg/styled-jsx-plugin-postcss.svg?branch=master)](https://travis-ci.org/giuseppeg/styled-jsx-plugin-postcss)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "postcss/postcss",
+      "status": "candidate-context",
+      "text": "Transforming styles with JS plugins"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "postcss/postcss",
+      "status": "candidate-context",
+      "text": "<img align=\"right\" width=\"95\" height=\"95\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "csstools/postcss-plugins",
+      "status": "candidate-context",
+      "text": "PostCSS Tools and Plugins"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "csstools/postcss-plugins",
+      "status": "candidate-context",
+      "text": "[<img alt=\"build status\" src=\"https://github.com/csstools/postcss-plugins/actions/workflows/test.yml/badge.svg?branch=main\" height=\"20\">][ci-url]"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +69,18 @@
       "source_repo": "giuseppeg/styled-jsx-plugin-postcss",
       "status": "candidate",
       "text": "[![Build Status](https://travis-ci.org/giuseppeg/styled-jsx-plugin-postcss.svg?branch=master)](https://travis-ci.org/giuseppeg/styled-jsx-plugin-postcss)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "postcss/postcss",
+      "status": "candidate",
+      "text": "<img align=\"right\" width=\"95\" height=\"95\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "csstools/postcss-plugins",
+      "status": "candidate",
+      "text": "[<img alt=\"build status\" src=\"https://github.com/csstools/postcss-plugins/actions/workflows/test.yml/badge.svg?branch=main\" height=\"20\">][ci-url]"
     }
   ],
   "candidate_related_terms": [
@@ -100,11 +136,23 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "giuseppeg/styled-jsx-plugin-postcss"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "postcss/postcss"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "csstools/postcss-plugins"
     }
   ],
   "first_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

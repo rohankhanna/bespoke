@@ -76,7 +76,7 @@
       "source_file": ".github/workflows/test.yml"
     },
     {
-      "component": "leafo/gh-actions-lua@v12",
+      "component": "leafo/gh-actions-lua@v13",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/test.yml"
     },
@@ -196,7 +196,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/test.yml",
       "source_repo": "neovim/nvim-lspconfig",
-      "target": "leafo/gh-actions-lua@v12",
+      "target": "leafo/gh-actions-lua@v13",
       "target_type": "component"
     },
     {
@@ -249,7 +249,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-23T05:34:39.652091+00:00",
+  "fetched_at": "2026-04-30T00:38:29.277929+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -285,8 +285,8 @@
     "full_name": "neovim/nvim-lspconfig",
     "html_url": "https://github.com/neovim/nvim-lspconfig",
     "language": "Lua",
-    "pushed_at": "2026-04-21T11:23:06Z",
-    "stargazers_count": 13565,
+    "pushed_at": "2026-04-29T18:18:48Z",
+    "stargazers_count": 13581,
     "topics": [
       "language-server",
       "language-server-protocol",
@@ -296,7 +296,7 @@
       "plugin",
       "vim"
     ],
-    "updated_at": "2026-04-23T04:50:51Z"
+    "updated_at": "2026-04-29T22:53:10Z"
   },
   "repo_links": [],
   "terms": [

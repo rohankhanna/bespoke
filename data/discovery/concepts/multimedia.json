@@ -67,6 +67,18 @@
       "source_repo": "FFmpeg/FFmpeg",
       "status": "candidate-context",
       "text": "FFmpeg is a collection of libraries and tools to process multimedia content"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "invictus717/MetaTransformer",
+      "status": "candidate-context",
+      "text": "Meta-Transformer for Unified Multimodal Learning"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "invictus717/MetaTransformer",
+      "status": "candidate-context",
+      "text": "<p align=\"center\" width=\"100%\">"
     }
   ],
   "candidate_glosses": [
@@ -99,6 +111,12 @@
       "source_repo": "FFmpeg/FFmpeg",
       "status": "candidate",
       "text": "FFmpeg is a collection of libraries and tools to process multimedia content"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "invictus717/MetaTransformer",
+      "status": "candidate",
+      "text": "<p align=\"center\" width=\"100%\">"
     }
   ],
   "candidate_related_terms": [
@@ -180,11 +198,17 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "FFmpeg/FFmpeg"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "invictus717/MetaTransformer"
     }
   ],
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

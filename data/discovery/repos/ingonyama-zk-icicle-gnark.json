@@ -1,0 +1,149 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codespell.yml"
+    },
+    {
+      "component": "codespell-project/actions-codespell@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codespell.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cpp.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/golang.yml"
+    },
+    {
+      "component": "actions/setup-go@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/golang.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ingonyama-zk/icicle-gnark",
+      "target": "ingonyama-zk/icicle",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codespell.yml",
+      "source_repo": "ingonyama-zk/icicle-gnark",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codespell.yml",
+      "source_repo": "ingonyama-zk/icicle-gnark",
+      "target": "codespell-project/actions-codespell@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codespell.yml",
+      "source_repo": "ingonyama-zk/icicle-gnark",
+      "target": "Check Spelling",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cpp.yml",
+      "source_repo": "ingonyama-zk/icicle-gnark",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/golang.yml",
+      "source_repo": "ingonyama-zk/icicle-gnark",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/golang.yml",
+      "source_repo": "ingonyama-zk/icicle-gnark",
+      "target": "actions/setup-go@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/golang.yml",
+      "source_repo": "ingonyama-zk/icicle-gnark",
+      "target": "GoLang",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T04:53:05.545119+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4665
+    },
+    {
+      "path": "Dockerfile",
+      "size": 837
+    },
+    {
+      "path": "go.mod",
+      "size": 615
+    },
+    {
+      "path": ".github/workflows/codespell.yml",
+      "size": 594
+    },
+    {
+      "path": ".github/workflows/cpp.yml",
+      "size": 433
+    },
+    {
+      "path": ".github/workflows/golang.yml",
+      "size": 541
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "ICICLE version for gnark integration",
+    "fork": false,
+    "full_name": "ingonyama-zk/icicle-gnark",
+    "html_url": "https://github.com/ingonyama-zk/icicle-gnark",
+    "language": "C++",
+    "pushed_at": "2025-08-29T08:45:25Z",
+    "stargazers_count": 12,
+    "topics": [],
+    "updated_at": "2026-03-25T12:57:30Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ingonyama-zk/icicle",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Check Spelling",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codespell.yml",
+      "term": "Check Spelling"
+    },
+    {
+      "context_snippet": "GoLang",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/golang.yml",
+      "term": "GoLang"
+    }
+  ]
+}

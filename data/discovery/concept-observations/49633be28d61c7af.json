@@ -84,7 +84,7 @@
   "normalized_form": "dispatch-event-on-push",
   "observation_id": "49633be28d61c7af",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-04-23T01:09:11.871080+00:00",
+  "observed_at": "2026-04-30T00:37:16.824464+00:00",
   "observed_text": "Dispatch Event On Push",
   "source_context_snippet": "Dispatch Event On Push",
   "source_file": ".github/workflows/dispatch_on_push.yaml",

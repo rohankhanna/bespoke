@@ -1,12 +1,17 @@
 {
   "component": "lycheeverse/lychee-action@1d97d84f0bc547f7b25f4c2170d87d810dc2fb2c",
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/check_links.yml",
       "source_repo": "ethereum/execution-spec-tests"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/links.yml",
+      "source_repo": "rockerBOO/awesome-neovim"
     }
   ]
 }

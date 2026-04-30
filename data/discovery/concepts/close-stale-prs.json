@@ -69,6 +69,30 @@
       "source_repo": "mozilla-ai/any-llm",
       "status": "candidate-context",
       "text": "'Close stale PRs'"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "libbpf/blazesym",
+      "status": "candidate-context",
+      "text": "blazesym is a library for address symbolization and related tasks"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "libbpf/blazesym",
+      "status": "candidate-context",
+      "text": "Close stale PRs"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "luau-lang/rfcs",
+      "status": "candidate-context",
+      "text": "RFCs for Luau evolution"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "luau-lang/rfcs",
+      "status": "candidate-context",
+      "text": "'Close stale PRs'"
     }
   ],
   "candidate_glosses": [
@@ -99,6 +123,18 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "mozilla-ai/any-llm",
+      "status": "candidate",
+      "text": "'Close stale PRs'"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "libbpf/blazesym",
+      "status": "candidate",
+      "text": "Close stale PRs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "luau-lang/rfcs",
       "status": "candidate",
       "text": "'Close stale PRs'"
     }
@@ -174,11 +210,23 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": ".github/workflows/close-stale.yaml",
       "source_repo": "mozilla-ai/any-llm"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "libbpf/blazesym"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "luau-lang/rfcs"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

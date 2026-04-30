@@ -1,0 +1,113 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "IDEA-Research/Stable-DINO",
+      "target": "idea-research/dab-detr",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "IDEA-Research/Stable-DINO",
+      "target": "detection-transformer",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "IDEA-Research/Stable-DINO",
+      "target": "detrex",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "IDEA-Research/Stable-DINO",
+      "target": "dino",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "IDEA-Research/Stable-DINO",
+      "target": "object-detection",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "IDEA-Research/Stable-DINO",
+      "target": "transformer",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T01:58:17.445895+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5518
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "[ICCV 2023] Official implementation of the paper \"Detection Transformer with Stable Matching\"",
+    "fork": false,
+    "full_name": "IDEA-Research/Stable-DINO",
+    "html_url": "https://github.com/IDEA-Research/Stable-DINO",
+    "language": "Python",
+    "pushed_at": "2024-04-29T10:25:46Z",
+    "stargazers_count": 241,
+    "topics": [
+      "detection-transformer",
+      "detrex",
+      "dino",
+      "object-detection",
+      "transformer"
+    ],
+    "updated_at": "2026-04-11T11:28:22Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "idea-research/dab-detr",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "detection-transformer"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "detrex"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dino"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "object-detection"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "transformer"
+    }
+  ]
+}

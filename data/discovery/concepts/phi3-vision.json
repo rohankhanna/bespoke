@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "phi3-vision"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "2U1/Phi3-Vision-Finetune",
+      "status": "candidate-context",
+      "text": "An open-source implementaion for fine-tuning Phi3-Vision and Phi3.5-Vision by Microsoft."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "2U1/Phi3-Vision-Finetune",
+      "status": "candidate-context",
+      "text": "This repository contains a script for training the [Phi3-Vision model](https://huggingface.co/microsoft/Phi-3-vision-128k-instruct) and [Phi3.5-Vision model](https://huggingface.co/microsoft/Phi-3.5-vision-instruct)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "2U1/Phi3-Vision-Finetune",
+      "status": "candidate",
+      "text": "This repository contains a script for training the [Phi3-Vision model](https://huggingface.co/microsoft/Phi-3-vision-128k-instruct) and [Phi3.5-Vision model](https://huggingface.co/microsoft/Phi-3.5-vision-instruct)"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "phi3-vision",
+  "concept_id": "phi3-vision",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "2U1/Phi3-Vision-Finetune"
+    }
+  ],
+  "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "phi3-vision",
+      "sense_id": "phi3-vision#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

@@ -1,0 +1,115 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Martinsos/opal",
+      "target": "alignment",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Martinsos/opal",
+      "target": "bioinformatics",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Martinsos/opal",
+      "target": "c-plus-plus",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Martinsos/opal",
+      "target": "database-search",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Martinsos/opal",
+      "target": "sequence-alignment",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Martinsos/opal",
+      "target": "smith-waterman",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T02:48:21.851804+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4177
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "SIMD C/C++ library for massive optimal sequence alignment (local/SW, infix, overlap, global)",
+    "fork": false,
+    "full_name": "Martinsos/opal",
+    "html_url": "https://github.com/Martinsos/opal",
+    "language": "C++",
+    "pushed_at": "2024-01-12T19:43:24Z",
+    "stargazers_count": 40,
+    "topics": [
+      "alignment",
+      "avx",
+      "bioinformatics",
+      "c-plus-plus",
+      "database-search",
+      "sequence-alignment",
+      "smith-waterman"
+    ],
+    "updated_at": "2026-04-11T18:48:24Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "*This work has been supported in part by Croatian Science Fundation under the project UIP-11-2013-7353.*",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "alignment"
+    },
+    {
+      "context_snippet": "*This work has been supported in part by Croatian Science Fundation under the project UIP-11-2013-7353.*",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bioinformatics"
+    },
+    {
+      "context_snippet": "*This work has been supported in part by Croatian Science Fundation under the project UIP-11-2013-7353.*",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "c-plus-plus"
+    },
+    {
+      "context_snippet": "*This work has been supported in part by Croatian Science Fundation under the project UIP-11-2013-7353.*",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "database-search"
+    },
+    {
+      "context_snippet": "*This work has been supported in part by Croatian Science Fundation under the project UIP-11-2013-7353.*",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "sequence-alignment"
+    },
+    {
+      "context_snippet": "*This work has been supported in part by Croatian Science Fundation under the project UIP-11-2013-7353.*",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "smith-waterman"
+    }
+  ]
+}

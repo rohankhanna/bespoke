@@ -1,0 +1,12 @@
+{
+  "component": "tox-dev/workflow/.github/workflows/reusable-tox.yml@617ca35caa695c572377861016677905e58a328c",
+  "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "jazzband/pip-tools"
+    }
+  ]
+}

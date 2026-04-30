@@ -1,0 +1,62 @@
+{
+  "components": [
+    {
+      "component": "omnilib/ufmt@action-v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/format.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "facebookresearch/sam3",
+      "target": "ronghanghu/cc_torch",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/format.yml",
+      "source_repo": "facebookresearch/sam3",
+      "target": "omnilib/ufmt@action-v1",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-04-30T05:09:38.589991+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 21375
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 2770
+    },
+    {
+      "path": ".github/workflows/format.yml",
+      "size": 402
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "The repository provides code for running inference and finetuning with the Meta Segment Anything Model 3 (SAM 3), links for downloading the trained model checkpoints, and example notebooks that show how to use the model.",
+    "fork": false,
+    "full_name": "facebookresearch/sam3",
+    "html_url": "https://github.com/facebookresearch/sam3",
+    "language": "Python",
+    "pushed_at": "2026-04-30T01:42:01Z",
+    "stargazers_count": 9315,
+    "topics": [],
+    "updated_at": "2026-04-30T04:01:36Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ronghanghu/cc_torch",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

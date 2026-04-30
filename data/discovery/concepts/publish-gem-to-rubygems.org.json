@@ -1,0 +1,124 @@
+{
+  "aliases": [
+    "Publish gem to rubygems.org"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bcrypt-ruby/bcrypt-ruby",
+      "status": "candidate-context",
+      "text": "bcrypt-ruby is a Ruby binding for the OpenBSD bcrypt() password hashing algorithm, allowing you to easily store a secure hash of your users' passwords."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bcrypt-ruby/bcrypt-ruby",
+      "status": "candidate-context",
+      "text": "Publish gem to rubygems.org"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ruby/psych",
+      "status": "candidate-context",
+      "text": "A libyaml wrapper for Ruby"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ruby/psych",
+      "status": "candidate-context",
+      "text": "Publish gem to rubygems.org"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bcrypt-ruby/bcrypt-ruby",
+      "status": "candidate",
+      "text": "Publish gem to rubygems.org"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ruby/psych",
+      "status": "candidate",
+      "text": "Publish gem to rubygems.org"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11595,
+      "status": "candidate",
+      "text": "spread"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10509,
+      "status": "candidate",
+      "text": "agate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10509,
+      "status": "candidate",
+      "text": "cameo"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10509,
+      "status": "candidate",
+      "text": "diamonds"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10509,
+      "status": "candidate",
+      "text": "flaw"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Publish gem to rubygems.org",
+  "concept_id": "publish-gem-to-rubygems.org",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "bcrypt-ruby/bcrypt-ruby"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/push_gem.yml",
+      "source_repo": "ruby/psych"
+    }
+  ],
+  "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Publish gem to rubygems.org",
+      "sense_id": "publish-gem-to-rubygems.org#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

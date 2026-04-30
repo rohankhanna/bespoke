@@ -1,0 +1,65 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ashfurrow/danger-rubocop",
+      "target": "danger/danger",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ashfurrow/danger-rubocop",
+      "target": "bbatsov/rubocop",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ashfurrow/danger-rubocop",
+      "target": "testdouble/standard",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T04:52:36.025989+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3185
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Danger plugin for Rubocop",
+    "fork": false,
+    "full_name": "ashfurrow/danger-rubocop",
+    "html_url": "https://github.com/ashfurrow/danger-rubocop",
+    "language": "Ruby",
+    "pushed_at": "2024-05-20T23:44:26Z",
+    "stargazers_count": 44,
+    "topics": [],
+    "updated_at": "2025-11-07T14:57:01Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "bbatsov/rubocop",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "danger/danger",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "testdouble/standard",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

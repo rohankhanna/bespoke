@@ -1,0 +1,251 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@stable",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@nightly",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@stable",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ggez/ggez",
+      "target": "hannesmann/keyframe",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ggez/ggez",
+      "target": "psteinhaus/psteinhaus.github.io",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ggez/ggez",
+      "target": "a1phyr/assets_manager",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ggez/ggez",
+      "target": "ggez/good-web-game",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust.yml",
+      "source_repo": "ggez/ggez",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust.yml",
+      "source_repo": "ggez/ggez",
+      "target": "dtolnay/rust-toolchain@stable",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust.yml",
+      "source_repo": "ggez/ggez",
+      "target": "dtolnay/rust-toolchain@nightly",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ggez/ggez",
+      "target": "crates",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ggez/ggez",
+      "target": "engine",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ggez/ggez",
+      "target": "game",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ggez/ggez",
+      "target": "game-development",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ggez/ggez",
+      "target": "game-engine",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ggez/ggez",
+      "target": "game-frameworks",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ggez/ggez",
+      "target": "gameengine",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ggez/ggez",
+      "target": "rust",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T04:01:16.490048+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7394
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 2558
+    },
+    {
+      "path": ".github/workflows/rust.yml",
+      "size": 2139
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Rust library to create a Good Game Easily",
+    "fork": false,
+    "full_name": "ggez/ggez",
+    "html_url": "https://github.com/ggez/ggez",
+    "language": "Rust",
+    "pushed_at": "2026-04-03T10:08:20Z",
+    "stargazers_count": 4619,
+    "topics": [
+      "crates",
+      "engine",
+      "game",
+      "game-development",
+      "game-engine",
+      "game-frameworks",
+      "gameengine",
+      "rust"
+    ],
+    "updated_at": "2026-04-29T22:44:56Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "a1phyr/assets_manager",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ggez/good-web-game",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "hannesmann/keyframe",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "psteinhaus/psteinhaus.github.io",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[![ggez logo](docs/ggez-logo-maroon-full.svg)](http://ggez.rs/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "crates"
+    },
+    {
+      "context_snippet": "[![ggez logo](docs/ggez-logo-maroon-full.svg)](http://ggez.rs/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "engine"
+    },
+    {
+      "context_snippet": "[![ggez logo](docs/ggez-logo-maroon-full.svg)](http://ggez.rs/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "game"
+    },
+    {
+      "context_snippet": "[![ggez logo](docs/ggez-logo-maroon-full.svg)](http://ggez.rs/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "game-development"
+    },
+    {
+      "context_snippet": "[![ggez logo](docs/ggez-logo-maroon-full.svg)](http://ggez.rs/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "game-engine"
+    },
+    {
+      "context_snippet": "[![ggez logo](docs/ggez-logo-maroon-full.svg)](http://ggez.rs/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "game-frameworks"
+    },
+    {
+      "context_snippet": "[![ggez logo](docs/ggez-logo-maroon-full.svg)](http://ggez.rs/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gameengine"
+    },
+    {
+      "context_snippet": "[![ggez logo](docs/ggez-logo-maroon-full.svg)](http://ggez.rs/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rust"
+    }
+  ]
+}

@@ -19,12 +19,30 @@
       "source_repo": "InternLM/InternEvo",
       "status": "candidate-context",
       "text": "check-status"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "opendatalab/MinerU",
+      "status": "candidate-context",
+      "text": "Transforms complex documents like PDFs and Office docs into LLM-ready markdown/JSON for your Agentic workflows."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "opendatalab/MinerU",
+      "status": "candidate-context",
+      "text": "check-status"
     }
   ],
   "candidate_glosses": [
     {
       "source_kind": "source-snippet",
       "source_repo": "InternLM/InternEvo",
+      "status": "candidate",
+      "text": "check-status"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "opendatalab/MinerU",
       "status": "candidate",
       "text": "check-status"
     }
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": ".github/workflows/rerun.yaml",
       "source_repo": "InternLM/InternEvo"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/rerun.yml",
+      "source_repo": "opendatalab/MinerU"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,237 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/poetry-docs.yml"
+    },
+    {
+      "component": "actions/setup-python@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/poetry-docs.yml"
+    },
+    {
+      "component": "snok/install-poetry@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/poetry-docs.yml"
+    },
+    {
+      "component": "peaceiris/actions-gh-pages@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/poetry-docs.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/poetry-lint.yml"
+    },
+    {
+      "component": "actions/setup-python@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/poetry-lint.yml"
+    },
+    {
+      "component": "snok/install-poetry@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/poetry-lint.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/poetry-tests.yml"
+    },
+    {
+      "component": "actions/setup-python@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/poetry-tests.yml"
+    },
+    {
+      "component": "snok/install-poetry@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/poetry-tests.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "actions/setup-python@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/poetry-docs.yml",
+      "source_repo": "agentsea/threadmem",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/poetry-docs.yml",
+      "source_repo": "agentsea/threadmem",
+      "target": "actions/setup-python@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/poetry-docs.yml",
+      "source_repo": "agentsea/threadmem",
+      "target": "snok/install-poetry@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/poetry-docs.yml",
+      "source_repo": "agentsea/threadmem",
+      "target": "peaceiris/actions-gh-pages@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/poetry-docs.yml",
+      "source_repo": "agentsea/threadmem",
+      "target": "Build and Deploy Sphinx Documentation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/poetry-lint.yml",
+      "source_repo": "agentsea/threadmem",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/poetry-lint.yml",
+      "source_repo": "agentsea/threadmem",
+      "target": "actions/setup-python@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/poetry-lint.yml",
+      "source_repo": "agentsea/threadmem",
+      "target": "snok/install-poetry@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/poetry-lint.yml",
+      "source_repo": "agentsea/threadmem",
+      "target": "Poetry Lint",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/poetry-tests.yml",
+      "source_repo": "agentsea/threadmem",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/poetry-tests.yml",
+      "source_repo": "agentsea/threadmem",
+      "target": "actions/setup-python@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/poetry-tests.yml",
+      "source_repo": "agentsea/threadmem",
+      "target": "snok/install-poetry@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/poetry-tests.yml",
+      "source_repo": "agentsea/threadmem",
+      "target": "Poetry Tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "agentsea/threadmem",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "agentsea/threadmem",
+      "target": "actions/setup-python@v2",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-04-30T02:50:43.636789+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2870
+    },
+    {
+      "path": "Dockerfile",
+      "size": 384
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 1060
+    },
+    {
+      "path": ".github/workflows/poetry-docs.yml",
+      "size": 724
+    },
+    {
+      "path": ".github/workflows/poetry-lint.yml",
+      "size": 485
+    },
+    {
+      "path": ".github/workflows/poetry-tests.yml",
+      "size": 477
+    },
+    {
+      "path": ".github/workflows/publish.yml",
+      "size": 643
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Chat thread memory for AI agents",
+    "fork": false,
+    "full_name": "agentsea/threadmem",
+    "html_url": "https://github.com/agentsea/threadmem",
+    "language": "Python",
+    "pushed_at": "2025-04-18T20:33:39Z",
+    "stargazers_count": 3,
+    "topics": [],
+    "updated_at": "2025-04-27T02:25:22Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Build and Deploy Sphinx Documentation",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/poetry-docs.yml",
+      "term": "Build and Deploy Sphinx Documentation"
+    },
+    {
+      "context_snippet": "Poetry Lint",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/poetry-lint.yml",
+      "term": "Poetry Lint"
+    },
+    {
+      "context_snippet": "Poetry Tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/poetry-tests.yml",
+      "term": "Poetry Tests"
+    }
+  ]
+}

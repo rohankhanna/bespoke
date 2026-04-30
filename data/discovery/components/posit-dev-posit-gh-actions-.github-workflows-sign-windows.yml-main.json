@@ -1,0 +1,17 @@
+{
+  "component": "posit-dev/posit-gh-actions/.github/workflows/sign-windows.yml@main",
+  "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-windows.yml",
+      "source_repo": "posit-dev/air"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release-windows.yml",
+      "source_repo": "posit-dev/ark"
+    }
+  ]
+}

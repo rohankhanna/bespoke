@@ -1,7 +1,7 @@
 {
   "component": "shivammathur/setup-php@v2",
   "first_seen_at": "2026-04-18T09:22:19.136418+00:00",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -122,6 +122,56 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/hosted.yml",
       "source_repo": "antlr/antlr4"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "Imagick/imagick"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release_validate.yml",
+      "source_repo": "Imagick/imagick"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/integration.yml",
+      "source_repo": "crazyxman/simdjson_php"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "sebastianbergmann/phpunit"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/nightly.yaml",
+      "source_repo": "sebastianbergmann/phpunit"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "sebastianbergmann/phpunit"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/asset-release.yml",
+      "source_repo": "googleapis/google-api-php-client"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "googleapis/google-api-php-client"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test-extensions.yml",
+      "source_repo": "mlocati/docker-php-extension-installer"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "myclabs/DeepCopy"
     }
   ]
 }

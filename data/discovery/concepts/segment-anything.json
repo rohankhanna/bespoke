@@ -79,6 +79,54 @@
       "source_repo": "continue-revolution/sd-webui-segment-anything",
       "status": "candidate-context",
       "text": "This extension aim for connecting [AUTOMATIC1111 Stable Diffusion WebUI](https://github.com/AUTOMATIC1111/stable-diffusion-webui) and [Mikubill ControlNet Extension](https://github.com/Mikubill/sd-webui-controlnet) with [segment anything](https://github.com/facebookresearch/segm\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "vietanhdev/samexporter",
+      "status": "candidate-context",
+      "text": "Exporting Segment Anything, MobileSAM, and Segment Anything 2 into ONNX format for easy deployment"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vietanhdev/samexporter",
+      "status": "candidate-context",
+      "text": "Export [Segment Anything](https://github.com/facebookresearch/segment-anything), [MobileSAM](https://github.com/ChaoningZhang/MobileSAM), [Segment Anything 2 / 2.1](https://github.com/facebookresearch/segment-anything-2), and [Segment Anything 3](https://github.com/facebookresea\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "yeungchenwa/OCR-SAM",
+      "status": "candidate-context",
+      "text": "[Open-Source Project] Combining MMOCR with Segment Anything & Stable Diffusion. Automatically detect, recognize and segment text instances, with serval downstream tasks, e.g., Text Removal and Text Inpainting"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "yeungchenwa/OCR-SAM",
+      "status": "candidate-context",
+      "text": "gradio numpy openmim omegaconf==2.3.0 einops==0.6.0 transformers==4.27.3 pytorch-lightning==2.0.1.post0 diffusers==0.14.0"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ibaiGorordo/ONNX-SAM2-Segment-Anything",
+      "status": "candidate-context",
+      "text": "Python scripts for the Segment Anythin 2 (SAM2) model in ONNX"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ibaiGorordo/ONNX-SAM2-Segment-Anything",
+      "status": "candidate-context",
+      "text": "![!ONNX-SAM2-Segment-Anything](https://github.com/ibaiGorordo/ONNX-SAM2-Segment-Anything/raw/main/doc/img/sam2_mask_with_boxes.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "vietanhdev/anylabeling",
+      "status": "candidate-context",
+      "text": "Effortless AI-assisted data labeling with AI support from YOLO, Segment Anything (SAM+SAM2/2.1+SAM3), MobileSAM!!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vietanhdev/anylabeling",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -117,6 +165,30 @@
       "source_repo": "continue-revolution/sd-webui-segment-anything",
       "status": "candidate",
       "text": "This extension aim for connecting [AUTOMATIC1111 Stable Diffusion WebUI](https://github.com/AUTOMATIC1111/stable-diffusion-webui) and [Mikubill ControlNet Extension](https://github.com/Mikubill/sd-webui-controlnet) with [segment anything](https://github.com/facebookresearch/segm\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vietanhdev/samexporter",
+      "status": "candidate",
+      "text": "Export [Segment Anything](https://github.com/facebookresearch/segment-anything), [MobileSAM](https://github.com/ChaoningZhang/MobileSAM), [Segment Anything 2 / 2.1](https://github.com/facebookresearch/segment-anything-2), and [Segment Anything 3](https://github.com/facebookresea\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "yeungchenwa/OCR-SAM",
+      "status": "candidate",
+      "text": "gradio numpy openmim omegaconf==2.3.0 einops==0.6.0 transformers==4.27.3 pytorch-lightning==2.0.1.post0 diffusers==0.14.0"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ibaiGorordo/ONNX-SAM2-Segment-Anything",
+      "status": "candidate",
+      "text": "![!ONNX-SAM2-Segment-Anything](https://github.com/ibaiGorordo/ONNX-SAM2-Segment-Anything/raw/main/doc/img/sam2_mask_with_boxes.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vietanhdev/anylabeling",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_related_terms": [],
@@ -160,11 +232,35 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "continue-revolution/sd-webui-segment-anything"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "vietanhdev/samexporter"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "yeungchenwa/OCR-SAM"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "ibaiGorordo/ONNX-SAM2-Segment-Anything"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "vietanhdev/anylabeling"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

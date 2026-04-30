@@ -55,6 +55,18 @@
       "source_repo": "intel/BigDL",
       "status": "candidate-context",
       "text": "PR Validation"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kornia/kornia",
+      "status": "candidate-context",
+      "text": "\ud83d\udc0d Geometric Computer Vision Library for Spatial AI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kornia/kornia",
+      "status": "candidate-context",
+      "text": "PR Validation"
     }
   ],
   "candidate_glosses": [
@@ -79,6 +91,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "intel/BigDL",
+      "status": "candidate",
+      "text": "PR Validation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kornia/kornia",
       "status": "candidate",
       "text": "PR Validation"
     }
@@ -148,11 +166,23 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": ".github/workflows/PR_validation.yml",
       "source_repo": "intel/BigDL"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/pr-validation.yml",
+      "source_repo": "kornia/kornia"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/PR_validation.yml",
+      "source_repo": "intel/BigDL"
     }
   ],
   "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

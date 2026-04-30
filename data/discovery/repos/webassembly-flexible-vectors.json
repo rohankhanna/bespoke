@@ -1,0 +1,44 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "WebAssembly/flexible-vectors",
+      "target": "proposal",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T01:01:34.646727+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1427
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Vector operations for WebAssembly",
+    "fork": false,
+    "full_name": "WebAssembly/flexible-vectors",
+    "html_url": "https://github.com/WebAssembly/flexible-vectors",
+    "language": "WebAssembly",
+    "pushed_at": "2025-09-15T16:31:48Z",
+    "stargazers_count": 54,
+    "topics": [
+      "proposal"
+    ],
+    "updated_at": "2026-02-04T21:47:59Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "[![Build Status](https://travis-ci.org/WebAssembly/flexible-vectors.svg?branch=master)](https://travis-ci.org/WebAssembly/flexible-vectors)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "proposal"
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "\u9ad8\u6027\u80fdwebsocket\u5e93, Callback\u5199\u6cd5\uff0c\u5728\u9ad8\u9891cpu\u4e0a\u6709\u4e0d\u4fd7\u8868\u73b0 https://github.com/antlabs/quickws-example"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "quickws\u662f\u4e00\u4e2a\u9ad8\u6027\u80fd\u7684websocket\u5e93"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "quickws\u662f\u4e00\u4e2a\u9ad8\u6027\u80fd\u7684websocket\u5e93"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "rfc6455",
+      "sense_id": "rfc6455#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "rfc6455",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "rfc6455",
+  "observation_id": "9595a56b3304d672",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T00:37:16.824464+00:00",
+  "observed_text": "rfc6455",
+  "source_context_snippet": "quickws\u662f\u4e00\u4e2a\u9ad8\u6027\u80fd\u7684websocket\u5e93",
+  "source_file": null,
+  "source_repo": "antlabs/quickws",
+  "source_repo_description": "\u9ad8\u6027\u80fdwebsocket\u5e93, Callback\u5199\u6cd5\uff0c\u5728\u9ad8\u9891cpu\u4e0a\u6709\u4e0d\u4fd7\u8868\u73b0 https://github.com/antlabs/quickws-example"
+}

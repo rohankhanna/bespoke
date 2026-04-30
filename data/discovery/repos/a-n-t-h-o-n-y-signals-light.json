@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T02:51:06.204449+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1459
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Lightweight Signals & Slots Library -- C++17 -- Single Header",
+    "fork": false,
+    "full_name": "a-n-t-h-o-n-y/signals-light",
+    "html_url": "https://github.com/a-n-t-h-o-n-y/signals-light",
+    "language": "C++",
+    "pushed_at": "2026-02-17T00:44:47Z",
+    "stargazers_count": 23,
+    "topics": [],
+    "updated_at": "2026-02-17T00:44:41Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

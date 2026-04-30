@@ -1,0 +1,390 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cherry-pick-pr-for-label.yml"
+    },
+    {
+      "component": "kurrent-io/Automations/cherry-pick-pr-for-label@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cherry-pick-pr-for-label.yml"
+    },
+    {
+      "component": "actions/checkout@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yml"
+    },
+    {
+      "component": "rust-lang/crates-io-auth-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    },
+    {
+      "component": "baptiste0928/cargo-install@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    },
+    {
+      "component": "baptiste0928/cargo-install@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    },
+    {
+      "component": "baptiste0928/cargo-install@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    },
+    {
+      "component": "baptiste0928/cargo-install@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "kurrent-io/KurrentDB-Client-Rust",
+      "target": "eventstore/eventstoredb-client-rust",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-docs.yml",
+      "source_repo": "kurrent-io/KurrentDB-Client-Rust",
+      "target": "Build Production Site",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cherry-pick-pr-for-label.yml",
+      "source_repo": "kurrent-io/KurrentDB-Client-Rust",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cherry-pick-pr-for-label.yml",
+      "source_repo": "kurrent-io/KurrentDB-Client-Rust",
+      "target": "kurrent-io/Automations/cherry-pick-pr-for-label@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cherry-pick-pr-for-label.yml",
+      "source_repo": "kurrent-io/KurrentDB-Client-Rust",
+      "target": "Cherry pick PR commits for label",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yml",
+      "source_repo": "kurrent-io/KurrentDB-Client-Rust",
+      "target": "actions/checkout@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yml",
+      "source_repo": "kurrent-io/KurrentDB-Client-Rust",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yml",
+      "source_repo": "kurrent-io/KurrentDB-Client-Rust",
+      "target": "rust-lang/crates-io-auth-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deploy.yml",
+      "source_repo": "kurrent-io/KurrentDB-Client-Rust",
+      "target": "Publish to crates.io",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docker-repo.yml",
+      "source_repo": "kurrent-io/KurrentDB-Client-Rust",
+      "target": "Get ESDB Docker repo",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust.yml",
+      "source_repo": "kurrent-io/KurrentDB-Client-Rust",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust.yml",
+      "source_repo": "kurrent-io/KurrentDB-Client-Rust",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test-dispatch.yml",
+      "source_repo": "kurrent-io/KurrentDB-Client-Rust",
+      "target": "Dispatch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "kurrent-io/KurrentDB-Client-Rust",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "kurrent-io/KurrentDB-Client-Rust",
+      "target": "baptiste0928/cargo-install@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "kurrent-io/KurrentDB-Client-Rust",
+      "target": "tests workflow",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kurrent-io/KurrentDB-Client-Rust",
+      "target": "cqrs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kurrent-io/KurrentDB-Client-Rust",
+      "target": "eventsourcing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kurrent-io/KurrentDB-Client-Rust",
+      "target": "grpc",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kurrent-io/KurrentDB-Client-Rust",
+      "target": "kurrent",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kurrent-io/KurrentDB-Client-Rust",
+      "target": "kurrentdb",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kurrent-io/KurrentDB-Client-Rust",
+      "target": "rust",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kurrent-io/KurrentDB-Client-Rust",
+      "target": "rust-lang",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T02:58:17.940270+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2959
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 139
+    },
+    {
+      "path": ".github/workflows/build-docs.yml",
+      "size": 253
+    },
+    {
+      "path": ".github/workflows/cherry-pick-pr-for-label.yml",
+      "size": 409
+    },
+    {
+      "path": ".github/workflows/deploy.yml",
+      "size": 870
+    },
+    {
+      "path": ".github/workflows/docker-repo.yml",
+      "size": 2063
+    },
+    {
+      "path": ".github/workflows/rust.yml",
+      "size": 1530
+    },
+    {
+      "path": ".github/workflows/test-dispatch.yml",
+      "size": 479
+    },
+    {
+      "path": ".github/workflows/tests.yml",
+      "size": 5185
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "KurrentDB Rust Client",
+    "fork": true,
+    "full_name": "kurrent-io/KurrentDB-Client-Rust",
+    "html_url": "https://github.com/kurrent-io/KurrentDB-Client-Rust",
+    "language": "Rust",
+    "pushed_at": "2026-03-04T12:16:39Z",
+    "stargazers_count": 62,
+    "topics": [
+      "cqrs",
+      "eventsourcing",
+      "grpc",
+      "kurrent",
+      "kurrentdb",
+      "rust",
+      "rust-lang"
+    ],
+    "updated_at": "2026-03-04T12:12:12Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "eventstore/eventstoredb-client-rust",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Build Production Site",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-docs.yml",
+      "term": "Build Production Site"
+    },
+    {
+      "context_snippet": "Cherry pick PR commits for label",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cherry-pick-pr-for-label.yml",
+      "term": "Cherry pick PR commits for label"
+    },
+    {
+      "context_snippet": "Publish to crates.io",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deploy.yml",
+      "term": "Publish to crates.io"
+    },
+    {
+      "context_snippet": "Get ESDB Docker repo",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docker-repo.yml",
+      "term": "Get ESDB Docker repo"
+    },
+    {
+      "context_snippet": "\"Dispatch\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test-dispatch.yml",
+      "term": "Dispatch"
+    },
+    {
+      "context_snippet": "tests workflow",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/tests.yml",
+      "term": "tests workflow"
+    },
+    {
+      "context_snippet": "[![Crates.io][crates-badge]][crates-url]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cqrs"
+    },
+    {
+      "context_snippet": "[![Crates.io][crates-badge]][crates-url]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "eventsourcing"
+    },
+    {
+      "context_snippet": "[![Crates.io][crates-badge]][crates-url]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "grpc"
+    },
+    {
+      "context_snippet": "[![Crates.io][crates-badge]][crates-url]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "kurrent"
+    },
+    {
+      "context_snippet": "[![Crates.io][crates-badge]][crates-url]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "kurrentdb"
+    },
+    {
+      "context_snippet": "[![Crates.io][crates-badge]][crates-url]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rust"
+    },
+    {
+      "context_snippet": "[![Crates.io][crates-badge]][crates-url]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rust-lang"
+    }
+  ]
+}

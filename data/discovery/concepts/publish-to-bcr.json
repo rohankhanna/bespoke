@@ -247,6 +247,18 @@
       "source_repo": "grpc/grpc-kotlin",
       "status": "candidate-context",
       "text": "Publish to BCR"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "proxy-wasm/proxy-wasm-rust-sdk",
+      "status": "candidate-context",
+      "text": "WebAssembly for Proxies (Rust SDK)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "proxy-wasm/proxy-wasm-rust-sdk",
+      "status": "candidate-context",
+      "text": "Publish to BCR"
     }
   ],
   "candidate_glosses": [
@@ -373,6 +385,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "grpc/grpc-kotlin",
+      "status": "candidate",
+      "text": "Publish to BCR"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "proxy-wasm/proxy-wasm-rust-sdk",
       "status": "candidate",
       "text": "Publish to BCR"
     }
@@ -586,11 +604,23 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": ".github/workflows/publish_to_bcr.yaml",
       "source_repo": "protocolbuffers/protobuf"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/publish-to-bcr.yml",
+      "source_repo": "proxy-wasm/proxy-wasm-rust-sdk"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/publish_to_bcr.yaml",
+      "source_repo": "protocolbuffers/protobuf"
     }
   ],
   "first_seen_at": "2026-04-18T13:29:00.435097+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

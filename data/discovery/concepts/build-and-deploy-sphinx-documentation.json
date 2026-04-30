@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Build and Deploy Sphinx Documentation"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "agentsea/threadmem",
+      "status": "candidate-context",
+      "text": "Chat thread memory for AI agents"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "agentsea/threadmem",
+      "status": "candidate-context",
+      "text": "Build and Deploy Sphinx Documentation"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "agentsea/threadmem",
+      "status": "candidate",
+      "text": "Build and Deploy Sphinx Documentation"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28590,
+      "status": "candidate",
+      "text": "pyramid"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27804,
+      "status": "candidate",
+      "text": "assemble"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19282,
+      "status": "candidate",
+      "text": "set"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19167,
+      "status": "candidate",
+      "text": "put"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18649,
+      "status": "candidate",
+      "text": "compile"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Build and Deploy Sphinx Documentation",
+  "concept_id": "build-and-deploy-sphinx-documentation",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/poetry-docs.yml",
+      "source_repo": "agentsea/threadmem"
+    }
+  ],
+  "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Build and Deploy Sphinx Documentation",
+      "sense_id": "build-and-deploy-sphinx-documentation#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

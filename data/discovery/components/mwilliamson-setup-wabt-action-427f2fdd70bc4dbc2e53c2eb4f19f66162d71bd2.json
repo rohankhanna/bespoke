@@ -1,0 +1,12 @@
+{
+  "component": "mwilliamson/setup-wabt-action@427f2fdd70bc4dbc2e53c2eb4f19f66162d71bd2",
+  "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "RustPython/RustPython"
+    }
+  ]
+}

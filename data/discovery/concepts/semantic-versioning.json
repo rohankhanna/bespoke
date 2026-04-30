@@ -19,6 +19,30 @@
       "source_repo": "commitizen/cz-cli",
       "status": "candidate-context",
       "text": "When you commit with Commitizen, you'll be prompted to fill out any required commit fields at commit time. No more waiting until later for a git commit hook to run and reject your commit (though [that](https://github.com/kentcdodds/validate-commit-msg) can still be helpful). No \u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JS-DevTools/version-bump-prompt",
+      "status": "candidate-context",
+      "text": "Interactive CLI that bumps your version numbers and more"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JS-DevTools/version-bump-prompt",
+      "status": "candidate-context",
+      "text": "[![Cross-Platform Compatibility](https://jstools.dev/img/badges/os-badges.svg)](https://github.com/JS-DevTools/version-bump-prompt/actions)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "uael/sv",
+      "status": "candidate-context",
+      "text": "libsv - Public domain cross-platform semantic versioning in c99"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "uael/sv",
+      "status": "candidate-context",
+      "text": "libsv - Public domain cross-platform semantic versioning in c99"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +51,18 @@
       "source_repo": "commitizen/cz-cli",
       "status": "candidate",
       "text": "When you commit with Commitizen, you'll be prompted to fill out any required commit fields at commit time. No more waiting until later for a git commit hook to run and reject your commit (though [that](https://github.com/kentcdodds/validate-commit-msg) can still be helpful). No \u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JS-DevTools/version-bump-prompt",
+      "status": "candidate",
+      "text": "[![Cross-Platform Compatibility](https://jstools.dev/img/badges/os-badges.svg)](https://github.com/JS-DevTools/version-bump-prompt/actions)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "uael/sv",
+      "status": "candidate",
+      "text": "libsv - Public domain cross-platform semantic versioning in c99"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +76,23 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": null,
       "source_repo": "commitizen/cz-cli"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "JS-DevTools/version-bump-prompt"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "uael/sv"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

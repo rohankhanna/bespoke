@@ -1,0 +1,278 @@
+{
+  "components": [
+    {
+      "component": "ContentSquare/actions-checkout@approved-v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go-test.yaml"
+    },
+    {
+      "component": "ContentSquare/actions-setup-go@approved-v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go-test.yaml"
+    },
+    {
+      "component": "ContentSquare/ncruces-go-coverage-report@approved-21fa4b59396f242b81896a3cd212a463589b6742",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go-test.yaml"
+    },
+    {
+      "component": "ContentSquare/actions-checkout@approved-v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/golangci-lint.yaml"
+    },
+    {
+      "component": "ContentSquare/actions-setup-go@approved-v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/golangci-lint.yaml"
+    },
+    {
+      "component": "contentsquare/golangci-golangci-lint-action@approved-v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/golangci-lint.yaml"
+    },
+    {
+      "component": "ContentSquare/actions-checkout@approved-v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "ContentSquare/actions-setup-go@approved-v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "ContentSquare/docker-setup-buildx-action@approved-v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "ContentSquare/docker-login-action@approved-v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "goreleaser/goreleaser-action@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go-test.yaml",
+      "source_repo": "ContentSquare/chproxy",
+      "target": "ContentSquare/actions-checkout@approved-v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go-test.yaml",
+      "source_repo": "ContentSquare/chproxy",
+      "target": "ContentSquare/actions-setup-go@approved-v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go-test.yaml",
+      "source_repo": "ContentSquare/chproxy",
+      "target": "ContentSquare/ncruces-go-coverage-report@approved-21fa4b59396f242b81896a3cd212a463589b6742",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/go-test.yaml",
+      "source_repo": "ContentSquare/chproxy",
+      "target": "go-test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/golangci-lint.yaml",
+      "source_repo": "ContentSquare/chproxy",
+      "target": "ContentSquare/actions-checkout@approved-v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/golangci-lint.yaml",
+      "source_repo": "ContentSquare/chproxy",
+      "target": "ContentSquare/actions-setup-go@approved-v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/golangci-lint.yaml",
+      "source_repo": "ContentSquare/chproxy",
+      "target": "contentsquare/golangci-golangci-lint-action@approved-v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/golangci-lint.yaml",
+      "source_repo": "ContentSquare/chproxy",
+      "target": "golangci-lint",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "ContentSquare/chproxy",
+      "target": "ContentSquare/actions-checkout@approved-v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "ContentSquare/chproxy",
+      "target": "ContentSquare/actions-setup-go@approved-v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "ContentSquare/chproxy",
+      "target": "ContentSquare/docker-setup-buildx-action@approved-v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "ContentSquare/chproxy",
+      "target": "ContentSquare/docker-login-action@approved-v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "ContentSquare/chproxy",
+      "target": "goreleaser/goreleaser-action@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "ContentSquare/chproxy",
+      "target": "goreleaser",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ContentSquare/chproxy",
+      "target": "clickhouse",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ContentSquare/chproxy",
+      "target": "clickhouse-proxy",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ContentSquare/chproxy",
+      "target": "load-balancer",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ContentSquare/chproxy",
+      "target": "proxy",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T01:43:06.536239+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 638
+    },
+    {
+      "path": "Dockerfile",
+      "size": 141
+    },
+    {
+      "path": "go.mod",
+      "size": 1417
+    },
+    {
+      "path": ".github/workflows/go-test.yaml",
+      "size": 690
+    },
+    {
+      "path": ".github/workflows/golangci-lint.yaml",
+      "size": 487
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "size": 1035
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Open-Source ClickHouse http proxy and load balancer",
+    "fork": false,
+    "full_name": "ContentSquare/chproxy",
+    "html_url": "https://github.com/ContentSquare/chproxy",
+    "language": "Go",
+    "pushed_at": "2026-04-15T07:11:53Z",
+    "stargazers_count": 1450,
+    "topics": [
+      "clickhouse",
+      "clickhouse-proxy",
+      "load-balancer",
+      "proxy"
+    ],
+    "updated_at": "2026-04-29T13:28:10Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "go-test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/go-test.yaml",
+      "term": "go-test"
+    },
+    {
+      "context_snippet": "golangci-lint",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/golangci-lint.yaml",
+      "term": "golangci-lint"
+    },
+    {
+      "context_snippet": "goreleaser",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "term": "goreleaser"
+    },
+    {
+      "context_snippet": "[![Go Report Card](https://goreportcard.com/badge/github.com/ContentSquare/chproxy)](https://goreportcard.com/report/github.com/ContentSquare/chproxy)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "clickhouse"
+    },
+    {
+      "context_snippet": "[![Go Report Card](https://goreportcard.com/badge/github.com/ContentSquare/chproxy)](https://goreportcard.com/report/github.com/ContentSquare/chproxy)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "clickhouse-proxy"
+    },
+    {
+      "context_snippet": "[![Go Report Card](https://goreportcard.com/badge/github.com/ContentSquare/chproxy)](https://goreportcard.com/report/github.com/ContentSquare/chproxy)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "load-balancer"
+    },
+    {
+      "context_snippet": "[![Go Report Card](https://goreportcard.com/badge/github.com/ContentSquare/chproxy)](https://goreportcard.com/report/github.com/ContentSquare/chproxy)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "proxy"
+    }
+  ]
+}

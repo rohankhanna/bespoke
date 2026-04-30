@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T02:03:47.093632+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3754
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "This is the official repository of the paper Exploring Superior Function Calls via Reinforcement Learning.",
+    "fork": false,
+    "full_name": "BingguangHao/RLFC",
+    "html_url": "https://github.com/BingguangHao/RLFC",
+    "language": null,
+    "pushed_at": "2025-08-11T02:32:50Z",
+    "stargazers_count": 34,
+    "topics": [],
+    "updated_at": "2026-01-31T09:12:19Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T04:00:47.390110+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 635
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "OpenJDK 11 ARM32 builds done on Travis CI",
+    "fork": false,
+    "full_name": "ojdkbuild/contrib_jdk11u-arm32-ci",
+    "html_url": "https://github.com/ojdkbuild/contrib_jdk11u-arm32-ci",
+    "language": null,
+    "pushed_at": "2022-05-04T15:30:50Z",
+    "stargazers_count": 6,
+    "topics": [],
+    "updated_at": "2024-05-06T07:31:58Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

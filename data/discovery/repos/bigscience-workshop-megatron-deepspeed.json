@@ -1,0 +1,203 @@
+{
+  "components": [
+    {
+      "component": "aws-actions/configure-aws-credentials@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.md"
+    },
+    {
+      "component": "machulav/ec2-github-runner@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.md"
+    },
+    {
+      "component": "aws-actions/configure-aws-credentials@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "machulav/ec2-github-runner@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "machulav/ec2-github-runner@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "machulav/ec2-github-runner@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "machulav/ec2-github-runner@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "machulav/ec2-github-runner@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "machulav/ec2-github-runner@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "aws-actions/configure-aws-credentials@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "machulav/ec2-github-runner@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "bigscience-workshop/Megatron-DeepSpeed",
+      "target": "microsoft/megatron-deepspeed",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "bigscience-workshop/Megatron-DeepSpeed",
+      "target": "microsoft/deepspeed",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "bigscience-workshop/Megatron-DeepSpeed",
+      "target": "nvidia/pyxis",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "requirements.txt",
+      "source_repo": "bigscience-workshop/Megatron-DeepSpeed",
+      "target": "microsoft/deepspeed",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.md",
+      "source_repo": "bigscience-workshop/Megatron-DeepSpeed",
+      "target": "aws-actions/configure-aws-credentials@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.md",
+      "source_repo": "bigscience-workshop/Megatron-DeepSpeed",
+      "target": "machulav/ec2-github-runner@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "bigscience-workshop/Megatron-DeepSpeed",
+      "target": "aws-actions/configure-aws-credentials@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "bigscience-workshop/Megatron-DeepSpeed",
+      "target": "machulav/ec2-github-runner@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "bigscience-workshop/Megatron-DeepSpeed",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "bigscience-workshop/Megatron-DeepSpeed",
+      "target": "Run all tests",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T02:03:57.506235+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 25131
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 56
+    },
+    {
+      "path": "requirements.txt",
+      "size": 207
+    },
+    {
+      "path": ".github/workflows/ci.md",
+      "size": 5215
+    },
+    {
+      "path": ".github/workflows/main.yml",
+      "size": 9081
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Ongoing research training transformer language models at scale, including: BERT & GPT-2",
+    "fork": false,
+    "full_name": "bigscience-workshop/Megatron-DeepSpeed",
+    "html_url": "https://github.com/bigscience-workshop/Megatron-DeepSpeed",
+    "language": "Python",
+    "pushed_at": "2024-03-20T16:10:21Z",
+    "stargazers_count": 1438,
+    "topics": [],
+    "updated_at": "2026-04-22T09:35:21Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "microsoft/deepspeed",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "microsoft/megatron-deepspeed",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "nvidia/pyxis",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "microsoft/deepspeed",
+      "source_file": "requirements.txt"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Run all tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/main.yml",
+      "term": "Run all tests"
+    }
+  ]
+}

@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A-MEM: Agentic Memory for LLM Agents"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "A novel agentic memory system for LLM agents that can dynamically organize memories in an agentic way."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "A novel agentic memory system for LLM agents that can dynamically organize memories in an agentic way."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39935132,
+      "status": "candidate",
+      "text": "remembering"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39897787,
+      "status": "candidate",
+      "text": "retention"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39897707,
+      "status": "candidate",
+      "text": "retentiveness"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39873818,
+      "status": "candidate",
+      "text": "storage"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39868756,
+      "status": "candidate",
+      "text": "store"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "memory",
+      "sense_id": "memory#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 23053,
+      "status": "candidate",
+      "text": "retention"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 8054,
+      "status": "candidate",
+      "text": "storage"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 6054,
+      "status": "candidate",
+      "text": "store"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 4022,
+      "status": "candidate",
+      "text": "remembering"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 1020,
+      "status": "candidate",
+      "text": "retentiveness"
+    }
+  ],
+  "concept_id": "memory",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "memory",
+  "observation_id": "996834be3df54048",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T00:37:16.824464+00:00",
+  "observed_text": "memory",
+  "source_context_snippet": "A novel agentic memory system for LLM agents that can dynamically organize memories in an agentic way.",
+  "source_file": null,
+  "source_repo": "agiresearch/A-mem",
+  "source_repo_description": "A-MEM: Agentic Memory for LLM Agents"
+}

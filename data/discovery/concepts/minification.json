@@ -55,6 +55,24 @@
       "source_repo": "clean-css/clean-css",
       "status": "candidate-context",
       "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "j9t/html-minifier-next",
+      "status": "candidate-context",
+      "text": "Super-configurable and well-tested web page minifier (enhanced successor of HTML Minifier)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "j9t/html-minifier-next",
+      "status": "candidate-context",
+      "text": "[![npm version](https://img.shields.io/npm/v/html-minifier-next.svg)](https://www.npmjs.com/package/html-minifier-next) [![Build status](https://github.com/j9t/html-minifier-next/workflows/Tests/badge.svg)](https://github.com/j9t/html-minifier-next/actions) [![Socket](https://ba\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "excubo-ag/WebCompiler",
+      "status": "candidate-context",
+      "text": "[![Nuget](https://img.shields.io/nuget/v/Excubo.WebCompiler)](https://www.nuget.org/packages/Excubo.WebCompiler/)"
     }
   ],
   "candidate_glosses": [
@@ -81,6 +99,18 @@
       "source_repo": "clean-css/clean-css",
       "status": "candidate",
       "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "j9t/html-minifier-next",
+      "status": "candidate",
+      "text": "[![npm version](https://img.shields.io/npm/v/html-minifier-next.svg)](https://www.npmjs.com/package/html-minifier-next) [![Build status](https://github.com/j9t/html-minifier-next/workflows/Tests/badge.svg)](https://github.com/j9t/html-minifier-next/actions) [![Socket](https://ba\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "excubo-ag/WebCompiler",
+      "status": "candidate",
+      "text": "[![Nuget](https://img.shields.io/nuget/v/Excubo.WebCompiler)](https://www.nuget.org/packages/Excubo.WebCompiler/)"
     }
   ],
   "candidate_related_terms": [
@@ -154,11 +184,29 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "clean-css/clean-css"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "j9t/html-minifier-next"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "clean-css/clean-css"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "excubo-ag/WebCompiler"
     }
   ],
   "first_seen_at": "2026-04-18T11:41:43.530265+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

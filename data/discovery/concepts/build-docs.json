@@ -340,6 +340,66 @@
       "source_repo": "nunchaku-ai/nunchaku",
       "status": "candidate-context",
       "text": "Build Docs"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mymarilyn/clickhouse-driver",
+      "status": "candidate-context",
+      "text": "ClickHouse Python Driver with native interface support"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mymarilyn/clickhouse-driver",
+      "status": "candidate-context",
+      "text": "build-docs"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dstackai/dstack",
+      "status": "candidate-context",
+      "text": "Vendor-agnostic orchestration for training, inference and agentic workloads across NVIDIA, AMD, TPU, and Tenstorrent on clouds, Kubernetes, and bare metal."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dstackai/dstack",
+      "status": "candidate-context",
+      "text": "Build Docs"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "patrick-kidger/equinox",
+      "status": "candidate-context",
+      "text": "Elegant easy-to-use neural networks + scientific computing in JAX. https://docs.kidger.site/equinox/"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "patrick-kidger/equinox",
+      "status": "candidate-context",
+      "text": "Build docs"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "oclif/oclif.github.io",
+      "status": "candidate-context",
+      "text": "docs for oclif"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "oclif/oclif.github.io",
+      "status": "candidate-context",
+      "text": "build-docs"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "appium/appium",
+      "status": "candidate-context",
+      "text": "Cross-platform automation framework for all kinds of apps, built on top of the W3C WebDriver protocol"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "appium/appium",
+      "status": "candidate-context",
+      "text": "Build Docs"
     }
   ],
   "candidate_glosses": [
@@ -508,6 +568,36 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "nunchaku-ai/nunchaku",
+      "status": "candidate",
+      "text": "Build Docs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mymarilyn/clickhouse-driver",
+      "status": "candidate",
+      "text": "build-docs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dstackai/dstack",
+      "status": "candidate",
+      "text": "Build Docs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "patrick-kidger/equinox",
+      "status": "candidate",
+      "text": "Build docs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "oclif/oclif.github.io",
+      "status": "candidate",
+      "text": "build-docs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "appium/appium",
       "status": "candidate",
       "text": "Build Docs"
     }
@@ -787,11 +877,83 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": ".github/workflows/build-docs.yaml",
       "source_repo": "nunchaku-ai/nunchaku"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "mymarilyn/clickhouse-driver"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/build_docs.yaml",
+      "source_repo": "meta-pytorch/torchtune"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/build-docs.yml",
+      "source_repo": "NVIDIA-NeMo/NeMo"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/build-docs.yaml",
+      "source_repo": "SWE-agent/SWE-agent"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/deploy-docs.yml",
+      "source_repo": "SWE-bench/SWE-bench"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/build-docs.yml",
+      "source_repo": "fastapi/fastapi"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/build-docs.yml",
+      "source_repo": "dstackai/dstack"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/build-docs.yaml",
+      "source_repo": "nunchaku-ai/nunchaku"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/build_docs.yml",
+      "source_repo": "patrick-kidger/equinox"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/onPushToDocs.yml",
+      "source_repo": "oclif/oclif.github.io"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "appium/appium"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/build-docs.yml",
+      "source_repo": "fastapi/typer"
     }
   ],
   "first_seen_at": "2026-04-18T12:06:06.216548+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

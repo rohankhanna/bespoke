@@ -43,6 +43,30 @@
       "source_repo": "prometheus/blackbox_exporter",
       "status": "candidate-context",
       "text": "[![CircleCI](https://circleci.com/gh/prometheus/blackbox_exporter/tree/master.svg?style=shield)][circleci]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "prometheus-community/windows_exporter",
+      "status": "candidate-context",
+      "text": "Prometheus exporter for Windows machines"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "prometheus-community/windows_exporter",
+      "status": "candidate-context",
+      "text": "[![CI](https://github.com/prometheus-community/windows_exporter/actions/workflows/release.yml/badge.svg)](https://github.com/prometheus-community/windows_exporter)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "prometheus/exporter-toolkit",
+      "status": "candidate-context",
+      "text": "Utility package to build exporters"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "prometheus/exporter-toolkit",
+      "status": "candidate-context",
+      "text": "[![CircleCI](https://circleci.com/gh/prometheus/exporter-toolkit/tree/master.svg?style=shield)][circleci]"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +87,18 @@
       "source_repo": "prometheus/blackbox_exporter",
       "status": "candidate",
       "text": "[![CircleCI](https://circleci.com/gh/prometheus/blackbox_exporter/tree/master.svg?style=shield)][circleci]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "prometheus-community/windows_exporter",
+      "status": "candidate",
+      "text": "[![CI](https://github.com/prometheus-community/windows_exporter/actions/workflows/release.yml/badge.svg)](https://github.com/prometheus-community/windows_exporter)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "prometheus/exporter-toolkit",
+      "status": "candidate",
+      "text": "[![CircleCI](https://circleci.com/gh/prometheus/exporter-toolkit/tree/master.svg?style=shield)][circleci]"
     }
   ],
   "candidate_related_terms": [],
@@ -88,11 +124,23 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "prometheus/blackbox_exporter"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "prometheus-community/windows_exporter"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "prometheus/exporter-toolkit"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

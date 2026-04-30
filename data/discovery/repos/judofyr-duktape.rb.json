@@ -1,0 +1,100 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "ruby/setup-ruby@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "judofyr/duktape.rb",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "judofyr/duktape.rb",
+      "target": "ruby/setup-ruby@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "judofyr/duktape.rb",
+      "target": "Tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "judofyr/duktape.rb",
+      "target": "duktape",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "judofyr/duktape.rb",
+      "target": "javascript-interpreter",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T01:01:42.267633+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2030
+    },
+    {
+      "path": ".github/workflows/test.yml",
+      "size": 548
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Ruby bindings to the Duktape JavaScript interpreter",
+    "fork": false,
+    "full_name": "judofyr/duktape.rb",
+    "html_url": "https://github.com/judofyr/duktape.rb",
+    "language": "C",
+    "pushed_at": "2023-12-01T16:32:24Z",
+    "stargazers_count": 80,
+    "topics": [
+      "duktape",
+      "javascript-interpreter"
+    ],
+    "updated_at": "2025-06-03T12:02:02Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "term": "Tests"
+    },
+    {
+      "context_snippet": "Duktape.rb is a C extension for the [Duktape](http://duktape.org/) JavaScript",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "duktape"
+    },
+    {
+      "context_snippet": "Duktape.rb is a C extension for the [Duktape](http://duktape.org/) JavaScript",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "javascript-interpreter"
+    }
+  ]
+}

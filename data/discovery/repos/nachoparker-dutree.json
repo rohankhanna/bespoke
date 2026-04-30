@@ -1,0 +1,62 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nachoparker/dutree",
+      "target": "filesystem",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nachoparker/dutree",
+      "target": "rust",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T00:40:40.254559+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1673
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 529
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "a tool to analyze file system usage written in Rust",
+    "fork": false,
+    "full_name": "nachoparker/dutree",
+    "html_url": "https://github.com/nachoparker/dutree",
+    "language": "Rust",
+    "pushed_at": "2022-06-29T08:44:36Z",
+    "stargazers_count": 871,
+    "topics": [
+      "filesystem",
+      "rust"
+    ],
+    "updated_at": "2026-04-22T12:40:08Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "a tool to analyze file system usage written in Rust",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "filesystem"
+    },
+    {
+      "context_snippet": "a tool to analyze file system usage written in Rust",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rust"
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T03:49:11.466307+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 51
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Kai's homepage:",
+    "fork": false,
+    "full_name": "cszn/cszn.github.io",
+    "html_url": "https://github.com/cszn/cszn.github.io",
+    "language": "HTML",
+    "pushed_at": "2025-08-15T03:10:21Z",
+    "stargazers_count": 10,
+    "topics": [],
+    "updated_at": "2025-08-15T03:10:24Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

@@ -1,0 +1,73 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yaml"
+    },
+    {
+      "component": "actions/setup-go@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yaml"
+    },
+    {
+      "component": "acifani/setup-tinygo@v1.2.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yaml",
+      "source_repo": "Kong/proxy-wasm-go-rate-limiting",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yaml",
+      "source_repo": "Kong/proxy-wasm-go-rate-limiting",
+      "target": "actions/setup-go@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yaml",
+      "source_repo": "Kong/proxy-wasm-go-rate-limiting",
+      "target": "acifani/setup-tinygo@v1.2.0",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-04-30T00:48:14.191443+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1131
+    },
+    {
+      "path": "go.mod",
+      "size": 188
+    },
+    {
+      "path": ".github/workflows/go.yaml",
+      "size": 514
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Go implementation of a prototype rate-limiting filter using proxy-wasm",
+    "fork": false,
+    "full_name": "Kong/proxy-wasm-go-rate-limiting",
+    "html_url": "https://github.com/Kong/proxy-wasm-go-rate-limiting",
+    "language": "Go",
+    "pushed_at": "2023-12-12T17:34:08Z",
+    "stargazers_count": 2,
+    "topics": [],
+    "updated_at": "2024-02-22T15:19:01Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

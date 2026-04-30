@@ -91,6 +91,30 @@
       "source_repo": "jackyjsy/CVPR21Chal-SLR",
       "status": "candidate-context",
       "text": "This repo contains the official code of our work SAM-SLR which won the CVPR 2021 Challenge on Large Scale Signer Independent Isolated Sign Language Recognition."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "NVlabs/Long-RL",
+      "status": "candidate-context",
+      "text": "Long-RL: Scaling RL to Long Sequences (NeurIPS 2025)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NVlabs/Long-RL",
+      "status": "candidate-context",
+      "text": "<p align=\"center\" width=\"100%\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "OpenGVLab/Multi-Modality-Arena",
+      "status": "candidate-context",
+      "text": "Chatbot Arena meets multi-modality! Multi-Modality Arena allows you to benchmark vision-language models side-by-side while providing images as inputs. Supports MiniGPT-4, LLaMA-Adapter V2, LLaVA, BLIP-2, and many more!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "OpenGVLab/Multi-Modality-Arena",
+      "status": "candidate-context",
+      "text": "<p align=\"center\"><img src=\"./CVLAB/style/img/Opengvlab_LOGO.svg\" width=\"400\"></p>"
     }
   ],
   "candidate_glosses": [
@@ -135,6 +159,18 @@
       "source_repo": "jackyjsy/CVPR21Chal-SLR",
       "status": "candidate",
       "text": "This repo contains the official code of our work SAM-SLR which won the CVPR 2021 Challenge on Large Scale Signer Independent Isolated Sign Language Recognition."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NVlabs/Long-RL",
+      "status": "candidate",
+      "text": "<p align=\"center\" width=\"100%\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "OpenGVLab/Multi-Modality-Arena",
+      "status": "candidate",
+      "text": "<p align=\"center\"><img src=\"./CVLAB/style/img/Opengvlab_LOGO.svg\" width=\"400\"></p>"
     }
   ],
   "candidate_related_terms": [],
@@ -190,11 +226,29 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "jackyjsy/CVPR21Chal-SLR"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "NVlabs/Long-RL"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "OpenGVLab/Multi-Modality-Arena"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "EvolvingLMMs-Lab/Otter"
     }
   ],
   "first_seen_at": "2026-04-18T18:30:26.389736+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

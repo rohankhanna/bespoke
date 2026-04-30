@@ -403,7 +403,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/audit-branch-ci.yml",
       "source_repo": "electron/electron",
-      "target": "slackapi/slack-github-action@af78098f536edbc4de71162a307590698245be95",
+      "target": "slackapi/slack-github-action@03ea5433c137af7c0495bc0cad1af10403fc800c",
       "target_type": "component"
     },
     {
@@ -417,7 +417,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/branch-created.yml",
       "source_repo": "electron/electron",
-      "target": "electron/github-app-auth-action@e14e47722ed120360649d0789e25b9baece12725",
+      "target": "electron/github-app-auth-action@5f70a3726af01b612f29aac96d05aa524389c9e9",
       "target_type": "component"
     },
     {
@@ -568,6 +568,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-04-23T18:30:35.670459+00:00",
+  "generated_at": "2026-04-30T00:37:16.824464+00:00",
   "source_repo": "electron/electron"
 }

@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "api"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "newtheatre/history-project",
+      "status": "candidate-context",
+      "text": ":scroll: Historical record of happenings at the Nottingham New Theatre."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "newtheatre/history-project",
+      "status": "candidate-context",
+      "text": "api"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "newtheatre/history-project",
+      "status": "candidate",
+      "text": "api"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20044175,
+      "status": "candidate",
+      "text": "genus apis"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20044174,
+      "status": "candidate",
+      "text": "ipv"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20038841,
+      "status": "candidate",
+      "text": "apl"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20035909,
+      "status": "candidate",
+      "text": "gpi"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20014253,
+      "status": "candidate",
+      "text": "ipc"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "api",
+  "concept_id": "api",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/api.yml",
+      "source_repo": "newtheatre/history-project"
+    }
+  ],
+  "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "api",
+      "sense_id": "api#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

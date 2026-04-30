@@ -158,34 +158,6 @@
   ],
   "edges": [
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "redis/redis-om-spring",
-      "target": "redis-developer/redis-product-search",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "redis/redis-om-spring",
-      "target": "redis-developer/redis-om-spring-skeleton-app",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "redis/redis-om-spring",
-      "target": "redis-developer/redis-om-spring-react-todomvc",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "redis/redis-om-spring",
-      "target": "redis-developer/redis-om-autocomplete-demo",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/build.yml",
       "source_repo": "redis/redis-om-spring",
@@ -403,7 +375,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-29T19:57:28.070152+00:00",
+  "fetched_at": "2026-04-30T05:03:39.850711+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -444,28 +416,7 @@
     ],
     "updated_at": "2026-04-24T09:06:54Z"
   },
-  "repo_links": [
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "redis-developer/redis-om-autocomplete-demo",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "redis-developer/redis-om-spring-react-todomvc",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "redis-developer/redis-om-spring-skeleton-app",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "redis-developer/redis-product-search",
-      "source_file": "README.md"
-    }
-  ],
+  "repo_links": [],
   "terms": [
     {
       "context_snippet": "Build",

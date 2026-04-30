@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "An anomaly detection library comprising state-of-the-art algorithms and features such as experiment management, hyper-parameter optimization, and edge inference."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Reusable Code Quality"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Reusable Code Quality"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26185,
+      "status": "candidate",
+      "text": "freestyle"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22905,
+      "status": "candidate",
+      "text": "scrape"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22905,
+      "status": "candidate",
+      "text": "white coal"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22872,
+      "status": "candidate",
+      "text": "energy"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22872,
+      "status": "candidate",
+      "text": "striation"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Reusable Code Quality",
+      "sense_id": "reusable-code-quality#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "reusable-code-quality",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "reusable-code-quality",
+  "observation_id": "ea041d9a01078b85",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-30T00:37:16.824464+00:00",
+  "observed_text": "Reusable Code Quality",
+  "source_context_snippet": "Reusable Code Quality",
+  "source_file": ".github/workflows/_reusable-code-quality.yaml",
+  "source_repo": "open-edge-platform/anomalib",
+  "source_repo_description": "An anomaly detection library comprising state-of-the-art algorithms and features such as experiment management, hyper-parameter optimization, and edge inference."
+}

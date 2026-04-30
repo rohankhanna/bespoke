@@ -1,0 +1,127 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "cachix/install-nix-action@v31",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "svenstaro/rofi-calc",
+      "target": "davedavenport/rofi",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "svenstaro/rofi-calc",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "svenstaro/rofi-calc",
+      "target": "cachix/install-nix-action@v31",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "svenstaro/rofi-calc",
+      "target": "Build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "svenstaro/rofi-calc",
+      "target": "calculate",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "svenstaro/rofi-calc",
+      "target": "calculator",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "svenstaro/rofi-calc",
+      "target": "rofi",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T05:00:53.372425+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9031
+    },
+    {
+      "path": ".github/workflows/build.yml",
+      "size": 419
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "\ud83d\udda9 Do live calculations in rofi!",
+    "fork": false,
+    "full_name": "svenstaro/rofi-calc",
+    "html_url": "https://github.com/svenstaro/rofi-calc",
+    "language": "C",
+    "pushed_at": "2026-02-17T08:54:21Z",
+    "stargazers_count": 1201,
+    "topics": [
+      "calculate",
+      "calculator",
+      "rofi"
+    ],
+    "updated_at": "2026-04-29T09:20:20Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "davedavenport/rofi",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "term": "Build"
+    },
+    {
+      "context_snippet": "**\ud83d\udda9 Do live calculations in rofi!**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "calculate"
+    },
+    {
+      "context_snippet": "**\ud83d\udda9 Do live calculations in rofi!**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "calculator"
+    },
+    {
+      "context_snippet": "**\ud83d\udda9 Do live calculations in rofi!**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rofi"
+    }
+  ]
+}

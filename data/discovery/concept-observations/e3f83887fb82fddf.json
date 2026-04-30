@@ -1,0 +1,108 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A generic swappable back-end for JSON handling."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "mutant"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "mutant"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39950619,
+      "status": "candidate",
+      "text": "mutation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39501072,
+      "status": "candidate",
+      "text": "sport"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29803660,
+      "status": "candidate",
+      "text": "variant"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29803142,
+      "status": "candidate",
+      "text": "engineer"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29730709,
+      "status": "candidate",
+      "text": "freak"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "mutant",
+      "sense_id": "mutant#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 12048,
+      "status": "candidate",
+      "text": "sport"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 7078,
+      "status": "candidate",
+      "text": "mutation"
+    }
+  ],
+  "concept_id": "mutant",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "mutant",
+  "observation_id": "e3f83887fb82fddf",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-30T00:37:16.824464+00:00",
+  "observed_text": "mutant",
+  "source_context_snippet": "mutant",
+  "source_file": ".github/workflows/mutant.yml",
+  "source_repo": "sferik/multi_json",
+  "source_repo_description": "A generic swappable back-end for JSON handling."
+}

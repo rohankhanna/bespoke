@@ -1,0 +1,108 @@
+{
+  "aliases": [
+    "signing"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sigstore/gitsign",
+      "status": "candidate-context",
+      "text": "Keyless Git signing using Sigstore"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sigstore/gitsign",
+      "status": "candidate-context",
+      "text": "[![CI](https://github.com/sigstore/gitsign/actions/workflows/ci.yaml/badge.svg)](https://github.com/sigstore/gitsign/actions/workflows/ci.yaml)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sigstore/gitsign",
+      "status": "candidate",
+      "text": "[![CI](https://github.com/sigstore/gitsign/actions/workflows/ci.yaml/badge.svg)](https://github.com/sigstore/gitsign/actions/workflows/ci.yaml)"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39353766,
+      "status": "candidate",
+      "text": "sign language"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29646324,
+      "status": "candidate",
+      "text": "signage"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29592318,
+      "status": "candidate",
+      "text": "execution"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29591101,
+      "status": "candidate",
+      "text": "entering"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29589183,
+      "status": "candidate",
+      "text": "closing"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 36,
+      "status": "candidate",
+      "text": "sign language"
+    }
+  ],
+  "canonical_name": "signing",
+  "concept_id": "signing",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "sigstore/gitsign"
+    }
+  ],
+  "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "signing",
+      "sense_id": "signing#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

@@ -121,6 +121,78 @@
       "source_repo": "alexpasmantier/tv.nvim",
       "status": "candidate-context",
       "text": "<div align=\"center\" style=\"color: #abb2bf;font-family: 'Fira Code', monospace;\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ArrowLuo/CLIP4Clip",
+      "status": "candidate-context",
+      "text": "An official implementation for \"CLIP4Clip: An Empirical Study of CLIP for End to End Video Clip Retrieval\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ArrowLuo/CLIP4Clip",
+      "status": "candidate-context",
+      "text": "(**July 28, 2021**) Add ViT-B/16 with an extra `--pretrained_clip_name`"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "abo-abo/swiper",
+      "status": "candidate-context",
+      "text": "Ivy - a generic completion frontend for Emacs, Swiper - isearch with an overview, and more. Oh, man!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "abo-abo/swiper",
+      "status": "candidate-context",
+      "text": "[![CI build badge][ci-badge]][ci]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lnx-search/lnx",
+      "status": "candidate-context",
+      "text": "A flexible, performant and reliable search database without the AI bullshit."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lnx-search/lnx",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "junkblocker/calibre-zaw-source",
+      "status": "candidate-context",
+      "text": "calibre source for zaw"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "junkblocker/calibre-zaw-source",
+      "status": "candidate-context",
+      "text": "[calibre](http://www.calibre-ebook.com/) source for [zaw](https://github.com/zsh-users/zaw) the [zsh](http://www.zsh.org/) [anything.el](http://www.emacswiki.org/emacs/Anything)-like widget."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "appbaseio/reactivesearch",
+      "status": "candidate-context",
+      "text": "Search UI components for React and Vue"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "appbaseio/reactivesearch",
+      "status": "candidate-context",
+      "text": "<h2 align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "unum-cloud/USearch",
+      "status": "candidate-context",
+      "text": "Fast Open-Source Search & Clustering engine \u00d7 for Vectors & Arbitrary Objects \u00d7 in C++, C, Python, JavaScript, Rust, Java, Objective-C, Swift, C#, GoLang, and Wolfram \ud83d\udd0d"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "unum-cloud/USearch",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">USearch</h1>"
     }
   ],
   "candidate_glosses": [
@@ -183,6 +255,42 @@
       "source_repo": "alexpasmantier/tv.nvim",
       "status": "candidate",
       "text": "<div align=\"center\" style=\"color: #abb2bf;font-family: 'Fira Code', monospace;\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ArrowLuo/CLIP4Clip",
+      "status": "candidate",
+      "text": "(**July 28, 2021**) Add ViT-B/16 with an extra `--pretrained_clip_name`"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "abo-abo/swiper",
+      "status": "candidate",
+      "text": "[![CI build badge][ci-badge]][ci]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lnx-search/lnx",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "junkblocker/calibre-zaw-source",
+      "status": "candidate",
+      "text": "[calibre](http://www.calibre-ebook.com/) source for [zaw](https://github.com/zsh-users/zaw) the [zsh](http://www.zsh.org/) [anything.el](http://www.emacswiki.org/emacs/Anything)-like widget."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "appbaseio/reactivesearch",
+      "status": "candidate",
+      "text": "<h2 align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "unum-cloud/USearch",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">USearch</h1>"
     }
   ],
   "candidate_related_terms": [
@@ -322,11 +430,53 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "alexpasmantier/tv.nvim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "ashvardanian/StringZilla-CLI"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "ArrowLuo/CLIP4Clip"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "abo-abo/swiper"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "lnx-search/lnx"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "junkblocker/calibre-zaw-source"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "appbaseio/reactivesearch"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "unum-cloud/USearch"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

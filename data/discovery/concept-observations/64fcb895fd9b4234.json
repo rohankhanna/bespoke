@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Local and Offline AI Chatbot App for Desktop"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "kodibot \u2014 AI chatbot"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "kodibot \u2014 AI chatbot"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "ai-assistant",
+      "sense_id": "ai-assistant#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "ai-assistant",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "ai-assistant",
+  "observation_id": "64fcb895fd9b4234",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T00:37:16.824464+00:00",
+  "observed_text": "ai-assistant",
+  "source_context_snippet": "kodibot \u2014 AI chatbot",
+  "source_file": null,
+  "source_repo": "firatkiral/kodibot",
+  "source_repo_description": "Local and Offline AI Chatbot App for Desktop"
+}

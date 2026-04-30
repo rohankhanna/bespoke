@@ -142,6 +142,30 @@
       "source_repo": "curiousdannii/emglken",
       "status": "candidate-context",
       "text": "Emglken: Glk meets Emscripten"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "google/glog",
+      "status": "candidate-context",
+      "text": "C++ implementation of the Google logging module"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/glog",
+      "status": "candidate-context",
+      "text": "Emscripten"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ng-log/ng-log",
+      "status": "candidate-context",
+      "text": "C++ library for application-level logging"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ng-log/ng-log",
+      "status": "candidate-context",
+      "text": "Emscripten"
     }
   ],
   "candidate_glosses": [
@@ -210,6 +234,18 @@
       "source_repo": "curiousdannii/emglken",
       "status": "candidate",
       "text": "Emglken: Glk meets Emscripten"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/glog",
+      "status": "candidate",
+      "text": "Emscripten"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ng-log/ng-log",
+      "status": "candidate",
+      "text": "Emscripten"
     }
   ],
   "candidate_related_terms": [
@@ -325,11 +361,29 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "edge-classic/EDGE-classic"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "edge-classic/EDGE-classic"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/emscripten.yml",
+      "source_repo": "google/glog"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/emscripten.yml",
+      "source_repo": "ng-log/ng-log"
     }
   ],
   "first_seen_at": "2026-04-21T18:51:25.552552+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

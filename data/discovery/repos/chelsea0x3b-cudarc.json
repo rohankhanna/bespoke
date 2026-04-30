@@ -1,0 +1,355 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cargo-check.yaml"
+    },
+    {
+      "component": "actions-rs/toolchain@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cargo-check.yaml"
+    },
+    {
+      "component": "actions-rs/cargo@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cargo-check.yaml"
+    },
+    {
+      "component": "actions-rs/cargo@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cargo-check.yaml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cargo-clippy.yaml"
+    },
+    {
+      "component": "actions-rs/toolchain@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cargo-clippy.yaml"
+    },
+    {
+      "component": "actions-rs/cargo@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cargo-clippy.yaml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cargo-fmt.yaml"
+    },
+    {
+      "component": "actions-rs/toolchain@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cargo-fmt.yaml"
+    },
+    {
+      "component": "actions-rs/cargo@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cargo-fmt.yaml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cargo-publish-dry-run.yaml"
+    },
+    {
+      "component": "actions-rs/toolchain@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cargo-publish-dry-run.yaml"
+    },
+    {
+      "component": "actions-rs/cargo@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cargo-publish-dry-run.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cargo-check.yaml",
+      "source_repo": "chelsea0x3b/cudarc",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cargo-check.yaml",
+      "source_repo": "chelsea0x3b/cudarc",
+      "target": "actions-rs/toolchain@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cargo-check.yaml",
+      "source_repo": "chelsea0x3b/cudarc",
+      "target": "actions-rs/cargo@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cargo-clippy.yaml",
+      "source_repo": "chelsea0x3b/cudarc",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cargo-clippy.yaml",
+      "source_repo": "chelsea0x3b/cudarc",
+      "target": "actions-rs/toolchain@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cargo-clippy.yaml",
+      "source_repo": "chelsea0x3b/cudarc",
+      "target": "actions-rs/cargo@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cargo-fmt.yaml",
+      "source_repo": "chelsea0x3b/cudarc",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cargo-fmt.yaml",
+      "source_repo": "chelsea0x3b/cudarc",
+      "target": "actions-rs/toolchain@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cargo-fmt.yaml",
+      "source_repo": "chelsea0x3b/cudarc",
+      "target": "actions-rs/cargo@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cargo-publish-dry-run.yaml",
+      "source_repo": "chelsea0x3b/cudarc",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cargo-publish-dry-run.yaml",
+      "source_repo": "chelsea0x3b/cudarc",
+      "target": "actions-rs/toolchain@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cargo-publish-dry-run.yaml",
+      "source_repo": "chelsea0x3b/cudarc",
+      "target": "actions-rs/cargo@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "chelsea0x3b/cudarc",
+      "target": "cublas",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "chelsea0x3b/cudarc",
+      "target": "cuda",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "chelsea0x3b/cudarc",
+      "target": "cuda-kernels",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "chelsea0x3b/cudarc",
+      "target": "cuda-programming",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "chelsea0x3b/cudarc",
+      "target": "cuda-toolkit",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "chelsea0x3b/cudarc",
+      "target": "cudnn",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "chelsea0x3b/cudarc",
+      "target": "curand",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "chelsea0x3b/cudarc",
+      "target": "gpu-acceleration",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "chelsea0x3b/cudarc",
+      "target": "nccl",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "chelsea0x3b/cudarc",
+      "target": "nvrtc",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "chelsea0x3b/cudarc",
+      "target": "rust",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T03:03:22.660257+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4865
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 2222
+    },
+    {
+      "path": ".github/workflows/cargo-check.yaml",
+      "size": 1259
+    },
+    {
+      "path": ".github/workflows/cargo-clippy.yaml",
+      "size": 555
+    },
+    {
+      "path": ".github/workflows/cargo-fmt.yaml",
+      "size": 369
+    },
+    {
+      "path": ".github/workflows/cargo-publish-dry-run.yaml",
+      "size": 404
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Safe rust wrapper around CUDA toolkit",
+    "fork": false,
+    "full_name": "chelsea0x3b/cudarc",
+    "html_url": "https://github.com/chelsea0x3b/cudarc",
+    "language": "Rust",
+    "pushed_at": "2026-04-27T13:30:01Z",
+    "stargazers_count": 1117,
+    "topics": [
+      "cublas",
+      "cuda",
+      "cuda-kernels",
+      "cuda-programming",
+      "cuda-toolkit",
+      "cudnn",
+      "curand",
+      "gpu",
+      "gpu-acceleration",
+      "nccl",
+      "nvrtc",
+      "rust"
+    ],
+    "updated_at": "2026-04-29T02:12:55Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "[![](https://dcbadge.vercel.app/api/server/AtUhGqBDP5)](https://discord.gg/AtUhGqBDP5)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cublas"
+    },
+    {
+      "context_snippet": "[![](https://dcbadge.vercel.app/api/server/AtUhGqBDP5)](https://discord.gg/AtUhGqBDP5)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cuda"
+    },
+    {
+      "context_snippet": "[![](https://dcbadge.vercel.app/api/server/AtUhGqBDP5)](https://discord.gg/AtUhGqBDP5)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cuda-kernels"
+    },
+    {
+      "context_snippet": "[![](https://dcbadge.vercel.app/api/server/AtUhGqBDP5)](https://discord.gg/AtUhGqBDP5)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cuda-programming"
+    },
+    {
+      "context_snippet": "[![](https://dcbadge.vercel.app/api/server/AtUhGqBDP5)](https://discord.gg/AtUhGqBDP5)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cuda-toolkit"
+    },
+    {
+      "context_snippet": "[![](https://dcbadge.vercel.app/api/server/AtUhGqBDP5)](https://discord.gg/AtUhGqBDP5)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cudnn"
+    },
+    {
+      "context_snippet": "[![](https://dcbadge.vercel.app/api/server/AtUhGqBDP5)](https://discord.gg/AtUhGqBDP5)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "curand"
+    },
+    {
+      "context_snippet": "[![](https://dcbadge.vercel.app/api/server/AtUhGqBDP5)](https://discord.gg/AtUhGqBDP5)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gpu-acceleration"
+    },
+    {
+      "context_snippet": "[![](https://dcbadge.vercel.app/api/server/AtUhGqBDP5)](https://discord.gg/AtUhGqBDP5)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nccl"
+    },
+    {
+      "context_snippet": "[![](https://dcbadge.vercel.app/api/server/AtUhGqBDP5)](https://discord.gg/AtUhGqBDP5)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nvrtc"
+    },
+    {
+      "context_snippet": "[![](https://dcbadge.vercel.app/api/server/AtUhGqBDP5)](https://discord.gg/AtUhGqBDP5)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rust"
+    }
+  ]
+}

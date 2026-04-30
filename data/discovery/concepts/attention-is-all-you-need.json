@@ -19,6 +19,30 @@
       "source_repo": "jadore801120/attention-is-all-you-need-pytorch",
       "status": "candidate-context",
       "text": "This is a PyTorch implementation of the Transformer model in \"[Attention is All You Need](https://arxiv.org/abs/1706.03762)\" (Ashish Vaswani, Noam Shazeer, Niki Parmar, Jakob Uszkoreit, Llion Jones, Aidan N. Gomez, Lukasz Kaiser, Illia Polosukhin, arxiv, 2017)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Kyubyong/transformer",
+      "status": "candidate-context",
+      "text": "A TensorFlow Implementation of the Transformer: Attention Is All You Need"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Kyubyong/transformer",
+      "status": "candidate-context",
+      "text": "When I opened this repository in 2017, there was no official code yet."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "feifeibear/long-context-attention",
+      "status": "candidate-context",
+      "text": "USP: Unified (a.k.a. Hybrid, 2D) Sequence Parallel Attention for Long Context Transformers Model Training and Inference"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "feifeibear/long-context-attention",
+      "status": "candidate-context",
+      "text": "[\\[Tech Report\\] USP: A Unified Sequence Parallelism Approach for Long Context Generative AI](https://arxiv.org/abs/2405.07719)"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +51,18 @@
       "source_repo": "jadore801120/attention-is-all-you-need-pytorch",
       "status": "candidate",
       "text": "This is a PyTorch implementation of the Transformer model in \"[Attention is All You Need](https://arxiv.org/abs/1706.03762)\" (Ashish Vaswani, Noam Shazeer, Niki Parmar, Jakob Uszkoreit, Llion Jones, Aidan N. Gomez, Lukasz Kaiser, Illia Polosukhin, arxiv, 2017)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Kyubyong/transformer",
+      "status": "candidate",
+      "text": "When I opened this repository in 2017, there was no official code yet."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "feifeibear/long-context-attention",
+      "status": "candidate",
+      "text": "[\\[Tech Report\\] USP: A Unified Sequence Parallelism Approach for Long Context Generative AI](https://arxiv.org/abs/2405.07719)"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +76,23 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "jadore801120/attention-is-all-you-need-pytorch"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "Kyubyong/transformer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "feifeibear/long-context-attention"
     }
   ],
   "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

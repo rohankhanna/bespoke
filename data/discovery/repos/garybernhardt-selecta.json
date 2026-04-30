@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T00:38:48.999738+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5723
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A fuzzy text selector for files and anything else you need to select. Use it from vim, from the command line, or anywhere you can run a shell command.",
+    "fork": false,
+    "full_name": "garybernhardt/selecta",
+    "html_url": "https://github.com/garybernhardt/selecta",
+    "language": "Ruby",
+    "pushed_at": "2026-03-31T19:38:25Z",
+    "stargazers_count": 1353,
+    "topics": [],
+    "updated_at": "2026-04-10T09:41:08Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

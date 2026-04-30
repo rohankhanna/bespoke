@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "libsv - Public domain cross-platform semantic versioning in c99"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "CMake on multiple platforms"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "CMake on multiple platforms"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28843,
+      "status": "candidate",
+      "text": "tree"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11491,
+      "status": "candidate",
+      "text": "decking"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11491,
+      "status": "candidate",
+      "text": "turntable"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11322,
+      "status": "candidate",
+      "text": "chess"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11322,
+      "status": "candidate",
+      "text": "chesses"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "CMake on multiple platforms",
+      "sense_id": "cmake-on-multiple-platforms#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "cmake-on-multiple-platforms",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "cmake-on-multiple-platforms",
+  "observation_id": "c817c3088160d969",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-30T00:37:16.824464+00:00",
+  "observed_text": "CMake on multiple platforms",
+  "source_context_snippet": "CMake on multiple platforms",
+  "source_file": ".github/workflows/cmake-multi-platform.yml",
+  "source_repo": "uael/sv",
+  "source_repo_description": "libsv - Public domain cross-platform semantic versioning in c99"
+}

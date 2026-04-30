@@ -813,13 +813,6 @@
   ],
   "edges": [
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "pyproject.toml",
-      "source_repo": "pydantic/pydantic",
-      "target": "pydantic/hooky",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci.yml",
       "source_repo": "pydantic/pydantic",
@@ -1226,7 +1219,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-29T21:50:55.912360+00:00",
+  "fetched_at": "2026-04-30T05:03:29.465969+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -1279,7 +1272,7 @@
     "html_url": "https://github.com/pydantic/pydantic",
     "language": "Python",
     "pushed_at": "2026-04-24T07:37:12Z",
-    "stargazers_count": 27626,
+    "stargazers_count": 27628,
     "topics": [
       "hints",
       "json-schema",
@@ -1293,15 +1286,9 @@
       "python39",
       "validation"
     ],
-    "updated_at": "2026-04-29T21:13:07Z"
+    "updated_at": "2026-04-30T04:32:52Z"
   },
-  "repo_links": [
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "pydantic/hooky",
-      "source_file": "pyproject.toml"
-    }
-  ],
+  "repo_links": [],
   "terms": [
     {
       "context_snippet": "codspeed",

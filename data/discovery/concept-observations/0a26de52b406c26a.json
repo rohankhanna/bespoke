@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": ":wave: - The documentation for being an Artsy Engineer"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "\u2622\ufe0f Conventional Commits Check"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "\u2622\ufe0f Conventional Commits Check"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18603,
+      "status": "candidate",
+      "text": "case"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18577,
+      "status": "candidate",
+      "text": "ahimsa"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18577,
+      "status": "candidate",
+      "text": "auditor"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18577,
+      "status": "candidate",
+      "text": "hypoglycemia"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18577,
+      "status": "candidate",
+      "text": "practicing"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "\u2622\ufe0f Conventional Commits Check",
+      "sense_id": "conventional-commits-check#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "conventional-commits-check",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "conventional-commits-check",
+  "observation_id": "0a26de52b406c26a",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-30T00:37:16.824464+00:00",
+  "observed_text": "\u2622\ufe0f Conventional Commits Check",
+  "source_context_snippet": "\u2622\ufe0f Conventional Commits Check",
+  "source_file": ".github/workflows/run-conventional-commits-check.yml",
+  "source_repo": "artsy/README",
+  "source_repo_description": ":wave: - The documentation for being an Artsy Engineer"
+}

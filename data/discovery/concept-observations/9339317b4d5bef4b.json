@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "vsag is a vector indexing library used for similarity search."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Asan Build & Test Parallel"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Asan Build & Test Parallel"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31769,
+      "status": "candidate",
+      "text": "craft"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31769,
+      "status": "candidate",
+      "text": "crafted"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31769,
+      "status": "candidate",
+      "text": "crafting"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31701,
+      "status": "candidate",
+      "text": "pace"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31674,
+      "status": "candidate",
+      "text": "det"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Asan Build & Test Parallel",
+      "sense_id": "asan-build-test-parallel#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "asan-build-test-parallel",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "asan-build-test-parallel",
+  "observation_id": "9339317b4d5bef4b",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-30T00:37:16.824464+00:00",
+  "observed_text": "Asan Build & Test Parallel",
+  "source_context_snippet": "Asan Build & Test Parallel",
+  "source_file": ".github/workflows/asan_build_and_test.yml",
+  "source_repo": "antgroup/vsag",
+  "source_repo_description": "vsag is a vector indexing library used for similarity search."
+}

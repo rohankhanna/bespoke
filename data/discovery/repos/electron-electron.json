@@ -281,12 +281,12 @@
       "source_file": ".github/workflows/audit-branch-ci.yml"
     },
     {
-      "component": "slackapi/slack-github-action@af78098f536edbc4de71162a307590698245be95",
+      "component": "slackapi/slack-github-action@03ea5433c137af7c0495bc0cad1af10403fc800c",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/audit-branch-ci.yml"
     },
     {
-      "component": "electron/github-app-auth-action@e14e47722ed120360649d0789e25b9baece12725",
+      "component": "electron/github-app-auth-action@5f70a3726af01b612f29aac96d05aa524389c9e9",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/branch-created.yml"
     },
@@ -775,7 +775,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/audit-branch-ci.yml",
       "source_repo": "electron/electron",
-      "target": "slackapi/slack-github-action@af78098f536edbc4de71162a307590698245be95",
+      "target": "slackapi/slack-github-action@03ea5433c137af7c0495bc0cad1af10403fc800c",
       "target_type": "component"
     },
     {
@@ -789,7 +789,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/branch-created.yml",
       "source_repo": "electron/electron",
-      "target": "electron/github-app-auth-action@e14e47722ed120360649d0789e25b9baece12725",
+      "target": "electron/github-app-auth-action@5f70a3726af01b612f29aac96d05aa524389c9e9",
       "target_type": "component"
     },
     {
@@ -940,7 +940,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-23T20:51:15.466052+00:00",
+  "fetched_at": "2026-04-30T05:08:53.472005+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -952,7 +952,7 @@
     },
     {
       "path": ".github/workflows/apply-patches.yml",
-      "size": 2837
+      "size": 3187
     },
     {
       "path": ".github/workflows/archaeologist-dig.yml",
@@ -992,8 +992,8 @@
     "full_name": "electron/electron",
     "html_url": "https://github.com/electron/electron",
     "language": "C++",
-    "pushed_at": "2026-04-23T20:11:37Z",
-    "stargazers_count": 121013,
+    "pushed_at": "2026-04-30T05:00:47Z",
+    "stargazers_count": 121077,
     "topics": [
       "c-plus-plus",
       "chrome",
@@ -1005,7 +1005,7 @@
       "v8",
       "works-with-codespaces"
     ],
-    "updated_at": "2026-04-23T20:49:16Z"
+    "updated_at": "2026-04-30T04:39:31Z"
   },
   "repo_links": [],
   "terms": [

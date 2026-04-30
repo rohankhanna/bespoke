@@ -1,7 +1,7 @@
 {
   "component": "actions/setup-python@v3",
   "first_seen_at": "2026-04-18T09:17:12.863479+00:00",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -607,6 +607,141 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/python-publish.yml",
       "source_repo": "xdit-project/xDiT"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "neulab/explainaboard_client"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/python-publish.yml",
+      "source_repo": "VainF/pytorch-msssim"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release_alpa.yml",
+      "source_repo": "alpa-projects/alpa"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "gusye1234/nano-graphrag"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/python-publish.yml",
+      "source_repo": "BlackSamorez/tensor_parallel"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/docs-code.yaml",
+      "source_repo": "lavague-ai/LaVague"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/run-tests.yml",
+      "source_repo": "McGill-NLP/webllama"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "astoff/digestif"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build_wheels_pypi.yml",
+      "source_repo": "jllllll/AutoGPTQ"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build_wheels_rocm.yml",
+      "source_repo": "jllllll/AutoGPTQ"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/python-publish.yml",
+      "source_repo": "pharmapsychotic/clip-interrogator"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/unittests.yml",
+      "source_repo": "Joshuaalbert/jaxns"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/pylint.yml",
+      "source_repo": "KONAKONA666/LTX-Video"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/python-packages.yml",
+      "source_repo": "chengzeyi/ParaAttention"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/python-publish.yml",
+      "source_repo": "chengzeyi/ParaAttention"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/python-publish.yml",
+      "source_repo": "feifeibear/long-context-attention"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "OpenBMB/CPM-Live"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/typecheck.yml",
+      "source_repo": "OpenBMB/CPM-Live"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "c4ffein/realworld-django-ninja"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test-django-postgresql.yml",
+      "source_repo": "c4ffein/realworld-django-ninja"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test-django-sqlite.yml",
+      "source_repo": "c4ffein/realworld-django-ninja"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test-hurl-postgresql.yml",
+      "source_repo": "c4ffein/realworld-django-ninja"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test-hurl-sqlite.yml",
+      "source_repo": "c4ffein/realworld-django-ninja"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/typing.yml",
+      "source_repo": "c4ffein/realworld-django-ninja"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build_wheels_cuda.yml",
+      "source_repo": "ChenMnZ/AutoGPTQ-bugfix"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build_wheels_pypi.yml",
+      "source_repo": "ChenMnZ/AutoGPTQ-bugfix"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build_wheels_rocm.yml",
+      "source_repo": "ChenMnZ/AutoGPTQ-bugfix"
     }
   ]
 }

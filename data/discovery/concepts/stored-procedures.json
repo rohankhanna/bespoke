@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "stored-procedures"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "omniti-labs/pg_jobmon",
+      "status": "candidate-context",
+      "text": "PostgreSQL extension which provides persistent logging within transactions and functions. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "omniti-labs/pg_jobmon",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://travis-ci.com/omniti-labs/pg_jobmon.svg?branch=master)](https://travis-ci.com/omniti-labs/pg_jobmon)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "omniti-labs/pg_jobmon",
+      "status": "candidate",
+      "text": "[![Build Status](https://travis-ci.com/omniti-labs/pg_jobmon.svg?branch=master)](https://travis-ci.com/omniti-labs/pg_jobmon)"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "stored-procedures",
+  "concept_id": "stored-procedures",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "omniti-labs/pg_jobmon"
+    }
+  ],
+  "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "stored-procedures",
+      "sense_id": "stored-procedures#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

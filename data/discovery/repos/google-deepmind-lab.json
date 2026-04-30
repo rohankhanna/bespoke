@@ -1,0 +1,165 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/precommit.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "google-deepmind/lab",
+      "target": "id-software/quake-iii-arena",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "google-deepmind/lab",
+      "target": "ioquake/ioq3",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "google-deepmind/lab",
+      "target": "deepmind/lab",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "google-deepmind/lab",
+      "target": "deepmind/dm_env",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/precommit.yml",
+      "source_repo": "google-deepmind/lab",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/precommit.yml",
+      "source_repo": "google-deepmind/lab",
+      "target": "precommit",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "google-deepmind/lab",
+      "target": "artificial-intelligence",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "google-deepmind/lab",
+      "target": "deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "google-deepmind/lab",
+      "target": "machine-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "google-deepmind/lab",
+      "target": "neural-networks",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T04:59:22.243109+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7322
+    },
+    {
+      "path": ".github/workflows/precommit.yml",
+      "size": 2018
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A customisable 3D platform for agent-based AI research",
+    "fork": false,
+    "full_name": "google-deepmind/lab",
+    "html_url": "https://github.com/google-deepmind/lab",
+    "language": "C",
+    "pushed_at": "2023-01-04T15:38:37Z",
+    "stargazers_count": 7356,
+    "topics": [
+      "artificial-intelligence",
+      "deep-learning",
+      "machine-learning",
+      "neural-networks"
+    ],
+    "updated_at": "2026-04-29T11:09:49Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "deepmind/dm_env",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "deepmind/lab",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "id-software/quake-iii-arena",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ioquake/ioq3",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "precommit",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/precommit.yml",
+      "term": "precommit"
+    },
+    {
+      "context_snippet": "*DeepMind Lab* is a 3D learning environment based on id Software's",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "artificial-intelligence"
+    },
+    {
+      "context_snippet": "*DeepMind Lab* is a 3D learning environment based on id Software's",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-learning"
+    },
+    {
+      "context_snippet": "*DeepMind Lab* is a 3D learning environment based on id Software's",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "machine-learning"
+    },
+    {
+      "context_snippet": "*DeepMind Lab* is a 3D learning environment based on id Software's",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "neural-networks"
+    }
+  ]
+}

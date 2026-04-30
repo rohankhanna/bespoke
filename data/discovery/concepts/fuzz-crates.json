@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Fuzz crates"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "a16z/jolt",
+      "status": "candidate-context",
+      "text": "The simplest and most extensible zkVM. Fast and fully open source from a16z crypto and friends. \u26a1"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "a16z/jolt",
+      "status": "candidate-context",
+      "text": "Fuzz crates"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "a16z/jolt",
+      "status": "candidate",
+      "text": "Fuzz crates"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11527,
+      "status": "candidate",
+      "text": "fur"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11406,
+      "status": "candidate",
+      "text": "apron"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11406,
+      "status": "candidate",
+      "text": "babbitt"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11406,
+      "status": "candidate",
+      "text": "capybara"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11406,
+      "status": "candidate",
+      "text": "chalcographist"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Fuzz crates",
+  "concept_id": "fuzz-crates",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/fuzz-crates.yml",
+      "source_repo": "a16z/jolt"
+    }
+  ],
+  "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Fuzz crates",
+      "sense_id": "fuzz-crates#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

@@ -1,0 +1,168 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "cointop-sh/colors",
+      "target": "miguelmota/cointop",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "cointop-sh/colors",
+      "target": "nsf/termbox",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cointop-sh/colors",
+      "target": "cointop",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cointop-sh/colors",
+      "target": "colors",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cointop-sh/colors",
+      "target": "colorscheme",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cointop-sh/colors",
+      "target": "command-line",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cointop-sh/colors",
+      "target": "golang",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cointop-sh/colors",
+      "target": "terminal",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cointop-sh/colors",
+      "target": "theme",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cointop-sh/colors",
+      "target": "toml",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T02:52:15.110316+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3021
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Cointop colorschemes",
+    "fork": false,
+    "full_name": "cointop-sh/colors",
+    "html_url": "https://github.com/cointop-sh/colors",
+    "language": null,
+    "pushed_at": "2021-09-07T07:41:51Z",
+    "stargazers_count": 13,
+    "topics": [
+      "cointop",
+      "colors",
+      "colorscheme",
+      "command-line",
+      "go",
+      "golang",
+      "terminal",
+      "theme",
+      "toml"
+    ],
+    "updated_at": "2026-01-14T17:13:13Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "miguelmota/cointop",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "nsf/termbox",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "> Standard colorschemes (themes) for [cointop](https://github.com/miguelmota/cointop/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cointop"
+    },
+    {
+      "context_snippet": "> Standard colorschemes (themes) for [cointop](https://github.com/miguelmota/cointop/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "colors"
+    },
+    {
+      "context_snippet": "> Standard colorschemes (themes) for [cointop](https://github.com/miguelmota/cointop/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "colorscheme"
+    },
+    {
+      "context_snippet": "> Standard colorschemes (themes) for [cointop](https://github.com/miguelmota/cointop/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "command-line"
+    },
+    {
+      "context_snippet": "> Standard colorschemes (themes) for [cointop](https://github.com/miguelmota/cointop/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "golang"
+    },
+    {
+      "context_snippet": "> Standard colorschemes (themes) for [cointop](https://github.com/miguelmota/cointop/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "terminal"
+    },
+    {
+      "context_snippet": "> Standard colorschemes (themes) for [cointop](https://github.com/miguelmota/cointop/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "theme"
+    },
+    {
+      "context_snippet": "> Standard colorschemes (themes) for [cointop](https://github.com/miguelmota/cointop/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "toml"
+    }
+  ]
+}

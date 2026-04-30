@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Upload Release Assets"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "filecoin-project/builtin-actors",
+      "status": "candidate-context",
+      "text": "The Filecoin built-in actors"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "filecoin-project/builtin-actors",
+      "status": "candidate-context",
+      "text": "Upload Release Assets"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "filecoin-project/builtin-actors",
+      "status": "candidate",
+      "text": "Upload Release Assets"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24568,
+      "status": "candidate",
+      "text": "download"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 23357,
+      "status": "candidate",
+      "text": "video"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22602,
+      "status": "candidate",
+      "text": "cover"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22549,
+      "status": "candidate",
+      "text": "deliver"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22549,
+      "status": "candidate",
+      "text": "depositing"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Upload Release Assets",
+  "concept_id": "upload-release-assets",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/upload-release-assets.yml",
+      "source_repo": "filecoin-project/builtin-actors"
+    }
+  ],
+  "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Upload Release Assets",
+      "sense_id": "upload-release-assets#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

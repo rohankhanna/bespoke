@@ -1,0 +1,79 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yaml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yaml",
+      "source_repo": "facebookresearch/dinov3",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yaml",
+      "source_repo": "facebookresearch/dinov3",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint.yaml",
+      "source_repo": "facebookresearch/dinov3",
+      "target": "Lint",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T05:09:37.109299+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 35833
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 729
+    },
+    {
+      "path": "requirements.txt",
+      "size": 84
+    },
+    {
+      "path": ".github/workflows/lint.yaml",
+      "size": 1073
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Reference PyTorch implementation and models for DINOv3",
+    "fork": false,
+    "full_name": "facebookresearch/dinov3",
+    "html_url": "https://github.com/facebookresearch/dinov3",
+    "language": "Jupyter Notebook",
+    "pushed_at": "2026-03-30T15:41:25Z",
+    "stargazers_count": 10260,
+    "topics": [],
+    "updated_at": "2026-04-30T04:48:38Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Lint",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint.yaml",
+      "term": "Lint"
+    }
+  ]
+}

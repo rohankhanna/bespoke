@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Reusable Version Bump"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "open-edge-platform/anomalib",
+      "status": "candidate-context",
+      "text": "An anomaly detection library comprising state-of-the-art algorithms and features such as experiment management, hyper-parameter optimization, and edge inference."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "open-edge-platform/anomalib",
+      "status": "candidate-context",
+      "text": "Reusable Version Bump"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "open-edge-platform/anomalib",
+      "status": "candidate",
+      "text": "Reusable Version Bump"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22479,
+      "status": "candidate",
+      "text": "recycle"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20979,
+      "status": "candidate",
+      "text": "flaw"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20979,
+      "status": "candidate",
+      "text": "ripple"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20979,
+      "status": "candidate",
+      "text": "rippled"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20979,
+      "status": "candidate",
+      "text": "scarify"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Reusable Version Bump",
+  "concept_id": "reusable-version-bump",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/_reusable-version-bump.yaml",
+      "source_repo": "open-edge-platform/anomalib"
+    }
+  ],
+  "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Reusable Version Bump",
+      "sense_id": "reusable-version-bump#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

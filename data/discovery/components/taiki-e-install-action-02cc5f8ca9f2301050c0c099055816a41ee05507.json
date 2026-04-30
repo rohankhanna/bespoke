@@ -1,0 +1,17 @@
+{
+  "component": "taiki-e/install-action@02cc5f8ca9f2301050c0c099055816a41ee05507",
+  "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/autofix_pr.yml",
+      "source_repo": "zed-industries/zed"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/bump_patch_version.yml",
+      "source_repo": "zed-industries/zed"
+    }
+  ]
+}

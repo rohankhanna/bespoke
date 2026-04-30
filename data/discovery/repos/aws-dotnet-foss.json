@@ -1,0 +1,77 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "aws/dotnet-foss",
+      "target": "app-vnext/polly",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "aws/dotnet-foss",
+      "target": "anglesharp/anglesharp",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "aws/dotnet-foss",
+      "target": "ardalis/apiendpoints",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "aws/dotnet-foss",
+      "target": "aaubry/yamldotnet",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T02:59:49.684577+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9463
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "aws/dotnet-foss",
+    "html_url": "https://github.com/aws/dotnet-foss",
+    "language": null,
+    "pushed_at": "2024-11-20T22:50:12Z",
+    "stargazers_count": 86,
+    "topics": [],
+    "updated_at": "2026-04-02T21:51:33Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "aaubry/yamldotnet",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "anglesharp/anglesharp",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "app-vnext/polly",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ardalis/apiendpoints",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

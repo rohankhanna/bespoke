@@ -1,0 +1,12 @@
+{
+  "component": "burnett01/rsync-deployments@7659d600d8bdd035bb5cdfba1d4bd0dd4a307ca6",
+  "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/publish_snapshot_chart.yml",
+      "source_repo": "apache/spark-kubernetes-operator"
+    }
+  ]
+}

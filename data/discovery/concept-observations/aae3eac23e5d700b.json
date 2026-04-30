@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Create a GitHub/GitLab/etc. release using a project's commit messages and metadata. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "> Create a GitHub/GitLab/etc. release using your project's Git metadata."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "> Create a GitHub/GitLab/etc. release using your project's Git metadata."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10051261,
+      "status": "candidate",
+      "text": "loose"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10051151,
+      "status": "candidate",
+      "text": "liberate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10051149,
+      "status": "candidate",
+      "text": "liberation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10051029,
+      "status": "candidate",
+      "text": "unloose"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10050409,
+      "status": "candidate",
+      "text": "expel"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "releases",
+      "sense_id": "releases#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "releases",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "releases",
+  "observation_id": "aae3eac23e5d700b",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T00:37:16.824464+00:00",
+  "observed_text": "releases",
+  "source_context_snippet": "> Create a GitHub/GitLab/etc. release using your project's Git metadata.",
+  "source_file": null,
+  "source_repo": "conventional-changelog/releaser-tools",
+  "source_repo_description": "Create a GitHub/GitLab/etc. release using a project's commit messages and metadata. "
+}

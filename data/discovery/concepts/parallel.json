@@ -151,6 +151,30 @@
       "source_repo": "optuna/optuna-examples",
       "status": "candidate-context",
       "text": "Optuna Examples"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lightgbm-org/LightGBM",
+      "status": "candidate-context",
+      "text": "A fast, distributed, high performance gradient boosting (GBT, GBDT, GBRT, GBM or MART) framework based on decision tree algorithms, used for ranking, classification and many other machine learning tasks."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lightgbm-org/LightGBM",
+      "status": "candidate-context",
+      "text": "<img src=https://github.com/lightgbm-org/LightGBM/blob/master/docs/logo/LightGBM_logo_black_text.svg width=300 />"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "heal-research/pyoperon",
+      "status": "candidate-context",
+      "text": "Python bindings and scikit-learn interface for the Operon library for symbolic regression."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "heal-research/pyoperon",
+      "status": "candidate-context",
+      "text": "[![License](https://img.shields.io/github/license/heal-research/pyoperon)](https://github.com/heal-research/pyoperon/blob/master/LICENSE)"
     }
   ],
   "candidate_glosses": [
@@ -225,6 +249,18 @@
       "source_repo": "optuna/optuna-examples",
       "status": "candidate",
       "text": "Optuna Examples"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lightgbm-org/LightGBM",
+      "status": "candidate",
+      "text": "<img src=https://github.com/lightgbm-org/LightGBM/blob/master/docs/logo/LightGBM_logo_black_text.svg width=300 />"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "heal-research/pyoperon",
+      "status": "candidate",
+      "text": "[![License](https://img.shields.io/github/license/heal-research/pyoperon)](https://github.com/heal-research/pyoperon/blob/master/LICENSE)"
     }
   ],
   "candidate_related_terms": [
@@ -376,11 +412,23 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "optuna/optuna-examples"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "lightgbm-org/LightGBM"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "heal-research/pyoperon"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

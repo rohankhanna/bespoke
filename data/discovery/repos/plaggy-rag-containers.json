@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "plaggy/rag-containers",
+      "target": "nebius-academy/llmops-essentials",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T03:03:32.905297+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2732
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Ready-to-go containerized RAG service. Implemented with text-embedding-inference + Qdrant/LanceDB.",
+    "fork": false,
+    "full_name": "plaggy/rag-containers",
+    "html_url": "https://github.com/plaggy/rag-containers",
+    "language": "Python",
+    "pushed_at": "2024-12-25T11:56:46Z",
+    "stargazers_count": 76,
+    "topics": [],
+    "updated_at": "2026-03-10T09:12:12Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "nebius-academy/llmops-essentials",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

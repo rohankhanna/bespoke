@@ -1,0 +1,136 @@
+{
+  "aliases": [
+    "continuous"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "googleapis/google-cloud-node",
+      "status": "candidate-context",
+      "text": "Google Cloud Client Library for Node.js"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "googleapis/google-cloud-node",
+      "status": "candidate-context",
+      "text": "continuous"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "googleapis/google-cloud-node",
+      "status": "candidate",
+      "text": "continuous"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40044399,
+      "status": "candidate",
+      "text": "nonstop"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40044399,
+      "status": "candidate",
+      "text": "uninterrupted"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40044394,
+      "status": "candidate",
+      "text": "unceasing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40044393,
+      "status": "candidate",
+      "text": "never-ending"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40044366,
+      "status": "candidate",
+      "text": "ceaseless"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 62038,
+      "status": "candidate",
+      "text": "perpetual"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 38034,
+      "status": "candidate",
+      "text": "incessant"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 22054,
+      "status": "candidate",
+      "text": "constant"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 22031,
+      "status": "candidate",
+      "text": "continual"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 17025,
+      "status": "candidate",
+      "text": "unceasing"
+    }
+  ],
+  "canonical_name": "continuous",
+  "concept_id": "continuous",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/continuous.yaml",
+      "source_repo": "googleapis/google-cloud-node"
+    }
+  ],
+  "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "continuous",
+      "sense_id": "continuous#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

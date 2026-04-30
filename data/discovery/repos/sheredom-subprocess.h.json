@@ -1,0 +1,116 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cmake.yml"
+    },
+    {
+      "component": "egor-tensin/setup-mingw@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cmake.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cmake.yml",
+      "source_repo": "sheredom/subprocess.h",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cmake.yml",
+      "source_repo": "sheredom/subprocess.h",
+      "target": "egor-tensin/setup-mingw@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cmake.yml",
+      "source_repo": "sheredom/subprocess.h",
+      "target": "CMake",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sheredom/subprocess.h",
+      "target": "process",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sheredom/subprocess.h",
+      "target": "subprocess",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sheredom/subprocess.h",
+      "target": "subprocess-run",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T03:04:15.102366+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8538
+    },
+    {
+      "path": ".github/workflows/cmake.yml",
+      "size": 3804
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "\ud83d\udc1c single header process launching solution for C and C++ ",
+    "fork": false,
+    "full_name": "sheredom/subprocess.h",
+    "html_url": "https://github.com/sheredom/subprocess.h",
+    "language": "C",
+    "pushed_at": "2024-07-20T19:52:09Z",
+    "stargazers_count": 1346,
+    "topics": [
+      "c",
+      "cpp",
+      "process",
+      "subprocess",
+      "subprocess-run"
+    ],
+    "updated_at": "2026-04-27T04:10:22Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "CMake",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cmake.yml",
+      "term": "CMake"
+    },
+    {
+      "context_snippet": "[![Actions Status](https://github.com/sheredom/subprocess.h/workflows/CMake/badge.svg)](https://github.com/sheredom/subprocess.h/actions)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "process"
+    },
+    {
+      "context_snippet": "[![Actions Status](https://github.com/sheredom/subprocess.h/workflows/CMake/badge.svg)](https://github.com/sheredom/subprocess.h/actions)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "subprocess"
+    },
+    {
+      "context_snippet": "[![Actions Status](https://github.com/sheredom/subprocess.h/workflows/CMake/badge.svg)](https://github.com/sheredom/subprocess.h/actions)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "subprocess-run"
+    }
+  ]
+}

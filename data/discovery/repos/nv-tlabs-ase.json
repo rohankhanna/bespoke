@@ -1,0 +1,89 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "nv-tlabs/ASE",
+      "target": "xbpeng/mimickit",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nv-tlabs/ASE",
+      "target": "animation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nv-tlabs/ASE",
+      "target": "physics-simulation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nv-tlabs/ASE",
+      "target": "reinforcement-learning",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T02:42:36.394293+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7798
+    },
+    {
+      "path": "requirements.txt",
+      "size": 80
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Adversarial skill embeddings for training reusable controllers for physically simulated characters.",
+    "fork": false,
+    "full_name": "nv-tlabs/ASE",
+    "html_url": "https://github.com/nv-tlabs/ASE",
+    "language": "Python",
+    "pushed_at": "2025-12-07T09:02:20Z",
+    "stargazers_count": 1089,
+    "topics": [
+      "animation",
+      "physics-simulation",
+      "reinforcement-learning"
+    ],
+    "updated_at": "2026-04-27T07:09:30Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "xbpeng/mimickit",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "**This codebase is now deprecated.** Checkout [MimicKit](https://github.com/xbpeng/MimicKit/) for much more up-to-date and easy-to-use implementations of our methods.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "animation"
+    },
+    {
+      "context_snippet": "**This codebase is now deprecated.** Checkout [MimicKit](https://github.com/xbpeng/MimicKit/) for much more up-to-date and easy-to-use implementations of our methods.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "physics-simulation"
+    },
+    {
+      "context_snippet": "**This codebase is now deprecated.** Checkout [MimicKit](https://github.com/xbpeng/MimicKit/) for much more up-to-date and easy-to-use implementations of our methods.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "reinforcement-learning"
+    }
+  ]
+}

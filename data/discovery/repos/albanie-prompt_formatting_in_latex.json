@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T02:03:51.513979+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1499
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "albanie/prompt_formatting_in_latex",
+    "html_url": "https://github.com/albanie/prompt_formatting_in_latex",
+    "language": "Python",
+    "pushed_at": "2022-11-03T06:26:02Z",
+    "stargazers_count": 1,
+    "topics": [],
+    "updated_at": "2023-07-11T04:52:30Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

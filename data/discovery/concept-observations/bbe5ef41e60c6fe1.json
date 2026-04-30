@@ -79,7 +79,7 @@
   "normalized_form": "run-cargo-test",
   "observation_id": "bbe5ef41e60c6fe1",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-04-24T06:47:13.899148+00:00",
+  "observed_at": "2026-04-30T00:37:16.824464+00:00",
   "observed_text": "Run cargo test",
   "source_context_snippet": "Run cargo test",
   "source_file": ".github/workflows/cargo-test.yml",

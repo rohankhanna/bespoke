@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "neovim-statusline"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nvim-lualine/lualine.nvim",
+      "status": "candidate-context",
+      "text": "A blazing fast and easy to configure neovim statusline plugin written in pure lua."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nvim-lualine/lualine.nvim",
+      "status": "candidate-context",
+      "text": "<!-- panvimdoc-ignore-start -->"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nvim-lualine/lualine.nvim",
+      "status": "candidate",
+      "text": "<!-- panvimdoc-ignore-start -->"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "neovim-statusline",
+  "concept_id": "neovim-statusline",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "nvim-lualine/lualine.nvim"
+    }
+  ],
+  "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "neovim-statusline",
+      "sense_id": "neovim-statusline#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

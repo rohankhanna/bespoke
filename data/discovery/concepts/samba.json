@@ -1,0 +1,129 @@
+{
+  "aliases": [
+    "samba"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gershnik/wsdd-native",
+      "status": "candidate-context",
+      "text": "Make your macOS/Linux/BSD/illumos/HaikuOS machine visible in Network view of Windows Explorer"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gershnik/wsdd-native",
+      "status": "candidate-context",
+      "text": "[![Version][version_badge]][releases]"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gershnik/wsdd-native",
+      "status": "candidate",
+      "text": "[![Version][version_badge]][releases]"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39338289,
+      "status": "candidate",
+      "text": "obeche"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29877530,
+      "status": "candidate",
+      "text": "arere"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29877530,
+      "status": "candidate",
+      "text": "obechi"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29877530,
+      "status": "candidate",
+      "text": "triplochiton scleroxcylon"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29877529,
+      "status": "candidate",
+      "text": "assistant"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 18,
+      "status": "candidate",
+      "text": "obeche"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 15,
+      "status": "candidate",
+      "text": "arere"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 11,
+      "status": "candidate",
+      "text": "obechi"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 9,
+      "status": "candidate",
+      "text": "triplochiton scleroxcylon"
+    }
+  ],
+  "canonical_name": "samba",
+  "concept_id": "samba",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "gershnik/wsdd-native"
+    }
+  ],
+  "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "samba",
+      "sense_id": "samba#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

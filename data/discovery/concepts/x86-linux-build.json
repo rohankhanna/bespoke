@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "x86 Linux build"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "clean-css/clean-css-cli",
+      "status": "candidate-context",
+      "text": "The command line interface to clean-css CSS optimizer"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "clean-css/clean-css-cli",
+      "status": "candidate-context",
+      "text": "x86 Linux build"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "clean-css/clean-css-cli",
+      "status": "candidate",
+      "text": "x86 Linux build"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18497,
+      "status": "candidate",
+      "text": "computing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14264,
+      "status": "candidate",
+      "text": "address"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11798,
+      "status": "candidate",
+      "text": "beatrix"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11798,
+      "status": "candidate",
+      "text": "celestia"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11757,
+      "status": "candidate",
+      "text": "unix"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "x86 Linux build",
+  "concept_id": "x86-linux-build",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/node.js.yml",
+      "source_repo": "clean-css/clean-css-cli"
+    }
+  ],
+  "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "x86 Linux build",
+      "sense_id": "x86-linux-build#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

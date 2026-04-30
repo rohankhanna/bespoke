@@ -55,14 +55,14 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "XPixelGroup/BasicSR",
-      "target": "xindongzhang/ecbsr",
+      "target": "xinntao/edvr",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "XPixelGroup/BasicSR",
-      "target": "tencentarc/gfpgan",
+      "target": "xinntao/dni",
       "target_type": "repository"
     },
     {
@@ -241,7 +241,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-29T21:51:24.983882+00:00",
+  "fetched_at": "2026-04-30T03:53:52.331935+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -297,22 +297,22 @@
   "repo_links": [
     {
       "edge_type": "explicit-github-link",
-      "full_name": "tencentarc/gfpgan",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "xindongzhang/ecbsr",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
       "full_name": "xinntao/basicsr",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
       "full_name": "xinntao/basicsr-examples",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "xinntao/dni",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "xinntao/edvr",
       "source_file": "README.md"
     }
   ],

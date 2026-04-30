@@ -1,0 +1,291 @@
+{
+  "components": [
+    {
+      "component": "antora",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "asciidoctor-kroki",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/alphabetise.yml"
+    },
+    {
+      "component": "actions/download-artifact@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/preview.yml"
+    },
+    {
+      "component": "actions/download-artifact@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/preview.yml"
+    },
+    {
+      "component": "quarkusio/action-helpers@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/preview.yml"
+    },
+    {
+      "component": "quarkusio/action-helpers@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/preview.yml"
+    },
+    {
+      "component": "quarkusio/action-helpers@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/preview_teardown.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "actions/setup-node@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "actions/download-artifact@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "actions/configure-pages@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "actions/upload-pages-artifact@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "actions/deploy-pages@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "quarkiverse/quarkiverse-docs",
+      "target": "quarkiverse/antora-ui-quarkiverse",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "quarkiverse/quarkiverse-docs",
+      "target": "antora",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "quarkiverse/quarkiverse-docs",
+      "target": "asciidoctor-kroki",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/alphabetise.yml",
+      "source_repo": "quarkiverse/quarkiverse-docs",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/alphabetise.yml",
+      "source_repo": "quarkiverse/quarkiverse-docs",
+      "target": "Alphabetise extension list",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/preview.yml",
+      "source_repo": "quarkiverse/quarkiverse-docs",
+      "target": "actions/download-artifact@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/preview.yml",
+      "source_repo": "quarkiverse/quarkiverse-docs",
+      "target": "quarkusio/action-helpers@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/preview.yml",
+      "source_repo": "quarkiverse/quarkiverse-docs",
+      "target": "Surge.sh Preview",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/preview_teardown.yml",
+      "source_repo": "quarkiverse/quarkiverse-docs",
+      "target": "quarkusio/action-helpers@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/preview_teardown.yml",
+      "source_repo": "quarkiverse/quarkiverse-docs",
+      "target": "Surge.sh Teardown",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "quarkiverse/quarkiverse-docs",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "quarkiverse/quarkiverse-docs",
+      "target": "actions/setup-node@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "quarkiverse/quarkiverse-docs",
+      "target": "actions/upload-artifact@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "quarkiverse/quarkiverse-docs",
+      "target": "actions/download-artifact@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "quarkiverse/quarkiverse-docs",
+      "target": "actions/configure-pages@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "quarkiverse/quarkiverse-docs",
+      "target": "actions/upload-pages-artifact@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "quarkiverse/quarkiverse-docs",
+      "target": "actions/deploy-pages@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "quarkiverse/quarkiverse-docs",
+      "target": "Publish website",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T05:08:29.306217+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 869
+    },
+    {
+      "path": "package.json",
+      "size": 569
+    },
+    {
+      "path": ".github/workflows/alphabetise.yml",
+      "size": 1518
+    },
+    {
+      "path": ".github/workflows/preview.yml",
+      "size": 2394
+    },
+    {
+      "path": ".github/workflows/preview_teardown.yml",
+      "size": 868
+    },
+    {
+      "path": ".github/workflows/publish.yml",
+      "size": 2144
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Antora Documentation for Quarkiverse extensions",
+    "fork": false,
+    "full_name": "quarkiverse/quarkiverse-docs",
+    "html_url": "https://github.com/quarkiverse/quarkiverse-docs",
+    "language": null,
+    "pushed_at": "2026-04-23T12:12:50Z",
+    "stargazers_count": 14,
+    "topics": [],
+    "updated_at": "2026-04-23T12:12:30Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "quarkiverse/antora-ui-quarkiverse",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Alphabetise extension list",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/alphabetise.yml",
+      "term": "Alphabetise extension list"
+    },
+    {
+      "context_snippet": "Surge.sh Preview",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/preview.yml",
+      "term": "Surge.sh Preview"
+    },
+    {
+      "context_snippet": "Surge.sh Teardown",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/preview_teardown.yml",
+      "term": "Surge.sh Teardown"
+    },
+    {
+      "context_snippet": "Publish website",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish.yml",
+      "term": "Publish website"
+    }
+  ]
+}

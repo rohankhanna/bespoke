@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Efficient Triton Kernels for LLM Training"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Merge Queue Failure Handler"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Merge Queue Failure Handler"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28186,
+      "status": "candidate",
+      "text": "single"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28186,
+      "status": "candidate",
+      "text": "singling"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28186,
+      "status": "candidate",
+      "text": "sorted"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28186,
+      "status": "candidate",
+      "text": "sorting"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28163,
+      "status": "candidate",
+      "text": "stick"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Merge Queue Failure Handler",
+      "sense_id": "merge-queue-failure-handler#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "merge-queue-failure-handler",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "merge-queue-failure-handler",
+  "observation_id": "c252ee41c71b3b3e",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-30T00:37:16.824464+00:00",
+  "observed_text": "Merge Queue Failure Handler",
+  "source_context_snippet": "Merge Queue Failure Handler",
+  "source_file": ".github/workflows/merge-queue-failure.yml",
+  "source_repo": "linkedin/Liger-Kernel",
+  "source_repo_description": "Efficient Triton Kernels for LLM Training"
+}

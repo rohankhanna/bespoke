@@ -55,6 +55,18 @@
       "source_repo": "girishji/fFtT.vim",
       "status": "candidate-context",
       "text": "Characters that are reachable with a single jump are highlighted, while others are dimmed. This enhancement enhances the accuracy of navigation using `f`, `F`, `t`, and `T` commands. Moreover, you can prefix the command with a numerical `[count]` (e.g., `3f`), which will exclusi\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "girishji/easyjump.vim",
+      "status": "candidate-context",
+      "text": "The Vim motion you've always wanted."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "girishji/easyjump.vim",
+      "status": "candidate-context",
+      "text": "Jump to any location on screen by typing two characters."
     }
   ],
   "candidate_glosses": [
@@ -81,6 +93,12 @@
       "source_repo": "girishji/fFtT.vim",
       "status": "candidate",
       "text": "Characters that are reachable with a single jump are highlighted, while others are dimmed. This enhancement enhances the accuracy of navigation using `f`, `F`, `t`, and `T` commands. Moreover, you can prefix the command with a numerical `[count]` (e.g., `3f`), which will exclusi\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "girishji/easyjump.vim",
+      "status": "candidate",
+      "text": "Jump to any location on screen by typing two characters."
     }
   ],
   "candidate_related_terms": [],
@@ -112,11 +130,17 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "girishji/fFtT.vim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "girishji/easyjump.vim"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

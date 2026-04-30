@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "self-driving"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "AmberSahdev/Open-Interface",
+      "status": "candidate-context",
+      "text": "Control Any Computer Using LLMs."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AmberSahdev/Open-Interface",
+      "status": "candidate-context",
+      "text": "<picture>"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AmberSahdev/Open-Interface",
+      "status": "candidate",
+      "text": "<picture>"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19921467,
+      "status": "candidate",
+      "text": "driverless"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19921466,
+      "status": "candidate",
+      "text": "driveless"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19921465,
+      "status": "candidate",
+      "text": "motorless"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19921464,
+      "status": "candidate",
+      "text": "self-starting"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19921463,
+      "status": "candidate",
+      "text": "autoless"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "self-driving",
+  "concept_id": "self-driving",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "AmberSahdev/Open-Interface"
+    }
+  ],
+  "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "self-driving",
+      "sense_id": "self-driving#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

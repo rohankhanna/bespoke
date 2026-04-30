@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "facebookresearch/drqv2",
+      "target": "deepmind/dm_control",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T02:42:14.616704+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4035
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "main",
+    "description": "DrQ-v2: Improved Data-Augmented Reinforcement Learning",
+    "fork": false,
+    "full_name": "facebookresearch/drqv2",
+    "html_url": "https://github.com/facebookresearch/drqv2",
+    "language": "Python",
+    "pushed_at": "2022-05-31T03:54:18Z",
+    "stargazers_count": 433,
+    "topics": [],
+    "updated_at": "2026-04-28T14:14:45Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "deepmind/dm_control",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

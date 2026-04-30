@@ -499,6 +499,234 @@
       "source_repo": "ultralytics/yolov5",
       "status": "candidate-context",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "IDEA-Research/MaskDINO",
+      "status": "candidate-context",
+      "text": "[CVPR 2023] Official implementation of the paper \"Mask DINO: Towards A Unified Transformer-based Framework for Object Detection and Segmentation\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "IDEA-Research/MaskDINO",
+      "status": "candidate-context",
+      "text": "Mask DINO <img src=\"figures/dinosaur.png\" width=\"30\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jolibrain/deepdetect",
+      "status": "candidate-context",
+      "text": "Deep Learning API and Server in C++14 support for PyTorch,TensorRT, Dlib, NCNN, Tensorflow, XGBoost and TSNE"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jolibrain/deepdetect",
+      "status": "candidate-context",
+      "text": "<p align=\"center\"><img src=\"https://www.deepdetect.com/img/icons/menu/sidebar/deepdetect.svg\" alt=\"DeepDetect Logo\" width=\"45%\" /></p>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "IDEA-Research/DN-DETR",
+      "status": "candidate-context",
+      "text": "[CVPR 2022 Oral] Official implementation of DN-DETR"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "IDEA-Research/DN-DETR",
+      "status": "candidate-context",
+      "text": "**DN-DETR**: Accelerate DETR Training by Introducing Query DeNoising"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "IDEA-Research/Stable-DINO",
+      "status": "candidate-context",
+      "text": "[ICCV 2023] Official implementation of the paper \"Detection Transformer with Stable Matching\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "IDEA-Research/Stable-DINO",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Atten4Vis/ConditionalDETR",
+      "status": "candidate-context",
+      "text": "This repository is an official implementation of the ICCV 2021 paper \"Conditional DETR for Fast Training Convergence\". (https://arxiv.org/abs/2108.06152)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Atten4Vis/ConditionalDETR",
+      "status": "candidate-context",
+      "text": "This repository is an official implementation of the ICCV 2021 paper \"[Conditional DETR for Fast Training Convergence](https://arxiv.org/abs/2108.06152)\"."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "VITA-Group/SLaK",
+      "status": "candidate-context",
+      "text": "[ICLR 2023] \"More ConvNets in the 2020s: Scaling up Kernels Beyond 51x51 using Sparsity\"; [ICML 2023] \"Are Large Kernels  Better Teachers than Transformers for ConvNets?\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "VITA-Group/SLaK",
+      "status": "candidate-context",
+      "text": "Official PyTorch implementation of"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "FuxiaoLiu/LRV-Instruction",
+      "status": "candidate-context",
+      "text": "[ICLR'24] Mitigating Hallucination in Large Multi-Modal Models via Robust Instruction Tuning"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "FuxiaoLiu/LRV-Instruction",
+      "status": "candidate-context",
+      "text": "[Fuxiao Liu](https://fuxiaoliu.github.io/), [Kevin Lin](https://sites.google.com/site/kevinlin311tw/me), [Linjie Li](https://www.microsoft.com/en-us/research/people/linjli/), [Jianfeng Wang](http://jianfengwang.me/), [Yaser Yacoob](https://www.umiacs.umd.edu/people/yaser), [Liju\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "balancap/SSD-Tensorflow",
+      "status": "candidate-context",
+      "text": "Single Shot MultiBox Detector in TensorFlow"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "balancap/SSD-Tensorflow",
+      "status": "candidate-context",
+      "text": "SSD is an unified framework for object detection with a single network. It has been originally introduced in this research [article](http://arxiv.org/abs/1512.02325)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "BMW-InnovationLab/BMW-TensorFlow-Training-GUI",
+      "status": "candidate-context",
+      "text": "This repository allows you to get started with a gui based training a State-of-the-art Deep Learning model with little to no configuration needed! NoCode training with TensorFlow has never been so easy."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "BMW-InnovationLab/BMW-TensorFlow-Training-GUI",
+      "status": "candidate-context",
+      "text": "Updated for CUDA 11 and Tensorflow 2!!!"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "BMW-InnovationLab/BMW-YOLOv4-Training-Automation",
+      "status": "candidate-context",
+      "text": "This repository allows you to get started with training a state-of-the-art Deep Learning model with little to no configuration needed!  You provide your labeled dataset or label your dataset using our BMW-LabelTool-Lite and you can start the training right away and monitor it in many different ways like TensorBoard or a custom REST API and GUI. NoCode training with YOLOv4 and YOLOV3 has never been so easy."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "BMW-InnovationLab/BMW-YOLOv4-Training-Automation",
+      "status": "candidate-context",
+      "text": "This repository, based on AlexeyAB's darknet repro, allows you to get started with training a state-of-the-art Deep Learning model with little to no configuration needed! You provide your labeled dataset and you can start the training right away and monitor it in many different \u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "CVHub520/X-AnyLabeling",
+      "status": "candidate-context",
+      "text": "Effortless data labeling with AI support from Segment Anything and other awesome models."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "CVHub520/X-AnyLabeling",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "DanielSarmiento04/yolov10cpp",
+      "status": "candidate-context",
+      "text": "Implementation of yolo v10 in c++ std 17 over opencv and onnxruntime"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DanielSarmiento04/yolov10cpp",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">Yolo V10 cpp</h1>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "google/automl",
+      "status": "candidate-context",
+      "text": "Google Brain AutoML"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/automl",
+      "status": "candidate-context",
+      "text": "This repository contains a list of AutoML related models and libraries."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "WongKinYiu/ScaledYOLOv4",
+      "status": "candidate-context",
+      "text": "Scaled-YOLOv4: Scaling Cross Stage Partial Network"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "WongKinYiu/ScaledYOLOv4",
+      "status": "candidate-context",
+      "text": "This is the implementation of \"[Scaled-YOLOv4: Scaling Cross Stage Partial Network](https://arxiv.org/abs/2011.08036)\" using PyTorch framwork."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cuiziteng/ICCV_MAET",
+      "status": "candidate-context",
+      "text": "\ud83c\udf15 [ICCV 2021] Multitask AET with Orthogonal Tangent Regularity for Dark Object Detection. A self-supervised learning way for low-light image object detection."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cuiziteng/ICCV_MAET",
+      "status": "candidate-context",
+      "text": "Dark environment becomes a challenge for computer vision algorithms owing to insufficient photons and undesirable noise. To enhance object detection in a dark environment, we propose a novel multitask auto encod- ing transformation (MAET) model which is able to explore the intri\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "endernewton/tf-faster-rcnn",
+      "status": "candidate-context",
+      "text": "Tensorflow Faster RCNN for Object Detection"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "endernewton/tf-faster-rcnn",
+      "status": "candidate-context",
+      "text": "For a good and more up-to-date implementation for faster/mask RCNN with multi-gpu support, please see the example in TensorPack [here](https://github.com/tensorpack/tensorpack/tree/master/examples/FasterRCNN)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "vacancy/PreciseRoIPooling",
+      "status": "candidate-context",
+      "text": "Precise RoI Pooling with coordinate gradient support, proposed in the paper \"Acquisition of Localization Confidence for Accurate Object Detection\" (https://arxiv.org/abs/1807.11590)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vacancy/PreciseRoIPooling",
+      "status": "candidate-context",
+      "text": "This repo implements the **Precise RoI Pooling** (PrRoI Pooling), proposed in the paper **Acquisition of Localization Confidence for Accurate Object Detection** published at ECCV 2018 (Oral Presentation)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "open-mmlab/OpenPCDet",
+      "status": "candidate-context",
+      "text": "OpenPCDet Toolbox for LiDAR-based 3D Object Detection."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "open-mmlab/OpenPCDet",
+      "status": "candidate-context",
+      "text": "<img src=\"docs/open_mmlab.png\" align=\"right\" width=\"30%\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "BR-IDL/PaddleViT",
+      "status": "candidate-context",
+      "text": ":robot: PaddleViT: State-of-the-art Visual Transformer and MLP Models for PaddlePaddle 2.0+"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "BR-IDL/PaddleViT",
+      "status": "candidate-context",
+      "text": "English | [\u7b80\u4f53\u4e2d\u6587](./README_cn.md)"
     }
   ],
   "candidate_glosses": [
@@ -747,6 +975,120 @@
       "source_repo": "ultralytics/yolov5",
       "status": "candidate",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "IDEA-Research/MaskDINO",
+      "status": "candidate",
+      "text": "Mask DINO <img src=\"figures/dinosaur.png\" width=\"30\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jolibrain/deepdetect",
+      "status": "candidate",
+      "text": "<p align=\"center\"><img src=\"https://www.deepdetect.com/img/icons/menu/sidebar/deepdetect.svg\" alt=\"DeepDetect Logo\" width=\"45%\" /></p>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "IDEA-Research/DN-DETR",
+      "status": "candidate",
+      "text": "**DN-DETR**: Accelerate DETR Training by Introducing Query DeNoising"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "IDEA-Research/Stable-DINO",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Atten4Vis/ConditionalDETR",
+      "status": "candidate",
+      "text": "This repository is an official implementation of the ICCV 2021 paper \"[Conditional DETR for Fast Training Convergence](https://arxiv.org/abs/2108.06152)\"."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "VITA-Group/SLaK",
+      "status": "candidate",
+      "text": "Official PyTorch implementation of"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "FuxiaoLiu/LRV-Instruction",
+      "status": "candidate",
+      "text": "[Fuxiao Liu](https://fuxiaoliu.github.io/), [Kevin Lin](https://sites.google.com/site/kevinlin311tw/me), [Linjie Li](https://www.microsoft.com/en-us/research/people/linjli/), [Jianfeng Wang](http://jianfengwang.me/), [Yaser Yacoob](https://www.umiacs.umd.edu/people/yaser), [Liju\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "balancap/SSD-Tensorflow",
+      "status": "candidate",
+      "text": "SSD is an unified framework for object detection with a single network. It has been originally introduced in this research [article](http://arxiv.org/abs/1512.02325)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "BMW-InnovationLab/BMW-TensorFlow-Training-GUI",
+      "status": "candidate",
+      "text": "Updated for CUDA 11 and Tensorflow 2!!!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "BMW-InnovationLab/BMW-YOLOv4-Training-Automation",
+      "status": "candidate",
+      "text": "This repository, based on AlexeyAB's darknet repro, allows you to get started with training a state-of-the-art Deep Learning model with little to no configuration needed! You provide your labeled dataset and you can start the training right away and monitor it in many different \u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "CVHub520/X-AnyLabeling",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DanielSarmiento04/yolov10cpp",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">Yolo V10 cpp</h1>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/automl",
+      "status": "candidate",
+      "text": "This repository contains a list of AutoML related models and libraries."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "WongKinYiu/ScaledYOLOv4",
+      "status": "candidate",
+      "text": "This is the implementation of \"[Scaled-YOLOv4: Scaling Cross Stage Partial Network](https://arxiv.org/abs/2011.08036)\" using PyTorch framwork."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cuiziteng/ICCV_MAET",
+      "status": "candidate",
+      "text": "Dark environment becomes a challenge for computer vision algorithms owing to insufficient photons and undesirable noise. To enhance object detection in a dark environment, we propose a novel multitask auto encod- ing transformation (MAET) model which is able to explore the intri\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "endernewton/tf-faster-rcnn",
+      "status": "candidate",
+      "text": "For a good and more up-to-date implementation for faster/mask RCNN with multi-gpu support, please see the example in TensorPack [here](https://github.com/tensorpack/tensorpack/tree/master/examples/FasterRCNN)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vacancy/PreciseRoIPooling",
+      "status": "candidate",
+      "text": "This repo implements the **Precise RoI Pooling** (PrRoI Pooling), proposed in the paper **Acquisition of Localization Confidence for Accurate Object Detection** published at ECCV 2018 (Oral Presentation)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "open-mmlab/OpenPCDet",
+      "status": "candidate",
+      "text": "<img src=\"docs/open_mmlab.png\" align=\"right\" width=\"30%\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "BR-IDL/PaddleViT",
+      "status": "candidate",
+      "text": "English | [\u7b80\u4f53\u4e2d\u6587](./README_cn.md)"
     }
   ],
   "candidate_related_terms": [],
@@ -1024,11 +1366,143 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "ultralytics/yolov5"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "IDEA-Research/MaskDINO"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "jolibrain/deepdetect"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "IDEA-Research/DN-DETR"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "IDEA-Research/Stable-DINO"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "Atten4Vis/ConditionalDETR"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "JIA-Lab-research/LargeKernel3D"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "VITA-Group/SLaK"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "FuxiaoLiu/LRV-Instruction"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "mudler/LocalAI"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "balancap/SSD-Tensorflow"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "BMW-InnovationLab/BMW-TensorFlow-Training-GUI"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "BMW-InnovationLab/BMW-YOLOv4-Training-Automation"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "CVHub520/X-AnyLabeling"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "DanielSarmiento04/yolov10cpp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "google/automl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "WongKinYiu/ScaledYOLOv4"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "cuiziteng/ICCV_MAET"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "endernewton/tf-faster-rcnn"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "IDEA-Research/DINO"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "vacancy/PreciseRoIPooling"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "open-mmlab/OpenPCDet"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "BR-IDL/PaddleViT"
     }
   ],
   "first_seen_at": "2026-04-20T03:16:48.146869+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

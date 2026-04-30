@@ -1,6 +1,7 @@
 {
   "aliases": [
-    "Tests (E2E)"
+    "Tests (E2E)",
+    "Tests e2e"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -19,6 +20,18 @@
       "source_repo": "SemiAnalysisAI/InferenceX-app",
       "status": "candidate-context",
       "text": "'Tests (E2E)'"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Redocly/redoc",
+      "status": "candidate-context",
+      "text": "\ud83d\udcd8  OpenAPI/Swagger-generated API Reference Documentation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Redocly/redoc",
+      "status": "candidate-context",
+      "text": "Tests e2e"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +40,12 @@
       "source_repo": "SemiAnalysisAI/InferenceX-app",
       "status": "candidate",
       "text": "'Tests (E2E)'"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Redocly/redoc",
+      "status": "candidate",
+      "text": "Tests e2e"
     }
   ],
   "candidate_related_terms": [
@@ -76,11 +95,17 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": ".github/workflows/tests-e2e.yml",
       "source_repo": "SemiAnalysisAI/InferenceX-app"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/e2e-tests.yml",
+      "source_repo": "Redocly/redoc"
     }
   ],
   "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

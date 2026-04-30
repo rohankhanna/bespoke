@@ -199,6 +199,78 @@
       "source_repo": "earthly/earthly",
       "status": "candidate-context",
       "text": "<h1>Earthly</h1>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "xmake-io/xmake",
+      "status": "candidate-context",
+      "text": "\ud83d\udd25 A cross-platform build utility based on Lua"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "xmake-io/xmake",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bazelbuild/tulsi",
+      "status": "candidate-context",
+      "text": "An Xcode Project Generator For Bazel "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bazelbuild/tulsi",
+      "status": "candidate-context",
+      "text": "**This repository is no longer maintained.**"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "emacs-eldev/eldev",
+      "status": "candidate-context",
+      "text": "Elisp development tool"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "emacs-eldev/eldev",
+      "status": "candidate-context",
+      "text": "Deploy documentation"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "web-infra-dev/rsbuild",
+      "status": "candidate-context",
+      "text": "Simple, fast, extensible build tool. Powered by Rspack \ud83e\udd80"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "web-infra-dev/rsbuild",
+      "status": "candidate-context",
+      "text": "<picture>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "web-infra-dev/rslib",
+      "status": "candidate-context",
+      "text": "Create JavaScript libraries in a simple and intuitive way."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "web-infra-dev/rslib",
+      "status": "candidate-context",
+      "text": "<picture>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "facebook/buck",
+      "status": "candidate-context",
+      "text": "A fast build system that encourages the creation of small, reusable modules over a variety of platforms and languages."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "facebook/buck",
+      "status": "candidate-context",
+      "text": "This repo is dead."
     }
   ],
   "candidate_glosses": [
@@ -297,6 +369,42 @@
       "source_repo": "earthly/earthly",
       "status": "candidate",
       "text": "<h1>Earthly</h1>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "xmake-io/xmake",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bazelbuild/tulsi",
+      "status": "candidate",
+      "text": "**This repository is no longer maintained.**"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "emacs-eldev/eldev",
+      "status": "candidate",
+      "text": "Deploy documentation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "web-infra-dev/rsbuild",
+      "status": "candidate",
+      "text": "<picture>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "web-infra-dev/rslib",
+      "status": "candidate",
+      "text": "<picture>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "facebook/buck",
+      "status": "candidate",
+      "text": "This repo is dead."
     }
   ],
   "candidate_related_terms": [],
@@ -412,11 +520,53 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "earthly/earthly"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "xmake-io/xmake"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "bazelbuild/tulsi"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "swiftlang/swift-llbuild"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "emacs-eldev/eldev"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "web-infra-dev/rsbuild"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "web-infra-dev/rslib"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "facebook/buck"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

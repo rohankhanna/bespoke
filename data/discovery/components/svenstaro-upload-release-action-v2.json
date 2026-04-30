@@ -1,7 +1,7 @@
 {
   "component": "svenstaro/upload-release-action@v2",
   "first_seen_at": "2026-04-18T11:32:22.637859+00:00",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -157,6 +157,36 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/release.yml",
       "source_repo": "esp-rs/esp-web-flash-server"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "chaiNNer-org/chaiNNer-nightly"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/cd.yaml",
+      "source_repo": "archguard/archguard"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "phodal/coca"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/audioset.yml",
+      "source_repo": "k2-fsa/icefall"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/baker_zh.yml",
+      "source_repo": "k2-fsa/icefall"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ksponspeech.yml",
+      "source_repo": "k2-fsa/icefall"
     }
   ]
 }

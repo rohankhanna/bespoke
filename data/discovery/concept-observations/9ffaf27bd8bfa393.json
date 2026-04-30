@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "\u4f01\u4e1a\u7ea7\u7684 Go \u8bed\u8a00\u5b9e\u6218\u9879\u76ee\uff1a\u8ba4\u8bc1\u548c\u6388\u6743\u7cfb\u7edf\uff08\u5e26\u914d\u5957\u8bfe\u7a0b\uff09"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "\"CodeQL\""
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "\"CodeQL\""
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "CodeQL",
+      "sense_id": "codeql#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "codeql",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "codeql",
+  "observation_id": "9ffaf27bd8bfa393",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-30T00:37:16.824464+00:00",
+  "observed_text": "CodeQL",
+  "source_context_snippet": "\"CodeQL\"",
+  "source_file": ".github/workflows/codeql-analysis.yml",
+  "source_repo": "marmotedu/iam",
+  "source_repo_description": "\u4f01\u4e1a\u7ea7\u7684 Go \u8bed\u8a00\u5b9e\u6218\u9879\u76ee\uff1a\u8ba4\u8bc1\u548c\u6388\u6743\u7cfb\u7edf\uff08\u5e26\u914d\u5957\u8bfe\u7a0b\uff09"
+}

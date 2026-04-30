@@ -1,0 +1,177 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/busted.yml"
+    },
+    {
+      "component": "leafo/gh-actions-lua@v9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/busted.yml"
+    },
+    {
+      "component": "leafo/gh-actions-luarocks@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/busted.yml"
+    },
+    {
+      "component": "lunarmodules/.github/.github/workflows/list_affected_rockspecs.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yml"
+    },
+    {
+      "component": "lunarmodules/.github/.github/workflows/test_build_rock.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yml"
+    },
+    {
+      "component": "lunarmodules/.github/.github/workflows/upload_to_luarocks.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/luacheck.yml"
+    },
+    {
+      "component": "lunarmodules/luacheck@v0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/luacheck.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/busted.yml",
+      "source_repo": "lunarmodules/luassert",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/busted.yml",
+      "source_repo": "lunarmodules/luassert",
+      "target": "leafo/gh-actions-lua@v9",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/busted.yml",
+      "source_repo": "lunarmodules/luassert",
+      "target": "leafo/gh-actions-luarocks@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/busted.yml",
+      "source_repo": "lunarmodules/luassert",
+      "target": "Busted",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yml",
+      "source_repo": "lunarmodules/luassert",
+      "target": "lunarmodules/.github/.github/workflows/list_affected_rockspecs.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yml",
+      "source_repo": "lunarmodules/luassert",
+      "target": "lunarmodules/.github/.github/workflows/test_build_rock.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yml",
+      "source_repo": "lunarmodules/luassert",
+      "target": "lunarmodules/.github/.github/workflows/upload_to_luarocks.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deploy.yml",
+      "source_repo": "lunarmodules/luassert",
+      "target": "Deploy",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/luacheck.yml",
+      "source_repo": "lunarmodules/luassert",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/luacheck.yml",
+      "source_repo": "lunarmodules/luassert",
+      "target": "lunarmodules/luacheck@v0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/luacheck.yml",
+      "source_repo": "lunarmodules/luassert",
+      "target": "Luacheck",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T00:41:17.477480+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 10102
+    },
+    {
+      "path": ".github/workflows/busted.yml",
+      "size": 1197
+    },
+    {
+      "path": ".github/workflows/deploy.yml",
+      "size": 1239
+    },
+    {
+      "path": ".github/workflows/luacheck.yml",
+      "size": 217
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Assertion library for Lua",
+    "fork": false,
+    "full_name": "lunarmodules/luassert",
+    "html_url": "https://github.com/lunarmodules/luassert",
+    "language": "Lua",
+    "pushed_at": "2024-11-07T21:24:40Z",
+    "stargazers_count": 243,
+    "topics": [],
+    "updated_at": "2026-03-11T14:39:26Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Busted",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/busted.yml",
+      "term": "Busted"
+    },
+    {
+      "context_snippet": "Deploy",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deploy.yml",
+      "term": "Deploy"
+    },
+    {
+      "context_snippet": "Luacheck",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/luacheck.yml",
+      "term": "Luacheck"
+    }
+  ]
+}

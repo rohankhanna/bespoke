@@ -1,0 +1,372 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "dorny/paths-filter@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "codecov/codecov-action@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci2.yml"
+    },
+    {
+      "component": "dorny/paths-filter@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci2.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci2.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci2.yml"
+    },
+    {
+      "component": "codecov/codecov-action@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci2.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "shenweichen/DeepCTR",
+      "target": "shenweichen/deepmatch",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "shenweichen/DeepCTR",
+      "target": "shenweichen/deepctr.",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "shenweichen/DeepCTR",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "shenweichen/DeepCTR",
+      "target": "dorny/paths-filter@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "shenweichen/DeepCTR",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "shenweichen/DeepCTR",
+      "target": "codecov/codecov-action@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci2.yml",
+      "source_repo": "shenweichen/DeepCTR",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci2.yml",
+      "source_repo": "shenweichen/DeepCTR",
+      "target": "dorny/paths-filter@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci2.yml",
+      "source_repo": "shenweichen/DeepCTR",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci2.yml",
+      "source_repo": "shenweichen/DeepCTR",
+      "target": "codecov/codecov-action@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "shenweichen/DeepCTR",
+      "target": "autoint",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "shenweichen/DeepCTR",
+      "target": "click-through-rate",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "shenweichen/DeepCTR",
+      "target": "deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "shenweichen/DeepCTR",
+      "target": "deepcross",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "shenweichen/DeepCTR",
+      "target": "deepfm",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "shenweichen/DeepCTR",
+      "target": "deepinterestevolutionnetwork",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "shenweichen/DeepCTR",
+      "target": "deepinterestnetwork",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "shenweichen/DeepCTR",
+      "target": "dien",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "shenweichen/DeepCTR",
+      "target": "esmm",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "shenweichen/DeepCTR",
+      "target": "factorization-machines",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "shenweichen/DeepCTR",
+      "target": "fgcnn",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "shenweichen/DeepCTR",
+      "target": "mmoe",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "shenweichen/DeepCTR",
+      "target": "recommendation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "shenweichen/DeepCTR",
+      "target": "xdeepfm",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T04:59:04.571259+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 12606
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 2744
+    },
+    {
+      "path": ".github/workflows/ci2.yml",
+      "size": 3451
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Easy-to-use,Modular and Extendible package of deep-learning based CTR models .",
+    "fork": false,
+    "full_name": "shenweichen/DeepCTR",
+    "html_url": "https://github.com/shenweichen/DeepCTR",
+    "language": "Python",
+    "pushed_at": "2026-04-26T09:50:35Z",
+    "stargazers_count": 8027,
+    "topics": [
+      "autoint",
+      "click-through-rate",
+      "ctr",
+      "deep-learning",
+      "deepcross",
+      "deepfm",
+      "deepinterestevolutionnetwork",
+      "deepinterestnetwork",
+      "dien",
+      "din",
+      "esmm",
+      "factorization-machines",
+      "ffm",
+      "fgcnn",
+      "mlr",
+      "mmoe",
+      "nfm",
+      "ple",
+      "recommendation",
+      "xdeepfm"
+    ],
+    "updated_at": "2026-04-29T10:40:07Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "shenweichen/deepctr.",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "shenweichen/deepmatch",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[![Python Versions](https://img.shields.io/pypi/pyversions/deepctr.svg)](https://pypi.org/project/deepctr)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "autoint"
+    },
+    {
+      "context_snippet": "[![Python Versions](https://img.shields.io/pypi/pyversions/deepctr.svg)](https://pypi.org/project/deepctr)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "click-through-rate"
+    },
+    {
+      "context_snippet": "[![Python Versions](https://img.shields.io/pypi/pyversions/deepctr.svg)](https://pypi.org/project/deepctr)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-learning"
+    },
+    {
+      "context_snippet": "[![Python Versions](https://img.shields.io/pypi/pyversions/deepctr.svg)](https://pypi.org/project/deepctr)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deepcross"
+    },
+    {
+      "context_snippet": "[![Python Versions](https://img.shields.io/pypi/pyversions/deepctr.svg)](https://pypi.org/project/deepctr)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deepfm"
+    },
+    {
+      "context_snippet": "[![Python Versions](https://img.shields.io/pypi/pyversions/deepctr.svg)](https://pypi.org/project/deepctr)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deepinterestevolutionnetwork"
+    },
+    {
+      "context_snippet": "[![Python Versions](https://img.shields.io/pypi/pyversions/deepctr.svg)](https://pypi.org/project/deepctr)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deepinterestnetwork"
+    },
+    {
+      "context_snippet": "[![Python Versions](https://img.shields.io/pypi/pyversions/deepctr.svg)](https://pypi.org/project/deepctr)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dien"
+    },
+    {
+      "context_snippet": "[![Python Versions](https://img.shields.io/pypi/pyversions/deepctr.svg)](https://pypi.org/project/deepctr)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "esmm"
+    },
+    {
+      "context_snippet": "[![Python Versions](https://img.shields.io/pypi/pyversions/deepctr.svg)](https://pypi.org/project/deepctr)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "factorization-machines"
+    },
+    {
+      "context_snippet": "[![Python Versions](https://img.shields.io/pypi/pyversions/deepctr.svg)](https://pypi.org/project/deepctr)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "fgcnn"
+    },
+    {
+      "context_snippet": "[![Python Versions](https://img.shields.io/pypi/pyversions/deepctr.svg)](https://pypi.org/project/deepctr)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mmoe"
+    },
+    {
+      "context_snippet": "[![Python Versions](https://img.shields.io/pypi/pyversions/deepctr.svg)](https://pypi.org/project/deepctr)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "recommendation"
+    },
+    {
+      "context_snippet": "[![Python Versions](https://img.shields.io/pypi/pyversions/deepctr.svg)](https://pypi.org/project/deepctr)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "xdeepfm"
+    }
+  ]
+}

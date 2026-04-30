@@ -1,12 +1,17 @@
 {
   "component": "crazy-max/ghaction-import-gpg@e89d40939c28e39f97cf32126055eeae86ba74ec",
   "first_seen_at": "2026-04-18T11:24:14.688152+00:00",
-  "last_seen_at": "2026-04-18T11:24:14.688152+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/release-please.yml",
       "source_repo": "archestra-ai/terraform-provider-archestra"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "humbug/php-scoper"
     }
   ]
 }

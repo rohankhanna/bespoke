@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": " This gateway is a standalone service that proxies LLM requests with API key management, budget enforcement, usage tracking, and OpenAI-compatible endpoints."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Gateway Lint"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Gateway Lint"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10491,
+      "status": "candidate",
+      "text": "borescope"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10491,
+      "status": "candidate",
+      "text": "connection"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10491,
+      "status": "candidate",
+      "text": "fddi"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10491,
+      "status": "candidate",
+      "text": "hood"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10491,
+      "status": "candidate",
+      "text": "jenny"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Gateway Lint",
+      "sense_id": "gateway-lint#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "gateway-lint",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "gateway-lint",
+  "observation_id": "d308097d15555450",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-30T00:37:16.824464+00:00",
+  "observed_text": "Gateway Lint",
+  "source_context_snippet": "Gateway Lint",
+  "source_file": ".github/workflows/gateway-lint.yml",
+  "source_repo": "mozilla-ai/otari",
+  "source_repo_description": " This gateway is a standalone service that proxies LLM requests with API key management, budget enforcement, usage tracking, and OpenAI-compatible endpoints."
+}

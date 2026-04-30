@@ -1,0 +1,81 @@
+{
+  "components": [
+    {
+      "component": "@kong/proxy-wasm-sdk",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "json-as",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "visitor-as",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "assemblyscript",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "Kong/proxy-wasm-assemblyscript-rate-limiting",
+      "target": "@kong/proxy-wasm-sdk",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "Kong/proxy-wasm-assemblyscript-rate-limiting",
+      "target": "json-as",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "Kong/proxy-wasm-assemblyscript-rate-limiting",
+      "target": "visitor-as",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Kong/proxy-wasm-assemblyscript-rate-limiting",
+      "target": "assemblyscript",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-04-30T00:48:10.736341+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1783
+    },
+    {
+      "path": "package.json",
+      "size": 710
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "AssemblyScript implementation of a prototype rate-limiting filter using proxy-wasm ",
+    "fork": false,
+    "full_name": "Kong/proxy-wasm-assemblyscript-rate-limiting",
+    "html_url": "https://github.com/Kong/proxy-wasm-assemblyscript-rate-limiting",
+    "language": "TypeScript",
+    "pushed_at": "2023-11-03T13:26:41Z",
+    "stargazers_count": 0,
+    "topics": [],
+    "updated_at": "2023-11-13T09:04:05Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

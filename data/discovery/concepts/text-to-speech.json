@@ -259,6 +259,12 @@
       "source_repo": "ZDisket/TensorVox",
       "status": "candidate-context",
       "text": "TensorVox is an application designed to enable user-friendly and lightweight neural speech synthesis in the desktop, aimed at increasing accessibility to such technology."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "OpenVoiceOS/ovos-tts-plugin-piper",
+      "status": "candidate-context",
+      "text": "[OpenVoiceOS (OVOS)](https://openvoiceos.org) TTS plugin for [piper](https://github.com/rhasspy/piper)"
     }
   ],
   "candidate_glosses": [
@@ -387,6 +393,12 @@
       "source_repo": "ZDisket/TensorVox",
       "status": "candidate",
       "text": "TensorVox is an application designed to enable user-friendly and lightweight neural speech synthesis in the desktop, aimed at increasing accessibility to such technology."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "OpenVoiceOS/ovos-tts-plugin-piper",
+      "status": "candidate",
+      "text": "[OpenVoiceOS (OVOS)](https://openvoiceos.org) TTS plugin for [piper](https://github.com/rhasspy/piper)"
     }
   ],
   "candidate_related_terms": [],
@@ -520,11 +532,17 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "ZDisket/TensorVox"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "OpenVoiceOS/ovos-tts-plugin-piper"
     }
   ],
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

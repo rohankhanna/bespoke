@@ -1,0 +1,139 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "JizhiziLi/P3M",
+      "target": "jizhizili/aim",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "JizhiziLi/P3M",
+      "target": "jizhizili/gfm",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "JizhiziLi/P3M",
+      "target": "jizhizili/rim",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "JizhiziLi/P3M",
+      "target": "jizhizili/matting-survey",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JizhiziLi/P3M",
+      "target": "image-matting",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JizhiziLi/P3M",
+      "target": "matting",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JizhiziLi/P3M",
+      "target": "portrait-matting",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JizhiziLi/P3M",
+      "target": "portrait-segmentation",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T05:11:59.909208+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 21025
+    },
+    {
+      "path": "requirements.txt",
+      "size": 99
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "[ACM MM 2021] Privacy-Preserving Portrait Matting",
+    "fork": false,
+    "full_name": "JizhiziLi/P3M",
+    "html_url": "https://github.com/JizhiziLi/P3M",
+    "language": "Python",
+    "pushed_at": "2023-04-13T04:03:00Z",
+    "stargazers_count": 317,
+    "topics": [
+      "image-matting",
+      "matting",
+      "portrait-matting",
+      "portrait-segmentation"
+    ],
+    "updated_at": "2026-04-16T02:14:59Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jizhizili/aim",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jizhizili/gfm",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jizhizili/matting-survey",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jizhizili/rim",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<h1 align=\"center\">Privacy-Preserving Portrait Matting [ACM MM-21]</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "image-matting"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">Privacy-Preserving Portrait Matting [ACM MM-21]</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "matting"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">Privacy-Preserving Portrait Matting [ACM MM-21]</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "portrait-matting"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">Privacy-Preserving Portrait Matting [ACM MM-21]</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "portrait-segmentation"
+    }
+  ]
+}

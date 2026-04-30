@@ -103,6 +103,66 @@
       "source_repo": "doomemacs/doomemacs",
       "status": "candidate-context",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "clojure-emacs/clojure-mode",
+      "status": "candidate-context",
+      "text": "Emacs support for the Clojure(Script) programming language"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "clojure-emacs/clojure-mode",
+      "status": "candidate-context",
+      "text": "[![CI](https://github.com/clojure-emacs/clojure-mode/actions/workflows/ci.yml/badge.svg)](https://github.com/clojure-emacs/clojure-mode/actions/workflows/ci.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "justbur/emacs-which-key",
+      "status": "candidate-context",
+      "text": "Emacs package that displays available keybindings in popup"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "justbur/emacs-which-key",
+      "status": "candidate-context",
+      "text": "which-key-test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "clojure-emacs/clj-refactor.el",
+      "status": "candidate-context",
+      "text": "A CIDER extension that provides powerful commands for refactoring Clojure code."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "clojure-emacs/clj-refactor.el",
+      "status": "candidate-context",
+      "text": "[![MELPA](http://melpa.org/packages/clj-refactor-badge.svg)](http://melpa.org/#/clj-refactor)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Fuco1/smartparens",
+      "status": "candidate-context",
+      "text": "Minor mode for Emacs that deals with parens pairs and tries to be smart about it."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Fuco1/smartparens",
+      "status": "candidate-context",
+      "text": "[![Join the chat at https://gitter.im/smartparens/Lobby](https://badges.gitter.im/smartparens/Lobby.svg)](https://gitter.im/smartparens/Lobby?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "emacs-eldev/eldev",
+      "status": "candidate-context",
+      "text": "Elisp development tool"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "emacs-eldev/eldev",
+      "status": "candidate-context",
+      "text": "Deploy documentation"
     }
   ],
   "candidate_glosses": [
@@ -153,6 +213,36 @@
       "source_repo": "doomemacs/doomemacs",
       "status": "candidate",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "clojure-emacs/clojure-mode",
+      "status": "candidate",
+      "text": "[![CI](https://github.com/clojure-emacs/clojure-mode/actions/workflows/ci.yml/badge.svg)](https://github.com/clojure-emacs/clojure-mode/actions/workflows/ci.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "justbur/emacs-which-key",
+      "status": "candidate",
+      "text": "which-key-test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "clojure-emacs/clj-refactor.el",
+      "status": "candidate",
+      "text": "[![MELPA](http://melpa.org/packages/clj-refactor-badge.svg)](http://melpa.org/#/clj-refactor)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Fuco1/smartparens",
+      "status": "candidate",
+      "text": "[![Join the chat at https://gitter.im/smartparens/Lobby](https://badges.gitter.im/smartparens/Lobby.svg)](https://gitter.im/smartparens/Lobby?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "emacs-eldev/eldev",
+      "status": "candidate",
+      "text": "Deploy documentation"
     }
   ],
   "candidate_related_terms": [],
@@ -208,11 +298,41 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "doomemacs/doomemacs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "clojure-emacs/clojure-mode"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "justbur/emacs-which-key"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "clojure-emacs/clj-refactor.el"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "Fuco1/smartparens"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "emacs-eldev/eldev"
     }
   ],
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

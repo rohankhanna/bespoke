@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T05:14:57.704620+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 92
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Empirical Study Towards Building An Effective Multi-Modal Large Language Model",
+    "fork": false,
+    "full_name": "will-singularity/Skywork-MM",
+    "html_url": "https://github.com/will-singularity/Skywork-MM",
+    "language": null,
+    "pushed_at": "2023-10-25T09:57:13Z",
+    "stargazers_count": 22,
+    "topics": [],
+    "updated_at": "2025-04-11T10:11:52Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

@@ -1,0 +1,208 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "kdheepak/panvimdoc@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "stefanzweifel/git-auto-commit-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "MunifTanjim/setup-neovim-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "kdheepak/tabline.nvim",
+      "target": "backdround/tabscope.nvim",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "kdheepak/tabline.nvim",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "kdheepak/tabline.nvim",
+      "target": "kdheepak/panvimdoc@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "kdheepak/tabline.nvim",
+      "target": "stefanzweifel/git-auto-commit-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "kdheepak/tabline.nvim",
+      "target": "vimdoc",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "kdheepak/tabline.nvim",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "kdheepak/tabline.nvim",
+      "target": "MunifTanjim/setup-neovim-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "kdheepak/tabline.nvim",
+      "target": "test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kdheepak/tabline.nvim",
+      "target": "buffers",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kdheepak/tabline.nvim",
+      "target": "lualine",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kdheepak/tabline.nvim",
+      "target": "neovim",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kdheepak/tabline.nvim",
+      "target": "tabline",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kdheepak/tabline.nvim",
+      "target": "tabs",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T04:09:57.797293+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4229
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 405
+    },
+    {
+      "path": ".github/workflows/test.yml",
+      "size": 1054
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "main",
+    "description": "A \"buffer and tab\" tabline for neovim",
+    "fork": false,
+    "full_name": "kdheepak/tabline.nvim",
+    "html_url": "https://github.com/kdheepak/tabline.nvim",
+    "language": "Lua",
+    "pushed_at": "2023-07-24T07:51:30Z",
+    "stargazers_count": 236,
+    "topics": [
+      "buffers",
+      "lualine",
+      "neovim",
+      "tabline",
+      "tabs"
+    ],
+    "updated_at": "2026-03-06T02:31:33Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "backdround/tabscope.nvim",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "vimdoc",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "term": "vimdoc"
+    },
+    {
+      "context_snippet": "test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "term": "test"
+    },
+    {
+      "context_snippet": "This plugin is archived. Check out the following instead:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "buffers"
+    },
+    {
+      "context_snippet": "This plugin is archived. Check out the following instead:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "lualine"
+    },
+    {
+      "context_snippet": "This plugin is archived. Check out the following instead:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "neovim"
+    },
+    {
+      "context_snippet": "This plugin is archived. Check out the following instead:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tabline"
+    },
+    {
+      "context_snippet": "This plugin is archived. Check out the following instead:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tabs"
+    }
+  ]
+}

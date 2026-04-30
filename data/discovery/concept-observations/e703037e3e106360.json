@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Image processing web-app for color blindness"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "![alt text](./static/img/logo.svg \"Dalted logo black\")"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "![alt text](./static/img/logo.svg \"Dalted logo black\")"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10017486,
+      "status": "candidate",
+      "text": "colour-blindness"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10017485,
+      "status": "candidate",
+      "text": "colorblindness"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10017484,
+      "status": "candidate",
+      "text": "colourblindness"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10017483,
+      "status": "candidate",
+      "text": "daltonism"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10017482,
+      "status": "candidate",
+      "text": "acyanopsia"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "color-blindness",
+      "sense_id": "color-blindness#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "color-blindness",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "color-blindness",
+  "observation_id": "e703037e3e106360",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T00:37:16.824464+00:00",
+  "observed_text": "color-blindness",
+  "source_context_snippet": "![alt text](./static/img/logo.svg \"Dalted logo black\")",
+  "source_file": null,
+  "source_repo": "carrascomj/dalted",
+  "source_repo_description": "Image processing web-app for color blindness"
+}

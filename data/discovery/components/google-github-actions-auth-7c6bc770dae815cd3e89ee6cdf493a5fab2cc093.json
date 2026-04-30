@@ -1,7 +1,7 @@
 {
   "component": "google-github-actions/auth@7c6bc770dae815cd3e89ee6cdf493a5fab2cc093",
   "first_seen_at": "2026-04-18T11:41:43.530265+00:00",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -72,6 +72,31 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/_build.yml",
       "source_repo": "mdn/mdn-http-observatory"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/deploy-to-gcs.yml",
+      "source_repo": "sigstore/root-signing-staging"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/deploy-doghouse.yml",
+      "source_repo": "reviewdog/reviewdog"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ai-daily-tests.yml",
+      "source_repo": "firebase/firebase-android-sdk"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-release-artifacts.yml",
+      "source_repo": "firebase/firebase-android-sdk"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci_tests.yml",
+      "source_repo": "firebase/firebase-android-sdk"
     }
   ]
 }

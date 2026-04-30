@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Ivy - a generic completion frontend for Emacs, Swiper - isearch with an overview, and more. Oh, man!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![CI build badge][ci-badge]][ci]"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![CI build badge][ci-badge]][ci]"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40042418,
+      "status": "candidate",
+      "text": "counselor"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40041935,
+      "status": "candidate",
+      "text": "counsellor"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40040932,
+      "status": "candidate",
+      "text": "advise"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40038048,
+      "status": "candidate",
+      "text": "advocate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40035990,
+      "status": "candidate",
+      "text": "guidance"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "counsel",
+      "sense_id": "counsel#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 33050,
+      "status": "candidate",
+      "text": "advocate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 21044,
+      "status": "candidate",
+      "text": "advise"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 20044,
+      "status": "candidate",
+      "text": "guidance"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 11042,
+      "status": "candidate",
+      "text": "direction"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 8040,
+      "status": "candidate",
+      "text": "counselor"
+    }
+  ],
+  "concept_id": "counsel",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "counsel",
+  "observation_id": "7617394a66c7aa3c",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T00:37:16.824464+00:00",
+  "observed_text": "counsel",
+  "source_context_snippet": "[![CI build badge][ci-badge]][ci]",
+  "source_file": null,
+  "source_repo": "abo-abo/swiper",
+  "source_repo_description": "Ivy - a generic completion frontend for Emacs, Swiper - isearch with an overview, and more. Oh, man!"
+}

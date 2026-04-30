@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Deploy Extension Prerelease"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "elm-tooling/elm-language-client-vscode",
+      "status": "candidate-context",
+      "text": "Improving your Elm experience since 2019"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "elm-tooling/elm-language-client-vscode",
+      "status": "candidate-context",
+      "text": "Deploy Extension Prerelease"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "elm-tooling/elm-language-client-vscode",
+      "status": "candidate",
+      "text": "Deploy Extension Prerelease"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20219,
+      "status": "candidate",
+      "text": "site"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15442,
+      "status": "candidate",
+      "text": "screening"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12198,
+      "status": "candidate",
+      "text": "debut"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12198,
+      "status": "candidate",
+      "text": "followup"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12198,
+      "status": "candidate",
+      "text": "launch"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Deploy Extension Prerelease",
+  "concept_id": "deploy-extension-prerelease",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/deploy_extension_prerelease.yaml",
+      "source_repo": "elm-tooling/elm-language-client-vscode"
+    }
+  ],
+  "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Deploy Extension Prerelease",
+      "sense_id": "deploy-extension-prerelease#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

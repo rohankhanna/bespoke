@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "An Elixir OAuth 2.0 Client Library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![Build Status](https://github.com/ueberauth/oauth2/actions/workflows/ci.yml/badge.svg)](https://github.com/ueberauth/oauth2/actions/workflows/ci.yml)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![Build Status](https://github.com/ueberauth/oauth2/actions/workflows/ci.yml/badge.svg)](https://github.com/ueberauth/oauth2/actions/workflows/ci.yml)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "oauth2",
+      "sense_id": "oauth2#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "oauth2",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "oauth2",
+  "observation_id": "1b0a5194c94c50fb",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T00:37:16.824464+00:00",
+  "observed_text": "oauth2",
+  "source_context_snippet": "[![Build Status](https://github.com/ueberauth/oauth2/actions/workflows/ci.yml/badge.svg)](https://github.com/ueberauth/oauth2/actions/workflows/ci.yml)",
+  "source_file": null,
+  "source_repo": "ueberauth/oauth2",
+  "source_repo_description": "An Elixir OAuth 2.0 Client Library"
+}

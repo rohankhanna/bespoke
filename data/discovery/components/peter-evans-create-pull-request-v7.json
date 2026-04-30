@@ -1,7 +1,7 @@
 {
   "component": "peter-evans/create-pull-request@v7",
   "first_seen_at": "2026-04-18T03:26:22.590180+00:00",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -172,6 +172,41 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/update-project-version.yml",
       "source_repo": "open-source-parsers/jsoncpp"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit_autoupdate.yml",
+      "source_repo": "praw-dev/.github"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/prepare_release.yml",
+      "source_repo": "praw-dev/.github"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/plan-release.yml",
+      "source_repo": "broccolijs/broccoli"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/update-testenvs.yml",
+      "source_repo": "JuliaCI/Nanosoldier.jl"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit-update.yml",
+      "source_repo": "dmlc/treelite"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/edgetest.yml",
+      "source_repo": "capitalone/datacompy"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/depup.yml",
+      "source_repo": "brunohaf/action-bandit"
     }
   ]
 }

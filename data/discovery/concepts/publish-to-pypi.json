@@ -544,6 +544,78 @@
       "source_repo": "thu-ml/SageAttention",
       "status": "candidate-context",
       "text": "Publish to PyPI"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "abseil/abseil-py",
+      "status": "candidate-context",
+      "text": "Abseil Common Libraries (Python)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "abseil/abseil-py",
+      "status": "candidate-context",
+      "text": "Publish to PyPI"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "zhijian-liu/torchprofile",
+      "status": "candidate-context",
+      "text": "Count the MACs / FLOPs of PyTorch models"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "zhijian-liu/torchprofile",
+      "status": "candidate-context",
+      "text": "Publish to PyPI"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bghira/SimpleTuner",
+      "status": "candidate-context",
+      "text": "A general fine-tuning kit geared toward image/video/audio diffusion models."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bghira/SimpleTuner",
+      "status": "candidate-context",
+      "text": "Publish to PyPI"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cooper1637/SageAttention",
+      "status": "candidate-context",
+      "text": "[ICLR2025, ICML2025, NeurIPS2025 Spotlight] Quantized Attention achieves speedup of 2-5x compared to FlashAttention, without losing end-to-end metrics across language, image, and video models."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cooper1637/SageAttention",
+      "status": "candidate-context",
+      "text": "Publish to PyPI"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "heal-research/pyoperon",
+      "status": "candidate-context",
+      "text": "Python bindings and scikit-learn interface for the Operon library for symbolic regression."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "heal-research/pyoperon",
+      "status": "candidate-context",
+      "text": "Publish to PyPI"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "OpenBMB/BMInf",
+      "status": "candidate-context",
+      "text": "Efficient Inference for Big Models"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "OpenBMB/BMInf",
+      "status": "candidate-context",
+      "text": "\"Publish to PyPI\""
     }
   ],
   "candidate_glosses": [
@@ -816,6 +888,42 @@
       "source_repo": "thu-ml/SageAttention",
       "status": "candidate",
       "text": "Publish to PyPI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "abseil/abseil-py",
+      "status": "candidate",
+      "text": "Publish to PyPI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "zhijian-liu/torchprofile",
+      "status": "candidate",
+      "text": "Publish to PyPI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bghira/SimpleTuner",
+      "status": "candidate",
+      "text": "Publish to PyPI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cooper1637/SageAttention",
+      "status": "candidate",
+      "text": "Publish to PyPI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "heal-research/pyoperon",
+      "status": "candidate",
+      "text": "Publish to PyPI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "OpenBMB/BMInf",
+      "status": "candidate",
+      "text": "\"Publish to PyPI\""
     }
   ],
   "candidate_related_terms": [
@@ -1237,11 +1345,83 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": ".github/workflows/publish.yml",
       "source_repo": "thu-ml/SageAttention"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "meta-llama/prompt-ops"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/pypi_upload.yml",
+      "source_repo": "abseil/abseil-py"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/publish-to-pypi.yml",
+      "source_repo": "OpenHands/ToM-SWE"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "cookiecutter/cookiecutter"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/publish-to-pypi.yml",
+      "source_repo": "zhijian-liu/torchprofile"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/publish_package.yml",
+      "source_repo": "Comfy-Org/comfy-cli"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/publish-to-pypi.yml",
+      "source_repo": "Comfy-Org/ComfyUI-Manager"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/publish-pypi.yaml",
+      "source_repo": "bghira/SimpleTuner"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "cooper1637/SageAttention"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/publish-to-pypi.yml",
+      "source_repo": "heal-research/pyoperon"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "spotipy-dev/spotipy"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "OpenBMB/BMInf"
     }
   ],
   "first_seen_at": "2026-04-18T11:24:14.688152+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -19,6 +19,18 @@
       "source_repo": "cuiziteng/Illumination-Adaptive-Transformer",
       "status": "candidate-context",
       "text": "**2023.12.15:** Our new work Aleth-NeRF: Illumination Adaptive NeRF with Concealing Field Assumption has been accepted by **AAAI 2024**, please refer [(here)](https://github.com/cuiziteng/Aleth-NeRF) if you interest in NeRF under low-light~"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ai-forever/MoVQGAN",
+      "status": "candidate-context",
+      "text": "MoVQGAN - model for the image encoding and reconstruction"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ai-forever/MoVQGAN",
+      "status": "candidate-context",
+      "text": "[![Framework: PyTorch](https://img.shields.io/badge/Framework-PyTorch-orange.svg)](https://pytorch.org/) [![Huggingface space](https://img.shields.io/badge/\ud83e\udd17-Huggingface-yello.svg)](https://huggingface.co/ai-forever/MoVQGAN)"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "cuiziteng/Illumination-Adaptive-Transformer",
       "status": "candidate",
       "text": "**2023.12.15:** Our new work Aleth-NeRF: Illumination Adaptive NeRF with Concealing Field Assumption has been accepted by **AAAI 2024**, please refer [(here)](https://github.com/cuiziteng/Aleth-NeRF) if you interest in NeRF under low-light~"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ai-forever/MoVQGAN",
+      "status": "candidate",
+      "text": "[![Framework: PyTorch](https://img.shields.io/badge/Framework-PyTorch-orange.svg)](https://pytorch.org/) [![Huggingface space](https://img.shields.io/badge/\ud83e\udd17-Huggingface-yello.svg)](https://huggingface.co/ai-forever/MoVQGAN)"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "cuiziteng/Illumination-Adaptive-Transformer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "ai-forever/MoVQGAN"
     }
   ],
   "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

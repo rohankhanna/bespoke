@@ -1,0 +1,136 @@
+{
+  "aliases": [
+    "cff-wg-app-runtime-platform"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cloudfoundry/diego-release",
+      "status": "candidate-context",
+      "text": "BOSH Release for Diego"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cloudfoundry/diego-release",
+      "status": "candidate-context",
+      "text": "This repository is a [BOSH](https://github.com/cloudfoundry/bosh)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cloudfoundry/auction",
+      "status": "candidate-context",
+      "text": "Auction encodes Diego's long-running-process distribution algorithm"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cloudfoundry/auction",
+      "status": "candidate-context",
+      "text": "> [!CAUTION]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cloudfoundry/auctioneer",
+      "status": "candidate-context",
+      "text": "Runs diego auctions"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cloudfoundry/auctioneer",
+      "status": "candidate-context",
+      "text": "> [!CAUTION]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cloudfoundry/bbs",
+      "status": "candidate-context",
+      "text": "Internal API to access the database for Diego."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cloudfoundry/bbs",
+      "status": "candidate-context",
+      "text": "[![Go Report"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cloudfoundry/diego-release",
+      "status": "candidate",
+      "text": "This repository is a [BOSH](https://github.com/cloudfoundry/bosh)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cloudfoundry/auction",
+      "status": "candidate",
+      "text": "> [!CAUTION]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cloudfoundry/auctioneer",
+      "status": "candidate",
+      "text": "> [!CAUTION]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cloudfoundry/bbs",
+      "status": "candidate",
+      "text": "[![Go Report"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "cff-wg-app-runtime-platform",
+  "concept_id": "cff-wg-app-runtime-platform",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "cloudfoundry/diego-release"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "cloudfoundry/auction"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "cloudfoundry/auctioneer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "cloudfoundry/bbs"
+    }
+  ],
+  "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "cff-wg-app-runtime-platform",
+      "sense_id": "cff-wg-app-runtime-platform#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

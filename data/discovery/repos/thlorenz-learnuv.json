@@ -1,0 +1,130 @@
+{
+  "components": [
+    {
+      "component": "ansicolors",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "diff",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "text-table",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "workshopper",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "workshopper-exercise",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "workshopper-hooray",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "workshopper-more",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "thlorenz/learnuv",
+      "target": "joyent/libuv",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "thlorenz/learnuv",
+      "target": "ansicolors",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "thlorenz/learnuv",
+      "target": "diff",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "thlorenz/learnuv",
+      "target": "text-table",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "thlorenz/learnuv",
+      "target": "workshopper",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "thlorenz/learnuv",
+      "target": "workshopper-exercise",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "thlorenz/learnuv",
+      "target": "workshopper-hooray",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "thlorenz/learnuv",
+      "target": "workshopper-more",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-04-30T05:04:04.421821+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1885
+    },
+    {
+      "path": "package.json",
+      "size": 1248
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Learn uv for fun and profit, a self guided workshop to the library that powers Node.js.",
+    "fork": false,
+    "full_name": "thlorenz/learnuv",
+    "html_url": "https://github.com/thlorenz/learnuv",
+    "language": "C",
+    "pushed_at": "2023-08-02T02:40:20Z",
+    "stargazers_count": 766,
+    "topics": [],
+    "updated_at": "2026-04-26T10:39:29Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "joyent/libuv",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

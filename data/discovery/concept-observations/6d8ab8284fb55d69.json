@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Python and tab completion, better together."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "argcomplete - Bash/zsh tab completion for argparse"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "argcomplete - Bash/zsh tab completion for argparse"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "argparse",
+      "sense_id": "argparse#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "argparse",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "argparse",
+  "observation_id": "6d8ab8284fb55d69",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T00:37:16.824464+00:00",
+  "observed_text": "argparse",
+  "source_context_snippet": "argcomplete - Bash/zsh tab completion for argparse",
+  "source_file": null,
+  "source_repo": "kislyuk/argcomplete",
+  "source_repo_description": "Python and tab completion, better together."
+}

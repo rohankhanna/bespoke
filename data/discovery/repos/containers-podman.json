@@ -6,7 +6,7 @@
       "source_file": ".github/workflows/check_cirrus_cron.yml"
     },
     {
-      "component": "dawidd6/action-send-mail@d38f3f7cd391cdebfe0d38efc3998b935e951c4f",
+      "component": "dawidd6/action-send-mail@42942bc2f8fba4e611b459a018967a6a7c78c68c",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/check_cirrus_cron.yml"
     },
@@ -16,7 +16,7 @@
       "source_file": ".github/workflows/check_cirrus_cron.yml"
     },
     {
-      "component": "dawidd6/action-send-mail@d38f3f7cd391cdebfe0d38efc3998b935e951c4f",
+      "component": "dawidd6/action-send-mail@42942bc2f8fba4e611b459a018967a6a7c78c68c",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/check_cirrus_cron.yml"
     },
@@ -81,19 +81,12 @@
       "source_file": ".github/workflows/issue_pr_lock.yml"
     },
     {
-      "component": "dawidd6/action-send-mail@d38f3f7cd391cdebfe0d38efc3998b935e951c4f",
+      "component": "dawidd6/action-send-mail@42942bc2f8fba4e611b459a018967a6a7c78c68c",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/issue_pr_lock.yml"
     }
   ],
   "edges": [
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "containers/podman",
-      "target": "containers/release-keys",
-      "target_type": "repository"
-    },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
@@ -119,7 +112,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/check_cirrus_cron.yml",
       "source_repo": "containers/podman",
-      "target": "dawidd6/action-send-mail@d38f3f7cd391cdebfe0d38efc3998b935e951c4f",
+      "target": "dawidd6/action-send-mail@42942bc2f8fba4e611b459a018967a6a7c78c68c",
       "target_type": "component"
     },
     {
@@ -217,7 +210,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/issue_pr_lock.yml",
       "source_repo": "containers/podman",
-      "target": "dawidd6/action-send-mail@d38f3f7cd391cdebfe0d38efc3998b935e951c4f",
+      "target": "dawidd6/action-send-mail@42942bc2f8fba4e611b459a018967a6a7c78c68c",
       "target_type": "component"
     },
     {
@@ -256,7 +249,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-24T01:55:32.586250+00:00",
+  "fetched_at": "2026-04-30T01:50:47.983336+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -264,7 +257,7 @@
     },
     {
       "path": "go.mod",
-      "size": 9056
+      "size": 9104
     },
     {
       "path": "pyproject.toml",
@@ -308,8 +301,8 @@
     "full_name": "containers/podman",
     "html_url": "https://github.com/containers/podman",
     "language": "Go",
-    "pushed_at": "2026-04-23T19:16:11Z",
-    "stargazers_count": 31489,
+    "pushed_at": "2026-04-29T19:19:47Z",
+    "stargazers_count": 31549,
     "topics": [
       "containers",
       "docker",
@@ -317,17 +310,12 @@
       "linux",
       "oci"
     ],
-    "updated_at": "2026-04-24T00:50:10Z"
+    "updated_at": "2026-04-30T01:29:25Z"
   },
   "repo_links": [
     {
       "edge_type": "explicit-github-link",
       "full_name": "containers/podman-desktop",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "containers/release-keys",
       "source_file": "README.md"
     }
   ],

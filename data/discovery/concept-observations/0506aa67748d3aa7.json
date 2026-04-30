@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Official implementation for the CVPR2021 paper Alpha-Refine"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "This is the official implementation of [Alpha-Refine: Boosting Tracking Performance by Precise Bounding Box Estimation"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "This is the official implementation of [Alpha-Refine: Boosting Tracking Performance by Precise Bounding Box Estimation"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "object-tracking",
+      "sense_id": "object-tracking#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "object-tracking",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "object-tracking",
+  "observation_id": "0506aa67748d3aa7",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T00:37:16.824464+00:00",
+  "observed_text": "object-tracking",
+  "source_context_snippet": "This is the official implementation of [Alpha-Refine: Boosting Tracking Performance by Precise Bounding Box Estimation",
+  "source_file": null,
+  "source_repo": "MasterBin-IIAU/AlphaRefine",
+  "source_repo_description": "Official implementation for the CVPR2021 paper Alpha-Refine"
+}

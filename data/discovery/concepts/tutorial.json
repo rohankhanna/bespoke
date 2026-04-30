@@ -211,6 +211,66 @@
       "source_repo": "nvpro-samples/vk_raytracing_tutorial_KHR",
       "status": "candidate-context",
       "text": "![logo](http://nvidianews.nvidia.com/_ir/219/20157/NV_Designworks_logo_horizontal_greenblack.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dwyl/learn-elm",
+      "status": "candidate-context",
+      "text": ":rainbow: discover the beautiful programming language that makes front-end web apps a joy to build and maintain!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dwyl/learn-elm",
+      "status": "candidate-context",
+      "text": "> It's _difficult_ to _introduce_ elm to someone"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dwyl/phoenix-liveview-counter-tutorial",
+      "status": "candidate-context",
+      "text": "\ud83e\udd2f  beginners tutorial building a real time counter in Phoenix 1.7.14 + LiveView 1.0 \u26a1\ufe0f Learn the fundamentals from first principals so you can make something amazing! \ud83d\ude80"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dwyl/phoenix-liveview-counter-tutorial",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dwyl/phoenix-liveview-todo-list-tutorial",
+      "status": "candidate-context",
+      "text": "\u2705 Beginners tutorial building a Realtime Todo List in Phoenix 1.6.10 + LiveView 0.17.10 \u26a1\ufe0f Feedback very welcome!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dwyl/phoenix-liveview-todo-list-tutorial",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dwyl/learn-heroku",
+      "status": "candidate-context",
+      "text": ":checkered_flag: Learn how to deploy your web application to Heroku from scratch step-by-step in 7 minutes!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dwyl/learn-heroku",
+      "status": "candidate-context",
+      "text": "![heroku logo](https://cdn.worldvectorlogo.com/logos/heroku-1.svg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "firstcontributions/first-contributions",
+      "status": "candidate-context",
+      "text": "\ud83d\ude80\u2728 Help beginners to contribute to open source projects"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "firstcontributions/first-contributions",
+      "status": "candidate-context",
+      "text": "[![Open Source Love](https://firstcontributions.github.io/open-source-badges/badges/open-source-v1/open-source.svg)](https://github.com/firstcontributions/open-source-badges)"
     }
   ],
   "candidate_glosses": [
@@ -315,6 +375,36 @@
       "source_repo": "nvpro-samples/vk_raytracing_tutorial_KHR",
       "status": "candidate",
       "text": "![logo](http://nvidianews.nvidia.com/_ir/219/20157/NV_Designworks_logo_horizontal_greenblack.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dwyl/learn-elm",
+      "status": "candidate",
+      "text": "> It's _difficult_ to _introduce_ elm to someone"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dwyl/phoenix-liveview-counter-tutorial",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dwyl/phoenix-liveview-todo-list-tutorial",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dwyl/learn-heroku",
+      "status": "candidate",
+      "text": "![heroku logo](https://cdn.worldvectorlogo.com/logos/heroku-1.svg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "firstcontributions/first-contributions",
+      "status": "candidate",
+      "text": "[![Open Source Love](https://firstcontributions.github.io/open-source-badges/badges/open-source-v1/open-source.svg)](https://github.com/firstcontributions/open-source-badges)"
     }
   ],
   "candidate_related_terms": [
@@ -478,11 +568,47 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "nvpro-samples/vk_raytracing_tutorial_KHR"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "dwyl/learn-elm"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "dwyl/mvp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "dwyl/phoenix-liveview-counter-tutorial"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "dwyl/phoenix-liveview-todo-list-tutorial"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "dwyl/learn-heroku"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "firstcontributions/first-contributions"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

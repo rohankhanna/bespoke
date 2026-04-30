@@ -13,20 +13,6 @@
   ],
   "edges": [
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "lambdalisue/vim-glyph-palette",
-      "target": "vim-fall/fall.vim",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "lambdalisue/vim-glyph-palette",
-      "target": "miiton/cica",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/reviewdog.yml",
       "source_repo": "lambdalisue/vim-glyph-palette",
@@ -76,7 +62,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-29T19:41:35.670292+00:00",
+  "fetched_at": "2026-04-30T04:09:51.790727+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -107,18 +93,7 @@
     ],
     "updated_at": "2026-03-01T08:38:50Z"
   },
-  "repo_links": [
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "miiton/cica",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "vim-fall/fall.vim",
-      "source_file": "README.md"
-    }
-  ],
+  "repo_links": [],
   "terms": [
     {
       "context_snippet": "reviewdog",

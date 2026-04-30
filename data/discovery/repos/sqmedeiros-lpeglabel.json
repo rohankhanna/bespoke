@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T04:08:18.401242+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 15732
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "An extension of LPeg that supports labeled failures",
+    "fork": false,
+    "full_name": "sqmedeiros/lpeglabel",
+    "html_url": "https://github.com/sqmedeiros/lpeglabel",
+    "language": "C",
+    "pushed_at": "2023-05-02T17:27:51Z",
+    "stargazers_count": 150,
+    "topics": [],
+    "updated_at": "2026-03-01T08:16:49Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

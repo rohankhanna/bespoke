@@ -1,0 +1,108 @@
+{
+  "aliases": [
+    "preparedness"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "danielrosehill/Red-Alert-Monitoring-Stack",
+      "status": "candidate-context",
+      "text": "Microservices Docker stack for Pikud HaOref red alert monitoring, home automation, and real-time visualization"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "danielrosehill/Red-Alert-Monitoring-Stack",
+      "status": "candidate-context",
+      "text": "![Geodash dashboard showing real-time alert monitoring, Apr 8 2026](alerts.png)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "danielrosehill/Red-Alert-Monitoring-Stack",
+      "status": "candidate",
+      "text": "![Geodash dashboard showing real-time alert monitoring, Apr 8 2026](alerts.png)"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39963637,
+      "status": "candidate",
+      "text": "readiness"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29963650,
+      "status": "candidate",
+      "text": "prepared"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29963546,
+      "status": "candidate",
+      "text": "prepare"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29963444,
+      "status": "candidate",
+      "text": "ready"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29963311,
+      "status": "candidate",
+      "text": "procinct"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 6034,
+      "status": "candidate",
+      "text": "readiness"
+    }
+  ],
+  "canonical_name": "preparedness",
+  "concept_id": "preparedness",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "danielrosehill/Red-Alert-Monitoring-Stack"
+    }
+  ],
+  "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "preparedness",
+      "sense_id": "preparedness#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

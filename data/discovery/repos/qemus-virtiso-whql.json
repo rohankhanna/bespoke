@@ -1,0 +1,188 @@
+{
+  "components": [
+    {
+      "component": "action-pack/tag-exists@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "action-pack/github-release@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "AButler/upload-release-assets@v3.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "action-pack/send-mail@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "qemus/virtiso-whql",
+      "target": "action-pack/tag-exists@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "qemus/virtiso-whql",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "qemus/virtiso-whql",
+      "target": "action-pack/github-release@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "qemus/virtiso-whql",
+      "target": "AButler/upload-release-assets@v3.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "qemus/virtiso-whql",
+      "target": "action-pack/send-mail@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "qemus/virtiso-whql",
+      "target": "Build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "qemus/virtiso-whql",
+      "target": "virtio",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "qemus/virtiso-whql",
+      "target": "virtio-driver",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "qemus/virtiso-whql",
+      "target": "virtio-drivers",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "qemus/virtiso-whql",
+      "target": "virtio-whql",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "qemus/virtiso-whql",
+      "target": "virtio-whql-iso",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "qemus/virtiso-whql",
+      "target": "virtio-win",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T02:50:01.845660+00:00",
+  "fetched_files": [
+    {
+      "path": ".github/workflows/build.yml",
+      "size": 7749
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "VirtIO WHQL certified drivers ISO",
+    "fork": false,
+    "full_name": "qemus/virtiso-whql",
+    "html_url": "https://github.com/qemus/virtiso-whql",
+    "language": null,
+    "pushed_at": "2026-04-22T03:26:48Z",
+    "stargazers_count": 48,
+    "topics": [
+      "virtio",
+      "virtio-driver",
+      "virtio-drivers",
+      "virtio-whql",
+      "virtio-whql-iso",
+      "virtio-win"
+    ],
+    "updated_at": "2026-04-06T19:20:10Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "term": "Build"
+    },
+    {
+      "context_snippet": "Build",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "virtio"
+    },
+    {
+      "context_snippet": "Build",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "virtio-driver"
+    },
+    {
+      "context_snippet": "Build",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "virtio-drivers"
+    },
+    {
+      "context_snippet": "Build",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "virtio-whql"
+    },
+    {
+      "context_snippet": "Build",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "virtio-whql-iso"
+    },
+    {
+      "context_snippet": "Build",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "virtio-win"
+    }
+  ]
+}

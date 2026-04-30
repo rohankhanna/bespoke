@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T04:49:55.630151+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2718
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Common utilities for jupyter-contrib projects.",
+    "fork": false,
+    "full_name": "Jupyter-contrib/jupyter_contrib_core",
+    "html_url": "https://github.com/Jupyter-contrib/jupyter_contrib_core",
+    "language": "Python",
+    "pushed_at": "2023-10-04T19:56:34Z",
+    "stargazers_count": 5,
+    "topics": [],
+    "updated_at": "2024-01-19T16:51:09Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

@@ -1,0 +1,111 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "IDEA-Research/DN-DETR",
+      "target": "ideacvr/dino",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "IDEA-Research/DN-DETR",
+      "target": "ideacvr/maskdino",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "IDEA-Research/DN-DETR",
+      "target": "idea-opensource/dab-detr",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "IDEA-Research/DN-DETR",
+      "target": "ideacvr/awesome-detection-transformer",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "IDEA-Research/DN-DETR",
+      "target": "detr",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "IDEA-Research/DN-DETR",
+      "target": "object-detection",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T01:58:15.721117+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 19428
+    },
+    {
+      "path": "requirements.txt",
+      "size": 234
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "[CVPR 2022 Oral] Official implementation of DN-DETR",
+    "fork": false,
+    "full_name": "IDEA-Research/DN-DETR",
+    "html_url": "https://github.com/IDEA-Research/DN-DETR",
+    "language": "Python",
+    "pushed_at": "2023-12-20T07:06:23Z",
+    "stargazers_count": 605,
+    "topics": [
+      "detr",
+      "object-detection"
+    ],
+    "updated_at": "2026-04-19T01:57:08Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "idea-opensource/dab-detr",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ideacvr/awesome-detection-transformer",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ideacvr/dino",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ideacvr/maskdino",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "**DN-DETR**: Accelerate DETR Training by Introducing Query DeNoising",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "detr"
+    },
+    {
+      "context_snippet": "**DN-DETR**: Accelerate DETR Training by Introducing Query DeNoising",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "object-detection"
+    }
+  ]
+}

@@ -1,0 +1,231 @@
+{
+  "components": [
+    {
+      "component": "vapor/api-docs/.github/workflows/build-and-deploy-docs-workflow.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/api-docs.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "vapor/swift-codecov-action@v0.3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "vapor/redis",
+      "target": "swift-server/redistack",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/api-docs.yml",
+      "source_repo": "vapor/redis",
+      "target": "vapor/api-docs/.github/workflows/build-and-deploy-docs-workflow.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/api-docs.yml",
+      "source_repo": "vapor/redis",
+      "target": "deploy-api-docs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "vapor/redis",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "vapor/redis",
+      "target": "vapor/swift-codecov-action@v0.3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "vapor/redis",
+      "target": "test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "vapor/redis",
+      "target": "cache",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "vapor/redis",
+      "target": "redis",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "vapor/redis",
+      "target": "redis-client",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "vapor/redis",
+      "target": "server-side-swift",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "vapor/redis",
+      "target": "swift",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "vapor/redis",
+      "target": "swift-linux",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "vapor/redis",
+      "target": "vapor",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "vapor/redis",
+      "target": "vapor-service",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T05:04:13.432273+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1240
+    },
+    {
+      "path": ".github/workflows/api-docs.yml",
+      "size": 289
+    },
+    {
+      "path": ".github/workflows/test.yml",
+      "size": 1754
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Vapor provider for RediStack",
+    "fork": false,
+    "full_name": "vapor/redis",
+    "html_url": "https://github.com/vapor/redis",
+    "language": "Swift",
+    "pushed_at": "2025-09-12T18:03:32Z",
+    "stargazers_count": 469,
+    "topics": [
+      "cache",
+      "redis",
+      "redis-client",
+      "server-side-swift",
+      "swift",
+      "swift-linux",
+      "vapor",
+      "vapor-service"
+    ],
+    "updated_at": "2026-04-16T15:43:36Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "swift-server/redistack",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "deploy-api-docs",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/api-docs.yml",
+      "term": "deploy-api-docs"
+    },
+    {
+      "context_snippet": "test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "term": "test"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cache"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "redis"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "redis-client"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "server-side-swift"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "swift"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "swift-linux"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vapor"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vapor-service"
+    }
+  ]
+}

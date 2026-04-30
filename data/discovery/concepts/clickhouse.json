@@ -139,6 +139,78 @@
       "source_repo": "ibis-project/ibis",
       "status": "candidate-context",
       "text": "[![Documentation status](https://img.shields.io/badge/docs-docs.ibis--project.org-blue.svg)](http://ibis-project.org)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ClickHouse/clickhouse-cpp",
+      "status": "candidate-context",
+      "text": "C++ client library for ClickHouse"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ClickHouse/clickhouse-cpp",
+      "status": "candidate-context",
+      "text": "ClickHouse C++ client [![Linux](https://github.com/ClickHouse/clickhouse-cpp/actions/workflows/linux.yml/badge.svg)](https://github.com/ClickHouse/clickhouse-cpp/actions/workflows/linux.yml) [![macOS](https://github.com/ClickHouse/clickhouse-cpp/actions/workflows/macos.yml/badge\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mymarilyn/clickhouse-driver",
+      "status": "candidate-context",
+      "text": "ClickHouse Python Driver with native interface support"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mymarilyn/clickhouse-driver",
+      "status": "candidate-context",
+      "text": "ClickHouse Python Driver"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ContentSquare/chproxy",
+      "status": "candidate-context",
+      "text": "Open-Source ClickHouse http proxy and load balancer"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ContentSquare/chproxy",
+      "status": "candidate-context",
+      "text": "[![Go Report Card](https://goreportcard.com/badge/github.com/ContentSquare/chproxy)](https://goreportcard.com/report/github.com/ContentSquare/chproxy)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ClickHouse/clickhouse-java",
+      "status": "candidate-context",
+      "text": "ClickHouse Java Clients & JDBC Driver"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ClickHouse/clickhouse-java",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ClickHouse/clickhouse-rs",
+      "status": "candidate-context",
+      "text": "Official pure Rust typed client for ClickHouse DB"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ClickHouse/clickhouse-rs",
+      "status": "candidate-context",
+      "text": "Official pure Rust typed client for ClickHouse DB."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mymarilyn/aioch",
+      "status": "candidate-context",
+      "text": " aioch - is a library for accessing a ClickHouse database over native interface from the asyncio"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mymarilyn/aioch",
+      "status": "candidate-context",
+      "text": "**aioch** is a library for accessing a ClickHouse database over native interface from the asyncio."
     }
   ],
   "candidate_glosses": [
@@ -207,6 +279,42 @@
       "source_repo": "ibis-project/ibis",
       "status": "candidate",
       "text": "[![Documentation status](https://img.shields.io/badge/docs-docs.ibis--project.org-blue.svg)](http://ibis-project.org)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ClickHouse/clickhouse-cpp",
+      "status": "candidate",
+      "text": "ClickHouse C++ client [![Linux](https://github.com/ClickHouse/clickhouse-cpp/actions/workflows/linux.yml/badge.svg)](https://github.com/ClickHouse/clickhouse-cpp/actions/workflows/linux.yml) [![macOS](https://github.com/ClickHouse/clickhouse-cpp/actions/workflows/macos.yml/badge\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mymarilyn/clickhouse-driver",
+      "status": "candidate",
+      "text": "ClickHouse Python Driver"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ContentSquare/chproxy",
+      "status": "candidate",
+      "text": "[![Go Report Card](https://goreportcard.com/badge/github.com/ContentSquare/chproxy)](https://goreportcard.com/report/github.com/ContentSquare/chproxy)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ClickHouse/clickhouse-java",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ClickHouse/clickhouse-rs",
+      "status": "candidate",
+      "text": "Official pure Rust typed client for ClickHouse DB."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mymarilyn/aioch",
+      "status": "candidate",
+      "text": "**aioch** is a library for accessing a ClickHouse database over native interface from the asyncio."
     }
   ],
   "candidate_related_terms": [
@@ -316,11 +424,47 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "ibis-project/ibis"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "ClickHouse/clickhouse-cpp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "mymarilyn/clickhouse-driver"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "ContentSquare/chproxy"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "ClickHouse/clickhouse-java"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "ClickHouse/clickhouse-rs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "mymarilyn/aioch"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

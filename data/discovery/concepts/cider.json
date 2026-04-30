@@ -43,6 +43,30 @@
       "source_repo": "clojure-emacs/cider",
       "status": "candidate-context",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "clojure-emacs/orchard",
+      "status": "candidate-context",
+      "text": "A fertile ground for Clojure tooling"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "clojure-emacs/orchard",
+      "status": "candidate-context",
+      "text": "[![CircleCI](https://img.shields.io/circleci/build/github/clojure-emacs/orchard/master.svg)](https://circleci.com/gh/clojure-emacs/orchard/tree/master)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "clojure-emacs/clj-refactor.el",
+      "status": "candidate-context",
+      "text": "A CIDER extension that provides powerful commands for refactoring Clojure code."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "clojure-emacs/clj-refactor.el",
+      "status": "candidate-context",
+      "text": "[![MELPA](http://melpa.org/packages/clj-refactor-badge.svg)](http://melpa.org/#/clj-refactor)"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +87,18 @@
       "source_repo": "clojure-emacs/cider",
       "status": "candidate",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "clojure-emacs/orchard",
+      "status": "candidate",
+      "text": "[![CircleCI](https://img.shields.io/circleci/build/github/clojure-emacs/orchard/master.svg)](https://circleci.com/gh/clojure-emacs/orchard/tree/master)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "clojure-emacs/clj-refactor.el",
+      "status": "candidate",
+      "text": "[![MELPA](http://melpa.org/packages/clj-refactor-badge.svg)](http://melpa.org/#/clj-refactor)"
     }
   ],
   "candidate_related_terms": [
@@ -139,11 +175,23 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "clojure-emacs/cider"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "clojure-emacs/orchard"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "clojure-emacs/clj-refactor.el"
     }
   ],
   "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

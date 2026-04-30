@@ -1,0 +1,234 @@
+{
+  "components": [
+    {
+      "component": "peter-evans/enable-pull-request-automerge@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/automerge-dependabot.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/download-artifact@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "peter-evans/create-pull-request@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/download-artifact@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "peter-evans/create-pull-request@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-major-version.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/automerge-dependabot.yml",
+      "source_repo": "peter-evans/enable-pull-request-automerge",
+      "target": "peter-evans/enable-pull-request-automerge@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/automerge-dependabot.yml",
+      "source_repo": "peter-evans/enable-pull-request-automerge",
+      "target": "Auto-merge Dependabot",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "peter-evans/enable-pull-request-automerge",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "peter-evans/enable-pull-request-automerge",
+      "target": "actions/upload-artifact@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "peter-evans/enable-pull-request-automerge",
+      "target": "actions/download-artifact@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "peter-evans/enable-pull-request-automerge",
+      "target": "peter-evans/create-pull-request@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test-required-status-check.yml",
+      "source_repo": "peter-evans/enable-pull-request-automerge",
+      "target": "Test required status check",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-major-version.yml",
+      "source_repo": "peter-evans/enable-pull-request-automerge",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/update-major-version.yml",
+      "source_repo": "peter-evans/enable-pull-request-automerge",
+      "target": "Update Major Version",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "peter-evans/enable-pull-request-automerge",
+      "target": "automation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "peter-evans/enable-pull-request-automerge",
+      "target": "automerge",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "peter-evans/enable-pull-request-automerge",
+      "target": "github-action",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "peter-evans/enable-pull-request-automerge",
+      "target": "pull-request",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T04:56:26.380761+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5407
+    },
+    {
+      "path": ".github/workflows/automerge-dependabot.yml",
+      "size": 370
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 3606
+    },
+    {
+      "path": ".github/workflows/test-required-status-check.yml",
+      "size": 408
+    },
+    {
+      "path": ".github/workflows/update-major-version.yml",
+      "size": 920
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A GitHub action to enable auto-merge on a pull request",
+    "fork": false,
+    "full_name": "peter-evans/enable-pull-request-automerge",
+    "html_url": "https://github.com/peter-evans/enable-pull-request-automerge",
+    "language": null,
+    "pushed_at": "2026-03-05T21:46:15Z",
+    "stargazers_count": 145,
+    "topics": [
+      "automation",
+      "automerge",
+      "github-action",
+      "pull-request"
+    ],
+    "updated_at": "2026-04-28T15:04:51Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Auto-merge Dependabot",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/automerge-dependabot.yml",
+      "term": "Auto-merge Dependabot"
+    },
+    {
+      "context_snippet": "Test required status check",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test-required-status-check.yml",
+      "term": "Test required status check"
+    },
+    {
+      "context_snippet": "Update Major Version",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/update-major-version.yml",
+      "term": "Update Major Version"
+    },
+    {
+      "context_snippet": "[![CI](https://github.com/peter-evans/enable-pull-request-automerge/workflows/CI/badge.svg)](https://github.com/peter-evans/enable-pull-request-automerge/actions?query=workflow%3ACI)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "automation"
+    },
+    {
+      "context_snippet": "[![CI](https://github.com/peter-evans/enable-pull-request-automerge/workflows/CI/badge.svg)](https://github.com/peter-evans/enable-pull-request-automerge/actions?query=workflow%3ACI)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "automerge"
+    },
+    {
+      "context_snippet": "[![CI](https://github.com/peter-evans/enable-pull-request-automerge/workflows/CI/badge.svg)](https://github.com/peter-evans/enable-pull-request-automerge/actions?query=workflow%3ACI)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "github-action"
+    },
+    {
+      "context_snippet": "[![CI](https://github.com/peter-evans/enable-pull-request-automerge/workflows/CI/badge.svg)](https://github.com/peter-evans/enable-pull-request-automerge/actions?query=workflow%3ACI)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pull-request"
+    }
+  ]
+}

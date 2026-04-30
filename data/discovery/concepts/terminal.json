@@ -1267,6 +1267,174 @@
       "source_repo": "cbucher/console",
       "status": "candidate-context",
       "text": "ConsoleZ"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "eitsupi/arf",
+      "status": "candidate-context",
+      "text": "Alternative R Frontend \u2014 a modern R console written in Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "eitsupi/arf",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aws/amazon-q-developer-cli",
+      "status": "candidate-context",
+      "text": "\u2728 Agentic chat experience in your terminal. Build applications using natural language."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aws/amazon-q-developer-cli",
+      "status": "candidate-context",
+      "text": "> [!IMPORTANT]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "electerm/electerm-web-docker",
+      "status": "candidate-context",
+      "text": "docker image of electerm-web"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "electerm/electerm-web-docker",
+      "status": "candidate-context",
+      "text": "[\u4e2d\u6587](README_cn.md)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "2KAbhishek/termim.nvim",
+      "status": "candidate-context",
+      "text": "Neovim Terminal, Improved \ud83e\uddbe\ud83d\udcbb"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "2KAbhishek/termim.nvim",
+      "status": "candidate-context",
+      "text": "<div align = \"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "AnonymouX47/term-image",
+      "status": "candidate-context",
+      "text": "Display images in the terminal with python"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AnonymouX47/term-image",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "k4m4/terminals-are-sexy",
+      "status": "candidate-context",
+      "text": "\ud83d\udca5 A curated list of Terminal frameworks, plugins & resources for CLI lovers."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "k4m4/terminals-are-sexy",
+      "status": "candidate-context",
+      "text": "\ud83d\udca5 A curated list of Terminal frameworks, plugins & resources for CLI lovers."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cointop-sh/colors",
+      "status": "candidate-context",
+      "text": "Cointop colorschemes"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cointop-sh/colors",
+      "status": "candidate-context",
+      "text": "> Standard colorschemes (themes) for [cointop](https://github.com/miguelmota/cointop/)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pimutils/todoman",
+      "status": "candidate-context",
+      "text": "\u2705 Simple, standards-based, command line todo (aka: task) manager."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pimutils/todoman",
+      "status": "candidate-context",
+      "text": "Todoman"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "orhun/kermit",
+      "status": "candidate-context",
+      "text": "A VTE-based, simple and froggy terminal emulator \ud83d\udc38"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "orhun/kermit",
+      "status": "candidate-context",
+      "text": "![Kermit the Frog](https://user-images.githubusercontent.com/24392180/59636824-2af20180-915d-11e9-95dd-0a077ebc3cfa.gif)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "raphamorim/rio",
+      "status": "candidate-context",
+      "text": "A hardware-accelerated GPU terminal emulator focusing to run in desktops and browsers."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "raphamorim/rio",
+      "status": "candidate-context",
+      "text": "<!-- LOGO -->"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "trzsz/trzsz.js",
+      "status": "candidate-context",
+      "text": "trzsz.js is the js version of trzsz, makes terminal built with electron and webshell to support trzsz ( trz / tsz )."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "trzsz/trzsz.js",
+      "status": "candidate-context",
+      "text": "[![MIT License](https://img.shields.io/badge/license-MIT-green.svg?style=flat)](https://choosealicense.com/licenses/mit/)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "psmux/Tmux-Plugin-Panel",
+      "status": "candidate-context",
+      "text": "A full-fledged TUI plugin manager for tmux \u2014 the modern alternative to TPM. Browse, install, remove, update plugins and themes from a beautiful terminal interface."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "psmux/Tmux-Plugin-Panel",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sharkdp/pastel",
+      "status": "candidate-context",
+      "text": "A command-line tool to generate, analyze, convert and manipulate colors"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sharkdp/pastel",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://img.shields.io/github/actions/workflow/status/sharkdp/pastel/CICD.yml?style=flat-square)](https://github.com/sharkdp/pastel/actions)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lainq/img",
+      "status": "candidate-context",
+      "text": "A python library to display images in the terminal"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lainq/img",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -1899,6 +2067,90 @@
       "source_repo": "cbucher/console",
       "status": "candidate",
       "text": "ConsoleZ"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "eitsupi/arf",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aws/amazon-q-developer-cli",
+      "status": "candidate",
+      "text": "> [!IMPORTANT]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "electerm/electerm-web-docker",
+      "status": "candidate",
+      "text": "[\u4e2d\u6587](README_cn.md)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "2KAbhishek/termim.nvim",
+      "status": "candidate",
+      "text": "<div align = \"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AnonymouX47/term-image",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "k4m4/terminals-are-sexy",
+      "status": "candidate",
+      "text": "\ud83d\udca5 A curated list of Terminal frameworks, plugins & resources for CLI lovers."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cointop-sh/colors",
+      "status": "candidate",
+      "text": "> Standard colorschemes (themes) for [cointop](https://github.com/miguelmota/cointop/)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pimutils/todoman",
+      "status": "candidate",
+      "text": "Todoman"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "orhun/kermit",
+      "status": "candidate",
+      "text": "![Kermit the Frog](https://user-images.githubusercontent.com/24392180/59636824-2af20180-915d-11e9-95dd-0a077ebc3cfa.gif)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "raphamorim/rio",
+      "status": "candidate",
+      "text": "<!-- LOGO -->"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "trzsz/trzsz.js",
+      "status": "candidate",
+      "text": "[![MIT License](https://img.shields.io/badge/license-MIT-green.svg?style=flat)](https://choosealicense.com/licenses/mit/)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "psmux/Tmux-Plugin-Panel",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sharkdp/pastel",
+      "status": "candidate",
+      "text": "[![Build Status](https://img.shields.io/github/actions/workflow/status/sharkdp/pastel/CICD.yml?style=flat-square)](https://github.com/sharkdp/pastel/actions)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lainq/img",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -2746,11 +2998,143 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "cbucher/console"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "eitsupi/arf"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "criteo/mesos-term"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "aws/amazon-q-developer-cli"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "electerm/electerm-web-docker"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "psmux/pstop"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "psmux/psmux"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "2KAbhishek/termim.nvim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "AnonymouX47/term-image"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "k4m4/terminals-are-sexy"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "cointop-sh/colors"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "pimutils/todoman"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "spaceship-prompt/spaceship-prompt"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "ohmyzsh/ohmyzsh"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "orhun/kermit"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "raphamorim/rio"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "Urigo/graphql-cli"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "alacritty/alacritty"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "trzsz/trzsz.js"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "psmux/Tmux-Plugin-Panel"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "sharkdp/pastel"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "fastapi/typer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "lainq/img"
     }
   ],
   "first_seen_at": "2026-04-18T11:57:36.597358+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

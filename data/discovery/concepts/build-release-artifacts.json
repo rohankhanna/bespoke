@@ -56,6 +56,18 @@
       "source_repo": "buildbot/buildbot",
       "status": "candidate-context",
       "text": "Build release artifacts"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "firebase/firebase-android-sdk",
+      "status": "candidate-context",
+      "text": "Firebase Android SDK"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "firebase/firebase-android-sdk",
+      "status": "candidate-context",
+      "text": "Build Release Artifacts"
     }
   ],
   "candidate_glosses": [
@@ -82,6 +94,12 @@
       "source_repo": "buildbot/buildbot",
       "status": "candidate",
       "text": "Build release artifacts"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "firebase/firebase-android-sdk",
+      "status": "candidate",
+      "text": "Build Release Artifacts"
     }
   ],
   "candidate_related_terms": [
@@ -149,11 +167,17 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": ".github/workflows/release.yml",
       "source_repo": "buildbot/buildbot"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/build-release-artifacts.yml",
+      "source_repo": "firebase/firebase-android-sdk"
     }
   ],
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

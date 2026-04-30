@@ -91,6 +91,42 @@
       "source_repo": "wkpark/uddetailer",
       "status": "candidate-context",
       "text": "This is yet another detection detailer named \u03bc-Detection Detailer (shortly \u03bc-DDetailer) forked from [DDetailer](https://github.com/dustysys/ddetailer)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pkuliyi2015/multidiffusion-upscaler-for-automatic1111",
+      "status": "candidate-context",
+      "text": "Tiled Diffusion and VAE optimize, licensed under CC BY-NC-SA 4.0"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pkuliyi2015/multidiffusion-upscaler-for-automatic1111",
+      "status": "candidate-context",
+      "text": "[![CC BY-NC-SA 4.0][cc-by-nc-sa-shield]][cc-by-nc-sa]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Kahsolt/stable-diffusion-webui-sonar",
+      "status": "candidate-context",
+      "text": "Wrapped k-diffuison samplers with tricks to improve the generated image quality (maybe?), extension script for AUTOMATIC1111/stable-diffusion-webui"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Kahsolt/stable-diffusion-webui-sonar",
+      "status": "candidate-context",
+      "text": "Wrapped k-diffuison samplers with tricks to improve the generated image quality (maybe?), extension script for AUTOMATIC1111/stable-diffusion-webui"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pkuliyi2015/sd-webui-stablesr",
+      "status": "candidate-context",
+      "text": "StableSR for Stable Diffusion WebUI - Ultra High-quality Image Upscaler"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pkuliyi2015/sd-webui-stablesr",
+      "status": "candidate-context",
+      "text": "Licensed under [S-Lab License 1.0](https://github.com/IceClear/StableSR/blob/main/LICENSE.txt)"
     }
   ],
   "candidate_glosses": [
@@ -135,6 +171,24 @@
       "source_repo": "wkpark/uddetailer",
       "status": "candidate",
       "text": "This is yet another detection detailer named \u03bc-Detection Detailer (shortly \u03bc-DDetailer) forked from [DDetailer](https://github.com/dustysys/ddetailer)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pkuliyi2015/multidiffusion-upscaler-for-automatic1111",
+      "status": "candidate",
+      "text": "[![CC BY-NC-SA 4.0][cc-by-nc-sa-shield]][cc-by-nc-sa]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Kahsolt/stable-diffusion-webui-sonar",
+      "status": "candidate",
+      "text": "Wrapped k-diffuison samplers with tricks to improve the generated image quality (maybe?), extension script for AUTOMATIC1111/stable-diffusion-webui"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pkuliyi2015/sd-webui-stablesr",
+      "status": "candidate",
+      "text": "Licensed under [S-Lab License 1.0](https://github.com/IceClear/StableSR/blob/main/LICENSE.txt)"
     }
   ],
   "candidate_related_terms": [],
@@ -184,11 +238,29 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "wkpark/uddetailer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "pkuliyi2015/multidiffusion-upscaler-for-automatic1111"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "Kahsolt/stable-diffusion-webui-sonar"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "pkuliyi2015/sd-webui-stablesr"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

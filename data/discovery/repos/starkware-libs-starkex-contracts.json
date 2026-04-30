@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T04:52:59.322953+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 483
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": null,
+    "fork": false,
+    "full_name": "starkware-libs/starkex-contracts",
+    "html_url": "https://github.com/starkware-libs/starkex-contracts",
+    "language": "Solidity",
+    "pushed_at": "2025-07-01T09:25:34Z",
+    "stargazers_count": 296,
+    "topics": [],
+    "updated_at": "2026-04-18T10:44:11Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

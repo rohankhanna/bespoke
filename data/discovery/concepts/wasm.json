@@ -479,6 +479,66 @@
       "source_repo": "extism/extism",
       "status": "candidate-context",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "paulocoutinhox/pdfium-lib",
+      "status": "candidate-context",
+      "text": "PDFium - Project to compile PDFium library to multiple platforms."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "paulocoutinhox/pdfium-lib",
+      "status": "candidate-context",
+      "text": "WASM"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "RustPython/RustPython",
+      "status": "candidate-context",
+      "text": "A Python Interpreter written in Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "RustPython/RustPython",
+      "status": "candidate-context",
+      "text": "<img src=\"./logo.png\" width=\"125\" height=\"125\" align=\"right\" />"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "extism/c-pdk",
+      "status": "candidate-context",
+      "text": "Extism Plug-in Development Kit (PDK) for C"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "extism/c-pdk",
+      "status": "candidate-context",
+      "text": "This project contains a tool that can be used to create [Extism Plug-ins](https://extism.org/docs/concepts/plug-in) in C."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nativium/nativium",
+      "status": "candidate-context",
+      "text": "C++ Multiplatform Modular Toolkit Template"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nativium/nativium",
+      "status": "candidate-context",
+      "text": "WASM"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "xplpc/xplpc",
+      "status": "candidate-context",
+      "text": "Cross Platform Lite Procedure Call - Support Linux, macOS, Windows, iOS, Android, Web Assembly, Flutter, Kotlin, Python and More"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "xplpc/xplpc",
+      "status": "candidate-context",
+      "text": "WASM"
     }
   ],
   "candidate_glosses": [
@@ -715,6 +775,36 @@
       "source_repo": "extism/extism",
       "status": "candidate",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "paulocoutinhox/pdfium-lib",
+      "status": "candidate",
+      "text": "WASM"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "RustPython/RustPython",
+      "status": "candidate",
+      "text": "<img src=\"./logo.png\" width=\"125\" height=\"125\" align=\"right\" />"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "extism/c-pdk",
+      "status": "candidate",
+      "text": "This project contains a tool that can be used to create [Extism Plug-ins](https://extism.org/docs/concepts/plug-in) in C."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nativium/nativium",
+      "status": "candidate",
+      "text": "WASM"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "xplpc/xplpc",
+      "status": "candidate",
+      "text": "WASM"
     }
   ],
   "candidate_related_terms": [
@@ -1064,11 +1154,59 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "extism/extism"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "wasm-bindgen/wasm-bindgen"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/wasm.yml",
+      "source_repo": "paulocoutinhox/pdfium-lib"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "RustPython/RustPython"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "ipsilon/evmc"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "extism/c-pdk"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/wasm.yml",
+      "source_repo": "nativium/nativium"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/wasm.yml",
+      "source_repo": "xplpc/xplpc"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "wasm-bindgen/wasm-pack"
     }
   ],
   "first_seen_at": "2026-04-18T11:24:14.688152+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

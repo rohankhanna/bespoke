@@ -1,0 +1,35 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T01:58:25.483088+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2134
+    },
+    {
+      "path": "Dockerfile",
+      "size": 328
+    },
+    {
+      "path": "requirements.txt",
+      "size": 224
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "SMCA replication",
+    "fork": false,
+    "full_name": "abc403/SMCA-replication",
+    "html_url": "https://github.com/abc403/SMCA-replication",
+    "language": "Python",
+    "pushed_at": "2021-07-24T12:27:38Z",
+    "stargazers_count": 21,
+    "topics": [],
+    "updated_at": "2024-01-04T16:56:03Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

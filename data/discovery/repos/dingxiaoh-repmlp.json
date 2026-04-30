@@ -1,0 +1,53 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "DingXiaoH/RepMLP",
+      "target": "dingxiaoh/repoptimizers",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "DingXiaoH/RepMLP",
+      "target": "dingxiaoh/resrep",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T03:46:02.360633+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 12294
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "RepMLPNet: Hierarchical Vision MLP with Re-parameterized Locality (CVPR 2022)",
+    "fork": false,
+    "full_name": "DingXiaoH/RepMLP",
+    "html_url": "https://github.com/DingXiaoH/RepMLP",
+    "language": "Python",
+    "pushed_at": "2023-02-10T08:30:38Z",
+    "stargazers_count": 307,
+    "topics": [],
+    "updated_at": "2026-04-21T08:51:01Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dingxiaoh/repoptimizers",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dingxiaoh/resrep",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

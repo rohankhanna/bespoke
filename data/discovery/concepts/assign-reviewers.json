@@ -19,6 +19,18 @@
       "source_repo": "open-telemetry/opentelemetry-rust-contrib",
       "status": "candidate-context",
       "text": "'Assign Reviewers'"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "zed-industries/zed",
+      "status": "candidate-context",
+      "text": "Code at the speed of thought \u2013 Zed is a high-performance, multiplayer code editor from the creators of Atom and Tree-sitter."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "zed-industries/zed",
+      "status": "candidate-context",
+      "text": "Assign Reviewers"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "open-telemetry/opentelemetry-rust-contrib",
       "status": "candidate",
       "text": "'Assign Reviewers'"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "zed-industries/zed",
+      "status": "candidate",
+      "text": "Assign Reviewers"
     }
   ],
   "candidate_related_terms": [
@@ -76,11 +94,17 @@
       "observed_at": "2026-04-21T18:51:25.552552+00:00",
       "source_file": ".github/workflows/assign-reviewers.yml",
       "source_repo": "open-telemetry/opentelemetry-rust-contrib"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/assign-reviewers.yml",
+      "source_repo": "zed-industries/zed"
     }
   ],
   "first_seen_at": "2026-04-21T18:51:25.552552+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-21T18:51:25.552552+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T05:05:04.637433+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3238
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Ruby wrapper for google-gson library",
+    "fork": false,
+    "full_name": "avsej/gson.rb",
+    "html_url": "https://github.com/avsej/gson.rb",
+    "language": "Java",
+    "pushed_at": "2022-01-28T17:42:54Z",
+    "stargazers_count": 10,
+    "topics": [],
+    "updated_at": "2022-07-20T21:30:25Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

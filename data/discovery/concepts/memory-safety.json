@@ -19,6 +19,18 @@
       "source_repo": "google/zerocopy",
       "status": "candidate-context",
       "text": "<!-- Copyright 2024 The Fuchsia Authors"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "google/wuffs",
+      "status": "candidate-context",
+      "text": "Wrangling Untrusted File Formats Safely"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/wuffs",
+      "status": "candidate-context",
+      "text": "Wuffs is a **memory-safe programming language** (and a **standard library**"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "google/zerocopy",
       "status": "candidate",
       "text": "<!-- Copyright 2024 The Fuchsia Authors"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/wuffs",
+      "status": "candidate",
+      "text": "Wuffs is a **memory-safe programming language** (and a **standard library**"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-24T00:33:56.049672+00:00",
       "source_file": null,
       "source_repo": "google/zerocopy"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "google/wuffs"
     }
   ],
   "first_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -43,6 +43,30 @@
       "source_repo": "sail-sg/envpool",
       "status": "candidate-context",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "google-deepmind/mujoco",
+      "status": "candidate-context",
+      "text": "Multi-Joint dynamics with Contact. A general purpose physics simulator."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google-deepmind/mujoco",
+      "status": "candidate-context",
+      "text": "<h1>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "google-deepmind/dm_control",
+      "status": "candidate-context",
+      "text": "Google DeepMind's software stack for physics-based simulation and Reinforcement Learning environments, using MuJoCo."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google-deepmind/dm_control",
+      "status": "candidate-context",
+      "text": "Google DeepMind's software stack for physics-based simulation and Reinforcement"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +87,18 @@
       "source_repo": "sail-sg/envpool",
       "status": "candidate",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google-deepmind/mujoco",
+      "status": "candidate",
+      "text": "<h1>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google-deepmind/dm_control",
+      "status": "candidate",
+      "text": "Google DeepMind's software stack for physics-based simulation and Reinforcement"
     }
   ],
   "candidate_related_terms": [],
@@ -88,11 +124,23 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "sail-sg/envpool"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "google-deepmind/mujoco"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "google-deepmind/dm_control"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

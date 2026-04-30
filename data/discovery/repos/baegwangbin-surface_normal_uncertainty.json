@@ -1,0 +1,156 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "baegwangbin/surface_normal_uncertainty",
+      "target": "3d-reconstruction",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "baegwangbin/surface_normal_uncertainty",
+      "target": "computer-vision",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "baegwangbin/surface_normal_uncertainty",
+      "target": "deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "baegwangbin/surface_normal_uncertainty",
+      "target": "iccv2021",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "baegwangbin/surface_normal_uncertainty",
+      "target": "surface-normal",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "baegwangbin/surface_normal_uncertainty",
+      "target": "surface-normals",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "baegwangbin/surface_normal_uncertainty",
+      "target": "surface-normals-estimation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "baegwangbin/surface_normal_uncertainty",
+      "target": "uncertainty",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "baegwangbin/surface_normal_uncertainty",
+      "target": "uncertainty-estimation",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T03:49:34.897499+00:00",
+  "fetched_files": [
+    {
+      "path": "requirements.txt",
+      "size": 69
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "[ICCV 2021 Oral] Estimating and Exploiting the Aleatoric Uncertainty in Surface Normal Estimation",
+    "fork": false,
+    "full_name": "baegwangbin/surface_normal_uncertainty",
+    "html_url": "https://github.com/baegwangbin/surface_normal_uncertainty",
+    "language": "Python",
+    "pushed_at": "2022-08-18T15:06:49Z",
+    "stargazers_count": 244,
+    "topics": [
+      "3d-reconstruction",
+      "computer-vision",
+      "deep-learning",
+      "iccv2021",
+      "surface-normal",
+      "surface-normals",
+      "surface-normals-estimation",
+      "uncertainty",
+      "uncertainty-estimation"
+    ],
+    "updated_at": "2026-03-18T06:51:14Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "torch==1.6.0 torchvision==0.7.0 Pillow numpy matplotlib argparse tqdm",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "3d-reconstruction"
+    },
+    {
+      "context_snippet": "torch==1.6.0 torchvision==0.7.0 Pillow numpy matplotlib argparse tqdm",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "computer-vision"
+    },
+    {
+      "context_snippet": "torch==1.6.0 torchvision==0.7.0 Pillow numpy matplotlib argparse tqdm",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-learning"
+    },
+    {
+      "context_snippet": "torch==1.6.0 torchvision==0.7.0 Pillow numpy matplotlib argparse tqdm",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "iccv2021"
+    },
+    {
+      "context_snippet": "torch==1.6.0 torchvision==0.7.0 Pillow numpy matplotlib argparse tqdm",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "surface-normal"
+    },
+    {
+      "context_snippet": "torch==1.6.0 torchvision==0.7.0 Pillow numpy matplotlib argparse tqdm",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "surface-normals"
+    },
+    {
+      "context_snippet": "torch==1.6.0 torchvision==0.7.0 Pillow numpy matplotlib argparse tqdm",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "surface-normals-estimation"
+    },
+    {
+      "context_snippet": "torch==1.6.0 torchvision==0.7.0 Pillow numpy matplotlib argparse tqdm",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "uncertainty"
+    },
+    {
+      "context_snippet": "torch==1.6.0 torchvision==0.7.0 Pillow numpy matplotlib argparse tqdm",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "uncertainty-estimation"
+    }
+  ]
+}

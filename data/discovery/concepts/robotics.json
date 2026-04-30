@@ -103,6 +103,54 @@
       "source_repo": "qgallouedec/panda-gym",
       "status": "candidate-context",
       "text": "Set of robotic environments based on PyBullet physics engine and gymnasium."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "google-deepmind/mujoco",
+      "status": "candidate-context",
+      "text": "Multi-Joint dynamics with Contact. A general purpose physics simulator."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google-deepmind/mujoco",
+      "status": "candidate-context",
+      "text": "<h1>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kornia/kornia",
+      "status": "candidate-context",
+      "text": "\ud83d\udc0d Geometric Computer Vision Library for Spatial AI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kornia/kornia",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "google/brax",
+      "status": "candidate-context",
+      "text": "Massively parallel rigidbody physics simulation on accelerator hardware."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/brax",
+      "status": "candidate-context",
+      "text": "<img src=\"https://github.com/google/brax/raw/main/docs/img/brax_logo.gif\" width=\"336\" height=\"80\" alt=\"BRAX\"/>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "google-deepmind/tapnet",
+      "status": "candidate-context",
+      "text": "Tracking Any Point (TAP)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google-deepmind/tapnet",
+      "status": "candidate-context",
+      "text": "[[`TAP-Vid`](https://tapvid.github.io/)] [[`TAPIR`](https://deepmind-tapir.github.io/)] [[`RoboTAP`](https://robotap.github.io/)] [[`Blog Post`](https://deepmind-tapir.github.io/blogpost.html)] [[`BootsTAP`](https://bootstap.github.io/)] [[`TAPVid-3D`](https://tapvid3d.github.io\u2026"
     }
   ],
   "candidate_glosses": [
@@ -153,6 +201,30 @@
       "source_repo": "qgallouedec/panda-gym",
       "status": "candidate",
       "text": "Set of robotic environments based on PyBullet physics engine and gymnasium."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google-deepmind/mujoco",
+      "status": "candidate",
+      "text": "<h1>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kornia/kornia",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/brax",
+      "status": "candidate",
+      "text": "<img src=\"https://github.com/google/brax/raw/main/docs/img/brax_logo.gif\" width=\"336\" height=\"80\" alt=\"BRAX\"/>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google-deepmind/tapnet",
+      "status": "candidate",
+      "text": "[[`TAP-Vid`](https://tapvid.github.io/)] [[`TAPIR`](https://deepmind-tapir.github.io/)] [[`RoboTAP`](https://robotap.github.io/)] [[`Blog Post`](https://deepmind-tapir.github.io/blogpost.html)] [[`BootsTAP`](https://bootstap.github.io/)] [[`TAPVid-3D`](https://tapvid3d.github.io\u2026"
     }
   ],
   "candidate_related_terms": [
@@ -244,11 +316,35 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "qgallouedec/panda-gym"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "google-deepmind/mujoco"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "kornia/kornia"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "google/brax"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "google-deepmind/tapnet"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "csrf"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "justinas/nosurf",
+      "status": "candidate-context",
+      "text": "CSRF protection middleware for Go."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "justinas/nosurf",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://travis-ci.org/justinas/nosurf.svg?branch=master)](https://travis-ci.org/justinas/nosurf)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "justinas/nosurf",
+      "status": "candidate",
+      "text": "[![Build Status](https://travis-ci.org/justinas/nosurf.svg?branch=master)](https://travis-ci.org/justinas/nosurf)"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20022672,
+      "status": "candidate",
+      "text": "ssrf"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20022671,
+      "status": "candidate",
+      "text": "cors"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20022670,
+      "status": "candidate",
+      "text": "csprng"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20022669,
+      "status": "candidate",
+      "text": "hsts"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20022668,
+      "status": "candidate",
+      "text": "cissp"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "csrf",
+  "concept_id": "csrf",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "justinas/nosurf"
+    }
+  ],
+  "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "csrf",
+      "sense_id": "csrf#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

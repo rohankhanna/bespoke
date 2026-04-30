@@ -141,7 +141,7 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "marin-community/levanter",
-      "target": "marin-community/marin",
+      "target": "patrick-kidger/equinox",
       "target_type": "repository"
     },
     {
@@ -411,7 +411,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-23T22:20:01.869614+00:00",
+  "fetched_at": "2026-04-30T02:02:32.779819+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -464,9 +464,9 @@
     "html_url": "https://github.com/marin-community/levanter",
     "language": "Python",
     "pushed_at": "2026-01-26T20:08:30Z",
-    "stargazers_count": 702,
+    "stargazers_count": 705,
     "topics": [],
-    "updated_at": "2026-04-20T02:43:08Z"
+    "updated_at": "2026-04-29T18:49:27Z"
   },
   "repo_links": [
     {
@@ -486,7 +486,7 @@
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "marin-community/marin",
+      "full_name": "patrick-kidger/equinox",
       "source_file": "README.md"
     }
   ],

@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": ":scroll: Historical record of happenings at the Nottingham New Theatre."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "![Nottingham New Theatre History Project logo](https://user-images.githubusercontent.com/15388319/146941661-9c38b674-6d27-4589-9723-2d2bec93d7c8.png)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "![Nottingham New Theatre History Project logo](https://user-images.githubusercontent.com/15388319/146941661-9c38b674-6d27-4589-9723-2d2bec93d7c8.png)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40044752,
+      "status": "candidate",
+      "text": "theater"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40043829,
+      "status": "candidate",
+      "text": "dramaturgy"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40043290,
+      "status": "candidate",
+      "text": "dramatics"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39967102,
+      "status": "candidate",
+      "text": "house"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30044936,
+      "status": "candidate",
+      "text": "dramatic art"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "theatre",
+      "sense_id": "theatre#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 12073,
+      "status": "candidate",
+      "text": "house"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 11038,
+      "status": "candidate",
+      "text": "theater"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 10029,
+      "status": "candidate",
+      "text": "dramaturgy"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 3010,
+      "status": "candidate",
+      "text": "dramatic art"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 1024,
+      "status": "candidate",
+      "text": "dramatics"
+    }
+  ],
+  "concept_id": "theatre",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "theatre",
+  "observation_id": "d9e6b2d91bdac987",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T00:37:16.824464+00:00",
+  "observed_text": "theatre",
+  "source_context_snippet": "![Nottingham New Theatre History Project logo](https://user-images.githubusercontent.com/15388319/146941661-9c38b674-6d27-4589-9723-2d2bec93d7c8.png)",
+  "source_file": null,
+  "source_repo": "newtheatre/history-project",
+  "source_repo_description": ":scroll: Historical record of happenings at the Nottingham New Theatre."
+}

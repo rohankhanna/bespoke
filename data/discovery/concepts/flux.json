@@ -79,6 +79,42 @@
       "source_repo": "deepbeepmeep/Wan2GP",
       "status": "candidate-context",
       "text": "-----"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Macoron/ComfyUI-Diffusers-OminiControl",
+      "status": "candidate-context",
+      "text": "ComfyUI nodes to run FLUX OminiControl using diffusers"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Macoron/ComfyUI-Diffusers-OminiControl",
+      "status": "candidate-context",
+      "text": "This is an unofficial [ComfyUI](https://github.com/comfyanonymous/ComfyUI) node for [FLUX OminiControl](https://github.com/Yuanshi9815/OminiControl)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "chengzeyi/ParaAttention",
+      "status": "candidate-context",
+      "text": "https://wavespeed.ai/ Context parallel attention that accelerates DiT model inference with dynamic caching"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chengzeyi/ParaAttention",
+      "status": "candidate-context",
+      "text": "[Blazing Fast FLUX-dev with LoRAs](https://wavespeed.ai/models/wavespeed-ai/flux-dev-lora)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "leejet/stable-diffusion.cpp",
+      "status": "candidate-context",
+      "text": "Diffusion model(SD,Flux,Wan,Qwen Image,Z-Image,...) inference in pure C/C++"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "leejet/stable-diffusion.cpp",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -117,6 +153,24 @@
       "source_repo": "deepbeepmeep/Wan2GP",
       "status": "candidate",
       "text": "-----"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Macoron/ComfyUI-Diffusers-OminiControl",
+      "status": "candidate",
+      "text": "This is an unofficial [ComfyUI](https://github.com/comfyanonymous/ComfyUI) node for [FLUX OminiControl](https://github.com/Yuanshi9815/OminiControl)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chengzeyi/ParaAttention",
+      "status": "candidate",
+      "text": "[Blazing Fast FLUX-dev with LoRAs](https://wavespeed.ai/models/wavespeed-ai/flux-dev-lora)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "leejet/stable-diffusion.cpp",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -249,11 +303,41 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "deepbeepmeep/Wan2GP"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "jmsltnv/civitai-data-manager"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "nunchaku-ai/nunchaku"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "Macoron/ComfyUI-Diffusers-OminiControl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "chengzeyi/ParaAttention"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "leejet/stable-diffusion.cpp"
     }
   ],
   "first_seen_at": "2026-04-19T02:42:33.990002+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

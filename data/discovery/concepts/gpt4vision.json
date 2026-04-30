@@ -19,6 +19,18 @@
       "source_repo": "soulteary/amazing-openai-api",
       "status": "candidate-context",
       "text": "![](.github/assets/aoa.jpg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "AmberSahdev/Open-Interface",
+      "status": "candidate-context",
+      "text": "Control Any Computer Using LLMs."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AmberSahdev/Open-Interface",
+      "status": "candidate-context",
+      "text": "<picture>"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "soulteary/amazing-openai-api",
       "status": "candidate",
       "text": "![](.github/assets/aoa.jpg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AmberSahdev/Open-Interface",
+      "status": "candidate",
+      "text": "<picture>"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": null,
       "source_repo": "soulteary/amazing-openai-api"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "AmberSahdev/Open-Interface"
     }
   ],
   "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

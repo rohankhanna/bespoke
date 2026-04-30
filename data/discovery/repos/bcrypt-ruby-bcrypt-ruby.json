@@ -1,0 +1,148 @@
+{
+  "components": [
+    {
+      "component": "step-security/harden-runner@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "ruby/setup-ruby@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "rubygems/release-gem@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "ruby/actions/.github/workflows/ruby_versions.yml@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ruby.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ruby.yml"
+    },
+    {
+      "component": "ruby/setup-ruby-pkgs@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ruby.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "bcrypt-ruby/bcrypt-ruby",
+      "target": "step-security/harden-runner@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "bcrypt-ruby/bcrypt-ruby",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "bcrypt-ruby/bcrypt-ruby",
+      "target": "ruby/setup-ruby@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "bcrypt-ruby/bcrypt-ruby",
+      "target": "rubygems/release-gem@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "bcrypt-ruby/bcrypt-ruby",
+      "target": "Publish gem to rubygems.org",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ruby.yml",
+      "source_repo": "bcrypt-ruby/bcrypt-ruby",
+      "target": "ruby/actions/.github/workflows/ruby_versions.yml@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ruby.yml",
+      "source_repo": "bcrypt-ruby/bcrypt-ruby",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ruby.yml",
+      "source_repo": "bcrypt-ruby/bcrypt-ruby",
+      "target": "ruby/setup-ruby-pkgs@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ruby.yml",
+      "source_repo": "bcrypt-ruby/bcrypt-ruby",
+      "target": "Test Suite",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T05:05:09.591472+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7231
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "size": 1531
+    },
+    {
+      "path": ".github/workflows/ruby.yml",
+      "size": 1600
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "bcrypt-ruby is a Ruby binding for the OpenBSD bcrypt() password hashing algorithm, allowing you to easily store a secure hash of your users' passwords.",
+    "fork": false,
+    "full_name": "bcrypt-ruby/bcrypt-ruby",
+    "html_url": "https://github.com/bcrypt-ruby/bcrypt-ruby",
+    "language": "C",
+    "pushed_at": "2026-03-27T19:38:11Z",
+    "stargazers_count": 1972,
+    "topics": [],
+    "updated_at": "2026-04-29T14:35:46Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Publish gem to rubygems.org",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "term": "Publish gem to rubygems.org"
+    },
+    {
+      "context_snippet": "Test Suite",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ruby.yml",
+      "term": "Test Suite"
+    }
+  ]
+}

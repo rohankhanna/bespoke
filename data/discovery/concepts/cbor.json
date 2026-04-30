@@ -91,6 +91,18 @@
       "source_repo": "danielgtaylor/shorthand",
       "status": "candidate-context",
       "text": "[![Docs](https://godoc.org/github.com/danielgtaylor/shorthand?status.svg)](https://pkg.go.dev/github.com/danielgtaylor/shorthand?tab=doc) [![Go Report Card](https://goreportcard.com/badge/github.com/danielgtaylor/shorthand)](https://goreportcard.com/report/github.com/danielgtayl\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Kotlin/kotlinx.serialization",
+      "status": "candidate-context",
+      "text": "Kotlin multiplatform / multi-format serialization "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Kotlin/kotlinx.serialization",
+      "status": "candidate-context",
+      "text": "[![Kotlin Stable](https://kotl.in/badges/stable.svg)](https://kotlinlang.org/docs/components-stability.html)"
     }
   ],
   "candidate_glosses": [
@@ -135,6 +147,12 @@
       "source_repo": "danielgtaylor/shorthand",
       "status": "candidate",
       "text": "[![Docs](https://godoc.org/github.com/danielgtaylor/shorthand?status.svg)](https://pkg.go.dev/github.com/danielgtaylor/shorthand?tab=doc) [![Go Report Card](https://goreportcard.com/badge/github.com/danielgtaylor/shorthand)](https://goreportcard.com/report/github.com/danielgtayl\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Kotlin/kotlinx.serialization",
+      "status": "candidate",
+      "text": "[![Kotlin Stable](https://kotl.in/badges/stable.svg)](https://kotlinlang.org/docs/components-stability.html)"
     }
   ],
   "candidate_related_terms": [
@@ -219,11 +237,17 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "rest-sh/restish"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "Kotlin/kotlinx.serialization"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Maven Central Sync"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "micronaut-projects/micronaut-langchain4j",
+      "status": "candidate-context",
+      "text": "Integration between Micronaut and Langchain4j"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "micronaut-projects/micronaut-langchain4j",
+      "status": "candidate-context",
+      "text": "Maven Central Sync"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "micronaut-projects/micronaut-langchain4j",
+      "status": "candidate",
+      "text": "Maven Central Sync"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27256,
+      "status": "candidate",
+      "text": "seth"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26382,
+      "status": "candidate",
+      "text": "cast"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26382,
+      "status": "candidate",
+      "text": "east"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26382,
+      "status": "candidate",
+      "text": "west"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22928,
+      "status": "candidate",
+      "text": "boss"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Maven Central Sync",
+  "concept_id": "maven-central-sync",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/central-sync.yml",
+      "source_repo": "micronaut-projects/micronaut-langchain4j"
+    }
+  ],
+  "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Maven Central Sync",
+      "sense_id": "maven-central-sync#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

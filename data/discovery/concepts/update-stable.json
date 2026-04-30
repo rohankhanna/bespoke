@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "update-stable"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Justintime50/homebrew-releaser",
+      "status": "candidate-context",
+      "text": "Release scripts, binaries, and executables directly to Homebrew via GitHub Actions."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Justintime50/homebrew-releaser",
+      "status": "candidate-context",
+      "text": "update-stable"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Justintime50/homebrew-releaser",
+      "status": "candidate",
+      "text": "update-stable"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "update-stable",
+  "concept_id": "update-stable",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/update-stable.yml",
+      "source_repo": "Justintime50/homebrew-releaser"
+    }
+  ],
+  "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "update-stable",
+      "sense_id": "update-stable#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

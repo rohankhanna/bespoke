@@ -94,6 +94,18 @@
       "source_repo": "mesos/chronos",
       "status": "candidate-context",
       "text": "Chronos is a replacement for `cron`. It is a distributed and fault-tolerant scheduler that runs on top of [Apache Mesos][mesos] that can be used for job orchestration. It supports custom Mesos executors as well"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jazzband/pip-tools",
+      "status": "candidate-context",
+      "text": "A set of tools to keep your pinned Python dependencies fresh."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jazzband/pip-tools",
+      "status": "candidate-context",
+      "text": "Cron"
     }
   ],
   "candidate_glosses": [
@@ -138,6 +150,12 @@
       "source_repo": "mesos/chronos",
       "status": "candidate",
       "text": "Chronos is a replacement for `cron`. It is a distributed and fault-tolerant scheduler that runs on top of [Apache Mesos][mesos] that can be used for job orchestration. It supports custom Mesos executors as well"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jazzband/pip-tools",
+      "status": "candidate",
+      "text": "Cron"
     }
   ],
   "candidate_related_terms": [
@@ -277,11 +295,23 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": ".github/workflows/cron.yml",
       "source_repo": "GitoxideLabs/gitoxide"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/cron.yml",
+      "source_repo": "jazzband/pip-tools"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "dkron-io/dkron"
     }
   ],
   "first_seen_at": "2026-04-19T04:47:57.443742+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

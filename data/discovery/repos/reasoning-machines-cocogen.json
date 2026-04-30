@@ -1,0 +1,104 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "reasoning-machines/CoCoGen",
+      "target": "code-generation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "reasoning-machines/CoCoGen",
+      "target": "commonsense-reasoning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "reasoning-machines/CoCoGen",
+      "target": "few-shot-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "reasoning-machines/CoCoGen",
+      "target": "large-language-models",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "reasoning-machines/CoCoGen",
+      "target": "reasoning",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T02:49:22.795424+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 14175
+    },
+    {
+      "path": "requirements.txt",
+      "size": 2635
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Language Models of Code are Few-Shot Commonsense Learners (EMNLP 2022)",
+    "fork": false,
+    "full_name": "reasoning-machines/CoCoGen",
+    "html_url": "https://github.com/reasoning-machines/CoCoGen",
+    "language": "Python",
+    "pushed_at": "2023-03-20T01:55:19Z",
+    "stargazers_count": 86,
+    "topics": [
+      "code-generation",
+      "commonsense-reasoning",
+      "few-shot-learning",
+      "large-language-models",
+      "reasoning"
+    ],
+    "updated_at": "2026-03-07T00:04:59Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "The official repository for [\"Language Models of Code are Few-Shot Commonsense Learners\"](https://arxiv.org/abs/2210.07128) (Madaan et al., EMNLP'2022).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "code-generation"
+    },
+    {
+      "context_snippet": "The official repository for [\"Language Models of Code are Few-Shot Commonsense Learners\"](https://arxiv.org/abs/2210.07128) (Madaan et al., EMNLP'2022).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "commonsense-reasoning"
+    },
+    {
+      "context_snippet": "The official repository for [\"Language Models of Code are Few-Shot Commonsense Learners\"](https://arxiv.org/abs/2210.07128) (Madaan et al., EMNLP'2022).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "few-shot-learning"
+    },
+    {
+      "context_snippet": "The official repository for [\"Language Models of Code are Few-Shot Commonsense Learners\"](https://arxiv.org/abs/2210.07128) (Madaan et al., EMNLP'2022).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "large-language-models"
+    },
+    {
+      "context_snippet": "The official repository for [\"Language Models of Code are Few-Shot Commonsense Learners\"](https://arxiv.org/abs/2210.07128) (Madaan et al., EMNLP'2022).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "reasoning"
+    }
+  ]
+}

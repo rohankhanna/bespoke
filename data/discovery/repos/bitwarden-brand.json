@@ -1,0 +1,58 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bitwarden/brand",
+      "target": "bitwarden",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bitwarden/brand",
+      "target": "illustrator",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T01:46:52.782953+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3903
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Logos, icons, screenshots, and other media related to the Bitwarden brand.",
+    "fork": false,
+    "full_name": "bitwarden/brand",
+    "html_url": "https://github.com/bitwarden/brand",
+    "language": "Shell",
+    "pushed_at": "2026-01-22T17:28:47Z",
+    "stargazers_count": 102,
+    "topics": [
+      "bitwarden",
+      "illustrator"
+    ],
+    "updated_at": "2026-02-09T23:36:45Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "This repository contains resources for the Bitwarden brand such as logos, icons, screenshots, color palettes, and other media.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bitwarden"
+    },
+    {
+      "context_snippet": "This repository contains resources for the Bitwarden brand such as logos, icons, screenshots, color palettes, and other media.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "illustrator"
+    }
+  ]
+}

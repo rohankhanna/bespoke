@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "cogvlm"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "zai-org/CogVLM2",
+      "status": "candidate-context",
+      "text": "GPT4V-level open-source multi-modal model based on Llama3-8B"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "zai-org/CogVLM2",
+      "status": "candidate-context",
+      "text": "[\u4e2d\u6587\u7248README](./README_zh.md)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "zai-org/CogVLM2",
+      "status": "candidate",
+      "text": "[\u4e2d\u6587\u7248README](./README_zh.md)"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "cogvlm",
+  "concept_id": "cogvlm",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "zai-org/CogVLM2"
+    }
+  ],
+  "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "cogvlm",
+      "sense_id": "cogvlm#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

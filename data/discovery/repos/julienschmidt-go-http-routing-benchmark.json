@@ -1,0 +1,81 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "julienschmidt/go-http-routing-benchmark",
+      "target": "ant0ine/go-json-rest",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "julienschmidt/go-http-routing-benchmark",
+      "target": "naoina/denco",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "julienschmidt/go-http-routing-benchmark",
+      "target": "gocraft/web",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "julienschmidt/go-http-routing-benchmark",
+      "target": "mikespook/possum",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T05:02:44.925908+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 31904
+    },
+    {
+      "path": "go.mod",
+      "size": 3167
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Go HTTP request router and web framework benchmark",
+    "fork": false,
+    "full_name": "julienschmidt/go-http-routing-benchmark",
+    "html_url": "https://github.com/julienschmidt/go-http-routing-benchmark",
+    "language": "Go",
+    "pushed_at": "2023-09-12T13:30:57Z",
+    "stargazers_count": 1661,
+    "topics": [],
+    "updated_at": "2026-04-26T06:41:06Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ant0ine/go-json-rest",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "gocraft/web",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mikespook/possum",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "naoina/denco",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Language Server Implementation for Luau"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "An implementation of a language server for the [Luau](https://github.com/Roblox/luau) programming language."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "An implementation of a language server for the [Luau](https://github.com/Roblox/luau) programming language."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19772569,
+      "status": "candidate",
+      "text": "korean"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10050156,
+      "status": "candidate",
+      "text": "hukilau"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10050155,
+      "status": "candidate",
+      "text": "hoolaulea"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10050154,
+      "status": "candidate",
+      "text": "hakari"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10050153,
+      "status": "candidate",
+      "text": "kalua"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "luau",
+      "sense_id": "luau#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "luau",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "luau",
+  "observation_id": "cdb3df2aea4af32a",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T00:37:16.824464+00:00",
+  "observed_text": "luau",
+  "source_context_snippet": "An implementation of a language server for the [Luau](https://github.com/Roblox/luau) programming language.",
+  "source_file": null,
+  "source_repo": "JohnnyMorganz/luau-lsp",
+  "source_repo_description": "Language Server Implementation for Luau"
+}

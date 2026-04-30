@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Endo is a distributed secure JavaScript sandbox, based on SES"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "---"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "---"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40040902,
+      "status": "candidate",
+      "text": "hard"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40039227,
+      "status": "candidate",
+      "text": "tough"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40038374,
+      "status": "candidate",
+      "text": "case-hardened"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40029642,
+      "status": "candidate",
+      "text": "tempered"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40014758,
+      "status": "candidate",
+      "text": "set"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "hardened",
+      "sense_id": "hardened#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 39108,
+      "status": "candidate",
+      "text": "set"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 33057,
+      "status": "candidate",
+      "text": "hard"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 26044,
+      "status": "candidate",
+      "text": "tough"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 14031,
+      "status": "candidate",
+      "text": "tempered"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 9020,
+      "status": "candidate",
+      "text": "inured"
+    }
+  ],
+  "concept_id": "hardened",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "hardened",
+  "observation_id": "3c24695a5456e816",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T00:37:16.824464+00:00",
+  "observed_text": "hardened",
+  "source_context_snippet": "---",
+  "source_file": null,
+  "source_repo": "endojs/endo",
+  "source_repo_description": "Endo is a distributed secure JavaScript sandbox, based on SES"
+}

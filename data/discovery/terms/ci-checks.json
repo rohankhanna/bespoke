@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-18T09:21:02.237042+00:00",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
@@ -26,6 +26,21 @@
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/ci.yaml",
       "source_repo": "0xPolygonHermez/pil2-proofman"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "zkcrypto/bls12_381"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "zkcrypto/ff"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "zkcrypto/group"
     }
   ],
   "term": "CI Checks"

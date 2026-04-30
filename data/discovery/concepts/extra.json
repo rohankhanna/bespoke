@@ -1,0 +1,136 @@
+{
+  "aliases": [
+    "extra"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "EdenEast/nightfox.nvim",
+      "status": "candidate-context",
+      "text": "\ud83e\udd8aA highly customizable theme for vim and neovim with support for lsp, treesitter and a variety of plugins."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "EdenEast/nightfox.nvim",
+      "status": "candidate-context",
+      "text": "extra"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "EdenEast/nightfox.nvim",
+      "status": "candidate",
+      "text": "extra"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40016648,
+      "status": "candidate",
+      "text": "superfluous"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40016515,
+      "status": "candidate",
+      "text": "excess"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40016415,
+      "status": "candidate",
+      "text": "surplus"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40015223,
+      "status": "candidate",
+      "text": "redundant"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40014834,
+      "status": "candidate",
+      "text": "supererogatory"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 59038,
+      "status": "candidate",
+      "text": "superfluous"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 31041,
+      "status": "candidate",
+      "text": "redundant"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 26046,
+      "status": "candidate",
+      "text": "excess"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 20035,
+      "status": "candidate",
+      "text": "additional"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 19048,
+      "status": "candidate",
+      "text": "surplus"
+    }
+  ],
+  "canonical_name": "extra",
+  "concept_id": "extra",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/extra.yml",
+      "source_repo": "EdenEast/nightfox.nvim"
+    }
+  ],
+  "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "extra",
+      "sense_id": "extra#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

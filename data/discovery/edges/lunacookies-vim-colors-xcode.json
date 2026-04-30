@@ -1,0 +1,34 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "lunacookies/vim-colors-xcode",
+      "target": "hail2u/vim-css3-syntax",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "lunacookies/vim-colors-xcode",
+      "target": "glench/vim-jinja2-syntax",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "lunacookies/vim-colors-xcode",
+      "target": "cakebaker/scss-syntax.vim",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "lunacookies/vim-colors-xcode",
+      "target": "lifepillar/vim-colortemplate",
+      "target_type": "repository"
+    }
+  ],
+  "generated_at": "2026-04-30T00:37:16.824464+00:00",
+  "source_repo": "lunacookies/vim-colors-xcode"
+}

@@ -19,6 +19,18 @@
       "source_repo": "falconry/falcon",
       "status": "candidate-context",
       "text": ".. image:: https://raw.githubusercontent.com/falconry/falcon/master/logo/banner.jpg"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pallets/flask",
+      "status": "candidate-context",
+      "text": "The Python micro framework for building web applications."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pallets/flask",
+      "status": "candidate-context",
+      "text": "<div align=\"center\"><img src=\"https://raw.githubusercontent.com/pallets/flask/refs/heads/stable/docs/_static/flask-name.svg\" alt=\"\" height=\"150\"></div>"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "falconry/falcon",
       "status": "candidate",
       "text": ".. image:: https://raw.githubusercontent.com/falconry/falcon/master/logo/banner.jpg"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pallets/flask",
+      "status": "candidate",
+      "text": "<div align=\"center\"><img src=\"https://raw.githubusercontent.com/pallets/flask/refs/heads/stable/docs/_static/flask-name.svg\" alt=\"\" height=\"150\"></div>"
     }
   ],
   "candidate_related_terms": [
@@ -76,11 +94,17 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": null,
       "source_repo": "falconry/falcon"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "pallets/flask"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

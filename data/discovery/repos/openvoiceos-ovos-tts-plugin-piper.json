@@ -1,0 +1,356 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_tests.yml"
+    },
+    {
+      "component": "actions/setup-python@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_tests.yml"
+    },
+    {
+      "component": "bcoe/conventional-release-labels@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/conventional-label.yaml"
+    },
+    {
+      "component": "TigreGotico/gh-automations/.github/workflows/publish-stable.yml@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish_stable.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish_stable.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish_stable.yml"
+    },
+    {
+      "component": "pypa/gh-action-pypi-publish@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish_stable.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish_stable.yml"
+    },
+    {
+      "component": "ad-m/github-push-action@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish_stable.yml"
+    },
+    {
+      "component": "TigreGotico/gh-automations/.github/workflows/publish-alpha.yml@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release_workflow.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release_workflow.yml"
+    },
+    {
+      "component": "fadenb/matrix-chat-message@v0.0.6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release_workflow.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release_workflow.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release_workflow.yml"
+    },
+    {
+      "component": "pypa/gh-action-pypi-publish@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release_workflow.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release_workflow.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release_workflow.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "OpenVoiceOS/ovos-tts-plugin-piper",
+      "target": "tigregotico/phoonnx",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_tests.yml",
+      "source_repo": "OpenVoiceOS/ovos-tts-plugin-piper",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_tests.yml",
+      "source_repo": "OpenVoiceOS/ovos-tts-plugin-piper",
+      "target": "actions/setup-python@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build_tests.yml",
+      "source_repo": "OpenVoiceOS/ovos-tts-plugin-piper",
+      "target": "Run Build Tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/conventional-label.yaml",
+      "source_repo": "OpenVoiceOS/ovos-tts-plugin-piper",
+      "target": "bcoe/conventional-release-labels@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/conventional-label.yaml",
+      "source_repo": "OpenVoiceOS/ovos-tts-plugin-piper",
+      "target": "conventional-release-labels",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish_stable.yml",
+      "source_repo": "OpenVoiceOS/ovos-tts-plugin-piper",
+      "target": "TigreGotico/gh-automations/.github/workflows/publish-stable.yml@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish_stable.yml",
+      "source_repo": "OpenVoiceOS/ovos-tts-plugin-piper",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish_stable.yml",
+      "source_repo": "OpenVoiceOS/ovos-tts-plugin-piper",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish_stable.yml",
+      "source_repo": "OpenVoiceOS/ovos-tts-plugin-piper",
+      "target": "pypa/gh-action-pypi-publish@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish_stable.yml",
+      "source_repo": "OpenVoiceOS/ovos-tts-plugin-piper",
+      "target": "ad-m/github-push-action@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish_stable.yml",
+      "source_repo": "OpenVoiceOS/ovos-tts-plugin-piper",
+      "target": "Stable Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release_workflow.yml",
+      "source_repo": "OpenVoiceOS/ovos-tts-plugin-piper",
+      "target": "TigreGotico/gh-automations/.github/workflows/publish-alpha.yml@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release_workflow.yml",
+      "source_repo": "OpenVoiceOS/ovos-tts-plugin-piper",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release_workflow.yml",
+      "source_repo": "OpenVoiceOS/ovos-tts-plugin-piper",
+      "target": "fadenb/matrix-chat-message@v0.0.6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release_workflow.yml",
+      "source_repo": "OpenVoiceOS/ovos-tts-plugin-piper",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release_workflow.yml",
+      "source_repo": "OpenVoiceOS/ovos-tts-plugin-piper",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release_workflow.yml",
+      "source_repo": "OpenVoiceOS/ovos-tts-plugin-piper",
+      "target": "pypa/gh-action-pypi-publish@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release_workflow.yml",
+      "source_repo": "OpenVoiceOS/ovos-tts-plugin-piper",
+      "target": "Release Alpha and Propose Stable",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "OpenVoiceOS/ovos-tts-plugin-piper",
+      "target": "deprecated",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "OpenVoiceOS/ovos-tts-plugin-piper",
+      "target": "openvoiceos",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "OpenVoiceOS/ovos-tts-plugin-piper",
+      "target": "plugin",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "OpenVoiceOS/ovos-tts-plugin-piper",
+      "target": "text-to-speech",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T03:45:20.084836+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1726
+    },
+    {
+      "path": "requirements.txt",
+      "size": 100
+    },
+    {
+      "path": ".github/workflows/build_tests.yml",
+      "size": 839
+    },
+    {
+      "path": ".github/workflows/conventional-label.yaml",
+      "size": 218
+    },
+    {
+      "path": ".github/workflows/publish_stable.yml",
+      "size": 1733
+    },
+    {
+      "path": ".github/workflows/release_workflow.yml",
+      "size": 3398
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "dev",
+    "description": null,
+    "fork": false,
+    "full_name": "OpenVoiceOS/ovos-tts-plugin-piper",
+    "html_url": "https://github.com/OpenVoiceOS/ovos-tts-plugin-piper",
+    "language": "Python",
+    "pushed_at": "2025-11-22T13:16:23Z",
+    "stargazers_count": 35,
+    "topics": [
+      "deprecated",
+      "openvoiceos",
+      "plugin",
+      "text-to-speech",
+      "tts"
+    ],
+    "updated_at": "2026-03-25T03:02:12Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "tigregotico/phoonnx",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Run Build Tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build_tests.yml",
+      "term": "Run Build Tests"
+    },
+    {
+      "context_snippet": "conventional-release-labels",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/conventional-label.yaml",
+      "term": "conventional-release-labels"
+    },
+    {
+      "context_snippet": "Stable Release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish_stable.yml",
+      "term": "Stable Release"
+    },
+    {
+      "context_snippet": "Release Alpha and Propose Stable",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release_workflow.yml",
+      "term": "Release Alpha and Propose Stable"
+    },
+    {
+      "context_snippet": "[OpenVoiceOS (OVOS)](https://openvoiceos.org) TTS plugin for [piper](https://github.com/rhasspy/piper)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deprecated"
+    },
+    {
+      "context_snippet": "[OpenVoiceOS (OVOS)](https://openvoiceos.org) TTS plugin for [piper](https://github.com/rhasspy/piper)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "openvoiceos"
+    },
+    {
+      "context_snippet": "[OpenVoiceOS (OVOS)](https://openvoiceos.org) TTS plugin for [piper](https://github.com/rhasspy/piper)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "plugin"
+    },
+    {
+      "context_snippet": "[OpenVoiceOS (OVOS)](https://openvoiceos.org) TTS plugin for [piper](https://github.com/rhasspy/piper)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "text-to-speech"
+    }
+  ]
+}

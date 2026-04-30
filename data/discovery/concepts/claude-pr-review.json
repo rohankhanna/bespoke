@@ -55,6 +55,18 @@
       "source_repo": "lambdaclass/lambdaworks",
       "status": "candidate-context",
       "text": "Claude PR Review"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "graffle-js/graffle",
+      "status": "candidate-context",
+      "text": "Simple GraphQL Client for JavaScript. Minimal. Extensible. Type Safe. Runs everywhere."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "graffle-js/graffle",
+      "status": "candidate-context",
+      "text": "Claude PR Review"
     }
   ],
   "candidate_glosses": [
@@ -79,6 +91,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "lambdaclass/lambdaworks",
+      "status": "candidate",
+      "text": "Claude PR Review"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "graffle-js/graffle",
       "status": "candidate",
       "text": "Claude PR Review"
     }
@@ -208,11 +226,23 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": ".github/workflows/claude-pr-review.yml",
       "source_repo": "anthropics/claude-cookbooks"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/claude-review.yml",
+      "source_repo": "graffle-js/graffle"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/claude-pr-review.yml",
+      "source_repo": "anthropics/claude-cookbooks"
     }
   ],
   "first_seen_at": "2026-04-18T12:46:59.510459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

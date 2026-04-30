@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Report key usage"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "plone/cookieplone-templates",
+      "status": "candidate-context",
+      "text": "Plone templates used with cookieplone"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "plone/cookieplone-templates",
+      "status": "candidate-context",
+      "text": "'Report key usage'"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "plone/cookieplone-templates",
+      "status": "candidate",
+      "text": "'Report key usage'"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26115,
+      "status": "candidate",
+      "text": "box"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26115,
+      "status": "candidate",
+      "text": "nox"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17874,
+      "status": "candidate",
+      "text": "book"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17874,
+      "status": "candidate",
+      "text": "condemn"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17874,
+      "status": "candidate",
+      "text": "study"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Report key usage",
+  "concept_id": "report-key-usage",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/report.yml",
+      "source_repo": "plone/cookieplone-templates"
+    }
+  ],
+  "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Report key usage",
+      "sense_id": "report-key-usage#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

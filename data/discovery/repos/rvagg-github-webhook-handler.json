@@ -1,0 +1,229 @@
+{
+  "components": [
+    {
+      "component": "bl",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@semantic-release/changelog",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@semantic-release/commit-analyzer",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@semantic-release/git",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@semantic-release/github",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@semantic-release/npm",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@semantic-release/release-notes-generator",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@types/node",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "conventional-changelog-conventionalcommits",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "semantic-release",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "standard",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "typescript",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-and-release.yml"
+    },
+    {
+      "component": "actions/setup-node@v6.4.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-and-release.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-and-release.yml"
+    },
+    {
+      "component": "actions/setup-node@v6.4.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-and-release.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "rvagg/github-webhook-handler",
+      "target": "bl",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "rvagg/github-webhook-handler",
+      "target": "@semantic-release/changelog",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "rvagg/github-webhook-handler",
+      "target": "@semantic-release/commit-analyzer",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "rvagg/github-webhook-handler",
+      "target": "@semantic-release/git",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "rvagg/github-webhook-handler",
+      "target": "@semantic-release/github",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "rvagg/github-webhook-handler",
+      "target": "@semantic-release/npm",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "rvagg/github-webhook-handler",
+      "target": "@semantic-release/release-notes-generator",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "rvagg/github-webhook-handler",
+      "target": "@types/node",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "rvagg/github-webhook-handler",
+      "target": "conventional-changelog-conventionalcommits",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "rvagg/github-webhook-handler",
+      "target": "semantic-release",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "rvagg/github-webhook-handler",
+      "target": "standard",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "rvagg/github-webhook-handler",
+      "target": "typescript",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-and-release.yml",
+      "source_repo": "rvagg/github-webhook-handler",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-and-release.yml",
+      "source_repo": "rvagg/github-webhook-handler",
+      "target": "actions/setup-node@v6.4.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test-and-release.yml",
+      "source_repo": "rvagg/github-webhook-handler",
+      "target": "Test & Maybe Release",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T00:58:32.098564+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4316
+    },
+    {
+      "path": "package.json",
+      "size": 3278
+    },
+    {
+      "path": ".github/workflows/test-and-release.yml",
+      "size": 1628
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Node.js web handler / middleware for processing GitHub Webhooks",
+    "fork": false,
+    "full_name": "rvagg/github-webhook-handler",
+    "html_url": "https://github.com/rvagg/github-webhook-handler",
+    "language": "JavaScript",
+    "pushed_at": "2026-04-29T12:17:22Z",
+    "stargazers_count": 793,
+    "topics": [],
+    "updated_at": "2026-04-29T12:17:25Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Test & Maybe Release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test-and-release.yml",
+      "term": "Test & Maybe Release"
+    }
+  ]
+}

@@ -1,6 +1,7 @@
 {
   "aliases": [
-    "Typecheck"
+    "Typecheck",
+    "typecheck"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -31,6 +32,18 @@
       "source_repo": "iftheshoefritz/solargraph-rails",
       "status": "candidate-context",
       "text": "Typecheck"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sferik/multi_json",
+      "status": "candidate-context",
+      "text": "A generic swappable back-end for JSON handling."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sferik/multi_json",
+      "status": "candidate-context",
+      "text": "typecheck"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +58,12 @@
       "source_repo": "iftheshoefritz/solargraph-rails",
       "status": "candidate",
       "text": "Typecheck"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sferik/multi_json",
+      "status": "candidate",
+      "text": "typecheck"
     }
   ],
   "candidate_related_terms": [
@@ -100,11 +119,17 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": ".github/workflows/typecheck.yml",
       "source_repo": "iftheshoefritz/solargraph-rails"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/typecheck.yml",
+      "source_repo": "sferik/multi_json"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

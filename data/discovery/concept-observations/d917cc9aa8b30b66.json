@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Governance and contact information for Cloud Foundry"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "'Dump Github Organization Settings'"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "'Dump Github Organization Settings'"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20245,
+      "status": "candidate",
+      "text": "jump"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20179,
+      "status": "candidate",
+      "text": "discharge"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20179,
+      "status": "candidate",
+      "text": "disposal"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20179,
+      "status": "candidate",
+      "text": "drop"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20179,
+      "status": "candidate",
+      "text": "rat"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Dump Github Organization Settings",
+      "sense_id": "dump-github-organization-settings#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "dump-github-organization-settings",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "dump-github-organization-settings",
+  "observation_id": "d917cc9aa8b30b66",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-30T00:37:16.824464+00:00",
+  "observed_text": "Dump Github Organization Settings",
+  "source_context_snippet": "'Dump Github Organization Settings'",
+  "source_file": ".github/workflows/org-management-peribolos-dump.yml",
+  "source_repo": "cloudfoundry/community",
+  "source_repo_description": "Governance and contact information for Cloud Foundry"
+}

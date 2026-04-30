@@ -1,0 +1,65 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "gsamokovarov/break",
+      "target": "pry/pry",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "gsamokovarov/break",
+      "target": "ruby-debug/ruby-debug",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "gsamokovarov/break",
+      "target": "ruby-debug/ruby-debug-base19",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T03:46:59.248851+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3706
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Lightweight Ruby debugger! \u26a1\ufe0f",
+    "fork": false,
+    "full_name": "gsamokovarov/break",
+    "html_url": "https://github.com/gsamokovarov/break",
+    "language": "Ruby",
+    "pushed_at": "2022-05-06T11:47:21Z",
+    "stargazers_count": 239,
+    "topics": [],
+    "updated_at": "2026-02-26T10:54:09Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "pry/pry",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ruby-debug/ruby-debug",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ruby-debug/ruby-debug-base19",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

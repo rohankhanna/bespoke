@@ -66,13 +66,6 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "watchexec/cargo-watch",
-      "target": "eradman/entr",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "watchexec/cargo-watch",
       "target": "ryankurte/cargo-binstall",
       "target_type": "repository"
     },
@@ -81,13 +74,6 @@
       "source_file": "README.md",
       "source_repo": "watchexec/cargo-watch",
       "target": "watchexec/catflap",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "watchexec/cargo-watch",
-      "target": "mitsuhiko/systemfd",
       "target_type": "repository"
     },
     {
@@ -203,7 +189,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-29T19:58:34.402743+00:00",
+  "fetched_at": "2026-04-30T04:04:59.125801+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -248,16 +234,6 @@
     "updated_at": "2026-04-27T08:33:10Z"
   },
   "repo_links": [
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "eradman/entr",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "mitsuhiko/systemfd",
-      "source_file": "README.md"
-    },
     {
       "edge_type": "explicit-github-link",
       "full_name": "ryankurte/cargo-binstall",

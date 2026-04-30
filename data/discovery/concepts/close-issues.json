@@ -57,6 +57,18 @@
       "source_repo": "gpac/mp4box.js",
       "status": "candidate-context",
       "text": "Close Issues"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "biomejs/biome",
+      "status": "candidate-context",
+      "text": "A toolchain for web projects, aimed to provide functionalities to maintain them. Biome offers formatter and linter, usable via CLI and LSP."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "biomejs/biome",
+      "status": "candidate-context",
+      "text": "Close issues"
     }
   ],
   "candidate_glosses": [
@@ -83,6 +95,12 @@
       "source_repo": "gpac/mp4box.js",
       "status": "candidate",
       "text": "Close Issues"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "biomejs/biome",
+      "status": "candidate",
+      "text": "Close issues"
     }
   ],
   "candidate_related_terms": [
@@ -168,11 +186,17 @@
       "observed_at": "2026-04-24T18:19:44.660705+00:00",
       "source_file": ".github/workflows/close-issues.yml",
       "source_repo": "gpac/mp4box.js"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/close-issue.yml",
+      "source_repo": "biomejs/biome"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T18:19:44.660705+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

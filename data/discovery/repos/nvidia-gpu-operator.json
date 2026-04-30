@@ -1,0 +1,589 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cherrypick.yml"
+    },
+    {
+      "component": "actions/github-script@v9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cherrypick.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cherrypick.yml"
+    },
+    {
+      "component": "actions/github-script@v9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cherrypick.yml"
+    },
+    {
+      "component": "actions/github-script@v9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cherrypick.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/code-scanning.yaml"
+    },
+    {
+      "component": "github/codeql-action/init@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/code-scanning.yaml"
+    },
+    {
+      "component": "github/codeql-action/analyze@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/code-scanning.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/config-checks.yaml"
+    },
+    {
+      "component": "azure/setup-helm@v5.0.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/config-checks.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/config-checks.yaml"
+    },
+    {
+      "component": "actions/setup-go@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/config-checks.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/config-checks.yaml"
+    },
+    {
+      "component": "actions/setup-go@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/config-checks.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverage.yaml"
+    },
+    {
+      "component": "actions/setup-go@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverage.yaml"
+    },
+    {
+      "component": "nv-gha-runners/setup-artifactory-go-proxy@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverage.yaml"
+    },
+    {
+      "component": "coverallsapp/github-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverage.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e-tests.yaml"
+    },
+    {
+      "component": "actions/download-artifact@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e-tests.yaml"
+    },
+    {
+      "component": "NVIDIA/holodeck@v0.3.2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e-tests.yaml"
+    },
+    {
+      "component": "mikefarah/yq@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e-tests.yaml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e-tests.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e-tests.yaml"
+    },
+    {
+      "component": "actions/download-artifact@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e-tests.yaml"
+    },
+    {
+      "component": "NVIDIA/holodeck@v0.3.2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e-tests.yaml"
+    },
+    {
+      "component": "mikefarah/yq@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e-tests.yaml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e-tests.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/forward-compatibility.yaml"
+    },
+    {
+      "component": "regclient/actions/regctl-installer@148669fe4b19151fcab6e00c6df2db43b9e2b097",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/forward-compatibility.yaml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/forward-compatibility.yaml"
+    },
+    {
+      "component": "slackapi/slack-github-action@v3.0.2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/forward-compatibility.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/golang-checks.yaml"
+    },
+    {
+      "component": "actions/setup-go@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/golang-checks.yaml"
+    },
+    {
+      "component": "golangci/golangci-lint-action@v9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/golang-checks.yaml"
+    },
+    {
+      "component": "nv-gha-runners/setup-artifactory-go-proxy@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/golang-checks.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/golang-checks.yaml"
+    },
+    {
+      "component": "actions/setup-go@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/golang-checks.yaml"
+    },
+    {
+      "component": "nv-gha-runners/setup-artifactory-go-proxy@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/golang-checks.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/golang-checks.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "NVIDIA/gpu-operator",
+      "target": "nvidia/k8s-dra-driver-gpu",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cherrypick.yml",
+      "source_repo": "NVIDIA/gpu-operator",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cherrypick.yml",
+      "source_repo": "NVIDIA/gpu-operator",
+      "target": "actions/github-script@v9",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cherrypick.yml",
+      "source_repo": "NVIDIA/gpu-operator",
+      "target": "Cherry-Pick",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/code-scanning.yaml",
+      "source_repo": "NVIDIA/gpu-operator",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/code-scanning.yaml",
+      "source_repo": "NVIDIA/gpu-operator",
+      "target": "github/codeql-action/init@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/code-scanning.yaml",
+      "source_repo": "NVIDIA/gpu-operator",
+      "target": "github/codeql-action/analyze@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/code-scanning.yaml",
+      "source_repo": "NVIDIA/gpu-operator",
+      "target": "CodeQL",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/config-checks.yaml",
+      "source_repo": "NVIDIA/gpu-operator",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/config-checks.yaml",
+      "source_repo": "NVIDIA/gpu-operator",
+      "target": "azure/setup-helm@v5.0.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/config-checks.yaml",
+      "source_repo": "NVIDIA/gpu-operator",
+      "target": "actions/setup-go@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/config-checks.yaml",
+      "source_repo": "NVIDIA/gpu-operator",
+      "target": "Configuration Checks",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverage.yaml",
+      "source_repo": "NVIDIA/gpu-operator",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverage.yaml",
+      "source_repo": "NVIDIA/gpu-operator",
+      "target": "actions/setup-go@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverage.yaml",
+      "source_repo": "NVIDIA/gpu-operator",
+      "target": "nv-gha-runners/setup-artifactory-go-proxy@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverage.yaml",
+      "source_repo": "NVIDIA/gpu-operator",
+      "target": "coverallsapp/github-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/coverage.yaml",
+      "source_repo": "NVIDIA/gpu-operator",
+      "target": "Coverage",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e-tests.yaml",
+      "source_repo": "NVIDIA/gpu-operator",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e-tests.yaml",
+      "source_repo": "NVIDIA/gpu-operator",
+      "target": "actions/download-artifact@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e-tests.yaml",
+      "source_repo": "NVIDIA/gpu-operator",
+      "target": "NVIDIA/holodeck@v0.3.2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e-tests.yaml",
+      "source_repo": "NVIDIA/gpu-operator",
+      "target": "mikefarah/yq@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e-tests.yaml",
+      "source_repo": "NVIDIA/gpu-operator",
+      "target": "actions/upload-artifact@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/e2e-tests.yaml",
+      "source_repo": "NVIDIA/gpu-operator",
+      "target": "E2E Tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/forward-compatibility.yaml",
+      "source_repo": "NVIDIA/gpu-operator",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/forward-compatibility.yaml",
+      "source_repo": "NVIDIA/gpu-operator",
+      "target": "regclient/actions/regctl-installer@148669fe4b19151fcab6e00c6df2db43b9e2b097",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/forward-compatibility.yaml",
+      "source_repo": "NVIDIA/gpu-operator",
+      "target": "actions/upload-artifact@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/forward-compatibility.yaml",
+      "source_repo": "NVIDIA/gpu-operator",
+      "target": "slackapi/slack-github-action@v3.0.2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/forward-compatibility.yaml",
+      "source_repo": "NVIDIA/gpu-operator",
+      "target": "Forward Compatibility",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/golang-checks.yaml",
+      "source_repo": "NVIDIA/gpu-operator",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/golang-checks.yaml",
+      "source_repo": "NVIDIA/gpu-operator",
+      "target": "actions/setup-go@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/golang-checks.yaml",
+      "source_repo": "NVIDIA/gpu-operator",
+      "target": "golangci/golangci-lint-action@v9",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/golang-checks.yaml",
+      "source_repo": "NVIDIA/gpu-operator",
+      "target": "nv-gha-runners/setup-artifactory-go-proxy@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/golang-checks.yaml",
+      "source_repo": "NVIDIA/gpu-operator",
+      "target": "Golang Checks",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "NVIDIA/gpu-operator",
+      "target": "cuda",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "NVIDIA/gpu-operator",
+      "target": "kubernetes",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "NVIDIA/gpu-operator",
+      "target": "nvidia",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T05:08:14.418284+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4567
+    },
+    {
+      "path": "go.mod",
+      "size": 6258
+    },
+    {
+      "path": ".github/workflows/cherrypick.yml",
+      "size": 3108
+    },
+    {
+      "path": ".github/workflows/ci.yaml",
+      "size": 2859
+    },
+    {
+      "path": ".github/workflows/code-scanning.yaml",
+      "size": 1178
+    },
+    {
+      "path": ".github/workflows/config-checks.yaml",
+      "size": 1963
+    },
+    {
+      "path": ".github/workflows/coverage.yaml",
+      "size": 1630
+    },
+    {
+      "path": ".github/workflows/e2e-tests.yaml",
+      "size": 7043
+    },
+    {
+      "path": ".github/workflows/forward-compatibility.yaml",
+      "size": 3949
+    },
+    {
+      "path": ".github/workflows/golang-checks.yaml",
+      "size": 2821
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "NVIDIA GPU Operator creates, configures, and manages GPUs in Kubernetes",
+    "fork": false,
+    "full_name": "NVIDIA/gpu-operator",
+    "html_url": "https://github.com/NVIDIA/gpu-operator",
+    "language": "Go",
+    "pushed_at": "2026-04-30T00:47:33Z",
+    "stargazers_count": 2665,
+    "topics": [
+      "cuda",
+      "gpu",
+      "kubernetes",
+      "nvidia"
+    ],
+    "updated_at": "2026-04-29T13:49:37Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "nvidia/k8s-dra-driver-gpu",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Cherry-Pick",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cherrypick.yml",
+      "term": "Cherry-Pick"
+    },
+    {
+      "context_snippet": "\"CodeQL\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/code-scanning.yaml",
+      "term": "CodeQL"
+    },
+    {
+      "context_snippet": "Configuration Checks",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/config-checks.yaml",
+      "term": "Configuration Checks"
+    },
+    {
+      "context_snippet": "Coverage",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/coverage.yaml",
+      "term": "Coverage"
+    },
+    {
+      "context_snippet": "E2E Tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/e2e-tests.yaml",
+      "term": "E2E Tests"
+    },
+    {
+      "context_snippet": "Forward Compatibility",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/forward-compatibility.yaml",
+      "term": "Forward Compatibility"
+    },
+    {
+      "context_snippet": "Golang Checks",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/golang-checks.yaml",
+      "term": "Golang Checks"
+    },
+    {
+      "context_snippet": "[![license](https://img.shields.io/github/license/NVIDIA/gpu-operator?style=flat-square)](https://raw.githubusercontent.com/NVIDIA/gpu-operator/master/LICENSE)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cuda"
+    },
+    {
+      "context_snippet": "[![license](https://img.shields.io/github/license/NVIDIA/gpu-operator?style=flat-square)](https://raw.githubusercontent.com/NVIDIA/gpu-operator/master/LICENSE)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "kubernetes"
+    },
+    {
+      "context_snippet": "[![license](https://img.shields.io/github/license/NVIDIA/gpu-operator?style=flat-square)](https://raw.githubusercontent.com/NVIDIA/gpu-operator/master/LICENSE)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nvidia"
+    }
+  ]
+}

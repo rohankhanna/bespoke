@@ -1,0 +1,54 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "VeriSilicon/tvm",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-04-30T03:46:40.136441+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2925
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 1182
+    },
+    {
+      "path": ".github/workflows/main.yml",
+      "size": 3125
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "vsi_npu",
+    "description": "Open deep learning compiler stack for cpu, gpu and specialized accelerators",
+    "fork": true,
+    "full_name": "VeriSilicon/tvm",
+    "html_url": "https://github.com/VeriSilicon/tvm",
+    "language": "Python",
+    "pushed_at": "2021-12-31T08:36:16Z",
+    "stargazers_count": 9,
+    "topics": [],
+    "updated_at": "2026-02-06T07:16:19Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

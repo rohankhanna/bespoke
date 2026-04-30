@@ -1,0 +1,159 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-on-main-commit.yaml"
+    },
+    {
+      "component": "actions/setup-python@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-on-main-commit.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mit-han-lab/mcunet",
+      "target": "mit-han-lab/tinyml",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-on-main-commit.yaml",
+      "source_repo": "mit-han-lab/mcunet",
+      "target": "actions/checkout@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-on-main-commit.yaml",
+      "source_repo": "mit-han-lab/mcunet",
+      "target": "actions/setup-python@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish-on-main-commit.yaml",
+      "source_repo": "mit-han-lab/mcunet",
+      "target": "Publish on major commit",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mit-han-lab/mcunet",
+      "target": "deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mit-han-lab/mcunet",
+      "target": "microncontroller",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mit-han-lab/mcunet",
+      "target": "neural-architecture-search",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mit-han-lab/mcunet",
+      "target": "pytorch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mit-han-lab/mcunet",
+      "target": "tinyml",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T01:59:20.429794+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 10114
+    },
+    {
+      "path": "requirements.txt",
+      "size": 17
+    },
+    {
+      "path": ".github/workflows/publish-on-main-commit.yaml",
+      "size": 901
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "[NeurIPS 2020] MCUNet: Tiny Deep Learning on IoT Devices; [NeurIPS 2021] MCUNetV2: Memory-Efficient Patch-based Inference for Tiny Deep Learning",
+    "fork": false,
+    "full_name": "mit-han-lab/mcunet",
+    "html_url": "https://github.com/mit-han-lab/mcunet",
+    "language": "Python",
+    "pushed_at": "2024-03-29T18:17:37Z",
+    "stargazers_count": 688,
+    "topics": [
+      "deep-learning",
+      "microncontroller",
+      "neural-architecture-search",
+      "pytorch",
+      "tinyml"
+    ],
+    "updated_at": "2026-04-28T06:51:57Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mit-han-lab/tinyml",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Publish on major commit",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish-on-main-commit.yaml",
+      "term": "Publish on major commit"
+    },
+    {
+      "context_snippet": "This is the official implementation of the MCUNet series.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-learning"
+    },
+    {
+      "context_snippet": "This is the official implementation of the MCUNet series.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "microncontroller"
+    },
+    {
+      "context_snippet": "This is the official implementation of the MCUNet series.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "neural-architecture-search"
+    },
+    {
+      "context_snippet": "This is the official implementation of the MCUNet series.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytorch"
+    },
+    {
+      "context_snippet": "This is the official implementation of the MCUNet series.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tinyml"
+    }
+  ]
+}

@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "prototyping"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "2KAbhishek/shelly",
+      "status": "candidate-context",
+      "text": "Publish CLI Tools \ud83d\udc1a\u2728"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "2KAbhishek/shelly",
+      "status": "candidate-context",
+      "text": "<div align = \"center\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "2KAbhishek/shelly",
+      "status": "candidate",
+      "text": "<div align = \"center\">"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40008474,
+      "status": "candidate",
+      "text": "epitome"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40005699,
+      "status": "candidate",
+      "text": "paradigm"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39996908,
+      "status": "candidate",
+      "text": "image"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30008434,
+      "status": "candidate",
+      "text": "production"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20015706,
+      "status": "candidate",
+      "text": "pretotyping"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "prototyping",
+  "concept_id": "prototyping",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "2KAbhishek/shelly"
+    }
+  ],
+  "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "prototyping",
+      "sense_id": "prototyping#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

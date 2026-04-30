@@ -99,6 +99,30 @@
       "source_repo": "hyper-mcp-rs/hyper-mcp",
       "status": "candidate-context",
       "text": "Nightly Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "tuananh/hyper-mcp",
+      "status": "candidate-context",
+      "text": "\ud83d\udce6\ufe0f A fast, secure MCP server that extends its capabilities through WebAssembly plugins."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tuananh/hyper-mcp",
+      "status": "candidate-context",
+      "text": "Nightly Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JohnnyMorganz/luau-lsp",
+      "status": "candidate-context",
+      "text": "Language Server Implementation for Luau"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JohnnyMorganz/luau-lsp",
+      "status": "candidate-context",
+      "text": "Nightly Release"
     }
   ],
   "candidate_glosses": [
@@ -147,6 +171,18 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "hyper-mcp-rs/hyper-mcp",
+      "status": "candidate",
+      "text": "Nightly Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tuananh/hyper-mcp",
+      "status": "candidate",
+      "text": "Nightly Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JohnnyMorganz/luau-lsp",
       "status": "candidate",
       "text": "Nightly Release"
     }
@@ -246,11 +282,29 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": ".github/workflows/release_nightly.yml",
       "source_repo": "clog-tool/clog-cli"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/release_nightly.yml",
+      "source_repo": "clog-tool/clog-cli"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/nightly.yml",
+      "source_repo": "tuananh/hyper-mcp"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/nightly.yml",
+      "source_repo": "JohnnyMorganz/luau-lsp"
     }
   ],
   "first_seen_at": "2026-04-19T01:08:57.644140+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

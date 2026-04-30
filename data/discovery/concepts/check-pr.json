@@ -1,6 +1,8 @@
 {
   "aliases": [
-    "Check PR"
+    "Check PR",
+    "check-pr",
+    "Check Pr"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -31,6 +33,36 @@
       "source_repo": "withfig/autocomplete",
       "status": "candidate-context",
       "text": "Check PR"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Kong/proxy-wasm-assemblyscript-sdk",
+      "status": "candidate-context",
+      "text": "WebAssembly for Proxies (AssemblyScript SDK)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Kong/proxy-wasm-assemblyscript-sdk",
+      "status": "candidate-context",
+      "text": "check-pr"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "EdenEast/nightfox.nvim",
+      "status": "candidate-context",
+      "text": "\ud83e\udd8aA highly customizable theme for vim and neovim with support for lsp, treesitter and a variety of plugins."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "EdenEast/nightfox.nvim",
+      "status": "candidate-context",
+      "text": "Check Pr"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "solo-io/proxy-runtime",
+      "status": "candidate-context",
+      "text": "check-pr"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +77,24 @@
       "source_repo": "withfig/autocomplete",
       "status": "candidate",
       "text": "Check PR"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Kong/proxy-wasm-assemblyscript-sdk",
+      "status": "candidate",
+      "text": "check-pr"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "EdenEast/nightfox.nvim",
+      "status": "candidate",
+      "text": "Check Pr"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "solo-io/proxy-runtime",
+      "status": "candidate",
+      "text": "check-pr"
     }
   ],
   "candidate_related_terms": [
@@ -100,11 +150,29 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": ".github/workflows/danger.yml",
       "source_repo": "withfig/autocomplete"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/pr.yml",
+      "source_repo": "Kong/proxy-wasm-assemblyscript-sdk"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/pr.yml",
+      "source_repo": "EdenEast/nightfox.nvim"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/pr.yml",
+      "source_repo": "solo-io/proxy-runtime"
     }
   ],
   "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

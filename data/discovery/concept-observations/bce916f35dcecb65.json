@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "[ICLR'24 spotlight] Chinese and English Multimodal Large Model Series (Chat and Paint) | \u57fa\u4e8eCPM\u57fa\u7840\u6a21\u578b\u7684\u4e2d\u82f1\u53cc\u8bed\u591a\u6a21\u6001\u5927\u6a21\u578b\u7cfb\u5217"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<div align=\"center\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "large-language-models",
+      "sense_id": "large-language-models#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "large-language-models",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "large-language-models",
+  "observation_id": "bce916f35dcecb65",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T00:37:16.824464+00:00",
+  "observed_text": "large-language-models",
+  "source_context_snippet": "<div align=\"center\">",
+  "source_file": null,
+  "source_repo": "OpenBMB/VisCPM",
+  "source_repo_description": "[ICLR'24 spotlight] Chinese and English Multimodal Large Model Series (Chat and Paint) | \u57fa\u4e8eCPM\u57fa\u7840\u6a21\u578b\u7684\u4e2d\u82f1\u53cc\u8bed\u591a\u6a21\u6001\u5927\u6a21\u578b\u7cfb\u5217"
+}

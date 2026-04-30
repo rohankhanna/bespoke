@@ -57,6 +57,30 @@
       "source_repo": "opencost/opencost",
       "status": "candidate-context",
       "text": "Format Check"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "AnonymouX47/term-image",
+      "status": "candidate-context",
+      "text": "Display images in the terminal with python"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AnonymouX47/term-image",
+      "status": "candidate-context",
+      "text": "format check"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "antgroup/vsag",
+      "status": "candidate-context",
+      "text": "vsag is a vector indexing library used for similarity search."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "antgroup/vsag",
+      "status": "candidate-context",
+      "text": "Format Check"
     }
   ],
   "candidate_glosses": [
@@ -81,6 +105,18 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "opencost/opencost",
+      "status": "candidate",
+      "text": "Format Check"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AnonymouX47/term-image",
+      "status": "candidate",
+      "text": "format check"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "antgroup/vsag",
       "status": "candidate",
       "text": "Format Check"
     }
@@ -150,11 +186,23 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": ".github/workflows/format-check.yaml",
       "source_repo": "opencost/opencost"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/format_check.yml",
+      "source_repo": "AnonymouX47/term-image"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/format.yml",
+      "source_repo": "antgroup/vsag"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

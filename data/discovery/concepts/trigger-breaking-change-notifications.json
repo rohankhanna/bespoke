@@ -61,6 +61,18 @@
       "source_repo": "rapidsai/gha-tools",
       "status": "candidate-context",
       "text": "Trigger Breaking Change Notifications"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rapidsai/raft",
+      "status": "candidate-context",
+      "text": "RAFT contains fundamental widely-used algorithms and primitives for machine learning and information retrieval. The algorithms are CUDA-accelerated and form building blocks for more easily writing high performance applications."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rapidsai/raft",
+      "status": "candidate-context",
+      "text": "Trigger Breaking Change Notifications"
     }
   ],
   "candidate_glosses": [
@@ -91,6 +103,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "rapidsai/gha-tools",
+      "status": "candidate",
+      "text": "Trigger Breaking Change Notifications"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rapidsai/raft",
       "status": "candidate",
       "text": "Trigger Breaking Change Notifications"
     }
@@ -166,11 +184,17 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": ".github/workflows/trigger-breaking-change-alert.yaml",
       "source_repo": "rapidsai/gha-tools"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/trigger-breaking-change-alert.yaml",
+      "source_repo": "rapidsai/raft"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

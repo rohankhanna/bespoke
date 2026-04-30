@@ -1,0 +1,103 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yaml"
+    },
+    {
+      "component": "DeterminateSystems/nix-installer-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yaml"
+    },
+    {
+      "component": "DeterminateSystems/magic-nix-cache-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "charlottia/i2c_obs",
+      "target": "charlottia/sh1107",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yaml",
+      "source_repo": "charlottia/i2c_obs",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yaml",
+      "source_repo": "charlottia/i2c_obs",
+      "target": "DeterminateSystems/nix-installer-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yaml",
+      "source_repo": "charlottia/i2c_obs",
+      "target": "DeterminateSystems/magic-nix-cache-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "charlottia/i2c_obs",
+      "target": "fpga",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T04:50:58.336410+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1036
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 684
+    },
+    {
+      "path": ".github/workflows/main.yaml",
+      "size": 547
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "main",
+    "description": "I\u00b2C, oh! Big stretch.",
+    "fork": false,
+    "full_name": "charlottia/i2c_obs",
+    "html_url": "https://github.com/charlottia/i2c_obs",
+    "language": "Python",
+    "pushed_at": "2024-10-23T02:44:21Z",
+    "stargazers_count": 2,
+    "topics": [
+      "fpga",
+      "i2c"
+    ],
+    "updated_at": "2025-03-30T00:51:15Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "charlottia/sh1107",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "I\u00b2C, oh! Big stretch.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "fpga"
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T04:58:43.329376+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2804
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Template repository for version controlling AI assistant configurations (and associated elements like context data)",
+    "fork": false,
+    "full_name": "danielrosehill/AI-Assistant-Template",
+    "html_url": "https://github.com/danielrosehill/AI-Assistant-Template",
+    "language": "Python",
+    "pushed_at": "2025-01-27T13:02:20Z",
+    "stargazers_count": 2,
+    "topics": [],
+    "updated_at": "2025-11-12T08:37:08Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

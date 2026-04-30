@@ -139,6 +139,42 @@
       "source_repo": "psmux/scoop-psmux",
       "status": "candidate-context",
       "text": "Scoop bucket for [psmux](https://github.com/marlocarlo/psmux) \u2014 terminal multiplexer for Windows (tmux alternative)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ScoopInstaller/PHP",
+      "status": "candidate-context",
+      "text": "\ud83d\udce6 PHP Bucket for Scoop"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ScoopInstaller/PHP",
+      "status": "candidate-context",
+      "text": "* All PHP versions from *v5.2* to *v8.4*"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ScoopInstaller/Versions",
+      "status": "candidate-context",
+      "text": "\ud83d\udce6 A Scoop bucket for alternative versions of apps."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ScoopInstaller/Versions",
+      "status": "candidate-context",
+      "text": "Alternative manifests for [Scoop](https://scoop.sh), the Windows command-line installer. For alpha, beta, nightly, dev, canary, insiders, release candidates, and frozen/older versions of app manifests."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cderv/r-bucket",
+      "status": "candidate-context",
+      "text": "Personal scoop bucket I use as an R user and software engineer"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cderv/r-bucket",
+      "status": "candidate-context",
+      "text": "![](https://github.com/cderv/r-bucket/workflows/Excavator/badge.svg)"
     }
   ],
   "candidate_glosses": [
@@ -207,6 +243,24 @@
       "source_repo": "psmux/scoop-psmux",
       "status": "candidate",
       "text": "Scoop bucket for [psmux](https://github.com/marlocarlo/psmux) \u2014 terminal multiplexer for Windows (tmux alternative)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ScoopInstaller/PHP",
+      "status": "candidate",
+      "text": "* All PHP versions from *v5.2* to *v8.4*"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ScoopInstaller/Versions",
+      "status": "candidate",
+      "text": "Alternative manifests for [Scoop](https://scoop.sh), the Windows command-line installer. For alpha, beta, nightly, dev, canary, insiders, release candidates, and frozen/older versions of app manifests."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cderv/r-bucket",
+      "status": "candidate",
+      "text": "![](https://github.com/cderv/r-bucket/workflows/Excavator/badge.svg)"
     }
   ],
   "candidate_related_terms": [],
@@ -280,11 +334,41 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "psmux/scoop-psmux"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "psmux/scoop-psmux"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "ScoopInstaller/PHP"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "ScoopInstaller/Versions"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "chawyehsu/dorado"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "cderv/r-bucket"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

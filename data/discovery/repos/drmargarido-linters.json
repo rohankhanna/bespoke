@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "drmargarido/linters",
+      "target": "rxi/lite",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T00:39:29.451435+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4265
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Linters for https://github.com/rxi/lite",
+    "fork": false,
+    "full_name": "drmargarido/linters",
+    "html_url": "https://github.com/drmargarido/linters",
+    "language": "Lua",
+    "pushed_at": "2023-12-21T11:06:56Z",
+    "stargazers_count": 51,
+    "topics": [],
+    "updated_at": "2025-10-02T15:39:11Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "rxi/lite",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

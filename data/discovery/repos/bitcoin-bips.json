@@ -1,0 +1,82 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/github-action-checks.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/github-action-checks.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/github-action-checks.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/github-action-checks.yml"
+    },
+    {
+      "component": "crate-ci/typos@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/github-action-checks.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/github-action-checks.yml",
+      "source_repo": "bitcoin/bips",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/github-action-checks.yml",
+      "source_repo": "bitcoin/bips",
+      "target": "crate-ci/typos@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/github-action-checks.yml",
+      "source_repo": "bitcoin/bips",
+      "target": "GitHub Actions Check",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T01:45:49.223112+00:00",
+  "fetched_files": [
+    {
+      "path": ".github/workflows/github-action-checks.yml",
+      "size": 827
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Bitcoin Improvement Proposals",
+    "fork": false,
+    "full_name": "bitcoin/bips",
+    "html_url": "https://github.com/bitcoin/bips",
+    "language": "Wikitext",
+    "pushed_at": "2026-04-27T15:01:58Z",
+    "stargazers_count": 10744,
+    "topics": [],
+    "updated_at": "2026-04-29T19:29:20Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "GitHub Actions Check",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/github-action-checks.yml",
+      "term": "GitHub Actions Check"
+    }
+  ]
+}

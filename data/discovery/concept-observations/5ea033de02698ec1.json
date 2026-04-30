@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "\ud83c\udf15 [ICCV 2021] Multitask AET with Orthogonal Tangent Regularity for Dark Object Detection. A self-supervised learning way for low-light image object detection."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "deploy"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "deploy"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30026798,
+      "status": "candidate",
+      "text": "mobilization"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30026763,
+      "status": "candidate",
+      "text": "mobilize"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30026748,
+      "status": "candidate",
+      "text": "mobilise"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30023389,
+      "status": "candidate",
+      "text": "rollout"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30022165,
+      "status": "candidate",
+      "text": "stationing"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "deploy",
+      "sense_id": "deploy#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "deploy",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "deploy",
+  "observation_id": "5ea033de02698ec1",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-30T00:37:16.824464+00:00",
+  "observed_text": "deploy",
+  "source_context_snippet": "deploy",
+  "source_file": ".github/workflows/deploy.yml",
+  "source_repo": "cuiziteng/ICCV_MAET",
+  "source_repo_description": "\ud83c\udf15 [ICCV 2021] Multitask AET with Orthogonal Tangent Regularity for Dark Object Detection. A self-supervised learning way for low-light image object detection."
+}

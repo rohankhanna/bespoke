@@ -55,6 +55,42 @@
       "source_repo": "BabylonJS/BabylonNative",
       "status": "candidate-context",
       "text": "[![CI](https://github.com/BabylonJS/BabylonNative/actions/workflows/ci.yml/badge.svg)](https://github.com/BabylonJS/BabylonNative/actions/workflows/ci.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mymarilyn/clickhouse-driver",
+      "status": "candidate-context",
+      "text": "ClickHouse Python Driver with native interface support"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mymarilyn/clickhouse-driver",
+      "status": "candidate-context",
+      "text": "ClickHouse Python Driver"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nativium/nativium",
+      "status": "candidate-context",
+      "text": "C++ Multiplatform Modular Toolkit Template"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nativium/nativium",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mymarilyn/aioch",
+      "status": "candidate-context",
+      "text": " aioch - is a library for accessing a ClickHouse database over native interface from the asyncio"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mymarilyn/aioch",
+      "status": "candidate-context",
+      "text": "**aioch** is a library for accessing a ClickHouse database over native interface from the asyncio."
     }
   ],
   "candidate_glosses": [
@@ -81,6 +117,24 @@
       "source_repo": "BabylonJS/BabylonNative",
       "status": "candidate",
       "text": "[![CI](https://github.com/BabylonJS/BabylonNative/actions/workflows/ci.yml/badge.svg)](https://github.com/BabylonJS/BabylonNative/actions/workflows/ci.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mymarilyn/clickhouse-driver",
+      "status": "candidate",
+      "text": "ClickHouse Python Driver"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nativium/nativium",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mymarilyn/aioch",
+      "status": "candidate",
+      "text": "**aioch** is a library for accessing a ClickHouse database over native interface from the asyncio."
     }
   ],
   "candidate_related_terms": [
@@ -184,11 +238,29 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": null,
       "source_repo": "BabylonJS/BabylonNative"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "mymarilyn/clickhouse-driver"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "nativium/nativium"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "mymarilyn/aioch"
     }
   ],
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

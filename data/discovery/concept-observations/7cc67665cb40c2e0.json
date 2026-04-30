@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Mosaico - Responsive Email Template Editor"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Mosaico is a JavaScript library (or maybe a single page application) supporting the editing of email templates."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Mosaico is a JavaScript library (or maybe a single page application) supporting the editing of email templates."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40008214,
+      "status": "candidate",
+      "text": "smasher"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39984271,
+      "status": "candidate",
+      "text": "mantrap"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39965113,
+      "status": "candidate",
+      "text": "stunner"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39962194,
+      "status": "candidate",
+      "text": "severe"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39960629,
+      "status": "candidate",
+      "text": "hard"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "knockout",
+      "sense_id": "knockout#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 41037,
+      "status": "candidate",
+      "text": "severe"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 35050,
+      "status": "candidate",
+      "text": "strong"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 33057,
+      "status": "candidate",
+      "text": "hard"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 24048,
+      "status": "candidate",
+      "text": "peach"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 16036,
+      "status": "candidate",
+      "text": "sweetheart"
+    }
+  ],
+  "concept_id": "knockout",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "knockout",
+  "observation_id": "7cc67665cb40c2e0",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T00:37:16.824464+00:00",
+  "observed_text": "knockout",
+  "source_context_snippet": "Mosaico is a JavaScript library (or maybe a single page application) supporting the editing of email templates.",
+  "source_file": null,
+  "source_repo": "voidlabs/mosaico",
+  "source_repo_description": "Mosaico - Responsive Email Template Editor"
+}

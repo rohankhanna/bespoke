@@ -134,6 +134,42 @@
       "source_repo": "matter-labs/zksync-airbender",
       "status": "candidate-context",
       "text": "PR title"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "open-edge-platform/physical-ai-studio",
+      "status": "candidate-context",
+      "text": "Physical AI Studio is an end-to-end framework for training robots to perform tasks through imitation learning from human demonstrations."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "open-edge-platform/physical-ai-studio",
+      "status": "candidate-context",
+      "text": "PR Title"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rockerBOO/awesome-neovim",
+      "status": "candidate-context",
+      "text": "Collections of awesome neovim plugins."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rockerBOO/awesome-neovim",
+      "status": "candidate-context",
+      "text": "PR Title"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "folke/neodev.nvim",
+      "status": "candidate-context",
+      "text": "\ud83d\udcbb  Neovim setup for init.lua and plugin development with full signature help, docs and completion for the nvim lua API."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "folke/neodev.nvim",
+      "status": "candidate-context",
+      "text": "PR Title"
     }
   ],
   "candidate_glosses": [
@@ -202,6 +238,24 @@
       "source_repo": "matter-labs/zksync-airbender",
       "status": "candidate",
       "text": "PR title"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "open-edge-platform/physical-ai-studio",
+      "status": "candidate",
+      "text": "PR Title"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rockerBOO/awesome-neovim",
+      "status": "candidate",
+      "text": "PR Title"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "folke/neodev.nvim",
+      "status": "candidate",
+      "text": "PR Title"
     }
   ],
   "candidate_related_terms": [
@@ -317,11 +371,29 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": ".github/workflows/pr-title.yml",
       "source_repo": "matter-labs/zksync-airbender"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/pr-title.yml",
+      "source_repo": "open-edge-platform/physical-ai-studio"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/pr-title.yml",
+      "source_repo": "rockerBOO/awesome-neovim"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/pr.yml",
+      "source_repo": "folke/neodev.nvim"
     }
   ],
   "first_seen_at": "2026-04-18T11:56:18.570627+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

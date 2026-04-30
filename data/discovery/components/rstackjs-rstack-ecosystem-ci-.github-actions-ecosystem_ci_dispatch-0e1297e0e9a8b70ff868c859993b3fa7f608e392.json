@@ -1,0 +1,12 @@
+{
+  "component": "rstackjs/rstack-ecosystem-ci/.github/actions/ecosystem_ci_dispatch@0e1297e0e9a8b70ff868c859993b3fa7f608e392",
+  "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ecosystem-ci.yml",
+      "source_repo": "web-infra-dev/rslib"
+    }
+  ]
+}

@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Homebrew development library for Nintendo 3DS/Horizon OS user mode (Arm11)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "![Build Status](https://github.com/devkitPro/libctru/actions/workflows/build.yaml/badge.svg)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "![Build Status](https://github.com/devkitPro/libctru/actions/workflows/build.yaml/badge.svg)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19864320,
+      "status": "candidate",
+      "text": "hophead"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19864319,
+      "status": "candidate",
+      "text": "hellbrew"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19864318,
+      "status": "candidate",
+      "text": "hopback"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19864317,
+      "status": "candidate",
+      "text": "homecraft"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19864316,
+      "status": "candidate",
+      "text": "heineken"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "homebrew",
+      "sense_id": "homebrew#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "homebrew",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "homebrew",
+  "observation_id": "a3a1acfd7e4186a2",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T00:37:16.824464+00:00",
+  "observed_text": "homebrew",
+  "source_context_snippet": "![Build Status](https://github.com/devkitPro/libctru/actions/workflows/build.yaml/badge.svg)",
+  "source_file": null,
+  "source_repo": "devkitPro/libctru",
+  "source_repo_description": "Homebrew development library for Nintendo 3DS/Horizon OS user mode (Arm11)"
+}

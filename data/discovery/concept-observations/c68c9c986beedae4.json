@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Prometheus rule linter/validator"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "\"Dependency Review\""
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "\"Dependency Review\""
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11697,
+      "status": "candidate",
+      "text": "addiction"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11697,
+      "status": "candidate",
+      "text": "adopting"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11697,
+      "status": "candidate",
+      "text": "adoption"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11697,
+      "status": "candidate",
+      "text": "cosmological"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11697,
+      "status": "candidate",
+      "text": "dependence"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Dependency Review",
+      "sense_id": "dependency-review#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "dependency-review",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "dependency-review",
+  "observation_id": "c68c9c986beedae4",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-30T00:37:16.824464+00:00",
+  "observed_text": "Dependency Review",
+  "source_context_snippet": "\"Dependency Review\"",
+  "source_file": ".github/workflows/deps.yml",
+  "source_repo": "cloudflare/pint",
+  "source_repo_description": "Prometheus rule linter/validator"
+}

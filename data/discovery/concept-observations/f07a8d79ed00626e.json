@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Industrial-level evaluation benchmarks for Coding LLMs in the full life-cycle of AI native software developing.\u4f01\u4e1a\u7ea7\u4ee3\u7801\u5927\u6a21\u578b\u8bc4\u6d4b\u4f53\u7cfb,\u6301\u7eed\u5f00\u653e\u4e2d"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<p align=\"center\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "code-evaluation",
+      "sense_id": "code-evaluation#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "code-evaluation",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "code-evaluation",
+  "observation_id": "f07a8d79ed00626e",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T00:37:16.824464+00:00",
+  "observed_text": "code-evaluation",
+  "source_context_snippet": "<p align=\"center\">",
+  "source_file": null,
+  "source_repo": "codefuse-ai/codefuse-evaluation",
+  "source_repo_description": "Industrial-level evaluation benchmarks for Coding LLMs in the full life-cycle of AI native software developing.\u4f01\u4e1a\u7ea7\u4ee3\u7801\u5927\u6a21\u578b\u8bc4\u6d4b\u4f53\u7cfb,\u6301\u7eed\u5f00\u653e\u4e2d"
+}

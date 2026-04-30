@@ -1,0 +1,139 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "codecov/codecov-action@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "wooorm/mdxjs-rs",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "wooorm/mdxjs-rs",
+      "target": "dtolnay/rust-toolchain@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "wooorm/mdxjs-rs",
+      "target": "codecov/codecov-action@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "wooorm/mdxjs-rs",
+      "target": "main",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "wooorm/mdxjs-rs",
+      "target": "commonmark",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "wooorm/mdxjs-rs",
+      "target": "markdown",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "wooorm/mdxjs-rs",
+      "target": "rust",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T01:01:31.269493+00:00",
+  "fetched_files": [
+    {
+      "path": "Cargo.toml",
+      "size": 711
+    },
+    {
+      "path": ".github/workflows/main.yml",
+      "size": 665
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Compile MDX to JavaScript in Rust",
+    "fork": false,
+    "full_name": "wooorm/mdxjs-rs",
+    "html_url": "https://github.com/wooorm/mdxjs-rs",
+    "language": "Rust",
+    "pushed_at": "2025-06-12T08:00:06Z",
+    "stargazers_count": 527,
+    "topics": [
+      "commonmark",
+      "gfm",
+      "javascript",
+      "markdown",
+      "mdx",
+      "rust"
+    ],
+    "updated_at": "2026-04-29T12:11:09Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "main",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/main.yml",
+      "term": "main"
+    },
+    {
+      "context_snippet": "[dependencies] markdown = \"1\" rustc-hash = \"2\" serde = { optional = true, version = \"1\" } swc_core = { features = [ \"common\", \"ecma_ast\", \"ecma_codegen\", \"ecma_parser\", \"ecma_visit\", ], version = \"27\" } [dev-dependencies] pretty_assertions = \"1\" [features] serializable = [\"serde\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "commonmark"
+    },
+    {
+      "context_snippet": "[dependencies] markdown = \"1\" rustc-hash = \"2\" serde = { optional = true, version = \"1\" } swc_core = { features = [ \"common\", \"ecma_ast\", \"ecma_codegen\", \"ecma_parser\", \"ecma_visit\", ], version = \"27\" } [dev-dependencies] pretty_assertions = \"1\" [features] serializable = [\"serde\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "markdown"
+    },
+    {
+      "context_snippet": "[dependencies] markdown = \"1\" rustc-hash = \"2\" serde = { optional = true, version = \"1\" } swc_core = { features = [ \"common\", \"ecma_ast\", \"ecma_codegen\", \"ecma_parser\", \"ecma_visit\", ], version = \"27\" } [dev-dependencies] pretty_assertions = \"1\" [features] serializable = [\"serde\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rust"
+    }
+  ]
+}

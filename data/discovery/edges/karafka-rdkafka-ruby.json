@@ -1,0 +1,335 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "karafka/rdkafka-ruby",
+      "target": "ffi/ffi",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "karafka/rdkafka-ruby",
+      "target": "karafka/karafka",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "karafka/rdkafka-ruby",
+      "target": "karafka/waterdrop",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "karafka/rdkafka-ruby",
+      "target": "zendesk/racecar",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "karafka/rdkafka-ruby",
+      "target": "lostconf",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_linux_alpine_aarch64_musl.yml",
+      "source_repo": "karafka/rdkafka-ruby",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_linux_alpine_aarch64_musl.yml",
+      "source_repo": "karafka/rdkafka-ruby",
+      "target": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_linux_alpine_aarch64_musl.yml",
+      "source_repo": "karafka/rdkafka-ruby",
+      "target": "actions/download-artifact@3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci_linux_alpine_aarch64_musl.yml",
+      "source_repo": "karafka/rdkafka-ruby",
+      "target": "CI Linux Alpine aarch64 musl",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_linux_alpine_aarch64_musl_complementary.yml",
+      "source_repo": "karafka/rdkafka-ruby",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_linux_alpine_aarch64_musl_complementary.yml",
+      "source_repo": "karafka/rdkafka-ruby",
+      "target": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_linux_alpine_aarch64_musl_complementary.yml",
+      "source_repo": "karafka/rdkafka-ruby",
+      "target": "actions/download-artifact@3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci_linux_alpine_aarch64_musl_complementary.yml",
+      "source_repo": "karafka/rdkafka-ruby",
+      "target": "CI Linux Complementary Alpine aarch64 musl",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_linux_alpine_x86_64_musl.yml",
+      "source_repo": "karafka/rdkafka-ruby",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_linux_alpine_x86_64_musl.yml",
+      "source_repo": "karafka/rdkafka-ruby",
+      "target": "actions/cache@27d5ce7f107fe9357f9df03efb73ab90386fccae",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_linux_alpine_x86_64_musl.yml",
+      "source_repo": "karafka/rdkafka-ruby",
+      "target": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_linux_alpine_x86_64_musl.yml",
+      "source_repo": "karafka/rdkafka-ruby",
+      "target": "actions/download-artifact@3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_linux_alpine_x86_64_musl_complementary.yml",
+      "source_repo": "karafka/rdkafka-ruby",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_linux_alpine_x86_64_musl_complementary.yml",
+      "source_repo": "karafka/rdkafka-ruby",
+      "target": "actions/cache@27d5ce7f107fe9357f9df03efb73ab90386fccae",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_linux_alpine_x86_64_musl_complementary.yml",
+      "source_repo": "karafka/rdkafka-ruby",
+      "target": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_linux_alpine_x86_64_musl_complementary.yml",
+      "source_repo": "karafka/rdkafka-ruby",
+      "target": "actions/download-artifact@3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_linux_debian_x86_64_gnu.yml",
+      "source_repo": "karafka/rdkafka-ruby",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_linux_debian_x86_64_gnu.yml",
+      "source_repo": "karafka/rdkafka-ruby",
+      "target": "actions/cache@27d5ce7f107fe9357f9df03efb73ab90386fccae",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_linux_debian_x86_64_gnu.yml",
+      "source_repo": "karafka/rdkafka-ruby",
+      "target": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_linux_debian_x86_64_gnu.yml",
+      "source_repo": "karafka/rdkafka-ruby",
+      "target": "actions/download-artifact@3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_linux_debian_x86_64_gnu_complementary.yml",
+      "source_repo": "karafka/rdkafka-ruby",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_linux_debian_x86_64_gnu_complementary.yml",
+      "source_repo": "karafka/rdkafka-ruby",
+      "target": "actions/cache@27d5ce7f107fe9357f9df03efb73ab90386fccae",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_linux_debian_x86_64_gnu_complementary.yml",
+      "source_repo": "karafka/rdkafka-ruby",
+      "target": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_linux_debian_x86_64_gnu_complementary.yml",
+      "source_repo": "karafka/rdkafka-ruby",
+      "target": "actions/download-artifact@3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_linux_ubuntu_aarch64_gnu.yml",
+      "source_repo": "karafka/rdkafka-ruby",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_linux_ubuntu_aarch64_gnu.yml",
+      "source_repo": "karafka/rdkafka-ruby",
+      "target": "ruby/setup-ruby@0cb964fd540e0a24c900370abf38a33466142735",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_linux_ubuntu_aarch64_gnu.yml",
+      "source_repo": "karafka/rdkafka-ruby",
+      "target": "actions/cache@27d5ce7f107fe9357f9df03efb73ab90386fccae",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_linux_ubuntu_aarch64_gnu.yml",
+      "source_repo": "karafka/rdkafka-ruby",
+      "target": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_linux_ubuntu_aarch64_gnu.yml",
+      "source_repo": "karafka/rdkafka-ruby",
+      "target": "actions/download-artifact@3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci_linux_ubuntu_aarch64_gnu.yml",
+      "source_repo": "karafka/rdkafka-ruby",
+      "target": "CI Linux Ubuntu aarch64 GNU",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_linux_ubuntu_aarch64_gnu_complementary.yml",
+      "source_repo": "karafka/rdkafka-ruby",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_linux_ubuntu_aarch64_gnu_complementary.yml",
+      "source_repo": "karafka/rdkafka-ruby",
+      "target": "actions/cache@27d5ce7f107fe9357f9df03efb73ab90386fccae",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_linux_ubuntu_aarch64_gnu_complementary.yml",
+      "source_repo": "karafka/rdkafka-ruby",
+      "target": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_linux_ubuntu_aarch64_gnu_complementary.yml",
+      "source_repo": "karafka/rdkafka-ruby",
+      "target": "ruby/setup-ruby@0cb964fd540e0a24c900370abf38a33466142735",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_linux_ubuntu_aarch64_gnu_complementary.yml",
+      "source_repo": "karafka/rdkafka-ruby",
+      "target": "actions/download-artifact@3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci_linux_ubuntu_aarch64_gnu_complementary.yml",
+      "source_repo": "karafka/rdkafka-ruby",
+      "target": "CI Linux Complementary Ubuntu aarch64 GNU",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "karafka/rdkafka-ruby",
+      "target": "apache-kafka",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "karafka/rdkafka-ruby",
+      "target": "apache-kafka-consumer",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "karafka/rdkafka-ruby",
+      "target": "apache-kafka-producer",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "karafka/rdkafka-ruby",
+      "target": "kafka",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "karafka/rdkafka-ruby",
+      "target": "librdkafka",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "karafka/rdkafka-ruby",
+      "target": "ruby",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-30T00:37:16.824464+00:00",
+  "source_repo": "karafka/rdkafka-ruby"
+}

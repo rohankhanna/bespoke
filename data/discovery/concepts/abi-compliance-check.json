@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "ABI Compliance Check"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ROCm/rocm-systems",
+      "status": "candidate-context",
+      "text": "super repo for rocm systems projects"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ROCm/rocm-systems",
+      "status": "candidate-context",
+      "text": "ABI Compliance Check"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ROCm/rocm-systems",
+      "status": "candidate",
+      "text": "ABI Compliance Check"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22731,
+      "status": "candidate",
+      "text": "applying"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22731,
+      "status": "candidate",
+      "text": "gratify"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22636,
+      "status": "candidate",
+      "text": "ruled"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22612,
+      "status": "candidate",
+      "text": "horae"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22612,
+      "status": "candidate",
+      "text": "horse"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "ABI Compliance Check",
+  "concept_id": "abi-compliance-check",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/abi-compliance-check.yml",
+      "source_repo": "ROCm/rocm-systems"
+    }
+  ],
+  "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "ABI Compliance Check",
+      "sense_id": "abi-compliance-check#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

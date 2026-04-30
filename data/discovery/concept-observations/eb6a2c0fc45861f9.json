@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A sytem for Named Entity Disambiguation based on Random Walks and Learning to Rank."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "WNED is an entity linking systems that accepts text with marked named entities and links them to their referent entities in a knowledge base (e.g. Wikipedia)."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "WNED is an entity linking systems that accepts text with marked named entities and links them to their referent entities in a knowledge base (e.g. Wikipedia)."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30030577,
+      "status": "candidate",
+      "text": "wiki"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29914848,
+      "status": "candidate",
+      "text": "portal"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20030618,
+      "status": "candidate",
+      "text": "mediawiki"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20030616,
+      "status": "candidate",
+      "text": "wikia"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20030615,
+      "status": "candidate",
+      "text": "wikiverse"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "wikipedia",
+      "sense_id": "wikipedia#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "wikipedia",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "wikipedia",
+  "observation_id": "eb6a2c0fc45861f9",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T00:37:16.824464+00:00",
+  "observed_text": "wikipedia",
+  "source_context_snippet": "WNED is an entity linking systems that accepts text with marked named entities and links them to their referent entities in a knowledge base (e.g. Wikipedia).",
+  "source_file": null,
+  "source_repo": "U-Alberta/wned",
+  "source_repo_description": "A sytem for Named Entity Disambiguation based on Random Walks and Learning to Rank."
+}

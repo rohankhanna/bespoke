@@ -585,7 +585,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-24T08:16:21.031768+00:00",
+  "fetched_at": "2026-04-30T04:12:25.690735+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -621,8 +621,8 @@
     "full_name": "typescript-language-server/typescript-language-server",
     "html_url": "https://github.com/typescript-language-server/typescript-language-server",
     "language": "TypeScript",
-    "pushed_at": "2026-04-21T15:46:32Z",
-    "stargazers_count": 2456,
+    "pushed_at": "2026-04-29T09:52:58Z",
+    "stargazers_count": 2459,
     "topics": [
       "hacktoberfest",
       "language-server",
@@ -630,7 +630,7 @@
       "lsp",
       "typescript"
     ],
-    "updated_at": "2026-04-23T17:18:18Z"
+    "updated_at": "2026-04-29T18:12:16Z"
   },
   "repo_links": [],
   "terms": [

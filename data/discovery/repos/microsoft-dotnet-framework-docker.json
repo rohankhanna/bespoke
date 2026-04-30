@@ -1,0 +1,111 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-markdown-links.yml"
+    },
+    {
+      "component": "umbrelladocs/action-linkspector@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-markdown-links.yml"
+    },
+    {
+      "component": "write",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint-code-base.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint-code-base.yml"
+    },
+    {
+      "component": "github/super-linter@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint-code-base.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-markdown-links.yml",
+      "source_repo": "microsoft/dotnet-framework-docker",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-markdown-links.yml",
+      "source_repo": "microsoft/dotnet-framework-docker",
+      "target": "umbrelladocs/action-linkspector@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint-code-base.yml",
+      "source_repo": "microsoft/dotnet-framework-docker",
+      "target": "write",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint-code-base.yml",
+      "source_repo": "microsoft/dotnet-framework-docker",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint-code-base.yml",
+      "source_repo": "microsoft/dotnet-framework-docker",
+      "target": "github/super-linter@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint-code-base.yml",
+      "source_repo": "microsoft/dotnet-framework-docker",
+      "target": "Lint Code Base",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T05:03:21.024056+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5008
+    },
+    {
+      "path": ".github/workflows/check-markdown-links.yml",
+      "size": 577
+    },
+    {
+      "path": ".github/workflows/lint-code-base.yml",
+      "size": 780
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "The repo for the official docker images for .NET Framework on Windows Server Core.",
+    "fork": false,
+    "full_name": "microsoft/dotnet-framework-docker",
+    "html_url": "https://github.com/microsoft/dotnet-framework-docker",
+    "language": "C#",
+    "pushed_at": "2026-04-14T17:33:56Z",
+    "stargazers_count": 761,
+    "topics": [],
+    "updated_at": "2026-04-14T17:34:01Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Lint Code Base",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint-code-base.yml",
+      "term": "Lint Code Base"
+    }
+  ]
+}

@@ -103,6 +103,30 @@
       "source_repo": "dwyl/elixir-auth-google-demo",
       "status": "candidate-context",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ueberauth/oauth2",
+      "status": "candidate-context",
+      "text": "An Elixir OAuth 2.0 Client Library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ueberauth/oauth2",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://github.com/ueberauth/oauth2/actions/workflows/ci.yml/badge.svg)](https://github.com/ueberauth/oauth2/actions/workflows/ci.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Buuntu/fastapi-react",
+      "status": "candidate-context",
+      "text": "\ud83d\ude80   Cookiecutter Template for FastAPI + React Projects.  Using PostgreSQL, SQLAlchemy, and Docker"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Buuntu/fastapi-react",
+      "status": "candidate-context",
+      "text": "<div>"
     }
   ],
   "candidate_glosses": [
@@ -153,6 +177,18 @@
       "source_repo": "dwyl/elixir-auth-google-demo",
       "status": "candidate",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ueberauth/oauth2",
+      "status": "candidate",
+      "text": "[![Build Status](https://github.com/ueberauth/oauth2/actions/workflows/ci.yml/badge.svg)](https://github.com/ueberauth/oauth2/actions/workflows/ci.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Buuntu/fastapi-react",
+      "status": "candidate",
+      "text": "<div>"
     }
   ],
   "candidate_related_terms": [],
@@ -214,11 +250,23 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "rest-sh/restish"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "ueberauth/oauth2"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "Buuntu/fastapi-react"
     }
   ],
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

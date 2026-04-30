@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Ansible collection release"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "prometheus-community/ansible",
+      "status": "candidate-context",
+      "text": "Ansible Collection for Prometheus"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "prometheus-community/ansible",
+      "status": "candidate-context",
+      "text": "Ansible collection release"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "prometheus-community/ansible",
+      "status": "candidate",
+      "text": "Ansible collection release"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22296,
+      "status": "candidate",
+      "text": "bandwidth"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18264,
+      "status": "candidate",
+      "text": "node"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18264,
+      "status": "candidate",
+      "text": "speed"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10135,
+      "status": "candidate",
+      "text": "asynchronous"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10135,
+      "status": "candidate",
+      "text": "bidirectional"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Ansible collection release",
+  "concept_id": "ansible-collection-release",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "prometheus-community/ansible"
+    }
+  ],
+  "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Ansible collection release",
+      "sense_id": "ansible-collection-release#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

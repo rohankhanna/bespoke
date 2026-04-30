@@ -31,6 +31,18 @@
       "source_repo": "davidkarlsen/flyway-operator",
       "status": "candidate-context",
       "text": "[Kubernetes-operator](https://kubernetes.io/docs/concepts/extend-kubernetes/operator/) to apply [Flyway migrations](https://flywaydb.org/)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "microsoft/frameworkcontroller",
+      "status": "candidate-context",
+      "text": "General-Purpose Kubernetes Pod Controller"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/frameworkcontroller",
+      "status": "candidate-context",
+      "text": "**_Turn it into maintenance mode, read-only, and only update for critical fixes._**"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +57,12 @@
       "source_repo": "davidkarlsen/flyway-operator",
       "status": "candidate",
       "text": "[Kubernetes-operator](https://kubernetes.io/docs/concepts/extend-kubernetes/operator/) to apply [Flyway migrations](https://flywaydb.org/)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/frameworkcontroller",
+      "status": "candidate",
+      "text": "**_Turn it into maintenance mode, read-only, and only update for critical fixes._**"
     }
   ],
   "candidate_related_terms": [],
@@ -70,11 +88,17 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": null,
       "source_repo": "aws-controllers-k8s/community"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "microsoft/frameworkcontroller"
     }
   ],
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

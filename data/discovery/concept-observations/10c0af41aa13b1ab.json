@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "An automated TUF repository demo"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "TUF-on-CI signing event"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "TUF-on-CI signing event"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 13225,
+      "status": "candidate",
+      "text": "attest"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 13225,
+      "status": "candidate",
+      "text": "ceremonies"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 13225,
+      "status": "candidate",
+      "text": "ceremony"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 13225,
+      "status": "candidate",
+      "text": "closing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 13225,
+      "status": "candidate",
+      "text": "conclusion"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "TUF-on-CI signing event",
+      "sense_id": "tuf-on-ci-signing-event#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "tuf-on-ci-signing-event",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "tuf-on-ci-signing-event",
+  "observation_id": "10c0af41aa13b1ab",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-30T00:37:16.824464+00:00",
+  "observed_text": "TUF-on-CI signing event",
+  "source_context_snippet": "TUF-on-CI signing event",
+  "source_file": ".github/workflows/signing-event.yml",
+  "source_repo": "jku/tuf-demo",
+  "source_repo_description": "An automated TUF repository demo"
+}

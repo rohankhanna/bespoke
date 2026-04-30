@@ -1,0 +1,101 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A powerful Rust library for OpenAPI 3.1,3.2 specification parsing, validation, and request handling."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[English](README.md) | [\u4e2d\u6587](README-ZH.md)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[English](README.md) | [\u4e2d\u6587](README-ZH.md)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 51366,
+      "status": "candidate",
+      "text": "genus apis"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 51365,
+      "status": "candidate",
+      "text": "air"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 51365,
+      "status": "candidate",
+      "text": "announcement"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 51365,
+      "status": "candidate",
+      "text": "api"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 51365,
+      "status": "candidate",
+      "text": "bee"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "apis",
+      "sense_id": "apis#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 9,
+      "status": "candidate",
+      "text": "genus apis"
+    }
+  ],
+  "concept_id": "apis",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "apis",
+  "observation_id": "39bba89286537fa9",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T00:37:16.824464+00:00",
+  "observed_text": "apis",
+  "source_context_snippet": "[English](README.md) | [\u4e2d\u6587](README-ZH.md)",
+  "source_file": null,
+  "source_repo": "baerwang/openapi-rs",
+  "source_repo_description": "A powerful Rust library for OpenAPI 3.1,3.2 specification parsing, validation, and request handling."
+}

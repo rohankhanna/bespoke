@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T04:10:35.530098+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 92
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Collection of images associated with the OpenEXR distribution",
+    "fork": false,
+    "full_name": "AcademySoftwareFoundation/openexr-images",
+    "html_url": "https://github.com/AcademySoftwareFoundation/openexr-images",
+    "language": null,
+    "pushed_at": "2025-06-12T00:47:59Z",
+    "stargazers_count": 128,
+    "topics": [],
+    "updated_at": "2026-04-30T02:53:52Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

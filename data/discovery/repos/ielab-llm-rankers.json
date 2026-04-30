@@ -1,0 +1,53 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ielab/llm-rankers",
+      "target": "castorini/pygaggle",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ielab/llm-rankers",
+      "target": "sunnweiwei/rankgpt",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T02:00:48.744297+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 13417
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Document Ranking with Large Language Models.",
+    "fork": false,
+    "full_name": "ielab/llm-rankers",
+    "html_url": "https://github.com/ielab/llm-rankers",
+    "language": "Python",
+    "pushed_at": "2026-02-14T00:14:23Z",
+    "stargazers_count": 210,
+    "topics": [],
+    "updated_at": "2026-04-28T20:05:53Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "castorini/pygaggle",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "sunnweiwei/rankgpt",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

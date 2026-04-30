@@ -1,0 +1,112 @@
+{
+  "aliases": [
+    "sigstore"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sigstore/helm-sigstore",
+      "status": "candidate-context",
+      "text": "Plugin for Helm to integrate the sigstore ecosystem"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sigstore/helm-sigstore",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://github.com/sigstore/helm-sigstore/workflows/ci/badge.svg?branch=main)](https://github.com/sigstore/helm-sigstore/actions?workflow=ci)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sigstore/gitsign",
+      "status": "candidate-context",
+      "text": "Keyless Git signing using Sigstore"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sigstore/gitsign",
+      "status": "candidate-context",
+      "text": "[![CI](https://github.com/sigstore/gitsign/actions/workflows/ci.yaml/badge.svg)](https://github.com/sigstore/gitsign/actions/workflows/ci.yaml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sigstore/sigstore-conformance",
+      "status": "candidate-context",
+      "text": "Conformance testing for Sigstore clients"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sigstore/sigstore-conformance",
+      "status": "candidate-context",
+      "text": "sigstore-conformance"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sigstore/helm-sigstore",
+      "status": "candidate",
+      "text": "[![Build Status](https://github.com/sigstore/helm-sigstore/workflows/ci/badge.svg?branch=main)](https://github.com/sigstore/helm-sigstore/actions?workflow=ci)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sigstore/gitsign",
+      "status": "candidate",
+      "text": "[![CI](https://github.com/sigstore/gitsign/actions/workflows/ci.yaml/badge.svg)](https://github.com/sigstore/gitsign/actions/workflows/ci.yaml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sigstore/sigstore-conformance",
+      "status": "candidate",
+      "text": "sigstore-conformance"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "sigstore",
+  "concept_id": "sigstore",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "sigstore/helm-sigstore"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "sigstore/gitsign"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "sigstore/sigstore-conformance"
+    }
+  ],
+  "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "sigstore",
+      "sense_id": "sigstore#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

@@ -1,0 +1,27 @@
+{
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hpc203/yolov7-detect-face-onnxrun-cpp-py",
+      "target": "face-detection",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hpc203/yolov7-detect-face-onnxrun-cpp-py",
+      "target": "face-landmark-detection",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hpc203/yolov7-detect-face-onnxrun-cpp-py",
+      "target": "yolov7-face",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-30T00:37:16.824464+00:00",
+  "source_repo": "hpc203/yolov7-detect-face-onnxrun-cpp-py"
+}

@@ -1,0 +1,289 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/config.yml"
+    },
+    {
+      "component": "actions/setup-python@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/config.yml"
+    },
+    {
+      "component": "creyD/prettier_action@v2.2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/config.yml"
+    },
+    {
+      "component": "lgeiger/black-action@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/config.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Buuntu/fastapi-react",
+      "target": "marmelab/react-admin",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Buuntu/fastapi-react",
+      "target": "tiangolo/full-stack-fastapi-postgresql",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Buuntu/fastapi-react",
+      "target": "coleifer/huey",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/config.yml",
+      "source_repo": "Buuntu/fastapi-react",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/config.yml",
+      "source_repo": "Buuntu/fastapi-react",
+      "target": "actions/setup-python@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/config.yml",
+      "source_repo": "Buuntu/fastapi-react",
+      "target": "creyD/prettier_action@v2.2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/config.yml",
+      "source_repo": "Buuntu/fastapi-react",
+      "target": "lgeiger/black-action@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/config.yml",
+      "source_repo": "Buuntu/fastapi-react",
+      "target": "build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Buuntu/fastapi-react",
+      "target": "boilerplate",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Buuntu/fastapi-react",
+      "target": "cookiecutter",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Buuntu/fastapi-react",
+      "target": "docker",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Buuntu/fastapi-react",
+      "target": "fastapi",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Buuntu/fastapi-react",
+      "target": "full-stack",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Buuntu/fastapi-react",
+      "target": "nginx",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Buuntu/fastapi-react",
+      "target": "oauth2",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Buuntu/fastapi-react",
+      "target": "postgres",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Buuntu/fastapi-react",
+      "target": "react",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Buuntu/fastapi-react",
+      "target": "react-admin",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Buuntu/fastapi-react",
+      "target": "sqlalchemy",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T05:03:42.075978+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 12143
+    },
+    {
+      "path": ".github/workflows/config.yml",
+      "size": 811
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "\ud83d\ude80   Cookiecutter Template for FastAPI + React Projects.  Using PostgreSQL, SQLAlchemy, and Docker",
+    "fork": false,
+    "full_name": "Buuntu/fastapi-react",
+    "html_url": "https://github.com/Buuntu/fastapi-react",
+    "language": "Python",
+    "pushed_at": "2023-10-06T23:46:17Z",
+    "stargazers_count": 2580,
+    "topics": [
+      "boilerplate",
+      "cookiecutter",
+      "docker",
+      "fastapi",
+      "full-stack",
+      "jwt",
+      "nginx",
+      "oauth2",
+      "postgres",
+      "react",
+      "react-admin",
+      "sqlalchemy",
+      "typescript"
+    ],
+    "updated_at": "2026-04-29T09:01:31Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "coleifer/huey",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "marmelab/react-admin",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "tiangolo/full-stack-fastapi-postgresql",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/config.yml",
+      "term": "build"
+    },
+    {
+      "context_snippet": "<div>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "boilerplate"
+    },
+    {
+      "context_snippet": "<div>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cookiecutter"
+    },
+    {
+      "context_snippet": "<div>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "docker"
+    },
+    {
+      "context_snippet": "<div>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "fastapi"
+    },
+    {
+      "context_snippet": "<div>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "full-stack"
+    },
+    {
+      "context_snippet": "<div>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nginx"
+    },
+    {
+      "context_snippet": "<div>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "oauth2"
+    },
+    {
+      "context_snippet": "<div>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "postgres"
+    },
+    {
+      "context_snippet": "<div>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "react"
+    },
+    {
+      "context_snippet": "<div>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "react-admin"
+    },
+    {
+      "context_snippet": "<div>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "sqlalchemy"
+    }
+  ]
+}

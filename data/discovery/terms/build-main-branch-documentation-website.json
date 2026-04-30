@@ -1,11 +1,21 @@
 {
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/docs-build-dev.yml",
       "source_repo": "Farama-Foundation/Gymnasium"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/build-docs-dev.yaml",
+      "source_repo": "Farama-Foundation/Shimmy"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/build-docs-dev.yml",
+      "source_repo": "Farama-Foundation/Minigrid"
     }
   ],
   "term": "Build main branch documentation website"

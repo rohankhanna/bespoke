@@ -148,13 +148,6 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "electron-userland/electron-wix-msi",
-      "target": "wixtoolset/wix3",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "electron-userland/electron-wix-msi",
       "target": "electron-userland/electron-packager",
       "target_type": "repository"
     },
@@ -383,7 +376,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-29T20:40:38.885832+00:00",
+  "fetched_at": "2026-04-30T05:08:50.457928+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -424,11 +417,6 @@
     {
       "edge_type": "explicit-github-link",
       "full_name": "felixrieseberg/electron-wix-msi",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "wixtoolset/wix3",
       "source_file": "README.md"
     },
     {

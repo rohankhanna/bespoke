@@ -84,7 +84,7 @@
   "normalized_form": "dispatch-event-on-release",
   "observation_id": "9e245c705d693462",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-04-23T01:09:11.871080+00:00",
+  "observed_at": "2026-04-30T00:37:16.824464+00:00",
   "observed_text": "Dispatch Event On Release",
   "source_context_snippet": "Dispatch Event On Release",
   "source_file": ".github/workflows/dispatch_on_release.yaml",

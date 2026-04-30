@@ -43,6 +43,18 @@
       "source_repo": "CSAILVision/semantic-segmentation-pytorch",
       "status": "candidate-context",
       "text": "This is a PyTorch implementation of semantic segmentation models on MIT ADE20K scene parsing dataset (http://sceneparsing.csail.mit.edu/)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "CoinCheung/BiSeNet",
+      "status": "candidate-context",
+      "text": "Add bisenetv2.  My implementation of BiSeNet"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "CoinCheung/BiSeNet",
+      "status": "candidate-context",
+      "text": "My implementation of [BiSeNetV1](https://arxiv.org/abs/1808.00897) and [BiSeNetV2](https://arxiv.org/abs/2004.02147)."
     }
   ],
   "candidate_glosses": [
@@ -63,6 +75,12 @@
       "source_repo": "CSAILVision/semantic-segmentation-pytorch",
       "status": "candidate",
       "text": "This is a PyTorch implementation of semantic segmentation models on MIT ADE20K scene parsing dataset (http://sceneparsing.csail.mit.edu/)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "CoinCheung/BiSeNet",
+      "status": "candidate",
+      "text": "My implementation of [BiSeNetV1](https://arxiv.org/abs/1808.00897) and [BiSeNetV2](https://arxiv.org/abs/2004.02147)."
     }
   ],
   "candidate_related_terms": [],
@@ -88,11 +106,17 @@
       "observed_at": "2026-04-24T00:33:56.049672+00:00",
       "source_file": null,
       "source_repo": "CSAILVision/semantic-segmentation-pytorch"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "CoinCheung/BiSeNet"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

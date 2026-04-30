@@ -1,0 +1,169 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "codecov/codecov-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "shenweichen/GraphEmbedding",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "shenweichen/GraphEmbedding",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "shenweichen/GraphEmbedding",
+      "target": "codecov/codecov-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "shenweichen/GraphEmbedding",
+      "target": "deepwalk",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "shenweichen/GraphEmbedding",
+      "target": "graph",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "shenweichen/GraphEmbedding",
+      "target": "graphembedding",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "shenweichen/GraphEmbedding",
+      "target": "line",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "shenweichen/GraphEmbedding",
+      "target": "node2vec",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "shenweichen/GraphEmbedding",
+      "target": "sdne",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "shenweichen/GraphEmbedding",
+      "target": "struc2vec",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T04:59:10.788780+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5733
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 2661
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Implementation and experiments  of graph embedding algorithms.",
+    "fork": false,
+    "full_name": "shenweichen/GraphEmbedding",
+    "html_url": "https://github.com/shenweichen/GraphEmbedding",
+    "language": "Python",
+    "pushed_at": "2026-04-26T07:23:36Z",
+    "stargazers_count": 3841,
+    "topics": [
+      "deepwalk",
+      "graph",
+      "graphembedding",
+      "line",
+      "node2vec",
+      "sdne",
+      "struc2vec"
+    ],
+    "updated_at": "2026-04-18T15:37:07Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "[![GitHub Issues](https://img.shields.io/github/issues/shenweichen/graphembedding.svg",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deepwalk"
+    },
+    {
+      "context_snippet": "[![GitHub Issues](https://img.shields.io/github/issues/shenweichen/graphembedding.svg",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "graph"
+    },
+    {
+      "context_snippet": "[![GitHub Issues](https://img.shields.io/github/issues/shenweichen/graphembedding.svg",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "graphembedding"
+    },
+    {
+      "context_snippet": "[![GitHub Issues](https://img.shields.io/github/issues/shenweichen/graphembedding.svg",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "line"
+    },
+    {
+      "context_snippet": "[![GitHub Issues](https://img.shields.io/github/issues/shenweichen/graphembedding.svg",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "node2vec"
+    },
+    {
+      "context_snippet": "[![GitHub Issues](https://img.shields.io/github/issues/shenweichen/graphembedding.svg",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "sdne"
+    },
+    {
+      "context_snippet": "[![GitHub Issues](https://img.shields.io/github/issues/shenweichen/graphembedding.svg",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "struc2vec"
+    }
+  ]
+}

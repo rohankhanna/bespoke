@@ -1,0 +1,156 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "CoinCheung/BiSeNet",
+      "target": "ade20k",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "CoinCheung/BiSeNet",
+      "target": "bisenet",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "CoinCheung/BiSeNet",
+      "target": "cityscapes",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "CoinCheung/BiSeNet",
+      "target": "cocostuff",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "CoinCheung/BiSeNet",
+      "target": "ncnn",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "CoinCheung/BiSeNet",
+      "target": "openvino",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "CoinCheung/BiSeNet",
+      "target": "pytorch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "CoinCheung/BiSeNet",
+      "target": "tensorrt",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "CoinCheung/BiSeNet",
+      "target": "triton-inference-server",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T05:11:42.595877+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7364
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Add bisenetv2.  My implementation of BiSeNet",
+    "fork": false,
+    "full_name": "CoinCheung/BiSeNet",
+    "html_url": "https://github.com/CoinCheung/BiSeNet",
+    "language": "Python",
+    "pushed_at": "2026-04-04T10:28:15Z",
+    "stargazers_count": 1615,
+    "topics": [
+      "ade20k",
+      "bisenet",
+      "cityscapes",
+      "cocostuff",
+      "ncnn",
+      "openvino",
+      "pytorch",
+      "tensorrt",
+      "triton-inference-server"
+    ],
+    "updated_at": "2026-04-27T11:24:41Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "My implementation of [BiSeNetV1](https://arxiv.org/abs/1808.00897) and [BiSeNetV2](https://arxiv.org/abs/2004.02147).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ade20k"
+    },
+    {
+      "context_snippet": "My implementation of [BiSeNetV1](https://arxiv.org/abs/1808.00897) and [BiSeNetV2](https://arxiv.org/abs/2004.02147).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bisenet"
+    },
+    {
+      "context_snippet": "My implementation of [BiSeNetV1](https://arxiv.org/abs/1808.00897) and [BiSeNetV2](https://arxiv.org/abs/2004.02147).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cityscapes"
+    },
+    {
+      "context_snippet": "My implementation of [BiSeNetV1](https://arxiv.org/abs/1808.00897) and [BiSeNetV2](https://arxiv.org/abs/2004.02147).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cocostuff"
+    },
+    {
+      "context_snippet": "My implementation of [BiSeNetV1](https://arxiv.org/abs/1808.00897) and [BiSeNetV2](https://arxiv.org/abs/2004.02147).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ncnn"
+    },
+    {
+      "context_snippet": "My implementation of [BiSeNetV1](https://arxiv.org/abs/1808.00897) and [BiSeNetV2](https://arxiv.org/abs/2004.02147).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "openvino"
+    },
+    {
+      "context_snippet": "My implementation of [BiSeNetV1](https://arxiv.org/abs/1808.00897) and [BiSeNetV2](https://arxiv.org/abs/2004.02147).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytorch"
+    },
+    {
+      "context_snippet": "My implementation of [BiSeNetV1](https://arxiv.org/abs/1808.00897) and [BiSeNetV2](https://arxiv.org/abs/2004.02147).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tensorrt"
+    },
+    {
+      "context_snippet": "My implementation of [BiSeNetV1](https://arxiv.org/abs/1808.00897) and [BiSeNetV2](https://arxiv.org/abs/2004.02147).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "triton-inference-server"
+    }
+  ]
+}

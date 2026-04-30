@@ -1,0 +1,157 @@
+{
+  "components": [
+    {
+      "component": "socket.io-client",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "5sControl/machine-control-js",
+      "target": "5scontrol/5s-user-documentation",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "5sControl/machine-control-js",
+      "target": "5scontrol/manufacturing-automatization-enterprise",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "5sControl/machine-control-js",
+      "target": "5scontrol/min-max",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "5sControl/machine-control-js",
+      "target": "5scontrol/inference-server-js",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "5sControl/machine-control-js",
+      "target": "socket.io-client",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "5sControl/machine-control-js",
+      "target": "algorithm",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "5sControl/machine-control-js",
+      "target": "machine-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "5sControl/machine-control-js",
+      "target": "manufacturing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "5sControl/machine-control-js",
+      "target": "open-source",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T03:03:45.359618+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3997
+    },
+    {
+      "path": "Dockerfile",
+      "size": 117
+    },
+    {
+      "path": "package.json",
+      "size": 1527
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Automatically detect when a worker is absent using power of computer vision",
+    "fork": false,
+    "full_name": "5sControl/machine-control-js",
+    "html_url": "https://github.com/5sControl/machine-control-js",
+    "language": "JavaScript",
+    "pushed_at": "2024-04-04T08:03:48Z",
+    "stargazers_count": 0,
+    "topics": [
+      "algorithm",
+      "javascript",
+      "machine-learning",
+      "manufacturing",
+      "open-source"
+    ],
+    "updated_at": "2023-10-20T07:54:34Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "5scontrol/5s-user-documentation",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "5scontrol/inference-server-js",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "5scontrol/manufacturing-automatization-enterprise",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "5scontrol/min-max",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Machine control is one of the Official [5sControl](https://5scontrol.com/) algorithm. Plug it in our video monitoring system with AI analysis and ERP Integration (Open Source) to increase the efficiency of your processes.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "algorithm"
+    },
+    {
+      "context_snippet": "Machine control is one of the Official [5sControl](https://5scontrol.com/) algorithm. Plug it in our video monitoring system with AI analysis and ERP Integration (Open Source) to increase the efficiency of your processes.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "machine-learning"
+    },
+    {
+      "context_snippet": "Machine control is one of the Official [5sControl](https://5scontrol.com/) algorithm. Plug it in our video monitoring system with AI analysis and ERP Integration (Open Source) to increase the efficiency of your processes.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "manufacturing"
+    },
+    {
+      "context_snippet": "Machine control is one of the Official [5sControl](https://5scontrol.com/) algorithm. Plug it in our video monitoring system with AI analysis and ERP Integration (Open Source) to increase the efficiency of your processes.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "open-source"
+    }
+  ]
+}

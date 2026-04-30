@@ -1,0 +1,12 @@
+{
+  "component": "helm/chart-releaser-action@a917fd15b20e8b64b94d9158ad54cd6345335584",
+  "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "opencost/opencost-helm-chart"
+    }
+  ]
+}

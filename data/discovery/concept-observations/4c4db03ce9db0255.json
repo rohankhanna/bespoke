@@ -84,7 +84,7 @@
   "normalized_form": "bump-uv.lock",
   "observation_id": "4c4db03ce9db0255",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_at": "2026-04-30T00:37:16.824464+00:00",
   "observed_text": "Bump uv.lock",
   "source_context_snippet": "Bump uv.lock",
   "source_file": ".github/workflows/bump_uv_lock.yml",

@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "ZX Spectrum emulator for Windows, Linux and MacOS."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Build"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Build"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18128622,
+      "status": "candidate",
+      "text": "vulcan"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17550434,
+      "status": "candidate",
+      "text": "sockeye"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17529047,
+      "status": "candidate",
+      "text": "visit"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9016859,
+      "status": "candidate",
+      "text": "author"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9016858,
+      "status": "candidate",
+      "text": "novelist"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "sinclair",
+      "sense_id": "sinclair#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "sinclair",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "sinclair",
+  "observation_id": "c33649351afd8f62",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T00:37:16.824464+00:00",
+  "observed_text": "sinclair",
+  "source_context_snippet": "Build",
+  "source_file": null,
+  "source_repo": "r-lyeh/Spectral",
+  "source_repo_description": "ZX Spectrum emulator for Windows, Linux and MacOS."
+}

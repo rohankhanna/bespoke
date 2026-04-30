@@ -2,7 +2,8 @@
   "aliases": [
     "npm publish",
     "npm-publish",
-    "Npm Publish"
+    "Npm Publish",
+    "NPM Publish"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -81,6 +82,36 @@
       "source_repo": "mdn/mdn-http-observatory",
       "status": "candidate-context",
       "text": "npm publish"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Kong/proxy-wasm-assemblyscript-sdk",
+      "status": "candidate-context",
+      "text": "WebAssembly for Proxies (AssemblyScript SDK)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Kong/proxy-wasm-assemblyscript-sdk",
+      "status": "candidate-context",
+      "text": "npm-publish"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "validatorjs/validator.js",
+      "status": "candidate-context",
+      "text": "String validation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "validatorjs/validator.js",
+      "status": "candidate-context",
+      "text": "NPM Publish"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "solo-io/proxy-runtime",
+      "status": "candidate-context",
+      "text": "npm-publish"
     }
   ],
   "candidate_glosses": [
@@ -119,6 +150,24 @@
       "source_repo": "mdn/mdn-http-observatory",
       "status": "candidate",
       "text": "npm publish"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Kong/proxy-wasm-assemblyscript-sdk",
+      "status": "candidate",
+      "text": "npm-publish"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "validatorjs/validator.js",
+      "status": "candidate",
+      "text": "NPM Publish"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "solo-io/proxy-runtime",
+      "status": "candidate",
+      "text": "npm-publish"
     }
   ],
   "candidate_related_terms": [
@@ -198,11 +247,29 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": ".github/workflows/npm-publish.yml",
       "source_repo": "mdn/mdn-http-observatory"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/npm-publish.yml",
+      "source_repo": "Kong/proxy-wasm-assemblyscript-sdk"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/npm-publish.yml",
+      "source_repo": "validatorjs/validator.js"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/npm-publish.yml",
+      "source_repo": "solo-io/proxy-runtime"
     }
   ],
   "first_seen_at": "2026-04-19T02:42:33.990002+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

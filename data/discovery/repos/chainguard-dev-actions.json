@@ -1,0 +1,499 @@
+{
+  "components": [
+    {
+      "component": "step-security/harden-runner@8d3c67de8e2fe68ef647c8db1e6a09f647780f40",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/actionlint.yaml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/actionlint.yaml"
+    },
+    {
+      "component": "reviewdog/action-actionlint@6fb7acc99f4a1008869fa8a0f09cfca740837d9d",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/actionlint.yaml"
+    },
+    {
+      "component": "step-security/harden-runner@8d3c67de8e2fe68ef647c8db1e6a09f647780f40",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml"
+    },
+    {
+      "component": "octo-sts/action@f603d3be9d8dd9871a265776e625a27b00effe05",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml"
+    },
+    {
+      "component": "chainguard-dev/actions/git-tag@061bc0e921116bde1470f51fb5c86d5318f16558",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml"
+    },
+    {
+      "component": "goreleaser/goreleaser-action@e24998b8b67b290c2fa8b7c14fcfa7de2c5c9b8c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml"
+    },
+    {
+      "component": "step-security/harden-runner@8d3c67de8e2fe68ef647c8db1e6a09f647780f40",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-apt-faster.yaml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-apt-faster.yaml"
+    },
+    {
+      "component": "step-security/harden-runner@8d3c67de8e2fe68ef647c8db1e6a09f647780f40",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-argo-workflows.yaml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-argo-workflows.yaml"
+    },
+    {
+      "component": "chainguard-dev/actions/setup-kind@061bc0e921116bde1470f51fb5c86d5318f16558",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-argo-workflows.yaml"
+    },
+    {
+      "component": "step-security/harden-runner@8d3c67de8e2fe68ef647c8db1e6a09f647780f40",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-argo-workflows.yaml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-argo-workflows.yaml"
+    },
+    {
+      "component": "step-security/harden-runner@8d3c67de8e2fe68ef647c8db1e6a09f647780f40",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-bump-go-version.yaml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-bump-go-version.yaml"
+    },
+    {
+      "component": "step-security/harden-runner@8d3c67de8e2fe68ef647c8db1e6a09f647780f40",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-bump-go-version.yaml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-bump-go-version.yaml"
+    },
+    {
+      "component": "step-security/harden-runner@8d3c67de8e2fe68ef647c8db1e6a09f647780f40",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-bump-go-version.yaml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-bump-go-version.yaml"
+    },
+    {
+      "component": "step-security/harden-runner@8d3c67de8e2fe68ef647c8db1e6a09f647780f40",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-bump-go-version.yaml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-bump-go-version.yaml"
+    },
+    {
+      "component": "step-security/harden-runner@8d3c67de8e2fe68ef647c8db1e6a09f647780f40",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-git-tag.yaml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-git-tag.yaml"
+    },
+    {
+      "component": "step-security/harden-runner@8d3c67de8e2fe68ef647c8db1e6a09f647780f40",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-gitsign.yaml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-gitsign.yaml"
+    },
+    {
+      "component": "step-security/harden-runner@8d3c67de8e2fe68ef647c8db1e6a09f647780f40",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-matrix-extra-inputs.yaml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-matrix-extra-inputs.yaml"
+    },
+    {
+      "component": "step-security/harden-runner@8d3c67de8e2fe68ef647c8db1e6a09f647780f40",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-setup-eksctl.yaml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-setup-eksctl.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/actionlint.yaml",
+      "source_repo": "chainguard-dev/actions",
+      "target": "step-security/harden-runner@8d3c67de8e2fe68ef647c8db1e6a09f647780f40",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/actionlint.yaml",
+      "source_repo": "chainguard-dev/actions",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/actionlint.yaml",
+      "source_repo": "chainguard-dev/actions",
+      "target": "reviewdog/action-actionlint@6fb7acc99f4a1008869fa8a0f09cfca740837d9d",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/actionlint.yaml",
+      "source_repo": "chainguard-dev/actions",
+      "target": "Action Lint",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "chainguard-dev/actions",
+      "target": "step-security/harden-runner@8d3c67de8e2fe68ef647c8db1e6a09f647780f40",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "chainguard-dev/actions",
+      "target": "octo-sts/action@f603d3be9d8dd9871a265776e625a27b00effe05",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "chainguard-dev/actions",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "chainguard-dev/actions",
+      "target": "chainguard-dev/actions/git-tag@061bc0e921116bde1470f51fb5c86d5318f16558",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "chainguard-dev/actions",
+      "target": "goreleaser/goreleaser-action@e24998b8b67b290c2fa8b7c14fcfa7de2c5c9b8c",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "chainguard-dev/actions",
+      "target": "release-actions",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-apt-faster.yaml",
+      "source_repo": "chainguard-dev/actions",
+      "target": "step-security/harden-runner@8d3c67de8e2fe68ef647c8db1e6a09f647780f40",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-apt-faster.yaml",
+      "source_repo": "chainguard-dev/actions",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test-apt-faster.yaml",
+      "source_repo": "chainguard-dev/actions",
+      "target": "test-apt-faster",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-argo-workflows.yaml",
+      "source_repo": "chainguard-dev/actions",
+      "target": "step-security/harden-runner@8d3c67de8e2fe68ef647c8db1e6a09f647780f40",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-argo-workflows.yaml",
+      "source_repo": "chainguard-dev/actions",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-argo-workflows.yaml",
+      "source_repo": "chainguard-dev/actions",
+      "target": "chainguard-dev/actions/setup-kind@061bc0e921116bde1470f51fb5c86d5318f16558",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test-argo-workflows.yaml",
+      "source_repo": "chainguard-dev/actions",
+      "target": "test-argo-workflows",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-bump-go-version.yaml",
+      "source_repo": "chainguard-dev/actions",
+      "target": "step-security/harden-runner@8d3c67de8e2fe68ef647c8db1e6a09f647780f40",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-bump-go-version.yaml",
+      "source_repo": "chainguard-dev/actions",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test-bump-go-version.yaml",
+      "source_repo": "chainguard-dev/actions",
+      "target": "Test Bump Go Version Action",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-git-tag.yaml",
+      "source_repo": "chainguard-dev/actions",
+      "target": "step-security/harden-runner@8d3c67de8e2fe68ef647c8db1e6a09f647780f40",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-git-tag.yaml",
+      "source_repo": "chainguard-dev/actions",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test-git-tag.yaml",
+      "source_repo": "chainguard-dev/actions",
+      "target": "test-git-tag",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-gitsign.yaml",
+      "source_repo": "chainguard-dev/actions",
+      "target": "step-security/harden-runner@8d3c67de8e2fe68ef647c8db1e6a09f647780f40",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-gitsign.yaml",
+      "source_repo": "chainguard-dev/actions",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test-gitsign.yaml",
+      "source_repo": "chainguard-dev/actions",
+      "target": "test-gitsign",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-matrix-extra-inputs.yaml",
+      "source_repo": "chainguard-dev/actions",
+      "target": "step-security/harden-runner@8d3c67de8e2fe68ef647c8db1e6a09f647780f40",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-matrix-extra-inputs.yaml",
+      "source_repo": "chainguard-dev/actions",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test-matrix-extra-inputs.yaml",
+      "source_repo": "chainguard-dev/actions",
+      "target": "test-matrix-extra-inputs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-setup-eksctl.yaml",
+      "source_repo": "chainguard-dev/actions",
+      "target": "step-security/harden-runner@8d3c67de8e2fe68ef647c8db1e6a09f647780f40",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-setup-eksctl.yaml",
+      "source_repo": "chainguard-dev/actions",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test-setup-eksctl.yaml",
+      "source_repo": "chainguard-dev/actions",
+      "target": "test-setup-eksctl",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T01:47:11.554756+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 61
+    },
+    {
+      "path": ".github/workflows/actionlint.yaml",
+      "size": 1224
+    },
+    {
+      "path": ".github/workflows/release.yaml",
+      "size": 3471
+    },
+    {
+      "path": ".github/workflows/test-apt-faster.yaml",
+      "size": 5296
+    },
+    {
+      "path": ".github/workflows/test-argo-workflows.yaml",
+      "size": 2740
+    },
+    {
+      "path": ".github/workflows/test-bump-go-version.yaml",
+      "size": 6393
+    },
+    {
+      "path": ".github/workflows/test-git-tag.yaml",
+      "size": 966
+    },
+    {
+      "path": ".github/workflows/test-gitsign.yaml",
+      "size": 1331
+    },
+    {
+      "path": ".github/workflows/test-matrix-extra-inputs.yaml",
+      "size": 1081
+    },
+    {
+      "path": ".github/workflows/test-setup-eksctl.yaml",
+      "size": 2003
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A collection of reusable Github Actions workflows.",
+    "fork": false,
+    "full_name": "chainguard-dev/actions",
+    "html_url": "https://github.com/chainguard-dev/actions",
+    "language": "TypeScript",
+    "pushed_at": "2026-04-29T13:22:25Z",
+    "stargazers_count": 165,
+    "topics": [],
+    "updated_at": "2026-04-29T15:23:20Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Action Lint",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/actionlint.yaml",
+      "term": "Action Lint"
+    },
+    {
+      "context_snippet": "release-actions",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yaml",
+      "term": "release-actions"
+    },
+    {
+      "context_snippet": "test-apt-faster",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test-apt-faster.yaml",
+      "term": "test-apt-faster"
+    },
+    {
+      "context_snippet": "test-argo-workflows",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test-argo-workflows.yaml",
+      "term": "test-argo-workflows"
+    },
+    {
+      "context_snippet": "Test Bump Go Version Action",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test-bump-go-version.yaml",
+      "term": "Test Bump Go Version Action"
+    },
+    {
+      "context_snippet": "test-git-tag",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test-git-tag.yaml",
+      "term": "test-git-tag"
+    },
+    {
+      "context_snippet": "test-gitsign",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test-gitsign.yaml",
+      "term": "test-gitsign"
+    },
+    {
+      "context_snippet": "test-matrix-extra-inputs",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test-matrix-extra-inputs.yaml",
+      "term": "test-matrix-extra-inputs"
+    },
+    {
+      "context_snippet": "test-setup-eksctl",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test-setup-eksctl.yaml",
+      "term": "test-setup-eksctl"
+    }
+  ]
+}

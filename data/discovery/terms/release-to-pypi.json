@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-18T10:43:38.551697+00:00",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
@@ -21,6 +21,11 @@
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/pypi.yml",
       "source_repo": "authlib/authlib"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "tox-dev/pipdeptree"
     }
   ],
   "term": "Release to PyPI"

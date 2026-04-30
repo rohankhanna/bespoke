@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T04:59:50.911401+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1701
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Code for our ICCV 2019 paper PANet: Few-Shot Image Semantic Segmentation with Prototype Alignment",
+    "fork": false,
+    "full_name": "kaixin96/PANet",
+    "html_url": "https://github.com/kaixin96/PANet",
+    "language": "Python",
+    "pushed_at": "2024-07-08T12:25:18Z",
+    "stargazers_count": 358,
+    "topics": [],
+    "updated_at": "2026-04-22T05:34:49Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

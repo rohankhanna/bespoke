@@ -1294,6 +1294,114 @@
       "source_repo": "ag2ai/ag2",
       "status": "candidate-context",
       "text": "Claude Code"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "colinhacks/zod",
+      "status": "candidate-context",
+      "text": "TypeScript-first schema validation with static type inference"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "colinhacks/zod",
+      "status": "candidate-context",
+      "text": "Claude Code"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cloudwego/kitex",
+      "status": "candidate-context",
+      "text": "Go RPC framework with high-performance and strong-extensibility for building micro-services."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cloudwego/kitex",
+      "status": "candidate-context",
+      "text": "Claude Code"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "openvm-org/stark-backend",
+      "status": "candidate-context",
+      "text": "Proof system backends for OpenVM."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "openvm-org/stark-backend",
+      "status": "candidate-context",
+      "text": "Claude Code"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "agno-agi/agno",
+      "status": "candidate-context",
+      "text": "Agno turns agents into production software. Build agents in any framework. Run as a service. Ship to real users."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "agno-agi/agno",
+      "status": "candidate-context",
+      "text": "Claude Code"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "formatjs/formatjs",
+      "status": "candidate-context",
+      "text": "The monorepo home to all of the FormatJS related libraries, most notably react-intl."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "formatjs/formatjs",
+      "status": "candidate-context",
+      "text": "Claude Code"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "swc-project/swc",
+      "status": "candidate-context",
+      "text": "Rust-based platform for the Web"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "swc-project/swc",
+      "status": "candidate-context",
+      "text": "Claude Code"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kahliburke/Kaimon.jl",
+      "status": "candidate-context",
+      "text": "MCP server giving AI agents full access to Julia's runtime via a live Gate \u2014 code execution, introspection, debugging, testing, and semantic search"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kahliburke/Kaimon.jl",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "danielrosehill/AI-Developer-Notebook",
+      "status": "candidate-context",
+      "text": "Notes for configuring a reference notebook with Claude Code"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "danielrosehill/AI-Developer-Notebook",
+      "status": "candidate-context",
+      "text": "[![Claude Code](https://img.shields.io/badge/Claude_Code-Project-8A2BE2?logo=anthropic)](https://claude.ai/code)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ClickHouse/clickhouse-java",
+      "status": "candidate-context",
+      "text": "ClickHouse Java Clients & JDBC Driver"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ClickHouse/clickhouse-java",
+      "status": "candidate-context",
+      "text": "Claude Code"
     }
   ],
   "candidate_glosses": [
@@ -1930,6 +2038,60 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "ag2ai/ag2",
+      "status": "candidate",
+      "text": "Claude Code"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "colinhacks/zod",
+      "status": "candidate",
+      "text": "Claude Code"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cloudwego/kitex",
+      "status": "candidate",
+      "text": "Claude Code"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "openvm-org/stark-backend",
+      "status": "candidate",
+      "text": "Claude Code"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "agno-agi/agno",
+      "status": "candidate",
+      "text": "Claude Code"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "formatjs/formatjs",
+      "status": "candidate",
+      "text": "Claude Code"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "swc-project/swc",
+      "status": "candidate",
+      "text": "Claude Code"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kahliburke/Kaimon.jl",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "danielrosehill/AI-Developer-Notebook",
+      "status": "candidate",
+      "text": "[![Claude Code](https://img.shields.io/badge/Claude_Code-Project-8A2BE2?logo=anthropic)](https://claude.ai/code)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ClickHouse/clickhouse-java",
       "status": "candidate",
       "text": "Claude Code"
     }
@@ -3211,11 +3373,119 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": ".github/workflows/claude.yml",
       "source_repo": "ag2ai/ag2"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/claude.yml",
+      "source_repo": "colinhacks/zod"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/claude.yml",
+      "source_repo": "cloudwego/kitex"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/claude.yml",
+      "source_repo": "openvm-org/stark-backend"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/claude.yml",
+      "source_repo": "winfunc/opcode"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "winfunc/opcode"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "gastownhall/beads"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "hluaguo/learn-faster-kit"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "danielrosehill/Claude-Code-Projects-Index"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/claude.yml",
+      "source_repo": "agno-agi/agno"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/claude.yml",
+      "source_repo": "harbor-framework/harbor"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/claude.yml",
+      "source_repo": "formatjs/formatjs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/claude.yml",
+      "source_repo": "swc-project/swc"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/claude.yml",
+      "source_repo": "webdataset/webdataset"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "ruvnet/ruflo"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "vaporif/parry-guard"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "kahliburke/Kaimon.jl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "danielrosehill/AI-Developer-Notebook"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/claude.yml",
+      "source_repo": "ClickHouse/clickhouse-java"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

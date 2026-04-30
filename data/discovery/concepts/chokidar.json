@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "chokidar"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "paulmillr/chokidar",
+      "status": "candidate-context",
+      "text": "Minimal and efficient cross-platform file watching library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "paulmillr/chokidar",
+      "status": "candidate-context",
+      "text": "Minimal and efficient cross-platform file watching library"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "paulmillr/chokidar",
+      "status": "candidate",
+      "text": "Minimal and efficient cross-platform file watching library"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9964344,
+      "status": "candidate",
+      "text": "chawkidar"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9964343,
+      "status": "candidate",
+      "text": "chawkidari"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9964342,
+      "status": "candidate",
+      "text": "chowkedar"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9964341,
+      "status": "candidate",
+      "text": "chaukidari"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9964340,
+      "status": "candidate",
+      "text": "churidaar"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "chokidar",
+  "concept_id": "chokidar",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "paulmillr/chokidar"
+    }
+  ],
+  "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "chokidar",
+      "sense_id": "chokidar#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

@@ -12,14 +12,14 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "JIA-Lab-research/LargeKernel3D",
-      "target": "cvmi-lab/sps-conv",
+      "target": "dvlab-research/largekernel3d",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "JIA-Lab-research/LargeKernel3D",
-      "target": "dvlab-research/largekernel3d",
+      "target": "dvlab-research/spconv-plus",
       "target_type": "repository"
     },
     {
@@ -58,7 +58,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-29T20:44:42.549933+00:00",
+  "fetched_at": "2026-04-30T05:14:11.684626+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -88,11 +88,6 @@
   "repo_links": [
     {
       "edge_type": "explicit-github-link",
-      "full_name": "cvmi-lab/sps-conv",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
       "full_name": "dvlab-research/focalsconv",
       "source_file": "README.md"
     },
@@ -104,6 +99,11 @@
     {
       "edge_type": "explicit-github-link",
       "full_name": "dvlab-research/sparsetransformer",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dvlab-research/spconv-plus",
       "source_file": "README.md"
     }
   ],

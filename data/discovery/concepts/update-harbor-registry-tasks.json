@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Update Harbor Registry Tasks"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "meridianlabs-ai/inspect_harbor",
+      "status": "candidate-context",
+      "text": "Inspect AI interface to Harbor tasks"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "meridianlabs-ai/inspect_harbor",
+      "status": "candidate-context",
+      "text": "Update Harbor Registry Tasks"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "meridianlabs-ai/inspect_harbor",
+      "status": "candidate",
+      "text": "Update Harbor Registry Tasks"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27287,
+      "status": "candidate",
+      "text": "keeps"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27160,
+      "status": "candidate",
+      "text": "control"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27160,
+      "status": "candidate",
+      "text": "controlling"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27160,
+      "status": "candidate",
+      "text": "forward"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27160,
+      "status": "candidate",
+      "text": "stamp"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Update Harbor Registry Tasks",
+  "concept_id": "update-harbor-registry-tasks",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/update-registry.yml",
+      "source_repo": "meridianlabs-ai/inspect_harbor"
+    }
+  ],
+  "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Update Harbor Registry Tasks",
+      "sense_id": "update-harbor-registry-tasks#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

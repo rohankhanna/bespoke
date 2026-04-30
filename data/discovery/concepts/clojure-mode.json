@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "clojure-mode"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "clojure-emacs/clojure-mode",
+      "status": "candidate-context",
+      "text": "Emacs support for the Clojure(Script) programming language"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "clojure-emacs/clojure-mode",
+      "status": "candidate-context",
+      "text": "[![CI](https://github.com/clojure-emacs/clojure-mode/actions/workflows/ci.yml/badge.svg)](https://github.com/clojure-emacs/clojure-mode/actions/workflows/ci.yml)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "clojure-emacs/clojure-mode",
+      "status": "candidate",
+      "text": "[![CI](https://github.com/clojure-emacs/clojure-mode/actions/workflows/ci.yml/badge.svg)](https://github.com/clojure-emacs/clojure-mode/actions/workflows/ci.yml)"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "clojure-mode",
+  "concept_id": "clojure-mode",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "clojure-emacs/clojure-mode"
+    }
+  ],
+  "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "clojure-mode",
+      "sense_id": "clojure-mode#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-18T09:10:17.311509+00:00",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "sources": [
     {
       "discovered_via": "inline-code",
@@ -131,6 +131,41 @@
       "discovered_via": "repo-topic",
       "source_file": null,
       "source_repo": "wemake-services/flake8-eradicate"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "pylint-dev/pylint"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "wemake-services/wemake-python-styleguide"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "reviewdog/reviewdog"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "detekt/detekt"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "jfmengels/elm-review"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "checkstyle/checkstyle"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/code_quality.yml",
+      "source_repo": "CarperAI/trlx"
     }
   ],
   "term": "Code Quality"

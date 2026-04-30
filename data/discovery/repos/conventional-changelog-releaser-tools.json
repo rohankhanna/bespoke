@@ -1,0 +1,307 @@
+{
+  "components": [
+    {
+      "component": "chai",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "codecov",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "eslint",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "eslint-config-standard",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "eslint-config-xo-space",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "eslint-plugin-import",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "eslint-plugin-node",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "eslint-plugin-promise",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "eslint-plugin-standard",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "lerna",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "mocha",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "nyc",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "conventional-changelog/releaser-tools",
+      "target": "chai",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "conventional-changelog/releaser-tools",
+      "target": "codecov",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "conventional-changelog/releaser-tools",
+      "target": "eslint",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "conventional-changelog/releaser-tools",
+      "target": "eslint-config-standard",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "conventional-changelog/releaser-tools",
+      "target": "eslint-config-xo-space",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "conventional-changelog/releaser-tools",
+      "target": "eslint-plugin-import",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "conventional-changelog/releaser-tools",
+      "target": "eslint-plugin-node",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "conventional-changelog/releaser-tools",
+      "target": "eslint-plugin-promise",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "conventional-changelog/releaser-tools",
+      "target": "eslint-plugin-standard",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "conventional-changelog/releaser-tools",
+      "target": "lerna",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "conventional-changelog/releaser-tools",
+      "target": "mocha",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "conventional-changelog/releaser-tools",
+      "target": "nyc",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "conventional-changelog/releaser-tools",
+      "target": "changelog",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "conventional-changelog/releaser-tools",
+      "target": "github",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "conventional-changelog/releaser-tools",
+      "target": "gitlab",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "conventional-changelog/releaser-tools",
+      "target": "history",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "conventional-changelog/releaser-tools",
+      "target": "metadata",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "conventional-changelog/releaser-tools",
+      "target": "release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "conventional-changelog/releaser-tools",
+      "target": "release-automation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "conventional-changelog/releaser-tools",
+      "target": "release-notes",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "conventional-changelog/releaser-tools",
+      "target": "releases",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T03:50:42.191073+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 583
+    },
+    {
+      "path": "package.json",
+      "size": 1579
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Create a GitHub/GitLab/etc. release using a project's commit messages and metadata. ",
+    "fork": false,
+    "full_name": "conventional-changelog/releaser-tools",
+    "html_url": "https://github.com/conventional-changelog/releaser-tools",
+    "language": "JavaScript",
+    "pushed_at": "2026-04-29T18:17:02Z",
+    "stargazers_count": 402,
+    "topics": [
+      "changelog",
+      "git",
+      "github",
+      "gitlab",
+      "history",
+      "metadata",
+      "release",
+      "release-automation",
+      "release-notes",
+      "releases",
+      "tag"
+    ],
+    "updated_at": "2026-03-31T18:17:20Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "> Create a GitHub/GitLab/etc. release using your project's Git metadata.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "changelog"
+    },
+    {
+      "context_snippet": "> Create a GitHub/GitLab/etc. release using your project's Git metadata.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "github"
+    },
+    {
+      "context_snippet": "> Create a GitHub/GitLab/etc. release using your project's Git metadata.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gitlab"
+    },
+    {
+      "context_snippet": "> Create a GitHub/GitLab/etc. release using your project's Git metadata.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "history"
+    },
+    {
+      "context_snippet": "> Create a GitHub/GitLab/etc. release using your project's Git metadata.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "metadata"
+    },
+    {
+      "context_snippet": "> Create a GitHub/GitLab/etc. release using your project's Git metadata.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "release"
+    },
+    {
+      "context_snippet": "> Create a GitHub/GitLab/etc. release using your project's Git metadata.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "release-automation"
+    },
+    {
+      "context_snippet": "> Create a GitHub/GitLab/etc. release using your project's Git metadata.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "release-notes"
+    },
+    {
+      "context_snippet": "> Create a GitHub/GitLab/etc. release using your project's Git metadata.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "releases"
+    }
+  ]
+}

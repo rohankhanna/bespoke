@@ -1,0 +1,53 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "dwyl/learn-github-pages",
+      "target": "dwyl/github-backup",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "dwyl/learn-github-pages",
+      "target": "jamesives/github-pages-deploy-action",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T02:53:41.380496+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8269
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Learn how to use GitHub Pages to publish your website! It's easy, free and you have precise (version) control over your content!",
+    "fork": false,
+    "full_name": "dwyl/learn-github-pages",
+    "html_url": "https://github.com/dwyl/learn-github-pages",
+    "language": null,
+    "pushed_at": "2023-03-05T21:57:23Z",
+    "stargazers_count": 10,
+    "topics": [],
+    "updated_at": "2025-11-06T03:07:55Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dwyl/github-backup",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jamesives/github-pages-deploy-action",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

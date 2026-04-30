@@ -2,7 +2,8 @@
   "aliases": [
     "Build Docker image",
     "Build Docker Image",
-    "build docker image"
+    "build docker image",
+    "Build docker image"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -201,6 +202,72 @@
       "source_repo": "geocompx/docker",
       "status": "candidate-context",
       "text": "Build Docker Image"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apache/flink-kubernetes-operator",
+      "status": "candidate-context",
+      "text": "Apache Flink Kubernetes Operator"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/flink-kubernetes-operator",
+      "status": "candidate-context",
+      "text": "\"Build Docker Image\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "open-webui/pipelines",
+      "status": "candidate-context",
+      "text": "Pipelines: Versatile, UI-Agnostic OpenAI-Compatible Plugin Framework "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "open-webui/pipelines",
+      "status": "candidate-context",
+      "text": "Build Docker Image"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "AutoCodeRoverSG/auto-code-rover",
+      "status": "candidate-context",
+      "text": "A project structure aware autonomous software engineer aiming for autonomous program improvement. Resolved 37.3% tasks (pass@1) in SWE-bench lite and 46.2% tasks (pass@1) in SWE-bench verified with each task costs less than $0.7."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AutoCodeRoverSG/auto-code-rover",
+      "status": "candidate-context",
+      "text": "Build Docker Image"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "k2-fsa/icefall",
+      "status": "candidate-context",
+      "text": "Build docker image"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mariolukas/HydraPlay",
+      "status": "candidate-context",
+      "text": "A multiroom audio player setup, based on snapcast and mopidy. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mariolukas/HydraPlay",
+      "status": "candidate-context",
+      "text": "build docker image"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mlocati/docker-php-extension-installer",
+      "status": "candidate-context",
+      "text": "Easily install PHP extensions in Docker containers"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mlocati/docker-php-extension-installer",
+      "status": "candidate-context",
+      "text": "Build Docker image"
     }
   ],
   "candidate_glosses": [
@@ -299,6 +366,42 @@
       "source_repo": "geocompx/docker",
       "status": "candidate",
       "text": "Build Docker Image"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/flink-kubernetes-operator",
+      "status": "candidate",
+      "text": "\"Build Docker Image\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "open-webui/pipelines",
+      "status": "candidate",
+      "text": "Build Docker Image"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AutoCodeRoverSG/auto-code-rover",
+      "status": "candidate",
+      "text": "Build Docker Image"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "k2-fsa/icefall",
+      "status": "candidate",
+      "text": "Build docker image"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mariolukas/HydraPlay",
+      "status": "candidate",
+      "text": "build docker image"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mlocati/docker-php-extension-installer",
+      "status": "candidate",
+      "text": "Build Docker image"
     }
   ],
   "candidate_related_terms": [
@@ -438,11 +541,59 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": ".github/workflows/build-docker.yml",
       "source_repo": "geocompx/docker"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/docker_push.yml",
+      "source_repo": "apache/flink-kubernetes-operator"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/build-docker-image.yaml",
+      "source_repo": "open-webui/pipelines"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/build.yaml",
+      "source_repo": "AutoCodeRoverSG/auto-code-rover"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/docker_build.yaml",
+      "source_repo": "AutoCodeRoverSG/auto-code-rover"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/build-docker-image.yml",
+      "source_repo": "k2-fsa/icefall"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/build-docker-images.yml",
+      "source_repo": "mariolukas/HydraPlay"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/build-docker.yml",
+      "source_repo": "geocompx/docker"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/test-dockerfile.yml",
+      "source_repo": "mlocati/docker-php-extension-installer"
     }
   ],
   "first_seen_at": "2026-04-19T01:08:57.644140+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

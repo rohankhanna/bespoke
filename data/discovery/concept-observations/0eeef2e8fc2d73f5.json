@@ -1,0 +1,115 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Generate a headless Typescript API client from an OpenAPI spec - optionally with a @tanstack/react-query client using queryOptions"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Generate a Typescript API client from an OpenAPI spec"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Generate a Typescript API client from an OpenAPI spec"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40048471,
+      "status": "candidate",
+      "text": "enquiry"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40048087,
+      "status": "candidate",
+      "text": "inquiry"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40047608,
+      "status": "candidate",
+      "text": "question"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30048482,
+      "status": "candidate",
+      "text": "inquire"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30048477,
+      "status": "candidate",
+      "text": "enquire"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "query",
+      "sense_id": "query#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 43044,
+      "status": "candidate",
+      "text": "inquiry"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 24032,
+      "status": "candidate",
+      "text": "enquiry"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 19047,
+      "status": "candidate",
+      "text": "question"
+    }
+  ],
+  "concept_id": "query",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "query",
+  "observation_id": "0eeef2e8fc2d73f5",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T00:37:16.824464+00:00",
+  "observed_text": "query",
+  "source_context_snippet": "Generate a Typescript API client from an OpenAPI spec",
+  "source_file": null,
+  "source_repo": "astahmer/typed-openapi",
+  "source_repo_description": "Generate a headless Typescript API client from an OpenAPI spec - optionally with a @tanstack/react-query client using queryOptions"
+}

@@ -1,7 +1,8 @@
 {
   "aliases": [
     "build pull request",
-    "build-pull-request"
+    "build-pull-request",
+    "Build Pull Request"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -44,6 +45,18 @@
       "source_repo": "apollographql/apollo-kotlin",
       "status": "candidate-context",
       "text": "build-pull-request"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aws-samples/aws-cdk-examples",
+      "status": "candidate-context",
+      "text": "Example projects using the AWS CDK"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aws-samples/aws-cdk-examples",
+      "status": "candidate-context",
+      "text": "Build Pull Request"
     }
   ],
   "candidate_glosses": [
@@ -64,6 +77,12 @@
       "source_repo": "apollographql/apollo-kotlin",
       "status": "candidate",
       "text": "build-pull-request"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aws-samples/aws-cdk-examples",
+      "status": "candidate",
+      "text": "Build Pull Request"
     }
   ],
   "candidate_related_terms": [
@@ -125,11 +144,17 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": ".github/workflows/build-pull-request.yml",
       "source_repo": "apollographql/apollo-kotlin"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/build-pull-request.yml",
+      "source_repo": "aws-samples/aws-cdk-examples"
     }
   ],
   "first_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

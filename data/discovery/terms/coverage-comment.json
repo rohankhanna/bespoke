@@ -1,11 +1,16 @@
 {
   "first_seen_at": "2026-04-18T09:09:30.058377+00:00",
-  "last_seen_at": "2026-04-18T09:09:30.058377+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/coverage_comment.yml",
       "source_repo": "django/django"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/coverage_comment.yml",
+      "source_repo": "AnonymouX47/term-image"
     }
   ],
   "term": "Coverage Comment"

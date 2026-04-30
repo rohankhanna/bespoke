@@ -1,0 +1,65 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "baidu-research/warp-ctc",
+      "target": "srvk/eesen",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "baidu-research/warp-ctc",
+      "target": "mohammadpz/ctc-connectionist-temporal-classification",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "baidu-research/warp-ctc",
+      "target": "amaas/stanford-ctc",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T03:47:49.132793+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8607
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Fast parallel CTC.",
+    "fork": false,
+    "full_name": "baidu-research/warp-ctc",
+    "html_url": "https://github.com/baidu-research/warp-ctc",
+    "language": "Cuda",
+    "pushed_at": "2024-03-04T07:10:15Z",
+    "stargazers_count": 4073,
+    "topics": [],
+    "updated_at": "2026-04-26T16:10:58Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "amaas/stanford-ctc",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mohammadpz/ctc-connectionist-temporal-classification",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "srvk/eesen",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

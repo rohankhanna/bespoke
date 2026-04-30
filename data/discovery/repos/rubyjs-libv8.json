@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "rubyjs/libv8",
+      "target": "rubyjs/libv8-node",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T04:57:55.754639+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7047
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "master",
+    "description": "Ruby gem binary distribution of the V8 JavaScript engine",
+    "fork": false,
+    "full_name": "rubyjs/libv8",
+    "html_url": "https://github.com/rubyjs/libv8",
+    "language": "Ruby",
+    "pushed_at": "2023-12-04T13:57:22Z",
+    "stargazers_count": 268,
+    "topics": [],
+    "updated_at": "2026-02-08T10:50:44Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "rubyjs/libv8-node",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

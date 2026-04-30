@@ -1,0 +1,109 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "cruise-automation/isopod",
+      "target": "facebook/buck",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cruise-automation/isopod",
+      "target": "configuration",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cruise-automation/isopod",
+      "target": "golang",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cruise-automation/isopod",
+      "target": "kubernetes",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cruise-automation/isopod",
+      "target": "starlark",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T00:53:19.481754+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 22275
+    },
+    {
+      "path": "Dockerfile",
+      "size": 831
+    },
+    {
+      "path": "go.mod",
+      "size": 2321
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "An expressive DSL and framework for Kubernetes configuration without YAML",
+    "fork": false,
+    "full_name": "cruise-automation/isopod",
+    "html_url": "https://github.com/cruise-automation/isopod",
+    "language": "Go",
+    "pushed_at": "2023-11-17T05:24:18Z",
+    "stargazers_count": 487,
+    "topics": [
+      "configuration",
+      "go",
+      "golang",
+      "k8s",
+      "kubernetes",
+      "starlark"
+    ],
+    "updated_at": "2026-04-22T11:42:25Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "facebook/buck",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Isopod",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "configuration"
+    },
+    {
+      "context_snippet": "Isopod",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "golang"
+    },
+    {
+      "context_snippet": "Isopod",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "kubernetes"
+    },
+    {
+      "context_snippet": "Isopod",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "starlark"
+    }
+  ]
+}

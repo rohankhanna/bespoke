@@ -1,0 +1,65 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Python Tools for Visual Studio"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![Build Status](https://devdiv.visualstudio.com/DevDiv/_apis/build/status/Python/PTVS-Build-Dev17?branchName=main)](https://devdiv.visualstudio.com/DevDiv/_build/latest?definitionId=14121&branchName=main)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![Build Status](https://devdiv.visualstudio.com/DevDiv/_apis/build/status/Python/PTVS-Build-Dev17?branchName=main)](https://devdiv.visualstudio.com/DevDiv/_build/latest?definitionId=14121&branchName=main)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 1,
+      "status": "candidate",
+      "text": "television"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "ptvs",
+      "sense_id": "ptvs#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "ptvs",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "ptvs",
+  "observation_id": "18b2c8e5dd76c836",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T00:37:16.824464+00:00",
+  "observed_text": "ptvs",
+  "source_context_snippet": "[![Build Status](https://devdiv.visualstudio.com/DevDiv/_apis/build/status/Python/PTVS-Build-Dev17?branchName=main)](https://devdiv.visualstudio.com/DevDiv/_build/latest?definitionId=14121&branchName=main)",
+  "source_file": null,
+  "source_repo": "microsoft/PTVS",
+  "source_repo_description": "Python Tools for Visual Studio"
+}

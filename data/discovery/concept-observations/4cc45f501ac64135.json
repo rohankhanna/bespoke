@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "\ud83d\udc0d Python bindings for starlark-go \ud83d\udc0d"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Valgrind"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Valgrind"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10013378,
+      "status": "candidate",
+      "text": "valhall"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10013377,
+      "status": "candidate",
+      "text": "valhalla"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10013376,
+      "status": "candidate",
+      "text": "walhalla"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10013375,
+      "status": "candidate",
+      "text": "valhallan"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10013374,
+      "status": "candidate",
+      "text": "ving\u00f3lf"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Valgrind",
+      "sense_id": "valgrind#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "valgrind",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "valgrind",
+  "observation_id": "4cc45f501ac64135",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-30T00:37:16.824464+00:00",
+  "observed_text": "Valgrind",
+  "source_context_snippet": "Valgrind",
+  "source_file": ".github/workflows/valgrind.yml",
+  "source_repo": "caketop/python-starlark-go",
+  "source_repo_description": "\ud83d\udc0d Python bindings for starlark-go \ud83d\udc0d"
+}

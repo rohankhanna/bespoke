@@ -1,0 +1,106 @@
+{
+  "components": [
+    {
+      "component": "status-im/nimbus-common-workflow/.github/workflows/common.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "status-im/nim-eth",
+      "target": "status-im/nimbus-common-workflow/.github/workflows/common.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "status-im/nim-eth",
+      "target": "devp2p",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "status-im/nim-eth",
+      "target": "discv5",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "status-im/nim-eth",
+      "target": "ethereum",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "status-im/nim-eth",
+      "target": "whisper",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T00:54:52.812534+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1600
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 349
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Common utilities for Ethereum",
+    "fork": false,
+    "full_name": "status-im/nim-eth",
+    "html_url": "https://github.com/status-im/nim-eth",
+    "language": "Nim",
+    "pushed_at": "2026-04-21T02:33:20Z",
+    "stargazers_count": 92,
+    "topics": [
+      "devp2p",
+      "discv5",
+      "eth",
+      "ethereum",
+      "nim",
+      "rlp",
+      "whisper"
+    ],
+    "updated_at": "2026-04-21T02:33:22Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "[![License: Apache](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "devp2p"
+    },
+    {
+      "context_snippet": "[![License: Apache](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "discv5"
+    },
+    {
+      "context_snippet": "[![License: Apache](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ethereum"
+    },
+    {
+      "context_snippet": "[![License: Apache](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "whisper"
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "random-number-generators"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "avaneev/prvhash",
+      "status": "candidate-context",
+      "text": "PRVHASH - Pseudo-Random-Value Hash. Hash functions, PRNG with unlimited period, randomness extractor, and a glimpse into abyss. (header-only C/C++) (Codename Gradilac/\u0413\u0440\u0430\u0434\u0438\u043b\u0430\u043a)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "avaneev/prvhash",
+      "status": "candidate-context",
+      "text": "PRVHASH is a hash function that generates a [uniform pseudo-random number"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "avaneev/prvhash",
+      "status": "candidate",
+      "text": "PRVHASH is a hash function that generates a [uniform pseudo-random number"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "random-number-generators",
+  "concept_id": "random-number-generators",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "avaneev/prvhash"
+    }
+  ],
+  "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "random-number-generators",
+      "sense_id": "random-number-generators#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

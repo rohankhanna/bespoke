@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "ARCHIVED. Go to https://github.com/adapter-hub/adapters for the latest version."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Pull Request Dependencies"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Pull Request Dependencies"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22636,
+      "status": "candidate",
+      "text": "balance"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22596,
+      "status": "candidate",
+      "text": "balancing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22596,
+      "status": "candidate",
+      "text": "pressure"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22596,
+      "status": "candidate",
+      "text": "rally"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22537,
+      "status": "candidate",
+      "text": "can"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Pull Request Dependencies",
+      "sense_id": "pull-request-dependencies#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "pull-request-dependencies",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "pull-request-dependencies",
+  "observation_id": "befd7a23d68a0dd8",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-30T00:37:16.824464+00:00",
+  "observed_text": "Pull Request Dependencies",
+  "source_context_snippet": "Pull Request Dependencies",
+  "source_file": ".github/workflows/pr_dependencies.yml",
+  "source_repo": "adapter-hub/adapter-transformers-legacy",
+  "source_repo_description": "ARCHIVED. Go to https://github.com/adapter-hub/adapters for the latest version."
+}

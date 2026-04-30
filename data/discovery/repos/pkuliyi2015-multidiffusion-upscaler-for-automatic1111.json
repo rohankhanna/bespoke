@@ -1,0 +1,177 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "pkuliyi2015/multidiffusion-upscaler-for-automatic1111",
+      "target": "pris-cv/demofusion",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "pkuliyi2015/multidiffusion-upscaler-for-automatic1111",
+      "target": "pkuliyi2015/sd-webui-stablesr",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "pkuliyi2015/multidiffusion-upscaler-for-automatic1111",
+      "target": "pkuliyi2015/multidiffusion-img-demo",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "pkuliyi2015/multidiffusion-upscaler-for-automatic1111",
+      "target": "jaylen-lee/image-demo",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pkuliyi2015/multidiffusion-upscaler-for-automatic1111",
+      "target": "image-generation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pkuliyi2015/multidiffusion-upscaler-for-automatic1111",
+      "target": "large-image",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pkuliyi2015/multidiffusion-upscaler-for-automatic1111",
+      "target": "multidiffusion",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pkuliyi2015/multidiffusion-upscaler-for-automatic1111",
+      "target": "stable-diffusion",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pkuliyi2015/multidiffusion-upscaler-for-automatic1111",
+      "target": "stable-diffusion-webui",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pkuliyi2015/multidiffusion-upscaler-for-automatic1111",
+      "target": "stable-diffusion-webui-plugin",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pkuliyi2015/multidiffusion-upscaler-for-automatic1111",
+      "target": "vramsaving",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T01:57:04.411905+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5013
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Tiled Diffusion and VAE optimize, licensed under CC BY-NC-SA 4.0",
+    "fork": false,
+    "full_name": "pkuliyi2015/multidiffusion-upscaler-for-automatic1111",
+    "html_url": "https://github.com/pkuliyi2015/multidiffusion-upscaler-for-automatic1111",
+    "language": "Python",
+    "pushed_at": "2024-08-07T09:32:25Z",
+    "stargazers_count": 5001,
+    "topics": [
+      "image-generation",
+      "large-image",
+      "multidiffusion",
+      "stable-diffusion",
+      "stable-diffusion-webui",
+      "stable-diffusion-webui-plugin",
+      "vramsaving"
+    ],
+    "updated_at": "2026-04-29T14:21:54Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jaylen-lee/image-demo",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "pkuliyi2015/multidiffusion-img-demo",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "pkuliyi2015/sd-webui-stablesr",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "pris-cv/demofusion",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[![CC BY-NC-SA 4.0][cc-by-nc-sa-shield]][cc-by-nc-sa]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "image-generation"
+    },
+    {
+      "context_snippet": "[![CC BY-NC-SA 4.0][cc-by-nc-sa-shield]][cc-by-nc-sa]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "large-image"
+    },
+    {
+      "context_snippet": "[![CC BY-NC-SA 4.0][cc-by-nc-sa-shield]][cc-by-nc-sa]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "multidiffusion"
+    },
+    {
+      "context_snippet": "[![CC BY-NC-SA 4.0][cc-by-nc-sa-shield]][cc-by-nc-sa]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "stable-diffusion"
+    },
+    {
+      "context_snippet": "[![CC BY-NC-SA 4.0][cc-by-nc-sa-shield]][cc-by-nc-sa]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "stable-diffusion-webui"
+    },
+    {
+      "context_snippet": "[![CC BY-NC-SA 4.0][cc-by-nc-sa-shield]][cc-by-nc-sa]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "stable-diffusion-webui-plugin"
+    },
+    {
+      "context_snippet": "[![CC BY-NC-SA 4.0][cc-by-nc-sa-shield]][cc-by-nc-sa]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vramsaving"
+    }
+  ]
+}

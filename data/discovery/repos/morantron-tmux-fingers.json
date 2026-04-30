@@ -1,0 +1,199 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deployment.yml"
+    },
+    {
+      "component": "actions/upload-release-asset@v1.0.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deployment.yml"
+    },
+    {
+      "component": "mislav/bump-homebrew-formula-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deployment.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Morantron/tmux-fingers",
+      "target": "tmux-plugins/tmux-copycat",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deployment.yml",
+      "source_repo": "Morantron/tmux-fingers",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deployment.yml",
+      "source_repo": "Morantron/tmux-fingers",
+      "target": "actions/upload-release-asset@v1.0.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deployment.yml",
+      "source_repo": "Morantron/tmux-fingers",
+      "target": "mislav/bump-homebrew-formula-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deployment.yml",
+      "source_repo": "Morantron/tmux-fingers",
+      "target": "Deployment",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Morantron/tmux-fingers",
+      "target": "hint",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Morantron/tmux-fingers",
+      "target": "keyboard-shortcuts",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Morantron/tmux-fingers",
+      "target": "productivity",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Morantron/tmux-fingers",
+      "target": "tmux",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Morantron/tmux-fingers",
+      "target": "tmux-plugins",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Morantron/tmux-fingers",
+      "target": "vimium",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Morantron/tmux-fingers",
+      "target": "vimperator",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T01:39:31.490583+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 14373
+    },
+    {
+      "path": "Dockerfile",
+      "size": 315
+    },
+    {
+      "path": ".github/workflows/deployment.yml",
+      "size": 1170
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "copy pasting in terminal with vimium/vimperator like hints.",
+    "fork": false,
+    "full_name": "Morantron/tmux-fingers",
+    "html_url": "https://github.com/Morantron/tmux-fingers",
+    "language": "Crystal",
+    "pushed_at": "2026-04-18T10:20:05Z",
+    "stargazers_count": 1396,
+    "topics": [
+      "hint",
+      "keyboard-shortcuts",
+      "productivity",
+      "tmux",
+      "tmux-plugins",
+      "vimium",
+      "vimperator"
+    ],
+    "updated_at": "2026-04-28T21:47:59Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "tmux-plugins/tmux-copycat",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Deployment",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deployment.yml",
+      "term": "Deployment"
+    },
+    {
+      "context_snippet": "![tmux-fingers](./logo.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hint"
+    },
+    {
+      "context_snippet": "![tmux-fingers](./logo.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "keyboard-shortcuts"
+    },
+    {
+      "context_snippet": "![tmux-fingers](./logo.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "productivity"
+    },
+    {
+      "context_snippet": "![tmux-fingers](./logo.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tmux"
+    },
+    {
+      "context_snippet": "![tmux-fingers](./logo.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tmux-plugins"
+    },
+    {
+      "context_snippet": "![tmux-fingers](./logo.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vimium"
+    },
+    {
+      "context_snippet": "![tmux-fingers](./logo.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vimperator"
+    }
+  ]
+}

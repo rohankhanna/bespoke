@@ -169,6 +169,90 @@
       "source_repo": "JuliaLogging/ProgressLogging.jl",
       "status": "candidate-context",
       "text": "TagBot"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JuliaDebug/SnoopCompile.jl",
+      "status": "candidate-context",
+      "text": "Provide insights about latency (TTFX) for Julia packages "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaDebug/SnoopCompile.jl",
+      "status": "candidate-context",
+      "text": "TagBot"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JuliaLang/PackageCompiler.jl",
+      "status": "candidate-context",
+      "text": "Compile your Julia Package"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaLang/PackageCompiler.jl",
+      "status": "candidate-context",
+      "text": "TagBot"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "julia-vscode/DocumentFormat.jl",
+      "status": "candidate-context",
+      "text": "Auto-formatter for Julia"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "julia-vscode/DocumentFormat.jl",
+      "status": "candidate-context",
+      "text": "TagBot"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JuliaCI/BenchmarkTools.jl",
+      "status": "candidate-context",
+      "text": "A benchmarking framework for the Julia language"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaCI/BenchmarkTools.jl",
+      "status": "candidate-context",
+      "text": "TagBot"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JuliaLogging/TerminalLoggers.jl",
+      "status": "candidate-context",
+      "text": "Logging sinks and utilites for interactive terminals"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaLogging/TerminalLoggers.jl",
+      "status": "candidate-context",
+      "text": "TagBot"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JuliaData/Parsers.jl",
+      "status": "candidate-context",
+      "text": "fast parsing machinery for basic types in Julia"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaData/Parsers.jl",
+      "status": "candidate-context",
+      "text": "TagBot"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kahliburke/Kaimon.jl",
+      "status": "candidate-context",
+      "text": "MCP server giving AI agents full access to Julia's runtime via a live Gate \u2014 code execution, introspection, debugging, testing, and semantic search"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kahliburke/Kaimon.jl",
+      "status": "candidate-context",
+      "text": "TagBot"
     }
   ],
   "candidate_glosses": [
@@ -259,6 +343,48 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "JuliaLogging/ProgressLogging.jl",
+      "status": "candidate",
+      "text": "TagBot"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaDebug/SnoopCompile.jl",
+      "status": "candidate",
+      "text": "TagBot"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaLang/PackageCompiler.jl",
+      "status": "candidate",
+      "text": "TagBot"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "julia-vscode/DocumentFormat.jl",
+      "status": "candidate",
+      "text": "TagBot"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaCI/BenchmarkTools.jl",
+      "status": "candidate",
+      "text": "TagBot"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaLogging/TerminalLoggers.jl",
+      "status": "candidate",
+      "text": "TagBot"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaData/Parsers.jl",
+      "status": "candidate",
+      "text": "TagBot"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kahliburke/Kaimon.jl",
       "status": "candidate",
       "text": "TagBot"
     }
@@ -364,11 +490,53 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": ".github/workflows/TagBot.yml",
       "source_repo": "JuliaLogging/ProgressLogging.jl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/TagBot.yml",
+      "source_repo": "JuliaDebug/SnoopCompile.jl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/TagBot.yml",
+      "source_repo": "JuliaLang/PackageCompiler.jl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/jlpkgbutler-tagbot-workflow.yml",
+      "source_repo": "julia-vscode/DocumentFormat.jl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/TagBot.yml",
+      "source_repo": "JuliaCI/BenchmarkTools.jl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/TagBot.yml",
+      "source_repo": "JuliaLogging/TerminalLoggers.jl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/TagBot.yml",
+      "source_repo": "JuliaData/Parsers.jl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/TagBot.yml",
+      "source_repo": "kahliburke/Kaimon.jl"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

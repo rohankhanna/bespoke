@@ -19,12 +19,30 @@
       "source_repo": "XuhuiZhou/OpenHands",
       "status": "candidate-context",
       "text": "Lint Fix"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "OpenHands/OpenHands",
+      "status": "candidate-context",
+      "text": "\ud83d\ude4c OpenHands: AI-Driven Development"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "OpenHands/OpenHands",
+      "status": "candidate-context",
+      "text": "Lint Fix"
     }
   ],
   "candidate_glosses": [
     {
       "source_kind": "source-snippet",
       "source_repo": "XuhuiZhou/OpenHands",
+      "status": "candidate",
+      "text": "Lint Fix"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "OpenHands/OpenHands",
       "status": "candidate",
       "text": "Lint Fix"
     }
@@ -76,11 +94,17 @@
       "observed_at": "2026-04-24T12:33:41.350224+00:00",
       "source_file": ".github/workflows/lint-fix.yml",
       "source_repo": "XuhuiZhou/OpenHands"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/lint-fix.yml",
+      "source_repo": "OpenHands/OpenHands"
     }
   ],
   "first_seen_at": "2026-04-24T12:33:41.350224+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

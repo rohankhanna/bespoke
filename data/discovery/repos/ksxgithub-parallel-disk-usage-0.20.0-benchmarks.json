@@ -1,0 +1,44 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "KSXGitHub/parallel-disk-usage-0.20.0-benchmarks",
+      "target": "benchmark",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T04:09:35.110786+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 424
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Benchmark of Parallel Disk Usage (pdu) v0.20.0 againsts dust, dutree, dua, ncdu, gdu, and du",
+    "fork": false,
+    "full_name": "KSXGitHub/parallel-disk-usage-0.20.0-benchmarks",
+    "html_url": "https://github.com/KSXGitHub/parallel-disk-usage-0.20.0-benchmarks",
+    "language": null,
+    "pushed_at": "2025-07-26T10:50:06Z",
+    "stargazers_count": 0,
+    "topics": [
+      "benchmark"
+    ],
+    "updated_at": "2025-07-26T10:50:10Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "* [`pdu`](https://github.com/KSXGitHub/parallel-disk-usage) v0.20.0",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "benchmark"
+    }
+  ]
+}

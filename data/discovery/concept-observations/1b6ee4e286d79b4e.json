@@ -1,0 +1,101 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": ":wave: - The documentation for being an Artsy Engineer"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Welcome to Artsy! If you're a new team member, we're excited to have you! Here are your [onboarding docs](/onboarding#readme)."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Welcome to Artsy! If you're a new team member, we're excited to have you! Here are your [onboarding docs](/onboarding#readme)."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39931597,
+      "status": "candidate",
+      "text": "acculturation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29933363,
+      "status": "candidate",
+      "text": "culturally"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29933290,
+      "status": "candidate",
+      "text": "cultural"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29932348,
+      "status": "candidate",
+      "text": "tradition"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29931145,
+      "status": "candidate",
+      "text": "intercultural"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "culture",
+      "sense_id": "culture#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 12034,
+      "status": "candidate",
+      "text": "acculturation"
+    }
+  ],
+  "concept_id": "culture",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "culture",
+  "observation_id": "1b6ee4e286d79b4e",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T00:37:16.824464+00:00",
+  "observed_text": "culture",
+  "source_context_snippet": "Welcome to Artsy! If you're a new team member, we're excited to have you! Here are your [onboarding docs](/onboarding#readme).",
+  "source_file": null,
+  "source_repo": "artsy/README",
+  "source_repo_description": ":wave: - The documentation for being an Artsy Engineer"
+}

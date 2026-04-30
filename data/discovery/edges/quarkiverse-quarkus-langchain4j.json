@@ -1,0 +1,188 @@
+{
+  "edges": [
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "quarkiverse/quarkus-langchain4j",
+      "target": "asciidoctor-kroki",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-nightly.yml",
+      "source_repo": "quarkiverse/quarkus-langchain4j",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-nightly.yml",
+      "source_repo": "quarkiverse/quarkus-langchain4j",
+      "target": "actions/setup-java@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-nightly.yml",
+      "source_repo": "quarkiverse/quarkus-langchain4j",
+      "target": "jbangdev/setup-jbang@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-nightly.yml",
+      "source_repo": "quarkiverse/quarkus-langchain4j",
+      "target": "Build nightly",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-pull-request.yml",
+      "source_repo": "quarkiverse/quarkus-langchain4j",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-pull-request.yml",
+      "source_repo": "quarkiverse/quarkus-langchain4j",
+      "target": "actions/setup-java@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-pull-request.yml",
+      "source_repo": "quarkiverse/quarkus-langchain4j",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-pull-request.yml",
+      "source_repo": "quarkiverse/quarkus-langchain4j",
+      "target": "jbangdev/setup-jbang@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-pull-request.yml",
+      "source_repo": "quarkiverse/quarkus-langchain4j",
+      "target": "actions/download-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-pull-request.yml",
+      "source_repo": "quarkiverse/quarkus-langchain4j",
+      "target": "actions/setup-node@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-pull-request.yml",
+      "source_repo": "quarkiverse/quarkus-langchain4j",
+      "target": "quarkusio/action-build-reporter@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-pull-request.yml",
+      "source_repo": "quarkiverse/quarkus-langchain4j",
+      "target": "Build (on pull request)",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-push.yml",
+      "source_repo": "quarkiverse/quarkus-langchain4j",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-push.yml",
+      "source_repo": "quarkiverse/quarkus-langchain4j",
+      "target": "actions/setup-java@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-push.yml",
+      "source_repo": "quarkiverse/quarkus-langchain4j",
+      "target": "Build (on push)",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-release.yml",
+      "source_repo": "quarkiverse/quarkus-langchain4j",
+      "target": "quarkiverse/.github/.github/workflows/pre-release.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pre-release.yml",
+      "source_repo": "quarkiverse/quarkus-langchain4j",
+      "target": "Quarkiverse Pre Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/quarkus-snapshot.yaml",
+      "source_repo": "quarkiverse/quarkus-langchain4j",
+      "target": "quarkiverse/.github/.github/workflows/quarkus-ecosystem-ci.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/quarkus-snapshot.yaml",
+      "source_repo": "quarkiverse/quarkus-langchain4j",
+      "target": "Quarkus ecosystem CI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-perform.yml",
+      "source_repo": "quarkiverse/quarkus-langchain4j",
+      "target": "quarkiverse/.github/.github/workflows/perform-release.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-perform.yml",
+      "source_repo": "quarkiverse/quarkus-langchain4j",
+      "target": "Quarkiverse Perform Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-prepare.yml",
+      "source_repo": "quarkiverse/quarkus-langchain4j",
+      "target": "quarkiverse/.github/.github/workflows/prepare-release.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-prepare.yml",
+      "source_repo": "quarkiverse/quarkus-langchain4j",
+      "target": "Quarkiverse Prepare Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "quarkiverse/quarkus-langchain4j",
+      "target": "langchain4j",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "quarkiverse/quarkus-langchain4j",
+      "target": "quarkus-extension",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-30T00:37:16.824464+00:00",
+  "source_repo": "quarkiverse/quarkus-langchain4j"
+}

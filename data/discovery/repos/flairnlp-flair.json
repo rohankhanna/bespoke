@@ -1,0 +1,349 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/cache@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions-ecosystem/action-remove-labels@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issues.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-docs.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-docs.yml"
+    },
+    {
+      "component": "peaceiris/actions-gh-pages@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-docs.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-docs.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-docs.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-docs.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "flairNLP/flair",
+      "target": "packtpublishing/natural-language-processing-with-flair",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "flairNLP/flair",
+      "target": "lunayach/visner",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "flairNLP/flair",
+      "target": "robinvanschaik/flair-on-gcp",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "flairNLP/flair",
+      "target": "robinvanschaik/interpret-flair",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "flairNLP/flair",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "flairNLP/flair",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "flairNLP/flair",
+      "target": "actions/cache@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issues.yml",
+      "source_repo": "flairNLP/flair",
+      "target": "actions-ecosystem/action-remove-labels@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-docs.yml",
+      "source_repo": "flairNLP/flair",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-docs.yml",
+      "source_repo": "flairNLP/flair",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-docs.yml",
+      "source_repo": "flairNLP/flair",
+      "target": "peaceiris/actions-gh-pages@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish-docs.yml",
+      "source_repo": "flairNLP/flair",
+      "target": "Build doc page",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-docs.yml",
+      "source_repo": "flairNLP/flair",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-docs.yml",
+      "source_repo": "flairNLP/flair",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-docs.yml",
+      "source_repo": "flairNLP/flair",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test-docs.yml",
+      "source_repo": "flairNLP/flair",
+      "target": "Build doc page for artifact",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "flairNLP/flair",
+      "target": "machine-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "flairNLP/flair",
+      "target": "named-entity-recognition",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "flairNLP/flair",
+      "target": "natural-language-processing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "flairNLP/flair",
+      "target": "pytorch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "flairNLP/flair",
+      "target": "semantic-role-labeling",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "flairNLP/flair",
+      "target": "sequence-labeling",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "flairNLP/flair",
+      "target": "word-embeddings",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T05:16:02.746314+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 11467
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 4028
+    },
+    {
+      "path": "requirements.txt",
+      "size": 481
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 996
+    },
+    {
+      "path": ".github/workflows/issues.yml",
+      "size": 290
+    },
+    {
+      "path": ".github/workflows/publish-docs.yml",
+      "size": 1568
+    },
+    {
+      "path": ".github/workflows/test-docs.yml",
+      "size": 1905
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A very simple framework for state-of-the-art Natural Language Processing (NLP)",
+    "fork": false,
+    "full_name": "flairNLP/flair",
+    "html_url": "https://github.com/flairNLP/flair",
+    "language": "Python",
+    "pushed_at": "2025-10-27T18:11:31Z",
+    "stargazers_count": 14370,
+    "topics": [
+      "machine-learning",
+      "named-entity-recognition",
+      "natural-language-processing",
+      "nlp",
+      "pytorch",
+      "semantic-role-labeling",
+      "sequence-labeling",
+      "word-embeddings"
+    ],
+    "updated_at": "2026-04-24T20:40:07Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "lunayach/visner",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "packtpublishing/natural-language-processing-with-flair",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "robinvanschaik/flair-on-gcp",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "robinvanschaik/interpret-flair",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "'Build doc page'",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish-docs.yml",
+      "term": "Build doc page"
+    },
+    {
+      "context_snippet": "'Build doc page for artifact'",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test-docs.yml",
+      "term": "Build doc page for artifact"
+    },
+    {
+      "context_snippet": "![alt text](resources/docs/flair_logo_2020_FINAL_day_dpi72.png#gh-light-mode-only)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "machine-learning"
+    },
+    {
+      "context_snippet": "![alt text](resources/docs/flair_logo_2020_FINAL_day_dpi72.png#gh-light-mode-only)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "named-entity-recognition"
+    },
+    {
+      "context_snippet": "![alt text](resources/docs/flair_logo_2020_FINAL_day_dpi72.png#gh-light-mode-only)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "natural-language-processing"
+    },
+    {
+      "context_snippet": "![alt text](resources/docs/flair_logo_2020_FINAL_day_dpi72.png#gh-light-mode-only)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytorch"
+    },
+    {
+      "context_snippet": "![alt text](resources/docs/flair_logo_2020_FINAL_day_dpi72.png#gh-light-mode-only)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "semantic-role-labeling"
+    },
+    {
+      "context_snippet": "![alt text](resources/docs/flair_logo_2020_FINAL_day_dpi72.png#gh-light-mode-only)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "sequence-labeling"
+    },
+    {
+      "context_snippet": "![alt text](resources/docs/flair_logo_2020_FINAL_day_dpi72.png#gh-light-mode-only)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "word-embeddings"
+    }
+  ]
+}

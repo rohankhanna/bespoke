@@ -31,6 +31,18 @@
       "source_repo": "queryverse/VegaLite.jl",
       "status": "candidate-context",
       "text": "Run CompatHelper"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "julia-vscode/DocumentFormat.jl",
+      "status": "candidate-context",
+      "text": "Auto-formatter for Julia"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "julia-vscode/DocumentFormat.jl",
+      "status": "candidate-context",
+      "text": "Run CompatHelper"
     }
   ],
   "candidate_glosses": [
@@ -43,6 +55,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "queryverse/VegaLite.jl",
+      "status": "candidate",
+      "text": "Run CompatHelper"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "julia-vscode/DocumentFormat.jl",
       "status": "candidate",
       "text": "Run CompatHelper"
     }
@@ -100,11 +118,17 @@
       "observed_at": "2026-04-22T18:52:26.467154+00:00",
       "source_file": ".github/workflows/jlpkgbutler-compathelper-workflow.yml",
       "source_repo": "queryverse/VegaLite.jl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/jlpkgbutler-compathelper-workflow.yml",
+      "source_repo": "julia-vscode/DocumentFormat.jl"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

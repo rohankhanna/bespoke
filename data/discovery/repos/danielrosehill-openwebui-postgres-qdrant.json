@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "danielrosehill/OpenWebUI-Postgres-Qdrant",
+      "target": "taylorwilsdon/open-webui-postgres-migration",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T04:58:35.664857+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 13214
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Docker Compose for OpenWebUI + Postgres + Qdrant",
+    "fork": false,
+    "full_name": "danielrosehill/OpenWebUI-Postgres-Qdrant",
+    "html_url": "https://github.com/danielrosehill/OpenWebUI-Postgres-Qdrant",
+    "language": "Shell",
+    "pushed_at": "2025-03-12T11:07:36Z",
+    "stargazers_count": 15,
+    "topics": [],
+    "updated_at": "2026-04-07T14:52:34Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "taylorwilsdon/open-webui-postgres-migration",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

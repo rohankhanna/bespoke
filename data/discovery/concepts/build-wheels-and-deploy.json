@@ -91,6 +91,54 @@
       "source_repo": "kingbri1/flash-attention",
       "status": "candidate-context",
       "text": "Build wheels and deploy"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "state-spaces/mamba",
+      "status": "candidate-context",
+      "text": "Mamba SSM architecture"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "state-spaces/mamba",
+      "status": "candidate-context",
+      "text": "Build wheels and deploy"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Dao-AILab/fast-hadamard-transform",
+      "status": "candidate-context",
+      "text": "Fast Hadamard transform in CUDA, with a PyTorch interface"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Dao-AILab/fast-hadamard-transform",
+      "status": "candidate-context",
+      "text": "Build wheels and deploy"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ROCm/flash-attention",
+      "status": "candidate-context",
+      "text": "Fast and memory-efficient exact attention"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ROCm/flash-attention",
+      "status": "candidate-context",
+      "text": "Build wheels and deploy"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hao-ai-lab/flash-attention-fp4",
+      "status": "candidate-context",
+      "text": "NVFP4 Flash-Attention 4 on BlackWell"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hao-ai-lab/flash-attention-fp4",
+      "status": "candidate-context",
+      "text": "Build wheels and deploy"
     }
   ],
   "candidate_glosses": [
@@ -133,6 +181,30 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "kingbri1/flash-attention",
+      "status": "candidate",
+      "text": "Build wheels and deploy"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "state-spaces/mamba",
+      "status": "candidate",
+      "text": "Build wheels and deploy"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Dao-AILab/fast-hadamard-transform",
+      "status": "candidate",
+      "text": "Build wheels and deploy"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ROCm/flash-attention",
+      "status": "candidate",
+      "text": "Build wheels and deploy"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hao-ai-lab/flash-attention-fp4",
       "status": "candidate",
       "text": "Build wheels and deploy"
     }
@@ -250,11 +322,41 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": ".github/workflows/publish.yml",
       "source_repo": "kingbri1/flash-attention"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/publish.yaml",
+      "source_repo": "state-spaces/mamba"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "Dao-AILab/flash-attention"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "Dao-AILab/fast-hadamard-transform"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "ROCm/flash-attention"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "hao-ai-lab/flash-attention-fp4"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

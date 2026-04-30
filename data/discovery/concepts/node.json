@@ -874,6 +874,42 @@
       "source_repo": "oclif/core",
       "status": "candidate-context",
       "text": "<img src=\"https://user-images.githubusercontent.com/449385/38243295-e0a47d58-372e-11e8-9bc0-8c02a6f4d2ac.png\" width=\"260\" height=\"73\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "validatorjs/validator.js",
+      "status": "candidate-context",
+      "text": "String validation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "validatorjs/validator.js",
+      "status": "candidate-context",
+      "text": "[![NPM version][npm-image]][npm-url]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "locize/locize-lastused",
+      "status": "candidate-context",
+      "text": "Using API lastUsed using in node.js, in the browser and for deno."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "locize/locize-lastused",
+      "status": "candidate-context",
+      "text": "node"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aws/jsii",
+      "status": "candidate-context",
+      "text": "jsii allows code in any language to naturally interact with JavaScript classes. It is the technology that enables the AWS Cloud Development Kit to deliver polyglot libraries from a single codebase!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aws/jsii",
+      "status": "candidate-context",
+      "text": "[![Join the chat at https://cdk.Dev](https://img.shields.io/static/v1?label=Slack&message=cdk.dev&color=brightgreen&logo=slack)](https://cdk.dev)"
     }
   ],
   "candidate_glosses": [
@@ -1308,6 +1344,24 @@
       "source_repo": "oclif/core",
       "status": "candidate",
       "text": "<img src=\"https://user-images.githubusercontent.com/449385/38243295-e0a47d58-372e-11e8-9bc0-8c02a6f4d2ac.png\" width=\"260\" height=\"73\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "validatorjs/validator.js",
+      "status": "candidate",
+      "text": "[![NPM version][npm-image]][npm-url]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "locize/locize-lastused",
+      "status": "candidate",
+      "text": "node"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aws/jsii",
+      "status": "candidate",
+      "text": "[![Join the chat at https://cdk.Dev](https://img.shields.io/static/v1?label=Slack&message=cdk.dev&color=brightgreen&logo=slack)](https://cdk.dev)"
     }
   ],
   "candidate_related_terms": [
@@ -2011,11 +2065,95 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "oclif/core"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "micromatch/micromatch"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "micromatch/to-regex-range"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "base-repos/base"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "micromatch/braces"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "micromatch/is-glob"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "jaredpalmer/backpack"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "vercel/next.js"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "validatorjs/validator.js"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "coreybutler/nvm-windows"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "nvm-sh/nvm"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "nodenv/nodenv"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "apollographql/apollo-server"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/node.yml",
+      "source_repo": "locize/locize-lastused"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "aws/jsii"
     }
   ],
   "first_seen_at": "2026-04-18T11:41:43.530265+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

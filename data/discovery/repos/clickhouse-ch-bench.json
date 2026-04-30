@@ -1,0 +1,81 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ClickHouse/ch-bench",
+      "target": "datafuse-extras/clickhouse_driver",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ClickHouse/ch-bench",
+      "target": "loyd/clickhouse.rs",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ClickHouse/ch-bench",
+      "target": "clickhouse/clickhouse-jdbc",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ClickHouse/ch-bench",
+      "target": "mymarilyn/clickhouse-driver",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T01:42:58.692828+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4579
+    },
+    {
+      "path": "go.mod",
+      "size": 1649
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Benchmarks for ch",
+    "fork": false,
+    "full_name": "ClickHouse/ch-bench",
+    "html_url": "https://github.com/ClickHouse/ch-bench",
+    "language": "Go",
+    "pushed_at": "2024-03-04T21:42:56Z",
+    "stargazers_count": 35,
+    "topics": [],
+    "updated_at": "2026-04-08T07:34:43Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "clickhouse/clickhouse-jdbc",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "datafuse-extras/clickhouse_driver",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "loyd/clickhouse.rs",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mymarilyn/clickhouse-driver",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

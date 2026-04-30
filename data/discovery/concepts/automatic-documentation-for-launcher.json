@@ -19,12 +19,30 @@
       "source_repo": "huggingface/text-generation-inference",
       "status": "candidate-context",
       "text": "Automatic Documentation for Launcher"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "leizhao1234/cogvlm2",
+      "status": "candidate-context",
+      "text": "Large Language Model Text Generation Inference"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "leizhao1234/cogvlm2",
+      "status": "candidate-context",
+      "text": "Automatic Documentation for Launcher"
     }
   ],
   "candidate_glosses": [
     {
       "source_kind": "source-snippet",
       "source_repo": "huggingface/text-generation-inference",
+      "status": "candidate",
+      "text": "Automatic Documentation for Launcher"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "leizhao1234/cogvlm2",
       "status": "candidate",
       "text": "Automatic Documentation for Launcher"
     }
@@ -76,11 +94,17 @@
       "observed_at": "2026-04-21T11:24:10.450489+00:00",
       "source_file": ".github/workflows/autodocs.yaml",
       "source_repo": "huggingface/text-generation-inference"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/autodocs.yml",
+      "source_repo": "leizhao1234/cogvlm2"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

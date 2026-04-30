@@ -1,0 +1,12 @@
+{
+  "component": "actions/setup-java@3a4f6e1af504cf6a31855fa899c6aa5355ba6c12",
+  "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/app-distribution-gradle-compatibility-tests.yml",
+      "source_repo": "firebase/firebase-android-sdk"
+    }
+  ]
+}

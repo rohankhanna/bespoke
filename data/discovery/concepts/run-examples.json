@@ -1,0 +1,125 @@
+{
+  "aliases": [
+    "Run examples",
+    "Run Examples"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "c-bata/goptuna",
+      "status": "candidate-context",
+      "text": "A hyperparameter optimization framework, inspired by Optuna."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "c-bata/goptuna",
+      "status": "candidate-context",
+      "text": "Run examples"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ClickHouse/clickhouse-java",
+      "status": "candidate-context",
+      "text": "ClickHouse Java Clients & JDBC Driver"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ClickHouse/clickhouse-java",
+      "status": "candidate-context",
+      "text": "Run Examples"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "c-bata/goptuna",
+      "status": "candidate",
+      "text": "Run examples"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ClickHouse/clickhouse-java",
+      "status": "candidate",
+      "text": "Run Examples"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12180,
+      "status": "candidate",
+      "text": "paramilitary"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12090,
+      "status": "candidate",
+      "text": "dap"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12090,
+      "status": "candidate",
+      "text": "practice"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12090,
+      "status": "candidate",
+      "text": "still"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11362,
+      "status": "candidate",
+      "text": "adduce"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Run examples",
+  "concept_id": "run-examples",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/go-examples.yml",
+      "source_repo": "c-bata/goptuna"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/run_examples.yml",
+      "source_repo": "ClickHouse/clickhouse-java"
+    }
+  ],
+  "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Run examples",
+      "sense_id": "run-examples#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

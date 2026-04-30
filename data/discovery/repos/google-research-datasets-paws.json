@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T02:45:20.610718+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7366
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "master",
+    "description": "This dataset contains 108,463 human-labeled and 656k noisily labeled pairs that feature the importance of modeling structure, context, and word order information for the problem of paraphrase identification.",
+    "fork": false,
+    "full_name": "google-research-datasets/paws",
+    "html_url": "https://github.com/google-research-datasets/paws",
+    "language": "Python",
+    "pushed_at": "2022-01-04T18:59:03Z",
+    "stargazers_count": 567,
+    "topics": [],
+    "updated_at": "2026-04-19T12:33:56Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

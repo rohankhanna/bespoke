@@ -1,0 +1,12 @@
+{
+  "component": "ansible/ansible-publish-action@a56a0328c92c1d4feedf5bd7f7cf7ec7a4ae3f09",
+  "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "prometheus-community/ansible"
+    }
+  ]
+}

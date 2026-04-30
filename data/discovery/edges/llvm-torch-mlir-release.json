@@ -1,0 +1,76 @@
+{
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/buildReleaseAndPublish.yml",
+      "source_repo": "llvm/torch-mlir-release",
+      "target": "actions/checkout@8e8c483db84b4bee98b60c0593521ed34d9990e8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/buildReleaseAndPublish.yml",
+      "source_repo": "llvm/torch-mlir-release",
+      "target": "actions/upload-artifact@b7c566a772e6b6bfb58ed0dc250532a479d7789f",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/buildReleaseAndPublish.yml",
+      "source_repo": "llvm/torch-mlir-release",
+      "target": "ncipollo/release-action@b7eabc95ff50cbeeedec83973935c8f306dfcd0b",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/buildReleaseAndPublish.yml",
+      "source_repo": "llvm/torch-mlir-release",
+      "target": "Build Release and Publish",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/buildReleaseAndPublishWindows.yml",
+      "source_repo": "llvm/torch-mlir-release",
+      "target": "actions/checkout@8e8c483db84b4bee98b60c0593521ed34d9990e8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/buildReleaseAndPublishWindows.yml",
+      "source_repo": "llvm/torch-mlir-release",
+      "target": "ilammy/msvc-dev-cmd@0b201ec74fa43914dc39ae48a89fd1d8cb592756",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/buildReleaseAndPublishWindows.yml",
+      "source_repo": "llvm/torch-mlir-release",
+      "target": "actions/upload-artifact@b7c566a772e6b6bfb58ed0dc250532a479d7789f",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/buildReleaseAndPublishWindows.yml",
+      "source_repo": "llvm/torch-mlir-release",
+      "target": "ncipollo/release-action@b7eabc95ff50cbeeedec83973935c8f306dfcd0b",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/buildReleaseAndPublishWindows.yml",
+      "source_repo": "llvm/torch-mlir-release",
+      "target": "Build Release and Publish windows wheels",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deleteOldReleases.yml",
+      "source_repo": "llvm/torch-mlir-release",
+      "target": "Delete Old Releases",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-30T00:37:16.824464+00:00",
+  "source_repo": "llvm/torch-mlir-release"
+}

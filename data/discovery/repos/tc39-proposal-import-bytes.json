@@ -96,21 +96,7 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "tc39/proposal-import-bytes",
-      "target": "tc39/proposal-immutable-arraybuffer",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "tc39/proposal-import-bytes",
       "target": "styfle/proposal-import-bytes",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "tc39/proposal-import-bytes",
-      "target": "whatwg/streams",
       "target_type": "repository"
     },
     {
@@ -261,7 +247,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-29T19:55:26.100470+00:00",
+  "fetched_at": "2026-04-30T05:01:15.003889+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -307,16 +293,6 @@
     {
       "edge_type": "explicit-github-link",
       "full_name": "tc39/proposal-asset-references",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "tc39/proposal-immutable-arraybuffer",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "whatwg/streams",
       "source_file": "README.md"
     }
   ],

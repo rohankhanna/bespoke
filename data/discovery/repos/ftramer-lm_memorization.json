@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T04:59:02.961363+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3513
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Training data extraction on GPT-2",
+    "fork": false,
+    "full_name": "ftramer/LM_Memorization",
+    "html_url": "https://github.com/ftramer/LM_Memorization",
+    "language": "Python",
+    "pushed_at": "2023-02-04T17:17:52Z",
+    "stargazers_count": 195,
+    "topics": [],
+    "updated_at": "2026-04-07T10:36:19Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

@@ -1,0 +1,206 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/msrv.yml"
+    },
+    {
+      "component": "actions-rs/toolchain@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/msrv.yml"
+    },
+    {
+      "component": "actions-rs/cargo@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/msrv.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/msrv.yml"
+    },
+    {
+      "component": "actions-rs/toolchain@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/msrv.yml"
+    },
+    {
+      "component": "actions-rs/cargo@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/msrv.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/msrv.yml"
+    },
+    {
+      "component": "actions-rs/toolchain@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/msrv.yml"
+    },
+    {
+      "component": "actions-rs/cargo@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/msrv.yml"
+    },
+    {
+      "component": "actions-rs/cargo@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/msrv.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "carrascomj/dalted",
+      "target": "steadylearner/rust-web-app",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/msrv.yml",
+      "source_repo": "carrascomj/dalted",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/msrv.yml",
+      "source_repo": "carrascomj/dalted",
+      "target": "actions-rs/toolchain@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/msrv.yml",
+      "source_repo": "carrascomj/dalted",
+      "target": "actions-rs/cargo@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/msrv.yml",
+      "source_repo": "carrascomj/dalted",
+      "target": "build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "carrascomj/dalted",
+      "target": "actix-web",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "carrascomj/dalted",
+      "target": "color-blindness",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "carrascomj/dalted",
+      "target": "image-processing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "carrascomj/dalted",
+      "target": "rust",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "carrascomj/dalted",
+      "target": "vanilla-javascript",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T01:41:34.212698+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1759
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 484
+    },
+    {
+      "path": ".github/workflows/msrv.yml",
+      "size": 1931
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Image processing web-app for color blindness",
+    "fork": false,
+    "full_name": "carrascomj/dalted",
+    "html_url": "https://github.com/carrascomj/dalted",
+    "language": "Rust",
+    "pushed_at": "2023-01-21T16:38:45Z",
+    "stargazers_count": 22,
+    "topics": [
+      "actix-web",
+      "color-blindness",
+      "image-processing",
+      "rust",
+      "vanilla-javascript"
+    ],
+    "updated_at": "2026-03-21T13:42:22Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "steadylearner/rust-web-app",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/msrv.yml",
+      "term": "build"
+    },
+    {
+      "context_snippet": "![alt text](./static/img/logo.svg \"Dalted logo black\")",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "actix-web"
+    },
+    {
+      "context_snippet": "![alt text](./static/img/logo.svg \"Dalted logo black\")",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "color-blindness"
+    },
+    {
+      "context_snippet": "![alt text](./static/img/logo.svg \"Dalted logo black\")",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "image-processing"
+    },
+    {
+      "context_snippet": "![alt text](./static/img/logo.svg \"Dalted logo black\")",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rust"
+    },
+    {
+      "context_snippet": "![alt text](./static/img/logo.svg \"Dalted logo black\")",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vanilla-javascript"
+    }
+  ]
+}

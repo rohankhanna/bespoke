@@ -1,0 +1,189 @@
+{
+  "components": [
+    {
+      "component": "jcs090218/setup-emacs@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/asciidoctor.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/asciidoctor.yml"
+    },
+    {
+      "component": "peaceiris/actions-gh-pages@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/asciidoctor.yml"
+    },
+    {
+      "component": "jcs090218/setup-emacs@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/github-script@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/github-script@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/asciidoctor.yml",
+      "source_repo": "emacs-eldev/eldev",
+      "target": "jcs090218/setup-emacs@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/asciidoctor.yml",
+      "source_repo": "emacs-eldev/eldev",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/asciidoctor.yml",
+      "source_repo": "emacs-eldev/eldev",
+      "target": "peaceiris/actions-gh-pages@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/asciidoctor.yml",
+      "source_repo": "emacs-eldev/eldev",
+      "target": "Deploy documentation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "emacs-eldev/eldev",
+      "target": "jcs090218/setup-emacs@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "emacs-eldev/eldev",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "emacs-eldev/eldev",
+      "target": "actions/github-script@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "emacs-eldev/eldev",
+      "target": "build-tool",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "emacs-eldev/eldev",
+      "target": "continuous-integration",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "emacs-eldev/eldev",
+      "target": "developer-tools",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "emacs-eldev/eldev",
+      "target": "emacs-lisp",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T04:08:41.656396+00:00",
+  "fetched_files": [
+    {
+      "path": ".github/workflows/asciidoctor.yml",
+      "size": 1039
+    },
+    {
+      "path": ".github/workflows/bytecompile.el",
+      "size": 670
+    },
+    {
+      "path": ".github/workflows/test.yml",
+      "size": 7233
+    },
+    {
+      "path": ".github/workflows/util.js",
+      "size": 1497
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Elisp development tool",
+    "fork": false,
+    "full_name": "emacs-eldev/eldev",
+    "html_url": "https://github.com/emacs-eldev/eldev",
+    "language": "Emacs Lisp",
+    "pushed_at": "2026-01-21T14:52:31Z",
+    "stargazers_count": 255,
+    "topics": [
+      "build-tool",
+      "continuous-integration",
+      "developer-tools",
+      "emacs-lisp"
+    ],
+    "updated_at": "2026-04-08T17:45:32Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Deploy documentation",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/asciidoctor.yml",
+      "term": "Deploy documentation"
+    },
+    {
+      "context_snippet": "Deploy documentation",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "build-tool"
+    },
+    {
+      "context_snippet": "Deploy documentation",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "continuous-integration"
+    },
+    {
+      "context_snippet": "Deploy documentation",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "developer-tools"
+    },
+    {
+      "context_snippet": "Deploy documentation",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "emacs-lisp"
+    }
+  ]
+}

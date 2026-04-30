@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "Cargo.toml",
+      "source_repo": "KillingSpark/rust-dbus-comparisons",
+      "target": "arnavion/dbus-pure",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T04:05:07.230482+00:00",
+  "fetched_files": [
+    {
+      "path": "Cargo.toml",
+      "size": 755
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "This repo collects benchmarks for the different dbus implementations available in rust",
+    "fork": false,
+    "full_name": "KillingSpark/rust-dbus-comparisons",
+    "html_url": "https://github.com/KillingSpark/rust-dbus-comparisons",
+    "language": "Rust",
+    "pushed_at": "2024-11-01T13:36:33Z",
+    "stargazers_count": 19,
+    "topics": [],
+    "updated_at": "2025-04-24T15:42:46Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "arnavion/dbus-pure",
+      "source_file": "Cargo.toml"
+    }
+  ],
+  "terms": []
+}

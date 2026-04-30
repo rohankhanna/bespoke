@@ -86,20 +86,6 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "clean-css/clean-css",
-      "target": "clean-css/clean-css-cli",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "clean-css/clean-css",
-      "target": "broccolijs/broccoli",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "clean-css/clean-css",
       "target": "brunch/clean-css-brunch",
       "target_type": "repository"
     },
@@ -107,7 +93,21 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "clean-css/clean-css",
-      "target": "aymericbeaumet/metalsmith-clean-css",
+      "target": "gruntjs/grunt-contrib-cssmin",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "clean-css/clean-css",
+      "target": "component/builder2.js",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "clean-css/clean-css",
+      "target": "jshint/jshint",
       "target_type": "repository"
     },
     {
@@ -258,7 +258,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-29T21:00:18.493658+00:00",
+  "fetched_at": "2026-04-30T02:57:37.383789+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -301,22 +301,22 @@
   "repo_links": [
     {
       "edge_type": "explicit-github-link",
-      "full_name": "aymericbeaumet/metalsmith-clean-css",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "broccolijs/broccoli",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
       "full_name": "brunch/clean-css-brunch",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "clean-css/clean-css-cli",
+      "full_name": "component/builder2.js",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "gruntjs/grunt-contrib-cssmin",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jshint/jshint",
       "source_file": "README.md"
     }
   ],

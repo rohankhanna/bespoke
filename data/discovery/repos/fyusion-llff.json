@@ -1,0 +1,90 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Fyusion/LLFF",
+      "target": "deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Fyusion/LLFF",
+      "target": "light-field",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Fyusion/LLFF",
+      "target": "rendering",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Fyusion/LLFF",
+      "target": "view-synthesis",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T05:13:49.095817+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 13149
+    },
+    {
+      "path": "requirements.txt",
+      "size": 86
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Code release for Local Light Field Fusion at SIGGRAPH 2019",
+    "fork": false,
+    "full_name": "Fyusion/LLFF",
+    "html_url": "https://github.com/Fyusion/LLFF",
+    "language": "C++",
+    "pushed_at": "2023-06-19T14:26:41Z",
+    "stargazers_count": 1697,
+    "topics": [
+      "deep-learning",
+      "light-field",
+      "rendering",
+      "view-synthesis"
+    ],
+    "updated_at": "2026-04-29T06:42:42Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "<img src='imgs/output6_120.gif' align=\"right\" height=\"120px\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-learning"
+    },
+    {
+      "context_snippet": "<img src='imgs/output6_120.gif' align=\"right\" height=\"120px\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "light-field"
+    },
+    {
+      "context_snippet": "<img src='imgs/output6_120.gif' align=\"right\" height=\"120px\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rendering"
+    },
+    {
+      "context_snippet": "<img src='imgs/output6_120.gif' align=\"right\" height=\"120px\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "view-synthesis"
+    }
+  ]
+}

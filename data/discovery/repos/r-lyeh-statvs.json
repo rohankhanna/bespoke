@@ -1,0 +1,77 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "r-lyeh/statvs",
+      "target": "r-lyeh-archived/statvs",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "r-lyeh/statvs",
+      "target": "r-lyeh/spectral",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "r-lyeh/statvs",
+      "target": "r-lyeh/stdarc.c",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "r-lyeh/statvs",
+      "target": "r-lyeh/gamebook",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T00:48:35.056849+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1595
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Hopefully updated status of all my github repositories",
+    "fork": false,
+    "full_name": "r-lyeh/statvs",
+    "html_url": "https://github.com/r-lyeh/statvs",
+    "language": null,
+    "pushed_at": "2024-11-23T09:05:40Z",
+    "stargazers_count": 13,
+    "topics": [],
+    "updated_at": "2025-02-19T22:01:04Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "r-lyeh-archived/statvs",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "r-lyeh/gamebook",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "r-lyeh/spectral",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "r-lyeh/stdarc.c",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

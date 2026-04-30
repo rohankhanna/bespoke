@@ -1,0 +1,95 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/on-push.yml"
+    },
+    {
+      "component": "erlef/setup-beam@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/on-push.yml"
+    },
+    {
+      "component": "rrainn/dynamodb-action@v3.0.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/on-push.yml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/on-push.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/on-push.yml",
+      "source_repo": "ex-aws/ex_aws",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/on-push.yml",
+      "source_repo": "ex-aws/ex_aws",
+      "target": "erlef/setup-beam@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/on-push.yml",
+      "source_repo": "ex-aws/ex_aws",
+      "target": "rrainn/dynamodb-action@v3.0.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/on-push.yml",
+      "source_repo": "ex-aws/ex_aws",
+      "target": "actions/cache@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/on-push.yml",
+      "source_repo": "ex-aws/ex_aws",
+      "target": "on-push",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T02:55:25.522521+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 10958
+    },
+    {
+      "path": ".github/workflows/on-push.yml",
+      "size": 2283
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A flexible, easy to use set of clients AWS APIs for Elixir",
+    "fork": false,
+    "full_name": "ex-aws/ex_aws",
+    "html_url": "https://github.com/ex-aws/ex_aws",
+    "language": "Elixir",
+    "pushed_at": "2026-03-09T16:29:42Z",
+    "stargazers_count": 1337,
+    "topics": [],
+    "updated_at": "2026-04-29T01:00:54Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "on-push",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/on-push.yml",
+      "term": "on-push"
+    }
+  ]
+}

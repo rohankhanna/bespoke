@@ -44,6 +44,30 @@
       "source_repo": "fonttools/fontbakery",
       "status": "candidate-context",
       "text": "\ud83d\ude80 Build & Publish"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Farama-Foundation/Shimmy",
+      "status": "candidate-context",
+      "text": "An API conversion tool for popular external reinforcement learning environments"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Farama-Foundation/Shimmy",
+      "status": "candidate-context",
+      "text": "build-publish"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Farama-Foundation/Minigrid",
+      "status": "candidate-context",
+      "text": " Simple and easily configurable grid world environments for reinforcement learning"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Farama-Foundation/Minigrid",
+      "status": "candidate-context",
+      "text": "build-publish"
     }
   ],
   "candidate_glosses": [
@@ -64,6 +88,18 @@
       "source_repo": "fonttools/fontbakery",
       "status": "candidate",
       "text": "\ud83d\ude80 Build & Publish"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Farama-Foundation/Shimmy",
+      "status": "candidate",
+      "text": "build-publish"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Farama-Foundation/Minigrid",
+      "status": "candidate",
+      "text": "build-publish"
     }
   ],
   "candidate_related_terms": [
@@ -131,11 +167,29 @@
       "observed_at": "2026-04-24T12:33:41.350224+00:00",
       "source_file": ".github/workflows/build-publish.yml",
       "source_repo": "Farama-Foundation/PettingZoo"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/build-publish.yml",
+      "source_repo": "Farama-Foundation/Shimmy"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "Farama-Foundation/Minigrid"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/build_publish.yml",
+      "source_repo": "fonttools/fontbakery"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -61,6 +61,66 @@
       "source_repo": "EspressoSystems/tide-disco",
       "status": "candidate-context",
       "text": "update-flake-lock"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "eopb/cargo-override",
+      "status": "candidate-context",
+      "text": "The quickest way to override dependencies with Cargo"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "eopb/cargo-override",
+      "status": "candidate-context",
+      "text": "update-flake-lock"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "DavHau/nix-portable",
+      "status": "candidate-context",
+      "text": "Nix - Static, Permissionless, Installation-free, Pre-configured"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DavHau/nix-portable",
+      "status": "candidate-context",
+      "text": "update-flake-lock"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "raphamorim/rio",
+      "status": "candidate-context",
+      "text": "A hardware-accelerated GPU terminal emulator focusing to run in desktops and browsers."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "raphamorim/rio",
+      "status": "candidate-context",
+      "text": "update-flake-lock"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "astro/deadnix",
+      "status": "candidate-context",
+      "text": "Scan Nix files for dead code"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "astro/deadnix",
+      "status": "candidate-context",
+      "text": "update-flake-lock"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lumen-oss/rocks.nvim",
+      "status": "candidate-context",
+      "text": "\ud83c\udf12 Neovim plugin management inspired by Cargo, powered by luarocks"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lumen-oss/rocks.nvim",
+      "status": "candidate-context",
+      "text": "update-flake-lock"
     }
   ],
   "candidate_glosses": [
@@ -91,6 +151,36 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "EspressoSystems/tide-disco",
+      "status": "candidate",
+      "text": "update-flake-lock"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "eopb/cargo-override",
+      "status": "candidate",
+      "text": "update-flake-lock"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DavHau/nix-portable",
+      "status": "candidate",
+      "text": "update-flake-lock"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "raphamorim/rio",
+      "status": "candidate",
+      "text": "update-flake-lock"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "astro/deadnix",
+      "status": "candidate",
+      "text": "update-flake-lock"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lumen-oss/rocks.nvim",
       "status": "candidate",
       "text": "update-flake-lock"
     }
@@ -130,11 +220,41 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": ".github/workflows/update_flake_lock.yml",
       "source_repo": "EspressoSystems/tide-disco"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/nix-flake-update.yaml",
+      "source_repo": "eopb/cargo-override"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/update-flake-lock.yml",
+      "source_repo": "DavHau/nix-portable"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/update-flake.yml",
+      "source_repo": "raphamorim/rio"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/update.yml",
+      "source_repo": "astro/deadnix"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/update.yml",
+      "source_repo": "lumen-oss/rocks.nvim"
     }
   ],
   "first_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

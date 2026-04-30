@@ -1,0 +1,94 @@
+{
+  "aliases": [
+    "Building and deploying the catalog"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "takari/m2e-discovery-catalog",
+      "status": "candidate-context",
+      "text": "Building and deploying the catalog"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "takari/m2e-discovery-catalog",
+      "status": "candidate",
+      "text": "Building and deploying the catalog"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27110,
+      "status": "candidate",
+      "text": "cataloged"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 25737,
+      "status": "candidate",
+      "text": "layout"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 25737,
+      "status": "candidate",
+      "text": "webmail"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 23678,
+      "status": "candidate",
+      "text": "author"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 23111,
+      "status": "candidate",
+      "text": "press"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Building and deploying the catalog",
+  "concept_id": "building-and-deploying-the-catalog",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/.deploy.yml",
+      "source_repo": "takari/m2e-discovery-catalog"
+    }
+  ],
+  "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Building and deploying the catalog",
+      "sense_id": "building-and-deploying-the-catalog#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

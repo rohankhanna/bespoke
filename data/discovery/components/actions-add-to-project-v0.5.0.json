@@ -1,7 +1,7 @@
 {
   "component": "actions/add-to-project@v0.5.0",
   "first_seen_at": "2026-04-18T09:23:05.253565+00:00",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -52,6 +52,21 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/issue_handler.yml",
       "source_repo": "esp-rs/espflash"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/issues.yml",
+      "source_repo": "gorilla/.github"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/project.yml",
+      "source_repo": "rrousselGit/flutter_hooks"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/project.yml",
+      "source_repo": "rrousselGit/provider"
     }
   ]
 }

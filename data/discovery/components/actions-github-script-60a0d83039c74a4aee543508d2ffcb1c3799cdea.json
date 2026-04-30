@@ -1,7 +1,7 @@
 {
   "component": "actions/github-script@60a0d83039c74a4aee543508d2ffcb1c3799cdea",
   "first_seen_at": "2026-04-18T03:42:01.586113+00:00",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -142,6 +142,11 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/community-issue-labeler.yml",
       "source_repo": "hao-ai-lab/FastVideo"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/add_commented_closed_issue_to_project.yml",
+      "source_repo": "zed-industries/zed"
     }
   ]
 }

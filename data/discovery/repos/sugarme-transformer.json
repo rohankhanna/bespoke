@@ -1,0 +1,115 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "sugarme/transformer",
+      "target": "guillaume-be/rust-bert",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "sugarme/transformer",
+      "target": "laurentmazare/tch-rs",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sugarme/transformer",
+      "target": "deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sugarme/transformer",
+      "target": "golang-transformer",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sugarme/transformer",
+      "target": "nlp-transformer",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sugarme/transformer",
+      "target": "transformer",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T02:44:25.112357+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5361
+    },
+    {
+      "path": "go.mod",
+      "size": 312
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "NLP transformers written in Go",
+    "fork": false,
+    "full_name": "sugarme/transformer",
+    "html_url": "https://github.com/sugarme/transformer",
+    "language": "Go",
+    "pushed_at": "2023-02-20T07:32:31Z",
+    "stargazers_count": 254,
+    "topics": [
+      "deep-learning",
+      "golang-transformer",
+      "nlp-transformer",
+      "transformer"
+    ],
+    "updated_at": "2026-04-08T04:34:08Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "guillaume-be/rust-bert",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "laurentmazare/tch-rs",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "`transformer` is pure Go package to facilitate applying Natural Language Processing (NLP) models train/test and inference in Go.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-learning"
+    },
+    {
+      "context_snippet": "`transformer` is pure Go package to facilitate applying Natural Language Processing (NLP) models train/test and inference in Go.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "golang-transformer"
+    },
+    {
+      "context_snippet": "`transformer` is pure Go package to facilitate applying Natural Language Processing (NLP) models train/test and inference in Go.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nlp-transformer"
+    },
+    {
+      "context_snippet": "`transformer` is pure Go package to facilitate applying Natural Language Processing (NLP) models train/test and inference in Go.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "transformer"
+    }
+  ]
+}

@@ -1,0 +1,168 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "source-foundry/Hack",
+      "target": "chrissimpkins/fontname.py",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "source-foundry/Hack",
+      "target": "googlefonts/fontbakery",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "source-foundry/Hack",
+      "target": "chrissimpkins/ink",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "source-foundry/Hack",
+      "target": "bramstein/sfnt2woff-zopfli",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "source-foundry/Hack",
+      "target": "developer",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "source-foundry/Hack",
+      "target": "developer-tools",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "source-foundry/Hack",
+      "target": "font",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "source-foundry/Hack",
+      "target": "hack",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "source-foundry/Hack",
+      "target": "typeface",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "source-foundry/Hack",
+      "target": "web-fonts",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T04:07:46.305506+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 13103
+    },
+    {
+      "path": "package.json",
+      "size": 387
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A typeface designed for source code",
+    "fork": false,
+    "full_name": "source-foundry/Hack",
+    "html_url": "https://github.com/source-foundry/Hack",
+    "language": "Shell",
+    "pushed_at": "2022-11-21T18:05:33Z",
+    "stargazers_count": 17216,
+    "topics": [
+      "developer",
+      "developer-tools",
+      "font",
+      "hack",
+      "ttf",
+      "typeface",
+      "web-fonts"
+    ],
+    "updated_at": "2026-04-30T02:16:19Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "bramstein/sfnt2woff-zopfli",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "chrissimpkins/fontname.py",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "chrissimpkins/ink",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "googlefonts/fontbakery",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[![GitHub release](https://img.shields.io/github/release/source-foundry/hack.svg?style=flat)](https://github.com/source-foundry/Hack/releases/latest)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "developer"
+    },
+    {
+      "context_snippet": "[![GitHub release](https://img.shields.io/github/release/source-foundry/hack.svg?style=flat)](https://github.com/source-foundry/Hack/releases/latest)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "developer-tools"
+    },
+    {
+      "context_snippet": "[![GitHub release](https://img.shields.io/github/release/source-foundry/hack.svg?style=flat)](https://github.com/source-foundry/Hack/releases/latest)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "font"
+    },
+    {
+      "context_snippet": "[![GitHub release](https://img.shields.io/github/release/source-foundry/hack.svg?style=flat)](https://github.com/source-foundry/Hack/releases/latest)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hack"
+    },
+    {
+      "context_snippet": "[![GitHub release](https://img.shields.io/github/release/source-foundry/hack.svg?style=flat)](https://github.com/source-foundry/Hack/releases/latest)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "typeface"
+    },
+    {
+      "context_snippet": "[![GitHub release](https://img.shields.io/github/release/source-foundry/hack.svg?style=flat)](https://github.com/source-foundry/Hack/releases/latest)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "web-fonts"
+    }
+  ]
+}

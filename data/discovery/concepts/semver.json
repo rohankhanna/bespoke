@@ -91,6 +91,18 @@
       "source_repo": "release-it/release-it",
       "status": "candidate-context",
       "text": "\ud83d\ude80 Generic CLI tool to automate versioning and package publishing-related tasks:"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JS-DevTools/version-bump-prompt",
+      "status": "candidate-context",
+      "text": "Interactive CLI that bumps your version numbers and more"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JS-DevTools/version-bump-prompt",
+      "status": "candidate-context",
+      "text": "[![Cross-Platform Compatibility](https://jstools.dev/img/badges/os-badges.svg)](https://github.com/JS-DevTools/version-bump-prompt/actions)"
     }
   ],
   "candidate_glosses": [
@@ -135,6 +147,12 @@
       "source_repo": "release-it/release-it",
       "status": "candidate",
       "text": "\ud83d\ude80 Generic CLI tool to automate versioning and package publishing-related tasks:"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JS-DevTools/version-bump-prompt",
+      "status": "candidate",
+      "text": "[![Cross-Platform Compatibility](https://jstools.dev/img/badges/os-badges.svg)](https://github.com/JS-DevTools/version-bump-prompt/actions)"
     }
   ],
   "candidate_related_terms": [
@@ -220,11 +238,17 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "release-it/release-it"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "JS-DevTools/version-bump-prompt"
     }
   ],
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

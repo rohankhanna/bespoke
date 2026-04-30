@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T05:11:41.068638+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 16969
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Progressive Growing of GANs for Improved Quality, Stability, and Variation",
+    "fork": false,
+    "full_name": "tkarras/progressive_growing_of_gans",
+    "html_url": "https://github.com/tkarras/progressive_growing_of_gans",
+    "language": "Python",
+    "pushed_at": "2022-02-17T12:44:14Z",
+    "stargazers_count": 6168,
+    "topics": [],
+    "updated_at": "2026-04-30T02:53:08Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

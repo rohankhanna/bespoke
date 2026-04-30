@@ -1,0 +1,536 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/KB_Updater.yml"
+    },
+    {
+      "component": "aws-actions/configure-aws-credentials@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/KB_Updater.yml"
+    },
+    {
+      "component": "docker://chinthakagodawita/autoupdate-action:v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-update-pr.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-push.yml"
+    },
+    {
+      "component": "aws-actions/configure-aws-credentials@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-push.yml"
+    },
+    {
+      "component": "aws-actions/amazon-ecr-login@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-push.yml"
+    },
+    {
+      "component": "github-community-projects/issue-metrics@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issue-metrics.yml"
+    },
+    {
+      "component": "peter-evans/create-issue-from-file@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issue-metrics.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/label-auditor.yml"
+    },
+    {
+      "component": "crazy-max/ghaction-github-labeler@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/label-auditor.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/label-auto-language.yml"
+    },
+    {
+      "component": "actions/labeler@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/label-auto-language.yml"
+    },
+    {
+      "component": "docker://agilepathway/pull-request-label-checker:latest",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/label-checker.yml"
+    },
+    {
+      "component": "docker://agilepathway/pull-request-label-checker:latest",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/label-checker.yml"
+    },
+    {
+      "component": "actions/setup-dotnet@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint-check-dotnet.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint-check-dotnet.yml"
+    },
+    {
+      "component": "tj-actions/changed-files@e9772d140489982e0e3704fea5ee93d536f1e275",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint-check-dotnet.yml"
+    },
+    {
+      "component": "tj-actions/changed-files@e9772d140489982e0e3704fea5ee93d536f1e275",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint-check-dotnet.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint-golang.yml"
+    },
+    {
+      "component": "tj-actions/changed-files@e9772d140489982e0e3704fea5ee93d536f1e275",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint-golang.yml"
+    },
+    {
+      "component": "actions/setup-go@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint-golang.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "awsdocs/aws-doc-sdk-examples",
+      "target": "aws/aws-sdk-ruby",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "awsdocs/aws-doc-sdk-examples",
+      "target": "aws-samples/serverless-snippets",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "awsdocs/aws-doc-sdk-examples",
+      "target": "aws/aws-tools-for-powershell",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/KB_Updater.yml",
+      "source_repo": "awsdocs/aws-doc-sdk-examples",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/KB_Updater.yml",
+      "source_repo": "awsdocs/aws-doc-sdk-examples",
+      "target": "aws-actions/configure-aws-credentials@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-update-pr.yml",
+      "source_repo": "awsdocs/aws-doc-sdk-examples",
+      "target": "docker://chinthakagodawita/autoupdate-action:v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/auto-update-pr.yml",
+      "source_repo": "awsdocs/aws-doc-sdk-examples",
+      "target": "Keep PRs Updated from Main",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-push.yml",
+      "source_repo": "awsdocs/aws-doc-sdk-examples",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-push.yml",
+      "source_repo": "awsdocs/aws-doc-sdk-examples",
+      "target": "aws-actions/configure-aws-credentials@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-push.yml",
+      "source_repo": "awsdocs/aws-doc-sdk-examples",
+      "target": "aws-actions/amazon-ecr-login@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docker-push.yml",
+      "source_repo": "awsdocs/aws-doc-sdk-examples",
+      "target": "Docker Image CI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issue-metrics.yml",
+      "source_repo": "awsdocs/aws-doc-sdk-examples",
+      "target": "github-community-projects/issue-metrics@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issue-metrics.yml",
+      "source_repo": "awsdocs/aws-doc-sdk-examples",
+      "target": "peter-evans/create-issue-from-file@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/issue-metrics.yml",
+      "source_repo": "awsdocs/aws-doc-sdk-examples",
+      "target": "Monthly issue metrics",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/label-auditor.yml",
+      "source_repo": "awsdocs/aws-doc-sdk-examples",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/label-auditor.yml",
+      "source_repo": "awsdocs/aws-doc-sdk-examples",
+      "target": "crazy-max/ghaction-github-labeler@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/label-auditor.yml",
+      "source_repo": "awsdocs/aws-doc-sdk-examples",
+      "target": "Audit Labels",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/label-auto-language.yml",
+      "source_repo": "awsdocs/aws-doc-sdk-examples",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/label-auto-language.yml",
+      "source_repo": "awsdocs/aws-doc-sdk-examples",
+      "target": "actions/labeler@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/label-auto-language.yml",
+      "source_repo": "awsdocs/aws-doc-sdk-examples",
+      "target": "Auto Labeler",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/label-checker.yml",
+      "source_repo": "awsdocs/aws-doc-sdk-examples",
+      "target": "docker://agilepathway/pull-request-label-checker:latest",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/label-checker.yml",
+      "source_repo": "awsdocs/aws-doc-sdk-examples",
+      "target": "Label Checker",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint-check-dotnet.yml",
+      "source_repo": "awsdocs/aws-doc-sdk-examples",
+      "target": "actions/setup-dotnet@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint-check-dotnet.yml",
+      "source_repo": "awsdocs/aws-doc-sdk-examples",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint-check-dotnet.yml",
+      "source_repo": "awsdocs/aws-doc-sdk-examples",
+      "target": "tj-actions/changed-files@e9772d140489982e0e3704fea5ee93d536f1e275",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint-check-dotnet.yml",
+      "source_repo": "awsdocs/aws-doc-sdk-examples",
+      "target": "Dotnet Lint and Check",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint-golang.yml",
+      "source_repo": "awsdocs/aws-doc-sdk-examples",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint-golang.yml",
+      "source_repo": "awsdocs/aws-doc-sdk-examples",
+      "target": "tj-actions/changed-files@e9772d140489982e0e3704fea5ee93d536f1e275",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint-golang.yml",
+      "source_repo": "awsdocs/aws-doc-sdk-examples",
+      "target": "actions/setup-go@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint-golang.yml",
+      "source_repo": "awsdocs/aws-doc-sdk-examples",
+      "target": "Lint GoLang",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "awsdocs/aws-doc-sdk-examples",
+      "target": "documentation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "awsdocs/aws-doc-sdk-examples",
+      "target": "dotnet",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "awsdocs/aws-doc-sdk-examples",
+      "target": "examples",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "awsdocs/aws-doc-sdk-examples",
+      "target": "java",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "awsdocs/aws-doc-sdk-examples",
+      "target": "programming",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "awsdocs/aws-doc-sdk-examples",
+      "target": "ruby",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T04:05:18.567154+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7629
+    },
+    {
+      "path": ".github/workflows/KB_Updater.yml",
+      "size": 745
+    },
+    {
+      "path": ".github/workflows/auto-update-pr.yml",
+      "size": 359
+    },
+    {
+      "path": ".github/workflows/docker-push.yml",
+      "size": 9106
+    },
+    {
+      "path": ".github/workflows/issue-metrics.yml",
+      "size": 1597
+    },
+    {
+      "path": ".github/workflows/label-auditor.yml",
+      "size": 1138
+    },
+    {
+      "path": ".github/workflows/label-auto-language.yml",
+      "size": 838
+    },
+    {
+      "path": ".github/workflows/label-checker.yml",
+      "size": 938
+    },
+    {
+      "path": ".github/workflows/lint-check-dotnet.yml",
+      "size": 1786
+    },
+    {
+      "path": ".github/workflows/lint-golang.yml",
+      "size": 1172
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Welcome to the AWS Code Examples Repository.  This repo contains code examples used in the AWS documentation, AWS SDK Developer Guides, and more. For more information, see the Readme.md file below.",
+    "fork": false,
+    "full_name": "awsdocs/aws-doc-sdk-examples",
+    "html_url": "https://github.com/awsdocs/aws-doc-sdk-examples",
+    "language": "Java",
+    "pushed_at": "2026-04-29T14:07:04Z",
+    "stargazers_count": 10398,
+    "topics": [
+      "aws",
+      "cpp",
+      "documentation",
+      "dotnet",
+      "examples",
+      "go",
+      "java",
+      "javascript",
+      "php",
+      "programming",
+      "python",
+      "ruby"
+    ],
+    "updated_at": "2026-04-29T14:09:51Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "aws-samples/serverless-snippets",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "aws/aws-sdk-ruby",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "aws/aws-tools-for-powershell",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "\"Keep PRs Updated from Main\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/auto-update-pr.yml",
+      "term": "Keep PRs Updated from Main"
+    },
+    {
+      "context_snippet": "Docker Image CI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docker-push.yml",
+      "term": "Docker Image CI"
+    },
+    {
+      "context_snippet": "Monthly issue metrics",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/issue-metrics.yml",
+      "term": "Monthly issue metrics"
+    },
+    {
+      "context_snippet": "\"Audit Labels\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/label-auditor.yml",
+      "term": "Audit Labels"
+    },
+    {
+      "context_snippet": "\"Auto Labeler\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/label-auto-language.yml",
+      "term": "Auto Labeler"
+    },
+    {
+      "context_snippet": "Label Checker",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/label-checker.yml",
+      "term": "Label Checker"
+    },
+    {
+      "context_snippet": "Dotnet Lint and Check",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint-check-dotnet.yml",
+      "term": "Dotnet Lint and Check"
+    },
+    {
+      "context_snippet": "Lint GoLang",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint-golang.yml",
+      "term": "Lint GoLang"
+    },
+    {
+      "context_snippet": "[![Build Status](https://github.com/aws/aws-sdk-ruby/workflows/CI/badge.svg)](https://github.com/awsdocs/aws-doc-sdk-examples/actions)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "documentation"
+    },
+    {
+      "context_snippet": "[![Build Status](https://github.com/aws/aws-sdk-ruby/workflows/CI/badge.svg)](https://github.com/awsdocs/aws-doc-sdk-examples/actions)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dotnet"
+    },
+    {
+      "context_snippet": "[![Build Status](https://github.com/aws/aws-sdk-ruby/workflows/CI/badge.svg)](https://github.com/awsdocs/aws-doc-sdk-examples/actions)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "examples"
+    },
+    {
+      "context_snippet": "[![Build Status](https://github.com/aws/aws-sdk-ruby/workflows/CI/badge.svg)](https://github.com/awsdocs/aws-doc-sdk-examples/actions)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "java"
+    },
+    {
+      "context_snippet": "[![Build Status](https://github.com/aws/aws-sdk-ruby/workflows/CI/badge.svg)](https://github.com/awsdocs/aws-doc-sdk-examples/actions)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "programming"
+    },
+    {
+      "context_snippet": "[![Build Status](https://github.com/aws/aws-sdk-ruby/workflows/CI/badge.svg)](https://github.com/awsdocs/aws-doc-sdk-examples/actions)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ruby"
+    }
+  ]
+}

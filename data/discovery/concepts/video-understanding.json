@@ -103,6 +103,30 @@
       "source_repo": "OpenGVLab/InternVideo",
       "status": "candidate-context",
       "text": "</div>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "wjun0830/CGDETR",
+      "status": "candidate-context",
+      "text": "Official pytorch repository for CG-DETR \"Correlation-guided Query-Dependency Calibration in Video Representation Learning for Temporal Grounding\" "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "wjun0830/CGDETR",
+      "status": "candidate-context",
+      "text": "Correlation-Guided Query-Dependency Calibration for Video Temporal Grounding"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "zai-org/GLM-V",
+      "status": "candidate-context",
+      "text": "GLM-4.6V/4.5V/4.1V-Thinking: Towards Versatile Multimodal Reasoning with Scalable Reinforcement Learning"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "zai-org/GLM-V",
+      "status": "candidate-context",
+      "text": "[\u4e2d\u6587\u9605\u8bfb.](./README_zh.md)"
     }
   ],
   "candidate_glosses": [
@@ -153,6 +177,18 @@
       "source_repo": "OpenGVLab/InternVideo",
       "status": "candidate",
       "text": "</div>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "wjun0830/CGDETR",
+      "status": "candidate",
+      "text": "Correlation-Guided Query-Dependency Calibration for Video Temporal Grounding"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "zai-org/GLM-V",
+      "status": "candidate",
+      "text": "[\u4e2d\u6587\u9605\u8bfb.](./README_zh.md)"
     }
   ],
   "candidate_related_terms": [],
@@ -208,11 +244,23 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "OpenGVLab/InternVideo"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "wjun0830/CGDETR"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "zai-org/GLM-V"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

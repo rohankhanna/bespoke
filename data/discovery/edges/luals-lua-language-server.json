@@ -4,21 +4,21 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "LuaLS/lua-language-server",
+      "target": "sqmedeiros/lpeglabel",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "LuaLS/lua-language-server",
+      "target": "nickemanarin/screentogif",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "LuaLS/lua-language-server",
       "target": "microsoft/vscode-languageserver-node",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "LuaLS/lua-language-server",
-      "target": "luals/lua-glob",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "LuaLS/lua-language-server",
-      "target": "luals/utility",
       "target_type": "repository"
     },
     {
@@ -148,6 +148,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-04-29T18:37:00.726333+00:00",
+  "generated_at": "2026-04-30T00:37:16.824464+00:00",
   "source_repo": "LuaLS/lua-language-server"
 }

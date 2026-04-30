@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Automated auditing, performance metrics, and best practices for the web."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "lighthouse \u2014 Automated auditing, performance metrics, and best practices for the web."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "lighthouse \u2014 Automated auditing, performance metrics, and best practices for the web."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "best-practices",
+      "sense_id": "best-practices#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "best-practices",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "best-practices",
+  "observation_id": "c57d6dad152227b2",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T00:37:16.824464+00:00",
+  "observed_text": "best-practices",
+  "source_context_snippet": "lighthouse \u2014 Automated auditing, performance metrics, and best practices for the web.",
+  "source_file": null,
+  "source_repo": "GoogleChrome/lighthouse",
+  "source_repo_description": "Automated auditing, performance metrics, and best practices for the web."
+}

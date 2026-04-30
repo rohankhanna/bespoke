@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Build wheels in docker and archive"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "OpenBMB/BMTrain",
+      "status": "candidate-context",
+      "text": "Efficient Training (including pre-training and fine-tuning) for Big Models"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "OpenBMB/BMTrain",
+      "status": "candidate-context",
+      "text": "Build wheels in docker and archive"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "OpenBMB/BMTrain",
+      "status": "candidate",
+      "text": "Build wheels in docker and archive"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18444,
+      "status": "candidate",
+      "text": "morgue"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18444,
+      "status": "candidate",
+      "text": "museum"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18444,
+      "status": "candidate",
+      "text": "sparid"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18366,
+      "status": "candidate",
+      "text": "aware"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18366,
+      "status": "candidate",
+      "text": "barn"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Build wheels in docker and archive",
+  "concept_id": "build-wheels-in-docker-and-archive",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/build_whl.yml",
+      "source_repo": "OpenBMB/BMTrain"
+    }
+  ],
+  "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Build wheels in docker and archive",
+      "sense_id": "build-wheels-in-docker-and-archive#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

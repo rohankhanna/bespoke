@@ -1,0 +1,96 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "ruby/setup-ruby@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ErwinM/acts_as_tenant",
+      "target": "nunommc/acts_as_tenant-delayed_job",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ErwinM/acts_as_tenant",
+      "target": "wireframe/multitenant",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "ErwinM/acts_as_tenant",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "ErwinM/acts_as_tenant",
+      "target": "ruby/setup-ruby@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "ErwinM/acts_as_tenant",
+      "target": "Tests",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T03:44:29.666539+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 15555
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 1056
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Easy multi-tenancy for Rails in a shared database setup.",
+    "fork": false,
+    "full_name": "ErwinM/acts_as_tenant",
+    "html_url": "https://github.com/ErwinM/acts_as_tenant",
+    "language": "Ruby",
+    "pushed_at": "2025-04-16T14:18:59Z",
+    "stargazers_count": 1689,
+    "topics": [],
+    "updated_at": "2026-04-16T03:36:11Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "nunommc/acts_as_tenant-delayed_job",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "wireframe/multitenant",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "term": "Tests"
+    }
+  ]
+}

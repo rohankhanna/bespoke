@@ -1,0 +1,20 @@
+{
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ado.yml",
+      "source_repo": "MicrosoftEdge/DevTools",
+      "target": "MicrosoftEdge/action-issue-to-workitem@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/score.yml",
+      "source_repo": "MicrosoftEdge/DevTools",
+      "target": "champnic/Porpoise@main",
+      "target_type": "component"
+    }
+  ],
+  "generated_at": "2026-04-30T00:37:16.824464+00:00",
+  "source_repo": "MicrosoftEdge/DevTools"
+}

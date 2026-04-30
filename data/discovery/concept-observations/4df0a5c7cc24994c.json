@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Quarkus Extension to create Kubernetes Operators in Java using the Java Operator SDK (https://github.com/java-operator-sdk/java-operator-sdk) project"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Build with specific Quarkus version"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Build with specific Quarkus version"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 34129,
+      "status": "candidate",
+      "text": "bible"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 34129,
+      "status": "candidate",
+      "text": "iliad"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 25929,
+      "status": "candidate",
+      "text": "anlage"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19347,
+      "status": "candidate",
+      "text": "form"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18257,
+      "status": "candidate",
+      "text": "pose"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Build with specific Quarkus version",
+      "sense_id": "build-with-specific-quarkus-version#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "build-with-specific-quarkus-version",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "build-with-specific-quarkus-version",
+  "observation_id": "4df0a5c7cc24994c",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-30T00:37:16.824464+00:00",
+  "observed_text": "Build with specific Quarkus version",
+  "source_context_snippet": "Build with specific Quarkus version",
+  "source_file": ".github/workflows/build-for-quarkus-version.yml",
+  "source_repo": "quarkiverse/quarkus-operator-sdk",
+  "source_repo_description": "Quarkus Extension to create Kubernetes Operators in Java using the Java Operator SDK (https://github.com/java-operator-sdk/java-operator-sdk) project"
+}

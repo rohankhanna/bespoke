@@ -1,0 +1,57 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Saiyan-World/grounded-segment-any-parts",
+      "target": "cheems-seminar/grounded-segment-any-parts",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Saiyan-World/grounded-segment-any-parts",
+      "target": "microsoft/visual-chatgpt",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T03:54:35.269932+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5662
+    },
+    {
+      "path": "requirements.txt",
+      "size": 414
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Grounded Segment Anything: From Objects to Parts",
+    "fork": false,
+    "full_name": "Saiyan-World/grounded-segment-any-parts",
+    "html_url": "https://github.com/Saiyan-World/grounded-segment-any-parts",
+    "language": "Jupyter Notebook",
+    "pushed_at": "2023-05-19T01:31:05Z",
+    "stargazers_count": 416,
+    "topics": [],
+    "updated_at": "2026-04-04T07:23:22Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cheems-seminar/grounded-segment-any-parts",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "microsoft/visual-chatgpt",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

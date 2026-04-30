@@ -59,6 +59,18 @@
       "source_repo": "bernedom/SI",
       "status": "candidate-context",
       "text": "API documentation"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Redocly/redoc",
+      "status": "candidate-context",
+      "text": "\ud83d\udcd8  OpenAPI/Swagger-generated API Reference Documentation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Redocly/redoc",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -85,6 +97,12 @@
       "source_repo": "bernedom/SI",
       "status": "candidate",
       "text": "API documentation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Redocly/redoc",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -152,11 +170,17 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": ".github/workflows/api-doc.yml",
       "source_repo": "bernedom/SI"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "Redocly/redoc"
     }
   ],
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

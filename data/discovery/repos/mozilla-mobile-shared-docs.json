@@ -1,0 +1,77 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mozilla-mobile/shared-docs",
+      "target": "mozilla-mobile/firefox-ios",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mozilla-mobile/shared-docs",
+      "target": "mozilla-mobile/fenix",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mozilla-mobile/shared-docs",
+      "target": "mozilla-mobile/firefox-echo-show",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mozilla-mobile/shared-docs",
+      "target": "mozilla-mobile/android-components",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T03:44:51.015885+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2242
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "main",
+    "description": "\u26a0\ufe0f shared-docs moved to a new repository. It is now developed and maintained as part of: https://github.com/mozilla-mobile/firefox-android",
+    "fork": false,
+    "full_name": "mozilla-mobile/shared-docs",
+    "html_url": "https://github.com/mozilla-mobile/shared-docs",
+    "language": null,
+    "pushed_at": "2023-01-09T23:59:45Z",
+    "stargazers_count": 35,
+    "topics": [],
+    "updated_at": "2026-04-28T01:16:15Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mozilla-mobile/android-components",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mozilla-mobile/fenix",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mozilla-mobile/firefox-echo-show",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mozilla-mobile/firefox-ios",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

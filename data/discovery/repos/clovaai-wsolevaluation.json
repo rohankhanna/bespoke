@@ -1,0 +1,205 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "clovaai/wsolevaluation",
+      "target": "infinidat/munch",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "clovaai/wsolevaluation",
+      "target": "metalbubble/cam",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "clovaai/wsolevaluation",
+      "target": "junsukchoe/adl",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "clovaai/wsolevaluation",
+      "target": "clovaai/cutmix-pytorch",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "clovaai/wsolevaluation",
+      "target": "cvpr2020",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "clovaai/wsolevaluation",
+      "target": "dataset-contribution",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "clovaai/wsolevaluation",
+      "target": "evaluation-protocol",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "clovaai/wsolevaluation",
+      "target": "localization",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "clovaai/wsolevaluation",
+      "target": "wsol-benchmark",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "clovaai/wsolevaluation",
+      "target": "wsol-evaluation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "clovaai/wsolevaluation",
+      "target": "wsol-methods",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "clovaai/wsolevaluation",
+      "target": "wsol-task",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "clovaai/wsolevaluation",
+      "target": "wsol-training",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T05:14:00.467996+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 28134
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Evaluating Weakly Supervised Object Localization Methods Right (CVPR 2020)",
+    "fork": false,
+    "full_name": "clovaai/wsolevaluation",
+    "html_url": "https://github.com/clovaai/wsolevaluation",
+    "language": "Python",
+    "pushed_at": "2022-09-20T15:31:32Z",
+    "stargazers_count": 335,
+    "topics": [
+      "cvpr2020",
+      "dataset-contribution",
+      "evaluation-protocol",
+      "localization",
+      "wsol-benchmark",
+      "wsol-evaluation",
+      "wsol-methods",
+      "wsol-task",
+      "wsol-training"
+    ],
+    "updated_at": "2026-01-28T02:44:13Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "clovaai/cutmix-pytorch",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "infinidat/munch",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "junsukchoe/adl",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "metalbubble/cam",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[CVPR 2020 paper](https://arxiv.org/abs/2001.07437) | [TPAMI paper](https://arxiv.org/abs/2007.04178)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cvpr2020"
+    },
+    {
+      "context_snippet": "[CVPR 2020 paper](https://arxiv.org/abs/2001.07437) | [TPAMI paper](https://arxiv.org/abs/2007.04178)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dataset-contribution"
+    },
+    {
+      "context_snippet": "[CVPR 2020 paper](https://arxiv.org/abs/2001.07437) | [TPAMI paper](https://arxiv.org/abs/2007.04178)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "evaluation-protocol"
+    },
+    {
+      "context_snippet": "[CVPR 2020 paper](https://arxiv.org/abs/2001.07437) | [TPAMI paper](https://arxiv.org/abs/2007.04178)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "localization"
+    },
+    {
+      "context_snippet": "[CVPR 2020 paper](https://arxiv.org/abs/2001.07437) | [TPAMI paper](https://arxiv.org/abs/2007.04178)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "wsol-benchmark"
+    },
+    {
+      "context_snippet": "[CVPR 2020 paper](https://arxiv.org/abs/2001.07437) | [TPAMI paper](https://arxiv.org/abs/2007.04178)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "wsol-evaluation"
+    },
+    {
+      "context_snippet": "[CVPR 2020 paper](https://arxiv.org/abs/2001.07437) | [TPAMI paper](https://arxiv.org/abs/2007.04178)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "wsol-methods"
+    },
+    {
+      "context_snippet": "[CVPR 2020 paper](https://arxiv.org/abs/2001.07437) | [TPAMI paper](https://arxiv.org/abs/2007.04178)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "wsol-task"
+    },
+    {
+      "context_snippet": "[CVPR 2020 paper](https://arxiv.org/abs/2001.07437) | [TPAMI paper](https://arxiv.org/abs/2007.04178)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "wsol-training"
+    }
+  ]
+}

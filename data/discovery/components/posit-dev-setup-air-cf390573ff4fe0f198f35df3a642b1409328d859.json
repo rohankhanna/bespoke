@@ -1,0 +1,12 @@
+{
+  "component": "posit-dev/setup-air@cf390573ff4fe0f198f35df3a642b1409328d859",
+  "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/check.yml",
+      "source_repo": "eitsupi/arf"
+    }
+  ]
+}

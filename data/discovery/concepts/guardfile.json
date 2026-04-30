@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "guardfile"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JodyVanden/guard-standardrb",
+      "status": "candidate-context",
+      "text": "a plugin for guard that works with standardrb."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JodyVanden/guard-standardrb",
+      "status": "candidate-context",
+      "text": "Welcome to the new guard plugin `guard-standardrb`!"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JodyVanden/guard-standardrb",
+      "status": "candidate",
+      "text": "Welcome to the new guard plugin `guard-standardrb`!"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "guardfile",
+  "concept_id": "guardfile",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "JodyVanden/guard-standardrb"
+    }
+  ],
+  "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "guardfile",
+      "sense_id": "guardfile#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

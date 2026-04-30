@@ -235,6 +235,18 @@
       "source_repo": "cbucher/console",
       "status": "candidate-context",
       "text": "ConsoleZ"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "eitsupi/arf",
+      "status": "candidate-context",
+      "text": "Alternative R Frontend \u2014 a modern R console written in Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "eitsupi/arf",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -351,6 +363,12 @@
       "source_repo": "cbucher/console",
       "status": "candidate",
       "text": "ConsoleZ"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "eitsupi/arf",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -550,11 +568,17 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "cbucher/console"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "eitsupi/arf"
     }
   ],
   "first_seen_at": "2026-04-18T12:07:11.500453+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

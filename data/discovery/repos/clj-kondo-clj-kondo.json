@@ -102,13 +102,6 @@
       "target_type": "repository"
     },
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "Dockerfile",
-      "source_repo": "clj-kondo/clj-kondo",
-      "target": "graalvm/graalvm-ce-builds",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci.yml",
       "source_repo": "clj-kondo/clj-kondo",
@@ -277,7 +270,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-29T21:58:44.575508+00:00",
+  "fetched_at": "2026-04-30T04:05:29.808095+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -335,11 +328,6 @@
       "edge_type": "explicit-github-link",
       "full_name": "xsc/rewrite-clj",
       "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "graalvm/graalvm-ce-builds",
-      "source_file": "Dockerfile"
     }
   ],
   "terms": [

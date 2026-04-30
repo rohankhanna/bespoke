@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "vsag is a vector indexing library used for similarity search."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Daily Build & Test"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Daily Build & Test"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18064,
+      "status": "candidate",
+      "text": "grind"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18028,
+      "status": "candidate",
+      "text": "constitutional"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18028,
+      "status": "candidate",
+      "text": "live"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18028,
+      "status": "candidate",
+      "text": "regimen"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17993,
+      "status": "candidate",
+      "text": "grinds"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Daily Build & Test",
+      "sense_id": "daily-build-test#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "daily-build-test",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "daily-build-test",
+  "observation_id": "79cdd980e6a0b98b",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-30T00:37:16.824464+00:00",
+  "observed_text": "Daily Build & Test",
+  "source_context_snippet": "Daily Build & Test",
+  "source_file": ".github/workflows/daily_test.yml",
+  "source_repo": "antgroup/vsag",
+  "source_repo_description": "vsag is a vector indexing library used for similarity search."
+}

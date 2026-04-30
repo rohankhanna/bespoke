@@ -50,6 +50,18 @@
       "source_repo": "belav/csharpier",
       "status": "candidate-context",
       "text": "Validate Pull Request"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "prometheus-community/windows_exporter",
+      "status": "candidate-context",
+      "text": "Prometheus exporter for Windows machines"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "prometheus-community/windows_exporter",
+      "status": "candidate-context",
+      "text": "Validate Pull Request"
     }
   ],
   "candidate_glosses": [
@@ -74,6 +86,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "belav/csharpier",
+      "status": "candidate",
+      "text": "Validate Pull Request"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "prometheus-community/windows_exporter",
       "status": "candidate",
       "text": "Validate Pull Request"
     }
@@ -197,11 +215,17 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": ".github/workflows/ValidatePullRequest.yml",
       "source_repo": "belav/csharpier"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/pr-check.yaml",
+      "source_repo": "prometheus-community/windows_exporter"
     }
   ],
   "first_seen_at": "2026-04-18T11:56:18.570627+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

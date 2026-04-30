@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "nl-tests"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "GEM-benchmark/NL-Augmenter",
+      "status": "candidate-context",
+      "text": "NL-Augmenter \ud83e\udd8e \u2192 \ud83d\udc0d A Collaborative Repository of Natural Language Transformations "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "GEM-benchmark/NL-Augmenter",
+      "status": "candidate-context",
+      "text": "nl-tests"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "GEM-benchmark/NL-Augmenter",
+      "status": "candidate",
+      "text": "nl-tests"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "nl-tests",
+  "concept_id": "nl-tests",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/nl-action.yml",
+      "source_repo": "GEM-benchmark/NL-Augmenter"
+    }
+  ],
+  "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "nl-tests",
+      "sense_id": "nl-tests#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

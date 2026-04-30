@@ -1,0 +1,233 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gh_pages_docs_v2.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gh_pages_docs_v2.yml"
+    },
+    {
+      "component": "actions/configure-pages@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gh_pages_docs_v2.yml"
+    },
+    {
+      "component": "actions/upload-pages-artifact@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gh_pages_docs_v2.yml"
+    },
+    {
+      "component": "actions/deploy-pages@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gh_pages_docs_v2.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/unit_tests.yml"
+    },
+    {
+      "component": "ruby/setup-ruby@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/unit_tests.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "cloudfoundry/capi-release",
+      "target": "cloudfoundry/cc-uploader",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "cloudfoundry/capi-release",
+      "target": "cloudfoundry/diego-release",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "cloudfoundry/capi-release",
+      "target": "cloudfoundry/diego-design-notes",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "cloudfoundry/capi-release",
+      "target": "cloudfoundry/cf-acceptance-tests",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gh_pages_docs_v2.yml",
+      "source_repo": "cloudfoundry/capi-release",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gh_pages_docs_v2.yml",
+      "source_repo": "cloudfoundry/capi-release",
+      "target": "actions/configure-pages@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gh_pages_docs_v2.yml",
+      "source_repo": "cloudfoundry/capi-release",
+      "target": "actions/upload-pages-artifact@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gh_pages_docs_v2.yml",
+      "source_repo": "cloudfoundry/capi-release",
+      "target": "actions/deploy-pages@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/gh_pages_docs_v2.yml",
+      "source_repo": "cloudfoundry/capi-release",
+      "target": "Deploy V2 Docs to GitHub Pages",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/unit_tests.yml",
+      "source_repo": "cloudfoundry/capi-release",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/unit_tests.yml",
+      "source_repo": "cloudfoundry/capi-release",
+      "target": "ruby/setup-ruby@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/unit_tests.yml",
+      "source_repo": "cloudfoundry/capi-release",
+      "target": "Unit Tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cloudfoundry/capi-release",
+      "target": "bosh",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cloudfoundry/capi-release",
+      "target": "bosh-release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cloudfoundry/capi-release",
+      "target": "cloudfoundry",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T00:43:23.006833+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2122
+    },
+    {
+      "path": ".github/workflows/gh_pages_docs_v2.yml",
+      "size": 1520
+    },
+    {
+      "path": ".github/workflows/unit_tests.yml",
+      "size": 428
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "develop",
+    "description": "Bosh Release for Cloud Controller and friends",
+    "fork": false,
+    "full_name": "cloudfoundry/capi-release",
+    "html_url": "https://github.com/cloudfoundry/capi-release",
+    "language": "HTML",
+    "pushed_at": "2026-04-29T07:51:10Z",
+    "stargazers_count": 24,
+    "topics": [
+      "bosh",
+      "bosh-release",
+      "cloudfoundry"
+    ],
+    "updated_at": "2026-04-28T18:43:02Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cloudfoundry/cc-uploader",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cloudfoundry/cf-acceptance-tests",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cloudfoundry/diego-design-notes",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cloudfoundry/diego-release",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Deploy V2 Docs to GitHub Pages",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/gh_pages_docs_v2.yml",
+      "term": "Deploy V2 Docs to GitHub Pages"
+    },
+    {
+      "context_snippet": "Unit Tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/unit_tests.yml",
+      "term": "Unit Tests"
+    },
+    {
+      "context_snippet": "[slack.cloudfoundry.org](https://cloudfoundry.slack.com/messages/capi/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bosh"
+    },
+    {
+      "context_snippet": "[slack.cloudfoundry.org](https://cloudfoundry.slack.com/messages/capi/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bosh-release"
+    },
+    {
+      "context_snippet": "[slack.cloudfoundry.org](https://cloudfoundry.slack.com/messages/capi/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cloudfoundry"
+    }
+  ]
+}

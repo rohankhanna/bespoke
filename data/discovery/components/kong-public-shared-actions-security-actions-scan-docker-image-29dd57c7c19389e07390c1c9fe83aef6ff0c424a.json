@@ -1,0 +1,12 @@
+{
+  "component": "Kong/public-shared-actions/security-actions/scan-docker-image@29dd57c7c19389e07390c1c9fe83aef6ff0c424a",
+  "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release-build.yml",
+      "source_repo": "Kong/insomnia"
+    }
+  ]
+}

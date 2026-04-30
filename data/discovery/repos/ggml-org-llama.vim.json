@@ -1,0 +1,88 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ggml-org/llama.vim",
+      "target": "ggml-org/llama.vscode",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ggml-org/llama.vim",
+      "target": "developer-tool",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ggml-org/llama.vim",
+      "target": "llama",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ggml-org/llama.vim",
+      "target": "vim-plugin",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T01:52:13.668377+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5705
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Vim plugin for LLM-assisted code/text completion",
+    "fork": false,
+    "full_name": "ggml-org/llama.vim",
+    "html_url": "https://github.com/ggml-org/llama.vim",
+    "language": "Vim Script",
+    "pushed_at": "2026-04-02T07:52:33Z",
+    "stargazers_count": 1986,
+    "topics": [
+      "copilot",
+      "developer-tool",
+      "llama",
+      "llm",
+      "vim",
+      "vim-plugin"
+    ],
+    "updated_at": "2026-04-29T21:18:16Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ggml-org/llama.vscode",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Local LLM-assisted text completion.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "developer-tool"
+    },
+    {
+      "context_snippet": "Local LLM-assisted text completion.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "llama"
+    },
+    {
+      "context_snippet": "Local LLM-assisted text completion.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vim-plugin"
+    }
+  ]
+}

@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "\ud83e\udd17 Diffusers: State-of-the-art diffusion models for image and audio generation in PyTorch"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Delete dev documentation"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Delete dev documentation"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22392,
+      "status": "candidate",
+      "text": "method"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18461,
+      "status": "candidate",
+      "text": "low"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15078,
+      "status": "candidate",
+      "text": "observant"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14375,
+      "status": "candidate",
+      "text": "cdm"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14375,
+      "status": "candidate",
+      "text": "combativeness"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Delete dev documentation",
+      "sense_id": "delete-dev-documentation#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "delete-dev-documentation",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "delete-dev-documentation",
+  "observation_id": "efe3c39a93515d34",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-30T00:37:16.824464+00:00",
+  "observed_text": "Delete dev documentation",
+  "source_context_snippet": "Delete dev documentation",
+  "source_file": ".github/workflows/delete_doc_comment.yml",
+  "source_repo": "HimariO/diffusers-t2i-adapter",
+  "source_repo_description": "\ud83e\udd17 Diffusers: State-of-the-art diffusion models for image and audio generation in PyTorch"
+}

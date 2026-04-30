@@ -1,0 +1,124 @@
+{
+  "components": [
+    {
+      "component": "purcell/setup-emacs@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "justbur/emacs-which-key",
+      "target": "purcell/setup-emacs@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "justbur/emacs-which-key",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "justbur/emacs-which-key",
+      "target": "which-key-test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "justbur/emacs-which-key",
+      "target": "emacs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "justbur/emacs-which-key",
+      "target": "emacs-keybindings",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "justbur/emacs-which-key",
+      "target": "emacs-lisp",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "justbur/emacs-which-key",
+      "target": "emacs-packages",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T04:08:10.485008+00:00",
+  "fetched_files": [
+    {
+      "path": ".github/workflows/test.yml",
+      "size": 703
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "master",
+    "description": "Emacs package that displays available keybindings in popup",
+    "fork": false,
+    "full_name": "justbur/emacs-which-key",
+    "html_url": "https://github.com/justbur/emacs-which-key",
+    "language": "Emacs Lisp",
+    "pushed_at": "2024-06-25T15:22:26Z",
+    "stargazers_count": 1790,
+    "topics": [
+      "emacs",
+      "emacs-keybindings",
+      "emacs-lisp",
+      "emacs-packages"
+    ],
+    "updated_at": "2026-04-29T05:05:20Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "which-key-test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "term": "which-key-test"
+    },
+    {
+      "context_snippet": "which-key-test",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "emacs"
+    },
+    {
+      "context_snippet": "which-key-test",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "emacs-keybindings"
+    },
+    {
+      "context_snippet": "which-key-test",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "emacs-lisp"
+    },
+    {
+      "context_snippet": "which-key-test",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "emacs-packages"
+    }
+  ]
+}

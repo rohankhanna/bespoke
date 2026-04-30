@@ -1,0 +1,12 @@
+{
+  "component": "ruby/setup-ruby@d3e3bd032ad2222a8ac878bbccf2aba78864e134",
+  "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/precompiled.yml",
+      "source_repo": "flavorjones/ruby-c-extensions-explained"
+    }
+  ]
+}

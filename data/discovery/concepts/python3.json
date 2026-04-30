@@ -481,6 +481,78 @@
       "source_repo": "PyCQA/flake8",
       "status": "candidate-context",
       "text": ".. image:: https://github.com/PyCQA/flake8/workflows/main/badge.svg"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "wemake-services/wemake-python-styleguide",
+      "status": "candidate-context",
+      "text": "The strictest and most opinionated python linter ever!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "wemake-services/wemake-python-styleguide",
+      "status": "candidate-context",
+      "text": "[![wemake.services](https://img.shields.io/badge/%20-wemake.services-green.svg?label=%20&logo=data%3Aimage%2Fpng%3Bbase64%2CiVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAABGdBTUEAALGPC%2FxhBQAAAAFzUkdCAK7OHOkAAAAbUExURQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP%2F%2F%2F5TvxDIAAAAIdFJOUwA\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "RustPython/RustPython",
+      "status": "candidate-context",
+      "text": "A Python Interpreter written in Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "RustPython/RustPython",
+      "status": "candidate-context",
+      "text": "<img src=\"./logo.png\" width=\"125\" height=\"125\" align=\"right\" />"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ahawker/ulid",
+      "status": "candidate-context",
+      "text": "Universally Unique Lexicographically Sortable Identifier (ULID) in Python 3"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ahawker/ulid",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://travis-ci.org/ahawker/ulid.svg?branch=master)](https://travis-ci.org/ahawker/ulid)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "AnonymouX47/term-image",
+      "status": "candidate-context",
+      "text": "Display images in the terminal with python"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AnonymouX47/term-image",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "RealFerdinandDeSaussure/base16-builder-python",
+      "status": "candidate-context",
+      "text": "A base16 colorscheme builder for Python"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "RealFerdinandDeSaussure/base16-builder-python",
+      "status": "candidate-context",
+      "text": ".. image:: https://travis-ci.org/InspectorMustache/base16-builder-python.svg?branch=master"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "happyleavesaoc/python-snapcast",
+      "status": "candidate-context",
+      "text": "Python API for controlling Snapcast, a multi-room synchronous audio solution."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "happyleavesaoc/python-snapcast",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://travis-ci.org/happyleavesaoc/python-snapcast.svg?branch=master)](https://travis-ci.org/happyleavesaoc/python-snapcast) [![PyPI version](https://badge.fury.io/py/snapcast.svg)](https://badge.fury.io/py/snapcast)"
     }
   ],
   "candidate_glosses": [
@@ -717,6 +789,42 @@
       "source_repo": "PyCQA/flake8",
       "status": "candidate",
       "text": ".. image:: https://github.com/PyCQA/flake8/workflows/main/badge.svg"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "wemake-services/wemake-python-styleguide",
+      "status": "candidate",
+      "text": "[![wemake.services](https://img.shields.io/badge/%20-wemake.services-green.svg?label=%20&logo=data%3Aimage%2Fpng%3Bbase64%2CiVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAABGdBTUEAALGPC%2FxhBQAAAAFzUkdCAK7OHOkAAAAbUExURQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP%2F%2F%2F5TvxDIAAAAIdFJOUwA\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "RustPython/RustPython",
+      "status": "candidate",
+      "text": "<img src=\"./logo.png\" width=\"125\" height=\"125\" align=\"right\" />"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ahawker/ulid",
+      "status": "candidate",
+      "text": "[![Build Status](https://travis-ci.org/ahawker/ulid.svg?branch=master)](https://travis-ci.org/ahawker/ulid)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AnonymouX47/term-image",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "RealFerdinandDeSaussure/base16-builder-python",
+      "status": "candidate",
+      "text": ".. image:: https://travis-ci.org/InspectorMustache/base16-builder-python.svg?branch=master"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "happyleavesaoc/python-snapcast",
+      "status": "candidate",
+      "text": "[![Build Status](https://travis-ci.org/happyleavesaoc/python-snapcast.svg?branch=master)](https://travis-ci.org/happyleavesaoc/python-snapcast) [![PyPI version](https://badge.fury.io/py/snapcast.svg)](https://badge.fury.io/py/snapcast)"
     }
   ],
   "candidate_related_terms": [],
@@ -1012,11 +1120,83 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "PyCQA/flake8"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "wemake-services/wemake-python-styleguide"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "astral-sh/ruff"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "RustPython/RustPython"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "ahawker/ulid"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "AnonymouX47/term-image"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "PyCQA/isort"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "fastapi/fastapi"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "zhayujie/CowAgent"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "RealFerdinandDeSaussure/base16-builder-python"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "happyleavesaoc/python-snapcast"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "python-websockets/websockets"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "fastapi/typer"
     }
   ],
   "first_seen_at": "2026-04-18T12:46:59.510459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

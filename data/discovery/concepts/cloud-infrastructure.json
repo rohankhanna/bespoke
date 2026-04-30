@@ -19,6 +19,18 @@
       "source_repo": "aws/aws-cdk",
       "status": "candidate-context",
       "text": "![Build Status](https://codebuild.us-east-1.amazonaws.com/badges?uuid=eyJlbmNyeXB0ZWREYXRhIjoiSy9rWmVENzRDbXBoVlhYaHBsNks4OGJDRXFtV1IySmhCVjJoaytDU2dtVWhhVys3NS9Odk5DbC9lR2JUTkRvSWlHSXZrNVhYQ3ZsaUJFY3o4OERQY1pnPSIsIml2UGFyYW1ldGVyU3BlYyI6IlB3ODEyRW9KdU0yaEp6NDkiLCJtYXRlcmlhbFNld\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aws/aws-cdk-rfcs",
+      "status": "candidate-context",
+      "text": "RFCs for the AWS CDK"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aws/aws-cdk-rfcs",
+      "status": "candidate-context",
+      "text": "This repo is a place to propose and track major upcoming changes to [AWS CDK], [jsii], and"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "aws/aws-cdk",
       "status": "candidate",
       "text": "![Build Status](https://codebuild.us-east-1.amazonaws.com/badges?uuid=eyJlbmNyeXB0ZWREYXRhIjoiSy9rWmVENzRDbXBoVlhYaHBsNks4OGJDRXFtV1IySmhCVjJoaytDU2dtVWhhVys3NS9Odk5DbC9lR2JUTkRvSWlHSXZrNVhYQ3ZsaUJFY3o4OERQY1pnPSIsIml2UGFyYW1ldGVyU3BlYyI6IlB3ODEyRW9KdU0yaEp6NDkiLCJtYXRlcmlhbFNld\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aws/aws-cdk-rfcs",
+      "status": "candidate",
+      "text": "This repo is a place to propose and track major upcoming changes to [AWS CDK], [jsii], and"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "aws/aws-cdk"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "aws/aws-cdk-rfcs"
     }
   ],
   "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

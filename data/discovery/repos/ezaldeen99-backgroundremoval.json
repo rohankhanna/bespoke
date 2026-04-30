@@ -1,0 +1,113 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Ezaldeen99/BackgroundRemoval",
+      "target": "smartytoe/image-segmentation",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Ezaldeen99/BackgroundRemoval",
+      "target": "background-subtraction",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Ezaldeen99/BackgroundRemoval",
+      "target": "backgroundremover",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Ezaldeen99/BackgroundRemoval",
+      "target": "coreml",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Ezaldeen99/BackgroundRemoval",
+      "target": "image-processing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Ezaldeen99/BackgroundRemoval",
+      "target": "swift",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T03:48:15.733262+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5016
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Background Removal written with swift using u2net model ",
+    "fork": false,
+    "full_name": "Ezaldeen99/BackgroundRemoval",
+    "html_url": "https://github.com/Ezaldeen99/BackgroundRemoval",
+    "language": "Swift",
+    "pushed_at": "2023-12-21T10:00:22Z",
+    "stargazers_count": 275,
+    "topics": [
+      "background-subtraction",
+      "backgroundremover",
+      "coreml",
+      "image-processing",
+      "swift"
+    ],
+    "updated_at": "2026-04-22T02:18:12Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "smartytoe/image-segmentation",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<img src=\"https://github.com/Ezaldeen99/BackgroundRemoval/blob/main/ScreenShots/results.jpg\" alt=\"Removal results\" align=\"center\" />",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "background-subtraction"
+    },
+    {
+      "context_snippet": "<img src=\"https://github.com/Ezaldeen99/BackgroundRemoval/blob/main/ScreenShots/results.jpg\" alt=\"Removal results\" align=\"center\" />",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "backgroundremover"
+    },
+    {
+      "context_snippet": "<img src=\"https://github.com/Ezaldeen99/BackgroundRemoval/blob/main/ScreenShots/results.jpg\" alt=\"Removal results\" align=\"center\" />",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "coreml"
+    },
+    {
+      "context_snippet": "<img src=\"https://github.com/Ezaldeen99/BackgroundRemoval/blob/main/ScreenShots/results.jpg\" alt=\"Removal results\" align=\"center\" />",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "image-processing"
+    },
+    {
+      "context_snippet": "<img src=\"https://github.com/Ezaldeen99/BackgroundRemoval/blob/main/ScreenShots/results.jpg\" alt=\"Removal results\" align=\"center\" />",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "swift"
+    }
+  ]
+}

@@ -1,0 +1,447 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_and_test.yml"
+    },
+    {
+      "component": "repolevedavaj/install-nsis@v1.1.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_and_test.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_and_test.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_and_test.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_and_test.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_bazel.yml"
+    },
+    {
+      "component": "google/oss-fuzz/infra/cifuzz/actions/build_fuzzers@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cifuzz.yml"
+    },
+    {
+      "component": "google/oss-fuzz/infra/cifuzz/actions/run_fuzzers@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cifuzz.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cifuzz.yml"
+    },
+    {
+      "component": "github/codeql-action/upload-sarif@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cifuzz.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "github/codeql-action/init@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "github/codeql-action/analyze@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/doxygen-gh-pages.yml"
+    },
+    {
+      "component": "dawidd6/action-download-artifact@v21",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/submit_coverage.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "CrowCpp/Crow",
+      "target": "ipkn/crow-benchmark",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "CrowCpp/Crow",
+      "target": "guteksan/rest-cpp-benchmark",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "CrowCpp/Crow",
+      "target": "bartgrantham/qs_parse",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "CrowCpp/Crow",
+      "target": "mohaps/tinysha1",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_and_test.yml",
+      "source_repo": "CrowCpp/Crow",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_and_test.yml",
+      "source_repo": "CrowCpp/Crow",
+      "target": "repolevedavaj/install-nsis@v1.1.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_and_test.yml",
+      "source_repo": "CrowCpp/Crow",
+      "target": "actions/upload-artifact@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build_and_test.yml",
+      "source_repo": "CrowCpp/Crow",
+      "target": "Build and test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_bazel.yml",
+      "source_repo": "CrowCpp/Crow",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build_bazel.yml",
+      "source_repo": "CrowCpp/Crow",
+      "target": "bazel - Build and test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cifuzz.yml",
+      "source_repo": "CrowCpp/Crow",
+      "target": "google/oss-fuzz/infra/cifuzz/actions/build_fuzzers@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cifuzz.yml",
+      "source_repo": "CrowCpp/Crow",
+      "target": "google/oss-fuzz/infra/cifuzz/actions/run_fuzzers@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cifuzz.yml",
+      "source_repo": "CrowCpp/Crow",
+      "target": "actions/upload-artifact@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cifuzz.yml",
+      "source_repo": "CrowCpp/Crow",
+      "target": "github/codeql-action/upload-sarif@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cifuzz.yml",
+      "source_repo": "CrowCpp/Crow",
+      "target": "CIFuzz",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "CrowCpp/Crow",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "CrowCpp/Crow",
+      "target": "github/codeql-action/init@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "CrowCpp/Crow",
+      "target": "github/codeql-action/analyze@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "CrowCpp/Crow",
+      "target": "CodeQL",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/doxygen-gh-pages.yml",
+      "source_repo": "CrowCpp/Crow",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/doxygen-gh-pages.yml",
+      "source_repo": "CrowCpp/Crow",
+      "target": "Deploy Doxygen results to Github Pages",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/submit_coverage.yml",
+      "source_repo": "CrowCpp/Crow",
+      "target": "dawidd6/action-download-artifact@v21",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/submit_coverage.yml",
+      "source_repo": "CrowCpp/Crow",
+      "target": "Submit coverage",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "CrowCpp/Crow",
+      "target": "crow",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "CrowCpp/Crow",
+      "target": "framework",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "CrowCpp/Crow",
+      "target": "header-only",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "CrowCpp/Crow",
+      "target": "http",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "CrowCpp/Crow",
+      "target": "http-server",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "CrowCpp/Crow",
+      "target": "webserver",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "CrowCpp/Crow",
+      "target": "websocket",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T00:45:56.017577+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9439
+    },
+    {
+      "path": ".github/workflows/build_and_test.yml",
+      "size": 7438
+    },
+    {
+      "path": ".github/workflows/build_bazel.yml",
+      "size": 1476
+    },
+    {
+      "path": ".github/workflows/cifuzz.yml",
+      "size": 1066
+    },
+    {
+      "path": ".github/workflows/codeql.yml",
+      "size": 4706
+    },
+    {
+      "path": ".github/workflows/doxygen-gh-pages.yml",
+      "size": 1365
+    },
+    {
+      "path": ".github/workflows/submit_coverage.yml",
+      "size": 1206
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A Fast and Easy to use microframework for the web.",
+    "fork": false,
+    "full_name": "CrowCpp/Crow",
+    "html_url": "https://github.com/CrowCpp/Crow",
+    "language": "C++",
+    "pushed_at": "2026-04-28T19:08:16Z",
+    "stargazers_count": 4814,
+    "topics": [
+      "cpp",
+      "crow",
+      "framework",
+      "header-only",
+      "http",
+      "http-server",
+      "webserver",
+      "websocket"
+    ],
+    "updated_at": "2026-04-29T05:39:35Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "bartgrantham/qs_parse",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "guteksan/rest-cpp-benchmark",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ipkn/crow-benchmark",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mohaps/tinysha1",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Build and test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build_and_test.yml",
+      "term": "Build and test"
+    },
+    {
+      "context_snippet": "bazel - Build and test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build_bazel.yml",
+      "term": "bazel - Build and test"
+    },
+    {
+      "context_snippet": "CIFuzz",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cifuzz.yml",
+      "term": "CIFuzz"
+    },
+    {
+      "context_snippet": "\"CodeQL\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql.yml",
+      "term": "CodeQL"
+    },
+    {
+      "context_snippet": "Deploy Doxygen results to Github Pages",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/doxygen-gh-pages.yml",
+      "term": "Deploy Doxygen results to Github Pages"
+    },
+    {
+      "context_snippet": "Submit coverage",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/submit_coverage.yml",
+      "term": "Submit coverage"
+    },
+    {
+      "context_snippet": "<p align=\"center\"><img src=\"https://raw.githubusercontent.com/CrowCpp/Crow/master/docs/assets/crowlogo_dual_color.svg\" width=600></p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "crow"
+    },
+    {
+      "context_snippet": "<p align=\"center\"><img src=\"https://raw.githubusercontent.com/CrowCpp/Crow/master/docs/assets/crowlogo_dual_color.svg\" width=600></p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "framework"
+    },
+    {
+      "context_snippet": "<p align=\"center\"><img src=\"https://raw.githubusercontent.com/CrowCpp/Crow/master/docs/assets/crowlogo_dual_color.svg\" width=600></p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "header-only"
+    },
+    {
+      "context_snippet": "<p align=\"center\"><img src=\"https://raw.githubusercontent.com/CrowCpp/Crow/master/docs/assets/crowlogo_dual_color.svg\" width=600></p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "http"
+    },
+    {
+      "context_snippet": "<p align=\"center\"><img src=\"https://raw.githubusercontent.com/CrowCpp/Crow/master/docs/assets/crowlogo_dual_color.svg\" width=600></p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "http-server"
+    },
+    {
+      "context_snippet": "<p align=\"center\"><img src=\"https://raw.githubusercontent.com/CrowCpp/Crow/master/docs/assets/crowlogo_dual_color.svg\" width=600></p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "webserver"
+    },
+    {
+      "context_snippet": "<p align=\"center\"><img src=\"https://raw.githubusercontent.com/CrowCpp/Crow/master/docs/assets/crowlogo_dual_color.svg\" width=600></p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "websocket"
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "DengPingFan/Polyp-PVT",
+      "target": "dengpingfan/pranet",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "DengPingFan/Polyp-PVT",
+      "target": "plemeri/uacanet",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "DengPingFan/Polyp-PVT",
+      "target": "tegusi/eagrnet",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "DengPingFan/Polyp-PVT",
+      "target": "james128333/hardnet-mseg",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T05:15:15.454135+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5429
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Polyp-PVT: Polyp Segmentation with Pyramid Vision Transformers, AIR 2023.",
+    "fork": false,
+    "full_name": "DengPingFan/Polyp-PVT",
+    "html_url": "https://github.com/DengPingFan/Polyp-PVT",
+    "language": "Python",
+    "pushed_at": "2023-11-01T06:41:31Z",
+    "stargazers_count": 256,
+    "topics": [],
+    "updated_at": "2026-04-19T01:57:03Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dengpingfan/pranet",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "james128333/hardnet-mseg",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "plemeri/uacanet",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "tegusi/eagrnet",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

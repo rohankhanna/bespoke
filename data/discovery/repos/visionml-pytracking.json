@@ -1,0 +1,135 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "visionml/pytracking",
+      "target": "google-research-datasets/lagot",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "visionml/pytracking",
+      "target": "martin-danelljan/eco",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "visionml/pytracking",
+      "target": "pblatter/ettrack",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "visionml/pytracking",
+      "target": "vacancy/preciseroipooling",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "visionml/pytracking",
+      "target": "computer-vision",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "visionml/pytracking",
+      "target": "machine-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "visionml/pytracking",
+      "target": "tracking",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "visionml/pytracking",
+      "target": "visual-tracking",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T01:57:08.858648+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 13111
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Visual tracking library based on PyTorch.",
+    "fork": false,
+    "full_name": "visionml/pytracking",
+    "html_url": "https://github.com/visionml/pytracking",
+    "language": "Python",
+    "pushed_at": "2024-08-08T20:25:00Z",
+    "stargazers_count": 3498,
+    "topics": [
+      "computer-vision",
+      "machine-learning",
+      "tracking",
+      "visual-tracking"
+    ],
+    "updated_at": "2026-04-29T08:07:48Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "google-research-datasets/lagot",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "martin-danelljan/eco",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "pblatter/ettrack",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "vacancy/preciseroipooling",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "A general python framework for visual object tracking and video object segmentation, based on **PyTorch**.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "computer-vision"
+    },
+    {
+      "context_snippet": "A general python framework for visual object tracking and video object segmentation, based on **PyTorch**.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "machine-learning"
+    },
+    {
+      "context_snippet": "A general python framework for visual object tracking and video object segmentation, based on **PyTorch**.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tracking"
+    },
+    {
+      "context_snippet": "A general python framework for visual object tracking and video object segmentation, based on **PyTorch**.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "visual-tracking"
+    }
+  ]
+}

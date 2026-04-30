@@ -1,0 +1,130 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml"
+    },
+    {
+      "component": "julia-actions/setup-julia@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml"
+    },
+    {
+      "component": "julia-actions/cache@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml"
+    },
+    {
+      "component": "julia-actions/julia-buildpkg@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml"
+    },
+    {
+      "component": "julia-actions/julia-runtest@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hexaeder/MCPRepl.jl",
+      "target": "kahliburke/mcprepl.jl",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hexaeder/MCPRepl.jl",
+      "target": "juliasmlm/modelcontextprotocol.jl",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hexaeder/MCPRepl.jl",
+      "target": "michaelhatherly/replicant.jl",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml",
+      "source_repo": "hexaeder/MCPRepl.jl",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml",
+      "source_repo": "hexaeder/MCPRepl.jl",
+      "target": "julia-actions/setup-julia@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml",
+      "source_repo": "hexaeder/MCPRepl.jl",
+      "target": "julia-actions/cache@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml",
+      "source_repo": "hexaeder/MCPRepl.jl",
+      "target": "julia-actions/julia-buildpkg@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml",
+      "source_repo": "hexaeder/MCPRepl.jl",
+      "target": "julia-actions/julia-runtest@v1",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-04-30T04:12:54.526221+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2797
+    },
+    {
+      "path": ".github/workflows/CI.yml",
+      "size": 882
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Expose your repl via MCP!",
+    "fork": false,
+    "full_name": "hexaeder/MCPRepl.jl",
+    "html_url": "https://github.com/hexaeder/MCPRepl.jl",
+    "language": "Julia",
+    "pushed_at": "2026-04-21T08:17:52Z",
+    "stargazers_count": 24,
+    "topics": [],
+    "updated_at": "2026-04-21T08:17:56Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "juliasmlm/modelcontextprotocol.jl",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "kahliburke/mcprepl.jl",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "michaelhatherly/replicant.jl",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

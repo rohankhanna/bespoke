@@ -31,6 +31,18 @@
       "source_repo": "speced/respec",
       "status": "candidate-context",
       "text": "[![Build Status](https://github.com/speced/respec/workflows/Node%20CI/badge.svg?branch=develop)](https://github.com/speced/respec/actions?query=workflow%3A%22Node+CI%22+branch%3Adevelop)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "whatwg/streams",
+      "status": "candidate-context",
+      "text": "Streams Standard"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "whatwg/streams",
+      "status": "candidate-context",
+      "text": "This repository hosts the [Streams Standard](https://streams.spec.whatwg.org/)."
     }
   ],
   "candidate_glosses": [
@@ -45,6 +57,12 @@
       "source_repo": "speced/respec",
       "status": "candidate",
       "text": "[![Build Status](https://github.com/speced/respec/workflows/Node%20CI/badge.svg?branch=develop)](https://github.com/speced/respec/actions?query=workflow%3A%22Node+CI%22+branch%3Adevelop)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "whatwg/streams",
+      "status": "candidate",
+      "text": "This repository hosts the [Streams Standard](https://streams.spec.whatwg.org/)."
     }
   ],
   "candidate_related_terms": [],
@@ -70,11 +88,23 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "web-platform-tests/wpt"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "whatwg/streams"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "web-platform-tests/wpt"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

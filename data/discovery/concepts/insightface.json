@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "insightface"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "derronqi/yolov8-face",
+      "status": "candidate-context",
+      "text": "yolov8 face detection with landmark"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "derronqi/yolov8-face",
+      "status": "candidate-context",
+      "text": "**2024.04** [ncnn-android-yolov8-face](https://github.com/derronqi/ncnn-android-yolov8-face) (\ud83d\udd25\ud83d\udd25\ud83d\udd25\u2191)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "derronqi/yolov8-face",
+      "status": "candidate",
+      "text": "**2024.04** [ncnn-android-yolov8-face](https://github.com/derronqi/ncnn-android-yolov8-face) (\ud83d\udd25\ud83d\udd25\ud83d\udd25\u2191)"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "insightface",
+  "concept_id": "insightface",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "derronqi/yolov8-face"
+    }
+  ],
+  "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "insightface",
+      "sense_id": "insightface#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

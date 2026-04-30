@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "dnscrypt-wrapper"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cofyc/dnscrypt-wrapper",
+      "status": "candidate-context",
+      "text": "This is dnscrypt wrapper (server-side dnscrypt proxy), which helps to add dnscrypt support to any name resolver."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cofyc/dnscrypt-wrapper",
+      "status": "candidate-context",
+      "text": "dnscrypt-wrapper - A server-side dnscrypt proxy."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cofyc/dnscrypt-wrapper",
+      "status": "candidate",
+      "text": "dnscrypt-wrapper - A server-side dnscrypt proxy."
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "dnscrypt-wrapper",
+  "concept_id": "dnscrypt-wrapper",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "cofyc/dnscrypt-wrapper"
+    }
+  ],
+  "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "dnscrypt-wrapper",
+      "sense_id": "dnscrypt-wrapper#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

@@ -1,0 +1,397 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/backend.yml"
+    },
+    {
+      "component": "apache/skywalking-eyes@985866ce7e324454f61e22eb2db2e998db09d6f3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/backend.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/backend.yml"
+    },
+    {
+      "component": "actions/setup-java@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/backend.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/backend.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/backend.yml"
+    },
+    {
+      "component": "actions/setup-java@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/backend.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/backend.yml"
+    },
+    {
+      "component": "actions/setup-java@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/backend.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/backend.yml"
+    },
+    {
+      "component": "actions/setup-java@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/backend.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/backend.yml"
+    },
+    {
+      "component": "actions/setup-java@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/backend.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/code-analysys.yml"
+    },
+    {
+      "component": "actions/setup-java@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/code-analysys.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yaml"
+    },
+    {
+      "component": "actions/setup-java@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yaml"
+    },
+    {
+      "component": "actions/cache@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yaml"
+    },
+    {
+      "component": "github/codeql-action/init@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yaml"
+    },
+    {
+      "component": "github/codeql-action/autobuild@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yaml"
+    },
+    {
+      "component": "github/codeql-action/analyze@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/backend.yml",
+      "source_repo": "apache/seatunnel-web",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/backend.yml",
+      "source_repo": "apache/seatunnel-web",
+      "target": "apache/skywalking-eyes@985866ce7e324454f61e22eb2db2e998db09d6f3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/backend.yml",
+      "source_repo": "apache/seatunnel-web",
+      "target": "actions/setup-java@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/backend.yml",
+      "source_repo": "apache/seatunnel-web",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/backend.yml",
+      "source_repo": "apache/seatunnel-web",
+      "target": "Backend",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/code-analysys.yml",
+      "source_repo": "apache/seatunnel-web",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/code-analysys.yml",
+      "source_repo": "apache/seatunnel-web",
+      "target": "actions/setup-java@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/code-analysys.yml",
+      "source_repo": "apache/seatunnel-web",
+      "target": "SonarCloud",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yaml",
+      "source_repo": "apache/seatunnel-web",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yaml",
+      "source_repo": "apache/seatunnel-web",
+      "target": "actions/setup-java@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yaml",
+      "source_repo": "apache/seatunnel-web",
+      "target": "actions/cache@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yaml",
+      "source_repo": "apache/seatunnel-web",
+      "target": "github/codeql-action/init@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yaml",
+      "source_repo": "apache/seatunnel-web",
+      "target": "github/codeql-action/autobuild@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yaml",
+      "source_repo": "apache/seatunnel-web",
+      "target": "github/codeql-action/analyze@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql.yaml",
+      "source_repo": "apache/seatunnel-web",
+      "target": "CodeQL",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "apache/seatunnel-web",
+      "target": "apache",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "apache/seatunnel-web",
+      "target": "data-integration",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "apache/seatunnel-web",
+      "target": "data-pipeline",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "apache/seatunnel-web",
+      "target": "etl-framework",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "apache/seatunnel-web",
+      "target": "high-performance",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "apache/seatunnel-web",
+      "target": "offline",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "apache/seatunnel-web",
+      "target": "real-time",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "apache/seatunnel-web",
+      "target": "seatunnel",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "apache/seatunnel-web",
+      "target": "sql-engine",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T03:46:48.232584+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 14663
+    },
+    {
+      "path": ".github/workflows/backend.yml",
+      "size": 5711
+    },
+    {
+      "path": ".github/workflows/code-analysys.yml",
+      "size": 1430
+    },
+    {
+      "path": ".github/workflows/codeql.yaml",
+      "size": 2186
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "SeaTunnel is a distributed, high-performance data integration platform for the synchronization and transformation of massive data (offline & real-time).",
+    "fork": false,
+    "full_name": "apache/seatunnel-web",
+    "html_url": "https://github.com/apache/seatunnel-web",
+    "language": "Java",
+    "pushed_at": "2026-01-22T18:17:21Z",
+    "stargazers_count": 827,
+    "topics": [
+      "apache",
+      "data-integration",
+      "data-pipeline",
+      "etl-framework",
+      "high-performance",
+      "offline",
+      "real-time",
+      "seatunnel",
+      "sql-engine"
+    ],
+    "updated_at": "2026-04-27T01:17:10Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Backend",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/backend.yml",
+      "term": "Backend"
+    },
+    {
+      "context_snippet": "SonarCloud",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/code-analysys.yml",
+      "term": "SonarCloud"
+    },
+    {
+      "context_snippet": "\"CodeQL\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql.yaml",
+      "term": "CodeQL"
+    },
+    {
+      "context_snippet": "<img src=\"https://seatunnel.apache.org/image/logo.png\" alt=\"seatunnel logo\" height=\"200px\" align=\"right\" />",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "apache"
+    },
+    {
+      "context_snippet": "<img src=\"https://seatunnel.apache.org/image/logo.png\" alt=\"seatunnel logo\" height=\"200px\" align=\"right\" />",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "data-integration"
+    },
+    {
+      "context_snippet": "<img src=\"https://seatunnel.apache.org/image/logo.png\" alt=\"seatunnel logo\" height=\"200px\" align=\"right\" />",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "data-pipeline"
+    },
+    {
+      "context_snippet": "<img src=\"https://seatunnel.apache.org/image/logo.png\" alt=\"seatunnel logo\" height=\"200px\" align=\"right\" />",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "etl-framework"
+    },
+    {
+      "context_snippet": "<img src=\"https://seatunnel.apache.org/image/logo.png\" alt=\"seatunnel logo\" height=\"200px\" align=\"right\" />",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "high-performance"
+    },
+    {
+      "context_snippet": "<img src=\"https://seatunnel.apache.org/image/logo.png\" alt=\"seatunnel logo\" height=\"200px\" align=\"right\" />",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "offline"
+    },
+    {
+      "context_snippet": "<img src=\"https://seatunnel.apache.org/image/logo.png\" alt=\"seatunnel logo\" height=\"200px\" align=\"right\" />",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "real-time"
+    },
+    {
+      "context_snippet": "<img src=\"https://seatunnel.apache.org/image/logo.png\" alt=\"seatunnel logo\" height=\"200px\" align=\"right\" />",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "seatunnel"
+    },
+    {
+      "context_snippet": "<img src=\"https://seatunnel.apache.org/image/logo.png\" alt=\"seatunnel logo\" height=\"200px\" align=\"right\" />",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "sql-engine"
+    }
+  ]
+}

@@ -11,14 +11,14 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "QwenLM/Qwen",
-      "target": "qwenlm/qwen-agent",
+      "target": "qwenlm/qwen2",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "QwenLM/Qwen",
-      "target": "openvinotoolkit/openvino_notebooks",
+      "target": "qwenlm/qwen.cpp",
       "target_type": "repository"
     },
     {
@@ -85,7 +85,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-23T06:43:31.871547+00:00",
+  "fetched_at": "2026-04-30T02:03:59.898713+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -110,7 +110,7 @@
     "html_url": "https://github.com/QwenLM/Qwen",
     "language": "Python",
     "pushed_at": "2026-03-05T13:55:17Z",
-    "stargazers_count": 21054,
+    "stargazers_count": 21096,
     "topics": [
       "chinese",
       "flash-attention",
@@ -119,7 +119,7 @@
       "natural-language-processing",
       "pretrained-models"
     ],
-    "updated_at": "2026-04-23T06:28:00Z"
+    "updated_at": "2026-04-30T01:51:58Z"
   },
   "repo_links": [
     {
@@ -129,17 +129,17 @@
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "openvinotoolkit/openvino_notebooks",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
       "full_name": "panqiwei/autogptq",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "qwenlm/qwen-agent",
+      "full_name": "qwenlm/qwen.cpp",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "qwenlm/qwen2",
       "source_file": "README.md"
     }
   ],

@@ -1,6 +1,7 @@
 {
   "aliases": [
-    "mixin"
+    "mixin",
+    "Mixin"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -45,6 +46,30 @@
       "source_repo": "jonschlinkert/mixin-deep",
       "status": "candidate-context",
       "text": "> Deeply mix the properties of objects into the first object. Like merge-deep, but doesn't clone. No dependencies."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "grafana/jsonnet-libs",
+      "status": "candidate-context",
+      "text": "Grafana Labs' Jsonnet libraries"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "grafana/jsonnet-libs",
+      "status": "candidate-context",
+      "text": "Mixin"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "prometheus/alertmanager",
+      "status": "candidate-context",
+      "text": "Prometheus Alertmanager"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "prometheus/alertmanager",
+      "status": "candidate-context",
+      "text": "mixin"
     }
   ],
   "candidate_glosses": [
@@ -65,6 +90,18 @@
       "source_repo": "jonschlinkert/mixin-deep",
       "status": "candidate",
       "text": "> Deeply mix the properties of objects into the first object. Like merge-deep, but doesn't clone. No dependencies."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "grafana/jsonnet-libs",
+      "status": "candidate",
+      "text": "Mixin"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "prometheus/alertmanager",
+      "status": "candidate",
+      "text": "mixin"
     }
   ],
   "candidate_related_terms": [
@@ -126,11 +163,23 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "jonschlinkert/mixin-deep"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/test-mixins.yml",
+      "source_repo": "grafana/jsonnet-libs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/mixin.yml",
+      "source_repo": "prometheus/alertmanager"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

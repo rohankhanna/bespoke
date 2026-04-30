@@ -43,6 +43,30 @@
       "source_repo": "kaste/SublimeLinter-addon-toggler",
       "status": "candidate-context",
       "text": "This is an addon for SublimeLinter."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sublimehq/Packages",
+      "status": "candidate-context",
+      "text": "Syntax highlighting files shipped with Sublime Text and Sublime Merge"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sublimehq/Packages",
+      "status": "candidate-context",
+      "text": "These packages are developed"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "codota/tabnine-sublime",
+      "status": "candidate-context",
+      "text": "Tabnine Autocomplete AI: JavaScript, Python, TypeScript, PHP, C/C++, HTML/CSS, Go, Java, Ruby, C#, Rust, SQL, Bash, Kotlin, Julia, Lua, OCaml, Perl, Haskell, React"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "codota/tabnine-sublime",
+      "status": "candidate-context",
+      "text": "[twitter-shield]: https://img.shields.io/twitter/follow/Tabnine_?style=social"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +87,18 @@
       "source_repo": "kaste/SublimeLinter-addon-toggler",
       "status": "candidate",
       "text": "This is an addon for SublimeLinter."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sublimehq/Packages",
+      "status": "candidate",
+      "text": "These packages are developed"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "codota/tabnine-sublime",
+      "status": "candidate",
+      "text": "[twitter-shield]: https://img.shields.io/twitter/follow/Tabnine_?style=social"
     }
   ],
   "candidate_related_terms": [
@@ -160,11 +196,23 @@
       "observed_at": "2026-04-24T00:33:56.049672+00:00",
       "source_file": null,
       "source_repo": "kaste/SublimeLinter-addon-toggler"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "sublimehq/Packages"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "codota/tabnine-sublime"
     }
   ],
   "first_seen_at": "2026-04-19T04:47:57.443742+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

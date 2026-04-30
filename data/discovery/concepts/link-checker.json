@@ -130,6 +130,30 @@
       "source_repo": "CERTCC/SSVC",
       "status": "candidate-context",
       "text": "Link Checker"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "openjs-foundation/cross-project-council",
+      "status": "candidate-context",
+      "text": "OpenJS Foundation Cross Project Council"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "openjs-foundation/cross-project-council",
+      "status": "candidate-context",
+      "text": "Link Checker"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "wjdp/htmltest",
+      "status": "candidate-context",
+      "text": ":white_check_mark: Test generated HTML for problems"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "wjdp/htmltest",
+      "status": "candidate-context",
+      "text": "[![Go Report Card](https://goreportcard.com/badge/github.com/wjdp/htmltest)](https://goreportcard.com/report/github.com/wjdp/htmltest)"
     }
   ],
   "candidate_glosses": [
@@ -192,6 +216,18 @@
       "source_repo": "CERTCC/SSVC",
       "status": "candidate",
       "text": "Link Checker"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "openjs-foundation/cross-project-council",
+      "status": "candidate",
+      "text": "Link Checker"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "wjdp/htmltest",
+      "status": "candidate",
+      "text": "[![Go Report Card](https://goreportcard.com/badge/github.com/wjdp/htmltest)](https://goreportcard.com/report/github.com/wjdp/htmltest)"
     }
   ],
   "candidate_related_terms": [
@@ -295,11 +331,23 @@
       "observed_at": "2026-04-24T12:33:41.350224+00:00",
       "source_file": ".github/workflows/link_checker.yml",
       "source_repo": "CERTCC/SSVC"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/link-checker.yml",
+      "source_repo": "openjs-foundation/cross-project-council"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "wjdp/htmltest"
     }
   ],
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

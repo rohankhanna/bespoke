@@ -43,6 +43,30 @@
       "source_repo": "confluentinc/examples",
       "status": "candidate-context",
       "text": "![image](images/confluent-logo-300-2.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "confluentinc/cp-all-in-one",
+      "status": "candidate-context",
+      "text": "docker-compose.yml files for cp-all-in-one , cp-all-in-one-community, cp-all-in-one-cloud, Apache Kafka Confluent Platform"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "confluentinc/cp-all-in-one",
+      "status": "candidate-context",
+      "text": "![image](images/confluent-logo-300-2.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "2KAbhishek/tiny-web",
+      "status": "candidate-context",
+      "text": "tiny template for quickly making web pages \u2728\u2328"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "2KAbhishek/tiny-web",
+      "status": "candidate-context",
+      "text": "<div align = \"center\">"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +87,18 @@
       "source_repo": "confluentinc/examples",
       "status": "candidate",
       "text": "![image](images/confluent-logo-300-2.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "confluentinc/cp-all-in-one",
+      "status": "candidate",
+      "text": "![image](images/confluent-logo-300-2.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "2KAbhishek/tiny-web",
+      "status": "candidate",
+      "text": "<div align = \"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -124,11 +160,23 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "confluentinc/examples"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "confluentinc/cp-all-in-one"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "2KAbhishek/tiny-web"
     }
   ],
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

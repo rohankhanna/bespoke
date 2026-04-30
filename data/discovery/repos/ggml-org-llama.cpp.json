@@ -191,28 +191,28 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "ggml-org/llama.cpp",
-      "target": "ggml-org/llama.vscode",
+      "target": "hybridgroup/yzma",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "ggml-org/llama.cpp",
-      "target": "ggml-org/llama.vim",
+      "target": "guinmoon/llmfarm",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "ggml-org/llama.cpp",
-      "target": "go-skynet/go-llama.cpp",
+      "target": "gpustack/gguf-parser-go",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "ggml-org/llama.cpp",
-      "target": "firatkiral/kodibot",
+      "target": "gpustack/gpustack",
       "target_type": "repository"
     },
     {
@@ -433,7 +433,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-29T20:41:06.915389+00:00",
+  "fetched_at": "2026-04-30T03:04:09.354684+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -485,32 +485,32 @@
     "full_name": "ggml-org/llama.cpp",
     "html_url": "https://github.com/ggml-org/llama.cpp",
     "language": "C++",
-    "pushed_at": "2026-04-29T19:10:58Z",
-    "stargazers_count": 107434,
+    "pushed_at": "2026-04-29T22:42:54Z",
+    "stargazers_count": 107476,
     "topics": [
       "ggml"
     ],
-    "updated_at": "2026-04-29T20:29:10Z"
+    "updated_at": "2026-04-30T02:53:44Z"
   },
   "repo_links": [
     {
       "edge_type": "explicit-github-link",
-      "full_name": "firatkiral/kodibot",
+      "full_name": "gpustack/gguf-parser-go",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "ggml-org/llama.vim",
+      "full_name": "gpustack/gpustack",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "ggml-org/llama.vscode",
+      "full_name": "guinmoon/llmfarm",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "go-skynet/go-llama.cpp",
+      "full_name": "hybridgroup/yzma",
       "source_file": "README.md"
     }
   ],

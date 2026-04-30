@@ -1,0 +1,252 @@
+{
+  "components": [
+    {
+      "component": "dotnet/arcade/.github/workflows/backport-base.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/backport.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-markdown-links.yml"
+    },
+    {
+      "component": "umbrelladocs/action-linkspector@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-markdown-links.yml"
+    },
+    {
+      "component": "github/issue-labeler@c1b0f9f52a63158c4adc09425e858e87b32e9685",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/label-issue.yml"
+    },
+    {
+      "component": "write",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint-code-base.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint-code-base.yml"
+    },
+    {
+      "component": "github/super-linter@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint-code-base.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-dependencies-tests.yml"
+    },
+    {
+      "component": "actions/setup-dotnet@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-dependencies-tests.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-dependencies-tests.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "dotnet/dotnet-docker",
+      "target": "microsoft/dotnet-framework-docker",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/backport.yml",
+      "source_repo": "dotnet/dotnet-docker",
+      "target": "dotnet/arcade/.github/workflows/backport-base.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/backport.yml",
+      "source_repo": "dotnet/dotnet-docker",
+      "target": "Backport PR to branch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-markdown-links.yml",
+      "source_repo": "dotnet/dotnet-docker",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-markdown-links.yml",
+      "source_repo": "dotnet/dotnet-docker",
+      "target": "umbrelladocs/action-linkspector@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/label-issue.yml",
+      "source_repo": "dotnet/dotnet-docker",
+      "target": "github/issue-labeler@c1b0f9f52a63158c4adc09425e858e87b32e9685",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/label-issue.yml",
+      "source_repo": "dotnet/dotnet-docker",
+      "target": "Label Issue",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/label-pull-request.yml",
+      "source_repo": "dotnet/dotnet-docker",
+      "target": "Label merged PRs for backport",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint-code-base.yml",
+      "source_repo": "dotnet/dotnet-docker",
+      "target": "write",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint-code-base.yml",
+      "source_repo": "dotnet/dotnet-docker",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint-code-base.yml",
+      "source_repo": "dotnet/dotnet-docker",
+      "target": "github/super-linter@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint-code-base.yml",
+      "source_repo": "dotnet/dotnet-docker",
+      "target": "Lint Code Base",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-dependencies-tests.yml",
+      "source_repo": "dotnet/dotnet-docker",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-dependencies-tests.yml",
+      "source_repo": "dotnet/dotnet-docker",
+      "target": "actions/setup-dotnet@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-dependencies-tests.yml",
+      "source_repo": "dotnet/dotnet-docker",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/update-dependencies-tests.yml",
+      "source_repo": "dotnet/dotnet-docker",
+      "target": "Update Dependencies Tests",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T01:43:27.839856+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 10114
+    },
+    {
+      "path": ".github/workflows/backport.yml",
+      "size": 545
+    },
+    {
+      "path": ".github/workflows/check-markdown-links.yml",
+      "size": 577
+    },
+    {
+      "path": ".github/workflows/label-issue.yml",
+      "size": 371
+    },
+    {
+      "path": ".github/workflows/label-pull-request.yml",
+      "size": 1635
+    },
+    {
+      "path": ".github/workflows/lint-code-base.yml",
+      "size": 810
+    },
+    {
+      "path": ".github/workflows/update-dependencies-tests.yml",
+      "size": 1230
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Official container images for .NET",
+    "fork": false,
+    "full_name": "dotnet/dotnet-docker",
+    "html_url": "https://github.com/dotnet/dotnet-docker",
+    "language": "Dockerfile",
+    "pushed_at": "2026-04-29T20:22:23Z",
+    "stargazers_count": 4840,
+    "topics": [],
+    "updated_at": "2026-04-29T16:34:19Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "microsoft/dotnet-framework-docker",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Backport PR to branch",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/backport.yml",
+      "term": "Backport PR to branch"
+    },
+    {
+      "context_snippet": "\"Label Issue\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/label-issue.yml",
+      "term": "Label Issue"
+    },
+    {
+      "context_snippet": "Label merged PRs for backport",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/label-pull-request.yml",
+      "term": "Label merged PRs for backport"
+    },
+    {
+      "context_snippet": "Lint Code Base",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint-code-base.yml",
+      "term": "Lint Code Base"
+    },
+    {
+      "context_snippet": "Update Dependencies Tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/update-dependencies-tests.yml",
+      "term": "Update Dependencies Tests"
+    }
+  ]
+}

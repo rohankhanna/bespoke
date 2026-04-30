@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "MSDO Issue Triage Assistant"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "microsoft/security-devops-action",
+      "status": "candidate-context",
+      "text": "Microsoft Security DevOps for GitHub Actions."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/security-devops-action",
+      "status": "candidate-context",
+      "text": "\"MSDO Issue Triage Assistant\""
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/security-devops-action",
+      "status": "candidate",
+      "text": "\"MSDO Issue Triage Assistant\""
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 23361,
+      "status": "candidate",
+      "text": "need"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22530,
+      "status": "candidate",
+      "text": "court"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22530,
+      "status": "candidate",
+      "text": "kinescope"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22530,
+      "status": "candidate",
+      "text": "magnificio"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22530,
+      "status": "candidate",
+      "text": "magnifico"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "MSDO Issue Triage Assistant",
+  "concept_id": "msdo-issue-triage-assistant",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/msdo-issue-assistant.lock.yml",
+      "source_repo": "microsoft/security-devops-action"
+    }
+  ],
+  "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "MSDO Issue Triage Assistant",
+      "sense_id": "msdo-issue-triage-assistant#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

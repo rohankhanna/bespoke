@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-22T04:41:58.081535+00:00",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "sources": [
     {
       "discovered_via": "repo-topic",
@@ -66,6 +66,21 @@
       "discovered_via": "repo-topic",
       "source_file": null,
       "source_repo": "octokit/openapi"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "standard-schema/standard-schema"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "confluentinc/schema-registry"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "octokit/openapi-types.ts"
     }
   ],
   "term": "schema"

@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T04:05:27.489543+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3855
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A readline wrapper",
+    "fork": false,
+    "full_name": "hanslub42/rlwrap",
+    "html_url": "https://github.com/hanslub42/rlwrap",
+    "language": "C",
+    "pushed_at": "2025-11-13T10:56:20Z",
+    "stargazers_count": 3056,
+    "topics": [],
+    "updated_at": "2026-04-27T17:54:11Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

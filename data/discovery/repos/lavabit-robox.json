@@ -1,0 +1,352 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/robox.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/robox.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/robox.yml",
+      "source_repo": "lavabit/robox",
+      "target": "actions/checkout@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/robox.yml",
+      "source_repo": "lavabit/robox",
+      "target": "actions/upload-artifact@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/robox.yml",
+      "source_repo": "lavabit/robox",
+      "target": "Robox Validate",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lavabit/robox",
+      "target": "alpine",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lavabit/robox",
+      "target": "arch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lavabit/robox",
+      "target": "bash",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lavabit/robox",
+      "target": "centos",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lavabit/robox",
+      "target": "debian",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lavabit/robox",
+      "target": "fedora",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lavabit/robox",
+      "target": "freebsd",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lavabit/robox",
+      "target": "gentoo",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lavabit/robox",
+      "target": "hyperv",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lavabit/robox",
+      "target": "libvirt",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lavabit/robox",
+      "target": "openbsd",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lavabit/robox",
+      "target": "opensuse",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lavabit/robox",
+      "target": "oracle",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lavabit/robox",
+      "target": "packer",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lavabit/robox",
+      "target": "parallels",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lavabit/robox",
+      "target": "rhel",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lavabit/robox",
+      "target": "ubuntu",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lavabit/robox",
+      "target": "vagrant",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lavabit/robox",
+      "target": "virtualbox",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lavabit/robox",
+      "target": "vmware",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T02:51:33.117847+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7709
+    },
+    {
+      "path": ".github/workflows/robox.yml",
+      "size": 15409
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "The tools needed to robotically create/configure/provision a large number of operating systems, for a variety of hypervisors, using packer.",
+    "fork": false,
+    "full_name": "lavabit/robox",
+    "html_url": "https://github.com/lavabit/robox",
+    "language": "Shell",
+    "pushed_at": "2025-03-01T07:03:11Z",
+    "stargazers_count": 663,
+    "topics": [
+      "alpine",
+      "arch",
+      "bash",
+      "centos",
+      "debian",
+      "fedora",
+      "freebsd",
+      "gentoo",
+      "hyperv",
+      "libvirt",
+      "openbsd",
+      "opensuse",
+      "oracle",
+      "packer",
+      "parallels",
+      "rhel",
+      "ubuntu",
+      "vagrant",
+      "virtualbox",
+      "vmware"
+    ],
+    "updated_at": "2026-04-17T14:07:53Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Robox Validate",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/robox.yml",
+      "term": "Robox Validate"
+    },
+    {
+      "context_snippet": "Generic base boxes, providing a variety of operating systems, and available across a number of different virtualized platforms.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "alpine"
+    },
+    {
+      "context_snippet": "Generic base boxes, providing a variety of operating systems, and available across a number of different virtualized platforms.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "arch"
+    },
+    {
+      "context_snippet": "Generic base boxes, providing a variety of operating systems, and available across a number of different virtualized platforms.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bash"
+    },
+    {
+      "context_snippet": "Generic base boxes, providing a variety of operating systems, and available across a number of different virtualized platforms.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "centos"
+    },
+    {
+      "context_snippet": "Generic base boxes, providing a variety of operating systems, and available across a number of different virtualized platforms.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "debian"
+    },
+    {
+      "context_snippet": "Generic base boxes, providing a variety of operating systems, and available across a number of different virtualized platforms.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "fedora"
+    },
+    {
+      "context_snippet": "Generic base boxes, providing a variety of operating systems, and available across a number of different virtualized platforms.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "freebsd"
+    },
+    {
+      "context_snippet": "Generic base boxes, providing a variety of operating systems, and available across a number of different virtualized platforms.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gentoo"
+    },
+    {
+      "context_snippet": "Generic base boxes, providing a variety of operating systems, and available across a number of different virtualized platforms.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hyperv"
+    },
+    {
+      "context_snippet": "Generic base boxes, providing a variety of operating systems, and available across a number of different virtualized platforms.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "libvirt"
+    },
+    {
+      "context_snippet": "Generic base boxes, providing a variety of operating systems, and available across a number of different virtualized platforms.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "openbsd"
+    },
+    {
+      "context_snippet": "Generic base boxes, providing a variety of operating systems, and available across a number of different virtualized platforms.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "opensuse"
+    },
+    {
+      "context_snippet": "Generic base boxes, providing a variety of operating systems, and available across a number of different virtualized platforms.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "oracle"
+    },
+    {
+      "context_snippet": "Generic base boxes, providing a variety of operating systems, and available across a number of different virtualized platforms.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "packer"
+    },
+    {
+      "context_snippet": "Generic base boxes, providing a variety of operating systems, and available across a number of different virtualized platforms.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "parallels"
+    },
+    {
+      "context_snippet": "Generic base boxes, providing a variety of operating systems, and available across a number of different virtualized platforms.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rhel"
+    },
+    {
+      "context_snippet": "Generic base boxes, providing a variety of operating systems, and available across a number of different virtualized platforms.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ubuntu"
+    },
+    {
+      "context_snippet": "Generic base boxes, providing a variety of operating systems, and available across a number of different virtualized platforms.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vagrant"
+    },
+    {
+      "context_snippet": "Generic base boxes, providing a variety of operating systems, and available across a number of different virtualized platforms.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "virtualbox"
+    },
+    {
+      "context_snippet": "Generic base boxes, providing a variety of operating systems, and available across a number of different virtualized platforms.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vmware"
+    }
+  ]
+}

@@ -160,6 +160,66 @@
       "source_repo": "dockur/windows",
       "status": "candidate-context",
       "text": "Update"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "standardrb/standard",
+      "status": "candidate-context",
+      "text": "Ruby's bikeshed-proof linter and formatter \ud83d\udeb2"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "standardrb/standard",
+      "status": "candidate-context",
+      "text": "Update"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "octokit/plugin-rest-endpoint-methods.js",
+      "status": "candidate-context",
+      "text": "Octokit plugin adding one method for all of api.github.com REST API endpoints"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "octokit/plugin-rest-endpoint-methods.js",
+      "status": "candidate-context",
+      "text": "Update"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ipdxco/github-as-code",
+      "status": "candidate-context",
+      "text": "GitHub Configuration as Code"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ipdxco/github-as-code",
+      "status": "candidate-context",
+      "text": "Update"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "eddelbuettel/spotifytop50us",
+      "status": "candidate-context",
+      "text": "Visualize Most Popular Songs from the Top50 "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "eddelbuettel/spotifytop50us",
+      "status": "candidate-context",
+      "text": "update"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "octokit/openapi-types.ts",
+      "status": "candidate-context",
+      "text": "Generated TypeScript definitions based on GitHub's OpenAPI spec"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "octokit/openapi-types.ts",
+      "status": "candidate-context",
+      "text": "Update"
     }
   ],
   "candidate_glosses": [
@@ -238,6 +298,36 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "dockur/windows",
+      "status": "candidate",
+      "text": "Update"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "standardrb/standard",
+      "status": "candidate",
+      "text": "Update"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "octokit/plugin-rest-endpoint-methods.js",
+      "status": "candidate",
+      "text": "Update"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ipdxco/github-as-code",
+      "status": "candidate",
+      "text": "Update"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "eddelbuettel/spotifytop50us",
+      "status": "candidate",
+      "text": "update"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "octokit/openapi-types.ts",
       "status": "candidate",
       "text": "Update"
     }
@@ -361,11 +451,47 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": ".github/workflows/hub.yml",
       "source_repo": "dockur/windows"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/update.yml",
+      "source_repo": "standardrb/standard"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "base-repos/base"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/update.yml",
+      "source_repo": "octokit/plugin-rest-endpoint-methods.js"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/update.yml",
+      "source_repo": "ipdxco/github-as-code"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/update.yaml",
+      "source_repo": "eddelbuettel/spotifytop50us"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/update.yml",
+      "source_repo": "octokit/openapi-types.ts"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,86 @@
+{
+  "components": [
+    {
+      "component": "source-map-support",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "shadow-cljs",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "applied-science/js-interop",
+      "target": "binaryage/cljs-oops",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "applied-science/js-interop",
+      "target": "source-map-support",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "applied-science/js-interop",
+      "target": "shadow-cljs",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "applied-science/js-interop",
+      "target": "clojurescript",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T04:04:21.500487+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9964
+    },
+    {
+      "path": "package.json",
+      "size": 393
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A JavaScript-interop library for ClojureScript.",
+    "fork": false,
+    "full_name": "applied-science/js-interop",
+    "html_url": "https://github.com/applied-science/js-interop",
+    "language": "Clojure",
+    "pushed_at": "2023-10-27T00:07:56Z",
+    "stargazers_count": 405,
+    "topics": [
+      "clojurescript"
+    ],
+    "updated_at": "2026-04-09T10:32:43Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "binaryage/cljs-oops",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "A JavaScript-interop library for ClojureScript.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "clojurescript"
+    }
+  ]
+}

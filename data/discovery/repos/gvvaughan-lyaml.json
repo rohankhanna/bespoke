@@ -1,0 +1,83 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/spec.yml"
+    },
+    {
+      "component": "leafo/gh-actions-lua@v12",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/spec.yml"
+    },
+    {
+      "component": "leafo/gh-actions-luarocks@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/spec.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/spec.yml",
+      "source_repo": "gvvaughan/lyaml",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/spec.yml",
+      "source_repo": "gvvaughan/lyaml",
+      "target": "leafo/gh-actions-lua@v12",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/spec.yml",
+      "source_repo": "gvvaughan/lyaml",
+      "target": "leafo/gh-actions-luarocks@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/spec.yml",
+      "source_repo": "gvvaughan/lyaml",
+      "target": "spec",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T00:52:01.884494+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7308
+    },
+    {
+      "path": ".github/workflows/spec.yml",
+      "size": 884
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "LibYAML binding for Lua.",
+    "fork": false,
+    "full_name": "gvvaughan/lyaml",
+    "html_url": "https://github.com/gvvaughan/lyaml",
+    "language": "Lua",
+    "pushed_at": "2026-01-03T16:47:02Z",
+    "stargazers_count": 229,
+    "topics": [],
+    "updated_at": "2026-04-27T03:04:56Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "spec",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/spec.yml",
+      "term": "spec"
+    }
+  ]
+}

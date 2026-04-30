@@ -1,0 +1,181 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "cockroachdb/pebble",
+      "target": "golang/leveldb",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "cockroachdb/pebble",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "cockroachdb/pebble",
+      "target": "actions/setup-go@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "cockroachdb/pebble",
+      "target": "actions/setup-go@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "cockroachdb/pebble",
+      "target": "PR tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cockroach-go.yaml",
+      "source_repo": "cockroachdb/pebble",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cockroach-go.yaml",
+      "source_repo": "cockroachdb/pebble",
+      "target": "actions/cache@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cockroach-go.yaml",
+      "source_repo": "cockroachdb/pebble",
+      "target": "actions/setup-go@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cockroach-go.yaml",
+      "source_repo": "cockroachdb/pebble",
+      "target": "Nightly cockroach-go tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/code-cover-gen.yaml",
+      "source_repo": "cockroachdb/pebble",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/code-cover-gen.yaml",
+      "source_repo": "cockroachdb/pebble",
+      "target": "actions/setup-go@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/code-cover-gen.yaml",
+      "source_repo": "cockroachdb/pebble",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/code-cover-gen.yaml",
+      "source_repo": "cockroachdb/pebble",
+      "target": "PR code coverage (generate)",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/code-cover-publish.yaml",
+      "source_repo": "cockroachdb/pebble",
+      "target": "actions/download-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/code-cover-publish.yaml",
+      "source_repo": "cockroachdb/pebble",
+      "target": "google-github-actions/auth@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/code-cover-publish.yaml",
+      "source_repo": "cockroachdb/pebble",
+      "target": "google-github-actions/upload-cloud-storage@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/code-cover-publish.yaml",
+      "source_repo": "cockroachdb/pebble",
+      "target": "PR code coverage (publish)",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/crossversion.yaml",
+      "source_repo": "cockroachdb/pebble",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/crossversion.yaml",
+      "source_repo": "cockroachdb/pebble",
+      "target": "actions/setup-go@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/crossversion.yaml",
+      "source_repo": "cockroachdb/pebble",
+      "target": "Crossversion smoke test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/instrumented.yaml",
+      "source_repo": "cockroachdb/pebble",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/instrumented.yaml",
+      "source_repo": "cockroachdb/pebble",
+      "target": "actions/setup-go@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/instrumented.yaml",
+      "source_repo": "cockroachdb/pebble",
+      "target": "Nightly instrumented tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightlies-25.2.yaml",
+      "source_repo": "cockroachdb/pebble",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightlies-25.4.yaml",
+      "source_repo": "cockroachdb/pebble",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    }
+  ],
+  "generated_at": "2026-04-30T00:37:16.824464+00:00",
+  "source_repo": "cockroachdb/pebble"
+}

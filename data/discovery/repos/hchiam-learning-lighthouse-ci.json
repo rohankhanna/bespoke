@@ -1,0 +1,113 @@
+{
+  "components": [
+    {
+      "component": "react",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "react-dom",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "react-scripts",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hchiam/learning-lighthouse-ci",
+      "target": "hchiam/learning",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "hchiam/learning-lighthouse-ci",
+      "target": "react",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "hchiam/learning-lighthouse-ci",
+      "target": "react-dom",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "hchiam/learning-lighthouse-ci",
+      "target": "react-scripts",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hchiam/learning-lighthouse-ci",
+      "target": "lighthouse",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hchiam/learning-lighthouse-ci",
+      "target": "travis",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T03:59:24.473971+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2976
+    },
+    {
+      "path": "package.json",
+      "size": 630
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Learning Google's Lighthouse CI from scratch with a minimal template web app (quickstart)",
+    "fork": false,
+    "full_name": "hchiam/learning-lighthouse-ci",
+    "html_url": "https://github.com/hchiam/learning-lighthouse-ci",
+    "language": "JavaScript",
+    "pushed_at": "2026-02-13T18:42:15Z",
+    "stargazers_count": 61,
+    "topics": [
+      "ci",
+      "lighthouse",
+      "travis"
+    ],
+    "updated_at": "2026-04-20T11:36:44Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "hchiam/learning",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[![version](https://img.shields.io/github/release/hchiam/learning-lighthouse-ci?style=flat-square)](https://github.com/hchiam/learning-lighthouse-ci/releases)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "lighthouse"
+    },
+    {
+      "context_snippet": "[![version](https://img.shields.io/github/release/hchiam/learning-lighthouse-ci?style=flat-square)](https://github.com/hchiam/learning-lighthouse-ci/releases)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "travis"
+    }
+  ]
+}

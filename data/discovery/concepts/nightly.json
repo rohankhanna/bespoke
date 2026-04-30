@@ -284,6 +284,54 @@
       "source_repo": "ipfs/distributions",
       "status": "candidate-context",
       "text": "Nightly"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "databrickslabs/ucx",
+      "status": "candidate-context",
+      "text": "Automated migrations to Unity Catalog"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "databrickslabs/ucx",
+      "status": "candidate-context",
+      "text": "nightly"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sebastianbergmann/phpunit",
+      "status": "candidate-context",
+      "text": "The PHP Unit Testing framework."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sebastianbergmann/phpunit",
+      "status": "candidate-context",
+      "text": "Nightly"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "external-secrets/kubernetes-external-secrets",
+      "status": "candidate-context",
+      "text": "Integrate external secret management systems with Kubernetes"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "external-secrets/kubernetes-external-secrets",
+      "status": "candidate-context",
+      "text": "nightly"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ClickHouse/clickhouse-java",
+      "status": "candidate-context",
+      "text": "ClickHouse Java Clients & JDBC Driver"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ClickHouse/clickhouse-java",
+      "status": "candidate-context",
+      "text": "Nightly"
     }
   ],
   "candidate_glosses": [
@@ -422,6 +470,30 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "ipfs/distributions",
+      "status": "candidate",
+      "text": "Nightly"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "databrickslabs/ucx",
+      "status": "candidate",
+      "text": "nightly"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sebastianbergmann/phpunit",
+      "status": "candidate",
+      "text": "Nightly"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "external-secrets/kubernetes-external-secrets",
+      "status": "candidate",
+      "text": "nightly"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ClickHouse/clickhouse-java",
       "status": "candidate",
       "text": "Nightly"
     }
@@ -620,11 +692,35 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": ".github/workflows/nightly.yml",
       "source_repo": "ipfs/distributions"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/nightly.yml",
+      "source_repo": "databrickslabs/ucx"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/nightly.yaml",
+      "source_repo": "sebastianbergmann/phpunit"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/nightly.yaml",
+      "source_repo": "external-secrets/kubernetes-external-secrets"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/nightly.yml",
+      "source_repo": "ClickHouse/clickhouse-java"
     }
   ],
   "first_seen_at": "2026-04-19T04:47:57.443742+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

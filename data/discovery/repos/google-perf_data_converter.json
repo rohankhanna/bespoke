@@ -1,0 +1,45 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "google/perf_data_converter",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-04-30T03:59:56.422524+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1830
+    },
+    {
+      "path": ".github/workflows/ci.yaml",
+      "size": 1142
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Tool to convert Linux perf files to the profile.proto format used by pprof",
+    "fork": false,
+    "full_name": "google/perf_data_converter",
+    "html_url": "https://github.com/google/perf_data_converter",
+    "language": "C++",
+    "pushed_at": "2026-04-09T20:25:57Z",
+    "stargazers_count": 342,
+    "topics": [],
+    "updated_at": "2026-04-09T20:26:04Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

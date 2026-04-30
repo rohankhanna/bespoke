@@ -1,0 +1,114 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "yeungchenwa/OCR-SAM",
+      "target": "mmocr",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "yeungchenwa/OCR-SAM",
+      "target": "segment-anything",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "yeungchenwa/OCR-SAM",
+      "target": "text-detection",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "yeungchenwa/OCR-SAM",
+      "target": "text-inpainting",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "yeungchenwa/OCR-SAM",
+      "target": "text-recognition",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "yeungchenwa/OCR-SAM",
+      "target": "text-removal",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T02:03:32.854502+00:00",
+  "fetched_files": [
+    {
+      "path": "requirements.txt",
+      "size": 122
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "[Open-Source Project] Combining MMOCR with Segment Anything & Stable Diffusion. Automatically detect, recognize and segment text instances, with serval downstream tasks, e.g., Text Removal and Text Inpainting",
+    "fork": false,
+    "full_name": "yeungchenwa/OCR-SAM",
+    "html_url": "https://github.com/yeungchenwa/OCR-SAM",
+    "language": "Python",
+    "pushed_at": "2024-01-30T03:59:45Z",
+    "stargazers_count": 587,
+    "topics": [
+      "mmocr",
+      "segment-anything",
+      "text-detection",
+      "text-inpainting",
+      "text-recognition",
+      "text-removal"
+    ],
+    "updated_at": "2026-04-08T11:40:30Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "gradio numpy openmim omegaconf==2.3.0 einops==0.6.0 transformers==4.27.3 pytorch-lightning==2.0.1.post0 diffusers==0.14.0",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mmocr"
+    },
+    {
+      "context_snippet": "gradio numpy openmim omegaconf==2.3.0 einops==0.6.0 transformers==4.27.3 pytorch-lightning==2.0.1.post0 diffusers==0.14.0",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "segment-anything"
+    },
+    {
+      "context_snippet": "gradio numpy openmim omegaconf==2.3.0 einops==0.6.0 transformers==4.27.3 pytorch-lightning==2.0.1.post0 diffusers==0.14.0",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "text-detection"
+    },
+    {
+      "context_snippet": "gradio numpy openmim omegaconf==2.3.0 einops==0.6.0 transformers==4.27.3 pytorch-lightning==2.0.1.post0 diffusers==0.14.0",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "text-inpainting"
+    },
+    {
+      "context_snippet": "gradio numpy openmim omegaconf==2.3.0 einops==0.6.0 transformers==4.27.3 pytorch-lightning==2.0.1.post0 diffusers==0.14.0",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "text-recognition"
+    },
+    {
+      "context_snippet": "gradio numpy openmim omegaconf==2.3.0 einops==0.6.0 transformers==4.27.3 pytorch-lightning==2.0.1.post0 diffusers==0.14.0",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "text-removal"
+    }
+  ]
+}

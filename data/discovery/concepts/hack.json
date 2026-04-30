@@ -43,6 +43,30 @@
       "source_repo": "gautamkrishnar/refined-github-feeds",
       "status": "candidate-context",
       "text": "Making the GitHub news feeds great again. This extension enables you to filter the GitHub news feeds based on different event types:"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "source-foundry/Hack",
+      "status": "candidate-context",
+      "text": "A typeface designed for source code"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "source-foundry/Hack",
+      "status": "candidate-context",
+      "text": "[![GitHub release](https://img.shields.io/github/release/source-foundry/hack.svg?style=flat)](https://github.com/source-foundry/Hack/releases/latest)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "facebook/hhvm",
+      "status": "candidate-context",
+      "text": "A virtual machine for executing programs written in Hack."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "facebook/hhvm",
+      "status": "candidate-context",
+      "text": "[HHVM page](https://hhvm.com) |"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +87,18 @@
       "source_repo": "gautamkrishnar/refined-github-feeds",
       "status": "candidate",
       "text": "Making the GitHub news feeds great again. This extension enables you to filter the GitHub news feeds based on different event types:"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "source-foundry/Hack",
+      "status": "candidate",
+      "text": "[![GitHub release](https://img.shields.io/github/release/source-foundry/hack.svg?style=flat)](https://github.com/source-foundry/Hack/releases/latest)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "facebook/hhvm",
+      "status": "candidate",
+      "text": "[HHVM page](https://hhvm.com) |"
     }
   ],
   "candidate_related_terms": [
@@ -160,11 +196,23 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "gautamkrishnar/refined-github-feeds"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "source-foundry/Hack"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "facebook/hhvm"
     }
   ],
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Sync working group project boards"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cloudfoundry/community",
+      "status": "candidate-context",
+      "text": "Governance and contact information for Cloud Foundry"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cloudfoundry/community",
+      "status": "candidate-context",
+      "text": "'Sync working group project boards'"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cloudfoundry/community",
+      "status": "candidate",
+      "text": "'Sync working group project boards'"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 58160,
+      "status": "candidate",
+      "text": "team"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 56703,
+      "status": "candidate",
+      "text": "army"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 56318,
+      "status": "candidate",
+      "text": "staff"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 56190,
+      "status": "candidate",
+      "text": "panel"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 55790,
+      "status": "candidate",
+      "text": "cluster"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Sync working group project boards",
+  "concept_id": "sync-working-group-project-boards",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/project-sync.yml",
+      "source_repo": "cloudfoundry/community"
+    }
+  ],
+  "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Sync working group project boards",
+      "sense_id": "sync-working-group-project-boards#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

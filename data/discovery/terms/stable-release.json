@@ -1,11 +1,16 @@
 {
   "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/release.yml",
       "source_repo": "graphql-hive/graphql-yoga"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/publish_stable.yml",
+      "source_repo": "OpenVoiceOS/ovos-tts-plugin-piper"
     }
   ],
   "term": "Stable Release"

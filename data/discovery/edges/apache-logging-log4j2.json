@@ -1,0 +1,216 @@
+{
+  "edges": [
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "apache/logging-log4j2",
+      "target": "@antora/cli",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "apache/logging-log4j2",
+      "target": "@antora/site-generator-default",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "apache/logging-log4j2",
+      "target": "@asciidoctor/tabs",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "apache/logging-log4j2",
+      "target": "asciidoctor-kroki",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "apache/logging-log4j2",
+      "target": "fast-xml-parser",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "apache/logging-log4j2",
+      "target": "handlebars",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml",
+      "source_repo": "apache/logging-log4j2",
+      "target": "apache/logging-parent/.github/workflows/build-reusable.yaml@rel/12.1.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml",
+      "source_repo": "apache/logging-log4j2",
+      "target": "apache/logging-parent/.github/workflows/deploy-snapshot-reusable.yaml@rel/12.1.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml",
+      "source_repo": "apache/logging-log4j2",
+      "target": "apache/logging-parent/.github/workflows/deploy-release-reusable.yaml@rel/12.1.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml",
+      "source_repo": "apache/logging-log4j2",
+      "target": "apache/logging-parent/.github/workflows/verify-reproducibility-reusable.yaml@rel/12.1.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml",
+      "source_repo": "apache/logging-log4j2",
+      "target": "apache/logging-log4j-samples/.github/workflows/integration-test.yaml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yaml",
+      "source_repo": "apache/logging-log4j2",
+      "target": "build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/close-stale.yaml",
+      "source_repo": "apache/logging-log4j2",
+      "target": "actions/stale@5bef64f19d7facfb25b37b414482c7164d639639",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/close-stale.yaml",
+      "source_repo": "apache/logging-log4j2",
+      "target": "Close stale issues",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yaml",
+      "source_repo": "apache/logging-log4j2",
+      "target": "apache/logging-parent/.github/workflows/codeql-analysis-reusable.yaml@rel/12.1.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql-analysis.yaml",
+      "source_repo": "apache/logging-log4j2",
+      "target": "codeql-analysis",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-site.yaml",
+      "source_repo": "apache/logging-log4j2",
+      "target": "apache/logging-parent/.github/workflows/deploy-site-reusable.yaml@rel/12.1.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deploy-site.yaml",
+      "source_repo": "apache/logging-log4j2",
+      "target": "deploy-site",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/develocity-publish-build-scans.yaml",
+      "source_repo": "apache/logging-log4j2",
+      "target": "gradle/develocity-actions/setup-maven@4a2aed82eea165ba2d5c494fc2a8730d7fdff229",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/develocity-publish-build-scans.yaml",
+      "source_repo": "apache/logging-log4j2",
+      "target": "gradle/develocity-actions/maven-publish-build-scan@4a2aed82eea165ba2d5c494fc2a8730d7fdff229",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/develocity-publish-build-scans.yaml",
+      "source_repo": "apache/logging-log4j2",
+      "target": "Develocity - Publish Maven Build Scans",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/labeler.yaml",
+      "source_repo": "apache/logging-log4j2",
+      "target": "Check labels",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "apache/logging-log4j2",
+      "target": "apache",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "apache/logging-log4j2",
+      "target": "java",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "apache/logging-log4j2",
+      "target": "library",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "apache/logging-log4j2",
+      "target": "log4j",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "apache/logging-log4j2",
+      "target": "log4j2",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "apache/logging-log4j2",
+      "target": "logger",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "apache/logging-log4j2",
+      "target": "logging",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "apache/logging-log4j2",
+      "target": "syslog",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-30T00:37:16.824464+00:00",
+  "source_repo": "apache/logging-log4j2"
+}

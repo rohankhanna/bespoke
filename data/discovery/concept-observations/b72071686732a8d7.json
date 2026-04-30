@@ -4,8 +4,25 @@
     "workflow-process",
     "data-document-artifact"
   ],
-  "candidate_definition_hints": [],
-  "candidate_glosses": [],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Binary installation for rust projects"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Release-plz"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Release-plz"
+    }
+  ],
   "candidate_primary_bucket": "workflow-process",
   "candidate_related_terms": [],
   "candidate_senses": [
@@ -24,15 +41,17 @@
   "definition_status": "unresolved",
   "discovered_via": "workflow-name",
   "gloss_status": "unresolved",
-  "lexical_providers": [],
+  "lexical_providers": [
+    "datamuse"
+  ],
   "lexical_status": "unresolved",
   "normalized_form": "release-plz",
   "observation_id": "b72071686732a8d7",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-04-18T11:32:22.637859+00:00",
+  "observed_at": "2026-04-30T00:37:16.824464+00:00",
   "observed_text": "Release-plz",
-  "source_context_snippet": null,
+  "source_context_snippet": "Release-plz",
   "source_file": ".github/workflows/release-plz.yml",
   "source_repo": "cargo-bins/cargo-binstall",
-  "source_repo_description": null
+  "source_repo_description": "Binary installation for rust projects"
 }

@@ -1,0 +1,93 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "jiro4989/setup-nim-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "arnetheduck/nim-results",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "arnetheduck/nim-results",
+      "target": "jiro4989/setup-nim-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "arnetheduck/nim-results",
+      "target": "error-handling",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "arnetheduck/nim-results",
+      "target": "result",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T00:54:45.524838+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1933
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 1583
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Friendly value-or-error type",
+    "fork": false,
+    "full_name": "arnetheduck/nim-results",
+    "html_url": "https://github.com/arnetheduck/nim-results",
+    "language": "Nim",
+    "pushed_at": "2026-02-10T11:31:06Z",
+    "stargazers_count": 171,
+    "topics": [
+      "error-handling",
+      "nim",
+      "result"
+    ],
+    "updated_at": "2026-03-26T12:51:33Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Result type that can hold either a value or an error, but not both",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "error-handling"
+    },
+    {
+      "context_snippet": "Result type that can hold either a value or an error, but not both",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "result"
+    }
+  ]
+}

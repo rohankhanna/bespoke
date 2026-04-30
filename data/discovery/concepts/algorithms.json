@@ -67,6 +67,30 @@
       "source_repo": "optuna/optunahub-registry",
       "status": "candidate-context",
       "text": "OptunaHub Registry"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "optuna/optunahub",
+      "status": "candidate-context",
+      "text": "Python library to use and implement packages in OptunaHub"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "optuna/optunahub",
+      "status": "candidate-context",
+      "text": "OptunaHub: A Platform for Black-Box Optimization"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "optuna/optunahub-web",
+      "status": "candidate-context",
+      "text": "Frontend of OptunaHub Registry"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "optuna/optunahub-web",
+      "status": "candidate-context",
+      "text": "OptunaHub Web"
     }
   ],
   "candidate_glosses": [
@@ -99,6 +123,18 @@
       "source_repo": "optuna/optunahub-registry",
       "status": "candidate",
       "text": "OptunaHub Registry"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "optuna/optunahub",
+      "status": "candidate",
+      "text": "OptunaHub: A Platform for Black-Box Optimization"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "optuna/optunahub-web",
+      "status": "candidate",
+      "text": "OptunaHub Web"
     }
   ],
   "candidate_related_terms": [
@@ -172,11 +208,23 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "optuna/optunahub-registry"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "optuna/optunahub"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "optuna/optunahub-web"
     }
   ],
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

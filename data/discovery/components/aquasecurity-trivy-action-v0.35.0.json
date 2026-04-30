@@ -1,7 +1,7 @@
 {
   "component": "aquasecurity/trivy-action@v0.35.0",
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -17,6 +17,21 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/trivy.yml",
       "source_repo": "appleboy/drone-lambda"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "AbdelrhmanHamouda/locust-k8s-operator"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "AbdelrhmanHamouda/locust-k8s-operator"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/security-scan-scheduled.yaml",
+      "source_repo": "AbdelrhmanHamouda/locust-k8s-operator"
     }
   ]
 }

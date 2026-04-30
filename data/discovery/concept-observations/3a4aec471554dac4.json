@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Install the nightly version of Tinymist!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Test Installer Script"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Test Installer Script"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22444,
+      "status": "candidate",
+      "text": "driver"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21666,
+      "status": "candidate",
+      "text": "cursive"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21666,
+      "status": "candidate",
+      "text": "enter"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21666,
+      "status": "candidate",
+      "text": "set"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21666,
+      "status": "candidate",
+      "text": "write"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Test Installer Script",
+      "sense_id": "test-installer-script#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "test-installer-script",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "test-installer-script",
+  "observation_id": "3a4aec471554dac4",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-30T00:37:16.824464+00:00",
+  "observed_text": "Test Installer Script",
+  "source_context_snippet": "Test Installer Script",
+  "source_file": ".github/workflows/test-installer.yml",
+  "source_repo": "hongjr03/tinymist-nightly-installer",
+  "source_repo_description": "Install the nightly version of Tinymist!"
+}

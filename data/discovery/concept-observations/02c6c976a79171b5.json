@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Microservices Docker stack for Pikud HaOref red alert monitoring, home automation, and real-time visualization"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "![Geodash dashboard showing real-time alert monitoring, Apr 8 2026](alerts.png)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "![Geodash dashboard showing real-time alert monitoring, Apr 8 2026](alerts.png)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "red-alert",
+      "sense_id": "red-alert#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "red-alert",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "red-alert",
+  "observation_id": "02c6c976a79171b5",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T00:37:16.824464+00:00",
+  "observed_text": "red-alert",
+  "source_context_snippet": "![Geodash dashboard showing real-time alert monitoring, Apr 8 2026](alerts.png)",
+  "source_file": null,
+  "source_repo": "danielrosehill/Red-Alert-Monitoring-Stack",
+  "source_repo_description": "Microservices Docker stack for Pikud HaOref red alert monitoring, home automation, and real-time visualization"
+}

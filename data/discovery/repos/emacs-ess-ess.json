@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T00:45:47.178986+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 512
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Emacs Speaks Statistics: ESS",
+    "fork": false,
+    "full_name": "emacs-ess/ESS",
+    "html_url": "https://github.com/emacs-ess/ESS",
+    "language": "Emacs Lisp",
+    "pushed_at": "2026-04-24T15:44:54Z",
+    "stargazers_count": 670,
+    "topics": [],
+    "updated_at": "2026-04-29T14:02:03Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

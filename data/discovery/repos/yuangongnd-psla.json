@@ -1,0 +1,89 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "requirements.txt",
+      "source_repo": "YuanGongND/psla",
+      "target": "pytorch/fairseq",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "YuanGongND/psla",
+      "target": "audio",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "YuanGongND/psla",
+      "target": "audio-classification",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "YuanGongND/psla",
+      "target": "deep-learning",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T02:44:52.196986+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 21620
+    },
+    {
+      "path": "requirements.txt",
+      "size": 337
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Code for the TASLP paper \"PSLA: Improving Audio Tagging With Pretraining, Sampling, Labeling, and Aggregation\".",
+    "fork": false,
+    "full_name": "YuanGongND/psla",
+    "html_url": "https://github.com/YuanGongND/psla",
+    "language": "Python",
+    "pushed_at": "2023-07-13T09:11:43Z",
+    "stargazers_count": 150,
+    "topics": [
+      "audio",
+      "audio-classification",
+      "deep-learning"
+    ],
+    "updated_at": "2026-03-30T01:14:26Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "pytorch/fairseq",
+      "source_file": "requirements.txt"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "- [News](#News)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "audio"
+    },
+    {
+      "context_snippet": "- [News](#News)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "audio-classification"
+    },
+    {
+      "context_snippet": "- [News](#News)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-learning"
+    }
+  ]
+}

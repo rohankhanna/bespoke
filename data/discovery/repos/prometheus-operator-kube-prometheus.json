@@ -101,28 +101,7 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "prometheus-operator/kube-prometheus",
-      "target": "kubernetes-sigs/prometheus-adapter",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "prometheus-operator/kube-prometheus",
-      "target": "kubernetes/kube-state-metrics",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "prometheus-operator/kube-prometheus",
-      "target": "kubernetes-monitoring/kubernetes-mixin",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "prometheus-operator/kube-prometheus",
-      "target": "kubernetes/metrics",
+      "target": "prometheus/alertmanager",
       "target_type": "repository"
     },
     {
@@ -259,7 +238,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-23T01:11:21.394835+00:00",
+  "fetched_at": "2026-04-30T01:54:49.774575+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -295,8 +274,8 @@
     "full_name": "prometheus-operator/kube-prometheus",
     "html_url": "https://github.com/prometheus-operator/kube-prometheus",
     "language": "Jsonnet",
-    "pushed_at": "2026-04-22T22:52:32Z",
-    "stargazers_count": 7632,
+    "pushed_at": "2026-04-27T09:40:31Z",
+    "stargazers_count": 7633,
     "topics": [
       "alerts",
       "cluster-monitoring",
@@ -307,27 +286,12 @@
       "prometheus",
       "prometheus-operator"
     ],
-    "updated_at": "2026-04-22T06:18:21Z"
+    "updated_at": "2026-04-29T06:39:51Z"
   },
   "repo_links": [
     {
       "edge_type": "explicit-github-link",
-      "full_name": "kubernetes-monitoring/kubernetes-mixin",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "kubernetes-sigs/prometheus-adapter",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "kubernetes/kube-state-metrics",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "kubernetes/metrics",
+      "full_name": "prometheus/alertmanager",
       "source_file": "README.md"
     }
   ],

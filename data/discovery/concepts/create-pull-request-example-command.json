@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Create Pull Request Example Command"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "peter-evans/create-pull-request",
+      "status": "candidate-context",
+      "text": "A GitHub action to create a pull request for changes to your repository in the actions workspace"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "peter-evans/create-pull-request",
+      "status": "candidate-context",
+      "text": "Create Pull Request Example Command"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "peter-evans/create-pull-request",
+      "status": "candidate",
+      "text": "Create Pull Request Example Command"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 57736,
+      "status": "candidate",
+      "text": "call"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 55332,
+      "status": "candidate",
+      "text": "let"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 55051,
+      "status": "candidate",
+      "text": "have"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 55012,
+      "status": "candidate",
+      "text": "suck"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 54532,
+      "status": "candidate",
+      "text": "send"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Create Pull Request Example Command",
+  "concept_id": "create-pull-request-example-command",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/cpr-example-command.yml",
+      "source_repo": "peter-evans/create-pull-request"
+    }
+  ],
+  "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Create Pull Request Example Command",
+      "sense_id": "create-pull-request-example-command#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

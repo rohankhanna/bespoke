@@ -79,6 +79,30 @@
       "source_repo": "sunset1995/torch_efficient_distloss",
       "status": "candidate-context",
       "text": "Distortion loss is proposed by [mip-nerf-360](https://jonbarron.info/mipnerf360/), which encourages volume rendering weights to be compact and sparse and can alleviate *floater* and *background collapse* artifact."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bmild/nerf",
+      "status": "candidate-context",
+      "text": "Code release for NeRF (Neural Radiance Fields)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bmild/nerf",
+      "status": "candidate-context",
+      "text": "[![Open Tiny-NeRF in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/bmild/nerf/blob/master/tiny_nerf.ipynb)<br>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cuiziteng/Aleth-NeRF",
+      "status": "candidate-context",
+      "text": "\ud83c\udf15 [AAAI 2024] Aleth-NeRF: Illumination Adaptive NeRF with Concealing Field Assumption (Low-light enhance / Exposure correction + NeRF)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cuiziteng/Aleth-NeRF",
+      "status": "candidate-context",
+      "text": "[Ziteng Cui<sup>1,2</sup>](https://cuiziteng.github.io/),"
     }
   ],
   "candidate_glosses": [
@@ -117,6 +141,18 @@
       "source_repo": "sunset1995/torch_efficient_distloss",
       "status": "candidate",
       "text": "Distortion loss is proposed by [mip-nerf-360](https://jonbarron.info/mipnerf360/), which encourages volume rendering weights to be compact and sparse and can alleviate *floater* and *background collapse* artifact."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bmild/nerf",
+      "status": "candidate",
+      "text": "[![Open Tiny-NeRF in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/bmild/nerf/blob/master/tiny_nerf.ipynb)<br>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cuiziteng/Aleth-NeRF",
+      "status": "candidate",
+      "text": "[Ziteng Cui<sup>1,2</sup>](https://cuiziteng.github.io/),"
     }
   ],
   "candidate_related_terms": [
@@ -196,11 +232,23 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "sunset1995/torch_efficient_distloss"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "bmild/nerf"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "cuiziteng/Aleth-NeRF"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

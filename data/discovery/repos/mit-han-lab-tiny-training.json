@@ -1,0 +1,85 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mit-han-lab/tiny-training",
+      "target": "mit-han-lab/tinyml",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mit-han-lab/tiny-training",
+      "target": "edge-ai",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mit-han-lab/tiny-training",
+      "target": "learning-on-the-edge",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mit-han-lab/tiny-training",
+      "target": "on-device-training",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T01:59:22.262154+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5590
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "On-Device Training Under 256KB Memory [NeurIPS'22]",
+    "fork": false,
+    "full_name": "mit-han-lab/tiny-training",
+    "html_url": "https://github.com/mit-han-lab/tiny-training",
+    "language": "Python",
+    "pushed_at": "2024-03-29T18:15:19Z",
+    "stargazers_count": 518,
+    "topics": [
+      "edge-ai",
+      "learning-on-the-edge",
+      "on-device-training"
+    ],
+    "updated_at": "2026-04-28T21:54:48Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mit-han-lab/tinyml",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "![demo_v3](figures/mcunetV3_demo_2images_openmv.gif)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "edge-ai"
+    },
+    {
+      "context_snippet": "![demo_v3](figures/mcunetV3_demo_2images_openmv.gif)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "learning-on-the-edge"
+    },
+    {
+      "context_snippet": "![demo_v3](figures/mcunetV3_demo_2images_openmv.gif)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "on-device-training"
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "U-Alberta/wned",
+      "target": "named-entity-linking",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "U-Alberta/wned",
+      "target": "natural-language-processing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "U-Alberta/wned",
+      "target": "wikipedia",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T02:00:50.400423+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3607
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A sytem for Named Entity Disambiguation based on Random Walks and Learning to Rank.",
+    "fork": false,
+    "full_name": "U-Alberta/wned",
+    "html_url": "https://github.com/U-Alberta/wned",
+    "language": "Java",
+    "pushed_at": "2022-02-26T01:08:11Z",
+    "stargazers_count": 19,
+    "topics": [
+      "named-entity-linking",
+      "natural-language-processing",
+      "wikipedia"
+    ],
+    "updated_at": "2025-12-15T05:40:59Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "WNED is an entity linking systems that accepts text with marked named entities and links them to their referent entities in a knowledge base (e.g. Wikipedia).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "named-entity-linking"
+    },
+    {
+      "context_snippet": "WNED is an entity linking systems that accepts text with marked named entities and links them to their referent entities in a knowledge base (e.g. Wikipedia).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "natural-language-processing"
+    },
+    {
+      "context_snippet": "WNED is an entity linking systems that accepts text with marked named entities and links them to their referent entities in a knowledge base (e.g. Wikipedia).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "wikipedia"
+    }
+  ]
+}

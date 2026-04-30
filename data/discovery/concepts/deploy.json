@@ -1018,6 +1018,78 @@
       "source_repo": "jin-s13/xtcocoapi",
       "status": "candidate-context",
       "text": "deploy"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lunarmodules/luassert",
+      "status": "candidate-context",
+      "text": "Assertion library for Lua"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lunarmodules/luassert",
+      "status": "candidate-context",
+      "text": "Deploy"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "paritytech/cargo-unleash",
+      "status": "candidate-context",
+      "text": "cargo release automatisation tooling for massiv mono-repos"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "paritytech/cargo-unleash",
+      "status": "candidate-context",
+      "text": "Deploy"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "galaxyproject/planemo",
+      "status": "candidate-context",
+      "text": "Command-line utilities to assist in developing Galaxy and Common Workflow Language artifacts - including tools, workflows, and training materials."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "galaxyproject/planemo",
+      "status": "candidate-context",
+      "text": "Deploy"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "privacycg/storage-access",
+      "status": "candidate-context",
+      "text": "The Storage Access API"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "privacycg/storage-access",
+      "status": "candidate-context",
+      "text": "deploy"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cuiziteng/ICCV_MAET",
+      "status": "candidate-context",
+      "text": "\ud83c\udf15 [ICCV 2021] Multitask AET with Orthogonal Tangent Regularity for Dark Object Detection. A self-supervised learning way for low-light image object detection."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cuiziteng/ICCV_MAET",
+      "status": "candidate-context",
+      "text": "deploy"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gnunicorn/cargo-unleash",
+      "status": "candidate-context",
+      "text": "cargo release automatisation tooling for massiv mono-repos"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gnunicorn/cargo-unleash",
+      "status": "candidate-context",
+      "text": "Deploy"
     }
   ],
   "candidate_glosses": [
@@ -1530,6 +1602,42 @@
       "source_repo": "jin-s13/xtcocoapi",
       "status": "candidate",
       "text": "deploy"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lunarmodules/luassert",
+      "status": "candidate",
+      "text": "Deploy"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "paritytech/cargo-unleash",
+      "status": "candidate",
+      "text": "Deploy"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "galaxyproject/planemo",
+      "status": "candidate",
+      "text": "Deploy"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "privacycg/storage-access",
+      "status": "candidate",
+      "text": "deploy"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cuiziteng/ICCV_MAET",
+      "status": "candidate",
+      "text": "deploy"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gnunicorn/cargo-unleash",
+      "status": "candidate",
+      "text": "Deploy"
     }
   ],
   "candidate_related_terms": [
@@ -2173,11 +2281,95 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": ".github/workflows/publish-to-pypi.yml",
       "source_repo": "jin-s13/xtcocoapi"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/deploy.yml",
+      "source_repo": "lunarmodules/luassert"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/deploy.yml",
+      "source_repo": "paritytech/cargo-unleash"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/deploy.yml",
+      "source_repo": "rust-lang/rust-clippy"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/deploy.yml",
+      "source_repo": "privacycg/template"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/publish-to-pypi.yml",
+      "source_repo": "open-mmlab/mmagic"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/deploy.yml",
+      "source_repo": "ultrajson/ultrajson"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/deploy.yaml",
+      "source_repo": "galaxyproject/planemo"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/deploy.yml",
+      "source_repo": "ipld/explore.ipld.io"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/deploy.yml",
+      "source_repo": "rust-lang/mdBook"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/deploy.yml",
+      "source_repo": "privacycg/storage-access"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "PaddlePaddle/Paddle2ONNX"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/deploy.yml",
+      "source_repo": "cuiziteng/ICCV_MAET"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "ko-build/ko"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/deploy.yml",
+      "source_repo": "gnunicorn/cargo-unleash"
     }
   ],
   "first_seen_at": "2026-04-18T11:56:18.570627+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

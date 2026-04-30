@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Update Luau Version"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JohnnyMorganz/luau-lsp",
+      "status": "candidate-context",
+      "text": "Language Server Implementation for Luau"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JohnnyMorganz/luau-lsp",
+      "status": "candidate-context",
+      "text": "Update Luau Version"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JohnnyMorganz/luau-lsp",
+      "status": "candidate",
+      "text": "Update Luau Version"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18045,
+      "status": "candidate",
+      "text": "poi"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18025,
+      "status": "candidate",
+      "text": "north korea"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10031,
+      "status": "candidate",
+      "text": "uke"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9955,
+      "status": "candidate",
+      "text": "chon"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9955,
+      "status": "candidate",
+      "text": "south korea"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Update Luau Version",
+  "concept_id": "update-luau-version",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/update-luau-version.yml",
+      "source_repo": "JohnnyMorganz/luau-lsp"
+    }
+  ],
+  "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Update Luau Version",
+      "sense_id": "update-luau-version#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

@@ -1,0 +1,127 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "G-U-N/AnimateLCM",
+      "target": "dezi-ai/comfyui-animatelcm",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "G-U-N/AnimateLCM",
+      "target": "animatelcm",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "G-U-N/AnimateLCM",
+      "target": "consistency-models",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "G-U-N/AnimateLCM",
+      "target": "deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "G-U-N/AnimateLCM",
+      "target": "fast-sampling",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "G-U-N/AnimateLCM",
+      "target": "video",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "G-U-N/AnimateLCM",
+      "target": "video-generation",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T03:53:19.622471+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7824
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "[SIGGRAPH ASIA 2024 TCS] AnimateLCM: Computation-Efficient Personalized Style Video Generation without Personalized Video Data",
+    "fork": false,
+    "full_name": "G-U-N/AnimateLCM",
+    "html_url": "https://github.com/G-U-N/AnimateLCM",
+    "language": "Python",
+    "pushed_at": "2024-10-22T03:10:41Z",
+    "stargazers_count": 662,
+    "topics": [
+      "animatelcm",
+      "consistency-models",
+      "deep-learning",
+      "fast-sampling",
+      "video",
+      "video-generation"
+    ],
+    "updated_at": "2026-04-29T11:25:42Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dezi-ai/comfyui-animatelcm",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "animatelcm"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "consistency-models"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-learning"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "fast-sampling"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "video"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "video-generation"
+    }
+  ]
+}

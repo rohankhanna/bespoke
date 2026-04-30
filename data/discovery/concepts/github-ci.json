@@ -188,6 +188,54 @@
       "source_repo": "docker-library/php",
       "status": "candidate-context",
       "text": "GitHub CI"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "docker-library/wordpress",
+      "status": "candidate-context",
+      "text": "Docker Official Image packaging for WordPress"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "docker-library/wordpress",
+      "status": "candidate-context",
+      "text": "GitHub CI"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "docker-library/python",
+      "status": "candidate-context",
+      "text": "Docker Official Image packaging for Python"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "docker-library/python",
+      "status": "candidate-context",
+      "text": "GitHub CI"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "docker-library/ruby",
+      "status": "candidate-context",
+      "text": "Docker Official Image packaging for Ruby"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "docker-library/ruby",
+      "status": "candidate-context",
+      "text": "GitHub CI"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "DNSCrypt/dnscrypt-proxy",
+      "status": "candidate-context",
+      "text": "dnscrypt-proxy 2 - A flexible DNS proxy, with support for encrypted DNS protocols."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DNSCrypt/dnscrypt-proxy",
+      "status": "candidate-context",
+      "text": "GitHub CI"
     }
   ],
   "candidate_glosses": [
@@ -284,6 +332,30 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "docker-library/php",
+      "status": "candidate",
+      "text": "GitHub CI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "docker-library/wordpress",
+      "status": "candidate",
+      "text": "GitHub CI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "docker-library/python",
+      "status": "candidate",
+      "text": "GitHub CI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "docker-library/ruby",
+      "status": "candidate",
+      "text": "GitHub CI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DNSCrypt/dnscrypt-proxy",
       "status": "candidate",
       "text": "GitHub CI"
     }
@@ -425,11 +497,35 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": ".github/workflows/ci.yml",
       "source_repo": "docker-library/php"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "docker-library/wordpress"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "docker-library/python"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "docker-library/ruby"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/releases.yml",
+      "source_repo": "DNSCrypt/dnscrypt-proxy"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

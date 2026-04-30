@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "referring-image-segmentation"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ChenyunWu/PhraseCutDataset",
+      "status": "candidate-context",
+      "text": "Dataset API for \"PhraseCut: Language-based Image Segmentation in the Wild\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ChenyunWu/PhraseCutDataset",
+      "status": "candidate-context",
+      "text": "<table width=\"100%\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ChenyunWu/PhraseCutDataset",
+      "status": "candidate",
+      "text": "<table width=\"100%\">"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "referring-image-segmentation",
+  "concept_id": "referring-image-segmentation",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "ChenyunWu/PhraseCutDataset"
+    }
+  ],
+  "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "referring-image-segmentation",
+      "sense_id": "referring-image-segmentation#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

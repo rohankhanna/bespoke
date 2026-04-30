@@ -1,7 +1,7 @@
 {
   "component": "stefanzweifel/git-auto-commit-action@v4",
   "first_seen_at": "2026-04-18T10:38:37.562216+00:00",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -117,6 +117,41 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/build.yaml",
       "source_repo": "m4rc1e/test-ufr-family"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "nvimdev/dashboard-nvim"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/autogen.yml",
+      "source_repo": "nvim-lualine/lualine.nvim"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml.bak",
+      "source_repo": "EdenEast/nightfox.nvim"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/extra.yml",
+      "source_repo": "EdenEast/nightfox.nvim"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "kdheepak/tabline.nvim"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/lemmy-help.yml",
+      "source_repo": "pysan3/pathlib.nvim"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/stylua.yml",
+      "source_repo": "pysan3/pathlib.nvim"
     }
   ]
 }

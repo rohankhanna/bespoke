@@ -1,0 +1,166 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-publish.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-publish.yml"
+    },
+    {
+      "component": "pypa/gh-action-pypi-publish@release/v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-publish.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "vietanhdev/samexporter",
+      "target": "facebookresearch/segment-anything-2",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "vietanhdev/samexporter",
+      "target": "facebookresearch/sam3",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "vietanhdev/samexporter",
+      "target": "vietanhdev/anylabeling",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "vietanhdev/samexporter",
+      "target": "ibaigorordo/onnx-sam2-segment-anything",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-publish.yml",
+      "source_repo": "vietanhdev/samexporter",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-publish.yml",
+      "source_repo": "vietanhdev/samexporter",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-publish.yml",
+      "source_repo": "vietanhdev/samexporter",
+      "target": "pypa/gh-action-pypi-publish@release/v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "vietanhdev/samexporter",
+      "target": "onnx",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "vietanhdev/samexporter",
+      "target": "segment-anything",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "vietanhdev/samexporter",
+      "target": "segment-anything-model",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T01:57:11.986051+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 10639
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 1839
+    },
+    {
+      "path": ".github/workflows/python-publish.yml",
+      "size": 914
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Exporting Segment Anything, MobileSAM, and Segment Anything 2 into ONNX format for easy deployment",
+    "fork": false,
+    "full_name": "vietanhdev/samexporter",
+    "html_url": "https://github.com/vietanhdev/samexporter",
+    "language": "Python",
+    "pushed_at": "2026-02-22T04:54:57Z",
+    "stargazers_count": 401,
+    "topics": [
+      "onnx",
+      "segment-anything",
+      "segment-anything-model"
+    ],
+    "updated_at": "2026-04-21T07:24:45Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "facebookresearch/sam3",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "facebookresearch/segment-anything-2",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ibaigorordo/onnx-sam2-segment-anything",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "vietanhdev/anylabeling",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Export [Segment Anything](https://github.com/facebookresearch/segment-anything), [MobileSAM](https://github.com/ChaoningZhang/MobileSAM), [Segment Anything 2 / 2.1](https://github.com/facebookresearch/segment-anything-2), and [Segment Anything 3](https://github.com/facebookresea\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "onnx"
+    },
+    {
+      "context_snippet": "Export [Segment Anything](https://github.com/facebookresearch/segment-anything), [MobileSAM](https://github.com/ChaoningZhang/MobileSAM), [Segment Anything 2 / 2.1](https://github.com/facebookresearch/segment-anything-2), and [Segment Anything 3](https://github.com/facebookresea\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "segment-anything"
+    },
+    {
+      "context_snippet": "Export [Segment Anything](https://github.com/facebookresearch/segment-anything), [MobileSAM](https://github.com/ChaoningZhang/MobileSAM), [Segment Anything 2 / 2.1](https://github.com/facebookresearch/segment-anything-2), and [Segment Anything 3](https://github.com/facebookresea\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "segment-anything-model"
+    }
+  ]
+}

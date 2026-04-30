@@ -111,6 +111,54 @@
       "source_repo": "i18next/i18next-scanner",
       "status": "candidate-context",
       "text": "[![NPM](https://nodei.co/npm/i18next-scanner.png?downloads=true&stars=true)](https://www.npmjs.com/package/i18next-scanner)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "formatjs/formatjs",
+      "status": "candidate-context",
+      "text": "The monorepo home to all of the FormatJS related libraries, most notably react-intl."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "formatjs/formatjs",
+      "status": "candidate-context",
+      "text": "[![Unit Tests](https://github.com/formatjs/formatjs/actions/workflows/tests.yml/badge.svg)](https://github.com/formatjs/formatjs/actions/workflows/tests.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "locize/locize-lastused",
+      "status": "candidate-context",
+      "text": "Using API lastUsed using in node.js, in the browser and for deno."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "locize/locize-lastused",
+      "status": "candidate-context",
+      "text": "[![Actions](https://github.com/locize/locize-lastused/workflows/node/badge.svg)](https://github.com/locize/locize-lastused/actions?query=workflow%3Anode)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "i18next/i18next",
+      "status": "candidate-context",
+      "text": " i18next: learn once - translate everywhere"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "i18next/i18next",
+      "status": "candidate-context",
+      "text": "[![CI](https://github.com/i18next/i18next/actions/workflows/CI.yml/badge.svg)](https://github.com/i18next/i18next/actions/workflows/CI.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "i18next/react-i18next",
+      "status": "candidate-context",
+      "text": "Internationalization for react done right. Using the i18next i18n ecosystem."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "i18next/react-i18next",
+      "status": "candidate-context",
+      "text": "[![CI](https://github.com/i18next/react-i18next/actions/workflows/CI.yml/badge.svg)](https://github.com/i18next/react-i18next/actions/workflows/CI.yml)"
     }
   ],
   "candidate_glosses": [
@@ -167,6 +215,30 @@
       "source_repo": "i18next/i18next-scanner",
       "status": "candidate",
       "text": "[![NPM](https://nodei.co/npm/i18next-scanner.png?downloads=true&stars=true)](https://www.npmjs.com/package/i18next-scanner)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "formatjs/formatjs",
+      "status": "candidate",
+      "text": "[![Unit Tests](https://github.com/formatjs/formatjs/actions/workflows/tests.yml/badge.svg)](https://github.com/formatjs/formatjs/actions/workflows/tests.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "locize/locize-lastused",
+      "status": "candidate",
+      "text": "[![Actions](https://github.com/locize/locize-lastused/workflows/node/badge.svg)](https://github.com/locize/locize-lastused/actions?query=workflow%3Anode)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "i18next/i18next",
+      "status": "candidate",
+      "text": "[![CI](https://github.com/i18next/i18next/actions/workflows/CI.yml/badge.svg)](https://github.com/i18next/i18next/actions/workflows/CI.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "i18next/react-i18next",
+      "status": "candidate",
+      "text": "[![CI](https://github.com/i18next/react-i18next/actions/workflows/CI.yml/badge.svg)](https://github.com/i18next/react-i18next/actions/workflows/CI.yml)"
     }
   ],
   "candidate_related_terms": [
@@ -330,11 +402,53 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "i18next/i18next-scanner"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "ashvardanian/StringZilla-CLI"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "ajv-validator/ajv-i18n"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "formatjs/formatjs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "lobehub/lobe-cli-toolbox"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "locize/locize-lastused"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "i18next/i18next"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "i18next/react-i18next"
     }
   ],
   "first_seen_at": "2026-04-19T02:42:33.990002+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

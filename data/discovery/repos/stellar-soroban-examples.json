@@ -1,0 +1,232 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-test-devcontainer.yml"
+    },
+    {
+      "component": "ludeeus/action-shellcheck@00cae500b08a931fb5698e11e79bfbd38e612a38",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-test-devcontainer.yml"
+    },
+    {
+      "component": "bats-core/bats-action@42fcc8700f773c075a16a90eb11674c0318ad507",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-test-devcontainer.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-test-devcontainer.yml"
+    },
+    {
+      "component": "actions/setup-node@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-test-devcontainer.yml"
+    },
+    {
+      "component": "docker/setup-buildx-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-test-devcontainer.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust.yml"
+    },
+    {
+      "component": "denoland/setup-deno@909cc5acb0fdd60627fb858598759246509fa755",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust.yml"
+    },
+    {
+      "component": "stellar/actions/rust-cache@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust.yml"
+    },
+    {
+      "component": "denoland/setup-deno@909cc5acb0fdd60627fb858598759246509fa755",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust.yml"
+    },
+    {
+      "component": "stellar/stellar-cli@v23.1.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/validate-devcontainer-json.yml"
+    },
+    {
+      "component": "actions/setup-node@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/validate-devcontainer-json.yml"
+    },
+    {
+      "component": "actions/github-script@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/validate-devcontainer-json.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-test-devcontainer.yml",
+      "source_repo": "stellar/soroban-examples",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-test-devcontainer.yml",
+      "source_repo": "stellar/soroban-examples",
+      "target": "ludeeus/action-shellcheck@00cae500b08a931fb5698e11e79bfbd38e612a38",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-test-devcontainer.yml",
+      "source_repo": "stellar/soroban-examples",
+      "target": "bats-core/bats-action@42fcc8700f773c075a16a90eb11674c0318ad507",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-test-devcontainer.yml",
+      "source_repo": "stellar/soroban-examples",
+      "target": "actions/setup-node@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-test-devcontainer.yml",
+      "source_repo": "stellar/soroban-examples",
+      "target": "docker/setup-buildx-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-and-test-devcontainer.yml",
+      "source_repo": "stellar/soroban-examples",
+      "target": "Build and Test DevContainer",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust.yml",
+      "source_repo": "stellar/soroban-examples",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust.yml",
+      "source_repo": "stellar/soroban-examples",
+      "target": "denoland/setup-deno@909cc5acb0fdd60627fb858598759246509fa755",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust.yml",
+      "source_repo": "stellar/soroban-examples",
+      "target": "stellar/actions/rust-cache@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust.yml",
+      "source_repo": "stellar/soroban-examples",
+      "target": "stellar/stellar-cli@v23.1.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/rust.yml",
+      "source_repo": "stellar/soroban-examples",
+      "target": "Rust",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/validate-devcontainer-json.yml",
+      "source_repo": "stellar/soroban-examples",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/validate-devcontainer-json.yml",
+      "source_repo": "stellar/soroban-examples",
+      "target": "actions/setup-node@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/validate-devcontainer-json.yml",
+      "source_repo": "stellar/soroban-examples",
+      "target": "actions/github-script@v7",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-04-30T00:48:39.225234+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9530
+    },
+    {
+      "path": ".github/workflows/build-and-test-devcontainer.yml",
+      "size": 2898
+    },
+    {
+      "path": ".github/workflows/rust.yml",
+      "size": 2926
+    },
+    {
+      "path": ".github/workflows/validate-devcontainer-json.yml",
+      "size": 7203
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Example Soroban Contracts",
+    "fork": false,
+    "full_name": "stellar/soroban-examples",
+    "html_url": "https://github.com/stellar/soroban-examples",
+    "language": "Circom",
+    "pushed_at": "2026-03-23T14:10:24Z",
+    "stargazers_count": 105,
+    "topics": [],
+    "updated_at": "2026-04-23T08:51:10Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Build and Test DevContainer",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-and-test-devcontainer.yml",
+      "term": "Build and Test DevContainer"
+    },
+    {
+      "context_snippet": "Rust",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/rust.yml",
+      "term": "Rust"
+    }
+  ]
+}

@@ -128,6 +128,42 @@
       "source_repo": "prometheus/node_exporter",
       "status": "candidate-context",
       "text": "govulncheck"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "google/certificate-transparency-go",
+      "status": "candidate-context",
+      "text": "Auditing for TLS certificates (Go code)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/certificate-transparency-go",
+      "status": "candidate-context",
+      "text": "govulncheck"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "transparency-dev/distributor",
+      "status": "candidate-context",
+      "text": "Libraries and binaries for running checkpoint distributors for verifiable logs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "transparency-dev/distributor",
+      "status": "candidate-context",
+      "text": "govulncheck"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "prometheus/alertmanager",
+      "status": "candidate-context",
+      "text": "Prometheus Alertmanager"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "prometheus/alertmanager",
+      "status": "candidate-context",
+      "text": "govulncheck"
     }
   ],
   "candidate_glosses": [
@@ -182,6 +218,24 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "prometheus/node_exporter",
+      "status": "candidate",
+      "text": "govulncheck"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/certificate-transparency-go",
+      "status": "candidate",
+      "text": "govulncheck"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "transparency-dev/distributor",
+      "status": "candidate",
+      "text": "govulncheck"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "prometheus/alertmanager",
       "status": "candidate",
       "text": "govulncheck"
     }
@@ -251,11 +305,29 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": ".github/workflows/govulncheck.yml",
       "source_repo": "prometheus/node_exporter"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/govulncheck.yml",
+      "source_repo": "google/certificate-transparency-go"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/govulncheck.yml",
+      "source_repo": "transparency-dev/distributor"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/govulncheck.yml",
+      "source_repo": "prometheus/alertmanager"
     }
   ],
   "first_seen_at": "2026-04-18T13:29:00.435097+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

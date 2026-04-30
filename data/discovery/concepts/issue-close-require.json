@@ -31,6 +31,30 @@
       "source_repo": "vitejs/vite",
       "status": "candidate-context",
       "text": "Issue Close Require"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "vitest-dev/vitest",
+      "status": "candidate-context",
+      "text": "Next generation testing framework powered by Vite."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vitest-dev/vitest",
+      "status": "candidate-context",
+      "text": "Issue Close Require"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "web-infra-dev/rsbuild",
+      "status": "candidate-context",
+      "text": "Simple, fast, extensible build tool. Powered by Rspack \ud83e\udd80"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "web-infra-dev/rsbuild",
+      "status": "candidate-context",
+      "text": "Issue Close Require"
     }
   ],
   "candidate_glosses": [
@@ -43,6 +67,18 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "vitejs/vite",
+      "status": "candidate",
+      "text": "Issue Close Require"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vitest-dev/vitest",
+      "status": "candidate",
+      "text": "Issue Close Require"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "web-infra-dev/rsbuild",
       "status": "candidate",
       "text": "Issue Close Require"
     }
@@ -208,11 +244,29 @@
       "observed_at": "2026-04-24T12:33:41.350224+00:00",
       "source_file": ".github/workflows/issue-close-require.yml",
       "source_repo": "lobehub/lobe-cli-toolbox"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/issue-close-require.yml",
+      "source_repo": "vitest-dev/vitest"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/issue-close-require.yml",
+      "source_repo": "lobehub/lobe-cli-toolbox"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/issue-close-require.yml",
+      "source_repo": "web-infra-dev/rsbuild"
     }
   ],
   "first_seen_at": "2026-04-18T11:32:22.637859+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

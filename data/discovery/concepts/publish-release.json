@@ -177,6 +177,54 @@
       "source_repo": "apollographql/apollo-kotlin",
       "status": "candidate-context",
       "text": "publish-release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "clangd/vscode-clangd",
+      "status": "candidate-context",
+      "text": "Visual Studio Code extension for clangd"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "clangd/vscode-clangd",
+      "status": "candidate-context",
+      "text": "Publish release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mermaid-js/mermaid-cli",
+      "status": "candidate-context",
+      "text": "Command line tool for the Mermaid library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mermaid-js/mermaid-cli",
+      "status": "candidate-context",
+      "text": "Publish release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "goharbor/harbor-helm",
+      "status": "candidate-context",
+      "text": "The helm chart to deploy Harbor"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "goharbor/harbor-helm",
+      "status": "candidate-context",
+      "text": "Publish Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "paulmillr/chokidar",
+      "status": "candidate-context",
+      "text": "Minimal and efficient cross-platform file watching library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "paulmillr/chokidar",
+      "status": "candidate-context",
+      "text": "Publish release"
     }
   ],
   "candidate_glosses": [
@@ -263,6 +311,30 @@
       "source_repo": "apollographql/apollo-kotlin",
       "status": "candidate",
       "text": "publish-release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "clangd/vscode-clangd",
+      "status": "candidate",
+      "text": "Publish release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mermaid-js/mermaid-cli",
+      "status": "candidate",
+      "text": "Publish release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "goharbor/harbor-helm",
+      "status": "candidate",
+      "text": "Publish Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "paulmillr/chokidar",
+      "status": "candidate",
+      "text": "Publish release"
     }
   ],
   "candidate_related_terms": [
@@ -414,11 +486,41 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": ".github/workflows/publish-release.yml",
       "source_repo": "apollographql/apollo-kotlin"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/auto-release.yml",
+      "source_repo": "clangd/vscode-clangd"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/release-publish.yml",
+      "source_repo": "mermaid-js/mermaid-cli"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/publish_release.yaml",
+      "source_repo": "goharbor/harbor-helm"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/publish_release.yml",
+      "source_repo": "swiftlang/swift-syntax"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "paulmillr/chokidar"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

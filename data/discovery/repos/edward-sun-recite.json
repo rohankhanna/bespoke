@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T04:59:02.372696+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2843
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Code of ICLR paper: https://openreview.net/forum?id=-cqvvvb-NkI",
+    "fork": false,
+    "full_name": "Edward-Sun/RECITE",
+    "html_url": "https://github.com/Edward-Sun/RECITE",
+    "language": "Python",
+    "pushed_at": "2023-02-22T22:54:32Z",
+    "stargazers_count": 96,
+    "topics": [],
+    "updated_at": "2026-03-02T10:21:12Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

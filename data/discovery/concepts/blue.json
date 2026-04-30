@@ -1,0 +1,136 @@
+{
+  "aliases": [
+    "blue"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JuliaDiff/BlueStyle",
+      "status": "candidate-context",
+      "text": "A Julia style guide that lives in a blue world"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaDiff/BlueStyle",
+      "status": "candidate-context",
+      "text": "[![Code Style: Blue](https://img.shields.io/badge/code%20style-blue-4495d1.svg)](https://github.com/JuliaDiff/BlueStyle)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaDiff/BlueStyle",
+      "status": "candidate",
+      "text": "[![Code Style: Blue](https://img.shields.io/badge/code%20style-blue-4495d1.svg)](https://github.com/JuliaDiff/BlueStyle)"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40048404,
+      "status": "candidate",
+      "text": "bluish"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40048219,
+      "status": "candidate",
+      "text": "blue sky"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40048168,
+      "status": "candidate",
+      "text": "blueish"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40023636,
+      "status": "candidate",
+      "text": "spicy"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39996047,
+      "status": "candidate",
+      "text": "amytal"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 69042,
+      "status": "candidate",
+      "text": "grim"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 66041,
+      "status": "candidate",
+      "text": "chromatic"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 63032,
+      "status": "candidate",
+      "text": "dejected"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 50037,
+      "status": "candidate",
+      "text": "dismal"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 50029,
+      "status": "candidate",
+      "text": "sexy"
+    }
+  ],
+  "canonical_name": "blue",
+  "concept_id": "blue",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "JuliaDiff/BlueStyle"
+    }
+  ],
+  "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "blue",
+      "sense_id": "blue#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

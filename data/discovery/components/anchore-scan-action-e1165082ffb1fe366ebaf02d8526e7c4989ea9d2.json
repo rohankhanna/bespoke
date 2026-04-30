@@ -1,7 +1,7 @@
 {
   "component": "anchore/scan-action@e1165082ffb1fe366ebaf02d8526e7c4989ea9d2",
   "first_seen_at": "2026-04-21T18:51:25.552552+00:00",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -12,6 +12,11 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/grype.yml",
       "source_repo": "gopasspw/gopass"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release-security-fix.yml",
+      "source_repo": "MShekow/directory-checksum"
     }
   ]
 }

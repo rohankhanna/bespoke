@@ -1,0 +1,111 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "danielrosehill/AI-Developer-Notebook",
+      "target": "danielrosehill/claude-code-repos-index",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "danielrosehill/AI-Developer-Notebook",
+      "target": "danielrosehill/github-master-index",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "danielrosehill/AI-Developer-Notebook",
+      "target": "claude-code",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "danielrosehill/AI-Developer-Notebook",
+      "target": "developer-notes",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "danielrosehill/AI-Developer-Notebook",
+      "target": "documentation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "danielrosehill/AI-Developer-Notebook",
+      "target": "obsidian",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T04:58:39.340615+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4276
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Notes for configuring a reference notebook with Claude Code",
+    "fork": false,
+    "full_name": "danielrosehill/AI-Developer-Notebook",
+    "html_url": "https://github.com/danielrosehill/AI-Developer-Notebook",
+    "language": "Shell",
+    "pushed_at": "2025-10-25T23:51:04Z",
+    "stargazers_count": 1,
+    "topics": [
+      "claude-code",
+      "developer-notes",
+      "documentation",
+      "obsidian"
+    ],
+    "updated_at": "2025-12-19T03:53:37Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "danielrosehill/claude-code-repos-index",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "danielrosehill/github-master-index",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[![Claude Code](https://img.shields.io/badge/Claude_Code-Project-8A2BE2?logo=anthropic)](https://claude.ai/code)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "claude-code"
+    },
+    {
+      "context_snippet": "[![Claude Code](https://img.shields.io/badge/Claude_Code-Project-8A2BE2?logo=anthropic)](https://claude.ai/code)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "developer-notes"
+    },
+    {
+      "context_snippet": "[![Claude Code](https://img.shields.io/badge/Claude_Code-Project-8A2BE2?logo=anthropic)](https://claude.ai/code)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "documentation"
+    },
+    {
+      "context_snippet": "[![Claude Code](https://img.shields.io/badge/Claude_Code-Project-8A2BE2?logo=anthropic)](https://claude.ai/code)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "obsidian"
+    }
+  ]
+}

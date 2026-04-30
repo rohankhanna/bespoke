@@ -96,13 +96,6 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "oobabooga/textgen",
-      "target": "oobabooga/screenshots",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "oobabooga/textgen",
       "target": "ggerganov/llama.cpp",
       "target_type": "repository"
     },
@@ -110,14 +103,7 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "oobabooga/textgen",
-      "target": "ikawrakow/ik_llama.cpp",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "oobabooga/textgen",
-      "target": "atinoda/text-generation-webui-docker",
+      "target": "oobabooga/textgen-extensions",
       "target_type": "repository"
     },
     {
@@ -296,7 +282,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-29T21:42:51.095928+00:00",
+  "fetched_at": "2026-04-30T03:03:49.573341+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -341,16 +327,11 @@
     "html_url": "https://github.com/oobabooga/textgen",
     "language": "Python",
     "pushed_at": "2026-04-27T23:34:27Z",
-    "stargazers_count": 46894,
+    "stargazers_count": 46896,
     "topics": [],
-    "updated_at": "2026-04-29T20:44:50Z"
+    "updated_at": "2026-04-30T02:13:32Z"
   },
   "repo_links": [
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "atinoda/text-generation-webui-docker",
-      "source_file": "README.md"
-    },
     {
       "edge_type": "explicit-github-link",
       "full_name": "ggerganov/llama.cpp",
@@ -358,12 +339,7 @@
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "ikawrakow/ik_llama.cpp",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "oobabooga/screenshots",
+      "full_name": "oobabooga/textgen-extensions",
       "source_file": "README.md"
     }
   ],

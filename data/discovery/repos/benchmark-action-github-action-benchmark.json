@@ -673,13 +673,6 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "benchmark-action/github-action-benchmark",
-      "target": "treosh/lighthouse-ci-action",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "benchmark-action/github-action-benchmark",
       "target": "rhysd/github-action-benchmark",
       "target_type": "repository"
     },
@@ -1195,7 +1188,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-29T21:55:28.486469+00:00",
+  "fetched_at": "2026-04-30T03:59:35.762068+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -1265,11 +1258,6 @@
     {
       "edge_type": "explicit-github-link",
       "full_name": "roblox/luau",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "treosh/lighthouse-ci-action",
       "source_file": "README.md"
     }
   ],

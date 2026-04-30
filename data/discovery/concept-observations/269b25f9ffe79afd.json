@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A ClojureScript framework for building user interfaces, leveraging React"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<p align=\"center\"><a href=\"https://day8.github.io/re-frame\" target=\"_blank\" rel=\"noopener noreferrer\"><img src=\"docs/images/logo/re-frame-colour.png?raw=true\" alt=\"re-frame logo\"></a></p>"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<p align=\"center\"><a href=\"https://day8.github.io/re-frame\" target=\"_blank\" rel=\"noopener noreferrer\"><img src=\"docs/images/logo/re-frame-colour.png?raw=true\" alt=\"re-frame logo\"></a></p>"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "clojurescript",
+      "sense_id": "clojurescript#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "clojurescript",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "clojurescript",
+  "observation_id": "269b25f9ffe79afd",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T00:37:16.824464+00:00",
+  "observed_text": "clojurescript",
+  "source_context_snippet": "<p align=\"center\"><a href=\"https://day8.github.io/re-frame\" target=\"_blank\" rel=\"noopener noreferrer\"><img src=\"docs/images/logo/re-frame-colour.png?raw=true\" alt=\"re-frame logo\"></a></p>",
+  "source_file": null,
+  "source_repo": "day8/re-frame",
+  "source_repo_description": "A ClojureScript framework for building user interfaces, leveraging React"
+}

@@ -139,6 +139,66 @@
       "source_repo": "ultralytics/yolov5",
       "status": "candidate-context",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "AXERA-TECH/ax-samples",
+      "status": "candidate-context",
+      "text": "Samples code for world class Artificial Intelligence SoCs for computer vision applications."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AXERA-TECH/ax-samples",
+      "status": "candidate-context",
+      "text": "[English](./README_EN.md) | \u7b80\u4f53\u4e2d\u6587"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "derronqi/yolov7-face",
+      "status": "candidate-context",
+      "text": "yolov7 face detection with landmark"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "derronqi/yolov7-face",
+      "status": "candidate-context",
+      "text": "**2023.04** [yolov8-face](https://github.com/derronqi/yolov8-face) (\ud83d\udd25\ud83d\udd25\ud83d\udd25\u2191)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "zhiqwang/yolort",
+      "status": "candidate-context",
+      "text": "yolort is a runtime stack for yolov5 on specialized accelerators such as tensorrt, libtorch, onnxruntime, tvm and ncnn."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "zhiqwang/yolort",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "derronqi/yolov8-face",
+      "status": "candidate-context",
+      "text": "yolov8 face detection with landmark"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "derronqi/yolov8-face",
+      "status": "candidate-context",
+      "text": "**2024.04** [ncnn-android-yolov8-face](https://github.com/derronqi/ncnn-android-yolov8-face) (\ud83d\udd25\ud83d\udd25\ud83d\udd25\u2191)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ppogg/YOLOv5-Lite",
+      "status": "candidate-context",
+      "text": "\ud83c\udf45\ud83c\udf45\ud83c\udf45YOLOv5-Lite: Evolved from yolov5 and the size of model is only 900+kb (int8) and 1.7M (fp16). Reach 15 FPS on the Raspberry Pi 4B~"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ppogg/YOLOv5-Lite",
+      "status": "candidate-context",
+      "text": "![\u8bba\u6587\u63d2\u56fe](https://user-images.githubusercontent.com/82716366/167448925-a431d3a4-ad5d-491d-be95-c90701122a54.png)"
     }
   ],
   "candidate_glosses": [
@@ -207,6 +267,36 @@
       "source_repo": "ultralytics/yolov5",
       "status": "candidate",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AXERA-TECH/ax-samples",
+      "status": "candidate",
+      "text": "[English](./README_EN.md) | \u7b80\u4f53\u4e2d\u6587"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "derronqi/yolov7-face",
+      "status": "candidate",
+      "text": "**2023.04** [yolov8-face](https://github.com/derronqi/yolov8-face) (\ud83d\udd25\ud83d\udd25\ud83d\udd25\u2191)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "zhiqwang/yolort",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "derronqi/yolov8-face",
+      "status": "candidate",
+      "text": "**2024.04** [ncnn-android-yolov8-face](https://github.com/derronqi/ncnn-android-yolov8-face) (\ud83d\udd25\ud83d\udd25\ud83d\udd25\u2191)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ppogg/YOLOv5-Lite",
+      "status": "candidate",
+      "text": "![\u8bba\u6587\u63d2\u56fe](https://user-images.githubusercontent.com/82716366/167448925-a431d3a4-ad5d-491d-be95-c90701122a54.png)"
     }
   ],
   "candidate_related_terms": [],
@@ -280,11 +370,41 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "ultralytics/yolov5"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "AXERA-TECH/ax-samples"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "derronqi/yolov7-face"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "zhiqwang/yolort"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "derronqi/yolov8-face"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "ppogg/YOLOv5-Lite"
     }
   ],
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

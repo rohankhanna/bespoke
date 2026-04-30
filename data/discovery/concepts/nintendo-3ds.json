@@ -19,6 +19,30 @@
       "source_repo": "rust3ds/ctru-rs",
       "status": "candidate-context",
       "text": "This repository is home of the `ctru-rs` project, which aims to bring full control of the Nintendo 3DS console to homebrew developers using Rust."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "devkitPro/libctru",
+      "status": "candidate-context",
+      "text": "Homebrew development library for Nintendo 3DS/Horizon OS user mode (Arm11)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "devkitPro/libctru",
+      "status": "candidate-context",
+      "text": "![Build Status](https://github.com/devkitPro/libctru/actions/workflows/build.yaml/badge.svg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rust3ds/ctru-rs-old",
+      "status": "candidate-context",
+      "text": "A collection of crates for developing 3DS homebrew in Rust."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rust3ds/ctru-rs-old",
+      "status": "candidate-context",
+      "text": "This repository has been deprecated in favour of the new `ctru-rs` version of the Rust3DS toolchain. For more information about the new tools and libraries, check [ctru-rs](https://github.com/rust3ds/ctru-rs)."
     }
   ],
   "candidate_glosses": [
@@ -27,6 +51,18 @@
       "source_repo": "rust3ds/ctru-rs",
       "status": "candidate",
       "text": "This repository is home of the `ctru-rs` project, which aims to bring full control of the Nintendo 3DS console to homebrew developers using Rust."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "devkitPro/libctru",
+      "status": "candidate",
+      "text": "![Build Status](https://github.com/devkitPro/libctru/actions/workflows/build.yaml/badge.svg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rust3ds/ctru-rs-old",
+      "status": "candidate",
+      "text": "This repository has been deprecated in favour of the new `ctru-rs` version of the Rust3DS toolchain. For more information about the new tools and libraries, check [ctru-rs](https://github.com/rust3ds/ctru-rs)."
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +76,23 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "rust3ds/ctru-rs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "devkitPro/libctru"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "rust3ds/ctru-rs-old"
     }
   ],
   "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

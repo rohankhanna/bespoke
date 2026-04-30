@@ -507,6 +507,72 @@
       "source_repo": "nikepan/clickhouse-bulk",
       "status": "candidate-context",
       "text": "goreleaser"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ContentSquare/chproxy",
+      "status": "candidate-context",
+      "text": "Open-Source ClickHouse http proxy and load balancer"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ContentSquare/chproxy",
+      "status": "candidate-context",
+      "text": "goreleaser"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "operator-framework/operator-registry",
+      "status": "candidate-context",
+      "text": " Operator Registry runs in a Kubernetes or OpenShift cluster to provide operator catalog data to Operator Lifecycle Manager."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "operator-framework/operator-registry",
+      "status": "candidate-context",
+      "text": "goreleaser"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "boj/redistore",
+      "status": "candidate-context",
+      "text": "A session store backend for gorilla/sessions using Redis."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "boj/redistore",
+      "status": "candidate-context",
+      "text": "Goreleaser"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "viktomas/godu",
+      "status": "candidate-context",
+      "text": "Simple golang utility helping to discover large files/folders."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "viktomas/godu",
+      "status": "candidate-context",
+      "text": "goreleaser"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/go-jsonnet",
+      "status": "candidate-context",
+      "text": "goreleaser"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "goreleaser/godownloader",
+      "status": "candidate-context",
+      "text": "[DEPRECATED] Download Go binaries as fast and easily as possible."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "goreleaser/godownloader",
+      "status": "candidate-context",
+      "text": "goreleaser"
     }
   ],
   "candidate_glosses": [
@@ -747,6 +813,42 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "nikepan/clickhouse-bulk",
+      "status": "candidate",
+      "text": "goreleaser"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ContentSquare/chproxy",
+      "status": "candidate",
+      "text": "goreleaser"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "operator-framework/operator-registry",
+      "status": "candidate",
+      "text": "goreleaser"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "boj/redistore",
+      "status": "candidate",
+      "text": "Goreleaser"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "viktomas/godu",
+      "status": "candidate",
+      "text": "goreleaser"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/go-jsonnet",
+      "status": "candidate",
+      "text": "goreleaser"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "goreleaser/godownloader",
       "status": "candidate",
       "text": "goreleaser"
     }
@@ -1038,11 +1140,47 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": ".github/workflows/release.yaml",
       "source_repo": "rest-sh/restish"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "ContentSquare/chproxy"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/goreleaser.yaml",
+      "source_repo": "operator-framework/operator-registry"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/goreleaser.yml",
+      "source_repo": "boj/redistore"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "viktomas/godu"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "google/go-jsonnet"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/goreleaser.yml",
+      "source_repo": "goreleaser/godownloader"
     }
   ],
   "first_seen_at": "2026-04-18T10:38:37.562216+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

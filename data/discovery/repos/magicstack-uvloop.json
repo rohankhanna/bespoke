@@ -1,0 +1,360 @@
+{
+  "components": [
+    {
+      "component": "edgedb/action-release/validate-pr@bae6b9134e872166b43d218dd79397c851c41c9a",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/checkout@8ade135a41bc03ea155e62e844d188df1ea18608",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/setup-python@e797f83bcb11b83ae66e0230d6156d7c80228e7c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/checkout@8ade135a41bc03ea155e62e844d188df1ea18608",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "pypa/cibuildwheel@7c619efba910c04005a835b110b057fc28fd6e93",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/checkout@8ade135a41bc03ea155e62e844d188df1ea18608",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/download-artifact@634f93cb2916e3fdff6788551b99b062d0335ce0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "edgedb/action-release/merge@bae6b9134e872166b43d218dd79397c851c41c9a",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "elprans/gh-action-create-release@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "pypa/gh-action-pypi-publish@ed0c53931b1dc9bd32cbe73a98c7f6766f8a527e",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/checkout@8ade135a41bc03ea155e62e844d188df1ea18608",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    },
+    {
+      "component": "edgedb/action-release/validate-pr@bae6b9134e872166b43d218dd79397c851c41c9a",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    },
+    {
+      "component": "actions/setup-python@e797f83bcb11b83ae66e0230d6156d7c80228e7c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "MagicStack/uvloop",
+      "target": "edgedb/action-release/validate-pr@bae6b9134e872166b43d218dd79397c851c41c9a",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "MagicStack/uvloop",
+      "target": "actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "MagicStack/uvloop",
+      "target": "actions/checkout@8ade135a41bc03ea155e62e844d188df1ea18608",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "MagicStack/uvloop",
+      "target": "actions/setup-python@e797f83bcb11b83ae66e0230d6156d7c80228e7c",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "MagicStack/uvloop",
+      "target": "pypa/cibuildwheel@7c619efba910c04005a835b110b057fc28fd6e93",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "MagicStack/uvloop",
+      "target": "actions/download-artifact@634f93cb2916e3fdff6788551b99b062d0335ce0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "MagicStack/uvloop",
+      "target": "edgedb/action-release/merge@bae6b9134e872166b43d218dd79397c851c41c9a",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "MagicStack/uvloop",
+      "target": "elprans/gh-action-create-release@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "MagicStack/uvloop",
+      "target": "pypa/gh-action-pypi-publish@ed0c53931b1dc9bd32cbe73a98c7f6766f8a527e",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "MagicStack/uvloop",
+      "target": "Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "MagicStack/uvloop",
+      "target": "actions/checkout@8ade135a41bc03ea155e62e844d188df1ea18608",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "MagicStack/uvloop",
+      "target": "edgedb/action-release/validate-pr@bae6b9134e872166b43d218dd79397c851c41c9a",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "MagicStack/uvloop",
+      "target": "actions/setup-python@e797f83bcb11b83ae66e0230d6156d7c80228e7c",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "MagicStack/uvloop",
+      "target": "Tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "MagicStack/uvloop",
+      "target": "async",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "MagicStack/uvloop",
+      "target": "async-await",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "MagicStack/uvloop",
+      "target": "async-python",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "MagicStack/uvloop",
+      "target": "asyncio",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "MagicStack/uvloop",
+      "target": "event-loop",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "MagicStack/uvloop",
+      "target": "high-performance",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "MagicStack/uvloop",
+      "target": "libuv",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "MagicStack/uvloop",
+      "target": "networking",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "MagicStack/uvloop",
+      "target": "python-3",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T04:00:59.241343+00:00",
+  "fetched_files": [
+    {
+      "path": "README.rst",
+      "size": 3112
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 2216
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "size": 5140
+    },
+    {
+      "path": ".github/workflows/tests.yml",
+      "size": 2031
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Ultra fast asyncio event loop.",
+    "fork": false,
+    "full_name": "MagicStack/uvloop",
+    "html_url": "https://github.com/MagicStack/uvloop",
+    "language": "Cython",
+    "pushed_at": "2026-04-28T20:38:57Z",
+    "stargazers_count": 11775,
+    "topics": [
+      "async",
+      "async-await",
+      "async-python",
+      "asyncio",
+      "event-loop",
+      "high-performance",
+      "libuv",
+      "networking",
+      "python",
+      "python-3"
+    ],
+    "updated_at": "2026-04-29T16:36:15Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "term": "Release"
+    },
+    {
+      "context_snippet": "Tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/tests.yml",
+      "term": "Tests"
+    },
+    {
+      "context_snippet": ".. image:: https://img.shields.io/github/actions/workflow/status/MagicStack/uvloop/tests.yml?branch=master",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "async"
+    },
+    {
+      "context_snippet": ".. image:: https://img.shields.io/github/actions/workflow/status/MagicStack/uvloop/tests.yml?branch=master",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "async-await"
+    },
+    {
+      "context_snippet": ".. image:: https://img.shields.io/github/actions/workflow/status/MagicStack/uvloop/tests.yml?branch=master",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "async-python"
+    },
+    {
+      "context_snippet": ".. image:: https://img.shields.io/github/actions/workflow/status/MagicStack/uvloop/tests.yml?branch=master",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "asyncio"
+    },
+    {
+      "context_snippet": ".. image:: https://img.shields.io/github/actions/workflow/status/MagicStack/uvloop/tests.yml?branch=master",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "event-loop"
+    },
+    {
+      "context_snippet": ".. image:: https://img.shields.io/github/actions/workflow/status/MagicStack/uvloop/tests.yml?branch=master",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "high-performance"
+    },
+    {
+      "context_snippet": ".. image:: https://img.shields.io/github/actions/workflow/status/MagicStack/uvloop/tests.yml?branch=master",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "libuv"
+    },
+    {
+      "context_snippet": ".. image:: https://img.shields.io/github/actions/workflow/status/MagicStack/uvloop/tests.yml?branch=master",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "networking"
+    },
+    {
+      "context_snippet": ".. image:: https://img.shields.io/github/actions/workflow/status/MagicStack/uvloop/tests.yml?branch=master",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "python-3"
+    }
+  ]
+}

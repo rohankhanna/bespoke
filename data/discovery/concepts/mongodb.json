@@ -43,6 +43,42 @@
       "source_repo": "IDSIA/sacred",
       "status": "candidate-context",
       "text": "Sacred"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JarnoRFB/incense",
+      "status": "candidate-context",
+      "text": "Interactively retrieve data from sacred experiments."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JarnoRFB/incense",
+      "status": "candidate-context",
+      "text": ".. image:: https://mybinder.org/badge_logo.svg"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Borodutch/telegram-bot-starter",
+      "status": "candidate-context",
+      "text": "Telegram bot starter based on grammY"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Borodutch/telegram-bot-starter",
+      "status": "candidate-context",
+      "text": "Please, enjoy this starter template for Telegram bots based on [grammY](https://grammy.dev). It includes most common middlewares, MongoDB integration, language picker and internationalization and shows basic encapsulation techniques used by me."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mongodb/node-mongodb-native",
+      "status": "candidate-context",
+      "text": "The official MongoDB Node.js driver"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mongodb/node-mongodb-native",
+      "status": "candidate-context",
+      "text": "The official [MongoDB](https://www.mongodb.com/) driver for Node.js."
     }
   ],
   "candidate_glosses": [
@@ -63,6 +99,24 @@
       "source_repo": "IDSIA/sacred",
       "status": "candidate",
       "text": "Sacred"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JarnoRFB/incense",
+      "status": "candidate",
+      "text": ".. image:: https://mybinder.org/badge_logo.svg"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Borodutch/telegram-bot-starter",
+      "status": "candidate",
+      "text": "Please, enjoy this starter template for Telegram bots based on [grammY](https://grammy.dev). It includes most common middlewares, MongoDB integration, language picker and internationalization and shows basic encapsulation techniques used by me."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mongodb/node-mongodb-native",
+      "status": "candidate",
+      "text": "The official [MongoDB](https://www.mongodb.com/) driver for Node.js."
     }
   ],
   "candidate_related_terms": [
@@ -124,11 +178,29 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "IDSIA/sacred"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "JarnoRFB/incense"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "Borodutch/telegram-bot-starter"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "mongodb/node-mongodb-native"
     }
   ],
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,248 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docgen.yaml"
+    },
+    {
+      "component": "actions/cache@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docgen.yaml"
+    },
+    {
+      "component": "actions/add-to-project@v0.3.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issues.yaml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/workflow.yaml"
+    },
+    {
+      "component": "JohnnyMorganz/stylua-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/workflow.yaml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/workflow.yaml"
+    },
+    {
+      "component": "actions/cache@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/workflow.yaml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/workflow.yaml"
+    },
+    {
+      "component": "actions/setup-node@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/workflow.yaml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/workflow.yaml"
+    },
+    {
+      "component": "nvim-neorocks/luarocks-tag-release@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/workflow.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "nvim-neotest/nvim-nio",
+      "target": "folke/neodev.nvim",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "nvim-neotest/nvim-nio",
+      "target": "nvim-neotest/neotest",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "nvim-neotest/nvim-nio",
+      "target": "nvim-neorocks/rocks.nvim",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "nvim-neotest/nvim-nio",
+      "target": "pysan3/pathlib.nvim",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docgen.yaml",
+      "source_repo": "nvim-neotest/nvim-nio",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docgen.yaml",
+      "source_repo": "nvim-neotest/nvim-nio",
+      "target": "actions/cache@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docgen.yaml",
+      "source_repo": "nvim-neotest/nvim-nio",
+      "target": "Generate docs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issues.yaml",
+      "source_repo": "nvim-neotest/nvim-nio",
+      "target": "actions/add-to-project@v0.3.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/issues.yaml",
+      "source_repo": "nvim-neotest/nvim-nio",
+      "target": "Add issues to tracking project",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/workflow.yaml",
+      "source_repo": "nvim-neotest/nvim-nio",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/workflow.yaml",
+      "source_repo": "nvim-neotest/nvim-nio",
+      "target": "JohnnyMorganz/stylua-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/workflow.yaml",
+      "source_repo": "nvim-neotest/nvim-nio",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/workflow.yaml",
+      "source_repo": "nvim-neotest/nvim-nio",
+      "target": "actions/cache@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/workflow.yaml",
+      "source_repo": "nvim-neotest/nvim-nio",
+      "target": "actions/setup-node@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/workflow.yaml",
+      "source_repo": "nvim-neotest/nvim-nio",
+      "target": "nvim-neorocks/luarocks-tag-release@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/workflow.yaml",
+      "source_repo": "nvim-neotest/nvim-nio",
+      "target": "nvim-nio Workflow",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T00:46:29.293667+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6403
+    },
+    {
+      "path": ".github/workflows/docgen.yaml",
+      "size": 1874
+    },
+    {
+      "path": ".github/workflows/issues.yaml",
+      "size": 353
+    },
+    {
+      "path": ".github/workflows/workflow.yaml",
+      "size": 2666
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A library for asynchronous IO in Neovim",
+    "fork": false,
+    "full_name": "nvim-neotest/nvim-nio",
+    "html_url": "https://github.com/nvim-neotest/nvim-nio",
+    "language": "Lua",
+    "pushed_at": "2025-01-20T20:34:24Z",
+    "stargazers_count": 423,
+    "topics": [],
+    "updated_at": "2026-04-27T20:15:09Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "folke/neodev.nvim",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "nvim-neorocks/rocks.nvim",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "nvim-neotest/neotest",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "pysan3/pathlib.nvim",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Generate docs",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docgen.yaml",
+      "term": "Generate docs"
+    },
+    {
+      "context_snippet": "Add issues to tracking project",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/issues.yaml",
+      "term": "Add issues to tracking project"
+    },
+    {
+      "context_snippet": "nvim-nio Workflow",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/workflow.yaml",
+      "term": "nvim-nio Workflow"
+    }
+  ]
+}

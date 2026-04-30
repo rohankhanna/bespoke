@@ -1,11 +1,14 @@
 {
   "aliases": [
-    "architectures"
+    "architectures",
+    "Architectures"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
     "tool-component",
-    "capability"
+    "capability",
+    "workflow-process",
+    "data-document-artifact"
   ],
   "candidate_definitions": [
     {
@@ -13,6 +16,18 @@
       "source_repo": "danielrosehill/AI-Memory-Planning-0426",
       "status": "candidate-context",
       "text": "Planning notes and architecture diagrams for personal AI context and memory systems."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ibireme/yyjson",
+      "status": "candidate-context",
+      "text": "The fastest JSON library in C"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ibireme/yyjson",
+      "status": "candidate-context",
+      "text": "Architectures"
     }
   ],
   "candidate_glosses": [
@@ -21,6 +36,12 @@
       "source_repo": "danielrosehill/AI-Memory-Planning-0426",
       "status": "candidate",
       "text": "Planning notes and architecture diagrams for personal AI context and memory systems."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ibireme/yyjson",
+      "status": "candidate",
+      "text": "Architectures"
     }
   ],
   "candidate_related_terms": [
@@ -70,11 +91,17 @@
       "observed_at": "2026-04-22T01:04:16.609102+00:00",
       "source_file": null,
       "source_repo": "danielrosehill/AI-Memory-Planning-0426"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/archs.yml",
+      "source_repo": "ibireme/yyjson"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

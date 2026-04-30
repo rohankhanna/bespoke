@@ -163,6 +163,30 @@
       "source_repo": "ohler55/agoo",
       "status": "candidate-context",
       "text": "[![Build Status](https://img.shields.io/github/actions/workflow/status/ohler55/agoo/CI.yml?logo=github&branch=develop)](https://github.com/ohler55/agoo/actions/workflows/CI.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "yhirose/cpp-httplib",
+      "status": "candidate-context",
+      "text": "A C++ header-only HTTP/HTTPS server and client library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "yhirose/cpp-httplib",
+      "status": "candidate-context",
+      "text": "[![](https://github.com/yhirose/cpp-httplib/workflows/test/badge.svg)](https://github.com/yhirose/cpp-httplib/actions)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "angelobreuer/localtunnel.net",
+      "status": "candidate-context",
+      "text": ".NET implementation of a tunnel client for localtunnel.me."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "angelobreuer/localtunnel.net",
+      "status": "candidate-context",
+      "text": ".NET implementation of a tunnel client for [localtunnel.me](https://theboroer.github.io/localtunnel-www/)."
     }
   ],
   "candidate_glosses": [
@@ -243,6 +267,18 @@
       "source_repo": "ohler55/agoo",
       "status": "candidate",
       "text": "[![Build Status](https://img.shields.io/github/actions/workflow/status/ohler55/agoo/CI.yml?logo=github&branch=develop)](https://github.com/ohler55/agoo/actions/workflows/CI.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "yhirose/cpp-httplib",
+      "status": "candidate",
+      "text": "[![](https://github.com/yhirose/cpp-httplib/workflows/test/badge.svg)](https://github.com/yhirose/cpp-httplib/actions)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "angelobreuer/localtunnel.net",
+      "status": "candidate",
+      "text": ".NET implementation of a tunnel client for [localtunnel.me](https://theboroer.github.io/localtunnel-www/)."
     }
   ],
   "candidate_related_terms": [
@@ -357,11 +393,29 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "ohler55/agoo"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "0x676e67/wreq-python"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "yhirose/cpp-httplib"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "angelobreuer/localtunnel.net"
     }
   ],
   "first_seen_at": "2026-04-22T04:41:58.081535+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

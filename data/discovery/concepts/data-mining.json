@@ -31,6 +31,30 @@
       "source_repo": "chaoss/grimoirelab-perceval",
       "status": "candidate-context",
       "text": "Send Sir Perceval on a quest to retrieve and gather data from software"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lightgbm-org/LightGBM",
+      "status": "candidate-context",
+      "text": "A fast, distributed, high performance gradient boosting (GBT, GBDT, GBRT, GBM or MART) framework based on decision tree algorithms, used for ranking, classification and many other machine learning tasks."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lightgbm-org/LightGBM",
+      "status": "candidate-context",
+      "text": "<img src=https://github.com/lightgbm-org/LightGBM/blob/master/docs/logo/LightGBM_logo_black_text.svg width=300 />"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "padreati/rapaio",
+      "status": "candidate-context",
+      "text": "statistics, data mining and machine learning toolbox"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "padreati/rapaio",
+      "status": "candidate-context",
+      "text": "<table style=\"border: none\">"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +69,18 @@
       "source_repo": "chaoss/grimoirelab-perceval",
       "status": "candidate",
       "text": "Send Sir Perceval on a quest to retrieve and gather data from software"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lightgbm-org/LightGBM",
+      "status": "candidate",
+      "text": "<img src=https://github.com/lightgbm-org/LightGBM/blob/master/docs/logo/LightGBM_logo_black_text.svg width=300 />"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "padreati/rapaio",
+      "status": "candidate",
+      "text": "<table style=\"border: none\">"
     }
   ],
   "candidate_related_terms": [
@@ -100,11 +136,23 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "chaoss/grimoirelab-perceval"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "lightgbm-org/LightGBM"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "padreati/rapaio"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

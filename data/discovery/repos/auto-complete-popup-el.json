@@ -1,0 +1,113 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "jcs090218/setup-emacs@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "emacs-eask/setup-eask@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "auto-complete/popup-el",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "auto-complete/popup-el",
+      "target": "jcs090218/setup-emacs@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "auto-complete/popup-el",
+      "target": "emacs-eask/setup-eask@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "auto-complete/popup-el",
+      "target": "auto-complete",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "auto-complete/popup-el",
+      "target": "emacs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "auto-complete/popup-el",
+      "target": "popup-el",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T04:08:25.669887+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 11292
+    },
+    {
+      "path": ".github/workflows/test.yml",
+      "size": 1225
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Visual Popup Interface Library for Emacs",
+    "fork": false,
+    "full_name": "auto-complete/popup-el",
+    "html_url": "https://github.com/auto-complete/popup-el",
+    "language": "Emacs Lisp",
+    "pushed_at": "2025-12-31T16:22:34Z",
+    "stargazers_count": 472,
+    "topics": [
+      "auto-complete",
+      "emacs",
+      "popup-el"
+    ],
+    "updated_at": "2026-03-19T20:37:49Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "[![License: GPL v3](https://img.shields.io/badge/License-GPL%20v3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "auto-complete"
+    },
+    {
+      "context_snippet": "[![License: GPL v3](https://img.shields.io/badge/License-GPL%20v3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "emacs"
+    },
+    {
+      "context_snippet": "[![License: GPL v3](https://img.shields.io/badge/License-GPL%20v3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "popup-el"
+    }
+  ]
+}

@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "The AMP web component framework."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "AI Moderator"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "AI Moderator"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10570,
+      "status": "candidate",
+      "text": "bot"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10570,
+      "status": "candidate",
+      "text": "person"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10478,
+      "status": "candidate",
+      "text": "agar"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10478,
+      "status": "candidate",
+      "text": "ever"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10478,
+      "status": "candidate",
+      "text": "haw"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "AI Moderator",
+      "sense_id": "ai-moderator#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "ai-moderator",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "ai-moderator",
+  "observation_id": "375e6c46e372637e",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-30T00:37:16.824464+00:00",
+  "observed_text": "AI Moderator",
+  "source_context_snippet": "AI Moderator",
+  "source_file": ".github/workflows/moderator.yml",
+  "source_repo": "ampproject/amphtml",
+  "source_repo_description": "The AMP web component framework."
+}

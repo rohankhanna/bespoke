@@ -1,0 +1,77 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "cloudfoundry/diego-design-notes",
+      "target": "cloudfoundry/bbs",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "cloudfoundry/diego-design-notes",
+      "target": "cloudfoundry/auctioneer",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "cloudfoundry/diego-design-notes",
+      "target": "cloudfoundry/auction",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "cloudfoundry/diego-design-notes",
+      "target": "cloudfoundry/bosh-lite",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T00:43:33.898429+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 19776
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "main",
+    "description": "Diego Architectural Design Musings and Explications",
+    "fork": false,
+    "full_name": "cloudfoundry/diego-design-notes",
+    "html_url": "https://github.com/cloudfoundry/diego-design-notes",
+    "language": "HTML",
+    "pushed_at": "2023-06-12T15:18:20Z",
+    "stargazers_count": 142,
+    "topics": [],
+    "updated_at": "2025-10-04T17:35:13Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cloudfoundry/auction",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cloudfoundry/auctioneer",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cloudfoundry/bbs",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cloudfoundry/bosh-lite",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Header only C++11 tiny glTF 2.0 library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "MSYS2 MinGW-w64 Windows 64bit Build"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "MSYS2 MinGW-w64 Windows 64bit Build"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11718,
+      "status": "candidate",
+      "text": "pane"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11718,
+      "status": "candidate",
+      "text": "tile"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11629,
+      "status": "candidate",
+      "text": "lock"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11575,
+      "status": "candidate",
+      "text": "brick"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10691,
+      "status": "candidate",
+      "text": "balcony"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "MSYS2 MinGW-w64 Windows 64bit Build",
+      "sense_id": "msys2-mingw-w64-windows-64bit-build#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "msys2-mingw-w64-windows-64bit-build",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "msys2-mingw-w64-windows-64bit-build",
+  "observation_id": "7a00002ec05ebf77",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-30T00:37:16.824464+00:00",
+  "observed_text": "MSYS2 MinGW-w64 Windows 64bit Build",
+  "source_context_snippet": "MSYS2 MinGW-w64 Windows 64bit Build",
+  "source_file": ".github/workflows/mingw-w64-msys2.yml",
+  "source_repo": "syoyo/tinygltf",
+  "source_repo_description": "Header only C++11 tiny glTF 2.0 library"
+}

@@ -67,6 +67,18 @@
       "source_repo": "ggandor/lightspeed.nvim",
       "status": "candidate-context",
       "text": "Lightspeed has been deprecated in favor of"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ray-x/navigator.lua",
+      "status": "candidate-context",
+      "text": "Code analysis & navigation plugin for Neovim. Navigate codes like a breeze\ud83c\udf90  Exploring LSP and \ud83c\udf32Treesitter symbols a piece of \ud83c\udf70  Take control like a boss \ud83e\udd8d"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ray-x/navigator.lua",
+      "status": "candidate-context",
+      "text": "- Source code analysis and navigate tool"
     }
   ],
   "candidate_glosses": [
@@ -99,6 +111,12 @@
       "source_repo": "ggandor/lightspeed.nvim",
       "status": "candidate",
       "text": "Lightspeed has been deprecated in favor of"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ray-x/navigator.lua",
+      "status": "candidate",
+      "text": "- Source code analysis and navigate tool"
     }
   ],
   "candidate_related_terms": [
@@ -201,11 +219,17 @@
       "observed_at": "2026-04-24T00:33:56.049672+00:00",
       "source_file": null,
       "source_repo": "ggandor/lightspeed.nvim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "ray-x/navigator.lua"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

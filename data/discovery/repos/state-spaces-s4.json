@@ -1,0 +1,117 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-python@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/cache@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "state-spaces/s4",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "state-spaces/s4",
+      "target": "actions/setup-python@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "state-spaces/s4",
+      "target": "actions/cache@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "state-spaces/s4",
+      "target": "pytorch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "state-spaces/s4",
+      "target": "sequence-models",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "state-spaces/s4",
+      "target": "state-space-models",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T05:14:34.384794+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 12512
+    },
+    {
+      "path": "requirements.txt",
+      "size": 558
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 1092
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Structured state space sequence models",
+    "fork": false,
+    "full_name": "state-spaces/s4",
+    "html_url": "https://github.com/state-spaces/s4",
+    "language": "Jupyter Notebook",
+    "pushed_at": "2024-07-17T17:04:39Z",
+    "stargazers_count": 2890,
+    "topics": [
+      "pytorch",
+      "sequence-models",
+      "state-space-models"
+    ],
+    "updated_at": "2026-04-29T22:29:02Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "This repository provides the official implementations and experiments for models related to [S4](https://arxiv.org/abs/2111.00396),",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytorch"
+    },
+    {
+      "context_snippet": "This repository provides the official implementations and experiments for models related to [S4](https://arxiv.org/abs/2111.00396),",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "sequence-models"
+    },
+    {
+      "context_snippet": "This repository provides the official implementations and experiments for models related to [S4](https://arxiv.org/abs/2111.00396),",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "state-space-models"
+    }
+  ]
+}

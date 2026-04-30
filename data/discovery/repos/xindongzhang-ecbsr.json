@@ -1,0 +1,75 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "xindongzhang/ECBSR",
+      "target": "sanghyun-son/edsr-pytorch",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "xindongzhang/ECBSR",
+      "target": "real-time",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "xindongzhang/ECBSR",
+      "target": "super-resolution",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T03:53:49.965004+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4321
+    },
+    {
+      "path": "requirements.txt",
+      "size": 144
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Edge-oriented Convolution Block for Real-time Super Resolution on Mobile Devices, ACM Multimedia 2021",
+    "fork": false,
+    "full_name": "xindongzhang/ECBSR",
+    "html_url": "https://github.com/xindongzhang/ECBSR",
+    "language": "Python",
+    "pushed_at": "2021-11-15T05:44:47Z",
+    "stargazers_count": 387,
+    "topics": [
+      "real-time",
+      "super-resolution"
+    ],
+    "updated_at": "2026-04-23T09:37:52Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "sanghyun-son/edsr-pytorch",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": ">[Edge-oriented Convolution Block for Real-time Super Resolution on Mobile Devices](https://www4.comp.polyu.edu.hk/~cslzhang/paper/MM21_ECBSR.pdf) \\",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "real-time"
+    },
+    {
+      "context_snippet": ">[Edge-oriented Convolution Block for Real-time Super Resolution on Mobile Devices](https://www4.comp.polyu.edu.hk/~cslzhang/paper/MM21_ECBSR.pdf) \\",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "super-resolution"
+    }
+  ]
+}

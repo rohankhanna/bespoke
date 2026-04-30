@@ -554,13 +554,6 @@
       "target_type": "repository"
     },
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "podman-desktop/podman-desktop",
-      "target": "podman-desktop/community",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "package-json:dependencies",
       "source_file": "package.json",
       "source_repo": "podman-desktop/podman-desktop",
@@ -1317,7 +1310,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-29T20:01:22.500096+00:00",
+  "fetched_at": "2026-04-30T05:07:21.985973+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -1369,7 +1362,7 @@
     "full_name": "podman-desktop/podman-desktop",
     "html_url": "https://github.com/podman-desktop/podman-desktop",
     "language": "TypeScript",
-    "pushed_at": "2026-04-29T05:33:13Z",
+    "pushed_at": "2026-04-30T04:27:27Z",
     "stargazers_count": 7576,
     "topics": [
       "container",
@@ -1383,7 +1376,7 @@
       "tray-application",
       "ui"
     ],
-    "updated_at": "2026-04-29T19:58:38Z"
+    "updated_at": "2026-04-30T04:22:55Z"
   },
   "repo_links": [
     {
@@ -1399,11 +1392,6 @@
     {
       "edge_type": "explicit-github-link",
       "full_name": "docker/docker",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "podman-desktop/community",
       "source_file": "README.md"
     }
   ],

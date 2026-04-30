@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "PostCSS Tools and Plugins"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Deploy PostCSS Preset Env"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Deploy PostCSS Preset Env"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18098,
+      "status": "candidate",
+      "text": "move"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17982,
+      "status": "candidate",
+      "text": "specialize"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9954,
+      "status": "candidate",
+      "text": "bring in"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9954,
+      "status": "candidate",
+      "text": "derealization"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9954,
+      "status": "candidate",
+      "text": "incubate"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Deploy PostCSS Preset Env",
+      "sense_id": "deploy-postcss-preset-env#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "deploy-postcss-preset-env",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "deploy-postcss-preset-env",
+  "observation_id": "3cbb2a2355fca366",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-30T00:37:16.824464+00:00",
+  "observed_text": "Deploy PostCSS Preset Env",
+  "source_context_snippet": "Deploy PostCSS Preset Env",
+  "source_file": ".github/workflows/deploy-preset-env.yml",
+  "source_repo": "csstools/postcss-plugins",
+  "source_repo_description": "PostCSS Tools and Plugins"
+}

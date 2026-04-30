@@ -1,0 +1,65 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "NVlabs/stylegan",
+      "target": "nvlabs/stylegan2-ada-pytorch",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "NVlabs/stylegan",
+      "target": "richzhang/perceptualsimilarity",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "NVlabs/stylegan",
+      "target": "tkarras/progressive_growing_of_gans",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T01:55:44.120764+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 20710
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "StyleGAN - Official TensorFlow Implementation",
+    "fork": false,
+    "full_name": "NVlabs/stylegan",
+    "html_url": "https://github.com/NVlabs/stylegan",
+    "language": "Python",
+    "pushed_at": "2024-04-10T08:30:29Z",
+    "stargazers_count": 14401,
+    "topics": [],
+    "updated_at": "2026-04-27T03:31:17Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "nvlabs/stylegan2-ada-pytorch",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "richzhang/perceptualsimilarity",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "tkarras/progressive_growing_of_gans",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

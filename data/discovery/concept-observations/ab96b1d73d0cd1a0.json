@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "golang client library for localtunnel.me"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "LocalTunnel Client Library for Go [![Build Status](https://travis-ci.org/jonasfj/go-localtunnel.svg?branch=master)](https://travis-ci.org/jonasfj/go-localtunnel)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "LocalTunnel Client Library for Go [![Build Status](https://travis-ci.org/jonasfj/go-localtunnel.svg?branch=master)](https://travis-ci.org/jonasfj/go-localtunnel)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "localtunnel",
+      "sense_id": "localtunnel#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "localtunnel",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "localtunnel",
+  "observation_id": "ab96b1d73d0cd1a0",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T00:37:16.824464+00:00",
+  "observed_text": "localtunnel",
+  "source_context_snippet": "LocalTunnel Client Library for Go [![Build Status](https://travis-ci.org/jonasfj/go-localtunnel.svg?branch=master)](https://travis-ci.org/jonasfj/go-localtunnel)",
+  "source_file": null,
+  "source_repo": "localtunnel/go-localtunnel",
+  "source_repo_description": "golang client library for localtunnel.me"
+}

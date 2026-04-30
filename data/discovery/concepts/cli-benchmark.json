@@ -1,0 +1,124 @@
+{
+  "aliases": [
+    "CLI Benchmark"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "biomejs/biome",
+      "status": "candidate-context",
+      "text": "A toolchain for web projects, aimed to provide functionalities to maintain them. Biome offers formatter and linter, usable via CLI and LSP."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "biomejs/biome",
+      "status": "candidate-context",
+      "text": "CLI Benchmark"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lionel-/biome",
+      "status": "candidate-context",
+      "text": "A toolchain for web projects, aimed to provide functionalities to maintain them. Biome offers formatter and linter, usable via CLI and LSP."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lionel-/biome",
+      "status": "candidate-context",
+      "text": "CLI Benchmark"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "biomejs/biome",
+      "status": "candidate",
+      "text": "CLI Benchmark"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lionel-/biome",
+      "status": "candidate",
+      "text": "CLI Benchmark"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12964,
+      "status": "candidate",
+      "text": "cat"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12964,
+      "status": "candidate",
+      "text": "committee"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12964,
+      "status": "candidate",
+      "text": "honesty"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12964,
+      "status": "candidate",
+      "text": "honor"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12964,
+      "status": "candidate",
+      "text": "ita"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "CLI Benchmark",
+  "concept_id": "cli-benchmark",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/bench_cli.yml",
+      "source_repo": "biomejs/biome"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/bench_cli.yml",
+      "source_repo": "lionel-/biome"
+    }
+  ],
+  "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "CLI Benchmark",
+      "sense_id": "cli-benchmark#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

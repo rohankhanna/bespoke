@@ -1,0 +1,343 @@
+{
+  "components": [
+    {
+      "component": "@tc39/ecma262-biblio",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "ecmarkup",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "jsdom",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "parse5-html-rewriting-stream",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "tmp",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-main.yml"
+    },
+    {
+      "component": "ljharb/actions/node/install@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-main.yml"
+    },
+    {
+      "component": "JamesIves/github-pages-deploy-action@v4.3.3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-main.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-pr.yml"
+    },
+    {
+      "component": "ljharb/actions/node/install@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-pr.yml"
+    },
+    {
+      "component": "actions/github-script@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-pr.yml"
+    },
+    {
+      "component": "actions/github-script@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-pr.yml"
+    },
+    {
+      "component": "JamesIves/github-pages-deploy-action@v4.3.3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-pr.yml"
+    },
+    {
+      "component": "phulsechinmay/rewritable-pr-comment@v0.3.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-pr.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/render-pr.yml"
+    },
+    {
+      "component": "ljharb/actions/node/install@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/render-pr.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/render-pr.yml"
+    },
+    {
+      "component": "actions/github-script@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/render-pr.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "tc39/proposal-immutable-arraybuffer",
+      "target": "tc39/proposal-arraybuffer-transfer",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "tc39/proposal-immutable-arraybuffer",
+      "target": "gpuweb/gpuweb",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "tc39/proposal-immutable-arraybuffer",
+      "target": "styfle/proposal-import-buffer",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "tc39/proposal-immutable-arraybuffer",
+      "target": "endojs/endo",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "tc39/proposal-immutable-arraybuffer",
+      "target": "@tc39/ecma262-biblio",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "tc39/proposal-immutable-arraybuffer",
+      "target": "ecmarkup",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "tc39/proposal-immutable-arraybuffer",
+      "target": "jsdom",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "tc39/proposal-immutable-arraybuffer",
+      "target": "parse5-html-rewriting-stream",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "tc39/proposal-immutable-arraybuffer",
+      "target": "tmp",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-main.yml",
+      "source_repo": "tc39/proposal-immutable-arraybuffer",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-main.yml",
+      "source_repo": "tc39/proposal-immutable-arraybuffer",
+      "target": "ljharb/actions/node/install@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-main.yml",
+      "source_repo": "tc39/proposal-immutable-arraybuffer",
+      "target": "JamesIves/github-pages-deploy-action@v4.3.3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish-main.yml",
+      "source_repo": "tc39/proposal-immutable-arraybuffer",
+      "target": "Publish main",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-pr.yml",
+      "source_repo": "tc39/proposal-immutable-arraybuffer",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-pr.yml",
+      "source_repo": "tc39/proposal-immutable-arraybuffer",
+      "target": "ljharb/actions/node/install@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-pr.yml",
+      "source_repo": "tc39/proposal-immutable-arraybuffer",
+      "target": "actions/github-script@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-pr.yml",
+      "source_repo": "tc39/proposal-immutable-arraybuffer",
+      "target": "JamesIves/github-pages-deploy-action@v4.3.3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-pr.yml",
+      "source_repo": "tc39/proposal-immutable-arraybuffer",
+      "target": "phulsechinmay/rewritable-pr-comment@v0.3.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish-pr.yml",
+      "source_repo": "tc39/proposal-immutable-arraybuffer",
+      "target": "Publish PR",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/render-pr.yml",
+      "source_repo": "tc39/proposal-immutable-arraybuffer",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/render-pr.yml",
+      "source_repo": "tc39/proposal-immutable-arraybuffer",
+      "target": "ljharb/actions/node/install@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/render-pr.yml",
+      "source_repo": "tc39/proposal-immutable-arraybuffer",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/render-pr.yml",
+      "source_repo": "tc39/proposal-immutable-arraybuffer",
+      "target": "actions/github-script@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/render-pr.yml",
+      "source_repo": "tc39/proposal-immutable-arraybuffer",
+      "target": "Render PR",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T01:40:16.715811+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 12957
+    },
+    {
+      "path": "package.json",
+      "size": 910
+    },
+    {
+      "path": ".github/workflows/publish-main.yml",
+      "size": 473
+    },
+    {
+      "path": ".github/workflows/publish-pr.yml",
+      "size": 4311
+    },
+    {
+      "path": ".github/workflows/render-pr.yml",
+      "size": 1139
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A TC39 proposal for immutable ArrayBuffers",
+    "fork": false,
+    "full_name": "tc39/proposal-immutable-arraybuffer",
+    "html_url": "https://github.com/tc39/proposal-immutable-arraybuffer",
+    "language": "JavaScript",
+    "pushed_at": "2026-03-18T18:12:16Z",
+    "stargazers_count": 36,
+    "topics": [],
+    "updated_at": "2026-03-25T00:12:27Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "endojs/endo",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "gpuweb/gpuweb",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "styfle/proposal-import-buffer",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "tc39/proposal-arraybuffer-transfer",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Publish main",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish-main.yml",
+      "term": "Publish main"
+    },
+    {
+      "context_snippet": "Publish PR",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish-pr.yml",
+      "term": "Publish PR"
+    },
+    {
+      "context_snippet": "Render PR",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/render-pr.yml",
+      "term": "Render PR"
+    }
+  ]
+}

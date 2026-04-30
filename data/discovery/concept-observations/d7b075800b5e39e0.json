@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "The etcd-cpp-apiv3 is a C++ library for etcd's v3 client APIs, i.e., ETCDCTL_API=3."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Build & Test on CentOS Latest"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Build & Test on CentOS Latest"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26570,
+      "status": "candidate",
+      "text": "nightly"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17272,
+      "status": "candidate",
+      "text": "past"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17272,
+      "status": "candidate",
+      "text": "word"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17240,
+      "status": "candidate",
+      "text": "time"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17227,
+      "status": "candidate",
+      "text": "construction"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Build & Test on CentOS Latest",
+      "sense_id": "build-test-on-centos-latest#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "build-test-on-centos-latest",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "build-test-on-centos-latest",
+  "observation_id": "d7b075800b5e39e0",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-30T00:37:16.824464+00:00",
+  "observed_text": "Build & Test on CentOS Latest",
+  "source_context_snippet": "Build & Test on CentOS Latest",
+  "source_file": ".github/workflows/centos-latest.yml",
+  "source_repo": "etcd-cpp-apiv3/etcd-cpp-apiv3",
+  "source_repo_description": "The etcd-cpp-apiv3 is a C++ library for etcd's v3 client APIs, i.e., ETCDCTL_API=3."
+}

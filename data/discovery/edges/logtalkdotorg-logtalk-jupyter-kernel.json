@@ -1,0 +1,55 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "LogtalkDotOrg/logtalk-jupyter-kernel",
+      "target": "hhu-stups/prolog-jupyter-kernel",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "LogtalkDotOrg/logtalk-jupyter-kernel",
+      "target": "ipython/ipykernel",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "LogtalkDotOrg/logtalk-jupyter-kernel",
+      "target": "logtalkdotorg/jupyterlab-logtalk-codemirror-extension",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "LogtalkDotOrg/logtalk-jupyter-kernel",
+      "target": "logtalkdotorg/logtalk-for-vscode",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "LogtalkDotOrg/logtalk-jupyter-kernel",
+      "target": "jupyter-notebook",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "LogtalkDotOrg/logtalk-jupyter-kernel",
+      "target": "logtalk",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "LogtalkDotOrg/logtalk-jupyter-kernel",
+      "target": "prolog",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-30T00:37:16.824464+00:00",
+  "source_repo": "LogtalkDotOrg/logtalk-jupyter-kernel"
+}

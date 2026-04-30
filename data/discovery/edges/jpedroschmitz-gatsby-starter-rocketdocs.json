@@ -1,0 +1,139 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "jpedroschmitz/gatsby-starter-rocketdocs",
+      "target": "jpedroschmitz/rocketdocs",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "jpedroschmitz/gatsby-starter-rocketdocs",
+      "target": "formidablelabs/prism-react-renderer",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "jpedroschmitz/gatsby-starter-rocketdocs",
+      "target": "formidablelabs/react-live",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "jpedroschmitz/gatsby-starter-rocketdocs",
+      "target": "@rocketseat/gatsby-theme-docs",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "jpedroschmitz/gatsby-starter-rocketdocs",
+      "target": "gatsby",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "jpedroschmitz/gatsby-starter-rocketdocs",
+      "target": "gatsby-plugin-canonical-urls",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "jpedroschmitz/gatsby-starter-rocketdocs",
+      "target": "gatsby-plugin-google-analytics",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "jpedroschmitz/gatsby-starter-rocketdocs",
+      "target": "gatsby-plugin-manifest",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "jpedroschmitz/gatsby-starter-rocketdocs",
+      "target": "gatsby-plugin-offline",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "jpedroschmitz/gatsby-starter-rocketdocs",
+      "target": "gatsby-plugin-remove-trailing-slashes",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "jpedroschmitz/gatsby-starter-rocketdocs",
+      "target": "gatsby-plugin-sitemap",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "jpedroschmitz/gatsby-starter-rocketdocs",
+      "target": "prop-types",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "jpedroschmitz/gatsby-starter-rocketdocs",
+      "target": "react",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "jpedroschmitz/gatsby-starter-rocketdocs",
+      "target": "react-dom",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jpedroschmitz/gatsby-starter-rocketdocs",
+      "target": "documentation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jpedroschmitz/gatsby-starter-rocketdocs",
+      "target": "gatsby",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jpedroschmitz/gatsby-starter-rocketdocs",
+      "target": "gatsby-starter",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jpedroschmitz/gatsby-starter-rocketdocs",
+      "target": "gatsby-theme",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jpedroschmitz/gatsby-starter-rocketdocs",
+      "target": "rocketseat",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-30T00:37:16.824464+00:00",
+  "source_repo": "jpedroschmitz/gatsby-starter-rocketdocs"
+}

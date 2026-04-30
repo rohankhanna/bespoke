@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T03:45:44.268566+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 10562
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A series of convenience functions to make basic image processing operations such as translation, rotation, resizing, skeletonization, and displaying Matplotlib images easier with OpenCV and Python.",
+    "fork": false,
+    "full_name": "PyImageSearch/imutils",
+    "html_url": "https://github.com/PyImageSearch/imutils",
+    "language": "Python",
+    "pushed_at": "2024-06-24T13:34:47Z",
+    "stargazers_count": 4593,
+    "topics": [],
+    "updated_at": "2026-04-30T01:33:44Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

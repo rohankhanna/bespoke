@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Agent TARS Build"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bytedance/UI-TARS-desktop",
+      "status": "candidate-context",
+      "text": "The Open-Source Multimodal AI Agent Stack: Connecting Cutting-Edge AI Models and Agent Infra"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bytedance/UI-TARS-desktop",
+      "status": "candidate-context",
+      "text": "Agent TARS Build"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bytedance/UI-TARS-desktop",
+      "status": "candidate",
+      "text": "Agent TARS Build"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 23187,
+      "status": "candidate",
+      "text": "pitch"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 23107,
+      "status": "candidate",
+      "text": "brig"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22584,
+      "status": "candidate",
+      "text": "streptobacillus"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22521,
+      "status": "candidate",
+      "text": "board"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22360,
+      "status": "candidate",
+      "text": "astern"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Agent TARS Build",
+  "concept_id": "agent-tars-build",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/agent_tars_test.yml",
+      "source_repo": "bytedance/UI-TARS-desktop"
+    }
+  ],
+  "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Agent TARS Build",
+      "sense_id": "agent-tars-build#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

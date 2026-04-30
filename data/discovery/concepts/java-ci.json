@@ -139,6 +139,30 @@
       "source_repo": "apache/commons-jexl",
       "status": "candidate-context",
       "text": "Java CI"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "micronaut-projects/micronaut-langchain4j",
+      "status": "candidate-context",
+      "text": "Integration between Micronaut and Langchain4j"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "micronaut-projects/micronaut-langchain4j",
+      "status": "candidate-context",
+      "text": "Java CI"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "extism/chicory-sdk",
+      "status": "candidate-context",
+      "text": "Zero-dependency Java SDK based on the Chicory Runtime"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "extism/chicory-sdk",
+      "status": "candidate-context",
+      "text": "Java CI"
     }
   ],
   "candidate_glosses": [
@@ -205,6 +229,18 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "apache/commons-jexl",
+      "status": "candidate",
+      "text": "Java CI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "micronaut-projects/micronaut-langchain4j",
+      "status": "candidate",
+      "text": "Java CI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "extism/chicory-sdk",
       "status": "candidate",
       "text": "Java CI"
     }
@@ -316,11 +352,23 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": ".github/workflows/maven.yml",
       "source_repo": "apache/commons-jexl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/gradle.yml",
+      "source_repo": "micronaut-projects/micronaut-langchain4j"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "extism/chicory-sdk"
     }
   ],
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

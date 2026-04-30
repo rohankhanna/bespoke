@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T01:47:49.009402+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2817
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "gh-pages",
+    "description": "Standards for developing consistent, flexible, and sustainable HTML and CSS.",
+    "fork": false,
+    "full_name": "mdo/code-guide",
+    "html_url": "https://github.com/mdo/code-guide",
+    "language": "SCSS",
+    "pushed_at": "2024-07-26T02:51:35Z",
+    "stargazers_count": 8486,
+    "topics": [],
+    "updated_at": "2026-04-25T03:53:09Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

@@ -154,6 +154,36 @@
       "source_repo": "bufbuild/protobuf-conformance",
       "status": "candidate-context",
       "text": "A repository which runs the protocol buffers"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "googleapis/google-cloud-node",
+      "status": "candidate-context",
+      "text": "Google Cloud Client Library for Node.js"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "googleapis/google-cloud-node",
+      "status": "candidate-context",
+      "text": "conformance"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "googleapis/java-bigtable",
+      "status": "candidate-context",
+      "text": "conformance"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sigstore/sigstore-conformance",
+      "status": "candidate-context",
+      "text": "Conformance testing for Sigstore clients"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sigstore/sigstore-conformance",
+      "status": "candidate-context",
+      "text": "sigstore-conformance"
     }
   ],
   "candidate_glosses": [
@@ -228,6 +258,24 @@
       "source_repo": "bufbuild/protobuf-conformance",
       "status": "candidate",
       "text": "A repository which runs the protocol buffers"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "googleapis/google-cloud-node",
+      "status": "candidate",
+      "text": "conformance"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "googleapis/java-bigtable",
+      "status": "candidate",
+      "text": "conformance"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sigstore/sigstore-conformance",
+      "status": "candidate",
+      "text": "sigstore-conformance"
     }
   ],
   "candidate_related_terms": [
@@ -351,11 +399,35 @@
       "observed_at": "2026-04-24T00:33:56.049672+00:00",
       "source_file": null,
       "source_repo": "bufbuild/protobuf-conformance"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/conformance-test.yaml",
+      "source_repo": "googleapis/google-cloud-node"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/conformance.yaml",
+      "source_repo": "googleapis/google-cloud-node"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/conformance.yaml",
+      "source_repo": "googleapis/java-bigtable"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "sigstore/sigstore-conformance"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

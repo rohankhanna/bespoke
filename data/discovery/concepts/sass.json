@@ -151,6 +151,24 @@
       "source_repo": "Taritsyn/DartSassHost",
       "status": "candidate-context",
       "text": "Dart Sass Host for .NET [![NuGet version](http://img.shields.io/nuget/v/DartSassHost.svg)](https://www.nuget.org/packages/DartSassHost/) [![Download count](https://img.shields.io/nuget/dt/DartSassHost.svg)](https://www.nuget.org/packages/DartSassHost/)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "excubo-ag/WebCompiler",
+      "status": "candidate-context",
+      "text": "[![Nuget](https://img.shields.io/nuget/v/Excubo.WebCompiler)](https://www.nuget.org/packages/Excubo.WebCompiler/)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "koenvzeijl/AspNetCore.SassCompiler",
+      "status": "candidate-context",
+      "text": "Sass Compiler Library for .NET Core 3.1/5.x/6.x/7.x without node, using dart-sass as a compiler"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "koenvzeijl/AspNetCore.SassCompiler",
+      "status": "candidate-context",
+      "text": "[![NuGet Version](https://img.shields.io/nuget/v/AspNetCore.SassCompiler.svg?style=flat)](https://www.nuget.org/packages/AspNetCore.SassCompiler/)"
     }
   ],
   "candidate_glosses": [
@@ -225,6 +243,18 @@
       "source_repo": "Taritsyn/DartSassHost",
       "status": "candidate",
       "text": "Dart Sass Host for .NET [![NuGet version](http://img.shields.io/nuget/v/DartSassHost.svg)](https://www.nuget.org/packages/DartSassHost/) [![Download count](https://img.shields.io/nuget/dt/DartSassHost.svg)](https://www.nuget.org/packages/DartSassHost/)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "excubo-ag/WebCompiler",
+      "status": "candidate",
+      "text": "[![Nuget](https://img.shields.io/nuget/v/Excubo.WebCompiler)](https://www.nuget.org/packages/Excubo.WebCompiler/)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "koenvzeijl/AspNetCore.SassCompiler",
+      "status": "candidate",
+      "text": "[![NuGet Version](https://img.shields.io/nuget/v/AspNetCore.SassCompiler.svg?style=flat)](https://www.nuget.org/packages/AspNetCore.SassCompiler/)"
     }
   ],
   "candidate_related_terms": [
@@ -369,11 +399,23 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "Taritsyn/DartSassHost"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "excubo-ag/WebCompiler"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "koenvzeijl/AspNetCore.SassCompiler"
     }
   ],
   "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

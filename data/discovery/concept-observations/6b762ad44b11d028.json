@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Rcpp Bindings for the 'fastfloat' Header-Only Library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![CI](https://github.com/eddelbuettel/rcppfastfloat/workflows/ci/badge.svg)](https://github.com/eddelbuettel/rcppfastfloat/actions?query=workflow%3Aci)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![CI](https://github.com/eddelbuettel/rcppfastfloat/workflows/ci/badge.svg)](https://github.com/eddelbuettel/rcppfastfloat/actions?query=workflow%3Aci)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29365681,
+      "status": "candidate",
+      "text": "grit"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19459887,
+      "status": "candidate",
+      "text": "raip"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19459886,
+      "status": "candidate",
+      "text": "rattee"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19459885,
+      "status": "candidate",
+      "text": "rood"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19459884,
+      "status": "candidate",
+      "text": "rhineland rod"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "cran",
+      "sense_id": "cran#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "cran",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "cran",
+  "observation_id": "6b762ad44b11d028",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T00:37:16.824464+00:00",
+  "observed_text": "cran",
+  "source_context_snippet": "[![CI](https://github.com/eddelbuettel/rcppfastfloat/workflows/ci/badge.svg)](https://github.com/eddelbuettel/rcppfastfloat/actions?query=workflow%3Aci)",
+  "source_file": null,
+  "source_repo": "eddelbuettel/rcppfastfloat",
+  "source_repo_description": "Rcpp Bindings for the 'fastfloat' Header-Only Library"
+}

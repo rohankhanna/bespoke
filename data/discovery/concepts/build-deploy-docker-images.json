@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Build & deploy Docker images"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "facebookresearch/nle",
+      "status": "candidate-context",
+      "text": "The NetHack Learning Environment"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "facebookresearch/nle",
+      "status": "candidate-context",
+      "text": "Build & deploy Docker images"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "facebookresearch/nle",
+      "status": "candidate",
+      "text": "Build & deploy Docker images"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19812,
+      "status": "candidate",
+      "text": "set"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18929,
+      "status": "candidate",
+      "text": "drape"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18929,
+      "status": "candidate",
+      "text": "draping"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18929,
+      "status": "candidate",
+      "text": "exhibition"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18929,
+      "status": "candidate",
+      "text": "expo"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Build & deploy Docker images",
+  "concept_id": "build-deploy-docker-images",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/build_docker.yml",
+      "source_repo": "facebookresearch/nle"
+    }
+  ],
+  "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Build & deploy Docker images",
+      "sense_id": "build-deploy-docker-images#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

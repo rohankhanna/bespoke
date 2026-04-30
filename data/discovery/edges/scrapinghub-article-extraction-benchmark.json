@@ -1,0 +1,55 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.rst",
+      "source_repo": "scrapinghub/article-extraction-benchmark",
+      "target": "andythefactory/newspaper4k",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.rst",
+      "source_repo": "scrapinghub/article-extraction-benchmark",
+      "target": "buriy/python-readability",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.rst",
+      "source_repo": "scrapinghub/article-extraction-benchmark",
+      "target": "dragnet-org/dragnet",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.rst",
+      "source_repo": "scrapinghub/article-extraction-benchmark",
+      "target": "alir3z4/html2text",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/evaluate.yml",
+      "source_repo": "scrapinghub/article-extraction-benchmark",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/evaluate.yml",
+      "source_repo": "scrapinghub/article-extraction-benchmark",
+      "target": "actions/setup-python@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/evaluate.yml",
+      "source_repo": "scrapinghub/article-extraction-benchmark",
+      "target": "Evaluate",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-30T00:37:16.824464+00:00",
+  "source_repo": "scrapinghub/article-extraction-benchmark"
+}

@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T02:41:33.654999+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3014
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "RUCAIBox/CIR",
+    "html_url": "https://github.com/RUCAIBox/CIR",
+    "language": "Python",
+    "pushed_at": "2025-11-11T05:59:51Z",
+    "stargazers_count": 14,
+    "topics": [],
+    "updated_at": "2025-11-11T05:59:56Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

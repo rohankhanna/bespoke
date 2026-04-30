@@ -55,6 +55,18 @@
       "source_repo": "ScoopInstaller/Nirsoft",
       "status": "candidate-context",
       "text": "[![update](https://github.com/ScoopInstaller/Nirsoft/actions/workflows/update.yml/badge.svg)](https://github.com/ScoopInstaller/Nirsoft/actions/workflows/update.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ScoopInstaller/Versions",
+      "status": "candidate-context",
+      "text": "\ud83d\udce6 A Scoop bucket for alternative versions of apps."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ScoopInstaller/Versions",
+      "status": "candidate-context",
+      "text": "Alternative manifests for [Scoop](https://scoop.sh), the Windows command-line installer. For alpha, beta, nightly, dev, canary, insiders, release candidates, and frozen/older versions of app manifests."
     }
   ],
   "candidate_glosses": [
@@ -81,6 +93,12 @@
       "source_repo": "ScoopInstaller/Nirsoft",
       "status": "candidate",
       "text": "[![update](https://github.com/ScoopInstaller/Nirsoft/actions/workflows/update.yml/badge.svg)](https://github.com/ScoopInstaller/Nirsoft/actions/workflows/update.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ScoopInstaller/Versions",
+      "status": "candidate",
+      "text": "Alternative manifests for [Scoop](https://scoop.sh), the Windows command-line installer. For alpha, beta, nightly, dev, canary, insiders, release candidates, and frozen/older versions of app manifests."
     }
   ],
   "candidate_related_terms": [],
@@ -112,11 +130,23 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "ScoopInstaller/Nirsoft"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "ScoopInstaller/Versions"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "chawyehsu/dorado"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

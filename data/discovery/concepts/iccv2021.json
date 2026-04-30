@@ -1,0 +1,136 @@
+{
+  "aliases": [
+    "iccv2021"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Atten4Vis/ConditionalDETR",
+      "status": "candidate-context",
+      "text": "This repository is an official implementation of the ICCV 2021 paper \"Conditional DETR for Fast Training Convergence\". (https://arxiv.org/abs/2108.06152)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Atten4Vis/ConditionalDETR",
+      "status": "candidate-context",
+      "text": "This repository is an official implementation of the ICCV 2021 paper \"[Conditional DETR for Fast Training Convergence](https://arxiv.org/abs/2108.06152)\"."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jeffffffli/res-loglikelihood-regression",
+      "status": "candidate-context",
+      "text": "Code for \"Human Pose Regression with Residual Log-likelihood Estimation\", ICCV 2021 Oral"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jeffffffli/res-loglikelihood-regression",
+      "status": "candidate-context",
+      "text": "[[`Paper`](https://jeffli.site/res-loglikelihood-regression/resources/ICCV21-RLE.pdf)]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "baegwangbin/surface_normal_uncertainty",
+      "status": "candidate-context",
+      "text": "[ICCV 2021 Oral] Estimating and Exploiting the Aleatoric Uncertainty in Surface Normal Estimation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "baegwangbin/surface_normal_uncertainty",
+      "status": "candidate-context",
+      "text": "torch==1.6.0 torchvision==0.7.0 Pillow numpy matplotlib argparse tqdm"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cuiziteng/ICCV_MAET",
+      "status": "candidate-context",
+      "text": "\ud83c\udf15 [ICCV 2021] Multitask AET with Orthogonal Tangent Regularity for Dark Object Detection. A self-supervised learning way for low-light image object detection."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cuiziteng/ICCV_MAET",
+      "status": "candidate-context",
+      "text": "Dark environment becomes a challenge for computer vision algorithms owing to insufficient photons and undesirable noise. To enhance object detection in a dark environment, we propose a novel multitask auto encod- ing transformation (MAET) model which is able to explore the intri\u2026"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Atten4Vis/ConditionalDETR",
+      "status": "candidate",
+      "text": "This repository is an official implementation of the ICCV 2021 paper \"[Conditional DETR for Fast Training Convergence](https://arxiv.org/abs/2108.06152)\"."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jeffffffli/res-loglikelihood-regression",
+      "status": "candidate",
+      "text": "[[`Paper`](https://jeffli.site/res-loglikelihood-regression/resources/ICCV21-RLE.pdf)]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "baegwangbin/surface_normal_uncertainty",
+      "status": "candidate",
+      "text": "torch==1.6.0 torchvision==0.7.0 Pillow numpy matplotlib argparse tqdm"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cuiziteng/ICCV_MAET",
+      "status": "candidate",
+      "text": "Dark environment becomes a challenge for computer vision algorithms owing to insufficient photons and undesirable noise. To enhance object detection in a dark environment, we propose a novel multitask auto encod- ing transformation (MAET) model which is able to explore the intri\u2026"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "iccv2021",
+  "concept_id": "iccv2021",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "Atten4Vis/ConditionalDETR"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "jeffffffli/res-loglikelihood-regression"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "baegwangbin/surface_normal_uncertainty"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "cuiziteng/ICCV_MAET"
+    }
+  ],
+  "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "iccv2021",
+      "sense_id": "iccv2021#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

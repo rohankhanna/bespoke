@@ -1,0 +1,12 @@
+{
+  "component": "regclient/actions/regctl-installer@148669fe4b19151fcab6e00c6df2db43b9e2b097",
+  "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/forward-compatibility.yaml",
+      "source_repo": "NVIDIA/gpu-operator"
+    }
+  ]
+}

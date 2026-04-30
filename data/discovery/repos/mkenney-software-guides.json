@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T04:52:57.572695+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 202
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": null,
+    "fork": false,
+    "full_name": "mkenney/software-guides",
+    "html_url": "https://github.com/mkenney/software-guides",
+    "language": null,
+    "pushed_at": "2022-07-13T01:55:02Z",
+    "stargazers_count": 22,
+    "topics": [],
+    "updated_at": "2025-10-04T15:36:14Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

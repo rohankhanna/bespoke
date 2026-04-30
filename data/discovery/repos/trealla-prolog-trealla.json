@@ -1,0 +1,223 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml"
+    },
+    {
+      "component": "msys2/setup-msys2@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml"
+    },
+    {
+      "component": "mwilliamson/setup-wasmtime-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml"
+    },
+    {
+      "component": "softprops/action-gh-release@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "trealla-prolog/trealla",
+      "target": "logtalkdotorg/logtalk-jupyter-kernel",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "trealla-prolog/trealla",
+      "target": "infradig/imath",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml",
+      "source_repo": "trealla-prolog/trealla",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml",
+      "source_repo": "trealla-prolog/trealla",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml",
+      "source_repo": "trealla-prolog/trealla",
+      "target": "msys2/setup-msys2@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml",
+      "source_repo": "trealla-prolog/trealla",
+      "target": "mwilliamson/setup-wasmtime-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml",
+      "source_repo": "trealla-prolog/trealla",
+      "target": "actions/download-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml",
+      "source_repo": "trealla-prolog/trealla",
+      "target": "softprops/action-gh-release@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "trealla-prolog/trealla",
+      "target": "iso-prolog-standard",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "trealla-prolog/trealla",
+      "target": "prolog",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "trealla-prolog/trealla",
+      "target": "prolog-implementation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "trealla-prolog/trealla",
+      "target": "prolog-interpreter",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "trealla-prolog/trealla",
+      "target": "prolog-programming-language",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T00:51:04.866057+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 39711
+    },
+    {
+      "path": ".github/workflows/build.yaml",
+      "size": 6282
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A compact, efficient Prolog interpreter written in plain old C.",
+    "fork": false,
+    "full_name": "trealla-prolog/trealla",
+    "html_url": "https://github.com/trealla-prolog/trealla",
+    "language": "C",
+    "pushed_at": "2026-04-30T00:11:22Z",
+    "stargazers_count": 353,
+    "topics": [
+      "c",
+      "iso-prolog-standard",
+      "prolog",
+      "prolog-implementation",
+      "prolog-interpreter",
+      "prolog-programming-language"
+    ],
+    "updated_at": "2026-04-29T07:05:50Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "infradig/imath",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "logtalkdotorg/logtalk-jupyter-kernel",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Trealla Prolog",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "iso-prolog-standard"
+    },
+    {
+      "context_snippet": "Trealla Prolog",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "prolog"
+    },
+    {
+      "context_snippet": "Trealla Prolog",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "prolog-implementation"
+    },
+    {
+      "context_snippet": "Trealla Prolog",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "prolog-interpreter"
+    },
+    {
+      "context_snippet": "Trealla Prolog",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "prolog-programming-language"
+    }
+  ]
+}

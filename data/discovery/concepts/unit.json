@@ -31,6 +31,30 @@
       "source_repo": "operator-framework/operator-lifecycle-manager",
       "status": "candidate-context",
       "text": "unit"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "operator-framework/operator-registry",
+      "status": "candidate-context",
+      "text": " Operator Registry runs in a Kubernetes or OpenShift cluster to provide operator catalog data to Operator Lifecycle Manager."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "operator-framework/operator-registry",
+      "status": "candidate-context",
+      "text": "unit"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "GoogleChrome/lighthouse",
+      "status": "candidate-context",
+      "text": "Automated auditing, performance metrics, and best practices for the web."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "GoogleChrome/lighthouse",
+      "status": "candidate-context",
+      "text": "unit"
     }
   ],
   "candidate_glosses": [
@@ -43,6 +67,18 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "operator-framework/operator-lifecycle-manager",
+      "status": "candidate",
+      "text": "unit"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "operator-framework/operator-registry",
+      "status": "candidate",
+      "text": "unit"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "GoogleChrome/lighthouse",
       "status": "candidate",
       "text": "unit"
     }
@@ -136,11 +172,23 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": ".github/workflows/unit.yml",
       "source_repo": "operator-framework/operator-lifecycle-manager"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/unit.yaml",
+      "source_repo": "operator-framework/operator-registry"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/unit.yml",
+      "source_repo": "GoogleChrome/lighthouse"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

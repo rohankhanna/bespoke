@@ -1,0 +1,136 @@
+{
+  "aliases": [
+    "sacred"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JarnoRFB/incense",
+      "status": "candidate-context",
+      "text": "Interactively retrieve data from sacred experiments."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JarnoRFB/incense",
+      "status": "candidate-context",
+      "text": ".. image:: https://mybinder.org/badge_logo.svg"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JarnoRFB/incense",
+      "status": "candidate",
+      "text": ".. image:: https://mybinder.org/badge_logo.svg"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39938158,
+      "status": "candidate",
+      "text": "hallowed"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39938114,
+      "status": "candidate",
+      "text": "sanctified"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39938014,
+      "status": "candidate",
+      "text": "holy"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39938005,
+      "status": "candidate",
+      "text": "sacrosanct"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39936452,
+      "status": "candidate",
+      "text": "religious"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 47048,
+      "status": "candidate",
+      "text": "sublime"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 30032,
+      "status": "candidate",
+      "text": "inviolable"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 29040,
+      "status": "candidate",
+      "text": "ineffable"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 29025,
+      "status": "candidate",
+      "text": "sanctified"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 26023,
+      "status": "candidate",
+      "text": "revered"
+    }
+  ],
+  "canonical_name": "sacred",
+  "concept_id": "sacred",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "JarnoRFB/incense"
+    }
+  ],
+  "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "sacred",
+      "sense_id": "sacred#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

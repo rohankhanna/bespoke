@@ -1,0 +1,167 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "2U1/Phi3-Vision-Finetune",
+      "target": "2u1/qwen2-vl-finetune",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "2U1/Phi3-Vision-Finetune",
+      "target": "2u1/llama3.2-vision-ft",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "2U1/Phi3-Vision-Finetune",
+      "target": "2u1/pixtral-finetune",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "2U1/Phi3-Vision-Finetune",
+      "target": "2u1/phi3-vision-ft",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "2U1/Phi3-Vision-Finetune",
+      "target": "chatbot",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "2U1/Phi3-Vision-Finetune",
+      "target": "multi-modal",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "2U1/Phi3-Vision-Finetune",
+      "target": "phi3",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "2U1/Phi3-Vision-Finetune",
+      "target": "phi3-vision",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "2U1/Phi3-Vision-Finetune",
+      "target": "vision-language",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "2U1/Phi3-Vision-Finetune",
+      "target": "vision-language-model",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T02:40:13.860447+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 14020
+    },
+    {
+      "path": "requirements.txt",
+      "size": 1981
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "An open-source implementaion for fine-tuning Phi3-Vision and Phi3.5-Vision by Microsoft.",
+    "fork": true,
+    "full_name": "2U1/Phi3-Vision-Finetune",
+    "html_url": "https://github.com/2U1/Phi3-Vision-Finetune",
+    "language": "Python",
+    "pushed_at": "2025-10-02T05:55:32Z",
+    "stargazers_count": 99,
+    "topics": [
+      "chatbot",
+      "multi-modal",
+      "phi3",
+      "phi3-vision",
+      "vision-language",
+      "vision-language-model"
+    ],
+    "updated_at": "2026-04-12T10:32:34Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "2u1/llama3.2-vision-ft",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "2u1/phi3-vision-ft",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "2u1/pixtral-finetune",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "2u1/qwen2-vl-finetune",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "This repository contains a script for training the [Phi3-Vision model](https://huggingface.co/microsoft/Phi-3-vision-128k-instruct) and [Phi3.5-Vision model](https://huggingface.co/microsoft/Phi-3.5-vision-instruct)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "chatbot"
+    },
+    {
+      "context_snippet": "This repository contains a script for training the [Phi3-Vision model](https://huggingface.co/microsoft/Phi-3-vision-128k-instruct) and [Phi3.5-Vision model](https://huggingface.co/microsoft/Phi-3.5-vision-instruct)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "multi-modal"
+    },
+    {
+      "context_snippet": "This repository contains a script for training the [Phi3-Vision model](https://huggingface.co/microsoft/Phi-3-vision-128k-instruct) and [Phi3.5-Vision model](https://huggingface.co/microsoft/Phi-3.5-vision-instruct)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "phi3"
+    },
+    {
+      "context_snippet": "This repository contains a script for training the [Phi3-Vision model](https://huggingface.co/microsoft/Phi-3-vision-128k-instruct) and [Phi3.5-Vision model](https://huggingface.co/microsoft/Phi-3.5-vision-instruct)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "phi3-vision"
+    },
+    {
+      "context_snippet": "This repository contains a script for training the [Phi3-Vision model](https://huggingface.co/microsoft/Phi-3-vision-128k-instruct) and [Phi3.5-Vision model](https://huggingface.co/microsoft/Phi-3.5-vision-instruct)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vision-language"
+    },
+    {
+      "context_snippet": "This repository contains a script for training the [Phi3-Vision model](https://huggingface.co/microsoft/Phi-3-vision-128k-instruct) and [Phi3.5-Vision model](https://huggingface.co/microsoft/Phi-3.5-vision-instruct)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vision-language-model"
+    }
+  ]
+}

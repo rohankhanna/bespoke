@@ -1,0 +1,138 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "girishji/autosuggest.vim",
+      "target": "hrsh7th/cmp-cmdline",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "girishji/autosuggest.vim",
+      "target": "gelguy/wilder.nvim",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "girishji/autosuggest.vim",
+      "target": "vim-scripts/sherlock.vim",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "girishji/autosuggest.vim",
+      "target": "autocomplete",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "girishji/autosuggest.vim",
+      "target": "menu",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "girishji/autosuggest.vim",
+      "target": "vim-cmd",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "girishji/autosuggest.vim",
+      "target": "vim-plugin",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "girishji/autosuggest.vim",
+      "target": "vim-search",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T00:37:50.050646+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7895
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Autocompletion for Vim's command-line.",
+    "fork": false,
+    "full_name": "girishji/autosuggest.vim",
+    "html_url": "https://github.com/girishji/autosuggest.vim",
+    "language": "Vim Script",
+    "pushed_at": "2024-10-13T14:36:51Z",
+    "stargazers_count": 62,
+    "topics": [
+      "autocomplete",
+      "menu",
+      "vim",
+      "vim-cmd",
+      "vim-plugin",
+      "vim-search"
+    ],
+    "updated_at": "2025-11-25T13:27:32Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "gelguy/wilder.nvim",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "hrsh7th/cmp-cmdline",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "vim-scripts/sherlock.vim",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "-------------",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "autocomplete"
+    },
+    {
+      "context_snippet": "-------------",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "menu"
+    },
+    {
+      "context_snippet": "-------------",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vim-cmd"
+    },
+    {
+      "context_snippet": "-------------",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vim-plugin"
+    },
+    {
+      "context_snippet": "-------------",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vim-search"
+    }
+  ]
+}

@@ -1,0 +1,88 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "arkworks-rs/spartan",
+      "target": "microsoft/spartan",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "Cargo.toml",
+      "source_repo": "arkworks-rs/spartan",
+      "target": "zhenfeizhang/ark-spartan",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust.yml",
+      "source_repo": "arkworks-rs/spartan",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/rust.yml",
+      "source_repo": "arkworks-rs/spartan",
+      "target": "Build and Test Spartan",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T04:52:50.594816+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 14983
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 1838
+    },
+    {
+      "path": ".github/workflows/rust.yml",
+      "size": 755
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Spartan on Arkworks",
+    "fork": true,
+    "full_name": "arkworks-rs/spartan",
+    "html_url": "https://github.com/arkworks-rs/spartan",
+    "language": "Rust",
+    "pushed_at": "2025-08-19T07:12:09Z",
+    "stargazers_count": 47,
+    "topics": [],
+    "updated_at": "2026-02-13T03:45:26Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "microsoft/spartan",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "zhenfeizhang/ark-spartan",
+      "source_file": "Cargo.toml"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Build and Test Spartan",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/rust.yml",
+      "term": "Build and Test Spartan"
+    }
+  ]
+}

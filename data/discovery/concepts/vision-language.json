@@ -91,6 +91,42 @@
       "source_repo": "2U1/Qwen-VL-Series-Finetune",
       "status": "candidate-context",
       "text": "This repository contains a script for training [Qwen2-VL](https://huggingface.co/Qwen/Qwen2-VL-7B-Instruct), [Qwen2.5-VL](https://huggingface.co/Qwen/Qwen2.5-VL-7B-Instruct)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "2U1/Llama3.2-Vision-Finetune",
+      "status": "candidate-context",
+      "text": "An open-source implementaion for fine-tuning Llama3.2-Vision series by Meta."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "2U1/Llama3.2-Vision-Finetune",
+      "status": "candidate-context",
+      "text": "This repository contains a script for training [Llama3.2-Vision](https://huggingface.co/meta-llama/Llama-3.2-11B-Vision-Instruct) with only using HuggingFace and [Liger-Kernel](https://github.com/linkedin/Liger-Kernel)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "2U1/Phi3-Vision-Finetune",
+      "status": "candidate-context",
+      "text": "An open-source implementaion for fine-tuning Phi3-Vision and Phi3.5-Vision by Microsoft."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "2U1/Phi3-Vision-Finetune",
+      "status": "candidate-context",
+      "text": "This repository contains a script for training the [Phi3-Vision model](https://huggingface.co/microsoft/Phi-3-vision-128k-instruct) and [Phi3.5-Vision model](https://huggingface.co/microsoft/Phi-3.5-vision-instruct)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "OFA-Sys/Chinese-CLIP",
+      "status": "candidate-context",
+      "text": "Chinese version of CLIP which achieves Chinese cross-modal retrieval and representation generation."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "OFA-Sys/Chinese-CLIP",
+      "status": "candidate-context",
+      "text": "[**\u4e2d\u6587\u8bf4\u660e**](README.md) | [**English**](README_En.md)"
     }
   ],
   "candidate_glosses": [
@@ -135,6 +171,24 @@
       "source_repo": "2U1/Qwen-VL-Series-Finetune",
       "status": "candidate",
       "text": "This repository contains a script for training [Qwen2-VL](https://huggingface.co/Qwen/Qwen2-VL-7B-Instruct), [Qwen2.5-VL](https://huggingface.co/Qwen/Qwen2.5-VL-7B-Instruct)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "2U1/Llama3.2-Vision-Finetune",
+      "status": "candidate",
+      "text": "This repository contains a script for training [Llama3.2-Vision](https://huggingface.co/meta-llama/Llama-3.2-11B-Vision-Instruct) with only using HuggingFace and [Liger-Kernel](https://github.com/linkedin/Liger-Kernel)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "2U1/Phi3-Vision-Finetune",
+      "status": "candidate",
+      "text": "This repository contains a script for training the [Phi3-Vision model](https://huggingface.co/microsoft/Phi-3-vision-128k-instruct) and [Phi3.5-Vision model](https://huggingface.co/microsoft/Phi-3.5-vision-instruct)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "OFA-Sys/Chinese-CLIP",
+      "status": "candidate",
+      "text": "[**\u4e2d\u6587\u8bf4\u660e**](README.md) | [**English**](README_En.md)"
     }
   ],
   "candidate_related_terms": [],
@@ -190,11 +244,35 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "2U1/Qwen-VL-Series-Finetune"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "TinyLLaVA/TinyLLaVA_Factory"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "2U1/Llama3.2-Vision-Finetune"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "2U1/Phi3-Vision-Finetune"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "OFA-Sys/Chinese-CLIP"
     }
   ],
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

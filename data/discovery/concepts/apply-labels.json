@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Apply Labels"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ROCm/rocm-systems",
+      "status": "candidate-context",
+      "text": "super repo for rocm systems projects"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ROCm/rocm-systems",
+      "status": "candidate-context",
+      "text": "Apply Labels"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ROCm/rocm-systems",
+      "status": "candidate",
+      "text": "Apply Labels"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 13837,
+      "status": "candidate",
+      "text": "mark"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 13493,
+      "status": "candidate",
+      "text": "smear"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 13251,
+      "status": "candidate",
+      "text": "gummed"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 13251,
+      "status": "candidate",
+      "text": "number"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12716,
+      "status": "candidate",
+      "text": "labeled"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Apply Labels",
+  "concept_id": "apply-labels",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/apply-labels.yml",
+      "source_repo": "ROCm/rocm-systems"
+    }
+  ],
+  "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Apply Labels",
+      "sense_id": "apply-labels#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

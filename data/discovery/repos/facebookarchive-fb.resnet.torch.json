@@ -1,0 +1,65 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "facebookarchive/fb.resnet.torch",
+      "target": "soumith/cudnn.torch",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "facebookarchive/fb.resnet.torch",
+      "target": "facebook/fb.resnet.torch",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "facebookarchive/fb.resnet.torch",
+      "target": "kaiminghe/deep-residual-networks",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T03:46:00.248844+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3614
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "master",
+    "description": "Torch implementation of ResNet from http://arxiv.org/abs/1512.03385 and training scripts",
+    "fork": false,
+    "full_name": "facebookarchive/fb.resnet.torch",
+    "html_url": "https://github.com/facebookarchive/fb.resnet.torch",
+    "language": "Lua",
+    "pushed_at": "2022-08-24T15:23:59Z",
+    "stargazers_count": 2366,
+    "topics": [],
+    "updated_at": "2026-04-04T09:00:49Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "facebook/fb.resnet.torch",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "kaiminghe/deep-residual-networks",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "soumith/cudnn.torch",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

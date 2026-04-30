@@ -1,0 +1,188 @@
+{
+  "components": [
+    {
+      "component": "assemblyscript",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "http-server",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "local-web-server",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "minimist",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "typedoc",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "actions/checkout@v2.1.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/npm-publish.yml"
+    },
+    {
+      "component": "actions/setup-node@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/npm-publish.yml"
+    },
+    {
+      "component": "pascalgn/npm-publish-action@4f4bf159e299f65d21cd1cbd96fc5d53228036df",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/npm-publish.yml"
+    },
+    {
+      "component": "actions/checkout@v2.1.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr.yml"
+    },
+    {
+      "component": "actions/setup-node@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "solo-io/proxy-runtime",
+      "target": "assemblyscript",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "solo-io/proxy-runtime",
+      "target": "http-server",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "solo-io/proxy-runtime",
+      "target": "local-web-server",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "solo-io/proxy-runtime",
+      "target": "minimist",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "solo-io/proxy-runtime",
+      "target": "typedoc",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/npm-publish.yml",
+      "source_repo": "solo-io/proxy-runtime",
+      "target": "actions/checkout@v2.1.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/npm-publish.yml",
+      "source_repo": "solo-io/proxy-runtime",
+      "target": "actions/setup-node@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/npm-publish.yml",
+      "source_repo": "solo-io/proxy-runtime",
+      "target": "pascalgn/npm-publish-action@4f4bf159e299f65d21cd1cbd96fc5d53228036df",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/npm-publish.yml",
+      "source_repo": "solo-io/proxy-runtime",
+      "target": "npm-publish",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr.yml",
+      "source_repo": "solo-io/proxy-runtime",
+      "target": "actions/checkout@v2.1.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr.yml",
+      "source_repo": "solo-io/proxy-runtime",
+      "target": "actions/setup-node@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr.yml",
+      "source_repo": "solo-io/proxy-runtime",
+      "target": "check-pr",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T04:48:11.331324+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2643
+    },
+    {
+      "path": "package.json",
+      "size": 1300
+    },
+    {
+      "path": ".github/workflows/npm-publish.yml",
+      "size": 1130
+    },
+    {
+      "path": ".github/workflows/pr.yml",
+      "size": 538
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": null,
+    "fork": false,
+    "full_name": "solo-io/proxy-runtime",
+    "html_url": "https://github.com/solo-io/proxy-runtime",
+    "language": "TypeScript",
+    "pushed_at": "2024-01-31T15:46:24Z",
+    "stargazers_count": 89,
+    "topics": [],
+    "updated_at": "2026-03-05T05:02:24Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "npm-publish",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/npm-publish.yml",
+      "term": "npm-publish"
+    },
+    {
+      "context_snippet": "check-pr",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr.yml",
+      "term": "check-pr"
+    }
+  ]
+}

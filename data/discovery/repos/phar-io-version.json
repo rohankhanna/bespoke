@@ -1,0 +1,79 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3.5.2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "shivammathur/setup-php@2.25.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v3.5.2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "shivammathur/setup-php@2.25.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "codecov/codecov-action@v3.1.4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "phar-io/version",
+      "target": "actions/checkout@v3.5.2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "phar-io/version",
+      "target": "shivammathur/setup-php@2.25.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "phar-io/version",
+      "target": "codecov/codecov-action@v3.1.4",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-04-30T05:06:18.396105+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2384
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 1829
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Library for handling version information and constraints",
+    "fork": false,
+    "full_name": "phar-io/version",
+    "html_url": "https://github.com/phar-io/version",
+    "language": "PHP",
+    "pushed_at": "2024-01-31T22:47:27Z",
+    "stargazers_count": 7477,
+    "topics": [],
+    "updated_at": "2026-04-29T09:44:22Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

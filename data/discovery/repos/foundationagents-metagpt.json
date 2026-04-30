@@ -196,7 +196,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-29T20:49:00.930960+00:00",
+  "fetched_at": "2026-04-30T02:39:58.811554+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -241,7 +241,7 @@
     "html_url": "https://github.com/FoundationAgents/MetaGPT",
     "language": "Python",
     "pushed_at": "2026-01-21T10:12:33Z",
-    "stargazers_count": 67555,
+    "stargazers_count": 67562,
     "topics": [
       "agent",
       "gpt",
@@ -249,7 +249,7 @@
       "metagpt",
       "multi-agent"
     ],
-    "updated_at": "2026-04-29T19:03:54Z"
+    "updated_at": "2026-04-30T02:18:59Z"
   },
   "repo_links": [
     {

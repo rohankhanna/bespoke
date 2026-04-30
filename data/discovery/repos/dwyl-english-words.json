@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T04:09:00.736355+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1353
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": ":memo: A text file containing 479k English words for all your dictionary/word-based projects e.g: auto-completion / autosuggestion",
+    "fork": false,
+    "full_name": "dwyl/english-words",
+    "html_url": "https://github.com/dwyl/english-words",
+    "language": "Python",
+    "pushed_at": "2025-01-06T17:34:06Z",
+    "stargazers_count": 12060,
+    "topics": [],
+    "updated_at": "2026-04-30T03:14:43Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

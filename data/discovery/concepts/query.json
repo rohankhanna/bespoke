@@ -43,6 +43,18 @@
       "source_repo": "prestodb/presto",
       "status": "candidate-context",
       "text": "[![LFX Health Score](https://insights.linuxfoundation.org/api/badge/health-score?project=presto)](https://insights.linuxfoundation.org/project/presto)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "astahmer/typed-openapi",
+      "status": "candidate-context",
+      "text": "Generate a headless Typescript API client from an OpenAPI spec - optionally with a @tanstack/react-query client using queryOptions"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "astahmer/typed-openapi",
+      "status": "candidate-context",
+      "text": "Generate a Typescript API client from an OpenAPI spec"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +75,12 @@
       "source_repo": "prestodb/presto",
       "status": "candidate",
       "text": "[![LFX Health Score](https://insights.linuxfoundation.org/api/badge/health-score?project=presto)](https://insights.linuxfoundation.org/project/presto)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "astahmer/typed-openapi",
+      "status": "candidate",
+      "text": "Generate a Typescript API client from an OpenAPI spec"
     }
   ],
   "candidate_related_terms": [
@@ -146,11 +164,17 @@
       "observed_at": "2026-04-24T12:33:41.350224+00:00",
       "source_file": null,
       "source_repo": "prestodb/presto"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "astahmer/typed-openapi"
     }
   ],
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

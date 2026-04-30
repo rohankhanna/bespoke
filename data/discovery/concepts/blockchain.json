@@ -610,6 +610,42 @@
       "source_repo": "spacemeshos/go-spacemesh",
       "status": "candidate-context",
       "text": "[![license](https://img.shields.io/packagist/l/doctrine/orm.svg)](https://github.com/spacemeshos/go-spacemesh/blob/master/LICENSE)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "celo-org/celo-composer",
+      "status": "candidate-context",
+      "text": "celo-composer is a starter project with all code needed to build, deploy, and upgrade a dapps on Celo."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "celo-org/celo-composer",
+      "status": "candidate-context",
+      "text": "A powerful CLI tool for generating customizable Celo blockchain starter kits with modern monorepo architecture."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "celo-org/react-celo",
+      "status": "candidate-context",
+      "text": "Connect your react dApp to Celo"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "celo-org/react-celo",
+      "status": "candidate-context",
+      "text": "react-celo-root"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "spacemeshos/smrepl",
+      "status": "candidate-context",
+      "text": "A Spacemesh Terminal wallet app"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "spacemeshos/smrepl",
+      "status": "candidate-context",
+      "text": "July 2022 UPDATE: THIS TOOL (SMREPL) IS *NOT UP-TO-DATE OR COMPATIBLE* WITH OUR LATEST DEVNET."
     }
   ],
   "candidate_glosses": [
@@ -912,6 +948,24 @@
       "source_repo": "spacemeshos/go-spacemesh",
       "status": "candidate",
       "text": "[![license](https://img.shields.io/packagist/l/doctrine/orm.svg)](https://github.com/spacemeshos/go-spacemesh/blob/master/LICENSE)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "celo-org/celo-composer",
+      "status": "candidate",
+      "text": "A powerful CLI tool for generating customizable Celo blockchain starter kits with modern monorepo architecture."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "celo-org/react-celo",
+      "status": "candidate",
+      "text": "react-celo-root"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "spacemeshos/smrepl",
+      "status": "candidate",
+      "text": "July 2022 UPDATE: THIS TOOL (SMREPL) IS *NOT UP-TO-DATE OR COMPATIBLE* WITH OUR LATEST DEVNET."
     }
   ],
   "candidate_related_terms": [
@@ -1399,11 +1453,71 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "spacemeshos/go-spacemesh"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "argotorg/solidity"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "ConsenSys-archive/ganache"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "ipsilon/evmone"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "dethcrypto/TypeChain"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "celo-org/celo-composer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "celo-org/react-celo"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "lightning/bolts"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "stx-labs/connect"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "chawyehsu/dorado"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "spacemeshos/smrepl"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

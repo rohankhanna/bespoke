@@ -1,0 +1,311 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "microsoft/UniVL",
+      "target": "maluuba/nlg-eval",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "microsoft/UniVL",
+      "target": "antoine77340/howto100m",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/UniVL",
+      "target": "alignment",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/UniVL",
+      "target": "caption",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/UniVL",
+      "target": "caption-task",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/UniVL",
+      "target": "coin",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/UniVL",
+      "target": "joint",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/UniVL",
+      "target": "localization",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/UniVL",
+      "target": "msrvtt",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/UniVL",
+      "target": "multimodal-sentiment-analysis",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/UniVL",
+      "target": "multimodality",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/UniVL",
+      "target": "pretrain",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/UniVL",
+      "target": "pretraining",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/UniVL",
+      "target": "retrieval-task",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/UniVL",
+      "target": "segmentation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/UniVL",
+      "target": "video",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/UniVL",
+      "target": "video-language",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/UniVL",
+      "target": "video-text",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/UniVL",
+      "target": "video-text-retrieval",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/UniVL",
+      "target": "youcookii",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T05:14:43.849566+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9354
+    },
+    {
+      "path": "requirements.txt",
+      "size": 39
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "An official implementation for \" UniVL: A Unified Video and Language Pre-Training Model for Multimodal Understanding and Generation\"",
+    "fork": false,
+    "full_name": "microsoft/UniVL",
+    "html_url": "https://github.com/microsoft/UniVL",
+    "language": "Python",
+    "pushed_at": "2024-07-25T11:07:33Z",
+    "stargazers_count": 365,
+    "topics": [
+      "alignment",
+      "caption",
+      "caption-task",
+      "coin",
+      "joint",
+      "localization",
+      "msrvtt",
+      "multimodal-sentiment-analysis",
+      "multimodality",
+      "pretrain",
+      "pretraining",
+      "retrieval-task",
+      "segmentation",
+      "video",
+      "video-language",
+      "video-text",
+      "video-text-retrieval",
+      "youcookii"
+    ],
+    "updated_at": "2026-02-24T09:15:40Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "antoine77340/howto100m",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "maluuba/nlg-eval",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "The implementation of paper [**UniVL: A Unified Video and Language Pre-Training Model for Multimodal Understanding and Generation**](https://arxiv.org/abs/2002.06353).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "alignment"
+    },
+    {
+      "context_snippet": "The implementation of paper [**UniVL: A Unified Video and Language Pre-Training Model for Multimodal Understanding and Generation**](https://arxiv.org/abs/2002.06353).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "caption"
+    },
+    {
+      "context_snippet": "The implementation of paper [**UniVL: A Unified Video and Language Pre-Training Model for Multimodal Understanding and Generation**](https://arxiv.org/abs/2002.06353).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "caption-task"
+    },
+    {
+      "context_snippet": "The implementation of paper [**UniVL: A Unified Video and Language Pre-Training Model for Multimodal Understanding and Generation**](https://arxiv.org/abs/2002.06353).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "coin"
+    },
+    {
+      "context_snippet": "The implementation of paper [**UniVL: A Unified Video and Language Pre-Training Model for Multimodal Understanding and Generation**](https://arxiv.org/abs/2002.06353).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "joint"
+    },
+    {
+      "context_snippet": "The implementation of paper [**UniVL: A Unified Video and Language Pre-Training Model for Multimodal Understanding and Generation**](https://arxiv.org/abs/2002.06353).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "localization"
+    },
+    {
+      "context_snippet": "The implementation of paper [**UniVL: A Unified Video and Language Pre-Training Model for Multimodal Understanding and Generation**](https://arxiv.org/abs/2002.06353).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "msrvtt"
+    },
+    {
+      "context_snippet": "The implementation of paper [**UniVL: A Unified Video and Language Pre-Training Model for Multimodal Understanding and Generation**](https://arxiv.org/abs/2002.06353).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "multimodal-sentiment-analysis"
+    },
+    {
+      "context_snippet": "The implementation of paper [**UniVL: A Unified Video and Language Pre-Training Model for Multimodal Understanding and Generation**](https://arxiv.org/abs/2002.06353).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "multimodality"
+    },
+    {
+      "context_snippet": "The implementation of paper [**UniVL: A Unified Video and Language Pre-Training Model for Multimodal Understanding and Generation**](https://arxiv.org/abs/2002.06353).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pretrain"
+    },
+    {
+      "context_snippet": "The implementation of paper [**UniVL: A Unified Video and Language Pre-Training Model for Multimodal Understanding and Generation**](https://arxiv.org/abs/2002.06353).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pretraining"
+    },
+    {
+      "context_snippet": "The implementation of paper [**UniVL: A Unified Video and Language Pre-Training Model for Multimodal Understanding and Generation**](https://arxiv.org/abs/2002.06353).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "retrieval-task"
+    },
+    {
+      "context_snippet": "The implementation of paper [**UniVL: A Unified Video and Language Pre-Training Model for Multimodal Understanding and Generation**](https://arxiv.org/abs/2002.06353).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "segmentation"
+    },
+    {
+      "context_snippet": "The implementation of paper [**UniVL: A Unified Video and Language Pre-Training Model for Multimodal Understanding and Generation**](https://arxiv.org/abs/2002.06353).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "video"
+    },
+    {
+      "context_snippet": "The implementation of paper [**UniVL: A Unified Video and Language Pre-Training Model for Multimodal Understanding and Generation**](https://arxiv.org/abs/2002.06353).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "video-language"
+    },
+    {
+      "context_snippet": "The implementation of paper [**UniVL: A Unified Video and Language Pre-Training Model for Multimodal Understanding and Generation**](https://arxiv.org/abs/2002.06353).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "video-text"
+    },
+    {
+      "context_snippet": "The implementation of paper [**UniVL: A Unified Video and Language Pre-Training Model for Multimodal Understanding and Generation**](https://arxiv.org/abs/2002.06353).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "video-text-retrieval"
+    },
+    {
+      "context_snippet": "The implementation of paper [**UniVL: A Unified Video and Language Pre-Training Model for Multimodal Understanding and Generation**](https://arxiv.org/abs/2002.06353).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "youcookii"
+    }
+  ]
+}

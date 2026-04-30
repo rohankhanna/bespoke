@@ -1,0 +1,169 @@
+{
+  "components": [
+    {
+      "component": "julia-testitems/testitem-workflow/.github/workflows/juliaci.yml@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/juliaci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "julia-vscode/LanguageServer.jl",
+      "target": "pfitzseb/atom-julia-lsp-client",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "julia-vscode/LanguageServer.jl",
+      "target": "tomv564/lsp",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/juliaci.yml",
+      "source_repo": "julia-vscode/LanguageServer.jl",
+      "target": "julia-testitems/testitem-workflow/.github/workflows/juliaci.yml@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/juliaci.yml",
+      "source_repo": "julia-vscode/LanguageServer.jl",
+      "target": "Julia CI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "julia-vscode/LanguageServer.jl",
+      "target": "julia",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "julia-vscode/LanguageServer.jl",
+      "target": "julia-language",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "julia-vscode/LanguageServer.jl",
+      "target": "julialang",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "julia-vscode/LanguageServer.jl",
+      "target": "language-server-protocol",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "julia-vscode/LanguageServer.jl",
+      "target": "languageserver",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "julia-vscode/LanguageServer.jl",
+      "target": "microsoft",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T01:00:09.526320+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2234
+    },
+    {
+      "path": ".github/workflows/juliaci.yml",
+      "size": 594
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "An implementation of the Microsoft Language Server Protocol for the Julia language.",
+    "fork": false,
+    "full_name": "julia-vscode/LanguageServer.jl",
+    "html_url": "https://github.com/julia-vscode/LanguageServer.jl",
+    "language": "Julia",
+    "pushed_at": "2026-04-21T12:24:37Z",
+    "stargazers_count": 411,
+    "topics": [
+      "julia",
+      "julia-language",
+      "julialang",
+      "language-server-protocol",
+      "languageserver",
+      "microsoft"
+    ],
+    "updated_at": "2026-04-09T17:50:43Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "pfitzseb/atom-julia-lsp-client",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "tomv564/lsp",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Julia CI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/juliaci.yml",
+      "term": "Julia CI"
+    },
+    {
+      "context_snippet": "[![Project Status: Active - The project has reached a stable, usable state and is being actively developed.](http://www.repostatus.org/badges/latest/active.svg)](http://www.repostatus.org/#active)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "julia"
+    },
+    {
+      "context_snippet": "[![Project Status: Active - The project has reached a stable, usable state and is being actively developed.](http://www.repostatus.org/badges/latest/active.svg)](http://www.repostatus.org/#active)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "julia-language"
+    },
+    {
+      "context_snippet": "[![Project Status: Active - The project has reached a stable, usable state and is being actively developed.](http://www.repostatus.org/badges/latest/active.svg)](http://www.repostatus.org/#active)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "julialang"
+    },
+    {
+      "context_snippet": "[![Project Status: Active - The project has reached a stable, usable state and is being actively developed.](http://www.repostatus.org/badges/latest/active.svg)](http://www.repostatus.org/#active)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "language-server-protocol"
+    },
+    {
+      "context_snippet": "[![Project Status: Active - The project has reached a stable, usable state and is being actively developed.](http://www.repostatus.org/badges/latest/active.svg)](http://www.repostatus.org/#active)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "languageserver"
+    },
+    {
+      "context_snippet": "[![Project Status: Active - The project has reached a stable, usable state and is being actively developed.](http://www.repostatus.org/badges/latest/active.svg)](http://www.repostatus.org/#active)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "microsoft"
+    }
+  ]
+}

@@ -1,0 +1,136 @@
+{
+  "aliases": [
+    "mint"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "CuatroElixir/spear",
+      "status": "candidate-context",
+      "text": "A sharp EventStoreDB v20+ client backed by Mint :yum:"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "CuatroElixir/spear",
+      "status": "candidate-context",
+      "text": "![CI](https://github.com/NFIBrokerage/spear/workflows/CI/badge.svg)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "CuatroElixir/spear",
+      "status": "candidate",
+      "text": "![CI](https://github.com/NFIBrokerage/spear/workflows/CI/badge.svg)"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39979011,
+      "status": "candidate",
+      "text": "coin"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39958849,
+      "status": "candidate",
+      "text": "deal"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39955673,
+      "status": "candidate",
+      "text": "mass"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39944882,
+      "status": "candidate",
+      "text": "strike"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39944043,
+      "status": "candidate",
+      "text": "pile"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 45080,
+      "status": "candidate",
+      "text": "strike"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 41039,
+      "status": "candidate",
+      "text": "slew"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 21039,
+      "status": "candidate",
+      "text": "spate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 20075,
+      "status": "candidate",
+      "text": "mass"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 18062,
+      "status": "candidate",
+      "text": "pile"
+    }
+  ],
+  "canonical_name": "mint",
+  "concept_id": "mint",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "CuatroElixir/spear"
+    }
+  ],
+  "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "mint",
+      "sense_id": "mint#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

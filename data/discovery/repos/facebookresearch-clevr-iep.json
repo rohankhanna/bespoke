@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T02:40:24.067952+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3488
+    },
+    {
+      "path": "requirements.txt",
+      "size": 120
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "main",
+    "description": "Inferring and Executing Programs for Visual Reasoning",
+    "fork": false,
+    "full_name": "facebookresearch/clevr-iep",
+    "html_url": "https://github.com/facebookresearch/clevr-iep",
+    "language": "Python",
+    "pushed_at": "2021-08-30T20:51:30Z",
+    "stargazers_count": 807,
+    "topics": [],
+    "updated_at": "2026-04-28T23:38:22Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

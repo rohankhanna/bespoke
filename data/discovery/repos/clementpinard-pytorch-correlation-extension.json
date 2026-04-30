@@ -1,0 +1,101 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ClementPinard/Pytorch-Correlation-extension",
+      "target": "nvidia/flownet2-pytorch",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ClementPinard/Pytorch-Correlation-extension",
+      "target": "lmb-freiburg/flownet2",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ClementPinard/Pytorch-Correlation-extension",
+      "target": "correlation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ClementPinard/Pytorch-Correlation-extension",
+      "target": "deeplearning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ClementPinard/Pytorch-Correlation-extension",
+      "target": "pytorch",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T02:44:40.919469+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6938
+    },
+    {
+      "path": "requirements.txt",
+      "size": 19
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Custom implementation of Corrleation Module",
+    "fork": false,
+    "full_name": "ClementPinard/Pytorch-Correlation-extension",
+    "html_url": "https://github.com/ClementPinard/Pytorch-Correlation-extension",
+    "language": "Python",
+    "pushed_at": "2026-04-20T08:02:54Z",
+    "stargazers_count": 431,
+    "topics": [
+      "correlation",
+      "deeplearning",
+      "pytorch"
+    ],
+    "updated_at": "2026-04-20T08:03:00Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "lmb-freiburg/flownet2",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "nvidia/flownet2-pytorch",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[![PyPI](https://img.shields.io/pypi/v/spatial-correlation-sampler.svg)](https://pypi.org/project/spatial-correlation-sampler/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "correlation"
+    },
+    {
+      "context_snippet": "[![PyPI](https://img.shields.io/pypi/v/spatial-correlation-sampler.svg)](https://pypi.org/project/spatial-correlation-sampler/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deeplearning"
+    },
+    {
+      "context_snippet": "[![PyPI](https://img.shields.io/pypi/v/spatial-correlation-sampler.svg)](https://pypi.org/project/spatial-correlation-sampler/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytorch"
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Yuliang-Liu/MultimodalOCR",
+      "target": "shuozhang2003/dt-vqa",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Yuliang-Liu/MultimodalOCR",
+      "target": "xinke-wang/est-vqa",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T05:15:37.326824+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 10714
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "On the Hidden Mystery of OCR in Large Multimodal Models (OCRBench)",
+    "fork": false,
+    "full_name": "Yuliang-Liu/MultimodalOCR",
+    "html_url": "https://github.com/Yuliang-Liu/MultimodalOCR",
+    "language": "Python",
+    "pushed_at": "2026-04-28T07:07:23Z",
+    "stargazers_count": 828,
+    "topics": [],
+    "updated_at": "2026-04-28T17:04:02Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "shuozhang2003/dt-vqa",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "xinke-wang/est-vqa",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

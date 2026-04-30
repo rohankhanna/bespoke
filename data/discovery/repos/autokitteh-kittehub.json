@@ -1,0 +1,148 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dist.yml"
+    },
+    {
+      "component": "stefanzweifel/git-auto-commit-action@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dist.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/typos.yml"
+    },
+    {
+      "component": "crate-ci/typos@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/typos.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "autokitteh/kittehub",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "autokitteh/kittehub",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dist.yml",
+      "source_repo": "autokitteh/kittehub",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dist.yml",
+      "source_repo": "autokitteh/kittehub",
+      "target": "stefanzweifel/git-auto-commit-action@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/dist.yml",
+      "source_repo": "autokitteh/kittehub",
+      "target": "Dist",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/typos.yml",
+      "source_repo": "autokitteh/kittehub",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/typos.yml",
+      "source_repo": "autokitteh/kittehub",
+      "target": "crate-ci/typos@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/typos.yml",
+      "source_repo": "autokitteh/kittehub",
+      "target": "Typos",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T04:52:18.611006+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 20552
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 714
+    },
+    {
+      "path": "requirements.txt",
+      "size": 67
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 1037
+    },
+    {
+      "path": ".github/workflows/dist.yml",
+      "size": 548
+    },
+    {
+      "path": ".github/workflows/typos.yml",
+      "size": 351
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "AutoKitteh projects: ready to deploy with a few clicks",
+    "fork": false,
+    "full_name": "autokitteh/kittehub",
+    "html_url": "https://github.com/autokitteh/kittehub",
+    "language": "Python",
+    "pushed_at": "2026-02-18T00:49:55Z",
+    "stargazers_count": 75,
+    "topics": [],
+    "updated_at": "2026-02-28T21:45:14Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Dist",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/dist.yml",
+      "term": "Dist"
+    },
+    {
+      "context_snippet": "Typos",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/typos.yml",
+      "term": "Typos"
+    }
+  ]
+}

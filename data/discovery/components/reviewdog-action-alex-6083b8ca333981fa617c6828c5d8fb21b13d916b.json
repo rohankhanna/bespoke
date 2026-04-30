@@ -1,12 +1,17 @@
 {
   "component": "reviewdog/action-alex@6083b8ca333981fa617c6828c5d8fb21b13d916b",
   "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/reviewdog.yml",
       "source_repo": "reviewdog/action-suggester"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/reviewdog.yml",
+      "source_repo": "blooper05/action-rails_best_practices"
     }
   ]
 }

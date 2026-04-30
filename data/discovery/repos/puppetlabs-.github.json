@@ -1,0 +1,59 @@
+{
+  "components": [
+    {
+      "component": "lowlighter/metrics@latest",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/org-metrics.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/org-metrics.yml",
+      "source_repo": "puppetlabs/.github",
+      "target": "lowlighter/metrics@latest",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/org-metrics.yml",
+      "source_repo": "puppetlabs/.github",
+      "target": "Metrics",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T00:53:41.226100+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 285
+    },
+    {
+      "path": ".github/workflows/org-metrics.yml",
+      "size": 609
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Default community health files for the Puppet Labs org",
+    "fork": false,
+    "full_name": "puppetlabs/.github",
+    "html_url": "https://github.com/puppetlabs/.github",
+    "language": null,
+    "pushed_at": "2026-04-29T03:05:54Z",
+    "stargazers_count": 7,
+    "topics": [],
+    "updated_at": "2026-04-29T03:05:57Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Metrics",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/org-metrics.yml",
+      "term": "Metrics"
+    }
+  ]
+}

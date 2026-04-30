@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "U8glib library for monochrome displays, version 2 "
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![Gitpod Ready-to-Code](https://img.shields.io/badge/Gitpod-Ready--to--Code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/olikraus/u8g2)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![Gitpod Ready-to-Code](https://img.shields.io/badge/Gitpod-Ready--to--Code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/olikraus/u8g2)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40012494,
+      "status": "candidate",
+      "text": "exhibit"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40011979,
+      "status": "candidate",
+      "text": "showing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40010485,
+      "status": "candidate",
+      "text": "show"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40006380,
+      "status": "candidate",
+      "text": "presentation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39988951,
+      "status": "candidate",
+      "text": "expose"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "display",
+      "sense_id": "display#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 57049,
+      "status": "candidate",
+      "text": "exhibit"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 35056,
+      "status": "candidate",
+      "text": "show"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 31042,
+      "status": "candidate",
+      "text": "reveal"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 24039,
+      "status": "candidate",
+      "text": "expose"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 17048,
+      "status": "candidate",
+      "text": "presentation"
+    }
+  ],
+  "concept_id": "display",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "display",
+  "observation_id": "8bf1ab72fd17cb3a",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T00:37:16.824464+00:00",
+  "observed_text": "display",
+  "source_context_snippet": "[![Gitpod Ready-to-Code](https://img.shields.io/badge/Gitpod-Ready--to--Code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/olikraus/u8g2)",
+  "source_file": null,
+  "source_repo": "olikraus/u8g2",
+  "source_repo_description": "U8glib library for monochrome displays, version 2 "
+}

@@ -1,0 +1,100 @@
+{
+  "components": [
+    {
+      "component": "controldb",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "electron",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "firatkiral/kodibot",
+      "target": "controldb",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "firatkiral/kodibot",
+      "target": "electron",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "firatkiral/kodibot",
+      "target": "ai-assistant",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "firatkiral/kodibot",
+      "target": "chatbot",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "firatkiral/kodibot",
+      "target": "llamacpp",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T01:52:11.868543+00:00",
+  "fetched_files": [
+    {
+      "path": "package.json",
+      "size": 296
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Local and Offline AI Chatbot App for Desktop",
+    "fork": false,
+    "full_name": "firatkiral/kodibot",
+    "html_url": "https://github.com/firatkiral/kodibot",
+    "language": "CSS",
+    "pushed_at": "2024-04-10T20:58:12Z",
+    "stargazers_count": 32,
+    "topics": [
+      "ai",
+      "ai-assistant",
+      "chatbot",
+      "llamacpp",
+      "llm",
+      "openai"
+    ],
+    "updated_at": "2026-02-13T15:31:42Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "kodibot \u2014 AI chatbot",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ai-assistant"
+    },
+    {
+      "context_snippet": "kodibot \u2014 AI chatbot",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "chatbot"
+    },
+    {
+      "context_snippet": "kodibot \u2014 AI chatbot",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "llamacpp"
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T02:41:21.126205+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3306
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Universal cross-platform tokenizers binding to HF and sentencepiece",
+    "fork": false,
+    "full_name": "mlc-ai/tokenizers-cpp",
+    "html_url": "https://github.com/mlc-ai/tokenizers-cpp",
+    "language": "C++",
+    "pushed_at": "2026-02-20T22:55:39Z",
+    "stargazers_count": 484,
+    "topics": [],
+    "updated_at": "2026-04-28T11:21:26Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

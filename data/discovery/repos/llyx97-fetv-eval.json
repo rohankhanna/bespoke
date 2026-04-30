@@ -1,0 +1,65 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "llyx97/FETV-EVAL",
+      "target": "llyx97/fetv_eval",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "llyx97/FETV-EVAL",
+      "target": "thudm/cogvideo",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "llyx97/FETV-EVAL",
+      "target": "picsart-ai-research/text2video-zero",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T05:14:37.370268+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8132
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Evaluation of generated videos on the FETV benchmark",
+    "fork": false,
+    "full_name": "llyx97/FETV-EVAL",
+    "html_url": "https://github.com/llyx97/FETV-EVAL",
+    "language": "Python",
+    "pushed_at": "2025-04-06T02:45:06Z",
+    "stargazers_count": 10,
+    "topics": [],
+    "updated_at": "2026-01-25T14:41:50Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "llyx97/fetv_eval",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "picsart-ai-research/text2video-zero",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "thudm/cogvideo",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

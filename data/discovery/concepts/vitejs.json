@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "vitejs"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "vitejs/awesome-vite",
+      "status": "candidate-context",
+      "text": "\u26a1\ufe0f A curated list of awesome things related to Vite.js"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vitejs/awesome-vite",
+      "status": "candidate-context",
+      "text": "<!--lint disable awesome-heading awesome-github awesome-toc double-link -->"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vitejs/awesome-vite",
+      "status": "candidate",
+      "text": "<!--lint disable awesome-heading awesome-github awesome-toc double-link -->"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "vitejs",
+  "concept_id": "vitejs",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "vitejs/awesome-vite"
+    }
+  ],
+  "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "vitejs",
+      "sense_id": "vitejs#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

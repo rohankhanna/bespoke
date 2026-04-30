@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "React hooks for Flutter. Hooks are a new kind of object that manages a Widget life-cycles. They are used to increase code sharing between widgets and as a complete replacement for StatefulWidget."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[English](https://github.com/rrousselGit/flutter_hooks/blob/master/README.md) | [Portugu\u00eas](https://github.com/rrousselGit/flutter_hooks/blob/master/packages/flutter_hooks/resources/translations/pt_br/README.md) | [\ud55c\uad6d\uc5b4](https://github.com/rrousselGit/flutter_hooks/blob/master/pa\u2026"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[English](https://github.com/rrousselGit/flutter_hooks/blob/master/README.md) | [Portugu\u00eas](https://github.com/rrousselGit/flutter_hooks/blob/master/packages/flutter_hooks/resources/translations/pt_br/README.md) | [\ud55c\uad6d\uc5b4](https://github.com/rrousselGit/flutter_hooks/blob/master/pa\u2026"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30049692,
+      "status": "candidate",
+      "text": "gadget"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30049692,
+      "status": "candidate",
+      "text": "gizmo"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30011141,
+      "status": "candidate",
+      "text": "convenience"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29898885,
+      "status": "candidate",
+      "text": "contraption"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29888499,
+      "status": "candidate",
+      "text": "contrivance"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "widget",
+      "sense_id": "widget#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 20030,
+      "status": "candidate",
+      "text": "contrivance"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 9038,
+      "status": "candidate",
+      "text": "gadget"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 8041,
+      "status": "candidate",
+      "text": "appliance"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 6032,
+      "status": "candidate",
+      "text": "gizmo"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 5033,
+      "status": "candidate",
+      "text": "convenience"
+    }
+  ],
+  "concept_id": "widget",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "widget",
+  "observation_id": "ec042108f302bb58",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T00:37:16.824464+00:00",
+  "observed_text": "widget",
+  "source_context_snippet": "[English](https://github.com/rrousselGit/flutter_hooks/blob/master/README.md) | [Portugu\u00eas](https://github.com/rrousselGit/flutter_hooks/blob/master/packages/flutter_hooks/resources/translations/pt_br/README.md) | [\ud55c\uad6d\uc5b4](https://github.com/rrousselGit/flutter_hooks/blob/master/pa\u2026",
+  "source_file": null,
+  "source_repo": "rrousselGit/flutter_hooks",
+  "source_repo_description": "React hooks for Flutter. Hooks are a new kind of object that manages a Widget life-cycles. They are used to increase code sharing between widgets and as a complete replacement for StatefulWidget."
+}

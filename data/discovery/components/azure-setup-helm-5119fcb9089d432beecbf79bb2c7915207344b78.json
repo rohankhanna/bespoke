@@ -1,7 +1,7 @@
 {
   "component": "azure/setup-helm@5119fcb9089d432beecbf79bb2c7915207344b78",
   "first_seen_at": "2026-04-22T04:41:58.081535+00:00",
-  "last_seen_at": "2026-04-22T04:41:58.081535+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -12,6 +12,16 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/release.yaml",
       "source_repo": "helm/charts-repo-actions-demo"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/helm-test.yml",
+      "source_repo": "opencost/opencost-helm-chart"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "opencost/opencost-helm-chart"
     }
   ]
 }

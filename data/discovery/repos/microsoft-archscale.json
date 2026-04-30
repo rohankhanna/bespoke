@@ -1,0 +1,81 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "microsoft/ArchScale",
+      "target": "dao-ailab/sonic-moe",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "microsoft/ArchScale",
+      "target": "zigzagcai/varlen_mamba",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "microsoft/ArchScale",
+      "target": "huggingface/lighteval",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "Dockerfile",
+      "source_repo": "microsoft/ArchScale",
+      "target": "renll/flash-linear-attention",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T02:02:09.713957+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 13722
+    },
+    {
+      "path": "Dockerfile",
+      "size": 1081
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Simple & Scalable Pretraining for Neural Architecture Research",
+    "fork": false,
+    "full_name": "microsoft/ArchScale",
+    "html_url": "https://github.com/microsoft/ArchScale",
+    "language": "Python",
+    "pushed_at": "2026-03-31T04:26:25Z",
+    "stargazers_count": 329,
+    "topics": [],
+    "updated_at": "2026-04-21T19:34:47Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dao-ailab/sonic-moe",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "huggingface/lighteval",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "zigzagcai/varlen_mamba",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "renll/flash-linear-attention",
+      "source_file": "Dockerfile"
+    }
+  ],
+  "terms": []
+}

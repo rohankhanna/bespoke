@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A general fine-tuning kit geared toward image/video/audio diffusion models."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Push Cog Image"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Push Cog Image"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22667,
+      "status": "candidate",
+      "text": "face"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22200,
+      "status": "candidate",
+      "text": "slide"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22167,
+      "status": "candidate",
+      "text": "advance"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22167,
+      "status": "candidate",
+      "text": "advancing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22167,
+      "status": "candidate",
+      "text": "drive"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Push Cog Image",
+      "sense_id": "push-cog-image#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "push-cog-image",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "push-cog-image",
+  "observation_id": "b8d210eee6f522df",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-30T00:37:16.824464+00:00",
+  "observed_text": "Push Cog Image",
+  "source_context_snippet": "Push Cog Image",
+  "source_file": ".github/workflows/push-replicate.yml",
+  "source_repo": "bghira/SimpleTuner",
+  "source_repo_description": "A general fine-tuning kit geared toward image/video/audio diffusion models."
+}

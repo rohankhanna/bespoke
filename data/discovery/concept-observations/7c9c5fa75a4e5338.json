@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Examples of C extensions in Ruby gems"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "isolated"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "isolated"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39995648,
+      "status": "candidate",
+      "text": "detached"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39992519,
+      "status": "candidate",
+      "text": "separate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39992271,
+      "status": "candidate",
+      "text": "obscure"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39990174,
+      "status": "candidate",
+      "text": "disjunct"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39990056,
+      "status": "candidate",
+      "text": "separated"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "isolated",
+      "sense_id": "isolated#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 91039,
+      "status": "candidate",
+      "text": "obscure"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 43043,
+      "status": "candidate",
+      "text": "sporadic"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 35033,
+      "status": "candidate",
+      "text": "detached"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 22044,
+      "status": "candidate",
+      "text": "separate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 16031,
+      "status": "candidate",
+      "text": "disjunct"
+    }
+  ],
+  "concept_id": "isolated",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "isolated",
+  "observation_id": "7c9c5fa75a4e5338",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-30T00:37:16.824464+00:00",
+  "observed_text": "isolated",
+  "source_context_snippet": "isolated",
+  "source_file": ".github/workflows/isolated.yml",
+  "source_repo": "flavorjones/ruby-c-extensions-explained",
+  "source_repo_description": "Examples of C extensions in Ruby gems"
+}

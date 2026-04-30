@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T00:40:23.663331+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 11623
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Vim plugin, insert or delete brackets, parens, quotes in pair",
+    "fork": false,
+    "full_name": "jiangmiao/auto-pairs",
+    "html_url": "https://github.com/jiangmiao/auto-pairs",
+    "language": "Vim script",
+    "pushed_at": "2024-07-08T10:03:35Z",
+    "stargazers_count": 4201,
+    "topics": [],
+    "updated_at": "2026-04-22T05:31:34Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

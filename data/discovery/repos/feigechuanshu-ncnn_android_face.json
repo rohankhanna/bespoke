@@ -1,0 +1,65 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "FeiGeChuanShu/ncnn_Android_face",
+      "target": "feigechuanshu/ncnn_android_blazeface",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "FeiGeChuanShu/ncnn_Android_face",
+      "target": "nihui/ncnn-android-scrfd",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "FeiGeChuanShu/ncnn_Android_face",
+      "target": "thepowerfuldeez/facemesh.pytorch",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T05:12:11.883141+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 832
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Android face detect and segmentation,facemesh by ncnn",
+    "fork": false,
+    "full_name": "FeiGeChuanShu/ncnn_Android_face",
+    "html_url": "https://github.com/FeiGeChuanShu/ncnn_Android_face",
+    "language": "C++",
+    "pushed_at": "2022-11-01T05:52:33Z",
+    "stargazers_count": 180,
+    "topics": [],
+    "updated_at": "2026-02-13T18:43:02Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "feigechuanshu/ncnn_android_blazeface",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "nihui/ncnn-android-scrfd",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "thepowerfuldeez/facemesh.pytorch",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

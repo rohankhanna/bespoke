@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Set Issue Expectations"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "elm/compiler",
+      "status": "candidate-context",
+      "text": "Compiler for Elm, a functional language for reliable webapps."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "elm/compiler",
+      "status": "candidate-context",
+      "text": "Set Issue Expectations"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "elm/compiler",
+      "status": "candidate",
+      "text": "Set Issue Expectations"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 37356,
+      "status": "candidate",
+      "text": "pitched"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 37084,
+      "status": "candidate",
+      "text": "code"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28954,
+      "status": "candidate",
+      "text": "code of behavior"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28954,
+      "status": "candidate",
+      "text": "code of conduct"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22091,
+      "status": "candidate",
+      "text": "cuts"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Set Issue Expectations",
+  "concept_id": "set-issue-expectations",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/set-issue-expectations.yml",
+      "source_repo": "elm/compiler"
+    }
+  ],
+  "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Set Issue Expectations",
+      "sense_id": "set-issue-expectations#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

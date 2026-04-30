@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A cargo-subcommand to speed up Rust Docker builds using Docker layer caching."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<h1 align=\"center\">cargo-chef</h1>"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">cargo-chef</h1>"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40043969,
+      "status": "candidate",
+      "text": "payload"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40043724,
+      "status": "candidate",
+      "text": "freight"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40043191,
+      "status": "candidate",
+      "text": "shipment"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40022514,
+      "status": "candidate",
+      "text": "lading"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40017158,
+      "status": "candidate",
+      "text": "loading"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "cargo",
+      "sense_id": "cargo#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 15083,
+      "status": "candidate",
+      "text": "load"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 8050,
+      "status": "candidate",
+      "text": "freight"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 5055,
+      "status": "candidate",
+      "text": "consignment"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 2041,
+      "status": "candidate",
+      "text": "payload"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 2035,
+      "status": "candidate",
+      "text": "lading"
+    }
+  ],
+  "concept_id": "cargo",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "cargo",
+  "observation_id": "8bdba7b65c14ddf5",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T00:37:16.824464+00:00",
+  "observed_text": "cargo",
+  "source_context_snippet": "<h1 align=\"center\">cargo-chef</h1>",
+  "source_file": null,
+  "source_repo": "LukeMathWalker/cargo-chef",
+  "source_repo_description": "A cargo-subcommand to speed up Rust Docker builds using Docker layer caching."
+}

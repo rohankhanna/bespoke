@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "boosting"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dmitryikh/leaves",
+      "status": "candidate-context",
+      "text": "pure Go implementation of prediction part for GBRT (Gradient Boosting Regression Trees) models from popular frameworks"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dmitryikh/leaves",
+      "status": "candidate-context",
+      "text": "[![version](https://img.shields.io/badge/version-0.8.0-yellow.svg)](https://semver.org)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dmitryikh/leaves",
+      "status": "candidate",
+      "text": "[![version](https://img.shields.io/badge/version-0.8.0-yellow.svg)](https://semver.org)"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40006236,
+      "status": "candidate",
+      "text": "hike up"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40005757,
+      "status": "candidate",
+      "text": "rise"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40001350,
+      "status": "candidate",
+      "text": "promote"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39995612,
+      "status": "candidate",
+      "text": "advance"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39994494,
+      "status": "candidate",
+      "text": "hike"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "boosting",
+  "concept_id": "boosting",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "dmitryikh/leaves"
+    }
+  ],
+  "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "boosting",
+      "sense_id": "boosting#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

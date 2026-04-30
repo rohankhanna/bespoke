@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Create deep copies (clones) of your objects"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "DeepCopy helps you create deep copies (clones) of your objects. It is designed to handle cycles in the association graph."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "DeepCopy helps you create deep copies (clones) of your objects. It is designed to handle cycles in the association graph."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "clone-deep",
+      "sense_id": "clone-deep#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "clone-deep",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "clone-deep",
+  "observation_id": "a2495101a8232959",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T00:37:16.824464+00:00",
+  "observed_text": "clone-deep",
+  "source_context_snippet": "DeepCopy helps you create deep copies (clones) of your objects. It is designed to handle cycles in the association graph.",
+  "source_file": null,
+  "source_repo": "myclabs/DeepCopy",
+  "source_repo_description": "Create deep copies (clones) of your objects"
+}

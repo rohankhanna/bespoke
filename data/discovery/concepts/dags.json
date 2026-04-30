@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "dags"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "astronomer/dag-factory",
+      "status": "candidate-context",
+      "text": "Construct Apache Airflow DAGs Declaratively via YAML configuration files"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "astronomer/dag-factory",
+      "status": "candidate-context",
+      "text": "[![Github Actions](https://github.com/astronomer/dag-factory/actions/workflows/cicd.yaml/badge.svg?branch=main&event=push)](https://github.com/astronomer/dag-factory/actions?workflow=build)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "astronomer/dag-factory",
+      "status": "candidate",
+      "text": "[![Github Actions](https://github.com/astronomer/dag-factory/actions/workflows/cicd.yaml/badge.svg?branch=main&event=push)](https://github.com/astronomer/dag-factory/actions?workflow=build)"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19886986,
+      "status": "candidate",
+      "text": "dekagram"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19844576,
+      "status": "candidate",
+      "text": "decagram"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10007771,
+      "status": "candidate",
+      "text": "dkg"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10007769,
+      "status": "candidate",
+      "text": "classification"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10007768,
+      "status": "candidate",
+      "text": "local"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "dags",
+  "concept_id": "dags",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "astronomer/dag-factory"
+    }
+  ],
+  "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "dags",
+      "sense_id": "dags#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

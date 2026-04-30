@@ -1,0 +1,398 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/buildifier.yml"
+    },
+    {
+      "component": "pre-commit/action@646c83fcd040023954eafda54b4db0192ce70507",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/buildifier.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-implicit-this.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-overlay-annotations.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-qldoc.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-query-ids.yml"
+    },
+    {
+      "component": "actions/stale@v9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/close-stale.yml"
+    },
+    {
+      "component": "actions/setup-dotnet@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    },
+    {
+      "component": "github/codeql-action/init@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    },
+    {
+      "component": "github/codeql-action/autobuild@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    },
+    {
+      "component": "github/codeql-action/analyze@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "github/codeql",
+      "target": "github/codeql-cli-binaries",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/buildifier.yml",
+      "source_repo": "github/codeql",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/buildifier.yml",
+      "source_repo": "github/codeql",
+      "target": "pre-commit/action@646c83fcd040023954eafda54b4db0192ce70507",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/buildifier.yml",
+      "source_repo": "github/codeql",
+      "target": "Check bazel formatting",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check-change-note.yml",
+      "source_repo": "github/codeql",
+      "target": "Check change note",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-implicit-this.yml",
+      "source_repo": "github/codeql",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check-implicit-this.yml",
+      "source_repo": "github/codeql",
+      "target": "Check implicit this warnings",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-overlay-annotations.yml",
+      "source_repo": "github/codeql",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check-overlay-annotations.yml",
+      "source_repo": "github/codeql",
+      "target": "Check overlay annotations",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-qldoc.yml",
+      "source_repo": "github/codeql",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check-qldoc.yml",
+      "source_repo": "github/codeql",
+      "target": "Check QLdoc coverage",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-query-ids.yml",
+      "source_repo": "github/codeql",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check-query-ids.yml",
+      "source_repo": "github/codeql",
+      "target": "Check query IDs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/close-stale.yml",
+      "source_repo": "github/codeql",
+      "target": "actions/stale@v9",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/close-stale.yml",
+      "source_repo": "github/codeql",
+      "target": "Mark stale issues",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "github/codeql",
+      "target": "actions/setup-dotnet@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "github/codeql",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "github/codeql",
+      "target": "github/codeql-action/init@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "github/codeql",
+      "target": "github/codeql-action/autobuild@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "github/codeql",
+      "target": "github/codeql-action/analyze@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "github/codeql",
+      "target": "Code scanning - action",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "github/codeql",
+      "target": "codeql",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "github/codeql",
+      "target": "github-advanced-security",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "github/codeql",
+      "target": "github-security-lab",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "github/codeql",
+      "target": "semmle-ql",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "github/codeql",
+      "target": "works-with-codespaces",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T02:51:54.745796+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2666
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 284
+    },
+    {
+      "path": ".github/workflows/buildifier.yml",
+      "size": 617
+    },
+    {
+      "path": ".github/workflows/check-change-note.yml",
+      "size": 2147
+    },
+    {
+      "path": ".github/workflows/check-implicit-this.yml",
+      "size": 807
+    },
+    {
+      "path": ".github/workflows/check-overlay-annotations.yml",
+      "size": 371
+    },
+    {
+      "path": ".github/workflows/check-qldoc.yml",
+      "size": 2382
+    },
+    {
+      "path": ".github/workflows/check-query-ids.yml",
+      "size": 470
+    },
+    {
+      "path": ".github/workflows/close-stale.yml",
+      "size": 888
+    },
+    {
+      "path": ".github/workflows/codeql-analysis.yml",
+      "size": 1716
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "CodeQL: the libraries and queries that power security researchers around the world, as well as code scanning in GitHub Advanced Security",
+    "fork": false,
+    "full_name": "github/codeql",
+    "html_url": "https://github.com/github/codeql",
+    "language": "CodeQL",
+    "pushed_at": "2026-04-29T13:59:02Z",
+    "stargazers_count": 9535,
+    "topics": [
+      "codeql",
+      "github-advanced-security",
+      "github-security-lab",
+      "semmle-ql",
+      "works-with-codespaces"
+    ],
+    "updated_at": "2026-04-29T15:36:35Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "github/codeql-cli-binaries",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Check bazel formatting",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/buildifier.yml",
+      "term": "Check bazel formatting"
+    },
+    {
+      "context_snippet": "Check change note",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check-change-note.yml",
+      "term": "Check change note"
+    },
+    {
+      "context_snippet": "\"Check implicit this warnings\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check-implicit-this.yml",
+      "term": "Check implicit this warnings"
+    },
+    {
+      "context_snippet": "Check overlay annotations",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check-overlay-annotations.yml",
+      "term": "Check overlay annotations"
+    },
+    {
+      "context_snippet": "\"Check QLdoc coverage\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check-qldoc.yml",
+      "term": "Check QLdoc coverage"
+    },
+    {
+      "context_snippet": "Check query IDs",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check-query-ids.yml",
+      "term": "Check query IDs"
+    },
+    {
+      "context_snippet": "Mark stale issues",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/close-stale.yml",
+      "term": "Mark stale issues"
+    },
+    {
+      "context_snippet": "\"Code scanning - action\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "term": "Code scanning - action"
+    },
+    {
+      "context_snippet": "This open source repository contains the standard CodeQL libraries and queries that power [GitHub Advanced Security](https://github.com/features/security/code) and the other application security products that [GitHub](https://github.com/features/security/) makes available to its\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "codeql"
+    },
+    {
+      "context_snippet": "This open source repository contains the standard CodeQL libraries and queries that power [GitHub Advanced Security](https://github.com/features/security/code) and the other application security products that [GitHub](https://github.com/features/security/) makes available to its\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "github-advanced-security"
+    },
+    {
+      "context_snippet": "This open source repository contains the standard CodeQL libraries and queries that power [GitHub Advanced Security](https://github.com/features/security/code) and the other application security products that [GitHub](https://github.com/features/security/) makes available to its\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "github-security-lab"
+    },
+    {
+      "context_snippet": "This open source repository contains the standard CodeQL libraries and queries that power [GitHub Advanced Security](https://github.com/features/security/code) and the other application security products that [GitHub](https://github.com/features/security/) makes available to its\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "semmle-ql"
+    },
+    {
+      "context_snippet": "This open source repository contains the standard CodeQL libraries and queries that power [GitHub Advanced Security](https://github.com/features/security/code) and the other application security products that [GitHub](https://github.com/features/security/) makes available to its\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "works-with-codespaces"
+    }
+  ]
+}

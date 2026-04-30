@@ -385,6 +385,150 @@
       "source_repo": "tilt-dev/tilt-extensions",
       "status": "candidate-context",
       "text": "[![Build Status](https://circleci.com/gh/tilt-dev/tilt-extensions/tree/master.svg?style=shield)](https://circleci.com/gh/tilt-dev/tilt-extensions)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "iterative/shtab",
+      "status": "candidate-context",
+      "text": "\u2194\ufe0f Automagic shell tab completion for Python CLI applications"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "iterative/shtab",
+      "status": "candidate-context",
+      "text": "|Logo|"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "2KAbhishek/cmtr",
+      "status": "candidate-context",
+      "text": "Quickly commit individual files in git. \u26a1\u2705"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "2KAbhishek/cmtr",
+      "status": "candidate-context",
+      "text": "<div align = \"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "agno-agi/agno",
+      "status": "candidate-context",
+      "text": "Agno turns agents into production software. Build agents in any framework. Run as a service. Ship to real users."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "agno-agi/agno",
+      "status": "candidate-context",
+      "text": "<div align=\"center\" id=\"top\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Automattic/harper",
+      "status": "candidate-context",
+      "text": "Offline, privacy-first grammar checker. Fast, open-source, Rust-powered"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Automattic/harper",
+      "status": "candidate-context",
+      "text": "<div id=\"header\" align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "GoogleChrome/lighthouse",
+      "status": "candidate-context",
+      "text": "Automated auditing, performance metrics, and best practices for the web."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "GoogleChrome/lighthouse",
+      "status": "candidate-context",
+      "text": "lighthouse \u2014 Automated auditing, performance metrics, and best practices for the web."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "appbaseio/reactivesearch",
+      "status": "candidate-context",
+      "text": "Search UI components for React and Vue"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "appbaseio/reactivesearch",
+      "status": "candidate-context",
+      "text": "<h2 align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "watchexec/watchexec",
+      "status": "candidate-context",
+      "text": "Executes commands in response to file modifications"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "watchexec/watchexec",
+      "status": "candidate-context",
+      "text": "[![CI status on main branch](https://github.com/watchexec/watchexec/actions/workflows/tests.yml/badge.svg)](https://github.com/watchexec/watchexec/actions/workflows/tests.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "source-foundry/Hack",
+      "status": "candidate-context",
+      "text": "A typeface designed for source code"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "source-foundry/Hack",
+      "status": "candidate-context",
+      "text": "[![GitHub release](https://img.shields.io/github/release/source-foundry/hack.svg?style=flat)](https://github.com/source-foundry/Hack/releases/latest)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "emacs-eldev/eldev",
+      "status": "candidate-context",
+      "text": "Elisp development tool"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "emacs-eldev/eldev",
+      "status": "candidate-context",
+      "text": "Deploy documentation"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kahliburke/Kaimon.jl",
+      "status": "candidate-context",
+      "text": "MCP server giving AI agents full access to Julia's runtime via a live Gate \u2014 code execution, introspection, debugging, testing, and semantic search"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kahliburke/Kaimon.jl",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "2KAbhishek/mkrepo",
+      "status": "candidate-context",
+      "text": "Ready to go repos from the CLI \u2708\ud83d\udca1"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "2KAbhishek/mkrepo",
+      "status": "candidate-context",
+      "text": "<div align = \"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "GoogleContainerTools/skaffold",
+      "status": "candidate-context",
+      "text": "Easy and Repeatable Kubernetes Development"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "GoogleContainerTools/skaffold",
+      "status": "candidate-context",
+      "text": "<!-- github does not support `width` with markdown images-->"
     }
   ],
   "candidate_glosses": [
@@ -573,6 +717,78 @@
       "source_repo": "tilt-dev/tilt-extensions",
       "status": "candidate",
       "text": "[![Build Status](https://circleci.com/gh/tilt-dev/tilt-extensions/tree/master.svg?style=shield)](https://circleci.com/gh/tilt-dev/tilt-extensions)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "iterative/shtab",
+      "status": "candidate",
+      "text": "|Logo|"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "2KAbhishek/cmtr",
+      "status": "candidate",
+      "text": "<div align = \"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "agno-agi/agno",
+      "status": "candidate",
+      "text": "<div align=\"center\" id=\"top\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Automattic/harper",
+      "status": "candidate",
+      "text": "<div id=\"header\" align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "GoogleChrome/lighthouse",
+      "status": "candidate",
+      "text": "lighthouse \u2014 Automated auditing, performance metrics, and best practices for the web."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "appbaseio/reactivesearch",
+      "status": "candidate",
+      "text": "<h2 align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "watchexec/watchexec",
+      "status": "candidate",
+      "text": "[![CI status on main branch](https://github.com/watchexec/watchexec/actions/workflows/tests.yml/badge.svg)](https://github.com/watchexec/watchexec/actions/workflows/tests.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "source-foundry/Hack",
+      "status": "candidate",
+      "text": "[![GitHub release](https://img.shields.io/github/release/source-foundry/hack.svg?style=flat)](https://github.com/source-foundry/Hack/releases/latest)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "emacs-eldev/eldev",
+      "status": "candidate",
+      "text": "Deploy documentation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kahliburke/Kaimon.jl",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "2KAbhishek/mkrepo",
+      "status": "candidate",
+      "text": "<div align = \"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "GoogleContainerTools/skaffold",
+      "status": "candidate",
+      "text": "<!-- github does not support `width` with markdown images-->"
     }
   ],
   "candidate_related_terms": [],
@@ -808,11 +1024,101 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "tilt-dev/tilt-extensions"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "iterative/shtab"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "2KAbhishek/cmtr"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "OpenHands/OpenHands"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "agno-agi/agno"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "SWE-agent/SWE-agent"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "Automattic/harper"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "GoogleChrome/lighthouse"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "appbaseio/reactivesearch"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "watchexec/watchexec"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "watchexec/cargo-watch"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "source-foundry/Hack"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "emacs-eldev/eldev"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "kahliburke/Kaimon.jl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "2KAbhishek/mkrepo"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "GoogleContainerTools/skaffold"
     }
   ],
   "first_seen_at": "2026-04-18T10:43:38.551697+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

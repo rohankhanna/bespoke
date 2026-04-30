@@ -1,0 +1,35 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T05:12:19.727967+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8100
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 104
+    },
+    {
+      "path": "requirements.txt",
+      "size": 75
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "google-research/localmot",
+    "html_url": "https://github.com/google-research/localmot",
+    "language": "Python",
+    "pushed_at": "2021-11-21T12:53:16Z",
+    "stargazers_count": 22,
+    "topics": [],
+    "updated_at": "2026-04-19T15:37:21Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

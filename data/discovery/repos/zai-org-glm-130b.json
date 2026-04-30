@@ -12,13 +12,6 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "zai-org/GLM-130B",
-      "target": "thudm/swissarmytransformer",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "zai-org/GLM-130B",
       "target": "thudm/chatglm2-6b",
       "target_type": "repository"
     },
@@ -28,9 +21,16 @@
       "source_repo": "zai-org/GLM-130B",
       "target": "thudm/chatglm-6b",
       "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "zai-org/GLM-130B",
+      "target": "thudm/webglm",
+      "target_type": "repository"
     }
   ],
-  "fetched_at": "2026-04-29T21:03:19.647828+00:00",
+  "fetched_at": "2026-04-30T03:02:52.145440+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -51,9 +51,9 @@
     "html_url": "https://github.com/zai-org/GLM-130B",
     "language": "Python",
     "pushed_at": "2023-07-25T09:01:49Z",
-    "stargazers_count": 7659,
+    "stargazers_count": 7658,
     "topics": [],
-    "updated_at": "2026-04-27T08:32:13Z"
+    "updated_at": "2026-04-29T21:57:16Z"
   },
   "repo_links": [
     {
@@ -73,7 +73,7 @@
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "thudm/swissarmytransformer",
+      "full_name": "thudm/webglm",
       "source_file": "README.md"
     }
   ],

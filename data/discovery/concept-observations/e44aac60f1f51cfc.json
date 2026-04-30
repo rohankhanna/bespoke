@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Utility package to build exporters"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![CircleCI](https://circleci.com/gh/prometheus/exporter-toolkit/tree/master.svg?style=shield)][circleci]"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![CircleCI](https://circleci.com/gh/prometheus/exporter-toolkit/tree/master.svg?style=shield)][circleci]"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27249935,
+      "status": "candidate",
+      "text": "unbound"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27208794,
+      "status": "candidate",
+      "text": "bound"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18535612,
+      "status": "candidate",
+      "text": "australopithecus"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18535611,
+      "status": "candidate",
+      "text": "forethinker"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18535610,
+      "status": "candidate",
+      "text": "culture-hero"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "prometheus",
+      "sense_id": "prometheus#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "prometheus",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "prometheus",
+  "observation_id": "e44aac60f1f51cfc",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T00:37:16.824464+00:00",
+  "observed_text": "prometheus",
+  "source_context_snippet": "[![CircleCI](https://circleci.com/gh/prometheus/exporter-toolkit/tree/master.svg?style=shield)][circleci]",
+  "source_file": null,
+  "source_repo": "prometheus/exporter-toolkit",
+  "source_repo_description": "Utility package to build exporters"
+}

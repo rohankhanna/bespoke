@@ -1,0 +1,148 @@
+{
+  "aliases": [
+    "goldmark"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "13rac1/goldmark-embed",
+      "status": "candidate-context",
+      "text": "A Video embed extension for the goldmark markdown parser."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "13rac1/goldmark-embed",
+      "status": "candidate-context",
+      "text": "goldmark-embed is an extension for the [goldmark][goldmark] library that extends"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "abhinav/goldmark-anchor",
+      "status": "candidate-context",
+      "text": "Generates anchors next to headings in a Markdown document."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "abhinav/goldmark-anchor",
+      "status": "candidate-context",
+      "text": "[![Go Reference](https://pkg.go.dev/badge/go.abhg.dev/goldmark/anchor.svg)](https://pkg.go.dev/go.abhg.dev/goldmark/anchor)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "abhinav/goldmark-frontmatter",
+      "status": "candidate-context",
+      "text": "Adds support for YAML and TOML front matter to Markdown documents."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "abhinav/goldmark-frontmatter",
+      "status": "candidate-context",
+      "text": "[![Go Reference](https://pkg.go.dev/badge/go.abhg.dev/goldmark/frontmatter.svg)](https://pkg.go.dev/go.abhg.dev/goldmark/frontmatter)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "13rac1/goldmark-embed",
+      "status": "candidate",
+      "text": "goldmark-embed is an extension for the [goldmark][goldmark] library that extends"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "abhinav/goldmark-anchor",
+      "status": "candidate",
+      "text": "[![Go Reference](https://pkg.go.dev/badge/go.abhg.dev/goldmark/anchor.svg)](https://pkg.go.dev/go.abhg.dev/goldmark/anchor)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "abhinav/goldmark-frontmatter",
+      "status": "candidate",
+      "text": "[![Go Reference](https://pkg.go.dev/badge/go.abhg.dev/goldmark/frontmatter.svg)](https://pkg.go.dev/go.abhg.dev/goldmark/frontmatter)"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10024642,
+      "status": "candidate",
+      "text": "golding"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10024641,
+      "status": "candidate",
+      "text": "digital gold"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10024640,
+      "status": "candidate",
+      "text": "gold piece"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10024639,
+      "status": "candidate",
+      "text": "goldware"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10024638,
+      "status": "candidate",
+      "text": "goldpiece"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "goldmark",
+  "concept_id": "goldmark",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "13rac1/goldmark-embed"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "abhinav/goldmark-anchor"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "abhinav/goldmark-frontmatter"
+    }
+  ],
+  "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "goldmark",
+      "sense_id": "goldmark#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

@@ -1,0 +1,136 @@
+{
+  "aliases": [
+    "sponsor"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dominikh/go-tools",
+      "status": "candidate-context",
+      "text": "Staticcheck - The advanced Go linter"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dominikh/go-tools",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dominikh/go-tools",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40027673,
+      "status": "candidate",
+      "text": "supporter"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40026741,
+      "status": "candidate",
+      "text": "patronize"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40026284,
+      "status": "candidate",
+      "text": "patron"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40012433,
+      "status": "candidate",
+      "text": "shop"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39985102,
+      "status": "candidate",
+      "text": "frequent"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 32041,
+      "status": "candidate",
+      "text": "patron"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 18033,
+      "status": "candidate",
+      "text": "patronize"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 17035,
+      "status": "candidate",
+      "text": "frequent"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 14034,
+      "status": "candidate",
+      "text": "supporter"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 5058,
+      "status": "candidate",
+      "text": "shop"
+    }
+  ],
+  "canonical_name": "sponsor",
+  "concept_id": "sponsor",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "dominikh/go-tools"
+    }
+  ],
+  "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "sponsor",
+      "sense_id": "sponsor#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

@@ -211,6 +211,18 @@
       "source_repo": "baldurk/renderdoc",
       "status": "candidate-context",
       "text": "<p align=\"center\"><img src=\"https://user-images.githubusercontent.com/661798/36482670-f81601c0-170b-11e8-8adb-2365b346ac27.png\" /></p>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Samsung/netcoredbg",
+      "status": "candidate-context",
+      "text": "NetCoreDbg is a managed code debugger with GDB/MI, VSCode DAP and CLI interfaces for CoreCLR."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Samsung/netcoredbg",
+      "status": "candidate-context",
+      "text": "The NetCoreDbg debugger implements [GDB/MI](https://sourceware.org/gdb/onlinedocs/gdb/GDB_002fMI.html)"
     }
   ],
   "candidate_glosses": [
@@ -315,6 +327,12 @@
       "source_repo": "baldurk/renderdoc",
       "status": "candidate",
       "text": "<p align=\"center\"><img src=\"https://user-images.githubusercontent.com/661798/36482670-f81601c0-170b-11e8-8adb-2365b346ac27.png\" /></p>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Samsung/netcoredbg",
+      "status": "candidate",
+      "text": "The NetCoreDbg debugger implements [GDB/MI](https://sourceware.org/gdb/onlinedocs/gdb/GDB_002fMI.html)"
     }
   ],
   "candidate_related_terms": [
@@ -466,11 +484,23 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "baldurk/renderdoc"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "Samsung/netcoredbg"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "criteo/mesos-term"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

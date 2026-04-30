@@ -55,6 +55,18 @@
       "source_repo": "young-geng/EasyLM",
       "status": "candidate-context",
       "text": "Large language models (LLMs) made easy, EasyLM is a one stop solution for"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Sea-Snell/JAXSeq",
+      "status": "candidate-context",
+      "text": "Train very large language models in Jax."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Sea-Snell/JAXSeq",
+      "status": "candidate-context",
+      "text": "**Note: this is version 2.0 of JaxSeq. It supports Jax V0.4, and there are quite few updates that should make it easier to work with. However, if you are dependent on the old version, I would reccoment pulling from the old_version branch, or the version 1.0 commit under github v\u2026"
     }
   ],
   "candidate_glosses": [
@@ -81,6 +93,12 @@
       "source_repo": "young-geng/EasyLM",
       "status": "candidate",
       "text": "Large language models (LLMs) made easy, EasyLM is a one stop solution for"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Sea-Snell/JAXSeq",
+      "status": "candidate",
+      "text": "**Note: this is version 2.0 of JaxSeq. It supports Jax V0.4, and there are quite few updates that should make it easier to work with. However, if you are dependent on the old version, I would reccoment pulling from the old_version branch, or the version 1.0 commit under github v\u2026"
     }
   ],
   "candidate_related_terms": [
@@ -148,11 +166,23 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "young-geng/EasyLM"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "Sea-Snell/JAXSeq"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "ikostrikov/jaxrl"
     }
   ],
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

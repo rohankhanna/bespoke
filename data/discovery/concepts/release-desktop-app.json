@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Release Desktop App"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "accomplish-ai/accomplish",
+      "status": "candidate-context",
+      "text": "Accomplish\u2122 is the open source Al coworker that lives on your desktop"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "accomplish-ai/accomplish",
+      "status": "candidate-context",
+      "text": "Release Desktop App"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "accomplish-ai/accomplish",
+      "status": "candidate",
+      "text": "Release Desktop App"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21241,
+      "status": "candidate",
+      "text": "taskbar"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21216,
+      "status": "candidate",
+      "text": "close"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21144,
+      "status": "candidate",
+      "text": "cripple"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21144,
+      "status": "candidate",
+      "text": "escape"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21144,
+      "status": "candidate",
+      "text": "quit"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Release Desktop App",
+  "concept_id": "release-desktop-app",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "accomplish-ai/accomplish"
+    }
+  ],
+  "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Release Desktop App",
+      "sense_id": "release-desktop-app#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

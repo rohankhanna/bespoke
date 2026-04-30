@@ -1,0 +1,101 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Modern and performant Kafka client library for Ruby based on librdkafka"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![Build Status](https://github.com/karafka/rdkafka-ruby/actions/workflows/ci_linux_ubuntu_x86_64_gnu.yml/badge.svg)](https://github.com/karafka/rdkafka-ruby/actions/workflows/ci_linux_x86_64_gnu.yml)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![Build Status](https://github.com/karafka/rdkafka-ruby/actions/workflows/ci_linux_ubuntu_x86_64_gnu.yml/badge.svg)](https://github.com/karafka/rdkafka-ruby/actions/workflows/ci_linux_x86_64_gnu.yml)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 8497171,
+      "status": "candidate",
+      "text": "franz kafka"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 8497169,
+      "status": "candidate",
+      "text": "surreal"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 8497168,
+      "status": "candidate",
+      "text": "nightmarish"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 8497167,
+      "status": "candidate",
+      "text": "absurd"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 8497166,
+      "status": "candidate",
+      "text": "bureaucratic"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "kafka",
+      "sense_id": "kafka#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": null,
+      "status": "candidate",
+      "text": "franz kafka"
+    }
+  ],
+  "concept_id": "kafka",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "kafka",
+  "observation_id": "5b536f9a7b4ebc71",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T00:37:16.824464+00:00",
+  "observed_text": "kafka",
+  "source_context_snippet": "[![Build Status](https://github.com/karafka/rdkafka-ruby/actions/workflows/ci_linux_ubuntu_x86_64_gnu.yml/badge.svg)](https://github.com/karafka/rdkafka-ruby/actions/workflows/ci_linux_x86_64_gnu.yml)",
+  "source_file": null,
+  "source_repo": "karafka/rdkafka-ruby",
+  "source_repo_description": "Modern and performant Kafka client library for Ruby based on librdkafka"
+}

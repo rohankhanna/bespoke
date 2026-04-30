@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "bosh-release"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cloudfoundry/capi-release",
+      "status": "candidate-context",
+      "text": "Bosh Release for Cloud Controller and friends"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cloudfoundry/capi-release",
+      "status": "candidate-context",
+      "text": "[slack.cloudfoundry.org](https://cloudfoundry.slack.com/messages/capi/)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cloudfoundry/capi-release",
+      "status": "candidate",
+      "text": "[slack.cloudfoundry.org](https://cloudfoundry.slack.com/messages/capi/)"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "bosh-release",
+  "concept_id": "bosh-release",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "cloudfoundry/capi-release"
+    }
+  ],
+  "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "bosh-release",
+      "sense_id": "bosh-release#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

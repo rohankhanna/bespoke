@@ -1,0 +1,108 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "docker/login-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/download-artifact@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "TheAssassin/AppImageLauncher",
+      "target": "appimage/appimaged",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "TheAssassin/AppImageLauncher",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "TheAssassin/AppImageLauncher",
+      "target": "docker/login-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "TheAssassin/AppImageLauncher",
+      "target": "actions/upload-artifact@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "TheAssassin/AppImageLauncher",
+      "target": "actions/download-artifact@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "TheAssassin/AppImageLauncher",
+      "target": "Continuous builds",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T03:44:36.128848+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 11090
+    },
+    {
+      "path": ".github/workflows/main.yml",
+      "size": 2671
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Helper application for Linux distributions serving as a kind of \"entry point\" for running and integrating AppImages",
+    "fork": false,
+    "full_name": "TheAssassin/AppImageLauncher",
+    "html_url": "https://github.com/TheAssassin/AppImageLauncher",
+    "language": "C++",
+    "pushed_at": "2026-03-09T04:21:55Z",
+    "stargazers_count": 7935,
+    "topics": [],
+    "updated_at": "2026-04-29T18:12:13Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "appimage/appimaged",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Continuous builds",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/main.yml",
+      "term": "Continuous builds"
+    }
+  ]
+}

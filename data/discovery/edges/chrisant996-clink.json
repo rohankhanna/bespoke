@@ -1,0 +1,13 @@
+{
+  "edges": [
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/winget-submission.yml",
+      "source_repo": "chrisant996/clink",
+      "target": "Submit Clink release to winget-pkgs",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-30T00:37:16.824464+00:00",
+  "source_repo": "chrisant996/clink"
+}

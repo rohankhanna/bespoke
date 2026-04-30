@@ -1,0 +1,147 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "caiyuanhao1998/MST",
+      "target": "caiyuanhao1998/bisci",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "caiyuanhao1998/MST",
+      "target": "binarized-neural-networks",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "caiyuanhao1998/MST",
+      "target": "hyperspectral-images",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "caiyuanhao1998/MST",
+      "target": "image-restoration",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "caiyuanhao1998/MST",
+      "target": "ntire",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "caiyuanhao1998/MST",
+      "target": "snapshot-compressive-imaging",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "caiyuanhao1998/MST",
+      "target": "spectral-reconstruction",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "caiyuanhao1998/MST",
+      "target": "transformer",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T03:54:02.631796+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 39904
+    },
+    {
+      "path": "requirements.txt",
+      "size": 83
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A toolbox for spectral compressive imaging reconstruction including MST (CVPR 2022), CST (ECCV 2022), DAUHST (NeurIPS 2022), BiSCI (NeurIPS 2023), HDNet (CVPR 2022), MST++ (CVPRW 2022), etc.",
+    "fork": false,
+    "full_name": "caiyuanhao1998/MST",
+    "html_url": "https://github.com/caiyuanhao1998/MST",
+    "language": "Python",
+    "pushed_at": "2025-10-10T21:58:06Z",
+    "stargazers_count": 1128,
+    "topics": [
+      "binarized-neural-networks",
+      "bnn",
+      "hyperspectral-images",
+      "image-restoration",
+      "ntire",
+      "qnn",
+      "snapshot-compressive-imaging",
+      "spectral-reconstruction",
+      "transformer"
+    ],
+    "updated_at": "2026-04-26T09:02:36Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "caiyuanhao1998/bisci",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[![winner](https://img.shields.io/badge/MST++-Winner_of_NTIRE_2022_Spectral_Reconstruction_Challenge-179bd3)](https://github.com/caiyuanhao1998/MST-plus-plus/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "binarized-neural-networks"
+    },
+    {
+      "context_snippet": "[![winner](https://img.shields.io/badge/MST++-Winner_of_NTIRE_2022_Spectral_Reconstruction_Challenge-179bd3)](https://github.com/caiyuanhao1998/MST-plus-plus/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hyperspectral-images"
+    },
+    {
+      "context_snippet": "[![winner](https://img.shields.io/badge/MST++-Winner_of_NTIRE_2022_Spectral_Reconstruction_Challenge-179bd3)](https://github.com/caiyuanhao1998/MST-plus-plus/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "image-restoration"
+    },
+    {
+      "context_snippet": "[![winner](https://img.shields.io/badge/MST++-Winner_of_NTIRE_2022_Spectral_Reconstruction_Challenge-179bd3)](https://github.com/caiyuanhao1998/MST-plus-plus/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ntire"
+    },
+    {
+      "context_snippet": "[![winner](https://img.shields.io/badge/MST++-Winner_of_NTIRE_2022_Spectral_Reconstruction_Challenge-179bd3)](https://github.com/caiyuanhao1998/MST-plus-plus/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "snapshot-compressive-imaging"
+    },
+    {
+      "context_snippet": "[![winner](https://img.shields.io/badge/MST++-Winner_of_NTIRE_2022_Spectral_Reconstruction_Challenge-179bd3)](https://github.com/caiyuanhao1998/MST-plus-plus/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "spectral-reconstruction"
+    },
+    {
+      "context_snippet": "[![winner](https://img.shields.io/badge/MST++-Winner_of_NTIRE_2022_Spectral_Reconstruction_Challenge-179bd3)](https://github.com/caiyuanhao1998/MST-plus-plus/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "transformer"
+    }
+  ]
+}

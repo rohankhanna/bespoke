@@ -247,6 +247,90 @@
       "source_repo": "kubernetes-sigs/gateway-api",
       "status": "candidate-context",
       "text": "The Gateway API is a part of [SIG Network][sn], and this repository contains"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "zeromq/jeromq",
+      "status": "candidate-context",
+      "text": "JeroMQ is a pure Java implementation of the ZeroMQ messaging library, offering high-performance asynchronous messaging for distributed or concurrent applications."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "zeromq/jeromq",
+      "status": "candidate-context",
+      "text": "Pure Java implementation of libzmq (http://zeromq.org)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "miniupnp/miniupnp",
+      "status": "candidate-context",
+      "text": "UPnP IGD implementation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "miniupnp/miniupnp",
+      "status": "candidate-context",
+      "text": "\"CodeQL\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "libevent/libevent",
+      "status": "candidate-context",
+      "text": "Event notification library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "libevent/libevent",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "libuv/libuv",
+      "status": "candidate-context",
+      "text": "Cross-platform asynchronous I/O"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "libuv/libuv",
+      "status": "candidate-context",
+      "text": "![libuv][libuv_banner]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "openucx/ucx",
+      "status": "candidate-context",
+      "text": "Unified Communication X  (mailing list - https://elist.ornl.gov/mailman/listinfo/ucx-group)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "openucx/ucx",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "MagicStack/uvloop",
+      "status": "candidate-context",
+      "text": "Ultra fast asyncio event loop."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MagicStack/uvloop",
+      "status": "candidate-context",
+      "text": ".. image:: https://img.shields.io/github/actions/workflow/status/MagicStack/uvloop/tests.yml?branch=master"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "boostorg/beast",
+      "status": "candidate-context",
+      "text": "HTTP and WebSocket built on Boost.Asio in C++11"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "boostorg/beast",
+      "status": "candidate-context",
+      "text": "<img width=\"880\" height = \"80\" alt = \"Boost.Beast Title\""
     }
   ],
   "candidate_glosses": [
@@ -369,6 +453,48 @@
       "source_repo": "kubernetes-sigs/gateway-api",
       "status": "candidate",
       "text": "The Gateway API is a part of [SIG Network][sn], and this repository contains"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "zeromq/jeromq",
+      "status": "candidate",
+      "text": "Pure Java implementation of libzmq (http://zeromq.org)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "miniupnp/miniupnp",
+      "status": "candidate",
+      "text": "\"CodeQL\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "libevent/libevent",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "libuv/libuv",
+      "status": "candidate",
+      "text": "![libuv][libuv_banner]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "openucx/ucx",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MagicStack/uvloop",
+      "status": "candidate",
+      "text": ".. image:: https://img.shields.io/github/actions/workflow/status/MagicStack/uvloop/tests.yml?branch=master"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "boostorg/beast",
+      "status": "candidate",
+      "text": "<img width=\"880\" height = \"80\" alt = \"Boost.Beast Title\""
     }
   ],
   "candidate_related_terms": [
@@ -532,11 +658,53 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "kubernetes-sigs/gateway-api"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "zeromq/jeromq"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "miniupnp/miniupnp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "libevent/libevent"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "libuv/libuv"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "openucx/ucx"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "MagicStack/uvloop"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "boostorg/beast"
     }
   ],
   "first_seen_at": "2026-04-19T02:42:33.990002+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

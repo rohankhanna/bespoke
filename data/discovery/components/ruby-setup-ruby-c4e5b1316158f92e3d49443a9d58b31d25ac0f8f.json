@@ -1,0 +1,37 @@
+{
+  "component": "ruby/setup-ruby@c4e5b1316158f92e3d49443a9d58b31d25ac0f8f",
+  "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/annocheck.yml",
+      "source_repo": "ruby/ruby"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/auto_review_pr.yml",
+      "source_repo": "ruby/ruby"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/baseruby.yml",
+      "source_repo": "ruby/ruby"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/bundled_gems.yml",
+      "source_repo": "ruby/ruby"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/check_dependencies.yml",
+      "source_repo": "ruby/ruby"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/check_misc.yml",
+      "source_repo": "ruby/ruby"
+    }
+  ]
+}

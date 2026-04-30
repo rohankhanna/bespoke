@@ -1,0 +1,127 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-release.yml"
+    },
+    {
+      "component": "actions/setup-python@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-release.yml"
+    },
+    {
+      "component": "actions/create-release@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-release.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4.4.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-release.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4.1.7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-release.yml"
+    },
+    {
+      "component": "pypa/gh-action-pypi-publish@v1.13.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-release.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-release.yml",
+      "source_repo": "googlefonts/nam-files",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-release.yml",
+      "source_repo": "googlefonts/nam-files",
+      "target": "actions/setup-python@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-release.yml",
+      "source_repo": "googlefonts/nam-files",
+      "target": "actions/create-release@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-release.yml",
+      "source_repo": "googlefonts/nam-files",
+      "target": "actions/upload-artifact@v4.4.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-release.yml",
+      "source_repo": "googlefonts/nam-files",
+      "target": "actions/download-artifact@v4.1.7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-release.yml",
+      "source_repo": "googlefonts/nam-files",
+      "target": "pypa/gh-action-pypi-publish@v1.13.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish-release.yml",
+      "source_repo": "googlefonts/nam-files",
+      "target": "Create and Publish Release",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T03:50:13.913906+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2036
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 260
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 919
+    },
+    {
+      "path": ".github/workflows/publish-release.yml",
+      "size": 2610
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Unicode ranges used to subset fonts in the Google Fonts CSS API",
+    "fork": false,
+    "full_name": "googlefonts/nam-files",
+    "html_url": "https://github.com/googlefonts/nam-files",
+    "language": "Python",
+    "pushed_at": "2026-03-08T21:06:13Z",
+    "stargazers_count": 11,
+    "topics": [],
+    "updated_at": "2026-03-08T21:06:17Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Create and Publish Release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish-release.yml",
+      "term": "Create and Publish Release"
+    }
+  ]
+}

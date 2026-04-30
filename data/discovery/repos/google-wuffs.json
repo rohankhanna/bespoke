@@ -1,0 +1,157 @@
+{
+  "components": [
+    {
+      "component": "google/oss-fuzz/infra/cifuzz/actions/build_fuzzers@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fuzz.yml"
+    },
+    {
+      "component": "google/oss-fuzz/infra/cifuzz/actions/run_fuzzers@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fuzz.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fuzz.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "google/wuffs",
+      "target": "dev0x13/pywuffs",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fuzz.yml",
+      "source_repo": "google/wuffs",
+      "target": "google/oss-fuzz/infra/cifuzz/actions/build_fuzzers@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fuzz.yml",
+      "source_repo": "google/wuffs",
+      "target": "google/oss-fuzz/infra/cifuzz/actions/run_fuzzers@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fuzz.yml",
+      "source_repo": "google/wuffs",
+      "target": "actions/upload-artifact@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/fuzz.yml",
+      "source_repo": "google/wuffs",
+      "target": "CIFuzz",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "google/wuffs",
+      "target": "codec",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "google/wuffs",
+      "target": "memory-safety",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "google/wuffs",
+      "target": "parsing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "google/wuffs",
+      "target": "programming-language",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T04:10:48.668385+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 11799
+    },
+    {
+      "path": "go.mod",
+      "size": 78
+    },
+    {
+      "path": ".github/workflows/fuzz.yml",
+      "size": 599
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Wrangling Untrusted File Formats Safely",
+    "fork": false,
+    "full_name": "google/wuffs",
+    "html_url": "https://github.com/google/wuffs",
+    "language": "C",
+    "pushed_at": "2026-04-29T12:22:22Z",
+    "stargazers_count": 4739,
+    "topics": [
+      "codec",
+      "memory-safety",
+      "parsing",
+      "programming-language"
+    ],
+    "updated_at": "2026-04-29T22:45:29Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dev0x13/pywuffs",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "CIFuzz",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/fuzz.yml",
+      "term": "CIFuzz"
+    },
+    {
+      "context_snippet": "Wuffs is a **memory-safe programming language** (and a **standard library**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "codec"
+    },
+    {
+      "context_snippet": "Wuffs is a **memory-safe programming language** (and a **standard library**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "memory-safety"
+    },
+    {
+      "context_snippet": "Wuffs is a **memory-safe programming language** (and a **standard library**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "parsing"
+    },
+    {
+      "context_snippet": "Wuffs is a **memory-safe programming language** (and a **standard library**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "programming-language"
+    }
+  ]
+}

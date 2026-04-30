@@ -130,6 +130,30 @@
       "source_repo": "standard/standard-www",
       "status": "candidate-context",
       "text": "[travis-image]: https://img.shields.io/travis/standard/standard-www/master.svg"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "CSSLint/parser-lib",
+      "status": "candidate-context",
+      "text": "Collection of parsers written in JavaScript"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "CSSLint/parser-lib",
+      "status": "candidate-context",
+      "text": "[![build status](https://secure.travis-ci.org/CSSLint/parser-lib.svg?branch=master)](https://travis-ci.org/CSSLint/parser-lib)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "amperser/proselint",
+      "status": "candidate-context",
+      "text": "A linter for prose."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "amperser/proselint",
+      "status": "candidate-context",
+      "text": "<img src=\"https://raw.githubusercontent.com/amperser/proselint/main/logo.png\" alt=\"proselint logo\" width=\"200\">"
     }
   ],
   "candidate_glosses": [
@@ -192,6 +216,18 @@
       "source_repo": "standard/standard-www",
       "status": "candidate",
       "text": "[travis-image]: https://img.shields.io/travis/standard/standard-www/master.svg"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "CSSLint/parser-lib",
+      "status": "candidate",
+      "text": "[![build status](https://secure.travis-ci.org/CSSLint/parser-lib.svg?branch=master)](https://travis-ci.org/CSSLint/parser-lib)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "amperser/proselint",
+      "status": "candidate",
+      "text": "<img src=\"https://raw.githubusercontent.com/amperser/proselint/main/logo.png\" alt=\"proselint logo\" width=\"200\">"
     }
   ],
   "candidate_related_terms": [
@@ -373,11 +409,35 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": ".github/workflows/style.yml",
       "source_repo": "PrimeIntellect-ai/verifiers"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "standard/snazzy"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/style.yml",
+      "source_repo": "PrimeIntellect-ai/verifiers"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "CSSLint/parser-lib"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "amperser/proselint"
     }
   ],
   "first_seen_at": "2026-04-18T10:43:38.551697+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

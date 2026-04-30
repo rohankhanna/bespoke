@@ -131,21 +131,7 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "simdjson/simdjson",
-      "target": "dgraph-io/dgraph",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "simdjson/simdjson",
-      "target": "crazyxman/simdjson_php",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "simdjson/simdjson",
-      "target": "eddelbuettel/rcppsimdjson",
+      "target": "egorbo/simdjsonsharp",
       "target_type": "repository"
     },
     {
@@ -153,6 +139,20 @@
       "source_file": "README.md",
       "source_repo": "simdjson/simdjson",
       "target": "chompert/simdjson_erlang",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "simdjson/simdjson",
+      "target": "fouriertransformer/lua-simdjson",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "simdjson/simdjson",
+      "target": "ezequielramis/zimdjson",
       "target_type": "repository"
     },
     {
@@ -492,7 +492,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-29T19:58:54.481364+00:00",
+  "fetched_at": "2026-04-30T05:05:20.925137+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -545,7 +545,7 @@
     "html_url": "https://github.com/simdjson/simdjson",
     "language": "C++",
     "pushed_at": "2026-04-29T17:05:45Z",
-    "stargazers_count": 23698,
+    "stargazers_count": 23699,
     "topics": [
       "aarch64",
       "arm64",
@@ -568,7 +568,7 @@
       "vs2019",
       "x64"
     ],
-    "updated_at": "2026-04-29T18:12:17Z"
+    "updated_at": "2026-04-29T22:55:00Z"
   },
   "repo_links": [
     {
@@ -578,17 +578,17 @@
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "crazyxman/simdjson_php",
+      "full_name": "egorbo/simdjsonsharp",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "dgraph-io/dgraph",
+      "full_name": "ezequielramis/zimdjson",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "eddelbuettel/rcppsimdjson",
+      "full_name": "fouriertransformer/lua-simdjson",
       "source_file": "README.md"
     }
   ],

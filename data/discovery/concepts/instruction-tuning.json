@@ -127,6 +127,30 @@
       "source_repo": "OpenGVLab/InternVideo",
       "status": "candidate-context",
       "text": "</div>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "SALT-NLP/LLaVAR",
+      "status": "candidate-context",
+      "text": "Code/Data for the paper: \"LLaVAR: Enhanced Visual Instruction Tuning for Text-Rich Image Understanding\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SALT-NLP/LLaVAR",
+      "status": "candidate-context",
+      "text": "**LLaVAR: Enhanced Visual Instruction Tuning for Text-Rich Image Understanding**"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "X-PLUG/mPLUG-Owl",
+      "status": "candidate-context",
+      "text": "mPLUG-Owl: The Powerful Multi-modal Large Language Model  Family"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "X-PLUG/mPLUG-Owl",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -189,6 +213,18 @@
       "source_repo": "OpenGVLab/InternVideo",
       "status": "candidate",
       "text": "</div>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SALT-NLP/LLaVAR",
+      "status": "candidate",
+      "text": "**LLaVAR: Enhanced Visual Instruction Tuning for Text-Rich Image Understanding**"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "X-PLUG/mPLUG-Owl",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_related_terms": [],
@@ -280,11 +316,35 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "OpenGVLab/InternVideo"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "SALT-NLP/LLaVAR"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "EvolvingLMMs-Lab/Otter"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "hiyouga/LlamaFactory"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "X-PLUG/mPLUG-Owl"
     }
   ],
   "first_seen_at": "2026-04-18T18:30:26.389736+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

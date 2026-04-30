@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
@@ -16,6 +16,16 @@
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/slash.yaml",
       "source_repo": "galaxyproject/tools-iuc"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/slash-command-dispatch.yml",
+      "source_repo": "peter-evans/create-pull-request"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/slash.yaml",
+      "source_repo": "bgruening/galaxytools"
     }
   ],
   "term": "Slash Command Dispatch"

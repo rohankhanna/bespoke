@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "configuration library for JVM languages using HOCON files"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![Build Status](https://github.com/lightbend/config/actions/workflows/ci.yml/badge.svg)](https://github.com/lightbend/config/actions/workflows/ci.yml)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![Build Status](https://github.com/lightbend/config/actions/workflows/ci.yml/badge.svg)](https://github.com/lightbend/config/actions/workflows/ci.yml)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39997264,
+      "status": "candidate",
+      "text": "suspended"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39989529,
+      "status": "candidate",
+      "text": "backed"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39968990,
+      "status": "candidate",
+      "text": "pendent"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39968496,
+      "status": "candidate",
+      "text": "based"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39966822,
+      "status": "candidate",
+      "text": "dangling"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "supported",
+      "sense_id": "supported#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 16052,
+      "status": "candidate",
+      "text": "pendant"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 12034,
+      "status": "candidate",
+      "text": "pendent"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 11019,
+      "status": "candidate",
+      "text": "corroborated"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 10021,
+      "status": "candidate",
+      "text": "fostered"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 9035,
+      "status": "candidate",
+      "text": "based"
+    }
+  ],
+  "concept_id": "supported",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "supported",
+  "observation_id": "092be88caa2b9a92",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T00:37:16.824464+00:00",
+  "observed_text": "supported",
+  "source_context_snippet": "[![Build Status](https://github.com/lightbend/config/actions/workflows/ci.yml/badge.svg)](https://github.com/lightbend/config/actions/workflows/ci.yml)",
+  "source_file": null,
+  "source_repo": "lightbend/config",
+  "source_repo_description": "configuration library for JVM languages using HOCON files"
+}

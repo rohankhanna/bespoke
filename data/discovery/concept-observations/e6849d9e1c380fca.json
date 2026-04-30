@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "OpenJS Foundation Cross Project Council"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "CPC Working Session Agenda"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "CPC Working Session Agenda"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 43993,
+      "status": "candidate",
+      "text": "meeting"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 32030,
+      "status": "candidate",
+      "text": "agendas"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31947,
+      "status": "candidate",
+      "text": "degree"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31947,
+      "status": "candidate",
+      "text": "disputation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31906,
+      "status": "candidate",
+      "text": "part"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "CPC Working Session Agenda",
+      "sense_id": "cpc-working-session-agenda#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "cpc-working-session-agenda",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "cpc-working-session-agenda",
+  "observation_id": "e6849d9e1c380fca",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-30T00:37:16.824464+00:00",
+  "observed_text": "CPC Working Session Agenda",
+  "source_context_snippet": "CPC Working Session Agenda",
+  "source_file": ".github/workflows/cpc-working-session-agenda.yml",
+  "source_repo": "openjs-foundation/cross-project-council",
+  "source_repo_description": "OpenJS Foundation Cross Project Council"
+}

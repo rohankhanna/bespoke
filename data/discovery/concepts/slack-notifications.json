@@ -1,0 +1,124 @@
+{
+  "aliases": [
+    "Slack Notifications"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Consensys/gnark",
+      "status": "candidate-context",
+      "text": "gnark is a fast zk-SNARK library that offers a high-level API to design circuits. The library is open source and developed under the Apache 2.0 license"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Consensys/gnark",
+      "status": "candidate-context",
+      "text": "Slack Notifications"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Consensys/gnark-crypto",
+      "status": "candidate-context",
+      "text": "gnark-crypto provides elliptic curve and pairing-based cryptography on BN, BLS12, BLS24 and BW6 curves. It also provides various algorithms (algebra, crypto) of particular interest to zero knowledge proof systems"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Consensys/gnark-crypto",
+      "status": "candidate-context",
+      "text": "Slack Notifications"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Consensys/gnark",
+      "status": "candidate",
+      "text": "Slack Notifications"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Consensys/gnark-crypto",
+      "status": "candidate",
+      "text": "Slack Notifications"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11099,
+      "status": "candidate",
+      "text": "check"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11002,
+      "status": "candidate",
+      "text": "communication"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11002,
+      "status": "candidate",
+      "text": "notice"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11002,
+      "status": "candidate",
+      "text": "service"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11002,
+      "status": "candidate",
+      "text": "wires"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Slack Notifications",
+  "concept_id": "slack-notifications",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/slack-notifications.yml",
+      "source_repo": "Consensys/gnark"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/slack-notifications.yml",
+      "source_repo": "Consensys/gnark-crypto"
+    }
+  ],
+  "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Slack Notifications",
+      "sense_id": "slack-notifications#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

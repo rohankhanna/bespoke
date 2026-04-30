@@ -67,6 +67,18 @@
       "source_repo": "wintoncode/vault-plugin-auth-kerberos",
       "status": "candidate-context",
       "text": "> :warning: **This repo is no longer maintained**: [It has been taken over by Hashicorp as an official plugin which you can find here](https://github.com/hashicorp/vault-plugin-auth-kerberos)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "external-secrets/kubernetes-external-secrets",
+      "status": "candidate-context",
+      "text": "Integrate external secret management systems with Kubernetes"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "external-secrets/kubernetes-external-secrets",
+      "status": "candidate-context",
+      "text": "This project has been [deprecated](https://github.com/external-secrets/kubernetes-external-secrets/issues/864)."
     }
   ],
   "candidate_glosses": [
@@ -99,6 +111,12 @@
       "source_repo": "wintoncode/vault-plugin-auth-kerberos",
       "status": "candidate",
       "text": "> :warning: **This repo is no longer maintained**: [It has been taken over by Hashicorp as an official plugin which you can find here](https://github.com/hashicorp/vault-plugin-auth-kerberos)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "external-secrets/kubernetes-external-secrets",
+      "status": "candidate",
+      "text": "This project has been [deprecated](https://github.com/external-secrets/kubernetes-external-secrets/issues/864)."
     }
   ],
   "candidate_related_terms": [
@@ -201,11 +219,17 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "wintoncode/vault-plugin-auth-kerberos"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "external-secrets/kubernetes-external-secrets"
     }
   ],
   "first_seen_at": "2026-04-19T02:42:33.990002+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

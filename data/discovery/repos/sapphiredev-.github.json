@@ -1,0 +1,610 @@
+{
+  "components": [
+    {
+      "component": "@actions/core",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@commitlint/cli",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@commitlint/config-conventional",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@sapphire/prettier-config",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@sapphire/ts-config",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@types/node",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@typescript-eslint/eslint-plugin",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@typescript-eslint/parser",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "eslint",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "eslint-config-neon",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "eslint-config-prettier",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "eslint-plugin-prettier",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "lint-staged",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "prettier",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "tsdown",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "typescript",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "sapphiredev/.github/.github/workflows/reusable-yarn-job.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/reusable-build.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/reusable-codeql.yml"
+    },
+    {
+      "component": "github/codeql-action/init@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/reusable-codeql.yml"
+    },
+    {
+      "component": "github/codeql-action/autobuild@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/reusable-codeql.yml"
+    },
+    {
+      "component": "github/codeql-action/analyze@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/reusable-codeql.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/reusable-continuous-delivery.yml"
+    },
+    {
+      "component": "sapphiredev/.github/actions/install-yarn-dependencies@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/reusable-continuous-delivery.yml"
+    },
+    {
+      "component": "dependabot/fetch-metadata@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/reusable-dependabot-actions.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/reusable-dependabot-recreate.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/reusable-documentation-docgen.yml"
+    },
+    {
+      "component": "sapphiredev/.github/actions/install-yarn-dependencies@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/reusable-documentation-docgen.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/reusable-documentation-docgen.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/reusable-documentation-upload.yml"
+    },
+    {
+      "component": "sapphiredev/.github/actions/install-yarn-dependencies@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/reusable-documentation-upload.yml"
+    },
+    {
+      "component": "actions/download-artifact@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/reusable-documentation-upload.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/reusable-documentation-upload.yml"
+    },
+    {
+      "component": "sapphiredev/.github/actions/format-tag@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/reusable-documentation-upload.yml"
+    },
+    {
+      "component": "nick-fields/retry@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/reusable-documentation-upload.yml"
+    },
+    {
+      "component": "sapphiredev/.github/.github/workflows/reusable-documentation-docgen.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/reusable-documentation.yml"
+    },
+    {
+      "component": "sapphiredev/.github/.github/workflows/reusable-documentation-upload.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/reusable-documentation.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "sapphiredev/.github",
+      "target": "@actions/core",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "sapphiredev/.github",
+      "target": "@commitlint/cli",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "sapphiredev/.github",
+      "target": "@commitlint/config-conventional",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "sapphiredev/.github",
+      "target": "@sapphire/prettier-config",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "sapphiredev/.github",
+      "target": "@sapphire/ts-config",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "sapphiredev/.github",
+      "target": "@types/node",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "sapphiredev/.github",
+      "target": "@typescript-eslint/eslint-plugin",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "sapphiredev/.github",
+      "target": "@typescript-eslint/parser",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "sapphiredev/.github",
+      "target": "eslint",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "sapphiredev/.github",
+      "target": "eslint-config-neon",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "sapphiredev/.github",
+      "target": "eslint-config-prettier",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "sapphiredev/.github",
+      "target": "eslint-plugin-prettier",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "sapphiredev/.github",
+      "target": "lint-staged",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "sapphiredev/.github",
+      "target": "prettier",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "sapphiredev/.github",
+      "target": "tsdown",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "sapphiredev/.github",
+      "target": "typescript",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/reusable-build.yml",
+      "source_repo": "sapphiredev/.github",
+      "target": "sapphiredev/.github/.github/workflows/reusable-yarn-job.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/reusable-build.yml",
+      "source_repo": "sapphiredev/.github",
+      "target": "build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/reusable-codeql.yml",
+      "source_repo": "sapphiredev/.github",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/reusable-codeql.yml",
+      "source_repo": "sapphiredev/.github",
+      "target": "github/codeql-action/init@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/reusable-codeql.yml",
+      "source_repo": "sapphiredev/.github",
+      "target": "github/codeql-action/autobuild@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/reusable-codeql.yml",
+      "source_repo": "sapphiredev/.github",
+      "target": "github/codeql-action/analyze@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/reusable-codeql.yml",
+      "source_repo": "sapphiredev/.github",
+      "target": "codeql",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/reusable-continuous-delivery.yml",
+      "source_repo": "sapphiredev/.github",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/reusable-continuous-delivery.yml",
+      "source_repo": "sapphiredev/.github",
+      "target": "sapphiredev/.github/actions/install-yarn-dependencies@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/reusable-continuous-delivery.yml",
+      "source_repo": "sapphiredev/.github",
+      "target": "publish",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/reusable-dependabot-actions.yml",
+      "source_repo": "sapphiredev/.github",
+      "target": "dependabot/fetch-metadata@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/reusable-dependabot-actions.yml",
+      "source_repo": "sapphiredev/.github",
+      "target": "dependabot-actions",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/reusable-dependabot-recreate.yml",
+      "source_repo": "sapphiredev/.github",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/reusable-dependabot-recreate.yml",
+      "source_repo": "sapphiredev/.github",
+      "target": "recreate-dependabot-prs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/reusable-documentation-docgen.yml",
+      "source_repo": "sapphiredev/.github",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/reusable-documentation-docgen.yml",
+      "source_repo": "sapphiredev/.github",
+      "target": "sapphiredev/.github/actions/install-yarn-dependencies@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/reusable-documentation-docgen.yml",
+      "source_repo": "sapphiredev/.github",
+      "target": "actions/upload-artifact@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/reusable-documentation-docgen.yml",
+      "source_repo": "sapphiredev/.github",
+      "target": "docgen",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/reusable-documentation-upload.yml",
+      "source_repo": "sapphiredev/.github",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/reusable-documentation-upload.yml",
+      "source_repo": "sapphiredev/.github",
+      "target": "sapphiredev/.github/actions/install-yarn-dependencies@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/reusable-documentation-upload.yml",
+      "source_repo": "sapphiredev/.github",
+      "target": "actions/download-artifact@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/reusable-documentation-upload.yml",
+      "source_repo": "sapphiredev/.github",
+      "target": "sapphiredev/.github/actions/format-tag@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/reusable-documentation-upload.yml",
+      "source_repo": "sapphiredev/.github",
+      "target": "nick-fields/retry@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/reusable-documentation-upload.yml",
+      "source_repo": "sapphiredev/.github",
+      "target": "docgen",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/reusable-documentation.yml",
+      "source_repo": "sapphiredev/.github",
+      "target": "sapphiredev/.github/.github/workflows/reusable-documentation-docgen.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/reusable-documentation.yml",
+      "source_repo": "sapphiredev/.github",
+      "target": "sapphiredev/.github/.github/workflows/reusable-documentation-upload.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/reusable-documentation.yml",
+      "source_repo": "sapphiredev/.github",
+      "target": "docgen",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sapphiredev/.github",
+      "target": "hacktoberfest",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T00:47:21.614386+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1307
+    },
+    {
+      "path": "package.json",
+      "size": 1142
+    },
+    {
+      "path": ".github/workflows/reusable-build.yml",
+      "size": 867
+    },
+    {
+      "path": ".github/workflows/reusable-codeql.yml",
+      "size": 1123
+    },
+    {
+      "path": ".github/workflows/reusable-continuous-delivery.yml",
+      "size": 3295
+    },
+    {
+      "path": ".github/workflows/reusable-dependabot-actions.yml",
+      "size": 1635
+    },
+    {
+      "path": ".github/workflows/reusable-dependabot-recreate.yml",
+      "size": 1899
+    },
+    {
+      "path": ".github/workflows/reusable-documentation-docgen.yml",
+      "size": 2378
+    },
+    {
+      "path": ".github/workflows/reusable-documentation-upload.yml",
+      "size": 4822
+    },
+    {
+      "path": ".github/workflows/reusable-documentation.yml",
+      "size": 1860
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "The Sapphire storage for all GitHub related meta files",
+    "fork": false,
+    "full_name": "sapphiredev/.github",
+    "html_url": "https://github.com/sapphiredev/.github",
+    "language": "JavaScript",
+    "pushed_at": "2026-04-29T10:54:36Z",
+    "stargazers_count": 5,
+    "topics": [
+      "hacktoberfest"
+    ],
+    "updated_at": "2026-01-06T14:56:19Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/reusable-build.yml",
+      "term": "build"
+    },
+    {
+      "context_snippet": "codeql",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/reusable-codeql.yml",
+      "term": "codeql"
+    },
+    {
+      "context_snippet": "publish",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/reusable-continuous-delivery.yml",
+      "term": "publish"
+    },
+    {
+      "context_snippet": "dependabot-actions",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/reusable-dependabot-actions.yml",
+      "term": "dependabot-actions"
+    },
+    {
+      "context_snippet": "recreate-dependabot-prs",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/reusable-dependabot-recreate.yml",
+      "term": "recreate-dependabot-prs"
+    },
+    {
+      "context_snippet": "docgen",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/reusable-documentation-docgen.yml",
+      "term": "docgen"
+    },
+    {
+      "context_snippet": "docgen",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/reusable-documentation-upload.yml",
+      "term": "docgen"
+    },
+    {
+      "context_snippet": "docgen",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/reusable-documentation.yml",
+      "term": "docgen"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hacktoberfest"
+    }
+  ]
+}

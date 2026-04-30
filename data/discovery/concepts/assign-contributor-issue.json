@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Assign Contributor Issue"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "zed-industries/zed",
+      "status": "candidate-context",
+      "text": "Code at the speed of thought \u2013 Zed is a high-performance, multiplayer code editor from the creators of Atom and Tree-sitter."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "zed-industries/zed",
+      "status": "candidate-context",
+      "text": "Assign Contributor Issue"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "zed-industries/zed",
+      "status": "candidate",
+      "text": "Assign Contributor Issue"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 34483,
+      "status": "candidate",
+      "text": "give"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20063,
+      "status": "candidate",
+      "text": "contribute"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20063,
+      "status": "candidate",
+      "text": "contributing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20063,
+      "status": "candidate",
+      "text": "important"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19714,
+      "status": "candidate",
+      "text": "source"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Assign Contributor Issue",
+  "concept_id": "assign-contributor-issue",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/assign_contributor_issue.yml",
+      "source_repo": "zed-industries/zed"
+    }
+  ],
+  "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Assign Contributor Issue",
+      "sense_id": "assign-contributor-issue#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

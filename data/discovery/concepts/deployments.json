@@ -1,11 +1,14 @@
 {
   "aliases": [
-    "deployments"
+    "deployments",
+    "Deployments"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
     "tool-component",
-    "capability"
+    "capability",
+    "workflow-process",
+    "data-document-artifact"
   ],
   "candidate_definitions": [
     {
@@ -43,6 +46,18 @@
       "source_repo": "argoproj/argo-rollouts",
       "status": "candidate-context",
       "text": "[![codecov](https://codecov.io/gh/argoproj/argo-rollouts/branch/master/graph/badge.svg)](https://codecov.io/gh/argoproj/argo-rollouts)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "z-galaxy/zbus",
+      "status": "candidate-context",
+      "text": "Rust D-Bus crate."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "z-galaxy/zbus",
+      "status": "candidate-context",
+      "text": "Deployments"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +78,12 @@
       "source_repo": "argoproj/argo-rollouts",
       "status": "candidate",
       "text": "[![codecov](https://codecov.io/gh/argoproj/argo-rollouts/branch/master/graph/badge.svg)](https://codecov.io/gh/argoproj/argo-rollouts)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "z-galaxy/zbus",
+      "status": "candidate",
+      "text": "Deployments"
     }
   ],
   "candidate_related_terms": [
@@ -124,11 +145,17 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "argoproj/argo-rollouts"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/deploy.yml",
+      "source_repo": "z-galaxy/zbus"
     }
   ],
   "first_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

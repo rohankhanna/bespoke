@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Code at the speed of thought \u2013 Zed is a high-performance, multiplayer code editor from the creators of Atom and Tree-sitter."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "\"Surface closed issues someone's commented on\""
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "\"Surface closed issues someone's commented on\""
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 45259,
+      "status": "candidate",
+      "text": "sphere"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 44488,
+      "status": "candidate",
+      "text": "system"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 43923,
+      "status": "candidate",
+      "text": "question"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 43917,
+      "status": "candidate",
+      "text": "side"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 43897,
+      "status": "candidate",
+      "text": "scores"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Surface closed issues someone's commented on",
+      "sense_id": "surface-closed-issues-someone-s-commented-on#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "surface-closed-issues-someone-s-commented-on",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "surface-closed-issues-someone-s-commented-on",
+  "observation_id": "079e98000294b2a1",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-30T00:37:16.824464+00:00",
+  "observed_text": "Surface closed issues someone's commented on",
+  "source_context_snippet": "\"Surface closed issues someone's commented on\"",
+  "source_file": ".github/workflows/add_commented_closed_issue_to_project.yml",
+  "source_repo": "zed-industries/zed",
+  "source_repo_description": "Code at the speed of thought \u2013 Zed is a high-performance, multiplayer code editor from the creators of Atom and Tree-sitter."
+}

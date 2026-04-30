@@ -7,7 +7,9 @@
   "ambiguity_status": "unresolved",
   "buckets": [
     "workflow-process",
-    "data-document-artifact"
+    "data-document-artifact",
+    "tool-component",
+    "capability"
   ],
   "candidate_definitions": [
     {
@@ -45,6 +47,30 @@
       "source_repo": "simdutf/simdutf",
       "status": "candidate-context",
       "text": "clang format"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "SkyworkAI/vllm",
+      "status": "candidate-context",
+      "text": "A high-throughput and memory-efficient inference and serving engine for LLMs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SkyworkAI/vllm",
+      "status": "candidate-context",
+      "text": "clang-format"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "google/vim-codefmt",
+      "status": "candidate-context",
+      "text": "Vim plugin for syntax-aware code formatting"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/vim-codefmt",
+      "status": "candidate-context",
+      "text": "[![Travis Build Status](https://travis-ci.org/google/vim-codefmt.svg?branch=master)](https://travis-ci.org/google/vim-codefmt)"
     }
   ],
   "candidate_glosses": [
@@ -65,6 +91,18 @@
       "source_repo": "simdutf/simdutf",
       "status": "candidate",
       "text": "clang format"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SkyworkAI/vllm",
+      "status": "candidate",
+      "text": "clang-format"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/vim-codefmt",
+      "status": "candidate",
+      "text": "[![Travis Build Status](https://travis-ci.org/google/vim-codefmt.svg?branch=master)](https://travis-ci.org/google/vim-codefmt)"
     }
   ],
   "candidate_related_terms": [
@@ -132,11 +170,23 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": ".github/workflows/clang-format.yml",
       "source_repo": "doctest/doctest"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/clang-format.yml",
+      "source_repo": "SkyworkAI/vllm"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "google/vim-codefmt"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

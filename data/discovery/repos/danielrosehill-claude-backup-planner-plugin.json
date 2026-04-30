@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T01:02:42.235111+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1684
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": null,
+    "fork": false,
+    "full_name": "danielrosehill/Claude-Backup-Planner-Plugin",
+    "html_url": "https://github.com/danielrosehill/Claude-Backup-Planner-Plugin",
+    "language": null,
+    "pushed_at": "2026-04-27T15:50:57Z",
+    "stargazers_count": 0,
+    "topics": [],
+    "updated_at": "2026-04-27T17:42:20Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

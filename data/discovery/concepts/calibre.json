@@ -1,0 +1,122 @@
+{
+  "aliases": [
+    "calibre"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "junkblocker/calibre-zaw-source",
+      "status": "candidate-context",
+      "text": "calibre source for zaw"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "junkblocker/calibre-zaw-source",
+      "status": "candidate-context",
+      "text": "[calibre](http://www.calibre-ebook.com/) source for [zaw](https://github.com/zsh-users/zaw) the [zsh](http://www.zsh.org/) [anything.el](http://www.emacswiki.org/emacs/Anything)-like widget."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "junkblocker/calibre-zaw-source",
+      "status": "candidate",
+      "text": "[calibre](http://www.calibre-ebook.com/) source for [zaw](https://github.com/zsh-users/zaw) the [zsh](http://www.zsh.org/) [anything.el](http://www.emacswiki.org/emacs/Anything)-like widget."
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39964173,
+      "status": "candidate",
+      "text": "quality"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39932646,
+      "status": "candidate",
+      "text": "caliber"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39885794,
+      "status": "candidate",
+      "text": "bore"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30023346,
+      "status": "candidate",
+      "text": "calibrate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30020107,
+      "status": "candidate",
+      "text": "piece"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 28060,
+      "status": "candidate",
+      "text": "quality"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 15042,
+      "status": "candidate",
+      "text": "caliber"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 14067,
+      "status": "candidate",
+      "text": "bore"
+    }
+  ],
+  "canonical_name": "calibre",
+  "concept_id": "calibre",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "junkblocker/calibre-zaw-source"
+    }
+  ],
+  "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "calibre",
+      "sense_id": "calibre#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Where the GPU for the Web work happens!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "publish-TR-wgsl"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "publish-TR-wgsl"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "publish-TR-wgsl",
+      "sense_id": "publish-tr-wgsl#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "publish-tr-wgsl",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "publish-tr-wgsl",
+  "observation_id": "fbc0294fe6067913",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-30T00:37:16.824464+00:00",
+  "observed_text": "publish-TR-wgsl",
+  "source_context_snippet": "publish-TR-wgsl",
+  "source_file": ".github/workflows/publish-TR-wgsl.yml",
+  "source_repo": "gpuweb/gpuweb",
+  "source_repo_description": "Where the GPU for the Web work happens!"
+}

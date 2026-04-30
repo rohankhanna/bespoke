@@ -1,0 +1,103 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "HolyWu/vs-realesrgan",
+      "target": "xinntao/real-esrgan.",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "HolyWu/vs-realesrgan",
+      "target": "pytorch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "HolyWu/vs-realesrgan",
+      "target": "real-esrgan",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "HolyWu/vs-realesrgan",
+      "target": "tensorrt",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "HolyWu/vs-realesrgan",
+      "target": "vapoursynth",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T03:54:30.863177+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1029
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 847
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Real-ESRGAN function for VapourSynth",
+    "fork": false,
+    "full_name": "HolyWu/vs-realesrgan",
+    "html_url": "https://github.com/HolyWu/vs-realesrgan",
+    "language": "Python",
+    "pushed_at": "2025-03-10T11:49:29Z",
+    "stargazers_count": 97,
+    "topics": [
+      "pytorch",
+      "real-esrgan",
+      "tensorrt",
+      "vapoursynth"
+    ],
+    "updated_at": "2026-04-23T23:16:17Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "xinntao/real-esrgan.",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Training Real-World Blind Super-Resolution with Pure Synthetic Data, based on https://github.com/xinntao/Real-ESRGAN.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytorch"
+    },
+    {
+      "context_snippet": "Training Real-World Blind Super-Resolution with Pure Synthetic Data, based on https://github.com/xinntao/Real-ESRGAN.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "real-esrgan"
+    },
+    {
+      "context_snippet": "Training Real-World Blind Super-Resolution with Pure Synthetic Data, based on https://github.com/xinntao/Real-ESRGAN.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tensorrt"
+    },
+    {
+      "context_snippet": "Training Real-World Blind Super-Resolution with Pure Synthetic Data, based on https://github.com/xinntao/Real-ESRGAN.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vapoursynth"
+    }
+  ]
+}

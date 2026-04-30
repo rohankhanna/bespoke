@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Improve your Baduk skills by training with KataGo!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![Latest Release](http://img.shields.io/github/release/sanderland/katrain?label=download)](http://github.com/sanderland/katrain/releases)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![Latest Release](http://img.shields.io/github/release/sanderland/katrain?label=download)](http://github.com/sanderland/katrain/releases)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 8485705,
+      "status": "candidate",
+      "text": "tivy"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 8485704,
+      "status": "candidate",
+      "text": "kivi"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 8485703,
+      "status": "candidate",
+      "text": "kibby"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 8485702,
+      "status": "candidate",
+      "text": "kiddle"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 8485701,
+      "status": "candidate",
+      "text": "vity"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "kivy",
+      "sense_id": "kivy#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "kivy",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "kivy",
+  "observation_id": "87de4ae95684e830",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T00:37:16.824464+00:00",
+  "observed_text": "kivy",
+  "source_context_snippet": "[![Latest Release](http://img.shields.io/github/release/sanderland/katrain?label=download)](http://github.com/sanderland/katrain/releases)",
+  "source_file": null,
+  "source_repo": "sanderland/katrain",
+  "source_repo_description": "Improve your Baduk skills by training with KataGo!"
+}

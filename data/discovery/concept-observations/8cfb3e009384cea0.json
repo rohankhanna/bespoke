@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Detecting Text in Natural Image with Connectionist Text Proposal Network (ECCV'16)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "The codes are used for implementing CTPN for scene text detection, described in:"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "The codes are used for implementing CTPN for scene text detection, described in:"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "text-detection",
+      "sense_id": "text-detection#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "text-detection",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "text-detection",
+  "observation_id": "8cfb3e009384cea0",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T00:37:16.824464+00:00",
+  "observed_text": "text-detection",
+  "source_context_snippet": "The codes are used for implementing CTPN for scene text detection, described in:",
+  "source_file": null,
+  "source_repo": "tianzhi0549/CTPN",
+  "source_repo_description": "Detecting Text in Natural Image with Connectionist Text Proposal Network (ECCV'16)"
+}

@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T03:56:00.041904+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1369
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "HazyResearch/ThunderMittens",
+    "html_url": "https://github.com/HazyResearch/ThunderMittens",
+    "language": "C++",
+    "pushed_at": "2025-08-26T17:09:56Z",
+    "stargazers_count": 11,
+    "topics": [],
+    "updated_at": "2026-04-17T08:49:02Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

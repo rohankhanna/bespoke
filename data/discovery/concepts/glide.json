@@ -1,0 +1,136 @@
+{
+  "aliases": [
+    "glide"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "wasabeef/glide-transformations",
+      "status": "candidate-context",
+      "text": "An Android transformation library providing a variety of image transformations for Glide."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "wasabeef/glide-transformations",
+      "status": "candidate-context",
+      "text": "Glide Transformations"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "wasabeef/glide-transformations",
+      "status": "candidate",
+      "text": "Glide Transformations"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40047198,
+      "status": "candidate",
+      "text": "slide"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40019941,
+      "status": "candidate",
+      "text": "soaring"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39980253,
+      "status": "candidate",
+      "text": "sailing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39898883,
+      "status": "candidate",
+      "text": "semivowel"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30047653,
+      "status": "candidate",
+      "text": "sailplaning"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 11030,
+      "status": "candidate",
+      "text": "gliding"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 9032,
+      "status": "candidate",
+      "text": "soaring"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 5036,
+      "status": "candidate",
+      "text": "sailing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 25,
+      "status": "candidate",
+      "text": "semivowel"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 11,
+      "status": "candidate",
+      "text": "sailplaning"
+    }
+  ],
+  "canonical_name": "glide",
+  "concept_id": "glide",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "wasabeef/glide-transformations"
+    }
+  ],
+  "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "glide",
+      "sense_id": "glide#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

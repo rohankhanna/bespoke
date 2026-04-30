@@ -1,0 +1,171 @@
+{
+  "components": [
+    {
+      "component": "straw-hat-team/github-actions-workflows/.github/workflows/elixir-quality-assurance.yml@v1.6.3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "straw-hat-team/github-actions-workflows/.github/workflows/elixir-hex-publish.yml@v1.6.3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/stale@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stale.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ueberauth/oauth2",
+      "target": "scrogson/oauth2",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ueberauth/oauth2",
+      "target": "elixir-tesla/tesla",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ueberauth/oauth2",
+      "target": "scrogson/oauth2_example",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "ueberauth/oauth2",
+      "target": "straw-hat-team/github-actions-workflows/.github/workflows/elixir-quality-assurance.yml@v1.6.3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "ueberauth/oauth2",
+      "target": "straw-hat-team/github-actions-workflows/.github/workflows/elixir-hex-publish.yml@v1.6.3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "ueberauth/oauth2",
+      "target": "actions/stale@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "ueberauth/oauth2",
+      "target": "Close stale issues and PRs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ueberauth/oauth2",
+      "target": "elixir",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ueberauth/oauth2",
+      "target": "http",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ueberauth/oauth2",
+      "target": "oauth2",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T02:55:11.272153+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7906
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 278
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "size": 292
+    },
+    {
+      "path": ".github/workflows/stale.yml",
+      "size": 1761
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "An Elixir OAuth 2.0 Client Library",
+    "fork": false,
+    "full_name": "ueberauth/oauth2",
+    "html_url": "https://github.com/ueberauth/oauth2",
+    "language": "Elixir",
+    "pushed_at": "2024-07-25T13:39:28Z",
+    "stargazers_count": 772,
+    "topics": [
+      "elixir",
+      "http",
+      "oauth2"
+    ],
+    "updated_at": "2026-04-12T09:56:01Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "elixir-tesla/tesla",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "scrogson/oauth2",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "scrogson/oauth2_example",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "'Close stale issues and PRs'",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/stale.yml",
+      "term": "Close stale issues and PRs"
+    },
+    {
+      "context_snippet": "[![Build Status](https://github.com/ueberauth/oauth2/actions/workflows/ci.yml/badge.svg)](https://github.com/ueberauth/oauth2/actions/workflows/ci.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "elixir"
+    },
+    {
+      "context_snippet": "[![Build Status](https://github.com/ueberauth/oauth2/actions/workflows/ci.yml/badge.svg)](https://github.com/ueberauth/oauth2/actions/workflows/ci.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "http"
+    },
+    {
+      "context_snippet": "[![Build Status](https://github.com/ueberauth/oauth2/actions/workflows/ci.yml/badge.svg)](https://github.com/ueberauth/oauth2/actions/workflows/ci.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "oauth2"
+    }
+  ]
+}

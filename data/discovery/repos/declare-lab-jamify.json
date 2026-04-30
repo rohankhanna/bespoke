@@ -1,0 +1,81 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "declare-lab/jamify",
+      "target": "ai-song",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "declare-lab/jamify",
+      "target": "ai-song-generator",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "declare-lab/jamify",
+      "target": "song-generation",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T02:04:58.909085+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 16479
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 399
+    },
+    {
+      "path": "requirements.txt",
+      "size": 334
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "JAM: A Tiny Flow-based Song Generator with Fine-grained Controllability and Aesthetic Alignment",
+    "fork": false,
+    "full_name": "declare-lab/jamify",
+    "html_url": "https://github.com/declare-lab/jamify",
+    "language": "Python",
+    "pushed_at": "2025-08-07T09:01:15Z",
+    "stargazers_count": 160,
+    "topics": [
+      "ai-song",
+      "ai-song-generator",
+      "song-generation",
+      "tts"
+    ],
+    "updated_at": "2026-04-27T09:04:27Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ai-song"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ai-song-generator"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "song-generation"
+    }
+  ]
+}

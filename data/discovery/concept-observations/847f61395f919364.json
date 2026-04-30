@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Connection Profiles for Cyberduck & Mountain Duck"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Sanity check profiles"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Sanity check profiles"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26787,
+      "status": "candidate",
+      "text": "reviews"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 25144,
+      "status": "candidate",
+      "text": "analyse"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 25144,
+      "status": "candidate",
+      "text": "parthenos"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 25124,
+      "status": "candidate",
+      "text": "assessment"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 25124,
+      "status": "candidate",
+      "text": "record"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Sanity check profiles",
+      "sense_id": "sanity-check-profiles#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "sanity-check-profiles",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "sanity-check-profiles",
+  "observation_id": "847f61395f919364",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-30T00:37:16.824464+00:00",
+  "observed_text": "Sanity check profiles",
+  "source_context_snippet": "Sanity check profiles",
+  "source_file": ".github/workflows/profiles-sanity-check.yml",
+  "source_repo": "iterate-ch/profiles",
+  "source_repo_description": "Connection Profiles for Cyberduck & Mountain Duck"
+}

@@ -1,0 +1,99 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "CraftJarvis/MC-Planner",
+      "target": "minedojo/mineclip",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "CraftJarvis/MC-Planner",
+      "target": "craftjarvis/mc-simulator",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "CraftJarvis/MC-Planner",
+      "target": "craftjarvis/mc-controller",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "CraftJarvis/MC-Planner",
+      "target": "language-model",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "CraftJarvis/MC-Planner",
+      "target": "minecraft",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T04:59:00.960643+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3111
+    },
+    {
+      "path": "requirements.txt",
+      "size": 292
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Implementation of \"Describe, Explain, Plan and Select: Interactive Planning with Large Language Models Enables Open-World Multi-Task Agents\"",
+    "fork": false,
+    "full_name": "CraftJarvis/MC-Planner",
+    "html_url": "https://github.com/CraftJarvis/MC-Planner",
+    "language": "Python",
+    "pushed_at": "2023-08-03T16:51:30Z",
+    "stargazers_count": 293,
+    "topics": [
+      "language-model",
+      "minecraft"
+    ],
+    "updated_at": "2026-04-01T12:20:42Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "craftjarvis/mc-controller",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "craftjarvis/mc-simulator",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "minedojo/mineclip",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "language-model"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "minecraft"
+    }
+  ]
+}

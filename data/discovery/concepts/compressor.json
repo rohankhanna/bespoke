@@ -55,6 +55,30 @@
       "source_repo": "inikep/lizard",
       "status": "candidate-context",
       "text": "Lizard - efficient compression with very fast decompression"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "j9t/html-minifier-next",
+      "status": "candidate-context",
+      "text": "Super-configurable and well-tested web page minifier (enhanced successor of HTML Minifier)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "j9t/html-minifier-next",
+      "status": "candidate-context",
+      "text": "[![npm version](https://img.shields.io/npm/v/html-minifier-next.svg)](https://www.npmjs.com/package/html-minifier-next) [![Build status](https://github.com/j9t/html-minifier-next/workflows/Tests/badge.svg)](https://github.com/j9t/html-minifier-next/actions) [![Socket](https://ba\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "unevens/Curvessor",
+      "status": "candidate-context",
+      "text": "An audio plug-in that implements a dynamic range processor in which the response curve of each channel is an automatable spline."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "unevens/Curvessor",
+      "status": "candidate-context",
+      "text": "![Curvessor GUI](Images/screenshot.jpg?raw=true 'screenshot')"
     }
   ],
   "candidate_glosses": [
@@ -81,6 +105,18 @@
       "source_repo": "inikep/lizard",
       "status": "candidate",
       "text": "Lizard - efficient compression with very fast decompression"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "j9t/html-minifier-next",
+      "status": "candidate",
+      "text": "[![npm version](https://img.shields.io/npm/v/html-minifier-next.svg)](https://www.npmjs.com/package/html-minifier-next) [![Build status](https://github.com/j9t/html-minifier-next/workflows/Tests/badge.svg)](https://github.com/j9t/html-minifier-next/actions) [![Socket](https://ba\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "unevens/Curvessor",
+      "status": "candidate",
+      "text": "![Curvessor GUI](Images/screenshot.jpg?raw=true 'screenshot')"
     }
   ],
   "candidate_related_terms": [
@@ -160,11 +196,23 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": null,
       "source_repo": "inikep/lizard"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "j9t/html-minifier-next"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "unevens/Curvessor"
     }
   ],
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

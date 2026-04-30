@@ -1,0 +1,104 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "oap-project/oap-mllib",
+      "target": "oneapi-src/onedal",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "oap-project/oap-mllib",
+      "target": "oneapi-src/oneccl",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "oap-project/oap-mllib",
+      "target": "oneapi-src/onetbb",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-checks-build.yml",
+      "source_repo": "oap-project/oap-mllib",
+      "target": "actions/checkout@f43a0e5ff2bd294095638e18286ca9a3d1956744",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-checks-build.yml",
+      "source_repo": "oap-project/oap-mllib",
+      "target": "actions/setup-java@b6e674f4b717d7b0ae3baee0fbe79f498905dfde",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-checks-build.yml",
+      "source_repo": "oap-project/oap-mllib",
+      "target": "actions/cache@f4b3439a656ba812b8cb417d2d49f9c810103092",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci-checks-build.yml",
+      "source_repo": "oap-project/oap-mllib",
+      "target": "Checks and Build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-tests.yml",
+      "source_repo": "oap-project/oap-mllib",
+      "target": "actions/checkout@f43a0e5ff2bd294095638e18286ca9a3d1956744",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-tests.yml",
+      "source_repo": "oap-project/oap-mllib",
+      "target": "actions/setup-java@b6e674f4b717d7b0ae3baee0fbe79f498905dfde",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-tests.yml",
+      "source_repo": "oap-project/oap-mllib",
+      "target": "actions/cache@f4b3439a656ba812b8cb417d2d49f9c810103092",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci-tests.yml",
+      "source_repo": "oap-project/oap-mllib",
+      "target": "Tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dev_cron.yml",
+      "source_repo": "oap-project/oap-mllib",
+      "target": "actions/checkout@ee0669bd1cc54295c223e0bb666b733df41de1c5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dev_cron.yml",
+      "source_repo": "oap-project/oap-mllib",
+      "target": "actions/github-script@ffc2c79a5b2490bd33e0a41c1de74b877714d736",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/dev_cron.yml",
+      "source_repo": "oap-project/oap-mllib",
+      "target": "Dev PR",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-30T00:37:16.824464+00:00",
+  "source_repo": "oap-project/oap-mllib"
+}

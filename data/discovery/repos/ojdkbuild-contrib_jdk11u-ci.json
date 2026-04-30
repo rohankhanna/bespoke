@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T04:00:48.044781+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 646
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "OpenJDK 11 \"vanilla\" Linux builds done on Cirrus CI",
+    "fork": false,
+    "full_name": "ojdkbuild/contrib_jdk11u-ci",
+    "html_url": "https://github.com/ojdkbuild/contrib_jdk11u-ci",
+    "language": null,
+    "pushed_at": "2022-05-04T12:24:13Z",
+    "stargazers_count": 5,
+    "topics": [],
+    "updated_at": "2022-01-07T03:07:54Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

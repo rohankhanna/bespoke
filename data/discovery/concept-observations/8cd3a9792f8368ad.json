@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Bosh Release for Cloud Controller and friends"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[slack.cloudfoundry.org](https://cloudfoundry.slack.com/messages/capi/)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[slack.cloudfoundry.org](https://cloudfoundry.slack.com/messages/capi/)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39984979,
+      "status": "candidate",
+      "text": "tommyrot"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39980326,
+      "status": "candidate",
+      "text": "tarradiddle"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39979263,
+      "status": "candidate",
+      "text": "twaddle"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39970343,
+      "status": "candidate",
+      "text": "humbug"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39930840,
+      "status": "candidate",
+      "text": "drool"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "bosh",
+      "sense_id": "bosh#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 12028,
+      "status": "candidate",
+      "text": "tosh"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 10020,
+      "status": "candidate",
+      "text": "tarradiddle"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 9034,
+      "status": "candidate",
+      "text": "twaddle"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 6038,
+      "status": "candidate",
+      "text": "drool"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 6019,
+      "status": "candidate",
+      "text": "taradiddle"
+    }
+  ],
+  "concept_id": "bosh",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "bosh",
+  "observation_id": "8cd3a9792f8368ad",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T00:37:16.824464+00:00",
+  "observed_text": "bosh",
+  "source_context_snippet": "[slack.cloudfoundry.org](https://cloudfoundry.slack.com/messages/capi/)",
+  "source_file": null,
+  "source_repo": "cloudfoundry/capi-release",
+  "source_repo_description": "Bosh Release for Cloud Controller and friends"
+}

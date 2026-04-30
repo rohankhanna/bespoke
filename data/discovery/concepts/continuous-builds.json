@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Continuous builds"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "TheAssassin/AppImageLauncher",
+      "status": "candidate-context",
+      "text": "Helper application for Linux distributions serving as a kind of \"entry point\" for running and integrating AppImages"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "TheAssassin/AppImageLauncher",
+      "status": "candidate-context",
+      "text": "Continuous builds"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "TheAssassin/AppImageLauncher",
+      "status": "candidate",
+      "text": "Continuous builds"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11026,
+      "status": "candidate",
+      "text": "erector"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11026,
+      "status": "candidate",
+      "text": "followup"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11026,
+      "status": "candidate",
+      "text": "fuel"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11026,
+      "status": "candidate",
+      "text": "steeplejack"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10943,
+      "status": "candidate",
+      "text": "conurbation"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Continuous builds",
+  "concept_id": "continuous-builds",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "TheAssassin/AppImageLauncher"
+    }
+  ],
+  "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Continuous builds",
+      "sense_id": "continuous-builds#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

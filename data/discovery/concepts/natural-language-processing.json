@@ -487,6 +487,114 @@
       "source_repo": "jadore801120/attention-is-all-you-need-pytorch",
       "status": "candidate-context",
       "text": "This is a PyTorch implementation of the Transformer model in \"[Attention is All You Need](https://arxiv.org/abs/1706.03762)\" (Ashish Vaswani, Noam Shazeer, Niki Parmar, Jakob Uszkoreit, Llion Jones, Aidan N. Gomez, Lukasz Kaiser, Illia Polosukhin, arxiv, 2017)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "U-Alberta/wned",
+      "status": "candidate-context",
+      "text": "A sytem for Named Entity Disambiguation based on Random Walks and Learning to Rank."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "U-Alberta/wned",
+      "status": "candidate-context",
+      "text": "WNED is an entity linking systems that accepts text with marked named entities and links them to their referent entities in a knowledge base (e.g. Wikipedia)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Tiiiger/bert_score",
+      "status": "candidate-context",
+      "text": "BERT score for text generation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Tiiiger/bert_score",
+      "status": "candidate-context",
+      "text": "[![made-with-python](https://img.shields.io/badge/Made%20with-Python-red.svg)](#python)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Unbabel/COMET",
+      "status": "candidate-context",
+      "text": " A Neural Framework for MT Evaluation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Unbabel/COMET",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Helsinki-NLP/OPUS-MT-train",
+      "status": "candidate-context",
+      "text": "Training open neural machine translation models"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Helsinki-NLP/OPUS-MT-train",
+      "status": "candidate-context",
+      "text": "This package includes scripts for training NMT models using MarianNMT and OPUS data for [OPUS-MT](https://github.com/Helsinki-NLP/Opus-MT). More details are given in the [Makefile](Makefile) but documentation needs to be improved. Also, the targets require a specific environment\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "malaysia-ai/malaya",
+      "status": "candidate-context",
+      "text": " Natural Language Toolkit for Malaysian language, https://malaya.readthedocs.io/"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "malaysia-ai/malaya",
+      "status": "candidate-context",
+      "text": ".. raw:: html"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "BlackSamorez/tensor_parallel",
+      "status": "candidate-context",
+      "text": "Automatically split your PyTorch models on multiple GPUs for training & inference"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "BlackSamorez/tensor_parallel",
+      "status": "candidate-context",
+      "text": "[![PyPI version](https://img.shields.io/pypi/v/tensor-parallel.svg?color=blue)](https://pypi.org/project/tensor-parallel/)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "OpenBMB/CPM-Live",
+      "status": "candidate-context",
+      "text": "Live Training for Open-source Big Models"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "OpenBMB/CPM-Live",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "thunlp/OpenPrompt",
+      "status": "candidate-context",
+      "text": "An Open-Source Framework for Prompt-Learning."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "thunlp/OpenPrompt",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "flairNLP/flair",
+      "status": "candidate-context",
+      "text": "A very simple framework for state-of-the-art Natural Language Processing (NLP)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "flairNLP/flair",
+      "status": "candidate-context",
+      "text": "![alt text](resources/docs/flair_logo_2020_FINAL_day_dpi72.png#gh-light-mode-only)"
     }
   ],
   "candidate_glosses": [
@@ -729,6 +837,60 @@
       "source_repo": "jadore801120/attention-is-all-you-need-pytorch",
       "status": "candidate",
       "text": "This is a PyTorch implementation of the Transformer model in \"[Attention is All You Need](https://arxiv.org/abs/1706.03762)\" (Ashish Vaswani, Noam Shazeer, Niki Parmar, Jakob Uszkoreit, Llion Jones, Aidan N. Gomez, Lukasz Kaiser, Illia Polosukhin, arxiv, 2017)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "U-Alberta/wned",
+      "status": "candidate",
+      "text": "WNED is an entity linking systems that accepts text with marked named entities and links them to their referent entities in a knowledge base (e.g. Wikipedia)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Tiiiger/bert_score",
+      "status": "candidate",
+      "text": "[![made-with-python](https://img.shields.io/badge/Made%20with-Python-red.svg)](#python)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Unbabel/COMET",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Helsinki-NLP/OPUS-MT-train",
+      "status": "candidate",
+      "text": "This package includes scripts for training NMT models using MarianNMT and OPUS data for [OPUS-MT](https://github.com/Helsinki-NLP/Opus-MT). More details are given in the [Makefile](Makefile) but documentation needs to be improved. Also, the targets require a specific environment\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "malaysia-ai/malaya",
+      "status": "candidate",
+      "text": ".. raw:: html"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "BlackSamorez/tensor_parallel",
+      "status": "candidate",
+      "text": "[![PyPI version](https://img.shields.io/pypi/v/tensor-parallel.svg?color=blue)](https://pypi.org/project/tensor-parallel/)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "OpenBMB/CPM-Live",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "thunlp/OpenPrompt",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "flairNLP/flair",
+      "status": "candidate",
+      "text": "![alt text](resources/docs/flair_logo_2020_FINAL_day_dpi72.png#gh-light-mode-only)"
     }
   ],
   "candidate_related_terms": [],
@@ -1000,11 +1162,89 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "jadore801120/attention-is-all-you-need-pytorch"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "U-Alberta/wned"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "Tiiiger/bert_score"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "Unbabel/COMET"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "fla-org/flash-linear-attention"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "QwenLM/Qwen"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "Helsinki-NLP/OPUS-MT-train"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "OpenMOSS/MOSS"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "malaysia-ai/malaya"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "BlackSamorez/tensor_parallel"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "OpenBMB/CPM-Live"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "thunlp/OpenPrompt"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "adapter-hub/adapters"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "flairNLP/flair"
     }
   ],
   "first_seen_at": "2026-04-18T13:15:13.756138+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

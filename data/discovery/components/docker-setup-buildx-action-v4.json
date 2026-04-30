@@ -1,7 +1,7 @@
 {
   "component": "docker/setup-buildx-action@v4",
   "first_seen_at": "2026-04-18T03:26:22.590180+00:00",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -632,6 +632,46 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/docker_image.yml",
       "source_repo": "esp-rs/std-training"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "bufbuild/buf"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/goreleaser.yaml",
+      "source_repo": "operator-framework/operator-registry"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "conda-forge/conda-forge-feedstock-ops"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "YACReader/yacreader"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/readme-release.yml",
+      "source_repo": "mlocati/docker-php-extension-installer"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "bitcoin-core/secp256k1"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/create-release-draft.yaml",
+      "source_repo": "argoproj-labs/argocd-image-updater"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/image.yaml",
+      "source_repo": "argoproj-labs/argocd-image-updater"
     }
   ]
 }

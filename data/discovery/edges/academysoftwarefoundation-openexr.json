@@ -1,0 +1,188 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "AcademySoftwareFoundation/openexr",
+      "target": "academysoftwarefoundation/openexr-images",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/analysis_workflow.yml",
+      "source_repo": "AcademySoftwareFoundation/openexr",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/analysis_workflow.yml",
+      "source_repo": "AcademySoftwareFoundation/openexr",
+      "target": "Analysis",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bazel_build.yml",
+      "source_repo": "AcademySoftwareFoundation/openexr",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bazel_build.yml",
+      "source_repo": "AcademySoftwareFoundation/openexr",
+      "target": "actions/cache@27d5ce7f107fe9357f9df03efb73ab90386fccae",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/bazel_build.yml",
+      "source_repo": "AcademySoftwareFoundation/openexr",
+      "target": "Bazel",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_freebsd.yml",
+      "source_repo": "AcademySoftwareFoundation/openexr",
+      "target": "vmactions/freebsd-vm@d1e65811565151536c0c894fff74f06351ed26e6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci_freebsd.yml",
+      "source_repo": "AcademySoftwareFoundation/openexr",
+      "target": "CI (FreeBSD)",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_steps.yml",
+      "source_repo": "AcademySoftwareFoundation/openexr",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_steps.yml",
+      "source_repo": "AcademySoftwareFoundation/openexr",
+      "target": "msys2/setup-msys2@e9898307ac31d1a803454791be09ab9973336e1c",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_steps.yml",
+      "source_repo": "AcademySoftwareFoundation/openexr",
+      "target": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci_steps.yml",
+      "source_repo": "AcademySoftwareFoundation/openexr",
+      "target": "CI Steps",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_workflow_old.yml",
+      "source_repo": "AcademySoftwareFoundation/openexr",
+      "target": "actions/checkout@f43a0e5ff2bd294095638e18286ca9a3d1956744",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci_workflow_old.yml",
+      "source_repo": "AcademySoftwareFoundation/openexr",
+      "target": "CI-old",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "AcademySoftwareFoundation/openexr",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "AcademySoftwareFoundation/openexr",
+      "target": "github/codeql-action/init@95e58e9a2cdfd71adc6e0353d5c52f41a045d225",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "AcademySoftwareFoundation/openexr",
+      "target": "github/codeql-action/analyze@95e58e9a2cdfd71adc6e0353d5c52f41a045d225",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "AcademySoftwareFoundation/openexr",
+      "target": "CodeQL",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ossfuzz_workflow.yml",
+      "source_repo": "AcademySoftwareFoundation/openexr",
+      "target": "google/oss-fuzz/infra/cifuzz/actions/build_fuzzers@32f1d4deadc82279ec9001a837f2424e185c69a2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ossfuzz_workflow.yml",
+      "source_repo": "AcademySoftwareFoundation/openexr",
+      "target": "google/oss-fuzz/infra/cifuzz/actions/run_fuzzers@32f1d4deadc82279ec9001a837f2424e185c69a2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ossfuzz_workflow.yml",
+      "source_repo": "AcademySoftwareFoundation/openexr",
+      "target": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ossfuzz_workflow.yml",
+      "source_repo": "AcademySoftwareFoundation/openexr",
+      "target": "OSS-Fuzz",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AcademySoftwareFoundation/openexr",
+      "target": "academy",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AcademySoftwareFoundation/openexr",
+      "target": "image-processing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AcademySoftwareFoundation/openexr",
+      "target": "images",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AcademySoftwareFoundation/openexr",
+      "target": "openexr",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-30T00:37:16.824464+00:00",
+  "source_repo": "AcademySoftwareFoundation/openexr"
+}

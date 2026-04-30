@@ -19,6 +19,18 @@
       "source_repo": "dougbrion/pytorch-classification-uncertainty",
       "status": "candidate-context",
       "text": "[![arXiv](http://img.shields.io/badge/arXiv-1806.01768-B31B1B.svg)](https://arxiv.org/abs/1806.01768)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "baegwangbin/surface_normal_uncertainty",
+      "status": "candidate-context",
+      "text": "[ICCV 2021 Oral] Estimating and Exploiting the Aleatoric Uncertainty in Surface Normal Estimation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "baegwangbin/surface_normal_uncertainty",
+      "status": "candidate-context",
+      "text": "torch==1.6.0 torchvision==0.7.0 Pillow numpy matplotlib argparse tqdm"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "dougbrion/pytorch-classification-uncertainty",
       "status": "candidate",
       "text": "[![arXiv](http://img.shields.io/badge/arXiv-1806.01768-B31B1B.svg)](https://arxiv.org/abs/1806.01768)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "baegwangbin/surface_normal_uncertainty",
+      "status": "candidate",
+      "text": "torch==1.6.0 torchvision==0.7.0 Pillow numpy matplotlib argparse tqdm"
     }
   ],
   "candidate_related_terms": [
@@ -112,11 +130,17 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": null,
       "source_repo": "dougbrion/pytorch-classification-uncertainty"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "baegwangbin/surface_normal_uncertainty"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

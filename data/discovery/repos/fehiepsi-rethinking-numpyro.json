@@ -1,0 +1,211 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-python@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-python@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/setup-python@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "fehiepsi/rethinking-numpyro",
+      "target": "rmcelreath/rethinking",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "fehiepsi/rethinking-numpyro",
+      "target": "felipeffm/statistical-rethinking-resolutions",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "fehiepsi/rethinking-numpyro",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "fehiepsi/rethinking-numpyro",
+      "target": "actions/setup-python@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "fehiepsi/rethinking-numpyro",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "fehiepsi/rethinking-numpyro",
+      "target": "actions/setup-python@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "fehiepsi/rethinking-numpyro",
+      "target": "bayesian-statistics",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "fehiepsi/rethinking-numpyro",
+      "target": "causal-inference",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "fehiepsi/rethinking-numpyro",
+      "target": "laplace-approximation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "fehiepsi/rethinking-numpyro",
+      "target": "markov-chain-monte-carlo",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "fehiepsi/rethinking-numpyro",
+      "target": "numpy",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "fehiepsi/rethinking-numpyro",
+      "target": "variational-inference",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T03:54:38.795347+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1806
+    },
+    {
+      "path": "requirements.txt",
+      "size": 27
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 1464
+    },
+    {
+      "path": ".github/workflows/main.yml",
+      "size": 618
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Statistical Rethinking (2nd ed.) with NumPyro",
+    "fork": false,
+    "full_name": "fehiepsi/rethinking-numpyro",
+    "html_url": "https://github.com/fehiepsi/rethinking-numpyro",
+    "language": "Jupyter Notebook",
+    "pushed_at": "2025-05-04T05:14:34Z",
+    "stargazers_count": 471,
+    "topics": [
+      "bayesian-statistics",
+      "causal-inference",
+      "laplace-approximation",
+      "markov-chain-monte-carlo",
+      "numpy",
+      "python",
+      "variational-inference"
+    ],
+    "updated_at": "2026-04-14T03:59:00Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "felipeffm/statistical-rethinking-resolutions",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "rmcelreath/rethinking",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[![Test Status](https://github.com/fehiepsi/rethinking-numpyro/workflows/CI/badge.svg)](https://github.com/fehiepsi/rethinking-numpyro/actions)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bayesian-statistics"
+    },
+    {
+      "context_snippet": "[![Test Status](https://github.com/fehiepsi/rethinking-numpyro/workflows/CI/badge.svg)](https://github.com/fehiepsi/rethinking-numpyro/actions)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "causal-inference"
+    },
+    {
+      "context_snippet": "[![Test Status](https://github.com/fehiepsi/rethinking-numpyro/workflows/CI/badge.svg)](https://github.com/fehiepsi/rethinking-numpyro/actions)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "laplace-approximation"
+    },
+    {
+      "context_snippet": "[![Test Status](https://github.com/fehiepsi/rethinking-numpyro/workflows/CI/badge.svg)](https://github.com/fehiepsi/rethinking-numpyro/actions)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "markov-chain-monte-carlo"
+    },
+    {
+      "context_snippet": "[![Test Status](https://github.com/fehiepsi/rethinking-numpyro/workflows/CI/badge.svg)](https://github.com/fehiepsi/rethinking-numpyro/actions)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "numpy"
+    },
+    {
+      "context_snippet": "[![Test Status](https://github.com/fehiepsi/rethinking-numpyro/workflows/CI/badge.svg)](https://github.com/fehiepsi/rethinking-numpyro/actions)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "variational-inference"
+    }
+  ]
+}

@@ -1,0 +1,297 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "BMW-InnovationLab/BMW-TensorFlow-Training-GUI",
+      "target": "computer-vision",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "BMW-InnovationLab/BMW-TensorFlow-Training-GUI",
+      "target": "computervision",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "BMW-InnovationLab/BMW-TensorFlow-Training-GUI",
+      "target": "deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "BMW-InnovationLab/BMW-TensorFlow-Training-GUI",
+      "target": "deep-neural-networks",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "BMW-InnovationLab/BMW-TensorFlow-Training-GUI",
+      "target": "deeplearning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "BMW-InnovationLab/BMW-TensorFlow-Training-GUI",
+      "target": "detection-api",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "BMW-InnovationLab/BMW-TensorFlow-Training-GUI",
+      "target": "docker",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "BMW-InnovationLab/BMW-TensorFlow-Training-GUI",
+      "target": "inference-api",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "BMW-InnovationLab/BMW-TensorFlow-Training-GUI",
+      "target": "machine-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "BMW-InnovationLab/BMW-TensorFlow-Training-GUI",
+      "target": "neural-network",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "BMW-InnovationLab/BMW-TensorFlow-Training-GUI",
+      "target": "no-code",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "BMW-InnovationLab/BMW-TensorFlow-Training-GUI",
+      "target": "object-detection",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "BMW-InnovationLab/BMW-TensorFlow-Training-GUI",
+      "target": "objectdetection",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "BMW-InnovationLab/BMW-TensorFlow-Training-GUI",
+      "target": "resnet",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "BMW-InnovationLab/BMW-TensorFlow-Training-GUI",
+      "target": "rest-api",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "BMW-InnovationLab/BMW-TensorFlow-Training-GUI",
+      "target": "tensorboard",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "BMW-InnovationLab/BMW-TensorFlow-Training-GUI",
+      "target": "tensorflow",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "BMW-InnovationLab/BMW-TensorFlow-Training-GUI",
+      "target": "tensorflow-gui",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "BMW-InnovationLab/BMW-TensorFlow-Training-GUI",
+      "target": "tensorflow2",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T03:45:46.527631+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 14245
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "This repository allows you to get started with a gui based training a State-of-the-art Deep Learning model with little to no configuration needed! NoCode training with TensorFlow has never been so easy.",
+    "fork": false,
+    "full_name": "BMW-InnovationLab/BMW-TensorFlow-Training-GUI",
+    "html_url": "https://github.com/BMW-InnovationLab/BMW-TensorFlow-Training-GUI",
+    "language": "Python",
+    "pushed_at": "2024-05-25T20:14:20Z",
+    "stargazers_count": 10,
+    "topics": [
+      "computer-vision",
+      "computervision",
+      "deep-learning",
+      "deep-neural-networks",
+      "deeplearning",
+      "detection-api",
+      "docker",
+      "gui",
+      "inference-api",
+      "machine-learning",
+      "neural-network",
+      "no-code",
+      "object-detection",
+      "objectdetection",
+      "resnet",
+      "rest-api",
+      "tensorboard",
+      "tensorflow",
+      "tensorflow-gui",
+      "tensorflow2"
+    ],
+    "updated_at": "2025-12-11T17:11:40Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Updated for CUDA 11 and Tensorflow 2!!!",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "computer-vision"
+    },
+    {
+      "context_snippet": "Updated for CUDA 11 and Tensorflow 2!!!",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "computervision"
+    },
+    {
+      "context_snippet": "Updated for CUDA 11 and Tensorflow 2!!!",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-learning"
+    },
+    {
+      "context_snippet": "Updated for CUDA 11 and Tensorflow 2!!!",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-neural-networks"
+    },
+    {
+      "context_snippet": "Updated for CUDA 11 and Tensorflow 2!!!",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deeplearning"
+    },
+    {
+      "context_snippet": "Updated for CUDA 11 and Tensorflow 2!!!",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "detection-api"
+    },
+    {
+      "context_snippet": "Updated for CUDA 11 and Tensorflow 2!!!",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "docker"
+    },
+    {
+      "context_snippet": "Updated for CUDA 11 and Tensorflow 2!!!",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "inference-api"
+    },
+    {
+      "context_snippet": "Updated for CUDA 11 and Tensorflow 2!!!",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "machine-learning"
+    },
+    {
+      "context_snippet": "Updated for CUDA 11 and Tensorflow 2!!!",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "neural-network"
+    },
+    {
+      "context_snippet": "Updated for CUDA 11 and Tensorflow 2!!!",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "no-code"
+    },
+    {
+      "context_snippet": "Updated for CUDA 11 and Tensorflow 2!!!",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "object-detection"
+    },
+    {
+      "context_snippet": "Updated for CUDA 11 and Tensorflow 2!!!",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "objectdetection"
+    },
+    {
+      "context_snippet": "Updated for CUDA 11 and Tensorflow 2!!!",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "resnet"
+    },
+    {
+      "context_snippet": "Updated for CUDA 11 and Tensorflow 2!!!",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rest-api"
+    },
+    {
+      "context_snippet": "Updated for CUDA 11 and Tensorflow 2!!!",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tensorboard"
+    },
+    {
+      "context_snippet": "Updated for CUDA 11 and Tensorflow 2!!!",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tensorflow"
+    },
+    {
+      "context_snippet": "Updated for CUDA 11 and Tensorflow 2!!!",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tensorflow-gui"
+    },
+    {
+      "context_snippet": "Updated for CUDA 11 and Tensorflow 2!!!",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tensorflow2"
+    }
+  ]
+}

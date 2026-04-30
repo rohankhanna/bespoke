@@ -1,7 +1,7 @@
 {
   "component": "actions/upload-pages-artifact@fc324d3547104276b827a68afc52ff2a11cc49c9",
   "first_seen_at": "2026-04-18T09:21:02.237042+00:00",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -107,6 +107,16 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/docs-release.yml",
       "source_repo": "uxlfoundation/scikit-learn-intelex"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/docs-workflow.yml",
+      "source_repo": "day8/re-frame"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/publish-report.yml",
+      "source_repo": "sigstore/sigstore-conformance"
     }
   ]
 }

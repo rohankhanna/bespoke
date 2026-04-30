@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T01:03:42.564792+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1710
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "OpenBMB/General-Model-License",
+    "html_url": "https://github.com/OpenBMB/General-Model-License",
+    "language": null,
+    "pushed_at": "2023-05-27T02:03:23Z",
+    "stargazers_count": 8,
+    "topics": [],
+    "updated_at": "2026-02-08T07:53:54Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

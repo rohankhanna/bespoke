@@ -103,6 +103,66 @@
       "source_repo": "OS-Agent-Survey/OS-Agent-Survey",
       "status": "candidate-context",
       "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "AbdelrhmanHamouda/locust-k8s-operator",
+      "status": "candidate-context",
+      "text": "Deploy and manage Locust tests on Kubernetes. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AbdelrhmanHamouda/locust-k8s-operator",
+      "status": "candidate-context",
+      "text": "<div align=\"center\" style=\"margin: 2rem 0;\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apache/spark-kubernetes-operator",
+      "status": "candidate-context",
+      "text": "Apache Spark Kubernetes Operator"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/spark-kubernetes-operator",
+      "status": "candidate-context",
+      "text": "[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cdmikechen/airflow-dag-operator",
+      "status": "candidate-context",
+      "text": "Use K8s CustomResourceDefinition to define and create Airflow Dags"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cdmikechen/airflow-dag-operator",
+      "status": "candidate-context",
+      "text": "Use K8s [CustomResourceDefinition](https://kubernetes.io/docs/tasks/extend-kubernetes/custom-resources/custom-resource-definitions/)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "quarkiverse/quarkus-operator-sdk",
+      "status": "candidate-context",
+      "text": "Quarkus Extension to create Kubernetes Operators in Java using the Java Operator SDK (https://github.com/java-operator-sdk/java-operator-sdk) project"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "quarkiverse/quarkus-operator-sdk",
+      "status": "candidate-context",
+      "text": "<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kuberhealthy/kuberhealthy",
+      "status": "candidate-context",
+      "text": "A Kubernetes operator for running synthetic checks as pods. Works great with Prometheus!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kuberhealthy/kuberhealthy",
+      "status": "candidate-context",
+      "text": "<center><img src=\"https://github.com/kuberhealthy/kuberhealthy/blob/master/images/kuberhealthy.png?raw=true\"></center><br />"
     }
   ],
   "candidate_glosses": [
@@ -153,6 +213,36 @@
       "source_repo": "OS-Agent-Survey/OS-Agent-Survey",
       "status": "candidate",
       "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AbdelrhmanHamouda/locust-k8s-operator",
+      "status": "candidate",
+      "text": "<div align=\"center\" style=\"margin: 2rem 0;\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/spark-kubernetes-operator",
+      "status": "candidate",
+      "text": "[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cdmikechen/airflow-dag-operator",
+      "status": "candidate",
+      "text": "Use K8s [CustomResourceDefinition](https://kubernetes.io/docs/tasks/extend-kubernetes/custom-resources/custom-resource-definitions/)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "quarkiverse/quarkus-operator-sdk",
+      "status": "candidate",
+      "text": "<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kuberhealthy/kuberhealthy",
+      "status": "candidate",
+      "text": "<center><img src=\"https://github.com/kuberhealthy/kuberhealthy/blob/master/images/kuberhealthy.png?raw=true\"></center><br />"
     }
   ],
   "candidate_related_terms": [
@@ -266,11 +356,47 @@
       "observed_at": "2026-04-24T12:33:41.350224+00:00",
       "source_file": null,
       "source_repo": "OS-Agent-Survey/OS-Agent-Survey"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "AbdelrhmanHamouda/locust-k8s-operator"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "apache/spark-kubernetes-operator"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "cdmikechen/airflow-dag-operator"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "quarkiverse/quarkus-operator-sdk"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "prometheus-operator/kube-prometheus"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "kuberhealthy/kuberhealthy"
     }
   ],
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

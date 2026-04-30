@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "minimalism"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "2KAbhishek/rofi2k",
+      "status": "candidate-context",
+      "text": "Your Universal Launchpad \ud83d\udef8\ud83d\ude80"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "2KAbhishek/rofi2k",
+      "status": "candidate-context",
+      "text": "<div align = \"center\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "2KAbhishek/rofi2k",
+      "status": "candidate",
+      "text": "<div align = \"center\">"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19963218,
+      "status": "candidate",
+      "text": "minimalization"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19963217,
+      "status": "candidate",
+      "text": "minimalist"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19963216,
+      "status": "candidate",
+      "text": "austerity"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19963215,
+      "status": "candidate",
+      "text": "simplicity"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19963214,
+      "status": "candidate",
+      "text": "nonminimalism"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "minimalism",
+  "concept_id": "minimalism",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "2KAbhishek/rofi2k"
+    }
+  ],
+  "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "minimalism",
+      "sense_id": "minimalism#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

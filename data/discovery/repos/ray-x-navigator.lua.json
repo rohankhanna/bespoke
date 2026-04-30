@@ -1,0 +1,246 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-go@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ray-x/navigator.lua",
+      "target": "amirrezaask/fuzzy.nvim",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ray-x/navigator.lua",
+      "target": "gfanto/fzf-lsp.nvim",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ray-x/navigator.lua",
+      "target": "folke/neodev.nvim",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ray-x/navigator.lua",
+      "target": "fky2015/navigator.nvim-bug-report",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "ray-x/navigator.lua",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "ray-x/navigator.lua",
+      "target": "actions/setup-go@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "ray-x/navigator.lua",
+      "target": "actions/cache@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "ray-x/navigator.lua",
+      "target": "Tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ray-x/navigator.lua",
+      "target": "diagnostics",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ray-x/navigator.lua",
+      "target": "language-server-client",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ray-x/navigator.lua",
+      "target": "lspconfig",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ray-x/navigator.lua",
+      "target": "navigation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ray-x/navigator.lua",
+      "target": "neovim",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ray-x/navigator.lua",
+      "target": "neovim-plugin",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ray-x/navigator.lua",
+      "target": "nvim-plugin",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ray-x/navigator.lua",
+      "target": "treesitter",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T04:09:06.524223+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 35052
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 2495
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Code analysis & navigation plugin for Neovim. Navigate codes like a breeze\ud83c\udf90  Exploring LSP and \ud83c\udf32Treesitter symbols a piece of \ud83c\udf70  Take control like a boss \ud83e\udd8d",
+    "fork": false,
+    "full_name": "ray-x/navigator.lua",
+    "html_url": "https://github.com/ray-x/navigator.lua",
+    "language": "Lua",
+    "pushed_at": "2026-04-28T14:32:47Z",
+    "stargazers_count": 1395,
+    "topics": [
+      "diagnostics",
+      "language-server-client",
+      "lsp",
+      "lspconfig",
+      "navigation",
+      "neovim",
+      "neovim-plugin",
+      "nvim-plugin",
+      "treesitter"
+    ],
+    "updated_at": "2026-04-28T14:40:43Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "amirrezaask/fuzzy.nvim",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "fky2015/navigator.nvim-bug-report",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "folke/neodev.nvim",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "gfanto/fzf-lsp.nvim",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "term": "Tests"
+    },
+    {
+      "context_snippet": "- Source code analysis and navigate tool",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "diagnostics"
+    },
+    {
+      "context_snippet": "- Source code analysis and navigate tool",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "language-server-client"
+    },
+    {
+      "context_snippet": "- Source code analysis and navigate tool",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "lspconfig"
+    },
+    {
+      "context_snippet": "- Source code analysis and navigate tool",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "navigation"
+    },
+    {
+      "context_snippet": "- Source code analysis and navigate tool",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "neovim"
+    },
+    {
+      "context_snippet": "- Source code analysis and navigate tool",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "neovim-plugin"
+    },
+    {
+      "context_snippet": "- Source code analysis and navigate tool",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nvim-plugin"
+    },
+    {
+      "context_snippet": "- Source code analysis and navigate tool",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "treesitter"
+    }
+  ]
+}

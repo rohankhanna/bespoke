@@ -1,0 +1,111 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "cdmikechen/airflow-dag-operator",
+      "target": "quarkiverse/quarkus-operator-sdk",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "cdmikechen/airflow-dag-operator",
+      "target": "ajbosco/dag-factory",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cdmikechen/airflow-dag-operator",
+      "target": "airflow",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cdmikechen/airflow-dag-operator",
+      "target": "airflow-dags",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cdmikechen/airflow-dag-operator",
+      "target": "operator",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cdmikechen/airflow-dag-operator",
+      "target": "quarkus",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T01:50:34.454693+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4268
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Use K8s CustomResourceDefinition to define and create Airflow Dags",
+    "fork": false,
+    "full_name": "cdmikechen/airflow-dag-operator",
+    "html_url": "https://github.com/cdmikechen/airflow-dag-operator",
+    "language": "Java",
+    "pushed_at": "2022-07-15T08:45:10Z",
+    "stargazers_count": 3,
+    "topics": [
+      "airflow",
+      "airflow-dags",
+      "operator",
+      "quarkus"
+    ],
+    "updated_at": "2025-07-31T13:09:03Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ajbosco/dag-factory",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "quarkiverse/quarkus-operator-sdk",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Use K8s [CustomResourceDefinition](https://kubernetes.io/docs/tasks/extend-kubernetes/custom-resources/custom-resource-definitions/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "airflow"
+    },
+    {
+      "context_snippet": "Use K8s [CustomResourceDefinition](https://kubernetes.io/docs/tasks/extend-kubernetes/custom-resources/custom-resource-definitions/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "airflow-dags"
+    },
+    {
+      "context_snippet": "Use K8s [CustomResourceDefinition](https://kubernetes.io/docs/tasks/extend-kubernetes/custom-resources/custom-resource-definitions/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "operator"
+    },
+    {
+      "context_snippet": "Use K8s [CustomResourceDefinition](https://kubernetes.io/docs/tasks/extend-kubernetes/custom-resources/custom-resource-definitions/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "quarkus"
+    }
+  ]
+}

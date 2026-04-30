@@ -1,0 +1,12 @@
+{
+  "component": "hoo29/little-timmy@c8ca5086db961499fc3d4e37637f566c3d0ec6d6",
+  "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ansible-ci.yml",
+      "source_repo": "prometheus-community/ansible"
+    }
+  ]
+}

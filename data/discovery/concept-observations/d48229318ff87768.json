@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "CHAPI (Common Hierarchical Abstract Parser and Information Converter) streamlines code analysis by converting diverse language source code into a unified abstract model, simplifying cross-language development.  Chapi \u662f\u4e00\u4e2a\u901a\u7528\u5c42\u6b21\u62bd\u8c61\u89e3\u6790\u5668\u4e0e\u4fe1\u606f\u8f6c\u6362\u5668\uff0c\u5b83\u53ef\u4ee5\u5c06\u4e0d\u540c\u7f16\u7a0b\u8bed\u8a00\u7684\u6e90\u4ee3\u7801\u8f6c\u6362\u4e3a\u7edf\u4e00\u7684\u5c42\u6b21\u62bd\u8c61\u6a21\u578b\u3002"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<img src=\"docs/logo.svg\" width=\"100\" height=\"100\" alt=\"Chapi Logo\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<img src=\"docs/logo.svg\" width=\"100\" height=\"100\" alt=\"Chapi Logo\">"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20007738,
+      "status": "candidate",
+      "text": "meta model"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20007737,
+      "status": "candidate",
+      "text": "metamodelling"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20007736,
+      "status": "candidate",
+      "text": "modelisation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20007735,
+      "status": "candidate",
+      "text": "pseudomodel"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20007734,
+      "status": "candidate",
+      "text": "modularisation"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "meta-model",
+      "sense_id": "meta-model#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "meta-model",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "meta-model",
+  "observation_id": "d48229318ff87768",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T00:37:16.824464+00:00",
+  "observed_text": "meta-model",
+  "source_context_snippet": "<img src=\"docs/logo.svg\" width=\"100\" height=\"100\" alt=\"Chapi Logo\">",
+  "source_file": null,
+  "source_repo": "phodal/chapi",
+  "source_repo_description": "CHAPI (Common Hierarchical Abstract Parser and Information Converter) streamlines code analysis by converting diverse language source code into a unified abstract model, simplifying cross-language development.  Chapi \u662f\u4e00\u4e2a\u901a\u7528\u5c42\u6b21\u62bd\u8c61\u89e3\u6790\u5668\u4e0e\u4fe1\u606f\u8f6c\u6362\u5668\uff0c\u5b83\u53ef\u4ee5\u5c06\u4e0d\u540c\u7f16\u7a0b\u8bed\u8a00\u7684\u6e90\u4ee3\u7801\u8f6c\u6362\u4e3a\u7edf\u4e00\u7684\u5c42\u6b21\u62bd\u8c61\u6a21\u578b\u3002"
+}

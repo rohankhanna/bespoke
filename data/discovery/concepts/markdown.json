@@ -691,6 +691,138 @@
       "source_repo": "mondeja/mkdocs-include-markdown-plugin",
       "status": "candidate-context",
       "text": "<!-- mdpo-disable-next-line -->"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "web-infra-dev/rspress",
+      "status": "candidate-context",
+      "text": "\ud83e\udd80 A fast Rsbuild-based static site generator."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "web-infra-dev/rspress",
+      "status": "candidate-context",
+      "text": "<picture>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "xoofx/markdig",
+      "status": "candidate-context",
+      "text": "A fast, powerful, CommonMark compliant, extensible Markdown processor for .NET"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "xoofx/markdig",
+      "status": "candidate-context",
+      "text": "ci"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "yuin/goldmark",
+      "status": "candidate-context",
+      "text": ":trophy: A markdown parser written in Go. Easy to extend, standard(CommonMark) compliant, well structured."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "yuin/goldmark",
+      "status": "candidate-context",
+      "text": "goldmark"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "wooorm/mdxjs-rs",
+      "status": "candidate-context",
+      "text": "Compile MDX to JavaScript in Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "wooorm/mdxjs-rs",
+      "status": "candidate-context",
+      "text": "[dependencies] markdown = \"1\" rustc-hash = \"2\" serde = { optional = true, version = \"1\" } swc_core = { features = [ \"common\", \"ecma_ast\", \"ecma_codegen\", \"ecma_parser\", \"ecma_visit\", ], version = \"27\" } [dev-dependencies] pretty_assertions = \"1\" [features] serializable = [\"serde\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "artempyanykh/marksman",
+      "status": "candidate-context",
+      "text": "Write Markdown with code assist and intelligence in the comfort of your favourite editor."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "artempyanykh/marksman",
+      "status": "candidate-context",
+      "text": "[![Build & Test](https://github.com/artempyanykh/marksman/actions/workflows/build.yml/badge.svg)](https://github.com/artempyanykh/marksman/actions/workflows/build.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "artsy/README",
+      "status": "candidate-context",
+      "text": ":wave: - The documentation for being an Artsy Engineer"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "artsy/README",
+      "status": "candidate-context",
+      "text": "Welcome to Artsy! If you're a new team member, we're excited to have you! Here are your [onboarding docs](/onboarding#readme)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "tree-sitter-grammars/tree-sitter-markdown",
+      "status": "candidate-context",
+      "text": "Markdown grammar for tree-sitter"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tree-sitter-grammars/tree-sitter-markdown",
+      "status": "candidate-context",
+      "text": "[![CI][ci]](https://github.com/tree-sitter-grammars/tree-sitter-markdown/actions)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "13rac1/goldmark-embed",
+      "status": "candidate-context",
+      "text": "A Video embed extension for the goldmark markdown parser."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "13rac1/goldmark-embed",
+      "status": "candidate-context",
+      "text": "goldmark-embed is an extension for the [goldmark][goldmark] library that extends"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "abhinav/goldmark-anchor",
+      "status": "candidate-context",
+      "text": "Generates anchors next to headings in a Markdown document."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "abhinav/goldmark-anchor",
+      "status": "candidate-context",
+      "text": "[![Go Reference](https://pkg.go.dev/badge/go.abhg.dev/goldmark/anchor.svg)](https://pkg.go.dev/go.abhg.dev/goldmark/anchor)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "abhinav/goldmark-frontmatter",
+      "status": "candidate-context",
+      "text": "Adds support for YAML and TOML front matter to Markdown documents."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "abhinav/goldmark-frontmatter",
+      "status": "candidate-context",
+      "text": "[![Go Reference](https://pkg.go.dev/badge/go.abhg.dev/goldmark/frontmatter.svg)](https://pkg.go.dev/go.abhg.dev/goldmark/frontmatter)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "abhinav/goldmark-hashtag",
+      "status": "candidate-context",
+      "text": "Adds support for #hashtags to the Goldmark Markdown parser."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "abhinav/goldmark-hashtag",
+      "status": "candidate-context",
+      "text": "[![Go Reference](https://pkg.go.dev/badge/go.abhg.dev/goldmark/hashtag.svg)](https://pkg.go.dev/go.abhg.dev/goldmark/hashtag)"
     }
   ],
   "candidate_glosses": [
@@ -1035,6 +1167,72 @@
       "source_repo": "mondeja/mkdocs-include-markdown-plugin",
       "status": "candidate",
       "text": "<!-- mdpo-disable-next-line -->"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "web-infra-dev/rspress",
+      "status": "candidate",
+      "text": "<picture>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "xoofx/markdig",
+      "status": "candidate",
+      "text": "ci"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "yuin/goldmark",
+      "status": "candidate",
+      "text": "goldmark"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "wooorm/mdxjs-rs",
+      "status": "candidate",
+      "text": "[dependencies] markdown = \"1\" rustc-hash = \"2\" serde = { optional = true, version = \"1\" } swc_core = { features = [ \"common\", \"ecma_ast\", \"ecma_codegen\", \"ecma_parser\", \"ecma_visit\", ], version = \"27\" } [dev-dependencies] pretty_assertions = \"1\" [features] serializable = [\"serde\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "artempyanykh/marksman",
+      "status": "candidate",
+      "text": "[![Build & Test](https://github.com/artempyanykh/marksman/actions/workflows/build.yml/badge.svg)](https://github.com/artempyanykh/marksman/actions/workflows/build.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "artsy/README",
+      "status": "candidate",
+      "text": "Welcome to Artsy! If you're a new team member, we're excited to have you! Here are your [onboarding docs](/onboarding#readme)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tree-sitter-grammars/tree-sitter-markdown",
+      "status": "candidate",
+      "text": "[![CI][ci]](https://github.com/tree-sitter-grammars/tree-sitter-markdown/actions)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "13rac1/goldmark-embed",
+      "status": "candidate",
+      "text": "goldmark-embed is an extension for the [goldmark][goldmark] library that extends"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "abhinav/goldmark-anchor",
+      "status": "candidate",
+      "text": "[![Go Reference](https://pkg.go.dev/badge/go.abhg.dev/goldmark/anchor.svg)](https://pkg.go.dev/go.abhg.dev/goldmark/anchor)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "abhinav/goldmark-frontmatter",
+      "status": "candidate",
+      "text": "[![Go Reference](https://pkg.go.dev/badge/go.abhg.dev/goldmark/frontmatter.svg)](https://pkg.go.dev/go.abhg.dev/goldmark/frontmatter)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "abhinav/goldmark-hashtag",
+      "status": "candidate",
+      "text": "[![Go Reference](https://pkg.go.dev/badge/go.abhg.dev/goldmark/hashtag.svg)](https://pkg.go.dev/go.abhg.dev/goldmark/hashtag)"
     }
   ],
   "candidate_related_terms": [
@@ -1486,11 +1684,95 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "clayrisser/sphinx-markdown-builder"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "pulldown-cmark/pulldown-cmark"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "web-infra-dev/rspress"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "xoofx/markdig"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "yuin/goldmark"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "wooorm/mdxjs-rs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "artempyanykh/marksman"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "clayrisser/sphinx-jekyll-builder"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "clayrisser/sphinx-markdown-builder"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "artsy/README"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "tree-sitter-grammars/tree-sitter-markdown"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "13rac1/goldmark-embed"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "abhinav/goldmark-anchor"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "abhinav/goldmark-frontmatter"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "abhinav/goldmark-hashtag"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -4,7 +4,7 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "LuaLS/vscode-lua",
-      "target": "luals/luaparser",
+      "target": "textmate/lua.tmbundle",
       "target_type": "repository"
     },
     {
@@ -12,20 +12,6 @@
       "source_file": "README.md",
       "source_repo": "LuaLS/vscode-lua",
       "target": "actboy168/vscode-lua-doc",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "LuaLS/vscode-lua",
-      "target": "cppcxy/emmyluacodestyle",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "LuaLS/vscode-lua",
-      "target": "kikito/inspect.lua",
       "target_type": "repository"
     },
     {
@@ -78,6 +64,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-04-24T00:33:56.049672+00:00",
+  "generated_at": "2026-04-30T00:37:16.824464+00:00",
   "source_repo": "LuaLS/vscode-lua"
 }

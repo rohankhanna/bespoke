@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Text-to-HTML conversion tool for web writers, with integrated styling and tag customization."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "![](https://github.com/senselogic/PENDOWN/blob/master/LOGO/pendown.png)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "![](https://github.com/senselogic/PENDOWN/blob/master/LOGO/pendown.png)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30009689,
+      "status": "candidate",
+      "text": "cust"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29971659,
+      "status": "candidate",
+      "text": "customer"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29968881,
+      "status": "candidate",
+      "text": "client"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29965969,
+      "status": "candidate",
+      "text": "front-end"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20024320,
+      "status": "candidate",
+      "text": "customers"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "client-side",
+      "sense_id": "client-side#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "client-side",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "client-side",
+  "observation_id": "7d6a4553bedc37c2",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T00:37:16.824464+00:00",
+  "observed_text": "client-side",
+  "source_context_snippet": "![](https://github.com/senselogic/PENDOWN/blob/master/LOGO/pendown.png)",
+  "source_file": null,
+  "source_repo": "SenseLogic/PENDOWN",
+  "source_repo_description": "Text-to-HTML conversion tool for web writers, with integrated styling and tag customization."
+}

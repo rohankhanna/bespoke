@@ -175,6 +175,30 @@
       "source_repo": "Ash258/Scoop-Core",
       "status": "candidate-context",
       "text": "Command-line installer for Windows"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "miurahr/aqtinstall",
+      "status": "candidate-context",
+      "text": "aqt: Another (unofficial) Qt  CLI  Installer on multi-platforms"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "miurahr/aqtinstall",
+      "status": "candidate-context",
+      "text": "Another Qt installer(aqt)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cargo-bins/cargo-binstall",
+      "status": "candidate-context",
+      "text": "Binary installation for rust projects"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cargo-bins/cargo-binstall",
+      "status": "candidate-context",
+      "text": "Binstall provides a low-complexity mechanism for installing Rust binaries as an alternative to building from source (via `cargo install`) or manually downloading packages."
     }
   ],
   "candidate_glosses": [
@@ -261,6 +285,18 @@
       "source_repo": "Ash258/Scoop-Core",
       "status": "candidate",
       "text": "Command-line installer for Windows"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "miurahr/aqtinstall",
+      "status": "candidate",
+      "text": "Another Qt installer(aqt)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cargo-bins/cargo-binstall",
+      "status": "candidate",
+      "text": "Binstall provides a low-complexity mechanism for installing Rust binaries as an alternative to building from source (via `cargo install`) or manually downloading packages."
     }
   ],
   "candidate_related_terms": [
@@ -424,11 +460,29 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "ScoopInstaller/Awesome"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "miurahr/aqtinstall"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "cargo-bins/cargo-binstall"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "electron-userland/electron-wix-msi"
     }
   ],
   "first_seen_at": "2026-04-18T11:32:22.637859+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

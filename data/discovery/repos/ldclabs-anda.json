@@ -1,0 +1,201 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-crates.yml"
+    },
+    {
+      "component": "katyo/publish-crates@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-crates.yml"
+    },
+    {
+      "component": "imjasonh/setup-crane@v0.4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sync-alpine.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ldclabs/anda",
+      "target": "ldclabs/ic-tee",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ldclabs/anda",
+      "target": "ldclabs/ic-cose",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "Cargo.toml",
+      "source_repo": "ldclabs/anda",
+      "target": "boxlite-ai/boxlite",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-crates.yml",
+      "source_repo": "ldclabs/anda",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-crates.yml",
+      "source_repo": "ldclabs/anda",
+      "target": "katyo/publish-crates@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish-crates.yml",
+      "source_repo": "ldclabs/anda",
+      "target": "Crates",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sync-alpine.yml",
+      "source_repo": "ldclabs/anda",
+      "target": "imjasonh/setup-crane@v0.4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/sync-alpine.yml",
+      "source_repo": "ldclabs/anda",
+      "target": "sync-alpine",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "ldclabs/anda",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "ldclabs/anda",
+      "target": "Test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ldclabs/anda",
+      "target": "autonomous",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ldclabs/anda",
+      "target": "decentralize",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T04:10:23.856288+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4772
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 2382
+    },
+    {
+      "path": ".github/workflows/publish-crates.yml",
+      "size": 294
+    },
+    {
+      "path": ".github/workflows/sync-alpine.yml",
+      "size": 825
+    },
+    {
+      "path": ".github/workflows/test.yml",
+      "size": 486
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "\ud83e\udd16 An AI agent framework built with Rust.",
+    "fork": false,
+    "full_name": "ldclabs/anda",
+    "html_url": "https://github.com/ldclabs/anda",
+    "language": "Rust",
+    "pushed_at": "2026-04-29T17:00:37Z",
+    "stargazers_count": 417,
+    "topics": [
+      "agent",
+      "agi",
+      "autonomous",
+      "decentralize"
+    ],
+    "updated_at": "2026-04-29T17:00:51Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ldclabs/ic-cose",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ldclabs/ic-tee",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "boxlite-ai/boxlite",
+      "source_file": "Cargo.toml"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Crates",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish-crates.yml",
+      "term": "Crates"
+    },
+    {
+      "context_snippet": "sync-alpine",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/sync-alpine.yml",
+      "term": "sync-alpine"
+    },
+    {
+      "context_snippet": "Test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "term": "Test"
+    },
+    {
+      "context_snippet": "> \ud83e\udd16 An AI agent framework built with Rust, powered by ICP and TEEs.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "autonomous"
+    },
+    {
+      "context_snippet": "> \ud83e\udd16 An AI agent framework built with Rust, powered by ICP and TEEs.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "decentralize"
+    }
+  ]
+}

@@ -1,0 +1,230 @@
+{
+  "edges": [
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "therealharpaljadeja/socialconnect_rn_demo",
+      "target": "@celo/contractkit",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "therealharpaljadeja/socialconnect_rn_demo",
+      "target": "@celo/cryptographic-utils",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "therealharpaljadeja/socialconnect_rn_demo",
+      "target": "@celo/identity",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "therealharpaljadeja/socialconnect_rn_demo",
+      "target": "@react-native-async-storage/async-storage",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "therealharpaljadeja/socialconnect_rn_demo",
+      "target": "@react-navigation/drawer",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "therealharpaljadeja/socialconnect_rn_demo",
+      "target": "@react-navigation/native",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "therealharpaljadeja/socialconnect_rn_demo",
+      "target": "@walletconnect/react-native-dapp",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "therealharpaljadeja/socialconnect_rn_demo",
+      "target": "Base64",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "therealharpaljadeja/socialconnect_rn_demo",
+      "target": "bignumber.js",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "therealharpaljadeja/socialconnect_rn_demo",
+      "target": "node-libs-react-native",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "therealharpaljadeja/socialconnect_rn_demo",
+      "target": "patch-package",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "therealharpaljadeja/socialconnect_rn_demo",
+      "target": "postinstall-postinstall",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "therealharpaljadeja/socialconnect_rn_demo",
+      "target": "react",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "therealharpaljadeja/socialconnect_rn_demo",
+      "target": "react-native",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "therealharpaljadeja/socialconnect_rn_demo",
+      "target": "react-native-blind-threshold-bls",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "therealharpaljadeja/socialconnect_rn_demo",
+      "target": "react-native-fs",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "therealharpaljadeja/socialconnect_rn_demo",
+      "target": "react-native-gesture-handler",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "therealharpaljadeja/socialconnect_rn_demo",
+      "target": "react-native-get-random-values",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "therealharpaljadeja/socialconnect_rn_demo",
+      "target": "react-native-phone-number-input",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "therealharpaljadeja/socialconnect_rn_demo",
+      "target": "react-native-randombytes",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "therealharpaljadeja/socialconnect_rn_demo",
+      "target": "react-native-reanimated",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "therealharpaljadeja/socialconnect_rn_demo",
+      "target": "react-native-safe-area-context",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "therealharpaljadeja/socialconnect_rn_demo",
+      "target": "react-native-screens",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "therealharpaljadeja/socialconnect_rn_demo",
+      "target": "@babel/core",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "therealharpaljadeja/socialconnect_rn_demo",
+      "target": "@babel/runtime",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "therealharpaljadeja/socialconnect_rn_demo",
+      "target": "@react-native-community/eslint-config",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "therealharpaljadeja/socialconnect_rn_demo",
+      "target": "babel-jest",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "therealharpaljadeja/socialconnect_rn_demo",
+      "target": "eslint",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "therealharpaljadeja/socialconnect_rn_demo",
+      "target": "jest",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "therealharpaljadeja/socialconnect_rn_demo",
+      "target": "metro-react-native-babel-preset",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "therealharpaljadeja/socialconnect_rn_demo",
+      "target": "react-native-dotenv",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "therealharpaljadeja/socialconnect_rn_demo",
+      "target": "react-test-renderer",
+      "target_type": "component"
+    }
+  ],
+  "generated_at": "2026-04-30T00:37:16.824464+00:00",
+  "source_repo": "therealharpaljadeja/socialconnect_rn_demo"
+}

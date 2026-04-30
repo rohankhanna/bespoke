@@ -84,7 +84,7 @@
   "normalized_form": "generate-contributor-certificate-preview",
   "observation_id": "2f3e2cd8f6570768",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-04-24T00:33:56.049672+00:00",
+  "observed_at": "2026-04-30T00:37:16.824464+00:00",
   "observed_text": "Generate Contributor Certificate Preview",
   "source_context_snippet": "Generate Contributor Certificate Preview",
   "source_file": ".github/workflows/first_contrib_cert_generator.yml",

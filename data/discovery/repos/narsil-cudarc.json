@@ -1,0 +1,166 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cargo-check.yaml"
+    },
+    {
+      "component": "actions-rs/toolchain@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cargo-check.yaml"
+    },
+    {
+      "component": "actions-rs/cargo@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cargo-check.yaml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cargo-clippy.yaml"
+    },
+    {
+      "component": "actions-rs/toolchain@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cargo-clippy.yaml"
+    },
+    {
+      "component": "actions-rs/cargo@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cargo-clippy.yaml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cargo-fmt.yaml"
+    },
+    {
+      "component": "actions-rs/toolchain@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cargo-fmt.yaml"
+    },
+    {
+      "component": "actions-rs/cargo@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cargo-fmt.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "Cargo.toml",
+      "source_repo": "Narsil/cudarc",
+      "target": "coreylowman/cudarc",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cargo-check.yaml",
+      "source_repo": "Narsil/cudarc",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cargo-check.yaml",
+      "source_repo": "Narsil/cudarc",
+      "target": "actions-rs/toolchain@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cargo-check.yaml",
+      "source_repo": "Narsil/cudarc",
+      "target": "actions-rs/cargo@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cargo-clippy.yaml",
+      "source_repo": "Narsil/cudarc",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cargo-clippy.yaml",
+      "source_repo": "Narsil/cudarc",
+      "target": "actions-rs/toolchain@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cargo-clippy.yaml",
+      "source_repo": "Narsil/cudarc",
+      "target": "actions-rs/cargo@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cargo-fmt.yaml",
+      "source_repo": "Narsil/cudarc",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cargo-fmt.yaml",
+      "source_repo": "Narsil/cudarc",
+      "target": "actions-rs/toolchain@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cargo-fmt.yaml",
+      "source_repo": "Narsil/cudarc",
+      "target": "actions-rs/cargo@v1",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-04-30T03:03:34.705702+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2673
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 1070
+    },
+    {
+      "path": ".github/workflows/cargo-check.yaml",
+      "size": 378
+    },
+    {
+      "path": ".github/workflows/cargo-clippy.yaml",
+      "size": 423
+    },
+    {
+      "path": ".github/workflows/cargo-fmt.yaml",
+      "size": 369
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Safe rust wrapper around CUDA toolkit",
+    "fork": true,
+    "full_name": "Narsil/cudarc",
+    "html_url": "https://github.com/Narsil/cudarc",
+    "language": "Rust",
+    "pushed_at": "2025-04-08T11:50:01Z",
+    "stargazers_count": 1,
+    "topics": [],
+    "updated_at": "2025-08-11T13:17:09Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "coreylowman/cudarc",
+      "source_file": "Cargo.toml"
+    }
+  ],
+  "terms": []
+}

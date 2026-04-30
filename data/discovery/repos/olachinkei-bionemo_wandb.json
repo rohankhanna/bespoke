@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T03:55:07.896060+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 413
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Sample script to run BioNeMo with WandB",
+    "fork": false,
+    "full_name": "olachinkei/BioNeMo_WandB",
+    "html_url": "https://github.com/olachinkei/BioNeMo_WandB",
+    "language": "Jupyter Notebook",
+    "pushed_at": "2024-06-25T15:39:29Z",
+    "stargazers_count": 4,
+    "topics": [],
+    "updated_at": "2026-03-12T08:39:22Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

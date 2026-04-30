@@ -158,6 +158,30 @@
       "source_repo": "googleapis/google-api-php-client-services",
       "status": "candidate-context",
       "text": "auto-release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "googleapis/java-bigquery",
+      "status": "candidate-context",
+      "text": "auto-release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "googleapis/java-bigquerystorage",
+      "status": "candidate-context",
+      "text": "auto-release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "iTXTech/mcl-installer",
+      "status": "candidate-context",
+      "text": "MCL\u4e00\u952e\u5b89\u88c5\u5de5\u5177"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "iTXTech/mcl-installer",
+      "status": "candidate-context",
+      "text": "Auto Release"
     }
   ],
   "candidate_glosses": [
@@ -238,6 +262,24 @@
       "source_repo": "googleapis/google-api-php-client-services",
       "status": "candidate",
       "text": "auto-release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "googleapis/java-bigquery",
+      "status": "candidate",
+      "text": "auto-release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "googleapis/java-bigquerystorage",
+      "status": "candidate",
+      "text": "auto-release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "iTXTech/mcl-installer",
+      "status": "candidate",
+      "text": "Auto Release"
     }
   ],
   "candidate_related_terms": [
@@ -419,11 +461,53 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": ".github/workflows/auto-release.yaml",
       "source_repo": "googleapis/google-api-php-client-services"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "apache/casbin-rs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "apache/casbin-rust-actix-casbin"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "apache/casbin-actix-casbin-auth"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "apache/casbin-axum-casbin"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/auto-release.yaml",
+      "source_repo": "googleapis/java-bigquery"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/auto-release.yaml",
+      "source_repo": "googleapis/java-bigquerystorage"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/auto-release.yml",
+      "source_repo": "iTXTech/mcl-installer"
     }
   ],
   "first_seen_at": "2026-04-19T02:42:33.990002+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

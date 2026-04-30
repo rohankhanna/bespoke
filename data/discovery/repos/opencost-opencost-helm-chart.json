@@ -1,0 +1,284 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@692973e3d937129bcbf40652eb9f2f61becf3332",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/helm-test.yml"
+    },
+    {
+      "component": "azure/setup-helm@5119fcb9089d432beecbf79bb2c7915207344b78",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/helm-test.yml"
+    },
+    {
+      "component": "actions/setup-python@65d7f2d534ac1bc67fcd62888c5f4f3d2cb2b236",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/helm-test.yml"
+    },
+    {
+      "component": "helm/chart-testing-action@e6669bcd63d7cb57cb4380c33043eebe5d111992",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/helm-test.yml"
+    },
+    {
+      "component": "helm/kind-action@0025e74a8c7512023d06dc019c617aa3cf561fde",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/helm-test.yml"
+    },
+    {
+      "component": "actions/checkout@692973e3d937129bcbf40652eb9f2f61becf3332",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "azure/setup-helm@5119fcb9089d432beecbf79bb2c7915207344b78",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "docker/login-action@9780b0c442fbb1117ed29e0efdff1e18412f7567",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "helm/chart-releaser-action@a917fd15b20e8b64b94d9158ad54cd6345335584",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "sigstore/cosign-installer@59acb6260d9c0ba8f4a2f9d9b48431a222b68e20",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "oras-project/setup-oras@ca28077386065e263c03428f4ae0c09024817c93",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "actions/stale@v9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stale.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/helm-test.yml",
+      "source_repo": "opencost/opencost-helm-chart",
+      "target": "actions/checkout@692973e3d937129bcbf40652eb9f2f61becf3332",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/helm-test.yml",
+      "source_repo": "opencost/opencost-helm-chart",
+      "target": "azure/setup-helm@5119fcb9089d432beecbf79bb2c7915207344b78",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/helm-test.yml",
+      "source_repo": "opencost/opencost-helm-chart",
+      "target": "actions/setup-python@65d7f2d534ac1bc67fcd62888c5f4f3d2cb2b236",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/helm-test.yml",
+      "source_repo": "opencost/opencost-helm-chart",
+      "target": "helm/chart-testing-action@e6669bcd63d7cb57cb4380c33043eebe5d111992",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/helm-test.yml",
+      "source_repo": "opencost/opencost-helm-chart",
+      "target": "helm/kind-action@0025e74a8c7512023d06dc019c617aa3cf561fde",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "opencost/opencost-helm-chart",
+      "target": "actions/checkout@692973e3d937129bcbf40652eb9f2f61becf3332",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "opencost/opencost-helm-chart",
+      "target": "azure/setup-helm@5119fcb9089d432beecbf79bb2c7915207344b78",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "opencost/opencost-helm-chart",
+      "target": "docker/login-action@9780b0c442fbb1117ed29e0efdff1e18412f7567",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "opencost/opencost-helm-chart",
+      "target": "helm/chart-releaser-action@a917fd15b20e8b64b94d9158ad54cd6345335584",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "opencost/opencost-helm-chart",
+      "target": "sigstore/cosign-installer@59acb6260d9c0ba8f4a2f9d9b48431a222b68e20",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "opencost/opencost-helm-chart",
+      "target": "oras-project/setup-oras@ca28077386065e263c03428f4ae0c09024817c93",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "opencost/opencost-helm-chart",
+      "target": "chart-publish",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "opencost/opencost-helm-chart",
+      "target": "actions/stale@v9",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "opencost/opencost-helm-chart",
+      "target": "Close stale issues and PRs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "opencost/opencost-helm-chart",
+      "target": "cncf",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "opencost/opencost-helm-chart",
+      "target": "cost",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "opencost/opencost-helm-chart",
+      "target": "finops",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "opencost/opencost-helm-chart",
+      "target": "kubernetes",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "opencost/opencost-helm-chart",
+      "target": "prometheus",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T02:53:16.987574+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1916
+    },
+    {
+      "path": ".github/workflows/helm-test.yml",
+      "size": 2266
+    },
+    {
+      "path": ".github/workflows/publish.yml",
+      "size": 2777
+    },
+    {
+      "path": ".github/workflows/stale.yml",
+      "size": 783
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "OpenCost Helm chart ",
+    "fork": false,
+    "full_name": "opencost/opencost-helm-chart",
+    "html_url": "https://github.com/opencost/opencost-helm-chart",
+    "language": "Mustache",
+    "pushed_at": "2026-04-28T18:02:56Z",
+    "stargazers_count": 105,
+    "topics": [
+      "cncf",
+      "cost",
+      "finops",
+      "k8s",
+      "kubernetes",
+      "prometheus"
+    ],
+    "updated_at": "2026-04-28T18:01:49Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "chart-publish",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish.yml",
+      "term": "chart-publish"
+    },
+    {
+      "context_snippet": "'Close stale issues and PRs'",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/stale.yml",
+      "term": "Close stale issues and PRs"
+    },
+    {
+      "context_snippet": "[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cncf"
+    },
+    {
+      "context_snippet": "[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cost"
+    },
+    {
+      "context_snippet": "[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "finops"
+    },
+    {
+      "context_snippet": "[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "kubernetes"
+    },
+    {
+      "context_snippet": "[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "prometheus"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T02:49:24.461161+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1996
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 2709
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Execution environments for OLMES",
+    "fork": false,
+    "full_name": "allenai/olmes-docker",
+    "html_url": "https://github.com/allenai/olmes-docker",
+    "language": "Python",
+    "pushed_at": "2025-10-13T21:46:46Z",
+    "stargazers_count": 1,
+    "topics": [],
+    "updated_at": "2025-10-28T06:25:53Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

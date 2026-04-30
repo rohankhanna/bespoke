@@ -1,12 +1,22 @@
 {
   "component": "haya14busa/action-bumpr@faf6f474bcb6174125cfc569f0b2e24cbf03d496",
   "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/release.yml",
       "source_repo": "reviewdog/action-suggester"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/bumpr.yml",
+      "source_repo": "caketop/python-starlark-go"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "reviewdog/reviewdog"
     }
   ]
 }

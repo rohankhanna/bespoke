@@ -1,0 +1,259 @@
+{
+  "components": [
+    {
+      "component": "remark-cli",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "remark-lint",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "remark-preset-lint-markdown-style-guide",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "remark-preset-lint-recommended",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cpc-working-session-agenda.yml"
+    },
+    {
+      "component": "actions/github-script@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cpc-working-session-agenda.yml"
+    },
+    {
+      "component": "actions/github-script@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cpc-working-session-agenda.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/link-checker.yml"
+    },
+    {
+      "component": "JustinBeckwith/linkinator-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/link-checker.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linter-workflow.yml"
+    },
+    {
+      "component": "actions/setup-node@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linter-workflow.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "openjs-foundation/cross-project-council",
+      "target": "appium/appium",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "openjs-foundation/cross-project-council",
+      "target": "ampproject/meta",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "openjs-foundation/cross-project-council",
+      "target": "ampproject/amphtml",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "openjs-foundation/cross-project-council",
+      "target": "architect/architect",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "openjs-foundation/cross-project-council",
+      "target": "remark-cli",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "openjs-foundation/cross-project-council",
+      "target": "remark-lint",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "openjs-foundation/cross-project-council",
+      "target": "remark-preset-lint-markdown-style-guide",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "openjs-foundation/cross-project-council",
+      "target": "remark-preset-lint-recommended",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cpc-working-session-agenda.yml",
+      "source_repo": "openjs-foundation/cross-project-council",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cpc-working-session-agenda.yml",
+      "source_repo": "openjs-foundation/cross-project-council",
+      "target": "actions/github-script@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cpc-working-session-agenda.yml",
+      "source_repo": "openjs-foundation/cross-project-council",
+      "target": "CPC Working Session Agenda",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/link-checker.yml",
+      "source_repo": "openjs-foundation/cross-project-council",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/link-checker.yml",
+      "source_repo": "openjs-foundation/cross-project-council",
+      "target": "JustinBeckwith/linkinator-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/link-checker.yml",
+      "source_repo": "openjs-foundation/cross-project-council",
+      "target": "Link Checker",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linter-workflow.yml",
+      "source_repo": "openjs-foundation/cross-project-council",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linter-workflow.yml",
+      "source_repo": "openjs-foundation/cross-project-council",
+      "target": "actions/setup-node@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/linter-workflow.yml",
+      "source_repo": "openjs-foundation/cross-project-council",
+      "target": "Doc Linter",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T00:55:59.255923+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 34067
+    },
+    {
+      "path": "package.json",
+      "size": 665
+    },
+    {
+      "path": ".github/workflows/cpc-working-session-agenda.yml",
+      "size": 11389
+    },
+    {
+      "path": ".github/workflows/link-checker.yml",
+      "size": 580
+    },
+    {
+      "path": ".github/workflows/linter-workflow.yml",
+      "size": 343
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "OpenJS Foundation Cross Project Council",
+    "fork": false,
+    "full_name": "openjs-foundation/cross-project-council",
+    "html_url": "https://github.com/openjs-foundation/cross-project-council",
+    "language": null,
+    "pushed_at": "2026-04-28T17:03:48Z",
+    "stargazers_count": 529,
+    "topics": [],
+    "updated_at": "2026-04-28T20:00:27Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ampproject/amphtml",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ampproject/meta",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "appium/appium",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "architect/architect",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "CPC Working Session Agenda",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cpc-working-session-agenda.yml",
+      "term": "CPC Working Session Agenda"
+    },
+    {
+      "context_snippet": "Link Checker",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/link-checker.yml",
+      "term": "Link Checker"
+    },
+    {
+      "context_snippet": "Doc Linter",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/linter-workflow.yml",
+      "term": "Doc Linter"
+    }
+  ]
+}

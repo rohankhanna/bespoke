@@ -19,12 +19,30 @@
       "source_repo": "google/ml_collections",
       "status": "candidate-context",
       "text": "Unittests & Auto-publish"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "google-research/human-scene-transformer",
+      "status": "candidate-context",
+      "text": "Human Scene Transformer: A framework for trajectory prediction and wrappers for reframing the JRDB dataset for the prediction task."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google-research/human-scene-transformer",
+      "status": "candidate-context",
+      "text": "Unittests & Auto-publish"
     }
   ],
   "candidate_glosses": [
     {
       "source_kind": "source-snippet",
       "source_repo": "google/ml_collections",
+      "status": "candidate",
+      "text": "Unittests & Auto-publish"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google-research/human-scene-transformer",
       "status": "candidate",
       "text": "Unittests & Auto-publish"
     }
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": ".github/workflows/pytest_and_autopublish.yml",
       "source_repo": "google/ml_collections"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/pytest_and_autopublish.yml",
+      "source_repo": "google-research/human-scene-transformer"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,237 @@
+{
+  "components": [
+    {
+      "component": "theupdateframework/tuf-on-ci/actions/create-signing-events@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/create-signing-events.yml"
+    },
+    {
+      "component": "theupdateframework/tuf-on-ci/actions/update-issue@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/create-signing-events.yml"
+    },
+    {
+      "component": "theupdateframework/tuf-on-ci/actions/online-sign@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/online-sign.yml"
+    },
+    {
+      "component": "theupdateframework/tuf-on-ci/actions/update-issue@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/online-sign.yml"
+    },
+    {
+      "component": "theupdateframework/tuf-on-ci/actions/upload-repository@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "actions/deploy-pages@d6db90164ac5ed86f2b6aed7e0febac5b3c0c03e",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "theupdateframework/tuf-on-ci/actions/update-issue@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "theupdateframework/tuf-on-ci/actions/signing-event@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/signing-event.yml"
+    },
+    {
+      "component": "theupdateframework/tuf-on-ci/actions/test-repository@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "theupdateframework/tuf-on-ci/actions/update-issue@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/create-signing-events.yml",
+      "source_repo": "jku/tuf-demo",
+      "target": "theupdateframework/tuf-on-ci/actions/create-signing-events@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/create-signing-events.yml",
+      "source_repo": "jku/tuf-demo",
+      "target": "theupdateframework/tuf-on-ci/actions/update-issue@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/create-signing-events.yml",
+      "source_repo": "jku/tuf-demo",
+      "target": "TUF-on-CI create Signing events",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/online-sign.yml",
+      "source_repo": "jku/tuf-demo",
+      "target": "theupdateframework/tuf-on-ci/actions/online-sign@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/online-sign.yml",
+      "source_repo": "jku/tuf-demo",
+      "target": "theupdateframework/tuf-on-ci/actions/update-issue@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/online-sign.yml",
+      "source_repo": "jku/tuf-demo",
+      "target": "TUF-on-CI online signing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "jku/tuf-demo",
+      "target": "theupdateframework/tuf-on-ci/actions/upload-repository@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "jku/tuf-demo",
+      "target": "actions/deploy-pages@d6db90164ac5ed86f2b6aed7e0febac5b3c0c03e",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "jku/tuf-demo",
+      "target": "theupdateframework/tuf-on-ci/actions/update-issue@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "jku/tuf-demo",
+      "target": "TUF-on-CI publish",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/signing-event.yml",
+      "source_repo": "jku/tuf-demo",
+      "target": "theupdateframework/tuf-on-ci/actions/signing-event@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/signing-event.yml",
+      "source_repo": "jku/tuf-demo",
+      "target": "TUF-on-CI signing event",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "jku/tuf-demo",
+      "target": "theupdateframework/tuf-on-ci/actions/test-repository@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "jku/tuf-demo",
+      "target": "theupdateframework/tuf-on-ci/actions/update-issue@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "jku/tuf-demo",
+      "target": "TUF-on-CI repository tests",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T04:54:16.595417+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3056
+    },
+    {
+      "path": ".github/workflows/create-signing-events.yml",
+      "size": 1020
+    },
+    {
+      "path": ".github/workflows/online-sign.yml",
+      "size": 1254
+    },
+    {
+      "path": ".github/workflows/publish.yml",
+      "size": 1474
+    },
+    {
+      "path": ".github/workflows/signing-event.yml",
+      "size": 754
+    },
+    {
+      "path": ".github/workflows/test.yml",
+      "size": 1264
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "An automated TUF repository demo",
+    "fork": false,
+    "full_name": "jku/tuf-demo",
+    "html_url": "https://github.com/jku/tuf-demo",
+    "language": null,
+    "pushed_at": "2026-04-29T15:26:09Z",
+    "stargazers_count": 8,
+    "topics": [
+      "tuf"
+    ],
+    "updated_at": "2026-04-29T15:31:07Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "TUF-on-CI create Signing events",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/create-signing-events.yml",
+      "term": "TUF-on-CI create Signing events"
+    },
+    {
+      "context_snippet": "TUF-on-CI online signing",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/online-sign.yml",
+      "term": "TUF-on-CI online signing"
+    },
+    {
+      "context_snippet": "TUF-on-CI publish",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish.yml",
+      "term": "TUF-on-CI publish"
+    },
+    {
+      "context_snippet": "TUF-on-CI signing event",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/signing-event.yml",
+      "term": "TUF-on-CI signing event"
+    },
+    {
+      "context_snippet": "TUF-on-CI repository tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "term": "TUF-on-CI repository tests"
+    }
+  ]
+}

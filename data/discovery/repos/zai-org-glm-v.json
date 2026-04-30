@@ -1,0 +1,114 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "zai-org/GLM-V",
+      "target": "zai-org/glm-skills",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "zai-org/GLM-V",
+      "target": "vllm-project/recipes",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "zai-org/GLM-V",
+      "target": "hiyouga/llama-factory",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "zai-org/GLM-V",
+      "target": "image2text",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "zai-org/GLM-V",
+      "target": "reasoning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "zai-org/GLM-V",
+      "target": "video-understanding",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T02:43:29.005340+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 19506
+    },
+    {
+      "path": "requirements.txt",
+      "size": 218
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "GLM-4.6V/4.5V/4.1V-Thinking: Towards Versatile Multimodal Reasoning with Scalable Reinforcement Learning",
+    "fork": false,
+    "full_name": "zai-org/GLM-V",
+    "html_url": "https://github.com/zai-org/GLM-V",
+    "language": "Python",
+    "pushed_at": "2026-04-06T08:01:06Z",
+    "stargazers_count": 2276,
+    "topics": [
+      "image2text",
+      "reasoning",
+      "video-understanding",
+      "vlm"
+    ],
+    "updated_at": "2026-04-29T12:43:26Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "hiyouga/llama-factory",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "vllm-project/recipes",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "zai-org/glm-skills",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[\u4e2d\u6587\u9605\u8bfb.](./README_zh.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "image2text"
+    },
+    {
+      "context_snippet": "[\u4e2d\u6587\u9605\u8bfb.](./README_zh.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "reasoning"
+    },
+    {
+      "context_snippet": "[\u4e2d\u6587\u9605\u8bfb.](./README_zh.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "video-understanding"
+    }
+  ]
+}

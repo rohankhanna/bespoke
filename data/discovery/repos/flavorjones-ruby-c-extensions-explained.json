@@ -1,0 +1,396 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/isolated.yml"
+    },
+    {
+      "component": "ruby/setup-ruby@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/isolated.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/packaged_source.yml"
+    },
+    {
+      "component": "ruby/setup-ruby@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/packaged_source.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/packaged_tarball.yml"
+    },
+    {
+      "component": "ruby/setup-ruby@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/packaged_tarball.yml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/packaged_tarball.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/precompiled.yml"
+    },
+    {
+      "component": "ruby/setup-ruby@d3e3bd032ad2222a8ac878bbccf2aba78864e134",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/precompiled.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/precompiled.yml"
+    },
+    {
+      "component": "ruby/setup-ruby@d3e3bd032ad2222a8ac878bbccf2aba78864e134",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/precompiled.yml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/precompiled.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/precompiled.yml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/precompiled.yml"
+    },
+    {
+      "component": "ruby/setup-ruby@d3e3bd032ad2222a8ac878bbccf2aba78864e134",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/precompiled.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/precompiled.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/precompiled.yml"
+    },
+    {
+      "component": "ruby/setup-ruby@d3e3bd032ad2222a8ac878bbccf2aba78864e134",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/precompiled.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/precompiled.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/precompiled.yml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/precompiled.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/precompiled.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/precompiled.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/precompiled.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/precompiled.yml"
+    },
+    {
+      "component": "ruby/setup-ruby@d3e3bd032ad2222a8ac878bbccf2aba78864e134",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/precompiled.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/precompiled.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/precompiled.yml"
+    },
+    {
+      "component": "ruby/setup-ruby@d3e3bd032ad2222a8ac878bbccf2aba78864e134",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/precompiled.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/precompiled.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/system.yml"
+    },
+    {
+      "component": "ruby/setup-ruby-pkgs@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/system.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "flavorjones/ruby-c-extensions-explained",
+      "target": "bcrypt-ruby/bcrypt-ruby",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "flavorjones/ruby-c-extensions-explained",
+      "target": "rmagick/rmagick",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "flavorjones/ruby-c-extensions-explained",
+      "target": "ruby/psych",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "flavorjones/ruby-c-extensions-explained",
+      "target": "kwilczynski/ruby-magic",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/isolated.yml",
+      "source_repo": "flavorjones/ruby-c-extensions-explained",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/isolated.yml",
+      "source_repo": "flavorjones/ruby-c-extensions-explained",
+      "target": "ruby/setup-ruby@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/isolated.yml",
+      "source_repo": "flavorjones/ruby-c-extensions-explained",
+      "target": "isolated",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/packaged_source.yml",
+      "source_repo": "flavorjones/ruby-c-extensions-explained",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/packaged_source.yml",
+      "source_repo": "flavorjones/ruby-c-extensions-explained",
+      "target": "ruby/setup-ruby@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/packaged_tarball.yml",
+      "source_repo": "flavorjones/ruby-c-extensions-explained",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/packaged_tarball.yml",
+      "source_repo": "flavorjones/ruby-c-extensions-explained",
+      "target": "ruby/setup-ruby@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/packaged_tarball.yml",
+      "source_repo": "flavorjones/ruby-c-extensions-explained",
+      "target": "actions/cache@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/precompiled.yml",
+      "source_repo": "flavorjones/ruby-c-extensions-explained",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/precompiled.yml",
+      "source_repo": "flavorjones/ruby-c-extensions-explained",
+      "target": "ruby/setup-ruby@d3e3bd032ad2222a8ac878bbccf2aba78864e134",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/precompiled.yml",
+      "source_repo": "flavorjones/ruby-c-extensions-explained",
+      "target": "actions/cache@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/precompiled.yml",
+      "source_repo": "flavorjones/ruby-c-extensions-explained",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/precompiled.yml",
+      "source_repo": "flavorjones/ruby-c-extensions-explained",
+      "target": "actions/download-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/precompiled.yml",
+      "source_repo": "flavorjones/ruby-c-extensions-explained",
+      "target": "precompiled",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/system.yml",
+      "source_repo": "flavorjones/ruby-c-extensions-explained",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/system.yml",
+      "source_repo": "flavorjones/ruby-c-extensions-explained",
+      "target": "ruby/setup-ruby-pkgs@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/system.yml",
+      "source_repo": "flavorjones/ruby-c-extensions-explained",
+      "target": "system",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T01:46:07.118315+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6523
+    },
+    {
+      "path": ".github/workflows/isolated.yml",
+      "size": 938
+    },
+    {
+      "path": ".github/workflows/packaged_source.yml",
+      "size": 980
+    },
+    {
+      "path": ".github/workflows/packaged_tarball.yml",
+      "size": 1195
+    },
+    {
+      "path": ".github/workflows/precompiled.yml",
+      "size": 8708
+    },
+    {
+      "path": ".github/workflows/system.yml",
+      "size": 1170
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Examples of C extensions in Ruby gems",
+    "fork": false,
+    "full_name": "flavorjones/ruby-c-extensions-explained",
+    "html_url": "https://github.com/flavorjones/ruby-c-extensions-explained",
+    "language": "C",
+    "pushed_at": "2026-04-16T12:55:34Z",
+    "stargazers_count": 112,
+    "topics": [],
+    "updated_at": "2026-04-16T12:55:36Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "bcrypt-ruby/bcrypt-ruby",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "kwilczynski/ruby-magic",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "rmagick/rmagick",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ruby/psych",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "isolated",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/isolated.yml",
+      "term": "isolated"
+    },
+    {
+      "context_snippet": "precompiled",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/precompiled.yml",
+      "term": "precompiled"
+    },
+    {
+      "context_snippet": "system",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/system.yml",
+      "term": "system"
+    }
+  ]
+}

@@ -1,0 +1,128 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "ruby/setup-ruby@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "ruby/setup-ruby@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "ruby/setup-ruby@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "ruby/setup-ruby@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "msgpack/msgpack-ruby",
+      "target": "nesquena/rabl",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "msgpack/msgpack-ruby",
+      "target": "msgpack/msgpack-objectivec",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "msgpack/msgpack-ruby",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "msgpack/msgpack-ruby",
+      "target": "ruby/setup-ruby@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "msgpack/msgpack-ruby",
+      "target": "msgpack",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T00:59:32.535158+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8554
+    },
+    {
+      "path": ".github/workflows/ci.yaml",
+      "size": 2127
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "MessagePack implementation for Ruby / msgpack.org[Ruby]",
+    "fork": false,
+    "full_name": "msgpack/msgpack-ruby",
+    "html_url": "https://github.com/msgpack/msgpack-ruby",
+    "language": "Ruby",
+    "pushed_at": "2026-04-11T16:48:31Z",
+    "stargazers_count": 774,
+    "topics": [
+      "msgpack"
+    ],
+    "updated_at": "2026-04-26T10:14:26Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "msgpack/msgpack-objectivec",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "nesquena/rabl",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[MessagePack](http://msgpack.org) is an efficient binary serialization format.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "msgpack"
+    }
+  ]
+}

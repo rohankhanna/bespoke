@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "sail-sg/MDT",
+      "target": "sail-sg/adan",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T03:54:35.817230+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7272
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Masked Diffusion Transformer is the SOTA for image synthesis. (ICCV 2023)",
+    "fork": false,
+    "full_name": "sail-sg/MDT",
+    "html_url": "https://github.com/sail-sg/MDT",
+    "language": "Python",
+    "pushed_at": "2024-04-23T18:53:04Z",
+    "stargazers_count": 597,
+    "topics": [],
+    "updated_at": "2026-04-27T14:21:33Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "sail-sg/adan",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

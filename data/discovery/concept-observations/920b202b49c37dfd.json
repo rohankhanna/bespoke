@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Plugins for extending OpenCost with new Custom Cost Sources"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Build and Release Plugins"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Build and Release Plugins"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22477,
+      "status": "candidate",
+      "text": "casted"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22477,
+      "status": "candidate",
+      "text": "ells"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22477,
+      "status": "candidate",
+      "text": "fatigue"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22417,
+      "status": "candidate",
+      "text": "dress"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22417,
+      "status": "candidate",
+      "text": "model"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Build and Release Plugins",
+      "sense_id": "build-and-release-plugins#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "build-and-release-plugins",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "build-and-release-plugins",
+  "observation_id": "920b202b49c37dfd",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-30T00:37:16.824464+00:00",
+  "observed_text": "Build and Release Plugins",
+  "source_context_snippet": "Build and Release Plugins",
+  "source_file": ".github/workflows/build-and-publish-release.yml",
+  "source_repo": "opencost/opencost-plugins",
+  "source_repo_description": "Plugins for extending OpenCost with new Custom Cost Sources"
+}

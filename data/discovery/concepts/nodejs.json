@@ -2125,6 +2125,198 @@
       "source_repo": "babashka/nbb",
       "status": "candidate-context",
       "text": "<img src=\"logo/nbb-with-name-green.svg\" width=\"250px\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Blizzard/node-rdkafka",
+      "status": "candidate-context",
+      "text": "Node.js bindings for librdkafka"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Blizzard/node-rdkafka",
+      "status": "candidate-context",
+      "text": "node-rdkafka - Node.js wrapper for Kafka C/C++ library"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "graffle-js/graffle",
+      "status": "candidate-context",
+      "text": "Simple GraphQL Client for JavaScript. Minimal. Extensible. Type Safe. Runs everywhere."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "graffle-js/graffle",
+      "status": "candidate-context",
+      "text": "> [!NOTE]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mongodb/node-mongodb-native",
+      "status": "candidate-context",
+      "text": "The official MongoDB Node.js driver"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mongodb/node-mongodb-native",
+      "status": "candidate-context",
+      "text": "The official [MongoDB](https://www.mongodb.com/) driver for Node.js."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aymericbeaumet/metalsmith-clean-css",
+      "status": "candidate-context",
+      "text": ":shower: Metalsmith plugin to minify CSS files"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aymericbeaumet/metalsmith-clean-css",
+      "status": "candidate-context",
+      "text": "metalsmith-clean-css \u2014 A Metalsmith plugin to minify CSS files"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kurrent-io/KurrentDB-Client-NodeJS",
+      "status": "candidate-context",
+      "text": "KurrentDB NodeJS Client"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kurrent-io/KurrentDB-Client-NodeJS",
+      "status": "candidate-context",
+      "text": "<a href=\"https://kurrent.io\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Automattic/harper",
+      "status": "candidate-context",
+      "text": "Offline, privacy-first grammar checker. Fast, open-source, Rust-powered"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Automattic/harper",
+      "status": "candidate-context",
+      "text": "<div id=\"header\" align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "googleapis/gaxios",
+      "status": "candidate-context",
+      "text": "An HTTP request client that provides an axios like interface over top of node-fetch. Super lightweight.  Supports proxies and all sorts of other stuff."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "googleapis/gaxios",
+      "status": "candidate-context",
+      "text": "**_THIS REPOSITORY IS DEPRECATED. ALL OF ITS CONTENT AND HISTORY HAS BEEN MOVED TO [GOOGLE-CLOUD-NODE-CORE](https://github.com/googleapis/google-cloud-node-core/tree/main/packages/gaxios)_**"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "googleapis/google-cloud-node",
+      "status": "candidate-context",
+      "text": "Google Cloud Client Library for Node.js"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "googleapis/google-cloud-node",
+      "status": "candidate-context",
+      "text": "> Node.js idiomatic client libraries for [Google Cloud Platform](https://cloud.google.com/) services."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JS-DevTools/version-bump-prompt",
+      "status": "candidate-context",
+      "text": "Interactive CLI that bumps your version numbers and more"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JS-DevTools/version-bump-prompt",
+      "status": "candidate-context",
+      "text": "[![Cross-Platform Compatibility](https://jstools.dev/img/badges/os-badges.svg)](https://github.com/JS-DevTools/version-bump-prompt/actions)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "oclif/oclif",
+      "status": "candidate-context",
+      "text": "CLI for generating, building, and releasing oclif CLIs. Built by Salesforce."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "oclif/oclif",
+      "status": "candidate-context",
+      "text": "<img src=\"https://user-images.githubusercontent.com/449385/38243295-e0a47d58-372e-11e8-9bc0-8c02a6f4d2ac.png\" width=\"260\" height=\"73\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "google/zx",
+      "status": "candidate-context",
+      "text": "A tool for writing better scripts"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/zx",
+      "status": "candidate-context",
+      "text": "<h1><img src=\"https://google.github.io/zx/img/logo.svg\" alt=\"Zx logo\" height=\"32\" width=\"28\" valign=\"middle\"> zx</h1>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "borkdude/nbb-action-example",
+      "status": "candidate-context",
+      "text": "An example of writing a Github action with nbb"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "borkdude/nbb-action-example",
+      "status": "candidate-context",
+      "text": "This is an example of how to use [nbb](https://github.com/borkdude/nbb), an"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "paulmillr/chokidar",
+      "status": "candidate-context",
+      "text": "Minimal and efficient cross-platform file watching library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "paulmillr/chokidar",
+      "status": "candidate-context",
+      "text": "Minimal and efficient cross-platform file watching library"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "i18next/i18next",
+      "status": "candidate-context",
+      "text": " i18next: learn once - translate everywhere"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "i18next/i18next",
+      "status": "candidate-context",
+      "text": "[![CI](https://github.com/i18next/i18next/actions/workflows/CI.yml/badge.svg)](https://github.com/i18next/i18next/actions/workflows/CI.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "APIDevTools/swagger-parser",
+      "status": "candidate-context",
+      "text": "Swagger 2.0 and OpenAPI 3.0 parser/validator"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "APIDevTools/swagger-parser",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://github.com/APIDevTools/swagger-parser/workflows/CI-CD/badge.svg?branch=master)](https://github.com/APIDevTools/swagger-parser/actions)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aws-samples/aws-cdk-changelogs-demo",
+      "status": "candidate-context",
+      "text": "This is a demo application that uses modern serverless architecture to crawl changelogs from open source projects, parse them, and provide an API and website for viewing them."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aws-samples/aws-cdk-changelogs-demo",
+      "status": "candidate-context",
+      "text": "This is an open source application designed to showcase the usage of modern"
     }
   ],
   "candidate_glosses": [
@@ -3183,6 +3375,102 @@
       "source_repo": "babashka/nbb",
       "status": "candidate",
       "text": "<img src=\"logo/nbb-with-name-green.svg\" width=\"250px\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Blizzard/node-rdkafka",
+      "status": "candidate",
+      "text": "node-rdkafka - Node.js wrapper for Kafka C/C++ library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "graffle-js/graffle",
+      "status": "candidate",
+      "text": "> [!NOTE]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mongodb/node-mongodb-native",
+      "status": "candidate",
+      "text": "The official [MongoDB](https://www.mongodb.com/) driver for Node.js."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aymericbeaumet/metalsmith-clean-css",
+      "status": "candidate",
+      "text": "metalsmith-clean-css \u2014 A Metalsmith plugin to minify CSS files"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kurrent-io/KurrentDB-Client-NodeJS",
+      "status": "candidate",
+      "text": "<a href=\"https://kurrent.io\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Automattic/harper",
+      "status": "candidate",
+      "text": "<div id=\"header\" align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "googleapis/gaxios",
+      "status": "candidate",
+      "text": "**_THIS REPOSITORY IS DEPRECATED. ALL OF ITS CONTENT AND HISTORY HAS BEEN MOVED TO [GOOGLE-CLOUD-NODE-CORE](https://github.com/googleapis/google-cloud-node-core/tree/main/packages/gaxios)_**"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "googleapis/google-cloud-node",
+      "status": "candidate",
+      "text": "> Node.js idiomatic client libraries for [Google Cloud Platform](https://cloud.google.com/) services."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JS-DevTools/version-bump-prompt",
+      "status": "candidate",
+      "text": "[![Cross-Platform Compatibility](https://jstools.dev/img/badges/os-badges.svg)](https://github.com/JS-DevTools/version-bump-prompt/actions)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "oclif/oclif",
+      "status": "candidate",
+      "text": "<img src=\"https://user-images.githubusercontent.com/449385/38243295-e0a47d58-372e-11e8-9bc0-8c02a6f4d2ac.png\" width=\"260\" height=\"73\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/zx",
+      "status": "candidate",
+      "text": "<h1><img src=\"https://google.github.io/zx/img/logo.svg\" alt=\"Zx logo\" height=\"32\" width=\"28\" valign=\"middle\"> zx</h1>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "borkdude/nbb-action-example",
+      "status": "candidate",
+      "text": "This is an example of how to use [nbb](https://github.com/borkdude/nbb), an"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "paulmillr/chokidar",
+      "status": "candidate",
+      "text": "Minimal and efficient cross-platform file watching library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "i18next/i18next",
+      "status": "candidate",
+      "text": "[![CI](https://github.com/i18next/i18next/actions/workflows/CI.yml/badge.svg)](https://github.com/i18next/i18next/actions/workflows/CI.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "APIDevTools/swagger-parser",
+      "status": "candidate",
+      "text": "[![Build Status](https://github.com/APIDevTools/swagger-parser/workflows/CI-CD/badge.svg?branch=master)](https://github.com/APIDevTools/swagger-parser/actions)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aws-samples/aws-cdk-changelogs-demo",
+      "status": "candidate",
+      "text": "This is an open source application designed to showcase the usage of modern"
     }
   ],
   "candidate_related_terms": [],
@@ -4558,11 +4846,197 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "babashka/nbb"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "Blizzard/node-rdkafka"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "micromatch/to-regex-range"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "base-repos/base"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "micromatch/braces"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "micromatch/is-glob"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "standard/standard"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "standard/snazzy"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "ably-labs/multiplayer-games-scalable-networking-framework"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "statsd/statsd"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "graffle-js/graffle"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "nwjs/nw.js"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "electron/electron"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "mongodb/node-mongodb-native"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "aymericbeaumet/metalsmith-clean-css"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "kurrent-io/KurrentDB-Client-NodeJS"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "Automattic/harper"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "coreybutler/nvm-windows"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "nvm-sh/nvm"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "nodists/nodist"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "nodenv/nodenv"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "googleapis/gaxios"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "googleapis/google-cloud-node"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "JS-DevTools/version-bump-prompt"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "oclif/oclif"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "google/zx"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "babashka/nbb"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "borkdude/nbb-action-example"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "paulmillr/chokidar"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "i18next/i18next"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "APIDevTools/swagger-parser"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "aws-samples/aws-cdk-changelogs-demo"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

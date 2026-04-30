@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Promote Release Candidate Docker Image"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apache/kafka",
+      "status": "candidate-context",
+      "text": "Apache Kafka - A distributed event streaming platform"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/kafka",
+      "status": "candidate-context",
+      "text": "Promote Release Candidate Docker Image"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/kafka",
+      "status": "candidate",
+      "text": "Promote Release Candidate Docker Image"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 42714,
+      "status": "candidate",
+      "text": "talk"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26939,
+      "status": "candidate",
+      "text": "caucus"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26503,
+      "status": "candidate",
+      "text": "mak"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26492,
+      "status": "candidate",
+      "text": "put"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26414,
+      "status": "candidate",
+      "text": "develop"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Promote Release Candidate Docker Image",
+  "concept_id": "promote-release-candidate-docker-image",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/docker_promote.yml",
+      "source_repo": "apache/kafka"
+    }
+  ],
+  "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Promote Release Candidate Docker Image",
+      "sense_id": "promote-release-candidate-docker-image#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

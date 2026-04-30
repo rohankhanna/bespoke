@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A sharp EventStoreDB v20+ client backed by Mint :yum:"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "![CI](https://github.com/NFIBrokerage/spear/workflows/CI/badge.svg)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "![CI](https://github.com/NFIBrokerage/spear/workflows/CI/badge.svg)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "event-sourcing",
+      "sense_id": "event-sourcing#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "event-sourcing",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "event-sourcing",
+  "observation_id": "e64d1f3c42038c50",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T00:37:16.824464+00:00",
+  "observed_text": "event-sourcing",
+  "source_context_snippet": "![CI](https://github.com/NFIBrokerage/spear/workflows/CI/badge.svg)",
+  "source_file": null,
+  "source_repo": "CuatroElixir/spear",
+  "source_repo_description": "A sharp EventStoreDB v20+ client backed by Mint :yum:"
+}

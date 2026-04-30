@@ -1,0 +1,303 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "azure/setup-helm@1a275c3b69536ee54be43f2070a358922e12c8d4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-java@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker_push.yml"
+    },
+    {
+      "component": "actions/setup-java@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e.yaml"
+    },
+    {
+      "component": "actions/setup-java@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish_snapshot.yml"
+    },
+    {
+      "component": "actions/setup-java@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish_snapshot.yml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish_snapshot.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "apache/flink-kubernetes-operator",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "apache/flink-kubernetes-operator",
+      "target": "azure/setup-helm@1a275c3b69536ee54be43f2070a358922e12c8d4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "apache/flink-kubernetes-operator",
+      "target": "actions/setup-java@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "apache/flink-kubernetes-operator",
+      "target": "Flink Kubernetes Operator CI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker_push.yml",
+      "source_repo": "apache/flink-kubernetes-operator",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docker_push.yml",
+      "source_repo": "apache/flink-kubernetes-operator",
+      "target": "Build Docker Image",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yaml",
+      "source_repo": "apache/flink-kubernetes-operator",
+      "target": "actions/setup-java@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yaml",
+      "source_repo": "apache/flink-kubernetes-operator",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docs.yaml",
+      "source_repo": "apache/flink-kubernetes-operator",
+      "target": "Build documentation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e.yaml",
+      "source_repo": "apache/flink-kubernetes-operator",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e.yaml",
+      "source_repo": "apache/flink-kubernetes-operator",
+      "target": "actions/setup-java@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/e2e.yaml",
+      "source_repo": "apache/flink-kubernetes-operator",
+      "target": "E2E test workflow",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish_snapshot.yml",
+      "source_repo": "apache/flink-kubernetes-operator",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish_snapshot.yml",
+      "source_repo": "apache/flink-kubernetes-operator",
+      "target": "actions/setup-java@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish_snapshot.yml",
+      "source_repo": "apache/flink-kubernetes-operator",
+      "target": "actions/cache@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish_snapshot.yml",
+      "source_repo": "apache/flink-kubernetes-operator",
+      "target": "Publish Snapshot",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "apache/flink-kubernetes-operator",
+      "target": "big-data",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "apache/flink-kubernetes-operator",
+      "target": "flink",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "apache/flink-kubernetes-operator",
+      "target": "java",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T01:50:22.753360+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2529
+    },
+    {
+      "path": "Dockerfile",
+      "size": 3869
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 8200
+    },
+    {
+      "path": ".github/workflows/docker-bake.hcl",
+      "size": 1210
+    },
+    {
+      "path": ".github/workflows/docker_push.yml",
+      "size": 4447
+    },
+    {
+      "path": ".github/workflows/docs.yaml",
+      "size": 4753
+    },
+    {
+      "path": ".github/workflows/e2e.yaml",
+      "size": 5447
+    },
+    {
+      "path": ".github/workflows/publish_snapshot.yml",
+      "size": 2296
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Apache Flink Kubernetes Operator",
+    "fork": false,
+    "full_name": "apache/flink-kubernetes-operator",
+    "html_url": "https://github.com/apache/flink-kubernetes-operator",
+    "language": "Java",
+    "pushed_at": "2026-04-29T15:24:31Z",
+    "stargazers_count": 1006,
+    "topics": [
+      "big-data",
+      "flink",
+      "java"
+    ],
+    "updated_at": "2026-04-29T15:26:00Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Flink Kubernetes Operator CI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "term": "Flink Kubernetes Operator CI"
+    },
+    {
+      "context_snippet": "\"Build Docker Image\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docker_push.yml",
+      "term": "Build Docker Image"
+    },
+    {
+      "context_snippet": "\"Build documentation\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docs.yaml",
+      "term": "Build documentation"
+    },
+    {
+      "context_snippet": "E2E test workflow",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/e2e.yaml",
+      "term": "E2E test workflow"
+    },
+    {
+      "context_snippet": "Publish Snapshot",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish_snapshot.yml",
+      "term": "Publish Snapshot"
+    },
+    {
+      "context_snippet": "A Kubernetes operator for Apache Flink, implemented in Java. It allows users to manage Flink applications and their lifecycle through native k8s tooling like kubectl.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "big-data"
+    },
+    {
+      "context_snippet": "A Kubernetes operator for Apache Flink, implemented in Java. It allows users to manage Flink applications and their lifecycle through native k8s tooling like kubectl.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "flink"
+    },
+    {
+      "context_snippet": "A Kubernetes operator for Apache Flink, implemented in Java. It allows users to manage Flink applications and their lifecycle through native k8s tooling like kubectl.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "java"
+    }
+  ]
+}

@@ -181,6 +181,30 @@
       "source_repo": "alexpolonsky/agent-skill-strikeradar",
       "status": "candidate-context",
       "text": "![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "agentskills/agentskills",
+      "status": "candidate-context",
+      "text": "Specification and documentation for Agent Skills"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "agentskills/agentskills",
+      "status": "candidate-context",
+      "text": "[Agent Skills](https://agentskills.io) are a simple, open format for giving agents new capabilities and expertise."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dstackai/dstack",
+      "status": "candidate-context",
+      "text": "Vendor-agnostic orchestration for training, inference and agentic workloads across NVIDIA, AMD, TPU, and Tenstorrent on clouds, Kubernetes, and bare metal."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dstackai/dstack",
+      "status": "candidate-context",
+      "text": "<div style=\"text-align: center;\">"
     }
   ],
   "candidate_glosses": [
@@ -267,6 +291,18 @@
       "source_repo": "alexpolonsky/agent-skill-strikeradar",
       "status": "candidate",
       "text": "![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "agentskills/agentskills",
+      "status": "candidate",
+      "text": "[Agent Skills](https://agentskills.io) are a simple, open format for giving agents new capabilities and expertise."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dstackai/dstack",
+      "status": "candidate",
+      "text": "<div style=\"text-align: center;\">"
     }
   ],
   "candidate_related_terms": [],
@@ -406,11 +442,29 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "aden-hive/hive"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "agentskills/agentskills"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "aden-hive/hive"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "dstackai/dstack"
     }
   ],
   "first_seen_at": "2026-04-18T12:06:06.216548+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -79,6 +79,42 @@
       "source_repo": "beehive-lab/kfusion-tornadovm",
       "status": "candidate-context",
       "text": "A Java implementation of the Kinect Fusion application running on TornadoVM. It can run on existing datasets as well as in real-time with input frames from an attached RBG-d camera. Detailed explanation and performance evaluation can be found in the following [publication](https\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "andrewmilson/ministark",
+      "status": "candidate-context",
+      "text": "\ud83c\udfc3\u200d\u2642\ufe0f\ud83d\udca8 GPU accelerated STARK prover built on @arkworks-rs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "andrewmilson/ministark",
+      "status": "candidate-context",
+      "text": "> **Warning**"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "chelsea0x3b/cudarc",
+      "status": "candidate-context",
+      "text": "Safe rust wrapper around CUDA toolkit"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chelsea0x3b/cudarc",
+      "status": "candidate-context",
+      "text": "[![](https://dcbadge.vercel.app/api/server/AtUhGqBDP5)](https://discord.gg/AtUhGqBDP5)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "raphamorim/rio",
+      "status": "candidate-context",
+      "text": "A hardware-accelerated GPU terminal emulator focusing to run in desktops and browsers."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "raphamorim/rio",
+      "status": "candidate-context",
+      "text": "<!-- LOGO -->"
     }
   ],
   "candidate_glosses": [
@@ -117,6 +153,24 @@
       "source_repo": "beehive-lab/kfusion-tornadovm",
       "status": "candidate",
       "text": "A Java implementation of the Kinect Fusion application running on TornadoVM. It can run on existing datasets as well as in real-time with input frames from an attached RBG-d camera. Detailed explanation and performance evaluation can be found in the following [publication](https\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "andrewmilson/ministark",
+      "status": "candidate",
+      "text": "> **Warning**"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chelsea0x3b/cudarc",
+      "status": "candidate",
+      "text": "[![](https://dcbadge.vercel.app/api/server/AtUhGqBDP5)](https://discord.gg/AtUhGqBDP5)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "raphamorim/rio",
+      "status": "candidate",
+      "text": "<!-- LOGO -->"
     }
   ],
   "candidate_related_terms": [],
@@ -166,11 +220,29 @@
       "observed_at": "2026-04-24T12:33:41.350224+00:00",
       "source_file": null,
       "source_repo": "beehive-lab/TornadoVM"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "andrewmilson/ministark"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "chelsea0x3b/cudarc"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "raphamorim/rio"
     }
   ],
   "first_seen_at": "2026-04-19T01:08:57.644140+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

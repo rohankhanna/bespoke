@@ -1,7 +1,7 @@
 {
   "component": "Homebrew/actions/setup-homebrew@main",
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -147,6 +147,11 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/scheduled.yml",
       "source_repo": "Homebrew/homebrew-cask"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "bufbuild/homebrew-buf"
     }
   ]
 }

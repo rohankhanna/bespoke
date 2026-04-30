@@ -43,6 +43,18 @@
       "source_repo": "mahmoudnafifi/WB_sRGB",
       "status": "candidate-context",
       "text": "*[Mahmoud Afifi](https://sites.google.com/view/mafifi)*<sup>1</sup>, *[Brian Price](https://www.brianpricephd.com/)*<sup>2</sup>, *[Scott Cohen](https://research.adobe.com/person/scott-cohen/)*<sup>2</sup>, and *[Michael S. Brown](http://www.cse.yorku.ca/~mbrown/)*<sup>1</sup>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cuiziteng/Aleth-NeRF",
+      "status": "candidate-context",
+      "text": "\ud83c\udf15 [AAAI 2024] Aleth-NeRF: Illumination Adaptive NeRF with Concealing Field Assumption (Low-light enhance / Exposure correction + NeRF)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cuiziteng/Aleth-NeRF",
+      "status": "candidate-context",
+      "text": "[Ziteng Cui<sup>1,2</sup>](https://cuiziteng.github.io/),"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +75,12 @@
       "source_repo": "mahmoudnafifi/WB_sRGB",
       "status": "candidate",
       "text": "*[Mahmoud Afifi](https://sites.google.com/view/mafifi)*<sup>1</sup>, *[Brian Price](https://www.brianpricephd.com/)*<sup>2</sup>, *[Scott Cohen](https://research.adobe.com/person/scott-cohen/)*<sup>2</sup>, and *[Michael S. Brown](http://www.cse.yorku.ca/~mbrown/)*<sup>1</sup>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cuiziteng/Aleth-NeRF",
+      "status": "candidate",
+      "text": "[Ziteng Cui<sup>1,2</sup>](https://cuiziteng.github.io/),"
     }
   ],
   "candidate_related_terms": [],
@@ -88,11 +106,17 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": null,
       "source_repo": "mahmoudnafifi/WB_sRGB"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "cuiziteng/Aleth-NeRF"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

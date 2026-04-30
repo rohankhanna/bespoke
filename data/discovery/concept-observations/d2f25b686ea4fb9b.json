@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Nix - Static, Permissionless, Installation-free, Pre-configured"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<p align=\"center\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19921555,
+      "status": "candidate",
+      "text": "bubble wrap"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19921554,
+      "status": "candidate",
+      "text": "shrink-wrap"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19921553,
+      "status": "candidate",
+      "text": "air bladder"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19921552,
+      "status": "candidate",
+      "text": "wrapping"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19921551,
+      "status": "candidate",
+      "text": "padded envelope"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "bubblewrap",
+      "sense_id": "bubblewrap#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "bubblewrap",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "bubblewrap",
+  "observation_id": "d2f25b686ea4fb9b",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T00:37:16.824464+00:00",
+  "observed_text": "bubblewrap",
+  "source_context_snippet": "<p align=\"center\">",
+  "source_file": null,
+  "source_repo": "DavHau/nix-portable",
+  "source_repo_description": "Nix - Static, Permissionless, Installation-free, Pre-configured"
+}

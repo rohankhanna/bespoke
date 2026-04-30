@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T05:13:47.490859+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 297
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "The documentation for Ploty's R graphing library. ",
+    "fork": false,
+    "full_name": "plotly/plotly.r-docs",
+    "html_url": "https://github.com/plotly/plotly.r-docs",
+    "language": null,
+    "pushed_at": "2025-01-27T14:21:40Z",
+    "stargazers_count": 10,
+    "topics": [],
+    "updated_at": "2025-10-08T17:46:44Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

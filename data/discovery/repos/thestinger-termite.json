@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.rst",
+      "source_repo": "thestinger/termite",
+      "target": "thestinger/vte-ng",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T04:01:33.837623+00:00",
+  "fetched_files": [
+    {
+      "path": "README.rst",
+      "size": 14119
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "master",
+    "description": "Termite is obsoleted by Alacritty. Termite was a keyboard-centric VTE-based terminal, aimed at use within a window manager with tiling and/or tabbing support.",
+    "fork": false,
+    "full_name": "thestinger/termite",
+    "html_url": "https://github.com/thestinger/termite",
+    "language": "C++",
+    "pushed_at": "2021-05-07T11:46:48Z",
+    "stargazers_count": 2716,
+    "topics": [],
+    "updated_at": "2026-04-26T10:40:04Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "thestinger/vte-ng",
+      "source_file": "README.rst"
+    }
+  ],
+  "terms": []
+}

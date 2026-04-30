@@ -1,0 +1,212 @@
+{
+  "components": [
+    {
+      "component": "chalk",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "conventional-commit-types",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "right-pad-keys",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "AndersDJohnson/conventional-commit-types-cli",
+      "target": "chalk",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "AndersDJohnson/conventional-commit-types-cli",
+      "target": "conventional-commit-types",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "AndersDJohnson/conventional-commit-types-cli",
+      "target": "right-pad-keys",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AndersDJohnson/conventional-commit-types-cli",
+      "target": "cli-app",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AndersDJohnson/conventional-commit-types-cli",
+      "target": "cli-utilities",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AndersDJohnson/conventional-commit-types-cli",
+      "target": "command-line",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AndersDJohnson/conventional-commit-types-cli",
+      "target": "command-line-app",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AndersDJohnson/conventional-commit-types-cli",
+      "target": "command-line-tool",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AndersDJohnson/conventional-commit-types-cli",
+      "target": "command-line-tools",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AndersDJohnson/conventional-commit-types-cli",
+      "target": "commandline",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AndersDJohnson/conventional-commit-types-cli",
+      "target": "commandline-interface",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AndersDJohnson/conventional-commit-types-cli",
+      "target": "commit",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AndersDJohnson/conventional-commit-types-cli",
+      "target": "commits",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T00:39:53.648328+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 940
+    },
+    {
+      "path": "package.json",
+      "size": 601
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "CLI to list conventional commit types.",
+    "fork": false,
+    "full_name": "AndersDJohnson/conventional-commit-types-cli",
+    "html_url": "https://github.com/AndersDJohnson/conventional-commit-types-cli",
+    "language": "JavaScript",
+    "pushed_at": "2022-09-21T11:49:04Z",
+    "stargazers_count": 10,
+    "topics": [
+      "cli",
+      "cli-app",
+      "cli-utilities",
+      "command-line",
+      "command-line-app",
+      "command-line-tool",
+      "command-line-tools",
+      "commandline",
+      "commandline-interface",
+      "commit",
+      "commits"
+    ],
+    "updated_at": "2024-05-25T22:58:17Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "CLI to list conventional commit types per https://github.com/commitizen/conventional-commit-types.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cli-app"
+    },
+    {
+      "context_snippet": "CLI to list conventional commit types per https://github.com/commitizen/conventional-commit-types.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cli-utilities"
+    },
+    {
+      "context_snippet": "CLI to list conventional commit types per https://github.com/commitizen/conventional-commit-types.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "command-line"
+    },
+    {
+      "context_snippet": "CLI to list conventional commit types per https://github.com/commitizen/conventional-commit-types.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "command-line-app"
+    },
+    {
+      "context_snippet": "CLI to list conventional commit types per https://github.com/commitizen/conventional-commit-types.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "command-line-tool"
+    },
+    {
+      "context_snippet": "CLI to list conventional commit types per https://github.com/commitizen/conventional-commit-types.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "command-line-tools"
+    },
+    {
+      "context_snippet": "CLI to list conventional commit types per https://github.com/commitizen/conventional-commit-types.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "commandline"
+    },
+    {
+      "context_snippet": "CLI to list conventional commit types per https://github.com/commitizen/conventional-commit-types.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "commandline-interface"
+    },
+    {
+      "context_snippet": "CLI to list conventional commit types per https://github.com/commitizen/conventional-commit-types.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "commit"
+    },
+    {
+      "context_snippet": "CLI to list conventional commit types per https://github.com/commitizen/conventional-commit-types.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "commits"
+    }
+  ]
+}

@@ -5,14 +5,14 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "cszn/BSRGAN",
-      "target": "cszn/kair",
+      "target": "vvictoryuki/bsrgan_implementation",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "cszn/BSRGAN",
-      "target": "cszn/scunet",
+      "target": "manuelfritsche/real-world-sr",
       "target_type": "repository"
     },
     {
@@ -58,7 +58,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-29T21:47:05.424386+00:00",
+  "fetched_at": "2026-04-30T03:49:09.311390+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -92,17 +92,17 @@
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "cszn/kair",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "cszn/scunet",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
       "full_name": "jixiaozhong/realsr",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "manuelfritsche/real-world-sr",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "vvictoryuki/bsrgan_implementation",
       "source_file": "README.md"
     }
   ],

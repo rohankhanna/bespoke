@@ -145,6 +145,18 @@
       "source_repo": "castorini/anserini",
       "status": "candidate-context",
       "text": "Java CI with Maven"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "padreati/rapaio",
+      "status": "candidate-context",
+      "text": "statistics, data mining and machine learning toolbox"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "padreati/rapaio",
+      "status": "candidate-context",
+      "text": "Java CI with Maven"
     }
   ],
   "candidate_glosses": [
@@ -217,6 +229,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "castorini/anserini",
+      "status": "candidate",
+      "text": "Java CI with Maven"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "padreati/rapaio",
       "status": "candidate",
       "text": "Java CI with Maven"
     }
@@ -352,11 +370,23 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": ".github/workflows/maven.yml",
       "source_repo": "castorini/anserini"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/maven.yml",
+      "source_repo": "aws-cloudformation/cloudformation-resource-schema"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/maven.yml",
+      "source_repo": "padreati/rapaio"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

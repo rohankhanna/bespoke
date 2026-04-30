@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T04:52:32.442685+00:00",
+  "fetched_files": [
+    {
+      "path": "package.json",
+      "size": 4997
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "develop",
+    "description": null,
+    "fork": false,
+    "full_name": "0xPolygonHermez/stark-recurser",
+    "html_url": "https://github.com/0xPolygonHermez/stark-recurser",
+    "language": "Circom",
+    "pushed_at": "2026-04-16T08:32:28Z",
+    "stargazers_count": 4,
+    "topics": [],
+    "updated_at": "2025-09-14T21:47:55Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

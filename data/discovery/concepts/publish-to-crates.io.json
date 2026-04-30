@@ -55,6 +55,42 @@
       "source_repo": "rust-random/getrandom",
       "status": "candidate-context",
       "text": "Publish to crates.io"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "eitsupi/arf",
+      "status": "candidate-context",
+      "text": "Alternative R Frontend \u2014 a modern R console written in Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "eitsupi/arf",
+      "status": "candidate-context",
+      "text": "Publish to crates.io"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "oschwald/maxminddb-rust",
+      "status": "candidate-context",
+      "text": "Rust MaxMind DB Reader"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "oschwald/maxminddb-rust",
+      "status": "candidate-context",
+      "text": "Publish to crates.io"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kurrent-io/KurrentDB-Client-Rust",
+      "status": "candidate-context",
+      "text": "KurrentDB Rust Client"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kurrent-io/KurrentDB-Client-Rust",
+      "status": "candidate-context",
+      "text": "Publish to crates.io"
     }
   ],
   "candidate_glosses": [
@@ -79,6 +115,24 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "rust-random/getrandom",
+      "status": "candidate",
+      "text": "Publish to crates.io"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "eitsupi/arf",
+      "status": "candidate",
+      "text": "Publish to crates.io"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "oschwald/maxminddb-rust",
+      "status": "candidate",
+      "text": "Publish to crates.io"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kurrent-io/KurrentDB-Client-Rust",
       "status": "candidate",
       "text": "Publish to crates.io"
     }
@@ -148,11 +202,29 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": ".github/workflows/release.yml",
       "source_repo": "rust-random/getrandom"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/publish-crate.yml",
+      "source_repo": "eitsupi/arf"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "oschwald/maxminddb-rust"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/deploy.yml",
+      "source_repo": "kurrent-io/KurrentDB-Client-Rust"
     }
   ],
   "first_seen_at": "2026-04-19T17:42:30.117329+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

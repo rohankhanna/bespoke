@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Automatically detect when a worker is on a phone using power of computer vision"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Push Algo Docker image"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Push Algo Docker image"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21616,
+      "status": "candidate",
+      "text": "advance"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21616,
+      "status": "candidate",
+      "text": "advancing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21616,
+      "status": "candidate",
+      "text": "depressor"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21616,
+      "status": "candidate",
+      "text": "edge"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21616,
+      "status": "candidate",
+      "text": "nuzzle"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Push Algo Docker image",
+      "sense_id": "push-algo-docker-image#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "push-algo-docker-image",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "push-algo-docker-image",
+  "observation_id": "62d3d9f149665f0e",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-30T00:37:16.824464+00:00",
+  "observed_text": "Push Algo Docker image",
+  "source_context_snippet": "Push Algo Docker image",
+  "source_file": ".github/workflows/docker-image.yml",
+  "source_repo": "5sControl/idle-control",
+  "source_repo_description": "Automatically detect when a worker is on a phone using power of computer vision"
+}

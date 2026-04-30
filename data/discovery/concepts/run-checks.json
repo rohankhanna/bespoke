@@ -31,6 +31,18 @@
       "source_repo": "pytest-dev/cookiecutter-pytest-plugin",
       "status": "candidate-context",
       "text": "Run checks"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hashicorp/nomad",
+      "status": "candidate-context",
+      "text": "Nomad is an easy-to-use, flexible, and performant workload orchestrator that can deploy a mix of microservice, batch, containerized, and non-containerized applications. Nomad is easy to operate and scale and has native Consul and Vault integrations."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hashicorp/nomad",
+      "status": "candidate-context",
+      "text": "Run checks"
     }
   ],
   "candidate_glosses": [
@@ -43,6 +55,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "pytest-dev/cookiecutter-pytest-plugin",
+      "status": "candidate",
+      "text": "Run checks"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hashicorp/nomad",
       "status": "candidate",
       "text": "Run checks"
     }
@@ -100,11 +118,17 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": ".github/workflows/run-checks.yml",
       "source_repo": "pytest-dev/cookiecutter-pytest-plugin"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": ".github/workflows/checks.yaml",
+      "source_repo": "hashicorp/nomad"
     }
   ],
   "first_seen_at": "2026-04-22T04:41:58.081535+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

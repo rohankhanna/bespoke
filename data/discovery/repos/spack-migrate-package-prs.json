@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T03:49:56.987743+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3206
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Migrate package PRs from spack/spack to spack/spack-packages",
+    "fork": false,
+    "full_name": "spack/migrate-package-prs",
+    "html_url": "https://github.com/spack/migrate-package-prs",
+    "language": "Shell",
+    "pushed_at": "2025-06-06T09:26:38Z",
+    "stargazers_count": 1,
+    "topics": [],
+    "updated_at": "2025-10-03T22:35:15Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

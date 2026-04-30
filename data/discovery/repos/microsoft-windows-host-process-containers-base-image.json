@@ -1,0 +1,59 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml",
+      "source_repo": "microsoft/windows-host-process-containers-base-image",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yaml",
+      "source_repo": "microsoft/windows-host-process-containers-base-image",
+      "target": "host-process-scratch-image",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T05:08:19.872225+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2999
+    },
+    {
+      "path": ".github/workflows/build.yaml",
+      "size": 306
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A lightweight base container image to be used with Windows host process containers",
+    "fork": false,
+    "full_name": "microsoft/windows-host-process-containers-base-image",
+    "html_url": "https://github.com/microsoft/windows-host-process-containers-base-image",
+    "language": "PowerShell",
+    "pushed_at": "2026-02-11T18:03:36Z",
+    "stargazers_count": 53,
+    "topics": [],
+    "updated_at": "2026-04-13T17:39:26Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "host-process-scratch-image",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yaml",
+      "term": "host-process-scratch-image"
+    }
+  ]
+}

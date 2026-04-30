@@ -127,6 +127,54 @@
       "source_repo": "TrenchBroom/TrenchBroom",
       "status": "candidate-context",
       "text": "[![TrenchBroom Icon](app/TrenchBroom/resources/graphics/images/AppIcon.png)](https://www.youtube.com/watch?v=shcAvnYp9ow)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "y-lohse/inkjs",
+      "status": "candidate-context",
+      "text": "A javascript port of inkle's ink scripting language."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "y-lohse/inkjs",
+      "status": "candidate-context",
+      "text": "![build](https://github.com/y-lohse/inkjs/workflows/Build/badge.svg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hajimehoshi/ebiten",
+      "status": "candidate-context",
+      "text": "A dead simple 2D game engine for Go"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hajimehoshi/ebiten",
+      "status": "candidate-context",
+      "text": "[![Go Reference](https://pkg.go.dev/badge/github.com/hajimehoshi/ebiten/v2.svg)](https://pkg.go.dev/github.com/hajimehoshi/ebiten/v2)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ggez/ggez",
+      "status": "candidate-context",
+      "text": "Rust library to create a Good Game Easily"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ggez/ggez",
+      "status": "candidate-context",
+      "text": "[![ggez logo](docs/ggez-logo-maroon-full.svg)](http://ggez.rs/)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hecrj/coffee",
+      "status": "candidate-context",
+      "text": "An opinionated 2D game engine for Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hecrj/coffee",
+      "status": "candidate-context",
+      "text": "[![Integration status](https://github.com/hecrj/coffee/workflows/Integration/badge.svg)](https://github.com/hecrj/coffee/actions)"
     }
   ],
   "candidate_glosses": [
@@ -189,6 +237,30 @@
       "source_repo": "TrenchBroom/TrenchBroom",
       "status": "candidate",
       "text": "[![TrenchBroom Icon](app/TrenchBroom/resources/graphics/images/AppIcon.png)](https://www.youtube.com/watch?v=shcAvnYp9ow)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "y-lohse/inkjs",
+      "status": "candidate",
+      "text": "![build](https://github.com/y-lohse/inkjs/workflows/Build/badge.svg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hajimehoshi/ebiten",
+      "status": "candidate",
+      "text": "[![Go Reference](https://pkg.go.dev/badge/github.com/hajimehoshi/ebiten/v2.svg)](https://pkg.go.dev/github.com/hajimehoshi/ebiten/v2)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ggez/ggez",
+      "status": "candidate",
+      "text": "[![ggez logo](docs/ggez-logo-maroon-full.svg)](http://ggez.rs/)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hecrj/coffee",
+      "status": "candidate",
+      "text": "[![Integration status](https://github.com/hecrj/coffee/workflows/Integration/badge.svg)](https://github.com/hecrj/coffee/actions)"
     }
   ],
   "candidate_related_terms": [],
@@ -256,11 +328,41 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "TrenchBroom/TrenchBroom"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "y-lohse/inkjs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "hajimehoshi/ebiten"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "TrenchBroom/TrenchBroom"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "ggez/ggez"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "hecrj/coffee"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

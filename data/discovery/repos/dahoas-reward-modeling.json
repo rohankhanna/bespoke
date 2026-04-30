@@ -1,0 +1,45 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Dahoas/reward-modeling",
+      "target": "carperai/tclx",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T05:15:54.530859+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1337
+    },
+    {
+      "path": "requirements.txt",
+      "size": 45
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "Dahoas/reward-modeling",
+    "html_url": "https://github.com/Dahoas/reward-modeling",
+    "language": "Python",
+    "pushed_at": "2023-05-30T09:12:40Z",
+    "stargazers_count": 98,
+    "topics": [],
+    "updated_at": "2026-02-18T06:11:43Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "carperai/tclx",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

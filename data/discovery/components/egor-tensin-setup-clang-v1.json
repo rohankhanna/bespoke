@@ -1,7 +1,7 @@
 {
   "component": "egor-tensin/setup-clang@v1",
   "first_seen_at": "2026-04-24T00:33:56.049672+00:00",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -22,6 +22,11 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/hosted.yml",
       "source_repo": "antlr/antlr4"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build.gcc.yml",
+      "source_repo": "VeriSilicon/tflite-vx-delegate"
     }
   ]
 }

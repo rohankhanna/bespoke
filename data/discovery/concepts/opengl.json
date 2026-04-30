@@ -259,6 +259,30 @@
       "source_repo": "nigels-com/glew",
       "status": "candidate-context",
       "text": "The OpenGL Extension Wrangler Library (GLEW) is a cross-platform open-source C/C++ extension loading library. GLEW provides efficient run-time mechanisms for determining which OpenGL extensions are supported on the target platform. OpenGL core and extension functionality is expo\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nvpro-samples/nvpro_core",
+      "status": "candidate-context",
+      "text": "shared source code and resources needed for the samples to run"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nvpro-samples/nvpro_core",
+      "status": "candidate-context",
+      "text": "> [!IMPORTANT]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mmatl/pyrender",
+      "status": "candidate-context",
+      "text": "Easy-to-use glTF 2.0-compliant OpenGL renderer for visualization of 3D scenes."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mmatl/pyrender",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://travis-ci.org/mmatl/pyrender.svg?branch=master)](https://travis-ci.org/mmatl/pyrender)"
     }
   ],
   "candidate_glosses": [
@@ -387,6 +411,18 @@
       "source_repo": "nigels-com/glew",
       "status": "candidate",
       "text": "The OpenGL Extension Wrangler Library (GLEW) is a cross-platform open-source C/C++ extension loading library. GLEW provides efficient run-time mechanisms for determining which OpenGL extensions are supported on the target platform. OpenGL core and extension functionality is expo\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nvpro-samples/nvpro_core",
+      "status": "candidate",
+      "text": "> [!IMPORTANT]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mmatl/pyrender",
+      "status": "candidate",
+      "text": "[![Build Status](https://travis-ci.org/mmatl/pyrender.svg?branch=master)](https://travis-ci.org/mmatl/pyrender)"
     }
   ],
   "candidate_related_terms": [
@@ -568,11 +604,35 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "nigels-com/glew"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "KhronosGroup/KTX-Software"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "nvpro-samples/nvpro_core"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "alacritty/alacritty"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "mmatl/pyrender"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

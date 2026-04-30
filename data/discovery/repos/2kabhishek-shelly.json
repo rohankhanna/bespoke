@@ -1,0 +1,100 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "2KAbhishek/shelly",
+      "target": "prototyping",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "2KAbhishek/shelly",
+      "target": "script",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "2KAbhishek/shelly",
+      "target": "shell",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "2KAbhishek/shelly",
+      "target": "template",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "2KAbhishek/shelly",
+      "target": "unix",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T05:00:56.114252+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3382
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Publish CLI Tools \ud83d\udc1a\u2728",
+    "fork": false,
+    "full_name": "2KAbhishek/shelly",
+    "html_url": "https://github.com/2KAbhishek/shelly",
+    "language": "Shell",
+    "pushed_at": "2024-12-15T05:59:07Z",
+    "stargazers_count": 5,
+    "topics": [
+      "prototyping",
+      "script",
+      "shell",
+      "template",
+      "unix"
+    ],
+    "updated_at": "2026-02-02T18:45:22Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "<div align = \"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "prototyping"
+    },
+    {
+      "context_snippet": "<div align = \"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "script"
+    },
+    {
+      "context_snippet": "<div align = \"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "shell"
+    },
+    {
+      "context_snippet": "<div align = \"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "template"
+    },
+    {
+      "context_snippet": "<div align = \"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "unix"
+    }
+  ]
+}

@@ -19,6 +19,42 @@
       "source_repo": "gorilla/sessions",
       "status": "candidate-context",
       "text": "> [!IMPORTANT]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gorilla/.github",
+      "status": "candidate-context",
+      "text": "The .github repository for the @gorilla organization."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gorilla/.github",
+      "status": "candidate-context",
+      "text": "\ud83e\udd8d\ud83e\udd8d\ud83e\udd8d"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gorilla/websocket",
+      "status": "candidate-context",
+      "text": "Package gorilla/websocket is a fast, well-tested and widely used WebSocket implementation for Go."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gorilla/websocket",
+      "status": "candidate-context",
+      "text": "[![GoDoc](https://godoc.org/github.com/gorilla/websocket?status.svg)](https://godoc.org/github.com/gorilla/websocket)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "antonlindstrom/pgstore",
+      "status": "candidate-context",
+      "text": "A Postgres session store backend for gorilla/sessions"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "antonlindstrom/pgstore",
+      "status": "candidate-context",
+      "text": "A session store backend for [gorilla/sessions](http://www.gorillatoolkit.org/pkg/sessions) - [src](https://github.com/gorilla/sessions)."
     }
   ],
   "candidate_glosses": [
@@ -27,6 +63,24 @@
       "source_repo": "gorilla/sessions",
       "status": "candidate",
       "text": "> [!IMPORTANT]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gorilla/.github",
+      "status": "candidate",
+      "text": "\ud83e\udd8d\ud83e\udd8d\ud83e\udd8d"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gorilla/websocket",
+      "status": "candidate",
+      "text": "[![GoDoc](https://godoc.org/github.com/gorilla/websocket?status.svg)](https://godoc.org/github.com/gorilla/websocket)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "antonlindstrom/pgstore",
+      "status": "candidate",
+      "text": "A session store backend for [gorilla/sessions](http://www.gorillatoolkit.org/pkg/sessions) - [src](https://github.com/gorilla/sessions)."
     }
   ],
   "candidate_related_terms": [
@@ -84,11 +138,29 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "gorilla/sessions"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "gorilla/.github"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "gorilla/websocket"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "antonlindstrom/pgstore"
     }
   ],
   "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

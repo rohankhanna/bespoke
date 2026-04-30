@@ -1,0 +1,490 @@
+{
+  "components": [
+    {
+      "component": "step-security/harden-runner@248ae51c2e8cc9622ecf50685c8bf7150c6e8813",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/analysis.yml"
+    },
+    {
+      "component": "actions/checkout@2541b1294d2704b0964813337f33b291d3f8596b",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/analysis.yml"
+    },
+    {
+      "component": "actions/cache@0057852bfaa89a56745cba8c7296529d2fc39830",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/analysis.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-steps.yml"
+    },
+    {
+      "component": "actions/checkout@08eba0b27e820071cde6df949e0beb9ba4906955",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-steps.yml"
+    },
+    {
+      "component": "KyleMayes/install-llvm-action@ebc0426251bc40c7cd31162802432c68818ab8f0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-steps.yml"
+    },
+    {
+      "component": "actions/cache/restore@cdf6c1fa76f9f475f3d7449005a359c84ca0f306",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-steps.yml"
+    },
+    {
+      "component": "actions/cache/restore@0057852bfaa89a56745cba8c7296529d2fc39830",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-steps.yml"
+    },
+    {
+      "component": "actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-steps.yml"
+    },
+    {
+      "component": "sonarsource/sonarqube-scan-action@a31c9398be7ace6bbfaf30c0bd5d415f843d45e9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-steps.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-steps.yml"
+    },
+    {
+      "component": "actions/cache/save@cdf6c1fa76f9f475f3d7449005a359c84ca0f306",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-steps.yml"
+    },
+    {
+      "component": "actions/cache/save@0057852bfaa89a56745cba8c7296529d2fc39830",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-steps.yml"
+    },
+    {
+      "component": "actions/upload-artifact@bbbca2ddaa5d8feaa63e36b76fdaad77386f024f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-steps.yml"
+    },
+    {
+      "component": "actions/upload-artifact@6f51ac03b9356f520e9adb1b1b7802705f340c2b",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-steps.yml"
+    },
+    {
+      "component": "jmertic/slack-release-notifier@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-notice.yml"
+    },
+    {
+      "component": "actions/checkout@b4ffde65f46336ab88eb53be808477a3936bae11",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-sign.yml"
+    },
+    {
+      "component": "sigstore/gh-action-sigstore-python@f514d46b907ebcd5bedc05145c03b69c1edd8b46",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-sign.yml"
+    },
+    {
+      "component": "actions/checkout@a12a3943b4bdde767164f792f33f40b04645d846",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scorecards.yml"
+    },
+    {
+      "component": "ossf/scorecard-action@3e15ea8318eee9b333819ec77a36aca8d39df13e",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scorecards.yml"
+    },
+    {
+      "component": "actions/upload-artifact@6673cd052c4cd6fcf4b4e6e60ea986c889389535",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scorecards.yml"
+    },
+    {
+      "component": "github/codeql-action/upload-sarif@5f532563584d71fdef14ee64d17bafb34f751ce5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scorecards.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "AcademySoftwareFoundation/OpenShadingLanguage",
+      "target": "laikastudios/oslshaderwriting",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/analysis.yml",
+      "source_repo": "AcademySoftwareFoundation/OpenShadingLanguage",
+      "target": "step-security/harden-runner@248ae51c2e8cc9622ecf50685c8bf7150c6e8813",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/analysis.yml",
+      "source_repo": "AcademySoftwareFoundation/OpenShadingLanguage",
+      "target": "actions/checkout@2541b1294d2704b0964813337f33b291d3f8596b",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/analysis.yml",
+      "source_repo": "AcademySoftwareFoundation/OpenShadingLanguage",
+      "target": "actions/cache@0057852bfaa89a56745cba8c7296529d2fc39830",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/analysis.yml",
+      "source_repo": "AcademySoftwareFoundation/OpenShadingLanguage",
+      "target": "Analysis",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-steps.yml",
+      "source_repo": "AcademySoftwareFoundation/OpenShadingLanguage",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-steps.yml",
+      "source_repo": "AcademySoftwareFoundation/OpenShadingLanguage",
+      "target": "actions/checkout@08eba0b27e820071cde6df949e0beb9ba4906955",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-steps.yml",
+      "source_repo": "AcademySoftwareFoundation/OpenShadingLanguage",
+      "target": "KyleMayes/install-llvm-action@ebc0426251bc40c7cd31162802432c68818ab8f0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-steps.yml",
+      "source_repo": "AcademySoftwareFoundation/OpenShadingLanguage",
+      "target": "actions/cache/restore@cdf6c1fa76f9f475f3d7449005a359c84ca0f306",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-steps.yml",
+      "source_repo": "AcademySoftwareFoundation/OpenShadingLanguage",
+      "target": "actions/cache/restore@0057852bfaa89a56745cba8c7296529d2fc39830",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-steps.yml",
+      "source_repo": "AcademySoftwareFoundation/OpenShadingLanguage",
+      "target": "actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-steps.yml",
+      "source_repo": "AcademySoftwareFoundation/OpenShadingLanguage",
+      "target": "sonarsource/sonarqube-scan-action@a31c9398be7ace6bbfaf30c0bd5d415f843d45e9",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-steps.yml",
+      "source_repo": "AcademySoftwareFoundation/OpenShadingLanguage",
+      "target": "actions/cache/save@cdf6c1fa76f9f475f3d7449005a359c84ca0f306",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-steps.yml",
+      "source_repo": "AcademySoftwareFoundation/OpenShadingLanguage",
+      "target": "actions/cache/save@0057852bfaa89a56745cba8c7296529d2fc39830",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-steps.yml",
+      "source_repo": "AcademySoftwareFoundation/OpenShadingLanguage",
+      "target": "actions/upload-artifact@bbbca2ddaa5d8feaa63e36b76fdaad77386f024f",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-steps.yml",
+      "source_repo": "AcademySoftwareFoundation/OpenShadingLanguage",
+      "target": "actions/upload-artifact@6f51ac03b9356f520e9adb1b1b7802705f340c2b",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-steps.yml",
+      "source_repo": "AcademySoftwareFoundation/OpenShadingLanguage",
+      "target": "CI Steps",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-notice.yml",
+      "source_repo": "AcademySoftwareFoundation/OpenShadingLanguage",
+      "target": "jmertic/slack-release-notifier@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-notice.yml",
+      "source_repo": "AcademySoftwareFoundation/OpenShadingLanguage",
+      "target": "Publish Release Notice to ASWF Slack",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-sign.yml",
+      "source_repo": "AcademySoftwareFoundation/OpenShadingLanguage",
+      "target": "actions/checkout@b4ffde65f46336ab88eb53be808477a3936bae11",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-sign.yml",
+      "source_repo": "AcademySoftwareFoundation/OpenShadingLanguage",
+      "target": "sigstore/gh-action-sigstore-python@f514d46b907ebcd5bedc05145c03b69c1edd8b46",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-sign.yml",
+      "source_repo": "AcademySoftwareFoundation/OpenShadingLanguage",
+      "target": "Sign Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scorecards.yml",
+      "source_repo": "AcademySoftwareFoundation/OpenShadingLanguage",
+      "target": "actions/checkout@a12a3943b4bdde767164f792f33f40b04645d846",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scorecards.yml",
+      "source_repo": "AcademySoftwareFoundation/OpenShadingLanguage",
+      "target": "ossf/scorecard-action@3e15ea8318eee9b333819ec77a36aca8d39df13e",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scorecards.yml",
+      "source_repo": "AcademySoftwareFoundation/OpenShadingLanguage",
+      "target": "actions/upload-artifact@6673cd052c4cd6fcf4b4e6e60ea986c889389535",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scorecards.yml",
+      "source_repo": "AcademySoftwareFoundation/OpenShadingLanguage",
+      "target": "github/codeql-action/upload-sarif@5f532563584d71fdef14ee64d17bafb34f751ce5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/scorecards.yml",
+      "source_repo": "AcademySoftwareFoundation/OpenShadingLanguage",
+      "target": "Scorecards supply-chain security",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AcademySoftwareFoundation/OpenShadingLanguage",
+      "target": "c-plus-plus",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AcademySoftwareFoundation/OpenShadingLanguage",
+      "target": "computer-graphics",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AcademySoftwareFoundation/OpenShadingLanguage",
+      "target": "computer-language",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AcademySoftwareFoundation/OpenShadingLanguage",
+      "target": "llvm",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AcademySoftwareFoundation/OpenShadingLanguage",
+      "target": "open-shading-language",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AcademySoftwareFoundation/OpenShadingLanguage",
+      "target": "shaders",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AcademySoftwareFoundation/OpenShadingLanguage",
+      "target": "shading-language",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T00:42:42.729518+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 24322
+    },
+    {
+      "path": ".github/workflows/analysis.yml",
+      "size": 5508
+    },
+    {
+      "path": ".github/workflows/build-steps.yml",
+      "size": 12327
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 27897
+    },
+    {
+      "path": ".github/workflows/release-notice.yml",
+      "size": 782
+    },
+    {
+      "path": ".github/workflows/release-sign.yml",
+      "size": 2171
+    },
+    {
+      "path": ".github/workflows/scorecards.yml",
+      "size": 2810
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Advanced shading language for production GI renderers",
+    "fork": false,
+    "full_name": "AcademySoftwareFoundation/OpenShadingLanguage",
+    "html_url": "https://github.com/AcademySoftwareFoundation/OpenShadingLanguage",
+    "language": "C++",
+    "pushed_at": "2026-04-23T23:13:49Z",
+    "stargazers_count": 2291,
+    "topics": [
+      "c-plus-plus",
+      "computer-graphics",
+      "computer-language",
+      "llvm",
+      "open-shading-language",
+      "osl",
+      "shaders",
+      "shading-language",
+      "vfx"
+    ],
+    "updated_at": "2026-04-26T08:01:47Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "laikastudios/oslshaderwriting",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Analysis",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/analysis.yml",
+      "term": "Analysis"
+    },
+    {
+      "context_snippet": "CI Steps",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-steps.yml",
+      "term": "CI Steps"
+    },
+    {
+      "context_snippet": "Publish Release Notice to ASWF Slack",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-notice.yml",
+      "term": "Publish Release Notice to ASWF Slack"
+    },
+    {
+      "context_snippet": "Sign Release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-sign.yml",
+      "term": "Sign Release"
+    },
+    {
+      "context_snippet": "Scorecards supply-chain security",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/scorecards.yml",
+      "term": "Scorecards supply-chain security"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "c-plus-plus"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "computer-graphics"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "computer-language"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "llvm"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "open-shading-language"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "shaders"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "shading-language"
+    }
+  ]
+}

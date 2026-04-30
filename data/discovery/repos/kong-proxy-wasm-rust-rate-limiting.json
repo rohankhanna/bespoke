@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T00:48:15.031753+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1348
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 378
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Rust implementation of a prototype rate-limiting filter using proxy-wasm ",
+    "fork": false,
+    "full_name": "Kong/proxy-wasm-rust-rate-limiting",
+    "html_url": "https://github.com/Kong/proxy-wasm-rust-rate-limiting",
+    "language": "Rust",
+    "pushed_at": "2024-02-06T11:29:40Z",
+    "stargazers_count": 3,
+    "topics": [],
+    "updated_at": "2026-01-07T07:07:44Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Automatically format your Python docstrings to conform with PEP 8 and PEP 257"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Primer"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Primer"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29790868,
+      "status": "candidate",
+      "text": "ground"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29752966,
+      "status": "candidate",
+      "text": "fuse"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29749232,
+      "status": "candidate",
+      "text": "fuze"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29748834,
+      "status": "candidate",
+      "text": "fuzee"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29743490,
+      "status": "candidate",
+      "text": "fusee"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Primer",
+      "sense_id": "primer#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 23074,
+      "status": "candidate",
+      "text": "ground"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 15057,
+      "status": "candidate",
+      "text": "fuse"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 6030,
+      "status": "candidate",
+      "text": "fusee"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 2033,
+      "status": "candidate",
+      "text": "undercoat"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 2022,
+      "status": "candidate",
+      "text": "fuzee"
+    }
+  ],
+  "concept_id": "primer",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "primer",
+  "observation_id": "2901372ed93bda9d",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-30T00:37:16.824464+00:00",
+  "observed_text": "Primer",
+  "source_context_snippet": "Primer",
+  "source_file": ".github/workflows/primer.yaml",
+  "source_repo": "DanielNoord/pydocstringformatter",
+  "source_repo_description": "Automatically format your Python docstrings to conform with PEP 8 and PEP 257"
+}

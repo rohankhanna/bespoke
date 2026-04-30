@@ -1,0 +1,65 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "xuebinqin/BASNet",
+      "target": "nathanua/basnet",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "xuebinqin/BASNet",
+      "target": "nathanua/u-2-net",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "xuebinqin/BASNet",
+      "target": "nathanua/binary-segmentation-evaluation-tool",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T03:48:10.268561+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4067
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Code for CVPR 2019 paper. BASNet: Boundary-Aware Salient Object Detection",
+    "fork": false,
+    "full_name": "xuebinqin/BASNet",
+    "html_url": "https://github.com/xuebinqin/BASNet",
+    "language": "Python",
+    "pushed_at": "2023-09-10T11:28:16Z",
+    "stargazers_count": 1434,
+    "topics": [],
+    "updated_at": "2026-04-27T03:42:17Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "nathanua/basnet",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "nathanua/binary-segmentation-evaluation-tool",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "nathanua/u-2-net",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

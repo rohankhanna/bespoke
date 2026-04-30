@@ -1,0 +1,449 @@
+{
+  "components": [
+    {
+      "component": "write",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/artifact-redirector.yml"
+    },
+    {
+      "component": "scientific-python/circleci-artifacts-redirector-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/artifact-redirector.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/autoclose-schedule.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/autoclose-schedule.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/autoclose-schedule.yml"
+    },
+    {
+      "component": "actions/download-artifact@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bot-lint-comment.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bot-lint-comment.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bot-lint-comment.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-changelog.yml"
+    },
+    {
+      "component": "scientific-python/action-towncrier-changelog@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-changelog.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-sdist.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-sdist.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "github/codeql-action/init@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "github/codeql-action/autobuild@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "github/codeql-action/analyze@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codespell.yml"
+    },
+    {
+      "component": "codespell-project/codespell-problem-matcher@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codespell.yml"
+    },
+    {
+      "component": "codespell-project/actions-codespell@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codespell.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/artifact-redirector.yml",
+      "source_repo": "scikit-learn/scikit-learn",
+      "target": "write",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/artifact-redirector.yml",
+      "source_repo": "scikit-learn/scikit-learn",
+      "target": "scientific-python/circleci-artifacts-redirector-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/artifact-redirector.yml",
+      "source_repo": "scikit-learn/scikit-learn",
+      "target": "CircleCI artifacts redirector",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/autoclose-comment.yml",
+      "source_repo": "scikit-learn/scikit-learn",
+      "target": "autoclose comment",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/autoclose-schedule.yml",
+      "source_repo": "scikit-learn/scikit-learn",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/autoclose-schedule.yml",
+      "source_repo": "scikit-learn/scikit-learn",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/autoclose-schedule.yml",
+      "source_repo": "scikit-learn/scikit-learn",
+      "target": "autoclose schedule",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bot-lint-comment.yml",
+      "source_repo": "scikit-learn/scikit-learn",
+      "target": "actions/download-artifact@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bot-lint-comment.yml",
+      "source_repo": "scikit-learn/scikit-learn",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bot-lint-comment.yml",
+      "source_repo": "scikit-learn/scikit-learn",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/bot-lint-comment.yml",
+      "source_repo": "scikit-learn/scikit-learn",
+      "target": "Bot linter comment",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-changelog.yml",
+      "source_repo": "scikit-learn/scikit-learn",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-changelog.yml",
+      "source_repo": "scikit-learn/scikit-learn",
+      "target": "scientific-python/action-towncrier-changelog@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check-changelog.yml",
+      "source_repo": "scikit-learn/scikit-learn",
+      "target": "Check Changelog",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-sdist.yml",
+      "source_repo": "scikit-learn/scikit-learn",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-sdist.yml",
+      "source_repo": "scikit-learn/scikit-learn",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check-sdist.yml",
+      "source_repo": "scikit-learn/scikit-learn",
+      "target": "Check sdist",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "scikit-learn/scikit-learn",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "scikit-learn/scikit-learn",
+      "target": "github/codeql-action/init@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "scikit-learn/scikit-learn",
+      "target": "github/codeql-action/autobuild@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "scikit-learn/scikit-learn",
+      "target": "github/codeql-action/analyze@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "scikit-learn/scikit-learn",
+      "target": "CodeQL",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codespell.yml",
+      "source_repo": "scikit-learn/scikit-learn",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codespell.yml",
+      "source_repo": "scikit-learn/scikit-learn",
+      "target": "codespell-project/codespell-problem-matcher@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codespell.yml",
+      "source_repo": "scikit-learn/scikit-learn",
+      "target": "codespell-project/actions-codespell@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codespell.yml",
+      "source_repo": "scikit-learn/scikit-learn",
+      "target": "Codespell",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "scikit-learn/scikit-learn",
+      "target": "data-analysis",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "scikit-learn/scikit-learn",
+      "target": "data-science",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "scikit-learn/scikit-learn",
+      "target": "machine-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "scikit-learn/scikit-learn",
+      "target": "statistics",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T00:41:46.455905+00:00",
+  "fetched_files": [
+    {
+      "path": "README.rst",
+      "size": 7443
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 14763
+    },
+    {
+      "path": ".github/workflows/artifact-redirector.yml",
+      "size": 933
+    },
+    {
+      "path": ".github/workflows/autoclose-comment.yml",
+      "size": 2624
+    },
+    {
+      "path": ".github/workflows/autoclose-schedule.yml",
+      "size": 783
+    },
+    {
+      "path": ".github/workflows/bot-lint-comment.yml",
+      "size": 2454
+    },
+    {
+      "path": ".github/workflows/check-changelog.yml",
+      "size": 1701
+    },
+    {
+      "path": ".github/workflows/check-sdist.yml",
+      "size": 842
+    },
+    {
+      "path": ".github/workflows/codeql.yml",
+      "size": 2990
+    },
+    {
+      "path": ".github/workflows/codespell.yml",
+      "size": 507
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "scikit-learn: machine learning in Python",
+    "fork": false,
+    "full_name": "scikit-learn/scikit-learn",
+    "html_url": "https://github.com/scikit-learn/scikit-learn",
+    "language": "Python",
+    "pushed_at": "2026-04-29T14:56:41Z",
+    "stargazers_count": 65950,
+    "topics": [
+      "data-analysis",
+      "data-science",
+      "machine-learning",
+      "python",
+      "statistics"
+    ],
+    "updated_at": "2026-04-30T00:39:38Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "CircleCI artifacts redirector",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/artifact-redirector.yml",
+      "term": "CircleCI artifacts redirector"
+    },
+    {
+      "context_snippet": "autoclose comment",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/autoclose-comment.yml",
+      "term": "autoclose comment"
+    },
+    {
+      "context_snippet": "autoclose schedule",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/autoclose-schedule.yml",
+      "term": "autoclose schedule"
+    },
+    {
+      "context_snippet": "Bot linter comment",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/bot-lint-comment.yml",
+      "term": "Bot linter comment"
+    },
+    {
+      "context_snippet": "Check Changelog",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check-changelog.yml",
+      "term": "Check Changelog"
+    },
+    {
+      "context_snippet": "\"Check sdist\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check-sdist.yml",
+      "term": "Check sdist"
+    },
+    {
+      "context_snippet": "\"CodeQL\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql.yml",
+      "term": "CodeQL"
+    },
+    {
+      "context_snippet": "Codespell",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codespell.yml",
+      "term": "Codespell"
+    },
+    {
+      "context_snippet": ".. -*- mode: rst -*-",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "data-analysis"
+    },
+    {
+      "context_snippet": ".. -*- mode: rst -*-",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "data-science"
+    },
+    {
+      "context_snippet": ".. -*- mode: rst -*-",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "machine-learning"
+    },
+    {
+      "context_snippet": ".. -*- mode: rst -*-",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "statistics"
+    }
+  ]
+}

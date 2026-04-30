@@ -103,6 +103,30 @@
       "source_repo": "typstyle-rs/pre-commit-typstyle",
       "status": "candidate-context",
       "text": "typstyle for pre-commit."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Enter-tainer/typst-preview",
+      "status": "candidate-context",
+      "text": "[DEPRECATED] Use tinymist instead"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Enter-tainer/typst-preview",
+      "status": "candidate-context",
+      "text": "The contents of this repository have been consolidated into [tinymist](https://github.com/Myriad-Dreamin/tinymist). It is an all-in-one language server for typst."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hongjr03/tinymist-nightly-installer",
+      "status": "candidate-context",
+      "text": "Install the nightly version of Tinymist!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hongjr03/tinymist-nightly-installer",
+      "status": "candidate-context",
+      "text": "English | [\u7b80\u4f53\u4e2d\u6587](README.zh-CN.md)"
     }
   ],
   "candidate_glosses": [
@@ -153,6 +177,18 @@
       "source_repo": "typstyle-rs/pre-commit-typstyle",
       "status": "candidate",
       "text": "typstyle for pre-commit."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Enter-tainer/typst-preview",
+      "status": "candidate",
+      "text": "The contents of this repository have been consolidated into [tinymist](https://github.com/Myriad-Dreamin/tinymist). It is an all-in-one language server for typst."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hongjr03/tinymist-nightly-installer",
+      "status": "candidate",
+      "text": "English | [\u7b80\u4f53\u4e2d\u6587](README.zh-CN.md)"
     }
   ],
   "candidate_related_terms": [],
@@ -208,11 +244,29 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "typstyle-rs/pre-commit-typstyle"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "Enter-tainer/typst-preview"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "typstyle-rs/typstyle"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-30T00:37:16.824464+00:00",
+      "source_file": null,
+      "source_repo": "hongjr03/tinymist-nightly-installer"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "lexical_providers": [
     "datamuse"
   ],

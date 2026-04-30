@@ -1,0 +1,128 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "Comfy-Org/publish-node-action@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "FizzleDorf/ComfyUI_FizzNodes",
+      "target": "comfyanonymous/comfyui",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "FizzleDorf/ComfyUI_FizzNodes",
+      "target": "ltdrdata/comfyui-manager",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "FizzleDorf/ComfyUI_FizzNodes",
+      "target": "rewbs/sd-parseq",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "FizzleDorf/ComfyUI_FizzNodes",
+      "target": "deforum-art/sd-webui-deforum",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "FizzleDorf/ComfyUI_FizzNodes",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "FizzleDorf/ComfyUI_FizzNodes",
+      "target": "Comfy-Org/publish-node-action@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "FizzleDorf/ComfyUI_FizzNodes",
+      "target": "Publish to Comfy registry",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T03:55:25.278290+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3892
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 644
+    },
+    {
+      "path": "requirements.txt",
+      "size": 21
+    },
+    {
+      "path": ".github/workflows/publish.yml",
+      "size": 555
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Custom Nodes for Comfyui",
+    "fork": false,
+    "full_name": "FizzleDorf/ComfyUI_FizzNodes",
+    "html_url": "https://github.com/FizzleDorf/ComfyUI_FizzNodes",
+    "language": "Python",
+    "pushed_at": "2024-10-29T01:51:46Z",
+    "stargazers_count": 477,
+    "topics": [],
+    "updated_at": "2026-04-26T12:34:44Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "comfyanonymous/comfyui",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "deforum-art/sd-webui-deforum",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ltdrdata/comfyui-manager",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "rewbs/sd-parseq",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Publish to Comfy registry",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish.yml",
+      "term": "Publish to Comfy registry"
+    }
+  ]
+}

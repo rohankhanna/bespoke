@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T02:50:19.820731+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4044
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Mobile App Tasks with Iterative Feedback (MoTIF): Addressing Task Feasibility in Interactive Visual Environments",
+    "fork": false,
+    "full_name": "aburns4/MoTIF",
+    "html_url": "https://github.com/aburns4/MoTIF",
+    "language": "Jupyter Notebook",
+    "pushed_at": "2024-08-19T10:27:30Z",
+    "stargazers_count": 61,
+    "topics": [],
+    "updated_at": "2026-01-23T09:29:53Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

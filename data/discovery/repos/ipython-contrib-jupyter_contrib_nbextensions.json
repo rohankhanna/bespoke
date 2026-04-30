@@ -1,15 +1,7 @@
 {
   "components": [],
-  "edges": [
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "ipython-contrib/jupyter_contrib_nbextensions",
-      "target": "jupyter-contrib/jupyter_nbextensions_configurator",
-      "target_type": "repository"
-    }
-  ],
-  "fetched_at": "2026-04-29T19:45:57.388913+00:00",
+  "edges": [],
+  "fetched_at": "2026-04-30T04:49:55.017126+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -26,16 +18,10 @@
     "html_url": "https://github.com/ipython-contrib/jupyter_contrib_nbextensions",
     "language": "JavaScript",
     "pushed_at": "2024-07-04T10:37:29Z",
-    "stargazers_count": 5277,
+    "stargazers_count": 5278,
     "topics": [],
-    "updated_at": "2026-04-28T20:56:39Z"
+    "updated_at": "2026-04-30T01:44:01Z"
   },
-  "repo_links": [
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "jupyter-contrib/jupyter_nbextensions_configurator",
-      "source_file": "README.md"
-    }
-  ],
+  "repo_links": [],
   "terms": []
 }

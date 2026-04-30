@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T02:02:38.680853+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5933
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Data and Code for CVPR 2025 paper \"MMVU: Measuring Expert-Level Multi-Discipline Video Understanding\"",
+    "fork": false,
+    "full_name": "yale-nlp/MMVU",
+    "html_url": "https://github.com/yale-nlp/MMVU",
+    "language": "Python",
+    "pushed_at": "2025-02-28T04:20:21Z",
+    "stargazers_count": 77,
+    "topics": [],
+    "updated_at": "2026-04-08T07:32:26Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

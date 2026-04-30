@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-30T05:15:29.777891+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3913
+    },
+    {
+      "path": "requirements.txt",
+      "size": 202
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "An algorithm for weight-activation quantization (W4A4, W4A8) of LLMs, supporting both static and dynamic quantization",
+    "fork": false,
+    "full_name": "ChenMnZ/PrefixQuant",
+    "html_url": "https://github.com/ChenMnZ/PrefixQuant",
+    "language": "Python",
+    "pushed_at": "2025-11-26T07:22:15Z",
+    "stargazers_count": 171,
+    "topics": [],
+    "updated_at": "2026-04-24T07:59:26Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

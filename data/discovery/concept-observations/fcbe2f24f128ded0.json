@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Default community health files for the Puppet Labs org"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Metrics"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Metrics"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29963782,
+      "status": "candidate",
+      "text": "measured"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29906044,
+      "status": "candidate",
+      "text": "metrical"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29848912,
+      "status": "candidate",
+      "text": "rhythmical"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29846952,
+      "status": "candidate",
+      "text": "rhythmic"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19985886,
+      "status": "candidate",
+      "text": "figures"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Metrics",
+      "sense_id": "metrics#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "metrics",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "metrics",
+  "observation_id": "fcbe2f24f128ded0",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-30T00:37:16.824464+00:00",
+  "observed_text": "Metrics",
+  "source_context_snippet": "Metrics",
+  "source_file": ".github/workflows/org-metrics.yml",
+  "source_repo": "puppetlabs/.github",
+  "source_repo_description": "Default community health files for the Puppet Labs org"
+}

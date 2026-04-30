@@ -1,0 +1,61 @@
+{
+  "components": [
+    {
+      "component": "lee-dohm/no-response@v0.5.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/no-response.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/no-response.yml",
+      "source_repo": "withfig/fig",
+      "target": "lee-dohm/no-response@v0.5.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/no-response.yml",
+      "source_repo": "withfig/fig",
+      "target": "No Response",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-30T04:58:15.836132+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2634
+    },
+    {
+      "path": ".github/workflows/no-response.yml",
+      "size": 588
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "main",
+    "description": "Public issue tracker for Fig.",
+    "fork": false,
+    "full_name": "withfig/fig",
+    "html_url": "https://github.com/withfig/fig",
+    "language": null,
+    "pushed_at": "2025-03-13T19:27:29Z",
+    "stargazers_count": 2019,
+    "topics": [
+      "fig"
+    ],
+    "updated_at": "2026-03-30T05:53:33Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "No Response",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/no-response.yml",
+      "term": "No Response"
+    }
+  ]
+}

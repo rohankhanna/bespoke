@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "[CAAI AIR'24] Bilateral Reference for High-Resolution Dichotomous Image Segmentation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<h1 align=\"center\">Bilateral Reference for High-Resolution Dichotomous Image Segmentation</h1>"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">Bilateral Reference for High-Resolution Dichotomous Image Segmentation</h1>"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "high-resolution-image-segmentation",
+      "sense_id": "high-resolution-image-segmentation#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "high-resolution-image-segmentation",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "high-resolution-image-segmentation",
+  "observation_id": "8fec43bd747de3c2",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-30T00:37:16.824464+00:00",
+  "observed_text": "high-resolution-image-segmentation",
+  "source_context_snippet": "<h1 align=\"center\">Bilateral Reference for High-Resolution Dichotomous Image Segmentation</h1>",
+  "source_file": null,
+  "source_repo": "ZhengPeng7/BiRefNet",
+  "source_repo_description": "[CAAI AIR'24] Bilateral Reference for High-Resolution Dichotomous Image Segmentation"
+}

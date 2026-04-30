@@ -1,0 +1,81 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "bubbliiiing/yolov5-v6.1-pytorch",
+      "target": "bubbliiiing/yolox-pytorch",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "bubbliiiing/yolov5-v6.1-pytorch",
+      "target": "bubbliiiing/yolov7-pytorch",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "bubbliiiing/yolov5-v6.1-pytorch",
+      "target": "bubbliiiing/yolov7-tiny-pytorch",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "bubbliiiing/yolov5-v6.1-pytorch",
+      "target": "cartucho/map",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-30T03:46:17.336835+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7446
+    },
+    {
+      "path": "requirements.txt",
+      "size": 138
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "\u8fd9\u662f\u4e00\u4e2ayolov5-v6.1-pytorch\u7684\u6e90\u7801\uff0c\u53ef\u4ee5\u7528\u4e8e\u8bad\u7ec3\u81ea\u5df1\u7684\u6a21\u578b\u3002",
+    "fork": false,
+    "full_name": "bubbliiiing/yolov5-v6.1-pytorch",
+    "html_url": "https://github.com/bubbliiiing/yolov5-v6.1-pytorch",
+    "language": "Python",
+    "pushed_at": "2023-08-27T11:22:11Z",
+    "stargazers_count": 135,
+    "topics": [],
+    "updated_at": "2026-04-16T16:04:52Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "bubbliiiing/yolov7-pytorch",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "bubbliiiing/yolov7-tiny-pytorch",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "bubbliiiing/yolox-pytorch",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cartucho/map",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}
